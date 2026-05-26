@@ -1,0 +1,96 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr42",
+  "antwoord_datum": "2026-05-26T15:25:53Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Thematische toetsing** 🔗 — een aangekondigde controle die zich toespitst op één afgebakend thema (hier: toepassing van de antiwitwaswetgeving) past per definitie binnen het type \"thematische toetsing\".",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- (a) Vervolgtoetsing 🔗 — fout: deze veronderstelt een eerder vastgestelde tekortkoming die opnieuw wordt nagegaan, niet aan de orde.\n- (b) Thematische toetsing 🔗 — juist: ITAA selecteert periodiek een specifiek thema (bv. antiwitwas, dossiervorming, onafhankelijkheid) waarop alle of een steekproef van kantoren worden getoetst.\n- (c) Incidententoetsing 🔗 — fout: vereist een concreet incident of klacht als aanleiding.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-reglement van kwaliteitstoetsing onderscheidt vier soorten: periodieke (7-jaarlijks), thematische (per thema), vervolg- (opvolging tekortkoming) en incidententoetsing (na klacht/incident). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Vervolgtoetsing** 🔗 — een nieuwe controle die voortvloeit uit eerder vastgestelde tekortkomingen (ontbrekende UBO-attesten in de voorgaande thematische toetsing) is per definitie een vervolgtoetsing.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- (a) Vervolgtoetsing 🔗 — juist: het signaalwoord is \"ingevolge voorgaande toetsing\" + \"opnieuw komen controleren\". De vervolgtoetsing verifieert of de eerder vastgestelde gebreken effectief verholpen zijn.\n- (b) Thematische toetsing 🔗 — fout: dat was de eerste, hier gaat het om de opvolging.\n- (c) Incidententoetsing 🔗 — fout: aanleiding is een eigen vaststelling van ITAA, geen externe klacht of incident.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** ❓ — verwar de vervolgtoetsing niet met een nieuwe periodieke ronde: triggert ze door een eerder ongunstig toetsingsoordeel, niet door het 7-jaarlijks ritme.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-reglement kwaliteitstoetsing — vervolgtoetsing als opvolgingsinstrument bij vastgestelde tekortkomingen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Incidententoetsing** 🔗 — een klacht van een confrater over (onvolledige) dossieroverdracht is een concreet incident dat de aanleiding vormt voor een gerichte ad-hoc toetsing.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- (a) Vervolgtoetsing 🔗 — fout: er is geen voorgaande toetsing met tekortkoming die wordt opgevolgd.\n- (b) Thematische toetsing 🔗 — fout: er is geen breed ITAA-thema dat alle kantoren raakt, maar één concrete situatie.\n- (c) Incidententoetsing 🔗 — juist: klacht/incident als trigger → gerichte controle op het betrokken kantoor.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** 🔗 — onvolledige dossieroverdracht raakt aan deontologie (KB plichtenleer): bij wisseling van beroepsbeoefenaar moet het dossier integraal aan de opvolger worden bezorgd. De incidententoetsing kan parallel een tuchtspoor triggeren.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-reglement kwaliteitstoetsing — incidententoetsing wordt ingesteld na klacht of incident. Deontologische dossieroverdracht: KB 1 maart 1998 (plichtenleer). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

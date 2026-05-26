@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "U weigert het mandaat. Als externe boekhouder(-fiscalist) BIBF die de boekhouding voert van deze NV brengt een gelijktijdig bestuursmandaat — en zeker een uitvoerend mandaat zoals afgevaardigd bestuurder — uw onafhankelijkheid en onpartijdigheid in het gedrang: u zou de boekhouding voeren van een vennootschap waarvan u zelf het beleid mee bepaalt (controle op eigen werk). De plichtenleer verplicht u in dat geval de opdracht of het mandaat te weigeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Redenering in drie stappen:\n\n- **Onafhankelijkheid is een kernverplichting.** De externe boekhouder BIBF moet over de onafhankelijkheid beschikken die de uitoefening van een vrij beroep kenmerkt en moet zijn beroep uitoefenen met bekwaamheid, rechtschapenheid, eerlijkheid en waardigheid. 📖\n- **Weigerings-/teruggaveplicht bij conflict.** Zodra de onafhankelijke uitoefening van het beroep of de uitoefening volgens de plichtenleer in het gedrang komt, moet hij elke opdracht weigeren of elk mandaat teruggeven (art. 5 KB 18 juli 2017). 📖\n- **Toepassing op de casus.** Als afgevaardigd bestuurder zou u behoren tot het bestuursorgaan dat de jaarrekening opmaakt en aan de algemene vergadering voorlegt. U zou dus de boekhouding voeren en tegelijk verantwoordelijk zijn voor het beleid en de jaarrekening van diezelfde vennootschap — een typisch self-review-conflict dat onverenigbaar is met de vereiste onafhankelijkheid en onpartijdigheid. U deelt dit beleefd aan de cliënt mee en stelt voor de bestaande opdracht (boekhouding) verder te zetten, maar het bestuursmandaat te weigeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Een bestuursmandaat in een handelsvennootschap is voor een (extern) boekhouder BIBF **niet per definitie verboden**: de plichtenleer formuleert geen absolute lijst van onverenigbare functies, maar een **functioneel criterium** (onafhankelijkheid + waardigheid). Het probleem ontstaat hier omdat u **óók de boekhouding van diezelfde vennootschap voert** — die cumulatie creëert de self-review. Een louter niet-uitvoerend mandaat in een vennootschap waarvoor u geen boekhoudkundige opdracht uitvoert, kan, mits naleving van art. 4-5 en eventuele richtlijnen van de Raad van het Instituut, in principe wel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Reglement van plichtenleer BIBF (KB 18 juli 2017) — **art. 4** (onafhankelijkheid en waardigheid als grondvoorwaarden voor de uitoefening van het beroep) en **art. 5** (verplichting elke opdracht te weigeren of elk mandaat terug te geven zodra de onafhankelijke uitoefening van het beroep of de uitoefening volgens de plichtenleer in het gedrang komt). Op de datum van het examen (2008) gold het KB van 23 december 1997 met inhoudelijk gelijklopende regels; sinds 2022 is het beroep opgegaan in het ITAA, maar dezelfde principes leven voort in de ITAA-deontologie (onafhankelijkheid, geen self-review). 📖",
+          "wetsref": "Art. 4 en art. 5 KB 18 juli 2017 (reglement van plichtenleer BIBF)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

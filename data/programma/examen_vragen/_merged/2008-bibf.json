@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2008-bibf.pdf",
   "examen_id": "2008-bibf",
-  "merge_datum": "2026-05-26T15:05:37+00:00",
+  "merge_datum": "2026-05-26T15:29:22+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -2856,7 +2856,55 @@
       "vraag_id": "2008-bibf-vrJ1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "U weigert het mandaat. Als externe boekhouder(-fiscalist) BIBF die de boekhouding voert van deze NV brengt een gelijktijdig bestuursmandaat — en zeker een uitvoerend mandaat zoals afgevaardigd bestuurder — uw onafhankelijkheid en onpartijdigheid in het gedrang: u zou de boekhouding voeren van een vennootschap waarvan u zelf het beleid mee bepaalt (controle op eigen werk). De plichtenleer verplicht u in dat geval de opdracht of het mandaat te weigeren. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Redenering in drie stappen:\n\n- **Onafhankelijkheid is een kernverplichting.** De externe boekhouder BIBF moet over de onafhankelijkheid beschikken die de uitoefening van een vrij beroep kenmerkt en moet zijn beroep uitoefenen met bekwaamheid, rechtschapenheid, eerlijkheid en waardigheid. 📖\n- **Weigerings-/teruggaveplicht bij conflict.** Zodra de onafhankelijke uitoefening van het beroep of de uitoefening volgens de plichtenleer in het gedrang komt, moet hij elke opdracht weigeren of elk mandaat teruggeven (art. 5 KB 18 juli 2017). 📖\n- **Toepassing op de casus.** Als afgevaardigd bestuurder zou u behoren tot het bestuursorgaan dat de jaarrekening opmaakt en aan de algemene vergadering voorlegt. U zou dus de boekhouding voeren en tegelijk verantwoordelijk zijn voor het beleid en de jaarrekening van diezelfde vennootschap — een typisch self-review-conflict dat onverenigbaar is met de vereiste onafhankelijkheid en onpartijdigheid. U deelt dit beleefd aan de cliënt mee en stelt voor de bestaande opdracht (boekhouding) verder te zetten, maar het bestuursmandaat te weigeren. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Een bestuursmandaat in een handelsvennootschap is voor een (extern) boekhouder BIBF **niet per definitie verboden**: de plichtenleer formuleert geen absolute lijst van onverenigbare functies, maar een **functioneel criterium** (onafhankelijkheid + waardigheid). Het probleem ontstaat hier omdat u **óók de boekhouding van diezelfde vennootschap voert** — die cumulatie creëert de self-review. Een louter niet-uitvoerend mandaat in een vennootschap waarvoor u geen boekhoudkundige opdracht uitvoert, kan, mits naleving van art. 4-5 en eventuele richtlijnen van de Raad van het Instituut, in principe wel. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Reglement van plichtenleer BIBF (KB 18 juli 2017) — **art. 4** (onafhankelijkheid en waardigheid als grondvoorwaarden voor de uitoefening van het beroep) en **art. 5** (verplichting elke opdracht te weigeren of elk mandaat terug te geven zodra de onafhankelijke uitoefening van het beroep of de uitoefening volgens de plichtenleer in het gedrang komt). Op de datum van het examen (2008) gold het KB van 23 december 1997 met inhoudelijk gelijklopende regels; sinds 2022 is het beroep opgegaan in het ITAA, maar dezelfde principes leven voort in de ITAA-deontologie (onafhankelijkheid, geen self-review). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 4 en art. 5 KB 18 juli 2017 (reglement van plichtenleer BIBF)"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrK1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2910,7 +2958,86 @@
       "vraag_id": "2008-bibf-vrK1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Deontologisch verboden.** De klantenlijst van een confrater gebruiken om diens klanten af te werven — zeker tegen een lager tarief — schendt de plichten van confraterniteit, waardigheid en eerlijkheid van de boekhouder BIBF. De stagiair moet het bestandje **vernietigen of teruggeven** aan Patrick en mag de gegevens **niet exploiteren**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Drie deontologische beginselen worden geraakt:\n\n- **Confraterniteit** — de boekhouder BIBF is gehouden tot *wederzijdse hulp en hoffelijkheid* tegenover confraters en moet zich onthouden van *elke houding of handeling die een confrater schade kan berokkenen*. Een confrater zijn klantenbestand afnemen is per definitie schadeberokkenend. 📖\n- **Waardigheid en eerlijkheid** — het beroep moet worden uitgeoefend met *bekwaamheid, rechtschapenheid, eerlijkheid en waardigheid*. Profiteren van een verzendfout om vertrouwelijke commerciële gegevens te exploiteren is oneerlijk en onwaardig. 📖\n- **Verbod op oneerlijke klantenwerving (ronselen)** — reclame en klantenwerving moeten gebeuren met respect voor *beroepsgeheim, confraterniteit, eerlijkheid, onafhankelijkheid en waardigheid*; gerichte benadering op basis van een gestolen of per ongeluk ontvangen klantenlijst valt daarbuiten en is dus verboden. 🔗\n\nDe verlaagde prijs versterkt het verwijt: artikel 13 verbiedt commissies/voordelen die de onafhankelijkheid in het gedrang brengen, en het *underbidden* van een confrater met diens eigen tarief-informatie ondergraaft de loyale concurrentie tussen beroepsbeoefenaars. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Bij de overname van een dossier van een confrater schrijft art. 17 een **schriftelijke kennisgeving** voor en moet de overnemer er bij de cliënt op aandringen dat **openstaande honoraria** van de voorganger worden betaald. Hier is er geen overname: Patrick draagt één dossier over en stuurt per vergissing zijn volledige klantenbestand mee. Het correcte gedrag is Patrick onmiddellijk schriftelijk verwittigen (art. 16, tweede lid) en het bestandje terugbezorgen of vernietigen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "KB van 18 juli 2017 — reglement van plichtenleer BIBF: art. 4 (bekwaamheid, rechtschapenheid, eerlijkheid, waardigheid), art. 16 (wederzijdse hulp en hoffelijkheid; geen handelingen die een confrater schade berokkenen), art. 23 (klantenwerving/reclame met respect voor confraterniteit, eerlijkheid en waardigheid — grondslag voor het ronselverbod). 📖",
+                "type": "grondslag",
+                "wetsref": "KB 18.07.2017 plichtenleer BIBF, art. 4, art. 16, art. 23"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De relevante artikelen van het reglement van plichtenleer BIBF (KB 18 juli 2017) zijn:\n\n- **Art. 4** — algemene plicht het beroep uit te oefenen met *bekwaamheid, rechtschapenheid, eerlijkheid en waardigheid*. 📖\n- **Art. 16** — plicht tot *wederzijdse hulp en hoffelijkheid* tegenover confraters; verbod op elke houding of handeling die een confrater *schade kan berokkenen*. 📖\n- **Art. 23** — kader voor *klantenwerving, reclame en informatieverstrekking*: enkel toegelaten met respect voor *beroepsgeheim, confraterniteit, eerlijkheid, onafhankelijkheid en waardigheid* — de grondslag voor het verbod op ronselen. 📖\n\nAanvullend relevant:\n- **Art. 13, § 2** — verbod om voordelen toe te kennen of te ontvangen die de onafhankelijkheid in het gedrang brengen (raakt het *lager prijsje*-aspect). 📖\n- **Art. 19** — discretieplicht over vertrouwelijke gegevens die de boekhouder in zijn beroepsuitoefening verneemt (de doorgestuurde klantenlijst is vertrouwelijk). 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "De vraag dateert van 2008, toen het BIBF-plichtenreglement nog dat van het **KB van 23 december 1997** was. De huidige geldende tekst is het **KB van 18 juli 2017**, met grotendeels gelijklopende inhoud en artikel-nummering (art. 4 — waardigheid; art. 16 — confraterniteit; art. 23 — reclame/klantenwerving). De redenering en uitkomst zijn identiek. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "KB van 18 juli 2017 tot goedkeuring van het reglement van plichtenleer BIBF, art. 4, art. 13, art. 16, art. 19 en art. 23. 📖",
+                "type": "grondslag",
+                "wetsref": "KB 18.07.2017 plichtenleer BIBF, art. 4 / 13 / 16 / 19 / 23"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrK2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": {
           "deelvraag_id": "alle",
@@ -2980,7 +3107,97 @@
       "vraag_id": "2008-bibf-vrK2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Vóór ik de opdracht aanvaard, breng ik mijn voorganger Bernard schriftelijk (aangetekend) op de hoogte van de overname, dring ik bij Nico schriftelijk aan op de betaling van de onbetwiste honoraria die hij Bernard nog verschuldigd is, en stel ik samen met Bernard een gedetailleerde en gedagtekende inventaris in twee exemplaren op van alle over te dragen stukken — door beide partijen ondertekend. Grondslag: art. 17 KB 18 juli 2017 plichtenleer BIBF (in 2008: art. 17 KB 23 december 1997). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Stappen vóór aanvaarding** (art. 17, 1°-2°):\n\n- **Schriftelijke kennisgeving aan de voorganger** dat ik het dossier overneem, zelfs als de opvolging niet onmiddellijk gebeurt. In de praktijk: aangetekend, zodat de datum vaststaat. 📖\n- **Aandringen bij de cliënt op betaling** van de verschuldigde en onbetwiste honoraria van de voorganger — schriftelijk. Dit is een plicht van confraterniteit, geen invorderingsmandaat: ik blijf onafhankelijk van het ereloongeschil. 📖\n\n**Stappen bij de overdracht zelf** (art. 17, alinea's 2-3):\n\n- Bernard moet **binnen 15 dagen** alle stukken die eigendom zijn van Nico (en de stukken in het kader van wederzijdse hulp en hoffelijkheid) ter beschikking stellen van Nico of van mij. 📖\n- Bernard stelt daarvan een **gedetailleerde, gedagtekende inventaris in twee exemplaren** op, ondertekend door elke betrokken partij — één exemplaar voor de voorganger, één voor de opvolger/cliënt. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De opvolger int de honoraria van zijn voorganger **niet** zelf en is er ook geen borg voor — hij is enkel verplicht bij de cliënt schriftelijk \"aan te dringen\" op betaling van de **onbetwiste** honoraria. Een betwist ereloon valt buiten deze plicht en moet aan een gewone burgerlijke procedure of arbitrage worden overgelaten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 17 KB 18 juli 2017 tot goedkeuring van het reglement van plichtenleer BIBF: schriftelijke kennisgeving aan voorganger (1°), schriftelijk aandringen bij cliënt op betaling onbetwiste honoraria (2°), terbeschikkingstelling van de stukken binnen 15 dagen door de voorganger, en gedetailleerde en gedagtekende inventaris in twee exemplaren ondertekend door elke betrokken partij. Op het ogenblik van het examen (2008) was de inhoudelijk identieke bepaling te vinden in art. 17 van het KB van 23 december 1997 (plichtenleer der erkende boekhouders), dat door het KB van 18 juli 2017 is vervangen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 17 KB 18 juli 2017 plichtenleer BIBF (ten tijde 2008: art. 17 KB 23 december 1997)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Dat **kan niet**. Ik mag mijn broer Paul geen aanbrengcommissie betalen: de plichtenleer verbiedt de boekhouder BIBF om op enigerlei wijze commissielonen, makelaarslonen of welk voordeel dan ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die zijn onafhankelijkheid in het gedrang brengen. Ik bedank Paul dus op een andere manier (een persoonlijk geschenk uit eigen vermogen, niet uit het ereloon en niet als tegenprestatie voor de aanbreng). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De ratio van het verbod: een commissie aan de aanbrenger creëert een **financieel belang in het aantrekken van cliënten via die kanaal**, wat:\n\n- de **onafhankelijkheid** van de boekhouder uitholt (de cliënt heeft het recht te kunnen vertrouwen dat de keuze van de boekhouder vrij is van vergoede tussenpersonen) 🔗\n- de **waardigheid van het beroep** en het vrije karakter ervan ondermijnt (geen handelspraktijk-vergoedingen voor cliëntenwerving) 🔗\n- in 2008 stond dit verbod in **art. 13, alinea 3** van het toen geldende KB plichtenleer; sinds het KB van 18 juli 2017 is het overgenomen in **art. 13 §2** (zelfde inhoud, andere nummering) 🔗\n\n**Wat mag dan wel?** Paul niets vragen of toezeggen, en hem desgewenst privé bedanken op een manier die niet als tegenprestatie voor aanbreng kan worden gezien (geschenk uit het persoonlijke vermogen). Een formele \"finder's fee\" of doorlopende commissie is uitgesloten. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het verbod werkt in **beide richtingen**: de boekhouder BIBF mag commissies/voordelen verbonden aan zijn opdrachten noch **toekennen** (bv. aan een aanbrenger) noch **ontvangen** (bv. een terugkoppeling van een softwareleverancier voor doorverwezen cliënten, of een commissie van een bank voor doorverwezen kredietdossiers). Het ITAA-statuut huldigt dezelfde regel zonder de \"onafhankelijkheid\"-clausule: art. 47 wet 17 maart 2019 verbiedt elke commissie verbonden aan opdrachten ronduit. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 13 §2 KB 18 juli 2017 plichtenleer BIBF: \"Het is de boekhouder BIBF verboden om op enigerlei wijze commissie- of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die zijn onafhankelijkheid in het gedrang brengen.\" In het KB van 23 december 1997 (geldend in 2008) was dit verbod opgenomen als alinea 3 van art. 13. Voor accountants/belastingadviseurs nu: art. 47 wet 17 maart 2019 (ITAA-wet). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 13 §2 KB 18 juli 2017 plichtenleer BIBF (in 2008: art. 13, al. 3 KB 23 december 1997); art. 47 wet 17 maart 2019 (ITAA)"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrK3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": {
           "deelvraag_id": "alle",
@@ -3049,7 +3266,85 @@
       "vraag_id": "2008-bibf-vrK3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Artikel 12 van het reglement van plichtenleer BIBF**. Rik moet de klant die tijdens de schorsing een beroep op hem doet **in kennis stellen** dat hij zijn beroepsactiviteit niet kan uitoefenen, omdat zijn schorsing (3 maanden) de drempel van \"minstens één maand\" overschrijdt. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concreet voor de telefoontje van 3 januari 2008: Rik mag de BTW-aangifte Q4/2007 niet behandelen en moet de klant uitdrukkelijk laten weten dat hij geschorst is en de opdracht niet kan uitvoeren. De plicht ontstaat zodra de cliënt zelf contact opneemt tijdens de schorsing — actieve, spontane mededeling aan het volledige cliënteel wordt door art. 12 niet vereist, wél een correcte en tijdige melding op het ogenblik dat de cliënt aanklopt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De drempel \"minstens één maand\" is bewust gekozen: kortere schorsingen (bv. 14 dagen) ontslaan de boekhouder van de plicht tot mededeling, om disproportionele cliëntonrust te vermijden. Bij schorsing ≥ 1 maand weegt het belang van de cliënt (continuïteit van zijn boekhouding/aangiften) zwaarder dan de discretie van het lid. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 12 KB 18 juli 2017 tot goedkeuring van het reglement van plichtenleer BIBF: \"In geval een externe boekhouder BIBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen ingevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doet tijdens de schorsing.\" 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 12 KB 18 juli 2017 plichtenleer BIBF"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Minstens vier artikelen werden door Rik overtreden:\n\n- **Art. 6 — jaarlijkse bijdrage (lidgeld)**: Rik betaalde zijn lidgeld 2006 niet. 📖\n- **Art. 9 — gevraagde inlichtingen aan de organen van het Instituut**: Rik reageerde niet op de brieven van de assessor en verscheen niet op de zitting van de Kamer. 📖\n- **Art. 14 — verplichte verzekering burgerlijke beroepsaansprakelijkheid**: Rik betaalde zijn bijdrage aan de verzekering niet, waardoor de dekking vervalt en hij niet langer voldoet aan de verzekeringsplicht. 📖\n- **Art. 15 — beroepsvervolmaking (permanente vorming)**: Rik volgde slechts 14 uren in 2006, beneden het door de Raad vastgestelde minimum (vóór 2017: 30 u/jaar; sinds 2017 in detail door de Raad bepaald). 📖\n\n(Het modelantwoord 2008 verwijst naar **art. 5 (bijdrage)** in plaats van art. 6 — de bijdrage-bepaling stond in de toen geldende plichtenleer onder art. 5; bij de herziening van 2017 werd ze hernummerd tot art. 6. Inhoudelijk identiek.) 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Het niet-verschijnen voor de Kamer op zich is geen autonome overtreding van een **plichtenleer-artikel**, maar valt onder de algemene medewerkingsplicht van **art. 9** (\"alle gevraagde inlichtingen zo snel mogelijk en uiterlijk binnen de maand overmaken aan de bij wet of reglement opgerichte organen van het beroepsinstituut\"). De Kamer mag bij verstek beslissen — vandaar de schorsing van 3 maanden uitgesproken zonder Rik te horen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "KB 18 juli 2017 plichtenleer BIBF: art. 6 (jaarlijkse bijdrage), art. 9 (gevraagde inlichtingen binnen de maand), art. 14 (verplichte verzekering burgerlijke beroepsaansprakelijkheid + bewijs aan Beroepsinstituut), art. 15 (zorg voor beroepsvervolmaking + jaarlijkse rapportering aan het Instituut). De 2008-numering (art. 5 i.p.v. 6) volgt het toen geldende reglement. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 6, 9, 14 en 15 KB 18 juli 2017 plichtenleer BIBF"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrK4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": {
           "deelvraag_id": "alle",
@@ -3119,7 +3414,168 @@
       "vraag_id": "2008-bibf-vrK4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_historische_context": "Vraag uit 2008-BIBF-examen verwijst naar KB 15/02/2005 betreffende beroepsuitoefening van erkend boekhouder(-fiscalist) door een rechtspersoon. Dit KB en het BIBF zelf zijn sinds de Wet 17/03/2019 vervangen door het ITAA-regime — de inhoudelijke regels (doel-beperking, bestuurders-vereiste, 80%-aandelen-/stemrechten-regel, stagiair-meetelling) zijn quasi-identiek overgenomen in art. 24 Wet-ITAA-2019. De antwoorden worden hieronder volgens de oorspronkelijke KB-2005-grondslag geformuleerd (zoals de stagiair-BIBF in 2008 moest weten), met de moderne Wet-ITAA-2019 art. 24 als bewaarde referentie in het corpus.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het doel moet **beperkt** zijn tot de **voorbehouden en toegelaten activiteiten** van de erkend boekhouder(-fiscalist) — geen handelsactiviteiten en geen activiteiten die onverenigbaar zijn met het beroep. Daarnaast moet de vennootschap een **burgerlijke vennootschap** zijn (geen handelsvennootschap qua doel). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concrete aandachtspunten bij de doelclausule:\n\n- **Burgerlijk karakter**: de vennootschap oefent een vrij beroep uit en heeft een burgerlijk (niet-commercieel) doel. 🔗\n- **Beperking tot voorbehouden activiteiten**: enkel het bijhouden van boekhoudingen voor derden, opstellen van jaarrekeningen, advies en bijstand bij fiscale aangiftes en de andere taken die het KB van 15/02/2005 (resp. art. 3 en 6 Wet-ITAA-2019) voorbehoudt. 🔗\n- **Toegelaten verenigbare activiteiten** mogen ook worden vermeld, voor zover zij niet onverenigbaar zijn met het beroep (bv. occasioneel doceren, lidmaatschap raad van bestuur in beperkte mate). 🔗\n- **Verboden**: handelsactiviteiten, het beroep van vastgoedmakelaar, bank- of verzekeringsbemiddeling, alles wat de onafhankelijkheid van de beroepsbeoefenaar in gevaar brengt. 🔗\n- **Deelnemingen**: de vennootschap mag enkel deelnemingen aanhouden in andere vennootschappen waarvan het doel verenigbaar is met de beroepsuitoefening. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "De doelclausule mag niet \"breed\" worden geformuleerd met een algemene handelsclausule (\"alle commerciële en industriële activiteiten…\") zoals gebruikelijk is bij gewone BV's. Dat zou de erkenning door het Instituut blokkeren: de notaris-akte wordt door de ITAA-Raad op exact dit punt nagekeken. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**KB 15/02/2005**, art. 7 (doelomschrijving) en art. 8 (voorwaarden voor erkenning rechtspersoon BIBF) — toepasselijk regime ten tijde van het examen. 📖 Modern equivalent: **art. 24, §1, 2° en 3° Wet 17/03/2019** (Wet-ITAA-2019): het voorwerp en de activiteiten zijn beperkt tot de activiteiten bedoeld in art. 3 of 6, en deelnemingen enkel in vennootschappen waarvan het doel verenigbaar is. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 7-8 KB 15/02/2005 (toen) / art. 24 §1, 2°-3° Wet-ITAA-2019 (nu)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Enkel Philippe en Isabelle** kunnen tot zaakvoerder worden benoemd — zij zijn de enige BIBF-leden in de familie. De drie kinderen (nog studerend, geen BIBF-lid of -stagiair) kunnen géén zaakvoerder zijn. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Regel**: in een boekhoudvennootschap moeten **alle zaakvoerders/bestuurders** natuurlijke personen zijn die zelf de hoedanigheid van erkend boekhouder(-fiscalist) — vandaag fiscaal accountant of gecertificeerd accountant — hebben (of stagiair, zie deelvraag d). Dit verzekert dat de bestuurlijke leiding berust bij wie zelf onder beroepstucht en deontologie valt. 🔗\n\nFrans, Jan en Mathilde zijn studenten zonder BIBF-erkenning en zonder stage; zij kunnen dus enkel aandeelhouder zijn (binnen de 80%-grens, zie c), maar geen bestuurder. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 8, 5° KB 15/02/2005** (toen): alle zaakvoerders/bestuurders van de boekhoudvennootschap moeten erkend boekhouder(-fiscalist) zijn. 📖 Modern equivalent: **art. 24, §1, 5° Wet-ITAA-2019** — de meerderheid van de leden van het bestuursorgaan moet beroepsbeoefenaars zijn; in de praktijk vereist het Instituut dat **alle** bestuurders die het beroep effectief uitoefenen ook over de hoedanigheid beschikken. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 8, 5° KB 15/02/2005 / art. 24 §1, 5° Wet-ITAA-2019"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen, deze verdeling is niet toegelaten.** Philippe en Isabelle (de twee BIBF-leden) bezitten samen slechts **70 %** van de aandelen — onder de wettelijke drempel van **80 %** die in handen moet zijn van BIBF-leden (en/of -stagiairs). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Aandeelhouder | Hoedanigheid | % aandelen | Telt mee voor 80%-regel? |\n|---|---|---:|:---:|\n| Philippe | BIBF-lid | 35 % | ja |\n| Isabelle | BIBF-lid | 35 % | ja |\n| Frans | student (geen BIBF) | 10 % | neen |\n| Jan | student (geen BIBF) | 10 % | neen |\n| Mathilde | student (geen BIBF) | 10 % | neen |\n| **Totaal BIBF-leden** | | **70 %** | **< 80 %** → NIET conform 🔗 |\n\nDe 80%-vereiste geldt zowel voor **aandelen** als voor **stemrechten** — een aandeel-verdeling die de drempel haalt maar via meervoudig stemrecht of statutaire clausules de stemrechten anders verdeelt, voldoet evenmin. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Mogelijke remedies om de constructie wél conform te maken:\n- Philippe en Isabelle samen op **minstens 80 %** brengen (bv. elk 40 %), de drie kinderen samen op max. 20 %.\n- Of: één kind start een BIBF-stage (zie deelvraag d) — diens aandelen tellen dan mee voor de 80 %. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 8, 4° KB 15/02/2005** (toen): minstens 80 % van de aandelen én van de stemrechten moet in handen zijn van erkende boekhouders(-fiscalisten) of stagiairs. 📖 Modern equivalent: **art. 24, §1, 4° Wet-ITAA-2019** — de beroepsbeoefenaars (en/of gelijkwaardige EU-titularissen) bezitten de meerderheid van de stemrechten; voor accountants- en belastingadviseurs-vennootschappen wordt dit verder uitgewerkt tot een effectieve controle-vereiste. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 8, 4° KB 15/02/2005 / art. 24 §1, 4° Wet-ITAA-2019"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja op beide vragen — onder twee voorwaarden.** Een BIBF-stagiair mag zaakvoerder/bestuurder zijn én aandelen verwerven (ook 50 %), op voorwaarde dat (i) de 80%-drempel BIBF-leden + stagiairs gerespecteerd blijft, en (ii) de stagiair zijn beroep via de vennootschap **steeds samen** met zijn stagemeester (of een andere erkende boekhouder-fiscalist) uitoefent. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stagiair = volwaardig telmiddel voor 80%-regel.** Het KB 15/02/2005 stelt erkende boekhouders(-fiscalisten) **én** stagiairs gelijk voor de berekening van aandelen- en stemrechten-quota en voor de samenstelling van het bestuursorgaan. De oudste zoon mag dus zaakvoerder worden en bv. 50 % van de aandelen verwerven. 🔗\n\n**Maar — beperking eigen aan stagiairs**: een stagiair mag niet **zelfstandig** het beroep via de vennootschap uitoefenen. Tijdens de stage moet de uitoefening steeds in **co-beheer** met zijn stagemeester of een andere erkende beroepsbeoefenaar gebeuren. In casu: Philippe of Isabelle (beiden BIBF-erkend) moet mee-bestuurder blijven. 🔗\n\n**Check 80%-regel bij 50 % zoon**: stel zoon = stagiair en heeft 50 %; Philippe + Isabelle samen 50 % (bv. 25%+25%). Totaal BIBF + stagiair = 100 % ≥ 80 % → OK. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Een stagiair mag wel 50 % (of zelfs meer) van de aandelen bezitten, maar mag **nooit alleen** zaakvoerder zijn — co-bestuur met een volwaardig erkend beroepsbeoefenaar (typisch de stagemeester) blijft verplicht tot de stage met succes is afgerond en de zoon zelf als gecertificeerd accountant of fiscaal accountant is ingeschreven. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 1 en art. 2, §2 KB 15/02/2005** (toen): stagiairs worden voor de aandelen- en bestuurssamenstelling van een boekhoudvennootschap gelijkgesteld met erkende boekhouders(-fiscalisten), op voorwaarde van begeleide uitoefening samen met stagemeester of een ander erkend lid. 📖 Modern equivalent: **art. 24 Wet-ITAA-2019** + het ITAA-stagereglement — stagiairs tellen mee voor de meerderheidsvereisten, maar mogen niet autonoom optreden tijdens de stage. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 1 + art. 2, §2 KB 15/02/2005 / art. 24 Wet-ITAA-2019 + ITAA-stagereglement"
+              }
+            ],
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrK5"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": {
           "deelvraag_id": "alle",

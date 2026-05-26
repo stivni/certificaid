@@ -1,0 +1,79 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK4",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Artikel 12 van het reglement van plichtenleer BIBF**. Rik moet de klant die tijdens de schorsing een beroep op hem doet **in kennis stellen** dat hij zijn beroepsactiviteit niet kan uitoefenen, omdat zijn schorsing (3 maanden) de drempel van \"minstens één maand\" overschrijdt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Concreet voor de telefoontje van 3 januari 2008: Rik mag de BTW-aangifte Q4/2007 niet behandelen en moet de klant uitdrukkelijk laten weten dat hij geschorst is en de opdracht niet kan uitvoeren. De plicht ontstaat zodra de cliënt zelf contact opneemt tijdens de schorsing — actieve, spontane mededeling aan het volledige cliënteel wordt door art. 12 niet vereist, wél een correcte en tijdige melding op het ogenblik dat de cliënt aanklopt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De drempel \"minstens één maand\" is bewust gekozen: kortere schorsingen (bv. 14 dagen) ontslaan de boekhouder van de plicht tot mededeling, om disproportionele cliëntonrust te vermijden. Bij schorsing ≥ 1 maand weegt het belang van de cliënt (continuïteit van zijn boekhouding/aangiften) zwaarder dan de discretie van het lid. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 12 KB 18 juli 2017 tot goedkeuring van het reglement van plichtenleer BIBF: \"In geval een externe boekhouder BIBF in de onmogelijkheid is zijn beroepsactiviteit uit te oefenen ingevolge een schorsing van minstens één maand, dient hij zijn cliënteel hiervan in kennis te stellen, wanneer die een beroep op hem doet tijdens de schorsing.\" 📖",
+          "wetsref": "Art. 12 KB 18 juli 2017 plichtenleer BIBF",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Minstens vier artikelen werden door Rik overtreden:\n\n- **Art. 6 — jaarlijkse bijdrage (lidgeld)**: Rik betaalde zijn lidgeld 2006 niet. 📖\n- **Art. 9 — gevraagde inlichtingen aan de organen van het Instituut**: Rik reageerde niet op de brieven van de assessor en verscheen niet op de zitting van de Kamer. 📖\n- **Art. 14 — verplichte verzekering burgerlijke beroepsaansprakelijkheid**: Rik betaalde zijn bijdrage aan de verzekering niet, waardoor de dekking vervalt en hij niet langer voldoet aan de verzekeringsplicht. 📖\n- **Art. 15 — beroepsvervolmaking (permanente vorming)**: Rik volgde slechts 14 uren in 2006, beneden het door de Raad vastgestelde minimum (vóór 2017: 30 u/jaar; sinds 2017 in detail door de Raad bepaald). 📖\n\n(Het modelantwoord 2008 verwijst naar **art. 5 (bijdrage)** in plaats van art. 6 — de bijdrage-bepaling stond in de toen geldende plichtenleer onder art. 5; bij de herziening van 2017 werd ze hernummerd tot art. 6. Inhoudelijk identiek.) 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het niet-verschijnen voor de Kamer op zich is geen autonome overtreding van een **plichtenleer-artikel**, maar valt onder de algemene medewerkingsplicht van **art. 9** (\"alle gevraagde inlichtingen zo snel mogelijk en uiterlijk binnen de maand overmaken aan de bij wet of reglement opgerichte organen van het beroepsinstituut\"). De Kamer mag bij verstek beslissen — vandaar de schorsing van 3 maanden uitgesproken zonder Rik te horen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB 18 juli 2017 plichtenleer BIBF: art. 6 (jaarlijkse bijdrage), art. 9 (gevraagde inlichtingen binnen de maand), art. 14 (verplichte verzekering burgerlijke beroepsaansprakelijkheid + bewijs aan Beroepsinstituut), art. 15 (zorg voor beroepsvervolmaking + jaarlijkse rapportering aan het Instituut). De 2008-numering (art. 5 i.p.v. 6) volgt het toen geldende reglement. 📖",
+          "wetsref": "Art. 6, 9, 14 en 15 KB 18 juli 2017 plichtenleer BIBF",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

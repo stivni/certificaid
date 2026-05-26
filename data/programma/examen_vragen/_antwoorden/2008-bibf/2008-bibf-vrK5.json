@@ -1,0 +1,162 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK5",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_historische_context": "Vraag uit 2008-BIBF-examen verwijst naar KB 15/02/2005 betreffende beroepsuitoefening van erkend boekhouder(-fiscalist) door een rechtspersoon. Dit KB en het BIBF zelf zijn sinds de Wet 17/03/2019 vervangen door het ITAA-regime — de inhoudelijke regels (doel-beperking, bestuurders-vereiste, 80%-aandelen-/stemrechten-regel, stagiair-meetelling) zijn quasi-identiek overgenomen in art. 24 Wet-ITAA-2019. De antwoorden worden hieronder volgens de oorspronkelijke KB-2005-grondslag geformuleerd (zoals de stagiair-BIBF in 2008 moest weten), met de moderne Wet-ITAA-2019 art. 24 als bewaarde referentie in het corpus.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het doel moet **beperkt** zijn tot de **voorbehouden en toegelaten activiteiten** van de erkend boekhouder(-fiscalist) — geen handelsactiviteiten en geen activiteiten die onverenigbaar zijn met het beroep. Daarnaast moet de vennootschap een **burgerlijke vennootschap** zijn (geen handelsvennootschap qua doel). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concrete aandachtspunten bij de doelclausule:\n\n- **Burgerlijk karakter**: de vennootschap oefent een vrij beroep uit en heeft een burgerlijk (niet-commercieel) doel. 🔗\n- **Beperking tot voorbehouden activiteiten**: enkel het bijhouden van boekhoudingen voor derden, opstellen van jaarrekeningen, advies en bijstand bij fiscale aangiftes en de andere taken die het KB van 15/02/2005 (resp. art. 3 en 6 Wet-ITAA-2019) voorbehoudt. 🔗\n- **Toegelaten verenigbare activiteiten** mogen ook worden vermeld, voor zover zij niet onverenigbaar zijn met het beroep (bv. occasioneel doceren, lidmaatschap raad van bestuur in beperkte mate). 🔗\n- **Verboden**: handelsactiviteiten, het beroep van vastgoedmakelaar, bank- of verzekeringsbemiddeling, alles wat de onafhankelijkheid van de beroepsbeoefenaar in gevaar brengt. 🔗\n- **Deelnemingen**: de vennootschap mag enkel deelnemingen aanhouden in andere vennootschappen waarvan het doel verenigbaar is met de beroepsuitoefening. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De doelclausule mag niet \"breed\" worden geformuleerd met een algemene handelsclausule (\"alle commerciële en industriële activiteiten…\") zoals gebruikelijk is bij gewone BV's. Dat zou de erkenning door het Instituut blokkeren: de notaris-akte wordt door de ITAA-Raad op exact dit punt nagekeken. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**KB 15/02/2005**, art. 7 (doelomschrijving) en art. 8 (voorwaarden voor erkenning rechtspersoon BIBF) — toepasselijk regime ten tijde van het examen. 📖 Modern equivalent: **art. 24, §1, 2° en 3° Wet 17/03/2019** (Wet-ITAA-2019): het voorwerp en de activiteiten zijn beperkt tot de activiteiten bedoeld in art. 3 of 6, en deelnemingen enkel in vennootschappen waarvan het doel verenigbaar is. 📖",
+          "wetsref": "art. 7-8 KB 15/02/2005 (toen) / art. 24 §1, 2°-3° Wet-ITAA-2019 (nu)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Enkel Philippe en Isabelle** kunnen tot zaakvoerder worden benoemd — zij zijn de enige BIBF-leden in de familie. De drie kinderen (nog studerend, geen BIBF-lid of -stagiair) kunnen géén zaakvoerder zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Regel**: in een boekhoudvennootschap moeten **alle zaakvoerders/bestuurders** natuurlijke personen zijn die zelf de hoedanigheid van erkend boekhouder(-fiscalist) — vandaag fiscaal accountant of gecertificeerd accountant — hebben (of stagiair, zie deelvraag d). Dit verzekert dat de bestuurlijke leiding berust bij wie zelf onder beroepstucht en deontologie valt. 🔗\n\nFrans, Jan en Mathilde zijn studenten zonder BIBF-erkenning en zonder stage; zij kunnen dus enkel aandeelhouder zijn (binnen de 80%-grens, zie c), maar geen bestuurder. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 8, 5° KB 15/02/2005** (toen): alle zaakvoerders/bestuurders van de boekhoudvennootschap moeten erkend boekhouder(-fiscalist) zijn. 📖 Modern equivalent: **art. 24, §1, 5° Wet-ITAA-2019** — de meerderheid van de leden van het bestuursorgaan moet beroepsbeoefenaars zijn; in de praktijk vereist het Instituut dat **alle** bestuurders die het beroep effectief uitoefenen ook over de hoedanigheid beschikken. 📖",
+          "wetsref": "art. 8, 5° KB 15/02/2005 / art. 24 §1, 5° Wet-ITAA-2019",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen, deze verdeling is niet toegelaten.** Philippe en Isabelle (de twee BIBF-leden) bezitten samen slechts **70 %** van de aandelen — onder de wettelijke drempel van **80 %** die in handen moet zijn van BIBF-leden (en/of -stagiairs). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "| Aandeelhouder | Hoedanigheid | % aandelen | Telt mee voor 80%-regel? |\n|---|---|---:|:---:|\n| Philippe | BIBF-lid | 35 % | ja |\n| Isabelle | BIBF-lid | 35 % | ja |\n| Frans | student (geen BIBF) | 10 % | neen |\n| Jan | student (geen BIBF) | 10 % | neen |\n| Mathilde | student (geen BIBF) | 10 % | neen |\n| **Totaal BIBF-leden** | | **70 %** | **< 80 %** → NIET conform 🔗 |\n\nDe 80%-vereiste geldt zowel voor **aandelen** als voor **stemrechten** — een aandeel-verdeling die de drempel haalt maar via meervoudig stemrecht of statutaire clausules de stemrechten anders verdeelt, voldoet evenmin. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Mogelijke remedies om de constructie wél conform te maken:\n- Philippe en Isabelle samen op **minstens 80 %** brengen (bv. elk 40 %), de drie kinderen samen op max. 20 %.\n- Of: één kind start een BIBF-stage (zie deelvraag d) — diens aandelen tellen dan mee voor de 80 %. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 8, 4° KB 15/02/2005** (toen): minstens 80 % van de aandelen én van de stemrechten moet in handen zijn van erkende boekhouders(-fiscalisten) of stagiairs. 📖 Modern equivalent: **art. 24, §1, 4° Wet-ITAA-2019** — de beroepsbeoefenaars (en/of gelijkwaardige EU-titularissen) bezitten de meerderheid van de stemrechten; voor accountants- en belastingadviseurs-vennootschappen wordt dit verder uitgewerkt tot een effectieve controle-vereiste. 📖",
+          "wetsref": "art. 8, 4° KB 15/02/2005 / art. 24 §1, 4° Wet-ITAA-2019",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja op beide vragen — onder twee voorwaarden.** Een BIBF-stagiair mag zaakvoerder/bestuurder zijn én aandelen verwerven (ook 50 %), op voorwaarde dat (i) de 80%-drempel BIBF-leden + stagiairs gerespecteerd blijft, en (ii) de stagiair zijn beroep via de vennootschap **steeds samen** met zijn stagemeester (of een andere erkende boekhouder-fiscalist) uitoefent. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Stagiair = volwaardig telmiddel voor 80%-regel.** Het KB 15/02/2005 stelt erkende boekhouders(-fiscalisten) **én** stagiairs gelijk voor de berekening van aandelen- en stemrechten-quota en voor de samenstelling van het bestuursorgaan. De oudste zoon mag dus zaakvoerder worden en bv. 50 % van de aandelen verwerven. 🔗\n\n**Maar — beperking eigen aan stagiairs**: een stagiair mag niet **zelfstandig** het beroep via de vennootschap uitoefenen. Tijdens de stage moet de uitoefening steeds in **co-beheer** met zijn stagemeester of een andere erkende beroepsbeoefenaar gebeuren. In casu: Philippe of Isabelle (beiden BIBF-erkend) moet mee-bestuurder blijven. 🔗\n\n**Check 80%-regel bij 50 % zoon**: stel zoon = stagiair en heeft 50 %; Philippe + Isabelle samen 50 % (bv. 25%+25%). Totaal BIBF + stagiair = 100 % ≥ 80 % → OK. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een stagiair mag wel 50 % (of zelfs meer) van de aandelen bezitten, maar mag **nooit alleen** zaakvoerder zijn — co-bestuur met een volwaardig erkend beroepsbeoefenaar (typisch de stagemeester) blijft verplicht tot de stage met succes is afgerond en de zoon zelf als gecertificeerd accountant of fiscaal accountant is ingeschreven. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 1 en art. 2, §2 KB 15/02/2005** (toen): stagiairs worden voor de aandelen- en bestuurssamenstelling van een boekhoudvennootschap gelijkgesteld met erkende boekhouders(-fiscalisten), op voorwaarde van begeleide uitoefening samen met stagemeester of een ander erkend lid. 📖 Modern equivalent: **art. 24 Wet-ITAA-2019** + het ITAA-stagereglement — stagiairs tellen mee voor de meerderheidsvereisten, maar mogen niet autonoom optreden tijdens de stage. 📖",
+          "wetsref": "art. 1 + art. 2, §2 KB 15/02/2005 / art. 24 Wet-ITAA-2019 + ITAA-stagereglement",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

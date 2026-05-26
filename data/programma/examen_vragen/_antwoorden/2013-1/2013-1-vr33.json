@@ -1,0 +1,150 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr33",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a,b,c,e,f,h,i,j,k",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Als \"beroepsbeoefenaar\" in de zin van de Antiwitwaswet gelden enkel de **externe** mandaathouders en hun stagiairs én de bedrijfsrevisoren — concreet: **a** (Bedrijfsrevisoren), **b** (Stagiair bedrijfsrevisoren), **c** (Externe Accountants - Belastingconsulenten), **e** (Stagiair Accountants - Belastingconsulenten), **f** (Externe Belastingconsulenten), **h** (Stagiair Belastingconsulenten), **i** (Erkende Boekhouders - Fiscalisten), **j** (Erkende Boekhouders) en **k** (Stagiair Boekhouders - Fiscalisten). **Interne** accountants en belastingconsulenten (opties **d** en **g**) vallen erbuiten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De Antiwitwaswet (Wet 18 september 2017, voorheen Wet 11 januari 1993) is van toepassing op de **onderworpen entiteiten** (art. 5 AWW). Voor onze beroepscategorieën zijn dat de personen opgesomd in punt 1.1, 9°, a), b) en c) van de geconsolideerde ITAA-norm: bedrijfsrevisoren (a), externe (gecertificeerde) accountants en belastingadviseurs én hun stagiairs (b), en erkende boekhouders(-fiscalisten) van het ITAA en hun stagiairs (c). 📖\n\n- **a, b**: bedrijfsrevisoren en hun stagiairs → onderworpen. 📖\n- **c, e**: externe accountants(-belastingconsulenten) en hun stagiairs → onderworpen. 📖\n- **d, g**: **interne** accountants en **interne** belastingconsulenten oefenen hun activiteit uit binnen een arbeidsovereenkomst voor één werkgever, niet \"voor rekening van derden\" — zij zijn **geen onderworpen entiteit** en bijgevolg geen beroepsbeoefenaar in AWW-zin. 🔗\n- **f, h**: externe belastingconsulenten en hun stagiairs → onderworpen. 📖\n- **i, j, k**: erkende boekhouders, erkende boekhouders-fiscalisten en hun stagiairs → onderworpen. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de tien-drempel uit de vraag-context: die tien telt **enkel** \"beroepsbeoefenaars in de zin van punt 1.1, 9°, a), b) en c)\" — dus interne accountants/belastingconsulenten tellen ook niet mee voor het bepalen of een aparte AMLCO verplicht is. Onder de drempel mag de verantwoordelijke op het hoogste niveau zelf AMLCO zijn; vanaf tien moet het een andere persoon zijn. Een stagiair kan in geen geval AMLCO of verantwoordelijke op het hoogste niveau zijn. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 5 Wet 18 september 2017 (AWW) — toepassingsgebied / onderworpen entiteiten; ITAA-norm AWW (geconsolideerd) punt 1.1, 9°, a-c (definitie beroepsbeoefenaar) en punt 2.2 (AMLCO-drempel van 10). De wet van 11 januari 1993 (toepasselijk in 2013) hanteerde dezelfde afbakening voor de externe categorieën. 📖",
+          "wetsref": "Art. 5 Wet 18.09.2017 (AWW); ITAA-norm-aww §1.1, 9°",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Drie kerntaken van de AMLCO (compliance officer / witwasverantwoordelijke):\n\n1. **Toezicht op de tenuitvoerlegging van de gedragslijnen, procedures en internecontrolemaatregelen** inzake AWW binnen het kantoor — hij/zij waakt erover dat de risicogebaseerde waakzaamheidsverplichtingen (cliëntonderzoek, identificatie, opvolging) effectief worden toegepast. 📖\n2. **Analyse van atypische verrichtingen en opstellen van schriftelijke verslagen** (art. 45-46 AWW): de medewerkers en beroepsbeoefenaars leggen atypische verrichtingen voor aan de AMLCO, die beoordeelt of er een vermoeden van witwassen of financiering van terrorisme is dat aan de CFI moet worden gemeld (art. 47). 📖\n3. **Organisatie van opleiding en sensibilisering** van medewerkers en personeel inzake AWW — herkennen van verdachte transacties, kennis van de wetgeving, deontologische ingesteldheid. Het volgen van deze opleidingen is verplicht voor alle betrokkenen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Andere taken die in dezelfde lijn vallen en als alternatief antwoord aanvaardbaar zijn: opstellen en bijwerken van de algemene risicobeoordeling van het kantoor; rapporteren aan de verantwoordelijke op het hoogste niveau (en aan het ITAA-toezicht); centraal aanspreekpunt voor de CFI en de toezichthouder. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 9, §2 AWW (aanstelling AMLCO); art. 45-47 AWW (analyse atypische verrichtingen, schriftelijke verslagen, melding aan CFI); ITAA-norm AWW (geconsolideerd) punt 2.2 (drempel + onverenigbaarheid) en punt 5 (onderzoek van verrichtingen + meldingsplicht). 📖",
+          "wetsref": "Art. 9, §2 + art. 45-47 Wet 18.09.2017 (AWW); ITAA-norm-aww §2.2 + §5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_ja_neen",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja.** De aanstelling van een AMLCO ontslaat de overige beroepsbeoefenaars **niet** van hun individuele meldingsplicht. De wettelijke spreekplicht uit art. 47 AWW rust op **elke** onderworpen beroepsbeoefenaar persoonlijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De AMLCO is intern aangesteld om de meldingsstroom te centraliseren en de analyse van atypische verrichtingen te coördineren, maar de wet zelf legt de meldingsplicht op aan \"de onderworpen entiteiten / de beroepsbeoefenaars\" — niet enkel aan de AMLCO. De norm bevestigt dat de melding aan de CFI in principe via de AMLCO verloopt, maar dat de beroepsbeoefenaar die zelf een vermoeden heeft en die de AMLCO niet (tijdig) kan bereiken, **rechtstreeks** moet melden. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+            "resources/bronnen/normen/ITAA-norm-aww-richtlijn-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 47 Wet 18.09.2017 (spreekplicht beroepsbeoefenaars t.a.v. CFI); ITAA-norm AWW (geconsolideerd) punt 5.3 — \"Wanneer de AMLCO of, in voorkomend geval, één van de beroepsbeoefenaars (...) een vermoeden (...) meldt aan de CFI\". 📖",
+          "wetsref": "Art. 47 Wet 18.09.2017 (AWW); ITAA-norm-aww §5.3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c_vervolg",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Praktische gang van zaken wanneer een andere beroepsbeoefenaar een vermoeden van witwassen of financiering van terrorisme heeft:\n\n1. **Intern signaleren aan de AMLCO**: de beroepsbeoefenaar (of medewerker) brengt de atypische verrichting schriftelijk ter kennis van de AMLCO, die de specifieke analyse coördineert (art. 45 AWW). 📖\n2. **Analyse en beslissing tot melding**: bevestigt de AMLCO het vermoeden, dan wordt de melding **onverwijld** aan de CFI overgemaakt (art. 47 AWW), met opstelling van een schriftelijk verslag (art. 45-46). 📖\n3. **Rechtstreekse melding als terugvaloptie**: kan de AMLCO niet (tijdig) worden bereikt of weigert die te melden terwijl het vermoeden gegrond is, dan moet de betrokken beroepsbeoefenaar **zelf rechtstreeks** aan de CFI melden — zijn persoonlijke meldingsplicht blijft volledig overeind. 🔗\n4. **Vertrouwelijkheid (tipping-off-verbod)**: de cliënt of derden mogen niet worden ingelicht over de (voorgenomen) melding (art. 55 AWW). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+            "resources/bronnen/normen/ITAA-norm-aww-richtlijn-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De melder geniet **strafrechtelijke, burgerlijke én tuchtrechtelijke immuniteit** voor de te goeder trouw verrichte melding (art. 57 AWW). De meldingsplicht vormt bovendien een wettelijke afwijking op het beroepsgeheim (art. 458 Sw.) — de beroepsbeoefenaar kan zich dus niet achter het beroepsgeheim verschuilen om niet te melden. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45-47, 55 en 57 Wet 18.09.2017 (AWW); ITAA-norm AWW (geconsolideerd) punt 5.1-5.3 (onderkennen, analyseren en melden van atypische verrichtingen). 📖",
+          "wetsref": "Art. 45-47, 55, 57 Wet 18.09.2017 (AWW); ITAA-norm-aww §5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

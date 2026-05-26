@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr34",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De twee uitzonderingen in het Strafwetboek waarbij de externe accountant of belastingconsulent het beroepsgeheim naast zich neer **kan** leggen, zijn:\n\n1. **Art. 458 Sw** — wanneer hij in rechte (voor een rechter of voor een parlementaire onderzoekscommissie) wordt opgeroepen om getuigenis af te leggen. 📖\n2. **Art. 458bis Sw** — het meldrecht aan de procureur des Konings voor bepaalde ernstige misdrijven gepleegd op een minderjarige of op een persoon in een kwetsbare toestand. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Strafwetboek-1867.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**1. Getuigenis in rechte (art. 458 Sw)** — De wetstekst zelf voorziet dat geheimplichtigen geheimen mogen bekendmaken wanneer zij \"geroepen worden om in rechte (of voor een parlementaire onderzoekscommissie) getuigenis af te leggen\". De accountant heeft hier een **spreekrecht**, geen spreekplicht: hij oordeelt zelf, geval per geval, of hij het geheim opheft. Een verhoor door politie of openbaar ministerie buiten een gerechtelijke procedure valt **niet** onder deze uitzondering. 📖\n\n**2. Meldrecht art. 458bis Sw** — Bij kennis van een limitatief opgesomd misdrijf (o.a. zedenfeiten, geweld, verwaarlozing) gepleegd op een minderjarige of een kwetsbare persoon mag de accountant het feit ter kennis brengen van de procureur des Konings, op voorwaarde dat er een ernstig en dreigend gevaar bestaat voor de fysieke of psychische integriteit van het slachtoffer dat hij niet zelf of met hulp van anderen kan beschermen, en dat hij het slachtoffer heeft onderzocht of in vertrouwen genomen. Ook hier: **recht**, geen plicht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Strafwetboek-1867.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar deze twee Strafwetboek-uitzonderingen niet met de **antiwitwasmeldingsplicht** aan de CFI (art. 47 e.v. Antiwitwaswet 2017). Die meldingsplicht doorbreekt het beroepsgeheim óók, maar zit **niet** in het Strafwetboek en is bovendien een **verplichting** (moet melden), niet een keuze. De vraag vraagt expliciet naar uitzonderingen \"ingeschreven in het Strafwetboek\" — antwoord blijft art. 458 en art. 458bis. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Strafwetboek-1867.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 458 Sw**: \"[...] buiten het geval dat zij geroepen worden om in rechte (of voor een parlementaire onderzoekscommissie) getuigenis af te leggen en buiten het geval dat de wet, het decreet of de ordonnantie hen verplicht of toelaat die geheimen bekend te maken [...]\". **Art. 458bis Sw**: meldrecht voor in de wet opgesomde misdrijven gepleegd op minderjarigen of kwetsbare personen, na onderzoek/vertrouwen en bij ernstig en dreigend gevaar dat de geheimhouder niet anders kan afwenden. 📖",
+          "wetsref": "Art. 458 en art. 458bis Strafwetboek 8 juni 1867",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Strafwetboek-1867.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK3",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Vóór ik de opdracht aanvaard, breng ik mijn voorganger Bernard schriftelijk (aangetekend) op de hoogte van de overname, dring ik bij Nico schriftelijk aan op de betaling van de onbetwiste honoraria die hij Bernard nog verschuldigd is, en stel ik samen met Bernard een gedetailleerde en gedagtekende inventaris in twee exemplaren op van alle over te dragen stukken — door beide partijen ondertekend. Grondslag: art. 17 KB 18 juli 2017 plichtenleer BIBF (in 2008: art. 17 KB 23 december 1997). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Stappen vóór aanvaarding** (art. 17, 1°-2°):\n\n- **Schriftelijke kennisgeving aan de voorganger** dat ik het dossier overneem, zelfs als de opvolging niet onmiddellijk gebeurt. In de praktijk: aangetekend, zodat de datum vaststaat. 📖\n- **Aandringen bij de cliënt op betaling** van de verschuldigde en onbetwiste honoraria van de voorganger — schriftelijk. Dit is een plicht van confraterniteit, geen invorderingsmandaat: ik blijf onafhankelijk van het ereloongeschil. 📖\n\n**Stappen bij de overdracht zelf** (art. 17, alinea's 2-3):\n\n- Bernard moet **binnen 15 dagen** alle stukken die eigendom zijn van Nico (en de stukken in het kader van wederzijdse hulp en hoffelijkheid) ter beschikking stellen van Nico of van mij. 📖\n- Bernard stelt daarvan een **gedetailleerde, gedagtekende inventaris in twee exemplaren** op, ondertekend door elke betrokken partij — één exemplaar voor de voorganger, één voor de opvolger/cliënt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De opvolger int de honoraria van zijn voorganger **niet** zelf en is er ook geen borg voor — hij is enkel verplicht bij de cliënt schriftelijk \"aan te dringen\" op betaling van de **onbetwiste** honoraria. Een betwist ereloon valt buiten deze plicht en moet aan een gewone burgerlijke procedure of arbitrage worden overgelaten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 17 KB 18 juli 2017 tot goedkeuring van het reglement van plichtenleer BIBF: schriftelijke kennisgeving aan voorganger (1°), schriftelijk aandringen bij cliënt op betaling onbetwiste honoraria (2°), terbeschikkingstelling van de stukken binnen 15 dagen door de voorganger, en gedetailleerde en gedagtekende inventaris in twee exemplaren ondertekend door elke betrokken partij. Op het ogenblik van het examen (2008) was de inhoudelijk identieke bepaling te vinden in art. 17 van het KB van 23 december 1997 (plichtenleer der erkende boekhouders), dat door het KB van 18 juli 2017 is vervangen. 📖",
+          "wetsref": "Art. 17 KB 18 juli 2017 plichtenleer BIBF (ten tijde 2008: art. 17 KB 23 december 1997)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Dat **kan niet**. Ik mag mijn broer Paul geen aanbrengcommissie betalen: de plichtenleer verbiedt de boekhouder BIBF om op enigerlei wijze commissielonen, makelaarslonen of welk voordeel dan ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die zijn onafhankelijkheid in het gedrang brengen. Ik bedank Paul dus op een andere manier (een persoonlijk geschenk uit eigen vermogen, niet uit het ereloon en niet als tegenprestatie voor de aanbreng). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De ratio van het verbod: een commissie aan de aanbrenger creëert een **financieel belang in het aantrekken van cliënten via die kanaal**, wat:\n\n- de **onafhankelijkheid** van de boekhouder uitholt (de cliënt heeft het recht te kunnen vertrouwen dat de keuze van de boekhouder vrij is van vergoede tussenpersonen) 🔗\n- de **waardigheid van het beroep** en het vrije karakter ervan ondermijnt (geen handelspraktijk-vergoedingen voor cliëntenwerving) 🔗\n- in 2008 stond dit verbod in **art. 13, alinea 3** van het toen geldende KB plichtenleer; sinds het KB van 18 juli 2017 is het overgenomen in **art. 13 §2** (zelfde inhoud, andere nummering) 🔗\n\n**Wat mag dan wel?** Paul niets vragen of toezeggen, en hem desgewenst privé bedanken op een manier die niet als tegenprestatie voor aanbreng kan worden gezien (geschenk uit het persoonlijke vermogen). Een formele \"finder's fee\" of doorlopende commissie is uitgesloten. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het verbod werkt in **beide richtingen**: de boekhouder BIBF mag commissies/voordelen verbonden aan zijn opdrachten noch **toekennen** (bv. aan een aanbrenger) noch **ontvangen** (bv. een terugkoppeling van een softwareleverancier voor doorverwezen cliënten, of een commissie van een bank voor doorverwezen kredietdossiers). Het ITAA-statuut huldigt dezelfde regel zonder de \"onafhankelijkheid\"-clausule: art. 47 wet 17 maart 2019 verbiedt elke commissie verbonden aan opdrachten ronduit. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 13 §2 KB 18 juli 2017 plichtenleer BIBF: \"Het is de boekhouder BIBF verboden om op enigerlei wijze commissie- of makelaarslonen of welkdanig voordeel ook toe te kennen of te ontvangen die verband houden met zijn opdrachten en die zijn onafhankelijkheid in het gedrang brengen.\" In het KB van 23 december 1997 (geldend in 2008) was dit verbod opgenomen als alinea 3 van art. 13. Voor accountants/belastingadviseurs nu: art. 47 wet 17 maart 2019 (ITAA-wet). 📖",
+          "wetsref": "Art. 13 §2 KB 18 juli 2017 plichtenleer BIBF (in 2008: art. 13, al. 3 KB 23 december 1997); art. 47 wet 17 maart 2019 (ITAA)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

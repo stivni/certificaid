@@ -1,0 +1,64 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrK2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, dezelfde principes gelden** wanneer het dossier wordt overgenomen of overgedragen ten aanzien van een IAB-accountant of een IBR-bedrijfsrevisor. De drie instituten (BIBF, IAB, IBR) hebben gezamenlijk *Gedragslijnen inzake de beroepsrelaties* uitgevaardigd die de **confraterniteitsprincipes coherent en systematisch** toepassen op interprofessionele relaties — ook bij dossieroverdracht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Rechtsgrondslag voor de gelijkschakeling**:\n\n- De drie instituten hebben de wil uitgedrukt om evenwichtige interprofessionele relaties te bevorderen door een **coherente en systematische toepassing van de confraterniteitsprincipes** op de relaties tussen leden van de drie instituten — voor boekhoudkundige expertise, boekhouding én fiscaliteit. 📖\n- Elk instituut heeft in zijn eigen plichtenleer parallelle bepalingen die de overname van een dossier van een **\"confrater of een boekhouder\"** regelen — niet enkel binnen het eigen instituut:\n  - **BIBF-zijde**: art. 17 KB 18 juli 2017 spreekt over overname van \"een confrater\" en geldt voor opvolging van een persoon \"die niet gehouden is door deontologische regels die gelijkaardig zijn\" — interprofessioneel toepasselijk gemaakt. 📖\n  - **IAB-accountant-zijde**: art. 23 KB 1 maart 1998 viseert uitdrukkelijk de externe accountant \"die een opdracht van een confrater **of een boekhouder** overneemt\". 📖\n  - **IBR-revisor-zijde** + accountantsnorm: de algemene controlenorm bepaalt dat \"elke accountant die een confrater **of een bedrijfsrevisor** moet opvolgen, vooraf met hem in contact moet treden\". 📖\n\n**Gevolg**: de K.1-regels (schriftelijke kennisgeving van de voorganger, aandringen bij de cliënt op betaling van onbetwiste honoraria, onverwijlde teruggave van cliëntdocumenten binnen 15 dagen met gedagtekende inventaris in twee exemplaren, beroepsgeheim) gelden ongeacht tot welk van de drie instituten de overlater of overnemer behoort. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Bij overname **van of door een bedrijfsrevisor** geldt één bijkomende beperking uit de controlenorm: de opvolger mag de werkdocumenten van de voorganger **inzien**, maar de voorganger mag zijn **oorspronkelijke werkdocumenten niet uit handen geven**. Documenten die **eigendom van de cliënt** zijn moeten wel onverwijld worden overgedragen — dat onderscheid (cliëntstukken versus eigen werkpapieren van de beroepsbeoefenaar) is bij revisorale opdrachten extra scherp door de archiveringsverplichting van de revisor. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Historische context: in 2003 (datum van deze examenvraag) bestonden er drie aparte instituten (BIBF, IAB, IBR) met elk een eigen plichtenleer. De gezamenlijke *Gedragslijnen* werden formeel door de drie raden goedgekeurd in 2004. Sinds **1 januari 2020** zijn IAB en BIBF gefuseerd tot het **ITAA**; de gelijkschakeling tussen ITAA-leden onderling volgt nu rechtstreeks uit hetzelfde plichtenleer (KB 18 juli 2017 voor de gewezen BIBF-leden, KB 9 december 2019 voor de gecertificeerd accountants). Interprofessioneel met het IBR blijft de gezamenlijke gedragsregeling de leidraad. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Gedragslijnen inzake de beroepsrelaties tussen de leden van het IBR, het IAB en het BIBF** (goedgekeurd door de drie raden in 2004) — confraterniteitsprincipes worden coherent en systematisch toegepast op interprofessionele relaties. Aangevuld met de parallelle bepalingen in elk plichtenleerbesluit: **art. 17 KB 18 juli 2017** (BIBF) — overname van \"een confrater\" of van een persoon zonder gelijkaardige deontologie; **art. 23 KB 1 maart 1998** (accountants) — externe accountant die opdracht overneemt van \"een confrater of een boekhouder\"; **§ 5 ITAA-Algemene controlenorm** — opvolging tussen accountant en bedrijfsrevisor met inzage maar niet-overdracht van originele werkdocumenten. 📖",
+          "wetsref": "ITAA-Gedragslijnen interprofessionele relaties (2004); art. 17 KB 18.07.2017 (BIBF); art. 23 KB 01.03.1998 (accountants); §5 ITAA-Algemene controlenorm",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

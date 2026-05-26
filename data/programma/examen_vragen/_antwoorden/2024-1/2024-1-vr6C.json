@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6C",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Herinnering-fragment — interpretatie is topic_only (kwaliteits_flag: subvraag_zonder_inhoud). PNG en tekst.txt vermelden enkel \"C. Vragen mbt openbaar register.\" zonder concrete sub-vraag of opties. Gezien de context van vraag 6 (A = AWW contante-betalingen-drempel; D = UBO-register; E = AMLCO) gaat C waarschijnlijk over het ITAA-openbaar register (Wet 17 maart 2019, art. 29-33). Antwoord hieronder is een topic-overzicht, niet een beantwoording van een specifieke sub-vraag — alle blokken op confidence \"betwijfeld\" of \"afgeleid\" met expliciete topic-only-vermelding.",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "topic_only",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Sub-vraag is niet teruggevonden in PDF/PNG — enkel het topic \"openbaar register\" is bewaard in de herinnering. Vermoedelijke scope: het **openbaar register van het ITAA** (Wet 17 maart 2019, art. 29-33) — niet te verwarren met het UBO-register (sub-vraag D) noch met een AWW-register. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Wat een examenvraag over het ITAA-openbaar register typisch toetst",
+          "tekst": "- **Wie wordt ingeschreven?** Elke beroepsbeoefenaar (natuurlijke persoon én rechtspersoon) met vermelding van zijn hoedanigheid (gecertificeerd accountant, gecertificeerd belastingadviseur, accountant, fiscaal accountant, intern-varianten); stagiairs met vermelding \"stagiair\"; ook personen die het beroep onder arbeidsovereenkomst of in een door de overheid bezoldigde betrekking uitoefenen. 📖\n- **Toekenning ITAA-nummer**: het Instituut wijst bij inschrijving een inschrijvingsnummer toe — dit is het \"ITAA-nr.\" dat verplicht op de opdrachtbrief moet staan. 📖\n- **Aparte lijst**: het Instituut houdt een aparte lijst bij van personen die de beroepsactiviteiten uitoefenen zonder de beroepstitel te voeren (art. 29, §2). 📖\n- **Doel**: toelaten dat derden de lijst van erkende beroepsbeoefenaars kunnen raadplegen en nakijken (publiek raadpleegbaar). 📖\n- **Tijdelijk/occasioneel en derde landen**: ook personen uit hoofde van art. 23 (tijdelijk/occasioneel) en art. 25 (uit derde landen die in België mogen uitoefenen) staan in het register. 📖\n- **Uit-/herinschrijving** (art. 32-33): uitschrijving op verzoek, behalve wanneer een tuchtprocedure loopt — dan pas na de tuchtbeslissing. Persoonsgegevens worden maximaal 10 jaar bijgehouden na uitschrijving. Verlies van de hoedanigheid is het rechtsgevolg van uitschrijving. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het **openbaar register van het ITAA** is iets fundamenteel anders dan het **UBO-register** (zie sub-vraag D). Het ITAA-register lijst de **beroepsbeoefenaars** op (wie mag het beroep van accountant/belastingadviseur uitoefenen); het UBO-register lijst de **uiteindelijke begunstigden** van vennootschappen en andere juridische entiteiten op (een AWW-instrument, beheerd door de FOD Financiën). Lees in een MC-vraag het werkwoord goed: \"raadpleegbaar\" + \"beroepstitel\" wijst op ITAA; \"uiteindelijke begunstigde\" / \"≥25% aandelen\" wijst op UBO. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wet 17 maart 2019 tot oprichting van het ITAA**, hoofdstuk \"Het openbaar register\":\n- Art. 29 — inschrijvingsplicht en inhoud van het register (beroepsbeoefenaar + hoedanigheid; stagiair; ITAA-nummer; aparte lijst zonder beroepstitel). 📖\n- Art. 32 — opname van personen uit hoofde van art. 23 (tijdelijk/occasioneel) en art. 25 (derde landen); de Koning kan bijkomende gegevens vaststellen. 📖\n- Art. 33 — uit- en herinschrijving, bewaartermijn persoonsgegevens (10 jaar), gevolg = verlies van hoedanigheid. 📖",
+          "wetsref": "Wet 17 maart 2019, art. 29-33 (Wet-ITAA-2019)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr38",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — **Neen**. Een collega binnen hetzelfde kantoor staat permanente boekhoudkundige/fiscale prestaties (\"dossier dat hij opvolgt\") in de cliënt; daardoor doorbreekt het kantoor de onafhankelijkheid voor een monopolieopdracht in diezelfde onderneming. De onverenigbaarheid van art. 10-11 KB 1998 wordt expliciet uitgebreid naar alle vennoten en vaste medewerkers van het kantoor. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een monopolieopdracht (hier: omvormingsverslag — gedeelde wettelijk voorbehouden opdracht, art. 3:32 WVV / ITAA-norm omzetting) vereist volledige onafhankelijkheid tov de cliënt. Het belangenconflict-verbod van **art. 11 KB 1998** geldt niet enkel voor de accountant zelf maar ook voor \"de vennootschap of vereniging waarvan hij deel uitmaakt, zijn vennoten en vaste medewerkers\" — het kantoor wordt als één economische eenheid behandeld. 📖 De collega die het dossier opvolgt levert recurrente prestaties die de objectiviteit van het kantoor tav de jaarrekening of de omvorming aantasten: het kantoor zou een verslag uitbrengen over cijfers waarvan het zelf de boekhoudkundige verwerking begeleidt. **Art. 30 al. 2 KB 1998** verbiedt bovendien uitdrukkelijk dat een monopolieopdracht en andere diensten binnen dezelfde onderneming worden gecumuleerd door personen met een beroepsmatig samenwerkingsverband. 📖 Concreet: de cliënt moet voor het omvormingsverslag een **externe accountant of bedrijfsrevisor zonder band met het kantoor** aanstellen.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **art. 17 KB 1998** dat aan de externe accountant toelaat zich bij de uitvoering van een monopolieopdracht te laten **bijstaan** door een andere accountant uit hetzelfde kantoor. Dat gaat over de team-samenstelling van *één* opdracht waarbij het kantoor onafhankelijk is — niet over een situatie waarin het kantoor zelf de cliënt al bedient. De vraag hier is een **acceptatie**-vraag (mag het kantoor de opdracht aanvaarden?), niet een teaming-vraag. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 10-11 KB 1998 plichtenleer** (onafhankelijkheid + belangenconflict — uitgebreid naar alle vennoten en vaste medewerkers van het kantoor); **art. 30 al. 2 KB 1998** (verbod op cumul monopolieopdracht + andere diensten binnen hetzelfde samenwerkingsverband). Algemene plicht: continue onafhankelijkheid van de externe accountant. 📖",
+          "wetsref": "Art. 10, 11, 30 KB 1 maart 1998 plichtenleer accountants",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — **Neen**. Monopolieopdrachten zijn wettelijk voorbehouden aan de **externe** accountant; een accountant ingeschreven op het tableau van **interne** accountants heeft niet de hoedanigheid om een monopolieopdracht uit te voeren. De inschrijving als intern accountant + bediende-statuut in het bedrijf maakt onafhankelijkheid bovendien onmogelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee onafhankelijke gronden voor weigering:\n\n1. **Hoedanigheidsbeletsel.** De wet (vroeger Wet 22 april 1999, vandaag de ITAA-wet van 17 maart 2019) onderscheidt twee deeltabellen: extern accountant en intern accountant. Monopolieopdrachten — waaronder de bijstand aan een vennoot bij de uitoefening van het individueel controlerecht (art. 3:101/3:102 WVV) wanneer geen commissaris is aangesteld — zijn voorbehouden aan **externe** accountants/bedrijfsrevisoren. Een intern accountant mag deze opdrachten niet aanvaarden. 🤖\n2. **Onafhankelijkheidsbeletsel.** Zelfs als de hoedanigheid het zou toelaten: de betrokkene is **bediende** in het bedrijf zelf en treedt op vraag van een aandeelhouder op tegen de vennootschap die hem tewerkstelt — dit is een evident en onoplosbaar belangenconflict in de zin van **art. 11 KB 1998** en wordt versterkt door **art. 15 KB 1998** (verbod een tweede taak/mandaat te aanvaarden die de onafhankelijkheid in het gedrang brengt). 📖\n\nDe aandeelhouder moet zich richten tot een **externe** accountant (of bedrijfsrevisor) zonder enige band met de vennootschap.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het individueel onderzoeks- en controlerecht van de vennoot (art. 3:101 WVV in vennootschappen zonder commissaris) laat de vennoot toe zich te laten **bijstaan** door een accountant; die accountant treedt dan op als bijzonder mandataris met dezelfde onderzoeksbevoegdheden als een commissaris. Precies daarom moet hij voldoen aan de onafhankelijkheidsvereisten — wat een intern accountant in loondienst van de te onderzoeken vennootschap onmogelijk kan invullen. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Tableau-onderscheid extern/intern accountant: **ITAA-wet 17 maart 2019** (vroeger art. 33-46 Wet 22 april 1999); **art. 3:101 WVV** (individueel controlerecht van de vennoot, bijstand door een accountant); onafhankelijkheids- en incompatibiliteitsregels: **art. 11 en 15 KB 1 maart 1998** plichtenleer. 🔗",
+          "wetsref": "Art. 3:101 WVV; art. 11, 15 KB 1998 plichtenleer; ITAA-wet 17 maart 2019",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

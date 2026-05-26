@@ -1,0 +1,172 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr37",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Niet-betaalde erelonen ontslaan de voorganger niet van zijn plicht om het dossier (de stukken die eigendom zijn van de cliënt) over te dragen. De opvolger moet wel bij de cliënt aandringen op betaling van de openstaande honoraria van zijn voorganger. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 23 KB 1 maart 1998 (plichtenleer accountants) bepaalt twee plichten naast elkaar:\n\n- De voorganger \"zal **onverwijld** alle documenten, eigendom van de cliënt, alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid ter beschikking stellen van de cliënt of van zijn opvolgende confrater\" — **zonder voorbehoud** voor onbetaalde erelonen. 📖\n- De opvolger \"dient bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger\" — collegiaal-deontologische plicht, geen incassovordering. 📖\n\nIn de Belgische beroepsdeontologie bestaat dus **geen retentierecht** voor de accountant op de cliëntsdocumenten wegens onbetaalde erelonen. Het overdrachtsdocument moet vergezeld zijn van een gedetailleerde, gedagtekende en door alle partijen ondertekende inventaris in twee exemplaren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met het **algemene retentierecht** in het burgerlijk recht (oud art. 1948 BW / nieuw Boek 3 BW): voor de accountant wordt dat door art. 23 KB 1998 (lex specialis) **uitgesloten** ten aanzien van documenten die eigendom zijn van de cliënt. De accountant kan zijn ereloon wel langs gewone civielrechtelijke weg vorderen (factuur, ingebrekestelling, vredegerecht/ondernemingsrechtbank), maar het dossier moet hangende die procedure overgedragen worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23, 2° en in fine, KB 1 maart 1998 plichtenleer accountants (Betrekkingen met de confraters) — \"onverwijld\" overdragen, opvolger dringt aan op betaling. Identieke regeling voor BIBF-boekhouders in art. 17 KB 18 juli 2017 plichtenleer BIBF. 📖",
+          "wetsref": "KB 1 maart 1998 art. 23 · KB 18 juli 2017 art. 17 (BIBF)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De **historieken en dagboeken** zijn de boekhoudkundige gegevens van de cliënt en zijn **eigendom van de cliënt** — onafhankelijk van wie het boekhoudpakket heeft aangekocht. Ze moeten dus wel degelijk overhandigd worden, in een leesbaar formaat dat de opvolger of de cliënt zelf kan exploiteren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 23 KB 1998 spreekt over \"alle documenten, **eigendom van de cliënt**\". Het criterium is dus **eigendom van de gegevens**, niet eigendom van de software. De boekingen, dagboeken, historieken, grootboek, openstaande posten, BTW-listings, klanten- en leveranciersrekeningen behoren toe aan de cliënt — zij dragen zijn boekhoudplicht (art. III.84-III.95 WER). Wat de accountant **wel** mag inhouden: zijn **eigen werkdocumenten** (interne nota's, planning, controleprogramma) — die blijven zijn eigendom (zie ook ITAA-norm Opvolging: \"de voorganger mag zijn oorspronkelijke stukken niet uit handen geven\", maar de werkdocumenten **mogen wel ingezien** worden door de opvolger). 🔗\n\n**Praktisch**: indien het pakket niet door de cliënt licentieerbaar is, moet de voorganger de boekhouding in een gangbaar elektronisch formaat (PDF + CSV/Excel-export, eventueel een SAGE/Octopus-back-up) of geprint ter beschikking stellen. Hij hoeft de licentie van zijn pakket niet over te dragen. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Onderscheid eigendom van **boekhoudgegevens** (= cliënt) van eigendom van **werkdocumenten van de accountant** (= accountant). Alleen de eerste categorie valt onder de overdrachtsplicht; de tweede categorie is louter ter **inzage** voor de opvolger (collegiaal). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23 in fine KB 1 maart 1998 plichtenleer accountants (\"alle documenten, eigendom van de cliënt\"); ITAA-norm algemene controlenorm §5 Opvolging (werkdocumenten van voorganger ter inzage, niet uit handen). Art. III.84 e.v. WER (boekhoudplicht en eigendom boekhoudgegevens bij de ondernemer). 📖",
+          "wetsref": "KB 1 maart 1998 art. 23 · ITAA-norm algemene controlenorm §5 · WER art. III.84 e.v.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De opvolger heeft een **eigen, persoonlijke deontologische verplichting** om de voorganger schriftelijk (bij voorkeur aangetekend) in kennis te stellen van de overname en vooraf met hem in contact te treden — onafhankelijk van wat de cliënt al zou hebben gedaan. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee bronnen leggen deze plicht onmiskenbaar bij de **opvolger zelf**:\n\n- Art. 23, 1° KB 1998: \"hij moet zijn voorganger **schriftelijk, bij voorkeur aangetekend**, in kennis stellen van de overname van de opdracht, **zelfs indien de opvolging niet onmiddellijk is gebeurd**\". 📖\n- ITAA-norm algemene controlenorm §5 Opvolging: \"Elke accountant die een confrater of een bedrijfsrevisor moet opvolgen, moet **vooraf met hem in contact treden**\". 📖\n\nDe ratio is dubbel: (i) collegialiteit en transparantie tussen beroepsbeoefenaars en (ii) de opvolger moet zélf de gelegenheid hebben om te informeren of er beroepsmatige bezwaren bestaan tegen de aanvaarding van de opdracht (bv. ongeregelde situatie, niet-naleving verplichtingen door cliënt, eerdere weigering door voorganger om verslag te ondertekenen). Een mededeling door de cliënt vervangt deze persoonlijke verplichting **niet**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23, 1° KB 1 maart 1998 plichtenleer accountants (schriftelijke kennisgeving aan voorganger, bij voorkeur aangetekend); ITAA-norm algemene controlenorm §5 Opvolging (vooraf contact opnemen); identieke regel art. 17, 1° KB 18 juli 2017 plichtenleer BIBF. 📖",
+          "wetsref": "KB 1 maart 1998 art. 23, 1° · ITAA-norm algemene controlenorm §5 · KB 18 juli 2017 art. 17, 1°",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md",
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** \"Steeds\" is te absoluut. Pas wanneer een ontwerp van jaarverslag of notulen door de cliënt is **aanvaard, gefactureerd of opgenomen in de wettelijke verslaggeving van de vennootschap** wordt het een document \"eigendom van de cliënt\" in de zin van art. 23 KB 1998. **Loutere voorbereidende kladversies** blijven werkdocumenten van de accountant en hoeven niet overhandigd te worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De toets is opnieuw: **wiens eigendom is het stuk?** (art. 23 KB 1998).\n\n- **Definitieve** ontwerpen die de cliënt heeft goedgekeurd en die de basis vormen voor de neergelegde jaarrekening of de notulen van de algemene vergadering: behoren toe aan de cliënt — moeten overhandigd worden. 🔗\n- **Werkversies / kladversies / interne nota's** die nog geen formeel bestaan hebben in de vennootschap (geen handtekening van het bestuursorgaan, geen factuur voor de opstelling ervan): blijven werkdocumenten van de accountant. ITAA-norm §5 Opvolging bevestigt dat de voorganger zijn werkdocumenten ter inzage stelt, maar zijn oorspronkelijke stukken (= zijn werkmateriaal) **niet uit handen mag geven**. 📖\n\nHet woord \"**steeds**\" maakt de stelling daarom onjuist: er bestaat een grijze zone tussen werkdocument en cliëntdocument die per geval beoordeeld moet worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Praktische vuistregel: een ontwerp wordt eigendom van de cliënt zodra (a) het bestuursorgaan het heeft goedgekeurd of ondertekend, (b) het is meegenomen in een notarisakte / KBO-publicatie / neerlegging bij de NBB, of (c) het is gefactureerd als een afgewerkte prestatie aan de cliënt. Vóór één van die drempels: werkdocument van de accountant. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23 in fine KB 1 maart 1998 plichtenleer accountants (overdrachtsplicht beperkt tot documenten \"eigendom van de cliënt\"); ITAA-norm algemene controlenorm §5 Opvolging (werkdocumenten blijven bij de voorganger; ter inzage voor de opvolger). 📖",
+          "wetsref": "KB 1 maart 1998 art. 23 · ITAA-norm algemene controlenorm §5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

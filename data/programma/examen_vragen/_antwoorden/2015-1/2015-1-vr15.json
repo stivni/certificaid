@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr15",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Juist.** Talrijke en substantiële adjustments wijzen erop dat de externe accountant feitelijk de boekhouding heeft moeten herwerken — hij dreigt dan zijn één eigen werk te controleren, wat zijn onafhankelijkheid (deontologisch kernbeginsel) aantast. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De redenering verloopt in drie stappen:\n\n1. **Aard van een contractueel beperkt nazicht** — een beoordelingsopdracht (review) leidt tot een conclusie in negatieve vorm (\"er zijn ons geen aanwijzingen gebleken dat…\"). De accountant verricht beperkte werkzaamheden (inlichtingen + analytisch nazicht) op een jaarrekening die de cliënt zelf opstelt. 🔗\n2. **Wat zeggen talrijke en substantiële adjustments?** Als de accountant veel correcties moet voorstellen én die correcties zijn materieel, dan heeft hij in de praktijk de jaarrekening mee opgemaakt of grondig herwerkt — hij verlaat de rol van toetser en treedt op als (mede)opsteller. 🔗\n3. **Deontologisch probleem** — de externe accountant mag geen opdracht aanvaarden of voortzetten zodra invloeden, feiten of banden zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten (art. 9 KB 1 maart 1998). Het controleren van het eigen werk is een klassieke bedreiging voor de onafhankelijkheid (self-review threat) en is uitdrukkelijk verboden voor controleopdrachten op de jaarrekening (art. 13 § 1-2 KB 1 maart 1998). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De juiste reflex bij talrijke en substantiële adjustments is een **scope-discussie met de cliënt vooraleer het verslag wordt afgeleverd**: ofwel laat de cliënt de boekhouding eerst rechtzetten door een derde (of door de boekhouder van de onderneming) zodat de accountant nadien een echt nazicht kan doen op een afgewerkte jaarrekening, ofwel stapt de accountant uit de opdracht. Een opdracht zonder commissaris ontslaat hem niet van zijn onafhankelijkheidsplicht — art. 9 KB 1998 geldt voor éélke opdracht van de externe accountant, contractueel of wettelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 9 KB 1 maart 1998 (plichtenleer accountants)** — de externe accountant moet een opdracht weigeren of stopzetten zodra hij invloeden, feiten of banden vaststelt die zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten. 📖 **Art. 13 § 1-2 KB 1 maart 1998** — verbod om een controleopdracht over de jaarrekening te aanvaarden wanneer hij (of zijn kantoor) verantwoordelijkheid uitoefent of uitoefende met belangrijke invloed op de boekhouddienst, en verbod om naast de controle een functie te aanvaarden die hem ertoe brengt zich met het beheer in te laten. 📖 Sinds 2019 zijn deze beginselen overgenomen in de wet van 17 maart 2019 en het KB van 9 december 2019 (deontologische code ITAA), maar de inhoud van het zelf-toetsverbod blijft identiek. 🔗",
+          "wetsref": "Art. 9 en art. 13 § 1-2 KB van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants; Wet 17 maart 2019 + KB 9 december 2019 (deontologische code ITAA)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

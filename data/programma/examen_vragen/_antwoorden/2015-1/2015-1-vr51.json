@@ -1,0 +1,138 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr51",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. De discretieplicht geldt voor **iedere accountant, ongeacht zijn statuut** — dus ook voor interne accountants en interne belastingconsulenten. Het beroepsgeheim (art. 458 Strafwetboek) geldt daarentegen enkel voor de **externe** beroepsbeoefenaar. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 32 KB 1 maart 1998 (plichtenleer accountants) opent letterlijk met: *\"Onverminderd de voor de externe accountant geldende wettelijke bepalingen betreffende het beroepsgeheim, is iedere accountant, ongeacht zijn statuut, gehouden tot naleving van zijn beroepsdiscretieplicht.\"* 📖 Het beroepsgeheim is dus een **zwaardere, strafrechtelijk gesanctioneerde** norm die enkel rust op de externe beroepsbeoefenaar; de discretieplicht is een **lichtere, deontologische** zwijgplicht die voor alle accountants (extern én intern) en belastingconsulenten geldt. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het ITAA-vademecum beroepsgeheim benadrukt dat het beroepsgeheim *\"de gewone discretieplicht overstijgt\"* — de twee normen zijn dus géén synoniemen maar **getrapt**: discretieplicht is de basislaag voor iedereen, beroepsgeheim is de strafrechtelijk verzwaarde laag voor de externe accountant/belastingadviseur. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 32 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants: discretieplicht voor *iedere* accountant ongeacht statuut, onverminderd het beroepsgeheim van de externe accountant (art. 458 Sw). 📖",
+          "wetsref": "Art. 32 KB 1 maart 1998 (plichtenleer accountants); art. 458 Strafwetboek",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Schending van het beroepsgeheim leidt niet enkel tot tuchtrechtelijke sancties: het is **strafbaar** op grond van art. 458 Strafwetboek (gevangenisstraf en/of geldboete) en kan daarnaast aanleiding geven tot **burgerrechtelijke aansprakelijkheid** (schadevergoeding aan het slachtoffer). De tuchtrechtelijke sanctie van het ITAA komt daar bovenop. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie cumulatieve sporen bij schending van het beroepsgeheim:\n\n- **Strafrechtelijk** — art. 458 Sw straft het bekendmaken van geheimen door beroepsbeoefenaars met gevangenisstraf van 1 jaar tot 3 jaar en/of geldboete (verzwaarde straffen sinds Wet 2025). Diverse fiscale wetboeken (art. 453 WIB92, art. 89 Wetboek Invordering, art. 3.15.3.0.5 VCF, art. 91 Brusselse Codex Fiscale Procedure) verwijzen expliciet door naar art. 458 Sw. 📖\n- **Burgerrechtelijk** — gemeenrechtelijke fout (art. 1382 oud BW / art. 6.5 nieuw BW): de cliënt of een geschade derde kan schadevergoeding vorderen. 🔗\n- **Tuchtrechtelijk** — ITAA-tuchtorganen kunnen waarschuwing, berisping, schorsing of schrapping uitspreken, onafhankelijk van de strafrechtelijke veroordeling. 🔗\n\nDe stelling reduceert de gevolgen tot één spoor en is daarmee onjuist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Wetboek-Invordering.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het examen test hier het verschil tussen **discretieplicht** (zuiver deontologisch — enkel tuchtsancties) en **beroepsgeheim** (deontologisch **én** strafrechtelijk **én** civielrechtelijk). Wie de twee normen verwart, komt op een fout antwoord uit. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 458 Strafwetboek (algemene strafbaarstelling schending beroepsgeheim) — doorverwezen vanuit fiscale wetboeken (art. 453 WIB92, art. 89 Wetboek Invordering, art. 3.15.3.0.5 VCF, art. 91 Brusselse Codex). Burgerrechtelijke aansprakelijkheid via art. 1382 oud BW / art. 6.5 nieuw BW. ITAA-tuchtrecht via Wet van 17 maart 2019 (oprichting ITAA). 📖",
+          "wetsref": "Art. 458 Strafwetboek; art. 453 WIB92; art. 1382 oud BW / art. 6.5 nieuw BW; Wet 17 maart 2019 (ITAA)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Wetboek-Invordering.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Art. 32 KB 1 maart 1998 vermeldt het **uitdrukkelijk** als één van de gevallen waarin **géén** inbreuk op de discretieplicht aan de accountant kan worden ten laste gelegd: wanneer hij — *na alle interne middelen bij zijn werkgever te hebben uitgeput* — vertrouwelijke gegevens aan de **Raad van het Instituut** meedeelt met het oog op de behartiging van de deontologische regels. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 32 KB plichtenleer somt limitatief de gevallen op waarin de discretieplicht **niet** wordt geschonden:\n\n- getuigenis in rechte;\n- wettelijke mededelingsplicht (bv. antiwitwas);\n- uitoefening van het verdedigingsrecht in tuchtaangelegenheden;\n- **mededeling aan de Raad van het Instituut na uitputting van alle interne middelen bij de werkgever**, met het oog op de behartiging van de deontologische regels;\n- mededeling aan een collega-accountant in het kader van een opvolging of bij confraternele samenwerking, binnen de grenzen van de wet.\n\nDe vierde uitzondering is precies de situatie die de stelling beschrijft. De stelling kwalificeert die situatie als een inbreuk — dat is exact de **omkering** van wat het KB bepaalt. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De voorwaarde *\"na uitputting van alle interne middelen\"* is **wezenlijk** en niet decoratief: de accountant moet eerst proberen via de gewone interne kanalen bij zijn werkgever (overleg, interne klachtenprocedure, escalatie) een einde te maken aan de deontologische inbreuk. Pas wanneer die weg gesloten is, kan hij rechtmatig naar de Raad stappen. Stap hij meteen naar de Raad zonder die voorafgaande inspanning, dan vervalt de bescherming van de uitzonderingsgrond. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 32, tweede lid, vierde streepje KB 1 maart 1998 (plichtenleer accountants): geen tuchtrechtelijke inbreuk op de discretieplicht wanneer de accountant, na uitputting van alle interne middelen bij zijn werkgever, vertrouwelijke gegevens aan de Raad meedeelt met het oog op de naleving van de deontologische regels. 📖",
+          "wetsref": "Art. 32 KB 1 maart 1998 (plichtenleer accountants)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

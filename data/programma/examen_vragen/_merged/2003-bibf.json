@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2003-bibf.pdf",
   "examen_id": "2003-bibf",
-  "merge_datum": "2026-05-26T15:05:36+00:00",
+  "merge_datum": "2026-05-26T15:29:22+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -2455,7 +2455,67 @@
       "vraag_id": "2003-bibf-vrJ2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bij de overdracht van een dossier tussen twee BIBF-confraters legt het reglement van plichtenleer wederzijdse verplichtingen op die collegialiteit, continuiteit voor de client en respect voor het beroepsgeheim moeten garanderen. De **overnemer** moet de voorganger schriftelijk verwittigen voor hij de opdracht aanvaardt en, indien de voorganger nog niet betaald is, bij de client schriftelijk aandringen op betaling van de verschuldigde en onbetwiste honoraria. De **overlater** moet binnen 15 dagen alle clientstukken ter beschikking stellen via een gedateerde, in tweevoud ondertekende inventaris. Beide blijven gehouden aan het beroepsgeheim (art. 458 Sw.) en de discretieplicht. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+                  "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Verplichtingen van de overnemer (voor aanvaarding)",
+                "tekst": "- **Schriftelijke kennisgeving aan de voorganger** dat hij het dossier overneemt, zelfs als de opvolging niet onmiddellijk gebeurt. Doel: de voorganger kan zich verzetten of opmerkingen formuleren, en de overname gebeurt transparant tussen confraters. 📖\n- **Aandringen op betaling van openstaande honoraria** bij de client, schriftelijk, indien de voorganger nog niet werd betaald voor zijn prestaties. De overnemer is geen incassobureau, maar mag het dossier deontologisch niet \"overnemen alsof er niks gebeurd is\" wanneer de confrater nog onbetaalde, onbetwiste erelonen heeft. 📖\n- **Onafhankelijke beoordeling van de opdracht**: de overnemer moet zelf nagaan of hij de opdracht kan uitvoeren met de vereiste bekwaamheid, onafhankelijkheid en waardigheid (art. 4 KB 2017). 🔗\n- **Opdrachtbrief opstellen**: wegens het intuitu-personae-karakter van de opdracht komt er een volledig nieuwe overeenkomst tot stand die de instemming van de client vereist. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Verplichtingen van de overlater",
+                "tekst": "- **Onverwijld en uiterlijk binnen 15 dagen** alle stukken die eigendom zijn van de client, alsook documenten die kaderen in wederzijdse hulp en hoffelijkheid, ter beschikking stellen aan de client of aan de opvolgende confrater. 📖\n- **Gedetailleerde en gedagtekende inventaris in twee exemplaren** opstellen van de overgedragen stukken, ondertekend door elke betrokken partij. Dit beschermt beide confraters tegen latere betwistingen over wat al dan niet werd overhandigd. 📖\n- **Geen retentierecht** op clientstukken wegens onbetaalde honoraria: de stukken zijn eigendom van de client en moeten worden vrijgegeven; de inning van openstaande erelonen verloopt via een aparte procedure (eventueel verzoening bij het Beroepsinstituut, art. 18 KB 2017). 🔗\n- **Beroepsgeheim** en **discretieplicht** blijven gelden ook na beeindiging van het mandaat: de overlater mag aan de overnemer enkel informatie doorgeven die de client zelf zou mogen kennen of die kadert in de continuiteit van de opdracht. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De regels zijn **wederkerig** en collegiaal van aard: de overnemer beschermt de eer van het beroep door geen confrater \"droog te leggen\" via niet-betaling, de overlater beschermt de client door geen gegijzelde dossiers te creeren. De plicht tot schriftelijke kennisgeving is een **voorafgaande** plicht — wie eerst aanvaardt en pas dan de voorganger verwittigt, schendt het reglement, ook als de overname inhoudelijk correct verloopt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 17 KB 18 juli 2017** (reglement van plichtenleer BIBF) — kernartikel voor dossiertransfer: schriftelijke kennisgeving + aandringen op betaling door de overnemer; 15-dagen-termijn + ondertekende inventaris voor de overlater. **Art. 4** — algemene plicht tot bekwaamheid, rechtschapenheid en onafhankelijkheid. **Art. 19** — beroepsgeheim (art. 458 Sw.) en discretieplicht. **Art. 18** — verzoeningsprocedure bij het Beroepsinstituut voor geschillen tussen confraters. Voor de **gecertificeerd accountant** geldt de parallelle regeling in art. 23 KB 1 maart 1998 plichtenleer accountants (zelfde verplichtingen). Voor 2003 gold het inhoudelijk gelijkluidende KB van 23 december 1997 / herzien KB 15 februari 2005 (BIBF); de huidige tekst van 2017 is de canonieke verwoording. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 17, 18, 19 KB 18 juli 2017 BIBF; art. 23 KB 1 maart 1998 plichtenleer accountants"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrK1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -2505,7 +2565,70 @@
       "vraag_id": "2003-bibf-vrK1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja, dezelfde principes gelden** wanneer het dossier wordt overgenomen of overgedragen ten aanzien van een IAB-accountant of een IBR-bedrijfsrevisor. De drie instituten (BIBF, IAB, IBR) hebben gezamenlijk *Gedragslijnen inzake de beroepsrelaties* uitgevaardigd die de **confraterniteitsprincipes coherent en systematisch** toepassen op interprofessionele relaties — ook bij dossieroverdracht. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Rechtsgrondslag voor de gelijkschakeling**:\n\n- De drie instituten hebben de wil uitgedrukt om evenwichtige interprofessionele relaties te bevorderen door een **coherente en systematische toepassing van de confraterniteitsprincipes** op de relaties tussen leden van de drie instituten — voor boekhoudkundige expertise, boekhouding én fiscaliteit. 📖\n- Elk instituut heeft in zijn eigen plichtenleer parallelle bepalingen die de overname van een dossier van een **\"confrater of een boekhouder\"** regelen — niet enkel binnen het eigen instituut:\n  - **BIBF-zijde**: art. 17 KB 18 juli 2017 spreekt over overname van \"een confrater\" en geldt voor opvolging van een persoon \"die niet gehouden is door deontologische regels die gelijkaardig zijn\" — interprofessioneel toepasselijk gemaakt. 📖\n  - **IAB-accountant-zijde**: art. 23 KB 1 maart 1998 viseert uitdrukkelijk de externe accountant \"die een opdracht van een confrater **of een boekhouder** overneemt\". 📖\n  - **IBR-revisor-zijde** + accountantsnorm: de algemene controlenorm bepaalt dat \"elke accountant die een confrater **of een bedrijfsrevisor** moet opvolgen, vooraf met hem in contact moet treden\". 📖\n\n**Gevolg**: de K.1-regels (schriftelijke kennisgeving van de voorganger, aandringen bij de cliënt op betaling van onbetwiste honoraria, onverwijlde teruggave van cliëntdocumenten binnen 15 dagen met gedagtekende inventaris in twee exemplaren, beroepsgeheim) gelden ongeacht tot welk van de drie instituten de overlater of overnemer behoort. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Nuance",
+                "tekst": "Bij overname **van of door een bedrijfsrevisor** geldt één bijkomende beperking uit de controlenorm: de opvolger mag de werkdocumenten van de voorganger **inzien**, maar de voorganger mag zijn **oorspronkelijke werkdocumenten niet uit handen geven**. Documenten die **eigendom van de cliënt** zijn moeten wel onverwijld worden overgedragen — dat onderscheid (cliëntstukken versus eigen werkpapieren van de beroepsbeoefenaar) is bij revisorale opdrachten extra scherp door de archiveringsverplichting van de revisor. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Historische context: in 2003 (datum van deze examenvraag) bestonden er drie aparte instituten (BIBF, IAB, IBR) met elk een eigen plichtenleer. De gezamenlijke *Gedragslijnen* werden formeel door de drie raden goedgekeurd in 2004. Sinds **1 januari 2020** zijn IAB en BIBF gefuseerd tot het **ITAA**; de gelijkschakeling tussen ITAA-leden onderling volgt nu rechtstreeks uit hetzelfde plichtenleer (KB 18 juli 2017 voor de gewezen BIBF-leden, KB 9 december 2019 voor de gecertificeerd accountants). Interprofessioneel met het IBR blijft de gezamenlijke gedragsregeling de leidraad. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-gedragslijnen-relaties-IBR.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Gedragslijnen inzake de beroepsrelaties tussen de leden van het IBR, het IAB en het BIBF** (goedgekeurd door de drie raden in 2004) — confraterniteitsprincipes worden coherent en systematisch toegepast op interprofessionele relaties. Aangevuld met de parallelle bepalingen in elk plichtenleerbesluit: **art. 17 KB 18 juli 2017** (BIBF) — overname van \"een confrater\" of van een persoon zonder gelijkaardige deontologie; **art. 23 KB 1 maart 1998** (accountants) — externe accountant die opdracht overneemt van \"een confrater of een boekhouder\"; **§ 5 ITAA-Algemene controlenorm** — opvolging tussen accountant en bedrijfsrevisor met inzage maar niet-overdracht van originele werkdocumenten. 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA-Gedragslijnen interprofessionele relaties (2004); art. 17 KB 18.07.2017 (BIBF); art. 23 KB 01.03.1998 (accountants); §5 ITAA-Algemene controlenorm"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrK2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

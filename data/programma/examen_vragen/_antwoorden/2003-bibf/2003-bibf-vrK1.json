@@ -1,0 +1,61 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrK1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Bij de overdracht van een dossier tussen twee BIBF-confraters legt het reglement van plichtenleer wederzijdse verplichtingen op die collegialiteit, continuiteit voor de client en respect voor het beroepsgeheim moeten garanderen. De **overnemer** moet de voorganger schriftelijk verwittigen voor hij de opdracht aanvaardt en, indien de voorganger nog niet betaald is, bij de client schriftelijk aandringen op betaling van de verschuldigde en onbetwiste honoraria. De **overlater** moet binnen 15 dagen alle clientstukken ter beschikking stellen via een gedateerde, in tweevoud ondertekende inventaris. Beide blijven gehouden aan het beroepsgeheim (art. 458 Sw.) en de discretieplicht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Verplichtingen van de overnemer (voor aanvaarding)",
+          "tekst": "- **Schriftelijke kennisgeving aan de voorganger** dat hij het dossier overneemt, zelfs als de opvolging niet onmiddellijk gebeurt. Doel: de voorganger kan zich verzetten of opmerkingen formuleren, en de overname gebeurt transparant tussen confraters. 📖\n- **Aandringen op betaling van openstaande honoraria** bij de client, schriftelijk, indien de voorganger nog niet werd betaald voor zijn prestaties. De overnemer is geen incassobureau, maar mag het dossier deontologisch niet \"overnemen alsof er niks gebeurd is\" wanneer de confrater nog onbetaalde, onbetwiste erelonen heeft. 📖\n- **Onafhankelijke beoordeling van de opdracht**: de overnemer moet zelf nagaan of hij de opdracht kan uitvoeren met de vereiste bekwaamheid, onafhankelijkheid en waardigheid (art. 4 KB 2017). 🔗\n- **Opdrachtbrief opstellen**: wegens het intuitu-personae-karakter van de opdracht komt er een volledig nieuwe overeenkomst tot stand die de instemming van de client vereist. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Verplichtingen van de overlater",
+          "tekst": "- **Onverwijld en uiterlijk binnen 15 dagen** alle stukken die eigendom zijn van de client, alsook documenten die kaderen in wederzijdse hulp en hoffelijkheid, ter beschikking stellen aan de client of aan de opvolgende confrater. 📖\n- **Gedetailleerde en gedagtekende inventaris in twee exemplaren** opstellen van de overgedragen stukken, ondertekend door elke betrokken partij. Dit beschermt beide confraters tegen latere betwistingen over wat al dan niet werd overhandigd. 📖\n- **Geen retentierecht** op clientstukken wegens onbetaalde honoraria: de stukken zijn eigendom van de client en moeten worden vrijgegeven; de inning van openstaande erelonen verloopt via een aparte procedure (eventueel verzoening bij het Beroepsinstituut, art. 18 KB 2017). 🔗\n- **Beroepsgeheim** en **discretieplicht** blijven gelden ook na beeindiging van het mandaat: de overlater mag aan de overnemer enkel informatie doorgeven die de client zelf zou mogen kennen of die kadert in de continuiteit van de opdracht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De regels zijn **wederkerig** en collegiaal van aard: de overnemer beschermt de eer van het beroep door geen confrater \"droog te leggen\" via niet-betaling, de overlater beschermt de client door geen gegijzelde dossiers te creeren. De plicht tot schriftelijke kennisgeving is een **voorafgaande** plicht — wie eerst aanvaardt en pas dan de voorganger verwittigt, schendt het reglement, ook als de overname inhoudelijk correct verloopt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 17 KB 18 juli 2017** (reglement van plichtenleer BIBF) — kernartikel voor dossiertransfer: schriftelijke kennisgeving + aandringen op betaling door de overnemer; 15-dagen-termijn + ondertekende inventaris voor de overlater. **Art. 4** — algemene plicht tot bekwaamheid, rechtschapenheid en onafhankelijkheid. **Art. 19** — beroepsgeheim (art. 458 Sw.) en discretieplicht. **Art. 18** — verzoeningsprocedure bij het Beroepsinstituut voor geschillen tussen confraters. Voor de **gecertificeerd accountant** geldt de parallelle regeling in art. 23 KB 1 maart 1998 plichtenleer accountants (zelfde verplichtingen). Voor 2003 gold het inhoudelijk gelijkluidende KB van 23 december 1997 / herzien KB 15 februari 2005 (BIBF); de huidige tekst van 2017 is de canonieke verwoording. 📖",
+          "wetsref": "Art. 17, 18, 19 KB 18 juli 2017 BIBF; art. 23 KB 1 maart 1998 plichtenleer accountants",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

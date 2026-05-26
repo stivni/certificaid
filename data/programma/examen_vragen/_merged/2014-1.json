@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2014-1.pdf",
   "examen_id": "2014-1",
-  "merge_datum": "2026-05-26T15:14:05+00:00",
+  "merge_datum": "2026-05-26T15:29:22+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4921,7 +4921,102 @@
       "vraag_id": "2014-1-vr41"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T15:25:53Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Thematische toetsing** 🔗 — een aangekondigde controle die zich toespitst op één afgebakend thema (hier: toepassing van de antiwitwaswetgeving) past per definitie binnen het type \"thematische toetsing\".",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n- (a) Vervolgtoetsing 🔗 — fout: deze veronderstelt een eerder vastgestelde tekortkoming die opnieuw wordt nagegaan, niet aan de orde.\n- (b) Thematische toetsing 🔗 — juist: ITAA selecteert periodiek een specifiek thema (bv. antiwitwas, dossiervorming, onafhankelijkheid) waarop alle of een steekproef van kantoren worden getoetst.\n- (c) Incidententoetsing 🔗 — fout: vereist een concreet incident of klacht als aanleiding.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "ITAA-reglement van kwaliteitstoetsing onderscheidt vier soorten: periodieke (7-jaarlijks), thematische (per thema), vervolg- (opvolging tekortkoming) en incidententoetsing (na klacht/incident). 🤖",
+                "type": "grondslag"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Vervolgtoetsing** 🔗 — een nieuwe controle die voortvloeit uit eerder vastgestelde tekortkomingen (ontbrekende UBO-attesten in de voorgaande thematische toetsing) is per definitie een vervolgtoetsing.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n- (a) Vervolgtoetsing 🔗 — juist: het signaalwoord is \"ingevolge voorgaande toetsing\" + \"opnieuw komen controleren\". De vervolgtoetsing verifieert of de eerder vastgestelde gebreken effectief verholpen zijn.\n- (b) Thematische toetsing 🔗 — fout: dat was de eerste, hier gaat het om de opvolging.\n- (c) Incidententoetsing 🔗 — fout: aanleiding is een eigen vaststelling van ITAA, geen externe klacht of incident.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Valkuil** ❓ — verwar de vervolgtoetsing niet met een nieuwe periodieke ronde: triggert ze door een eerder ongunstig toetsingsoordeel, niet door het 7-jaarlijks ritme.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "ITAA-reglement kwaliteitstoetsing — vervolgtoetsing als opvolgingsinstrument bij vastgestelde tekortkomingen. 🤖",
+                "type": "grondslag"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Incidententoetsing** 🔗 — een klacht van een confrater over (onvolledige) dossieroverdracht is een concreet incident dat de aanleiding vormt voor een gerichte ad-hoc toetsing.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n- (a) Vervolgtoetsing 🔗 — fout: er is geen voorgaande toetsing met tekortkoming die wordt opgevolgd.\n- (b) Thematische toetsing 🔗 — fout: er is geen breed ITAA-thema dat alle kantoren raakt, maar één concrete situatie.\n- (c) Incidententoetsing 🔗 — juist: klacht/incident als trigger → gerichte controle op het betrokken kantoor.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** 🔗 — onvolledige dossieroverdracht raakt aan deontologie (KB plichtenleer): bij wisseling van beroepsbeoefenaar moet het dossier integraal aan de opvolger worden bezorgd. De incidententoetsing kan parallel een tuchtspoor triggeren.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "ITAA-reglement kwaliteitstoetsing — incidententoetsing wordt ingesteld na klacht of incident. Deontologische dossieroverdracht: KB 1 maart 1998 (plichtenleer). 🤖",
+                "type": "grondslag"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2014-1-vr42"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5036,7 +5131,185 @@
       "vraag_id": "2014-1-vr42"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — de contactname met de voorganger is een autonome deontologische plicht die niet vervalt door een betalingsbewijs van de cliënt. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 23 KB 1 maart 1998 verplicht de opvolger om **vóór** de aanvaarding van de opdracht:\n\n- zijn voorganger **schriftelijk (bij voorkeur aangetekend)** in kennis te stellen van de overname; 📖\n- bij onbetaalde prestaties aan te dringen op betaling. 📖\n\nDe overschrijving van de cliënt bewijst hoogstens dat de tweede verplichting (aandringen op betaling) niet meer hoeft te worden afgedwongen — ze ontslaat de opvolger **niet** van de eerste, autonome verplichting tot contactname. De voorganger moet bovendien zelf de werkdocumenten en cliënt-eigen stukken ter beschikking stellen, wat een directe communicatie tussen beide beroepsbeoefenaars veronderstelt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De cliënt is geen partij in de confraterniteits-verplichting tussen accountants. Zijn betalingsbewijs verkort de procedure niet — alleen het schriftelijk bericht aan de voorganger en (in voorkomend geval) de inzage van diens werkdocumenten kan dat. Wie dit overslaat riskeert een tuchtklacht voor inbreuk op art. 23. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 23 KB 1 maart 1998 (plichtenleer accountants): schriftelijke kennisgeving aan de voorganger + aandringen op betaling van openstaande erelonen. Sectie 5 (Opvolging) van de ITAA-algemene-controlenorm bevestigt: \"Elke accountant die een confrater of een bedrijfsrevisor moet opvolgen, moet vooraf met hem in contact treden.\" 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 23 KB 1 maart 1998; ITAA-algemene-controlenorm §5"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — niet starten zolang (i) de voorganger schriftelijk verwittigd is (art. 23) en (ii) een **ondertekende opdrachtbrief** voorligt. Tijdsdruk van de cliënt is geen geldige reden om die intrede-stappen over te slaan. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee opeenvolgende beletsels:\n\n- **Intredeprocedure niet afgerond**: art. 23 KB 1998 vereist de voorafgaande schriftelijke contactname met de voorganger; de opvolger mag pas aanvaarden zodra dat gebeurd is. 📖\n- **Opdrachtbrief verplicht vóór uitvoering**: art. 41 Wet 17 maart 2019 + ITAA-norm opdrachtbrief leggen op dat de opdrachtbrief **voorafgaandelijk aan de uitvoering** wordt opgemaakt en ondertekend. Bij hoogdringendheid die niet aan de beroepsbeoefenaar te wijten is, kan in de opdrachtbrief retroactiviteit worden voorzien — maar dat veronderstelt nog steeds een **legitieme uitzonderingssituatie**, geen loutere planningskeuze van de cliënt. 📖\n\nDe cliënt-gedreven BTW-deadline is op zich geen verschoonbare hoogdringendheid: hij had tijdig moeten schakelen. Wie zonder opdrachtbrief én zonder contactname start, riskeert tuchtsanctie én bewijsproblemen bij honorering of aansprakelijkheid. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "De BTW-aangifte zelf is niet noodzakelijk verloren: een **bijzondere rekening** bij de BTW-administratie of een laattijdige aangifte met boete blijft mogelijk en is de verantwoordelijkheid van de cliënt — niet van de overnemende accountant. De stagiair mag zich nooit laten chanteren door een fiscale deadline om deontologische verplichtingen te omzeilen. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 23 KB 1 maart 1998 (voorafgaande contactname voorganger); art. 41 Wet 17 maart 2019 + ITAA-norm opdrachtbrief §1 en §5 (opdrachtbrief is wettelijke verplichting, voorafgaandelijk aan de uitvoering te ondertekenen; retroactieve clausule alleen voor verantwoorde hoogdringendheid). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 23 KB 1 maart 1998; art. 41 Wet 17 maart 2019; ITAA-norm-opdrachtbrief §1, §5"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — een vergelijkende tarievenpagina op de website is een **inbreuk op art. 31 KB 1 maart 1998** (publiciteitsregels): vergelijkende gegevens inzake tarieven of kwaliteit zijn uitdrukkelijk verboden. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 31 KB 1998 staat publiciteit met **objectieve informatie** over het kantoor toe, maar verbiedt expliciet:\n\n- elke verwijzing naar **vergelijkende gegevens inzake tarieven of kwaliteit**; 📖\n- reclametechnieken die niet bedoeld zijn om objectieve informatie te verschaffen. 📖\n\nEen \"goedkoopste in de buurt\"-vergelijking voldoet aan beide verboden tegelijk: ze is per definitie vergelijkend én ze prijst de eigen tarieven aan in plaats van objectief informeren. Bijkomend creëert ze een **self-interest threat** op het fundamentele beginsel van professioneel gedrag (IESBA Section 320). De accountant dient de website-pagina onmiddellijk te corrigeren — onafhankelijk van de vraag of de cliënt hiervoor effectief is gekomen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/WER.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met art. VI.17 WER (vergelijkende reclame algemeen geoorloofd voor ondernemingen): het strengere beroepsdeontologische regime van art. 31 KB 1998 gaat als **lex specialis** voor. Voor accountants blijft vergelijkende reclame op prijs of kwaliteit verboden, ook al zou ze onder het commune recht geoorloofd zijn. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 31 KB 1 maart 1998: \"In geen geval mag verwezen worden naar al dan niet vergelijkende gegevens inzake tarieven of kwaliteit. (...) zijn de reclametechnieken, die niet tot doel hebben objectieve informatie te verschaffen, niet in overeenstemming met de plichtenleer.\" 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 31 KB 1 maart 1998"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — een mandaat in een ITAA-commissie uitspelen als commercieel argument (\"sneller op de hoogte\") is in strijd met de publiciteitsregels en met de waardigheid van het beroep: het wekt de schijn van een ongeoorloofd informatie-voordeel. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Drie problemen tegelijk:\n\n- **Publiciteitsregel (art. 31 KB 1998)**: het mandaat als kwaliteits- of voordeels-argument inzetten valt onder \"reclametechnieken die niet tot doel hebben objectieve informatie te verschaffen\" — vermelden dat men zetelt mag (objectieve info), maar er een concurrentie-voordeel uit afleiden niet. 🔗\n- **Confidentialiteit & integriteit (IESBA Section 320 en de fundamentele beginselen)**: suggereren dat men dankzij commissie-werk \"sneller op de hoogte\" is, impliceert dat niet-publieke informatie wordt gebruikt voor commerciële winst — een directe bedreiging voor het beginsel van integriteit en professioneel gedrag. 🔗\n- **Waardigheid van het beroep**: het schaadt het vertrouwen in de instellingen van het Instituut wanneer een lid zijn functie binnen het ITAA gebruikt als wervingsargument. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "De **loutere vermelding** dat men zetelt in een ITAA-commissie (bv. op een CV of een rubriek \"over het kantoor\") is op zich geen inbreuk — het is objectieve informatie. De grens wordt overschreden zodra die functie wordt **gepresenteerd als een voordeel voor de cliënt** (informatieasymmetrie, snellere doorlooptijd, betere kennis). De toon en het oogmerk maken het verschil. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 31 KB 1 maart 1998 (publiciteit: enkel objectieve informatie, geen vergelijkende of wervende reclametechnieken); IESBA Code of Ethics Section 320 + fundamentele beginselen integriteit en professioneel gedrag. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 31 KB 1 maart 1998; IESBA Section 320"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2014-1-vr43"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5117,7 +5390,171 @@
       "vraag_id": "2014-1-vr43"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**FOUT.** Een middelenvennootschap mag opgericht worden met beoefenaars van andere intellectuele en dienstverlenende beroepen, niet enkel met IAB-confraters. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Een middelenvennootschap (of \"kostendelende vennootschap\") brengt enkel kosten in gemeenschap — geen beroepsopdrachten, geen ereloon-inning. Art. 21 KB 1998 plichtenleer laat dit uitdrukkelijk toe met andere personen, mits hun beroep van **intellectuele en dienstverlenende aard** is en in minstens één EU-lidstaat georganiseerd en gereglementeerd. Een accountant kan dus perfect een middelenvennootschap aangaan met bv. een advocaat, notaris, bedrijfsrevisor of architect. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met de **professionele vennootschap** (= beroepsvennootschap, erkend door het IAB/ITAA). Die heeft als doel het beroep zelf in gemeenschap uit te oefenen en kent veel strengere ledenvoorwaarden (meerderheid moet titularis zijn). De middelenvennootschap deelt enkel kantoor, secretariaat, software, huur — niet de opdrachten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 21 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants: de externe accountant mag met niet-accountants een vennootschap oprichten \"die tot doel heeft het in gemeenschap brengen van alle of een gedeelte der kosten\", op voorwaarde dat het gaat om beroepen van intellectuele en dienstverlenende aard, georganiseerd en gereglementeerd in minstens één EU-lidstaat. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 21 KB 1 maart 1998 plichtenleer accountants"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST.** Stemrechten in een professionele vennootschap mogen niet worden aangehouden door een belangengroepering die de onafhankelijke beroepsuitoefening in het gedrang brengt. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Het erkennings­reglement voor professionele vennootschappen (IAB, sinds de hervorming 2010 verankerd in de erkenningsvoorwaarden bij het IAB en heden in de ITAA-deontologische code) eist dat **de meerderheid van de stemrechten** in handen blijft van natuurlijke personen die de titel van accountant en/of belastingconsulent dragen. Stemrechten doorgeven aan een derde-belangengroepering die de onafhankelijke uitoefening van het beroep zou compromitteren, is in strijd met het onafhankelijkheids­beginsel (kernbeginsel deontologie). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Onafhankelijkheids­beginsel — toen vervat in art. 14 Wet 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen + erkenningsreglement professionele vennootschappen IAB (KB 4 mei 2007). Vandaag geconsolideerd in de Wet ITAA van 17 maart 2019 en het deontologisch reglement ITAA. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 14 W. 22 april 1999 + erkenningsreglement IAB (KB 4 mei 2007); thans Wet ITAA 17 maart 2019"
+              }
+            ],
+            "id": "b",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST.** Als een vennootschap zelf zaakvoerder is van een professionele vennootschap, moet die rechtspersoon-zaakvoerder verplicht vertegenwoordigd worden door een natuurlijk persoon die accountant en/of belastingconsulent is. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Het beroep is wettelijk voorbehouden aan natuurlijke personen die de titel dragen. Wanneer een rechtspersoon-bestuurder wordt benoemd, eist het erkenningsreglement dat de **vaste vertegenwoordiger** (in de zin van het Wetboek van vennootschappen, vandaag art. 2:55 WVV) de titel van accountant of belastingconsulent draagt. Anders zou het beroep de facto uitgeoefend worden door een niet-titularis — wat in strijd is met het wettelijke titel- en uitoefeningsmonopolie. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Erkenningsreglement professionele vennootschappen IAB (KB 4 mei 2007), in samenhang met art. 2:55 WVV inzake de vaste vertegenwoordiger van een rechtspersoon-bestuurder. Thans Wet ITAA 17 maart 2019 en deontologisch reglement ITAA. 🔗",
+                "type": "grondslag",
+                "wetsref": "Erkenningsreglement IAB (KB 4 mei 2007) + art. 2:55 WVV"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** Stagiairs accountant/belastingconsulent mogen wel degelijk zaakvoerder zijn van een professionele vennootschap — mits aan de andere ledenvoorwaarden voldaan blijft (meerderheid mandaten bij volwaardige titularissen). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Sinds de hervorming van 2010 werd de toegang tot bestuursmandaten in professionele vennootschappen verruimd: een stagiair-accountant of stagiair-belastingconsulent is een (kandidaat-)lid van het Instituut en mag een zaakvoerders- of bestuurdersmandaat opnemen. De voorwaarde is dat de **meerderheid** van de zaakvoerders/bestuurders volwaardige titularis (accountant en/of belastingconsulent) is — niet dat stagiairs uitgesloten worden. \"Nooit\" is dus te absoluut en daarom fout. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar de stagiair niet met een niet-lid: een **niet-lid** mag geen zaakvoerder zijn voor wat de beroepsuitoefening betreft. De stagiair telt onder het deontologisch reglement gedeeltelijk mee als professional-in-opleiding, maar mag in de algemene vergadering enkel een raadgevende stem uitbrengen (vgl. art. 63 Wet ITAA). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Erkenningsreglement professionele vennootschappen IAB (KB 4 mei 2007, gewijzigd vanaf 2010) — meerderheidsregel voor mandaten in handen van titularissen, stagiairs niet uitgesloten. Art. 63 Wet ITAA 17 maart 2019 bevestigt het bijzondere statuut van de stagiair (raadgevende stem in AV). 🔗",
+                "type": "grondslag",
+                "wetsref": "Erkenningsreglement IAB (KB 4 mei 2007, wijz. 2010); art. 63 Wet ITAA 17 maart 2019"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST.** Bij slechts twee zaakvoerders/bestuurders moeten beide lid zijn van het IAB (thans ITAA), want de meerderheids­regel betekent in dat geval noodzakelijk 2 op 2. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Het erkenningsreglement eist dat de **meerderheid** van de zaakvoerders/bestuurders van een professionele vennootschap titularis is (accountant en/of belastingconsulent, lid IAB — heden ITAA). Bij twee mandatarissen is een meerderheid (>50%) wiskundig pas bereikt vanaf 2 — één op twee is geen meerderheid maar pariteit. Beide zaakvoerders moeten dus titularis zijn. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Erkenningsreglement professionele vennootschappen IAB (KB 4 mei 2007): meerderheidsvereiste voor zaakvoerders- en bestuurdersmandaten. Thans gehernomen in het deontologisch reglement ITAA onder de Wet van 17 maart 2019. 🔗",
+                "type": "grondslag",
+                "wetsref": "Erkenningsreglement IAB (KB 4 mei 2007); thans Wet ITAA 17 maart 2019"
+              }
+            ],
+            "id": "e",
+            "oordeel": true
+          }
+        ],
+        "vraag_id": "2014-1-vr44"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5278,7 +5715,220 @@
       "vraag_id": "2014-1-vr45"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Akkoord** — de loutere vestiging in dezelfde gemeente is op zich geen belangenconflict en geen onafhankelijkheidsbedreiging. De opdracht mag worden aanvaard. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 11 KB 1998 verbiedt enkel opdrachten waarvan de uitoefening de externe accountant in een belangenconflict plaatst dat zijn onafhankelijk oordeel in het gedrang brengt. Geografische nabijheid is geen zo'n bedreiging. 📖 Wel moet de aanvaardende accountant — vóór de opdracht — nagaan of een andere externe accountant in de laatste 12 maanden voor dezelfde klant werkte (art. 25 KB 1998). In casu is die voorwaarde vervuld doordat de confrater zélf de opdracht doorgeeft. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "KB van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants, art. 11 (verbod opdracht in belangenconflict) en art. 25 (na te leven confraternele controle vóór aanvaarding). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 11 en 25 KB 1 maart 1998 (plichtenleer accountants)"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet akkoord** — wie het verslag van omvorming opmaakt, mag de op te stellen staat van activa en passiva niet zélf mee opstellen. Dat is een self-review en doodt de onafhankelijkheid. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bij een omzetting stelt het **bestuursorgaan** de staat van activa en passiva op (art. 14:3 WVV); de externe accountant **beoordeelt** vervolgens of het nettoactief, in alle van materieel belang zijnde opzichten, niet overgewaardeerd is (art. 14:4 WVV). 📖 De cliënt bijstaan bij het opmaken van diezelfde staat = de eigen aanstaande beoordelingsbasis mee construeren — een klassieke self-review threat die art. 11 KB 1998 verbiedt. 🔗 De ITAA-norm omzetting bevestigt dat de beroepsbeoefenaar de deontologische beginselen — onafhankelijkheid voorop — moet naleven vóór hij de opdracht aanvaardt. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar deze opdracht niet met courante boekhoudkundige bijstand: de redactie van de staat van activa en passiva in het kader van een omvorming is een **bestuurshandeling** (bestuursorgaan-verslag, art. 14:5 WVV). De externe accountant die het verslag van art. 14:4 WVV opmaakt, kan die handeling niet zélf uitvoeren zonder de onafhankelijkheidsregel te schenden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:3-14:5 WVV (verdeling rollen bestuursorgaan ↔ beroepsbeoefenaar bij omzetting); art. 11 KB 1 maart 1998 (verbod belangenconflict); ITAA-norm omzetting vennootschap, II.1 (deontologische beginselen vóór aanvaarding). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 14:3-14:5 WVV; art. 11 KB 1 maart 1998"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet akkoord** — de opdracht van het verslag van omvorming mag niet worden gebruikt om het cliënteel van de confrater over te nemen; bovendien moet bij elke overname van een opdracht het confraterneel kennisgevingsformalisme van art. 23 KB 1998 worden nageleefd. \"Onmiddellijk toestemmen\" is dus niet correct. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee deontologische problemen lopen samen:\n\n- **Onafhankelijkheid (art. 11 KB 1998)**: een bijzondere opdracht aanvaarden om vervolgens de algemene boekhoudopdracht van diezelfde klant te kapen, plaatst de aanvaardende accountant in een belangenconflict — zowel ten opzichte van de confrater (vermoeden van clientwerving via een wettelijk monopolieverslag) als naar de toekomst toe (self-review op de stukken die hij zelf in het omvormingsverslag heeft beoordeeld). 🔗\n- **Confraternele regels (art. 23 KB 1998)**: vóór de overname moet de opvolgende accountant zijn voorganger **schriftelijk (bij voorkeur aangetekend)** in kennis stellen en, indien onbetaald, bij de cliënt aandringen op betaling van de honoraria van de voorganger. \"Onmiddellijk toestemmen\" zonder die formaliteiten is niet toegelaten. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De IESBA-Code (Section 320) bevestigt dezelfde logica via het *self-interest*-/*self-review*-raamwerk: cliëntovername in aansluiting op een vertrouwensopdracht vereist safeguards en transparante communicatie met de voorganger. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 11 KB 1 maart 1998 (verbod opdracht in belangenconflict) en art. 23 KB 1 maart 1998 (schriftelijke kennisgeving voorganger + dossieroverdracht bij overname). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 11 en 23 KB 1 maart 1998"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Akkoord** — de werkdocumenten van een monopolieopdracht (waaronder het omvormingsverslag) moeten worden bewaard en op vraag van het Instituut ter beschikking gesteld. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 16 KB 1998 verplicht de externe accountant voor elke monopolieopdracht **schriftelijk aantekening te houden** van de aard van de verrichte werkzaamheden en die werkdocumenten **vijf jaar** te bewaren vanaf de datum van het verslag. 📖 Die documentatie dient onder meer om het Instituut zijn confraternele controle te laten uitoefenen — de algemene controlenorm bevestigt dat elk wettelijk verslag in afschrift naar het Instituut moet kunnen worden bezorgd. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "De stelling spreekt over \"onmiddellijk overmaken op het ogenblik dat dit gevraagd wordt\" — dat is conform de geest van de confraternele controle, maar de bewaartermijn zelf is in 1998 op **5 jaar** vastgelegd (art. 16, vierde lid KB 1998). De algemene controlenorm spreekt van **10 jaar**, wat geldt als minimum voor controleopdrachten naar nieuwere norminterpretatie. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 16 KB 1 maart 1998 (dossierplicht + bewaartermijn werkdocumenten); ITAA-norm algemene controlenorm §3 en §7 (bewaarplicht en toezending afschrift aan het Instituut). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 16 KB 1 maart 1998"
+              }
+            ],
+            "id": "d",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Niet akkoord** — de dossierplicht is **persoonlijk**. Elke externe accountant moet voor zijn eigen monopolieopdracht zélf werkdocumenten aanleggen en bewaren; je kan die plicht niet \"uitbesteden\" aan een confrater. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 16 KB 1998 is uitdrukkelijk: \"Voor iedere monopolieopdracht die hem wordt toevertrouwd moet de externe accountant schriftelijk aantekening houden of doen houden van de aard van de door hem of zijn medewerkers verrichte werkzaamheden zodat een getrouwe weergave van de uitvoering van de opdracht kan verkregen worden.\" 📖 De werkdocumenten van de confrater dekken diens voorbereidende werk, maar niet de uitvoering van **deze** opdracht door de aanvaardende accountant. Bovendien moeten die documenten bij de uitvoerende accountant zelf worden bewaard (art. 16, vierde lid). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Het werk van de confrater mag wel als **bewijsstuk in** het eigen dossier worden opgenomen (bv. een gedagtekend exemplaar in bijlage). Wat niet mag: het eigen dossier **vervangen** door het dossier van een ander. De ITAA-norm omzetting eist trouwens een eigen controledossier met onder meer het bestuursorgaan-verslag, de waarderingsregels en de eigen werkprogramma's. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 16 KB 1 maart 1998 (persoonlijke dossierplicht + eigen bewaring werkdocumenten van de externe accountant die de opdracht uitvoert). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 16 KB 1 maart 1998"
+              }
+            ],
+            "id": "e",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2014-1-vr46"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

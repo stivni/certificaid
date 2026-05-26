@@ -1,0 +1,95 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr53",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Geval | Prijs | Max. cash | Toelichting |\n|---|---|---|---|\n| (1) | 2.800 EUR | **2.800 EUR (volledig)** | Onder de drempel van 3.000 EUR. 🔗 |\n| (2) | 5.800 EUR | **3.000 EUR** | Boven 3.000 EUR → maximaal 3.000 EUR cash, saldo (2.800 EUR) via overschrijving of ander niet-contant middel. 🔗 |\n| (3) | 5.800 EUR in 2 × 2.900 EUR | **3.000 EUR (totaal)** | Splitsen verandert niets: de wet kijkt naar het **totaalbedrag van één goed of dienst**, niet naar de schijven. 🔗 |\n| (4) | 11.000 EUR in 2 × 5.500 EUR | **3.000 EUR (totaal)** | Idem — totaalbedrag is bepalend, kunstmatige opdeling is verboden. 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Regel** (art. 67 AWW 2017): de prijs van een verkoop door een handelaar van een goed of dienst mag voor maximaal **3.000 EUR** in contanten worden voldaan, ongeacht of de betaling in één keer of in schijven gebeurt. 📖 De grens kijkt naar het **totaalbedrag per goed/dienst**, niet naar de individuele schijf — splitsen om onder de drempel te blijven is een ontwijking en blijft verboden. 🔗\n\n- **Geval (1)** — 2.800 EUR < 3.000 EUR: volledig cash toegelaten. 🔗\n- **Geval (2)** — 5.800 EUR > 3.000 EUR: cash-deel begrensd op 3.000 EUR, de resterende 2.800 EUR moet via een traceerbaar betaalmiddel (overschrijving, kaart). 🔗\n- **Geval (3)** — idem geval (2): twee schijven van 2.900 EUR liggen elk onder 3.000 EUR, máár het is één meubel van 5.800 EUR → cumulatief geldt de drempel → max 3.000 EUR cash in totaal. 🔗\n- **Geval (4)** — idem: één meubel van 11.000 EUR, twee betalingen van 5.500 EUR. Elke schijf overschrijdt al de drempel; cumulatief mag in totaal niet meer dan 3.000 EUR in contanten worden voldaan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Splitsen werkt niet.** Stagiairs zien soms \"2 × 2.900 EUR = elke schijf onder 3.000 EUR\" als legaal — fout. Art. 67 AWW kijkt naar de prijs van **één goed of dienst**; de optelsom is bepalend. Sanctie: art. 137 AWW — geldboete van 250 tot 225.000 EUR, met als bovengrens 10 % van de uitgevoerde contante betaling. 📖 Daarnaast: voor onroerende goederen is contante betaling **volledig verboden** (geen 3.000 EUR-marge) — zit niet in deze casus maar is een typische examen-valkuil. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 67 AWW** (Wet 18 september 2017 tot voorkoming van het witwassen van geld) — maximumlimiet contante betalingen 3.000 EUR per goed/dienst, splitsing verboden. **Art. 137 AWW** — strafrechtelijke sanctie (geldboete 250–225.000 EUR, max. 10 % van de betaling). 📖 In **2015** (de datum van het examen) gold nog de oudere Wet 11 januari 1993 met sinds 1 januari 2014 dezelfde drempel van 3.000 EUR (en destijds ook een 10 %-koppeling die in de AWW 2017 verdween) — de huidige regel die de stagiair vandaag leert is art. 67 AWW 2017. 🔗",
+          "wetsref": "Art. 67 + art. 137 Wet 18 september 2017 (AWW)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet automatisch.** Een loutere overtreding van de cash-limiet (art. 67 AWW) leidt **niet als zodanig** tot een CFI-melding. De externe belastingconsulent doet enkel een melding aan de **CFI** wanneer hij weet, vermoedt of redelijke gronden heeft om te vermoeden dat de feiten verband houden met **witwassen van geld of financiering van terrorisme** (art. 47 AWW). Voor de cash-overtreding op zich loopt de meldingsplicht naar de **FOD Economie** (art. 66 § 2 AWW). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Twee verschillende meldingsplichten, niet verwarren**:\n\n1. **Melding aan FOD Economie** (art. 66 § 2 AWW) — elke onderworpen entiteit (incl. de externe belastingconsulent) die een **inbreuk op art. 67** (cash-limiet) vaststelt bij een cliënt, **moet** dit schriftelijk melden aan de FOD Economie. Dit is de \"normale\" rapporteringskanaal voor cash-overtredingen. 🔗\n2. **Melding aan CFI** (art. 47 AWW) — deze geldt alleen wanneer er een **vermoeden van witwas of terrorismefinanciering** is. De ITAA-norm AWW bevestigt: \"Wanneer de beroepsbeoefenaar weet, vermoedt of redelijke gronden heeft om te vermoeden dat feiten of verrichtingen die geleid hebben tot een gift of betaling in contanten verband houden met het WG/FT dient hij dit vermoeden onmiddellijk te melden aan de CFI.\" 📖\n\n**Praktijk**: een cash-overtreding is vaak een **röde vlag** voor witwas — grote cash-betalingen kunnen wijzen op het integreren van crimineel geld. De belastingconsulent moet dus per geval beoordelen of er een vermoeden van WG/FT bestaat (bv. ongebruikelijke transactie, gebrek aan economische logica, onverklaarbare herkomst). Bij vermoeden: **wel** CFI-melding bovenop de FOD-Economie-melding. Bij een geïsoleerde, plausibel verklaarbare overtreding zonder bijkomende rode vlaggen: **geen** CFI-melding. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md",
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De CFI-melding is een **wettelijke afwijking van het beroepsgeheim** (art. 57 AWW) — het lid geniet strafrechtelijke immuniteit én is gevrijwaard van burgerlijke en tuchtrechtelijke aansprakelijkheid voor de aangifte. 📖 Dit verlaagt de drempel voor melding bij twijfel: bij reële vermoedens van WG/FT is melden de regel, niet de uitzondering. **Belangrijk onderscheid op het examen**: \"moet u melden aan de CFI bij een cash-overtreding?\" → **nee, niet automatisch** — alleen bij vermoeden van WG/FT. De cash-overtreding zelf gaat naar de FOD Economie. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 47 AWW** — meldingsplicht aan de CFI bij weten/vermoeden van witwas of terrorismefinanciering. **Art. 66 § 2 AWW** — meldingsplicht aan de FOD Economie bij vastgestelde inbreuk op art. 67 (cash-limiet). **Art. 57 AWW** — CFI-melding is wettelijke afwijking van het beroepsgeheim, met strafrechtelijke, burgerrechtelijke en tuchtrechtelijke immuniteit. **ITAA-norm AWW** § 7 (Beperkingen van het gebruik van contanten): bevestigt dat de CFI-meldingsplicht enkel geldt bij vermoeden van WG/FT. 📖",
+          "wetsref": "Art. 47 + art. 57 + art. 66 § 2 + art. 67 AWW; ITAA-norm AWW § 7",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

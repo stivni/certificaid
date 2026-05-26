@@ -1,0 +1,126 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr54",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Als FIXIT de vereffening zelf zal uitvoeren (vereffenaar wordt), kan hij de cliënt nog wel begeleiden, maar mag hij de wettelijke controleopdracht op de staat van activa en passiva (art. 2:71 §2 WVV) niet zelf uitvoeren: een externe accountant mag geen beheers- of bestuursfunctie combineren met een controleopdracht over dezelfde vennootschap. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 13 §2 KB plichtenleer (1998) verbiedt de externe accountant die met de controle van de jaarrekening of andere boekhoudkundige bescheiden van een onderneming belast is, om \"een andere functie, mandaat of opdracht\" te aanvaarden die hem \"ertoe zouden brengen zich in te laten met het beheer of de onderneming te vertegenwoordigen\". 📖 De functie van vereffenaar is bij uitstek een beheers- en vertegenwoordigingsfunctie (de vereffenaar treedt op namens de vennootschap in vereffening). Art. 9 en art. 11 KB plichtenleer voegen daar het algemene onafhankelijkheids- en belangenconflict-beginsel aan toe: een opdracht weigeren zodra invloeden of banden zijn onpartijdigheid kunnen aantasten. 📖 Beide regels samen maken dat FIXIT niet tegelijk vereffenaar én controleur van de staat van activa en passiva kan zijn — de controle moet door een andere onafhankelijke beroepsbeoefenaar gebeuren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het verbod komt niet voort uit het loutere feit dat FIXIT \"al jaren\" de externe accountant van TRIAL is — een gewone externe accountant mag normaal gezien wél een art. 2:71 §2-controleopdracht voor zijn eigen cliënt aanvaarden (de ITAA-norm-ontbinding-vereffening voorziet dit uitdrukkelijk). De onverenigbaarheid ontstaat hier omdat de bestuurder hem vraagt om de vereffening zelf te leiden, wat een beheers-rol is. Schaduw-vereffenaar zijn én controleur zijn — dat kan niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 13 §2 KB van 1 maart 1998 plichtenleer accountants — verbod op combinatie van controleopdracht met beheers- of vertegenwoordigingsfunctie. Art. 9 en 11 idem — algemene onafhankelijkheids- en belangenconflictplicht. Art. 2:71 §2 WVV bepaalt dat de staat van activa en passiva moet worden gecontroleerd door commissaris, bedrijfsrevisor of gecertificeerd accountant. 📖",
+          "wetsref": "Art. 13 §2 + art. 9, 11 KB 1 maart 1998; art. 2:71 §2 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De controleopdracht op de staat van activa en passiva (art. 2:71 §2 WVV) is voorbehouden aan een **commissaris, bedrijfsrevisor of gecertificeerd (externe) accountant** — een erkend boekhouder (of boekhouder-fiscalist) is hiertoe **niet** bevoegd. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 2:71 §2, derde lid WVV vereist dat de staat van activa en passiva het voorwerp uitmaakt van een controleverslag opgesteld door de commissaris of, bij gebreke daarvan, door een bedrijfsrevisor of een externe (gecertificeerd) accountant die door het bestuursorgaan wordt aangewezen. 📖 De ITAA-norm-ontbinding-vereffening (model van verslag, bijlage 3) bevestigt: het verslag wordt uitgebracht door de commissaris, bedrijfsrevisor of gecertificeerd accountant — drie hoedanigheden, geen vierde. 📖 De erkend boekhouder beschikt niet over het wettelijke monopolie om assurance-/controleopdrachten met materialiteitsoordeel uit te voeren; zijn beroepswet beperkt hem tot boekhoudkundige en fiscale dienstverlening. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:71 §2 WVV juncto ITAA-norm-ontbinding-vereffening §15 + bijlage 3: opdracht voorbehouden aan commissaris / bedrijfsrevisor / gecertificeerd accountant. 📖",
+          "wetsref": "Art. 2:71 §2 WVV; ITAA-norm-ontbinding-vereffening §15 + bijlage 3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** De externe accountant is een onderworpen entiteit onder de antiwitwaswet van 18 september 2017 en moet bij elke nieuwe opdracht (ook een art. 2:71 §2-controleopdracht) de cliënt-vennootschap én haar bestuurders/uiteindelijke begunstigden identificeren. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-procedurereglement.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wet van 18 september 2017 (omzetting van Richtlijn 2015/849) merkt de externe accountants en belastingadviseurs aan als \"onderworpen entiteiten\" (art. 5 §1 AWW). 📖 Dit brengt drie kernverplichtingen mee: (i) identificatie en verificatie van de cliënt (de vennootschap TRIAL), (ii) identificatie van de lasthebbers/vertegenwoordigers (de gedelegeerd bestuurder die de opdracht geeft) en (iii) identificatie van de uiteindelijke begunstigden (UBO's — natuurlijke personen die de vennootschap controleren). 🔗 De aard van de opdracht (controle staat van activa en passiva) doet daar niets aan af: zodra een zakelijke relatie wordt aangegaan of een occasionele verrichting wordt verricht, gelden de waakzaamheidsplichten. De ITAA-handleiding interne procedures (2019) operationaliseert dit met een risico-gebaseerde aanpak (laag/standaard/hoog). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-procedurereglement.md",
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij een ontbinding-vereffeningsopdracht is verhoogde waakzaamheid vaak aangewezen: ontbindingen kunnen worden gebruikt om vermogensbestanddelen aan het zicht te onttrekken of via vereffeningsrekeningen door te sluizen. Een ongebruikelijk verloop (bv. een bestuurder die zelf vereffenaar wordt en activa snel realiseert) is een red flag die in de risico-inschaling kan leiden tot hoog risico en bijkomende waakzaamheidsmaatregelen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wet 18 september 2017 ter voorkoming van witwassen en financiering van terrorisme, art. 5 §1 (onderworpen entiteiten — externe accountants) + art. 26 e.v. (waakzaamheidsplichten: identificatie cliënt, lasthebbers en UBO). ITAA-procedurereglement AWW en ITAA-handleiding interne procedures (2019) als sectorale uitvoering. 📖",
+          "wetsref": "Wet 18 september 2017 (AWW), art. 5 §1 + art. 26 e.v.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-procedurereglement.md",
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

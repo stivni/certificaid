@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6A",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — de accountant stelt het ereloon zelf vast, binnen de wettelijke criteria (aard, belang, complexiteit, omvang, reikwijdte, verantwoordelijkheid, bijzondere kwalificaties). Er bestaat geen ITAA-barema; provisies/voorschotten zijn toegelaten; commissielonen zijn verboden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** (barema door ITAA) → FOUT. Noch art. 28 KB 1998 plichtenleer, noch art. 46 Wet ITAA 2019 verwijzen naar een door het ITAA opgesteld barema. De wet geeft enkel criteria waarbinnen de beroepsbeoefenaar zelf vaststelt. 📖\n- **b** (accountant stelt zelf vast) → JUIST. Art. 28 KB 1998 en art. 46 Wet ITAA 2019 leggen de vaststelling bij de accountant, in functie van de opdrachtkenmerken en zijn verantwoordelijkheid/kwalificaties. 📖\n- **c** (provisies en voorschotten verboden) → FOUT. De ITAA-norm opdrachtbrief §7 voorziet uitdrukkelijk dat de wijze van aanrekening kan gebeuren \"via voorschotten, forfaitair, maandelijks\". Voorschotten zijn dus toegelaten. 📖\n- **d** (ereloon kan bestaan uit commissielonen) → FOUT. Art. 27 KB 1998 sluit \"elke andere rechtstreekse of onrechtstreekse vergoeding\" uit naast het ereloon en de kostenvergoeding. Commissielonen (van derden, voor doorverwijzing of bemiddeling) zijn dus verboden — dit raakt ook de onafhankelijkheid. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Optie a en d zijn klassieke afleiders. Het verbod op commissielonen (optie d) volgt niet uit een verbod op een vergoedingsvorm op zich, maar uit het principe dat de accountant zijn ereloon enkel van de cliënt mag ontvangen voor eigen prestaties — geen retrocommissies of bemiddelingsvergoedingen van derden. Niet-verantwoord lage óf hoge erelonen zijn bovendien strijdig met de waardigheid van het beroep (art. 28 in fine). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 27 KB 1 maart 1998 (plichtenleer accountants): de externe accountant mag alleen aanspraak maken op ereloon en kostenvergoeding, met uitsluiting van elke andere rechtstreekse of onrechtstreekse vergoeding. Art. 28 KB 1998 + art. 46 Wet 17 maart 2019 (ITAA): het ereloon wordt vastgesteld in functie van aard, belang, complexiteit, omvang en reikwijdte van de opdracht, en de verantwoordelijkheid/bijzondere kwalificaties van de beroepsbeoefenaar. ITAA-norm opdrachtbrief §7: aanrekening kan via voorschotten, forfaitair of maandelijks. 📖",
+          "wetsref": "Art. 27-28 KB 1 maart 1998; art. 46 Wet 17 maart 2019 (ITAA); ITAA-norm opdrachtbrief §7",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

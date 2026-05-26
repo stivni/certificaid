@@ -1,0 +1,125 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr52",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Art. 28 KB 1 maart 1998 schrijft net het omgekeerde voor: het ereloon *moet* worden vastgesteld in functie van de aard, het belang, de complexiteit, de omvang en de reikwijdte van de opdracht (plus de verantwoordelijkheid en bijzondere kwalificaties van de accountant). Een vast uurloon dat met die criteria geen rekening houdt, is niet conform. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De stelling draait de regel om: niet enkel mág het ereloon afhankelijk zijn van die factoren, het *moet* dat zijn. Een uniform uurloon zonder differentiatie naar dossier-aard is strijdig met de plichtenleer. Daarbovenop verbiedt art. 28, tweede lid, ook *niet verantwoord lage of hoge erelonen* — die zijn strijdig met de waardigheid van het beroep. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het ereloon mag wél niet afhangen van het *resultaat* van de opdracht (verbod op success fees / no cure no pay-clausules in de geest van de plichtenleer en de ITAA-deontologie). Het verschil: differentiëren naar opdracht-kenmerken (aard, complexiteit) is verplicht; differentiëren naar uitkomst (gewonnen geding, behaalde belastingbesparing) is verboden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 28 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants — \"Het bedrag van het ereloon van de accountant moet vastgesteld worden in functie van de aard, het belang, de complexiteit, de omvang en de reikwijdte van de opdracht (...).\" 📖",
+          "wetsref": "Art. 28 KB 1 maart 1998 (plichtenleer accountants)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Art. 27 KB 1 maart 1998 verbiedt *elke* andere rechtstreekse of onrechtstreekse vergoeding naast het ereloon en de kostenvergoeding voor uitgevoerde opdrachten — *zonder* uitzondering \"mits goedkeuring van de raad\". Commissies van derden voor tussenkomst bij transacties met een cliënt zijn dus verboden, ook met instemming van het ITAA-bestuur. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De ratio: onafhankelijkheid. Een commissie van een derde partij voor het bijbrengen van een cliënt of voor het sturen van een transactie creëert een financieel belang dat conflicteert met het belang van de cliënt. Art. 27 voorziet één enkele uitzondering — een vergoeding wegens *verbreking* van de overeenkomst — en die heeft niets met derden-commissies te maken. De \"goedkeuring van de raad\" als ontsnappingsclausule bestaat niet in de tekst. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 27 KB 1 maart 1998 — \"De externe accountant mag (...) alleen aanspraak maken op het ereloon en de vergoeding der kosten voor de door hem of zijn medewerkers uitgevoerde opdrachten, met uitsluiting van elke andere rechtstreekse of onrechtstreekse vergoeding, tenzij het zou gaan om een vergoeding wegens de verbreking van de overeenkomst.\" 📖",
+          "wetsref": "Art. 27 KB 1 maart 1998 (plichtenleer accountants)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Art. 27 KB 1 maart 1998 voorziet uitdrukkelijk de uitzondering \"tenzij het zou gaan om een vergoeding wegens de verbreking van de overeenkomst\". Een opzegvergoeding bij eenzijdige beëindiging door de cliënt mag dus contractueel worden voorzien in de opdrachtbrief. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De opdrachtbrief is de geëigende plaats om de vergoedingsmodaliteiten bij vroegtijdige beëindiging vast te leggen (ITAA-norm opdrachtbrief). Voorwaarde: de vergoeding moet redelijk zijn en in verhouding staan tot het reeds verrichte werk of de gederfde erelonen — geen verkapte boete. Bij gebreke aan contractuele regeling herneemt het gemeen recht: vergoeding voor reeds uitgevoerde prestaties + eventueel schadevergoeding wegens contractbreuk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Belangrijke nuance: de wettelijke opdrachten (commissaris, vereffenaar, …) kennen eigen ontslagregels in het WVV — de cliënt-vennootschap kan een commissaris niet eenzijdig zonder wettige reden afzetten zonder schadevergoeding (art. 3:66 WVV). Voor contractuele opdrachten (boekhoudkundige bijstand, fiscaal advies, …) primeert wat de opdrachtbrief bepaalt, binnen de grenzen van art. 27 KB 1 maart 1998. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 27 in fine KB 1 maart 1998 (plichtenleer accountants) — uitzondering voor \"een vergoeding wegens de verbreking van de overeenkomst\". Operationalisering via de opdrachtbrief: ITAA-norm Opdrachtbrief §Erelonen en §Beëindiging. 📖",
+          "wetsref": "Art. 27 KB 1 maart 1998 + ITAA-norm Opdrachtbrief",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

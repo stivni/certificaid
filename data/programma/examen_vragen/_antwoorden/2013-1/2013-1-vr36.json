@@ -1,0 +1,162 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr36",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Een vergelijkende studie van erelonen tussen collega's en zichzelf is een vorm van vergelijkende reclame over tarieven, en die is uitdrukkelijk verboden door het reglement van plichtenleer. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 31 KB 1 maart 1998 laat de accountant toe \"objectieve informatie over zijn kantoor\" mee te delen, maar voegt eraan toe: \"In geen geval mag verwezen worden naar al dan niet vergelijkende gegevens inzake tarieven of kwaliteit.\" 📖 Een vergelijkende ereloon-studie publiceren of communiceren valt rechtstreeks onder dit verbod — ongeacht het gebruikte medium. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 31 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants — verbod op vergelijkende gegevens inzake tarieven of kwaliteit. 📖",
+          "wetsref": "Art. 31 KB 1 maart 1998 (plichtenleer accountants)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Sterk verminderde \"lokprijzen\" hanteren om klanten te binden is strijdig met de waardigheid van het beroep: het ereloon moet objectief vastgesteld worden op basis van aard, complexiteit en omvang van de opdracht. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 28 KB 1 maart 1998 bepaalt dat het ereloon wordt vastgesteld \"in functie van de aard, het belang, de complexiteit, de omvang en de reikwijdte van de opdracht\" en voegt expliciet toe: \"Het aanrekenen van niet verantwoord lage of hoge erelonen, is strijdig met het beginsel van de waardigheid van het beroep.\" 📖 Dumping-prijzen als acquisitietruc voldoen niet aan dit criterium en zijn dus verboden. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het verbod richt zich niet op een normale concurrentiële prijsstelling, maar op \"niet verantwoord lage\" erelonen — dus prijzen die onder de werkelijke kost van een correcte uitvoering liggen. De ratio: te lage erelonen tasten de kwaliteit én de onafhankelijkheid aan (de beroepsbeoefenaar moet hopen op vervolgopdrachten of cross-selling om break-even te draaien). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 28 KB 1 maart 1998 (plichtenleer accountants) — ereloon naar aard van de opdracht; verbod op niet verantwoord lage of hoge erelonen. 📖",
+          "wetsref": "Art. 28 KB 1 maart 1998 (plichtenleer accountants)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De externe accountant mag in publiciteit géén gewag maken van de naam van zijn cliënten — zelfs niet als opsomming van \"belangrijke klanten\", in tegenstelling tot wat in andere sectoren gebruikelijk is. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 31 KB 1 maart 1998: \"Onafgezien van de verslagen die moeten bekendgemaakt worden met toepassing van de wet, mag de accountant in het openbaar of in brochures geen gewag maken van de naam van één van zijn cliënten.\" 📖 Dit verbod vloeit voort uit het beroepsgeheim (art. 458 Sw.) en de discretieplicht: zelfs het bekendmaken van de loutere identiteit van een cliënt verraadt de cliëntrelatie. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Uitzondering: in uitzonderlijke gevallen kan van dit verbod worden afgeweken, mits **dubbele toestemming** — zowel van de cliënt zelf als van de Voorzitter van het Instituut. 📖 De vraagstelling \"zoals dat gebruikelijk is bij andere sectoren\" is precies de valkuil: gereglementeerde beroepen vallen onder een striktere deontologie dan handelaars onder het WER. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 31 KB 1 maart 1998 (plichtenleer accountants) — verbod op naamsvermelding van cliënten in publiciteit, behoudens dubbele toestemming (cliënt + Voorzitter Instituut). 📖",
+          "wetsref": "Art. 31 KB 1 maart 1998 (plichtenleer accountants)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Het vermelden van de sectoren waarin de accountant werkzaam is, valt onder \"objectieve informatie over het kantoor\" en is toegelaten — het laat de cliënt toe de bekwaamheden in te schatten zonder cliëntnamen prijs te geven of tarieven te vergelijken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 31 KB 1 maart 1998 staat publiciteit toe voor zover ze \"objectieve informatie\" verschaft en de beroepsdiscretie respecteert. 📖 Vakgebieden, specialisaties en sectoren waarin het kantoor actief is, zijn objectieve, controleerbare informatie over de competenties van het kantoor — géén vergelijking van tarieven/kwaliteit en géén naamsvermelding van cliënten. De stelling valt dus binnen de toegelaten zone. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De grens loopt fijn: zodra de sector-vermelding zo specifiek wordt dat ze de facto een cliënt identificeert (bv. \"de enige cementproducent van België\"), valt ze opnieuw onder het verbod van art. 31 op naamsvermelding. Sector-categorieën in algemene termen (\"vastgoed\", \"horeca\", \"vrije beroepen\") zijn veilig. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 31 KB 1 maart 1998 (plichtenleer accountants) — objectieve informatie over het kantoor is toegelaten, mits geen vergelijkende tarief-/kwaliteitsgegevens en geen cliëntnamen. 📖",
+          "wetsref": "Art. 31 KB 1 maart 1998 (plichtenleer accountants)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

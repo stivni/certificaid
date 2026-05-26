@@ -1,0 +1,92 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr55",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen.** Een belastingconsulent-IAB (vandaag: gecertificeerd belastingadviseur-ITAA) mag geen aandelen aanhouden in een niet door het Instituut erkende vennootschap die het beroep van belastingconsulent uitoefent — ook niet als minderheidsparticipatie van 15 % en zelfs zonder bestuursfunctie. Deelname tast de onafhankelijkheid aan en is bovendien onverenigbaar met het reglement van plichtenleer. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie cumulatieve redenen:\n\n- **Onverenigbaarheid met onafhankelijkheid.** Het reglement van plichtenleer verbiedt aan een extern lid om financiële of professionele banden aan te gaan die de onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid in het gedrang kunnen brengen. Een kapitaalparticipatie in een vennootschap die hetzelfde beroep uitoefent creëert een eigenbelang-bedreiging (self-interest threat), ongeacht het percentage of de afwezigheid van bestuursmandaat. 🔗\n- **Vennootschap is niet erkend door het Instituut.** Een extern lid mag zijn beroep enkel uitoefenen via — of in maatschap met — natuurlijke personen of vennootschappen die zelf door het Instituut zijn erkend (\"professionele vennootschap\"). Aandeelhouder worden van een niet-erkende beroepsvennootschap die het beroep uitoefent valt buiten dat kader. 🔗\n- **Het feit dat de zetel in Luxemburg ligt verandert niets** — de bedreiging voor de onafhankelijkheid wordt beoordeeld op het niveau van de Belgische beroepsbeoefenaar, niet op het territorium van de vennootschap. Bovendien opent dezelfde groep een kantoor in België dat zich \"belastingconsulent\" noemt zonder erkenning (zie deelvraag b) — de aandeelhoudersband zou de beroepsbeoefenaar mee verbinden aan een onwettige uitoefening van de titel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De drempel \"15 % zonder bestuur\" lijkt onschuldig, maar onafhankelijkheid bij IAB/ITAA is **geen percentage-test** zoals in sommige andere regelgevingen (bv. de 10 %-drempel bij commissarissen voor bepaalde audit-onafhankelijkheidstoetsen). Elke deelneming in een niet-erkende beroepsvennootschap die hetzelfde beroep uitoefent is in beginsel verboden, ongeacht omvang. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Ten tijde van het examen (2015): art. 3 en art. 14 wet 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen + KB 1 maart 1998 houdende goedkeuring van het reglement van plichtenleer van het IAB (onafhankelijkheid, onverenigbaarheden, professionele vennootschap). Vandaag: art. 6, 12 en 31-33 wet 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur (ITAA-wet) + ITAA-deontologische norm. Kernregel: het extern lid mag het beroep enkel uitoefenen via natuurlijke personen of door het Instituut erkende beroepsvennootschappen, en moet elke band vermijden die de onafhankelijkheid aantast. 🔗",
+          "wetsref": "Wet 22.04.1999 art. 3, 14; KB 01.03.1998 (plichtenleer IAB); Wet 17.03.2019 art. 6, 12, 31-33",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen.** U mag hen niet als zelfstandige onderaannemer bijstaan in België. De Belgische vestiging gebruikt de beschermde titel \"belastingconsulent\" zonder erkenning door het IAB/ITAA — dat is een onwettige beroepsuitoefening. Als onderaannemer optreden zou betekenen dat u uw titel en handtekening leent aan een niet-erkende structuur en zo medewerking verleent aan een inbreuk op de titelbescherming. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee zelfstandige gronden:\n\n- **Onwettige titel- en activiteitsuitoefening in België.** Niemand mag in België als zelfstandige of voor rekening van derden de werkzaamheden van belastingadviseur in hoofd- of bijberoep uitoefenen, noch de titel voeren, zonder inschrijving in het openbaar register van het Instituut. De vennootschap is naar Luxemburgs recht opgericht, maar zij opent een Belgisch kantoor en gebruikt er de titel \"belastingconsulent\" — dat valt onder de Belgische monopoliebepaling, ongeacht de Luxemburgse zetel. 📖\n- **Verbod op medewerking aan onwettige uitoefening.** Het reglement van plichtenleer verbiedt het lid om zijn medewerking te verlenen aan een onwettige uitoefening van het beroep, of aan personen die het beroep onwettig uitoefenen — ook indirect via onderaanneming. De cliënt blijft in dat geval juridisch de onerkende structuur, terwijl de werkelijke beroepshandeling door het lid wordt gesteld: dat camoufleert de onwettige uitoefening en is dus verboden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Onderaanneming voor een **wél erkende** confrater (Belgisch belastingconsulent-IAB/ITAA of een erkende beroepsvennootschap) is op zich toegelaten, mits de eigen onafhankelijkheid, het beroepsgeheim en de cliëntrelatie gevrijwaard blijven. Het verbod hier vloeit niet voort uit \"onderaanneming\" als techniek, maar uit het feit dat de opdrachtgever niet erkend is en in België onwettig de titel voert. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Ten tijde van het examen (2015): art. 38 wet 22 april 1999 (titelbescherming belastingconsulent + monopolie) en het reglement van plichtenleer IAB (KB 01.03.1998), dat het lid verbiedt om mee te werken aan de onwettige uitoefening van het beroep. Vandaag overgenomen in art. 6 §2 wet 17 maart 2019 (ITAA-wet): \"Niemand mag als zelfstandige, noch als natuurlijk persoon noch als rechtspersoon, voor rekening van derden, in hoofdberoep of bijberoep, de beroepsactiviteiten als bedoeld in paragraaf 1 uitoefenen, indien hij niet ingeschreven is in het openbaar register als beroepsbeoefenaar\" — en in de ITAA-deontologische norm (verbod op medewerking aan onwettige uitoefening). 📖",
+          "wetsref": "Wet 22.04.1999 art. 38; KB 01.03.1998 (plichtenleer IAB); Wet 17.03.2019 art. 6 §2",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

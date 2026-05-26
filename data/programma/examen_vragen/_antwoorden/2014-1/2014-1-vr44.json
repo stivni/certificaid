@@ -1,0 +1,165 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr44",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Een middelenvennootschap mag opgericht worden met beoefenaars van andere intellectuele en dienstverlenende beroepen, niet enkel met IAB-confraters. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een middelenvennootschap (of \"kostendelende vennootschap\") brengt enkel kosten in gemeenschap — geen beroepsopdrachten, geen ereloon-inning. Art. 21 KB 1998 plichtenleer laat dit uitdrukkelijk toe met andere personen, mits hun beroep van **intellectuele en dienstverlenende aard** is en in minstens één EU-lidstaat georganiseerd en gereglementeerd. Een accountant kan dus perfect een middelenvennootschap aangaan met bv. een advocaat, notaris, bedrijfsrevisor of architect. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de **professionele vennootschap** (= beroepsvennootschap, erkend door het IAB/ITAA). Die heeft als doel het beroep zelf in gemeenschap uit te oefenen en kent veel strengere ledenvoorwaarden (meerderheid moet titularis zijn). De middelenvennootschap deelt enkel kantoor, secretariaat, software, huur — niet de opdrachten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants: de externe accountant mag met niet-accountants een vennootschap oprichten \"die tot doel heeft het in gemeenschap brengen van alle of een gedeelte der kosten\", op voorwaarde dat het gaat om beroepen van intellectuele en dienstverlenende aard, georganiseerd en gereglementeerd in minstens één EU-lidstaat. 📖",
+          "wetsref": "Art. 21 KB 1 maart 1998 plichtenleer accountants",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Stemrechten in een professionele vennootschap mogen niet worden aangehouden door een belangengroepering die de onafhankelijke beroepsuitoefening in het gedrang brengt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het erkennings­reglement voor professionele vennootschappen (IAB, sinds de hervorming 2010 verankerd in de erkenningsvoorwaarden bij het IAB en heden in de ITAA-deontologische code) eist dat **de meerderheid van de stemrechten** in handen blijft van natuurlijke personen die de titel van accountant en/of belastingconsulent dragen. Stemrechten doorgeven aan een derde-belangengroepering die de onafhankelijke uitoefening van het beroep zou compromitteren, is in strijd met het onafhankelijkheids­beginsel (kernbeginsel deontologie). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Onafhankelijkheids­beginsel — toen vervat in art. 14 Wet 22 april 1999 betreffende de boekhoudkundige en fiscale beroepen + erkenningsreglement professionele vennootschappen IAB (KB 4 mei 2007). Vandaag geconsolideerd in de Wet ITAA van 17 maart 2019 en het deontologisch reglement ITAA. 🔗",
+          "wetsref": "Art. 14 W. 22 april 1999 + erkenningsreglement IAB (KB 4 mei 2007); thans Wet ITAA 17 maart 2019",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Als een vennootschap zelf zaakvoerder is van een professionele vennootschap, moet die rechtspersoon-zaakvoerder verplicht vertegenwoordigd worden door een natuurlijk persoon die accountant en/of belastingconsulent is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het beroep is wettelijk voorbehouden aan natuurlijke personen die de titel dragen. Wanneer een rechtspersoon-bestuurder wordt benoemd, eist het erkenningsreglement dat de **vaste vertegenwoordiger** (in de zin van het Wetboek van vennootschappen, vandaag art. 2:55 WVV) de titel van accountant of belastingconsulent draagt. Anders zou het beroep de facto uitgeoefend worden door een niet-titularis — wat in strijd is met het wettelijke titel- en uitoefeningsmonopolie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Erkenningsreglement professionele vennootschappen IAB (KB 4 mei 2007), in samenhang met art. 2:55 WVV inzake de vaste vertegenwoordiger van een rechtspersoon-bestuurder. Thans Wet ITAA 17 maart 2019 en deontologisch reglement ITAA. 🔗",
+          "wetsref": "Erkenningsreglement IAB (KB 4 mei 2007) + art. 2:55 WVV",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Stagiairs accountant/belastingconsulent mogen wel degelijk zaakvoerder zijn van een professionele vennootschap — mits aan de andere ledenvoorwaarden voldaan blijft (meerderheid mandaten bij volwaardige titularissen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Sinds de hervorming van 2010 werd de toegang tot bestuursmandaten in professionele vennootschappen verruimd: een stagiair-accountant of stagiair-belastingconsulent is een (kandidaat-)lid van het Instituut en mag een zaakvoerders- of bestuurdersmandaat opnemen. De voorwaarde is dat de **meerderheid** van de zaakvoerders/bestuurders volwaardige titularis (accountant en/of belastingconsulent) is — niet dat stagiairs uitgesloten worden. \"Nooit\" is dus te absoluut en daarom fout. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar de stagiair niet met een niet-lid: een **niet-lid** mag geen zaakvoerder zijn voor wat de beroepsuitoefening betreft. De stagiair telt onder het deontologisch reglement gedeeltelijk mee als professional-in-opleiding, maar mag in de algemene vergadering enkel een raadgevende stem uitbrengen (vgl. art. 63 Wet ITAA). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Erkenningsreglement professionele vennootschappen IAB (KB 4 mei 2007, gewijzigd vanaf 2010) — meerderheidsregel voor mandaten in handen van titularissen, stagiairs niet uitgesloten. Art. 63 Wet ITAA 17 maart 2019 bevestigt het bijzondere statuut van de stagiair (raadgevende stem in AV). 🔗",
+          "wetsref": "Erkenningsreglement IAB (KB 4 mei 2007, wijz. 2010); art. 63 Wet ITAA 17 maart 2019",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Bij slechts twee zaakvoerders/bestuurders moeten beide lid zijn van het IAB (thans ITAA), want de meerderheids­regel betekent in dat geval noodzakelijk 2 op 2. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het erkenningsreglement eist dat de **meerderheid** van de zaakvoerders/bestuurders van een professionele vennootschap titularis is (accountant en/of belastingconsulent, lid IAB — heden ITAA). Bij twee mandatarissen is een meerderheid (>50%) wiskundig pas bereikt vanaf 2 — één op twee is geen meerderheid maar pariteit. Beide zaakvoerders moeten dus titularis zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Erkenningsreglement professionele vennootschappen IAB (KB 4 mei 2007): meerderheidsvereiste voor zaakvoerders- en bestuurdersmandaten. Thans gehernomen in het deontologisch reglement ITAA onder de Wet van 17 maart 2019. 🔗",
+          "wetsref": "Erkenningsreglement IAB (KB 4 mei 2007); thans Wet ITAA 17 maart 2019",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

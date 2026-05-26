@@ -1,0 +1,214 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr46",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Akkoord** — de loutere vestiging in dezelfde gemeente is op zich geen belangenconflict en geen onafhankelijkheidsbedreiging. De opdracht mag worden aanvaard. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 11 KB 1998 verbiedt enkel opdrachten waarvan de uitoefening de externe accountant in een belangenconflict plaatst dat zijn onafhankelijk oordeel in het gedrang brengt. Geografische nabijheid is geen zo'n bedreiging. 📖 Wel moet de aanvaardende accountant — vóór de opdracht — nagaan of een andere externe accountant in de laatste 12 maanden voor dezelfde klant werkte (art. 25 KB 1998). In casu is die voorwaarde vervuld doordat de confrater zélf de opdracht doorgeeft. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB van 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants, art. 11 (verbod opdracht in belangenconflict) en art. 25 (na te leven confraternele controle vóór aanvaarding). 📖",
+          "wetsref": "Art. 11 en 25 KB 1 maart 1998 (plichtenleer accountants)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet akkoord** — wie het verslag van omvorming opmaakt, mag de op te stellen staat van activa en passiva niet zélf mee opstellen. Dat is een self-review en doodt de onafhankelijkheid. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij een omzetting stelt het **bestuursorgaan** de staat van activa en passiva op (art. 14:3 WVV); de externe accountant **beoordeelt** vervolgens of het nettoactief, in alle van materieel belang zijnde opzichten, niet overgewaardeerd is (art. 14:4 WVV). 📖 De cliënt bijstaan bij het opmaken van diezelfde staat = de eigen aanstaande beoordelingsbasis mee construeren — een klassieke self-review threat die art. 11 KB 1998 verbiedt. 🔗 De ITAA-norm omzetting bevestigt dat de beroepsbeoefenaar de deontologische beginselen — onafhankelijkheid voorop — moet naleven vóór hij de opdracht aanvaardt. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar deze opdracht niet met courante boekhoudkundige bijstand: de redactie van de staat van activa en passiva in het kader van een omvorming is een **bestuurshandeling** (bestuursorgaan-verslag, art. 14:5 WVV). De externe accountant die het verslag van art. 14:4 WVV opmaakt, kan die handeling niet zélf uitvoeren zonder de onafhankelijkheidsregel te schenden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:3-14:5 WVV (verdeling rollen bestuursorgaan ↔ beroepsbeoefenaar bij omzetting); art. 11 KB 1 maart 1998 (verbod belangenconflict); ITAA-norm omzetting vennootschap, II.1 (deontologische beginselen vóór aanvaarding). 📖",
+          "wetsref": "Art. 14:3-14:5 WVV; art. 11 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet akkoord** — de opdracht van het verslag van omvorming mag niet worden gebruikt om het cliënteel van de confrater over te nemen; bovendien moet bij elke overname van een opdracht het confraterneel kennisgevingsformalisme van art. 23 KB 1998 worden nageleefd. \"Onmiddellijk toestemmen\" is dus niet correct. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee deontologische problemen lopen samen:\n\n- **Onafhankelijkheid (art. 11 KB 1998)**: een bijzondere opdracht aanvaarden om vervolgens de algemene boekhoudopdracht van diezelfde klant te kapen, plaatst de aanvaardende accountant in een belangenconflict — zowel ten opzichte van de confrater (vermoeden van clientwerving via een wettelijk monopolieverslag) als naar de toekomst toe (self-review op de stukken die hij zelf in het omvormingsverslag heeft beoordeeld). 🔗\n- **Confraternele regels (art. 23 KB 1998)**: vóór de overname moet de opvolgende accountant zijn voorganger **schriftelijk (bij voorkeur aangetekend)** in kennis stellen en, indien onbetaald, bij de cliënt aandringen op betaling van de honoraria van de voorganger. \"Onmiddellijk toestemmen\" zonder die formaliteiten is niet toegelaten. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De IESBA-Code (Section 320) bevestigt dezelfde logica via het *self-interest*-/*self-review*-raamwerk: cliëntovername in aansluiting op een vertrouwensopdracht vereist safeguards en transparante communicatie met de voorganger. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 11 KB 1 maart 1998 (verbod opdracht in belangenconflict) en art. 23 KB 1 maart 1998 (schriftelijke kennisgeving voorganger + dossieroverdracht bij overname). 📖",
+          "wetsref": "Art. 11 en 23 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Akkoord** — de werkdocumenten van een monopolieopdracht (waaronder het omvormingsverslag) moeten worden bewaard en op vraag van het Instituut ter beschikking gesteld. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 16 KB 1998 verplicht de externe accountant voor elke monopolieopdracht **schriftelijk aantekening te houden** van de aard van de verrichte werkzaamheden en die werkdocumenten **vijf jaar** te bewaren vanaf de datum van het verslag. 📖 Die documentatie dient onder meer om het Instituut zijn confraternele controle te laten uitoefenen — de algemene controlenorm bevestigt dat elk wettelijk verslag in afschrift naar het Instituut moet kunnen worden bezorgd. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De stelling spreekt over \"onmiddellijk overmaken op het ogenblik dat dit gevraagd wordt\" — dat is conform de geest van de confraternele controle, maar de bewaartermijn zelf is in 1998 op **5 jaar** vastgelegd (art. 16, vierde lid KB 1998). De algemene controlenorm spreekt van **10 jaar**, wat geldt als minimum voor controleopdrachten naar nieuwere norminterpretatie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 16 KB 1 maart 1998 (dossierplicht + bewaartermijn werkdocumenten); ITAA-norm algemene controlenorm §3 en §7 (bewaarplicht en toezending afschrift aan het Instituut). 📖",
+          "wetsref": "Art. 16 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet akkoord** — de dossierplicht is **persoonlijk**. Elke externe accountant moet voor zijn eigen monopolieopdracht zélf werkdocumenten aanleggen en bewaren; je kan die plicht niet \"uitbesteden\" aan een confrater. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 16 KB 1998 is uitdrukkelijk: \"Voor iedere monopolieopdracht die hem wordt toevertrouwd moet de externe accountant schriftelijk aantekening houden of doen houden van de aard van de door hem of zijn medewerkers verrichte werkzaamheden zodat een getrouwe weergave van de uitvoering van de opdracht kan verkregen worden.\" 📖 De werkdocumenten van de confrater dekken diens voorbereidende werk, maar niet de uitvoering van **deze** opdracht door de aanvaardende accountant. Bovendien moeten die documenten bij de uitvoerende accountant zelf worden bewaard (art. 16, vierde lid). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het werk van de confrater mag wel als **bewijsstuk in** het eigen dossier worden opgenomen (bv. een gedagtekend exemplaar in bijlage). Wat niet mag: het eigen dossier **vervangen** door het dossier van een ander. De ITAA-norm omzetting eist trouwens een eigen controledossier met onder meer het bestuursorgaan-verslag, de waarderingsregels en de eigen werkprogramma's. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 16 KB 1 maart 1998 (persoonlijke dossierplicht + eigen bewaring werkdocumenten van de externe accountant die de opdracht uitvoert). 📖",
+          "wetsref": "Art. 16 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6E",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Bij vaststelling van een atypische verrichting maakt de AMLCO een intern verslag op, met de aanvullende analyse en het besluit (vermoeden WG/FT al dan niet). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Artikelen 45-46 AWW verplichten de AMLCO om atypische verrichtingen te onderwerpen aan een specifieke analyse onder zijn verantwoordelijkheid. 🔗 De ITAA-Handleiding bevestigt expliciet: het intern verslag is verplicht in geval van \"vaststelling atypische verrichting, op basis van het formulier medegedeeld door de medewerker die de verrichting heeft vastgesteld\". 📖 Het verslag wordt 10 jaar bewaard. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Artikelen 45-46 AWW + ITAA-Handleiding interne procedures AWW 2019, §13 \"Intern verslag\" (de AMLCO moet een intern verslag maken bij \"vaststelling atypische verrichting\"). 📖",
+          "wetsref": "Art. 45-46 AWW + Handleiding §13",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de cliënt, moet de AMLCO een intern verslag opmaken. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De ITAA-Handleiding noemt vier verplichte triggers voor een intern verslag, waaronder uitdrukkelijk: \"wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de cliënt\". 📖 Onmogelijkheid van risicobeoordeling moet schriftelijk gedocumenteerd worden — het is een blokkerend feit dat samenhangt met de weigering van de zakelijke relatie (art. 33-34 AWW) en moet traceerbaar zijn voor de Toezichtautoriteit. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-Handleiding interne procedures AWW 2019, §13 \"Intern verslag\" (vier triggers, waarvan de derde \"wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de cliënt\"). 📖",
+          "wetsref": "Handleiding §13",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Wanneer het kantoor na de risicobeoordeling beslist de potentiële cliënt te weigeren wegens te hoog WG/FT-risico, maakt de AMLCO een intern verslag op. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De ITAA-Handleiding stelt dit uitdrukkelijk als vierde trigger: \"wanneer na het uitvoeren van de risicobeoordeling het kantoor beslist om de potentiële cliënt te weigeren wegens te hoog WG/FT risico\". 📖 De weigering moet gedocumenteerd worden zodat traceerbaar is dat het kantoor zijn cliëntacceptatiebeleid effectief toepast — ook negatieve beslissingen behoren tot de auditspoor van de AMLCO. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Bij een vermoeden van WG/FT volstaat het intern verslag niet — de AMLCO moet bovendien een melding aan de CFI doen conform art. 47 AWW. Het intern verslag documenteert de interne beslissing; de CFI-melding is de externe spreekplicht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-Handleiding interne procedures AWW 2019, §13 \"Intern verslag\" (vierde trigger: weigering cliënt na risicobeoordeling wegens WG/FT-risico). 📖",
+          "wetsref": "Handleiding §13 + Art. 47 AWW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De AMLCO maakt **minstens eenmaal per jaar** een activiteitenverslag op — niet om de 2 jaar. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De ITAA-Handleiding stelt expliciet: \"De AMLCO zal ook minstens eenmaal per jaar een activiteitenverslag opmaken\". 📖 Daarnaast verifieert de AMLCO **minstens jaarlijks** of de algemene risicobeoordeling van het kantoor nog up-to-date is (punt 3.7 van de ITAA-norm AWW geconsolideerd). 📖 De frequentie van 2 jaar in de stelling is dus onjuist — de wettelijke en normatieve frequentie is **jaarlijks**.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar het **activiteitenverslag** (jaarlijks, AMLCO → bestuursorgaan) niet met de **algemene risicobeoordeling** (bijgewerkt bij significante gebeurtenissen, met een jaarlijkse verificatie door de AMLCO). Beide hebben een jaarlijkse component — een 2-jaarlijkse cyclus bestaat niet in de AWW-architectuur. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-Handleiding interne procedures AWW 2019, §13 in fine (\"minstens eenmaal per jaar een activiteitenverslag\") + ITAA-norm AWW geconsolideerd punt 3.7 (jaarlijkse verificatie algemene risicobeoordeling door AMLCO). 📖",
+          "wetsref": "Handleiding §13 + ITAA-norm AWW §3.7",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+            "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr43",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — de contactname met de voorganger is een autonome deontologische plicht die niet vervalt door een betalingsbewijs van de cliënt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 23 KB 1 maart 1998 verplicht de opvolger om **vóór** de aanvaarding van de opdracht:\n\n- zijn voorganger **schriftelijk (bij voorkeur aangetekend)** in kennis te stellen van de overname; 📖\n- bij onbetaalde prestaties aan te dringen op betaling. 📖\n\nDe overschrijving van de cliënt bewijst hoogstens dat de tweede verplichting (aandringen op betaling) niet meer hoeft te worden afgedwongen — ze ontslaat de opvolger **niet** van de eerste, autonome verplichting tot contactname. De voorganger moet bovendien zelf de werkdocumenten en cliënt-eigen stukken ter beschikking stellen, wat een directe communicatie tussen beide beroepsbeoefenaars veronderstelt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De cliënt is geen partij in de confraterniteits-verplichting tussen accountants. Zijn betalingsbewijs verkort de procedure niet — alleen het schriftelijk bericht aan de voorganger en (in voorkomend geval) de inzage van diens werkdocumenten kan dat. Wie dit overslaat riskeert een tuchtklacht voor inbreuk op art. 23. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23 KB 1 maart 1998 (plichtenleer accountants): schriftelijke kennisgeving aan de voorganger + aandringen op betaling van openstaande erelonen. Sectie 5 (Opvolging) van de ITAA-algemene-controlenorm bevestigt: \"Elke accountant die een confrater of een bedrijfsrevisor moet opvolgen, moet vooraf met hem in contact treden.\" 📖",
+          "wetsref": "Art. 23 KB 1 maart 1998; ITAA-algemene-controlenorm §5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — niet starten zolang (i) de voorganger schriftelijk verwittigd is (art. 23) en (ii) een **ondertekende opdrachtbrief** voorligt. Tijdsdruk van de cliënt is geen geldige reden om die intrede-stappen over te slaan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee opeenvolgende beletsels:\n\n- **Intredeprocedure niet afgerond**: art. 23 KB 1998 vereist de voorafgaande schriftelijke contactname met de voorganger; de opvolger mag pas aanvaarden zodra dat gebeurd is. 📖\n- **Opdrachtbrief verplicht vóór uitvoering**: art. 41 Wet 17 maart 2019 + ITAA-norm opdrachtbrief leggen op dat de opdrachtbrief **voorafgaandelijk aan de uitvoering** wordt opgemaakt en ondertekend. Bij hoogdringendheid die niet aan de beroepsbeoefenaar te wijten is, kan in de opdrachtbrief retroactiviteit worden voorzien — maar dat veronderstelt nog steeds een **legitieme uitzonderingssituatie**, geen loutere planningskeuze van de cliënt. 📖\n\nDe cliënt-gedreven BTW-deadline is op zich geen verschoonbare hoogdringendheid: hij had tijdig moeten schakelen. Wie zonder opdrachtbrief én zonder contactname start, riskeert tuchtsanctie én bewijsproblemen bij honorering of aansprakelijkheid. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De BTW-aangifte zelf is niet noodzakelijk verloren: een **bijzondere rekening** bij de BTW-administratie of een laattijdige aangifte met boete blijft mogelijk en is de verantwoordelijkheid van de cliënt — niet van de overnemende accountant. De stagiair mag zich nooit laten chanteren door een fiscale deadline om deontologische verplichtingen te omzeilen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 23 KB 1 maart 1998 (voorafgaande contactname voorganger); art. 41 Wet 17 maart 2019 + ITAA-norm opdrachtbrief §1 en §5 (opdrachtbrief is wettelijke verplichting, voorafgaandelijk aan de uitvoering te ondertekenen; retroactieve clausule alleen voor verantwoorde hoogdringendheid). 📖",
+          "wetsref": "Art. 23 KB 1 maart 1998; art. 41 Wet 17 maart 2019; ITAA-norm-opdrachtbrief §1, §5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — een vergelijkende tarievenpagina op de website is een **inbreuk op art. 31 KB 1 maart 1998** (publiciteitsregels): vergelijkende gegevens inzake tarieven of kwaliteit zijn uitdrukkelijk verboden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 31 KB 1998 staat publiciteit met **objectieve informatie** over het kantoor toe, maar verbiedt expliciet:\n\n- elke verwijzing naar **vergelijkende gegevens inzake tarieven of kwaliteit**; 📖\n- reclametechnieken die niet bedoeld zijn om objectieve informatie te verschaffen. 📖\n\nEen \"goedkoopste in de buurt\"-vergelijking voldoet aan beide verboden tegelijk: ze is per definitie vergelijkend én ze prijst de eigen tarieven aan in plaats van objectief informeren. Bijkomend creëert ze een **self-interest threat** op het fundamentele beginsel van professioneel gedrag (IESBA Section 320). De accountant dient de website-pagina onmiddellijk te corrigeren — onafhankelijk van de vraag of de cliënt hiervoor effectief is gekomen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met art. VI.17 WER (vergelijkende reclame algemeen geoorloofd voor ondernemingen): het strengere beroepsdeontologische regime van art. 31 KB 1998 gaat als **lex specialis** voor. Voor accountants blijft vergelijkende reclame op prijs of kwaliteit verboden, ook al zou ze onder het commune recht geoorloofd zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 31 KB 1 maart 1998: \"In geen geval mag verwezen worden naar al dan niet vergelijkende gegevens inzake tarieven of kwaliteit. (...) zijn de reclametechnieken, die niet tot doel hebben objectieve informatie te verschaffen, niet in overeenstemming met de plichtenleer.\" 📖",
+          "wetsref": "Art. 31 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — een mandaat in een ITAA-commissie uitspelen als commercieel argument (\"sneller op de hoogte\") is in strijd met de publiciteitsregels en met de waardigheid van het beroep: het wekt de schijn van een ongeoorloofd informatie-voordeel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie problemen tegelijk:\n\n- **Publiciteitsregel (art. 31 KB 1998)**: het mandaat als kwaliteits- of voordeels-argument inzetten valt onder \"reclametechnieken die niet tot doel hebben objectieve informatie te verschaffen\" — vermelden dat men zetelt mag (objectieve info), maar er een concurrentie-voordeel uit afleiden niet. 🔗\n- **Confidentialiteit & integriteit (IESBA Section 320 en de fundamentele beginselen)**: suggereren dat men dankzij commissie-werk \"sneller op de hoogte\" is, impliceert dat niet-publieke informatie wordt gebruikt voor commerciële winst — een directe bedreiging voor het beginsel van integriteit en professioneel gedrag. 🔗\n- **Waardigheid van het beroep**: het schaadt het vertrouwen in de instellingen van het Instituut wanneer een lid zijn functie binnen het ITAA gebruikt als wervingsargument. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De **loutere vermelding** dat men zetelt in een ITAA-commissie (bv. op een CV of een rubriek \"over het kantoor\") is op zich geen inbreuk — het is objectieve informatie. De grens wordt overschreden zodra die functie wordt **gepresenteerd als een voordeel voor de cliënt** (informatieasymmetrie, snellere doorlooptijd, betere kennis). De toon en het oogmerk maken het verschil. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 31 KB 1 maart 1998 (publiciteit: enkel objectieve informatie, geen vergelijkende of wervende reclametechnieken); IESBA Code of Ethics Section 320 + fundamentele beginselen integriteit en professioneel gedrag. 📖",
+          "wetsref": "Art. 31 KB 1 maart 1998; IESBA Section 320",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

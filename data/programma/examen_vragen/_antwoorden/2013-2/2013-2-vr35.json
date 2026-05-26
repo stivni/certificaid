@@ -1,0 +1,102 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr35",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Ja — minstens **70 %** van de uren moet vormingsactiviteiten van **categorie A** zijn (erkende vormingsoperatoren, erkende vormingsactiviteiten, doceren, conforme e-learning); hoogstens **30 %** mag categorie B zijn (o.a. kantoor-/netwerkvormingen zónder erkenning). Totaal: minstens **120 uur per 3 kalenderjaren**, met **minstens 20 uur per jaar**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Toepassing op de drie activiteiten",
+          "tekst": "- **Seminarie georganiseerd door het IAB (nu ITAA)** → het Instituut is van rechtswege erkende vormingsoperator → **categorie A**. 🔗\n- **Opleiding door eigen kantoor zonder erkenning als vormingsoperator** → valt onder art. 6 §1, 6° (vormingen door kantoren en netwerken) → **categorie B**, en dus geplafonneerd op 30 % van het totaal. 🔗\n- **Seminaries bij erkende vormingsoperatoren** → art. 6 §1, 1° a) → **categorie A**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een kantoorinterne opleiding telt **wél** mee — maar enkel binnen de 30 %-grens voor categorie B. Wie zijn permanente vorming volledig uit kantoor-sessies put, voldoet dus niet aan de norm, ook al haalt hij de 120 uur. Omgekeerd: het kantoor *kan* zelf de erkenning als vormingsoperator aanvragen — dan schuiven die uren door naar categorie A. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1 ITAA-Norm Permanente Vorming (1 dec. 2020) definieert categorie A (≥ 70 %) en B (≤ 30 %). Art. 3 legt het uurquotum vast (120 u/3 j, min. 20 u/jaar). Art. 6 §1 lijst de in aanmerking komende activiteiten op; art. 7 classificeert ze als A of B. Bij Bijlage 1 punt 2, 1°, a) is het Instituut van rechtswege erkende vormingsoperator. 📖",
+          "wetsref": "Art. 1, 3, 6, 7 + Bijlage 1 ITAA-Norm Permanente Vorming (1 december 2020)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b — Verplichting**. Permanente vorming is voor accountants en (gecertificeerd) belastingadviseurs een **wettelijke beroepsverplichting**, niet een vrijblijvende aanbeveling. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "motivatie",
+          "tekst": "De verplichting volgt uit twee samenhangende teksten:\n\n1. **Art. 39 Wet 17 maart 2019 (ITAA-Beroepenwet)** — \"Elke persoon ingeschreven in het openbaar register […] zet op regelmatige basis en op continue wijze een permanente vorming voort om zijn beroepskennis en -bekwaamheid en zijn beroepsethiek op voldoende peil te houden.\" De Raad van het ITAA houdt toezicht; inhoud en minimumaantal uren worden in een norm vastgelegd. 📖\n2. **ITAA-Norm Permanente Vorming (1 december 2020)** — Art. 2 herhaalt de wettelijke verplichting en art. 3 concretiseert ze: minstens 120 uur over 3 opeenvolgende kalenderjaren, met minstens 20 uur per jaar. 📖\n\nDe verplichting wordt bijkomend bevestigd in §28 van de **ITAA-KMO-controlenorm**: \"De beroepsbeoefenaar-natuurlijk persoon zet zijn permanente vorming op continue wijze voort om zijn theoretische kennis, zijn beroepsbekwaamheden en zijn beroepsethiek op een voldoende peil te houden.\" 📖\n\nDe norm geldt voor alle leden ingeschreven in het openbaar register (incl. stagiairs, met de Stagecommissie als toezichthouder). Niet-naleving is tuchtrechtelijk sanctioneerbaar via art. 47 e.v. van de Beroepenwet. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/normen/ITAA-norm-permanente-vorming.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Historisch (relevant voor de oorspronkelijke vraagstelling uit 2013): de toen geldende **IAB-Norm permanente vorming van 3 september 2012** legde 40 uur per jaar op. Die norm is opgeheven en vervangen door de huidige ITAA-norm (art. 15). Materieel blijft de kern identiek: vorming is een **verplichting** krachtens de Beroepenwet, geen aanbeveling — die kwalificatie was reeds zo onder de oude IAB-wet (toen art. 31 wet 22 april 1999). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 39 Wet 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur (ITAA-Beroepenwet) + Art. 2-3 ITAA-Norm Permanente Vorming (1 december 2020) + §28 ITAA-KMO-controlenorm. 📖",
+          "wetsref": "Art. 39 Wet 17 maart 2019; Art. 2 en 3 ITAA-Norm Permanente Vorming; §28 ITAA-KMO-controlenorm",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+            "resources/bronnen/normen/ITAA-norm-permanente-vorming.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

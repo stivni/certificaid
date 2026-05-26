@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-26T15:14:05+00:00",
+  "merge_datum": "2026-05-26T15:29:22+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4728,7 +4728,108 @@
       "vraag_id": "2013-2-vr34"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Ja — minstens **70 %** van de uren moet vormingsactiviteiten van **categorie A** zijn (erkende vormingsoperatoren, erkende vormingsactiviteiten, doceren, conforme e-learning); hoogstens **30 %** mag categorie B zijn (o.a. kantoor-/netwerkvormingen zónder erkenning). Totaal: minstens **120 uur per 3 kalenderjaren**, met **minstens 20 uur per jaar**. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Toepassing op de drie activiteiten",
+                "tekst": "- **Seminarie georganiseerd door het IAB (nu ITAA)** → het Instituut is van rechtswege erkende vormingsoperator → **categorie A**. 🔗\n- **Opleiding door eigen kantoor zonder erkenning als vormingsoperator** → valt onder art. 6 §1, 6° (vormingen door kantoren en netwerken) → **categorie B**, en dus geplafonneerd op 30 % van het totaal. 🔗\n- **Seminaries bij erkende vormingsoperatoren** → art. 6 §1, 1° a) → **categorie A**. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Een kantoorinterne opleiding telt **wél** mee — maar enkel binnen de 30 %-grens voor categorie B. Wie zijn permanente vorming volledig uit kantoor-sessies put, voldoet dus niet aan de norm, ook al haalt hij de 120 uur. Omgekeerd: het kantoor *kan* zelf de erkenning als vormingsoperator aanvragen — dan schuiven die uren door naar categorie A. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 1 ITAA-Norm Permanente Vorming (1 dec. 2020) definieert categorie A (≥ 70 %) en B (≤ 30 %). Art. 3 legt het uurquotum vast (120 u/3 j, min. 20 u/jaar). Art. 6 §1 lijst de in aanmerking komende activiteiten op; art. 7 classificeert ze als A of B. Bij Bijlage 1 punt 2, 1°, a) is het Instituut van rechtswege erkende vormingsoperator. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 1, 3, 6, 7 + Bijlage 1 ITAA-Norm Permanente Vorming (1 december 2020)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Optie **b — Verplichting**. Permanente vorming is voor accountants en (gecertificeerd) belastingadviseurs een **wettelijke beroepsverplichting**, niet een vrijblijvende aanbeveling. 📖",
+                "type": "conclusie"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-permanente-vorming.md",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De verplichting volgt uit twee samenhangende teksten:\n\n1. **Art. 39 Wet 17 maart 2019 (ITAA-Beroepenwet)** — \"Elke persoon ingeschreven in het openbaar register […] zet op regelmatige basis en op continue wijze een permanente vorming voort om zijn beroepskennis en -bekwaamheid en zijn beroepsethiek op voldoende peil te houden.\" De Raad van het ITAA houdt toezicht; inhoud en minimumaantal uren worden in een norm vastgelegd. 📖\n2. **ITAA-Norm Permanente Vorming (1 december 2020)** — Art. 2 herhaalt de wettelijke verplichting en art. 3 concretiseert ze: minstens 120 uur over 3 opeenvolgende kalenderjaren, met minstens 20 uur per jaar. 📖\n\nDe verplichting wordt bijkomend bevestigd in §28 van de **ITAA-KMO-controlenorm**: \"De beroepsbeoefenaar-natuurlijk persoon zet zijn permanente vorming op continue wijze voort om zijn theoretische kennis, zijn beroepsbekwaamheden en zijn beroepsethiek op een voldoende peil te houden.\" 📖\n\nDe norm geldt voor alle leden ingeschreven in het openbaar register (incl. stagiairs, met de Stagecommissie als toezichthouder). Niet-naleving is tuchtrechtelijk sanctioneerbaar via art. 47 e.v. van de Beroepenwet. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-permanente-vorming.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Historisch (relevant voor de oorspronkelijke vraagstelling uit 2013): de toen geldende **IAB-Norm permanente vorming van 3 september 2012** legde 40 uur per jaar op. Die norm is opgeheven en vervangen door de huidige ITAA-norm (art. 15). Materieel blijft de kern identiek: vorming is een **verplichting** krachtens de Beroepenwet, geen aanbeveling — die kwalificatie was reeds zo onder de oude IAB-wet (toen art. 31 wet 22 april 1999). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-permanente-vorming.md",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 39 Wet 17 maart 2019 betreffende de beroepen van accountant en belastingadviseur (ITAA-Beroepenwet) + Art. 2-3 ITAA-Norm Permanente Vorming (1 december 2020) + §28 ITAA-KMO-controlenorm. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 39 Wet 17 maart 2019; Art. 2 en 3 ITAA-Norm Permanente Vorming; §28 ITAA-KMO-controlenorm"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-2-vr35"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4809,7 +4910,146 @@
       "vraag_id": "2013-2-vr35"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-reglement.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Drie categorieën te identificeren: **(1) de cliënt** = de bvba Witwassen (rechtspersoon); **(2) de lasthebber/vertegenwoordiger** = de heer Silan als zaakvoerder die zich aanbiedt; **(3) de uiteindelijke begunstigde(n) (UBO)** = de natuurlijke personen die direct of indirect meer dan 25% van de aandelen of stemrechten houden. In casu: de heer **Black (55% — directe UBO)** en de natuurlijke perso(o)n(en) achter **nv White (45%)** die via die vennootschap onrechtstreeks meer dan 25% van de bvba Witwassen controleren (doorkijk naar de achterliggende natuurlijke persoon). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Toepassing op de casus:\n\n- **Cliënt (rechtspersoon)**: bvba Witwassen — de vennootschap waarmee de zakelijke relatie wordt aangeknoopt. 🔗\n- **Lasthebber / vertegenwoordiger natuurlijke persoon**: de heer Silan, zaakvoerder. Hij vertegenwoordigt de cliënt en moet zelf geïdentificeerd worden, ook al bezit hij geen aandelen — zijn vertegenwoordigingsbevoegdheid moet bovendien nagegaan worden. 🔗\n- **UBO 1**: de heer Black, 55% van de aandelen, natuurlijke persoon → ruim boven de 25%-drempel, dus rechtstreeks UBO. 📖\n- **UBO 2 (doorkijk)**: nv White houdt 45%. Een vennootschap is **nooit zelf UBO**; men moet doorkijken naar de natuurlijke perso(o)n(en) die nv White controleren. Wie via White onrechtstreeks meer dan 25% van bvba Witwassen aanhoudt (in de praktijk: ≥ ca. 55,6% van White, want 55,6% × 45% ≈ 25%), is mede-UBO van bvba Witwassen. 🔗\n- **Subsidiair (indien geen UBO via aandeelhouderschap kan worden vastgesteld)**: identificatie van het **hoger leidinggevend personeel** van bvba Witwassen als UBO — dit is de wettelijke uitwijkcategorie. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Een **rechtspersoon kan nooit zelf UBO zijn** — de definitie eist een **natuurlijke persoon**. Wie bij nv White stopt en die als \"UBO\" noteert, voldoet niet aan de wet. Tweede valkuil: Silan identificeren als UBO omdat hij \"de zaakvoerder\" is — een zaakvoerder zonder participatie is **geen UBO** maar **vertegenwoordiger/lasthebber**; pas als er geen UBO via aandelen of zeggenschap kan worden bepaald, schuift men terug op het hoger leidinggevend personeel. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-reglement.md",
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 21-26 Antiwitwaswet (Wet 18 september 2017) — identificatie en verificatie van **de cliënt, de lasthebbers van de cliënt, en de uiteindelijke begunstigden**. UBO-begrip: art. 4, 27° AWW — natuurlijke persoon met >25% aandelen/stemrechten of zeggenschap, eventueel via doorkijk; bij ontstentenis: hoger leidinggevend personeel. ITAA-norm AWW-reglement §4 (cliëntacceptatiebeleid) en ITAA-Handleiding interne procedures AWW (2019) art. 19 (concrete identificatie-fiches natuurlijke persoon en rechtspersoon). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 4, 27° en art. 21-26 Wet 18 september 2017 (Antiwitwaswet); art. 1:33-1:35 WVV (UBO-register)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Voor **natuurlijke personen** (Silan, Black, achterliggende UBO van White): geldige **identiteitskaart** (recto/verso of e-id-fiche) of gelijkwaardig identiteitsdocument (paspoort, rijbewijs als aanvulling). Voor de **rechtspersonen** (bvba Witwassen en nv White): **gecoördineerde statuten**, **KBO-uittreksel**, **publicatie van de benoeming van de bestuurders/zaakvoerders** in het Belgisch Staatsblad, en het **aandelenregister**. Voor de UBO-vaststelling daarbovenop: uittreksel uit het **UBO-register**. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Onderbouwende documenten per categorie:\n\n- **Identificatie natuurlijke personen** (Silan, Black, UBO achter White):\n  - Geldige **identiteitskaart** — kopie recto/verso of fiche van de e-id. 📖\n  - Bij buitenlandse personen: **paspoort** of gelijkwaardig officieel identiteitsdocument. 🔗\n  - Aanvullend bij hoog risico: gelijkwaardige stukken (rijbewijs, attest sociale kas, EGW-factuur, aanslagbiljet personenbelasting) om het adres te onderbouwen. 📖\n\n- **Identificatie rechtspersonen** (bvba Witwassen, nv White):\n  - **Gecoördineerde statuten** (laatste versie). 📖\n  - **KBO-uittreksel** (of buitenlands equivalent, bv. Infogreffe voor Frankrijk). 📖\n  - **Publicatie van de benoeming** van bestuurders/zaakvoerders in het Belgisch Staatsblad. 📖\n  - **Aandelenregister** of effecten-overzicht om de aandeelhoudersstructuur en zeggenschap aan te tonen. 🔗\n\n- **Verificatie UBO**:\n  - Uittreksel uit het **UBO-register** (verplicht door de cliënt zelf bijgehouden — art. 1:33 WVV). 🔗\n  - De accountant mag zich **niet uitsluitend** op het UBO-register baseren — hij moet kruiscontroleren met de eigen documenten (statuten, aandelenregister). 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De accountant moet **een kopie of fiche** van de stukken in zijn dossier bewaren — een loutere visuele vaststelling volstaat niet. De **bewaartermijn** is **10 jaar** na het einde van de zakenrelatie (verlengd bij wet van 20 juli 2020; voorheen 5 jaar). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 26-29 Antiwitwaswet (verificatie aan de hand van bewijsstukken) en de ITAA-Handleiding interne procedures AWW 2019, art. 19 (concrete documentenlijst per categorie). Voor de UBO-laag: art. 1:33-1:34 WVV en KB van 30 juli 2018 (UBO-register). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 26-29 Wet 18 september 2017; art. 1:33-1:34 WVV; KB 30 juli 2018 UBO-register"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Te controleren gegevens — per categorie: **natuurlijke persoon** = naam en voornaam, geboortedatum en -plaats, adres (en voor de UBO bovendien: nationaliteit en de aard/omvang van het gehouden economisch belang); **rechtspersoon** = benaming, statutaire zetel, KBO-nummer, lijst bestuurders/zaakvoerders, vertegenwoordigingsbevoegdheid, aandeelhoudersstructuur en uiteindelijke begunstigden. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-reglement.md",
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concreet te verifiëren gegevens:\n\n- **Natuurlijke personen** (Silan als lasthebber + Black en UBO-White als uiteindelijke begunstigden):\n  - Naam en voornaam 📖\n  - Geboortedatum en -plaats 📖\n  - Adres / woonplaats 📖\n  - Voor de UBO bijkomend: **nationaliteit** en **de aard en omvang van het gehouden economisch belang** (percentage, soort zeggenschap) 📖\n  - Voor Silan bijkomend: **hoedanigheid en vertegenwoordigingsbevoegdheid** (kan hij de bvba Witwassen rechtsgeldig verbinden?) 🔗\n\n- **Rechtspersonen** (bvba Witwassen, nv White):\n  - **Benaming** (juridische naam, eventuele handelsbenaming) 📖\n  - **Statutaire zetel** 📖\n  - **KBO-nummer** / ondernemingsnummer 🔗\n  - **Lijst van bestuurders / zaakvoerders** 📖\n  - **Vertegenwoordigingsbevoegdheid** (wie kan tekenen — alleen of gezamenlijk) 📖\n  - **Aandeelhoudersstructuur**: wie houdt welk percentage, met welke stemrechten — om de UBO te kunnen vaststellen 🔗\n  - **Doel en aard van de activiteit** (kruiscontrole: \"keten van wassalons\" — past dit bij het gedeclareerde profiel?) 🔗\n\n- **Op het niveau van de zakelijke relatie**:\n  - **Doel en aard van de zakenrelatie** (welke opdrachten: boekhouding + alle daaraan verbonden activiteiten) 🔗\n  - **Risicoprofiel**: wassalons zijn een **cash-intensieve sector** → verhoogd witwasrisico → vereist mogelijk **verscherpte waakzaamheid**. ❓\n  - **Reden van overstap** van de vorige accountant-belastingconsulent — een typische rode vlag bij cliëntenacceptatie. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-reglement.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De **verificatie** moet gebeuren aan de hand van **onafhankelijke en betrouwbare bronnen** — de woorden van Silan volstaan niet. Statuten, KBO en UBO-register zijn de standaard-bronnen; bij twijfel of hoog risico moet de accountant **bijkomende informatie** opvragen (bv. bewijs van de economische activiteit, oorsprong van de fondsen bij significante geldstromen). De combinatie wassalon-keten + meervoudige aandeelhouders + overstap van vorige accountant rechtvaardigt op zich al een **verscherpte waakzaamheid**. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-reglement.md",
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 26-34 Antiwitwaswet (omvang van de identificatie- en verificatieplicht: gegevens die de accountant moet kennen en controleren). Voor de UBO-gegevens: art. 1:33 WVV (naam, geboortedatum, nationaliteit, adres, aard en omvang van het economisch belang). ITAA-norm AWW-reglement §4 (cliëntacceptatiebeleid, risicobeoordeling) en ITAA-Handleiding interne procedures AWW 2019, art. 19 (concrete checklist per categorie). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 26-34 Wet 18 september 2017; art. 1:33 WVV"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-2-vr36"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4881,7 +5121,178 @@
       "vraag_id": "2013-2-vr36"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**JUIST.** Niet-betaalde erelonen ontslaan de voorganger niet van zijn plicht om het dossier (de stukken die eigendom zijn van de cliënt) over te dragen. De opvolger moet wel bij de cliënt aandringen op betaling van de openstaande honoraria van zijn voorganger. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 23 KB 1 maart 1998 (plichtenleer accountants) bepaalt twee plichten naast elkaar:\n\n- De voorganger \"zal **onverwijld** alle documenten, eigendom van de cliënt, alsmede deze die kaderen in de wederzijdse hulp en hoffelijkheid ter beschikking stellen van de cliënt of van zijn opvolgende confrater\" — **zonder voorbehoud** voor onbetaalde erelonen. 📖\n- De opvolger \"dient bij de cliënt aan te dringen op de betaling van de honoraria van zijn voorganger\" — collegiaal-deontologische plicht, geen incassovordering. 📖\n\nIn de Belgische beroepsdeontologie bestaat dus **geen retentierecht** voor de accountant op de cliëntsdocumenten wegens onbetaalde erelonen. Het overdrachtsdocument moet vergezeld zijn van een gedetailleerde, gedagtekende en door alle partijen ondertekende inventaris in twee exemplaren. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met het **algemene retentierecht** in het burgerlijk recht (oud art. 1948 BW / nieuw Boek 3 BW): voor de accountant wordt dat door art. 23 KB 1998 (lex specialis) **uitgesloten** ten aanzien van documenten die eigendom zijn van de cliënt. De accountant kan zijn ereloon wel langs gewone civielrechtelijke weg vorderen (factuur, ingebrekestelling, vredegerecht/ondernemingsrechtbank), maar het dossier moet hangende die procedure overgedragen worden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 23, 2° en in fine, KB 1 maart 1998 plichtenleer accountants (Betrekkingen met de confraters) — \"onverwijld\" overdragen, opvolger dringt aan op betaling. Identieke regeling voor BIBF-boekhouders in art. 17 KB 18 juli 2017 plichtenleer BIBF. 📖",
+                "type": "grondslag",
+                "wetsref": "KB 1 maart 1998 art. 23 · KB 18 juli 2017 art. 17 (BIBF)"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** De **historieken en dagboeken** zijn de boekhoudkundige gegevens van de cliënt en zijn **eigendom van de cliënt** — onafhankelijk van wie het boekhoudpakket heeft aangekocht. Ze moeten dus wel degelijk overhandigd worden, in een leesbaar formaat dat de opvolger of de cliënt zelf kan exploiteren. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 23 KB 1998 spreekt over \"alle documenten, **eigendom van de cliënt**\". Het criterium is dus **eigendom van de gegevens**, niet eigendom van de software. De boekingen, dagboeken, historieken, grootboek, openstaande posten, BTW-listings, klanten- en leveranciersrekeningen behoren toe aan de cliënt — zij dragen zijn boekhoudplicht (art. III.84-III.95 WER). Wat de accountant **wel** mag inhouden: zijn **eigen werkdocumenten** (interne nota's, planning, controleprogramma) — die blijven zijn eigendom (zie ook ITAA-norm Opvolging: \"de voorganger mag zijn oorspronkelijke stukken niet uit handen geven\", maar de werkdocumenten **mogen wel ingezien** worden door de opvolger). 🔗\n\n**Praktisch**: indien het pakket niet door de cliënt licentieerbaar is, moet de voorganger de boekhouding in een gangbaar elektronisch formaat (PDF + CSV/Excel-export, eventueel een SAGE/Octopus-back-up) of geprint ter beschikking stellen. Hij hoeft de licentie van zijn pakket niet over te dragen. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Onderscheid eigendom van **boekhoudgegevens** (= cliënt) van eigendom van **werkdocumenten van de accountant** (= accountant). Alleen de eerste categorie valt onder de overdrachtsplicht; de tweede categorie is louter ter **inzage** voor de opvolger (collegiaal). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 23 in fine KB 1 maart 1998 plichtenleer accountants (\"alle documenten, eigendom van de cliënt\"); ITAA-norm algemene controlenorm §5 Opvolging (werkdocumenten van voorganger ter inzage, niet uit handen). Art. III.84 e.v. WER (boekhoudplicht en eigendom boekhoudgegevens bij de ondernemer). 📖",
+                "type": "grondslag",
+                "wetsref": "KB 1 maart 1998 art. 23 · ITAA-norm algemene controlenorm §5 · WER art. III.84 e.v."
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**FOUT.** De opvolger heeft een **eigen, persoonlijke deontologische verplichting** om de voorganger schriftelijk (bij voorkeur aangetekend) in kennis te stellen van de overname en vooraf met hem in contact te treden — onafhankelijk van wat de cliënt al zou hebben gedaan. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee bronnen leggen deze plicht onmiskenbaar bij de **opvolger zelf**:\n\n- Art. 23, 1° KB 1998: \"hij moet zijn voorganger **schriftelijk, bij voorkeur aangetekend**, in kennis stellen van de overname van de opdracht, **zelfs indien de opvolging niet onmiddellijk is gebeurd**\". 📖\n- ITAA-norm algemene controlenorm §5 Opvolging: \"Elke accountant die een confrater of een bedrijfsrevisor moet opvolgen, moet **vooraf met hem in contact treden**\". 📖\n\nDe ratio is dubbel: (i) collegialiteit en transparantie tussen beroepsbeoefenaars en (ii) de opvolger moet zélf de gelegenheid hebben om te informeren of er beroepsmatige bezwaren bestaan tegen de aanvaarding van de opdracht (bv. ongeregelde situatie, niet-naleving verplichtingen door cliënt, eerdere weigering door voorganger om verslag te ondertekenen). Een mededeling door de cliënt vervangt deze persoonlijke verplichting **niet**. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 23, 1° KB 1 maart 1998 plichtenleer accountants (schriftelijke kennisgeving aan voorganger, bij voorkeur aangetekend); ITAA-norm algemene controlenorm §5 Opvolging (vooraf contact opnemen); identieke regel art. 17, 1° KB 18 juli 2017 plichtenleer BIBF. 📖",
+                "type": "grondslag",
+                "wetsref": "KB 1 maart 1998 art. 23, 1° · ITAA-norm algemene controlenorm §5 · KB 18 juli 2017 art. 17, 1°"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** \"Steeds\" is te absoluut. Pas wanneer een ontwerp van jaarverslag of notulen door de cliënt is **aanvaard, gefactureerd of opgenomen in de wettelijke verslaggeving van de vennootschap** wordt het een document \"eigendom van de cliënt\" in de zin van art. 23 KB 1998. **Loutere voorbereidende kladversies** blijven werkdocumenten van de accountant en hoeven niet overhandigd te worden. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De toets is opnieuw: **wiens eigendom is het stuk?** (art. 23 KB 1998).\n\n- **Definitieve** ontwerpen die de cliënt heeft goedgekeurd en die de basis vormen voor de neergelegde jaarrekening of de notulen van de algemene vergadering: behoren toe aan de cliënt — moeten overhandigd worden. 🔗\n- **Werkversies / kladversies / interne nota's** die nog geen formeel bestaan hebben in de vennootschap (geen handtekening van het bestuursorgaan, geen factuur voor de opstelling ervan): blijven werkdocumenten van de accountant. ITAA-norm §5 Opvolging bevestigt dat de voorganger zijn werkdocumenten ter inzage stelt, maar zijn oorspronkelijke stukken (= zijn werkmateriaal) **niet uit handen mag geven**. 📖\n\nHet woord \"**steeds**\" maakt de stelling daarom onjuist: er bestaat een grijze zone tussen werkdocument en cliëntdocument die per geval beoordeeld moet worden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Praktische vuistregel: een ontwerp wordt eigendom van de cliënt zodra (a) het bestuursorgaan het heeft goedgekeurd of ondertekend, (b) het is meegenomen in een notarisakte / KBO-publicatie / neerlegging bij de NBB, of (c) het is gefactureerd als een afgewerkte prestatie aan de cliënt. Vóór één van die drempels: werkdocument van de accountant. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-algemene-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 23 in fine KB 1 maart 1998 plichtenleer accountants (overdrachtsplicht beperkt tot documenten \"eigendom van de cliënt\"); ITAA-norm algemene controlenorm §5 Opvolging (werkdocumenten blijven bij de voorganger; ter inzage voor de opvolger). 📖",
+                "type": "grondslag",
+                "wetsref": "KB 1 maart 1998 art. 23 · ITAA-norm algemene controlenorm §5"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2013-2-vr37"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4963,7 +5374,95 @@
       "vraag_id": "2013-2-vr37"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** — **Neen**. Een collega binnen hetzelfde kantoor staat permanente boekhoudkundige/fiscale prestaties (\"dossier dat hij opvolgt\") in de cliënt; daardoor doorbreekt het kantoor de onafhankelijkheid voor een monopolieopdracht in diezelfde onderneming. De onverenigbaarheid van art. 10-11 KB 1998 wordt expliciet uitgebreid naar alle vennoten en vaste medewerkers van het kantoor. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Een monopolieopdracht (hier: omvormingsverslag — gedeelde wettelijk voorbehouden opdracht, art. 3:32 WVV / ITAA-norm omzetting) vereist volledige onafhankelijkheid tov de cliënt. Het belangenconflict-verbod van **art. 11 KB 1998** geldt niet enkel voor de accountant zelf maar ook voor \"de vennootschap of vereniging waarvan hij deel uitmaakt, zijn vennoten en vaste medewerkers\" — het kantoor wordt als één economische eenheid behandeld. 📖 De collega die het dossier opvolgt levert recurrente prestaties die de objectiviteit van het kantoor tav de jaarrekening of de omvorming aantasten: het kantoor zou een verslag uitbrengen over cijfers waarvan het zelf de boekhoudkundige verwerking begeleidt. **Art. 30 al. 2 KB 1998** verbiedt bovendien uitdrukkelijk dat een monopolieopdracht en andere diensten binnen dezelfde onderneming worden gecumuleerd door personen met een beroepsmatig samenwerkingsverband. 📖 Concreet: de cliënt moet voor het omvormingsverslag een **externe accountant of bedrijfsrevisor zonder band met het kantoor** aanstellen.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met **art. 17 KB 1998** dat aan de externe accountant toelaat zich bij de uitvoering van een monopolieopdracht te laten **bijstaan** door een andere accountant uit hetzelfde kantoor. Dat gaat over de team-samenstelling van *één* opdracht waarbij het kantoor onafhankelijk is — niet over een situatie waarin het kantoor zelf de cliënt al bedient. De vraag hier is een **acceptatie**-vraag (mag het kantoor de opdracht aanvaarden?), niet een teaming-vraag. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 10-11 KB 1998 plichtenleer** (onafhankelijkheid + belangenconflict — uitgebreid naar alle vennoten en vaste medewerkers van het kantoor); **art. 30 al. 2 KB 1998** (verbod op cumul monopolieopdracht + andere diensten binnen hetzelfde samenwerkingsverband). Algemene plicht: continue onafhankelijkheid van de externe accountant. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 10, 11, 30 KB 1 maart 1998 plichtenleer accountants"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** — **Neen**. Monopolieopdrachten zijn wettelijk voorbehouden aan de **externe** accountant; een accountant ingeschreven op het tableau van **interne** accountants heeft niet de hoedanigheid om een monopolieopdracht uit te voeren. De inschrijving als intern accountant + bediende-statuut in het bedrijf maakt onafhankelijkheid bovendien onmogelijk. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee onafhankelijke gronden voor weigering:\n\n1. **Hoedanigheidsbeletsel.** De wet (vroeger Wet 22 april 1999, vandaag de ITAA-wet van 17 maart 2019) onderscheidt twee deeltabellen: extern accountant en intern accountant. Monopolieopdrachten — waaronder de bijstand aan een vennoot bij de uitoefening van het individueel controlerecht (art. 3:101/3:102 WVV) wanneer geen commissaris is aangesteld — zijn voorbehouden aan **externe** accountants/bedrijfsrevisoren. Een intern accountant mag deze opdrachten niet aanvaarden. 🤖\n2. **Onafhankelijkheidsbeletsel.** Zelfs als de hoedanigheid het zou toelaten: de betrokkene is **bediende** in het bedrijf zelf en treedt op vraag van een aandeelhouder op tegen de vennootschap die hem tewerkstelt — dit is een evident en onoplosbaar belangenconflict in de zin van **art. 11 KB 1998** en wordt versterkt door **art. 15 KB 1998** (verbod een tweede taak/mandaat te aanvaarden die de onafhankelijkheid in het gedrang brengt). 📖\n\nDe aandeelhouder moet zich richten tot een **externe** accountant (of bedrijfsrevisor) zonder enige band met de vennootschap.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het individueel onderzoeks- en controlerecht van de vennoot (art. 3:101 WVV in vennootschappen zonder commissaris) laat de vennoot toe zich te laten **bijstaan** door een accountant; die accountant treedt dan op als bijzonder mandataris met dezelfde onderzoeksbevoegdheden als een commissaris. Precies daarom moet hij voldoen aan de onafhankelijkheidsvereisten — wat een intern accountant in loondienst van de te onderzoeken vennootschap onmogelijk kan invullen. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Tableau-onderscheid extern/intern accountant: **ITAA-wet 17 maart 2019** (vroeger art. 33-46 Wet 22 april 1999); **art. 3:101 WVV** (individueel controlerecht van de vennoot, bijstand door een accountant); onafhankelijkheids- en incompatibiliteitsregels: **art. 11 en 15 KB 1 maart 1998** plichtenleer. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 3:101 WVV; art. 11, 15 KB 1998 plichtenleer; ITAA-wet 17 maart 2019"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr38"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

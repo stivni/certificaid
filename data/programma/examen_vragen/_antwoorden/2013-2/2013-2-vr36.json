@@ -1,0 +1,140 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr36",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Drie categorieën te identificeren: **(1) de cliënt** = de bvba Witwassen (rechtspersoon); **(2) de lasthebber/vertegenwoordiger** = de heer Silan als zaakvoerder die zich aanbiedt; **(3) de uiteindelijke begunstigde(n) (UBO)** = de natuurlijke personen die direct of indirect meer dan 25% van de aandelen of stemrechten houden. In casu: de heer **Black (55% — directe UBO)** en de natuurlijke perso(o)n(en) achter **nv White (45%)** die via die vennootschap onrechtstreeks meer dan 25% van de bvba Witwassen controleren (doorkijk naar de achterliggende natuurlijke persoon). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Toepassing op de casus:\n\n- **Cliënt (rechtspersoon)**: bvba Witwassen — de vennootschap waarmee de zakelijke relatie wordt aangeknoopt. 🔗\n- **Lasthebber / vertegenwoordiger natuurlijke persoon**: de heer Silan, zaakvoerder. Hij vertegenwoordigt de cliënt en moet zelf geïdentificeerd worden, ook al bezit hij geen aandelen — zijn vertegenwoordigingsbevoegdheid moet bovendien nagegaan worden. 🔗\n- **UBO 1**: de heer Black, 55% van de aandelen, natuurlijke persoon → ruim boven de 25%-drempel, dus rechtstreeks UBO. 📖\n- **UBO 2 (doorkijk)**: nv White houdt 45%. Een vennootschap is **nooit zelf UBO**; men moet doorkijken naar de natuurlijke perso(o)n(en) die nv White controleren. Wie via White onrechtstreeks meer dan 25% van bvba Witwassen aanhoudt (in de praktijk: ≥ ca. 55,6% van White, want 55,6% × 45% ≈ 25%), is mede-UBO van bvba Witwassen. 🔗\n- **Subsidiair (indien geen UBO via aandeelhouderschap kan worden vastgesteld)**: identificatie van het **hoger leidinggevend personeel** van bvba Witwassen als UBO — dit is de wettelijke uitwijkcategorie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een **rechtspersoon kan nooit zelf UBO zijn** — de definitie eist een **natuurlijke persoon**. Wie bij nv White stopt en die als \"UBO\" noteert, voldoet niet aan de wet. Tweede valkuil: Silan identificeren als UBO omdat hij \"de zaakvoerder\" is — een zaakvoerder zonder participatie is **geen UBO** maar **vertegenwoordiger/lasthebber**; pas als er geen UBO via aandelen of zeggenschap kan worden bepaald, schuift men terug op het hoger leidinggevend personeel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21-26 Antiwitwaswet (Wet 18 september 2017) — identificatie en verificatie van **de cliënt, de lasthebbers van de cliënt, en de uiteindelijke begunstigden**. UBO-begrip: art. 4, 27° AWW — natuurlijke persoon met >25% aandelen/stemrechten of zeggenschap, eventueel via doorkijk; bij ontstentenis: hoger leidinggevend personeel. ITAA-norm AWW-reglement §4 (cliëntacceptatiebeleid) en ITAA-Handleiding interne procedures AWW (2019) art. 19 (concrete identificatie-fiches natuurlijke persoon en rechtspersoon). 📖",
+          "wetsref": "Art. 4, 27° en art. 21-26 Wet 18 september 2017 (Antiwitwaswet); art. 1:33-1:35 WVV (UBO-register)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md",
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Voor **natuurlijke personen** (Silan, Black, achterliggende UBO van White): geldige **identiteitskaart** (recto/verso of e-id-fiche) of gelijkwaardig identiteitsdocument (paspoort, rijbewijs als aanvulling). Voor de **rechtspersonen** (bvba Witwassen en nv White): **gecoördineerde statuten**, **KBO-uittreksel**, **publicatie van de benoeming van de bestuurders/zaakvoerders** in het Belgisch Staatsblad, en het **aandelenregister**. Voor de UBO-vaststelling daarbovenop: uittreksel uit het **UBO-register**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Onderbouwende documenten per categorie:\n\n- **Identificatie natuurlijke personen** (Silan, Black, UBO achter White):\n  - Geldige **identiteitskaart** — kopie recto/verso of fiche van de e-id. 📖\n  - Bij buitenlandse personen: **paspoort** of gelijkwaardig officieel identiteitsdocument. 🔗\n  - Aanvullend bij hoog risico: gelijkwaardige stukken (rijbewijs, attest sociale kas, EGW-factuur, aanslagbiljet personenbelasting) om het adres te onderbouwen. 📖\n\n- **Identificatie rechtspersonen** (bvba Witwassen, nv White):\n  - **Gecoördineerde statuten** (laatste versie). 📖\n  - **KBO-uittreksel** (of buitenlands equivalent, bv. Infogreffe voor Frankrijk). 📖\n  - **Publicatie van de benoeming** van bestuurders/zaakvoerders in het Belgisch Staatsblad. 📖\n  - **Aandelenregister** of effecten-overzicht om de aandeelhoudersstructuur en zeggenschap aan te tonen. 🔗\n\n- **Verificatie UBO**:\n  - Uittreksel uit het **UBO-register** (verplicht door de cliënt zelf bijgehouden — art. 1:33 WVV). 🔗\n  - De accountant mag zich **niet uitsluitend** op het UBO-register baseren — hij moet kruiscontroleren met de eigen documenten (statuten, aandelenregister). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De accountant moet **een kopie of fiche** van de stukken in zijn dossier bewaren — een loutere visuele vaststelling volstaat niet. De **bewaartermijn** is **10 jaar** na het einde van de zakenrelatie (verlengd bij wet van 20 juli 2020; voorheen 5 jaar). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 26-29 Antiwitwaswet (verificatie aan de hand van bewijsstukken) en de ITAA-Handleiding interne procedures AWW 2019, art. 19 (concrete documentenlijst per categorie). Voor de UBO-laag: art. 1:33-1:34 WVV en KB van 30 juli 2018 (UBO-register). 📖",
+          "wetsref": "Art. 26-29 Wet 18 september 2017; art. 1:33-1:34 WVV; KB 30 juli 2018 UBO-register",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Te controleren gegevens — per categorie: **natuurlijke persoon** = naam en voornaam, geboortedatum en -plaats, adres (en voor de UBO bovendien: nationaliteit en de aard/omvang van het gehouden economisch belang); **rechtspersoon** = benaming, statutaire zetel, KBO-nummer, lijst bestuurders/zaakvoerders, vertegenwoordigingsbevoegdheid, aandeelhoudersstructuur en uiteindelijke begunstigden. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concreet te verifiëren gegevens:\n\n- **Natuurlijke personen** (Silan als lasthebber + Black en UBO-White als uiteindelijke begunstigden):\n  - Naam en voornaam 📖\n  - Geboortedatum en -plaats 📖\n  - Adres / woonplaats 📖\n  - Voor de UBO bijkomend: **nationaliteit** en **de aard en omvang van het gehouden economisch belang** (percentage, soort zeggenschap) 📖\n  - Voor Silan bijkomend: **hoedanigheid en vertegenwoordigingsbevoegdheid** (kan hij de bvba Witwassen rechtsgeldig verbinden?) 🔗\n\n- **Rechtspersonen** (bvba Witwassen, nv White):\n  - **Benaming** (juridische naam, eventuele handelsbenaming) 📖\n  - **Statutaire zetel** 📖\n  - **KBO-nummer** / ondernemingsnummer 🔗\n  - **Lijst van bestuurders / zaakvoerders** 📖\n  - **Vertegenwoordigingsbevoegdheid** (wie kan tekenen — alleen of gezamenlijk) 📖\n  - **Aandeelhoudersstructuur**: wie houdt welk percentage, met welke stemrechten — om de UBO te kunnen vaststellen 🔗\n  - **Doel en aard van de activiteit** (kruiscontrole: \"keten van wassalons\" — past dit bij het gedeclareerde profiel?) 🔗\n\n- **Op het niveau van de zakelijke relatie**:\n  - **Doel en aard van de zakenrelatie** (welke opdrachten: boekhouding + alle daaraan verbonden activiteiten) 🔗\n  - **Risicoprofiel**: wassalons zijn een **cash-intensieve sector** → verhoogd witwasrisico → vereist mogelijk **verscherpte waakzaamheid**. ❓\n  - **Reden van overstap** van de vorige accountant-belastingconsulent — een typische rode vlag bij cliëntenacceptatie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md",
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De **verificatie** moet gebeuren aan de hand van **onafhankelijke en betrouwbare bronnen** — de woorden van Silan volstaan niet. Statuten, KBO en UBO-register zijn de standaard-bronnen; bij twijfel of hoog risico moet de accountant **bijkomende informatie** opvragen (bv. bewijs van de economische activiteit, oorsprong van de fondsen bij significante geldstromen). De combinatie wassalon-keten + meervoudige aandeelhouders + overstap van vorige accountant rechtvaardigt op zich al een **verscherpte waakzaamheid**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 26-34 Antiwitwaswet (omvang van de identificatie- en verificatieplicht: gegevens die de accountant moet kennen en controleren). Voor de UBO-gegevens: art. 1:33 WVV (naam, geboortedatum, nationaliteit, adres, aard en omvang van het economisch belang). ITAA-norm AWW-reglement §4 (cliëntacceptatiebeleid, risicobeoordeling) en ITAA-Handleiding interne procedures AWW 2019, art. 19 (concrete checklist per categorie). 📖",
+          "wetsref": "Art. 26-34 Wet 18 september 2017; art. 1:33 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/normen/ITAA-norm-aww-reglement.md",
+            "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

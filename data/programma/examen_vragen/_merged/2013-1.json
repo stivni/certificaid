@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-1.pdf",
   "examen_id": "2013-1",
-  "merge_datum": "2026-05-26T15:14:05+00:00",
+  "merge_datum": "2026-05-26T15:29:22+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4252,7 +4252,156 @@
       "vraag_id": "2013-1-vr32"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-reglement.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Als \"beroepsbeoefenaar\" in de zin van de Antiwitwaswet gelden enkel de **externe** mandaathouders en hun stagiairs én de bedrijfsrevisoren — concreet: **a** (Bedrijfsrevisoren), **b** (Stagiair bedrijfsrevisoren), **c** (Externe Accountants - Belastingconsulenten), **e** (Stagiair Accountants - Belastingconsulenten), **f** (Externe Belastingconsulenten), **h** (Stagiair Belastingconsulenten), **i** (Erkende Boekhouders - Fiscalisten), **j** (Erkende Boekhouders) en **k** (Stagiair Boekhouders - Fiscalisten). **Interne** accountants en belastingconsulenten (opties **d** en **g**) vallen erbuiten. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De Antiwitwaswet (Wet 18 september 2017, voorheen Wet 11 januari 1993) is van toepassing op de **onderworpen entiteiten** (art. 5 AWW). Voor onze beroepscategorieën zijn dat de personen opgesomd in punt 1.1, 9°, a), b) en c) van de geconsolideerde ITAA-norm: bedrijfsrevisoren (a), externe (gecertificeerde) accountants en belastingadviseurs én hun stagiairs (b), en erkende boekhouders(-fiscalisten) van het ITAA en hun stagiairs (c). 📖\n\n- **a, b**: bedrijfsrevisoren en hun stagiairs → onderworpen. 📖\n- **c, e**: externe accountants(-belastingconsulenten) en hun stagiairs → onderworpen. 📖\n- **d, g**: **interne** accountants en **interne** belastingconsulenten oefenen hun activiteit uit binnen een arbeidsovereenkomst voor één werkgever, niet \"voor rekening van derden\" — zij zijn **geen onderworpen entiteit** en bijgevolg geen beroepsbeoefenaar in AWW-zin. 🔗\n- **f, h**: externe belastingconsulenten en hun stagiairs → onderworpen. 📖\n- **i, j, k**: erkende boekhouders, erkende boekhouders-fiscalisten en hun stagiairs → onderworpen. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met de tien-drempel uit de vraag-context: die tien telt **enkel** \"beroepsbeoefenaars in de zin van punt 1.1, 9°, a), b) en c)\" — dus interne accountants/belastingconsulenten tellen ook niet mee voor het bepalen of een aparte AMLCO verplicht is. Onder de drempel mag de verantwoordelijke op het hoogste niveau zelf AMLCO zijn; vanaf tien moet het een andere persoon zijn. Een stagiair kan in geen geval AMLCO of verantwoordelijke op het hoogste niveau zijn. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 5 Wet 18 september 2017 (AWW) — toepassingsgebied / onderworpen entiteiten; ITAA-norm AWW (geconsolideerd) punt 1.1, 9°, a-c (definitie beroepsbeoefenaar) en punt 2.2 (AMLCO-drempel van 10). De wet van 11 januari 1993 (toepasselijk in 2013) hanteerde dezelfde afbakening voor de externe categorieën. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 5 Wet 18.09.2017 (AWW); ITAA-norm-aww §1.1, 9°"
+              }
+            ],
+            "gekozen_optie_id": "a,b,c,e,f,h,i,j,k",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Drie kerntaken van de AMLCO (compliance officer / witwasverantwoordelijke):\n\n1. **Toezicht op de tenuitvoerlegging van de gedragslijnen, procedures en internecontrolemaatregelen** inzake AWW binnen het kantoor — hij/zij waakt erover dat de risicogebaseerde waakzaamheidsverplichtingen (cliëntonderzoek, identificatie, opvolging) effectief worden toegepast. 📖\n2. **Analyse van atypische verrichtingen en opstellen van schriftelijke verslagen** (art. 45-46 AWW): de medewerkers en beroepsbeoefenaars leggen atypische verrichtingen voor aan de AMLCO, die beoordeelt of er een vermoeden van witwassen of financiering van terrorisme is dat aan de CFI moet worden gemeld (art. 47). 📖\n3. **Organisatie van opleiding en sensibilisering** van medewerkers en personeel inzake AWW — herkennen van verdachte transacties, kennis van de wetgeving, deontologische ingesteldheid. Het volgen van deze opleidingen is verplicht voor alle betrokkenen. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Andere taken die in dezelfde lijn vallen en als alternatief antwoord aanvaardbaar zijn: opstellen en bijwerken van de algemene risicobeoordeling van het kantoor; rapporteren aan de verantwoordelijke op het hoogste niveau (en aan het ITAA-toezicht); centraal aanspreekpunt voor de CFI en de toezichthouder. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 9, §2 AWW (aanstelling AMLCO); art. 45-47 AWW (analyse atypische verrichtingen, schriftelijke verslagen, melding aan CFI); ITAA-norm AWW (geconsolideerd) punt 2.2 (drempel + onverenigbaarheid) en punt 5 (onderzoek van verrichtingen + meldingsplicht). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 9, §2 + art. 45-47 Wet 18.09.2017 (AWW); ITAA-norm-aww §2.2 + §5"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja.** De aanstelling van een AMLCO ontslaat de overige beroepsbeoefenaars **niet** van hun individuele meldingsplicht. De wettelijke spreekplicht uit art. 47 AWW rust op **elke** onderworpen beroepsbeoefenaar persoonlijk. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-richtlijn-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De AMLCO is intern aangesteld om de meldingsstroom te centraliseren en de analyse van atypische verrichtingen te coördineren, maar de wet zelf legt de meldingsplicht op aan \"de onderworpen entiteiten / de beroepsbeoefenaars\" — niet enkel aan de AMLCO. De norm bevestigt dat de melding aan de CFI in principe via de AMLCO verloopt, maar dat de beroepsbeoefenaar die zelf een vermoeden heeft en die de AMLCO niet (tijdig) kan bereiken, **rechtstreeks** moet melden. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 47 Wet 18.09.2017 (spreekplicht beroepsbeoefenaars t.a.v. CFI); ITAA-norm AWW (geconsolideerd) punt 5.3 — \"Wanneer de AMLCO of, in voorkomend geval, één van de beroepsbeoefenaars (...) een vermoeden (...) meldt aan de CFI\". 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 47 Wet 18.09.2017 (AWW); ITAA-norm-aww §5.3"
+              }
+            ],
+            "id": "c_ja_neen",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-richtlijn-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Praktische gang van zaken wanneer een andere beroepsbeoefenaar een vermoeden van witwassen of financiering van terrorisme heeft:\n\n1. **Intern signaleren aan de AMLCO**: de beroepsbeoefenaar (of medewerker) brengt de atypische verrichting schriftelijk ter kennis van de AMLCO, die de specifieke analyse coördineert (art. 45 AWW). 📖\n2. **Analyse en beslissing tot melding**: bevestigt de AMLCO het vermoeden, dan wordt de melding **onverwijld** aan de CFI overgemaakt (art. 47 AWW), met opstelling van een schriftelijk verslag (art. 45-46). 📖\n3. **Rechtstreekse melding als terugvaloptie**: kan de AMLCO niet (tijdig) worden bereikt of weigert die te melden terwijl het vermoeden gegrond is, dan moet de betrokken beroepsbeoefenaar **zelf rechtstreeks** aan de CFI melden — zijn persoonlijke meldingsplicht blijft volledig overeind. 🔗\n4. **Vertrouwelijkheid (tipping-off-verbod)**: de cliënt of derden mogen niet worden ingelicht over de (voorgenomen) melding (art. 55 AWW). 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "De melder geniet **strafrechtelijke, burgerlijke én tuchtrechtelijke immuniteit** voor de te goeder trouw verrichte melding (art. 57 AWW). De meldingsplicht vormt bovendien een wettelijke afwijking op het beroepsgeheim (art. 458 Sw.) — de beroepsbeoefenaar kan zich dus niet achter het beroepsgeheim verschuilen om niet te melden. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 45-47, 55 en 57 Wet 18.09.2017 (AWW); ITAA-norm AWW (geconsolideerd) punt 5.1-5.3 (onderkennen, analyseren en melden van atypische verrichtingen). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 45-47, 55, 57 Wet 18.09.2017 (AWW); ITAA-norm-aww §5"
+              }
+            ],
+            "id": "c_vervolg"
+          }
+        ],
+        "vraag_id": "2013-1-vr33"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4376,7 +4525,55 @@
       "vraag_id": "2013-1-vr33"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Strafwetboek-1867.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De twee uitzonderingen in het Strafwetboek waarbij de externe accountant of belastingconsulent het beroepsgeheim naast zich neer **kan** leggen, zijn:\n\n1. **Art. 458 Sw** — wanneer hij in rechte (voor een rechter of voor een parlementaire onderzoekscommissie) wordt opgeroepen om getuigenis af te leggen. 📖\n2. **Art. 458bis Sw** — het meldrecht aan de procureur des Konings voor bepaalde ernstige misdrijven gepleegd op een minderjarige of op een persoon in een kwetsbare toestand. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Strafwetboek-1867.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**1. Getuigenis in rechte (art. 458 Sw)** — De wetstekst zelf voorziet dat geheimplichtigen geheimen mogen bekendmaken wanneer zij \"geroepen worden om in rechte (of voor een parlementaire onderzoekscommissie) getuigenis af te leggen\". De accountant heeft hier een **spreekrecht**, geen spreekplicht: hij oordeelt zelf, geval per geval, of hij het geheim opheft. Een verhoor door politie of openbaar ministerie buiten een gerechtelijke procedure valt **niet** onder deze uitzondering. 📖\n\n**2. Meldrecht art. 458bis Sw** — Bij kennis van een limitatief opgesomd misdrijf (o.a. zedenfeiten, geweld, verwaarlozing) gepleegd op een minderjarige of een kwetsbare persoon mag de accountant het feit ter kennis brengen van de procureur des Konings, op voorwaarde dat er een ernstig en dreigend gevaar bestaat voor de fysieke of psychische integriteit van het slachtoffer dat hij niet zelf of met hulp van anderen kan beschermen, en dat hij het slachtoffer heeft onderzocht of in vertrouwen genomen. Ook hier: **recht**, geen plicht. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Strafwetboek-1867.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar deze twee Strafwetboek-uitzonderingen niet met de **antiwitwasmeldingsplicht** aan de CFI (art. 47 e.v. Antiwitwaswet 2017). Die meldingsplicht doorbreekt het beroepsgeheim óók, maar zit **niet** in het Strafwetboek en is bovendien een **verplichting** (moet melden), niet een keuze. De vraag vraagt expliciet naar uitzonderingen \"ingeschreven in het Strafwetboek\" — antwoord blijft art. 458 en art. 458bis. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Strafwetboek-1867.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 458 Sw**: \"[...] buiten het geval dat zij geroepen worden om in rechte (of voor een parlementaire onderzoekscommissie) getuigenis af te leggen en buiten het geval dat de wet, het decreet of de ordonnantie hen verplicht of toelaat die geheimen bekend te maken [...]\". **Art. 458bis Sw**: meldrecht voor in de wet opgesomde misdrijven gepleegd op minderjarigen of kwetsbare personen, na onderzoek/vertrouwen en bij ernstig en dreigend gevaar dat de geheimhouder niet anders kan afwenden. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 458 en art. 458bis Strafwetboek 8 juni 1867"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr34"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4429,7 +4626,215 @@
       "vraag_id": "2013-1-vr34"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "cluster_id": "4.0-c1",
+        "cluster_unie_dekking": [
+          "2013-1-vr35 (verzekeringsmakelaar / krediet-makelaar / bestuursmandaat gerechtelijk / aantal onafhankelijke-bestuurders-mandaten / patrimoniumvennootschap)",
+          "2014-1-vr45 (bestuursmandaat met voorafgaande toestemming Raad / mandaat in vennootschap waar echtgenoot stemrechten heeft / interne accountant en onafhankelijkheid)"
+        ],
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** De activiteit van verzekeringsmakelaar is een onverenigbare activiteit voor de externe accountant/belastingconsulent — ook niet \"mits voorafgaande vraag aan het instituut\" toegelaten. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het algemene beginsel uit art. 11 en art. 9 KB 1 maart 1998 verbiedt elk mandaat, functie of activiteit die de onafhankelijkheid in het gedrang brengt. 📖 De activiteit van verzekeringsmakelaar wordt — net zoals bij erkende boekhouders-fiscalisten (vgl. art. 21 §2 KB 18 juli 2017 BIBF, dat dit met zoveel woorden zegt) — beschouwd als een activiteit die per definitie de onafhankelijkheid en onpartijdigheid in gevaar brengt en is dus onverenigbaar; een individuele toelating door het Instituut heelt dit niet. 🔗 De vraag-formulering \"mits voorafgaande vraag aan het instituut\" suggereert ten onrechte dat hier een gewone toestemmingsprocedure volstaat.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 9, 11 en 15 KB 1 maart 1998 (algemeen onafhankelijkheidsbeginsel + verbod onverenigbare mandaten). Voor de analoge regel bij BIBF expliciet: art. 21 §2 KB 18 juli 2017 (\"activiteiten van verzekeringsmakelaar of -agent ... brengen altijd de onafhankelijkheid en onpartijdigheid in het gedrang\"). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 9, 11, 15 KB 1 maart 1998"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST.** De activiteit van makelaar in krediet- en beleggingsverrichtingen is onverenigbaar met de hoedanigheid van externe accountant/belastingconsulent. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bancaire en financiële tussenpersoons-activiteiten brengen de onafhankelijkheid structureel in het gedrang (commissieverbod + belangenconflict). Art. 29 KB 1998 verbiedt expliciet om commissie- of makelaarslonen toe te kennen of te ontvangen die verband houden met de opdrachten. 📖 De BIBF-tegenhanger maakt dezelfde keuze uitdrukkelijk (\"alle bancaire activiteiten en activiteiten van financiële dienstverlening waarvoor inschrijving bij FSMA vereist is\" — art. 21 §2 KB 2017). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 11 en 29 KB 1 maart 1998 (onafhankelijkheidsbeginsel + verbod commissielonen). Bevestigd door analoge BIBF-regel in art. 21 §2 KB 18 juli 2017. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 11, 29 KB 1 maart 1998"
+              }
+            ],
+            "id": "b",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST.** Een bestuursmandaat in een commerciële vennootschap met winstoogmerk is in beginsel verboden, maar wanneer het voortvloeit uit een rechterlijke beslissing (bv. gerechtelijke aanstelling als voorlopig bestuurder) is geen voorafgaande toestemming van de Raad vereist. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het algemene principe (art. 13 §2 KB 1998) is dat de externe accountant geen functie, mandaat of opdracht mag aanvaarden die hem ertoe brengt zich in te laten met het beheer van een commerciële onderneming — behoudens voorafgaande toestemming van de Raad van het Instituut. 📖 De uitzondering bij mandaten die uit een rechterlijke beslissing voortvloeien (bv. gerechtelijk mandataris, voorlopig bewindvoerder, vereffenaar aangesteld door de rechtbank) wordt traditioneel aanvaard: hier is het mandaat geen vrije keuze van de accountant maar een gerechtelijke aanstelling, en de onafhankelijkheid van de rechterlijke macht vervangt de controle van de Raad. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 13 §2 KB 1 maart 1998 (verbod beheers-betrokkenheid, behoudens uitzonderingen waaronder rechterlijke aanstelling). Algemene onafhankelijkheidsplicht: art. 9 en 11 KB 1998. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 13 §2 KB 1 maart 1998"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** Het aantal mandaten van onafhankelijke bestuurder is in de praktijk beperkt — niet \"zoveel als hij wenst\", ook al zijn bekwaamheid en beschikbaarheid vervuld. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Naast de individuele beoordeling (bekwaamheid + beschikbaarheid) gelden er kwantitatieve grenzen die door de Raad van het Instituut worden bewaakt: een externe accountant mag zijn beroepsinkomsten niet laten afhangen van een te beperkt aantal opdrachten (art. 14 KB 1998) maar evenmin zoveel mandaten cumuleren dat de zorgvuldigheid in het gedrang komt. 📖 De Raad geeft per mandaat een voorafgaande beoordeling, en weigert wanneer de cumul de onafhankelijkheid of de beschikbaarheid in het gedrang brengt — een onbeperkt aantal is dus uitgesloten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 13 §2 en art. 14 KB 1 maart 1998 (voorafgaande toestemming Raad + verbod om de activiteit zodanig te beperken of te spreiden dat de onafhankelijkheid in het gedrang komt). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 13 §2, 14 KB 1 maart 1998"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** Een mandaat in een zuivere patrimoniumvennootschap (vennootschap die uitsluitend het beheer van het privé-vermogen tot doel heeft) is wel toegelaten — dit is precies de klassieke uitzondering. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het verbod van art. 13 §2 KB 1998 viseert commerciële vennootschappen / vennootschappen met een echte handels- of beroepsactiviteit. Een zuivere patrimoniumvennootschap (beheer van eigen vermogen, geen commerciële activiteit) wordt traditioneel uitgesloten van het verbod: de accountant kan daar — vaak voor zijn eigen of familiale patrimoniumstructuur — wél een bestuursmandaat opnemen, mits dit niet conflicteert met cliëntopdrachten. 🔗 \"Nooit\" is daarom te absoluut.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "De uitzondering geldt enkel voor een **zuivere** patrimoniumvennootschap. Zodra er een commerciële activiteit bijkomt (verhuur met dienstverlening, handel in onroerend goed, ...) valt het mandaat opnieuw onder het algemene verbod en is voorafgaande toestemming van de Raad nodig. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 13 §2 KB 1 maart 1998 + vaste interpretatie van de Raad van het Instituut: zuivere patrimoniumvennootschap valt buiten het verbod op bestuursmandaten in commerciële vennootschappen. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 13 §2 KB 1 maart 1998"
+              }
+            ],
+            "id": "e",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Cluster-aanvulling — 2014-1-vr45 (zelfde cluster 4.0-c1, andere stellingen-subset)",
+                "tekst": "- **(a) Mits voorafgaande toestemming van de Raad kan een bestuursmandaat worden opgenomen in een commerciële vennootschap → JUIST.** Dit is exact de hoofdregel van art. 13 §2 KB 1 maart 1998: geen bestuursmandaat in een commerciële vennootschap, *behoudens* voorafgaande toestemming van de Raad van het Instituut. 📖\n- **(b) Mits voorafgaande toestemming kan hij een mandaat als onafhankelijke of externe bestuurder vervullen in een vennootschap waarin zijn echtgeno(o)t(e) stemrechten heeft → JUIST.** Familieleden met stemrechten creëren een bedreiging voor de onafhankelijkheid (art. 11 KB 1998), maar het is niet absoluut verboden: de Raad kan na beoordeling toestemming verlenen, mits beschermingsmaatregelen. 🔗\n- **(c) De interne accountant/belastingconsulent valt niet onder de onafhankelijkheidsverplichtingen omdat hij door arbeidsovereenkomst gebonden is en de instructies van de werkgever volgt → FOUT.** Art. 9, derde lid KB 1998 zegt expliciet het tegendeel: de onafhankelijkheidsplicht geldt **eveneens** voor de accountant die werkt onder arbeidsovereenkomst of in een door de overheid bezoldigde betrekking. Bij conflict tussen werkgeverinstructies en deontologie moet de accountant in overleg een oplossing zoeken — en bij voortdurende onverenigbaarheid weigeren of opstappen. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 9 (3e lid), art. 11 en art. 13 §2 KB 1 maart 1998 — onafhankelijkheid geldt continu (ook voor interne accountant met arbeidsovereenkomst); bestuursmandaten in commerciële vennootschappen of bij verwante stemrecht-houders vereisen voorafgaande toestemming van de Raad. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 9, 11, 13 §2 KB 1 maart 1998"
+              }
+            ],
+            "id": "cluster_aanvulling_2014-1-vr45"
+          }
+        ],
+        "vraag_id": "2013-1-vr35"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "cluster_actie": "behoud_apart_met_label",
@@ -4521,7 +4926,168 @@
       "vraag_id": "2013-1-vr35"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**JUIST.** Een vergelijkende studie van erelonen tussen collega's en zichzelf is een vorm van vergelijkende reclame over tarieven, en die is uitdrukkelijk verboden door het reglement van plichtenleer. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 31 KB 1 maart 1998 laat de accountant toe \"objectieve informatie over zijn kantoor\" mee te delen, maar voegt eraan toe: \"In geen geval mag verwezen worden naar al dan niet vergelijkende gegevens inzake tarieven of kwaliteit.\" 📖 Een vergelijkende ereloon-studie publiceren of communiceren valt rechtstreeks onder dit verbod — ongeacht het gebruikte medium. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 31 KB 1 maart 1998 tot vaststelling van het reglement van plichtenleer der accountants — verbod op vergelijkende gegevens inzake tarieven of kwaliteit. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 31 KB 1 maart 1998 (plichtenleer accountants)"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**FOUT.** Sterk verminderde \"lokprijzen\" hanteren om klanten te binden is strijdig met de waardigheid van het beroep: het ereloon moet objectief vastgesteld worden op basis van aard, complexiteit en omvang van de opdracht. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 28 KB 1 maart 1998 bepaalt dat het ereloon wordt vastgesteld \"in functie van de aard, het belang, de complexiteit, de omvang en de reikwijdte van de opdracht\" en voegt expliciet toe: \"Het aanrekenen van niet verantwoord lage of hoge erelonen, is strijdig met het beginsel van de waardigheid van het beroep.\" 📖 Dumping-prijzen als acquisitietruc voldoen niet aan dit criterium en zijn dus verboden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Het verbod richt zich niet op een normale concurrentiële prijsstelling, maar op \"niet verantwoord lage\" erelonen — dus prijzen die onder de werkelijke kost van een correcte uitvoering liggen. De ratio: te lage erelonen tasten de kwaliteit én de onafhankelijkheid aan (de beroepsbeoefenaar moet hopen op vervolgopdrachten of cross-selling om break-even te draaien). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 28 KB 1 maart 1998 (plichtenleer accountants) — ereloon naar aard van de opdracht; verbod op niet verantwoord lage of hoge erelonen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 28 KB 1 maart 1998 (plichtenleer accountants)"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**FOUT.** De externe accountant mag in publiciteit géén gewag maken van de naam van zijn cliënten — zelfs niet als opsomming van \"belangrijke klanten\", in tegenstelling tot wat in andere sectoren gebruikelijk is. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 31 KB 1 maart 1998: \"Onafgezien van de verslagen die moeten bekendgemaakt worden met toepassing van de wet, mag de accountant in het openbaar of in brochures geen gewag maken van de naam van één van zijn cliënten.\" 📖 Dit verbod vloeit voort uit het beroepsgeheim (art. 458 Sw.) en de discretieplicht: zelfs het bekendmaken van de loutere identiteit van een cliënt verraadt de cliëntrelatie. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "Uitzondering: in uitzonderlijke gevallen kan van dit verbod worden afgeweken, mits **dubbele toestemming** — zowel van de cliënt zelf als van de Voorzitter van het Instituut. 📖 De vraagstelling \"zoals dat gebruikelijk is bij andere sectoren\" is precies de valkuil: gereglementeerde beroepen vallen onder een striktere deontologie dan handelaars onder het WER. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 31 KB 1 maart 1998 (plichtenleer accountants) — verbod op naamsvermelding van cliënten in publiciteit, behoudens dubbele toestemming (cliënt + Voorzitter Instituut). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 31 KB 1 maart 1998 (plichtenleer accountants)"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST.** Het vermelden van de sectoren waarin de accountant werkzaam is, valt onder \"objectieve informatie over het kantoor\" en is toegelaten — het laat de cliënt toe de bekwaamheden in te schatten zonder cliëntnamen prijs te geven of tarieven te vergelijken. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 31 KB 1 maart 1998 staat publiciteit toe voor zover ze \"objectieve informatie\" verschaft en de beroepsdiscretie respecteert. 📖 Vakgebieden, specialisaties en sectoren waarin het kantoor actief is, zijn objectieve, controleerbare informatie over de competenties van het kantoor — géén vergelijking van tarieven/kwaliteit en géén naamsvermelding van cliënten. De stelling valt dus binnen de toegelaten zone. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "De grens loopt fijn: zodra de sector-vermelding zo specifiek wordt dat ze de facto een cliënt identificeert (bv. \"de enige cementproducent van België\"), valt ze opnieuw onder het verbod van art. 31 op naamsvermelding. Sector-categorieën in algemene termen (\"vastgoed\", \"horeca\", \"vrije beroepen\") zijn veilig. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 31 KB 1 maart 1998 (plichtenleer accountants) — objectieve informatie over het kantoor is toegelaten, mits geen vergelijkende tarief-/kwaliteitsgegevens en geen cliëntnamen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 31 KB 1 maart 1998 (plichtenleer accountants)"
+              }
+            ],
+            "id": "d",
+            "oordeel": true
+          }
+        ],
+        "vraag_id": "2013-1-vr36"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

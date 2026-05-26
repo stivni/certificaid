@@ -1,7 +1,7 @@
 {
   "bron_pdf": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
   "examen_id": "2024-1",
-  "merge_datum": "2026-05-26T15:05:37+00:00",
+  "merge_datum": "2026-05-26T15:29:22+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -1561,7 +1561,61 @@
       "vraag_id": "2024-1-vr5D"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** — de accountant stelt het ereloon zelf vast, binnen de wettelijke criteria (aard, belang, complexiteit, omvang, reikwijdte, verantwoordelijkheid, bijzondere kwalificaties). Er bestaat geen ITAA-barema; provisies/voorschotten zijn toegelaten; commissielonen zijn verboden. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a** (barema door ITAA) → FOUT. Noch art. 28 KB 1998 plichtenleer, noch art. 46 Wet ITAA 2019 verwijzen naar een door het ITAA opgesteld barema. De wet geeft enkel criteria waarbinnen de beroepsbeoefenaar zelf vaststelt. 📖\n- **b** (accountant stelt zelf vast) → JUIST. Art. 28 KB 1998 en art. 46 Wet ITAA 2019 leggen de vaststelling bij de accountant, in functie van de opdrachtkenmerken en zijn verantwoordelijkheid/kwalificaties. 📖\n- **c** (provisies en voorschotten verboden) → FOUT. De ITAA-norm opdrachtbrief §7 voorziet uitdrukkelijk dat de wijze van aanrekening kan gebeuren \"via voorschotten, forfaitair, maandelijks\". Voorschotten zijn dus toegelaten. 📖\n- **d** (ereloon kan bestaan uit commissielonen) → FOUT. Art. 27 KB 1998 sluit \"elke andere rechtstreekse of onrechtstreekse vergoeding\" uit naast het ereloon en de kostenvergoeding. Commissielonen (van derden, voor doorverwijzing of bemiddeling) zijn dus verboden — dit raakt ook de onafhankelijkheid. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Optie a en d zijn klassieke afleiders. Het verbod op commissielonen (optie d) volgt niet uit een verbod op een vergoedingsvorm op zich, maar uit het principe dat de accountant zijn ereloon enkel van de cliënt mag ontvangen voor eigen prestaties — geen retrocommissies of bemiddelingsvergoedingen van derden. Niet-verantwoord lage óf hoge erelonen zijn bovendien strijdig met de waardigheid van het beroep (art. 28 in fine). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-opdrachtbrief.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27 KB 1 maart 1998 (plichtenleer accountants): de externe accountant mag alleen aanspraak maken op ereloon en kostenvergoeding, met uitsluiting van elke andere rechtstreekse of onrechtstreekse vergoeding. Art. 28 KB 1998 + art. 46 Wet 17 maart 2019 (ITAA): het ereloon wordt vastgesteld in functie van aard, belang, complexiteit, omvang en reikwijdte van de opdracht, en de verantwoordelijkheid/bijzondere kwalificaties van de beroepsbeoefenaar. ITAA-norm opdrachtbrief §7: aanrekening kan via voorschotten, forfaitair of maandelijks. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27-28 KB 1 maart 1998; art. 46 Wet 17 maart 2019 (ITAA); ITAA-norm opdrachtbrief §7"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr6A"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1628,7 +1682,59 @@
       "vraag_id": "2024-1-vr6A"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **a** is FOUT — dienstverstrekkers (waaronder accountants en belastingadviseurs) genieten geen verhoogde drempel: voor hen geldt dezelfde algemene grens van 3.000 EUR (en in totaal, niet per verrichting) zoals voor elke verkoper of dienstverlener onder de Antiwitwaswet. Het bedrag 2.500 EUR komt in art. 66 AWW niet voor. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a** (dienstverstrekkers mogen 2.500 EUR contant ontvangen) → FOUT. De algemene drempel van art. 66 AWW is 3.000 EUR (totaal, ongeacht of het in één keer of in schijven betaald wordt). Er bestaat geen aparte verhoogde of verlaagde drempel van 2.500 EUR voor dienstverstrekkers — zij vallen onder de gewone regel. 🔗\n- **b** (notaris mag bij verkoop onroerend goed geen enkele contante betaling ontvangen) → JUIST. Art. 67 AWW verbiedt élke contante betaling bij de aan- of verkoop van een onroerend goed; dit is een nuldrempel, niet de 3.000 EUR-grens. 📖\n- **c** (drempel geldt ook voor schenkingen) → JUIST. Art. 66 AWW spreekt expliciet over \"betaling of schenking\" — schenkingen in contanten vallen onder dezelfde 3.000 EUR-grens (en art. 137 AWW sanctioneert beide gelijk). 📖\n- **d** (5.000 EUR via storting op postkantoor op bankrekening verkoper is conform) → JUIST. De beperking betreft enkel \"contante betalingen\" in de zin van fysieke overhandiging tussen partijen. Een storting op een bankrekening — ook al gebeurt die met contant geld bij een postkantoor of bank — kwalificeert niet als contante betaling tussen partijen omdat het bedrag via het bancaire stelsel passeert (gewone identificatie- en monitoringverplichtingen van de financiële instelling treden dan in werking). 🔗\n- **e** (drempel 3.000 EUR voor verrichtingen tussen consumenten onderling) → JUIST. Art. 66 AWW maakt geen onderscheid naar de hoedanigheid van partijen — de drempel van 3.000 EUR is van toepassing op iedere persoon, ook tussen consumenten onderling (bv. C2C-verkoop tweedehandsvoertuig). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "De drempel van art. 66 AWW is **3.000 EUR in totaal** voor de gehele verrichting — opsplitsen in schijven (bv. 2× 1.800 EUR) is uitdrukkelijk verboden en wordt beschouwd als één betaling. Voor verkoop van onroerend goed (art. 67 AWW) geldt de **absolute nul**: ook geen voorschot of handgeld in contanten — strenger dan de algemene regel. Schending wordt strafrechtelijk gesanctioneerd onder art. 137 AWW (geldboete 250–225.000 EUR, met cap op 10 % van het betaalde bedrag). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 66 Wet 18 september 2017 (Antiwitwaswet) — algemene beperking contante betalingen/schenkingen tot 3.000 EUR voor de verkoop van een goed of het verrichten van een dienst, ongeacht de hoedanigheid van partijen (B2B, B2C of C2C). Art. 67 AWW — absoluut verbod op contante betaling bij de aan-/verkoop van een onroerend goed (notaris en partijen). Art. 137 AWW — strafsanctie bij overtreding (geldboete 250–225.000 EUR, beperkt tot 10 % van de betaling of schenking). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 66, 67 en 137 Wet 18 september 2017"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr6B"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1700,7 +1806,57 @@
       "vraag_id": "2024-1-vr6B"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Herinnering-fragment — interpretatie is topic_only (kwaliteits_flag: subvraag_zonder_inhoud). PNG en tekst.txt vermelden enkel \"C. Vragen mbt openbaar register.\" zonder concrete sub-vraag of opties. Gezien de context van vraag 6 (A = AWW contante-betalingen-drempel; D = UBO-register; E = AMLCO) gaat C waarschijnlijk over het ITAA-openbaar register (Wet 17 maart 2019, art. 29-33). Antwoord hieronder is een topic-overzicht, niet een beantwoording van een specifieke sub-vraag — alle blokken op confidence \"betwijfeld\" of \"afgeleid\" met expliciete topic-only-vermelding.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "topic_only",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "betwijfeld",
+                "tekst": "Sub-vraag is niet teruggevonden in PDF/PNG — enkel het topic \"openbaar register\" is bewaard in de herinnering. Vermoedelijke scope: het **openbaar register van het ITAA** (Wet 17 maart 2019, art. 29-33) — niet te verwarren met het UBO-register (sub-vraag D) noch met een AWW-register. ❓",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Wat een examenvraag over het ITAA-openbaar register typisch toetst",
+                "tekst": "- **Wie wordt ingeschreven?** Elke beroepsbeoefenaar (natuurlijke persoon én rechtspersoon) met vermelding van zijn hoedanigheid (gecertificeerd accountant, gecertificeerd belastingadviseur, accountant, fiscaal accountant, intern-varianten); stagiairs met vermelding \"stagiair\"; ook personen die het beroep onder arbeidsovereenkomst of in een door de overheid bezoldigde betrekking uitoefenen. 📖\n- **Toekenning ITAA-nummer**: het Instituut wijst bij inschrijving een inschrijvingsnummer toe — dit is het \"ITAA-nr.\" dat verplicht op de opdrachtbrief moet staan. 📖\n- **Aparte lijst**: het Instituut houdt een aparte lijst bij van personen die de beroepsactiviteiten uitoefenen zonder de beroepstitel te voeren (art. 29, §2). 📖\n- **Doel**: toelaten dat derden de lijst van erkende beroepsbeoefenaars kunnen raadplegen en nakijken (publiek raadpleegbaar). 📖\n- **Tijdelijk/occasioneel en derde landen**: ook personen uit hoofde van art. 23 (tijdelijk/occasioneel) en art. 25 (uit derde landen die in België mogen uitoefenen) staan in het register. 📖\n- **Uit-/herinschrijving** (art. 32-33): uitschrijving op verzoek, behalve wanneer een tuchtprocedure loopt — dan pas na de tuchtbeslissing. Persoonsgegevens worden maximaal 10 jaar bijgehouden na uitschrijving. Verlies van de hoedanigheid is het rechtsgevolg van uitschrijving. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Het **openbaar register van het ITAA** is iets fundamenteel anders dan het **UBO-register** (zie sub-vraag D). Het ITAA-register lijst de **beroepsbeoefenaars** op (wie mag het beroep van accountant/belastingadviseur uitoefenen); het UBO-register lijst de **uiteindelijke begunstigden** van vennootschappen en andere juridische entiteiten op (een AWW-instrument, beheerd door de FOD Financiën). Lees in een MC-vraag het werkwoord goed: \"raadpleegbaar\" + \"beroepstitel\" wijst op ITAA; \"uiteindelijke begunstigde\" / \"≥25% aandelen\" wijst op UBO. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-ITAA-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Wet 17 maart 2019 tot oprichting van het ITAA**, hoofdstuk \"Het openbaar register\":\n- Art. 29 — inschrijvingsplicht en inhoud van het register (beroepsbeoefenaar + hoedanigheid; stagiair; ITAA-nummer; aparte lijst zonder beroepstitel). 📖\n- Art. 32 — opname van personen uit hoofde van art. 23 (tijdelijk/occasioneel) en art. 25 (derde landen); de Koning kan bijkomende gegevens vaststellen. 📖\n- Art. 33 — uit- en herinschrijving, bewaartermijn persoonsgegevens (10 jaar), gevolg = verlies van hoedanigheid. 📖",
+                "type": "grondslag",
+                "wetsref": "Wet 17 maart 2019, art. 29-33 (Wet-ITAA-2019)"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2024-1-vr6C"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1751,7 +1907,54 @@
       "vraag_id": "2024-1-vr6C"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "In het UBO-register moet elke **natuurlijke persoon** worden opgenomen die — rechtstreeks of onrechtstreeks — de **uiteindelijke begunstigde** is van de informatieplichtige entiteit (vennootschap, (I)VZW, stichting, trust of gelijkaardige juridische constructie naar Belgisch recht). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "Per type informatieplichtige entiteit zijn dit:\n\n**Vennootschappen** (art. 4, 27°, a Antiwitwaswet — drie categorieën, hiërarchisch toe te passen):\n\n1. **Eigendoms- of stemrechtcriterium** — elke natuurlijke persoon die rechtstreeks of onrechtstreeks **meer dan 25 %** van de stemrechten, de aandelen of het kapitaal bezit. Een belang van **>25 %** is een aanwijzing van voldoende eigendomsbelang. 🤖\n2. **Controlecriterium** — elke natuurlijke persoon die via andere middelen **zeggenschap** uitoefent (aandeelhoudersovereenkomst, vetorecht, recht om bestuurders te benoemen, feitelijke controle, ...). 🤖\n3. **Hoger leidinggevend personeel** — als na uitputting van categorieën 1 en 2 **geen** UBO kan worden geïdentificeerd, of bij twijfel, worden de natuurlijke personen die behoren tot het **hoger leidinggevend personeel** (typisch de bestuurders / het dagelijks bestuur) als UBO geregistreerd. Dit is een **subsidiaire** categorie — niet als 'gemakkelijkheidsoplossing' te gebruiken. 🤖\n\n**(I)VZW's en stichtingen** (art. 4, 27°, c Antiwitwaswet — alle hierna genoemde categorieën samen):\n\n- de leden van de **raad van bestuur**;\n- de personen die gemachtigd zijn de **vereniging/stichting te vertegenwoordigen**;\n- de personen belast met het **dagelijks bestuur**;\n- de **stichters** van een stichting;\n- de natuurlijke personen of, wanneer deze nog niet werden aangeduid, de categorie van natuurlijke personen in wier hoofdzakelijk belang de (I)VZW/stichting werd opgericht of werkzaam is;\n- elke andere natuurlijke persoon die via andere middelen **uiteindelijke zeggenschap** uitoefent. 🤖\n\n**Trusts, fiducieën en gelijkaardige juridische constructies** (art. 4, 27°, b Antiwitwaswet): de **oprichter (settlor)**, de **trustee(s) / fiduciebeheerder(s)**, de eventuele **protector**, de **begunstigden** (of, indien nog niet aangewezen, de categorie van begunstigden) en elke andere natuurlijke persoon die uiteindelijke zeggenschap uitoefent over de constructie. 🤖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "De drempel van **25 %** is een **aanwijzing**, geen veilige drempel om onder te blijven: ook bij <25 % kan iemand UBO zijn als hij via andere middelen **controle** uitoefent (categorie 2). Bij naamloze vennootschappen met versnipperd aandeelhouderschap of bij genoteerde dochters mag men **niet automatisch** terugvallen op het hoger leidinggevend personeel — de informatieplichtige moet eerst aantoonbaar **alle redelijke middelen** hebben uitgeput om een UBO via categorie 1 of 2 te identificeren. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De informatieplichtige (de entiteit zelf, via haar bestuursorgaan) moet de UBO-gegevens binnen **één maand** na de relevante gebeurtenis registreren of bijwerken, en **jaarlijks** de actualiteit ervan bevestigen. Niet-naleving wordt gesanctioneerd met **administratieve geldboetes** door de FOD Financiën (250 EUR - 50 000 EUR). De accountant treft in zijn antiwitwas-cliëntonderzoek de plicht om de UBO te **identificeren én te verifiëren** — louter overnemen van wat in het UBO-register staat volstaat niet (artikel 26, § 2 Antiwitwaswet). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "Wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten (Antiwitwaswet), art. 4, 27° (definitie uiteindelijke begunstigde) en art. 73-75 (UBO-register). Uitvoering: KB van 30 juli 2018 betreffende de werkingsmodaliteiten van het UBO-register. 🤖",
+                "type": "grondslag",
+                "wetsref": "Wet 18-09-2017, art. 4, 27° en art. 73-75; KB 30-07-2018"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr6D"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1800,7 +2003,164 @@
       "vraag_id": "2024-1-vr6D"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**JUIST**. Bij vaststelling van een atypische verrichting maakt de AMLCO een intern verslag op, met de aanvullende analyse en het besluit (vermoeden WG/FT al dan niet). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Artikelen 45-46 AWW verplichten de AMLCO om atypische verrichtingen te onderwerpen aan een specifieke analyse onder zijn verantwoordelijkheid. 🔗 De ITAA-Handleiding bevestigt expliciet: het intern verslag is verplicht in geval van \"vaststelling atypische verrichting, op basis van het formulier medegedeeld door de medewerker die de verrichting heeft vastgesteld\". 📖 Het verslag wordt 10 jaar bewaard. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Artikelen 45-46 AWW + ITAA-Handleiding interne procedures AWW 2019, §13 \"Intern verslag\" (de AMLCO moet een intern verslag maken bij \"vaststelling atypische verrichting\"). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 45-46 AWW + Handleiding §13"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**JUIST**. Wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de cliënt, moet de AMLCO een intern verslag opmaken. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De ITAA-Handleiding noemt vier verplichte triggers voor een intern verslag, waaronder uitdrukkelijk: \"wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de cliënt\". 📖 Onmogelijkheid van risicobeoordeling moet schriftelijk gedocumenteerd worden — het is een blokkerend feit dat samenhangt met de weigering van de zakelijke relatie (art. 33-34 AWW) en moet traceerbaar zijn voor de Toezichtautoriteit. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-Handleiding interne procedures AWW 2019, §13 \"Intern verslag\" (vier triggers, waarvan de derde \"wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de cliënt\"). 📖",
+                "type": "grondslag",
+                "wetsref": "Handleiding §13"
+              }
+            ],
+            "id": "b",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**JUIST**. Wanneer het kantoor na de risicobeoordeling beslist de potentiële cliënt te weigeren wegens te hoog WG/FT-risico, maakt de AMLCO een intern verslag op. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De ITAA-Handleiding stelt dit uitdrukkelijk als vierde trigger: \"wanneer na het uitvoeren van de risicobeoordeling het kantoor beslist om de potentiële cliënt te weigeren wegens te hoog WG/FT risico\". 📖 De weigering moet gedocumenteerd worden zodat traceerbaar is dat het kantoor zijn cliëntacceptatiebeleid effectief toepast — ook negatieve beslissingen behoren tot de auditspoor van de AMLCO. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Bij een vermoeden van WG/FT volstaat het intern verslag niet — de AMLCO moet bovendien een melding aan de CFI doen conform art. 47 AWW. Het intern verslag documenteert de interne beslissing; de CFI-melding is de externe spreekplicht. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-Handleiding interne procedures AWW 2019, §13 \"Intern verslag\" (vierde trigger: weigering cliënt na risicobeoordeling wegens WG/FT-risico). 📖",
+                "type": "grondslag",
+                "wetsref": "Handleiding §13 + Art. 47 AWW"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**FOUT**. De AMLCO maakt **minstens eenmaal per jaar** een activiteitenverslag op — niet om de 2 jaar. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De ITAA-Handleiding stelt expliciet: \"De AMLCO zal ook minstens eenmaal per jaar een activiteitenverslag opmaken\". 📖 Daarnaast verifieert de AMLCO **minstens jaarlijks** of de algemene risicobeoordeling van het kantoor nog up-to-date is (punt 3.7 van de ITAA-norm AWW geconsolideerd). 📖 De frequentie van 2 jaar in de stelling is dus onjuist — de wettelijke en normatieve frequentie is **jaarlijks**.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar het **activiteitenverslag** (jaarlijks, AMLCO → bestuursorgaan) niet met de **algemene risicobeoordeling** (bijgewerkt bij significante gebeurtenissen, met een jaarlijkse verificatie door de AMLCO). Beide hebben een jaarlijkse component — een 2-jaarlijkse cyclus bestaat niet in de AWW-architectuur. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-aww-geconsolideerd.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-Handleiding interne procedures AWW 2019, §13 in fine (\"minstens eenmaal per jaar een activiteitenverslag\") + ITAA-norm AWW geconsolideerd punt 3.7 (jaarlijkse verificatie algemene risicobeoordeling door AMLCO). 📖",
+                "type": "grondslag",
+                "wetsref": "Handleiding §13 + ITAA-norm AWW §3.7"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2024-1-vr6E"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],

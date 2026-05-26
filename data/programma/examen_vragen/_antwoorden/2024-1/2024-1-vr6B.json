@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6B",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** is FOUT — dienstverstrekkers (waaronder accountants en belastingadviseurs) genieten geen verhoogde drempel: voor hen geldt dezelfde algemene grens van 3.000 EUR (en in totaal, niet per verrichting) zoals voor elke verkoper of dienstverlener onder de Antiwitwaswet. Het bedrag 2.500 EUR komt in art. 66 AWW niet voor. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** (dienstverstrekkers mogen 2.500 EUR contant ontvangen) → FOUT. De algemene drempel van art. 66 AWW is 3.000 EUR (totaal, ongeacht of het in één keer of in schijven betaald wordt). Er bestaat geen aparte verhoogde of verlaagde drempel van 2.500 EUR voor dienstverstrekkers — zij vallen onder de gewone regel. 🔗\n- **b** (notaris mag bij verkoop onroerend goed geen enkele contante betaling ontvangen) → JUIST. Art. 67 AWW verbiedt élke contante betaling bij de aan- of verkoop van een onroerend goed; dit is een nuldrempel, niet de 3.000 EUR-grens. 📖\n- **c** (drempel geldt ook voor schenkingen) → JUIST. Art. 66 AWW spreekt expliciet over \"betaling of schenking\" — schenkingen in contanten vallen onder dezelfde 3.000 EUR-grens (en art. 137 AWW sanctioneert beide gelijk). 📖\n- **d** (5.000 EUR via storting op postkantoor op bankrekening verkoper is conform) → JUIST. De beperking betreft enkel \"contante betalingen\" in de zin van fysieke overhandiging tussen partijen. Een storting op een bankrekening — ook al gebeurt die met contant geld bij een postkantoor of bank — kwalificeert niet als contante betaling tussen partijen omdat het bedrag via het bancaire stelsel passeert (gewone identificatie- en monitoringverplichtingen van de financiële instelling treden dan in werking). 🔗\n- **e** (drempel 3.000 EUR voor verrichtingen tussen consumenten onderling) → JUIST. Art. 66 AWW maakt geen onderscheid naar de hoedanigheid van partijen — de drempel van 3.000 EUR is van toepassing op iedere persoon, ook tussen consumenten onderling (bv. C2C-verkoop tweedehandsvoertuig). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De drempel van art. 66 AWW is **3.000 EUR in totaal** voor de gehele verrichting — opsplitsen in schijven (bv. 2× 1.800 EUR) is uitdrukkelijk verboden en wordt beschouwd als één betaling. Voor verkoop van onroerend goed (art. 67 AWW) geldt de **absolute nul**: ook geen voorschot of handgeld in contanten — strenger dan de algemene regel. Schending wordt strafrechtelijk gesanctioneerd onder art. 137 AWW (geldboete 250–225.000 EUR, met cap op 10 % van het betaalde bedrag). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 66 Wet 18 september 2017 (Antiwitwaswet) — algemene beperking contante betalingen/schenkingen tot 3.000 EUR voor de verkoop van een goed of het verrichten van een dienst, ongeacht de hoedanigheid van partijen (B2B, B2C of C2C). Art. 67 AWW — absoluut verbod op contante betaling bij de aan-/verkoop van een onroerend goed (notaris en partijen). Art. 137 AWW — strafsanctie bij overtreding (geldboete 250–225.000 EUR, beperkt tot 10 % van de betaling of schenking). 📖",
+          "wetsref": "Art. 66, 67 en 137 Wet 18 september 2017",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Antiwitwaswet-2017.md",
+            "resources/bronnen/wetteksten/ITAA-Handleiding-interne-procedures-AWW-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

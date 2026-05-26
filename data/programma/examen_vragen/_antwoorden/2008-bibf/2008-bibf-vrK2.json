@@ -1,0 +1,80 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrK2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Deontologisch verboden.** De klantenlijst van een confrater gebruiken om diens klanten af te werven — zeker tegen een lager tarief — schendt de plichten van confraterniteit, waardigheid en eerlijkheid van de boekhouder BIBF. De stagiair moet het bestandje **vernietigen of teruggeven** aan Patrick en mag de gegevens **niet exploiteren**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie deontologische beginselen worden geraakt:\n\n- **Confraterniteit** — de boekhouder BIBF is gehouden tot *wederzijdse hulp en hoffelijkheid* tegenover confraters en moet zich onthouden van *elke houding of handeling die een confrater schade kan berokkenen*. Een confrater zijn klantenbestand afnemen is per definitie schadeberokkenend. 📖\n- **Waardigheid en eerlijkheid** — het beroep moet worden uitgeoefend met *bekwaamheid, rechtschapenheid, eerlijkheid en waardigheid*. Profiteren van een verzendfout om vertrouwelijke commerciële gegevens te exploiteren is oneerlijk en onwaardig. 📖\n- **Verbod op oneerlijke klantenwerving (ronselen)** — reclame en klantenwerving moeten gebeuren met respect voor *beroepsgeheim, confraterniteit, eerlijkheid, onafhankelijkheid en waardigheid*; gerichte benadering op basis van een gestolen of per ongeluk ontvangen klantenlijst valt daarbuiten en is dus verboden. 🔗\n\nDe verlaagde prijs versterkt het verwijt: artikel 13 verbiedt commissies/voordelen die de onafhankelijkheid in het gedrang brengen, en het *underbidden* van een confrater met diens eigen tarief-informatie ondergraaft de loyale concurrentie tussen beroepsbeoefenaars. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij de overname van een dossier van een confrater schrijft art. 17 een **schriftelijke kennisgeving** voor en moet de overnemer er bij de cliënt op aandringen dat **openstaande honoraria** van de voorganger worden betaald. Hier is er geen overname: Patrick draagt één dossier over en stuurt per vergissing zijn volledige klantenbestand mee. Het correcte gedrag is Patrick onmiddellijk schriftelijk verwittigen (art. 16, tweede lid) en het bestandje terugbezorgen of vernietigen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB van 18 juli 2017 — reglement van plichtenleer BIBF: art. 4 (bekwaamheid, rechtschapenheid, eerlijkheid, waardigheid), art. 16 (wederzijdse hulp en hoffelijkheid; geen handelingen die een confrater schade berokkenen), art. 23 (klantenwerving/reclame met respect voor confraterniteit, eerlijkheid en waardigheid — grondslag voor het ronselverbod). 📖",
+          "wetsref": "KB 18.07.2017 plichtenleer BIBF, art. 4, art. 16, art. 23",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "De relevante artikelen van het reglement van plichtenleer BIBF (KB 18 juli 2017) zijn:\n\n- **Art. 4** — algemene plicht het beroep uit te oefenen met *bekwaamheid, rechtschapenheid, eerlijkheid en waardigheid*. 📖\n- **Art. 16** — plicht tot *wederzijdse hulp en hoffelijkheid* tegenover confraters; verbod op elke houding of handeling die een confrater *schade kan berokkenen*. 📖\n- **Art. 23** — kader voor *klantenwerving, reclame en informatieverstrekking*: enkel toegelaten met respect voor *beroepsgeheim, confraterniteit, eerlijkheid, onafhankelijkheid en waardigheid* — de grondslag voor het verbod op ronselen. 📖\n\nAanvullend relevant:\n- **Art. 13, § 2** — verbod om voordelen toe te kennen of te ontvangen die de onafhankelijkheid in het gedrang brengen (raakt het *lager prijsje*-aspect). 📖\n- **Art. 19** — discretieplicht over vertrouwelijke gegevens die de boekhouder in zijn beroepsuitoefening verneemt (de doorgestuurde klantenlijst is vertrouwelijk). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De vraag dateert van 2008, toen het BIBF-plichtenreglement nog dat van het **KB van 23 december 1997** was. De huidige geldende tekst is het **KB van 18 juli 2017**, met grotendeels gelijklopende inhoud en artikel-nummering (art. 4 — waardigheid; art. 16 — confraterniteit; art. 23 — reclame/klantenwerving). De redenering en uitkomst zijn identiek. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB van 18 juli 2017 tot goedkeuring van het reglement van plichtenleer BIBF, art. 4, art. 13, art. 16, art. 19 en art. 23. 📖",
+          "wetsref": "KB 18.07.2017 plichtenleer BIBF, art. 4 / 13 / 16 / 19 / 23",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-2017-plichtenleer-bibf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

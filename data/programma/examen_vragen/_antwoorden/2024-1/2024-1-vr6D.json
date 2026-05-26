@@ -1,0 +1,48 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6D",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "In het UBO-register moet elke **natuurlijke persoon** worden opgenomen die — rechtstreeks of onrechtstreeks — de **uiteindelijke begunstigde** is van de informatieplichtige entiteit (vennootschap, (I)VZW, stichting, trust of gelijkaardige juridische constructie naar Belgisch recht). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Per type informatieplichtige entiteit zijn dit:\n\n**Vennootschappen** (art. 4, 27°, a Antiwitwaswet — drie categorieën, hiërarchisch toe te passen):\n\n1. **Eigendoms- of stemrechtcriterium** — elke natuurlijke persoon die rechtstreeks of onrechtstreeks **meer dan 25 %** van de stemrechten, de aandelen of het kapitaal bezit. Een belang van **>25 %** is een aanwijzing van voldoende eigendomsbelang. 🤖\n2. **Controlecriterium** — elke natuurlijke persoon die via andere middelen **zeggenschap** uitoefent (aandeelhoudersovereenkomst, vetorecht, recht om bestuurders te benoemen, feitelijke controle, ...). 🤖\n3. **Hoger leidinggevend personeel** — als na uitputting van categorieën 1 en 2 **geen** UBO kan worden geïdentificeerd, of bij twijfel, worden de natuurlijke personen die behoren tot het **hoger leidinggevend personeel** (typisch de bestuurders / het dagelijks bestuur) als UBO geregistreerd. Dit is een **subsidiaire** categorie — niet als 'gemakkelijkheidsoplossing' te gebruiken. 🤖\n\n**(I)VZW's en stichtingen** (art. 4, 27°, c Antiwitwaswet — alle hierna genoemde categorieën samen):\n\n- de leden van de **raad van bestuur**;\n- de personen die gemachtigd zijn de **vereniging/stichting te vertegenwoordigen**;\n- de personen belast met het **dagelijks bestuur**;\n- de **stichters** van een stichting;\n- de natuurlijke personen of, wanneer deze nog niet werden aangeduid, de categorie van natuurlijke personen in wier hoofdzakelijk belang de (I)VZW/stichting werd opgericht of werkzaam is;\n- elke andere natuurlijke persoon die via andere middelen **uiteindelijke zeggenschap** uitoefent. 🤖\n\n**Trusts, fiducieën en gelijkaardige juridische constructies** (art. 4, 27°, b Antiwitwaswet): de **oprichter (settlor)**, de **trustee(s) / fiduciebeheerder(s)**, de eventuele **protector**, de **begunstigden** (of, indien nog niet aangewezen, de categorie van begunstigden) en elke andere natuurlijke persoon die uiteindelijke zeggenschap uitoefent over de constructie. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De drempel van **25 %** is een **aanwijzing**, geen veilige drempel om onder te blijven: ook bij <25 % kan iemand UBO zijn als hij via andere middelen **controle** uitoefent (categorie 2). Bij naamloze vennootschappen met versnipperd aandeelhouderschap of bij genoteerde dochters mag men **niet automatisch** terugvallen op het hoger leidinggevend personeel — de informatieplichtige moet eerst aantoonbaar **alle redelijke middelen** hebben uitgeput om een UBO via categorie 1 of 2 te identificeren. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De informatieplichtige (de entiteit zelf, via haar bestuursorgaan) moet de UBO-gegevens binnen **één maand** na de relevante gebeurtenis registreren of bijwerken, en **jaarlijks** de actualiteit ervan bevestigen. Niet-naleving wordt gesanctioneerd met **administratieve geldboetes** door de FOD Financiën (250 EUR - 50 000 EUR). De accountant treft in zijn antiwitwas-cliëntonderzoek de plicht om de UBO te **identificeren én te verifiëren** — louter overnemen van wat in het UBO-register staat volstaat niet (artikel 26, § 2 Antiwitwaswet). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten (Antiwitwaswet), art. 4, 27° (definitie uiteindelijke begunstigde) en art. 73-75 (UBO-register). Uitvoering: KB van 30 juli 2018 betreffende de werkingsmodaliteiten van het UBO-register. 🤖",
+          "wetsref": "Wet 18-09-2017, art. 4, 27° en art. 73-75; KB 30-07-2018",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}
