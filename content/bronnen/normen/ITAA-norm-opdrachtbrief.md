@@ -40,6 +40,18 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-opdrachtbrief.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt dit document?
+> Dit document (een ITAA-aanbeveling) legt uit hoe de wettelijke verplichting tot opdrachtbrief (art. 41 Wet-ITAA 2019 + KB 9 december 2019) in de praktijk moet worden nageleefd. Vier kernpunten:
+>
+> 1. **Wettelijke verplichting** vanaf 21 september 2017 — voor alle beroepsbeoefenaars bij elke opdracht.
+> 2. **Geen opdrachtbrief = geen nietigheid**, maar wél deontologische gevolgen + bewijsmoeilijkheden als er betwisting ontstaat.
+> 3. **Inhoud-checklist**: identificatie partijen, begindatum, voorwerp opdracht, verplichtingen beide partijen, aansprakelijkheidsbeperking, einde overeenkomst, erelonen, bewaring stukken, geschillenregeling.
+> 4. **Uitzonderingen**: gerechtsdeskundigeopdrachten (aanstelling door rechter, niet contractueel) en onderaanneming (geen opdrachtbrief vereist in relatie cliënt-onderaannemer).
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
 ## OPDRACHTBRIEF
 
         2) Specifieke regels bij de uitvoering van de opdrachten die voorbehouden zijn aan gecertificeerde
@@ -56,6 +68,13 @@ informatie en tools aan te reiken die toelaten deze regelgeving op een correcte 
 op een wijze die te verzoenen valt met hun kantoororganisatie.
 
 ## Wettelijke verplichting
+
+
+> [!warning] Geen opdrachtbrief ≠ geldige vrijstelling — dubbele sanctie mogelijk
+> De afwezigheid van een opdrachtbrief maakt de overeenkomst niet automatisch nietig, maar:
+> - Het ITAA kan een **deontologische sanctie** opleggen.
+> - Bij betwisting over erelonen of aansprakelijkheid draagt de beroepsbeoefenaar de **bewijslast** zonder schriftelijk bewijs.
+> Bijkomend: de KB-verplichting mee te vermelden dat u ITAA-lid bent en welke titel u draagt, kan ook via de opdrachtbrief worden ingevuld (WER-informatieplicht).
 
 ## 1. Algemeen
 De opdrachtbrief is al sinds 21 september 2017 een wettelijke verplichting voor alle
@@ -110,6 +129,11 @@ de instemming van de cliënt vereist.
 
 Enkele inhoudelijke aspecten van de opdrachtbrief
 
+
+> [!note] Cliënteel overnemen vs. aandelen kopen: twee regimes
+> - **Aandelenovername erkende vennootschap**: geen nieuwe opdrachtbrief nodig — de rechtspersoon blijft dezelfde.
+> - **Overname van cliënteel** (portefeuille-overname): de opdracht heeft een *intuitu personae*-karakter — een volledig nieuwe overeenkomst is vereist en de cliënt moet expliciet instemmen.
+
 ## 1. Identificatie van de partijen
 De identificatie van de partijen is het vertrekpunt van elke overeenkomst. Zowel de cliënt als de
 beroepsbeoefenaar worden nauwkeurig geïdentificeerd.
@@ -148,6 +172,10 @@ vragen via mail aanvaard worden. Deze opdracht valt dan onder de bestaande opdra
 
 Is dit niet het geval dan zal een nieuwe opdrachtbrief of minstens een addendum bij de bestaande
 moeten worden opgemaakt.
+
+
+> [!tip] Bijkomende opdracht: valt het er al onder?
+> Wanneer een cliënt een bijkomende taak vraagt, onderzoek dan eerst of die al onder het voorwerp van de bestaande opdrachtbrief valt. Als ja: schriftelijke bevestiging volstaat (bv. mail). Als neen: nieuwe opdrachtbrief of addendum vereist. Documenteer altijd — bij betwisting is de omschrijving van het voorwerp de eerste verdedigingslinie.
 
 ## 4. Verplichtingen van de partijen
  1) Langs de zijde van de cliënt

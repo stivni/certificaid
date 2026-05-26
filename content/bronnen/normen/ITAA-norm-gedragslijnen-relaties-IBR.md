@@ -39,6 +39,20 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-gedragslijnen-relaties-IBR.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt dit document?
+> De gedragslijnen (IBR × IAB × BIBF, 2008) regelen de confraterniteitsprincipes bij samenwerking en opvolging tussen leden van verschillende instituten. Zes principes:
+>
+> 1. **Onafhankelijkheid bij controle**: geen aanvaarding als de beroepsbeoefenaar (of iemand in zijn netwerk) in de 2 jaar vóór de controleopdracht een relatie had die zijn onafhankelijkheid in vraag stelt.
+> 2. **Opvolging raadgevende rol**: 2 jaar na ondertekening van een controlevslag mag de controlerende beroepsbeoefenaar de gewoonlijke raadgever niet opvolgen.
+> 3. **Meningsverschil**: altijd via confraterneel overleg — eerst de betrokkene informeren vóór mededeling aan de cliënt.
+> 4. **Contact met voorganger**: verplicht vóór aanvaarding van een opdracht als een andere beroepsbeoefenaar die opdracht in de voorbije 12 maanden uitvoerde.
+> 5. **Onbetaalde erelonen**: de opvolger moet actief vragen naar de betaling van verschuldigde erelonen van de voorganger.
+> 6. **Overdracht dossier**: onmiddellijk na beëindiging, ongeacht of erelonen betaald zijn — met inventaris in tweevoud.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
 GEDRAGSLIJNEN INZAKE DE BEROEPSRELATlES TUSSEN DE LEDEN VAN
 HET IBR, HET IAB EN HET BIBF
 
@@ -89,6 +103,10 @@ Dat deze gedragslijnen werden goedgekeurd door:
  de Raad van het Instituut van de Accountants en de Belastingconsulenten op 5 mei 2008
 
 Dat deze gedragslijnen van kracht worden op 1 juni 2008;
+
+
+> [!note] Deze gedragslijnen zijn een aanvulling op de deontologie — niet ter vervanging
+> De gedragslijnen zijn opgesteld als aanvulling op de plichtenleer van elk afzonderlijk instituut. Ze gelden voor relaties tússen leden van IBR, IAB en BIBF — niet voor relaties binnen eenzelfde instituut (daarvoor bestaan specifieke regels per instituut). Na de ITAA-fusie zijn leden van het voormalige IAB en BIBF nu ITAA-leden; de gedragslijnen blijven relevant voor de verhouding ITAA ↔ IBR. Zie ook [[bronnen/normen/ITAA-norm-algemene-controlenorm|Algemene Controlenorm §5]] (contact met confrater bij opvolging).
 
 ## Definities
 
@@ -175,3 +193,11 @@ dat hem opvolgt.
 
 De voorganger dient een inventaris op te maken in tweevoud, die door hem en zijn geldig
 gevolmachtigde opvolger of door de entiteit zullen worden gedateerd en getekend.
+
+> [!warning] Twee-jaar-barrieres — let op de richting
+> Er zijn twee afzonderlijke twee-jaar-regels die in tegengestelde richting werken:
+>
+> - **Vóór een controleopdracht**: geen onafhankelijkheidsprobleem in de **2 jaar vóór** de aanvaarding.
+> - **Na een controleopdracht**: geen opvolging als gewoonlijke raadgever gedurende **2 jaar ná** de ondertekening van het verslag.
+>
+> De eerste beschermt de onafhankelijkheid bij de controle; de tweede beschermt de gewoonlijke raadgever van de cliënt. Beide zijn cumulatief toepasbaar als dezelfde persoon beiden wil combineren.

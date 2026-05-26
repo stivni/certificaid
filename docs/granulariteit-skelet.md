@@ -173,6 +173,27 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
+personenbelasting                        [Σ-sub-discipline-cluster fiscaliteit, 22 cluster-eigen + 6 cross — PO 2.2]
+├── personenbelasting                    [Σ — gepromoveerd]   #inkomstencategorieën · #aanslagjaar · #aanvullende-gemeentebelasting
+├── gezinssituatie                       [K — rename `-pb` weg]   gehuwd/wettsam/feitelijk/alleenstaand · inkomenstoerekening
+├── kinderen-ten-laste · huwelijksquotient · belastingvrije-som   [R/R/R]   gezinscontext-luik
+├── onroerend-inkomen-pb                 [R]   eigen vs verhuurd · privé vs beroep · indexering KI
+├── kadastraal-inkomen · onroerende-voorheffing · eigen-woning-fiscaal (OP-PB.A)   [K/R/R, shared lokaal-en-regionaal]
+├── beroepsinkomen-pb                    [Σ]   5 categorieën beroepsinkomen
+├── werknemersbezoldiging                [R — rename + perspectief PB]   shared werknemers-vergoedingen
+├── bedrijfsleidersbezoldiging           [R, shared werknemers-vergoedingen + perspectief PB]
+├── winst-baten-zelfstandige             [R — rename]   forfait vs werkelijk · sociale bijdragen
+├── beroepskosten                        [R, NIEUW generiek]   art 49 WIB · 2 perspectieven (PB · VenB)
+├── stopzettingsmeerwaarde               [R — rename]   16,5%/33%/progressief
+├── voordelen-alle-aard                  [K, filter, shared werknemers-vergoedingen]
+├── roerend-inkomen-pb · roerende-voorheffing   [R/R, perspectief-pendant `roerend-inkomen-internationaal`]
+├── diverse-inkomsten-pb                 [R]   art 90 WIB
+├── onderhoudsuitkering                  [R — rename `-cluster` weg]   symmetrisch (ontvangen + betaald)
+├── aftrekbare-bestedingen-pb · gewestelijke-belastingverminderingen-pb · federale-belastingverminderingen-pb   [R/K/K]
+├── bedrijfsvoorheffing · voorafbetalingen-pb (OP-PB.B)   [R/procedure, shared loon-en-payroll]
+├── aangifte-pb · belastingberekening-pb · aanslagbiljet-pb   [3× procedure — PB-aanslagcyclus]
+└── (starterscoaching-pb → perspectief op oprichting-vennootschap; fiscale-procedure-pb → fiscale-procedure-Σ; inkomstencategorieen-pb → Σ-sub-sectie)
+
 beroepsbeoefening                        [thema-cluster onder beroep-en-deontologie-discipline, 11 records + 2 shared — PO 4.0.I + taken 1-3]
 ├── --- I. STATUUT VAN HET BEROEP ---
 ├── gecertificeerd-accountant            [E-actor, NIEUW]  beroep · toelatingsvereisten · monopolieopdrachten · stagiair → gecertificeerd
@@ -224,6 +245,7 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | **beoordelings-opdracht** + **isae-opdrachten** + **overeengekomen-procedures** | 3 × 1 mini-record (allemaal ⏳) | sub-Kaders van `controle` — gedragen via `opdracht-types`-Σ | [§Overige sub-Kaders van controle-discipline (compact)](#overige-sub-kaders-van-controle-discipline-compact) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
+| personenbelasting | 22 cluster-eigen + 6 cross (1 NIEUW `beroepskosten` + 8 renames + 3 absorpties) | PO 2.2 (grootste sub-discipline fiscaliteit) | [§Personenbelasting-cluster](#personenbelasting-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -2007,6 +2029,142 @@ internationaal-fiscaal                    [Σ-cluster fiscaliteit, 22 cluster-ei
 - **OP-IF.B** ⏳ Patrimoniumvennootschap-positionering: primair in registratie-en-successierechten (vermogensplanning-instrument) of in ondernemingsvormen (vennootschapsvorm-variant)? Voorlopig in registratie-en-successierechten; te valideren bij content-uitwerking.
 - **OP-IF.C** ⏳ Bron-pin: Belgische DBV-set is enorm (~90 DBV's). Niet alle als trusted bron laden — selectief op meest-getoetste (NL/FR/DE/LUX/VK/VS).
 
+### Personenbelasting-cluster
+
+Thema: `personenbelasting`. *Diepe PO 2.2-uitwerking (2026-05-26). Grootste sub-discipline-cluster van fiscaliteit (32 anchors · 31 records → ~22 cluster-eigen + 6 cross). Operationaliseert OP-PV.A: 5 perspectief-vermommings-renames (`-pb`-suffix weg waar fenomeen generiek is) + 1 nieuw generiek record (`beroepskosten`) + 1 absorptie naar perspectief (`starterscoaching-pb`). `personenbelasting` gepromoveerd tot Σ-hoofdrecord (absorbeert `inkomstencategorieen-pb`). `onderhoudsuitkering-cluster` hernoemd (`-cluster`-suffix-smell). `-pb`-suffix bewust behouden waar PB-context inherent eigenschap is (aangifte-pb, belastingberekening-pb, aanslagbiljet-pb, aftrekbare-bestedingen-pb, federale/gewestelijke-belastingverminderingen-pb, onroerend-/roerend-inkomen-pb, diverse-inkomsten-pb — telkens belasting-categorie-marker, geen perspectief-vermomming).*
+
+```
+personenbelasting                         [Σ-sub-discipline-cluster fiscaliteit, 22 cluster-eigen + 6 cross — PO 2.2]
+│
+├── personenbelasting                     [Σ-hoofdrecord — gepromoveerd]
+│   ▸ overkoepelend: belastingplichtige · gezinslast · 4 inkomenscategorieën · aftrekken+verminderingen · aanslagcyclus
+│   ▸ #inkomstencategorieën-overzicht (vervangt `inkomstencategorieen-pb` — geabsorbeerd)
+│   ▸ #aanslagjaar vs inkomstenjaar · #aangifteplicht · #aanvullende-gemeentebelasting
+│
+├── --- I. BELASTINGPLICHTIGE + GEZINSCONTEXT (II-IV) ---
+├── gezinssituatie                        [K — rename `gezinssituatie-pb`]   gehuwd/wettelijk-samenwonend/feitelijk-samenwonend/alleenstaand · inkomenstoerekening
+├── kinderen-ten-laste                    [R]   voorwaarden · netto-bestaansmiddelen · co-ouderschap-toerekening
+├── huwelijksquotient                     [R]   inkomenstoerekening tussen echtgenoten · 30%-regel · plafond
+├── belastingvrije-som                    [R]   basis-BVS + verhogingen (kinderen/handicap/leeftijd) · gewest-variatie
+│
+├── --- II. ONROEREND INKOMEN (V.A-B) ---
+├── onroerend-inkomen-pb                  [R]   eigen vs verhuurd · privé vs beroep · indexering KI · brutering
+├── kadastraal-inkomen                    [K, shared `lokale-en-regionale-belastingen`]   wettelijke vaststelling · revaluatie · perequatie-historiek
+├── onroerende-voorheffing                [R, shared `lokale-en-regionale-belastingen`]   gewest-tarieven · opcentiemen · verrekening met PB
+├── eigen-woning-fiscaal                  [R — naam-rename open (OP-PB.A)]   gewestelijke vrijstelling eigen woning + woonbonus + overgangsregimes
+│
+├── --- III. BEROEPSINKOMEN (VI.A-B + X) ---
+├── beroepsinkomen-pb                     [Σ — kader-overzicht]   5 categorieën beroepsinkomen + aftrekbaar/forfait + indexatie + bezoldigingsregel-KMO
+├── werknemersbezoldiging                 [R — rename `werknemersbezoldiging-pb`, generiek fenomeen + perspectief PB]   loon · vakantiegeld · eindejaarspremie · opzeggingsvergoeding
+│   ▸ accountant_perspectieven: PB (deel 1 aangifte · bronheffing) · boekhouding · sociaal-zekerheid (RSZ-werknemer)
+├── bedrijfsleidersbezoldiging            [R, shared `werknemers-vergoedingen` + perspectief PB]   45.000-EUR-regel · bezoldigingstheorie · tantième-aspect
+│   ▸ accountant_perspectieven: PB (taxatie progressief) · VenB (aftrekbaarheid + 80%-aansl) · advies (cf. werknemers-vergoedingen-Σ)
+├── winst-baten-zelfstandige              [R — rename `winst-baten-zelfstandige-pb`]   onderscheid winst (handelaar) vs baten (vrije beroepen) · forfait vs werkelijk · sociale bijdragen-aftrek
+├── beroepskosten                         [R — NIEUW generiek, vervangt `beroepskosten-regime-pb`; cross naar VenB-perspectief op `aftrekbare-beroepskosten-venb`]
+│   ▸ aftrekbaarheidstest art 49 WIB (causaal verband · werkelijk gedragen · bewezen) · forfait vs werkelijk · 50%-regel autokosten · 30%-restaurant · 100%-publiciteit/sociale-voordelen
+│   ▸ accountant_perspectieven: PB (forfait/werkelijk-keuze) · VenB (verworpen uitgaven cascade) · advies (kostenoptimalisatie) · boekhouding (rekeningklasse 6)
+├── stopzettingsmeerwaarde                [R — rename `stopzettingsmeerwaarde-pb`]   tarieven (16,5% / 33% / progressief) · ingebrekestelling-of-vrijwillig · cessatie eenmanszaak
+├── voordelen-alle-aard                   [K, filter-categorie, shared `werknemers-vergoedingen`]   formule-overzicht · VAA-fenomenen elders gedetailleerd (vaa-woning · vaa-pc · vaa-renteloze-lening · vaa-verwarming-elektriciteit · autokosten-VAA cross mobiliteit)
+│
+├── --- IV. ROEREND INKOMEN (VII.A-B) ---
+├── roerend-inkomen-pb                    [R]   dividenden · interesten · royalty's · auteursrechten (regime) · liquidatiebonus
+│   ▸ perspectief-pendanten: `roerend-inkomen-internationaal` (PO 2.8) — bewust 2 records vanwege verschillende RV-modaliteiten + DBV-impact
+├── roerende-voorheffing                  [R, shared `werknemers-vergoedingen` + `fiscale-voordelen-vennootschap`]   bevrijdend vs verrekenbaar · vrijstellingen · VVPRbis 15%
+│
+├── --- V. DIVERSE INKOMSTEN (VIII.A-B) ---
+├── diverse-inkomsten-pb                  [R]   art 90 WIB · winsten/baten buiten beroep · meerwaarden roerend/onroerend · onderverhuring · loten · prijzen
+│
+├── --- VI. ONDERHOUDSUITKERINGEN (IX + XI) ---
+├── onderhoudsuitkering                   [R — rename `onderhoudsuitkering-cluster`, `-cluster`-suffix-smell]
+│   ▸ ontvangen (80% belast als divers inkomen, IX) + betaald (80% aftrekbaar als aftrekbare-besteding, XI) · samen-1-record want symmetrisch fenomeen · achterstallen-regeling
+│
+├── --- VII. AFTREKKEN + VERMINDERINGEN (XI-XIII) ---
+├── aftrekbare-bestedingen-pb             [R]   onderhoudsuitkeringen-betaald (cross) · giften erkende instellingen · andere aftrekken
+├── gewestelijke-belastingverminderingen-pb [K]   per gewest verschillend (Vlaams · Waals · Brussels) · woonbonus · isolatie · dakwerken · winwinlening · ...
+├── federale-belastingverminderingen-pb   [K]   pensioensparen · langetermijnsparen · giften (federaal) · dienstencheques (federaal) · auteursrecht-regime · ...
+│
+├── --- VIII. VOORHEFFINGEN + VOORAFBETALINGEN (XIV-XV) ---
+├── bedrijfsvoorheffing                   [R, shared `werknemers-vergoedingen` + `loon-en-payroll`]   inhouding aan bron · barema's · indexatie · korting bedrijfsleider
+├── voorafbetalingen-pb                   [procedure — `-pb`-suffix behouden; pendant `voorafbetalingen-vennootschapsbelasting` cross PO 2.3; OP-PB.B beslissing pending]
+│   ▸ 4 kwartalen · vermeerdering bij geen-voorafbetaling · zelfstandigen-verplicht-3e-jaar · 3%-bonificatie
+│
+├── --- IX. AANSLAGCYCLUS (XVI-XVII) ---
+├── aangifte-pb                           [procedure — `-pb` behouden, PB-categorie-marker]   deel 1 (alle particulieren) · deel 2 (winsten-baten-bedrijfsleiders) · vakken+codes · TaxOnWeb vs papier · termijnen
+├── belastingberekening-pb                [procedure — `-pb` behouden]   tarief-schijven · samenvoeging echtgenoten · verminderingen · aanvullende gemeentebelasting · gewest-decimes
+├── aanslagbiljet-pb                      [procedure — `-pb` behouden]   kohier · enrôlement · betaaltermijn · betermening · cross `aanslag-cyclus` (generiek) in `fiscale-procedure`
+│
+└── --- X. TAKEN (perspectieven, geen eigen records) ---
+├── (starterscoaching-pb)                 [→ perspectief `advies` + `fiscaal-PB` op `oprichting-vennootschap` — OP-PV.A toepassing, schrappen als apart record]
+├── (fiscale-procedure-pb)                [→ absorbed in `fiscale-procedure`-Σ via PO 2.5-cluster (al gemarkeerd)]
+└── (rijksinwoner / belastingplichtige-PB) [→ sub-secties van `personenbelasting`-Σ — geen aparte records nodig; aanknopingspunt art 3-3bis WIB woont in Σ-hoofdrecord]
+```
+
+**Cross-cluster** (records primair elders, raken PO 2.2):
+- `bedrijfsleidersbezoldiging` (werknemers-vergoedingen) — primair daar, PB-perspectief raakt 2.2.VI
+- `autokosten` + alle VAA-records (mobiliteit + werknemers-vergoedingen) — VAA-perspectief raakt 2.2.VI.A
+- `aanslag-cyclus` + `aangifteplicht-fiscaal` + `bezwaarprocedure-fiscaal` (fiscale-procedure) — generieke pendanten van `aangifte-pb` / `aanslagbiljet-pb` / `fiscale-procedure-pb`
+- `oprichting-vennootschap` (kapitaalstructuur) — PB-perspectief vervangt `starterscoaching-pb`
+- `ontbinding-en-vereffening` (insolventie) — PB-perspectief vervangt `vereffening-fiscaal` (cross PO 2.3 ook)
+- `dbi-aftrek` + `vvprbis` + `liquidatiereserve` (fiscale-voordelen-vennootschap) — PB-RV-impact via aandeelhouder
+- `kadastraal-inkomen` + `onroerende-voorheffing` (lokale-en-regionale-belastingen + PB) — shared
+
+**Renames + acties**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| `werknemersbezoldiging-pb` | **`werknemersbezoldiging`** — `-pb`-suffix is perspectief-vermomming (fenomeen generiek); PB-context wordt accountant_perspectief PB |
+| `bedrijfsleidersbezoldiging-pb` | **schrappen** — al gedekt door bestaand `bedrijfsleidersbezoldiging` in werknemers-vergoedingen-cluster; PB-perspectief aanvullen |
+| `winst-baten-zelfstandige-pb` | **`winst-baten-zelfstandige`** — fenomeen leeft ook in BNI; suffix weg |
+| `stopzettingsmeerwaarde-pb` | **`stopzettingsmeerwaarde`** — stopzetting eenmanszaak (= PB) maar concept leeft ook in VenB-stopzetting; eenduidige naam |
+| `beroepskosten-regime-pb` + `aftrekbare-beroepskosten-venb` | **nieuw `beroepskosten`** generiek + 2 perspectieven (PB · VenB) — al gemarkeerd in OP-PV.A |
+| `gezinssituatie-pb` | **`gezinssituatie`** — geen scope-conflict; concept woont alleen in PB-context (geen pendant elders) |
+| `onderhoudsuitkering-cluster` | **`onderhoudsuitkering`** — `-cluster`-suffix-smell (precedent PO 1.7) |
+| `inkomstencategorieen-pb` | **absorberen** in `personenbelasting`-Σ als sub-sectie `#inkomstencategorieën` — niet een aparte keuze-as, gewoon component-overzicht |
+| `starterscoaching-pb` | **schrappen** — wordt perspectief `advies` + `fiscaal-PB` op `oprichting-vennootschap` (OP-PV.A) |
+| `fiscale-procedure-pb` | **absorbed** in `fiscale-procedure`-Σ (al gemarkeerd in PO 2.5-cluster) |
+
+**`-pb`-suffix-regel** (uitkomst PO 2.2-ronde):
+
+| Behoud | Strippen |
+|---|---|
+| `aangifte-pb` · `belastingberekening-pb` · `aanslagbiljet-pb` · `voorafbetalingen-pb` · `aftrekbare-bestedingen-pb` · `gewestelijke-belastingverminderingen-pb` · `federale-belastingverminderingen-pb` · `onroerend-inkomen-pb` · `roerend-inkomen-pb` · `diverse-inkomsten-pb` · `beroepsinkomen-pb` | `werknemersbezoldiging-pb` · `bedrijfsleidersbezoldiging-pb` · `winst-baten-zelfstandige-pb` · `stopzettingsmeerwaarde-pb` · `beroepskosten-regime-pb` · `gezinssituatie-pb` · `starterscoaching-pb` · `fiscale-procedure-pb` · `inkomstencategorieen-pb` |
+| **Reden behoud**: PB-context is inherent belasting-categorie-marker (≠ perspectief-vermomming) — het fenomeen *bestaat alleen in PB-vorm* of heeft fundamenteel andere wettelijke werking in andere belastingen. `aangifte-pb` ≠ `aangifte-vennootschapsbelasting`: andere wetgeving, andere vakken, andere indieningstermijn. | **Reden strippen**: fenomeen is generiek en/of het PB-aspect is een werk-perspectief op een onderliggend fenomeen — wordt accountant_perspectief PB op generiek record. |
+
+**Schrappen / nieuwe records**:
+- 1 nieuwe record: `beroepskosten` (generiek + 2 perspectieven; ⏳)
+- 1 promotie: `personenbelasting` → cluster-Σ-hoofdrecord (sub-discipline-overzichts-rol)
+- 8 renames volgens tabel hierboven
+- 3 schrappen-via-absorptie: `inkomstencategorieen-pb` (→Σ-sub-sectie) · `starterscoaching-pb` (→perspectief) · `fiscale-procedure-pb` (→PO 2.5-Σ)
+- 1 schrappen-via-bestaand: `bedrijfsleidersbezoldiging-pb` (→bestaand `bedrijfsleidersbezoldiging` + perspectief)
+
+**Triangulatie 2026-05-26**:
+- 32 PO 2.2-anchors → 0 PO-only gaps
+- 31 records → 22 cluster-eigen na renames + 6 cross-records + 3 schrappen-via-absorptie
+- 31 openstaande kandidaten in DB (= alle bestaande records nog niet gemarkeerd als gerealiseerd — DB-sync-actie open punt OP-PB.D)
+- 6 perspectief-vermommings-opgelost (OP-PV.A toegepast); 0 nieuwe perspectief-vermommings ontdekt
+
+**Bronnen-pin**:
+- ✅ WIB art 1-178 + KB-WIB
+- ✅ Aangifte-PB-handcrafted-walkthrough (`resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md` — ADR-028)
+- ✅ Cijferzakboekje (tarieven, plafonds, BVS, kindergeld) via tarieven-MCP
+- ⏳ Circulaires Centrale-administratie + commentaar (vooral voor VAA-formules)
+
+**Test-case-validatie** (2026-05-26): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Bezoldiging zaakvoerder via tantième vs vast loon | `bedrijfsleidersbezoldiging`-Σ (werknemers-vergoedingen) + PB-perspectief + cross `winstuitkering`#tantième | ✅ |
+| Autokosten-aftrek werkelijke + VAA | `beroepskosten` (50%-regel) + `autokosten`-Σ (mobiliteit) + `voordelen-alle-aard` filter + cross VenB-perspectief verworpen-uitgaven | ✅ |
+| KI eigen woning + verhuurde tweede woning | `onroerend-inkomen-pb` (eigen vs verhuurd) + `kadastraal-inkomen` + `eigen-woning-fiscaal` (vrijstelling) | ✅ |
+| Onderhoudsuitkering ex-echtgenoot betaald | `onderhoudsuitkering` (symmetrisch) + `aftrekbare-bestedingen-pb` (XI-aftrek) + cross diverse-inkomen ontvanger | ✅ |
+
+**Open punten**:
+- **OP-PB.A** ⏳ `eigen-woning-fiscaal` rename: `-fiscaal`-suffix is smell, maar `eigen-woning` te generiek (raakt vermogensrecht). Voorstellen: `eigen-woning-vrijstelling` of `gunstregime-eigen-woning`. Te beslissen bij content-uitwerking. *(Naam-smell-scan-uitbreiding: `-fiscaal`-suffix.)*
+- **OP-PB.B** ⏳ `voorafbetalingen-pb` + `voorafbetalingen-vennootschapsbelasting` (PO 2.3): één generiek `voorafbetalingen` + 2 perspectieven (analoog aan `beroepskosten`-aanpak), of behouden als 2 records (verschillende kwartaal-regels + vermeerderings-formule)? Voorlopig 2 records behouden — beslissen tijdens PO 2.3-ronde.
+- **OP-PB.C** ⏳ `onroerend-inkomen-pb` / `roerend-inkomen-pb` `-pb`-suffix gerechtvaardigd want pendant `roerend-inkomen-internationaal` bestaat (3-context-pattern). Bij PO 2.3-ronde checken of pendant `roerend-inkomen-venb` of `roerend-inkomen-vennootschap` zinvol is, of dat VenB roerend-inkomen via `belastbare-grondslag-vennootschapsbelasting` afgedekt is.
+- **OP-PB.D** ⏳ Candidates-DB-sync: 31 records bestaan, 31 kandidaten staan nog op `gerealiseerd=0`. `markeer_kandidaat_gerealiseerd` actie nodig na rename-werk in mapping-fase.
+- **OP-PB.E** ⏳ Σ-hoofdrecord `personenbelasting`-content: huidig record is kader-overzicht-niveau. Bij Σ-promotie aanvullen met: 4-categorieën-overzichts-matrix · aanslagjaar/inkomstenjaar · indexatie-mechaniek · gewest-decimes-impact. Werkpunt voor content-uitwerking.
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
@@ -2737,3 +2895,6 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | `kantoor-organisatie` als overkoepelend record **absorbeert** `communicatie-met-stakeholders` + `digitalisering-accountantskantoor` als sub-secties | 3 aparte records voor 4.0.taak.2 + 4.0.taak.4 + 4.0.taak.5 | User-keuze "OP-BB.D kantoor-organisatie -> probeer maar te combineren". 3 thema's hangen samen rond "hoe runt het kantoor zijn praktijk?" — team-coördinatie + stakeholder-communicatie + digitale werkomgeving zijn 3 perspectieven op zelfde fenomeen (kantoor-praktijk). Anti-versnippering. `digitalisering`-sub-sectie kan later splitsen indien cyber/AVG/digitale-archief substantieel groeit. | `businessmodel-en-strategie-inzicht-accountant` daarentegen verhuist cross naar `bedrijfseconomie-en-management`-discipline — dat is geen kantoor-praktijk-thema maar een meta-competentie (4.0.taak.6) die elders thuishoort. |
 | 2026-05-26 | **`bestuur-en-aansprakelijkheid`-cluster** voor PO 3.0.II + VII; split bestaand record `aansprakelijkheid-oprichters-bestuurders` in `oprichtersaansprakelijkheid` + `bestuurdersaansprakelijkheid` (`-en-`-naam-smell, precedent `vof-commv`). Kwijting blijft sub-sectie van `bestuurdersaansprakelijkheid` (anti-preventieve-versnippering); split mogelijk later op didactische zwaarte (OP-BA.B). | (a) Behoud `aansprakelijkheid-oprichters-bestuurders` als 1 record; (b) Kwijting als eigen record | Test-case-validatie: 2 van 3 PO 3.0.VII-testvragen raken alleen `oprichtersaansprakelijkheid`, niet `bestuurdersaansprakelijkheid` — bevestigt dat het 2 verschillende fenomenen zijn (verschillende personen, verschillende triggers, verschillende wettelijke grondslag). Vergelijking BV-vs-NV bij oprichtersaansprakelijkheid (vr K5) leeft natuurlijker als eigen record. | Pattern: bij elke `-en-`-naam scan systematisch of 2 fenomenen onder 1 naam geforceerd zijn. Voor PO 3.0 nog te checken: `aandeelhoudersovereenkomsten-en-methodes-om-de-controle-te-verwerven` (3.0.VI-titel) — al opgelost via aparte clausule-sub-secties. |
 | 2026-05-26 | **`bijzondere-mandaten`** als 6e sub-Kader van `controle`-discipline + **shared thema** met `beroepsbeoefening`. Eén klein hoofdrecord (categorisch overzicht); concrete uitvoering per type woont als `accountant_perspectieven[].audit` op de betrokken Gebeurtenis-records. **OP-EC.E mapping-actie verfijnd**: niet zomaar "audit-perspectief", maar perspectief met cross-link naar `bijzondere-mandaten` (categorisch) + ITAA-norm-pin (per type) + oordeel-onderwerp specifiek. | (a) `bijzondere-mandaten` als perspectief-only op Gebeurtenissen (geen eigen record) — verliest categorisch overzicht; (b) als 5e item in `opdracht-types`-Σ — breekt assurance-niveau-as; (c) als sub-sectie van `gecertificeerd-accountant` in beroepsbeoefening — verliest opdracht-categorie-status | User-observatie 2026-05-26: "zit dat niet dicht bij onze discipline `controle` ook?" + "moet het geen perspectief worden op de betrokken gebeurtenissen?" — beide raken precies. Bijzondere mandaten zijn opdracht-categorie (= record naast andere sub-Kaders van controle) ÉN concrete uitvoering bij elke Gebeurtenis (= perspectief). Drie-niveau-toepassing van perspectief-vs-record-principe: categorisch begrip (record) + concrete uitvoering (perspectief) + wettelijke verankering (inhoud van Gebeurtenis). Shared thema beroepsbeoefening houdt monopolie-aspect zichtbaar zonder duplicatie. | Pattern: andere wettelijk-voorbehouden-opdracht-categorieën die door meerdere PO's heen leven kunnen analoog. Bv. `commissaris`-mandaat zelf is geen "bijzonder mandaat" maar wel een aparte opdracht-categorie — al deels in beroepsbeoefening voorzien (OP-BB.E).  |
+| 2026-05-26 | **`-pb`-suffix-regel** uit PO 2.2-ronde: behoud waar belasting-categorie inherent eigenschap is (fenomeen *bestaat alleen in PB-vorm* of heeft fundamenteel andere wettelijke werking elders); strippen waar fenomeen generiek is en `-pb`-suffix perspectief-vermomming verbergt. | Eén-uniforme regel "alle `-pb` weg" (zou aangifte-pb / belastingberekening-pb / aanslagbiljet-pb / aftrekbare-bestedingen-pb verkeerd hernoemen — die zijn inhoudelijk anders dan VenB-pendanten) of "alle `-pb` behouden" (verstopt perspectief-vermommings-smell uit OP-PV.A) | 11 records behouden suffix (PB-aanslagcyclus + PB-aftrek-instituten + PB-categorie-inkomens), 9 records strippen (werknemers/bedrijfsleider/zelfstandige-bezoldigingen + beroepskosten + stopzettingsmeerwaarde + gezinssituatie + starterscoaching + fiscale-procedure + inkomstencategorieen). Beslis-test: "bestaat een VenB/BNI-pendant met dezelfde naam zonder suffix?" → ja = strippen + perspectief; nee = behouden. | Pattern voor andere belasting-suffixen (`-venb` / `-btw` / `-aww`) tijdens latere PO-rondes: zelfde beslis-test. Smell-scan-actie blijft (`-fiscaal`-suffix nog open OP-PB.A). |
+| 2026-05-26 | `personenbelasting` gepromoveerd tot **Σ-hoofdrecord** van eigen sub-discipline-cluster; absorbeert `inkomstencategorieen-pb` als sub-sectie `#inkomstencategorieën`. | Behoud `inkomstencategorieen-pb` als apart kader-record naast `personenbelasting`-kader (huidige situatie) | Inkomstencategorieën zijn niet alternatieven met keuze-as, het zijn componenten van het belastbaar inkomen (samen optellen, niet kiezen). `personenbelasting`-Σ heeft overkoepelende stof die nergens anders thuis hoort (aanslagjaar/inkomstenjaar · aanvullende gemeentebelasting · indexatie-mechaniek · 4-categorieën-overzicht). Verzamelconcept-pattern-test: 1 record met overkoepelende structuur > 2 records waarvan één in de ander past. | Analoog te overwegen bij andere sub-discipline-clusters van fiscaliteit (PO 2.3 `vennootschapsbelasting`-Σ + sub-secties grondslag/correcties/tarief; PO 2.4 `btw`-Σ + sub-secties belastingplichtige/handelingen/aftrek/aangifte). Beslissen per cluster bij PO-uitwerking. |
+| 2026-05-26 | **`beroepskosten` nieuw generiek record** vervangt `beroepskosten-regime-pb` (rename-via-content) + `aftrekbare-beroepskosten-venb` (perspectief-conversie). Operationaliseert OP-PV.A. Inhoud: art 49 WIB aftrekbaarheidstest · forfait vs werkelijk · 50%-regel autokosten · 30%-restaurant · 100%-publiciteit. 2 accountant_perspectieven (PB · VenB). | (a) 2 aparte records behouden — verstopt perspectief-vermommings-smell; (b) alleen rename `beroepskosten-regime-pb` zonder VenB-aspect — verliest VenB-werk-context | Aftrekbaarheidstest is identiek in PB en VenB (art 49 + cascade verworpen uitgaven art 53-66). Verschil zit in cascade-gevolgen (PB: progressief tarief · VenB: aftrekbeperking + cascade naar VU) wat perfect past in perspectief-as. Pattern: één wettelijk fenomeen × 2 belasting-categorieën = 1 record + 2 perspectieven, niet 2 records. | Analoog blijft te overwegen voor `voorafbetalingen` (OP-PB.B), `roerend-inkomen` (OP-PB.C), `voorheffingen-en-verrekeningen-venb` (OP-PV.A pending). Test: is de wettelijke logica identiek (= perspectief-aanpak) of fundamenteel anders (= apart record)? |

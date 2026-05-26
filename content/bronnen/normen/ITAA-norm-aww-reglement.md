@@ -43,6 +43,15 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-aww-reglement.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt dit document?
+> Het AWW-Reglement is de oorspronkelijke **IAB-norm** (2020) inzake de toepassing van de Antiwitwaswet. Na de ITAA-fusie is de inhoud opgegaan in de [[bronnen/normen/ITAA-norm-aww-geconsolideerd|Geconsolideerde AWW-norm]] — dié norm is vandaag het primaire referentiedocument voor ITAA-leden.
+>
+> Dit document heeft **dezelfde structuur en inhoud** als de geconsolideerde tekst: organisatie (AMLCO), cliëntenonderzoek, risicoanalyse, meldplicht aan CFI, documentatie. Lees de geconsolideerde norm als canoniek startpunt.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
   Norm van het Instituut van de Accountants en de Belastingconsulenten d.d. 31
 maart 2020 inzake de toepassing van de wet van 18 september 2017 tot voorkoming
 van het witwassen van geld en de financiering van terrorisme en tot beperking van
@@ -119,6 +128,10 @@ november 2018, 16 juli 2019, 3 december 2019 en 31 maart 2020 de hiernavolgende 
 aangenomen. Deze werd op 3 april 2020 voor advies aan de Hoge Raad voor de
 Economische Beroepen voorgelegd.
 ## 1. Algemene bepalingen
+
+
+> [!note] Verhouding tot de geconsolideerde norm
+> Dit reglement en de [[bronnen/normen/ITAA-norm-aww-richtlijn-bibf|AWW-Richtlijn BIBF]] zijn de twee brondocumenten van de geconsolideerde AWW-norm. De geconsolideerde tekst werd opgesteld na de fusie tussen IAB en BIBF tot ITAA (september 2020). Voor studiedoeleinden is de geconsolideerde versie de meest toegankelijke ingang.
 
 ## Definities
 

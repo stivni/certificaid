@@ -41,6 +41,19 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-effectennorm.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt deze norm?
+> De effectennorm regelt de opdracht van de beroepsbeoefenaar bij de beoordeling van financiële en boekhoudkundige gegevens in het verslag van het bestuursorgaan, zoals vereist door het WVV bij bepaalde kapitaalverrichtingen. Vijf kernpunten:
+>
+> 1. **Status**: ⚠️ **Nog niet in werking** per april 2026 — gepubliceerd maar inwerkingtreding nog niet bekendgemaakt.
+> 2. **WVV-verrichtingen**: uitgifte van nieuwe aandelen met ongelijke rechten, converteerbare obligaties en inschrijvingsrechten, beperking/opheffing van het voorkeurrecht (WVV art. 5:120-121, 7:178-179, 5:102, 6:87, 7:155, 5:122, 7:180 en 5:130-131, 7:191-193).
+> 3. **Beperkte zekerheid** (niet redelijke): dit is een beoordelingsopdracht (ISRE 2410 of KMO-norm), geen controleopdracht.
+> 4. **Beroepsbeoefenaar**: de commissaris, of bij afwezigheid van commissaris een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant.
+> 5. **Doel**: de algemene vergadering in staat stellen een geïnformeerde beslissing te nemen over de verrichting.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
 Norm inzake de opdracht van de beroepsbeoefenaar in het kader van de beoordeling van het getrouw en voldoende zijn van de financiële en boekhoudkundige gegevens opgenomen in het verslag van het
 
 bestuursorgaan (Wetboek van vennootschappen en verenigingen)
@@ -255,6 +268,10 @@ opzichten getrouw en voldoende zijn om de algemene vergadering voor te en lidmaa
 
 (b) Om overeenkomstig onderhavige norm te rapporteren.
 
+
+> [!warning] Beperkte zekerheid — niet redelijke zekerheid
+> Een klassiek misverstand: de effectennorm vereist een **beperkte** mate van zekerheid (negatieve conclusie), niet een redelijke mate (positief oordeel). Dit is een beoordelingsopdracht conform ISRE 2410 of de KMO-norm. De beroepsbeoefenaar controleert niet de volledigheid van de onderliggende boekhouding, maar beoordeelt of de **gegevens in het verslag van het bestuursorgaan** getrouw en voldoende zijn.
+
 ## II. Algemene bepalingen die van toepassing zijn op alle verrichtingen II.1. Deontologische beginselen
 
 6. De bedrijfsrevisor dient de deontologische beginselen na te leven zoals vastgesteld door de wet van 7 december 2016.
@@ -406,6 +423,10 @@ en boekhoudkundige gegevens ter beschikking zouden moeten worden
 gesteld van een redelijk geïnformeerde aandeelhouder opdat deze een beslissing kan nemen met kennis van zaken. (par. A24).
 
 26. De beroepsbeoefenaar dient het voldoende zijn van de financiële en boekhoudkundige informatie verstrekt door het bestuursorgaan te beoordelen
+
+
+> [!tip] Historische gegevens én toekomstgerichte informatie — aparte werkzaamheden
+> De norm maakt een onderscheid tussen werkzaamheden op historische financiële gegevens (§ III.1.3.1) en op toekomstgerichte financiële informatie zoals prognoses en projecties (§ III.1.3.2). Toekomstgerichte informatie is naar zijn aard subjectief; de beroepsbeoefenaar beoordeelt of de veronderstellingen redelijk en consistent zijn, niet of ze zullen uitkomen.
 
 ## III.1.3.1. Historische financiële en boekhoudkundige gegevens
 

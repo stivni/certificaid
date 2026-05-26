@@ -40,6 +40,17 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-domiciliering.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt deze norm?
+> Domiciliëring (= het verschaffen van een zetel of adres aan een cliënt-entiteit) is toegelaten voor ITAA-leden, maar enkel onder strikte voorwaarden. Drie kernpunten:
+>
+> 1. **Registratieplicht bij FOD Economie geldt niet voor ITAA-leden** — zij zijn al onderworpen aan de AWW en vallen buiten de wet van 29 maart 2018 voor dienstenverleners aan vennootschappen.
+> 2. **Onverenigbaarheid**: de gecertificeerd accountant (en zijn netwerk) mag **geen** domiciliëring aanbieden aan een cliënt waarvoor hij tegelijk een wettelijk voorbehouden opdracht of een contractuele controle- of beoordelingsopdracht uitvoert.
+> 3. **AWW-verplichting**: de domiciliëringsdienst valt onder de antiwitwaswetgeving — cliëntenonderzoek en meldplicht blijven van toepassing.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
                ITAA
         INSTITUTE FOR TAX
      ADVISORS & ACCOUNTANTS
@@ -93,6 +104,10 @@ oefenaar van de beroepsactiviteiten bedoeld in de artikelen 3 en 6 van de wet va
 en dit mits naleving van een aantal voorwaarden, ter bescherming van de deontologische beginselen,
 met inbegrip van onafhankelijkheid en beroepsgeheim. De Raad is van oordeel dat het opportuun
 is om deze vast te leggen via een norm.
+
+
+> [!note] ITAA-leden zijn vrijgesteld van de registratie bij FOD Economie
+> De wet van 29 maart 2018 verplicht "dienstenverleners aan vennootschappen" (waaronder domicilieringsdiensten) zich te registreren bij de FOD Economie. ITAA-leden (gecertificeerd accountant, gecertificeerd belastingadviseur, accountant, fiscaal accountant en stagiairs) zijn **vrijgesteld** van die registratie — zij vallen onder het ITAA-toezicht als antiwitwasmechanisme. Dit geldt ook voor erkende rechtspersonen.
 
 ## II. Grondslag van deze norm
 De Raad van het Instituut neemt deze norm krachtens zijn bevoegdheid die hem toegekend is
@@ -191,6 +206,10 @@ worden vastgelegd die nodig zijn voor de werking van de gedomicilieerde entiteit
 3.7. De gedomicilieerde entiteit heeft zijn vestiging(en) in de Kruispuntbank van Ondernemingen
 geregistreerd5. Het is aan de beroepsbeoefenaar om erop toe te zien dat deze verplichting door
 de gedomicilieerde entiteit wordt nageleefd.
+
+
+> [!warning] Domiciliëring + controle-opdracht = verboden combinatie
+> De meest praktische beperking: een gecertificeerd accountant (en zijn netwerk) **mag niet** tegelijk domiciliëren voor een cliënt én een controleopdracht uitvoeren voor diezelfde cliënt. Dit geldt voor zowel wettelijk voorbehouden opdrachten als contractuele controle- of beoordelingsopdrachten. De onafhankelijkheid zou in gevaar komen. Samenstellingsopdrachten en zuiver adviserende opdrachten vallen hier buiten.
 
 ## IV. Inwerkingtreding en overgangsmaatregel
 Deze norm is toepasselijk op iedere overeenkomst tot domiciliëring die wordt gesloten tussen cliënt

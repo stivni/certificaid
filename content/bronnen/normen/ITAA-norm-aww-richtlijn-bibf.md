@@ -43,6 +43,15 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-aww-richtlijn-bibf.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt dit document?
+> De AWW-Richtlijn BIBF is het pendant van het AWW-Reglement voor de ex-BIBF-leden (erkende boekhouders-fiscalisten). Na de oprichting van het ITAA (september 2020) zijn deze leden opgegaan in het ITAA, en is de inhoud van deze richtlijn samengevoegd met de IAB-norm in de [[bronnen/normen/ITAA-norm-aww-geconsolideerd|Geconsolideerde AWW-norm]].
+>
+> De structuur en inhoud zijn inhoudelijk identiek aan het AWW-Reglement. Voor studiedoeleinden is de **geconsolideerde norm** de aanbevolen ingang — die leest u voor beide groepen tegelijk.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
 Richtlijn van het Beroepsinstituut van erkende Boekhouders en Fiscalisten
  van 31 maart 2020 inzake de toepassing van de wet van 18 september
  2017 tot voorkoming van het witwassen van geld en de financiering van
@@ -132,6 +141,10 @@ Organisatie van de beroepsbeoefenaar wat de compliancefuncties betreft . 7
 ## Bijlage I. Variabelen ten minste in overweging te nemen in de integrale
 
 ## 1. Algemene bepalingen
+
+
+> [!note] Ex-BIBF-leden en de fusie
+> Vóór de ITAA-fusie (september 2020) hadden IAB-leden en BIBF-leden elk hun eigen AWW-regelgeving. Inhoudelijk waren ze identiek, maar formeel apart. Na de fusie gelden beide als basis voor de geconsolideerde norm. Voor een ITAA-stagiair volstaat het de geconsolideerde versie te kennen.
 
 ## Definities
 

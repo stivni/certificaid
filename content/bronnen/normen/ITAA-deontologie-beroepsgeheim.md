@@ -49,6 +49,19 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-deontologie-beroepsgeheim.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt dit document?
+> Dit document is een Q&A-gids over het beroepsgeheim van de ITAA-beroepsbeoefenaar. Vijf kernpunten:
+>
+> 1. **Strafrechtelijke basis**: Sw. art. 458 — schending is een misdrijf (1–3 jaar gevangenis + boete).
+> 2. **Breed toepassingsgebied**: alle gecertificeerde accountants, belastingadviseurs, accountants, fiscale accountants én stagiairs — ook rechtspersonen en hun personeel.
+> 3. **Geen vrijwillige onthulling**, ook niet met akkoord van de klant — het beroepsgeheim beschermt het algemeen belang, niet enkel het cliëntbelang.
+> 4. **Uitzonderingen zijn beperkt en specifiek**: verhoor door rechter, CFI-meldingsplicht AWW, ondernemingsrechtbank bij continuïteitsrisico, ITAA (tuchtprocedure).
+> 5. **Fiscale administratie krijgt geen uitzondering** — maar ITAA beslist bij betwisting (art. 334 WIB).
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
 # Het beroepsgeheim van de accountant en de belastingadviseur
 
 Het beroepsgeheim is geen trofee waarmee men pronkt. Het is noch een privilege, noch een voorrecht, maar een last die de gewone discretieplicht overstijgt en de accountant en de belastingadviseur kan blootstellen aan de woede van de openbare autoriteiten wanneer ze dit als een hindernis ervaren. Het is een gewetenszaak die de accountant of de belastingadviseur ertoe aanzet te peilen naar het doel van zijn opdracht, verder dan het specifieke belang van de klant.
@@ -119,8 +132,16 @@ Wanneer de onderzoeksrechter zich niet ter plaatse begeeft, wil de praktijk dat,
 De beoordeling van het beroepsgeheim door de onderzoeksrechter kan worden gecontroleerd door de onderzoeks- en vonnisgerechten53. De accountant of de belastingadviseur kan de klant waarop de onderzoeksmaatregel betrekking heeft, verwittigen dat naar aanleiding van een huiszoeking er in het strafdossier elementen worden opgenomen, waarvan hij van oordeel is dat deze onder het beroepsgeheim vallen. Tijdens het onderzoek kunnen de accountant of de belastingadviseur, evenals de klant waarop het onderzoek betrekking heeft, de opheffing van de inbeslagname vragen bij de onderzoeksrechter. Voor de kamer van inbeschuldigingstelling kan beroep worden ingesteld tegen de beslissing van de onderzoeksrechter met betrekking tot dit verzoek.54 De kwestie van het beroepsgeheim kan ook aangehaald worden tijdens de regeling van de rechstpleging voor het onderzoeksgerecht.
 #### Melding aan de ondernemingsrechtbank met het oog op het opsporen van ondernemingen in moeilijkheden
 Artikel XX.23., § 3 van het Wetboek van economisch recht bepaalt: “De externe accountant, de externe erkend boekhouder, de externe erkend boekhouder-fiscalist en de bedrijfsrevisor die in de uitoefening van hun opdracht gewichtige en overeenstemmende feiten vaststellen die de continuïteit van de economische activiteit van de schuldenaar in het gedrang kunnen brengen, lichten deze laatste hiervan schriftelijk op een omstandige wijze in, in voorkomend geval via zijn bestuursorgaan. Indien de schuldenaar binnen een termijn van een maand vanaf die kennisgeving niet de nodige maatregelen treft om de continuïteit van de economische activiteit voor een minimumduur van twaalf maanden te waarborgen, kan de externe accountant, de externe erkend boekhouder, de externe erkend boekhouder-fiscalist of de bedrijfsrevisor de voorzitter van de ondernemingsrechtbank daarvan schriftelijk inlichten. In dat geval is artikel 458 van het Strafwetboek niet van toepassing.”
+
+> [!warning] Verhoor door rechter ≠ verhoor door politie
+> Dit is een klassieke examenval: het beroepsgeheim geldt **niet** als uitzondering voor een verhoor door een magistraat van het openbaar ministerie of een politieambtenaar — zelfs niet als die gedelegeerd zijn door een onderzoeksrechter. Enkel een verhoor **door een rechter** (onderzoeksrechter, strafrechter, burgerlijke rechter) is een wettelijke uitzondering. De accountant mag een politieverhoor weigeren.
+
 ### 10. Is het beroepsgeheim van toepassing ten aanzien van de Cel voor Financiële Informatieverwerking (CFI)?
 Artikelen 47 en volgende alsook artikel 53 van de wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme bepalen in welke gevallen de externe leden van het ITAA vermoedens moeten melden aan de CFI55. Krachtens artikel 57 van deze wet vormt deze meldingverplichting een wettelijke afwijking op het beroepsgeheim. Het lid geniet niet enkel van een strafrechtelijke immuniteit voor deze aangifte. Er kan hem evenmin burgerlijke of tuchtrechtelijke aansprakelijkheid ten laste worden gelegd.
+
+> [!note] CFI-melding: wettelijke plicht + strafrechtelijke immuniteit
+> De AWW (art. 47 e.v. + art. 53) verplicht externe ITAA-leden verdachte transacties te melden aan de CFI. Deze meldingsplicht is een wettelijke **uitzondering** op het beroepsgeheim (art. 57 AWW). Bonus: de beroepsbeoefenaar die te goeder trouw meldt, is vrijgesteld van burgerlijke, tuchtrechtelijke én strafrechtelijke aansprakelijkheid. Zie ook [[bronnen/normen/ITAA-norm-aww-geconsolideerd|AWW-norm (geconsolideerd)]].
+
 ### 11. Welke gevolgen heeft het beroepsgeheim ten aanzien van de fiscale administratie?
 Geen uitzondering op het beroepsgeheim
 De fiscale administratie beschikt over verstrekkende controlebevoegdheden56. Sommige van deze bevoegdheden kunnen betrekking hebben op een derde en kunnen bijgevolg rechtstreeks worden uitgeoefend ten aanzien van de accountant of de belastingadviseur van de belastingplichtige57. Deze controlebevoegdheden brengen evenwel geen enkele uitzondering op het beroepsgeheim met zich mee. Hieruit vloeit voort dat het beroepsgeheim een hindernis vormt voor de kennisname door de fiscale administratie van documenten die onder het beroepsgeheim vallen.
@@ -132,11 +153,23 @@ De beroepsbeoefenaar kan zich niet verschuilen achter zijn beroepsgeheim om te o
 Op het vlak van inkomstenbelastingen, wanneer de accountant of de belastingadviseur het beroepsgeheim inroept, is de administratie, wanneer ze niet wil zwichten, ertoe gehouden om krachtens artikel 334 van het WIB, de betwisting voor het ITAA aanhangig te maken.
 In zijn beslissing moet het ITAA oordelen of, en gebeurlijk in welke mate, het verzoek van de administratie verzoenbaar is met het eerbiedigen van het beroepsgeheim. De beslissing van het ITAA bindt zowel de belastingadministratie als de accountant of de belastingadviseur62. Wanneer het ITAA het beroepsgeheim bevestigt, moet de administratie inbinden en zich tevreden stellen met de elementen die ze tot haar beschikking heeft. Wanneer het ITAA van oordeel is dat de elementen niet onder het beroepsgeheim vallen, kan de accountant of de belastingadviseur niet meer weigeren om de documenten of de informatie die door de belastingadministratie gevraagd is, over te maken.63
 Op het vlak van de btw bestaat er geen enkele wettelijke verplichting voor de administratie om de kwestie van het beroepsgeheim door het ITAA te laten beslechten. Bijgevolg, wanneer er naar aanleiding van een btw-controle over het beroepsgeheim een betwisting blijft bestaan tussen de administratie en de accountant of de belastingadviseur, is het de taak van de rechter om hierover een beslissing te nemen.
+
+> [!tip] Fiscale administratie: breed controlekader, maar geen doorbraak van het beroepsgeheim
+> De fiscale administratie heeft vergaande controlebevoegdheden (art. 315 e.v. WIB; art. 60 e.v. BTW-Wetboek), maar die geven haar **geen uitzondering op het beroepsgeheim**. Praktisch:
+>
+> - Dagboeken, rekeningen en belastingaangiften van de klant vallen **niet** onder het beroepsgeheim (de klant moet deze bewaren krachtens boekhoudwet).
+> - Interne nota's, briefwisseling en adviezen van de accountant vallen wél onder het beroepsgeheim.
+> - Bij betwisting over inkomstenbelastingen beslist **het ITAA** (art. 334 WIB) — bindend voor beide partijen. Bij btw moet de rechter oordelen.
+
 ### 12. Is het beroepsgeheim van toepassing ten aanzien van het ITAA?
 Het Hof van Cassatie is van oordeel dat het beroepsgeheim niet mag bestaan ten aanzien van de tuchtrechtelijke autoriteiten. Deze rechtspraak is ingegeven door de volgende motieven64:
 De beoefenaar van een vrij beroep is gehouden tot een oprechtheids- en loyaliteitsplicht ten aanzien van zijn tuchtoverheid65,
 De tuchtoverheid is zelf gehouden tot het beroepsgeheim66.
 Tot slot dient hieraan te worden toegevoegd dat de tuchtrechtelijke procedure niet gericht is op de klant waarvan de vertrouwelijke mededelingen nu net beschermd worden door het beroepsgeheim van de accountant en van de belastingadviseur.
+
+> [!note] ITAA-tuchtprocedure: beroepsgeheim wijkt
+> Ten aanzien van de tuchtrechtelijke autoriteiten (ITAA) geldt het beroepsgeheim **niet**. Gronden: (1) de beoefenaar heeft een oprechtheids- en loyaliteitsplicht ten aanzien van zijn tuchtoverheid; (2) het ITAA zelf is gehouden tot het beroepsgeheim. De tuchtprocedure richt zich niet op de klant maar op de beroepsbeoefenaar zelf.
+
 ### 13. Is het beroepsgeheim van toepassing ten aanzien van de curator van de klant?
 De bedrijfsleider van een onderneming die failliet is verklaard, verliest zijn beheer- en vertegenwoordigingsbevoegdheid, die overgenomen wordt door de curator die aangesteld is door de ondernemingsrechtbank.67 Wel handelt de curator in het belang van de schuldeisers. In die hoedanigheid kan hij zich keren tegen de gefailleerde of zijn bedrijfsleider. Ook kan hij bepaalde feiten meedelen aan de gerechtelijke autoriteiten. Hieruit kan worden afgeleid dat de elementen die onder het beroepsgeheim vallen, niet kunnen overgemaakt worden aan de curator van de klant.
 

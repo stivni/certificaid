@@ -42,6 +42,19 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-permanente-vorming.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt deze norm?
+> De Norm Permanente Vorming (art. 39 Wet-ITAA) legt de uurverplichting en de categorieën-eisen vast. Vijf kernpunten:
+>
+> 1. **Uren**: minimum **120 uur per driejarige periode**, waarvan minstens **20 uur per kalenderjaar**.
+> 2. **Categorieën**: min. **70%** categorie A (extern erkende activiteiten) en max. **30%** categorie B (interne kantoorseminaries e.d.).
+> 3. **Aandachtsgebied-eis**: minstens **84 van de 120 uur** moeten betrekking hebben op aandachtsgebieden 1 (beroepskennis), 2 (deontologie/AWW) en 4 (kantoororganisatie).
+> 4. **Jaarlijks verslag**: indienen ten laatste **2 maanden** na het afsluiten van het kalenderjaar; verantwoordingsstukken 10 jaar bewaren.
+> 5. **Sanctie**: bij inbreuk → tuchtstraf (art. 92 Wet-ITAA); bij geen gevolg aan terechtwijzing → intrekking van de hoedanigheid.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
       Norm met betrekking tot
       de permanente vorming
 
@@ -127,6 +140,10 @@ SAMEN MET DE BIJLAGEN.
  Ingeval van bewezen overmacht of indien het lid van het Instituut pas in de loop van het jaar
  (her)ingeschreven wordt in het openbaar register, worden de vereiste uren permanente vorming pro
  rata temporis van het lopende kalenderjaar bepaald.
+
+
+> [!note] Minimum 20 uur per jaar — naast de driejarige eis
+> Er zijn twee drempelwaarden tegelijk: de 120 uur over drie jaar én minstens 20 uur per kalenderjaar. De jaarlijkse minimum van 20 uur is een aparte vereiste — het is niet voldoende om alles in één jaar te concentreren. Pro-rata: bij (her)inschrijving in de loop van het jaar worden de vereiste uren proportioneel berekend.
 
 ## Artikel 4 - Algemene voorwaarden van de vormingsactiviteiten
 
@@ -317,6 +334,10 @@ c) voor de vormingsactiviteiten voorzien in artikel 6, §1, 2° van deze norm, m
  kalenderjaren. Betreffende de te respecteren uren per kalenderjaar, zoals voorzien in artikel 3
  van deze norm, zal de controle worden uitgevoerd op basis van het afgelopen kalenderjaar.
 
+
+> [!warning] Stagiairs worden gecontroleerd door de Stagecommissie, niet de Raad
+> De Raad controleert permanente vorming van gewone leden. Voor **stagiairs** is het de **Stagecommissie** die bevoegd is — de controle loopt via de stagestructuur. Sancties bij stagiairs worden op voorstel van de Stagecommissie door de Raad genomen.
+
 ## Artikel 10 - Begeleiding
 
  Indien uit een controle op de permanente vorming, zoals bedoeld in artikel 9 van deze norm, blijkt dat
@@ -344,6 +365,10 @@ c) voor de vormingsactiviteiten voorzien in artikel 6, §1, 2° van deze norm, m
  Wanneer de Raad van het Instituut vaststelt dat de betrokkene binnen drie maanden na de
  terechtwijzing geen gevolg geeft aan de terechtwijzing, kan de Raad van het Instituut de
  hoedanigheid van de betrokkene intrekken.
+
+
+> [!warning] Terechtwijzing zonder gevolg leidt tot intrekking van de hoedanigheid
+> De sanctiestap verloopt in twee fases: (1) terechtwijzing door de Raad; (2) geen gevolg binnen drie maanden → **intrekking van de hoedanigheid** (art. 85, 3° Wet-ITAA). Dit is een ernstige sanctie die de beroepsbeoefenaar effectief uit het register verwijdert. Tuchtstraffen (art. 92) lopen parallel en kunnen ook bij een eerste inbreuk worden opgelegd.
 
 ## Artikel 12 - Publicatie vormingsactiviteiten
 

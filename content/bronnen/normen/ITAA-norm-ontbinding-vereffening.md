@@ -42,6 +42,18 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-ontbinding-vereffening.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt deze norm?
+> De norm regelt de opdracht van de beroepsbeoefenaar bij vrijwillige ontbinding en vereffening van vennootschappen (WVV art. 2:69 e.v.) en bij sluiting van de vereffening (art. 2:100 WVV). Vier kernpunten:
+>
+> 1. **Twee luiken**: (a) staat van activa en passiva bij ontbindingsvoorstel (WVV art. 2:71) — redelijke zekerheid / positief oordeel; (b) cijfermatig verslag bij sluiting vereffening (WVV art. 2:100) — enkel commissaris bevoegd.
+> 2. **Redelijke zekerheid** (niet beperkte): dit is een *controleopdracht*, niet enkel een beoordelingsopdracht. De staat wordt gecontroleerd conform ISA's (voor commissarissen) of de KMO-norm (voor gecertificeerde accountants en bedrijfsrevisoren bij KMO's).
+> 3. **Commissaris van rechtswege**: als er een commissaris is, is die van rechtswege belast. Geen commissaris: gecertificeerd accountant of bedrijfsrevisor kan worden aangesteld.
+> 4. **Verbod**: de beroepsbeoefenaar die het verslag bij ontbinding heeft opgesteld, **mag niet** als vereffenaar worden aangesteld van diezelfde vennootschap.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
 Ontwerp
 
 ## Norm inzake de opdracht van de beroepsbeoefenaar bij de ontbinding en
@@ -274,6 +286,10 @@ houdende toelichtingen, in alle van materieel belang zijnde opzichten, een overe
 heeft een redelijke mate van zekerheid te verschaffen over de vraag of het
 door de vereffenaar(s) opgesteld cijfermatig verslag, in alle van materieel belang zijnde opzichten, in overeenstemming met de vereffeningsrekeningen is (par. A8).
 
+
+> [!warning] Ontbindingsnorm = redelijke zekerheid (controleopdracht), niet beperkte zekerheid
+> In tegenstelling tot de omzettingsnorm (beperkte zekerheid) vergt de ontbinding/vereffening-norm **redelijke zekerheid** over de staat van activa en passiva — dit is een volwaardige controleopdracht. De beroepsbeoefenaar moet ISA's toepassen (commissaris) of de KMO-norm (gecertificeerd accountant / bedrijfsrevisor bij KMO). De reikwijdte is materieel ruimer dan een beoordelingsopdracht.
+
 ## 19. Om te kunnen overgaan tot het verzoeken om inlichtingen en om zijn
 
 controlewerkzaamheden te kunnen uitvoeren met als doel het risico van
@@ -419,6 +435,10 @@ inbrengen en de uitkering van een eventueel vereffeningssaldo aan de aandeelhoud
 gecontroleerd en vermeldt in zijn oordeel of het cijfermatig verslag over de vereffening, in alle materieel belang zijnde opzichten, in overeenstemming met de vereffeningsrekeningen is.
 
 38. De opdracht van de commissaris bestaat er niet in zich uit te spreken over rechtmatig en billijk zijn (“no fairness opinion”).
+
+
+> [!note] Staat van activa en passiva in continuïteit — uitzonderingsregel
+> De norm onderscheidt twee opstellingsgrondslagen: liquidatiewaarde (normaal bij ontbinding) en continuïteit. Continuïteit is alleen toegestaan als de activiteiten worden voortgezet door een overnemer of bij partiële overdracht. De beroepsbeoefenaar controleert of de gekozen grondslag geschikt is — dit is een substantieel oordeelsvormingsaspect.
 
 ## III. Schriftelijke bevestigingen
 

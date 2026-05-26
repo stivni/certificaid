@@ -40,6 +40,18 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-aww-procedurereglement.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt dit document?
+> Dit procedurereglement regelt hoe het ITAA AWW-inbreuken van haar leden onderzoekt en sanctioneert — op grond van **art. 118 AWW** (Antiwitwaswet 2017). Vier stappen:
+>
+> 1. **Onderzoek**: de Raad of voorzitter/ondervoorzitter voert het onderzoek; de betrokkene krijgt 30 dagen om schriftelijk verweer te voeren.
+> 2. **Maatregelen** (art. 3): publieke verklaring · bevel tot staking · tijdelijke of definitieve schrapping uit het register · managementverbod.
+> 3. **Bekendmaking**: de maatregel wordt nominaal op de ITAA-website gepubliceerd en blijft 5 jaar online.
+> 4. **Beroep**: beroep bij de Commissie van Beroep binnen 30 dagen (art. 8); hoger beroep schorst de tenuitvoerlegging maar niet de bekendmaking.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
   Procedurereglement voor het opleggen van maatregelen
 in het kader van artikel 118, §1 van de antiwitwaswet
 
@@ -211,6 +223,10 @@ omstandigheden:
 
 Kennisgeving van de beslissing van de Raad
 
+
+> [!warning] AWW-sancties ≠ gewone tuchtsancties
+> De AWW-maatregelen (publieke verklaring, schrapping, managementverbod) zijn **geen tuchtmaatregelen** in de klassieke zin. Artikel 7 stelt expliciet dat een AWW-maatregel de eventuele tuchtrechtelijke gevolgen onverlet laat — een beroepsbeoefenaar kan dus tegelijk een AWW-maatregel én een tuchtrechtelijke sanctie oplopen voor hetzelfde feit. Bovendien is er geen geleidelijkheid vereist: de Raad kan ook bij een eerste inbreuk direct voor de zwaarste maatregel kiezen.
+
 ## Artikel 4
 
 4.1. De Raad geeft aan de betrokkene kennis van iedere beslissing per aangetekende
@@ -260,6 +276,10 @@ een termijn van vijf jaar na de bekendmaking op de website van het Instituut sta
 5.6. In de bekendmaking opgenomen persoonsgegevens worden op de website van het
 Instituut echter niet langer bewaard dan noodzakelijk is overeenkomstig de toepasselijke
 regelgeving betreffende de bescherming van persoonsgegevens.
+
+
+> [!note] Bekendmaking is de regel — anonimiteit is de uitzondering
+> De standaard is **nominale bekendmaking** op de ITAA-website zodra de betrokkene in kennis is gesteld. Anonimisering of uitstel is enkel mogelijk als bekendmaking onevenredig zou zijn. De bekendmaking blijft 5 jaar online, maar persoonsgegevens worden niet langer bewaard dan GDPR vereist.
 
 ## Artikel 6
 

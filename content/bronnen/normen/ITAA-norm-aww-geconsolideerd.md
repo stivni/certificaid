@@ -43,6 +43,18 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-aww-geconsolideerd.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt deze norm?
+> De geconsolideerde AWW-norm is de norm voor ITAA-leden (vroeger IAB + BIBF) bij de toepassing van de Antiwitwaswet (AWW, 18 september 2017). Vier assen:
+>
+> 1. **Organisatie**: elk kantoor moet een AMLCO aanduiden; bij ≥ 10 beroepsbeoefenaars moet de AMLCO een andere persoon zijn dan de verantwoordelijke op het hoogste niveau. Stagiairs mogen nooit AMLCO zijn.
+> 2. **Cliëntenonderzoek**: identificatie + verificatie van cliënt, lasthebbers en uiteindelijke begunstigden (UBO); risicogebaseerd — vereenvoudigd bij laag risico, verhoogd bij hoog risico (PEP, derde landen, ...).
+> 3. **Onderzoek van verrichtingen**: atypische verrichtingen analyseren via AMLCO; bij vermoeden van WG/FT → **meldplicht aan CFI** (art. 47 AWW).
+> 4. **Documentatie**: 10 jaar bewaren.
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
 Geconsolideerde tekst door het Instituut van de Belastingadviseurs en de Accountants (ITAA) van de norm van het IAB en de richtlijn van het BIBF inzake de toepassing van de wet van 18 september 2017 tot
 
 voorkoming van het witwassen van geld en de financiering van terrorisme en tot beperking van het gebruik van contanten
@@ -138,6 +150,14 @@ Interne procedures 2.8. Alle in de Wet vermelde gedragslijnen, procedures en int
 
 Om uit te maken welke personen geviseerd zijn en wat de inhoud en frequentie van voormelde sensibilisering en opleiding is, dient die de medewerkers verrichten voor de cliënten, de verrichtingen die deze uitvoeren,
 
+
+> [!note] AMLCO — drie drempelwaarden om te kennen
+> - **Elke** beroepsbeoefenaar: verplicht een AMLCO aanduiden.
+> - **≥ 10 beroepsbeoefenaars** in het kantoor: AMLCO moet een **andere** persoon zijn dan de verantwoordelijke op het hoogste niveau.
+> - **≥ 100 beroepsbeoefenaars** in kantoor/netwerk: onafhankelijke **auditfunctie** verplicht.
+>
+> Stagiairs zijn expliciet uitgesloten van de AMLCO-rol en de verantwoordelijke op het hoogste niveau.
+
 ## 3. Algemene risicobeoordeling op te maken door de beroepsbeoefenaar
 
 3.3.
@@ -204,6 +224,10 @@ Nakoming van de waakzaamheidsverplichtingen door derde zaakaanbrengers 4.10. De 
 
 De mogelijkheid om de bovenvermelde verplichtingen  te laten uitvoeren door een derde zaakaanbrenger is echter enkel mogelijk als deze laatste persoonlijk de identificatie heeft
 
+
+> [!tip] Vereenvoudigd vs. verhoogd cliëntenonderzoek
+> De norm werkt risicogebaseerd: de beroepsbeoefenaar bepaalt risicocategorieën en koppelt daar waakzaamheidsmaatregelen aan. Verhoogde waakzaamheid is verplicht bij o.a. PEP's (politiek prominente personen), cliënten in derde landen met hoog risico, en anonieme of ondoorzichtige structuren. Weigering van de opdracht is verplicht als identificatie niet mogelijk is.
+
 ## 5. Onderzoek van de verrichtingen
 
 Onderkennen van atypische verrichtingen 5.1. De beroepsbeoefenaar brengt de volgende elementen schriftelijk ter kennis van de medewerkers bedoeld in punt 2.10, tweede lid van deze geconsolideerde tekst van de norm van het IAB en de richtlijn van het BIBF:
@@ -225,6 +249,10 @@ Op basis van deze nieuwe beoordeling en van het in punt 4 van deze geconsolideer
 - in toepassing van de artikelen 47 tot 54 van de Wet,  een melding te doen aan de CFI, rechtvaardigen;
 
 - en, in het algemeen, alle informatie in geconsolideerde tekst van de norm van het IAB en de richtlijn van het BIBF opgelegde verplichtingen.
+
+
+> [!warning] Meldplicht aan CFI doorbreekt het beroepsgeheim
+> Wanneer de AMLCO (of de beroepsbeoefenaar zelf) een vermoeden van WG/FT meldt aan de CFI, geldt dit als een wettelijke uitzondering op het beroepsgeheim (AWW art. 57). De beroepsbeoefenaar die te goeder trouw meldt is vrijgesteld van burgerlijke, tuchtrechtelijke en strafrechtelijke aansprakelijkheid. Na de melding herbeoordeelt de beroepsbeoefenaar of de zakelijke relatie kan worden voortgezet. Zie ook [[bronnen/normen/ITAA-deontologie-beroepsgeheim|Beroepsgeheim §10]].
 
 ## 6. Documentatie en bewaring van documenten
 
