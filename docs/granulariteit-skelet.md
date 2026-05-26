@@ -25,7 +25,8 @@ controle                                 [K]   *hernoemd van `audit-en-assurance
 ├── beoordelings-opdracht                [K]
 ├── isae-opdrachten                      [K]
 ├── overeengekomen-procedures            [K]
-└── interne-controle                     [K]   ✅ uitgewerkt
+├── interne-controle                     [K]   ✅ uitgewerkt
+└── bijzondere-mandaten                  [K]   ✅ uitgewerkt   *shared thema beroepsbeoefening — wettelijke voorbehouden opdrachten per WVV-verrichting*
 vennootschapsrecht                       [K]
 beroep-en-deontologie                    [K]
 bedrijfseconomie-en-management           [K]
@@ -197,7 +198,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | controle-opdracht | 7 | PO 1.6 | [§Controle-opdracht-cluster](#controle-opdracht-cluster) |
 | interne-controle | 7 + 3 shared | PO 1.7 | [§Interne-controle-cluster](#interne-controle-cluster) |
 | ondernemingsvormen | 9 | PO 3.0.I + taak.1 + cross PO 1.1 + 2.3 | [§Ondernemingsvormen-cluster](#ondernemingsvormen-cluster) |
-| **beroepsbeoefening** | **11 + 2 shared** (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | **PO 4.0.I + taken 1-3** | [**§Beroepsbeoefening-cluster**](#beroepsbeoefening-cluster) |
+| beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
+| **bijzondere-mandaten** | **1** (klein record, detail bij Gebeurtenissen) | **PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C** | [**§Bijzondere-mandaten-cluster**](#bijzondere-mandaten-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -1042,6 +1044,88 @@ beroepsbeoefening                             [thema-cluster onder beroep-en-deo
 
 Alle 6 vragen passen door de tree. **Belangrijke bevestigingen**: (a) AML-bundeling werkt — 2 testvragen (vr33 + vr6) raken verschillende sub-secties van `antiwitwaspreventie` zonder forceren; (b) `gecertificeerd-accountant` als nieuw record bewijst zijn nut (vr K1 onverenigbaarheden + vr K5 stagiair-statuut); (c) shared records (`onafhankelijkheid` + `kwaliteitsmanagement-opdracht`) leveren cross-cluster-coverage zonder duplicatie; (d) `beroepsaansprakelijkheid`-rename (van `aansprakelijkheid-accountant-revisor`) houdt stand (verzekering-aspect in vr K4).
 
+**Mapping-actie 2026-05-26**: `gecertificeerd-accountant` krijgt sub-sectie `#monopolieopdrachten` met cross-link naar `bijzondere-mandaten` (= 6e sub-Kader controle-discipline) — wettelijke voorbehouden opdrachten zijn statuut-aspect dat cross-leeft naar controle-discipline.
+
+### Bijzondere-mandaten-cluster
+
+Thema: `bijzondere-mandaten`. *6e sub-Kader van `controle`-discipline (toegevoegd 2026-05-26 op user-vraag). **Shared thema** met `beroepsbeoefening`-cluster (wettelijk monopolie-aspect leeft daar via `gecertificeerd-accountant#monopolieopdrachten`). Categorisch begrip met klein hoofdrecord; concrete uitvoering per type woont als `accountant_perspectieven[].audit` op de betrokken Gebeurtenis-records (Regel J + perspectief-vs-record-principe). Lost PO 3.0.taak.3 + 3.0.IV.A op + scherpt OP-EC.E mapping-actie aan.*
+
+```
+bijzondere-mandaten                           [sub-Kader van `controle`, 1 record]
+└── bijzondere-mandaten                       [R + K, hoofdrecord — klein, categorisch]
+    ▸ #definitie + onderscheid met commissaris-opdracht (eenmalig vs doorlopend)
+    ▸ #wettelijk-regime (wet 17 maart 2019 + WVV per type)
+    ▸ #context — bij vennootschappen ZONDER commissaris (= klein/middelgroot per `vennootschap-groottecategorieen`)
+    ▸ #types-vergelijkingstabel (cross-relaties naar Gebeurtenissen):
+        - inbreng-in-natura (WVV 5:133/7:179) → ITAA-norm-effectennorm
+        - quasi-inbreng (WVV 5:138/7:8) → ITAA-norm-effectennorm
+        - inkoop-eigen-aandelen (controle netto-actief + uitkeringstest)
+        - kapitaalvermindering-aanzuivering-verlies → WVV-procedure
+        - fusie · splitsing · partiële-splitsing → ITAA-norm-fusie-splitsing
+        - omzetting-vennootschap → ITAA-norm-omzetting-vennootschap
+        - ontbinding-vereffening (boekenstaat + continuïteits-evaluatie) → ITAA-norm-ontbinding-vereffening
+    ▸ #verslag-componenten-gedeeld (verwijst naar `controleverklaring#andere-verslagstypes`)
+    ▸ #honoraria-en-transparantie-discipline (ITAA-norm)
+    ▸ #aanvaardingsproces (overlap met `opdrachtaanvaarding-en-opdrachtbrief`)
+```
+
+**Cross-cluster**:
+- `gecertificeerd-accountant` (beroepsbeoefening) — uitvoerder bij vennootschap zonder commissaris; sub-sectie `#monopolieopdrachten` cross-link
+- `commissaris` (beroepsbeoefening ⏳) — alternatief uitvoerder als die wel benoemd is
+- `controleverklaring#andere-verslagstypes` (controle-opdracht) — verslag-vorm-overzicht, cross-link hierheen
+- `vennootschap-groottecategorieen` (ondernemingsvormen) — bepaalt commissaris-trigger → bepaalt wie het mandaat uitvoert
+- `opdrachtaanvaarding-en-opdrachtbrief` (beroepsbeoefening) — overlap aanvaardingsproces
+- Alle 8 Gebeurtenis-records (zie types-tabel) — primair-detail van uitvoering woont daar via `accountant_perspectieven[].audit`
+
+**Perspectief-mapping-actie** (verfijning van OP-EC.E, voorheen "audit-perspectief toevoegen met revisor-verslag-vereiste"):
+
+Voor elke Gebeurtenis-record die een bijzonder mandaat triggert, voeg `accountant_perspectieven[]`-entry toe met:
+- `rol: auditor` (of `accountant` indien geen commissaris)
+- `perspectief: audit`
+- Kern-element met **cross-link naar `bijzondere-mandaten`** (categorisch begrip)
+- **Specifieke ITAA-norm-pin** (per type — zie types-tabel)
+- Oordeel-onderwerp specifiek voor deze verrichting
+- Verslag-componenten specifiek voor deze verrichting (gedeelde elementen via cross-link)
+
+Voorbeeld `kapitaalverhoging-in-natura.accountant_perspectieven`:
+```
+- rol: auditor
+  perspectief: audit
+  elementen:
+    - kern: "Bijzonder mandaat: revisor-verslag bij inbreng-in-natura"
+      relaties: [{soort: cross-link, target: bijzondere-mandaten}]
+    - kern: "ITAA-norm: ITAA-norm-effectennorm (waar van toepassing)"
+    - kern: "Oordeel-onderwerp: waardering van de inbreng + redelijkheid van het aantal toegekende aandelen"
+    - kern: "Verslag-componenten: omschrijving inbreng · waarderingsmethode · oordeel · waarschuwingsclausules"
+```
+
+**Schrappen als zelfstandig record**:
+- (geen — `bijzondere-mandaten` is een nieuw concept dat niet bestond als zelfstandig record; eerdere `bijzondere-verslagen-vennootschapsverrichtingen`-record is al weg-gemapt naar Gebeurtenissen — zie OP-EC.E)
+
+**Triangulatie 2026-05-26**: 
+- PO 3.0.taak.3 + PO 3.0.IV.A + cross PO 1.6.IV.C (= "andere verslagstypes" sub-sectie van `controleverklaring`)
+- Geen bestaand record met deze precieze scope — concept verspreid over 8 Gebeurtenis-records + sub-sectie van `controleverklaring` zonder centraal huis
+- 1 nieuw record → primair-thuis voor de **categorische dimensie** van bijzondere mandaten
+
+**Bronnen-pin**: 
+- ✅ ITAA-norm-fusie-splitsing (trusted)
+- ✅ ITAA-norm-ontbinding-vereffening (trusted)
+- ✅ ITAA-norm-omzetting-vennootschap (trusted)
+- ✅ ITAA-norm-effectennorm (trusted)
+- ⏳ Wet 17 maart 2019 (basiswet beroep) — te valideren in resources
+
+**Test-case-validatie** (2026-05-26): aansluiting op 2 PO 1.6-test-cases die we al deden:
+
+| Vraag | Concept | Tree-pad (incl. nieuw cluster) | Resultaat |
+|---|---|---|---|
+| 2013-1-vr16 | externe accountant bij ontbinding (staat A/P + continuïteit) | `ontbinding-vereffening` (⏳ Geb) + `bijzondere-mandaten` (categorisch — type ontbinding) + `accountant_perspectieven[].audit` op Gebeurtenis met ITAA-norm-ontbinding-vereffening cross | ✅ (nu ÉCHT volledig — categorisch begrip + concrete uitvoering apart vindbaar) |
+| 2013-1-vr19 | opdrachtbrief bij omzetting | `opdrachtaanvaarding-en-opdrachtbrief` (beroepsbeoefening) + `omzetting-vennootschap` (⏳ Geb) + `bijzondere-mandaten#aanvaardingsproces` (overlap) + ITAA-norm-omzetting-vennootschap | ✅ |
+
+**Open punten**:
+- **OP-BM.A** ⏳ Wanneer alle 8 Gebeurtenis-records `accountant_perspectieven[].audit` gekregen hebben met cross-link naar `bijzondere-mandaten`, kan `controleverklaring#andere-verslagstypes` versmald worden tot pure cross-link (geen inhoud nodig). Mapping-fase-werk.
+- **OP-BM.B** ⏳ `commissaris`-record (uit OP-BB.E) — uitwerking moet `bijzondere-mandaten` als parallel-uitvoeringsroute behandelen (wanneer commissaris is aangesteld, voert die de mandaten uit; als geen commissaris, dan gecertificeerd-accountant).
+- **OP-BM.C** ⏳ Tantième-controle is een bijzonder mandaat-kandidaat dat nog niet in types-tabel staat (PO 3.0.II.C belangenconflict / tantième-toekenning) — te valideren bij `bestuur-en-aansprakelijkheid`-cluster.
+
 ---
 
 ### Controle-opdracht-cluster
@@ -1183,7 +1267,7 @@ controle-opdracht                       [sub-Kader van audit-en-assurance]
 - **OP-EC.B** ⏳ Primair thema-cluster van `verbonden-partijen` — boekhouding-disclosure (cross PO 2.3 + 2.8 + 1.6) of cross-cutting E zonder primair-thema? Te beslissen bij boekhouding-cluster-uitwerking.
 - **OP-EC.C** ⏳ `fraude` primair thema — cross-cutting Gebeurtenis (cross 1.6 audit + 4.0 deontologie + AML witwas)? Bevestigen bij beroepsbeoefening-cluster.
 - **OP-EC.D** Potentiële didactische record-splits later: `audit-planning` → `risico-en-materialiteit` afsplitsen; `audit-bewijs` → `audit-beweringen` afsplitsen. Beslissen tijdens content-uitwerking (niet preventief).
-- **OP-EC.E** Mapping-actie audit-perspectief op 8 Gebeurtenis-records (zie tabel boven). In scope, werkpunt voor extractie/operatie-fase per record. Niet uitstellen.
+- **OP-EC.E** Mapping-actie audit-perspectief op 8 Gebeurtenis-records (zie tabel boven). **Verfijnd 2026-05-26**: niet zomaar "audit-perspectief + revisor-verslag-vereiste", maar specifiek `accountant_perspectieven[].audit` met (a) cross-link naar `bijzondere-mandaten`-record (categorisch begrip, 6e sub-Kader controle), (b) ITAA-norm-pin per type, (c) oordeel-onderwerp specifiek voor de verrichting. Zie §Bijzondere-mandaten-cluster voor volledig schema. In scope, werkpunt voor extractie/operatie-fase per record. Niet uitstellen.
 - **OP-EC.F** `interne-controle-coso` blijft primair PO 1.7-cluster — relatie hierheen vanuit `audit-planning` (controle-risico-inschatting) + `audit-bewijs` (controls-testen) volstaat. Bij PO 1.7-cluster te valideren.
 - **OP-EC.G** Bron-pin: ISA-standaarden integraal niet geladen. ITAA-normen verwijzen "voor zover van toepassing" — voldoende voor examen-scope? Of kern-ISA's (315, 330, 500, 540, 570, 700) als trusted bron laden? Mappingsbeslissing.
 - **OP-EC.7** ⏳ Thema-cluster voor `vennootschap-groottecategorieen` [E+R] — eigen klein cluster `vennootschap-typologie` (samen met `ondernemingsvormen` + `financieel-plan`) of opnemen in `kapitaalstructuur`-cluster? Voorlopig: eigen kandidaat-cluster, te beslissen bij volgende sparring.
@@ -1438,3 +1522,4 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | AML als **1 overkoepelend record** `antiwitwaspreventie` met 5 sub-secties (cliëntenonderzoek · ubo-register · risicogebaseerde-benadering · melding-cfi · intern-beleid) | 5 aparte records (huidige situatie: clientenonderzoek-aww + ubo-register + risicogebaseerde-benadering-aww + melding-verdachte-transactie-cfi + antiwitwas-verplichtingen-accountant) | Anti-preventieve-versnippering-principe (rationale-log 2026-05-26). User-keuze "OP-BB.B aml : beginnen met één record". AML-regime is één coherent wettelijk kader (AML-wet 18-09-2017) met deelverplichtingen — geen aparte alternatieven (≠ Σ). Sub-secties kunnen later splitsen indien een aspect didactisch te zwaar wordt. Plus: `-aww`-suffix-smell (afkorting) op 3 records weggewerkt door bundeling. | Pattern: andere wettelijke regimes met meerdere verplichtingen-blokken kunnen analoog bundelen (bv. `bezwaarprocedure-fiscaal` met sub-secties bezwaar/beroep/cassatie ipv aparte records). |
 | 2026-05-26 | `gecertificeerd-accountant` als **nieuw E-actor-record** voor het beroep zelf (statuut · toelatingsvereisten · monopolieopdrachten · stagiair-regime · onverenigbaarheden) | Beroepsinfo verdelen tussen `itaa-beroepsorganisatie` + `deontologie` zonder centrale actor-record | User-keuze "OP-BB.C gecertificeerd-accountant, ja steek hem er maar thuis". Analoog aan `commissaris`-E-record (bijzondere hoedanigheid) — `gecertificeerd-accountant` is de generieke variant. Test-case-validatie bevestigt: 2 van 6 testvragen (K1 onverenigbaarheden + K5 stagiair) raken specifiek deze record-inhoud, die nergens anders thuishoort. | Pattern: actor-records voor gereglementeerde beroepen (`bedrijfsrevisor` ⏳ als parallel + cross-relatie, eventueel `belastingadviseur` ⏳, ...) volgen zelfde patroon — eigen statuut + verplichtingen. |
 | 2026-05-26 | `kantoor-organisatie` als overkoepelend record **absorbeert** `communicatie-met-stakeholders` + `digitalisering-accountantskantoor` als sub-secties | 3 aparte records voor 4.0.taak.2 + 4.0.taak.4 + 4.0.taak.5 | User-keuze "OP-BB.D kantoor-organisatie -> probeer maar te combineren". 3 thema's hangen samen rond "hoe runt het kantoor zijn praktijk?" — team-coördinatie + stakeholder-communicatie + digitale werkomgeving zijn 3 perspectieven op zelfde fenomeen (kantoor-praktijk). Anti-versnippering. `digitalisering`-sub-sectie kan later splitsen indien cyber/AVG/digitale-archief substantieel groeit. | `businessmodel-en-strategie-inzicht-accountant` daarentegen verhuist cross naar `bedrijfseconomie-en-management`-discipline — dat is geen kantoor-praktijk-thema maar een meta-competentie (4.0.taak.6) die elders thuishoort. |
+| 2026-05-26 | **`bijzondere-mandaten`** als 6e sub-Kader van `controle`-discipline + **shared thema** met `beroepsbeoefening`. Eén klein hoofdrecord (categorisch overzicht); concrete uitvoering per type woont als `accountant_perspectieven[].audit` op de betrokken Gebeurtenis-records. **OP-EC.E mapping-actie verfijnd**: niet zomaar "audit-perspectief", maar perspectief met cross-link naar `bijzondere-mandaten` (categorisch) + ITAA-norm-pin (per type) + oordeel-onderwerp specifiek. | (a) `bijzondere-mandaten` als perspectief-only op Gebeurtenissen (geen eigen record) — verliest categorisch overzicht; (b) als 5e item in `opdracht-types`-Σ — breekt assurance-niveau-as; (c) als sub-sectie van `gecertificeerd-accountant` in beroepsbeoefening — verliest opdracht-categorie-status | User-observatie 2026-05-26: "zit dat niet dicht bij onze discipline `controle` ook?" + "moet het geen perspectief worden op de betrokken gebeurtenissen?" — beide raken precies. Bijzondere mandaten zijn opdracht-categorie (= record naast andere sub-Kaders van controle) ÉN concrete uitvoering bij elke Gebeurtenis (= perspectief). Drie-niveau-toepassing van perspectief-vs-record-principe: categorisch begrip (record) + concrete uitvoering (perspectief) + wettelijke verankering (inhoud van Gebeurtenis). Shared thema beroepsbeoefening houdt monopolie-aspect zichtbaar zonder duplicatie. | Pattern: andere wettelijk-voorbehouden-opdracht-categorieën die door meerdere PO's heen leven kunnen analoog. Bv. `commissaris`-mandaat zelf is geen "bijzonder mandaat" maar wel een aparte opdracht-categorie — al deels in beroepsbeoefening voorzien (OP-BB.E).  |
