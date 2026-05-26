@@ -1781,6 +1781,78 @@ registratie-en-successierechten           [thema-cluster fiscaliteit, ~14 record
 - **OP-RS.B** ⏳ Gewestelijke variant per regime: tarieven verschillen wezenlijk Vl/Wal/Br. Eén record per gewest of 1 record met sub-sectie per gewest? Voorlopig sub-sectie (anti-versnippering); split bij content-uitwerking als verschillen substantieel-zelfstandig zijn.
 - **OP-RS.C** ⏳ `gunstregime-familiale-onderneming` cross-relatie naar `ondernemingsvormen` + `bedrijfsleidersbezoldiging` (KMO-context) — content-werk
 
+### Lokale-en-regionale-belastingen-cluster
+
+Thema: `lokale-en-regionale-belastingen`. *Diepe PO 2.7-uitwerking (2026-05-26). Klein cluster — 9 anchors, 13 records. Absorbeert 2 perspectief-vermommingen (vertegenwoordiging + begeleiding-bij-opstart — consistent met PO 2.5/2.6 pattern).*
+
+```
+lokale-en-regionale-belastingen           [thema-cluster fiscaliteit, 13 records — PO 2.7]
+│
+├── lokale-en-regionale-belastingen       [Σ-hoofdrecord — NIEUW]
+│   ▸ 2 niveaus: gewestelijk + lokaal (provincies + gemeenten)
+│   ▸ #fiscale-autonomie (gewest + lokaal — bevoegdheids-grenzen sinds Bijzondere Financieringswet + art 170 GW)
+│   ▸ #vertegenwoordiging-aspect — perspectief-overzicht (absorbeert `vertegenwoordiging-bij-gewestelijke-en-lokale-fiscus`)
+│   ▸ #advies-bij-opstart — perspectief-overzicht (absorbeert `begeleiding-vestigingsplaats-en-regionale-heffingen-bij-opstart`) → cross naar `oprichting-vennootschap.accountant_perspectieven[].advies`
+│
+├── --- I. GEWESTELIJK ---
+├── gewestelijke-fiscale-autonomie        [K]   bevoegdheids-grenzen · interactie federale belastingen
+├── gewestelijke-fiscale-procedure        [procedure]   Vlaamse Codex Fiscaliteit + analoog · onderscheid met federale procedure (PO 2.5)
+│       accountant_perspectieven[].advies: vertegenwoordigt cliënt (was `vertegenwoordiging-bij-gewestelijke-en-lokale-fiscus`-content)
+├── onroerende-voorheffing                [R, cross PB 2.2]   gewestelijk (Vl/Wal/Br) · KI-basis · vrijstellingen
+├── verkeersbelasting                     [R]   gewestelijk · CO2-modulering Vl
+├── belasting-inverkeerstelling           [R]   BIV — gewestelijk · eenmalig
+├── planbatenheffing                      [R]   Vlaams · meerwaarde door bestemmingswijziging
+├── leegstandsheffing-bedrijfsruimten     [R]   Vlaams · bestrijden leegstand
+│
+├── --- II. LOKAAL (PROVINCIES + GEMEENTEN) ---
+├── lokale-fiscale-autonomie              [K]   gemeenteraad · gemeentelijk reglement · art 170 GW
+├── lokale-belasting-reglement            [procedure]   opmaak + publicatie + bezwaarprocedure tegen reglement
+│       accountant_perspectieven[].advies: bezwaar tegen lokaal reglement
+├── aanvullende-gemeentebelasting-pb      [R, cross PB]   opcentiemen op PB · gemeentelijk tarief 0-9%
+├── gemeentelijke-opcentiemen-onroerende-voorheffing  [R, cross OV]   gemeentelijk + provinciaal opcentiem
+├── gemeentebelastingen-sui-generis       [K]   eigen lokale belastingen (afval · honden · standgelden · ...)
+└── provinciale-belastingen               [R]   provinciale opcentiemen + eigen belastingen
+```
+
+**Cross-cluster**:
+- `onroerende-voorheffing` (cross PO 2.2 PB)
+- `aanvullende-gemeentebelasting-pb` (cross PB)
+- `gewest-fiscaliteit-registratie-en-successie` (primair PO 2.6, vermelding hier)
+- `oprichting-vennootschap` (kapitaalstructuur) — `#advies-bij-opstart`-perspectief landt hier
+
+**Renames + absorpties + nieuw**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| vertegenwoordiging-bij-gewestelijke-en-lokale-fiscus | **absorbed als perspectief** → `accountant_perspectieven[].advies` (analoog PO 2.5/2.6 pattern; OP-PV.A) |
+| begeleiding-vestigingsplaats-en-regionale-heffingen-bij-opstart | **absorbed als perspectief** → sub-sectie cluster-Σ#advies-bij-opstart + cross naar `oprichting-vennootschap.accountant_perspectieven[].advies` (naam-smell: `-en-` + `-bij-opstart` + `begeleiding-` prefix) |
+| gewestelijke-en-lokale-fiscaliteit | absorbed in cluster-Σ als overzicht (Σ-record vervangt; oude record verzameld klein) |
+| (nieuw) | **lokale-en-regionale-belastingen** (Σ-overzicht) |
+
+**Triangulatie 2026-05-26**:
+- 9 PO 2.7-anchors → 0 PO-only gaps
+- 19 records → 13 cluster-eigen (3 absorpties + 1 nieuw Σ)
+- 3 perspectief-absorpties opeenvolgend over PO 2.5/2.6/2.7 bevestigen pattern (zie OP-PV.A)
+
+**Bronnen-pin**:
+- ✅ Bijzondere Financieringswet (gewestelijke bevoegdheid)
+- ✅ Vlaamse Codex Fiscaliteit / Waals Wetboek Belastingen / Brussels Wetboek
+- ✅ Grondwet art 170 (fiscaal legaliteitsbeginsel) + art 173 (gemeentelijke autonomie)
+- ✅ Decreten + ordonnanties per gewest + lokale reglementen
+
+**Test-case-validatie** (2026-05-26): 3 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Verkeersbelasting CO2-tarief Vlaanderen | `verkeersbelasting#co2-modulering-vl` | ✅ |
+| Bezwaarprocedure tegen lokaal belastingreglement | `lokale-belasting-reglement#bezwaarprocedure` + perspectief `advies` | ✅ |
+| BIV bij verhuis naar buitenland | `belasting-inverkeerstelling` (cross fiscale woonplaats) | ✅ |
+
+**Open punten**:
+- **OP-LR.A** ⏳ Gewestelijke varianten per regime (verkooprecht reeds in 2.6, OV/verkeer/BIV hier) — voorlopig sub-sectie per regime; eventueel split als verschillen substantieel
+- **OP-LR.B** ⏳ Cross-relatie tussen `aanvullende-gemeentebelasting-pb` en `personenbelasting`-sub-discipline-Σ (te overwegen bij PB-uitwerking)
+- **OP-LR.C** ⏳ `gewestelijke-fiscale-procedure` vs `fiscale-procedure` (PO 2.5 federaal) — voldoende onderscheid? Of consolideren tot 1 Σ-record met federaal/gewestelijk sub-secties? Voorlopig apart wegens substantie + eigen wetboeken.
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
