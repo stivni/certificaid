@@ -1911,6 +1911,102 @@ algemene-fiscale-beginselen               [thema-cluster fiscaliteit, 7 records 
 - **OP-FB.A** ⏳ Per beginsel mogelijk eigen sub-record indien content-zwaarte rechtvaardigt — voorlopig sub-secties van `fiscale-beginselen`-Σ (anti-versnippering)
 - **OP-FB.B** ⏳ `fiscaal-recht` (na rename) zou Σ-bronnen-record kunnen worden — momenteel kleiner Kader. Bij content-uitwerking eventueel uitbreiden naar overkoepelend bronnen-record (hiërarchie wettekst → KB → circulaire → administratieve commentaar)
 
+### Internationaal-fiscaal-cluster
+
+Thema: `internationaal-fiscaal`. *Diepe PO 2.8-uitwerking (2026-05-26). Σ-cluster met veel cross naar al-uitgewerkte clusters (anti-misbruik · reorganisatie · registratie-en-successie). `internationaal-fiscaal`-record gepromoveerd tot Σ-hoofdrecord. 0 perspectief-vermommings (al opgelost via OP-VOV.D `keuze-rechtsvorm-fiscaal`).*
+
+```
+internationaal-fiscaal                    [Σ-cluster fiscaliteit, 22 cluster-eigen records — PO 2.8]
+│
+├── internationaal-fiscaal                 [Σ-hoofdrecord — gepromoveerd]
+│   ▸ overkoepelend: oorzaken/vormen/voorkoming dubbele belasting + verdragen-systeem + EU + anti-misbruik-internationaal
+│   ▸ #vergelijkingsmatrix: bilateraal vs multilateraal · OESO vs VN-modellen · methodes (vrijstelling vs verrekening)
+│
+├── --- I. DUBBELE BELASTING + VERDRAGEN ---
+├── dubbelbelastingverdrag                 [E-instrument]   bilateraal verdrag · structuur · interpretatie
+├── oeso-modelverdrag                      [K]   model + commentaar · standaard-artikelen (4 woonplaats · 5 vaste inrichting · 7 ondernemingswinst · ...)
+├── mli-instrument                         [E-instrument]   Multilateraal Verdrag · BEPS-uitvoering · PPT
+├── map                                    [procedure]   Mutual Agreement Procedure · arbitrage · CFR
+├── vrijstelling-met-progressievoorbehoud  [R]   methode voorkoming dubbele belasting (PB-resident)
+├── forfaitair-gedeelte-buitenlandse-belasting [R]   FBB · verrekening bij VenB
+│
+├── --- II. EU-RECHT ---
+├── eu-fiscale-richtlijnen                 [K-overzicht]   alle EU-fiscale richtlijnen + omzettings-status
+├── moeder-dochterrichtlijn                [R]   vrijstelling RV bij dochter→moeder dividenden
+├── interest-royalty-richtlijn             [R]   vrijstelling RV interest+royalty's tussen verbonden EU-venn
+│
+├── --- III. NIET-INWONERS + FISCALE RESIDENTIE ---
+├── fiscale-residentie                     [K]   aanknopingspunt · 183-dagen-regel · woonplaats vs verblijfplaats
+├── belasting-niet-inwoners                [K]   BNI-PB + BNI-VenB · categorieën · regels
+├── toepassingsgebied-vennootschapsbelasting [K, cross VenB]   resident vs niet-resident · zetel + werkelijke leiding
+│
+├── --- IV. VASTE INRICHTING + INTERNATIONALE WINSTEN ---
+├── vaste-inrichting                       [K]   art 5 OESO-MV · vaste plaats · dependent agent · constructie+installatie
+├── buitenlandse-winst-en-verlies          [procedure]   verrekening · doorschuif · grensoverschrijdende verliesverrekening
+├── winst-naar-herkomst                    [procedure]   toerekening winst aan VI vs hoofdhuis
+│
+├── --- V. INTERNATIONALE TEWERKSTELLING ---
+├── internationale-tewerkstelling          [K]   detachering · A1-formulier · grensoverschrijdend werk · DBV art 15
+├── bijzonder-regime-buitenlandse-kaderleden [R]   incoming-expat-regime (Wet 2022) · 30%-vrijstelling vs onkostenvergoedingen
+│
+├── --- VI. INTERNATIONAAL ONROEREND GOED ---
+├── internationaal-onroerend-goed          [R]   verwerving · eigendom · realisatie · DBV art 6 · gewestelijke heffingen
+│
+├── --- VII. INTERNATIONALE ROERENDE INKOMSTEN ---
+├── roerend-inkomen-internationaal         [K]   RV-modaliteiten · EU-richtlijnen-impact · DBV art 10/11/12
+│
+├── --- VIII. INTERNATIONALE STRUCTURERING + EXIT ---
+├── internationale-structurering-vennootschap [K]   holding-structuren · IP-box · finance-vehikels
+├── exit-planning-vennootschap             [K]   advies-context bij zetelverplaatsing/herstructurering
+│
+└── --- IX. ANTI-MISBRUIK INTERNATIONAAL ---
+├── beps-actieplan                         [K]   15 actiepunten OESO · status-implementatie
+├── country-by-country-reporting           [procedure]   CbCR · drempel 750M€ · master-/lokaal-/CbCR-driedeling
+├── juridische-constructie-cayman          [R]   Caymantaks · doorkijktaxatie · jaarlijkse melding-verplichting
+└── fiscale-regularisatie-en-buitenlandse-goederen [R]   regularisatieprocedure · vrijwillige aangifte · boete-staffel
+```
+
+**Cross-cluster** (records primair elders):
+- `algemene-anti-misbruik-bepaling` (anti-misbruik) — raakt 2.8.XVI
+- `atad-richtlijn` (anti-misbruik) — raakt 2.8.XVI + XVII
+- `ebitda-aftrekbeperking` (anti-misbruik / fiscale-voordelen-vennootschap) — raakt 2.8.XVI
+- `transfer-pricing` (anti-misbruik) — primair daar, raakt 2.8.XVII
+- `fiscale-fusie-splitsing` + `fiscale-fusierichtlijn` + `exit-belasting` (reorganisatie) — raakt 2.8.XVI
+- `holding-successieplanning` + `maatschap-successieplanning` + `patrimoniumvennootschap` (registratie-en-successierechten) — raakt 2.8.XVII vermogensplanning
+- `keuze-rechtsvorm-fiscaal` (al absorbed in ondernemingsvormen — OP-VOV.D)
+- `voorheffingen-en-verrekeningen-venb` (fiscale-voordelen-vennootschap) — raakt 2.8.XV
+- `abnormale-goedgunstige-voordelen` (VenB) — raakt 2.8.XVII
+
+**Schrappen / nieuwe records**:
+- 0 nieuwe records (cluster bestaat al voldoende)
+- 1 promotie: `internationaal-fiscaal` → cluster-Σ-hoofdrecord (overzichts-rol versterkt)
+
+**Triangulatie 2026-05-26**:
+- 22 PO 2.8-anchors → 0 PO-only gaps
+- 38 records → 22 cluster-eigen + 9 cross-records (al primair elders)
+- Geen renames/absorpties — alle records al goed georganiseerd (compliment voor eerdere skeleton-pass)
+
+**Bronnen-pin**:
+- ✅ OESO-modelverdrag + commentaar
+- ✅ MLI (BEPS Action 15)
+- ✅ EU-richtlijnen (moeder-dochter · interest-royalty · ATAD · DAC6/7 · fusierichtlijn)
+- ✅ WIB-internationale bepalingen + KB-WIB
+- ✅ Belgische DBV's per land
+
+**Test-case-validatie** (2026-05-26): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Vaste inrichting in BE voor NL venn | `vaste-inrichting` + `buitenlandse-winst-en-verlies` + cross `dubbelbelastingverdrag` | ✅ |
+| RV-vrijstelling intra-EU dividend | `moeder-dochterrichtlijn` + cross `roerend-inkomen-internationaal` | ✅ |
+| Caymantaks bij JC-houder | `juridische-constructie-cayman` + cross `belasting-niet-inwoners` | ✅ |
+| Detachering BE-werkgever naar NL | `internationale-tewerkstelling#detachering` + `bijzonder-regime-buitenlandse-kaderleden` (BE-inbound spiegel) | ✅ |
+
+**Open punten**:
+- **OP-IF.A** ⏳ `roerend-inkomen-internationaal` heeft `-internationaal`-suffix maar legitiem (geen perspectief-vermomming want internationale-context is inherent eigenschap). Analoog `internationaal-onroerend-goed` + `internationale-tewerkstelling`. Behouden.
+- **OP-IF.B** ⏳ Patrimoniumvennootschap-positionering: primair in registratie-en-successierechten (vermogensplanning-instrument) of in ondernemingsvormen (vennootschapsvorm-variant)? Voorlopig in registratie-en-successierechten; te valideren bij content-uitwerking.
+- **OP-IF.C** ⏳ Bron-pin: Belgische DBV-set is enorm (~90 DBV's). Niet alle als trusted bron laden — selectief op meest-getoetste (NL/FR/DE/LUX/VK/VS).
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
