@@ -1628,6 +1628,90 @@ internationaal-fiscaal                    [cross-cutting cluster, PO 2.8 — ~30
 - **OP-FS.B** ⏳ `fiscale-procedure` en `internationaal-fiscaal` als cross-cutting clusters apart of als sub-discipline-clusters? Voorlopig cross-cutting (raken alle 4 hoofd-belastingen).
 - **OP-FS.C** ⏳ Sub-discipline-uitwerking per PO blijft TBD — deze compact-mapping is voldoende voor structuur-overzicht; diepe Σ-records per sub-discipline volgen indien didactisch zwaar.
 
+### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
+
+*Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
+
+```
+PO 1.2 — Boekhoudrecht en jaarrekeningrecht       [~17 records]
+   wettelijk + reglementair kader voor boekhouding + jaarrekening (KB 29-04-2019 + Boekhoudwet 17-07-1975)
+   cross naar: jaarrekening-en-synthesedocumenten-cluster (boekhouding) · boekhoudbeginselen-cluster
+   primair-cluster: integreren in `jaarrekening-en-synthesedocumenten` (boekhouding)
+   key records: jaarrekening · openbaarmaking-jaarrekening · sociale-balans · jaarverslag · boekhoudplichtige-onderneming · autoriteiten-boekhoudrecht
+
+PO 1.3 — Analyse en kritische beoordeling jaarrekening   [~20 records]
+   verticale + horizontale analyse · ratios (liquiditeit · solvabiliteit · rentabiliteit) · faillissementspredictie
+   primair-cluster: `jaarrekeninganalyse` (eigen cluster onder bedrijfseconomie-en-management of boekhouding-cross)
+   key records: jaarrekeninganalyse · current-ratio · cash-ratio · interest-coverage-ratio · brutomarge · ebitda-marge · nettomarge · cash-conversion-cycle · faillissementspredictie-modellen
+   open: eigen `jaarrekeninganalyse`-cluster met Σ-overzicht-ratios — substantieel onderwerp
+
+PO 1.4 — Geconsolideerde jaarrekening                    [~21 records]
+   ✅ grotendeels uitgewerkt via `consolidatie`-cluster (boekhouding-discipline-mapping)
+   cross naar: consolidatiekring · consolidatiemethoden · consolidatieverschil-goodwill · eerste-consolidatie · evenredige-consolidatie · integrale-consolidatie · uniforme-waarderingsregels-consolidatie · wijziging-consolidatiekring · geconsolideerde-jaarrekening · opmaak-geconsolideerde-jaarrekening · minderheidsbelangen
+
+PO 1.5 — EU + internationale boekhoudkundige normen      [~7 records]
+   EU richtlijnen + IAS/IFRS-context
+   cross naar: ifrs · be-gaap-vs-ifrs-verschillen (al in boekhoudbeginselen)
+   primair: sub-sectie van `boekhoudbeginselen`-cluster (geen eigen cluster — content cross al gedekt)
+
+PO 1.8 — Analytische boekhouding + management accounting [~13 records]
+   primair-discipline: `bedrijfseconomie-en-management` (zie volgende sectie)
+   kostencalculatie · ABC · standaardkosten · variantie-analyse · budgettering · KPI-rapportering
+   key records: managementcontrole-fiche (verhuisd uit interne-controle PO 1.7) · kostprijsmethoden · standaardkostenmethode · marginale-analyse · masterbudget · budgetbeheer · direct-costing · full-costing · analytische-boekhouding · abc-methode
+
+PO 1.9 — Financiële analyse + financieel bedrijfsbeheer  [~5 records]
+   primair-discipline: `bedrijfseconomie-en-management`
+   kapitaalstructuur-keuze · investeringsbeslissing (NPV/IRR) · kasplanning · treasury · werkkapitaal-management · waardering ondernemingen
+   key records: jaarrekeninganalyse · faillissementspredictie-modellen · cash-conversion-cycle · communicatie-met-stakeholders (cross beroepsbeoefening)
+   cross naar: `kapitaalstructuur` · `schuldfinanciering` · `overdracht-onderneming` (waardering bij overname)
+```
+
+### Bedrijfseconomie-en-management-discipline — compact mapping
+
+Thema: `bedrijfseconomie-en-management` (top-discipline laag-1). *PO 1.8 + PO 1.9 + cross PO 4.0.taak.5 + taak.6. Verzamelt management-accounting + financiële-analyse + strategie-onderwerpen. Veel records bestaan al; primair-cluster-positionering te bepalen.*
+
+```
+bedrijfseconomie-en-management            [discipline]
+├── management-accounting                 [sub-K, ~9 records — PO 1.8]
+│   ▸ kostencalculatie (ABC · standaard · marginal · full · direct)
+│   ▸ budgettering (master + sub-budgetten)
+│   ▸ KPI-rapportering + variantie-analyse
+│   ▸ records: managementcontrole-fiche · kostprijsmethoden · standaardkostenmethode · marginale-analyse · masterbudget · budgetbeheer · direct-costing · full-costing · abc-methode · analytische-boekhouding
+│
+├── financiele-analyse                    [sub-K, ~10 records — PO 1.9 + PO 1.3]
+│   ▸ ratio-analyse (liquiditeit · solvabiliteit · rentabiliteit · activiteit)
+│   ▸ trend-analyse + benchmarking
+│   ▸ faillissementspredictie + early-warning
+│   ▸ records: jaarrekeninganalyse · current-ratio · cash-ratio · interest-coverage-ratio · brutomarge · ebitda-marge · nettomarge · cash-conversion-cycle · faillissementspredictie-modellen · omloopsnelheid-voorraad
+│   ▸ open: eigen `ratios`-Σ-record met vergelijkingsmatrix?
+│
+├── corporate-finance-en-treasury         [sub-K, ⏳ NIEUW — PO 1.9]
+│   ▸ investeringsbeslissing (NPV · IRR · payback · DCF)
+│   ▸ kapitaalstructuur-keuze · WACC
+│   ▸ kasplanning + werkkapitaal-management
+│   ▸ waardering ondernemingen (DCF · vergelijkbare transacties · multiples)
+│   ▸ records ⏳: alle nieuw
+│   ▸ cross naar: kapitaalstructuur · schuldfinanciering · overdracht-onderneming (waardering)
+│
+├── digitale-werkomgeving                 [sub-K, ⏳ NIEUW — PO 4.0.taak.5 cross]
+│   ▸ digitale transformatie kantoor · cybersecurity · samenwerkingsplatformen
+│   ▸ verwijst naar beroepsbeoefening#kantoor-organisatie#digitale-werkomgeving (al gedekt)
+│
+└── bedrijfsstrategie-en-businessmodel    [sub-K, ⏳ NIEUW — PO 4.0.taak.6 cross]
+    ▸ businessmodellen + waardeketens + Porter's 5 forces + SWOT
+    ▸ strategie-as-gesprekspartner-zaakvoerder
+    ▸ records: businessmodel-en-strategie-inzicht-accountant (al cross verhuisd uit PO 4.0)
+```
+
+**Totaaltelling bedrijfseconomie-en-management**:
+- ~20 records al bestaand + 2 sub-K-blokken ⏳ nieuw (corporate-finance-en-treasury · bedrijfsstrategie)
+- Verzamelt veel kleine technische records (ratios, kostprijsmethoden) — mogelijk sub-Σ-records per cluster bij content-uitwerking
+
+**Open punten**:
+- **OP-BM.E** ⏳ Per sub-discipline 1 Σ-record (bv. `ratios` voor financiële analyse · `kostprijsmethoden`-Σ voor management accounting · `investeringsmethoden`-Σ voor corporate finance) — te beslissen bij PO-specifieke uitwerking
+- **OP-BM.F** ⏳ Voor PO 1.9-corporate-finance moeten ~5-8 nieuwe records gecreëerd worden (NPV-IRR · WACC · DCF-waardering · kasplanning · werkkapitaal-mgmt · investeringsbeslissing-Σ)
+- **OP-BM.G** ⏳ Relatie tot `controle-en-assurance`-discipline-context: managementcontrole onderscheidt zich expliciet van interne-controle (afbakening al in interne-controle-cluster) — confirmatie scope-grens
+
 ### Beroepsbeoefening-cluster
 
 Thema: `beroepsbeoefening`. *Thema-cluster onder `beroep-en-deontologie`-discipline. Resulteert uit PO 4.0-werk (2026-05-26). PO 4.0 = "Deontologische beginselen + antiwitwaswetgeving" met dubbele functie: deel I + taken 1-3 = kern (eigen cluster); deel II + taken 4-6 = competentie-overzicht (cross-naar-andere-PO's, geen eigen records). Absorbeert meerdere records die in eerdere cluster-sparring waren voorzien om hier te verhuizen (commissaris-blok, kwaliteitsmanagement, opdrachtbrief, AML).*
