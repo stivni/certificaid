@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-26T15:05:37+00:00",
+  "merge_datum": "2026-05-26T15:14:05+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -1325,7 +1325,49 @@
       "vraag_id": "2013-2-vr8"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-500.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Vier soorten auditmethodes (controlewerkzaamheden om controle-informatie te verkrijgen volgens ISA 500):\n\n1. **Inspectie** — onderzoek van vastleggingen/documenten (intern of extern, op papier of elektronisch) of fysieke inspectie van een actief. 📖\n2. **Waarneming (observatie)** — het gadeslaan van een proces of procedure die door anderen wordt uitgevoerd, bv. waarnemen van de voorraadopname. 📖\n3. **Verzoek om inlichtingen (bevraging / inquiry)** — het inwinnen van informatie bij goed geïnformeerde personen binnen of buiten de entiteit, mondeling of schriftelijk. 📖\n4. **Herberekening** — het controleren van de rekenkundige juistheid van documenten of vastleggingen, manueel of geautomatiseerd. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-500.md",
+                  "resources/bronnen/normen/ISA-505.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "ISA 500 §A14-A25 noemt in totaal **zeven** controlewerkzaamheden: naast bovenstaande vier ook **externe bevestiging** (ISA 505 — direct schriftelijk antwoord van een derde), **opnieuw uitvoeren** (re-performance van een interne beheersingsmaatregel) en **cijferanalyses** (analytical procedures, ISA 520). De vraag vraagt er vier — elke combinatie van vier uit deze zeven is verdedigbaar; bovenstaande keuze dekt de klassieke pijlers (documentair, visueel, mondeling, rekenkundig). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-500.md",
+                  "resources/bronnen/normen/ISA-505.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ISA 500 *Controle-informatie* §A14-A25 somt de controlewerkzaamheden op waarmee de auditor controle-informatie verkrijgt: inspectie, waarneming, externe bevestiging, herberekening, opnieuw uitvoeren, cijferanalyses en verzoeken om inlichtingen. Externe bevestiging wordt verder uitgewerkt in ISA 505. 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 500 §A14-A25; ISA 505"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-2-vr9"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1380,7 +1422,55 @@
       "vraag_id": "2013-2-vr9"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Activiteit | Categorie |\n|---|---|\n| Akkoord bestelling | **1 — Autorisatie** 🔗 |\n| Ontvangst van de goederen | **2 — Bewaren van activa** 🔗 |\n| Ontvangst van de factuur | **3 — Registratie en rapportering** 🔗 |\n| Verificatie van de factuur | **4 — Controle procedures** 🔗 |\n| Aanmaak betalingsvoorstel | **3 — Registratie en rapportering** 🔗 |\n| Controle betalingsvoorstel | **4 — Controle procedures** 🔗 |\n| Uitvoeren van de betaling | **2 — Bewaren van activa** 🔗 |\n| Aanmaak en onderhoud basisgegevens leveranciers | **1 — Autorisatie** 🔗 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Toepassing van de vier-taken-typologie op de aankoop-/betaalcyclus:\n\n- **Akkoord bestelling** → *Autorisatie*: de bevoegde verantwoordelijke geeft toestemming dat een verbintenis tegenover een leverancier mag worden aangegaan (initiërende beslissing). 🔗\n- **Ontvangst van de goederen** → *Bewaren van activa*: het magazijn neemt fysieke controle over de goederen — dit is custody. 🔗\n- **Ontvangst van de factuur** → *Registratie en rapportering*: inboeken van het inkomende document in de boekhouding (aankoopdagboek, schuld leverancier). 🔗\n- **Verificatie van de factuur** → *Controle procedures*: de 3-way match (bestelbon ↔ ontvangstbon ↔ factuur) is een detecterende controle op prijs, hoeveelheid en geleverdheid. 🔗\n- **Aanmaak betalingsvoorstel** → *Registratie en rapportering*: het voorstel is een operationele uitvoeringslijst (welke facturen op vervaldag), opgesteld door de AP-functie — geen nieuwe autorisatie en geen custody. 🔗\n- **Controle betalingsvoorstel** → *Controle procedures*: review door een tweede persoon (vaak vier-ogen-principe) vóór de betalingen worden vrijgegeven. 🔗\n- **Uitvoeren van de betaling** → *Bewaren van activa*: treasury/kassier beschikt over de bankrekening en geeft de geldmiddelen vrij — dat is custody over liquide middelen. 🔗\n- **Aanmaak en onderhoud basisgegevens leveranciers** → *Autorisatie*: master-data-onderhoud bepaalt welke tegenpartijen überhaupt mogen worden betaald (bankrekeningnummer, voorwaarden) — een poortwachterstaak. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Klassieke fraudegevoelige combinaties die door deze indeling worden voorkomen:\n\n1. **Aanmaak leveranciersgegevens + uitvoeren betaling** (1 + 2) → fictieve leverancier op eigen rekening laten betalen. 🔗\n2. **Akkoord bestelling + ontvangst goederen** (1 + 2) → bestelling op naam vennootschap, levering naar privé. 🔗\n3. **Aanmaak + controle betalingsvoorstel** (3 + 4) → eigen voorstel zelf goedkeuren — daarom moet controle door iemand anders gebeuren. 🔗\n\nDe vier categorieën moeten over **minstens drie personen** verdeeld worden; in kleine ondernemingen waar dit niet kan, vereist ISA 315 compenserende controles (bv. periodieke review door zaakvoerder). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**ISA 315 (herzien 2019), Bijlage 3** definieert functiescheiding als het toewijzen aan verschillende personen van de verantwoordelijkheden voor (i) het *autoriseren* van transacties, (ii) het *vastleggen* (registratie) van transacties en (iii) het *bewaren* van activa, met als doel de mogelijkheid te beperken om fouten of fraude te maken én te verhullen. De ITAA-doctrine voegt expliciet *controleprocedures* (detecterende controles zoals matching en review) toe als vierde categorie. 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien 2019), Bijlage 3 — Beheersingsactiviteitencomponent"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-2-vr10"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1511,7 +1601,58 @@
       "vraag_id": "2013-2-vr10"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-705-herzien.md",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Een **onthoudende verklaring** (oordeelonthouding / *disclaimer of opinion*) wordt afgegeven wanneer de auditor **niet in staat is voldoende en geschikte controle-informatie te verkrijgen** om zijn oordeel op te baseren, EN hij concludeert dat de mogelijke gevolgen van eventueel niet-gedetecteerde afwijkingen voor de financiële overzichten zowel **van materieel belang** als **van diepgaande invloed** (*pervasive*) kunnen zijn. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-705-herzien.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Twee dimensies** bepalen de keuze van het aangepaste oordeel (ISA 705 par. 7-10): 🔗\n\n| Aard van het probleem | Materieel maar niet diepgaand | Materieel én diepgaand (*pervasive*) |\n|---|---|---|\n| **Afwijking** van materieel belang in de jaarrekening | Oordeel met voorbehoud | Afkeurend oordeel |\n| **Reikwijdtebeperking** (onvoldoende geschikte controle-informatie) | Oordeel met voorbehoud | **Onthoudende verklaring** |\n\nDe onthoudende verklaring zit dus uitsluitend in de rechter-onderkolom: het probleem is een **scope-beperking** (geen afwijking) waarvan het effect zo doordringend is dat de auditor onmogelijk een onderbouwd oordeel kan vormen. 🔗\n\n**Concrete trigger-situaties** (ISA 705 par. A8-A12, niet-limitatief): 🔗\n\n- Omstandigheden **buiten de wil van de entiteit**: boekhoudkundige bescheiden zijn vernietigd (brand, cyberincident), of in beslag genomen door overheidsinstanties voor onbepaalde duur.\n- Omstandigheden **eigen aan aard of timing van het werk**: de auditor kon de voorraadopname op balansdatum niet bijwonen en kan langs alternatieve weg de eindvoorraad niet bevestigen; deelneming bij een equity-methode-investee waarover onvoldoende informatie beschikbaar is.\n- **Door het management opgelegde beperkingen** (par. 13-14): management weigert toegang tot personen, vestigingen, dochters of bescheiden — als deze beperking diepgaand effect kan hebben en niet via alternatieve werkzaamheden te overbruggen is, leidt dit normaliter tot terugtrekking of, bij onmogelijkheid daarvan, een oordeelonthouding.\n- **Uitzonderlijk: meerdere onzekerheden** (ISA 705 par. 10) — zelfs wanneer voor elke afzonderlijke onzekerheid voldoende controle-informatie verkregen werd, kan de auditor in zeer zeldzame omstandigheden tot oordeelonthouding besluiten als het **cumulatieve effect** van meerdere onzekerheden samen het vormen van een oordeel onmogelijk maakt. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-705-herzien.md",
+                  "resources/bronnen/normen/ISA-570-herzien.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "**Onthoudende verklaring ≠ afkeurend oordeel.** Beide zijn *pervasive*-oordelen, maar de bron van het probleem is tegengesteld: 🔗\n\n- **Onthouding**: auditor wéét niet (te weinig informatie → kan geen oordeel vormen). Gebruik bij **reikwijdtebeperking**.\n- **Afkeurend**: auditor wéét wél, en wat hij ziet is fundamenteel fout (de jaarrekening geeft géén getrouw beeld). Gebruik bij **materiële afwijking** met diepgaand effect.\n\nEen tweede valkuil: **continuïteits-onzekerheid** leidt op zichzelf NIET tot een oordeelonthouding. Als de continuïteitsveronderstelling passend is en de toelichting adequaat, volstaat een goedkeurend oordeel met een aparte sectie \"Onzekerheid van materieel belang omtrent de continuïteit\" (ISA 570). Een onthouding kan wel uitzonderlijk volgen wanneer de onzekerheid combineert met andere scope-beperkingen (ISA 705 par. 10). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-705-herzien.md",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**ISA 705 (herzien) par. 9-10** — *Aanpassingen van het oordeel in de controleverklaring*: de auditor formuleert een oordeelonthouding wanneer hij geen voldoende en geschikte controle-informatie kan verkrijgen en de mogelijke effecten op de financiële overzichten zowel van materieel belang als van diepgaande invloed kunnen zijn (par. 9); en uitzonderlijk wanneer het cumulatieve effect van meerdere onzekerheden samen het vormen van een oordeel onmogelijk maakt (par. 10). **ITAA KMO-controlenorm §121** bevestigt deze regel voor de niet-wettelijke contractuele controleopdracht. Rapportage-vereisten in ISA 705 par. 19-20 (geen oordeel, sectie \"Onderbouwing van onze oordeelonthouding\", aangepaste verantwoordelijkheids-paragrafen). 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 705 (herzien) par. 9-10, 19-20; ITAA KMO-controlenorm §121"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-2-vr11"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1560,7 +1701,226 @@
       "vraag_id": "2013-2-vr11"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Preventief**. Functiescheiding voorkomt dat één persoon een onregelmatigheid kan plegen én verhullen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ISA 315 (Bijlage 3) omschrijft functiescheiding expliciet als een **preventieve** maatregel: \"bedoeld om beperkingen aan te brengen in de mogelijkheden voor wie dan ook om bij de uitoefening van zijn normale taken fouten te maken en te verhullen of fraude te plegen en te verhullen\". 📖 Voorkomen, niet detecteren of corrigeren.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ISA 315 (herzien 2019), Bijlage 3 — functiescheiding als preventieve beheersingsmaatregel binnen het systeem van interne beheersing. 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien 2019), Bijlage 3"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Repressief** (detecterend). Een periodieke inventarisatie stelt verschillen tussen werkelijke en geboekte voorraad/kas *achteraf* vast. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "Repressieve = detecterende maatregel: opspeuren van fouten of onregelmatigheden *nadat* ze gebeurd zijn. Een telling van fysieke voorraad of kassaldo vergelijkt de werkelijkheid met de boekhouding — dat is per definitie detecterend, niet preventief. 🤖 De correctieboeking die erop volgt is wel corrigerend, maar de inventarisatie zelf is repressief.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Klassieke driedeling in interne-controle-doctrine (preventief / repressief-detecterend / corrigerend). ISA 315 (herzien 2019), Bijlage 3 hanteert de termen preventief en detecterend als de twee primaire categorieën van interne beheersingsmaatregelen. 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien 2019), Bijlage 3"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Repressief** (detecterend). Een confirmatie verifieert *achteraf* een bestaand saldo of een bestaande transactie bij een derde. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "Tussentijdse confirmaties (bv. saldobevestiging van klanten, leveranciers of banken) bevestigen de juistheid van reeds geboekte posities. Ze voorkomen niets; ze detecteren afwijkingen tussen wat geboekt staat en wat de derde rapporteert. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Confirmaties zijn een klassieke detecterende werkwijze (vgl. ISA 505 *Externe confirmaties* — toetsing van bestaan en juistheid). De interne-controle-classificatie van die werkwijze is bijgevolg repressief/detecterend. 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 505 (externe confirmaties) — classificatie repressief"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Preventief**. ICT-beveiligingen (toegangsrechten, wachtwoorden, autorisatieprofielen, firewalls) verhinderen ongeautoriseerde acties *vooraf*. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Logische toegangsbeperkingen en rolgebaseerde autorisaties (RBAC) zijn typische *access controls*: ze sluiten een transactie of mutatie uit vóór ze gebeurt. ISA 315 noemt geautomatiseerde toegangsbeheersingen als preventieve maatregelen binnen het informatiesysteem. 🔗 Log-review of intrusion-detection zou repressief zijn — die werd hier niet bedoeld.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "ISA 315 (herzien 2019), Bijlage 3 — geautomatiseerde beheersingsmaatregelen (toegangscontrole, applicatiecontroles) zijn primair preventief van aard. 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien 2019), Bijlage 3"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "d"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Preventief**. Het reglement van handtekeningsbevoegdheid bepaalt *vooraf* wie welke transactie mag autoriseren. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Autorisatie is een tekstboek-preventieve maatregel: de transactie wordt enkel verwerkt wanneer een bevoegde handtekening aanwezig is. Zonder die handtekening vindt de uitgave/het contract niet plaats. 🔗 ISA 315 schaart \"autorisaties en goedkeuringen\" expliciet onder preventieve maatregelen.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "ISA 315 (herzien 2019), Bijlage 3 — autorisaties en handtekeningsbevoegdheden behoren tot de preventieve beheersingsactiviteiten. 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien 2019), Bijlage 3"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "e"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Repressief** (detecterend). Cijferbeoordeling — toetsen van brutomarges en toegekende kortingen — detecteert afwijkingen *achteraf* in geboekte cijfers. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "Analytische review (ratio's, margevergelijking, trendanalyse) wordt uitgevoerd op reeds geregistreerde transacties om onverwachte afwijkingen op te sporen — bv. ongebruikelijk lage brutomarge die op niet-geboekte verkopen of te hoge kortingen kan wijzen. Dat is per definitie een detecterende = repressieve controle. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Analytische procedures worden door de externe auditor gebruikt als *substantive analytical procedures* (ISA 520). Maar als interne-beheersingsmaatregel binnen de organisatie zélf zijn ze repressief: ze detecteren, ze voorkomen niet. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Klassieke interne-controle-doctrine; vgl. ISA 315 (herzien 2019), Bijlage 3 over detecterende monitoringactiviteiten en cijferanalyse. 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien 2019), Bijlage 3; ISA 520"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "f"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Preventief**. Een solvabiliteitsonderzoek *vóór* klantenacceptatie voorkomt dat verkopen op krediet worden afgesloten met een wanbetaler. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "De maatregel grijpt in vóór de transactie: het krediet wordt geweigerd of beperkt op basis van een credit-check (bv. Graydon-rapport, balansanalyse, betalingsgedrag). Het voorkomt het ontstaan van een dubieuze vordering, in plaats van die achteraf te detecteren of te corrigeren. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Klantenacceptatie-procedure als preventieve interne beheersing binnen de verkoopcyclus; vgl. ISA 315 (herzien 2019), Bijlage 3 over autorisatie- en acceptatiecontroles. 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien 2019), Bijlage 3"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "g"
+          }
+        ],
+        "vraag_id": "2013-2-vr12"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1772,7 +2132,101 @@
       "vraag_id": "2013-2-vr12"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-500.md",
+                  "resources/bronnen/normen/ISA-315-herzien.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Nee, niet zonder meer.** De cijfers van de interne boekhouder zijn een uitgangspunt, geen controle-informatie op zich. De externe accountant moet zelf voldoende en geschikte controle-informatie verzamelen om een eigen oordeel te onderbouwen — ook bij een laag risicoprofiel en een sterke interne controle. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-500.md",
+                  "resources/bronnen/normen/ISA-330.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Drie redenen waarom de cijfers van de interne boekhouder onvoldoende zijn als basis:\n\n- **Onafhankelijkheidsbeginsel** — externe controle moet een onafhankelijke beoordeling zijn door iemand buiten de onderneming; de interne boekhouder is per definitie partij en geen externe bevestigingsbron. 🔗\n- **Bewijswaarde van interne stukken** — controle-informatie uit de cliënt zelf is intern bewijs; ISA 500 geeft hoger gewicht aan extern bewijs (bv. bankbevestigingen, leveranciersbevestigingen) en aan eigen waarnemingen van de auditor (bv. de voorraadtelling van 2/12/2013). 📖\n- **Sterke IC ≠ vrijstelling van substantieve controles** — een laag inherent en controle-risico verlaagt de omvang van de substantieve werkzaamheden, maar elimineert ze niet. De accountant moet de IC-werking eerst zelf toetsen (test of controls) vooraleer hij erop kan steunen, en blijft daarnaast substantief werken op materiële posten. 🔗\n\n**Praktisch**: de cijfers van de interne boekhouder vormen het startpunt (proefbalans, grootboek), maar de accountant herrekent, herwaardeert en confronteert met onafhankelijke bronnen (bankafschriften, leveranciersbevestigingen, fysieke voorraadtelling, debiteurenconfirmaties).",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-330.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Het gegeven \"goede interne controle voor aankopen, financieel en verkopen\" betekent dat de accountant **mag steunen op de IC** voor die cycli — mits hij die werking zélf via toetsingen (test of controls) heeft bevestigd. Pas dán kan hij de omvang van zijn substantieve werkzaamheden verminderen. Het is geen carte blanche om de cijfers over te nemen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-500.md",
+                  "resources/bronnen/normen/ISA-315-herzien.md",
+                  "resources/bronnen/normen/ISA-330.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "ISA 500 *Controle-informatie* — de auditor moet voldoende en geschikte controle-informatie verkrijgen; interne bronnen hebben lagere bewijskracht dan externe bevestigingen of eigen waarnemingen. ISA 315 (herzien) + ISA 330 — risico-inschatting en inspelen op risico's: ook bij laag risico blijven substantieve werkzaamheden vereist. Algemene controlenorm ITAA — onafhankelijkheid en eigen oordeelsvorming zijn basisprincipes voor elke controleopdracht. 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 500 · ISA 315 (herzien) · ISA 330 · Algemene controlenorm ITAA"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-501.md",
+                  "resources/bronnen/normen/ISA-500.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Controledoelstelling: waardering** (zijn de getelde landbouwmachines correct gewaardeerd tegen de laagste van aanschaffingswaarde of marktwaarde?). **Techniek: prijsonderzoek** — toets de eenheidsprijzen in de voorraadlijst aan recente aankoopfacturen en vergelijk de boekwaarde met de actuele marktwaarde / recente verkoopprijzen om eventuele waardeverminderingen te detecteren. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-501.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De fysieke aanwezigheid bij de voorraadopname dekt de **bestaan**-bewering af (de machines zijn er, in de getelde hoeveelheid). Tijdens de eigenlijke controlewerkzaamheden moet de accountant de andere beweringen rond de voorraadpost nog afdekken:\n\n- **Waardering** (gekozen) — voor landbouwmachines bijzonder relevant: het zijn duurzame en relatief illiquide goederen waarvan de markt­waarde kan dalen (technische veroudering, modeljaar-wissels, traag-roterende stock). Risico op overwaardering → noodzaak van een waardevermindering.\n- Alternatieve doelstellingen die hier ook valide zijn: **eigendom** (zijn de machines effectief eigendom of staan ze in consignatie/financiering?), **cut-off** (zijn aan- en verkopen rond 30/11/2013 in de juiste periode geboekt?), **volledigheid** (zit alle voorraad op de lijst, ook machines bij klanten op proef of bij derden?).\n\n**Techniek uitgewerkt** (prijsonderzoek voor waardering):\n1. Selecteer een steekproef van getelde machines uit de voorraadlijst.\n2. Toets de aanschaffingswaarde aan de meest recente aankoopfactuur (eenheidsprijs × hoeveelheid).\n3. Vergelijk die aanschaffingswaarde met de actuele verkoopprijs (catalogus, recente verkoopfacturen) minus eventuele afzetkosten → bepaal of een waardevermindering nodig is.\n4. Documenteer in werkdocument met verwijzing naar facturen.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-501.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "ISA 501 noemt expliciet dat de auditor bij de voorraadtelling **niet enkel telt**, maar ook let op kwaliteit, beschadiging, veroudering en stapeling — signalen voor waardevermindering. Voor een handelaar in landbouwmachines zijn typische valkuilen: tweedehands-toestellen tegen volledige aanschaffingswaarde, demonstratie-modellen die als nieuw geboekt blijven, en consignatie-voorraad die niet aan de NV toebehoort. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-501.md",
+                  "resources/bronnen/normen/ISA-500.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "ISA 501 *Controle-informatie — Specifieke overwegingen voor geselecteerde elementen* — voorraadopname dekt bestaan en toestand af; voor waardering, eigendom en cut-off zijn aanvullende werkzaamheden vereist. ISA 500 §A1 e.v. — beweringen rond rekeningssaldi (existence, completeness, rights and obligations, valuation and allocation). 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 501 · ISA 500"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr13"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2424,7 +2878,247 @@
       "vraag_id": "2013-2-vr18"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "PNG-segment pagina_02.png matcht NIET met de Fortunito-vraag (toont Softy BVBA). Vraag-inhoud staat op PDF-pagina 10-11; vision-check uitgevoerd op gerenderde PDF-pagina's (zie meta.json — segmentatie-bug). De f)-berekening blijft kwalitatief: de in de PDF aangekondigde bijlagen (afschrijvingstabel, detail participatie, overzicht handelsvorderingen) zijn niet aanwezig in het PDF-segment — exacte cijfers daarom niet berekenbaar.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Stelling | Antwoord |\n|---|---|\n| (i) Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort? | **Ja** 📖 |\n| (ii) Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan omgezet worden in de BVBA Reflexfort? | **Nee** 🔗 |\n| (iii) Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren? | **Ja** 🔗 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**(i) Ja** — Boek 14 WVV (art. 14:1 e.v.) laat elke vennootschap met rechtspersoonlijkheid toe haar rechtsvorm te wijzigen zonder onderbreking van de rechtspersoonlijkheid. CV → BV is een gangbare en sinds de invoering van het WVV (2019) zelfs vaak aangemoedigde omzetting (de CVBA die niet beantwoordt aan de coöperatieve gedachte werd geacht zich om te zetten). 🔗\n\n**(ii) Nee** — De omzettingsprocedure van Boek 14 WVV is van dwingend recht. Statutaire clausules die het wettelijk recht op omzetting zouden uitsluiten of beperken zijn in beginsel nietig. De aandeelhouders kunnen wel een versterkte meerderheid voor de omzettingsbeslissing afspreken, maar het recht zelf kan niet door de statuten worden uitgesloten. 🔗\n\n**(iii) Ja** — Een collega-accountant die in dezelfde beroepsvereniging zit is geen relatie die de onafhankelijkheid raakt in de zin van art. 9 KB 1 maart 1998 (plichtenleer). De opdracht (verslag over de staat van activa en passiva, art. 14:4 WVV) wordt aangewezen door het bestuursorgaan van de cliënt-vennootschap; jij bent niet de gewone boekhouder of bestuurder van Fortunito. Vooraf moet je nog wel deontologisch nagaan dat (a) je geen andere onverenigbare opdracht voor Fortunito uitvoert, (b) je geen familie- of financiële band hebt met de zaakvoerder en (c) je over de nodige bekwaamheid en tijd beschikt (algemene controlenorm). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:1 e.v. WVV (recht op omzetting — dwingend); art. 14:4 WVV (verslag bedrijfsrevisor of gecertificeerd accountant over de staat van activa en passiva, aangewezen door het bestuursorgaan); art. 9 KB 1 maart 1998 plichtenleer accountants (onafhankelijkheid). 📖",
+                "type": "grondslag",
+                "wetsref": "WVV art. 14:1, 14:4 · KB 1 maart 1998 art. 9"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Nee.** Een proef- en saldibalans volstaat niet — Boek 14 WVV vereist een door het bestuursorgaan opgestelde en ondertekende **staat van activa en passiva** met toepassing van de waarderingsregels en (bij ontbinding/discontinuïteit) eventuele herwaarderingen. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Een proef- en saldibalans is een interne grootboek-uittreksel: zij toont rekeningsaldi maar bevat geen waarderingsoordeel, geen herklassering volgens balansschema (volgens KB WVV), geen vermelding van de waarderingsregels, geen handtekening van het bestuursorgaan en geen formele afsluitdatum overeenkomstig art. 14:4 WVV (max. drie maanden vóór de buitengewone algemene vergadering). Je moet aan het bestuursorgaan vragen om op basis van de boekhouding een **formele staat van activa en passiva** op te stellen, ondertekend door het bestuursorgaan, met vermelding van de waarderingsregels en — indien relevant — een uitleg waarom in continuïteit dan wel in discontinuïteit gewaardeerd wordt. De ITAA-norm omzetting eist dat dit document de basis is van je beoordelingsverslag. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:4 WVV (staat van activa en passiva opgesteld door het bestuursorgaan, niet meer dan drie maanden oud, met vermelding van de waarderingsregels); ITAA-norm omzetting van een vennootschap §VI.1 (de beroepsbeoefenaar baseert zijn beoordeling op de door het bestuursorgaan opgestelde en ondertekende staat). 📖",
+                "type": "grondslag",
+                "wetsref": "WVV art. 14:4 · ITAA-norm omzetting van een vennootschap"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Het bestuursorgaan van de cliënt-vennootschap (CVBA Fortunito) draagt de verantwoordelijkheid over de verstrekte cijfers.** De accountant geeft slechts een beoordeling met beperkte mate van zekerheid; zijn werk ontslaat het bestuursorgaan niet van zijn verantwoordelijkheid. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Voorbeeld waaruit deze verantwoordelijkheid blijkt**: de accountant vraagt aan het bestuursorgaan een **bevestigingsbrief** (representation letter / verklaring van de leiding) waarin het bestuursorgaan uitdrukkelijk verklaart dat de staat van activa en passiva volledig en getrouw is en in overeenstemming met de Belgische boekhoudkundige referentiestelsel werd opgesteld, dat alle activa en passiva erin zijn opgenomen, dat de waarderingsregels correct werden toegepast en dat het bestuursorgaan alle relevante informatie aan de beroepsbeoefenaar heeft bezorgd. Andere geldige voorbeelden: de **handtekening** van de bestuurders onder de staat van activa en passiva, of de notulen van het bestuursorgaan dat de staat formeel goedkeurt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-norm omzetting van een vennootschap, §Verantwoordelijkheden van het bestuursorgaan: \"De beoordeling van de staat van activa en passiva door [de commissaris/de bedrijfsrevisor/gecertificeerd accountant] ontslaat noch het bestuursorgaan, noch de voor financiën en administratie verantwoordelijke personen van hun verantwoordelijkheid\". Art. 14:12 WVV regelt de hoofdelijke aansprakelijkheid van het bestuursorgaan bij overwaardering van het nettoactief. 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA-norm omzetting · WVV art. 14:12"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Drie stukken die in elk werkdossier van een wettelijke opdracht (zoals een omzettingsverslag) thuishoren en die vóór het cijferwerk worden opgevraagd:\n\n1. **Opdrachtbrief** ondertekend door het bestuursorgaan — identificatie van de beroepsbeoefenaar en zijn hoedanigheid, beschrijving van de opdracht met verwijzing naar art. 14:4 (of 14:21) WVV en naar de ITAA-norm omzetting, verantwoordelijkheden van beide partijen, ereloon en gebruiksbeperking van het verslag. 📖\n2. **Recente gecoördineerde statuten + uittreksel KBO** — om de juridische bestaanstoestand, de huidige rechtsvorm (CVBA), de zetel, de bestuurders en eventuele statutaire clausules over omzetting/overdracht te kunnen verifiëren. 🔗\n3. **Notulen van het bestuursorgaan** met de **beslissing tot omzettingsvoorstel** en de **goedgekeurde staat van activa en passiva** (ondertekend door het bestuursorgaan, met de toegepaste waarderingsregels en motivering van continuïteit/discontinuïteit) — basisdocument waarop het beoordelingsverslag steunt. 📖\n\n*(Andere even valide voorbeelden: aanvaardingsbrief/onafhankelijkheidsverklaring, ontwerp van bijzonder verslag bestuursorgaan art. 14:3 WVV, laatste goedgekeurde jaarrekening + recente proef- en saldibalans, opdrachtdossier voorganger indien deze er was — Cliëntenacceptatieprocedure ITAA.)* 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-norm omzetting van een vennootschap §II.3 (opdrachtbrief — verplicht voorafgaand element); §III (cliëntenacceptatie en planning); algemene controlenorm ITAA §1 (werkdossier-vereisten). WVV art. 14:3 (bijzonder verslag bestuursorgaan) en art. 14:4 (staat van activa en passiva). 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA-norm omzetting §II.3 · algemene controlenorm ITAA · WVV art. 14:3-14:4"
+              }
+            ],
+            "id": "d"
+          },
+          {
+            "antwoord_status": "niet_beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "tekst": "Deelvraag e) ontbreekt in de OCR (interpretatie-flag `subvraag_zonder_inhoud`). In het PDF-bronbestand is e) eveneens leeg — alleen \"Antwoord … / 3 punten\" staat vermeld. Mogelijk gaat het om een typografische glitch waarbij vraag d) en e) samenvielen, of om een verdere vraag rond bijkomende werkdossier-vereisten / een tussenstap in de omzettingsprocedure. Geen antwoord mogelijk zonder bijkomende bron. ❓",
+                "type": "conclusie"
+              }
+            ],
+            "id": "e"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De correcties op het actief (kwalitatief — exacte bedragen vereisen de bijlagen *afschrijvingstabel*, *detail participatie* en *overzicht handelsvorderingen*, die niet bij de OCR/PDF zaten):\n\n1. **230900 — Afschrijving installaties**: het saldo ontbreekt in de staat. Op een actiefpost van € 32.000 moet de geaccumuleerde afschrijving per 30/09/2013 worden opgenomen (negatief naar het actief). Bedrag = saldo volgens afschrijvingstabel; voor een tussentijdse staat per 30/09 moet bovendien de **pro-rata afschrijving 01/01-30/09/2013** (9 maanden) worden toegevoegd, ook al sluit het statutair boekjaar pas op 31/12. 🔗\n2. **280000 — Aandelen O'Cool € 30.000 (financiële vaste activa)**: nagaan of er een **duurzame minderwaarde** is en zo ja een **waardevermindering** boeken (art. 3:46 KB WVV). De waarde aan kostprijs blijft behouden zolang geen duurzame minderwaarde wordt vastgesteld; bij omzetting in discontinuïteit valt terug op realisatiewaarde. Concreet: detail participatie bekijken (nettoactief van O'Cool, recent dividend, beursnotering), correctie = kostprijs − realiseerbare waarde. 🔗\n3. **400000 — Handelsdebiteuren € 215.100**: het overzicht handelsvorderingen analyseren op **dubieuze debiteuren** (oude saldi, geschillen, insolventie). Voor elke vordering waarvan de inning onzeker is, een **waardevermindering** boeken (491/634); volledig oninbare vorderingen afboeken via 642 minderwaarde. 🔗\n4. **411000 — Terug te vorderen BTW € 6.020,17**: controleren of dit bedrag aansluit op de **laatste BTW-aangifte/-vaststelling** (saldo na compensaties); indien een teruggave werd ontvangen tussen statutaire boeking en 30/09, post afboeken. Veelal géén materieel correctie indien aansluiting met BTW-rekening klopt. 🔗\n5. **Periode-afgrenzingen (algemeen)**: omdat de staat op een **tussentijdse datum (30/09)** valt en niet op een balansdatum, moeten er **overlopende rekeningen** worden opgemaakt voor verkregen opbrengsten en vooruitbetaalde kosten die op het actief horen (rekening 49.). Zonder de detailboekhouding is de exacte impact niet kwantificeerbaar. 🔗\n\n**Niet te corrigeren** (geen actief-correctie nodig): 550000 Bankrekening (mits aansluitend op bankuittreksel 30/09 — controle via reconciliatie).",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De vraag vraagt **enkel actief-correcties**, dus géén passieva-correcties zoals voorzieningen voor vakantiegeld, pro-rata RSZ-schuld of belastingschuld. Vergeet ook niet dat een omzetting **niet automatisch** een waardering in discontinuïteit vereist: dat is enkel zo bij omzetting in een vennootschap met beperkte aansprakelijkheid waarbij de continuïteit in gevaar is, of bij gelijktijdige (geplande) ontbinding. Hier blijft de onderneming in continuïteit (CV → BV is gewone omzetting), dus waardering blijft in continuïteit — herwaarderingen zijn uitzonderlijk. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "KB WVV art. 3:6 (waarderingsbeginselen — continuïteit/discontinuïteit), art. 3:43-3:46 (waarderingsregels VVA, afschrijvingen en waardeverminderingen op financiële vaste activa), art. 3:54 (waardering vorderingen — waardeverminderingen indien onzeker). ITAA-norm omzetting §V (beoordelingswerkzaamheden gericht op nettoactief). 📖",
+                "type": "grondslag",
+                "wetsref": "KB WVV art. 3:6, 3:43-3:46, 3:54 · ITAA-norm omzetting §V"
+              }
+            ],
+            "id": "f"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee vermeldingen in het **besluit** van het beoordelingsverslag, voortvloeiend uit de vaststellingen:\n\n1. **Vermelding van de doorgevoerde correcties op het nettoactief** — het verslag vermeldt uitdrukkelijk welke correcties t.o.v. de oorspronkelijk door het bestuursorgaan voorgelegde staat noodzakelijk zijn gebleken (ontbrekende afschrijving installaties, eventuele waardeverminderingen op aandelen O'Cool en op dubieuze handelsvorderingen), met het **gecorrigeerde nettoactief** als uitkomst. 🔗\n2. **Verklaring dat het nettoactief (na correcties), in alle van materieel belang zijnde opzichten, niet is overgewaardeerd** — dit is de wettelijk verplichte kernconclusie van art. 14:4 WVV. Zonder deze vermelding is het verslag onvolledig. 📖\n\n*(Bijkomend mogelijk: vermelding van een onthouding indien onvoldoende bewijs bekomen, of voorbehoud indien correcties materieel zijn maar het bestuursorgaan ze weigert door te voeren.)*",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:4 WVV (verslag vermeldt inzonderheid of het nettoactief is overgewaardeerd); ITAA-norm omzetting §VI.3 \"Verslag\" (verplichte vermeldingen — beschrijving werkzaamheden, vaststellingen, conclusie nettoactief); bijlage 3 model-verslag. 📖",
+                "type": "grondslag",
+                "wetsref": "WVV art. 14:4 · ITAA-norm omzetting §VI.3 + bijlage 3"
+              }
+            ],
+            "id": "g"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het specifieke risico dat in het besluit moet worden opgenomen, gaat over de **omvang van het nettoactief in verhouding tot het wettelijk minimumkapitaal van de doelvennootschapsvorm (BVBA / BV)** — meer bepaald het risico van **hoofdelijke aansprakelijkheid van de oprichters/bestuurders** indien dit minimum bij omzetting niet gedekt is. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Indicatieve formulering:\n\n> *\"Wij vestigen de aandacht van de algemene vergadering op het feit dat, na de hierboven beschreven correcties, het nettoactief van de vennootschap [hoger / lager] is dan [het bedrag van het maatschappelijk kapitaal van de op te richten BV / het bedrag dat overeenkomstig artikel 5:3 WVV als toereikend aanvangsvermogen kan worden beschouwd]. Indien het nettoactief bij omzetting kleiner blijkt dan het in de oprichtingsakte vermelde kapitaal van de BV (of, voor een BV onder het WVV, dan het door het bestuursorgaan in het financieel plan vermelde toereikend aanvangsvermogen), zijn de oprichters/bestuurders krachtens artikel 14:12 WVV jegens belanghebbenden hoofdelijk gehouden tot vergoeding van het verschil. Wij wijzen erop dat de verantwoordelijkheid voor de juistheid en de volledigheid van de cijfers bij het bestuursorgaan blijft berusten.\"* 🔗\n\nDe **aandachtspunt-paragraaf** is de juiste vorm: het is een vermelding zonder de conclusie te wijzigen, om de gebruikers (algemene vergadering, notaris) attent te maken op een belangrijk gegeven uit de staat van activa en passiva. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:12 WVV (hoofdelijke aansprakelijkheid bij omzetting: o.a. voor het verschil tussen het nettoactief van de vennootschap ná omzetting en het wettelijk voorgeschreven minimumbedrag van het kapitaal/toereikend aanvangsvermogen); art. 5:3 WVV (toereikend aanvangsvermogen BV — kapitaalbegrip in BV is afgeschaft sinds WVV 2019); ITAA-norm omzetting §VI.3 (aandachtspunt-paragraaf). 📖",
+                "type": "grondslag",
+                "wetsref": "WVV art. 14:12 · WVV art. 5:3 · ITAA-norm omzetting §VI.3"
+              }
+            ],
+            "id": "h"
+          }
+        ],
+        "vraag_id": "2013-2-vr19"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

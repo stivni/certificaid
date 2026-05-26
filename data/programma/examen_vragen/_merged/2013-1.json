@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-1.pdf",
   "examen_id": "2013-1",
-  "merge_datum": "2026-05-26T15:05:37+00:00",
+  "merge_datum": "2026-05-26T15:14:05+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -1416,7 +1416,46 @@
       "vraag_id": "2013-1-vr7"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het bestuursorgaan wil via interne controle een redelijke zekerheid bereiken over vier doelstellingen:\n\n1. **Bescherming van de activa van de onderneming** — vrijwaring van het patrimonium tegen verlies, diefstal, verspilling, fraude of misbruik. 🔗\n2. **Betrouwbaarheid van de financiële (en beheers-)informatie** — juistheid, volledigheid en tijdigheid van interne rapportering en externe jaarrekening. 📖\n3. **Effectiviteit en efficiëntie van de bedrijfsvoering** — operationele doelstellingen worden gehaald met optimaal gebruik van middelen. 📖\n4. **Naleving van de van toepassing zijnde wet- en regelgeving** — externe wetgeving (fiscaal, sociaal, WVV...) én interne richtlijnen/procedures. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "COSO-2013 en het ITAA KMO-controlekader (ISA 315-conform) groeperen deze doelstellingen onder **drie** categorieën — *reporting*, *operations*, *compliance* — waarbij \"bescherming van activa\" wordt beschouwd als onderdeel van *operations*. De klassieke Belgische examen-doctrine (en oudere doctrine zoals B. Theunissen, IBR-cursus interne controle) hanteert nog steeds de vier-deling met activa-bescherming als afzonderlijke pijler, omdat dit historisch het accountantsperspectief op activabeheer benadrukt. Beide indelingen worden in examens aanvaard; de vier-deling is hier expliciet gevraagd. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md",
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA KMO-controlenorm — *Bijlage 1 Definities*: \"Interne beheersing: het proces dat is opgezet, wordt geïmplementeerd en gesuperviseerd door het toezichthoudend orgaan, het management, de met governance belaste personen en andere personeelsleden met als doel een redelijke mate van zekerheid te verschaffen dat de doelstellingen [...] met betrekking tot de betrouwbaarheid van de financiële verslaggeving, de effectiviteit en efficiëntie van de uitoefening van de activiteiten alsmede het naleven van de van toepassing zijnde wet- en regelgeving worden bereikt.\" De bescherming-van-activa-pijler vloeit voort uit de oudere COSO-1992 / IBR-doctrine en wordt in Belgische accountancy-handboeken consistent als vierde doelstelling vermeld. 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA KMO-controlenorm, Bijlage 1 (definitie interne beheersing); ISA 315 (herzien-2019), §12(m) en bijlage 3"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr8"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1468,7 +1507,62 @@
       "vraag_id": "2013-1-vr8"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Voorbeeldprocedure met **drie** controletechnische functiescheidingen (beschikken — uitvoeren — registreren — controleren — bewaren). De **werknemer** doet de uitgave en levert het stavingstuk in; de **diensthoofd/zaakvoerder** keurt de terugbetaling goed (beschikkende functie); de **secretaresse** betaalt uit kas en houdt de kas (uitvoerende + bewarende functie op haar kas); de **boekhouder** boekt de uitgave in de boekhouding (registrerende functie); de **zaakvoerder of een tweede persoon** voert periodiek (bv. maandelijks) een kascontrole uit met telling en aansluiting op het kasboek (controlerende functie). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Procedure stap voor stap** — met aanduiding van de functiescheiding bij elke stap:\n\n1. **Initiëren van de uitgave** — De werknemer doet een kleine uitgave (bv. parkeerkosten, kantoorbenodigdheden) en bewaart het originele kassticket/factuur. Hij vult een onkostennota in met datum, bedrag en aard en hecht het stavingstuk aan. 🤖\n2. **Goedkeuren — *beschikkende functie*** — De zaakvoerder (of het diensthoofd) controleert of de uitgave bedrijfsmatig en redelijk is en parafeert de onkostennota vóór terugbetaling. Zonder paraaf geen uitbetaling. 🔗\n3. **Uitbetalen + bewaren — *uitvoerende + bewarende functie*** — De secretaresse betaalt het bedrag uit de kas, laat de werknemer aftekenen op de onkostennota en bewaart deze + het stavingstuk in haar kasdossier. 🔗\n4. **Registreren — *registrerende functie*** — De **boekhouder** (een andere persoon dan de secretaresse) boekt de uitgave op basis van de gegoedgekeurde onkostennota op de gepaste kostenrekening en mutaties op de kasrekening (zonder zelf toegang tot de kas). 🔗\n5. **Periodieke kascontrole — *controlerende functie*** — Minstens maandelijks telt de zaakvoerder (of een derde persoon, niet de secretaresse en niet de boekhouder) de kas en sluit deze aan op het saldo van de boekhouding en op de bewaarde onkostennota's. Een proces-verbaal van de kascontrole wordt door beide partijen ondertekend. 🔗\n\n**De vereiste twee functiescheidingen zijn in deze procedure ruim aanwezig**: (i) de **beschikkende** functie (zaakvoerder — goedkeuring) is gescheiden van de **uitvoerende** functie (secretaresse — uitbetaling); (ii) de **uitvoerende/bewarende** functie (secretaresse — kas) is gescheiden van de **registrerende** functie (boekhouder — boeking); (iii) de **controlerende** functie (kascontrole) is gescheiden van wie de kas voert. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De **klassieke vijf controletechnische functies** zijn: **B**eschikken — **U**itvoeren — **R**egistreren — **C**ontroleren — **B**ewaren (ezelsbruggetje **BURCB**). De basisregel: deze functies moeten over verschillende personen verdeeld zijn opdat geen enkele persoon een volledige transactie alleen kan initiëren, uitvoeren én verbergen. Vraag-goed-lezen: \"minimaal twee functiescheidingen\" is een **minimum**; een volwaardige procedure raakt er meestal drie of vier. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "In een **kleine BVBA / familiaal bedrijf** is volledige functiescheiding vaak praktisch onhaalbaar (te weinig personeel). ISA 315 (herzien-2019) erkent dit uitdrukkelijk: bij minder complexe entiteiten kan **direct toezicht door de zaakvoerder-eigenaar** (bv. zelf de kascontrole doen + alle onkostennota's paraferén) compenseren voor beperkte functiescheiding. In het examenantwoord: vermeld die compenserende controle expliciet — alleen \"er is geen functiescheiding mogelijk\" is geen aanvaardbaar antwoord. 🔖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**ISA 315 (herzien-2019), §A157**: \"Het kan minder praktisch uitvoerbaar zijn om functiescheiding in minder complexe entiteiten met minder medewerkers tot stand te brengen. In een door de eigenaar bestuurde entiteit kan de eigenaar-bestuurder echter mogelijk meer effectief toezicht uitoefenen door directe betrokkenheid … wat de over het algemeen beperktere mogelijkheden voor functiescheiding kan compenseren.\" De vijf controletechnische functies (beschikken/uitvoeren/registreren/controleren/bewaren) zijn klassieke audit-doctrine — niet wettelijk vastgelegd in een specifiek artikel, maar standaard in interne-controle-leerboeken en impliciet in ISA 315 §26 (interne beheersingsactiviteiten). 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien-2019), §A157 + §26"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr9"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "cluster_actie": "merge_one_antwoord",
@@ -1525,7 +1619,56 @@
       "vraag_id": "2013-1-vr9"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-520.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vergelijking van de gerealiseerde brutomarge per verkochte werfkraan met de begrote/historische brutomarge** — de interne controleafdeling neemt de tussentijdse verkoopcijfers, deelt door het aantal verkochte kranen en confronteert het resultaat met budget, vorige periode en/of voorraadbeweging; significante afwijkingen worden onderzocht. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-520.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Een analytische test (cijferanalyse) onderzoekt **plausibele relaties** tussen financiële en niet-financiële gegevens en signaleert fluctuaties die afwijken van de verwachte waarden. 📖 Concreet voor werfkranen-handel kan de interne controleafdeling op tussentijdse resultaten bijvoorbeeld:\n\n- de **gerealiseerde omzet vergelijken met budget** of met dezelfde periode vorig jaar (trendanalyse); 🔗\n- het **brutomargepercentage per kraan** berekenen en vergelijken met de verwachting (verband tussen verkoopprijs en aankoopkostprijs); 🔗\n- de **omzet per verkoper / per regio** uitzetten tegen het aantal verkochte eenheden (verband financieel ↔ niet-financieel, vgl. \"loonkosten per werknemer\"-voorbeeld in ISA 520 A2); 📖\n- de **voorraadrotatie** (aantal kranen in stock t.o.v. tussentijdse verkopen) toetsen aan een norm-rotatie. 🔗\n\nDe test bestaat dus uit: verwachting opstellen → vergelijken met werkelijkheid → afwijking onderzoeken. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-520.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Eén voorbeeld volstaat — de vraag vraagt niet om een uitputtende lijst. Kies een voorbeeld dat de **drie kenmerken van een analytische test** zichtbaar maakt: (1) een berekende verhouding of vergelijking, (2) een verwachte waarde (budget, vorig jaar, branche, niet-financiële driver) en (3) een opvolgingsactie bij afwijking. Een loutere \"omzet kijken\" zonder benchmark is géén analytische test maar een gewone inzage. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-520.md",
+                  "resources/bronnen/normen/ISA-330.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ISA 520 *Cijferanalyses* §4 + §A1-A2: cijferanalyse = evaluatie van financiële informatie door analyse van plausibele relaties — vergelijking met voorgaande periodes, budgetten/prognoses, branche-informatie, of verbanden zoals brutomargepercentages of loonkosten per werknemer. 📖 ISA 330 §A57 e.v. behandelt gegevensgerichte controles (incl. cijferanalyses) uitgevoerd op een **tussentijdse datum** vóór einddatum verslagperiode. 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 520 §4 en §A1-A3; ISA 330 §A55-A60"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr10"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1577,7 +1720,53 @@
       "vraag_id": "2013-1-vr10"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-610-herzien.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Een budget voor de interne controleafdeling is het sturings- en onafhankelijkheidsinstrument van de functie: het verankert vooraf de **middelen** (mensen, dagen, opleiding, tooling) die nodig zijn om het risicogebaseerd auditplan te realiseren, het maakt de functie **planbaar en afrekenbaar** ten aanzien van het auditcomite/bestuur, en het beschermt haar **operationele onafhankelijkheid** doordat resources niet ad hoc door het uitvoerend management kunnen worden teruggeschroefd. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-610-herzien.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vier functies van het budget**:\n\n- **Resource-allocatie en planning** — Vertaalt het jaarlijks risicogebaseerd auditplan in concrete mens-dagen, externe expertise (IT-audit, fiscaal, actuarieel) en opleidingsuren; zonder budget blijft het auditplan een wens. 🔗\n- **Waarborg van onafhankelijkheid en reikwijdte** — Een vooraf door het auditcomite/bestuur goedgekeurd budget voorkomt dat het uitvoerend management de scope feitelijk inperkt door middelen te onthouden; dit sluit aan bij het ISA 610-vereiste dat de interne auditfunctie geen beperkingen krijgt opgelegd. 📖\n- **Verantwoording en performance-meting** — Realisatie versus budget (bestede uren per opdracht, dekkingsgraad van het auditplan, kost per audit) maakt de functie meetbaar en stuurbaar door de leidinggevende interne auditor en het auditcomite. 🔗\n- **Prioritering en risico-afstemming** — Een beperkt budget dwingt expliciete keuzes op basis van risico-inschatting (welke entiteiten/processen wel of niet in scope dit jaar) en maakt restrisico zichtbaar voor governance — geen impliciete blinde vlekken. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De interne controleafdeling (interne auditfunctie) is **geen wettelijk verplicht orgaan** in de Belgische vennootschap — behalve voor genoteerde, krediet- en verzekeringsinstellingen (sectorale regelgeving). Waar ze bestaat, hoort ze functioneel te rapporteren aan het auditcomite of de raad van bestuur, niet aan het uitvoerend management. Het budget volgt diezelfde governance-lijn: goedkeuring door auditcomite, niet door de CFO alleen — anders ondergraaft het de onafhankelijkheid. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-610-herzien.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het belang van toereikende middelen voor de interne auditfunctie is geen Belgische wettekst-bepaling maar volgt uit de auditing-doctrine: **ISA 610 (herzien)** vereist dat de externe auditor evalueert of de interne auditfunctie beschikt over voldoende middelen en niet aan beperkingen onderhevig is om haar werkzaamheden uit te voeren — een werkbaar budget is daarvan de operationele uitdrukking. Onderliggend referentiekader: **IIA International Professional Practices Framework** (Standards 2020 *Planning* en 2030 *Resource Management*: de chief audit executive moet de toereikendheid van middelen aan bestuur en management rapporteren). 🔗",
+                "type": "grondslag",
+                "wetsref": "ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors; IIA IPPF Standards 2020/2030"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr11"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1624,7 +1813,58 @@
       "vraag_id": "2013-1-vr11"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-505.md",
+                  "resources/bronnen/normen/ISA-500.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Omdat de boekhouding alleen bevestigt wat de onderneming **zelf** heeft geregistreerd. Een schriftelijke confirmatie bij de leverancier is een **onafhankelijke, externe** controle-informatiebron die toelaat de **volledigheid** van de geboekte schulden te toetsen — d.w.z. of er geen facturen, vervallen verplichtingen of geschillen ontbreken in de boeken. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-505.md",
+                  "resources/bronnen/normen/ISA-500.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concrete redenen waarom de boekhouding alléén onvoldoende waarborg biedt en confirmatie nodig is:\n\n- **Volledigheidsrisico (under-statement)**: bij leveranciersschulden is de natuurlijke fout-richting *te weinig boeken* (niet-ontvangen of niet-geregistreerde facturen, cut-off-fouten rond jaareinde). De boekhouding kan dit per definitie niet aan het licht brengen — wat niet geboekt is, staat er niet in. 🔗\n- **Onafhankelijke bron**: de leverancier heeft geen belang bij dezelfde voorstelling van zaken als de gecontroleerde entiteit; een rechtstreeks antwoord van de derde partij is daarom betrouwbaarder dan een intern document (ISA 500 — controle-informatie is overtuigender naarmate ze uit onafhankelijke externe bron komt). 📖\n- **Detectie van fraude en collusie**: interne manipulatie van leveranciersrekeningen (fictieve leveranciers, ongeregistreerde verplichtingen om de schuldgraad gunstiger voor te stellen, verduistering via valse facturen) wordt niet zichtbaar in de boekhouding zelf maar wel in een afwijking tussen het door de leverancier bevestigde saldo en het geboekte saldo. 🔗\n- **Verificatie van saldi, voorwaarden en geschillen**: confirmatie dekt niet alleen het openstaande bedrag maar ook betalingstermijnen, kortingen, waarborgen, lopende geschillen en eventuele off-balance-verplichtingen die in de boekhouding ontbreken of onjuist gerubriceerd zijn. 🔗\n- **Periodieke werking — preventief effect**: het feit dat de interne controle *systematisch* confirmaties uitstuurt werkt afschrikkend voor manipulatie binnen de aankoop- en betalingscyclus. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-505.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Bij **leveranciers** geldt — anders dan bij klantenconfirmaties — vaak de voorkeur voor een **blanco (positieve) confirmatie**: men vraagt de leverancier het volledige openstaande saldo en de detailposten op te geven, zonder een bedrag voor te stellen. Reden: het volledigheidsrisico kan men niet afdekken door de leverancier enkel een door de entiteit zelf opgegeven saldo te laten bevestigen — dan zou een ontbrekende factuur onzichtbaar blijven. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-505.md",
+                  "resources/bronnen/normen/ISA-500.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ISA 505 *Externe bevestigingen* — externe bevestiging is controle-informatie verkregen als rechtstreeks schriftelijk antwoord van een derde partij aan de auditor; de auditor (resp. de interne controleafdeling) beheerst zelf het verzoek, de selectie van de bevestigende partij en de ontvangst. 📖 ISA 500 §A5 — controle-informatie is overtuigender wanneer ze uit onafhankelijke bronnen buiten de entiteit wordt verkregen. 📖 Werkzaamheden inzake externe bevestiging zijn bij uitstek relevant voor beweringen omtrent rekeningssaldi (volledigheid, bestaan, waardering) zoals leveranciersschulden. 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 505 §§5-7 + ISA 500 §A5"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr12"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1672,7 +1912,69 @@
       "vraag_id": "2013-1-vr12"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md",
+                  "resources/bronnen/normen/ISA-240.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Rode draad: de boekhouder combineert in zijn eentje **registratie van vorderingen/schulden**, **behandeling van ontvangsten/cheques** en **autorisatie van creditnota's en onkostennota's** — een gebrek aan **functiescheiding** (ISA 315 Bijlage 3) dat **asset misappropriation** mogelijk maakt en verhult. Voor elke vaststelling geldt eenzelfde mitigatie-logica: scheiden van de drie onverenigbare functies (autoriseren · registreren · bewaren), dual control op uitgaande geldstromen, en onafhankelijke afstemmingen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md",
+                  "resources/bronnen/normen/ISA-240.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vijf vaststellingen — probleem en maatregelen",
+                "tekst": "| # | Vaststelling | Probleem (controle-zwakte) | Maatregelen |\n|---|---|---|---|\n| 1 | **Lapping van klantbetalingen via cheque** (~€80.000): cheques van klant A geboekt op saldo van klant B, waardoor de boekhouder zichzelf doorlopend voorschot bezorgt. | Geen **functiescheiding tussen ontvangst van waarden (cheques) en boeking van klantenrekeningen**; geen onafhankelijke matching ontvangst ↔ vordering; geen periodieke saldobevestiging bij klanten. 🔗 | (a) Cheques laten openen/registreren door iemand anders dan de boekhouder (bv. directie-secretariaat) — onmiddellijke pre-list opstellen. (b) Cheques laten **kruisen** (\"niet-overdraagbaar\") en uitsluitend op bedrijfsrekening laten incasseren. (c) Migreren naar **bankoverschrijvingen / domiciliëringen** in plaats van cheques. (d) **Saldobevestigingen** ten minste jaarlijks door externe partij (accountant). (e) Periodieke **ouderdomsbalans klanten** door iemand anders dan de boekhouder. 🔗 |\n| 2 | **Verdwenen oude leveranciersschulden** (€200.000) doorgestort naar eigen rekening. | Boekhouder kan zelf **leveranciersrekeningen muteren én betalingen uitvoeren** — geen four-eyes op uitgaande betalingen, geen bewaking van afgeboekte schulden, geen check leverancier-IBAN. 🔗 | (a) **Dual signature / four-eyes** voor alle uitgaande betalingen boven een drempel (bedrijfsleider co-tekent). (b) **Beveiligde leveranciers-masterfile**: aanmaken/wijzigen IBAN enkel door iemand anders dan wie betalingen voorbereidt; logging van wijzigingen. (c) Periodieke **leveranciers-confirmaties** en analyse van **afgeboekte/oude saldi** door externe controle. (d) Bankrekening-uittreksels rechtstreeks aan de bedrijfsleider (niet via boekhouder). 🔗 |\n| 3 | **Fictieve creditnota's** voor kleine bedragen aan klanten, uitbetaald op rekening van de boekhouder. | Boekhouder kan in zijn eentje creditnota's **opstellen, boeken én laten uitbetalen** — geen autorisatie-drempel, geen check IBAN-begunstigde ↔ klanten-masterfile. 🔗 | (a) **Verplichte autorisatie** van elke creditnota door commercieel verantwoordelijke of bedrijfsleider; bewijs van onderliggende reden (retour, prijscorrectie). (b) **Periodieke analyse** van creditnota-volume per klant / per opsteller (kleine, frequente creditnota's = red flag — ISA 240 Bijlage 1). (c) Terugbetaling enkel op het **oorspronkelijke IBAN van de klant**, automatisch gecontroleerd. (d) Statistische **analytische review**: ratio creditnota's / omzet, evolutie per periode. 🔗 |\n| 4 | **Aangepaste onkostennota's** van collega's (cijfer toegevoegd) — verschil naar eigen rekening. | Onkostennota's worden **eenzijdig door boekhouder bewerkt en uitbetaald** — geen tegentekening door indiener, geen onafhankelijke goedkeuring, betaling kan naar een ander IBAN dan dat van de werknemer. 🔗 | (a) Werknemer **ondertekent eindbedrag** van eigen onkostennota; kopie blijft bij werknemer. (b) **Goedkeuring door direct leidinggevende** vóór betaling. (c) Betaling **enkel op het persoonlijke loon-IBAN** van de werknemer (gekoppeld aan HR-masterfile, niet wijzigbaar door boekhouding). (d) Periodieke **steekproef** door bedrijfsleider: onkostennota ↔ uitbetaald bedrag ↔ begunstigde-IBAN. 🔗 |\n| 5 | **Dubbele klantbetaling** (€27.000) doorgestort naar eigen rekening; geen spoor in boekhouding. | Boekhouder kan **inkomende overschotten omleiden** zonder dat dit detecteerbaar is — geen onafhankelijke bankreconciliatie, geen controle op niet-toegewezen ontvangsten (\"suspense\"-rekening). 🔗 | (a) **Bankreconciliatie maandelijks door iemand anders** dan wie boekingen doet (bedrijfsleider, externe accountant, of collega). (b) **Verplichte suspense-rekening** voor niet-identificeerbare ontvangsten — saldo moet periodiek door derde worden opgehelderd. (c) **Saldobevestigingen** bij klanten met openstaand saldo én bij klanten met saldo nul (om verzwegen overbetalingen te detecteren). (d) **Beveiliging IBAN-bestand** begunstigden — IBAN van de boekhouder mag nooit op een klanten- of leveranciers-masterfile staan. 🔗 |\n",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "De vijf vaststellingen zijn schoolvoorbeelden van **\"asset misappropriation\"** in de ACFE-typologie (oneigenlijke toe-eigening van activa) — de meest voorkomende, doch financieel doorgaans minst materiële fraudecategorie. De gemene deler is dat **één persoon de drie onverenigbare functies cumuleert**: autoriseren (creditnota's, onkostennota's, betalingen), registreren (boekhouding) en bewaren van waarden (cheques, banktoegang). ISA 315 Bijlage 3 noemt dit expliciet als de kernreden voor functiescheiding: \"beperkingen aanbrengen in de mogelijkheden voor wie dan ook om bij de uitoefening van zijn normale taken (...) fraude te plegen en te verhullen\". 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Bij **kleine ondernemingen** (zoals NV SLA-BAK) is volledige functiescheiding vaak niet kosten-effectief — ISA 315 Bijlage 3 erkent dit uitdrukkelijk. Het antwoord moet dus realistisch zijn: waar scheiding niet haalbaar is, moet het **management compenserende detective controls** inrichten (bedrijfsleider tekent zelf bankuittreksels af, externe accountant doet periodieke saldobevestigingen, vier-ogen op uitgaande betalingen). De zwakte hier is niet dat de boekhouder veel taken combineerde — wél dat **geen enkele compenserende controle** door de bedrijfsleider werd uitgeoefend. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md",
+                  "resources/bronnen/normen/ISA-240.md",
+                  "resources/bronnen/adviezen/CBN-0004-04-beginsel-van-het-dubbel-boekhouden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**ISA 315 (herzien 2019), Bijlage 3** — Functiescheiding scheidt drie verantwoordelijkheden: **autoriseren van transacties · vastleggen van transacties · bewaren van activa**, en is bedoeld om fouten en fraude te beperken én te helpen detecteren. Bij kleine entiteiten waar scheiding niet haalbaar is, moet het management **alternatieve (detective) interne beheersingsmaatregelen** instellen. 📖\n\n**ISA 240** — De auditor handhaaft een **professioneel-kritische instelling** ten aanzien van frauderisico's; Bijlage 2 geeft voorbeelden van controlewerkzaamheden voor risico op **oneigenlijke toe-eigening van activa** (klantbevestigingen, onaangekondigde kasopnames, analyse van creditnota's en niet-routinetransacties). 📖\n\n**CBN-advies 4/4** — Creditnota's volgen het beginsel van het dubbel boekhouden en moeten dezelfde boekingswijze hebben in dagboek én rekeningen; afwijkingen verhullen mutaties en breken de auditspoor — relevant voor vaststelling 3. 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 315 Bijlage 3 · ISA 240 · CBN-advies 4/4"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr13"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1974,7 +2276,147 @@
       "vraag_id": "2013-1-vr15"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-boek-2.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Voorwerp**: een controle-opdracht (beoordelingsopdracht) over de **staat van activa en passiva** die het bestuursorgaan opmaakt ter onderbouwing van het ontbindingsvoorstel. **Doel**: aan de algemene vergadering schriftelijk verslag uitbrengen of die staat **een getrouw beeld** geeft van het vermogen van de vennootschap en in voorkomend geval **vermelden of er overwaardering is** van activa of onderwaardering van passiva. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-boek-2.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Bij elk voorstel tot vrijwillige ontbinding van een BV, CV, NV, SE of SCE legt het bestuursorgaan aan de AV (i) een **verslag** voor dat het voorstel toelicht en (ii) een daaraan gehechte **staat van activa en passiva**, vastgesteld op een datum die maximaal **drie maanden** vóór de AV ligt (art. 2:71, § 2 WVV). 📖\n\nOver die staat brengt een **commissaris**, of bij gebrek daaraan een door het bestuursorgaan aangewezen **bedrijfsrevisor of externe gecertificeerd accountant**, schriftelijk verslag uit aan de AV. De beroepsbeoefenaar (i) **beoordeelt** of de staat **getrouw, volledig en juist** de toestand van de vennootschap weergeeft conform het toepasselijke boekhoudkundig referentiestelsel en (ii) vermeldt **uitdrukkelijk** of er sprake is van overwaardering van activa of onderwaardering van passiva (art. 2:71, § 2, lid 3 WVV; ITAA-norm ontbinding-vereffening). 🔗\n\nHet is dus geen *audit* in de zin van een wettelijke jaarrekeningcontrole, maar een **specifieke wettelijke controle-opdracht** met een eigen modelverslag (Bijlage 3 van de ITAA-norm). De opdracht **ontslaat het bestuursorgaan niet** van zijn eigen verantwoordelijkheid voor de staat. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-boek-2.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Zonder dit verslag (en zonder het bestuurdersverslag) kan de AV **niet rechtsgeldig** beslissen tot ontbinding — de beslissing zou nietig zijn (art. 2:71, § 3 WVV). De accountant heeft hier dus een **constitutieve** rol in de geldigheid van het ontbindingsbesluit. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-boek-2.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. **2:71, § 2 WVV** (verslag bestuursorgaan + staat van A&P + controleverslag commissaris/bedrijfsrevisor/GA met expliciete vermelding van eventuele overwaardering). **ITAA-norm ontbinding-vereffening** (uitvoeringsmodaliteiten + modelverslag Bijlage 3). **CBN-advies 2022/04** (boekhoudkundige verwerking). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:71, § 2 WVV"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+                  "resources/bronnen/wetteksten/WVV-boek-2.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De staat van activa en passiva wordt opgesteld door het **bestuursorgaan** van de vennootschap (raad van bestuur / bestuurder(s)). De externe accountant of bedrijfsrevisor **stelt hem niet op** — die controleert hem en brengt erover verslag uit. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De ITAA-norm formuleert het expliciet: *\"Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva, in overeenstemming met het in België van toepassing zijnde boekhoudkundig referentiestelsel\"* — net als voor het toelichtingsverslag bij het ontbindingsvoorstel en voor de naleving van de WVV-vereisten. De **controle** door de beroepsbeoefenaar **ontslaat het bestuursorgaan niet** van die verantwoordelijkheid. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-boek-2.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar de **opsteller** (bestuursorgaan) niet met de **verslaggever** (commissaris, of bij gebrek daaraan een bedrijfsrevisor of externe GA aangesteld door het bestuursorgaan). En verwar de **staat van A&P bij ontbinding** (art. 2:71 WVV — vóór de AV) niet met de **vereffeningsstaten** die nadien door de **vereffenaar** worden opgemaakt (jaarlijks en bij sluiting). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-boek-2.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. **2:71, § 2 WVV** (de staat van A&P wordt door het bestuursorgaan opgemaakt en bij het verslag van het bestuursorgaan gevoegd). **ITAA-norm ontbinding-vereffening**, sectie *Verantwoordelijkheden van het bestuursorgaan*. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:71, § 2 WVV"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De staat van activa en passiva wordt **bij wijze van uitzondering** in continuïteit opgesteld wanneer het bestuursorgaan, ondanks de voorgenomen ontbinding, kan **motiveren** dat de **continuïteitsveronderstelling** verantwoord blijft — bijvoorbeeld omdat het handelsfonds of de activiteit als geheel wordt **overgedragen of voortgezet** (going concern bij een derde) en er geen significante twijfel bestaat over het vermogen om verplichtingen na te komen. De regel is *discontinuïteit*; continuïteit is de te motiveren uitzondering. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Default = discontinuïteit.** Art. **3:6, § 2 KB/WVV** schrijft voor dat zodra de vennootschap er niet meer naar streeft haar activiteiten voort te zetten (zoals bij ontbinding), de waarderingsregels **worden aangepast aan de discontinuïteit**: vaste activa naar realisatiewaarde, voorzieningen voor sluitings- en herstructureringskosten, herklassering van LT-schulden naar KT. 📖\n\n**Uitzondering = continuïteit**, maar enkel als het bestuursorgaan dat **uitdrukkelijk motiveert** in zijn verslag bij het ontbindingsvoorstel. Typische gevallen: (i) **overdracht van de bedrijfstak of het handelsfonds** waardoor de economische activiteit bij een derde wordt voortgezet, (ii) een **ontbinding zonder vereffening** (bv. fusie/splitsing wordt overwogen), (iii) een onmiddellijke sluiting (art. 2:80 WVV) waarbij alle schulden betaald of geconsigneerd zijn. 🔗\n\nDe ITAA-norm vereist dat de beroepsbeoefenaar in dat geval (i) **kennis neemt** van die motivatie en ze **bespreekt met het bestuursorgaan**, en (ii) inlichtingen inwint of er gebeurtenissen of omstandigheden bestaan die — afzonderlijk of collectief — **significante twijfel** doen ontstaan over de continuïteitsveronderstelling. Is die twijfel er, dan dwingt dat doorgaans terug naar discontinuïteit. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "betwijfeld",
+                "kop": "Nuance",
+                "tekst": "Bij een **ontbinding-en-sluiting-in-één-akte** (art. 2:80 WVV — alle schulden betaald of geconsigneerd, akkoord van alle aandeelhouders) wordt de staat in de praktijk vaak in continuïteit opgesteld, maar dat is **geen automatisme**: het blijft een keuze die het bestuursorgaan moet motiveren en die de beroepsbeoefenaar moet toetsen. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. **3:6, § 2 KB/WVV** (29 april 2019): bij ontbinding worden de waarderingsregels aangepast aan de discontinuïteit, behoudens gemotiveerde uitzondering. **ITAA-norm ontbinding-vereffening**, §II.2 *Staat van activa en passiva opgesteld in continuïteit* (par. 32 — beoordeling van de motivatie + continuïteitstoets). **CBN-advies 2022/04** §waarderingsregels. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 3:6, § 2 KB/WVV; ITAA-norm ontbinding-vereffening §II.2"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-1-vr16"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2043,7 +2485,139 @@
       "vraag_id": "2013-1-vr16"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "PNG-segment `pagina_03.png` toont een andere vraag (Vraag 2 over leverancierschuld en kapitaal — niet vr17). De auto-isolatie heeft de verkeerde pagina gegrepen. De vraag-tekst en de balans in `tekst.txt` zijn intern consistent met de interpretatie, dus inhoudelijk geen blokkering — maar PNG-verificatie van de tabel-cijfers was niet mogelijk. Confidence op tabel-overname blijft `afgeleid`.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md",
+                  "resources/bronnen/adviezen/CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Drie correcties op de staat in het kader van de ontbinding:\n\n1. **Waardering machines A** — de herwaarderingsmeerwaarde van € 400.000 (op basis van DCF/nutswaarde € 600.000) is een going-concern-waardering en niet aanvaardbaar in de discontinuïteitsoptiek van een ontbindingsstaat (KB WVV art. 3:6 § 2). De machines moeten naar **realisatiewaarde**: bod leverancier € 450.000 minus de noodzakelijke revisie € 10.000 = **€ 440.000**. De herwaarderingsmeerwaarde van € 400.000 wordt geheel teruggenomen en de boekwaarde naar boven aangepast tot € 440.000. 🔗\n2. **Voorzieningen voor sluitings- en vereffeningskosten** ontbreken volledig — bij overgang naar discontinuïteit moeten notariële kosten, kosten van de bedrijfsrevisor/accountant, vereffenaarsvergoedingen, opzegvergoedingen personeel en latente belastingen op gerealiseerde meerwaarden als **voorziening voor risico's en kosten** worden opgenomen (KB WVV art. 3:6 § 2). 🔗\n3. **Herklassering van langlopende schulden** — bij discontinuïteit worden alle schulden opeisbaar. De *Schulden > 1 jaar* van € 250.000 moeten worden geherklasseerd naar *Schulden < 1 jaar* (KB WVV art. 3:6 § 2). 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De staat blijft *altijd* in evenwicht ondanks de correcties: het verschil loopt via de **resultatenrekening** (terugname herwaarderingsmeerwaarde, opname voorziening, eventuele waardevermindering). Cijfermatig in deze casus: machines op realisatiewaarde € 440.000 ⇒ totaal actief van € 720.000 zakt naar € 560.000 (terugname HW € 400.000 + opwaartse aanpassing oude boekwaarde € 200.000 → € 440.000). Dit moet aan passiefzijde via een aangepast resultaat van de periode en het verdwijnen van de rubriek **herwaarderingsmeerwaarde** op passief (€ 400.000). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De zaakvoerders kunnen schriftelijk en met motivering kiezen om de staat **in continuïteit** op te stellen (uitzondering op KB WVV art. 3:6 § 2 — zie CBN 2018/18 en 2022/04). Dat is hier echter onhoudbaar: na het ontbindingsbesluit *stopt* HOLDING RICH per definitie haar bedrijfsactiviteit, en de DCF-waardering veronderstelt net die voortgezette exploitatie. Going-concern-redenering bij een ontbindingsstaat is dus inhoudelijk inconsistent — de accountant moet de afwijking weigeren of een voorbehoud formuleren. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+                  "resources/bronnen/adviezen/CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2:71 § 2 WVV (staat ≤ 3 maanden vóór AV, opgesteld volgens KB WVV) + KB WVV art. 3:6 § 2 (waarderingsregels in **discontinuïteit** bij stopzetting, behoudens gemotiveerde afwijking) + CBN-advies 2018/18 (going-concern bij stopzetting) + CBN-advies 2024/03 (niet-uitgedrukte meerwaarden bij ontbinding) + CBN-advies 2022/04 (verslaggeving bij ontbinding en vereffening BV/NV). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:71 § 2 WVV; KB WVV art. 3:6 § 2; CBN-advies 2018/18, 2022/04, 2024/03"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Een **opdracht met beperkte mate van zekerheid** (*limited assurance*): de gecertificeerd accountant beoordeelt of het **nettoactief** in de staat van activa en passiva in alle van materieel belang zijnde opzichten **niet overgewaardeerd** is. Geen volledige controleopdracht (audit) met redelijke zekerheid. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De wettelijk voorbehouden opdracht (art. 2:71 § 2, derde lid WVV) draagt de accountant op een verslag op te maken bij de staat van activa en passiva. De **ITAA-norm inzake opdrachten in het kader van ontbinding en vereffening** preciseert dat het gaat om een opdracht met *beperkte zekerheid* — analoog aan een ISRE-2400-beoordelingsopdracht, niet een ISA-audit. De conclusie luidt typisch: *\"niets is onder onze aandacht gekomen waaruit zou blijken dat het nettoactief van materieel belang is overgewaardeerd\"* (negatieve formulering, eigen aan limited assurance). 🔗\n\nDe opdracht omvat o.a.:\n- nagaan of de waarderingsregels (discontinuïteit, art. 3:6 § 2 KB WVV) correct werden toegepast;\n- inlichtingen inwinnen bij het bestuursorgaan;\n- analytische procedures + beperkte detailtests op materiële posten;\n- in geval van ontbinding-en-sluiting-in-één-akte (art. 2:80 WVV): aanvullend bevestigen dat schulden zijn betaald of geconsigneerd.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2:71 § 2, derde lid WVV (verslag commissaris / bedrijfsrevisor / GA bij voorstel ontbinding) + ITAA-norm *Opdrachten in het kader van de (vrijwillige) ontbinding en vereffening van vennootschappen* — bijlage 3 modelverslag bevestigt het karakter van *beperkte zekerheid*. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:71 § 2 WVV; ITAA-norm ontbinding-vereffening"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — een ontbinding in één akte (art. 2:80 WVV, voorwaarden uit het oude art. 2:91 / huidig art. 2:80 § 1 WVV) is hier **niet mogelijk**. De vennootschap heeft openstaande schulden van € 330.000 (€ 250.000 LT + € 80.000 KT) en slechts € 20.000 bank. De voorwaarde dat *alle schulden t.a.v. derden zijn terugbetaald of de nodige gelden geconsigneerd* is dus niet vervuld. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2022-06-verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Cumulatieve voorwaarden voor ontbinding-en-sluiting-in-één-akte (art. 2:80 WVV):\n\n1. **Geen vereffenaar aangeduid.** 📖\n2. **Alle schulden t.a.v. derden zijn terugbetaald of de nodige gelden zijn geconsigneerd**; de commissaris/bedrijfsrevisor/GA bevestigt dit in de conclusies van zijn verslag. Schulden t.a.v. aandeelhouders die schriftelijk afstand doen of waarvan de schuldvordering in de staat wordt opgenomen, zijn vrijgesteld van die betaling/consignatie. 📖\n3. **Alle vennoten/aandeelhouders zijn aanwezig of vertegenwoordigd** op de AV en beslissen **eenparig** tot sluiting. 📖\n4. Het resterende actief wordt overgenomen door de vennoten/aandeelhouders zelf. 🔗\n\n**Toepassing op HOLDING RICH**: de derdenschulden (€ 80.000 KT — zonder verdere precisering — en € 250.000 LT) overstijgen ruimschoots de liquide middelen (€ 20.000). Tenzij zaakvoerders/aandeelhouders eerst extra fondsen inbrengen om de schulden te voldoen of te consigneren, **kan de procedure-in-één-akte niet doorgaan** en is een klassieke vereffening met aanstelling van een vereffenaar vereist (art. 2:79 WVV e.v.). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-06-verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "De procedure-in-één-akte is bedoeld voor *eenvoudige afsluitingen waar niets te vereffenen valt* of waar de vereffening van actiefbestanddelen niet nodig is om alle verplichtingen te voldoen (CBN-advies 2022/06). HOLDING RICH past hier duidelijk niet: het actief moet eerst worden gerealiseerd (machines verkocht aan leverancier, handelsvorderingen geïnd) om de derdenschulden te kunnen voldoen — typisch werk voor een aangestelde vereffenaar. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2022-06-verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2:80 WVV (ontbinding en sluiting van de vereffening in één akte — cumulatieve voorwaarden, m.n. terugbetaling/consignatie van schulden bevestigd door commissaris/bedrijfsrevisor/GA, eenparig besluit van alle aandeelhouders, geen vereffenaar aangeduid) + CBN-advies 2022/06 (verslaggeving bij onmiddellijke sluiting vereffening vennootschap). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:80 WVV (voorheen art. 2:91 WVV-ontwerp); CBN-advies 2022/06"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2013-1-vr17"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2196,7 +2770,60 @@
       "vraag_id": "2013-1-vr17"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Drie procedure-fouten: (1) de staat van activa en passiva is opgesteld en ondertekend door de **interne boekhouder** in plaats van door het **bestuursorgaan**; (2) het **controleverslag dateert van 14/04/2013** — de dag vóór de AV — zodat de stukken niet de wettelijke **15 dagen** ter beschikking van de aandeelhouders konden liggen; (3) een 10%-vennoot heeft **geen unilateraal recht op verdaging** vóór de zitting — de vergadering kan gewoon doorgaan. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Opmerking 1 — Opsteller staat van activa en passiva.**\n- **Fout**: de staat per 31/01/2013 is opgesteld en ondertekend door de interne boekhouder. 📖\n- **Regel**: het **bestuursorgaan** is verantwoordelijk voor het opstellen van de staat van activa en passiva, in overeenstemming met het Belgische boekhoudkundig referentiestelsel, evenals voor het verslag dat het voorstel tot ontbinding toelicht (art. 2:71 § 2 WVV; ITAA-norm ontbinding-vereffening, §§ 1 en § Verantwoordelijkheden van het bestuursorgaan). 📖\n- **Wat moet er gebeuren**: de zaakvoerder(s) moeten de staat zelf vaststellen en ondertekenen vóór ze aan de accountant wordt overhandigd; een interne boekhouder kan voorbereiden, niet ondertekenen namens het orgaan. De accountant kan zijn opdracht pas correct uitvoeren op een door het bestuursorgaan goedgekeurde staat. 🔗\n\n**Opmerking 2 — Tijdige terbeschikkingstelling van de stukken.**\n- **Fout**: het controleverslag is opgesteld op 14/04/2013, één dag vóór de AV van 15/04/2013. 📖\n- **Regel**: het verslag van het bestuursorgaan en het verslag van de beroepsbeoefenaar over de staat van activa en passiva moeten **vijftien dagen vóór de algemene vergadering** ter beschikking liggen van de aandeelhouders, samen met of na de oproeping (art. 2:71 § 2 jo. art. 5:62 en 5:76 WVV; CBN-advies 2022/04). 🔗\n- **Wat moet er gebeuren**: de AV uitstellen tot de stukken minstens 15 dagen ter beschikking liggen, of — indien alle aandeelhouders aanwezig of vertegenwoordigd zijn en uitdrukkelijk **verzaken** aan de termijn — de verzaking expliciet in de notuliën opnemen. In casu kan niet verzaakt worden: de 10%-vennoot is afwezig. 🔗\n\n**Opmerking 3 — Verzoek tot verdaging door 10%-vennoot.**\n- **Fout / vraag**: een aandeelhouder met 10% vraagt aan de zaakvoerders om de AV met drie weken te verdagen wegens verblijf in het buitenland. 📖\n- **Regel**: een individuele 10%-vennoot heeft onder het WVV (BV) **wel** het recht om een **bijeenroeping** te vragen of agendapunten toe te voegen (art. 5:62 § 1 WVV), maar **geen recht op verdaging** van een reeds samengeroepen AV. Het bestuursorgaan kan tijdens de zitting de beslissing over de **goedkeuring van de jaarrekening** drie weken uitstellen (art. 5:78 WVV), maar dat geldt niet voor een ontbindingsbesluit. De verdaging tot vijf weken bij belangrijke deelnemingen (art. 7:118 WVV) is een NV-bepaling die hier niet speelt. 🔗\n- **Wat moet er gebeuren**: de zaakvoerders **mogen** het verzoek inwilligen — dat is een opportuniteitskeuze, geen verplichting. Weigeren mag: de vennoot kan zich laten vertegenwoordigen door een **schriftelijke volmacht** (art. 5:79 WVV). De vergadering kan geldig doorgaan met de overige aandeelhouders zolang het aanwezigheids- en meerderheidsquorum voor de ontbinding (helft van het kapitaal aanwezig of vertegenwoordigd, en **4/5 van de uitgebrachte stemmen**, art. 5:84 WVV) wordt gehaald. Met 90% aanwezig is dat haalbaar. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De datum van de staat (31/01/2013) ligt **binnen** drie maanden vóór de AV (15/04/2013) en is dus op zichzelf **geen** procedurefout (art. 2:71 § 2 WVV — staat mag niet ouder zijn dan drie maanden vóór de AV). De casus oogt door de cijfers verdacht, maar voldoet aan de termijn — een veelgemaakte valkuil bij snel lezen. 🔗 Dat de accountant **niet de reguliere adviseur** is, is eérder een **kwaliteitsgarantie** (onafhankelijkheid) dan een fout: bij afwezigheid van commissaris mag het bestuursorgaan een GA óf bedrijfsrevisor aanwijzen (art. 2:71 § 2, derde lid WVV; ITAA-norm). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV-2019.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2:71 § 2 WVV — het voorstel tot vrijwillige ontbinding wordt toegelicht in een verslag van het **bestuursorgaan**, waarbij een **staat van activa en passiva** wordt gevoegd die **niet meer dan drie maanden** vóór de AV is vastgesteld, en waarover de commissaris (of, bij afwezigheid, een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant) een verslag uitbrengt. 📖 Art. 5:76 jo. 5:62 WVV — stukken voor de AV liggen **15 dagen vóór** de vergadering ter inzage. 📖 Art. 5:62 § 1 WVV — 10%-aandeelhouders kunnen **bijeenroeping** of agendapunten vragen, **geen verdaging**. 📖 Art. 5:84 WVV — ontbindingsbeslissing vergt **4/5 van de uitgebrachte stemmen**. 📖 ITAA-norm ontbinding-vereffening — verantwoordelijkheid bestuursorgaan + modelverslag. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2:71, 5:62, 5:76, 5:78, 5:84 WVV; ITAA-norm ontbinding-vereffening"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr18"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2250,7 +2877,89 @@
       "vraag_id": "2013-1-vr18"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De **beroepsbeoefenaar** (commissaris, bedrijfsrevisor of gecertificeerd accountant) ondertekent de opdrachtbrief en richt die aan het **bestuursorgaan** van de om te zetten vennootschap, dat de brief voor akkoord medeondertekent. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De ITAA-norm omzetting vennootschap (par. 19, II.3) bepaalt dat de beroepsbeoefenaar vóór de aanvang van zijn opdracht een opdrachtbrief van het bestuursorgaan moet verkrijgen. De voorbeeldbrief in Bijlage 1 is geadresseerd aan het bestuursorgaan en uitgaande van de beroepsbeoefenaar; ze wordt door beide partijen ondertekend (de beroepsbeoefenaar als opsteller, het bestuursorgaan voor akkoord met de voorwaarden). 📖 Voor accountants bevestigt art. 18 KB plichtenleer 1998 bovendien dat verklaringen en verslagen ondertekend worden door de externe accountant als natuurlijke persoon, in eigen naam en in voorkomend geval als vertegenwoordiger van zijn vennootschap. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar de opdrachtbrief niet met het **omzettingsverslag** zelf: dat verslag wordt enkel door de beroepsbeoefenaar ondertekend en gericht aan de algemene vergadering. De opdrachtbrief daarentegen is een **wederzijds contract** tussen beroepsbeoefenaar en bestuursorgaan en draagt dus twee handtekeningen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-norm omzetting van een vennootschap, par. 19 (II.3 Opdrachtbrief) + Bijlage 1 (voorbeeld opdrachtbrief, gericht aan bestuursorgaan). Voor accountants: art. 18 KB van 1 maart 1998 (plichtenleer) — ondertekening door externe accountant als natuurlijke persoon. 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA-norm omzetting vennootschap, par. 19 + Bijlage 1; art. 18 KB 1 maart 1998"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Drie elementen die minimaal in de opdrachtbrief moeten voorkomen (ITAA-norm omzetting, par. 19):\n\n1. **Identificatie van de beroepsbeoefenaar en zijn hoedanigheid** — commissaris, bedrijfsrevisor of gecertificeerd accountant. 📖\n2. **Beschrijving van de opdracht** — doelstelling en reikwijdte, opstelling van een schriftelijk verslag over de staat van activa en passiva (al dan niet overgewaardeerd nettoactief), verwijzing naar art. 14:4 of 14:21 WVV en naar de toepasselijke norm. 📖\n3. **Verantwoordelijkheden van beide partijen** — die van de beroepsbeoefenaar (nazicht omzettingsvoorstel, verslag over de staat van activa en passiva, oordeel over overwaardering nettoactief) én die van het bestuursorgaan (opstelling van de staat van activa en passiva, ter beschikking stellen van informatie). 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De norm voorziet nog bijkomende minimumelementen die ook valabel zijn als alternatief antwoord: de **vergoeding** (ereloon en kosten), de **planning en timing** van de werkzaamheden, een verwijzing naar het feit dat het verslag uitsluitend wordt opgesteld in het kader van art. 14:4 of 14:21 WVV met **beperkte verspreiding**, en voor grensoverschrijdende omzettingen een verklaring over de geldelijke vergoeding. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "ITAA-norm omzetting van een vennootschap, par. 19 (II.3 Opdrachtbrief) — limitatieve opsomming van minimuminhoud die de beroepsbeoefenaar voorafgaand aan de opdracht van het bestuursorgaan moet verkrijgen; Bijlage 1 geeft een voorbeeldbrief die deze elementen uitwerkt. 📖",
+                "type": "grondslag",
+                "wetsref": "ITAA-norm omzetting vennootschap, par. 19 + Bijlage 1"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-1-vr19"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -3890,7 +4599,93 @@
       "vraag_id": "2013-1-vr36"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Vereffening** — *Vertrekpunt*: de datum waarop de externe accountant zijn controleverslag over de staat van activa en passiva (art. 2:71 §2 WVV / oud art. 181 W.Venn.) ondertekent. *Termijn*: een kopie wordt **binnen één maand** na ondertekening overgemaakt aan het ITAA. 🤖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "betwijfeld",
+                "tekst": "De keten:\n\n- Het bestuursorgaan beslist tot vrijwillige ontbinding en stelt een **staat van activa en passiva** op, gedateerd **maximaal drie maanden** voor de buitengewone algemene vergadering die over de ontbinding besluit. 📖\n- De externe accountant (of bedrijfsrevisor / commissaris) **controleert deze staat** en levert een verslag — dit is het door de vennootschapswet opgelegde en openbaar te maken controleverslag bedoeld in de vraag. 📖\n- Bestuursverslag + accountantsverslag + staat van actief/passief worden meegedeeld aan de aandeelhouders **samen met de oproeping** tot de BAV en zijn vijftien dagen vóór de vergadering ter zetel kosteloos verkrijgbaar (art. 5:83 / 7:128 e.v. WVV; oud art. 269 W.Venn.). 🔗\n- Voor de **kopie aan het Instituut** (ITAA, vroeger IAB) geldt de algemene plichtenleer-regel voor openbaar te maken controleverslagen: **binnen één maand** na ondertekening van het verslag toezenden. ❓ Deze termijn staat niet expliciet in de geraadpleegde wettekstbundel of ITAA-norm ontbinding/vereffening — verifieer in de actuele ITAA-deontologie / circulaires.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De drie-maanden-termijn slaat op de **ouderdom van de staat van actief en passief** (vertrekpunt: datum BAV terugrekenend), niet op de toezending van het verslag aan het Instituut. Verwar deze niet met de termijn voor toezending aan het ITAA, en evenmin met de neerleggingstermijn van de omstandige staat door de vereffenaar (7e en 13e maand na invereffeningstelling — art. 2:86 WVV). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2:71 §2 WVV (oud art. 181 W.Venn.) — staat van activa en passiva max. 3 maanden oud + controleverslag van commissaris/bedrijfsrevisor/gecertificeerd accountant. ITAA-norm ontbinding-vereffening (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖",
+                "type": "grondslag",
+                "wetsref": "Art. 2:71 §2 WVV (vroeger art. 181 W.Venn.)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Omvorming** — *Vertrekpunt*: de datum waarop de externe accountant zijn controleverslag over de staat van activa en passiva in het kader van de omzetting (art. 14:6 WVV / oud art. 776 W.Venn.) ondertekent. *Termijn*: kopie **binnen één maand** na ondertekening aan het ITAA. 🤖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "betwijfeld",
+                "tekst": "De keten:\n\n- Het bestuursorgaan stelt een **staat van activa en passiva** op, vastgesteld op een datum die **niet meer dan drie maanden teruggaat** vóór de algemene vergadering die zich over de omzetting moet uitspreken. 📖\n- De commissaris, bedrijfsrevisor of gecertificeerd accountant brengt een **verslag uit over deze staat**, waarin hij inzonderheid aangeeft of het nettoactief werd overgewaardeerd (art. 14:3-14:4 WVV; bij omzetting naar VZW: art. 14:32 WVV). 📖\n- Een **kopie van dit verslag** wordt samen met het bestuursverslag en het ontwerp van statutenwijziging aan de aandeelhouders meegedeeld **samen met de oproeping** tot de AV (art. 14:6 WVV / oud art. 778 W.Venn.). 📖\n- Voor de **kopie aan het ITAA**: zelfde algemene plichtenleer-regel als bij vereffening — **binnen één maand** na ondertekening van het verslag. ❓ Termijn niet expliciet in de geraadpleegde bronnen — verifieer in ITAA-deontologie.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Voor zowel vereffening als omvorming geldt dezelfde structuur: (1) staat max. 3 maanden oud, (2) verslag van accountant/revisor over die staat, (3) meedelen aan aandeelhouders bij oproeping AV, (4) kopie aan ITAA na ondertekening. Het **vertrekpunt** voor de termijn naar het Instituut is in beide gevallen de **datum van het verslag**, niet de datum van de algemene vergadering of van de publicatie. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WVV.md",
+                  "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14:3-14:6 WVV (oud art. 774-778 W.Venn.) — staat max. 3 maanden + controleverslag + mededeling bij oproeping AV. ITAA-norm omzetting-vennootschap (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖",
+                "type": "grondslag",
+                "wetsref": "Art. 14:3, 14:6 WVV (vroeger art. 776, 778 W.Venn.)"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-1-vr37"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
