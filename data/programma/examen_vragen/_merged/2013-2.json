@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-26T12:11:24+00:00",
+  "merge_datum": "2026-05-26T12:21:57+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -435,7 +435,111 @@
       "vraag_id": "2013-2-vr4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Bijlage met balans na winstverdeling en resultatenrekening ontbreekt in zowel het bron-PDF (resources/raw/voorbeeldexamens/2013-2.pdf, 26 pagina's) als de _segmenten-folder. Cijfermatige antwoorden zijn dus niet berekenbaar. Het modelantwoord beperkt zich tot de canonieke formules per ratio, de te gebruiken jaarrekening-rubrieken (volgens schema volledig model KB WVV), en de relevante toelichting-aanwijzingen (exploitatiesubsidie 415 EUR niet relevant voor deze drie ratio's). Conclusie-blokken zijn `betwijfeld` (❓) zolang de bijlage niet aangeleverd is.",
+        "antwoord_datum": "2026-05-26T12:19:30Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord_zonder_cijfers",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "tekst": "**Brutoverkoopmarge (%) = (Bedrijfsresultaat / Omzet) × 100** ❓ — concreet percentage niet berekenbaar zonder de bijgevoegde balans en resultatenrekening (zie `_poc_notitie`).",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Te gebruiken cijfers uit de resultatenrekening** (volledig schema KB WVV, art. 3:89 e.v.):\n\n- **Teller — Bedrijfsresultaat** = code 9901 (= 70/74 − 60/64) 🔗. Dit is de courante operationele winst vóór financieel resultaat en belastingen.\n- **Noemer — Omzet** = code 70 (rubriek I.A. van de resultatenrekening) 🔗.\n\n**Opmerking over de toelichting**: de exploitatiesubsidie van 415 EUR (item 2) zit reeds vervat in rubriek 74 'Andere bedrijfsopbrengsten' en dus in het bedrijfsresultaat — er hoeft niets extra te worden bijgeteld of afgetrokken voor deze ratio 🔗.\n\nFormule toepassen: brutoverkoopmarge = (9901 / 70) × 100, afronden op 2 cijfers na de komma.",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** 🔗: er bestaat geen unieke definitie van 'brutoverkoopmarge' in Belgische jaarrekening-doctrine. Twee varianten komen voor in handboeken financiële analyse:\n  1. **Bedrijfsresultaat / Omzet** (operationele marge — meest gebruikte invulling bij ITAA-examens en NBB-balanscentrale).\n  2. **(Omzet − kostprijs verkopen) / Omzet** (commerciële marge — zelden in Belgische context omdat 'kostprijs verkopen' geen aparte rubriek is in het volledig schema).\n\nIn deze vraag wordt variant 1 verwacht (gebruikelijke ITAA-invulling, en de enige variant die rechtstreeks uit het Belgisch schema afleesbaar is zonder analytische gegevens) 🤖.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "KB WVV art. 3:89 e.v. (schema resultatenrekening, rubrieken 70 en 9901) 🔗. Geen specifiek CBN-advies dat de formule 'brutoverkoopmarge' bindend definieert; de NBB-balanscentrale en ITAA-cursusmateriaal hanteren consistent Bedrijfsresultaat/Omzet 🤖.",
+                "type": "grondslag",
+                "wetsref": "KB WVV art. 3:89; rubrieken 70 en 9901"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord_zonder_cijfers",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "tekst": "**Nettorentabiliteit totaal der activa, vóór belastingen en financiële kosten (%) = ((Resultaat vóór belasting + Kosten van schulden) / Totaal der activa) × 100** ❓ — concreet percentage niet berekenbaar zonder de bijgevoegde balans en resultatenrekening.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "geciteerd",
+                "tekst": "**Te gebruiken cijfers** (CBN-advies 2011/14, sectie 'Rentabiliteit van het totaal van de activa') 📖:\n\n**Teller** = Resultaat van het boekjaar vóór belasting (code 9903) **+** Kosten van schulden (code 650) 📖.\n\n- Code 9903 = winst/verlies van het boekjaar **vóór** belastingen (= 70/66 − 60/65 + 76 − 66 − 67) 🔗.\n- Code 650 = financiële kosten 'Kosten van schulden' (intresten op leningen, leasings, kortlopend krediet, ...) 📖.\n- De toelichting meldt expliciet: **geen intrestsubsidies** (item 3) en **geen disconto** (item 4) — dus geen bijkomende correcties op de financiële kosten 🔗.\n\n**Noemer** = Totaal der activa = code 20/58 (balanstotaal aan de actiefzijde) 🔗.\n\nFormule toepassen: ((9903 + 650) / 20/58) × 100, afronden op 2 cijfers na de komma.",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "geciteerd",
+                "tekst": "**Waarom 'vóór belastingen en financiële kosten'?** 📖 Door belastingen en kosten van schulden uit het resultaat te elimineren krijgt men zicht op de **economische rentabiliteit** van de onderneming, los van haar financieringskeuze (eigen vermogen vs. vreemd vermogen) en los van het belastingtarief (CBN-advies 2011/14).\n\n**Valkuil** 🔗: 'netto' verwijst hier niet naar 'na belasting' maar naar het **netto**resultaat (= resultaat ná afschrijvingen en niet-kaskosten, in tegenstelling tot de **bruto**rentabiliteit die de niet-kaskosten weer optelt). Vergelijk met de brutorentabiliteit-formule in hetzelfde CBN-advies: teller = nettoresultaat vóór belasting **+ niet-kaskosten** + kosten van schulden.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 2011/14 — Herwaarderingsmeerwaarden, sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden' (formule nettorentabiliteit totaal der activa vóór belasting en kosten van schulden) 📖. KB WVV art. 3:89 (resultatenrekening, codes 650 en 9903) en art. 3:90 (balans, code 20/58) 🔗.",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 2011/14; KB WVV art. 3:89-3:90; codes 650, 9903, 20/58"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord_zonder_cijfers",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "tekst": "**Liquiditeit in ruime zin = Vlottende activa / Schulden op ten hoogste 1 jaar** ❓ (current ratio) — concrete verhouding niet berekenbaar zonder de bijgevoegde balans.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Te gebruiken cijfers uit de balans na winstverdeling** (KB WVV, volledig schema):\n\n- **Teller — Vlottende activa** = code 29/58 (= som voorraden 3 + vorderingen op ten hoogste 1 jaar 40/41 + geldbeleggingen 50/53 + liquide middelen 54/58 + overlopende rekeningen 490/1) 🔗.\n- **Noemer — Schulden op ten hoogste 1 jaar** = code 42/48 (inclusief schulden op meer dan 1 jaar die binnen het jaar vervallen 42, financiële schulden 43, handelsschulden 44, ontvangen vooruitbetalingen 46, fiscale/sociale/loonschulden 45, overige schulden 47/48) 🔗 — **niet** verhoogd met de overlopende rekeningen 492/3 (die staan apart) 🤖.\n\nFormule: 29/58 ÷ 42/48, weergegeven als ratio (bv. 1,75) tot 2 cijfers na de komma.\n\nEen waarde ≥ 1 betekent dat de vlottende activa in principe volstaan om de kortlopende schulden te dekken; richtwaarde 1,5–2 wordt gangbaar als gezond beschouwd 🤖.",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil — ruime zin vs. enge zin** 🔗:\n  - **Liquiditeit in ruime zin** (current ratio, acid test 1): teller = **alle** vlottende activa (incl. voorraden).\n  - **Liquiditeit in enge zin** (quick ratio): teller = vlottende activa **min voorraden en bestellingen in uitvoering** (de minst liquide post wordt weggelaten omdat ze niet onmiddellijk te gelde te maken is).\n  - **Cash ratio** (liquiditeit in strenge/onmiddellijke zin): teller = enkel geldbeleggingen (50/53) + liquide middelen (54/58).\n\nDe vraag stelt expliciet 'in ruime zin' — dus voorraden meetellen.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "KB WVV art. 3:90 (schema balans, rubrieken vlottende activa 29/58 en schulden op ten hoogste 1 jaar 42/48) 🔗. Standaarddefinitie in Belgische financiële analyse (NBB-balanscentrale ratio-bundel, ITAA-cursus financiële analyse) 🤖.",
+                "type": "grondslag",
+                "wetsref": "KB WVV art. 3:90; balanscodes 29/58 en 42/48"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-2-vr5"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -559,7 +663,125 @@
       "vraag_id": "2013-2-vr6"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "De liquiditeitsratio's geven de bedrijfsleider een momentopname van de **capaciteit van de onderneming om haar kortlopende schulden (≤ 1 jaar) tijdig te betalen** met haar vlottende activa of een deel ervan. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concreet leert de bedrijfsleider hieruit:\n\n1. **Solvabiliteit op korte termijn** — of de onderneming voldoende kortetermijnactiva heeft om haar opeisbare schulden te dekken (drempel: ratio ≥ 1,0). 🔗\n2. **Liquiditeitsbuffer** — hoeveel marge er is boven de minimumdekking; in de praktijk geldt 1,5–2,0 als gezond voor de current ratio, sectorafhankelijk. 🔗\n3. **Vroegtijdige waarschuwing voor betalingsproblemen** — een dalende trend over meerdere boekjaren signaleert verslechterende liquiditeit nog vóór een effectief betalingsincident. 🔗\n4. **Werkkapitaalbeheer** — een te hoge ratio (> 2,0) wijst op inefficiënt gebruik van middelen (overtollige voorraden, te soepel debiteurenbeleid); een te lage op een tekort aan operationele financiering. 🔗\n5. **Onderbouwing voor continuïteits- en financieringsbeslissingen** — input voor going-concern-beoordeling, kredietaanvragen, en faillissementspredictiemodellen (Altman Z-score). 🔗\n\nHet centrale inzicht: **een onderneming kan winstgevend zijn en toch failliet gaan** als ze haar kortlopende schulden niet tijdig kan voldoen — de liquiditeitsratio's leggen dat structurele risico bloot. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De ratio's zijn een **balanssnapshot**: ze zeggen niets over kasstroompatronen of seizoensschommelingen tijdens het jaar, en zijn vatbaar voor **window dressing** (bv. tijdelijk afbouwen van schulden vlak vóór balansdatum). Voor een volledig liquiditeitsbeeld combineert men ze met een kasstroomanalyse en evolutie over meerdere boekjaren. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md",
+                  "content/concepten/quick-ratio.md"
+                ],
+                "confidence": "verondersteld",
+                "tekst": "Klassieke financiële analyse (geen wettelijke verankering). Conceptueel uitgewerkt in: `current-ratio`, `quick-ratio`, `cash-ratio` (Certificaid-concepten, anker 1.3.II.C). 🤖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bij de **liquiditeit in enge zin (quick ratio / acid test)** houdt men **geen rekening met de voorraden** (en, in een strikte variant, ook niet met de bestellingen in uitvoering en de overlopende rekeningen aan actiefzijde). Bij de **liquiditeit in ruime zin (current ratio)** worden deze posten **wél** meegerekend in de teller. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Bestanddeel teller | Liquiditeit in ruime zin (CR) | Liquiditeit in enge zin (QR) |\n|---|:---:|:---:|\n| Voorraden | ✓ meegerekend | ✗ uitgesloten |\n| Bestellingen in uitvoering | ✓ meegerekend | ✗ uitgesloten (strikte variant) |\n| Handelsvorderingen op ≤ 1 jaar | ✓ | ✓ |\n| Overige vorderingen op ≤ 1 jaar | ✓ | ✓ |\n| Geldbeleggingen | ✓ | ✓ |\n| Liquide middelen | ✓ | ✓ |\n| Overlopende rekeningen actief | ✓ | ✗ (strikte variant) |\n| **Noemer**: schulden op ≤ 1 jaar | identiek | identiek |\n\nFormules:\n- **Liquiditeit in ruime zin** = Vlottende activa / Schulden op ≤ 1 jaar 🔗\n- **Liquiditeit in enge zin** = (Vlottende activa – Voorraden – Bestellingen in uitvoering – Overlopende rekeningen) / Schulden op ≤ 1 jaar 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md",
+                  "content/concepten/quick-ratio.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Conceptueel uitgewerkt in `current-ratio` (element `beperking-voorraden`: voorraden worden bij CR meegerekend maar zijn niet onmiddellijk liquid) en in de relatie `current-ratio ↔ quick-ratio` (\"De quick ratio sluit voorraden uit de teller uit, waardoor een strengere liquiditeitsmeting ontstaat\"). Anker 1.3.II.C. 🔗",
+                "type": "grondslag",
+                "wetsref": "n.v.t. — financieel-analytisch concept, geen wettelijke definitie"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Voorraden en bestellingen in uitvoering zijn niet onmiddellijk liquide**: ze moeten eerst worden verkocht en daarna nog worden geïnd vóór ze cash opleveren. De liquiditeit in enge zin sluit ze daarom uit om een **scherpere, voorzichtiger** maatstaf te geven van de capaciteit om kortlopende schulden onmiddellijk te voldoen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Waarom dit onderscheid bestaat — drie redenen**:\n\n1. **Verkooprisico** — voorraden moeten eerst worden verkocht. Bij vraaguitval, modeveroudering, technische veroudering of bederf kan een aanzienlijk deel onverkoopbaar zijn of slechts met sterke prijsverlaging te verzilveren. De boekwaarde overschat dan de effectieve realiseerbare waarde. 🔗\n2. **Inningstijd** — zelfs als de voorraad vlot verkocht raakt, ontstaat eerst een handelsvordering vooraleer er cash binnenkomt. De totale conversiecyclus (voorraad → verkoop → vordering → inning) kan meerdere maanden duren — terwijl de kortlopende schulden ondertussen wél opeisbaar worden. 🔗\n3. **Sterk sectorafhankelijke liquiditeit** — een supermarktvoorraad slaat in dagen om en is quasi-cash, terwijl een voorraad halffabricaten bij een scheepsbouwer over jaren wordt afgezet. De current ratio behandelt beide identiek; de quick ratio neutraliseert dit verschil door voorraden gewoon weg te laten. 🔗\n\n**Praktische betekenis voor de bedrijfsleider**: een **hoge current ratio gecombineerd met een lage quick ratio** signaleert dat de liquiditeit overwegend in voorraden vastzit — een rode vlag als die voorraad traag omslaat of waardevermindering riskeert. De twee ratio's naast elkaar lezen geeft een rijker beeld dan elk afzonderlijk. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De cash ratio (liquiditeit in **strenge** zin) gaat nog een stap verder en houdt enkel de geldbeleggingen en liquide middelen over — relevant bij acute liquiditeitsnood. Voor dezelfde onderneming geldt steeds: **cash ratio ≤ quick ratio ≤ current ratio**. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/current-ratio.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Concept-record `current-ratio`, element `beperking-voorraden`: \"De current ratio houdt voorraden mee als vlottende activa, maar voorraden zijn niet onmiddellijk liquide: ze moeten eerst worden omgezet via verkoop en inning. Dit kan de werkelijke liquiditeitspositie overschatten — voor een scherper beeld vergelijkt men de current ratio met de quick ratio (die voorraden uitsluit).\" 📖",
+                "type": "grondslag",
+                "wetsref": "n.v.t."
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-2-vr7"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -638,20 +860,19 @@
             "blokken": [
               {
                 "bron_refs": [
-                  "data/concepten/records/consolidatieverschil-goodwill.json",
                   "resources/bronnen/wetteksten/KB-WVV-2019.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "Een **positief consolidatieverschil** is het positieve verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) de aanschaffingsprijs van de deelneming en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat dit verschil zoveel mogelijk is toegerekend** aan onder- of overgewaardeerde actief- en passiefbestanddelen. Het residu verschijnt aan **actiefzijde** van de geconsolideerde balans onder de post \"Consolidatieverschillen\". ⚖️",
+                "confidence": "geciteerd",
+                "tekst": "Een **positief consolidatieverschil** is het positieve verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) de aanschaffingsprijs van de deelneming en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat dit verschil zoveel mogelijk is toegerekend** aan onder- of overgewaardeerde actief- en passiefbestanddelen. Het residu verschijnt **aan actiefzijde** van de geconsolideerde balans onder de post \"Consolidatieverschillen\". 📖",
                 "type": "definitie"
               },
               {
                 "bron_refs": [
-                  "data/concepten/records/consolidatieverschil-goodwill.json"
+                  "resources/bronnen/adviezen/CBN-2016-07-verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro.md"
                 ],
-                "confidence": "inferred",
+                "confidence": "afgeleid",
                 "kop": "Vermeldenswaard",
-                "tekst": "Het residu na toerekening wordt in de geconsolideerde jaarrekening behandeld als **goodwill** (immaterieel vast actief) en systematisch afgeschreven over de economische gebruiksduur — niet in de enkelvoudige jaarrekening van de moeder, waar de deelneming aan aanschaffingsprijs blijft staan. 🤖",
+                "tekst": "Het residu functioneert in de geconsolideerde jaarrekening economisch als **goodwill** en wordt systematisch afgeschreven volgens een passend plan. In de enkelvoudige jaarrekening van de moeder blijft de deelneming gewoon aan aanschaffingsprijs staan — consolidatieverschil bestaat enkel op groepsniveau. 🔗",
                 "type": "motivatie"
               },
               {
@@ -659,8 +880,8 @@
                   "resources/bronnen/wetteksten/KB-WVV-2019.md",
                   "resources/bronnen/adviezen/CBN-2016-07-verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "Art. 3:130 KB WVV (toerekening en presentatie van consolidatieverschillen); CBN-advies 2016/7 bevestigt het toerekeningsbeginsel.",
+                "confidence": "geciteerd",
+                "tekst": "Art. 3:130 KB WVV regelt de **toerekening eerst, residu daarna**: het verschil uit de compensatie van de aanschaffingsprijs met het EV-aandeel (art. 3:127, a)) wordt zoveel mogelijk toegerekend aan actief-/passiefbestanddelen waarvan de waarde afwijkt van de boekwaarde; het overblijvende verschil komt in de post \"Consolidatieverschillen\", aan actiefzijde als het positief is. CBN-advies 2016/7 bevestigt dit toerekeningsbeginsel.",
                 "type": "grondslag",
                 "wetsref": "Art. 3:130 KB WVV"
               }
@@ -672,15 +893,15 @@
             "blokken": [
               {
                 "bron_refs": [
-                  "data/concepten/records/consolidatieverschil-goodwill.json",
-                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "data/concepten/records/consolidatieverschil-goodwill.json"
                 ],
-                "confidence": "grounded",
+                "confidence": "geciteerd",
                 "items": [
-                  "**Onderwaardering van activa** in de boekhouding van de dochter — bv. gebouwen, terreinen of voorraden waarvan de reële waarde op overnamedatum hoger ligt dan de historische boekwaarde. ⚖️",
-                  "**Overwaardering van passiva** — bv. te hoog ingeschatte voorzieningen of schulden waarvan de werkelijke verplichting lager is dan het geboekte bedrag. 🤖",
-                  "**Niet-geboekte identificeerbare immateriële activa** — intern ontwikkelde merken, klantenportefeuille, knowhow, lopende O&O-projecten of voordelige contracten die in de enkelvoudige balans niet staan maar wel marktwaarde hebben. ⚖️",
-                  "**Goodwill in enge zin** — niet-toewijsbaar restbedrag dat verwachte synergiën, bovennormale rentabiliteit en marktpositie vergoedt; blijft als residuele goodwill op de geconsolideerde balans staan. ⚖️"
+                  "**Onderwaardering van activa** in de boekhouding van de dochter — bv. gebouwen, terreinen, financiële vaste activa of voorraden waarvan de werkelijke waarde op overnamedatum hoger ligt dan de historische boekwaarde. 📖",
+                  "**Overwaardering van passiva** — bv. te hoog ingeschatte voorzieningen of schulden waarvan de werkelijke verplichting lager is dan het geboekte bedrag. 📖",
+                  "**Niet-geboekte identificeerbare immateriële activa** — intern ontwikkelde merken, klantenportefeuille, knowhow, lopende O&O-projecten of voordelige contracten die in de enkelvoudige balans van de dochter niet voorkomen maar wel marktwaarde hebben. 🔗",
+                  "**Residuele goodwill (goodwill in enge zin)** — het niet-toewijsbaar restbedrag dat verwachte synergiën, bovennormale rentabiliteit en marktpositie vergoedt; blijft als \"Consolidatieverschillen\" aan actiefzijde van de geconsolideerde balans staan. 📖"
                 ],
                 "kop": "Vier voornaamste oorzaken van een positief consolidatieverschil",
                 "type": "opsomming"
@@ -689,17 +910,17 @@
                 "bron_refs": [
                   "resources/bronnen/wetteksten/KB-WVV-2019.md"
                 ],
-                "confidence": "inferred",
-                "kop": "Vermeldenswaard",
-                "tekst": "Art. 3:130 KB WVV schrijft **toerekening eerst** voor: oorzaken 1–3 worden aan specifieke actief-/passiefbestanddelen toegewezen; pas het residu daarna is de eigenlijke goodwill (oorzaak 4). 🤖",
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Art. 3:130 KB WVV schrijft een **strikte volgorde** voor: oorzaken 1–3 moeten **eerst** worden toegerekend aan de specifieke actief-/passiefbestanddelen waarvan de waarde afwijkt; pas wat dan nog overblijft is residuele goodwill (oorzaak 4). Wie het hele verschil meteen als één \"goodwill\"-post zou boeken, schendt het toerekeningsbeginsel. 🔗",
                 "type": "motivatie"
               },
               {
                 "bron_refs": [
                   "resources/bronnen/wetteksten/KB-WVV-2019.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "Art. 3:130 KB WVV: het verschil wordt \"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde\"; het residu komt onder \"Consolidatieverschillen\" aan actiefzijde.",
+                "confidence": "geciteerd",
+                "tekst": "Art. 3:130 KB WVV: het verschil wordt \"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde in de boekhouding van de dochteronderneming\"; het residu komt in de post \"Consolidatieverschillen\" (actiefzijde bij positief verschil).",
                 "type": "grondslag",
                 "wetsref": "Art. 3:130 KB WVV"
               }

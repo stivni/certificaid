@@ -1,0 +1,105 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr5",
+  "antwoord_datum": "2026-05-26T12:19:30Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Bijlage met balans na winstverdeling en resultatenrekening ontbreekt in zowel het bron-PDF (resources/raw/voorbeeldexamens/2013-2.pdf, 26 pagina's) als de _segmenten-folder. Cijfermatige antwoorden zijn dus niet berekenbaar. Het modelantwoord beperkt zich tot de canonieke formules per ratio, de te gebruiken jaarrekening-rubrieken (volgens schema volledig model KB WVV), en de relevante toelichting-aanwijzingen (exploitatiesubsidie 415 EUR niet relevant voor deze drie ratio's). Conclusie-blokken zijn `betwijfeld` (❓) zolang de bijlage niet aangeleverd is.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord_zonder_cijfers",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Brutoverkoopmarge (%) = (Bedrijfsresultaat / Omzet) × 100** ❓ — concreet percentage niet berekenbaar zonder de bijgevoegde balans en resultatenrekening (zie `_poc_notitie`).",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Te gebruiken cijfers uit de resultatenrekening** (volledig schema KB WVV, art. 3:89 e.v.):\n\n- **Teller — Bedrijfsresultaat** = code 9901 (= 70/74 − 60/64) 🔗. Dit is de courante operationele winst vóór financieel resultaat en belastingen.\n- **Noemer — Omzet** = code 70 (rubriek I.A. van de resultatenrekening) 🔗.\n\n**Opmerking over de toelichting**: de exploitatiesubsidie van 415 EUR (item 2) zit reeds vervat in rubriek 74 'Andere bedrijfsopbrengsten' en dus in het bedrijfsresultaat — er hoeft niets extra te worden bijgeteld of afgetrokken voor deze ratio 🔗.\n\nFormule toepassen: brutoverkoopmarge = (9901 / 70) × 100, afronden op 2 cijfers na de komma.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** 🔗: er bestaat geen unieke definitie van 'brutoverkoopmarge' in Belgische jaarrekening-doctrine. Twee varianten komen voor in handboeken financiële analyse:\n  1. **Bedrijfsresultaat / Omzet** (operationele marge — meest gebruikte invulling bij ITAA-examens en NBB-balanscentrale).\n  2. **(Omzet − kostprijs verkopen) / Omzet** (commerciële marge — zelden in Belgische context omdat 'kostprijs verkopen' geen aparte rubriek is in het volledig schema).\n\nIn deze vraag wordt variant 1 verwacht (gebruikelijke ITAA-invulling, en de enige variant die rechtstreeks uit het Belgisch schema afleesbaar is zonder analytische gegevens) 🤖.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB WVV art. 3:89 e.v. (schema resultatenrekening, rubrieken 70 en 9901) 🔗. Geen specifiek CBN-advies dat de formule 'brutoverkoopmarge' bindend definieert; de NBB-balanscentrale en ITAA-cursusmateriaal hanteren consistent Bedrijfsresultaat/Omzet 🤖.",
+          "wetsref": "KB WVV art. 3:89; rubrieken 70 en 9901",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord_zonder_cijfers",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Nettorentabiliteit totaal der activa, vóór belastingen en financiële kosten (%) = ((Resultaat vóór belasting + Kosten van schulden) / Totaal der activa) × 100** ❓ — concreet percentage niet berekenbaar zonder de bijgevoegde balans en resultatenrekening.",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Te gebruiken cijfers** (CBN-advies 2011/14, sectie 'Rentabiliteit van het totaal van de activa') 📖:\n\n**Teller** = Resultaat van het boekjaar vóór belasting (code 9903) **+** Kosten van schulden (code 650) 📖.\n\n- Code 9903 = winst/verlies van het boekjaar **vóór** belastingen (= 70/66 − 60/65 + 76 − 66 − 67) 🔗.\n- Code 650 = financiële kosten 'Kosten van schulden' (intresten op leningen, leasings, kortlopend krediet, ...) 📖.\n- De toelichting meldt expliciet: **geen intrestsubsidies** (item 3) en **geen disconto** (item 4) — dus geen bijkomende correcties op de financiële kosten 🔗.\n\n**Noemer** = Totaal der activa = code 20/58 (balanstotaal aan de actiefzijde) 🔗.\n\nFormule toepassen: ((9903 + 650) / 20/58) × 100, afronden op 2 cijfers na de komma.",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Waarom 'vóór belastingen en financiële kosten'?** 📖 Door belastingen en kosten van schulden uit het resultaat te elimineren krijgt men zicht op de **economische rentabiliteit** van de onderneming, los van haar financieringskeuze (eigen vermogen vs. vreemd vermogen) en los van het belastingtarief (CBN-advies 2011/14).\n\n**Valkuil** 🔗: 'netto' verwijst hier niet naar 'na belasting' maar naar het **netto**resultaat (= resultaat ná afschrijvingen en niet-kaskosten, in tegenstelling tot de **bruto**rentabiliteit die de niet-kaskosten weer optelt). Vergelijk met de brutorentabiliteit-formule in hetzelfde CBN-advies: teller = nettoresultaat vóór belasting **+ niet-kaskosten** + kosten van schulden.",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 2011/14 — Herwaarderingsmeerwaarden, sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden' (formule nettorentabiliteit totaal der activa vóór belasting en kosten van schulden) 📖. KB WVV art. 3:89 (resultatenrekening, codes 650 en 9903) en art. 3:90 (balans, code 20/58) 🔗.",
+          "wetsref": "CBN-advies 2011/14; KB WVV art. 3:89-3:90; codes 650, 9903, 20/58",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord_zonder_cijfers",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Liquiditeit in ruime zin = Vlottende activa / Schulden op ten hoogste 1 jaar** ❓ (current ratio) — concrete verhouding niet berekenbaar zonder de bijgevoegde balans.",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Te gebruiken cijfers uit de balans na winstverdeling** (KB WVV, volledig schema):\n\n- **Teller — Vlottende activa** = code 29/58 (= som voorraden 3 + vorderingen op ten hoogste 1 jaar 40/41 + geldbeleggingen 50/53 + liquide middelen 54/58 + overlopende rekeningen 490/1) 🔗.\n- **Noemer — Schulden op ten hoogste 1 jaar** = code 42/48 (inclusief schulden op meer dan 1 jaar die binnen het jaar vervallen 42, financiële schulden 43, handelsschulden 44, ontvangen vooruitbetalingen 46, fiscale/sociale/loonschulden 45, overige schulden 47/48) 🔗 — **niet** verhoogd met de overlopende rekeningen 492/3 (die staan apart) 🤖.\n\nFormule: 29/58 ÷ 42/48, weergegeven als ratio (bv. 1,75) tot 2 cijfers na de komma.\n\nEen waarde ≥ 1 betekent dat de vlottende activa in principe volstaan om de kortlopende schulden te dekken; richtwaarde 1,5–2 wordt gangbaar als gezond beschouwd 🤖.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil — ruime zin vs. enge zin** 🔗:\n  - **Liquiditeit in ruime zin** (current ratio, acid test 1): teller = **alle** vlottende activa (incl. voorraden).\n  - **Liquiditeit in enge zin** (quick ratio): teller = vlottende activa **min voorraden en bestellingen in uitvoering** (de minst liquide post wordt weggelaten omdat ze niet onmiddellijk te gelde te maken is).\n  - **Cash ratio** (liquiditeit in strenge/onmiddellijke zin): teller = enkel geldbeleggingen (50/53) + liquide middelen (54/58).\n\nDe vraag stelt expliciet 'in ruime zin' — dus voorraden meetellen.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB WVV art. 3:90 (schema balans, rubrieken vlottende activa 29/58 en schulden op ten hoogste 1 jaar 42/48) 🔗. Standaarddefinitie in Belgische financiële analyse (NBB-balanscentrale ratio-bundel, ITAA-cursus financiële analyse) 🤖.",
+          "wetsref": "KB WVV art. 3:90; balanscodes 29/58 en 42/48",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

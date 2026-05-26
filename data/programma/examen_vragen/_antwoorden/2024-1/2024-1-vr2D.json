@@ -1,0 +1,59 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr2D",
+  "antwoord_datum": "2026-05-26T13:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_topic_only_notitie": "Herinnering-fragment zonder concrete stellingen — de PNG toont enkel 'D. 4 algemene stellingen juist of fout' (externe controle). De vier specifieke stellingen zijn niet bewaard. Antwoord bouwt het kader 'algemene beginselen externe controle' op zodat een stagiair de vier meest waarschijnlijke stellings-categorieën kan beoordelen: (1) wie mag wat (commissaris vs externe accountant), (2) benoeming/duur/ontslag, (3) onafhankelijkheid (continu, niet-controlediensten, cooling-off), (4) bronnenhiërarchie + verslagverplichting. Deze vier blokken dekken de overgrote meerderheid van j/f-stellingen die in PO 1.3-examens over 'algemene beginselen externe controle' zijn geregistreerd.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "topic_only_kader",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Externe controle** is een onafhankelijke beoordeling van de jaarrekening of andere financiële informatie door iemand die niet tot de onderneming behoort — typisch een **commissaris** (bedrijfsrevisor, lid van het IBR) of een **externe (gecertificeerd) accountant** (lid van het ITAA). Doel: geloofwaardigheid geven aan externe gebruikers (aandeelhouders, banken, fiscus, derden) over de juistheid van de financiële informatie. 🔗\n\nDe **wettelijke controle** (audit) van de jaarrekening — wanneer verplicht door overschrijding van de groottecriteria of door bijzonder statuut — is **exclusief voorbehouden aan de commissaris-bedrijfsrevisor** (WVV art. 3:55). De gecertificeerd accountant voert **contractuele controleopdrachten**, **beoordelingsopdrachten** en **overeengekomen specifieke werkzaamheden** uit voor entiteiten die geen wettelijke controle nodig hebben. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/externe-controle.json"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Vier dominante stellings-categorieën** die in 'algemene-beginselen-externe-controle'-j/f-vragen worden getest:\n\n**1. Wie mag wat — commissaris vs externe accountant**\n- Wettelijke controle van de jaarrekening = **enkel commissaris** (bedrijfsrevisor / IBR). Een stelling die beweert dat een gecertificeerd accountant een **wettelijke** audit kan tekenen is **FOUT**. 🔗\n- Contractuele controle, beoordeling (ISRE 2400), AUP (ISRS 4400), samenstelling = **zowel** bedrijfsrevisor als gecertificeerd accountant. 🔗\n- Fiscale controle door de FOD Financiën is géén 'externe controle' in deze normatieve zin — het is administratief toezicht. 🔗\n\n**2. Benoeming, duur en ontslag van de commissaris**\n- Benoeming **door de algemene vergadering**, op voorstel van het bestuursorgaan (en aanbeveling auditcomité bij OOB), **uit de bedrijfsrevisoren** of geregistreerde auditkantoren. 📖\n- Termijn: **drie jaar, hernieuwbaar** (WVV art. 3:58 §1). Een stelling 'mandaat is 6 jaar' of 'voor onbepaalde duur' is **FOUT**.\n- Bij OOB: **max. 3 opeenvolgende mandaten = 9 jaar** (verlengbaar tot 24 jaar met gezamenlijke opdracht of openbare aanbesteding). 📖\n- Tussentijds ontslag enkel **om wettige reden** door de AV; **verschil van mening over een boekhoudkundige verwerking of controleprocedure is op zich géén wettige reden** (WVV art. 3:63). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**3. Onafhankelijkheid — continu, niet-controlediensten, cooling-off**\n- Onafhankelijkheid is een **continue plicht**, niet alleen bij aanvang: zowel tijdens de periode waarop de gecontroleerde jaarrekening betrekking heeft **als** tijdens de uitvoering van de controle (WVV art. 3:59 §1). Een stelling 'onafhankelijkheid moet enkel bij aanvaarding worden getoetst' is **FOUT**. 📖\n- Verboden niet-controlediensten in de gecontroleerde vennootschap (en verbonden personen): bestuur, boekhouding, waardering, interne audit, juridisch advies dat de basis van de jaarrekening raakt, enz. (WVV art. 3:62 + Verordening 537/2014 voor OOB). 📖\n- **One-to-one-regel** (ITAA-Verordening onafhankelijkheid): honoraria voor niet-controlediensten ≤ honoraria controle. Een stelling 'aanvullende prestaties zijn onbeperkt toegelaten zolang er geen bestuursfunctie is' is **FOUT**. 🔗\n- **Cooling-off**: na einde mandaat mag de commissaris gedurende 2 jaar geen bestuursfunctie of leidinggevende functie in de gecontroleerde entiteit aanvaarden. 🔗\n\n**4. Bronnenhiërarchie + bekwaamheid + werkdocumenten + verslag**\n- Bij elke opdracht volgt de accountant de hiërarchie: **(1) wettekst → (2) opdrachtbrief → (3) ITAA-norm → (4) vakliteratuur** (ITAA Algemene controlenorm §1). Een stelling 'de opdrachtbrief gaat vóór de wet' is **FOUT**. 🔗\n- **Bekwaamheid**: enkel opdrachten aanvaarden waarvoor men de vereiste kennis en middelen heeft (Algemene controlenorm §1; ISA 220). 🔗\n- **Werkschema + werkdocumenten** zijn verplicht — niet pas op vraag van het toezicht maar als routine-onderdeel van elk dossier (Algemene controlenorm §3-4; ISA 230). 🔗\n- **Verslag** is verplicht: zonder schriftelijk verslag geen voltooide opdracht (ISA 700 voor wettelijke controle; ITAA-normen voor contractueel). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/algemene-controlenorm-accountant.json",
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/onafhankelijkheid-externe-accountant.json"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuilen — drie klassieke verwarringen die in j/f-stellingen worden uitgebuit**:\n\n1. **Commissaris ↔ externe accountant verwisselen.** Stellingen zoals 'de gecertificeerd accountant tekent het commissarisverslag bij een grote vennootschap' zijn **FOUT** — wettelijke controle is monopolie van de bedrijfsrevisor. Omgekeerd kan een bedrijfsrevisor wél contractuele opdrachten doen die ook open staan voor de accountant. 🔗\n\n2. **Onafhankelijkheid als momentopname.** Stellingen die suggereren dat onafhankelijkheid 'eenmalig bij aanvaarding' wordt beoordeeld zijn **FOUT** — het is een continue plicht. Komt vaak terug met de truc 'als bij aanvaarding alles in orde is, hoeft het niet meer getoetst' (FOUT). 📖\n\n3. **Bronnenhiërarchie omkeren.** Stellingen die de opdrachtbrief boven de wet plaatsen, of vakliteratuur boven ITAA-normen, zijn **FOUT**. De volgorde wet → contract → norm → vakliteratuur is strikt. 🔗\n\n**Vermeldenswaard**: een **meningsverschil** tussen commissaris en bestuur over een boekhoudkundige verwerking is **geen** wettige opzeggingsgrond (WVV art. 3:63 §1) — dit beschermt de onafhankelijke positie van de commissaris en is een populaire 'valstrik'-stelling. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/onafhankelijkheid-externe-accountant.json"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**WVV Boek 3, Titel 4 'De wettelijke controle van de jaarrekening en van de geconsolideerde jaarrekening'**: art. 3:55 (benoeming door AV uit bedrijfsrevisoren), art. 3:58 (3-jarige hernieuwbare termijn; OOB max 9 jaar), art. 3:59-3:62 (onafhankelijkheid + niet-controlediensten), art. 3:63 (ontslag enkel om wettige reden — meningsverschil ≠ wettige reden). 📖\n\n**ITAA-normen**: Algemene controlenorm voor de externe accountant (zeven kerngebieden + bronnenhiërarchie); KMO-controlenorm (contractuele audit/beoordeling bij KMO's); Verordening onafhankelijkheid (one-to-one-regel niet-controlediensten). 🔗\n\n**ISA's** (via ITAA-erkenning): ISA 200 (algemene doelstellingen), ISA 220 (kwaliteitsbeheersing op opdrachtniveau), ISA 230 (controledocumentatie), ISA 700 (controleverslag). 🔗\n\n**EU**: Verordening (EU) nr. 537/2014 voor wettelijke controle bij organisaties van openbaar belang (OOB) — maximale mandaattermijnen en verboden niet-controlediensten. 📖",
+          "wetsref": "WVV art. 3:55; WVV art. 3:58; WVV art. 3:59; WVV art. 3:62; WVV art. 3:63; Verordening (EU) 537/2014",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

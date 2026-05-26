@@ -1,0 +1,119 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr7",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De liquiditeitsratio's geven de bedrijfsleider een momentopname van de **capaciteit van de onderneming om haar kortlopende schulden (≤ 1 jaar) tijdig te betalen** met haar vlottende activa of een deel ervan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concreet leert de bedrijfsleider hieruit:\n\n1. **Solvabiliteit op korte termijn** — of de onderneming voldoende kortetermijnactiva heeft om haar opeisbare schulden te dekken (drempel: ratio ≥ 1,0). 🔗\n2. **Liquiditeitsbuffer** — hoeveel marge er is boven de minimumdekking; in de praktijk geldt 1,5–2,0 als gezond voor de current ratio, sectorafhankelijk. 🔗\n3. **Vroegtijdige waarschuwing voor betalingsproblemen** — een dalende trend over meerdere boekjaren signaleert verslechterende liquiditeit nog vóór een effectief betalingsincident. 🔗\n4. **Werkkapitaalbeheer** — een te hoge ratio (> 2,0) wijst op inefficiënt gebruik van middelen (overtollige voorraden, te soepel debiteurenbeleid); een te lage op een tekort aan operationele financiering. 🔗\n5. **Onderbouwing voor continuïteits- en financieringsbeslissingen** — input voor going-concern-beoordeling, kredietaanvragen, en faillissementspredictiemodellen (Altman Z-score). 🔗\n\nHet centrale inzicht: **een onderneming kan winstgevend zijn en toch failliet gaan** als ze haar kortlopende schulden niet tijdig kan voldoen — de liquiditeitsratio's leggen dat structurele risico bloot. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/current-ratio.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De ratio's zijn een **balanssnapshot**: ze zeggen niets over kasstroompatronen of seizoensschommelingen tijdens het jaar, en zijn vatbaar voor **window dressing** (bv. tijdelijk afbouwen van schulden vlak vóór balansdatum). Voor een volledig liquiditeitsbeeld combineert men ze met een kasstroomanalyse en evolutie over meerdere boekjaren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/current-ratio.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klassieke financiële analyse (geen wettelijke verankering). Conceptueel uitgewerkt in: `current-ratio`, `quick-ratio`, `cash-ratio` (Certificaid-concepten, anker 1.3.II.C). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "content/concepten/current-ratio.md",
+            "content/concepten/quick-ratio.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Bij de **liquiditeit in enge zin (quick ratio / acid test)** houdt men **geen rekening met de voorraden** (en, in een strikte variant, ook niet met de bestellingen in uitvoering en de overlopende rekeningen aan actiefzijde). Bij de **liquiditeit in ruime zin (current ratio)** worden deze posten **wél** meegerekend in de teller. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/current-ratio.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "| Bestanddeel teller | Liquiditeit in ruime zin (CR) | Liquiditeit in enge zin (QR) |\n|---|:---:|:---:|\n| Voorraden | ✓ meegerekend | ✗ uitgesloten |\n| Bestellingen in uitvoering | ✓ meegerekend | ✗ uitgesloten (strikte variant) |\n| Handelsvorderingen op ≤ 1 jaar | ✓ | ✓ |\n| Overige vorderingen op ≤ 1 jaar | ✓ | ✓ |\n| Geldbeleggingen | ✓ | ✓ |\n| Liquide middelen | ✓ | ✓ |\n| Overlopende rekeningen actief | ✓ | ✗ (strikte variant) |\n| **Noemer**: schulden op ≤ 1 jaar | identiek | identiek |\n\nFormules:\n- **Liquiditeit in ruime zin** = Vlottende activa / Schulden op ≤ 1 jaar 🔗\n- **Liquiditeit in enge zin** = (Vlottende activa – Voorraden – Bestellingen in uitvoering – Overlopende rekeningen) / Schulden op ≤ 1 jaar 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/current-ratio.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Conceptueel uitgewerkt in `current-ratio` (element `beperking-voorraden`: voorraden worden bij CR meegerekend maar zijn niet onmiddellijk liquid) en in de relatie `current-ratio ↔ quick-ratio` (\"De quick ratio sluit voorraden uit de teller uit, waardoor een strengere liquiditeitsmeting ontstaat\"). Anker 1.3.II.C. 🔗",
+          "wetsref": "n.v.t. — financieel-analytisch concept, geen wettelijke definitie",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/current-ratio.md",
+            "content/concepten/quick-ratio.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Voorraden en bestellingen in uitvoering zijn niet onmiddellijk liquide**: ze moeten eerst worden verkocht en daarna nog worden geïnd vóór ze cash opleveren. De liquiditeit in enge zin sluit ze daarom uit om een **scherpere, voorzichtiger** maatstaf te geven van de capaciteit om kortlopende schulden onmiddellijk te voldoen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/current-ratio.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Waarom dit onderscheid bestaat — drie redenen**:\n\n1. **Verkooprisico** — voorraden moeten eerst worden verkocht. Bij vraaguitval, modeveroudering, technische veroudering of bederf kan een aanzienlijk deel onverkoopbaar zijn of slechts met sterke prijsverlaging te verzilveren. De boekwaarde overschat dan de effectieve realiseerbare waarde. 🔗\n2. **Inningstijd** — zelfs als de voorraad vlot verkocht raakt, ontstaat eerst een handelsvordering vooraleer er cash binnenkomt. De totale conversiecyclus (voorraad → verkoop → vordering → inning) kan meerdere maanden duren — terwijl de kortlopende schulden ondertussen wél opeisbaar worden. 🔗\n3. **Sterk sectorafhankelijke liquiditeit** — een supermarktvoorraad slaat in dagen om en is quasi-cash, terwijl een voorraad halffabricaten bij een scheepsbouwer over jaren wordt afgezet. De current ratio behandelt beide identiek; de quick ratio neutraliseert dit verschil door voorraden gewoon weg te laten. 🔗\n\n**Praktische betekenis voor de bedrijfsleider**: een **hoge current ratio gecombineerd met een lage quick ratio** signaleert dat de liquiditeit overwegend in voorraden vastzit — een rode vlag als die voorraad traag omslaat of waardevermindering riskeert. De twee ratio's naast elkaar lezen geeft een rijker beeld dan elk afzonderlijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/current-ratio.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De cash ratio (liquiditeit in **strenge** zin) gaat nog een stap verder en houdt enkel de geldbeleggingen en liquide middelen over — relevant bij acute liquiditeitsnood. Voor dezelfde onderneming geldt steeds: **cash ratio ≤ quick ratio ≤ current ratio**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/current-ratio.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Concept-record `current-ratio`, element `beperking-voorraden`: \"De current ratio houdt voorraden mee als vlottende activa, maar voorraden zijn niet onmiddellijk liquide: ze moeten eerst worden omgezet via verkoop en inning. Dit kan de werkelijke liquiditeitspositie overschatten — voor een scherper beeld vergelijkt men de current ratio met de quick ratio (die voorraden uitsluit).\" 📖",
+          "wetsref": "n.v.t.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "content/concepten/current-ratio.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

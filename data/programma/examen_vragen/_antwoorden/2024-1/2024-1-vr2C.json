@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr2C",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Herinnering-fragment topic_only — geen concrete vraagstelling bewaard. Antwoord behandelt het topic 'volkomen controle volgens revisienormen' generiek: definitie + plaats binnen de assurance-piramide + wettelijk kader.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Volkomen controle** is de Belgische traditionele benaming voor de **wettelijke controle van de jaarrekening** door de commissaris-bedrijfsrevisor, uitgevoerd volgens de ISA-normen (revisienormen) en resulterend in een **redelijke mate van zekerheid** (hoge — maar geen absolute — zekerheid) dat de jaarrekening als geheel geen afwijkingen van materieel belang bevat. 🔗 Het is de zwaarste assurance-opdracht: positief geformuleerd oordeel (\"de jaarrekening geeft een getrouw beeld\") op basis van voldoende en geschikte controle-informatie waarmee het controlerisico tot een aanvaardbaar laag niveau wordt teruggebracht. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-200.md",
+            "resources/bronnen/normen/ISA-320.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Kernkenmerken van de volkomen controle** (tegenover beperkte controle / beoordelingsopdracht):\n\n1. **Doelstelling**: redelijke mate van zekerheid — \"een hoge mate van zekerheid, maar geen garantie\" (ISA 200) dat de jaarrekening vrij is van afwijkingen van materieel belang door fraude of fout. 📖\n2. **Aard van het oordeel**: positief geformuleerd (\"geeft een getrouw beeld in overeenstemming met het van toepassing zijnde verslaggevingsstelsel\"), in tegenstelling tot het negatief geformuleerd oordeel bij een beoordelingsopdracht. 🔗\n3. **Werkzaamheden**: risico-gebaseerde aanpak met inzicht in de entiteit en haar omgeving (incl. interne beheersing), inschatting van risico's op afwijkingen van materieel belang, en daarop afgestemde gegevensgerichte controles en/of systeemgerichte tests. 🔗\n4. **Materialiteit**: vooraf bepaald op niveau van de jaarrekening als geheel én uitvoeringsmaterialiteit (ISA 320) — niet wettelijk bij KB vastgelegd, maar door de auditor in functie van risico's en gebruikers. 📖\n5. **Wettelijk verplicht**: voor grote vennootschappen (overschrijden groottecriteria art. 1:24-1:26 WVV) en voor organisaties van openbaar belang (PIE's); uitgevoerd door een door de algemene vergadering benoemde commissaris (IBR-lid). 🔗\n6. **Eindproduct**: commissarisverslag conform art. 3:74-75 WVV, opgesteld volgens ISA 700 (herzien). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-200.md",
+            "resources/bronnen/normen/ISA-320.md",
+            "resources/bronnen/normen/ISA-700-herzien.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De term **\"volkomen controle\"** is een Belgisch-historische uitdrukking die de **volledige wettelijke audit** contrasteert met lichtere opdrachten (beperkte controle/review onder ISRE 2400, AUP onder ISRS 4400, samenstellingsopdracht onder ISRS 4410). 🤖 Belangrijke valkuil: \"volkomen\" betekent **niet** \"absolute zekerheid\" of \"100% nazicht van alle verrichtingen\" — het blijft een **risico-gebaseerde steekproefcontrole** die werkt met materialiteit en aanvaardbaar controlerisico. 📖 Een commissaris die alle transacties zou verifiëren, voert geen volkomen controle uit — hij begrijpt het concept niet.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-200.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijk kader**: art. 3:70 WVV (opdracht commissaris voor controle financiële toestand, jaarrekening en regelmatigheid); art. 3:72-75 WVV (uitvoering en verslaggeving). **Normenkader**: ISA 200 (algehele doelstellingen + definitie redelijke mate van zekerheid), ISA 315 (risico-inschatting), ISA 320 (materialiteit), ISA 330 (inspelen op ingeschatte risico's), ISA 700 (herzien) (oordeel + commissarisverslag). De ISA's zijn van toepassing krachtens de **bijkomende normen van het IBR** bij de uitvoering van wettelijke controleopdrachten in België.",
+          "wetsref": "WVV art. 3:70-3:75; ISA 200, 315, 320, 330, 700",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/normen/ISA-200.md",
+            "resources/bronnen/normen/ISA-320.md",
+            "resources/bronnen/normen/ISA-700-herzien.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

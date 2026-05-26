@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr3B",
+  "antwoord_datum": "2026-05-26T12:30:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De **hoofddoelstelling** van interne controle in een KMO is het verschaffen van een **redelijke mate van zekerheid** dat de organisatie haar **drie kerndoelstellingen** bereikt: (1) **betrouwbaarheid van de financiële verslaggeving**, (2) **effectiviteit en efficiëntie van de bedrijfsvoering** en (3) **naleving van de toepasselijke wet- en regelgeving**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Toelichting op de drie doelstellingen** (COSO-raamwerk, overgenomen in de ITAA-KMO-controlenorm):\n\n1. **Betrouwbare financiële rapportering** — borgen dat de jaarrekening en interne stuurinformatie correct, volledig en tijdig zijn (raakt direct het werkterrein van de externe accountant). 🔗\n2. **Effectieve en efficiënte bedrijfsvoering** — middelen doeltreffend inzetten, activa beschermen tegen verlies of misbruik (functiescheiding, autorisaties). 🔗\n3. **Naleving van wet- en regelgeving** — fiscaal, sociaal, vennootschapsrechtelijk, sectoraal (anti-witwas, GDPR, ...). 🔗\n\nIn een **KMO-context** is de doelstelling identiek aan die in een grote onderneming — het verschil zit in de **proportionele invulling**: minder uitgebreide functiescheiding, sterkere afhankelijkheid van zachte controles (cultuur, betrokkenheid bedrijfsleider) en vaak compensatie door **management override-monitoring** door de bedrijfsleider zelf. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/interne-controle-coso.json",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — 'redelijke' en geen absolute zekerheid**: het concept biedt per definitie slechts *redelijke* zekerheid wegens vier inherente beperkingen: menselijke oordeelsvorming, **kosten-batenafweging** (cruciaal in KMO-context — uitgebreide controles zijn vaak niet rendabel), **samenspanning** tussen medewerkers, en **management override** door de bedrijfsleider. Een examenstelling die suggereert dat interne controle fraude *volledig* uitsluit, past het concept verkeerd toe. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/interne-controle-coso.json"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**ITAA-KMO-controlenorm, Bijlage 1 (Definities)** — definieert *interne beheersing* als het proces, opgezet en gesuperviseerd door bestuur en management, dat *een redelijke mate van zekerheid* verschaft dat de doelstellingen van de KMO of kleine vzw met betrekking tot (a) betrouwbaarheid van de financiële verslaggeving, (b) effectiviteit en efficiëntie van de activiteiten en (c) naleving van wet- en regelgeving worden bereikt. 📖\n\nConceptueel onderbouwd door het **COSO-raamwerk** (Internal Control — Integrated Framework, 1992, herzien 2013) — internationaal de facto-standaard voor interne controle, structureert dezelfde drie doelstellingen langs vijf componenten (controle-omgeving · risico-inschatting · controle-activiteiten · informatie & communicatie · monitoring).",
+          "wetsref": "ITAA-norm-kmo-controlenorm, Bijlage 1 (Definities); COSO Internal Control — Integrated Framework (2013)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md",
+            "data/concepten/records/interne-controle-coso.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

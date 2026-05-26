@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr10",
+  "antwoord_datum": "2026-05-26T12:18:58Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Behoefte aan werkkapitaal (BWK) = exploitatie-vlottende activa − exploitatieve schulden op ten hoogste 1 jaar** 🔗\n\n| Balanspost | Code | Ja/Neen |\n|---|---|:---:|\n| Materiële vaste activa | 22/27 | **Neen** |\n| Financiële vaste activa | 28 | **Neen** |\n| Vorderingen op meer dan één jaar | 29 | **Neen** |\n| Voorraden | 30/36 | **Ja** |\n| Bestellingen in uitvoering | 37 | **Ja** |\n| Handelsvorderingen | 40 | **Ja** |\n| Overige vorderingen | 41 | **Ja** |\n| Geldbeleggingen | 50/53 | **Neen** |\n| Liquide middelen | 54/58 | **Neen** |\n| Overlopende rekeningen van het actief | 490/1 | **Ja** |\n| Eigen vermogen | 10/15 | **Neen** |\n| Voorzieningen en uitgestelde belastingen | 16 | **Neen** |\n| Schulden op meer dan één jaar | 17 | **Neen** |\n| Schulden op meer dan één jaar die binnen het jaar vervallen | 42 | **Neen** |\n| Financiële schulden | 43 | **Neen** |\n| Handelsschulden | 44 | **Ja** |\n| Ontvangen vooruitbetalingen | 46 | **Ja** |\n| Schulden m.b.t. belastingen, bezoldigingen en sociale lasten | 45 | **Ja** |\n| Overige schulden | 47/48 | **Ja** |\n| Overlopende rekeningen van het passief | 492/3 | **Ja** |",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Logica** 🔗 — De behoefte aan werkkapitaal (BWK, ook 'behoefte aan bedrijfskapitaal' of *besoin en fonds de roulement*) meet hoeveel permanente financiering de **exploitatiecyclus** vraagt: geld zit vast in voorraden en klantenkrediet, gedeeltelijk gecompenseerd door leverancierskrediet en andere niet-financiële kortlopende schulden.\n\n**Drie filters** om elke rubriek te beoordelen:\n1. **Vast vs. vlottend** → vaste activa (22/27, 28, 29) en eigen vermogen / lange schulden (10/15, 16, 17) financieren de **permanente** behoefte, niet de cyclische → **Neen**.\n2. **Exploitatie vs. financieel/thesaurie** → geldbeleggingen (50/53), liquide middelen (54/58), financiële schulden (43) en het kortlopende deel van langlopende financiële schulden (42) zijn **thesaurie**, geen exploitatie → **Neen**.\n3. **Wat overblijft is exploitatief kortlopend** → voorraden (30/36), bestellingen in uitvoering (37), handels- en overige vorderingen (40, 41), overlopende actief (490/1) aan de actiefzijde; handelsschulden (44), ontvangen vooruitbetalingen (46), fiscale/loon/sociale schulden (45), overige schulden (47/48), overlopende passief (492/3) aan de passiefzijde → **Ja**.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Verwar BWK niet met werkkapitaal (NBK)** ❓ — Het **nettobedrijfskapitaal** (= permanent vermogen − vaste activa, of equivalent: vlottende activa − schulden ≤ 1 jaar) is een **buffer-maat** op de hele balans. De **BWK** isoleert enkel de **exploitatie**-posten en sluit thesaurie (50/53, 54/58, 43) en niet-exploitatieve langlopende elementen uit. **Rekening 42** (schulden > 1 jaar die binnen het jaar vervallen) is een **financiële** schuld die kortlopend wordt — niet exploitatief, dus **niet** in BWK. **Overlopende rekeningen** (490/1 en 492/3) zijn cyclisch (pro rata van kosten/opbrengsten) en horen wél in BWK. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klassieke financiële-analyse-doctrine (Ooghe & Van Wymeersch, *Financiële analyse van de onderneming*; NBB-toelichting bij het jaarrekeningmodel). Geen specifieke wetsbepaling — de BWK is een analytisch concept, geen wettelijk gedefinieerde post. De balansrubrieken zelf volgen het **KB van 29 april 2019 tot uitvoering van het WVV** (jaarrekeningschema, art. 3:89). 📖",
+          "wetsref": "KB WVV 29-04-2019, art. 3:89 (balansschema); financiële-analyse-doctrine",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

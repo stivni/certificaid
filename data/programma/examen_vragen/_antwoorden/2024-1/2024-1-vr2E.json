@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr2E",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie d** — de materialiteitsdrempel wordt door de beroepsbeoefenaar zelf bepaald op basis van zijn **professionele oordeelsvorming**, rekening houdend met de **inherente risico's** en het **interne controlesysteem** van de cliënt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-320.md",
+            "resources/bronnen/normen/ISA-200.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per MC-optie**:\n\n- **a — Vastgesteld bij KB**: FOUT. ❌ Er bestaat geen KB dat een vaste materialiteitsdrempel oplegt; materialiteit is per definitie entiteits- en opdracht-specifiek (ISA 320 §10). 📖\n- **b — Door aandeelhouders vastgesteld**: FOUT. ❌ De aandeelhouders benoemen de accountant/commissaris, maar bepalen niet de drempel — dat zou de onafhankelijkheid ondergraven. 🔗\n- **c — Op basis van omzet van de 2 laatste jaren**: FOUT. ❌ Omzet kan één van de **benchmarks** zijn (naast EBIT, eigen vermogen, totaal activa), maar het is geen vaste regel en zeker geen tweejarig gemiddelde. ISA 320 §A4-A9 noemt meerdere mogelijke referentiekaders. 🔗\n- **d — Naargelang inherente risico's + interne controle van de cliënt**: JUIST. 🔗 Materialiteit is een zaak van **professionele oordeelsvorming** (ISA 200 §A26, ISA 320 §4): de auditor zet de drempel mee in functie van het **risico op een afwijking van materieel belang** — dat zelf bestaat uit inherent risico × interne-controle-risico (audit risk model, ISA 200). Een hoger ingeschat risico → lagere materialiteit → meer en diepgaander controlewerk.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-320.md",
+            "resources/bronnen/normen/ISA-200.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — Materialiteit wordt **bij planning** vastgesteld (overall materiality) én in een **lagere uitvoeringsmaterialiteit** (performance materiality) vertaald om het cumulatief risico van niet-gecorrigeerde afwijkingen op te vangen (ISA 320 §9, §11). De drempel wordt **herzien naarmate de controle vordert** als nieuwe informatie dat rechtvaardigt (ISA 320 §12-13). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-320.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**ISA 320 — Materialiteit bij de planning en uitvoering van een controle** (§4, §10-13, §A1-A13): de auditor bepaalt materialiteit op basis van professionele oordeelsvorming, in samenhang met de risico-inschatting. **ISA 200 §A26**: professionele oordeelsvorming is noodzakelijk voor beslissingen over materialiteit en controlerisico. **ISA 315 (herzien 2019)**: het inherent risico en het interne-controle-systeem vormen samen het risico op een afwijking van materieel belang, dat de drempel mee bepaalt. 📖",
+          "wetsref": "ISA 320 §10-13; ISA 200 §A26; ISA 315 (herzien 2019)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-320.md",
+            "resources/bronnen/normen/ISA-200.md",
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

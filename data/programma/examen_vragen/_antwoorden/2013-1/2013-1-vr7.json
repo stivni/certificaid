@@ -11,16 +11,16 @@
       "blokken": [
         {
           "type": "conclusie",
-          "tekst": "**Drie maanden.** ⚖️",
-          "confidence": "grounded",
+          "tekst": "**Drie maanden.** 📖",
+          "confidence": "geciteerd",
           "bron_refs": [
             "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
           ]
         },
         {
           "type": "motivatie",
-          "tekst": "**Principe (KB WVV art. 3:109)**: de geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als die van de consoliderende vennootschap. Afwijken mag enkel om rekening te houden met de balansdatum van de meeste of belangrijkste in de consolidatie opgenomen ondernemingen. ⚖️\n\n**Cap (IFRS 10 B93)**: \"Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen.\" ⚖️",
-          "confidence": "grounded",
+          "tekst": "**Principe (KB WVV art. 3:109, eerste lid)**: de geconsolideerde jaarrekening wordt afgesloten op dezelfde datum als de jaarrekening van de consoliderende vennootschap. 📖\n\n**Afwijking voor een dochter (KB WVV art. 3:110, tweede lid)**: wanneer een dochter haar boekjaar op een andere balansdatum afsluit, mag haar jaarrekening in de consolidatie worden opgenomen mits aanvullende financiële informatie wordt opgesteld of mits passende correcties. 🔗\n\n**Cap drie maanden (IFRS 10 B93)**: \"Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen\" — bovendien moeten de duur van de verslagperioden en het eventuele verschil tussen de data van jaar tot jaar gelijk blijven. 📖",
+          "confidence": "geciteerd",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md",
             "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
@@ -29,17 +29,18 @@
         {
           "type": "motivatie",
           "kop": "Vermeldenswaard",
-          "tekst": "Bij gebruik van de afwijking moet de toelichting (KB WVV art. 3:111) melding maken van belangrijke gebeurtenissen tussen de balansdatum van de dochter en die van de geconsolideerde jaarrekening. ⚖️",
-          "confidence": "grounded",
+          "tekst": "De numerieke cap van drie maanden staat letterlijk in IFRS 10 B93; het KB WVV legt geen expliciete maandengrens op maar werkt met een principle-based regel (\"aanvullende financiële informatie\" of correcties indien verschil > 0). In de praktijk wordt de drie-maanden-grens als norm aangehouden voor beide kaders. 🔗\n\nBij gebruik van de afwijking moet de toelichting (KB WVV art. 3:111) belangrijke gebeurtenissen vermelden die zich tussen de balansdatum van de opgenomen jaarrekening en de afsluitingsdatum van de geconsolideerde jaarrekening hebben voorgedaan. 📖",
+          "confidence": "geciteerd",
           "bron_refs": [
-            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
           ]
         },
         {
           "type": "grondslag",
-          "tekst": "KB WVV art. 3:109 (principe gelijke afsluitingsdatum + afwijkingsgrond); IFRS 10 B92-B93 (cap van drie maanden + aanvullende financiële informatie); KB WVV art. 3:111 (toelichtingsplicht).",
-          "wetsref": "KB WVV art. 3:109, 3:111; IFRS 10 B92-B93",
-          "confidence": "grounded",
+          "tekst": "IFRS 10 B92-B93 (principe gelijke verslagdatum + drie-maanden-cap + gelijkblijvend verschil); KB WVV art. 3:109 (principe gelijke afsluitingsdatum + afwijkingsgrond op niveau van de geconsolideerde jaarrekening); KB WVV art. 3:110, tweede lid (aanvullende info bij afwijkende dochter-balansdatum); KB WVV art. 3:111 (toelichtingsplicht bij afwijking).",
+          "wetsref": "IFRS 10 B92-B93; KB WVV art. 3:109, 3:110, 3:111",
+          "confidence": "geciteerd",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md",
             "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"

@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr3C",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Herinnering-fragment (topic_only): de eigenlijke casus(sen) ontbreken. De PDF noemt enkel de vier risicocategorieën als bullets. Antwoord beperkt zich daarom tot een definitorische opsomming van de vier COSO-risicocategorieën zoals in de vraag genoemd (Strategisch · Informatie · Operationeel · Financieel), met korte typering per categorie en de waarschuwing dat dit een Nederlandstalige didactische variant is van het klassieke COSO ERM-kwadrant Strategic / Operations / Reporting / Compliance. Zonder casus is geen toewijzing mogelijk.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "**Vier risicocategorieën volgens het COSO-model** (zoals in de vraag opgesomd):\n\n- **Strategisch risico** 🤖 — risico dat raakt aan de doelstellingen op lange termijn en de keuze van de strategie (bv. fout businessmodel, markt-shift, verkeerde overname, reputatieschade). Wordt op directie-/bestuursniveau beheerd.\n- **Operationeel risico** 🤖 — risico verbonden aan de dagelijkse werking en bedrijfsprocessen (bv. productie-uitval, fouten in de aankoop- of verkoopcyclus, IT-storing, personeelsverloop, fraude door medewerkers).\n- **Financieel risico** 🤖 — risico verbonden aan de financiële positie en geldstromen (bv. liquiditeitsrisico, kredietrisico op klanten, wissel- en renterisico, financieringsrisico, fout in financiële rapportering met materiële impact).\n- **Informatierisico** 🤖 — risico dat de informatie die in/uit de organisatie stroomt onjuist, onvolledig of niet-tijdig is — zowel interne stuurinformatie (rapportering aan management) als externe rapportering en compliance-informatie (bv. foute KPI's, lekken van vertrouwelijke data, niet-conforme rapportering).",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De Nederlandstalige examen-taxonomie **Strategisch / Informatie / Operationeel / Financieel** is een didactische variant van het klassieke COSO ERM-kwadrant **Strategic · Operations · Reporting · Compliance** (COSO ERM 2004; geactualiseerd 2017). In de ITAA-examencontext wordt 'Informatie' meestal gekoppeld aan Reporting (interne + externe info-stromen) en 'Financieel' aan financiële rapportering en treasury — bij toewijzing van een casus is dat de eerste leidraad. ❓ Compliance-risico (wet- en regelgeving) wordt in deze 4-deling typisch onder Strategisch of Operationeel gebracht, afhankelijk van de aard van de casus.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Werkwijze bij een casus",
+          "tekst": "Bij een echte deelvraag (per casus toewijzen aan één van de vier categorieën) — gebruik deze beslis-vragen 🤖:\n\n1. Raakt het de **lange-termijn strategie of het businessmodel**? → **Strategisch**.\n2. Gaat het over een **bedrijfsproces** (aankoop, productie, verkoop, HR, IT-werking)? → **Operationeel**.\n3. Gaat het over **geldstromen, financiering, financiële rapportering of treasury**? → **Financieel**.\n4. Gaat het over de **kwaliteit, volledigheid of tijdigheid van informatie** (intern of extern)? → **Informatierisico**.\n\nEén risico kan in meerdere categorieën vallen; kies de **primaire** dimensie op basis van waar de impact het grootst is.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "COSO Enterprise Risk Management — Integrated Framework (2004, geactualiseerd 'Enterprise Risk Management — Integrating with Strategy and Performance', 2017): vier oorspronkelijke doelstellingen-/risico-categorieën Strategic · Operations · Reporting · Compliance. In het ITAA-onderwijs (PO 1.3 — Interne controle) wordt vaak de 4-deling Strategisch / Operationeel / Financieel / Informatie gehanteerd. ❓ Geen letterlijke COSO-bron in het Certificaid-corpus (concept-record `risico-inschatting-coso` is nog een seed); een directe wetsref bestaat niet — COSO is een professioneel framework, geen wet.",
+          "wetsref": "COSO ERM Framework (2004 / 2017)",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

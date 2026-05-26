@@ -107,22 +107,22 @@ gegenereerd_op: 2026-05-26
 > > | --- | --- | --- | --- |
 > > | M in A | 70 % | 70 % | Volledige consolidatie |
 > > | M in B | 60 % | 48 % | Volledige consolidatie |
-> > | M in C | 30 % | 30 % | Vermogensmutatiemethode | 📖
+> > | M in C | 30 % | 30 % | Vermogensmutatiemethode | 🔗
 > > 
-> > **Rekenregels**:
-> > - **Controlepercentage**: directe stemrechten van de moeder + 100 % van de stemrechten die exclusief gecontroleerde dochters in de doelvennootschap houden (WVV art. 1:16 §1, 1°: onrechtstreekse bevoegdheid via een dochter wordt bij de rechtstreekse bevoegdheid geteld — geen vermenigvuldiging, controle is binair). ⚖️
-> > - **Belangenpercentage**: som van directe en indirecte deelnemingen, waarbij indirecte deelnemingen langs de keten worden **vermenigvuldigd**. ⚖️
-> > - **Methode**: exclusieve controle (> 50 % stemrechten of in feite) → volledige consolidatie; invloed van betekenis (vermoeden ≥ 20 % en < 50 %) → vermogensmutatiemethode. ⚖️
+> > **Rekenregels** (WVV art. 1:14, 1:16 §1, 1°, 1:17):
+> > - **Controlepercentage**: directe stemrechten van de moeder + 100 % van de stemrechten gehouden door exclusief gecontroleerde dochters; onrechtstreekse controle via een dochter wordt bij de rechtstreekse bevoegdheid geteld — geen vermenigvuldiging (controle is binair). 📖
+> > - **Belangenpercentage**: som van directe + indirecte deelnemingen; in een keten worden de schakels **vermenigvuldigd**. 📖
+> > - **Methode**: exclusieve controle (> 50 % stemrechten of in feite) → volledige consolidatie; invloed van betekenis (vermoeden ≥ 20 % en < 50 %) → vermogensmutatiemethode. 📖
 > > 
-> > **M in A** — directe deelneming 70 % > 50 % → exclusieve controle; belang = 70 %.
+> > **M in A** — directe deelneming 70 % > 50 % → exclusieve controle; belang = 70 %. 🔗
 > > 
-> > **M in B** — M heeft géén directe deelneming in B. A controleert B exclusief (60 %) en M controleert A exclusief (70 %), dus de 60 % van A in B telt volledig mee voor het controlepercentage van M in B. Belang = (70 % × 60 %) + (30 % × 20 %) = 42 % + 6 % = 48 %.
+> > **M in B** — M heeft géén directe deelneming in B. A controleert B exclusief (60 %) en M controleert A exclusief (70 %), dus de 60 % van A in B telt volledig mee voor het controlepercentage van M in B → 60 %. Belang = (70 % × 60 %) + (30 % × 20 %) = 42 % + 6 % = 48 %. 🔗
 > > 
-> > **M in C** — directe deelneming 30 %: tussen 20 % en 50 %, dus geen exclusieve controle maar wel vermoeden van invloed van betekenis; belang = 30 %. 📖
+> > **M in C** — directe deelneming 30 %: tussen 20 % en 50 %, dus geen exclusieve controle maar wel vermoeden van invloed van betekenis; belang = 30 %. 🔗
 > > 
-> > De 20 % die C in B houdt telt **niet** mee voor het controlepercentage van M in B. Reden: M controleert C niet exclusief (slechts 30 % — invloed van betekenis, geen controle in de zin van WVV art. 1:14). Onrechtstreekse controle via een geassocieerde onderneming wordt niet bij de rechtstreekse controle opgeteld — art. 1:16 §1, 1° spreekt expliciet over de onrechtstreekse bevoegdheid via een **dochter**vennootschap. De 20 % telt wel mee voor het **belang**enpercentage (want belang = economische deelneming, ongeacht controle): 30 % × 20 % = 6 %, samen met 70 % × 60 % = 42 % geeft dat 48 %. 🤖
+> > De 20 % die C in B houdt telt **niet** mee voor het controlepercentage van M in B. Reden: M controleert C niet exclusief (slechts 30 % — invloed van betekenis, geen controle in de zin van WVV art. 1:14). Onrechtstreekse controle via een geassocieerde onderneming wordt niet bij de rechtstreekse controle opgeteld — art. 1:16 §1, 1° spreekt expliciet over de onrechtstreekse bevoegdheid via een **dochter**vennootschap. 📖 De 20 % telt wel mee voor het **belang**enpercentage (want belang = economische deelneming, ongeacht controle): 30 % × 20 % = 6 %, samen met 70 % × 60 % = 42 % geeft 48 %. 🔗
 > > 
-> > *Controle = bevoegdheid in rechte of in feite tot beslissende invloed op de aanstelling van de meerderheid van bestuurders/zaakvoerders of op de oriëntatie van het beleid (WVV art. 1:14). Exclusieve controle = controle alleen of samen met dochtervennootschappen (WVV art. 1:17). Bij vaststelling van de controlebevoegdheid wordt de onrechtstreekse bevoegdheid via een dochter bij de rechtstreekse bevoegdheid geteld (WVV art. 1:16 §1, 1°). Vermogensmutatiemethode geldt voor geassocieerde ondernemingen (invloed van betekenis, vermoeden ≥ 20 % stemrechten) — KB WVV art. 3:152; CBN-advies 2022/11. ⚖️*  
+> > *Controle = bevoegdheid in rechte of in feite tot beslissende invloed op de aanstelling van de meerderheid van bestuurders/zaakvoerders of op de oriëntatie van het beleid (WVV art. 1:14). Exclusieve controle = controle alleen of samen met dochtervennootschappen (WVV art. 1:17). Bij vaststelling van de controlebevoegdheid wordt de onrechtstreekse bevoegdheid via een dochter bij de rechtstreekse bevoegdheid geteld (WVV art. 1:16 §1, 1°). Vermogensmutatiemethode geldt voor geassocieerde ondernemingen (invloed van betekenis, vermoeden ≥ 20 % stemrechten) — KB WVV art. 3:152; CBN-advies 2022/11. 📖*  
 > > *Bron: WVV art. 1:14, 1:16 §1, 1°, 1:17; KB WVV art. 3:142, 3:152*
 
 <a id="2013-1-vr6"></a>
@@ -134,11 +134,11 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De post **"Aandeel van derden in het resultaat"** in de geconsolideerde resultatenrekening. ⚖️_**
+> > **_De post **"Aandeel van derden in het resultaat"** in de geconsolideerde resultatenrekening. 📖_**
 > > 
-> > Bij **integrale (volledige) consolidatie** worden 100% van de activa, passiva, opbrengsten en kosten van de dochter opgenomen, ook al heeft de moeder geen 100%-belang. Het deel van het resultaat dat toekomt aan de minderheidsaandeelhouders (derden) wordt afzonderlijk afgezonderd via deze post, zodat het geconsolideerde resultaat dat overblijft uitsluitend toerekenbaar is aan de groep. ⚖️
+> > Bij **integrale consolidatie** worden 100 % van de activa, passiva, opbrengsten en kosten van een dochter opgenomen, ook al heeft de moeder geen 100 %-belang. 🔗 Het deel van het dochterresultaat dat toekomt aan de minderheidsaandeelhouders (derden buiten de consolidatiekring) wordt afgezonderd onder deze afzonderlijke post, zodat het saldo dat overblijft uitsluitend toerekenbaar is aan de groep. 🔗
 > > 
-> > Niet verwarren met de post **"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast"** (art. 3:145 KB WVV) — die geldt voor deelnemingen verwerkt via equity-methode, niet voor integraal geconsolideerde dochters. ⚖️
+> > Niet verwarren met **"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast"** (art. 3:145 KB WVV) — die post is voorbehouden aan deelnemingen verwerkt via de **equity-methode** (vermogensmutatie), niet aan integraal geconsolideerde dochters. 📖 Bij een consortium (horizontale groep) komt de post 'Belangen van derden' overigens niet voor, behoudens belangen ontstaan via een onderliggende verticale consolidatie (CBN 2022/09). 📖
 > > 
-> > *Art. 3:137 KB WVV (integrale consolidatie — aandeel van derden in het resultaat). Vgl. art. 3:145 KB WVV (vermogensmutatie).* 📖  
+> > *Art. 3:137 KB WVV (integrale consolidatie): het resultaat-aandeel toerekenbaar aan aandelen gehouden door anderen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochters wordt vermeld onder de post "Aandeel van derden in het resultaat". Op de balanszijde correspondeert dat met de post 'Belangen van derden' in het eigen vermogen.* 📖  
 > > *Bron: Art. 3:137 KB WVV*

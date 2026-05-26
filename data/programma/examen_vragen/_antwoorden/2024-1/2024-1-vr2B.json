@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr2B",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Na acceptatie verwerft de revisor in de **planningsfase** voldoende inzicht in de entiteit, haar omgeving, het van toepassing zijnde stelsel inzake financiele verslaggeving en het systeem van interne beheersing door **risico-inschattingswerkzaamheden** (ISA 315 herzien 2019, par. 13). Die werkzaamheden bestaan uit drie technieken: (1) **verzoeken om inlichtingen** bij management, met governance belaste personen en andere personeelsleden, (2) **cijferanalyses** (analytische werkzaamheden) en (3) **waarneming en inspectie**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Concreet — de drie risico-inschattingswerkzaamheden uitgewerkt** (ISA 315 par. 14):\n\n1. **Verzoeken om inlichtingen (inquiries)** 📖 — bij het management, de interne auditfunctie (indien aanwezig), met governance belaste personen, juridisch adviseurs, verkoop- en productiepersoneel. Doel: inzicht in bedrijfsmodel, sector, doelstellingen, strategieen, prestatiemeting, fraude-risico's en de werking van de interne beheersing.\n2. **Analytische werkzaamheden** 📖 — vergelijking van financiele en niet-financiele kerncijfers met vorige jaren, sector-benchmarks en budget; identificeren van ongebruikelijke verhoudingen of trends die kunnen wijzen op risico's op een afwijking van materieel belang.\n3. **Waarneming en inspectie** 📖 — bedrijfsbezoek (observatie van activiteiten, faciliteiten, productie), inspectie van interne documenten (strategieplan, notulen RvB/AV, organogram, interne reglementen, beleidsdocumenten, contracten) en externe rapportering (jaarrekening n-1, persberichten, sectoranalyses).\n\n**Bijkomende elementen die de revisor verwerft** (ISA 315 par. 19-27): inzicht in sector- regelgevings- en andere externe factoren, aard van de entiteit (bedrijfsactiviteit, eigendomsstructuur, governance, financieringsstructuur), gehanteerde grondslagen voor financiele verslaggeving, doelstellingen en strategieen + bijbehorende bedrijfsrisico's, meting en beoordeling van financiele prestaties, en het systeem van interne beheersing (vijf COSO-componenten). 🔗\n\n**Bespreking binnen het opdrachtteam** (ISA 315 par. 17): de partner en sleutelleden bespreken hoe en waar de financiele overzichten vatbaar zijn voor een afwijking van materieel belang door fraude of fouten. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — kennisverwerving is **geen eenmalige planningsstap** maar een **iteratief proces** dat doorloopt tijdens de hele opdracht. Nieuwe informatie uit gegevensgerichte controles kan de initiele risico-inschatting wijzigen en bijkomende of aangepaste werkzaamheden vereisen (ISA 315 par. 37 — herziening van de risico-inschatting). 🔗\n\nDe diepgang van de kennisverwerving is bovendien **schaalbaar**: een minder complexe entiteit vereist minder gestructureerde procedures dan een beursgenoteerde groep — maar het inzicht moet altijd voldoende zijn om risico's op een afwijking van materieel belang te kunnen identificeren en inschatten op het niveau van de financiele overzichten en op het niveau van de beweringen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**ISA 315 (herzien 2019)** — Risico's op een afwijking van materieel belang identificeren en inschatten door inzicht te verwerven in de entiteit en haar omgeving: par. 13 (risico-inschattingswerkzaamheden), par. 14 (drie technieken: inquiries, analytische werkzaamheden, waarneming en inspectie), par. 17 (opdrachtteam-bespreking), par. 19-27 (verplichte inhoudsgebieden van het inzicht), par. 28-37 (identificeren en inschatten van risico's, met inbegrip van iteratieve herziening). Aansluitend: **ISA 330** (inspelen op ingeschatte risico's) bepaalt de volgende stap. 📖",
+          "wetsref": "ISA 315 (herzien 2019), par. 13-37",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md",
+            "resources/bronnen/normen/ISA-330.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

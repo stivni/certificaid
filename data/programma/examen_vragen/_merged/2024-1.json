@@ -1,7 +1,7 @@
 {
   "bron_pdf": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
   "examen_id": "2024-1",
-  "merge_datum": "2026-05-26T12:11:24+00:00",
+  "merge_datum": "2026-05-26T12:21:57+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -248,7 +248,61 @@
       "vraag_id": "2024-1-vr1D"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Herinnering met kwaliteits_flag 'subvraag_zonder_inhoud': de concrete stellingen zijn niet bewaard (enkel topic 'onafhankelijkheid bij controleopdracht'). Antwoord is daarom gemodelleerd als een framework-blok dat de stagiair toelaat om typische juist/fout-stellingen rond dit thema te beoordelen — niet als een evaluatie van specifieke stellingen. Geen 'oordeel'-veld omdat er geen concrete stelling is om te beoordelen.",
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "framework_zonder_concrete_stellingen",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Beoordelingskader voor stellingen over onafhankelijkheid bij een wettelijke controleopdracht: een stelling is **juist** als ze aansluit bij de **dubbele toets** (onafhankelijkheid qua geesteshouding én naar buiten toe — schijn) 📖, de **catalogus van verboden niet-controlediensten** van art. 3:60 WVV 📖, en het **algemene verbod op elke andere taak die de onafhankelijkheid in het gedrang brengt** (art. 3:59 WVV) 📖. Een stelling is **fout** wanneer ze de **commissaris/bedrijfsrevisor** verwart met een **externe accountant** zonder controlemandaat, de **koeling-periode** (cooling-off / look-back) verkeerd toepast, of de **70%-honorariumgrens** voor niet-auditdiensten 📖 verkeerd voorstelt.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**De zes pijlers die in stellingen worden getoetst** (en wat de stagiair moet kunnen herkennen):\n\n1. **Dubbele toets — geesteshouding én schijn** (ITAA-norm 2.1.2 §11) 📖. Een revisor die *feitelijk* objectief is maar in een situatie zit die een redelijk denkende derde aan zijn objectiviteit doet twijfelen, is **niet** onafhankelijk. Stelling-valkuil: \"zolang ik mezelf onpartijdig voel, ben ik onafhankelijk\" → **FOUT**.\n\n2. **Continue plicht** 🔗. Onafhankelijkheid moet bestaan **én tijdens de gecontroleerde periode én tijdens de uitvoering van de controle** (art. 3:59 §1 WVV) 📖. Stelling-valkuil: \"enkel op het ogenblik van de aanvaarding\" → **FOUT**.\n\n3. **Verboden niet-controlediensten** (art. 3:60 §2 WVV, transpositie EU-verordening 537/2014) 📖. Limitatieve catalogus: o.a. boekhouding voeren, financiële overzichten opstellen, interne-controleprocedures ontwikkelen, taxatiediensten, bepaalde fiscale diensten, juridische diensten, HR-diensten voor sleutelposities, financieringsdiensten. Verbod geldt **ook voor het netwerk** van de revisor 📖. Stelling-valkuil: \"de commissaris mag de boekhouding voeren zolang een collega het doet\" → **FOUT**.\n\n4. **70%-honorariumgrens** (art. 3:61 §1 WVV) 📖. Honoraria voor niet-auditdiensten (= toegelaten niet-auditdiensten) mogen niet meer dan **70%** bedragen van het gemiddelde van de wettelijke-controlehonoraria over de **laatste drie boekjaren**. Geldt voor **organisaties van openbaar belang** 📖. Stelling-valkuil: \"de grens geldt voor elke vennootschap\" → **FOUT** (alleen OOB's). Het College kan bij uitzondering 2 boekjaren afwijking toestaan 📖.\n\n5. **Cooling-off / look-back** 🔗. Een externe accountant/revisor mag geen controleopdracht aanvaarden wanneer hij **bestuurder, zaakvoerder of verantwoordelijke met belangrijke invloed op de boekhouddienst** was in de cliënt of een verbonden onderneming, of dit **minder dan twee jaar geleden** was (art. 13 §1 KB plichtenleer accountants 1998) 📖. Voor de commissaris (revisor): gelijklopend principe via art. 3:59 WVV + IESBA-Code 📖. Stelling-valkuil: \"één jaar volstaat\" → **FOUT**.\n\n6. **Geen beheers- of vertegenwoordigingsfunctie tijdens de opdracht** (art. 3:59 §2 WVV; art. 13 §2 KB plichtenleer) 📖. De commissaris mag geen mandaat aanvaarden in de gecontroleerde vennootschap of een verbonden onderneming dat hem ertoe brengt zich in te laten met het beheer.\n\n**Typische stelling-patronen** die gebruikt worden in B/Z-vragen:\n- ✔ \"De onafhankelijkheid wordt beoordeeld zowel intern (geesteshouding) als extern (schijn).\" → **JUIST** 🔗.\n- ✔ \"Het verbod op niet-controlediensten geldt ook voor de netwerkkantoren van de commissaris.\" → **JUIST** (art. 3:60 §1 WVV) 📖.\n- ✘ \"De commissaris mag de jaarrekening van de gecontroleerde vennootschap opstellen mits hij dit duidelijk vermeldt in zijn verslag.\" → **FOUT** (transparantie heft een verbodsbepaling niet op) 🔗.\n- ✘ \"De 70%-regel geldt voor elke kmo.\" → **FOUT** (alleen OOB) 📖.\n- ✘ \"Een onafhankelijkheidsbedreiging wordt opgelost door een 'safeguard' in alle gevallen.\" → **FOUT** (verboden diensten = absoluut verbod, geen safeguards mogelijk) 🔗.",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard — verschil commissaris (revisor) vs externe accountant zonder controlemandaat**: De vraag spreekt over \"onafhankelijkheid bij een **controleopdracht**\", dus over een **wettelijke controle** van de jaarrekening (commissaris-mandaat, art. 3:58 e.v. WVV) 🔗. De strengste regels (art. 3:59-3:61 WVV + ITAA-controlenorm + IESBA-Code Part 4A) gelden hier. Voor andere opdrachten van een gecertificeerd accountant (bv. fiscale bijstand, advies) gelden enkel de algemene deontologische regels (KB plichtenleer + IESBA-Code Part 4B). Een stelling die deze regimes verwart is bijna altijd **fout** 🤖.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Kern-grondslagen** voor onafhankelijkheid bij een wettelijke controleopdracht:\n- **Art. 3:59 WVV** — algemeen onafhankelijkheidsprincipe + continue plicht (tijdens én ná de gecontroleerde periode) + verbod op andere taken bij de gecontroleerde vennootschap of verbonden personen.\n- **Art. 3:60 WVV** — limitatieve catalogus verboden niet-controlediensten; geldt voor de commissaris én zijn netwerk; look-back-perioden.\n- **Art. 3:61 WVV** — 70%-honorariumgrens voor niet-auditdiensten (OOB); uitzondering door College van toezicht op de bedrijfsrevisoren mogelijk voor max. 2 boekjaren.\n- **ITAA-norm KMO-controlenorm §11-12 (afdeling 2.1.2)** — dubbele toets onafhankelijkheid (geesteshouding + naar buiten toe) + maatregelen tegen belangenconflicten.\n- **Art. 13 KB van 1 maart 1998 (plichtenleer accountants)** — 2 jaar look-back voor externe accountant; verbod op cumulatie controle + beheersfunctie.\n- **IESBA-Code Part 4A** — internationaal referentiekader (threats-and-safeguards), via verwijzing toepasselijk; verplicht voor wettelijke controles.",
+                "type": "grondslag",
+                "wetsref": "Art. 3:59-3:61 WVV; ITAA-norm KMO-controlenorm §11-12; art. 13 KB 1 maart 1998 plichtenleer; IESBA-Code Part 4A"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr2A"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -300,7 +354,55 @@
       "vraag_id": "2024-1-vr2A"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Na acceptatie verwerft de revisor in de **planningsfase** voldoende inzicht in de entiteit, haar omgeving, het van toepassing zijnde stelsel inzake financiele verslaggeving en het systeem van interne beheersing door **risico-inschattingswerkzaamheden** (ISA 315 herzien 2019, par. 13). Die werkzaamheden bestaan uit drie technieken: (1) **verzoeken om inlichtingen** bij management, met governance belaste personen en andere personeelsleden, (2) **cijferanalyses** (analytische werkzaamheden) en (3) **waarneming en inspectie**. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Concreet — de drie risico-inschattingswerkzaamheden uitgewerkt** (ISA 315 par. 14):\n\n1. **Verzoeken om inlichtingen (inquiries)** 📖 — bij het management, de interne auditfunctie (indien aanwezig), met governance belaste personen, juridisch adviseurs, verkoop- en productiepersoneel. Doel: inzicht in bedrijfsmodel, sector, doelstellingen, strategieen, prestatiemeting, fraude-risico's en de werking van de interne beheersing.\n2. **Analytische werkzaamheden** 📖 — vergelijking van financiele en niet-financiele kerncijfers met vorige jaren, sector-benchmarks en budget; identificeren van ongebruikelijke verhoudingen of trends die kunnen wijzen op risico's op een afwijking van materieel belang.\n3. **Waarneming en inspectie** 📖 — bedrijfsbezoek (observatie van activiteiten, faciliteiten, productie), inspectie van interne documenten (strategieplan, notulen RvB/AV, organogram, interne reglementen, beleidsdocumenten, contracten) en externe rapportering (jaarrekening n-1, persberichten, sectoranalyses).\n\n**Bijkomende elementen die de revisor verwerft** (ISA 315 par. 19-27): inzicht in sector- regelgevings- en andere externe factoren, aard van de entiteit (bedrijfsactiviteit, eigendomsstructuur, governance, financieringsstructuur), gehanteerde grondslagen voor financiele verslaggeving, doelstellingen en strategieen + bijbehorende bedrijfsrisico's, meting en beoordeling van financiele prestaties, en het systeem van interne beheersing (vijf COSO-componenten). 🔗\n\n**Bespreking binnen het opdrachtteam** (ISA 315 par. 17): de partner en sleutelleden bespreken hoe en waar de financiele overzichten vatbaar zijn voor een afwijking van materieel belang door fraude of fouten. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — kennisverwerving is **geen eenmalige planningsstap** maar een **iteratief proces** dat doorloopt tijdens de hele opdracht. Nieuwe informatie uit gegevensgerichte controles kan de initiele risico-inschatting wijzigen en bijkomende of aangepaste werkzaamheden vereisen (ISA 315 par. 37 — herziening van de risico-inschatting). 🔗\n\nDe diepgang van de kennisverwerving is bovendien **schaalbaar**: een minder complexe entiteit vereist minder gestructureerde procedures dan een beursgenoteerde groep — maar het inzicht moet altijd voldoende zijn om risico's op een afwijking van materieel belang te kunnen identificeren en inschatten op het niveau van de financiele overzichten en op het niveau van de beweringen. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md",
+                  "resources/bronnen/normen/ISA-330.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**ISA 315 (herzien 2019)** — Risico's op een afwijking van materieel belang identificeren en inschatten door inzicht te verwerven in de entiteit en haar omgeving: par. 13 (risico-inschattingswerkzaamheden), par. 14 (drie technieken: inquiries, analytische werkzaamheden, waarneming en inspectie), par. 17 (opdrachtteam-bespreking), par. 19-27 (verplichte inhoudsgebieden van het inzicht), par. 28-37 (identificeren en inschatten van risico's, met inbegrip van iteratieve herziening). Aansluitend: **ISA 330** (inspelen op ingeschatte risico's) bepaalt de volgende stap. 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 315 (herzien 2019), par. 13-37"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr2B"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -349,7 +451,63 @@
       "vraag_id": "2024-1-vr2B"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Herinnering-fragment topic_only — geen concrete vraagstelling bewaard. Antwoord behandelt het topic 'volkomen controle volgens revisienormen' generiek: definitie + plaats binnen de assurance-piramide + wettelijk kader.",
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-200.md",
+                  "resources/bronnen/normen/ISA-320.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Volkomen controle** is de Belgische traditionele benaming voor de **wettelijke controle van de jaarrekening** door de commissaris-bedrijfsrevisor, uitgevoerd volgens de ISA-normen (revisienormen) en resulterend in een **redelijke mate van zekerheid** (hoge — maar geen absolute — zekerheid) dat de jaarrekening als geheel geen afwijkingen van materieel belang bevat. 🔗 Het is de zwaarste assurance-opdracht: positief geformuleerd oordeel (\"de jaarrekening geeft een getrouw beeld\") op basis van voldoende en geschikte controle-informatie waarmee het controlerisico tot een aanvaardbaar laag niveau wordt teruggebracht. 📖",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-200.md",
+                  "resources/bronnen/normen/ISA-320.md",
+                  "resources/bronnen/normen/ISA-700-herzien.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Kernkenmerken van de volkomen controle** (tegenover beperkte controle / beoordelingsopdracht):\n\n1. **Doelstelling**: redelijke mate van zekerheid — \"een hoge mate van zekerheid, maar geen garantie\" (ISA 200) dat de jaarrekening vrij is van afwijkingen van materieel belang door fraude of fout. 📖\n2. **Aard van het oordeel**: positief geformuleerd (\"geeft een getrouw beeld in overeenstemming met het van toepassing zijnde verslaggevingsstelsel\"), in tegenstelling tot het negatief geformuleerd oordeel bij een beoordelingsopdracht. 🔗\n3. **Werkzaamheden**: risico-gebaseerde aanpak met inzicht in de entiteit en haar omgeving (incl. interne beheersing), inschatting van risico's op afwijkingen van materieel belang, en daarop afgestemde gegevensgerichte controles en/of systeemgerichte tests. 🔗\n4. **Materialiteit**: vooraf bepaald op niveau van de jaarrekening als geheel én uitvoeringsmaterialiteit (ISA 320) — niet wettelijk bij KB vastgelegd, maar door de auditor in functie van risico's en gebruikers. 📖\n5. **Wettelijk verplicht**: voor grote vennootschappen (overschrijden groottecriteria art. 1:24-1:26 WVV) en voor organisaties van openbaar belang (PIE's); uitgevoerd door een door de algemene vergadering benoemde commissaris (IBR-lid). 🔗\n6. **Eindproduct**: commissarisverslag conform art. 3:74-75 WVV, opgesteld volgens ISA 700 (herzien). 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-200.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De term **\"volkomen controle\"** is een Belgisch-historische uitdrukking die de **volledige wettelijke audit** contrasteert met lichtere opdrachten (beperkte controle/review onder ISRE 2400, AUP onder ISRS 4400, samenstellingsopdracht onder ISRS 4410). 🤖 Belangrijke valkuil: \"volkomen\" betekent **niet** \"absolute zekerheid\" of \"100% nazicht van alle verrichtingen\" — het blijft een **risico-gebaseerde steekproefcontrole** die werkt met materialiteit en aanvaardbaar controlerisico. 📖 Een commissaris die alle transacties zou verifiëren, voert geen volkomen controle uit — hij begrijpt het concept niet.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/normen/ISA-200.md",
+                  "resources/bronnen/normen/ISA-320.md",
+                  "resources/bronnen/normen/ISA-700-herzien.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Wettelijk kader**: art. 3:70 WVV (opdracht commissaris voor controle financiële toestand, jaarrekening en regelmatigheid); art. 3:72-75 WVV (uitvoering en verslaggeving). **Normenkader**: ISA 200 (algehele doelstellingen + definitie redelijke mate van zekerheid), ISA 315 (risico-inschatting), ISA 320 (materialiteit), ISA 330 (inspelen op ingeschatte risico's), ISA 700 (herzien) (oordeel + commissarisverslag). De ISA's zijn van toepassing krachtens de **bijkomende normen van het IBR** bij de uitvoering van wettelijke controleopdrachten in België.",
+                "type": "grondslag",
+                "wetsref": "WVV art. 3:70-3:75; ISA 200, 315, 320, 330, 700"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr2C"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -401,7 +559,65 @@
       "vraag_id": "2024-1-vr2C"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_topic_only_notitie": "Herinnering-fragment zonder concrete stellingen — de PNG toont enkel 'D. 4 algemene stellingen juist of fout' (externe controle). De vier specifieke stellingen zijn niet bewaard. Antwoord bouwt het kader 'algemene beginselen externe controle' op zodat een stagiair de vier meest waarschijnlijke stellings-categorieën kan beoordelen: (1) wie mag wat (commissaris vs externe accountant), (2) benoeming/duur/ontslag, (3) onafhankelijkheid (continu, niet-controlediensten, cooling-off), (4) bronnenhiërarchie + verslagverplichting. Deze vier blokken dekken de overgrote meerderheid van j/f-stellingen die in PO 1.3-examens over 'algemene beginselen externe controle' zijn geregistreerd.",
+        "antwoord_datum": "2026-05-26T13:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "topic_only_kader",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/externe-controle.json"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Externe controle** is een onafhankelijke beoordeling van de jaarrekening of andere financiële informatie door iemand die niet tot de onderneming behoort — typisch een **commissaris** (bedrijfsrevisor, lid van het IBR) of een **externe (gecertificeerd) accountant** (lid van het ITAA). Doel: geloofwaardigheid geven aan externe gebruikers (aandeelhouders, banken, fiscus, derden) over de juistheid van de financiële informatie. 🔗\n\nDe **wettelijke controle** (audit) van de jaarrekening — wanneer verplicht door overschrijding van de groottecriteria of door bijzonder statuut — is **exclusief voorbehouden aan de commissaris-bedrijfsrevisor** (WVV art. 3:55). De gecertificeerd accountant voert **contractuele controleopdrachten**, **beoordelingsopdrachten** en **overeengekomen specifieke werkzaamheden** uit voor entiteiten die geen wettelijke controle nodig hebben. 📖",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vier dominante stellings-categorieën** die in 'algemene-beginselen-externe-controle'-j/f-vragen worden getest:\n\n**1. Wie mag wat — commissaris vs externe accountant**\n- Wettelijke controle van de jaarrekening = **enkel commissaris** (bedrijfsrevisor / IBR). Een stelling die beweert dat een gecertificeerd accountant een **wettelijke** audit kan tekenen is **FOUT**. 🔗\n- Contractuele controle, beoordeling (ISRE 2400), AUP (ISRS 4400), samenstelling = **zowel** bedrijfsrevisor als gecertificeerd accountant. 🔗\n- Fiscale controle door de FOD Financiën is géén 'externe controle' in deze normatieve zin — het is administratief toezicht. 🔗\n\n**2. Benoeming, duur en ontslag van de commissaris**\n- Benoeming **door de algemene vergadering**, op voorstel van het bestuursorgaan (en aanbeveling auditcomité bij OOB), **uit de bedrijfsrevisoren** of geregistreerde auditkantoren. 📖\n- Termijn: **drie jaar, hernieuwbaar** (WVV art. 3:58 §1). Een stelling 'mandaat is 6 jaar' of 'voor onbepaalde duur' is **FOUT**.\n- Bij OOB: **max. 3 opeenvolgende mandaten = 9 jaar** (verlengbaar tot 24 jaar met gezamenlijke opdracht of openbare aanbesteding). 📖\n- Tussentijds ontslag enkel **om wettige reden** door de AV; **verschil van mening over een boekhoudkundige verwerking of controleprocedure is op zich géén wettige reden** (WVV art. 3:63). 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/algemene-controlenorm-accountant.json",
+                  "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/onafhankelijkheid-externe-accountant.json"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**3. Onafhankelijkheid — continu, niet-controlediensten, cooling-off**\n- Onafhankelijkheid is een **continue plicht**, niet alleen bij aanvang: zowel tijdens de periode waarop de gecontroleerde jaarrekening betrekking heeft **als** tijdens de uitvoering van de controle (WVV art. 3:59 §1). Een stelling 'onafhankelijkheid moet enkel bij aanvaarding worden getoetst' is **FOUT**. 📖\n- Verboden niet-controlediensten in de gecontroleerde vennootschap (en verbonden personen): bestuur, boekhouding, waardering, interne audit, juridisch advies dat de basis van de jaarrekening raakt, enz. (WVV art. 3:62 + Verordening 537/2014 voor OOB). 📖\n- **One-to-one-regel** (ITAA-Verordening onafhankelijkheid): honoraria voor niet-controlediensten ≤ honoraria controle. Een stelling 'aanvullende prestaties zijn onbeperkt toegelaten zolang er geen bestuursfunctie is' is **FOUT**. 🔗\n- **Cooling-off**: na einde mandaat mag de commissaris gedurende 2 jaar geen bestuursfunctie of leidinggevende functie in de gecontroleerde entiteit aanvaarden. 🔗\n\n**4. Bronnenhiërarchie + bekwaamheid + werkdocumenten + verslag**\n- Bij elke opdracht volgt de accountant de hiërarchie: **(1) wettekst → (2) opdrachtbrief → (3) ITAA-norm → (4) vakliteratuur** (ITAA Algemene controlenorm §1). Een stelling 'de opdrachtbrief gaat vóór de wet' is **FOUT**. 🔗\n- **Bekwaamheid**: enkel opdrachten aanvaarden waarvoor men de vereiste kennis en middelen heeft (Algemene controlenorm §1; ISA 220). 🔗\n- **Werkschema + werkdocumenten** zijn verplicht — niet pas op vraag van het toezicht maar als routine-onderdeel van elk dossier (Algemene controlenorm §3-4; ISA 230). 🔗\n- **Verslag** is verplicht: zonder schriftelijk verslag geen voltooide opdracht (ISA 700 voor wettelijke controle; ITAA-normen voor contractueel). 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/onafhankelijkheid-externe-accountant.json"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Valkuilen — drie klassieke verwarringen die in j/f-stellingen worden uitgebuit**:\n\n1. **Commissaris ↔ externe accountant verwisselen.** Stellingen zoals 'de gecertificeerd accountant tekent het commissarisverslag bij een grote vennootschap' zijn **FOUT** — wettelijke controle is monopolie van de bedrijfsrevisor. Omgekeerd kan een bedrijfsrevisor wél contractuele opdrachten doen die ook open staan voor de accountant. 🔗\n\n2. **Onafhankelijkheid als momentopname.** Stellingen die suggereren dat onafhankelijkheid 'eenmalig bij aanvaarding' wordt beoordeeld zijn **FOUT** — het is een continue plicht. Komt vaak terug met de truc 'als bij aanvaarding alles in orde is, hoeft het niet meer getoetst' (FOUT). 📖\n\n3. **Bronnenhiërarchie omkeren.** Stellingen die de opdrachtbrief boven de wet plaatsen, of vakliteratuur boven ITAA-normen, zijn **FOUT**. De volgorde wet → contract → norm → vakliteratuur is strikt. 🔗\n\n**Vermeldenswaard**: een **meningsverschil** tussen commissaris en bestuur over een boekhoudkundige verwerking is **geen** wettige opzeggingsgrond (WVV art. 3:63 §1) — dit beschermt de onafhankelijke positie van de commissaris en is een populaire 'valstrik'-stelling. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**WVV Boek 3, Titel 4 'De wettelijke controle van de jaarrekening en van de geconsolideerde jaarrekening'**: art. 3:55 (benoeming door AV uit bedrijfsrevisoren), art. 3:58 (3-jarige hernieuwbare termijn; OOB max 9 jaar), art. 3:59-3:62 (onafhankelijkheid + niet-controlediensten), art. 3:63 (ontslag enkel om wettige reden — meningsverschil ≠ wettige reden). 📖\n\n**ITAA-normen**: Algemene controlenorm voor de externe accountant (zeven kerngebieden + bronnenhiërarchie); KMO-controlenorm (contractuele audit/beoordeling bij KMO's); Verordening onafhankelijkheid (one-to-one-regel niet-controlediensten). 🔗\n\n**ISA's** (via ITAA-erkenning): ISA 200 (algemene doelstellingen), ISA 220 (kwaliteitsbeheersing op opdrachtniveau), ISA 230 (controledocumentatie), ISA 700 (controleverslag). 🔗\n\n**EU**: Verordening (EU) nr. 537/2014 voor wettelijke controle bij organisaties van openbaar belang (OOB) — maximale mandaattermijnen en verboden niet-controlediensten. 📖",
+                "type": "grondslag",
+                "wetsref": "WVV art. 3:55; WVV art. 3:58; WVV art. 3:59; WVV art. 3:62; WVV art. 3:63; Verordening (EU) 537/2014"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr2D"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -452,7 +668,59 @@
       "vraag_id": "2024-1-vr2D"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-320.md",
+                  "resources/bronnen/normen/ISA-200.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie d** — de materialiteitsdrempel wordt door de beroepsbeoefenaar zelf bepaald op basis van zijn **professionele oordeelsvorming**, rekening houdend met de **inherente risico's** en het **interne controlesysteem** van de cliënt. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-320.md",
+                  "resources/bronnen/normen/ISA-200.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per MC-optie**:\n\n- **a — Vastgesteld bij KB**: FOUT. ❌ Er bestaat geen KB dat een vaste materialiteitsdrempel oplegt; materialiteit is per definitie entiteits- en opdracht-specifiek (ISA 320 §10). 📖\n- **b — Door aandeelhouders vastgesteld**: FOUT. ❌ De aandeelhouders benoemen de accountant/commissaris, maar bepalen niet de drempel — dat zou de onafhankelijkheid ondergraven. 🔗\n- **c — Op basis van omzet van de 2 laatste jaren**: FOUT. ❌ Omzet kan één van de **benchmarks** zijn (naast EBIT, eigen vermogen, totaal activa), maar het is geen vaste regel en zeker geen tweejarig gemiddelde. ISA 320 §A4-A9 noemt meerdere mogelijke referentiekaders. 🔗\n- **d — Naargelang inherente risico's + interne controle van de cliënt**: JUIST. 🔗 Materialiteit is een zaak van **professionele oordeelsvorming** (ISA 200 §A26, ISA 320 §4): de auditor zet de drempel mee in functie van het **risico op een afwijking van materieel belang** — dat zelf bestaat uit inherent risico × interne-controle-risico (audit risk model, ISA 200). Een hoger ingeschat risico → lagere materialiteit → meer en diepgaander controlewerk.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-320.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — Materialiteit wordt **bij planning** vastgesteld (overall materiality) én in een **lagere uitvoeringsmaterialiteit** (performance materiality) vertaald om het cumulatief risico van niet-gecorrigeerde afwijkingen op te vangen (ISA 320 §9, §11). De drempel wordt **herzien naarmate de controle vordert** als nieuwe informatie dat rechtvaardigt (ISA 320 §12-13). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-320.md",
+                  "resources/bronnen/normen/ISA-200.md",
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**ISA 320 — Materialiteit bij de planning en uitvoering van een controle** (§4, §10-13, §A1-A13): de auditor bepaalt materialiteit op basis van professionele oordeelsvorming, in samenhang met de risico-inschatting. **ISA 200 §A26**: professionele oordeelsvorming is noodzakelijk voor beslissingen over materialiteit en controlerisico. **ISA 315 (herzien 2019)**: het inherent risico en het interne-controle-systeem vormen samen het risico op een afwijking van materieel belang, dat de drempel mee bepaalt. 📖",
+                "type": "grondslag",
+                "wetsref": "ISA 320 §10-13; ISA 200 §A26; ISA 315 (herzien 2019)"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr2E"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -521,7 +789,47 @@
       "vraag_id": "2024-1-vr2E"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md",
+                  "data/concepten/records/verkoopcyclus-ic.json"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Goede adviezen aan de bedrijfsleider voor interne controle in de verkoopcyclus** — beheers de vijf opeenvolgende stadia *order → kredietacceptatie → levering → facturatie → inning* met deze maatregelen:\n\n1. **Functiescheiding** tussen wie verkooporders autoriseert, wie levert, wie factureert, wie boekt (debiteurenrekeningen bijhoudt) en wie betalingen int. 🔗 Een verkoper mag bijvoorbeeld geen productprijsbestanden of commissietarieven kunnen wijzigen, en de manager die kredietverkopen autoriseert mag geen debiteuren bijhouden of contanten ontvangen — anders kan één persoon een fictieve verkoop creëren en verbergen. 📖\n2. **Kredietacceptatie vooraf** — limieten per klant, blokkade van nieuwe leveringen bij overschrijding of betalingsachterstand. 🔗\n3. **Autorisatie van afwijkende prijzen, kortingen en creditnota's** door een tweede persoon (geen verkoper); creditnota's altijd gemotiveerd en gekoppeld aan de oorspronkelijke factuur. 🔗\n4. **Sluitende koppeling order → leveringsbon → factuur** (pre-numbered documents, three-way match) zodat geen levering ongefactureerd blijft en geen factuur zonder onderliggende levering wordt opgemaakt. 🔗\n5. **Cut-off-controle** rond balansdatum: leveringen tot 31/12 horen in omzet van dat jaar, leveringen na 31/12 niet. 🔗\n6. **Periodieke opvolging openstaande vorderingen** (ouderdomsbalans/aging), aanmaningsprocedure, en tijdige boeking van waardeverminderingen op dubieuze debiteuren. 🔗\n7. **Compenserende maatregelen in een KMO** waar volledige functiescheiding niet haalbaar is: directe betrokkenheid van de eigenaar-bestuurder (zelf kredietlimieten goedkeuren, bankuittreksels openen, periodiek de ouderdomsbalans aftekenen) als alternatief voor scheiding. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — de vraag is gesteld in een **KMO-context** (zie vr3B/C/D in hetzelfde blok). Het examen verwacht dus géén opsomming van zware grote-onderneming-controls (geautomatiseerde three-way-matches in een ERP, aparte interne-auditfunctie), maar **pragmatische, schaalbare adviezen** waar de bedrijfsleider zelf het sluitstuk vormt. ISA 315 erkent expliciet dat \"in een door de eigenaar bestuurde entiteit de eigenaar-bestuurder mogelijk meer effectief toezicht uitoefent door directe betrokkenheid\" als compensatie voor beperkte functiescheiding. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**ISA 315 (herzien 2019), Bijlage 3** — voorbeeld van functiescheiding in de verkoopcyclus (autorisatie kredietverkopen, bijhouden debiteuren, afhandelen contanten gescheiden; productprijsbestanden en commissietarieven afgeschermd van verkopers). **ISA 315 §A156-A157 (Schaalbaarheid)** — voor minder complexe entiteiten zijn beheersingsmaatregelen vergelijkbaar maar minder formeel; directe betrokkenheid van de eigenaar-bestuurder kan beperkte functiescheiding compenseren. **COSO Internal Control — Integrated Framework** als overkoepelend kader (control activities-component).",
+                "type": "grondslag",
+                "wetsref": "ISA 315 Bijlage 3 + §A156-A157"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr3A"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -573,7 +881,56 @@
       "vraag_id": "2024-1-vr3A"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:30:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De **hoofddoelstelling** van interne controle in een KMO is het verschaffen van een **redelijke mate van zekerheid** dat de organisatie haar **drie kerndoelstellingen** bereikt: (1) **betrouwbaarheid van de financiële verslaggeving**, (2) **effectiviteit en efficiëntie van de bedrijfsvoering** en (3) **naleving van de toepasselijke wet- en regelgeving**. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "data/concepten/records/interne-controle-coso.json",
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Toelichting op de drie doelstellingen** (COSO-raamwerk, overgenomen in de ITAA-KMO-controlenorm):\n\n1. **Betrouwbare financiële rapportering** — borgen dat de jaarrekening en interne stuurinformatie correct, volledig en tijdig zijn (raakt direct het werkterrein van de externe accountant). 🔗\n2. **Effectieve en efficiënte bedrijfsvoering** — middelen doeltreffend inzetten, activa beschermen tegen verlies of misbruik (functiescheiding, autorisaties). 🔗\n3. **Naleving van wet- en regelgeving** — fiscaal, sociaal, vennootschapsrechtelijk, sectoraal (anti-witwas, GDPR, ...). 🔗\n\nIn een **KMO-context** is de doelstelling identiek aan die in een grote onderneming — het verschil zit in de **proportionele invulling**: minder uitgebreide functiescheiding, sterkere afhankelijkheid van zachte controles (cultuur, betrokkenheid bedrijfsleider) en vaak compensatie door **management override-monitoring** door de bedrijfsleider zelf. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "data/concepten/records/interne-controle-coso.json"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard — 'redelijke' en geen absolute zekerheid**: het concept biedt per definitie slechts *redelijke* zekerheid wegens vier inherente beperkingen: menselijke oordeelsvorming, **kosten-batenafweging** (cruciaal in KMO-context — uitgebreide controles zijn vaak niet rendabel), **samenspanning** tussen medewerkers, en **management override** door de bedrijfsleider. Een examenstelling die suggereert dat interne controle fraude *volledig* uitsluit, past het concept verkeerd toe. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md",
+                  "data/concepten/records/interne-controle-coso.json"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**ITAA-KMO-controlenorm, Bijlage 1 (Definities)** — definieert *interne beheersing* als het proces, opgezet en gesuperviseerd door bestuur en management, dat *een redelijke mate van zekerheid* verschaft dat de doelstellingen van de KMO of kleine vzw met betrekking tot (a) betrouwbaarheid van de financiële verslaggeving, (b) effectiviteit en efficiëntie van de activiteiten en (c) naleving van wet- en regelgeving worden bereikt. 📖\n\nConceptueel onderbouwd door het **COSO-raamwerk** (Internal Control — Integrated Framework, 1992, herzien 2013) — internationaal de facto-standaard voor interne controle, structureert dezelfde drie doelstellingen langs vijf componenten (controle-omgeving · risico-inschatting · controle-activiteiten · informatie & communicatie · monitoring).",
+                "type": "grondslag",
+                "wetsref": "ITAA-norm-kmo-controlenorm, Bijlage 1 (Definities); COSO Internal Control — Integrated Framework (2013)"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr3B"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -622,7 +979,49 @@
       "vraag_id": "2024-1-vr3B"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Herinnering-fragment (topic_only): de eigenlijke casus(sen) ontbreken. De PDF noemt enkel de vier risicocategorieën als bullets. Antwoord beperkt zich daarom tot een definitorische opsomming van de vier COSO-risicocategorieën zoals in de vraag genoemd (Strategisch · Informatie · Operationeel · Financieel), met korte typering per categorie en de waarschuwing dat dit een Nederlandstalige didactische variant is van het klassieke COSO ERM-kwadrant Strategic / Operations / Reporting / Compliance. Zonder casus is geen toewijzing mogelijk.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Vier risicocategorieën volgens het COSO-model** (zoals in de vraag opgesomd):\n\n- **Strategisch risico** 🤖 — risico dat raakt aan de doelstellingen op lange termijn en de keuze van de strategie (bv. fout businessmodel, markt-shift, verkeerde overname, reputatieschade). Wordt op directie-/bestuursniveau beheerd.\n- **Operationeel risico** 🤖 — risico verbonden aan de dagelijkse werking en bedrijfsprocessen (bv. productie-uitval, fouten in de aankoop- of verkoopcyclus, IT-storing, personeelsverloop, fraude door medewerkers).\n- **Financieel risico** 🤖 — risico verbonden aan de financiële positie en geldstromen (bv. liquiditeitsrisico, kredietrisico op klanten, wissel- en renterisico, financieringsrisico, fout in financiële rapportering met materiële impact).\n- **Informatierisico** 🤖 — risico dat de informatie die in/uit de organisatie stroomt onjuist, onvolledig of niet-tijdig is — zowel interne stuurinformatie (rapportering aan management) als externe rapportering en compliance-informatie (bv. foute KPI's, lekken van vertrouwelijke data, niet-conforme rapportering).",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De Nederlandstalige examen-taxonomie **Strategisch / Informatie / Operationeel / Financieel** is een didactische variant van het klassieke COSO ERM-kwadrant **Strategic · Operations · Reporting · Compliance** (COSO ERM 2004; geactualiseerd 2017). In de ITAA-examencontext wordt 'Informatie' meestal gekoppeld aan Reporting (interne + externe info-stromen) en 'Financieel' aan financiële rapportering en treasury — bij toewijzing van een casus is dat de eerste leidraad. ❓ Compliance-risico (wet- en regelgeving) wordt in deze 4-deling typisch onder Strategisch of Operationeel gebracht, afhankelijk van de aard van de casus.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Werkwijze bij een casus",
+                "tekst": "Bij een echte deelvraag (per casus toewijzen aan één van de vier categorieën) — gebruik deze beslis-vragen 🤖:\n\n1. Raakt het de **lange-termijn strategie of het businessmodel**? → **Strategisch**.\n2. Gaat het over een **bedrijfsproces** (aankoop, productie, verkoop, HR, IT-werking)? → **Operationeel**.\n3. Gaat het over **geldstromen, financiering, financiële rapportering of treasury**? → **Financieel**.\n4. Gaat het over de **kwaliteit, volledigheid of tijdigheid van informatie** (intern of extern)? → **Informatierisico**.\n\nEén risico kan in meerdere categorieën vallen; kies de **primaire** dimensie op basis van waar de impact het grootst is.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "COSO Enterprise Risk Management — Integrated Framework (2004, geactualiseerd 'Enterprise Risk Management — Integrating with Strategy and Performance', 2017): vier oorspronkelijke doelstellingen-/risico-categorieën Strategic · Operations · Reporting · Compliance. In het ITAA-onderwijs (PO 1.3 — Interne controle) wordt vaak de 4-deling Strategisch / Operationeel / Financieel / Informatie gehanteerd. ❓ Geen letterlijke COSO-bron in het Certificaid-corpus (concept-record `risico-inschatting-coso` is nog een seed); een directe wetsref bestaat niet — COSO is een professioneel framework, geen wet.",
+                "type": "grondslag",
+                "wetsref": "COSO ERM Framework (2004 / 2017)"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr3C"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -676,7 +1075,59 @@
       "vraag_id": "2024-1-vr3C"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Topic-only herinnering: PNG bevestigt 'D. Verkoopcyclus: Doelstelling — Financieel · Operationeel · Conformiteit'. Concrete vraagstelling (beschrijf, koppel, geef voorbeelden?) ontbreekt. Antwoord behandelt de drie COSO-doelstellingscategorieen toegepast op de verkoopcyclus — dit is de meest waarschijnlijke kerntaak.",
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2024-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Interne controle in de verkoopcyclus (order → kredietcheck → levering → facturatie → inning) dient drie COSO-doelstellingscategorieen: **operationeel** (efficiente cyclus, geen leveringen zonder factuur, geen oninbare vorderingen), **financieel/rapportering** (volledige en correcte omzet- en debiteurenboeking, juiste cut-off) en **conformiteit** (naleving wet- en regelgeving zoals btw, e-invoicing, GDPR, consumentenrecht). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/verkoopcyclus-ic.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Doelstelling | Concrete IC-doelen in de verkoopcyclus | Typische maatregelen |\n|---|---|---|\n| **Operationeel** (effectiviteit en efficientie van de processen) | Snelle order-doorlooptijd; geen leveringen aan slechte betalers; minimaliseren oninbare vorderingen; correcte prijs- en kortingstoepassing. 🔗 | Kredietlimiet per klant; automatische blokkering bij overschrijding; aging-rapport debiteuren; prijslijst-master onder change-control. |\n| **Financieel / betrouwbare rapportering** (juiste en volledige cijfers in de jaarrekening) | Alle leveringen worden gefactureerd (volledigheid omzet); geen fictieve verkopen (bestaan); correcte cut-off rond balansdatum; juiste waardering debiteuren incl. dubieuze vorderingen. 🔗 | Sequentiele nummering van leveringsbonnen en facturen, three-way match levering ↔ factuur ↔ order; afzonderlijke functie debiteurenbeheer; periodieke aansluiting subadministratie ↔ grootboek. |\n| **Conformiteit** (naleving wet- en regelgeving) | Correcte btw-tarieven, btw-vermeldingen op facturen, intracommunautaire listing; e-invoicing-verplichtingen (B2B Peppol vanaf 2026); GDPR bij klantendata; consumentenrecht (B2C). 🔗 | Btw-codes in stamgegevens onder controle; facturatie-template met verplichte vermeldingen (art. 5 KB nr. 1); DPIA en klantenregister; herroepingsmodaliteiten in algemene voorwaarden. |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De drie categorieen komen rechtstreeks uit het **COSO Internal Control – Integrated Framework (1992, hernieuwd 2013)**: *operations*, *reporting*, *compliance*. ISA 315 (herzien 2019) hanteert dezelfde driedeling als kader voor het begrijpen van de interne beheersing van de entiteit door de auditor. 🔗 In de Belgische context vindt deze driedeling ook weerklank in art. 3:6 §1, 9° WVV (corporate-governance-luik van het jaarverslag) en in de bestuurdersverantwoordelijkheid voor een passend systeem van interne controle (alarmbelprocedure-logica). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "De drie doelstellingen overlappen — eenzelfde IC-maatregel dient vaak meerdere doelen tegelijk. Voorbeeld: sequentiele facturatienummering dient **financieel** (volledigheid omzet) en **conformiteit** (btw-art. 5 KB nr. 1 verplicht opeenvolgende nummering). Examenkandidaten die per maatregel slechts een doelstelling noteren, missen punten. Antwoord beter per doelstelling met 2-3 voorbeelden, en bij overlap expliciet vermelden. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ISA-315-herzien.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "COSO Internal Control – Integrated Framework (1992/2013): drie doelstellingscategorieen *operations · reporting · compliance*. ISA 315 (herzien 2019) §12 e.v. — begrijpen van de interne beheersing als onderdeel van risico-inschatting. WVV art. 3:6 §1, 9° — beschrijving voornaamste kenmerken interne controle en risicobeheer in het jaarverslag. KB nr. 1 btw art. 5 — verplichte vermeldingen op facturen. 📖",
+                "type": "grondslag",
+                "wetsref": "COSO 1992/2013; ISA 315 (herzien 2019); WVV art. 3:6 §1, 9°; KB nr. 1 btw art. 5"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2024-1-vr3D"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],

@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2014-1.pdf",
   "examen_id": "2014-1",
-  "merge_datum": "2026-05-26T12:11:24+00:00",
+  "merge_datum": "2026-05-26T12:21:57+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -641,7 +641,69 @@
       "vraag_id": "2014-1-vr5"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "De **nettothesaurie** is het verschil tussen het **werkkapitaal (WK)** en de **behoefte aan bedrijfskapitaal (BBK)**: 🔗\n\n> **Nettothesaurie = Werkkapitaal − Behoefte aan bedrijfskapitaal**\n\nOp balansniveau valt dit samen met het verschil tussen de **liquide middelen en geldbeleggingen** enerzijds en de **financiële schulden op korte termijn** (kaskredieten, voorschotten in rekening-courant) anderzijds. 🔗 Ze meet of de structurele financiering van de onderneming (eigen vermogen + langetermijnschulden − vaste activa) volstaat om de cash die vastzit in de exploitatiecyclus (voorraden + handelsvorderingen − handelsschulden) te dekken.",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Drie sleutelbegrippen** (Vernimmen-/CBN-kader voor financiële analyse): 🔗\n\n- **Werkkapitaal (WK)** = permanente middelen − vaste activa = vlottende activa − schulden ≤ 1 jaar. Structurele buffer.\n- **Behoefte aan bedrijfskapitaal (BBK)** = (voorraden + handelsvorderingen + overlopende activa) − (handelsschulden + overlopende passiva). Cash die de operationele cyclus vastlegt tussen aankoop, productie, verkoop en inning.\n- **Nettothesaurie (NT) = WK − BBK**. Sluitstuk dat aangeeft of de onderneming na financiering van haar cyclus nog cash overhoudt (NT > 0) of moet bijlenen op korte termijn (NT < 0).",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "Klassiek schema van de **functionele balansanalyse** (Franse/Belgische doctrine financiële analyse — Vernimmen, Ooghe & Van Wymeersch). Geen specifieke wetsbepaling: nettothesaurie is een **analytisch concept**, niet wettelijk gedefinieerd in het WVV of KB/WVV-jaarrekening. 🤖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Een **positieve nettothesaurie** betekent dat het **werkkapitaal groter is dan de behoefte aan bedrijfskapitaal**: de structurele financiering volstaat ruimschoots om de operationele cyclus te financieren en er blijft een **cash-overschot** over in de vorm van liquide middelen en geldbeleggingen die de financiële schulden op korte termijn overtreffen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Concreet betekent NT > 0:** 🔗\n\n- De onderneming heeft **geen behoefte aan kortetermijnbankfinanciering** (geen of beperkt kaskrediet, geen voorschotten in rekening-courant) om haar exploitatie te financieren.\n- Het lange-termijn-evenwicht (vaste activa gedekt door permanente middelen) is in orde **én** er is een bijkomende structurele buffer die de cash-vraag van de cyclus overtreft.\n- De **liquiditeit op korte termijn is comfortabel**: er staat netto cash beschikbaar (liquide middelen + geldbeleggingen > financiële schulden ≤ 1 jaar).",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard — nuance**: een positieve nettothesaurie is doorgaans een teken van financiële gezondheid, maar een **structureel hoge** NT kan ook wijzen op **suboptimaal beheer van de cash** (onderbenutting van middelen, gemiste rendabele investeringen of uitkeringen). Omgekeerd duidt een **negatieve nettothesaurie** op een afhankelijkheid van kortetermijnkrediet om de exploitatiecyclus te financieren — niet noodzakelijk problematisch op zich, maar wel een **kwetsbaarheid** bij intrekking van kredietlijnen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "Functionele balansanalyse — interpretatieregel: **NT = WK − BBK > 0 ⇒ exploitatiecyclus integraal gefinancierd door permanente middelen**. Klassieke leerboek-doctrine financiële analyse (Vernimmen; Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*). 🤖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2014-1-vr6"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -795,7 +857,7 @@
     },
     {
       "antwoord": {
-        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_datum": "2026-05-26T12:00:00Z",
         "antwoord_model": "claude-sonnet-4-6",
         "examen_id": "2014-1",
         "schema_versie": "1.1",
@@ -808,7 +870,7 @@
                   "resources/bronnen/wetteksten/MvT-WVV-2018.md",
                   "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
                 ],
-                "confidence": "grounded",
+                "confidence": "afgeleid",
                 "headers": [
                   "Relatie",
                   "Controle%",
@@ -842,17 +904,17 @@
                   "resources/bronnen/wetteksten/MvT-WVV-2018.md",
                   "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "**Rekenregels**:\n- **Controlepercentage**: directe stemrechten van de moeder + 100 % van de stemrechten die exclusief gecontroleerde dochters in de doelvennootschap houden (WVV art. 1:16 §1, 1°: onrechtstreekse bevoegdheid via een dochter wordt bij de rechtstreekse bevoegdheid geteld — geen vermenigvuldiging, controle is binair). ⚖️\n- **Belangenpercentage**: som van directe en indirecte deelnemingen, waarbij indirecte deelnemingen langs de keten worden **vermenigvuldigd**. ⚖️\n- **Methode**: exclusieve controle (> 50 % stemrechten of in feite) → volledige consolidatie; invloed van betekenis (vermoeden ≥ 20 % en < 50 %) → vermogensmutatiemethode. ⚖️\n\n**M in A** — directe deelneming 70 % > 50 % → exclusieve controle; belang = 70 %.\n\n**M in B** — M heeft géén directe deelneming in B. A controleert B exclusief (60 %) en M controleert A exclusief (70 %), dus de 60 % van A in B telt volledig mee voor het controlepercentage van M in B. Belang = (70 % × 60 %) + (30 % × 20 %) = 42 % + 6 % = 48 %.\n\n**M in C** — directe deelneming 30 %: tussen 20 % en 50 %, dus geen exclusieve controle maar wel vermoeden van invloed van betekenis; belang = 30 %.",
+                "confidence": "afgeleid",
+                "tekst": "**Rekenregels** (WVV art. 1:14, 1:16 §1, 1°, 1:17):\n- **Controlepercentage**: directe stemrechten van de moeder + 100 % van de stemrechten gehouden door exclusief gecontroleerde dochters; onrechtstreekse controle via een dochter wordt bij de rechtstreekse bevoegdheid geteld — geen vermenigvuldiging (controle is binair). 📖\n- **Belangenpercentage**: som van directe + indirecte deelnemingen; in een keten worden de schakels **vermenigvuldigd**. 📖\n- **Methode**: exclusieve controle (> 50 % stemrechten of in feite) → volledige consolidatie; invloed van betekenis (vermoeden ≥ 20 % en < 50 %) → vermogensmutatiemethode. 📖\n\n**M in A** — directe deelneming 70 % > 50 % → exclusieve controle; belang = 70 %. 🔗\n\n**M in B** — M heeft géén directe deelneming in B. A controleert B exclusief (60 %) en M controleert A exclusief (70 %), dus de 60 % van A in B telt volledig mee voor het controlepercentage van M in B → 60 %. Belang = (70 % × 60 %) + (30 % × 20 %) = 42 % + 6 % = 48 %. 🔗\n\n**M in C** — directe deelneming 30 %: tussen 20 % en 50 %, dus geen exclusieve controle maar wel vermoeden van invloed van betekenis; belang = 30 %. 🔗",
                 "type": "berekening"
               },
               {
                 "bron_refs": [
                   "resources/bronnen/wetteksten/MvT-WVV-2018.md"
                 ],
-                "confidence": "inferred",
+                "confidence": "afgeleid",
                 "kop": "Valkuil",
-                "tekst": "De 20 % die C in B houdt telt **niet** mee voor het controlepercentage van M in B. Reden: M controleert C niet exclusief (slechts 30 % — invloed van betekenis, geen controle in de zin van WVV art. 1:14). Onrechtstreekse controle via een geassocieerde onderneming wordt niet bij de rechtstreekse controle opgeteld — art. 1:16 §1, 1° spreekt expliciet over de onrechtstreekse bevoegdheid via een **dochter**vennootschap. De 20 % telt wel mee voor het **belang**enpercentage (want belang = economische deelneming, ongeacht controle): 30 % × 20 % = 6 %, samen met 70 % × 60 % = 42 % geeft dat 48 %. 🤖",
+                "tekst": "De 20 % die C in B houdt telt **niet** mee voor het controlepercentage van M in B. Reden: M controleert C niet exclusief (slechts 30 % — invloed van betekenis, geen controle in de zin van WVV art. 1:14). Onrechtstreekse controle via een geassocieerde onderneming wordt niet bij de rechtstreekse controle opgeteld — art. 1:16 §1, 1° spreekt expliciet over de onrechtstreekse bevoegdheid via een **dochter**vennootschap. 📖 De 20 % telt wel mee voor het **belang**enpercentage (want belang = economische deelneming, ongeacht controle): 30 % × 20 % = 6 %, samen met 70 % × 60 % = 42 % geeft 48 %. 🔗",
                 "type": "motivatie"
               },
               {
@@ -860,8 +922,8 @@
                   "resources/bronnen/wetteksten/MvT-WVV-2018.md",
                   "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "Controle = bevoegdheid in rechte of in feite tot beslissende invloed op de aanstelling van de meerderheid van bestuurders/zaakvoerders of op de oriëntatie van het beleid (WVV art. 1:14). Exclusieve controle = controle alleen of samen met dochtervennootschappen (WVV art. 1:17). Bij vaststelling van de controlebevoegdheid wordt de onrechtstreekse bevoegdheid via een dochter bij de rechtstreekse bevoegdheid geteld (WVV art. 1:16 §1, 1°). Vermogensmutatiemethode geldt voor geassocieerde ondernemingen (invloed van betekenis, vermoeden ≥ 20 % stemrechten) — KB WVV art. 3:152; CBN-advies 2022/11. ⚖️",
+                "confidence": "geciteerd",
+                "tekst": "Controle = bevoegdheid in rechte of in feite tot beslissende invloed op de aanstelling van de meerderheid van bestuurders/zaakvoerders of op de oriëntatie van het beleid (WVV art. 1:14). Exclusieve controle = controle alleen of samen met dochtervennootschappen (WVV art. 1:17). Bij vaststelling van de controlebevoegdheid wordt de onrechtstreekse bevoegdheid via een dochter bij de rechtstreekse bevoegdheid geteld (WVV art. 1:16 §1, 1°). Vermogensmutatiemethode geldt voor geassocieerde ondernemingen (invloed van betekenis, vermoeden ≥ 20 % stemrechten) — KB WVV art. 3:152; CBN-advies 2022/11. 📖",
                 "type": "grondslag",
                 "wetsref": "WVV art. 1:14, 1:16 §1, 1°, 1:17; KB WVV art. 3:142, 3:152"
               }

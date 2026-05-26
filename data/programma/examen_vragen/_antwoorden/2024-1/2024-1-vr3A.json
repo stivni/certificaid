@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr3A",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "**Goede adviezen aan de bedrijfsleider voor interne controle in de verkoopcyclus** — beheers de vijf opeenvolgende stadia *order → kredietacceptatie → levering → facturatie → inning* met deze maatregelen:\n\n1. **Functiescheiding** tussen wie verkooporders autoriseert, wie levert, wie factureert, wie boekt (debiteurenrekeningen bijhoudt) en wie betalingen int. 🔗 Een verkoper mag bijvoorbeeld geen productprijsbestanden of commissietarieven kunnen wijzigen, en de manager die kredietverkopen autoriseert mag geen debiteuren bijhouden of contanten ontvangen — anders kan één persoon een fictieve verkoop creëren en verbergen. 📖\n2. **Kredietacceptatie vooraf** — limieten per klant, blokkade van nieuwe leveringen bij overschrijding of betalingsachterstand. 🔗\n3. **Autorisatie van afwijkende prijzen, kortingen en creditnota's** door een tweede persoon (geen verkoper); creditnota's altijd gemotiveerd en gekoppeld aan de oorspronkelijke factuur. 🔗\n4. **Sluitende koppeling order → leveringsbon → factuur** (pre-numbered documents, three-way match) zodat geen levering ongefactureerd blijft en geen factuur zonder onderliggende levering wordt opgemaakt. 🔗\n5. **Cut-off-controle** rond balansdatum: leveringen tot 31/12 horen in omzet van dat jaar, leveringen na 31/12 niet. 🔗\n6. **Periodieke opvolging openstaande vorderingen** (ouderdomsbalans/aging), aanmaningsprocedure, en tijdige boeking van waardeverminderingen op dubieuze debiteuren. 🔗\n7. **Compenserende maatregelen in een KMO** waar volledige functiescheiding niet haalbaar is: directe betrokkenheid van de eigenaar-bestuurder (zelf kredietlimieten goedkeuren, bankuittreksels openen, periodiek de ouderdomsbalans aftekenen) als alternatief voor scheiding. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md",
+            "data/concepten/records/verkoopcyclus-ic.json"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — de vraag is gesteld in een **KMO-context** (zie vr3B/C/D in hetzelfde blok). Het examen verwacht dus géén opsomming van zware grote-onderneming-controls (geautomatiseerde three-way-matches in een ERP, aparte interne-auditfunctie), maar **pragmatische, schaalbare adviezen** waar de bedrijfsleider zelf het sluitstuk vormt. ISA 315 erkent expliciet dat \"in een door de eigenaar bestuurde entiteit de eigenaar-bestuurder mogelijk meer effectief toezicht uitoefent door directe betrokkenheid\" als compensatie voor beperkte functiescheiding. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**ISA 315 (herzien 2019), Bijlage 3** — voorbeeld van functiescheiding in de verkoopcyclus (autorisatie kredietverkopen, bijhouden debiteuren, afhandelen contanten gescheiden; productprijsbestanden en commissietarieven afgeschermd van verkopers). **ISA 315 §A156-A157 (Schaalbaarheid)** — voor minder complexe entiteiten zijn beheersingsmaatregelen vergelijkbaar maar minder formeel; directe betrokkenheid van de eigenaar-bestuurder kan beperkte functiescheiding compenseren. **COSO Internal Control — Integrated Framework** als overkoepelend kader (control activities-component).",
+          "wetsref": "ISA 315 Bijlage 3 + §A156-A157",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

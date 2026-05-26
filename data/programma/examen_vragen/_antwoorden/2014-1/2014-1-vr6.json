@@ -1,0 +1,63 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr6",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "De **nettothesaurie** is het verschil tussen het **werkkapitaal (WK)** en de **behoefte aan bedrijfskapitaal (BBK)**: 🔗\n\n> **Nettothesaurie = Werkkapitaal − Behoefte aan bedrijfskapitaal**\n\nOp balansniveau valt dit samen met het verschil tussen de **liquide middelen en geldbeleggingen** enerzijds en de **financiële schulden op korte termijn** (kaskredieten, voorschotten in rekening-courant) anderzijds. 🔗 Ze meet of de structurele financiering van de onderneming (eigen vermogen + langetermijnschulden − vaste activa) volstaat om de cash die vastzit in de exploitatiecyclus (voorraden + handelsvorderingen − handelsschulden) te dekken.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Drie sleutelbegrippen** (Vernimmen-/CBN-kader voor financiële analyse): 🔗\n\n- **Werkkapitaal (WK)** = permanente middelen − vaste activa = vlottende activa − schulden ≤ 1 jaar. Structurele buffer.\n- **Behoefte aan bedrijfskapitaal (BBK)** = (voorraden + handelsvorderingen + overlopende activa) − (handelsschulden + overlopende passiva). Cash die de operationele cyclus vastlegt tussen aankoop, productie, verkoop en inning.\n- **Nettothesaurie (NT) = WK − BBK**. Sluitstuk dat aangeeft of de onderneming na financiering van haar cyclus nog cash overhoudt (NT > 0) of moet bijlenen op korte termijn (NT < 0).",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klassiek schema van de **functionele balansanalyse** (Franse/Belgische doctrine financiële analyse — Vernimmen, Ooghe & Van Wymeersch). Geen specifieke wetsbepaling: nettothesaurie is een **analytisch concept**, niet wettelijk gedefinieerd in het WVV of KB/WVV-jaarrekening. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een **positieve nettothesaurie** betekent dat het **werkkapitaal groter is dan de behoefte aan bedrijfskapitaal**: de structurele financiering volstaat ruimschoots om de operationele cyclus te financieren en er blijft een **cash-overschot** over in de vorm van liquide middelen en geldbeleggingen die de financiële schulden op korte termijn overtreffen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Concreet betekent NT > 0:** 🔗\n\n- De onderneming heeft **geen behoefte aan kortetermijnbankfinanciering** (geen of beperkt kaskrediet, geen voorschotten in rekening-courant) om haar exploitatie te financieren.\n- Het lange-termijn-evenwicht (vaste activa gedekt door permanente middelen) is in orde **én** er is een bijkomende structurele buffer die de cash-vraag van de cyclus overtreft.\n- De **liquiditeit op korte termijn is comfortabel**: er staat netto cash beschikbaar (liquide middelen + geldbeleggingen > financiële schulden ≤ 1 jaar).",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — nuance**: een positieve nettothesaurie is doorgaans een teken van financiële gezondheid, maar een **structureel hoge** NT kan ook wijzen op **suboptimaal beheer van de cash** (onderbenutting van middelen, gemiste rendabele investeringen of uitkeringen). Omgekeerd duidt een **negatieve nettothesaurie** op een afhankelijkheid van kortetermijnkrediet om de exploitatiecyclus te financieren — niet noodzakelijk problematisch op zich, maar wel een **kwetsbaarheid** bij intrekking van kredietlijnen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Functionele balansanalyse — interpretatieregel: **NT = WK − BBK > 0 ⇒ exploitatiecyclus integraal gefinancierd door permanente middelen**. Klassieke leerboek-doctrine financiële analyse (Vernimmen; Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

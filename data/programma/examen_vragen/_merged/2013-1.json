@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-1.pdf",
   "examen_id": "2013-1",
-  "merge_datum": "2026-05-26T12:11:24+00:00",
+  "merge_datum": "2026-05-26T12:21:57+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -477,7 +477,119 @@
       "vraag_id": "2013-1-vr3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_cluster_notitie": "Canonical-antwoord voor cluster 1.3-c1 (varianten — 2013-1-vr4, 2014-1-vr5, 2015-1-vr8). Dekt UNIE van alle ratio's die in om-het-even welk cluster-lid gevraagd worden: nettobedrijfskapitaal, brutoverkoopmarge, personeelskosten/toegevoegde waarde, bruto toegevoegde waarde per werknemer, nettorentabiliteit totaal activa, liquiditeit in enge zin, nettorentabiliteit eigen vermogen, voorraadrotatie. Per ratio: definitie + formule + interpretatie. Concrete cijfers (zoals 2013-1 vraagt) zijn niet berekenbaar omdat de balans/resultatenrekening in bijlage zit en niet in het PNG-segment is opgenomen — antwoord geeft de formule-toepassing met aanduiding van de juiste posten uit het volledig schema van de jaarrekening (KB WVV bijlagen).",
+        "antwoord_datum": "2026-05-26T12:18:21Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Nettobedrijfskapitaal (NBK) = Permanent vermogen − Vaste activa**, of equivalent **Vlottende activa − Schulden op ten hoogste 1 jaar**. 🔗 Het meet de structurele financiering die overblijft voor de exploitatiecyclus na financiering van de vaste activa met lange middelen.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Formule (top-down)**: NBK = (Eigen vermogen [10/15] + Voorzieningen en uitgestelde belastingen [16] + Schulden op meer dan één jaar [17]) − Vaste activa [20/28]. 🔗\n\n**Formule (bottom-up, equivalent)**: NBK = Vlottende activa [29/58] − Schulden op ten hoogste één jaar [42/48] − Overlopende rekeningen passief [492/3]. 🔗\n\n**Te gebruiken posten uit het volledig schema** (rubriek-codes KB 29/04/2019 — bijlagen bij het uitvoeringsbesluit WVV):\n- 10/15 Eigen vermogen (na winstverdeling) 📖\n- 16 Voorzieningen + uitgestelde belastingen 📖\n- 17 Schulden op meer dan één jaar 📖\n- 20/28 Vaste activa (oprichtingskosten + immateriële + materiële + financiële) 📖\n\n**Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de balans-bijlage. De stagiair vult per post het bedrag uit de jaarrekening in en past de formule toe — antwoord uitdrukken tot **2 cijfers na de komma** zoals expliciet gevraagd in de instructie. 🤖",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — Het MC-cluster 2014-1 vr5b toont de typische valkuilen rond NBK: ❓\n\n1. **De 'overlopende rekeningen op meer dan 1 jaar'** (rubriek 285/8 of soortgelijk) tellen mee als vaste activa, **niet** als vlottende activa — wie ze bij vlottend zet, krijgt een te hoog NBK.\n2. **Het deel \"vorderingen op meer dan 1 jaar dat binnen het jaar vervalt\"** (rubr. 290) hoort bij vlottend, niet bij vaste.\n3. **Te bestemmen winst** moet **integraal in eigen vermogen na winstverdeling** zitten (de vraag specificeert \"balans NA winstverdeling\"). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Rubriek-indeling balans: KB 29/04/2019 tot uitvoering van het WVV, bijlagen 2-3 (volledig + verkort schema). De ratio NBK staat niet als zodanig in een wettekst gedefinieerd — het is een **analytische ratio uit de financiële analyse** (NBB-jaarrekeningmodel, doctrine Ooghe/Van Wymeersch). 🔗",
+                "type": "grondslag",
+                "wetsref": "KB 29/04/2019, bijlage 2 (volledig schema balans)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Brutoverkoopmarge (%) = Brutomarge / Omzet × 100**, waarbij **Brutomarge = Omzet + Voorraadwijziging + Geproduceerde vaste activa + Andere bedrijfsopbrengsten − Aankopen handelsgoederen/grond- en hulpstoffen − Diensten en diverse goederen**. 🔗 Ze meet hoeveel % van de omzet overblijft na directe inkoop- en operationele input-kosten — vóór personeel, afschrijvingen en niet-kaskosten.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Formule NBB**: Brutoverkoopmarge = (70/74 − 60 − 61) / 70 × 100. 🔗 Sommige definities (o.a. NBB-balanscentrale) gebruiken in de noemer **bedrijfsopbrengsten exclusief niet-recurrente** (70/74) i.p.v. enkel omzet (70); de cluster-MC-opties 2015-1 vr8a en 2014-1 illustreren de spanning.\n\n**Toe te passen rubrieken** (KB 29/04/2019, bijlage 3 — resultatenrekening):\n- 70 Omzet 📖\n- 71 Voorraad gereed product/goederen in bewerking — wijziging 📖\n- 72 Geproduceerde vaste activa 📖\n- 74 Andere bedrijfsopbrengsten (**exclusief exploitatiesubsidies** indien je strikt NBB-definitie volgt) 📖\n- 60 Handelsgoederen, grond- en hulpstoffen 📖\n- 61 Diensten en diverse goederen 📖\n\n**Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de resultatenrekening-bijlage. **Let op**: de toelichting vermeldt dat er **geen andere exploitatiesubsidies** ontvangen werden — dat sluit een correctie op rubriek 74 uit. **Kapitaalsubsidies aangerekend op het resultaat (56.498,19)** zitten bij rubriek 74 maar zijn **niet** operationeel; in een strikte NBB-lezing horen ze niet thuis in de brutomarge-teller. 🤖\n\nUitdrukken tot **2 cijfers na de komma**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** — Drie courante definitie-varianten van \"brutomarge\" geven verschillende cijfers: ❓\n1. **Enge handelsmarge** (handelsondernemingen): (Omzet − Aankopen handelsgoederen ± voorraadwijziging) / Omzet.\n2. **NBB-definitie brutoverkoopmarge** (productie + handel): (Omzet + 71 + 72 + 74 − 60 − 61) / Omzet — sluit personeel en afschrijvingen uit.\n3. **Toegevoegde-waarde-marge**: (Toegevoegde waarde) / Omzet.\n\nLees de **specifieke wording van de vraag** en kies de bijhorende formule. Voor het ITAA-examen is **definitie 2 (NBB-brutoverkoopmarge)** het meest voor de hand liggend. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Rubriek-indeling resultatenrekening: KB 29/04/2019 tot uitvoering WVV, bijlage 3. Formule brutoverkoopmarge: NBB-balanscentrale, ratio-overzicht volledig schema (doctrine financiële analyse — geen wettekst). 🔗",
+                "type": "grondslag",
+                "wetsref": "KB 29/04/2019, bijlage 3 (volledig schema resultatenrekening)"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Personeelskosten / Toegevoegde waarde (%) = 62 / Toegevoegde waarde × 100**, waarbij **Toegevoegde waarde = Bedrijfsopbrengsten (excl. niet-recurrente, excl. exploitatiesubsidies) − Aankopen handelsgoederen/grond- en hulpstoffen (60) − Diensten en diverse goederen (61)**. 🔗 De ratio meet **welk aandeel van de gecreëerde waarde naar de werknemers gaat** — een hoge waarde (> 80%) signaleert weinig marge voor afschrijvingen, financiële kosten en winst.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Formule**: Personeelskosten/TW = 62 / (70/74 − 60 − 61 − 740) × 100 🔗\n\nwaarbij **740 = exploitatiesubsidies** (uitgesloten omdat ze niet uit eigen waardetoevoeging komen — ze zijn **transferinkomen**).\n\n**Toe te passen rubrieken**:\n- 62 Bezoldigingen, sociale lasten en pensioenen 📖\n- 70/74 Bedrijfsopbrengsten (excl. niet-recurrente — rubriek 76A) 📖\n- 740 Exploitatiesubsidies (in mindering brengen in de noemer) 📖\n- 60 + 61 (in mindering brengen) 📖\n\n**Concrete berekening voor 2013-1**: niet uitvoerbaar zonder de resultatenrekening-bijlage. **Specifieke aandachtspunten uit de toelichting**:\n- Geen andere exploitatiesubsidies → rubriek 740 = 0 → **geen correctie nodig**. 🔗\n- Kapitaalsubsidies aangerekend op resultaat (56.498,19) zitten in rubriek **753** (financiële opbrengst) of **74** (andere bedrijfsopbrengst, niet-recurrente kant) afhankelijk van presentatie; in de strikte NBB-formule **niet** in TW-teller. 🤖\n\nUitdrukken tot **2 cijfers na de komma**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/cbn/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard — variant-overzicht binnen het cluster** (1.3-c1):\n\n- **2013-1 vr4** vraagt: nettobedrijfskapitaal · brutoverkoopmarge · personeelskosten/TW.\n- **2014-1 vr5** vraagt: bruto TW per werknemer · NBK · nettorentabiliteit totaal activa · liquiditeit in enge zin.\n- **2015-1 vr8** vraagt: brutoverkoopmarge · personeelskosten/TW · nettorentabiliteit EV na belastingen · voorraadrotatie.\n\n**Aanvullende formules die in de cluster opduiken** (referentie voor stagiair die alle drie de examens voorbereidt): 🔗\n\n| Ratio | Formule (rubriek-codes) |\n|---|---|\n| **Bruto TW per werknemer** | (70/74 − 60 − 61 − 740) / gemiddeld aantal VTE [9087] |\n| **Nettorentabiliteit totaal activa vóór belasting + financiële kosten** | (Resultaat boekjaar vóór belasting [9903 vóór 67/77] + Kosten van schulden [650 of 65] − Intrestsubsidies) / Totaal activa [20/58] × 100 (zie CBN 2011/14) 📖 |\n| **Liquiditeit in enge zin (quick ratio)** | (Vorderingen ≤ 1 jaar [40/41] + Geldbeleggingen [50/53] + Liquide middelen [54/58]) / (Schulden ≤ 1 jaar [42/48] + Overlopende rekeningen passief [492/3]) |\n| **Nettorentabiliteit EV na belastingen** | Resultaat boekjaar na belastingen [9904] / Eigen vermogen [10/15] × 100 |\n| **Rotatie voorraad handelsgoederen** | Aankopen handelsgoederen (60) / Gemiddelde voorraad handelsgoederen (3) — eenheid: keer per jaar |\n\nVoor elke ratio: noemer en teller komen uit het **volledig schema**; gebruik **gemiddelden** waar het over een **stock-grootheid in een flow-ratio** gaat (typisch: voorraadrotatie). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/cbn/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Rubriek-codes en presentatie: KB 29/04/2019, bijlagen 2-3 (volledig + verkort schema). Nettorentabiliteit-formule met aanpassing voor financiële kosten en exclusie intrestsubsidies: **CBN-advies 2011/14 — Herwaarderingsmeerwaarden** (sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden'). 📖 Overige ratio-definities: NBB-balanscentrale ratio-overzicht en doctrine financiële analyse (Ooghe/Van Wymeersch) — geen formele wettekst. 🔗",
+                "type": "grondslag",
+                "wetsref": "KB 29/04/2019, bijl. 2-3 + CBN-advies 2011/14"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-1-vr4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "cluster_actie": "behoud_apart_met_label",
@@ -676,33 +788,33 @@
                 "bron_refs": [
                   "resources/bronnen/wetteksten/KB-WVV-2019.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "De post **\"Aandeel van derden in het resultaat\"** in de geconsolideerde resultatenrekening. ⚖️",
+                "confidence": "geciteerd",
+                "tekst": "De post **\"Aandeel van derden in het resultaat\"** in de geconsolideerde resultatenrekening. 📖",
                 "type": "conclusie"
               },
               {
                 "bron_refs": [
                   "resources/bronnen/wetteksten/KB-WVV-2019.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "Bij **integrale (volledige) consolidatie** worden 100% van de activa, passiva, opbrengsten en kosten van de dochter opgenomen, ook al heeft de moeder geen 100%-belang. Het deel van het resultaat dat toekomt aan de minderheidsaandeelhouders (derden) wordt afzonderlijk afgezonderd via deze post, zodat het geconsolideerde resultaat dat overblijft uitsluitend toerekenbaar is aan de groep. ⚖️",
+                "confidence": "afgeleid",
+                "tekst": "Bij **integrale consolidatie** worden 100 % van de activa, passiva, opbrengsten en kosten van een dochter opgenomen, ook al heeft de moeder geen 100 %-belang. 🔗 Het deel van het dochterresultaat dat toekomt aan de minderheidsaandeelhouders (derden buiten de consolidatiekring) wordt afgezonderd onder deze afzonderlijke post, zodat het saldo dat overblijft uitsluitend toerekenbaar is aan de groep. 🔗",
                 "type": "motivatie"
               },
               {
                 "bron_refs": [
                   "resources/bronnen/wetteksten/KB-WVV-2019.md"
                 ],
-                "confidence": "grounded",
-                "kop": "Vermeldenswaard",
-                "tekst": "Niet verwarren met de post **\"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast\"** (art. 3:145 KB WVV) — die geldt voor deelnemingen verwerkt via equity-methode, niet voor integraal geconsolideerde dochters. ⚖️",
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met **\"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast\"** (art. 3:145 KB WVV) — die post is voorbehouden aan deelnemingen verwerkt via de **equity-methode** (vermogensmutatie), niet aan integraal geconsolideerde dochters. 📖 Bij een consortium (horizontale groep) komt de post 'Belangen van derden' overigens niet voor, behoudens belangen ontstaan via een onderliggende verticale consolidatie (CBN 2022/09). 📖",
                 "type": "motivatie"
               },
               {
                 "bron_refs": [
                   "resources/bronnen/wetteksten/KB-WVV-2019.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "Art. 3:137 KB WVV (integrale consolidatie — aandeel van derden in het resultaat). Vgl. art. 3:145 KB WVV (vermogensmutatie).",
+                "confidence": "geciteerd",
+                "tekst": "Art. 3:137 KB WVV (integrale consolidatie): het resultaat-aandeel toerekenbaar aan aandelen gehouden door anderen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochters wordt vermeld onder de post \"Aandeel van derden in het resultaat\". Op de balanszijde correspondeert dat met de post 'Belangen van derden' in het eigen vermogen.",
                 "type": "grondslag",
                 "wetsref": "Art. 3:137 KB WVV"
               }
@@ -772,8 +884,8 @@
                 "bron_refs": [
                   "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "**Drie maanden.** ⚖️",
+                "confidence": "geciteerd",
+                "tekst": "**Drie maanden.** 📖",
                 "type": "conclusie"
               },
               {
@@ -781,17 +893,8 @@
                   "resources/bronnen/wetteksten/KB-WVV-2019.md",
                   "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "**Principe (KB WVV art. 3:109)**: de geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als die van de consoliderende vennootschap. Afwijken mag enkel om rekening te houden met de balansdatum van de meeste of belangrijkste in de consolidatie opgenomen ondernemingen. ⚖️\n\n**Cap (IFRS 10 B93)**: \"Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen.\" ⚖️",
-                "type": "motivatie"
-              },
-              {
-                "bron_refs": [
-                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
-                ],
-                "confidence": "grounded",
-                "kop": "Vermeldenswaard",
-                "tekst": "Bij gebruik van de afwijking moet de toelichting (KB WVV art. 3:111) melding maken van belangrijke gebeurtenissen tussen de balansdatum van de dochter en die van de geconsolideerde jaarrekening. ⚖️",
+                "confidence": "geciteerd",
+                "tekst": "**Principe (KB WVV art. 3:109, eerste lid)**: de geconsolideerde jaarrekening wordt afgesloten op dezelfde datum als de jaarrekening van de consoliderende vennootschap. 📖\n\n**Afwijking voor een dochter (KB WVV art. 3:110, tweede lid)**: wanneer een dochter haar boekjaar op een andere balansdatum afsluit, mag haar jaarrekening in de consolidatie worden opgenomen mits aanvullende financiële informatie wordt opgesteld of mits passende correcties. 🔗\n\n**Cap drie maanden (IFRS 10 B93)**: \"Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen\" — bovendien moeten de duur van de verslagperioden en het eventuele verschil tussen de data van jaar tot jaar gelijk blijven. 📖",
                 "type": "motivatie"
               },
               {
@@ -799,10 +902,20 @@
                   "resources/bronnen/wetteksten/KB-WVV-2019.md",
                   "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
                 ],
-                "confidence": "grounded",
-                "tekst": "KB WVV art. 3:109 (principe gelijke afsluitingsdatum + afwijkingsgrond); IFRS 10 B92-B93 (cap van drie maanden + aanvullende financiële informatie); KB WVV art. 3:111 (toelichtingsplicht).",
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "De numerieke cap van drie maanden staat letterlijk in IFRS 10 B93; het KB WVV legt geen expliciete maandengrens op maar werkt met een principle-based regel (\"aanvullende financiële informatie\" of correcties indien verschil > 0). In de praktijk wordt de drie-maanden-grens als norm aangehouden voor beide kaders. 🔗\n\nBij gebruik van de afwijking moet de toelichting (KB WVV art. 3:111) belangrijke gebeurtenissen vermelden die zich tussen de balansdatum van de opgenomen jaarrekening en de afsluitingsdatum van de geconsolideerde jaarrekening hebben voorgedaan. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "IFRS 10 B92-B93 (principe gelijke verslagdatum + drie-maanden-cap + gelijkblijvend verschil); KB WVV art. 3:109 (principe gelijke afsluitingsdatum + afwijkingsgrond op niveau van de geconsolideerde jaarrekening); KB WVV art. 3:110, tweede lid (aanvullende info bij afwijkende dochter-balansdatum); KB WVV art. 3:111 (toelichtingsplicht bij afwijking).",
                 "type": "grondslag",
-                "wetsref": "KB WVV art. 3:109, 3:111; IFRS 10 B92-B93"
+                "wetsref": "IFRS 10 B92-B93; KB WVV art. 3:109, 3:110, 3:111"
               }
             ],
             "id": "a"

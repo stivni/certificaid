@@ -11,27 +11,26 @@
       "blokken": [
         {
           "type": "definitie",
-          "tekst": "Een **positief consolidatieverschil** is het positieve verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) de aanschaffingsprijs van de deelneming en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat dit verschil zoveel mogelijk is toegerekend** aan onder- of overgewaardeerde actief- en passiefbestanddelen. Het residu verschijnt aan **actiefzijde** van de geconsolideerde balans onder de post \"Consolidatieverschillen\". ⚖️",
-          "confidence": "grounded",
+          "tekst": "Een **positief consolidatieverschil** is het positieve verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) de aanschaffingsprijs van de deelneming en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat dit verschil zoveel mogelijk is toegerekend** aan onder- of overgewaardeerde actief- en passiefbestanddelen. Het residu verschijnt **aan actiefzijde** van de geconsolideerde balans onder de post \"Consolidatieverschillen\". 📖",
+          "confidence": "geciteerd",
           "bron_refs": [
-            "data/concepten/records/consolidatieverschil-goodwill.json",
             "resources/bronnen/wetteksten/KB-WVV-2019.md"
           ]
         },
         {
           "type": "motivatie",
           "kop": "Vermeldenswaard",
-          "tekst": "Het residu na toerekening wordt in de geconsolideerde jaarrekening behandeld als **goodwill** (immaterieel vast actief) en systematisch afgeschreven over de economische gebruiksduur — niet in de enkelvoudige jaarrekening van de moeder, waar de deelneming aan aanschaffingsprijs blijft staan. 🤖",
-          "confidence": "inferred",
+          "tekst": "Het residu functioneert in de geconsolideerde jaarrekening economisch als **goodwill** en wordt systematisch afgeschreven volgens een passend plan. In de enkelvoudige jaarrekening van de moeder blijft de deelneming gewoon aan aanschaffingsprijs staan — consolidatieverschil bestaat enkel op groepsniveau. 🔗",
+          "confidence": "afgeleid",
           "bron_refs": [
-            "data/concepten/records/consolidatieverschil-goodwill.json"
+            "resources/bronnen/adviezen/CBN-2016-07-verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro.md"
           ]
         },
         {
           "type": "grondslag",
-          "tekst": "Art. 3:130 KB WVV (toerekening en presentatie van consolidatieverschillen); CBN-advies 2016/7 bevestigt het toerekeningsbeginsel.",
+          "tekst": "Art. 3:130 KB WVV regelt de **toerekening eerst, residu daarna**: het verschil uit de compensatie van de aanschaffingsprijs met het EV-aandeel (art. 3:127, a)) wordt zoveel mogelijk toegerekend aan actief-/passiefbestanddelen waarvan de waarde afwijkt van de boekwaarde; het overblijvende verschil komt in de post \"Consolidatieverschillen\", aan actiefzijde als het positief is. CBN-advies 2016/7 bevestigt dit toerekeningsbeginsel.",
           "wetsref": "Art. 3:130 KB WVV",
-          "confidence": "grounded",
+          "confidence": "geciteerd",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md",
             "resources/bronnen/adviezen/CBN-2016-07-verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro.md"
@@ -47,31 +46,31 @@
           "type": "opsomming",
           "kop": "Vier voornaamste oorzaken van een positief consolidatieverschil",
           "items": [
-            "**Onderwaardering van activa** in de boekhouding van de dochter — bv. gebouwen, terreinen of voorraden waarvan de reële waarde op overnamedatum hoger ligt dan de historische boekwaarde. ⚖️",
-            "**Overwaardering van passiva** — bv. te hoog ingeschatte voorzieningen of schulden waarvan de werkelijke verplichting lager is dan het geboekte bedrag. 🤖",
-            "**Niet-geboekte identificeerbare immateriële activa** — intern ontwikkelde merken, klantenportefeuille, knowhow, lopende O&O-projecten of voordelige contracten die in de enkelvoudige balans niet staan maar wel marktwaarde hebben. ⚖️",
-            "**Goodwill in enge zin** — niet-toewijsbaar restbedrag dat verwachte synergiën, bovennormale rentabiliteit en marktpositie vergoedt; blijft als residuele goodwill op de geconsolideerde balans staan. ⚖️"
+            "**Onderwaardering van activa** in de boekhouding van de dochter — bv. gebouwen, terreinen, financiële vaste activa of voorraden waarvan de werkelijke waarde op overnamedatum hoger ligt dan de historische boekwaarde. 📖",
+            "**Overwaardering van passiva** — bv. te hoog ingeschatte voorzieningen of schulden waarvan de werkelijke verplichting lager is dan het geboekte bedrag. 📖",
+            "**Niet-geboekte identificeerbare immateriële activa** — intern ontwikkelde merken, klantenportefeuille, knowhow, lopende O&O-projecten of voordelige contracten die in de enkelvoudige balans van de dochter niet voorkomen maar wel marktwaarde hebben. 🔗",
+            "**Residuele goodwill (goodwill in enge zin)** — het niet-toewijsbaar restbedrag dat verwachte synergiën, bovennormale rentabiliteit en marktpositie vergoedt; blijft als \"Consolidatieverschillen\" aan actiefzijde van de geconsolideerde balans staan. 📖"
           ],
-          "confidence": "grounded",
+          "confidence": "geciteerd",
           "bron_refs": [
-            "data/concepten/records/consolidatieverschil-goodwill.json",
-            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "data/concepten/records/consolidatieverschil-goodwill.json"
           ]
         },
         {
           "type": "motivatie",
-          "kop": "Vermeldenswaard",
-          "tekst": "Art. 3:130 KB WVV schrijft **toerekening eerst** voor: oorzaken 1–3 worden aan specifieke actief-/passiefbestanddelen toegewezen; pas het residu daarna is de eigenlijke goodwill (oorzaak 4). 🤖",
-          "confidence": "inferred",
+          "kop": "Valkuil",
+          "tekst": "Art. 3:130 KB WVV schrijft een **strikte volgorde** voor: oorzaken 1–3 moeten **eerst** worden toegerekend aan de specifieke actief-/passiefbestanddelen waarvan de waarde afwijkt; pas wat dan nog overblijft is residuele goodwill (oorzaak 4). Wie het hele verschil meteen als één \"goodwill\"-post zou boeken, schendt het toerekeningsbeginsel. 🔗",
+          "confidence": "afgeleid",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md"
           ]
         },
         {
           "type": "grondslag",
-          "tekst": "Art. 3:130 KB WVV: het verschil wordt \"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde\"; het residu komt onder \"Consolidatieverschillen\" aan actiefzijde.",
+          "tekst": "Art. 3:130 KB WVV: het verschil wordt \"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde in de boekhouding van de dochteronderneming\"; het residu komt in de post \"Consolidatieverschillen\" (actiefzijde bij positief verschil).",
           "wetsref": "Art. 3:130 KB WVV",
-          "confidence": "grounded",
+          "confidence": "geciteerd",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md"
           ]

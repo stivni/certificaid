@@ -11,34 +11,34 @@
       "blokken": [
         {
           "type": "conclusie",
-          "tekst": "De post **\"Aandeel van derden in het resultaat\"** in de geconsolideerde resultatenrekening. ⚖️",
-          "confidence": "grounded",
+          "tekst": "De post **\"Aandeel van derden in het resultaat\"** in de geconsolideerde resultatenrekening. 📖",
+          "confidence": "geciteerd",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md"
           ]
         },
         {
           "type": "motivatie",
-          "tekst": "Bij **integrale (volledige) consolidatie** worden 100% van de activa, passiva, opbrengsten en kosten van de dochter opgenomen, ook al heeft de moeder geen 100%-belang. Het deel van het resultaat dat toekomt aan de minderheidsaandeelhouders (derden) wordt afzonderlijk afgezonderd via deze post, zodat het geconsolideerde resultaat dat overblijft uitsluitend toerekenbaar is aan de groep. ⚖️",
-          "confidence": "grounded",
+          "tekst": "Bij **integrale consolidatie** worden 100 % van de activa, passiva, opbrengsten en kosten van een dochter opgenomen, ook al heeft de moeder geen 100 %-belang. 🔗 Het deel van het dochterresultaat dat toekomt aan de minderheidsaandeelhouders (derden buiten de consolidatiekring) wordt afgezonderd onder deze afzonderlijke post, zodat het saldo dat overblijft uitsluitend toerekenbaar is aan de groep. 🔗",
+          "confidence": "afgeleid",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md"
           ]
         },
         {
           "type": "motivatie",
-          "kop": "Vermeldenswaard",
-          "tekst": "Niet verwarren met de post **\"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast\"** (art. 3:145 KB WVV) — die geldt voor deelnemingen verwerkt via equity-methode, niet voor integraal geconsolideerde dochters. ⚖️",
-          "confidence": "grounded",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **\"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast\"** (art. 3:145 KB WVV) — die post is voorbehouden aan deelnemingen verwerkt via de **equity-methode** (vermogensmutatie), niet aan integraal geconsolideerde dochters. 📖 Bij een consortium (horizontale groep) komt de post 'Belangen van derden' overigens niet voor, behoudens belangen ontstaan via een onderliggende verticale consolidatie (CBN 2022/09). 📖",
+          "confidence": "geciteerd",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md"
           ]
         },
         {
           "type": "grondslag",
-          "tekst": "Art. 3:137 KB WVV (integrale consolidatie — aandeel van derden in het resultaat). Vgl. art. 3:145 KB WVV (vermogensmutatie).",
+          "tekst": "Art. 3:137 KB WVV (integrale consolidatie): het resultaat-aandeel toerekenbaar aan aandelen gehouden door anderen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochters wordt vermeld onder de post \"Aandeel van derden in het resultaat\". Op de balanszijde correspondeert dat met de post 'Belangen van derden' in het eigen vermogen.",
           "wetsref": "Art. 3:137 KB WVV",
-          "confidence": "grounded",
+          "confidence": "geciteerd",
           "bron_refs": [
             "resources/bronnen/wetteksten/KB-WVV-2019.md"
           ]

@@ -1,0 +1,136 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr9",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Intrinsieke waarde (per aandeel)** = het **boekhoudkundig eigen vermogen** van de vennootschap, gedeeld door het **aantal uitstaande aandelen**. Het is de boekwaarde van wat een aandeelhouder per aandeel zou ontvangen als de vennootschap vandaag tegen balanswaarden zou worden vereffend (na betaling van alle schulden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De intrinsieke waarde verschilt van de **beurswaarde** (markt) en van de **fractiewaarde** (kapitaal-gedeelte): zij vertrekt van het **volledig eigen vermogen** (kapitaal + reserves + overgedragen resultaat + herwaarderingsmeerwaarden), niet enkel van het ingebrachte kapitaal. Voor analyse-doeleinden wordt vaak gecorrigeerd voor immateriële vaste activa zonder marktwaarde (goodwill) — dan spreekt men van **gecorrigeerde intrinsieke waarde**. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Fractiewaarde** = het **kapitaal (of, voor vennootschappen zonder kapitaal, de inbreng)** gedeeld door het **aantal aandelen**. Het is dus het deel van het maatschappelijk kapitaal/inbreng dat één aandeel vertegenwoordigt — los van reserves of marktwaarde. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Sinds het WVV (2019) hebben BV/CV **geen kapitaal** meer maar een **inbreng**. Voor die rechtsvormen bedraagt de fractiewaarde: de **inbrengwaarde** (kapitaal-substituut: inbrengen in geld of natura, exclusief inbreng in nijverheid, eventueel verhoogd met statutair-onbeschikbare reserves) gedeeld door het aantal aandelen (art. 12:4 en 12:5 WVV). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 12:4, tweede lid en art. 12:5, tweede lid WVV (fractiewaarde voor vennootschappen zonder kapitaal); CBN-advies 2022/12 (numerieke illustraties).",
+          "wetsref": "art. 12:4 en 12:5 WVV; CBN 2022/12",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Netto rendabiliteit van de bedrijfsactiva** = **bedrijfsresultaat na belastingen** / **gemiddelde bedrijfsactiva** (× 100). Het meet hoe rendabel de **operationeel ingezette activa** (vaste + vlottende bedrijfsactiva, met uitsluiting van puur financiële activa) worden uitgebaat, **na fiscale druk maar vóór financieringslasten**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Formule (NBB-conventie)**:\n\n`Netto rendabiliteit bedrijfsactiva = (Bedrijfsresultaat × (1 – effectieve aanslagvoet)) / Gemiddelde bedrijfsactiva`\n\nde teller staat dus op **NOPAT-basis** (Net Operating Profit After Tax), de noemer is meestal het **gemiddelde** van begin- en eindbalans om bias door balansmutaties te vermijden. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Door financieringslasten (rente) uit de teller te houden, wordt de **operationele performance** vergelijkbaar tussen ondernemingen met verschillende kapitaalstructuur. Deze ratio vormt de basis voor de **hefboomanalyse**: zolang `netto rendabiliteit bedrijfsactiva > gemiddelde kostprijs vreemd vermogen`, werkt vreemd vermogen hefboom-positief op het rendement van het eigen vermogen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Algemene schuldgraad** = **totaal vreemd vermogen** (schulden op meer dan één jaar + schulden op ten hoogste één jaar + overlopende rekeningen passief) / **totaal passief** (× 100). Het meet welk **aandeel van het totaal vermogen door derden gefinancierd** wordt — de spiegelbeeldige ratio van de solvabiliteit. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Formule**:\n\n`Algemene schuldgraad = Vreemd vermogen / Totaal passief = 1 – (Eigen vermogen / Totaal passief)`\n\nEen hogere ratio ⇒ grotere afhankelijkheid van schuldeisers ⇒ lagere solvabiliteit. NBB-richtwaarde voor gezonde ondernemingen ligt typisch onder **65-70 %**, maar verschilt sterk per sector. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de **lange-termijnschuldgraad** (enkel schulden >1 jaar / totaal passief) of met de **rentedekking** (resultaat / financiële kosten). De **algemene** schuldgraad omvat **alle** vreemd vermogen, ook handelsschulden en bezoldigings/fiscale schulden op korte termijn. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Operationele cash flow voor belastingen** = **bedrijfsresultaat (resultaat 70/64)** vermeerderd met de **niet-kasbestanddelen van de bedrijfskosten** (afschrijvingen, waardeverminderingen, voorzieningen voor risico's en kosten). Het is een benadering van de **kasstroom die de operationele activiteit genereert, vóór financiële resultaten én vóór belastingen**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Formule**:\n\n`Operationele cash flow vóór belastingen = Bedrijfsresultaat (9901) + Afschrijvingen + Waardeverminderingen + Toevoegingen aan voorzieningen – Terugnemingen van waardeverminderingen en voorzieningen`\n\nUitgangspunt = de **resultatenrekening** (indirecte methode), beperkt tot de **bedrijfssectie** (rubrieken 70-64). Financiële opbrengsten/kosten (75/65) en belastingen (67) blijven buiten beschouwing. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Niet verwarren met de **(klassieke) cash flow** = nettoresultaat ná belastingen + niet-kaskosten — die start van het **eind**resultaat (rubriek 9904), inclusief financiële en uitzonderlijke elementen. De **operationele** variant isoleert de **kerncash-genererende capaciteit** van de exploitatie en is daardoor beter geschikt voor sector-vergelijkingen en voor de EBITDA-benadering. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ],
+  "_lacunes": "Geen concept-records voor 'intrinsieke waarde', 'netto rendabiliteit bedrijfsactiva', 'algemene schuldgraad', 'operationele cash flow' gevonden via zoek_concepten (matches gaven cluster-shells zonder vindbare lees_record-slug). Definities steunen op standaard Belgische financiële-analyse-conventie (NBB-methodiek). Fractiewaarde stevig gegrond in CBN 2022/12 + art. 12:4/12:5 WVV. Aanbeveling: concept-records aanmaken voor de 4 ontbrekende begrippen (PO 1.3 financiële analyse — basisbegrippen)."
+}

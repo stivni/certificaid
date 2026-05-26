@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr3D",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Topic-only herinnering: PNG bevestigt 'D. Verkoopcyclus: Doelstelling — Financieel · Operationeel · Conformiteit'. Concrete vraagstelling (beschrijf, koppel, geef voorbeelden?) ontbreekt. Antwoord behandelt de drie COSO-doelstellingscategorieen toegepast op de verkoopcyclus — dit is de meest waarschijnlijke kerntaak.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Interne controle in de verkoopcyclus (order → kredietcheck → levering → facturatie → inning) dient drie COSO-doelstellingscategorieen: **operationeel** (efficiente cyclus, geen leveringen zonder factuur, geen oninbare vorderingen), **financieel/rapportering** (volledige en correcte omzet- en debiteurenboeking, juiste cut-off) en **conformiteit** (naleving wet- en regelgeving zoals btw, e-invoicing, GDPR, consumentenrecht). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "tabel",
+          "tekst": "| Doelstelling | Concrete IC-doelen in de verkoopcyclus | Typische maatregelen |\n|---|---|---|\n| **Operationeel** (effectiviteit en efficientie van de processen) | Snelle order-doorlooptijd; geen leveringen aan slechte betalers; minimaliseren oninbare vorderingen; correcte prijs- en kortingstoepassing. 🔗 | Kredietlimiet per klant; automatische blokkering bij overschrijding; aging-rapport debiteuren; prijslijst-master onder change-control. |\n| **Financieel / betrouwbare rapportering** (juiste en volledige cijfers in de jaarrekening) | Alle leveringen worden gefactureerd (volledigheid omzet); geen fictieve verkopen (bestaan); correcte cut-off rond balansdatum; juiste waardering debiteuren incl. dubieuze vorderingen. 🔗 | Sequentiele nummering van leveringsbonnen en facturen, three-way match levering ↔ factuur ↔ order; afzonderlijke functie debiteurenbeheer; periodieke aansluiting subadministratie ↔ grootboek. |\n| **Conformiteit** (naleving wet- en regelgeving) | Correcte btw-tarieven, btw-vermeldingen op facturen, intracommunautaire listing; e-invoicing-verplichtingen (B2B Peppol vanaf 2026); GDPR bij klantendata; consumentenrecht (B2C). 🔗 | Btw-codes in stamgegevens onder controle; facturatie-template met verplichte vermeldingen (art. 5 KB nr. 1); DPIA en klantenregister; herroepingsmodaliteiten in algemene voorwaarden. |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "content/concepten/verkoopcyclus-ic.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De drie categorieen komen rechtstreeks uit het **COSO Internal Control – Integrated Framework (1992, hernieuwd 2013)**: *operations*, *reporting*, *compliance*. ISA 315 (herzien 2019) hanteert dezelfde driedeling als kader voor het begrijpen van de interne beheersing van de entiteit door de auditor. 🔗 In de Belgische context vindt deze driedeling ook weerklank in art. 3:6 §1, 9° WVV (corporate-governance-luik van het jaarverslag) en in de bestuurdersverantwoordelijkheid voor een passend systeem van interne controle (alarmbelprocedure-logica). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De drie doelstellingen overlappen — eenzelfde IC-maatregel dient vaak meerdere doelen tegelijk. Voorbeeld: sequentiele facturatienummering dient **financieel** (volledigheid omzet) en **conformiteit** (btw-art. 5 KB nr. 1 verplicht opeenvolgende nummering). Examenkandidaten die per maatregel slechts een doelstelling noteren, missen punten. Antwoord beter per doelstelling met 2-3 voorbeelden, en bij overlap expliciet vermelden. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "COSO Internal Control – Integrated Framework (1992/2013): drie doelstellingscategorieen *operations · reporting · compliance*. ISA 315 (herzien 2019) §12 e.v. — begrijpen van de interne beheersing als onderdeel van risico-inschatting. WVV art. 3:6 §1, 9° — beschrijving voornaamste kenmerken interne controle en risicobeheer in het jaarverslag. KB nr. 1 btw art. 5 — verplichte vermeldingen op facturen. 📖",
+          "wetsref": "COSO 1992/2013; ISA 315 (herzien 2019); WVV art. 3:6 §1, 9°; KB nr. 1 btw art. 5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

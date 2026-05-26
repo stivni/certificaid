@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr2A",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Herinnering met kwaliteits_flag 'subvraag_zonder_inhoud': de concrete stellingen zijn niet bewaard (enkel topic 'onafhankelijkheid bij controleopdracht'). Antwoord is daarom gemodelleerd als een framework-blok dat de stagiair toelaat om typische juist/fout-stellingen rond dit thema te beoordelen — niet als een evaluatie van specifieke stellingen. Geen 'oordeel'-veld omdat er geen concrete stelling is om te beoordelen.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "framework_zonder_concrete_stellingen",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Beoordelingskader voor stellingen over onafhankelijkheid bij een wettelijke controleopdracht: een stelling is **juist** als ze aansluit bij de **dubbele toets** (onafhankelijkheid qua geesteshouding én naar buiten toe — schijn) 📖, de **catalogus van verboden niet-controlediensten** van art. 3:60 WVV 📖, en het **algemene verbod op elke andere taak die de onafhankelijkheid in het gedrang brengt** (art. 3:59 WVV) 📖. Een stelling is **fout** wanneer ze de **commissaris/bedrijfsrevisor** verwart met een **externe accountant** zonder controlemandaat, de **koeling-periode** (cooling-off / look-back) verkeerd toepast, of de **70%-honorariumgrens** voor niet-auditdiensten 📖 verkeerd voorstelt.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**De zes pijlers die in stellingen worden getoetst** (en wat de stagiair moet kunnen herkennen):\n\n1. **Dubbele toets — geesteshouding én schijn** (ITAA-norm 2.1.2 §11) 📖. Een revisor die *feitelijk* objectief is maar in een situatie zit die een redelijk denkende derde aan zijn objectiviteit doet twijfelen, is **niet** onafhankelijk. Stelling-valkuil: \"zolang ik mezelf onpartijdig voel, ben ik onafhankelijk\" → **FOUT**.\n\n2. **Continue plicht** 🔗. Onafhankelijkheid moet bestaan **én tijdens de gecontroleerde periode én tijdens de uitvoering van de controle** (art. 3:59 §1 WVV) 📖. Stelling-valkuil: \"enkel op het ogenblik van de aanvaarding\" → **FOUT**.\n\n3. **Verboden niet-controlediensten** (art. 3:60 §2 WVV, transpositie EU-verordening 537/2014) 📖. Limitatieve catalogus: o.a. boekhouding voeren, financiële overzichten opstellen, interne-controleprocedures ontwikkelen, taxatiediensten, bepaalde fiscale diensten, juridische diensten, HR-diensten voor sleutelposities, financieringsdiensten. Verbod geldt **ook voor het netwerk** van de revisor 📖. Stelling-valkuil: \"de commissaris mag de boekhouding voeren zolang een collega het doet\" → **FOUT**.\n\n4. **70%-honorariumgrens** (art. 3:61 §1 WVV) 📖. Honoraria voor niet-auditdiensten (= toegelaten niet-auditdiensten) mogen niet meer dan **70%** bedragen van het gemiddelde van de wettelijke-controlehonoraria over de **laatste drie boekjaren**. Geldt voor **organisaties van openbaar belang** 📖. Stelling-valkuil: \"de grens geldt voor elke vennootschap\" → **FOUT** (alleen OOB's). Het College kan bij uitzondering 2 boekjaren afwijking toestaan 📖.\n\n5. **Cooling-off / look-back** 🔗. Een externe accountant/revisor mag geen controleopdracht aanvaarden wanneer hij **bestuurder, zaakvoerder of verantwoordelijke met belangrijke invloed op de boekhouddienst** was in de cliënt of een verbonden onderneming, of dit **minder dan twee jaar geleden** was (art. 13 §1 KB plichtenleer accountants 1998) 📖. Voor de commissaris (revisor): gelijklopend principe via art. 3:59 WVV + IESBA-Code 📖. Stelling-valkuil: \"één jaar volstaat\" → **FOUT**.\n\n6. **Geen beheers- of vertegenwoordigingsfunctie tijdens de opdracht** (art. 3:59 §2 WVV; art. 13 §2 KB plichtenleer) 📖. De commissaris mag geen mandaat aanvaarden in de gecontroleerde vennootschap of een verbonden onderneming dat hem ertoe brengt zich in te laten met het beheer.\n\n**Typische stelling-patronen** die gebruikt worden in B/Z-vragen:\n- ✔ \"De onafhankelijkheid wordt beoordeeld zowel intern (geesteshouding) als extern (schijn).\" → **JUIST** 🔗.\n- ✔ \"Het verbod op niet-controlediensten geldt ook voor de netwerkkantoren van de commissaris.\" → **JUIST** (art. 3:60 §1 WVV) 📖.\n- ✘ \"De commissaris mag de jaarrekening van de gecontroleerde vennootschap opstellen mits hij dit duidelijk vermeldt in zijn verslag.\" → **FOUT** (transparantie heft een verbodsbepaling niet op) 🔗.\n- ✘ \"De 70%-regel geldt voor elke kmo.\" → **FOUT** (alleen OOB) 📖.\n- ✘ \"Een onafhankelijkheidsbedreiging wordt opgelost door een 'safeguard' in alle gevallen.\" → **FOUT** (verboden diensten = absoluut verbod, geen safeguards mogelijk) 🔗.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — verschil commissaris (revisor) vs externe accountant zonder controlemandaat**: De vraag spreekt over \"onafhankelijkheid bij een **controleopdracht**\", dus over een **wettelijke controle** van de jaarrekening (commissaris-mandaat, art. 3:58 e.v. WVV) 🔗. De strengste regels (art. 3:59-3:61 WVV + ITAA-controlenorm + IESBA-Code Part 4A) gelden hier. Voor andere opdrachten van een gecertificeerd accountant (bv. fiscale bijstand, advies) gelden enkel de algemene deontologische regels (KB plichtenleer + IESBA-Code Part 4B). Een stelling die deze regimes verwart is bijna altijd **fout** 🤖.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Kern-grondslagen** voor onafhankelijkheid bij een wettelijke controleopdracht:\n- **Art. 3:59 WVV** — algemeen onafhankelijkheidsprincipe + continue plicht (tijdens én ná de gecontroleerde periode) + verbod op andere taken bij de gecontroleerde vennootschap of verbonden personen.\n- **Art. 3:60 WVV** — limitatieve catalogus verboden niet-controlediensten; geldt voor de commissaris én zijn netwerk; look-back-perioden.\n- **Art. 3:61 WVV** — 70%-honorariumgrens voor niet-auditdiensten (OOB); uitzondering door College van toezicht op de bedrijfsrevisoren mogelijk voor max. 2 boekjaren.\n- **ITAA-norm KMO-controlenorm §11-12 (afdeling 2.1.2)** — dubbele toets onafhankelijkheid (geesteshouding + naar buiten toe) + maatregelen tegen belangenconflicten.\n- **Art. 13 KB van 1 maart 1998 (plichtenleer accountants)** — 2 jaar look-back voor externe accountant; verbod op cumulatie controle + beheersfunctie.\n- **IESBA-Code Part 4A** — internationaal referentiekader (threats-and-safeguards), via verwijzing toepasselijk; verplicht voor wettelijke controles.",
+          "wetsref": "Art. 3:59-3:61 WVV; ITAA-norm KMO-controlenorm §11-12; art. 13 KB 1 maart 1998 plichtenleer; IESBA-Code Part 4A",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        }
+      ]
+    }
+  ]
+}
