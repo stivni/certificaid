@@ -1691,11 +1691,13 @@ fiscale-procedure                         [thema-cluster fiscaliteit, 13 records
 
 **Open punten**:
 - **OP-FP.A** ✅ Naam-smell-scan-pattern uitgebreid met `-pb`/`-venb`/`-fiscus`/`-fiscaal`-suffixen
-- **OP-PV.A** ⏳ **Cross-cluster perspectief-vermommings-scan** (nieuw): scan alle 396 records op `-pb`/`-venb`/`-fiscus`-suffixen. Litmus: bestaat onderliggend fenomeen-record? Zo ja → absorberen als perspectief. Al gespotte kandidaten:
-  - `bedrijfsleidersbezoldiging-pb` → perspectief op `bedrijfsleidersbezoldiging` (werknemers-vergoedingen)
-  - `aftrekbare-beroepskosten-venb` + `beroepskosten-regime-pb` → 2 perspectieven op (ontbrekend) `beroepskosten`-fenomeen → mogelijk nieuw `beroepskosten`-record creëren
-  - `verworpen-uitgaven-autokosten` → VenB-perspectief op `autokosten` (mobiliteit-cluster)
-  Mapping-fase-actie.
+- **OP-PV.A** ✅ **Cross-cluster perspectief-vermommings-scan voltooid** (2026-05-26). Scan op suffixen `-pb` (21) · `-venb` (4) · `-fiscaal` (12) · `-fiscus` (2) · `-aww` (2) · `-ic` (7) · `-cluster` (3) · `-rechtsvorm` (6) · `-accountant` (6) + prefixen `vertegenwoordiging-` (2) · `begeleiding-` (1) · `mandaat-` (1). Meeste reeds opgelost in PO-rondes; **9 nieuwe kandidaat-acties** voor mapping-fase:
+  - **Bevestigd vermomd** (absorberen als perspectief): `bedrijfsleidersbezoldiging-pb` → PB-perspectief op `bedrijfsleidersbezoldiging` (werknemers-vergoedingen) · `werknemersbezoldiging-pb` → idem · `starterscoaching-pb` → `accountant_perspectieven[].advies` op `oprichting-vennootschap` · `vereffening-fiscaal` → fiscaal-perspectief op `ontbinding-en-vereffening` · `verworpen-uitgaven-autokosten` → VenB-perspectief op `autokosten`
+  - **Onderliggend fenomeen creëren + dubbele absorptie**: `beroepskosten-regime-pb` + `aftrekbare-beroepskosten-venb` → nieuw `beroepskosten`-fenomeen-record + beide als perspectieven (PB/VenB)
+  - **Naam-smell** (alleen rename): `onderhoudsuitkering-cluster` → `onderhoudsuitkering` (`-cluster`-smell)
+  - **Te beslissen** (litmus bij content-uitwerking): `eigen-woning-fiscaal` → PB-regime-record (legitiem) of perspectief op generiek `eigen-woning`-concept? · `voorheffingen-en-verrekeningen-venb` → behouden of nieuw overkoepelend `voorheffingen`-record creëren?
+  - **Reeds opgelost in PO-rondes**: 56 van 65 records (alle `-fiscaal`/`-fiscus`/`-aww`/`-ic`/`-rechtsvorm`/`-accountant`-suffixen + prefixen) — mapping-fase werkt deze uit.
+  - Generieke `-pb`-suffix-records (21 stuks) zijn **deels legitiem** (PB-specifieke fenomenen zoals `aangifte-pb`/`belastingberekening-pb`/`inkomstencategorieen-pb` — geen VenB-tegenhanger of inherente PB-context). Per record beslissen bij PB-cluster-uitwerking (PO 2.2).
 - **OP-FP.B** ⏳ Aanslag-procedure-detail vs `aanslag-cyclus`-record — eventueel nuance bij content-uitwerking
 
 ### Registratie-en-successierechten-cluster
@@ -1852,6 +1854,62 @@ lokale-en-regionale-belastingen           [thema-cluster fiscaliteit, 13 records
 - **OP-LR.A** ⏳ Gewestelijke varianten per regime (verkooprecht reeds in 2.6, OV/verkeer/BIV hier) — voorlopig sub-sectie per regime; eventueel split als verschillen substantieel
 - **OP-LR.B** ⏳ Cross-relatie tussen `aanvullende-gemeentebelasting-pb` en `personenbelasting`-sub-discipline-Σ (te overwegen bij PB-uitwerking)
 - **OP-LR.C** ⏳ `gewestelijke-fiscale-procedure` vs `fiscale-procedure` (PO 2.5 federaal) — voldoende onderscheid? Of consolideren tot 1 Σ-record met federaal/gewestelijk sub-secties? Voorlopig apart wegens substantie + eigen wetboeken.
+
+### Algemene-fiscale-beginselen-cluster
+
+Thema: `algemene-fiscale-beginselen`. *Diepe PO 2.1-uitwerking (2026-05-26). Meta-fundament voor heel `fiscaliteit`-discipline (= sub-discipline-rooster zoals andere sub-K's onder de discipline). 1 rename (`fiscaal-rechtelijk` → `fiscaal-recht` — bijvoeglijk-suffix-smell). Geen perspectief-vermommingen ontdekt. Geen apart Σ-hoofdrecord (geen keuze-as; `fiscale-beginselen` bundelt al de 8 beginselen).*
+
+```
+algemene-fiscale-beginselen               [thema-cluster fiscaliteit, 7 records — PO 2.1]
+│
+├── --- I. DEFINITIE + INDELING ---
+├── belasting-definitie-en-functies       [K]   wat is een belasting · 3 functies (financieel · regulerend · herverdelend)
+├── indeling-belastingen                  [K]   directe/indirecte · personele/zakelijke · federaal/gewestelijk/lokaal
+│
+├── --- II. BRONNEN + INTERPRETATIE ---
+├── fiscaal-recht                         [K — hernoemd van `fiscaal-rechtelijk`]   wettelijk + reglementair + administratief kader · hiërarchie · KB-WIB · circulaires · administratieve commentaar
+├── interpretatie-fiscale-wet             [K]   restrictief/teleologisch · in dubio contra fiscum · realiteitsbeginsel · bewijslast-verdeling
+│
+├── --- III. ACTOREN ---
+├── fiscale-actoren                       [K]   belastingplichtige · administratie · OM · rechter · adviseur (cross naar beroepsbeoefening voor accountant-rol)
+│
+└── --- IV. TOEPASSINGSGEBIED + BEGINSELEN ---
+├── toepassingsgebied-belasting           [K]   wie/wat/wanneer/waar — criteria
+└── fiscale-beginselen                    [Σ — 8 beginselen]   legaliteit · annualiteit (VII.A-B) · gelijkheid · non-retroactiviteit · territorialiteit (VIII.A-C) · non-bis-in-idem · realiteitsbeginsel · moraliteit-vs-neutraliteit (IX.A-C)
+```
+
+**Cross-cluster**:
+- `algemene-anti-misbruik-bepaling` (anti-misbruik) — raakt IX.B realiteitsbeginsel + interpretatie-fiscale-wet
+- `voorafgaande-beslissing-dvb` (fiscale-procedure) — raakt IX + taken
+- `fiscaal-recht` (deze cluster) — hoofdbron-referentie voor alle PO 2.x clusters
+
+**Renames + actie**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| fiscaal-rechtelijk | **fiscaal-recht** (`-rechtelijk`-bijvoeglijk-suffix-smell — sluit aan bij regel-pattern "record-id = conceptnaam, niet bijvoeglijk descriptor") |
+
+**Triangulatie 2026-05-26**:
+- 20 PO 2.1-anchors → 0 PO-only gaps
+- 9 records → 7 cluster-eigen (1 rename + 2 cross naar andere clusters: AAMB + DVB)
+- Geen perspectief-vermommings (taak.1-3 zijn algemene fiscale taken zonder eigen taak-records in PO 2.1 — al gedekt door cross naar `mandaat-`/`vertegenwoordiging-`-absorpties in PO 2.5/2.6/2.7)
+
+**Bronnen-pin**:
+- ✅ Grondwet art 170 (fiscaal legaliteitsbeginsel) + art 172 (gelijkheidsbeginsel) + art 173
+- ✅ WIB · WBTW · Wbk Reg · alle materiële belastingwetboeken
+- ✅ Cassatie-arresten over beginselen (geen primaire trusted bron — examen-stof in handboeken)
+
+**Test-case-validatie** (2026-05-26): 3 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Legaliteitsbeginsel + delegatie aan KB | `fiscale-beginselen#legaliteit` + cross `fiscaal-recht#hierarchie` | ✅ |
+| Annaliteit + meerjarenvaststelling | `fiscale-beginselen#annaliteit` | ✅ |
+| Non-bis-in-idem bij dubbele aanslag | `fiscale-beginselen#non-bis-in-idem` + cross `fiscale-procedure#aanslag-cyclus` | ✅ |
+
+**Open punten**:
+- **OP-FB.A** ⏳ Per beginsel mogelijk eigen sub-record indien content-zwaarte rechtvaardigt — voorlopig sub-secties van `fiscale-beginselen`-Σ (anti-versnippering)
+- **OP-FB.B** ⏳ `fiscaal-recht` (na rename) zou Σ-bronnen-record kunnen worden — momenteel kleiner Kader. Bij content-uitwerking eventueel uitbreiden naar overkoepelend bronnen-record (hiërarchie wettekst → KB → circulaire → administratieve commentaar)
 
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 

@@ -41,6 +41,19 @@ provenance:
     layer1:
     layer2:
 ---
+<!-- LEESHULP-INJECT: bron=resources/leeshulp/normen/ITAA-norm-algemene-controlenorm.md (ADR-034) -->
+
+> [!info] In mensentaal — wat regelt deze norm?
+> De Algemene Controlenorm uit 1991 is de **basisnorm voor élke controleopdracht** van een gecertificeerd accountant. Vijf bouwstenen:
+>
+> 1. **Onafhankelijkheid** — geen ondergeschiktheid t.o.v. cliënt of derden (§1–2)
+> 2. **Werkschema** — beschrijf vooraf wát je zal controleren, wanneer en hoeveel tijd (§3)
+> 3. **Werkdocumenten** — gedetailleerd, **10 jaar bewaren**, eigendom accountant, gedekt door beroepsgeheim (§4)
+> 4. **Opvolging van een confrater** — vooraf contact opnemen, inzage in werkdocumenten (§5)
+> 5. **Verslag** — schriftelijk, omstandig, mét voorbehoud waar nodig + afschrift naar ITAA (§7)
+>
+> 🤖 *Didactische samenvatting — voor de canonieke tekst lees hieronder.*
+
 # Algemene controlenorm (Besl. Raad d.d. 30 september 1991)
 
 ## 1. Inleiding
@@ -59,6 +72,15 @@ dat hij over de nodige tijd beschikt om zijn taak te kunnen afwerken binnen de g
 dat hij zich noch tegenover zijn cliënt, noch tegenover iemand anders bevindt in een verband van rechtstreekse of onrechtstreekse ondergeschiktheid die zijn beoordeling zou kunnen beïnvloeden.
 De accountant voert zijn opdracht uit en stelt zijn besluiten op in een geest van totale onafhankelijkheid; daarvoor moet hij zijn beste krachten inzetten en desgevallend een beroep doen op het advies van confraters of van andere erkende beroepsbeoefenaars, zonder evenwel zijn gedragslijn door laatstgenoemden te laten beïnvloeden.
 De accountant dient geen oordeel uit te spreken over de opportuniteit van de beslissingen die aan zijn opdracht ten grondslag liggen. Toch dient hij, met naleving van het beroepsgeheim waartoe hij gehouden is, erover te waken dat alle betrokken partijen op correcte wijze voorgelicht worden over de mogelijke gevolgen van de genomen beslissingen, met name wanneer de beslissingen de continuïteit van het bedrijf in het gedrang zouden kunnen brengen.
+
+> [!tip] Twee verplichtingen door elkaar in deze sectie
+> Sectie 2 mengt twee dingen die je apart moet houden:
+>
+> - **Vóór aanvaarding** — vier checks: ① bekwaamheid + ervaring · ② middelen + personeel · ③ tijd · ④ geen ondergeschiktheid.
+> - **Tijdens uitvoering** — onafhankelijk besluit, géén oordeel over de opportuniteit van de cliëntbeslissingen, wél de plicht om partijen voor te lichten bij **continuïteitsrisico**.
+>
+> Bij wettelijke opdrachten geldt bovendien: je mag **géén contractuele beperking** aanvaarden die de wettelijke opdracht zou wijzigen of haar geest zou veranderen.
+
 ## 3. Werkschema
 Elke opdracht wordt uitgevoerd overeenkomstig een passend werkschema. Dit schema is een beschrijving van de controlewerkzaamheden die moeten uitgevoerd worden en aan de hand waarvan het mogelijk moet zijn, binnen normaal voorzienbare grenzen, te bepalen wanneer en hoe de controlewerkzaamheden zullen kunnen worden uitgevoerd en hoeveel tijd zij in beslag zullen nemen.
 Dit werkschema kan, naarmate de opdracht vordert, aangepast worden. De accountant is verplicht de door hem of door zijn medewerkers uitgevoerde controlewerkzaamheden schriftelijk en op onuitwisbare wijze op te tekenen of te laten optekenen teneinde er een spoor van te behouden. Deze werkdocumenten moeten gedurende ten minste 10 jaar worden bewaard.
@@ -80,6 +102,14 @@ de door de cliënt afgelegde verklaringen;
 de besluiten waartoe de accountant gekomen is in verband met de belangrijke punten van de controle met de gekozen oplossing voor of wat er gedaan werd met de anomalieën die de controleverrichtingen aan het licht mochten gebracht hebben;
 een afschrift van de financiële informatie evenals van de verslagen waarop de controle betrekking gehad heeft.
 Al deze werkdocumenten behoren uitsluitend toe aan de accountant en zijn gedekt door het beroepsgeheim.
+
+> [!note] Werkdocumenten — drie kernregels om te onthouden
+> 1. **Eigendom**: behoren uitsluitend toe aan de accountant (niet aan de cliënt).
+> 2. **Bewaartermijn**: minstens **10 jaar** (cf. §3 — niet expliciet herhaald in §4).
+> 3. **Bescherming**: gedekt door beroepsgeheim (cross-link: [[bronnen/normen/ITAA-deontologie-beroepsgeheim|Beroepsgeheim]]).
+>
+> De opsomming in §4 is **niet exhaustief** ("omvatten met name") — bij twijfel volstaat het criterium: kan dit document de omvang, aard en verantwoording van mijn werk bewijzen?
+
 ## 5. Opvolging
 Elke accountant die een confrater of een bedrijfsrevisor moet opvolgen, moet vooraf met hem in contact  treden. De opvolger mag de werkdocumenten van zijn voorganger inzien, maar deze laatste mag zijn oorspronkelijke stukken niet uit handen geven.
 De accountant beslist in alle onafhankelijkheid, maar hij moet al zijn beroepsbekwaamheid en zijn ervaring aanwenden om een verantwoorde keuze te maken in verband met de aard en de omvang van de uit te voeren controles evenals in verband met de aan te wenden technieken; hij moet echter steeds in staat zijn zijn besluiten op een samenhangende manier te kunnen verantwoorden.
@@ -91,3 +121,10 @@ de moeilijkheid en de kosten van de technieken die normaal dienen te worden aang
 ## 7. Commissie van Toezicht
 Elk controleverslag dient schriftelijk en omstandig opgesteld te worden en moet besluiten met de beoordeling die de accountant wettelijk gezien moet formuleren. In zijn verslag vermeldt de accountant met name op welke wijze hij zijn controle heeft uitgevoerd en of hij van de beheersorganen of van de andere personen die hem gegevens moeten verschaffen, wel alle vereiste inlichtingen en uitleg heeft ontvangen. De accountant vermeldt tevens in welke mate hij, bij de uitvoering van opdrachten, heeft kunnen steunen op een administratieve organisatie en een passende en sluitende interne controle. De accountant vermeldt in zijn verslag het eventueel voorbehoud dat hij op bepaalde punten meent te moeten maken.
 Elk verslag dat door een accountant is opgesteld ter uitvoering van een hem door of krachtens de wet toevertrouwde opdracht moet, in afschrift, aan het Instituut van de Accountants en de Belastingconsulenten worden toegezonden opdat dit laatste zijn confraternele controle zou kunnen uitoefenen. De toezending van genoemd afschrift moet zo gebeuren dat het beroepsgeheim gevrijwaard wordt.
+
+> [!warning] De sectietitel dekt de lading niet
+> Deze sectie heet "Commissie van Toezicht" maar regelt in werkelijkheid:
+> - **Inhoud van het controleverslag**: schriftelijk, omstandig, met expliciete vermelding van uitgevoerde controle, ontvangen inlichtingen, gesteundheid op interne controle, en **eventueel voorbehoud**.
+> - **Toezending afschrift aan het ITAA** voor confraternele controle (met behoud van beroepsgeheim).
+>
+> De "Commissie van Toezicht" verwees naar de toenmalige toezichtsstructuur van het IAB; het ITAA vervult die rol vandaag.

@@ -40,6 +40,7 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-031](ADR-031-herinnering-pdf-vraag-isolatie-bbox-indent.md) | Vraag-isolatie voor herinnering-stijl examen-PDFs via woord-bbox-indent-detectie (top-letters x0 ≤ 80pt vs sub-stellingen op 90pt). Lost de "11 vakken i.p.v. 49 hoofdvragen"-fout in `parse_2024_1` op. ID-conventie `vr{vak}{letter}` (bv. vr7A). | Accepted |
 | [ADR-032](ADR-032-examen-vragen-render-per-programmaonderdeel.md) | Voorbeeldexamenvragen renderen per programmaonderdeel (`po-1.1.md` t/m `po-4.0.md`) i.p.v. per bronbestand. Multi-PO vragen verschijnen in alle relevante pagina's. Per-examen pagina's vervallen. | Accepted |
 | [ADR-033](ADR-033-scope-metadata-extractie-guidance.md) | `metadata.scope.in[]` + `metadata.scope.out[]` toegevoegd aan schema 2.1 v1.5 als optionele extractie-guidance (vrije strings, geen integriteit-check). Voorkomt scope-creep + content-duplicatie tussen verwante records tijdens extractie-operaties. Materialiseert per-record-afbakening uit granulariteit-skelet-cluster-sparring. | Draft |
+| [ADR-034](ADR-034-bron-leeshulp-injectie.md) | Bron-leeshulp via injectie in publicatie-laag: `resources/bronnen/` (heilig) + `resources/leeshulp/` (didactische callouts) → `content/bronnen/` (gegenereerd). Houdt bron/commentaar gescheiden; leeshulp leeft náást Fase 7 concept-render (verschillende leesmodi). POC op `ITAA-norm-algemene-controlenorm`. | Draft |
 
 ## Roadmap
 
