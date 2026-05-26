@@ -218,7 +218,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | ondernemingsvormen | 9 | PO 3.0.I + taak.1 + cross PO 1.1 + 2.3 | [§Ondernemingsvormen-cluster](#ondernemingsvormen-cluster) |
 | bestuur-en-aansprakelijkheid | 4 | PO 3.0.II + VII | [§Bestuur-en-aansprakelijkheid-cluster](#bestuur-en-aansprakelijkheid-cluster) |
 | vennootschapsgeschillen | 1 | PO 3.0.VIII | [§Vennootschapsgeschillen-cluster](#vennootschapsgeschillen-cluster) |
-| **insolventie** | **7** (incl. nieuwe `faillissement`) | **PO 3.0.IX + X** | [**§Insolventie-cluster**](#insolventie-cluster) |
+| insolventie | 7 (incl. nieuwe `faillissement`) | PO 3.0.IX + X | [§Insolventie-cluster](#insolventie-cluster) |
+| **winstuitkering** | **3** (NIEUW Σ + winstbestemming + tantième; 4 cross-records) | **PO 3.0.IV.B + cross 2.3 + 2.1** | [**§Winstuitkering-cluster**](#winstuitkering-cluster) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 
@@ -1095,6 +1096,81 @@ insolventie                              [thema-cluster, 7 records — PO 3.0.IX
 - **OP-INS.B** ⏳ `faillissement` als nieuw record creëren — wacht op daemon-fix (Fase 1.0 BLOCKER)
 - **OP-INS.C** ⏳ `boekenstaat-bij-ontbinding` als sub-sectie van `ontbinding-en-vereffening` (huidig) vs eigen klein record? Voorlopig sub-sectie (anti-versnippering); split-overweging als verslag-format substantieel detail vereist
 - **OP-INS.D** ⏳ Verschoonbaarheid (faillissement natuurlijk persoon) als sub-sectie van `faillissement` vs cross-link naar `rehabilitatie-en-beroepsverbod#rehabilitatie`? Mogelijk dubbel-flag in beide records.
+
+### Winstuitkering-cluster
+
+Thema: `winstuitkering`. *Thema-cluster (PO 3.0.IV.B + cross PO 2.3 VenB-mechanismen + cross PO 2.1 RV-PB, 2026-05-26). Σ-cluster: keuzekader voor uitkeringsvormen. Materialiseert mapping-actie uit rationale-log 2026-05-24 (`kapitaalbescherming-en-winstverdeling` splitsen). Lost OP-K.4 op (winstbestemming positionering).*
+
+```
+winstuitkering                            [Σ-cluster, 3 records — PO 3.0.IV.B + cross 2.3 + 2.1]
+│
+├── winstuitkering                        [R, Σ-hoofdrecord — NIEUW; absorbeert winstverdeling-deel van `kapitaalbescherming-en-winstverdeling`]
+│   ▸ overkoepelend keuzekader: hoe geeft venn winst aan aandeelhouders?
+│   ▸ #vergelijkingsmatrix-uitkeringsvormen:
+│       - dividend (regulier — AV-besluit · RV 30%)
+│       - tussentijdse/interim dividenden (op tussentijdse staat · dubbele test BV/NV)
+│       - tantième (winstgebonden bestuurdersvergoeding · cross werknemers-vergoedingen)
+│       - inkoop eigen aandelen (alternatief — uittreding-uitkering · cross kapitaalstructuur)
+│       - liquidatie-uitkering (eind-uitkering · cross fiscale-voordelen + insolventie)
+│       - liquidatiereserve (= "voorgekookte liquidatie" via VenB · cross fiscale-voordelen)
+│       - VVPR-bis (verlaagd RV-tarief voor kleine venn · cross fiscale-voordelen)
+│   ▸ keuze-criteria: RV-tarief · timing · winstbestemmings-volgorde · netto-actief-test
+│   ▸ #wettelijke-beperkingen — netto-actief-test (BV/NV) + uitkeringstest (BV ⚠️ dubbele test sinds WVV)
+│   ▸ #av-procedure — winstbestemmings-besluit
+│   ▸ absorbeert `uitkering-aan-aandeelhouders`-content (bestaand record, mogelijk hernoemen naar dit cluster-Σ)
+│
+├── winstbestemming                       [G+R, NIEUW — opent OP-K.4]
+│   ▸ AV-besluit jaarrekening + winstbestemming (na goedkeuring jaarrekening)
+│   ▸ #wettelijke-reserve — 5% tot 10% van kapitaal/eigen-vermogen bereikt (verplichte aanleg)
+│   ▸ #vrije-reserves — statutair vrij + AV-besluit
+│   ▸ #overgedragen-resultaat — naar volgend boekjaar
+│   ▸ #tantième-toekenning — winstgebonden bestuurdersvergoeding (cross naar tantième-record)
+│   ▸ #dividend-toewijzing — saldo naar dividend (regulier of interim)
+│   ▸ wettelijke volgorde: wettelijke reserve eerst · dan andere · dan dividend/overdracht
+│
+└── tantième                              [G+R, NIEUW losstaand record — primair-thema-keuze 2026-05-24]
+    ▸ winstgebonden vergoeding toegekend door AV bij winstbestemming aan bestuurder(s)
+    ▸ aftrekbaarheidsregel ⚠️: aftrekbaar in het boekjaar waarop het betrekking heeft (mits AV-besluit en boeking binnen termijn) — speciale aftrekbaarheidsregel ten opzichte van gewone bestuurderskosten
+    ▸ belastbaar als bedrijfsleidersbezoldiging in PB (categorie bedrijfsleider)
+    ▸ #cao-90-bonus afbakening (niet hetzelfde — CAO 90 is werknemersbonus, geen tantième)
+    ▸ secundair thema: werknemers-vergoedingen (als lid van bedrijfsleidersbezoldiging-Σ)
+    ▸ cross: bedrijfsleidersbezoldiging (bouwblok) · winstbestemming (toekenningsmoment) · KMO-tarief-VenB (45.000-EUR-regel-context)
+```
+
+**Cross-cluster** (records met primair-thuis elders, thema-shared winstuitkering):
+- `liquidatiereserve` (fiscale-voordelen-vennootschap ⏳) — VenB-mechanisme (10% afzonderlijke heffing → later 5% RV bij uitkering)
+- `vvprbis` (fiscale-voordelen-vennootschap ⏳) — verlaagd RV-tarief 15% voor kleine venn met nieuw kapitaal na 3j wachtperiode
+- `inkoop-eigen-aandelen` (kapitaalstructuur) — alternatief uitkeringsvorm
+- `kapitaalvermindering` (kapitaalstructuur) — pro-rata-toerekening (winstverdeling-aspect)
+- `bedrijfsleidersbezoldiging` (werknemers-vergoedingen) — bevat tantième als bouwblok
+- `kapitaalbescherming` (kapitaalstructuur ⏳ OP-K.5) — netto-actief-test + uitkeringstest = wettelijke beperking op winstuitkering
+
+**Mapping-acties** (materialisatie rationale-log 2026-05-24):
+- `kapitaalbescherming-en-winstverdeling` → **splitsen**: kapitaalbescherming-deel naar `kapitaalbescherming` (kapitaalstructuur, OP-K.5); winstverdeling-deel absorbed in `winstuitkering` (Σ-hoofdrecord)
+- `uitkering-aan-aandeelhouders` → mogelijk hernoemen naar `winstuitkering` (Σ-overzicht) en absorbeert; of behouden als sub-record voor reguliere dividend-vorm. Beslissing bij content-uitwerking (OP-WU.A)
+
+**Schrappen / nieuwe records**:
+- 2 nieuwe records: `winstbestemming` + `tantième` (losstaand — was niet als record, alleen vermeld in werknemers-vergoedingen-cluster)
+- 1 nieuw Σ-record `winstuitkering` (vervangt + absorbeert)
+- 1 split (`kapitaalbescherming-en-winstverdeling` → 2)
+
+**Triangulatie 2026-05-26**:
+- PO 3.0.IV.B + cross 2.3 (VenB-mechanismen) + cross 2.1 (RV PB)
+- 2 bestaande records met directe relevantie (`uitkering-aan-aandeelhouders`, `kapitaalbescherming-en-winstverdeling`) + 2 fiscale records cross (`liquidatiereserve`, `vvprbis`) → 3 cluster-eigen records (Σ + 2 nieuwe) + 4 cross
+- Opent open punten `tussentijdse-dividenden` (was kandidaat ⏳ uit kapitaalstructuur-triangulatie 2026-05-24) — als sub-sectie van Σ ipv eigen record (anti-versnippering)
+
+**Bronnen-pin**:
+- ✅ WVV (boek 5 BV + boek 7 NV — winstbestemming + uitkeringsbeperkingen)
+- ✅ WIB (Wetboek Inkomstenbelasting) — RV-tarieven · liquidatiereserve · VVPR-bis (cross fiscale-voordelen)
+- ⏳ KB ter uitvoering WIB (RV-modaliteiten)
+
+**Test-case-validatie**: te doen — gerelateerde examen-vragen rond dividend-uitkering + winstbestemming nog niet specifiek opgezocht; over te slaan deze ronde (klein-cluster precedent).
+
+**Open punten**:
+- **OP-WU.A** ⏳ `uitkering-aan-aandeelhouders` (bestaand) — hernoemen naar `winstuitkering`-Σ of behouden als sub-record voor regulier-dividend? Content-uitwerking-beslissing
+- **OP-WU.B** ⏳ `tussentijdse-dividenden` als sub-sectie van Σ (huidig) of eigen record? Voorlopig sub-sectie (anti-versnippering); split bij content-zwaarte (BV-mechaniek substantieel verschillend van NV)
+- **OP-WU.C** ⏳ `winstbestemming`-positionering — eigen record (huidig) of sub-sectie van `winstuitkering`-Σ? Voorlopig eigen want AV-procedure + wettelijke reserve substantieel; cross-link in Σ
+- **OP-WU.D** ⏳ `dividend-uitkering` als eigen record creëren? Voorlopig: regulier dividend = sub-sectie van Σ + RV-aspecten in `uitkering-aan-aandeelhouders` hernoemd. Splitsen indien content-zwaarte rechtvaardigt
 
 ### Beroepsbeoefening-cluster
 
