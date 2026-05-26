@@ -138,6 +138,12 @@ controle-opdracht                        [sub-Kader `controle`, 7 records — PO
 ├── audit-afronding                      [K-techniek]      ▸ subsequent events ▸ misstatements ▸ analytical review ▸ communicatie governance + management letter
 └── controleverklaring                   [E-instr, Σ]      4 oordelen (zonder voorbehoud · met voorbehoud · afkeurend · onthouding) ▸ verslag-componenten ▸ KAM ▸ andere-verslagstypes
 
+bestuur-en-aansprakelijkheid             [thema-cluster vennootschapsrecht, 4 records — PO 3.0.II + VII]
+├── bestuur-vennootschap                 [K]               organisatie · bevoegdheidsgrenzen · binding · dagelijks bestuur
+├── belangenconflict-bestuur             [R-procedure]     kennisgeving · onthouding · bijzondere verslaggeving · sancties
+├── oprichtersaansprakelijkheid          [K]               financieel-plan-toets bij faillissement < 3j
+└── bestuurdersaansprakelijkheid         [K]               3 sporen · kennelijk onbehoorlijk bestuur · cap · #kwijting · #ontslag-bekendmaking
+
 ondernemingsvormen                       [thema-cluster vennootschapsrecht, 9 records — PO 3.0.I + taak.1]
 ├── ondernemingsvormen                   [E-bundel + Σ]    overzicht + vergelijkingsmatrix + WVV-systematiek + fiscale-keuze (perspectief)
 ├── besloten-vennootschap                [E-instrument]    (BV/BVBA/SRL) — default WVV-vorm sinds 2019; flexibel statutair
@@ -198,8 +204,9 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | controle-opdracht | 7 | PO 1.6 | [§Controle-opdracht-cluster](#controle-opdracht-cluster) |
 | interne-controle | 7 + 3 shared | PO 1.7 | [§Interne-controle-cluster](#interne-controle-cluster) |
 | ondernemingsvormen | 9 | PO 3.0.I + taak.1 + cross PO 1.1 + 2.3 | [§Ondernemingsvormen-cluster](#ondernemingsvormen-cluster) |
+| **bestuur-en-aansprakelijkheid** | **4** | **PO 3.0.II + VII** | [**§Bestuur-en-aansprakelijkheid-cluster**](#bestuur-en-aansprakelijkheid-cluster) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
-| **bijzondere-mandaten** | **1** (klein record, detail bij Gebeurtenissen) | **PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C** | [**§Bijzondere-mandaten-cluster**](#bijzondere-mandaten-cluster) |
+| bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -876,7 +883,77 @@ ondernemingsvormen                            [thema-cluster vennootschapsrecht]
 | 2013-2-vr15 | Alarmbelprocedure bij BVBA met overgedragen verlies | `besloten-vennootschap` + cross `alarmbel-procedure` + `kapitaalbescherming` (kapitaalstructuur) | ✅ |
 | 2013-2-vr16 | Toegestaan kapitaal + oprichtersaansprakelijkheid NV | `naamloze-vennootschap` + cross `kapitaalverhoging#toegestaan-kapitaal` + cross `aansprakelijkheid-oprichters-bestuurders` | ✅ |
 
-Alle 6 vragen passen door de tree. **Bevestigingen**: (a) splits VOF/CommV bevestigd door geen specifieke testvraag op CommV-only — beide bestaan apart maar worden hier niet getest; (b) `#initiele-inbreng` sub-sectie in `oprichting-vennootschap` is concreet nodig (vr 2008-bibf-vrI2); (c) cross-relaties naar `aansprakelijkheid-oprichters-bestuurders` bevestigen dat dit cluster nodig wordt (PO 3.0.VII open punt).
+Alle 6 vragen passen door de tree. **Bevestigingen**: (a) splits VOF/CommV bevestigd door geen specifieke testvraag op CommV-only — beide bestaan apart maar worden hier niet getest; (b) `#initiele-inbreng` sub-sectie in `oprichting-vennootschap` is concreet nodig (vr 2008-bibf-vrI2); (c) cross-relaties naar `aansprakelijkheid-oprichters-bestuurders` bevestigen dat dit cluster nodig wordt (PO 3.0.VII open punt — opgelost via `bestuur-en-aansprakelijkheid`-cluster).
+
+### Bestuur-en-aansprakelijkheid-cluster
+
+Thema: `bestuur-en-aansprakelijkheid`. *Thema-cluster vennootschapsrecht (PO 3.0.II + VII, 2026-05-26). Klein cluster — 4 records — maar substantieel didactisch (bestuursorganisatie + persoonlijke aansprakelijkheid zijn examen-kritisch). Lost OP-BB.E gedeeltelijk op (commissaris ↔ bestuurder-context) en flagt OP-BA.C (tantième-controle als bijzonder mandaat).*
+
+```
+bestuur-en-aansprakelijkheid              [thema-cluster vennootschapsrecht]
+│
+├── --- BESTUUR (PO 3.0.II) ---
+├── bestuur-vennootschap                  [K]
+│   ▸ organisatie: enige bestuurder · raad van bestuur · dualistisch (raad van toezicht + directieraad) · college zaakvoerders
+│   ▸ #bevoegdheidsgrenzen — individueel vs collegiaal (3.0.II.A)
+│   ▸ #binding-bij-bevoegdheidsoverschrijding — bescherming derden te goeder trouw (3.0.II.B)
+│   ▸ #dagelijks-bestuur — afgeleide bevoegdheid
+│   ▸ statutaire flexibiliteit per vorm (BV vs NV vs CV)
+├── belangenconflict-bestuur              [R-procedure]
+│   ▸ WVV-procedure: kennisgeving · onthouding · bijzondere verslaggeving
+│   ▸ toepassingen: persoonlijk strijdig belang · groepscontext · enige bestuurder
+│   ▸ sancties: nietigheid besluit + persoonlijke aansprakelijkheid
+│
+├── --- AANSPRAKELIJKHEID (PO 3.0.VII) ---
+├── oprichtersaansprakelijkheid           [K — split van `aansprakelijkheid-oprichters-bestuurders`]
+│   ▸ kennelijk ontoereikend financieel plan + 3j-faillissementstoets
+│   ▸ solidair vermoeden (BV/NV/CV); financieel-plan bij notaris als bewijs-instrument
+│   ▸ context: sinds WVV BV geen min-kapitaal → financieel-plan-toets nog cruciaaler
+└── bestuurdersaansprakelijkheid          [K — split + uitgebreid]
+    ▸ 3 sporen: contractueel (vennootschap) · buitencontractueel (derden) · strafrechtelijk
+    ▸ kennelijk grove fout · kennelijk onbehoorlijk bestuur · schending wet/statuten
+    ▸ #faillissementsaansprakelijkheid (WER XX:225 — kennelijk onbehoorlijk bestuur dat bijdroeg aan faillissement)
+    ▸ #wettelijke-cap (aansprakelijkheidsbeperking sinds WVV — bedragen volgens omzet/balanstotaal ⚠️)
+    ▸ #kwijting (PO 3.0.VII.B — reikwijdte: alleen bekende feiten; geen wisselgeld voor toekomstige claims)
+    ▸ #ontslag-bekendmaking (bestuurder blijft aansprakelijk tot publicatie ontslag)
+```
+
+**Cross-cluster**:
+- `oprichting-vennootschap` + `financieel-plan` (kapitaalstructuur) — oprichtersaansprakelijkheid-trigger
+- `algemene-vergadering` (kapitaalstructuur) — kwijting-besluit + ontslag-beslissing
+- `alarmbel-procedure` + `kapitaalbescherming` (kapitaalstructuur) — bestuurder-actie bij netto-actief < helft → relevant voor bestuurdersaansprakelijkheid (niet-naleving = trigger)
+- `beroepsaansprakelijkheid` (beroepsbeoefening) — parallel concept: accountant ↔ bestuurder; beide 3 sporen + verzekering
+- `bijzondere-mandaten` (controle) — OP-BA.C tantième-controle als bijzonder mandaat
+- `faillissement` (insolventie ⏳) — faillissementsaansprakelijkheid-cross + bestuurder-aansprakelijkheid bij verlatenheid
+
+**Schrappen / herleiden tot sub-sectie**:
+- `aansprakelijkheid-oprichters-bestuurders` → **gesplitst** in `oprichtersaansprakelijkheid` + `bestuurdersaansprakelijkheid` (`-en-`-naam-smell weg, precedent `vof-commv`)
+- `kwijting` blijft sub-sectie van `bestuurdersaansprakelijkheid` (start gebundeld; potentiële split bij content-zwaarte → OP-BA.B)
+
+**Triangulatie 2026-05-26**:
+- 16 PO 3.0.II + VII anchors → 0 PO-only gaps
+- 3 bestaande records met anker → 4 cluster-eigen records (1 split + 3 behouden waarvan 2 hernoemd via split)
+- 1 naam-smell-oplossing (`-en-`-pattern)
+
+**Bronnen-pin**:
+- ✅ WVV (boek 5 BV + boek 7 NV + boek 6 CV) — bestuur + belangenconflict + kwijting per vorm
+- ⏳ WER boek XX — faillissementsaansprakelijkheid (te valideren als trusted bron)
+
+**Test-case-validatie** (2026-05-26): 3 representatieve PO 3.0.II/VII-examen-vragen:
+
+| Vraag | Concept | Tree-pad | Resultaat |
+|---|---|---|---|
+| 2008-bibf-vrI3 | Belangenconflict enige vennoot-zaakvoerder BVBA | `belangenconflict-bestuur` (enige-bestuurder-context — kennisgeving aan AV ipv RvB) | ✅ |
+| 2008-bibf-vrI5 | Oprichtersaansprakelijkheid BVBA vs NV | `oprichtersaansprakelijkheid` + cross `besloten-vennootschap` + `naamloze-vennootschap` (vergelijking financieel-plan-vereiste) | ✅ (nu écht volledig — split bevestigd nuttig: 2 vormen × 1 fenomeen) |
+| 2013-2-vr16 | Toegestaan kapitaal + oprichtersaansprakelijkheid NV | `naamloze-vennootschap` + `oprichtersaansprakelijkheid` + cross `kapitaalverhoging#toegestaan-kapitaal` | ✅ |
+
+Alle 3 passen zonder forceren. **Bevestiging**: split `aansprakelijkheid-oprichters-bestuurders` rechtvaardigt zich — 2 van 3 testvragen raken alleen `oprichtersaansprakelijkheid`, niet bestuurdersaansprakelijkheid.
+
+**Open punten**:
+- **OP-BA.A** ✅ Split `-en-`-smell uitgevoerd
+- **OP-BA.B** ⏳ `kwijting` als sub-sectie van `bestuurdersaansprakelijkheid` — splitten indien bij content-uitwerking didactisch te zwaar
+- **OP-BA.C** ⏳ Tantième-controle (PO 3.0.II.C / VII context) als bijzonder mandaat — flag voor `bijzondere-mandaten`-types-tabel-uitbreiding indien tantième-toekenning systematisch revisor-verslag vereist (te verifiëren bij content-uitwerking)
+- **OP-BA.D** ⏳ Vertegenwoordigingsbevoegdheid (3.0.II.B) — sub-sectie van `bestuur-vennootschap` (huidig voorstel) of eigen klein record? Voorlopig sub-sectie (anti-versnippering); split-overweging als WVV-binding-regel substantieel blijkt.
 
 ### Beroepsbeoefening-cluster
 
@@ -1522,4 +1599,5 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | AML als **1 overkoepelend record** `antiwitwaspreventie` met 5 sub-secties (cliëntenonderzoek · ubo-register · risicogebaseerde-benadering · melding-cfi · intern-beleid) | 5 aparte records (huidige situatie: clientenonderzoek-aww + ubo-register + risicogebaseerde-benadering-aww + melding-verdachte-transactie-cfi + antiwitwas-verplichtingen-accountant) | Anti-preventieve-versnippering-principe (rationale-log 2026-05-26). User-keuze "OP-BB.B aml : beginnen met één record". AML-regime is één coherent wettelijk kader (AML-wet 18-09-2017) met deelverplichtingen — geen aparte alternatieven (≠ Σ). Sub-secties kunnen later splitsen indien een aspect didactisch te zwaar wordt. Plus: `-aww`-suffix-smell (afkorting) op 3 records weggewerkt door bundeling. | Pattern: andere wettelijke regimes met meerdere verplichtingen-blokken kunnen analoog bundelen (bv. `bezwaarprocedure-fiscaal` met sub-secties bezwaar/beroep/cassatie ipv aparte records). |
 | 2026-05-26 | `gecertificeerd-accountant` als **nieuw E-actor-record** voor het beroep zelf (statuut · toelatingsvereisten · monopolieopdrachten · stagiair-regime · onverenigbaarheden) | Beroepsinfo verdelen tussen `itaa-beroepsorganisatie` + `deontologie` zonder centrale actor-record | User-keuze "OP-BB.C gecertificeerd-accountant, ja steek hem er maar thuis". Analoog aan `commissaris`-E-record (bijzondere hoedanigheid) — `gecertificeerd-accountant` is de generieke variant. Test-case-validatie bevestigt: 2 van 6 testvragen (K1 onverenigbaarheden + K5 stagiair) raken specifiek deze record-inhoud, die nergens anders thuishoort. | Pattern: actor-records voor gereglementeerde beroepen (`bedrijfsrevisor` ⏳ als parallel + cross-relatie, eventueel `belastingadviseur` ⏳, ...) volgen zelfde patroon — eigen statuut + verplichtingen. |
 | 2026-05-26 | `kantoor-organisatie` als overkoepelend record **absorbeert** `communicatie-met-stakeholders` + `digitalisering-accountantskantoor` als sub-secties | 3 aparte records voor 4.0.taak.2 + 4.0.taak.4 + 4.0.taak.5 | User-keuze "OP-BB.D kantoor-organisatie -> probeer maar te combineren". 3 thema's hangen samen rond "hoe runt het kantoor zijn praktijk?" — team-coördinatie + stakeholder-communicatie + digitale werkomgeving zijn 3 perspectieven op zelfde fenomeen (kantoor-praktijk). Anti-versnippering. `digitalisering`-sub-sectie kan later splitsen indien cyber/AVG/digitale-archief substantieel groeit. | `businessmodel-en-strategie-inzicht-accountant` daarentegen verhuist cross naar `bedrijfseconomie-en-management`-discipline — dat is geen kantoor-praktijk-thema maar een meta-competentie (4.0.taak.6) die elders thuishoort. |
+| 2026-05-26 | **`bestuur-en-aansprakelijkheid`-cluster** voor PO 3.0.II + VII; split bestaand record `aansprakelijkheid-oprichters-bestuurders` in `oprichtersaansprakelijkheid` + `bestuurdersaansprakelijkheid` (`-en-`-naam-smell, precedent `vof-commv`). Kwijting blijft sub-sectie van `bestuurdersaansprakelijkheid` (anti-preventieve-versnippering); split mogelijk later op didactische zwaarte (OP-BA.B). | (a) Behoud `aansprakelijkheid-oprichters-bestuurders` als 1 record; (b) Kwijting als eigen record | Test-case-validatie: 2 van 3 PO 3.0.VII-testvragen raken alleen `oprichtersaansprakelijkheid`, niet `bestuurdersaansprakelijkheid` — bevestigt dat het 2 verschillende fenomenen zijn (verschillende personen, verschillende triggers, verschillende wettelijke grondslag). Vergelijking BV-vs-NV bij oprichtersaansprakelijkheid (vr K5) leeft natuurlijker als eigen record. | Pattern: bij elke `-en-`-naam scan systematisch of 2 fenomenen onder 1 naam geforceerd zijn. Voor PO 3.0 nog te checken: `aandeelhoudersovereenkomsten-en-methodes-om-de-controle-te-verwerven` (3.0.VI-titel) — al opgelost via aparte clausule-sub-secties. |
 | 2026-05-26 | **`bijzondere-mandaten`** als 6e sub-Kader van `controle`-discipline + **shared thema** met `beroepsbeoefening`. Eén klein hoofdrecord (categorisch overzicht); concrete uitvoering per type woont als `accountant_perspectieven[].audit` op de betrokken Gebeurtenis-records. **OP-EC.E mapping-actie verfijnd**: niet zomaar "audit-perspectief", maar perspectief met cross-link naar `bijzondere-mandaten` (categorisch) + ITAA-norm-pin (per type) + oordeel-onderwerp specifiek. | (a) `bijzondere-mandaten` als perspectief-only op Gebeurtenissen (geen eigen record) — verliest categorisch overzicht; (b) als 5e item in `opdracht-types`-Σ — breekt assurance-niveau-as; (c) als sub-sectie van `gecertificeerd-accountant` in beroepsbeoefening — verliest opdracht-categorie-status | User-observatie 2026-05-26: "zit dat niet dicht bij onze discipline `controle` ook?" + "moet het geen perspectief worden op de betrokken gebeurtenissen?" — beide raken precies. Bijzondere mandaten zijn opdracht-categorie (= record naast andere sub-Kaders van controle) ÉN concrete uitvoering bij elke Gebeurtenis (= perspectief). Drie-niveau-toepassing van perspectief-vs-record-principe: categorisch begrip (record) + concrete uitvoering (perspectief) + wettelijke verankering (inhoud van Gebeurtenis). Shared thema beroepsbeoefening houdt monopolie-aspect zichtbaar zonder duplicatie. | Pattern: andere wettelijk-voorbehouden-opdracht-categorieën die door meerdere PO's heen leven kunnen analoog. Bv. `commissaris`-mandaat zelf is geen "bijzonder mandaat" maar wel een aparte opdracht-categorie — al deels in beroepsbeoefening voorzien (OP-BB.E).  |
