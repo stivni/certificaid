@@ -20,11 +20,12 @@ fiscaliteit                              [K]
 ├── btw                                  [K]
 ├── registratie-en-successierechten      [K]
 └── lokale-en-regionale-belastingen      [K]
-audit-en-assurance                       [K]
-├── controle-opdracht                    [K]
+controle                                 [K]   *hernoemd van `audit-en-assurance` 2026-05-26 (omvat zowel externe als interne controle)*
+├── controle-opdracht                    [K]   ✅ uitgewerkt
 ├── beoordelings-opdracht                [K]
 ├── isae-opdrachten                      [K]
-└── overeengekomen-procedures            [K]
+├── overeengekomen-procedures            [K]
+└── interne-controle                     [K]   ✅ uitgewerkt
 vennootschapsrecht                       [K]
 beroep-en-deontologie                    [K]
 bedrijfseconomie-en-management           [K]
@@ -145,9 +146,17 @@ beroepsbeoefening                        [⏳]
 | werknemers-vergoedingen | cross-cutting thema | 15 | [§Werknemers-vergoedingen-cluster](#werknemers-vergoedingen-cluster) |
 | overdracht-onderneming | cross-cutting thema | 2 | [§Overdracht-onderneming-cluster](#overdracht-onderneming-cluster) |
 | schuldfinanciering | cross-cutting thema | 4 | [§Schuldfinanciering-cluster](#schuldfinanciering-cluster) |
-| **controle-opdracht** | **laag-2 discipline** (sub-Kader audit-en-assurance) | **7** | [**§Controle-opdracht-cluster**](#controle-opdracht-cluster) |
+| controle-opdracht | laag-2 discipline (sub-Kader `controle`) | 7 | [§Controle-opdracht-cluster](#controle-opdracht-cluster) |
+| **interne-controle** | **laag-2 discipline** (sub-Kader `controle`) | **7 + 3 shared** | [**§Interne-controle-cluster**](#interne-controle-cluster) |
 
 Cross-cutting flags (records met cluster-thuis nog te bepalen): `vennootschap-groottecategorieen` ([§flag](#vennootschap-groottecategorieen-cross-cutting-flag)).
+
+**Shared records** (leven met meerdere thema's, zichtbaar in meerdere clusters):
+- `coso-framework` [K-techniek] — thema's: `controle-opdracht` + `interne-controle` (audit-perspectief = ISA 315 controle-risico-inschatting; advies-perspectief = IC-design KMO)
+- `cyclus-analyse` [Σ] — thema's: `controle-opdracht` + `interne-controle` (audit-perspectief = bewijswerk per cyclus; advies-perspectief = cyclus-ontwerp)
+- `auditcomite` [E-orgaan] — thema's: `controle-opdracht` + `interne-controle` + `beroepsbeoefening` (schakel bestuur ↔ interne auditor ↔ commissaris)
+- `fraude` [G+K] — al cross-cutting van controle-opdracht-werk
+- `auditrisicomodel` — sub-sectie van `audit-planning` (zichtbaar voor 1.7.V.E via cross-link)
 
 ---
 
@@ -867,6 +876,170 @@ controle-opdracht                       [sub-Kader van audit-en-assurance]
 
 Alle 6 vragen passen in de tree zonder forceren. **Kritische bevestiging**: OP-EC.E (mapping-actie audit-perspectief op Gebeurtenis-records) is geen optionele afronding maar **structureel kritisch** — vr16 + vr19 hangen ervan af. Tree houdt steek alleen als die mapping correct uitgevoerd wordt. Geen structurele gaten ontdekt; geen herziening van cluster-opzet nodig.
 
+### Interne-controle-cluster
+
+Thema: `interne-controle`. *Tweede laag-2 discipline-cluster (sub-Kader van `controle` — discipline hernoemd van `audit-en-assurance` 2026-05-26 om interne controle als 5e sub-Kader te kunnen omvatten). User-keuze: kort `controle` boven `externe-en-interne-controle` of `controle-en-assurance`. Cluster zelf bevat alleen wat IC-eigen is; gedeelde concepten met `controle-opdracht`-cluster leven als **shared records** (zie §Shared records hieronder).*
+
+```
+interne-controle                              [sub-Kader van `controle`]
+├── interne-controle                          [K-techniek, hoofdrecord]
+│   ▸ definitie (1.7.I.A) + 4 doelstellingen (informatie/bescherming/efficiëntie/naleving)
+│   ▸ dubbele dimensie (preventief + detectief — 1.7.III.A)
+│   ▸ inherente beperkingen + kenmerken (1.7.III.B)
+│   ▸ actoren — 3 lines of defense (1.7.IV)
+│   ▸ referentiekaders-overzicht (sub-sectie → cross naar coso-framework + COBIT + ISO 31000)
+│   ▸ afbakening met externe controle / managementcontrole / interne audit (1.7.I.B-D)
+├── ontwerp-interne-controle                  [K-techniek]
+│   ▸ methodologie: proces-mapping → risico-identificatie → controle-selectie → documentatie → uitrol (1.7.VIII.A)
+├── functiescheiding                          [K-techniek]
+│   ▸ 4 onverenigbare functies (autoriseren/uitvoeren/registreren/bewaren — 1.7.VII + VIII.B)
+│   ▸ IT-functiescheiding (RBAC — 1.7.X.C)
+├── it-controles                              [K-techniek]
+│   ▸ ITGC (toegangsbeheer, change management, backup)
+│   ▸ application controls (input/processing/output validaties)
+│   ▸ fysieke beveiliging (1.7.X.B)
+│   ▸ audittrail + logmonitoring (1.7.VIII.E + X.A + X.D)
+├── interne-audit                             [E + K-techniek]
+│   ▸ 3rd line of defense — onafhankelijke beoordelingsfunctie binnen organisatie
+│   ▸ mandaat + functie auditor (1.7.V.A-B)
+│   ▸ rapporteert aan auditcomité
+├── evaluatie-interne-controle                [K-techniek]
+│   ▸ walkthroughs · tests of controls · self-assessments (1.7.VIII.F + XI + XIII)
+│   ▸ design effectiveness vs operating effectiveness
+│   ▸ cross-link naar audit-planning#kennis-entiteit-en-omgeving (gebruikt door externe auditor)
+└── fouten-en-fraude                          [K — lokaal in IC-context]
+    ▸ afbakening fouten (onbedoeld) vs fraude (intentioneel) vs verspilling (1.7.VI.A-C)
+    ▸ fraudedriehoek (druk + gelegenheid + rationalisatie)
+    ▸ cross naar `fraude` Gebeurtenis-record (cross-cutting van controle-opdracht-werk)
+```
+
+**Shared records** (leven cross-cutting met thema's `controle-opdracht` + `interne-controle`; details in §Shared records):
+- `coso-framework` [K-techniek, NIEUW] — 5 COSO-componenten + ERM (geabsorbeerde 5 oude COSO-records)
+- `cyclus-analyse` [Σ, geherbruikt] — 5 cycli (geabsorbeerde 5 oude cyclus-records)
+- `auditcomite` [E-orgaan, geherbruikt] — schakel bestuur ↔ interne auditor ↔ commissaris
+- `fraude` [G+K, al cross-cutting] — fraude als Gebeurtenis
+- `auditrisicomodel` [K, al in audit-planning sub-sectie] — cross-link voor 1.7.V.E
+
+**Cross-cluster** (eigen plek elders, relaties hierheen):
+- `managementcontrole` → `bedrijfseconomie-en-management`-discipline (PO 1.7.I.C contrasteert IC met MC — niet hetzelfde; MC = sturing, IC = beheersing)
+- `antiwitwas-verplichtingen-accountant` → `beroepsbeoefening`-cluster (al ⏳ daar — primair AML-domein PO 4.0)
+- `deontologie-accountant` → `beroepsbeoefening`-cluster
+- `externe-audit-commissaris` → gedekt door `commissaris` (beroepsbeoefening) + `controleopdracht` (controle-opdracht-cluster) — schrappen als zelfstandig record
+- `bijzondere-verslagen-vennootschapsverrichtingen` → al weg-gemapt naar Gebeurtenis-records (Regel J, OP-EC.E mapping-actie)
+
+**Schrappen als zelfstandig record / herleiden tot sub-sectie**:
+- `interne-controle-coso` → samengetrokken met `interne-controle` (hoofdrecord) — verwijst naar `coso-framework` shared record
+- `controle-omgeving-coso` · `controle-activiteiten-coso` · `risico-inschatting-coso` · `informatie-communicatie-coso` · `monitoring-coso` → 5 sub-secties van `coso-framework` (shared)
+- `aankoopcyclus-ic` · `productiecyclus-ic` · `verkoopcyclus-ic` · `hr-cyclus-ic` · `voorraadcyclus-ic` → 5 sub-secties van `cyclus-analyse` (shared)
+- `referentiestelsels-ic` → sub-sectie `interne-controle#referentiekaders` (cross naar `coso-framework`)
+- `controlemaatregelen` → sub-sectie van `coso-framework#controle-activiteiten`
+- `governance-actoren-ic` → opdelen: (a) 3-lines-of-defense in `interne-controle#actoren`; (b) raadcomité-aspecten in `auditcomite`
+- `fouten-en-fraude-cluster` → hernoemd `fouten-en-fraude` (`-cluster`-naam-smell weggewerkt)
+- `it-controles-cluster` → hernoemd `it-controles` (idem naam-smell)
+
+**Triangulatie-resultaten interne-controle** (2026-05-26):
+- 58 PO 1.7-anchors (1 taak + 57 kenniselementen) → **0 PO-only gaps** (1.7.II.A "begrip onderneming" is te abstract om eigen record te zijn, geen content-gap)
+- 28 bestaande records met PO 1.7-anker → **7 records voor cluster zelf** + 3 nieuwe shared (coso-framework, cyclus-analyse, auditcomite) + 5 verhuizingen + 13 geabsorbeerd in sub-secties
+- 28 kandidaten in DB (alle `gerealiseerd: 0` — markering-backlog)
+- 4 smell-clusters opgelost: (1) COSO-versplintering (6 records) → 1 shared K-techniek met 5+1 sub-secties · (2) cyclus-versplintering (6 records) → 1 shared Σ met 5 sub-secties · (3) `-cluster`-naam-smell op 3 records → hernoemd · (4) audit-functies-cluster (5 records) → verhuisd of geconsolideerd
+
+**Bronnen-pin voor cluster**:
+- ✅ `ITAA-norm-intern-kwaliteitsmanagement` (trusted) — ISQM, raakt IC-design
+- ⏳ COSO Internal Control-Integrated Framework (2013) — geen primaire bron in `resources/bronnen/`, te overwegen
+- ⏳ COSO ERM (2017) — idem
+- ⏳ COBIT (IT-governance) — niet kritisch voor examen, overslaan
+- ✅ `ITAA-norm-kmo-controlenorm` (trusted) — bevat IC-evaluatie-eisen voor KMO-controle (cross-relatie controle-opdracht)
+
+**Details per record** (hints voor extractie):
+
+**`interne-controle`** [K-techniek, hoofdrecord]
+- inhoud: definitie (1.7.I.A: "geheel van procedures, gedragsregels en organisatorische maatregelen dat een onderneming opzet om redelijke zekerheid te krijgen over..."); 4 doelstellingen (informatie betrouwbaar · middelen beschermd · werking doeltreffend · wet/regelgeving nageleefd); **dubbele dimensie** (preventief = vooraf voorkomen + detectief = achteraf vaststellen + correctief = herstellen — 1.7.III.A); **inherente beperkingen** (samenspanning, management override, kosten-baten, menselijke factor — 1.7.III.B); **actoren** = 3 lines of defense (1e lijn management/operationeel · 2e lijn risk+compliance = interne controle · 3e lijn interne audit — 1.7.IV). Sub-sectie `#afbakening` met de 3 verwante functies (externe controle, managementcontrole, interne audit — 1.7.I.B-D). Sub-sectie `#referentiekaders` met overzicht (COSO dominantt → cross naar `coso-framework` shared; COBIT voor IT; ISO 31000 voor risicobeheer — 1.7.XII).
+- perspectieven: `advies` (IC-ontwerp bij KMO-cliënt) · `audit` (IC-begrip noodzakelijk voor controle-risico-inschatting via ISA 315)
+- naam_officieel: interne controle / système de contrôle interne · synoniemen: internal control, interne beheersing, controleomgeving, beheersingssysteem
+- relaties: `coso-framework` (shared, primair referentiekader), `cyclus-analyse` (shared, operationele invulling), `controleopdracht` (extern bouwt op IC), `audit-planning` (controle-risico-inschatting via IC-begrip), `interne-audit` (3rd line), `auditcomite` (shared, governance-toezicht)
+
+**`ontwerp-interne-controle`** [K-techniek]
+- inhoud: methodologie voor het opzetten van een IC-systeem in 5 stappen — (1) proces-mapping per cyclus + as-is-analyse; (2) risico-identificatie per processtap; (3) controle-selectie per risico (preventief/detectief, manueel/geautomatiseerd, sleutelcontrole/aanvullend); (4) documentatie in procedures + rolbeschrijvingen + autorisatiematrix; (5) implementatie + training + monitoring. Bevat verwijzing naar COSO-componenten als design-input.
+- perspectieven: `advies` (uitvoering voor cliënt) · `audit` (design-effectiveness-evaluatie)
+- naam_officieel: ontwerp van interne controle · synoniemen: control design, IC-implementatie, control framework design, uitwerking interne controle
+- relaties: `interne-controle` (kader), `coso-framework` (componenten-input), `cyclus-analyse` (per cyclus toepassen), `functiescheiding` (kerntechniek)
+
+**`functiescheiding`** [K-techniek]
+- inhoud: organisatorisch principe — onverenigbare functies door verschillende personen laten uitvoeren om fraude + fouten te beperken. **4 functies** (klassieke ACR-IH-leer): (a) Autoriseren — toestemming geven voor een verrichting; (b) Uitvoeren — de verrichting werkelijk doen; (c) Registreren — boeken in administratie; (d) Bewaren — toegang tot activa/voorraden. Eén persoon mag max 2 niet-aangrenzende functies hebben. **Toepassingen**: aankoopcyclus (besteller ≠ ontvanger ≠ betaler), HR (loonsadministratie ≠ uitbetaling), kassa (registratie ≠ controle). **IT-functiescheiding** (1.7.X.C): RBAC = Role-Based Access Control — rollen + rechten in software splitsen tussen aanvrager/goedkeurder/uitvoerder; voorkomt dat één gebruiker complete transactie kan afwerken zonder externe controle.
+- perspectieven: `advies` (ontwerp bij cliënt) · `audit` (sleutelcontrole testen)
+- naam_officieel: scheiding van functies / segregation of duties · synoniemen: separation of duties, SoD, functie-onverenigbaarheid, rolscheiding, taakverdeling
+- relaties: `interne-controle` (kerntechniek), `ontwerp-interne-controle` (toepassing), `cyclus-analyse` (concrete toepassing per cyclus), `it-controles` (RBAC)
+
+**`it-controles`** [K-techniek]
+- inhoud: digitale controle-architectuur in geautomatiseerde omgevingen. **ITGC** (IT General Controls): toegangsbeheer (user management, password policy, MFA), change management (development → test → productie + segregation), backup + recovery, operations monitoring. **Application controls** (per applicatie ingebouwd): input controls (validaties, mandatory fields, dropdowns), processing controls (totalen, herrekening, edit checks), output controls (rapportering, distributielijsten). **Fysieke beveiliging** (1.7.X.B): datacenters, toegangscontrole servers, milieubeheer (brand/klimaat). **IT-functiescheiding** → cross naar `functiescheiding`. **Audittrail + logmonitoring** (1.7.VIII.E): wie deed wat wanneer, anomalie-detectie, SIEM. **Specifieke risico's** (1.7.X.A): cyberaanvallen, datalekken, systeemuitval, manipulatie geautomatiseerde verwerking, gebrek audit trail.
+- perspectieven: `advies` (IT-controle-ontwerp) · `audit` (IT-bewijs verzamelen — cross naar `audit-bewijs#it-bewijs`)
+- naam_officieel: IT-controles / IT controls · synoniemen: ITGC, IT general controls, application controls, geautomatiseerde controles, cyber internal control
+- relaties: `interne-controle` (component), `functiescheiding` (IT-RBAC-aspect), `audit-bewijs` (cross-cluster — bewijs in IT-omgeving)
+
+**`interne-audit`** [E + K-techniek]
+- inhoud: onafhankelijke + objectieve beoordelingsfunctie binnen de organisatie — **3rd line of defense** (na 1e lijn management + 2e lijn risk/compliance). Toetst of IC + risicobeheer + governance behoorlijk werken. **Mandaat**: vastgelegd in audit charter goedgekeurd door auditcomité; rapporteert aan auditcomité (of bij afwezigheid aan hoogste bestuursorgaan). **Functie auditor** (1.7.V.B): plant audits op risicobasis, voert uit volgens vakinhoudelijke standaarden (IIA-standards), rapporteert bevindingen + remediërings-aanbevelingen, bewaakt objectiviteit (vermijdt operationele beslissingen). **Afbakening**: ≠ externe audit (geen wettelijke assurance over jaarrekening); ≠ compliance (focus op IC-effectiviteit, niet wet-naleving alleen); ≠ interne controle zelf (= 2e lijn).
+- perspectieven: `advies` (functie ontwerpen bij grotere cliënt) · `audit` (externe accountant kan steunen op interne-audit-werk via ISA 610)
+- naam_officieel: interne audit · synoniemen: internal audit, 3rd line of defense, interne auditfunctie, interne controleurs, objectieve interne beoordeling
+- relaties: `interne-controle` (object), `auditcomite` (shared, rapporteringslijn), `controleopdracht` (cross — externe accountant kan steunen via ISA 610), `kwaliteitsmanagement-opdracht` (beroepsbeoefening, parallel concept voor externe-audit-firms)
+
+**`evaluatie-interne-controle`** [K-techniek]
+- inhoud: periodieke beoordeling van IC-opzet + IC-bestaan + IC-werking. **Methodes**: (a) `#walkthrough` — één transactie door cyclus volgen om procedures te verifiëren; (b) `#test-of-controls` — controleren of een sleutel-controle effectief werkt over een periode (sample); (c) `#self-assessment` — process owners beoordelen eigen controles. **Twee dimensies** (ISA 315 + ITAA-KMO §3.x): (a) **design effectiveness** — is de controle voldoende ontworpen om risico te mitigeren? (b) **operating effectiveness** — werkt de controle ook effectief in de praktijk over de hele periode? **Output**: input voor bestuur (welke remediërings-acties) en voor externe auditor (steunen op IC of er rond werken — controle-risico-inschatting). **Cross-link kritisch**: dit is dezelfde activiteit als `audit-planning#kennis-entiteit-en-omgeving` (controle-opdracht-cluster) — verschillende rol (intern voor bestuur vs extern voor audit) maar zelfde mechaniek.
+- perspectieven: `advies` (interne evaluatie + remediëring) · `audit` (externe accountant doet zelfde activiteit voor controle-risico-inschatting)
+- naam_officieel: evaluatie van interne controle / IC-doeltreffendheidstoets · synoniemen: internal control evaluation, control assessment, control self-assessment, operating effectiveness testing, design effectiveness review
+- relaties: `interne-controle` (object), `audit-planning` (cross-cluster — externe accountant doet dit ook), `interne-audit` (uitvoerder), `auditcomite` (rapportering)
+
+**`fouten-en-fraude`** [K — lokaal in IC-context]
+- inhoud: drievoudige afbakening van afwijkingen — (a) **fouten** (1.7.VI.A): onbedoelde afwijkingen door vergissing, onachtzaamheid, gebrek aan kennis; mitigatie via opleiding + duidelijke procedures + IC-validaties; (b) **fraude** (1.7.VI.B): bewust handelen om misleiding te bewerkstelligen met financieel voordeel — **fraudedriehoek** (druk + gelegenheid + rationalisatie) van Cressey; mitigatie via functiescheiding + onafhankelijke controles + ethisch klimaat; (c) **verspilling** (1.7.VI.C): onnodig of inefficiënt gebruik van middelen zonder fout of fraude — mitigatie via budgetdiscipline + efficiency-indicatoren. **Cross-link**: detail fraude (mechaniek, ISA 240, fraud risk factors) zit in `fraude` Gebeurtenis-record (cross-cutting van controle-opdracht-werk); dit IC-record geeft alleen de afbakening + IC-mitigatie-aanpak.
+- perspectieven: `advies` (preventieve maatregelen + bewustwording bij cliënt) · `audit` (fraude-risico-inschatting via ISA 240)
+- naam_officieel: fouten en fraude (en verspilling) · synoniemen: errors and fraud, anomalies, irregularities, intentional vs unintentional misstatements
+- relaties: `fraude` (cross-cutting Gebeurtenis), `interne-controle` (mitigatie-context), `functiescheiding` (preventief), `evaluatie-interne-controle` (detectie), `antiwitwas-verplichtingen-accountant` (cross — fraude raakt AML)
+
+**Open punten interne-controle-cluster**:
+- **OP-IC.A** ⏳ Cluster van COSO en andere frameworks — voorlopig `coso-framework` met sub-sectie `#andere-frameworks` (COBIT, ISO 31000); te valideren tijdens content-uitwerking of COBIT eigen record verdient.
+- **OP-IC.B** ⏳ Naam `cyclus-analyse` (K-techniek) of `bedrijfscycli` (E + R)? Conceptueel: bedrijfscycli = het object, cyclus-analyse = de techniek om ze te onderzoeken. Voor Σ-record met sub-cycli is `bedrijfscycli` mogelijk correcter. Voorlopig: `cyclus-analyse` (huidige naam).
+- **OP-IC.C** `governance-actoren-ic` opdelen tussen `interne-controle#actoren` en `auditcomite` — ✅ beslist 2026-05-26.
+- **OP-IC.D** `interne-audit` in IC-cluster (vs eigen klein cluster) — ✅ beslist 2026-05-26. PO 1.7.I.D + V.A-B plaatsen het hier; technisch is het 3rd line of defense en hoort het bij IC-ecosysteem.
+- **OP-IC.E** Mapping-actie 28 PO 1.7-anker-records → nieuwe cluster-structuur. Werkpunt voor extractie/operatie-fase (parallel aan OP-EC.E voor controle-opdracht-mapping).
+- **OP-IC.F** COSO-bronnen niet als trusted bron geladen (Engelstalig + behoorlijk groot). Beslissing of we COSO Internal Control-Integrated Framework + COSO ERM toevoegen aan `resources/bronnen/normen/` — relevant voor PO 1.7 maar mogelijk niet noodzakelijk voor examen-scope (ITAA-context is leidend).
+
+**Test-case-validatie** (2026-05-26): 6 representatieve PO 1.7-examen-vragen door de tree gevoerd:
+
+| Vraag | Concept | Tree-pad | Resultaat |
+|---|---|---|---|
+| 2013-1-vr8 | 4 elementen IC-definitie noemen | `interne-controle#definitie` + `interne-controle#doelstellingen` | ✅ |
+| 2013-1-vr11 | Belang budget IC-afdeling | `interne-audit#mandaat` (objectiviteit, prioriteitstelling) | ✅ |
+| 2013-1-vr12 | Waarom leveranciersconfirmaties naast boekhouding | `cyclus-analyse#aankoopcyclus` (shared) + `audit-bewijs#externe-bevestiging` (cross-cluster) | ✅ |
+| 2013-1-vr13 | Fraudecasus (cheques/leveranciersschulden/dubbele betalingen) | `fouten-en-fraude` + `functiescheiding` + `cyclus-analyse#aankoopcyclus` + cross `fraude` | ✅ |
+| 2013-2-vr10 | IC-zwakheden bij specifieke proces | `evaluatie-interne-controle` + `coso-framework#controle-activiteiten` (shared) | ✅ |
+| 2013-2-vr12 | Preventieve/repressieve/corrigerende IC-maatregelen | `interne-controle#dubbele-dimensie` + `coso-framework#controle-activiteiten` (shared) | ✅ |
+
+Alle 6 vragen passen zonder forceren. Shared records (`cyclus-analyse`, `coso-framework`, `auditcomite`) bewijzen hun nut — voorkomt duplicatie tussen IC-cluster en controle-opdracht-cluster. Geen structurele gaten.
+
+### Shared records — controle-opdracht ↔ interne-controle
+
+*Records met thema's `controle-opdracht` + `interne-controle` (en eventueel beroepsbeoefening). Leven cross-cutting in beide clusters zichtbaar. Geen duplicatie van inhoud — record bestaat 1×, perspectieven en sub-secties leggen de twee gebruikswijzen vast.*
+
+**`coso-framework`** [K-techniek-Σ, shared] — *absorbeert: `interne-controle-coso`, `controle-omgeving-coso`, `risico-inschatting-coso`, `controle-activiteiten-coso`, `informatie-communicatie-coso`, `monitoring-coso`, `controlemaatregelen`*
+- inhoud: het Committee of Sponsoring Organizations-raamwerk = wereldwijd dominante referentie voor IC-design en IC-evaluatie. **5 geïntegreerde componenten** (COSO IC-IF 2013): (a) `#controle-omgeving` — tone at the top, integriteit + ethische waarden, commitment to competence, board governance, structuur + bevoegdheden, accountability (1.7.II.G + IV); (b) `#risico-inschatting` — risico-identificatie, risico-analyse, fraude-risico-overweging, change management (1.7.XII.F + VIII.A); (c) `#controle-activiteiten` — preventief vs detectief vs correctief; manueel vs geautomatiseerd; sleutelcontrole vs aanvullend (1.7.VIII.C-D + X.D); (d) `#informatie-en-communicatie` — kwaliteit informatie, interne communicatie, externe communicatie (1.7.II.B + II.D); (e) `#monitoring` — ongoing monitoring (in processen ingebouwd) + separate evaluations (interne audit, externe assurance) (1.7.VIII.F + XI). Sub-sectie `#coso-erm-variant` — COSO ERM 2017 verbreedt naar strategie + performance, met risk appetite + risico-portefeuille-aanpak (1.7.XII.E). Sub-sectie `#andere-frameworks` (OP-IC.A): COBIT voor IT-governance; ISO 31000 voor risicobeheer-only.
+- perspectieven: `audit` (controle-risico-inschatting via ISA 315 — externe auditor begrijpt IC via COSO-lens) · `advies` (IC-design KMO + verbeterpunten)
+- naam_officieel: COSO Internal Control-Integrated Framework / COSO IC-IF · synoniemen: COSO 2013, vijf componenten van interne controle, COSO-kubus, COSO-piramide, Internal Control Integrated Framework
+- thema's: `controle-opdracht`, `interne-controle`
+- relaties: `interne-controle` (kerntechniek + referentiekader), `audit-planning` (controle-risico-inschatting via componenten), `evaluatie-interne-controle` (evaluatie-aspect = component "monitoring"), `cyclus-analyse` (controle-activiteiten worden per cyclus toegepast)
+
+**`cyclus-analyse`** [Σ, shared] — *absorbeert: `aankoopcyclus-ic`, `productiecyclus-ic`, `verkoopcyclus-ic`, `hr-cyclus-ic`, `voorraadcyclus-ic`*
+- inhoud: methodische opsplitsing van de bedrijfsvoering in **5 typische cycli** met elk eigen risico's + sleutel-controles + drie-way-matching-patronen. Vergelijkingsmatrix: per cyclus de typische processtappen · risico's · sleutelcontroles · IT-systemen · KPI's. Sub-secties: (a) `#aankoopcyclus` (P2P, procure-to-pay) — behoefte → bestelling → ontvangst → factuur → betaling; sleutel: three-way matching (PO + GR + invoice); risico's: ongeoorloofde aankopen, dubbele betalingen, fictieve leveranciers (1.7.IX.A); (b) `#productiecyclus` — grondstoffen → WIP → afgewerkt product; kostprijsallocatie + voorraad-mutaties; risico's: rendementsverlies, schrootverwerking, foute kostenverdeling (1.7.IX.B); (c) `#verkoopcyclus` (O2C, order-to-cash) — order → kredietcheck → levering → facturatie → inning; risico's: fictieve verkopen, cut-off-fouten, oneigenlijke kortingen; sleutel: prijslijst-discipline + kredietgrenzen (1.7.IX.C); (d) `#hr-cyclus` (hire-to-retire) — aanwerving → contract → loonberekening → uitbetaling → uitdiensttreding; sleutel: functiescheiding payroll-administratie vs uitbetaling; risico's: fictieve werknemers, foute loonparameters (1.7.IX.D); (e) `#voorraadcyclus` — perpetual inventory + periodieke fysieke tellingen; cut-off rond balansdatum; magazijnbeveiliging + bin cards (1.7.IX.E).
+- perspectieven: `audit` (externe auditor controleert per cyclus — substantive testing + tests of controls) · `advies` (cyclus-ontwerp + IC-design per cyclus voor cliënt)
+- naam_officieel: cyclus-analyse / cyclus-aanpak · synoniemen: business cycle analysis, cyclusbenadering, transaction cycles, P2P/O2C/H2R, process cycles
+- thema's: `controle-opdracht`, `interne-controle`
+- relaties: `interne-controle` (operationele invulling), `coso-framework` (controle-activiteiten worden per cyclus toegepast), `functiescheiding` (per cyclus concreet), `audit-bewijs` (cross-cluster — substantive testing per cyclus), `it-controles` (cyclus-specifieke applicatiecontroles)
+
+**`auditcomite`** [E-orgaan, shared]
+- inhoud: gespecialiseerd raadcomité binnen het bestuursorgaan — **toezicht op**: (a) financiële verslaggeving (jaarrekening-kwaliteit, accounting policies, schattingen); (b) interne controle + risicobeheer (IC-effectiviteit, deficiency-remediëring); (c) externe audit (commissaris-benoeming-voorstel, onafhankelijkheid-bewaking, fee-bespreking, KAM-discussie); (d) interne audit (audit charter, plan, key findings). **Samenstelling**: minimum aantal niet-uitvoerende bestuurders met financiële expertise; voorzitter onafhankelijk (1.7.V.D). **Schakel** tussen bestuur ↔ interne auditor ↔ commissaris — driehoek-overleg waarborgt onafhankelijke informatiestromen. **Verplichting**: in België voor beursgenoteerde + bepaalde grote/middelgrote vennootschappen (WVV art X ⚠️); voor andere optioneel maar best practice.
+- perspectieven: `audit` (commissaris communiceert met auditcomité — ISA 260) · `advies` (charter-ontwerp + samenstellings-advies) · `beroep-en-deontologie` (vertrouwelijkheid + onafhankelijkheid-bewaking)
+- naam_officieel: auditcomité · synoniemen: audit committee, audit commissie, toezichtscomité audit, raadcomité financiële verslaggeving, comité voor audit en risico
+- thema's: `controle-opdracht`, `interne-controle`, `beroepsbeoefening`
+- relaties: `interne-audit` (rapporteringslijn), `commissaris` (beroepsbeoefening — externe communicatielijn), `interne-controle` (toezichtsobject), `audit-afronding` (cross — communicatie governance gaat hierheen), `bestuur` (parent-orgaan)
+
 ---
 
 ## Test-cases (per laag-2-uitwerking)
@@ -926,3 +1099,8 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | Bijzondere revisor-verslagen (inbreng-natura, quasi-inbreng, fusie, splitsing, ontbinding, omzetting, kapitaalvermindering-aanzuivering) wonen als `audit`-perspectief in de Gebeurtenis-records zelf; sub-sectie `andere-verslagstypes` in `controleverklaring` voor overzicht + cross-links | Eigen Σ-record `bijzondere-verslagen-vennootschapsverrichtingen` met sub-secties per type | Regel J — verplichting + verslag-inhoud + audit-werk zit bij de Gebeurtenis (één fenomeen × alle dimensies). User-observatie 2026-05-26: "zouden we de wettelijke verplichting niet bij de gebeurtenissen zelf hangen?". Bron-pin staat klaar (ITAA-norm-fusie-splitsing, -ontbinding-vereffening, -omzetting, -effectennorm — alle trusted). Mapping-actie expliciet: 8 Gebeurtenis-records krijgen `audit`-perspectief met revisor-verslag-vereiste — niet uitgesteld, werkpunt voor extractie/operatie-fase. | Analoog: andere wettelijk-vereiste-revisor-verslagen die we later vinden (effecten-uitgifte, omzetting in andere vennootschapsvorm, ...) volgen zelfde principe — verplichting bij het fenomeen, niet bij audit-cluster. |
 | 2026-05-26 | `ITAA-norm-kmo-controlenorm` als hoofdbron-pin voor controle-opdracht-cluster — KMO-norm dekt ratione personae/materiae + onafhankelijkheid + planning + voorbeeldverslagen voor het examen-doelpubliek (KMO-stagiair) | Integrale ISA-standaarden-load als primaire bron | KMO-norm is de Belgische geconcretiseerde norm voor het examen-doelpubliek; ISA's worden er "voor zover van toepassing" doorgegeven. Andere ITAA-normen (algemene-controlenorm, opdrachtbrief, ISRS-4410-samenstelling, intern-kwaliteitsmanagement) vullen aan. Beslissing of integraal-ISA-load nodig is = OP-EC.G voor mapping-fase. | Toekomst: per cluster expliciete bronnen-pin-sectie. Voor PO 1.7 (interne controle) wellicht ander pin (CBN-advies + ITAA-norm-intern-kwaliteitsmanagement); voor PO 2.3 (VenB) wettekstenbundel + circulaires. |
 | 2026-05-26 | Discipline-clusters (laag-2 sub-Kader-uitwerkingen) leven als cluster-secties parallel aan cross-cutting thema-clusters in skelet-doc; compact top-level snapshot blijft cross-cutting-georiënteerd | Discipline-clusters opnemen in compact snapshot (zou snapshot opblazen) | Discipline-clusters volgen vaste laag-1-structuur (ADR-030) en zijn al impliciet zichtbaar in laag-1-Disciplines-blok. Cross-cutting clusters ontstaan rond thema's die door categorie-stammen snijden — die hebben snapshot-zichtbaarheid nodig. Mengen verwart de leeswijzer. | Toekomst: PO 1.7 (`interne-controle` cluster onder audit-en-assurance), PO 2.3 (`vennootschapsbelasting` cluster onder fiscaliteit), etc. volgen zelfde patroon als `controle-opdracht`-cluster. |
+| 2026-05-26 | Discipline `audit-en-assurance` hernoemd naar **`controle`**; `interne-controle` toegevoegd als 5e sub-Kader naast `controle-opdracht` / `beoordelings-opdracht` / `isae-opdrachten` / `overeengekomen-procedures` | Behoud `audit-en-assurance` (4 sub-Kaders, IC elders) of langere naam `externe-en-interne-controle` | "audit-en-assurance" omvatte conceptueel alleen externe assurance-opdrachten; PO 1.7 (interne controle) past daar niet onder (IC = wat de onderneming zelf opzet, geen assurance-opdracht). Maar PO 1.7 raakt audit + IC samen via uitgebreide overlap (auditcomité, COSO, cyclus-analyse, fraude, IC-evaluatie). User-keuze 2026-05-26: kort `controle` boven `externe-en-interne-controle` (volgt minimalistische naam-conventie zoals `boekhouding`, `fiscaliteit`). | Toekomst: andere disciplines mogen analoog hernoemd worden bij sub-Kader-uitbreiding indien naam scope niet meer dekt. |
+| 2026-05-26 | **Shared records** als pattern formeel ingevoerd: records die met meerdere thema's leven en in meerdere clusters zichtbaar zijn (record bestaat 1×, perspectieven/sub-secties leggen verschillende gebruikswijzen vast) | (a) Inhoud dupliceren tussen clusters; (b) Mega-cluster bouwen dat overlap absorbeert (60+ records); (c) Sterke versplintering per PO | User-observatie 2026-05-26: "ik lees toch dat er een grote overlap is met externe controle? valt het dan niet allemaal onder 'controle'?". Overlap PO 1.6 ↔ PO 1.7 is reëel + groot (COSO, cyclus-analyse, fraude, auditcomité, audit-functies). Maar mega-cluster (78 anchors gecombineerd) breekt leeswijzer; aparte clusters met shared records erkent overlap zonder versmelting. Schema-impact: `thema: []` is al lijst, dus shared records leven al; navigatie-tabel in skelet-doc maakt ze expliciet. | Toekomst: andere PO's die elkaar deels overlappen volgen zelfde patroon (bv. PO 2.1 BTW-basisbeginselen + PO 2.7 BTW-controle; PO 1.1 boekhouding + PO 1.4 consolidatie; PO 1.8 boekhoudkundige expertise + PO 1.9 jaarrekening-analyse). |
+| 2026-05-26 | **Anti-versnippering toegepast op PO 1.7**: 6 COSO-component-records → 1 shared `coso-framework` K-techniek met 5+1 sub-secties; 6 cyclus-records → 1 shared `cyclus-analyse` Σ met 5 sub-secties; cluster-eigen records ~7 (28 → 7 cluster + 3 nieuwe shared + 5 verhuizingen + 13 absorpties) | Behoud 28 aparte records of pas alleen kleinere consolidaties toe | Past entry "anti-preventieve-versnippering" toe op concreet werk. PO 1.7.XII.D zegt expliciet "5 geïntegreerde componenten" → bundelen volgt PO-structuur. Cycli zijn klassiek Σ-pattern (5 alternatieven met vergelijkings-/keuze-vraag). User-feedback "veel veel veel logischer": consolidatie werkt. Latere splits per COSO-component of per cyclus blijven mogelijk op didactische gronden. | Voor PO 1.7 specifiek: latere splits-kandidaten zijn `coso-framework#risico-inschatting` (zwaar onderwerp, ook aparte ISO 31000-context) en `cyclus-analyse#hr-cyclus` (overlap payroll-K-techniek bij werknemers-vergoedingen-cluster). Beslissen tijdens content-uitwerking. |
+| 2026-05-26 | `-cluster`-suffix in record-naam = **smell** (schema-artefact, geen conceptnaam). Vermijden in record-id; gebruik thema-tag of skelet-cluster-positionering | Behoud `fouten-en-fraude-cluster`, `it-controles-cluster`, `*-cluster` als record-namen | Record-id moet conceptnaam zijn (`fouten-en-fraude`, `it-controles`), niet duiden op verzamel-aard (`-cluster` doet dat). Verzamel-aard wordt gedragen via tags `[Σ]` of `[K-techniek]` of via cluster-positionering in skelet-doc — niet via record-naam. Naam-smell scan tijdens mapping-fase. | Mapping-actie: scan bestaande 396 records op `-cluster`/`-cluster.json` suffix; hernoemen via `tools/lib/records_api.py rename_record`. |
+| 2026-05-26 | `managementcontrole` verhuist naar `bedrijfseconomie-en-management`-discipline (niet onder `controle`); PO 1.7.I.C contrasteert IC met managementcontrole en plaatst MC pedagogisch in IC-context, maar inhoudelijk is MC sturingsgericht (budget/KPI) ≠ beheersingsgericht (IC) | Behoud `managementcontrole` in interne-controle-cluster (volgt PO 1.7-presentatie) | PO 1.7.I.C is **afbakeningsanchor** ("MC is wat anders dan IC"), geen inhoudelijk MC-anchor. Inhoudelijke MC-stof (budget, kpi, variance, balanced scorecard) hoort in `bedrijfseconomie-en-management`-discipline (laag-1 ⏳). Afbakening blijft als sub-sectie `interne-controle#afbakening` met cross-link. | Analoog: `interne-audit` blijft wel in IC-cluster (anders dan MC) want het is structureel onderdeel van het IC-ecosysteem (3rd line of defense — PO 1.7.IV+V). Afbakening ≠ wegverhuizen. |
