@@ -1545,6 +1545,89 @@ consolidatie                              [cluster, ~8 records — PO 1.4]
 - **OP-BH.C** ⏳ MAR-stelsel-record (Minimum Algemeen Rekeningenstelsel) als zelfstandig record of sub-sectie van `bgaap`/`boekhoudbeginselen`? Voorlopig sub-sectie.
 - **OP-BH.D** ⏳ Per sub-cluster diepe uitwerking nog te doen indien substantieel didactisch werk nodig (vaste-activa-Σ-vergelijkingsmatrix · afschrijvingsmethoden · waardeverminderings-mechaniek).
 
+### Fiscaliteit-discipline — compact cluster-mapping
+
+Thema: `fiscaliteit` (top-discipline laag-1). *Compact-mapping over 8 PO 2.x-blokken (2.1 algemene beginselen + 2.2 PB + 2.3 VenB + 2.4 BTW + 2.5 procedure + 2.6 registratie+successie + 2.7 lokale+regionale + 2.8 internationaal). Veel content al cross-uitgewerkt via thema-clusters (fiscale-voordelen-vennootschap · winstuitkering · werknemers-vergoedingen · anti-misbruik · mobiliteit). Deze sectie identificeert sub-disciplines + bestaande record-volumes.*
+
+#### Sub-disciplines van fiscaliteit
+
+```
+fiscaliteit                               [discipline]
+├── algemene-beginselen-fiscaliteit       [sub-K, cross 2.1 — ~9 records]
+│   ▸ belastingdefinitie · doelfuncties · bronnen + hiërarchie · actoren · indeling
+│   ▸ records: belasting-definitie-en-functies · fiscaal-rechtelijk · fiscale-actoren · fiscale-beginselen · interpretatie-fiscale-wet · indeling-belastingen
+│   ▸ cross naar anti-misbruik (incl. AAMB 2.1.IX.B)
+│
+├── personenbelasting                     [sub-K, PO 2.2 — ~31 records]
+│   ▸ basisbegrippen (rijksinwoner · belastingplichtige · gezinslast)
+│   ▸ inkomenscategorieën (onroerend · roerend · beroepsinkomsten · diverse)
+│   ▸ aftrekken + verminderingen (federaal + gewestelijk)
+│   ▸ aangifte + aanslag
+│   ▸ records cross-vermeld: bedrijfsleidersbezoldiging-pb · beroepsinkomen-pb · beroepskosten-regime-pb · inkomstencategorieen-pb · aangifte-pb · aanslagbiljet-pb · diverse-inkomsten-pb · kadastraal-inkomen · huwelijksquotient
+│   ▸ cross: werknemers-vergoedingen (alle VAA · bedrijfsleidersbezoldiging) · mobiliteit (autokosten-VAA)
+│
+├── vennootschapsbelasting                [sub-K, PO 2.3 — ~34 records]
+│   ▸ belastbare grondslag + correctieronde
+│   ▸ aftrekken (✅ uitgewerkt in `fiscale-voordelen-vennootschap`)
+│   ▸ specifieke regimes (verworpen uitgaven · abnormale + goedgunstige voordelen · bijzondere aanslagen)
+│   ▸ aangifte (Biztax) + tarief + voorafbetalingen
+│   ▸ records cross-vermeld: aangifte-vennootschapsbelasting · abnormale-goedgunstige-voordelen · aftrekbare-beroepskosten-venb · belastbare-grondslag-vennootschapsbelasting · bijzondere-aanslagen-venb
+│   ▸ cross: fiscale-voordelen-vennootschap · winstuitkering · anti-misbruik
+│
+├── btw                                   [sub-K, PO 2.4 — ~34 records]
+│   ▸ BTW-plichtige + categorieën
+│   ▸ leveringen + diensten + IC + invoer/uitvoer
+│   ▸ aftrek + herziening + bedrijfsmiddelen
+│   ▸ tarieven + vrijstellingen
+│   ▸ aangifte + IC-listing + jaarlijkse opgave
+│   ▸ specifieke regelingen: forfait · margeregeling · kleine ondernemingen
+│   ▸ records cross-vermeld: btw-aangifte · btw-aftrek · btw-belastingplichtige · btw-bedrijfswagen · btw-bonnen-vouchers · btw-controle-en-geschillen · btw-eenheid · btw-grensoverschrijdend · btw-herziening-bedrijfsmiddelen · btw-stelsel · btw-tarieven · btw-vastgoed · btw-vrijstellingen
+│   ▸ cross: mobiliteit (btw-bedrijfswagen) · ondernemingsvormen (btw-eenheid)
+│
+├── registratie-en-successierechten       [sub-K, PO 2.6 — ~18 records]
+│   ▸ registratieverplichting + soorten registratierechten
+│   ▸ evenredige rechten (verkoop onroerend goed · schenkingen)
+│   ▸ erfbelasting (Vlaanderen/Wallonië/Brussel gewestelijk)
+│   ▸ vrijstellingen + gunstregimes (gezinswoning · familiale onderneming)
+│   ▸ fictiebepalingen
+│   ▸ records cross-vermeld: aangifte-nalatenschap · erfbelasting + erfbelasting-tarieven-en-vrijstellingen · erfrecht · fictiebepalingen-erfbelasting · gunstregime-familiale-onderneming · huwelijksvermogensrecht
+│   ▸ cross: ondernemingsvormen (maatschap = vermogensplanning) · opsplitsing-eigendom
+│
+└── lokale-en-regionale-belastingen       [sub-K, PO 2.7 — ~18 records]
+    ▸ gewestelijke fiscaliteit (Vlaams + Waals + Brussels)
+    ▸ lokale belastingen (gemeente + provincie)
+    ▸ verkeersbelasting + onroerende voorheffing + opcentiemen
+    ▸ leegstandsheffing · belasting inverkeerstelling
+    ▸ records cross-vermeld: aanvullende-gemeentebelasting-pb · belasting-inverkeerstelling · gemeentebelastingen-sui-generis · gemeentelijke-opcentiemen-onroerende-voorheffing · gewest-fiscaliteit-registratie-en-successie · gewestelijke-belastingverminderingen-pb · gewestelijke-en-lokale-fiscaliteit · leegstandsheffing-bedrijfsruimten · lokale-fiscale-autonomie
+```
+
+#### Cross-cutting fiscale clusters (niet sub-discipline-specifiek)
+
+```
+fiscale-procedure                         [cross-cutting cluster, PO 2.5 — ~16 records]
+   geldt voor PB/VenB/BTW: taxatieprocedure · aangifte · onderzoeksbevoegdheden · bewijsmiddelen · aanslag + termijnen · bezwaar + beroep · sancties + boetes · fiscale bemiddeling
+   records cross-vermeld: aangifteplicht-fiscaal · aanslag-cyclus · aanslagtermijnen-fiscaal · administratieve-boete-fiscaal · beginselen-behoorlijk-bestuur-fiscaal · bezwaarprocedure-fiscaal · fiscale-bemiddelingsprocedure · fiscale-bewijsmiddelen · fiscale-controle · fiscale-procedure-belastingplichtige · fiscale-procedure-pb · fiscale-sancties · fiscale-strafrechtelijke-sanctie · gerechtelijke-fase-fiscaal · invorderingsprocedure-fiscaal · mandaat-accountant-fiscus
+
+internationaal-fiscaal                    [cross-cutting cluster, PO 2.8 — ~30 records]
+   dubbele belasting (oorzaken + vormen + voorkoming via DBV + unilaterale methodes)
+   bilaterale verdragen + OESO-modelverdrag + MLI · EU-recht (fiscale-fusierichtlijn · ATAD · DAC-richtlijnen)
+   transfer-pricing + verrekenprijzen + thin-cap (✅ uitgewerkt in `anti-misbruik`)
+   internationale structurering · CFC · BEPS · Pijler-2-minimumbelasting
+   records cross-vermeld: belasting-niet-inwoners · beps-actieplan · bijzonder-regime-buitenlandse-kaderleden · buitenlandse-winst-en-verlies · dubbelbelastingverdrag · eu-fiscale-richtlijnen · exit-belasting · forfaitair-gedeelte-buitenlandse-belasting · internationaal-fiscaal · internationaal-onroerend-goed · internationale-structurering-vennootschap · mli-instrument · moeder-dochterrichtlijn · onroerende-voorheffing-internationaal · winst-naar-herkomst
+   cross: anti-misbruik (✅ uitgewerkt) · reorganisatie (fiscale-fusierichtlijn)
+```
+
+**Totaaltelling fiscaliteit-discipline**:
+- ~190 records met PO 2.x-anker (incl. cross-records)
+- 5 sub-disciplines + 2 cross-cutting clusters = 7 cluster-eenheden
+- Veel content cross-leeft via thema-clusters (fiscale-voordelen · winstuitkering · werknemers-vergoedingen · mobiliteit · anti-misbruik · reorganisatie)
+- Nieuwe Σ-overzicht-records per sub-discipline kunnen later toegevoegd worden indien didactisch nuttig (bv. `personenbelasting-overzicht` als Σ van inkomenscategorieën)
+
+**Open punten**:
+- **OP-FS.A** ⏳ Per sub-discipline mogelijk eigen Σ-overzicht-record voor inkomenscategorieën (PB) · aftrekken-volgorde (VenB) · BTW-aftrek-keuze · etc. Te beslissen bij PO-specifieke uitwerking.
+- **OP-FS.B** ⏳ `fiscale-procedure` en `internationaal-fiscaal` als cross-cutting clusters apart of als sub-discipline-clusters? Voorlopig cross-cutting (raken alle 4 hoofd-belastingen).
+- **OP-FS.C** ⏳ Sub-discipline-uitwerking per PO blijft TBD — deze compact-mapping is voldoende voor structuur-overzicht; diepe Σ-records per sub-discipline volgen indien didactisch zwaar.
+
 ### Beroepsbeoefening-cluster
 
 Thema: `beroepsbeoefening`. *Thema-cluster onder `beroep-en-deontologie`-discipline. Resulteert uit PO 4.0-werk (2026-05-26). PO 4.0 = "Deontologische beginselen + antiwitwaswetgeving" met dubbele functie: deel I + taken 1-3 = kern (eigen cluster); deel II + taken 4-6 = competentie-overzicht (cross-naar-andere-PO's, geen eigen records). Absorbeert meerdere records die in eerdere cluster-sparring waren voorzien om hier te verhuizen (commissaris-blok, kwaliteitsmanagement, opdrachtbrief, AML).*
