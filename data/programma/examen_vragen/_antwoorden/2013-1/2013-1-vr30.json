@@ -1,0 +1,99 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr30",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a_moeder_dochter",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — de Moeder-dochterrichtlijn (Richtlijn 2011/96/EU) is **niet** van toepassing. De Belgische NV bezit slechts 3 % van het kapitaal van de Hongaarse vennootschap, ruim onder de drempel van 10 % die de richtlijn vereist om als \"moedermaatschappij\" te kwalificeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3, lid 1, a), i) Richtlijn 2011/96/EU: de hoedanigheid van moedermaatschappij wordt toegekend aan een vennootschap die \"een deelneming van ten minste 10 % bezit in het kapitaal van een vennootschap van een andere lidstaat\". Bij 3 % is die voorwaarde niet vervuld, zodat de vrijstelling van bronbelasting op dividenden (art. 5) niet ingeroepen kan worden. 📖",
+          "wetsref": "Richtlijn 2011/96/EU, art. 3, lid 1, a), i) en art. 5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a_interest_royalty",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — de Interest-royaltyrichtlijn (Richtlijn 2003/49/EG) is **niet** van toepassing. De Belgische NV en de Hongaarse vennootschap zijn geen \"verbonden ondernemingen\" in de zin van de richtlijn: een directe deelneming van minstens 25 % is vereist, en hier is er slechts 3 %. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3, b) Richtlijn 2003/49/EG: twee ondernemingen zijn verbonden wanneer (i) de ene rechtstreeks ≥ 25 % in het kapitaal van de andere bezit, (ii) omgekeerd, of (iii) een derde onderneming rechtstreeks ≥ 25 % in beide bezit. Met 3 % rechtstreekse deelneming en een natuurlijke persoon (de schoonbroer) als gemeenschappelijke aandeelhouder — geen onderneming — is geen van de drie verbindingen vervuld. 📖",
+          "wetsref": "Richtlijn 2003/49/EG, art. 3, b) en art. 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "motivatie",
+          "tekst": "**Moeder-dochterrichtlijn (2011/96/EU).** De richtlijn schakelt bronbelasting op grensoverschrijdende dividenden binnen de EU uit, maar enkel binnen een moeder-dochterverhouding zoals omschreven in art. 3. Die verhouding vereist een **minimumdeelneming van 10 % in het kapitaal** (art. 3, lid 1, a), i)). 📖 Bovendien mogen lidstaten een **minimale aanhoudperiode van twee jaar** opleggen (art. 3, lid 2, b)). 📖 De Belgische NV bezit 3 % — onder de drempel — zodat zij niet de hoedanigheid van moedermaatschappij heeft en de vrijstelling van bronbelasting op de in 2012 geïnde dividenden van art. 5 niet kan inroepen. Hongarije mag dus zijn nationale bronheffing toepassen (onverminderd het Belgisch-Hongaars dubbelbelastingverdrag, dat in dit geval de relevante rechtsbron blijft). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Interest-royaltyrichtlijn (2003/49/EG).** Deze richtlijn schakelt bronbelasting uit op uitkeringen van interest en royalty's tussen **verbonden ondernemingen** van verschillende lidstaten (art. 1). 📖 De definitie van \"verbonden onderneming\" in art. 3, b) vereist een **rechtstreekse kapitaaldeelneming van ten minste 25 %** in één van de drie configuraties: top-down, bottom-up of via een gemeenschappelijke moeder-onderneming. 📖 In de casus zijn de twee vennootschappen enkel \"verbonden\" via natuurlijke personen (de cliënt en zijn schoonbroer zijn schoonbroers — geen verbondenheid van ondernemingen) en via een 3 %-deelneming. Geen van beide volstaat. De richtlijn is dus niet van toepassing op de in 2010 toegestane lening en Hongarije mag op de interesten de nationale bronheffing inhouden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De twee richtlijnen hanteren **verschillende drempels** (10 % voor MD, 25 % voor IR) en **verschillende structuurfiguren** (verticale moeder-dochterband versus brede \"verbondenheid\" tussen ondernemingen, ook horizontaal via een gemeenschappelijke moeder). Verbondenheid via natuurlijke personen — zoals een familieband tussen aandeelhouders — telt voor geen van beide. Wanneer een EU-richtlijn niet ingrijpt, valt men terug op het **bilateraal dubbelbelastingverdrag** België-Hongarije om de bronheffing te verminderen of te verrekenen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md",
+            "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Richtlijn 2011/96/EU (Moeder-dochterrichtlijn), art. 3, lid 1, a), i) (drempel 10 %) + art. 5 (vrijstelling bronbelasting op uitgekeerde winst). Richtlijn 2003/49/EG (Interest-royaltyrichtlijn), art. 1 (afschaffing bronbelasting), art. 2 (definitie interest en royalty's) en art. 3, b) (drempel 25 % verbondenheid tussen ondernemingen). 📖",
+          "wetsref": "Richtlijn 2011/96/EU, art. 3 + art. 5; Richtlijn 2003/49/EG, art. 1, art. 2, art. 3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md",
+            "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrH2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De fiscus mag de belastbare grondslag ramen volgens **tekenen en indiciën** wanneer hij beschikt over **vaststellingen die wijzen op een hogere graad van gegoedheid** (uitgaven, levensstandaard, vermogensaanwas) dan blijkt uit het aangegeven inkomen — voor zowel natuurlijke personen als rechtspersonen, en **behoudens tegenbewijs** door de belastingplichtige. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concreet zijn de toepassingsvoorwaarden:\n\n- **Tekenen of indiciën van gegoedheid**: feitelijke vaststellingen van uitgaven, beleggingen, aankopen of een levensstandaard die een bepaald inkomen veronderstellen (bv. vastgoedaankoop, dure wagen, kapitaalinjecties, kasuitgaven). 🔗\n- **Discrepantie met het aangegeven inkomen**: uit die elementen blijkt een **hogere graad van gegoedheid** dan uit het aangegeven netto belastbaar inkomen — typisch becijferd via een **indiciaire afrekening / vermogensvergelijking** (uitgaven + vermogensaanwas vergeleken met aangegeven netto-inkomen + bekende niet-belastbare middelen). 🔗\n- **Geldt voor natuurlijke personen én rechtspersonen**: art. 341 WIB92 is uitdrukkelijk op beide categorieën van toepassing. 📖\n- **Behoudens tegenbewijs**: de belastingplichtige kan het vermoeden weerleggen door de **oorsprong van de gelden** aan te tonen (bv. spaarreserves uit vorige jaren, leningen, schenkingen, erfenissen, verkoop van onroerend of roerend goed, niet-belastbare inkomsten). 📖\n- **Bewijslast bij verkoop van financiële instrumenten**: aankoop- of verkoopborderellen hebben slechts bewijskracht als ze de vermelding **\"op naam\"** dragen en op naam van de belastingplichtige (of degene wiens rechthebbende hij is) zijn opgesteld. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De indiciaire taxatie is een **wettelijk vermoeden** ten gunste van de fiscus (art. 341 WIB92), géén ambtshalve aanslag. De administratie moet de tekenen en indiciën **feitelijk aantonen** (concrete, controleerbare elementen — geen loutere veronderstellingen); pas daarna kantelt de bewijslast naar de belastingplichtige. Tegenbewijs hoeft geen wiskundige zekerheid te bieden, maar moet de **oorsprong van de aangewende middelen** geloofwaardig staven. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 341 WIB92: \"Behoudens tegenbewijs mag de raming van de belastbare grondslag, zowel voor rechtspersonen als voor natuurlijke personen, worden gedaan volgens tekenen en indiciën waaruit een hogere graad van gegoedheid blijkt dan uit de aangegeven inkomsten.\" 📖",
+          "wetsref": "Art. 341 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

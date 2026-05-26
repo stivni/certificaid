@@ -1,0 +1,95 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr47",
+  "antwoord_datum": "2026-05-26T16:50:27Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Vrijdag 20 juni 2014** (optie b). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Mevrouw Martin overleed op 20 februari 2014 in België (Waals Gewest). Voor een overlijden in het Rijk geldt een aangiftetermijn van **vier maanden** vanaf de datum van overlijden 📖. Plaats van overlijden is voor de termijn niet relevant; bevoegd gewest = gewest van de fiscale woonplaats (Vlaanderen) 🔗. 20/02/2014 + 4 maanden = **20/06/2014** (vrijdag) 🔗. Opties a (22/07) en c (20/08) gaan uit van een onjuiste termijn van vijf of zes maanden ❌.",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 40, lid 1 W.Succ.: \"De termijn voor de [verzending] van de aangifte van nalatenschap is **vier maand**, te rekenen van de datum van het overlijden, wanneer dit zich in het Rijk heeft voorgedaan; vijf maand [...] in een ander land van Europa, en zes maand [...] buiten Europa.\" 📖",
+          "confidence": "geciteerd",
+          "wetsref": "art. 40 W.Succ.",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Actief = 0 EUR — geen passief** (optie d). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Op de overlijdensdatum (20/02/2014) was de **opschortende voorwaarde nog niet vervuld**: de aankoopverplichting bestond nog niet definitief en de aandelen behoorden niet tot het vermogen van de erflater 🔗. Bijgevolg is er op die datum **geen actief** (geen aandelen, geen vordering) **en geen passief** (geen vaststaande schuld tot betaling van 17.000 EUR) ten laste van de nalatenschap 🔗. Het ereloon van de accountant (2.420 EUR) is geen aannemelijk passief: art. 27 W.Succ. laat enkel **schulden bestaand op de dag van overlijden** en **begrafeniskosten** toe — een post-mortem ereloon valt daar niet onder 📖. Opties a/b/c zijn fout: zij rekenen de aandelen (a: aankoopprijs, b/c: latere verkoopprijs) of het ereloon mee, terwijl die op de aangiftedatum (binnen termijn a) nog buiten de nalatenschap vielen ❌.",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — Toen de voorwaarde later wél vervuld werd (9 juli 2014, dus ná het overlijden maar binnen redelijke termijn), moet een **nieuwe aangifte** worden ingediend voor het bijgekomen actief (de aandelen) en het bijhorende passief (de aankoopprijs van 17.000 EUR), met als belastbare grondslag de waarde op het ogenblik van de vervulling. De latere meerwaarde (verkoop aan 22.500 EUR) is een verrichting **na** de nalatenschap en valt buiten de erfbelasting 🔗.",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 27 W.Succ.: \"Als aannemelijk passief [...] gelden slechts: 1° de op de dag van zijn overlijden bestaande schulden van de overledene; 2° de begrafeniskosten.\" 📖 — Art. 37, 2°-4° en art. 40, lid 4 W.Succ. voorzien een **nieuwe aangifte** bij het intreden van een opschortende voorwaarde na overlijden 🔗.",
+          "confidence": "geciteerd",
+          "wetsref": "art. 27 + art. 37, 2°-4° W.Succ.",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Woensdag 20 augustus 2014** (optie b). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De betaling van de successierechten geschiedt binnen **twee maanden na het verstrijken van de aangiftetermijn van art. 40** 📖. Aangiftetermijn verstrijkt op 20/06/2014 (zie deelvraag a); + 2 maanden = **20/08/2014** (woensdag) 🔗. Opties a (22/07: te vroeg, lijkt 5-maanden-termijn zonder betalingstermijn) en c (22/09: rekent vermoedelijk vanaf de fictief verlengde aangiftetermijn) zijn fout ❌.",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 77 W.Succ.: \"De betaling van de rechten van successie [...] geschiedt binnen de **twee maanden na de dag waarop de bij artikel 40 gestelde termijn verstreken is**. Valt de laatste dag op een sluitingsdag van de kantoren, dan wordt deze termijn verlengd tot de eerste openingsdag [...].\" 📖",
+          "confidence": "geciteerd",
+          "wetsref": "art. 77 W.Succ.",
+          "bron_refs": ["resources/bronnen/wetteksten/Successierechten-federaal.md"]
+        }
+      ]
+    }
+  ]
+}

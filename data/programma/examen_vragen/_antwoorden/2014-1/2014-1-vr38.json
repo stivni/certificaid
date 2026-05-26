@@ -1,0 +1,89 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr38",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "Beoordeling per scenario:\n\n| # | Scenario | Antwoord |\n|---|---|---|\n| 1 | Uitsluitend op de in België verwezenlijkte winsten, volgens de Belgische fusieregels | **Ja** 🔗 |\n| 2 | Op de winsten van de Duitse overnemende vennootschap, ongeacht waar verwezenlijkt (B of D) | **Neen** 🔗 |\n| 3 | Op de winsten van de Duitse overnemende vennootschap die in Duitsland worden verwezenlijkt | **Neen** 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Kernidee: de Fusierichtlijn dwingt **België als lidstaat van de inbrengende vennootschap** om zijn binnenlandse regels inzake verliesovername toe te passen op de **Belgische vaste inrichting** van de Duitse overnemende vennootschap die na de fusie ontstaat. De verliezen blijven dus 'gevangen' op Belgisch grondgebied — ze kunnen enkel worden afgezet tegen winsten van die Belgische vaste inrichting (Belgisch heffingsbevoegdheidsgebied), volgens de Belgische fusieregels. 🔗\n\n- **Scenario 1 — Ja**: dit is precies het mechanisme van art. 6 Richtlijn 2009/133/EG: de verliesovername gebeurt onder de Belgische regels (art. 206, §2 WIB92 — fusieneutraliteit + verliesbeperking pro rata fiscaal netto-actief), maar enkel ten belope van de winsten gerealiseerd door de Belgische vaste inrichting van de Duitse overnemer. 🔗\n- **Scenario 2 — Neen**: de Duitse winst van de overnemer valt buiten de Belgische fiscale jurisdictie; België mag haar verliezen niet 'meegeven' naar Duitsland. De richtlijn vereist alleen dat verliezen op Belgisch grondgebied bruikbaar blijven. 🔗\n- **Scenario 3 — Neen**: idem — Duits-bronwinst kan niet door Belgische verliezen worden afgezet. Duitsland is bovendien niet verplicht deze Belgische verliezen te aanvaarden (territorialiteitsbeginsel). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het scenario veronderstelt dat de fusie in België een **vaste inrichting** doet ontstaan waaraan de activa/passiva van de gefusioneerde Belgische vennootschap worden toegerekend. Zonder zo'n Belgische vaste inrichting na fusie zijn de Belgische verliezen **definitief verloren** — art. 6 vereist niet dat de andere lidstaat een PE aanvaardt, het verplicht enkel de lidstaat van de inbrengende vennootschap zijn eigen verliesregels uit te breiden naar de PE indien die bestaat. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 6 Richtlijn 2009/133/EG**: \"Voor zover de lidstaat van de inbrengende vennootschap, indien de in artikel 1, onder a), bedoelde rechtshandelingen verricht werden tussen op zijn grondgebied gevestigde vennootschappen, bepalingen zou toepassen die de ontvangende vennootschap in staat stellen de fiscaal nog niet verrekende verliezen van de inbrengende vennootschap over te nemen, breidt die lidstaat deze bepalingen uit tot de overname van zulke verliezen door de vaste inrichtingen van de ontvangende vennootschap, die zich op zijn grondgebied bevinden.\" 📖\n\nBelgische uitvoeringsbepaling: art. 206, §2 WIB92 (overname recupereerbare verliezen bij fusie pro rata fiscaal netto-actief). 🔗",
+          "wetsref": "Art. 6 Richtlijn 2009/133/EG; art. 206, §2 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Toepasselijke bepaling: **art. 6 van Richtlijn 2009/133/EG** (overname van fiscaal nog niet verrekende verliezen bij grensoverschrijdende fusie). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Beginsel — fiscale neutraliteit binnen de bronstaat**: de Fusierichtlijn beoogt grensoverschrijdende fusies fiscaal even neutraal te behandelen als interne fusies, maar respecteert tegelijk de **territorialiteit van de heffingsbevoegdheid**. Verliezen ontstaan onder Belgische jurisdictie blijven verbonden aan Belgisch belastbaar resultaat. 🔗\n\n**Mechanisme van art. 6** (twee cumulatieve voorwaarden):\n1. **België moet voor zuiver-binnenlandse fusies** een verliesovername-regime toelaten (cf. art. 206, §2 WIB92 — herstructureringsneutraliteit met pro-rata-beperking op basis van fiscaal netto-actief). 🔗\n2. **Bij grensoverschrijdende fusie** is België verplicht datzelfde regime uit te breiden naar de **Belgische vaste inrichting** van de Duitse overnemende vennootschap — als die hier door de fusie ontstaat. 📖\n\n**Gevolg**: de fiscale verliezen volgen het Belgisch belastbaar substraat, niet de zetel van de overnemer. Ze kunnen dus uitsluitend benut worden tegen Belgische winsten van de Belgische vaste inrichting, volgens de Belgische fusieregels (scenario 1 = Ja). De richtlijn geeft geen aanspraak op verliesoverdracht naar Duitsland (scenario's 2 en 3 = Neen) — Duitsland mag, maar moet niet, deze verliezen toelaten op grond van het eigen recht (in de praktijk doet Duitsland dat niet, want § 8c KStG / territorialiteitsbeginsel). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Spiegelbepaling: **art. 10 Richtlijn 2009/133/EG** regelt het omgekeerde geval — verliezen van een buitenlandse vaste inrichting van de Belgische inbrengende vennootschap. Daar mag België de eerder afgetrokken verliezen van de PE 'recapture' bij overdracht. Samen vormen art. 6 + art. 10 het closed system: verliezen blijven gekoppeld aan de jurisdictie waar de winst belastbaar was. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Richtlijn 2009/133/EG van de Raad van 19 oktober 2009** betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie):\n\n- **Art. 6** — verplichting voor de lidstaat van de inbrengende vennootschap om zijn verliesovername-regels uit te breiden naar vaste inrichtingen van de ontvangende vennootschap op zijn grondgebied. 📖\n- **Art. 1, a)** — toepassingsgebied: fusies waarbij vennootschappen van twee of meer lidstaten betrokken zijn. 📖\n\nBelgische uitvoeringsbepaling: **art. 206, §2 WIB92** (overname verrekenbare verliezen pro rata fiscaal netto-actief bij fusie). 🔗",
+          "wetsref": "Art. 1, a) en art. 6 Richtlijn 2009/133/EG; art. 206, §2 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

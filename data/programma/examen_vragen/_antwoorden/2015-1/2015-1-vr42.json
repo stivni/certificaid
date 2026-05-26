@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr42",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — Ja, de administratie kan nog taxeren. Op grond van **art. 358 §1, 2° WIB92** beschikt zij over een **bijzondere aanslagtermijn van 24 maanden** te rekenen vanaf de datum waarop de Belgische administratie kennis kreeg van de bewijskrachtige gegevens die een buitenlandse belastingadministratie (waarmee België een dubbelbelastingverdrag heeft gesloten) haar verstrekte. De inlichtingen kwamen 18 maanden geleden binnen → de 24-maandentermijn loopt nog. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Kern van de redenering** — voor een aanslagjaar 4 jaar terug zijn de **gewone** termijn (3 jaar, art. 354 lid 1 WIB92) en in beginsel ook de **verlengde** termijn (destijds 7 jaar bij aanwijzingen van fraude, art. 354 lid 2 WIB92) niet zonder meer beslissend voor deze casus — de feiten geven een **autonome triggergrond**: bewijskrachtige inlichtingen uit het buitenland via een verdragsmechanisme. Daarvoor opent **art. 358 §1, 2° WIB92** een aparte 24-maandentermijn die loopt vanaf de **kennisname door de Belgische administratie** van die resultaten (niet vanaf 1 januari van het aanslagjaar). 🔗 De 18 maanden sinds ontvangst < 24 maanden → de aanslag kan nog rechtsgeldig worden gevestigd. 🔗\n\n**Per optie**:\n- **a** — Correcte termijn (24 maanden) én correct aanvangspunt (kennisname door de Belgische administratie). JUIST. 🔗\n- **b** — Verwart de bijzondere termijn met 12 maanden. FOUT: art. 358 §1, 2° WIB92 spreekt van 24 maanden. 🔗\n- **c** — \"Alle taxatietermijnen verstreken\" miskent dat art. 358 een **autonome** bijzondere termijn opent, los van de gewone/verlengde termijnen van art. 354. FOUT. 🔗\n- **d** — Steunt op het idee dat na de driejarige of zevenjarige aanslagtermijn niets meer kan. FOUT: art. 358 WIB92 doorbreekt precies die regel voor de daar genoemde gevallen (o.a. inlichtingen uit het buitenland in het kader van een verdrag). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Twee aanvangspunten niet verwarren**. De gewone en verlengde aanslagtermijnen (art. 354 WIB92) lopen vanaf **1 januari van het aanslagjaar**. De bijzondere termijn van art. 358 §1, 2° WIB92 loopt daarentegen vanaf de **kennisname door de Belgische administratie** van de buitenlandse inlichtingen — een trigger-gebonden startpunt. Wie de termijnen optelt vanaf 1 januari van het AJ komt op het verkeerde antwoord (c of d). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 358 §1, 2° WIB92** — de belasting of de aanvullende belasting mag worden gevestigd, zelfs na het verstrijken van de termijnen van art. 354, wanneer een controle of een onderzoek door een **buitenlandse bevoegde autoriteit** waarmee België een **overeenkomst tot voorkoming van dubbele belasting** heeft gesloten, uitwijst dat belastbare inkomsten niet werden aangegeven in de loop van een van de **vijf jaar** vóór dat waarin de resultaten ter kennis van de Belgische administratie zijn gebracht. 📖 **Art. 358 §2 WIB92** — die aanslag moet worden gevestigd binnen **24 maanden** te rekenen vanaf de datum waarop de Belgische administratie kennis kreeg van die resultaten. 📖",
+          "wetsref": "Art. 358 §1, 2° + §2 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

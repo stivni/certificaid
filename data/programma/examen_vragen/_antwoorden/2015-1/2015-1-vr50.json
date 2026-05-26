@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr50",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Nee.** Richtlijn 2009/133/EG is niet van toepassing op deze verrichting: noch de overnemende ivzw, noch de over te nemen Spaanse caritatieve vzw kwalificeert als \"vennootschap van een lidstaat\" in de zin van art. 3 van de richtlijn. De vrijstelling van belasting over de meerwaarden op de Spaanse onroerende goederen kan dus niet op grond van deze richtlijn worden ingeroepen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 3 van richtlijn 2009/133/EG omschrijft \"vennootschap van een lidstaat\" via **drie cumulatieve voorwaarden**:\n\n- (a) een **rechtsvorm vermeld in bijlage I, deel A** (lijst van vennootschapsvormen per lidstaat — NV/SA, BV/SRL, CV/SC, SE, SCE, enz.); 📖\n- (b) fiscale **woonplaats in een lidstaat** (en niet, op grond van een dubbelbelastingverdrag met een derde land, geacht buiten de EU gevestigd te zijn); 📖\n- (c) **onderworpen aan een vennootschapsbelasting** uit de lijst in bijlage I, deel B (voor België: vennootschapsbelasting / impôt des sociétés; voor Spanje: impuesto sobre sociedades), zonder keuzemogelijkheid en zonder vrijstelling. 📖\n\n**Toepassing op de casus**:\n\n- De **ivzw naar Belgisch recht** is een *vereniging* (boek 10 WVV), geen vennootschap. Haar rechtsvorm staat **niet** in bijlage I, deel A. Bovendien is een ivzw in de regel onderworpen aan de **rechtspersonenbelasting** (art. 220 WIB 92), niet aan de vennootschapsbelasting vermeld in bijlage I, deel B — voorwaarde (c) faalt dus eveneens. 🔗\n- De **caritatieve vzw naar Spaans recht** is evenmin een in bijlage I, deel A genoemde rechtsvorm en is als non-profit doorgaans niet onderworpen aan de Spaanse impuesto sobre sociedades op de wijze die de richtlijn vereist. 🔗\n\nDoordat aan minstens twee van de drie cumulatieve voorwaarden van art. 3 niet is voldaan, valt de verrichting **buiten het toepassingsgebied** van de richtlijn. De fiscale neutraliteit (uitstel van belastingheffing over meerwaarden op overgedragen activa, zoals de Spaanse onroerende goederen) kan niet op de richtlijn worden gestoeld; de Spaanse interne fiscale wet bepaalt dan of er belasting verschuldigd is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een herstructurering tussen een ivzw en een buitenlandse vzw is op het **vennootschapsrechtelijke** vlak wél mogelijk via boek 13 WVV (fusies/splitsingen van VZW's, IVZW's en stichtingen — zie CBN-advies 2022/13), maar dat **vennootschapsrechtelijke** kader staat los van het **fiscale** kader. De EU-fusierichtlijn 2009/133/EG dekt enkel verrichtingen tussen *kapitaalvennootschappen* uit de bijlage en zwijgt over verenigingen — er is op EU-niveau geen equivalente fiscale-neutraliteitsrichtlijn voor non-profit-herstructureringen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-13-boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen.md",
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009, **art. 3** (definitie \"vennootschap van een lidstaat\" — drie cumulatieve voorwaarden a/b/c) en **bijlage I, deel A** (limitatieve lijst van rechtsvormen — kapitaalvennootschappen, SE, SCE; geen verenigingen) en **bijlage I, deel B** (limitatieve lijst van vennootschapsbelastingen — voor België: vennootschapsbelasting; voor Spanje: impuesto sobre sociedades). Voor de Belgische fiscale behandeling van een ivzw: art. 220 WIB 92 (rechtspersonenbelasting). 📖",
+          "wetsref": "Richtlijn 2009/133/EG art. 3 + bijlage I deel A en B",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr31",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De Luxemburgse interesten **moeten** aangegeven worden bij de roerende inkomsten in de aangifte personenbelasting AJ 2014 (geen bevrijdende roerende voorheffing — die geldt enkel voor inkomsten waarop in België RV werd ingehouden). 🔗 De ingehouden \"Woonstaatheffing\" (35 % in 2013) wordt vermeld in het daarvoor bestemde vak en is **volledig verrekenbaar** met de Belgische personenbelasting; het eventuele overschot wordt **terugbetaald of overgedragen**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Redenering in drie stappen**:\n\n1. **Aangifteplicht** — Art. 313 WIB92: een rijksinwoner moet roerende inkomsten enkel níet aangeven wanneer er in België daadwerkelijk bevrijdende RV werd ingehouden. De Luxemburgse bank houdt geen Belgische RV in, dus de bruto-interesten moeten worden opgenomen in de aangifte (vak VII — inkomsten van kapitalen). 📖\n2. **Belastingtarief** — De aangegeven buitenlandse interesten worden in 2013 afzonderlijk belast tegen 25 % (art. 171, 2°ter WIB92, tarief inkomsten 2013), te verhogen met de aanvullende gemeentebelasting. 🔗\n3. **Verrekening van de woonstaatheffing** — Onder de Spaarrenterichtlijn 2003/48/EG (in voege tot 2015) hield Luxemburg, dat overgangsregeling met bronheffing toepaste, in 2013 een woonstaatheffing van **35 %** in en stortte 75 % daarvan door naar België; voor de spaarder is de heffing volledig verrekenbaar met de Belgische belasting **en bij overschot terugbetaalbaar** (art. 14 Richtlijn 2003/48/EG, omgezet in art. 22ter WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De \"Woonstaatheffing\" is **geen** klassieke buitenlandse bronheffing waarop het beperkte FBB (forfaitair gedeelte van buitenlandse belasting, art. 285 WIB92) van toepassing is, en evenmin de bronstaatheffing van het BE-LUX-dubbelbelastingverdrag (art. 11 DBV — 15 % bronstaatheffing op interesten). Het is een **richtlijn-specifieke** heffing met een eigen verrekenregime (art. 14 Spaarrenterichtlijn): **volledige verrekening + terugbetaling van het overschot**, los van enig DBV-tarief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 313 WIB92 (aangifteplicht roerende inkomsten zonder Belgische RV). 📖 Art. 171, 2°ter WIB92 (25 % afzonderlijk tarief op interesten in 2013). 🔗 Richtlijn 2003/48/EG (Spaarrenterichtlijn) art. 11 (35 % bronheffing in overgangsregeling vanaf 1.7.2011) en art. 14 (verrekening + terugbetaling overschot in woonstaat). 🔗",
+          "wetsref": "Art. 313 WIB92; art. 171 2°ter WIB92; art. 11 en 14 Richtlijn 2003/48/EG",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja.** Het overschot van de woonstaatheffing ten opzichte van de verschuldigde Belgische personenbelasting wordt in België **terugbetaald** (of, naar keuze van de belastingplichtige, verrekend met andere belastingschulden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 14 van de Spaarrenterichtlijn 2003/48/EG verplicht de woonstaat (België) om de in een andere lidstaat ingehouden bronheffing **volledig** te verrekenen met de eigen belasting op die interesten. Als die bronheffing (35 % op het bruto-bedrag) hoger is dan de Belgische belasting (25 % afzonderlijk tarief + aanvullende gemeentebelasting), is België verplicht het **verschil terug te betalen of te verrekenen** met andere fiscale schulden. Dit onderscheidt de woonstaatheffing van het gewone FBB van art. 285 WIB92, dat enkel verrekening tot beloop van de Belgische belasting toestaat zonder teruggave. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Sinds 1 januari 2015 past Luxemburg de uitwisseling van gegevens toe in plaats van de bronheffing; de Spaarrenterichtlijn 2003/48/EG werd ingetrokken door Richtlijn 2015/2060/EU en vervangen door de DAC2-richtlijn (automatische uitwisseling van financiële gegevens). Voor inkomsten 2013 (de vraag) gold echter nog **wél** de bronheffing van 35 % met verrekening en terugbetaling — een regime dat dus enkel voor historische aanslagjaren (tot AJ 2015) nog relevant kan zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14, lid 2 en 3 Richtlijn 2003/48/EG (Spaarrenterichtlijn): de woonstaat verleent een belastingkrediet gelijk aan de in de bronstaat ingehouden heffing; indien dit krediet hoger is dan de verschuldigde belasting, **betaalt de woonstaat het verschil terug** aan de uiteindelijk gerechtigde. 📖 Omgezet in Belgisch recht via art. 22ter WIB92 (intussen opgeheven na intrekking richtlijn).",
+          "wetsref": "Art. 14 Richtlijn 2003/48/EG; art. 22ter WIB92 (oud)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

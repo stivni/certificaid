@@ -1,0 +1,210 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr49",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar**. Nationaliteit is in de tie-breaker van art. 4, § 2 OESO-modelverdrag pas het **derde** criterium (c), niet het eerste. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor een natuurlijke persoon met dubbele woonplaats voorziet art. 4, § 2 een **cascade**: (a) staat met duurzaam tehuis; (b) staat van middelpunt der levensbelangen; (c) staat van gewoonlijk verblijf; (d) staat van nationaliteit; en pas daarna onderling overleg. 📖 Nationaliteit komt dus enkel in beeld als de eerste drie criteria geen uitsluitsel geven — \"steeds\" en \"zonder andere criteria\" maakt de stelling fout. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4, § 2 OESO-modelverdrag (Resident — tie-breaker voor natuurlijke personen): cascade duurzaam tehuis → middelpunt der levensbelangen → gewoonlijk verblijf → nationaliteit → onderling overleg. 📖",
+          "wetsref": "Art. 4, § 2 OESO-modelverdrag",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar**. Een overheidspensioen aan een persoon met de **Belgische** nationaliteit blijft op grond van art. 19, § 2, a) OESO-modelverdrag belastbaar in België (de bronstaat). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 19, § 2, a) wijst overheidspensioenen voor vroegere overheidsdienst exclusief toe aan de bronstaat (de uitbetalende staat). 📖 De uitzondering in § 2, b) — belastbaar in de woonstaat — geldt **enkel** wanneer de gepensioneerde tegelijk **inwoner én onderdaan** is van die andere staat. 📖 De casus zegt uitdrukkelijk dat de betrokkene de **Belgische** nationaliteit heeft, dus de uitzondering bijt niet en België behoudt de heffingsbevoegdheid — ongeacht het feit dat hij inwoner is geworden van een verdragsland. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 19, § 2 OESO-modelverdrag (Government Service — pensioenen): bronstaatheffing als hoofdregel; woonstaatheffing enkel als de begunstigde *resident is of, and a national of* de andere staat. Art. 18 (privé-pensioenen, exclusief woonstaat) is hier uitdrukkelijk niet van toepassing wegens de \"subject to the provisions of paragraph 2 of Article 19\"-clausule. 📖",
+          "wetsref": "Art. 19, § 2 OESO-modelverdrag (juncto art. 18)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar**. Een steengroeve is op grond van art. 5, § 2, f) OESO-modelverdrag **per definitie** een vaste inrichting — er geldt geen duur-vereiste van 6 maanden (noch van 12 maanden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 5, § 2 noemt expliciet als voorbeelden van een vaste inrichting onder meer \"a mine, an oil or gas well, a **quarry** or any other place of extraction of natural resources\". 📖 Voor een steengroeve volstaat dus het bestaan van een vaste bedrijfsinrichting voor de winning — een minimumduur staat niet in de tekst. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **art. 5, § 3**: daar geldt wél een drempel, namelijk **12 maanden**, maar enkel voor *bouw- of constructie- of installatieprojecten* (\"building site or construction or installation project\"). 📖 Een steengroeve is een extractieplaats (§ 2, f)), geen bouwwerf (§ 3) — de stelling verwart bovendien de termijn (6 ≠ 12 maanden). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 5, § 2, f) OESO-modelverdrag: \"a mine, an oil or gas well, a quarry or any other place of extraction of natural resources\" is een vaste inrichting. Art. 5, § 3: bouw-/installatieprojecten worden pas een vaste inrichting bij meer dan 12 maanden. 📖",
+          "wetsref": "Art. 5, § 2, f) en § 3 OESO-modelverdrag",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar**. Het OESO-modelverdrag in deze context is het *Model Tax Convention on **Income and on Capital*** — het dekt inkomsten- en vermogensbelasting, niet successierechten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het toepassingsgebied (art. 2 OESO-modelverdrag) somt limitatief de belastingen op naar inkomen en vermogen waarop het verdrag van toepassing is. 🔗 Voor successie- en schenkrechten bestaat een **afzonderlijk** OESO-modelverdrag — het *Model Convention for the Avoidance of Double Taxation with Respect to Taxes on Estates and Inheritances and on Gifts* (1982). 🤖 De DBV's die België sluit naar het inkomstenmodel gelden dus niet voor successierechten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "OESO-modelverdrag — volledige titel: *Model Tax Convention on Income and on Capital* (Condensed Version 21 November 2017). Materieel toepassingsgebied: belastingen naar inkomen en naar vermogen (art. 2). Successie- en schenkrechten vallen onder een afzonderlijk OESO-model (1982). 📖",
+          "wetsref": "Art. 2 OESO-modelverdrag (Income and Capital)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar**. Onroerende inkomsten **mogen** worden belast in de bronstaat (ligging-staat) — niet uitsluitend. De woonstaat behoudt eveneens heffingsbevoegdheid en vermijdt dubbele belasting via art. 23A/B. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 6, § 1 luidt: \"Income derived by a resident of a Contracting State from immovable property … situated in the other Contracting State **may be taxed** in that other State.\" 📖 De formulering \"may be taxed\" is **niet-exclusief**: ze geeft de bronstaat een heffingsrecht, maar sluit het heffingsrecht van de woonstaat niet uit. 🔗 Vergelijk met de \"taxable only in\"-formuleringen in art. 18 of art. 19 — daar is de toewijzing wél exclusief. 🔗 De effectieve vermijding van dubbele belasting verloopt vervolgens via art. 23A (vrijstelling) of art. 23B (verrekening) in de woonstaat. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 6, § 1 OESO-modelverdrag: onroerende inkomsten \"may be taxed\" in de ligging-staat — gedeeld heffingsrecht. Vermijding van dubbele belasting: art. 23A (vrijstellingsmethode) of art. 23B (verrekeningsmethode) in de woonstaat. 📖",
+          "wetsref": "Art. 6, § 1 + art. 23A/B OESO-modelverdrag",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar**. Een correctie op verrekenprijzen tussen een vaste inrichting en haar hoofdzetel betreft **dezelfde rechtspersoon** — dat is **economisch** dubbele belasting (binnen één belastingplichtige), en bovendien wel degelijk **vermijdbaar** via art. 7, § 3 (corresponderende correctie) en art. 25 (onderling overleg). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee fouten in de stelling. (i) **Kwalificatie**: juridische dubbele belasting = dezelfde belastingplichtige in twee staten op hetzelfde inkomen; economische dubbele belasting = twee verschillende belastingplichtigen op hetzelfde inkomen. 🤖 Een vaste inrichting heeft echter géén afzonderlijke rechtspersoonlijkheid — VI en hoofdzetel zijn dezelfde belastingplichtige, wat hier dus eerder een toerekeningsvraagstuk binnen dezelfde juridische entiteit is dan een klassiek art. 9-verrekenprijsgeval tussen twee verbonden ondernemingen. 🤖 (ii) **Onvermijdbaarheid**: art. 7, § 3 OESO-modelverdrag voorziet dat bij een winstcorrectie aan een VI in de ene staat, de andere staat een **corresponderende aanpassing** doorvoert; lukt dat niet, dan biedt art. 25 de *mutual agreement procedure* (MAP) als geschillenbeslechtingskader. 🔗 Dubbele belasting is dus principieel **vermijdbaar**, niet onvermijdbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7 OESO-modelverdrag (Business Profits — winsttoerekening aan vaste inrichting, met § 3 corresponderende aanpassing); art. 9 OESO-modelverdrag (Associated Enterprises — verrekenprijzen tussen verbonden ondernemingen); art. 25 OESO-modelverdrag (Mutual Agreement Procedure). 📖",
+          "wetsref": "Art. 7 + art. 9 + art. 25 OESO-modelverdrag",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

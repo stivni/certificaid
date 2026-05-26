@@ -1,0 +1,115 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrH3",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Twee fiscaal interessante pistes om effecten op naam (300.000 EUR) aan de dochter te schenken:\n\n1. **Schenking voor Nederlandse notaris** (“kaasroute”, historisch): geen verplichte registratie in België, dus **geen schenkingsrechten** — maar wel het risico van de **fictiebepaling** (zie deelvraag c). 🔗\n2. **Schenking voor Belgische notaris met registratie in Vlaanderen** aan het verlaagd tarief van **3 % voor roerende goederen in rechte lijn** (VCF art. 2.8.4.1.1, § 2, 1°). 📖\n\nEen handgift of bankgift is bij **effecten op naam niet mogelijk**: de eigendom wordt overgedragen door inschrijving in het aandeelhoudersregister, wat een akte (of minstens een geschrift met datum) vereist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/VCF.md",
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De **dochter** (begiftigde) betaalt **9.000 EUR** schenkingsrechten = 3 % × 300.000 EUR, bij registratie in Vlaanderen aan het verlaagd tarief voor roerende goederen in rechte lijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Berekening**:\n\n- Belastbare grondslag: 300.000 EUR (waarde effecten op naam) 🔗\n- Tarief: 3 % (rechte lijn, roerende goederen, Vlaams Gewest — schenker woont in Gent) 📖\n- Schenkbelasting = 300.000 × 3 % = **9.000 EUR** 🔗\n\n**Wie betaalt?** De begiftigde (dochter) is wettelijk de belastingplichtige voor de schenkbelasting. Schenker en begiftigde kunnen wel contractueel afspreken dat de schenker de rechten draagt (“beding tot last van de schenker”) — fiscaal blijft de grondslag dan toch 300.000 EUR (de last verhoogt de grondslag niet onder het Vlaams roerend tarief van art. 2.8.4.1.1, § 2). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "**Lokalisatie van een schenking van roerende goederen**: het bevoegde gewest is dat waar de **schenker** zijn fiscale woonplaats heeft op het moment van de schenking — hier Gent, dus **Vlaams Gewest**. Dat de dochter in Leuven woont (eveneens Vlaams) is voor de bevoegdheid niet beslissend; bij een schenker in bv. Brussel zou het Brusselse tarief gelden (eveneens 3 % in rechte lijn, andere wetgeving). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "VCF art. 2.8.4.1.1, § 2, 1°: “Het tarief van de schenkbelasting voor de schenkingen van roerende goederen bedraagt 3 % voor een verkrijging in de rechte lijn en tussen partners.” 📖",
+          "wetsref": "VCF art. 2.8.4.1.1, § 2, 1°",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het belangrijkste addertje is de **fictiebepaling**: een niet in België geregistreerde schenking (bv. via Nederlandse notaris) wordt fiscaal alsnog tot de nalatenschap gerekend als de schenker **binnen 3 jaar** (federaal W.Succ. art. 7) — in Vlaanderen sinds 15.12.2020 zelfs **binnen 5 jaar** (VCF art. 2.7.1.0.5) — overlijdt. De dochter betaalt dan **progressieve successierechten** op die 300.000 EUR, die veel hoger uitvallen dan de 9.000 EUR schenkbelasting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Risico’s en aandachtspunten**:\n\n- **Verdachte periode**: zonder Belgische registratie tikt de risicotermijn. Anno 2008 (datum van het examen): **3 jaar** (federaal W.Succ. art. 7). Anno 2026 in Vlaanderen: **5 jaar** (VCF art. 2.7.1.0.5, § 1 — verlengd door decreet van 19.06.2020, in werking 15.12.2020). De fictie geldt enkel als de schenking **niet** aan de Belgische schenkbelasting of registratierechten werd onderworpen. 📖\n- **Tarief bij overlijden binnen de termijn**: progressieve erfbelasting in rechte lijn op roerende goederen — 3 % tot 50.000 EUR, 9 % van 50.000 tot 250.000, **27 %** boven 250.000 EUR (VCF art. 2.7.4.1.1). Op 300.000 EUR komt dat netto fors hoger uit dan 9.000 EUR. 🔗\n- **“Kaasroute” historisch dichtgemaakt**: sinds **15.12.2020** moeten **buitenlandse notari\u00ele schenkingsakten** door Belgische rijksinwoners verplicht in België worden geregistreerd (wet van 03.07.2020). De Nederlandse-notaris-route uit het 2008-modelantwoord is dus vandaag fiscaal niet langer interessant: registratie en schenkbelasting zijn onvermijdelijk geworden. 🤖\n- **Vorm**: effecten op naam vereisen een **notariële akte** (of een geschrift met overschrijving in het register). Pure handgift is uitgesloten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**De fictie geldt enkel voor schenkingen die niet aan registratierechten/schenkbelasting onderworpen waren.** Wie kiest voor de Belgische route met 3 % registratie, is meteen “uit de gevarenzone” — zelfs als de schenker daags nadien overlijdt. De 3 % is dus eigenlijk een verzekeringspremie tegen het 27 %-risico. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "**Examenvraag uit 2008 vs. huidige stand van zaken**: het modelantwoord uit 2008 vermeldt de Nederlandse-notaris-piste en een 3-jaars-termijn. Bij toetsing in 2026 moet je beide updates meenemen: (i) buitenlandse akten zijn registratieplichtig sinds 15.12.2020, en (ii) de Vlaamse fictietermijn voor niet-geregistreerde schenkingen is 5 jaar (VCF art. 2.7.1.0.5). De federale W.Succ. art. 7 (3 jaar) is nog van toepassing in Brussel en Wallonië. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/VCF.md",
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**W.Succ. art. 7** (federaal): goederen waarover de erflater “kosteloos beschikte gedurende de drie jaren vóór zijn overlijden” worden geacht deel uit te maken van de nalatenschap als de bevoordeling niet aan het registratierecht voor schenkingen werd onderworpen. **VCF art. 2.7.1.0.5, § 1** (Vlaanderen): idem, met termijn van **vijf jaar** sinds decreet 19.06.2020. **VCF art. 2.8.4.1.1, § 2, 1°**: 3 % schenkbelasting roerend rechte lijn. 📖",
+          "wetsref": "W.Succ. art. 7; VCF art. 2.7.1.0.5, § 1; VCF art. 2.8.4.1.1, § 2, 1°",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

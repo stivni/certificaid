@@ -1,0 +1,154 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr33",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_cluster_note": "Canonical voor cluster 2.5-c2 (echt_duplicaat met 2014-1-vr40). Stellingen identiek qua inhoud; volgorde verschilt (2014-1: a/b/c/d = RV/ambtshalve/erfgenamen/ex-echtgenoot; 2013-2: a/b/c/d = RV/erfgenamen/ex-echtgenoot/ambtshalve).",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Ook de verkrijger van de inkomsten kan bezwaar indienen tegen de roerende voorheffing — niet enkel de schuldenaar die ze moet inhouden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 366 WIB92 verleent het bezwaarrecht aan de **belastingschuldige**. Voor de roerende voorheffing is dat principieel de schuldenaar van het inkomen (art. 261 WIB92), maar in een aantal gevallen is de verkrijger zelf de schuldenaar van de RV (art. 262 WIB92 — bv. RV op buitenlandse inkomsten geïnd in België). Bovendien is de RV een voorheffing die in hoofde van de verkrijger wordt verrekend (art. 280 WIB92): wanneer de inhouding zijn fiscale toestand raakt, heeft hij als belastingschuldige van de eindbelasting eveneens belang en bezwaarrecht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 366 WIB92 (bezwaar door belastingschuldige) + art. 261-262 WIB92 (schuldenaars RV — incl. verkrijger in afwijkingsgevallen) + art. 280 WIB92 (verrekening RV bij verkrijger). 📖",
+          "wetsref": "Art. 366 WIB92; art. 261-262 WIB92; art. 280 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het bezwaarschrift van één erfgenaam geldt enkel voor diens eigen aandeel in de belastingschuld, niet voor het geheel van de aanslag en evenmin voor de andere erfgenamen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij overlijden treden de erfgenamen elk voor hun erfdeel in de fiscale rechten en plichten van de overledene. Art. 366 WIB92 erkent het bezwaarrecht in hoofde van **de belastingschuldige** (en de echtgenoot op wiens goederen wordt ingevorderd / medeschuldenaar). Elke erfgenaam is belastingschuldige voor zijn eigen aandeel; een bezwaar van één erfgenaam bindt de andere erfgenamen dus niet en strekt zich niet automatisch uit tot de volledige aanslag. Wie de bezwaartermijn laat verstrijken, wordt voor zijn aandeel niet beschermd door het bezwaar van zijn medeërfgenaam. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar dit niet met art. 367 WIB92: dat artikel bepaalt dat één bezwaarschrift tegen een aanslag op betwiste **bestanddelen** van rechtswege geldt voor de andere aanslagen op dezelfde bestanddelen. Het gaat dáár over verschillende aanslagjaren bij dezelfde belastingschuldige, niet over verschillende erfgenamen die elk hun eigen aandeel moeten betwisten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 366 WIB92 (bezwaarrecht beperkt tot belastingschuldige / echtgenoot / medeschuldenaar) — elke erfgenaam handelt voor zijn eigen aandeel. Art. 367 WIB92 (uitbreidingseffect) ziet enkel op meerdere aanslagen op dezelfde bestanddelen, niet op meerdere erfgenamen. 📖",
+          "wetsref": "Art. 366-367 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** De echtgescheiden echtgenoot kan zelfstandig bezwaar indienen tegen een aanslag van vóór de echtscheiding, mits de belasting op zijn/haar goederen wordt ingevorderd. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 366 WIB92 verleent het bezwaarrecht expliciet niet alleen aan de belastingschuldige, maar óók aan **de echtgenoot op wiens goederen de aanslag wordt ingevorderd**. Die hoedanigheid blijft bestaan voor aanslagen die betrekking hebben op een aanslagjaar van vóór de uitspraak van de echtscheiding (toen er gemeenschappelijke aanslag was). De ex-echtgenoot heeft dan een eigen, autonoom bezwaarrecht — los van of de andere ex-echtgenoot al dan niet bezwaar heeft ingediend. De voorwaarde dat de belasting op zijn/haar goederen wordt ingevorderd is precies de in art. 366 vermelde voorwaarde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 366 WIB92: \"De belastingschuldige, alsmede zijn echtgenoot op wiens goederen de aanslag wordt ingevorderd ... kan tegen het bedrag van de gevestigde aanslag ... schriftelijk bezwaar indienen.\" Dit autonoom bezwaarrecht overleeft de echtscheiding voor aanslagen die op de gewezen gemeenschap betrekking hebben. 📖",
+          "wetsref": "Art. 366 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Bij een **ambtshalve** aanslag wordt de termijn van zes maanden verlengd met drie maanden — de belastingplichtige moet dus **negen maanden** zonder beslissing afwachten voor hij rechtstreeks naar de rechtbank van eerste aanleg kan stappen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 1385undecies Ger.W. bepaalt dat een vordering bij de rechtbank van eerste aanleg slechts ontvankelijk is na het uitputten van het administratief beroep én — bij gebrek aan beslissing van de adviseur-generaal — na het verstrijken van een wachttermijn van **zes maanden**. Diezelfde bepaling verlengt die termijn met **drie maanden** wanneer de betwiste belasting van ambtswege werd gevestigd. De stelling negeert die verlenging en is dus onjuist. 🔗\n\nDe woorden \"te allen tijde\" zijn op zich correct — eens de wachttermijn verstreken is, geldt er geen vervaltermijn meer om de zaak voor de rechtbank te brengen — maar de fout zit in het cijfer **zes** maanden bij een ambtshalve aanslag. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Zes maanden geldt bij een **gewone** aanslag, negen maanden bij een **ambtshalve** aanslag. Een examenstelling die expliciet \"ambtshalve aangeslagen\" vermeldt én vervolgens \"zes maanden\" noemt, is een klassieke valstrik die de verlenging uit art. 1385undecies Ger.W. negeert. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1385undecies Ger.W. (wachttermijn 6 maanden voor rechtstreeks beroep bij rechtbank van eerste aanleg, verlengd met 3 maanden bij ambtshalve aanslag) — samenlezen met art. 366 WIB92 (administratief beroep is verplicht voorgaande stap). 📖",
+          "wetsref": "Art. 1385undecies Ger.W.; art. 366 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

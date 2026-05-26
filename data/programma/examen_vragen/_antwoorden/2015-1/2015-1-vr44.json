@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr44",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — een met redenen omkleed verzet, ingesteld bij gerechtsdeurwaardersexploot voor de rechtbank van eerste aanleg (fiscale kamer). Alleen een rechtsvordering (vordering in rechte) stuit de tenuitvoerlegging van een dwangbevel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het dwangbevel is een uitvoerbare titel die de ontvanger toelaat om — na betekening bij gerechtsdeurwaardersexploot — over te gaan tot uitvoerend beslag. Alleen een **vordering in rechte** (juridische betwisting) kan de tenuitvoerlegging stuiten; een louter administratief bezwaar volstaat niet. 🔗\n\n**Per optie**:\n- **a** (bezwaarschrift bij de gewestelijke directie) → FOUT — een administratief bezwaar betwist de aanslag, maar stuit de invordering niet; bewarende beslagen en uitvoeringsmaatregelen blijven mogelijk. 🔗\n- **b** (verzoekschrift, verzet voor de rechtbank van eerste aanleg, fiscale kamer) → JUIST — het verzet tegen het dwangbevel is een rechtsvordering die voor de fiscale kamer van de rechtbank van eerste aanleg gebracht wordt; de termijn loopt vanaf de betekening van het dwangbevel. 📖\n- **c** (beroep bij de bevoegde controledienst) → FOUT — de controledienst is geen rechtscollege en heeft geen bevoegdheid om de tenuitvoerlegging te stuiten. 🤖\n- **d** (voorziening bij de Raad van State) → FOUT — fiscale geschillen vallen onder de bevoegdheid van de gewone rechtbanken (rechtbank van eerste aanleg → hof van beroep → Hof van Cassatie), niet onder de Raad van State. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/VCF.md",
+            "resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **bezwaarschrift** (administratieve fase, betwist de aanslag, bij de gewestelijke directeur/adviseur-generaal) niet met **verzet tegen het dwangbevel** (gerechtelijke fase, betwist de invordering/uitvoerbaarheid, bij de rechtbank van eerste aanleg). Een bezwaarschrift schorst de invordering niet — de fiscus kan bewarende beslagen leggen tijdens de behandeling (art. 105 Brusselse Codex Fiscale Procedure, analoog art. 410 WIB92). Enkel een vordering in rechte stuit effectief de tenuitvoerlegging. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Het principe staat in art. 221 W.Reg. (Brussels en Waals Gewest): \"De tenuitvoerlegging van het dwangbevel kan slechts worden gestuit door een vordering in rechte.\" 📖 Analoog WDRT art. 23.3 en VCF art. 3.10.3.2.1, dat preciseert dat de belastingschuldige binnen 30 dagen na betekening bij gerechtsdeurwaardersexploot een met redenen omkleed verzet kan instellen — voor de fiscale kamer van de rechtbank van eerste aanleg. Voor directe belastingen geldt dezelfde regel onder het (oude) art. 410 WIB92 en sinds 2020 het Wetboek Invordering (art. 22 inzake schorsing door verzet/hoger beroep). 🔗",
+          "wetsref": "Art. 221 W.Reg.; VCF art. 3.10.3.2.1; WDRT art. 23.3; Wetboek Invordering art. 22",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+            "resources/bronnen/wetteksten/VCF.md",
+            "resources/bronnen/wetteksten/WDRT.md",
+            "resources/bronnen/wetteksten/Wetboek-Invordering.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

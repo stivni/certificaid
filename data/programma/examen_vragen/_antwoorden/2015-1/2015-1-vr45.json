@@ -1,0 +1,48 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr45",
+  "antwoord_datum": "2026-05-26T16:49:51Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Antwoord D** — geen van de voorgaande antwoorden is juist. 📖 De onderzoekstermijn inzake btw loopt parallel met de verjaringstermijn van de vordering tot voldoening van de belasting (art. 81bis WBTW), maar die termijn is **niet uniform**: basis 3 jaar, verlengd tot 4 jaar bij niet- of laattijdige aangifte, en uitzonderlijk 7 jaar (o.a. bij buitenlandse inlichtingen, rechtsvordering of bewijzen van fraude). Het is dus noch \"altijd 7 jaar\", noch \"altijd 15 jaar\", en de stelling dat er \"geen specifieke bepalingen\" zouden bestaan is onjuist — art. 81bis WBTW is precies zo'n specifieke bepaling.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Optie A** ❌ — onjuist op twee punten: (i) er bestaan wél specifieke bepalingen (art. 81bis WBTW regelt de verjaring, en de onderzoeksbevoegdheid van de administratie loopt binnen diezelfde kalenderjaartermijnen); (ii) de bewering dat \"controletermijnen gelijklopen met de verjaringstermijnen\" is feitelijk wel correct (de onderzoekstermijn = de verjaringstermijn van art. 81bis WBTW 🔗), maar de premisse \"dusdanig bestaan er geen specifieke bepalingen\" maakt de stelling als geheel fout. **Optie B** ❌ — fout: 7 jaar is een **uitzonderingstermijn** (art. 81bis, § 1, derde lid WBTW), niet de algemene regel; de basistermijn is 3 jaar. **Optie C** ❌ — fout: 15 jaar bestaat niet als btw-controletermijn; deze termijn behoort tot het civiele/strafrechtelijke verjaringsregime, niet tot de fiscale procedure btw. **Optie D** ✅ — bijgevolg de enige correcte keuze. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — De drie verjaringstermijnen van art. 81bis WBTW vormen een belangrijke parallel met de directe belastingen (art. 354 WIB92: 3 jaar gewoon, 4 jaar bij niet/laattijdige aangifte, 10 jaar bij fraude). De **systematiek is gelijkaardig** maar de **fraudetermijn verschilt**: 7 jaar voor btw, 10 jaar voor directe belastingen. 🔗 Sinds 2023 is voor specifieke complexe situaties (semi-complexe en complexe aangiften) in de directe belastingen overigens ook een 6- en 10-jaarstermijn ingevoerd — voor btw blijven de termijnen 3/4/7 jaar.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 81bis WBTW** — § 1, eerste lid: verjaring na het verstrijken van het **derde** kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid zich heeft voorgedaan (basistermijn 3 jaar). § 1, tweede lid: verlenging tot het **vierde** kalenderjaar bij niet-indiening of laattijdige indiening van de periodieke aangifte (art. 53, § 1, 1e lid, 2° WBTW). § 1, derde lid: **zevende** kalenderjaar bij o.a. (1°) inlichtingen/onderzoek/controle door een andere EU-lidstaat of verdragsstaat, (2°) een rechtsvordering die niet-aangegeven handelingen aantoont, (3°) bewijskrachtige gegevens van fraude. 📖 De onderzoeksbevoegdheid van de btw-administratie is gekoppeld aan deze verjaringstermijnen: zolang de vordering niet verjaard is, kan onderzoek worden gevoerd.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

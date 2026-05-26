@@ -1,0 +1,93 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr48",
+  "antwoord_datum": "2026-05-26T16:50:36Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "e",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **e** — **300.000 EUR**. Bij verkoop van de blote eigendom met voorbehoud van vruchtgebruik door de vervreemder geldt als minimum-belastbare grondslag de verkoopwaarde van de **volle** eigendom — niet de overeengekomen prijs van 186.000 EUR voor de blote eigendom alleen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** (186.000 EUR — overeengekomen prijs) → FOUT. Dit is de overeenkomstige waarde van enkel de blote eigendom, maar art. 48 W.Reg. dwingt een minimum-grondslag op gelijk aan de volle eigendom om te beletten dat partijen via een laag aangegeven blote-eigendom-prijs de heffing uithollen. 🔗\n- **b** (16% van 300.000 EUR) → FOUT. 16% is een **tarief**, geen grondslag — de vraag peilt naar de **grondslag** (basis) waarop het tarief wordt toegepast. 🔗\n- **c** (geen grondslag, vast recht) → FOUT. Het betreft een overdracht onder bezwarende titel van een onroerend zakelijk recht, dus evenredig recht is verschuldigd. 🔗\n- **d** (4 × 16% van 300.000) → FOUT. Verzonnen formule zonder wettelijke basis. 🔗\n- **e** (300.000 EUR) → JUIST. Verkoopwaarde van de volle eigendom als minimumgrondslag, conform art. 48 W.Reg. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Twee verschillende minimumregels** naargelang wie het vruchtgebruik behoudt:\n\n- **Art. 48** (vruchtgebruik door vervreemder voorbehouden — zoals hier): minimumgrondslag = verkoopwaarde van de **volle** eigendom. Geen aftrek van het vruchtgebruik. 📖\n- **Art. 49** (vruchtgebruik **niet** voorbehouden, bv. gevestigd op een derde): minimumgrondslag = verkoopwaarde volle eigendom **minus** de overeenkomstig art. 47 forfaitair berekende waarde van het vruchtgebruik. 📖\n\nDe ratio: bij art. 48 keert het vruchtgebruik bij het einde gratis terug naar de blote eigenaar (consolidatie zonder bijkomende kost), dus economisch koopt hij quasi-volle eigendom. Dat is óók waarom een latere afstand van vruchtgebruik aan de blote eigenaar fiscaal niet meer als een tweede aankoop wordt behandeld zoals een eerste — zie deelvraag (b).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 48 W.Reg.: \"Gaat de overeenkomst over de blote eigendom van een onroerend goed waarvan het vruchtgebruik door de vervreemder is voorbehouden, zo mag de belastbare grondslag niet lager zijn dan de verkoopwaarde van de volle eigendom.\" 📖 Voor Vlaanderen: art. 2.9.3.0.6 VCF (parallelle bepaling, maar verwijst naar art. 47-aftrek bij niet-voorbehoud).",
+          "wetsref": "Art. 48 W.Reg. (Brussel/Wallonië); art. 2.9.3.0.6 VCF (Vlaanderen)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — **250.000 EUR**. De afstand van het vruchtgebruik aan de blote eigenaar is een overdracht onder bezwarende titel van een zakelijk recht; de belastbare grondslag is de overeengekomen prijs (250.000 EUR), met als wettelijk minimum de verkoopwaarde van het **vruchtgebruik** zelf — niet die van de volle eigendom. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** (300.000 EUR — volle eigendom) → FOUT. Art. 48 W.Reg. (minimum = volle eigendom) is een specifieke regel voor **verkoop van blote eigendom met voorbehoud van vruchtgebruik**, niet voor de omgekeerde verrichting. Hier wordt het vruchtgebruik overgedragen — voorwerp = enkel het vruchtgebruik. 🔗\n- **b** (250.000 EUR — overeengekomen prijs) → JUIST. Algemene regel art. 45-46 W.Reg.: grondslag = overeengekomen prijs en lasten, met als minimum de verkoopwaarde van het overgedragen recht. De prijs 250.000 EUR is hoog (boven de art. 47-forfaitaire vruchtgebruikwaarde voor een 74-jarige op een goed van 300.000 EUR) en wordt aanvaard als grondslag. 🔗\n- **c** (436.000 EUR = 250.000 + oorspronkelijke blote-eigendom-prijs) → FOUT. Sommering met de **vroeger** betaalde blote-eigendom-prijs is verzonnen — die overdracht is reeds belast geweest in jaar 1. Klassieke valstrik. 🔗\n- **d** (geen grondslag, vast recht) → FOUT. Overdracht onder bezwarende titel van een onroerend zakelijk recht = evenredig recht. 🔗\n- **e** (300.000 EUR met vermindering tot beloop van vroeger betaalde rechten) → FOUT. Een dergelijke verrekening van vroeger betaalde rechten bestaat **niet** voor de consolidatie blote eigendom + vruchtgebruik. Verzonnen vermindering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "**Civielrechtelijk gevolg**: door de afstand verenigt de blote eigenaar de twee hoedanigheden en eindigt het vruchtgebruik door **vermenging** (art. 617 BW). De blote eigenaar wordt volle eigenaar. Fiscaal-boekhoudkundig (CBN-advies 2015/5) telt hij de aanschaffingsprijs van het vruchtgebruik (250.000 EUR) op bij de boekwaarde van de blote eigendom en boekt de geheelheid voortaan op rekening 22 *Terreinen en gebouwen*. 📖 Voor het registratierecht blijft de grondslag echter beperkt tot wat in déze akte wordt overgedragen: het vruchtgebruik tegen 250.000 EUR.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45-46 W.Reg.: belastbare grondslag = overeengekomen prijs en lasten, met als minimum de verkoopwaarde van het overgedragen goed/recht. 📖 Art. 48 (minimum = volle eigendom) is **niet** van toepassing op een afstand van vruchtgebruik aan de blote eigenaar — het regelt enkel de omgekeerde verrichting (verkoop blote eigendom met voorbehoud vruchtgebruik). 🔗 Civiel: art. 617 BW — vermenging van vruchtgebruiker en blote eigenaar beëindigt het vruchtgebruik.",
+          "wetsref": "Art. 45-46 W.Reg.; art. 617 BW",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+            "resources/bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr41",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** — onderzoek 5 aanslagjaren terug valt binnen de verlengde aanslagtermijn bij fraude, en kan enkel mits **voorafgaande schriftelijke en nauwkeurige kennisgeving van de aanwijzingen van belastingontduiking** aan de belastingplichtige, op straffe van nietigheid van de aanslag. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** (zonder beperking) → FOUT — onderzoek buiten de gewone 3-jaarstermijn is gebonden aan de formaliteit van art. 333, derde lid WIB92. Geen onbeperkte bevoegdheid. 🔗\n- **b** (sowieso niet meer) → FOUT — 5 jaar valt binnen de verlengde aanvullende termijn van art. 354, § 2 WIB92 (op het ogenblik van de vraag: 7 jaar bij fraude). Onderzoek is dus nog mogelijk. 🔗\n- **c** (mits voorafgaande kennisgeving van indiciën van fraude) → JUIST — art. 333, derde lid WIB92 vereist die schriftelijke en nauwkeurige kennisgeving, voorgeschreven op straffe van nietigheid. 📖\n- **d** (uitsluitend taxatie tekenen en indiciën) → FOUT — verwart het onderzoeksrecht met de bewijsmiddelen van art. 341 WIB92 (taxatie naar tekenen en indiciën). Het onderzoek zelf is niet beperkt tot dat ene bewijsmiddel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De kennisgeving moet **vóór** elke onderzoekshandeling in de verlengde termijn gebeuren en moet de aanwijzingen **nauwkeurig** (concreet, niet algemeen) omschrijven. Een laattijdige of vage kennisgeving leidt tot **absolute nietigheid** van de gevestigde aanslag — een courante annulatiegrond in fiscale geschillen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 333, derde lid WIB92**: onderzoekshandelingen in de aanvullende termijn van art. 354, § 2 WIB92 zijn slechts mogelijk \"op voorwaarde dat de administratie de belastingplichtige voorafgaandelijk schriftelijk en nauwkeurig kennis gegeven heeft van de aanwijzingen inzake belastingontduiking, die wat hem betreft bestaan, voor de betreffende periode. Deze voorafgaande kennisgeving is voorgeschreven op straffe van nietigheid van de aanslag.\" 📖 Aanslagtermijn bij fraude: **art. 354, § 2 WIB92** (verlengd aanvullend bovenop de gewone termijn van § 1). 📖",
+          "wetsref": "Art. 333, derde lid WIB92; art. 354, § 2 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

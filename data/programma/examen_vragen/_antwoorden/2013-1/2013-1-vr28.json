@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr28",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** — Michèle kan geldig verzaken, maar door art. 68 W.Succ. mag de Staat geen nadeel lijden: Anne erft het volledige netto-actief en betaalt minstens het successierecht dat Michèle (vreemde) zou hebben betaald, dus aan het tarief tussen personen zonder verwantschap. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** — FOUT. Een algemeen legataris kan steeds verzaken aan een hem toegekend legaat; de authentieke vorm van het testament verhindert dat geenszins. 🔗\n- **b** — FOUT. Anne erft inderdaad het volledige netto-actief (zij is enige wettige erfgename en Michèle verzaakt), maar het tarief mag niet louter \"rechte lijn\" zijn: art. 68 W.Succ. verbiedt dat de Staat door de verzaking minder ontvangt dan vóór verzaking verschuldigd was. 📖\n- **c** — JUIST. Anne verkrijgt het volledige netto-actief, maar het te betalen recht mag niet lager zijn dan wat Michèle (vreemde, tarief \"tussen personen zonder verwantschap\") had moeten betalen. In de praktijk wordt dus het hoogste van beide tarieven aangerekend op het volledige actief — hier het vreemden-tarief. 🔗\n- **d** — FOUT. Anne hoeft het testament niet aan te vechten: Michèle verzaakt vrijwillig. De gesuggereerde splitsing (helft rechte lijn / helft vreemden-tarief) heeft geen wettelijke grondslag. Art. 68 redeneert op het volledige verworpen aandeel, niet pro rata. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Art. 68 W.Succ. is een **minimum-rechten-regel**, geen tarief-toewijzing op basis van verwantschap met de verzaker. Anne is en blijft erfgename in rechte lijn, maar haar verschuldigd recht wordt **opgetrokken** tot het bedrag dat Michèle als vreemde zou hebben betaald, omdat dat hoger is. De berekening gebeurt dus op het volledige netto-actief aan het vreemden-tarief — niet door Anne fictief als vreemde te kwalificeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 68 W.Succ. (federaal — overgenomen in de gewestelijke wetboeken/VCF): \"In geval van verwerping van een intestaat-aandeel, van een uiterste wilsbeschikking, of van een contractuele erfstelling, mag het recht, verschuldigd door de personen die daarvan het voordeel genieten, niet lager zijn dan het recht, dat de verwerper had moeten betalen.\" 📖",
+          "wetsref": "Art. 68 W.Succ.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

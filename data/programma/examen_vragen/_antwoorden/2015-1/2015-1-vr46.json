@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr46",
+  "antwoord_datum": "2026-05-26T16:50:41Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — de kopers verkrijgen slechts de **blote eigendom** (vruchtgebruik gaat naar de vennootschap). Het Brusselse abattement (art. 46bis W.Reg.) eist uitdrukkelijk de \"verkrijging van de **geheelheid in volle eigendom**\". Geen volle eigendom = geen recht op vermindering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** → **GEEN vermindering**. Art. 46bis vereist dat een natuurlijke persoon (of meerdere samen) de **geheelheid in volle eigendom** verkrijgt. Een opsplitsing blote eigendom (echtpaar) / vruchtgebruik (vennootschap) sluit het abattement zonder meer uit — de vennootschap is bovendien geen natuurlijke persoon. Het voordeel van alle aard wegens kosteloze bewoning verandert daar niets aan. 🔗\n- **b** → wél vermindering (mits naleving overige voorwaarden). Een onverdeeld aandeel in volle eigendom in een andere woning kan in beginsel het abattement beletten (voorwaarde \"niet reeds volledig in volle eigendom van een ander tot bewoning bestemd onroerend goed\"), maar de wettekst en de gevestigde administratieve interpretatie viseren vooral het bezit van een **volledige** woning; een **onverdeeld** aandeel verkregen via schenking belet de toepassing typisch niet wanneer dit aandeel niet de geheelheid is. Bovendien voorziet art. 212bis in teruggave bij latere vervreemding. 🔗\n- **c** → wél vermindering. Art. 46bis aanvaardt expliciet onroerende goederen die \"**geheel of gedeeltelijk** tot bewoning aangewend of bestemd\" zijn. Een gedeeltelijk professioneel gebruik (gelijkvloers = medische praktijk, twee verdiepingen = bewoning) sluit het abattement niet uit zolang de woning de hoofdverblijfplaats van de koper wordt. 📖\n- **d** → wél vermindering. De koper moet zijn hoofdverblijfplaats vestigen op het goed binnen de wettelijke termijn (destijds 2 jaar, vandaag 3 jaar). Het lopende huurcontract uitdoen tot 31.12.2015 (aankoop sep. 2014 → bewoning < 2 jaar) past binnen de termijn. 🔗\n- **e** → wél vermindering. De wet eist dat de **kopers** hun hoofdverblijfplaats vestigen en behouden in het goed; dat ook de schoonouders zich er tijdelijk domiciliëren is niet uitgesloten. Het abattement vereist géén exclusieve bewoning. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Onverdeeld aandeel in een andere woning (optie b) is een **klassieke valstrik**: studenten denken vaak dat dit automatisch uitsluit. De wet viseert echter het reeds **volledig** in volle eigendom hebben van een ander tot bewoning bestemd onroerend goed; een onverdeeld aandeel via erfenis/schenking is daarvoor doorgaans **niet** voldoende, en zelfs als het wel zou tellen, opent art. 212bis een teruggave-mogelijkheid bij vervreemding binnen 2 jaar. De **enige optie zonder enige ontsnappingsroute** is optie a: blote eigendom voldoet structureel niet aan de eis \"geheelheid in volle eigendom\". 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 46bis W.Reg. (Brussels Hoofdstedelijk Gewest): \"de belastbare grondslag [wordt] verminderd met [destijds 60.000 EUR; vandaag 200.000 EUR] in geval van verkrijging door een natuurlijke persoon van de **geheelheid in volle eigendom** van een **geheel of gedeeltelijk tot bewoning aangewend of bestemd** onroerend goed dat zal dienen tot **hoofdverblijfplaats** van de verkrijger\". Bijkomende voorwaarden (lid 5): (1°) geen volledig in volle eigendom hebben van een ander tot bewoning bestemd goed; (a–c) verklaring + verbintenis hoofdverblijfplaats te vestigen binnen termijn en te behouden ≥ 5 jaar. Art. 212bis W.Reg. — teruggave indien voorwaarde 1° pas later vervuld wordt door vervreemding. 📖",
+          "wetsref": "Art. 46bis + 212bis W.Reg. Brussels Hoofdstedelijk Gewest",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

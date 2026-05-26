@@ -1,0 +1,121 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr29",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Berekeningsgrondslag**: € 500.000 (de overeengekomen prijs, voor zover deze niet lager is dan de verkoopwaarde van het 1/3-aandeel). **Tarief**: **12,50 %** verkooprecht (art. 44 W.Reg. Brussel). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Xavier is een **derde** (geen mede-eigenaar, geen verwant). Bernadette draagt haar onverdeeld 1/3-aandeel onder bezwarende titel over aan een derde — dit is een **overdracht onder bezwarende titel van een onroerend goed** in de zin van art. 44 W.Reg. Brussel, niet een verdeling onder mede-eigenaars. 🔗\n\nDe **grondslag** is de overeengekomen prijs, met als minimum de verkoopwaarde van het overgedragen aandeel (art. 45-46 W.Reg.). Hier: prijs € 500.000; de verkoopwaarde van 1/3 op basis van de schatting bij overlijden (2007) bedroeg € 400.000, maar marktwaarden 2012 kunnen hoger liggen. Bij gebrek aan tegenindicatie wordt de prijs aanvaard → grondslag € 500.000. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 44 W.Reg. Brussel: \"Het recht wordt gesteld op 12,50 t.h. voor de verkopingen, ruilingen en alle overeenkomsten onder bezwarende titel, waarbij eigendom of vruchtgebruik van onroerende goederen wordt overgedragen.\" Grondslagregels: art. 45-46 (prijs en lasten, minimum verkoopwaarde). 📖",
+          "wetsref": "Art. 44 + art. 45-46 W.Reg. Brussel",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Anne (oorspronkelijke mede-eigenaar) treedt op als enige uit de onverdeeldheid → **verdelingsrecht** (art. 109 W.Reg. Brussel) van **1 %**. **Berekeningsgrondslag**: de **volledige verkoopwaarde van het onverdeelde goed** (de massa), d.i. ± € 1.500.000 (afgeleid uit de prijs: € 1.000.000 voor 2/3 ⇒ geheel € 1.500.000) — niet enkel de overgenomen 2/3. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee bewegingen tegelijk:\n\n- **Caroline → Anne** (1/3): afstand onder bezwarende titel **tussen mede-eigenaars** van een oorspronkelijke onverdeeldheid → valt onder art. 109 W.Reg. (verdelingsrecht 1 %). 🔗\n- **Xavier → Anne** (1/3): Xavier was de derde die in 2012 een onverdeeld deel had verkregen. Art. 113 W.Reg. wijkt af van art. 109 enkel **wanneer een derde een onverdeeld deel verkrijgt** (binnenkomende derde). Bij **uittreding** van die derde gaat men terug naar het normale regime: art. 109 → 1 %. 🔗\n\nDe operatie eindigt in **volledige opheffing van de onverdeeldheid** in hoofde van één persoon (Anne). Het verdelingsrecht slaat dan op de **massa**: de hele verkoopwaarde van het gebouw, ongeacht het aandeel dat Anne reeds bezat. Grondslag = € 1.500.000; recht = 1 % = € 15.000. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren: art. 113 W.Reg. viseert de **binnenkomst** van een derde in de onverdeeldheid (zoals Xavier in januari 2012 — toen was reeds 12,50 % verschuldigd op zijn 1/3). Het viseert **niet** de uittreding van die derde — daarvoor geldt opnieuw art. 109. Ook belangrijk: het verdelingsrecht wordt geheven op de **totale waarde van het verdeelde goed**, niet enkel op de overgenomen aandelen (anders dan bij een gewone verkoop). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 109 W.Reg. Brussel: \"Het recht wordt op 1 t.h. vastgesteld voor: 1° de gedeeltelijke of gehele verdelingen van onroerende goederen; 2° de afstanden onder bezwarende titel, onder medeëigenaars, van onverdeelde delen in onroerende goederen.\" Art. 113 wijkt enkel af bij verkrijging door een derde. 📖",
+          "wetsref": "Art. 109 (j° art. 113) W.Reg. Brussel",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, identiek**: ook wanneer Xavier (de eerder binnengekomen derde) de delen van Anne en Caroline overneemt, geldt het **verdelingsrecht van 1 %** op de **volledige waarde** van het onverdeelde goed (± € 1.500.000). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 113, **tweede lid**, W.Reg. sluit de afwijking van art. 109 uitdrukkelijk uit \"wanneer de derde, aan wie de toebedeling of de afstand gedaan wordt, **met anderen het geheel van één of meer goederen heeft verkregen**\". 📖\n\nXavier voldoet aan deze uitzondering: hij heeft sinds januari 2012 **samen met Anne en Caroline** het geheel van het gebouw in onverdeeldheid (1/3-1/3-1/3). Hij is dus geen \"vreemde\" derde meer, maar mede-eigenaar van de huidige onverdeeldheid. Zijn overname valt dan onder het gewone regime van art. 109 → 1 % verdelingsrecht op de volledige verkoopwaarde. 🔗\n\nHet resultaat is fiscaal **identiek** aan punt b: zelfde grondslag (€ 1.500.000), zelfde tarief (1 %), zelfde recht (€ 15.000). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Het criterium voor art. 113 is dus niet \"is de overnemer een oorspronkelijk mede-erfgenaam?\" maar wél \"heeft de overnemer samen met de anderen het **geheel** van het goed verkregen?\". Xavier voldoet aan dat criterium (1/3 + 2/3 bestaande onverdeeldheid = geheel), waardoor hij fiscaal op gelijke voet staat met Anne. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 113, tweede lid, W.Reg. Brussel (in fine): de afwijking-naar-verkooprecht geldt **niet** \"wanneer de derde, aan wie de toebedeling of de afstand gedaan wordt, met anderen het geheel van één of meer goederen heeft verkregen\". Toepassing: terug naar art. 109 → 1 %. 📖",
+          "wetsref": "Art. 113, tweede lid, W.Reg. Brussel",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

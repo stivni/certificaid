@@ -1,0 +1,121 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr32",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**30 juni 2013** — de gewone aanslagtermijn van art. 359 WIB92 (30 juni van het jaar na het aanslagjaar 2012) is hier de uiterste datum. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Twee termijnen lopen naast elkaar; de **langste** primeert:\n\n- **Art. 359 WIB92** (gewone aanslagtermijn): tot en met **30 juni van het jaar volgend op het aanslagjaar**. Voor AJ 2012 → **30/06/2013**. 📖\n- **Art. 353 WIB92** (minimumtermijn voor tijdige aangifte): minstens **zes maanden vanaf de datum waarop de aangifte bij de dienst is toegekomen**. Aangifte ingediend 20/09/2012 → minimum tot **20/03/2013**. 📖\n\nDe administratie beschikt over het langste van beide → uiterste inkohieringsdatum = **30 juni 2013**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 353 WIB92 (minimum zes maanden vanaf binnenkomst aangifte) samen met art. 359 WIB92 (uiterste datum 30 juni van het jaar na het aanslagjaar). 📖",
+          "wetsref": "Art. 353 en 359 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het oudste belastbare tijdperk dat met de procedure \"aanwijzingen van belastingontduiking\" kan worden onderzocht is **aanslagjaar 2007**, dit is het **boekjaar van 1 april 2006 tot en met 31 maart 2007**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Bij aanwijzingen van belastingontduiking gold ten tijde van het examen (2013) een **verlengde aanslag- en onderzoekstermijn van zeven jaar** vanaf 1 januari van het aanslagjaar (gewone driejarige termijn van art. 354, al. 1 WIB92 + bijkomende termijn van vier jaar van art. 354, al. 4 oude versie). 📖\n\nKennisgeving van de aanwijzingen op **5/2/2013** → aanslagjaar 2013 → zeven aanslagjaren onderzoekbaar: **AJ 2007 t.e.m. AJ 2013**. 🔗\n\nDe vennootschap sluit het boekjaar af op 31 maart. AJ 2007 stemt overeen met het boekjaar dat eindigt in 2007 → **01/04/2006 – 31/03/2007**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De controleur kondigt onderzoek aan over \"de op 31 maart afgesloten boekjaren **2005 tot 2012**\". De boekjaren 2005 en 2006 (afgesloten op 31/03/2005 en 31/03/2006, dus AJ 2005 en AJ 2006) liggen **buiten** het zevenjarig venster en kunnen niet meer worden onderzocht. De aankondiging is op dat punt onregelmatig. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 354 WIB92 (versie 2013): driejarige aanslagtermijn + bijkomende termijn van vier jaar bij aanwijzingen van belastingontduiking = zeven jaar. Onderzoek in de bijkomende termijn vereist voorafgaande, schriftelijke en nauwkeurige kennisgeving van de aanwijzingen op straffe van nietigheid (art. 333, al. 3 WIB92). 📖",
+          "wetsref": "Art. 333, al. 3 en art. 354 WIB92 (versie 2013)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen.** Het btw-proces-verbaal toont op zichzelf geen belastingontduiking inzake vennootschapsbelasting **aan**; het levert hoogstens **een aanwijzing** op die de bijkomende onderzoekstermijn kan openen. Werkelijke ontduiking in de vennootschapsbelasting moet binnen die procedure afzonderlijk worden bewezen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wet maakt een duidelijk onderscheid tussen twee niveaus:\n\n- **Aanwijzing van belastingontduiking** (art. 333, al. 3 WIB92): een **redelijk vermoeden** op basis van concrete elementen — voldoende om de bijkomende vierjarige onderzoekstermijn te activeren, mits voorafgaande, schriftelijke en nauwkeurige kennisgeving. Een PV opgesteld door de btw-ambtenaren en overgezonden aan de directe belastingen (art. 335-336 WIB92) is precies zo'n element en kan dus dienen als geldige aanwijzing. 📖\n- **Bewijs van belastingontduiking** in de vennootschapsbelasting zelf: vereist de gewone bewijsregels van art. 340 WIB92 (alle bewijsmiddelen van gemeen recht, behalve de eed; PV's hebben bewijskracht tot bewijs van het tegendeel). 📖\n\nHet btw-PV bewijst inbreuken **inzake btw**. Voor de vennootschapsbelasting moet de controleur, op basis van zijn eigen onderzoek in de bijkomende termijn (boekencontrole op 20/2/2013, vraag om inlichtingen, vergelijking omzet btw ↔ aangegeven winst …), zelf de belastbare grondslag en het frauduleuze opzet aantonen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Het btw-PV heeft op grond van art. 340, al. 2 WIB92 wél **bijzondere bewijswaarde** (bewijskracht tot bewijs van het tegendeel) wanneer het in de VenB-procedure als bewijsmiddel wordt aangevoerd. Maar dat geldt voor de **feitelijke vaststellingen** die de btw-ambtenaar persoonlijk heeft gedaan (vb. niet-geboekte ontvangsten), niet voor de juridische kwalificatie als ontduiking in de vennootschapsbelasting. De koppeling tussen niet-aangegeven omzet btw en niet-aangegeven winst in de VenB moet de controleur zelf maken en motiveren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 333, al. 3 WIB92 (kennisgeving van aanwijzingen als voorwaarde voor onderzoek in de bijkomende termijn) en art. 340 WIB92 (bewijsmiddelen, bewijskracht PV tot bewijs van het tegendeel). De wet vereist enkel \"aanwijzingen\", niet het bewijs zelf — dat laatste volgt uit het onderzoek zelf. 📖",
+          "wetsref": "Art. 333, al. 3 en art. 340 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

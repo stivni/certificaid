@@ -1,0 +1,58 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr29",
+  "antwoord_datum": "2026-05-26T16:50:34Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De heer B. is als Belgisch rijksinwoner onderworpen aan de **personenbelasting in België op zijn volledige (wereldwijde) loon**. Daarnaast mag elk werkland heffen op het loon dat slaat op de daar uitgeoefende arbeid: **Frankrijk** belast het loon van de Franse werkdag (1/5 = 20 %) en **Duitsland** belast het loon van de Duitse werkdag (1/5 = 20 %). België verleent vervolgens vrijstelling met progressievoorbehoud voor de in FR en DE belastbare delen, zodat **effectief 3/5 (60 %) van het loon in BE belast blijft**, 20 % in FR en 20 % in DE. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "| Werkdag | Werkstaat | Werkgever / loondrager | Toewijzingsregel art. 15 OESO-MV | Heffingsbevoegd |\n|---|---|---|---|---|\n| 3 dagen/week | België (woonstaat) | Belgische vennootschap | Art. 15 §1, 1ste zin: arbeid in woonstaat ⇒ uitsluitend woonstaat | **BE** 📖 |\n| 1 dag/week | Frankrijk | Belgische venn., maar loon doorgerekend aan Franse vaste inrichting | Art. 15 §1, 2de zin + §2 c) niet vervuld (loon gedragen door VI in werkstaat) ⇒ werkstaat mag heffen | **FR** + BE (vrijstelling met progressievoorbehoud) 🔗 |\n| 1 dag/week | Duitsland | Duitse dochter, aparte arbeidsovereenkomst | Art. 15 §1, 2de zin + §2 b) niet vervuld (werkgever is inwoner van werkstaat) ⇒ werkstaat mag heffen | **DE** + BE (vrijstelling met progressievoorbehoud) 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vertrekpunt — woonstaatbeginsel (art. 4 OESO-MV).** De heer B. is fiscaal inwoner van België; België belast hem in principe op zijn wereldwijde inkomen (art. 5 WIB92). 📖\n\n**Art. 15 §1 OESO-MV — basisregel niet-zelfstandige arbeid.** Lonen zijn **uitsluitend belastbaar in de woonstaat**, *tenzij* de dienstbetrekking in de andere verdragsstaat wordt uitgeoefend; in dat geval mag *die andere staat* (de werkstaat) heffen op het loon dat slaat op de daar uitgeoefende arbeid. 📖\n\n**Stap 1 — 3 dagen in België (woonstaat = werkstaat).** Arbeid wordt in de woonstaat uitgeoefend → de uitzondering speelt niet → **enkel BE heft**. 🔗\n\n**Stap 2 — 1 dag in Frankrijk.** De arbeid wordt in FR uitgeoefend, dus FR mag in principe heffen (art. 15 §1, 2de zin). De uitzondering van **art. 15 §2 OESO-MV (183-dagenregel)** geeft de heffing terug aan de woonstaat **enkel als de drie voorwaarden cumulatief vervuld zijn**: (a) ≤ 183 dagen/12 mnd in werkstaat, (b) werkgever is geen inwoner van werkstaat, (c) loon wordt **niet gedragen door een vaste inrichting** van de werkgever in de werkstaat. Hier is voorwaarde (c) geschonden — de Belgische vennootschap rekent het loon door aan haar **Franse vaste inrichting** — dus de §2-uitzondering valt weg en **FR behoudt zijn heffingsbevoegdheid** op 1/5 van het loon. 🔗\n\n**Stap 3 — 1 dag in Duitsland.** Voor de Duitse werkdag sluit B. een **afzonderlijke arbeidsovereenkomst met de Duitse dochtervennootschap**. De werkgever in de zin van art. 15 §2 b) is dan de Duitse dochter (inwoner van DE) — voorwaarde (b) is geschonden — dus §2 speelt niet en **DE belast** 1/5 van het loon. 🔗\n\n**Stap 4 — vermijding dubbele belasting in België.** Onder de DBV's BE-FR (1964, aangepast) en BE-DE (1967) past België voor lonen de **vrijstellingsmethode met progressievoorbehoud** toe: de in FR/DE belastbare loondelen worden in BE vrijgesteld, maar meegerekend om het *tarief* op het overblijvende Belgische loondeel te bepalen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De **183-dagenregel** (art. 15 §2) is **geen automatische vrijstelling** voor korte buitenlandse opdrachten — alle drie de voorwaarden (a-b-c) moeten **cumulatief** vervuld zijn. Eén dag per week (≈ 52 dagen/jaar) blijft ruim onder 183 dagen, maar zodra het loon door een vaste inrichting in de werkstaat wordt **gedragen** (FR-casus) óf zodra de **werkgever zelf inwoner is van de werkstaat** (DE-casus, aparte arbeidsovereenkomst), valt §2 weg en mag de werkstaat heffen — ongeacht het lage aantal dagen. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 15 OESO-Modelverdrag (Income From Employment)** — §1 toewijzing aan werkstaat zodra arbeid daar wordt uitgeoefend; §2 cumulatieve uitzondering (183 dagen + niet-inwoner-werkgever + niet-doorrekening aan VI). **Art. 4 OESO-MV** — woonplaats (BE-rijksinwoner). **Art. 5 WIB92** — Belgische rijksinwoners zijn aan PB onderworpen op hun wereldwijd inkomen. **Art. 155 WIB92** — vrijstelling met progressievoorbehoud voor bij verdrag vrijgesteld buitenlands beroepsinkomen. Concrete heffingsverdeling moet steeds worden gelezen via de **bilaterale DBV's BE-FR en BE-DE**, die voor lonen de OESO-Modelregel volgen.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

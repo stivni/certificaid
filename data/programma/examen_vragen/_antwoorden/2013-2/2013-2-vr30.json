@@ -1,0 +1,101 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr30",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Boekjaar 2012** — Het Italiaans bijkantoor is een **vaste inrichting** in de zin van art. 5 OESO-modelverdrag; krachtens art. 7 OESO-MV behoort de bijkantoor-winst (en dus ook het verlies) tot Italië's belastingbevoegdheid en is zij in België krachtens art. 23A OESO-MV **bij verdrag vrijgesteld**. De Belgische vennootschap is echter belastbaar op haar **wereldwijde winst** (art. 5 WIB 92), zodat het Italiaanse verlies in het Belgische wereldwijd resultaat opgenomen wordt en — bij het ontbreken van vrijgestelde verdragwinst om het op aan te rekenen — **in mindering komt van de Belgische winst** van 2012. 🔗 **Boekjaar 2013** — De Italiaanse bijkantoor-winst is in principe **bij verdrag vrijgesteld** (art. 7 + 23A OESO-MV; aangifte VenB code 1433/1408 — \"bij verdrag vrijgestelde winst\"). Maar omdat het verlies van 2012 reeds in België in mindering kwam **en** in 2013 in Italië nogmaals fiscaal aftrekbaar is, geldt een **recapture-mechanisme** (art. 185, § 3 WIB 92 — destijds reeds in voege voor aanslagjaar 2014): de in 2013 in België vrij te stellen verdragwinst wordt **verhoogd met het bedrag van het in 2012 in België reeds afgetrokken Italiaans verlies**, zodat dat verlies effectief in België wordt **teruggenomen** en in 2013 belast. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Stappen — boekjaar 2012**:\n\n1. Het bijkantoor voldoet aan art. 5, lid 2, b) OESO-MV (\"a branch\") — voorwaarden vervuld (vaste bedrijfsinrichting met volledige verkoopcyclus). 📖\n2. Onder art. 7, lid 1 OESO-MV mogen ondernemingswinsten toerekenbaar aan de vaste inrichting belast worden door de bronstaat (Italië). 📖\n3. België vermijdt de dubbele belasting door **vrijstelling met progressievoorbehoud** (art. 23A OESO-MV; in het feitelijke BE-IT-verdrag is dit de gangbare methode). 📖\n4. Voor de aangifte VenB 2012: het wereldwijd resultaat (BE-winst min IT-verlies) is positief en kleiner dan de BE-winst alleen → de Belgische belastbare grondslag wordt verminderd ten belope van het Italiaanse verlies. 🔗\n\n**Stappen — boekjaar 2013**:\n\n1. Italiaans resultaat 2013 = positief; in beginsel vrijgesteld via art. 23A OESO-MV → afzondering bij \"bij verdrag vrijgestelde winst\" in de driesplitsing (huidige codes 1433/1419/1430 — destijds vak III van de aangifte). 🔗\n2. **Recapture (art. 185, § 3 WIB 92)** — voor zover een buitenlands verlies in een vorig belastbaar tijdperk in mindering werd gebracht van de Belgische winst, wordt de latere verdragwinst niet meer vrijgesteld tot dat beloop. 🔗\n3. Resultaat: in 2013 wordt de Italiaanse bijkantoor-winst in België belast tot beloop van het 2012-verlies; het saldo (winst 2013 − teruggenomen verlies 2012) blijft vrijgesteld. ❓ — zie nuance hieronder.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "**Tijdslijn art. 185, § 3 WIB 92** — de recapture-regel voor buitenlandse verliezen verbonden aan een via verdrag vrijgestelde vaste inrichting werd op zijn huidige vorm gebracht door de Wet van 11 december 2008 (omzetting Fusierichtlijn) en geldt voor verliezen geleden vanaf aanslagjaar 2010. In 2013 was de regel dus reeds van toepassing — het examen veronderstelt dit kader impliciet. Op verdragniveau steunt de recapture daarnaast op de **Velasquez-doctrine** (HvJ 15 mei 2008, C-414/06, *Lidl Belgium* en HvJ 23 oktober 2008, C-157/07, *Krankenheim Ruhesitz*): de vrijstelling mag worden hersteld wanneer het verlies in de bronstaat alsnog wordt verrekend. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **vrijstellingsmethode** (art. 23A OESO-MV — België voor PE-winst) niet met de **verrekeningsmethode** (art. 23B OESO-MV — België voor passieve inkomsten zoals roerende inkomsten met FBB). Voor een Italiaanse vaste inrichting geldt vrijstelling met progressievoorbehoud, niet credit. 🔗 Tweede valkuil: het verlies wordt **niet** verrekend tegen latere **Belgische** winst — het wordt in 2012 onmiddellijk geneutraliseerd in het wereldwijd resultaat (geen overdracht-mechanisme nodig). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**OESO-modelverdrag**: art. 5 (vaste inrichting — een bijkantoor is uitdrukkelijk een PE, art. 5, lid 2, b) 📖; art. 7, lid 1 (ondernemingswinsten toerekenbaar aan de PE belastbaar in de bronstaat) 📖; art. 23A (vrijstellingsmethode in de woonstaat). 📖 **WIB 92**: art. 5 (wereldwijde belastbaarheid binnenlandse vennootschap); art. 185, § 3 (recapture van eerder in BE afgetrokken verlies van een verdragwinst-vrijgestelde inrichting) 🔗; art. 206/4 (driesplitsing van het resultaat naar oorsprong — Belgische / niet-vrijgestelde buitenlandse / verdragvrijgestelde winst) 📖. **Dubbelbelastingverdrag BE-Italië** (Overeenkomst 29 april 1983) volgt OESO-MV-stramien; vrijstellingsmethode voor PE-winst.",
+          "wetsref": "art. 5 + 7 + 23A OESO-MV; art. 5, 185 § 3, 206/4 WIB 92; DBV BE-IT 29 april 1983",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja — twee adviezen**: (1) **pas de voorafbetalingen aan** vanaf het ogenblik dat het bijkantoor structureel winst maakt, want vanaf 2013 wordt — door de recapture — opnieuw een aanzienlijk Belgisch belastbaar bedrag verwacht, zodat de huidige VA-raming (gemaakt zonder rekening met het bijkantoor) een **belastingvermeerdering wegens onvoldoende voorafbetalingen** (art. 218 WIB 92) zal oproepen; (2) **documenteer en monitor de winsttoerekening aan de PE** conform de OESO-richtlijnen voor toerekening (Authorised OECD Approach — art. 7, lid 2 OESO-MV 2010), zodat verschillen tussen de Italiaanse en Belgische winstbepaling later geen dubbele belasting (en evenmin dubbele niet-belasting) oproepen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Waarom de VA aanpassen?**\n\n- In 2012 hebben de bestaande VA waarschijnlijk de Belgische **enkelvoudige** winst gedekt; door de verliesimputatie was de werkelijke belasting lager → mogelijk **teveel** betaalde VA (terugbetaalbaar of overdraagbaar). 🔗\n- In 2013 doet zich het omgekeerde voor: door de recapture van het 2012-verlies wordt het Italiaans winst-aandeel tot dat beloop **belastbaar in België**, **bovenop** de overige Belgische winst. De VA voor 2013, geraamd zonder bijkantoor, zijn dan **structureel ontoereikend**. 🔗\n- Gevolg zonder bijsturing: **vermeerdering wegens onvoldoende voorafbetalingen** (art. 218 § 1 WIB 92 j° art. 157-168 WIB 92) — de fictieve aanslag wordt verhoogd met een percentage afhankelijk van het tekort en het kwartaal. 🔗\n\n**Toerekening — waarom monitoren?**\n\n- Art. 7, lid 2 OESO-MV legt het **separate enterprise** / arm's length-beginsel op voor de winsttoerekening aan de PE.\n- Bij divergerende toerekening tussen IT en BE kan een conflict ontstaan over hoeveel winst aan IT wordt toegerekend (en dus in BE vrijgesteld of teruggenomen). Goede transfer-documentatie en consistente analytische boekhouding van het bijkantoor zijn essentieel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De vennootschap kan voor de raming van haar VA voortaan rekening houden met (i) de **terugneming van het verlies** in 2013, (ii) de **vrijstelling** voor het saldo van de Italiaanse winst, en (iii) de **belasting in Italië** zelf (die louter de Italiaanse aangifte raakt — geen Belgische FBB op verdragvrijgestelde PE-winst). De gunstigste timing voor VA is **VA1** (eerste kwartaal): hoogste vermeerderingsbonus en dus laagste netto-kost om de tekorten van vorige kwartalen weg te werken. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**WIB 92**: art. 157-168 (regime van de voorafbetalingen — vermeerdering wegens ontoereikende VA, kwartaal-bonificaties) en art. 218 (vermeerdering van toepassing op vennootschappen, met uitzonderingen voor kleine vennootschappen in eerste drie boekjaren). 🔗 **OESO-MV**: art. 7, lid 2 (Authorised OECD Approach — winsttoerekening aan PE als ware zij een onafhankelijke onderneming). 📖",
+          "wetsref": "art. 157-168, 218 WIB 92; art. 7, lid 2 OESO-MV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

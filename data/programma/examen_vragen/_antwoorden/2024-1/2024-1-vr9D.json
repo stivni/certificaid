@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr9D",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Eén maand**, te rekenen vanaf de **derde werkdag** volgend op de verzending van de vraag om inlichtingen. De termijn kan om **wettige redenen** worden verlengd. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 316 WIB 92 verplicht eenieder onderworpen aan PB, VenB, RPB of BNI om op verzoek van de administratie **schriftelijk** alle gevraagde inlichtingen over zijn fiscale toestand te verstrekken. De wettelijke termijn bedraagt één maand, met als startpunt niet de verzendingsdatum zelf, maar de **derde werkdag** die op de verzending volgt — dit geeft de belastingplichtige een minimale reactietijd voor de postbedeling. 📖 De administratie behoudt daarnaast het recht om **mondelinge** inlichtingen te vragen (zonder vaste termijn). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Dezelfde termijn (één maand vanaf de derde werkdag, verlengbaar om wettige redenen) geldt parallel in de **Vlaamse Codex Fiscaliteit** (art. 3.13.1.2.3 VCF) en het **Waals Decreet** van 6 mei 1999 (art. 10) voor de gewestelijke belastingen — een geharmoniseerde regel over de drie niveaus. 📖 Bij niet- of onvolledige beantwoording binnen de termijn riskeert de belastingplichtige een **administratieve boete** (art. 445 WIB 92) en kan de administratie overgaan tot **aanslag van ambtswege** (art. 351 WIB 92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 316 WIB 92: \"(…) verplicht de administratie, op haar verzoek, binnen een maand te rekenen van de derde werkdag volgend op de verzending van de aanvraag, welke termijn wegens wettige redenen kan worden verlengd, schriftelijk alle inlichtingen te verstrekken (…).\" 📖",
+          "wetsref": "Art. 316 WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

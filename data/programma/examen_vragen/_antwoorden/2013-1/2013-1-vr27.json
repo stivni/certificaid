@@ -1,0 +1,153 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr27",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — **Ja, registratie is verplicht**. Het gaat om een akte die de eigendom van een in België (Leuven) gelegen onroerend goed overdraagt; zulke akten zijn altijd onderworpen aan verplichte registratie, ook als ze voor een buitenlandse notaris worden verleden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Reg.W. art. 19, 2° onderwerpt **\"de akten waarbij de eigendom of het vruchtgebruik van in België gelegen onroerende goederen overgedragen of aangewezen wordt\"** aan de verplichte registratie. 📖 De verplichting hangt aan de aard van de akte (eigendomsoverdracht BE-vastgoed), niet aan de hoedanigheid van de instrumenterende notaris. 🔗 Optie b is dus fout; optie c (facultatief met zekere datum) verwart dit met onderhandse akten die niet onroerend zijn — voor onroerende overdrachten is registratie geen vrije keuze. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Reg.W. art. 19, 2° — akten van eigendomsoverdracht of vruchtgebruik van in België gelegen onroerende goederen moeten binnen de termijnen van art. 32 worden geregistreerd. 📖",
+          "wetsref": "Reg.W. art. 19, 2°",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** — **Vandenbroucke en Leroy tezamen**. Omdat de akte voor een **buitenlandse** notaris (NL) is verleden, kan de Belgische wet de notaris niet als verantwoordelijke aanwijzen; in dat geval zijn de **contracterende partijen** (verkoper én koper) hoofdelijk gehouden tot aanbieding ter registratie en betaling van het recht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor akten verleden door een **Belgische** notaris is die notaris zelf gehouden tot registratie (Reg.W. art. 35, 1°). 🔗 Die regel is hier niet toepasselijk — meester Vandewielen is notaris te Amsterdam, buiten het Belgisch toezicht. 🔗 Voor in het buitenland verleden akten betreffende Belgische onroerende goederen rust de verplichting daarom op **alle partijen bij de akte**, hoofdelijk (Reg.W. art. 35, 4° + art. 35 in fine). 🔗 Optie c is fout (de Nederlandse notaris is niet door de Belgische wet vatbaar); opties a en b alleen zijn onvolledig (beide partijen zijn gehouden); optie e is fout (de wet wijst wel degelijk verantwoordelijken aan). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Bij een **Belgische** notaris zou het antwoord \"de notaris\" zijn (optie c-analoog). De val zit in het detail \"notaris te Amsterdam\" — wie dat overleest, kiest verkeerd. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Reg.W. art. 35: de instrumenterende (Belgische) notaris is in beginsel gehouden; voor akten verleden in het buitenland en voor onderhandse akten zijn de partijen bij de akte hoofdelijk gehouden. 🔗",
+          "wetsref": "Reg.W. art. 35",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** — **4 maanden**. Voor in het buitenland verleden akten die in België aan de registratieformaliteit moeten worden onderworpen, geldt een termijn van vier maanden te rekenen vanaf de datum van de akte (in plaats van de gewone notaristermijn van 15 dagen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Reg.W. art. 32, 1° legt de standaardtermijn vast op **15 dagen voor akten van (Belgische) notarissen**. 📖 Voor akten verleden voor een buitenlandse notaris (zoals hier) en voor onderhandse akten betreffende Belgisch onroerend goed bedraagt de termijn echter **vier maanden** vanaf de datum van de akte. 🔗 De akte van 17 december 2012 zou dus uiterlijk 17 april 2013 ter registratie moeten aangeboden worden. 🔗 Opties a (15 dagen — alleen voor Belgische notarissen), b (1 maand) en c (2 maanden — alleen voor PV's bij openbare verkoop) passen niet; optie e (geen termijn) is fout want art. 32 voorziet wél een termijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Reg.W. art. 32: 15 dagen voor akten van notarissen; voor in het buitenland verleden akten en voor onderhandse akten betreffende onroerende goederen in België geldt een verlengde termijn van vier maanden. 🔗",
+          "wetsref": "Reg.W. art. 32, 1° + art. 33",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "f",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **f** — **€ 278.000**. Belastbare grondslag = prijs van het onroerend goed (€ 275.000, na aftrek van het meubilair) **+** de achterstallige mede-eigendomslasten van € 3.000 die de koper ten voordele van de verkoper overneemt; het notarisereloon (€ 5.000) en het meubilair (€ 25.000) tellen niet mee. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "| Component | Bedrag | In grondslag? |\n|---|---:|---|\n| Verkoopprijs totaal | 300.000 | — |\n| − Meubilair (roerend) | −25.000 | ❌ niet in grondslag (roerend goed) 🔗 |\n| Prijs onroerend | **275.000** | ✅ basis 📖 |\n| + Last: achterstallige mede-eigendomslasten van verkoper, overgenomen door koper | +3.000 | ✅ last bedongen t.v.v. verkoper 🔗 |\n| + Notarisereloon (€ 5.000) | — | ❌ professionele kost ten voordele van notaris, geen \"last bedongen ten voordele van de verkoper\" 🔗 |\n| **Belastbare grondslag** | **278.000** | |\n\n**Minimum-toets** (art. 46): de grondslag mag niet lager zijn dan de **verkoopwaarde** van het onroerend goed (€ 250.000). 278.000 ≥ 250.000 → minimum-regel niet bindend. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Drie klassieke vallen: (1) het **meubilair** meerekenen — dat is roerend en valt buiten het verkooprecht op onroerend goed (er is hooguit een afzonderlijke kwalificatie nodig; € 25.000 is voldoende laag/aannemelijk om als roerend te aanvaarden mits behoorlijk gespecifieerd in de akte). 🤖 (2) Het **notarisereloon** als last opvoeren — dit is een vergoeding aan de notaris voor zijn dienstverlening, niet een prestatie bedongen ten voordele van de verkoper, en wordt dus niet bij de grondslag gevoegd. 🔗 (3) De **verkoopwaarde van € 250.000** als grondslag nemen — die fungeert enkel als ondergrens (art. 46), niet als plafond; ze \"verdringt\" de hogere prijs+lasten niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Reg.W. art. 45 (oud, pre-VCF — voor akten verleden vóór 1 januari 2015 in Vlaanderen): de grondslag is **de overeengekomen prijs verhoogd met de lasten** die de verkrijger ten voordele van de overdrager draagt. 📖 Art. 46: de grondslag mag in geen geval **lager zijn dan de verkoopwaarde** van het overgedragen onroerend goed. 📖 (Sinds 01.01.2015 geldt voor Vlaams gelegen vastgoed VCF art. 2.9.3.0.1; voor een akte van 17 december 2012 zijn dat nog de federale/oude bepalingen.) 🔗",
+          "wetsref": "Reg.W. art. 45 + 46",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

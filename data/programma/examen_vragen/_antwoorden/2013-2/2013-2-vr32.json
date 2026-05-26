@@ -1,0 +1,130 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr32",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_cluster_note": "Canonical voor cluster 2.5-c1 (echt_duplicaat met 2014-1-vr39 — wateroverlast i.p.v. staking, 12 i.p.v. 10 dagen). Eén modelantwoord dekt beide.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja**, de vraag om inlichtingen is regelmatig naar haar aard. Art. 323 WIB laat de administratie toe om bij een belastingplichtige inlichtingen op te vragen over **derden** (zelfs niet met name aangeduide groepen) met wie hij rechtstreeks of onrechtstreeks in betrekking is geweest uit hoofde van zijn beroepswerkzaamheid. Identiteit van leveranciers, aantallen en aankoopprijzen vallen daar zonder meer onder. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee regimes naast elkaar in het WIB:\n\n- **Art. 316 WIB** — vraag om inlichtingen aan de belastingplichtige zelf over **zijn eigen** fiscale toestand. 📖\n- **Art. 323 WIB** — vraag om inlichtingen aan diezelfde belastingplichtige (of een andere natuurlijke/rechtspersoon) over **derden** met wie hij in betrekking is geweest. 📖\n\nDe drie gevraagde elementen — identiteit leveranciers, aantal aangekochte ketels/schermen, aankoopprijs en korting — zijn typische derdeninlichtingen: ze dienen om de fiscale toestand van de leveranciers te controleren, niet die van de cliënt zelf. Art. 323 vereist enkel dat het gaat om verrichtingen waarin de aangezochte (rechts)persoon rechtstreeks of onrechtstreeks betrokken was — een aankoop bij een leverancier voldoet daaraan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar art. 316 (eigen toestand, vaste termijn van 1 maand vanaf de 3de werkdag na verzending) niet met art. 323 (derden, termijn vrij door de administratie bepaald). Een examenvraag die de termijn van 1 maand ook op derdenonderzoek toepast, is fout. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 323 WIB 1992: de administratie mag van natuurlijke of rechtspersonen, binnen de door haar bepaalde termijn (verlengbaar wegens wettige redenen), de overlegging vorderen van inlichtingen over elke persoon of groep van personen — zelfs niet met name aangeduid — met wie zij rechtstreeks of onrechtstreeks in betrekking zijn geweest uit hoofde van hun verrichtingen of activiteiten. 📖",
+          "wetsref": "Art. 323 WIB 1992",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja**, de termijn is wettelijk. Voor een derdenonderzoek (art. 323 WIB) bepaalt de **administratie zelf** de antwoordtermijn — er is geen wettelijke minimumduur. Een termijn van 10 dagen (of 12 dagen in de variant van 2014-1-vr39) is dus rechtsgeldig. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het cruciale onderscheid:\n\n- **Art. 316 WIB** (eigen toestand): de termijn is **wettelijk vastgelegd** op één maand, te rekenen vanaf de derde werkdag na verzending van de vraag. 📖\n- **Art. 323 WIB** (derden): de wet zegt enkel \"binnen de door haar bepaalde termijn\" — de administratie bepaalt dus zelf hoe lang de geadresseerde krijgt. 📖\n\nDe wet stelt enkel als grens dat de termijn **redelijk** moet zijn (algemene beginselen van behoorlijk bestuur). In de praktijk is 10 of 12 dagen voor een gerichte vraag over een afgebakende productlijn (verwarmingsketels XYZ100 / Sumsang-schermen 123ZXY) doorgaans niet onredelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De rechter kan een door de administratie opgelegde termijn die manifest onredelijk kort is afkeuren op grond van het redelijkheidsbeginsel; in concreto zal dat bij 10-12 dagen voor afgebakende vragen zelden lukken. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 323 WIB 1992: \"binnen de door haar bepaalde termijn, welke wegens wettige redenen kan worden verlengd\". Geen wettelijke minimum- of standaardduur — vergelijk met de vaste maand-termijn van art. 316 WIB voor de belastingplichtige zelf. 📖",
+          "wetsref": "Art. 323 WIB 1992 (vgl. art. 316 WIB)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Schriftelijk en gemotiveerd een verlenging vragen** binnen de oorspronkelijke termijn, met beroep op de **wettige reden** (staking / wateroverlast = overmacht: de stukken zijn fysiek onbereikbaar). Art. 323 WIB voorziet die verlenging uitdrukkelijk. Best aangetekend, met bewijsstukken (politievaststelling, verzekeringsattest, persbericht over de staking). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concrete stappen voor de cliënt:\n\n- **Reageer binnen de oorspronkelijke termijn** (10 of 12 dagen) — niet wachten tot de termijn verstreken is. 🔗\n- **Stuur een aangetekende brief** aan de bevoegde controleambtenaar met (i) verwijzing naar de vraag om inlichtingen, (ii) beschrijving van de overmachtssituatie, (iii) **vraag om verlenging** met opgave van de gevraagde nieuwe einddatum (bv. 3 weken na hervatting toegang). 🔗\n- **Voeg bewijsstukken bij**: voor staking → vakbondsbericht of persbericht over de piketten; voor wateroverlast → vaststelling brandweer/politie, foto's, verzekeringsdossier. 🔗\n- **Bevestig de bereidheid om mee te werken** zodra de stukken opnieuw raadpleegbaar zijn — passieve niet-antwoording riskeert een aanslag van ambtswege (art. 351 WIB) en administratieve boetes (art. 445 WIB). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een verlenging vragen is geen \"toestemming met terugwerkende kracht\": wie de oorspronkelijke termijn laat verstrijken zonder iets te doen, staat juridisch in gebreke — zelfs als de overmacht objectief vaststaat. Het schriftelijk **vooraf** vragen van uitstel is dus essentieel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 323 WIB 1992: de door de administratie bepaalde termijn \"kan wegens wettige redenen worden verlengd\". Overmacht (stakingspiketten die toegang verhinderen, wateroverlast die het bedrijf onbereikbaar maakt) is een typische wettige reden. Sancties bij niet-medewerking: aanslag van ambtswege (art. 351 WIB) en administratieve geldboete (art. 445 WIB). 📖",
+          "wetsref": "Art. 323 WIB 1992 (verlenging); art. 351 + art. 445 WIB 1992 (sancties)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

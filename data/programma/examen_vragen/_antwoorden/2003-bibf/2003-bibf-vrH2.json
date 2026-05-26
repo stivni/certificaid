@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrH2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Drie hoofdgevolgen: (1) de administratie kan een **aanslag van ambtswege** vestigen op vermoede inkomsten met **omkering van de bewijslast** (art. 351-352 WIB92) 📖, (2) er wordt een **belastingverhoging** van 10% tot 200% opgelegd op de laattijdig aangegeven inkomsten (art. 444 WIB92) 📖, en (3) de **aanslagtermijn** wordt verlengd van drie naar **vier jaar** vanaf 1 januari van het aanslagjaar (art. 354 §1, tweede lid WIB92). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Concrete gevolgen voor de belastingplichtige uit de casus** (geen bijkomende termijn aangevraagd, aangifte laattijdig toegekomen):\n\n- **Aanslag van ambtswege (art. 351 WIB92)** — de administratie mag de aanslag vestigen op het bedrag van de belastbare inkomsten dat zij kan **vermoeden** op grond van de gegevens waarover zij beschikt. Vóór de vestiging stuurt de administratie een aangetekende brief met de redenen, het vermoede bedrag en de gegevens; de belastingplichtige beschikt dan over **één maand** om zijn opmerkingen te formuleren. 📖\n- **Omkering van de bewijslast (art. 352 WIB92)** — het is voortaan **de belastingplichtige** die het bewijs moet leveren van het juiste bedrag van zijn belastbare inkomsten. Hij verliest dus de gunstige positie waarin de administratie de belastbaarheid moet aantonen. 📖\n- **Belastingverhoging (art. 444 WIB92 + art. 225-229 KB/WIB92)** — op de belasting verschuldigd op het laattijdig aangegeven inkomstengedeelte komt een verhoging van **10% tot 200%**, volgens een schaal die afhangt van de aard en ernst van de overtreding. Voor een eerste laattijdige aangifte zonder bedrieglijk opzet is dat doorgaans de laagste trap. 📖\n- **Verlengde aanslagtermijn (art. 354 §1, tweede lid WIB92)** — bij laattijdige overlegging van de aangifte mag de belasting worden gevestigd gedurende **vier jaar** (in plaats van drie) vanaf 1 januari van het aanslagjaar. De administratie krijgt dus een jaar extra om zijn aanslag te vestigen. 📖\n- **Administratieve boete** — daarnaast kan de administratie een afzonderlijke administratieve geldboete opleggen wegens overtreding van de aangifteverplichting (art. 445 WIB92). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De **aanslag van ambtswege** is geen sanctie op zich, maar een **procedure**: de eigenlijke sanctie zit in de **omkering van de bewijslast** en in de **belastingverhoging**. In de praktijk komt dat hard aan: de administratie schat zelf de inkomsten op grond van vorige aangiftes of beschikbare gegevens, en de belastingplichtige moet vervolgens zelf aantonen dat dat bedrag te hoog is — niet andersom. 🔗 Verder mag de aanslag van ambtswege pas worden gevestigd **na** de aangetekende kennisgeving en het verstrijken van de antwoordtermijn van één maand; doet de administratie dat niet, dan is de aanslag aanvechtbaar wegens vormgebrek. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 351 WIB92** (aanslag van ambtswege bij niet- of laattijdige aangifte, met kennisgevings- en één-maand-antwoordtermijn). **Art. 352 WIB92** (omkering bewijslast — belastingplichtige moet het juiste bedrag bewijzen). **Art. 354 §1, tweede lid WIB92** (aanslagtermijn verlengd tot vier jaar bij niet- of laattijdige aangifte). **Art. 444 WIB92** + **art. 225-229 KB/WIB92** (belastingverhoging 10%-200% volgens aard en ernst). 📖",
+          "wetsref": "Art. 351, 352, 354 §1 en 444 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

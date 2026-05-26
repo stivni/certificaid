@@ -8,7 +8,7 @@ gegenereerd_op: 2026-05-26
 
 # PO 2.5 — Fiscale procedure
 
-**14 unieke vraag-eenheden** (waarvan 2 clusters, totaal 16 voorkomens) uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 0 met modelantwoord
+**14 unieke vraag-eenheden** (waarvan 2 clusters, totaal 16 voorkomens) uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 2 met modelantwoord
 
 <a id="2015-1-vr41"></a>
 
@@ -271,7 +271,22 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: a**
+> > 
+> > **_Optie **a** — voor een administratieve BTW-inregelstelling (reclamatie/klacht bij de BTW-administratie) geldt geen specifieke vervaltermijn; ze kan worden ingediend zolang de fiscale verjaringstermijn (in beginsel 3 jaar, in bepaalde gevallen 7 jaar) niet verstreken is. 🔗_**
+> > 
+> > Anders dan in de directe belastingen (waar art. 366 WIB92 een bezwaartermijn van 6 maanden oplegt) kent het BTW-Wetboek géén bijzondere termijn voor het indienen van een administratief bezwaar (de zogenaamde "inregelstelling" / "reclamatie"). De belastingplichtige kan zich tot de gewestelijke directeur (toen) wenden zolang de schuld niet door verjaring is uitgedoofd. 🔗
+> > 
+> > **Per optie**:
+> > - **a** (geen termijn binnen verjaring) → JUIST — sluit aan bij de vaste rechtsleer en administratieve praktijk inzake BTW-reclamatie. 🔗
+> > - **b** (3 kalendermaanden vanaf invorderingstermijn, op straffe van verval) → FOUT — bestaat niet als wettelijke regel voor de BTW-reclamatie. 🤖
+> > - **c** (einde derde burgerlijke maand na betekening dwangbevel) → FOUT — verwart met de termijn voor **verzet tegen het dwangbevel** (art. 89 W.BTW / art. 1408 e.v. Ger.W. — 1 maand, geen 3 maanden) en betreft bovendien een gerechtelijke vordering, niet een administratieve inregelstelling. 🔗
+> > - **d** (30 dagen vanaf overzicht regularisaties) → FOUT — geen wettelijke vervaltermijn; het regularisatieoverzicht is een informatieve administratieve handeling, geen termijntrigger. 🤖
+> > 
+> > Niet verwarren met **drie verschillende termijnen** die wél bestaan in BTW-procedure: (i) **verzet tegen het dwangbevel** = binnen de termijn vermeld in het dwangbevel zelf, via gerechtsdeurwaardersexploot voor de rechtbank van eerste aanleg (geen administratieve weg); (ii) **fiscale verjaringstermijn** voor de BTW-schuld zelf = 3 jaar, verlengd tot 7 jaar bij fraude of niet-aangifte (art. 81bis W.BTW); (iii) **bezwaartermijn directe belastingen** = 6 maanden (art. 366 WIB92) — die geldt NIET voor BTW. ❓
+> > 
+> > *BTW-Wetboek (W. 3 juli 1969) bevat geen artikel dat een vervaltermijn oplegt voor een administratief bezwaar/reclamatie tegen een BTW-aanslag of regularisatie; de enige harde tijdslimiet is de verjaring van de BTW-vordering zelf (art. 81bis W.BTW: 3 jaar, uitzonderlijk 7 jaar). Art. 92bis W.BTW regelt enkel de schorsende werking van gerechtelijke beroepstermijnen, niet de administratieve klacht. 🔗*  
+> > *Bron: Art. 81bis W.BTW; cf. art. 92bis W.BTW (schorsing tenuitvoerlegging)*
 
 <a id="2003-bibf-vrH2"></a>
 
@@ -284,4 +299,17 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_Drie hoofdgevolgen: (1) de administratie kan een **aanslag van ambtswege** vestigen op vermoede inkomsten met **omkering van de bewijslast** (art. 351-352 WIB92) 📖, (2) er wordt een **belastingverhoging** van 10% tot 200% opgelegd op de laattijdig aangegeven inkomsten (art. 444 WIB92) 📖, en (3) de **aanslagtermijn** wordt verlengd van drie naar **vier jaar** vanaf 1 januari van het aanslagjaar (art. 354 §1, tweede lid WIB92). 📖_**
+> > 
+> > **Concrete gevolgen voor de belastingplichtige uit de casus** (geen bijkomende termijn aangevraagd, aangifte laattijdig toegekomen):
+> > 
+> > - **Aanslag van ambtswege (art. 351 WIB92)** — de administratie mag de aanslag vestigen op het bedrag van de belastbare inkomsten dat zij kan **vermoeden** op grond van de gegevens waarover zij beschikt. Vóór de vestiging stuurt de administratie een aangetekende brief met de redenen, het vermoede bedrag en de gegevens; de belastingplichtige beschikt dan over **één maand** om zijn opmerkingen te formuleren. 📖
+> > - **Omkering van de bewijslast (art. 352 WIB92)** — het is voortaan **de belastingplichtige** die het bewijs moet leveren van het juiste bedrag van zijn belastbare inkomsten. Hij verliest dus de gunstige positie waarin de administratie de belastbaarheid moet aantonen. 📖
+> > - **Belastingverhoging (art. 444 WIB92 + art. 225-229 KB/WIB92)** — op de belasting verschuldigd op het laattijdig aangegeven inkomstengedeelte komt een verhoging van **10% tot 200%**, volgens een schaal die afhangt van de aard en ernst van de overtreding. Voor een eerste laattijdige aangifte zonder bedrieglijk opzet is dat doorgaans de laagste trap. 📖
+> > - **Verlengde aanslagtermijn (art. 354 §1, tweede lid WIB92)** — bij laattijdige overlegging van de aangifte mag de belasting worden gevestigd gedurende **vier jaar** (in plaats van drie) vanaf 1 januari van het aanslagjaar. De administratie krijgt dus een jaar extra om zijn aanslag te vestigen. 📖
+> > - **Administratieve boete** — daarnaast kan de administratie een afzonderlijke administratieve geldboete opleggen wegens overtreding van de aangifteverplichting (art. 445 WIB92). 🔗
+> > 
+> > De **aanslag van ambtswege** is geen sanctie op zich, maar een **procedure**: de eigenlijke sanctie zit in de **omkering van de bewijslast** en in de **belastingverhoging**. In de praktijk komt dat hard aan: de administratie schat zelf de inkomsten op grond van vorige aangiftes of beschikbare gegevens, en de belastingplichtige moet vervolgens zelf aantonen dat dat bedrag te hoog is — niet andersom. 🔗 Verder mag de aanslag van ambtswege pas worden gevestigd **na** de aangetekende kennisgeving en het verstrijken van de antwoordtermijn van één maand; doet de administratie dat niet, dan is de aanslag aanvechtbaar wegens vormgebrek. 📖
+> > 
+> > ***Art. 351 WIB92** (aanslag van ambtswege bij niet- of laattijdige aangifte, met kennisgevings- en één-maand-antwoordtermijn). **Art. 352 WIB92** (omkering bewijslast — belastingplichtige moet het juiste bedrag bewijzen). **Art. 354 §1, tweede lid WIB92** (aanslagtermijn verlengd tot vier jaar bij niet- of laattijdige aangifte). **Art. 444 WIB92** + **art. 225-229 KB/WIB92** (belastingverhoging 10%-200% volgens aard en ernst). 📖*  
+> > *Bron: Art. 351, 352, 354 §1 en 444 WIB92*

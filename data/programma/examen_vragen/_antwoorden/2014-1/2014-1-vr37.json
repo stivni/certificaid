@@ -1,0 +1,96 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr37",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja**, de financieel directeur heeft gelijk: in jaar 2 wordt de Belgische vennootschap effectief belast op een **belastbare grondslag van 4.000** (Belgische winst 2.000 + recapture VI-verlies jaar 1 van 1.000 + niet-vrijgestelde Italiaanse VI-winst 1.000), hoewel de boekhoudkundige (wereldwijde) winst slechts 3.000 bedraagt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Jaar 1** — toerekening van het VI-verlies:\n\n| Post | Bedrag |\n|---|---:|\n| Belgische winst | +2.000 |\n| VI Italië verlies | -1.000 |\n| Globaal (boekhoudkundig) resultaat | 1.000 |\n| Aanrekening verlies VI (art. 206/4 WIB 92): verlies in verdragsland → eerst op andere landen-winst → bij ontoereiken op Belgische winst | -1.000 op Belgische winst |\n| **Belgische belastbare grondslag jaar 1** | **1.000** |\n\nHet Italiaanse VI-verlies van 1.000 wordt in jaar 1 fiscaal aangerekend op de Belgische winst, omdat er geen andere verdrags-vrijgestelde winst was om het op te zetten (art. 206/4 WIB 92). 📖\n\n**Jaar 2** — recapture en globalisatie:\n\n| Post | Bedrag |\n|---|---:|\n| Belgische winst | +2.000 |\n| VI Italië winst | +1.000 |\n| Boekhoudkundige (wereldwijde) winst | 3.000 |\n| Recapture: het in jaar 1 op de Belgische winst aangerekende VI-verlies wordt nu \"teruggehaald\" — de VI-winst van jaar 2 wordt eerst aangewend om dat verlies te recupereren en is in die mate **niet vrijgesteld** | +1.000 (niet-bij-verdrag-vrijgestelde winst) |\n| **Belgische belastbare grondslag jaar 2** | **2.000 + 1.000 = 3.000 belastbaar in BE-tarief**, maar in de globale aangifte wordt de VI-winst eerst toegevoegd (4.000) en pas daarna de bij-verdrag-vrijgestelde fractie afgetrokken |\n\nMechaniek volgens de Belgische aangifte (art. 206/4 WIB 92 + commentaar): de wereldwijde winst 3.000 wordt globaal aangegeven; daarna wordt de VI-winst van 1.000 die nodig is om het in jaar 1 verrekende verlies te \"recupereren\" als **niet-vrijgestelde** buitenlandse winst behandeld (geen tweede aftrek toegestaan voor wat reeds in jaar 1 als verlies werd genoten). Pas wanneer in een volgend jaar de VI nog méér winst maakt dan het cumulatieve eerder verrekende verlies, wordt het surplus vrijgesteld. 🔗\n\nNetto-effect over de twee jaren: jaar 1 belast op 1.000 + jaar 2 belast op 3.000 = **4.000** Belgisch belastbaar over twee jaar, terwijl de cumulatieve wereldwijde winst 1.000 + 3.000 = 4.000 bedraagt. De recapture neutraliseert dus enkel het tijdelijke voordeel dat België in jaar 1 verleende. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De directeur spreekt over \"belast worden op 4.000\" — let op de interpretatie: het gaat om het **bedrag dat in de Belgische aangifte als belastbare grondslag wordt aangegeven na recapture** (Belgische winst 2.000 + recapture-fractie 1.000 + nog-niet-recupereerbaar deel 1.000 = 4.000 brutto-grondslag vóór aftrek van de bij-verdrag-vrijgestelde winst). Indien er in jaar 2 méér VI-winst zou zijn (bv. 1.500), dan zou enkel 1.000 als recapture niet-vrijgesteld blijven en de overige 500 wél bij verdrag vrijgesteld worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 206/4 WIB 92** — drie-oorsprongen-onderverdeling van de winst (Belgisch / niet-bij-verdrag-vrijgesteld buitenland / bij-verdrag-vrijgesteld buitenland), met **expliciete recapture-regel**: \"verliezen geleden in een land waarvoor de winst bij verdrag vrijgesteld is\" worden eerst aangerekend op de bij-verdrag-vrijgestelde winst van andere landen, en bij ontoereiken op de Belgische of niet-bij-verdrag-vrijgestelde winst — met als gevolg dat latere VI-winsten in dezelfde mate **niet** meer worden vrijgesteld tot het eerder verrekende verlies is gerecupereerd. 📖\n\n**Art. 7 OESO-Modelverdrag** — *Business Profits*: de winst van een onderneming is enkel belastbaar in de woonstaat, **tenzij** de onderneming in de andere staat een vaste inrichting heeft; in dat geval mag de andere staat de aan de VI toerekenbare winst belasten. 📖\n\n**Art. 23 A OESO** — *Exemption method* (toegepast in het BE-IT-verdrag): de woonstaat (België) stelt de in de bronstaat (Italië) belastbare VI-winst vrij. Het verdrag verhindert echter niet dat België intern (via art. 206/4 WIB 92) een **recapture-mechanisme** toepast voor verliezen die eerder met Belgische winst werden gecompenseerd — dit raakt niet de vrijstelling-an-sich maar herstelt het wereldwijde-winst-beginsel over meerdere jaren. 🔗",
+          "wetsref": "art. 206/4 WIB 92; art. 7 + art. 23 A OESO-Modelverdrag 2017; Verdrag BE-IT tot vermijding van dubbele belasting van 29.04.1983",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het OESO-modelverdrag wijst de heffingsbevoegdheid over **ondernemingswinsten van een vaste inrichting toe aan de bronstaat** (art. 7), terwijl de **woonstaat** die winst **vrijstelt** via de exemption-methode (art. 23 A) — maar de woonstaat behoudt het recht om **eerder gecompenseerde VI-verliezen** later via een recapture op te nemen in de belastbare grondslag, om het globale winstbeginsel over de tijd te respecteren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Beginselen van de OESO-modelovereenkomst die hier samenkomen:**\n\n1. **Woonstaatbeginsel + bronstaatuitzondering voor VI's** (art. 7 §1 OESO): ondernemingswinsten zijn principieel belastbaar in de woonstaat (België), tenzij er een vaste inrichting in de bronstaat (Italië) is — dan mag Italië belasten wat aan die VI toerekenbaar is. 📖\n\n2. **Vrijstellingsmethode (exemption with progression)** — art. 23 A OESO: het verdrag België-Italië volgt de vrijstellingsmethode. België stelt de Italiaanse VI-winst principieel vrij van Belgische vennootschapsbelasting; in ruil belast Italië die VI-winst. Doel: dubbele belasting vermijden. 🔗\n\n3. **Globale-winst-beginsel van de woonstaat** (intern Belgisch recht, art. 206/4 WIB 92, niet door het verdrag verboden): België vertrekt voor de aangifte altijd van de **wereldwijde winst** (Belgisch + buitenlands) en past pas daarna de toewijzingsregels toe. Verliezen in een verdragsland worden in eerste instantie aangerekend op winst uit andere landen — dit is een **interne** Belgische volgorde die het OESO-verdrag onaangetast laat. 📖\n\n4. **Recapture-beginsel (terugname van eerder benut verlies)**: omdat het VI-verlies van jaar 1 (1.000) effectief de Belgische belastbare grondslag heeft verlaagd, mag België in een later jaar **niet tweemaal** voordeel laten ontstaan. Wanneer de VI weer winstgevend wordt, wordt het deel van de VI-winst dat overeenkomt met het eerder verrekende verlies **niet vrijgesteld** (1.000 in jaar 2), totdat het verlies volledig gerecupereerd is. Pas surplus daarboven valt opnieuw onder de verdragsvrijstelling. 🔗\n\n**Toepassing op de casus:**\n- Jaar 1: Italiaanse VI-verlies 1.000 wordt aangerekend op Belgische winst 2.000 → BE belast op 1.000. Italië heft niets (verlies).\n- Jaar 2: Italiaanse VI-winst 1.000 wordt door Italië belast (art. 7 OESO — bronstaatheffing). België vertrekt van de wereldwijde winst 3.000; van die wereldwijde winst is 1.000 VI-winst **niet vrijgesteld** wegens recapture (cfr. jaar 1) → BE belastbare grondslag = 2.000 (BE) + 1.000 (recapture) + 1.000 (VI-winst die wel in de aangifte komt vóór toepassing van de drie-oorsprongen-aftrek) = 4.000 vóór de definitieve vrijstellingsaftrek. Netto blijft de Belgische heffing beperkt tot 3.000 (2.000 BE + 1.000 recapture), maar in de aangifte verschijnt 4.000 als wereldwijd resultaat vóór vrijstelling. 🔗\n\nHet ogenschijnlijke verschil (boekhoudkundige winst 3.000 versus belastbare aangifte 4.000) is dus geen schending van het verdrag, maar het logische gevolg van de combinatie van: globaal-winst-aangifte (BE) + vrijstellingsmethode (OESO art. 23 A) + recapture van eerder genoten verlies-aftrek (intern recht). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Sommige stagiairs denken dat de vrijstellingsmethode (art. 23 A OESO) impliceert dat de Italiaanse VI-winst **nooit** in een Belgische belastbare basis verschijnt. Dat is onjuist: de winst wordt **wel** opgenomen in de wereldwijde winst en pas daarna afgetrokken als bij-verdrag-vrijgesteld inkomen. Bovendien blokkeert het verdrag niet dat België via art. 206/4 WIB 92 **eerder met Belgische winst gecompenseerde VI-verliezen** later recupereert door de overeenkomstige VI-winst niet vrij te stellen — een mechanisme dat het Hof van Justitie in arrest *Krankenheim Ruhesitz* (C-157/07, 2008) verenigbaar achtte met de vrijheid van vestiging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 7 OESO-Modelverdrag 2017** — *Business Profits*: \"Profits of an enterprise of a Contracting State shall be taxable only in that State unless the enterprise carries on business in the other Contracting State through a permanent establishment situated therein.\" Bronstaat (IT) mag heffen op VI-winst; rest blijft in de woonstaat (BE). 📖\n\n**Art. 23 A OESO** — *Exemption method*: de woonstaat stelt het inkomen vrij dat overeenkomstig het verdrag in de bronstaat belastbaar is. Het BE-IT-verdrag van 29.04.1983 volgt deze methode voor ondernemingswinsten.\n\n**Art. 206/4 WIB 92** — interne Belgische volgorde van verliesaanrekening + impliciete recapture: \"Verliezen geleden in een land waarvoor de winst bij verdrag vrijgesteld is\" worden eerst op de bij-verdrag-vrijgestelde winst aangerekend, daarna op de Belgische / niet-bij-verdrag-vrijgestelde winst. Een latere VI-winst is dan in dezelfde mate **niet** opnieuw vrijgesteld tot het verlies gerecupereerd is. 📖",
+          "wetsref": "art. 7 + art. 23 A OESO-Modelverdrag 2017; art. 206/4 WIB 92; Verdrag BE-IT 29.04.1983 tot vermijding van dubbele belasting",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+            "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

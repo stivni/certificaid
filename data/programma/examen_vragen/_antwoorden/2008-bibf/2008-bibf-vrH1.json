@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrH1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Vraag stamt uit 2008-examen; toen gold een bezwaartermijn van 6 maanden (gepubliceerd modelantwoord-hint in interpretatie). Sinds de wet van 25.04.2014 (gefaseerd in werking vanaf aj. 2017, definitief vanaf 01.09.2014) is de termijn art. 371 WIB92 uitgebreid tot één jaar. Het antwoord geeft het actuele regime (1 jaar) als hoofdregel en signaleert de historische 6-maanden-regel als valkuil, conform de doelstelling “de stagiair voorbereiden op het huidige examen”.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een rechtsgeldig bezwaar tegen een aanslag in de personenbelasting wordt **schriftelijk, gemotiveerd en ondertekend** ingediend bij de **adviseur-generaal van de administratie belast met de vestiging van de inkomstenbelastingen** (de vroegere “gewestelijk directeur”) van het ambtsgebied waar de aanslag werd gevestigd, en dit binnen een termijn van **één jaar** te rekenen vanaf de **derde werkdag volgend op de verzendingsdatum** van het aanslagbiljet (art. 366 j° art. 371 WIB92). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Vormvereisten van het bezwaarschrift** (art. 366 – 371 WIB92):\n\n- **Schriftelijk**: per brief (bij voorkeur aangetekend voor bewijs van datum), per fax, per e-mail of via MyMinfin. Een aangetekende zending is niet wettelijk verplicht, maar wordt sterk aanbevolen — de poststempel geldt als datum van indiening. 🔗\n- **Gericht aan de adviseur-generaal** van de administratie belast met de vestiging van de inkomstenbelastingen in wiens ambtsgebied de aanslag is gevestigd (art. 366 WIB92). Verkeerd geadresseerd? Het bezwaar blijft geldig vanaf de datum van ontvangst door de andere ambtenaar of dienst (art. 366, tweede lid WIB92). 📖\n- **Gemotiveerd**: de bezwaargronden moeten duidelijk in het stuk staan, op straffe van verval (art. 371 WIB92). 📖\n- **Ondertekend** door de belastingschuldige of zijn lasthebber (advocaat, accountant met volmacht). 🔗\n- **Indientermijn**: één jaar vanaf de derde werkdag volgend op de verzending van het aanslagbiljet (art. 371 WIB92). Aanvullende grieven kunnen, zolang er geen beslissing is, ook na het verstrijken van die termijn worden ingediend. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Termijn is gewijzigd sinds 2008.** Het 2008-modelantwoord vermeldde nog “6 maanden”, conform art. 371 WIB92 zoals dat toen luidde. De wet van 25.04.2014 (programmawet) heeft de bezwaartermijn **verlengd tot één jaar**. Voor het huidige examen geldt dus **1 jaar** — niet 6 maanden. 🔗\n\n**Niet verwarren met de gewestelijke belastingen.** Voor Vlaamse gewestbelastingen geldt art. 3.5.2.0.1 VCF (3 maanden); voor Brusselse gewestelijke belastingen geldt art. 100 Brusselse Codex Fiscale Procedure (186 dagen). De “1 jaar”-regel slaat enkel op federale inkomstenbelastingen (WIB92). 🔗\n\n**“Gewestelijk directeur” is verouderde terminologie**: sinds de Coperfin-hervorming spreekt de WIB van **adviseur-generaal**. Een bezwaarschrift dat de oude benaming gebruikt blijft uiteraard geldig, maar in een examen-antwoord verdient de actuele term de voorkeur. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijke grondslag** 📖\n\n- **Art. 366 WIB92** — bevoegde overheid: de adviseur-generaal van de administratie belast met de vestiging van de inkomstenbelastingen in wiens ambtsgebied de aanslag, verhoging en boete zijn gevestigd. Een bezwaarschrift dat verkeerd geadresseerd is, blijft geldig vanaf de datum van ontvangst door de andere ambtenaar of dienst (incl. fiscale bemiddelingsdienst).\n- **Art. 371 WIB92** — vorm en termijn: gemotiveerd, op straffe van verval, binnen een termijn van **één jaar** te rekenen van de **derde werkdag volgend op de datum van verzending** van het aanslagbiljet (of van de kennisgeving van de aanslag bij inning op andere wijze dan per kohier).\n- **Historiek**: 6 maanden onder de versie van art. 371 vóór de wet van 25.04.2014; sindsdien één jaar.",
+          "wetsref": "art. 366 + art. 371 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

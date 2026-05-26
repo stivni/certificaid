@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr43",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** — bestelbonnen maken deel uit van de boekhouding als **verantwoordingsstukken** en moeten op verzoek van de administratie worden voorgelegd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 315 WIB92 verplicht de belastingplichtige (incl. vennootschappen) om op verzoek van de administratie **\"alle boeken en bescheiden voor te leggen die noodzakelijk zijn om het bedrag van zijn belastbare inkomsten te bepalen\"**. 📖 De voorleggingsplicht is dus niet beperkt tot de \"wettelijk verplichte\" boeken (dagboek, inventarisboek), maar omvat ook de **verantwoordingsstukken** die de inschrijvingen in de boekhouding staven (art. III.86 WER: elke boeking moet steunen op een gedateerd verantwoordingsstuk). 🔗 Bestelbonnen behoren tot die verantwoordingsstukken — ze documenteren aan- en verkoop-transacties — en delen daarmee in de voorleggings- én bewaringsplicht (7 jaar, art. III.86 WER + art. 8 KB 21 oktober 2018). 🔗\n\n**Per optie**:\n- **a** → FOUT — verwart \"verplicht te voeren boeken\" met de voorleggings­plicht; de plicht uit art. 315 WIB92 strekt zich uit tot álle bescheiden die voor de belastingbepaling relevant zijn, inclusief verantwoordingsstukken. 🔗\n- **b** → FOUT — bestelbonnen maken **wel** deel uit van de boekhouding (verantwoordingsstukken, art. III.86 WER). 🔗\n- **c** → FOUT — de drager (papier/elektronisch) doet er niet toe; art. 315bis WIB92 voegt enkel een extra plicht toe voor geïnformatiseerde boekhoudingen, maar verandert niets aan de inhoudelijke voorleggingsplicht. 🔗\n- **d** → JUIST. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de **bewaringsplicht**: de Boekhoudwet/WER (art. III.86 WER + KB 21/10/2018 art. 8) legt een bewaringstermijn van **7 jaar** op voor boeken en verantwoordingsstukken (3 jaar voor stukken die niet als bewijs jegens derden hoeven te dienen — CBN-advies 2011/21). 📖 Bewaringsplicht en voorleggingsplicht zijn twee verschillende plichten met dezelfde scope: alles wat bewaard moet worden, moet op verzoek ook worden voorgelegd. Bestelbonnen vallen onder beide. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-21-bewaring-van-de-boeken-en-verantwoordingsstukken.md",
+            "resources/bronnen/wetteksten/WER.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 315 WIB92**: voorlegging van alle boeken en bescheiden noodzakelijk voor de bepaling van de belastbare inkomsten, op verzoek van de administratie, zonder verplaatsing. 📖 **Art. III.86 WER**: elke boeking geschiedt op grond van een gedateerd verantwoordingsstuk; verantwoordingsstukken worden methodisch opgeborgen en 7 jaar bewaard. 📖 Bestelbonnen vallen als verantwoordingsstukken onder beide bepalingen. 🔗",
+          "wetsref": "Art. 315 WIB92; Art. III.86 WER; Art. 8 KB 21 oktober 2018",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WER.md",
+            "resources/bronnen/adviezen/CBN-2011-21-bewaring-van-de-boeken-en-verantwoordingsstukken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

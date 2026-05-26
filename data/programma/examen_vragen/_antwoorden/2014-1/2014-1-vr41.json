@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr41",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "e",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **e** — minst foute keuze: het kantoor moet antwoorden binnen **1 maand** (art. 62 WBTW). ❓ Strikt genomen is geen enkele optie volledig juist: art. 62 omvat óók inlichtingen \"in hoofde van derden\", terwijl e dat beperkt tot de eigen toestand. De termijn van 1 maand in e is wél correct; alle andere opties geven een foute termijn (c: geen, d: 20 dagen) of een foute hoofdregel (a: absoluut zwijgrecht, b: voorafgaande toestemming klant).",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- **a** — FOUT. Het beroepsgeheim van de accountant ontheft hem niet van de algemene antwoordplicht in art. 62 WBTW. De boekhouding, bewijsstukken en belastingaangiftes van de klant vallen bovendien sowieso niet onder het beroepsgeheim. 🔗\n- **b** — FOUT. Art. 62 WBTW legt een autonome wettelijke verplichting op; voorafgaande schriftelijke toestemming van de klant is geen wettelijke voorwaarde. 🔗\n- **c** — FOUT op het termijn-element. De scope (eigen toestand én toestand van derden, mondeling of schriftelijk) is letterlijk uit art. 62 WBTW, maar de bewering \"geen wettelijke termijn\" klopt niet: er is wel degelijk een termijn van 1 maand (10 dagen bij rechten Schatkist in gevaar). 📖\n- **d** — FOUT. De termijn van 20 dagen bestaat niet in art. 62 WBTW. De wettelijke termijn is 1 maand (uitzonderlijk 10 dagen). 🔗\n- **e** — Termijn (1 maand) correct, maar scope te eng: art. 62 verplicht antwoorden zowel over de eigen toestand als over de toestand van derden. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het beroepsgeheim van de accountant (art. 458 Sw. + ITAA-deontologie) is **geen** vrijgeleide om fiscale inlichtingenverzoeken te weigeren. De ITAA-norm bevestigt dat de fiscale controlebevoegdheden \"geen enkele uitzondering op het beroepsgeheim met zich meebrengen\" — maar dat betekent enkel dat documenten die *werkelijk* onder het beroepsgeheim vallen (vertrouwelijke confidenties) niet hoeven te worden overhandigd. De gewone boekhoudstukken, dagboeken, rekeningen en belastingaangiftes van de klant vallen **niet** onder het beroepsgeheim en moeten dus wel worden meegedeeld. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 62 WBTW**: \"Onverminderd het recht van de administratie ... tot het vragen van mondelinge inlichtingen, is eenieder gehouden, op ieder verzoek van de ambtenaren ..., binnen een maand vanaf de derde werkdag volgend op de verzending van de vraag om inlichtingen, ... schriftelijk alle inlichtingen te verschaffen die hem gevraagd worden teneinde de juiste heffing van de belasting in zijnen hoofde of in hoofde van derden na te gaan.\" Termijn teruggebracht tot 10 dagen wanneer de rechten van de Schatkist in gevaar zijn. 📖 ITAA-deontologie bevestigt dat het beroepsgeheim geen ontheffing is van deze fiscale antwoordplicht, maar wél een hindernis vormt voor de overdracht van stukken die werkelijk onder het beroepsgeheim vallen. 📖",
+          "wetsref": "Art. 62 WBTW; ITAA-deontologie-beroepsgeheim §11",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

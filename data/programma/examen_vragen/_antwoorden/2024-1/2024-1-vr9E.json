@@ -1,0 +1,67 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr9E",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Onder de bewaarplicht vallen**: de wettelijke boeken (dagboeken, centraal boek, inventarisboek), de verantwoordingsstukken (facturen, kasstukken, bankuittreksels, contracten) en — op fiscaal vlak — alle boeken en bescheiden die nodig zijn om het belastbaar inkomen te bepalen. **Termijn**: **10 jaar fiscaal** (WIB92 art. 315, lid 4 — sinds aanslagjaar 2023) en **7 jaar boekhoudkundig** (WER art. III.86 / KB 21.10.2018 art. 8); voor stukken die niet als bewijs jegens derden hoeven te dienen volstaat **3 jaar**. De termijn loopt vanaf **1 januari volgend op het afsluiten van het boekjaar**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WER.md",
+            "resources/bronnen/wetteksten/KB-21-10-2018.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Te bewaren stukken**:\n\n- **Wettelijke boeken**: het ongesplitste dagboek (of de hulpdagboeken aankoop / verkoop / financieel), het centraal boek en het inventarisboek. Voor deze moet het **origineel** worden bewaard. 📖\n- **Verantwoordingsstukken**: facturen (ontvangen + uitgereikte), kasstukken, bankuittreksels, contracten, leveringsbonnen — in origineel of afschrift. 📖\n- **Fiscaal (WIB92 art. 315)**: alle boeken en bescheiden noodzakelijk om het belastbaar inkomen te bepalen; voor vennootschappen tevens **registers van aandelen en obligaties op naam** en **presentielijsten van algemene vergaderingen**. 📖\n- **Elektronische dossiers (WIB92 art. 315bis)**: analyses, programma's en informatiedragers van het gebruikte boekhoudsysteem moeten ter inzage voorgelegd kunnen worden. 📖\n\n**Termijnen** (samengevat):\n\n| Stuk | Termijn | Grondslag |\n|---|---|---|\n| Boeken + verantwoordingsstukken (boekhoudrecht) | **7 jaar** | WER art. III.86 + KB 21.10.2018 art. 8 |\n| Boeken en bescheiden (fiscaal) | **10 jaar** (sinds aj. 2023; voorheen 7 jaar) | WIB92 art. 315, lid 4 |\n| Stukken zonder bewijswaarde t.o.v. derden | **3 jaar** | WER art. III.86 |\n| Btw-facturen en boeken | **10 jaar** (sinds 2023; voorheen 7) | W.Btw art. 60 |\n| Boeken/bescheiden na vereffening vennootschap | **5 jaar** vanaf bekendmaking sluiting vereffening | WVV (art. 2:103) |\n\nDe **aanvangsdatum** is steeds 1 januari van het jaar dat volgt op de afsluiting van het boekjaar (resp. op de datum van de stukken). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WER.md",
+            "resources/bronnen/wetteksten/KB-21-10-2018.md",
+            "resources/bronnen/adviezen/CBN-2011-21-bewaring-van-de-boeken-en-verantwoordingsstukken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "**Bewaring kan elektronisch én in het buitenland**, mits (i) onveranderlijkheid en toegankelijkheid van de gegevens gewaarborgd blijven gedurende de volledige bewaartermijn (KB 12 september 1983 art. 9, lid 2), (ii) authenticiteit en leesbaarheid bewezen kunnen worden, en (iii) de stukken **on-line rechtstreeks toegankelijk** blijven vanaf de Belgische bedrijfszetel zodra de administratie erom verzoekt. Wie elektronisch bewaart moet ook de **software en systemen** waarmee de bestanden leesbaar zijn meebewaren. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Boekhoudkundige (7 jaar) ≠ fiscale (10 jaar) termijn** — sinds de wet van 20 november 2022 (in werking aanslagjaar 2023) is de fiscale bewaartermijn van art. 315 WIB92 verlengd van 7 naar **10 jaar**, parallel met de verlenging van de onderzoeks- en aanslagtermijnen. In de praktijk is dus de **10-jaars-termijn** maatgevend voor stukken die fiscaal relevant zijn. Een stagiair die enkel de WER-termijn van 7 jaar noemt, antwoordt onvolledig op een PO 2.7-vraag (fiscale procedure). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Boekhoudrecht**: WER art. III.86 (boeken bewaren 7 jaar vanaf 1 januari volgend op de afsluiting) + KB 21 oktober 2018 art. 8 (idem; origineel voor dagboeken en inventarisboek). **Fiscaal**: WIB92 art. 315 (verplichting tot voorlegging van boeken en bescheiden) + lid 4 (bewaartermijn 10 jaar sinds aj. 2023; voorheen 7) + art. 315bis (elektronische dossiers). **CBN-adviezen 2010/14 en 2011/21** verduidelijken de modaliteiten (elektronische bewaring, bewaring in het buitenland, vereffeningstermijn 5 jaar). **Btw**: W.Btw art. 60 (10 jaar sinds 2023). 📖",
+          "wetsref": "WIB92 art. 315 + 315bis; WER art. III.86; KB 21.10.2018 art. 8; W.Btw art. 60; CBN-advies 2010/14 + 2011/21",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/WER.md",
+            "resources/bronnen/wetteksten/KB-21-10-2018.md",
+            "resources/bronnen/adviezen/CBN-2010-14-bewaring-van-boeken-en-verantwoordingsstukken.md",
+            "resources/bronnen/adviezen/CBN-2011-21-bewaring-van-de-boeken-en-verantwoordingsstukken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

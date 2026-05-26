@@ -1,0 +1,71 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr36",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Examen 2014-1: overlijden 12-08-2012 — pre-VCF (Vlaamse Codex Fiscaliteit 2015), dus federaal Wetboek der Successierechten van toepassing voor de aangifteplicht (art. 38). De PNG pagina_02.png in _segmenten/ blijkt een fragment van een andere vraag (boekhouding); de tabelstructuur wordt afgeleid uit de interpretatie (kwaliteits_flags: tabel_in_pdf_zichtbaar + ocr_artefact).",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Persoon | Hoedanigheid |\n|---|---|\n| Echtgenote Anne | Wettelijke (reservataire) erfgenaam 🔗 |\n| Dochter | Wettelijke (reservataire) erfgenaam 🔗 |\n| Mevr. Tanghe (geheel roerende goederen) | Algemeen legataris onder algemene titel 🔗 |\n| Mevr. Martin (de personenauto) | Bijzonder legataris 🔗 |\n| Mevr. Cambier (volledige nalatenschap na aftrek) | Algemeen legataris 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De hoedanigheid van een testamentair begiftigde hangt af van de **omvang van de roeping** in het testament 🔗:\n- **Algemeen legataris**: krijgt het geheel van de nalatenschap, of het beschikbaar deel ervan. Mw. Cambier is geroepen tot 'de volledige nalatenschap na aftrek van de voorgaande legaten' — een vocatio universalis. Dat zij feitelijk minder ontvangt door samenloop met de andere legaten verandert haar roeping niet 🔗.\n- **Legataris onder algemene titel**: krijgt een **breuk** of een **categorie** van de nalatenschap (alle roerende of alle onroerende goederen, of een breuk daarvan). Mw. Tanghe krijgt 'het geheel van de roerende goederen' — typische categorie-legaat 🔗.\n- **Bijzonder legataris**: krijgt een **welbepaald goed** (een res certa). Mw. Martin krijgt de personenauto — één geïndividualiseerd goed 🔗.\n- **Wettelijke erfgenaam**: erft op grond van de wet (afstamming/huwelijk), los van enig testament. Anne (overlevende echtgenoot) en de dochter zijn beiden reservataire erfgenamen wier voorbehouden erfdeel het testament niet kan aantasten 🔗.\n\nDe kwalificatie 'begiftigde onder algemene titel' uit de tabel-opties is een term die in dit dossier niet van toepassing is — die slaat traditioneel op begiftigden van een schenking onder algemene titel bij leven, niet op testamentaire begiftigden.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Persoon | Aangifteplicht? |\n|---|---|\n| Echtgenote Anne | **Ja** — wettelijke erfgenaam 📖 |\n| Dochter | **Ja** — wettelijke erfgenaam 📖 |\n| Mevr. Tanghe | **Nee** — legataris onder algemene titel valt onder de uitsluiting van art. 38, 1° W.Succ. 📖 |\n| Mevr. Martin | **Nee** — bijzonder legataris is uitgesloten 📖 |\n| Mevr. Cambier | **Ja** — algemeen legataris 📖 |",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 38, 1° van het Wetboek der Successierechten bepaalt dat de aangifte van successie ingeleverd moet worden 'door de erfgenamen, de algemene legatarissen en begiftigden, **met uitsluiting van alle andere legatarissen of begiftigden**' 📖. De drie aangifteplichtige categorieën zijn dus: (1) erfgenamen ab intestato (Anne, dochter), (2) algemene legatarissen (Cambier), (3) algemene begiftigden. Legatarissen onder algemene titel (Tanghe) en bijzondere legatarissen (Martin) zijn uitdrukkelijk uitgesloten 📖.\n\n**Subsidiair**: blijven de aangifteplichtigen in gebreke, dan kan de ontvanger bij aangetekende brief de legatarissen onder algemene of bijzondere titel verzoeken alsnog de aangifte in te dienen (art. 38, 2° lid W.Succ.) 📖. In dat geval krijgen Mw. Tanghe en Mw. Martin een **subsidiaire** aangifteplicht.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** ⚠ — het overlijden dateert van 12 augustus 2012, dus vóór de inwerkingtreding van de Vlaamse Codex Fiscaliteit (1 januari 2015). De aangifteplicht wordt beheerst door het **federale** Wetboek der Successierechten (art. 38), niet door de VCF art. 3.3.1.0.5 (die voor latere overlijdens in Vlaanderen dezelfde inhoudelijke regel hanteert) 🔗. De materiële inhoud is identiek, maar de juiste rechtsgrond per overlijdensdatum is een klassiek examenstrikje.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Hoedanigheid** — kwalificatie van legaten naar omvang van de roeping: algemeen / onder algemene titel / bijzonder (oud BW art. 1003-1010, thans BW Boek 4, art. 4.196-4.200). Reservataire erfgenamen (echtgenoot, afstammelingen): BW Boek 4 — wettelijke erfopvolging.\n\n**Aangifteplicht** — art. 38, 1° Wetboek der Successierechten (federaal, van toepassing op overlijden 2012): aangifte door erfgenamen, algemene legatarissen en algemene begiftigden, met uitsluiting van alle andere legatarissen en begiftigden. Subsidiaire aangifteplicht voor legatarissen onder algemene of bijzondere titel op aanmaning van de ontvanger (art. 38, 2° lid).",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Successierechten-federaal.md",
+            "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

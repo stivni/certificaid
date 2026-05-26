@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrH1",
+  "antwoord_datum": "2026-05-26T16:49:26Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — voor een administratieve BTW-inregelstelling (reclamatie/klacht bij de BTW-administratie) geldt geen specifieke vervaltermijn; ze kan worden ingediend zolang de fiscale verjaringstermijn (in beginsel 3 jaar, in bepaalde gevallen 7 jaar) niet verstreken is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Anders dan in de directe belastingen (waar art. 366 WIB92 een bezwaartermijn van 6 maanden oplegt) kent het BTW-Wetboek géén bijzondere termijn voor het indienen van een administratief bezwaar (de zogenaamde \"inregelstelling\" / \"reclamatie\"). De belastingplichtige kan zich tot de gewestelijke directeur (toen) wenden zolang de schuld niet door verjaring is uitgedoofd. 🔗\n\n**Per optie**:\n- **a** (geen termijn binnen verjaring) → JUIST — sluit aan bij de vaste rechtsleer en administratieve praktijk inzake BTW-reclamatie. 🔗\n- **b** (3 kalendermaanden vanaf invorderingstermijn, op straffe van verval) → FOUT — bestaat niet als wettelijke regel voor de BTW-reclamatie. 🤖\n- **c** (einde derde burgerlijke maand na betekening dwangbevel) → FOUT — verwart met de termijn voor **verzet tegen het dwangbevel** (art. 89 W.BTW / art. 1408 e.v. Ger.W. — 1 maand, geen 3 maanden) en betreft bovendien een gerechtelijke vordering, niet een administratieve inregelstelling. 🔗\n- **d** (30 dagen vanaf overzicht regularisaties) → FOUT — geen wettelijke vervaltermijn; het regularisatieoverzicht is een informatieve administratieve handeling, geen termijntrigger. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **drie verschillende termijnen** die wél bestaan in BTW-procedure: (i) **verzet tegen het dwangbevel** = binnen de termijn vermeld in het dwangbevel zelf, via gerechtsdeurwaardersexploot voor de rechtbank van eerste aanleg (geen administratieve weg); (ii) **fiscale verjaringstermijn** voor de BTW-schuld zelf = 3 jaar, verlengd tot 7 jaar bij fraude of niet-aangifte (art. 81bis W.BTW); (iii) **bezwaartermijn directe belastingen** = 6 maanden (art. 366 WIB92) — die geldt NIET voor BTW. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "BTW-Wetboek (W. 3 juli 1969) bevat geen artikel dat een vervaltermijn oplegt voor een administratief bezwaar/reclamatie tegen een BTW-aanslag of regularisatie; de enige harde tijdslimiet is de verjaring van de BTW-vordering zelf (art. 81bis W.BTW: 3 jaar, uitzonderlijk 7 jaar). Art. 92bis W.BTW regelt enkel de schorsende werking van gerechtelijke beroepstermijnen, niet de administratieve klacht. 🔗",
+          "wetsref": "Art. 81bis W.BTW; cf. art. 92bis W.BTW (schorsing tenuitvoerlegging)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

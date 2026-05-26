@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr9C",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De administratie stuurt het **bericht van wijziging** (aangetekend) **vóór het verstrijken van de aanslagtermijn**, en beschikt vanaf dan over een **bijkomende termijn van zes maanden** om de aanslag te vestigen — ook al is de gewone driejarige (of vierjarige bij niet-aangifte/complexe aangifte) aanslagtermijn ondertussen verstreken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Zonder die regel zou de procedure onmogelijk worden: art. 346 WIB92 verplicht de administratie de belastingplichtige na het bericht van wijziging **één maand** antwoordtijd te geven, en pas daarna mag de aanslag gevestigd worden. Als de driejarige aanslagtermijn van art. 354 §1 WIB92 binnen die maand verstrijkt, voorziet art. 354 §1, vierde lid WIB92 een **bijkomende termijn van zes maanden** te rekenen vanaf de verzending van het bericht van wijziging (of vanaf de kennisgeving van aanslag van ambtswege, art. 351). 🔗\n\nPraktisch: de administratie moet het bericht dus zeker **vóór 31 december van het derde jaar** (gewone termijn) verzenden — daarna kan de aanslag gevestigd worden tot uiterlijk zes maanden later, mits het bericht tijdig de deur uitging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De bijkomende termijn van zes maanden geldt **enkel voor het vestigen van de aanslag** — niet voor het verrichten van bijkomend onderzoek of voor het verzenden van het bericht zelf. Het bericht van wijziging moet **vóór** het verstrijken van de aanslagtermijn verzonden zijn; gebeurt dat te laat, dan is de aanslag verjaard en kan er niets meer rechtgezet worden via deze weg. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 346 WIB92 — bericht van wijziging per aangetekende brief, met motivering; belastingplichtige heeft één maand om te antwoorden (eventueel te verlengen om wettige redenen). Art. 354 §1, vierde lid WIB92 — wanneer een bericht van wijziging (art. 346) of een kennisgeving van aanslag van ambtswege (art. 351) verzonden is binnen de gewone aanslagtermijn (drie jaar, of vier jaar bij niet-aangifte/laattijdige/complexe aangifte), wordt die termijn **verlengd met zes maanden** vanaf de verzending om de aanslag te kunnen vestigen. 📖",
+          "wetsref": "Art. 346 + Art. 354 §1 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

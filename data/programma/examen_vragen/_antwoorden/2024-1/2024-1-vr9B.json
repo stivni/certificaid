@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr9B",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een rijksinwoner die België verlaat (emigreert) moet een **bijzondere aangifte personenbelasting** indienen voor het deel van het jaar waarin hij nog rijksinwoner was. Die aangifte moet de aanslagdienst bereiken **binnen drie maanden na de dag waarop de gronden van belastbaarheid zijn weggevallen** (= dag van vertrek). Hij vraagt daartoe zelf het aangifteformulier op bij zijn aanslagdienst — de gewone jaarlijkse aangiftecyclus wacht hij niet af. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concrete stappen voor de belastingplichtige die emigreert:\n\n1. **Aangifteformulier opvragen** bij de aanslagdienst waaronder hij ressorteert, zodra hij weet dat zijn rijksinwonerschap eindigt vóór 31 december. 📖\n2. **Bijzondere aangifte personenbelasting indienen** voor de periode van 1 januari tot de dag van vertrek (het stuk van het jaar waarin de gronden van belastbaarheid nog aanwezig waren). 📖\n3. **Termijn**: de aangifte moet binnen **drie maanden** na de dag waarop de gronden van belastbaarheid zijn weggevallen bij de aanslagdienst toekomen. 📖\n4. **Schrappen uit het bevolkingsregister** van de Belgische gemeente — dit is het feitelijke aanknopingspunt waaruit de fiscus afleidt dat het rijksinwonerschap eindigt (art. 2, §1, 1° WIB92 koppelt rijksinwonerschap aan de inschrijving in het Rijksregister / werkelijke verblijfplaats / zetel van fortuin). 🤖\n5. **Vermelding buitenlandse rekeningen / levensverzekeringen / juridische constructies** in de aangifte zelf (art. 307, §1 WIB92) blijft gelden voor het Belgische deel van het jaar. 🔗\n6. **Doorlopende verplichtingen voor Belgische inkomsten ná vertrek**: wie na vertrek nog Belgische inkomsten verkrijgt (onroerend goed in België, beroepsinkomen van Belgische bron, …) wordt **belasting niet-inwoners (BNI)** verschuldigd en moet daarvoor een afzonderlijke aangifte BNI/nat. personen indienen voor de volgende jaren. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De bijzondere aangifte bij vertrek is een **vervroegde** aangifte: de fiscus wacht niet tot het volgende kalenderjaar omdat de belastingplichtige zich anders aan de Belgische jurisdictie zou onttrekken vóór de aanslag gevestigd is. Praktisch verzendt de FOD Financiën, op melding van het vertrek (via gemeentelijke schrapping of via een vraag van de belastingplichtige), het aangifteformulier met aangepaste indieningstermijn. Wie de termijn van drie maanden mist, riskeert een aanslag van ambtswege (art. 351 WIB92) en de gebruikelijke administratieve boetes (art. 444 WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 305 WIB92** legt de algemene aangifteplicht in de personenbelasting op. **Art. 309 WIB92** voorziet de bijzondere regeling voor belastingplichtigen \"waarvoor de gronden voor belastbaarheid zoals bedoeld in artikel 360, inzake personenbelasting […], vóór 31 december zijn weggevallen\": zij vragen zelf een aangifteformulier voor het gedeelte van het jaar waarin die gronden nog aanwezig waren, en de aangifte moet bij de aanslagdienst toekomen **binnen drie maanden na de dag waarop de gronden van belastbaarheid zijn weggevallen**. 📖",
+          "wetsref": "Art. 305 + Art. 309 WIB92 (met verwijzing naar art. 360 WIB92)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

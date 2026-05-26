@@ -1,0 +1,62 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr35",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Gebruik de techniek van de **aanwijzing van lastgever (commandverklaring)**: de neef heeft in het onderhandse compromis al voorbehouden te kopen \"voor zichzelf of een later aan te wijzen persoon\". De neef wijst nu de BVBA Mokka aan als werkelijke koper via een **authentieke akte van aanwijzing van lastgever (akte van command)**, gevolgd door de **authentieke verkoopakte**. Mits de aanwijzing tijdig en bij authentieke akte geschiedt, wordt slechts éénmaal het evenredig verkooprecht geheven; de aanwijzingsakte zelf is onderworpen aan het algemeen vast recht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "| # | Sub-instructie | Antwoord |\n|---|---|---|\n| 1 | Akte(n) en terminologie | (i) **Akte van aanwijzing van lastgever** (akte van command / *déclaration de command*); (ii) **authentieke akte van verkoop** van het onroerend goed. 🔗 |\n| 2 | Ondertekenende partijen | (i) Aanwijzingsakte: **de neef** (de aangever / lastnemer-command) verklaart de BVBA Mokka als lastgever; in de praktijk verschijnt ook de BVBA Mokka om de aanwijzing te aanvaarden. De verkoper hoeft niet te verschijnen (eenzijdige verklaring). (ii) Verkoopakte: **de verkoper** en **de BVBA Mokka** als aangewezen koper. 🔗 |\n| 3 | Vorm | Beide akten moeten **authentiek** (notariële akte) zijn. De aanwijzing **moet** verplicht authentiek om fiscaal als loutere aanwijzing te gelden (art. 158, 1°, b W.Reg. federaal / art. 2.9.6.0.1, 1°, b VCF). De verkoopakte van een onroerend goed moet authentiek om te kunnen worden overgeschreven op het hypotheekkantoor (overschrijving = tegenwerpelijkheid aan derden). 📖 |\n| 4 | Registratieplicht | **Ja, beide akten moeten worden geregistreerd.** De verkoopakte van een onroerend goed is verplicht ter registratie aangeboden; de akte van aanwijzing moet ter formaliteit worden aangeboden (of bij gerechtsdeurwaardersexploot betekend) uiterlijk de **eerste werkdag na** de dag van het compromis, anders wordt de aanwijzing fiscaal als een wederverkoop beschouwd. 📖 |\n| 5 | Tarief | **Verkoopakte: evenredig recht** (verkooprecht op onroerende goederen). **Aanwijzingsakte: vast recht** (algemeen vast recht), mits de wettelijke voorwaarden voor de vrijstelling van het evenredig recht zijn nageleefd; zo niet → **evenredig recht** (de aanwijzing wordt dan als wederverkoop belast → tweemaal verkooprecht). 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Mechanisme.** De neef trad bij het compromis op in eigen naam, maar met het voorbehoud om de werkelijke koper later aan te duiden — een klassieke clausule om de eigenaar de identiteit (en koopkracht) van de BVBA Mokka niet te laten kennen. Fiscaal kwalificeert dit als een **aanwijzing van lastgever**: de neef wordt geacht steeds als lasthebber van de uiteindelijk aangewezen lastgever (BVBA Mokka) te hebben gehandeld, zodat er juridisch **één enkele overdracht** plaatsvindt (verkoper → BVBA Mokka), niet twee opeenvolgende verkopen. 🔗\n\n**Strenge voorwaarden om fiscaal als loutere aanwijzing te kwalificeren** (art. 158, 1° W.Reg. federaal / art. 2.9.6.0.1, 1° VCF):\n\n- (a) het **voorbehoud** om een lastgever aan te wijzen moet **in de oorspronkelijke koopakte (het compromis) opgenomen** zijn — in casu vervuld door de clausule \"voor zichzelf of enige andere later aan te wijzen persoon\"; 📖\n- (b) de aanwijzing moet **bij authentieke akte** geschieden; 📖\n- (c) de aanwijzing moet **uiterlijk de eerste werkdag na** het compromis ter registratie worden aangeboden of bij gerechtsdeurwaardersexploot aan de ontvanger worden betekend. 📖\n\nWordt aan één van die drie voorwaarden niet voldaan, dan wordt de aanwijzing voor de toepassing van het Wetboek der Registratierechten **als een wederverkoop beschouwd** → tweemaal evenredig verkooprecht (eerste op compromis, tweede op de aanwijzing). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De korte termijn (**uiterlijk de eerste werkdag na het compromis**) is in de praktijk de meest gemiste voorwaarde — een onderhandse koop op vrijdag laat enkel de maandag toe om de authentieke akte van aanwijzing te verlijden en aan te bieden. Wordt die termijn niet gehaald, dan is het fiscale voordeel verloren en betaalt men het verkooprecht **tweemaal**. Sinds 1 januari 2015 is voor in het Vlaams Gewest gelegen goederen de Vlaamse Codex Fiscaliteit (art. 2.9.6.0.1, 1° VCF) van toepassing; voor goederen in het Brussels of Waals Gewest blijft art. 158, 1° W.Reg. federaal van toepassing — de voorwaarden zijn quasi identiek. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 158, 1° W.Reg. (federaal)** — vrijstelling van het evenredig recht voor de aanwijzing van lastgever (*déclaration de command*) mits (a) voorbehoud in de koopakte, (b) authentieke akte van aanwijzing, (c) registratie/betekening uiterlijk de eerste werkdag na het contract. Bij niet-naleving: aanwijzing = wederverkoop. **Art. 2.9.6.0.1, 1° VCF** — Vlaamse pendant, identieke voorwaarden, sinds 01.01.2015 van toepassing op in Vlaanderen gelegen onroerende goederen. Verkoopakten van onroerende goederen zijn verplicht ter registratie aangeboden en onderworpen aan het **evenredig verkooprecht**; de akte van aanwijzing aan het **algemeen vast recht** mits de voorwaarden vervuld zijn. 📖",
+          "wetsref": "Art. 158, 1° W.Reg. federaal; Art. 2.9.6.0.1, 1° VCF",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

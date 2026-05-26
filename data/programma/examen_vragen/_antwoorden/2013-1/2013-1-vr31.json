@@ -1,0 +1,139 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr31",
+  "antwoord_datum": "2026-05-26T16:49:48Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De normale verjaringstermijn voor de vordering tot voldoening van de btw bedraagt **drie jaar**: ze verstrijkt na het verstrijken van het derde kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid van de belasting zich heeft voorgedaan. 📖 De termijn begint te lopen **vanaf de dag dat de vordering ontstaat** (d.i. de dag van opeisbaarheid van de btw). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 81 WBTW (aanvang verjaring: dag waarop de vordering ontstaat). Art. 81bis, § 1, eerste lid WBTW (verjaring na het verstrijken van het derde kalenderjaar volgend op het kalenderjaar van opeisbaarheid). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "In geval van belastingontduiking bedraagt de verjaringstermijn **zeven jaar**: ze verstrijkt na het verstrijken van het zevende kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid zich heeft voorgedaan. 📖 Het aanvangspunt is ongewijzigd: de termijn begint te lopen **vanaf de dag dat de vordering ontstaat** (art. 81 WBTW geldt voor alle verjaringstermijnen voor voldoening). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Voorwaarde voor toepassing",
+          "tekst": "De 7-jaarstermijn geldt enkel wanneer er een **bewezen bedrieglijk opzet of oogmerk om te schaden** is, of wanneer een aanwijzing van ontduiking blijkt uit een inlichting/onderzoek/controle uit een andere lidstaat, een rechtsvordering, of bewijskrachtige gegevens. 📖 Bovendien moet de administratie de belastingplichtige voorafgaandelijk schriftelijk en nauwkeurig kennis geven van de aanwijzingen van belastingontduiking (vormvereiste op straffe van nietigheid van de verlenging). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 81bis, § 1, derde lid WBTW (verlenging tot zevende kalenderjaar bij ontduiking — zie 1°-4°). Art. 84ter WBTW (verplichte voorafgaande schriftelijke en nauwkeurige kennisgeving van de aanwijzingen van ontduiking). Art. 81 WBTW (aanvangspunt). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Vanaf 27 januari 2013 kan de administratie binnen de **normale termijn** terug tot handelingen waarvan de btw opeisbaar werd in **2010** (verjaring eind 2013). Mits geldige aanwijzing van ontduiking (en correcte kennisgeving), kan ze binnen de **verlengde termijn** terug tot handelingen waarvan de btw opeisbaar werd in **2006** (verjaring eind 2013). 🔗 Het in de casus aangekondigde startpunt **1 januari 2005 is in alle gevallen verjaard** — 2005 verjaarde reeds op 31 december 2012. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Toepassing van art. 81bis § 1 WBTW op de controledatum 27/01/2013:\n\n- **Normale termijn (3 jaar)**: verjaart na het verstrijken van het 3e kalenderjaar volgend op het jaar van opeisbaarheid. Opeisbaarheid 2010 → verjaring 31/12/2013 → op 27/01/2013 nog open. Opeisbaarheid 2009 → verjaring 31/12/2012 → reeds verjaard. ⇒ **Tot 2010 terug.** 🔗\n- **Verlengde termijn (7 jaar) bij ontduiking**: verjaart na het verstrijken van het 7e kalenderjaar volgend op het jaar van opeisbaarheid. Opeisbaarheid 2006 → verjaring 31/12/2013 → nog open. Opeisbaarheid 2005 → verjaring 31/12/2012 → reeds verjaard. ⇒ **Tot 2006 terug.** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De termijn wordt geteld in **kalenderjaren** vanaf het jaar volgend op de opeisbaarheid, niet in 12-maandelijkse periodes vanaf de exacte datum van opeisbaarheid. Op 27/01/2013 zit men nog in het 3e kalenderjaar volgend op 2010 én in het 7e kalenderjaar volgend op 2006 — beide jaren zijn dus nog vatbaar voor invordering tot 31/12/2013. De administratie kan in casu dus **niet wettig teruggaan tot 1 januari 2005**, ongeacht de aanwijzing van ontduiking. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 81bis, § 1, eerste lid WBTW (3-jaarstermijn — \"na het verstrijken van het derde kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid zich heeft voorgedaan\"). Art. 81bis, § 1, derde lid WBTW (7-jaarstermijn bij ontduiking). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen**, de brief vormt **geen geldige aanwijzing van belastingontduiking** in de zin van art. 81bis § 1, derde lid juncto art. 84ter WBTW. De brief verwijst weliswaar naar het proces-verbaal van 27/01/2013, maar bevat **geen omschrijving van de vastgestelde feiten**: ze identificeert noch de aard, noch de periode, noch de concrete handelingen waarop het vermoeden van ontduiking steunt. 🔗 Bijgevolg kan de administratie zich niet beroepen op de verlengde 7-jaarstermijn en blijft enkel de normale 3-jaarstermijn van toepassing. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 84ter WBTW vereist dat de administratie, vooraleer zij de 7-jaarstermijn toepast, de belastingplichtige **voorafgaandelijk en schriftelijk** in kennis stelt van de **aanwijzingen** van ontduiking die in zijn hoofde bestaan en die het toepassen van die termijn rechtvaardigen. 📖 De rechtspraak en doctrine vereisen dat die kennisgeving **nauwkeurig** is: een loutere verwijzing zonder omschrijving van de feiten volstaat niet — de belastingplichtige moet weten welke gedragingen, welke periode en welk vermoeden hem worden tegengeworpen, opdat hij zijn rechten van verdediging kan uitoefenen. 🔗 De brief in casu vermeldt enkel dat er een grondige controle komt over 01/01/2005 – 27/01/2013, met verwijzing naar het PV, **zonder de vastgestelde feiten te omschrijven** → vormvereiste niet vervuld → de kennisgeving is niet rechtsgeldig en kan de 7-jaarstermijn niet activeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het PV van 27/01/2013 zelf stelt enkel een **tariefdiscussie** vast (6 % vs 12 % bij ter plaatse verbruikt voedsel) — dat is een kwalificatieprobleem, geen automatische aanwijzing van fraude. Een aanwijzing van ontduiking vereist een element van **opzet** of bedrieglijke handeling; een onjuiste tariefkeuze die op één controle-moment wordt vastgesteld levert dat opzet niet zonder meer op. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 84ter WBTW (voorafgaande schriftelijke en nauwkeurige kennisgeving van de aanwijzingen van ontduiking als vormvereiste vóór toepassing van de 7-jaarstermijn). Art. 81bis, § 1, derde lid WBTW (verlengde termijn). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

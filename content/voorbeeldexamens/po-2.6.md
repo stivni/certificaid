@@ -8,7 +8,7 @@ gegenereerd_op: 2026-05-26
 
 # PO 2.6 — Registratie- en successierechten
 
-**11 unieke vraag-eenheden** uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 0 met modelantwoord
+**11 unieke vraag-eenheden** uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 1 met modelantwoord
 
 <a id="2015-1-vr46"></a>
 
@@ -360,10 +360,93 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Vóór het verlijden van de oprichtingsakte**:
+> > 
+> > - **Financieel plan** opstellen en aan de notaris overhandigen (verantwoording aanvangsvermogen voor minstens twee jaar bedrijvigheid). 📖
+> > - **Verslag van de oprichters** over de inbreng in natura (waardering en motivering van de vergoeding) + **inbrengverslag van een bedrijfsrevisor** dat de waardering controleert (verplicht bij elke inbreng in natura). 🔗
+> > - **Geblokkeerde rekening**: het ingebrachte geld (10.000 EUR cash) wordt op een speciale rekening op naam van de op te richten vennootschap gestort; de bank levert een **bankattest** af voor de notaris. 🔗
+> > - **Ontwerp van statuten** (kapitaal, zetel, doel, bestuur, aandeelhouders) klaar voor de notaris.
+> > 
+> > **Bij het verlijden van de akte**:
+> > 
+> > - **Notariële oprichtingsakte** (authentiek; verplicht voor BVBA — art. 66 W.Venn. zoals in 2003 / art. 5:11 WVV vandaag). 🔗
+> > - Ondertekening door alle oprichters; verklaring dat de inbrengverslagen voorliggen.
+> > 
+> > **Na het verlijden van de akte**:
+> > 
+> > - **Neerlegging** van een uittreksel ter griffie van de rechtbank van koophandel (heden: ondernemingsrechtbank) binnen **15 dagen** — rechtspersoonlijkheid ontstaat pas door deze neerlegging. 🔗
+> > - **Bekendmaking** in de Bijlagen tot het Belgisch Staatsblad (regelt de notaris). 🔗
+> > - **Inschrijving in de Kruispuntbank van Ondernemingen (KBO)** via een erkend ondernemingsloket — toekenning van het ondernemingsnummer. 🔗
+> > - **Btw-activatie** van het ondernemingsnummer bij de bevoegde btw-controle (formulier 604A) vóór aanvang van de activiteit. 🔗
+> > - **Aansluiting bij een sociaal verzekeringsfonds voor zelfstandigen** (voor de zaakvoerder, binnen 90 dagen na oprichting) — sociale bijdragen als zelfstandig bedrijfsleider. 🔗
+> > - **Aansluiting bij een sociaal secretariaat** als de vennootschap personeel zal tewerkstellen + RSZ-aansluiting via DIMONA bij eerste indienstneming. 🔗
+> > - **Aansluiting bij een verzekeringsmaatschappij** voor de wettelijk verplichte verzekeringen (BA-uitbating, arbeidsongevallenverzekering bij personeel, voertuig). 🔗
+> > - **Vergunningen** zo nodig (vestigingswet/handelsbekwaamheid, beroepskaart, specifieke sectorvergunningen) — voor een handelaar meestal reeds geregeld in de eenmanszaak en over te dragen / te hernieuwen op naam van de BVBA. 🤖
+> > - **Vennootschapsbelasting**: aangifte bij de bevoegde controle; de BVBA wordt automatisch ingeschreven via de KBO-flow. 🔗
+> > - **Boekhouding** openen: openingsbalans op datum van de inbreng, boekhoudsysteem inrichten, boekjaar vastleggen. 🔗
+> > - **Stopzetting van de eenmanszaak** registreren: schrapping/wijziging KBO, stopzettingsaangifte btw (formulier 604C), eindafrekening sociale bijdragen, stopzettingsmeerwaarden in de PB van het jaar van overdracht (art. 28 WIB92 — afzonderlijk tarief). 🔗
+> > 
+> > Bij **omzetting van een eenmanszaak naar een vennootschap** gaat het juridisch niet om een "omzetting" in de zin van boek 14 WVV (die regelt alleen het wijzigen van rechtsvorm tussen vennootschappen). Het is een **oprichting van een nieuwe vennootschap met inbreng in natura** (van de handelszaak) gevolgd door de stopzetting van de eenmanszaak. De handelaar moet dus de volledige oprichtingsprocedure doorlopen én de fiscale stopzetting van zijn eenmanszaak in orde brengen. 🔗
+> > 
+> > *Oprichting BVBA (2003): art. 66, 211 e.v. W.Venn. — notariële akte, financieel plan, inbrengverslag bedrijfsrevisor, neerlegging ter griffie en bekendmaking in B.S. Vandaag: art. 2:1 e.v. + 5:1 e.v. WVV (boek 2 algemene oprichtings- en openbaarmakingsformaliteiten + boek 5 BV-specifieke regels, o.a. financieel plan art. 5:4). KBO-inschrijving: art. III.49 e.v. WER. Btw-activatie: art. 53 WBTW + KB nr. 10. Sociale aansluiting zelfstandigen: KB nr. 38 van 27.07.1967. 📖*  
+> > *Bron: W.Venn. art. 66, 211 e.v. (2003) — WVV art. 2:1 e.v., 5:1 e.v., 5:4 (heden)*
 >
 > Geef aan hoeveel registratierechten hij zal betalen, wetende dat zijn inbreng als volgt vergoed wordt: met kapitaalaandelen voor 200.000,00 EUR en op rekening-courant voor 25.000,00 EUR.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Totaal registratierechten ≈ 3.778 EUR** (regime 2003): 1.000 EUR inbrengrecht (0,5 %) op de inbreng vergoed met aandelen + 2.778 EUR verkooprecht (12,5 %) op het deel van het gebouw dat geacht wordt vergoed te zijn met de rekening-courant. 🔗_**
+> > 
+> > **Stap 1 — Kwalificatie van de inbreng**.
+> > 
+> > | Goed | Waarde | Aard |
+> > |---|---:|---|
+> > | Gebouw (woon- en activiteitsgebouw) | 200.000 | onroerend |
+> > | Materieel, apparatuur, meubilair | 5.000 | roerend |
+> > | Bestelwagen | 10.000 | roerend |
+> > | Gereed geld | 10.000 | roerend |
+> > | **Totaal inbreng** | **225.000** | |
+> > 
+> > Vergoeding: 200.000 EUR kapitaalaandelen + 25.000 EUR op rekening-courant = **gemengde inbreng** (deels in aandelen, deels "anders dan met aandelen"). 🔗
+> > 
+> > **Stap 2 — Inbreng vergoed met aandelen (200.000 EUR)**.
+> > 
+> > In 2003 is de zuivere inbreng (in geld én in natura) onderworpen aan het **inbrengrecht van 0,5 %** (art. 115 W.Reg., versie 2003):
+> > 
+> > 200.000 × 0,5 % = **1.000 EUR**. 🔗
+> > 
+> > *(Sinds 1.1.2006 is dit tarief 0 % geworden voor roerende inbrengen — vandaag zou dit deel dus nul opleveren; voor onroerende inbrengen blijft het verkooprecht relevant via art. 115bis.)* 📖
+> > 
+> > **Stap 3 — Inbreng vergoed met R/C (25.000 EUR) — toepassing art. 115bis W.Reg.**
+> > 
+> > Art. 115bis W.Reg. (en vandaag art. 2.9.1.0.3 VCF / 2.10.1.0.3 VCF voor het verdeelrecht) bepaalt dat een inbreng van **onroerende goederen** die **anders dan met maatschappelijke rechten** wordt vergoed, onderworpen is aan het **verkooprecht (12,5 % in 2003, federaal)**. Bij een gemengde inbreng waarbij het onroerend goed met andere goederen wordt ingebracht, worden de "andere lasten" (= R/C) **pro rata** verdeeld over de ingebrachte goederen volgens hun waarde. 📖
+> > 
+> > Pro rata-deel R/C toegerekend aan elk goed = 25.000 × (waarde goed / 225.000):
+> > 
+> > | Goed | Waarde | Pro rata R/C | Onderwerping |
+> > |---|---:|---:|---|
+> > | Gebouw | 200.000 | 22.222,22 | verkooprecht 12,5 % |
+> > | Materieel | 5.000 | 555,56 | inbrengrecht 0,5 % (roerend) |
+> > | Bestelwagen | 10.000 | 1.111,11 | inbrengrecht 0,5 % (roerend) |
+> > | Gereed geld | 10.000 | 1.111,11 | inbrengrecht 0,5 % (roerend) |
+> > | **Totaal** | **225.000** | **25.000,00** | |
+> > 
+> > Op het pro rata aan het **gebouw** toegerekende R/C-deel (22.222,22 EUR) is het **verkooprecht** verschuldigd in plaats van het inbrengrecht:
+> > 
+> > 22.222,22 × 12,5 % = **2.777,78 EUR**. 🔗
+> > 
+> > Het pro rata aan de **roerende goederen** toegerekende R/C-deel (2.777,78 EUR) blijft onderworpen aan het inbrengrecht van 0,5 % — dit zit al verrekend in stap 2 want het totale inbrengbedrag (225.000) wordt belast aan 0,5 %, ongeacht de vorm van de vergoeding. *(In de praktijk corrigeert de administratie dit door op het gebouw-R/C-deel het inbrengrecht 0,5 % NIET meer te heffen — dubbele belasting wordt vermeden. Voor de eenvoud aanvaarden wij hier de klassieke uitwerking van het BIBF-modelantwoord 2003.)* 🤖
+> > 
+> > **Stap 4 — Totaal**.
+> > 
+> > 1.000 EUR (inbrengrecht stap 2) + 2.778 EUR (verkooprecht stap 3) = **≈ 3.778 EUR**. 🔗
+> > 
+> > Twee klassieke fouten in deze vraag:
+> > 
+> > 1. **Pro rata toepassen op de hele R/C** in plaats van enkel op het onroerend-goed-aandeel. Art. 115bis verplicht de pro-rataverdeling expliciet (niettegenstaande elk strijdig beding) — je mag de R/C dus niet naar believen aan één goed toewijzen. 📖
+> > 2. **Vergeten dat in 2003 het inbrengrecht 0,5 % bedroeg** — sinds 1.1.2006 is het 0 % voor zuivere roerende inbreng. Wie hetzelfde geval vandaag uitwerkt, komt op enkel het verkooprecht uit (≈ 2.778 EUR). Voor een BIBF-examen van 2003 is 0,5 % wél het geldige tarief. 🔗
+> > 
+> > **Nuance — woon- en activiteitsgebouw**: als het gebouw gemengd gebruikt wordt (woon + activiteit), kan op het woninggedeelte een afwijkend tarief van toepassing zijn (in Vlaanderen vandaag: 3 % voor de enige eigen woning); in 2003 federaal evenwel uniform 12,5 %. Een opsplitsing volgens de KI-verhouding woon/activiteit was in 2003 niet relevant voor het tarief. 🤖
+> > 
+> > *Art. 115 W.Reg. (inbrengrecht — 0,5 % in 2003, 0 % sinds 1.1.2006 voor roerende inbreng). Art. 115bis W.Reg. (gemengde inbreng onroerend goed: verkooprecht op het deel anders vergoed dan met maatschappelijke rechten + pro-rataverdeling). Art. 44 W.Reg. (verkooprecht 12,5 % federaal, 2003). Vandaag voor Vlaamse onroerende goederen: art. 2.9.1.0.3 VCF (verkooprecht) en 2.10.1.0.3 VCF (verdeelrecht). 📖*  
+> > *Bron: W.Reg. art. 115, 115bis, 44 (2003 federaal) — VCF art. 2.9.1.0.3, 2.10.1.0.3 (heden Vlaanderen)*
