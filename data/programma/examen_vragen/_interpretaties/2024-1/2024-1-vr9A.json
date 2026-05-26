@@ -4,14 +4,19 @@
   "vraag_id": "2024-1-vr9A",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Bericht van wijziging — uiterlijke termijn voor aangetekende verzending",
-  "programmaonderdeel_ids": ["2.7"],
-  "themas": ["bericht van wijziging", "aangetekende zending", "termijn", "aanslagprocedure", "fiscale procedure"],
-
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
+  "themas": [
+    "bericht van wijziging",
+    "aangetekende zending",
+    "termijn",
+    "aanslagprocedure",
+    "fiscale procedure"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -22,7 +27,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. De vraagstelling is bondig maar eenduidig: de termijn waarbinnen de administratie een bericht van wijziging aangetekend moet versturen. Vraagstelling iets uitgeschreven ten opzichte van de brontekst voor duidelijkheid, zonder nieuwe elementen toe te voegen.",
   "kwaliteits_flags": []

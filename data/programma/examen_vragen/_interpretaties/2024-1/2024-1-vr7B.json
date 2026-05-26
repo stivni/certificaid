@@ -4,19 +4,26 @@
   "vraag_id": "2024-1-vr7B",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Voorzichtigheidsprincipe — opname en waardering (Richtlijn 2013/34/EU)",
-  "programmaonderdeel_ids": ["1.1"],
-  "themas": ["voorzichtigheidsprincipe", "richtlijn 2013/34/EU", "opname waardering", "winstrealisatie", "verplichtingen", "waardecorrecties", "herwaardering"],
-
+  "programmaonderdeel_ids": [
+    "1.5"
+  ],
+  "themas": [
+    "voorzichtigheidsprincipe",
+    "richtlijn 2013/34/EU",
+    "opname waardering",
+    "winstrealisatie",
+    "verplichtingen",
+    "waardecorrecties",
+    "herwaardering"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Richtlijn 2013/34/EU van 26/06/2013, opname en waardering volgens het voorzichtigheidsprincipe. Welke stellingen zijn juist of fout?"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -51,8 +58,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. Vier afzonderlijke stellingen over het voorzichtigheidsprincipe conform Richtlijn 2013/34/EU, elk als aparte juist/fout-deelvraag verwerkt. OCR-artefact in tekst.txt ('wordt' i.p.v. 'wordt bekend') gecorrigeerd conform PNG. Afkorting 'VA' in stelling D uitgeschreven naar 'vaste activa' conform CLAUDE.md regel 8.",
-  "kwaliteits_flags": ["ocr_artefact"]
+  "kwaliteits_flags": [
+    "ocr_artefact"
+  ]
 }

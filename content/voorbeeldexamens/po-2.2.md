@@ -8,160 +8,118 @@ gegenereerd_op: 2026-05-26
 
 # PO 2.2 — Personenbelasting
 
-**30 unieke vraag-eenheden** uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 30 met modelantwoord
+**29 unieke vraag-eenheden** uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 29 met modelantwoord
 
-<a id="2024-1-vr8A"></a>
+<a id="2024-1-vr5A"></a>
 
-> [!topic]- Overdraagbare fiscale verliezen in de vennootschapsbelasting
+> [!question]- Juist of fout: forfaitaire kostenaftrek bij meewerkend echtgenoot met ministatuut
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.2*
 >
-> _Stellingen in verband met overdraagbare fiscale verliezen in de vennootschapsbelasting_
-
-<a id="2024-1-vr8B"></a>
-
-> [!question]- Fusie moeder-dochter — meer- of minderwaarde op deelneming en fiscale behandeling
-> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.2*
->
-> Moeder A fuseert (neutraal) met Dochter B, waarin ze 100% bezit.
-> 
-> Netto Actief van B = 100
-> Fiscale waarde van de participatie in B in de boekhouding van A = 20
-> Overgedragen fiscale verliezen van B = 30
-> Overdraagbare aftrek innovatie-inkomsten A = 40
->
-> **Hoeveel bedraagt de meer- of minderwaarde die A zal realiseren op de deelneming in B ingevolge de moeder-dochter fusie?**
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Van de toekenning aan de meewerkend echtgenoot, aangesloten ministatuut, wordt er een forfaitaire kostenaftrek van 5% in mindering gebracht.</span>
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Meerwaarde van 80** op de deelneming. Berekening: netto actief B (100) − fiscale waarde participatie in A (20) = **+80**. 🔗
+> > **Antwoord: Juist**
 > > 
-> > Bij een moeder-dochter fusie verdwijnt de deelneming van A in B uit de boekhouding van A; in ruil neemt A de activa en passiva van B over voor hun netto-fiscale waarde (boekhoudkundige én fiscale continuïteit, art. 78 §8 KB W.Venn. / art. 3:77 KB WVV). Het verschil tussen wat "binnenkomt" (netto actief B = 100) en wat "verdwijnt" (fiscale waarde deelneming = 20) is een **fusiemeerwaarde van 80** (de zogenaamde *opwaardering* of *goodwill* op de deelneming). 🔗
+> > **JUIST.** Op de toekenning aan de meewerkend echtgenoot in het ministatuut is, bij gebrek aan bewijzen van werkelijke kosten, een forfaitaire kostenaftrek van **5%** van toepassing (art. 51, tweede lid, 3° WIB92). 📖
 > > 
-> > Verwar het **netto actief** van B (= eigen vermogen, hier 100) niet met de marktwaarde of met de boekwaarde van de overgenomen activa los. Bij de M-D fusie is het altijd het *aandeel in het eigen vermogen van B dat A reeds bezit* (hier 100 % × 100 = 100) dat tegenover de fiscale waarde van de deelneming wordt geplaatst. 🤖
+> > De redenering loopt in twee stappen:
 > > 
-> > Art. 3:77 §5 KB WVV (voorheen art. 78 §8 KB W.Venn.) — boekhoudkundige verwerking bij verschil tussen boekwaarde aandelen en aandeel in eigen vermogen van de overgenomen vennootschap. CBN-advies 2021/10, hoofdstuk "De boekwaarde van de aandelen in de overgenomen vennootschap stemt niet overeen met het aandeel in haar eigen vermogen". 📖  
-> > *Bron: art. 3:77 §5 KB WVV; CBN 2021/10*
->
-> **Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?**
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > De fusiemeerwaarde van 80 is bij A **volledig fiscaal vrijgesteld** (geen belasting), op voorwaarde dat de fusie belastingneutraal verloopt (art. 211 §1 WIB92). De vrijstelling van het deel dat overeenstemt met de opwaardering van overgenomen activa is wel onderworpen aan de **onaantastbaarheidsvoorwaarde** (boeking op een vrijgestelde reserve). 🔗
+> > - **Kwalificatie** — De "meewerkend echtgenoot in het ministatuut" is de echtgenoot die meewerkt aan de zelfstandige activiteit maar **geen eigen sociaal statuut** opbouwt (geen volwaardige rechten op pensioen, kinderbijslag en ziekte/invaliditeit). Diens inkomen wordt fiscaal gekwalificeerd als **bezoldiging van meewerkende echtgenoot** (art. 30, 3° juncto art. 33 WIB92), via een **toekenning** door de helpende echtgenoot van max. 30% van de winst/baten (art. 86 WIB92). 🔗
+> > - **Forfaitair kostenpercentage** — Voor die categorie van bezoldigingen bepaalt art. 51, tweede lid, 3° WIB92 het forfaitaire kostenpercentage uitdrukkelijk op **5%** van het brutobedrag, indien geen werkelijke beroepskosten worden bewezen. 📖
 > > 
-> > Drie luiken in de fiscale behandeling bij A:
+> > Niet verwarren met het **maxistatuut**: de meewerkend echtgenoot die wél volwaardig is aangesloten bij het sociaal statuut van zelfstandigen (sinds 1 juli 2005 verplicht voor wie na 1956 geboren is) ontvangt nog steeds bezoldigingen van meewerkende echtgenoot in de zin van art. 30, 3° / 33 WIB92 — en geniet **dezelfde 5%-forfait** van art. 51, 3°. Het onderscheid mini/maxi speelt op sociaalrechtelijk vlak (sociale bijdragen, rechten), niet op het fiscale kostenforfait. 🔗 Verwar het 5%-forfait evenmin met de 3%-forfait voor bedrijfsleiders (art. 51, 2°) of de 30%-forfait voor werknemers (art. 51, 1°). 📖
 > > 
-> > - **Fusiemeerwaarde op de deelneming (80)**: art. 211 §1, 1° WIB92 stelt dat de meerwaarden die naar aanleiding van een belastingneutrale fusie worden verwezenlijkt of vastgesteld **niet in aanmerking komen voor belastingheffing**. Het deel dat overeenstemt met de opwaardering van de overgenomen activa ("goodwill") moet worden geboekt onder de **belastingvrije reserves (rekening 132)** of via een geïncorporeerde vrijgestelde reserve in het kapitaal, om de onaantastbaarheidsvoorwaarde na te leven. 📖
-> > - **Overdraagbare verliezen van B (30)**: art. 206 §2 WIB92 — de verliezen van B worden **pro rata fiscaal netto-actief** overgenomen door A: aftrekbaar bij A in de verhouding *fiscaal netto-actief B vóór fusie / (fiscaal netto-actief A vóór fusie + fiscaal netto-actief B vóór fusie)*. Zonder de cijfers van A's eigen netto-actief is het exacte bedrag niet te becijferen — de **beperking treedt sowieso in werking**. 🔗
-> > - **Overdraagbare innovatie-aftrek van A (40)**: ondergaat **dezelfde beperking** (art. 206 §2 WIB92, uitgebreid tot DBI-overschotten, NIA, octrooi-/innovatie-aftrek): A's eigen overschotten worden eveneens pro rata beperkt na de fusie. 🔗
-> > 
-> > De **onaantastbaarheidsvoorwaarde** voor de fusiemeerwaarde wordt in de praktijk vervuld door één van twee technieken (CBN 2021/10): ofwel een **overboeking naar belastingvrije reserves** (689 aan 132) via debet resultatenrekening, ofwel het simultaan boeken van een **vrijgestelde reserve én een negatieve belaste reserve** in het kapitaal/inbreng (beide voor hetzelfde bedrag). De tweede techniek vermijdt een kunstmatig boekhoudkundig verlies bij A. 📖
-> > 
-> > Art. 211 §1, 1° WIB92 — bij belastingneutrale fusie komen verwezenlijkte of vastgestelde meerwaarden niet in aanmerking voor belastingheffing (mits onaantastbaarheidsvoorwaarde voor het opwaarderingsgedeelte). Art. 206 §2 WIB92 — beperking van overdracht van verliezen én overige aftrekken (innovatie-aftrek, NIA, DBI-overschotten) pro rata fiscaal netto-actief. Art. 3:77 §5 KB WVV + CBN-advies 2021/10 voor de boekhoudkundige tegenboeking. 📖  
-> > *Bron: art. 211 §1 WIB92; art. 206 §2 WIB92; art. 3:77 §5 KB WVV; CBN 2021/10*
+> > Art. 51, tweede lid, 3° WIB92: "voor bezoldigingen van meewerkende echtgenoten: 5 pct." Art. 33 WIB92 omschrijft die bezoldigingen als toekenningen aan de echtgenoot die geen eigen sociaal statuut heeft (ministatuut). Art. 86 WIB92 regelt de toekenning zelf (max. 30% van de inkomsten). 📖  
+> > *Bron: Art. 51, tweede lid, 3° WIB92; art. 33 WIB92; art. 86 WIB92*
 
-<a id="2024-1-vr8C"></a>
+<a id="2024-1-vr5B"></a>
 
-> [!question]- Voorafbetalingen en vermeerdering wegens onvoldoende voorafbetaling bij verlaagd tarief vennootschapsbelasting
+> [!question]- Onroerende voorheffing bij niet-verhuurde woning wegens overstroming
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.2*
 >
-> Boekjaar N: 120.000 euro belastbare winst. Alle voorwaarden zijn voldaan voor het verlaagd tarief van 20%. VOF bestaat sinds 1/1/N-2, boekjaar is het kalenderjaar.
+> Een niet-gemeubeld onroerend goed wordt verhuurd aan een privépersoon als bewoning. De woning is door overstroming gedurende 6 maanden niet verhuurd geweest.
 >
-> **Wat zijn de gevolgen voor voorafbetalingen en vermeerderingen wegens onvoldoende voorafbetaling?**
+> **Wat zijn de gevolgen voor de onroerende voorheffing?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Geen vermeerdering verschuldigd.** De VOF is opgericht op 1/1/N-2; boekjaar N is haar **derde** boekjaar. Als kleine vennootschap die het verlaagd tarief van 20 % geniet (en dus per definitie aan de criteria van art. 1:24 WVV voldoet) valt zij onder de vrijstelling van art. 218, § 2 WIB 92: géén vermeerdering wegens ontoereikende voorafbetaling op de belasting van de **eerste drie boekjaren vanaf de oprichting**. Voorafbetalen is voor boekjaar N dus **niet nodig** om een vermeerdering te vermijden — het mag wel (men kan nog steeds VA1–VA4 storten, maar er is geen sanctie als men het niet doet). 📖
+> > **Proportionele vermindering (kwijtschelding) van de onroerende voorheffing pro rata 6/12** wegens onvrijwillige improductiviteit door overmacht (overstroming). De belastingplichtige moet de vermindering **uitdrukkelijk aanvragen** bij de bevoegde belastingdienst (Vlaanderen: Vlabel; Wallonië/Brussel: federale ontvanger). 🔗
 > > 
-> > Redenering in drie stappen:
+> > De casus voldoet aan de drie cumulatieve voorwaarden van art. 15 §1, 1° WIB 92 voor proportionele vermindering van het kadastraal inkomen — en dus, via art. 257, 3° WIB 92 (of art. 2.1.5.0.2 §1, 3° VCF in het Vlaamse Gewest), van de onroerende voorheffing:
 > > 
-> > 1. **Kwalificatie als kleine vennootschap** — het verlaagd tarief van 20 % (art. 215, tweede lid WIB 92) is enkel toegankelijk voor vennootschappen die als klein worden aangemerkt in de zin van art. 1:24 WVV. De vraag stelt expliciet dat “alle voorwaarden voor het verlaagd tarief van 20 % zijn voldaan”, dus de VOF is een kleine vennootschap. 🔗
-> > 2. **Telling van de boekjaren** — oprichting op 1/1/N-2, boekjaar = kalenderjaar. De drie eerste boekjaren zijn dus N-2, N-1 en **N**. Boekjaar N valt nog binnen het driejarige vrijstellingsvenster. 🔗
-> > 3. **Toepassing art. 218, § 2 WIB 92** — “Ten name van een vennootschap die als kleine vennootschap wordt aangemerkt, is geen vermeerdering verschuldigd op de belasting die betrekking heeft op de eerste drie boekjaren vanaf haar oprichting.” Voor boekjaar N: **vermeerdering = 0**, ongeacht of er voorafbetalingen werden gedaan. 📖
+> > - **Niet-gemeubileerd gebouwd onroerend goed** — vervuld (de casus stelt dit expliciet). 📖
+> > - **≥ 90 dagen volstrekt niet in gebruik en volstrekt geen inkomsten** — vervuld: 6 maanden ≈ 180 dagen leegstand zonder huurinkomsten. 📖
+> > - **Onvrijwillig karakter** — vervuld: overstroming is overmacht (geen vrijwillige leegstand of speculatie). 🔗
 > > 
-> > Gevolg voor de praktijk: de zaakvoerder/accountant kan de cashflow van de VOF gebruiken voor groei en hoeft geen liquiditeit te reserveren voor VA1–VA4. Vanaf boekjaar N+1 (vierde boekjaar) geldt de gewone regeling van art. 218, § 1 + art. 157–168 WIB 92 wel en moet er voorafbetaald worden om de vermeerdering te vermijden. 🔗
+> > De vermindering is **proportioneel** aan duur en omvang van de improductiviteit: voor 6 maanden volledige improductiviteit wordt het belastbaar KI met 6/12 verminderd, met overeenkomstige verlaging van de OV. 🔗
 > > 
-> > De vrijstelling geldt **enkel** voor *kleine* vennootschappen. Een grote vennootschap (art. 1:24 WVV-criteria overschreden) is vánaf haar eerste boekjaar onderworpen aan de vermeerdering. Tweede valkuil: de telling start bij de **oprichting**, niet bij het eerste volledige boekjaar — een verkort eerste boekjaar (bv. oprichting in oktober) telt dus mee als boekjaar 1. Derde valkuil: de basisrentevoet voor de berekening van de vermeerdering mag in de VenB **niet lager zijn dan 3 %** (art. 218, § 1, tweede lid WIB 92) — relevant zodra het vierde boekjaar aanbreekt. 📖
+> > De vermindering is **niet automatisch** — ze wordt enkel op **aanvraag** verleend (art. 257 WIB 92 en art. 2.1.5.0.2 §1 VCF: "op aanvraag van de belanghebbende/belastingschuldige"). De aanvraag verloopt via de bezwaarprocedure (art. 369 WIB 92 / art. 3.5.3.0.3 VCF), met bewijslast voor de belastingplichtige (bewijs van duur leegstand + overmacht). "Volstrekt" betekent ook écht volstrekt: een tussentijdse korte verhuring breekt de 90-dagen-termijn. 📖
 > > 
-> > **Art. 218, § 2 WIB 92** — vrijstelling van de vermeerdering wegens ontoereikende voorafbetaling voor kleine vennootschappen tijdens de eerste drie boekjaren vanaf de oprichting. **Art. 218, § 1 WIB 92** koppelt de vermeerderingsregeling van de VenB door naar **art. 157–168 WIB 92** (PB-regeling), met als specifieke afwijking dat de basisrentevoet minstens 3 % bedraagt en dat de beperking tot 90 % (art. 160) en de verhoging tot 106 % (art. 165) niet gelden. Het kleine-vennootschapsbegrip volgt uit **art. 1:24 WVV** (groottecriteria). 📖  
-> > *Bron: Art. 218, §§ 1-2 WIB 92; art. 157-168 WIB 92; art. 1:24 WVV*
+> > De onroerende voorheffing is een **gewestelijke** belasting (sinds 2002, volledig geregionaliseerd). In het **Vlaamse Gewest** verwijst de VCF (art. 2.1.5.0.2 §1, 3°) uitdrukkelijk terug naar art. 15 WIB 92 voor de inhoudelijke voorwaarden — de federale regel blijft dus materieel bepalend. In **Wallonië** en **Brussel** blijft het federale WIB 92 (art. 257-259) rechtstreeks van toepassing. 🔗
+> > 
+> > **Art. 15 §1, 1° WIB 92** — proportionele vermindering KI bij niet-gemeubileerd gebouwd onroerend goed dat ≥ 90 dagen volstrekt niet in gebruik is en geen inkomsten heeft opgebracht. **Art. 257, 3° WIB 92** — kwijtschelding of proportionele vermindering van de OV in de gevallen van art. 15. **Art. 2.1.5.0.2 §1, 3° VCF** — Vlaamse evenknie, expliciete terugverwijzing naar art. 15 WIB 92. **Art. 369 WIB 92 / art. 3.5.3.0.3 VCF** — aanvraagprocedure via bezwaartermijn. 📖  
+> > *Bron: Art. 15 §1, 1° WIB 92 ; Art. 257, 3° WIB 92 ; Art. 2.1.5.0.2 §1, 3° VCF ; Art. 369 WIB 92*
 
-<a id="2024-1-vr8D"></a>
+<a id="2024-1-vr5C"></a>
 
-> [!question]- Belastbare basis vennootschapsbelasting — tantième en dividend
+> [!question]- Aangifte gemeubeld onroerend goed verhuurd aan natuurlijk persoon: te vermelden bedragen
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.2*
 >
-> NV A, boekjaar afgesloten op 31/12/22, winst voor belasting 100.000 euro (voor winstuitkering). Belgische belasting = 20.000 euro. De Algemene Vergadering beslist om een tantième van 10.000 euro toe te kennen en een gewoon dividend van 20.000 euro uit te keren.
+> Een ongehuwde belastingplichtige verhuurt een gemeubeld onroerend goed aan een natuurlijk persoon. Het kadastraal inkomen bedraagt 1.500 euro. De huurprijs bedraagt 3.000,00 euro per kwartaal.
 >
-> **Hoeveel bedraagt de belastbare basis van A voor aanslagjaar 2023?**
+> **Welke bedragen moet de belastingplichtige en waar opnemen in de aangifte in de personenbelasting?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Belastbare basis aanslagjaar 2023 = 90.000 euro.** Berekening: 100.000 (winst vóór belasting) − 10.000 (tantième, aftrekbare beroepskost) = 90.000. Het dividend van 20.000 is **niet** aftrekbaar — het maakt deel uit van de uitgekeerde winst die volgens art. 185 §1 WIB92 mee belastbaar is. 🔗
+> > | Aangifte | Vak | Code | Bedrag | Omschrijving |
+> > |---|---|---|---|---|
+> > | Onroerend inkomen | III — Inkomsten van onroerende goederen, rubriek 2 "gebouwen die u niet verhuurt of verhuurt aan natuurlijke personen die ze niet voor hun beroep gebruiken" | **1106** | **1.500 €** (niet-geïndexeerd KI) | Het KI wordt door de fiscus zelf geïndexeerd en met 40 % verhoogd; de belastingplichtige geeft enkel het niet-geïndexeerde KI aan. 📖 |
+> > | Roerend inkomen | VII.B — Inkomsten uit verhuring, verpachting, gebruik en concessie van roerende goederen, rubriek "verhuring van meubilair" | **1156** | **4.800 €** (= 40 % × 12.000 €) bruto | 60 / 40-forfait: bij gemeubeld verhuur zonder afzonderlijke vaststelling in een geregistreerd huurcontract wordt 40 % van de huurprijs als roerend inkomen uit het meubilair aangemerkt. 🔗 | 🔗
 > > 
-> > | Stap | Bedrag |
-> > |---|---:|
-> > | Winst vóór belasting (vóór winstuitkering) | 100.000 |
-> > | − Tantième (bezoldiging bedrijfsleider, art. 195 + art. 32, 1° WIB92) | − 10.000 |
-> > | = Belastbaar resultaat (= belastbare basis vóór aftrekken) | **90.000** |
-> > | Dividend van 20.000 → géén correctie (zit in de belastbare winst, art. 185 §1) | 0 |
+> > **Stap 1 — kwalificatie**. Verhuur van een gebouwd onroerend goed aan een natuurlijk persoon die het niet voor beroep gebruikt → art. 7 § 1 2° a WIB92: belastbaar onroerend inkomen = **geïndexeerd KI × 1,40**. De belastingplichtige vult enkel het **niet-geïndexeerde KI (1.500 €)** in; de indexatie en de verhoging met 40 % gebeuren automatisch door de fiscus. 🔗
 > > 
-> > De Belgische belasting van 20.000 euro die in de casus vermeld staat, is de **boekhoudkundige** vennootschapsbelastinglast en speelt fiscaal geen rol bij het bepalen van de belastbare basis: belastingen op het resultaat (rekening 67) zijn verworpen uitgaven (art. 198, §1, 1° WIB92) en worden bij de winst gevoegd — maar in deze casus geeft de stelling "winst voor belasting 100.000 (voor winstuitkering)" net dat startpunt vóór aftrek van de venB-last, dus geen extra correctie nodig. 🔗
+> > **Stap 2 — splitsing gemeubeld**. Het pand is **gemeubeld** verhuurd, maar in de huurovereenkomst is geen afzonderlijke prijs voor het onroerende en het roerende deel bepaald. Wettelijke forfaitaire splitsing (art. 4 KB/WIB92 + vaste administratieve praktijk): **60 % onroerend / 40 % roerend**. 🔗
 > > 
-> > **Tantième ≠ dividend** — fiscaal een wereld van verschil. Het tantième is een **bezoldiging van de bedrijfsleider** (art. 32, eerste lid, 1° WIB92 noemt expliciet "vaste of veranderlijke tantièmes") en is via art. 195 WIB92 aftrekbaar als beroepskost van de vennootschap. Het dividend is een **uitkering van winst** aan aandeelhouders en blijft volgens art. 185 §1 WIB92 deel van de belastbare basis ("vennootschappen zijn belastbaar op het totale bedrag van de winst, uitgekeerde dividenden inbegrepen"). Wie het tantième zou vergeten af te trekken of het dividend ten onrechte zou aftrekken, komt op een verkeerde belastbare basis uit. 📖
+> > **Stap 3 — bedragen**. Jaarhuur = 3.000 € × 4 kwartalen = **12.000 €**. Roerend gedeelte = 40 % × 12.000 = **4.800 € bruto** → vak VII, code 1156. Het onroerende gedeelte (60 % × 12.000 = 7.200 €) wordt **niet** afzonderlijk aangegeven, want voor verhuur aan een privé-natuurlijke persoon geldt KI × 1,40 — niet de werkelijke huurprijs. 🔗
 > > 
-> > **Art. 185, §1 WIB92** (Belastinggrondslag VenB): "Vennootschappen zijn belastbaar op het totale bedrag van de winst, uitgekeerde dividenden inbegrepen ..." — dividenden zijn dus **niet** aftrekbaar. 📖
+> > Geef **niet** de volledige 12.000 € huurprijs aan als onroerend inkomen. Voor verhuur aan een privé-natuurlijke persoon (art. 7 § 1 2° a WIB92) blijft het belastbaar onroerend inkomen forfaitair bepaald op KI × 1,40 — de werkelijk ontvangen huurprijs speelt geen rol voor het onroerende luik. Alleen het **roerend** gedeelte van 40 % wordt als brutohuurprijs (van het meubilair) aangegeven; daarop kan vervolgens 50 % kostenforfait worden toegepast voor de netto-belastbare grondslag (art. 22 § 3 WIB92 + art. 3 KB/WIB92). 🔗
 > > 
-> > **Art. 195, §1 WIB92** (Beroepskosten VenB): "Bedrijfsleiders worden voor de toepassing van de bepalingen inzake beroepskosten met werknemers gelijkgesteld en hun bezoldigingen en de ermede verband houdende sociale lasten worden als beroepskosten aangemerkt." Gecombineerd met **art. 32, eerste lid, 1° WIB92** dat tantièmes uitdrukkelijk als bezoldiging van bedrijfsleiders kwalificeert → tantième is aftrekbaar. 📖  
-> > *Bron: art. 185 §1 WIB92; art. 195 §1 WIB92; art. 32, eerste lid, 1° WIB92*
+> > **Art. 7 § 1 2° a WIB92** — voor een gebouwd onroerend goed dat verhuurd is aan een natuurlijk persoon die het niet voor beroep gebruikt, is het belastbaar onroerend inkomen het kadastraal inkomen verhoogd met 40 %. 📖  **Art. 8 WIB92** — afzonderlijke vaststelling in geregistreerde huurovereenkomst kan splitsen tussen beroeps- en privé-gedeelte (hier niet van toepassing — volledig privé). 📖  **Art. 17 § 1 3° WIB92** — inkomsten uit verhuring van roerende goederen (meubilair) zijn roerende inkomsten; bij gemeubeld verhuur zonder afzonderlijke prijsbepaling geldt het forfaitair vermoeden 60 / 40 (art. 4 KB/WIB92). 🔗  **Aangifte AJ 2025** — vak III code 1106 (gebouw verhuurd aan natuurlijk persoon, niet-beroep) voor het KI; vak VII.B code 1156 (verhuring van meubilair) voor het roerende gedeelte. 📖  
+> > *Bron: Art. 7 § 1 2° a, art. 8, art. 17 § 1 3° WIB92; art. 4 KB/WIB92*
 
-<a id="2024-1-vr8E"></a>
+<a id="2024-1-vr5D"></a>
 
-> [!question]- Besmette verworpen uitgaven — DBI-verrekening buiten EER
+> [!question]- Beroepsinkomsten niet onderworpen aan het progressief belastingtarief
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.2*
 >
-> Wat zijn de "besmette" verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is.
-> 
-> | Label | Verworpen uitgave |
-> | --- | --- |
-> | a | Niet aftrekbare kosten beroepskledij |
-> | b | Intresten met betrekking tot een deel van bepaalde leningen |
-> | c | Abnormale en goedgunstige voordelen |
-> | d | Sociale voordelen |
-> | e | Voordelen maaltijdcheques, ecocheques |
-> | f | Giften |
-> | g | Waardevermindering en minderwaarde op aandelen |
-> | h | Terugname van vroegere vrijstellingen |
-> | i | Taxshelter |
->
-> **Welke van de bovenstaande posten (a t/m i) zijn "besmette" verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is?**
+> **Welke beroepsinkomsten zijn niet aan het progressief belastingtarief onderworpen?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **Besmette verworpen uitgaven** (geen DBI-verrekening mogelijk, zelfs niet met DBI uit een land buiten de EER) zijn: **c. Abnormale of goedgunstige voordelen**, **d. Sociale voordelen**, **e. Voordelen maaltijdcheques/ecocheques**, **f. Giften (liberaliteiten)** en **i. Taxshelter** 📖. De overige posten (a beroepskledij, b intresten op een deel van bepaalde leningen, g waardeverminderingen/minderwaarden op aandelen, h terugname van vroegere vrijstellingen) zijn "gewone" verworpen uitgaven waarop DBI-aftrek wél kan worden toegepast 🔗. 📖
+> > Beroepsinkomsten die niet aan het progressief tarief (art. 130 WIB) worden belast, zijn die welke vallen onder de **afzonderlijke aanslagvoeten van art. 171 WIB 92** — hoofdzakelijk: **stopzettingsmeerwaarden** (10 % / 15 % / 16,5 % / 33 %), **opzeggings- en stopzettingsvergoedingen**, **achterstallen** van bezoldigingen, pensioenen of werkloosheidsuitkeringen door schuld van de overheid of bij rechterlijke betwisting, **vervroegd vakantiegeld**, en **kapitalen/afkoopwaarden van aanvullende pensioenen** (groepsverzekering, IPT, VAPZ) — telkens belast aan de gemiddelde aanslagvoet van het laatste vorige jaar met 12 maanden beroepsinkomsten, of aan een vast tarief (10 %, 16,5 %, 18 %, 20 % of 33 %) naargelang de aard. 🔗
 > > 
-> > **Mechaniek — waarom "besmet"** 🔗. Art. 206/3, §1 WIB 92 somt limitatief de bestanddelen op van het resultaat waarop **geen enkele** van de aftrekken voorzien in art. 199 tot 206, 536 en 543 WIB 92 (dus ook **geen DBI-aftrek** uit art. 202-205) en **geen compensatie met het verlies van het belastbare tijdperk** mag worden verricht. Deze bestanddelen maken **steeds deel uit van de minimum belastbare grondslag** 📖. Dat is de zogenaamde "besmette" categorie. Voor DBI maakt het bovendien niet uit of de bron binnen of buiten de EER ligt — het aftrekverbod van art. 206/3 §1 werkt vóór de DBI-bewerking, dus de DBI kan deze bestanddelen sowieso niet absorberen.
+> > **Overzicht art. 171 WIB 92 — beroepsinkomsten aan afzonderlijk tarief**:
 > > 
-> > **Per-item-mapping naar art. 206/3 §1 WIB 92** 📖:
-> > - **c. Abnormale of goedgunstige voordelen** → art. 206/3, §1, eerste streepje, *via art. 79 WIB 92* (gedeelte van het resultaat dat voortkomt van abnormale of goedgunstige voordelen).
-> > - **d. Sociale voordelen** → art. 206/3, §1, vierde streepje, via **art. 198, §1, 9° WIB 92** (uitgaven sociale voordelen art. 38 §1, 11°).
-> > - **e. Voordelen maaltijdcheques/ecocheques** → art. 206/3, §1, vierde streepje, via **art. 198, §1, 9°bis WIB 92** (cheques art. 38 §1, 25°).
-> > - **f. Giften (liberaliteiten)** → art. 206/3, §1, vierde streepje, via **art. 198, §1, 12° WIB 92** (liberaliteiten, ook de vrijgestelde).
-> > - **i. Taxshelter** → art. 206/3, §1, vierde streepje, via **art. 198, §1, 17° WIB 92** (uitgaven in het kader van de tax-shelterregeling).
+> > - **Stopzettingsmeerwaarden** op materiële en financiële vaste activa, aandelen en andere bestanddelen van de beroepswerkzaamheid (art. 171, 1° c, 4° b, 5° b):
+> >   - 33 % op stopzettingsmeerwaarden op immateriële vaste activa boven de 4-jaar-regel en compensatievergoedingen voor vermindering van werkzaamheid 📖
+> >   - 16,5 % op meerwaarden op materiële/financiële vaste activa, aandelen en andere activa bij stopzetting na 5 jaar (of wegens overlijden, onteigening, ...) 📖
+> >   - 10 % op stopzettingsmeerwaarden vanaf 60 jaar / bij overlijden / bij gedwongen definitieve stopzetting (art. 171, 4° b) 📖
+> > - **Opzeggings- en stopzettingsvergoedingen** (art. 171, 5° a): vergoedingen, al of niet contractueel betaald, **ten gevolge van stopzetting van arbeid of beëindiging van een arbeidsovereenkomst** → belast aan de **gemiddelde aanslagvoet** van het laatste vorige jaar met 12 maanden beroepsinkomsten. 📖
+> > - **Vergoedingen tot herstel van tijdelijke derving van beroepsinkomsten** (art. 171, 5° b) — bv. verzekeringsuitkeringen wegens arbeidsongeschiktheid → gemiddelde aanslagvoet. 📖
+> > - **Achterstallen van bezoldigingen, pensioenen, renten of toelagen** waarvan de uitbetaling door **toedoen van de overheid of door een rechterlijke betwisting** later plaatsvond dan het jaar waarop ze betrekking hebben (art. 171, 5° b in fine, 6°) → gemiddelde aanslagvoet. 📖
+> > - **Vervroegd vakantiegeld** (uitbetaald bij uitdiensttreding van een werknemer) en **achterstallige commissies, premies, bonussen** met betrekking tot een vorig jaar (art. 171, 6°) → gemiddelde aanslagvoet. 🔗
+> > - **Kapitalen en afkoopwaarden van aanvullende pensioenen** — groepsverzekering, IPT, VAPZ, pensioenfondsen — uitgekeerd bij leven of overlijden (art. 171, 1° d, 2°, 2°quater, 4° f-g): vaste tarieven van **10 %, 16,5 %, 18 % of 20 %** naargelang leeftijd, oorsprong (werkgevers- vs. werknemersbijdragen) en al-dan-niet behoud van een effectieve activiteit tot de wettelijke pensioenleeftijd. 🔗
+> > - **Winst en baten uit een voorheen uitgeoefende werkzaamheid** die na de stopzetting nog worden geïnd (art. 171, 5° c) → gemiddelde aanslagvoet. 📖
 > > 
-> > **Waarom de overige posten NIET besmet zijn** 🔗:
-> > - **a. Niet aftrekbare beroepskledij** (art. 53, 7° WIB 92) — gewone VU; niet vermeld in art. 206/3 §1.
-> > - **b. Intresten op een deel van bepaalde leningen** (overdreven intresten art. 55 of thin-cap art. 198 §1, 11° / 11°/1) — gewone VU; niet vermeld in art. 206/3 §1.
-> > - **g. Waardevermindering en minderwaarde op aandelen** (art. 198, §1, 7° WIB 92) — gewone VU; staat **niet** in de limitatieve lijst van art. 206/3 §1.
-> > - **h. Terugname van vroegere vrijstellingen** (o.m. art. 67quater, 513, 524, 531, 548 WIB 92) — gewone VU; niet vermeld in art. 206/3 §1. 📖
+> > **Niet beoogd door deze vraag** (wel afzonderlijk belast, maar geen *beroepsinkomsten*): diverse inkomsten (art. 90 WIB → 33 % of 16,5 %), roerende inkomsten (art. 17 → 30 % standaard), meerwaarden op aandelen buiten beroepswerkzaamheid, liquidatiereserve-dividenden. 🔗
 > > 
-> > **Valkuil — "DBI buiten EER" is een afleider** ❓. De vraagstelling vermeldt expliciet "DBI afkomstig van een land buiten de EER". Dat lijkt te suggereren dat de EER-grens bepaalt welke VU besmet zijn — maar dat klopt **niet**: de lijst van besmette bestanddelen (art. 206/3 §1) is dezelfde ongeacht de oorsprong van de DBI. Wat *wél* van de EER-grens afhangt is de **overdraagbaarheid** van het DBI-overschot: enkel DBI van een **EER-uitkeerder** is overdraagbaar naar volgende belastbare tijdperken (art. 205, §3 WIB 92) 📖. DBI uit een land buiten de EER die niet onmiddellijk kan worden afgetrokken — bv. omdat de winst voor het overgrote deel bestaat uit besmette bestanddelen — gaat dus **definitief verloren**. Daarom is de "besmette"-categorie pijnlijker bij DBI buiten EER dan bij EER-DBI: geen overdracht-vangnet 🔗. 🔗
+> > Art. 171 werkt als **plafond, niet als verplichting**: wanneer de globalisatie (samentelling met de andere inkomsten en progressieve belasting) **voordeliger** uitvalt voor de belastingplichtige, geldt automatisch het **gunstregime** (art. 171, laatste lid). Het afzonderlijk tarief wordt dus enkel toegepast als het effectief gunstiger is dan het progressief tarief — een mechanische beslissing van de administratie, geen keuze van de belastingplichtige. 🔗
 > > 
-> > **Kern-grondslagen** 📖:
-> > - **Art. 206/3, §1 WIB 92** — bestanddelen waarop geen aftrek (incl. DBI) en geen verliescompensatie mogelijk is; verwijst onder andere naar art. 79 (abnormale/goedgunstige voordelen) en art. 198, §1, 9°, 9°bis, 12° en 17° WIB 92.
-> > - **Art. 198, §1 WIB 92**: 9° sociale voordelen (verwijzing naar art. 38 §1, 11°); 9°bis maaltijd-/sport-/cultuur-/ecocheques (art. 38 §1, 25°); 12° liberaliteiten (giften, ook de vrijgestelde); 17° tax-shelter-uitgaven (art. 194ter e.v.).
-> > - **Art. 207 WIB 92** — aftrekvolgorde + bevestiging dat geen aftrek noch verliescompensatie mogelijk is op het in art. 206/3 §1 bedoelde gedeelte van het resultaat.
-> > - **Art. 205, §3 WIB 92** — overdraagbaarheid DBI-overschot beperkt tot vennootschappen gevestigd in een EER-lidstaat (relevant voor de framing van de vraag, niet voor de besmette-lijst zelf). 📖  
-> > *Bron: Art. 206/3 §1 WIB 92; art. 198 §1, 9°, 9°bis, 12°, 17° WIB 92; art. 79 WIB 92; art. 207 WIB 92; art. 205 §3 WIB 92*
+> > **Valkuil**: een **flexi-job-bezoldiging** boven het vrijstellingsplafond van art. 38, § 1, 29° WIB is **uitgesloten** van art. 171 (art. 171/1 WIB) — die wordt dus tegen het normale progressieve tarief belast, ondanks haar specifieke karakter. 📖
+> > 
+> > **Art. 171 WIB 92** (Bijzondere stelsels van aanslag — Afzonderlijke aanslagen) somt limitatief op welke inkomsten aan afzonderlijke aanslagvoeten worden belast in plaats van aan het progressief tarief (art. 130). Voor beroepsinkomsten zijn dit voornamelijk: stopzettingsmeerwaarden (1° c, 4° b), kapitalen van aanvullende pensioenen (1° d, 2°quater, 4° f-g), opzeggings- en stopzettingsvergoedingen, achterstallen, vervroegd vakantiegeld en vergoedingen voor tijdelijke derving (5°, 6°). Uitzondering: flexi-jobs boven het vrijstellingsplafond (art. 171/1). Slotbepaling van art. 171: globalisatie geldt als ze gunstiger is. 📖  
+> > *Bron: Art. 130, 171 en 171/1 WIB 92*
 
 <a id="2015-1-vr28"></a>
 

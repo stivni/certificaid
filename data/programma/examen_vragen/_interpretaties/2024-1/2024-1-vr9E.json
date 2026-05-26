@@ -4,14 +4,20 @@
   "vraag_id": "2024-1-vr9E",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Bewaarplicht — te bewaren stukken en bewaringstermijn",
-  "programmaonderdeel_ids": ["2.7"],
-  "themas": ["bewaarplicht", "bewaringstermijn", "boekhoudkundige stukken", "fiscale procedure", "boekhouding", "archivering"],
-
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
+  "themas": [
+    "bewaarplicht",
+    "bewaringstermijn",
+    "boekhoudkundige stukken",
+    "fiscale procedure",
+    "boekhouding",
+    "archivering"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -22,7 +28,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. De brontekst is 'Bewaarplicht, welke stukken + termijn' — open vraag over de fiscale bewaarplicht. Vraagstelling licht uitgebreid voor duidelijkheid zonder nieuwe elementen toe te voegen.",
   "kwaliteits_flags": []

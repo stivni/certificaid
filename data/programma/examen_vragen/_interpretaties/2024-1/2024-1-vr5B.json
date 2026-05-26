@@ -4,19 +4,26 @@
   "vraag_id": "2024-1-vr5B",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Onroerende voorheffing bij niet-verhuurde woning wegens overstroming",
-  "programmaonderdeel_ids": ["2.1"],
-  "themas": ["onroerende voorheffing", "onroerend goed", "verhuur", "overmacht", "overstroming", "vrijstelling", "personenbelasting"],
-
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
+  "themas": [
+    "onroerende voorheffing",
+    "onroerend goed",
+    "verhuur",
+    "overmacht",
+    "overstroming",
+    "vrijstelling",
+    "personenbelasting"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een niet-gemeubeld onroerend goed wordt verhuurd aan een privépersoon als bewoning. De woning is door overstroming gedurende 6 maanden niet verhuurd geweest."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -27,7 +34,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. PNG bevestigt de vraagstelling. De vraag peilt naar de impact van een periode van leegstand wegens overmacht (overstroming) op de onroerende voorheffing — dit verwijst naar de mogelijke vrijstelling of vermindering van de OV bij aantoonbare onvrijwillige leegstand. Casus-context apart geplaatst als context_blok.",
   "kwaliteits_flags": []

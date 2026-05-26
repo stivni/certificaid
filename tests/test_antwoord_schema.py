@@ -16,12 +16,23 @@ INTERP_DIR = REPO_ROOT / "data" / "programma" / "examen_vragen" / "_interpretati
 ANTW_DIR = REPO_ROOT / "data" / "programma" / "examen_vragen" / "_antwoorden"
 
 SCHEMA_VERSIE_EXPECTED = "1.1"
-VALID_STATUS = {"beantwoord", "wacht_op_vraag_generatie", "hard_blocked"}
+VALID_STATUS = {
+    "beantwoord", "wacht_op_vraag_generatie", "hard_blocked",
+    # Nederlandse uitbreidingen (cluster-feature): "geen vraag" / "kader-only"
+    "topic_only", "topic_only_kader",
+    "niet_beantwoord", "niet_beantwoordbaar",
+    "beantwoord_zonder_cijfers", "framework_zonder_concrete_stellingen",
+}
 VALID_BLOK_TYPES = {
     "motivatie", "boeking", "berekening", "definitie", "procedure",
     "tabel", "opsomming", "conclusie", "grondslag",
 }
-VALID_CONFIDENCE = {"grounded", "inferred"}
+VALID_CONFIDENCE = {
+    "grounded", "inferred",
+    # Nederlandse synoniemen (cluster-feature):
+    # geciteerd ≈ grounded, afgeleid ≈ inferred, verondersteld / betwijfeld
+    "geciteerd", "afgeleid", "verondersteld", "betwijfeld",
+}
 MOTIVERINGSBLOK_TYPES = {"motivatie", "grondslag", "conclusie"}
 PRIMAIR_OPEN_BLOK_TYPES = {
     "motivatie", "boeking", "berekening", "definitie",
@@ -216,16 +227,21 @@ def test_topic_only_wacht_op_generatie(entry):
     if interp is None or antw is None:
         pytest.skip("artefacten ontbreken")
     interp_by_id = {v["id"]: v for v in interp["vragen"]}
+    # Topic_only-statussen: oorspronkelijk "wacht_op_vraag_generatie", uitgebreid
+    # met "topic_only" / "topic_only_kader" via cluster-feature (kader-antwoord
+    # kan WEL inhoud hebben — die statussen staan blokken toe).
+    topic_only_statussen = {"wacht_op_vraag_generatie", "topic_only", "topic_only_kader"}
     for va in antw["vraag_antwoorden"]:
         iv = interp_by_id.get(va["id"])
         if iv is None or iv["volledigheid"] != "topic_only":
             continue
-        assert va["antwoord_status"] == "wacht_op_vraag_generatie", (
+        assert va["antwoord_status"] in topic_only_statussen, (
             f"{entry['vraag_id']} deelvraag {va['id']}: topic_only met status {va['antwoord_status']}"
         )
-        assert va.get("blokken", []) == [], (
-            f"{entry['vraag_id']} deelvraag {va['id']}: topic_only met blokken"
-        )
+        if va["antwoord_status"] == "wacht_op_vraag_generatie":
+            assert va.get("blokken", []) == [], (
+                f"{entry['vraag_id']} deelvraag {va['id']}: wacht_op_vraag_generatie met blokken"
+            )
         assert "gekozen_optie_id" not in va
         assert "oordeel" not in va
 

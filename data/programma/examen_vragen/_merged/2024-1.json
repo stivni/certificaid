@@ -1,7 +1,7 @@
 {
   "bron_pdf": "Vragen schriftelijk bekwaamheidsexamen ITAA 2024.pdf",
   "examen_id": "2024-1",
-  "merge_datum": "2026-05-26T16:56:16+00:00",
+  "merge_datum": "2026-05-26T18:08:49+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -525,7 +525,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.6"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -623,7 +623,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.6"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -730,7 +730,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.6"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -840,7 +840,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.6"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -943,7 +943,7 @@
           "typo_genormaliseerd"
         ],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.6"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -1052,7 +1052,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.7"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -1151,7 +1151,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.7"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -1245,7 +1245,7 @@
           "pagina_overslaat"
         ],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.7"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -1350,7 +1350,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.3"
+          "1.7"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -1927,7 +1927,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.1"
+          "2.2"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -2039,7 +2039,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.1"
+          "2.2"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -2144,7 +2144,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.1"
+          "2.2"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -2241,7 +2241,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.1"
+          "2.2"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -3019,7 +3019,7 @@
           "typo_genormaliseerd"
         ],
         "programmaonderdeel_ids": [
-          "1.1"
+          "1.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -3250,7 +3250,7 @@
           "ocr_artefact"
         ],
         "programmaonderdeel_ids": [
-          "1.1"
+          "1.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -3494,7 +3494,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.1"
+          "1.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -3628,7 +3628,7 @@
           "typo_genormaliseerd"
         ],
         "programmaonderdeel_ids": [
-          "1.1"
+          "1.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -3729,7 +3729,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "2.2"
+          "2.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -3872,7 +3872,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.2"
+          "2.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -3983,7 +3983,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.2"
+          "2.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4092,7 +4092,7 @@
           "antwoord_hint_aanwezig"
         ],
         "programmaonderdeel_ids": [
-          "2.2"
+          "2.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4248,7 +4248,7 @@
           "tabel_in_pdf_zichtbaar"
         ],
         "programmaonderdeel_ids": [
-          "2.2"
+          "2.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4359,7 +4359,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.7"
+          "2.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4455,7 +4455,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.7"
+          "2.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4551,7 +4551,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.7"
+          "2.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4648,7 +4648,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.7"
+          "2.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4762,7 +4762,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.7"
+          "2.5"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4877,7 +4877,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.2"
+          "1.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -4976,7 +4976,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.2"
+          "1.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -5081,7 +5081,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.2"
+          "1.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -5173,7 +5173,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "1.2"
+          "1.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -5271,7 +5271,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "1.2"
+          "1.3"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -5397,7 +5397,7 @@
           "typo_genormaliseerd"
         ],
         "programmaonderdeel_ids": [
-          "2.3"
+          "2.4"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -5528,7 +5528,7 @@
           "subvraag_zonder_inhoud"
         ],
         "programmaonderdeel_ids": [
-          "2.3"
+          "2.4"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -5768,7 +5768,7 @@
         "interpretatie_model": "claude-sonnet-4-6",
         "kwaliteits_flags": [],
         "programmaonderdeel_ids": [
-          "2.3"
+          "2.4"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -6037,7 +6037,7 @@
           "typo_genormaliseerd"
         ],
         "programmaonderdeel_ids": [
-          "2.3"
+          "2.4"
         ],
         "schema_versie": "1.2",
         "themas": [
@@ -6342,7 +6342,7 @@
           "typo_genormaliseerd"
         ],
         "programmaonderdeel_ids": [
-          "2.3"
+          "2.4"
         ],
         "schema_versie": "1.2",
         "themas": [

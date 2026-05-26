@@ -4,14 +4,19 @@
   "vraag_id": "2024-1-vr2D",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Algemene stellingen externe controle: juist of fout",
-  "programmaonderdeel_ids": ["1.3"],
-  "themas": ["externe controle", "revisienormen", "controleopdracht", "juist_fout", "algemene beginselen"],
-
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
+  "themas": [
+    "externe controle",
+    "revisienormen",
+    "controleopdracht",
+    "juist_fout",
+    "algemene beginselen"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -23,8 +28,9 @@
       "topic_only_onderwerp": "4 algemene stellingen juist of fout (externe controle)"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment: topic_only. De PNG toont enkel 'D. 4 algemene stellingen juist of fout' zonder de concrete stellingsteksten. Het aantal (4) is bewaard als kwantitatieve indicator in topic_only_onderwerp. De specifieke stellingen zijn niet beschikbaar.",
-  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
 }

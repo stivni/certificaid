@@ -268,6 +268,7 @@
             "proef_saldibalans",
             "rekeningstaat",
             "inventaris",
+            "groepsschema",
             "marktwaarde",
             "aanpassing",
             "formule",
@@ -313,7 +314,7 @@
           "if": {
             "properties": {
               "type": {
-                "enum": ["tabel", "resultatenrekening", "proef_saldibalans", "rekeningstaat", "inventaris", "marktwaarde", "aanpassing"]
+                "enum": ["tabel", "resultatenrekening", "proef_saldibalans", "rekeningstaat", "inventaris", "groepsschema", "marktwaarde", "aanpassing"]
               }
             },
             "required": ["type"]

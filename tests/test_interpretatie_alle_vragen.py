@@ -32,7 +32,7 @@ VALID_VOLLEDIGHEID = {"volledig", "fragment", "topic_only"}
 VALID_CONTEXT_BLOK_TYPES = {
     "casus_context", "bijlage_verwijzing",
     "tabel", "gegevens_tabel", "balans", "resultatenrekening",
-    "proef_saldibalans", "rekeningstaat", "inventaris",
+    "proef_saldibalans", "rekeningstaat", "inventaris", "groepsschema",
     "marktwaarde", "aanpassing", "formule",
     "figuur", "tekst",
 }

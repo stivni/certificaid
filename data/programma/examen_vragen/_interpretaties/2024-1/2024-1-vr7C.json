@@ -4,19 +4,26 @@
   "vraag_id": "2024-1-vr7C",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "IAS/IFRS — stellingen over afschrijvingen, kosten en uitzonderlijke posten",
-  "programmaonderdeel_ids": ["1.1"],
-  "themas": ["ifrs", "IAS 16", "afschrijvingen", "degressieve afschrijving", "materiele vaste activa", "uitzonderlijke opbrengsten", "terreinkosten"],
-
+  "programmaonderdeel_ids": [
+    "1.5"
+  ],
+  "themas": [
+    "ifrs",
+    "IAS 16",
+    "afschrijvingen",
+    "degressieve afschrijving",
+    "materiele vaste activa",
+    "uitzonderlijke opbrengsten",
+    "terreinkosten"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Stellingen met betrekking tot IAS/IFRS. Juist of fout?"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -51,8 +58,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. Vier stellingen over IAS/IFRS. Stelling b eindigt met '……?' — de vraagstelling is onvolledig in zowel tekst.txt als PNG; als fragment gemarkeerd. Afkorting 'Afschr. MVA' in stelling d uitgeschreven naar 'Afschrijving op materiële vaste activa' conform CLAUDE.md regel 8. Afkorting 'reële waarde' behouden als vakterm.",
-  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
 }

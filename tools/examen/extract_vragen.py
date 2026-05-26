@@ -494,18 +494,23 @@ def parse_standaard_examen(pages: list[str], examen_id: str) -> list[dict]:
 # 2024-1 vak-mapping: vak_nr → (PO-code, vak-naam).
 # Vakken zijn PO-categorisaties; elk vak bevat meerdere zelfstandige hoofdvragen
 # (A/B/C/D/E). Zie ADR-031 voor de scope-beslissing.
+# PDF-label → officiële PO-code uit data/programma/programma.json. Eerdere
+# versie nam de PDF-labels (e.g. "2.1" voor Personenbelasting) letterlijk over,
+# maar die matchen niet met de officiële ITAA-programmaonderdelen. Corrigeer
+# naar de canonieke PO-codes — gebruikt door programmaonderdeel_ids in
+# interpretaties + examenfocus-binding.
 _PARSE_2024_1_VAK_MAPPING: dict[str, tuple[str, str]] = {
-    "1":  ("3.1",                   "Vennootschapsrecht"),
-    "2":  ("1.3 Externe controle",  "Externe controle / accountantsonderzoek"),
-    "3":  ("1.3 Interne controle",  "Interne controle"),
-    "4":  ("3.2",                   "Bijzondere mandaten — ontbinding/omzetting"),
-    "5":  ("2.1",                   "Personenbelasting"),
-    "6":  ("4.0",                   "Deontologie en AWW"),
-    "7":  ("1.1/IFRS",              "Wetgeving jaarrekening + IFRS"),
-    "8":  ("2.2",                   "Vennootschapsbelasting"),
-    "9":  ("2.7",                   "Fiscale procedure"),
-    "10": ("1.2",                   "Analyse en kritische beoordeling jaarrekening"),
-    "11": ("2.3",                   "BTW"),
+    "1":  ("3.0", "Vennootschapsrecht"),
+    "2":  ("1.6", "Externe controle / accountantsonderzoek"),
+    "3":  ("1.7", "Interne controle"),
+    "4":  ("3.0", "Bijzondere mandaten — ontbinding/omzetting"),
+    "5":  ("2.2", "Personenbelasting"),
+    "6":  ("4.0", "Deontologie en AWW"),
+    "7":  ("1.5", "Wetgeving jaarrekening + IFRS"),
+    "8":  ("2.3", "Vennootschapsbelasting"),
+    "9":  ("2.5", "Fiscale procedure"),
+    "10": ("1.3", "Analyse en kritische beoordeling jaarrekening"),
+    "11": ("2.4", "BTW"),
 }
 
 # Drempel voor woord-x0-coordinaat (PDF-punten). Top-letter-koppen staan op

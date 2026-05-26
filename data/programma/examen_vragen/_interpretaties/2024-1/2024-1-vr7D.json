@@ -4,14 +4,20 @@
   "vraag_id": "2024-1-vr7D",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Operationele en financiële leasing — boekhoudkundige verwerking onder IAS/IFRS",
-  "programmaonderdeel_ids": ["1.1"],
-  "themas": ["leasing", "operationele leasing", "financiële leasing", "IFRS 16", "IAS 17", "boekhoudkundige verwerking"],
-
+  "programmaonderdeel_ids": [
+    "1.5"
+  ],
+  "themas": [
+    "leasing",
+    "operationele leasing",
+    "financiële leasing",
+    "IFRS 16",
+    "IAS 17",
+    "boekhoudkundige verwerking"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -22,8 +28,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. Typo 'laesing' in brontekst gecorrigeerd naar 'leasing' (zowel in tekst.txt als PNG zichtbaar). Vraag vraagt naar de boekhoudkundige/fiscale behandeling van het onderscheid tussen operationele en financiële leasing, vermoedelijk onder IAS/IFRS (vak 7-context). Open vraag zonder verdere deelvragen.",
-  "kwaliteits_flags": ["typo_genormaliseerd"]
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
 }

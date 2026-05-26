@@ -8,135 +8,124 @@ gegenereerd_op: 2026-05-26
 
 # PO 1.3 — Analyse en kritische beoordeling van de jaarrekening
 
-**15 unieke vraag-eenheden** (waarvan 1 cluster, totaal 17 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 14 met modelantwoord
+**11 unieke vraag-eenheden** (waarvan 1 cluster, totaal 13 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 10 met modelantwoord
 
-<a id="2024-1-vr2A"></a>
+<a id="2024-1-vr10A"></a>
 
-> [!topic]- Onafhankelijkheid bij een controleopdracht: stellingen juist of fout
+> [!topic]- Stellingen inzake financiële onafhankelijkheid
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> _Stellingen juist of fout in verband met onafhankelijkheid bij een controleopdracht_
+> _Stellingen ivm financiële onafhankelijkheid_
 
-<a id="2024-1-vr2B"></a>
+<a id="2024-1-vr10B"></a>
 
-> [!question]- Kennisverwerving over de onderneming na acceptatie van de controleopdracht
+> [!question]- Ratio's berekenen op basis van een verkort schema
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> Na acceptatie van de opdracht dient de revisor voldoende kennis te verwerven over de onderneming.
-> 
-> **Op welke wijze?**
+> **Welke ratio kan je niet berekenen op basis van een verkort schema?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > Na acceptatie verwerft de revisor in de **planningsfase** voldoende inzicht in de entiteit, haar omgeving, het van toepassing zijnde stelsel inzake financiele verslaggeving en het systeem van interne beheersing door **risico-inschattingswerkzaamheden** (ISA 315 herzien 2019, par. 13). Die werkzaamheden bestaan uit drie technieken: (1) **verzoeken om inlichtingen** bij management, met governance belaste personen en andere personeelsleden, (2) **cijferanalyses** (analytische werkzaamheden) en (3) **waarneming en inspectie**. 📖
+> > De **rotatie / omloopsnelheid van het klantenkrediet** (de zogenaamde **n-dagen klantenkrediet** of *Days Sales Outstanding*) kan **niet** worden berekend op basis van een verkort schema. 🔗
 > > 
-> > **Concreet — de drie risico-inschattingswerkzaamheden uitgewerkt** (ISA 315 par. 14):
+> > De formule is: **n-dagen klantenkrediet = (Handelsvorderingen op ten hoogste één jaar × 365) / Omzet incl. btw**. 🔗
 > > 
-> > 1. **Verzoeken om inlichtingen (inquiries)** 📖 — bij het management, de interne auditfunctie (indien aanwezig), met governance belaste personen, juridisch adviseurs, verkoop- en productiepersoneel. Doel: inzicht in bedrijfsmodel, sector, doelstellingen, strategieen, prestatiemeting, fraude-risico's en de werking van de interne beheersing.
-> > 2. **Analytische werkzaamheden** 📖 — vergelijking van financiele en niet-financiele kerncijfers met vorige jaren, sector-benchmarks en budget; identificeren van ongebruikelijke verhoudingen of trends die kunnen wijzen op risico's op een afwijking van materieel belang.
-> > 3. **Waarneming en inspectie** 📖 — bedrijfsbezoek (observatie van activiteiten, faciliteiten, productie), inspectie van interne documenten (strategieplan, notulen RvB/AV, organogram, interne reglementen, beleidsdocumenten, contracten) en externe rapportering (jaarrekening n-1, persberichten, sectoranalyses).
+> > In het **verkort schema** van de resultatenrekening worden de rubrieken **70 Omzet, 71 Wijziging in voorraden, 72 Geproduceerde vaste activa en 74 Andere bedrijfsopbrengsten** **samengevoegd** tot één enkele rubriek **9900 Brutomarge** (= bedrijfsopbrengsten − handelsgoederen, grond- en hulpstoffen − diensten en diverse goederen). 📖 De afzonderlijke omzet (rekening 70) wordt dus **niet** als aparte post gepubliceerd. 🔗
 > > 
-> > **Bijkomende elementen die de revisor verwerft** (ISA 315 par. 19-27): inzicht in sector- regelgevings- en andere externe factoren, aard van de entiteit (bedrijfsactiviteit, eigendomsstructuur, governance, financieringsstructuur), gehanteerde grondslagen voor financiele verslaggeving, doelstellingen en strategieen + bijbehorende bedrijfsrisico's, meting en beoordeling van financiele prestaties, en het systeem van interne beheersing (vijf COSO-componenten). 🔗
+> > De teller van de ratio (handelsvorderingen, balansrubriek VII.A) is wél beschikbaar in het verkort schema, maar zonder afzonderlijke omzet ontbreekt de noemer en is de ratio niet berekenbaar. 🔗
 > > 
-> > **Bespreking binnen het opdrachtteam** (ISA 315 par. 17): de partner en sleutelleden bespreken hoe en waar de financiele overzichten vatbaar zijn voor een afwijking van materieel belang door fraude of fouten. 📖
+> > **Vermeldenswaard** — Liquiditeits- en solvabiliteitsratio's (current ratio, quick ratio, cash ratio, schuldgraad, financiële onafhankelijkheid) zijn **wél** berekenbaar op een verkort schema: alle balansrubrieken die hierin nodig zijn (vlottende activa, voorraden, vorderingen, liquide middelen, schulden ≤ 1 jaar, eigen vermogen, totaal vreemd vermogen) staan ook in het verkort schema. Het probleem treft enkel ratio's die de **omzet** of een andere afzonderlijk niet-verplichte resultatenrekening-post als input nemen (bv. ook n-dagen leverancierskrediet vereist 'Aankopen 60', en bruto-verkoopmarge vereist Omzet — beide eveneens problematisch in het verkort schema). 🔗
 > > 
-> > **Vermeldenswaard** — kennisverwerving is **geen eenmalige planningsstap** maar een **iteratief proces** dat doorloopt tijdens de hele opdracht. Nieuwe informatie uit gegevensgerichte controles kan de initiele risico-inschatting wijzigen en bijkomende of aangepaste werkzaamheden vereisen (ISA 315 par. 37 — herziening van de risico-inschatting). 🔗
-> > 
-> > De diepgang van de kennisverwerving is bovendien **schaalbaar**: een minder complexe entiteit vereist minder gestructureerde procedures dan een beursgenoteerde groep — maar het inzicht moet altijd voldoende zijn om risico's op een afwijking van materieel belang te kunnen identificeren en inschatten op het niveau van de financiele overzichten en op het niveau van de beweringen. 📖
-> > 
-> > **ISA 315 (herzien 2019)** — Risico's op een afwijking van materieel belang identificeren en inschatten door inzicht te verwerven in de entiteit en haar omgeving: par. 13 (risico-inschattingswerkzaamheden), par. 14 (drie technieken: inquiries, analytische werkzaamheden, waarneming en inspectie), par. 17 (opdrachtteam-bespreking), par. 19-27 (verplichte inhoudsgebieden van het inzicht), par. 28-37 (identificeren en inschatten van risico's, met inbegrip van iteratieve herziening). Aansluitend: **ISA 330** (inspelen op ingeschatte risico's) bepaalt de volgende stap. 📖  
-> > *Bron: ISA 315 (herzien 2019), par. 13-37*
+> > KB-WVV, bijlagen bij art. 3:11 (volledig schema) en art. 3:12 (verkort schema): in het verkort schema worden 70–74 samengevoegd tot rubriek 9900 *Brutomarge*. 📖 CBN-advies 2017/08 bevestigt dat het verkort en het volledig schema verschillen in de mate van detail van de resultatenrekening; sinds KB 18 december 2015 zijn beide schema's herwerkt maar de aggregatie tot brutomarge in het verkort schema blijft behouden. 🔗  
+> > *Bron: KB-WVV art. 3:11–3:12 + bijlagen schema's; CBN-advies 2017/08*
 
-<a id="2024-1-vr2C"></a>
+<a id="2024-1-vr10C"></a>
 
-> [!topic]- Volkomen controle volgens de revisienormen
+> [!question]- Rangschikking van rubrieken op het Passief van de Balans
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> _Volkomen controle volgens de revisienormen_
-
-<a id="2024-1-vr2D"></a>
-
-> [!topic]- Algemene stellingen externe controle: juist of fout
-> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
->
-> _4 algemene stellingen juist of fout (externe controle)_
-
-<a id="2024-1-vr2E"></a>
-
-> [!question]- Vaststelling van de materialiteitsdrempel bij een accountantsonderzoek
-> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
->
-> Bij een accountantsonderzoek wordt de materialiteitsdrempel:
+> **In welke volgorde zijn de rubrieken op het Passief van de Balans gerangschikt?**
 > 
-> - **a** Vastgesteld bij KB
-> - **b** Door aandeelhouders van de vennootschap vastgesteld
-> - **c** Bepaald op basis van omzet van de 2 laatste jaren
-> - **d** Bepaald naargelang inherente risico's + interne controle van de cliënt
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De passief-rubrieken zijn gerangschikt volgens **toenemende eisbaarheid**: van het meest permanent (eigen vermogen) naar het meest opeisbaar op korte termijn (overlopende rekeningen passief). 📖
+> > 
+> > **Volgorde rubrieken passief** (KB WVV 2019, balansschema volledig model):
+> > 
+> > - **I. Kapitaal / Inbreng** (rubriek 10/11 — geplaatst kapitaal, uitgiftepremies) 📖
+> > - **II. Herwaarderingsmeerwaarden** (rubriek 12) 📖
+> > - **III. Reserves** (rubriek 13 — wettelijke, onbeschikbare, belastingvrije, beschikbare) 📖
+> > - **IV. Overgedragen winst / verlies** (rubriek 14) 📖
+> > - **V. Kapitaalsubsidies** (rubriek 15) 📖
+> > - **VI. Voorzieningen en uitgestelde belastingen** (rubriek 16) 📖
+> > - **VII. Schulden op meer dan één jaar** (rubriek 17) 📖
+> > - **VIII. Schulden op ten hoogste één jaar** (rubrieken 42-48 — incl. financiële schulden, handelsschulden, fiscale/sociale schulden) 📖
+> > - **IX. Overlopende rekeningen** (rubriek 49 — toe te rekenen kosten, over te dragen opbrengsten) 📖
+> > 
+> > Rubrieken I t.e.m. V vormen samen het **eigen vermogen**; VI is een tussencategorie (kosten die waarschijnlijk worden maar onzeker in bedrag/timing); VII t.e.m. IX is het **vreemd vermogen** in oplopende eisbaarheid. 📖
+> > 
+> > **Vermeldenswaard** — spiegelbeeld met actief: het actief wordt gerangschikt in **toenemende realiseerbaarheid** (vaste activa → vlottende activa → liquide middelen), het passief in **toenemende eisbaarheid**. Beide rangschikkings-logica's zijn dus liquiditeits-gedreven, niet bedragmatig. 🔗
+> > 
+> > **Valkuil**: een lening op lange termijn waarbij de schuldeiser binnen het jaar kan opeisen, hoort op basis van dit rangschikkings-criterium onder VIII (schulden ≤ 1 jaar), niet onder VII — anders ontstaat een **vals beeld van liquiditeit** (CBN 2012/16). 📖
+> > 
+> > **KB WVV 29.04.2019, art. 3:89** (balansschema volledig model — rubrieken I-IX van het passief). **CBN-advies 2012/16**: "de passiva worden gerangschikt in een stijgende lijn van eisbaarheid". **MAR (KB 21.10.2018, Bijlage 1)**, klasse 1 (eigen vermogen + voorzieningen + schulden > 1 jaar) en klasse 4 (schulden ≤ 1 jaar + overlopende rekeningen passief). 📖  
+> > *Bron: KB WVV 2019 art. 3:89; CBN 2012/16; MAR klasse 1 en 4*
+
+<a id="2024-1-vr10D"></a>
+
+> [!question]- Berekening van het eigen vermogen in het kort NBB-model voor kapitaalvennootschappen
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
+>
+> In de jaarrekening kort model NBB voor een kapitaalvennootschap wordt het eigen vermogen als volgt berekend:
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Eigen vermogen (passiefrubriek 10/15) in het verkort NBB-model voor een kapitaalvennootschap** = som van de zes hoofdrubrieken: 🔗
+> > 
+> > - **I. Inbreng** (10/11) — geplaatst kapitaal (10) + uitgiftepremies (11), onderverdeeld in volgestort en niet-opgevraagd 📖
+> > - **II. Herwaarderingsmeerwaarden** (12) 📖
+> > - **III. Reserves** (13) — wettelijke reserve + onbeschikbare reserves + belastingvrije reserves + beschikbare reserves (in het verkort schema **niet verder uitgesplitst** per subrubriek zoals in het volledig model) 🔗
+> > - **IV. Overgedragen winst (verlies)** (14) — met minteken bij verlies 📖
+> > - **V. Kapitaalsubsidies** (15) 📖
+> > - **VI. Voorschot aan de vennoten op de verdeling van het netto-actief** (alleen relevant bij vereffening) 🔗
+> > 
+> > Formule: **EV = Inbreng + Herwaarderingsmeerwaarden + Reserves + Overgedragen resultaat + Kapitaalsubsidies (+/− Voorschot vereffening)**. 🔗
+> > 
+> > **Vermeldenswaard — verkort vs. volledig schema** ❓: het *verkort* model groepeert de reserves (rubriek III) zonder de in het volledig schema vereiste uitsplitsing naar wettelijke/onbeschikbare/belastingvrije/beschikbare reserves op de balans zelf — die detaillering verschijnt enkel in de toelichting. De hoofdrubrieken I-VI zijn echter **identiek** in volledig, verkort en micromodel. 🔗
+> > 
+> > **Valkuil — kapitaalvennootschap vs. kapitaalloze vennootschap** ⚠️: sinds het WVV (1 januari 2020) hebben kapitaalloze vennootschappen (BV, CV) geen rubriek 'Kapitaal' meer; de inbreng wordt geboekt onder een 'statutair onbeschikbare eigen vermogensrekening'. De vraag specifieert expliciet **kapitaal**vennootschap (NV, Comm.VA, SE), waarvoor de klassieke rubriek I 'Kapitaal' wel blijft bestaan. 📖
+> > 
+> > **KB WVV 29 april 2019, bijlage 2** (verkort schema balans, rubrieken I-VI van het passief) — de modellen worden door de NBB opgesteld na advies van de CBN en op haar website gepubliceerd. **CBN-advies 2020/01** geeft het overzicht van de samenstelling van het eigen vermogen per model (volledig, verkort, micro) en per vennootschapsvorm (kapitaal- vs. kapitaalloze vennootschap). 📖  
+> > *Bron: KB WVV 29 april 2019, bijlage 2; CBN-advies 2020/01*
+
+<a id="2024-1-vr10E"></a>
+
+> [!question]- Effect van hogere afschrijving op de bruto verkoopmarge bij een verlieslatende onderneming
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
+>
+> Alfa is verlieslatend. Verhoging van de afschrijving op gebouwen door verkorting van de verwachte levensduur heeft het volgende effect op de bruto verkoopmarge:
+> 
+> - **a** Stijging
+> - **b** Daling
+> - **c** Geen
+> - **d** Stijging op voorwaarde dat de verhoogde afschrijving als bedrijfskost is geboekt
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > **Antwoord: d**
+> > **Antwoord: c**
 > > 
-> > **Optie d** — de materialiteitsdrempel wordt door de beroepsbeoefenaar zelf bepaald op basis van zijn **professionele oordeelsvorming**, rekening houdend met de **inherente risico's** en het **interne controlesysteem** van de cliënt. 🔗
+> > **Geen effect** op de bruto verkoopmarge (optie **c**). 🔗 Afschrijvingen op gebouwen worden geboekt op rekening **6302 — Afschrijvingen op materiële vaste activa** (rubriek 63 van de resultatenrekening). Die rubriek staat **onder** de bruto verkoopmarge en raakt de marge dus niet. Dat de onderneming verlieslatend is, verandert hier niets aan — de plaats van de kost in het schema is structureel, niet resultaatafhankelijk. 🔗
 > > 
-> > **Per MC-optie**:
+> > **Per optie**:
+> > - **a (Stijging)** — FOUT. Een hogere kost kan een marge nooit doen stijgen; en bovendien zit de kost niet in de teller van de marge. ❌
+> > - **b (Daling)** — FOUT. Aannemelijke valstrik ("hogere kost = lagere marge"), maar de afschrijving op gebouwen behoort tot rubriek 63, niet tot de **kostprijs van de verkochte goederen** (rubriek 60 + voorraadwijzigingen). De bruto verkoopmarge = omzet − kostprijs verkochte goederen blijft dus ongewijzigd. 🔗
+> > - **c (Geen)** — JUIST. De extra afschrijving treft de bedrijfswinst (rubriek 9901), niet de bruto marge. 🔗
+> > - **d (Stijging mits geboekt als bedrijfskost)** — FOUT. Onzin-conditie: afschrijvingen op gebouwen wórden per definitie als bedrijfskost (rubriek 63) geboekt, en dat plaatst ze net **onder** de bruto marge → effect = nul, geen stijging. Een hogere kost laat de marge nooit stijgen, ongeacht waar hij in het schema staat. ❌
 > > 
-> > - **a — Vastgesteld bij KB**: FOUT. ❌ Er bestaat geen KB dat een vaste materialiteitsdrempel oplegt; materialiteit is per definitie entiteits- en opdracht-specifiek (ISA 320 §10). 📖
-> > - **b — Door aandeelhouders vastgesteld**: FOUT. ❌ De aandeelhouders benoemen de accountant/commissaris, maar bepalen niet de drempel — dat zou de onafhankelijkheid ondergraven. 🔗
-> > - **c — Op basis van omzet van de 2 laatste jaren**: FOUT. ❌ Omzet kan één van de **benchmarks** zijn (naast EBIT, eigen vermogen, totaal activa), maar het is geen vaste regel en zeker geen tweejarig gemiddelde. ISA 320 §A4-A9 noemt meerdere mogelijke referentiekaders. 🔗
-> > - **d — Naargelang inherente risico's + interne controle van de cliënt**: JUIST. 🔗 Materialiteit is een zaak van **professionele oordeelsvorming** (ISA 200 §A26, ISA 320 §4): de auditor zet de drempel mee in functie van het **risico op een afwijking van materieel belang** — dat zelf bestaat uit inherent risico × interne-controle-risico (audit risk model, ISA 200). Een hoger ingeschat risico → lagere materialiteit → meer en diepgaander controlewerk. 🔗
+> > **Bruto verkoopmarge ≠ bedrijfsresultaat.** De bruto marge meet enkel het verschil tussen omzet en directe inkoop-/voorraadkost (60/61). Alles wat in rubrieken 62 (personeel), 63 (afschrijvingen/waardeverminderingen), 64 (andere bedrijfskosten) zit, beïnvloedt het **bedrijfsresultaat** maar **niet** de bruto marge. Zelfde redenering geldt voor lonen, huur en waardeverminderingen op vorderingen: die zakken de winst, niet de bruto marge. 🔗 De verwijzing naar "verlieslatend" in de vraagstelling is een afleider — verlieslatendheid verandert het schema niet. 🤖
 > > 
-> > **Vermeldenswaard** — Materialiteit wordt **bij planning** vastgesteld (overall materiality) én in een **lagere uitvoeringsmaterialiteit** (performance materiality) vertaald om het cumulatief risico van niet-gecorrigeerde afwijkingen op te vangen (ISA 320 §9, §11). De drempel wordt **herzien naarmate de controle vordert** als nieuwe informatie dat rechtvaardigt (ISA 320 §12-13). 🔗
-> > 
-> > **ISA 320 — Materialiteit bij de planning en uitvoering van een controle** (§4, §10-13, §A1-A13): de auditor bepaalt materialiteit op basis van professionele oordeelsvorming, in samenhang met de risico-inschatting. **ISA 200 §A26**: professionele oordeelsvorming is noodzakelijk voor beslissingen over materialiteit en controlerisico. **ISA 315 (herzien 2019)**: het inherent risico en het interne-controle-systeem vormen samen het risico op een afwijking van materieel belang, dat de drempel mee bepaalt. 📖  
-> > *Bron: ISA 320 §10-13; ISA 200 §A26; ISA 315 (herzien 2019)*
-
-<a id="2024-1-vr3A"></a>
-
-> [!topic]- Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus
-> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
->
-> _Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus (interne controle)_
-
-<a id="2024-1-vr3B"></a>
-
-> [!question]- Hoofddoelstelling van interne controle in een KMO
-> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
->
-> **Wat is de hoofddoelstelling van de invoering van een interne controle in een KMO?**
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > De **hoofddoelstelling** van interne controle in een KMO is het verschaffen van een **redelijke mate van zekerheid** dat de organisatie haar **drie kerndoelstellingen** bereikt: (1) **betrouwbaarheid van de financiële verslaggeving**, (2) **effectiviteit en efficiëntie van de bedrijfsvoering** en (3) **naleving van de toepasselijke wet- en regelgeving**. 📖
-> > 
-> > **Toelichting op de drie doelstellingen** (COSO-raamwerk, overgenomen in de ITAA-KMO-controlenorm):
-> > 
-> > 1. **Betrouwbare financiële rapportering** — borgen dat de jaarrekening en interne stuurinformatie correct, volledig en tijdig zijn (raakt direct het werkterrein van de externe accountant). 🔗
-> > 2. **Effectieve en efficiënte bedrijfsvoering** — middelen doeltreffend inzetten, activa beschermen tegen verlies of misbruik (functiescheiding, autorisaties). 🔗
-> > 3. **Naleving van wet- en regelgeving** — fiscaal, sociaal, vennootschapsrechtelijk, sectoraal (anti-witwas, GDPR, ...). 🔗
-> > 
-> > In een **KMO-context** is de doelstelling identiek aan die in een grote onderneming — het verschil zit in de **proportionele invulling**: minder uitgebreide functiescheiding, sterkere afhankelijkheid van zachte controles (cultuur, betrokkenheid bedrijfsleider) en vaak compensatie door **management override-monitoring** door de bedrijfsleider zelf. 🔗
-> > 
-> > **Vermeldenswaard — 'redelijke' en geen absolute zekerheid**: het concept biedt per definitie slechts *redelijke* zekerheid wegens vier inherente beperkingen: menselijke oordeelsvorming, **kosten-batenafweging** (cruciaal in KMO-context — uitgebreide controles zijn vaak niet rendabel), **samenspanning** tussen medewerkers, en **management override** door de bedrijfsleider. Een examenstelling die suggereert dat interne controle fraude *volledig* uitsluit, past het concept verkeerd toe. 🔗
-> > 
-> > **ITAA-KMO-controlenorm, Bijlage 1 (Definities)** — definieert *interne beheersing* als het proces, opgezet en gesuperviseerd door bestuur en management, dat *een redelijke mate van zekerheid* verschaft dat de doelstellingen van de KMO of kleine vzw met betrekking tot (a) betrouwbaarheid van de financiële verslaggeving, (b) effectiviteit en efficiëntie van de activiteiten en (c) naleving van wet- en regelgeving worden bereikt. 📖
-> > 
-> > Conceptueel onderbouwd door het **COSO-raamwerk** (Internal Control — Integrated Framework, 1992, herzien 2013) — internationaal de facto-standaard voor interne controle, structureert dezelfde drie doelstellingen langs vijf componenten (controle-omgeving · risico-inschatting · controle-activiteiten · informatie & communicatie · monitoring). 📖  
-> > *Bron: ITAA-norm-kmo-controlenorm, Bijlage 1 (Definities); COSO Internal Control — Integrated Framework (2013)*
-
-<a id="2024-1-vr3C"></a>
-
-> [!topic]- Risicoclassificatie volgens het COSO-model
-> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
->
-> _Over welke soort risico gaat het? (COSO-model) — vier categorieën: Strategisch, Informatie, Operationeel, Financieel_
-
-<a id="2024-1-vr3D"></a>
-
-> [!topic]- Doelstellingen van interne controle in de verkoopcyclus
-> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
->
-> _Verkoopcyclus: doelstellingen (Financieel, Operationeel, Conformiteit)_
+> > Boeking afschrijvingen materiële vaste activa op rekening **6302** (MAR-ondernemingen, KB 21.10.2018 Bijlage 1, klasse 6 — rubriek 63 "Afschrijvingen en waardeverminderingen op oprichtingskosten, op immateriële en materiële vaste activa"). 📖 De resultatenrekening-rubrieken 60 (handelsgoederen, grond- en hulpstoffen) + 61 (diensten en diverse goederen) zijn de kostprijs verkochte goederen die in de bruto verkoopmarge ingaat; rubrieken 62-64 vallen erbuiten. 🔗 Concept-definitie afschrijvingen: KB WVV art. 3:23 — spreiden van aanschaffingswaarde over waarschijnlijke gebruiksduur. 📖  
+> > *Bron: MAR (KB 21.10.2018 Bijlage 1) klasse 6; KB WVV art. 3:23*
 
 <a id="2015-1-vr8"></a>
 <a id="2014-1-vr5"></a>

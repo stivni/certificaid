@@ -4,19 +4,25 @@
   "vraag_id": "2024-1-vr5C",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Aangifte gemeubeld onroerend goed verhuurd aan natuurlijk persoon: te vermelden bedragen",
-  "programmaonderdeel_ids": ["2.1"],
-  "themas": ["gemeubeld verhuur", "onroerend goed", "kadastral inkomen", "aangifte personenbelasting", "onroerende inkomsten", "roerende inkomsten"],
-
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
+  "themas": [
+    "gemeubeld verhuur",
+    "onroerend goed",
+    "kadastral inkomen",
+    "aangifte personenbelasting",
+    "onroerende inkomsten",
+    "roerende inkomsten"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Een ongehuwde belastingplichtige verhuurt een gemeubeld onroerend goed aan een natuurlijk persoon. Het kadastraal inkomen bedraagt 1.500 euro. De huurprijs bedraagt 3.000,00 euro per kwartaal."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -27,7 +33,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. PNG bevestigt de vraagstelling en de cijfergegevens (KI = 1.500, opbrengst = 3.000 euro per kwartaal). De vraag peilt naar de correcte aangifte-codes en -bedragen bij gemeubeld verhuur aan een natuurlijk persoon: het onroerende deel (op basis van KI) en het meubilairsurplus (roerend inkomen). Gegevens verplaatst naar casus_context.",
   "kwaliteits_flags": []

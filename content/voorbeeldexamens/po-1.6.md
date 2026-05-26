@@ -8,7 +8,88 @@ gegenereerd_op: 2026-05-26
 
 # PO 1.6 — Externe controle
 
-**17 unieke vraag-eenheden** uit 4 examens (2013-1, 2013-2, 2014-1, 2015-1) — 17 met modelantwoord
+**22 unieke vraag-eenheden** uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 22 met modelantwoord
+
+<a id="2024-1-vr2A"></a>
+
+> [!topic]- Onafhankelijkheid bij een controleopdracht: stellingen juist of fout
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.6*
+>
+> _Stellingen juist of fout in verband met onafhankelijkheid bij een controleopdracht_
+
+<a id="2024-1-vr2B"></a>
+
+> [!question]- Kennisverwerving over de onderneming na acceptatie van de controleopdracht
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.6*
+>
+> Na acceptatie van de opdracht dient de revisor voldoende kennis te verwerven over de onderneming.
+> 
+> **Op welke wijze?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > Na acceptatie verwerft de revisor in de **planningsfase** voldoende inzicht in de entiteit, haar omgeving, het van toepassing zijnde stelsel inzake financiele verslaggeving en het systeem van interne beheersing door **risico-inschattingswerkzaamheden** (ISA 315 herzien 2019, par. 13). Die werkzaamheden bestaan uit drie technieken: (1) **verzoeken om inlichtingen** bij management, met governance belaste personen en andere personeelsleden, (2) **cijferanalyses** (analytische werkzaamheden) en (3) **waarneming en inspectie**. 📖
+> > 
+> > **Concreet — de drie risico-inschattingswerkzaamheden uitgewerkt** (ISA 315 par. 14):
+> > 
+> > 1. **Verzoeken om inlichtingen (inquiries)** 📖 — bij het management, de interne auditfunctie (indien aanwezig), met governance belaste personen, juridisch adviseurs, verkoop- en productiepersoneel. Doel: inzicht in bedrijfsmodel, sector, doelstellingen, strategieen, prestatiemeting, fraude-risico's en de werking van de interne beheersing.
+> > 2. **Analytische werkzaamheden** 📖 — vergelijking van financiele en niet-financiele kerncijfers met vorige jaren, sector-benchmarks en budget; identificeren van ongebruikelijke verhoudingen of trends die kunnen wijzen op risico's op een afwijking van materieel belang.
+> > 3. **Waarneming en inspectie** 📖 — bedrijfsbezoek (observatie van activiteiten, faciliteiten, productie), inspectie van interne documenten (strategieplan, notulen RvB/AV, organogram, interne reglementen, beleidsdocumenten, contracten) en externe rapportering (jaarrekening n-1, persberichten, sectoranalyses).
+> > 
+> > **Bijkomende elementen die de revisor verwerft** (ISA 315 par. 19-27): inzicht in sector- regelgevings- en andere externe factoren, aard van de entiteit (bedrijfsactiviteit, eigendomsstructuur, governance, financieringsstructuur), gehanteerde grondslagen voor financiele verslaggeving, doelstellingen en strategieen + bijbehorende bedrijfsrisico's, meting en beoordeling van financiele prestaties, en het systeem van interne beheersing (vijf COSO-componenten). 🔗
+> > 
+> > **Bespreking binnen het opdrachtteam** (ISA 315 par. 17): de partner en sleutelleden bespreken hoe en waar de financiele overzichten vatbaar zijn voor een afwijking van materieel belang door fraude of fouten. 📖
+> > 
+> > **Vermeldenswaard** — kennisverwerving is **geen eenmalige planningsstap** maar een **iteratief proces** dat doorloopt tijdens de hele opdracht. Nieuwe informatie uit gegevensgerichte controles kan de initiele risico-inschatting wijzigen en bijkomende of aangepaste werkzaamheden vereisen (ISA 315 par. 37 — herziening van de risico-inschatting). 🔗
+> > 
+> > De diepgang van de kennisverwerving is bovendien **schaalbaar**: een minder complexe entiteit vereist minder gestructureerde procedures dan een beursgenoteerde groep — maar het inzicht moet altijd voldoende zijn om risico's op een afwijking van materieel belang te kunnen identificeren en inschatten op het niveau van de financiele overzichten en op het niveau van de beweringen. 📖
+> > 
+> > **ISA 315 (herzien 2019)** — Risico's op een afwijking van materieel belang identificeren en inschatten door inzicht te verwerven in de entiteit en haar omgeving: par. 13 (risico-inschattingswerkzaamheden), par. 14 (drie technieken: inquiries, analytische werkzaamheden, waarneming en inspectie), par. 17 (opdrachtteam-bespreking), par. 19-27 (verplichte inhoudsgebieden van het inzicht), par. 28-37 (identificeren en inschatten van risico's, met inbegrip van iteratieve herziening). Aansluitend: **ISA 330** (inspelen op ingeschatte risico's) bepaalt de volgende stap. 📖  
+> > *Bron: ISA 315 (herzien 2019), par. 13-37*
+
+<a id="2024-1-vr2C"></a>
+
+> [!topic]- Volkomen controle volgens de revisienormen
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.6*
+>
+> _Volkomen controle volgens de revisienormen_
+
+<a id="2024-1-vr2D"></a>
+
+> [!topic]- Algemene stellingen externe controle: juist of fout
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.6*
+>
+> _4 algemene stellingen juist of fout (externe controle)_
+
+<a id="2024-1-vr2E"></a>
+
+> [!question]- Vaststelling van de materialiteitsdrempel bij een accountantsonderzoek
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.6*
+>
+> Bij een accountantsonderzoek wordt de materialiteitsdrempel:
+> 
+> - **a** Vastgesteld bij KB
+> - **b** Door aandeelhouders van de vennootschap vastgesteld
+> - **c** Bepaald op basis van omzet van de 2 laatste jaren
+> - **d** Bepaald naargelang inherente risico's + interne controle van de cliënt
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: d**
+> > 
+> > **Optie d** — de materialiteitsdrempel wordt door de beroepsbeoefenaar zelf bepaald op basis van zijn **professionele oordeelsvorming**, rekening houdend met de **inherente risico's** en het **interne controlesysteem** van de cliënt. 🔗
+> > 
+> > **Per MC-optie**:
+> > 
+> > - **a — Vastgesteld bij KB**: FOUT. ❌ Er bestaat geen KB dat een vaste materialiteitsdrempel oplegt; materialiteit is per definitie entiteits- en opdracht-specifiek (ISA 320 §10). 📖
+> > - **b — Door aandeelhouders vastgesteld**: FOUT. ❌ De aandeelhouders benoemen de accountant/commissaris, maar bepalen niet de drempel — dat zou de onafhankelijkheid ondergraven. 🔗
+> > - **c — Op basis van omzet van de 2 laatste jaren**: FOUT. ❌ Omzet kan één van de **benchmarks** zijn (naast EBIT, eigen vermogen, totaal activa), maar het is geen vaste regel en zeker geen tweejarig gemiddelde. ISA 320 §A4-A9 noemt meerdere mogelijke referentiekaders. 🔗
+> > - **d — Naargelang inherente risico's + interne controle van de cliënt**: JUIST. 🔗 Materialiteit is een zaak van **professionele oordeelsvorming** (ISA 200 §A26, ISA 320 §4): de auditor zet de drempel mee in functie van het **risico op een afwijking van materieel belang** — dat zelf bestaat uit inherent risico × interne-controle-risico (audit risk model, ISA 200). Een hoger ingeschat risico → lagere materialiteit → meer en diepgaander controlewerk. 🔗
+> > 
+> > **Vermeldenswaard** — Materialiteit wordt **bij planning** vastgesteld (overall materiality) én in een **lagere uitvoeringsmaterialiteit** (performance materiality) vertaald om het cumulatief risico van niet-gecorrigeerde afwijkingen op te vangen (ISA 320 §9, §11). De drempel wordt **herzien naarmate de controle vordert** als nieuwe informatie dat rechtvaardigt (ISA 320 §12-13). 🔗
+> > 
+> > **ISA 320 — Materialiteit bij de planning en uitvoering van een controle** (§4, §10-13, §A1-A13): de auditor bepaalt materialiteit op basis van professionele oordeelsvorming, in samenhang met de risico-inschatting. **ISA 200 §A26**: professionele oordeelsvorming is noodzakelijk voor beslissingen over materialiteit en controlerisico. **ISA 315 (herzien 2019)**: het inherent risico en het interne-controle-systeem vormen samen het risico op een afwijking van materieel belang, dat de drempel mee bepaalt. 📖  
+> > *Bron: ISA 320 §10-13; ISA 200 §A26; ISA 315 (herzien 2019)*
 
 <a id="2015-1-vr16"></a>
 

@@ -4,14 +4,20 @@
   "vraag_id": "2024-1-vr3B",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Hoofddoelstelling van interne controle in een KMO",
-  "programmaonderdeel_ids": ["1.3"],
-  "themas": ["interne controle", "KMO", "doelstelling", "COSO", "risicobeheer", "betrouwbaarheid"],
-
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
+  "themas": [
+    "interne controle",
+    "KMO",
+    "doelstelling",
+    "COSO",
+    "risicobeheer",
+    "betrouwbaarheid"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -22,7 +28,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. De PNG bevestigt de vraagstelling volledig. Enkelvoudige open vraag over de hoofddoelstelling van interne controle in een KMO-context.",
   "kwaliteits_flags": []

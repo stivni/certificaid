@@ -4,19 +4,26 @@
   "vraag_id": "2024-1-vr8C",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Voorafbetalingen en vermeerdering wegens onvoldoende voorafbetaling bij verlaagd tarief vennootschapsbelasting",
-  "programmaonderdeel_ids": ["2.2"],
-  "themas": ["voorafbetalingen", "vermeerdering", "onvoldoende voorafbetaling", "verlaagd tarief", "vennootschapsbelasting", "VOF", "startende vennootschap"],
-
+  "programmaonderdeel_ids": [
+    "2.3"
+  ],
+  "themas": [
+    "voorafbetalingen",
+    "vermeerdering",
+    "onvoldoende voorafbetaling",
+    "verlaagd tarief",
+    "vennootschapsbelasting",
+    "VOF",
+    "startende vennootschap"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Boekjaar N: 120.000 euro belastbare winst. Alle voorwaarden zijn voldaan voor het verlaagd tarief van 20%. VOF bestaat sinds 1/1/N-2, boekjaar is het kalenderjaar."
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -27,7 +34,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. De vraag peilt naar de uitzondering op de vermeerdering wegens onvoldoende voorafbetaling voor startende vennootschappen (eerste drie boekjaren). De casus-gegevens (VOF bestaat sinds 1/1/N-2, boekjaar N) zijn relevant om te beoordelen of de vrijstelling nog van toepassing is. Open vraag zonder deelopsplitsing.",
   "kwaliteits_flags": []

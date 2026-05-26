@@ -4,14 +4,21 @@
   "vraag_id": "2024-1-vr3D",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Doelstellingen van interne controle in de verkoopcyclus",
-  "programmaonderdeel_ids": ["1.3"],
-  "themas": ["verkoopcyclus", "interne controle", "doelstellingen", "financieel", "operationeel", "conformiteit", "COSO"],
-
+  "programmaonderdeel_ids": [
+    "1.7"
+  ],
+  "themas": [
+    "verkoopcyclus",
+    "interne controle",
+    "doelstellingen",
+    "financieel",
+    "operationeel",
+    "conformiteit",
+    "COSO"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -23,8 +30,9 @@
       "topic_only_onderwerp": "Verkoopcyclus: doelstellingen (Financieel, Operationeel, Conformiteit)"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment: topic_only. De PNG (pagina 2) toont 'D. Verkoopcyclus: Doelstelling' met drie bullet-categorieën: Financieel, Operationeel, Conformiteit. De concrete vraagstelling (beschrijf, koppel, beoordeel?) ontbreekt. De drie categorieën zijn bewaard in topic_only_onderwerp.",
-  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
 }

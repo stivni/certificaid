@@ -4,14 +4,20 @@
   "vraag_id": "2024-1-vr2A",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Onafhankelijkheid bij een controleopdracht: stellingen juist of fout",
-  "programmaonderdeel_ids": ["1.3"],
-  "themas": ["onafhankelijkheid", "controleopdracht", "externe controle", "revisor", "deontologie", "IESBA"],
-
+  "programmaonderdeel_ids": [
+    "1.6"
+  ],
+  "themas": [
+    "onafhankelijkheid",
+    "controleopdracht",
+    "externe controle",
+    "revisor",
+    "deontologie",
+    "IESBA"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -23,8 +29,9 @@
       "topic_only_onderwerp": "Stellingen juist of fout in verband met onafhankelijkheid bij een controleopdracht"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment: topic_only. De PNG toont enkel 'A. Stellingen juist of fout ivm onafhankelijkheid bij controle opdracht' zonder de concrete stellingen. De specifieke stellingsteksten zijn niet bewaard. Gemodelleerd als één juist_fout-deelvraag met topic_only.",
-  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
 }

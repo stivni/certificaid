@@ -217,8 +217,12 @@ def test_render_mc_opties_aanwezig():
                     md = render_vraag_callout(vraag)
                     # MC-optie-id zoals "a)" of "A)" moet in de output staan
                     eerste_optie_id = dv["opties"][0]["id"]
+                    # Markdown-rendering: `**{id}**` (zonder `)`-haakje na ADR-032
+                    # styling; haakje weggehaald omdat letter als badge wordt
+                    # gerendered).
                     assert (
-                        f"{eerste_optie_id})" in md or f"**{eerste_optie_id})**" in md
+                        f"**{eerste_optie_id}**" in md
+                        or f"**{eerste_optie_id})**" in md
                     ), f"MC-optie '{eerste_optie_id}' niet in output"
                     return
     pytest.skip("Geen mc_keuze-vraag met opties gevonden in testdata")

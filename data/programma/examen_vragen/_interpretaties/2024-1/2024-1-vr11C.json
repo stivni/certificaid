@@ -4,19 +4,25 @@
   "vraag_id": "2024-1-vr11C",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Toepasselijkheid vrijstellingsregeling kleine onderneming voor diverse activiteiten",
-  "programmaonderdeel_ids": ["2.3"],
-  "themas": ["vrijstellingsregeling", "kleine onderneming", "BTW-vrijstelling", "omzetdrempel", "activiteiten", "mengde belastingplichtige"],
-
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
+  "themas": [
+    "vrijstellingsregeling",
+    "kleine onderneming",
+    "BTW-vrijstelling",
+    "omzetdrempel",
+    "activiteiten",
+    "mengde belastingplichtige"
+  ],
   "context_blokken": [
     {
       "type": "casus_context",
       "tekst": "Vraagstelling: Is de vrijstellingsregeling voor kleine ondernemingen mogelijk voor elk van de volgende activiteiten? (Alle antwoorden moeten juist zijn voor punten — alles juist of geen punten)"
     }
   ],
-
   "vragen": [
     {
       "id": "a",
@@ -59,7 +65,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment met volledig bewaarde stellingen-set (5 items a-e). PNG pagina 6 bevestigt alle vijf activiteiten. Gemodelleerd als 5 juist_fout-deelvragen conform prompt-spec §3. Bijzondere scoringsregel 'alles juist of geen punten' is opgenomen in context_blok maar niet als apart schema-veld (bestaat niet in schema 1.2). Omzetbedragen zijn afgerond gehele getallen zoals vermeld in PNG.",
   "kwaliteits_flags": []

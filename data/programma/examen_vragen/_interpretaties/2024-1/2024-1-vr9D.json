@@ -4,14 +4,19 @@
   "vraag_id": "2024-1-vr9D",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Vraag om inlichtingen — antwoordtermijn belastingplichtige",
-  "programmaonderdeel_ids": ["2.7"],
-  "themas": ["vraag om inlichtingen", "antwoordtermijn", "fiscale procedure", "onderzoeksbevoegdheden", "belastingadministratie"],
-
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
+  "themas": [
+    "vraag om inlichtingen",
+    "antwoordtermijn",
+    "fiscale procedure",
+    "onderzoeksbevoegdheden",
+    "belastingadministratie"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -22,7 +27,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. De brontekst is 'Vraag om inlichtingen, termijn?' — open vraag over de wettelijke antwoordtermijn. Vraagstelling licht uitgebreid voor duidelijkheid zonder nieuwe elementen toe te voegen.",
   "kwaliteits_flags": []

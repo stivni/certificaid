@@ -4,14 +4,21 @@
   "vraag_id": "2024-1-vr5D",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Beroepsinkomsten niet onderworpen aan het progressief belastingtarief",
-  "programmaonderdeel_ids": ["2.1"],
-  "themas": ["progressief belastingtarief", "beroepsinkomsten", "afzonderlijk tarief", "personenbelasting", "bezoldigingen", "winsten", "baten"],
-
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
+  "themas": [
+    "progressief belastingtarief",
+    "beroepsinkomsten",
+    "afzonderlijk tarief",
+    "personenbelasting",
+    "bezoldigingen",
+    "winsten",
+    "baten"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -22,7 +29,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. PNG en tekst.txt stemmen overeen. Open vraag naar de categorieën van beroepsinkomsten die aan een afzonderlijk (niet-progressief) tarief worden belast in de personenbelasting (bv. achterstallen, opzeggingsvergoedingen, vergoedingen voor tijdelijke onthouding van beroepsactiviteit). Geen OCR-artefacten.",
   "kwaliteits_flags": []

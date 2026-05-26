@@ -8,7 +8,285 @@ gegenereerd_op: 2026-05-26
 
 # PO 2.4 — Belasting over de toegevoegde waarde
 
-**26 unieke vraag-eenheden** (waarvan 2 clusters, totaal 28 voorkomens) uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 24 met modelantwoord
+**31 unieke vraag-eenheden** (waarvan 2 clusters, totaal 33 voorkomens) uit 7 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 29 met modelantwoord
+
+<a id="2024-1-vr11A"></a>
+
+> [!question]- Factuurplicht en BTW-opeisbaarheid bij dienstverlening aan een rentenier
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.4*
+>
+> Situatie: Een rentenier liet zijn hybride dieselwagen onderhouden door de Porsche-garage Antwerpen (maandaangever).
+> 
+> Onderhoud op 27/4/N
+> Klant betaalde op 3/5/N
+> Op 30/4/N uitreiking factuur van 1.210 euro incl. BTW
+>
+> **Welke uitspraak is juist over de factuurplicht en de BTW-opeisbaarheid?**
+> 
+> - **a** Niet verplicht van factuur uit te reiken: BTW opeisbaar op 3/5/N
+> - **b** Niet verplicht van factuur uit te reiken: BTW opeisbaar op 30/4/N
+> - **c** Verplicht factuur uit te reiken: BTW opeisbaar op 30/5/N
+> - **d** Verplicht factuur uit te reiken: BTW opeisbaar op 30/4/N
+> 
+> > [!success]- Welke optie(s)? (klik om te openen)
+> >
+> > **Antwoord: d**
+> > 
+> > Optie **d** — De garage is **verplicht** een factuur uit te reiken (onderhoud/herstelling van een autovoertuig aan een natuurlijke persoon voor privégebruik valt onder de factuurplicht van art. 1 KB nr. 1), en de BTW is **opeisbaar op 30/4/N**, het tijdstip waarop de factuur effectief werd uitgereikt (art. 22bis, § 1 WBTW). 🔗
+> > 
+> > **Stap 1 — Factuurplicht?** Hoofdregel: een belastingplichtige hoeft géén factuur uit te reiken aan een natuurlijke persoon die de dienst bestemt voor privégebruik (art. 53, § 2 WBTW). 📖 Maar art. 1 KB nr. 1 voorziet een lijst van uitzonderingen waarin de factuur wél verplicht is — onder andere **werk in onroerende staat, leveringen en diensten met betrekking tot autovoertuigen, en onderhoud/herstelling van personenwagens**. Een rentenier is een niet-belastingplichtige natuurlijke persoon → onderhoud van zijn hybride dieselwagen valt onder die uitzondering → **factuur verplicht**. 🔗
+> > 
+> > **Stap 2 — Opeisbaarheid BTW?** Voor diensten waarvoor factuurplicht geldt (art. 53, § 2 WBTW), bepaalt art. 22bis, § 1 WBTW: de BTW wordt opeisbaar **op het tijdstip waarop de factuur wordt uitgereikt**, ongeacht of dat vóór of na de dienst is. 📖 Hier: dienst verricht 27/4/N, factuur uitgereikt **30/4/N** → opeisbaarheid op 30/4/N. De betaling op 3/5/N is irrelevant zodra de factuur tijdig is uitgereikt; ze zou alleen meetellen als vooruitbetaling (vóór de dienst, art. 22bis, § 1, derde lid). 🔗
+> > 
+> > **Per optie**:
+> > - **a** (niet verplicht / 3/5/N) → FOUT — factuur is wél verplicht voor onderhoud autovoertuigen aan particulieren; bovendien volgt de opeisbaarheid niet de betaaldatum. 🔗
+> > - **b** (niet verplicht / 30/4/N) → FOUT op het eerste lid (factuur is verplicht). 🔗
+> > - **c** (verplicht / 30/5/N) → FOUT — de 15de-dag-vangnetregel (art. 22bis, § 1, tweede lid) treedt enkel in werking wanneer géén factuur werd uitgereikt vóór die datum. Hier is de factuur op 30/4/N tijdig uitgereikt, dus telt die datum. 🔗
+> > - **d** (verplicht / 30/4/N) → JUIST — factuurplicht én opeisbaarheid op factuurdatum. 🔗
+> > 
+> > Verwar **opeisbaarheid** niet met het **belastbare feit**. Het belastbare feit (art. 22, § 1 WBTW) blijft het tijdstip waarop de dienst is verricht (27/4/N); dat is het ogenblik waarop de BTW-verschuldigdheid ontstaat. De **opeisbaarheid** (wanneer de BTW in de aangifte moet worden opgenomen) wordt door art. 22bis vervroegd naar de factuurdatum of betaling, naargelang wat eerst gebeurt. Voor een **maandaangever** betekent dit dat de BTW van deze handeling in de aangifte over april (in te dienen tegen 20 mei) moet worden opgenomen — niet in mei. 🔗 Het feit dat de klant een rentenier (particulier) is, is voor de opeisbaarheid niet relevant zodra er factuurplicht is: art. 22bis maakt geen onderscheid B2B/B2C. 🔗
+> > 
+> > **Art. 53, § 2 WBTW + art. 1 KB nr. 1**: factuurplicht aan natuurlijke personen voor privégebruik is in beginsel uitgesloten, behalve voor de in art. 1 KB nr. 1 opgesomde handelingen — waaronder leveringen, onderhoud en herstelling van autovoertuigen. 📖 **Art. 22, § 1 WBTW**: belastbaar feit en opeisbaarheid bij diensten = tijdstip waarop de dienst is verricht. 📖 **Art. 22bis, § 1 WBTW** (afwijking voor diensten met factuurplicht): BTW opeisbaar op het tijdstip waarop de factuur wordt uitgereikt; bij gebreke daaraan op de 15de dag van de maand volgend op het belastbare feit; bij vooruitbetaling op het tijdstip van de ontvangst. 📖  
+> > *Bron: Art. 22, art. 22bis §1, art. 53 §2 WBTW; art. 1 KB nr. 1*
+
+<a id="2024-1-vr11B"></a>
+
+> [!topic]- Margeregeling en vermelding in de BTW-aangifte
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.4*
+>
+> _Margeregeling — hoe op te nemen in de BTW-aangifte_
+
+<a id="2024-1-vr11C"></a>
+
+> [!question]- Toepasselijkheid vrijstellingsregeling kleine onderneming voor diverse activiteiten
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.4*
+>
+> Vraagstelling: Is de vrijstellingsregeling voor kleine ondernemingen mogelijk voor elk van de volgende activiteiten? (Alle antwoorden moeten juist zijn voor punten — alles juist of geen punten)
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: elektricien met omzet 10.000 euro</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — een elektricien verricht werk in onroerende staat (art. 19, §2 WBTW) en is daarom voor zijn volledige economische activiteit uitgesloten van de vrijstellingsregeling, ongeacht het omzetcijfer. 🔗
+> > 
+> > Art. 56bis, §2, 1° WBTW sluit "werk in onroerende staat bedoeld in artikel 19, §2, derde lid, alsook de daarmee gelijkgestelde handelingen" expliciet uit van de vrijstellingsregeling. Elektriciteitswerken aan een gebouw (installatie, herstelling, onderhoud) vallen onder dat begrip. De omzet van €10.000 is irrelevant — de uitsluiting werkt op de aard van de activiteit, niet op de drempel. 📖
+> > 
+> > Art. 56bis, §2, 1° WBTW (uitsluiting werk in onroerende staat) j° art. 19, §2 WBTW (definitie). 📖  
+> > *Bron: Art. 56bis, §2, 1° WBTW*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: kapper met omzet 15.000 euro</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — kappersdiensten zijn niet uitgesloten in art. 56bis, §2 WBTW en de jaaromzet van €15.000 ligt onder de drempel van €25.000. De vrijstellingsregeling kan toegepast worden. 🔗
+> > 
+> > Twee cumulatieve voorwaarden: (i) activiteit niet uitgesloten in art. 56bis, §2 (werk in onroerende staat, horeca/logies, afval/oude materialen, btw-eenheden) — kappers vallen onder geen van die categorieën; (ii) jaaromzet in België ≤ €25.000 — €15.000 voldoet. 🔗
+> > 
+> > Art. 56bis, §1, 2° WBTW (drempel €25.000) en art. 56bis, §2 WBTW (limitatieve lijst uitsluitingen). 📖  
+> > *Bron: Art. 56bis, §1-§2 WBTW*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: diëtist met vrijgestelde omzet 50.000 euro en onderworpen omzet 15.000 euro</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Juist**
+> > 
+> > **JUIST** — een diëtist is gemengde belastingplichtige: de medische verstrekkingen zijn vrijgesteld door art. 44 WBTW (zonder recht op aftrek) en tellen niet mee voor de drempel. Enkel de onderworpen omzet van €15.000 wordt getoetst, en die ligt onder €25.000. 🔗
+> > 
+> > Art. 56nonies WBTW bepaalt welke bedragen meetellen voor de jaaromzet als drempel-maatstaf: leveringen/diensten die belast *zouden zijn*, nultarief-handelingen, en bepaalde vrijgestelde handelingen op grond van art. 39 tot 42 (uitvoer, intracommunautair). De vrijstellingen van art. 44 (medische, paramedische, onderwijs, sociale, financiële) zijn daar **niet** in opgenomen. Vrijgestelde medische omzet telt dus niet mee — alleen €15.000 onderworpen omzet wordt getoetst. 🔗
+> > 
+> > De grote omzet (€50.000 + €15.000 = €65.000) is een rookgordijn — wie blind optelt komt boven de drempel uit en antwoordt fout. De drempel kijkt enkel naar belaste handelingen (art. 56nonies, 1°), niet naar art. 44-vrijgestelde omzet. De vrijstellingsregeling werkt vervolgens op het onderworpen deel; het vrijgestelde deel blijft sowieso vrijgesteld zonder aftrekrecht. 🔗
+> > 
+> > Art. 56bis, §1, 2° WBTW (drempel €25.000) j° art. 56nonies WBTW (samenstelling jaaromzet) j° art. 44 WBTW (vrijgestelde medische/paramedische handelingen — telt niet in de drempel). 📖  
+> > *Bron: Art. 56bis + 56nonies WBTW j° art. 44 WBTW*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: schoonheidsspecialiste met omzet 30.000 euro</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — een schoonheidsspecialiste verricht geen uitgesloten activiteit, maar haar jaaromzet van €30.000 overschrijdt de drempel van €25.000. De vrijstellingsregeling kan niet toegepast worden. 🔗
+> > 
+> > Drempel art. 56bis, §1, 2° WBTW = €25.000 jaaromzet in België (excl. btw). €30.000 > €25.000 → uitgesloten. De tolerantie van art. 56decies (overschrijding ≤10% tijdens lopend jaar geeft tijdelijke continuïteit) geldt enkel voor wie al onder de regeling viel; bij nieuwe instap of voorafgaand kalenderjaar boven €25.000 → geen vrijstellingsregeling. 🔗
+> > 
+> > Art. 56bis, §1, 2° WBTW (drempel €25.000); art. 56decies WBTW (tolerantie 10% bij lopende overschrijding). 📖  
+> > *Bron: Art. 56bis, §1, 2° WBTW*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: verhuur van gastenkamers met ontbijt met omzet 20.000 euro</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** — het verschaffen van gemeubeld logies met ontbijt is een handeling bedoeld in art. 44, §3, 2°, a), derde streepje WBTW (horeca-/hotelregime) en is uitgesloten van de vrijstellingsregeling, ongeacht de omzet van €20.000. 🔗
+> > 
+> > Art. 56bis, §2, 5° WBTW sluit "de in artikel 44, § 3, 2°, a), derde streepje, bedoelde handelingen" uit van de vrijstellingsregeling. Dat derde streepje viseert het verschaffen van gemeubeld logies — typisch hotels, B&B's, gastenkamers met ontbijt. De uitsluiting werkt op de aard van de activiteit, dus €20.000 < €25.000 helpt niet. 📖
+> > 
+> > Art. 56bis, §2, 5° WBTW voorziet één uitzondering: een belastingplichtige **natuurlijke persoon** die onder de voorwaarden van art. 50, §4 WBTW valt, kan de vrijstellingsregeling tóch toepassen voor de logies-met-ontbijt-activiteit. De vraag specificeert die hoedanigheid niet — bij stilzwijgen geldt de algemene uitsluiting. ❓
+> > 
+> > Art. 56bis, §2, 5° WBTW (uitsluiting handelingen art. 44, §3, 2°, a), derde streepje — verschaffen gemeubeld logies); uitzondering voor natuurlijke persoon onder art. 50, §4 WBTW. 📖  
+> > *Bron: Art. 56bis, §2, 5° WBTW j° art. 44, §3, 2°, a) WBTW*
+
+<a id="2024-1-vr11D"></a>
+
+> [!question]- VAT Refund — stellingen juist of fout
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.4*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een vrijgestelde belastingplichtige kan buitenlandse BTW terugvragen via de VAT Refund-procedure</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. Een vrijgestelde belastingplichtige (art. 44 W.BTW) heeft geen recht op aftrek en bijgevolg ook geen recht op teruggaaf via de VAT Refund-procedure. 🔗
+> > 
+> > De VAT Refund-procedure (Richtlijn 2008/9/EG, omgezet in K.B. nr. 56 van 10 april 2022) is een mechanisme om buitenlandse BTW te recupereren die in een andere lidstaat werd opgelopen. Art. 170 van de BTW-Richtlijn 2006/112/EG koppelt dat recht expliciet aan handelingen waarvoor *in de lidstaat van vestiging* recht op aftrek bestaat (art. 169-handelingen). 📖 Een vrijgestelde belastingplichtige zonder recht op aftrek (art. 44 W.BTW — bv. arts, advocaat-vrijgestelde diensten, kleine onderneming onder vrijstellingsregeling) kan geen Belgische BTW recupereren en kan a fortiori ook geen buitenlandse BTW via VAT Refund recupereren. 🔗
+> > 
+> > Art. 170-171 Richtlijn 2006/112/EG juncto art. 3 Richtlijn 2008/9/EG: de teruggaaf is voorbehouden aan belastingplichtigen die in hun lidstaat van vestiging recht op aftrek hebben voor de betrokken handelingen. Art. 22 K.B. nr. 56 herneemt dit voor de in België gevestigde belastingplichtige. 📖  
+> > *Bron: art. 170-171 Richtlijn 2006/112/EG; art. 3 Richtlijn 2008/9/EG; art. 22 K.B. nr. 56*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het minimumbedrag vereist voor een verzoek tot teruggave is 50 euro per kalenderjaar per lidstaat</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** (onvolledig). 50 EUR geldt enkel als het teruggaafverzoek een **volledig kalenderjaar** (of het resterende gedeelte daarvan) betreft. Voor een teruggaafperiode korter dan een jaar maar minstens drie maanden is het minimum 400 EUR. 📖
+> > 
+> > Art. 17 Richtlijn 2008/9/EG kent twee drempels naargelang de duur van het teruggaaftijdvak:
+> > 
+> > - **Tijdvak van een kalenderjaar (of resterend deel)**: minimum **50 EUR**. 📖
+> > - **Tijdvak < 1 jaar maar ≥ 3 maanden**: minimum **400 EUR**. 📖
+> > 
+> > De stelling noemt enkel het kalenderjaar-bedrag (50 EUR) en is daardoor feitelijk onvolledig: ze suggereert dat 50 EUR steeds het toepasselijke minimum is, wat niet klopt voor tussentijdse verzoeken. 🔗
+> > 
+> > Art. 17 Richtlijn 2008/9/EG; in Belgisch recht omgezet in art. 11 § 2 K.B. nr. 56 van 10 april 2022 (België als lidstaat van teruggaaf) en art. 35 § 2 K.B. nr. 56 (niet-EU belastingplichtigen). 📖  
+> > *Bron: art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het minimumbedrag vereist voor een verzoek tot teruggave is afhankelijk van de EU-lidstaat van het land van de belastingplichtige</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. Het minimumbedrag is geharmoniseerd op EU-niveau (Richtlijn 2008/9/EG) en hangt niet af van de lidstaat waarin de aanvrager (de belastingplichtige) gevestigd is. 🔗
+> > 
+> > Art. 17 Richtlijn 2008/9/EG legt uniforme drempels op (50 EUR / 400 EUR) die in alle EU-lidstaten gelden. 📖 Het criterium dat de drempel bepaalt is de **duur van het teruggaaftijdvak**, niet de identiteit van de lidstaat van vestiging. De richtlijn voorziet enkel een omrekening naar de nationale munteenheid voor lidstaten buiten de eurozone — een wisselkoers-conversie, geen aparte drempel. 🔗
+> > 
+> > Art. 17 Richtlijn 2008/9/EG: "ten minste 400 EUR of de tegenwaarde daarvan in de nationale munteenheid" respectievelijk "ten minste 50 EUR of de tegenwaarde daarvan in de nationale munteenheid". De bedragen zijn EU-rechtelijk vastgelegd, niet door de lidstaat van vestiging. 📖  
+> > *Bron: art. 17 Richtlijn 2008/9/EG*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het minimumbedrag vereist voor een verzoek tot teruggave is afhankelijk van het land waarop de teruggave betrekking heeft</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT**. Het minimumbedrag is uniform door art. 17 Richtlijn 2008/9/EG vastgelegd en hangt niet af van de lidstaat van teruggaaf, maar van de **duur van het teruggaaftijdvak** (kalenderjaar versus tussenperiode ≥ 3 maanden). 📖
+> > 
+> > De drempels 50 EUR (jaarverzoek) en 400 EUR (tussentijds verzoek ≥ 3 maanden) gelden in elke EU-lidstaat op dezelfde manier. 📖 De richtlijn laat lidstaten geen ruimte om een afwijkend bedrag op te leggen — wat verschilt, is hoogstens de nationale munteenheid (omrekening voor lidstaten buiten de eurozone). 🔗 In België zijn de bedragen ongewijzigd overgenomen in art. 11 K.B. nr. 56. 📖
+> > 
+> > Niet verwarren met de drempel voor het bijvoegen van een **factuurafschrift**: die drempel (1 000 EUR voor algemene aankopen, 250 EUR voor brandstof — art. 10 Richtlijn 2008/9/EG, art. 8 K.B. nr. 56) is wel een bedragdrempel die op factuurniveau speelt, maar staat los van de minimumdrempel van het teruggaafverzoek zelf. 📖
+> > 
+> > Art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56 van 10 april 2022. 📖  
+> > *Bron: art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56*
+>
+> <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het minimumbedrag voor een verzoek tot teruggave is 400 euro per kalenderjaar per EU-lidstaat</span>
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **Antwoord: Fout**
+> > 
+> > **FOUT** (onvolledig). 400 EUR is enkel het minimum voor een teruggaafverzoek met een tijdvak **korter dan een kalenderjaar maar minstens drie maanden**. Voor een verzoek dat een volledig kalenderjaar (of het resterende deel) dekt, is het minimum **50 EUR**. 📖
+> > 
+> > Art. 17 Richtlijn 2008/9/EG legt **twee** drempels op, gekoppeld aan de duur van het teruggaaftijdvak:
+> > 
+> > | Teruggaaftijdvak | Minimumbedrag |
+> > |---|---|
+> > | Kalenderjaar of resterend gedeelte | 50 EUR 📖 |
+> > | < 1 jaar maar ≥ 3 maanden | 400 EUR 📖 |
+> > 
+> > De stelling "400 EUR per kalenderjaar per EU-lidstaat" mengt beide regels door en is daardoor onjuist: per kalenderjaar geldt 50 EUR, niet 400 EUR. 🔗
+> > 
+> > Art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56 van 10 april 2022. 📖  
+> > *Bron: art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56*
+
+<a id="2024-1-vr11E"></a>
+
+> [!question]- BTW-tarief of -stelsel voor glazenwassen door een Belgische onderneming per situatie
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.4*
+>
+> Een Belgische onderneming (gewone belastingplichtige) verricht glazenwassingsdiensten. Vermeld het toepasselijke BTW-tarief of -stelsel voor elk van de volgende situaties:
+>
+> Belgisch gebouw, afnemer is een belastingplichtige die aangifte indient
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **21 % BTW met verlegging van heffing** naar de medecontractant. De Belgische dienstverrichter factureert zonder BTW met de vermelding "Btw verlegd"; de Belgische afnemer-belastingplichtige (gewone aangifte) voldoet de BTW zelf in zijn periodieke aangifte. 🔗
+> > 
+> > Glazenwassen aan een gebouw is een dienst die verband houdt met een uit zijn aard onroerend goed (art. 21, § 3, 1° W.BTW): plaats van de dienst = plaats van het onroerend goed = België. 📖 Voor reinigingsdiensten verricht aan een belgisch gebouw geldt geen verlaagd tarief (reiniging is uitdrukkelijk uitgesloten uit de renovatie-regimes), dus het normale tarief van 21 % is van toepassing (KB nr. 20, art. 1, tabel A). 🔗 Omdat zowel dienstverrichter als afnemer in België gevestigde gewone belastingplichtigen zijn die periodieke aangifte indienen, geldt de verleggingsregeling "medecontractant" voor werk in onroerende staat (art. 20 KB nr. 1). 📖
+> > 
+> > Glazenwassen wordt door art. 19, § 2, tweede lid, W.BTW gelijkgesteld met "werk in onroerende staat" — het valt dus binnen het toepassingsgebied van de verleggingsregeling (art. 20 KB nr. 1), ook al gaat het strikt om reiniging. De uitsluiting van "reiniging" geldt enkel voor het verlaagd tarief renovatie (rubriek XXXVIII KB nr. 20), niet voor de plaatsbepaling of de verleggingsregeling. 🤖
+> > 
+> > Plaats: art. 21, § 3, 1° W.BTW (onroerend-goed-dienst). Tarief: art. 1 KB nr. 20 (gewoon tarief 21 %); reiniging uitgesloten uit verlaagd tarief renovatie (KB nr. 20, tabel A, rubriek XXXVIII). Schuldenaar: art. 20 KB nr. 1 — medecontractant-regeling voor werk in onroerende staat aan een Belgische belastingplichtige met periodieke aangifte. 📖  
+> > *Bron: Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 · KB nr. 1 art. 20*
+>
+> Belgisch gebouw, meer dan 10 jaar betrokken door een Belgisch particulier
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **21 % BTW**, gefactureerd door de Belgische dienstverrichter aan de particulier. Geen verlaagd tarief, geen verlegging. 🔗
+> > 
+> > Plaats van de dienst = België (onroerend goed gelegen in BE, art. 21, § 3, 1° W.BTW). 📖 Hoewel de woning meer dan 10 jaar in gebruik is — wat normaal toegang geeft tot het verlaagd tarief van 6 % voor renovatie aan privéwoningen (KB nr. 20, tabel A, rubriek XXXVIII) — is **reiniging uitdrukkelijk uitgesloten** uit dat verlaagd tarief. Glazenwassen valt dus terug op het standaardtarief van 21 %. 🔗 Geen verlegging: de afnemer is een particulier en geen belastingplichtige met periodieke aangifte (art. 20 KB nr. 1 niet vervuld). 🔗
+> > 
+> > Klassieke valstrik: studenten kiezen vaak 6 % omdat de woning > 10 jaar oud is. Maar de uitsluiting van reiniging in rubriek XXXVIII KB nr. 20 ("werk in onroerende staat … met uitsluiting van het reinigen") is absoluut. Verlaagd tarief geldt wel voor schilder-, behangers-, vloer- en sanitaire werken aan zo'n woning, maar niet voor glazenwassen of poetsdiensten. 📖
+> > 
+> > Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst); KB nr. 20, art. 1 (gewoon tarief 21 %); KB nr. 20, tabel A, rubriek XXXVIII, § 1 (verlaagd tarief 6 % renovatie woning ≥ 10 jaar, met uitsluiting van reiniging). 📖  
+> > *Bron: Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 + tabel A rubriek XXXVIII*
+>
+> Belgisch gebouw, minder dan 10 jaar betrokken door een Belgisch particulier
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **21 % BTW**, gefactureerd door de Belgische dienstverrichter aan de particulier. Geen verlaagd tarief, geen verlegging. 🔗
+> > 
+> > Plaats van de dienst = België (art. 21, § 3, 1° W.BTW). 📖 Het verlaagd tarief van 6 % voor renovatie aan privéwoningen (rubriek XXXVIII KB nr. 20) vereist dat de woning **sinds minstens 10 jaar** voor het eerst in gebruik is genomen — die voorwaarde is hier niet vervuld. 🔗 Daarbij komt dat reiniging sowieso is uitgesloten uit dat verlaagd tarief, dus zelfs als de ouderdomsvoorwaarde wel vervuld was zou glazenwassen aan 21 % blijven. 🔗 Geen verlegging: afnemer is een particulier (art. 20 KB nr. 1 niet vervuld). 🔗
+> > 
+> > Het antwoord is identiek aan situatie (b): 21 %. De ouderdom van de woning (< of > 10 jaar) maakt voor glazenwassen geen verschil omdat reiniging hoe dan ook uit het verlaagd tarief is geweerd. De ouderdomsdrempel is wél relevant voor échte renovatiewerken (schilderen, vloeren, sanitair, …). 🔗
+> > 
+> > Art. 21, § 3, 1° W.BTW (plaats); KB nr. 20, art. 1 (tarief 21 %); KB nr. 20, tabel A, rubriek XXXVIII, § 1, 1° (10-jaarvoorwaarde voor verlaagd tarief renovatie). 📖  
+> > *Bron: Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 + tabel A rubriek XXXVIII § 1*
+>
+> Belgisch gebouw, afnemer is een Franse belastingplichtige
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **21 % Belgische BTW met verlegging van heffing** naar de Franse afnemer. De Belgische dienstverrichter factureert zonder BTW met de vermelding "Btw verlegd"; de Franse belastingplichtige voldoet de Belgische BTW via zijn Belgische BTW-identificatie (rechtstreekse aansprakelijkheid art. 51, § 2, 5° W.BTW). 🔗
+> > 
+> > Plaatsbepaling: glazenwassen aan een Belgisch gebouw is een onroerend-goed-dienst (art. 21, § 3, 1° W.BTW); de **B2B-algemene regel** van art. 21, § 2 (plaats = zetel afnemer) is hier **niet** van toepassing — de plaats is steeds België omdat het gebouw daar ligt. 📖 De dienst is dus in België belastbaar tegen 21 % (geen verlaagd tarief voor reiniging). 🔗 Omdat de dienstverrichter in België is gevestigd en de afnemer een buitenlandse belastingplichtige is die niet in België is gevestigd, wordt de Belgische BTW verlegd naar de afnemer (art. 51, § 2, 5° W.BTW): de Franse belastingplichtige moet zich voor deze handeling in België laten identificeren of een aansprakelijke vertegenwoordiger aanstellen om de Belgische BTW te voldoen. 📖
+> > 
+> > **Niet** de B2B-hoofdregel toepassen. Voor onroerend-goed-diensten (art. 21, § 3, 1°) is de plaats altijd het land waar het gebouw ligt — onafhankelijk van de zetel van de afnemer. Een Franse afnemer maakt de dienst dus **niet** Franse-BTW-belastbaar; het blijft Belgische BTW (21 %), enkel de schuldenaar wisselt via de verleggingsregeling. 🔗
+> > 
+> > Art. 21, § 3, 1° W.BTW (afwijking op B2B-hoofdregel voor onroerend-goed-diensten). KB nr. 20, art. 1 (gewoon tarief 21 %). Art. 51, § 2, 5° W.BTW (verlegging naar niet in België gevestigde belastingplichtige afnemer). 📖  
+> > *Bron: Art. 21 § 3 1° W.BTW · Art. 51 § 2 5° W.BTW · KB nr. 20 art. 1*
+>
+> Belgisch gebouw, afnemer is een Zweedse belastingplichtige
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > **21 % Belgische BTW met verlegging van heffing** naar de Zweedse afnemer. Identiek aan situatie (d): het is de ligging van het gebouw (BE) die de plaats bepaalt, niet de nationaliteit van de afnemer. 🔗
+> > 
+> > Plaats van de dienst = België (art. 21, § 3, 1° W.BTW — onroerend-goed-dienst). 📖 Tarief = 21 % (geen verlaagd tarief voor reiniging). 🔗 De Zweedse belastingplichtige is niet in België gevestigd: de Belgische BTW wordt naar hem verlegd op grond van art. 51, § 2, 5° W.BTW. 📖 Hij dient zich in België te identificeren of een aansprakelijke vertegenwoordiger aan te stellen om de verschuldigde Belgische BTW te voldoen. 🔗
+> > 
+> > Voor onroerend-goed-diensten maakt het geen verschil of de buitenlandse afnemer uit een EU-lidstaat komt (Frankrijk, Zweden, …) of uit een derde land: de plaats blijft het land waar het gebouw ligt, en de BTW is steeds die van het ligging-land. De verleggingsregeling werkt identiek voor alle niet in België gevestigde belastingplichtige afnemers. 🤖
+> > 
+> > Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst, afwijking op B2B-hoofdregel art. 21 § 2). Art. 51, § 2, 5° W.BTW (verlegging naar niet-gevestigde belastingplichtige afnemer). KB nr. 20, art. 1 (tarief 21 %). 📖  
+> > *Bron: Art. 21 § 3 1° W.BTW · Art. 51 § 2 5° W.BTW · KB nr. 20 art. 1*
 
 <a id="2015-1-vr36"></a>
 

@@ -109,11 +109,15 @@ def test_compose_vraag_tekst_leeg_record():
 # 2. index_vragen — produceert juist aantal chunks
 # ---------------------------------------------------------------------------
 
-def test_index_vragen_produceert_253_chunks():
-    """index_vragen moet exact 253 chunks aanmaken (= aantal interpretatie-JSONs)."""
+def test_index_vragen_produceert_alle_chunks():
+    """index_vragen moet één chunk per interpretatie-JSON aanmaken.
+
+    Verwacht 291 = 49 (2024-1 na ADR-031) + 242 (overige examens). Was 253
+    vóór ADR-031 toen 2024-1 als 11 vakken werd geparsed i.p.v. 49 hoofdvragen.
+    """
     alle_bestanden = list(VRAGEN_DIR.rglob("*.json"))
-    assert len(alle_bestanden) == 253, (
-        f"Verwacht 253 interpretatie-JSONs, gevonden {len(alle_bestanden)}"
+    assert len(alle_bestanden) == 291, (
+        f"Verwacht 291 interpretatie-JSONs, gevonden {len(alle_bestanden)}"
     )
 
 

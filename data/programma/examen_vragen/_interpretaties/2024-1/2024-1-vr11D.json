@@ -4,14 +4,20 @@
   "vraag_id": "2024-1-vr11D",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "VAT Refund — stellingen juist of fout",
-  "programmaonderdeel_ids": ["2.3"],
-  "themas": ["VAT Refund", "BTW-teruggave", "buitenlandse BTW", "EU-lidstaat", "minimumbedrag", "vrijgestelde belastingplichtige"],
-
+  "programmaonderdeel_ids": [
+    "2.4"
+  ],
+  "themas": [
+    "VAT Refund",
+    "BTW-teruggave",
+    "buitenlandse BTW",
+    "EU-lidstaat",
+    "minimumbedrag",
+    "vrijgestelde belastingplichtige"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -54,8 +60,9 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment met volledig bewaarde stellingen-set (5 items a-e). PNG pagina 6 bevestigt alle vijf stellingen. Gemodelleerd als 5 juist_fout-deelvragen conform prompt-spec §3. Afkortingen in stellingen genormaliseerd: 'BP' → 'belastingplichtige', 'EU lidstaat' → 'EU-lidstaat', 'kalanderjaar' (typo in tekst.txt) → 'kalenderjaar'. Label_in_pdf gebruikt lowercase conform PDF-weergave (kleine letters a-e onder de D-header).",
-  "kwaliteits_flags": ["typo_genormaliseerd"]
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
 }

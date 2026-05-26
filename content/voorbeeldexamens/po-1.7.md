@@ -8,7 +8,54 @@ gegenereerd_op: 2026-05-26
 
 # PO 1.7 — Interne controle
 
-**13 unieke vraag-eenheden** (waarvan 1 cluster, totaal 14 voorkomens) uit 4 examens (2013-1, 2013-2, 2014-1, 2015-1) — 12 met modelantwoord
+**17 unieke vraag-eenheden** (waarvan 1 cluster, totaal 18 voorkomens) uit 5 examens (2013-1, 2013-2, 2014-1, 2015-1, 2024-1) — 16 met modelantwoord
+
+<a id="2024-1-vr3A"></a>
+
+> [!topic]- Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.7*
+>
+> _Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus (interne controle)_
+
+<a id="2024-1-vr3B"></a>
+
+> [!question]- Hoofddoelstelling van interne controle in een KMO
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.7*
+>
+> **Wat is de hoofddoelstelling van de invoering van een interne controle in een KMO?**
+> 
+> > [!success]- Antwoord (klik om te openen)
+> >
+> > De **hoofddoelstelling** van interne controle in een KMO is het verschaffen van een **redelijke mate van zekerheid** dat de organisatie haar **drie kerndoelstellingen** bereikt: (1) **betrouwbaarheid van de financiële verslaggeving**, (2) **effectiviteit en efficiëntie van de bedrijfsvoering** en (3) **naleving van de toepasselijke wet- en regelgeving**. 📖
+> > 
+> > **Toelichting op de drie doelstellingen** (COSO-raamwerk, overgenomen in de ITAA-KMO-controlenorm):
+> > 
+> > 1. **Betrouwbare financiële rapportering** — borgen dat de jaarrekening en interne stuurinformatie correct, volledig en tijdig zijn (raakt direct het werkterrein van de externe accountant). 🔗
+> > 2. **Effectieve en efficiënte bedrijfsvoering** — middelen doeltreffend inzetten, activa beschermen tegen verlies of misbruik (functiescheiding, autorisaties). 🔗
+> > 3. **Naleving van wet- en regelgeving** — fiscaal, sociaal, vennootschapsrechtelijk, sectoraal (anti-witwas, GDPR, ...). 🔗
+> > 
+> > In een **KMO-context** is de doelstelling identiek aan die in een grote onderneming — het verschil zit in de **proportionele invulling**: minder uitgebreide functiescheiding, sterkere afhankelijkheid van zachte controles (cultuur, betrokkenheid bedrijfsleider) en vaak compensatie door **management override-monitoring** door de bedrijfsleider zelf. 🔗
+> > 
+> > **Vermeldenswaard — 'redelijke' en geen absolute zekerheid**: het concept biedt per definitie slechts *redelijke* zekerheid wegens vier inherente beperkingen: menselijke oordeelsvorming, **kosten-batenafweging** (cruciaal in KMO-context — uitgebreide controles zijn vaak niet rendabel), **samenspanning** tussen medewerkers, en **management override** door de bedrijfsleider. Een examenstelling die suggereert dat interne controle fraude *volledig* uitsluit, past het concept verkeerd toe. 🔗
+> > 
+> > **ITAA-KMO-controlenorm, Bijlage 1 (Definities)** — definieert *interne beheersing* als het proces, opgezet en gesuperviseerd door bestuur en management, dat *een redelijke mate van zekerheid* verschaft dat de doelstellingen van de KMO of kleine vzw met betrekking tot (a) betrouwbaarheid van de financiële verslaggeving, (b) effectiviteit en efficiëntie van de activiteiten en (c) naleving van wet- en regelgeving worden bereikt. 📖
+> > 
+> > Conceptueel onderbouwd door het **COSO-raamwerk** (Internal Control — Integrated Framework, 1992, herzien 2013) — internationaal de facto-standaard voor interne controle, structureert dezelfde drie doelstellingen langs vijf componenten (controle-omgeving · risico-inschatting · controle-activiteiten · informatie & communicatie · monitoring). 📖  
+> > *Bron: ITAA-norm-kmo-controlenorm, Bijlage 1 (Definities); COSO Internal Control — Integrated Framework (2013)*
+
+<a id="2024-1-vr3C"></a>
+
+> [!topic]- Risicoclassificatie volgens het COSO-model
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.7*
+>
+> _Over welke soort risico gaat het? (COSO-model) — vier categorieën: Strategisch, Informatie, Operationeel, Financieel_
+
+<a id="2024-1-vr3D"></a>
+
+> [!topic]- Doelstellingen van interne controle in de verkoopcyclus
+> *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.7*
+>
+> _Verkoopcyclus: doelstellingen (Financieel, Operationeel, Conformiteit)_
 
 <a id="2015-1-vr12"></a>
 

@@ -4,14 +4,19 @@
   "vraag_id": "2024-1-vr9B",
   "interpretatie_datum": "2026-05-26T10:00:00Z",
   "interpretatie_model": "claude-sonnet-4-6",
-
   "vraag_herkomst": "herinnering",
   "vraag_onderwerp": "Fiscale procedure bij vertrek uit België — verplichtingen belastingplichtige",
-  "programmaonderdeel_ids": ["2.7"],
-  "themas": ["vertrek uit België", "belastingplichtige", "aangifte", "fiscale procedure", "belastingheffing bij vertrek"],
-
+  "programmaonderdeel_ids": [
+    "2.5"
+  ],
+  "themas": [
+    "vertrek uit België",
+    "belastingplichtige",
+    "aangifte",
+    "fiscale procedure",
+    "belastingheffing bij vertrek"
+  ],
   "context_blokken": [],
-
   "vragen": [
     {
       "id": "a",
@@ -22,7 +27,6 @@
       "volledigheid": "volledig"
     }
   ],
-
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Herinnering-fragment. De brontekst is 'Belastingplichtige verlaat België, wat te doen?' — één open vraag over de procedurele stappen en verplichtingen bij vertrek uit België. Vraagstelling licht uitgebreid voor leesbaarheid zonder nieuwe elementen toe te voegen.",
   "kwaliteits_flags": []
