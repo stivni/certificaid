@@ -31,6 +31,18 @@ Referentie-record dat de uitvoer van deze operatie illustreert:
 
 ---
 
+## Scope-respect (ADR-033)
+
+Lees `metadata.scope` indien aanwezig.
+
+- **`scope.in[]`** — perspectieven beschrijven wat de accountant DOET met dit fenomeen. Hun inhoud raakt typisch de `scope.in`-topics (= dat wat het record behandelt) plus de werk-handelingen erop.
+- **`scope.out[]`** — als een rol-actie inherent over een `scope.out`-topic gaat, **schrijf de actie niet hier**; de rol-uitwerking hoort thuis bij het record waar dat topic woont. Bv: `controleopdracht` heeft scope.out "planning-detail → audit-planning". De `auditor`-rol-acties voor planning-detail (materialiteit-bepaling, risico-inschatting) horen in `audit-planning`'s perspectieven, niet hier.
+- **Perspectief-vs-eigen-record-principe** (rationale-log 2026-05-26): 2 perspectieven op zelfde fenomeen ≠ 2 records. Als je merkt dat je een 2e identiek perspectief op een ander record schrijft, is dat een mapping-fase-flag (mogelijk record-duplicatie).
+
+Geen `scope`-veld? → werk volgens normale plaatsingsregel hieronder.
+
+---
+
 ## Plaatsingsregel (spiegel van `beschrijven`)
 
 Litmus: "gebeurt dit ongeacht of er een accountant bij betrokken is?"

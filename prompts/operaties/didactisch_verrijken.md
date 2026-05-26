@@ -31,6 +31,17 @@ Referentie-record dat de uitvoer van deze operatie illustreert:
 
 ---
 
+## Scope-respect (ADR-033)
+
+Lees `metadata.scope` indien aanwezig.
+
+- **`scope.in[]`** — voorbeelden + valkuilen + speelruimtes + syntheses moeten *binnen* de scope.in-topics blijven. Een voorbeeld over een topic dat alleen in `scope.out` zit hoort niet hier.
+- **`scope.out[]`** — geen voorbeelden/valkuilen schrijven die primair over scope.out-topics gaan. Een valkuil mag een scope.out-topic *aanstippen* (bv. "vergissing: studenten denken dat materialiteit hier wordt uitgelegd — zie `audit-planning`") maar mag niet de scope.out-content opnieuw uitleggen.
+
+Geen `scope`-veld? → werk volgens normale didactische-verrijking-logica.
+
+---
+
 ## Scope-grenzen
 
 - **`voorbeelden[]`**: doorlopende casussen die de hele cyclus tonen (1-2 cases). Niet voor `kader`/`principe`/`actor` (te abstract).

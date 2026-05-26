@@ -31,6 +31,17 @@ Referentie-record dat de uitvoer van deze operatie illustreert:
 
 ---
 
+## Scope-respect (ADR-033)
+
+Lees `metadata.scope` indien aanwezig.
+
+- **`scope.out[]`-topics signaleren relatie-kandidaten**: elke `scope.out`-entry verwijst naar een record-id ("Voor X zie `<record-id>`"). Voeg een relatie toe naar dat record (`soort` afhankelijk van semantiek — `cross-link` of `verder-detail-in` als die enum-waarden bestaan, anders dichtste alternatief). Zo wordt `scope.out` materieel afgedwongen via de graph.
+- **`scope.in[]`-topics check** als plausibility: relaties moeten consistent zijn met wat het record behandelt — een relatie naar een topic dat niet in `scope.in` raakt is een smell.
+
+Geen `scope`-veld? → werk volgens normale relaties-logica.
+
+---
+
 ## Target-validatie
 
 Voor elke kandidaat-relatie:

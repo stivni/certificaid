@@ -31,6 +31,17 @@ Referentie-record dat de uitvoer van deze operatie illustreert:
 
 ---
 
+## Scope-respect (ADR-033)
+
+Lees `metadata.scope` indien aanwezig.
+
+- **`scope.in[]`** — claims die hier thuishoren krijgen normale claims-check-behandeling.
+- **`scope.out[]`** — claims die onder een `scope.out`-topic vallen zijn **scope-violations** (komen uit eerdere operatie). Markeer ze in eindrapport als `scope_violation`. **Wijzig de claim niet** (`tekst`-veld blijft per harde regel intact); log voor mapping-fase-correctie. Voorbeeld: `controleopdracht` bevat een claim over materialiteit-formule — dat hoort in `audit-planning` (scope.out-topic). Niet upgrade-en, alleen flag.
+
+Geen `scope`-veld? → werk volgens normale claims-check-logica.
+
+---
+
 ## MCP-tools
 
 - `zoek_bronnen(query, top_k, bron_rollen, rerank=false)` — RAG. Max **15 calls** per record. Max **1× `rerank=true`** voor de duurste verificatie.
