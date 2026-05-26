@@ -173,6 +173,20 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
+vennootschapsbelasting                   [Σ-sub-discipline-cluster fiscaliteit, 12 cluster-eigen + 13 cross — PO 2.3]
+├── vennootschapsbelasting               [Σ — gepromoveerd]   #toepassingsgebied · #tarief (25%/20%) · #herstructurering-aandachtspunten · #aanslagjaar
+├── fiscale-boekhoud-correcties          [K — rename `boekhoudkundig-fiscaal-attachment`]   primauteit boekhouding · permanente/tijdelijke verschillen
+├── belastbare-grondslag-vennootschapsbelasting [procedure-Σ]   8 bewerkingen art 76-79 KB-WIB
+├── abnormale-goedgunstige-voordelen     [R, shared anti-misbruik + internationaal-fiscaal]
+├── overgedragen-verliezen               [R]   art 206 WIB · 1M€-korf
+├── verworpen-uitgaven                   [familie-Σ]   11 categorieën art 53-66 WIB
+├── bijzondere-aanslagen-venb            [familie-Σ — absorbeert `geheime-commissielonen` als #geheime-commissielonen]
+├── voorheffingen-en-verrekeningen-venb (OP-VB.A)   [K]   FBB · RV/BV-verrekening
+├── voorafbetalingen                     [procedure — rename + absorbeert `voorafbetalingen-pb` als perspectief PB]   OP-PB.B resolutie
+├── aangifte-vennootschapsbelasting      [procedure]   Biztax + termijnen
+├── meerwaarde-aandelen-venb             [R, shared fiscale-voordelen-vennootschap]
+└── (schrappingen via perspectief: aftrekbare-beroepskosten-venb → beroepskosten · verworpen-uitgaven-autokosten → autokosten · vereffening-fiscaal → ontbinding-en-vereffening · toepassingsgebied-vennootschapsbelasting + fiscale-aandachtspunten-herstructurering → Σ-sub-secties)
+
 personenbelasting                        [Σ-sub-discipline-cluster fiscaliteit, 22 cluster-eigen + 6 cross — PO 2.2]
 ├── personenbelasting                    [Σ — gepromoveerd]   #inkomstencategorieën · #aanslagjaar · #aanvullende-gemeentebelasting
 ├── gezinssituatie                       [K — rename `-pb` weg]   gehuwd/wettsam/feitelijk/alleenstaand · inkomenstoerekening
@@ -246,6 +260,7 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 | personenbelasting | 22 cluster-eigen + 6 cross (1 NIEUW `beroepskosten` + 8 renames + 3 absorpties) | PO 2.2 (grootste sub-discipline fiscaliteit) | [§Personenbelasting-cluster](#personenbelasting-cluster) |
+| vennootschapsbelasting | 12 cluster-eigen + 13 cross (Σ-promotie + 1 rename + 5 schrappen-via-perspectief + 2 Σ-absorpties + 1 generiek `voorafbetalingen`) | PO 2.3 (tweede sub-discipline fiscaliteit) | [§Vennootschapsbelasting-cluster](#vennootschapsbelasting-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -2165,6 +2180,153 @@ personenbelasting                         [Σ-sub-discipline-cluster fiscaliteit
 - **OP-PB.D** ⏳ Candidates-DB-sync: 31 records bestaan, 31 kandidaten staan nog op `gerealiseerd=0`. `markeer_kandidaat_gerealiseerd` actie nodig na rename-werk in mapping-fase.
 - **OP-PB.E** ⏳ Σ-hoofdrecord `personenbelasting`-content: huidig record is kader-overzicht-niveau. Bij Σ-promotie aanvullen met: 4-categorieën-overzichts-matrix · aanslagjaar/inkomstenjaar · indexatie-mechaniek · gewest-decimes-impact. Werkpunt voor content-uitwerking.
 
+### Vennootschapsbelasting-cluster
+
+Thema: `vennootschapsbelasting`. *Diepe PO 2.3-uitwerking (2026-05-26). Tweede grote sub-discipline-cluster van fiscaliteit (21 anchors · 37 records → 12 cluster-eigen + 13 cross + 3 absorpties naar Σ + 4 schrappen-via-perspectief/rename). `vennootschapsbelasting` gepromoveerd tot Σ-hoofdrecord met 3 sub-secties (toepassingsgebied + tarief + herstructurering-aandachtspunten). 1 rename (`boekhoudkundig-fiscaal-attachment` → `fiscale-boekhoud-correcties`, `-attachment`-Engels-suffix-smell). 1 absorptie (`geheime-commissielonen` in `bijzondere-aanslagen-venb`). 3 OP-PV.A perspectief-conversies (aftrekbare-beroepskosten-venb · verworpen-uitgaven-autokosten · vereffening-fiscaal). 1 OP-PB.B resolutie: `voorafbetalingen` generiek + 2 perspectieven.*
+
+```
+vennootschapsbelasting                    [Σ-sub-discipline-cluster fiscaliteit, 12 cluster-eigen + 13 cross — PO 2.3]
+│
+├── vennootschapsbelasting                 [Σ-hoofdrecord — gepromoveerd]
+│   ▸ overkoepelend: toepassingsgebied · grondslag-mechaniek · correctie-cascade · aftrekken-volgorde · tarief · aanslag · bijzondere aanslagen · voorheffingen
+│   ▸ #toepassingsgebied (absorbed `toepassingsgebied-vennootschapsbelasting` — 2.3.II.A): resident vs niet-resident · binnenlandse-vs-buitenlandse vennootschap · WIB art 179 · cross internationaal-fiscaal (zetel + werkelijke leiding)
+│   ▸ #tarief (NIEUW sub-sectie — geen apart record): 25% basistarief sinds AJ 2021 · 20% KMO-tarief (cross verlaagd-tarief-kleine-vennootschap) · historiek crisisbijdrage afgeschaft AJ 2021
+│   ▸ #herstructurering-aandachtspunten (absorbed `fiscale-aandachtspunten-herstructurering` — 2.3.III.C): omvorming-vzw-naar-cv · pre-faillissement-aandachtspunten · cross naar reorganisatie-cluster voor concrete regimes
+│   ▸ #aanslagjaar-vs-boekjaar · #boekhoud-conformiteit-eis
+│
+├── --- I. BOEKHOUDING ↔ FISCAAL (I) ---
+├── fiscale-boekhoud-correcties            [K — rename `boekhoudkundig-fiscaal-attachment`, `-attachment`-Engels-suffix-smell weg]
+│   ▸ primauteit boekhouding (fiscaal volgt boekhouding tenzij...) · permanente vs tijdelijke verschillen · waarderingsregel-correctie-cascade
+│
+├── --- II. BELASTBARE GRONDSLAG (II.B-C) ---
+├── belastbare-grondslag-vennootschapsbelasting [procedure-Σ — `-vennootschapsbelasting`-suffix behouden: unieke procedure, geen pendant elders]
+│   ▸ 8 bewerkingen art 76-79 KB-WIB · resultaat → grondslag → tarief
+│   ▸ #correctie-cascade: vrijgestelde reserves · verworpen uitgaven · DBI-aftrek · ...
+│   ▸ #specifieke-winstbestanddelen (II.C): meerwaarden · onderwaarderingen · liquidatie-aandelen
+│
+├── abnormale-goedgunstige-voordelen       [R, shared anti-misbruik + internationaal-fiscaal]   art 26 + 79 WIB · arm's length · verbonden venn
+├── overgedragen-verliezen                 [R]   art 206 WIB · 1M€-korf-regime · verlies-overdrachts-aftrek
+│
+├── --- III. BEROEPSKOSTEN + VERWORPEN UITGAVEN (II.D-E) ---
+├── (beroepskosten)                        [→ generiek record in personenbelasting-cluster + VenB-perspectief; vervangt `aftrekbare-beroepskosten-venb` — OP-PV.A toepassing]
+├── verworpen-uitgaven                     [familie-Σ]   keuze-categorie · 11 niet-aftrekbaar art 53-66 WIB
+│   ▸ #VU-autokosten · #VU-restaurant · #VU-receptie-geschenken · #VU-boetes-art198 · #VU-abnormale-voordelen · ...
+│   ▸ NIET absorbeerd: autokosten-VU regelt CO2-aftrekbeperking — wordt VenB-perspectief op `autokosten` (cross), NIET sub-sectie van verworpen-uitgaven (autokosten leeft in mobiliteit-cluster)
+├── (verworpen-uitgaven-autokosten)        [→ schrap, VenB-perspectief op `autokosten` (mobiliteit-cluster) — OP-PV.A toepassing]
+├── ebitda-aftrekbeperking                 [R, shared anti-misbruik]   ATAD 30%-EBITDA / 3M€
+│
+├── --- IV. UITGEKEERDE DIVIDENDEN (II.F) ---
+├── (uitkering-aan-aandeelhouders)         [→ primair in winstuitkering-cluster, cross VenB]
+├── (vvprbis · liquidatiereserve)          [→ primair in fiscale-voordelen-vennootschap, cross VenB + winstuitkering]
+│
+├── --- V. WINST NAAR HERKOMST (II.G) ---
+├── (winst-naar-herkomst)                  [→ primair in internationaal-fiscaal-cluster (2.8.II.A-C territorialiteit), cross VenB]
+│
+├── --- VI. AANSLAGREGELING (II.H-I) ---
+├── (verlaagd-tarief-kleine-vennootschap)  [→ primair in fiscale-voordelen-vennootschap, cross VenB; ook in #tarief sub-sectie van Σ]
+├── bijzondere-aanslagen-venb              [familie-Σ — `-venb`-suffix behouden: VenB-specifiek concept, geen PB-pendant met dezelfde naam]
+│   ▸ overzicht 4 hoofdtypen afzonderlijke aanslagen
+│   ▸ #geheime-commissielonen (absorbed `geheime-commissielonen`): art 219 WIB · 100%-aanslag (50% verhoogd bij verbonden persoon) · cascade verworpen-uitgaven · 'voldoende bekend gemaakt'-uitzondering
+│   ▸ #onaftrekbare-aftrekken-aanslag (art 219ter) · #liquidatie-aanslag · #andere bijzondere aanslagen
+│
+├── --- VII. VOORHEFFINGEN + VOORAFBETALINGEN (II.J) ---
+├── voorheffingen-en-verrekeningen-venb    [K — `-venb`-suffix behouden voorlopig (OP-VB.A pending)]
+│   ▸ FBB · RV-verrekening · BV-verrekening · forfaitair gedeelte buitenlandse belasting
+│   ▸ wetgevings-logica fundamenteel anders dan PB-aftrek-cascade → géén generieke samenvoeging
+├── voorafbetalingen                       [procedure — rename `voorafbetalingen-vennootschapsbelasting` + absorbeert `voorafbetalingen-pb` als perspectief (OP-PB.B resolutie)]
+│   ▸ generiek: 4 kwartalen · vermeerderings-regel · 3%-bonificatie (PB-only) · 20%-bezoldigingsregel (VenB-only)
+│   ▸ accountant_perspectieven: PB (zelfstandigen-verplicht 3e jaar · plafonds) · VenB (kwartaalpercentages · bezoldigingsregel)
+│
+├── --- VIII. AANGIFTE (taak.4) ---
+├── aangifte-vennootschapsbelasting        [procedure — `-vennootschapsbelasting`-suffix behouden: PB-pendant heet `aangifte-pb`]   Biztax · termijnen · vakken · forms 275.1 / 275.2
+│
+├── --- IX. SPECIFIEKE WINSTBESTANDDELEN (II.C cont.) ---
+├── meerwaarde-aandelen-venb               [R, shared fiscale-voordelen-vennootschap — `-venb`-suffix behouden: wettelijke werking fundamenteel anders dan PB-pendant (3 voorwaarden DBI-link vs normaal beheer privé)]
+│
+├── --- X. REORGANISATIE + HERSTRUCTURERING (III.B) ---
+├── (fiscale-fusie-splitsing)              [→ primair in reorganisatie-cluster, cross VenB]
+├── (fusie · splitsing)                    [→ primair in reorganisatie-cluster, cross VenB]
+├── (vereffening-fiscaal)                  [→ schrap, VenB-perspectief op `ontbinding-en-vereffening` (insolventie-cluster) — OP-PV.A toepassing]
+├── (exit-planning-vennootschap)           [→ primair in internationaal-fiscaal-cluster, cross VenB]
+│
+├── --- XI. RECHTSVORM-KEUZE (III.A) ---
+├── (keuze-rechtsvorm-fiscaal)             [→ al absorbed in ondernemingsvormen-cluster als fiscaal-perspectief — OP-VOV.D toepassing]
+│
+├── --- XII. TAKEN (taak.3-5 — perspectieven, geen eigen records) ---
+└── (fiscale-procedure-belastingplichtige) [→ absorbed in `fiscale-procedure`-Σ via PO 2.5-cluster]
+```
+
+**Cross-cluster** (records primair elders, raken PO 2.3):
+- werknemers-vergoedingen: `bedrijfsleidersbezoldiging` (45.000-EUR-regel + bezoldigingstheorie raakt VenB-aftrekbaarheid)
+- fiscale-voordelen-vennootschap: `investeringsaftrek` · `liquidatiereserve` · `meerwaarde-aandelen-venb` · `notionele-interestaftrek` · `verlaagd-tarief-kleine-vennootschap` · `vvprbis` · `dbi-aftrek` · `innovatie-aftrek` · `gespreide-belasting-meerwaarden`
+- anti-misbruik: `ebitda-aftrekbeperking` · `algemene-anti-misbruik-bepaling` · `transfer-pricing` · `atad-richtlijn`
+- internationaal-fiscaal: `exit-planning-vennootschap` · `winst-naar-herkomst` · `toepassingsgebied-vennootschapsbelasting`-link (Σ-sub-sectie cross naar zetel-bepaling)
+- reorganisatie: `fusie` · `splitsing` · `fiscale-fusie-splitsing`
+- kapitaalstructuur: `inkoop-eigen-aandelen`
+- insolventie: `ontbinding-en-vereffening`
+- winstuitkering: `uitkering-aan-aandeelhouders` · `tussentijdse-dividenden` · `tantième`
+- ondernemingsvormen: `keuze-rechtsvorm-fiscaal` (al absorbed) · `groottecategorie-vennootschap`
+- fiscale-procedure: `fiscale-procedure-belastingplichtige` (al absorbed)
+- algemene-fiscale-beginselen: `fiscaal-recht` · `fiscale-beginselen`
+- mobiliteit: `autokosten` (VenB-perspectief vervangt `verworpen-uitgaven-autokosten`)
+- personenbelasting: `beroepskosten` (VenB-perspectief vervangt `aftrekbare-beroepskosten-venb`)
+
+**Renames + acties**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| `boekhoudkundig-fiscaal-attachment` | **`fiscale-boekhoud-correcties`** — `-attachment`-Engels-suffix-smell weg; focus op cascade-correcties (gekozen optie C) |
+| `aftrekbare-beroepskosten-venb` | **schrap** — wordt VenB-perspectief op nieuwe generieke `beroepskosten` (PB-cluster) — OP-PV.A toepassing |
+| `verworpen-uitgaven-autokosten` | **schrap** — wordt VenB-perspectief op `autokosten` (mobiliteit-cluster) — OP-PV.A toepassing |
+| `vereffening-fiscaal` | **schrap** — wordt VenB-perspectief op `ontbinding-en-vereffening` (insolventie-cluster) — OP-PV.A toepassing |
+| `geheime-commissielonen` | **absorberen** als #geheime-commissielonen in `bijzondere-aanslagen-venb` (anti-versnippering, didactisch coherent in familie-overzicht) — vraag 4 keuze B |
+| `voorafbetalingen-vennootschapsbelasting` | **`voorafbetalingen`** + absorbeert `voorafbetalingen-pb` als perspectief — OP-PB.B resolutie (vraag 3 keuze A); wettelijke logica (4 kwartalen + vermeerdering) identiek, percentages verschillen via perspectief |
+| `voorafbetalingen-pb` | **schrap** — wordt PB-perspectief op nieuwe generieke `voorafbetalingen` |
+| `fiscale-aandachtspunten-herstructurering` | **absorberen** als #herstructurering-aandachtspunten in `vennootschapsbelasting`-Σ (klein record, 1 anker III.C, geen overkoepelende stof) |
+| `toepassingsgebied-vennootschapsbelasting` | **absorberen** als #toepassingsgebied in `vennootschapsbelasting`-Σ (klein record, 1 anker II.A, hoort bij Σ-introductie); shared internationaal-fiscaal-link voor zetel-bepaling blijft via cross |
+
+**`-venb`/`-vennootschapsbelasting`-suffix-regel** (toepassing PO 2.2-regel):
+
+| Behoud | Strippen |
+|---|---|
+| `bijzondere-aanslagen-venb` · `meerwaarde-aandelen-venb` · `aangifte-vennootschapsbelasting` · `belastbare-grondslag-vennootschapsbelasting` · `voorheffingen-en-verrekeningen-venb` (voorlopig) | `aftrekbare-beroepskosten-venb` (→schrap) · `verworpen-uitgaven-autokosten` (→schrap) · `voorafbetalingen-vennootschapsbelasting` (→`voorafbetalingen` generiek) · `fiscale-aandachtspunten-herstructurering` (→Σ sub-sectie) · `toepassingsgebied-vennootschapsbelasting` (→Σ sub-sectie) |
+| **Reden behoud**: VenB-context inherent eigenschap (geen PB-pendant met dezelfde naam, OF wettelijke werking fundamenteel anders dan PB) | **Reden strippen/absorberen**: fenomeen generiek + perspectief volstaat, of klein + zonder eigen overkoepelende stof |
+
+**Schrappen / nieuwe records**:
+- 0 nieuwe records (cluster bestaat al voldoende; alles wat nodig was zit in andere clusters)
+- 1 promotie: `vennootschapsbelasting` → cluster-Σ-hoofdrecord (sub-discipline-overzichts-rol)
+- 1 rename: `fiscale-boekhoud-correcties`
+- 5 schrappen-via-absorptie/perspectief: `aftrekbare-beroepskosten-venb` · `verworpen-uitgaven-autokosten` · `vereffening-fiscaal` · `geheime-commissielonen` · `voorafbetalingen-pb` (PB-pendant van nieuwe generieke)
+- 1 rename + absorptie: `voorafbetalingen-vennootschapsbelasting` → `voorafbetalingen` (generiek + 2 perspectieven)
+- 2 absorpties naar Σ: `toepassingsgebied-vennootschapsbelasting` · `fiscale-aandachtspunten-herstructurering`
+
+**Triangulatie 2026-05-26**:
+- 21 PO 2.3-anchors → 0 PO-only gaps (alle anchors gedekt door cluster-eigen of cross-records)
+- 37 records → 12 cluster-eigen + 13 cross + 5 schrappen + 2 Σ-absorpties + 5 elders-primair
+- 30 openstaande kandidaten in DB (sync-actie pending — OP-PB.D blijft)
+
+**Bronnen-pin**:
+- ✅ WIB art 179-219ter + KB-WIB (vooral art 76-79 voor belastbare-grondslag-cascade)
+- ✅ Wbk Reg + Wbk Successie (voor cross-links uitkeringen + reorganisatie)
+- ✅ Cijferzakboekje (KMO-bedrag · investeringsaftrek-percentages · vermeerderings-percentages voorafbetalingen) via tarieven-MCP
+- ⏳ Circulaires VenB (vooral verworpen-uitgaven art 53-66 + bijzondere aanslagen art 219 — vaak getoetst)
+
+**Test-case-validatie** (2026-05-26): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| KMO-tarief 20% berekening + bezoldigingsregel | `verlaagd-tarief-kleine-vennootschap` (fiscale-voordelen) + cross `groottecategorie-vennootschap` + Σ#tarief | ✅ |
+| Bedrijfsleider-loon < 45.000 EUR → bijzondere aanslag? | `bedrijfsleidersbezoldiging` (werknemers-vergoedingen) + cross `bijzondere-aanslagen-venb`#onaftrekbare-aftrekken + cross `verlaagd-tarief`#bezoldigingsregel | ✅ |
+| Verworpen-uitgaven cascade voor restaurant + geschenken | `verworpen-uitgaven` (familie) + `beroepskosten` (VenB-perspectief) | ✅ |
+| Geheime commissielonen bij niet-aangegeven bezoldigingen | `bijzondere-aanslagen-venb`#geheime-commissielonen + cross `aftrekbare-beroepskosten-venb` → `beroepskosten` VenB-perspectief | ✅ |
+
+**Open punten**:
+- **OP-VB.A** ⏳ `voorheffingen-en-verrekeningen-venb`: `-venb`-suffix + `-en-`-naam-smell voorlopig behouden. Bij content-uitwerking checken: rename naar `verrekening-voorheffingen` (één concept: wat doe je met voorheffingen)? Of opsplitsen in `voorheffingen` (instrument) + `fiscale-verrekening` (procedure)?
+- **OP-VB.B** ⏳ `meerwaarde-aandelen-venb`-suffix bevestigd behouden — bij content-uitwerking PB-pendant overwegen (gewone meerwaarde-aandelen-privé taxatie 33% of vrijgesteld bij normaal beheer privé): apart record of sub-sectie van `personenbelasting`-Σ#diverse-inkomsten?
+- **OP-VB.C** ⏳ `bijzondere-aanslagen-venb`-Σ-content na absorptie geheime-commissielonen: 3 andere sub-secties uitwerken (onaftrekbare-aftrekken art 219ter · liquidatie-aanslag · andere). Werkpunt voor content-uitwerking.
+- **OP-VB.D** ⏳ `vennootschapsbelasting`-Σ-content na 3 absorpties: sub-secties #toepassingsgebied + #tarief + #herstructurering-aandachtspunten uitwerken. Werkpunt voor content-uitwerking.
+- **OP-VB.E** ⏳ `voorafbetalingen` generiek: bij content-uitwerking checken of de 4 kwartaal-percentages (PB · VenB · uitzondering 3e-jaar-zelfstandige) elegant in één tabel passen of 2 perspectief-tabellen vereisen.
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
@@ -2898,3 +3060,7 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | **`-pb`-suffix-regel** uit PO 2.2-ronde: behoud waar belasting-categorie inherent eigenschap is (fenomeen *bestaat alleen in PB-vorm* of heeft fundamenteel andere wettelijke werking elders); strippen waar fenomeen generiek is en `-pb`-suffix perspectief-vermomming verbergt. | Eén-uniforme regel "alle `-pb` weg" (zou aangifte-pb / belastingberekening-pb / aanslagbiljet-pb / aftrekbare-bestedingen-pb verkeerd hernoemen — die zijn inhoudelijk anders dan VenB-pendanten) of "alle `-pb` behouden" (verstopt perspectief-vermommings-smell uit OP-PV.A) | 11 records behouden suffix (PB-aanslagcyclus + PB-aftrek-instituten + PB-categorie-inkomens), 9 records strippen (werknemers/bedrijfsleider/zelfstandige-bezoldigingen + beroepskosten + stopzettingsmeerwaarde + gezinssituatie + starterscoaching + fiscale-procedure + inkomstencategorieen). Beslis-test: "bestaat een VenB/BNI-pendant met dezelfde naam zonder suffix?" → ja = strippen + perspectief; nee = behouden. | Pattern voor andere belasting-suffixen (`-venb` / `-btw` / `-aww`) tijdens latere PO-rondes: zelfde beslis-test. Smell-scan-actie blijft (`-fiscaal`-suffix nog open OP-PB.A). |
 | 2026-05-26 | `personenbelasting` gepromoveerd tot **Σ-hoofdrecord** van eigen sub-discipline-cluster; absorbeert `inkomstencategorieen-pb` als sub-sectie `#inkomstencategorieën`. | Behoud `inkomstencategorieen-pb` als apart kader-record naast `personenbelasting`-kader (huidige situatie) | Inkomstencategorieën zijn niet alternatieven met keuze-as, het zijn componenten van het belastbaar inkomen (samen optellen, niet kiezen). `personenbelasting`-Σ heeft overkoepelende stof die nergens anders thuis hoort (aanslagjaar/inkomstenjaar · aanvullende gemeentebelasting · indexatie-mechaniek · 4-categorieën-overzicht). Verzamelconcept-pattern-test: 1 record met overkoepelende structuur > 2 records waarvan één in de ander past. | Analoog te overwegen bij andere sub-discipline-clusters van fiscaliteit (PO 2.3 `vennootschapsbelasting`-Σ + sub-secties grondslag/correcties/tarief; PO 2.4 `btw`-Σ + sub-secties belastingplichtige/handelingen/aftrek/aangifte). Beslissen per cluster bij PO-uitwerking. |
 | 2026-05-26 | **`beroepskosten` nieuw generiek record** vervangt `beroepskosten-regime-pb` (rename-via-content) + `aftrekbare-beroepskosten-venb` (perspectief-conversie). Operationaliseert OP-PV.A. Inhoud: art 49 WIB aftrekbaarheidstest · forfait vs werkelijk · 50%-regel autokosten · 30%-restaurant · 100%-publiciteit. 2 accountant_perspectieven (PB · VenB). | (a) 2 aparte records behouden — verstopt perspectief-vermommings-smell; (b) alleen rename `beroepskosten-regime-pb` zonder VenB-aspect — verliest VenB-werk-context | Aftrekbaarheidstest is identiek in PB en VenB (art 49 + cascade verworpen uitgaven art 53-66). Verschil zit in cascade-gevolgen (PB: progressief tarief · VenB: aftrekbeperking + cascade naar VU) wat perfect past in perspectief-as. Pattern: één wettelijk fenomeen × 2 belasting-categorieën = 1 record + 2 perspectieven, niet 2 records. | Analoog blijft te overwegen voor `voorafbetalingen` (OP-PB.B), `roerend-inkomen` (OP-PB.C), `voorheffingen-en-verrekeningen-venb` (OP-PV.A pending). Test: is de wettelijke logica identiek (= perspectief-aanpak) of fundamenteel anders (= apart record)? |
+| 2026-05-26 | `vennootschapsbelasting` gepromoveerd tot **Σ-hoofdrecord** (analoog `personenbelasting`-Σ); absorbeert 3 kleine records als sub-secties: `toepassingsgebied-vennootschapsbelasting` → #toepassingsgebied; (nieuw) tarief-aspect → #tarief (25% basis + 20% KMO-link); `fiscale-aandachtspunten-herstructurering` → #herstructurering-aandachtspunten. | Behoud 3 aparte kader-records naast `vennootschapsbelasting`-kader (huidige situatie) | Σ-promotie-criterium uit `personenbelasting`-precedent: sub-discipline-cluster verdient één Σ-hoofd dat overkoepelende stof draagt (toepassingsgebied + tarief-systeem + herstructurering-aandachtspunten zijn alle drie introductie/cross-cutting-stof, geen aparte keuze-as). Klein record + 1 anker + geen eigen overkoepelende stof = sub-sectie-kandidaat. | Patroon te checken voor PO 2.4 (BTW): `btw-belastingplichtige` + `btw-stelsel`-overzicht zou analoog kunnen absorberen als sub-secties van `btw`-Σ. Beslissen tijdens PO 2.4-ronde. |
+| 2026-05-26 | `voorafbetalingen` nieuw **generiek record** vervangt `voorafbetalingen-pb` + `voorafbetalingen-vennootschapsbelasting` (2 records → 1 + 2 perspectieven). Operationaliseert OP-PB.B (verschoven van pending naar resolved). Wettelijke logica (4 kwartalen + vermeerderings-regel + Q-percentages) is identiek; verschillen zitten in PB-only-mechanismen (3%-bonificatie · zelfstandigen-verplicht-3e-jaar) en VenB-only-mechanismen (20%-bezoldigingsregel-link) — verfijnd via perspectieven. | (a) 2 records behouden (originele situatie) — duplicatie van kwartaal-flow + vermeerderings-formule; (b) Σ-record bovenop met cross-links — derde-laag-overhead zonder waarde | Pattern-test uit `beroepskosten`-precedent (rationale-log 2026-05-26): wettelijke logica identiek tussen belasting-categorieën = generiek record + 2 perspectieven. Verfijnt OP-PB.B-twijfel uit PO 2.2-ronde naar concrete actie. | Analoog voor andere fiscale procedure-mechanismen: `aanslag-cyclus` (generiek, al bestaand in fiscale-procedure-cluster) — `aangifte-pb` + `aangifte-vennootschapsbelasting` blijven echter apart wegens fundamenteel andere aangifte-systemen (vakken · forms · termijnen). Test blijft "wettelijke logica identiek?". |
+| 2026-05-26 | **`-attachment`-Engels-suffix-smell** (op `boekhoudkundig-fiscaal-attachment`). Rename naar `fiscale-boekhoud-correcties` (focus op cascade-correcties: primauteit boekhouding + permanente vs tijdelijke verschillen + waarderingsregel-fiscale-correcties). | Behoud `boekhoudkundig-fiscaal-attachment` (mengelmoes Engels-Nederlands) of rename naar `primauteit-boekhouding-fiscaal` (optie A — alleen 1 aspect) of `boekhouding-fiscaal-verband` (optie B — té generiek) | Naam-smell scan-uitbreiding: vreemde-taal-suffixen (`-attachment`/`-cluster`/`-pendant`/etc.) zijn schema-artefacten of vertaalfouten, niet conceptnamen. Optie C `fiscale-boekhoud-correcties` dekt de cascade-functie (waarom dit record bestaat: correcties van boekhoudkundig resultaat → belastbare grondslag) en sluit aan bij accountant-vocabulaire. User-keuze 2026-05-26: "1.C". | Naam-smell-scan voor mapping-fase uitgebreid: vreemde-taal-suffixen (`-attachment`, `-link`, `-pendant`, `-overview`, etc.) toevoegen aan scan-lijst. Algemene regel: suffix in vreemde taal = smell (record-id moet Nederlands zijn voor consistentie met accountant-vocabulaire). |
+| 2026-05-26 | `geheime-commissielonen` **absorberen** als sub-sectie #geheime-commissielonen in `bijzondere-aanslagen-venb`-Σ (vraag 4 keuze B). Familie-overzichts-Σ wordt didactisch coherent met meest-getoetste sub-aanslag in detail uitgewerkt. | (a) 2 aparte records behouden — bijzondere-aanslagen-venb wordt skeleton met alleen 1 zwaar lid; (b) andersom: schrap bijzondere-aanslagen-venb-familie, behoud geheime-commissielonen apart — verliest categorisch overzicht andere bijzondere aanslagen (art 219ter onaftrekbare-aftrekken-aanslag · liquidatie-aanslag · andere) | Anti-preventieve-versnippering-principe (rationale-log 2026-05-26): familie-Σ-record met sub-secties per type heeft betere didactische cohesie dan losse leden zonder overkoepelend overzicht. Geheime-commissielonen blijft de zwaarste sub-sectie (art 219 WIB 100%-aanslag + cascade VU) maar leeft naast andere bijzondere aanslagen die als sub-secties uitgewerkt worden (OP-VB.C werkpunt). User-keuze 2026-05-26: "4.B voorlopig". | Patroon: andere familie-Σ-records met één dominante sub-categorie kunnen analoog absorberen (bv. `winstuitkering` met `dividend-uitkering` als dominante sub-sectie?). Te checken tijdens mapping-fase. |
