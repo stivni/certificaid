@@ -1698,6 +1698,89 @@ fiscale-procedure                         [thema-cluster fiscaliteit, 13 records
   Mapping-fase-actie.
 - **OP-FP.B** ⏳ Aanslag-procedure-detail vs `aanslag-cyclus`-record — eventueel nuance bij content-uitwerking
 
+### Registratie-en-successierechten-cluster
+
+Thema: `registratie-en-successierechten`. *Diepe PO 2.6-uitwerking (2026-05-26). Bundelt 2 hoofd-belastingsoorten met gewestelijke bevoegdheid (Vlaanderen/Wallonië/Brussel). Lost 3 sub-eigenschap-absorpties op + 1 perspectief-vermomming (consistent met PO 2.5).*
+
+```
+registratie-en-successierechten           [thema-cluster fiscaliteit, ~14 records — PO 2.6]
+│
+├── registratie-en-successierechten       [Σ-hoofdrecord — NIEUW]
+│   ▸ overkoepelend keuzekader: 2 hoofdtakken (registratie + successie)
+│   ▸ #verschil: registratie = bij elke akte van eigendomsoverdracht/-vestiging; successie = bij overlijden
+│   ▸ #gewestelijke-bevoegdheid (Vlaanderen/Wallonië/Brussel — eigen wetboeken sinds 6e Staatshervorming)
+│   ▸ #aanknopingspunten: registratie = ligging onroerend goed / aard akte; successie = fiscale woonplaats overledene (5-jaarsregel)
+│   ▸ #vertegenwoordiging-belastingadministratie (overzicht — detail via perspectieven op individuele records; absorbeert oude record)
+│
+├── --- I. REGISTRATIERECHTEN ---
+├── registratieformaliteit-akten          [procedure]   verplichte aktes · termijnen · sancties bij niet-naleving
+│       accountant_perspectieven[].advies: vertegenwoordigt cliënt bij registratie (was `vertegenwoordiging-belastingadministratie`-content)
+├── verkooprecht                          [R]   evenredig recht bij verkoop onroerend goed (10-12% Vl/Br/W ⚠️)
+├── verdeelrecht                          [R]   bij scheiding / onverdeeldheidsstop (~2.5% ⚠️)
+├── hypotheekrecht                        [R]   bij vestiging hypotheek (~1% ⚠️)
+├── schenkbelasting                       [R]   schenking onroerend/roerend · gewestelijke tarieven · 3j-vermoeden bij overlijden
+├── inbreng-onroerend-in-vennootschap     [G, cross kapitaalstructuur]   vrijstelling art 115bis Wb Reg (cross naar `kapitaalverhoging-in-natura`)
+│
+├── --- II. SUCCESSIERECHTEN / ERFBELASTING ---
+├── erfbelasting                          [R — absorbeert 3 sub-records]
+│   ▸ #tarieven (was `erfbelasting-tarieven-en-vrijstellingen` — absorbed) — progressieve gewestelijke schalen per verwantschap
+│   ▸ #vrijstellingen (was `vrijstelling-gezinswoning` + andere — absorbed) — gezinswoning · familiale onderneming · diverse drempels
+│   ▸ #fictiebepalingen (was `fictiebepalingen-erfbelasting` — absorbed) — schenkingen < 3j vóór overlijden, levensverzekering, gesplitste aankopen
+│       accountant_perspectieven[].advies: aangifte-bijstand · planning-advies
+├── erfrecht                              [K, cross burgerlijk recht]   wie erft wat · wettelijke (intestate) + testamentaire devolutie · reserves
+├── huwelijksvermogensrecht               [K, cross burgerlijk recht]   gemeenschap · zuivere scheiding · interactie met erfrecht
+├── aangifte-nalatenschap                 [procedure]   indieningstermijnen · gewestelijke verschillen · vermenigvuldiging-correctie
+│       accountant_perspectieven[].advies: aangifte opstellen · termijnverlenging aanvragen · aanvullende aangifte
+│
+├── --- III. SUCCESSIEPLANNING + INSTRUMENTEN ---
+├── successieplanning                     [Σ-overzicht — VI.D + VI.E]
+│   ▸ instrumenten: testament · schenking · huwelijkscontract · levensverzekering · maatschap-controle-overdracht
+│   ▸ keuze-criteria: fiscale optimalisatie · familie-continuïteit · vermogensbescherming · cross-grensoverschrijdend
+├── testament-instrument                  [E-instrument]   olografisch · authentiek · internationaal · vormvereisten · herroeping
+├── schenking-met-voorbehoud-vruchtgebruik [E-instrument]   klassiek planningsinstrument; cross naar `opsplitsing-eigendom`
+├── levensverzekering-successieplanning   [E-instrument]   levensverzekering als planningsinstrument; samenloop met fictiebepaling-erfbelasting (gunstregime overhevelen)
+│
+└── --- IV. CROSS-CUTTING GUNSTREGIME ---
+└── gunstregime-familiale-onderneming     [R, raakt registratie IV + successie VI]   0% schenkbelasting + verlaagd erfbelasting onder voorwaarden (activiteit · houdperiode · bedrijfsleidersrol)
+```
+
+**Cross-cluster**:
+- `inbreng-onroerend-in-vennootschap` (kapitaalstructuur) — registratie-vrijstelling
+- `maatschap` (ondernemingsvormen) — populair planningsinstrument
+- `opsplitsing-eigendom` (boekhouding) — vruchtgebruik/blote-eigendom-mechanica
+
+**Renames + absorpties + nieuw**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| erfbelasting-tarieven-en-vrijstellingen | absorbed → `erfbelasting#tarieven` + `#vrijstellingen` |
+| fictiebepalingen-erfbelasting | absorbed → `erfbelasting#fictiebepalingen` |
+| vrijstelling-gezinswoning | absorbed → `erfbelasting#vrijstellingen#gezinswoning` |
+| vertegenwoordiging-belastingadministratie | **absorbed als perspectief** → `accountant_perspectieven[].advies` (analoog `mandaat-accountant-fiscus` in PO 2.5; OP-PV.A consistentie) |
+| (nieuw) | **registratie-en-successierechten** (Σ-overzicht) |
+
+**Triangulatie 2026-05-26**:
+- 20 PO 2.6-anchors → 0 PO-only gaps
+- 18 records → 14 cluster-eigen (3 absorpties + 1 perspectief-correctie + 1 nieuw Σ)
+
+**Bronnen-pin**:
+- ✅ Wetboek Registratie-, Hypotheek- en Griffierechten (federaal) + Vlaamse Codex Fiscaliteit (Vlaanderen) + Waals + Brussels Wetboek
+- ✅ Burgerlijk Wetboek boek 4 (erfrecht) + boek 2 (huwelijksvermogensrecht)
+
+**Test-case-validatie** (2026-05-26): 4 representatieve vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Verschil verkooprecht Vl vs Wal vs Br | `verkooprecht#gewestelijke-tarieven` | ✅ |
+| Schenking onroerend met voorbehoud vruchtgebruik | `schenking-met-voorbehoud-vruchtgebruik` + `schenkbelasting` + cross `opsplitsing-eigendom` | ✅ |
+| Vrijstelling gezinswoning Vl voor langstlevende echtgenoot | `erfbelasting#vrijstellingen#gezinswoning` | ✅ (bevestigt absorptie) |
+| Gunstregime familiale onderneming bij schenking vs erfenis | `gunstregime-familiale-onderneming` (cross registratie + successie) | ✅ |
+
+**Open punten**:
+- **OP-RS.A** ⏳ `erfbelasting`-record gaat ~3-4 pagina's worden na absorptie van tarieven + vrijstellingen + fictiebepalingen. Splits-overweging bij content-zwaarte (precedent `audit-bewijs` ~3-4 p OK).
+- **OP-RS.B** ⏳ Gewestelijke variant per regime: tarieven verschillen wezenlijk Vl/Wal/Br. Eén record per gewest of 1 record met sub-sectie per gewest? Voorlopig sub-sectie (anti-versnippering); split bij content-uitwerking als verschillen substantieel-zelfstandig zijn.
+- **OP-RS.C** ⏳ `gunstregime-familiale-onderneming` cross-relatie naar `ondernemingsvormen` + `bedrijfsleidersbezoldiging` (KMO-context) — content-werk
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
