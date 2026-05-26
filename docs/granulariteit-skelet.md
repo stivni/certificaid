@@ -128,12 +128,6 @@ insolventie                              [⏳]
 ├── faillissement                        ⏳
 └── gerechtelijke-reorganisatie          ⏳
 
-beroepsbeoefening                        [⏳]
-├── witwasplicht-aml                     ⏳
-├── opdrachtbrief                        ⏳
-├── onafhankelijkheid                    ⏳
-└── archiefplicht                        ⏳
-
 controle-opdracht                        [sub-Kader `controle`, 7 records — PO 1.6]
 ├── controleopdracht                     [K-techniek-Σ]    ▸ 4 fases (aanvaarden→plannen→bewijswerk→afronden+oordeel) ▸ prof skepticism ▸ delegatie-en-supervisie
 ├── opdracht-types                       [Σ]               4 types: controle · beoordeling · samenstelling · AUP  ▸ normenkader-piramide
@@ -163,10 +157,30 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
-Shared records (thema's `controle-opdracht` + `interne-controle`)
+beroepsbeoefening                        [thema-cluster onder beroep-en-deontologie-discipline, 11 records + 2 shared — PO 4.0.I + taken 1-3]
+├── --- I. STATUUT VAN HET BEROEP ---
+├── gecertificeerd-accountant            [E-actor, NIEUW]  beroep · toelatingsvereisten · monopolieopdrachten · stagiair → gecertificeerd
+├── itaa-beroepsorganisatie              [E-orgaan]        structuur · raden · publiek toezicht · openbaar register
+├── normbronnen                          [K-overzicht]     wet → KB → reglement → norm → deontologische code → ITAA-normen + ISA
+├── --- II. DEONTOLOGISCHE BEGINSELEN ---
+├── deontologie                          [K]               5 beginselen: integriteit · objectiviteit · vakbekwaamheid · vertrouwelijkheid · professioneel gedrag
+├── beroepsgeheim                        [K-principe + R]  wat valt onder · uitzonderingen · samenloop met AML-melding
+├── beroepsaansprakelijkheid             [K-principe]      3 sporen (burgerlijk · strafrechtelijk · tuchtrechtelijk) — dekt accountant + bedrijfsrevisor
+├── tuchtprocedure-itaa                  [R-procedure]     wie · sancties (waarschuwing/schorsing/schrapping) · beroep
+├── kwaliteitstoetsing-itaa              [R-procedure]     externe peer review · frequentie · scope
+├── permanente-vorming                   [R-procedure]     puntenstelsel · ITAA-norm · sancties
+├── --- III. AML / WITWASPREVENTIE ---
+├── antiwitwaspreventie                  [R-overkoepelend] AML-wet 18-09-2017 + WER + ITAA-norm-aww  ▸ cliëntenonderzoek (KYC) ▸ ubo-register ▸ risicogebaseerde benadering ▸ melding-cfi (tipping-off-verbod) ▸ intern beleid
+├── --- IV. KANTOOR-PRAKTIJK ---
+├── opdrachtaanvaarding-en-opdrachtbrief [E + R]           (verhuisd uit controle-opdracht, OP-EC.A) — ITAA-norm-opdrachtbrief
+└── kantoor-organisatie                  [K]               ▸ team-coordinatie + supervisie ▸ communicatie-met-stakeholders ▸ digitale werkomgeving
+
+Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoefening`)
 ├── coso-framework                       [K-techniek-Σ]    5 componenten: controle-omgeving · risico-inschatting · controle-activiteiten · informatie-en-communicatie · monitoring  + ERM-variant
 ├── cyclus-analyse                       [Σ]               5 cycli: aankoop(P2P) · productie · verkoop(O2C) · HR(H2R) · voorraad
-└── auditcomite                          [E-orgaan]        schakel bestuur ↔ interne auditor ↔ commissaris  (ook thema beroepsbeoefening)
+├── auditcomite                          [E-orgaan]        schakel bestuur ↔ interne auditor ↔ commissaris  (ook thema beroepsbeoefening)
+├── onafhankelijkheid                    [K-principe + R]  (shared beroepsbeoefening + controle-opdracht) — geesteshouding + naar-buiten-toe + cooling-off
+└── kwaliteitsmanagement-opdracht        [K-techniek + R]  (shared beroepsbeoefening + controle-opdracht) — ISQM kantoor + EQR opdracht
 ```
 
 **Leesregel**: een record hangt op één plek in deze tree (zijn thuis-cluster). Verbindingen naar andere clusters via `relaties[]`. Discipline-binding via `accountant_perspectieven[]`. Thema-tag `thema: []` is orthogonaal (een record kan meerdere thema's dragen, één primair-cluster).
@@ -182,7 +196,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle`)
 | schuldfinanciering | 4 | PO 1.1 (boekhouding) · PO 3.0 (WVV-obligaties) · PO 2.3 (VenB-interest) | [§Schuldfinanciering-cluster](#schuldfinanciering-cluster) |
 | controle-opdracht | 7 | PO 1.6 | [§Controle-opdracht-cluster](#controle-opdracht-cluster) |
 | interne-controle | 7 + 3 shared | PO 1.7 | [§Interne-controle-cluster](#interne-controle-cluster) |
-| **ondernemingsvormen** | **9** | **PO 3.0.I + taak.1 + cross PO 1.1 + 2.3** | [**§Ondernemingsvormen-cluster**](#ondernemingsvormen-cluster) |
+| ondernemingsvormen | 9 | PO 3.0.I + taak.1 + cross PO 1.1 + 2.3 | [§Ondernemingsvormen-cluster](#ondernemingsvormen-cluster) |
+| **beroepsbeoefening** | **11 + 2 shared** (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | **PO 4.0.I + taken 1-3** | [**§Beroepsbeoefening-cluster**](#beroepsbeoefening-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -861,6 +876,172 @@ ondernemingsvormen                            [thema-cluster vennootschapsrecht]
 
 Alle 6 vragen passen door de tree. **Bevestigingen**: (a) splits VOF/CommV bevestigd door geen specifieke testvraag op CommV-only — beide bestaan apart maar worden hier niet getest; (b) `#initiele-inbreng` sub-sectie in `oprichting-vennootschap` is concreet nodig (vr 2008-bibf-vrI2); (c) cross-relaties naar `aansprakelijkheid-oprichters-bestuurders` bevestigen dat dit cluster nodig wordt (PO 3.0.VII open punt).
 
+### Beroepsbeoefening-cluster
+
+Thema: `beroepsbeoefening`. *Thema-cluster onder `beroep-en-deontologie`-discipline. Resulteert uit PO 4.0-werk (2026-05-26). PO 4.0 = "Deontologische beginselen + antiwitwaswetgeving" met dubbele functie: deel I + taken 1-3 = kern (eigen cluster); deel II + taken 4-6 = competentie-overzicht (cross-naar-andere-PO's, geen eigen records). Absorbeert meerdere records die in eerdere cluster-sparring waren voorzien om hier te verhuizen (commissaris-blok, kwaliteitsmanagement, opdrachtbrief, AML).*
+
+```
+beroepsbeoefening                             [thema-cluster onder beroep-en-deontologie-discipline]
+│
+├── --- I. STATUUT VAN HET BEROEP ---
+├── gecertificeerd-accountant                 [E-actor, NIEUW]
+│       beroep met toelatingsvereisten · monopolieopdrachten · stagiair → gecertificeerd · onverenigbaarheden
+├── itaa-beroepsorganisatie                   [E-orgaan]
+│       structuur · raden · publiek toezicht · openbaar register
+├── normbronnen                               [K-overzicht]
+│       hiërarchie: wet → KB → reglement → norm → deontologische code → ITAA-normen + ISA (audit-context)
+│
+├── --- II. DEONTOLOGISCHE BEGINSELEN ---
+├── deontologie                               [K — was `deontologie-accountant`, suffix-smell weg]
+│       5 fundamentele beginselen: integriteit · objectiviteit · vakbekwaamheid · vertrouwelijkheid · professioneel gedrag
+├── beroepsgeheim                             [K-principe + R — was `beroepsgeheim-accountant`]
+│       wat valt onder · uitzonderingen · samenloop met AML-melding (anti-collision-regel)
+├── beroepsaansprakelijkheid                  [K-principe — was `aansprakelijkheid-accountant-revisor`, compacter]
+│       3 sporen: burgerlijk · strafrechtelijk · tuchtrechtelijk; dekt accountant + bedrijfsrevisor
+├── tuchtprocedure-itaa                       [R-procedure]
+│       wie · sancties (waarschuwing / schorsing / schrapping) · beroep · KvT/IBR-tuchtorganen
+├── kwaliteitstoetsing-itaa                   [R-procedure]
+│       externe peer review door ITAA · frequentie · scope · resultaat-categorieën
+├── permanente-vorming                        [R-procedure — was `permanente-vorming-accountant`]
+│       puntenstelsel · ITAA-norm-permanente-vorming · sancties bij niet-naleving
+│
+├── --- III. AML / WITWASPREVENTIE ---
+└── antiwitwaspreventie                       [R-overkoepelend — was `antiwitwas-verplichtingen-accountant`]
+    ▸ #cliëntenonderzoek (KYC) — was `clientenonderzoek-aww`
+    ▸ #ubo-register — was `ubo-register`
+    ▸ #risicogebaseerde-benadering — was `risicogebaseerde-benadering-aww`
+    ▸ #melding-verdachte-transactie-cfi — was `melding-verdachte-transactie-cfi` (CFI = Cel voor Financiële Informatieverwerking, eigennaam — geen suffix-smell)
+    ▸ #intern-beleid-en-procedures (NIEUW sub-sectie — risk officer, opleiding, gegevensbewaring 10j ⚠️)
+│
+├── --- IV. KANTOOR-PRAKTIJK ---
+├── opdrachtaanvaarding-en-opdrachtbrief      [E + R]
+│       (verhuisd uit controle-opdracht per OP-EC.A) — wettelijk + ITAA-norm-opdrachtbrief; geldt voor élk opdrachttype
+└── kantoor-organisatie                       [K — was `kantoor-organisatie-accountant`]
+    ▸ #team-coordinatie-en-supervisie (4.0.taak.4)
+    ▸ #communicatie-met-stakeholders (4.0.taak.2 — was `communicatie-met-stakeholders` record, geabsorbeerd)
+    ▸ #digitale-werkomgeving (4.0.taak.5 — was `digitalisering-accountantskantoor` record, geabsorbeerd; cyber + samenwerkingsplatformen + digital workplace)
+```
+
+**Cross-cluster** (eigen plek elders, relaties hierheen):
+- `onafhankelijkheid` [K-principe + R-regime, **shared**] — leeft in beroepsbeoefening **én** controle-opdracht-cluster; thema's beide
+- `kwaliteitsmanagement-opdracht` [K-techniek + R, **shared**] — idem (ISQM kantoor-niveau + EQR opdracht-niveau)
+- `commissaris` [E] — bijzondere hoedanigheid van `gecertificeerd-accountant`, eigen record gerechtvaardigd door wettelijk + statutair regime; cross-relatie hier
+- `auditcomite` [E-orgaan, **shared**] — al cross-cutting (controle-opdracht + interne-controle); voegt thema beroepsbeoefening toe
+- `fraude` [G, cross-cutting] — raakt AML maar leeft als eigen Gebeurtenis (PO 1.6/1.7/4.0/witwas)
+- `vennootschap-groottecategorieen` [E + R] — bepaalt commissaris-trigger; cross-relatie
+
+**Schrappen als zelfstandig record / herleiden tot sub-sectie**:
+- `deontologie-accountant` → hernoemd `deontologie` (`-accountant`-suffix-smell weg; cluster zegt al dat het over accountant gaat)
+- `beroepsgeheim-accountant` → hernoemd `beroepsgeheim`
+- `aansprakelijkheid-accountant-revisor` → hernoemd `beroepsaansprakelijkheid` (compacter, dekt beide beroepen, geen suffix-smell)
+- `permanente-vorming-accountant` → hernoemd `permanente-vorming`
+- `kantoor-organisatie-accountant` → hernoemd `kantoor-organisatie`
+- `antiwitwas-verplichtingen-accountant` → hernoemd `antiwitwaspreventie` (compacter)
+- `clientenonderzoek-aww`, `ubo-register`, `risicogebaseerde-benadering-aww`, `melding-verdachte-transactie-cfi` → sub-secties van `antiwitwaspreventie` (anti-versnippering, 5 records → 1 hoofdrecord; `-aww`-suffix-smell weg waar bestaande)
+- `communicatie-met-stakeholders` → sub-sectie van `kantoor-organisatie`
+- `digitalisering-accountantskantoor` → sub-sectie van `kantoor-organisatie`
+- `businessmodel-en-strategie-inzicht-accountant` → **cross naar `bedrijfseconomie-en-management`-discipline** (4.0.taak.6 is meta-competentie, niet deontologie-domein)
+
+**Triangulatie-resultaten beroepsbeoefening** (2026-05-26):
+- 17 PO 4.0-anchors (6 taken + 11 kenniselementen) waarvan 9 in scope (4.0.I + taken 1-3) + 8 cross naar andere PO's (4.0.II + taken 4-6)
+- 19 bestaande records met PO 4.0-anker → **11 cluster-eigen records** (reductie van 19 → 11 + 2 shared) + 7 absorpties in sub-secties + 1 cross-discipline-verhuis (businessmodel-en-strategie-inzicht)
+- 15 kandidaten in DB (alle `gerealiseerd: 0` vóór hernoemen)
+- 3 belangrijke smell-oplossingen: (a) `-accountant`-suffix op 5 records geruimd; (b) `-aww`-suffix-smell (= afkorting-suffix, schendt regel 8 CLAUDE.md) op 3 records weggewerkt via AML-bundeling; (c) 5 versnipperde AML-records → 1 Σ-overkoepelend record (anti-preventieve-versnippering)
+
+**Bronnen-pin voor cluster**:
+- ✅ ITAA-norm-aww-reglement (trusted) — AML-uitvoering accountancy
+- ✅ ITAA-norm-aww-procedurereglement (trusted)
+- ✅ ITAA-norm-aww-richtlijn-bibf (trusted)
+- ✅ ITAA-norm-aww-geconsolideerd (trusted)
+- ✅ ITAA-norm-opdrachtbrief (trusted)
+- ✅ ITAA-norm-permanente-vorming (trusted)
+- ✅ ITAA-norm-gedragslijnen-relaties-IBR (trusted)
+- ✅ ITAA-norm-intern-kwaliteitsmanagement (trusted)
+- ⏳ AML-wet 18 september 2017 (Wet ter voorkoming van witwassen) — primaire bron, te verifiëren in `resources/bronnen/wetteksten/`
+- ⏳ ITAA-Handleiding interne procedures AWW 2019 (al in resources, untracked)
+
+**Details per record** (kort — hints voor extractie):
+
+**`gecertificeerd-accountant`** [E-actor, NIEUW]
+- inhoud: gereglementeerd beroep met toelatingsvereisten (universitair diploma + 3j stage + bekwaamheidsexamen) · inschrijving in openbaar register ITAA · monopolieopdrachten (wettelijk voorbehouden: opdrachtbrief, fiscale aangiften namens cliënt, attestopdrachten) · onverenigbaarheden (bv. handelszaak in eigen naam, bestuursfunctie cliënt) · stagiair-statuut (proefperiode, beperkt opdrachtenpakket, supervisor-vereiste)
+- perspectieven: `beroep-en-deontologie` (eigen statuut)
+- relaties: `itaa-beroepsorganisatie`, `commissaris` (bijzondere hoedanigheid), `tuchtprocedure-itaa`, `permanente-vorming`
+
+**`itaa-beroepsorganisatie`** [E-orgaan]
+- inhoud: structuur ITAA (Instituut van de Belastingadviseurs en de Accountants) · raden + voorzitters · publiek toezicht door FOD Economie · openbaar register (online raadpleegbaar) · samenwerking met IBR (bedrijfsrevisoren) · Wet 17 maart 2019 als oprichtingswet
+- relaties: `gecertificeerd-accountant`, `tuchtprocedure-itaa`, `kwaliteitstoetsing-itaa`
+
+**`normbronnen`** [K-overzicht]
+- inhoud: hiërarchie van rechtsbronnen voor accountancy: wet (federaal/gewestelijk) → KB → reglement (gemeenschappelijk reglement KB 9-12-2009) → beroepsnormen (ITAA + IBR) → deontologische code → internationale standaarden (ISA, ISRE, ISRS, ISAE — via verwijzing in normen) · onderscheid hard law vs soft law · bindende kracht tuchtrechtspraak
+- relaties: `deontologie`, `tuchtprocedure-itaa`, alle normen-cross naar `controle-opdracht`-cluster
+
+**`deontologie`** [K — overzicht 5 beginselen]
+- inhoud: 5 fundamentele beginselen (IFAC + ITAA): **integriteit** (eerlijk handelen) · **objectiviteit** (geen vooroordeel) · **vakbekwaamheid + zorgvuldigheid** (technische + ethische competentie + due care) · **vertrouwelijkheid** (= beroepsgeheim, eigen record) · **professioneel gedrag** (wet + reputatie). Threats-and-safeguards-model: self-interest, self-review, advocacy, familiarity, intimidation → mitigerende maatregelen.
+- relaties: `onafhankelijkheid` (specifiek geval objectiviteit), `beroepsgeheim`, `beroepsaansprakelijkheid`
+
+**`beroepsgeheim`** [K-principe + R]
+- inhoud: wettelijk verankerd (art 458 Strafwetboek + ITAA-deontologische code) · wat valt onder (alles wat in opdrachtuitvoering wordt gekend) · uitzonderingen (wettelijke verplichting, rechterlijke vordering, AML-melding aan CFI ⚠️ — getuigt boven beroepsgeheim) · samenloop met AML: tipping-off-verbod (cliënt niet inlichten over CFI-melding) · cross naar belastingadvies-context
+- relaties: `antiwitwaspreventie` (samenloop), `deontologie` (vertrouwelijkheidsbeginsel), `aansprakelijkheid` (strafrechtelijke sanctie)
+
+**`beroepsaansprakelijkheid`** [K-principe]
+- inhoud: 3 sporen — (a) **burgerlijk**: contractuele aansprakelijkheid t.o.v. cliënt + buitencontractuele t.o.v. derden; bewijslast schade + fout + causaal verband; verzekering beroepsaansprakelijkheid verplicht via ITAA-reglement ⚠️; (b) **strafrechtelijk**: medeplichtigheid valsheid in geschriften, witwassen, oplichting, ...; specifieke fiscale strafmiscdrijven; (c) **tuchtrechtelijk**: deontologische overtreding → tuchtkamer → sancties. Dekt accountant + bedrijfsrevisor (beide beroepen onderworpen aan analoog regime).
+- relaties: `tuchtprocedure-itaa`, `deontologie`, `commissaris` (bijzondere aansprakelijkheid bij wettelijke controle)
+
+**`tuchtprocedure-itaa`** [R-procedure]
+- inhoud: procedure bij overtreding deontologie · klacht (cliënt, derde, eigen initiatief Raad ITAA) · onderzoek door Auditeur · Kamer voor Tuchtonderzoek → Tuchtkamer · sancties: **waarschuwing · berisping · schorsing (max 1j) · schrapping** (definitief verlies titel) · beroep bij Hof van Beroep Brussel · publicatie tuchtrechtspraak
+- relaties: `itaa-beroepsorganisatie`, `beroepsaansprakelijkheid`, `deontologie`
+
+**`kwaliteitstoetsing-itaa`** [R-procedure]
+- inhoud: periodieke externe peer review door ITAA (verplicht alle gecertificeerde leden) · frequentie typisch 5-6 jaar · scope: organisatie-niveau (kantoor) + opdracht-niveau (steekproef) · 3 resultaten: conform / met opmerkingen / niet-conform · niet-conform-gevolgen: actieplan + heronderzoek + eventueel tucht · ITAA-norm-intern-kwaliteitsmanagement als kader
+- relaties: `kwaliteitsmanagement-opdracht`, `tuchtprocedure-itaa`, `itaa-beroepsorganisatie`
+
+**`permanente-vorming`** [R-procedure]
+- inhoud: ITAA-norm permanente vorming (verplicht voor inschrijving) · puntenstelsel: 120u/3j of 40u/jaar ⚠️ · types: erkende vorming + zelfstudie + lesgeven · jaarlijkse aangifte aan ITAA · sancties: bij niet-naleving → tucht
+- relaties: `tuchtprocedure-itaa`, `gecertificeerd-accountant`
+
+**`antiwitwaspreventie`** [R-overkoepelend]
+- inhoud: AML-regime voor accountants — gebaseerd op **Wet 18 september 2017** (Wet ter voorkoming van witwassen + financiering terrorisme) + **WER boek XI** + EU-richtlijn (5e + 6e AML-richtlijn). 5 verplichtingen-blokken:
+  - `#cliëntenonderzoek` (KYC) — identificatie cliënt + uiteindelijke begunstigde + doel zakenrelatie + monitoring; vereenvoudigd / standaard / verscherpt onderzoek (afhankelijk van risico)
+  - `#ubo-register` (wet 26 juni 2020) — Ultimate Beneficial Owner; KBO-link; cliënt moet UBO-gegevens registreren; accountant raadpleegt + valideert
+  - `#risicogebaseerde-benadering` — risico-categorisering cliënt (laag/middel/hoog) + transactie (drempels) → matig of verscherpt onderzoek; documentatie-plicht
+  - `#melding-verdachte-transactie-cfi` (Cel voor Financiële Informatieverwerking) — wanneer melden (indicatoren), tipping-off-verbod ⚠️ (niet vertellen aan cliënt), bescherming melder, samenloop met beroepsgeheim
+  - `#intern-beleid-en-procedures` — risk officer/AML-compliance-officer aanwijzen, intern protocol, opleiding medewerkers, gegevensbewaring 10j ⚠️
+- perspectieven: `beroep-en-deontologie` (verplicht regime) · `audit` (cross-relatie naar `fraude` Gebeurtenis-record)
+- naam_officieel: antiwitwaspreventie / lutte contre le blanchiment · synoniemen: AML, anti-money-laundering, witwasplicht-accountant, AWW-discipline
+- relaties: `beroepsgeheim` (tipping-off-anti-collision), `fraude` (cross-cutting Gebeurtenis), `ubo-register` (geabsorbeerd), `gecertificeerd-accountant`
+
+**`opdrachtaanvaarding-en-opdrachtbrief`** [E + R] (verhuisd uit controle-opdracht)
+- inhoud: opdrachtbrief = contractueel + deontologisch begin van elke opdracht (geldt voor élk opdrachttype, niet enkel controle — vandaar hier in beroepsbeoefening per OP-EC.A). Aanvaardingsproces: (a) cliëntenonderzoek + integriteits-check (overlap met AML KYC); (b) competentie-check (kan kantoor de opdracht aan?); (c) onafhankelijkheidsverklaring; (d) opdrachtbrief-opmaak (scope · honoraria · termijnen · verantwoordelijkheden · vertrouwelijkheid · klachtenprocedure · ITAA-norm-opdrachtbrief).
+- perspectieven: `beroep-en-deontologie` (eigen plicht), `advies` (opmaak met cliënt)
+- relaties: `gecertificeerd-accountant`, `antiwitwaspreventie#cliëntenonderzoek` (overlap), `onafhankelijkheid` (verklaring), `commissaris` (specifieke opdrachtbrief bij wettelijke controle)
+
+**`kantoor-organisatie`** [K] (was `kantoor-organisatie-accountant`)
+- inhoud: drie operationele aspecten van een accountantskantoor: (a) `#team-coordinatie-en-supervisie` (4.0.taak.4) — opdrachtenverdeling op basis van competentie + ervaring, voortgang + kwaliteitsbewaking, review-piramide; (b) `#communicatie-met-stakeholders` (4.0.taak.2) — afstemming op doelpubliek (cliënt/voorganger/banken/fiscus/sociale zekerheid/rechtbank/toezichthouder); scheiding publiek toelaatbaar vs beroepsgeheim vs vertrouwelijke informatie; (c) `#digitale-werkomgeving` (4.0.taak.5) — gegevensstromen cliënt↔kantoor, samenwerkingsplatformen, cybersecurity, audittrails, AVG-discipline.
+- perspectieven: `advies` (kantoor-management)
+- relaties: `kwaliteitsmanagement-opdracht` (ISQM-overlap), `beroepsgeheim` (communicatie-discipline), `gecertificeerd-accountant`
+
+**Open punten beroepsbeoefening-cluster**:
+- **OP-BB.A** ✅ **Beslist** (2026-05-26): `-accountant`-suffix-smell geruimd op 5 records (deontologie · beroepsgeheim · permanente-vorming · kantoor-organisatie + via rename `beroepsaansprakelijkheid`). `-aww`-suffix-smell geruimd via AML-bundeling.
+- **OP-BB.B** ✅ **Beslist** (2026-05-26): AML = 1 overkoepelend record `antiwitwaspreventie` met 5 sub-secties; absorbeert 4 oude records.
+- **OP-BB.C** ✅ **Beslist** (2026-05-26): `gecertificeerd-accountant` als nieuw overkoepelend E-actor-record voor "wie is de accountant" + statuut.
+- **OP-BB.D** ✅ **Beslist** (2026-05-26): `kantoor-organisatie` absorbeert `communicatie-met-stakeholders` + `digitalisering-accountantskantoor` als sub-secties.
+- **OP-BB.E** ⏳ `commissaris`-record (uit PO 1.6-werk verhuisd) — apart record of sub-sectie van `gecertificeerd-accountant`? Mijn voorkeur: **apart record** want wettelijke + statutaire context substantieel verschillend (KMO-controlenorm-toepasselijkheid, mandaat-modaliteit, onafzetbaarheid). Te valideren bij commissaris-uitwerking.
+- **OP-BB.F** ⏳ AML-bron-pin: 4 ITAA-AWW-normen + AML-wet 18-09-2017 + ITAA-handleiding AWW-2019. Cross-validatie of wet effectief in `resources/bronnen/wetteksten/` als trusted.
+- **OP-BB.G** ⏳ `businessmodel-en-strategie-inzicht-accountant` cross-discipline-verhuis naar `bedrijfseconomie-en-management` — bij die discipline-uitwerking bevestigen of het daar past, anders herzien.
+
+**Test-case-validatie** (2026-05-26): 6 representatieve PO 4.0-examen-vragen door de tree gevoerd:
+
+| Vraag | Concept | Tree-pad | Resultaat |
+|---|---|---|---|
+| 2003-bibf-vrK1 | Overdracht dossier tussen confraters | `kantoor-organisatie#communicatie-met-stakeholders` (voorganger ↔ opvolger) + `beroepsgeheim` (overdrachts-discipline) | ✅ |
+| 2008-bibf-vrK1 | Onafhankelijkheid: bestuursmandaat + boekhouder zelfde NV | `onafhankelijkheid` (shared) + `gecertificeerd-accountant#onverenigbaarheden` | ✅ |
+| 2008-bibf-vrK4 | Schorsing 3 maand + lidgeld/verzekering/PV-naleving | `tuchtprocedure-itaa#sancties` + `permanente-vorming` + `beroepsaansprakelijkheid#verzekering` | ✅ |
+| 2008-bibf-vrK5 | Boekhoudvennootschap: doelomschrijving/zaakvoerder/aandelen/stagiair | `gecertificeerd-accountant#stagiair-statuut` + cross `ondernemingsvormen` (zaakvoerder/aandelen) + `itaa-beroepsorganisatie` | ✅ |
+| 2013-1-vr33 | AWW compliance officer / witwasverantwoordelijke | `antiwitwaspreventie#intern-beleid-en-procedures` (risk officer) | ✅ |
+| 2024-1-vr6 | Erelonen + AWW-contantengrens (2.500/3.000) | `antiwitwaspreventie#cliëntenonderzoek` (contantgeldgrens als KYC-trigger) | ✅ |
+
+Alle 6 vragen passen door de tree. **Belangrijke bevestigingen**: (a) AML-bundeling werkt — 2 testvragen (vr33 + vr6) raken verschillende sub-secties van `antiwitwaspreventie` zonder forceren; (b) `gecertificeerd-accountant` als nieuw record bewijst zijn nut (vr K1 onverenigbaarheden + vr K5 stagiair-statuut); (c) shared records (`onafhankelijkheid` + `kwaliteitsmanagement-opdracht`) leveren cross-cluster-coverage zonder duplicatie; (d) `beroepsaansprakelijkheid`-rename (van `aansprakelijkheid-accountant-revisor`) houdt stand (verzekering-aspect in vr K4).
+
 ---
 
 ### Controle-opdracht-cluster
@@ -1253,3 +1434,7 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | `vof-commv-rechtsvorm` **splitsen** in `vennootschap-onder-firma` (VOF) + `commanditaire-vennootschap` (CommV) — 2 verschillende fenomenen onder 1 oude record-naam | Behoud `vof-commv` als 1 record (volgt WVV-boek-4 dat beide samen behandelt) | User-keuze 2026-05-26 + rationale-log 2026-05-24 `en`-smell-pattern: VOF heeft alleen volle aansprakelijkheid; CommV heeft 2 vennoten-typen met verschillende aansprakelijkheidsregimes (gecommanditeerden vol + commandités beperkt). Gedeelde context (personenvennootschap) blijft via `ondernemingsvormen`-vergelijkingsmatrix; sub-secties per vorm zouden inconsistent zijn met BV/NV/CV-aparte-records-patroon. | Analoog: andere `en`-namen bij vorm/categorisering opnieuw bekijken bij mapping-fase. Voor PO 3.0 nog: `aansprakelijkheid-oprichters-bestuurders` — zit dit goed als 1 record of moeten oprichters + bestuurders apart (verschillende personen, verschillende aansprakelijkheidsregimes)? Te beslissen bij `bestuur-en-aansprakelijkheid`-cluster. |
 | 2026-05-26 | `keuze-rechtsvorm-fiscaal` schrappen als eigen record; wordt **perspectief** `advies` + `fiscaal-VenB/PB` op `ondernemingsvormen`-Σ-record | Behoud `keuze-rechtsvorm-fiscaal` als eigen record (fiscale keuze ≠ juridische keuze) | User-observatie 2026-05-26: "zijn dat niet net twee verschillende perspectieven over dezelfde concepten?" — ja. Fenomeen = vormkeuze; perspectieven = juridisch (record-inhoud) + fiscaal (perspectief). Aparte records voor "juridische versie" + "fiscale versie" van zelfde keuze = duplicatie. Dit is precies wat `accountant_perspectieven[]` doet — zelfde fenomeen, andere werk-as. | **Algemeen principe formaliseren**: 2 perspectieven op zelfde fenomeen ≠ 2 records. Alleen apart record als 2 verschillende fenomenen of substantieel-andere kennisbron. Smell: "X-fiscaal" / "X-juridisch" / "X-boekhoudkundig" record-namen = perspectief-vermomming-smell. Toekomst: scan op deze namen tijdens mapping-fase. |
 | 2026-05-26 | Initiële inbreng = **sub-sectie van `oprichting-vennootschap`**, geen aparte Gebeurtenis-record | Eigen Gebeurtenis-record `initiele-inbreng` als pendant van `kapitaalverhoging` (= latere inbreng) | User-vraag 2026-05-26: "misschien gebeurtenis opsplitsen in oprichting en initiële inbreng?". Praktisch: gelijktijdig (initiële inbreng vóór notariële akte als bewijs van volstorting). Geen aparte vragen rond elk — initiële inbreng is sub-thema van oprichting. Geen symmetrie met `kapitaalverhoging` (=latere fase met eigen context). Volgt rationale-log 2026-05-23 `pro-rata-toerekening`-pattern: sub-aspect ≠ eigen record. | Sub-sectie `#initiele-inbreng` in `oprichting-vennootschap` (kapitaalstructuur-cluster): modaliteiten (geld/natura/arbeid voor CV) · revisorverslag bij natura · min-storting bij authentieke akte (BV/NV) · volstortings-eisen · cross-relatie naar `kapitaalverhoging-in-natura` (analoge mechaniek). Mapping-actie. |
+| 2026-05-26 | `-accountant`-suffix als naam-smell (analoog aan `-cluster`/`-rechtsvorm`/`-ic`/`-fiscaal`). Hernoemd: `deontologie-accountant` → `deontologie`, `beroepsgeheim-accountant` → `beroepsgeheim`, `permanente-vorming-accountant` → `permanente-vorming`, `kantoor-organisatie-accountant` → `kantoor-organisatie`. `aansprakelijkheid-accountant-revisor` → `beroepsaansprakelijkheid` (compacter, dekt beide beroepen). `antiwitwas-verplichtingen-accountant` → `antiwitwaspreventie` (compacter). | Behoud `-accountant`-suffixen als beroep-marker | Cluster `beroepsbeoefening` zegt al expliciet dat alle records over de beroepsbeoefenaar gaan — suffix is redundant. Voor `aansprakelijkheid-accountant-revisor` was de suffix dubbel-info maar onhandig lang; samenstelling `beroepsaansprakelijkheid` dekt beide beroepen en is conform `boekhoudaansprakelijkheid`/`fiscale-aansprakelijkheid`-patronen die elders kunnen ontstaan. User-keuze 2026-05-26: "OP-BB.A ja, opruimen". | Naam-smell-scan voor mapping-fase uitgebreid: suffixen `-cluster` · `-rechtsvorm` · `-ic` · `-fiscaal` · `-accountant` · `-aww` (= afkorting-suffix, schendt regel 8 CLAUDE.md). Algemene regel: suffix die schema-categorie / cluster-context / beroeps-marker dupliceert = smell. |
+| 2026-05-26 | AML als **1 overkoepelend record** `antiwitwaspreventie` met 5 sub-secties (cliëntenonderzoek · ubo-register · risicogebaseerde-benadering · melding-cfi · intern-beleid) | 5 aparte records (huidige situatie: clientenonderzoek-aww + ubo-register + risicogebaseerde-benadering-aww + melding-verdachte-transactie-cfi + antiwitwas-verplichtingen-accountant) | Anti-preventieve-versnippering-principe (rationale-log 2026-05-26). User-keuze "OP-BB.B aml : beginnen met één record". AML-regime is één coherent wettelijk kader (AML-wet 18-09-2017) met deelverplichtingen — geen aparte alternatieven (≠ Σ). Sub-secties kunnen later splitsen indien een aspect didactisch te zwaar wordt. Plus: `-aww`-suffix-smell (afkorting) op 3 records weggewerkt door bundeling. | Pattern: andere wettelijke regimes met meerdere verplichtingen-blokken kunnen analoog bundelen (bv. `bezwaarprocedure-fiscaal` met sub-secties bezwaar/beroep/cassatie ipv aparte records). |
+| 2026-05-26 | `gecertificeerd-accountant` als **nieuw E-actor-record** voor het beroep zelf (statuut · toelatingsvereisten · monopolieopdrachten · stagiair-regime · onverenigbaarheden) | Beroepsinfo verdelen tussen `itaa-beroepsorganisatie` + `deontologie` zonder centrale actor-record | User-keuze "OP-BB.C gecertificeerd-accountant, ja steek hem er maar thuis". Analoog aan `commissaris`-E-record (bijzondere hoedanigheid) — `gecertificeerd-accountant` is de generieke variant. Test-case-validatie bevestigt: 2 van 6 testvragen (K1 onverenigbaarheden + K5 stagiair) raken specifiek deze record-inhoud, die nergens anders thuishoort. | Pattern: actor-records voor gereglementeerde beroepen (`bedrijfsrevisor` ⏳ als parallel + cross-relatie, eventueel `belastingadviseur` ⏳, ...) volgen zelfde patroon — eigen statuut + verplichtingen. |
+| 2026-05-26 | `kantoor-organisatie` als overkoepelend record **absorbeert** `communicatie-met-stakeholders` + `digitalisering-accountantskantoor` als sub-secties | 3 aparte records voor 4.0.taak.2 + 4.0.taak.4 + 4.0.taak.5 | User-keuze "OP-BB.D kantoor-organisatie -> probeer maar te combineren". 3 thema's hangen samen rond "hoe runt het kantoor zijn praktijk?" — team-coördinatie + stakeholder-communicatie + digitale werkomgeving zijn 3 perspectieven op zelfde fenomeen (kantoor-praktijk). Anti-versnippering. `digitalisering`-sub-sectie kan later splitsen indien cyber/AVG/digitale-archief substantieel groeit. | `businessmodel-en-strategie-inzicht-accountant` daarentegen verhuist cross naar `bedrijfseconomie-en-management`-discipline — dat is geen kantoor-praktijk-thema maar een meta-competentie (4.0.taak.6) die elders thuishoort. |
