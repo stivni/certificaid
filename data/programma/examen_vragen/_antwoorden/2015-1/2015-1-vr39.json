@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr39",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** — het is een **niet-overbrenging** van eigen goederen (tijdelijk gebruik in Frankrijk met terugkeer naar België). Er moet **geen overbrengingsstuk** worden opgemaakt, maar de belastingplichtige moet de goederen wél **inschrijven in het register der niet-overbrengingen** bij vertrek en uitschrijven bij terugkeer. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Stap 1 — kwalificatie van de verplaatsing. Art. 12bis WBTW stelt het verzenden of vervoeren door een belastingplichtige van een goed van zijn bedrijf naar een andere lidstaat in principe gelijk met een levering onder bezwarende titel (een **overbrenging**), die als intracommunautaire levering moet worden behandeld. 📖 Art. 12bis lid 2 somt echter een aantal uitzonderingen op waarbij de verplaatsing **niet** als overbrenging geldt — onder meer het **tijdelijk gebruik** van het goed in de andere lidstaat ten behoeve van een dienst die door de belastingplichtige wordt verricht, op voorwaarde dat het goed nadien naar België terugkeert. 📖 De maandelijkse trip met laptop, gsm en leasewagen voor twee dagen boekhoudwerk in Parijs valt daaronder: de goederen worden tijdelijk gebruikt voor een dienst en keren telkens terug. 🔗\n\nStap 2 — formaliteit. Omdat het geen overbrenging is, is er **geen** intracommunautaire levering en dus geen overbrengingsstuk (factuur aan zichzelf) en geen opname in de IC-opgave. 🔗 Wél verplicht art. 23 § 1 KB nr. 1 voor élke niet-overbrenging een inschrijving in een afzonderlijk **register der niet-overbrengingen**: opgenomen bij vertrek uit België, uitgeschreven bij terugkeer. 📖\n\nPer optie:\n- **a** — FOUT. Er is geen overbrenging en geen factuur aan het filiaal (er is bovendien geen levering tussen twee entiteiten — het Parijse filiaal is geen aparte belastingplichtige). 🔗\n- **b** — FOUT. Geen overbrengingsstuk: dit is precies de uitzondering van art. 12bis. 🔗\n- **c** — JUIST. Niet-overbrenging + registerplicht conform art. 23 KB nr. 1. 🔗\n- **d** — FOUT. De kwalificatie \"niet-overbrenging\" klopt, maar er bestaat **geen algemene administratieve tolerantie** die de registerverplichting voor auto's, computers en gsm's opheft — de inschrijvingsplicht blijft gelden. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "\"Niet-overbrenging\" betekent **geen IC-levering**, maar **niet geen formaliteit**. De registerplicht (art. 23 KB nr. 1) blijft de enige tastbare controlevoetafdruk die de fiscus heeft om te verifiëren dat de goederen daadwerkelijk terugkeren — vergeten in te schrijven kan de niet-overbrenging-kwalificatie in gevaar brengen en de verplaatsing alsnog herkwalificeren als belastbare overbrenging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 12bis WBTW** — overbrenging van een bedrijfsgoed naar een andere lidstaat is gelijkgesteld met een levering onder bezwarende titel, **behalve** in de limitatief opgesomde uitzonderingen, waaronder het tijdelijk gebruik van het goed in de andere lidstaat voor een door de belastingplichtige verrichte dienst. 📖 **Art. 23 § 1 KB nr. 1 van 29 december 1992** — elke belastingplichtige moet een **register houden** waarin hij de goederen optekent die door hem of voor zijn rekening voor bedrijfsdoeleinden naar een andere lidstaat worden verzonden of vervoerd in het kader van een niet-overbrenging (o.a. tijdelijk gebruik en expertisewerken). 📖",
+          "wetsref": "Art. 12bis WBTW; Art. 23 § 1 KB nr. 1 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

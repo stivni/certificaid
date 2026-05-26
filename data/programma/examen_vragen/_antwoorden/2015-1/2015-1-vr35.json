@@ -1,0 +1,65 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr35",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA** — BVBA ABC kan aanspraak maken op het verminderd basistarief. De totale bezoldiging van de enige bedrijfsleider (in de zin van de minimum-bezoldigingstest, AJ 2014) bedraagt **37.270,83 EUR** en overschrijdt dus de drempel van 36.000,00 EUR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "**Berekening van de in aanmerking te nemen bedrijfsleidersbezoldiging (AJ 2014)**\n\n| Component | Bedrag (EUR) | Toelichting |\n|---|---:|---|\n| Periodieke bezoldiging 2013 | 24.000,00 | Cash bezoldiging — art. 32, eerste lid, WIB92. 📖 |\n| Tantième (AV 13/04/2014, t.l.v. boekjaar 2013) | 10.000,00 | Tantième wordt voor de vennootschap fiscaal toegerekend aan het boekjaar waarop hij betrekking heeft (art. 195, §1, tweede lid WIB92) en telt dus mee voor de bezoldigingstest van datzelfde belastbaar tijdperk. 🔗 |\n| Herkwalificatie huur privé-villa (zie berekening hieronder) | 3.270,83 | Deel huur > 5/3 × KI gerevaloriseerd wordt herkwalificeerd als bezoldiging (art. 32, tweede lid, 3° WIB92). 📖 |\n| Voordeel alle aard wagen (2.852,40 EUR), via R/C aangerekend | 0,00 | Geboekt op rekening-courant en gecrediteerd op opbrengstrekening — het VAA is daardoor effectief terugbetaald door de bedrijfsleider en vormt geen bezoldiging meer. 🔗 |\n| **Totaal bezoldiging in de zin van art. 215, derde lid, 4° WIB92** | **37.270,83** | ≥ 36.000,00 EUR → bezoldigingstest **voldaan**. 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Herkwalificatie huur — detail (art. 32, tweede lid, 3° + art. 13 WIB92)**\n\n- Brutohuur betaald door BVBA: 2.000 EUR/maand × 12 = **24.000,00 EUR**. 🔗\n- Onverdeeldheid 50/50 → aandeel zaakvoerder in de huur: 24.000 × 50% = **12.000,00 EUR**. 🔗\n- Aandeel zaakvoerder in KI: 2.500 × 50% = **1.250,00**. 🔗\n- Revalorisatiecoëfficiënt AJ 2014: **4,19** (vastgesteld door K.B., art. 13 WIB92). 📖\n- Drempel = 5/3 × 1.250 × 4,19 = **8.729,17 EUR**. 🔗\n- Herkwalificatie als bezoldiging: 12.000,00 − 8.729,17 = **3.270,83 EUR**. 🔗\n- Het saldo (8.729,17 EUR) blijft onroerend inkomen van de zaakvoerder. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Commentaar bij de bouwstenen van de test (oude art. 215, derde lid, 4° WIB92, versie AJ 2014)**\n\nEen vennootschap die haar belastbaar resultaat boven 36.000 EUR ziet uitstijgen, kan het verlaagd opklimmend tarief alleen behouden indien zij aan **ten minste één** van haar bedrijfsleiders-natuurlijke-personen een bezoldiging toekent die **ten minste 36.000 EUR** bedraagt (vóór de hervorming van 2018; sinds AJ 2019 is dat 45.000 EUR). 📖\n\n- **Tantième**: hoewel het tantième pas op de AV van 13/04/2014 wordt toegekend en bij de bedrijfsleider in zijn aangifte PB inkomstenjaar 2014 valt, wordt het voor de vennootschap fiscaal als kost van boekjaar 2013 in aanmerking genomen (art. 195, §1, tweede lid WIB92). Het telt bijgevolg mee voor de bezoldigingstest van AJ 2014. 🔗\n- **Intrest op de lening (4.000 EUR)**: betreft een vergoeding voor het kapitaal, géén bezoldiging in de zin van art. 32 WIB92. Telt **niet** mee voor de test. De marktconforme rente (4%) voorkomt overigens een herkwalificatie tot dividend (art. 18, eerste lid, 4° WIB92). 🔗\n- **Huurherkwalificatie**: het deel van de huur boven de drempel `5/3 × KI gerevaloriseerd` wordt fiscaal **bezoldiging van bedrijfsleider** (art. 32, tweede lid, 3° WIB92) en mag worden meegerekend voor de minimum-bezoldigingstest. 🔗\n- **VAA wagen via R/C**: door het VAA te boeken op `416 R/C Bedrijfsleider` aan `743/451` heeft de vennootschap het voordeel effectief teruggevorderd. Er is geen netto-voordeel meer voor de bedrijfsleider, dus geen bezoldiging die meetelt. Wél: de R/C-vordering die hierdoor ontstaat wordt geacht een geldlening te zijn die geen rente draagt → er ontstaat een **nieuw** VAA wegens kosteloze lening (art. 36 WIB92 + art. 18 KB/WIB92), maar dat valt buiten de bezoldigingsbasis van deze test. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Valkuil 1 — VAA via R/C meetellen als bezoldiging.** De forfaitaire 2.852,40 EUR lijkt op het eerste zicht een bezoldiging, maar zodra het bedrag wordt geneutraliseerd via de rekening-courant en gecrediteerd op een opbrengstrekening (`743`), is het géén belastbaar voordeel meer in hoofde van de bedrijfsleider en mag het ook niet als bezoldiging in de minimum-test worden geteld. ❓\n\n**Valkuil 2 — Tantième volledig uitsluiten omdat het pas in 2014 wordt toegekend.** Voor de **bedrijfsleider** is het tantième inderdaad belastbaar in PB-inkomstenjaar 2014, maar voor de **vennootschap** (en dus voor de bezoldigingstest van art. 215 WIB92) wordt het toegerekend aan boekjaar 2013 (art. 195, §1, tweede lid WIB92 — matching). Wie dit vergeet, komt op slechts 24.000 + 3.270,83 = 27.270,83 EUR en concludeert verkeerdelijk dat de test **niet** voldaan is. 🔗\n\n**Valkuil 3 — KI gewoon × 5/3 zonder revalorisatie.** De drempel is `5/3 × KI **gerevaloriseerd**` (art. 32 jo. art. 13 WIB92). Vergeet je de revalorisatiecoëfficiënt (4,19 voor AJ 2014), dan onderschat je de drempel sterk en overschat je de herkwalificatie. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijke grondslag (versie AJ 2014):**\n\n- **Art. 215, tweede en derde lid WIB92** (oude versie vóór W. 25/12/2017): verlaagd opklimmend tarief (24,25 % / 31 % / 34,5 %) voor KMO-vennootschappen, met uitsluitingsvoorwaarden waaronder de **bezoldigingstest** in 4°: ten minste één bedrijfsleider-natuurlijke-persoon moet een bezoldiging genieten van **ten minste 36.000 EUR** (of, indien lager, een bezoldiging gelijk aan het belastbaar resultaat). 📖\n- **Art. 32, eerste lid + tweede lid, 1° WIB92**: bezoldigingen van bedrijfsleiders omvatten o.m. periodieke bezoldigingen én **tantièmes**. 📖\n- **Art. 32, tweede lid, 3° WIB92** (huurherkwalificatie): huurprijs > 5/3 × KI gerevaloriseerd = bezoldiging bedrijfsleider. **Art. 13 WIB92** bepaalt de revalorisatiecoëfficiënt (4,19 voor AJ 2014). 📖\n- **Art. 195, §1, tweede lid WIB92**: tantièmes worden voor de vennootschap als kost gedragen door het boekjaar waarop ze betrekking hebben (matching) — relevant voor de inrekening in de bezoldigingstest van datzelfde belastbaar tijdperk. 📖\n- **Art. 18, eerste lid, 4° WIB92**: geldlening van bedrijfsleider aan de vennootschap → geen herkwalificatie tot dividend zolang rente marktconform en lening niet bovenmatig (hier: 4 % is marktconform → blijft intrest). 📖",
+          "wetsref": "Art. 215, 32, 13, 195 §1, 18 WIB92 (versie AJ 2014)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

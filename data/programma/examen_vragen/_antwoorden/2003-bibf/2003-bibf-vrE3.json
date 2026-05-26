@@ -1,0 +1,177 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE3",
+  "antwoord_datum": "2026-05-26T16:28:20Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA — BTW verschuldigd: 17,36 EUR.** De volledige afschrijving van het goed verandert niets aan de BTW-plicht bij verkoop. Formule: 100,00 × 21/121 = **17,36 EUR** (de 100 EUR is de door de koper betaalde prijs, dus inclusief BTW). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De verkoop in België van een roerend bedrijfsgoed door een BTW-belastingplichtige met recht op aftrek is een belastbare levering onder bezwarende titel (art. 2 + art. 9-10 WBTW). 🔗 Of het goed boekhoudkundig al volledig is afgeschreven, is voor de BTW irrelevant — wat telt is de werkelijk aangerekende vergoeding. 🔗 De maatstaf van heffing is de tegenprestatie ontvangen van de koper (art. 26 WBTW). Aangezien de prijs van 100,00 EUR die de koper betaalt **inclusief** BTW is, wordt de BTW eruit gerekend met de factor 21/121. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **onttrekking** (art. 12 WBTW) of met overdracht onder de tweedehands-regeling (art. 58, § 4): hier is sprake van een gewone verkoop tegen een vergoeding, dus de gewone maatstaf van heffing geldt. Ook geen herziening van de oorspronkelijke aftrek nodig: het bedrijfsmiddel verlaat de onderneming via een belastbare handeling met recht op aftrek. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2 + art. 26 WBTW: levering van goederen onder bezwarende titel in België door een belastingplichtige is belastbaar; maatstaf van heffing = alles wat de leverancier als tegenprestatie verkrijgt. Tarief 21% (KB nr. 20). 📖",
+          "wetsref": "art. 2, art. 26 WBTW; KB nr. 20",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA — BTW verschuldigd: 260,33 EUR.** Het privatieve gebruik van een bedrijfsauto door een personeelslid is een met een dienst onder bezwarende titel gelijkgestelde handeling. Formule: 1.500,00 × 21/121 = **260,33 EUR** (het VAA wordt als bedrag inclusief BTW behandeld). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het gebruik van een bedrijfsgoed voor privédoeleinden van het personeel = dienst gelijkgesteld met een dienst onder bezwarende titel (art. 19, § 1 WBTW; art. 75 BTW-richtlijn). 🔗 De maatstaf van heffing is in beginsel \"het bedrag van de door de belastingplichtige gemaakte kosten\". 📖 In de Belgische praktijk (admin. besl. ET, BIBF-traditie 2003) wordt voor het privégebruik van een firmawagen door personeel de BTW berekend op de forfaitaire VAA-grondslag, beschouwd als bedrag inclusief BTW → 1.500 × 21/121 ≈ 260,33 EUR. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De BTW-regels voor privégebruik van firmawagens zijn na 2011 grondig herzien (Beslissing ET 119.650 + opvolgers): sindsdien werkt men met semi-forfaits (4-rittenmethode, 35%-forfait) op de werkelijke autokosten i.p.v. op het DB-VAA. Voor het examen van 2003 geldt nog de oude koppeling tussen BTW-maatstaf en het VAA — voor de actuele praktijk: BTW = privégebruiks-% × niet-aftrekbaar deel van de werkelijke autokosten. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 19, § 1 WBTW (handeling gelijkgesteld met dienst onder bezwarende titel) en art. 33, § 1, 2° WBTW jo. art. 75 Richtlijn 2006/112/EG (maatstaf = gemaakte kosten). 📖 Belgische administratieve invulling 2003: VAA inclusief BTW → factor 21/121. 🤖",
+          "wetsref": "art. 19 § 1, art. 33 § 1, 2° WBTW; art. 75 Richtlijn 2006/112/EG",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JA — BTW verschuldigd via herziening: 42,00 EUR.** Bij overschakeling van het normale BTW-regime naar de vrijstellingsregeling (\"franchise\", art. 56bis WBTW) moet de aftrek op de nog bestaande bedrijfsmiddelen herzien worden. Formule: 105 × 2/5 = **42,00 EUR** (oorspronkelijk afgetrokken BTW × het nog niet-verstreken aantal jaren binnen de 5-jarige herzieningstermijn). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "- Aanschaf bedrijfsmiddel: 2000 → oorspronkelijke aftrek: 500 × 21% = **105,00 EUR**. 🔗\n- Herzieningstermijn voor roerende bedrijfsmiddelen: **5 jaar** (jaar van ingebruikname + 4 volgende jaren) — art. 9 KB nr. 3. 📖\n- Tijdvak: 2000–2004. Overschakeling franchise in 2003 = **2 jaar nog te lopen** (2003 en 2004 — het jaar van wijziging telt mee aan de nieuwe regime-zijde). 🔗\n- Terug te storten BTW = 105 × 2/5 = **42,00 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Twee voorvragen die het antwoord kunnen kantelen: (1) is bureaumateriaal van 500 EUR wel een **bedrijfsmiddel** in BTW-zin? Ja — de drempel voor klein materieel ligt onder 250 EUR (excl.), 500 EUR > 250 EUR. (2) Begint de herzieningsperiode te lopen vanaf het jaar van ingebruikname of vanaf 1 januari daarop? Voor roerende bedrijfsmiddelen: jaar van ingebruikname zelf telt als jaar 1. 🔗 Onroerende bedrijfsmiddelen: 15 jaar (vroeger 10) — hier niet van toepassing. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 48, § 2 WBTW + art. 9 en 10 KB nr. 3 (herziening aftrek bedrijfsmiddelen, 5-jarige termijn). 📖 Art. 4 KB nr. 19 (overgang naar vrijstellingsregeling = gelijkgesteld met verlies van hoedanigheid van belastingplichtige → herziening verplicht voor nog bestaande bedrijfsmiddelen). 📖",
+          "wetsref": "art. 48 § 2 WBTW; art. 9-10 KB nr. 3; art. 4 KB nr. 19",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**NEEN — geen Belgische BTW verschuldigd.** Het betreft een **intracommunautaire levering** vrijgesteld op grond van art. 39bis WBTW: levering aan een in Duitsland voor BTW geïdentificeerde belastingplichtige (de detailhandelaar), met vervoer vanuit België naar Duitsland. De Duitse afnemer doet zelf de intracommunautaire verwerving aangeven in Duitsland (verlegging van heffing). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voorwaarden art. 39bis WBTW — alle vervuld in de hypothese:\n\n- levering door een belastingplichtige in België → OK. 🔗\n- goederen worden verzonden of vervoerd naar een andere lidstaat (Duitsland) → OK (\"levering in Duitsland\"). 🔗\n- afnemer is een in Duitsland voor BTW geïdentificeerde belastingplichtige (de detailhandelaar) → OK. 🔗\n\n→ Belgische verkoper factureert **zonder BTW** met de vermelding \"Vrijstelling van BTW — art. 39bis WBTW — intracommunautaire levering\" + vermelding van de Duitse BTW-identificatienummer van de klant. 🔗 De levering moet wel worden opgenomen in de **intracommunautaire opgave** (listing IC). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Twee veelgemaakte fouten: (1) verwarring met **afstandsverkopen** (verkoop aan particulieren in een andere lidstaat — daar geldt sinds 2021 één EU-drempel van 10.000 EUR met OSS-regeling; hier niet van toepassing want afnemer is B2B). (2) Vergeten de geldigheid van het Duitse BTW-nummer te **verifiëren via VIES** én een sluitend **transport-bewijs** te bewaren — zonder die twee elementen riskeert men dat de vrijstelling van art. 39bis wordt verworpen bij controle. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 39bis, 1° WBTW: vrijstelling voor leveringen van goederen verzonden of vervoerd buiten België maar binnen de Gemeenschap, voor een afnemer die in een andere lidstaat voor BTW is geïdentificeerd en zijn BTW-nummer aan de leverancier heeft meegedeeld. 📖",
+          "wetsref": "art. 39bis, 1° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

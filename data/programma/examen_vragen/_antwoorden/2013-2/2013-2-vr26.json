@@ -1,0 +1,154 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr26",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen, geen herziening op het gebouw zelf.** De belastingplichtige is huurder, niet eigenaar — hij heeft nooit btw afgetrokken op de oprichting/verkrijging van het gebouw, dus er is geen oorspronkelijke aftrek om te herzien. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een herziening op grond van art. 10 KB nr. 3 veronderstelt dat de belastingplichtige zelf btw heeft betaald én in aftrek heeft gebracht op een onroerend bedrijfsmiddel (verkrijging, oprichting, zakelijk recht). 📖 Bij huur is dat niet het geval: de huur is doorgaans vrijgesteld van btw (art. 44 §3, 2° WBTW) en de huurder bezit geen onroerend bedrijfsmiddel waarvan een aftrek-herzieningstermijn loopt. 🔗 De stopzetting raakt het gebouw dus niet — enkel de werken die de huurder zelf aan het gebouw heeft uitgevoerd, vallen onder de herzieningsregeling (zie deelvraag b).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 48 §2 WBTW + art. 9-10 KB nr. 3 van 10.12.1969: de herzieningstermijn voor onroerende bedrijfsmiddelen bedraagt 15 jaar te rekenen vanaf 1 januari van het jaar van ingebruikneming, maar geldt enkel voor btw geheven van de verkrijging of oprichting door de belastingplichtige zelf. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja, herziening verschuldigd: 134,40 EUR terug te storten aan de Schatkist.** De verbeteringswerken (2.000 EUR × 21% = 420 EUR btw, waarvan 40% beroep = **168 EUR oorspronkelijke aftrek**) zijn onroerend bedrijfsmiddel met 15-jaar herzieningstermijn. Bij stopzetting eind 2013 zijn 12 van de 15 jaren nog niet verlopen → herziening = 168 × 12/15 = **134,40 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — oorspronkelijke aftrek (2011)**: 2.000 EUR × 21% = 420 EUR btw; beroepsgebruik 40% → aftrek = 420 × 40% = **168 EUR**. 🔗\n\n**Stap 2 — kwalificatie + termijn**: verbeteringswerken aan een gebouw worden voor de herzieningsregeling gelijkgesteld met een onroerend bedrijfsmiddel → herzieningstermijn **15 jaar** (art. 9 §2 KB nr. 3), te rekenen vanaf 01.01.2011. 📖\n\n**Stap 3 — verlopen vs. niet-verlopen jaren bij stopzetting 30.11.2013**: jaren 2011, 2012 en 2013 zijn beschouwd als verlopen (3 jaren); blijven **12 jaren** nog te lopen (2014 t.e.m. 2025). 🔗\n\n**Stap 4 — herziening (eenmalig, in één keer voor de resterende jaren — art. 11 §1 KB nr. 3)**: 168 × 12/15 = **134,40 EUR** terug te storten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het jaar van ingebruikneming telt mee als verlopen jaar — niet als 'jaar 0'. Vandaar 2011-2012-2013 = drie verlopen jaren, niet twee. 🔗 De stopzetting van de activiteit is een 'wijziging in de factoren' (art. 10 §1, 2° KB nr. 3) die de herziening in eenmaal voor het resterende tijdvak doet plaatsvinden (art. 11 §1, tweede lid jo. §3). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 48 §2 WBTW (herzieningstermijn 5 jaar roerend / 15 jaar onroerend); art. 9 §2 KB nr. 3 (verbeteringswerken aan onroerend goed = onroerend bedrijfsmiddel, 15 jaar); art. 10 §1, 2° en art. 11 §1 KB nr. 3 (eenmalige herziening voor de nog niet verlopen jaren bij stopzetting van de economische activiteit). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen, geen herziening — wél onttrekking.** Handelsgoederen zijn géén bedrijfsmiddel en vallen niet onder de herzieningsregeling van art. 9-11 KB nr. 3. Bij stopzetting worden ze als 'onttrokken' beschouwd (art. 12 §1, 5° WBTW): btw verschuldigd op de normale waarde = 200 × 21% = **42,00 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De herzieningsregeling geldt enkel voor **bedrijfsmiddelen** (duurzame productiemiddelen) — niet voor voorraad bestemd voor doorverkoop. 🔗 Voor de voorraad voorziet art. 12 §1, 5° WBTW een autonome regeling: 'het onder zich houden van een goed door een belastingplichtige bij het stopzetten van zijn economische activiteit, wanneer voor dat goed recht op aftrek is ontstaan' wordt gelijkgesteld met een levering onder bezwarende titel. 📖 De maatstaf van heffing is de aankoopprijs of, bij gebrek daaraan, de normale waarde op het tijdstip van de onttrekking (art. 33 §1, 1° WBTW). 🔗 Voor courante handelsgoederen aangekocht in de 14 maanden vóór stopzetting blijft de aankoopprijs een redelijke proxy voor de normale waarde → 200 EUR × 21% = **42,00 EUR** verschuldigd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met herziening: bij voorraad spreekt men van 'onttrekking' (art. 12 WBTW), bij investeringsgoederen van 'herziening' (art. 48 WBTW + KB nr. 3). De economische impact is vergelijkbaar (btw moet terug), maar het juridische mechanisme én de berekeningsbasis verschillen. 🔗 Verder: hoewel het gebouw 40/60 wordt gebruikt, geldt die verhouding **niet** voor de handelsgoederen — die zijn 100% bestemd voor de economische activiteit (doorverkoop), dus 100% van de btw was aftrekbaar en moet ook 100% worden 'teruggedraaid' via de onttrekking. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 12 §1, 5° WBTW (gelijkstelling met levering onder bezwarende titel bij stopzetting voor goederen waarop recht op aftrek is ontstaan); art. 33 §1, 1° WBTW (maatstaf van heffing = aankoopprijs of normale waarde op tijdstip onttrekking). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW.md"]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen, geen herziening: de 5-jaar herzieningstermijn is verlopen.** De diepvrieskasten zijn een roerend bedrijfsmiddel uit 1998 — de herzieningstermijn liep van 01.01.1998 t.e.m. 31.12.2002 en is dus al meer dan 10 jaar voorbij op het ogenblik van de stopzetting (30.11.2013). 🔗 Wel onttrekking ex art. 12 §1, 5° WBTW op de normale (tweedehands-)waarde op datum van stopzetting (bij vrijwel afgeschreven 15-jaar oude diepvrieskasten in de praktijk een symbolisch bedrag). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor roerende bedrijfsmiddelen bedraagt de herzieningstermijn 5 jaar (art. 48 §2 WBTW + art. 9 §1 KB nr. 3), te rekenen vanaf 1 januari van het jaar van ingebruikneming. 📖 Bij aankoop in 1998: termijn 1998-2002 → volledig verlopen tegen 2013. Een wijziging in de factoren (zoals stopzetting) buiten het herzieningstijdvak geeft geen aanleiding tot herziening — de oorspronkelijke aftrek (300 × 2 × 19% = 114 EUR, 100% beroep) blijft definitief verworven. 🔗\n\nWel blijft art. 12 §1, 5° WBTW van toepassing: het 'onder zich houden' bij stopzetting van goederen waarop aftrek is uitgeoefend wordt gelijkgesteld met een levering. 📖 Maatstaf van heffing = normale waarde **op tijdstip van de onttrekking** (art. 33 §1, 1° WBTW) — voor afgeschreven 15-jaar oude tweedehands-toestellen is dat de geringe restwaarde, niet de oorspronkelijke aankoopprijs. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verleidelijk om '300 × 2 × 19% = 114 EUR' als herziening te boeken — dat is fout. Eerst checken of de herzieningstermijn nog loopt: roerend = 5 jaar, onroerend = 15 jaar (of 25 jaar voor verhuur onder bepaalde regelingen sinds 2019). 🔗 Pas dan de breuk 'niet-verlopen jaren / totale termijn' toepassen. Buiten het tijdvak: géén herziening, enkel mogelijk een onttrekking ex art. 12 op de huidige (tweedehands-)waarde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 48 §2 eerste lid WBTW + art. 9 §1 KB nr. 3 (herzieningstermijn 5 jaar voor roerende bedrijfsmiddelen, vanaf 01.01 van het jaar van ingebruikneming); art. 12 §1, 5° WBTW (onttrekking bij stopzetting); art. 33 §1, 1° WBTW (maatstaf = normale waarde op het tijdstip van de onttrekking). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

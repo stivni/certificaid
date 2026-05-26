@@ -1,0 +1,136 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr26",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Verkoop op 01.05.2016 valt **buiten de \"nieuw\"-periode** (verstreken 31.12.2014) → verplicht vrijgestelde levering van een oud gebouw → A moet de oorspronkelijk afgetrokken btw **herzien in het voordeel van de Staat voor de nog niet verlopen jaren**: 105.000 € × 11/15 = **€ 77.000 terug te storten**. De grondprijs (70.000 €) blijft buiten btw. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — oorspronkelijke aftrek**: A is handelaar in computers (volledige btw-plichtige met recht op aftrek). Btw op oprichting: (250.000 + 250.000) × 21 % = **105.000 €**, volledig afgetrokken in 2011-2012. 🔗\n\n**Stap 2 — kwalificatie verkoop**: gebouw is \"nieuw\" voor btw t.e.m. 31 december van het tweede jaar na eerste ingebruikname → ingebruikname 01.07.2012 → \"nieuw\" tot **31.12.2014**. Verkoop 01.05.2016 = **oud gebouw** → verplicht vrijgesteld (art. 44, § 3, 1° WBTW). 📖\n\n**Stap 3 — herziening**: onroerend bedrijfsmiddel = **15-jarige herzieningstermijn** vanaf 1.1.2012 (KB nr. 3, art. 9, § 2). Verlopen jaren op moment van verkoop: 2012-2013-2014-2015 = 4 jaar. **Nog te lopen: 11 jaar**. Vrijgestelde verkoop binnen de termijn = eenmalige herziening voor de resterende jaren (KB nr. 3, art. 10, § 1, 3° + art. 11, § 1). 🔗\n\n**Herziening = 105.000 € × 11/15 = € 77.000** terug te storten aan de Staat (op te nemen in rooster 61 van de btw-aangifte mei 2016). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Optie tot belaste verkoop (KB nr. 14) is **niet meer mogelijk** in 2016: die optie bestaat enkel zolang het gebouw nog \"nieuw\" is. Was A vóór 31.12.2014 verkocht, dan had hij kunnen kiezen voor btw-belaste levering (de koper B trekt dan de btw af) en geen herziening verschuldigd zijn. **Valkuil**: enkel het gebouw (450.000 €) zou met btw belast worden, niet de grondprijs (70.000 €) — die volgt het btw-regime van het gebouw alleen sinds 2011 voor *nieuwe* gebouwen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**WBTW art. 48, § 2** + **KB nr. 3 art. 9, § 2** (15-jarige herziening onroerende bedrijfsmiddelen); **KB nr. 3 art. 10, § 1, 3°** + **art. 11, § 1** (eenmalige herziening voor nog te lopen jaren bij niet-belastbare overdracht); **WBTW art. 44, § 3, 1°** (vrijstelling oude gebouwen); **WBTW art. 1, § 9** + **KB nr. 14** (begrip \"nieuw\" + optieregeling). 📖",
+          "wetsref": "WBTW art. 48 §2 + 44 §3 1°; KB nr. 3 art. 9-11; KB nr. 14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Initiële aftrek 2013 = **min(60 %, 50 %) × 6.300 € = € 3.150** (aftrekplafond art. 45, § 2 WBTW). Einde 2013 blijkt het werkelijk beroepsgebruik slechts 30 % → aftrek verlaagd naar **30 % × 6.300 € = € 1.890**. **Eerste herziening = € 1.260 terug te storten** in de btw-aangifte over Q4-2013 (of december 2013). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — aftrekplafond**: art. 45, § 2 WBTW begrenst de btw-aftrek op personenwagens tot **maximum 50 %**, ongeacht het werkelijke beroepsgebruik. Een geraamd beroepsgebruik van 60 % wordt dus altijd afgetopt op 50 %. 📖\n\n**Stap 2 — voorlopige aftrek (aankoopmoment 2013)**: voorlopig verhoudingsgetal op basis van de raming → 50 % × 6.300 € = **€ 3.150** in aftrek gebracht. 🔗\n\n**Stap 3 — eerste herziening (eind van het jaar van ingebruikname)**: aan de hand van het **definitief verhoudingsgetal** wordt de oorspronkelijke aftrek herzien (KB nr. 3, art. 16). Werkelijk beroepsgebruik = 30 %, blijft onder het 50 %-plafond → definitieve aftrek = 30 % × 6.300 € = **€ 1.890**. 🔗\n\n**Te storten = 3.150 € − 1.890 € = € 1.260**. Bij latere wijzigingen in het beroepsgebruik gedurende de 5-jarige herzieningstermijn (2013-2017) volgt telkens een nieuwe jaarlijkse herziening van 1/5. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Sinds 2011 (Beslissing E.T.119.650) geldt voor gemengd gebruikte personenwagens de **directe aftrekbeperking volgens beroepsgebruik** (begrensd op 50 %). De **gratis terbeschikkingstelling aan het personeelslid voor privégebruik** wordt **niet meer** belast als een dienst onder bezwarende titel (art. 19 WBTW), juist omdát de aftrek vooraf is beperkt tot het beroepsgebruik. **Niet verwarren** met de oude regeling waar 50 % volledig werd afgetrokken en het privégebruik nadien belast werd via art. 19, § 1. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**WBTW art. 45, § 2** (aftrekplafond 50 % personenwagens) + **art. 45, § 1quinquies** (aftrek volgens werkelijk beroepsgebruik); **KB nr. 3 art. 16** (eerste herziening met definitief verhoudingsgetal voor bedrijfsmiddelen); **KB nr. 3 art. 9, § 1** (5-jarige herzieningstermijn voor roerende bedrijfsmiddelen); **Beslissing E.T.119.650** (administratieve methode 1/2/3 voor bepaling beroepsgebruik). 📖",
+          "wetsref": "WBTW art. 45 §2 + §1quinquies; KB nr. 3 art. 9 §1 + art. 16; Beslissing E.T.119.650",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Verkoop in 2013 is een **belastbare levering** door een btw-plichtige. Door de aftrekbeperking van 50 % bij aankoop wordt de **maatstaf van heffing gehalveerd**: 8.000 € / 2 = 4.000 €. **Verschuldigde btw = 4.000 € × 21 % = € 840**. **Geen herziening** verschuldigd: de 5-jarige herzieningstermijn (2008-2012) is op 31.12.2012 verstreken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — maatstaf van heffing**: bij verkoop van een goed waarvan de oorspronkelijke aftrek beperkt was tot 50 % (art. 45, § 2 WBTW), wordt de maatstaf voor de uitgaande btw gehalveerd (administratieve toleratie / art. 45, § 1quinquies-logica). Maatstaf = 8.000 € × 50 % = **4.000 €**. 🔗\n\n**Stap 2 — verschuldigde btw**: 4.000 € × 21 % = **€ 840**, op te nemen in rooster 03 (maatstaf) en rooster 54 (btw) van de aangifte. 🔗\n\n**Stap 3 — herziening?** Roerend bedrijfsmiddel → 5-jarige herzieningstermijn (KB nr. 3, art. 9, § 1) vanaf 1.1.2008 → verstreken op **31.12.2012**. Verkoop in 2013 = **buiten de termijn** → geen herziening in voor- of nadeel van de Staat (KB nr. 3, art. 10). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Was de wagen vóór 31.12.2012 verkocht (binnen de herzieningstermijn), dan zou de BVBA daarnaast een **herziening in haar voordeel** kunnen vragen voor het nog niet verlopen deel van de 5 jaar, voor zover de verschuldigde btw op de verkoop hoger ligt dan de oorspronkelijk afgetrokken btw pro rata voor de resterende jaren (\"vangnet\"-herziening, KB nr. 3, art. 10, § 1, 3°). In 2013 is dat niet meer aan de orde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**WBTW art. 2 + art. 10** (belastbare levering door btw-plichtige); **WBTW art. 45, § 2** (50 %-plafond personenwagens) → halvering maatstaf bij verkoop (vaste administratieve praktijk, bevestigd in Btw-commentaar nr. 45/213); **KB nr. 3 art. 9, § 1** (5-jarige herzieningstermijn roerende bedrijfsmiddelen); **KB nr. 3 art. 10** (geen herziening na verloop van de termijn). 📖",
+          "wetsref": "WBTW art. 2 + 10 + 45 §2; KB nr. 3 art. 9 §1 + art. 10",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

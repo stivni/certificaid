@@ -1,0 +1,181 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrE2",
+  "antwoord_datum": "2026-05-26T16:29:11Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Vak | Bedrag |\n|---|---:|\n| **46** | 66.438,00 |\n\nVrijgestelde intracommunautaire levering van nieuwe wagens aan een in Luxemburg voor BTW geïdentificeerde afnemer. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-richtlijn-2006-112.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Levering van een **nieuw vervoermiddel** (nieuwe wagen) aan een BTW-belastingplichtige in een andere lidstaat is een vrijgestelde intracommunautaire levering (art. 39bis WBTW). De **maatstaf van heffing zonder BTW** (66.438,00 €) komt in **vak 46** — \"Vrijgestelde intracommunautaire leveringen verricht in België en ABC-verkopen\". Geen BTW verschuldigd; de Luxemburgse afnemer voldoet de BTW via intracommunautaire verwerving in Luxemburg. 🔗 De levering moet ook worden opgenomen in de **intracommunautaire opgave** (klantenlisting IC). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-richtlijn-2006-112.md",
+            "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Voor **nieuwe vervoermiddelen** geldt de vrijstelling 39bis ongeacht het statuut van de afnemer (ook particulieren) — hier is de afnemer een Luxemburgse BTW-plichtige, dus de standaard-vrijstelling uit art. 39bis, 1° WBTW is van toepassing. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 39bis WBTW (vrijstelling intracommunautaire leveringen). Vak 46 in het rooster III \"Uitgaande handelingen\" van de periodieke aangifte. K.B. nr. 50 van 11.12.2019 voor de intracommunautaire opgave. 📖",
+          "wetsref": "art. 39bis WBTW; KB nr. 50 van 11.12.2019",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Vak | Bedrag |\n|---|---:|\n| **00** | 8.000,00 |\n| **81** | 8.000,00 |\n| **03** | 413,22 |\n| **54** | 86,78 |\n\nAankoop bij niet-belastingplichtige (kinesist) → doorverkoop onder **margeregeling** (art. 58 § 4 WBTW / KB nr. 53). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Aankoop** — een kinesist verricht vrijgestelde medische handelingen (art. 44 WBTW): geen BTW op de aankoopfactuur. Aankoopprijs 8.000,00 € komt in **vak 81** (handelsgoederen) en in **vak 00** als \"niet-belaste handelingen / margeregeling-aankoop\".\n\n**Doorverkoop onder margeregeling** — verkoopprijs 8.500,00 €, aankoopprijs 8.000,00 €, **winstmarge incl. BTW** = 500,00 €.\n- Maatstaf van heffing = 500,00 / 1,21 = **413,22 €** → **vak 03** (maatstaf 21%). 🔗\n- Verschuldigde BTW = 500,00 − 413,22 = **86,78 €** → **vak 54** (verschuldigde BTW). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Onder de margeregeling staat de **BTW niet vermeld op de factuur** aan de particulier en mag de koper geen BTW aftrekken. De wederverkoper voldoet enkel BTW over de **winstmarge**, niet over de volledige verkoopprijs (× 1,21 zou een **brutoplichtig** stelsel zijn — dat is hier niet van toepassing omdat de aankoop bij een niet-aftrekgerechtigde gebeurde, art. 58 § 4, 2° WBTW en KB nr. 53 art. 1–2). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 58 § 4 WBTW jo. KB nr. 53 van 23.12.1994, art. 2 (maatstaf = winstmarge verminderd met de in de marge begrepen BTW). De aankoop komt in vakken 00/81 omdat geen BTW werd aangerekend; de verkoop in 03/54. 📖",
+          "wetsref": "art. 58 § 4 WBTW; KB nr. 53 van 23.12.1994, art. 1–3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Vak | Bedrag |\n|---|---:|\n| **81** | 4.000,00 |\n| **59** | 840,00 |\n\nAankoop **vrachtwagen** (geen personenwagen) van een belastingplichtige bouwonderneming — **gewone regeling**, geen aftrekbeperking. Vrachtwagen blijft in stock = handelsgoed. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Maatstaf** 4.000,00 € (exclusief 21% BTW per de op pagina 9 vermelde regel) → **vak 81** (handelsgoederen). 🔗\n\n**BTW** 21% × 4.000,00 = **840,00 €** → **vak 59** (aftrekbare BTW). 🔗\n\nGeen aftrekbeperking art. 45 § 2 WBTW want vrachtwagen = bedrijfsvoertuig, geen personenwagen.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 § 1 WBTW (volledige aftrek voor goederen bestemd voor belaste activiteit). De uitzondering van art. 45 § 2 WBTW (50%-cap) geldt alleen voor **personenwagens, dubbel-gebruikvoertuigen en minibussen**, niet voor vrachtwagens. 🔗",
+          "wetsref": "art. 45 § 1 en § 2 WBTW",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Vak | Bedrag |\n|---|---:|\n| **83** | 16.344,48 |\n| **59** | 2.138,53 |\n\nAankoop **personenwagen** als **investering** — aftrekbeperking 50% (cap art. 45 § 2 WBTW), niet de 75% van het beroepsmatig gebruik. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Brutoprijs** 24.644,00 € BTW inbegrepen → maatstaf = 24.644 / 1,21 = **20.366,94 €**; **totale BTW** = 24.644 − 20.366,94 = **4.277,06 €**.\n\n**Aftrekbare BTW** — wettelijke cap art. 45 § 2 WBTW = **50 %** (lager dan het beroepspercentage 75 %, dus de cap is bindend): 50 % × 4.277,06 = **2.138,53 €** → **vak 59**. 🔗\n\n**Vak 83** (\"bedrijfsmiddelen\") = **16.344,48 €** — cijfer uit het officieel modelantwoord. De volledige maatstaf van heffing bedraagt 20.366,94 €; het lagere cijfer in vak 83 is in het gepubliceerde antwoord niet sluitend herleidbaar uit standaard rekenregels (combinatie van 21 %-BTW-uitsplitsing met de aftrekbeperking). ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het **professioneel gebruik 75 %** is **niet** de aftrekbaarheid — art. 45 § 2 WBTW plaatst een **harde cap op 50 %** voor personenwagens. De aftrek wordt het laagste van (a) het beroepsmatig gebruik en (b) 50 %. Hier is dat 50 %. Het privégebruik 25 % is in deze rekensom dus niet beperkend. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 § 1quinquies en § 2 WBTW (50 %-cap aftrek BTW personenwagens). Vak 83 = maatstaf van heffing bedrijfsmiddelen; vak 59 = aftrekbare BTW op aankopen en bedrijfsmiddelen. 📖",
+          "wetsref": "art. 45 § 1quinquies en § 2 WBTW",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Vak | Bedrag |\n|---|---:|\n| **01** | 409,54 |\n| **03** | 742,46 |\n| **54** | 180,49 |\n\nVerkopen onder vrijstelling van factuur (dagboek van ontvangsten): uitsplitsing per tarief van **maatstaven** (vak 01 voor 6 %, vak 03 voor 21 %) en **verschuldigde BTW** (vak 54). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Totale ontvangst 1.332,49 € (BTW inbegrepen) waarvan **434,11 € BTW-inbegrepen aan tarief 6 %** en het saldo aan 21 %.\n\n**Schijf 6 %** — 434,11 / 1,06 = **409,54 €** → **vak 01**; BTW 6 % = 434,11 − 409,54 = **24,57 €**. 🔗\n\n**Schijf 21 %** — 1.332,49 − 434,11 = 898,38 € incl.; maatstaf = 898,38 / 1,21 = **742,46 €** → **vak 03**; BTW 21 % = 898,38 − 742,46 = **155,92 €**. 🔗\n\n**Vak 54** = totale verschuldigde BTW = 24,57 + 155,92 = **180,49 €**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het verlaagd tarief **6 %** voor vervangingsstukken geldt enkel voor specifieke gevallen (bv. onderdelen voor voertuigen voor gehandicapten, KB nr. 20 art. 3); de oefening neemt het tarief 6 % als gegeven — voor de aangifte volstaat de juiste vak-toewijzing per tarief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Periodieke aangifte BTW — rooster III \"Uitgaande handelingen\": vak 01 = maatstaf tarief 6 %, vak 03 = maatstaf tarief 21 %, vak 54 = totaal verschuldigde BTW op de in vakken 01–03 vermelde handelingen. Tarieven: KB nr. 20 van 20.07.1970. 📖",
+          "wetsref": "art. 53 WBTW; KB nr. 20 van 20.07.1970 (tarieven)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

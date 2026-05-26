@@ -1,0 +1,46 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr32",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Antwoord d** — de btw is van toepassing: Sophie verricht als zelfstandige in bijberoep een **dienst** (boekhouding) en is daardoor btw-belastingplichtige in de zin van art. 4 WBTW. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Optie a (fout): art. 4 WBTW erkent expliciet de belastingplicht ongeacht of de activiteit **hoofdzakelijk of aanvullend** wordt uitgeoefend. Bijberoep sluit btw-plicht dus niet uit. De ondergeschiktheidsband geldt enkel t.o.v. ElectroStar; tegenover Libro handelt Sophie zelfstandig (eigen klant, eigen risico). 📖\n\nOptie b (fout): de fiscale kwalificatie in de personenbelasting (diverse inkomsten) staat **volledig los** van het btw-statuut. De btw-plicht hangt af van art. 4 WBTW, niet van de PB-rubricering. 🤖\n\nOptie c (fout): de vrijstellingsregeling kleine ondernemingen (art. 56bis WBTW) is **optioneel** en moet aangevraagd worden — ze maakt de btw niet \"niet van toepassing\", maar de belastingplichtige blijft belastingplichtig zonder recht op aftrek. Bovendien overschreed Sophie in 2013 (1.500 × 12 = 18.000 EUR) de toenmalige drempel (5.580 EUR in 2013; later 15.000 en sinds 2016 25.000 EUR). 🔗\n\nOptie e (fout): boekhouding is een **dienst**, geen levering van goederen. ⚖️",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — verwar het PB-statuut niet met het btw-statuut. Diverse inkomsten in de PB (art. 90 WIB92) sluiten een geregeld zelfstandig karakter voor de btw níet uit: een activiteit kan in de PB als bijkomstig worden aangegeven en in de btw toch als geregelde economische activiteit kwalificeren. De twee toetsen zijn autonoom. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 4, § 1 WBTW** — \"Belastingplichtige is eenieder die in de uitoefening van een economische activiteit **geregeld en zelfstandig**, met of zonder winstoogmerk, **hoofdzakelijk of aanvullend**, leveringen van goederen of diensten verricht (…)\". Het tweede lid sluit enkel personen uit die met een werkgever een arbeidsovereenkomst of andere ondergeschiktheidsband hebben **m.b.t. die activiteit**. 📖\n\n**Art. 56bis WBTW** — facultatieve vrijstellingsregeling kleine ondernemingen (jaaromzet ≤ 25.000 EUR sinds 2016; 15.000 EUR vanaf 1/4/2014; 5.580 EUR in 2013). Wie ze geniet blijft belastingplichtig zonder aftrekrecht. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

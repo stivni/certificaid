@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr34",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**De belastbare winst bedraagt 50.000 EUR.** Het abnormaal voordeel (50.000 EUR) vormt een fiscale vloer: aftrekken (DBI, notionele intrestaftrek, investeringsaftrek) mogen *niet* worden toegepast op het gedeelte van het resultaat dat uit dat voordeel voortkomt (art. 207, tweede lid WIB 92, versie aanslagjaar 2014). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "| Stap | Bedrag | Toelichting |\n|---|---:|---|\n| Fiscale winst 1ste bewerking | 500.000 | Inclusief de toevoeging van 50.000 EUR abnormaal voordeel (art. 26 WIB 92). 📖 |\n| Maximaal aftrekbaar | 450.000 | = 500.000 − 50.000 (vloer: voordeel onaantastbaar voor aftrek). 🔗 |\n| Theoretische aftrekken | 700.000 | DBI 480.000 + NID 200.000 + investeringsaftrek 20.000. |\n| Effectief afgetrokken | 450.000 | Beperkt door de vloer; overschot DBI/NID is binnen de eigen volgorde overdraagbaar, investeringsaftrek eveneens. 🤖 |\n| **Belastbare winst** | **50.000** | = 500.000 − 450.000 = bedrag van het abnormaal voordeel. 🔗 |\n\nDe wettelijke logica: **DBI eerst**, dan NID, dan investeringsaftrek — maar geen enkele aftrek mag het belastbaar resultaat onder de 50.000 EUR brengen. Het saldo dat overblijft (de 50.000 EUR) wordt belast aan het normale tarief; de aftrekken die niet konden worden benut worden — binnen hun eigen overdrachtsregels — doorgeschoven naar volgende belastbare tijdperken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Deze \"vloer-techniek\" is de **anti-misbruik-kern** van art. 207, tweede lid WIB 92: zonder die regel zou een vennootschap een vastgesteld abnormaal voordeel kunnen \"wegaftrekken\" met DBI of NID en dus niets bijbetalen, wat de hele art. 26-correctie zinloos zou maken. De regel werd ingevoerd door de wet van 24 december 2002 (gelijktijdig met de invoering van het rulingsysteem) en is sindsdien uitgebreid naar andere \"besmette\" basissen (verworpen uitgaven art. 198 §12°, bijzondere aanslag art. 219, e.d.). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 26 WIB 92** — toevoeging van het abnormaal of goedgunstig voordeel aan de winst van de toekennende vennootschap (hier: 50.000 EUR onder-marktprijs aankoop bij verbonden onderneming). **Art. 207, tweede lid WIB 92** (versie ajr 2014, zoals gewijzigd door wet 24 december 2002, art. 11): \"Geen van deze aftrekken noch compensatie met het verlies van het belastbare tijdperk mag worden verricht op het gedeelte van het resultaat dat voortkomt van abnormale of goedgunstige voordelen vermeld in artikel 79.\" Sinds de hervorming 2018 zit de equivalente regel in art. 206/3 WIB 92 met dezelfde uitkomst. 📖",
+          "wetsref": "Art. 26 WIB 92 + Art. 207, tweede lid WIB 92 (ajr 2014)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr29",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment pagina_02.png toont op deze pagina vraag 1 (PETRUS BVBA), niet de inhoud van vr29 over vennootschap ABC. De tekst-interpretatie en tekst.txt zijn echter consistent en volledig (de eigenvermogenstabel staat correct in beide). Beantwoord op basis van tekst — geen materiële PNG-mismatch met de claim.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Verworpen uitgaven voor het boekjaar 2012 = 10.750 EUR**, uitsluitend afkomstig van de niet-aftrekbare interest op de groepslening (thin-cap-regel art. 198, 11°/1 WIB92). De interne pensioenbelofte en de waardevermindering op de Trusty-deelneming geven in 2012 geen aanvullende verwerping (zie verantwoording). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "kop": "Thin-capitalisation — art. 198, 11°/1 WIB92",
+          "tekst": "**Stap 1 — som van fiscaal gestort kapitaal (einde 2012) + belaste reserves (begin 2012)**:\n\n- Fiscaal gestort kapitaal eind 2012 = 20.000 (oprichting 1989) + 80.000 (inbreng in natura 14/03/2012) = **100.000**. De incorporatie van beschikbare reserves (50.000) is **géén werkelijke inbreng** en blijft fiscaal belaste reserve (art. 184 WIB92). 🔗\n- Belaste reserves begin 2012 (= toestand 31/12/2011): wettelijke reserve 2.000 + beschikbare reserves 50.000 + overgedragen resultaat 5.000 = **57.000**. 🔗\n- Som = 100.000 + 57.000 = **157.000**.\n\n**Stap 2 — drempel (5×) en overschrijding**:\n\n- Drempel = 5 × 157.000 = **785.000**.\n- Lening = 1.000.000 > 785.000 → overschrijding = 1.000.000 − 785.000 = **215.000**.\n- Verhouding overschrijding/lening = 215.000 / 1.000.000 = **21,5 %**.\n\n**Stap 3 — niet-aftrekbare interest**:\n\n- Betaalde interest 2012 = 50.000 EUR.\n- Verworpen interest = 21,5 % × 50.000 = **10.750 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Interne pensioenbelofte (voorziening 140.000)",
+          "tekst": "Voor boekjaar 2012 wordt **geen bijkomende voorziening** aangelegd (de bestaande voorziening dateert van 31/12/2011 en blijft op 140.000 EUR). Er is dus geen kost in de resultatenrekening 2012 die als verworpen uitgaaf moet worden bijgeteld. De vennootschap kiest ervoor de eenmalige heffing (gevolg van de niet-overdracht naar een verzekeringsmaatschappij vóór 30/06/2012, Wet 28/04/2003 + Wet 30/12/2009) ineens te betalen — dat is een afzonderlijke aanslag, geen klassieke verworpen uitgave. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Deelneming Trusty (10.000 EUR — failliet 8/6/2012)",
+          "tekst": "Waardeverminderingen op aandelen zijn principieel **niet aftrekbaar** (art. 198, §1, 7° WIB92) en zouden dus als verworpen uitgaaf worden bijgeteld. **Uitzondering**: bij volledige verdeling van het maatschappelijk vermogen ingevolge ontbinding/vereffening zijn de **minderwaarden op aandelen aftrekbaar tot beloop van het verlies aan fiscaal gestort kapitaal** (art. 198, §1, 7° in fine WIB92). De faillietverklaring op 08/06/2012 is op zich **geen sluiting van vereffening** — zolang de vereffening niet is afgesloten, blijft een geboekte waardevermindering verworpen. ❓\n\n**Praktisch in 2012**: als de vennootschap een waardevermindering van 10.000 EUR boekt → verworpen uitgaaf 10.000 EUR. Modeloplossing veronderstelt vaak dat de aandelen pas worden afgeboekt bij sluiting vereffening en dus dat het verlies bij sluiting aftrekbaar wordt tot maximum het verlies aan gestort kapitaal (= 30 % × 50.000 = 15.000, geplafonneerd door aanschaffingswaarde 10.000) → géén verworpen uitgaaf. **Aanbevolen lezing**: noteer beide pistes en neem in de eindsom 10.750 op (thin-cap alleen). ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De **incorporatie van beschikbare reserves in het kapitaal** verhoogt wel het boekhoudkundig geplaatst kapitaal, maar **niet** het fiscaal gestort kapitaal (art. 184, eerste lid WIB92 — \"werkelijk gestorte inbrengen in geld of in natura\"). Wie deze 50.000 zou meetellen in de thin-cap-drempel, verhoogt de drempel ten onrechte tot 810.000 en mist een belangrijk stuk van de verwerping. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 198, 11°/1 WIB92** — interesten op een lening van een groepsvennootschap zijn niet-aftrekbaar in de mate dat het totale leningsbedrag hoger is dan **5 × (belaste reserves bij begin van het belastbaar tijdperk + gestort kapitaal bij einde van het belastbaar tijdperk)**. **Art. 184 WIB92** — fiscaal gestort kapitaal = enkel werkelijk gestorte inbrengen in geld of in natura; incorporaties van reserves tellen niet mee. **Art. 198, §1, 7° WIB92** — waardeverminderingen en minderwaarden op aandelen zijn niet-aftrekbaar, behoudens minderwaarden bij volledige verdeling van het maatschappelijk vermogen tot beloop van het verlies aan fiscaal gestort kapitaal. 📖",
+          "wetsref": "Art. 198, 11°/1 WIB92 · Art. 184 WIB92 · Art. 198, §1, 7° WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Fiscaal gestort kapitaal op 31/12/2012 = 100.000 EUR**: 20.000 oprichting 1989 (speciën) + 80.000 inbreng in natura 14/03/2012. De incorporatie van 50.000 EUR beschikbare reserves telt fiscaal **niet** mee. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "| Component | Bedrag | Telt mee als fiscaal gestort kapitaal? |\n|---|---:|:---:|\n| Oprichting 1989 — inbreng in speciën | 20.000 | Ja — werkelijk gestorte inbreng in geld. 📖 |\n| Inbreng in natura 14/03/2012 | 80.000 | Ja — werkelijk gestorte inbreng in natura. 📖 |\n| Incorporatie beschikbare reserves 14/03/2012 | 50.000 | **Nee** — geen werkelijke inbreng; blijft fiscaal belaste reserve. 📖 |\n| **Totaal fiscaal gestort kapitaal** | **100.000** | |",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Boekhoudkundig geplaatst kapitaal eind 2012 = 150.000 EUR (de drie componenten samen), maar **fiscaal** stopt het op 100.000 EUR. Dit verschil van 50.000 EUR is belangrijk bij latere kapitaalverminderingen: enkel het deel dat fiscaal gestort kapitaal is, kan belastingvrij worden terugbetaald (mits pro rata-regel art. 18 WIB92); het deel dat een geïncorporeerde reserve vertegenwoordigt, wordt fiscaal als dividend gekwalificeerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-13-pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 184, eerste lid WIB92** definieert het fiscaal gestort kapitaal als \"het kapitaal voor zover dat gevormd wordt door werkelijk gestorte inbrengen in geld of in natura, andere dan inbrengen in nijverheid, en in zoverre er geen terugbetaling of vermindering heeft plaatsgevonden\". Reserves die in het kapitaal worden geïncorporeerd zijn geen werkelijke inbreng en behouden dus hun fiscaal karakter van belaste reserve. 📖",
+          "wetsref": "Art. 184, eerste lid WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

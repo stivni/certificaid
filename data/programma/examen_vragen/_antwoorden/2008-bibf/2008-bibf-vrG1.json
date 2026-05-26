@@ -1,0 +1,46 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrG1",
+  "antwoord_datum": "2026-05-26T16:27:30Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "De bijgevoegde jaarrekening (boekhoudkundig resultaat + gecorrigeerd eigen vermogen) ontbreekt in het PDF-segment. De aanpassingen aan de aangifte (verworpen uitgaven, vrijstellingen, investeringsaftrek) zijn volledig uitwerkbaar; het eindcijfer 'belastbare basis' en de notionele intrestaftrek vereisen de jaarrekening en blijven daarom als formule weergegeven (confidence: verondersteld).",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Aanpassingen aan het boekhoudkundig resultaat (KMO Green, aj. 2008, ink. 2007)** 🔗\n\n| Post | Bedrag (EUR) | Behandeling |\n|---|---:|---|\n| Belaste reserve in kapitaal (2000) | 1.509 | Geen aanpassing — reeds belast bij incorporatie 📖 |\n| Onderwaardering stock (fiscale controle) | +3.500 | Toename belastbare reserves 🔗 |\n| Belastingvrije reserve (meerwaarde bedrijfswagen) | — | Vrijstelling mits onaantastbaarheidsvoorwaarde (art. 190 WIB92) 🔗 |\n| **Verworpen uitgaven (VU)** | | |\n| Niet-aftrekbaar gedeelte autokosten (25% × 21.570) | +5.392,50 | art. 66 j° 198bis WIB92 — 75%-aftrek voor wagen aangekocht 2006 🔗 |\n| Belastingsupplement Ven.B | +3.770 | art. 198, 1° WIB92 — belastingen op winst zijn VU 📖 |\n| Regularisatie belasting (terugname) | −1.433 | Negatieve VU — corrigeert vroegere VU 🔗 |\n| Onthaalkosten 50% (852 × 50%) | +426,00 | art. 53, 8° WIB92 🔗 |\n| Restaurantkosten 50% (350 × 50%) (\\*) | +175,00 | art. 53, 8°bis WIB92 — voor aj. 2008 gold 50% 🤖 |\n| BTW-boete (niet-indiening) | +50 | Strafrechtelijke/administratieve geldboete — VU (art. 53, 6° WIB92) 📖 |\n| Verwijlintresten laattijdige BTW | +35 | VU als nalatigheidsintresten op belasting (art. 53, 6° WIB92) ❓ |\n| Maaltijdcheques | +1.320 | Voor aj. 2008 nog volledig VU — uitsluiting art. 53, 14° (pre-wet 22.12.2009) ❓ |\n| Maatpak bestuurder | +525 | Geen specifieke beroepskledij — VU (art. 53, 7° WIB92) 🔗 |\n| Voordeel van alle aard zonder fiche/factuur (1.385) | +1.385 | Geen rechtsgeldige bewijs (art. 49 WIB92) — VU 🔗 |\n| **Niet-VU (volledig aftrekbaar)** | | |\n| Hotelkosten Duitsland | 125 | 100% aftrekbaar (geen restaurant) 🔗 |\n| Taksen waterfactuur | 125 | Aftrekbare beroepskost 🔗 |\n| Werkkledij werknemers | 450 | Beschermkledij — aftrekbaar 🔗 |\n| Intresten autolening | 352 | Uitzondering — 100% aftrekbaar (art. 66 §1 lid 2 WIB92) 📖 |\n| **Aftrekken** | | |\n| Investeringsaftrek energiebesparend (13,5% × 3.300) | −445,50 | Eenmalige aftrek, attest Vlaams Gewest 📖 |\n| Notionele intrestaftrek | −(4,281% × gecorrigeerd EV) | Vereist jaarrekening — formule 🤖 |\n| Voorafbetalingen 2.000 | — | Verrekening op de belasting, niet op basis 🔗 |\n\n(\\*) Onthaal- en restaurantkosten worden voor aj. 2008 beperkt tot 50% (art. 53, 8° / 8°bis WIB92, regime vóór wijziging 2014).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Saldo aanpassingen (zonder boekhoudkundig resultaat + notionele intrestaftrek)** 🔗\n\nToename belastbare basis door onderwaardering stock: +3.500\n\nTotaal verworpen uitgaven:\n5.392,50 + 3.770 − 1.433 + 426 + 175 + 50 + 35 + 1.320 + 525 + 1.385 = **+11.645,50**\n\nTotaal aftrekken (zonder NIA):\n−445,50 (investeringsaftrek)\n\n**Belastbare basis** = boekhoudkundig resultaat (uit jaarrekening) + 3.500 (stock) + 11.645,50 (VU) − 445,50 (investeringsaftrek) − (4,281% × gecorrigeerd EV)\n\nDe twee onbekenden uit de jaarrekening (boekhoudkundig resultaat + gecorrigeerd eigen vermogen) zijn nodig om het cijfer af te ronden. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuilen voor de stagiair** 🤖\n\n- **Autokosten pre-2018**: vóór aanslagjaar 2020 gold een **vast 75%-aftrek** voor wagens aangekocht vóór 1 januari 2018 (art. 198bis oud + art. 66 §1 WIB92). **Intresten** (en pas vanaf 2010 ook brandstof) waren **uitgezonderd**: 100% aftrekbaar. Voor inkomsten 2007 viel brandstof nog onder de 75%-beperking. 🔗\n- **Maaltijdcheques**: vrijstelling als beroepskost voor de werkgever werd pas ingevoerd door wet van 22.12.2009 (vanaf aj. 2010); voor aj. 2008 zijn ze nog volledig VU. ❓\n- **Belaste reserve in kapitaal**: incorporatie van **reeds belaste** reserves leidt niet tot nieuwe belasting. Niet verwarren met incorporatie van vrijgestelde reserves. 📖\n- **Voordeel van alle aard 1.385 EUR zonder factuur**: art. 49 WIB92 vereist bewijs van werkelijkheid en bedrag. Zonder factuur of fiche 281.20 → VU; eventueel ook **bijzondere aanslag geheime commissielonen** (art. 219 WIB92) — niet gevraagd in deze opgave maar wel een examen-klassieker. 🔗",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijke grondslag** 📖\n\n- **Verworpen uitgaven**: art. 53, 198 WIB92 (belastingen op winst, geldboeten, niet-aftrekbare kosten).\n- **Autokosten-aftrekbeperking** (oude regime, pre-2018): art. 66 §1 WIB92 j° art. 198bis WIB92 (75%-aftrek; intresten uitgezonderd).\n- **Onthaal- en restaurantkosten 50%**: art. 53, 8° en 8°bis WIB92 (regime aj. 2008).\n- **Investeringsaftrek energiebesparende investeringen**: art. 69 WIB92 j° art. 201 WIB92 — verhoogd percentage (voor aj. 2008: 13,5% bij KMO met attest gewest).\n- **Notionele intrestaftrek (aftrek risicokapitaal)**: art. 205bis–205novies WIB92 — percentage aj. 2008 = 4,281% × gecorrigeerd eigen vermogen.\n- **Bewijsregel beroepskosten**: art. 49 WIB92 — werkelijkheid + bewijs (factuur/fiche).",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

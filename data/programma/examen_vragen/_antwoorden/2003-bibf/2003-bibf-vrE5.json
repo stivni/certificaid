@@ -1,0 +1,156 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE5",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het dagboek van ontvangsten mag — in papieren vorm — **niet** op losse bladen worden bijgehouden; het is uitdrukkelijk uitgezonderd van die toelating. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 15 § 1 KB nr. 1 stelt dat de boeken bedoeld in art. 14, gehouden in papieren vorm, op losse bladen mogen worden bijgehouden, **met uitzondering van het dagboek van ontvangsten en het centralisatieboek**. Het dagboek van ontvangsten moet dus een gebonden boek zijn (of digitaal gehouden worden — een Z-rapport van een gecertificeerd kassasysteem wordt fiscaal gelijkgesteld met een digitaal dagboek van ontvangsten). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 15 § 1 KB nr. 1 van 29 december 1992 inzake btw. 📖",
+          "wetsref": "Art. 15 § 1 KB nr. 1 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het dagboek van ontvangsten is **niet facultatief** bij gebruik van een kassa; wel wordt het Z-rapport van een **gecertificeerd** kassasysteem (GKS) fiscaal *gelijkgesteld* met een digitaal gehouden dagboek van ontvangsten — dat is een gelijkstelling, geen vrijstelling. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 14 § 2, 3° KB nr. 1 verplicht elke btw-plichtige (uitgezonderd wie voor elke handeling een factuur uitreikt) tot het houden van een dagboek van ontvangsten per exploitatiezetel. Een gewone (niet-gecertificeerde) kassaregistratie ontheft niet van die verplichting — de kasticketten/journaalstroken zijn verantwoordingsstukken, niet zelf het dagboek. Sinds 2024 bepaalt art. 23 M.B. 29 april 2024 dat in een GKS-omgeving het Z-rapport 'omzet' fiscaal gelijkgesteld wordt met een digitaal gehouden dagboek van ontvangsten — het dagboek blijft dus bestaan, maar valt fysiek samen met het GKS-rapport. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De stelling is uit 2003 — destijds bestond het GKS-regime nog niet. Naar de letter van de toenmalige (en huidige) wet was en is een kassaregistratie alleen geen vervanging voor het dagboek; de gelijkstelling met een digitaal dagboek geldt enkel voor een **gecertificeerd** kassasysteem (verplicht voor bepaalde horeca-uitbaters sinds 2014/2016, ruimer vanaf 2024). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14 § 2, 3° KB nr. 1 WBTW (verplichting dagboek van ontvangsten); art. 23 M.B. 29 april 2024 (Z-rapport GKS = digitaal dagboek van ontvangsten). 📖",
+          "wetsref": "Art. 14 § 2, 3° KB nr. 1 WBTW + art. 23 M.B. 29 april 2024",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Bij meerdere exploitatiezetels moet de belastingplichtige per zetel een afzonderlijk dagboek van ontvangsten houden én die dagboeken centraliseren in één centralisatieboek. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 14 § 2, 3° KB nr. 1 verplicht het houden van een dagboek van ontvangsten **per bedrijfszetel** waar de ontvangsten worden geboekt. Wanneer er meerdere zetels zijn, moeten de afzonderlijke dagboeken (en de globale dagontvangsten) worden overgenomen in een centralisatieboek dat op de zetel van de bedrijfsleiding wordt gehouden. Drie restaurantvestigingen → drie aparte dagboeken + één centraal dagboek (centralisatieboek). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14 § 2, 3° KB nr. 1 WBTW — dagboek per exploitatiezetel + centralisatieboek; art. 15 § 1 KB nr. 1 — ook het centralisatieboek mag niet op losse bladen. 📖",
+          "wetsref": "Art. 14 § 2, 3° + art. 15 § 1 KB nr. 1 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het dagboek van ontvangsten moet zich op de exploitatiezetel bevinden waar de ontvangsten worden geregistreerd; het mag niet door de boekhouder naar zijn kantoor worden meegenomen om de btw-aangifte op te stellen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het dagboek van ontvangsten is een ter-plaatse-boek: de ontvangsten moeten dagelijks (en uiterlijk op het einde van elke werkdag) in het dagboek worden ingeschreven op de exploitatiezetel waar ze plaatsvinden (art. 14 § 2, 3° KB nr. 1). Daaruit volgt dat het boek fysiek aanwezig moet blijven op de zetel — de boekhouder die de btw-aangifte voorbereidt, werkt op basis van een kopie of van het centralisatieboek, niet door het originele dagboek mee te nemen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met het **centralisatieboek** of met facturenboeken: die mogen wél op de zetel van de bedrijfsleiding (waar vaak de boekhouding wordt gevoerd) worden gehouden. Het dagboek van ontvangsten zelf blijft op de zetel waar de ontvangsten worden geboekt — daar moet het ook ter inzage liggen bij een btw-controle. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14 § 2, 3° KB nr. 1 WBTW — dagelijkse inschrijving per exploitatiezetel impliceert fysieke aanwezigheid van het dagboek op die zetel. 🔗",
+          "wetsref": "Art. 14 § 2, 3° KB nr. 1 WBTW",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

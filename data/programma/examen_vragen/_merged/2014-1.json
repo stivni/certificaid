@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2014-1.pdf",
   "examen_id": "2014-1",
-  "merge_datum": "2026-05-26T16:23:57+00:00",
+  "merge_datum": "2026-05-26T16:33:41+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4756,7 +4756,139 @@
       "vraag_id": "2014-1-vr27"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Fiscale meerwaarde voor gespreide taxatie = **42.000 EUR**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Meerwaarde = (verkoopprijs − verkoopkosten) − netto-boekwaarde:\n\n| Post | Bedrag (EUR) |\n|---|---:|\n| Verkoopprijs | 325.000 |\n| − Schattingskosten | −8.000 |\n| − Publiciteit | −5.000 |\n| − Makelaarscommissie | −20.000 |\n| **Netto-verkoopprijs** | **292.000** |\n| − Netto-boekwaarde (1.000.000 − 750.000) | −250.000 |\n| **Fiscale meerwaarde** | **42.000** |\n\nAlle kosten die de vennootschap heeft gedragen om de vervreemding te realiseren (schatting, publiciteit, makelaar) verminderen de verkoopwaarde voor de berekening van de fiscale meerwaarde. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Voorwaarden gespreide taxatie",
+                "tekst": "Het gebouw voldoet aan de voorwaarden van art. 47 WIB 92: materieel vast actief, sedert meer dan 5 jaar in de vennootschap (aangekocht in 1985, verkocht in 2012 — ruimschoots > 5 jaar). De vennootschap moet wel een bedrag gelijk aan de **volledige verkoopwaarde** (niet enkel de meerwaarde) herbeleggen binnen 3 jaar (5 jaar voor onroerend goed) in afschrijfbare immateriële/materiële vaste activa in een EER-lidstaat. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 47 § 1, 2° WIB 92: meerwaarden bij vervreemding van materiële vaste activa die sedert meer dan 5 jaar de aard van vaste activa hadden, kunnen gespreid belast worden mits herbelegging van een bedrag gelijk aan de verkoopwaarde. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 47 § 1, 2° WIB 92"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Onttrekking 2012 = **1.260 EUR** (totaal), op te splitsen in **428,27 EUR** uitgestelde belastingen → resultatenrekening (belastingen) en **831,73 EUR** belastingvrije reserves → opbrengst onttrekking (rek. 789). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — splitsing meerwaarde bij overboeking naar belastingvrije reserves** (boekhoudkundige verwerking gespreide taxatie):\n\n| Post | Berekening | Bedrag (EUR) |\n|---|---|---:|\n| Bruto meerwaarde | uit vraag a) | 42.000,00 |\n| Uitgestelde belastingen (33,99%) | 42.000 × 33,99% | 14.275,80 |\n| Belastingvrije reserves (netto) | 42.000 × 66,01% | 27.724,20 |\n\n**Stap 2 — onttrekkingscoëfficiënt** = afschrijvingspercentage van het herbeleggingsgoed = **3%** per jaar (lineaire afschrijving op de constructiewaarde van 200.000 EUR; de grond van 80.000 EUR is niet afschrijfbaar maar telt wel mee als herbelegging).\n\n**Stap 3 — onttrekking boekjaar 2012**:\n\n| Rekening | Berekening | Bedrag (EUR) |\n|---|---|---:|\n| 168 Uitgestelde belastingen → 77 (belastingen) | 14.275,80 × 3% | **428,27** |\n| 132 Belastingvrije reserves → 789 (onttrekking) | 27.724,20 × 3% | **831,73** |\n| **Totaal onttrekking** | | **1.260,00** |\n\nDe totale onttrekking stemt overeen met 3% van de bruto-meerwaarde (42.000 × 3% = 1.260 EUR), wat ook het bedrag is dat fiscaal als gespreide meerwaarde belastbaar wordt in 2012. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "De vennootschap heeft **anterieur** herbelegd: het herbeleggingsgoed werd in 2011 aangekocht, vóór de realisatie van de meerwaarde in 2012. Art. 47 § 4 WIB 92 laat dit toe — herbeleggingen die zijn gebeurd in het belastbaar tijdperk waarin de meerwaarde is verwezenlijkt of in één van de drie voorafgaande tijdperken komen in aanmerking. De onttrekking start in het jaar van realisatie van de meerwaarde (2012), niet in het jaar van herbelegging. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/adviezen/CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 47 § 1 WIB 92: de meerwaarde wordt belast \"naar verhouding tot de afschrijvingen op die [herbelegde] goederen die ... in aanmerking worden genomen\". CBN-advies 147/3 beschrijft de boekhoudkundige verwerking: bij realisatie boeking via resultatenrekening en overboeking naar (132) Belastingvrije reserves met afzondering van het uitgestelde-belastinggedeelte op (168). Bij elke afschrijving op het herbeleggingsgoed wordt een pro-rata-deel onttrokken. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 47 § 1 WIB 92; CBN-advies 147/3; KB W.Venn. art. 76 (boekhoudkundige verwerking)"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Vak \"Gespreid te belasten meerwaarden\" (code **1112**, art. 47 WIB 92) op de aangifte VenB aanslagjaar 2013 = **40.740 EUR**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het vak \"Vrijgestelde reserves — Gespreid te belasten meerwaarden\" toont het bedrag aan meerwaarde dat **nog niet** belastbaar werd gesteld op het einde van het belastbaar tijdperk (= aanslagjaar 2013 voor boekjaar 2012):\n\n| Post | Bedrag (EUR) |\n|---|---:|\n| Bruto fiscale meerwaarde (uit vraag a) | 42.000,00 |\n| − Reeds gespreid belast in 2012 (3%) | −1.260,00 |\n| **Saldo in vak \"Gespreid te belasten meerwaarden\" (code 1112)** | **40.740,00** |\n\nDit saldo zal in de volgende belastbare tijdperken verder afnemen naar rato van de jaarlijkse afschrijvingen op het herbeleggingsgoed (3% × 42.000 = 1.260 EUR per jaar), totdat de meerwaarde volledig in de belastbare basis is opgenomen. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren: in het vak \"Vrijgestelde reserves\" komt het **bruto** saldo van de gespreid te belasten meerwaarde (42.000 − 1.260 = 40.740), **niet** het netto-bedrag dat boekhoudkundig op rekening 132 staat (27.724,20 − 831,73 = 26.892,47). Fiscaal volgt men de volledige meerwaarde; de splitsing naar uitgestelde belastingen is enkel boekhoudkundig. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Aangifte VenB — vak \"Vrijgestelde reserves\", rubriek 4b code **1112**: gespreid te belasten meerwaarden op materiële en immateriële vaste activa (art. 47 WIB 92), belastbaar naar verhouding van de afschrijvingen op de herbeleggingsgoederen (opgave 276 K). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 47 WIB 92; aangifte VenB code 1112 (vak \"Gespreid te belasten meerwaarden op materiële en immateriële vaste activa\")"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2014-1-vr28"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4827,7 +4959,114 @@
       "vraag_id": "2014-1-vr28"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "PNG-segment pagina_02.png toont op deze pagina vraag 1 (PETRUS BVBA), niet de inhoud van vr29 over vennootschap ABC. De tekst-interpretatie en tekst.txt zijn echter consistent en volledig (de eigenvermogenstabel staat correct in beide). Beantwoord op basis van tekst — geen materiële PNG-mismatch met de claim.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Verworpen uitgaven voor het boekjaar 2012 = 10.750 EUR**, uitsluitend afkomstig van de niet-aftrekbare interest op de groepslening (thin-cap-regel art. 198, 11°/1 WIB92). De interne pensioenbelofte en de waardevermindering op de Trusty-deelneming geven in 2012 geen aanvullende verwerping (zie verantwoording). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Thin-capitalisation — art. 198, 11°/1 WIB92",
+                "tekst": "**Stap 1 — som van fiscaal gestort kapitaal (einde 2012) + belaste reserves (begin 2012)**:\n\n- Fiscaal gestort kapitaal eind 2012 = 20.000 (oprichting 1989) + 80.000 (inbreng in natura 14/03/2012) = **100.000**. De incorporatie van beschikbare reserves (50.000) is **géén werkelijke inbreng** en blijft fiscaal belaste reserve (art. 184 WIB92). 🔗\n- Belaste reserves begin 2012 (= toestand 31/12/2011): wettelijke reserve 2.000 + beschikbare reserves 50.000 + overgedragen resultaat 5.000 = **57.000**. 🔗\n- Som = 100.000 + 57.000 = **157.000**.\n\n**Stap 2 — drempel (5×) en overschrijding**:\n\n- Drempel = 5 × 157.000 = **785.000**.\n- Lening = 1.000.000 > 785.000 → overschrijding = 1.000.000 − 785.000 = **215.000**.\n- Verhouding overschrijding/lening = 215.000 / 1.000.000 = **21,5 %**.\n\n**Stap 3 — niet-aftrekbare interest**:\n\n- Betaalde interest 2012 = 50.000 EUR.\n- Verworpen interest = 21,5 % × 50.000 = **10.750 EUR**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Interne pensioenbelofte (voorziening 140.000)",
+                "tekst": "Voor boekjaar 2012 wordt **geen bijkomende voorziening** aangelegd (de bestaande voorziening dateert van 31/12/2011 en blijft op 140.000 EUR). Er is dus geen kost in de resultatenrekening 2012 die als verworpen uitgaaf moet worden bijgeteld. De vennootschap kiest ervoor de eenmalige heffing (gevolg van de niet-overdracht naar een verzekeringsmaatschappij vóór 30/06/2012, Wet 28/04/2003 + Wet 30/12/2009) ineens te betalen — dat is een afzonderlijke aanslag, geen klassieke verworpen uitgave. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "betwijfeld",
+                "kop": "Deelneming Trusty (10.000 EUR — failliet 8/6/2012)",
+                "tekst": "Waardeverminderingen op aandelen zijn principieel **niet aftrekbaar** (art. 198, §1, 7° WIB92) en zouden dus als verworpen uitgaaf worden bijgeteld. **Uitzondering**: bij volledige verdeling van het maatschappelijk vermogen ingevolge ontbinding/vereffening zijn de **minderwaarden op aandelen aftrekbaar tot beloop van het verlies aan fiscaal gestort kapitaal** (art. 198, §1, 7° in fine WIB92). De faillietverklaring op 08/06/2012 is op zich **geen sluiting van vereffening** — zolang de vereffening niet is afgesloten, blijft een geboekte waardevermindering verworpen. ❓\n\n**Praktisch in 2012**: als de vennootschap een waardevermindering van 10.000 EUR boekt → verworpen uitgaaf 10.000 EUR. Modeloplossing veronderstelt vaak dat de aandelen pas worden afgeboekt bij sluiting vereffening en dus dat het verlies bij sluiting aftrekbaar wordt tot maximum het verlies aan gestort kapitaal (= 30 % × 50.000 = 15.000, geplafonneerd door aanschaffingswaarde 10.000) → géén verworpen uitgaaf. **Aanbevolen lezing**: noteer beide pistes en neem in de eindsom 10.750 op (thin-cap alleen). ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "De **incorporatie van beschikbare reserves in het kapitaal** verhoogt wel het boekhoudkundig geplaatst kapitaal, maar **niet** het fiscaal gestort kapitaal (art. 184, eerste lid WIB92 — \"werkelijk gestorte inbrengen in geld of in natura\"). Wie deze 50.000 zou meetellen in de thin-cap-drempel, verhoogt de drempel ten onrechte tot 810.000 en mist een belangrijk stuk van de verwerping. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 198, 11°/1 WIB92** — interesten op een lening van een groepsvennootschap zijn niet-aftrekbaar in de mate dat het totale leningsbedrag hoger is dan **5 × (belaste reserves bij begin van het belastbaar tijdperk + gestort kapitaal bij einde van het belastbaar tijdperk)**. **Art. 184 WIB92** — fiscaal gestort kapitaal = enkel werkelijk gestorte inbrengen in geld of in natura; incorporaties van reserves tellen niet mee. **Art. 198, §1, 7° WIB92** — waardeverminderingen en minderwaarden op aandelen zijn niet-aftrekbaar, behoudens minderwaarden bij volledige verdeling van het maatschappelijk vermogen tot beloop van het verlies aan fiscaal gestort kapitaal. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 198, 11°/1 WIB92 · Art. 184 WIB92 · Art. 198, §1, 7° WIB92"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Fiscaal gestort kapitaal op 31/12/2012 = 100.000 EUR**: 20.000 oprichting 1989 (speciën) + 80.000 inbreng in natura 14/03/2012. De incorporatie van 50.000 EUR beschikbare reserves telt fiscaal **niet** mee. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "| Component | Bedrag | Telt mee als fiscaal gestort kapitaal? |\n|---|---:|:---:|\n| Oprichting 1989 — inbreng in speciën | 20.000 | Ja — werkelijk gestorte inbreng in geld. 📖 |\n| Inbreng in natura 14/03/2012 | 80.000 | Ja — werkelijk gestorte inbreng in natura. 📖 |\n| Incorporatie beschikbare reserves 14/03/2012 | 50.000 | **Nee** — geen werkelijke inbreng; blijft fiscaal belaste reserve. 📖 |\n| **Totaal fiscaal gestort kapitaal** | **100.000** | |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2019-13-pro-rata-regel-van-artikel-18-wib-92-bij-terugbetaling-van-inbreng-kapitaalvermindering.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Boekhoudkundig geplaatst kapitaal eind 2012 = 150.000 EUR (de drie componenten samen), maar **fiscaal** stopt het op 100.000 EUR. Dit verschil van 50.000 EUR is belangrijk bij latere kapitaalverminderingen: enkel het deel dat fiscaal gestort kapitaal is, kan belastingvrij worden terugbetaald (mits pro rata-regel art. 18 WIB92); het deel dat een geïncorporeerde reserve vertegenwoordigt, wordt fiscaal als dividend gekwalificeerd. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 184, eerste lid WIB92** definieert het fiscaal gestort kapitaal als \"het kapitaal voor zover dat gevormd wordt door werkelijk gestorte inbrengen in geld of in natura, andere dan inbrengen in nijverheid, en in zoverre er geen terugbetaling of vermindering heeft plaatsgevonden\". Reserves die in het kapitaal worden geïncorporeerd zijn geen werkelijke inbreng en behouden dus hun fiscaal karakter van belaste reserve. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 184, eerste lid WIB92"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2014-1-vr29"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4935,7 +5174,55 @@
       "vraag_id": "2014-1-vr29"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie d** is juist: de btw is verschuldigd in Duitsland, want het zwembad (onroerend goed) ligt daar. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het bouwen van een dakgebinte en dakbedekking is **werk in onroerende staat** — een dienst die naar haar aard verband houdt met een onroerend goed. Voor zulke diensten geldt zowel in B2B (art. 21 §3 1° WBTW) als in B2C (art. 21bis §2 1° WBTW) één en dezelfde plaatsbepalingsregel: **plaats = ligging van het onroerend goed**. 📖 De hoedanigheid van de klant (particulier of belastingplichtige) en zijn woonplaats spelen geen rol; ook de vestiging van de aannemer is irrelevant. 🔗\n\nPer optie:\n- **a fout** — de woonplaats van de particulier (Oostenrijk) doet niet ter zake voor diensten m.b.t. onroerend goed.\n- **b fout** — verkeerd criterium (verschil tussen lidstaat aannemer en lidstaat werk speelt geen rol op zich).\n- **c fout** — de vestigingsplaats van de aannemer (België) bepaalt de plaats niet bij onroerend werk.\n- **d juist** — ligging van het onroerend goed = München, Duitsland.\n- **e fout** — nationaliteit/woonplaats van de klant is irrelevant.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** ❓: \"plaats van de dienst in Duitsland\" betekent niet dat de Belgische aannemer automatisch Duitse btw aanrekent. In B2C blijft de aannemer in principe gehouden tot voldoening — hij moet zich daarvoor in Duitsland identificeren (of via OSS waar dat van toepassing is), tenzij Duits intern recht een verleggingsregeling voorziet. De **plaatsbepaling** (deze vraag) en de **schuldenaar/registratie** (vervolgvraag) zijn twee verschillende kwesties. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 21bis §2 1° WBTW** (B2C — diensten voor niet-belastingplichtigen): \"de plaats waar het onroerend goed is gelegen, wanneer het gaat om een dienst die verband houdt met een uit zijn aard onroerend goed. Zijn inzonderheid bedoeld het werk in onroerende staat (...)\". Spiegelbepaling B2B: art. 21 §3 1° WBTW. Europese grondslag: art. 47 Richtlijn 2006/112/EG. 📖",
+                "type": "grondslag"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr30"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5012,7 +5299,58 @@
       "vraag_id": "2014-1-vr30"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **e** — De Belgische btw is van toepassing: de plaats van levering ligt bij **vertrek** van het vervoer (Vilvoorde, BE), omdat de kopers zelf de goederen ophalen en vervoeren. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** (geen btw want kopers zijn belastingplichtig) → FOUT — de hoedanigheid van de koper schakelt de btw bij een binnenlandse levering niet uit; ze geeft enkel recht op aftrek. 🔗\n- **b** (geen btw want leverancier failliet) → FOUT — bij faillissement wordt de **curator** ex art. 53undecies WBTW in de plaats gesteld van de belastingplichtige voor alle rechten en verplichtingen. De btw-plicht blijft bestaan. 📖\n- **c** (geen btw want openbaar opbod i.p.v. onderhands) → FOUT — het WBTW maakt geen onderscheid naar verkoopvorm; KB nr. 1 art. 21 regelt zelfs uitdrukkelijk de btw-inning door notaris/gerechtsdeurwaarder bij openbare verkoop op verzoek van de curator. 📖\n- **d** (btw in BE, plaats = **aankomst** van het vervoer) → FOUT — verwart met intracommunautaire verwerving / invoer; art. 14 §2 WBTW knoopt de plaats vast aan **vertrek**, niet aankomst. 📖\n- **e** (btw in BE, plaats = **vertrek** van het vervoer) → JUIST — art. 14 §2 WBTW: wanneer het goed wordt verzonden of vervoerd (door leverancier, afnemer of derde), is de plaats van levering de plaats waar het goed zich bevindt **bij vertrek**. Hier: Vilvoorde. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Faillissement heft de btw-plicht **niet** op. De curator treedt in de plaats van de gefailleerde belastingplichtige (art. 53undecies WBTW) en bij openbare verkoop int de notaris of gerechtsdeurwaarder de btw voor rekening van de curator (KB nr. 1 art. 21). Pas op met optie **b** als instinctief verkeerd antwoord. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14 §2 WBTW: bij vervoer of verzending van goederen is de plaats van levering de plaats waar het goed zich bevindt **op het tijdstip van vertrek** van de verzending of het vervoer naar de afnemer — los van wie het vervoer organiseert. Art. 53undecies WBTW: de curator vervangt de gefailleerde belastingplichtige voor alle rechten en verplichtingen. KB nr. 1 art. 21: bij openbare verkoop op verzoek van de curator int de notaris of gerechtsdeurwaarder de btw van de koper. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 14 §2 WBTW; Art. 53undecies WBTW; KB nr. 1 art. 21"
+              }
+            ],
+            "gekozen_optie_id": "e",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr31"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5088,7 +5426,52 @@
       "vraag_id": "2014-1-vr31"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Antwoord d** — de btw is van toepassing: Sophie verricht als zelfstandige in bijberoep een **dienst** (boekhouding) en is daardoor btw-belastingplichtige in de zin van art. 4 WBTW. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie a (fout): art. 4 WBTW erkent expliciet de belastingplicht ongeacht of de activiteit **hoofdzakelijk of aanvullend** wordt uitgeoefend. Bijberoep sluit btw-plicht dus niet uit. De ondergeschiktheidsband geldt enkel t.o.v. ElectroStar; tegenover Libro handelt Sophie zelfstandig (eigen klant, eigen risico). 📖\n\nOptie b (fout): de fiscale kwalificatie in de personenbelasting (diverse inkomsten) staat **volledig los** van het btw-statuut. De btw-plicht hangt af van art. 4 WBTW, niet van de PB-rubricering. 🤖\n\nOptie c (fout): de vrijstellingsregeling kleine ondernemingen (art. 56bis WBTW) is **optioneel** en moet aangevraagd worden — ze maakt de btw niet \"niet van toepassing\", maar de belastingplichtige blijft belastingplichtig zonder recht op aftrek. Bovendien overschreed Sophie in 2013 (1.500 × 12 = 18.000 EUR) de toenmalige drempel (5.580 EUR in 2013; later 15.000 en sinds 2016 25.000 EUR). 🔗\n\nOptie e (fout): boekhouding is een **dienst**, geen levering van goederen. ⚖️",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Valkuil** — verwar het PB-statuut niet met het btw-statuut. Diverse inkomsten in de PB (art. 90 WIB92) sluiten een geregeld zelfstandig karakter voor de btw níet uit: een activiteit kan in de PB als bijkomstig worden aangegeven en in de btw toch als geregelde economische activiteit kwalificeren. De twee toetsen zijn autonoom. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 4, § 1 WBTW** — \"Belastingplichtige is eenieder die in de uitoefening van een economische activiteit **geregeld en zelfstandig**, met of zonder winstoogmerk, **hoofdzakelijk of aanvullend**, leveringen van goederen of diensten verricht (…)\". Het tweede lid sluit enkel personen uit die met een werkgever een arbeidsovereenkomst of andere ondergeschiktheidsband hebben **m.b.t. die activiteit**. 📖\n\n**Art. 56bis WBTW** — facultatieve vrijstellingsregeling kleine ondernemingen (jaaromzet ≤ 25.000 EUR sinds 2016; 15.000 EUR vanaf 1/4/2014; 5.580 EUR in 2013). Wie ze geniet blijft belastingplichtig zonder aftrekrecht. 📖",
+                "type": "grondslag"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr32"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5166,7 +5549,56 @@
       "vraag_id": "2014-1-vr32"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Optie **c** — De Belgische btw is van toepassing. Voor een dienst aan een **niet-belastingplichtige** (B2C) is de plaats van de dienst, volgens de algemene regel van art. 21bis § 1 WBTW, de plaats waar de **dienstverrichter** is gevestigd. De accountant is gevestigd te Charleroi → Belgische btw (21 %) op de 500 EUR. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a** (geen btw want particulier) → FOUT. Een accountant is een gewone belastingplichtige; de hoedanigheid van de afnemer (particulier) ontslaat hem niet van de btw-plicht, ze bepaalt enkel **welke** plaatsregel geldt (art. 21bis i.p.v. art. 21). 🔗\n- **b** (geen Belgische btw want materieel uitgevoerd in Frankrijk) → FOUT. De **plaats van materiële uitvoering** is in de algemene B2C-regel **niet** relevant — alleen de vestigingsplaats van de dienstverrichter telt. Het feit dat de accountant in de trein op Frans grondgebied werkt, is btw-technisch betekenisloos. 🔗\n- **c** (Belgische btw want dienstverrichter in België) → **JUIST**. Toepassing art. 21bis § 1 WBTW. 📖\n- **d** (Belgische btw want afnemer in België) → FOUT als motivering. De afnemer-regel (art. 21 § 2 WBTW) geldt enkel **B2B**. In B2C is het criterium de dienstverrichter, niet de afnemer — toevallig leidt het hier tot hetzelfde land, maar de motivering klopt niet. 🔗\n- **e** (Franse btw, plaats materiële verrichting) → FOUT. Geen van de afwijkingen van art. 21bis § 2 WBTW (onroerend goed, personenvervoer, restaurant, evenementen, ...) is van toepassing op een aangifte opgesteld in een trein. De algemene regel blijft gelden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar **art. 21 § 2 WBTW** (B2B — plaats van de **afnemer**) niet met **art. 21bis § 1 WBTW** (B2C — plaats van de **dienstverrichter**). Sinds de hervorming van 1 januari 2010 is dit het sluitstuk van het Belgische btw-regime voor diensten: de hoedanigheid van de afnemer (belastingplichtige ja/neen) bepaalt welke algemene regel je toepast. De plaats waar het werk fysiek wordt uitgevoerd is — buiten de limitatieve afwijkingen (onroerend goed, vervoer, evenementen, restaurant, ...) — **niet** relevant. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 21bis § 1 WBTW**: \"De plaats van diensten, verricht voor een niet-belastingplichtige, is de plaats waar de dienstverrichter de zetel van zijn economische activiteit heeft gevestigd.\" Te lezen samen met art. 21 § 2 WBTW (B2B-tegenhanger: plaats van de afnemer). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 21bis § 1 WBTW"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr33"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5242,7 +5674,58 @@
       "vraag_id": "2014-1-vr33"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **e** — De btw is van toepassing in Groot-Brittannië. Voor een B2B-dienst geldt de algemene regel van art. 21 §2 WBTW: plaats van de dienst = zetel van de economische activiteit van de afnemer. De Britse hotelonderneming is in Londen gevestigd en handelt met haar Brits btw-nummer, dus de dienst is in GB belastbaar. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** — FOUT. Het recht op aftrek van de afnemer is irrelevant voor de plaatsbepaling. De plaats van de dienst wordt bepaald door art. 21 §2 WBTW, niet door het aftrekrecht van de afnemer. 🔗\n- **b** — FOUT. Er bestaat geen vrijstelling voor reclame in een huis-aan-huisreclameblad; de vrijstelling voor \"kranten\" (art. 44 §3, 14° WBTW) betreft de levering van dag- en weekbladen, niet de verkoop van advertentieruimte. 🔗\n- **c** — FOUT. De vestigingsplaats van de **dienstverrichter** is sinds de B2B-hervorming van 1 januari 2010 niet meer het aanknopingspunt. De hoofdregel B2B is afnemer-gericht. 📖\n- **d** — FOUT. De plaats waar de advertentie fysiek verschijnt, is geen criterium in art. 21 §2 WBTW. 🔗\n- **e** — JUIST. Afnemer is een in GB gevestigde belastingplichtige met geldig Brits btw-nummer → plaats van de dienst = GB. Publi-Magazine factureert zonder Belgische btw met vermelding \"btw verlegd\" / \"reverse charge\"; de Britse afnemer voldoet de btw lokaal (binnen het VK-regime). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Reclame-diensten vielen vóór 1 januari 2010 onder een aparte plaatsbepalingsregel (toenmalig art. 21 §3, 7° WBTW — plaats afnemer voor opgesomde \"intellectuele\" diensten zoals reclame). Sinds de B2B-hervorming is dit overbodig geworden: de **algemene** B2B-regel (art. 21 §2) leidt al tot dezelfde uitkomst — plaats afnemer. De redenering in deze examenvraag (2014) berust op de **algemene** B2B-regel, niet meer op de oude reclame-uitzondering. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md",
+                  "resources/bronnen/wetteksten/BTW-uitvoeringsverordening-282-2011.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 21 §2 WBTW (omzetting van art. 44 Richtlijn 2006/112/EG): \"De plaats van diensten, verricht voor een als zodanig handelende belastingplichtige, is de plaats waar deze belastingplichtige de zetel van zijn economische activiteit heeft gevestigd.\" Status afnemer wordt bepaald via art. 17 Uitvoeringsverordening (EU) 282/2011 — een geldig btw-nummer van de afnemer is een sterke aanwijzing van zijn hoedanigheid van belastingplichtige. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 21 §2 WBTW; art. 44 Richtlijn 2006/112/EG; art. 17 Uitv.Verord. (EU) 282/2011"
+              }
+            ],
+            "gekozen_optie_id": "e",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr34"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

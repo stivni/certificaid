@@ -1,0 +1,133 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr25",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment pagina_02.png toont vraag 1 (balans/resultatenverwerking XYZ, PO 1.x) — niet de BTW-rooster-vraag van interpretatie. Auto-segmentatie heeft een verkeerde pagina geïsoleerd. De antwoord-tabellen in tekst.txt zijn lege ROOSTER/NR/BEDRAG-skeletons (invulvakken). Antwoord is gebaseerd op de tekstuele vraagstelling (zelfde inhoud op alle bronnen), niet op visuele tabel-content.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Bestelwagen** (roerend bedrijfsmiddel, herzieningstijdvak 5 jaar nog lopend): onttrekking gelijkgesteld met levering onder bezwarende titel. Maatstaf van heffing = normale waarde €20.000.\n\n| ROOSTER | NR | BEDRAG |\n|---|---|---|\n| Uitgaande handelingen 21% | 03 | 20.000,00 |\n| Verschuldigde BTW | 54 | 4.200,00 |\n\n**Bedrijfsgebouw** (aangekocht 2006, niet langer \"nieuw\" in 2012): de onttrekking is een van BTW vrijgestelde levering (art. 44 §3, 1° W.BTW) — geen BTW op €350.000. Wél herziening van de oorspronkelijk afgetrokken BTW voor de resterende jaren van het 15-jarig herzieningstijdvak (2006-2020 → resterend 9/15 vanaf 2012). Terug te storten BTW = €52.500 × 9/15 = €31.500. 🔗\n\n| ROOSTER | NR | BEDRAG |\n|---|---|---|\n| Terug te storten BTW (herziening) | 61 | 31.500,00 |\n| Handelingen vrijgesteld door W.BTW (info) | 00 | 350.000,00 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Bestelwagen** — art. 12 §1, 5° W.BTW stelt onttrekking bij stopzetting gelijk met levering onder bezwarende titel zodra recht op aftrek heeft bestaan. MvH = normale waarde (art. 33 §1, 1°) = €20.000. BTW = €20.000 × 21% = €4.200. 🔗\n\n**Gebouw** — geen \"nieuw gebouw\" meer in 2012 (eerste ingebruikneming 2006 + 1 jaar verstreken op 31/12/2007), dus de gelijkgestelde levering is vrijgesteld (art. 44 §3, 1° W.BTW). Geen 21% op €350.000. Wél activeert de bestemmingswijziging een herziening van de aftrek (art. 10 KB nr. 3): tijdvak 15 jaar voor onroerende bedrijfsmiddelen (art. 9 §2 KB nr. 3), tellend vanaf 1 januari 2006. Resterende jaren vanaf 2012 = 9. Oorspronkelijke aftrek = €250.000 × 21% = €52.500. Herziening = €52.500 × 9/15 = €31.500 terug te storten via rooster 61. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet beide goederen identiek behandelen. Roerend bedrijfsmiddel binnen 5-jarig tijdvak → onttrekking 21% (rooster 03+54). Onroerend bedrijfsmiddel buiten de \"nieuw\"-periode → vrijgestelde levering + herziening (rooster 61, niet 03). Wie het gebouw als belastbare onttrekking @ 21% op €350.000 boekt, betaalt €73.500 BTW i.p.v. de wettelijk juiste €31.500 herziening — €42.000 te veel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 12 §1, 5° W.BTW (stopzetting = onttrekking, gelijkgesteld met levering onder bezwarende titel). 📖 Art. 33 §1, 1° W.BTW (maatstaf van heffing = normale waarde). 📖 Art. 44 §3, 1° W.BTW (vrijstelling levering oud gebouw). KB nr. 3 art. 9 §1 (herzieningstijdvak 5 jaar roerend) en §2 (15 jaar onroerend); art. 10 (herziening bij wijziging bestemming, incl. onttrekking). 📖",
+          "wetsref": "Art. 12 §1, 5° + 33 §1, 1° + 44 §3, 1° W.BTW; KB nr. 3 art. 9-10",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "Inkomende B2B-dienst van een dienstverrichter buiten de EU (Japan). Plaats van de dienst = België (afnemer-regel, art. 21 §2 W.BTW). Verlegging van heffing naar de Belgische afnemer (art. 51 §2, 1° W.BTW). Aftrek volledig (beroepsmatige reclamekost).\n\n| ROOSTER | NR | BEDRAG |\n|---|---|---|\n| Inkomende handelingen met verlegging (niet IC-verwerving, niet IC-dienst) | 87 | 5.000,00 |\n| Verschuldigde BTW op rooster 87 | 56 | 1.050,00 |\n| Aftrekbare BTW | 59 | 1.050,00 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Plaats van de dienst voor een B2B-dienst (algemene regel art. 21 §2 W.BTW) = de zetel van de afnemer = België, ongeacht waar de campagne fysiek wordt uitgevoerd. 🔗 Omdat de dienstverrichter niet in België gevestigd is, wordt de heffing verlegd naar de Belgische afnemer (art. 51 §2, 1°). De afnemer rapporteert: MvH €5.000 in rooster 87 (geen IC-dienst — Japan is buiten EU, dus niet rooster 88), verschuldigde BTW €5.000 × 21% = €1.050 in rooster 56, en evenveel aftrekbare BTW in rooster 59 (volle aftrek voor beroepsuitgave). Netto kost = nul. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet rooster 88 (= IC-dienst van een EU-dienstverrichter, art. 21 §2 met verlegging) gebruiken. Japan is derde land — rooster 87 + 56. Ook geen \"plaats waar de campagne uitgevoerd wordt\" denken: sinds de B2B-hervorming 2010 is de algemene regel de afnemer-regel, niet de plaats van uitvoering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21 §2 W.BTW (plaats B2B-dienst = afnemer). 📖 Art. 51 §2, 1° W.BTW (verlegging naar afnemer wanneer dienstverrichter niet in BE gevestigd). Rooster 87/56/59 in de periodieke BTW-aangifte voor inkomende handelingen met verlegging vanuit derde landen. 📖",
+          "wetsref": "Art. 21 §2 + 51 §2, 1° W.BTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "Overbrenging van eigen goederen NL → BE = gelijkgesteld met een intracommunautaire verwerving in België (art. 25quater W.BTW). MvH = aanschaffingsprijs (art. 33bis → art. 33 §1, 1°) = €1.250. BTW 21% verschuldigd door de Belgische BP zelf, met onmiddellijke aftrek.\n\n| ROOSTER | NR | BEDRAG |\n|---|---|---|\n| MvH intracommunautaire verwervingen (en ermee gelijkgesteld) | 86 | 1.250,00 |\n| Verschuldigde BTW op rooster 86 | 56 | 262,50 |\n| Aftrekbare BTW | 59 | 262,50 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Eigen goederen die een BE-belastingplichtige vanuit NL naar BE overbrengt voor eigen bedrijfsdoeleinden = intracommunautaire overbrenging. Aan de NL-zijde is dit een gelijkgestelde IC-levering (vrijgesteld als IC-levering, tegenhanger art. 12bis W.BTW); aan de BE-zijde een gelijkgestelde IC-verwerving (art. 25quater W.BTW). 🔗 MvH volgens art. 33bis W.BTW: aanschaffingsprijs = €1.250. Verschuldigde BTW = €1.250 × 21% = €262,50. De Belgische BP voldoet de BTW via self-assessment (rooster 86 + 56) en trekt ze tegelijk af in rooster 59 (volle aftrek voor handelsgoederen). Het opgemaakte transfertdocument vervangt de factuur. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Geen verkoop, geen factuur, toch een IC-verwerving — het volstaat dat de BE-BP het eigendomsbezit van de goederen naar een andere lidstaat overbrengt voor eigen doeleinden. De symmetrie (art. 12bis aan vertrek-zijde ↔ art. 25quater aan aankomst-zijde) zorgt voor neutraliteit: NL-vrijstelling, BE-verwerving met self-assessment. Het transfertdocument is het bewijsstuk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 25quater W.BTW (overbrenging eigen goederen naar BE gelijkgesteld met IC-verwerving). 📖 Art. 12bis W.BTW (overbrenging vanuit BE gelijkgesteld met IC-levering). Art. 33bis W.BTW (MvH = aanschaffingsprijs voor handelingen bedoeld in art. 12bis en 25quater). 📖",
+          "wetsref": "Art. 12bis + 25quater + 33bis W.BTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-1.pdf",
   "examen_id": "2013-1",
-  "merge_datum": "2026-05-26T16:23:57+00:00",
+  "merge_datum": "2026-05-26T16:33:41+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4032,7 +4032,63 @@
       "vraag_id": "2013-1-vr21"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De controledienst zal de belastbare winst van boekjaar 2012 verhogen met **4.000 EUR** (20 stuks × 200 EUR). De aankoopkost is te vroeg in resultaat genomen: ofwel moeten de 20 niet-geleverde stuks alsnog in de eindvoorraad worden opgenomen (\"goederen onderweg\"), ofwel moet de factuur via een overlopende rekening worden uitgesteld naar 2013. Bijkomende vennootschapsbelasting + nalatigheidsinteresten (en in voorkomend geval een belastingverhoging) volgen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Het mechanisme van de fout** — De vennootschap heeft 4.000 EUR aankopen geboekt voor goederen die zij op 31.12.2012 niet bezit. In de KVG-formule `BV + Aankopen − EV` zorgt dit voor een overschatte kost: 🔗\n\n| Post | Zoals geboekt | Correct (eindvoorraad-aanpak) |\n|---|---:|---:|\n| Beginvoorraad | 265 × 200 = 53.000 | 53.000 |\n| Aankopen | 1.810 × 200 = 362.000 | 362.000 |\n| Eindvoorraad | 280 × 200 = 56.000 | **300 × 200 = 60.000** (incl. 20 in transit) |\n| KVG | 359.000 | 355.000 |\n| Brutowinst | 84.750 | **88.750** |\n\nHet alternatief — factuur als over te dragen kost boeken (490) — geeft hetzelfde resultaat: aankopen 358.000, KVG 355.000, brutowinst 88.750. **Verschil: +4.000 EUR belastbare winst in 2012**, met spiegelbeeldige verlaging in 2013 (jaar waarin de goederen effectief geleverd en verkocht worden). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Waarom de fiscus dit kan rechtzetten** — Art. 49 WIB92 laat een kost slechts toe als beroepskost in het belastbaar tijdperk waarin hij *werkelijk is gedaan of gedragen*, of waarin hij *het karakter van een zekere en vaststaande schuld heeft verkregen en als zodanig is geboekt*. 📖 De factuur creëert weliswaar een zekere schuld, maar boekhoudkundig en fiscaal geldt het matchingbeginsel: kosten van handelsgoederen worden pas resultaat-impacterend wanneer de goederen worden verkocht — tot dan zitten ze in voorraad (rek. 34) of in een overlopende rekening (rek. 490). 🔗 De CBN bevestigt dat aankopen in de rekening *Aankopen* (604) als kost van het boekjaar worden geboekt, mét gelijktijdige opname van de voorraad via *Voorraadwijzigingen* (6094) — precies die compenserende voorraad-opname ontbreekt hier. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "**Naast de aanslag zelf**: (i) nalatigheidsinteresten lopen vanaf de uiterste betalingsdatum van de oorspronkelijke aanslag 2012; (ii) een belastingverhoging (10-200 %) kan worden opgelegd indien de fiscus een onjuiste aangifte vaststelt (art. 444 WIB92); (iii) de **timing**-aard van de fout maakt dat de 4.000 EUR in 2013 spiegelbeeldig aftrekbaar is — economisch is het verschil dus de tijdwaarde + eventuele tariefverschillen, plus de boetes en interesten. 🤖 Praktisch zal de accountant in de aangifte VenB 2012 een verworpen uitgave / aanpassing van de begintoestand voorstellen, en in 2013 een correctie in de andere zin doorvoeren. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 49 WIB92** — beroepskosten zijn slechts aftrekbaar in het belastbare tijdperk waarin zij werkelijk zijn gedaan of gedragen, of waarin zij het karakter van zekere en vaststaande schulden hebben verkregen *en als zodanig zijn geboekt*. 📖 **Art. 24, 1° WIB92** definieert winst onder meer als waardevermeerderingen van voorraden — de onvolledige voorraadopname leidt tot onderschatte winst. **CBN-advies 132/7** bepaalt dat aankopen via rek. 604 als kost worden geboekt mét gelijktijdige voorraadwijziging (rek. 6094/34), zodat de match tussen kost en omzet pas plaatsvindt bij verkoop. 📖 Voor de procedure: art. 346 WIB92 (bericht van wijziging) en art. 354 WIB92 (3-jarige aanslagtermijn). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 49 WIB92 + art. 24 WIB92 + CBN-advies 132/7 + art. 346/354 WIB92"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr22"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4156,7 +4212,61 @@
       "vraag_id": "2013-1-vr22"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "PNG-segment pagina_03.png toont visueel een andere vraag (\"Vraag 2\" — leveranciersschuld/kapitaalvermindering). Het tekstuele segment (tekst.txt) komt wel overeen met de interpretatie. De concrete lay-out van het ingevulde 204.3-formulier was dus niet visueel verifieerbaar — antwoord is opgebouwd op basis van casusgegevens en standaardstructuur van formulier 204.3.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Formulier 204.3 — Detail van de vrijgestelde voorzieningen voor risico's en kosten (boekjaar 2012, aj. 2013)**\n\n| Omschrijving | Bedrag (EUR) |\n|---|---:|\n| Toestand bij het begin van het boekjaar — Voorziening voor grote herstellings- en onderhoudswerken (schilderwerken, 10-jaarlijks) | **5.000,00** |\n| Aanwending / besteding tijdens het boekjaar (uitvoering schilderwerken) | **− 5.000,00** |\n| Nieuw aangelegde vrijgestelde voorziening tijdens het boekjaar | **0,00** |\n| **Toestand bij het einde van het boekjaar** | **0,00** |\n\nHet gedeelte van 18.000 EUR \"uitbreiding garage\" verschijnt **niet** op formulier 204.3: dat was geen vrijgestelde voorziening (zie motivatie). 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+                  "resources/bronnen/adviezen/CBN-0107-01-voorzieningen-voor-grote-herstellings-of-onderhoudswerken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Splitsing van de oorspronkelijke voorziening van 23.000 EUR**:\n\n- **Schilderwerken — 5.000 EUR**: 10-jaarlijks periodiek groot onderhoud. Voldoet aan art. 48 WIB 92 + art. 24-27 KB/WIB 92 + art. 194 WIB 92: scherp omschreven kost, ontstaan uit de aan de gang zijnde slijtage tijdens het belastbaar tijdperk en de voorgaande tijdperken. Het was dus terecht een **vrijgestelde** voorziening (rubriek vrijgestelde reserves, niet belast). 🔗\n- **Uitbreiding van de garage — 18.000 EUR**: dit is geen herstelling of onderhoud maar een **investering** (uitbreiding van een vast actief). Dergelijke uitgaven moeten ge­activeerd en afgeschreven worden — ze kunnen géén voorwerp uitmaken van een vrijgestelde voorziening voor grote herstellingen. Deze 18.000 EUR was bij aanleg dus reeds een **belaste** (verworpen) voorziening en stond niet op formulier 204.3. 🔗\n\n**Verwerking in 2012**:\n\n- De 5.000 EUR vrijgestelde voorziening wordt aangewend ten belope van 5.000 EUR (volledige opname); de effectieve uitgave 8.900 EUR overschrijdt de voorziening maar dat heeft geen impact op 204.3 — het saldo van 8.900 − 5.000 = 3.900 is gewoon een aftrekbare beroepskost van het boekjaar. 🔗\n- De terugname van 18.000 EUR \"garage\" was een belaste voorziening; de terugname is dus niet belastbaar (de voorziening was al eerder belast). Tegenover die terugname staat een **activering** van 18.000 EUR (afschrijfbaar volgens KB WVV). 🔗\n- **Eindsaldo 204.3 = 0**: geen nieuwe vrijgestelde voorziening, want het 10-jarige onderhoud is net uitgevoerd en de garage-uitgave is een investering. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "De casus is bewust opgesteld om de student te laten splitsen: niet de hele 23.000 EUR is een vrijgestelde voorziening. Een **uitbreiding** (van een gebouw, machine, garage…) is per definitie geen \"grote herstelling of onderhoud\" — het matching-beginsel rechtvaardigt enkel de spreiding van *terugkerende* onderhoudskosten, niet van *toekomstige investeringen*. CBN 2018/25 herhaalt dat een voorziening voor grote herstellingen moet beantwoorden aan kosten die *in de loop van het boekjaar of voorgaande boekjaren zijn ontstaan* — een geplande uitbreiding ontstaat pas door de toekomstige beslissing tot investering. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+                  "resources/bronnen/adviezen/CBN-0107-01-voorzieningen-voor-grote-herstellings-of-onderhoudswerken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Wettelijk kader voor vrijgestelde voorzieningen grote herstellingen**:\n\n- **Art. 48 WIB 92** — algemene vrijstellingsregel voor voorzieningen voor scherp omschreven en waarschijnlijke risico's en kosten. 📖\n- **Art. 194 WIB 92** — beperkt de vrijstelling tot voorzieningen die voortvloeien uit (a) verbintenissen aangegaan tijdens het belastbaar tijdperk of voorgaande tijdperken, of (b) wettelijke/reglementaire verplichtingen. 📖\n- **Art. 24-27 KB/WIB 92** — uitvoeringsvoorwaarden: scherp omschreven aard, geboekt op een afzonderlijke rekening, en de uitgave moet redelijkerwijs verwacht zijn binnen redelijke termijn (10 jaar wordt courant aanvaard voor periodiek onderhoud). 🔗\n- **CBN-advies 2018/25** (en het oudere advies 107/1) — boekhoudkundige criteria: het KB WVV verplicht expliciet de vorming van voorzieningen voor grote herstellings- en onderhoudswerken (art. 3:34 KB WVV, voorheen art. 33 KB W.Venn.), mits aan de algemene criteria voldaan; uitbreidings­investeringen vallen er buiten en worden geactiveerd. 📖\n- **Formulier 204.3** (aj. 2013, voorloper van het huidige vak Vrijgestelde reserves op formulier 275.1) — afzonderlijke detailstaat per vrijgestelde voorziening, met beginsaldo, mutaties (aanleg/aanwending) en eindsaldo per rubriek. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 48 + 194 WIB 92; art. 24-27 KB/WIB 92; CBN 2018/25"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr23"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4259,7 +4369,89 @@
       "vraag_id": "2013-1-vr23"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "PNG-mismatch: pagina_04.png in _segmenten/ toont een andere vraag (ontwikkelingskosten activering — \"Vraag 3 ... / 5 punten\"), niet de VenB-grondslag-vraag uit de tekst-interpretatie. De auto-isolatie heeft hier de verkeerde PDF-pagina gekoppeld. Het antwoord is gebaseerd op de interne-consistente tekst-interpretatie (casus + gegevens_tabel) — niet op de PNG. Bijlage aangifte voor deelvraag b zit niet in de segmenten — codes zijn gereconstrueerd op basis van de standaard aangifte VenB AJ 2012.",
+        "antwoord_datum": "2026-05-26T16:27:53Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Belastbare grondslag = **37 000,00 euro**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Opbouw via de bewerkingen (volgorde art. 74 KB/WIB 92 → art. 206/1 WIB 92 nieuwe nummering):\n\n| Bewerking | Bedrag |\n|---|---:|\n| 1ste bewerking — fiscaal resultaat: aangroei reserves (6 000) + verworpen uitgaven (40 000, incl. 17 % × 100 000 VAA = 17 000) + uitgekeerde dividenden (4 000) | **50 000,00** 🔗 |\n| 2de bewerking — uitsplitsing naar herkomst (alles Belgisch, geen vrijstelling bij Verdrag) | 50 000,00 🤖 |\n| 3de bewerking — niet-belastbare bestanddelen / vrijgestelde giften | 0 🤖 |\n| 4de bewerking — DBI-aftrek / aftrek voor octrooi-inkomsten | 0 🤖 |\n| 5de bewerking — **aftrek overgedragen verliezen** (-13 000) | **37 000,00** 🔗 |\n| 6de bewerking — investeringsaftrek | 0 🤖 |\n| **Belastbare grondslag** | **37 000,00** 🔗 |\n\nKritisch punt: de casus zegt expliciet dat alle VAA's belastbaar zijn in de personenbelasting bij de genieters → er is **geen aftrekverbod** op de overgedragen verliezen (geen abnormaal of goedgunstig voordeel in de zin van art. 79 WIB 92, geen niet-verantwoorde VAA's). De volledige 13 000 mag in mindering. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "**De 100 000 euro VAA zelf is géén verworpen uitgave** — enkel de **17 % forfaitaire bijtelling op brandstof** (= 17 000) is sinds de hervorming 2012 een VU (art. 198, § 1, 9°bis WIB 92). De loonkost van de wagens en de geboekte VAA-tegenboeking blijven aftrekbaar. Wie het volledige bedrag van 100 000 als VU zou bijtellen, komt aan een veel hogere grondslag — dat is fout. ❓\n\nEen tweede valkuil betreft het **gebroken boekjaar**: het boekjaar loopt van 01.10.2011 tot 30.09.2012, maar het aanslagjaar wordt bepaald door de afsluitdatum → **aanslagjaar 2013** (niet 2012). De casus vermeldt overgedragen verliezen \"voor aanslagjaar 2012\" — dit zijn de op die balansdatum nog beschikbare overgedragen verliezen die in AJ 2013 worden verrekend. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Art. 183 e.v. WIB 92** — vaststelling van de belastbare grondslag in de VenB volgens de zes bewerkingen. **Art. 206 WIB 92** — aftrek van overgedragen beroepsverliezen, onbeperkt verrekenbaar in de tijd voor AJ 2013. **Art. 207, tweede lid WIB 92** (versie AJ 2013) — aftrekverbod geldt enkel op abnormale/goedgunstige voordelen (art. 79), op de afzonderlijke aanslag geheime commissielonen (art. 219) en op bepaalde investeringsreserve-recapture; **niet** op het gedeelte VAA-VU dat hier gangbaar in de winst zit. **Art. 198, § 1, 9°bis WIB 92** — 17 % van het VAA brandstof = verworpen uitgave. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 183, 198 § 1 9°bis, 206, 207 WIB 92"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+                ],
+                "confidence": "betwijfeld",
+                "tekst": "Invullen van de aangifte VenB (Vak \"Uiteenzetting van de winst\" — codes AJ 2013):\n\n| Rubriek | Code | Bedrag |\n|---|---|---:|\n| Belaste reserves — aangroei in het belastbare tijdperk | **1080** | 6 000,00 |\n| Uitgekeerde dividenden (gewone dividenden) | **1320** | 4 000,00 |\n| Verworpen uitgaven — totaal | **1206** | 40 000,00 |\n| ↳ waarvan: niet-aftrekbare autokosten en VAA-brandstof (17 % × 100 000) | (sub-detail) | 17 000,00 |\n| **Resultaat van het belastbare tijdperk (= 1ste bewerking)** | — | **50 000,00** |\n| Aftrek vorige beroepsverliezen | **1436** | 13 000,00 |\n| **Resultaat na 5de bewerking — belastbare grondslag** | **1460** | **37 000,00** |\n\nDe bijlage van het examen vroeg vermoedelijk om enkel de rubrieken \"belaste reserves\", \"verworpen uitgaven\", \"dividenden\", \"vorige verliezen\" en \"belastbare grondslag\" — bovenstaande tabel dekt die. ❓",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "De casus levert de bestanddelen al **na** de 1ste bewerking (50 000 reeds uitgesplitst in reserves/VU/dividenden) — daarom verdwijnen tussenstappen zoals \"belastbaar gereserveerde winst\" en gaan we rechtstreeks naar de drie bestanddelen + de aftrek. In een echt aangifte-formulier zouden ook codes 1040 (overgedragen winst/verlies) en 1060/1070 (mutaties belastingvrije reserves) ingevuld worden, maar deze zijn hier niet relevant. De codes hierboven zijn de AJ 2013-codes; de aangifte voor AJ 2013 kende nog niet de huidige korf-regeling van art. 207, § 5 WIB 92 (ingevoerd vanaf AJ 2019). ❓\n\n**Voorbehoud bij de codes**: voor AJ 2013 gebruikte de aangifte gedeeltelijk andere subcodes voor de VU's (geen onderverdeling \"autokosten boven aftrekbeperking\" in dezelfde vorm als nu). De bijlage van het examen zal de exacte codes geven; bovenstaande zijn de hoofdcodes die toen al bestonden. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**KB/WIB 92, bijlage III** (model aangifte VenB AJ 2013) — codes 1080, 1206, 1320, 1436, 1460. **Art. 198, § 1, 9°bis WIB 92** — VU-statuut 17 % brandstof-VAA. **Art. 206 WIB 92** — code 1436 \"aftrek vorige beroepsverliezen\". 🔗",
+                "type": "grondslag",
+                "wetsref": "KB/WIB 92 bijlage III; art. 198, 206 WIB 92"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-1-vr24"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4353,7 +4545,139 @@
       "vraag_id": "2013-1-vr24"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "PNG-segment pagina_02.png toont vraag 1 (balans/resultatenverwerking XYZ, PO 1.x) — niet de BTW-rooster-vraag van interpretatie. Auto-segmentatie heeft een verkeerde pagina geïsoleerd. De antwoord-tabellen in tekst.txt zijn lege ROOSTER/NR/BEDRAG-skeletons (invulvakken). Antwoord is gebaseerd op de tekstuele vraagstelling (zelfde inhoud op alle bronnen), niet op visuele tabel-content.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Bestelwagen** (roerend bedrijfsmiddel, herzieningstijdvak 5 jaar nog lopend): onttrekking gelijkgesteld met levering onder bezwarende titel. Maatstaf van heffing = normale waarde €20.000.\n\n| ROOSTER | NR | BEDRAG |\n|---|---|---|\n| Uitgaande handelingen 21% | 03 | 20.000,00 |\n| Verschuldigde BTW | 54 | 4.200,00 |\n\n**Bedrijfsgebouw** (aangekocht 2006, niet langer \"nieuw\" in 2012): de onttrekking is een van BTW vrijgestelde levering (art. 44 §3, 1° W.BTW) — geen BTW op €350.000. Wél herziening van de oorspronkelijk afgetrokken BTW voor de resterende jaren van het 15-jarig herzieningstijdvak (2006-2020 → resterend 9/15 vanaf 2012). Terug te storten BTW = €52.500 × 9/15 = €31.500. 🔗\n\n| ROOSTER | NR | BEDRAG |\n|---|---|---|\n| Terug te storten BTW (herziening) | 61 | 31.500,00 |\n| Handelingen vrijgesteld door W.BTW (info) | 00 | 350.000,00 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Bestelwagen** — art. 12 §1, 5° W.BTW stelt onttrekking bij stopzetting gelijk met levering onder bezwarende titel zodra recht op aftrek heeft bestaan. MvH = normale waarde (art. 33 §1, 1°) = €20.000. BTW = €20.000 × 21% = €4.200. 🔗\n\n**Gebouw** — geen \"nieuw gebouw\" meer in 2012 (eerste ingebruikneming 2006 + 1 jaar verstreken op 31/12/2007), dus de gelijkgestelde levering is vrijgesteld (art. 44 §3, 1° W.BTW). Geen 21% op €350.000. Wél activeert de bestemmingswijziging een herziening van de aftrek (art. 10 KB nr. 3): tijdvak 15 jaar voor onroerende bedrijfsmiddelen (art. 9 §2 KB nr. 3), tellend vanaf 1 januari 2006. Resterende jaren vanaf 2012 = 9. Oorspronkelijke aftrek = €250.000 × 21% = €52.500. Herziening = €52.500 × 9/15 = €31.500 terug te storten via rooster 61. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet beide goederen identiek behandelen. Roerend bedrijfsmiddel binnen 5-jarig tijdvak → onttrekking 21% (rooster 03+54). Onroerend bedrijfsmiddel buiten de \"nieuw\"-periode → vrijgestelde levering + herziening (rooster 61, niet 03). Wie het gebouw als belastbare onttrekking @ 21% op €350.000 boekt, betaalt €73.500 BTW i.p.v. de wettelijk juiste €31.500 herziening — €42.000 te veel. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 12 §1, 5° W.BTW (stopzetting = onttrekking, gelijkgesteld met levering onder bezwarende titel). 📖 Art. 33 §1, 1° W.BTW (maatstaf van heffing = normale waarde). 📖 Art. 44 §3, 1° W.BTW (vrijstelling levering oud gebouw). KB nr. 3 art. 9 §1 (herzieningstijdvak 5 jaar roerend) en §2 (15 jaar onroerend); art. 10 (herziening bij wijziging bestemming, incl. onttrekking). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 12 §1, 5° + 33 §1, 1° + 44 §3, 1° W.BTW; KB nr. 3 art. 9-10"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Inkomende B2B-dienst van een dienstverrichter buiten de EU (Japan). Plaats van de dienst = België (afnemer-regel, art. 21 §2 W.BTW). Verlegging van heffing naar de Belgische afnemer (art. 51 §2, 1° W.BTW). Aftrek volledig (beroepsmatige reclamekost).\n\n| ROOSTER | NR | BEDRAG |\n|---|---|---|\n| Inkomende handelingen met verlegging (niet IC-verwerving, niet IC-dienst) | 87 | 5.000,00 |\n| Verschuldigde BTW op rooster 87 | 56 | 1.050,00 |\n| Aftrekbare BTW | 59 | 1.050,00 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Plaats van de dienst voor een B2B-dienst (algemene regel art. 21 §2 W.BTW) = de zetel van de afnemer = België, ongeacht waar de campagne fysiek wordt uitgevoerd. 🔗 Omdat de dienstverrichter niet in België gevestigd is, wordt de heffing verlegd naar de Belgische afnemer (art. 51 §2, 1°). De afnemer rapporteert: MvH €5.000 in rooster 87 (geen IC-dienst — Japan is buiten EU, dus niet rooster 88), verschuldigde BTW €5.000 × 21% = €1.050 in rooster 56, en evenveel aftrekbare BTW in rooster 59 (volle aftrek voor beroepsuitgave). Netto kost = nul. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet rooster 88 (= IC-dienst van een EU-dienstverrichter, art. 21 §2 met verlegging) gebruiken. Japan is derde land — rooster 87 + 56. Ook geen \"plaats waar de campagne uitgevoerd wordt\" denken: sinds de B2B-hervorming 2010 is de algemene regel de afnemer-regel, niet de plaats van uitvoering. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 21 §2 W.BTW (plaats B2B-dienst = afnemer). 📖 Art. 51 §2, 1° W.BTW (verlegging naar afnemer wanneer dienstverrichter niet in BE gevestigd). Rooster 87/56/59 in de periodieke BTW-aangifte voor inkomende handelingen met verlegging vanuit derde landen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 21 §2 + 51 §2, 1° W.BTW"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Overbrenging van eigen goederen NL → BE = gelijkgesteld met een intracommunautaire verwerving in België (art. 25quater W.BTW). MvH = aanschaffingsprijs (art. 33bis → art. 33 §1, 1°) = €1.250. BTW 21% verschuldigd door de Belgische BP zelf, met onmiddellijke aftrek.\n\n| ROOSTER | NR | BEDRAG |\n|---|---|---|\n| MvH intracommunautaire verwervingen (en ermee gelijkgesteld) | 86 | 1.250,00 |\n| Verschuldigde BTW op rooster 86 | 56 | 262,50 |\n| Aftrekbare BTW | 59 | 262,50 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Eigen goederen die een BE-belastingplichtige vanuit NL naar BE overbrengt voor eigen bedrijfsdoeleinden = intracommunautaire overbrenging. Aan de NL-zijde is dit een gelijkgestelde IC-levering (vrijgesteld als IC-levering, tegenhanger art. 12bis W.BTW); aan de BE-zijde een gelijkgestelde IC-verwerving (art. 25quater W.BTW). 🔗 MvH volgens art. 33bis W.BTW: aanschaffingsprijs = €1.250. Verschuldigde BTW = €1.250 × 21% = €262,50. De Belgische BP voldoet de BTW via self-assessment (rooster 86 + 56) en trekt ze tegelijk af in rooster 59 (volle aftrek voor handelsgoederen). Het opgemaakte transfertdocument vervangt de factuur. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Geen verkoop, geen factuur, toch een IC-verwerving — het volstaat dat de BE-BP het eigendomsbezit van de goederen naar een andere lidstaat overbrengt voor eigen doeleinden. De symmetrie (art. 12bis aan vertrek-zijde ↔ art. 25quater aan aankomst-zijde) zorgt voor neutraliteit: NL-vrijstelling, BE-verwerving met self-assessment. Het transfertdocument is het bewijsstuk. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 25quater W.BTW (overbrenging eigen goederen naar BE gelijkgesteld met IC-verwerving). 📖 Art. 12bis W.BTW (overbrenging vanuit BE gelijkgesteld met IC-levering). Art. 33bis W.BTW (MvH = aanschaffingsprijs voor handelingen bedoeld in art. 12bis en 25quater). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 12bis + 25quater + 33bis W.BTW"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-1-vr25"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4434,7 +4758,142 @@
       "vraag_id": "2013-1-vr25"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Verkoop op 01.05.2016 valt **buiten de \"nieuw\"-periode** (verstreken 31.12.2014) → verplicht vrijgestelde levering van een oud gebouw → A moet de oorspronkelijk afgetrokken btw **herzien in het voordeel van de Staat voor de nog niet verlopen jaren**: 105.000 € × 11/15 = **€ 77.000 terug te storten**. De grondprijs (70.000 €) blijft buiten btw. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — oorspronkelijke aftrek**: A is handelaar in computers (volledige btw-plichtige met recht op aftrek). Btw op oprichting: (250.000 + 250.000) × 21 % = **105.000 €**, volledig afgetrokken in 2011-2012. 🔗\n\n**Stap 2 — kwalificatie verkoop**: gebouw is \"nieuw\" voor btw t.e.m. 31 december van het tweede jaar na eerste ingebruikname → ingebruikname 01.07.2012 → \"nieuw\" tot **31.12.2014**. Verkoop 01.05.2016 = **oud gebouw** → verplicht vrijgesteld (art. 44, § 3, 1° WBTW). 📖\n\n**Stap 3 — herziening**: onroerend bedrijfsmiddel = **15-jarige herzieningstermijn** vanaf 1.1.2012 (KB nr. 3, art. 9, § 2). Verlopen jaren op moment van verkoop: 2012-2013-2014-2015 = 4 jaar. **Nog te lopen: 11 jaar**. Vrijgestelde verkoop binnen de termijn = eenmalige herziening voor de resterende jaren (KB nr. 3, art. 10, § 1, 3° + art. 11, § 1). 🔗\n\n**Herziening = 105.000 € × 11/15 = € 77.000** terug te storten aan de Staat (op te nemen in rooster 61 van de btw-aangifte mei 2016). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Optie tot belaste verkoop (KB nr. 14) is **niet meer mogelijk** in 2016: die optie bestaat enkel zolang het gebouw nog \"nieuw\" is. Was A vóór 31.12.2014 verkocht, dan had hij kunnen kiezen voor btw-belaste levering (de koper B trekt dan de btw af) en geen herziening verschuldigd zijn. **Valkuil**: enkel het gebouw (450.000 €) zou met btw belast worden, niet de grondprijs (70.000 €) — die volgt het btw-regime van het gebouw alleen sinds 2011 voor *nieuwe* gebouwen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**WBTW art. 48, § 2** + **KB nr. 3 art. 9, § 2** (15-jarige herziening onroerende bedrijfsmiddelen); **KB nr. 3 art. 10, § 1, 3°** + **art. 11, § 1** (eenmalige herziening voor nog te lopen jaren bij niet-belastbare overdracht); **WBTW art. 44, § 3, 1°** (vrijstelling oude gebouwen); **WBTW art. 1, § 9** + **KB nr. 14** (begrip \"nieuw\" + optieregeling). 📖",
+                "type": "grondslag",
+                "wetsref": "WBTW art. 48 §2 + 44 §3 1°; KB nr. 3 art. 9-11; KB nr. 14"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Initiële aftrek 2013 = **min(60 %, 50 %) × 6.300 € = € 3.150** (aftrekplafond art. 45, § 2 WBTW). Einde 2013 blijkt het werkelijk beroepsgebruik slechts 30 % → aftrek verlaagd naar **30 % × 6.300 € = € 1.890**. **Eerste herziening = € 1.260 terug te storten** in de btw-aangifte over Q4-2013 (of december 2013). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — aftrekplafond**: art. 45, § 2 WBTW begrenst de btw-aftrek op personenwagens tot **maximum 50 %**, ongeacht het werkelijke beroepsgebruik. Een geraamd beroepsgebruik van 60 % wordt dus altijd afgetopt op 50 %. 📖\n\n**Stap 2 — voorlopige aftrek (aankoopmoment 2013)**: voorlopig verhoudingsgetal op basis van de raming → 50 % × 6.300 € = **€ 3.150** in aftrek gebracht. 🔗\n\n**Stap 3 — eerste herziening (eind van het jaar van ingebruikname)**: aan de hand van het **definitief verhoudingsgetal** wordt de oorspronkelijke aftrek herzien (KB nr. 3, art. 16). Werkelijk beroepsgebruik = 30 %, blijft onder het 50 %-plafond → definitieve aftrek = 30 % × 6.300 € = **€ 1.890**. 🔗\n\n**Te storten = 3.150 € − 1.890 € = € 1.260**. Bij latere wijzigingen in het beroepsgebruik gedurende de 5-jarige herzieningstermijn (2013-2017) volgt telkens een nieuwe jaarlijkse herziening van 1/5. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Sinds 2011 (Beslissing E.T.119.650) geldt voor gemengd gebruikte personenwagens de **directe aftrekbeperking volgens beroepsgebruik** (begrensd op 50 %). De **gratis terbeschikkingstelling aan het personeelslid voor privégebruik** wordt **niet meer** belast als een dienst onder bezwarende titel (art. 19 WBTW), juist omdát de aftrek vooraf is beperkt tot het beroepsgebruik. **Niet verwarren** met de oude regeling waar 50 % volledig werd afgetrokken en het privégebruik nadien belast werd via art. 19, § 1. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**WBTW art. 45, § 2** (aftrekplafond 50 % personenwagens) + **art. 45, § 1quinquies** (aftrek volgens werkelijk beroepsgebruik); **KB nr. 3 art. 16** (eerste herziening met definitief verhoudingsgetal voor bedrijfsmiddelen); **KB nr. 3 art. 9, § 1** (5-jarige herzieningstermijn voor roerende bedrijfsmiddelen); **Beslissing E.T.119.650** (administratieve methode 1/2/3 voor bepaling beroepsgebruik). 📖",
+                "type": "grondslag",
+                "wetsref": "WBTW art. 45 §2 + §1quinquies; KB nr. 3 art. 9 §1 + art. 16; Beslissing E.T.119.650"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Verkoop in 2013 is een **belastbare levering** door een btw-plichtige. Door de aftrekbeperking van 50 % bij aankoop wordt de **maatstaf van heffing gehalveerd**: 8.000 € / 2 = 4.000 €. **Verschuldigde btw = 4.000 € × 21 % = € 840**. **Geen herziening** verschuldigd: de 5-jarige herzieningstermijn (2008-2012) is op 31.12.2012 verstreken. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — maatstaf van heffing**: bij verkoop van een goed waarvan de oorspronkelijke aftrek beperkt was tot 50 % (art. 45, § 2 WBTW), wordt de maatstaf voor de uitgaande btw gehalveerd (administratieve toleratie / art. 45, § 1quinquies-logica). Maatstaf = 8.000 € × 50 % = **4.000 €**. 🔗\n\n**Stap 2 — verschuldigde btw**: 4.000 € × 21 % = **€ 840**, op te nemen in rooster 03 (maatstaf) en rooster 54 (btw) van de aangifte. 🔗\n\n**Stap 3 — herziening?** Roerend bedrijfsmiddel → 5-jarige herzieningstermijn (KB nr. 3, art. 9, § 1) vanaf 1.1.2008 → verstreken op **31.12.2012**. Verkoop in 2013 = **buiten de termijn** → geen herziening in voor- of nadeel van de Staat (KB nr. 3, art. 10). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Was de wagen vóór 31.12.2012 verkocht (binnen de herzieningstermijn), dan zou de BVBA daarnaast een **herziening in haar voordeel** kunnen vragen voor het nog niet verlopen deel van de 5 jaar, voor zover de verschuldigde btw op de verkoop hoger ligt dan de oorspronkelijk afgetrokken btw pro rata voor de resterende jaren (\"vangnet\"-herziening, KB nr. 3, art. 10, § 1, 3°). In 2013 is dat niet meer aan de orde. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**WBTW art. 2 + art. 10** (belastbare levering door btw-plichtige); **WBTW art. 45, § 2** (50 %-plafond personenwagens) → halvering maatstaf bij verkoop (vaste administratieve praktijk, bevestigd in Btw-commentaar nr. 45/213); **KB nr. 3 art. 9, § 1** (5-jarige herzieningstermijn roerende bedrijfsmiddelen); **KB nr. 3 art. 10** (geen herziening na verloop van de termijn). 📖",
+                "type": "grondslag",
+                "wetsref": "WBTW art. 2 + 10 + 45 §2; KB nr. 3 art. 9 §1 + art. 10"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-1-vr26"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

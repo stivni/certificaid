@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr11A",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** — De garage is **verplicht** een factuur uit te reiken (onderhoud/herstelling van een autovoertuig aan een natuurlijke persoon voor privégebruik valt onder de factuurplicht van art. 1 KB nr. 1), en de BTW is **opeisbaar op 30/4/N**, het tijdstip waarop de factuur effectief werd uitgereikt (art. 22bis, § 1 WBTW). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Stap 1 — Factuurplicht?** Hoofdregel: een belastingplichtige hoeft géén factuur uit te reiken aan een natuurlijke persoon die de dienst bestemt voor privégebruik (art. 53, § 2 WBTW). 📖 Maar art. 1 KB nr. 1 voorziet een lijst van uitzonderingen waarin de factuur wél verplicht is — onder andere **werk in onroerende staat, leveringen en diensten met betrekking tot autovoertuigen, en onderhoud/herstelling van personenwagens**. Een rentenier is een niet-belastingplichtige natuurlijke persoon → onderhoud van zijn hybride dieselwagen valt onder die uitzondering → **factuur verplicht**. 🔗\n\n**Stap 2 — Opeisbaarheid BTW?** Voor diensten waarvoor factuurplicht geldt (art. 53, § 2 WBTW), bepaalt art. 22bis, § 1 WBTW: de BTW wordt opeisbaar **op het tijdstip waarop de factuur wordt uitgereikt**, ongeacht of dat vóór of na de dienst is. 📖 Hier: dienst verricht 27/4/N, factuur uitgereikt **30/4/N** → opeisbaarheid op 30/4/N. De betaling op 3/5/N is irrelevant zodra de factuur tijdig is uitgereikt; ze zou alleen meetellen als vooruitbetaling (vóór de dienst, art. 22bis, § 1, derde lid). 🔗\n\n**Per optie**:\n- **a** (niet verplicht / 3/5/N) → FOUT — factuur is wél verplicht voor onderhoud autovoertuigen aan particulieren; bovendien volgt de opeisbaarheid niet de betaaldatum. 🔗\n- **b** (niet verplicht / 30/4/N) → FOUT op het eerste lid (factuur is verplicht). 🔗\n- **c** (verplicht / 30/5/N) → FOUT — de 15de-dag-vangnetregel (art. 22bis, § 1, tweede lid) treedt enkel in werking wanneer géén factuur werd uitgereikt vóór die datum. Hier is de factuur op 30/4/N tijdig uitgereikt, dus telt die datum. 🔗\n- **d** (verplicht / 30/4/N) → JUIST — factuurplicht én opeisbaarheid op factuurdatum. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **opeisbaarheid** niet met het **belastbare feit**. Het belastbare feit (art. 22, § 1 WBTW) blijft het tijdstip waarop de dienst is verricht (27/4/N); dat is het ogenblik waarop de BTW-verschuldigdheid ontstaat. De **opeisbaarheid** (wanneer de BTW in de aangifte moet worden opgenomen) wordt door art. 22bis vervroegd naar de factuurdatum of betaling, naargelang wat eerst gebeurt. Voor een **maandaangever** betekent dit dat de BTW van deze handeling in de aangifte over april (in te dienen tegen 20 mei) moet worden opgenomen — niet in mei. 🔗 Het feit dat de klant een rentenier (particulier) is, is voor de opeisbaarheid niet relevant zodra er factuurplicht is: art. 22bis maakt geen onderscheid B2B/B2C. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 53, § 2 WBTW + art. 1 KB nr. 1**: factuurplicht aan natuurlijke personen voor privégebruik is in beginsel uitgesloten, behalve voor de in art. 1 KB nr. 1 opgesomde handelingen — waaronder leveringen, onderhoud en herstelling van autovoertuigen. 📖 **Art. 22, § 1 WBTW**: belastbaar feit en opeisbaarheid bij diensten = tijdstip waarop de dienst is verricht. 📖 **Art. 22bis, § 1 WBTW** (afwijking voor diensten met factuurplicht): BTW opeisbaar op het tijdstip waarop de factuur wordt uitgereikt; bij gebreke daaraan op de 15de dag van de maand volgend op het belastbare feit; bij vooruitbetaling op het tijdstip van de ontvangst. 📖",
+          "wetsref": "Art. 22, art. 22bis §1, art. 53 §2 WBTW; art. 1 KB nr. 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

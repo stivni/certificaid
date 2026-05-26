@@ -1,0 +1,133 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr28",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Fiscale meerwaarde voor gespreide taxatie = **42.000 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Meerwaarde = (verkoopprijs − verkoopkosten) − netto-boekwaarde:\n\n| Post | Bedrag (EUR) |\n|---|---:|\n| Verkoopprijs | 325.000 |\n| − Schattingskosten | −8.000 |\n| − Publiciteit | −5.000 |\n| − Makelaarscommissie | −20.000 |\n| **Netto-verkoopprijs** | **292.000** |\n| − Netto-boekwaarde (1.000.000 − 750.000) | −250.000 |\n| **Fiscale meerwaarde** | **42.000** |\n\nAlle kosten die de vennootschap heeft gedragen om de vervreemding te realiseren (schatting, publiciteit, makelaar) verminderen de verkoopwaarde voor de berekening van de fiscale meerwaarde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Voorwaarden gespreide taxatie",
+          "tekst": "Het gebouw voldoet aan de voorwaarden van art. 47 WIB 92: materieel vast actief, sedert meer dan 5 jaar in de vennootschap (aangekocht in 1985, verkocht in 2012 — ruimschoots > 5 jaar). De vennootschap moet wel een bedrag gelijk aan de **volledige verkoopwaarde** (niet enkel de meerwaarde) herbeleggen binnen 3 jaar (5 jaar voor onroerend goed) in afschrijfbare immateriële/materiële vaste activa in een EER-lidstaat. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 47 § 1, 2° WIB 92: meerwaarden bij vervreemding van materiële vaste activa die sedert meer dan 5 jaar de aard van vaste activa hadden, kunnen gespreid belast worden mits herbelegging van een bedrag gelijk aan de verkoopwaarde. 📖",
+          "wetsref": "Art. 47 § 1, 2° WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Onttrekking 2012 = **1.260 EUR** (totaal), op te splitsen in **428,27 EUR** uitgestelde belastingen → resultatenrekening (belastingen) en **831,73 EUR** belastingvrije reserves → opbrengst onttrekking (rek. 789). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — splitsing meerwaarde bij overboeking naar belastingvrije reserves** (boekhoudkundige verwerking gespreide taxatie):\n\n| Post | Berekening | Bedrag (EUR) |\n|---|---|---:|\n| Bruto meerwaarde | uit vraag a) | 42.000,00 |\n| Uitgestelde belastingen (33,99%) | 42.000 × 33,99% | 14.275,80 |\n| Belastingvrije reserves (netto) | 42.000 × 66,01% | 27.724,20 |\n\n**Stap 2 — onttrekkingscoëfficiënt** = afschrijvingspercentage van het herbeleggingsgoed = **3%** per jaar (lineaire afschrijving op de constructiewaarde van 200.000 EUR; de grond van 80.000 EUR is niet afschrijfbaar maar telt wel mee als herbelegging).\n\n**Stap 3 — onttrekking boekjaar 2012**:\n\n| Rekening | Berekening | Bedrag (EUR) |\n|---|---|---:|\n| 168 Uitgestelde belastingen → 77 (belastingen) | 14.275,80 × 3% | **428,27** |\n| 132 Belastingvrije reserves → 789 (onttrekking) | 27.724,20 × 3% | **831,73** |\n| **Totaal onttrekking** | | **1.260,00** |\n\nDe totale onttrekking stemt overeen met 3% van de bruto-meerwaarde (42.000 × 3% = 1.260 EUR), wat ook het bedrag is dat fiscaal als gespreide meerwaarde belastbaar wordt in 2012. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De vennootschap heeft **anterieur** herbelegd: het herbeleggingsgoed werd in 2011 aangekocht, vóór de realisatie van de meerwaarde in 2012. Art. 47 § 4 WIB 92 laat dit toe — herbeleggingen die zijn gebeurd in het belastbaar tijdperk waarin de meerwaarde is verwezenlijkt of in één van de drie voorafgaande tijdperken komen in aanmerking. De onttrekking start in het jaar van realisatie van de meerwaarde (2012), niet in het jaar van herbelegging. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 47 § 1 WIB 92: de meerwaarde wordt belast \"naar verhouding tot de afschrijvingen op die [herbelegde] goederen die ... in aanmerking worden genomen\". CBN-advies 147/3 beschrijft de boekhoudkundige verwerking: bij realisatie boeking via resultatenrekening en overboeking naar (132) Belastingvrije reserves met afzondering van het uitgestelde-belastinggedeelte op (168). Bij elke afschrijving op het herbeleggingsgoed wordt een pro-rata-deel onttrokken. 📖",
+          "wetsref": "Art. 47 § 1 WIB 92; CBN-advies 147/3; KB W.Venn. art. 76 (boekhoudkundige verwerking)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-0147-03-meerwaarden-op-overheidseffecten-bedoeld-door-artikel-513-van-het-nieuwe-wib.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Vak \"Gespreid te belasten meerwaarden\" (code **1112**, art. 47 WIB 92) op de aangifte VenB aanslagjaar 2013 = **40.740 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Het vak \"Vrijgestelde reserves — Gespreid te belasten meerwaarden\" toont het bedrag aan meerwaarde dat **nog niet** belastbaar werd gesteld op het einde van het belastbaar tijdperk (= aanslagjaar 2013 voor boekjaar 2012):\n\n| Post | Bedrag (EUR) |\n|---|---:|\n| Bruto fiscale meerwaarde (uit vraag a) | 42.000,00 |\n| − Reeds gespreid belast in 2012 (3%) | −1.260,00 |\n| **Saldo in vak \"Gespreid te belasten meerwaarden\" (code 1112)** | **40.740,00** |\n\nDit saldo zal in de volgende belastbare tijdperken verder afnemen naar rato van de jaarlijkse afschrijvingen op het herbeleggingsgoed (3% × 42.000 = 1.260 EUR per jaar), totdat de meerwaarde volledig in de belastbare basis is opgenomen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren: in het vak \"Vrijgestelde reserves\" komt het **bruto** saldo van de gespreid te belasten meerwaarde (42.000 − 1.260 = 40.740), **niet** het netto-bedrag dat boekhoudkundig op rekening 132 staat (27.724,20 − 831,73 = 26.892,47). Fiscaal volgt men de volledige meerwaarde; de splitsing naar uitgestelde belastingen is enkel boekhoudkundig. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Aangifte VenB — vak \"Vrijgestelde reserves\", rubriek 4b code **1112**: gespreid te belasten meerwaarden op materiële en immateriële vaste activa (art. 47 WIB 92), belastbaar naar verhouding van de afschrijvingen op de herbeleggingsgoederen (opgave 276 K). 📖",
+          "wetsref": "Art. 47 WIB 92; aangifte VenB code 1112 (vak \"Gespreid te belasten meerwaarden op materiële en immateriële vaste activa\")",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-reserves.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

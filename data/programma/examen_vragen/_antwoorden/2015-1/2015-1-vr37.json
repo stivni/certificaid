@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr37",
+  "antwoord_datum": "2026-05-26T16:28:49Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **D** is correct: de vzw is een **gemengde belastingplichtige**. De yogalessen vallen onder de btw-vrijstelling van art. 44, §2, 3° WBTW (sport/lichamelijke opvoeding door instelling zonder winstoogmerk) 🔗, maar de cafétoog en de boekenverkoop zijn met btw belaste handelingen 🔗. De vzw dient periodieke btw-aangiften in en oefent een gedeeltelijk recht op aftrek uit via algemeen verhoudingsgetal of werkelijk gebruik (art. 46 WBTW) 📖.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **A (onderwijs, art. 44, §2, 4°)** — fout: yoga voor mensen met burn-out is geen schools-, beroeps- of bijscholingsonderwijs in de zin van art. 44, §2, 4° WBTW; het is een sport-/ontspanningsactiviteit 🔗. Bovendien zou de vrijstelling, zelfs als ze toepasselijk was, **niet automatisch doorwerken** op café- en boekenverkoop — die zijn afzonderlijke handelingen 🔗.\n- **B (geen vrijstelling, volledig btw-plichtig met volledig recht op aftrek)** — fout: yogalessen door een vzw zonder winstoogmerk vallen wel degelijk onder art. 44, §2, 3° WBTW (sport/lichamelijke opvoeding) 🔗. De vrijstelling moet dus voor dat deel ingeroepen worden.\n- **C (sport, art. 44, §2, 3°, ook voor bijkomende activiteiten)** — fout: de vrijstelling van art. 44, §2, 3° dekt enkel de **sportprestatie zelf**, niet de drankverstrekking in een café of de verkoop van boeken 🔗. Die nevenactiviteiten zijn aan btw onderworpen — ook al zijn ze beperkt in omvang en intern verbonden met de yogalessen.\n- **D (gemengd statuut)** — juist: yogalessen vrijgesteld → geen aftrek op de input voor dat deel; café (niet-alcoholische dranken, < 10.000 EUR) en boekenverkoop (4.000 EUR) zijn belastbare handelingen → recht op aftrek voor dat deel. De vzw is gemengde belastingplichtige in de zin van art. 46 WBTW, met aftrek volgens **algemeen verhoudingsgetal** (default) of **werkelijk gebruik** (op verzoek/oplegging) 📖.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — De vrijstelling van art. 44 WBTW is **per handeling**, niet per belastingplichtige: een vzw die één vrijgestelde activiteit verricht wordt niet automatisch een \"vrijgestelde belastingplichtige\" voor alles wat ze daarnaast doet. Zodra er belastbare nevenhandelingen zijn (hier: café + boekenverkoop), ontstaat een gemengd statuut met aftrek-pro-rata, tenzij de bijkomende handelingen onder de **kleineondernemingsregeling** van art. 56bis WBTW (drempel 25.000 EUR omzet) zouden vallen — wat hier denkbaar is gezien café (< 10.000 EUR) + boeken (4.000 EUR) = ca. 14.000 EUR ❓. De vraag dwingt echter een keuze tussen de vier voorgelegde opties; binnen die set is D het correcte statuut-antwoord 🔗.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 44, §2, 3° WBTW**: vrijstelling voor diensten verstrekt door exploitanten van sportinrichtingen en inrichtingen voor lichamelijke opvoeding aan personen die er aan sport of lichamelijke opvoeding doen, wanneer die exploitanten **instellingen zijn die geen winstoogmerk nastreven** en de ontvangsten uitsluitend gebruiken om de kosten ervan te dekken 📖. **Art. 44, §2, 4° WBTW**: vrijstelling voor school- en universitair onderwijs, beroepsopleiding en -herscholing — niet van toepassing op yoga-/ontspanningslessen 📖. **Art. 46, §1 WBTW** + **art. 12-15 KB nr. 3**: bij gemengd gebruik wordt aftrek bepaald via **algemeen verhoudingsgetal** (breuk: handelingen met aftrekrecht / totale handelingen); art. 46, §2 laat **werkelijk gebruik** toe op verzoek of oplegging 📖.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

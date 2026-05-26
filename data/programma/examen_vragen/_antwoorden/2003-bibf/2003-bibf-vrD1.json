@@ -1,0 +1,65 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrD1",
+  "antwoord_datum": "2026-05-26T16:27:52Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Als kwartaal-BTW-belastingplichtige horeca-uitbater moet de cliënt (a) een aan zijn activiteit aangepaste BTW-boekhouding voeren met de wettelijk verplichte boeken, (b) facturen uitreiken en kastickets afleveren via een geregistreerd kassasysteem (GKS) wanneer zijn jaaromzet restaurant-/cateringdiensten > 25.000 EUR, (c) kwartaalaangiften en de jaarlijkse klantenlisting indienen, en (d) zijn boeken en stukken 10 jaar bewaren. Per kwartaal bezorgt hij u: aankoop-/onkostenfacturen, verkoopfacturen, dagontvangstenboek met de Z-rapporten/kastickets, kas- en bankuittreksels en de loonstaten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Wettelijke verplichtingen",
+          "tekst": "**BTW-verplichtingen (W.BTW + KB nr. 1):**\n\n- **Aangifte bij aanvang/wijziging/stopzetting** activiteit bij het bevoegde BTW-controlekantoor (art. 53 W.BTW). 📖\n- **BTW-boekhouding aangepast aan de activiteit** (art. 14 §1 KB nr. 1): boek voor inkomende facturen, boek voor uitgaande facturen, **dagboek van ontvangsten** per bedrijfszetel (verplicht voor handelingen waarvoor geen factuur moet worden uitgereikt — typisch horeca-verkopen aan particulieren), en een **centralisatieboek** als er meerdere boeken zijn. 📖\n- **Facturen uitreiken** voor handelingen aan BTW-plichtigen/rechtspersonen en bewaren van dubbels (art. 53, §2 W.BTW). 📖\n- **Geregistreerd kassasysteem (GKS) met kasticket** wanneer de jaaromzet uit restaurant-/cateringdiensten (exclusief BTW, dranken niet meegeteld) meer bedraagt dan **25.000 EUR** (art. 21bis KB nr. 1 + KB 30.12.2009). 📖\n- **Periodieke BTW-aangifte per kwartaal** indienen uiterlijk de **20e** van de maand volgend op het kwartaal en de verschuldigde BTW betalen; bij keuze voor het normale kwartaalregime zijn **voorschotten** verschuldigd (art. 53, §1 W.BTW + KB nr. 1). 🔗\n- **Jaarlijkse klantenlisting** (lijst BTW-belastingplichtige afnemers) indienen vóór 31 maart van het volgende jaar (KB nr. 23). 📖\n- **Intracommunautaire opgave** indien IC-leveringen of -diensten (KB nr. 50) — voor zuivere horeca meestal niet aan de orde. 🔗\n- **Bewaarplicht** van boeken, facturen en stukken gedurende **7 jaar** (sinds 2019; voor het examenjaar 2003 gold nog **10 jaar** — art. 60 W.BTW). ❓\n\n**Boekhoudkundige en sociale verplichtingen:**\n\n- **Boekhoudplicht** als natuurlijke persoon met zelfstandige beroepsactiviteit (vroeger Wet 17.07.1975, sinds WER Boek III art. III.82 e.v.): minstens een **vereenvoudigde boekhouding** (financieel dagboek, aankoopboek, verkoopboek, inventarisboek) zolang de omzet ≤ de drempel (vandaag 500.000 EUR ex BTW); daarboven dubbel boekhouden. 🔗\n- **Jaarlijkse inventaris** en opmaak van **jaarrekening** (interne jaarrekening voor de eenmanszaak). 🔗\n- **Aansluiting bij een sociaal verzekeringsfonds** voor zelfstandigen + driemaandelijkse sociale bijdragen. 🔗\n- **Personenbelasting**: jaarlijkse PB-aangifte met **deel 2** (winst-/baten); kwartaalvoorafbetalingen om belastingvermeerdering te vermijden. 🔗\n- **Bedrijfsvoorheffing** en RSZ inhouden en doorstorten indien personeel in dienst. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Stukken/informatie per kwartaal",
+          "tekst": "Wat u als boekhouder telkens vóór het einde van de maand na het kwartaal van de cliënt nodig heeft om de BTW-aangifte op te maken:\n\n- **Aankoopfacturen en onkostennota's** van het kwartaal (handelsgoederen, dranken, voeding, energie, huur, telefoon, verzekeringen, ...), origineel of elektronisch. 🔗\n- **Verkoopfacturen** uitgereikt aan BTW-plichtige klanten / op vraag (seminaries, bedrijfsmaaltijden, ...). 🔗\n- **Dagboek van ontvangsten** en/of de **dagelijkse Z-rapporten** van het geregistreerd kassasysteem (of, bij omzet ≤ 25.000 EUR restaurant/catering: het manueel bijgehouden ontvangstenboek met dagtotalen). 🔗\n- **Kas- en bankuittreksels** van alle beroepsrekeningen + kasboek. 🔗\n- **Creditnota's** (uitgaand en inkomend) en eventuele **invoerdocumenten / IC-stukken**. 🔗\n- **Loon- en personeelsstaten** (indien personeel): individuele rekeningen, lonen, bedrijfsvoorheffing, RSZ-aangifte. 🔗\n- **Eventuele investeringsdocumenten** (aankoop materieel, auto, inrichting) — relevant voor BTW-aftrek en afschrijving. 🔗\n- **Stand van vorderingen/schulden** op kwartaaleinde (klanten- en leverancierssaldi) voor de tussentijdse afsluit. 🔗\n\nJaarlijks bijkomend: **inventaris voorraad** (drank, food, klein materieel) en kilometerstand/privégebruik beroepsvoertuig voor het BTW-aftrekverhoudingscijfer. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het **geregistreerd kassasysteem (GKS)** voor horeca bestond in 2003 nog niet — het werd ingevoerd vanaf **2014** (KB 30.12.2009 + KB 01.10.2013). In 2003 hield een taverne-uitbater zijn omzet bij in een **gewoon dagontvangstenboek** (per bedrijfszetel, dagelijks ingevuld met afzonderlijke vermelding per BTW-tarief — art. 14 KB nr. 1). De 25.000 EUR-drempel en de GKS-verplichting zijn dus enkel relevant voor de moderne lezing van de vraag. Het juist toepassen van het tijdperk-correcte regime is de typische valkuil bij oudere examenvragen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW-KB01okt2013-certificatie-gks.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**W.BTW**: art. 53 (aanvangsaangifte, periodieke aangifte, facturatie), art. 60 (bewaarplicht boeken en stukken), art. 56bis (kasticket horeca). **KB nr. 1 W.BTW** (29.12.1992): art. 14 (boekhouding aangepast aan de activiteit + verplichte boeken inclusief dagboek van ontvangsten), art. 21bis (kasticket-/GKS-plicht horeca > 25.000 EUR). **KB nr. 23** (09.12.2009): jaarlijkse klantenlisting. **KB nr. 50**: intracommunautaire opgave. **WER Boek III** (art. III.82 e.v.): algemene boekhoudplicht zelfstandigen. 📖",
+          "wetsref": "art. 53, 56bis, 60 W.BTW · art. 14, 21bis KB nr. 1 · KB nr. 23 · WER art. III.82",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

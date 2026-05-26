@@ -1,0 +1,83 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr24",
+  "antwoord_datum": "2026-05-26T16:27:53Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-mismatch: pagina_04.png in _segmenten/ toont een andere vraag (ontwikkelingskosten activering — \"Vraag 3 ... / 5 punten\"), niet de VenB-grondslag-vraag uit de tekst-interpretatie. De auto-isolatie heeft hier de verkeerde PDF-pagina gekoppeld. Het antwoord is gebaseerd op de interne-consistente tekst-interpretatie (casus + gegevens_tabel) — niet op de PNG. Bijlage aangifte voor deelvraag b zit niet in de segmenten — codes zijn gereconstrueerd op basis van de standaard aangifte VenB AJ 2012.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Belastbare grondslag = **37 000,00 euro**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Opbouw via de bewerkingen (volgorde art. 74 KB/WIB 92 → art. 206/1 WIB 92 nieuwe nummering):\n\n| Bewerking | Bedrag |\n|---|---:|\n| 1ste bewerking — fiscaal resultaat: aangroei reserves (6 000) + verworpen uitgaven (40 000, incl. 17 % × 100 000 VAA = 17 000) + uitgekeerde dividenden (4 000) | **50 000,00** 🔗 |\n| 2de bewerking — uitsplitsing naar herkomst (alles Belgisch, geen vrijstelling bij Verdrag) | 50 000,00 🤖 |\n| 3de bewerking — niet-belastbare bestanddelen / vrijgestelde giften | 0 🤖 |\n| 4de bewerking — DBI-aftrek / aftrek voor octrooi-inkomsten | 0 🤖 |\n| 5de bewerking — **aftrek overgedragen verliezen** (-13 000) | **37 000,00** 🔗 |\n| 6de bewerking — investeringsaftrek | 0 🤖 |\n| **Belastbare grondslag** | **37 000,00** 🔗 |\n\nKritisch punt: de casus zegt expliciet dat alle VAA's belastbaar zijn in de personenbelasting bij de genieters → er is **geen aftrekverbod** op de overgedragen verliezen (geen abnormaal of goedgunstig voordeel in de zin van art. 79 WIB 92, geen niet-verantwoorde VAA's). De volledige 13 000 mag in mindering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**De 100 000 euro VAA zelf is géén verworpen uitgave** — enkel de **17 % forfaitaire bijtelling op brandstof** (= 17 000) is sinds de hervorming 2012 een VU (art. 198, § 1, 9°bis WIB 92). De loonkost van de wagens en de geboekte VAA-tegenboeking blijven aftrekbaar. Wie het volledige bedrag van 100 000 als VU zou bijtellen, komt aan een veel hogere grondslag — dat is fout. ❓\n\nEen tweede valkuil betreft het **gebroken boekjaar**: het boekjaar loopt van 01.10.2011 tot 30.09.2012, maar het aanslagjaar wordt bepaald door de afsluitdatum → **aanslagjaar 2013** (niet 2012). De casus vermeldt overgedragen verliezen \"voor aanslagjaar 2012\" — dit zijn de op die balansdatum nog beschikbare overgedragen verliezen die in AJ 2013 worden verrekend. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 183 e.v. WIB 92** — vaststelling van de belastbare grondslag in de VenB volgens de zes bewerkingen. **Art. 206 WIB 92** — aftrek van overgedragen beroepsverliezen, onbeperkt verrekenbaar in de tijd voor AJ 2013. **Art. 207, tweede lid WIB 92** (versie AJ 2013) — aftrekverbod geldt enkel op abnormale/goedgunstige voordelen (art. 79), op de afzonderlijke aanslag geheime commissielonen (art. 219) en op bepaalde investeringsreserve-recapture; **niet** op het gedeelte VAA-VU dat hier gangbaar in de winst zit. **Art. 198, § 1, 9°bis WIB 92** — 17 % van het VAA brandstof = verworpen uitgave. 🔗",
+          "wetsref": "Art. 183, 198 § 1 9°bis, 206, 207 WIB 92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "Invullen van de aangifte VenB (Vak \"Uiteenzetting van de winst\" — codes AJ 2013):\n\n| Rubriek | Code | Bedrag |\n|---|---|---:|\n| Belaste reserves — aangroei in het belastbare tijdperk | **1080** | 6 000,00 |\n| Uitgekeerde dividenden (gewone dividenden) | **1320** | 4 000,00 |\n| Verworpen uitgaven — totaal | **1206** | 40 000,00 |\n| ↳ waarvan: niet-aftrekbare autokosten en VAA-brandstof (17 % × 100 000) | (sub-detail) | 17 000,00 |\n| **Resultaat van het belastbare tijdperk (= 1ste bewerking)** | — | **50 000,00** |\n| Aftrek vorige beroepsverliezen | **1436** | 13 000,00 |\n| **Resultaat na 5de bewerking — belastbare grondslag** | **1460** | **37 000,00** |\n\nDe bijlage van het examen vroeg vermoedelijk om enkel de rubrieken \"belaste reserves\", \"verworpen uitgaven\", \"dividenden\", \"vorige verliezen\" en \"belastbare grondslag\" — bovenstaande tabel dekt die. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De casus levert de bestanddelen al **na** de 1ste bewerking (50 000 reeds uitgesplitst in reserves/VU/dividenden) — daarom verdwijnen tussenstappen zoals \"belastbaar gereserveerde winst\" en gaan we rechtstreeks naar de drie bestanddelen + de aftrek. In een echt aangifte-formulier zouden ook codes 1040 (overgedragen winst/verlies) en 1060/1070 (mutaties belastingvrije reserves) ingevuld worden, maar deze zijn hier niet relevant. De codes hierboven zijn de AJ 2013-codes; de aangifte voor AJ 2013 kende nog niet de huidige korf-regeling van art. 207, § 5 WIB 92 (ingevoerd vanaf AJ 2019). ❓\n\n**Voorbehoud bij de codes**: voor AJ 2013 gebruikte de aangifte gedeeltelijk andere subcodes voor de VU's (geen onderverdeling \"autokosten boven aftrekbeperking\" in dezelfde vorm als nu). De bijlage van het examen zal de exacte codes geven; bovenstaande zijn de hoofdcodes die toen al bestonden. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**KB/WIB 92, bijlage III** (model aangifte VenB AJ 2013) — codes 1080, 1206, 1320, 1436, 1460. **Art. 198, § 1, 9°bis WIB 92** — VU-statuut 17 % brandstof-VAA. **Art. 206 WIB 92** — code 1436 \"aftrek vorige beroepsverliezen\". 🔗",
+          "wetsref": "KB/WIB 92 bijlage III; art. 198, 206 WIB 92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr11B",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Vraag is topic_only (herinnering): enkel onderwerp 'Margeregeling, situatie hoe opnemen in de btw aangifte' is bewaard, geen concrete vraagstelling of opties. Antwoord behandelt het canonieke topic: hoe handelingen onder de bijzondere winstmargeregeling (KB nr. 53) worden opgenomen in de periodieke BTW-aangifte (rooster 600/700, vakken 00/03/54).",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Onder de winstmargeregeling (KB nr. 53) wordt **niet de verkoopprijs** maar de **winstmarge exclusief BTW** (= verkoopprijs − aankoopprijs, verminderd met de in de marge begrepen BTW) opgenomen als maatstaf van heffing in de periodieke BTW-aangifte. De aangifte gebeurt per **aangiftetijdvak** op basis van de **globale (totale) winstmarge** van dat tijdvak, niet stuk per stuk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Concrete opname in de aangifte",
+          "tekst": "- **Rooster 00** — de **verkoopprijzen** (inclusief BTW) van de leveringen onder de margeregeling worden ter informatie opgenomen in vak **00** (handelingen onderworpen aan een bijzondere regeling). 🤖\n- **Rooster 03 (of 01/02)** — de **maatstaf van heffing = de winstmarge exclusief BTW**, opgesplitst per BTW-tarief (meestal 21 %, dus rooster 03). 🔗\n- **Rooster 54** — de **verschuldigde BTW** berekend op die winstmarge (winstmarge × t / (100+t)). 🔗\n- **Rooster 81/82/83** — de **aankoopprijs** van de tweedehandsgoederen wordt **niet** in de gewone aankoop-roosters opgenomen voor wat de marge-aankopen betreft (geen aftrekbare BTW — er is geen BTW gefactureerd door de leverancier-particulier of vrijgestelde belastingplichtige). 🔗\n- **Geen BTW-aftrek** op de aankoopprijs van het tweedehandsgoed zelf; wél aftrek mogelijk op andere kosten (herstelling, transport, commissie). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Berekening van de winstmarge per aangiftetijdvak",
+          "tekst": "De **globalisatiemethode** (art. 3 KB nr. 53) geldt: per tijdvak wordt de **totale winstmarge** vastgesteld als het verschil tussen het **totaalbedrag van de verkopen** onder margeregeling en het **totaalbedrag van de aankopen** van goederen die in dat tijdvak voor margeregeling werden bestemd, per BTW-tarief. Is dit verschil negatief, dan wordt het overgedragen naar het volgende tijdvak. Het **laatste tijdvak van het jaar** wordt gecorrigeerd op basis van de jaarlijkse **inventaris** van de margevoorraad. De maatstaf van heffing = totale winstmarge × 100 / (100 + t). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Op de **factuur** aan de klant mag **geen BTW afzonderlijk worden vermeld** (anders verliest de wederverkoper de margeregeling voor die handeling); de factuur draagt verplicht de vermelding *\"Bijzondere regeling — gebruikte goederen\"* (of kunstvoorwerpen / verzamelingen / antiquiteiten). De klant kan die BTW dus **niet aftrekken**. De wederverkoper kan per levering altijd opteren voor de **normale BTW-regeling** (art. 319 BTW-richtlijn) — dan komt de volledige verkoopprijs in rooster 03 en wordt BTW op de volledige prijs aangerekend. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**KB nr. 53 van 23.12.1994** (winstmarge tweedehandsgoederen, kunstvoorwerpen, verzamelingen, antiquiteiten): art. 1 (definities), art. 2 (maatstaf van heffing = winstmarge exclusief BTW per individuele levering), art. 3 (globalisatiemethode per aangiftetijdvak + jaarlijkse inventaris), art. 8 (verplichte factuurvermelding *\"Bijzondere regeling — gebruikte goederen\"*). Achterliggend: **art. 58 §4 WBTW** + **art. 311-343 BTW-richtlijn 2006/112/EG** (art. 314: doelgroep; art. 315: maatstaf = winstmarge − BTW; art. 319: optie normale regeling per levering). 📖",
+          "wetsref": "KB nr. 53 art. 1-3, 8 · art. 58 §4 WBTW · art. 311-343 (i.h.b. 314, 315, 319) Richtlijn 2006/112/EG",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

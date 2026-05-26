@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr33",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** — De Belgische btw is van toepassing. Voor een dienst aan een **niet-belastingplichtige** (B2C) is de plaats van de dienst, volgens de algemene regel van art. 21bis § 1 WBTW, de plaats waar de **dienstverrichter** is gevestigd. De accountant is gevestigd te Charleroi → Belgische btw (21 %) op de 500 EUR. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** (geen btw want particulier) → FOUT. Een accountant is een gewone belastingplichtige; de hoedanigheid van de afnemer (particulier) ontslaat hem niet van de btw-plicht, ze bepaalt enkel **welke** plaatsregel geldt (art. 21bis i.p.v. art. 21). 🔗\n- **b** (geen Belgische btw want materieel uitgevoerd in Frankrijk) → FOUT. De **plaats van materiële uitvoering** is in de algemene B2C-regel **niet** relevant — alleen de vestigingsplaats van de dienstverrichter telt. Het feit dat de accountant in de trein op Frans grondgebied werkt, is btw-technisch betekenisloos. 🔗\n- **c** (Belgische btw want dienstverrichter in België) → **JUIST**. Toepassing art. 21bis § 1 WBTW. 📖\n- **d** (Belgische btw want afnemer in België) → FOUT als motivering. De afnemer-regel (art. 21 § 2 WBTW) geldt enkel **B2B**. In B2C is het criterium de dienstverrichter, niet de afnemer — toevallig leidt het hier tot hetzelfde land, maar de motivering klopt niet. 🔗\n- **e** (Franse btw, plaats materiële verrichting) → FOUT. Geen van de afwijkingen van art. 21bis § 2 WBTW (onroerend goed, personenvervoer, restaurant, evenementen, ...) is van toepassing op een aangifte opgesteld in een trein. De algemene regel blijft gelden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **art. 21 § 2 WBTW** (B2B — plaats van de **afnemer**) niet met **art. 21bis § 1 WBTW** (B2C — plaats van de **dienstverrichter**). Sinds de hervorming van 1 januari 2010 is dit het sluitstuk van het Belgische btw-regime voor diensten: de hoedanigheid van de afnemer (belastingplichtige ja/neen) bepaalt welke algemene regel je toepast. De plaats waar het werk fysiek wordt uitgevoerd is — buiten de limitatieve afwijkingen (onroerend goed, vervoer, evenementen, restaurant, ...) — **niet** relevant. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 21bis § 1 WBTW**: \"De plaats van diensten, verricht voor een niet-belastingplichtige, is de plaats waar de dienstverrichter de zetel van zijn economische activiteit heeft gevestigd.\" Te lezen samen met art. 21 § 2 WBTW (B2B-tegenhanger: plaats van de afnemer). 📖",
+          "wetsref": "Art. 21bis § 1 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

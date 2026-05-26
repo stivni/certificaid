@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrG1",
+  "antwoord_datum": "2026-05-26T16:27:25Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Vraag dateert van aanslagjaar 2003 (BIBF, EUR-overgang). Tarieven en grenzen die in 2003 golden (autokosten 25% verworpen vóór CO2-formule, restaurantkosten 50% verworpen vóór de hervormingen van 2005/2017, DBI 95% vóór de verhoging naar 100% in 2018) wijken af van de huidige ITAA-LEX-codes (aangifte-VenB-2025). De berekening hieronder is gemaakt volgens de wetgeving die op het examenmoment van toepassing was; codes verwijzen naar het toenmalige aangifteformulier. Voor het huidige examen 2026: hanteer steeds de actuele tarieven.",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Belastbare basis BVBA Albert — aanslagjaar 2003 (in EUR)** 🔗\n\n| Stap | Rubriek | Bedrag |\n|---|---|---:|\n| **I** | **Resultaat van het belastbare tijdperk** | |\n| 1a | Belastbare gereserveerde winst (toename reserves) | **20.000** |\n| 1b | Vrijgestelde gereserveerde winst (— want enkel herwaarderings-/vrijgestelde reserve bewegen niet) | 0 |\n| 2 | Verworpen uitgaven (zie detail hieronder) | **22.865** |\n| 3 | Uitgekeerde dividenden | **40.000** |\n|  | **Subtotaal — fiscale winst van het belastbare tijdperk** | **82.865** |\n| **II** | **Bestanddelen waarop de aftrekbeperking van toepassing is** | |\n|  | Aftrek definitief belaste inkomsten (DBI 95 % × bruto 1.600) | **− 1.520** |\n|  | **Belastbare grondslag in de vennootschapsbelasting** | **81.345** |\n\nDetail van de **verworpen uitgaven** (totaal 22.865): niet-aftrekbare belastingen 20.400 + niet-aftrekbare autokosten 1.325 + niet-aftrekbare restaurant-/representatiekosten 1.000 + niet-toegelaten afschrijving op uitgedrukte (niet-gerealiseerde) meerwaarde 60 + niet-aftrekbare liberaliteiten 80 = **22.865**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Eerste bewerking — drie bestanddelen van de fiscale winst** (oud aangifteformulier vakken I.A / I.B / I.C):\n\n1. **Belastbare gereserveerde winst** = toename belastbare reserves tijdens het boekjaar. Beweging: beschikbare reserve +18.000 + wettelijke reserve 0 + overgedragen winst (nieuw — uit nul) +4.000 − beweging vrijgestelde reserve 0 = **20.000**. 🔗 De vrijgestelde reserve (200) en herwaarderingsmeerwaarden (600) blijven ongewijzigd → geen impact op de **belastbare** reserve-toename. 🤖\n\n2. **Verworpen uitgaven** (vak verworpen uitgaven — toenmalig vergelijkbaar met huidige codes 1201/1205/1207-1208/1216/…) 🔗:\n   - **Niet-aftrekbare belastingen** (VenB-voorafbetalingen + roerende voorheffing als ontlasting verkrijgers): 20.000 + 400 = **20.400** (art. 198 § 1, 1° WIB 92). 📖\n   - **Autokosten 25 % verworpen** (vóór CO2-formule, regime aanslagjaar 2003 — art. 66 § 1 WIB 92 oude versie): (1.500 autokosten + 3.800 afschrijving) × 25 % = 5.300 × 0,25 = **1.325**. 🤖\n   - **Restaurant- en representatiekosten 50 % verworpen** (aanslagjaar 2003-regime — art. 53, 8° / 8°bis WIB 92, vóór de hervormingen van 2005/2017): 2.000 × 50 % = **1.000**. 🤖\n   - **Niet-toegelaten afschrijving op uitgedrukte meerwaarde** (afschrijving die de fiscaal aanvaarde basis overschrijdt — komt overeen met de vrijgestelde herwaardering): **60**. 🤖\n   - **Liberaliteiten zonder fiscaal attest** = 160 totaal − 80 verantwoord door attest = **80** verworpen (art. 198 § 1, 13° + art. 199-200 WIB 92; het door attest gestaafde deel blijft aftrekbaar binnen de grens van 5 % van de winst / 500.000 EUR). 🔗\n   - **Onroerende voorheffing** (100): in aanslagjaar 2003 **aftrekbare beroepskost** — niet verwerpen (de gewestelijke OV werd pas later via art. 198 § 1, 5° WIB 92 verworpen). 🤖\n   - **Totaal verworpen uitgaven = 22.865**. 🔗\n\n3. **Uitgekeerde dividenden** (vak I.C): bruto-dividend volgens bestemmingsvoorstel = **40.000**. 📖\n\n**Tweede bewerking — DBI-aftrek**:\n- Ontvangen dividend van NV waarvan BVBA Albert ≥10 % aanhoudt (hier 80 %): voldoet aan de **participatievoorwaarde** (art. 202 § 2 WIB 92) en — verondersteld — aan de **taxatievoorwaarde** + **minimumhoudperiode van één jaar**. 🔗\n- Bruto-dividend = ontvangen 1.200 + roerende voorheffing 400 = **1.600**. 🔗\n- DBI-aftrek = **95 %** × 1.600 = **1.520** (aanslagjaar 2003-tarief; sinds aanslagjaar 2019 verhoogd naar 100 %). 🤖\n\n**Belastbare basis** = 82.865 − 1.520 = **81.345 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Bruto vs. netto-dividend voor DBI**. De DBI-aftrek slaat op het **bruto-dividend** (vóór inhouding van roerende voorheffing), niet op het netto-bedrag dat de vennootschap effectief ontvangt. Hier dus 1.600 (= 1.200 ontvangen + 400 RV), niet 1.200. Wie het netto-bedrag neemt, verliest 95 EUR DBI-aftrek. De ingehouden RV is bovendien **verrekenbaar én terugbetaalbaar** met de VenB — losstaand van de DBI-aftrek. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Drie-bewerkingenstelsel VenB** (toenmalig art. 74-79 KB/WIB 92 — uitvoering art. 183 WIB 92): fiscale winst = belastbare reserves-toename + verworpen uitgaven + uitgekeerde dividenden, gevolgd door achtereenvolgende aftrekken (DBI, vorige verliezen, investeringsaftrek …) volgens de in art. 207 WIB 92 vastgelegde volgorde. 🔗 **Verworpen uitgaven**: art. 198 § 1 WIB 92 (niet-aftrekbare belastingen, liberaliteiten zonder attest) + art. 53, 8°/8°bis WIB 92 (representatie- en restaurantkosten) + art. 66 WIB 92 (autokosten, oude 25 %-regel vóór CO2-formule). 📖 **DBI**: art. 202-204 WIB 92 — 95 %-aftrek in 2003, participatievoorwaarde (≥ 10 % of ≥ 1.200.000 EUR aanschaffingswaarde) + taxatievoorwaarde + één-jaar-houdperiode. 📖",
+          "wetsref": "Art. 183, 198, 199-200, 202-204, 207 + (oud) art. 66 WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

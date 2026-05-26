@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr40",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** — voor de Belgische leverancier (schakel A) is dit een **gewone vrijgestelde intracommunautaire levering** aan de Nederlandse afnemer (art. 39bis WBTW). Factuurvermelding van die vrijstelling, opname in **vak 46** van de btw-aangifte én in de **intracommunautaire opgave** met het **NL btw-nummer** van de Nederlandse afnemer en code **L** (= levering). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Kern van de redenering** — vereenvoudigd driehoeksverkeer (art. 141 Richtlijn 2006/112/EG; in België art. 25ter §1, 2° + art. 25quinquies §3 WBTW) is een regime voor de **tussenpersoon B** (de Nederlandse groothandel), niet voor de **eerste leverancier A**. 🔗 Voor A geldt gewoon dat hij goederen verkoopt aan een btw-plichtige in een andere lidstaat (NL), met vervoer vanuit België naar een andere lidstaat (DE) — perfect een **vrijgestelde IC-levering** in de zin van art. 39bis, §1, 1° WBTW. De afnemer voor A is **de NL-groothandel**, niet de Duitse eindklant. 🔗\n\n**Per optie**:\n- **a** — Correcte kwalificatie en factuurvermelding, maar **vergeet de intracommunautaire opgave** (verplicht naast vak 46). FOUT. 🔗\n- **b** — Correcte kwalificatie, juiste factuurvermelding (39bis WBTW / art. 138 Richtlijn — de vraagtekst noemt art. 146 maar dat slaat op uitvoer; in deze optie blijft de essentie de IC-vrijstelling), vak 46 én IC-opgave met **NL-nummer + code L**. JUIST. 🔗\n- **c** — Zelfde kwalificatie, maar IC-opgave met het **DE-nummer**. FOUT: A factureert aan NL, dus de IC-opgave moet het btw-nummer van **zijn medecontractant (NL)** vermelden — niet dat van de eindafnemer. 🔗\n- **d** — Behandelt A alsof hij zelf driehoeksverkeer toepast (art. 25quinquies, factuur \"btw verlegd\", code T). FOUT: code **T** geldt voor de **tussenpersoon B** die de vereenvoudiging inroept, niet voor de eerste leverancier. A doet een gewone IC-levering. 🔗\n- **e** — \"Btw verlegd\" als enige vermelding is onvolledig (geen artikel- of richtlijn-verwijzing zoals art. 53, §2 WBTW en KB nr. 1 art. 5 vereisen) en code-L ontbreekt. FOUT. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Wie past de driehoek-vereenvoudiging toe?** In een ABC-keten (A=BE, B=NL, C=DE) waarin B koopt van A en doorverkoopt aan C, en de goederen rechtstreeks van A naar C reizen, is **B** de begunstigde van het vereenvoudigingsregime: B vermijdt zo registratie in DE, en C wordt als schuldenaar van de DE-btw aangewezen. **A doet niets bijzonders** — A factureert vrijgesteld IC aan B (NL-nummer). Code **T** verschijnt in de IC-opgave van **B**, niet van A. Wie hier kiest voor optie d, verwart de rol van A met die van B. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 39bis, §1, 1° WBTW** — vrijstelling voor IC-levering van goederen verzonden vanuit België naar een andere lidstaat aan een afnemer met btw-identificatienummer in die andere lidstaat. 📖 **KB nr. 1, art. 5, §1, 9°** + **circulaire btw-aangifte** — verplichte factuurvermelding van de vrijstellingsgrond (artikel WBTW óf richtlijn) en opname in **vak 46** \"intracommunautaire leveringen\". 🔗 **KB nr. 50 van 11.12.2019** (art. 1, 2°, a + art. 9-11) — intracommunautaire opgave met btw-nummer van de **medecontractant** + code **L** voor IC-leveringen (code T = vereenvoudigd driehoeksverkeer, voor de tussenpersoon B). 📖 **Art. 25quinquies §3 WBTW + art. 141 Richtlijn 2006/112/EG** — vereenvoudiging voor de tussenpersoon, niet voor de eerste leverancier. 📖",
+          "wetsref": "Art. 39bis WBTW · Art. 25quinquies WBTW · KB nr. 50 van 11.12.2019 (IC-opgave) · KB nr. 1 art. 5 (factuurvermeldingen)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

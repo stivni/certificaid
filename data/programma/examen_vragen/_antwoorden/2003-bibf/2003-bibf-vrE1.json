@@ -1,0 +1,146 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_historische_context": "Examen 2003. Het toenmalige BTW-regime voor bestuurders/zaakvoerders/vereffenaars-natuurlijke personen (administratieve beslissing E.T.79.581 d.d. 15.07.1994) week af van het huidige regime. Sinds 01.01.2016 (afschaffing optieregeling voor rechtspersonen-mandatarissen) zijn natuurlijke personen-bestuurders/zaakvoerders nog steeds géén BTW-belastingplichtige (zelfde uitkomst voor stellingen 1, 2, 4). Voor 2003-context blijft het antwoord identiek.",
+  "vraag_antwoorden": [
+    {
+      "id": "i1_1",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — een natuurlijke persoon die zaakvoerder is van een BVBA handelt niet zelfstandig in de zin van art. 4 WBTW en is dus geen BTW-belastingplichtige; bijgevolg **geen recht op BTW-aftrek**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een natuurlijke persoon-zaakvoerder oefent zijn mandaat uit binnen een verhouding van ondergeschiktheid ten aanzien van de algemene vergadering die hem benoemt en kan ontslaan; de administratie aanvaardt dat dergelijke mandatarissen niet \"zelfstandig\" werken in de zin van art. 4, § 1 WBTW. 🔗 Geen belastingplicht ⇒ geen recht op aftrek van voorbelasting op aankopen voor de mandaatuitoefening. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4, § 1 WBTW: belastingplichtige is wie een economische activiteit **zelfstandig** verricht; loontrekkenden en personen met een juridische band die een verhouding van ondergeschiktheid doet ontstaan zijn uitgesloten. 📖 Geen belastingplicht ⇒ geen recht op aftrek krachtens art. 45 WBTW. 🔗",
+          "wetsref": "art. 4 § 1 WBTW; art. 45 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i1_2",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — een natuurlijke persoon-bestuurder van een NV is om dezelfde reden als de zaakvoerder geen BTW-belastingplichtige (geen zelfstandige economische activiteit in de zin van art. 4 WBTW). **Geen recht op BTW-aftrek**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Rechtspersoon-bestuurder ≠ natuurlijk persoon-bestuurder**. Een rechtspersoon-bestuurder werd in 2003 wel als BTW-belastingplichtige beschouwd (optieregeling, administratieve beslissing E.T.79.581 d.d. 15.07.1994), terwijl voor natuurlijke personen de niet-belastingplicht gold. 🤖 De vraagstelling is hier expliciet \"natuurlijke persoon\" — dat is de beslissende factor. 🔗",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4, § 1 WBTW — vereiste van zelfstandigheid. 📖 De toenmalige administratieve doctrine (E.T.79.581) bevestigde dat natuurlijke personen-bestuurders/zaakvoerders niet als BTW-belastingplichtige werden behandeld. 🤖",
+          "wetsref": "art. 4 § 1 WBTW",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i1_3",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — een VZW die fiscale seminaries voor de permanente vorming van economische beroepsbeoefenaars organiseert, verricht een **vrijgestelde** onderwijsdienst (art. 44, § 2, 4° WBTW). Vrijgestelde handelingen geven **geen recht op aftrek** van voorbelasting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 44, § 2, 4° WBTW stelt de school- en universitaire opleiding, de beroepsopleiding en -herscholing vrij, alsmede de nauw daarmee samenhangende diensten en leveringen, op voorwaarde dat deze worden verricht door organisaties die geen systematisch winstoogmerk hebben — een VZW voldoet hieraan. 📖 Permanente vorming voor economische beroepsbeoefenaars valt onder \"beroepsopleiding\". 🔗 Vrijstelling zonder recht op aftrek (\"echte vrijstelling\" in BTW-jargon: geen BTW aangerekend, geen aftrek mogelijk). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Het verschil met art. 44, § 1 (medische vrijstellingen) of § 3 (onroerende verhuur) blijft hetzelfde: een vrijstelling op grond van art. 44 WBTW is **steeds zonder recht op aftrek**, in tegenstelling tot de \"oneigenlijke\" vrijstellingen met aftrekrecht (bv. art. 39 export, art. 39bis IC-leveringen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 44, § 2, 4° WBTW: vrijstelling voor onderwijs en beroepsopleiding door instellingen zonder systematisch winstoogmerk. 📖 Art. 45, § 1 WBTW: aftrek slechts voor zover de goederen/diensten worden gebruikt voor belaste handelingen — vrijgestelde handelingen sluiten aftrek uit. 🔗",
+          "wetsref": "art. 44 § 2, 4° WBTW; art. 45 § 1 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i1_4",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — een natuurlijke persoon-vereffenaar van een CVBA wordt op dezelfde voet behandeld als bestuurders en zaakvoerders: geen zelfstandige economische activiteit in de zin van art. 4 WBTW, dus geen BTW-belastingplichtige en **geen recht op BTW-aftrek**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De vereffenaar treedt in de plaats van het bestuursorgaan voor de afwikkeling van de vennootschap. Het mandaat wordt uitgeoefend onder toezicht van de algemene vergadering (of de rechtbank bij gerechtelijke vereffening) — dezelfde ondergeschiktheidsverhouding als bij een zaakvoerder of bestuurder. 🔗 De administratie behandelde natuurlijke personen-vereffenaars op identieke wijze als andere mandatarissen-natuurlijke personen: geen BTW-belastingplicht, geen aftrek. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4, § 1 WBTW (zelfstandigheidsvereiste). 📖 Toenmalige administratieve doctrine voor mandatarissen-natuurlijke personen (E.T.79.581, 15.07.1994) gold ook voor vereffenaars. 🤖",
+          "wetsref": "art. 4 § 1 WBTW",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr22",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De controledienst zal de belastbare winst van boekjaar 2012 verhogen met **4.000 EUR** (20 stuks × 200 EUR). De aankoopkost is te vroeg in resultaat genomen: ofwel moeten de 20 niet-geleverde stuks alsnog in de eindvoorraad worden opgenomen (\"goederen onderweg\"), ofwel moet de factuur via een overlopende rekening worden uitgesteld naar 2013. Bijkomende vennootschapsbelasting + nalatigheidsinteresten (en in voorkomend geval een belastingverhoging) volgen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Het mechanisme van de fout** — De vennootschap heeft 4.000 EUR aankopen geboekt voor goederen die zij op 31.12.2012 niet bezit. In de KVG-formule `BV + Aankopen − EV` zorgt dit voor een overschatte kost: 🔗\n\n| Post | Zoals geboekt | Correct (eindvoorraad-aanpak) |\n|---|---:|---:|\n| Beginvoorraad | 265 × 200 = 53.000 | 53.000 |\n| Aankopen | 1.810 × 200 = 362.000 | 362.000 |\n| Eindvoorraad | 280 × 200 = 56.000 | **300 × 200 = 60.000** (incl. 20 in transit) |\n| KVG | 359.000 | 355.000 |\n| Brutowinst | 84.750 | **88.750** |\n\nHet alternatief — factuur als over te dragen kost boeken (490) — geeft hetzelfde resultaat: aankopen 358.000, KVG 355.000, brutowinst 88.750. **Verschil: +4.000 EUR belastbare winst in 2012**, met spiegelbeeldige verlaging in 2013 (jaar waarin de goederen effectief geleverd en verkocht worden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Waarom de fiscus dit kan rechtzetten** — Art. 49 WIB92 laat een kost slechts toe als beroepskost in het belastbaar tijdperk waarin hij *werkelijk is gedaan of gedragen*, of waarin hij *het karakter van een zekere en vaststaande schuld heeft verkregen en als zodanig is geboekt*. 📖 De factuur creëert weliswaar een zekere schuld, maar boekhoudkundig en fiscaal geldt het matchingbeginsel: kosten van handelsgoederen worden pas resultaat-impacterend wanneer de goederen worden verkocht — tot dan zitten ze in voorraad (rek. 34) of in een overlopende rekening (rek. 490). 🔗 De CBN bevestigt dat aankopen in de rekening *Aankopen* (604) als kost van het boekjaar worden geboekt, mét gelijktijdige opname van de voorraad via *Voorraadwijzigingen* (6094) — precies die compenserende voorraad-opname ontbreekt hier. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "**Naast de aanslag zelf**: (i) nalatigheidsinteresten lopen vanaf de uiterste betalingsdatum van de oorspronkelijke aanslag 2012; (ii) een belastingverhoging (10-200 %) kan worden opgelegd indien de fiscus een onjuiste aangifte vaststelt (art. 444 WIB92); (iii) de **timing**-aard van de fout maakt dat de 4.000 EUR in 2013 spiegelbeeldig aftrekbaar is — economisch is het verschil dus de tijdwaarde + eventuele tariefverschillen, plus de boetes en interesten. 🤖 Praktisch zal de accountant in de aangifte VenB 2012 een verworpen uitgave / aanpassing van de begintoestand voorstellen, en in 2013 een correctie in de andere zin doorvoeren. 🔗",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 49 WIB92** — beroepskosten zijn slechts aftrekbaar in het belastbare tijdperk waarin zij werkelijk zijn gedaan of gedragen, of waarin zij het karakter van zekere en vaststaande schulden hebben verkregen *en als zodanig zijn geboekt*. 📖 **Art. 24, 1° WIB92** definieert winst onder meer als waardevermeerderingen van voorraden — de onvolledige voorraadopname leidt tot onderschatte winst. **CBN-advies 132/7** bepaalt dat aankopen via rek. 604 als kost worden geboekt mét gelijktijdige voorraadwijziging (rek. 6094/34), zodat de match tussen kost en omzet pas plaatsvindt bij verkoop. 📖 Voor de procedure: art. 346 WIB92 (bericht van wijziging) en art. 354 WIB92 (3-jarige aanslagtermijn). 🔗",
+          "wetsref": "Art. 49 WIB92 + art. 24 WIB92 + CBN-advies 132/7 + art. 346/354 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

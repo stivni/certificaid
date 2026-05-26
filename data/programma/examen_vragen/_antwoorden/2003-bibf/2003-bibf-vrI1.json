@@ -1,0 +1,158 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrI1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — sigaren zijn tabaksfabrikaten en dus accijnsgoederen; bij intracommunautaire verwerving door een Belgische belastingplichtige (restaurateur) wordt de Belgische accijns geheven volgens het bestemmingslandbeginsel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Tabaksfabrikaten staan uitdrukkelijk in de limitatieve opsomming van accijnsgoederen (art. 1, lid 1, c) Richtlijn 2020/262 en art. 1, § 6, 4° WBTW). 📖 Een restaurateur die deze sigaren in Nederland aankoopt voor zijn beroepsactiviteit verricht een intracommunautaire verwerving; de accijns is opeisbaar in de lidstaat van bestemming (België). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1, lid 1 Richtlijn (EU) 2020/262 (herschikking accijnsregeling): accijnsgoederen = energieproducten/elektriciteit, alcohol(houdende dranken), tabaksfabrikaten. 📖 Art. 1, § 6, 4° WBTW herneemt deze definitie. KB nr. 51 van 14 april 1993 regelt de vereenvoudigingsregeling voor intracommunautaire verwerving van accijnsproducten. 📖",
+          "wetsref": "Art. 1 Richtlijn 2020/262; art. 1, § 6, 4° WBTW; KB nr. 51 van 14 april 1993",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB51-accijnsproducten.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — champagne is een alcoholhoudende drank en dus een accijnsgoed; de Belgische accijns wordt geheven bij intracommunautaire verwerving door de Belgische restaurateur. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Alcoholhoudende dranken (incl. mousserende wijn zoals champagne) vallen onder de Richtlijnen 92/83/EEG en 92/84/EEG en zijn als zodanig accijnsgoederen (art. 1, lid 1, b) Richtlijn 2020/262). 📖 Bij IC-verwerving door een belastingplichtige verschuift de heffing naar de lidstaat van bestemming — hier België. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1, lid 1, b) Richtlijn (EU) 2020/262 jo. Richtlijnen 92/83/EEG (structuur) en 92/84/EEG (tarieven). 📖 Belgische omzetting: WBTW art. 1, § 6, 4°. 📖",
+          "wetsref": "Art. 1 Richtlijn 2020/262; art. 1, § 6, 4° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — stookolie is een energieproduct en dus een accijnsgoed; bij intracommunautaire verwerving uit Duitsland voor verwarming van het restaurant wordt de Belgische accijns geheven. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Energieproducten (waaronder stookolie/gasolie) vallen onder Richtlijn 2003/96/EG en zijn accijnsgoederen krachtens art. 1, lid 1, a) Richtlijn 2020/262. 📖 De bestemming (verwarming) doet daar niet aan af — de accijns is verschuldigd zodra het product in België in het verbruik wordt gebracht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Voor verwarmingsbrandstof (huisbrandolie) gelden in België verlaagde tarieven en specifieke bijdragen (energiebijdrage, controleretributie). De heffing zelf blijft verschuldigd — alleen het tarief verschilt van motorbrandstof. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1, lid 1, a) Richtlijn (EU) 2020/262 jo. Richtlijn 2003/96/EG (belastingregeling energieproducten en elektriciteit). 📖 WBTW art. 1, § 6, 4°. 📖",
+          "wetsref": "Art. 1 Richtlijn 2020/262; Richtlijn 2003/96/EG; art. 1, § 6, 4° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — hout (brandhout voor open haard) is **geen accijnsgoed**; er wordt dus geen Belgische accijns geheven op de intracommunautaire verwerving van hout uit Frankrijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De limitatieve lijst van accijnsgoederen (art. 1, lid 1 Richtlijn 2020/262) bevat enkel: energieproducten/elektriciteit, alcohol en alcoholhoudende dranken, en tabaksfabrikaten. 📖 Hout/brandhout valt onder geen van deze categorieën — het is geen \"energieproduct\" in de zin van Richtlijn 2003/96/EG (die viseert minerale oliën, aardgas, kolen, cokes, e.d.). 🔗 Bijgevolg: geen accijns, ongeacht het land van herkomst. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet alle brandstoffen zijn accijnsgoederen — alleen wat valt onder Richtlijn 2003/96/EG. Hout, pellets en biomassa zijn principieel geen accijnsgoederen (al kunnen lidstaten ze fakultatief belasten als ze als motor- of verwarmingsbrandstof worden gebruikt — art. 2, lid 3 Richtlijn 2003/96/EG; België doet dat niet). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1, lid 1 Richtlijn (EU) 2020/262: limitatieve opsomming accijnsgoederen — hout valt buiten de drie categorieën. 📖 Art. 1, § 6, 4° WBTW herneemt dezelfde afbakening. 📖",
+          "wetsref": "Art. 1 Richtlijn 2020/262; art. 1, § 6, 4° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

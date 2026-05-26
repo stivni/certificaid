@@ -1,0 +1,187 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr11D",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Een vrijgestelde belastingplichtige (art. 44 W.BTW) heeft geen recht op aftrek en bijgevolg ook geen recht op teruggaaf via de VAT Refund-procedure. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De VAT Refund-procedure (Richtlijn 2008/9/EG, omgezet in K.B. nr. 56 van 10 april 2022) is een mechanisme om buitenlandse BTW te recupereren die in een andere lidstaat werd opgelopen. Art. 170 van de BTW-Richtlijn 2006/112/EG koppelt dat recht expliciet aan handelingen waarvoor *in de lidstaat van vestiging* recht op aftrek bestaat (art. 169-handelingen). 📖 Een vrijgestelde belastingplichtige zonder recht op aftrek (art. 44 W.BTW — bv. arts, advocaat-vrijgestelde diensten, kleine onderneming onder vrijstellingsregeling) kan geen Belgische BTW recupereren en kan a fortiori ook geen buitenlandse BTW via VAT Refund recupereren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md",
+            "resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 170-171 Richtlijn 2006/112/EG juncto art. 3 Richtlijn 2008/9/EG: de teruggaaf is voorbehouden aan belastingplichtigen die in hun lidstaat van vestiging recht op aftrek hebben voor de betrokken handelingen. Art. 22 K.B. nr. 56 herneemt dit voor de in België gevestigde belastingplichtige. 📖",
+          "wetsref": "art. 170-171 Richtlijn 2006/112/EG; art. 3 Richtlijn 2008/9/EG; art. 22 K.B. nr. 56",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md",
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md",
+            "resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** (onvolledig). 50 EUR geldt enkel als het teruggaafverzoek een **volledig kalenderjaar** (of het resterende gedeelte daarvan) betreft. Voor een teruggaafperiode korter dan een jaar maar minstens drie maanden is het minimum 400 EUR. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 17 Richtlijn 2008/9/EG kent twee drempels naargelang de duur van het teruggaaftijdvak:\n\n- **Tijdvak van een kalenderjaar (of resterend deel)**: minimum **50 EUR**. 📖\n- **Tijdvak < 1 jaar maar ≥ 3 maanden**: minimum **400 EUR**. 📖\n\nDe stelling noemt enkel het kalenderjaar-bedrag (50 EUR) en is daardoor feitelijk onvolledig: ze suggereert dat 50 EUR steeds het toepasselijke minimum is, wat niet klopt voor tussentijdse verzoeken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md",
+            "resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 17 Richtlijn 2008/9/EG; in Belgisch recht omgezet in art. 11 § 2 K.B. nr. 56 van 10 april 2022 (België als lidstaat van teruggaaf) en art. 35 § 2 K.B. nr. 56 (niet-EU belastingplichtigen). 📖",
+          "wetsref": "art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md",
+            "resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Het minimumbedrag is geharmoniseerd op EU-niveau (Richtlijn 2008/9/EG) en hangt niet af van de lidstaat waarin de aanvrager (de belastingplichtige) gevestigd is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 17 Richtlijn 2008/9/EG legt uniforme drempels op (50 EUR / 400 EUR) die in alle EU-lidstaten gelden. 📖 Het criterium dat de drempel bepaalt is de **duur van het teruggaaftijdvak**, niet de identiteit van de lidstaat van vestiging. De richtlijn voorziet enkel een omrekening naar de nationale munteenheid voor lidstaten buiten de eurozone — een wisselkoers-conversie, geen aparte drempel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 17 Richtlijn 2008/9/EG: \"ten minste 400 EUR of de tegenwaarde daarvan in de nationale munteenheid\" respectievelijk \"ten minste 50 EUR of de tegenwaarde daarvan in de nationale munteenheid\". De bedragen zijn EU-rechtelijk vastgelegd, niet door de lidstaat van vestiging. 📖",
+          "wetsref": "art. 17 Richtlijn 2008/9/EG",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Het minimumbedrag is uniform door art. 17 Richtlijn 2008/9/EG vastgelegd en hangt niet af van de lidstaat van teruggaaf, maar van de **duur van het teruggaaftijdvak** (kalenderjaar versus tussenperiode ≥ 3 maanden). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De drempels 50 EUR (jaarverzoek) en 400 EUR (tussentijds verzoek ≥ 3 maanden) gelden in elke EU-lidstaat op dezelfde manier. 📖 De richtlijn laat lidstaten geen ruimte om een afwijkend bedrag op te leggen — wat verschilt, is hoogstens de nationale munteenheid (omrekening voor lidstaten buiten de eurozone). 🔗 In België zijn de bedragen ongewijzigd overgenomen in art. 11 K.B. nr. 56. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md",
+            "resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de drempel voor het bijvoegen van een **factuurafschrift**: die drempel (1 000 EUR voor algemene aankopen, 250 EUR voor brandstof — art. 10 Richtlijn 2008/9/EG, art. 8 K.B. nr. 56) is wel een bedragdrempel die op factuurniveau speelt, maar staat los van de minimumdrempel van het teruggaafverzoek zelf. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md",
+            "resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56 van 10 april 2022. 📖",
+          "wetsref": "art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md",
+            "resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** (onvolledig). 400 EUR is enkel het minimum voor een teruggaafverzoek met een tijdvak **korter dan een kalenderjaar maar minstens drie maanden**. Voor een verzoek dat een volledig kalenderjaar (of het resterende deel) dekt, is het minimum **50 EUR**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 17 Richtlijn 2008/9/EG legt **twee** drempels op, gekoppeld aan de duur van het teruggaaftijdvak:\n\n| Teruggaaftijdvak | Minimumbedrag |\n|---|---|\n| Kalenderjaar of resterend gedeelte | 50 EUR 📖 |\n| < 1 jaar maar ≥ 3 maanden | 400 EUR 📖 |\n\nDe stelling \"400 EUR per kalenderjaar per EU-lidstaat\" mengt beide regels door en is daardoor onjuist: per kalenderjaar geldt 50 EUR, niet 400 EUR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56 van 10 april 2022. 📖",
+          "wetsref": "art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/BTW-teruggaaf-richtlijn-2008-9.md",
+            "resources/bronnen/wetteksten/WBTW-KB56-teruggaaf.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

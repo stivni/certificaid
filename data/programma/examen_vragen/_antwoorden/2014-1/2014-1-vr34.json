@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr34",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "e",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **e** — De btw is van toepassing in Groot-Brittannië. Voor een B2B-dienst geldt de algemene regel van art. 21 §2 WBTW: plaats van de dienst = zetel van de economische activiteit van de afnemer. De Britse hotelonderneming is in Londen gevestigd en handelt met haar Brits btw-nummer, dus de dienst is in GB belastbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** — FOUT. Het recht op aftrek van de afnemer is irrelevant voor de plaatsbepaling. De plaats van de dienst wordt bepaald door art. 21 §2 WBTW, niet door het aftrekrecht van de afnemer. 🔗\n- **b** — FOUT. Er bestaat geen vrijstelling voor reclame in een huis-aan-huisreclameblad; de vrijstelling voor \"kranten\" (art. 44 §3, 14° WBTW) betreft de levering van dag- en weekbladen, niet de verkoop van advertentieruimte. 🔗\n- **c** — FOUT. De vestigingsplaats van de **dienstverrichter** is sinds de B2B-hervorming van 1 januari 2010 niet meer het aanknopingspunt. De hoofdregel B2B is afnemer-gericht. 📖\n- **d** — FOUT. De plaats waar de advertentie fysiek verschijnt, is geen criterium in art. 21 §2 WBTW. 🔗\n- **e** — JUIST. Afnemer is een in GB gevestigde belastingplichtige met geldig Brits btw-nummer → plaats van de dienst = GB. Publi-Magazine factureert zonder Belgische btw met vermelding \"btw verlegd\" / \"reverse charge\"; de Britse afnemer voldoet de btw lokaal (binnen het VK-regime). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Reclame-diensten vielen vóór 1 januari 2010 onder een aparte plaatsbepalingsregel (toenmalig art. 21 §3, 7° WBTW — plaats afnemer voor opgesomde \"intellectuele\" diensten zoals reclame). Sinds de B2B-hervorming is dit overbodig geworden: de **algemene** B2B-regel (art. 21 §2) leidt al tot dezelfde uitkomst — plaats afnemer. De redenering in deze examenvraag (2014) berust op de **algemene** B2B-regel, niet meer op de oude reclame-uitzondering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21 §2 WBTW (omzetting van art. 44 Richtlijn 2006/112/EG): \"De plaats van diensten, verricht voor een als zodanig handelende belastingplichtige, is de plaats waar deze belastingplichtige de zetel van zijn economische activiteit heeft gevestigd.\" Status afnemer wordt bepaald via art. 17 Uitvoeringsverordening (EU) 282/2011 — een geldig btw-nummer van de afnemer is een sterke aanwijzing van zijn hoedanigheid van belastingplichtige. 📖",
+          "wetsref": "Art. 21 §2 WBTW; art. 44 Richtlijn 2006/112/EG; art. 17 Uitv.Verord. (EU) 282/2011",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md",
+            "resources/bronnen/wetteksten/BTW-uitvoeringsverordening-282-2011.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

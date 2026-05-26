@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-26T16:23:57+00:00",
+  "merge_datum": "2026-05-26T16:33:41+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4403,7 +4403,214 @@
       "vraag_id": "2013-2-vr23"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Cluster-canonical voor 2.3-c1 (varianten, 3 leden). Het hoofdantwoord (vraag_antwoorden[]) werkt vr24 uit; cluster_overzicht dekt de UNIE van technieken in vr25 + vr33. Sommige bedragen (NIA-tarief AJ 2013, crisisbijdrage 3 %, drempel bezoldiging 36.000 EUR) zijn historisch — voor het examen wordt het Cijferzakboekje van het jaar geraadpleegd. Geen tegenstrijdigheden tussen tekst-interpretatie en PNG (pagina_02.png) — bedragen identiek.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "cluster_id": "2.3-c1",
+        "cluster_leden": [
+          "2013-2-vr24",
+          "2013-2-vr25",
+          "2015-1-vr33"
+        ],
+        "cluster_overzicht": {
+          "gedeeld_skelet": [
+            "Stap 1: Vertrekpunt = boekhoudkundig resultaat (winst / verlies)",
+            "Stap 2: Eerste bewerking — verworpen uitgaven + correcties (autokosten, restaurant, niet-aftrekbare belastingen, minwaarden aandelen)",
+            "Stap 3: Aftrekken in de uiteenzetting van de winst — DBI, vrijgestelde meerwaarden aandelen, NIA, vorige beroepsverliezen, investeringsaftrek",
+            "Stap 4: Tarief — basistarief 33 % (+ 3 % crisisbijdrage tot AJ 2018) OF verlaagd KMO-tarief art. 215 WIB 92 (versie AJ 2013) als alle voorwaarden vervuld zijn",
+            "Stap 5: Eventueel afzonderlijk belastbare bestanddelen (meerwaarden < 1 jaar @25 %, art. 217 WIB 92 versie AJ 2014)",
+            "Stap 6: Overdrachten — fiscaal verlies (onbeperkt), NIA-stock (cap), DBI-overschot (art. 205, § 3 WIB 92 sinds wet 21/12/2009)"
+          ],
+          "rol": "canonical",
+          "uitleg": "Cluster 2.3-c1 groepeert drie examenvragen die alle drie het **berekenings-skelet 'belastbaar resultaat VenB → tarief → overdrachten'** delen, maar elk een ander **deel van de VenB-techniek-koffer** testen. Het antwoord hierboven werkt het volledige skelet uit voor vr24 (verworpen uitgaven + NIA + KMO-tarief). De andere twee leden testen aanvullende technieken — zie tabel:",
+          "varianten": [
+            {
+              "fiscale_aspecten_niet_in_andere_leden": [
+                "Autokosten-aftrekbeperking (art. 66 + 198bis WIB 92)",
+                "Restaurantkosten 31 % (art. 53, 8°bis WIB 92)",
+                "Concrete NIA-berekening op risicokapitaal"
+              ],
+              "rol": "canonical (uitgewerkt hierboven)",
+              "specifieke_technieken": [
+                "Verworpen uitgaven (autokosten 30 %, restaurantkosten 31 %)",
+                "Notionele intrestaftrek (lopend, AJ 2013)",
+                "KMO-tarief art. 215 WIB 92 (verlaagde opklimmende tarieven)",
+                "Overdracht fiscaal verlies + NIA-stock (vraag c)"
+              ],
+              "vraag_id": "2013-2-vr24"
+            },
+            {
+              "rekenkundige_kern": "Apple (3 jaar bezit) en KBC (3 jaar bezit) — meerwaarden voldoen aan 1-jarige houdperiode → vrijgesteld onder taxatievoorwaarde. Electrabel + Delhaize (< 1 jaar) → meerwaarde Electrabel belastbaar (8.000 - 10.000 - 1.000 = -3.000 verlies; wacht: aanschaf 10, verkoop 18, kosten 1 → netto-meerwaarde 7.000 belastbaar als gewone winst), Delhaize verlies (-3.000) → verworpen uitgave art. 198 § 1, 7°.",
+              "rol": "variant — DBI + meer/minwaarde aandelen",
+              "specifieke_technieken": [
+                "Meerwaarde op aandelen — vrijstelling art. 192 § 1 WIB 92 indien taxatievoorwaarde + 1-jarige houdperiode voldaan. Verkoopkosten (bv. -1.000) verminderen de meerwaarde (netto-meerwaarde-benadering).",
+                "Minwaarde op aandelen — niet-aftrekbaar art. 198 § 1, 7° WIB 92 (verworpen uitgave), **tenzij** bij liquidatieverlies tot beloop van het verlies op gestort kapitaal (art. 198 § 1, 7° in fine).",
+                "DBI-aftrek art. 202–205 WIB 92 — dividenden uit aandelenportefeuille (taxatievoorwaarde + 10 %-of-2,5M-deelnemingsdrempel + 1-jarige houdperiode).",
+                "Niet-genoten progressieve tarieven (casus zegt expliciet: niet) → volledig tarief 33,99 % (basis 33 % + crisisbijdrage 3 %)."
+              ],
+              "vraag_id": "2013-2-vr25"
+            },
+            {
+              "rekenkundige_kern": "Boekresultaat 22.150 → vrijstelling meerwaarde ING ✓; meerwaarde BNP belastbaar afzonderlijk @25 % (versie AJ 2014); meerwaarde obligaties X (20.000 - 1.000 - 1.200 - 100.000 + verkoop 120.000 = winst 17.800) volledig belastbaar @33,99 %. Aftrek verlies 10.000.",
+              "rol": "variant — DBI + verlaagd tarief + fiscaal overgedragen verlies",
+              "specifieke_technieken": [
+                "Meerwaarden op aandelen versus obligaties — vrijstelling art. 192 enkel voor **aandelen**, niet voor obligaties (obligatie-meerwaarde = gewone belastbare winst).",
+                "Aanrekening fiscaal overgedragen verlies — art. 206 WIB 92, onbeperkt in tijd verrekenbaar met belastbaar resultaat van het jaar.",
+                "Niet-voldoen aan voorwaarden verlaagd tarief → tarief 33,99 % (basis 33 % + crisisbijdrage 3 %, AJ 2014).",
+                "Toetsing 1-jarige houdperiode voor vrijstelling meerwaarden aandelen — ING (aanschaf 2011, verkoop 2013 → vrijgesteld); BNP Paribas (aanschaf jan 2013, verkoop juni 2013 → < 1 jaar → belastbaar aan 25 % afzonderlijk art. 217 WIB 92, AJ 2014 versie)."
+              ],
+              "vraag_id": "2015-1-vr33"
+            }
+          ],
+          "verschilpunten_per_lid": {
+            "vr24": "geen aandelen → geen DBI, geen meerwaarde-vrijstelling; wel volledige uitwerking VU + NIA + KMO-tarief",
+            "vr25": "aandelenportefeuille kern → DBI + meer/minwaarde aandelen + houdperiode-toets; geen progressieve tarieven (uitgesloten)",
+            "vr33": "mix aandelen + obligaties → vrijstelling enkel aandelen; afzonderlijke 25 %-aanslag voor aandelen < 1 jaar; fiscaal overgedragen verlies (10.000) als concrete aftrekpost"
+          }
+        },
+        "cluster_rol": "canonical",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Belastbaar resultaat AJ 2013 ≈ 915 EUR** — boekverlies van 15.000 wordt omgebogen door verworpen uitgaven (autokosten + restaurantkosten), waarna de notionele intrestaftrek het saldo verder verlaagt. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "1. Vertrekpunt — boekhoudkundig resultaat",
+                "tekst": "| Rubriek | Bedrag |\n|---|---:|\n| Totaal opbrengsten | 271.000 |\n| Totaal kosten | -286.000 |\n| **Boekhoudkundig verlies** | **-15.000** |\n\nDe vennootschap heeft een fiscaal nul-startpunt na resultaatverwerking (overgedragen resultaat 2011: -5.000 → 2012: -20.000, het verlies vloeit door). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "2. Verworpen uitgaven (eerste bewerking)",
+                "tekst": "**a) Autokosten — 30 %-beperking** (casus stelt dit expliciet — art. 66 + 198bis WIB 92, toepassing AJ 2013):\n\n| Autokost (kost-zijde) | Bedrag |\n|---|---:|\n| Renting personenwagens – kapitaal | 50.000 |\n| Benzine personenwagens | 5.000 |\n| **Subtotaal aftrekbeperkte kosten** | **55.000** |\n| Verworpen uitgave = 30 % × 55.000 | **16.500** 📖 |\n\n*Niet onderworpen aan de aftrekbeperking*: de financiële intrest op de renting (5.000) — intresten op autokosten vallen buiten art. 66 WIB 92 voor AJ 2013. 🔗 De VAA-kost (-10.000) en de tegenboeking als opbrengst (+10.000) saldoën op nul; het VAA wordt apart als verworpen uitgave 'autokosten ten belope van het VAA' opgenomen, maar omdat in deze casus de VAA-opbrengst exact gelijk is aan de VAA-kost is er geen nettocorrectie meer nodig. ❓\n\n**b) Restaurantkosten — 31 % niet-aftrekbaar** (art. 53, 8°bis WIB 92):\n\n| Bedrag | Verworpen |\n|---:|---:|\n| 5.000 | 5.000 × 31 % = **1.550** 📖 |\n\n**Totaal verworpen uitgaven**: 16.500 + 1.550 = **18.050** 🔗\n\n**Resultaat na eerste bewerking**: -15.000 + 18.050 = **+ 3.050** 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "3. Notionele intrestaftrek (NIA) — AJ 2013",
+                "tekst": "Casus zegt: \"geen overdrachten van NIA\". Voor AJ 2013 is er nog gewone NIA op het lopend boekjaar (afschaffing van de overdraagbaarheid van NIA-stock is een latere maatregel).\n\n**Risicokapitaal** = gecorrigeerd eigen vermogen aan het einde van het vorige belastbare tijdperk (01/01/2012, zijnde balans 2011):\n\n| Bestanddeel EV per 31/12/2011 | Bedrag |\n|---|---:|\n| Geplaatst kapitaal | 60.000 |\n| Wettelijke reserve | 6.000 |\n| Overgedragen resultaat | -5.000 |\n| **Eigen vermogen** | **61.000** |\n\nGeen aftrek-correcties vermeld (geen eigen aandelen, geen deelnemingen, geen herwaarderingsmeerwaarden, geen vaste inrichting in het buitenland). 🔗\n\n**Tarief AJ 2013** (Cijferzakboekje): basis 3,000 % + KMO-verhoging 0,5 % = **3,500 %** (de vennootschap is een kleine vennootschap art. 15 W.Venn.). 📖\n\n**NIA = 61.000 × 3,5 % ≈ 2.135** 🔗\n\n**Belastbaar resultaat na NIA**: 3.050 – 2.135 = **≈ 915 EUR** 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De \"30 %-beperking\" in de casus is een **vereenvoudiging voor de oefening** — in werkelijkheid hangt de aftrekbaarheid van autokosten voor AJ 2013 af van de CO2-uitstoot per voertuig (gradenschaal 60 %–100 %, art. 198bis WIB 92). 📖 De examencasus geeft een forfaitair percentage \"30 % verworpen\" mee zodat de student kan rekenen zonder CO2-gegevens — neem dit op als gegeven, niet als algemene regel. Pas op: **financiële intresten** op autoleningen/renting vallen voor AJ 2013 **niet** onder de aftrekbeperking (sinds AJ 2021 wél). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Verworpen uitgaven**: art. 198 § 1 WIB 92 (algemeen kader), art. 66 + 198bis WIB 92 (autokosten — aftrekbeperking volgens CO2 voor AJ 2013), art. 53, 8°bis WIB 92 (restaurantkosten 31 % niet-aftrekbaar). **Notionele intrestaftrek**: art. 205bis–205novies WIB 92 (versie AJ 2013 — vóór afschaffing door wet 25/12/2017). **KMO-definitie**: art. 15 W.Venn. (versie AJ 2013, nu art. 1:24 WVV) — voorwaarde voor verhoogd NIA-tarief én voor verlaagd KMO-tarief art. 215 WIB 92. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 198, 66, 198bis, 53/8°bis, 205bis–205novies WIB 92; art. 15 W.Venn. (AJ 2013)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Verschuldigde vennootschapsbelasting ≈ 222 EUR** — KMO-vennootschap met belastbaar inkomen ≤ 322.500 EUR, dus opklimmende verlaagde tarieven art. 215 WIB 92 (versie AJ 2013). Volledig belastbaar in de eerste schijf 0–25.000 aan 24,25 %. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-tarief-voorafbetalingen.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Toepassing verlaagde tarieven art. 215, tweede lid WIB 92 (AJ 2013)",
+                "tekst": "**Toetsing voorwaarden verlaagd tarief** (art. 215, derde lid WIB 92, versie AJ 2013):\n\n| Voorwaarde | Status |\n|---|---|\n| Belastbaar inkomen ≤ 322.500 EUR | ✓ (915 EUR) |\n| Geen financiële vennootschap (aandelenbezit > 50 %) | ✓ (geen aandelen vermeld) |\n| Aandelen niet ≥ 50 % in handen van andere vennootschap | ✓ (alle aandelen bij natuurlijke personen) |\n| Bezoldiging bedrijfsleider ≥ 36.000 EUR (of ≥ belastbaar inkomen) | ✓ (bezoldiging = 36.000) |\n| Dividenduitkering ≤ 13 % gestort kapitaal | ✓ (geen dividenduitkering) |\n\n→ Voldoet aan alle voorwaarden, dus **verlaagd tarief van toepassing**. 🔗\n\n**Tariefberekening** (art. 215, tweede lid WIB 92 versie AJ 2013):\n\n| Schijf | Tarief | Belastbaar | Belasting |\n|---|---:|---:|---:|\n| 0 – 25.000 | 24,25 % | 915 | **221,89** |\n| 25.000 – 90.000 | 31 % | 0 | 0 |\n| 90.000 – 322.500 | 34,5 % | 0 | 0 |\n| **Subtotaal VenB** | | | **≈ 222** 📖 |\n\n*(Aanvullende crisisbijdrage 3 % nog van toepassing voor AJ 2013 — art. 463bis WIB 92: 222 × 3 % ≈ 7. Globaal verschuldigd ≈ 229 EUR.)* 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De bezoldiging bedrijfsleider van 36.000 EUR voldoet exact aan de drempel die in AJ 2013 gold voor de KMO-uitsluiting van art. 215 (\"minstens gelijk aan 36.000 EUR of aan het belastbare resultaat indien dat lager is\"). 📖 De drempel werd later opgetrokken (sinds AJ 2019: 45.000 EUR). Voor de examencasus AJ 2013 geldt de oude 36.000 EUR-drempel. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Wet-voorafgaande-beslissingen-2002.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-tarief-voorafbetalingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 215 WIB 92, eerste en tweede lid (versie AJ 2013, ingevoegd bij wet 24/12/2002 art. 12): **tarief 33 % als gewone basis**; verlaagde opklimmende tarieven 24,25 % / 31 % / 34,5 % voor belastbaar inkomen ≤ 322.500 EUR. Voorwaarden in art. 215 derde lid (geen financiële vennootschap, aandeelhouderschap, minimumbezoldiging, dividend ≤ 13 % gestort kapitaal). Crisisbijdrage 3 % op de verschuldigde VenB — art. 463bis WIB 92 (afgeschaft sinds AJ 2018). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 215 + 463bis WIB 92 (versie AJ 2013); wet 24/12/2002 art. 12"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Geen overdracht** — noch fiscaal verlies, noch onbenutte NIA naar AJ 2014. Het belastbare resultaat is positief (≈ 915 EUR) na alle bewerkingen, en de NIA werd volledig benut binnen de restwinst. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Redenering per type overdracht",
+                "tekst": "**a) Overdracht fiscaal verlies**: art. 206 WIB 92 — fiscale verliezen worden overgedragen indien het belastbaar resultaat van het jaar negatief is na alle bewerkingen. Hier: resultaat na 1e bewerking = +3.050 (positief). De NIA mag op grond van art. 205bis WIB 92 (AJ 2013) ten hoogste de restwinst opslorpen, dus na NIA: 915 EUR (positief). → **Geen verliessaldo aan te leggen**. 🔗\n\n**b) Overdracht NIA**: art. 205quinquies WIB 92 (versie AJ 2013) — onbenutte NIA was overdraagbaar gedurende 7 jaar tot in AJ 2012; sinds AJ 2013 (wet 28/12/2011) is **alleen het 'stock'-deel reeds opgebouwd vóór AJ 2013** nog overdraagbaar. Voor AJ 2013 wordt de gewone (lopende) NIA volledig benut of valt weg. Hier is NIA = 2.135 en restwinst na VU = 3.050 → NIA volledig aftrekbaar; **geen NIA-overschot**. 🔗\n\n**c) Andere overdrachten**: investeringsaftrek (casus zegt geen overdracht), DBI-aftrek (geen aandelen), risicokapitaal-stock (geen stock). → Niets over te dragen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Vanaf AJ 2013 is de **overdraagbaarheid van de lopende NIA afgeschaft** (wet 28/12/2011) — alleen reeds opgebouwde NIA-stock van vóór AJ 2013 bleef overdraagbaar (over 7 jaar, met cap vanaf AJ 2013). 📖 Sinds de hervorming-2017 (wet 25/12/2017) is de NIA-stock-aftrek volledig uitdovend en is de NIA zelf vanaf AJ 2021 afgeschaft. Voor AJ 2013-casus: enkel het stock-deel kan overdraagbaar zijn — niet de lopende NIA van het belastbaar tijdperk zelf. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 206 WIB 92 (overdracht beroepsverliezen — onbeperkt in tijd). Art. 205bis–205novies WIB 92 (notionele intrestaftrek, AJ 2013-versie). Art. 205quinquies WIB 92 zoals gewijzigd door wet 28/12/2011 (BS 30/12/2011) — afschaffing overdraagbaarheid lopende NIA, behoud stock met 7-jarige cap. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 206 + 205bis–205novies WIB 92 (AJ 2013); wet 28/12/2011"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-2-vr24"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "cluster_actie": "behoud_apart_met_label",
@@ -4807,7 +5014,174 @@
       "vraag_id": "2013-2-vr25"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen, geen herziening op het gebouw zelf.** De belastingplichtige is huurder, niet eigenaar — hij heeft nooit btw afgetrokken op de oprichting/verkrijging van het gebouw, dus er is geen oorspronkelijke aftrek om te herzien. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Een herziening op grond van art. 10 KB nr. 3 veronderstelt dat de belastingplichtige zelf btw heeft betaald én in aftrek heeft gebracht op een onroerend bedrijfsmiddel (verkrijging, oprichting, zakelijk recht). 📖 Bij huur is dat niet het geval: de huur is doorgaans vrijgesteld van btw (art. 44 §3, 2° WBTW) en de huurder bezit geen onroerend bedrijfsmiddel waarvan een aftrek-herzieningstermijn loopt. 🔗 De stopzetting raakt het gebouw dus niet — enkel de werken die de huurder zelf aan het gebouw heeft uitgevoerd, vallen onder de herzieningsregeling (zie deelvraag b).",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 48 §2 WBTW + art. 9-10 KB nr. 3 van 10.12.1969: de herzieningstermijn voor onroerende bedrijfsmiddelen bedraagt 15 jaar te rekenen vanaf 1 januari van het jaar van ingebruikneming, maar geldt enkel voor btw geheven van de verkrijging of oprichting door de belastingplichtige zelf. 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja, herziening verschuldigd: 134,40 EUR terug te storten aan de Schatkist.** De verbeteringswerken (2.000 EUR × 21% = 420 EUR btw, waarvan 40% beroep = **168 EUR oorspronkelijke aftrek**) zijn onroerend bedrijfsmiddel met 15-jaar herzieningstermijn. Bij stopzetting eind 2013 zijn 12 van de 15 jaren nog niet verlopen → herziening = 168 × 12/15 = **134,40 EUR**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — oorspronkelijke aftrek (2011)**: 2.000 EUR × 21% = 420 EUR btw; beroepsgebruik 40% → aftrek = 420 × 40% = **168 EUR**. 🔗\n\n**Stap 2 — kwalificatie + termijn**: verbeteringswerken aan een gebouw worden voor de herzieningsregeling gelijkgesteld met een onroerend bedrijfsmiddel → herzieningstermijn **15 jaar** (art. 9 §2 KB nr. 3), te rekenen vanaf 01.01.2011. 📖\n\n**Stap 3 — verlopen vs. niet-verlopen jaren bij stopzetting 30.11.2013**: jaren 2011, 2012 en 2013 zijn beschouwd als verlopen (3 jaren); blijven **12 jaren** nog te lopen (2014 t.e.m. 2025). 🔗\n\n**Stap 4 — herziening (eenmalig, in één keer voor de resterende jaren — art. 11 §1 KB nr. 3)**: 168 × 12/15 = **134,40 EUR** terug te storten. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het jaar van ingebruikneming telt mee als verlopen jaar — niet als 'jaar 0'. Vandaar 2011-2012-2013 = drie verlopen jaren, niet twee. 🔗 De stopzetting van de activiteit is een 'wijziging in de factoren' (art. 10 §1, 2° KB nr. 3) die de herziening in eenmaal voor het resterende tijdvak doet plaatsvinden (art. 11 §1, tweede lid jo. §3). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 48 §2 WBTW (herzieningstermijn 5 jaar roerend / 15 jaar onroerend); art. 9 §2 KB nr. 3 (verbeteringswerken aan onroerend goed = onroerend bedrijfsmiddel, 15 jaar); art. 10 §1, 2° en art. 11 §1 KB nr. 3 (eenmalige herziening voor de nog niet verlopen jaren bij stopzetting van de economische activiteit). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "b",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen, geen herziening — wél onttrekking.** Handelsgoederen zijn géén bedrijfsmiddel en vallen niet onder de herzieningsregeling van art. 9-11 KB nr. 3. Bij stopzetting worden ze als 'onttrokken' beschouwd (art. 12 §1, 5° WBTW): btw verschuldigd op de normale waarde = 200 × 21% = **42,00 EUR**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De herzieningsregeling geldt enkel voor **bedrijfsmiddelen** (duurzame productiemiddelen) — niet voor voorraad bestemd voor doorverkoop. 🔗 Voor de voorraad voorziet art. 12 §1, 5° WBTW een autonome regeling: 'het onder zich houden van een goed door een belastingplichtige bij het stopzetten van zijn economische activiteit, wanneer voor dat goed recht op aftrek is ontstaan' wordt gelijkgesteld met een levering onder bezwarende titel. 📖 De maatstaf van heffing is de aankoopprijs of, bij gebrek daaraan, de normale waarde op het tijdstip van de onttrekking (art. 33 §1, 1° WBTW). 🔗 Voor courante handelsgoederen aangekocht in de 14 maanden vóór stopzetting blijft de aankoopprijs een redelijke proxy voor de normale waarde → 200 EUR × 21% = **42,00 EUR** verschuldigd. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met herziening: bij voorraad spreekt men van 'onttrekking' (art. 12 WBTW), bij investeringsgoederen van 'herziening' (art. 48 WBTW + KB nr. 3). De economische impact is vergelijkbaar (btw moet terug), maar het juridische mechanisme én de berekeningsbasis verschillen. 🔗 Verder: hoewel het gebouw 40/60 wordt gebruikt, geldt die verhouding **niet** voor de handelsgoederen — die zijn 100% bestemd voor de economische activiteit (doorverkoop), dus 100% van de btw was aftrekbaar en moet ook 100% worden 'teruggedraaid' via de onttrekking. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 12 §1, 5° WBTW (gelijkstelling met levering onder bezwarende titel bij stopzetting voor goederen waarop recht op aftrek is ontstaan); art. 33 §1, 1° WBTW (maatstaf van heffing = aankoopprijs of normale waarde op tijdstip onttrekking). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen, geen herziening: de 5-jaar herzieningstermijn is verlopen.** De diepvrieskasten zijn een roerend bedrijfsmiddel uit 1998 — de herzieningstermijn liep van 01.01.1998 t.e.m. 31.12.2002 en is dus al meer dan 10 jaar voorbij op het ogenblik van de stopzetting (30.11.2013). 🔗 Wel onttrekking ex art. 12 §1, 5° WBTW op de normale (tweedehands-)waarde op datum van stopzetting (bij vrijwel afgeschreven 15-jaar oude diepvrieskasten in de praktijk een symbolisch bedrag). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Voor roerende bedrijfsmiddelen bedraagt de herzieningstermijn 5 jaar (art. 48 §2 WBTW + art. 9 §1 KB nr. 3), te rekenen vanaf 1 januari van het jaar van ingebruikneming. 📖 Bij aankoop in 1998: termijn 1998-2002 → volledig verlopen tegen 2013. Een wijziging in de factoren (zoals stopzetting) buiten het herzieningstijdvak geeft geen aanleiding tot herziening — de oorspronkelijke aftrek (300 × 2 × 19% = 114 EUR, 100% beroep) blijft definitief verworven. 🔗\n\nWel blijft art. 12 §1, 5° WBTW van toepassing: het 'onder zich houden' bij stopzetting van goederen waarop aftrek is uitgeoefend wordt gelijkgesteld met een levering. 📖 Maatstaf van heffing = normale waarde **op tijdstip van de onttrekking** (art. 33 §1, 1° WBTW) — voor afgeschreven 15-jaar oude tweedehands-toestellen is dat de geringe restwaarde, niet de oorspronkelijke aankoopprijs. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verleidelijk om '300 × 2 × 19% = 114 EUR' als herziening te boeken — dat is fout. Eerst checken of de herzieningstermijn nog loopt: roerend = 5 jaar, onroerend = 15 jaar (of 25 jaar voor verhuur onder bepaalde regelingen sinds 2019). 🔗 Pas dan de breuk 'niet-verlopen jaren / totale termijn' toepassen. Buiten het tijdvak: géén herziening, enkel mogelijk een onttrekking ex art. 12 op de huidige (tweedehands-)waarde. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 48 §2 eerste lid WBTW + art. 9 §1 KB nr. 3 (herzieningstermijn 5 jaar voor roerende bedrijfsmiddelen, vanaf 01.01 van het jaar van ingebruikneming); art. 12 §1, 5° WBTW (onttrekking bij stopzetting); art. 33 §1, 1° WBTW (maatstaf = normale waarde op het tijdstip van de onttrekking). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2013-2-vr26"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4886,7 +5260,116 @@
       "vraag_id": "2013-2-vr26"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:28:55Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Beroepsmatig gebruik = **3.250 km / 25.250 km = 12,87 %** (afgerond 13 %). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Forfaitaire bepaling van het privégebruik (methode 1 — semi-forfait — uit Beslissing E.T.119.650 dd. 20.10.2011, herzien 23.12.2011):\n\n- Woon-werk-verkeer: 40 km enkele rit × 2 (heen en terug) × 200 werkdagen = **16.000 km privé**. 🤖\n- Zuiver privégebruik forfait: **6.000 km**. 🤖\n- **Totaal privé** = 16.000 + 6.000 = **22.000 km**. 🔗\n- **Totaal gereden** in 2013 = 25.250 km (gegeven). 📖\n- **Beroepsmatig** = 25.250 − 22.000 = **3.250 km**. 🔗\n- **Beroepspercentage** = 3.250 / 25.250 = **12,87 %**. 🔗\n\nNB: BVBA A opteert expliciet niet voor het algemeen forfait van 35 % (methode 3), dus methode 1 (kilometeradministratie / semi-forfait) is van toepassing voor een gemengd gebruikte personenwagen die ter beschikking wordt gesteld aan één vaste gebruiker. 🤖",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Beslissing E.T.119.650 dd. 20.10.2011 (en addendum 23.12.2011), methode 1: privé-km = (woon-werk-afstand × 2 × 200) + 6.000 km forfaitair. De methode steunt op art. 45 § 1quinquies WBTW (aftrekbeperking tot beroepsmatig gebruik) en is van toepassing op vervoermiddelen bedoeld in art. 45 § 2 WBTW. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 45 § 1quinquies + § 2 WBTW; Beslissing nr. E.T.119.650 dd. 20.10.2011"
+              }
+            ],
+            "id": "a1"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Aftrekbare BTW op de aankoop = **675,68 EUR** (= 25.000 × 21 % × 12,87 %). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "- BTW geheven op aankoop = 25.000 × 21 % = **5.250,00 EUR**. 🔗\n- Aftrek beperkt tot het beroepsmatig gebruik (12,87 %, zie a.1): 5.250 × 12,87 % = **675,68 EUR**. 🔗\n- Cap-controle art. 45 § 2 WBTW: 50 % × 5.250 = 2.625 EUR > 675,68 EUR → de 50 %-cap bijt niet; de werkelijke aftrek = 675,68 EUR. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Twee aftrekbeperkingen werken samen, niet cumulatief: (i) **art. 45 § 1quinquies WBTW** beperkt de aftrek tot het *werkelijk* beroepsmatig gebruik (hier 12,87 %); (ii) **art. 45 § 2 WBTW** plafonneert de aftrek voor personenwagens absoluut op **50 %**. Men past eerst het beroeps% toe en toetst nadien aan het 50 %-plafond — de aftrek = **min(beroeps%, 50 %)** × BTW. Vergissing: rechtstreeks 50 % aftrekken zonder te kijken naar het werkelijke gebruik. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 45 § 1 WBTW (recht op aftrek voor zover gebruikt voor belaste handelingen) + art. 45 § 1quinquies WBTW (aftrek beperkt tot beroepsmatig gebruik) + art. 45 § 2 WBTW (absoluut plafond 50 % voor personenwagens). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 45 §§ 1, 1quinquies en 2 WBTW"
+              }
+            ],
+            "id": "a2"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "BVBA B moet in 2013 **104,13 EUR BTW afdragen** op de bezwarende terbeschikkingstelling aan de werknemer (BTW begrepen in de maandelijkse inhouding van 50 EUR × 12 = 600 EUR; 600 × 21/121). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — kwalificatie van de terbeschikkingstelling**.\nDe wagen wordt aan de werknemer ter beschikking gesteld tegen een maandelijkse inhouding op het loon (50 EUR/maand). Door deze vergoeding is er een **handeling onder bezwarende titel** (verhuur van een vervoermiddel) en geen onttrekking — art. 18 § 1, tweede lid, 2° WBTW. 🔗\n\n**Stap 2 — aftrek op aankoop (2011) — informatief, niet gevraagd**.\nAankoop in 2011 voor 25.000 EUR + 5.250 EUR BTW. Aftrek werd in 2011 beperkt tot het beroepsmatig gebruik (40 %), getoetst aan de 50 %-cap → 5.250 × 40 % = 2.100 EUR aftrek bij aankoop. Geen herziening nodig in 2013 want het beroepsmatig gebruik blijft 40 %. 🤖\n\n**Stap 3 — aftrek BTW op kosten 2013** (art. 45 § 1quinquies + § 2 WBTW; cap min(40 %, 50 %) = 40 %):\n- Onderhoud: 750 × 21 % = 157,50 EUR → aftrek 40 % = **63,00 EUR**. 🔗\n- Brandstof: 1.500 × 21 % = 315,00 EUR → aftrek 40 % = **126,00 EUR**. 🔗\n- Verzekering en verkeersbelasting: vrijgesteld van BTW, geen aftrek. 📖\n- **Totaal aftrekbare BTW kosten 2013 = 189,00 EUR**. 🔗\n\n**Stap 4 — af te dragen BTW op de bezwarende terbeschikkingstelling**.\nDe maandelijkse bijdrage van 50 EUR is een prijs **inclusief BTW** (de werkgever vermeldt geen BTW apart op de loonbrief). Maatstaf van heffing = 50 / 1,21 × 12 maanden = 495,87 EUR. **Verschuldigde BTW = 495,87 × 21 % = 104,13 EUR**. 🔗\n\n**Saldo per saldo in 2013** = 189,00 (aftrek) − 104,13 (afdracht) = **+ 84,87 EUR netto recupereerbaar** voor BVBA B. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Sinds Beslissing E.T.119.650/4 (2013) wordt voor een terbeschikkingstelling tegen vergoeding aan een werknemer de **normale waarde** als maatstaf van heffing genomen (art. 33, § 2 WBTW), tenzij die vergoeding daar marktconform mee overeenstemt. In de praktijk én in deze examenvraag wordt aanvaard dat de werkelijk ontvangen vergoeding de maatstaf is en de BTW erin begrepen is — de keuze tussen \"BTW op 600 EUR\" of \"BTW in 600 EUR begrepen\" hangt af van wat op de loonbrief vermeld wordt. De bondigste examenoplossing rekent met 600 × 21/121 = 104,13 EUR. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 18 § 1, tweede lid, 2° WBTW (verhuur van een vervoermiddel is een dienst onder bezwarende titel) — art. 26 + 33 § 2 WBTW (maatstaf van heffing; normale waarde voor verbonden partijen) — art. 45 § 1, § 1quinquies en § 2 WBTW (aftrek beperkt tot beroepsmatig gebruik, gecapt op 50 % voor personenwagens). Beslissing E.T.119.650 dd. 20.10.2011 met addenda 23.12.2011 en 11.12.2012/2013/4 (uitvoeringspraktijk). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 18 § 1, 2°; art. 26; art. 33 § 2; art. 45 §§ 1, 1quinquies en 2 WBTW"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr27"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5458,7 +5941,96 @@
       "vraag_id": "2013-2-vr33"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De BTW is opeisbaar op **3 december 2012** — de datum van uitreiking/ontvangst van de factuur. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee stappen — belastbaar feit, daarna opeisbaarheid:\n\n- **Belastbaar feit**: de intracommunautaire verwerving wordt geacht te zijn verricht op het tijdstip waarop een binnenlandse levering van soortgelijke goederen zou hebben plaatsgevonden (art. 25sexies, § 1 WBTW), dus bij het ter beschikking stellen van de goederen aan de koper = **aankomst op 14/11/2012**. 📖\n- **Opeisbaarheid**: de BTW wordt opeisbaar op het tijdstip van uitreiking van de factuur; bij gebrek aan een factuur uitgereikt vóór de 15e dag van de maand volgend op het belastbare feit, wordt de BTW alsnog opeisbaar op die 15e dag (art. 25sexies, § 2 WBTW). 📖\n- **Toepassing**: de factuur wordt uitgereikt en ontvangen op **3/12/2012**, dus vóór de uiterste datum van 15/12/2012. De factuur trekt de opeisbaarheid naar zich toe → opeisbaar op **3/12/2012**. De Belgische koper moet deze BTW (verlegd, art. 51 § 1, 2° WBTW) opnemen in de aangifte over de periode waarin 3/12/2012 valt (aangifte november of 4e kwartaal 2012). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met de **leveringsdatum** (14/11/2012) of de **aankomstdatum van de factuur** zonder na te gaan of die vóór de 15e van de volgende maand valt. De wet kent maar twee mogelijke triggers: factuurdatum óf — als de factuur te laat komt — de 15e van de maand volgend op het belastbare feit. De vroegste van beide bepaalt de opeisbaarheid. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 25sexies WBTW: § 1 — belastbaar feit op het tijdstip dat een binnenlandse levering zou plaatsvinden (aankomst goederen); § 2 — opeisbaarheid op de factuurdatum, met uiterste datum de 15e van de maand volgend op het belastbare feit. Parallel: art. 69 BTW-richtlijn 2006/112/EG. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 25sexies WBTW; art. 69 Richtlijn 2006/112/EG"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De vordering van de Schatkist tot voldoening van de BTW verjaart op **31 december 2015** — drie kalenderjaren na het einde van het jaar (2012) waarin de BTW opeisbaar werd. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "- **Startpunt**: jaar waarin de oorzaak van opeisbaarheid zich heeft voorgedaan = **2012** (opeisbaarheid op 3/12/2012). 🔗\n- **Gewone termijn (art. 81bis, § 1, lid 1 WBTW)**: verjaring na het verstrijken van het **derde kalenderjaar** dat volgt → 2013, 2014, 2015 → verjaring intreedt op **31/12/2015** om middernacht. 📖\n- **Verlengde termijn van 7 jaar** (art. 81bis, § 1, lid 3 WBTW, hier niet van toepassing): enkel bij fraude, niet-aangegeven handelingen aangetoond door buitenlandse inlichting, rechtsvordering of bewijskrachtige gegevens. In een normale casus zonder fraude geldt 3 jaar. 🔗\n- **Bij niet- of laattijdige indiening van de BTW-aangifte** (art. 81bis, § 1, lid 2 WBTW): verlenging tot het **vierde** kalenderjaar → 31/12/2016. Casus vermeldt geen niet-indiening, dus standaard 3 jaar. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De verjaring loopt vanaf het kalenderjaar van **opeisbaarheid**, niet vanaf het kalenderjaar van het belastbare feit of van de aangifte. In deze casus valt opeisbaarheid (3/12/2012) en belastbaar feit (14/11/2012) toevallig in hetzelfde kalenderjaar 2012, maar bij een grensgeval rond eindejaar (bv. belastbaar feit op 20/12 en factuur pas op 10/01 van het volgende jaar) bepaalt de **factuurdatum** het startjaar van de verjaringstermijn. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 81bis, § 1 WBTW: verjaring na het verstrijken van het derde kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid van de belasting zich heeft voorgedaan. Termijn verlengd tot 4 jaar bij niet/laattijdige aangifte (lid 2) en tot 7 jaar bij fraude-indicaties (lid 3). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 81bis, § 1 WBTW"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr34"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

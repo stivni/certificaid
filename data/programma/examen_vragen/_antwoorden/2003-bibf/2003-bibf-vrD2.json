@@ -1,0 +1,93 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrD2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "cluster_id": "2.4-c2",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_leden": [
+    "2003-bibf-vrD2",
+    "2008-bibf-vrD2"
+  ],
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja** — de schrijnwerker moet zijn werkwijze aanpassen. Voor elk ontvangen voorschot is hij **wettelijk verplicht een factuur uit te reiken** (uiterlijk de 15de dag van de maand volgend op die waarin de btw opeisbaar wordt). Eén eindfactuur \"voldaan\" voor het totaal volstaat dus niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij een dienst (aannemingswerk) wordt de btw in beginsel opeisbaar op het tijdstip waarop de dienst is verricht (art. 22 WBTW). **Wanneer de prijs of een deel ervan wordt ontvangen vóór dat tijdstip — een voorschot — wordt de btw opeisbaar over het ontvangen bedrag op het tijdstip van de betaling** (art. 22bis §1 WBTW, parallel aan art. 17 §1 derde lid voor goederen). 📖\n\nDe belastingplichtige is gehouden een factuur uit te reiken **uiterlijk de vijftiende dag van de maand volgend op die waarin de btw opeisbaar is geworden** (art. 53 §2 WBTW + art. 4 KB nr. 1). Concreet voor deze schrijnwerker:\n\n- **Voorschot 1** (vóór aanvang) → factuur uiterlijk de 15de van de volgende maand.\n- **Voorschot 2** (halfweg) → idem.\n- **Saldo bij voltooiing** → factuur uiterlijk de 15de van de maand volgend op de oplevering.\n\nDe vermelding \"voldaan\" op één eindfactuur dekt deze verplichting niet: de wet vereist dat de **opeisbaarheid per voorschot wordt vastgelegd** in een factuur, zodat de btw tijdig kan worden afgedragen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een **offerte** of **bestelbon** is geen factuur in de zin van het WBTW — ook al draagt zij prijsaanduidingen. Zolang er geen factuur is uitgereikt voor een voorschot dat reeds ontvangen werd, is de schrijnwerker in overtreding, ook al heeft hij de btw uiteindelijk via de eindfactuur correct aangegeven. Het uitreikingsmoment (en niet alleen het uiteindelijk afdragen) is de wettelijke verplichting. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 22 en 22bis §1 WBTW (opeisbaarheid btw bij diensten en bij ontvangst van voorschot vóór de dienst); art. 53 §2, 1° WBTW (factureringsverplichting per belastbare handeling); art. 4 KB nr. 1 (uitreikingstermijn = 15de van de maand volgend op opeisbaarheid). 📖",
+          "wetsref": "Art. 22, 22bis §1, 53 §2 WBTW; Art. 4 KB nr. 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "De schrijnwerker moet — als btw-belastingplichtige én als ondernemer onder het WVV/boekhoudrecht — de volgende stukken bewaren:\n\n- **Kopieën van alle uitgereikte facturen** (voorschotfacturen + eindfactuur) en de **ontvangen facturen** (van zijn leveranciers/onderaannemers). 📖\n- **Boekhouding** in de zin van art. 14 KB nr. 1: het **boek voor inkomende facturen**, het **boek voor uitgaande facturen** en het **dagboek van ontvangsten** (in een ononderbroken reeks volgnummers). 📖\n- **Alle andere stukken** met betrekking tot zijn economische activiteit: offertes, bestelbons, contracten, verzendingsnota's, creditnota's, bankuittreksels, kasstaten. 🔗\n- **Btw-aangiften**, **listings van belastingplichtige afnemers** en eventuele **intracommunautaire opgaven**. 🔗\n- **Sociale en fiscale stukken** verbonden aan de activiteit (loon-, bedrijfsvoorheffings- en directe-belasting-documenten — niet uniek voor btw, wel verplicht).\n\n**Bewaartermijn**: **10 jaar** te rekenen vanaf 1 januari van het jaar volgend op hun datum (sinds W 20.11.2022, voor belastingen die opeisbaar zijn geworden vanaf 01.01.2023; daarvóór was de termijn 7 jaar). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De **bewaarplicht treft eenieder** (niet alleen de belastingplichtige zelf): ook de afnemer moet zijn ontvangen facturen bewaren (art. 60 §1, tweede lid WBTW). De plaats van bewaring is vrij te kiezen, maar de stukken moeten op verzoek van de fiscus **zonder onnodig uitstel** ter beschikking worden gesteld (art. 60 §2 en art. 61 §1 WBTW). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 60 WBTW (bewaarplicht facturen + 10 jaar sinds W 20.11.2022); art. 61 WBTW (voorleggingsplicht aan administratie); art. 14 KB nr. 1 (verplichte btw-boekhouding: boek inkomende/uitgaande facturen + dagboek ontvangsten). 📖",
+          "wetsref": "Art. 60, 61 WBTW; Art. 14 KB nr. 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

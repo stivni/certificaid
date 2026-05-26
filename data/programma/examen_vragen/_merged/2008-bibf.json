@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2008-bibf.pdf",
   "examen_id": "2008-bibf",
-  "merge_datum": "2026-05-26T16:23:57+00:00",
+  "merge_datum": "2026-05-26T16:33:41+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -1413,7 +1413,59 @@
       "vraag_id": "2008-bibf-vrD2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:28:13Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De overstap van forfait naar maandaangifte heeft gevolgen op vier vlakken: (1) **regeling-wissel** (kennisgeving + ingang op 1/04/2008, eerste dag van het kwartaal), (2) **boekhouding** (volledige btw-boekhouding i.p.v. forfaitaire vereenvoudiging — dagboeken van inkomende en uitgaande facturen, ontvangstenboek), (3) **stockinventaris + btw-regularisatie** (verplichte inventaris op 31/03/2008 met recuperatie van de btw die in het forfait niet was afgetrokken op de bestaande voorraad), en (4) **aangifte- en betalingsverplichtingen** (maandaangifte vóór de 20ste, maandelijkse betaling, geen voorschotten meer maar wel decembervoorschot). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**1. Wijziging van btw-regeling — formaliteit en ingangsdatum**\n- Kennisgeving aan de btw-administratie via de wijzigingsaangifte (formulier 604B / aangifte van wijziging activiteit). 📖\n- De optie voor de normale regeling treedt in werking vanaf **de eerste dag van het kalenderkwartaal volgend op de kennisgeving** — hier dus 1/04/2008. 📖\n- Vanaf die datum is de cliënt onderworpen aan de **normale btw-regeling met maandaangifte** (geen forfaitaire grondslagen meer).\n\n**2. Boekhoudkundige verplichtingen**\n- Bijhouden van een volwaardig **dagboek van inkomende facturen** en **dagboek van uitgaande facturen** (i.p.v. de vereenvoudigde stukken in het forfait). 🔗\n- Dagelijks **boek van ontvangsten** voor verkopen aan particulieren zonder factuur (typisch detailhandel). 🔗\n- **Centralisatieboek** voor de periodieke samenvatting per btw-tarief.\n- De forfaitaire grondslagen (vastgesteld via bedrijfsgroepering) vervallen — de omzet en de af te dragen btw worden voortaan **werkelijk** berekend op basis van de geboekte ontvangsten en facturen. 🔗\n\n**3. Stockinventaris op 31/03/2008 + btw-regularisatie (kantelmoment)**\n- Verplichte **inventaris** opmaken van de **op 31/03/2008 nog in voorraad zijnde goederen** die niet verkocht of verbruikt zijn — gewaardeerd tegen aankoopprijs. 🔗\n- Op die voorraad mag een **herziening (regularisatie) in het voordeel van de cliënt** plaatsvinden: de btw die op die goederen werd betaald aan de leveranciers en die onder het forfait **niet aftrekbaar** was (het forfait verrekent inkoop-btw forfaitair), kan nu via de eerste maandaangifte in aftrek worden gebracht. 🔗\n- Idem voor **bedrijfsmiddelen die nog niet zijn afgeschreven over de herzieningstermijn** (5 jaar / 15 jaar voor onroerend): aftrek pro rata van de resterende termijn. 🔗\n- De inventaris moet in tweevoud worden opgemaakt en samen met een berekeningsstaat aan de administratie worden overgemaakt. 🔗\n\n**4. Aangifte- en betalingsverplichtingen**\n- **Maandelijkse btw-aangifte** in te dienen **uiterlijk de 20ste** van de maand volgend op de aangifteperiode (eerste aangifte: april 2008 → in te dienen vóór 20/05/2008). 📖\n- De verschuldigde btw wordt **maandelijks betaald** binnen dezelfde termijn.\n- **Decembervoorschot** verschuldigd (uiterlijk 24 december): voorschot op de btw verschuldigd over de handelingen van december. 🔗\n- Eventuele **listings** (jaarlijkse klantenlisting van Belgische btw-plichtige afnemers, IC-opgave bij intracommunautaire leveringen) gelden vanaf nu zonder forfait-specifieke afwijkingen.",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De overgang van forfait naar normale regeling is voor een **detailhandelaar in textiel** doorgaans **financieel voordelig op het kantelmoment**: de stockinventaris-regularisatie geeft een eenmalige aftrek-bonus op alle bestaande voorraad. Het structurele nadeel is de **zwaardere administratie** (volledige facturatie- en ontvangstenboekhouding) en het verlies van de \"comfort\"-zekerheid van de forfaitaire grondslagen — voortaan is de werkelijke omzet doorslaggevend, met meer controle-exposure. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Wijziging regeling**: art. 56, §4 WBTW + art. 3, §2 KB nr. 2 van 19/12/2018 (forfaitaire regeling) — optie naar normale regeling, uitwerking eerste dag van het volgende kalenderkwartaal. 📖 **Stockinventaris + regularisatie**: art. 49, 3° WBTW + **art. 21bis KB nr. 3 van 10/12/1969** (aftrekken btw) — herziening van de aftrek bij wijziging van btw-regeling: aftrek van btw op goederen die nog niet zijn verbruikt en op nog bruikbare bedrijfsmiddelen binnen de herzieningstermijn (5 of 15 jaar). 📖 **Maandaangifte**: art. 53, §1, 2° WBTW + **art. 17, §1 KB nr. 1 van 29/12/1992** — aangifte uiterlijk de 20ste van de maand volgend op het aangiftetijdvak. 📖 **Decembervoorschot**: art. 19 KB nr. 1. 🔗",
+                "type": "grondslag",
+                "wetsref": "art. 56 §4 WBTW; art. 3 §2 KB nr. 2/2018; art. 21bis KB nr. 3/1969; art. 17 §1 KB nr. 1/1992"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrE1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1467,7 +1519,187 @@
       "vraag_id": "2008-bibf-vrE1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:29:11Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-richtlijn-2006-112.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Vak | Bedrag |\n|---|---:|\n| **46** | 66.438,00 |\n\nVrijgestelde intracommunautaire levering van nieuwe wagens aan een in Luxemburg voor BTW geïdentificeerde afnemer. 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-richtlijn-2006-112.md",
+                  "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Levering van een **nieuw vervoermiddel** (nieuwe wagen) aan een BTW-belastingplichtige in een andere lidstaat is een vrijgestelde intracommunautaire levering (art. 39bis WBTW). De **maatstaf van heffing zonder BTW** (66.438,00 €) komt in **vak 46** — \"Vrijgestelde intracommunautaire leveringen verricht in België en ABC-verkopen\". Geen BTW verschuldigd; de Luxemburgse afnemer voldoet de BTW via intracommunautaire verwerving in Luxemburg. 🔗 De levering moet ook worden opgenomen in de **intracommunautaire opgave** (klantenlisting IC). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Voor **nieuwe vervoermiddelen** geldt de vrijstelling 39bis ongeacht het statuut van de afnemer (ook particulieren) — hier is de afnemer een Luxemburgse BTW-plichtige, dus de standaard-vrijstelling uit art. 39bis, 1° WBTW is van toepassing. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB50-intracommunautaire-opgave.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 39bis WBTW (vrijstelling intracommunautaire leveringen). Vak 46 in het rooster III \"Uitgaande handelingen\" van de periodieke aangifte. K.B. nr. 50 van 11.12.2019 voor de intracommunautaire opgave. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 39bis WBTW; KB nr. 50 van 11.12.2019"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Vak | Bedrag |\n|---|---:|\n| **00** | 8.000,00 |\n| **81** | 8.000,00 |\n| **03** | 413,22 |\n| **54** | 86,78 |\n\nAankoop bij niet-belastingplichtige (kinesist) → doorverkoop onder **margeregeling** (art. 58 § 4 WBTW / KB nr. 53). 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aankoop** — een kinesist verricht vrijgestelde medische handelingen (art. 44 WBTW): geen BTW op de aankoopfactuur. Aankoopprijs 8.000,00 € komt in **vak 81** (handelsgoederen) en in **vak 00** als \"niet-belaste handelingen / margeregeling-aankoop\".\n\n**Doorverkoop onder margeregeling** — verkoopprijs 8.500,00 €, aankoopprijs 8.000,00 €, **winstmarge incl. BTW** = 500,00 €.\n- Maatstaf van heffing = 500,00 / 1,21 = **413,22 €** → **vak 03** (maatstaf 21%). 🔗\n- Verschuldigde BTW = 500,00 − 413,22 = **86,78 €** → **vak 54** (verschuldigde BTW). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Onder de margeregeling staat de **BTW niet vermeld op de factuur** aan de particulier en mag de koper geen BTW aftrekken. De wederverkoper voldoet enkel BTW over de **winstmarge**, niet over de volledige verkoopprijs (× 1,21 zou een **brutoplichtig** stelsel zijn — dat is hier niet van toepassing omdat de aankoop bij een niet-aftrekgerechtigde gebeurde, art. 58 § 4, 2° WBTW en KB nr. 53 art. 1–2). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB53-winstmarge-tweedehands.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 58 § 4 WBTW jo. KB nr. 53 van 23.12.1994, art. 2 (maatstaf = winstmarge verminderd met de in de marge begrepen BTW). De aankoop komt in vakken 00/81 omdat geen BTW werd aangerekend; de verkoop in 03/54. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 58 § 4 WBTW; KB nr. 53 van 23.12.1994, art. 1–3"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "| Vak | Bedrag |\n|---|---:|\n| **81** | 4.000,00 |\n| **59** | 840,00 |\n\nAankoop **vrachtwagen** (geen personenwagen) van een belastingplichtige bouwonderneming — **gewone regeling**, geen aftrekbeperking. Vrachtwagen blijft in stock = handelsgoed. 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Maatstaf** 4.000,00 € (exclusief 21% BTW per de op pagina 9 vermelde regel) → **vak 81** (handelsgoederen). 🔗\n\n**BTW** 21% × 4.000,00 = **840,00 €** → **vak 59** (aftrekbare BTW). 🔗\n\nGeen aftrekbeperking art. 45 § 2 WBTW want vrachtwagen = bedrijfsvoertuig, geen personenwagen.",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Art. 45 § 1 WBTW (volledige aftrek voor goederen bestemd voor belaste activiteit). De uitzondering van art. 45 § 2 WBTW (50%-cap) geldt alleen voor **personenwagens, dubbel-gebruikvoertuigen en minibussen**, niet voor vrachtwagens. 🔗",
+                "type": "grondslag",
+                "wetsref": "art. 45 § 1 en § 2 WBTW"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "| Vak | Bedrag |\n|---|---:|\n| **83** | 16.344,48 |\n| **59** | 2.138,53 |\n\nAankoop **personenwagen** als **investering** — aftrekbeperking 50% (cap art. 45 § 2 WBTW), niet de 75% van het beroepsmatig gebruik. 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "tekst": "**Brutoprijs** 24.644,00 € BTW inbegrepen → maatstaf = 24.644 / 1,21 = **20.366,94 €**; **totale BTW** = 24.644 − 20.366,94 = **4.277,06 €**.\n\n**Aftrekbare BTW** — wettelijke cap art. 45 § 2 WBTW = **50 %** (lager dan het beroepspercentage 75 %, dus de cap is bindend): 50 % × 4.277,06 = **2.138,53 €** → **vak 59**. 🔗\n\n**Vak 83** (\"bedrijfsmiddelen\") = **16.344,48 €** — cijfer uit het officieel modelantwoord. De volledige maatstaf van heffing bedraagt 20.366,94 €; het lagere cijfer in vak 83 is in het gepubliceerde antwoord niet sluitend herleidbaar uit standaard rekenregels (combinatie van 21 %-BTW-uitsplitsing met de aftrekbeperking). ❓",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Het **professioneel gebruik 75 %** is **niet** de aftrekbaarheid — art. 45 § 2 WBTW plaatst een **harde cap op 50 %** voor personenwagens. De aftrek wordt het laagste van (a) het beroepsmatig gebruik en (b) 50 %. Hier is dat 50 %. Het privégebruik 25 % is in deze rekensom dus niet beperkend. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Art. 45 § 1quinquies en § 2 WBTW (50 %-cap aftrek BTW personenwagens). Vak 83 = maatstaf van heffing bedrijfsmiddelen; vak 59 = aftrekbare BTW op aankopen en bedrijfsmiddelen. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 45 § 1quinquies en § 2 WBTW"
+              }
+            ],
+            "id": "d"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "| Vak | Bedrag |\n|---|---:|\n| **01** | 409,54 |\n| **03** | 742,46 |\n| **54** | 180,49 |\n\nVerkopen onder vrijstelling van factuur (dagboek van ontvangsten): uitsplitsing per tarief van **maatstaven** (vak 01 voor 6 %, vak 03 voor 21 %) en **verschuldigde BTW** (vak 54). 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Totale ontvangst 1.332,49 € (BTW inbegrepen) waarvan **434,11 € BTW-inbegrepen aan tarief 6 %** en het saldo aan 21 %.\n\n**Schijf 6 %** — 434,11 / 1,06 = **409,54 €** → **vak 01**; BTW 6 % = 434,11 − 409,54 = **24,57 €**. 🔗\n\n**Schijf 21 %** — 1.332,49 − 434,11 = 898,38 € incl.; maatstaf = 898,38 / 1,21 = **742,46 €** → **vak 03**; BTW 21 % = 898,38 − 742,46 = **155,92 €**. 🔗\n\n**Vak 54** = totale verschuldigde BTW = 24,57 + 155,92 = **180,49 €**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het verlaagd tarief **6 %** voor vervangingsstukken geldt enkel voor specifieke gevallen (bv. onderdelen voor voertuigen voor gehandicapten, KB nr. 20 art. 3); de oefening neemt het tarief 6 % als gegeven — voor de aangifte volstaat de juiste vak-toewijzing per tarief. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Periodieke aangifte BTW — rooster III \"Uitgaande handelingen\": vak 01 = maatstaf tarief 6 %, vak 03 = maatstaf tarief 21 %, vak 54 = totaal verschuldigde BTW op de in vakken 01–03 vermelde handelingen. Tarieven: KB nr. 20 van 20.07.1970. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 53 WBTW; KB nr. 20 van 20.07.1970 (tarieven)"
+              }
+            ],
+            "id": "e"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrE2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": {
           "deelvraag_id": "alle",
@@ -1561,7 +1793,165 @@
       "vraag_id": "2008-bibf-vrE2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Uiterste datum = **31 december van het derde kalenderjaar volgend op het jaar waarin de af te trekken btw opeisbaar is geworden** (verjaringstermijn recht op aftrek). De aftrek wordt uitgeoefend via een btw-aangifte ingediend vóór die datum. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concreet: btw opeisbaar in jaar N → recht op aftrek uit te oefenen in een aangifte ingediend uiterlijk 31.12 van jaar N+3. Voorbeeld: factuur met opeisbare btw in 2025 → aftrek mogelijk in elke aangifte t.e.m. de aangifte ingediend vóór 31.12.2028. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Verwar niet met de **bewaartermijn** van facturen (10 jaar, art. 60 WBTW) of met de **navorderingstermijn** van de administratie (3 of 7 jaar, art. 81bis WBTW). De aftrek-verjaring betreft enkel het tijdsvenster waarin de belastingplichtige zélf het recht kan uitoefenen. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 4, tweede lid, K.B. nr. 3 van 10.12.1969: bij niet-tijdige vervulling van de formaliteiten wordt het recht op aftrek uitgeoefend in een aangifte ingediend \"vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden\". 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 4 K.B. nr. 3 van 10.12.1969 (WBTW)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee mogelijke regimes: (1) **Vrijstellingsregeling voor kleine ondernemingen** (art. 56bis WBTW — geen btw aanrekenen, geen aftrek, geen periodieke aangifte) of (2) **gewone regeling met kwartaalaangiften** als zij toch voor btw-onderwerping kiest. De omzet van 4.312 € ligt ruim onder de drempel van 25.000 € en de psychologe is bovendien vrijgesteld door artikel 44 WBTW voor de medisch-paramedische component. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "verondersteld",
+                "tekst": "**Regime 1 — Vrijstellingsregeling kleine onderneming** (art. 56bis WBTW + K.B. nr. 19): de jaaromzet (4.312 €) blijft ver onder de drempel van 25.000 € exclusief btw. Geen btw op uitgaande facturen, geen recht op aftrek, geen periodieke aangifte (wel jaarlijkse klantenlisting indien van toepassing). Dit is doorgaans de gunstigste keuze bij bijberoep.\n\n**Regime 2 — Gewone regeling met kwartaalaangiften** (art. 53, § 1 WBTW): als de psychologe verkiest btw aan te rekenen (om aftrek te kunnen uitoefenen) kan zij kwartaalaangiften indienen aangezien haar omzet ver onder de drempels voor maandaangifte ligt. \n\n**Specifieke nuance psycholoog**: prestaties van klinisch psychologen zijn doorgaans **vrijgesteld door art. 44, § 1, 2° WBTW** (paramedisch beroep). Voor die vrijgestelde prestaties is er geen btw-regime te kiezen — enkel voor eventuele niet-therapeutische prestaties (vb. coaching, expertises voor verzekeraars, juridische expertises) is de keuze tussen vrijstellingsregeling of gewone kwartaalregeling relevant. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Bij de officiële modelantwoord-formulering uit 2008 (\"Vrijstellingsregeling / Kwartaalaangifte\") gold een lagere drempel (toen 5.580 €, vandaag 25.000 €). De systematiek — keuze tussen vrijstellingsregeling én gewone (kwartaal)regeling — blijft identiek. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 56bis WBTW + K.B. nr. 19 van 15.12.2024 (vrijstellingsregeling kleine ondernemingen, drempel 25.000 € omzet); art. 53, § 1 WBTW + K.B. nr. 1 (periodieke aangiften, kwartaalregeling onder bepaalde drempels); art. 44, § 1, 2° WBTW (vrijstelling diensten paramedische beroepen). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 56bis WBTW · K.B. nr. 19 · Art. 53 WBTW · Art. 44, §1, 2° WBTW"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De **btw-eenheid** is een fiscale constructie waarbij meerdere juridisch onderscheiden, in België gevestigde belastingplichtigen die financieel, organisatorisch en economisch nauw met elkaar verbonden zijn, voor de toepassing van de btw als **één enkele belastingplichtige** worden aangemerkt. 📖",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het principe stoelt op art. 4, § 2 WBTW (omgezet uit art. 11 BTW-richtlijn 2006/112/EG): drie cumulatieve verbondenheidsvoorwaarden — financieel, organisatorisch en economisch — gecombineerd met de Belgische vestigingseis. Het gevolg: onderlinge handelingen tussen leden vallen **buiten de btw-werkingssfeer** (worden niet als belastbare handelingen aangemerkt), terwijl naar buiten toe één gemeenschappelijke btw-identiteit optreedt via een vertegenwoordiger. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 4, § 2 WBTW (Belgische rechtsgrond) + K.B. nr. 55 van 09.03.2007, art. 1 (cumulatieve voorwaarden); art. 11 Richtlijn 2006/112/EG (Europese basis); art. 51ter WBTW (hoofdelijke gehoudenheid van de leden). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 4, § 2 WBTW · K.B. nr. 55 van 09.03.2007 · Art. 11 BTW-richtlijn 2006/112/EG"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De btw is verschuldigd **in Nederland** — het land waar de belastingplichtige afnemer (de cliënt) gevestigd is. De Belgische boekhouder factureert zonder Belgische btw met vermelding \"btw verlegd\"; de Nederlandse cliënt voldoet de btw via verlegging in zijn eigen aangifte. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Toepasselijke regel (huidige tekst):** art. 21, § 2 WBTW — de plaats van diensten verricht voor een als zodanig handelende belastingplichtige is de plaats waar deze afnemer de zetel van zijn economische activiteit heeft gevestigd. Boekhoudkundige prestaties zijn intellectuele diensten zonder afwijkende plaatsbepaling (geen onroerend goed, geen restaurantdienst, geen vervoer) — de algemene B2B-regel geldt dus integraal.\n\n**Plaats van fysieke uitvoering (Frankrijk) is irrelevant**: sinds de hervorming van 01.01.2010 is de fysieke werkplaats van de dienstverrichter niet meer bepalend voor B2B-diensten. Enkel de vestiging van de **afnemer** telt → Nederland. 🔗\n\n**Modelantwoord uit 2008 verwijst naar art. 21, § 3, 7° d) WBTW** (oude tekst pre-2010, intellectuele diensten aan in andere EU-lidstaat gevestigde belastingplichtige). Inhoudelijk komt dit op hetzelfde resultaat uit: btw verschuldigd in het land van de afnemer = Nederland. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Niet kiezen voor Frankrijk omdat de prestaties dáár worden uitgevoerd, en niet voor België omdat de dienstverrichter daar gevestigd is. De B2B-plaatsregel kijkt **uitsluitend** naar de vestiging van de belastingplichtige afnemer. De feitelijke uitvoeringsplaats en de vestigingsplaats van de dienstverrichter zijn niet relevant voor algemene intellectuele B2B-diensten. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Huidig:** Art. 21, § 2 WBTW (algemene B2B-plaatsregel — plaats = vestiging afnemer) + art. 44 Richtlijn 2006/112/EG. **Modelantwoord 2008:** Art. 21, § 3, 7° d) WBTW (oude tekst, intellectuele diensten aan EU-belastingplichtige). Verleggingsregel: art. 51, § 2 WBTW (in B2B-context — voor Belgische dienstverrichter naar buitenlandse afnemer geldt de symmetrische regel in de lidstaat van de afnemer). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 21, § 2 WBTW (huidig) · Art. 21, § 3, 7° d) WBTW (pre-2010, ref. modelantwoord) · Art. 44 BTW-richtlijn 2006/112/EG"
+              }
+            ],
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrE3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": {
           "deelvraag_id": "alle",
@@ -2509,7 +2899,52 @@
       "vraag_id": "2008-bibf-vrF7"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "De bijgevoegde jaarrekening (boekhoudkundig resultaat + gecorrigeerd eigen vermogen) ontbreekt in het PDF-segment. De aanpassingen aan de aangifte (verworpen uitgaven, vrijstellingen, investeringsaftrek) zijn volledig uitwerkbaar; het eindcijfer 'belastbare basis' en de notionele intrestaftrek vereisen de jaarrekening en blijven daarom als formule weergegeven (confidence: verondersteld).",
+        "antwoord_datum": "2026-05-26T16:27:30Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aanpassingen aan het boekhoudkundig resultaat (KMO Green, aj. 2008, ink. 2007)** 🔗\n\n| Post | Bedrag (EUR) | Behandeling |\n|---|---:|---|\n| Belaste reserve in kapitaal (2000) | 1.509 | Geen aanpassing — reeds belast bij incorporatie 📖 |\n| Onderwaardering stock (fiscale controle) | +3.500 | Toename belastbare reserves 🔗 |\n| Belastingvrije reserve (meerwaarde bedrijfswagen) | — | Vrijstelling mits onaantastbaarheidsvoorwaarde (art. 190 WIB92) 🔗 |\n| **Verworpen uitgaven (VU)** | | |\n| Niet-aftrekbaar gedeelte autokosten (25% × 21.570) | +5.392,50 | art. 66 j° 198bis WIB92 — 75%-aftrek voor wagen aangekocht 2006 🔗 |\n| Belastingsupplement Ven.B | +3.770 | art. 198, 1° WIB92 — belastingen op winst zijn VU 📖 |\n| Regularisatie belasting (terugname) | −1.433 | Negatieve VU — corrigeert vroegere VU 🔗 |\n| Onthaalkosten 50% (852 × 50%) | +426,00 | art. 53, 8° WIB92 🔗 |\n| Restaurantkosten 50% (350 × 50%) (\\*) | +175,00 | art. 53, 8°bis WIB92 — voor aj. 2008 gold 50% 🤖 |\n| BTW-boete (niet-indiening) | +50 | Strafrechtelijke/administratieve geldboete — VU (art. 53, 6° WIB92) 📖 |\n| Verwijlintresten laattijdige BTW | +35 | VU als nalatigheidsintresten op belasting (art. 53, 6° WIB92) ❓ |\n| Maaltijdcheques | +1.320 | Voor aj. 2008 nog volledig VU — uitsluiting art. 53, 14° (pre-wet 22.12.2009) ❓ |\n| Maatpak bestuurder | +525 | Geen specifieke beroepskledij — VU (art. 53, 7° WIB92) 🔗 |\n| Voordeel van alle aard zonder fiche/factuur (1.385) | +1.385 | Geen rechtsgeldige bewijs (art. 49 WIB92) — VU 🔗 |\n| **Niet-VU (volledig aftrekbaar)** | | |\n| Hotelkosten Duitsland | 125 | 100% aftrekbaar (geen restaurant) 🔗 |\n| Taksen waterfactuur | 125 | Aftrekbare beroepskost 🔗 |\n| Werkkledij werknemers | 450 | Beschermkledij — aftrekbaar 🔗 |\n| Intresten autolening | 352 | Uitzondering — 100% aftrekbaar (art. 66 §1 lid 2 WIB92) 📖 |\n| **Aftrekken** | | |\n| Investeringsaftrek energiebesparend (13,5% × 3.300) | −445,50 | Eenmalige aftrek, attest Vlaams Gewest 📖 |\n| Notionele intrestaftrek | −(4,281% × gecorrigeerd EV) | Vereist jaarrekening — formule 🤖 |\n| Voorafbetalingen 2.000 | — | Verrekening op de belasting, niet op basis 🔗 |\n\n(\\*) Onthaal- en restaurantkosten worden voor aj. 2008 beperkt tot 50% (art. 53, 8° / 8°bis WIB92, regime vóór wijziging 2014).",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Saldo aanpassingen (zonder boekhoudkundig resultaat + notionele intrestaftrek)** 🔗\n\nToename belastbare basis door onderwaardering stock: +3.500\n\nTotaal verworpen uitgaven:\n5.392,50 + 3.770 − 1.433 + 426 + 175 + 50 + 35 + 1.320 + 525 + 1.385 = **+11.645,50**\n\nTotaal aftrekken (zonder NIA):\n−445,50 (investeringsaftrek)\n\n**Belastbare basis** = boekhoudkundig resultaat (uit jaarrekening) + 3.500 (stock) + 11.645,50 (VU) − 445,50 (investeringsaftrek) − (4,281% × gecorrigeerd EV)\n\nDe twee onbekenden uit de jaarrekening (boekhoudkundig resultaat + gecorrigeerd eigen vermogen) zijn nodig om het cijfer af te ronden. 🤖",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Valkuilen voor de stagiair** 🤖\n\n- **Autokosten pre-2018**: vóór aanslagjaar 2020 gold een **vast 75%-aftrek** voor wagens aangekocht vóór 1 januari 2018 (art. 198bis oud + art. 66 §1 WIB92). **Intresten** (en pas vanaf 2010 ook brandstof) waren **uitgezonderd**: 100% aftrekbaar. Voor inkomsten 2007 viel brandstof nog onder de 75%-beperking. 🔗\n- **Maaltijdcheques**: vrijstelling als beroepskost voor de werkgever werd pas ingevoerd door wet van 22.12.2009 (vanaf aj. 2010); voor aj. 2008 zijn ze nog volledig VU. ❓\n- **Belaste reserve in kapitaal**: incorporatie van **reeds belaste** reserves leidt niet tot nieuwe belasting. Niet verwarren met incorporatie van vrijgestelde reserves. 📖\n- **Voordeel van alle aard 1.385 EUR zonder factuur**: art. 49 WIB92 vereist bewijs van werkelijkheid en bedrag. Zonder factuur of fiche 281.20 → VU; eventueel ook **bijzondere aanslag geheime commissielonen** (art. 219 WIB92) — niet gevraagd in deze opgave maar wel een examen-klassieker. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Wettelijke grondslag** 📖\n\n- **Verworpen uitgaven**: art. 53, 198 WIB92 (belastingen op winst, geldboeten, niet-aftrekbare kosten).\n- **Autokosten-aftrekbeperking** (oude regime, pre-2018): art. 66 §1 WIB92 j° art. 198bis WIB92 (75%-aftrek; intresten uitgezonderd).\n- **Onthaal- en restaurantkosten 50%**: art. 53, 8° en 8°bis WIB92 (regime aj. 2008).\n- **Investeringsaftrek energiebesparende investeringen**: art. 69 WIB92 j° art. 201 WIB92 — verhoogd percentage (voor aj. 2008: 13,5% bij KMO met attest gewest).\n- **Notionele intrestaftrek (aftrek risicokapitaal)**: art. 205bis–205novies WIB92 — percentage aj. 2008 = 4,281% × gecorrigeerd eigen vermogen.\n- **Bewijsregel beroepskosten**: art. 49 WIB92 — werkelijkheid + bewijs (factuur/fiche).",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrG1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

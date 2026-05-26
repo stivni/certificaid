@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr30",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie d** is juist: de btw is verschuldigd in Duitsland, want het zwembad (onroerend goed) ligt daar. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het bouwen van een dakgebinte en dakbedekking is **werk in onroerende staat** — een dienst die naar haar aard verband houdt met een onroerend goed. Voor zulke diensten geldt zowel in B2B (art. 21 §3 1° WBTW) als in B2C (art. 21bis §2 1° WBTW) één en dezelfde plaatsbepalingsregel: **plaats = ligging van het onroerend goed**. 📖 De hoedanigheid van de klant (particulier of belastingplichtige) en zijn woonplaats spelen geen rol; ook de vestiging van de aannemer is irrelevant. 🔗\n\nPer optie:\n- **a fout** — de woonplaats van de particulier (Oostenrijk) doet niet ter zake voor diensten m.b.t. onroerend goed.\n- **b fout** — verkeerd criterium (verschil tussen lidstaat aannemer en lidstaat werk speelt geen rol op zich).\n- **c fout** — de vestigingsplaats van de aannemer (België) bepaalt de plaats niet bij onroerend werk.\n- **d juist** — ligging van het onroerend goed = München, Duitsland.\n- **e fout** — nationaliteit/woonplaats van de klant is irrelevant.",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** ❓: \"plaats van de dienst in Duitsland\" betekent niet dat de Belgische aannemer automatisch Duitse btw aanrekent. In B2C blijft de aannemer in principe gehouden tot voldoening — hij moet zich daarvoor in Duitsland identificeren (of via OSS waar dat van toepassing is), tenzij Duits intern recht een verleggingsregeling voorziet. De **plaatsbepaling** (deze vraag) en de **schuldenaar/registratie** (vervolgvraag) zijn twee verschillende kwesties. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/WBTW.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 21bis §2 1° WBTW** (B2C — diensten voor niet-belastingplichtigen): \"de plaats waar het onroerend goed is gelegen, wanneer het gaat om een dienst die verband houdt met een uit zijn aard onroerend goed. Zijn inzonderheid bedoeld het werk in onroerende staat (...)\". Spiegelbepaling B2B: art. 21 §3 1° WBTW. Europese grondslag: art. 47 Richtlijn 2006/112/EG. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

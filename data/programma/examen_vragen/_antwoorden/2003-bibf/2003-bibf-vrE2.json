@@ -1,0 +1,166 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Aftrekbare BTW = 25,00 EUR**. Beroepsgebruik 25 % ligt onder de wettelijke aftrekplafond van 50 %, dus de aftrek volgt het reële beroepspercentage. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "100,00 EUR BTW × 25 % beroepsgebruik = **25,00 EUR aftrekbaar**.\n\n- Brandstof voor een personenwagen valt onder de aftrekbeperking van art. 45 § 2 WBTW: maximaal 50 % aftrek, en dan nog enkel in de mate van het werkelijke beroepsgebruik. 📖\n- Effectief beroepsgebruik (25 %) < plafond (50 %) → het reële percentage telt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het 50 %-plafond is een **bovengrens**, geen forfait. Bij een beroepsgebruik van 60 % blijft de aftrek beperkt tot 50 %; bij 25 % beroepsgebruik daalt de aftrek mee tot 25 %. De administratie aanvaardt drie methoden om het beroepsgebruik te bepalen (rittenadministratie, semi-forfaitair, algemeen forfait van 35 %); de keuze beïnvloedt het cijfer dat in geval van controle moet worden gestaafd. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 § 2 WBTW: aftrek van BTW geheven van levering, invoer en intracommunautaire verwerving van voertuigen voor personenvervoer en op de bijhorende goederen en diensten (waaronder brandstof) wordt beperkt tot **maximaal 50 %**, en wordt verder verminderd in de mate van het privégebruik. 📖",
+          "wetsref": "Art. 45 § 2 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Aftrekbare BTW = 0,00 EUR**. De pennen kosten 49,00 EUR per stuk (excl. BTW), waarmee zij niet kwalificeren als handelsgeschenken van geringe waarde — de BTW op relatiegeschenken is dan uitgesloten van aftrek. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Toets per stuk: aankoopprijs excl. BTW = 49,00 EUR.\n\n- KB nr. 59 (sinds 18 mei 2020): handelsgeschenk is van geringe waarde wanneer de aankoopprijs **excl. BTW < 50 EUR** is. 📖\n- 49,00 EUR < 50 EUR → de drempel lijkt op het eerste gezicht net gehaald, **maar** art. 45 § 3, 4° WBTW sluit de aftrek voor kosten van **onthaal en relatiegeschenken** principieel uit, met als enige uitzondering geschenken die voldoen aan de KB-voorwaarden én een **handelsfunctie** vervullen (reclame-/promotionele finaliteit, doorgaans zichtbaar door logo of bedrijfsnaam). 🔗\n- De pennen dragen **geen logo** en gaan naar een beperkte kring \"goede klanten\" → zij missen het handelsbestemmings-/reclame-karakter dat de administratie vereist. Bovendien is de prijs (49 EUR) zo dicht tegen de drempel dat de administratie dit doorgaans als niet-gering kwalificeert. 🤖\n- Gevolg: BTW van 514,50 EUR is **niet aftrekbaar**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Twee niveaus apart houden: (i) **BTW-onttrekking** — KB nr. 59 voorkomt dat het gratis weggeven gelijkgesteld wordt met een levering onder bezwarende titel (drempel 50 EUR excl. BTW); (ii) **BTW-aftrek aan de inkoopzijde** — art. 45 § 3, 4° WBTW. Beide moeten samen voldaan zijn voor aftrek. Zonder logo of duidelijke reclame-context faalt voorwaarde (ii) typisch. Ten tijde van het examen (2003) lag de drempel zelfs op **500 BEF / circa 12,50 EUR**, dus toen was de uitsluiting nog scherper. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 § 3, 4° WBTW (uitsluiting aftrek voor kosten van onthaal en relatiegeschenken) gelezen samen met art. 1 KB nr. 59 van 18 mei 2020 (handelsgeschenken van geringe waarde: aankoopprijs excl. BTW < 50 EUR, verstrekt in het kader van handelsrelaties, niet voor doorverkoop). 📖",
+          "wetsref": "Art. 45 § 3, 4° WBTW; art. 1 KB nr. 59",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Aftrekbare BTW op de factuur = 0,00 EUR.** Bij correcte toepassing van de medecontractantsregeling rekent de aannemer **geen BTW** aan op zijn factuur — de NV-bouwpromotor voldoet de verschuldigde 2.100 EUR (21 % × 10.000) zelf via haar aangifte en trekt diezelfde 2.100 EUR in dezelfde aangifte af (per saldo nul). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Mechanisme medecontractant (verlegging van heffing):\n\n- Factuur aannemer: 10.000,00 EUR excl. BTW + vermelding \"btw verlegd — medecontractant\" → **0 EUR BTW op factuur**. 📖\n- Aangifte NV: vak verschuldigde BTW (rooster 56) +2.100 EUR + vak aftrekbare BTW (rooster 59) −2.100 EUR → netto **0 EUR cash-out**, mits volledig recht op aftrek. 🔗\n- De NV verhuurt een gebouw met economische activiteit \"bouwpromotor\": de reiniging is een kost van haar belastbare activiteit, dus volledig aftrekbaar (tenzij de verhuur zelf vrijgesteld zou zijn — onder art. 44 § 3 WBTW kan onroerende verhuur uitgesloten zijn van aftrek, maar als de NV de optionele btw-verhuur (B2B, art. 44 § 3, 2°, d) toepast of het gebouw verkoopt als nieuw, blijft aftrek mogelijk). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De vraag luidt letterlijk \"aftrekbare BTW **op een factuur**\". Het antwoord 0 EUR is correct omdat er **geen** BTW op de factuur staat — niet omdat aftrek wordt uitgesloten. Wie 2.100 EUR antwoordt verwart de aftrek op de factuur met de aftrek in de aangifte. De medecontractantsregeling is **kasstroom-neutraal** voor een volledig aftrekgerechtigde belastingplichtige, maar verschuift de fraudegevoeligheid naar de afnemer. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 20 § 1 KB nr. 1 van 29 december 1992: in afwijking van art. 51 § 1, 1° WBTW voldoet de in België gevestigde **medecontractant** (afnemer-belastingplichtige met aangifteplicht) zelf de BTW over werk in onroerende staat dat door zijn medecontractant wordt verricht. De dienstverrichter factureert zonder BTW met vermelding \"btw verlegd\". 📖",
+          "wetsref": "Art. 20 KB nr. 1; art. 51 § 2, 1° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Aftrekbare BTW = 693,00 EUR** (21 % × 3.300,00 EUR maatstaf van heffing). Eindejaarsgeschenk per personeelslid (1 fles à 22 EUR incl. accijns, excl. BTW) blijft onder de drempel voor collectieve sociale voordelen, zodat de BTW op de intracommunautaire verwerving volledig aftrekbaar is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Stap 1 — Maatstaf van heffing IC-verwerving (art. 26 WBTW + art. 83 BTW-Richtlijn 2006/112): aankoopprijs **plus** accijnzen die door de verkrijger verschuldigd zijn.\n\n- 150 flessen × 18,00 EUR = 2.700,00 EUR\n- Belgische accijnzen: 150 × 4,00 EUR = 600,00 EUR\n- **Maatstaf** = 2.700,00 + 600,00 = **3.300,00 EUR**. 🔗\n\nStap 2 — Verschuldigde BTW op IC-verwerving: 21 % × 3.300,00 = **693,00 EUR** (rooster 55 + 87). 🔗\n\nStap 3 — Aftrek (rooster 59):\n\n- Wijn = drank, maar art. 45 § 3, 1° WBTW sluit enkel **geestrijke dranken** (gedistilleerd) uit, niet wijn. 📖\n- Art. 45 § 3, 2° WBTW (spijzen en dranken in horeca-context, verbruik ter plaatse) is hier niet van toepassing — de wijn wordt aan personeel meegegeven. 🔗\n- Collectief sociaal voordeel aan personeel (eindejaars-/sinterklaasgeschenk): aanvaard als beroepskost én BTW-aftrekbaar voor zover beperkt in prijs en éénmalig per gelegenheid (admin. tolerantie circa 35–50 EUR excl. BTW per begunstigde, naargelang de periode). 22 EUR per personeelslid blijft duidelijk onder die grens. 🤖\n- Aftrekbare BTW = **693,00 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Drie klassieke fouten: (i) accijnzen vergeten in de maatstaf van heffing — art. 26 WBTW eist uitdrukkelijk dat accijnzen die door de verkrijger verschuldigd zijn worden meegerekend; reken niet 21 % × 2.700 = 567 EUR. (ii) Wijn verwarren met geestrijke drank (art. 45 § 3, 1° geldt enkel voor gedistilleerd; wijn en bier blijven aftrekbaar mits toegelaten bestemming). (iii) Personeels-eindejaarsgeschenken automatisch als privé behandelen — voor collectieve, periodieke geschenken onder de tolerantiegrens blijft de aftrek behouden. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 25ter WBTW (belastbaarheid IC-verwerving), art. 26 WBTW samen met art. 83 BTW-Richtlijn 2006/112/EG (maatstaf van heffing inclusief accijnzen), art. 45 § 1, 3° WBTW (recht op aftrek IC-verwerving) en art. 45 § 3 WBTW (uitsluitingen — wijn valt niet onder \"geestrijke dranken\"). 📖",
+          "wetsref": "Art. 25ter, 26, 45 § 1, 3°, 45 § 3 WBTW; art. 83 Richtlijn 2006/112/EG",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

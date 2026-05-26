@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2003-bibf.pdf",
   "examen_id": "2003-bibf",
-  "merge_datum": "2026-05-26T16:23:57+00:00",
+  "merge_datum": "2026-05-26T16:33:41+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -1171,7 +1171,71 @@
       "vraag_id": "2003-bibf-vrC2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:27:52Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Als kwartaal-BTW-belastingplichtige horeca-uitbater moet de cliënt (a) een aan zijn activiteit aangepaste BTW-boekhouding voeren met de wettelijk verplichte boeken, (b) facturen uitreiken en kastickets afleveren via een geregistreerd kassasysteem (GKS) wanneer zijn jaaromzet restaurant-/cateringdiensten > 25.000 EUR, (c) kwartaalaangiften en de jaarlijkse klantenlisting indienen, en (d) zijn boeken en stukken 10 jaar bewaren. Per kwartaal bezorgt hij u: aankoop-/onkostenfacturen, verkoopfacturen, dagontvangstenboek met de Z-rapporten/kastickets, kas- en bankuittreksels en de loonstaten. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+                  "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Wettelijke verplichtingen",
+                "tekst": "**BTW-verplichtingen (W.BTW + KB nr. 1):**\n\n- **Aangifte bij aanvang/wijziging/stopzetting** activiteit bij het bevoegde BTW-controlekantoor (art. 53 W.BTW). 📖\n- **BTW-boekhouding aangepast aan de activiteit** (art. 14 §1 KB nr. 1): boek voor inkomende facturen, boek voor uitgaande facturen, **dagboek van ontvangsten** per bedrijfszetel (verplicht voor handelingen waarvoor geen factuur moet worden uitgereikt — typisch horeca-verkopen aan particulieren), en een **centralisatieboek** als er meerdere boeken zijn. 📖\n- **Facturen uitreiken** voor handelingen aan BTW-plichtigen/rechtspersonen en bewaren van dubbels (art. 53, §2 W.BTW). 📖\n- **Geregistreerd kassasysteem (GKS) met kasticket** wanneer de jaaromzet uit restaurant-/cateringdiensten (exclusief BTW, dranken niet meegeteld) meer bedraagt dan **25.000 EUR** (art. 21bis KB nr. 1 + KB 30.12.2009). 📖\n- **Periodieke BTW-aangifte per kwartaal** indienen uiterlijk de **20e** van de maand volgend op het kwartaal en de verschuldigde BTW betalen; bij keuze voor het normale kwartaalregime zijn **voorschotten** verschuldigd (art. 53, §1 W.BTW + KB nr. 1). 🔗\n- **Jaarlijkse klantenlisting** (lijst BTW-belastingplichtige afnemers) indienen vóór 31 maart van het volgende jaar (KB nr. 23). 📖\n- **Intracommunautaire opgave** indien IC-leveringen of -diensten (KB nr. 50) — voor zuivere horeca meestal niet aan de orde. 🔗\n- **Bewaarplicht** van boeken, facturen en stukken gedurende **7 jaar** (sinds 2019; voor het examenjaar 2003 gold nog **10 jaar** — art. 60 W.BTW). ❓\n\n**Boekhoudkundige en sociale verplichtingen:**\n\n- **Boekhoudplicht** als natuurlijke persoon met zelfstandige beroepsactiviteit (vroeger Wet 17.07.1975, sinds WER Boek III art. III.82 e.v.): minstens een **vereenvoudigde boekhouding** (financieel dagboek, aankoopboek, verkoopboek, inventarisboek) zolang de omzet ≤ de drempel (vandaag 500.000 EUR ex BTW); daarboven dubbel boekhouden. 🔗\n- **Jaarlijkse inventaris** en opmaak van **jaarrekening** (interne jaarrekening voor de eenmanszaak). 🔗\n- **Aansluiting bij een sociaal verzekeringsfonds** voor zelfstandigen + driemaandelijkse sociale bijdragen. 🔗\n- **Personenbelasting**: jaarlijkse PB-aangifte met **deel 2** (winst-/baten); kwartaalvoorafbetalingen om belastingvermeerdering te vermijden. 🔗\n- **Bedrijfsvoorheffing** en RSZ inhouden en doorstorten indien personeel in dienst. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Stukken/informatie per kwartaal",
+                "tekst": "Wat u als boekhouder telkens vóór het einde van de maand na het kwartaal van de cliënt nodig heeft om de BTW-aangifte op te maken:\n\n- **Aankoopfacturen en onkostennota's** van het kwartaal (handelsgoederen, dranken, voeding, energie, huur, telefoon, verzekeringen, ...), origineel of elektronisch. 🔗\n- **Verkoopfacturen** uitgereikt aan BTW-plichtige klanten / op vraag (seminaries, bedrijfsmaaltijden, ...). 🔗\n- **Dagboek van ontvangsten** en/of de **dagelijkse Z-rapporten** van het geregistreerd kassasysteem (of, bij omzet ≤ 25.000 EUR restaurant/catering: het manueel bijgehouden ontvangstenboek met dagtotalen). 🔗\n- **Kas- en bankuittreksels** van alle beroepsrekeningen + kasboek. 🔗\n- **Creditnota's** (uitgaand en inkomend) en eventuele **invoerdocumenten / IC-stukken**. 🔗\n- **Loon- en personeelsstaten** (indien personeel): individuele rekeningen, lonen, bedrijfsvoorheffing, RSZ-aangifte. 🔗\n- **Eventuele investeringsdocumenten** (aankoop materieel, auto, inrichting) — relevant voor BTW-aftrek en afschrijving. 🔗\n- **Stand van vorderingen/schulden** op kwartaaleinde (klanten- en leverancierssaldi) voor de tussentijdse afsluit. 🔗\n\nJaarlijks bijkomend: **inventaris voorraad** (drank, food, klein materieel) en kilometerstand/privégebruik beroepsvoertuig voor het BTW-aftrekverhoudingscijfer. 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+                  "resources/bronnen/wetteksten/WBTW-KB01okt2013-certificatie-gks.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het **geregistreerd kassasysteem (GKS)** voor horeca bestond in 2003 nog niet — het werd ingevoerd vanaf **2014** (KB 30.12.2009 + KB 01.10.2013). In 2003 hield een taverne-uitbater zijn omzet bij in een **gewoon dagontvangstenboek** (per bedrijfszetel, dagelijks ingevuld met afzonderlijke vermelding per BTW-tarief — art. 14 KB nr. 1). De 25.000 EUR-drempel en de GKS-verplichting zijn dus enkel relevant voor de moderne lezing van de vraag. Het juist toepassen van het tijdperk-correcte regime is de typische valkuil bij oudere examenvragen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+                  "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**W.BTW**: art. 53 (aanvangsaangifte, periodieke aangifte, facturatie), art. 60 (bewaarplicht boeken en stukken), art. 56bis (kasticket horeca). **KB nr. 1 W.BTW** (29.12.1992): art. 14 (boekhouding aangepast aan de activiteit + verplichte boeken inclusief dagboek van ontvangsten), art. 21bis (kasticket-/GKS-plicht horeca > 25.000 EUR). **KB nr. 23** (09.12.2009): jaarlijkse klantenlisting. **KB nr. 50**: intracommunautaire opgave. **WER Boek III** (art. III.82 e.v.): algemene boekhoudplicht zelfstandigen. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 53, 56bis, 60 W.BTW · art. 14, 21bis KB nr. 1 · KB nr. 23 · WER art. III.82"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrD1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "cluster_actie": "merge_one_antwoord",
@@ -1231,7 +1295,99 @@
       "vraag_id": "2003-bibf-vrD1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "cluster_id": "2.4-c2",
+        "cluster_leden": [
+          "2003-bibf-vrD2",
+          "2008-bibf-vrD2"
+        ],
+        "cluster_verdict": "echt_duplicaat",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja** — de schrijnwerker moet zijn werkwijze aanpassen. Voor elk ontvangen voorschot is hij **wettelijk verplicht een factuur uit te reiken** (uiterlijk de 15de dag van de maand volgend op die waarin de btw opeisbaar wordt). Eén eindfactuur \"voldaan\" voor het totaal volstaat dus niet. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bij een dienst (aannemingswerk) wordt de btw in beginsel opeisbaar op het tijdstip waarop de dienst is verricht (art. 22 WBTW). **Wanneer de prijs of een deel ervan wordt ontvangen vóór dat tijdstip — een voorschot — wordt de btw opeisbaar over het ontvangen bedrag op het tijdstip van de betaling** (art. 22bis §1 WBTW, parallel aan art. 17 §1 derde lid voor goederen). 📖\n\nDe belastingplichtige is gehouden een factuur uit te reiken **uiterlijk de vijftiende dag van de maand volgend op die waarin de btw opeisbaar is geworden** (art. 53 §2 WBTW + art. 4 KB nr. 1). Concreet voor deze schrijnwerker:\n\n- **Voorschot 1** (vóór aanvang) → factuur uiterlijk de 15de van de volgende maand.\n- **Voorschot 2** (halfweg) → idem.\n- **Saldo bij voltooiing** → factuur uiterlijk de 15de van de maand volgend op de oplevering.\n\nDe vermelding \"voldaan\" op één eindfactuur dekt deze verplichting niet: de wet vereist dat de **opeisbaarheid per voorschot wordt vastgelegd** in een factuur, zodat de btw tijdig kan worden afgedragen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Een **offerte** of **bestelbon** is geen factuur in de zin van het WBTW — ook al draagt zij prijsaanduidingen. Zolang er geen factuur is uitgereikt voor een voorschot dat reeds ontvangen werd, is de schrijnwerker in overtreding, ook al heeft hij de btw uiteindelijk via de eindfactuur correct aangegeven. Het uitreikingsmoment (en niet alleen het uiteindelijk afdragen) is de wettelijke verplichting. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 22 en 22bis §1 WBTW (opeisbaarheid btw bij diensten en bij ontvangst van voorschot vóór de dienst); art. 53 §2, 1° WBTW (factureringsverplichting per belastbare handeling); art. 4 KB nr. 1 (uitreikingstermijn = 15de van de maand volgend op opeisbaarheid). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 22, 22bis §1, 53 §2 WBTW; Art. 4 KB nr. 1"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De schrijnwerker moet — als btw-belastingplichtige én als ondernemer onder het WVV/boekhoudrecht — de volgende stukken bewaren:\n\n- **Kopieën van alle uitgereikte facturen** (voorschotfacturen + eindfactuur) en de **ontvangen facturen** (van zijn leveranciers/onderaannemers). 📖\n- **Boekhouding** in de zin van art. 14 KB nr. 1: het **boek voor inkomende facturen**, het **boek voor uitgaande facturen** en het **dagboek van ontvangsten** (in een ononderbroken reeks volgnummers). 📖\n- **Alle andere stukken** met betrekking tot zijn economische activiteit: offertes, bestelbons, contracten, verzendingsnota's, creditnota's, bankuittreksels, kasstaten. 🔗\n- **Btw-aangiften**, **listings van belastingplichtige afnemers** en eventuele **intracommunautaire opgaven**. 🔗\n- **Sociale en fiscale stukken** verbonden aan de activiteit (loon-, bedrijfsvoorheffings- en directe-belasting-documenten — niet uniek voor btw, wel verplicht).\n\n**Bewaartermijn**: **10 jaar** te rekenen vanaf 1 januari van het jaar volgend op hun datum (sinds W 20.11.2022, voor belastingen die opeisbaar zijn geworden vanaf 01.01.2023; daarvóór was de termijn 7 jaar). 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "De **bewaarplicht treft eenieder** (niet alleen de belastingplichtige zelf): ook de afnemer moet zijn ontvangen facturen bewaren (art. 60 §1, tweede lid WBTW). De plaats van bewaring is vrij te kiezen, maar de stukken moeten op verzoek van de fiscus **zonder onnodig uitstel** ter beschikking worden gesteld (art. 60 §2 en art. 61 §1 WBTW). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 60 WBTW (bewaarplicht facturen + 10 jaar sinds W 20.11.2022); art. 61 WBTW (voorleggingsplicht aan administratie); art. 14 KB nr. 1 (verplichte btw-boekhouding: boek inkomende/uitgaande facturen + dagboek ontvangsten). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 60, 61 WBTW; Art. 14 KB nr. 1"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrD2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "cluster_actie": "merge_one_antwoord",
@@ -1296,7 +1452,152 @@
       "vraag_id": "2003-bibf-vrD2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_historische_context": "Examen 2003. Het toenmalige BTW-regime voor bestuurders/zaakvoerders/vereffenaars-natuurlijke personen (administratieve beslissing E.T.79.581 d.d. 15.07.1994) week af van het huidige regime. Sinds 01.01.2016 (afschaffing optieregeling voor rechtspersonen-mandatarissen) zijn natuurlijke personen-bestuurders/zaakvoerders nog steeds géén BTW-belastingplichtige (zelfde uitkomst voor stellingen 1, 2, 4). Voor 2003-context blijft het antwoord identiek.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST** — een natuurlijke persoon die zaakvoerder is van een BVBA handelt niet zelfstandig in de zin van art. 4 WBTW en is dus geen BTW-belastingplichtige; bijgevolg **geen recht op BTW-aftrek**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Een natuurlijke persoon-zaakvoerder oefent zijn mandaat uit binnen een verhouding van ondergeschiktheid ten aanzien van de algemene vergadering die hem benoemt en kan ontslaan; de administratie aanvaardt dat dergelijke mandatarissen niet \"zelfstandig\" werken in de zin van art. 4, § 1 WBTW. 🔗 Geen belastingplicht ⇒ geen recht op aftrek van voorbelasting op aankopen voor de mandaatuitoefening. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 4, § 1 WBTW: belastingplichtige is wie een economische activiteit **zelfstandig** verricht; loontrekkenden en personen met een juridische band die een verhouding van ondergeschiktheid doet ontstaan zijn uitgesloten. 📖 Geen belastingplicht ⇒ geen recht op aftrek krachtens art. 45 WBTW. 🔗",
+                "type": "grondslag",
+                "wetsref": "art. 4 § 1 WBTW; art. 45 WBTW"
+              }
+            ],
+            "id": "i1_1",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST** — een natuurlijke persoon-bestuurder van een NV is om dezelfde reden als de zaakvoerder geen BTW-belastingplichtige (geen zelfstandige economische activiteit in de zin van art. 4 WBTW). **Geen recht op BTW-aftrek**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "**Rechtspersoon-bestuurder ≠ natuurlijk persoon-bestuurder**. Een rechtspersoon-bestuurder werd in 2003 wel als BTW-belastingplichtige beschouwd (optieregeling, administratieve beslissing E.T.79.581 d.d. 15.07.1994), terwijl voor natuurlijke personen de niet-belastingplicht gold. 🤖 De vraagstelling is hier expliciet \"natuurlijke persoon\" — dat is de beslissende factor. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 4, § 1 WBTW — vereiste van zelfstandigheid. 📖 De toenmalige administratieve doctrine (E.T.79.581) bevestigde dat natuurlijke personen-bestuurders/zaakvoerders niet als BTW-belastingplichtige werden behandeld. 🤖",
+                "type": "grondslag",
+                "wetsref": "art. 4 § 1 WBTW"
+              }
+            ],
+            "id": "i1_2",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST** — een VZW die fiscale seminaries voor de permanente vorming van economische beroepsbeoefenaars organiseert, verricht een **vrijgestelde** onderwijsdienst (art. 44, § 2, 4° WBTW). Vrijgestelde handelingen geven **geen recht op aftrek** van voorbelasting. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 44, § 2, 4° WBTW stelt de school- en universitaire opleiding, de beroepsopleiding en -herscholing vrij, alsmede de nauw daarmee samenhangende diensten en leveringen, op voorwaarde dat deze worden verricht door organisaties die geen systematisch winstoogmerk hebben — een VZW voldoet hieraan. 📖 Permanente vorming voor economische beroepsbeoefenaars valt onder \"beroepsopleiding\". 🔗 Vrijstelling zonder recht op aftrek (\"echte vrijstelling\" in BTW-jargon: geen BTW aangerekend, geen aftrek mogelijk). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Het verschil met art. 44, § 1 (medische vrijstellingen) of § 3 (onroerende verhuur) blijft hetzelfde: een vrijstelling op grond van art. 44 WBTW is **steeds zonder recht op aftrek**, in tegenstelling tot de \"oneigenlijke\" vrijstellingen met aftrekrecht (bv. art. 39 export, art. 39bis IC-leveringen). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 44, § 2, 4° WBTW: vrijstelling voor onderwijs en beroepsopleiding door instellingen zonder systematisch winstoogmerk. 📖 Art. 45, § 1 WBTW: aftrek slechts voor zover de goederen/diensten worden gebruikt voor belaste handelingen — vrijgestelde handelingen sluiten aftrek uit. 🔗",
+                "type": "grondslag",
+                "wetsref": "art. 44 § 2, 4° WBTW; art. 45 § 1 WBTW"
+              }
+            ],
+            "id": "i1_3",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST** — een natuurlijke persoon-vereffenaar van een CVBA wordt op dezelfde voet behandeld als bestuurders en zaakvoerders: geen zelfstandige economische activiteit in de zin van art. 4 WBTW, dus geen BTW-belastingplichtige en **geen recht op BTW-aftrek**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De vereffenaar treedt in de plaats van het bestuursorgaan voor de afwikkeling van de vennootschap. Het mandaat wordt uitgeoefend onder toezicht van de algemene vergadering (of de rechtbank bij gerechtelijke vereffening) — dezelfde ondergeschiktheidsverhouding als bij een zaakvoerder of bestuurder. 🔗 De administratie behandelde natuurlijke personen-vereffenaars op identieke wijze als andere mandatarissen-natuurlijke personen: geen BTW-belastingplicht, geen aftrek. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 4, § 1 WBTW (zelfstandigheidsvereiste). 📖 Toenmalige administratieve doctrine voor mandatarissen-natuurlijke personen (E.T.79.581, 15.07.1994) gold ook voor vereffenaars. 🤖",
+                "type": "grondslag",
+                "wetsref": "art. 4 § 1 WBTW"
+              }
+            ],
+            "id": "i1_4",
+            "oordeel": true
+          }
+        ],
+        "vraag_id": "2003-bibf-vrE1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1373,7 +1674,172 @@
       "vraag_id": "2003-bibf-vrE1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aftrekbare BTW = 25,00 EUR**. Beroepsgebruik 25 % ligt onder de wettelijke aftrekplafond van 50 %, dus de aftrek volgt het reële beroepspercentage. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "100,00 EUR BTW × 25 % beroepsgebruik = **25,00 EUR aftrekbaar**.\n\n- Brandstof voor een personenwagen valt onder de aftrekbeperking van art. 45 § 2 WBTW: maximaal 50 % aftrek, en dan nog enkel in de mate van het werkelijke beroepsgebruik. 📖\n- Effectief beroepsgebruik (25 %) < plafond (50 %) → het reële percentage telt. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Het 50 %-plafond is een **bovengrens**, geen forfait. Bij een beroepsgebruik van 60 % blijft de aftrek beperkt tot 50 %; bij 25 % beroepsgebruik daalt de aftrek mee tot 25 %. De administratie aanvaardt drie methoden om het beroepsgebruik te bepalen (rittenadministratie, semi-forfaitair, algemeen forfait van 35 %); de keuze beïnvloedt het cijfer dat in geval van controle moet worden gestaafd. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 45 § 2 WBTW: aftrek van BTW geheven van levering, invoer en intracommunautaire verwerving van voertuigen voor personenvervoer en op de bijhorende goederen en diensten (waaronder brandstof) wordt beperkt tot **maximaal 50 %**, en wordt verder verminderd in de mate van het privégebruik. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 45 § 2 WBTW"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aftrekbare BTW = 0,00 EUR**. De pennen kosten 49,00 EUR per stuk (excl. BTW), waarmee zij niet kwalificeren als handelsgeschenken van geringe waarde — de BTW op relatiegeschenken is dan uitgesloten van aftrek. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Toets per stuk: aankoopprijs excl. BTW = 49,00 EUR.\n\n- KB nr. 59 (sinds 18 mei 2020): handelsgeschenk is van geringe waarde wanneer de aankoopprijs **excl. BTW < 50 EUR** is. 📖\n- 49,00 EUR < 50 EUR → de drempel lijkt op het eerste gezicht net gehaald, **maar** art. 45 § 3, 4° WBTW sluit de aftrek voor kosten van **onthaal en relatiegeschenken** principieel uit, met als enige uitzondering geschenken die voldoen aan de KB-voorwaarden én een **handelsfunctie** vervullen (reclame-/promotionele finaliteit, doorgaans zichtbaar door logo of bedrijfsnaam). 🔗\n- De pennen dragen **geen logo** en gaan naar een beperkte kring \"goede klanten\" → zij missen het handelsbestemmings-/reclame-karakter dat de administratie vereist. Bovendien is de prijs (49 EUR) zo dicht tegen de drempel dat de administratie dit doorgaans als niet-gering kwalificeert. 🤖\n- Gevolg: BTW van 514,50 EUR is **niet aftrekbaar**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Twee niveaus apart houden: (i) **BTW-onttrekking** — KB nr. 59 voorkomt dat het gratis weggeven gelijkgesteld wordt met een levering onder bezwarende titel (drempel 50 EUR excl. BTW); (ii) **BTW-aftrek aan de inkoopzijde** — art. 45 § 3, 4° WBTW. Beide moeten samen voldaan zijn voor aftrek. Zonder logo of duidelijke reclame-context faalt voorwaarde (ii) typisch. Ten tijde van het examen (2003) lag de drempel zelfs op **500 BEF / circa 12,50 EUR**, dus toen was de uitsluiting nog scherper. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB59-handelsgeschenken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 45 § 3, 4° WBTW (uitsluiting aftrek voor kosten van onthaal en relatiegeschenken) gelezen samen met art. 1 KB nr. 59 van 18 mei 2020 (handelsgeschenken van geringe waarde: aankoopprijs excl. BTW < 50 EUR, verstrekt in het kader van handelsrelaties, niet voor doorverkoop). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 45 § 3, 4° WBTW; art. 1 KB nr. 59"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aftrekbare BTW op de factuur = 0,00 EUR.** Bij correcte toepassing van de medecontractantsregeling rekent de aannemer **geen BTW** aan op zijn factuur — de NV-bouwpromotor voldoet de verschuldigde 2.100 EUR (21 % × 10.000) zelf via haar aangifte en trekt diezelfde 2.100 EUR in dezelfde aangifte af (per saldo nul). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Mechanisme medecontractant (verlegging van heffing):\n\n- Factuur aannemer: 10.000,00 EUR excl. BTW + vermelding \"btw verlegd — medecontractant\" → **0 EUR BTW op factuur**. 📖\n- Aangifte NV: vak verschuldigde BTW (rooster 56) +2.100 EUR + vak aftrekbare BTW (rooster 59) −2.100 EUR → netto **0 EUR cash-out**, mits volledig recht op aftrek. 🔗\n- De NV verhuurt een gebouw met economische activiteit \"bouwpromotor\": de reiniging is een kost van haar belastbare activiteit, dus volledig aftrekbaar (tenzij de verhuur zelf vrijgesteld zou zijn — onder art. 44 § 3 WBTW kan onroerende verhuur uitgesloten zijn van aftrek, maar als de NV de optionele btw-verhuur (B2B, art. 44 § 3, 2°, d) toepast of het gebouw verkoopt als nieuw, blijft aftrek mogelijk). 🤖",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "De vraag luidt letterlijk \"aftrekbare BTW **op een factuur**\". Het antwoord 0 EUR is correct omdat er **geen** BTW op de factuur staat — niet omdat aftrek wordt uitgesloten. Wie 2.100 EUR antwoordt verwart de aftrek op de factuur met de aftrek in de aangifte. De medecontractantsregeling is **kasstroom-neutraal** voor een volledig aftrekgerechtigde belastingplichtige, maar verschuift de fraudegevoeligheid naar de afnemer. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 20 § 1 KB nr. 1 van 29 december 1992: in afwijking van art. 51 § 1, 1° WBTW voldoet de in België gevestigde **medecontractant** (afnemer-belastingplichtige met aangifteplicht) zelf de BTW over werk in onroerende staat dat door zijn medecontractant wordt verricht. De dienstverrichter factureert zonder BTW met vermelding \"btw verlegd\". 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 20 KB nr. 1; art. 51 § 2, 1° WBTW"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aftrekbare BTW = 693,00 EUR** (21 % × 3.300,00 EUR maatstaf van heffing). Eindejaarsgeschenk per personeelslid (1 fles à 22 EUR incl. accijns, excl. BTW) blijft onder de drempel voor collectieve sociale voordelen, zodat de BTW op de intracommunautaire verwerving volledig aftrekbaar is. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Stap 1 — Maatstaf van heffing IC-verwerving (art. 26 WBTW + art. 83 BTW-Richtlijn 2006/112): aankoopprijs **plus** accijnzen die door de verkrijger verschuldigd zijn.\n\n- 150 flessen × 18,00 EUR = 2.700,00 EUR\n- Belgische accijnzen: 150 × 4,00 EUR = 600,00 EUR\n- **Maatstaf** = 2.700,00 + 600,00 = **3.300,00 EUR**. 🔗\n\nStap 2 — Verschuldigde BTW op IC-verwerving: 21 % × 3.300,00 = **693,00 EUR** (rooster 55 + 87). 🔗\n\nStap 3 — Aftrek (rooster 59):\n\n- Wijn = drank, maar art. 45 § 3, 1° WBTW sluit enkel **geestrijke dranken** (gedistilleerd) uit, niet wijn. 📖\n- Art. 45 § 3, 2° WBTW (spijzen en dranken in horeca-context, verbruik ter plaatse) is hier niet van toepassing — de wijn wordt aan personeel meegegeven. 🔗\n- Collectief sociaal voordeel aan personeel (eindejaars-/sinterklaasgeschenk): aanvaard als beroepskost én BTW-aftrekbaar voor zover beperkt in prijs en éénmalig per gelegenheid (admin. tolerantie circa 35–50 EUR excl. BTW per begunstigde, naargelang de periode). 22 EUR per personeelslid blijft duidelijk onder die grens. 🤖\n- Aftrekbare BTW = **693,00 EUR**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Drie klassieke fouten: (i) accijnzen vergeten in de maatstaf van heffing — art. 26 WBTW eist uitdrukkelijk dat accijnzen die door de verkrijger verschuldigd zijn worden meegerekend; reken niet 21 % × 2.700 = 567 EUR. (ii) Wijn verwarren met geestrijke drank (art. 45 § 3, 1° geldt enkel voor gedistilleerd; wijn en bier blijven aftrekbaar mits toegelaten bestemming). (iii) Personeels-eindejaarsgeschenken automatisch als privé behandelen — voor collectieve, periodieke geschenken onder de tolerantiegrens blijft de aftrek behouden. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 25ter WBTW (belastbaarheid IC-verwerving), art. 26 WBTW samen met art. 83 BTW-Richtlijn 2006/112/EG (maatstaf van heffing inclusief accijnzen), art. 45 § 1, 3° WBTW (recht op aftrek IC-verwerving) en art. 45 § 3 WBTW (uitsluitingen — wijn valt niet onder \"geestrijke dranken\"). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 25ter, 26, 45 § 1, 3°, 45 § 3 WBTW; art. 83 Richtlijn 2006/112/EG"
+              }
+            ],
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrE2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1449,7 +1915,183 @@
       "vraag_id": "2003-bibf-vrE2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:28:20Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JA — BTW verschuldigd: 17,36 EUR.** De volledige afschrijving van het goed verandert niets aan de BTW-plicht bij verkoop. Formule: 100,00 × 21/121 = **17,36 EUR** (de 100 EUR is de door de koper betaalde prijs, dus inclusief BTW). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De verkoop in België van een roerend bedrijfsgoed door een BTW-belastingplichtige met recht op aftrek is een belastbare levering onder bezwarende titel (art. 2 + art. 9-10 WBTW). 🔗 Of het goed boekhoudkundig al volledig is afgeschreven, is voor de BTW irrelevant — wat telt is de werkelijk aangerekende vergoeding. 🔗 De maatstaf van heffing is de tegenprestatie ontvangen van de koper (art. 26 WBTW). Aangezien de prijs van 100,00 EUR die de koper betaalt **inclusief** BTW is, wordt de BTW eruit gerekend met de factor 21/121. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met **onttrekking** (art. 12 WBTW) of met overdracht onder de tweedehands-regeling (art. 58, § 4): hier is sprake van een gewone verkoop tegen een vergoeding, dus de gewone maatstaf van heffing geldt. Ook geen herziening van de oorspronkelijke aftrek nodig: het bedrijfsmiddel verlaat de onderneming via een belastbare handeling met recht op aftrek. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 2 + art. 26 WBTW: levering van goederen onder bezwarende titel in België door een belastingplichtige is belastbaar; maatstaf van heffing = alles wat de leverancier als tegenprestatie verkrijgt. Tarief 21% (KB nr. 20). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 2, art. 26 WBTW; KB nr. 20"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JA — BTW verschuldigd: 260,33 EUR.** Het privatieve gebruik van een bedrijfsauto door een personeelslid is een met een dienst onder bezwarende titel gelijkgestelde handeling. Formule: 1.500,00 × 21/121 = **260,33 EUR** (het VAA wordt als bedrag inclusief BTW behandeld). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+                ],
+                "confidence": "verondersteld",
+                "tekst": "Het gebruik van een bedrijfsgoed voor privédoeleinden van het personeel = dienst gelijkgesteld met een dienst onder bezwarende titel (art. 19, § 1 WBTW; art. 75 BTW-richtlijn). 🔗 De maatstaf van heffing is in beginsel \"het bedrag van de door de belastingplichtige gemaakte kosten\". 📖 In de Belgische praktijk (admin. besl. ET, BIBF-traditie 2003) wordt voor het privégebruik van een firmawagen door personeel de BTW berekend op de forfaitaire VAA-grondslag, beschouwd als bedrag inclusief BTW → 1.500 × 21/121 ≈ 260,33 EUR. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "De BTW-regels voor privégebruik van firmawagens zijn na 2011 grondig herzien (Beslissing ET 119.650 + opvolgers): sindsdien werkt men met semi-forfaits (4-rittenmethode, 35%-forfait) op de werkelijke autokosten i.p.v. op het DB-VAA. Voor het examen van 2003 geldt nog de oude koppeling tussen BTW-maatstaf en het VAA — voor de actuele praktijk: BTW = privégebruiks-% × niet-aftrekbaar deel van de werkelijke autokosten. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 19, § 1 WBTW (handeling gelijkgesteld met dienst onder bezwarende titel) en art. 33, § 1, 2° WBTW jo. art. 75 Richtlijn 2006/112/EG (maatstaf = gemaakte kosten). 📖 Belgische administratieve invulling 2003: VAA inclusief BTW → factor 21/121. 🤖",
+                "type": "grondslag",
+                "wetsref": "art. 19 § 1, art. 33 § 1, 2° WBTW; art. 75 Richtlijn 2006/112/EG"
+              }
+            ],
+            "id": "b",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JA — BTW verschuldigd via herziening: 42,00 EUR.** Bij overschakeling van het normale BTW-regime naar de vrijstellingsregeling (\"franchise\", art. 56bis WBTW) moet de aftrek op de nog bestaande bedrijfsmiddelen herzien worden. Formule: 105 × 2/5 = **42,00 EUR** (oorspronkelijk afgetrokken BTW × het nog niet-verstreken aantal jaren binnen de 5-jarige herzieningstermijn). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "- Aanschaf bedrijfsmiddel: 2000 → oorspronkelijke aftrek: 500 × 21% = **105,00 EUR**. 🔗\n- Herzieningstermijn voor roerende bedrijfsmiddelen: **5 jaar** (jaar van ingebruikname + 4 volgende jaren) — art. 9 KB nr. 3. 📖\n- Tijdvak: 2000–2004. Overschakeling franchise in 2003 = **2 jaar nog te lopen** (2003 en 2004 — het jaar van wijziging telt mee aan de nieuwe regime-zijde). 🔗\n- Terug te storten BTW = 105 × 2/5 = **42,00 EUR**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Twee voorvragen die het antwoord kunnen kantelen: (1) is bureaumateriaal van 500 EUR wel een **bedrijfsmiddel** in BTW-zin? Ja — de drempel voor klein materieel ligt onder 250 EUR (excl.), 500 EUR > 250 EUR. (2) Begint de herzieningsperiode te lopen vanaf het jaar van ingebruikname of vanaf 1 januari daarop? Voor roerende bedrijfsmiddelen: jaar van ingebruikname zelf telt als jaar 1. 🔗 Onroerende bedrijfsmiddelen: 15 jaar (vroeger 10) — hier niet van toepassing. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+                  "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 48, § 2 WBTW + art. 9 en 10 KB nr. 3 (herziening aftrek bedrijfsmiddelen, 5-jarige termijn). 📖 Art. 4 KB nr. 19 (overgang naar vrijstellingsregeling = gelijkgesteld met verlies van hoedanigheid van belastingplichtige → herziening verplicht voor nog bestaande bedrijfsmiddelen). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 48 § 2 WBTW; art. 9-10 KB nr. 3; art. 4 KB nr. 19"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**NEEN — geen Belgische BTW verschuldigd.** Het betreft een **intracommunautaire levering** vrijgesteld op grond van art. 39bis WBTW: levering aan een in Duitsland voor BTW geïdentificeerde belastingplichtige (de detailhandelaar), met vervoer vanuit België naar Duitsland. De Duitse afnemer doet zelf de intracommunautaire verwerving aangeven in Duitsland (verlegging van heffing). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Voorwaarden art. 39bis WBTW — alle vervuld in de hypothese:\n\n- levering door een belastingplichtige in België → OK. 🔗\n- goederen worden verzonden of vervoerd naar een andere lidstaat (Duitsland) → OK (\"levering in Duitsland\"). 🔗\n- afnemer is een in Duitsland voor BTW geïdentificeerde belastingplichtige (de detailhandelaar) → OK. 🔗\n\n→ Belgische verkoper factureert **zonder BTW** met de vermelding \"Vrijstelling van BTW — art. 39bis WBTW — intracommunautaire levering\" + vermelding van de Duitse BTW-identificatienummer van de klant. 🔗 De levering moet wel worden opgenomen in de **intracommunautaire opgave** (listing IC). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Twee veelgemaakte fouten: (1) verwarring met **afstandsverkopen** (verkoop aan particulieren in een andere lidstaat — daar geldt sinds 2021 één EU-drempel van 10.000 EUR met OSS-regeling; hier niet van toepassing want afnemer is B2B). (2) Vergeten de geldigheid van het Duitse BTW-nummer te **verifiëren via VIES** én een sluitend **transport-bewijs** te bewaren — zonder die twee elementen riskeert men dat de vrijstelling van art. 39bis wordt verworpen bij controle. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 39bis, 1° WBTW: vrijstelling voor leveringen van goederen verzonden of vervoerd buiten België maar binnen de Gemeenschap, voor een afnemer die in een andere lidstaat voor BTW is geïdentificeerd en zijn BTW-nummer aan de leverancier heeft meegedeeld. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 39bis, 1° WBTW"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2003-bibf-vrE3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1529,7 +2171,170 @@
       "vraag_id": "2003-bibf-vrE3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:27:57Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Uiterlijk 31 maart** van het jaar volgend op het kalenderjaar waarop de listing betrekking heeft (in casu: 31 maart 2003 voor de listing over 2002). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De jaarlijkse klantenlisting bevat per Belgische BTW-geïdentificeerde afnemer het totale omzetbedrag en de aangerekende BTW van het voorgaande kalenderjaar. Indiening gebeurt elektronisch (Intervat) door wie tot periodieke aangifte gehouden is; vrijgestelden onder art. 56bis voegen een verklaring over de omzet bij. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Sinds 2010 is de listing een aparte aangifte (KB nr. 23 van 09.12.2009); voordien zat ze gekoppeld aan de aangifte van het eerste kwartaal/de eerste maanden van het jaar. De deadline van 31 maart is echter al decennia stabiel. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 53quinquies WBTW + KB nr. 23 van 9 december 2009, art. 1, § 1: \"De personen bedoeld in artikel 53quinquies van het Wetboek, zijn gehouden ieder jaar vóór 31 maart bij de administratie [...] een lijst in te dienen\". 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 53quinquies WBTW; KB nr. 23 van 09.12.2009, art. 1"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Uiterlijk 24 december** van hetzelfde jaar — de maandaangever moest een voorschot betalen op de BTW die hij uit de verrichtingen van december zou verschuldigd zijn. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee berekenwijzen waren toegelaten: ofwel het bedrag verschuldigd op de handelingen verricht van 1 t.e.m. 20 december (werkelijke methode), ofwel het bedrag van de BTW verschuldigd voor de handelingen van de maand november (forfaitaire methode). Het saldo werd geregulariseerd in de aangifte van december, in te dienen tegen 20 januari. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het decembervoorschot voor maandaangevers werd **afgeschaft vanaf 2024** (W. 12.03.2023): sindsdien betaalt elke maandaangever gewoon de BTW van december tegen 20 januari, zoals elke andere maand. Kwartaalaangevers kenden vóór 2017 ook een voorschotregeling (afgeschaft per 01.04.2017). In 2003 — datum van dit examen — was de regel dus nog wel in voege. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "verondersteld",
+                "tekst": "Destijds art. 53, § 1, eerste lid, 3° WBTW j° art. 19, § 1 KB nr. 1 (oude tekst, vóór de wet van 12.03.2023). De wettekst werd inmiddels gewijzigd zodat het voorschot voor maandaangevers verdwijnt. 🤖",
+                "type": "grondslag",
+                "wetsref": "Art. 53 WBTW; art. 19 KB nr. 1 (versie 2003)"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Uiterlijk 1 mei 2003** — binnen één maand na de wijziging (effectieve domicilie-wijziging op 01.04.2003). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Een verplaatsing van woonplaats of maatschappelijke zetel valt onder de wijzigingsaangifte (formulier 604B). De belastingplichtige moet dit melden bij de bevoegde dienst van de BTW-administratie binnen één maand na de feitelijke wijziging. Vertrekpunt: de datum waarop de wijziging effectief plaatsvindt (hier 1 april 2003). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "604B (wijziging) en 604C (stopzetting) hanteren dezelfde termijn van één maand maar onder verschillende artikelen van KB nr. 10 (art. 2 vs art. 3). Niet verwarren met formulier 604A (aanvang) — dat moet vóór de aanvang van de economische activiteit ingediend worden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "KB nr. 10 van 29 december 1992, art. 2: elke belastingplichtige die o.a. zijn woonplaats of maatschappelijke zetel verplaatst, moet daarvan \"binnen een termijn van één maand\" aangifte doen bij de bevoegde dienst. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 2 KB nr. 10 van 29.12.1992"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Uiterlijk 30 april 2003** — binnen één maand na de definitieve stopzetting van de economische activiteit (stopzetting op 31.03.2003). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Formulier 604C dient om de volledige stopzetting van alle economische activiteit aan de BTW-administratie te melden, zodat het BTW-identificatienummer kan worden ingetrokken. De belastingplichtige beschikt over één maand vanaf de feitelijke stopzetting om dit te doen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Na de 604C blijft de stopgezette belastingplichtige nog gehouden tot indiening van de eindaangifte BTW en de bijhorende klantenlisting (voor het deel van het jaar dat hij actief was) volgens de gewone deadlines. De BTW-identificatie wordt pas effectief geschrapt na verwerking door de administratie. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "KB nr. 10 van 29 december 1992, art. 3: \"Elke belastingplichtige [...] die alle economische activiteit stopzet waarvoor hij belastingplichtige is, moet daarvan binnen een termijn van één maand aangifte doen bij de bevoegde dienst van de administratie waaronder hij ressorteert.\" 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3 KB nr. 10 van 29.12.1992"
+              }
+            ],
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrE4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1602,7 +2407,162 @@
       "vraag_id": "2003-bibf-vrE4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**FOUT.** Het dagboek van ontvangsten mag — in papieren vorm — **niet** op losse bladen worden bijgehouden; het is uitdrukkelijk uitgezonderd van die toelating. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+                  "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 15 § 1 KB nr. 1 stelt dat de boeken bedoeld in art. 14, gehouden in papieren vorm, op losse bladen mogen worden bijgehouden, **met uitzondering van het dagboek van ontvangsten en het centralisatieboek**. Het dagboek van ontvangsten moet dus een gebonden boek zijn (of digitaal gehouden worden — een Z-rapport van een gecertificeerd kassasysteem wordt fiscaal gelijkgesteld met een digitaal dagboek van ontvangsten). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 15 § 1 KB nr. 1 van 29 december 1992 inzake btw. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 15 § 1 KB nr. 1 WBTW"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**FOUT.** Het dagboek van ontvangsten is **niet facultatief** bij gebruik van een kassa; wel wordt het Z-rapport van een **gecertificeerd** kassasysteem (GKS) fiscaal *gelijkgesteld* met een digitaal gehouden dagboek van ontvangsten — dat is een gelijkstelling, geen vrijstelling. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+                  "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 14 § 2, 3° KB nr. 1 verplicht elke btw-plichtige (uitgezonderd wie voor elke handeling een factuur uitreikt) tot het houden van een dagboek van ontvangsten per exploitatiezetel. Een gewone (niet-gecertificeerde) kassaregistratie ontheft niet van die verplichting — de kasticketten/journaalstroken zijn verantwoordingsstukken, niet zelf het dagboek. Sinds 2024 bepaalt art. 23 M.B. 29 april 2024 dat in een GKS-omgeving het Z-rapport 'omzet' fiscaal gelijkgesteld wordt met een digitaal gehouden dagboek van ontvangsten — het dagboek blijft dus bestaan, maar valt fysiek samen met het GKS-rapport. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "De stelling is uit 2003 — destijds bestond het GKS-regime nog niet. Naar de letter van de toenmalige (en huidige) wet was en is een kassaregistratie alleen geen vervanging voor het dagboek; de gelijkstelling met een digitaal dagboek geldt enkel voor een **gecertificeerd** kassasysteem (verplicht voor bepaalde horeca-uitbaters sinds 2014/2016, ruimer vanaf 2024). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+                  "resources/bronnen/wetteksten/WBTW-MB29apr2024-certificatie-kassasysteem.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14 § 2, 3° KB nr. 1 WBTW (verplichting dagboek van ontvangsten); art. 23 M.B. 29 april 2024 (Z-rapport GKS = digitaal dagboek van ontvangsten). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 14 § 2, 3° KB nr. 1 WBTW + art. 23 M.B. 29 april 2024"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**JUIST.** Bij meerdere exploitatiezetels moet de belastingplichtige per zetel een afzonderlijk dagboek van ontvangsten houden én die dagboeken centraliseren in één centralisatieboek. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 14 § 2, 3° KB nr. 1 verplicht het houden van een dagboek van ontvangsten **per bedrijfszetel** waar de ontvangsten worden geboekt. Wanneer er meerdere zetels zijn, moeten de afzonderlijke dagboeken (en de globale dagontvangsten) worden overgenomen in een centralisatieboek dat op de zetel van de bedrijfsleiding wordt gehouden. Drie restaurantvestigingen → drie aparte dagboeken + één centraal dagboek (centralisatieboek). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14 § 2, 3° KB nr. 1 WBTW — dagboek per exploitatiezetel + centralisatieboek; art. 15 § 1 KB nr. 1 — ook het centralisatieboek mag niet op losse bladen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 14 § 2, 3° + art. 15 § 1 KB nr. 1 WBTW"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** Het dagboek van ontvangsten moet zich op de exploitatiezetel bevinden waar de ontvangsten worden geregistreerd; het mag niet door de boekhouder naar zijn kantoor worden meegenomen om de btw-aangifte op te stellen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het dagboek van ontvangsten is een ter-plaatse-boek: de ontvangsten moeten dagelijks (en uiterlijk op het einde van elke werkdag) in het dagboek worden ingeschreven op de exploitatiezetel waar ze plaatsvinden (art. 14 § 2, 3° KB nr. 1). Daaruit volgt dat het boek fysiek aanwezig moet blijven op de zetel — de boekhouder die de btw-aangifte voorbereidt, werkt op basis van een kopie of van het centralisatieboek, niet door het originele dagboek mee te nemen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met het **centralisatieboek** of met facturenboeken: die mogen wél op de zetel van de bedrijfsleiding (waar vaak de boekhouding wordt gevoerd) worden gehouden. Het dagboek van ontvangsten zelf blijft op de zetel waar de ontvangsten worden geboekt — daar moet het ook ter inzage liggen bij een btw-controle. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 14 § 2, 3° KB nr. 1 WBTW — dagelijkse inschrijving per exploitatiezetel impliceert fysieke aanwezigheid van het dagboek op die zetel. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 14 § 2, 3° KB nr. 1 WBTW"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2003-bibf-vrE5"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -1842,7 +2802,61 @@
       "vraag_id": "2003-bibf-vrF1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Vraag dateert van aanslagjaar 2003 (BIBF, EUR-overgang). Tarieven en grenzen die in 2003 golden (autokosten 25% verworpen vóór CO2-formule, restaurantkosten 50% verworpen vóór de hervormingen van 2005/2017, DBI 95% vóór de verhoging naar 100% in 2018) wijken af van de huidige ITAA-LEX-codes (aangifte-VenB-2025). De berekening hieronder is gemaakt volgens de wetgeving die op het examenmoment van toepassing was; codes verwijzen naar het toenmalige aangifteformulier. Voor het huidige examen 2026: hanteer steeds de actuele tarieven.",
+        "antwoord_datum": "2026-05-26T16:27:25Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Belastbare basis BVBA Albert — aanslagjaar 2003 (in EUR)** 🔗\n\n| Stap | Rubriek | Bedrag |\n|---|---|---:|\n| **I** | **Resultaat van het belastbare tijdperk** | |\n| 1a | Belastbare gereserveerde winst (toename reserves) | **20.000** |\n| 1b | Vrijgestelde gereserveerde winst (— want enkel herwaarderings-/vrijgestelde reserve bewegen niet) | 0 |\n| 2 | Verworpen uitgaven (zie detail hieronder) | **22.865** |\n| 3 | Uitgekeerde dividenden | **40.000** |\n|  | **Subtotaal — fiscale winst van het belastbare tijdperk** | **82.865** |\n| **II** | **Bestanddelen waarop de aftrekbeperking van toepassing is** | |\n|  | Aftrek definitief belaste inkomsten (DBI 95 % × bruto 1.600) | **− 1.520** |\n|  | **Belastbare grondslag in de vennootschapsbelasting** | **81.345** |\n\nDetail van de **verworpen uitgaven** (totaal 22.865): niet-aftrekbare belastingen 20.400 + niet-aftrekbare autokosten 1.325 + niet-aftrekbare restaurant-/representatiekosten 1.000 + niet-toegelaten afschrijving op uitgedrukte (niet-gerealiseerde) meerwaarde 60 + niet-aftrekbare liberaliteiten 80 = **22.865**. 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Eerste bewerking — drie bestanddelen van de fiscale winst** (oud aangifteformulier vakken I.A / I.B / I.C):\n\n1. **Belastbare gereserveerde winst** = toename belastbare reserves tijdens het boekjaar. Beweging: beschikbare reserve +18.000 + wettelijke reserve 0 + overgedragen winst (nieuw — uit nul) +4.000 − beweging vrijgestelde reserve 0 = **20.000**. 🔗 De vrijgestelde reserve (200) en herwaarderingsmeerwaarden (600) blijven ongewijzigd → geen impact op de **belastbare** reserve-toename. 🤖\n\n2. **Verworpen uitgaven** (vak verworpen uitgaven — toenmalig vergelijkbaar met huidige codes 1201/1205/1207-1208/1216/…) 🔗:\n   - **Niet-aftrekbare belastingen** (VenB-voorafbetalingen + roerende voorheffing als ontlasting verkrijgers): 20.000 + 400 = **20.400** (art. 198 § 1, 1° WIB 92). 📖\n   - **Autokosten 25 % verworpen** (vóór CO2-formule, regime aanslagjaar 2003 — art. 66 § 1 WIB 92 oude versie): (1.500 autokosten + 3.800 afschrijving) × 25 % = 5.300 × 0,25 = **1.325**. 🤖\n   - **Restaurant- en representatiekosten 50 % verworpen** (aanslagjaar 2003-regime — art. 53, 8° / 8°bis WIB 92, vóór de hervormingen van 2005/2017): 2.000 × 50 % = **1.000**. 🤖\n   - **Niet-toegelaten afschrijving op uitgedrukte meerwaarde** (afschrijving die de fiscaal aanvaarde basis overschrijdt — komt overeen met de vrijgestelde herwaardering): **60**. 🤖\n   - **Liberaliteiten zonder fiscaal attest** = 160 totaal − 80 verantwoord door attest = **80** verworpen (art. 198 § 1, 13° + art. 199-200 WIB 92; het door attest gestaafde deel blijft aftrekbaar binnen de grens van 5 % van de winst / 500.000 EUR). 🔗\n   - **Onroerende voorheffing** (100): in aanslagjaar 2003 **aftrekbare beroepskost** — niet verwerpen (de gewestelijke OV werd pas later via art. 198 § 1, 5° WIB 92 verworpen). 🤖\n   - **Totaal verworpen uitgaven = 22.865**. 🔗\n\n3. **Uitgekeerde dividenden** (vak I.C): bruto-dividend volgens bestemmingsvoorstel = **40.000**. 📖\n\n**Tweede bewerking — DBI-aftrek**:\n- Ontvangen dividend van NV waarvan BVBA Albert ≥10 % aanhoudt (hier 80 %): voldoet aan de **participatievoorwaarde** (art. 202 § 2 WIB 92) en — verondersteld — aan de **taxatievoorwaarde** + **minimumhoudperiode van één jaar**. 🔗\n- Bruto-dividend = ontvangen 1.200 + roerende voorheffing 400 = **1.600**. 🔗\n- DBI-aftrek = **95 %** × 1.600 = **1.520** (aanslagjaar 2003-tarief; sinds aanslagjaar 2019 verhoogd naar 100 %). 🤖\n\n**Belastbare basis** = 82.865 − 1.520 = **81.345 EUR**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "**Bruto vs. netto-dividend voor DBI**. De DBI-aftrek slaat op het **bruto-dividend** (vóór inhouding van roerende voorheffing), niet op het netto-bedrag dat de vennootschap effectief ontvangt. Hier dus 1.600 (= 1.200 ontvangen + 400 RV), niet 1.200. Wie het netto-bedrag neemt, verliest 95 EUR DBI-aftrek. De ingehouden RV is bovendien **verrekenbaar én terugbetaalbaar** met de VenB — losstaand van de DBI-aftrek. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Drie-bewerkingenstelsel VenB** (toenmalig art. 74-79 KB/WIB 92 — uitvoering art. 183 WIB 92): fiscale winst = belastbare reserves-toename + verworpen uitgaven + uitgekeerde dividenden, gevolgd door achtereenvolgende aftrekken (DBI, vorige verliezen, investeringsaftrek …) volgens de in art. 207 WIB 92 vastgelegde volgorde. 🔗 **Verworpen uitgaven**: art. 198 § 1 WIB 92 (niet-aftrekbare belastingen, liberaliteiten zonder attest) + art. 53, 8°/8°bis WIB 92 (representatie- en restaurantkosten) + art. 66 WIB 92 (autokosten, oude 25 %-regel vóór CO2-formule). 📖 **DBI**: art. 202-204 WIB 92 — 95 %-aftrek in 2003, participatievoorwaarde (≥ 10 % of ≥ 1.200.000 EUR aanschaffingswaarde) + taxatievoorwaarde + één-jaar-houdperiode. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 183, 198, 199-200, 202-204, 207 + (oud) art. 66 WIB 92"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrG1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -2163,7 +3177,164 @@
       "vraag_id": "2003-bibf-vrH2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST** — sigaren zijn tabaksfabrikaten en dus accijnsgoederen; bij intracommunautaire verwerving door een Belgische belastingplichtige (restaurateur) wordt de Belgische accijns geheven volgens het bestemmingslandbeginsel. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Tabaksfabrikaten staan uitdrukkelijk in de limitatieve opsomming van accijnsgoederen (art. 1, lid 1, c) Richtlijn 2020/262 en art. 1, § 6, 4° WBTW). 📖 Een restaurateur die deze sigaren in Nederland aankoopt voor zijn beroepsactiviteit verricht een intracommunautaire verwerving; de accijns is opeisbaar in de lidstaat van bestemming (België). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/wetteksten/WBTW-KB51-accijnsproducten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 1, lid 1 Richtlijn (EU) 2020/262 (herschikking accijnsregeling): accijnsgoederen = energieproducten/elektriciteit, alcohol(houdende dranken), tabaksfabrikaten. 📖 Art. 1, § 6, 4° WBTW herneemt deze definitie. KB nr. 51 van 14 april 1993 regelt de vereenvoudigingsregeling voor intracommunautaire verwerving van accijnsproducten. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 1 Richtlijn 2020/262; art. 1, § 6, 4° WBTW; KB nr. 51 van 14 april 1993"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST** — champagne is een alcoholhoudende drank en dus een accijnsgoed; de Belgische accijns wordt geheven bij intracommunautaire verwerving door de Belgische restaurateur. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Alcoholhoudende dranken (incl. mousserende wijn zoals champagne) vallen onder de Richtlijnen 92/83/EEG en 92/84/EEG en zijn als zodanig accijnsgoederen (art. 1, lid 1, b) Richtlijn 2020/262). 📖 Bij IC-verwerving door een belastingplichtige verschuift de heffing naar de lidstaat van bestemming — hier België. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 1, lid 1, b) Richtlijn (EU) 2020/262 jo. Richtlijnen 92/83/EEG (structuur) en 92/84/EEG (tarieven). 📖 Belgische omzetting: WBTW art. 1, § 6, 4°. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 1 Richtlijn 2020/262; art. 1, § 6, 4° WBTW"
+              }
+            ],
+            "id": "b",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**JUIST** — stookolie is een energieproduct en dus een accijnsgoed; bij intracommunautaire verwerving uit Duitsland voor verwarming van het restaurant wordt de Belgische accijns geheven. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Energieproducten (waaronder stookolie/gasolie) vallen onder Richtlijn 2003/96/EG en zijn accijnsgoederen krachtens art. 1, lid 1, a) Richtlijn 2020/262. 📖 De bestemming (verwarming) doet daar niet aan af — de accijns is verschuldigd zodra het product in België in het verbruik wordt gebracht. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "Voor verwarmingsbrandstof (huisbrandolie) gelden in België verlaagde tarieven en specifieke bijdragen (energiebijdrage, controleretributie). De heffing zelf blijft verschuldigd — alleen het tarief verschilt van motorbrandstof. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 1, lid 1, a) Richtlijn (EU) 2020/262 jo. Richtlijn 2003/96/EG (belastingregeling energieproducten en elektriciteit). 📖 WBTW art. 1, § 6, 4°. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 1 Richtlijn 2020/262; Richtlijn 2003/96/EG; art. 1, § 6, 4° WBTW"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT** — hout (brandhout voor open haard) is **geen accijnsgoed**; er wordt dus geen Belgische accijns geheven op de intracommunautaire verwerving van hout uit Frankrijk. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De limitatieve lijst van accijnsgoederen (art. 1, lid 1 Richtlijn 2020/262) bevat enkel: energieproducten/elektriciteit, alcohol en alcoholhoudende dranken, en tabaksfabrikaten. 📖 Hout/brandhout valt onder geen van deze categorieën — het is geen \"energieproduct\" in de zin van Richtlijn 2003/96/EG (die viseert minerale oliën, aardgas, kolen, cokes, e.d.). 🔗 Bijgevolg: geen accijns, ongeacht het land van herkomst. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Niet alle brandstoffen zijn accijnsgoederen — alleen wat valt onder Richtlijn 2003/96/EG. Hout, pellets en biomassa zijn principieel geen accijnsgoederen (al kunnen lidstaten ze fakultatief belasten als ze als motor- of verwarmingsbrandstof worden gebruikt — art. 2, lid 3 Richtlijn 2003/96/EG; België doet dat niet). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-accijnzen-2020-262.md",
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 1, lid 1 Richtlijn (EU) 2020/262: limitatieve opsomming accijnsgoederen — hout valt buiten de drie categorieën. 📖 Art. 1, § 6, 4° WBTW herneemt dezelfde afbakening. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 1 Richtlijn 2020/262; art. 1, § 6, 4° WBTW"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2003-bibf-vrI1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

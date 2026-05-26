@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrE1",
+  "antwoord_datum": "2026-05-26T16:28:13Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De overstap van forfait naar maandaangifte heeft gevolgen op vier vlakken: (1) **regeling-wissel** (kennisgeving + ingang op 1/04/2008, eerste dag van het kwartaal), (2) **boekhouding** (volledige btw-boekhouding i.p.v. forfaitaire vereenvoudiging — dagboeken van inkomende en uitgaande facturen, ontvangstenboek), (3) **stockinventaris + btw-regularisatie** (verplichte inventaris op 31/03/2008 met recuperatie van de btw die in het forfait niet was afgetrokken op de bestaande voorraad), en (4) **aangifte- en betalingsverplichtingen** (maandaangifte vóór de 20ste, maandelijkse betaling, geen voorschotten meer maar wel decembervoorschot). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**1. Wijziging van btw-regeling — formaliteit en ingangsdatum**\n- Kennisgeving aan de btw-administratie via de wijzigingsaangifte (formulier 604B / aangifte van wijziging activiteit). 📖\n- De optie voor de normale regeling treedt in werking vanaf **de eerste dag van het kalenderkwartaal volgend op de kennisgeving** — hier dus 1/04/2008. 📖\n- Vanaf die datum is de cliënt onderworpen aan de **normale btw-regeling met maandaangifte** (geen forfaitaire grondslagen meer).\n\n**2. Boekhoudkundige verplichtingen**\n- Bijhouden van een volwaardig **dagboek van inkomende facturen** en **dagboek van uitgaande facturen** (i.p.v. de vereenvoudigde stukken in het forfait). 🔗\n- Dagelijks **boek van ontvangsten** voor verkopen aan particulieren zonder factuur (typisch detailhandel). 🔗\n- **Centralisatieboek** voor de periodieke samenvatting per btw-tarief.\n- De forfaitaire grondslagen (vastgesteld via bedrijfsgroepering) vervallen — de omzet en de af te dragen btw worden voortaan **werkelijk** berekend op basis van de geboekte ontvangsten en facturen. 🔗\n\n**3. Stockinventaris op 31/03/2008 + btw-regularisatie (kantelmoment)**\n- Verplichte **inventaris** opmaken van de **op 31/03/2008 nog in voorraad zijnde goederen** die niet verkocht of verbruikt zijn — gewaardeerd tegen aankoopprijs. 🔗\n- Op die voorraad mag een **herziening (regularisatie) in het voordeel van de cliënt** plaatsvinden: de btw die op die goederen werd betaald aan de leveranciers en die onder het forfait **niet aftrekbaar** was (het forfait verrekent inkoop-btw forfaitair), kan nu via de eerste maandaangifte in aftrek worden gebracht. 🔗\n- Idem voor **bedrijfsmiddelen die nog niet zijn afgeschreven over de herzieningstermijn** (5 jaar / 15 jaar voor onroerend): aftrek pro rata van de resterende termijn. 🔗\n- De inventaris moet in tweevoud worden opgemaakt en samen met een berekeningsstaat aan de administratie worden overgemaakt. 🔗\n\n**4. Aangifte- en betalingsverplichtingen**\n- **Maandelijkse btw-aangifte** in te dienen **uiterlijk de 20ste** van de maand volgend op de aangifteperiode (eerste aangifte: april 2008 → in te dienen vóór 20/05/2008). 📖\n- De verschuldigde btw wordt **maandelijks betaald** binnen dezelfde termijn.\n- **Decembervoorschot** verschuldigd (uiterlijk 24 december): voorschot op de btw verschuldigd over de handelingen van december. 🔗\n- Eventuele **listings** (jaarlijkse klantenlisting van Belgische btw-plichtige afnemers, IC-opgave bij intracommunautaire leveringen) gelden vanaf nu zonder forfait-specifieke afwijkingen.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De overgang van forfait naar normale regeling is voor een **detailhandelaar in textiel** doorgaans **financieel voordelig op het kantelmoment**: de stockinventaris-regularisatie geeft een eenmalige aftrek-bonus op alle bestaande voorraad. Het structurele nadeel is de **zwaardere administratie** (volledige facturatie- en ontvangstenboekhouding) en het verlies van de \"comfort\"-zekerheid van de forfaitaire grondslagen — voortaan is de werkelijke omzet doorslaggevend, met meer controle-exposure. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wijziging regeling**: art. 56, §4 WBTW + art. 3, §2 KB nr. 2 van 19/12/2018 (forfaitaire regeling) — optie naar normale regeling, uitwerking eerste dag van het volgende kalenderkwartaal. 📖 **Stockinventaris + regularisatie**: art. 49, 3° WBTW + **art. 21bis KB nr. 3 van 10/12/1969** (aftrekken btw) — herziening van de aftrek bij wijziging van btw-regeling: aftrek van btw op goederen die nog niet zijn verbruikt en op nog bruikbare bedrijfsmiddelen binnen de herzieningstermijn (5 of 15 jaar). 📖 **Maandaangifte**: art. 53, §1, 2° WBTW + **art. 17, §1 KB nr. 1 van 29/12/1992** — aangifte uiterlijk de 20ste van de maand volgend op het aangiftetijdvak. 📖 **Decembervoorschot**: art. 19 KB nr. 1. 🔗",
+          "wetsref": "art. 56 §4 WBTW; art. 3 §2 KB nr. 2/2018; art. 21bis KB nr. 3/1969; art. 17 §1 KB nr. 1/1992",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB2-forfaitaire.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

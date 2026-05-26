@@ -1,0 +1,164 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrE4",
+  "antwoord_datum": "2026-05-26T16:27:57Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Uiterlijk 31 maart** van het jaar volgend op het kalenderjaar waarop de listing betrekking heeft (in casu: 31 maart 2003 voor de listing over 2002). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De jaarlijkse klantenlisting bevat per Belgische BTW-geïdentificeerde afnemer het totale omzetbedrag en de aangerekende BTW van het voorgaande kalenderjaar. Indiening gebeurt elektronisch (Intervat) door wie tot periodieke aangifte gehouden is; vrijgestelden onder art. 56bis voegen een verklaring over de omzet bij. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Sinds 2010 is de listing een aparte aangifte (KB nr. 23 van 09.12.2009); voordien zat ze gekoppeld aan de aangifte van het eerste kwartaal/de eerste maanden van het jaar. De deadline van 31 maart is echter al decennia stabiel. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 53quinquies WBTW + KB nr. 23 van 9 december 2009, art. 1, § 1: \"De personen bedoeld in artikel 53quinquies van het Wetboek, zijn gehouden ieder jaar vóór 31 maart bij de administratie [...] een lijst in te dienen\". 📖",
+          "wetsref": "Art. 53quinquies WBTW; KB nr. 23 van 09.12.2009, art. 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB23-jaarlijkse-lijst.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Uiterlijk 24 december** van hetzelfde jaar — de maandaangever moest een voorschot betalen op de BTW die hij uit de verrichtingen van december zou verschuldigd zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee berekenwijzen waren toegelaten: ofwel het bedrag verschuldigd op de handelingen verricht van 1 t.e.m. 20 december (werkelijke methode), ofwel het bedrag van de BTW verschuldigd voor de handelingen van de maand november (forfaitaire methode). Het saldo werd geregulariseerd in de aangifte van december, in te dienen tegen 20 januari. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het decembervoorschot voor maandaangevers werd **afgeschaft vanaf 2024** (W. 12.03.2023): sindsdien betaalt elke maandaangever gewoon de BTW van december tegen 20 januari, zoals elke andere maand. Kwartaalaangevers kenden vóór 2017 ook een voorschotregeling (afgeschaft per 01.04.2017). In 2003 — datum van dit examen — was de regel dus nog wel in voege. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Destijds art. 53, § 1, eerste lid, 3° WBTW j° art. 19, § 1 KB nr. 1 (oude tekst, vóór de wet van 12.03.2023). De wettekst werd inmiddels gewijzigd zodat het voorschot voor maandaangevers verdwijnt. 🤖",
+          "wetsref": "Art. 53 WBTW; art. 19 KB nr. 1 (versie 2003)",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Uiterlijk 1 mei 2003** — binnen één maand na de wijziging (effectieve domicilie-wijziging op 01.04.2003). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een verplaatsing van woonplaats of maatschappelijke zetel valt onder de wijzigingsaangifte (formulier 604B). De belastingplichtige moet dit melden bij de bevoegde dienst van de BTW-administratie binnen één maand na de feitelijke wijziging. Vertrekpunt: de datum waarop de wijziging effectief plaatsvindt (hier 1 april 2003). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "604B (wijziging) en 604C (stopzetting) hanteren dezelfde termijn van één maand maar onder verschillende artikelen van KB nr. 10 (art. 2 vs art. 3). Niet verwarren met formulier 604A (aanvang) — dat moet vóór de aanvang van de economische activiteit ingediend worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB nr. 10 van 29 december 1992, art. 2: elke belastingplichtige die o.a. zijn woonplaats of maatschappelijke zetel verplaatst, moet daarvan \"binnen een termijn van één maand\" aangifte doen bij de bevoegde dienst. 📖",
+          "wetsref": "Art. 2 KB nr. 10 van 29.12.1992",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Uiterlijk 30 april 2003** — binnen één maand na de definitieve stopzetting van de economische activiteit (stopzetting op 31.03.2003). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Formulier 604C dient om de volledige stopzetting van alle economische activiteit aan de BTW-administratie te melden, zodat het BTW-identificatienummer kan worden ingetrokken. De belastingplichtige beschikt over één maand vanaf de feitelijke stopzetting om dit te doen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Na de 604C blijft de stopgezette belastingplichtige nog gehouden tot indiening van de eindaangifte BTW en de bijhorende klantenlisting (voor het deel van het jaar dat hij actief was) volgens de gewone deadlines. De BTW-identificatie wordt pas effectief geschrapt na verwerking door de administratie. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB nr. 10 van 29 december 1992, art. 3: \"Elke belastingplichtige [...] die alle economische activiteit stopzet waarvoor hij belastingplichtige is, moet daarvan binnen een termijn van één maand aangifte doen bij de bevoegde dienst van de administratie waaronder hij ressorteert.\" 📖",
+          "wetsref": "Art. 3 KB nr. 10 van 29.12.1992",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB10-uitoefening-keuzen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

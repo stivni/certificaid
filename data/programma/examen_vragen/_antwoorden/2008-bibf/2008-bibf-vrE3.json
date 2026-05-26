@@ -1,0 +1,159 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrE3",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Uiterste datum = **31 december van het derde kalenderjaar volgend op het jaar waarin de af te trekken btw opeisbaar is geworden** (verjaringstermijn recht op aftrek). De aftrek wordt uitgeoefend via een btw-aangifte ingediend vóór die datum. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Concreet: btw opeisbaar in jaar N → recht op aftrek uit te oefenen in een aangifte ingediend uiterlijk 31.12 van jaar N+3. Voorbeeld: factuur met opeisbare btw in 2025 → aftrek mogelijk in elke aangifte t.e.m. de aangifte ingediend vóór 31.12.2028. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar niet met de **bewaartermijn** van facturen (10 jaar, art. 60 WBTW) of met de **navorderingstermijn** van de administratie (3 of 7 jaar, art. 81bis WBTW). De aftrek-verjaring betreft enkel het tijdsvenster waarin de belastingplichtige zélf het recht kan uitoefenen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4, tweede lid, K.B. nr. 3 van 10.12.1969: bij niet-tijdige vervulling van de formaliteiten wordt het recht op aftrek uitgeoefend in een aangifte ingediend \"vóór het verstrijken van het derde kalenderjaar volgend op dat waarin de af te trekken belasting opeisbaar is geworden\". 📖",
+          "wetsref": "Art. 4 K.B. nr. 3 van 10.12.1969 (WBTW)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Twee mogelijke regimes: (1) **Vrijstellingsregeling voor kleine ondernemingen** (art. 56bis WBTW — geen btw aanrekenen, geen aftrek, geen periodieke aangifte) of (2) **gewone regeling met kwartaalaangiften** als zij toch voor btw-onderwerping kiest. De omzet van 4.312 € ligt ruim onder de drempel van 25.000 € en de psychologe is bovendien vrijgesteld door artikel 44 WBTW voor de medisch-paramedische component. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Regime 1 — Vrijstellingsregeling kleine onderneming** (art. 56bis WBTW + K.B. nr. 19): de jaaromzet (4.312 €) blijft ver onder de drempel van 25.000 € exclusief btw. Geen btw op uitgaande facturen, geen recht op aftrek, geen periodieke aangifte (wel jaarlijkse klantenlisting indien van toepassing). Dit is doorgaans de gunstigste keuze bij bijberoep.\n\n**Regime 2 — Gewone regeling met kwartaalaangiften** (art. 53, § 1 WBTW): als de psychologe verkiest btw aan te rekenen (om aftrek te kunnen uitoefenen) kan zij kwartaalaangiften indienen aangezien haar omzet ver onder de drempels voor maandaangifte ligt. \n\n**Specifieke nuance psycholoog**: prestaties van klinisch psychologen zijn doorgaans **vrijgesteld door art. 44, § 1, 2° WBTW** (paramedisch beroep). Voor die vrijgestelde prestaties is er geen btw-regime te kiezen — enkel voor eventuele niet-therapeutische prestaties (vb. coaching, expertises voor verzekeraars, juridische expertises) is de keuze tussen vrijstellingsregeling of gewone kwartaalregeling relevant. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij de officiële modelantwoord-formulering uit 2008 (\"Vrijstellingsregeling / Kwartaalaangifte\") gold een lagere drempel (toen 5.580 €, vandaag 25.000 €). De systematiek — keuze tussen vrijstellingsregeling én gewone (kwartaal)regeling — blijft identiek. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 56bis WBTW + K.B. nr. 19 van 15.12.2024 (vrijstellingsregeling kleine ondernemingen, drempel 25.000 € omzet); art. 53, § 1 WBTW + K.B. nr. 1 (periodieke aangiften, kwartaalregeling onder bepaalde drempels); art. 44, § 1, 2° WBTW (vrijstelling diensten paramedische beroepen). 📖",
+          "wetsref": "Art. 56bis WBTW · K.B. nr. 19 · Art. 53 WBTW · Art. 44, §1, 2° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB19-kleine-ondernemingen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "De **btw-eenheid** is een fiscale constructie waarbij meerdere juridisch onderscheiden, in België gevestigde belastingplichtigen die financieel, organisatorisch en economisch nauw met elkaar verbonden zijn, voor de toepassing van de btw als **één enkele belastingplichtige** worden aangemerkt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het principe stoelt op art. 4, § 2 WBTW (omgezet uit art. 11 BTW-richtlijn 2006/112/EG): drie cumulatieve verbondenheidsvoorwaarden — financieel, organisatorisch en economisch — gecombineerd met de Belgische vestigingseis. Het gevolg: onderlinge handelingen tussen leden vallen **buiten de btw-werkingssfeer** (worden niet als belastbare handelingen aangemerkt), terwijl naar buiten toe één gemeenschappelijke btw-identiteit optreedt via een vertegenwoordiger. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4, § 2 WBTW (Belgische rechtsgrond) + K.B. nr. 55 van 09.03.2007, art. 1 (cumulatieve voorwaarden); art. 11 Richtlijn 2006/112/EG (Europese basis); art. 51ter WBTW (hoofdelijke gehoudenheid van de leden). 📖",
+          "wetsref": "Art. 4, § 2 WBTW · K.B. nr. 55 van 09.03.2007 · Art. 11 BTW-richtlijn 2006/112/EG",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB55-btw-eenheid.md",
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De btw is verschuldigd **in Nederland** — het land waar de belastingplichtige afnemer (de cliënt) gevestigd is. De Belgische boekhouder factureert zonder Belgische btw met vermelding \"btw verlegd\"; de Nederlandse cliënt voldoet de btw via verlegging in zijn eigen aangifte. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Toepasselijke regel (huidige tekst):** art. 21, § 2 WBTW — de plaats van diensten verricht voor een als zodanig handelende belastingplichtige is de plaats waar deze afnemer de zetel van zijn economische activiteit heeft gevestigd. Boekhoudkundige prestaties zijn intellectuele diensten zonder afwijkende plaatsbepaling (geen onroerend goed, geen restaurantdienst, geen vervoer) — de algemene B2B-regel geldt dus integraal.\n\n**Plaats van fysieke uitvoering (Frankrijk) is irrelevant**: sinds de hervorming van 01.01.2010 is de fysieke werkplaats van de dienstverrichter niet meer bepalend voor B2B-diensten. Enkel de vestiging van de **afnemer** telt → Nederland. 🔗\n\n**Modelantwoord uit 2008 verwijst naar art. 21, § 3, 7° d) WBTW** (oude tekst pre-2010, intellectuele diensten aan in andere EU-lidstaat gevestigde belastingplichtige). Inhoudelijk komt dit op hetzelfde resultaat uit: btw verschuldigd in het land van de afnemer = Nederland. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet kiezen voor Frankrijk omdat de prestaties dáár worden uitgevoerd, en niet voor België omdat de dienstverrichter daar gevestigd is. De B2B-plaatsregel kijkt **uitsluitend** naar de vestiging van de belastingplichtige afnemer. De feitelijke uitvoeringsplaats en de vestigingsplaats van de dienstverrichter zijn niet relevant voor algemene intellectuele B2B-diensten. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Huidig:** Art. 21, § 2 WBTW (algemene B2B-plaatsregel — plaats = vestiging afnemer) + art. 44 Richtlijn 2006/112/EG. **Modelantwoord 2008:** Art. 21, § 3, 7° d) WBTW (oude tekst, intellectuele diensten aan EU-belastingplichtige). Verleggingsregel: art. 51, § 2 WBTW (in B2B-context — voor Belgische dienstverrichter naar buitenlandse afnemer geldt de symmetrische regel in de lidstaat van de afnemer). 📖",
+          "wetsref": "Art. 21, § 2 WBTW (huidig) · Art. 21, § 3, 7° d) WBTW (pre-2010, ref. modelantwoord) · Art. 44 BTW-richtlijn 2006/112/EG",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

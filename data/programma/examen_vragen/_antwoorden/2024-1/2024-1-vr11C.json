@@ -1,0 +1,187 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr11C",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — een elektricien verricht werk in onroerende staat (art. 19, §2 WBTW) en is daarom voor zijn volledige economische activiteit uitgesloten van de vrijstellingsregeling, ongeacht het omzetcijfer. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 56bis, §2, 1° WBTW sluit \"werk in onroerende staat bedoeld in artikel 19, §2, derde lid, alsook de daarmee gelijkgestelde handelingen\" expliciet uit van de vrijstellingsregeling. Elektriciteitswerken aan een gebouw (installatie, herstelling, onderhoud) vallen onder dat begrip. De omzet van €10.000 is irrelevant — de uitsluiting werkt op de aard van de activiteit, niet op de drempel. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 56bis, §2, 1° WBTW (uitsluiting werk in onroerende staat) j° art. 19, §2 WBTW (definitie). 📖",
+          "wetsref": "Art. 56bis, §2, 1° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — kappersdiensten zijn niet uitgesloten in art. 56bis, §2 WBTW en de jaaromzet van €15.000 ligt onder de drempel van €25.000. De vrijstellingsregeling kan toegepast worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee cumulatieve voorwaarden: (i) activiteit niet uitgesloten in art. 56bis, §2 (werk in onroerende staat, horeca/logies, afval/oude materialen, btw-eenheden) — kappers vallen onder geen van die categorieën; (ii) jaaromzet in België ≤ €25.000 — €15.000 voldoet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 56bis, §1, 2° WBTW (drempel €25.000) en art. 56bis, §2 WBTW (limitatieve lijst uitsluitingen). 📖",
+          "wetsref": "Art. 56bis, §1-§2 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — een diëtist is gemengde belastingplichtige: de medische verstrekkingen zijn vrijgesteld door art. 44 WBTW (zonder recht op aftrek) en tellen niet mee voor de drempel. Enkel de onderworpen omzet van €15.000 wordt getoetst, en die ligt onder €25.000. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 56nonies WBTW bepaalt welke bedragen meetellen voor de jaaromzet als drempel-maatstaf: leveringen/diensten die belast *zouden zijn*, nultarief-handelingen, en bepaalde vrijgestelde handelingen op grond van art. 39 tot 42 (uitvoer, intracommunautair). De vrijstellingen van art. 44 (medische, paramedische, onderwijs, sociale, financiële) zijn daar **niet** in opgenomen. Vrijgestelde medische omzet telt dus niet mee — alleen €15.000 onderworpen omzet wordt getoetst. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De grote omzet (€50.000 + €15.000 = €65.000) is een rookgordijn — wie blind optelt komt boven de drempel uit en antwoordt fout. De drempel kijkt enkel naar belaste handelingen (art. 56nonies, 1°), niet naar art. 44-vrijgestelde omzet. De vrijstellingsregeling werkt vervolgens op het onderworpen deel; het vrijgestelde deel blijft sowieso vrijgesteld zonder aftrekrecht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 56bis, §1, 2° WBTW (drempel €25.000) j° art. 56nonies WBTW (samenstelling jaaromzet) j° art. 44 WBTW (vrijgestelde medische/paramedische handelingen — telt niet in de drempel). 📖",
+          "wetsref": "Art. 56bis + 56nonies WBTW j° art. 44 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — een schoonheidsspecialiste verricht geen uitgesloten activiteit, maar haar jaaromzet van €30.000 overschrijdt de drempel van €25.000. De vrijstellingsregeling kan niet toegepast worden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drempel art. 56bis, §1, 2° WBTW = €25.000 jaaromzet in België (excl. btw). €30.000 > €25.000 → uitgesloten. De tolerantie van art. 56decies (overschrijding ≤10% tijdens lopend jaar geeft tijdelijke continuïteit) geldt enkel voor wie al onder de regeling viel; bij nieuwe instap of voorafgaand kalenderjaar boven €25.000 → geen vrijstellingsregeling. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 56bis, §1, 2° WBTW (drempel €25.000); art. 56decies WBTW (tolerantie 10% bij lopende overschrijding). 📖",
+          "wetsref": "Art. 56bis, §1, 2° WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — het verschaffen van gemeubeld logies met ontbijt is een handeling bedoeld in art. 44, §3, 2°, a), derde streepje WBTW (horeca-/hotelregime) en is uitgesloten van de vrijstellingsregeling, ongeacht de omzet van €20.000. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 56bis, §2, 5° WBTW sluit \"de in artikel 44, § 3, 2°, a), derde streepje, bedoelde handelingen\" uit van de vrijstellingsregeling. Dat derde streepje viseert het verschaffen van gemeubeld logies — typisch hotels, B&B's, gastenkamers met ontbijt. De uitsluiting werkt op de aard van de activiteit, dus €20.000 < €25.000 helpt niet. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Art. 56bis, §2, 5° WBTW voorziet één uitzondering: een belastingplichtige **natuurlijke persoon** die onder de voorwaarden van art. 50, §4 WBTW valt, kan de vrijstellingsregeling tóch toepassen voor de logies-met-ontbijt-activiteit. De vraag specificeert die hoedanigheid niet — bij stilzwijgen geldt de algemene uitsluiting. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 56bis, §2, 5° WBTW (uitsluiting handelingen art. 44, §3, 2°, a), derde streepje — verschaffen gemeubeld logies); uitzondering voor natuurlijke persoon onder art. 50, §4 WBTW. 📖",
+          "wetsref": "Art. 56bis, §2, 5° WBTW j° art. 44, §3, 2°, a) WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

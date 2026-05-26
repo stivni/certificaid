@@ -1,0 +1,64 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr36",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — de verkoper opteert als **toevallige btw-belastingplichtige** (art. 8 WBTW + KB nr. 14): de woning is nog een \"nieuw gebouw\" (eerste ingebruikname 01.06.2013, verkoop in 2015 valt binnen de termijn tot 31.12.2015), het grond+gebouw wordt onder btw verkocht en de 63.000 EUR opgerichtings-btw is recupereerbaar. Het netto-rendement is duidelijk het hoogst. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Scenario btw (optie a)** — verkoopprijs 650.000 EUR inclusief btw 21 %\n- Maatstaf van heffing: 650.000 / 1,21 = **537.190 EUR** (afgedragen btw aan Staat: 112.810 EUR, ten laste van koper). 🔗\n- Aftrekbare input-btw op oprichting: **+63.000 EUR**. 📖\n- Bruto-opbrengst verkoper: 537.190 + 63.000 = **600.190 EUR**.\n- Kostprijs: grond 200.000 + bouw excl. btw 300.000 = **500.000 EUR**.\n- **Winst ≈ 100.190 EUR**. 🔗\n\n**Scenario registratierecht (Brussel 12,5 %)** — 650.000 EUR inclusief alle belastingen\n- Prijs voor verkoper: 650.000 / 1,125 = **577.778 EUR** (registratierecht 72.222 EUR ten laste van koper, art. 44 W.Reg.). 🔗\n- Geen btw-aftrek mogelijk → de 63.000 EUR opgerichtings-btw blijft in de kost zitten.\n- Kostprijs: grond 200.000 + bouw inclusief btw 363.000 = **563.000 EUR**.\n- **Winst ≈ 14.778 EUR**. 🔗\n\n**Verschil ≈ 85.000 EUR in het voordeel van het btw-stelsel** — hoofdzakelijk doordat de 63.000 EUR opgerichtings-btw recupereerbaar wordt en de verkoper niet langer op een btw-inclusieve grondslag moet rekenen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- **a** (btw-optie, winst hoogst) → **JUIST**. Termijn nog open, btw-aftrek op de oprichting valt vrij. 🔗\n- **b** (registratierecht winst hoogst) → FOUT. Onder registratierecht blijft de 63.000 EUR input-btw verloren én moet de verkoper rekenen op een prijs inclusief 12,5 % registratierecht; netto-opbrengst is veel lager. 🔗\n- **c** (registratierecht + verrekening vroeger betaalde registratierechten) → FOUT. In het Brussels Hoofdstedelijk Gewest bestaat geen verrekenings- of meeneembaarheidsregime voor vroeger betaalde registratierechten (Vlaanderen kent een beperkte meeneembaarheid van max. 13.000 EUR onder art. 212bis W.Reg. Vlaams — niet van toepassing in Brussel, en bovendien op de aankoop van een nieuwe gezinswoning, niet op een verkoop). 🤖\n- **d** (termijn verstreken) → FOUT. Een gebouw geldt als \"nieuw\" tot 31 december van het tweede jaar volgend op de eerste ingebruikname (art. 44 § 3, 1°, a WBTW). Eerste ingebruikname 01.06.2013 → termijn loopt tot **31.12.2015**, de verkoop in 2015 valt nog binnen het venster. 🔗\n- **e** (grond onder registratierecht, gebouw onder btw) → FOUT. Sinds 1 januari 2011 moet de **grond verplicht mee onder btw** wanneer hetzelfde gebouw door dezelfde verkoper op hetzelfde tijdstip aan dezelfde koper wordt overgedragen en de verkoper opteert voor btw (art. 1 § 9 + art. 8 § 1 WBTW). Splitsing is niet meer toegestaan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md",
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De keuze voor de **toevallige btw-belastingplichtige** is een formele optie: vooraf indienen van een verklaring in tweevoud bij het bevoegde btw-controlekantoor vóór het sluiten van de verkoopovereenkomst, met inlichting van de medecontractant via factuur (art. 1 KB nr. 14). Wie de optie niet (correct of tijdig) uitoefent, valt automatisch onder registratierecht — ook al voldoet het gebouw aan de \"nieuw\"-termijn. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 8 WBTW (toevallige btw-belastingplichtige voor vervreemding nieuw gebouw); art. 44 § 3, 1°, a) WBTW (\"nieuw gebouw\"-termijn: tot 31 december van het tweede jaar volgend op de eerste ingebruikname); art. 1 § 9 WBTW (grond verplicht mee onder btw vanaf 01.01.2011 wanneer gebouw en bijhorend terrein door dezelfde persoon aan dezelfde koper worden overgedragen); KB nr. 14 van 3 juni 1970, art. 1 (procedure: voorafgaande verklaring in tweevoud); art. 44 W.Reg. (registratierecht 12,5 % in Brussels Hoofdstedelijk Gewest). 📖",
+          "wetsref": "Art. 8 + 44 § 3, 1°, a + 1 § 9 WBTW; KB nr. 14 art. 1; art. 44 W.Reg.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB14-vervreemdingen-gebouwen.md",
+            "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

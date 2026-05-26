@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr38",
+  "antwoord_datum": "2026-05-26T16:28:50Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** — De winkelier moet btw voldoen via een stuk aan zichzelf, met als maatstaf van heffing de **aankoopprijs op het moment van de onttrekking, rekening houdend met de staat van de goederen** (niet de oorspronkelijke aankoopprijs, niet de verkoopprijs). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Stap 1 — onttrekking = gelijkstelling met levering onder bezwarende titel.** Art. 12, §1, 1° WBTW: het onttrekken van een goed door een belastingplichtige aan zijn bedrijf voor privé-doeleinden wordt gelijkgesteld met een levering onder bezwarende titel, op voorwaarde dat de btw op de aankoop (volledig of gedeeltelijk) werd afgetrokken. Voor handelswaar in een supermarkt is dat steeds het geval. 📖\n\n**Stap 2 — maatstaf van heffing.** Art. 33, §1, 1° WBTW: voor onttrekkingen bedoeld in art. 12 is de maatstaf van heffing de **aankoopprijs van de goederen of soortgelijke goederen** (bij gebreke daarvan de kostprijs), **bepaald op het tijdstip waarop de handeling wordt verricht**. Dat \"op het tijdstip\" impliceert dat met de actuele staat (beschadigde verpakking, naderende vervaldatum) wordt rekening gehouden — niet de oorspronkelijke historische aankoopprijs. 📖\n\n**Per optie**:\n- **a** (eigen verbruik vervallen producten = toegelaten) → FOUT. Er bestaat geen algemene vrijstelling voor eigen verbruik; de uitzonderingen in art. 12, §1, 2° (handelsgeschenken van geringe waarde, voedselbanken, e.d.) gelden enkel voor **schenking aan derden**, niet voor eigen consumptie. 🔗\n- **b** (btw op de **verkoopprijs**) → FOUT. De verkoopprijs is geen maatstaf voor onttrekkingen; art. 33, §1, 1° verwijst expliciet naar de aankoopprijs/kostprijs, niet naar de marktwaarde of de normale verkoopprijs. 🔗\n- **c** (btw op de **verminderde aankoopprijs op het moment van onttrekking, rekening houdend met de staat**) → JUIST. Letterlijke toepassing van art. 33, §1, 1° WBTW (en art. 74 Btw-richtlijn 2006/112/EG). 📖\n- **d** (herziening van de aftrek) → FOUT. Herziening (art. 10, §1, 4° KB nr. 3 en art. 49 WBTW) wordt enkel toegepast voor bedrijfsmiddelen of in welbepaalde gevallen (verlies, vernietiging, diefstal); voor onttrekking voor privégebruik geldt de eigen regeling van art. 12 + art. 33, niet een herziening. 🔗\n- **e** (geen bezwarende titel want geen betaling) → FOUT. Art. 12 WBTW stelt onttrekkingen juist **gelijk** met leveringen onder bezwarende titel, precies om btw-ontwijking via eigen verbruik te vermijden — de afwezigheid van betaling is irrelevant. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Optie **b** is de klassieke valkuil: \"eigen verbruik = doen alsof hij verkocht heeft → btw op verkoopprijs\". Fout — de wetgever heeft bewust voor onttrekkingen een **eigen** maatstaf voorzien (aankoopprijs/kostprijs op moment van handeling, art. 33, §1, 1°) en niet de normale-waarde-regel die voor verbonden partijen geldt. Voor bederfelijke goederen (vervaldatum nabij, beschadigde verpakking) betekent dit dat de maatstaf in de praktijk vaak quasi nul kan zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 12, §1, 1° WBTW**: het onttrekken van een goed door een belastingplichtige aan zijn bedrijf voor privé-doeleinden wordt gelijkgesteld met een levering onder bezwarende titel, mits btw-aftrek op de aankoop is ontstaan. **Art. 33, §1, 1° WBTW**: maatstaf van heffing = aankoopprijs (of bij gebreke daarvan kostprijs) van de goederen of soortgelijke goederen, **bepaald op het tijdstip waarop de handeling wordt verricht** — dus rekening houdend met de actuele staat. Europeesrechtelijke basis: art. 16 + art. 74 Btw-richtlijn 2006/112/EG. 📖",
+          "wetsref": "Art. 12, §1, 1° + art. 33, §1, 1° WBTW; art. 16 + art. 74 Btw-richtlijn 2006/112/EG",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/BTW-richtlijn-2006-112.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

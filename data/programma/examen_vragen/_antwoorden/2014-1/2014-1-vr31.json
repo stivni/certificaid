@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr31",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "e",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **e** — De Belgische btw is van toepassing: de plaats van levering ligt bij **vertrek** van het vervoer (Vilvoorde, BE), omdat de kopers zelf de goederen ophalen en vervoeren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** (geen btw want kopers zijn belastingplichtig) → FOUT — de hoedanigheid van de koper schakelt de btw bij een binnenlandse levering niet uit; ze geeft enkel recht op aftrek. 🔗\n- **b** (geen btw want leverancier failliet) → FOUT — bij faillissement wordt de **curator** ex art. 53undecies WBTW in de plaats gesteld van de belastingplichtige voor alle rechten en verplichtingen. De btw-plicht blijft bestaan. 📖\n- **c** (geen btw want openbaar opbod i.p.v. onderhands) → FOUT — het WBTW maakt geen onderscheid naar verkoopvorm; KB nr. 1 art. 21 regelt zelfs uitdrukkelijk de btw-inning door notaris/gerechtsdeurwaarder bij openbare verkoop op verzoek van de curator. 📖\n- **d** (btw in BE, plaats = **aankomst** van het vervoer) → FOUT — verwart met intracommunautaire verwerving / invoer; art. 14 §2 WBTW knoopt de plaats vast aan **vertrek**, niet aankomst. 📖\n- **e** (btw in BE, plaats = **vertrek** van het vervoer) → JUIST — art. 14 §2 WBTW: wanneer het goed wordt verzonden of vervoerd (door leverancier, afnemer of derde), is de plaats van levering de plaats waar het goed zich bevindt **bij vertrek**. Hier: Vilvoorde. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Faillissement heft de btw-plicht **niet** op. De curator treedt in de plaats van de gefailleerde belastingplichtige (art. 53undecies WBTW) en bij openbare verkoop int de notaris of gerechtsdeurwaarder de btw voor rekening van de curator (KB nr. 1 art. 21). Pas op met optie **b** als instinctief verkeerd antwoord. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14 §2 WBTW: bij vervoer of verzending van goederen is de plaats van levering de plaats waar het goed zich bevindt **op het tijdstip van vertrek** van de verzending of het vervoer naar de afnemer — los van wie het vervoer organiseert. Art. 53undecies WBTW: de curator vervangt de gefailleerde belastingplichtige voor alle rechten en verplichtingen. KB nr. 1 art. 21: bij openbare verkoop op verzoek van de curator int de notaris of gerechtsdeurwaarder de btw van de koper. 📖",
+          "wetsref": "Art. 14 §2 WBTW; Art. 53undecies WBTW; KB nr. 1 art. 21",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

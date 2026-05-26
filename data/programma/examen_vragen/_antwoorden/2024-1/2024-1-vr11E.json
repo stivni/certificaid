@@ -1,0 +1,218 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr11E",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**21 % BTW met verlegging van heffing** naar de medecontractant. De Belgische dienstverrichter factureert zonder BTW met de vermelding \"Btw verlegd\"; de Belgische afnemer-belastingplichtige (gewone aangifte) voldoet de BTW zelf in zijn periodieke aangifte. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Glazenwassen aan een gebouw is een dienst die verband houdt met een uit zijn aard onroerend goed (art. 21, § 3, 1° W.BTW): plaats van de dienst = plaats van het onroerend goed = België. 📖 Voor reinigingsdiensten verricht aan een belgisch gebouw geldt geen verlaagd tarief (reiniging is uitdrukkelijk uitgesloten uit de renovatie-regimes), dus het normale tarief van 21 % is van toepassing (KB nr. 20, art. 1, tabel A). 🔗 Omdat zowel dienstverrichter als afnemer in België gevestigde gewone belastingplichtigen zijn die periodieke aangifte indienen, geldt de verleggingsregeling \"medecontractant\" voor werk in onroerende staat (art. 20 KB nr. 1). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Glazenwassen wordt door art. 19, § 2, tweede lid, W.BTW gelijkgesteld met \"werk in onroerende staat\" — het valt dus binnen het toepassingsgebied van de verleggingsregeling (art. 20 KB nr. 1), ook al gaat het strikt om reiniging. De uitsluiting van \"reiniging\" geldt enkel voor het verlaagd tarief renovatie (rubriek XXXVIII KB nr. 20), niet voor de plaatsbepaling of de verleggingsregeling. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Plaats: art. 21, § 3, 1° W.BTW (onroerend-goed-dienst). Tarief: art. 1 KB nr. 20 (gewoon tarief 21 %); reiniging uitgesloten uit verlaagd tarief renovatie (KB nr. 20, tabel A, rubriek XXXVIII). Schuldenaar: art. 20 KB nr. 1 — medecontractant-regeling voor werk in onroerende staat aan een Belgische belastingplichtige met periodieke aangifte. 📖",
+          "wetsref": "Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 · KB nr. 1 art. 20",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**21 % BTW**, gefactureerd door de Belgische dienstverrichter aan de particulier. Geen verlaagd tarief, geen verlegging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Plaats van de dienst = België (onroerend goed gelegen in BE, art. 21, § 3, 1° W.BTW). 📖 Hoewel de woning meer dan 10 jaar in gebruik is — wat normaal toegang geeft tot het verlaagd tarief van 6 % voor renovatie aan privéwoningen (KB nr. 20, tabel A, rubriek XXXVIII) — is **reiniging uitdrukkelijk uitgesloten** uit dat verlaagd tarief. Glazenwassen valt dus terug op het standaardtarief van 21 %. 🔗 Geen verlegging: de afnemer is een particulier en geen belastingplichtige met periodieke aangifte (art. 20 KB nr. 1 niet vervuld). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Klassieke valstrik: studenten kiezen vaak 6 % omdat de woning > 10 jaar oud is. Maar de uitsluiting van reiniging in rubriek XXXVIII KB nr. 20 (\"werk in onroerende staat … met uitsluiting van het reinigen\") is absoluut. Verlaagd tarief geldt wel voor schilder-, behangers-, vloer- en sanitaire werken aan zo'n woning, maar niet voor glazenwassen of poetsdiensten. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst); KB nr. 20, art. 1 (gewoon tarief 21 %); KB nr. 20, tabel A, rubriek XXXVIII, § 1 (verlaagd tarief 6 % renovatie woning ≥ 10 jaar, met uitsluiting van reiniging). 📖",
+          "wetsref": "Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 + tabel A rubriek XXXVIII",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**21 % BTW**, gefactureerd door de Belgische dienstverrichter aan de particulier. Geen verlaagd tarief, geen verlegging. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Plaats van de dienst = België (art. 21, § 3, 1° W.BTW). 📖 Het verlaagd tarief van 6 % voor renovatie aan privéwoningen (rubriek XXXVIII KB nr. 20) vereist dat de woning **sinds minstens 10 jaar** voor het eerst in gebruik is genomen — die voorwaarde is hier niet vervuld. 🔗 Daarbij komt dat reiniging sowieso is uitgesloten uit dat verlaagd tarief, dus zelfs als de ouderdomsvoorwaarde wel vervuld was zou glazenwassen aan 21 % blijven. 🔗 Geen verlegging: afnemer is een particulier (art. 20 KB nr. 1 niet vervuld). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md",
+            "resources/bronnen/wetteksten/WBTW-KB1-voldoening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het antwoord is identiek aan situatie (b): 21 %. De ouderdom van de woning (< of > 10 jaar) maakt voor glazenwassen geen verschil omdat reiniging hoe dan ook uit het verlaagd tarief is geweerd. De ouderdomsdrempel is wél relevant voor échte renovatiewerken (schilderen, vloeren, sanitair, …). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21, § 3, 1° W.BTW (plaats); KB nr. 20, art. 1 (tarief 21 %); KB nr. 20, tabel A, rubriek XXXVIII, § 1, 1° (10-jaarvoorwaarde voor verlaagd tarief renovatie). 📖",
+          "wetsref": "Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 + tabel A rubriek XXXVIII § 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**21 % Belgische BTW met verlegging van heffing** naar de Franse afnemer. De Belgische dienstverrichter factureert zonder BTW met de vermelding \"Btw verlegd\"; de Franse belastingplichtige voldoet de Belgische BTW via zijn Belgische BTW-identificatie (rechtstreekse aansprakelijkheid art. 51, § 2, 5° W.BTW). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Plaatsbepaling: glazenwassen aan een Belgisch gebouw is een onroerend-goed-dienst (art. 21, § 3, 1° W.BTW); de **B2B-algemene regel** van art. 21, § 2 (plaats = zetel afnemer) is hier **niet** van toepassing — de plaats is steeds België omdat het gebouw daar ligt. 📖 De dienst is dus in België belastbaar tegen 21 % (geen verlaagd tarief voor reiniging). 🔗 Omdat de dienstverrichter in België is gevestigd en de afnemer een buitenlandse belastingplichtige is die niet in België is gevestigd, wordt de Belgische BTW verlegd naar de afnemer (art. 51, § 2, 5° W.BTW): de Franse belastingplichtige moet zich voor deze handeling in België laten identificeren of een aansprakelijke vertegenwoordiger aanstellen om de Belgische BTW te voldoen. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Niet** de B2B-hoofdregel toepassen. Voor onroerend-goed-diensten (art. 21, § 3, 1°) is de plaats altijd het land waar het gebouw ligt — onafhankelijk van de zetel van de afnemer. Een Franse afnemer maakt de dienst dus **niet** Franse-BTW-belastbaar; het blijft Belgische BTW (21 %), enkel de schuldenaar wisselt via de verleggingsregeling. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21, § 3, 1° W.BTW (afwijking op B2B-hoofdregel voor onroerend-goed-diensten). KB nr. 20, art. 1 (gewoon tarief 21 %). Art. 51, § 2, 5° W.BTW (verlegging naar niet in België gevestigde belastingplichtige afnemer). 📖",
+          "wetsref": "Art. 21 § 3 1° W.BTW · Art. 51 § 2 5° W.BTW · KB nr. 20 art. 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**21 % Belgische BTW met verlegging van heffing** naar de Zweedse afnemer. Identiek aan situatie (d): het is de ligging van het gebouw (BE) die de plaats bepaalt, niet de nationaliteit van de afnemer. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Plaats van de dienst = België (art. 21, § 3, 1° W.BTW — onroerend-goed-dienst). 📖 Tarief = 21 % (geen verlaagd tarief voor reiniging). 🔗 De Zweedse belastingplichtige is niet in België gevestigd: de Belgische BTW wordt naar hem verlegd op grond van art. 51, § 2, 5° W.BTW. 📖 Hij dient zich in België te identificeren of een aansprakelijke vertegenwoordiger aan te stellen om de verschuldigde Belgische BTW te voldoen.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Voor onroerend-goed-diensten maakt het geen verschil of de buitenlandse afnemer uit een EU-lidstaat komt (Frankrijk, Zweden, …) of uit een derde land: de plaats blijft het land waar het gebouw ligt, en de BTW is steeds die van het ligging-land. De verleggingsregeling werkt identiek voor alle niet in België gevestigde belastingplichtige afnemers. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst, afwijking op B2B-hoofdregel art. 21 § 2). Art. 51, § 2, 5° W.BTW (verlegging naar niet-gevestigde belastingplichtige afnemer). KB nr. 20, art. 1 (tarief 21 %). 📖",
+          "wetsref": "Art. 21 § 3 1° W.BTW · Art. 51 § 2 5° W.BTW · KB nr. 20 art. 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md",
+            "resources/bronnen/wetteksten/WBTW-KB20-tarieven.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr23",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment pagina_03.png toont visueel een andere vraag (\"Vraag 2\" — leveranciersschuld/kapitaalvermindering). Het tekstuele segment (tekst.txt) komt wel overeen met de interpretatie. De concrete lay-out van het ingevulde 204.3-formulier was dus niet visueel verifieerbaar — antwoord is opgebouwd op basis van casusgegevens en standaardstructuur van formulier 204.3.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Formulier 204.3 — Detail van de vrijgestelde voorzieningen voor risico's en kosten (boekjaar 2012, aj. 2013)**\n\n| Omschrijving | Bedrag (EUR) |\n|---|---:|\n| Toestand bij het begin van het boekjaar — Voorziening voor grote herstellings- en onderhoudswerken (schilderwerken, 10-jaarlijks) | **5.000,00** |\n| Aanwending / besteding tijdens het boekjaar (uitvoering schilderwerken) | **− 5.000,00** |\n| Nieuw aangelegde vrijgestelde voorziening tijdens het boekjaar | **0,00** |\n| **Toestand bij het einde van het boekjaar** | **0,00** |\n\nHet gedeelte van 18.000 EUR \"uitbreiding garage\" verschijnt **niet** op formulier 204.3: dat was geen vrijgestelde voorziening (zie motivatie). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Splitsing van de oorspronkelijke voorziening van 23.000 EUR**:\n\n- **Schilderwerken — 5.000 EUR**: 10-jaarlijks periodiek groot onderhoud. Voldoet aan art. 48 WIB 92 + art. 24-27 KB/WIB 92 + art. 194 WIB 92: scherp omschreven kost, ontstaan uit de aan de gang zijnde slijtage tijdens het belastbaar tijdperk en de voorgaande tijdperken. Het was dus terecht een **vrijgestelde** voorziening (rubriek vrijgestelde reserves, niet belast). 🔗\n- **Uitbreiding van de garage — 18.000 EUR**: dit is geen herstelling of onderhoud maar een **investering** (uitbreiding van een vast actief). Dergelijke uitgaven moeten ge­activeerd en afgeschreven worden — ze kunnen géén voorwerp uitmaken van een vrijgestelde voorziening voor grote herstellingen. Deze 18.000 EUR was bij aanleg dus reeds een **belaste** (verworpen) voorziening en stond niet op formulier 204.3. 🔗\n\n**Verwerking in 2012**:\n\n- De 5.000 EUR vrijgestelde voorziening wordt aangewend ten belope van 5.000 EUR (volledige opname); de effectieve uitgave 8.900 EUR overschrijdt de voorziening maar dat heeft geen impact op 204.3 — het saldo van 8.900 − 5.000 = 3.900 is gewoon een aftrekbare beroepskost van het boekjaar. 🔗\n- De terugname van 18.000 EUR \"garage\" was een belaste voorziening; de terugname is dus niet belastbaar (de voorziening was al eerder belast). Tegenover die terugname staat een **activering** van 18.000 EUR (afschrijfbaar volgens KB WVV). 🔗\n- **Eindsaldo 204.3 = 0**: geen nieuwe vrijgestelde voorziening, want het 10-jarige onderhoud is net uitgevoerd en de garage-uitgave is een investering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+            "resources/bronnen/adviezen/CBN-0107-01-voorzieningen-voor-grote-herstellings-of-onderhoudswerken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De casus is bewust opgesteld om de student te laten splitsen: niet de hele 23.000 EUR is een vrijgestelde voorziening. Een **uitbreiding** (van een gebouw, machine, garage…) is per definitie geen \"grote herstelling of onderhoud\" — het matching-beginsel rechtvaardigt enkel de spreiding van *terugkerende* onderhoudskosten, niet van *toekomstige investeringen*. CBN 2018/25 herhaalt dat een voorziening voor grote herstellingen moet beantwoorden aan kosten die *in de loop van het boekjaar of voorgaande boekjaren zijn ontstaan* — een geplande uitbreiding ontstaat pas door de toekomstige beslissing tot investering. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijk kader voor vrijgestelde voorzieningen grote herstellingen**:\n\n- **Art. 48 WIB 92** — algemene vrijstellingsregel voor voorzieningen voor scherp omschreven en waarschijnlijke risico's en kosten. 📖\n- **Art. 194 WIB 92** — beperkt de vrijstelling tot voorzieningen die voortvloeien uit (a) verbintenissen aangegaan tijdens het belastbaar tijdperk of voorgaande tijdperken, of (b) wettelijke/reglementaire verplichtingen. 📖\n- **Art. 24-27 KB/WIB 92** — uitvoeringsvoorwaarden: scherp omschreven aard, geboekt op een afzonderlijke rekening, en de uitgave moet redelijkerwijs verwacht zijn binnen redelijke termijn (10 jaar wordt courant aanvaard voor periodiek onderhoud). 🔗\n- **CBN-advies 2018/25** (en het oudere advies 107/1) — boekhoudkundige criteria: het KB WVV verplicht expliciet de vorming van voorzieningen voor grote herstellings- en onderhoudswerken (art. 3:34 KB WVV, voorheen art. 33 KB W.Venn.), mits aan de algemene criteria voldaan; uitbreidings­investeringen vallen er buiten en worden geactiveerd. 📖\n- **Formulier 204.3** (aj. 2013, voorloper van het huidige vak Vrijgestelde reserves op formulier 275.1) — afzonderlijke detailstaat per vrijgestelde voorziening, met beginsaldo, mutaties (aanleg/aanwending) en eindsaldo per rubriek. 🔗",
+          "wetsref": "Art. 48 + 194 WIB 92; art. 24-27 KB/WIB 92; CBN 2018/25",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+            "resources/bronnen/adviezen/CBN-0107-01-voorzieningen-voor-grote-herstellings-of-onderhoudswerken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

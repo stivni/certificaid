@@ -1,0 +1,110 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr27",
+  "antwoord_datum": "2026-05-26T16:28:55Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Beroepsmatig gebruik = **3.250 km / 25.250 km = 12,87 %** (afgerond 13 %). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Forfaitaire bepaling van het privégebruik (methode 1 — semi-forfait — uit Beslissing E.T.119.650 dd. 20.10.2011, herzien 23.12.2011):\n\n- Woon-werk-verkeer: 40 km enkele rit × 2 (heen en terug) × 200 werkdagen = **16.000 km privé**. 🤖\n- Zuiver privégebruik forfait: **6.000 km**. 🤖\n- **Totaal privé** = 16.000 + 6.000 = **22.000 km**. 🔗\n- **Totaal gereden** in 2013 = 25.250 km (gegeven). 📖\n- **Beroepsmatig** = 25.250 − 22.000 = **3.250 km**. 🔗\n- **Beroepspercentage** = 3.250 / 25.250 = **12,87 %**. 🔗\n\nNB: BVBA A opteert expliciet niet voor het algemeen forfait van 35 % (methode 3), dus methode 1 (kilometeradministratie / semi-forfait) is van toepassing voor een gemengd gebruikte personenwagen die ter beschikking wordt gesteld aan één vaste gebruiker. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Beslissing E.T.119.650 dd. 20.10.2011 (en addendum 23.12.2011), methode 1: privé-km = (woon-werk-afstand × 2 × 200) + 6.000 km forfaitair. De methode steunt op art. 45 § 1quinquies WBTW (aftrekbeperking tot beroepsmatig gebruik) en is van toepassing op vervoermiddelen bedoeld in art. 45 § 2 WBTW. 🔗",
+          "wetsref": "Art. 45 § 1quinquies + § 2 WBTW; Beslissing nr. E.T.119.650 dd. 20.10.2011",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Aftrekbare BTW op de aankoop = **675,68 EUR** (= 25.000 × 21 % × 12,87 %). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "- BTW geheven op aankoop = 25.000 × 21 % = **5.250,00 EUR**. 🔗\n- Aftrek beperkt tot het beroepsmatig gebruik (12,87 %, zie a.1): 5.250 × 12,87 % = **675,68 EUR**. 🔗\n- Cap-controle art. 45 § 2 WBTW: 50 % × 5.250 = 2.625 EUR > 675,68 EUR → de 50 %-cap bijt niet; de werkelijke aftrek = 675,68 EUR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Twee aftrekbeperkingen werken samen, niet cumulatief: (i) **art. 45 § 1quinquies WBTW** beperkt de aftrek tot het *werkelijk* beroepsmatig gebruik (hier 12,87 %); (ii) **art. 45 § 2 WBTW** plafonneert de aftrek voor personenwagens absoluut op **50 %**. Men past eerst het beroeps% toe en toetst nadien aan het 50 %-plafond — de aftrek = **min(beroeps%, 50 %)** × BTW. Vergissing: rechtstreeks 50 % aftrekken zonder te kijken naar het werkelijke gebruik. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 45 § 1 WBTW (recht op aftrek voor zover gebruikt voor belaste handelingen) + art. 45 § 1quinquies WBTW (aftrek beperkt tot beroepsmatig gebruik) + art. 45 § 2 WBTW (absoluut plafond 50 % voor personenwagens). 📖",
+          "wetsref": "Art. 45 §§ 1, 1quinquies en 2 WBTW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "BVBA B moet in 2013 **104,13 EUR BTW afdragen** op de bezwarende terbeschikkingstelling aan de werknemer (BTW begrepen in de maandelijkse inhouding van 50 EUR × 12 = 600 EUR; 600 × 21/121). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — kwalificatie van de terbeschikkingstelling**.\nDe wagen wordt aan de werknemer ter beschikking gesteld tegen een maandelijkse inhouding op het loon (50 EUR/maand). Door deze vergoeding is er een **handeling onder bezwarende titel** (verhuur van een vervoermiddel) en geen onttrekking — art. 18 § 1, tweede lid, 2° WBTW. 🔗\n\n**Stap 2 — aftrek op aankoop (2011) — informatief, niet gevraagd**.\nAankoop in 2011 voor 25.000 EUR + 5.250 EUR BTW. Aftrek werd in 2011 beperkt tot het beroepsmatig gebruik (40 %), getoetst aan de 50 %-cap → 5.250 × 40 % = 2.100 EUR aftrek bij aankoop. Geen herziening nodig in 2013 want het beroepsmatig gebruik blijft 40 %. 🤖\n\n**Stap 3 — aftrek BTW op kosten 2013** (art. 45 § 1quinquies + § 2 WBTW; cap min(40 %, 50 %) = 40 %):\n- Onderhoud: 750 × 21 % = 157,50 EUR → aftrek 40 % = **63,00 EUR**. 🔗\n- Brandstof: 1.500 × 21 % = 315,00 EUR → aftrek 40 % = **126,00 EUR**. 🔗\n- Verzekering en verkeersbelasting: vrijgesteld van BTW, geen aftrek. 📖\n- **Totaal aftrekbare BTW kosten 2013 = 189,00 EUR**. 🔗\n\n**Stap 4 — af te dragen BTW op de bezwarende terbeschikkingstelling**.\nDe maandelijkse bijdrage van 50 EUR is een prijs **inclusief BTW** (de werkgever vermeldt geen BTW apart op de loonbrief). Maatstaf van heffing = 50 / 1,21 × 12 maanden = 495,87 EUR. **Verschuldigde BTW = 495,87 × 21 % = 104,13 EUR**. 🔗\n\n**Saldo per saldo in 2013** = 189,00 (aftrek) − 104,13 (afdracht) = **+ 84,87 EUR netto recupereerbaar** voor BVBA B. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Sinds Beslissing E.T.119.650/4 (2013) wordt voor een terbeschikkingstelling tegen vergoeding aan een werknemer de **normale waarde** als maatstaf van heffing genomen (art. 33, § 2 WBTW), tenzij die vergoeding daar marktconform mee overeenstemt. In de praktijk én in deze examenvraag wordt aanvaard dat de werkelijk ontvangen vergoeding de maatstaf is en de BTW erin begrepen is — de keuze tussen \"BTW op 600 EUR\" of \"BTW in 600 EUR begrepen\" hangt af van wat op de loonbrief vermeld wordt. De bondigste examenoplossing rekent met 600 × 21/121 = 104,13 EUR. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 18 § 1, tweede lid, 2° WBTW (verhuur van een vervoermiddel is een dienst onder bezwarende titel) — art. 26 + 33 § 2 WBTW (maatstaf van heffing; normale waarde voor verbonden partijen) — art. 45 § 1, § 1quinquies en § 2 WBTW (aftrek beperkt tot beroepsmatig gebruik, gecapt op 50 % voor personenwagens). Beslissing E.T.119.650 dd. 20.10.2011 met addenda 23.12.2011 en 11.12.2012/2013/4 (uitvoeringspraktijk). 🔗",
+          "wetsref": "Art. 18 § 1, 2°; art. 26; art. 33 § 2; art. 45 §§ 1, 1quinquies en 2 WBTW",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW.md"
+          ]
+        }
+      ]
+    }
+  ]
+}
