@@ -1,0 +1,85 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr12",
+  "antwoord_datum": "2026-05-26T15:08:28Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Accountingcontrole** (boekhoudkundige controle) bewaakt de **juistheid, volledigheid en tijdigheid van de boekhouding zelf** — alle controles die zorgen dat transacties correct, in de juiste periode en op de juiste rekening in de boeken belanden. **Administratieve controle** bewaakt de **rechtmatigheid, doelmatigheid en betrouwbaarheid van de administratieve processen** rond de transactie — autorisaties, functiescheiding, procedure-naleving — vóór ze de boekhouding bereiken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Voorbeelden**:\n\n- **Accountingcontrole**: maandelijkse **bank-grootboekreconciliatie** — het saldo van rekening 550 wordt afgestemd met het bankuittreksel; verschillen worden opgespoord en gecorrigeerd. Andere voorbeelden: aansluitingscontrole klanten-grootboek met individuele klantenrekeningen, controle op tellingen van dagboeken, periode-afgrenzing (cut-off) bij jaareinde. 🔗\n- **Administratieve controle**: **drie-weg-match in de inkoopcyclus** — bestelbon, leveringsbon en factuur worden vergeleken op hoeveelheid en prijs vóór betaling wordt vrijgegeven. Andere voorbeelden: autorisatiematrix voor uitgaven boven een grens, functiescheiding tussen wie bestelt, wie ontvangt en wie betaalt, vier-ogen-principe bij contractondertekening. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het onderscheid gaat over **wat** wordt gecontroleerd, niet **wanneer**: accountingcontrole = output (de boeken), administratieve controle = proces (de weg ernaartoe). Een goed IC-systeem heeft beide nodig — administratieve controle voorkomt fouten, accountingcontrole detecteert wat er toch nog inglipt. ISA 315 (herzien 2019) hanteert deze procesgerichte invalshoek via de vijf componenten (controle-omgeving, risico-inschatting, **beheersingsactiviteiten**, informatie en communicatie, monitoring) waarin beide types een plaats krijgen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klassieke interne-controle-typologie (Starreveld-traditie), in ITAA-context bevestigd door ISA 315 (herzien 2019) bijlage 3 §20 e.v. — beheersingsactiviteiten omvatten zowel **transactie-controles** (administratieve processen: autorisatie, functiescheiding, fysieke beveiliging) als **rapportage-controles** (boekhoudkundige juistheid: reconciliaties, periode-afgrenzing, controle van journaalposten). 🔗",
+          "wetsref": "ISA 315 (herzien 2019), bijlage 3 §20-21",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Preventieve controle** stopt fouten of fraude **vóór** ze in de boekhouding of het proces ontstaan — ze staat op het transactiepad en blokkeert. **Repressieve controle** (≈ detecterende controle) ontdekt fouten of fraude **nadat** ze zijn opgetreden, zodat ze kunnen worden gecorrigeerd en de oorzaak weggenomen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Voorbeelden**:\n\n- **Preventieve controle**: **functiescheiding in de inkoopcyclus** — de magazijnier ontvangt en boekt de levering, de boekhouder registreert de factuur, de zaakvoerder geeft de betaalopdracht. Geen enkele persoon kan alleen een fictieve aankoop én betaling realiseren. Andere voorbeelden: autorisatie van bestellingen boven € 5.000 door de CEO, ERP-blokkade bij prijs boven 110 % van de standaardlijst, toegangsbeveiliging tot het kasregister. 📖\n- **Repressieve controle**: **maandelijkse bank-grootboekreconciliatie** — de boekhouder stemt het saldo van rekening 550 af met het bankuittreksel; onverklaarbare verschillen worden onderzocht. Andere voorbeelden: jaarlijkse fysieke voorraadtelling met aansluiting op het magazijnboek, exceptie-rapporten met prijswijzigingen boven 3 %, interne audit-review achteraf. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Preventief en repressief zijn **complementair, geen alternatieven**. ISA 315 (herzien 2019) erkent expliciet dat wanneer **functiescheiding niet haalbaar is** (kleine KMO, te weinig personeel), de organisatie schakelt naar **detecterende (repressieve) compensatie** — bijvoorbeeld periodieke review door de zaakvoerder van alle prijsaanpassingen. Een sluitend IC-systeem combineert beide: alleen preventief geeft blinde vlekken (wat als de control faalt?), alleen repressief betekent schade incasseren vóór correctie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 315 (herzien 2019), bijlage 3 §20-22: beheersingsmaatregelen worden geclassificeerd naar tijdstip van werking — **vóór** de transactie (preventief, bv. functiescheiding, autorisatie) of **na** de transactie (detecterend ≈ repressief, bv. reconciliatie, exceptie-rapportering). Hoe effectief het IC-systeem ook is, het kan slechts een **redelijke** mate van zekerheid verschaffen (§22) — inherente beperkingen zoals samenspanning en management override blijven. 📖",
+          "wetsref": "ISA 315 (herzien 2019), bijlage 3 §20-22",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

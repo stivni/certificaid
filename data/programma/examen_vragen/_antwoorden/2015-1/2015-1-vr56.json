@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr56",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Twee van de drie verplichtingen (de norm noemt er drie, twee volstaan):\n\n1. **Werkprogramma over alle betrokken vennootschappen + wederzijdse steun**: het werkprogramma moet alle bij de verrichting betrokken vennootschappen dekken; elke beroepsbeoefenaar kan steunen op de werkzaamheden van de andere, mits hij heeft kunnen nagaan dat die werkzaamheden gepast zijn (aanbeveling: werkdocumenten wederzijds laten inzien). 📖\n2. **Conclusies van het onderzoek aan elkaar mededelen vóór het verslag wordt opgesteld** (deontologische verplichting). 📖\n3. **Wederzijds aandacht vestigen op onvolledigheid of onnauwkeurigheid** van het fusie- of splitsingsvoorstel die bij de controle van de overige inlichtingen wordt vastgesteld. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-fusie-splitsing.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het samenwerkingskader van de IAB-norm rust op drie pijlers — planning, oordeelsvorming en signalering:\n\n- **Planning (§2.1 Werkprogramma)**: één werkprogramma per verrichting (niet per vennootschap), met expliciete ruimte om elkaars werkzaamheden over te nemen. De steun is geen blind vertrouwen: de overnemende beroepsbeoefenaar moet eerst de gepastheid van die werkzaamheden hebben kunnen nagaan; bij twijfel kan hij — met inachtneming van de confraterniteit — bijkomende werkzaamheden vragen of zelf bijkomend onderzoek verrichten. 🔗\n- **Oordeelsvorming (§3 Deontologische aspecten)**: vóór elke beroepsbeoefenaar zijn verslag finaliseert, moeten de conclusies onderling worden uitgewisseld. Doel: vermijden dat twee verslagen over dezelfde verrichting elkaar tegenspreken of onvolledig zijn. 🔗\n- **Signalering (§6.1 Controle van de overige inlichtingen)**: stelt één beroepsbeoefenaar bij zijn onderzoek van het fusie-/splitsingsvoorstel een onvolledigheid of onnauwkeurigheid vast, dan moet hij niet alleen het bestuursorgaan dat hem aanstelde, maar ook de andere beroepsbeoefenaar daarvan onmiddellijk in kennis stellen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-fusie-splitsing.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De norm is een gezamenlijke norm IBR ↔ IAB (vandaag: ITAA). Daarom geldt dezelfde samenwerkingsverplichting ongeacht of de twee beroepsbeoefenaars allebei bedrijfsrevisor, allebei (gecertificeerd) accountant, of gemengd zijn — confraterniteit is grensoverschrijdend tussen beide instituten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-fusie-splitsing.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm inzake de controle van fusie- en splitsingsverrichtingen van vennootschappen (gemeenschappelijke norm IBR/IAB, goedgekeurd door de raad van het IAB): §2.1 Werkprogramma (steunen op elkaars werkzaamheden + werkdocumenten inzien), §3 Deontologische aspecten (mededelen conclusies vóór verslag) en §6.1 Controle van de overige inlichtingen (aandacht vestigen op onvolledigheid/onnauwkeurigheid). 📖",
+          "wetsref": "ITAA-norm fusie- en splitsingsverrichtingen §2.1 + §3 + §6.1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-fusie-splitsing.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

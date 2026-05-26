@@ -1,0 +1,163 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr9",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Dit is de **autorisatie-doelstelling**: transacties mogen pas geregistreerd worden als zij goedgekeurd zijn binnen de door het management vastgelegde bevoegdheidsschema's. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Eén van de klassieke interne-controledoelstellingen rond boekhoudkundige registratie is dat **elke transactie passend geautoriseerd** moet zijn vóór ze geboekt wordt. Dit voorkomt dat medewerkers buiten hun bevoegdheid verbintenissen aangaan of vermogensbestanddelen verschuiven. De bevoegdheidsverdeling (autorisatiematrix) is daarvan het instrument. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "COSO-component **Controle-activiteiten** — autorisaties en goedkeuringen zijn één van de standaard-controle-activiteiten. ISA 315 (herzien) bespreekt autorisatie als kerncontrole binnen het informatiesysteem voor financiële verslaggeving. 🔗",
+          "wetsref": "COSO Internal Control — Integrated Framework; ISA 315 (herzien)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/interne-controle-coso.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De interne-controledoelstelling is precies het **omgekeerde**: de toegang tot activa moet **beperkt** zijn tot personen die er uit hoofde van hun functie toegang toe nodig hebben — een vast dienstverband op zich geeft géén toegang. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Bescherming van activa** (*safeguarding of assets*) is een kerndoelstelling van interne controle: fysieke en logische toegang tot kasmiddelen, voorraden, IT-systemen en vaste activa moet **beperkt en geautoriseerd** zijn. Hoe ruimer de toegang, hoe groter het risico op diefstal, ongeautoriseerd gebruik en onverklaarbare verschillen. Functiescheiding (bewaring vs. registratie) staat hier centraal. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "COSO — bescherming van activa valt onder de **operationele doelstelling** en wordt geïmplementeerd via controle-activiteiten (toegangsbeperking, functiescheiding). ISA 315 vereist dat de auditor de beheersingsmaatregelen rond bescherming van activa begrijpt. 🔗",
+          "wetsref": "COSO Internal Control — Integrated Framework; ISA 315 (herzien)",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/interne-controle-coso.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST**. Dit is de **realiteit/afbakening-doelstelling**: enkel verrichtingen die werkelijk tot het patrimonium van de onderneming behoren mogen geboekt worden — geen privé-transacties van de bestuurder, geen fictieve verrichtingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De controledoelstellingen rond boekhoudkundige registratie vereisen dat geboekte transacties:\n\n- **werkelijk bestaan** (realiteit/*occurrence*), en\n- **de onderneming aangaan** (afbakening van het patrimonium — *entiteit-assertie*).\n\nDit sluit zowel fictieve transacties als verwarring met het privévermogen van zaakvoerders of vermogen van derden uit. Het correspondeert met de boekhoudkundige assertion **bestaan/voorkomen** en met het beginsel van het **afgescheiden vermogen** van de rechtspersoon. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Dit principe correspondeert in de auditpraktijk met de **beweringen** ('assertions') uit ISA 315: *occurrence* (verrichtingen hebben werkelijk plaatsgevonden) en *rights and obligations* (de geboekte activa en passiva behoren tot de entiteit). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "COSO — rapporteringsdoelstelling (betrouwbaarheid financiële rapportering); ISA 315 — beweringen op transactieniveau (*occurrence*, *rights & obligations*). 🔗",
+          "wetsref": "COSO Internal Control — Integrated Framework; ISA 315 (herzien) — beweringen",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/interne-controle-coso.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. Transacties moeten in de **juiste periode** geregistreerd worden (cut-off-doelstelling) — niet in een periode die de boekhouder vrij kiest. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De interne-controledoelstelling rond **tijdigheid en cut-off** vereist dat een transactie geregistreerd wordt in de boekhoudkundige periode waartoe ze economisch behoort (matching-beginsel / overeenstemmingsbeginsel). Vrije keuze door de boekhouder zou cut-off-manipulatie en winststuring mogelijk maken — precies de risico's die interne controle moet uitsluiten. Bovendien legt de boekhoudwetgeving zelf termijnen op (registratie zonder vertraging, jaarafsluiting per balansdatum). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de **vrijheid om hulp- of subrekeningen te kiezen**: de boekhouder bepaalt wél de rekening-onderverdeling binnen het MAR, maar **niet** de periode waarin een transactie wordt opgenomen. Cut-off is dwingend, rekeningindeling is een keuze. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "COSO — controledoelstelling tijdigheid/cut-off (onderdeel van betrouwbare rapportering); ISA 315 — bewering *cut-off*. Boekhoudkundig: art. III.83 e.v. Wetboek van economisch recht en KB 29 april 2019 op de jaarrekening (overeenstemmingsbeginsel). 🔗",
+          "wetsref": "COSO; ISA 315 (cut-off-bewering); WER Boek III Titel 3 + KB 29 april 2019",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/interne-controle-coso.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT**. De vergelijking met de inventaris is correct als doelstelling, maar **eventuele verschillen moeten wél verantwoord** (onderzocht en verklaard) worden — anders heeft de reconciliatie geen controlewaarde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De controledoelstelling **periodieke afstemming** (*reconciliation*) houdt twee delen in:\n\n1. **Vergelijken** van de boekhoudkundige saldi met onafhankelijke onderliggende informatie (fysieke inventaris, bankuittreksels, leveranciersbevestigingen).\n2. **Onderzoeken en verantwoorden** van elk verschil — en het boeken van de gepaste correctie.\n\nDe stelling klopt voor het eerste deel maar is **fout in het tweede**: een afstemming die verschillen niet verantwoordt detecteert noch fouten, noch fraude, noch krimpverliezen. Het is precies in die verantwoording dat de interne controle haar nut bewijst. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "COSO — controle-activiteit *reconciliations*; boekhoudkundig: jaarlijkse inventaris (art. III.89 WER) en verplichting de boekhouding in overeenstemming te brengen met de inventaris (KB 29 april 2019). Verschillen vragen een correctieboeking of motivering in het inventarisboek. 🔗",
+          "wetsref": "COSO; art. III.89 WER; KB 29 april 2019 op de jaarrekening",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/interne-controle-coso.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

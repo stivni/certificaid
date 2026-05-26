@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr16",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Twee typische weigeringsgronden bij de aanvaardingsprocedure:\n\n1. **Onafhankelijkheid (of objectiviteit) van de accountant is in gevaar** — bv. een nauwe financiële, familiale of zakelijke band met de client, een lopend geschil, of niet-verenigbare niet-controle-diensten waarvoor geen afdoende waarborgen bestaan. 📖\n2. **De randvoorwaarden voor de controle (preconditions) zijn niet vervuld** — het management gebruikt geen aanvaardbaar stelsel inzake financiele verslaggeving, OF erkent niet schriftelijk zijn drie basisverantwoordelijkheden (opmaak jaarrekening, interne beheersing, toegang/informatie verschaffen). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ISA-210.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Grond 1 — onafhankelijkheid in gevaar**. Art. 9 KB 1 maart 1998 (plichtenleer accountants) verplicht de externe accountant een opdracht te **weigeren** (of er afstand van te doen) zodra hij invloeden, feiten of banden vaststelt die zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten. 📖 Voorbeelden uit de IESBA-Code (bedreigingen-kader): eigenbelang-bedreiging door een aandeelhoudersrelatie of openstaande honoraria, intimidatie of self-interest door een (dreigend) geschil met de client (Section 430), self-review bij voorafgaande boekhouding/advies voor dezelfde client. 🔗\n\n**Grond 2 — randvoorwaarden niet vervuld**. ISA 210 (par. 6) eist dat de auditor vooraf vaststelt dat (a) het management een aanvaardbaar stelsel inzake financiele verslaggeving zal hanteren en (b) het management de drie basisverantwoordelijkheden aanvaardt: opstellen van de jaarrekening overeenkomstig dat stelsel, interne beheersing, en het verschaffen van alle informatie en onbeperkte toegang. Ontbreekt een van beide -> de opdracht **mag niet worden aanvaard** (\"limitation imposed by management\" of onaanvaardbaar stelsel). 📖\n\nAndere geldige voorbeelden die je ook mag aanhalen: bedenkingen bij de **integriteit van het management** (KYC/anti-witwas-signalen), onvoldoende **bekwaamheid of middelen** binnen het kantoor (geen sector-expertise, te beperkte tijd voor degelijke uitvoering), of een te beperkt **scope** dat de auditor verhindert een redelijke mate van zekerheid te bekomen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ISA-210.md",
+            "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De toetsing is niet eenmalig: art. 9 KB 1998 en ISA 220 (herzien) eisen dat de accountant ook **doorlopend** waakt over onafhankelijkheid en randvoorwaarden. Verdwijnt een randvoorwaarde tijdens de opdracht (bv. management beperkt alsnog de scope, of een nieuw bestuurslid creeert een belangenconflict), dan moet de accountant de opdracht **beeindigen** — niet stilzwijgend voortzetten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ISA-210.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 9 KB 1 maart 1998** (reglement plichtenleer accountants): verplichting tot weigering/afstand bij elke bedreiging van onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid. **ISA 210 par. 6 (Randvoorwaarden voor een controle)**: aanvaardbaar verslaggevingsstelsel + drie basisverantwoordelijkheden van het management; ontbreken => geen aanvaarding. Aanvullend: **IESBA-Code Section 120** (conceptual framework: identify-evaluate-address threats) en **Section 600/950** (niet-controle-diensten en safeguards). 📖",
+          "wetsref": "Art. 9 KB 1 maart 1998; ISA 210 par. 6; IESBA Code Sections 120 & 600",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ISA-210.md",
+            "resources/bronnen/normen/IESBA-code-of-ethics-2024.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

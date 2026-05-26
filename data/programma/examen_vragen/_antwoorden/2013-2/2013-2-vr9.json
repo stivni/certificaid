@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr9",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Vier soorten auditmethodes (controlewerkzaamheden om controle-informatie te verkrijgen volgens ISA 500):\n\n1. **Inspectie** — onderzoek van vastleggingen/documenten (intern of extern, op papier of elektronisch) of fysieke inspectie van een actief. 📖\n2. **Waarneming (observatie)** — het gadeslaan van een proces of procedure die door anderen wordt uitgevoerd, bv. waarnemen van de voorraadopname. 📖\n3. **Verzoek om inlichtingen (bevraging / inquiry)** — het inwinnen van informatie bij goed geïnformeerde personen binnen of buiten de entiteit, mondeling of schriftelijk. 📖\n4. **Herberekening** — het controleren van de rekenkundige juistheid van documenten of vastleggingen, manueel of geautomatiseerd. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "ISA 500 §A14-A25 noemt in totaal **zeven** controlewerkzaamheden: naast bovenstaande vier ook **externe bevestiging** (ISA 505 — direct schriftelijk antwoord van een derde), **opnieuw uitvoeren** (re-performance van een interne beheersingsmaatregel) en **cijferanalyses** (analytical procedures, ISA 520). De vraag vraagt er vier — elke combinatie van vier uit deze zeven is verdedigbaar; bovenstaande keuze dekt de klassieke pijlers (documentair, visueel, mondeling, rekenkundig). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 500 *Controle-informatie* §A14-A25 somt de controlewerkzaamheden op waarmee de auditor controle-informatie verkrijgt: inspectie, waarneming, externe bevestiging, herberekening, opnieuw uitvoeren, cijferanalyses en verzoeken om inlichtingen. Externe bevestiging wordt verder uitgewerkt in ISA 505. 📖",
+          "wetsref": "ISA 500 §A14-A25; ISA 505",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

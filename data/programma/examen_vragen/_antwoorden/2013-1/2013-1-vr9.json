@@ -1,0 +1,56 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr9",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Voorbeeldprocedure met **drie** controletechnische functiescheidingen (beschikken — uitvoeren — registreren — controleren — bewaren). De **werknemer** doet de uitgave en levert het stavingstuk in; de **diensthoofd/zaakvoerder** keurt de terugbetaling goed (beschikkende functie); de **secretaresse** betaalt uit kas en houdt de kas (uitvoerende + bewarende functie op haar kas); de **boekhouder** boekt de uitgave in de boekhouding (registrerende functie); de **zaakvoerder of een tweede persoon** voert periodiek (bv. maandelijks) een kascontrole uit met telling en aansluiting op het kasboek (controlerende functie). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Procedure stap voor stap** — met aanduiding van de functiescheiding bij elke stap:\n\n1. **Initiëren van de uitgave** — De werknemer doet een kleine uitgave (bv. parkeerkosten, kantoorbenodigdheden) en bewaart het originele kassticket/factuur. Hij vult een onkostennota in met datum, bedrag en aard en hecht het stavingstuk aan. 🤖\n2. **Goedkeuren — *beschikkende functie*** — De zaakvoerder (of het diensthoofd) controleert of de uitgave bedrijfsmatig en redelijk is en parafeert de onkostennota vóór terugbetaling. Zonder paraaf geen uitbetaling. 🔗\n3. **Uitbetalen + bewaren — *uitvoerende + bewarende functie*** — De secretaresse betaalt het bedrag uit de kas, laat de werknemer aftekenen op de onkostennota en bewaart deze + het stavingstuk in haar kasdossier. 🔗\n4. **Registreren — *registrerende functie*** — De **boekhouder** (een andere persoon dan de secretaresse) boekt de uitgave op basis van de gegoedgekeurde onkostennota op de gepaste kostenrekening en mutaties op de kasrekening (zonder zelf toegang tot de kas). 🔗\n5. **Periodieke kascontrole — *controlerende functie*** — Minstens maandelijks telt de zaakvoerder (of een derde persoon, niet de secretaresse en niet de boekhouder) de kas en sluit deze aan op het saldo van de boekhouding en op de bewaarde onkostennota's. Een proces-verbaal van de kascontrole wordt door beide partijen ondertekend. 🔗\n\n**De vereiste twee functiescheidingen zijn in deze procedure ruim aanwezig**: (i) de **beschikkende** functie (zaakvoerder — goedkeuring) is gescheiden van de **uitvoerende** functie (secretaresse — uitbetaling); (ii) de **uitvoerende/bewarende** functie (secretaresse — kas) is gescheiden van de **registrerende** functie (boekhouder — boeking); (iii) de **controlerende** functie (kascontrole) is gescheiden van wie de kas voert. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De **klassieke vijf controletechnische functies** zijn: **B**eschikken — **U**itvoeren — **R**egistreren — **C**ontroleren — **B**ewaren (ezelsbruggetje **BURCB**). De basisregel: deze functies moeten over verschillende personen verdeeld zijn opdat geen enkele persoon een volledige transactie alleen kan initiëren, uitvoeren én verbergen. Vraag-goed-lezen: \"minimaal twee functiescheidingen\" is een **minimum**; een volwaardige procedure raakt er meestal drie of vier. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "In een **kleine BVBA / familiaal bedrijf** is volledige functiescheiding vaak praktisch onhaalbaar (te weinig personeel). ISA 315 (herzien-2019) erkent dit uitdrukkelijk: bij minder complexe entiteiten kan **direct toezicht door de zaakvoerder-eigenaar** (bv. zelf de kascontrole doen + alle onkostennota's paraferén) compenseren voor beperkte functiescheiding. In het examenantwoord: vermeld die compenserende controle expliciet — alleen \"er is geen functiescheiding mogelijk\" is geen aanvaardbaar antwoord. 🔖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**ISA 315 (herzien-2019), §A157**: \"Het kan minder praktisch uitvoerbaar zijn om functiescheiding in minder complexe entiteiten met minder medewerkers tot stand te brengen. In een door de eigenaar bestuurde entiteit kan de eigenaar-bestuurder echter mogelijk meer effectief toezicht uitoefenen door directe betrokkenheid … wat de over het algemeen beperktere mogelijkheden voor functiescheiding kan compenseren.\" De vijf controletechnische functies (beschikken/uitvoeren/registreren/controleren/bewaren) zijn klassieke audit-doctrine — niet wettelijk vastgelegd in een specifiek artikel, maar standaard in interne-controle-leerboeken en impliciet in ISA 315 §26 (interne beheersingsactiviteiten). 📖",
+          "wetsref": "ISA 315 (herzien-2019), §A157 + §26",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

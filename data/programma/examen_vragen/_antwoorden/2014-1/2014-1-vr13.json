@@ -1,0 +1,90 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr13",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Erelonen advocaat van 12.000 EUR zijn een **indicator van mogelijk hangende rechtszaken of claims** tegen (of door) de vennootschap. Dit raakt rechtstreeks de **volledigheid** van de geboekte voorzieningen voor risico's en kosten en de **toelichting** van niet in de balans opgenomen rechten en verplichtingen — twee kernbeweringen waarover de auditor zekerheid moet verschaffen in zijn controleverslag. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "ISA 501 verplicht de auditor om werkzaamheden op te zetten die rechtszaken en claims tegen de entiteit — die aanleiding kunnen geven tot een **risico van afwijking van materieel belang** — kunnen identificeren. 📖 Een ongebruikelijk hoog of onverklaard ereloon advocaat is precies het type **signaal** dat de auditor moet alarmeren: er kan een geschil hangende zijn dat\n\n- **niet** als voorziening in de balans is opgenomen (onderwaardering passief), of\n- **niet** als voorwaardelijke verplichting in de toelichting is vermeld (onvolledige toelichting), of\n- **wel** is opgenomen maar foutief gewaardeerd. 🔗\n\nHet controleverslag moet een oordeel uitspreken over het **getrouw beeld** van de jaarrekening — als een materiële voorziening ontbreekt of een belangrijke voorwaardelijke verplichting niet is toegelicht, is een oordeel **met voorbehoud** of zelfs **afkeurend** mogelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het bedrag op zich (12.000 EUR) zegt niets — het gaat om de **aard** van de prestatie. Het kan ook gaan om courante juridische bijstand (contracten, invorderingen, fiscale begeleiding) zonder geschil. De auditor moet de **detail-facturen** opvragen om de aard te beoordelen vooraleer hij conclusies trekt. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 501 §§9-12 — *Rechtszaken en claims*: de auditor moet werkzaamheden opzetten om rechtszaken en claims tegen de entiteit te identificeren die een risico van afwijking van materieel belang kunnen veroorzaken, onder meer door inlichtingen in te winnen bij het management, notulen te lezen en **kostenrekeningen voor juridische bijstand na te zien**. 📖",
+          "wetsref": "ISA 501 §§9-12",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Bijkomende controlewerkzaamheden uitvoeren** om de aard en de financiële impact van het advocatenwerk vast te stellen, met als sluitstuk een **bevestigingsbrief aan de externe advocaat** (lawyer's letter) én een **schriftelijke bevestiging van het management** dat alle gekende of waarschijnlijke rechtszaken zijn meegedeeld. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md",
+            "resources/bronnen/normen/ISA-580.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concrete stappen in oplopende volgorde:\n\n1. **Detail van de kostenrekening 670 'Erelonen advocaat' opvragen**: facturen, prestatiestaten, omschrijving van de dossiers — om te onderscheiden tussen routine-bijstand en geschillen. 🔗\n2. **Inlichtingen inwinnen bij het management** (en in voorkomend geval de juridische dienst) over hangende, dreigende of afgewikkelde rechtszaken. 📖\n3. **Notulen** van de algemene vergadering en de raad van bestuur **doornemen** + de **correspondentie met advocaten** opvragen. 📖\n4. **Bevestigingsbrief aan de externe advocaat** sturen (door cliënt opgesteld, rechtstreeks aan auditor geadresseerd) met vraag naar: lijst van hangende geschillen, inschatting van de uitkomst en het bedrag, eventuele bijkomende dossiers die de advocaat kent. 📖\n5. **Schriftelijke bevestiging van het management** opnemen in de management letter (ISA 580): alle gekende geschillen zijn meegedeeld en correct verwerkt in de jaarrekening. 📖\n6. **Evaluatie van het geboekte bedrag** aan voorzieningen / toelichting van voorwaardelijke verplichtingen tegenover de bekomen informatie, en bepalen of het controleoordeel moet worden aangepast. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md",
+            "resources/bronnen/normen/ISA-580.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Als het management **weigert** de bevestigingsbrief aan de advocaat te laten versturen of de advocaat **weigert** te antwoorden, beschouwt ISA 501 §10 dit als een **beperking in de reikwijdte** van de controle — gevolg: oordeel **met voorbehoud** of **onthouding van oordeel**. De auditor mag zich niet tevreden stellen met enkel een mondelinge geruststelling. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 501 §§9-12 *Rechtszaken en claims* — verplicht doorlopen werkzaamheden (inlichtingen management, kostennazicht, notulen, correspondentie advocaten) + bij geïdentificeerd risico: rechtstreekse communicatie met externe juridische adviseur. ISA 580 *Schriftelijke bevestigingen* — vereist schriftelijke management-bevestiging dat alle relevante informatie (incl. rechtszaken/claims) is meegedeeld; bijlage 1 vermeldt ISA 501 §12 expliciet. 📖",
+          "wetsref": "ISA 501 §§9-12 + ISA 580 §10 en bijlage 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md",
+            "resources/bronnen/normen/ISA-580.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

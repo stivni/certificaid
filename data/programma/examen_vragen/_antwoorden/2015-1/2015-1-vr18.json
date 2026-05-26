@@ -1,0 +1,97 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr18",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Controledoelstelling | Techniek |\n|---|---|\n| 1. **Bestaan / aanwezigheid** op balansdatum 30/09/2014 (roll-back van 23/01/2015-stand) | Aansluiting eindvoorraadlijst 30/09/2014 met de bijgehouden voorraadkaarten + nazicht van alle in- en uitgaande bewegingen tussen 30/09/2014 en 23/01/2015 op basis van ontvangst- en leveringsbonnen (roll-back-procedure). 🔗 |\n| 2. **Waardering** (juiste aanschaffings- of vervaardigingsprijs, laagstewaarderegel toegepast) | Steekproef op de waarderingsregels: hercalculatie van de eenheidsprijs per artikel op basis van laatste aankoopfacturen (FIFO/gewogen gemiddelde, consistent toegepast) en vergelijking met markt-/realisatiewaarde; toets op slow movers en obsolete voorraad. 📖 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De fysieke telling van 30/09/2014 dekt enkel het bestaan en de hoeveelheid op die datum. Op 23/01/2015 moet de accountant nog twee doelstellingen afdekken:\n\n- **Bestaan op balansdatum** — de getelde voorraad 30/09/2014 koppelen aan het balanssaldo. Tussen telling en huidige stand zijn er aankopen, verkopen en eventuele retours; via de bewegingen-administratie (roll-back) toon je aan dat het saldo 30/09/2014 consistent overgaat. Cut-off-toets op aankoop- en verkoopfacturen rond 30/09/2014 vermijdt dat goederen in transit dubbel of niet geteld zijn. 🔗\n- **Waardering** — een telling zegt niets over de prijs. De accountant verifieert dat de toegepaste kostprijsformule (individualisering / gewogen gemiddelde / FIFO) consistent is en correct uitgerekend, en dat de laagstewaarderegel is toegepast op slow movers of technologisch verouderde voorraad (relevant bij hoogtechnologische gasleidingen). 📖\n\nAlternatieve doelstellingen die evenzeer pertinent zijn: **volledigheid** (geen voorraad onterecht weggelaten — kruislink met aankoopcyclus), **eigendomsrecht** (consignatie-, derde- of doorgangsgoederen mogen niet in eigen voorraad zitten), **presentatie/toelichting** (waarderingsregels conform art. 3:54 KB WVV in de toelichting opgenomen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij hoogtechnologische gasleidingen is **technologische veroudering** een verhoogd risico — vraag specifiek naar verkoopstatistieken per artikel, brutomarges en stockomloop, en evalueer of een waardevermindering nodig is op slow movers. De materialiteit van 70.000 EUR op balansposten is laag t.o.v. een typische voorraad in zo'n sector, dus de waarderings-toets weegt zwaar. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 132/7 omschrijft dat de inventaris drie luiken heeft: kwantitatieve opgave, kwaliteitscontrole (fysieke veroudering / slow movers) en vergelijking aanschaffingsprijs vs. markt-/realisatiewaarde. De fysieke telling dekt enkel het eerste; de accountant moet ook de twee andere luiken toetsen. ISA 501 (specifiek bij voorraadcontroles) en de algemene ISA-beweringen (bestaan, volledigheid, waardering, rechten/verplichtingen, presentatie) vormen de doelstellingen-kapstok. 📖",
+          "wetsref": "CBN-advies 132/7; ISA 501; ISA 315 (beweringen)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Correctieboeking voorstellen** (eerste keuze). Het verschil van **96.800 EUR** (= 80.000 EUR excl. btw + 16.800 EUR btw 21%) is een **bevestigde** afwijking betreffende een feit van vóór balansdatum (retourbon 29/09/2014) en moet in boekjaar 30/09/2014 gecorrigeerd worden. De afwijking (96.800 EUR) overschrijdt bovendien de balans-materialiteit (70.000 EUR), zodat zonder correctie een **oordeel met voorbehoud** zou volgen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-450.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "boeking",
+          "tekst": "Voorgestelde correctieboeking (terugname van de foutieve verkoop) per 30/09/2014:\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 700 | Verkopen handelsgoederen | 80.000,00 | |\n| 451 | Te betalen btw (21%) | 16.800,00 | |\n| 400 | Handelsvorderingen | | 96.800,00 |\n\nDaarnaast: **terugname kostprijs verkochte goederen** door het teruggenomen goed opnieuw in voorraad te nemen (3xx D / 609 Voorraadwijzigingen C voor de vervaardigings- of aanschaffingsprijs). 🔗\n\nNa correctie: vordering op klant = 217.800 − 96.800 = **121.000 EUR**, conform de confirmatie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Waarom géén voorbehoud en géén heropeningsboeking volgend boekjaar:\n\n- **Geen voorbehoud** zolang het management bereid is te corrigeren. Voorbehoud is de finale escalatie wanneer de jaarrekening van materieel belang zijnde afwijkingen blíjft bevatten (ITAA-KMO-controlenorm §119; ISA 705). De accountant vraagt eerst de correctie; pas bij weigering volgt voorbehoud. 📖\n- **Geen heropeningsboeking** in volgend boekjaar omdat de gebeurtenis (retour 29/09/2014) **vóór** balansdatum 30/09/2014 plaatsvond. Het is geen gebeurtenis na balansdatum maar een bevestigde fout in het af te sluiten boekjaar. Bovendien zou uitstel betekenen dat de jaarrekening 30/09/2014 een omzet en vordering vertoont die feitelijk niet bestaan — materieel onjuist. 🔗\n- **Materialiteit**: 96.800 EUR > 70.000 EUR (balans) én > de 100.000 EUR-resultatenrekening-materialiteit voor het btw-vrije gedeelte van 80.000 EUR is op zich nog onder de drempel, maar de gecombineerde balansafwijking dwingt correctie af. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-450.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar niet **niet-gecorrigeerde afwijkingen** (ISA 450 — verzamelen in een opgave, bespreken met management, opnemen in management representation letter) met de drempel voor **voorbehoud** (ISA 705 / ITAA-KMO §119). Hier gaat het om een **bevestigde fout** waarvoor correctie wordt gevraagd; pas wanneer management weigert en de afwijking blijft bestaan, verschuift de keuze naar voorbehoud (materieel maar niet diepgaand) of afkeurend oordeel (materieel én diepgaand). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-450.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 450 §8: de auditor deelt tijdig alle tijdens de controle geïdentificeerde afwijkingen mee aan het passende managementniveau en verzoekt om correctie. ITAA-KMO-controlenorm §119: voorbehoud volgt enkel wanneer afwijkingen materieel zijn én niet gecorrigeerd worden. Btw-aspect: art. 77 §1, 1° W.btw — teruggave btw bij terugzending van geleverde goederen, mits creditnota (art. 4 KB nr. 4). 📖",
+          "wetsref": "ISA 450 §8; ITAA-KMO-controlenorm §119; art. 77 §1, 1° W.btw",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-450.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

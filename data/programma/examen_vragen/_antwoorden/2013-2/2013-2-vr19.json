@@ -1,0 +1,241 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr19",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment pagina_02.png matcht NIET met de Fortunito-vraag (toont Softy BVBA). Vraag-inhoud staat op PDF-pagina 10-11; vision-check uitgevoerd op gerenderde PDF-pagina's (zie meta.json — segmentatie-bug). De f)-berekening blijft kwalitatief: de in de PDF aangekondigde bijlagen (afschrijvingstabel, detail participatie, overzicht handelsvorderingen) zijn niet aanwezig in het PDF-segment — exacte cijfers daarom niet berekenbaar.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Stelling | Antwoord |\n|---|---|\n| (i) Kan in principe de CVBA Fortunito omgezet worden naar de BVBA Reflexfort? | **Ja** 📖 |\n| (ii) Kan in de statuten een bepaling staan waardoor de CVBA Fortunito niet kan omgezet worden in de BVBA Reflexfort? | **Nee** 🔗 |\n| (iii) Kan je in het kader van je onafhankelijkheid deze opdracht uitvoeren? | **Ja** 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**(i) Ja** — Boek 14 WVV (art. 14:1 e.v.) laat elke vennootschap met rechtspersoonlijkheid toe haar rechtsvorm te wijzigen zonder onderbreking van de rechtspersoonlijkheid. CV → BV is een gangbare en sinds de invoering van het WVV (2019) zelfs vaak aangemoedigde omzetting (de CVBA die niet beantwoordt aan de coöperatieve gedachte werd geacht zich om te zetten). 🔗\n\n**(ii) Nee** — De omzettingsprocedure van Boek 14 WVV is van dwingend recht. Statutaire clausules die het wettelijk recht op omzetting zouden uitsluiten of beperken zijn in beginsel nietig. De aandeelhouders kunnen wel een versterkte meerderheid voor de omzettingsbeslissing afspreken, maar het recht zelf kan niet door de statuten worden uitgesloten. 🔗\n\n**(iii) Ja** — Een collega-accountant die in dezelfde beroepsvereniging zit is geen relatie die de onafhankelijkheid raakt in de zin van art. 9 KB 1 maart 1998 (plichtenleer). De opdracht (verslag over de staat van activa en passiva, art. 14:4 WVV) wordt aangewezen door het bestuursorgaan van de cliënt-vennootschap; jij bent niet de gewone boekhouder of bestuurder van Fortunito. Vooraf moet je nog wel deontologisch nagaan dat (a) je geen andere onverenigbare opdracht voor Fortunito uitvoert, (b) je geen familie- of financiële band hebt met de zaakvoerder en (c) je over de nodige bekwaamheid en tijd beschikt (algemene controlenorm). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:1 e.v. WVV (recht op omzetting — dwingend); art. 14:4 WVV (verslag bedrijfsrevisor of gecertificeerd accountant over de staat van activa en passiva, aangewezen door het bestuursorgaan); art. 9 KB 1 maart 1998 plichtenleer accountants (onafhankelijkheid). 📖",
+          "wetsref": "WVV art. 14:1, 14:4 · KB 1 maart 1998 art. 9",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Nee.** Een proef- en saldibalans volstaat niet — Boek 14 WVV vereist een door het bestuursorgaan opgestelde en ondertekende **staat van activa en passiva** met toepassing van de waarderingsregels en (bij ontbinding/discontinuïteit) eventuele herwaarderingen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een proef- en saldibalans is een interne grootboek-uittreksel: zij toont rekeningsaldi maar bevat geen waarderingsoordeel, geen herklassering volgens balansschema (volgens KB WVV), geen vermelding van de waarderingsregels, geen handtekening van het bestuursorgaan en geen formele afsluitdatum overeenkomstig art. 14:4 WVV (max. drie maanden vóór de buitengewone algemene vergadering). Je moet aan het bestuursorgaan vragen om op basis van de boekhouding een **formele staat van activa en passiva** op te stellen, ondertekend door het bestuursorgaan, met vermelding van de waarderingsregels en — indien relevant — een uitleg waarom in continuïteit dan wel in discontinuïteit gewaardeerd wordt. De ITAA-norm omzetting eist dat dit document de basis is van je beoordelingsverslag. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:4 WVV (staat van activa en passiva opgesteld door het bestuursorgaan, niet meer dan drie maanden oud, met vermelding van de waarderingsregels); ITAA-norm omzetting van een vennootschap §VI.1 (de beroepsbeoefenaar baseert zijn beoordeling op de door het bestuursorgaan opgestelde en ondertekende staat). 📖",
+          "wetsref": "WVV art. 14:4 · ITAA-norm omzetting van een vennootschap",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Het bestuursorgaan van de cliënt-vennootschap (CVBA Fortunito) draagt de verantwoordelijkheid over de verstrekte cijfers.** De accountant geeft slechts een beoordeling met beperkte mate van zekerheid; zijn werk ontslaat het bestuursorgaan niet van zijn verantwoordelijkheid. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Voorbeeld waaruit deze verantwoordelijkheid blijkt**: de accountant vraagt aan het bestuursorgaan een **bevestigingsbrief** (representation letter / verklaring van de leiding) waarin het bestuursorgaan uitdrukkelijk verklaart dat de staat van activa en passiva volledig en getrouw is en in overeenstemming met de Belgische boekhoudkundige referentiestelsel werd opgesteld, dat alle activa en passiva erin zijn opgenomen, dat de waarderingsregels correct werden toegepast en dat het bestuursorgaan alle relevante informatie aan de beroepsbeoefenaar heeft bezorgd. Andere geldige voorbeelden: de **handtekening** van de bestuurders onder de staat van activa en passiva, of de notulen van het bestuursorgaan dat de staat formeel goedkeurt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting van een vennootschap, §Verantwoordelijkheden van het bestuursorgaan: \"De beoordeling van de staat van activa en passiva door [de commissaris/de bedrijfsrevisor/gecertificeerd accountant] ontslaat noch het bestuursorgaan, noch de voor financiën en administratie verantwoordelijke personen van hun verantwoordelijkheid\". Art. 14:12 WVV regelt de hoofdelijke aansprakelijkheid van het bestuursorgaan bij overwaardering van het nettoactief. 📖",
+          "wetsref": "ITAA-norm omzetting · WVV art. 14:12",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Drie stukken die in elk werkdossier van een wettelijke opdracht (zoals een omzettingsverslag) thuishoren en die vóór het cijferwerk worden opgevraagd:\n\n1. **Opdrachtbrief** ondertekend door het bestuursorgaan — identificatie van de beroepsbeoefenaar en zijn hoedanigheid, beschrijving van de opdracht met verwijzing naar art. 14:4 (of 14:21) WVV en naar de ITAA-norm omzetting, verantwoordelijkheden van beide partijen, ereloon en gebruiksbeperking van het verslag. 📖\n2. **Recente gecoördineerde statuten + uittreksel KBO** — om de juridische bestaanstoestand, de huidige rechtsvorm (CVBA), de zetel, de bestuurders en eventuele statutaire clausules over omzetting/overdracht te kunnen verifiëren. 🔗\n3. **Notulen van het bestuursorgaan** met de **beslissing tot omzettingsvoorstel** en de **goedgekeurde staat van activa en passiva** (ondertekend door het bestuursorgaan, met de toegepaste waarderingsregels en motivering van continuïteit/discontinuïteit) — basisdocument waarop het beoordelingsverslag steunt. 📖\n\n*(Andere even valide voorbeelden: aanvaardingsbrief/onafhankelijkheidsverklaring, ontwerp van bijzonder verslag bestuursorgaan art. 14:3 WVV, laatste goedgekeurde jaarrekening + recente proef- en saldibalans, opdrachtdossier voorganger indien deze er was — Cliëntenacceptatieprocedure ITAA.)* 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting van een vennootschap §II.3 (opdrachtbrief — verplicht voorafgaand element); §III (cliëntenacceptatie en planning); algemene controlenorm ITAA §1 (werkdossier-vereisten). WVV art. 14:3 (bijzonder verslag bestuursorgaan) en art. 14:4 (staat van activa en passiva). 📖",
+          "wetsref": "ITAA-norm omzetting §II.3 · algemene controlenorm ITAA · WVV art. 14:3-14:4",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "niet_beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Deelvraag e) ontbreekt in de OCR (interpretatie-flag `subvraag_zonder_inhoud`). In het PDF-bronbestand is e) eveneens leeg — alleen \"Antwoord … / 3 punten\" staat vermeld. Mogelijk gaat het om een typografische glitch waarbij vraag d) en e) samenvielen, of om een verdere vraag rond bijkomende werkdossier-vereisten / een tussenstap in de omzettingsprocedure. Geen antwoord mogelijk zonder bijkomende bron. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "De correcties op het actief (kwalitatief — exacte bedragen vereisen de bijlagen *afschrijvingstabel*, *detail participatie* en *overzicht handelsvorderingen*, die niet bij de OCR/PDF zaten):\n\n1. **230900 — Afschrijving installaties**: het saldo ontbreekt in de staat. Op een actiefpost van € 32.000 moet de geaccumuleerde afschrijving per 30/09/2013 worden opgenomen (negatief naar het actief). Bedrag = saldo volgens afschrijvingstabel; voor een tussentijdse staat per 30/09 moet bovendien de **pro-rata afschrijving 01/01-30/09/2013** (9 maanden) worden toegevoegd, ook al sluit het statutair boekjaar pas op 31/12. 🔗\n2. **280000 — Aandelen O'Cool € 30.000 (financiële vaste activa)**: nagaan of er een **duurzame minderwaarde** is en zo ja een **waardevermindering** boeken (art. 3:46 KB WVV). De waarde aan kostprijs blijft behouden zolang geen duurzame minderwaarde wordt vastgesteld; bij omzetting in discontinuïteit valt terug op realisatiewaarde. Concreet: detail participatie bekijken (nettoactief van O'Cool, recent dividend, beursnotering), correctie = kostprijs − realiseerbare waarde. 🔗\n3. **400000 — Handelsdebiteuren € 215.100**: het overzicht handelsvorderingen analyseren op **dubieuze debiteuren** (oude saldi, geschillen, insolventie). Voor elke vordering waarvan de inning onzeker is, een **waardevermindering** boeken (491/634); volledig oninbare vorderingen afboeken via 642 minderwaarde. 🔗\n4. **411000 — Terug te vorderen BTW € 6.020,17**: controleren of dit bedrag aansluit op de **laatste BTW-aangifte/-vaststelling** (saldo na compensaties); indien een teruggave werd ontvangen tussen statutaire boeking en 30/09, post afboeken. Veelal géén materieel correctie indien aansluiting met BTW-rekening klopt. 🔗\n5. **Periode-afgrenzingen (algemeen)**: omdat de staat op een **tussentijdse datum (30/09)** valt en niet op een balansdatum, moeten er **overlopende rekeningen** worden opgemaakt voor verkregen opbrengsten en vooruitbetaalde kosten die op het actief horen (rekening 49.). Zonder de detailboekhouding is de exacte impact niet kwantificeerbaar. 🔗\n\n**Niet te corrigeren** (geen actief-correctie nodig): 550000 Bankrekening (mits aansluitend op bankuittreksel 30/09 — controle via reconciliatie).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De vraag vraagt **enkel actief-correcties**, dus géén passieva-correcties zoals voorzieningen voor vakantiegeld, pro-rata RSZ-schuld of belastingschuld. Vergeet ook niet dat een omzetting **niet automatisch** een waardering in discontinuïteit vereist: dat is enkel zo bij omzetting in een vennootschap met beperkte aansprakelijkheid waarbij de continuïteit in gevaar is, of bij gelijktijdige (geplande) ontbinding. Hier blijft de onderneming in continuïteit (CV → BV is gewone omzetting), dus waardering blijft in continuïteit — herwaarderingen zijn uitzonderlijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB WVV art. 3:6 (waarderingsbeginselen — continuïteit/discontinuïteit), art. 3:43-3:46 (waarderingsregels VVA, afschrijvingen en waardeverminderingen op financiële vaste activa), art. 3:54 (waardering vorderingen — waardeverminderingen indien onzeker). ITAA-norm omzetting §V (beoordelingswerkzaamheden gericht op nettoactief). 📖",
+          "wetsref": "KB WVV art. 3:6, 3:43-3:46, 3:54 · ITAA-norm omzetting §V",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Twee vermeldingen in het **besluit** van het beoordelingsverslag, voortvloeiend uit de vaststellingen:\n\n1. **Vermelding van de doorgevoerde correcties op het nettoactief** — het verslag vermeldt uitdrukkelijk welke correcties t.o.v. de oorspronkelijk door het bestuursorgaan voorgelegde staat noodzakelijk zijn gebleken (ontbrekende afschrijving installaties, eventuele waardeverminderingen op aandelen O'Cool en op dubieuze handelsvorderingen), met het **gecorrigeerde nettoactief** als uitkomst. 🔗\n2. **Verklaring dat het nettoactief (na correcties), in alle van materieel belang zijnde opzichten, niet is overgewaardeerd** — dit is de wettelijk verplichte kernconclusie van art. 14:4 WVV. Zonder deze vermelding is het verslag onvolledig. 📖\n\n*(Bijkomend mogelijk: vermelding van een onthouding indien onvoldoende bewijs bekomen, of voorbehoud indien correcties materieel zijn maar het bestuursorgaan ze weigert door te voeren.)*",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:4 WVV (verslag vermeldt inzonderheid of het nettoactief is overgewaardeerd); ITAA-norm omzetting §VI.3 \"Verslag\" (verplichte vermeldingen — beschrijving werkzaamheden, vaststellingen, conclusie nettoactief); bijlage 3 model-verslag. 📖",
+          "wetsref": "WVV art. 14:4 · ITAA-norm omzetting §VI.3 + bijlage 3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het specifieke risico dat in het besluit moet worden opgenomen, gaat over de **omvang van het nettoactief in verhouding tot het wettelijk minimumkapitaal van de doelvennootschapsvorm (BVBA / BV)** — meer bepaald het risico van **hoofdelijke aansprakelijkheid van de oprichters/bestuurders** indien dit minimum bij omzetting niet gedekt is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Indicatieve formulering:\n\n> *\"Wij vestigen de aandacht van de algemene vergadering op het feit dat, na de hierboven beschreven correcties, het nettoactief van de vennootschap [hoger / lager] is dan [het bedrag van het maatschappelijk kapitaal van de op te richten BV / het bedrag dat overeenkomstig artikel 5:3 WVV als toereikend aanvangsvermogen kan worden beschouwd]. Indien het nettoactief bij omzetting kleiner blijkt dan het in de oprichtingsakte vermelde kapitaal van de BV (of, voor een BV onder het WVV, dan het door het bestuursorgaan in het financieel plan vermelde toereikend aanvangsvermogen), zijn de oprichters/bestuurders krachtens artikel 14:12 WVV jegens belanghebbenden hoofdelijk gehouden tot vergoeding van het verschil. Wij wijzen erop dat de verantwoordelijkheid voor de juistheid en de volledigheid van de cijfers bij het bestuursorgaan blijft berusten.\"* 🔗\n\nDe **aandachtspunt-paragraaf** is de juiste vorm: het is een vermelding zonder de conclusie te wijzigen, om de gebruikers (algemene vergadering, notaris) attent te maken op een belangrijk gegeven uit de staat van activa en passiva. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:12 WVV (hoofdelijke aansprakelijkheid bij omzetting: o.a. voor het verschil tussen het nettoactief van de vennootschap ná omzetting en het wettelijk voorgeschreven minimumbedrag van het kapitaal/toereikend aanvangsvermogen); art. 5:3 WVV (toereikend aanvangsvermogen BV — kapitaalbegrip in BV is afgeschaft sinds WVV 2019); ITAA-norm omzetting §VI.3 (aandachtspunt-paragraaf). 📖",
+          "wetsref": "WVV art. 14:12 · WVV art. 5:3 · ITAA-norm omzetting §VI.3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

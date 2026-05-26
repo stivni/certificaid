@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr10",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Vergelijking van de gerealiseerde brutomarge per verkochte werfkraan met de begrote/historische brutomarge** — de interne controleafdeling neemt de tussentijdse verkoopcijfers, deelt door het aantal verkochte kranen en confronteert het resultaat met budget, vorige periode en/of voorraadbeweging; significante afwijkingen worden onderzocht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-520.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een analytische test (cijferanalyse) onderzoekt **plausibele relaties** tussen financiële en niet-financiële gegevens en signaleert fluctuaties die afwijken van de verwachte waarden. 📖 Concreet voor werfkranen-handel kan de interne controleafdeling op tussentijdse resultaten bijvoorbeeld:\n\n- de **gerealiseerde omzet vergelijken met budget** of met dezelfde periode vorig jaar (trendanalyse); 🔗\n- het **brutomargepercentage per kraan** berekenen en vergelijken met de verwachting (verband tussen verkoopprijs en aankoopkostprijs); 🔗\n- de **omzet per verkoper / per regio** uitzetten tegen het aantal verkochte eenheden (verband financieel ↔ niet-financieel, vgl. \"loonkosten per werknemer\"-voorbeeld in ISA 520 A2); 📖\n- de **voorraadrotatie** (aantal kranen in stock t.o.v. tussentijdse verkopen) toetsen aan een norm-rotatie. 🔗\n\nDe test bestaat dus uit: verwachting opstellen → vergelijken met werkelijkheid → afwijking onderzoeken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-520.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Eén voorbeeld volstaat — de vraag vraagt niet om een uitputtende lijst. Kies een voorbeeld dat de **drie kenmerken van een analytische test** zichtbaar maakt: (1) een berekende verhouding of vergelijking, (2) een verwachte waarde (budget, vorig jaar, branche, niet-financiële driver) en (3) een opvolgingsactie bij afwijking. Een loutere \"omzet kijken\" zonder benchmark is géén analytische test maar een gewone inzage. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-520.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 520 *Cijferanalyses* §4 + §A1-A2: cijferanalyse = evaluatie van financiële informatie door analyse van plausibele relaties — vergelijking met voorgaande periodes, budgetten/prognoses, branche-informatie, of verbanden zoals brutomargepercentages of loonkosten per werknemer. 📖 ISA 330 §A57 e.v. behandelt gegevensgerichte controles (incl. cijferanalyses) uitgevoerd op een **tussentijdse datum** vóór einddatum verslagperiode. 📖",
+          "wetsref": "ISA 520 §4 en §A1-A3; ISA 330 §A55-A60",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-520.md",
+            "resources/bronnen/normen/ISA-330.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

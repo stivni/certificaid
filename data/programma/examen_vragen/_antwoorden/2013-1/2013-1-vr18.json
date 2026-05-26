@@ -1,0 +1,54 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr18",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Drie procedure-fouten: (1) de staat van activa en passiva is opgesteld en ondertekend door de **interne boekhouder** in plaats van door het **bestuursorgaan**; (2) het **controleverslag dateert van 14/04/2013** — de dag vóór de AV — zodat de stukken niet de wettelijke **15 dagen** ter beschikking van de aandeelhouders konden liggen; (3) een 10%-vennoot heeft **geen unilateraal recht op verdaging** vóór de zitting — de vergadering kan gewoon doorgaan. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Opmerking 1 — Opsteller staat van activa en passiva.**\n- **Fout**: de staat per 31/01/2013 is opgesteld en ondertekend door de interne boekhouder. 📖\n- **Regel**: het **bestuursorgaan** is verantwoordelijk voor het opstellen van de staat van activa en passiva, in overeenstemming met het Belgische boekhoudkundig referentiestelsel, evenals voor het verslag dat het voorstel tot ontbinding toelicht (art. 2:71 § 2 WVV; ITAA-norm ontbinding-vereffening, §§ 1 en § Verantwoordelijkheden van het bestuursorgaan). 📖\n- **Wat moet er gebeuren**: de zaakvoerder(s) moeten de staat zelf vaststellen en ondertekenen vóór ze aan de accountant wordt overhandigd; een interne boekhouder kan voorbereiden, niet ondertekenen namens het orgaan. De accountant kan zijn opdracht pas correct uitvoeren op een door het bestuursorgaan goedgekeurde staat. 🔗\n\n**Opmerking 2 — Tijdige terbeschikkingstelling van de stukken.**\n- **Fout**: het controleverslag is opgesteld op 14/04/2013, één dag vóór de AV van 15/04/2013. 📖\n- **Regel**: het verslag van het bestuursorgaan en het verslag van de beroepsbeoefenaar over de staat van activa en passiva moeten **vijftien dagen vóór de algemene vergadering** ter beschikking liggen van de aandeelhouders, samen met of na de oproeping (art. 2:71 § 2 jo. art. 5:62 en 5:76 WVV; CBN-advies 2022/04). 🔗\n- **Wat moet er gebeuren**: de AV uitstellen tot de stukken minstens 15 dagen ter beschikking liggen, of — indien alle aandeelhouders aanwezig of vertegenwoordigd zijn en uitdrukkelijk **verzaken** aan de termijn — de verzaking expliciet in de notuliën opnemen. In casu kan niet verzaakt worden: de 10%-vennoot is afwezig. 🔗\n\n**Opmerking 3 — Verzoek tot verdaging door 10%-vennoot.**\n- **Fout / vraag**: een aandeelhouder met 10% vraagt aan de zaakvoerders om de AV met drie weken te verdagen wegens verblijf in het buitenland. 📖\n- **Regel**: een individuele 10%-vennoot heeft onder het WVV (BV) **wel** het recht om een **bijeenroeping** te vragen of agendapunten toe te voegen (art. 5:62 § 1 WVV), maar **geen recht op verdaging** van een reeds samengeroepen AV. Het bestuursorgaan kan tijdens de zitting de beslissing over de **goedkeuring van de jaarrekening** drie weken uitstellen (art. 5:78 WVV), maar dat geldt niet voor een ontbindingsbesluit. De verdaging tot vijf weken bij belangrijke deelnemingen (art. 7:118 WVV) is een NV-bepaling die hier niet speelt. 🔗\n- **Wat moet er gebeuren**: de zaakvoerders **mogen** het verzoek inwilligen — dat is een opportuniteitskeuze, geen verplichting. Weigeren mag: de vennoot kan zich laten vertegenwoordigen door een **schriftelijke volmacht** (art. 5:79 WVV). De vergadering kan geldig doorgaan met de overige aandeelhouders zolang het aanwezigheids- en meerderheidsquorum voor de ontbinding (helft van het kapitaal aanwezig of vertegenwoordigd, en **4/5 van de uitgebrachte stemmen**, art. 5:84 WVV) wordt gehaald. Met 90% aanwezig is dat haalbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De datum van de staat (31/01/2013) ligt **binnen** drie maanden vóór de AV (15/04/2013) en is dus op zichzelf **geen** procedurefout (art. 2:71 § 2 WVV — staat mag niet ouder zijn dan drie maanden vóór de AV). De casus oogt door de cijfers verdacht, maar voldoet aan de termijn — een veelgemaakte valkuil bij snel lezen. 🔗 Dat de accountant **niet de reguliere adviseur** is, is eérder een **kwaliteitsgarantie** (onafhankelijkheid) dan een fout: bij afwezigheid van commissaris mag het bestuursorgaan een GA óf bedrijfsrevisor aanwijzen (art. 2:71 § 2, derde lid WVV; ITAA-norm). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:71 § 2 WVV — het voorstel tot vrijwillige ontbinding wordt toegelicht in een verslag van het **bestuursorgaan**, waarbij een **staat van activa en passiva** wordt gevoegd die **niet meer dan drie maanden** vóór de AV is vastgesteld, en waarover de commissaris (of, bij afwezigheid, een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant) een verslag uitbrengt. 📖 Art. 5:76 jo. 5:62 WVV — stukken voor de AV liggen **15 dagen vóór** de vergadering ter inzage. 📖 Art. 5:62 § 1 WVV — 10%-aandeelhouders kunnen **bijeenroeping** of agendapunten vragen, **geen verdaging**. 📖 Art. 5:84 WVV — ontbindingsbeslissing vergt **4/5 van de uitgebrachte stemmen**. 📖 ITAA-norm ontbinding-vereffening — verantwoordelijkheid bestuursorgaan + modelverslag. 📖",
+          "wetsref": "art. 2:71, 5:62, 5:76, 5:78, 5:84 WVV; ITAA-norm ontbinding-vereffening",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr16",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Voorwerp**: een controle-opdracht (beoordelingsopdracht) over de **staat van activa en passiva** die het bestuursorgaan opmaakt ter onderbouwing van het ontbindingsvoorstel. **Doel**: aan de algemene vergadering schriftelijk verslag uitbrengen of die staat **een getrouw beeld** geeft van het vermogen van de vennootschap en in voorkomend geval **vermelden of er overwaardering is** van activa of onderwaardering van passiva. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-boek-2.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij elk voorstel tot vrijwillige ontbinding van een BV, CV, NV, SE of SCE legt het bestuursorgaan aan de AV (i) een **verslag** voor dat het voorstel toelicht en (ii) een daaraan gehechte **staat van activa en passiva**, vastgesteld op een datum die maximaal **drie maanden** vóór de AV ligt (art. 2:71, § 2 WVV). 📖\n\nOver die staat brengt een **commissaris**, of bij gebrek daaraan een door het bestuursorgaan aangewezen **bedrijfsrevisor of externe gecertificeerd accountant**, schriftelijk verslag uit aan de AV. De beroepsbeoefenaar (i) **beoordeelt** of de staat **getrouw, volledig en juist** de toestand van de vennootschap weergeeft conform het toepasselijke boekhoudkundig referentiestelsel en (ii) vermeldt **uitdrukkelijk** of er sprake is van overwaardering van activa of onderwaardering van passiva (art. 2:71, § 2, lid 3 WVV; ITAA-norm ontbinding-vereffening). 🔗\n\nHet is dus geen *audit* in de zin van een wettelijke jaarrekeningcontrole, maar een **specifieke wettelijke controle-opdracht** met een eigen modelverslag (Bijlage 3 van de ITAA-norm). De opdracht **ontslaat het bestuursorgaan niet** van zijn eigen verantwoordelijkheid voor de staat. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-boek-2.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Zonder dit verslag (en zonder het bestuurdersverslag) kan de AV **niet rechtsgeldig** beslissen tot ontbinding — de beslissing zou nietig zijn (art. 2:71, § 3 WVV). De accountant heeft hier dus een **constitutieve** rol in de geldigheid van het ontbindingsbesluit. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-boek-2.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. **2:71, § 2 WVV** (verslag bestuursorgaan + staat van A&P + controleverslag commissaris/bedrijfsrevisor/GA met expliciete vermelding van eventuele overwaardering). **ITAA-norm ontbinding-vereffening** (uitvoeringsmodaliteiten + modelverslag Bijlage 3). **CBN-advies 2022/04** (boekhoudkundige verwerking). 📖",
+          "wetsref": "art. 2:71, § 2 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-boek-2.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De staat van activa en passiva wordt opgesteld door het **bestuursorgaan** van de vennootschap (raad van bestuur / bestuurder(s)). De externe accountant of bedrijfsrevisor **stelt hem niet op** — die controleert hem en brengt erover verslag uit. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/wetteksten/WVV-boek-2.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De ITAA-norm formuleert het expliciet: *\"Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva, in overeenstemming met het in België van toepassing zijnde boekhoudkundig referentiestelsel\"* — net als voor het toelichtingsverslag bij het ontbindingsvoorstel en voor de naleving van de WVV-vereisten. De **controle** door de beroepsbeoefenaar **ontslaat het bestuursorgaan niet** van die verantwoordelijkheid. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar de **opsteller** (bestuursorgaan) niet met de **verslaggever** (commissaris, of bij gebrek daaraan een bedrijfsrevisor of externe GA aangesteld door het bestuursorgaan). En verwar de **staat van A&P bij ontbinding** (art. 2:71 WVV — vóór de AV) niet met de **vereffeningsstaten** die nadien door de **vereffenaar** worden opgemaakt (jaarlijks en bij sluiting). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-boek-2.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. **2:71, § 2 WVV** (de staat van A&P wordt door het bestuursorgaan opgemaakt en bij het verslag van het bestuursorgaan gevoegd). **ITAA-norm ontbinding-vereffening**, sectie *Verantwoordelijkheden van het bestuursorgaan*. 📖",
+          "wetsref": "art. 2:71, § 2 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-boek-2.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De staat van activa en passiva wordt **bij wijze van uitzondering** in continuïteit opgesteld wanneer het bestuursorgaan, ondanks de voorgenomen ontbinding, kan **motiveren** dat de **continuïteitsveronderstelling** verantwoord blijft — bijvoorbeeld omdat het handelsfonds of de activiteit als geheel wordt **overgedragen of voortgezet** (going concern bij een derde) en er geen significante twijfel bestaat over het vermogen om verplichtingen na te komen. De regel is *discontinuïteit*; continuïteit is de te motiveren uitzondering. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Default = discontinuïteit.** Art. **3:6, § 2 KB/WVV** schrijft voor dat zodra de vennootschap er niet meer naar streeft haar activiteiten voort te zetten (zoals bij ontbinding), de waarderingsregels **worden aangepast aan de discontinuïteit**: vaste activa naar realisatiewaarde, voorzieningen voor sluitings- en herstructureringskosten, herklassering van LT-schulden naar KT. 📖\n\n**Uitzondering = continuïteit**, maar enkel als het bestuursorgaan dat **uitdrukkelijk motiveert** in zijn verslag bij het ontbindingsvoorstel. Typische gevallen: (i) **overdracht van de bedrijfstak of het handelsfonds** waardoor de economische activiteit bij een derde wordt voortgezet, (ii) een **ontbinding zonder vereffening** (bv. fusie/splitsing wordt overwogen), (iii) een onmiddellijke sluiting (art. 2:80 WVV) waarbij alle schulden betaald of geconsigneerd zijn. 🔗\n\nDe ITAA-norm vereist dat de beroepsbeoefenaar in dat geval (i) **kennis neemt** van die motivatie en ze **bespreekt met het bestuursorgaan**, en (ii) inlichtingen inwint of er gebeurtenissen of omstandigheden bestaan die — afzonderlijk of collectief — **significante twijfel** doen ontstaan over de continuïteitsveronderstelling. Is die twijfel er, dan dwingt dat doorgaans terug naar discontinuïteit. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Bij een **ontbinding-en-sluiting-in-één-akte** (art. 2:80 WVV — alle schulden betaald of geconsigneerd, akkoord van alle aandeelhouders) wordt de staat in de praktijk vaak in continuïteit opgesteld, maar dat is **geen automatisme**: het blijft een keuze die het bestuursorgaan moet motiveren en die de beroepsbeoefenaar moet toetsen. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. **3:6, § 2 KB/WVV** (29 april 2019): bij ontbinding worden de waarderingsregels aangepast aan de discontinuïteit, behoudens gemotiveerde uitzondering. **ITAA-norm ontbinding-vereffening**, §II.2 *Staat van activa en passiva opgesteld in continuïteit* (par. 32 — beoordeling van de motivatie + continuïteitstoets). **CBN-advies 2022/04** §waarderingsregels. 📖",
+          "wetsref": "art. 3:6, § 2 KB/WVV; ITAA-norm ontbinding-vereffening §II.2",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

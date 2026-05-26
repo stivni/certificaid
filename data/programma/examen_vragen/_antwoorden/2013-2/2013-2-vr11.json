@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr11",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een **onthoudende verklaring** (oordeelonthouding / *disclaimer of opinion*) wordt afgegeven wanneer de auditor **niet in staat is voldoende en geschikte controle-informatie te verkrijgen** om zijn oordeel op te baseren, EN hij concludeert dat de mogelijke gevolgen van eventueel niet-gedetecteerde afwijkingen voor de financiële overzichten zowel **van materieel belang** als **van diepgaande invloed** (*pervasive*) kunnen zijn. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-705-herzien.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Twee dimensies** bepalen de keuze van het aangepaste oordeel (ISA 705 par. 7-10): 🔗\n\n| Aard van het probleem | Materieel maar niet diepgaand | Materieel én diepgaand (*pervasive*) |\n|---|---|---|\n| **Afwijking** van materieel belang in de jaarrekening | Oordeel met voorbehoud | Afkeurend oordeel |\n| **Reikwijdtebeperking** (onvoldoende geschikte controle-informatie) | Oordeel met voorbehoud | **Onthoudende verklaring** |\n\nDe onthoudende verklaring zit dus uitsluitend in de rechter-onderkolom: het probleem is een **scope-beperking** (geen afwijking) waarvan het effect zo doordringend is dat de auditor onmogelijk een onderbouwd oordeel kan vormen. 🔗\n\n**Concrete trigger-situaties** (ISA 705 par. A8-A12, niet-limitatief): 🔗\n\n- Omstandigheden **buiten de wil van de entiteit**: boekhoudkundige bescheiden zijn vernietigd (brand, cyberincident), of in beslag genomen door overheidsinstanties voor onbepaalde duur.\n- Omstandigheden **eigen aan aard of timing van het werk**: de auditor kon de voorraadopname op balansdatum niet bijwonen en kan langs alternatieve weg de eindvoorraad niet bevestigen; deelneming bij een equity-methode-investee waarover onvoldoende informatie beschikbaar is.\n- **Door het management opgelegde beperkingen** (par. 13-14): management weigert toegang tot personen, vestigingen, dochters of bescheiden — als deze beperking diepgaand effect kan hebben en niet via alternatieve werkzaamheden te overbruggen is, leidt dit normaliter tot terugtrekking of, bij onmogelijkheid daarvan, een oordeelonthouding.\n- **Uitzonderlijk: meerdere onzekerheden** (ISA 705 par. 10) — zelfs wanneer voor elke afzonderlijke onzekerheid voldoende controle-informatie verkregen werd, kan de auditor in zeer zeldzame omstandigheden tot oordeelonthouding besluiten als het **cumulatieve effect** van meerdere onzekerheden samen het vormen van een oordeel onmogelijk maakt. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-705-herzien.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Onthoudende verklaring ≠ afkeurend oordeel.** Beide zijn *pervasive*-oordelen, maar de bron van het probleem is tegengesteld: 🔗\n\n- **Onthouding**: auditor wéét niet (te weinig informatie → kan geen oordeel vormen). Gebruik bij **reikwijdtebeperking**.\n- **Afkeurend**: auditor wéét wél, en wat hij ziet is fundamenteel fout (de jaarrekening geeft géén getrouw beeld). Gebruik bij **materiële afwijking** met diepgaand effect.\n\nEen tweede valkuil: **continuïteits-onzekerheid** leidt op zichzelf NIET tot een oordeelonthouding. Als de continuïteitsveronderstelling passend is en de toelichting adequaat, volstaat een goedkeurend oordeel met een aparte sectie \"Onzekerheid van materieel belang omtrent de continuïteit\" (ISA 570). Een onthouding kan wel uitzonderlijk volgen wanneer de onzekerheid combineert met andere scope-beperkingen (ISA 705 par. 10). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-705-herzien.md",
+            "resources/bronnen/normen/ISA-570-herzien.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**ISA 705 (herzien) par. 9-10** — *Aanpassingen van het oordeel in de controleverklaring*: de auditor formuleert een oordeelonthouding wanneer hij geen voldoende en geschikte controle-informatie kan verkrijgen en de mogelijke effecten op de financiële overzichten zowel van materieel belang als van diepgaande invloed kunnen zijn (par. 9); en uitzonderlijk wanneer het cumulatieve effect van meerdere onzekerheden samen het vormen van een oordeel onmogelijk maakt (par. 10). **ITAA KMO-controlenorm §121** bevestigt deze regel voor de niet-wettelijke contractuele controleopdracht. Rapportage-vereisten in ISA 705 par. 19-20 (geen oordeel, sectie \"Onderbouwing van onze oordeelonthouding\", aangepaste verantwoordelijkheids-paragrafen). 📖",
+          "wetsref": "ISA 705 (herzien) par. 9-10, 19-20; ITAA KMO-controlenorm §121",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-705-herzien.md",
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

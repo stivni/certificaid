@@ -1,0 +1,47 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr11",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een budget voor de interne controleafdeling is het sturings- en onafhankelijkheidsinstrument van de functie: het verankert vooraf de **middelen** (mensen, dagen, opleiding, tooling) die nodig zijn om het risicogebaseerd auditplan te realiseren, het maakt de functie **planbaar en afrekenbaar** ten aanzien van het auditcomite/bestuur, en het beschermt haar **operationele onafhankelijkheid** doordat resources niet ad hoc door het uitvoerend management kunnen worden teruggeschroefd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-610-herzien.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Vier functies van het budget**:\n\n- **Resource-allocatie en planning** — Vertaalt het jaarlijks risicogebaseerd auditplan in concrete mens-dagen, externe expertise (IT-audit, fiscaal, actuarieel) en opleidingsuren; zonder budget blijft het auditplan een wens. 🔗\n- **Waarborg van onafhankelijkheid en reikwijdte** — Een vooraf door het auditcomite/bestuur goedgekeurd budget voorkomt dat het uitvoerend management de scope feitelijk inperkt door middelen te onthouden; dit sluit aan bij het ISA 610-vereiste dat de interne auditfunctie geen beperkingen krijgt opgelegd. 📖\n- **Verantwoording en performance-meting** — Realisatie versus budget (bestede uren per opdracht, dekkingsgraad van het auditplan, kost per audit) maakt de functie meetbaar en stuurbaar door de leidinggevende interne auditor en het auditcomite. 🔗\n- **Prioritering en risico-afstemming** — Een beperkt budget dwingt expliciete keuzes op basis van risico-inschatting (welke entiteiten/processen wel of niet in scope dit jaar) en maakt restrisico zichtbaar voor governance — geen impliciete blinde vlekken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-610-herzien.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De interne controleafdeling (interne auditfunctie) is **geen wettelijk verplicht orgaan** in de Belgische vennootschap — behalve voor genoteerde, krediet- en verzekeringsinstellingen (sectorale regelgeving). Waar ze bestaat, hoort ze functioneel te rapporteren aan het auditcomite of de raad van bestuur, niet aan het uitvoerend management. Het budget volgt diezelfde governance-lijn: goedkeuring door auditcomite, niet door de CFO alleen — anders ondergraaft het de onafhankelijkheid. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Het belang van toereikende middelen voor de interne auditfunctie is geen Belgische wettekst-bepaling maar volgt uit de auditing-doctrine: **ISA 610 (herzien)** vereist dat de externe auditor evalueert of de interne auditfunctie beschikt over voldoende middelen en niet aan beperkingen onderhevig is om haar werkzaamheden uit te voeren — een werkbaar budget is daarvan de operationele uitdrukking. Onderliggend referentiekader: **IIA International Professional Practices Framework** (Standards 2020 *Planning* en 2030 *Resource Management*: de chief audit executive moet de toereikendheid van middelen aan bestuur en management rapporteren). 🔗",
+          "wetsref": "ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors; IIA IPPF Standards 2020/2030",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-610-herzien.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

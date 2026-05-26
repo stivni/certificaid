@@ -1,0 +1,220 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr12",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Preventief**. Functiescheiding voorkomt dat één persoon een onregelmatigheid kan plegen én verhullen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "ISA 315 (Bijlage 3) omschrijft functiescheiding expliciet als een **preventieve** maatregel: \"bedoeld om beperkingen aan te brengen in de mogelijkheden voor wie dan ook om bij de uitoefening van zijn normale taken fouten te maken en te verhullen of fraude te plegen en te verhullen\". 📖 Voorkomen, niet detecteren of corrigeren.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 315 (herzien 2019), Bijlage 3 — functiescheiding als preventieve beheersingsmaatregel binnen het systeem van interne beheersing. 📖",
+          "wetsref": "ISA 315 (herzien 2019), Bijlage 3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Repressief** (detecterend). Een periodieke inventarisatie stelt verschillen tussen werkelijke en geboekte voorraad/kas *achteraf* vast. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Repressieve = detecterende maatregel: opspeuren van fouten of onregelmatigheden *nadat* ze gebeurd zijn. Een telling van fysieke voorraad of kassaldo vergelijkt de werkelijkheid met de boekhouding — dat is per definitie detecterend, niet preventief. 🤖 De correctieboeking die erop volgt is wel corrigerend, maar de inventarisatie zelf is repressief.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klassieke driedeling in interne-controle-doctrine (preventief / repressief-detecterend / corrigerend). ISA 315 (herzien 2019), Bijlage 3 hanteert de termen preventief en detecterend als de twee primaire categorieën van interne beheersingsmaatregelen. 🔗",
+          "wetsref": "ISA 315 (herzien 2019), Bijlage 3",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Repressief** (detecterend). Een confirmatie verifieert *achteraf* een bestaand saldo of een bestaande transactie bij een derde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Tussentijdse confirmaties (bv. saldobevestiging van klanten, leveranciers of banken) bevestigen de juistheid van reeds geboekte posities. Ze voorkomen niets; ze detecteren afwijkingen tussen wat geboekt staat en wat de derde rapporteert. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Confirmaties zijn een klassieke detecterende werkwijze (vgl. ISA 505 *Externe confirmaties* — toetsing van bestaan en juistheid). De interne-controle-classificatie van die werkwijze is bijgevolg repressief/detecterend. 🔗",
+          "wetsref": "ISA 505 (externe confirmaties) — classificatie repressief",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Preventief**. ICT-beveiligingen (toegangsrechten, wachtwoorden, autorisatieprofielen, firewalls) verhinderen ongeautoriseerde acties *vooraf*. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Logische toegangsbeperkingen en rolgebaseerde autorisaties (RBAC) zijn typische *access controls*: ze sluiten een transactie of mutatie uit vóór ze gebeurt. ISA 315 noemt geautomatiseerde toegangsbeheersingen als preventieve maatregelen binnen het informatiesysteem. 🔗 Log-review of intrusion-detection zou repressief zijn — die werd hier niet bedoeld.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 315 (herzien 2019), Bijlage 3 — geautomatiseerde beheersingsmaatregelen (toegangscontrole, applicatiecontroles) zijn primair preventief van aard. 🔗",
+          "wetsref": "ISA 315 (herzien 2019), Bijlage 3",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Preventief**. Het reglement van handtekeningsbevoegdheid bepaalt *vooraf* wie welke transactie mag autoriseren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Autorisatie is een tekstboek-preventieve maatregel: de transactie wordt enkel verwerkt wanneer een bevoegde handtekening aanwezig is. Zonder die handtekening vindt de uitgave/het contract niet plaats. 🔗 ISA 315 schaart \"autorisaties en goedkeuringen\" expliciet onder preventieve maatregelen.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 315 (herzien 2019), Bijlage 3 — autorisaties en handtekeningsbevoegdheden behoren tot de preventieve beheersingsactiviteiten. 🔗",
+          "wetsref": "ISA 315 (herzien 2019), Bijlage 3",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Repressief** (detecterend). Cijferbeoordeling — toetsen van brutomarges en toegekende kortingen — detecteert afwijkingen *achteraf* in geboekte cijfers. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Analytische review (ratio's, margevergelijking, trendanalyse) wordt uitgevoerd op reeds geregistreerde transacties om onverwachte afwijkingen op te sporen — bv. ongebruikelijk lage brutomarge die op niet-geboekte verkopen of te hoge kortingen kan wijzen. Dat is per definitie een detecterende = repressieve controle. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Analytische procedures worden door de externe auditor gebruikt als *substantive analytical procedures* (ISA 520). Maar als interne-beheersingsmaatregel binnen de organisatie zélf zijn ze repressief: ze detecteren, ze voorkomen niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klassieke interne-controle-doctrine; vgl. ISA 315 (herzien 2019), Bijlage 3 over detecterende monitoringactiviteiten en cijferanalyse. 🔗",
+          "wetsref": "ISA 315 (herzien 2019), Bijlage 3; ISA 520",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Preventief**. Een solvabiliteitsonderzoek *vóór* klantenacceptatie voorkomt dat verkopen op krediet worden afgesloten met een wanbetaler. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De maatregel grijpt in vóór de transactie: het krediet wordt geweigerd of beperkt op basis van een credit-check (bv. Graydon-rapport, balansanalyse, betalingsgedrag). Het voorkomt het ontstaan van een dubieuze vordering, in plaats van die achteraf te detecteren of te corrigeren. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klantenacceptatie-procedure als preventieve interne beheersing binnen de verkoopcyclus; vgl. ISA 315 (herzien 2019), Bijlage 3 over autorisatie- en acceptatiecontroles. 🔗",
+          "wetsref": "ISA 315 (herzien 2019), Bijlage 3",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

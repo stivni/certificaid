@@ -1,0 +1,63 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr13",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Rode draad: de boekhouder combineert in zijn eentje **registratie van vorderingen/schulden**, **behandeling van ontvangsten/cheques** en **autorisatie van creditnota's en onkostennota's** — een gebrek aan **functiescheiding** (ISA 315 Bijlage 3) dat **asset misappropriation** mogelijk maakt en verhult. Voor elke vaststelling geldt eenzelfde mitigatie-logica: scheiden van de drie onverenigbare functies (autoriseren · registreren · bewaren), dual control op uitgaande geldstromen, en onafhankelijke afstemmingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md",
+            "resources/bronnen/normen/ISA-240.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": "Vijf vaststellingen — probleem en maatregelen",
+          "tekst": "| # | Vaststelling | Probleem (controle-zwakte) | Maatregelen |\n|---|---|---|---|\n| 1 | **Lapping van klantbetalingen via cheque** (~€80.000): cheques van klant A geboekt op saldo van klant B, waardoor de boekhouder zichzelf doorlopend voorschot bezorgt. | Geen **functiescheiding tussen ontvangst van waarden (cheques) en boeking van klantenrekeningen**; geen onafhankelijke matching ontvangst ↔ vordering; geen periodieke saldobevestiging bij klanten. 🔗 | (a) Cheques laten openen/registreren door iemand anders dan de boekhouder (bv. directie-secretariaat) — onmiddellijke pre-list opstellen. (b) Cheques laten **kruisen** ("niet-overdraagbaar") en uitsluitend op bedrijfsrekening laten incasseren. (c) Migreren naar **bankoverschrijvingen / domiciliëringen** in plaats van cheques. (d) **Saldobevestigingen** ten minste jaarlijks door externe partij (accountant). (e) Periodieke **ouderdomsbalans klanten** door iemand anders dan de boekhouder. 🔗 |\n| 2 | **Verdwenen oude leveranciersschulden** (€200.000) doorgestort naar eigen rekening. | Boekhouder kan zelf **leveranciersrekeningen muteren én betalingen uitvoeren** — geen four-eyes op uitgaande betalingen, geen bewaking van afgeboekte schulden, geen check leverancier-IBAN. 🔗 | (a) **Dual signature / four-eyes** voor alle uitgaande betalingen boven een drempel (bedrijfsleider co-tekent). (b) **Beveiligde leveranciers-masterfile**: aanmaken/wijzigen IBAN enkel door iemand anders dan wie betalingen voorbereidt; logging van wijzigingen. (c) Periodieke **leveranciers-confirmaties** en analyse van **afgeboekte/oude saldi** door externe controle. (d) Bankrekening-uittreksels rechtstreeks aan de bedrijfsleider (niet via boekhouder). 🔗 |\n| 3 | **Fictieve creditnota's** voor kleine bedragen aan klanten, uitbetaald op rekening van de boekhouder. | Boekhouder kan in zijn eentje creditnota's **opstellen, boeken én laten uitbetalen** — geen autorisatie-drempel, geen check IBAN-begunstigde ↔ klanten-masterfile. 🔗 | (a) **Verplichte autorisatie** van elke creditnota door commercieel verantwoordelijke of bedrijfsleider; bewijs van onderliggende reden (retour, prijscorrectie). (b) **Periodieke analyse** van creditnota-volume per klant / per opsteller (kleine, frequente creditnota's = red flag — ISA 240 Bijlage 1). (c) Terugbetaling enkel op het **oorspronkelijke IBAN van de klant**, automatisch gecontroleerd. (d) Statistische **analytische review**: ratio creditnota's / omzet, evolutie per periode. 🔗 |\n| 4 | **Aangepaste onkostennota's** van collega's (cijfer toegevoegd) — verschil naar eigen rekening. | Onkostennota's worden **eenzijdig door boekhouder bewerkt en uitbetaald** — geen tegentekening door indiener, geen onafhankelijke goedkeuring, betaling kan naar een ander IBAN dan dat van de werknemer. 🔗 | (a) Werknemer **ondertekent eindbedrag** van eigen onkostennota; kopie blijft bij werknemer. (b) **Goedkeuring door direct leidinggevende** vóór betaling. (c) Betaling **enkel op het persoonlijke loon-IBAN** van de werknemer (gekoppeld aan HR-masterfile, niet wijzigbaar door boekhouding). (d) Periodieke **steekproef** door bedrijfsleider: onkostennota ↔ uitbetaald bedrag ↔ begunstigde-IBAN. 🔗 |\n| 5 | **Dubbele klantbetaling** (€27.000) doorgestort naar eigen rekening; geen spoor in boekhouding. | Boekhouder kan **inkomende overschotten omleiden** zonder dat dit detecteerbaar is — geen onafhankelijke bankreconciliatie, geen controle op niet-toegewezen ontvangsten ("suspense"-rekening). 🔗 | (a) **Bankreconciliatie maandelijks door iemand anders** dan wie boekingen doet (bedrijfsleider, externe accountant, of collega). (b) **Verplichte suspense-rekening** voor niet-identificeerbare ontvangsten — saldo moet periodiek door derde worden opgehelderd. (c) **Saldobevestigingen** bij klanten met openstaand saldo én bij klanten met saldo nul (om verzwegen overbetalingen te detecteren). (d) **Beveiliging IBAN-bestand** begunstigden — IBAN van de boekhouder mag nooit op een klanten- of leveranciers-masterfile staan. 🔗 |\n",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md",
+            "resources/bronnen/normen/ISA-240.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De vijf vaststellingen zijn schoolvoorbeelden van **\"asset misappropriation\"** in de ACFE-typologie (oneigenlijke toe-eigening van activa) — de meest voorkomende, doch financieel doorgaans minst materiële fraudecategorie. De gemene deler is dat **één persoon de drie onverenigbare functies cumuleert**: autoriseren (creditnota's, onkostennota's, betalingen), registreren (boekhouding) en bewaren van waarden (cheques, banktoegang). ISA 315 Bijlage 3 noemt dit expliciet als de kernreden voor functiescheiding: \"beperkingen aanbrengen in de mogelijkheden voor wie dan ook om bij de uitoefening van zijn normale taken (...) fraude te plegen en te verhullen\". 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Bij **kleine ondernemingen** (zoals NV SLA-BAK) is volledige functiescheiding vaak niet kosten-effectief — ISA 315 Bijlage 3 erkent dit uitdrukkelijk. Het antwoord moet dus realistisch zijn: waar scheiding niet haalbaar is, moet het **management compenserende detective controls** inrichten (bedrijfsleider tekent zelf bankuittreksels af, externe accountant doet periodieke saldobevestigingen, vier-ogen op uitgaande betalingen). De zwakte hier is niet dat de boekhouder veel taken combineerde — wél dat **geen enkele compenserende controle** door de bedrijfsleider werd uitgeoefend. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**ISA 315 (herzien 2019), Bijlage 3** — Functiescheiding scheidt drie verantwoordelijkheden: **autoriseren van transacties · vastleggen van transacties · bewaren van activa**, en is bedoeld om fouten en fraude te beperken én te helpen detecteren. Bij kleine entiteiten waar scheiding niet haalbaar is, moet het management **alternatieve (detective) interne beheersingsmaatregelen** instellen. 📖\n\n**ISA 240** — De auditor handhaaft een **professioneel-kritische instelling** ten aanzien van frauderisico's; Bijlage 2 geeft voorbeelden van controlewerkzaamheden voor risico op **oneigenlijke toe-eigening van activa** (klantbevestigingen, onaangekondigde kasopnames, analyse van creditnota's en niet-routinetransacties). 📖\n\n**CBN-advies 4/4** — Creditnota's volgen het beginsel van het dubbel boekhouden en moeten dezelfde boekingswijze hebben in dagboek én rekeningen; afwijkingen verhullen mutaties en breken de auditspoor — relevant voor vaststelling 3. 📖",
+          "wetsref": "ISA 315 Bijlage 3 · ISA 240 · CBN-advies 4/4",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md",
+            "resources/bronnen/normen/ISA-240.md",
+            "resources/bronnen/adviezen/CBN-0004-04-beginsel-van-het-dubbel-boekhouden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

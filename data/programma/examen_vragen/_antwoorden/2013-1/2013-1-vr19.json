@@ -1,0 +1,83 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr19",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De **beroepsbeoefenaar** (commissaris, bedrijfsrevisor of gecertificeerd accountant) ondertekent de opdrachtbrief en richt die aan het **bestuursorgaan** van de om te zetten vennootschap, dat de brief voor akkoord medeondertekent. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De ITAA-norm omzetting vennootschap (par. 19, II.3) bepaalt dat de beroepsbeoefenaar vóór de aanvang van zijn opdracht een opdrachtbrief van het bestuursorgaan moet verkrijgen. De voorbeeldbrief in Bijlage 1 is geadresseerd aan het bestuursorgaan en uitgaande van de beroepsbeoefenaar; ze wordt door beide partijen ondertekend (de beroepsbeoefenaar als opsteller, het bestuursorgaan voor akkoord met de voorwaarden). 📖 Voor accountants bevestigt art. 18 KB plichtenleer 1998 bovendien dat verklaringen en verslagen ondertekend worden door de externe accountant als natuurlijke persoon, in eigen naam en in voorkomend geval als vertegenwoordiger van zijn vennootschap. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar de opdrachtbrief niet met het **omzettingsverslag** zelf: dat verslag wordt enkel door de beroepsbeoefenaar ondertekend en gericht aan de algemene vergadering. De opdrachtbrief daarentegen is een **wederzijds contract** tussen beroepsbeoefenaar en bestuursorgaan en draagt dus twee handtekeningen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting van een vennootschap, par. 19 (II.3 Opdrachtbrief) + Bijlage 1 (voorbeeld opdrachtbrief, gericht aan bestuursorgaan). Voor accountants: art. 18 KB van 1 maart 1998 (plichtenleer) — ondertekening door externe accountant als natuurlijke persoon. 📖",
+          "wetsref": "ITAA-norm omzetting vennootschap, par. 19 + Bijlage 1; art. 18 KB 1 maart 1998",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md",
+            "resources/bronnen/wetteksten/KB-1998-plichtenleer.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Drie elementen die minimaal in de opdrachtbrief moeten voorkomen (ITAA-norm omzetting, par. 19):\n\n1. **Identificatie van de beroepsbeoefenaar en zijn hoedanigheid** — commissaris, bedrijfsrevisor of gecertificeerd accountant. 📖\n2. **Beschrijving van de opdracht** — doelstelling en reikwijdte, opstelling van een schriftelijk verslag over de staat van activa en passiva (al dan niet overgewaardeerd nettoactief), verwijzing naar art. 14:4 of 14:21 WVV en naar de toepasselijke norm. 📖\n3. **Verantwoordelijkheden van beide partijen** — die van de beroepsbeoefenaar (nazicht omzettingsvoorstel, verslag over de staat van activa en passiva, oordeel over overwaardering nettoactief) én die van het bestuursorgaan (opstelling van de staat van activa en passiva, ter beschikking stellen van informatie). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De norm voorziet nog bijkomende minimumelementen die ook valabel zijn als alternatief antwoord: de **vergoeding** (ereloon en kosten), de **planning en timing** van de werkzaamheden, een verwijzing naar het feit dat het verslag uitsluitend wordt opgesteld in het kader van art. 14:4 of 14:21 WVV met **beperkte verspreiding**, en voor grensoverschrijdende omzettingen een verklaring over de geldelijke vergoeding. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA-norm omzetting van een vennootschap, par. 19 (II.3 Opdrachtbrief) — limitatieve opsomming van minimuminhoud die de beroepsbeoefenaar voorafgaand aan de opdracht van het bestuursorgaan moet verkrijgen; Bijlage 1 geeft een voorbeeldbrief die deze elementen uitwerkt. 📖",
+          "wetsref": "ITAA-norm omzetting vennootschap, par. 19 + Bijlage 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

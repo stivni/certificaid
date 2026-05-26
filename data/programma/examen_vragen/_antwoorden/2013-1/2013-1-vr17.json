@@ -1,0 +1,133 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr17",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment `pagina_03.png` toont een andere vraag (Vraag 2 over leverancierschuld en kapitaal — niet vr17). De auto-isolatie heeft de verkeerde pagina gegrepen. De vraag-tekst en de balans in `tekst.txt` zijn intern consistent met de interpretatie, dus inhoudelijk geen blokkering — maar PNG-verificatie van de tabel-cijfers was niet mogelijk. Confidence op tabel-overname blijft `afgeleid`.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Drie correcties op de staat in het kader van de ontbinding:\n\n1. **Waardering machines A** — de herwaarderingsmeerwaarde van € 400.000 (op basis van DCF/nutswaarde € 600.000) is een going-concern-waardering en niet aanvaardbaar in de discontinuïteitsoptiek van een ontbindingsstaat (KB WVV art. 3:6 § 2). De machines moeten naar **realisatiewaarde**: bod leverancier € 450.000 minus de noodzakelijke revisie € 10.000 = **€ 440.000**. De herwaarderingsmeerwaarde van € 400.000 wordt geheel teruggenomen en de boekwaarde naar boven aangepast tot € 440.000. 🔗\n2. **Voorzieningen voor sluitings- en vereffeningskosten** ontbreken volledig — bij overgang naar discontinuïteit moeten notariële kosten, kosten van de bedrijfsrevisor/accountant, vereffenaarsvergoedingen, opzegvergoedingen personeel en latente belastingen op gerealiseerde meerwaarden als **voorziening voor risico's en kosten** worden opgenomen (KB WVV art. 3:6 § 2). 🔗\n3. **Herklassering van langlopende schulden** — bij discontinuïteit worden alle schulden opeisbaar. De *Schulden > 1 jaar* van € 250.000 moeten worden geherklasseerd naar *Schulden < 1 jaar* (KB WVV art. 3:6 § 2). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md",
+            "resources/bronnen/adviezen/CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De staat blijft *altijd* in evenwicht ondanks de correcties: het verschil loopt via de **resultatenrekening** (terugname herwaarderingsmeerwaarde, opname voorziening, eventuele waardevermindering). Cijfermatig in deze casus: machines op realisatiewaarde € 440.000 ⇒ totaal actief van € 720.000 zakt naar € 560.000 (terugname HW € 400.000 + opwaartse aanpassing oude boekwaarde € 200.000 → € 440.000). Dit moet aan passiefzijde via een aangepast resultaat van de periode en het verdwijnen van de rubriek **herwaarderingsmeerwaarde** op passief (€ 400.000). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De zaakvoerders kunnen schriftelijk en met motivering kiezen om de staat **in continuïteit** op te stellen (uitzondering op KB WVV art. 3:6 § 2 — zie CBN 2018/18 en 2022/04). Dat is hier echter onhoudbaar: na het ontbindingsbesluit *stopt* HOLDING RICH per definitie haar bedrijfsactiviteit, en de DCF-waardering veronderstelt net die voortgezette exploitatie. Going-concern-redenering bij een ontbindingsstaat is dus inhoudelijk inconsistent — de accountant moet de afwijking weigeren of een voorbehoud formuleren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:71 § 2 WVV (staat ≤ 3 maanden vóór AV, opgesteld volgens KB WVV) + KB WVV art. 3:6 § 2 (waarderingsregels in **discontinuïteit** bij stopzetting, behoudens gemotiveerde afwijking) + CBN-advies 2018/18 (going-concern bij stopzetting) + CBN-advies 2024/03 (niet-uitgedrukte meerwaarden bij ontbinding) + CBN-advies 2022/04 (verslaggeving bij ontbinding en vereffening BV/NV). 📖",
+          "wetsref": "art. 2:71 § 2 WVV; KB WVV art. 3:6 § 2; CBN-advies 2018/18, 2022/04, 2024/03",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2018-18-going-concern-waarderingsregels-bij-de-stopzetting-of-gedeeltelijke-stopzetting-van-het.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+            "resources/bronnen/adviezen/CBN-2024-03-gevolgen-van-niet-uitgedrukte-meerwaarden-bij-de-ontbinding.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een **opdracht met beperkte mate van zekerheid** (*limited assurance*): de gecertificeerd accountant beoordeelt of het **nettoactief** in de staat van activa en passiva in alle van materieel belang zijnde opzichten **niet overgewaardeerd** is. Geen volledige controleopdracht (audit) met redelijke zekerheid. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wettelijk voorbehouden opdracht (art. 2:71 § 2, derde lid WVV) draagt de accountant op een verslag op te maken bij de staat van activa en passiva. De **ITAA-norm inzake opdrachten in het kader van ontbinding en vereffening** preciseert dat het gaat om een opdracht met *beperkte zekerheid* — analoog aan een ISRE-2400-beoordelingsopdracht, niet een ISA-audit. De conclusie luidt typisch: *\"niets is onder onze aandacht gekomen waaruit zou blijken dat het nettoactief van materieel belang is overgewaardeerd\"* (negatieve formulering, eigen aan limited assurance). 🔗\n\nDe opdracht omvat o.a.:\n- nagaan of de waarderingsregels (discontinuïteit, art. 3:6 § 2 KB WVV) correct werden toegepast;\n- inlichtingen inwinnen bij het bestuursorgaan;\n- analytische procedures + beperkte detailtests op materiële posten;\n- in geval van ontbinding-en-sluiting-in-één-akte (art. 2:80 WVV): aanvullend bevestigen dat schulden zijn betaald of geconsigneerd.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:71 § 2, derde lid WVV (verslag commissaris / bedrijfsrevisor / GA bij voorstel ontbinding) + ITAA-norm *Opdrachten in het kader van de (vrijwillige) ontbinding en vereffening van vennootschappen* — bijlage 3 modelverslag bevestigt het karakter van *beperkte zekerheid*. 📖",
+          "wetsref": "art. 2:71 § 2 WVV; ITAA-norm ontbinding-vereffening",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — een ontbinding in één akte (art. 2:80 WVV, voorwaarden uit het oude art. 2:91 / huidig art. 2:80 § 1 WVV) is hier **niet mogelijk**. De vennootschap heeft openstaande schulden van € 330.000 (€ 250.000 LT + € 80.000 KT) en slechts € 20.000 bank. De voorwaarde dat *alle schulden t.a.v. derden zijn terugbetaald of de nodige gelden geconsigneerd* is dus niet vervuld. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Cumulatieve voorwaarden voor ontbinding-en-sluiting-in-één-akte (art. 2:80 WVV):\n\n1. **Geen vereffenaar aangeduid.** 📖\n2. **Alle schulden t.a.v. derden zijn terugbetaald of de nodige gelden zijn geconsigneerd**; de commissaris/bedrijfsrevisor/GA bevestigt dit in de conclusies van zijn verslag. Schulden t.a.v. aandeelhouders die schriftelijk afstand doen of waarvan de schuldvordering in de staat wordt opgenomen, zijn vrijgesteld van die betaling/consignatie. 📖\n3. **Alle vennoten/aandeelhouders zijn aanwezig of vertegenwoordigd** op de AV en beslissen **eenparig** tot sluiting. 📖\n4. Het resterende actief wordt overgenomen door de vennoten/aandeelhouders zelf. 🔗\n\n**Toepassing op HOLDING RICH**: de derdenschulden (€ 80.000 KT — zonder verdere precisering — en € 250.000 LT) overstijgen ruimschoots de liquide middelen (€ 20.000). Tenzij zaakvoerders/aandeelhouders eerst extra fondsen inbrengen om de schulden te voldoen of te consigneren, **kan de procedure-in-één-akte niet doorgaan** en is een klassieke vereffening met aanstelling van een vereffenaar vereist (art. 2:79 WVV e.v.). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2022-06-verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De procedure-in-één-akte is bedoeld voor *eenvoudige afsluitingen waar niets te vereffenen valt* of waar de vereffening van actiefbestanddelen niet nodig is om alle verplichtingen te voldoen (CBN-advies 2022/06). HOLDING RICH past hier duidelijk niet: het actief moet eerst worden gerealiseerd (machines verkocht aan leverancier, handelsvorderingen geïnd) om de derdenschulden te kunnen voldoen — typisch werk voor een aangestelde vereffenaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-06-verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:80 WVV (ontbinding en sluiting van de vereffening in één akte — cumulatieve voorwaarden, m.n. terugbetaling/consignatie van schulden bevestigd door commissaris/bedrijfsrevisor/GA, eenparig besluit van alle aandeelhouders, geen vereffenaar aangeduid) + CBN-advies 2022/06 (verslaggeving bij onmiddellijke sluiting vereffening vennootschap). 📖",
+          "wetsref": "art. 2:80 WVV (voorheen art. 2:91 WVV-ontwerp); CBN-advies 2022/06",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2022-06-verslaggeving-bij-onmiddellijke-sluiting-van-de-vereffening-van-een-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

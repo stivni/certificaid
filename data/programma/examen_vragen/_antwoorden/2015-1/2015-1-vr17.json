@@ -1,0 +1,93 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr17",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_png_notitie": "PNG pagina_02.png in _segmenten/ toont in dit geval vraag 2 en 3 van de boekhouding-sectie (werkloosheid-bedrijfstoeslag + handelsdebiteuren); de eigenlijke vraag 17 (accountantsonderzoek, schema controledoelstelling/techniek voor debet lopende rekening) staat op een ander PDF-segment. tekst.txt bevestigt het schema-formaat (2 doelstellingen + 2 technieken in te vullen) en de casus uit de interpretatie. Geen tekst/PNG-conflict op het inhoudelijk relevante deel.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Twee controledoelstellingen voor een debet lopende rekening op naam van de overleden vader: **(1) Bestaan en rechten** — gaat de vordering werkelijk over een opeisbare schuld van een geïdentificeerde debiteur, of is ze fictief / zonder titel? **(2) Waardering (inbaarheid)** — wordt het saldo in de staat van activa en passiva niet overgewaardeerd, gezien het overlijden van de debiteur en het risico op niet-inning uit de nalatenschap? 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij een omzettingsverslag (Boek 14 WVV) moet de accountant beoordelen of het netto-actief niet overgewaardeerd is. Een debet R/C op een overledene is per definitie risicovol op **twee** assertions:\n\n- **Bestaan / rechten** (existence & rights): door het overlijden verdwijnt de oorspronkelijke debiteur; de vraag wordt of de vennootschap juridisch nog een afdwingbare vordering heeft op de nalatenschap of op de erfgenamen (zaakvoerders-aandeelhouders zelf). Zonder bewijsstuk of erkenning kan de vordering economisch fictief zijn. 🔗\n- **Waardering / inbaarheid** (valuation): zelfs als de vordering bestaat, moet ze tegen realiseerbare waarde worden opgenomen. Bij een overledene zonder voldoende nalatenschap of bij erfgenamen die de nalatenschap onder voorrecht van boedelbeschrijving aanvaarden of verwerpen, dringt een waardevermindering zich op (art. 3:46 KB-WVV — onzekerheid over de inning op vervaldag). 🔗\n\nAndere assertions (volledigheid, presentatie) zijn minder kritisch voor dit specifieke actief — de **twee** die uitspringen zijn bestaan/rechten en waardering. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **controledoelstelling** (assertion / bewering die je wilt staven: bestaan, rechten, waardering, volledigheid, presentatie) niet met **controletechniek** (procedure waarmee je dat doet: bevestiging, inspectie, herberekening, externe confirmatie, etc.). Deelvraag a vraagt de doelstellingen; deelvraag b vraagt per doelstelling de techniek — beantwoord ze niet door elkaar. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Bewerings-categorieën (assertions): ISA 315 (herzien) §A190 — bestaan, rechten en verplichtingen, volledigheid, juistheid, afgrenzing, waardering en toerekening, classificatie en presentatie. ISA 500 §A1 — controle-informatie wordt verkregen om uitspraken over deze beweringen te onderbouwen. Voor het concrete kader van het omzettingsverslag: ICCI-norm omzetting + art. 14:3 WVV (oordeel over niet-overwaardering van netto-actief). 📖",
+          "wetsref": "ISA 315 §A190 · ISA 500 §A1 · art. 14:3 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| # | Controledoelstelling | Techniek / methodiek |\n|---|---|---|\n| 1 | **Bestaan en rechten** van de vordering | **Inspectie van onderliggende stukken** + **externe bevestiging**: opvragen van de overeenkomst of erkenning van schuld (leningovereenkomst, R/C-erkenning), inzage in het **nalatenschapsdossier** (notariële akte van bekendheid, aangifte van nalatenschap), en — indien de erfgenamen identificeerbaar zijn (de zaakvoerders-aandeelhouders zelf) — een **schriftelijke bevestiging** van de schuld door hen. Cross-check met de mutaties op de R/C-rekening (oorsprong van het debetsaldo). 🔗 |\n| 2 | **Waardering / inbaarheid** | **Analyse van de inbaarheid** + **berekening waardevermindering**: opvragen van een **vermogensoverzicht van de nalatenschap** (aangifte successierechten), nagaan of erfgenamen de nalatenschap zuiver aanvaarden, onder voorrecht aanvaarden of verwerpen; nagaan of er een terugbetalingsplan is. Indien inning onzeker → waardevermindering (rekening 416 + 6340) berekenen en voorstellen, of het saldo expliciet als oninbaar aanmerken. Eventueel **schriftelijke bevestiging door het bestuursorgaan** dat zij de vordering opeisbaar achten en plan tot inning hebben. 🔗 |\n",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per doelstelling de logica:\n\n- **Bestaan/rechten → inspectie + bevestiging**: de assertion vergt **documentair bewijs** dat de vordering bestaat en juridisch afdwingbaar is. Inspectie van het R/C-grootboek geeft enkel het saldo; je hebt de **titel** (onderliggende overeenkomst) en, bij overlijden, het bewijs van **overgang van de schuld op de nalatenschap of erfgenamen** nodig. Een externe confirmatie bij de erfgenamen is de sterkste vorm van bewijs (ISA 505). 📖\n- **Waardering → analyse inbaarheid**: hier gaat het om **schatting van de realiseerbare waarde**. De accountant beoordeelt of het bedrag van de nalatenschap (na aftrek van bevoorrechte schulden en successierechten) toelaat de vordering effectief te innen. ISA 540 (herzien) eist dat de accountant management-schattingen kritisch evalueert; concreet hier: vraag een onderbouwde inbaarheidsanalyse en bereken zelf het waardeverminderings-bedrag indien nodig (CBN 2011/15-logica: bij onzekerheid op de vervaldag → waardevermindering tot het inbaar geachte bedrag). 🔗\n\nIn het kader van een **omzettingsverslag** is het volstaan met *beperkte mate van zekerheid* (review-niveau): de technieken zijn lichter dan bij een wettelijke controle — vooral **inquiry** bij bestuur, **analytische review** op de R/C-mutaties, en **inspectie** van de belangrijkste onderliggende stukken — maar de twee doelstellingen blijven dezelfde. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md",
+            "resources/bronnen/normen/ISA-540-herzien.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Een **debet R/C op een aandeelhouder/zaakvoerder** (of, zoals hier, op een nauw verbonden persoon zoals de overleden vader) is een **klassiek aandachtspunt** bij omzetting en bij wettelijke controle: het wijst vaak op een verkapte uitkering, een onterechte privé-financiering of een fiscaal probleem (art. 18 WIB 92 — herkwalificatie tot dividend bij ontbreken van marktconforme rente, art. 32 WIB 92 — voordeel van alle aard). De accountant moet niet alleen de balanswaarde verifiëren, maar ook de **fiscale en vennootschapsrechtelijke implicaties** signaleren in zijn verslag. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 *Externe bevestigingen* — confirmation is de meest geschikte techniek voor het staven van bestaan/rechten van vorderingen. ISA 540 (herzien) *Schattingen* — kader voor het beoordelen van management-schattingen zoals waardeverminderingen. CBN-advies 2011/15 — toepassing van art. 3:46 KB-WVV (vroeger art. 67 KB W.Venn.): waardevermindering verplicht zodra onzekerheid bestaat over de inning op vervaldag. Voor de R/C-context: CBN-advies 2017/13 (rekening-courant met bestuurders) — documentaire vereisten en rente-marktconformiteit. 📖",
+          "wetsref": "ISA 505 · ISA 540 (herzien) · CBN 2011/15 · art. 3:46 KB-WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md",
+            "resources/bronnen/normen/ISA-540-herzien.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

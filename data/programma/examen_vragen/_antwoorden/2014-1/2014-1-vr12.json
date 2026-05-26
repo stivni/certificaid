@@ -1,0 +1,104 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr12",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet noodzakelijk** — een lage respons op zich is geen reden voor voorbehoud. De auditor moet eerst **alternatieve controlewerkzaamheden** uitvoeren voor de non-respons. Alleen als die geen voldoende en geschikte controle-informatie opleveren én het effect op de jaarrekening van materieel belang kan zijn, is een voorbehoud (of een oordeelonthouding) nodig op grond van ISA 705. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "ISA 505 §12 verplicht de auditor om bij non-respons op een verzoek om positieve bevestiging **alternatieve controlewerkzaamheden** uit te voeren om de controle-informatie te verkrijgen die de bevestigingen hadden moeten leveren (bv. nazicht subsequent cash receipts, inspectie van verkoopfacturen + verzendingsdocumenten + ondertekende bestelbonnen voor de openstaande posten). 📖 Pas wanneer de auditor oordeelt dat **een bevestiging via een positief verzoek noodzakelijk is om voldoende en geschikte controle-informatie te verkrijgen** en alternatieve werkzaamheden die informatie niet kunnen opleveren, moet hij de mogelijke implicatie voor de controle en voor het oordeel beoordelen — wat tot een voorbehoud of oordeelonthouding kan leiden (ISA 705). 🔗 Een voorbehoud is dus de **uitzondering**, na uitputting van alternatieven.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een te lage respons is op zich géén scope-limitatie. De vraag is steeds: heeft de auditor met de **gecombineerde** controle-informatie (bevestigingen die wél binnenkwamen + alternatieve werkzaamheden) voldoende zekerheid over de bewering — meestal *bestaan* van de vorderingen? Pas als het antwoord nee is en het materieel is, komt voorbehoud in beeld. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 *Externe bevestigingen* §12 (alternatieve werkzaamheden bij non-respons) en §13 (wanneer bevestiging niet kan worden vervangen → beoordeel implicaties voor oordeel onder ISA 705). 📖",
+          "wetsref": "ISA 505 §12-13; ISA 705",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Twee remediërende acties bij onvoldoende respons:\n\n1. **Follow-up versturen** — een herinnering (en desnoods een tweede herinnering) sturen aan de niet-reagerende klanten, eventueel telefonisch nagaan dat het verzoek goed is aangekomen en de bestemmeling identificeren. ISA 505 §7(d) noemt follow-upverzoeken expliciet als onderdeel van het beheersen van de bevestigingsprocedure. 📖\n2. **Alternatieve controlewerkzaamheden** uitvoeren voor de openstaande non-responsen, typisch:\n   - nazicht van **subsequent cash receipts** (betalingen ontvangen na balansdatum die de openstaande post afdekken); 🔗\n   - inspectie van **verkoopfacturen, verzendingsdocumenten en ondertekende bestelbonnen / leveringsbewijzen** om bestaan en juistheid van de vordering te onderbouwen. 🔗\n\nAanvullend mogelijk (niet verplicht als twee voorbeelden gevraagd zijn): de **selectie uitbreiden** of een **negatieve bevestiging** combineren met positieve voor minder risicovolle saldi (ISA 505 §15 stelt strenge voorwaarden voor negatieve bevestigingen alleen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 §7(d) (follow-upverzoeken), §12 (alternatieve werkzaamheden bij non-respons), §15 (voorwaarden negatieve bevestigingen). 📖",
+          "wetsref": "ISA 505 §7, §12, §15",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Werkwijze na selectie van de te bevestigen klanten — kerngedachte: **de auditor blijft op elk moment in controle van de bevestigingsprocedure** (ISA 505 §7); de cliënt mag de keten niet kunnen onderscheppen of beïnvloeden. 📖\n\n- **Opstellen**: de **auditor** ontwerpt het verzoek (vorm, bedrag, peildatum) en bepaalt de inhoud; hij behoudt steeds de controle over wat gevraagd wordt. 🔗\n- **Ondertekening**: de brief wordt **door of namens het management van de gecontroleerde onderneming ondertekend** (de klant moet immers de derde partij vrijgeven om informatie te delen met de auditor), maar het is de auditor die de brief opmaakt en het verzendproces beheerst. 🔗\n- **Adressering van het antwoord**: het verzoek **vermeldt expliciet dat de klant rechtstreeks aan de auditor moet antwoorden** — meestal via een bij de brief gevoegde antwoordenveloppe geadresseerd aan het kantoor van de auditor (niet aan de cliënt). ISA 505 §7(c) vereist dit uitdrukkelijk. 📖\n- **Verzending**: **de auditor zelf verzendt** de (door de klant ondertekende) brieven — niet de cliënt. Zo wordt vermeden dat brieven onderschept, gewijzigd of selectief verstuurd worden. ISA 505 §7(d). 📖\n- **Ontvangst en opvolging**: antwoorden komen rechtstreeks bij de auditor binnen; de auditor verifieert bron en inhoud, doet follow-up bij non-respons en evalueert uitzonderingen (§10-§14). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Een antwoord dat per vergissing bij de cliënt toekomt in plaats van bij de auditor, voldoet niet aan de definitie van een externe bevestiging (geen *rechtstreekse* schriftelijke reactie aan de auditor). De auditor moet de bevestigende partij in dat geval vragen om alsnog rechtstreeks te reageren (ISA 505 §A15). Mondelinge bevestigingen tellen evenmin als externe bevestiging. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 *Externe bevestigingen* §7(a)-(d) (de auditor beheerst opstelling, selectie bevestigende partij, opzet van het verzoek met rechtstreekse adressering aan de auditor, en de verzending inclusief follow-up). Definitie §6(a): rechtstreekse schriftelijke reactie aan de auditor. 📖",
+          "wetsref": "ISA 505 §6(a), §7(a)-(d)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

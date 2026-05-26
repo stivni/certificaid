@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr13",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Vier controletechnieken op de goederen in het magazijn:\n\n1. **Fysieke inspectie en bijwonen van de voorraadopname** — de interne controleur woont de fysieke telling bij, inspecteert de goederen (bestaan, conditie, courant/incourant) en voert eigen **tellingen ter toetsing** uit (twee richtingen: van vloer naar voorraadlijst = volledigheid; van voorraadlijst naar vloer = bestaan). 📖\n2. **Waarneming (observatie)** — gadeslaan of het magazijnpersoneel de telinstructies en procedures voor ontvangst, uitslag en opslag correct uitvoert (toegangscontrole, scanning, gescheiden zones voor goedgekeurde vs. geblokkeerde voorraad). 📖\n3. **Navraag bij magazijn- en logistieke verantwoordelijken**, gecombineerd met **inspectie van documenten** (ontvangstbonnen, uitgaande leveringsbons, magazijnbonnen, voorraadkaarten) en **afgrenzingstest (cut-off)**: laatste ontvangst- en leveringsdocumenten vóór en na de telling worden vergeleken met de voorraadregistratie om periode-juiste boeking te valideren. 🔗\n4. **Aansluiting tussen fysieke telling en permanente voorraadadministratie** — herrekening en vergelijking van de getelde hoeveelheden met de continue voorraadregistratie en met historische cijfers per categorie/locatie; significante verschillen worden onderzocht. Eventueel **externe bevestiging** voor voorraad gehouden bij derden (consignatie, douane-entrepot). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De vraag spreekt van *interne* controleur (interne audit), maar de technieken zijn dezelfde als die de externe commissaris hanteert — ISA 500/501 zijn de canonieke bron. Voor *interne* audit ligt het accent extra op **toetsing van de werking van interne beheersingsmaatregelen** (toegangsbeperking magazijn, functiescheiding ontvangst ↔ telling ↔ administratie), niet enkel op het bestaan van de voorraad zelf. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-330.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 500 *Controle-informatie* §A14-A25: zeven generieke controletechnieken — inspectie, waarneming, externe bevestiging, herberekening, herrekening, navraag, cijferanalyse. ISA 501 *Controle-informatie – specifieke overwegingen* §4: bij materiële voorraad moet de auditor de fysieke voorraadopname bijwonen, de instructies van het management evalueren, de voorraad inspecteren en tellingen ter toetsing uitvoeren. 📖",
+          "wetsref": "ISA 500 §A14-A25; ISA 501 §4-§8",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr8",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "Het bestuursorgaan wil via interne controle een redelijke zekerheid bereiken over vier doelstellingen:\n\n1. **Bescherming van de activa van de onderneming** — vrijwaring van het patrimonium tegen verlies, diefstal, verspilling, fraude of misbruik. 🔗\n2. **Betrouwbaarheid van de financiële (en beheers-)informatie** — juistheid, volledigheid en tijdigheid van interne rapportering en externe jaarrekening. 📖\n3. **Effectiviteit en efficiëntie van de bedrijfsvoering** — operationele doelstellingen worden gehaald met optimaal gebruik van middelen. 📖\n4. **Naleving van de van toepassing zijnde wet- en regelgeving** — externe wetgeving (fiscaal, sociaal, WVV...) én interne richtlijnen/procedures. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "COSO-2013 en het ITAA KMO-controlekader (ISA 315-conform) groeperen deze doelstellingen onder **drie** categorieën — *reporting*, *operations*, *compliance* — waarbij \"bescherming van activa\" wordt beschouwd als onderdeel van *operations*. De klassieke Belgische examen-doctrine (en oudere doctrine zoals B. Theunissen, IBR-cursus interne controle) hanteert nog steeds de vier-deling met activa-bescherming als afzonderlijke pijler, omdat dit historisch het accountantsperspectief op activabeheer benadrukt. Beide indelingen worden in examens aanvaard; de vier-deling is hier expliciet gevraagd. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ITAA KMO-controlenorm — *Bijlage 1 Definities*: \"Interne beheersing: het proces dat is opgezet, wordt geïmplementeerd en gesuperviseerd door het toezichthoudend orgaan, het management, de met governance belaste personen en andere personeelsleden met als doel een redelijke mate van zekerheid te verschaffen dat de doelstellingen [...] met betrekking tot de betrouwbaarheid van de financiële verslaggeving, de effectiviteit en efficiëntie van de uitoefening van de activiteiten alsmede het naleven van de van toepassing zijnde wet- en regelgeving worden bereikt.\" De bescherming-van-activa-pijler vloeit voort uit de oudere COSO-1992 / IBR-doctrine en wordt in Belgische accountancy-handboeken consistent als vierde doelstelling vermeld. 📖",
+          "wetsref": "ITAA KMO-controlenorm, Bijlage 1 (definitie interne beheersing); ISA 315 (herzien-2019), §12(m) en bijlage 3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ITAA-norm-kmo-controlenorm.md",
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

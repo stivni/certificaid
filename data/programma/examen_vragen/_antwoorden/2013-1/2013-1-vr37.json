@@ -1,0 +1,87 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr37",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Vereffening** — *Vertrekpunt*: de datum waarop de externe accountant zijn controleverslag over de staat van activa en passiva (art. 2:71 §2 WVV / oud art. 181 W.Venn.) ondertekent. *Termijn*: een kopie wordt **binnen één maand** na ondertekening overgemaakt aan het ITAA. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De keten:\n\n- Het bestuursorgaan beslist tot vrijwillige ontbinding en stelt een **staat van activa en passiva** op, gedateerd **maximaal drie maanden** voor de buitengewone algemene vergadering die over de ontbinding besluit. 📖\n- De externe accountant (of bedrijfsrevisor / commissaris) **controleert deze staat** en levert een verslag — dit is het door de vennootschapswet opgelegde en openbaar te maken controleverslag bedoeld in de vraag. 📖\n- Bestuursverslag + accountantsverslag + staat van actief/passief worden meegedeeld aan de aandeelhouders **samen met de oproeping** tot de BAV en zijn vijftien dagen vóór de vergadering ter zetel kosteloos verkrijgbaar (art. 5:83 / 7:128 e.v. WVV; oud art. 269 W.Venn.). 🔗\n- Voor de **kopie aan het Instituut** (ITAA, vroeger IAB) geldt de algemene plichtenleer-regel voor openbaar te maken controleverslagen: **binnen één maand** na ondertekening van het verslag toezenden. ❓ Deze termijn staat niet expliciet in de geraadpleegde wettekstbundel of ITAA-norm ontbinding/vereffening — verifieer in de actuele ITAA-deontologie / circulaires.",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De drie-maanden-termijn slaat op de **ouderdom van de staat van actief en passief** (vertrekpunt: datum BAV terugrekenend), niet op de toezending van het verslag aan het Instituut. Verwar deze niet met de termijn voor toezending aan het ITAA, en evenmin met de neerleggingstermijn van de omstandige staat door de vereffenaar (7e en 13e maand na invereffeningstelling — art. 2:86 WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 2:71 §2 WVV (oud art. 181 W.Venn.) — staat van activa en passiva max. 3 maanden oud + controleverslag van commissaris/bedrijfsrevisor/gecertificeerd accountant. ITAA-norm ontbinding-vereffening (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖",
+          "wetsref": "Art. 2:71 §2 WVV (vroeger art. 181 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-ontbinding-vereffening.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Omvorming** — *Vertrekpunt*: de datum waarop de externe accountant zijn controleverslag over de staat van activa en passiva in het kader van de omzetting (art. 14:6 WVV / oud art. 776 W.Venn.) ondertekent. *Termijn*: kopie **binnen één maand** na ondertekening aan het ITAA. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De keten:\n\n- Het bestuursorgaan stelt een **staat van activa en passiva** op, vastgesteld op een datum die **niet meer dan drie maanden teruggaat** vóór de algemene vergadering die zich over de omzetting moet uitspreken. 📖\n- De commissaris, bedrijfsrevisor of gecertificeerd accountant brengt een **verslag uit over deze staat**, waarin hij inzonderheid aangeeft of het nettoactief werd overgewaardeerd (art. 14:3-14:4 WVV; bij omzetting naar VZW: art. 14:32 WVV). 📖\n- Een **kopie van dit verslag** wordt samen met het bestuursverslag en het ontwerp van statutenwijziging aan de aandeelhouders meegedeeld **samen met de oproeping** tot de AV (art. 14:6 WVV / oud art. 778 W.Venn.). 📖\n- Voor de **kopie aan het ITAA**: zelfde algemene plichtenleer-regel als bij vereffening — **binnen één maand** na ondertekening van het verslag. ❓ Termijn niet expliciet in de geraadpleegde bronnen — verifieer in ITAA-deontologie.",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Voor zowel vereffening als omvorming geldt dezelfde structuur: (1) staat max. 3 maanden oud, (2) verslag van accountant/revisor over die staat, (3) meedelen aan aandeelhouders bij oproeping AV, (4) kopie aan ITAA na ondertekening. Het **vertrekpunt** voor de termijn naar het Instituut is in beide gevallen de **datum van het verslag**, niet de datum van de algemene vergadering of van de publicatie. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14:3-14:6 WVV (oud art. 774-778 W.Venn.) — staat max. 3 maanden + controleverslag + mededeling bij oproeping AV. ITAA-norm omzetting-vennootschap (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖",
+          "wetsref": "Art. 14:3, 14:6 WVV (vroeger art. 776, 778 W.Venn.)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WVV.md",
+            "resources/bronnen/normen/ITAA-norm-omzetting-vennootschap.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

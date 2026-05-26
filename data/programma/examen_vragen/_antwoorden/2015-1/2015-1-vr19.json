@@ -1,0 +1,181 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr19",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een selectie is representatief wanneer **elk leverancierssaldo in de populatie een kans heeft om geselecteerd te worden** en de getrokken steekproef toelaat een redelijke conclusie te trekken over de **totaliteit van de leveranciersrekeningen** (niet enkel de grootste saldi). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-530.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Representativiteit veronderstelt drie dingen:\n\n- **Volledige populatie afgebakend** — alle openstaande leveranciersrekeningen per balansdatum (inclusief nulsaldi en debetsaldi — die kunnen wijzen op niet-geboekte facturen of vooruitbetalingen). 🔗\n- **Stratificatie naar risico/omvang** — grote saldi en risicovolle leveranciers worden integraal opgenomen; voor de resterende populatie wordt at random getrokken. Dit voorkomt dat enkel \"grote namen\" worden bevestigd terwijl kleine of nul-saldi (waar de cut-off-risico's vaak zitten) buiten beeld blijven. 🔗\n- **Geen bias door de cliënt** — de auditor (niet de cliënt) bepaalt welke leveranciers worden aangeschreven, anders is de selectie niet meer onafhankelijk en dus niet representatief. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-530.md",
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Bij leveranciers is **niet de geldwaarde maar het volledigheidsrisico** dominant — een leverancier met saldo nul kan een vergeten of weggemoffelde factuur verbergen. Selecteer dus niet uitsluitend op hoogste saldi (zoals bij klanten), maar voeg ook **leveranciers met hoge omzet en laag/nul saldo** toe. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 530 §6-8: bij het opzetten van een steekproef moet de auditor het doel van de werkzaamheden en de kenmerken van de populatie overwegen, en de elementen zo selecteren dat elke steekproefeenheid kan worden gekozen. Bijlage 1 beschrijft stratificatie als techniek om de variabiliteit binnen strata te verkleinen. 📖",
+          "wetsref": "ISA 530 §6-8 + Bijlage 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-530.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De steekproef wordt **door de auditor zelf** opgezet, gebaseerd op de **leverancierssaldilijst per balansdatum**, met een combinatie van **integrale opname van grote/risicovolle saldi** (key items) en een **willekeurige (at random) selectie** uit de resterende populatie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-530.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Praktische stappen:\n\n- **Populatie aftoetsen** — saldilijst leveranciers aansluiten op de balanspost handelsschulden (totaal-controle). 🔗\n- **Stratificeren** — bv. saldi > materialiteit integraal, saldi tussen X en materialiteit gewogen (MUS), kleine saldi at random. 📖\n- **Steekproefomvang bepalen** in functie van uitvoeringsmaterialiteit, ingeschat risico en verwachte foutgraad. 📖\n- **Trekken** — zo dat elke eenheid een kans heeft (random number generator, systematisch, MUS). 📖\n- **Aanvullen met aandachtsposten** — leveranciers met hoge omzet en nul/laag saldo, gediscussieerde saldi, related parties. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-530.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 530 §6-8 + A4-A13 (steekproefopzet, -omvang en -selectie) + Bijlage 1 (stratificatie en selectie op basis van gewogen waarden — MUS). 📖",
+          "wetsref": "ISA 530 §6-8 + A4-A13 + Bijlage 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-530.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De confirmatiebrieven worden **opgesteld op briefpapier van de cliënt en ondertekend door de cliënt** (die zijn leverancier toestemming geeft om informatie vrij te geven), maar **verzonden door de auditor zelf**, met als **retouradres het kantoor van de auditor**. De cliënt mag de brieven niet onder ogen krijgen vóór verzending. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De auditor behoudt **rechtstreekse controle** over het hele bevestigingsproces (selectie, opmaak/review van de brief, verzending, ontvangst van het antwoord). Anders verliest de externe bevestiging haar betrouwbaarheid als controle-informatie. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 §7: de auditor moet controle uitoefenen over de verzoeken om externe bevestiging, met name (a) het bepalen van de te bevestigen informatie, (b) het selecteren van de bevestigende partij, (c) het opzetten van de verzoeken (correct geadresseerd, retourinformatie naar de auditor), en (d) het zenden van de verzoeken, inclusief follow-up waar van toepassing. 📖",
+          "wetsref": "ISA 505 §7",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**De auditor zelf** ontvangt de antwoorden — rechtstreeks van de leverancier, op het kantooradres van de auditor. De cliënt mag de antwoorden **niet onderscheppen, openen of filteren**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Loopt het antwoord via de cliënt, dan is de informatie geen externe bevestiging meer in de zin van ISA 505 (geen \"rechtstreekse schriftelijke reactie aan de auditor\") en heeft ze haar bewijswaarde verloren. Dit geldt ook voor elektronische antwoorden (e-mail rechtstreeks naar de auditor, of via een beveiligd platform zoals Confirmation.com). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 §6(a) — definitie externe bevestiging: \"controle-informatie verkregen in de vorm van een van een derde partij afkomstige **rechtstreekse schriftelijke reactie ... aan de auditor**\". 📖",
+          "wetsref": "ISA 505 §6(a)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Bij **non-respons** verstuurt de auditor een of meer **herinneringen** (tweede en eventueel derde rappel). Blijft een antwoord uit, dan voert de auditor **alternatieve controlewerkzaamheden** uit om gelijkwaardige controle-informatie te verkrijgen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concrete alternatieve werkzaamheden bij leverancierssaldi:\n\n- **Subsequent payments** — inspectie van bankuittreksels en betalingen ná balansdatum die het openstaande saldo aanzuiveren. 🔗\n- **Inspectie onderliggende stukken** — leveranciersfacturen, ontvangstbewijzen, bestelbonnen, contracten matchen met het saldo. 🔗\n- **Cut-off-test op aankopen** — aankopen rond balansdatum aansluiten op ontvangsten en facturen, om volledigheid van schulden te toetsen (het dominante risico bij leveranciers). 🔗\n- **Reconciliatie met leveranciersuittreksels** die de cliënt zelf in zijn dossier heeft (eventueel onafhankelijk opvragen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Als de auditor oordeelt dat een externe bevestiging **noodzakelijk** is en alternatieve werkzaamheden onvoldoende compenseren, moet hij **de mogelijke implicaties voor de controleverklaring** (scope-beperking) en de communicatie aan de met governance belaste personen overwegen — ISA 505 §12-13. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 §6(d) (definitie non-respons), §12 (alternatieve werkzaamheden bij niet-ontvangen reactie), §13 (gevolgen wanneer een positieve bevestiging noodzakelijk is en alternatieven onvoldoende zijn). 📖",
+          "wetsref": "ISA 505 §6(d), §12-13",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

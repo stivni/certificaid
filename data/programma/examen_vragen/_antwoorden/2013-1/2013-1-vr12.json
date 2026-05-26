@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr12",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Omdat de boekhouding alleen bevestigt wat de onderneming **zelf** heeft geregistreerd. Een schriftelijke confirmatie bij de leverancier is een **onafhankelijke, externe** controle-informatiebron die toelaat de **volledigheid** van de geboekte schulden te toetsen — d.w.z. of er geen facturen, vervallen verplichtingen of geschillen ontbreken in de boeken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Concrete redenen waarom de boekhouding alléén onvoldoende waarborg biedt en confirmatie nodig is:\n\n- **Volledigheidsrisico (under-statement)**: bij leveranciersschulden is de natuurlijke fout-richting *te weinig boeken* (niet-ontvangen of niet-geregistreerde facturen, cut-off-fouten rond jaareinde). De boekhouding kan dit per definitie niet aan het licht brengen — wat niet geboekt is, staat er niet in. 🔗\n- **Onafhankelijke bron**: de leverancier heeft geen belang bij dezelfde voorstelling van zaken als de gecontroleerde entiteit; een rechtstreeks antwoord van de derde partij is daarom betrouwbaarder dan een intern document (ISA 500 — controle-informatie is overtuigender naarmate ze uit onafhankelijke externe bron komt). 📖\n- **Detectie van fraude en collusie**: interne manipulatie van leveranciersrekeningen (fictieve leveranciers, ongeregistreerde verplichtingen om de schuldgraad gunstiger voor te stellen, verduistering via valse facturen) wordt niet zichtbaar in de boekhouding zelf maar wel in een afwijking tussen het door de leverancier bevestigde saldo en het geboekte saldo. 🔗\n- **Verificatie van saldi, voorwaarden en geschillen**: confirmatie dekt niet alleen het openstaande bedrag maar ook betalingstermijnen, kortingen, waarborgen, lopende geschillen en eventuele off-balance-verplichtingen die in de boekhouding ontbreken of onjuist gerubriceerd zijn. 🔗\n- **Periodieke werking — preventief effect**: het feit dat de interne controle *systematisch* confirmaties uitstuurt werkt afschrikkend voor manipulatie binnen de aankoop- en betalingscyclus. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Bij **leveranciers** geldt — anders dan bij klantenconfirmaties — vaak de voorkeur voor een **blanco (positieve) confirmatie**: men vraagt de leverancier het volledige openstaande saldo en de detailposten op te geven, zonder een bedrag voor te stellen. Reden: het volledigheidsrisico kan men niet afdekken door de leverancier enkel een door de entiteit zelf opgegeven saldo te laten bevestigen — dan zou een ontbrekende factuur onzichtbaar blijven. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 505 *Externe bevestigingen* — externe bevestiging is controle-informatie verkregen als rechtstreeks schriftelijk antwoord van een derde partij aan de auditor; de auditor (resp. de interne controleafdeling) beheerst zelf het verzoek, de selectie van de bevestigende partij en de ontvangst. 📖 ISA 500 §A5 — controle-informatie is overtuigender wanneer ze uit onafhankelijke bronnen buiten de entiteit wordt verkregen. 📖 Werkzaamheden inzake externe bevestiging zijn bij uitstek relevant voor beweringen omtrent rekeningssaldi (volledigheid, bestaan, waardering) zoals leveranciersschulden. 📖",
+          "wetsref": "ISA 505 §§5-7 + ISA 500 §A5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-505.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

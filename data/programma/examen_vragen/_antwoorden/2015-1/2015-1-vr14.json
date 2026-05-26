@@ -1,0 +1,42 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr14",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment (pagina_02.png) toont Vraag 2 (brugpensioen-MC) en Vraag 3 (vordering >1 jaar — MC), NIET het schema operationele audit verkoopcyclus. tekst.txt bevestigt echter de interpretatie (5 doelstellingen × 3 aspecten). Antwoord gebaseerd op tekst.txt + interpretatie; aspect-classificatie is auditdoctrine (COSO/IIA-drieluik) — bron in dit corpus niet beschikbaar als wettekst.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Doelstelling | Financieel | Operationeel | Conformiteit |\n|---|:---:|:---:|:---:|\n| 1. Opstellen van een marketingstrategie |  | X |  |\n| 2. Behoud mogelijkheid tot tijdige levering tegen de laagst mogelijke distributiekost | X | X |  |\n| 3. Opvolging van marktbehoeften, introductie nieuwe producten en stopzetting van bestaande producten |  | X |  |\n| 4. Enkel toegestane verkooporders worden verwerkt | X |  | X |\n| 5. Alle verzonden goederen worden in de juiste periode correct gefactureerd | X |  | X |\n\n🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De drie aspecten van een operationele audit (klassiek COSO/IIA-drieluik):\n\n- **Financieel** — betrouwbaarheid van de financiële verslaggeving: volledigheid en juistheid van omzet, correcte periode-toerekening, bewaking van kosten en marges. 🤖\n- **Operationeel** — doeltreffendheid en doelmatigheid van de bedrijfsprocessen: strategie, marktpositionering, productinnovatie, logistieke efficiëntie. 🤖\n- **Conformiteit** — naleving van interne procedures, wetgeving en autorisatieregels. 🤖\n\n**Per doelstelling**:\n\n1. **Marketingstrategie opstellen** → zuiver **operationeel** (strategische bedrijfsvoering). Geen directe link met financiële verslaggeving of regelgeving. 🔗\n2. **Tijdige levering tegen laagste distributiekost** → **operationeel** (logistieke efficiëntie) én **financieel** (kostenbeheersing → impact op marge en resultatenrekening). 🔗\n3. **Opvolging marktbehoeften / product-lifecycle** → zuiver **operationeel** (strategisch productbeheer). 🔗\n4. **Enkel toegestane verkooporders worden verwerkt** → **conformiteit** (autorisatie- en bevoegdhedenregels) én **financieel** (alleen geautoriseerde transacties leiden tot omzetregistratie — voorkomt fictieve omzet). 🔗\n5. **Alle verzonden goederen in juiste periode correct gefactureerd** → **financieel** (volledigheid omzet + cut-off) én **conformiteit** (naleving facturatie- en BTW-procedures). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het examenmodel laat meerdere aspecten per doelstelling toe — een doelstelling die zowel de efficiëntie van een proces als de juistheid van de boekhouding raakt, krijgt zowel een 'operationeel' als een 'financieel' kruisje. Strategische doelstellingen (marketingstrategie, productportefeuille) horen vrijwel altijd in de operationele kolom; controle-doelstellingen rond autorisatie en cut-off raken meestal aan zowel financieel als conformiteit. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "De driedeling financieel / operationeel / conformiteit is afkomstig uit het COSO Internal Control – Integrated Framework en wordt door het IIA (Institute of Internal Auditors) gehanteerd als de drie categorieën van interne-controle-doelstellingen (reporting, operations, compliance). Geen Belgische wettekst codificeert deze indeling; het is auditdoctrine die in de ITAA-stage-literatuur (operationele audit verkoopcyclus) als standaard-raamwerk wordt gebruikt. 🤖",
+          "wetsref": "COSO Internal Control – Integrated Framework (doctrine, niet gecodificeerd)",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

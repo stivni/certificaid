@@ -1,0 +1,95 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr13",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Nee, niet zonder meer.** De cijfers van de interne boekhouder zijn een uitgangspunt, geen controle-informatie op zich. De externe accountant moet zelf voldoende en geschikte controle-informatie verzamelen om een eigen oordeel te onderbouwen — ook bij een laag risicoprofiel en een sterke interne controle. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-315-herzien.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie redenen waarom de cijfers van de interne boekhouder onvoldoende zijn als basis:\n\n- **Onafhankelijkheidsbeginsel** — externe controle moet een onafhankelijke beoordeling zijn door iemand buiten de onderneming; de interne boekhouder is per definitie partij en geen externe bevestigingsbron. 🔗\n- **Bewijswaarde van interne stukken** — controle-informatie uit de cliënt zelf is intern bewijs; ISA 500 geeft hoger gewicht aan extern bewijs (bv. bankbevestigingen, leveranciersbevestigingen) en aan eigen waarnemingen van de auditor (bv. de voorraadtelling van 2/12/2013). 📖\n- **Sterke IC ≠ vrijstelling van substantieve controles** — een laag inherent en controle-risico verlaagt de omvang van de substantieve werkzaamheden, maar elimineert ze niet. De accountant moet de IC-werking eerst zelf toetsen (test of controls) vooraleer hij erop kan steunen, en blijft daarnaast substantief werken op materiële posten. 🔗\n\n**Praktisch**: de cijfers van de interne boekhouder vormen het startpunt (proefbalans, grootboek), maar de accountant herrekent, herwaardeert en confronteert met onafhankelijke bronnen (bankafschriften, leveranciersbevestigingen, fysieke voorraadtelling, debiteurenconfirmaties).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-330.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Het gegeven \"goede interne controle voor aankopen, financieel en verkopen\" betekent dat de accountant **mag steunen op de IC** voor die cycli — mits hij die werking zélf via toetsingen (test of controls) heeft bevestigd. Pas dán kan hij de omvang van zijn substantieve werkzaamheden verminderen. Het is geen carte blanche om de cijfers over te nemen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-330.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 500 *Controle-informatie* — de auditor moet voldoende en geschikte controle-informatie verkrijgen; interne bronnen hebben lagere bewijskracht dan externe bevestigingen of eigen waarnemingen. ISA 315 (herzien) + ISA 330 — risico-inschatting en inspelen op risico's: ook bij laag risico blijven substantieve werkzaamheden vereist. Algemene controlenorm ITAA — onafhankelijkheid en eigen oordeelsvorming zijn basisprincipes voor elke controleopdracht. 🔗",
+          "wetsref": "ISA 500 · ISA 315 (herzien) · ISA 330 · Algemene controlenorm ITAA",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-315-herzien.md",
+            "resources/bronnen/normen/ISA-330.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Controledoelstelling: waardering** (zijn de getelde landbouwmachines correct gewaardeerd tegen de laagste van aanschaffingswaarde of marktwaarde?). **Techniek: prijsonderzoek** — toets de eenheidsprijzen in de voorraadlijst aan recente aankoopfacturen en vergelijk de boekwaarde met de actuele marktwaarde / recente verkoopprijzen om eventuele waardeverminderingen te detecteren. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De fysieke aanwezigheid bij de voorraadopname dekt de **bestaan**-bewering af (de machines zijn er, in de getelde hoeveelheid). Tijdens de eigenlijke controlewerkzaamheden moet de accountant de andere beweringen rond de voorraadpost nog afdekken:\n\n- **Waardering** (gekozen) — voor landbouwmachines bijzonder relevant: het zijn duurzame en relatief illiquide goederen waarvan de markt­waarde kan dalen (technische veroudering, modeljaar-wissels, traag-roterende stock). Risico op overwaardering → noodzaak van een waardevermindering.\n- Alternatieve doelstellingen die hier ook valide zijn: **eigendom** (zijn de machines effectief eigendom of staan ze in consignatie/financiering?), **cut-off** (zijn aan- en verkopen rond 30/11/2013 in de juiste periode geboekt?), **volledigheid** (zit alle voorraad op de lijst, ook machines bij klanten op proef of bij derden?).\n\n**Techniek uitgewerkt** (prijsonderzoek voor waardering):\n1. Selecteer een steekproef van getelde machines uit de voorraadlijst.\n2. Toets de aanschaffingswaarde aan de meest recente aankoopfactuur (eenheidsprijs × hoeveelheid).\n3. Vergelijk die aanschaffingswaarde met de actuele verkoopprijs (catalogus, recente verkoopfacturen) minus eventuele afzetkosten → bepaal of een waardevermindering nodig is.\n4. Documenteer in werkdocument met verwijzing naar facturen.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "ISA 501 noemt expliciet dat de auditor bij de voorraadtelling **niet enkel telt**, maar ook let op kwaliteit, beschadiging, veroudering en stapeling — signalen voor waardevermindering. Voor een handelaar in landbouwmachines zijn typische valkuilen: tweedehands-toestellen tegen volledige aanschaffingswaarde, demonstratie-modellen die als nieuw geboekt blijven, en consignatie-voorraad die niet aan de NV toebehoort. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 501 *Controle-informatie — Specifieke overwegingen voor geselecteerde elementen* — voorraadopname dekt bestaan en toestand af; voor waardering, eigendom en cut-off zijn aanvullende werkzaamheden vereist. ISA 500 §A1 e.v. — beweringen rond rekeningssaldi (existence, completeness, rights and obligations, valuation and allocation). 🔗",
+          "wetsref": "ISA 501 · ISA 500",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-501.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

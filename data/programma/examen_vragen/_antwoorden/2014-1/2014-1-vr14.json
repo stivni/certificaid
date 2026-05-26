@@ -1,0 +1,187 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr14",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — een controleopdracht (volkomen controle) kan niet worden afgesloten op basis van een door de **interne** boekhouder opgemaakte, niet door het bestuursorgaan goedgekeurde tussentijdse staat per 31/12/2013. We hebben (i) een door het bestuursorgaan opgestelde en ondertekende ontwerp-jaarrekening, (ii) voldoende en geschikte controle-informatie volgens de ISAs en (iii) onder meer een verslag van het bestuursorgaan, gebeurtenissen na balansdatum en een schriftelijke bevestiging van de leiding (LOR) nodig vooraleer we ons oordeel kunnen ondertekenen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-200.md",
+            "resources/bronnen/normen/ISA-700-herzien.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De situatie zoals beschreven schiet op meerdere punten tekort om een controleverslag te kunnen ondertekenen:\n\n- **Aard van het document**: het is een *boekhoudkundige staat* opgesteld door de interne boekhouder, geen door het bestuursorgaan opgestelde en goedgekeurde jaarrekening. De auditor controleert de financiële overzichten zoals door het management opgesteld (ISA 200.A2 — premise of an audit). 🔗\n- **Volkomen controle nog niet uitgevoerd**: cijfercontroles (substantive procedures) moeten nog gebeuren — de materialiteit is pas berekend en de werkzaamheden ter plaatse starten net. 🔗\n- **Subsequent events / afloopcontrole**: tussen 31/12/2013 en de datum van het controleverslag moeten gebeurtenissen na balansdatum worden onderzocht (ISA 560). 🔗\n- **Schriftelijke bevestigingen van de leiding** (ISA 580, *Letter of Representation*) ontbreken nog. 🔗\n- **Verslag van het bestuursorgaan**: voor een volkomen controle moet ook het jaarverslag worden nagelezen en getoetst aan de jaarrekening (art. 3:75 WVV). 🔗\n- **Onafhankelijkheid van de informatieverstrekker**: een staat aangeleverd door de *interne* boekhouder zonder formele goedkeuring door het bestuursorgaan biedt geen geschikte basis. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-200.md",
+            "resources/bronnen/normen/ISA-560.md",
+            "resources/bronnen/normen/ISA-580.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met een *beoordelingsopdracht* (ISRE 2400) of *agreed-upon procedures*: bij die opdrachten volstaat een lager assurance-niveau en zijn substantieve cijfercontroles beperkter. De vraag specificeert uitdrukkelijk een **volkomen controle** (= redelijke mate van zekerheid, ISA-kader), waarvoor de hele audit-cyclus moet worden doorlopen alvorens een oordeel kan worden uitgebracht. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 200 §A2-A4 (premise — financiële overzichten opgesteld onder verantwoordelijkheid van management), ISA 560 (gebeurtenissen na balansdatum), ISA 580 (schriftelijke bevestigingen), ISA 700 (herzien) (vereisten vóór het uitbrengen van een oordeel) en art. 3:75 WVV / ISA 720 (lezen van het jaarverslag in samenhang met de jaarrekening). 🔗",
+          "wetsref": "ISA 200, ISA 560, ISA 580, ISA 700 (herzien); art. 3:75 WVV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-200.md",
+            "resources/bronnen/normen/ISA-560.md",
+            "resources/bronnen/normen/ISA-580.md",
+            "resources/bronnen/normen/ISA-700-herzien.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De materialiteitsgrens (hier 50.000 EUR) bepaalt de **drempel waarboven een afwijking redelijkerwijs de beslissingen van de gebruikers van de jaarrekening kan beïnvloeden**. Ze stuurt de planning (aard, timing en omvang van de werkzaamheden), de uitvoeringsmaterialiteit (lagere werkdrempel om het aggregate risk te beheersen) en de evaluatie van geconstateerde afwijkingen aan het einde van de controle. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-320.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concreet belang in deze opdracht:\n\n- **Scope-bepaling**: posten of transactiestromen kleiner dan de materialiteit (en kleiner dan de uitvoeringsmaterialiteit) vragen beperktere of geen substantieve werkzaamheden. 🔗\n- **Sample-omvang**: hoe lager de materialiteit, hoe groter de te trekken steekproeven (ISA 530). 🔗\n- **Drempel voor correctievoorstellen**: ongecorrigeerde afwijkingen worden geaccumuleerd (ISA 450) en getoetst aan de materialiteit; pas dan kan beslist worden of het oordeel zuiver, met beperking of afkeurend wordt. 🔗\n- **Specifieke (lagere) materialiteiten**: voor bepaalde posten (bv. bezoldigingen van bestuurders, transacties met verbonden partijen) kan een lagere drempel worden vastgelegd omdat gebruikers daar gevoeliger voor zijn. 🔗\n- **Herziening tijdens de opdracht**: ISA 320 §12-13 verplicht herziening van de materialiteit zodra nieuwe informatie de oorspronkelijke berekening achterhaalt. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-320.md",
+            "resources/bronnen/normen/ISA-450.md",
+            "resources/bronnen/normen/ISA-530.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Materialiteit is geen vast wettelijk cijfer maar professional judgment. Gangbare benchmarks: 0,5-1% van omzet, 1-2% van totaal-activa, 5-10% van resultaat vóór belastingen. Voor deze opdracht (50.000 EUR) ligt achter het cijfer dus een keuze van benchmark + percentage die in het auditdossier gedocumenteerd moet zijn (ISA 320 §14). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-320.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 320 — *Materialiteit bij de planning en uitvoering van een controle*: definitie, bepaling van de materialiteit voor de financiële overzichten als geheel, uitvoeringsmaterialiteit, herziening en documentatie. ISA 450 regelt de evaluatie van afwijkingen ten opzichte van de materialiteit. 📖",
+          "wetsref": "ISA 320, ISA 450",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-320.md",
+            "resources/bronnen/normen/ISA-450.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een deelneming van 300.000 EUR (code 28) ligt **boven de materialiteit** (50.000 EUR) en vereist substantieve controle. Twee controledoelstellingen — **bestaan/eigendomsrecht** en **waardering** — gecombineerd met twee technieken — **inspectie van bewijsstukken** (aankoopakte, aandelenregister) en **herberekening van eventuele waardeverminderingen** op basis van de jaarrekening van de dochter. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien.md",
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Twee controledoelstellingen** (assertions, ISA 315 §A190):\n\n1. **Bestaan en eigendomsrecht (existence & rights)**: bestaan de aandelen werkelijk op 31/12/2013 en behoren zij toe aan de vennootschap? 🔗\n2. **Waardering (valuation)**: is de boekwaarde van 300.000 EUR correct, rekening houdend met eventuele duurzame minderwaarden (art. 3:42 KB/WVV — waardevermindering bij duurzame minderwaarde)? 🔗\n\n*Bijkomende relevante assertions*: volledigheid (alle aangehouden deelnemingen geboekt) en presentatie/toelichting (toelichting XVIII jaarrekening — staat van financiële vaste activa). 🤖\n\n**Twee controletechnieken** (ISA 500 §A14-A25):\n\n1. **Inspectie van bewijsstukken (inspection)**: aankoopakte / notariële akte, betalingsbewijzen, aandelenregister van de dochter, eventueel aandeelbewijzen of inschrijving in het effectenregister. Dekt bestaan + eigendomsrecht + initiële waardering aan aanschaffingswaarde. 🔗\n2. **Herberekening / analytische review van de waardering**: opvragen van de meest recente jaarrekening van de dochter (eigen vermogen × deelnemingspercentage), vergelijking met boekwaarde, beoordeling van noodzaak tot waardevermindering (art. 3:42 KB/WVV). 🔗\n\n*Alternatieven*: externe confirmatie bij de dochter of bij de notaris (ISA 505), bevraging van het management (inquiry) over wijzigingen in de deelneming. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien.md",
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-505.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet vergeten dat een deelneming van 300.000 EUR mogelijks tot **consolidatieplicht** leidt (art. 3:24 WVV — consolidatiekring en groottecriteria art. 1:26 WVV). Voor de enkelvoudige controle blijft de waardering aan aanschaffingswaarde + eventuele waardevermindering (geen equity-methode in BE GAAP enkelvoudig). Vermijd ook de fout om bestaan + waardering door één techniek te willen afdekken: een aankoopakte bewijst bestaan op aankoopdatum, niet de actuele waardering per 31/12. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 315 (herzien) §A190 — onderscheid assertions op klassen van transacties versus rekeningsaldi (bestaan, volledigheid, juistheid, waardering, rechten en verplichtingen, presentatie). ISA 500 §A14-A25 — toegelaten controletechnieken (inspectie, observatie, externe bevestiging, herberekening, herhaling, analytische werkzaamheden, inquiry). Voor waardering: art. 3:42 KB/WVV (waardevermindering bij duurzame minderwaarde van financiële vaste activa). 🔗",
+          "wetsref": "ISA 315 (herzien), ISA 500; art. 3:42 KB/WVV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien.md",
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Een **afloopcontrole** (cut-off / subsequent payments test) op rekening 454/9 (te betalen bezoldigingen en sociale lasten) bestaat erin **na balansdatum na te gaan welke posten van het saldo per 31/12/2013 in de periode januari-februari 2014 zijn betaald of geregulariseerd**. De effectief afgelopen bedragen leveren bewijs voor het bestaan en de volledigheid van de schuld per balansdatum. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-560.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Stappenplan**:\n\n1. Opvragen van de **detailbalans van rekening 454/9 per 31/12/2013** (saldo + samenstelling per debiteur/rubriek). 🔗\n2. Aansluiten met de onderliggende **loonstaten van december 2013** (bezoldigingen, bedrijfsvoorheffing, RSZ werknemer en werkgever, vakantiegeld, eindejaarspremie). 🔗\n3. **Afloopcontrole zelf**: voor elke component nagaan of, en wanneer, ze in 2014 effectief zijn betaald — via bankafschriften (januari-februari 2014), RSZ-aangifte DmfA Q4/2013 en betalingsbewijzen aan de RSZ, betalingsbewijzen bedrijfsvoorheffing (BV 274) aan de fiscus, betalingsbewijzen aan het sociaal secretariaat. 🔗\n4. **Vergelijken** van het betaalde bedrag met het geboekte schuldsaldo: aansluiting = bewijs van bestaan en (binnen materialiteit) juistheid van het saldo. 🔗\n5. **Verschillen** onderzoeken: ofwel reeds vóór 31/12 betaald (= dubbel geboekt), ofwel niet meer betaald (= geen schuld meer of voorziening nodig), ofwel pas later op te lossen (signaal voor incomplete provisionering). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "kop": "Voorbeeld",
+          "tekst": "Saldo rekening 454/9 per 31/12/2013: **48.500 EUR**, opgesplitst:\n\n| Component | Geboekt saldo 31/12 | Effectief betaald (Jan-Feb 2014) | Bewijsstuk |\n|---|---:|---:|---|\n| RSZ Q4/2013 (werkgevers- + werknemersbijdrage) | 22.000 | 22.000 | DmfA Q4 + uittreksel RSZ-betaling 31/01/2014 |\n| Bedrijfsvoorheffing december | 8.500 | 8.500 | aangifte 274 + bankuittreksel 15/01/2014 |\n| Vakantiegeld werknemers (voorziening) | 12.000 | 11.800 | berekening conform Bull. CNC 90/3-6 (18,8 % bezoldigingen) — verschil 200 EUR is binnen toleratie |\n| Eindejaarspremie + sociale lasten | 6.000 | 6.000 | bankuittreksel 31/01/2014 |\n| **Totaal** | **48.500** | **48.300** | |\n\nConclusie van het voorbeeld: aansluiting binnen materialiteit (50.000 EUR), restant van 200 EUR op vakantiegeld is verklaarbaar via de forfaitaire berekening — geen verdere bevinding. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De afloopcontrole is een typische **subsequent events procedure** (ISA 560) en geldt als één van de sterkste vormen van bewijs voor passiefposten die kort na balansdatum aflopen. Voor het **vakantiegeld** is de Belgische gangbare forfaitaire raming 18,8 % van de bezoldigingen van het lopende jaar voor bedienden (CBN-bulletin 90/3-6) — die formule vervangt geen afloopcontrole maar dient als plausibiliteits-toets. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "ISA 500 — *Controle-informatie* (subsequent payments als externe, hoogwaardige informatie); ISA 560 — *Gebeurtenissen na balansdatum* (auditor onderzoekt feiten tussen balansdatum en datum controleverslag); art. 3:11 KB/WVV en CBN-bulletin 90/3-6 (waardering schuld vakantiegeld). 🔗",
+          "wetsref": "ISA 500, ISA 560; CBN-bulletin 90/3-6; art. 3:11 KB/WVV",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-500.md",
+            "resources/bronnen/normen/ISA-560.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

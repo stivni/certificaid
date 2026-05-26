@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr10",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Activiteit | Categorie |\n|---|---|\n| Akkoord bestelling | **1 — Autorisatie** 🔗 |\n| Ontvangst van de goederen | **2 — Bewaren van activa** 🔗 |\n| Ontvangst van de factuur | **3 — Registratie en rapportering** 🔗 |\n| Verificatie van de factuur | **4 — Controle procedures** 🔗 |\n| Aanmaak betalingsvoorstel | **3 — Registratie en rapportering** 🔗 |\n| Controle betalingsvoorstel | **4 — Controle procedures** 🔗 |\n| Uitvoeren van de betaling | **2 — Bewaren van activa** 🔗 |\n| Aanmaak en onderhoud basisgegevens leveranciers | **1 — Autorisatie** 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Toepassing van de vier-taken-typologie op de aankoop-/betaalcyclus:\n\n- **Akkoord bestelling** → *Autorisatie*: de bevoegde verantwoordelijke geeft toestemming dat een verbintenis tegenover een leverancier mag worden aangegaan (initiërende beslissing). 🔗\n- **Ontvangst van de goederen** → *Bewaren van activa*: het magazijn neemt fysieke controle over de goederen — dit is custody. 🔗\n- **Ontvangst van de factuur** → *Registratie en rapportering*: inboeken van het inkomende document in de boekhouding (aankoopdagboek, schuld leverancier). 🔗\n- **Verificatie van de factuur** → *Controle procedures*: de 3-way match (bestelbon ↔ ontvangstbon ↔ factuur) is een detecterende controle op prijs, hoeveelheid en geleverdheid. 🔗\n- **Aanmaak betalingsvoorstel** → *Registratie en rapportering*: het voorstel is een operationele uitvoeringslijst (welke facturen op vervaldag), opgesteld door de AP-functie — geen nieuwe autorisatie en geen custody. 🔗\n- **Controle betalingsvoorstel** → *Controle procedures*: review door een tweede persoon (vaak vier-ogen-principe) vóór de betalingen worden vrijgegeven. 🔗\n- **Uitvoeren van de betaling** → *Bewaren van activa*: treasury/kassier beschikt over de bankrekening en geeft de geldmiddelen vrij — dat is custody over liquide middelen. 🔗\n- **Aanmaak en onderhoud basisgegevens leveranciers** → *Autorisatie*: master-data-onderhoud bepaalt welke tegenpartijen überhaupt mogen worden betaald (bankrekeningnummer, voorwaarden) — een poortwachterstaak. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Klassieke fraudegevoelige combinaties die door deze indeling worden voorkomen:\n\n1. **Aanmaak leveranciersgegevens + uitvoeren betaling** (1 + 2) → fictieve leverancier op eigen rekening laten betalen. 🔗\n2. **Akkoord bestelling + ontvangst goederen** (1 + 2) → bestelling op naam vennootschap, levering naar privé. 🔗\n3. **Aanmaak + controle betalingsvoorstel** (3 + 4) → eigen voorstel zelf goedkeuren — daarom moet controle door iemand anders gebeuren. 🔗\n\nDe vier categorieën moeten over **minstens drie personen** verdeeld worden; in kleine ondernemingen waar dit niet kan, vereist ISA 315 compenserende controles (bv. periodieke review door zaakvoerder). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**ISA 315 (herzien 2019), Bijlage 3** definieert functiescheiding als het toewijzen aan verschillende personen van de verantwoordelijkheden voor (i) het *autoriseren* van transacties, (ii) het *vastleggen* (registratie) van transacties en (iii) het *bewaren* van activa, met als doel de mogelijkheid te beperken om fouten of fraude te maken én te verhullen. De ITAA-doctrine voegt expliciet *controleprocedures* (detecterende controles zoals matching en review) toe als vierde categorie. 📖",
+          "wetsref": "ISA 315 (herzien 2019), Bijlage 3 — Beheersingsactiviteitencomponent",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/normen/ISA-315-herzien-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}
