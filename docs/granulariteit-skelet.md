@@ -144,6 +144,9 @@ bestuur-en-aansprakelijkheid             [thema-cluster vennootschapsrecht, 4 re
 ├── oprichtersaansprakelijkheid          [K]               financieel-plan-toets bij faillissement < 3j
 └── bestuurdersaansprakelijkheid         [K]               3 sporen · kennelijk onbehoorlijk bestuur · cap · #kwijting · #ontslag-bekendmaking
 
+vennootschapsgeschillen                  [thema-cluster vennootschapsrecht, 1 record — PO 3.0.VIII]
+└── vennootschapsgeschillen              [K]   ▸ types · contractuele preventie · bewijswaarde · minnelijke schikking · nietigheid besluiten · perspectief beroep-en-deontologie
+
 ondernemingsvormen                       [thema-cluster vennootschapsrecht, 9 records — PO 3.0.I + taak.1]
 ├── ondernemingsvormen                   [E-bundel + Σ]    overzicht + vergelijkingsmatrix + WVV-systematiek + fiscale-keuze (perspectief)
 ├── besloten-vennootschap                [E-instrument]    (BV/BVBA/SRL) — default WVV-vorm sinds 2019; flexibel statutair
@@ -204,7 +207,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | controle-opdracht | 7 | PO 1.6 | [§Controle-opdracht-cluster](#controle-opdracht-cluster) |
 | interne-controle | 7 + 3 shared | PO 1.7 | [§Interne-controle-cluster](#interne-controle-cluster) |
 | ondernemingsvormen | 9 | PO 3.0.I + taak.1 + cross PO 1.1 + 2.3 | [§Ondernemingsvormen-cluster](#ondernemingsvormen-cluster) |
-| **bestuur-en-aansprakelijkheid** | **4** | **PO 3.0.II + VII** | [**§Bestuur-en-aansprakelijkheid-cluster**](#bestuur-en-aansprakelijkheid-cluster) |
+| bestuur-en-aansprakelijkheid | 4 | PO 3.0.II + VII | [§Bestuur-en-aansprakelijkheid-cluster](#bestuur-en-aansprakelijkheid-cluster) |
+| **vennootschapsgeschillen** | **1** | **PO 3.0.VIII** | [**§Vennootschapsgeschillen-cluster**](#vennootschapsgeschillen-cluster) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 
@@ -954,6 +958,49 @@ Alle 3 passen zonder forceren. **Bevestiging**: split `aansprakelijkheid-opricht
 - **OP-BA.B** ⏳ `kwijting` als sub-sectie van `bestuurdersaansprakelijkheid` — splitten indien bij content-uitwerking didactisch te zwaar
 - **OP-BA.C** ⏳ Tantième-controle (PO 3.0.II.C / VII context) als bijzonder mandaat — flag voor `bijzondere-mandaten`-types-tabel-uitbreiding indien tantième-toekenning systematisch revisor-verslag vereist (te verifiëren bij content-uitwerking)
 - **OP-BA.D** ⏳ Vertegenwoordigingsbevoegdheid (3.0.II.B) — sub-sectie van `bestuur-vennootschap` (huidig voorstel) of eigen klein record? Voorlopig sub-sectie (anti-versnippering); split-overweging als WVV-binding-regel substantieel blijkt.
+
+### Vennootschapsgeschillen-cluster
+
+Thema: `vennootschapsgeschillen`. *Thema-cluster vennootschapsrecht (PO 3.0.VIII, 2026-05-26). Klein cluster — 1 bestaand record dat alle 5 anchors dekt. Geen splits, geen renames. Wel een perspectief-verfijning: 3.0.VIII.A ("beroepsbeoefenaar-rol bij geschillen") hoort in `accountant_perspectieven[]`, niet in `inhoud` (toepassing van perspectief-vs-record-principe op intra-record-niveau).*
+
+```
+vennootschapsgeschillen                   [thema-cluster vennootschapsrecht, 1 record]
+└── vennootschapsgeschillen               [K]
+    inhoud:
+      ▸ #types-geschillen — deadlocks aandeelhouders · bestuurder-conflicten · besluit-betwistingen (3.0.VIII)
+      ▸ #contractuele-preventie — geschillenbedingen · mediation-clausules · arbitrage (3.0.VIII.A)
+      ▸ #bewijswaarde-moderne-communicatie — e-mails · online vergaderingen · opnames; authenticiteit + integriteit + verkrijging (3.0.VIII.B)
+      ▸ #minnelijke-schikking — duidelijkheid aanspraken · fiscale gevolgen · vertrouwelijkheid · rechtsgeldigheid partijen (3.0.VIII.C)
+      ▸ #nietigheid-besluiten — gronden (procedurefouten · machtsmisbruik · strijd statuten/wet) + gevolgen (3.0.VIII.D)
+    accountant_perspectieven:
+      ▸ audit — kennisname bij audit (lopende geschillen → potentiële voorzieningen + disclosure); audit van betrokken contracten
+      ▸ advies — contractuele preventie + bewijs-discipline + minnelijke-schikking-begeleiding
+      ▸ beroep-en-deontologie — beroepsgeheim bij confrontatie + conflict-of-interest bewaking + bewijsverzameling-grenzen (3.0.VIII.A)
+```
+
+**Cross-cluster**:
+- `algemene-vergadering` (kapitaalstructuur) — nietigheid AV-besluit (VIII.D)
+- `bestuur-vennootschap` (bestuur-en-aansprakelijkheid) — nietigheid RvB-besluit + bestuurder-conflicten
+- `aandeelhoudersovereenkomsten` (kapitaalstructuur) — geschillenbedingen vaak hierin
+- `beroepsgeheim` (beroepsbeoefening) — beroepsbeoefenaar-rol bij geschillen
+- `onafhankelijkheid` (beroepsbeoefening) — conflict-of-interest bij geschillen
+
+**Triangulatie 2026-05-26**:
+- 5 PO 3.0.VIII anchors → 0 PO-only gaps
+- 1 bestaand record dekt alle anchors (vennootschapsgeschillen) — geen herstructurering nodig
+- Perspectief-verfijning: VIII.A verhuist van inhoud-sub-sectie naar `accountant_perspectieven[]` (geen inhoudelijke verandering, wel structurele)
+
+**Bronnen-pin**:
+- ✅ WVV (algemene-vergadering-procedure + nietigheidsgronden, boek 2)
+- ⏳ Gerechtelijk Wetboek (bewijswaarde + minnelijke-schikking-mechaniek)
+- ⏳ Wet 21 februari 2005 (mediation) + WVV-specifieke arbitrage
+
+**Test-case-validatie** (kort — klein cluster):
+- 2003-bibf-vrK1 + 2008-bibf-vrK2 (overdracht dossier confraters, ronselen) raken `vennootschapsgeschillen` slechts indirect — primair beroepsbeoefening. Geen specifieke PO 3.0.VIII-testvraag in `_programmaonderdeel_classificatie.json` opgemerkt; mogelijk afgedekt door 2013-1-vr14 (aandeelhouderschap BVBA bij overlijden — deadlock-context).
+
+**Open punten**:
+- **OP-VG.A** ⏳ Mediation/arbitrage als sub-sectie of als eigen procedure-records (cross naar `gerechtelijke-reorganisatie` voor pre-insolventie-bemiddeling)? Voorlopig sub-sectie.
+- **OP-VG.B** ⏳ Tantième-betwisting als specifiek geschil-type (cross naar `bestuurdersaansprakelijkheid#kwijting`)? Mogelijk sub-sectie indien examen-relevant.
 
 ### Beroepsbeoefening-cluster
 
