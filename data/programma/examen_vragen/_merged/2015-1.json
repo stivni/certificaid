@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
   "examen_id": "2015-1",
-  "merge_datum": "2026-05-26T16:33:41+00:00",
+  "merge_datum": "2026-05-26T16:56:16+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -6080,7 +6080,56 @@
       "vraag_id": "2015-1-vr40"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Optie **c** — onderzoek 5 aanslagjaren terug valt binnen de verlengde aanslagtermijn bij fraude, en kan enkel mits **voorafgaande schriftelijke en nauwkeurige kennisgeving van de aanwijzingen van belastingontduiking** aan de belastingplichtige, op straffe van nietigheid van de aanslag. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** (zonder beperking) → FOUT — onderzoek buiten de gewone 3-jaarstermijn is gebonden aan de formaliteit van art. 333, derde lid WIB92. Geen onbeperkte bevoegdheid. 🔗\n- **b** (sowieso niet meer) → FOUT — 5 jaar valt binnen de verlengde aanvullende termijn van art. 354, § 2 WIB92 (op het ogenblik van de vraag: 7 jaar bij fraude). Onderzoek is dus nog mogelijk. 🔗\n- **c** (mits voorafgaande kennisgeving van indiciën van fraude) → JUIST — art. 333, derde lid WIB92 vereist die schriftelijke en nauwkeurige kennisgeving, voorgeschreven op straffe van nietigheid. 📖\n- **d** (uitsluitend taxatie tekenen en indiciën) → FOUT — verwart het onderzoeksrecht met de bewijsmiddelen van art. 341 WIB92 (taxatie naar tekenen en indiciën). Het onderzoek zelf is niet beperkt tot dat ene bewijsmiddel. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De kennisgeving moet **vóór** elke onderzoekshandeling in de verlengde termijn gebeuren en moet de aanwijzingen **nauwkeurig** (concreet, niet algemeen) omschrijven. Een laattijdige of vage kennisgeving leidt tot **absolute nietigheid** van de gevestigde aanslag — een courante annulatiegrond in fiscale geschillen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 333, derde lid WIB92**: onderzoekshandelingen in de aanvullende termijn van art. 354, § 2 WIB92 zijn slechts mogelijk \"op voorwaarde dat de administratie de belastingplichtige voorafgaandelijk schriftelijk en nauwkeurig kennis gegeven heeft van de aanwijzingen inzake belastingontduiking, die wat hem betreft bestaan, voor de betreffende periode. Deze voorafgaande kennisgeving is voorgeschreven op straffe van nietigheid van de aanslag.\" 📖 Aanslagtermijn bij fraude: **art. 354, § 2 WIB92** (verlengd aanvullend bovenop de gewone termijn van § 1). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 333, derde lid WIB92; art. 354, § 2 WIB92"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr41"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -6151,7 +6200,56 @@
       "vraag_id": "2015-1-vr41"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **a** — Ja, de administratie kan nog taxeren. Op grond van **art. 358 §1, 2° WIB92** beschikt zij over een **bijzondere aanslagtermijn van 24 maanden** te rekenen vanaf de datum waarop de Belgische administratie kennis kreeg van de bewijskrachtige gegevens die een buitenlandse belastingadministratie (waarmee België een dubbelbelastingverdrag heeft gesloten) haar verstrekte. De inlichtingen kwamen 18 maanden geleden binnen → de 24-maandentermijn loopt nog. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Kern van de redenering** — voor een aanslagjaar 4 jaar terug zijn de **gewone** termijn (3 jaar, art. 354 lid 1 WIB92) en in beginsel ook de **verlengde** termijn (destijds 7 jaar bij aanwijzingen van fraude, art. 354 lid 2 WIB92) niet zonder meer beslissend voor deze casus — de feiten geven een **autonome triggergrond**: bewijskrachtige inlichtingen uit het buitenland via een verdragsmechanisme. Daarvoor opent **art. 358 §1, 2° WIB92** een aparte 24-maandentermijn die loopt vanaf de **kennisname door de Belgische administratie** van die resultaten (niet vanaf 1 januari van het aanslagjaar). 🔗 De 18 maanden sinds ontvangst < 24 maanden → de aanslag kan nog rechtsgeldig worden gevestigd. 🔗\n\n**Per optie**:\n- **a** — Correcte termijn (24 maanden) én correct aanvangspunt (kennisname door de Belgische administratie). JUIST. 🔗\n- **b** — Verwart de bijzondere termijn met 12 maanden. FOUT: art. 358 §1, 2° WIB92 spreekt van 24 maanden. 🔗\n- **c** — \"Alle taxatietermijnen verstreken\" miskent dat art. 358 een **autonome** bijzondere termijn opent, los van de gewone/verlengde termijnen van art. 354. FOUT. 🔗\n- **d** — Steunt op het idee dat na de driejarige of zevenjarige aanslagtermijn niets meer kan. FOUT: art. 358 WIB92 doorbreekt precies die regel voor de daar genoemde gevallen (o.a. inlichtingen uit het buitenland in het kader van een verdrag). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "**Twee aanvangspunten niet verwarren**. De gewone en verlengde aanslagtermijnen (art. 354 WIB92) lopen vanaf **1 januari van het aanslagjaar**. De bijzondere termijn van art. 358 §1, 2° WIB92 loopt daarentegen vanaf de **kennisname door de Belgische administratie** van de buitenlandse inlichtingen — een trigger-gebonden startpunt. Wie de termijnen optelt vanaf 1 januari van het AJ komt op het verkeerde antwoord (c of d). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 358 §1, 2° WIB92** — de belasting of de aanvullende belasting mag worden gevestigd, zelfs na het verstrijken van de termijnen van art. 354, wanneer een controle of een onderzoek door een **buitenlandse bevoegde autoriteit** waarmee België een **overeenkomst tot voorkoming van dubbele belasting** heeft gesloten, uitwijst dat belastbare inkomsten niet werden aangegeven in de loop van een van de **vijf jaar** vóór dat waarin de resultaten ter kennis van de Belgische administratie zijn gebracht. 📖 **Art. 358 §2 WIB92** — die aanslag moet worden gevestigd binnen **24 maanden** te rekenen vanaf de datum waarop de Belgische administratie kennis kreeg van die resultaten. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 358 §1, 2° + §2 WIB92"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr42"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -6222,7 +6320,61 @@
       "vraag_id": "2015-1-vr42"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/WER.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **d** — bestelbonnen maken deel uit van de boekhouding als **verantwoordingsstukken** en moeten op verzoek van de administratie worden voorgelegd. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/WER.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 315 WIB92 verplicht de belastingplichtige (incl. vennootschappen) om op verzoek van de administratie **\"alle boeken en bescheiden voor te leggen die noodzakelijk zijn om het bedrag van zijn belastbare inkomsten te bepalen\"**. 📖 De voorleggingsplicht is dus niet beperkt tot de \"wettelijk verplichte\" boeken (dagboek, inventarisboek), maar omvat ook de **verantwoordingsstukken** die de inschrijvingen in de boekhouding staven (art. III.86 WER: elke boeking moet steunen op een gedateerd verantwoordingsstuk). 🔗 Bestelbonnen behoren tot die verantwoordingsstukken — ze documenteren aan- en verkoop-transacties — en delen daarmee in de voorleggings- én bewaringsplicht (7 jaar, art. III.86 WER + art. 8 KB 21 oktober 2018). 🔗\n\n**Per optie**:\n- **a** → FOUT — verwart \"verplicht te voeren boeken\" met de voorleggings­plicht; de plicht uit art. 315 WIB92 strekt zich uit tot álle bescheiden die voor de belastingbepaling relevant zijn, inclusief verantwoordingsstukken. 🔗\n- **b** → FOUT — bestelbonnen maken **wel** deel uit van de boekhouding (verantwoordingsstukken, art. III.86 WER). 🔗\n- **c** → FOUT — de drager (papier/elektronisch) doet er niet toe; art. 315bis WIB92 voegt enkel een extra plicht toe voor geïnformatiseerde boekhoudingen, maar verandert niets aan de inhoudelijke voorleggingsplicht. 🔗\n- **d** → JUIST. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-21-bewaring-van-de-boeken-en-verantwoordingsstukken.md",
+                  "resources/bronnen/wetteksten/WER.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met de **bewaringsplicht**: de Boekhoudwet/WER (art. III.86 WER + KB 21/10/2018 art. 8) legt een bewaringstermijn van **7 jaar** op voor boeken en verantwoordingsstukken (3 jaar voor stukken die niet als bewijs jegens derden hoeven te dienen — CBN-advies 2011/21). 📖 Bewaringsplicht en voorleggingsplicht zijn twee verschillende plichten met dezelfde scope: alles wat bewaard moet worden, moet op verzoek ook worden voorgelegd. Bestelbonnen vallen onder beide. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/WER.md",
+                  "resources/bronnen/adviezen/CBN-2011-21-bewaring-van-de-boeken-en-verantwoordingsstukken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 315 WIB92**: voorlegging van alle boeken en bescheiden noodzakelijk voor de bepaling van de belastbare inkomsten, op verzoek van de administratie, zonder verplaatsing. 📖 **Art. III.86 WER**: elke boeking geschiedt op grond van een gedateerd verantwoordingsstuk; verantwoordingsstukken worden methodisch opgeborgen en 7 jaar bewaard. 📖 Bestelbonnen vallen als verantwoordingsstukken onder beide bepalingen. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 315 WIB92; Art. III.86 WER; Art. 8 KB 21 oktober 2018"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr43"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -6294,7 +6446,61 @@
       "vraag_id": "2015-1-vr43"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** — een met redenen omkleed verzet, ingesteld bij gerechtsdeurwaardersexploot voor de rechtbank van eerste aanleg (fiscale kamer). Alleen een rechtsvordering (vordering in rechte) stuit de tenuitvoerlegging van een dwangbevel. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/VCF.md",
+                  "resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het dwangbevel is een uitvoerbare titel die de ontvanger toelaat om — na betekening bij gerechtsdeurwaardersexploot — over te gaan tot uitvoerend beslag. Alleen een **vordering in rechte** (juridische betwisting) kan de tenuitvoerlegging stuiten; een louter administratief bezwaar volstaat niet. 🔗\n\n**Per optie**:\n- **a** (bezwaarschrift bij de gewestelijke directie) → FOUT — een administratief bezwaar betwist de aanslag, maar stuit de invordering niet; bewarende beslagen en uitvoeringsmaatregelen blijven mogelijk. 🔗\n- **b** (verzoekschrift, verzet voor de rechtbank van eerste aanleg, fiscale kamer) → JUIST — het verzet tegen het dwangbevel is een rechtsvordering die voor de fiscale kamer van de rechtbank van eerste aanleg gebracht wordt; de termijn loopt vanaf de betekening van het dwangbevel. 📖\n- **c** (beroep bij de bevoegde controledienst) → FOUT — de controledienst is geen rechtscollege en heeft geen bevoegdheid om de tenuitvoerlegging te stuiten. 🤖\n- **d** (voorziening bij de Raad van State) → FOUT — fiscale geschillen vallen onder de bevoegdheid van de gewone rechtbanken (rechtbank van eerste aanleg → hof van beroep → Hof van Cassatie), niet onder de Raad van State. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Brusselse-Codex-Fiscale-Procedure.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Verwar **bezwaarschrift** (administratieve fase, betwist de aanslag, bij de gewestelijke directeur/adviseur-generaal) niet met **verzet tegen het dwangbevel** (gerechtelijke fase, betwist de invordering/uitvoerbaarheid, bij de rechtbank van eerste aanleg). Een bezwaarschrift schorst de invordering niet — de fiscus kan bewarende beslagen leggen tijdens de behandeling (art. 105 Brusselse Codex Fiscale Procedure, analoog art. 410 WIB92). Enkel een vordering in rechte stuit effectief de tenuitvoerlegging. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+                  "resources/bronnen/wetteksten/VCF.md",
+                  "resources/bronnen/wetteksten/WDRT.md",
+                  "resources/bronnen/wetteksten/Wetboek-Invordering.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Het principe staat in art. 221 W.Reg. (Brussels en Waals Gewest): \"De tenuitvoerlegging van het dwangbevel kan slechts worden gestuit door een vordering in rechte.\" 📖 Analoog WDRT art. 23.3 en VCF art. 3.10.3.2.1, dat preciseert dat de belastingschuldige binnen 30 dagen na betekening bij gerechtsdeurwaardersexploot een met redenen omkleed verzet kan instellen — voor de fiscale kamer van de rechtbank van eerste aanleg. Voor directe belastingen geldt dezelfde regel onder het (oude) art. 410 WIB92 en sinds 2020 het Wetboek Invordering (art. 22 inzake schorsing door verzet/hoger beroep). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 221 W.Reg.; VCF art. 3.10.3.2.1; WDRT art. 23.3; Wetboek Invordering art. 22"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr44"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -6361,7 +6567,54 @@
       "vraag_id": "2015-1-vr44"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:49:51Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Antwoord D** — geen van de voorgaande antwoorden is juist. 📖 De onderzoekstermijn inzake btw loopt parallel met de verjaringstermijn van de vordering tot voldoening van de belasting (art. 81bis WBTW), maar die termijn is **niet uniform**: basis 3 jaar, verlengd tot 4 jaar bij niet- of laattijdige aangifte, en uitzonderlijk 7 jaar (o.a. bij buitenlandse inlichtingen, rechtsvordering of bewijzen van fraude). Het is dus noch \"altijd 7 jaar\", noch \"altijd 15 jaar\", en de stelling dat er \"geen specifieke bepalingen\" zouden bestaan is onjuist — art. 81bis WBTW is precies zo'n specifieke bepaling.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie A** ❌ — onjuist op twee punten: (i) er bestaan wél specifieke bepalingen (art. 81bis WBTW regelt de verjaring, en de onderzoeksbevoegdheid van de administratie loopt binnen diezelfde kalenderjaartermijnen); (ii) de bewering dat \"controletermijnen gelijklopen met de verjaringstermijnen\" is feitelijk wel correct (de onderzoekstermijn = de verjaringstermijn van art. 81bis WBTW 🔗), maar de premisse \"dusdanig bestaan er geen specifieke bepalingen\" maakt de stelling als geheel fout. **Optie B** ❌ — fout: 7 jaar is een **uitzonderingstermijn** (art. 81bis, § 1, derde lid WBTW), niet de algemene regel; de basistermijn is 3 jaar. **Optie C** ❌ — fout: 15 jaar bestaat niet als btw-controletermijn; deze termijn behoort tot het civiele/strafrechtelijke verjaringsregime, niet tot de fiscale procedure btw. **Optie D** ✅ — bijgevolg de enige correcte keuze. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — De drie verjaringstermijnen van art. 81bis WBTW vormen een belangrijke parallel met de directe belastingen (art. 354 WIB92: 3 jaar gewoon, 4 jaar bij niet/laattijdige aangifte, 10 jaar bij fraude). De **systematiek is gelijkaardig** maar de **fraudetermijn verschilt**: 7 jaar voor btw, 10 jaar voor directe belastingen. 🔗 Sinds 2023 is voor specifieke complexe situaties (semi-complexe en complexe aangiften) in de directe belastingen overigens ook een 6- en 10-jaarstermijn ingevoerd — voor btw blijven de termijnen 3/4/7 jaar.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 81bis WBTW** — § 1, eerste lid: verjaring na het verstrijken van het **derde** kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid zich heeft voorgedaan (basistermijn 3 jaar). § 1, tweede lid: verlenging tot het **vierde** kalenderjaar bij niet-indiening of laattijdige indiening van de periodieke aangifte (art. 53, § 1, 1e lid, 2° WBTW). § 1, derde lid: **zevende** kalenderjaar bij o.a. (1°) inlichtingen/onderzoek/controle door een andere EU-lidstaat of verdragsstaat, (2°) een rechtsvordering die niet-aangegeven handelingen aantoont, (3°) bewijskrachtige gegevens van fraude. 📖 De onderzoeksbevoegdheid van de btw-administratie is gekoppeld aan deze verjaringstermijnen: zolang de vordering niet verjaard is, kan onderzoek worden gevoerd.",
+                "type": "grondslag"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr45"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -6427,7 +6680,56 @@
       "vraag_id": "2015-1-vr45"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:50:41Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **a** — de kopers verkrijgen slechts de **blote eigendom** (vruchtgebruik gaat naar de vennootschap). Het Brusselse abattement (art. 46bis W.Reg.) eist uitdrukkelijk de \"verkrijging van de **geheelheid in volle eigendom**\". Geen volle eigendom = geen recht op vermindering. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a** → **GEEN vermindering**. Art. 46bis vereist dat een natuurlijke persoon (of meerdere samen) de **geheelheid in volle eigendom** verkrijgt. Een opsplitsing blote eigendom (echtpaar) / vruchtgebruik (vennootschap) sluit het abattement zonder meer uit — de vennootschap is bovendien geen natuurlijke persoon. Het voordeel van alle aard wegens kosteloze bewoning verandert daar niets aan. 🔗\n- **b** → wél vermindering (mits naleving overige voorwaarden). Een onverdeeld aandeel in volle eigendom in een andere woning kan in beginsel het abattement beletten (voorwaarde \"niet reeds volledig in volle eigendom van een ander tot bewoning bestemd onroerend goed\"), maar de wettekst en de gevestigde administratieve interpretatie viseren vooral het bezit van een **volledige** woning; een **onverdeeld** aandeel verkregen via schenking belet de toepassing typisch niet wanneer dit aandeel niet de geheelheid is. Bovendien voorziet art. 212bis in teruggave bij latere vervreemding. 🔗\n- **c** → wél vermindering. Art. 46bis aanvaardt expliciet onroerende goederen die \"**geheel of gedeeltelijk** tot bewoning aangewend of bestemd\" zijn. Een gedeeltelijk professioneel gebruik (gelijkvloers = medische praktijk, twee verdiepingen = bewoning) sluit het abattement niet uit zolang de woning de hoofdverblijfplaats van de koper wordt. 📖\n- **d** → wél vermindering. De koper moet zijn hoofdverblijfplaats vestigen op het goed binnen de wettelijke termijn (destijds 2 jaar, vandaag 3 jaar). Het lopende huurcontract uitdoen tot 31.12.2015 (aankoop sep. 2014 → bewoning < 2 jaar) past binnen de termijn. 🔗\n- **e** → wél vermindering. De wet eist dat de **kopers** hun hoofdverblijfplaats vestigen en behouden in het goed; dat ook de schoonouders zich er tijdelijk domiciliëren is niet uitgesloten. Het abattement vereist géén exclusieve bewoning. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Onverdeeld aandeel in een andere woning (optie b) is een **klassieke valstrik**: studenten denken vaak dat dit automatisch uitsluit. De wet viseert echter het reeds **volledig** in volle eigendom hebben van een ander tot bewoning bestemd onroerend goed; een onverdeeld aandeel via erfenis/schenking is daarvoor doorgaans **niet** voldoende, en zelfs als het wel zou tellen, opent art. 212bis een teruggave-mogelijkheid bij vervreemding binnen 2 jaar. De **enige optie zonder enige ontsnappingsroute** is optie a: blote eigendom voldoet structureel niet aan de eis \"geheelheid in volle eigendom\". 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 46bis W.Reg. (Brussels Hoofdstedelijk Gewest): \"de belastbare grondslag [wordt] verminderd met [destijds 60.000 EUR; vandaag 200.000 EUR] in geval van verkrijging door een natuurlijke persoon van de **geheelheid in volle eigendom** van een **geheel of gedeeltelijk tot bewoning aangewend of bestemd** onroerend goed dat zal dienen tot **hoofdverblijfplaats** van de verkrijger\". Bijkomende voorwaarden (lid 5): (1°) geen volledig in volle eigendom hebben van een ander tot bewoning bestemd goed; (a–c) verklaring + verbintenis hoofdverblijfplaats te vestigen binnen termijn en te behouden ≥ 5 jaar. Art. 212bis W.Reg. — teruggave indien voorwaarde 1° pas later vervuld wordt door vervreemding. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 46bis + 212bis W.Reg. Brussels Hoofdstedelijk Gewest"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr46"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -6503,7 +6805,119 @@
       "vraag_id": "2015-1-vr46"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:50:27Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vrijdag 20 juni 2014** (optie b). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Mevrouw Martin overleed op 20 februari 2014 in België (Waals Gewest). Voor een overlijden in het Rijk geldt een aangiftetermijn van **vier maanden** vanaf de datum van overlijden 📖. Plaats van overlijden is voor de termijn niet relevant; bevoegd gewest = gewest van de fiscale woonplaats (Vlaanderen) 🔗. 20/02/2014 + 4 maanden = **20/06/2014** (vrijdag) 🔗. Opties a (22/07) en c (20/08) gaan uit van een onjuiste termijn van vijf of zes maanden ❌.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 40, lid 1 W.Succ.: \"De termijn voor de [verzending] van de aangifte van nalatenschap is **vier maand**, te rekenen van de datum van het overlijden, wanneer dit zich in het Rijk heeft voorgedaan; vijf maand [...] in een ander land van Europa, en zes maand [...] buiten Europa.\" 📖",
+                "type": "grondslag",
+                "wetsref": "art. 40 W.Succ."
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Actief = 0 EUR — geen passief** (optie d). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Op de overlijdensdatum (20/02/2014) was de **opschortende voorwaarde nog niet vervuld**: de aankoopverplichting bestond nog niet definitief en de aandelen behoorden niet tot het vermogen van de erflater 🔗. Bijgevolg is er op die datum **geen actief** (geen aandelen, geen vordering) **en geen passief** (geen vaststaande schuld tot betaling van 17.000 EUR) ten laste van de nalatenschap 🔗. Het ereloon van de accountant (2.420 EUR) is geen aannemelijk passief: art. 27 W.Succ. laat enkel **schulden bestaand op de dag van overlijden** en **begrafeniskosten** toe — een post-mortem ereloon valt daar niet onder 📖. Opties a/b/c zijn fout: zij rekenen de aandelen (a: aankoopprijs, b/c: latere verkoopprijs) of het ereloon mee, terwijl die op de aangiftedatum (binnen termijn a) nog buiten de nalatenschap vielen ❌.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — Toen de voorwaarde later wél vervuld werd (9 juli 2014, dus ná het overlijden maar binnen redelijke termijn), moet een **nieuwe aangifte** worden ingediend voor het bijgekomen actief (de aandelen) en het bijhorende passief (de aankoopprijs van 17.000 EUR), met als belastbare grondslag de waarde op het ogenblik van de vervulling. De latere meerwaarde (verkoop aan 22.500 EUR) is een verrichting **na** de nalatenschap en valt buiten de erfbelasting 🔗.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27 W.Succ.: \"Als aannemelijk passief [...] gelden slechts: 1° de op de dag van zijn overlijden bestaande schulden van de overledene; 2° de begrafeniskosten.\" 📖 — Art. 37, 2°-4° en art. 40, lid 4 W.Succ. voorzien een **nieuwe aangifte** bij het intreden van een opschortende voorwaarde na overlijden 🔗.",
+                "type": "grondslag",
+                "wetsref": "art. 27 + art. 37, 2°-4° W.Succ."
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Woensdag 20 augustus 2014** (optie b). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De betaling van de successierechten geschiedt binnen **twee maanden na het verstrijken van de aangiftetermijn van art. 40** 📖. Aangiftetermijn verstrijkt op 20/06/2014 (zie deelvraag a); + 2 maanden = **20/08/2014** (woensdag) 🔗. Opties a (22/07: te vroeg, lijkt 5-maanden-termijn zonder betalingstermijn) en c (22/09: rekent vermoedelijk vanaf de fictief verlengde aangiftetermijn) zijn fout ❌.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 77 W.Succ.: \"De betaling van de rechten van successie [...] geschiedt binnen de **twee maanden na de dag waarop de bij artikel 40 gestelde termijn verstreken is**. Valt de laatste dag op een sluitingsdag van de kantoren, dan wordt deze termijn verlengd tot de eerste openingsdag [...].\" 📖",
+                "type": "grondslag",
+                "wetsref": "art. 77 W.Succ."
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2015-1-vr47"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -6620,7 +7034,99 @@
       "vraag_id": "2015-1-vr47"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:50:36Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Optie **e** — **300.000 EUR**. Bij verkoop van de blote eigendom met voorbehoud van vruchtgebruik door de vervreemder geldt als minimum-belastbare grondslag de verkoopwaarde van de **volle** eigendom — niet de overeengekomen prijs van 186.000 EUR voor de blote eigendom alleen. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** (186.000 EUR — overeengekomen prijs) → FOUT. Dit is de overeenkomstige waarde van enkel de blote eigendom, maar art. 48 W.Reg. dwingt een minimum-grondslag op gelijk aan de volle eigendom om te beletten dat partijen via een laag aangegeven blote-eigendom-prijs de heffing uithollen. 🔗\n- **b** (16% van 300.000 EUR) → FOUT. 16% is een **tarief**, geen grondslag — de vraag peilt naar de **grondslag** (basis) waarop het tarief wordt toegepast. 🔗\n- **c** (geen grondslag, vast recht) → FOUT. Het betreft een overdracht onder bezwarende titel van een onroerend zakelijk recht, dus evenredig recht is verschuldigd. 🔗\n- **d** (4 × 16% van 300.000) → FOUT. Verzonnen formule zonder wettelijke basis. 🔗\n- **e** (300.000 EUR) → JUIST. Verkoopwaarde van de volle eigendom als minimumgrondslag, conform art. 48 W.Reg. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "**Twee verschillende minimumregels** naargelang wie het vruchtgebruik behoudt:\n\n- **Art. 48** (vruchtgebruik door vervreemder voorbehouden — zoals hier): minimumgrondslag = verkoopwaarde van de **volle** eigendom. Geen aftrek van het vruchtgebruik. 📖\n- **Art. 49** (vruchtgebruik **niet** voorbehouden, bv. gevestigd op een derde): minimumgrondslag = verkoopwaarde volle eigendom **minus** de overeenkomstig art. 47 forfaitair berekende waarde van het vruchtgebruik. 📖\n\nDe ratio: bij art. 48 keert het vruchtgebruik bij het einde gratis terug naar de blote eigenaar (consolidatie zonder bijkomende kost), dus economisch koopt hij quasi-volle eigendom. Dat is óók waarom een latere afstand van vruchtgebruik aan de blote eigenaar fiscaal niet meer als een tweede aankoop wordt behandeld zoals een eerste — zie deelvraag (b).",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 48 W.Reg.: \"Gaat de overeenkomst over de blote eigendom van een onroerend goed waarvan het vruchtgebruik door de vervreemder is voorbehouden, zo mag de belastbare grondslag niet lager zijn dan de verkoopwaarde van de volle eigendom.\" 📖 Voor Vlaanderen: art. 2.9.3.0.6 VCF (parallelle bepaling, maar verwijst naar art. 47-aftrek bij niet-voorbehoud).",
+                "type": "grondslag",
+                "wetsref": "Art. 48 W.Reg. (Brussel/Wallonië); art. 2.9.3.0.6 VCF (Vlaanderen)"
+              }
+            ],
+            "gekozen_optie_id": "e",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** — **250.000 EUR**. De afstand van het vruchtgebruik aan de blote eigenaar is een overdracht onder bezwarende titel van een zakelijk recht; de belastbare grondslag is de overeengekomen prijs (250.000 EUR), met als wettelijk minimum de verkoopwaarde van het **vruchtgebruik** zelf — niet die van de volle eigendom. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** (300.000 EUR — volle eigendom) → FOUT. Art. 48 W.Reg. (minimum = volle eigendom) is een specifieke regel voor **verkoop van blote eigendom met voorbehoud van vruchtgebruik**, niet voor de omgekeerde verrichting. Hier wordt het vruchtgebruik overgedragen — voorwerp = enkel het vruchtgebruik. 🔗\n- **b** (250.000 EUR — overeengekomen prijs) → JUIST. Algemene regel art. 45-46 W.Reg.: grondslag = overeengekomen prijs en lasten, met als minimum de verkoopwaarde van het overgedragen recht. De prijs 250.000 EUR is hoog (boven de art. 47-forfaitaire vruchtgebruikwaarde voor een 74-jarige op een goed van 300.000 EUR) en wordt aanvaard als grondslag. 🔗\n- **c** (436.000 EUR = 250.000 + oorspronkelijke blote-eigendom-prijs) → FOUT. Sommering met de **vroeger** betaalde blote-eigendom-prijs is verzonnen — die overdracht is reeds belast geweest in jaar 1. Klassieke valstrik. 🔗\n- **d** (geen grondslag, vast recht) → FOUT. Overdracht onder bezwarende titel van een onroerend zakelijk recht = evenredig recht. 🔗\n- **e** (300.000 EUR met vermindering tot beloop van vroeger betaalde rechten) → FOUT. Een dergelijke verrekening van vroeger betaalde rechten bestaat **niet** voor de consolidatie blote eigendom + vruchtgebruik. Verzonnen vermindering. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Vermeldenswaard",
+                "tekst": "**Civielrechtelijk gevolg**: door de afstand verenigt de blote eigenaar de twee hoedanigheden en eindigt het vruchtgebruik door **vermenging** (art. 617 BW). De blote eigenaar wordt volle eigenaar. Fiscaal-boekhoudkundig (CBN-advies 2015/5) telt hij de aanschaffingsprijs van het vruchtgebruik (250.000 EUR) op bij de boekwaarde van de blote eigendom en boekt de geheelheid voortaan op rekening 22 *Terreinen en gebouwen*. 📖 Voor het registratierecht blijft de grondslag echter beperkt tot wat in déze akte wordt overgedragen: het vruchtgebruik tegen 250.000 EUR.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md",
+                  "resources/bronnen/adviezen/CBN-2015-05-zakelijke-rechten-op-onroerende-goederen-vruchtgebruik-opstalrecht-erfpachtrecht.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 45-46 W.Reg.: belastbare grondslag = overeengekomen prijs en lasten, met als minimum de verkoopwaarde van het overgedragen goed/recht. 📖 Art. 48 (minimum = volle eigendom) is **niet** van toepassing op een afstand van vruchtgebruik aan de blote eigenaar — het regelt enkel de omgekeerde verrichting (verkoop blote eigendom met voorbehoud vruchtgebruik). 🔗 Civiel: art. 617 BW — vermenging van vruchtgebruiker en blote eigenaar beëindigt het vruchtgebruik.",
+                "type": "grondslag",
+                "wetsref": "Art. 45-46 W.Reg.; art. 617 BW"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2015-1-vr48"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -6728,7 +7234,216 @@
       "vraag_id": "2015-1-vr48"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar**. Nationaliteit is in de tie-breaker van art. 4, § 2 OESO-modelverdrag pas het **derde** criterium (c), niet het eerste. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Voor een natuurlijke persoon met dubbele woonplaats voorziet art. 4, § 2 een **cascade**: (a) staat met duurzaam tehuis; (b) staat van middelpunt der levensbelangen; (c) staat van gewoonlijk verblijf; (d) staat van nationaliteit; en pas daarna onderling overleg. 📖 Nationaliteit komt dus enkel in beeld als de eerste drie criteria geen uitsluitsel geven — \"steeds\" en \"zonder andere criteria\" maakt de stelling fout. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 4, § 2 OESO-modelverdrag (Resident — tie-breaker voor natuurlijke personen): cascade duurzaam tehuis → middelpunt der levensbelangen → gewoonlijk verblijf → nationaliteit → onderling overleg. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 4, § 2 OESO-modelverdrag"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar**. Een overheidspensioen aan een persoon met de **Belgische** nationaliteit blijft op grond van art. 19, § 2, a) OESO-modelverdrag belastbaar in België (de bronstaat). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 19, § 2, a) wijst overheidspensioenen voor vroegere overheidsdienst exclusief toe aan de bronstaat (de uitbetalende staat). 📖 De uitzondering in § 2, b) — belastbaar in de woonstaat — geldt **enkel** wanneer de gepensioneerde tegelijk **inwoner én onderdaan** is van die andere staat. 📖 De casus zegt uitdrukkelijk dat de betrokkene de **Belgische** nationaliteit heeft, dus de uitzondering bijt niet en België behoudt de heffingsbevoegdheid — ongeacht het feit dat hij inwoner is geworden van een verdragsland. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 19, § 2 OESO-modelverdrag (Government Service — pensioenen): bronstaatheffing als hoofdregel; woonstaatheffing enkel als de begunstigde *resident is of, and a national of* de andere staat. Art. 18 (privé-pensioenen, exclusief woonstaat) is hier uitdrukkelijk niet van toepassing wegens de \"subject to the provisions of paragraph 2 of Article 19\"-clausule. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 19, § 2 OESO-modelverdrag (juncto art. 18)"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar**. Een steengroeve is op grond van art. 5, § 2, f) OESO-modelverdrag **per definitie** een vaste inrichting — er geldt geen duur-vereiste van 6 maanden (noch van 12 maanden). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 5, § 2 noemt expliciet als voorbeelden van een vaste inrichting onder meer \"a mine, an oil or gas well, a **quarry** or any other place of extraction of natural resources\". 📖 Voor een steengroeve volstaat dus het bestaan van een vaste bedrijfsinrichting voor de winning — een minimumduur staat niet in de tekst. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met **art. 5, § 3**: daar geldt wél een drempel, namelijk **12 maanden**, maar enkel voor *bouw- of constructie- of installatieprojecten* (\"building site or construction or installation project\"). 📖 Een steengroeve is een extractieplaats (§ 2, f)), geen bouwwerf (§ 3) — de stelling verwart bovendien de termijn (6 ≠ 12 maanden). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 5, § 2, f) OESO-modelverdrag: \"a mine, an oil or gas well, a quarry or any other place of extraction of natural resources\" is een vaste inrichting. Art. 5, § 3: bouw-/installatieprojecten worden pas een vaste inrichting bij meer dan 12 maanden. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 5, § 2, f) en § 3 OESO-modelverdrag"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar**. Het OESO-modelverdrag in deze context is het *Model Tax Convention on **Income and on Capital*** — het dekt inkomsten- en vermogensbelasting, niet successierechten. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het toepassingsgebied (art. 2 OESO-modelverdrag) somt limitatief de belastingen op naar inkomen en vermogen waarop het verdrag van toepassing is. 🔗 Voor successie- en schenkrechten bestaat een **afzonderlijk** OESO-modelverdrag — het *Model Convention for the Avoidance of Double Taxation with Respect to Taxes on Estates and Inheritances and on Gifts* (1982). 🤖 De DBV's die België sluit naar het inkomstenmodel gelden dus niet voor successierechten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "OESO-modelverdrag — volledige titel: *Model Tax Convention on Income and on Capital* (Condensed Version 21 November 2017). Materieel toepassingsgebied: belastingen naar inkomen en naar vermogen (art. 2). Successie- en schenkrechten vallen onder een afzonderlijk OESO-model (1982). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 2 OESO-modelverdrag (Income and Capital)"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar**. Onroerende inkomsten **mogen** worden belast in de bronstaat (ligging-staat) — niet uitsluitend. De woonstaat behoudt eveneens heffingsbevoegdheid en vermijdt dubbele belasting via art. 23A/B. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 6, § 1 luidt: \"Income derived by a resident of a Contracting State from immovable property … situated in the other Contracting State **may be taxed** in that other State.\" 📖 De formulering \"may be taxed\" is **niet-exclusief**: ze geeft de bronstaat een heffingsrecht, maar sluit het heffingsrecht van de woonstaat niet uit. 🔗 Vergelijk met de \"taxable only in\"-formuleringen in art. 18 of art. 19 — daar is de toewijzing wél exclusief. 🔗 De effectieve vermijding van dubbele belasting verloopt vervolgens via art. 23A (vrijstelling) of art. 23B (verrekening) in de woonstaat. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 6, § 1 OESO-modelverdrag: onroerende inkomsten \"may be taxed\" in de ligging-staat — gedeeld heffingsrecht. Vermijding van dubbele belasting: art. 23A (vrijstellingsmethode) of art. 23B (verrekeningsmethode) in de woonstaat. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 6, § 1 + art. 23A/B OESO-modelverdrag"
+              }
+            ],
+            "id": "e",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar**. Een correctie op verrekenprijzen tussen een vaste inrichting en haar hoofdzetel betreft **dezelfde rechtspersoon** — dat is **economisch** dubbele belasting (binnen één belastingplichtige), en bovendien wel degelijk **vermijdbaar** via art. 7, § 3 (corresponderende correctie) en art. 25 (onderling overleg). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee fouten in de stelling. (i) **Kwalificatie**: juridische dubbele belasting = dezelfde belastingplichtige in twee staten op hetzelfde inkomen; economische dubbele belasting = twee verschillende belastingplichtigen op hetzelfde inkomen. 🤖 Een vaste inrichting heeft echter géén afzonderlijke rechtspersoonlijkheid — VI en hoofdzetel zijn dezelfde belastingplichtige, wat hier dus eerder een toerekeningsvraagstuk binnen dezelfde juridische entiteit is dan een klassiek art. 9-verrekenprijsgeval tussen twee verbonden ondernemingen. 🤖 (ii) **Onvermijdbaarheid**: art. 7, § 3 OESO-modelverdrag voorziet dat bij een winstcorrectie aan een VI in de ene staat, de andere staat een **corresponderende aanpassing** doorvoert; lukt dat niet, dan biedt art. 25 de *mutual agreement procedure* (MAP) als geschillenbeslechtingskader. 🔗 Dubbele belasting is dus principieel **vermijdbaar**, niet onvermijdbaar. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 7 OESO-modelverdrag (Business Profits — winsttoerekening aan vaste inrichting, met § 3 corresponderende aanpassing); art. 9 OESO-modelverdrag (Associated Enterprises — verrekenprijzen tussen verbonden ondernemingen); art. 25 OESO-modelverdrag (Mutual Agreement Procedure). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 7 + art. 9 + art. 25 OESO-modelverdrag"
+              }
+            ],
+            "id": "f",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2015-1-vr49"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -6823,7 +7538,57 @@
       "vraag_id": "2015-1-vr49"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Nee.** Richtlijn 2009/133/EG is niet van toepassing op deze verrichting: noch de overnemende ivzw, noch de over te nemen Spaanse caritatieve vzw kwalificeert als \"vennootschap van een lidstaat\" in de zin van art. 3 van de richtlijn. De vrijstelling van belasting over de meerwaarden op de Spaanse onroerende goederen kan dus niet op grond van deze richtlijn worden ingeroepen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 3 van richtlijn 2009/133/EG omschrijft \"vennootschap van een lidstaat\" via **drie cumulatieve voorwaarden**:\n\n- (a) een **rechtsvorm vermeld in bijlage I, deel A** (lijst van vennootschapsvormen per lidstaat — NV/SA, BV/SRL, CV/SC, SE, SCE, enz.); 📖\n- (b) fiscale **woonplaats in een lidstaat** (en niet, op grond van een dubbelbelastingverdrag met een derde land, geacht buiten de EU gevestigd te zijn); 📖\n- (c) **onderworpen aan een vennootschapsbelasting** uit de lijst in bijlage I, deel B (voor België: vennootschapsbelasting / impôt des sociétés; voor Spanje: impuesto sobre sociedades), zonder keuzemogelijkheid en zonder vrijstelling. 📖\n\n**Toepassing op de casus**:\n\n- De **ivzw naar Belgisch recht** is een *vereniging* (boek 10 WVV), geen vennootschap. Haar rechtsvorm staat **niet** in bijlage I, deel A. Bovendien is een ivzw in de regel onderworpen aan de **rechtspersonenbelasting** (art. 220 WIB 92), niet aan de vennootschapsbelasting vermeld in bijlage I, deel B — voorwaarde (c) faalt dus eveneens. 🔗\n- De **caritatieve vzw naar Spaans recht** is evenmin een in bijlage I, deel A genoemde rechtsvorm en is als non-profit doorgaans niet onderworpen aan de Spaanse impuesto sobre sociedades op de wijze die de richtlijn vereist. 🔗\n\nDoordat aan minstens twee van de drie cumulatieve voorwaarden van art. 3 niet is voldaan, valt de verrichting **buiten het toepassingsgebied** van de richtlijn. De fiscale neutraliteit (uitstel van belastingheffing over meerwaarden op overgedragen activa, zoals de Spaanse onroerende goederen) kan niet op de richtlijn worden gestoeld; de Spaanse interne fiscale wet bepaalt dan of er belasting verschuldigd is. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-13-boekhoudkundige-verwerking-van-fusies-tussen-verenigingen-en-stichtingen.md",
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Een herstructurering tussen een ivzw en een buitenlandse vzw is op het **vennootschapsrechtelijke** vlak wél mogelijk via boek 13 WVV (fusies/splitsingen van VZW's, IVZW's en stichtingen — zie CBN-advies 2022/13), maar dat **vennootschapsrechtelijke** kader staat los van het **fiscale** kader. De EU-fusierichtlijn 2009/133/EG dekt enkel verrichtingen tussen *kapitaalvennootschappen* uit de bijlage en zwijgt over verenigingen — er is op EU-niveau geen equivalente fiscale-neutraliteitsrichtlijn voor non-profit-herstructureringen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Richtlijn 2009/133/EG van de Raad van 19 oktober 2009, **art. 3** (definitie \"vennootschap van een lidstaat\" — drie cumulatieve voorwaarden a/b/c) en **bijlage I, deel A** (limitatieve lijst van rechtsvormen — kapitaalvennootschappen, SE, SCE; geen verenigingen) en **bijlage I, deel B** (limitatieve lijst van vennootschapsbelastingen — voor België: vennootschapsbelasting; voor Spanje: impuesto sobre sociedades). Voor de Belgische fiscale behandeling van een ivzw: art. 220 WIB 92 (rechtspersonenbelasting). 📖",
+                "type": "grondslag",
+                "wetsref": "Richtlijn 2009/133/EG art. 3 + bijlage I deel A en B"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2015-1-vr50"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

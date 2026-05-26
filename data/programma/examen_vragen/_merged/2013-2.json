@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-26T16:33:41+00:00",
+  "merge_datum": "2026-05-26T16:56:16+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -5443,7 +5443,372 @@
       "vraag_id": "2013-2-vr27"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aangenomen** voor het volledige bedrag van € 10.000, inclusief de € 2.500 repatriëringskosten van het lichaam. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 27, 2° W.Succ. (Waals Gewest) vermeldt **begrafeniskosten** uitdrukkelijk als aannemelijk passief, zonder bedragplafond. 📖 De repatriëring van het stoffelijk overschot uit Spanje is een noodzakelijke en rechtstreekse kost om de begrafenis (in Luik) te kunnen organiseren en wordt door rechtspraak en administratie aanvaard als onderdeel van de begrafeniskosten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27, 2° W.Succ. Waals Gewest — begrafeniskosten zijn aannemelijk passief. Art. 29 W.Succ. — het bewijs van de schuld (factuur ondernemer) volstaat. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27, 2° + Art. 29 W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p1",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet aangenomen** — € 2.000 vliegtickets zijn géén aannemelijk passief. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Reiskosten van erfgenamen om de begrafenis bij te wonen zijn **geen schuld van de overledene** (art. 27, 1° W.Succ.) en behoren niet tot de begrafeniskosten zelf (art. 27, 2°). 🔗 Het zijn persoonlijke kosten van de erfgenamen, niet van de nalatenschap. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27 W.Succ. Waals Gewest somt limitatief op wat aannemelijk passief is: (1) schulden van de overledene op de dag van overlijden en (2) begrafeniskosten. Reiskosten van erfgenamen vallen onder geen van beide categorieën. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27 W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p2",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet aangenomen** — € 1.000 huur ceremoniekledij van Hélène en haar gezin is géén aannemelijk passief. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Kledij voor de erfgenamen op de begrafenis is een **persoonlijke uitgave van de erfgenamen zelf**, geen kost van de begrafenis van de overledene. 🤖 Het is geen schuld van de erflater (art. 27, 1°) en valt niet onder de eigenlijke begrafeniskosten (art. 27, 2°), die de plechtigheid en de uitvaart als zodanig betreffen (kist, lijkdienst, grafzerk, …). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met **rouwkledij die de overledene zelf** zou hebben besteld of moeten betalen vóór zijn overlijden — dat zou wél een bestaande schuld zijn (art. 27, 1°). Hier gaat het om kledij van de erfgenamen, gedragen ná het overlijden. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27 W.Succ. Waals Gewest — limitatieve opsomming van aannemelijk passief. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27 W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p3",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aangenomen** — € 750 bloemen op de begrafenisplechtigheid behoren tot de begrafeniskosten. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bloemen die de begrafenisplechtigheid zelf opluisteren (kist, kerk, graf) worden door de administratie en de doctrine aanvaard als deel van de begrafeniskosten in de zin van art. 27, 2° W.Succ. 🔗 Het gaat om kosten **van de plechtigheid zelf**, niet om persoonlijke bloemstukken die erfgenamen achteraf op het graf zouden plaatsen.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27, 2° W.Succ. Waals Gewest — begrafeniskosten als aannemelijk passief. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27, 2° W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p4",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet aangenomen** — € 250 ereloon notaris voor het attest van erfopvolging is géén aannemelijk passief. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het attest van erfopvolging wordt **ná het overlijden** opgesteld op verzoek van de erfgenamen om de nalatenschap te kunnen vereffenen (deblokkering rekeningen, overschrijving onroerend goed). 🔗 Het is dus geen schuld die op de dag van het overlijden bestond (art. 27, 1° vereist *op de dag van zijn overlijden bestaande schulden*) 📖 en het is geen begrafeniskost. Het is een kost van de **vereffening van de nalatenschap**, gedragen door de erfgenamen.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Klassieke camouflage: een ereloon dat ná overlijden gefactureerd wordt voor het opmaken van de aangifte of het attest van erfopvolging lijkt 'rond de nalatenschap te draaien', maar voldoet niet aan de bestaansvoorwaarde van art. 27, 1°. Enkel honoraria voor diensten die de erflater zélf vóór zijn overlijden had besteld (en die op datum overlijden onbetaald waren) komen in aanmerking. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27, 1° W.Succ. Waals Gewest — alleen de op de dag van overlijden bestaande schulden van de overledene. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27, 1° W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p5",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet aangenomen** — € 2.500 stookolie geleverd op 15 oktober 2012 is géén aannemelijk passief. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het overlijden vond plaats op 1 augustus 2012; de stookolie werd op 15 oktober 2012 — dus **ná** het overlijden — besteld en geleverd door Johan. 🔗 Het is dan geen schuld van de overledene op de dag van zijn overlijden (art. 27, 1°), maar een uitgave van de erfgenaam Johan voor het onderhoud/verwarming van een goed dat ondertussen tot de **onverdeelde nalatenschap** behoort. 📖 Een dergelijke beheerskost gemaakt door een erfgenaam na overlijden valt buiten het aannemelijk passief in de zin van art. 27.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27, 1° W.Succ. Waals Gewest — bestaansvoorwaarde *op de dag van het overlijden*. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27, 1° W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p6",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aangenomen** — € 3.000 afrekening mede-eigendom. De algemene vergadering vond plaats op 30 juni 2012, vóór het overlijden (1 augustus 2012). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De **bestaansdatum** van de schuld is bepalend, niet de factuurdatum (afrekening 30/08/2012). 🔗 De afrekening werd afgesloten op 30 juni 2012 (datum AV mede-eigendom): de schuld van de overledene t.a.v. de mede-eigendom is op dat moment **vast en zeker** ontstaan en bestond dus op 1 augustus 2012, dag van overlijden. Daarmee voldoet ze aan art. 27, 1° W.Succ. 📖 De bewijslast (PV van de AV + afrekening) is in rechte toelaatbaar conform art. 29.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Niet laten misleiden door de factuurdatum 30/08/2012 (ná overlijden). Voor de aftrekbaarheid telt het moment waarop de schuld **juridisch is ontstaan**, niet wanneer de syndicus ze materieel heeft gefactureerd. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27, 1° + Art. 29 W.Succ. Waals Gewest — bestaansvoorwaarde + bewijsregeling. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27, 1° + Art. 29 W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p7",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aangenomen** — € 1.200 ereloon advocaat. Het mandaat dateert van 1 februari 2012 en het vonnis (definitief) van 15 juli 2012, beide vóór het overlijden. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De overledene heeft de advocaat zélf op 1 februari 2012 mandaat gegeven; het vonnis is op 15 juli 2012 geveld en op datum overlijden niet meer vatbaar voor beroep. 🔗 De ereloonschuld is dus juridisch ontstaan vóór 1 augustus 2012, ook al wordt de ereloonnota pas op 5 augustus 2012 (dagen na overlijden) opgesteld. 🔗 Dit is een **op de dag van overlijden bestaande schuld** in de zin van art. 27, 1° W.Succ. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 27, 1° + Art. 29 W.Succ. Waals Gewest — bestaande schuld + bewijs in rechte toelaatbaar (mandaat + vonnis). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 27, 1° + Art. 29 W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p8",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet aangenomen** — € 2.000 lening bij dochter Hélène. Schuld aangegaan ten behoeve van een erfgenaam: principieel uitgesloten door art. 33 W.Succ., zonder bestemmingsbewijs (art. 33, 2°). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 33 W.Succ. (Waals Gewest) sluit schulden van de overledene t.a.v. één van zijn erfgenamen **uitdrukkelijk uit** van het aannemelijk passief. 📖 De schuld kan slechts uitzonderlijk worden aangenomen als (1°) de echtheid bewezen is **én** (2°) de schuld als onmiddellijke en rechtstreekse oorzaak had de **verkrijging, verbetering, behoud of terugbekoming van een goed** dat op overlijdensdatum tot de nalatenschap behoorde. 🔗 De loutere schuldbekentenis bewijst hier alleen de echtheid (1°), maar er is geen aanwijzing dat de geleende som diende voor een nalatenschapsgoed (2° niet vervuld). De schuld blijft uitgesloten.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Een onderhandse schuldbekentenis tussen erflater en erfgenaam volstaat **niet** voor aftrek: art. 33 vereist **cumulatief** echtheid (1°) én bestemming (2°). Klassieke camouflage van familielening om passief op te blazen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 33 W.Succ. Waals Gewest — schulden aangegaan ten behoeve van een erfgenaam worden niet aangenomen, tenzij echtheid (1°) én bestemming voor verkrijging/verbetering/behoud/terugbekoming van een nalatenschapsgoed (2°) cumulatief bewezen worden. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 33 W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p9",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Aangenomen** — € 4.000 lening bij zoon Johan. De uitzondering van art. 33, 2° W.Succ. is vervuld: het geleende bedrag werd aangewend voor de vervanging van een venster van het woonhuis in Luik — een goed dat op overlijdensdatum tot de nalatenschap behoorde. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Schulden van de erflater t.a.v. een erfgenaam zijn in beginsel uitgesloten (art. 33, lid 1) 📖, maar worden tóch aangenomen als (1°) de **echtheid** bewezen is — hier door de schuldbekentenis — én (2°) de schuld als onmiddellijke en rechtstreekse oorzaak had de **verbetering of het behoud van een goed** dat op overlijdensdatum tot de boedel behoorde. 🔗 De aankoop/vervanging van een venster van het woonhuis in Luik (actief 1: € 200.000) voldoet aan deze bestemmingsvoorwaarde. Beide voorwaarden cumulatief vervuld → aannemelijk passief. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Tegenstelling met post 9: identieke vorm (schuldbekentenis t.b.v. een kind), maar verschillende **bestemming** maakt het verschil. Art. 33, 2° is de centrale screeningsvraag bij familieleningen — *waarvoor* werd het geld gebruikt? 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-Waals.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 33 W.Succ. Waals Gewest — uitzondering 2°: schuld aangegaan voor verkrijging, verbetering, behoud of terugbekoming van een goed dat op overlijdensdatum tot de boedel behoort. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 33, 2° W.Succ. (Waals Gewest)"
+              }
+            ],
+            "id": "p10",
+            "oordeel": true
+          }
+        ],
+        "vraag_id": "2013-2-vr28"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5581,7 +5946,127 @@
       "vraag_id": "2013-2-vr28"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Berekeningsgrondslag**: € 500.000 (de overeengekomen prijs, voor zover deze niet lager is dan de verkoopwaarde van het 1/3-aandeel). **Tarief**: **12,50 %** verkooprecht (art. 44 W.Reg. Brussel). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Xavier is een **derde** (geen mede-eigenaar, geen verwant). Bernadette draagt haar onverdeeld 1/3-aandeel onder bezwarende titel over aan een derde — dit is een **overdracht onder bezwarende titel van een onroerend goed** in de zin van art. 44 W.Reg. Brussel, niet een verdeling onder mede-eigenaars. 🔗\n\nDe **grondslag** is de overeengekomen prijs, met als minimum de verkoopwaarde van het overgedragen aandeel (art. 45-46 W.Reg.). Hier: prijs € 500.000; de verkoopwaarde van 1/3 op basis van de schatting bij overlijden (2007) bedroeg € 400.000, maar marktwaarden 2012 kunnen hoger liggen. Bij gebrek aan tegenindicatie wordt de prijs aanvaard → grondslag € 500.000. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 44 W.Reg. Brussel: \"Het recht wordt gesteld op 12,50 t.h. voor de verkopingen, ruilingen en alle overeenkomsten onder bezwarende titel, waarbij eigendom of vruchtgebruik van onroerende goederen wordt overgedragen.\" Grondslagregels: art. 45-46 (prijs en lasten, minimum verkoopwaarde). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 44 + art. 45-46 W.Reg. Brussel"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Anne (oorspronkelijke mede-eigenaar) treedt op als enige uit de onverdeeldheid → **verdelingsrecht** (art. 109 W.Reg. Brussel) van **1 %**. **Berekeningsgrondslag**: de **volledige verkoopwaarde van het onverdeelde goed** (de massa), d.i. ± € 1.500.000 (afgeleid uit de prijs: € 1.000.000 voor 2/3 ⇒ geheel € 1.500.000) — niet enkel de overgenomen 2/3. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee bewegingen tegelijk:\n\n- **Caroline → Anne** (1/3): afstand onder bezwarende titel **tussen mede-eigenaars** van een oorspronkelijke onverdeeldheid → valt onder art. 109 W.Reg. (verdelingsrecht 1 %). 🔗\n- **Xavier → Anne** (1/3): Xavier was de derde die in 2012 een onverdeeld deel had verkregen. Art. 113 W.Reg. wijkt af van art. 109 enkel **wanneer een derde een onverdeeld deel verkrijgt** (binnenkomende derde). Bij **uittreding** van die derde gaat men terug naar het normale regime: art. 109 → 1 %. 🔗\n\nDe operatie eindigt in **volledige opheffing van de onverdeeldheid** in hoofde van één persoon (Anne). Het verdelingsrecht slaat dan op de **massa**: de hele verkoopwaarde van het gebouw, ongeacht het aandeel dat Anne reeds bezat. Grondslag = € 1.500.000; recht = 1 % = € 15.000. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren: art. 113 W.Reg. viseert de **binnenkomst** van een derde in de onverdeeldheid (zoals Xavier in januari 2012 — toen was reeds 12,50 % verschuldigd op zijn 1/3). Het viseert **niet** de uittreding van die derde — daarvoor geldt opnieuw art. 109. Ook belangrijk: het verdelingsrecht wordt geheven op de **totale waarde van het verdeelde goed**, niet enkel op de overgenomen aandelen (anders dan bij een gewone verkoop). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 109 W.Reg. Brussel: \"Het recht wordt op 1 t.h. vastgesteld voor: 1° de gedeeltelijke of gehele verdelingen van onroerende goederen; 2° de afstanden onder bezwarende titel, onder medeëigenaars, van onverdeelde delen in onroerende goederen.\" Art. 113 wijkt enkel af bij verkrijging door een derde. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 109 (j° art. 113) W.Reg. Brussel"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja, identiek**: ook wanneer Xavier (de eerder binnengekomen derde) de delen van Anne en Caroline overneemt, geldt het **verdelingsrecht van 1 %** op de **volledige waarde** van het onverdeelde goed (± € 1.500.000). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 113, **tweede lid**, W.Reg. sluit de afwijking van art. 109 uitdrukkelijk uit \"wanneer de derde, aan wie de toebedeling of de afstand gedaan wordt, **met anderen het geheel van één of meer goederen heeft verkregen**\". 📖\n\nXavier voldoet aan deze uitzondering: hij heeft sinds januari 2012 **samen met Anne en Caroline** het geheel van het gebouw in onverdeeldheid (1/3-1/3-1/3). Hij is dus geen \"vreemde\" derde meer, maar mede-eigenaar van de huidige onverdeeldheid. Zijn overname valt dan onder het gewone regime van art. 109 → 1 % verdelingsrecht op de volledige verkoopwaarde. 🔗\n\nHet resultaat is fiscaal **identiek** aan punt b: zelfde grondslag (€ 1.500.000), zelfde tarief (1 %), zelfde recht (€ 15.000). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Het criterium voor art. 113 is dus niet \"is de overnemer een oorspronkelijk mede-erfgenaam?\" maar wél \"heeft de overnemer samen met de anderen het **geheel** van het goed verkregen?\". Xavier voldoet aan dat criterium (1/3 + 2/3 bestaande onverdeeldheid = geheel), waardoor hij fiscaal op gelijke voet staat met Anne. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-Brussel.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 113, tweede lid, W.Reg. Brussel (in fine): de afwijking-naar-verkooprecht geldt **niet** \"wanneer de derde, aan wie de toebedeling of de afstand gedaan wordt, met anderen het geheel van één of meer goederen heeft verkregen\". Toepassing: terug naar art. 109 → 1 %. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 113, tweede lid, W.Reg. Brussel"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          }
+        ],
+        "vraag_id": "2013-2-vr29"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5652,7 +6137,107 @@
       "vraag_id": "2013-2-vr29"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Boekjaar 2012** — Het Italiaans bijkantoor is een **vaste inrichting** in de zin van art. 5 OESO-modelverdrag; krachtens art. 7 OESO-MV behoort de bijkantoor-winst (en dus ook het verlies) tot Italië's belastingbevoegdheid en is zij in België krachtens art. 23A OESO-MV **bij verdrag vrijgesteld**. De Belgische vennootschap is echter belastbaar op haar **wereldwijde winst** (art. 5 WIB 92), zodat het Italiaanse verlies in het Belgische wereldwijd resultaat opgenomen wordt en — bij het ontbreken van vrijgestelde verdragwinst om het op aan te rekenen — **in mindering komt van de Belgische winst** van 2012. 🔗 **Boekjaar 2013** — De Italiaanse bijkantoor-winst is in principe **bij verdrag vrijgesteld** (art. 7 + 23A OESO-MV; aangifte VenB code 1433/1408 — \"bij verdrag vrijgestelde winst\"). Maar omdat het verlies van 2012 reeds in België in mindering kwam **en** in 2013 in Italië nogmaals fiscaal aftrekbaar is, geldt een **recapture-mechanisme** (art. 185, § 3 WIB 92 — destijds reeds in voege voor aanslagjaar 2014): de in 2013 in België vrij te stellen verdragwinst wordt **verhoogd met het bedrag van het in 2012 in België reeds afgetrokken Italiaans verlies**, zodat dat verlies effectief in België wordt **teruggenomen** en in 2013 belast. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stappen — boekjaar 2012**:\n\n1. Het bijkantoor voldoet aan art. 5, lid 2, b) OESO-MV (\"a branch\") — voorwaarden vervuld (vaste bedrijfsinrichting met volledige verkoopcyclus). 📖\n2. Onder art. 7, lid 1 OESO-MV mogen ondernemingswinsten toerekenbaar aan de vaste inrichting belast worden door de bronstaat (Italië). 📖\n3. België vermijdt de dubbele belasting door **vrijstelling met progressievoorbehoud** (art. 23A OESO-MV; in het feitelijke BE-IT-verdrag is dit de gangbare methode). 📖\n4. Voor de aangifte VenB 2012: het wereldwijd resultaat (BE-winst min IT-verlies) is positief en kleiner dan de BE-winst alleen → de Belgische belastbare grondslag wordt verminderd ten belope van het Italiaanse verlies. 🔗\n\n**Stappen — boekjaar 2013**:\n\n1. Italiaans resultaat 2013 = positief; in beginsel vrijgesteld via art. 23A OESO-MV → afzondering bij \"bij verdrag vrijgestelde winst\" in de driesplitsing (huidige codes 1433/1419/1430 — destijds vak III van de aangifte). 🔗\n2. **Recapture (art. 185, § 3 WIB 92)** — voor zover een buitenlands verlies in een vorig belastbaar tijdperk in mindering werd gebracht van de Belgische winst, wordt de latere verdragwinst niet meer vrijgesteld tot dat beloop. 🔗\n3. Resultaat: in 2013 wordt de Italiaanse bijkantoor-winst in België belast tot beloop van het 2012-verlies; het saldo (winst 2013 − teruggenomen verlies 2012) blijft vrijgesteld. ❓ — zie nuance hieronder.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "betwijfeld",
+                "kop": "Nuance",
+                "tekst": "**Tijdslijn art. 185, § 3 WIB 92** — de recapture-regel voor buitenlandse verliezen verbonden aan een via verdrag vrijgestelde vaste inrichting werd op zijn huidige vorm gebracht door de Wet van 11 december 2008 (omzetting Fusierichtlijn) en geldt voor verliezen geleden vanaf aanslagjaar 2010. In 2013 was de regel dus reeds van toepassing — het examen veronderstelt dit kader impliciet. Op verdragniveau steunt de recapture daarnaast op de **Velasquez-doctrine** (HvJ 15 mei 2008, C-414/06, *Lidl Belgium* en HvJ 23 oktober 2008, C-157/07, *Krankenheim Ruhesitz*): de vrijstelling mag worden hersteld wanneer het verlies in de bronstaat alsnog wordt verrekend. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar **vrijstellingsmethode** (art. 23A OESO-MV — België voor PE-winst) niet met de **verrekeningsmethode** (art. 23B OESO-MV — België voor passieve inkomsten zoals roerende inkomsten met FBB). Voor een Italiaanse vaste inrichting geldt vrijstelling met progressievoorbehoud, niet credit. 🔗 Tweede valkuil: het verlies wordt **niet** verrekend tegen latere **Belgische** winst — het wordt in 2012 onmiddellijk geneutraliseerd in het wereldwijd resultaat (geen overdracht-mechanisme nodig). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**OESO-modelverdrag**: art. 5 (vaste inrichting — een bijkantoor is uitdrukkelijk een PE, art. 5, lid 2, b) 📖; art. 7, lid 1 (ondernemingswinsten toerekenbaar aan de PE belastbaar in de bronstaat) 📖; art. 23A (vrijstellingsmethode in de woonstaat). 📖 **WIB 92**: art. 5 (wereldwijde belastbaarheid binnenlandse vennootschap); art. 185, § 3 (recapture van eerder in BE afgetrokken verlies van een verdragwinst-vrijgestelde inrichting) 🔗; art. 206/4 (driesplitsing van het resultaat naar oorsprong — Belgische / niet-vrijgestelde buitenlandse / verdragvrijgestelde winst) 📖. **Dubbelbelastingverdrag BE-Italië** (Overeenkomst 29 april 1983) volgt OESO-MV-stramien; vrijstellingsmethode voor PE-winst.",
+                "type": "grondslag",
+                "wetsref": "art. 5 + 7 + 23A OESO-MV; art. 5, 185 § 3, 206/4 WIB 92; DBV BE-IT 29 april 1983"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja — twee adviezen**: (1) **pas de voorafbetalingen aan** vanaf het ogenblik dat het bijkantoor structureel winst maakt, want vanaf 2013 wordt — door de recapture — opnieuw een aanzienlijk Belgisch belastbaar bedrag verwacht, zodat de huidige VA-raming (gemaakt zonder rekening met het bijkantoor) een **belastingvermeerdering wegens onvoldoende voorafbetalingen** (art. 218 WIB 92) zal oproepen; (2) **documenteer en monitor de winsttoerekening aan de PE** conform de OESO-richtlijnen voor toerekening (Authorised OECD Approach — art. 7, lid 2 OESO-MV 2010), zodat verschillen tussen de Italiaanse en Belgische winstbepaling later geen dubbele belasting (en evenmin dubbele niet-belasting) oproepen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Waarom de VA aanpassen?**\n\n- In 2012 hebben de bestaande VA waarschijnlijk de Belgische **enkelvoudige** winst gedekt; door de verliesimputatie was de werkelijke belasting lager → mogelijk **teveel** betaalde VA (terugbetaalbaar of overdraagbaar). 🔗\n- In 2013 doet zich het omgekeerde voor: door de recapture van het 2012-verlies wordt het Italiaans winst-aandeel tot dat beloop **belastbaar in België**, **bovenop** de overige Belgische winst. De VA voor 2013, geraamd zonder bijkantoor, zijn dan **structureel ontoereikend**. 🔗\n- Gevolg zonder bijsturing: **vermeerdering wegens onvoldoende voorafbetalingen** (art. 218 § 1 WIB 92 j° art. 157-168 WIB 92) — de fictieve aanslag wordt verhoogd met een percentage afhankelijk van het tekort en het kwartaal. 🔗\n\n**Toerekening — waarom monitoren?**\n\n- Art. 7, lid 2 OESO-MV legt het **separate enterprise** / arm's length-beginsel op voor de winsttoerekening aan de PE.\n- Bij divergerende toerekening tussen IT en BE kan een conflict ontstaan over hoeveel winst aan IT wordt toegerekend (en dus in BE vrijgesteld of teruggenomen). Goede transfer-documentatie en consistente analytische boekhouding van het bijkantoor zijn essentieel. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "De vennootschap kan voor de raming van haar VA voortaan rekening houden met (i) de **terugneming van het verlies** in 2013, (ii) de **vrijstelling** voor het saldo van de Italiaanse winst, en (iii) de **belasting in Italië** zelf (die louter de Italiaanse aangifte raakt — geen Belgische FBB op verdragvrijgestelde PE-winst). De gunstigste timing voor VA is **VA1** (eerste kwartaal): hoogste vermeerderingsbonus en dus laagste netto-kost om de tekorten van vorige kwartalen weg te werken. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**WIB 92**: art. 157-168 (regime van de voorafbetalingen — vermeerdering wegens ontoereikende VA, kwartaal-bonificaties) en art. 218 (vermeerdering van toepassing op vennootschappen, met uitzonderingen voor kleine vennootschappen in eerste drie boekjaren). 🔗 **OESO-MV**: art. 7, lid 2 (Authorised OECD Approach — winsttoerekening aan PE als ware zij een onafhankelijke onderneming). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 157-168, 218 WIB 92; art. 7, lid 2 OESO-MV"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr30"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5718,7 +6303,89 @@
       "vraag_id": "2013-2-vr30"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De Luxemburgse interesten **moeten** aangegeven worden bij de roerende inkomsten in de aangifte personenbelasting AJ 2014 (geen bevrijdende roerende voorheffing — die geldt enkel voor inkomsten waarop in België RV werd ingehouden). 🔗 De ingehouden \"Woonstaatheffing\" (35 % in 2013) wordt vermeld in het daarvoor bestemde vak en is **volledig verrekenbaar** met de Belgische personenbelasting; het eventuele overschot wordt **terugbetaald of overgedragen**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Redenering in drie stappen**:\n\n1. **Aangifteplicht** — Art. 313 WIB92: een rijksinwoner moet roerende inkomsten enkel níet aangeven wanneer er in België daadwerkelijk bevrijdende RV werd ingehouden. De Luxemburgse bank houdt geen Belgische RV in, dus de bruto-interesten moeten worden opgenomen in de aangifte (vak VII — inkomsten van kapitalen). 📖\n2. **Belastingtarief** — De aangegeven buitenlandse interesten worden in 2013 afzonderlijk belast tegen 25 % (art. 171, 2°ter WIB92, tarief inkomsten 2013), te verhogen met de aanvullende gemeentebelasting. 🔗\n3. **Verrekening van de woonstaatheffing** — Onder de Spaarrenterichtlijn 2003/48/EG (in voege tot 2015) hield Luxemburg, dat overgangsregeling met bronheffing toepaste, in 2013 een woonstaatheffing van **35 %** in en stortte 75 % daarvan door naar België; voor de spaarder is de heffing volledig verrekenbaar met de Belgische belasting **en bij overschot terugbetaalbaar** (art. 14 Richtlijn 2003/48/EG, omgezet in art. 22ter WIB92). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De \"Woonstaatheffing\" is **geen** klassieke buitenlandse bronheffing waarop het beperkte FBB (forfaitair gedeelte van buitenlandse belasting, art. 285 WIB92) van toepassing is, en evenmin de bronstaatheffing van het BE-LUX-dubbelbelastingverdrag (art. 11 DBV — 15 % bronstaatheffing op interesten). Het is een **richtlijn-specifieke** heffing met een eigen verrekenregime (art. 14 Spaarrenterichtlijn): **volledige verrekening + terugbetaling van het overschot**, los van enig DBV-tarief. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 313 WIB92 (aangifteplicht roerende inkomsten zonder Belgische RV). 📖 Art. 171, 2°ter WIB92 (25 % afzonderlijk tarief op interesten in 2013). 🔗 Richtlijn 2003/48/EG (Spaarrenterichtlijn) art. 11 (35 % bronheffing in overgangsregeling vanaf 1.7.2011) en art. 14 (verrekening + terugbetaling overschot in woonstaat). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 313 WIB92; art. 171 2°ter WIB92; art. 11 en 14 Richtlijn 2003/48/EG"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja.** Het overschot van de woonstaatheffing ten opzichte van de verschuldigde Belgische personenbelasting wordt in België **terugbetaald** (of, naar keuze van de belastingplichtige, verrekend met andere belastingschulden). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Art. 14 van de Spaarrenterichtlijn 2003/48/EG verplicht de woonstaat (België) om de in een andere lidstaat ingehouden bronheffing **volledig** te verrekenen met de eigen belasting op die interesten. Als die bronheffing (35 % op het bruto-bedrag) hoger is dan de Belgische belasting (25 % afzonderlijk tarief + aanvullende gemeentebelasting), is België verplicht het **verschil terug te betalen of te verrekenen** met andere fiscale schulden. Dit onderscheidt de woonstaatheffing van het gewone FBB van art. 285 WIB92, dat enkel verrekening tot beloop van de Belgische belasting toestaat zonder teruggave. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Sinds 1 januari 2015 past Luxemburg de uitwisseling van gegevens toe in plaats van de bronheffing; de Spaarrenterichtlijn 2003/48/EG werd ingetrokken door Richtlijn 2015/2060/EU en vervangen door de DAC2-richtlijn (automatische uitwisseling van financiële gegevens). Voor inkomsten 2013 (de vraag) gold echter nog **wél** de bronheffing van 35 % met verrekening en terugbetaling — een regime dat dus enkel voor historische aanslagjaren (tot AJ 2015) nog relevant kan zijn. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 14, lid 2 en 3 Richtlijn 2003/48/EG (Spaarrenterichtlijn): de woonstaat verleent een belastingkrediet gelijk aan de in de bronstaat ingehouden heffing; indien dit krediet hoger is dan de verschuldigde belasting, **betaalt de woonstaat het verschil terug** aan de uiteindelijk gerechtigde. 📖 Omgezet in Belgisch recht via art. 22ter WIB92 (intussen opgeheven na intrekking richtlijn).",
+                "type": "grondslag",
+                "wetsref": "Art. 14 Richtlijn 2003/48/EG; art. 22ter WIB92 (oud)"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr31"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5783,7 +6450,136 @@
       "vraag_id": "2013-2-vr31"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_cluster_note": "Canonical voor cluster 2.5-c1 (echt_duplicaat met 2014-1-vr39 — wateroverlast i.p.v. staking, 12 i.p.v. 10 dagen). Eén modelantwoord dekt beide.",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja**, de vraag om inlichtingen is regelmatig naar haar aard. Art. 323 WIB laat de administratie toe om bij een belastingplichtige inlichtingen op te vragen over **derden** (zelfs niet met name aangeduide groepen) met wie hij rechtstreeks of onrechtstreeks in betrekking is geweest uit hoofde van zijn beroepswerkzaamheid. Identiteit van leveranciers, aantallen en aankoopprijzen vallen daar zonder meer onder. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee regimes naast elkaar in het WIB:\n\n- **Art. 316 WIB** — vraag om inlichtingen aan de belastingplichtige zelf over **zijn eigen** fiscale toestand. 📖\n- **Art. 323 WIB** — vraag om inlichtingen aan diezelfde belastingplichtige (of een andere natuurlijke/rechtspersoon) over **derden** met wie hij in betrekking is geweest. 📖\n\nDe drie gevraagde elementen — identiteit leveranciers, aantal aangekochte ketels/schermen, aankoopprijs en korting — zijn typische derdeninlichtingen: ze dienen om de fiscale toestand van de leveranciers te controleren, niet die van de cliënt zelf. Art. 323 vereist enkel dat het gaat om verrichtingen waarin de aangezochte (rechts)persoon rechtstreeks of onrechtstreeks betrokken was — een aankoop bij een leverancier voldoet daaraan. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar art. 316 (eigen toestand, vaste termijn van 1 maand vanaf de 3de werkdag na verzending) niet met art. 323 (derden, termijn vrij door de administratie bepaald). Een examenvraag die de termijn van 1 maand ook op derdenonderzoek toepast, is fout. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 323 WIB 1992: de administratie mag van natuurlijke of rechtspersonen, binnen de door haar bepaalde termijn (verlengbaar wegens wettige redenen), de overlegging vorderen van inlichtingen over elke persoon of groep van personen — zelfs niet met name aangeduid — met wie zij rechtstreeks of onrechtstreeks in betrekking zijn geweest uit hoofde van hun verrichtingen of activiteiten. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 323 WIB 1992"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja**, de termijn is wettelijk. Voor een derdenonderzoek (art. 323 WIB) bepaalt de **administratie zelf** de antwoordtermijn — er is geen wettelijke minimumduur. Een termijn van 10 dagen (of 12 dagen in de variant van 2014-1-vr39) is dus rechtsgeldig. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het cruciale onderscheid:\n\n- **Art. 316 WIB** (eigen toestand): de termijn is **wettelijk vastgelegd** op één maand, te rekenen vanaf de derde werkdag na verzending van de vraag. 📖\n- **Art. 323 WIB** (derden): de wet zegt enkel \"binnen de door haar bepaalde termijn\" — de administratie bepaalt dus zelf hoe lang de geadresseerde krijgt. 📖\n\nDe wet stelt enkel als grens dat de termijn **redelijk** moet zijn (algemene beginselen van behoorlijk bestuur). In de praktijk is 10 of 12 dagen voor een gerichte vraag over een afgebakende productlijn (verwarmingsketels XYZ100 / Sumsang-schermen 123ZXY) doorgaans niet onredelijk. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "De rechter kan een door de administratie opgelegde termijn die manifest onredelijk kort is afkeuren op grond van het redelijkheidsbeginsel; in concreto zal dat bij 10-12 dagen voor afgebakende vragen zelden lukken. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 323 WIB 1992: \"binnen de door haar bepaalde termijn, welke wegens wettige redenen kan worden verlengd\". Geen wettelijke minimum- of standaardduur — vergelijk met de vaste maand-termijn van art. 316 WIB voor de belastingplichtige zelf. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 323 WIB 1992 (vgl. art. 316 WIB)"
+              }
+            ],
+            "id": "b",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Schriftelijk en gemotiveerd een verlenging vragen** binnen de oorspronkelijke termijn, met beroep op de **wettige reden** (staking / wateroverlast = overmacht: de stukken zijn fysiek onbereikbaar). Art. 323 WIB voorziet die verlenging uitdrukkelijk. Best aangetekend, met bewijsstukken (politievaststelling, verzekeringsattest, persbericht over de staking). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concrete stappen voor de cliënt:\n\n- **Reageer binnen de oorspronkelijke termijn** (10 of 12 dagen) — niet wachten tot de termijn verstreken is. 🔗\n- **Stuur een aangetekende brief** aan de bevoegde controleambtenaar met (i) verwijzing naar de vraag om inlichtingen, (ii) beschrijving van de overmachtssituatie, (iii) **vraag om verlenging** met opgave van de gevraagde nieuwe einddatum (bv. 3 weken na hervatting toegang). 🔗\n- **Voeg bewijsstukken bij**: voor staking → vakbondsbericht of persbericht over de piketten; voor wateroverlast → vaststelling brandweer/politie, foto's, verzekeringsdossier. 🔗\n- **Bevestig de bereidheid om mee te werken** zodra de stukken opnieuw raadpleegbaar zijn — passieve niet-antwoording riskeert een aanslag van ambtswege (art. 351 WIB) en administratieve boetes (art. 445 WIB). 🔗",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Een verlenging vragen is geen \"toestemming met terugwerkende kracht\": wie de oorspronkelijke termijn laat verstrijken zonder iets te doen, staat juridisch in gebreke — zelfs als de overmacht objectief vaststaat. Het schriftelijk **vooraf** vragen van uitstel is dus essentieel. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 323 WIB 1992: de door de administratie bepaalde termijn \"kan wegens wettige redenen worden verlengd\". Overmacht (stakingspiketten die toegang verhinderen, wateroverlast die het bedrijf onbereikbaar maakt) is een typische wettige reden. Sancties bij niet-medewerking: aanslag van ambtswege (art. 351 WIB) en administratieve geldboete (art. 445 WIB). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 323 WIB 1992 (verlenging); art. 351 + art. 445 WIB 1992 (sancties)"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-2-vr32"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "cluster_actie": "merge_one_antwoord",
@@ -5859,7 +6655,160 @@
       "vraag_id": "2013-2-vr32"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_cluster_note": "Canonical voor cluster 2.5-c2 (echt_duplicaat met 2014-1-vr40). Stellingen identiek qua inhoud; volgorde verschilt (2014-1: a/b/c/d = RV/ambtshalve/erfgenamen/ex-echtgenoot; 2013-2: a/b/c/d = RV/erfgenamen/ex-echtgenoot/ambtshalve).",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** Ook de verkrijger van de inkomsten kan bezwaar indienen tegen de roerende voorheffing — niet enkel de schuldenaar die ze moet inhouden. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 366 WIB92 verleent het bezwaarrecht aan de **belastingschuldige**. Voor de roerende voorheffing is dat principieel de schuldenaar van het inkomen (art. 261 WIB92), maar in een aantal gevallen is de verkrijger zelf de schuldenaar van de RV (art. 262 WIB92 — bv. RV op buitenlandse inkomsten geïnd in België). Bovendien is de RV een voorheffing die in hoofde van de verkrijger wordt verrekend (art. 280 WIB92): wanneer de inhouding zijn fiscale toestand raakt, heeft hij als belastingschuldige van de eindbelasting eveneens belang en bezwaarrecht. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 366 WIB92 (bezwaar door belastingschuldige) + art. 261-262 WIB92 (schuldenaars RV — incl. verkrijger in afwijkingsgevallen) + art. 280 WIB92 (verrekening RV bij verkrijger). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 366 WIB92; art. 261-262 WIB92; art. 280 WIB92"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** Het bezwaarschrift van één erfgenaam geldt enkel voor diens eigen aandeel in de belastingschuld, niet voor het geheel van de aanslag en evenmin voor de andere erfgenamen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "verondersteld",
+                "tekst": "Bij overlijden treden de erfgenamen elk voor hun erfdeel in de fiscale rechten en plichten van de overledene. Art. 366 WIB92 erkent het bezwaarrecht in hoofde van **de belastingschuldige** (en de echtgenoot op wiens goederen wordt ingevorderd / medeschuldenaar). Elke erfgenaam is belastingschuldige voor zijn eigen aandeel; een bezwaar van één erfgenaam bindt de andere erfgenamen dus niet en strekt zich niet automatisch uit tot de volledige aanslag. Wie de bezwaartermijn laat verstrijken, wordt voor zijn aandeel niet beschermd door het bezwaar van zijn medeërfgenaam. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar dit niet met art. 367 WIB92: dat artikel bepaalt dat één bezwaarschrift tegen een aanslag op betwiste **bestanddelen** van rechtswege geldt voor de andere aanslagen op dezelfde bestanddelen. Het gaat dáár over verschillende aanslagjaren bij dezelfde belastingschuldige, niet over verschillende erfgenamen die elk hun eigen aandeel moeten betwisten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 366 WIB92 (bezwaarrecht beperkt tot belastingschuldige / echtgenoot / medeschuldenaar) — elke erfgenaam handelt voor zijn eigen aandeel. Art. 367 WIB92 (uitbreidingseffect) ziet enkel op meerdere aanslagen op dezelfde bestanddelen, niet op meerdere erfgenamen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 366-367 WIB92"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**JUIST.** De echtgescheiden echtgenoot kan zelfstandig bezwaar indienen tegen een aanslag van vóór de echtscheiding, mits de belasting op zijn/haar goederen wordt ingevorderd. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 366 WIB92 verleent het bezwaarrecht expliciet niet alleen aan de belastingschuldige, maar óók aan **de echtgenoot op wiens goederen de aanslag wordt ingevorderd**. Die hoedanigheid blijft bestaan voor aanslagen die betrekking hebben op een aanslagjaar van vóór de uitspraak van de echtscheiding (toen er gemeenschappelijke aanslag was). De ex-echtgenoot heeft dan een eigen, autonoom bezwaarrecht — los van of de andere ex-echtgenoot al dan niet bezwaar heeft ingediend. De voorwaarde dat de belasting op zijn/haar goederen wordt ingevorderd is precies de in art. 366 vermelde voorwaarde. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 366 WIB92: \"De belastingschuldige, alsmede zijn echtgenoot op wiens goederen de aanslag wordt ingevorderd ... kan tegen het bedrag van de gevestigde aanslag ... schriftelijk bezwaar indienen.\" Dit autonoom bezwaarrecht overleeft de echtscheiding voor aanslagen die op de gewezen gemeenschap betrekking hebben. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 366 WIB92"
+              }
+            ],
+            "id": "c",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**FOUT.** Bij een **ambtshalve** aanslag wordt de termijn van zes maanden verlengd met drie maanden — de belastingplichtige moet dus **negen maanden** zonder beslissing afwachten voor hij rechtstreeks naar de rechtbank van eerste aanleg kan stappen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 1385undecies Ger.W. bepaalt dat een vordering bij de rechtbank van eerste aanleg slechts ontvankelijk is na het uitputten van het administratief beroep én — bij gebrek aan beslissing van de adviseur-generaal — na het verstrijken van een wachttermijn van **zes maanden**. Diezelfde bepaling verlengt die termijn met **drie maanden** wanneer de betwiste belasting van ambtswege werd gevestigd. De stelling negeert die verlenging en is dus onjuist. 🔗\n\nDe woorden \"te allen tijde\" zijn op zich correct — eens de wachttermijn verstreken is, geldt er geen vervaltermijn meer om de zaak voor de rechtbank te brengen — maar de fout zit in het cijfer **zes** maanden bij een ambtshalve aanslag. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Zes maanden geldt bij een **gewone** aanslag, negen maanden bij een **ambtshalve** aanslag. Een examenstelling die expliciet \"ambtshalve aangeslagen\" vermeldt én vervolgens \"zes maanden\" noemt, is een klassieke valstrik die de verlenging uit art. 1385undecies Ger.W. negeert. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 1385undecies Ger.W. (wachttermijn 6 maanden voor rechtstreeks beroep bij rechtbank van eerste aanleg, verlengd met 3 maanden bij ambtshalve aanslag) — samenlezen met art. 366 WIB92 (administratief beroep is verplicht voorgaande stap). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 1385undecies Ger.W.; art. 366 WIB92"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2013-2-vr33"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "cluster_actie": "merge_one_antwoord",

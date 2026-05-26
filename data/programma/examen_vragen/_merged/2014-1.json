@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2014-1.pdf",
   "examen_id": "2014-1",
-  "merge_datum": "2026-05-26T16:33:41+00:00",
+  "merge_datum": "2026-05-26T16:56:16+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -5802,7 +5802,68 @@
       "vraag_id": "2014-1-vr34"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Gebruik de techniek van de **aanwijzing van lastgever (commandverklaring)**: de neef heeft in het onderhandse compromis al voorbehouden te kopen \"voor zichzelf of een later aan te wijzen persoon\". De neef wijst nu de BVBA Mokka aan als werkelijke koper via een **authentieke akte van aanwijzing van lastgever (akte van command)**, gevolgd door de **authentieke verkoopakte**. Mits de aanwijzing tijdig en bij authentieke akte geschiedt, wordt slechts éénmaal het evenredig verkooprecht geheven; de aanwijzingsakte zelf is onderworpen aan het algemeen vast recht. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| # | Sub-instructie | Antwoord |\n|---|---|---|\n| 1 | Akte(n) en terminologie | (i) **Akte van aanwijzing van lastgever** (akte van command / *déclaration de command*); (ii) **authentieke akte van verkoop** van het onroerend goed. 🔗 |\n| 2 | Ondertekenende partijen | (i) Aanwijzingsakte: **de neef** (de aangever / lastnemer-command) verklaart de BVBA Mokka als lastgever; in de praktijk verschijnt ook de BVBA Mokka om de aanwijzing te aanvaarden. De verkoper hoeft niet te verschijnen (eenzijdige verklaring). (ii) Verkoopakte: **de verkoper** en **de BVBA Mokka** als aangewezen koper. 🔗 |\n| 3 | Vorm | Beide akten moeten **authentiek** (notariële akte) zijn. De aanwijzing **moet** verplicht authentiek om fiscaal als loutere aanwijzing te gelden (art. 158, 1°, b W.Reg. federaal / art. 2.9.6.0.1, 1°, b VCF). De verkoopakte van een onroerend goed moet authentiek om te kunnen worden overgeschreven op het hypotheekkantoor (overschrijving = tegenwerpelijkheid aan derden). 📖 |\n| 4 | Registratieplicht | **Ja, beide akten moeten worden geregistreerd.** De verkoopakte van een onroerend goed is verplicht ter registratie aangeboden; de akte van aanwijzing moet ter formaliteit worden aangeboden (of bij gerechtsdeurwaardersexploot betekend) uiterlijk de **eerste werkdag na** de dag van het compromis, anders wordt de aanwijzing fiscaal als een wederverkoop beschouwd. 📖 |\n| 5 | Tarief | **Verkoopakte: evenredig recht** (verkooprecht op onroerende goederen). **Aanwijzingsakte: vast recht** (algemeen vast recht), mits de wettelijke voorwaarden voor de vrijstelling van het evenredig recht zijn nageleefd; zo niet → **evenredig recht** (de aanwijzing wordt dan als wederverkoop belast → tweemaal verkooprecht). 🔗 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Mechanisme.** De neef trad bij het compromis op in eigen naam, maar met het voorbehoud om de werkelijke koper later aan te duiden — een klassieke clausule om de eigenaar de identiteit (en koopkracht) van de BVBA Mokka niet te laten kennen. Fiscaal kwalificeert dit als een **aanwijzing van lastgever**: de neef wordt geacht steeds als lasthebber van de uiteindelijk aangewezen lastgever (BVBA Mokka) te hebben gehandeld, zodat er juridisch **één enkele overdracht** plaatsvindt (verkoper → BVBA Mokka), niet twee opeenvolgende verkopen. 🔗\n\n**Strenge voorwaarden om fiscaal als loutere aanwijzing te kwalificeren** (art. 158, 1° W.Reg. federaal / art. 2.9.6.0.1, 1° VCF):\n\n- (a) het **voorbehoud** om een lastgever aan te wijzen moet **in de oorspronkelijke koopakte (het compromis) opgenomen** zijn — in casu vervuld door de clausule \"voor zichzelf of enige andere later aan te wijzen persoon\"; 📖\n- (b) de aanwijzing moet **bij authentieke akte** geschieden; 📖\n- (c) de aanwijzing moet **uiterlijk de eerste werkdag na** het compromis ter registratie worden aangeboden of bij gerechtsdeurwaardersexploot aan de ontvanger worden betekend. 📖\n\nWordt aan één van die drie voorwaarden niet voldaan, dan wordt de aanwijzing voor de toepassing van het Wetboek der Registratierechten **als een wederverkoop beschouwd** → tweemaal evenredig verkooprecht (eerste op compromis, tweede op de aanwijzing). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De korte termijn (**uiterlijk de eerste werkdag na het compromis**) is in de praktijk de meest gemiste voorwaarde — een onderhandse koop op vrijdag laat enkel de maandag toe om de authentieke akte van aanwijzing te verlijden en aan te bieden. Wordt die termijn niet gehaald, dan is het fiscale voordeel verloren en betaalt men het verkooprecht **tweemaal**. Sinds 1 januari 2015 is voor in het Vlaams Gewest gelegen goederen de Vlaamse Codex Fiscaliteit (art. 2.9.6.0.1, 1° VCF) van toepassing; voor goederen in het Brussels of Waals Gewest blijft art. 158, 1° W.Reg. federaal van toepassing — de voorwaarden zijn quasi identiek. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 158, 1° W.Reg. (federaal)** — vrijstelling van het evenredig recht voor de aanwijzing van lastgever (*déclaration de command*) mits (a) voorbehoud in de koopakte, (b) authentieke akte van aanwijzing, (c) registratie/betekening uiterlijk de eerste werkdag na het contract. Bij niet-naleving: aanwijzing = wederverkoop. **Art. 2.9.6.0.1, 1° VCF** — Vlaamse pendant, identieke voorwaarden, sinds 01.01.2015 van toepassing op in Vlaanderen gelegen onroerende goederen. Verkoopakten van onroerende goederen zijn verplicht ter registratie aangeboden en onderworpen aan het **evenredig verkooprecht**; de akte van aanwijzing aan het **algemeen vast recht** mits de voorwaarden vervuld zijn. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 158, 1° W.Reg. federaal; Art. 2.9.6.0.1, 1° VCF"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr35"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5857,7 +5918,77 @@
       "vraag_id": "2014-1-vr35"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "Examen 2014-1: overlijden 12-08-2012 — pre-VCF (Vlaamse Codex Fiscaliteit 2015), dus federaal Wetboek der Successierechten van toepassing voor de aangifteplicht (art. 38). De PNG pagina_02.png in _segmenten/ blijkt een fragment van een andere vraag (boekhouding); de tabelstructuur wordt afgeleid uit de interpretatie (kwaliteits_flags: tabel_in_pdf_zichtbaar + ocr_artefact).",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Persoon | Hoedanigheid |\n|---|---|\n| Echtgenote Anne | Wettelijke (reservataire) erfgenaam 🔗 |\n| Dochter | Wettelijke (reservataire) erfgenaam 🔗 |\n| Mevr. Tanghe (geheel roerende goederen) | Algemeen legataris onder algemene titel 🔗 |\n| Mevr. Martin (de personenauto) | Bijzonder legataris 🔗 |\n| Mevr. Cambier (volledige nalatenschap na aftrek) | Algemeen legataris 🔗 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De hoedanigheid van een testamentair begiftigde hangt af van de **omvang van de roeping** in het testament 🔗:\n- **Algemeen legataris**: krijgt het geheel van de nalatenschap, of het beschikbaar deel ervan. Mw. Cambier is geroepen tot 'de volledige nalatenschap na aftrek van de voorgaande legaten' — een vocatio universalis. Dat zij feitelijk minder ontvangt door samenloop met de andere legaten verandert haar roeping niet 🔗.\n- **Legataris onder algemene titel**: krijgt een **breuk** of een **categorie** van de nalatenschap (alle roerende of alle onroerende goederen, of een breuk daarvan). Mw. Tanghe krijgt 'het geheel van de roerende goederen' — typische categorie-legaat 🔗.\n- **Bijzonder legataris**: krijgt een **welbepaald goed** (een res certa). Mw. Martin krijgt de personenauto — één geïndividualiseerd goed 🔗.\n- **Wettelijke erfgenaam**: erft op grond van de wet (afstamming/huwelijk), los van enig testament. Anne (overlevende echtgenoot) en de dochter zijn beiden reservataire erfgenamen wier voorbehouden erfdeel het testament niet kan aantasten 🔗.\n\nDe kwalificatie 'begiftigde onder algemene titel' uit de tabel-opties is een term die in dit dossier niet van toepassing is — die slaat traditioneel op begiftigden van een schenking onder algemene titel bij leven, niet op testamentaire begiftigden.",
+                "type": "motivatie"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "| Persoon | Aangifteplicht? |\n|---|---|\n| Echtgenote Anne | **Ja** — wettelijke erfgenaam 📖 |\n| Dochter | **Ja** — wettelijke erfgenaam 📖 |\n| Mevr. Tanghe | **Nee** — legataris onder algemene titel valt onder de uitsluiting van art. 38, 1° W.Succ. 📖 |\n| Mevr. Martin | **Nee** — bijzonder legataris is uitgesloten 📖 |\n| Mevr. Cambier | **Ja** — algemeen legataris 📖 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 38, 1° van het Wetboek der Successierechten bepaalt dat de aangifte van successie ingeleverd moet worden 'door de erfgenamen, de algemene legatarissen en begiftigden, **met uitsluiting van alle andere legatarissen of begiftigden**' 📖. De drie aangifteplichtige categorieën zijn dus: (1) erfgenamen ab intestato (Anne, dochter), (2) algemene legatarissen (Cambier), (3) algemene begiftigden. Legatarissen onder algemene titel (Tanghe) en bijzondere legatarissen (Martin) zijn uitdrukkelijk uitgesloten 📖.\n\n**Subsidiair**: blijven de aangifteplichtigen in gebreke, dan kan de ontvanger bij aangetekende brief de legatarissen onder algemene of bijzondere titel verzoeken alsnog de aangifte in te dienen (art. 38, 2° lid W.Succ.) 📖. In dat geval krijgen Mw. Tanghe en Mw. Martin een **subsidiaire** aangifteplicht.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** ⚠ — het overlijden dateert van 12 augustus 2012, dus vóór de inwerkingtreding van de Vlaamse Codex Fiscaliteit (1 januari 2015). De aangifteplicht wordt beheerst door het **federale** Wetboek der Successierechten (art. 38), niet door de VCF art. 3.3.1.0.5 (die voor latere overlijdens in Vlaanderen dezelfde inhoudelijke regel hanteert) 🔗. De materiële inhoud is identiek, maar de juiste rechtsgrond per overlijdensdatum is een klassiek examenstrikje.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md",
+                  "resources/bronnen/wetteksten/BW-boek4-nalatenschappen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Hoedanigheid** — kwalificatie van legaten naar omvang van de roeping: algemeen / onder algemene titel / bijzonder (oud BW art. 1003-1010, thans BW Boek 4, art. 4.196-4.200). Reservataire erfgenamen (echtgenoot, afstammelingen): BW Boek 4 — wettelijke erfopvolging.\n\n**Aangifteplicht** — art. 38, 1° Wetboek der Successierechten (federaal, van toepassing op overlijden 2012): aangifte door erfgenamen, algemene legatarissen en algemene begiftigden, met uitsluiting van alle andere legatarissen en begiftigden. Subsidiaire aangifteplicht voor legatarissen onder algemene of bijzondere titel op aanmaning van de ontvanger (art. 38, 2° lid).",
+                "type": "grondslag"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2014-1-vr36"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5932,7 +6063,102 @@
       "vraag_id": "2014-1-vr36"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja**, de financieel directeur heeft gelijk: in jaar 2 wordt de Belgische vennootschap effectief belast op een **belastbare grondslag van 4.000** (Belgische winst 2.000 + recapture VI-verlies jaar 1 van 1.000 + niet-vrijgestelde Italiaanse VI-winst 1.000), hoewel de boekhoudkundige (wereldwijde) winst slechts 3.000 bedraagt. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Jaar 1** — toerekening van het VI-verlies:\n\n| Post | Bedrag |\n|---|---:|\n| Belgische winst | +2.000 |\n| VI Italië verlies | -1.000 |\n| Globaal (boekhoudkundig) resultaat | 1.000 |\n| Aanrekening verlies VI (art. 206/4 WIB 92): verlies in verdragsland → eerst op andere landen-winst → bij ontoereiken op Belgische winst | -1.000 op Belgische winst |\n| **Belgische belastbare grondslag jaar 1** | **1.000** |\n\nHet Italiaanse VI-verlies van 1.000 wordt in jaar 1 fiscaal aangerekend op de Belgische winst, omdat er geen andere verdrags-vrijgestelde winst was om het op te zetten (art. 206/4 WIB 92). 📖\n\n**Jaar 2** — recapture en globalisatie:\n\n| Post | Bedrag |\n|---|---:|\n| Belgische winst | +2.000 |\n| VI Italië winst | +1.000 |\n| Boekhoudkundige (wereldwijde) winst | 3.000 |\n| Recapture: het in jaar 1 op de Belgische winst aangerekende VI-verlies wordt nu \"teruggehaald\" — de VI-winst van jaar 2 wordt eerst aangewend om dat verlies te recupereren en is in die mate **niet vrijgesteld** | +1.000 (niet-bij-verdrag-vrijgestelde winst) |\n| **Belgische belastbare grondslag jaar 2** | **2.000 + 1.000 = 3.000 belastbaar in BE-tarief**, maar in de globale aangifte wordt de VI-winst eerst toegevoegd (4.000) en pas daarna de bij-verdrag-vrijgestelde fractie afgetrokken |\n\nMechaniek volgens de Belgische aangifte (art. 206/4 WIB 92 + commentaar): de wereldwijde winst 3.000 wordt globaal aangegeven; daarna wordt de VI-winst van 1.000 die nodig is om het in jaar 1 verrekende verlies te \"recupereren\" als **niet-vrijgestelde** buitenlandse winst behandeld (geen tweede aftrek toegestaan voor wat reeds in jaar 1 als verlies werd genoten). Pas wanneer in een volgend jaar de VI nog méér winst maakt dan het cumulatieve eerder verrekende verlies, wordt het surplus vrijgesteld. 🔗\n\nNetto-effect over de twee jaren: jaar 1 belast op 1.000 + jaar 2 belast op 3.000 = **4.000** Belgisch belastbaar over twee jaar, terwijl de cumulatieve wereldwijde winst 1.000 + 3.000 = 4.000 bedraagt. De recapture neutraliseert dus enkel het tijdelijke voordeel dat België in jaar 1 verleende. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De directeur spreekt over \"belast worden op 4.000\" — let op de interpretatie: het gaat om het **bedrag dat in de Belgische aangifte als belastbare grondslag wordt aangegeven na recapture** (Belgische winst 2.000 + recapture-fractie 1.000 + nog-niet-recupereerbaar deel 1.000 = 4.000 brutto-grondslag vóór aftrek van de bij-verdrag-vrijgestelde winst). Indien er in jaar 2 méér VI-winst zou zijn (bv. 1.500), dan zou enkel 1.000 als recapture niet-vrijgesteld blijven en de overige 500 wél bij verdrag vrijgesteld worden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+                  "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 206/4 WIB 92** — drie-oorsprongen-onderverdeling van de winst (Belgisch / niet-bij-verdrag-vrijgesteld buitenland / bij-verdrag-vrijgesteld buitenland), met **expliciete recapture-regel**: \"verliezen geleden in een land waarvoor de winst bij verdrag vrijgesteld is\" worden eerst aangerekend op de bij-verdrag-vrijgestelde winst van andere landen, en bij ontoereiken op de Belgische of niet-bij-verdrag-vrijgestelde winst — met als gevolg dat latere VI-winsten in dezelfde mate **niet** meer worden vrijgesteld tot het eerder verrekende verlies is gerecupereerd. 📖\n\n**Art. 7 OESO-Modelverdrag** — *Business Profits*: de winst van een onderneming is enkel belastbaar in de woonstaat, **tenzij** de onderneming in de andere staat een vaste inrichting heeft; in dat geval mag de andere staat de aan de VI toerekenbare winst belasten. 📖\n\n**Art. 23 A OESO** — *Exemption method* (toegepast in het BE-IT-verdrag): de woonstaat (België) stelt de in de bronstaat (Italië) belastbare VI-winst vrij. Het verdrag verhindert echter niet dat België intern (via art. 206/4 WIB 92) een **recapture-mechanisme** toepast voor verliezen die eerder met Belgische winst werden gecompenseerd — dit raakt niet de vrijstelling-an-sich maar herstelt het wereldwijde-winst-beginsel over meerdere jaren. 🔗",
+                "type": "grondslag",
+                "wetsref": "art. 206/4 WIB 92; art. 7 + art. 23 A OESO-Modelverdrag 2017; Verdrag BE-IT tot vermijding van dubbele belasting van 29.04.1983"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het OESO-modelverdrag wijst de heffingsbevoegdheid over **ondernemingswinsten van een vaste inrichting toe aan de bronstaat** (art. 7), terwijl de **woonstaat** die winst **vrijstelt** via de exemption-methode (art. 23 A) — maar de woonstaat behoudt het recht om **eerder gecompenseerde VI-verliezen** later via een recapture op te nemen in de belastbare grondslag, om het globale winstbeginsel over de tijd te respecteren. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Beginselen van de OESO-modelovereenkomst die hier samenkomen:**\n\n1. **Woonstaatbeginsel + bronstaatuitzondering voor VI's** (art. 7 §1 OESO): ondernemingswinsten zijn principieel belastbaar in de woonstaat (België), tenzij er een vaste inrichting in de bronstaat (Italië) is — dan mag Italië belasten wat aan die VI toerekenbaar is. 📖\n\n2. **Vrijstellingsmethode (exemption with progression)** — art. 23 A OESO: het verdrag België-Italië volgt de vrijstellingsmethode. België stelt de Italiaanse VI-winst principieel vrij van Belgische vennootschapsbelasting; in ruil belast Italië die VI-winst. Doel: dubbele belasting vermijden. 🔗\n\n3. **Globale-winst-beginsel van de woonstaat** (intern Belgisch recht, art. 206/4 WIB 92, niet door het verdrag verboden): België vertrekt voor de aangifte altijd van de **wereldwijde winst** (Belgisch + buitenlands) en past pas daarna de toewijzingsregels toe. Verliezen in een verdragsland worden in eerste instantie aangerekend op winst uit andere landen — dit is een **interne** Belgische volgorde die het OESO-verdrag onaangetast laat. 📖\n\n4. **Recapture-beginsel (terugname van eerder benut verlies)**: omdat het VI-verlies van jaar 1 (1.000) effectief de Belgische belastbare grondslag heeft verlaagd, mag België in een later jaar **niet tweemaal** voordeel laten ontstaan. Wanneer de VI weer winstgevend wordt, wordt het deel van de VI-winst dat overeenkomt met het eerder verrekende verlies **niet vrijgesteld** (1.000 in jaar 2), totdat het verlies volledig gerecupereerd is. Pas surplus daarboven valt opnieuw onder de verdragsvrijstelling. 🔗\n\n**Toepassing op de casus:**\n- Jaar 1: Italiaanse VI-verlies 1.000 wordt aangerekend op Belgische winst 2.000 → BE belast op 1.000. Italië heft niets (verlies).\n- Jaar 2: Italiaanse VI-winst 1.000 wordt door Italië belast (art. 7 OESO — bronstaatheffing). België vertrekt van de wereldwijde winst 3.000; van die wereldwijde winst is 1.000 VI-winst **niet vrijgesteld** wegens recapture (cfr. jaar 1) → BE belastbare grondslag = 2.000 (BE) + 1.000 (recapture) + 1.000 (VI-winst die wel in de aangifte komt vóór toepassing van de drie-oorsprongen-aftrek) = 4.000 vóór de definitieve vrijstellingsaftrek. Netto blijft de Belgische heffing beperkt tot 3.000 (2.000 BE + 1.000 recapture), maar in de aangifte verschijnt 4.000 als wereldwijd resultaat vóór vrijstelling. 🔗\n\nHet ogenschijnlijke verschil (boekhoudkundige winst 3.000 versus belastbare aangifte 4.000) is dus geen schending van het verdrag, maar het logische gevolg van de combinatie van: globaal-winst-aangifte (BE) + vrijstellingsmethode (OESO art. 23 A) + recapture van eerder genoten verlies-aftrek (intern recht). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Sommige stagiairs denken dat de vrijstellingsmethode (art. 23 A OESO) impliceert dat de Italiaanse VI-winst **nooit** in een Belgische belastbare basis verschijnt. Dat is onjuist: de winst wordt **wel** opgenomen in de wereldwijde winst en pas daarna afgetrokken als bij-verdrag-vrijgesteld inkomen. Bovendien blokkeert het verdrag niet dat België via art. 206/4 WIB 92 **eerder met Belgische winst gecompenseerde VI-verliezen** later recupereert door de overeenkomstige VI-winst niet vrij te stellen — een mechanisme dat het Hof van Justitie in arrest *Krankenheim Ruhesitz* (C-157/07, 2008) verenigbaar achtte met de vrijheid van vestiging. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+                  "resources/bronnen/wetteksten/OESO-Modelverdrag-condensed-2017.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 7 OESO-Modelverdrag 2017** — *Business Profits*: \"Profits of an enterprise of a Contracting State shall be taxable only in that State unless the enterprise carries on business in the other Contracting State through a permanent establishment situated therein.\" Bronstaat (IT) mag heffen op VI-winst; rest blijft in de woonstaat (BE). 📖\n\n**Art. 23 A OESO** — *Exemption method*: de woonstaat stelt het inkomen vrij dat overeenkomstig het verdrag in de bronstaat belastbaar is. Het BE-IT-verdrag van 29.04.1983 volgt deze methode voor ondernemingswinsten.\n\n**Art. 206/4 WIB 92** — interne Belgische volgorde van verliesaanrekening + impliciete recapture: \"Verliezen geleden in een land waarvoor de winst bij verdrag vrijgesteld is\" worden eerst op de bij-verdrag-vrijgestelde winst aangerekend, daarna op de Belgische / niet-bij-verdrag-vrijgestelde winst. Een latere VI-winst is dan in dezelfde mate **niet** opnieuw vrijgesteld tot het verlies gerecupereerd is. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 7 + art. 23 A OESO-Modelverdrag 2017; art. 206/4 WIB 92; Verdrag BE-IT 29.04.1983 tot vermijding van dubbele belasting"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2014-1-vr37"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5997,7 +6223,95 @@
       "vraag_id": "2014-1-vr37"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Beoordeling per scenario:\n\n| # | Scenario | Antwoord |\n|---|---|---|\n| 1 | Uitsluitend op de in België verwezenlijkte winsten, volgens de Belgische fusieregels | **Ja** 🔗 |\n| 2 | Op de winsten van de Duitse overnemende vennootschap, ongeacht waar verwezenlijkt (B of D) | **Neen** 🔗 |\n| 3 | Op de winsten van de Duitse overnemende vennootschap die in Duitsland worden verwezenlijkt | **Neen** 🔗 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Kernidee: de Fusierichtlijn dwingt **België als lidstaat van de inbrengende vennootschap** om zijn binnenlandse regels inzake verliesovername toe te passen op de **Belgische vaste inrichting** van de Duitse overnemende vennootschap die na de fusie ontstaat. De verliezen blijven dus 'gevangen' op Belgisch grondgebied — ze kunnen enkel worden afgezet tegen winsten van die Belgische vaste inrichting (Belgisch heffingsbevoegdheidsgebied), volgens de Belgische fusieregels. 🔗\n\n- **Scenario 1 — Ja**: dit is precies het mechanisme van art. 6 Richtlijn 2009/133/EG: de verliesovername gebeurt onder de Belgische regels (art. 206, §2 WIB92 — fusieneutraliteit + verliesbeperking pro rata fiscaal netto-actief), maar enkel ten belope van de winsten gerealiseerd door de Belgische vaste inrichting van de Duitse overnemer. 🔗\n- **Scenario 2 — Neen**: de Duitse winst van de overnemer valt buiten de Belgische fiscale jurisdictie; België mag haar verliezen niet 'meegeven' naar Duitsland. De richtlijn vereist alleen dat verliezen op Belgisch grondgebied bruikbaar blijven. 🔗\n- **Scenario 3 — Neen**: idem — Duits-bronwinst kan niet door Belgische verliezen worden afgezet. Duitsland is bovendien niet verplicht deze Belgische verliezen te aanvaarden (territorialiteitsbeginsel). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Het scenario veronderstelt dat de fusie in België een **vaste inrichting** doet ontstaan waaraan de activa/passiva van de gefusioneerde Belgische vennootschap worden toegerekend. Zonder zo'n Belgische vaste inrichting na fusie zijn de Belgische verliezen **definitief verloren** — art. 6 vereist niet dat de andere lidstaat een PE aanvaardt, het verplicht enkel de lidstaat van de inbrengende vennootschap zijn eigen verliesregels uit te breiden naar de PE indien die bestaat. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 6 Richtlijn 2009/133/EG**: \"Voor zover de lidstaat van de inbrengende vennootschap, indien de in artikel 1, onder a), bedoelde rechtshandelingen verricht werden tussen op zijn grondgebied gevestigde vennootschappen, bepalingen zou toepassen die de ontvangende vennootschap in staat stellen de fiscaal nog niet verrekende verliezen van de inbrengende vennootschap over te nemen, breidt die lidstaat deze bepalingen uit tot de overname van zulke verliezen door de vaste inrichtingen van de ontvangende vennootschap, die zich op zijn grondgebied bevinden.\" 📖\n\nBelgische uitvoeringsbepaling: art. 206, §2 WIB92 (overname recupereerbare verliezen bij fusie pro rata fiscaal netto-actief). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 6 Richtlijn 2009/133/EG; art. 206, §2 WIB92"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Toepasselijke bepaling: **art. 6 van Richtlijn 2009/133/EG** (overname van fiscaal nog niet verrekende verliezen bij grensoverschrijdende fusie). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Beginsel — fiscale neutraliteit binnen de bronstaat**: de Fusierichtlijn beoogt grensoverschrijdende fusies fiscaal even neutraal te behandelen als interne fusies, maar respecteert tegelijk de **territorialiteit van de heffingsbevoegdheid**. Verliezen ontstaan onder Belgische jurisdictie blijven verbonden aan Belgisch belastbaar resultaat. 🔗\n\n**Mechanisme van art. 6** (twee cumulatieve voorwaarden):\n1. **België moet voor zuiver-binnenlandse fusies** een verliesovername-regime toelaten (cf. art. 206, §2 WIB92 — herstructureringsneutraliteit met pro-rata-beperking op basis van fiscaal netto-actief). 🔗\n2. **Bij grensoverschrijdende fusie** is België verplicht datzelfde regime uit te breiden naar de **Belgische vaste inrichting** van de Duitse overnemende vennootschap — als die hier door de fusie ontstaat. 📖\n\n**Gevolg**: de fiscale verliezen volgen het Belgisch belastbaar substraat, niet de zetel van de overnemer. Ze kunnen dus uitsluitend benut worden tegen Belgische winsten van de Belgische vaste inrichting, volgens de Belgische fusieregels (scenario 1 = Ja). De richtlijn geeft geen aanspraak op verliesoverdracht naar Duitsland (scenario's 2 en 3 = Neen) — Duitsland mag, maar moet niet, deze verliezen toelaten op grond van het eigen recht (in de praktijk doet Duitsland dat niet, want § 8c KStG / territorialiteitsbeginsel). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Spiegelbepaling: **art. 10 Richtlijn 2009/133/EG** regelt het omgekeerde geval — verliezen van een buitenlandse vaste inrichting van de Belgische inbrengende vennootschap. Daar mag België de eerder afgetrokken verliezen van de PE 'recapture' bij overdracht. Samen vormen art. 6 + art. 10 het closed system: verliezen blijven gekoppeld aan de jurisdictie waar de winst belastbaar was. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-fusie-2009-133.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Richtlijn 2009/133/EG van de Raad van 19 oktober 2009** betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie):\n\n- **Art. 6** — verplichting voor de lidstaat van de inbrengende vennootschap om zijn verliesovername-regels uit te breiden naar vaste inrichtingen van de ontvangende vennootschap op zijn grondgebied. 📖\n- **Art. 1, a)** — toepassingsgebied: fusies waarbij vennootschappen van twee of meer lidstaten betrokken zijn. 📖\n\nBelgische uitvoeringsbepaling: **art. 206, §2 WIB92** (overname verrekenbare verliezen pro rata fiscaal netto-actief bij fusie). 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 1, a) en art. 6 Richtlijn 2009/133/EG; art. 206, §2 WIB92"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2014-1-vr38"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -6222,7 +6536,58 @@
       "vraag_id": "2014-1-vr40"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "betwijfeld",
+                "tekst": "Optie **e** — minst foute keuze: het kantoor moet antwoorden binnen **1 maand** (art. 62 WBTW). ❓ Strikt genomen is geen enkele optie volledig juist: art. 62 omvat óók inlichtingen \"in hoofde van derden\", terwijl e dat beperkt tot de eigen toestand. De termijn van 1 maand in e is wél correct; alle andere opties geven een foute termijn (c: geen, d: 20 dagen) of een foute hoofdregel (a: absoluut zwijgrecht, b: voorafgaande toestemming klant).",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n- **a** — FOUT. Het beroepsgeheim van de accountant ontheft hem niet van de algemene antwoordplicht in art. 62 WBTW. De boekhouding, bewijsstukken en belastingaangiftes van de klant vallen bovendien sowieso niet onder het beroepsgeheim. 🔗\n- **b** — FOUT. Art. 62 WBTW legt een autonome wettelijke verplichting op; voorafgaande schriftelijke toestemming van de klant is geen wettelijke voorwaarde. 🔗\n- **c** — FOUT op het termijn-element. De scope (eigen toestand én toestand van derden, mondeling of schriftelijk) is letterlijk uit art. 62 WBTW, maar de bewering \"geen wettelijke termijn\" klopt niet: er is wel degelijk een termijn van 1 maand (10 dagen bij rechten Schatkist in gevaar). 📖\n- **d** — FOUT. De termijn van 20 dagen bestaat niet in art. 62 WBTW. De wettelijke termijn is 1 maand (uitzonderlijk 10 dagen). 🔗\n- **e** — Termijn (1 maand) correct, maar scope te eng: art. 62 verplicht antwoorden zowel over de eigen toestand als over de toestand van derden. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Het beroepsgeheim van de accountant (art. 458 Sw. + ITAA-deontologie) is **geen** vrijgeleide om fiscale inlichtingenverzoeken te weigeren. De ITAA-norm bevestigt dat de fiscale controlebevoegdheden \"geen enkele uitzondering op het beroepsgeheim met zich meebrengen\" — maar dat betekent enkel dat documenten die *werkelijk* onder het beroepsgeheim vallen (vertrouwelijke confidenties) niet hoeven te worden overhandigd. De gewone boekhoudstukken, dagboeken, rekeningen en belastingaangiftes van de klant vallen **niet** onder het beroepsgeheim en moeten dus wel worden meegedeeld. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md",
+                  "resources/bronnen/normen/ITAA-deontologie-beroepsgeheim.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 62 WBTW**: \"Onverminderd het recht van de administratie ... tot het vragen van mondelinge inlichtingen, is eenieder gehouden, op ieder verzoek van de ambtenaren ..., binnen een maand vanaf de derde werkdag volgend op de verzending van de vraag om inlichtingen, ... schriftelijk alle inlichtingen te verschaffen die hem gevraagd worden teneinde de juiste heffing van de belasting in zijnen hoofde of in hoofde van derden na te gaan.\" Termijn teruggebracht tot 10 dagen wanneer de rechten van de Schatkist in gevaar zijn. 📖 ITAA-deontologie bevestigt dat het beroepsgeheim geen ontheffing is van deze fiscale antwoordplicht, maar wél een hindernis vormt voor de overdracht van stukken die werkelijk onder het beroepsgeheim vallen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 62 WBTW; ITAA-deontologie-beroepsgeheim §11"
+              }
+            ],
+            "gekozen_optie_id": "e",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr41"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

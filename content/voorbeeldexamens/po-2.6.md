@@ -8,7 +8,7 @@ gegenereerd_op: 2026-05-26
 
 # PO 2.6 — Registratie- en successierechten
 
-**11 unieke vraag-eenheden** uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 1 met modelantwoord
+**11 unieke vraag-eenheden** uit 6 examens (2003-bibf, 2008-bibf, 2013-1, 2013-2, 2014-1, 2015-1) — 11 met modelantwoord
 
 <a id="2015-1-vr46"></a>
 
@@ -27,7 +27,22 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: a**
+> > 
+> > **_Optie **a** — de kopers verkrijgen slechts de **blote eigendom** (vruchtgebruik gaat naar de vennootschap). Het Brusselse abattement (art. 46bis W.Reg.) eist uitdrukkelijk de "verkrijging van de **geheelheid in volle eigendom**". Geen volle eigendom = geen recht op vermindering. 🔗_**
+> > 
+> > **Per optie**:
+> > 
+> > - **a** → **GEEN vermindering**. Art. 46bis vereist dat een natuurlijke persoon (of meerdere samen) de **geheelheid in volle eigendom** verkrijgt. Een opsplitsing blote eigendom (echtpaar) / vruchtgebruik (vennootschap) sluit het abattement zonder meer uit — de vennootschap is bovendien geen natuurlijke persoon. Het voordeel van alle aard wegens kosteloze bewoning verandert daar niets aan. 🔗
+> > - **b** → wél vermindering (mits naleving overige voorwaarden). Een onverdeeld aandeel in volle eigendom in een andere woning kan in beginsel het abattement beletten (voorwaarde "niet reeds volledig in volle eigendom van een ander tot bewoning bestemd onroerend goed"), maar de wettekst en de gevestigde administratieve interpretatie viseren vooral het bezit van een **volledige** woning; een **onverdeeld** aandeel verkregen via schenking belet de toepassing typisch niet wanneer dit aandeel niet de geheelheid is. Bovendien voorziet art. 212bis in teruggave bij latere vervreemding. 🔗
+> > - **c** → wél vermindering. Art. 46bis aanvaardt expliciet onroerende goederen die "**geheel of gedeeltelijk** tot bewoning aangewend of bestemd" zijn. Een gedeeltelijk professioneel gebruik (gelijkvloers = medische praktijk, twee verdiepingen = bewoning) sluit het abattement niet uit zolang de woning de hoofdverblijfplaats van de koper wordt. 📖
+> > - **d** → wél vermindering. De koper moet zijn hoofdverblijfplaats vestigen op het goed binnen de wettelijke termijn (destijds 2 jaar, vandaag 3 jaar). Het lopende huurcontract uitdoen tot 31.12.2015 (aankoop sep. 2014 → bewoning < 2 jaar) past binnen de termijn. 🔗
+> > - **e** → wél vermindering. De wet eist dat de **kopers** hun hoofdverblijfplaats vestigen en behouden in het goed; dat ook de schoonouders zich er tijdelijk domiciliëren is niet uitgesloten. Het abattement vereist géén exclusieve bewoning. 🔗
+> > 
+> > Onverdeeld aandeel in een andere woning (optie b) is een **klassieke valstrik**: studenten denken vaak dat dit automatisch uitsluit. De wet viseert echter het reeds **volledig** in volle eigendom hebben van een ander tot bewoning bestemd onroerend goed; een onverdeeld aandeel via erfenis/schenking is daarvoor doorgaans **niet** voldoende, en zelfs als het wel zou tellen, opent art. 212bis een teruggave-mogelijkheid bij vervreemding binnen 2 jaar. De **enige optie zonder enige ontsnappingsroute** is optie a: blote eigendom voldoet structureel niet aan de eis "geheelheid in volle eigendom". 🔗
+> > 
+> > *Art. 46bis W.Reg. (Brussels Hoofdstedelijk Gewest): "de belastbare grondslag [wordt] verminderd met [destijds 60.000 EUR; vandaag 200.000 EUR] in geval van verkrijging door een natuurlijke persoon van de **geheelheid in volle eigendom** van een **geheel of gedeeltelijk tot bewoning aangewend of bestemd** onroerend goed dat zal dienen tot **hoofdverblijfplaats** van de verkrijger". Bijkomende voorwaarden (lid 5): (1°) geen volledig in volle eigendom hebben van een ander tot bewoning bestemd goed; (a–c) verklaring + verbintenis hoofdverblijfplaats te vestigen binnen termijn en te behouden ≥ 5 jaar. Art. 212bis W.Reg. — teruggave indien voorwaarde 1° pas later vervuld wordt door vervreemding. 📖*  
+> > *Bron: Art. 46bis + 212bis W.Reg. Brussels Hoofdstedelijk Gewest*
 
 <a id="2015-1-vr47"></a>
 
@@ -44,7 +59,14 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: b**
+> > 
+> > **_**Vrijdag 20 juni 2014** (optie b). 📖_**
+> > 
+> > Mevrouw Martin overleed op 20 februari 2014 in België (Waals Gewest). Voor een overlijden in het Rijk geldt een aangiftetermijn van **vier maanden** vanaf de datum van overlijden 📖. Plaats van overlijden is voor de termijn niet relevant; bevoegd gewest = gewest van de fiscale woonplaats (Vlaanderen) 🔗. 20/02/2014 + 4 maanden = **20/06/2014** (vrijdag) 🔗. Opties a (22/07) en c (20/08) gaan uit van een onjuiste termijn van vijf of zes maanden ❌. 🔗
+> > 
+> > *Art. 40, lid 1 W.Succ.: "De termijn voor de [verzending] van de aangifte van nalatenschap is **vier maand**, te rekenen van de datum van het overlijden, wanneer dit zich in het Rijk heeft voorgedaan; vijf maand [...] in een ander land van Europa, en zes maand [...] buiten Europa." 📖*  
+> > *Bron: art. 40 W.Succ.*
 >
 > Vermeld het actief en het passief van de nalatenschap te aan te geven in de aangifte van nalatenschap ingediend binnen de sub a) gestelde termijn.
 > 
@@ -55,7 +77,16 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: d**
+> > 
+> > **_**Actief = 0 EUR — geen passief** (optie d). 🔗_**
+> > 
+> > Op de overlijdensdatum (20/02/2014) was de **opschortende voorwaarde nog niet vervuld**: de aankoopverplichting bestond nog niet definitief en de aandelen behoorden niet tot het vermogen van de erflater 🔗. Bijgevolg is er op die datum **geen actief** (geen aandelen, geen vordering) **en geen passief** (geen vaststaande schuld tot betaling van 17.000 EUR) ten laste van de nalatenschap 🔗. Het ereloon van de accountant (2.420 EUR) is geen aannemelijk passief: art. 27 W.Succ. laat enkel **schulden bestaand op de dag van overlijden** en **begrafeniskosten** toe — een post-mortem ereloon valt daar niet onder 📖. Opties a/b/c zijn fout: zij rekenen de aandelen (a: aankoopprijs, b/c: latere verkoopprijs) of het ereloon mee, terwijl die op de aangiftedatum (binnen termijn a) nog buiten de nalatenschap vielen ❌. 🔗
+> > 
+> > **Vermeldenswaard** — Toen de voorwaarde later wél vervuld werd (9 juli 2014, dus ná het overlijden maar binnen redelijke termijn), moet een **nieuwe aangifte** worden ingediend voor het bijgekomen actief (de aandelen) en het bijhorende passief (de aankoopprijs van 17.000 EUR), met als belastbare grondslag de waarde op het ogenblik van de vervulling. De latere meerwaarde (verkoop aan 22.500 EUR) is een verrichting **na** de nalatenschap en valt buiten de erfbelasting 🔗. 🔗
+> > 
+> > *Art. 27 W.Succ.: "Als aannemelijk passief [...] gelden slechts: 1° de op de dag van zijn overlijden bestaande schulden van de overledene; 2° de begrafeniskosten." 📖 — Art. 37, 2°-4° en art. 40, lid 4 W.Succ. voorzien een **nieuwe aangifte** bij het intreden van een opschortende voorwaarde na overlijden 🔗.* 📖  
+> > *Bron: art. 27 + art. 37, 2°-4° W.Succ.*
 >
 > **Welke is de uiterste datum voor de betaling van de successierechten?**
 > 
@@ -65,7 +96,14 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: b**
+> > 
+> > **_**Woensdag 20 augustus 2014** (optie b). 📖_**
+> > 
+> > De betaling van de successierechten geschiedt binnen **twee maanden na het verstrijken van de aangiftetermijn van art. 40** 📖. Aangiftetermijn verstrijkt op 20/06/2014 (zie deelvraag a); + 2 maanden = **20/08/2014** (woensdag) 🔗. Opties a (22/07: te vroeg, lijkt 5-maanden-termijn zonder betalingstermijn) en c (22/09: rekent vermoedelijk vanaf de fictief verlengde aangiftetermijn) zijn fout ❌. 🔗
+> > 
+> > *Art. 77 W.Succ.: "De betaling van de rechten van successie [...] geschiedt binnen de **twee maanden na de dag waarop de bij artikel 40 gestelde termijn verstreken is**. Valt de laatste dag op een sluitingsdag van de kantoren, dan wordt deze termijn verlengd tot de eerste openingsdag [...]." 📖*  
+> > *Bron: art. 77 W.Succ.*
 
 <a id="2015-1-vr48"></a>
 
@@ -84,7 +122,27 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: e**
+> > 
+> > **_Optie **e** — **300.000 EUR**. Bij verkoop van de blote eigendom met voorbehoud van vruchtgebruik door de vervreemder geldt als minimum-belastbare grondslag de verkoopwaarde van de **volle** eigendom — niet de overeengekomen prijs van 186.000 EUR voor de blote eigendom alleen. 📖_**
+> > 
+> > Per optie:
+> > 
+> > - **a** (186.000 EUR — overeengekomen prijs) → FOUT. Dit is de overeenkomstige waarde van enkel de blote eigendom, maar art. 48 W.Reg. dwingt een minimum-grondslag op gelijk aan de volle eigendom om te beletten dat partijen via een laag aangegeven blote-eigendom-prijs de heffing uithollen. 🔗
+> > - **b** (16% van 300.000 EUR) → FOUT. 16% is een **tarief**, geen grondslag — de vraag peilt naar de **grondslag** (basis) waarop het tarief wordt toegepast. 🔗
+> > - **c** (geen grondslag, vast recht) → FOUT. Het betreft een overdracht onder bezwarende titel van een onroerend zakelijk recht, dus evenredig recht is verschuldigd. 🔗
+> > - **d** (4 × 16% van 300.000) → FOUT. Verzonnen formule zonder wettelijke basis. 🔗
+> > - **e** (300.000 EUR) → JUIST. Verkoopwaarde van de volle eigendom als minimumgrondslag, conform art. 48 W.Reg. 📖
+> > 
+> > **Twee verschillende minimumregels** naargelang wie het vruchtgebruik behoudt:
+> > 
+> > - **Art. 48** (vruchtgebruik door vervreemder voorbehouden — zoals hier): minimumgrondslag = verkoopwaarde van de **volle** eigendom. Geen aftrek van het vruchtgebruik. 📖
+> > - **Art. 49** (vruchtgebruik **niet** voorbehouden, bv. gevestigd op een derde): minimumgrondslag = verkoopwaarde volle eigendom **minus** de overeenkomstig art. 47 forfaitair berekende waarde van het vruchtgebruik. 📖
+> > 
+> > De ratio: bij art. 48 keert het vruchtgebruik bij het einde gratis terug naar de blote eigenaar (consolidatie zonder bijkomende kost), dus economisch koopt hij quasi-volle eigendom. Dat is óók waarom een latere afstand van vruchtgebruik aan de blote eigenaar fiscaal niet meer als een tweede aankoop wordt behandeld zoals een eerste — zie deelvraag (b). 🔗
+> > 
+> > *Art. 48 W.Reg.: "Gaat de overeenkomst over de blote eigendom van een onroerend goed waarvan het vruchtgebruik door de vervreemder is voorbehouden, zo mag de belastbare grondslag niet lager zijn dan de verkoopwaarde van de volle eigendom." 📖 Voor Vlaanderen: art. 2.9.3.0.6 VCF (parallelle bepaling, maar verwijst naar art. 47-aftrek bij niet-voorbehoud).* 📖  
+> > *Bron: Art. 48 W.Reg. (Brussel/Wallonië); art. 2.9.3.0.6 VCF (Vlaanderen)*
 >
 > **Welke waarde moet in aanmerking worden genomen voor de berekening van de registratierechten bij de overdracht van het vruchtgebruik aan de blote eigenaar?**
 > 
@@ -96,7 +154,22 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: b**
+> > 
+> > **_Optie **b** — **250.000 EUR**. De afstand van het vruchtgebruik aan de blote eigenaar is een overdracht onder bezwarende titel van een zakelijk recht; de belastbare grondslag is de overeengekomen prijs (250.000 EUR), met als wettelijk minimum de verkoopwaarde van het **vruchtgebruik** zelf — niet die van de volle eigendom. 🔗_**
+> > 
+> > Per optie:
+> > 
+> > - **a** (300.000 EUR — volle eigendom) → FOUT. Art. 48 W.Reg. (minimum = volle eigendom) is een specifieke regel voor **verkoop van blote eigendom met voorbehoud van vruchtgebruik**, niet voor de omgekeerde verrichting. Hier wordt het vruchtgebruik overgedragen — voorwerp = enkel het vruchtgebruik. 🔗
+> > - **b** (250.000 EUR — overeengekomen prijs) → JUIST. Algemene regel art. 45-46 W.Reg.: grondslag = overeengekomen prijs en lasten, met als minimum de verkoopwaarde van het overgedragen recht. De prijs 250.000 EUR is hoog (boven de art. 47-forfaitaire vruchtgebruikwaarde voor een 74-jarige op een goed van 300.000 EUR) en wordt aanvaard als grondslag. 🔗
+> > - **c** (436.000 EUR = 250.000 + oorspronkelijke blote-eigendom-prijs) → FOUT. Sommering met de **vroeger** betaalde blote-eigendom-prijs is verzonnen — die overdracht is reeds belast geweest in jaar 1. Klassieke valstrik. 🔗
+> > - **d** (geen grondslag, vast recht) → FOUT. Overdracht onder bezwarende titel van een onroerend zakelijk recht = evenredig recht. 🔗
+> > - **e** (300.000 EUR met vermindering tot beloop van vroeger betaalde rechten) → FOUT. Een dergelijke verrekening van vroeger betaalde rechten bestaat **niet** voor de consolidatie blote eigendom + vruchtgebruik. Verzonnen vermindering. 🔗
+> > 
+> > **Civielrechtelijk gevolg**: door de afstand verenigt de blote eigenaar de twee hoedanigheden en eindigt het vruchtgebruik door **vermenging** (art. 617 BW). De blote eigenaar wordt volle eigenaar. Fiscaal-boekhoudkundig (CBN-advies 2015/5) telt hij de aanschaffingsprijs van het vruchtgebruik (250.000 EUR) op bij de boekwaarde van de blote eigendom en boekt de geheelheid voortaan op rekening 22 *Terreinen en gebouwen*. 📖 Voor het registratierecht blijft de grondslag echter beperkt tot wat in déze akte wordt overgedragen: het vruchtgebruik tegen 250.000 EUR. 📖
+> > 
+> > *Art. 45-46 W.Reg.: belastbare grondslag = overeengekomen prijs en lasten, met als minimum de verkoopwaarde van het overgedragen goed/recht. 📖 Art. 48 (minimum = volle eigendom) is **niet** van toepassing op een afstand van vruchtgebruik aan de blote eigenaar — het regelt enkel de omgekeerde verrichting (verkoop blote eigendom met voorbehoud vruchtgebruik). 🔗 Civiel: art. 617 BW — vermenging van vruchtgebruiker en blote eigenaar beëindigt het vruchtgebruik.* 🔗  
+> > *Bron: Art. 45-46 W.Reg.; art. 617 BW*
 
 <a id="2014-1-vr35"></a>
 
@@ -109,7 +182,30 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_Gebruik de techniek van de **aanwijzing van lastgever (commandverklaring)**: de neef heeft in het onderhandse compromis al voorbehouden te kopen "voor zichzelf of een later aan te wijzen persoon". De neef wijst nu de BVBA Mokka aan als werkelijke koper via een **authentieke akte van aanwijzing van lastgever (akte van command)**, gevolgd door de **authentieke verkoopakte**. Mits de aanwijzing tijdig en bij authentieke akte geschiedt, wordt slechts éénmaal het evenredig verkooprecht geheven; de aanwijzingsakte zelf is onderworpen aan het algemeen vast recht. 🔗_**
+> > 
+> > | # | Sub-instructie | Antwoord |
+> > |---|---|---|
+> > | 1 | Akte(n) en terminologie | (i) **Akte van aanwijzing van lastgever** (akte van command / *déclaration de command*); (ii) **authentieke akte van verkoop** van het onroerend goed. 🔗 |
+> > | 2 | Ondertekenende partijen | (i) Aanwijzingsakte: **de neef** (de aangever / lastnemer-command) verklaart de BVBA Mokka als lastgever; in de praktijk verschijnt ook de BVBA Mokka om de aanwijzing te aanvaarden. De verkoper hoeft niet te verschijnen (eenzijdige verklaring). (ii) Verkoopakte: **de verkoper** en **de BVBA Mokka** als aangewezen koper. 🔗 |
+> > | 3 | Vorm | Beide akten moeten **authentiek** (notariële akte) zijn. De aanwijzing **moet** verplicht authentiek om fiscaal als loutere aanwijzing te gelden (art. 158, 1°, b W.Reg. federaal / art. 2.9.6.0.1, 1°, b VCF). De verkoopakte van een onroerend goed moet authentiek om te kunnen worden overgeschreven op het hypotheekkantoor (overschrijving = tegenwerpelijkheid aan derden). 📖 |
+> > | 4 | Registratieplicht | **Ja, beide akten moeten worden geregistreerd.** De verkoopakte van een onroerend goed is verplicht ter registratie aangeboden; de akte van aanwijzing moet ter formaliteit worden aangeboden (of bij gerechtsdeurwaardersexploot betekend) uiterlijk de **eerste werkdag na** de dag van het compromis, anders wordt de aanwijzing fiscaal als een wederverkoop beschouwd. 📖 |
+> > | 5 | Tarief | **Verkoopakte: evenredig recht** (verkooprecht op onroerende goederen). **Aanwijzingsakte: vast recht** (algemeen vast recht), mits de wettelijke voorwaarden voor de vrijstelling van het evenredig recht zijn nageleefd; zo niet → **evenredig recht** (de aanwijzing wordt dan als wederverkoop belast → tweemaal verkooprecht). 🔗 | 🔗
+> > 
+> > **Mechanisme.** De neef trad bij het compromis op in eigen naam, maar met het voorbehoud om de werkelijke koper later aan te duiden — een klassieke clausule om de eigenaar de identiteit (en koopkracht) van de BVBA Mokka niet te laten kennen. Fiscaal kwalificeert dit als een **aanwijzing van lastgever**: de neef wordt geacht steeds als lasthebber van de uiteindelijk aangewezen lastgever (BVBA Mokka) te hebben gehandeld, zodat er juridisch **één enkele overdracht** plaatsvindt (verkoper → BVBA Mokka), niet twee opeenvolgende verkopen. 🔗
+> > 
+> > **Strenge voorwaarden om fiscaal als loutere aanwijzing te kwalificeren** (art. 158, 1° W.Reg. federaal / art. 2.9.6.0.1, 1° VCF):
+> > 
+> > - (a) het **voorbehoud** om een lastgever aan te wijzen moet **in de oorspronkelijke koopakte (het compromis) opgenomen** zijn — in casu vervuld door de clausule "voor zichzelf of enige andere later aan te wijzen persoon"; 📖
+> > - (b) de aanwijzing moet **bij authentieke akte** geschieden; 📖
+> > - (c) de aanwijzing moet **uiterlijk de eerste werkdag na** het compromis ter registratie worden aangeboden of bij gerechtsdeurwaardersexploot aan de ontvanger worden betekend. 📖
+> > 
+> > Wordt aan één van die drie voorwaarden niet voldaan, dan wordt de aanwijzing voor de toepassing van het Wetboek der Registratierechten **als een wederverkoop beschouwd** → tweemaal evenredig verkooprecht (eerste op compromis, tweede op de aanwijzing). 📖
+> > 
+> > De korte termijn (**uiterlijk de eerste werkdag na het compromis**) is in de praktijk de meest gemiste voorwaarde — een onderhandse koop op vrijdag laat enkel de maandag toe om de authentieke akte van aanwijzing te verlijden en aan te bieden. Wordt die termijn niet gehaald, dan is het fiscale voordeel verloren en betaalt men het verkooprecht **tweemaal**. Sinds 1 januari 2015 is voor in het Vlaams Gewest gelegen goederen de Vlaamse Codex Fiscaliteit (art. 2.9.6.0.1, 1° VCF) van toepassing; voor goederen in het Brussels of Waals Gewest blijft art. 158, 1° W.Reg. federaal van toepassing — de voorwaarden zijn quasi identiek. ❓
+> > 
+> > ***Art. 158, 1° W.Reg. (federaal)** — vrijstelling van het evenredig recht voor de aanwijzing van lastgever (*déclaration de command*) mits (a) voorbehoud in de koopakte, (b) authentieke akte van aanwijzing, (c) registratie/betekening uiterlijk de eerste werkdag na het contract. Bij niet-naleving: aanwijzing = wederverkoop. **Art. 2.9.6.0.1, 1° VCF** — Vlaamse pendant, identieke voorwaarden, sinds 01.01.2015 van toepassing op in Vlaanderen gelegen onroerende goederen. Verkoopakten van onroerende goederen zijn verplicht ter registratie aangeboden en onderworpen aan het **evenredig verkooprecht**; de akte van aanwijzing aan het **algemeen vast recht** mits de voorwaarden vervuld zijn. 📖*  
+> > *Bron: Art. 158, 1° W.Reg. federaal; Art. 2.9.6.0.1, 1° VCF*
 
 <a id="2014-1-vr36"></a>
 
@@ -122,13 +218,43 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > | Persoon | Hoedanigheid |
+> > |---|---|
+> > | Echtgenote Anne | Wettelijke (reservataire) erfgenaam 🔗 |
+> > | Dochter | Wettelijke (reservataire) erfgenaam 🔗 |
+> > | Mevr. Tanghe (geheel roerende goederen) | Algemeen legataris onder algemene titel 🔗 |
+> > | Mevr. Martin (de personenauto) | Bijzonder legataris 🔗 |
+> > | Mevr. Cambier (volledige nalatenschap na aftrek) | Algemeen legataris 🔗 | 🔗
+> > 
+> > De hoedanigheid van een testamentair begiftigde hangt af van de **omvang van de roeping** in het testament 🔗:
+> > - **Algemeen legataris**: krijgt het geheel van de nalatenschap, of het beschikbaar deel ervan. Mw. Cambier is geroepen tot 'de volledige nalatenschap na aftrek van de voorgaande legaten' — een vocatio universalis. Dat zij feitelijk minder ontvangt door samenloop met de andere legaten verandert haar roeping niet 🔗.
+> > - **Legataris onder algemene titel**: krijgt een **breuk** of een **categorie** van de nalatenschap (alle roerende of alle onroerende goederen, of een breuk daarvan). Mw. Tanghe krijgt 'het geheel van de roerende goederen' — typische categorie-legaat 🔗.
+> > - **Bijzonder legataris**: krijgt een **welbepaald goed** (een res certa). Mw. Martin krijgt de personenauto — één geïndividualiseerd goed 🔗.
+> > - **Wettelijke erfgenaam**: erft op grond van de wet (afstamming/huwelijk), los van enig testament. Anne (overlevende echtgenoot) en de dochter zijn beiden reservataire erfgenamen wier voorbehouden erfdeel het testament niet kan aantasten 🔗.
+> > 
+> > De kwalificatie 'begiftigde onder algemene titel' uit de tabel-opties is een term die in dit dossier niet van toepassing is — die slaat traditioneel op begiftigden van een schenking onder algemene titel bij leven, niet op testamentaire begiftigden. 🔗
 >
 > Vermeld wie de verplichting heeft een aangifte in de successierechten in te leveren voor: echtgenote, dochter, mevr. Tanghe, mevr. Martin, mevr. Cambier.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > | Persoon | Aangifteplicht? |
+> > |---|---|
+> > | Echtgenote Anne | **Ja** — wettelijke erfgenaam 📖 |
+> > | Dochter | **Ja** — wettelijke erfgenaam 📖 |
+> > | Mevr. Tanghe | **Nee** — legataris onder algemene titel valt onder de uitsluiting van art. 38, 1° W.Succ. 📖 |
+> > | Mevr. Martin | **Nee** — bijzonder legataris is uitgesloten 📖 |
+> > | Mevr. Cambier | **Ja** — algemeen legataris 📖 | 📖
+> > 
+> > Art. 38, 1° van het Wetboek der Successierechten bepaalt dat de aangifte van successie ingeleverd moet worden 'door de erfgenamen, de algemene legatarissen en begiftigden, **met uitsluiting van alle andere legatarissen of begiftigden**' 📖. De drie aangifteplichtige categorieën zijn dus: (1) erfgenamen ab intestato (Anne, dochter), (2) algemene legatarissen (Cambier), (3) algemene begiftigden. Legatarissen onder algemene titel (Tanghe) en bijzondere legatarissen (Martin) zijn uitdrukkelijk uitgesloten 📖.
+> > 
+> > **Subsidiair**: blijven de aangifteplichtigen in gebreke, dan kan de ontvanger bij aangetekende brief de legatarissen onder algemene of bijzondere titel verzoeken alsnog de aangifte in te dienen (art. 38, 2° lid W.Succ.) 📖. In dat geval krijgen Mw. Tanghe en Mw. Martin een **subsidiaire** aangifteplicht. 📖
+> > 
+> > **Valkuil** ⚠ — het overlijden dateert van 12 augustus 2012, dus vóór de inwerkingtreding van de Vlaamse Codex Fiscaliteit (1 januari 2015). De aangifteplicht wordt beheerst door het **federale** Wetboek der Successierechten (art. 38), niet door de VCF art. 3.3.1.0.5 (die voor latere overlijdens in Vlaanderen dezelfde inhoudelijke regel hanteert) 🔗. De materiële inhoud is identiek, maar de juiste rechtsgrond per overlijdensdatum is een klassiek examenstrikje. 🔗
+> > 
+> > ***Hoedanigheid** — kwalificatie van legaten naar omvang van de roeping: algemeen / onder algemene titel / bijzonder (oud BW art. 1003-1010, thans BW Boek 4, art. 4.196-4.200). Reservataire erfgenamen (echtgenoot, afstammelingen): BW Boek 4 — wettelijke erfopvolging.
+> > 
+> > **Aangifteplicht** — art. 38, 1° Wetboek der Successierechten (federaal, van toepassing op overlijden 2012): aangifte door erfgenamen, algemene legatarissen en algemene begiftigden, met uitsluiting van alle andere legatarissen en begiftigden. Subsidiaire aangifteplicht voor legatarissen onder algemene of bijzondere titel op aanmaning van de ontvanger (art. 38, 2° lid).* 📖
 
 <a id="2013-2-vr28"></a>
 
@@ -152,7 +278,12 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Aangenomen** voor het volledige bedrag van € 10.000, inclusief de € 2.500 repatriëringskosten van het lichaam. 🔗_**
+> > 
+> > Art. 27, 2° W.Succ. (Waals Gewest) vermeldt **begrafeniskosten** uitdrukkelijk als aannemelijk passief, zonder bedragplafond. 📖 De repatriëring van het stoffelijk overschot uit Spanje is een noodzakelijke en rechtstreekse kost om de begrafenis (in Luik) te kunnen organiseren en wordt door rechtspraak en administratie aanvaard als onderdeel van de begrafeniskosten. 🔗
+> > 
+> > *Art. 27, 2° W.Succ. Waals Gewest — begrafeniskosten zijn aannemelijk passief. Art. 29 W.Succ. — het bewijs van de schuld (factuur ondernemer) volstaat. 📖*  
+> > *Bron: Art. 27, 2° + Art. 29 W.Succ. (Waals Gewest)*
 >
 > Vliegticket voor Hélène, haar echtgenoot en de kinderen: terugkeer uit Italië om aanwezig te kunnen zijn op de begrafenis (€ 2.
 > 
@@ -160,7 +291,12 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Niet aangenomen** — € 2.000 vliegtickets zijn géén aannemelijk passief. 🔗_**
+> > 
+> > Reiskosten van erfgenamen om de begrafenis bij te wonen zijn **geen schuld van de overledene** (art. 27, 1° W.Succ.) en behoren niet tot de begrafeniskosten zelf (art. 27, 2°). 🔗 Het zijn persoonlijke kosten van de erfgenamen, niet van de nalatenschap. 🤖
+> > 
+> > *Art. 27 W.Succ. Waals Gewest somt limitatief op wat aannemelijk passief is: (1) schulden van de overledene op de dag van overlijden en (2) begrafeniskosten. Reiskosten van erfgenamen vallen onder geen van beide categorieën. 📖*  
+> > *Bron: Art. 27 W.Succ. (Waals Gewest)*
 >
 > Factuur voor de huur van ceremoniekledij door Hélène en haar gezin, gedragen op de begrafenis (€ 1.
 > 
@@ -168,19 +304,38 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Niet aangenomen** — € 1.000 huur ceremoniekledij van Hélène en haar gezin is géén aannemelijk passief. 🔗_**
+> > 
+> > Kledij voor de erfgenamen op de begrafenis is een **persoonlijke uitgave van de erfgenamen zelf**, geen kost van de begrafenis van de overledene. 🤖 Het is geen schuld van de erflater (art. 27, 1°) en valt niet onder de eigenlijke begrafeniskosten (art. 27, 2°), die de plechtigheid en de uitvaart als zodanig betreffen (kist, lijkdienst, grafzerk, …). 🔗
+> > 
+> > Niet verwarren met **rouwkledij die de overledene zelf** zou hebben besteld of moeten betalen vóór zijn overlijden — dat zou wél een bestaande schuld zijn (art. 27, 1°). Hier gaat het om kledij van de erfgenamen, gedragen ná het overlijden. 🤖
+> > 
+> > *Art. 27 W.Succ. Waals Gewest — limitatieve opsomming van aannemelijk passief. 📖*  
+> > *Bron: Art. 27 W.Succ. (Waals Gewest)*
 >
 > **Factuur voor de bloemen op de begrafenisplechtigheid (€ 750): aangenomen of niet aangenomen als passief?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Aangenomen** — € 750 bloemen op de begrafenisplechtigheid behoren tot de begrafeniskosten. 🔗_**
+> > 
+> > Bloemen die de begrafenisplechtigheid zelf opluisteren (kist, kerk, graf) worden door de administratie en de doctrine aanvaard als deel van de begrafeniskosten in de zin van art. 27, 2° W.Succ. 🔗 Het gaat om kosten **van de plechtigheid zelf**, niet om persoonlijke bloemstukken die erfgenamen achteraf op het graf zouden plaatsen. 🔗
+> > 
+> > *Art. 27, 2° W.Succ. Waals Gewest — begrafeniskosten als aannemelijk passief. 📖*  
+> > *Bron: Art. 27, 2° W.Succ. (Waals Gewest)*
 >
 > **Ereloon van de notaris die het 'attest van erfopvolging' heeft opgesteld (€ 250): aangenomen of niet aangenomen als passief?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Niet aangenomen** — € 250 ereloon notaris voor het attest van erfopvolging is géén aannemelijk passief. 🔗_**
+> > 
+> > Het attest van erfopvolging wordt **ná het overlijden** opgesteld op verzoek van de erfgenamen om de nalatenschap te kunnen vereffenen (deblokkering rekeningen, overschrijving onroerend goed). 🔗 Het is dus geen schuld die op de dag van het overlijden bestond (art. 27, 1° vereist *op de dag van zijn overlijden bestaande schulden*) 📖 en het is geen begrafeniskost. Het is een kost van de **vereffening van de nalatenschap**, gedragen door de erfgenamen. 🔗
+> > 
+> > Klassieke camouflage: een ereloon dat ná overlijden gefactureerd wordt voor het opmaken van de aangifte of het attest van erfopvolging lijkt 'rond de nalatenschap te draaien', maar voldoet niet aan de bestaansvoorwaarde van art. 27, 1°. Enkel honoraria voor diensten die de erflater zélf vóór zijn overlijden had besteld (en die op datum overlijden onbetaald waren) komen in aanmerking. 🤖
+> > 
+> > *Art. 27, 1° W.Succ. Waals Gewest — alleen de op de dag van overlijden bestaande schulden van de overledene. 📖*  
+> > *Bron: Art. 27, 1° W.Succ. (Waals Gewest)*
 >
 > Johan heeft op 15 oktober 2012 de stookolietank van het huis in Luik laten vullen om het tijdens de wintermaanden te kunnen verwarmen (€ 2.
 > 
@@ -188,7 +343,12 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Niet aangenomen** — € 2.500 stookolie geleverd op 15 oktober 2012 is géén aannemelijk passief. 🔗_**
+> > 
+> > Het overlijden vond plaats op 1 augustus 2012; de stookolie werd op 15 oktober 2012 — dus **ná** het overlijden — besteld en geleverd door Johan. 🔗 Het is dan geen schuld van de overledene op de dag van zijn overlijden (art. 27, 1°), maar een uitgave van de erfgenaam Johan voor het onderhoud/verwarming van een goed dat ondertussen tot de **onverdeelde nalatenschap** behoort. 📖 Een dergelijke beheerskost gemaakt door een erfgenaam na overlijden valt buiten het aannemelijk passief in de zin van art. 27. 🔗
+> > 
+> > *Art. 27, 1° W.Succ. Waals Gewest — bestaansvoorwaarde *op de dag van het overlijden*. 📖*  
+> > *Bron: Art. 27, 1° W.Succ. (Waals Gewest)*
 >
 > Bedrag verschuldigd aan de mede-eigendom van het appartement (afrekening 30/08/2012, afgesloten op 30/06/2012, datum algemene vergadering) (€ 3.
 > 
@@ -196,7 +356,14 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Aangenomen** — € 3.000 afrekening mede-eigendom. De algemene vergadering vond plaats op 30 juni 2012, vóór het overlijden (1 augustus 2012). 🔗_**
+> > 
+> > De **bestaansdatum** van de schuld is bepalend, niet de factuurdatum (afrekening 30/08/2012). 🔗 De afrekening werd afgesloten op 30 juni 2012 (datum AV mede-eigendom): de schuld van de overledene t.a.v. de mede-eigendom is op dat moment **vast en zeker** ontstaan en bestond dus op 1 augustus 2012, dag van overlijden. Daarmee voldoet ze aan art. 27, 1° W.Succ. 📖 De bewijslast (PV van de AV + afrekening) is in rechte toelaatbaar conform art. 29. 🔗
+> > 
+> > Niet laten misleiden door de factuurdatum 30/08/2012 (ná overlijden). Voor de aftrekbaarheid telt het moment waarop de schuld **juridisch is ontstaan**, niet wanneer de syndicus ze materieel heeft gefactureerd. 🤖
+> > 
+> > *Art. 27, 1° + Art. 29 W.Succ. Waals Gewest — bestaansvoorwaarde + bewijsregeling. 📖*  
+> > *Bron: Art. 27, 1° + Art. 29 W.Succ. (Waals Gewest)*
 >
 > Ereloonnota van 5 augustus 2012 van advocaat belast met invordering onbetaalde huur appartement Middelkerke (vonnis 15/07/2012, niet meer vatbaar voor beroep) (€ 1.
 > 
@@ -204,7 +371,12 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Aangenomen** — € 1.200 ereloon advocaat. Het mandaat dateert van 1 februari 2012 en het vonnis (definitief) van 15 juli 2012, beide vóór het overlijden. 🔗_**
+> > 
+> > De overledene heeft de advocaat zélf op 1 februari 2012 mandaat gegeven; het vonnis is op 15 juli 2012 geveld en op datum overlijden niet meer vatbaar voor beroep. 🔗 De ereloonschuld is dus juridisch ontstaan vóór 1 augustus 2012, ook al wordt de ereloonnota pas op 5 augustus 2012 (dagen na overlijden) opgesteld. 🔗 Dit is een **op de dag van overlijden bestaande schuld** in de zin van art. 27, 1° W.Succ. 📖
+> > 
+> > *Art. 27, 1° + Art. 29 W.Succ. Waals Gewest — bestaande schuld + bewijs in rechte toelaatbaar (mandaat + vonnis). 📖*  
+> > *Bron: Art. 27, 1° + Art. 29 W.Succ. (Waals Gewest)*
 >
 > Lening door de overledene aangegaan bij zijn dochter Hélène, verantwoord door een schuldbekentenis (€ 2.
 > 
@@ -212,7 +384,14 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Niet aangenomen** — € 2.000 lening bij dochter Hélène. Schuld aangegaan ten behoeve van een erfgenaam: principieel uitgesloten door art. 33 W.Succ., zonder bestemmingsbewijs (art. 33, 2°). 🔗_**
+> > 
+> > Art. 33 W.Succ. (Waals Gewest) sluit schulden van de overledene t.a.v. één van zijn erfgenamen **uitdrukkelijk uit** van het aannemelijk passief. 📖 De schuld kan slechts uitzonderlijk worden aangenomen als (1°) de echtheid bewezen is **én** (2°) de schuld als onmiddellijke en rechtstreekse oorzaak had de **verkrijging, verbetering, behoud of terugbekoming van een goed** dat op overlijdensdatum tot de nalatenschap behoorde. 🔗 De loutere schuldbekentenis bewijst hier alleen de echtheid (1°), maar er is geen aanwijzing dat de geleende som diende voor een nalatenschapsgoed (2° niet vervuld). De schuld blijft uitgesloten. 🔗
+> > 
+> > Een onderhandse schuldbekentenis tussen erflater en erfgenaam volstaat **niet** voor aftrek: art. 33 vereist **cumulatief** echtheid (1°) én bestemming (2°). Klassieke camouflage van familielening om passief op te blazen. 🔗
+> > 
+> > *Art. 33 W.Succ. Waals Gewest — schulden aangegaan ten behoeve van een erfgenaam worden niet aangenomen, tenzij echtheid (1°) én bestemming voor verkrijging/verbetering/behoud/terugbekoming van een nalatenschapsgoed (2°) cumulatief bewezen worden. 📖*  
+> > *Bron: Art. 33 W.Succ. (Waals Gewest)*
 >
 > Saldo van een lening door de overledene aangegaan bij zijn zoon Johan, aangewend voor vervanging van een venster in het huis in Luik, verantwoord door een schuldbekentenis (€ 4.
 > 
@@ -220,7 +399,14 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Aangenomen** — € 4.000 lening bij zoon Johan. De uitzondering van art. 33, 2° W.Succ. is vervuld: het geleende bedrag werd aangewend voor de vervanging van een venster van het woonhuis in Luik — een goed dat op overlijdensdatum tot de nalatenschap behoorde. 🔗_**
+> > 
+> > Schulden van de erflater t.a.v. een erfgenaam zijn in beginsel uitgesloten (art. 33, lid 1) 📖, maar worden tóch aangenomen als (1°) de **echtheid** bewezen is — hier door de schuldbekentenis — én (2°) de schuld als onmiddellijke en rechtstreekse oorzaak had de **verbetering of het behoud van een goed** dat op overlijdensdatum tot de boedel behoorde. 🔗 De aankoop/vervanging van een venster van het woonhuis in Luik (actief 1: € 200.000) voldoet aan deze bestemmingsvoorwaarde. Beide voorwaarden cumulatief vervuld → aannemelijk passief. 🔗
+> > 
+> > Tegenstelling met post 9: identieke vorm (schuldbekentenis t.b.v. een kind), maar verschillende **bestemming** maakt het verschil. Art. 33, 2° is de centrale screeningsvraag bij familieleningen — *waarvoor* werd het geld gebruikt? 🤖
+> > 
+> > *Art. 33 W.Succ. Waals Gewest — uitzondering 2°: schuld aangegaan voor verkrijging, verbetering, behoud of terugbekoming van een goed dat op overlijdensdatum tot de boedel behoort. 📖*  
+> > *Bron: Art. 33, 2° W.Succ. (Waals Gewest)*
 
 <a id="2013-2-vr29"></a>
 
@@ -237,19 +423,51 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_**Berekeningsgrondslag**: € 500.000 (de overeengekomen prijs, voor zover deze niet lager is dan de verkoopwaarde van het 1/3-aandeel). **Tarief**: **12,50 %** verkooprecht (art. 44 W.Reg. Brussel). 🔗_**
+> > 
+> > Xavier is een **derde** (geen mede-eigenaar, geen verwant). Bernadette draagt haar onverdeeld 1/3-aandeel onder bezwarende titel over aan een derde — dit is een **overdracht onder bezwarende titel van een onroerend goed** in de zin van art. 44 W.Reg. Brussel, niet een verdeling onder mede-eigenaars. 🔗
+> > 
+> > De **grondslag** is de overeengekomen prijs, met als minimum de verkoopwaarde van het overgedragen aandeel (art. 45-46 W.Reg.). Hier: prijs € 500.000; de verkoopwaarde van 1/3 op basis van de schatting bij overlijden (2007) bedroeg € 400.000, maar marktwaarden 2012 kunnen hoger liggen. Bij gebrek aan tegenindicatie wordt de prijs aanvaard → grondslag € 500.000. 🤖
+> > 
+> > *Art. 44 W.Reg. Brussel: "Het recht wordt gesteld op 12,50 t.h. voor de verkopingen, ruilingen en alle overeenkomsten onder bezwarende titel, waarbij eigendom of vruchtgebruik van onroerende goederen wordt overgedragen." Grondslagregels: art. 45-46 (prijs en lasten, minimum verkoopwaarde). 📖*  
+> > *Bron: Art. 44 + art. 45-46 W.Reg. Brussel*
 >
 > Bepaal de berekeningsgrondslag van de registratierechten bij de verkoop van Xavier en Caroline aan Anne en geef het tarief aan van de rechten dat zal worden toegepast.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_Anne (oorspronkelijke mede-eigenaar) treedt op als enige uit de onverdeeldheid → **verdelingsrecht** (art. 109 W.Reg. Brussel) van **1 %**. **Berekeningsgrondslag**: de **volledige verkoopwaarde van het onverdeelde goed** (de massa), d.i. ± € 1.500.000 (afgeleid uit de prijs: € 1.000.000 voor 2/3 ⇒ geheel € 1.500.000) — niet enkel de overgenomen 2/3. 🔗_**
+> > 
+> > Twee bewegingen tegelijk:
+> > 
+> > - **Caroline → Anne** (1/3): afstand onder bezwarende titel **tussen mede-eigenaars** van een oorspronkelijke onverdeeldheid → valt onder art. 109 W.Reg. (verdelingsrecht 1 %). 🔗
+> > - **Xavier → Anne** (1/3): Xavier was de derde die in 2012 een onverdeeld deel had verkregen. Art. 113 W.Reg. wijkt af van art. 109 enkel **wanneer een derde een onverdeeld deel verkrijgt** (binnenkomende derde). Bij **uittreding** van die derde gaat men terug naar het normale regime: art. 109 → 1 %. 🔗
+> > 
+> > De operatie eindigt in **volledige opheffing van de onverdeeldheid** in hoofde van één persoon (Anne). Het verdelingsrecht slaat dan op de **massa**: de hele verkoopwaarde van het gebouw, ongeacht het aandeel dat Anne reeds bezat. Grondslag = € 1.500.000; recht = 1 % = € 15.000. 🔗
+> > 
+> > Niet verwarren: art. 113 W.Reg. viseert de **binnenkomst** van een derde in de onverdeeldheid (zoals Xavier in januari 2012 — toen was reeds 12,50 % verschuldigd op zijn 1/3). Het viseert **niet** de uittreding van die derde — daarvoor geldt opnieuw art. 109. Ook belangrijk: het verdelingsrecht wordt geheven op de **totale waarde van het verdeelde goed**, niet enkel op de overgenomen aandelen (anders dan bij een gewone verkoop). 🔗
+> > 
+> > *Art. 109 W.Reg. Brussel: "Het recht wordt op 1 t.h. vastgesteld voor: 1° de gedeeltelijke of gehele verdelingen van onroerende goederen; 2° de afstanden onder bezwarende titel, onder medeëigenaars, van onverdeelde delen in onroerende goederen." Art. 113 wijkt enkel af bij verkrijging door een derde. 📖*  
+> > *Bron: Art. 109 (j° art. 113) W.Reg. Brussel*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Is het onder punt b gegeven antwoord identiek als het Xavier is die het deel van Anne en Caroline tegen dezelfde prijs overneemt?</span>
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: Juist**
+> > 
+> > **_**Ja, identiek**: ook wanneer Xavier (de eerder binnengekomen derde) de delen van Anne en Caroline overneemt, geldt het **verdelingsrecht van 1 %** op de **volledige waarde** van het onverdeelde goed (± € 1.500.000). 🔗_**
+> > 
+> > Art. 113, **tweede lid**, W.Reg. sluit de afwijking van art. 109 uitdrukkelijk uit "wanneer de derde, aan wie de toebedeling of de afstand gedaan wordt, **met anderen het geheel van één of meer goederen heeft verkregen**". 📖
+> > 
+> > Xavier voldoet aan deze uitzondering: hij heeft sinds januari 2012 **samen met Anne en Caroline** het geheel van het gebouw in onverdeeldheid (1/3-1/3-1/3). Hij is dus geen "vreemde" derde meer, maar mede-eigenaar van de huidige onverdeeldheid. Zijn overname valt dan onder het gewone regime van art. 109 → 1 % verdelingsrecht op de volledige verkoopwaarde. 🔗
+> > 
+> > Het resultaat is fiscaal **identiek** aan punt b: zelfde grondslag (€ 1.500.000), zelfde tarief (1 %), zelfde recht (€ 15.000). 🔗
+> > 
+> > Het criterium voor art. 113 is dus niet "is de overnemer een oorspronkelijk mede-erfgenaam?" maar wél "heeft de overnemer samen met de anderen het **geheel** van het goed verkregen?". Xavier voldoet aan dat criterium (1/3 + 2/3 bestaande onverdeeldheid = geheel), waardoor hij fiscaal op gelijke voet staat met Anne. 🔗
+> > 
+> > *Art. 113, tweede lid, W.Reg. Brussel (in fine): de afwijking-naar-verkooprecht geldt **niet** "wanneer de derde, aan wie de toebedeling of de afstand gedaan wordt, met anderen het geheel van één of meer goederen heeft verkregen". Toepassing: terug naar art. 109 → 1 %. 📖*  
+> > *Bron: Art. 113, tweede lid, W.Reg. Brussel*
 
 <a id="2013-1-vr27"></a>
 
@@ -266,7 +484,14 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: a**
+> > 
+> > **_Optie **a** — **Ja, registratie is verplicht**. Het gaat om een akte die de eigendom van een in België (Leuven) gelegen onroerend goed overdraagt; zulke akten zijn altijd onderworpen aan verplichte registratie, ook als ze voor een buitenlandse notaris worden verleden. 🔗_**
+> > 
+> > Reg.W. art. 19, 2° onderwerpt **"de akten waarbij de eigendom of het vruchtgebruik van in België gelegen onroerende goederen overgedragen of aangewezen wordt"** aan de verplichte registratie. 📖 De verplichting hangt aan de aard van de akte (eigendomsoverdracht BE-vastgoed), niet aan de hoedanigheid van de instrumenterende notaris. 🔗 Optie b is dus fout; optie c (facultatief met zekere datum) verwart dit met onderhandse akten die niet onroerend zijn — voor onroerende overdrachten is registratie geen vrije keuze. 🔗
+> > 
+> > *Reg.W. art. 19, 2° — akten van eigendomsoverdracht of vruchtgebruik van in België gelegen onroerende goederen moeten binnen de termijnen van art. 32 worden geregistreerd. 📖*  
+> > *Bron: Reg.W. art. 19, 2°*
 >
 > **Indien ja, wie is ertoe gehouden de akte te laten registreren?**
 > 
@@ -278,7 +503,16 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: d**
+> > 
+> > **_Optie **d** — **Vandenbroucke en Leroy tezamen**. Omdat de akte voor een **buitenlandse** notaris (NL) is verleden, kan de Belgische wet de notaris niet als verantwoordelijke aanwijzen; in dat geval zijn de **contracterende partijen** (verkoper én koper) hoofdelijk gehouden tot aanbieding ter registratie en betaling van het recht. 🔗_**
+> > 
+> > Voor akten verleden door een **Belgische** notaris is die notaris zelf gehouden tot registratie (Reg.W. art. 35, 1°). 🔗 Die regel is hier niet toepasselijk — meester Vandewielen is notaris te Amsterdam, buiten het Belgisch toezicht. 🔗 Voor in het buitenland verleden akten betreffende Belgische onroerende goederen rust de verplichting daarom op **alle partijen bij de akte**, hoofdelijk (Reg.W. art. 35, 4° + art. 35 in fine). 🔗 Optie c is fout (de Nederlandse notaris is niet door de Belgische wet vatbaar); opties a en b alleen zijn onvolledig (beide partijen zijn gehouden); optie e is fout (de wet wijst wel degelijk verantwoordelijken aan). 🔗
+> > 
+> > Bij een **Belgische** notaris zou het antwoord "de notaris" zijn (optie c-analoog). De val zit in het detail "notaris te Amsterdam" — wie dat overleest, kiest verkeerd. 🤖
+> > 
+> > *Reg.W. art. 35: de instrumenterende (Belgische) notaris is in beginsel gehouden; voor akten verleden in het buitenland en voor onderhandse akten zijn de partijen bij de akte hoofdelijk gehouden. 🔗*  
+> > *Bron: Reg.W. art. 35*
 >
 > **Zo ja, binnen welke termijn moet de akte ter registratie worden aangeboden?**
 > 
@@ -290,7 +524,14 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: d**
+> > 
+> > **_Optie **d** — **4 maanden**. Voor in het buitenland verleden akten die in België aan de registratieformaliteit moeten worden onderworpen, geldt een termijn van vier maanden te rekenen vanaf de datum van de akte (in plaats van de gewone notaristermijn van 15 dagen). 🔗_**
+> > 
+> > Reg.W. art. 32, 1° legt de standaardtermijn vast op **15 dagen voor akten van (Belgische) notarissen**. 📖 Voor akten verleden voor een buitenlandse notaris (zoals hier) en voor onderhandse akten betreffende Belgisch onroerend goed bedraagt de termijn echter **vier maanden** vanaf de datum van de akte. 🔗 De akte van 17 december 2012 zou dus uiterlijk 17 april 2013 ter registratie moeten aangeboden worden. 🔗 Opties a (15 dagen — alleen voor Belgische notarissen), b (1 maand) en c (2 maanden — alleen voor PV's bij openbare verkoop) passen niet; optie e (geen termijn) is fout want art. 32 voorziet wél een termijn. 🔗
+> > 
+> > *Reg.W. art. 32: 15 dagen voor akten van notarissen; voor in het buitenland verleden akten en voor onderhandse akten betreffende onroerende goederen in België geldt een verlengde termijn van vier maanden. 🔗*  
+> > *Bron: Reg.W. art. 32, 1° + art. 33*
 >
 > Geef de belastbare grondslag in de registratierechten aan, indien de akte (al dan niet verplicht) voor de formaliteit van registratie wordt aangeboden.
 > 
@@ -304,7 +545,25 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: f**
+> > 
+> > **_Optie **f** — **€ 278.000**. Belastbare grondslag = prijs van het onroerend goed (€ 275.000, na aftrek van het meubilair) **+** de achterstallige mede-eigendomslasten van € 3.000 die de koper ten voordele van de verkoper overneemt; het notarisereloon (€ 5.000) en het meubilair (€ 25.000) tellen niet mee. 🔗_**
+> > 
+> > | Component | Bedrag | In grondslag? |
+> > |---|---:|---|
+> > | Verkoopprijs totaal | 300.000 | — |
+> > | − Meubilair (roerend) | −25.000 | ❌ niet in grondslag (roerend goed) 🔗 |
+> > | Prijs onroerend | **275.000** | ✅ basis 📖 |
+> > | + Last: achterstallige mede-eigendomslasten van verkoper, overgenomen door koper | +3.000 | ✅ last bedongen t.v.v. verkoper 🔗 |
+> > | + Notarisereloon (€ 5.000) | — | ❌ professionele kost ten voordele van notaris, geen "last bedongen ten voordele van de verkoper" 🔗 |
+> > | **Belastbare grondslag** | **278.000** | |
+> > 
+> > **Minimum-toets** (art. 46): de grondslag mag niet lager zijn dan de **verkoopwaarde** van het onroerend goed (€ 250.000). 278.000 ≥ 250.000 → minimum-regel niet bindend. 📖
+> > 
+> > Drie klassieke vallen: (1) het **meubilair** meerekenen — dat is roerend en valt buiten het verkooprecht op onroerend goed (er is hooguit een afzonderlijke kwalificatie nodig; € 25.000 is voldoende laag/aannemelijk om als roerend te aanvaarden mits behoorlijk gespecifieerd in de akte). 🤖 (2) Het **notarisereloon** als last opvoeren — dit is een vergoeding aan de notaris voor zijn dienstverlening, niet een prestatie bedongen ten voordele van de verkoper, en wordt dus niet bij de grondslag gevoegd. 🔗 (3) De **verkoopwaarde van € 250.000** als grondslag nemen — die fungeert enkel als ondergrens (art. 46), niet als plafond; ze "verdringt" de hogere prijs+lasten niet. 🔗
+> > 
+> > *Reg.W. art. 45 (oud, pre-VCF — voor akten verleden vóór 1 januari 2015 in Vlaanderen): de grondslag is **de overeengekomen prijs verhoogd met de lasten** die de verkrijger ten voordele van de overdrager draagt. 📖 Art. 46: de grondslag mag in geen geval **lager zijn dan de verkoopwaarde** van het overgedragen onroerend goed. 📖 (Sinds 01.01.2015 geldt voor Vlaams gelegen vastgoed VCF art. 2.9.3.0.1; voor een akte van 17 december 2012 zijn dat nog de federale/oude bepalingen.) 🔗*  
+> > *Bron: Reg.W. art. 45 + 46*
 
 <a id="2013-1-vr28"></a>
 
@@ -322,7 +581,21 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Welke optie(s)? (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **Antwoord: c**
+> > 
+> > **_Optie **c** — Michèle kan geldig verzaken, maar door art. 68 W.Succ. mag de Staat geen nadeel lijden: Anne erft het volledige netto-actief en betaalt minstens het successierecht dat Michèle (vreemde) zou hebben betaald, dus aan het tarief tussen personen zonder verwantschap. 🔗_**
+> > 
+> > Per optie:
+> > 
+> > - **a** — FOUT. Een algemeen legataris kan steeds verzaken aan een hem toegekend legaat; de authentieke vorm van het testament verhindert dat geenszins. 🔗
+> > - **b** — FOUT. Anne erft inderdaad het volledige netto-actief (zij is enige wettige erfgename en Michèle verzaakt), maar het tarief mag niet louter "rechte lijn" zijn: art. 68 W.Succ. verbiedt dat de Staat door de verzaking minder ontvangt dan vóór verzaking verschuldigd was. 📖
+> > - **c** — JUIST. Anne verkrijgt het volledige netto-actief, maar het te betalen recht mag niet lager zijn dan wat Michèle (vreemde, tarief "tussen personen zonder verwantschap") had moeten betalen. In de praktijk wordt dus het hoogste van beide tarieven aangerekend op het volledige actief — hier het vreemden-tarief. 🔗
+> > - **d** — FOUT. Anne hoeft het testament niet aan te vechten: Michèle verzaakt vrijwillig. De gesuggereerde splitsing (helft rechte lijn / helft vreemden-tarief) heeft geen wettelijke grondslag. Art. 68 redeneert op het volledige verworpen aandeel, niet pro rata. 🔗
+> > 
+> > Art. 68 W.Succ. is een **minimum-rechten-regel**, geen tarief-toewijzing op basis van verwantschap met de verzaker. Anne is en blijft erfgename in rechte lijn, maar haar verschuldigd recht wordt **opgetrokken** tot het bedrag dat Michèle als vreemde zou hebben betaald, omdat dat hoger is. De berekening gebeurt dus op het volledige netto-actief aan het vreemden-tarief — niet door Anne fictief als vreemde te kwalificeren. 🔗
+> > 
+> > *Art. 68 W.Succ. (federaal — overgenomen in de gewestelijke wetboeken/VCF): "In geval van verwerping van een intestaat-aandeel, van een uiterste wilsbeschikking, of van een contractuele erfstelling, mag het recht, verschuldigd door de personen die daarvan het voordeel genieten, niet lager zijn dan het recht, dat de verwerper had moeten betalen." 📖*  
+> > *Bron: Art. 68 W.Succ.*
 
 <a id="2008-bibf-vrH3"></a>
 
@@ -335,19 +608,51 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > Twee fiscaal interessante pistes om effecten op naam (300.000 EUR) aan de dochter te schenken:
+> > 
+> > 1. **Schenking voor Nederlandse notaris** (“kaasroute”, historisch): geen verplichte registratie in België, dus **geen schenkingsrechten** — maar wel het risico van de **fictiebepaling** (zie deelvraag c). 🔗
+> > 2. **Schenking voor Belgische notaris met registratie in Vlaanderen** aan het verlaagd tarief van **3 % voor roerende goederen in rechte lijn** (VCF art. 2.8.4.1.1, § 2, 1°). 📖
+> > 
+> > Een handgift of bankgift is bij **effecten op naam niet mogelijk**: de eigendom wordt overgedragen door inschrijving in het aandeelhoudersregister, wat een akte (of minstens een geschrift met datum) vereist. 🔗
 >
 > **Wie betaalt de schenkingsrechten en hoeveel (in euro)?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_De **dochter** (begiftigde) betaalt **9.000 EUR** schenkingsrechten = 3 % × 300.000 EUR, bij registratie in Vlaanderen aan het verlaagd tarief voor roerende goederen in rechte lijn. 🔗_**
+> > 
+> > **Berekening**:
+> > 
+> > - Belastbare grondslag: 300.000 EUR (waarde effecten op naam) 🔗
+> > - Tarief: 3 % (rechte lijn, roerende goederen, Vlaams Gewest — schenker woont in Gent) 📖
+> > - Schenkbelasting = 300.000 × 3 % = **9.000 EUR** 🔗
+> > 
+> > **Wie betaalt?** De begiftigde (dochter) is wettelijk de belastingplichtige voor de schenkbelasting. Schenker en begiftigde kunnen wel contractueel afspreken dat de schenker de rechten draagt (“beding tot last van de schenker”) — fiscaal blijft de grondslag dan toch 300.000 EUR (de last verhoogt de grondslag niet onder het Vlaams roerend tarief van art. 2.8.4.1.1, § 2). 🤖
+> > 
+> > **Lokalisatie van een schenking van roerende goederen**: het bevoegde gewest is dat waar de **schenker** zijn fiscale woonplaats heeft op het moment van de schenking — hier Gent, dus **Vlaams Gewest**. Dat de dochter in Leuven woont (eveneens Vlaams) is voor de bevoegdheid niet beslissend; bij een schenker in bv. Brussel zou het Brusselse tarief gelden (eveneens 3 % in rechte lijn, andere wetgeving). 🤖
+> > 
+> > *VCF art. 2.8.4.1.1, § 2, 1°: “Het tarief van de schenkbelasting voor de schenkingen van roerende goederen bedraagt 3 % voor een verkrijging in de rechte lijn en tussen partners.” 📖*  
+> > *Bron: VCF art. 2.8.4.1.1, § 2, 1°*
 >
 > **Zitten er addertjes onder het gras?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > _Antwoord wacht op concept-laag._
+> > **_Het belangrijkste addertje is de **fictiebepaling**: een niet in België geregistreerde schenking (bv. via Nederlandse notaris) wordt fiscaal alsnog tot de nalatenschap gerekend als de schenker **binnen 3 jaar** (federaal W.Succ. art. 7) — in Vlaanderen sinds 15.12.2020 zelfs **binnen 5 jaar** (VCF art. 2.7.1.0.5) — overlijdt. De dochter betaalt dan **progressieve successierechten** op die 300.000 EUR, die veel hoger uitvallen dan de 9.000 EUR schenkbelasting. 🔗_**
+> > 
+> > **Risico’s en aandachtspunten**:
+> > 
+> > - **Verdachte periode**: zonder Belgische registratie tikt de risicotermijn. Anno 2008 (datum van het examen): **3 jaar** (federaal W.Succ. art. 7). Anno 2026 in Vlaanderen: **5 jaar** (VCF art. 2.7.1.0.5, § 1 — verlengd door decreet van 19.06.2020, in werking 15.12.2020). De fictie geldt enkel als de schenking **niet** aan de Belgische schenkbelasting of registratierechten werd onderworpen. 📖
+> > - **Tarief bij overlijden binnen de termijn**: progressieve erfbelasting in rechte lijn op roerende goederen — 3 % tot 50.000 EUR, 9 % van 50.000 tot 250.000, **27 %** boven 250.000 EUR (VCF art. 2.7.4.1.1). Op 300.000 EUR komt dat netto fors hoger uit dan 9.000 EUR. 🔗
+> > - **“Kaasroute” historisch dichtgemaakt**: sinds **15.12.2020** moeten **buitenlandse notariële schenkingsakten** door Belgische rijksinwoners verplicht in België worden geregistreerd (wet van 03.07.2020). De Nederlandse-notaris-route uit het 2008-modelantwoord is dus vandaag fiscaal niet langer interessant: registratie en schenkbelasting zijn onvermijdelijk geworden. 🤖
+> > - **Vorm**: effecten op naam vereisen een **notariële akte** (of een geschrift met overschrijving in het register). Pure handgift is uitgesloten. 🔗
+> > 
+> > **De fictie geldt enkel voor schenkingen die niet aan registratierechten/schenkbelasting onderworpen waren.** Wie kiest voor de Belgische route met 3 % registratie, is meteen “uit de gevarenzone” — zelfs als de schenker daags nadien overlijdt. De 3 % is dus eigenlijk een verzekeringspremie tegen het 27 %-risico. 🔗
+> > 
+> > **Examenvraag uit 2008 vs. huidige stand van zaken**: het modelantwoord uit 2008 vermeldt de Nederlandse-notaris-piste en een 3-jaars-termijn. Bij toetsing in 2026 moet je beide updates meenemen: (i) buitenlandse akten zijn registratieplichtig sinds 15.12.2020, en (ii) de Vlaamse fictietermijn voor niet-geregistreerde schenkingen is 5 jaar (VCF art. 2.7.1.0.5). De federale W.Succ. art. 7 (3 jaar) is nog van toepassing in Brussel en Wallonië. 🤖
+> > 
+> > ***W.Succ. art. 7** (federaal): goederen waarover de erflater “kosteloos beschikte gedurende de drie jaren vóór zijn overlijden” worden geacht deel uit te maken van de nalatenschap als de bevoordeling niet aan het registratierecht voor schenkingen werd onderworpen. **VCF art. 2.7.1.0.5, § 1** (Vlaanderen): idem, met termijn van **vijf jaar** sinds decreet 19.06.2020. **VCF art. 2.8.4.1.1, § 2, 1°**: 3 % schenkbelasting roerend rechte lijn. 📖*  
+> > *Bron: W.Succ. art. 7; VCF art. 2.7.1.0.5, § 1; VCF art. 2.8.4.1.1, § 2, 1°*
 
 <a id="2003-bibf-vrI2"></a>
 

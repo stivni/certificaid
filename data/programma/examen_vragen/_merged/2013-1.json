@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-1.pdf",
   "examen_id": "2013-1",
-  "merge_datum": "2026-05-26T16:33:41+00:00",
+  "merge_datum": "2026-05-26T16:56:16+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4964,7 +4964,159 @@
       "vraag_id": "2013-1-vr26"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **a** — **Ja, registratie is verplicht**. Het gaat om een akte die de eigendom van een in België (Leuven) gelegen onroerend goed overdraagt; zulke akten zijn altijd onderworpen aan verplichte registratie, ook als ze voor een buitenlandse notaris worden verleden. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Reg.W. art. 19, 2° onderwerpt **\"de akten waarbij de eigendom of het vruchtgebruik van in België gelegen onroerende goederen overgedragen of aangewezen wordt\"** aan de verplichte registratie. 📖 De verplichting hangt aan de aard van de akte (eigendomsoverdracht BE-vastgoed), niet aan de hoedanigheid van de instrumenterende notaris. 🔗 Optie b is dus fout; optie c (facultatief met zekere datum) verwart dit met onderhandse akten die niet onroerend zijn — voor onroerende overdrachten is registratie geen vrije keuze. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Reg.W. art. 19, 2° — akten van eigendomsoverdracht of vruchtgebruik van in België gelegen onroerende goederen moeten binnen de termijnen van art. 32 worden geregistreerd. 📖",
+                "type": "grondslag",
+                "wetsref": "Reg.W. art. 19, 2°"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **d** — **Vandenbroucke en Leroy tezamen**. Omdat de akte voor een **buitenlandse** notaris (NL) is verleden, kan de Belgische wet de notaris niet als verantwoordelijke aanwijzen; in dat geval zijn de **contracterende partijen** (verkoper én koper) hoofdelijk gehouden tot aanbieding ter registratie en betaling van het recht. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Voor akten verleden door een **Belgische** notaris is die notaris zelf gehouden tot registratie (Reg.W. art. 35, 1°). 🔗 Die regel is hier niet toepasselijk — meester Vandewielen is notaris te Amsterdam, buiten het Belgisch toezicht. 🔗 Voor in het buitenland verleden akten betreffende Belgische onroerende goederen rust de verplichting daarom op **alle partijen bij de akte**, hoofdelijk (Reg.W. art. 35, 4° + art. 35 in fine). 🔗 Optie c is fout (de Nederlandse notaris is niet door de Belgische wet vatbaar); opties a en b alleen zijn onvolledig (beide partijen zijn gehouden); optie e is fout (de wet wijst wel degelijk verantwoordelijken aan). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Bij een **Belgische** notaris zou het antwoord \"de notaris\" zijn (optie c-analoog). De val zit in het detail \"notaris te Amsterdam\" — wie dat overleest, kiest verkeerd. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Reg.W. art. 35: de instrumenterende (Belgische) notaris is in beginsel gehouden; voor akten verleden in het buitenland en voor onderhandse akten zijn de partijen bij de akte hoofdelijk gehouden. 🔗",
+                "type": "grondslag",
+                "wetsref": "Reg.W. art. 35"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **d** — **4 maanden**. Voor in het buitenland verleden akten die in België aan de registratieformaliteit moeten worden onderworpen, geldt een termijn van vier maanden te rekenen vanaf de datum van de akte (in plaats van de gewone notaristermijn van 15 dagen). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Reg.W. art. 32, 1° legt de standaardtermijn vast op **15 dagen voor akten van (Belgische) notarissen**. 📖 Voor akten verleden voor een buitenlandse notaris (zoals hier) en voor onderhandse akten betreffende Belgisch onroerend goed bedraagt de termijn echter **vier maanden** vanaf de datum van de akte. 🔗 De akte van 17 december 2012 zou dus uiterlijk 17 april 2013 ter registratie moeten aangeboden worden. 🔗 Opties a (15 dagen — alleen voor Belgische notarissen), b (1 maand) en c (2 maanden — alleen voor PV's bij openbare verkoop) passen niet; optie e (geen termijn) is fout want art. 32 voorziet wél een termijn. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Reg.W. art. 32: 15 dagen voor akten van notarissen; voor in het buitenland verleden akten en voor onderhandse akten betreffende onroerende goederen in België geldt een verlengde termijn van vier maanden. 🔗",
+                "type": "grondslag",
+                "wetsref": "Reg.W. art. 32, 1° + art. 33"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **f** — **€ 278.000**. Belastbare grondslag = prijs van het onroerend goed (€ 275.000, na aftrek van het meubilair) **+** de achterstallige mede-eigendomslasten van € 3.000 die de koper ten voordele van de verkoper overneemt; het notarisereloon (€ 5.000) en het meubilair (€ 25.000) tellen niet mee. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Component | Bedrag | In grondslag? |\n|---|---:|---|\n| Verkoopprijs totaal | 300.000 | — |\n| − Meubilair (roerend) | −25.000 | ❌ niet in grondslag (roerend goed) 🔗 |\n| Prijs onroerend | **275.000** | ✅ basis 📖 |\n| + Last: achterstallige mede-eigendomslasten van verkoper, overgenomen door koper | +3.000 | ✅ last bedongen t.v.v. verkoper 🔗 |\n| + Notarisereloon (€ 5.000) | — | ❌ professionele kost ten voordele van notaris, geen \"last bedongen ten voordele van de verkoper\" 🔗 |\n| **Belastbare grondslag** | **278.000** | |\n\n**Minimum-toets** (art. 46): de grondslag mag niet lager zijn dan de **verkoopwaarde** van het onroerend goed (€ 250.000). 278.000 ≥ 250.000 → minimum-regel niet bindend. 📖",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Drie klassieke vallen: (1) het **meubilair** meerekenen — dat is roerend en valt buiten het verkooprecht op onroerend goed (er is hooguit een afzonderlijke kwalificatie nodig; € 25.000 is voldoende laag/aannemelijk om als roerend te aanvaarden mits behoorlijk gespecifieerd in de akte). 🤖 (2) Het **notarisereloon** als last opvoeren — dit is een vergoeding aan de notaris voor zijn dienstverlening, niet een prestatie bedongen ten voordele van de verkoper, en wordt dus niet bij de grondslag gevoegd. 🔗 (3) De **verkoopwaarde van € 250.000** als grondslag nemen — die fungeert enkel als ondergrens (art. 46), niet als plafond; ze \"verdringt\" de hogere prijs+lasten niet. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Registratierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Reg.W. art. 45 (oud, pre-VCF — voor akten verleden vóór 1 januari 2015 in Vlaanderen): de grondslag is **de overeengekomen prijs verhoogd met de lasten** die de verkrijger ten voordele van de overdrager draagt. 📖 Art. 46: de grondslag mag in geen geval **lager zijn dan de verkoopwaarde** van het overgedragen onroerend goed. 📖 (Sinds 01.01.2015 geldt voor Vlaams gelegen vastgoed VCF art. 2.9.3.0.1; voor een akte van 17 december 2012 zijn dat nog de federale/oude bepalingen.) 🔗",
+                "type": "grondslag",
+                "wetsref": "Reg.W. art. 45 + 46"
+              }
+            ],
+            "gekozen_optie_id": "f",
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2013-1-vr27"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5141,7 +5293,56 @@
       "vraag_id": "2013-1-vr27"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **c** — Michèle kan geldig verzaken, maar door art. 68 W.Succ. mag de Staat geen nadeel lijden: Anne erft het volledige netto-actief en betaalt minstens het successierecht dat Michèle (vreemde) zou hebben betaald, dus aan het tarief tussen personen zonder verwantschap. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** — FOUT. Een algemeen legataris kan steeds verzaken aan een hem toegekend legaat; de authentieke vorm van het testament verhindert dat geenszins. 🔗\n- **b** — FOUT. Anne erft inderdaad het volledige netto-actief (zij is enige wettige erfgename en Michèle verzaakt), maar het tarief mag niet louter \"rechte lijn\" zijn: art. 68 W.Succ. verbiedt dat de Staat door de verzaking minder ontvangt dan vóór verzaking verschuldigd was. 📖\n- **c** — JUIST. Anne verkrijgt het volledige netto-actief, maar het te betalen recht mag niet lager zijn dan wat Michèle (vreemde, tarief \"tussen personen zonder verwantschap\") had moeten betalen. In de praktijk wordt dus het hoogste van beide tarieven aangerekend op het volledige actief — hier het vreemden-tarief. 🔗\n- **d** — FOUT. Anne hoeft het testament niet aan te vechten: Michèle verzaakt vrijwillig. De gesuggereerde splitsing (helft rechte lijn / helft vreemden-tarief) heeft geen wettelijke grondslag. Art. 68 redeneert op het volledige verworpen aandeel, niet pro rata. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Art. 68 W.Succ. is een **minimum-rechten-regel**, geen tarief-toewijzing op basis van verwantschap met de verzaker. Anne is en blijft erfgename in rechte lijn, maar haar verschuldigd recht wordt **opgetrokken** tot het bedrag dat Michèle als vreemde zou hebben betaald, omdat dat hoger is. De berekening gebeurt dus op het volledige netto-actief aan het vreemden-tarief — niet door Anne fictief als vreemde te kwalificeren. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/Successierechten-federaal.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 68 W.Succ. (federaal — overgenomen in de gewestelijke wetboeken/VCF): \"In geval van verwerping van een intestaat-aandeel, van een uiterste wilsbeschikking, of van een contractuele erfstelling, mag het recht, verschuldigd door de personen die daarvan het voordeel genieten, niet lager zijn dan het recht, dat de verwerper had moeten betalen.\" 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 68 W.Succ."
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr28"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5213,7 +5414,64 @@
       "vraag_id": "2013-1-vr28"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:50:34Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De heer B. is als Belgisch rijksinwoner onderworpen aan de **personenbelasting in België op zijn volledige (wereldwijde) loon**. Daarnaast mag elk werkland heffen op het loon dat slaat op de daar uitgeoefende arbeid: **Frankrijk** belast het loon van de Franse werkdag (1/5 = 20 %) en **Duitsland** belast het loon van de Duitse werkdag (1/5 = 20 %). België verleent vervolgens vrijstelling met progressievoorbehoud voor de in FR en DE belastbare delen, zodat **effectief 3/5 (60 %) van het loon in BE belast blijft**, 20 % in FR en 20 % in DE. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "| Werkdag | Werkstaat | Werkgever / loondrager | Toewijzingsregel art. 15 OESO-MV | Heffingsbevoegd |\n|---|---|---|---|---|\n| 3 dagen/week | België (woonstaat) | Belgische vennootschap | Art. 15 §1, 1ste zin: arbeid in woonstaat ⇒ uitsluitend woonstaat | **BE** 📖 |\n| 1 dag/week | Frankrijk | Belgische venn., maar loon doorgerekend aan Franse vaste inrichting | Art. 15 §1, 2de zin + §2 c) niet vervuld (loon gedragen door VI in werkstaat) ⇒ werkstaat mag heffen | **FR** + BE (vrijstelling met progressievoorbehoud) 🔗 |\n| 1 dag/week | Duitsland | Duitse dochter, aparte arbeidsovereenkomst | Art. 15 §1, 2de zin + §2 b) niet vervuld (werkgever is inwoner van werkstaat) ⇒ werkstaat mag heffen | **DE** + BE (vrijstelling met progressievoorbehoud) 🔗 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vertrekpunt — woonstaatbeginsel (art. 4 OESO-MV).** De heer B. is fiscaal inwoner van België; België belast hem in principe op zijn wereldwijde inkomen (art. 5 WIB92). 📖\n\n**Art. 15 §1 OESO-MV — basisregel niet-zelfstandige arbeid.** Lonen zijn **uitsluitend belastbaar in de woonstaat**, *tenzij* de dienstbetrekking in de andere verdragsstaat wordt uitgeoefend; in dat geval mag *die andere staat* (de werkstaat) heffen op het loon dat slaat op de daar uitgeoefende arbeid. 📖\n\n**Stap 1 — 3 dagen in België (woonstaat = werkstaat).** Arbeid wordt in de woonstaat uitgeoefend → de uitzondering speelt niet → **enkel BE heft**. 🔗\n\n**Stap 2 — 1 dag in Frankrijk.** De arbeid wordt in FR uitgeoefend, dus FR mag in principe heffen (art. 15 §1, 2de zin). De uitzondering van **art. 15 §2 OESO-MV (183-dagenregel)** geeft de heffing terug aan de woonstaat **enkel als de drie voorwaarden cumulatief vervuld zijn**: (a) ≤ 183 dagen/12 mnd in werkstaat, (b) werkgever is geen inwoner van werkstaat, (c) loon wordt **niet gedragen door een vaste inrichting** van de werkgever in de werkstaat. Hier is voorwaarde (c) geschonden — de Belgische vennootschap rekent het loon door aan haar **Franse vaste inrichting** — dus de §2-uitzondering valt weg en **FR behoudt zijn heffingsbevoegdheid** op 1/5 van het loon. 🔗\n\n**Stap 3 — 1 dag in Duitsland.** Voor de Duitse werkdag sluit B. een **afzonderlijke arbeidsovereenkomst met de Duitse dochtervennootschap**. De werkgever in de zin van art. 15 §2 b) is dan de Duitse dochter (inwoner van DE) — voorwaarde (b) is geschonden — dus §2 speelt niet en **DE belast** 1/5 van het loon. 🔗\n\n**Stap 4 — vermijding dubbele belasting in België.** Onder de DBV's BE-FR (1964, aangepast) en BE-DE (1967) past België voor lonen de **vrijstellingsmethode met progressievoorbehoud** toe: de in FR/DE belastbare loondelen worden in BE vrijgesteld, maar meegerekend om het *tarief* op het overblijvende Belgische loondeel te bepalen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De **183-dagenregel** (art. 15 §2) is **geen automatische vrijstelling** voor korte buitenlandse opdrachten — alle drie de voorwaarden (a-b-c) moeten **cumulatief** vervuld zijn. Eén dag per week (≈ 52 dagen/jaar) blijft ruim onder 183 dagen, maar zodra het loon door een vaste inrichting in de werkstaat wordt **gedragen** (FR-casus) óf zodra de **werkgever zelf inwoner is van de werkstaat** (DE-casus, aparte arbeidsovereenkomst), valt §2 weg en mag de werkstaat heffen — ongeacht het lage aantal dagen. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/X-oeso-model-verdrag.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 15 OESO-Modelverdrag (Income From Employment)** — §1 toewijzing aan werkstaat zodra arbeid daar wordt uitgeoefend; §2 cumulatieve uitzondering (183 dagen + niet-inwoner-werkgever + niet-doorrekening aan VI). **Art. 4 OESO-MV** — woonplaats (BE-rijksinwoner). **Art. 5 WIB92** — Belgische rijksinwoners zijn aan PB onderworpen op hun wereldwijd inkomen. **Art. 155 WIB92** — vrijstelling met progressievoorbehoud voor bij verdrag vrijgesteld buitenlands beroepsinkomen. Concrete heffingsverdeling moet steeds worden gelezen via de **bilaterale DBV's BE-FR en BE-DE**, die voor lonen de OESO-Modelregel volgen.",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr29"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5267,7 +5525,105 @@
       "vraag_id": "2013-1-vr29"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — de Moeder-dochterrichtlijn (Richtlijn 2011/96/EU) is **niet** van toepassing. De Belgische NV bezit slechts 3 % van het kapitaal van de Hongaarse vennootschap, ruim onder de drempel van 10 % die de richtlijn vereist om als \"moedermaatschappij\" te kwalificeren. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 3, lid 1, a), i) Richtlijn 2011/96/EU: de hoedanigheid van moedermaatschappij wordt toegekend aan een vennootschap die \"een deelneming van ten minste 10 % bezit in het kapitaal van een vennootschap van een andere lidstaat\". Bij 3 % is die voorwaarde niet vervuld, zodat de vrijstelling van bronbelasting op dividenden (art. 5) niet ingeroepen kan worden. 📖",
+                "type": "grondslag",
+                "wetsref": "Richtlijn 2011/96/EU, art. 3, lid 1, a), i) en art. 5"
+              }
+            ],
+            "id": "a_moeder_dochter",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — de Interest-royaltyrichtlijn (Richtlijn 2003/49/EG) is **niet** van toepassing. De Belgische NV en de Hongaarse vennootschap zijn geen \"verbonden ondernemingen\" in de zin van de richtlijn: een directe deelneming van minstens 25 % is vereist, en hier is er slechts 3 %. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 3, b) Richtlijn 2003/49/EG: twee ondernemingen zijn verbonden wanneer (i) de ene rechtstreeks ≥ 25 % in het kapitaal van de andere bezit, (ii) omgekeerd, of (iii) een derde onderneming rechtstreeks ≥ 25 % in beide bezit. Met 3 % rechtstreekse deelneming en een natuurlijke persoon (de schoonbroer) als gemeenschappelijke aandeelhouder — geen onderneming — is geen van de drie verbindingen vervuld. 📖",
+                "type": "grondslag",
+                "wetsref": "Richtlijn 2003/49/EG, art. 3, b) en art. 1"
+              }
+            ],
+            "id": "a_interest_royalty",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Moeder-dochterrichtlijn (2011/96/EU).** De richtlijn schakelt bronbelasting op grensoverschrijdende dividenden binnen de EU uit, maar enkel binnen een moeder-dochterverhouding zoals omschreven in art. 3. Die verhouding vereist een **minimumdeelneming van 10 % in het kapitaal** (art. 3, lid 1, a), i)). 📖 Bovendien mogen lidstaten een **minimale aanhoudperiode van twee jaar** opleggen (art. 3, lid 2, b)). 📖 De Belgische NV bezit 3 % — onder de drempel — zodat zij niet de hoedanigheid van moedermaatschappij heeft en de vrijstelling van bronbelasting op de in 2012 geïnde dividenden van art. 5 niet kan inroepen. Hongarije mag dus zijn nationale bronheffing toepassen (onverminderd het Belgisch-Hongaars dubbelbelastingverdrag, dat in dit geval de relevante rechtsbron blijft). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Interest-royaltyrichtlijn (2003/49/EG).** Deze richtlijn schakelt bronbelasting uit op uitkeringen van interest en royalty's tussen **verbonden ondernemingen** van verschillende lidstaten (art. 1). 📖 De definitie van \"verbonden onderneming\" in art. 3, b) vereist een **rechtstreekse kapitaaldeelneming van ten minste 25 %** in één van de drie configuraties: top-down, bottom-up of via een gemeenschappelijke moeder-onderneming. 📖 In de casus zijn de twee vennootschappen enkel \"verbonden\" via natuurlijke personen (de cliënt en zijn schoonbroer zijn schoonbroers — geen verbondenheid van ondernemingen) en via een 3 %-deelneming. Geen van beide volstaat. De richtlijn is dus niet van toepassing op de in 2010 toegestane lening en Hongarije mag op de interesten de nationale bronheffing inhouden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md",
+                  "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De twee richtlijnen hanteren **verschillende drempels** (10 % voor MD, 25 % voor IR) en **verschillende structuurfiguren** (verticale moeder-dochterband versus brede \"verbondenheid\" tussen ondernemingen, ook horizontaal via een gemeenschappelijke moeder). Verbondenheid via natuurlijke personen — zoals een familieband tussen aandeelhouders — telt voor geen van beide. Wanneer een EU-richtlijn niet ingrijpt, valt men terug op het **bilateraal dubbelbelastingverdrag** België-Hongarije om de bronheffing te verminderen of te verrekenen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/EU-Richtlijn-moeder-dochter-2011-96.md",
+                  "resources/bronnen/wetteksten/EU-Richtlijn-interest-royalties-2003-49.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Richtlijn 2011/96/EU (Moeder-dochterrichtlijn), art. 3, lid 1, a), i) (drempel 10 %) + art. 5 (vrijstelling bronbelasting op uitgekeerde winst). Richtlijn 2003/49/EG (Interest-royaltyrichtlijn), art. 1 (afschaffing bronbelasting), art. 2 (definitie interest en royalty's) en art. 3, b) (drempel 25 % verbondenheid tussen ondernemingen). 📖",
+                "type": "grondslag",
+                "wetsref": "Richtlijn 2011/96/EU, art. 3 + art. 5; Richtlijn 2003/49/EG, art. 1, art. 2, art. 3"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-1-vr30"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5337,7 +5693,145 @@
       "vraag_id": "2013-1-vr30"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:49:48Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De normale verjaringstermijn voor de vordering tot voldoening van de btw bedraagt **drie jaar**: ze verstrijkt na het verstrijken van het derde kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid van de belasting zich heeft voorgedaan. 📖 De termijn begint te lopen **vanaf de dag dat de vordering ontstaat** (d.i. de dag van opeisbaarheid van de btw). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 81 WBTW (aanvang verjaring: dag waarop de vordering ontstaat). Art. 81bis, § 1, eerste lid WBTW (verjaring na het verstrijken van het derde kalenderjaar volgend op het kalenderjaar van opeisbaarheid). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "In geval van belastingontduiking bedraagt de verjaringstermijn **zeven jaar**: ze verstrijkt na het verstrijken van het zevende kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid zich heeft voorgedaan. 📖 Het aanvangspunt is ongewijzigd: de termijn begint te lopen **vanaf de dag dat de vordering ontstaat** (art. 81 WBTW geldt voor alle verjaringstermijnen voor voldoening). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Voorwaarde voor toepassing",
+                "tekst": "De 7-jaarstermijn geldt enkel wanneer er een **bewezen bedrieglijk opzet of oogmerk om te schaden** is, of wanneer een aanwijzing van ontduiking blijkt uit een inlichting/onderzoek/controle uit een andere lidstaat, een rechtsvordering, of bewijskrachtige gegevens. 📖 Bovendien moet de administratie de belastingplichtige voorafgaandelijk schriftelijk en nauwkeurig kennis geven van de aanwijzingen van belastingontduiking (vormvereiste op straffe van nietigheid van de verlenging). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 81bis, § 1, derde lid WBTW (verlenging tot zevende kalenderjaar bij ontduiking — zie 1°-4°). Art. 84ter WBTW (verplichte voorafgaande schriftelijke en nauwkeurige kennisgeving van de aanwijzingen van ontduiking). Art. 81 WBTW (aanvangspunt). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Vanaf 27 januari 2013 kan de administratie binnen de **normale termijn** terug tot handelingen waarvan de btw opeisbaar werd in **2010** (verjaring eind 2013). Mits geldige aanwijzing van ontduiking (en correcte kennisgeving), kan ze binnen de **verlengde termijn** terug tot handelingen waarvan de btw opeisbaar werd in **2006** (verjaring eind 2013). 🔗 Het in de casus aangekondigde startpunt **1 januari 2005 is in alle gevallen verjaard** — 2005 verjaarde reeds op 31 december 2012. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Toepassing van art. 81bis § 1 WBTW op de controledatum 27/01/2013:\n\n- **Normale termijn (3 jaar)**: verjaart na het verstrijken van het 3e kalenderjaar volgend op het jaar van opeisbaarheid. Opeisbaarheid 2010 → verjaring 31/12/2013 → op 27/01/2013 nog open. Opeisbaarheid 2009 → verjaring 31/12/2012 → reeds verjaard. ⇒ **Tot 2010 terug.** 🔗\n- **Verlengde termijn (7 jaar) bij ontduiking**: verjaart na het verstrijken van het 7e kalenderjaar volgend op het jaar van opeisbaarheid. Opeisbaarheid 2006 → verjaring 31/12/2013 → nog open. Opeisbaarheid 2005 → verjaring 31/12/2012 → reeds verjaard. ⇒ **Tot 2006 terug.** 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De termijn wordt geteld in **kalenderjaren** vanaf het jaar volgend op de opeisbaarheid, niet in 12-maandelijkse periodes vanaf de exacte datum van opeisbaarheid. Op 27/01/2013 zit men nog in het 3e kalenderjaar volgend op 2010 én in het 7e kalenderjaar volgend op 2006 — beide jaren zijn dus nog vatbaar voor invordering tot 31/12/2013. De administratie kan in casu dus **niet wettig teruggaan tot 1 januari 2005**, ongeacht de aanwijzing van ontduiking. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 81bis, § 1, eerste lid WBTW (3-jaarstermijn — \"na het verstrijken van het derde kalenderjaar volgend op dat waarin de oorzaak van opeisbaarheid zich heeft voorgedaan\"). Art. 81bis, § 1, derde lid WBTW (7-jaarstermijn bij ontduiking). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen**, de brief vormt **geen geldige aanwijzing van belastingontduiking** in de zin van art. 81bis § 1, derde lid juncto art. 84ter WBTW. De brief verwijst weliswaar naar het proces-verbaal van 27/01/2013, maar bevat **geen omschrijving van de vastgestelde feiten**: ze identificeert noch de aard, noch de periode, noch de concrete handelingen waarop het vermoeden van ontduiking steunt. 🔗 Bijgevolg kan de administratie zich niet beroepen op de verlengde 7-jaarstermijn en blijft enkel de normale 3-jaarstermijn van toepassing. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 84ter WBTW vereist dat de administratie, vooraleer zij de 7-jaarstermijn toepast, de belastingplichtige **voorafgaandelijk en schriftelijk** in kennis stelt van de **aanwijzingen** van ontduiking die in zijn hoofde bestaan en die het toepassen van die termijn rechtvaardigen. 📖 De rechtspraak en doctrine vereisen dat die kennisgeving **nauwkeurig** is: een loutere verwijzing zonder omschrijving van de feiten volstaat niet — de belastingplichtige moet weten welke gedragingen, welke periode en welk vermoeden hem worden tegengeworpen, opdat hij zijn rechten van verdediging kan uitoefenen. 🔗 De brief in casu vermeldt enkel dat er een grondige controle komt over 01/01/2005 – 27/01/2013, met verwijzing naar het PV, **zonder de vastgestelde feiten te omschrijven** → vormvereiste niet vervuld → de kennisgeving is niet rechtsgeldig en kan de 7-jaarstermijn niet activeren. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het PV van 27/01/2013 zelf stelt enkel een **tariefdiscussie** vast (6 % vs 12 % bij ter plaatse verbruikt voedsel) — dat is een kwalificatieprobleem, geen automatische aanwijzing van fraude. Een aanwijzing van ontduiking vereist een element van **opzet** of bedrieglijke handeling; een onjuiste tariefkeuze die op één controle-moment wordt vastgesteld levert dat opzet niet zonder meer op. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 84ter WBTW (voorafgaande schriftelijke en nauwkeurige kennisgeving van de aanwijzingen van ontduiking als vormvereiste vóór toepassing van de 7-jaarstermijn). Art. 81bis, § 1, derde lid WBTW (verlengde termijn). 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2013-1-vr31"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -5418,7 +5912,127 @@
       "vraag_id": "2013-1-vr31"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**30 juni 2013** — de gewone aanslagtermijn van art. 359 WIB92 (30 juni van het jaar na het aanslagjaar 2012) is hier de uiterste datum. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Twee termijnen lopen naast elkaar; de **langste** primeert:\n\n- **Art. 359 WIB92** (gewone aanslagtermijn): tot en met **30 juni van het jaar volgend op het aanslagjaar**. Voor AJ 2012 → **30/06/2013**. 📖\n- **Art. 353 WIB92** (minimumtermijn voor tijdige aangifte): minstens **zes maanden vanaf de datum waarop de aangifte bij de dienst is toegekomen**. Aangifte ingediend 20/09/2012 → minimum tot **20/03/2013**. 📖\n\nDe administratie beschikt over het langste van beide → uiterste inkohieringsdatum = **30 juni 2013**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 353 WIB92 (minimum zes maanden vanaf binnenkomst aangifte) samen met art. 359 WIB92 (uiterste datum 30 juni van het jaar na het aanslagjaar). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 353 en 359 WIB92"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het oudste belastbare tijdperk dat met de procedure \"aanwijzingen van belastingontduiking\" kan worden onderzocht is **aanslagjaar 2007**, dit is het **boekjaar van 1 april 2006 tot en met 31 maart 2007**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bij aanwijzingen van belastingontduiking gold ten tijde van het examen (2013) een **verlengde aanslag- en onderzoekstermijn van zeven jaar** vanaf 1 januari van het aanslagjaar (gewone driejarige termijn van art. 354, al. 1 WIB92 + bijkomende termijn van vier jaar van art. 354, al. 4 oude versie). 📖\n\nKennisgeving van de aanwijzingen op **5/2/2013** → aanslagjaar 2013 → zeven aanslagjaren onderzoekbaar: **AJ 2007 t.e.m. AJ 2013**. 🔗\n\nDe vennootschap sluit het boekjaar af op 31 maart. AJ 2007 stemt overeen met het boekjaar dat eindigt in 2007 → **01/04/2006 – 31/03/2007**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "De controleur kondigt onderzoek aan over \"de op 31 maart afgesloten boekjaren **2005 tot 2012**\". De boekjaren 2005 en 2006 (afgesloten op 31/03/2005 en 31/03/2006, dus AJ 2005 en AJ 2006) liggen **buiten** het zevenjarig venster en kunnen niet meer worden onderzocht. De aankondiging is op dat punt onregelmatig. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 354 WIB92 (versie 2013): driejarige aanslagtermijn + bijkomende termijn van vier jaar bij aanwijzingen van belastingontduiking = zeven jaar. Onderzoek in de bijkomende termijn vereist voorafgaande, schriftelijke en nauwkeurige kennisgeving van de aanwijzingen op straffe van nietigheid (art. 333, al. 3 WIB92). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 333, al. 3 en art. 354 WIB92 (versie 2013)"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen.** Het btw-proces-verbaal toont op zichzelf geen belastingontduiking inzake vennootschapsbelasting **aan**; het levert hoogstens **een aanwijzing** op die de bijkomende onderzoekstermijn kan openen. Werkelijke ontduiking in de vennootschapsbelasting moet binnen die procedure afzonderlijk worden bewezen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De wet maakt een duidelijk onderscheid tussen twee niveaus:\n\n- **Aanwijzing van belastingontduiking** (art. 333, al. 3 WIB92): een **redelijk vermoeden** op basis van concrete elementen — voldoende om de bijkomende vierjarige onderzoekstermijn te activeren, mits voorafgaande, schriftelijke en nauwkeurige kennisgeving. Een PV opgesteld door de btw-ambtenaren en overgezonden aan de directe belastingen (art. 335-336 WIB92) is precies zo'n element en kan dus dienen als geldige aanwijzing. 📖\n- **Bewijs van belastingontduiking** in de vennootschapsbelasting zelf: vereist de gewone bewijsregels van art. 340 WIB92 (alle bewijsmiddelen van gemeen recht, behalve de eed; PV's hebben bewijskracht tot bewijs van het tegendeel). 📖\n\nHet btw-PV bewijst inbreuken **inzake btw**. Voor de vennootschapsbelasting moet de controleur, op basis van zijn eigen onderzoek in de bijkomende termijn (boekencontrole op 20/2/2013, vraag om inlichtingen, vergelijking omzet btw ↔ aangegeven winst …), zelf de belastbare grondslag en het frauduleuze opzet aantonen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "Het btw-PV heeft op grond van art. 340, al. 2 WIB92 wél **bijzondere bewijswaarde** (bewijskracht tot bewijs van het tegendeel) wanneer het in de VenB-procedure als bewijsmiddel wordt aangevoerd. Maar dat geldt voor de **feitelijke vaststellingen** die de btw-ambtenaar persoonlijk heeft gedaan (vb. niet-geboekte ontvangsten), niet voor de juridische kwalificatie als ontduiking in de vennootschapsbelasting. De koppeling tussen niet-aangegeven omzet btw en niet-aangegeven winst in de VenB moet de controleur zelf maken en motiveren. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 333, al. 3 WIB92 (kennisgeving van aanwijzingen als voorwaarde voor onderzoek in de bijkomende termijn) en art. 340 WIB92 (bewijsmiddelen, bewijskracht PV tot bewijs van het tegendeel). De wet vereist enkel \"aanwijzingen\", niet het bewijs zelf — dat laatste volgt uit het onderzoek zelf. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 333, al. 3 en art. 340 WIB92"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2013-1-vr32"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
