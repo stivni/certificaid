@@ -1628,6 +1628,76 @@ internationaal-fiscaal                    [cross-cutting cluster, PO 2.8 — ~30
 - **OP-FS.B** ⏳ `fiscale-procedure` en `internationaal-fiscaal` als cross-cutting clusters apart of als sub-discipline-clusters? Voorlopig cross-cutting (raken alle 4 hoofd-belastingen).
 - **OP-FS.C** ⏳ Sub-discipline-uitwerking per PO blijft TBD — deze compact-mapping is voldoende voor structuur-overzicht; diepe Σ-records per sub-discipline volgen indien didactisch zwaar.
 
+### Fiscale-procedure-cluster
+
+Thema: `fiscale-procedure`. *Eerste diepe PO 2.x-uitwerking (PO 2.5, 2026-05-26). Cross-cutting voor alle belastingsoorten — taxatie · aangifte · controle · bezwaar · bemiddeling · invordering. Lost 5 `-fiscaal`-suffix-smells op + sanctie-bundeling (3 records) + 2 duplicaat-absorpties + 1 perspectief-vermommings-absorptie + 1 naam-disambiguatie.*
+
+```
+fiscale-procedure                         [thema-cluster fiscaliteit, 13 records — PO 2.5]
+│
+├── fiscale-procedure                     [Σ-hoofdrecord — NIEUW]
+│   ▸ overkoepelend keuzekader: aangifte → controle → taxatie → aanslag → bezwaar → bemiddeling/rechter → invordering
+│   ▸ #flow-overzicht · #bewijslast-verdeling · #accountant-rol-vertegenwoordiging (overzicht; detail via perspectieven)
+│   ▸ absorbeert: `fiscale-procedure-pb` + `fiscale-procedure-belastingplichtige`
+│
+├── taxatieprocedure                      [K]
+├── aanslag-cyclus                        [procedure]
+├── aanslagtermijnen                      [K, was `-fiscaal`]   gewone (3j) · verlengde (5j) · 10j-fraude
+├── beginselen-behoorlijk-bestuur         [K-principes, was `-fiscaal`]   rechtszekerheid · zorgvuldigheid · redelijkheid · vertrouwen · motivering
+├── fiscale-beginselen                    [K, cross PO 2.1]   legaliteit · annaliteit · territorialiteit
+├── aangifteplicht                        [K, was `-fiscaal`]   wie · wat · wanneer · gevolgen niet-indiening
+├── fiscale-sancties                      [Σ-bundel, absorbeert 3 records: administratieve-boete + belastingverhoging + strafrechtelijke-sancties]
+├── fiscale-controle                      [procedure]   accountant_perspectieven[].advies: vertegenwoordigt cliënt (was `mandaat-accountant-fiscus`)
+├── fiscale-bewijsmiddelen                [K]   geschriften · getuigen · vermoedens · bekentenis · tekenen+indiciën
+├── bezwaarprocedure                      [procedure, was `-fiscaal`]   accountant_perspectieven[].advies: bezwaarschrift + advisering
+├── gerechtelijke-fase-belasting          [procedure, was `gerechtelijke-fase-fiscaal` — disambiguatie met `gerechtelijke-reorganisatie`]   accountant_perspectieven[].advies: voorbereiding (daarna advocaat)
+├── fiscale-bemiddelingsprocedure         [procedure]   FBD · vrijwillig · vertrouwelijk   accountant_perspectieven[].advies: bemiddeling-voorbereiding
+├── invorderingsprocedure                 [procedure, was `-fiscaal`]   betalingsherinnering · dwangbevel · beslag
+├── voorafgaande-beslissing-dvb           [procedure]   DVB-rulings (cross PO 2.1)
+└── geheime-commissielonen                [R, cross VenB]   bijzondere aanslag 100/50% bij niet-fichering
+```
+
+**Cross-cluster**:
+- `aangifte-pb` · `aangifte-vennootschapsbelasting` · `btw-aangifte` · `aangifte-nalatenschap` (cross uit PB/VenB/BTW/registratie-clusters)
+- `fiscale-beginselen` (primair PO 2.1)
+- `voorafgaande-beslissing-dvb` (cross PO 2.1)
+- `geheime-commissielonen` (cross VenB)
+
+**Renames + absorpties + nieuw**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| aangifteplicht-fiscaal | aangifteplicht |
+| aanslagtermijnen-fiscaal | aanslagtermijnen |
+| beginselen-behoorlijk-bestuur-fiscaal | beginselen-behoorlijk-bestuur |
+| bezwaarprocedure-fiscaal | bezwaarprocedure |
+| invorderingsprocedure-fiscaal | invorderingsprocedure |
+| gerechtelijke-fase-fiscaal | **gerechtelijke-fase-belasting** (disambiguatie) |
+| administratieve-boete-fiscaal | absorbed → `fiscale-sancties#administratieve-boete` |
+| belastingverhoging-fiscaal | absorbed → `fiscale-sancties#belastingverhoging` |
+| fiscale-strafrechtelijke-sanctie | absorbed → `fiscale-sancties#strafrechtelijke-sancties` |
+| fiscale-procedure-pb | absorbed → cluster-Σ |
+| fiscale-procedure-belastingplichtige | absorbed → cluster-Σ |
+| **mandaat-accountant-fiscus** | **absorbed als perspectief** → `accountant_perspectieven[].advies` op fiscale-controle/bezwaarprocedure/bemiddelingsprocedure/gerechtelijke-fase-belasting (perspectief-vermommings-correctie) |
+| (nieuw) | **fiscale-procedure** (Σ-overzicht) |
+
+**Triangulatie 2026-05-26**:
+- 12 PO 2.5-anchors → 0 PO-only gaps
+- 23 records → 13 cluster-eigen (5 renames + 6 absorpties + 1 perspectief-correctie + 1 nieuw Σ + 1 disambiguatie)
+
+**Bronnen-pin**: WIB · KB-WIB · AWGB (beginselen behoorlijk bestuur) · FBD-procedureregels.
+
+**Test-case-validatie** (2026-05-26): 5 representatieve fiscale-procedure-vragen — alle gedekt zonder forceren; bevestigt o.a. perspectief-absorptie `mandaat-accountant-fiscus` (vr "accountant als gevolmachtigde bij fiscale controle" → `fiscale-controle.accountant_perspectieven[].advies`).
+
+**Open punten**:
+- **OP-FP.A** ✅ Naam-smell-scan-pattern uitgebreid met `-pb`/`-venb`/`-fiscus`/`-fiscaal`-suffixen
+- **OP-PV.A** ⏳ **Cross-cluster perspectief-vermommings-scan** (nieuw): scan alle 396 records op `-pb`/`-venb`/`-fiscus`-suffixen. Litmus: bestaat onderliggend fenomeen-record? Zo ja → absorberen als perspectief. Al gespotte kandidaten:
+  - `bedrijfsleidersbezoldiging-pb` → perspectief op `bedrijfsleidersbezoldiging` (werknemers-vergoedingen)
+  - `aftrekbare-beroepskosten-venb` + `beroepskosten-regime-pb` → 2 perspectieven op (ontbrekend) `beroepskosten`-fenomeen → mogelijk nieuw `beroepskosten`-record creëren
+  - `verworpen-uitgaven-autokosten` → VenB-perspectief op `autokosten` (mobiliteit-cluster)
+  Mapping-fase-actie.
+- **OP-FP.B** ⏳ Aanslag-procedure-detail vs `aanslag-cyclus`-record — eventueel nuance bij content-uitwerking
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
