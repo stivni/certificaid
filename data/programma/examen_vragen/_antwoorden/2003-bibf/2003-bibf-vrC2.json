@@ -1,0 +1,42 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrC2",
+  "antwoord_datum": "2026-05-26T12:28:19Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Operationele cash-flow = 20.280 EUR** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Operationele cash-flow = nettowinst + niet-kaskosten (afschrijvingen + netto-voorzieningen + waardeverminderingen) 🔗\n\n| Post | Bedrag (EUR) |\n|---|---:|\n| Winst van het boekjaar | 2.750 |\n| + Afschrijvingen | 12.100 |\n| + Toevoegingen aan voorzieningen | 6.300 |\n| − Bestedingen van voorzieningen | −1.650 |\n| + Toevoegingen aan waardeverminderingen | 780 |\n| **= Operationele cash-flow** | **20.280** |\n\nDe bestedingen van voorzieningen worden afgetrokken omdat ze een terugname zijn (een eerder geboekte niet-kaskost wordt teruggedraaid omdat het risico zich realiseert of vervalt). Per saldo wordt dus enkel de **netto-toevoeging** aan voorzieningen bij de winst opgeteld (6.300 − 1.650 = 4.650). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — De cash-flow zoals hier berekend is de **klassieke (indirecte) bedrijfscashflow**: winst na belastingen verhoogd met niet-kaskosten. 🔗 Het is een **proxy** voor de operationele kasstroom, niet de zuivere operationele kasstroom uit een volwaardig kasstroomoverzicht (IAS 7) — die laatste corrigeert daarenboven voor de mutaties in werkkapitaal (voorraden, vorderingen, schulden). 🔗 In een BIBF-examen op basis van een balans + résultatenrekening volstaat de indirecte methode zonder werkkapitaalcorrectie. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Definitie bedrijfscashflow als nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen) — gangbare definitie in jaarrekeninganalyse. 🔗 Voor de boekhoudkundige begrippen 'afschrijvingen' en 'waardeverminderingen' zelf: art. 3:23 KB-WVV 2019. 📖",
+          "wetsref": "Art. 3:23 KB-WVV 2019",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

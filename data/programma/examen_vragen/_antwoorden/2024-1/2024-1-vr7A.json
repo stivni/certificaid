@@ -2,8 +2,8 @@
   "schema_versie": "1.1",
   "examen_id": "2024-1",
   "vraag_id": "2024-1-vr7A",
-  "antwoord_datum": "2026-05-25T23:48:09Z",
-  "antwoord_model": "claude-opus-4-7",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
   "vraag_antwoorden": [
     {
       "id": "a",
@@ -11,24 +11,42 @@
       "gekozen_optie_id": "b",
       "blokken": [
         {
-          "type": "motivatie",
-          "tekst": "**Onder IAS 2 'Voorraden'** zijn drie cost-formules toegelaten:\n\n1. **Specifieke identificatie** (IAS 2.23) — voor voorraad-items die niet onderling uitwisselbaar zijn (bv. unieke kunstwerken, vastgoed, voertuigen met VIN). ⚖️\n2. **FIFO (First-In, First-Out)** (IAS 2.25) — voor onderling uitwisselbare items. ⚖️\n3. **Gewogen gemiddelde kostprijs** (IAS 2.25) — alternatief voor FIFO. ⚖️\n\n**LIFO** is **uitdrukkelijk verboden** onder IFRS sinds IAS 2 (revised 2003) — IAS 2.BC9 ev. ⚖️\n\n**Per MC-optie**:\n- **a** (FIFO, LIFO, gewogen gemiddelde, individueel) → **FOUT** (LIFO erin)\n- **b** (FIFO, gewogen gemiddelde, individueel) → **JUIST** (alle drie de toegelaten methodes — typo 'Fifi' in PDF gecorrigeerd naar 'FIFO')\n- **c** (LIFO, gewogen gemiddelde, individueel) → **FOUT** (LIFO erin)\n- **d** (FIFO en gewogen gemiddelde) → **DEELS correct** (sluit LIFO uit, mist specifieke identificatie)\n\n**Beste antwoord**: optie **b** — bevat geen verboden LIFO en noemt alle drie de toegelaten methodes (FIFO + gewogen gemiddelde + specifieke identificatie/individueel). Optie d sluit LIFO ook uit, maar is incompleet.",
-          "confidence": "grounded",
+          "type": "conclusie",
+          "tekst": "Optie **b** — FIFO, gewogen gemiddelde, individueel (specifieke identificatie). LIFO is onder IAS/IFRS uitdrukkelijk verboden. 🔗",
+          "confidence": "afgeleid",
           "bron_refs": [
-            "content/concepten/voorraden-ifrs.md"
+            "resources/bronnen/wetteksten/IAS-2-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "IAS 2 laat drie kostprijsformules toe voor voorraden:\n\n- **Specifieke identificatie** voor items die niet onderling uitwisselbaar zijn (bv. uniek vastgoed, kunstwerken). 📖\n- **FIFO** voor onderling uitwisselbare items. 📖\n- **Gewogen gemiddelde kostprijs** als alternatief voor FIFO. 📖\n\n**Per optie**:\n- **a** (FIFO, LIFO, gewogen gemiddelde, individueel) → FOUT — bevat LIFO. 🔗\n- **b** (FIFO, gewogen gemiddelde, individueel) → JUIST — exact de drie IAS 2-methoden. 🔗\n- **c** (LIFO, gewogen gemiddelde, individueel) → FOUT — bevat LIFO, mist FIFO. 🔗\n- **d** (FIFO + gewogen gemiddelde) → INCOMPLEET — sluit LIFO terecht uit, maar mist specifieke identificatie die IAS 2 voor niet-uitwisselbare items zelfs verplicht stelt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-2-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Belgisch boekhoudrecht (art. 3:54 KB WVV, voorheen art. 43 KB W.Venn.) laat **wél vier** methoden toe: individualisering, gewogen gemiddelde, FIFO én LIFO. Het verbod op LIFO geldt enkel onder IAS/IFRS (sinds de herziene IAS 2 van 2003). Vraag goed lezen — \"onder IAS/IFRS\" versus \"in de Belgische enkelvoudige jaarrekening\" geeft een ander antwoord. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+            "resources/bronnen/adviezen/CBN-0132-01-lifo-methode.md"
           ]
         },
         {
           "type": "grondslag",
-          "tekst": "IAS 2 §9-27 (toegelaten methodes); verbod LIFO sinds IAS 2 (revised 2003), IAS 2.BC9 ev.",
-          "wetsref": "IAS 2",
-          "confidence": "grounded",
+          "tekst": "IAS 2 *Voorraden* (Verordening (EU) 2023/1803, geconsolideerde IFRS): drie toegelaten kostprijsformules — specifieke identificatie (niet-uitwisselbare items), FIFO en gewogen gemiddelde voor uitwisselbare items. LIFO is sinds de herziene IAS 2 (2003) niet langer aanvaard — CBN-advies 132/7 bevestigt dit expliciet. 📖",
+          "wetsref": "IAS 2 (Verordening (EU) 2023/1803)",
+          "confidence": "geciteerd",
           "bron_refs": [
-            "content/concepten/voorraden-ifrs.md"
+            "resources/bronnen/wetteksten/IAS-2-voorraden.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
           ]
         }
       ]
     }
-  ],
-  "_migratie_notitie": "Gemigreerd uit pre-ADR-031 antwoord (was gekoppeld aan 2024-1-vr7 als geheel; scope-deel A IFRS voorraadwaardering mapt 1-op-1 op vr7A). Oorspronkelijke 'beste antwoord D'-keuze is herzien naar 'b': nieuwe interpretatie corrigeert PDF-typo 'Fifi' → 'FIFO', waardoor optie b alle drie de toegelaten IAS 2-methodes correct opsomt."
+  ]
 }

@@ -1,0 +1,88 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr4",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Ja — de onderneming **moet** een voorziening voor grote herstellings- en onderhoudswerken (rekening 162) aanleggen en daarvoor **jaarlijks 5.000 EUR** ten laste nemen (40.000 EUR / 8 jaar) gedurende de acht boekjaren tussen twee schilderbeurten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De schilderwerken vormen een **periodiek terugkerende kost** die niet aan één boekjaar mag worden toegerekend: het matching-beginsel vereist dat de kost wordt gespreid over de acht boekjaren waarin de gebouwen worden gebruikt (de oorzaak van de herstelling ontstaat in de periodes vóór de uitvoering). 📖\n\nBoeking elk boekjaar (jaar 1 t.e.m. 8):\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 6360 | Voorzieningen voor grote herstellings- en onderhoudswerken: Toevoeging | 5.000 | |\n| aan | 162 | Voorzieningen voor grote herstellings- en onderhoudswerken | | 5.000 |\n\nNa acht jaar staat er 40.000 EUR op rekening 162, klaar om te worden besteed wanneer de schilderwerken worden uitgevoerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — de voorziening is **verplicht**, niet facultatief: het KB tot uitvoering van het WVV (vroeger KB W.Venn. art. 54) legt expliciet de vorming op van voorzieningen voor grote herstellings- en onderhoudswerken die periodiek terugkeren. De Commissie adviseert om per actief-categorie een **systematisch spreidingsplan** vast te leggen (vergelijkbaar met een afschrijvingsplan). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB WVV art. 3:28 (vormingsplicht voorzieningen voor risico's en kosten) en de specifieke verplichting voor grote herstellings- en onderhoudswerken — CBN-advies 2018/25 (Voorzieningen, deel III) en historisch CBN-advies 107/1. Rekening 162 (MAR).",
+          "wetsref": "KB WVV art. 3:28; CBN 2018/25; CBN 107/1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+            "resources/bronnen/adviezen/CBN-0107-01-voorzieningen-voor-grote-herstellings-of-onderhoudswerken.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De gevormde voorziening (40.000 EUR) wordt **volledig besteed** ten belope van haar bedrag; het **meerbedrag** boven 40.000 EUR wordt in het jaar van uitvoering rechtstreeks als **kost van het boekjaar** geboekt (onvoldoende voorziening → bijkomende last). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Op het ogenblik dat de schilderwerken effectief worden uitgevoerd, krijgt de kost het karakter van een **zekere en vaststaande schuld**: de voorziening wordt aangewend (besteed).\n\nBoeking in jaar 8 — aanwending voor het geraamde bedrag:\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 162 | Voorzieningen voor grote herstellings- en onderhoudswerken | 40.000 | |\n| aan | 6361 | Voorzieningen voor grote herstellings- en onderhoudswerken: Besteding en terugneming (-) | | 40.000 |\n\nDe werkelijke factuur van de schilder (bv. 45.000 EUR) wordt geboekt op een onderhoudskostenrekening (61) tegen leveranciers (440). Het **verschil** (5.000 EUR meer dan geraamd) blijft per saldo als **bijkomende exploitatiekost** in het resultaat van het jaar van uitvoering — de voorziening neutraliseert enkel het deel dat correct was geraamd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — een tekort op de voorziening wordt **niet** retroactief gecorrigeerd via de vorige boekjaren: de raming was destijds de beste schatting, dus het is geen fout. Het meerbedrag is een **schattingswijziging** die in het lopende boekjaar wordt opgevangen (geen herziening van vroegere jaarrekeningen). Omgekeerd: als de werken **minder** zouden kosten dan geraamd, wordt het overschot teruggenomen via rekening 6361 (terugneming-creditzijde), waardoor het resultaat van het uitvoeringsjaar verbetert. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 2018/25 — sectie 'Besteding en terugneming': een voorziening wordt besteed wanneer de kost een zekere en vaststaande schuld wordt; een tekort aan voorziening leidt tot een bijkomende kost in het lopende boekjaar, een overschot tot een terugneming.",
+          "wetsref": "CBN 2018/25 (Besteding en terugneming)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

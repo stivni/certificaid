@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie b is juist.** Op 05/12/2013 (datum van het ontslag / betekening van de opzegging) vormt XYZ een voorziening voor de geactualiseerde toekomstige bedrijfstoeslagen, geraamd op basis van leeftijd en geslacht (sterftekansen) van de werknemer. Vanaf 01/03/2014 worden de maandelijkse uitbetalingen (2.000 EUR) geboekt als personeelskost in de resultatenrekening, en wordt jaarlijks een evenredig gedeelte van de voorziening teruggenomen via een opbrengstrekening. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+            "resources/bronnen/adviezen/CBN-0107-03-verplichtingen-voortvloeiend-uit-brugpensioen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a (kosten on-the-fly, geen voorziening)** → **FOUT**. Zodra de werkgever een werknemer ontslagen heeft in het kader van SWT ontstaat een **zekere verplichting** waarvan enkel het exacte bedrag schattingsgebonden is (afhankelijk van overleving tot pensioenleeftijd). Het matching-beginsel en art. 3:11 KB/WVV (oud art. 33 KB/W.Venn.) verplichten dan een voorziening; gewoon de kosten lopend boeken miskent de prudentie- en matching-regels. 🔗\n- **b** → **JUIST** (zie conclusie).\n- **c (voorziening op 01/03/2014)** → **FOUT op timing**. De voorziening moet gevormd worden op het ogenblik dat de **verbintenis ontstaat**, d.w.z. bij de **betekening van de opzegging** (05/12/2013), niet pas op de dag dat de werknemer effectief stopt met werken. CBN 107/3bis is hier expliciet. Bovendien zwijgt c over wat er met de voorziening gebeurt nadien. 📖\n- **d (voorziening op 05/12/2013, kosten in mindering brengen van de voorziening)** → **FOUT op verwerking**. De maandelijkse bedrijfstoeslag wordt **wel** als personeelskost geboekt in de resultatenrekening (rekening 62) — zij wordt niet rechtstreeks in mindering gebracht van de voorziening. Het is de **terugneming van de voorziening** (rekening 6350/6360 → 7350/7360) die het resultaat compenseert, parallel met de werkelijke uitbetalingen. 🔗\n- **e (voorziening op 01/03/2014, terugname bij pensioenleeftijd)** → **FOUT op twee punten**. Foute timing (zie c) én foute terugneming: de voorziening wordt **jaarlijks pro rata** teruggenomen naarmate de bedrijfstoeslagen werkelijk worden uitbetaald, niet pas in één keer bij het bereiken van de pensioenleeftijd (dat zou het matching-beginsel net schenden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+            "resources/bronnen/adviezen/CBN-0107-03-verplichtingen-voortvloeiend-uit-brugpensioen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil — voorziening boeken ≠ kost boeken.** De voorziening op 05/12/2013 is een **niet-kaskost** (debet 6350/6360 Toevoeging aan voorzieningen — krediet 160/163 Voorziening). De latere maandelijkse betalingen van 2.000 EUR zijn **wel** een effectieve kost (debet 62 Personeelskosten / krediet 45 of 55) gecombineerd met een gelijktijdige terugname van een evenredig deel van de voorziening (debet 160/163 — krediet 7350/7360 Onttrekking aan voorzieningen). Netto-impact op het resultaat in de SWT-jaren: ≈ nul, want kost en terugname compenseren elkaar. De impact op het resultaat zit volledig in **2013** (jaar van ontslag) — dat is precies de bedoeling van het matching-beginsel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**CBN-advies 2018/25** (Voorzieningen voor risico's en kosten — sectie SWT) — vervangt 107/3 en 107/3bis; de werkgever moet bij ontslag een voorziening boeken voor de geactualiseerde waarde van de toekomstige bedrijfstoeslagen tot de pensioengerechtigde leeftijd, geraamd op basis van leeftijd, geslacht en sterftekansen. **CBN-advies 107/3bis**: de voorziening wordt gevormd op het ogenblik van de **betekening van de opzegging** (niet bij afsluiting van de CAO en niet bij effectief stoppen met werken). **Art. 3:11 KB/WVV** (oud art. 33 KB/W.Venn. 30/01/2001 — gecodificeerd in art. 19 KB 08/10/1976): verplichting tot vorming van voorzieningen voor brugpensioenverplichtingen. 📖",
+          "wetsref": "Art. 3:11 KB/WVV; CBN-advies 2018/25; CBN-advies 107/3bis",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+            "resources/bronnen/adviezen/CBN-0107-03-verplichtingen-voortvloeiend-uit-brugpensioen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

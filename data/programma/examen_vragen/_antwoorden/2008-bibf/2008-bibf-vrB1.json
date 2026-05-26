@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrB1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**Boeking bij B (aankoop aandelen C):**\n\n| Rek. | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 280 | Deelnemingen in verbonden ondernemingen 🔗 | 50.000,00 |  |\n| 550 / 489 | Kredietinstellingen *of* Te betalen (aankoopprijs) |  | 50.000,00 |\n\nBoekingstekst: aankoop 12 %-pakket in zustervennootschap C voor 50.000,00 EUR.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2011-20-verbonden-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De kwalificatie van de deelneming is het scharnierpunt. Vennootschap A controleert zowel B als C; B en C zijn dus **zustervennootschappen** binnen dezelfde groep. Op grond van art. 1:20, 1°, d) WVV zijn vennootschappen die onder de controle staan van eenzelfde moedervennootschap onderling **verbonden vennootschappen** 📖. Bijgevolg moet B het 12 %-belang in C niet boeken als rekening 28**2** (deelneming met deelnemingsverhouding) en zeker niet als rekening 28**4** (andere aandelen) — wat de drempel van 10 %/20 % zou suggereren — maar als rekening **280 Deelnemingen in verbonden ondernemingen** 🔗. De groepsband heeft voorrang op het stempercentage.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2011-20-verbonden-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet kijken naar het stempercentage (12 % < 20 %) om automatisch op rekening 282 of 284 uit te komen 🔗. De rubriek 280 is verplicht zodra er een groepsband via een gemeenschappelijke moeder bestaat — dat is een **kwalitatief** criterium (controle binnen de groep), niet het kwantitatieve 10 %/20 %-criterium uit art. 3:88-3:89 KB/WVV dat enkel relevant is voor de afbakening 282 ↔ 284 buiten een groepsverband 🤖.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 1:20, 1°, d) WVV** — vennootschappen die onder gemeenschappelijke controle staan zijn verbonden vennootschappen 📖. **Art. 1:14-1:15 WVV** — definitie controle en moeder-/dochtervennootschap 📖. **CBN-advies 2011/20** — toepassing op groepsstructuren met zustervennootschappen 📖. MAR-rubriek 28 Financiële vaste activa: 280 Deelnemingen in verbonden ondernemingen 🔗.",
+          "wetsref": "Art. 1:20, 1°, d) WVV; Art. 1:14-1:15 WVV; CBN-advies 2011/20",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2011-20-verbonden-ondernemingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

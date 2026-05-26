@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr6",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "**Drie voorbeelden van maatregelen om het netto bedrijfskapitaal te verhogen** 🤖:\n\n1. **Kapitaalverhoging (of inbreng door de aandeelhouders)** — door een inbreng in geld of de incorporatie van een rekening-courant van de aandeelhouder stijgt het eigen vermogen (permanent vermogen) zonder dat de vaste activa toenemen. Het NBK stijgt met het volledige bedrag van de inbreng. 🤖\n2. **Aantrekken van een lening op lange termijn (> 1 jaar)** — vervangen van schulden op korte termijn door een banklening of obligatielening op meer dan één jaar. De vlottende activa blijven gelijk, de schulden op ten hoogste één jaar dalen → NBK stijgt. Variant: een nieuwe LT-lening om vlottende activa (bv. voorraden, klantenkrediet) te financieren. 🤖\n3. **Verkoop van overtollige vaste activa** (desinvestering) — niet-essentiële vaste activa (oud machinepark, niet-bedrijfsmatig vastgoed, niet-strategische deelnemingen) te gelde maken. Vaste activa dalen, liquide middelen (vlottend) stijgen → NBK stijgt. 🤖\n\n*Andere geldige antwoorden* (extra mogelijkheden, niet limitatief): winst reserveren in plaats van uitkeren (zelffinanciering via niet-uitkering van dividend), herfinanciering van korte termijn-leverancierskrediet naar lange termijn, een sale-and-leaseback van een gebouw (vast actief → liquide middelen, met LT-leasingverplichting), of een achtergestelde lening van de aandeelhouder op > 1 jaar. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Redenering",
+          "tekst": "Het **netto bedrijfskapitaal (NBK)** kan op twee equivalente manieren worden gedefinieerd:\n- *Bottom-up* (vlottend): NBK = vlottende activa − schulden op ten hoogste één jaar.\n- *Top-down* (permanent): NBK = permanent vermogen (eigen vermogen + voorzieningen + schulden > 1 jaar) − vaste activa. 🤖\n\nOm het NBK te verhogen moet men dus **ofwel het permanent vermogen verhogen** (kapitaalverhoging, LT-lening, reservering van winst, achtergestelde lening op LT), **ofwel de vaste activa verlagen** (desinvestering, sale-and-leaseback). Een louter interne verschuiving binnen de vlottende activa (bv. voorraad → klanten → kas) verandert het NBK niet. Een interne verschuiving binnen het permanent vermogen evenmin. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Verwar NBK niet met liquiditeit of kas**. Een kapitaalverhoging in cash verhoogt zowel NBK als kas; een LT-lening die meteen wordt gebruikt om een gebouw te kopen, **verhoogt het NBK niet** (de schuld > 1 jaar stijgt, maar de vaste activa stijgen met hetzelfde bedrag). Het NBK stijgt enkel als de inbreng of LT-financiering wordt gebruikt voor **vlottende** doeleinden of als reserve, niet voor nieuwe vaste activa. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Bedrijfseconomische definitie van het netto bedrijfskapitaal (financiële analyse van de jaarrekening). Geen specifieke wettelijke bepaling — de notie volgt uit de balansstructuur opgelegd door de KB/W.Venn. en het WVV (rubrieken vlottende/vaste activa, schulden > 1 jaar / ≤ 1 jaar). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

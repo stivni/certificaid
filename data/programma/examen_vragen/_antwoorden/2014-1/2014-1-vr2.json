@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Antwoord b**: zowel de reserves als de uitgiftepremie worden **rechtstreeks** overgeboekt naar kapitaal — dus van de ene eigen-vermogenspost naar de andere, zonder tussenkomst van de resultaatverwerking (rekeningen 69/79). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- **a (FOUT)** — Onttrekking reserves én kapitaalverhoging via resultaatverwerking: dit is precies de benadering die CBN 121/3 verwerpt voor interne mutaties die het totaal eigen vermogen niet wijzigen. 📖\n- **b (JUIST)** — Beide rechtstreekse overboekingen tussen eigen-vermogensposten: conform het CBN-beginsel dat interne mutaties die het totaal eigen vermogen niet beïnvloeden rechtstreeks van post naar post moeten worden geboekt. 📖\n- **c (FOUT)** — Reserves via resultaatverwerking, uitgiftepremie rechtstreeks: inconsistent — voor beide geldt dezelfde regel (rechtstreeks). 🔗\n- **d (FOUT)** — Reserves rechtstreeks naar kapitaal, maar uitgiftepremie blijft als afzonderlijke rekening: incompatibel met de casus, want de vraag stelt expliciet dat de uitgiftepremie *werd geïncorporeerd* in kapitaal. 🔗\n\n**Kernregel CBN 121/3**: \"interne mutaties binnen het eigen vermogen die het totaal eigen vermogen niet beïnvloeden, [moeten] over het algemeen rechtstreeks van de ene betrokken post naar de andere worden overgeboekt. Dat beginsel is niet alleen van toepassing op de toevoeging van reserves aan het kapitaal […], het geldt ook bij toevoeging van uitgiftepremies of meerwaarden aan het kapitaal.\" 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil**: de resultaatverwerking (rekeningen 69/79) wordt **wél** verplicht ingeschakeld wanneer reserves of uitgiftepremies worden onttrokken om verliezen aan te zuiveren of om uitkeringen aan vennoten/derden te dekken — dáár grijpt de resultatenrekening in. Bij een loutere kapitaalverhoging door incorporatie blijft het totaal eigen vermogen identiek en is er geen aanleiding voor passage via 69/79. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 121/3 *Mutaties binnen het eigen vermogen*, §\"Toevoeging van reserves of van overgedragen winst aan het kapitaal\": rechtstreekse overboeking tussen eigen-vermogensposten is de regel. Toepasselijk verklaard op zowel reserves als uitgiftepremies. Boekhoudkundig: debet 13x *Reserves* / 11 *Uitgiftepremies* → credit 100 *Geplaatst kapitaal* (post-WVV: 110 *Inbreng*).",
+          "wetsref": "CBN-advies 121/3 — Mutaties binnen het eigen vermogen",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

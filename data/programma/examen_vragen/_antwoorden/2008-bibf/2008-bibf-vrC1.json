@@ -1,0 +1,72 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrC1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "De **behoefte aan bedrijfskapitaal** (BBK; Frans *besoin en fonds de roulement*, BFR) is het bedrag dat de onderneming **permanent** moet financieren omdat haar **exploitatiecyclus** geld vastzet in voorraden en handelsvorderingen vooraleer de klanten betalen — verminderd met wat ze zelf op krediet bij leveranciers koopt. 🔗 Het meet hoeveel cash er structureel vastzit tussen aankoop → productie → verkoop → inning, los van de buffer op de balans. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "BBK is een **structureel** financieringsvraagstuk, geen incidenteel kasprobleem: zolang de onderneming actief is, blijft een minimaal bedrag aan voorraden + vorderingen min leveranciersschulden bestaan. Verschil met **werkkapitaal** (vlottende activa − schulden ≤ 1 jaar): werkkapitaal is de *beschikbare* buffer, BBK is de *noodzakelijke* financiering uit de cyclus. Als werkkapitaal < BBK ontstaat een netto-kasbehoefte. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "berekening",
+          "tekst": "**BBK = Voorraden + Handelsvorderingen − Handelsschulden (leveranciers)** 🔗\n\nUitgebreide vorm (operationele cyclus):\n\n```\nBBK = (Voorraden + Vorderingen ≤ 1 jaar uit exploitatie + Overlopende rekeningen actief)\n     − (Schulden ≤ 1 jaar uit exploitatie + Overlopende rekeningen passief)\n```\n\nDe drie operationele posten zijn doorgaans de dominante factoren; financiële schulden ≤ 1 jaar en kas worden **niet** meegenomen (die horen bij de netto-kaspositie, niet bij de exploitatiecyclus). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "BBK kan ook in **dagen omzet** worden uitgedrukt via de rotatieratio's: BBK-dagen ≈ voorraadrotatie (dagen) + klantenkrediet (DSO) − leverancierskrediet (DPO). Deze maatstaf is bruikbaar voor benchmarking en voor de impact-analyse van de maatregelen in (c). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "**Vanuit financieel beheer kan de BBK worden verlaagd door op de drie componenten te werken:**\n\n**1. Voorraden afbouwen** 🔗\n- Just-in-time-aanvoer en kleinere bestelhoeveelheden (lagere veiligheidsvoorraad).\n- Snellere doorlooptijden in productie; bottleneck-analyse.\n- Slow-movers en obsolete voorraad afbouwen (uitverkoop, afschrijving).\n- Consignatie-voorraad bij de leverancier laten staan.\n\n**2. Klantenkrediet (vorderingen) inkorten** 🔗\n- Kortere betalingstermijnen contractueel afspreken; korting voor contante betaling.\n- Strikt **debiteurenbeheer**: opvolging, rappels, ingebrekestellingen.\n- Voorschotten of tussentijdse facturatie op grote opdrachten.\n- **Factoring** of disconto van handelspapier (vorderingen omzetten in cash, ten koste van een marge).\n- Kredietwaardigheidscheck vóór levering; kredietverzekering.\n\n**3. Leverancierskrediet (schulden) verlengen** 🔗\n- Langere betalingstermijnen onderhandelen met leveranciers.\n- Geen contante-betalingskortingen accepteren wanneer de impliciete jaarrente hoger ligt dan de financieringskost — of net wel, afhankelijk van de afweging.\n- Domiciliëring op de uiterste vervaldag.\n\n**Bijkomende structurele maatregelen** 🔗\n- Omzet-mix herzien naar segmenten met snellere inning (B2C-cash vs B2B-krediet).\n- Outsourcing van voorraad-intensieve activiteiten.\n- Seizoenscyclus afvlakken via vooruitbetalingen of abonnementsformules.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "BBK-verlaging is geen doel op zich: te agressieve voorraadafbouw veroorzaakt **stockbreuken**, te korte klantentermijnen kosten **omzet**, en te lange leverancierstermijnen schaden de **leveranciersrelatie** of de korting-voor-contant. De afweging is altijd financieringskost vs commerciële kost. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Geen specifieke wetsbasis — dit is **bedrijfseconomische doctrine** (financieel beheer, PO 1.9). Toetssteen: bestaand concept-fiche `werkkapitaalbehoefte` en competentie `bepalen-behoefte-aan-bedrijfskapitaal`. Standaardwerk: Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

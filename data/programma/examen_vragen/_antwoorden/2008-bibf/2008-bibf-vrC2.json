@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrC2",
+  "antwoord_datum": "2026-05-26T12:27:35Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Het krediet is in deze opzet niet haalbaar.** 🔗 De jaarlijkse annuïteit van de nieuwe lening bedraagt ± **23.097 EUR**; samen met de bestaande kapitaalaflossingen van 12.000 EUR loopt de totale schuldenlast op tot ± **35.097 EUR/jaar**, terwijl de cashflow slechts 30.000 EUR bedraagt. De **debt service coverage** zakt onder 1 (≈ 0,85), wat een tekort van ± 5.000 EUR per jaar betekent. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Annuïteit nieuwe lening** (5 gelijke jaarlijkse schijven, 5% — formule annuïteit a = K · i / (1 − (1+i)^−n)):\n\n- a = 100.000 × 0,05 / (1 − 1,05^−5)\n- a = 5.000 / (1 − 0,78353)\n- a = 5.000 / 0,21647\n- **a ≈ 23.097,48 EUR/jaar** 🔗\n\n**Totale jaarlijkse schuldenlast** na opname nieuw krediet:\n\n| Post | Bedrag |\n|---|---:|\n| Bestaande kapitaalaflossingen | 12.000 |\n| Annuïteit nieuwe lening (kapitaal + interest) | 23.097 |\n| **Totaal debt service** | **35.097** |\n| Beschikbare cashflow | 30.000 |\n| **Tekort** | **−5.097** |\n\n**Debt Service Coverage Ratio (DSCR)** = cashflow / totale schuldenlast = 30.000 / 35.097 ≈ **0,85**. 🔗 Banken hanteren doorgaans een minimum-DSCR van **1,20-1,30**; hier zit men ruim onder 1, wat betekent dat de operationele cashflow de aflossingen zelfs niet volledig dekt, laat staan dat er een veiligheidsmarge overblijft voor investeringen in werkkapitaal, vervangingsinvesteringen of tegenvallers. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Mogelijke pistes om het krediet wél haalbaar te maken",
+          "tekst": "Het advies aan de cliënt is niet enkel \"neen\", maar bevat alternatieven: 🤖\n\n- **Langere looptijd**: bij 8 jaar daalt de annuïteit naar ± 15.473 EUR (totaal ± 27.473 < 30.000); bij 10 jaar naar ± 12.950 EUR. Dit veronderstelt wel dat de economische levensduur van de investering die looptijd rechtvaardigt (matching-principe activa/financiering). 🔗\n- **Eigen inbreng**: de vennootschap financiert een deel met eigen middelen, zodat het krediet-bedrag (en dus de annuïteit) zakt.\n- **Bullet- of ballonkrediet** met lagere periodieke aflossingen — verschuift het probleem maar verbetert tijdelijk de cashflow-dekking.\n- **Cashflow-groei aantonen**: als de investering zelf bijkomende cashflow genereert (uitbreidingsinvestering), moet die meegerekend worden in de aflossingscapaciteit-projectie. Een **businessplan met cashflow-prognose post-investering** is dan onmisbaar.",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Cashflow ≠ vrij beschikbaar voor aflossingen.** 🔗 De boekhoudkundige cashflow (nettoresultaat + niet-kaskosten) is een proxy, geen vrij besteedbaar bedrag. Er moet ook ruimte zijn voor: (i) interesten op bestaande schulden (cashflow zoals hier gedefinieerd is doorgaans vóór financiële lasten? — interpretatie nodig), (ii) belastingen, (iii) vervangingsinvesteringen, (iv) dividenden, (v) toename behoefte aan bedrijfskapitaal. De **vuistregel** dat de totale jaarlijkse schuldenlast (kapitaal + interest) maximaal 70-80% van de cashflow mag bedragen, wordt hier ruim overschreden. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Geen specifieke wetsbepaling — dit is **financiële analyse / kredietbeoordeling** (PO 1.9: financiering en kredietverlening). Relevante kaders: aflossingscapaciteits-toets en DSCR (bancaire kredietanalyse-doctrine); annuïteitenformule (financiële wiskunde); matching-principe tussen looptijd financiering en economische levensduur investering. Voor de cashflow-definitie: nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen) — concept-record `kasstroom-analyse`. 🔗",
+          "wetsref": "PO 1.9 — financiering en kredietverlening",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/records/kasstroom-analyse.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

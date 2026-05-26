@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr5",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** is correct: vanaf het ogenblik dat het recht op de subsidie vaststaat (toekenningsbericht), wordt zij geboekt op rekening 15 *Kapitaalsubsidies* (gesplitst met 1680 *Uitgestelde belastingen op kapitaalsubsidies*) en vervolgens **gelijkmatig met het afschrijvingsritme** van het gesubsidieerde actief in resultaat genomen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+            "resources/bronnen/adviezen/CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a — FOUT**: rechtstreeks elke ontvangen schijf op 753 boeken miskent het matching-beginsel; 753 is een resultaatrekening waarop de kapitaalsubsidie alleen *pro rata* het afschrijvingsritme via overboeking vanuit rekening 15 mag terechtkomen. 🔗\n- **b — FOUT**: boeking op 15 + 1680 is correct, maar de subsidie **behouden** op de balans zolang de investering niet gerealiseerd is, schendt de regel dat de inresultaatname start zodra de afschrijvingen van het gesubsidieerde actief lopen — niet pas na voltooiing. 🔗\n- **c — FOUT**: ineens op 753 bij toekenning is dubbel mis: zowel verkeerde rekening (rechtstreeks resultaat) als verkeerd ritme (ineens i.p.v. gespreid). 🔗\n- **d — JUIST**: triggermoment = ontvangst van het toekenningsbericht (recht staat vast, art. 95 §2.VI KB W.Venn. / KB 2018), boeking op 15 met splitsing 1680, inresultaatname gelijkmatig met de afschrijvingen via 753 *Kapitaal- en interestsubsidies*. 📖\n- **e — FOUT**: het triggermoment is **niet** de creditering op de bankrekening maar het ogenblik dat het recht vaststaat (toekenningsbericht). Vóór ontvangst loopt de tegenboeking via rekening 416 *Te innen opbrengsten* (of 291). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De vraagstelling vermeldt naast *kapitaalsubsidie* ook *interestsubsidie*. Een **interestsubsidie** wordt **niet** via rekening 15 + 753 geboekt volgens het afschrijvingsritme, maar **direct als financiële opbrengst** op rekening 753 *Kapitaal- en interestsubsidies* in het boekjaar waarop de betoelaagde rentelast slaat (matching met de interestkost). De vraag betreft echter expliciet een **investeringssubsidie** (productieapparaat), dus kapitaalsubsidie-regime. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 95 §2.VI en art. 76 §2 KB W.Venn. (sinds 2019: art. 3:89 §2.VI en art. 3:48 KB WVV) — kapitaalsubsidies op rekening 15 + uitgestelde belastingen op 1680, gelijkmatig met de afschrijving via 753 in resultaat. Praktijk-uitwerking: CBN-advies 2011/13 (Overheidssubsidies) en CBN-advies 2009/3. 📖",
+          "wetsref": "Art. 3:89 §2.VI + art. 3:48 KB WVV; CBN 2011/13; CBN 2009/3",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+            "resources/bronnen/adviezen/CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md",
+            "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

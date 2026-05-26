@@ -1,0 +1,120 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr2",
+  "antwoord_datum": "2026-05-26T12:26:52Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie b** — onderneming A boekt de leveranciersschuld rechtstreeks over naar de rubriek kapitaal. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De inbreng van een schuldvordering in het kapitaal is boekhoudkundig een **inbreng in natura**: de schuldeiser (X) doet afstand van zijn vordering in ruil voor aandelen, waardoor de schuld bij A juridisch tenietgaat door schuldvermenging. De boekingsbeweging is dus rechtstreeks: **debet 44 Leveranciers / credit 10 Kapitaal**. 🔗\n\n- **Optie a** (via resultatenrekening + resultaatverwerking) is **fout**: kapitaalinbreng raakt nooit het resultaat — een leveranciersschuld die in kapitaal wordt ingebracht is geen opbrengst. 🔗\n- **Optie c** (via resultaatverwerking) is **fout** om dezelfde reden: resultaatverwerking dient voor de bestemming van een reeds gerealiseerd resultaat, niet voor kapitaaltransacties met een derde-schuldeiser. 🔗\n\nProcedureel vereist deze inbreng wel een verslag van het bestuursorgaan en een controleverslag van de commissaris of een aangewezen bedrijfsrevisor (art. 5:112 / 7:183 WVV) — dat is een rechtsgeldigheidsvereiste, niet een boekhoudkundige tussenstap. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 5:112 / 7:183 WVV — inbreng in natura vereist verslag bestuursorgaan + revisor. CBN-advies 2021/07 bevestigt dat een schuldvordering als inbreng in natura wordt verwerkt (waarderingsdiscussie nominale vs werkelijke waarde, maar steeds rechtstreeks naar kapitaal). 📖",
+          "wetsref": "Art. 5:112 WVV; Art. 7:183 WVV; CBN-advies 2021/07",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie c** — boeken naar een rekening *terug te betalen kapitaal* en uitbetalen **na een periode van twee maanden na de publicatie in het Belgisch Staatsblad**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij een kapitaalvermindering met terugbetaling aan aandeelhouders hebben de schuldeisers **twee maanden na de bekendmaking in de Bijlagen bij het Belgisch Staatsblad** het recht zekerheid te eisen voor hun nog niet-opeisbare vorderingen. De vennootschap mag pas effectief terugbetalen na afloop van die wachttermijn — eerdere uitbetaling schendt het schuldeisersbeschermingsregime. 📖\n\n- **Optie a** (onmiddellijke uitbetaling) → **fout**: negeert de wachttermijn. 🔗\n- **Optie b** (via resultaatverwerking) → **fout**: kapitaalvermindering is geen resultaatbestemming maar een rechtstreekse vermindering van het eigen vermogen. 🔗\n- **Optie d** (twee maanden na de notariële akte) → **fout**: de termijn loopt vanaf **bekendmaking in het Belgisch Staatsblad**, niet vanaf de notariële akte. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — De wachttermijn van twee maanden loopt vanaf de **bekendmaking in het Belgisch Staatsblad**, niet vanaf het besluit van de AV of de notariële akte. Optie d is precies bedoeld als afleider voor wie de wettekst niet exact kent. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7:208 WVV (NV) / art. 5:153 WVV (BV) — schuldeisersbescherming bij kapitaalvermindering: zekerheidsrecht binnen twee maanden na bekendmaking in het Belgisch Staatsblad, terugbetaling pas na afloop. (Memorie van toelichting beschrijft het regime onder art. 7:195 MvT-nummering — analoge bepalingen voor BV.) 📖",
+          "wetsref": "Art. 7:208 WVV; Art. 5:153 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie d** — de buitenlandse onderneming voert haar Belgische boekhouding volgens de Belgische boekhoudnormen voor de vaste inrichting, en legt **de jaarrekening van de buitenlandse onderneming en in voorkomend geval ook een geconsolideerde jaarrekening** neer in de vorm zoals opgesteld in het buitenland, plus een sociale balans. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Twee aparte verplichtingen voor een Belgische vaste inrichting (bijkantoor) van een buitenlandse vennootschap:\n\n1. **Boekhouding** (art. 3:1 ev. WVV + WER, CBN 2022/14) — de in België gevestigde bijkantoren moeten een **Belgische boekhouding** voeren met inventaris en jaarrekening eigen aan het bijkantoor, volgens het Belgisch boekhoudrecht. 📖\n2. **Neerlegging** (art. 3:20 WVV) — bij de NBB wordt **niet** de Belgische bijkantoor-jaarrekening neergelegd, maar **de jaarrekening van de buitenlandse vennootschap zelf** (en in voorkomend geval haar geconsolideerde jaarrekening) **in de vorm waarin deze werden opgesteld, gecontroleerd en openbaar gemaakt volgens het recht van de Staat waaronder de vennootschap valt**. 📖\n\n- **Optie a** (geen neerlegging) → **fout**: er is wél neerleggingsplicht (art. 3:20). 📖\n- **Optie b** (jaarrekening met cijfers van de vaste inrichting) → **fout**: wat wordt neergelegd is de jaarrekening van de **buitenlandse vennootschap**, niet de cijfers van de vaste inrichting. 📖\n- **Optie c** → **bijna juist**, maar mist het element \"**en in voorkomend geval ook een geconsolideerde jaarrekening**\" dat art. 3:20 §1 expliciet noemt. 📖\n- **Optie d** → **volledig**: bevat alle vier de elementen (Belgische boekhouding voor het bijkantoor + statutaire jaarrekening van buitenlandse onderneming in buitenlandse vorm + geconsolideerde jaarrekening in voorkomend geval + sociale balans). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — Het onderscheid tussen *boekhouding* (Belgische normen, eigen aan het bijkantoor) en *neer te leggen jaarrekening* (de **buitenlandse** jaarrekening van het moederbedrijf, in buitenlandse vorm). Studenten verwarren beide vaak en kiezen optie b — dat is precies de afleider. Tweede valkuil: optie c laat de geconsolideerde jaarrekening weg, maar art. 3:20 vermeldt die uitdrukkelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:20 §1 WVV — buitenlandse vennootschap met Belgisch bijkantoor legt jaarlijks haar (statutaire en in voorkomend geval geconsolideerde) jaarrekening neer bij de NBB, in de vorm naar buitenlands recht. CBN-advies 2022/14 (Belgische boekhoudrecht voor bijkantoren) + CBN-advies 2022/15 (neerlegging). 📖",
+          "wetsref": "Art. 3:20 WVV; CBN-advies 2022/14; CBN-advies 2022/15",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch.md",
+            "resources/bronnen/adviezen/CBN-2022-15-belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

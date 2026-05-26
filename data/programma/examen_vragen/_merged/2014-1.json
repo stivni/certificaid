@@ -1,12 +1,68 @@
 {
   "bron_pdf": "2014-1.pdf",
   "examen_id": "2014-1",
-  "merge_datum": "2026-05-26T12:21:57+00:00",
+  "merge_datum": "2026-05-26T15:05:37+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie d** is correct. Per 31/12/2013 staat: geplaatst kapitaal 100.000 EUR, beschikbare reserves 800.000 EUR, in de resultaatverwerking 'Vergoeding van het kapitaal' 1.000.000 EUR, en op het passief 'Ontvangen voorschotten op kapitaal' (rek. 489X) voor 900.000 EUR. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n- **a** FOUT — kapitaal kan pas verhoogd worden bij authentieke akte (24/01/2014, dus boekjaar 2014). Op 31/12/2013 staat het kapitaal nog op 100.000 EUR. 🔗\n- **b** FOUT — laat de uitkering ongerealiseerd door beschikbare reserves op 1.800.000 te houden; de bijzondere AV van 20/12/2013 heeft de uitkering bruto 1.000.000 reeds beslist en betaalbaar gesteld op 27/12/2013, dus de reserves moeten dalen naar 800.000. 🔗\n- **c** FOUT — boekt het volledige bedrag (900.000) als 'Dividenden over het boekjaar' (rek. 471) zonder rekening te houden met CBN-2013/17: voor het gedeelte waarvoor een bewijskrachtig element aanwezig is dat de aandeelhouder zal deelnemen aan de kapitaalverhoging, wordt 471 gedebiteerd en 489X 'Ontvangen voorschotten op kapitaal' gecrediteerd. 📖\n- **d** JUIST — reflecteert de CBN-2013/17-verwerking: het tot kapitaal bestemde gedeelte (900.000) staat onder 489X 'Ontvangen voorschotten op kapitaal' i.p.v. onder dividenden, vermits de formele kapitaalverhoging pas in januari 2014 plaatsvindt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Eigen vermogen 31/12/2013 (zonder resultaat boekjaar)**:\n\n| Rubriek | Bedrag (EUR) |\n|---|---:|\n| Geplaatst kapitaal | 100.000 |\n| Wettelijke reserve | 10.000 |\n| Beschikbare reserves (1.800.000 − 1.000.000) | 800.000 |\n| Overgedragen winst | 1.000 |\n\n**Resultaatverwerking**: 'Vergoeding van het kapitaal' (rek. 694) 1.000.000 EUR.\n\n**Op het passief (schulden)**: 489X 'Ontvangen voorschotten op kapitaal' 900.000 EUR (gedeelte bestemd voor kapitaalverhoging — bewijskrachtig element vóór balansdatum) + 100.000 EUR effectief uit te keren dividend (waarop 10% RV ingehouden conform overgangsregime art. 537 WIB92). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Valkuil** — De timing van de authentieke akte (24/01/2014) is doorslaggevend. Vóór de akte mag rek. 100 'Geplaatst kapitaal' niet worden gecrediteerd; het bedrag wacht in 489X. Pas bij de formele kapitaalverhoging in 2014 wordt 489X gedebiteerd en 100 gecrediteerd. Verwar dit niet met een gewone dividenduitkering: daar zou 471 'Dividenden over het boekjaar' op het passief staan tot betaling. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 2013/17 (27/11/2013) over de overgangsregeling van art. 537 WIB92 (vastklikken van reserves): bij aanlevering van bewijskrachtig element dat de aandeelhouder deelneemt aan de Verrichting wordt 471 'Dividenden over het boekjaar' gedebiteerd en 489X 'Ontvangen voorschotten op kapitaal' gecrediteerd; bij de latere formele kapitaalverhoging wordt 489X gedebiteerd en 100 'Geplaatst kapitaal' gecrediteerd. Art. 537 WIB92 voorziet de afzonderlijke aanslag van 10% (verlaagde RV) op de tussentijdse uitkering. 📖",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 2013/17; art. 537 WIB92"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -110,7 +166,55 @@
       "vraag_id": "2014-1-vr1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Antwoord b**: zowel de reserves als de uitgiftepremie worden **rechtstreeks** overgeboekt naar kapitaal — dus van de ene eigen-vermogenspost naar de andere, zonder tussenkomst van de resultaatverwerking (rekeningen 69/79). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Per optie**:\n- **a (FOUT)** — Onttrekking reserves én kapitaalverhoging via resultaatverwerking: dit is precies de benadering die CBN 121/3 verwerpt voor interne mutaties die het totaal eigen vermogen niet wijzigen. 📖\n- **b (JUIST)** — Beide rechtstreekse overboekingen tussen eigen-vermogensposten: conform het CBN-beginsel dat interne mutaties die het totaal eigen vermogen niet beïnvloeden rechtstreeks van post naar post moeten worden geboekt. 📖\n- **c (FOUT)** — Reserves via resultaatverwerking, uitgiftepremie rechtstreeks: inconsistent — voor beide geldt dezelfde regel (rechtstreeks). 🔗\n- **d (FOUT)** — Reserves rechtstreeks naar kapitaal, maar uitgiftepremie blijft als afzonderlijke rekening: incompatibel met de casus, want de vraag stelt expliciet dat de uitgiftepremie *werd geïncorporeerd* in kapitaal. 🔗\n\n**Kernregel CBN 121/3**: \"interne mutaties binnen het eigen vermogen die het totaal eigen vermogen niet beïnvloeden, [moeten] over het algemeen rechtstreeks van de ene betrokken post naar de andere worden overgeboekt. Dat beginsel is niet alleen van toepassing op de toevoeging van reserves aan het kapitaal […], het geldt ook bij toevoeging van uitgiftepremies of meerwaarden aan het kapitaal.\" 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil**: de resultaatverwerking (rekeningen 69/79) wordt **wél** verplicht ingeschakeld wanneer reserves of uitgiftepremies worden onttrokken om verliezen aan te zuiveren of om uitkeringen aan vennoten/derden te dekken — dáár grijpt de resultatenrekening in. Bij een loutere kapitaalverhoging door incorporatie blijft het totaal eigen vermogen identiek en is er geen aanleiding voor passage via 69/79. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0121-03-mutaties-binnen-het-eigen-vermogen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 121/3 *Mutaties binnen het eigen vermogen*, §\"Toevoeging van reserves of van overgedragen winst aan het kapitaal\": rechtstreekse overboeking tussen eigen-vermogensposten is de regel. Toepasselijk verklaard op zowel reserves als uitgiftepremies. Boekhoudkundig: debet 13x *Reserves* / 11 *Uitgiftepremies* → credit 100 *Geplaatst kapitaal* (post-WVV: 110 *Inbreng*).",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 121/3 — Mutaties binnen het eigen vermogen"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -183,32 +287,167 @@
     },
     {
       "antwoord": {
-        "antwoord_datum": "2026-05-21T00:00:00Z",
-        "antwoord_model": "claude-opus-4-7",
+        "antwoord_datum": "2026-05-26T12:27:54Z",
+        "antwoord_model": "claude-sonnet-4-6",
         "examen_id": "2014-1",
         "schema_versie": "1.1",
         "vraag_antwoorden": [
           {
             "antwoord_status": "beantwoord",
-            "blokken": [],
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/adviezen/CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie a — de meerwaarde wordt op het passief van de balans behouden** (rubriek III. *Herwaarderingsmeerwaarden*). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/adviezen/CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Sinds het KB van 12 september 1983 mogen **immateriële vaste activa niet meer worden geherwaardeerd**. 📖 Meerwaarden die echter werden geboekt **tijdens een boekjaar dat voorafgaat aan het boekjaar dat ingaat na 31 december 1983** (overgangsregime), mogen op het passief van de balans onder rubriek *III. Herwaarderingsmeerwaarden* **behouden blijven**. 📖 De herwaardering van 1980 op het octrooi (25.000 EUR) valt onder deze overgangsregeling en blijft dus correct op rekening 120 staan zolang het actief niet wordt gerealiseerd. 🔗\n\n**Per optie**:\n- **a** → JUIST: behoud op passief is uitdrukkelijk toegelaten door art. 42 KB 12-9-1983 (nu doorvertaald via art. 3:35 KB WVV-overgang). 📖\n- **b** → FOUT: er bestaat geen verplichting om de pre-1984-meerwaarde af te boeken. 📖\n- **c** → FOUT: incorporatie in kapitaal is een **mogelijke** bestemming, geen verplichting. 🔗\n- **d** → FOUT: spreiding over 5 jaar in resultaat is geen bestemming voor herwaarderingsmeerwaarden — dat regime geldt voor gespreide taxatie van gerealiseerde meerwaarden in VenB (art. 47 WIB), niet voor de boekhoudkundige behandeling van de niet-gerealiseerde herwaarderingsreserve. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — De vraagstelling gaat over de boekhoudkundige status vóór de verkoop. Bij de **realisatie** zelf (verkoop op 15-12-2013) moeten echter alle rekeningen rond de niet-gerealiseerde meerwaarde worden **tegengeboekt** (rek. 120 D / 2118 C voor 25.000) zodat het resultaat op de verkoop zuiver wordt berekend op basis van de oorspronkelijke aanschaffingswaarde (75.000 EUR, volledig afgeschreven → boekhoudkundige meerwaarde = 100.000 EUR). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/adviezen/CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md",
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 42 KB van 12 september 1983 (overgangsregime — bevestigd door CBN-advies 113/5 en CBN-advies 2012/13). Verbod nieuwe herwaardering op immateriële vaste activa: CBN-advies 2012/13 §Herwaarderingen. Realisatie-regel: art. 3:35 KB WVV + CBN-advies 2011/14 §Realisatie van geherwaardeerde activa. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 42 KB 12-9-1983; art. 3:35 KB WVV; CBN-advies 2012/13; CBN-advies 113/5; CBN-advies 2011/14"
+              }
+            ],
             "gekozen_optie_id": "a",
             "id": "a"
           },
           {
             "antwoord_status": "beantwoord",
-            "blokken": [],
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie b** — drie mogelijke bestemmingen: (1) **overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen**, (2) **inlijving in het kapitaal**, (3) bij **latere minderwaarden**: uitboeking tot beloop van het **nog niet afgeschreven** bedrag van de meerwaarde. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 3:35 §2-3 KB WVV (vroeger art. 57 §2-3 KB W.Venn.) regelt de bestemmingen van een geboekte herwaarderingsmeerwaarde:\n- §2: voor **afschrijfbare** activa wordt op de meerwaarde een **afschrijvingsbedrag** geboekt evenredig aan de afschrijving op de aanschaffingswaarde; dat **afgeschreven gedeelte** van de meerwaarde mag worden **overgeboekt naar de beschikbare reserves** (rek. 121 D / 133 C). 📖\n- §3: NV's, SE's en SCE's mogen de in art. 3:35 bedoelde geboekte meerwaarde **in kapitaal omzetten** (verminderd met de geraamde belasting). 📖\n- bij **latere minderwaarden / verdwijning** van de meerwaarde: de nog niet afgeschreven, overtollige meerwaarde wordt uitgeboekt door tegengestelde boeking (rek. 120/121 D / activum C). 📖\n\n**Per optie — fouten lokaliseren**:\n- **a** → FOUT: spreekt over overboeking naar reserves *tot beloop van het nog niet afgeschreven bedrag* (omgekeerd: dat geldt voor uitboeking bij minderwaarde, niet voor overboeking naar reserves). 🔗\n- **b** → JUIST: alle drie de bestemmingen exact correct geformuleerd. 📖\n- **c** → FOUT: koppelt het bedrag van de afschrijvingen aan kapitaalinlijving (foute koppeling — afschrijvingsbedrag bepaalt overboeking naar reserves; kapitaal-omzetting heeft eigen begrenzing). 🔗\n- **d** → FOUT: beperkt onterecht tot overboeking naar reserves; sluit kapitaalinlijving en uitboeking ten onrechte uit. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 3:35 §2 en §3 KB WVV (vroeger art. 57 §2-3 KB W.Venn.); art. 3:76 KB WVV (omzetting in kapitaal voor NV/SE/SCE); CBN-advies 2011/14 secties *Afschrijving van geherwaardeerde activa*, *Omzetting in kapitaal* en *Correctie van herwaarderingsmeerwaarden*. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:35 §2-3 KB WVV; art. 3:76 KB WVV; CBN-advies 2011/14"
+              }
+            ],
             "gekozen_optie_id": "b",
             "id": "b"
           },
           {
             "antwoord_status": "beantwoord",
-            "blokken": [],
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie a — 25.000 EUR** mag naar de reserves worden overgeboekt. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Regel (art. 3:35 §2 KB WVV + CBN 2010/15): de herwaarderingsmeerwaarde mag worden overgeboekt naar de **beschikbare reserves voor het afgeschreven gedeelte** van de meerwaarde. 📖\n\nDe casus stelt dat het octrooi **volledig is afgeschreven**. De op de geherwaardeerde waarde geboekte afschrijvingen bedragen dus 100% van de meerwaarde:\n\n| Element | Bedrag |\n|---|---|\n| Herwaarderingsmeerwaarde (1980) | 25.000 EUR |\n| Afschrijvingen op die meerwaarde | 25.000 EUR (volledig) |\n| **Overboekbaar naar reserves** | **25.000 EUR** |\n\n**Per optie**:\n- **a** (25.000) → JUIST: gelijk aan de afgeschreven meerwaarde. 🔗\n- **b** (75.000) → FOUT: dit is de oorspronkelijke aanschaffingswaarde van het octrooi, niet de meerwaarde. 🤖\n- **c** (50.000) → FOUT: geen relatie tot de cijfers. 🤖\n- **d** (0) → FOUT: zou correct zijn wanneer geen afschrijvingen op de meerwaarde zijn geboekt, maar de meerwaarde is hier volledig afgeschreven. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 3:35 §2 KB WVV: \"overboeking naar de beschikbare reserves ten belope van het bedrag van de op de meerwaarde geboekte afschrijvingen\". CBN-advies 2010/15 §*Geherwaardeerde activa*: \"De herwaarderingsmeerwaarde mag overgeboekt worden naar de beschikbare reserves voor het afgeschreven gedeelte\". 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:35 §2 KB WVV; CBN-advies 2010/15"
+              }
+            ],
             "gekozen_optie_id": "a",
             "id": "c"
           },
           {
             "antwoord_status": "beantwoord",
-            "blokken": [],
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie c — de boeking van de meerwaarde is verboden**. Immateriële vaste activa (zoals een octrooi) komen **niet** in aanmerking voor herwaardering sinds het KB van 12 september 1983. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 3:35 §1 KB WVV laat herwaardering toe voor **materiële vaste activa** en voor **deelnemingen en aandelen onder de financiële vaste activa** — **immateriële vaste activa worden niet vermeld** in de limitatieve opsomming en zijn dus uitgesloten. 📖 CBN-advies 2012/13 bevestigt dit expliciet: \"De immateriële vaste activa komen niet in aanmerking voor herwaardering\", met als historische motivering dat deze mogelijkheid werd afgeschaft door het KB van 12 september 1983. 📖\n\nEen octrooi behoort tot rubriek 21 *Immateriële vaste activa* (MAR-subrubriek 211 *concessies, octrooien, licenties, know-how, merken en soortgelijke rechten*). 🔗 Een nieuwe herwaardering van 100.000 EUR op 15-12-2013 op dit octrooi is dus **niet toegelaten**.\n\n**Per optie**:\n- **a** (boeking op credit 120) → FOUT: zou de gewone boeking zijn voor materiële/financiële activa, maar verboden voor immateriële. 🔗\n- **b** (in resultaat) → FOUT: herwaarderingsmeerwaarden beïnvloeden de resultatenrekening niet bij boeking — én bovendien is de herwaardering hier sowieso verboden. 📖\n- **c** (verboden) → JUIST. 📖\n- **d** (facultatief) → FOUT: facultatief impliceert dat het mág; dat klopt niet voor immateriële activa. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** — Niet verwarren met de **uitzondering** in art. 3:35 §1 lid 3 KB WVV: terugnemingen van waardeverminderingen op immateriële vaste activa **zonder beperkte gebruiksduur** (bv. goodwill met onbepaalde levensduur, merken) **mogen wél** onder rubriek III worden geboekt — maar dat is een *terugneming* van een eerdere waardevermindering, geen *herwaardering boven aanschaffingswaarde*. 📖 Voor een gewoon octrooi (beperkte gebruiksduur) blijft het verbod absoluut.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 3:35 §1 KB WVV (limitatieve opsomming: materiële vaste activa + financiële vaste activa-deelnemingen/aandelen — immateriële niet vermeld). CBN-advies 2012/13 §*Herwaarderingen*: \"De immateriële vaste activa komen niet in aanmerking voor herwaardering\". Historische achtergrond: KB 12-9-1983 schafte deze mogelijkheid af. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:35 §1 KB WVV; CBN-advies 2012/13"
+              }
+            ],
             "gekozen_optie_id": "c",
             "id": "d"
           }
@@ -365,7 +604,97 @@
       "vraag_id": "2014-1-vr3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie d — 4.595.294 EUR** 🔗. Op 5 februari 2014 wordt enkel de **actuele (gedisconteerde) waarde** van de vordering als omzet (rekening 70) geboekt: 5.000.000 − 404.706 = 4.595.294 EUR.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md",
+                  "resources/bronnen/adviezen/CBN-2021-04-aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het gaat om een vordering terugbetaalbaar over **meer dan één jaar** (5 jaar) waarbij de **werkelijke (markt-)rente (9%) hoger is dan de contractueel verrekende rente (4%)**. KB WVV art. 3:45, §2 (vroeger art. 27*bis* KB 8/10/1976) verplicht dan om de vordering **op nominale waarde** te boeken en het **disconto** (verschil tussen nominale waarde en actuele waarde aan marktrente) als regularisatie van de omzet af te zonderen via rekening 493 — Over te dragen opbrengsten. 📖\n\n**Per optie**:\n- **a (5.000.000)** — FOUT: dit is de nominale prijs zonder rentecomponent én vóór actualisatie; negeert het disconto. 🔗\n- **b (5.600.000)** — FOUT: dit is de nominale waarde *inclusief* contractuele interest (5.000.000 + 600.000); zou de hele financiële component als omzet erkennen. 🔗\n- **c (4.400.000)** — FOUT: dit is 5.000.000 − 600.000 (interest aftrekken in plaats van disconto), houdt geen rekening met de marktactualisatie. 🔗\n- **d (4.595.294)** — **JUIST**: actuele waarde = 5.000.000 − 404.706 (disconto). 📖\n- **e (5.404.706)** — FOUT: voegt het disconto bij de prijs in plaats van het ervan af te trekken. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard**: dat de **contractuele interest van 4% lager ligt dan de marktrente van 9%** is precies de trigger voor de discontoverplichting (\"abnormaal lage rente\"). Zonder dat verschil zou de actualisatie niet nodig zijn en zou 5.600.000 als nominale verkoopprijs geboekt worden, met de 600.000 interest als 751 over de looptijd. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md",
+                  "resources/bronnen/adviezen/CBN-2021-04-aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**KB WVV art. 3:45, §2** (en het overeenkomstige art. 27*bis*, §2 KB 8/10/1976 dat in 2014 van toepassing was): disconto op renteloze of abnormaal laag rentende vorderingen op meer dan één jaar wordt in 493 geboekt en pro rata temporis in resultaat genomen. **CBN-advies 137/4** detailleert de berekening (actuariële methode, samengestelde interest) en de boekhoudkundige verwerking. 📖",
+                "type": "grondslag",
+                "wetsref": "KB WVV art. 3:45 §2 (= art. 27bis §2 KB 8/10/1976) — CBN-advies 137/4"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie d** 🔗 — zowel de **interest** als het **disconto** worden over de 5 terugbetalingstermijnen pro rata temporis in resultaat genomen op rekening **751 — Opbrengsten uit vlottende activa** (financiële opbrengsten). Geen van beide componenten is omzet.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bij een verkoop op termijn waarbij de **contractuele rente lager is dan de marktrente**, vormen *beide* de extra contractueel verrekende interest (600.000) én het berekende disconto (404.706) samen de **financiële component** van de verrichting. Die mag conform CBN-advies 137/4 niet als omzet worden geboekt, maar wordt pro rata temporis over de looptijd erkend als financiële opbrengst. 📖\n\nHet disconto staat bij de boeking op 5/2/2014 in 493 — Over te dragen opbrengsten en wordt jaarlijks (volgens de actuariële methode aan de oorspronkelijke actualisatievoet) naar 751 overgeboekt. 📖\n\n**Per optie**:\n- **a** — FOUT: zet disconto op **651 (kost)**; het disconto bij een **vordering** is een **opbrengst** (493 → 751), niet een kost. 🔗\n- **b** — FOUT: interest in 70 (omzet) hoort niet, en disconto in 651 evenmin. 🔗\n- **c** — FOUT: interest in 70 (omzet) i.p.v. 751; disconto-ritme is bovendien **niet** vrij door de raad van bestuur te bepalen — het volgt de actuariële methode. 🔗\n- **d** — **JUIST**: beide op 751 pro rata over 5 jaar. 📖\n- **e** — FOUT: \"niet splitsen, alles in omzet\" druist in tegen de **verplichte** actualisatie van art. 3:45 §2 KB WVV. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil**: rekening **651** is *Geactiveerde intercalaire interesten / Diverse financiële kosten* aan **schuld-zijde**. Bij een **vordering** (zoals hier) is het disconto altijd een **opbrengst** (rekening 751). Opties a en b verwarren actief- met passief-zijde. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**CBN-advies 137/4** — boekingsschema bij een vordering: 493 (overlopende rekening passief) → 750/**751** (financiële opbrengsten) pro rata temporis volgens de actuariële methode aan de **oorspronkelijke** actualisatievoet (niet de marktrente op balansdatum). **KB WVV art. 3:45 §2** (vroeger art. 27*bis* §2 KB 8/10/1976) is de wettelijke grondslag. 📖",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 137/4 — KB WVV art. 3:45 §2"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2014-1-vr4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

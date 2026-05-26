@@ -1,0 +1,137 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrC1",
+  "antwoord_datum": "2026-05-26T12:27:43Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Netto bedrijfskapitaal = 54.110,00 EUR** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Netto bedrijfskapitaal (NBK) = Vlottende activa − Schulden op ten hoogste één jaar 🔗\n\n| Component | Bedrag (EUR) |\n|---|---:|\n| Voorraden | 41.000,00 |\n| Vorderingen op < 1 jaar | 42.700,00 |\n| Geldbeleggingen | 10.000,00 |\n| Liquide middelen | 37.500,00 |\n| **Vlottende activa (totaal)** | **131.200,00** |\n| − Schulden op < 1 jaar | 77.090,00 |\n| **= NBK** | **54.110,00** |\n\nControle via passiefzijde: NBK = (Eigen vermogen + Schulden > 1 jaar) − Vaste activa = (153.150 + 51.000) − 150.040 = **54.110,00 EUR** 🔗. Beide benaderingen geven hetzelfde resultaat — de permanente middelen financieren de vaste activa én een buffer van 54.110 EUR in de exploitatiecyclus.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Een positief NBK is het normale beeld: het betekent dat de onderneming haar vaste activa en een deel van haar exploitatiecyclus met permanente middelen financiert. Een negatief NBK is niet per definitie problematisch (denk aan retail met snelle voorraadrotatie en lange leverancierskredieten), maar bij een industriële of dienstenonderneming wijst het op een structureel financieringsprobleem. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Standaardformule uit de balansanalyse (financieel beheer). Het NBK wordt afgelezen uit de jaarrekening volgens het schema van het MAR/KB W.Venn. (rubrieken VIII–IX vlottende activa minus rubriek IX passief). 🔗",
+          "wetsref": "KB 29 april 2019 — schema jaarrekening (volledig/verkort)",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Current ratio = 131.200 / 77.090 ≈ 1,70** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Current ratio (ruime liquiditeitsratio) = Vlottende activa / Schulden op ten hoogste één jaar 🔗\n\n= (41.000 + 42.700 + 10.000 + 37.500) / 77.090\n\n= 131.200,00 / 77.090,00\n\n= **1,7019** (afgerond **1,70**)\n\nInterpretatie: voor elke 1 EUR kortetermijnschuld beschikt de onderneming over 1,70 EUR vlottende activa. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Vuistregel: current ratio ≥ 1 wordt minimaal geacht, ≥ 1,5 à 2 wordt vaak als comfortabel beschouwd. Een te hoge ratio (>3) kan wijzen op overinvestering in voorraden of trage inning — niet altijd een teken van financiële kracht. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klassieke formule uit de balansanalyse — algemeen aanvaarde definitie in de Belgische financiële-analyseliteratuur (Ooghe & Van Wymeersch). De ratio steunt op het rubrieken-schema van het KB tot uitvoering van het WVV. 🔗",
+          "wetsref": "KB 29 april 2019 — jaarrekeningschema",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Acid test = 90.200 / 77.090 ≈ 1,17** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Acid test (beperkte/strikte liquiditeitsratio, quick ratio) = (Vlottende activa − Voorraden) / Schulden op ten hoogste één jaar 🔗\n\n= (131.200 − 41.000) / 77.090\n\n= (42.700 + 10.000 + 37.500) / 77.090\n\n= 90.200,00 / 77.090,00\n\n= **1,1700** (afgerond **1,17**)\n\nInterpretatie: ook zonder de voorraden te realiseren kan de onderneming haar kortetermijnschulden meer dan dekken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar de acid test niet met de current ratio: voorraden worden bewust uitgesloten omdat ze het minst liquide deel van de vlottende activa zijn (realisatie vergt verkoop én inning). Een gezonde current ratio met een zwakke acid test signaleert voorraadafhankelijkheid. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Standaardformule balansanalyse — variant op de current ratio, gebaseerd op dezelfde rubrieken van het jaarrekeningschema (KB tot uitvoering WVV) met uitsluiting van de voorraad-rubriek. 🔗",
+          "wetsref": "KB 29 april 2019 — jaarrekeningschema",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Solvabiliteitsratio = 153.150 / 281.240 ≈ 0,5445 = 54,45%** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "Solvabiliteitsratio = Eigen vermogen / Totaal passief 🔗\n\nEigen vermogen = Kapitaal + Reserves + Overgedragen winst = 100.000 + 50.400 + 2.750 = **153.150,00 EUR**\n\nTotaal passief = **281.240,00 EUR**\n\nSolvabiliteit = 153.150 / 281.240 = **0,5445** ≈ **54,45%**\n\nInterpretatie: 54,45% van het totale vermogen wordt door eigen middelen gefinancierd; de overige 45,55% door schulden (schuldgraad). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Er bestaan meerdere solvabiliteits-definities. De klassieke vorm (EV/Totaal vermogen) wordt soms vervangen door EV/Vreemd vermogen (debt-to-equity-variant). Hier wordt de **klassieke ratio** gebruikt — de meest courante in de Belgische balansanalyse en de variant die NBB-Centrale voor balansen rapporteert. Als de oplossingssleutel de andere definitie hanteert, levert dat 153.150 / 128.090 ≈ 1,196 op. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Klassieke financiële-onafhankelijkheidsratio uit de balansanalyse, gebaseerd op de geconsolideerde rubrieken Eigen vermogen (I–VI) en Totaal passief uit het jaarrekeningschema (KB tot uitvoering WVV). 🔗",
+          "wetsref": "KB 29 april 2019 — jaarrekeningschema",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

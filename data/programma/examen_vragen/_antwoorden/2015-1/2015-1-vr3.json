@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr3",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie c** — de vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar (de rente die contractueel verschuldigd blijft maar via overlopende rekeningen nog moet worden uitgedrukt) en boekt een **waardevermindering op zowel de vordering (hoofdsom) als op de rente**, omdat de inning door het aangevraagde faillissement onzeker is geworden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Drie stappen bij faillissementsaanvraag van de klant:**\n\n1. **Vordering afzonderen naar dubieuze debiteuren** — zodra de inning twijfelachtig wordt, moet de vordering uit 290000 *Handelsdebiteuren op meer dan één jaar* worden overgeboekt naar een dubieuze-rekening (bv. 2907). 📖\n2. **Nog niet uitgedrukte rente erkennen** — de contractueel verschuldigde rente (8% zesmaandelijks, lopende tot 30/06/2015) die nog niet via overlopende rekeningen werd geboekt, moet pro rata erkend worden zodat de volledige vordering (kapitaal + verworven rente) in de balans tot uiting komt. 🔗\n3. **Waardevermindering op het volledige bedrag** — art. 3:46 KB WVV verplicht een waardevermindering zodra er onzekerheid bestaat over de betaling op de vervaldag; die waardevermindering geldt voor de **vordering én de rente** (beide zijn een vorderingsbestanddeel waarop inning onzeker is). 📖\n\n**Per optie:**\n- **a** → FOUT: negeert de rente-erkenning, dekt slechts deel van de boekhoudkundige verwerking.\n- **b** → FOUT: rente wordt erkend maar de waardevermindering wordt alleen op de hoofdsom geboekt, niet op de rente — onvolledig.\n- **c** → JUIST: rente uitdrukken + waardevermindering op vordering én rente.\n- **d** → FOUT: overboeking naar *vorderingen op ten hoogste één jaar* is hier prematuur. Op balansdatum 31/12/2013 is de resterende looptijd nog ca. 18 maanden (vervaldag 30/06/2015), dus de vordering blijft op meer dan één jaar; pas op 31/12/2014 zou overboeking aan de orde zijn. 🔗\n- **e** → Inhoudelijk gelijk aan c maar voegt 'jaarrekening-vermelding inning onzeker' toe; dat is geen boekhoudkundige handeling sensu stricto en niet als zodanig vereist (de waardevermindering en de afzondering als dubieuze debiteur tonen de onzekerheid al). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil — overboeking lange→korte termijn vs. dubieuze afzondering**: optie d klinkt aantrekkelijk omdat 'faillissement' associeert met 'snel innen', maar de balansrubriek-overboeking (V → VII) hangt af van de **resterende looptijd** op balansdatum, niet van het faillissementsrisico. De dubieuze-status is een aparte beweging (binnen rubriek V naar dubieuze sub-rekening), niet een verschuiving naar 'op ten hoogste één jaar'. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 3:46 KB WVV** (jaarrekeningbesluit): \"Op de vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar worden waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag.\" 📖\n\n**CBN-advies 2011/15** bevestigt de werkwijze: bij twijfelachtige inning eerst afzonderen naar dubieuze debiteuren, dan waardevermindering boeken op het niet-gedekte deel (kapitaal én erkende rente). 📖",
+          "wetsref": "Art. 3:46 KB WVV; CBN-advies 2011/15",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

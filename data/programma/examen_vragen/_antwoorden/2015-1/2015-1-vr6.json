@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr6",
+  "antwoord_datum": "2026-05-26T12:27:22Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie c** — de activering **moet** gebeuren door het crediteren van de rekening **649** (geactiveerde bedrijfskosten) of **669** (geactiveerde uitzonderlijke kosten). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 3:36 KB-WVV (voorheen art. 58, tweede lid KB W.Venn.) vereist dat herstructureringskosten worden geactiveerd door ze **op zichtbare wijze in mindering te brengen** van het totaalbedrag van respectievelijk de bedrijfskosten, de uitzonderlijke kosten of de financiële kosten. 📖 Dat gebeurt via dedicated tegenboekrekeningen met een credit-saldo (negatieve kosten): **649** *Als herstructureringskosten geactiveerde bedrijfskosten (-)* en **669** *Uitzonderlijke kosten als herstructureringskosten opgenomen onder de activa (-)*. 📖\n\n**Per optie**:\n- **a / b / e** (crediteren van 61-62): FOUT — de oorspronkelijke kostenrekeningen crediteren maakt de in resultaatneming **onzichtbaar** in de resultatenrekening. Dat is precies wat art. 3:36 KB-WVV verbiedt: de activering moet zichtbaar gebeuren via een afzonderlijke min-rekening, niet door de bedrijfskostenrekeningen zelf neer te halen. 🔗\n- **d** (\"kan\" crediteren van 649/669): FOUT in de modaliteit — als de onderneming kiest voor activering, is de techniek (crediteren van 649/669) **dwingend**, geen optie. De keuze betreft of geactiveerd wordt, niet hoe. 🔗\n- **c** (\"moet\" crediteren van 649/669): JUIST — combineert de verplichte techniek met de juiste rekeningen. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — \"kan\" versus \"moet\": het *activeren zelf* is een keuze van het bestuursorgaan (mits aan de voorwaarden van art. 3:36 voldaan is: ingrijpende structuurwijziging + duurzame gunstige weerslag op rentabiliteit, verantwoord in de toelichting). Eenmaal die keuze is gemaakt, is de **boekingstechniek dwingend voorgeschreven**: zichtbaar in mindering brengen via 649/669 (en analoog een 65X-min-rekening voor financiële kosten — die staat zelfs niet expliciet in het MAR maar wordt door CBN bevolen). 📖 Dat onderscheid kan-vs-moet zit precies in het verschil tussen optie c en d.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:36 KB-WVV (29.04.2019), tweede lid — verplicht zichtbare aftrek van de respectieve kostenrubrieken. CBN-advies 2011/24 *Herstructureringskosten — Verwerking in de jaarrekening* (09.11.2011), voetnoot 2: \"*Artikel 58, tweede lid KB W.Venn. vereist namelijk dat deze kosten geactiveerd worden door ze op zichtbare wijze in mindering te brengen [...]*\". MAR (KB 21.10.2018, Bijlage 1), klasse 6: rekening **649** *Als herstructureringskosten geactiveerde bedrijfskosten (-)* en **669** *Uitzonderlijke kosten als herstructureringskosten opgenomen onder de activa (-)*. Debet-zijde van de tegenboeking: rubriek **20** *Oprichtingskosten* (of subrekening **204** *Herstructureringskosten*).",
+          "wetsref": "Art. 3:36 KB-WVV; CBN-advies 2011/24",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

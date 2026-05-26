@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrA3",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Boekingen voorraadwijzigingen 31/12/N** 🔗\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 300 | Grondstoffen — aanschaffingswaarde | 5.000,00 | |\n| 6090 | aan Voorraadwijzigingen van grondstoffen | | 5.000,00 |\n| 6094 | Voorraadwijzigingen van handelsgoederen | 2.000,00 | |\n| 340 | aan Handelsgoederen — aanschaffingswaarde | | 2.000,00 |\n| 712 | Wijzigingen in de voorraad goederen in bewerking | 4.000,00 | |\n| 320 | aan Goederen in bewerking — aanschaffingswaarde | | 4.000,00 |\n| 330 | Gereed product — aanschaffingswaarde | 3.000,00 | |\n| 713 | aan Wijzigingen in de voorraad gereed product | | 3.000,00 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Voorraadverschillen (eind − begin)** 🔗\n\n- Grondstoffen (30): 17.000 − 12.000 = **+5.000** → toename → debet 300 / credit 6090 🔗\n- Goederen in bewerking (32): 26.000 − 30.000 = **−4.000** → afname → debet 712 / credit 320 🔗\n- Gereed product (33): 31.000 − 28.000 = **+3.000** → toename → debet 330 / credit 713 🔗\n- Handelsgoederen (34): 4.000 − 6.000 = **−2.000** → afname → debet 6094 / credit 340 🔗\n\n**Boekingslogica** 📖: bij een **toename** wordt de voorraadrekening gedebiteerd en de voorraadwijziging-rekening gecrediteerd (de wijziging vermindert de kosten of verhoogt de opbrengsten); bij een **afname** omgekeerd. Voor **aangekochte voorraden** (grondstoffen 30, handelsgoederen 34) loopt de tegenboeking via klasse **60 — handelsgoederen, grond- en hulpstoffen** (rekening 6090/6094). Voor **zelf voortgebrachte voorraden** (goederen in bewerking 32, gereed product 33) loopt de tegenboeking via klasse **71 — wijzigingen in de voorraad en in de bestellingen in uitvoering** (rekening 712/713).",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** ❓: het teken van de boeking volgt het **soort voorraad**, niet één uniforme regel. Aangekochte voorraden (30/34) → kosten-correctie via **60-reeks** (6090/6094): debet bij toename is een **negatieve kost** (crediteert 6090). Zelf voortgebrachte voorraden (32/33) → opbrengst-correctie via **71-reeks** (712/713): credit bij toename is een **opbrengst** (geactiveerde productie). Vermijd om alles via 609 of alles via 71 te boeken — de scheiding aangekocht/zelf voortgebracht is wezenlijk in het MAR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**CBN-advies 132/7 — Boeking en waardering van voorraden** 📖: schrijft expliciet de boekingsschema's voor (inkomende/uitgaande voorraden, met onderscheid handelsondernemingen vs industriële ondernemingen — rekeningen 6090/6091/6094 voor aangekochte voorraden, 712/713 voor zelf voortgebrachte voorraden). **MAR (KB 21.10.2018 Bijl. 1)** 📖: klasse 3 voor voorraadrekeningen (30/32/33/34), klasse 60 voor handelsgoederen/grond- en hulpstoffen (incl. 609 voorraadwijzigingen), klasse 71 voor wijzigingen in voorraad zelf voortgebrachte goederen.",
+          "wetsref": "CBN-advies 132/7; MAR (KB 21.10.2018 Bijlage 1) klassen 3, 60, 71",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

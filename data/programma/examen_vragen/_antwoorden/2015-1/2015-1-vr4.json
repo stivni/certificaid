@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr4",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie d** — intercalaire interesten mogen **onder bepaalde voorwaarden** geactiveerd worden in de aanschaffingswaarde van het materieel vast actief; ze hoeven dus niet noodzakelijk op rubriek 65 te blijven staan, en de activering is evenmin onvoorwaardelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Analyse per optie:\n\n- **a (enkel rubriek 65)** — **FOUT**. Het KB WVV verplicht niet om interesten als financiële kost te boeken; het laat activering uitdrukkelijk toe. 🔗\n- **b (moeten op het actief)** — **FOUT**. Activering is een **mogelijkheid** (\"mag worden opgenomen\"), geen verplichting. 📖\n- **c (onvoorwaardelijk op het actief)** — **FOUT**. Twee voorwaarden gelden cumulatief: (1) het moet gaan om rente op vreemd vermogen dat de **financiering** van het vast actief betreft, en (2) de rente moet betrekking hebben op de **periode vóór bedrijfsklaarheid** van het actief. 📖\n- **d (mag, onder voorwaarden)** — **JUIST**. Dekt zowel de keuze-aard (mag) als de voorwaarden (financierings­verband + pre-bedrijfsklaarheid). 🔗\n\nDe boekhouder heeft het bedrag terecht op wachtrekening 499 geparkeerd: het bestuursorgaan beslist eerst of de voorwaarden vervuld zijn (was het investerings­krediet aangewend voor de financiering van een welbepaald actief? betreft de 125.000 EUR rente vóór ingebruikname?). Pas daarna wordt het bedrag overgeboekt naar de aanschaffings­waarde van het betrokken actief (rubriek 22/23) of, indien niet voldaan, naar rekening 650 *Kosten van schulden*. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2015-08-boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — verwar de regeling voor **vaste activa** (art. 3:16 KB WVV: pre-bedrijfsklaarheid) niet met die voor **voorraden met productie­cyclus > 1 jaar** (art. 3:42 KB WVV / CBN-advies 2015/8): daar geldt een eigen voorwaarde (normale productie­periode) en verloopt de activering via creditering van rekening 6503 *Geactiveerde intercalaire intresten*. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2015-08-boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 3:16 lid 1 KB WVV** (vroeger art. 38 KB W.Venn., van toepassing in 2014): \"In de aanschaffingswaarde van immateriële en materiële vaste activa mag de rente op vreemd vermogen dat wordt gebruikt voor hun financiering worden opgenomen, doch slechts voor zover zij betrekking heeft op de periode welke de bedrijfsklaarheid van deze vaste activa voorafgaat.\" 📖",
+          "wetsref": "art. 3:16 lid 1 KB WVV (= art. 38 KB W.Venn. 2001)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

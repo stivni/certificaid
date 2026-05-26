@@ -1,12 +1,104 @@
 {
   "bron_pdf": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
   "examen_id": "2015-1",
-  "merge_datum": "2026-05-26T12:21:57+00:00",
+  "merge_datum": "2026-05-26T15:05:37+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:27:30Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**392.000 EUR** (optie **c**) — de marktwaarde (280 EUR/stuk) ligt op 31/12/2013 onder de FIFO-aanschaffingswaarde, dus geldt de laagstewaarderegel: 1.400 stuks × 280 EUR. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — voorraad in stuks op 31/12/2013 (FIFO):** beginvoorraad 0; aankoop 15/01/2013: +1.000 @ 350; aankoop 31/03/2013: +500 @ 300; verkoop 31/05/2013: −100 (FIFO → afgeboekt uit oudste laag van 1.000 @ 350). Eindvoorraad = 900 @ 350 + 500 @ 300 = **1.400 stuks**. 🔗\n\n**Stap 2 — FIFO-aanschaffingswaarde:** 900 × 350 + 500 × 300 = 315.000 + 150.000 = **465.000 EUR** (gemiddeld 332,14 EUR/stuk). 🔗\n\n**Stap 3 — laagstewaarderegel (art. 3:46 KB WVV):** marktwaarde op balansdatum = 280 EUR/stuk < gemiddelde aanschaffingswaarde 332,14 EUR/stuk → voorraad waarderen aan **lagere marktwaarde**. 📖\n\n**Stap 4:** 1.400 × 280 = **392.000 EUR**. Boekhoudkundig: aanschaffingswaarde 465.000 op rekening 340, met geboekte waardevermindering 73.000 op rekening 349 → nettoboekwaarde 392.000. 🔗\n\n**Per optie:**\n- (a) 465.000 EUR → FOUT: dit is de FIFO-aanschaffingswaarde zonder toepassing van de laagstewaarderegel. ❌\n- (b) 470.000 EUR → FOUT: geen consistente FIFO-rekening levert dit op.\n- **(c) 392.000 EUR → JUIST**: 1.400 × 280 (markt < kost). ✓\n- (d) 420.000 EUR → FOUT: zou 1.400 × 300 zijn (jongste-aankoop-kost, geen wettelijke methode).\n- (e) 452.000 EUR → FOUT: lijkt op 1.500 × 280 + 32.000 of een gemixte berekening; in elk geval niet de juiste FIFO-stuks of correcte markt-toepassing.",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Valkuil** — bij een prijsdaling moet de waardevermindering geboekt worden op **alle** voorraad-laagjes, niet enkel op de duurste laag. De vergelijking gebeurt per voorraadbestanddeel tussen de FIFO-aanschaffingswaarde en de marktwaarde op balansdatum; het verschil per stuk (hier 52,14 EUR gemiddeld, of laag-per-laag 70 EUR resp. 20 EUR) leidt tot een totale waardevermindering van 73.000 EUR. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 3:46 KB WVV** (oud art. 69 §1 KB W.Venn.): grond- en hulpstoffen, gereed product, handelsgoederen en voor verkoop bestemde goederen worden gewaardeerd aan **aanschaffingswaarde of aan de marktwaarde op balansdatum als die lager is**. 📖 — **Art. 3:58 KB WVV** (oud art. 43 KB W.Venn.): keuze tussen individualisering, gewogen gemiddelde of FIFO/LIFO; eens gekozen, consistent toepassen. 📖 — **CBN-advies 132/7**, *Overzicht van de belangrijkste regels*: bevestigt de laagstewaarderegel voor voorraden en het terugnemingsbeginsel. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:46 + 3:58 KB WVV 2019; CBN 132/7"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**465.000 EUR** (optie **a**) — de marktwaarde (455 EUR) ligt nu boven de FIFO-aanschaffingswaarde (gemiddeld 332,14 EUR/stuk), dus de eerder geboekte waardevermindering wordt **teruggenomen tot de oorspronkelijke aanschaffingswaarde** als plafond. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Uitgangspunt:** geen aan- of verkopen na 31/12/2013 → voorraad blijft 1.400 stuks met FIFO-aanschaffingswaarde 465.000 EUR (900 @ 350 + 500 @ 300). 🔗\n\n**Markttoets op de nieuwe balansdatum:** marktwaarde 455 EUR/stuk × 1.400 = 637.000 EUR. Dit ligt **boven** de gemiddelde FIFO-aanschaffingswaarde (332,14 EUR/stuk) én boven beide laag-kostprijzen (350 en 300 EUR). 🔗\n\n**Toepassing laagstewaarderegel:** waardering = min(aanschaffingswaarde; marktwaarde) = min(465.000; 637.000) = **465.000 EUR**. 📖\n\n**Boeking:** de waardevermindering van 73.000 EUR die op 31/12/2013 op rekening 349 werd geboekt, wordt **teruggenomen** (art. 3:46, tweede lid KB WVV: \"een waardering tegen lagere marktwaarde mag niet meer behouden blijven indien later de marktwaarde hoger komt te liggen dan de voor de waardering gehanteerde lagere marktwaarde\"). 📖\n\n**Per optie:**\n- **(a) 465.000 EUR → JUIST**: FIFO-aanschaffingswaarde als plafond. ✓\n- (b) 470.000 EUR → FOUT.\n- (c) 392.000 EUR → FOUT: dit is de oude lagere marktwaarde van 31/12/2013 (280 EUR), die niet meer geldt nu de markt is hersteld. ❌\n- (d) 420.000 EUR → FOUT.\n- (e) 637.000 EUR → FOUT: dit is de actuele marktwaarde (1.400 × 455); de wet **verbiedt** opwaarderen boven aanschaffingswaarde — geen herwaardering voor voorraden. ❌",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — voor voorraden bestaat **geen herwaarderingsregime** (anders dan bv. art. 3:35 KB WVV voor bepaalde vaste activa). De terugneming van een waardevermindering is dus altijd begrensd door de **oorspronkelijke aanschaffingswaarde**: latente meerwaarden op voorraden worden pas erkend bij realisatie (verkoop). Dat sluit aan op het voorzichtigheidsbeginsel (art. 3:6, 3° KB WVV). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 3:46, tweede lid KB WVV** (oud art. 69 §1, tweede lid KB W.Venn.): \"Een waardering tegen lagere marktwaarde mag niet meer behouden blijven, indien later de marktwaarde hoger komt te liggen dan de voor de waardering van de voorraden gehanteerde lagere marktwaarde.\" 📖 — Plafond = aanschaffingswaarde; geen opwaardering boven kostprijs (voorzichtigheidsbeginsel, art. 3:6 KB WVV). 📖 — **CBN-advies 132/7**, *Overzicht van de belangrijkste regels*, bevestigt deze regel uitdrukkelijk. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:46, tweede lid KB WVV 2019; CBN 132/7"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2015-1-vr1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -114,7 +206,58 @@
       "vraag_id": "2015-1-vr1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+                  "resources/bronnen/adviezen/CBN-0107-03-verplichtingen-voortvloeiend-uit-brugpensioen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie b is juist.** Op 05/12/2013 (datum van het ontslag / betekening van de opzegging) vormt XYZ een voorziening voor de geactualiseerde toekomstige bedrijfstoeslagen, geraamd op basis van leeftijd en geslacht (sterftekansen) van de werknemer. Vanaf 01/03/2014 worden de maandelijkse uitbetalingen (2.000 EUR) geboekt als personeelskost in de resultatenrekening, en wordt jaarlijks een evenredig gedeelte van de voorziening teruggenomen via een opbrengstrekening. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+                  "resources/bronnen/adviezen/CBN-0107-03-verplichtingen-voortvloeiend-uit-brugpensioen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a (kosten on-the-fly, geen voorziening)** → **FOUT**. Zodra de werkgever een werknemer ontslagen heeft in het kader van SWT ontstaat een **zekere verplichting** waarvan enkel het exacte bedrag schattingsgebonden is (afhankelijk van overleving tot pensioenleeftijd). Het matching-beginsel en art. 3:11 KB/WVV (oud art. 33 KB/W.Venn.) verplichten dan een voorziening; gewoon de kosten lopend boeken miskent de prudentie- en matching-regels. 🔗\n- **b** → **JUIST** (zie conclusie).\n- **c (voorziening op 01/03/2014)** → **FOUT op timing**. De voorziening moet gevormd worden op het ogenblik dat de **verbintenis ontstaat**, d.w.z. bij de **betekening van de opzegging** (05/12/2013), niet pas op de dag dat de werknemer effectief stopt met werken. CBN 107/3bis is hier expliciet. Bovendien zwijgt c over wat er met de voorziening gebeurt nadien. 📖\n- **d (voorziening op 05/12/2013, kosten in mindering brengen van de voorziening)** → **FOUT op verwerking**. De maandelijkse bedrijfstoeslag wordt **wel** als personeelskost geboekt in de resultatenrekening (rekening 62) — zij wordt niet rechtstreeks in mindering gebracht van de voorziening. Het is de **terugneming van de voorziening** (rekening 6350/6360 → 7350/7360) die het resultaat compenseert, parallel met de werkelijke uitbetalingen. 🔗\n- **e (voorziening op 01/03/2014, terugname bij pensioenleeftijd)** → **FOUT op twee punten**. Foute timing (zie c) én foute terugneming: de voorziening wordt **jaarlijks pro rata** teruggenomen naarmate de bedrijfstoeslagen werkelijk worden uitbetaald, niet pas in één keer bij het bereiken van de pensioenleeftijd (dat zou het matching-beginsel net schenden). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil — voorziening boeken ≠ kost boeken.** De voorziening op 05/12/2013 is een **niet-kaskost** (debet 6350/6360 Toevoeging aan voorzieningen — krediet 160/163 Voorziening). De latere maandelijkse betalingen van 2.000 EUR zijn **wel** een effectieve kost (debet 62 Personeelskosten / krediet 45 of 55) gecombineerd met een gelijktijdige terugname van een evenredig deel van de voorziening (debet 160/163 — krediet 7350/7360 Onttrekking aan voorzieningen). Netto-impact op het resultaat in de SWT-jaren: ≈ nul, want kost en terugname compenseren elkaar. De impact op het resultaat zit volledig in **2013** (jaar van ontslag) — dat is precies de bedoeling van het matching-beginsel. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+                  "resources/bronnen/adviezen/CBN-0107-03-verplichtingen-voortvloeiend-uit-brugpensioen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**CBN-advies 2018/25** (Voorzieningen voor risico's en kosten — sectie SWT) — vervangt 107/3 en 107/3bis; de werkgever moet bij ontslag een voorziening boeken voor de geactualiseerde waarde van de toekomstige bedrijfstoeslagen tot de pensioengerechtigde leeftijd, geraamd op basis van leeftijd, geslacht en sterftekansen. **CBN-advies 107/3bis**: de voorziening wordt gevormd op het ogenblik van de **betekening van de opzegging** (niet bij afsluiting van de CAO en niet bij effectief stoppen met werken). **Art. 3:11 KB/WVV** (oud art. 33 KB/W.Venn. 30/01/2001 — gecodificeerd in art. 19 KB 08/10/1976): verplichting tot vorming van voorzieningen voor brugpensioenverplichtingen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:11 KB/WVV; CBN-advies 2018/25; CBN-advies 107/3bis"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -191,7 +334,56 @@
       "vraag_id": "2015-1-vr2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie c** — de vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar (de rente die contractueel verschuldigd blijft maar via overlopende rekeningen nog moet worden uitgedrukt) en boekt een **waardevermindering op zowel de vordering (hoofdsom) als op de rente**, omdat de inning door het aangevraagde faillissement onzeker is geworden. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Drie stappen bij faillissementsaanvraag van de klant:**\n\n1. **Vordering afzonderen naar dubieuze debiteuren** — zodra de inning twijfelachtig wordt, moet de vordering uit 290000 *Handelsdebiteuren op meer dan één jaar* worden overgeboekt naar een dubieuze-rekening (bv. 2907). 📖\n2. **Nog niet uitgedrukte rente erkennen** — de contractueel verschuldigde rente (8% zesmaandelijks, lopende tot 30/06/2015) die nog niet via overlopende rekeningen werd geboekt, moet pro rata erkend worden zodat de volledige vordering (kapitaal + verworven rente) in de balans tot uiting komt. 🔗\n3. **Waardevermindering op het volledige bedrag** — art. 3:46 KB WVV verplicht een waardevermindering zodra er onzekerheid bestaat over de betaling op de vervaldag; die waardevermindering geldt voor de **vordering én de rente** (beide zijn een vorderingsbestanddeel waarop inning onzeker is). 📖\n\n**Per optie:**\n- **a** → FOUT: negeert de rente-erkenning, dekt slechts deel van de boekhoudkundige verwerking.\n- **b** → FOUT: rente wordt erkend maar de waardevermindering wordt alleen op de hoofdsom geboekt, niet op de rente — onvolledig.\n- **c** → JUIST: rente uitdrukken + waardevermindering op vordering én rente.\n- **d** → FOUT: overboeking naar *vorderingen op ten hoogste één jaar* is hier prematuur. Op balansdatum 31/12/2013 is de resterende looptijd nog ca. 18 maanden (vervaldag 30/06/2015), dus de vordering blijft op meer dan één jaar; pas op 31/12/2014 zou overboeking aan de orde zijn. 🔗\n- **e** → Inhoudelijk gelijk aan c maar voegt 'jaarrekening-vermelding inning onzeker' toe; dat is geen boekhoudkundige handeling sensu stricto en niet als zodanig vereist (de waardevermindering en de afzondering als dubieuze debiteur tonen de onzekerheid al). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Valkuil — overboeking lange→korte termijn vs. dubieuze afzondering**: optie d klinkt aantrekkelijk omdat 'faillissement' associeert met 'snel innen', maar de balansrubriek-overboeking (V → VII) hangt af van de **resterende looptijd** op balansdatum, niet van het faillissementsrisico. De dubieuze-status is een aparte beweging (binnen rubriek V naar dubieuze sub-rekening), niet een verschuiving naar 'op ten hoogste één jaar'. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-15-waardeverminderingen-op-handelsvorderingen-gedekt-door-een-kredietverzekering.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 3:46 KB WVV** (jaarrekeningbesluit): \"Op de vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar worden waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag.\" 📖\n\n**CBN-advies 2011/15** bevestigt de werkwijze: bij twijfelachtige inning eerst afzonderen naar dubieuze debiteuren, dan waardevermindering boeken op het niet-gedekte deel (kapitaal én erkende rente). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:46 KB WVV; CBN-advies 2011/15"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -269,7 +461,56 @@
       "vraag_id": "2015-1-vr3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Optie d** — intercalaire interesten mogen **onder bepaalde voorwaarden** geactiveerd worden in de aanschaffingswaarde van het materieel vast actief; ze hoeven dus niet noodzakelijk op rubriek 65 te blijven staan, en de activering is evenmin onvoorwaardelijk. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2015-08-boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Analyse per optie:\n\n- **a (enkel rubriek 65)** — **FOUT**. Het KB WVV verplicht niet om interesten als financiële kost te boeken; het laat activering uitdrukkelijk toe. 🔗\n- **b (moeten op het actief)** — **FOUT**. Activering is een **mogelijkheid** (\"mag worden opgenomen\"), geen verplichting. 📖\n- **c (onvoorwaardelijk op het actief)** — **FOUT**. Twee voorwaarden gelden cumulatief: (1) het moet gaan om rente op vreemd vermogen dat de **financiering** van het vast actief betreft, en (2) de rente moet betrekking hebben op de **periode vóór bedrijfsklaarheid** van het actief. 📖\n- **d (mag, onder voorwaarden)** — **JUIST**. Dekt zowel de keuze-aard (mag) als de voorwaarden (financierings­verband + pre-bedrijfsklaarheid). 🔗\n\nDe boekhouder heeft het bedrag terecht op wachtrekening 499 geparkeerd: het bestuursorgaan beslist eerst of de voorwaarden vervuld zijn (was het investerings­krediet aangewend voor de financiering van een welbepaald actief? betreft de 125.000 EUR rente vóór ingebruikname?). Pas daarna wordt het bedrag overgeboekt naar de aanschaffings­waarde van het betrokken actief (rubriek 22/23) of, indien niet voldaan, naar rekening 650 *Kosten van schulden*. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2015-08-boekhoudkundige-verwerking-van-de-aankoop-van-een-onroerend-goed-bestemd-voor-verkoop.md"
+                ],
+                "confidence": "verondersteld",
+                "tekst": "**Valkuil** — verwar de regeling voor **vaste activa** (art. 3:16 KB WVV: pre-bedrijfsklaarheid) niet met die voor **voorraden met productie­cyclus > 1 jaar** (art. 3:42 KB WVV / CBN-advies 2015/8): daar geldt een eigen voorwaarde (normale productie­periode) en verloopt de activering via creditering van rekening 6503 *Geactiveerde intercalaire intresten*. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 3:16 lid 1 KB WVV** (vroeger art. 38 KB W.Venn., van toepassing in 2014): \"In de aanschaffingswaarde van immateriële en materiële vaste activa mag de rente op vreemd vermogen dat wordt gebruikt voor hun financiering worden opgenomen, doch slechts voor zover zij betrekking heeft op de periode welke de bedrijfsklaarheid van deze vaste activa voorafgaat.\" 📖",
+                "type": "grondslag",
+                "wetsref": "art. 3:16 lid 1 KB WVV (= art. 38 KB W.Venn. 2001)"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -342,7 +583,59 @@
       "vraag_id": "2015-1-vr4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+                  "resources/bronnen/adviezen/CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **d** is correct: vanaf het ogenblik dat het recht op de subsidie vaststaat (toekenningsbericht), wordt zij geboekt op rekening 15 *Kapitaalsubsidies* (gesplitst met 1680 *Uitgestelde belastingen op kapitaalsubsidies*) en vervolgens **gelijkmatig met het afschrijvingsritme** van het gesubsidieerde actief in resultaat genomen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a — FOUT**: rechtstreeks elke ontvangen schijf op 753 boeken miskent het matching-beginsel; 753 is een resultaatrekening waarop de kapitaalsubsidie alleen *pro rata* het afschrijvingsritme via overboeking vanuit rekening 15 mag terechtkomen. 🔗\n- **b — FOUT**: boeking op 15 + 1680 is correct, maar de subsidie **behouden** op de balans zolang de investering niet gerealiseerd is, schendt de regel dat de inresultaatname start zodra de afschrijvingen van het gesubsidieerde actief lopen — niet pas na voltooiing. 🔗\n- **c — FOUT**: ineens op 753 bij toekenning is dubbel mis: zowel verkeerde rekening (rechtstreeks resultaat) als verkeerd ritme (ineens i.p.v. gespreid). 🔗\n- **d — JUIST**: triggermoment = ontvangst van het toekenningsbericht (recht staat vast, art. 95 §2.VI KB W.Venn. / KB 2018), boeking op 15 met splitsing 1680, inresultaatname gelijkmatig met de afschrijvingen via 753 *Kapitaal- en interestsubsidies*. 📖\n- **e — FOUT**: het triggermoment is **niet** de creditering op de bankrekening maar het ogenblik dat het recht vaststaat (toekenningsbericht). Vóór ontvangst loopt de tegenboeking via rekening 416 *Te innen opbrengsten* (of 291). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De vraagstelling vermeldt naast *kapitaalsubsidie* ook *interestsubsidie*. Een **interestsubsidie** wordt **niet** via rekening 15 + 753 geboekt volgens het afschrijvingsritme, maar **direct als financiële opbrengst** op rekening 753 *Kapitaal- en interestsubsidies* in het boekjaar waarop de betoelaagde rentelast slaat (matching met de interestkost). De vraag betreft echter expliciet een **investeringssubsidie** (productieapparaat), dus kapitaalsubsidie-regime. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+                  "resources/bronnen/adviezen/CBN-2009-03-boekhoudkundige-verwerking-van-kapitaalsubsidies-waarvan-de-toekenning-enof-de-uitbetaling.md",
+                  "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 95 §2.VI en art. 76 §2 KB W.Venn. (sinds 2019: art. 3:89 §2.VI en art. 3:48 KB WVV) — kapitaalsubsidies op rekening 15 + uitgestelde belastingen op 1680, gelijkmatig met de afschrijving via 753 in resultaat. Praktijk-uitwerking: CBN-advies 2011/13 (Overheidssubsidies) en CBN-advies 2009/3. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:89 §2.VI + art. 3:48 KB WVV; CBN 2011/13; CBN 2009/3"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr5"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -420,7 +713,59 @@
       "vraag_id": "2015-1-vr5"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:27:22Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening.md",
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie c** — de activering **moet** gebeuren door het crediteren van de rekening **649** (geactiveerde bedrijfskosten) of **669** (geactiveerde uitzonderlijke kosten). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening.md",
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 3:36 KB-WVV (voorheen art. 58, tweede lid KB W.Venn.) vereist dat herstructureringskosten worden geactiveerd door ze **op zichtbare wijze in mindering te brengen** van het totaalbedrag van respectievelijk de bedrijfskosten, de uitzonderlijke kosten of de financiële kosten. 📖 Dat gebeurt via dedicated tegenboekrekeningen met een credit-saldo (negatieve kosten): **649** *Als herstructureringskosten geactiveerde bedrijfskosten (-)* en **669** *Uitzonderlijke kosten als herstructureringskosten opgenomen onder de activa (-)*. 📖\n\n**Per optie**:\n- **a / b / e** (crediteren van 61-62): FOUT — de oorspronkelijke kostenrekeningen crediteren maakt de in resultaatneming **onzichtbaar** in de resultatenrekening. Dat is precies wat art. 3:36 KB-WVV verbiedt: de activering moet zichtbaar gebeuren via een afzonderlijke min-rekening, niet door de bedrijfskostenrekeningen zelf neer te halen. 🔗\n- **d** (\"kan\" crediteren van 649/669): FOUT in de modaliteit — als de onderneming kiest voor activering, is de techniek (crediteren van 649/669) **dwingend**, geen optie. De keuze betreft of geactiveerd wordt, niet hoe. 🔗\n- **c** (\"moet\" crediteren van 649/669): JUIST — combineert de verplichte techniek met de juiste rekeningen. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Valkuil** — \"kan\" versus \"moet\": het *activeren zelf* is een keuze van het bestuursorgaan (mits aan de voorwaarden van art. 3:36 voldaan is: ingrijpende structuurwijziging + duurzame gunstige weerslag op rentabiliteit, verantwoord in de toelichting). Eenmaal die keuze is gemaakt, is de **boekingstechniek dwingend voorgeschreven**: zichtbaar in mindering brengen via 649/669 (en analoog een 65X-min-rekening voor financiële kosten — die staat zelfs niet expliciet in het MAR maar wordt door CBN bevolen). 📖 Dat onderscheid kan-vs-moet zit precies in het verschil tussen optie c en d.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-24-herstructureringskosten-verwerking-in-de-jaarrekening.md",
+                  "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 3:36 KB-WVV (29.04.2019), tweede lid — verplicht zichtbare aftrek van de respectieve kostenrubrieken. CBN-advies 2011/24 *Herstructureringskosten — Verwerking in de jaarrekening* (09.11.2011), voetnoot 2: \"*Artikel 58, tweede lid KB W.Venn. vereist namelijk dat deze kosten geactiveerd worden door ze op zichtbare wijze in mindering te brengen [...]*\". MAR (KB 21.10.2018, Bijlage 1), klasse 6: rekening **649** *Als herstructureringskosten geactiveerde bedrijfskosten (-)* en **669** *Uitzonderlijke kosten als herstructureringskosten opgenomen onder de activa (-)*. Debet-zijde van de tegenboeking: rubriek **20** *Oprichtingskosten* (of subrekening **204** *Herstructureringskosten*).",
+                "type": "grondslag",
+                "wetsref": "Art. 3:36 KB-WVV; CBN-advies 2011/24"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr6"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -499,7 +844,58 @@
       "vraag_id": "2015-1-vr6"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md",
+                  "resources/bronnen/adviezen/CBN-2019-01-dividenduitkering-en-kapitaalvermindering-in-natura-0.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie E** — het voorschot op het uiteindelijk te verdelen liquidatiesaldo wordt geboekt op het **debet van rekening 19** *Voorschot aan de vennoten op de verdeling van het netto-actief (-)*. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md",
+                  "resources/bronnen/adviezen/CBN-2019-01-dividenduitkering-en-kapitaalvermindering-in-natura-0.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n- **A — debet rekening 100 (Kapitaal)** ❌ — kapitaal wordt pas bij de **sluiting** van de vereffening tegen rekening 19 weggeboekt; tijdens de vereffening blijft 100 onaangeroerd, zonder onderscheid of het voorschot betrekking heeft op kapitaal, uitgiftepremies of reserves. 📖\n- **B — credit rekening 19** ❌ — rekening 19 is een **actief-corrigerende rekening (-)**: een voorschot doet de eigenvermogenscomponent dalen en wordt dus aan de **debetzijde** opgenomen. 🔗\n- **C — debet 416 Diverse vorderingen** ❌ — een uitkering aan de vennoten is **geen vordering** op hen (geen terugbetalingsverplichting); rekening 416 is voorbehouden voor andere casussen (bv. inbreng-in-natura met betalingswaarborg, CBN 2019/01). 🔗\n- **D — credit rekening 101 (Niet-opgevraagd kapitaal)** ❌ — 101 dient enkel voor nog-niet-volgestort kapitaal, niet voor uitkeringen. 🤖\n- **E — debet rekening 19** ✅ — exact wat CBN 2010/22 en CBN 2019/01 voorschrijven. 📖\n- **F — debet rekening 48 'zaakvoerder'** ❌ — vennoten zijn geen zaakvoerders; bovendien is een liquidatie-uitkering geen schuld aan een bestuurder. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil — rekening 19 is een *minrekening op het passief*.** Ze verschijnt op het passief als negatieve component van het eigen vermogen (-), zoals 'eigen aandelen' op het actief (-). Daarom: een **toename van het voorschot = debetboeking** op 19 (parallel met 5500/2x bij creditzijde). Pas bij de **sluiting** van de vereffening wordt 19 tegengeboekt tegen 100/11/13x — dan pas verdwijnt het maatschappelijk kapitaal of de inbreng uit de balans. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md",
+                  "resources/bronnen/adviezen/CBN-2019-01-dividenduitkering-en-kapitaalvermindering-in-natura-0.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**CBN-advies 2010/22** *Boekingswijze van een voorschot op de verdeling van het netto-actief*: \"In hoofde van de vennootschap in vereffening wordt een voorschot op de verdeling van het netto-actief tot bij de sluiting van de vereffening geboekt op de rekening **19** *Voorschot aan de vennoten op de verdeling van het netto-actief (-)*, **zonder onderscheid** al naar gelang deze voorschotten betrekking hebben op het maatschappelijk kapitaal, de uitgiftepremies of de reserves.\" Bevestigd door **CBN-advies 2019/01** §Boekingen in hoofde van de ontbonden vennootschap. Wettelijke basis voor het voorlopige karakter: art. 190 §2 W.Venn. (anno 2015; nu art. 2:97 WVV) — definitieve uitkering kan pas na betaling van de schulden of consignatie. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 190 §2 W.Venn. (2015) — nu art. 2:97 WVV; CBN-advies 2010/22; CBN-advies 2019/01"
+              }
+            ],
+            "gekozen_optie_id": "e",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr7"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

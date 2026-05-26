@@ -2,89 +2,55 @@
   "schema_versie": "1.1",
   "examen_id": "2003-bibf",
   "vraag_id": "2003-bibf-vrA1",
-  "antwoord_datum": "2026-05-21T00:00:00Z",
-  "antwoord_model": "claude-opus-4-7",
+  "antwoord_datum": "2026-05-26T12:27:24Z",
+  "antwoord_model": "claude-sonnet-4-6",
   "vraag_antwoorden": [
     {
       "id": "i1",
       "antwoord_status": "beantwoord",
       "blokken": [
         {
+          "type": "conclusie",
+          "tekst": "**Boekjaar 2002**: (1) toezegging kapitaalsubsidie 416 a/n 15 (6.000) + 168 (4.000); (2) afschrijving machine 6302 a/n 23x9 voor 10.000; (3) inresultaatname subsidie 15 a/n 753 voor 600; (4) onttrekking uitgestelde belastingen 168 a/n 780 voor 400. **Boekjaar 2003**: (1) ontvangst eerste schijf 550 a/n 416 voor 5.000 (geen afsluitingsboeking — kasverrichting in de loop van het jaar, hier vermeld voor volledigheid); (2-4) idem afschrijving + inresultaatname (600) + onttrekking (400). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+            "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "**Afsluitingsboekingen 31/12/2002**\n\n| # | D / C | Rekening | Omschrijving | Bedrag (EUR) |\n|---|---|---|---|---:|\n| 1 | D | 416 | Diverse vorderingen — te ontvangen kapitaalsubsidie | 10.000,00 |\n| 1 | C | 15 | Kapitaalsubsidies (netto) | 6.000,00 |\n| 1 | C | 168 | Uitgestelde belastingen op kapitaalsubsidies | 4.000,00 |\n| 2 | D | 6302 | Afschrijvingen op materiële vaste activa | 10.000,00 |\n| 2 | C | 23x9 | Geboekte afschrijvingen op installaties, machines en uitrusting | 10.000,00 |\n| 3 | D | 15 | Kapitaalsubsidies (netto) | 600,00 |\n| 3 | C | 753 | Kapitaal- en interestsubsidies | 600,00 |\n| 4 | D | 168 | Uitgestelde belastingen op kapitaalsubsidies | 400,00 |\n| 4 | C | 780 | Onttrekkingen aan de uitgestelde belastingen | 400,00 |\n\n**Afsluitingsboekingen 31/12/2003** (zelfde structuur, geen nieuwe toezegging)\n\n| # | D / C | Rekening | Omschrijving | Bedrag (EUR) |\n|---|---|---|---|---:|\n| 1 | D | 6302 | Afschrijvingen op materiële vaste activa | 10.000,00 |\n| 1 | C | 23x9 | Geboekte afschrijvingen op installaties, machines en uitrusting | 10.000,00 |\n| 2 | D | 15 | Kapitaalsubsidies (netto) | 600,00 |\n| 2 | C | 753 | Kapitaal- en interestsubsidies | 600,00 |\n| 3 | D | 168 | Uitgestelde belastingen op kapitaalsubsidies | 400,00 |\n| 3 | C | 780 | Onttrekkingen aan de uitgestelde belastingen | 400,00 |\n\n*Boeking 1 van 2002 (toezegging) wordt in de literatuur als boeking-bij-toezegging gepresenteerd en niet als 'afsluitings'-boeking sensu stricto, maar wordt hier meegenomen omdat de toezegging in 2002 plaatsvindt en de jaarrekening 2002 erop moet aansluiten. De kasontvangst in 2003 (550 a/n 416 voor 5.000) is een verrichting in de loop van het boekjaar, geen afsluitingsboeking.* 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Splitsing kapitaalsubsidie bij toezegging (KB W.Venn. art. 76, §1)**:\n- Bruto subsidie: 10.000,00\n- Uitgestelde belastingen (40%): 10.000 × 0,40 = **4.000,00** → rek. 168 📖\n- Netto kapitaalsubsidie (60%): 10.000 × 0,60 = **6.000,00** → rek. 15 📖\n\n**Jaarlijkse afschrijving machine**: 100.000 × 10% = **10.000,00** → rek. 6302 / 23x9 🔗\n\n**Pro rata inresultaatname (gelijkmatig met afschrijving — art. 76, §2)**:\n- Op rek. 15: 6.000 × 10% = **600,00** → 15 a/n 753 📖\n- Op rek. 168: 4.000 × 10% = **400,00** → 168 a/n 780 📖\n\nBoekjaren 2002 en 2003 zijn identiek qua afschrijving en pro rata (10% per jaar gedurende 10 jaar). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+          ]
+        },
+        {
           "type": "motivatie",
-          "tekst": "Casus-parameters: machine aangekocht in 2002 voor 100.000,00 EUR; kapitaalsubsidie 10.000,00 EUR definitief toegezegd in 2002 (twee schijven van 5.000,00 EUR in 2003 en 2004); afschrijving 10% lineair; belastingstarief 40%. Bij toezegging wordt de kapitaalsubsidie netto na uitgestelde belasting geboekt: 60% op rekening 15 (netto kapitaalsubsidie) en 40% op rekening 168 (uitgestelde belastingen). Jaarlijkse afschrijving machine: 10.000,00 EUR. Pro rata in resultaatname kapitaalsubsidie volgt het afschrijvingsritme: 10% per jaar van 10.000 = 1.000,00 EUR bruto, waarvan 600,00 EUR via 753 (in resultaat genomen kapitaalsubsidies) en 400,00 EUR via 780 (onttrekking aan uitgestelde belastingen). ⚠️ te verifiëren - rekeningnummers volgen het MAR; exacte codes te valideren.",
-          "confidence": "inferred",
-          "bron_refs": []
+          "tekst": "**Vermeldenswaard — splitsing in twee passiefposten** ❓\n\nDe **bruto-methode** met opsplitsing van de subsidie in een netto-deel (rek. 15) en een uitgestelde-belastingen-deel (rek. 168) is in 2002 (BIBF-examen) niet de enige praktijk: ze geldt **enkel** wanneer de subsidie effectief belastbaar is volgens de fiscale regels van dat ogenblik. Bij latere wijziging van de fiscaliteit kan het saldo op rek. 168 worden aangepast (art. 76, §3 KB W.Venn., nu art. 3:46 KB WVV). Voor een examen-antwoord uit 2003 is de tweesplitsing met 40% het standaard-schoolvoorbeeld. 🔗\n\n**Valkuil — geen pro rata temporis**: het examen geeft geen aankoopdatum binnen 2002; we nemen aan dat een volledige jaarafschrijving (10.000) en volledige inresultaatname (600 + 400) voor 2002 worden geboekt. In de praktijk schrijft KB W.Venn. art. 45 voor om pro rata temporis af te schrijven, maar examen-casussen zonder datum-specificatie gebruiken doorgaans 12/12. 🤖",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+          ]
         },
         {
-          "type": "boeking",
-          "regels": [
-            { "zijde": "D", "rekening": "416", "naam": "Diverse vorderingen - te ontvangen kapitaalsubsidie", "bedrag": 10000.0 },
-            { "zijde": "C", "rekening": "15", "naam": "Kapitaalsubsidies (netto)", "bedrag": 6000.0 },
-            { "zijde": "C", "rekening": "168", "naam": "Uitgestelde belastingen op kapitaalsubsidies", "bedrag": 4000.0 }
-          ],
-          "toelichting": "2002 (toezeggingsboeking, in de loop van het boekjaar): definitieve toezegging kapitaalsubsidie 10.000,00 EUR opgesplitst in netto-subsidie (60%) en uitgestelde belastingen (40%).",
-          "confidence": "inferred",
-          "bron_refs": []
-        },
-        {
-          "type": "boeking",
-          "regels": [
-            { "zijde": "D", "rekening": "6302", "naam": "Afschrijvingen op materiele vaste activa", "bedrag": 10000.0 },
-            { "zijde": "C", "rekening": "2309", "naam": "Geboekte afschrijvingen op installaties, machines en uitrusting", "bedrag": 10000.0 }
-          ],
-          "toelichting": "Afsluitingsboeking 31/12/2002 - jaarlijkse afschrijving machine 10% x 100.000,00.",
-          "confidence": "inferred",
-          "bron_refs": []
-        },
-        {
-          "type": "boeking",
-          "regels": [
-            { "zijde": "D", "rekening": "15", "naam": "Kapitaalsubsidies (netto)", "bedrag": 600.0 },
-            { "zijde": "C", "rekening": "753", "naam": "In resultaat genomen kapitaalsubsidies", "bedrag": 600.0 }
-          ],
-          "toelichting": "Afsluitingsboeking 31/12/2002 - pro rata in resultaatname van de netto kapitaalsubsidie (10% van 6.000,00).",
-          "confidence": "inferred",
-          "bron_refs": []
-        },
-        {
-          "type": "boeking",
-          "regels": [
-            { "zijde": "D", "rekening": "168", "naam": "Uitgestelde belastingen op kapitaalsubsidies", "bedrag": 400.0 },
-            { "zijde": "C", "rekening": "780", "naam": "Onttrekking aan de uitgestelde belastingen", "bedrag": 400.0 }
-          ],
-          "toelichting": "Afsluitingsboeking 31/12/2002 - pro rata onttrekking aan uitgestelde belastingen (10% van 4.000,00).",
-          "confidence": "inferred",
-          "bron_refs": []
-        },
-        {
-          "type": "boeking",
-          "regels": [
-            { "zijde": "D", "rekening": "6302", "naam": "Afschrijvingen op materiele vaste activa", "bedrag": 10000.0 },
-            { "zijde": "C", "rekening": "2309", "naam": "Geboekte afschrijvingen op installaties, machines en uitrusting", "bedrag": 10000.0 }
-          ],
-          "toelichting": "Afsluitingsboeking 31/12/2003 - jaarlijkse afschrijving machine.",
-          "confidence": "inferred",
-          "bron_refs": []
-        },
-        {
-          "type": "boeking",
-          "regels": [
-            { "zijde": "D", "rekening": "15", "naam": "Kapitaalsubsidies (netto)", "bedrag": 600.0 },
-            { "zijde": "C", "rekening": "753", "naam": "In resultaat genomen kapitaalsubsidies", "bedrag": 600.0 }
-          ],
-          "toelichting": "Afsluitingsboeking 31/12/2003 - pro rata in resultaatname netto kapitaalsubsidie.",
-          "confidence": "inferred",
-          "bron_refs": []
-        },
-        {
-          "type": "boeking",
-          "regels": [
-            { "zijde": "D", "rekening": "168", "naam": "Uitgestelde belastingen op kapitaalsubsidies", "bedrag": 400.0 },
-            { "zijde": "C", "rekening": "780", "naam": "Onttrekking aan de uitgestelde belastingen", "bedrag": 400.0 }
-          ],
-          "toelichting": "Afsluitingsboeking 31/12/2003 - pro rata onttrekking aan uitgestelde belastingen.",
-          "confidence": "inferred",
-          "bron_refs": []
+          "type": "grondslag",
+          "tekst": "KB W.Venn. art. 76, §1-2 (boekhoudkundige verwerking kapitaalsubsidies en uitgestelde belastingen; nu art. 3:46 KB WVV). **CBN-advies 2011/13 — Overheidssubsidies** geeft de canonieke boekingschema's (toezegging 416 a/n 15 + 168; ontvangst 550 a/n 416; inresultaatname 15 a/n 753 + 168 a/n 780). **CBN-advies 2013/14** preciseert dat de uitgestelde belastingen op kapitaalsubsidies geleidelijk worden afgeboekt naar rek. 780 *Onttrekkingen aan de uitgestelde belastingen*, gelijkmatig met de afboeking van de subsidie in passiefpost VI. 📖",
+          "wetsref": "KB W.Venn. art. 76, §1-2 (nu KB WVV art. 3:46); CBN 2011/13; CBN 2013/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+            "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+          ]
         }
       ]
     }

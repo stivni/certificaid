@@ -1,14 +1,14 @@
 {
   "bron_pdf": "2003-bibf.pdf",
   "examen_id": "2003-bibf",
-  "merge_datum": "2026-05-26T12:11:24+00:00",
+  "merge_datum": "2026-05-26T15:05:36+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
     {
       "antwoord": {
-        "antwoord_datum": "2026-05-21T00:00:00Z",
-        "antwoord_model": "claude-opus-4-7",
+        "antwoord_datum": "2026-05-26T12:27:24Z",
+        "antwoord_model": "claude-sonnet-4-6",
         "examen_id": "2003-bibf",
         "schema_versie": "1.1",
         "vraag_antwoorden": [
@@ -16,156 +16,47 @@
             "antwoord_status": "beantwoord",
             "blokken": [
               {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "tekst": "Casus-parameters: machine aangekocht in 2002 voor 100.000,00 EUR; kapitaalsubsidie 10.000,00 EUR definitief toegezegd in 2002 (twee schijven van 5.000,00 EUR in 2003 en 2004); afschrijving 10% lineair; belastingstarief 40%. Bij toezegging wordt de kapitaalsubsidie netto na uitgestelde belasting geboekt: 60% op rekening 15 (netto kapitaalsubsidie) en 40% op rekening 168 (uitgestelde belastingen). Jaarlijkse afschrijving machine: 10.000,00 EUR. Pro rata in resultaatname kapitaalsubsidie volgt het afschrijvingsritme: 10% per jaar van 10.000 = 1.000,00 EUR bruto, waarvan 600,00 EUR via 753 (in resultaat genomen kapitaalsubsidies) en 400,00 EUR via 780 (onttrekking aan uitgestelde belastingen). ⚠️ te verifiëren - rekeningnummers volgen het MAR; exacte codes te valideren.",
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+                  "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Boekjaar 2002**: (1) toezegging kapitaalsubsidie 416 a/n 15 (6.000) + 168 (4.000); (2) afschrijving machine 6302 a/n 23x9 voor 10.000; (3) inresultaatname subsidie 15 a/n 753 voor 600; (4) onttrekking uitgestelde belastingen 168 a/n 780 voor 400. **Boekjaar 2003**: (1) ontvangst eerste schijf 550 a/n 416 voor 5.000 (geen afsluitingsboeking — kasverrichting in de loop van het jaar, hier vermeld voor volledigheid); (2-4) idem afschrijving + inresultaatname (600) + onttrekking (400). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Afsluitingsboekingen 31/12/2002**\n\n| # | D / C | Rekening | Omschrijving | Bedrag (EUR) |\n|---|---|---|---|---:|\n| 1 | D | 416 | Diverse vorderingen — te ontvangen kapitaalsubsidie | 10.000,00 |\n| 1 | C | 15 | Kapitaalsubsidies (netto) | 6.000,00 |\n| 1 | C | 168 | Uitgestelde belastingen op kapitaalsubsidies | 4.000,00 |\n| 2 | D | 6302 | Afschrijvingen op materiële vaste activa | 10.000,00 |\n| 2 | C | 23x9 | Geboekte afschrijvingen op installaties, machines en uitrusting | 10.000,00 |\n| 3 | D | 15 | Kapitaalsubsidies (netto) | 600,00 |\n| 3 | C | 753 | Kapitaal- en interestsubsidies | 600,00 |\n| 4 | D | 168 | Uitgestelde belastingen op kapitaalsubsidies | 400,00 |\n| 4 | C | 780 | Onttrekkingen aan de uitgestelde belastingen | 400,00 |\n\n**Afsluitingsboekingen 31/12/2003** (zelfde structuur, geen nieuwe toezegging)\n\n| # | D / C | Rekening | Omschrijving | Bedrag (EUR) |\n|---|---|---|---|---:|\n| 1 | D | 6302 | Afschrijvingen op materiële vaste activa | 10.000,00 |\n| 1 | C | 23x9 | Geboekte afschrijvingen op installaties, machines en uitrusting | 10.000,00 |\n| 2 | D | 15 | Kapitaalsubsidies (netto) | 600,00 |\n| 2 | C | 753 | Kapitaal- en interestsubsidies | 600,00 |\n| 3 | D | 168 | Uitgestelde belastingen op kapitaalsubsidies | 400,00 |\n| 3 | C | 780 | Onttrekkingen aan de uitgestelde belastingen | 400,00 |\n\n*Boeking 1 van 2002 (toezegging) wordt in de literatuur als boeking-bij-toezegging gepresenteerd en niet als 'afsluitings'-boeking sensu stricto, maar wordt hier meegenomen omdat de toezegging in 2002 plaatsvindt en de jaarrekening 2002 erop moet aansluiten. De kasontvangst in 2003 (550 a/n 416 voor 5.000) is een verrichting in de loop van het boekjaar, geen afsluitingsboeking.* 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Splitsing kapitaalsubsidie bij toezegging (KB W.Venn. art. 76, §1)**:\n- Bruto subsidie: 10.000,00\n- Uitgestelde belastingen (40%): 10.000 × 0,40 = **4.000,00** → rek. 168 📖\n- Netto kapitaalsubsidie (60%): 10.000 × 0,60 = **6.000,00** → rek. 15 📖\n\n**Jaarlijkse afschrijving machine**: 100.000 × 10% = **10.000,00** → rek. 6302 / 23x9 🔗\n\n**Pro rata inresultaatname (gelijkmatig met afschrijving — art. 76, §2)**:\n- Op rek. 15: 6.000 × 10% = **600,00** → 15 a/n 753 📖\n- Op rek. 168: 4.000 × 10% = **400,00** → 168 a/n 780 📖\n\nBoekjaren 2002 en 2003 zijn identiek qua afschrijving en pro rata (10% per jaar gedurende 10 jaar). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
+                ],
+                "confidence": "betwijfeld",
+                "tekst": "**Vermeldenswaard — splitsing in twee passiefposten** ❓\n\nDe **bruto-methode** met opsplitsing van de subsidie in een netto-deel (rek. 15) en een uitgestelde-belastingen-deel (rek. 168) is in 2002 (BIBF-examen) niet de enige praktijk: ze geldt **enkel** wanneer de subsidie effectief belastbaar is volgens de fiscale regels van dat ogenblik. Bij latere wijziging van de fiscaliteit kan het saldo op rek. 168 worden aangepast (art. 76, §3 KB W.Venn., nu art. 3:46 KB WVV). Voor een examen-antwoord uit 2003 is de tweesplitsing met 40% het standaard-schoolvoorbeeld. 🔗\n\n**Valkuil — geen pro rata temporis**: het examen geeft geen aankoopdatum binnen 2002; we nemen aan dat een volledige jaarafschrijving (10.000) en volledige inresultaatname (600 + 400) voor 2002 worden geboekt. In de praktijk schrijft KB W.Venn. art. 45 voor om pro rata temporis af te schrijven, maar examen-casussen zonder datum-specificatie gebruiken doorgaans 12/12. 🤖",
                 "type": "motivatie"
               },
               {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "regels": [
-                  {
-                    "bedrag": 10000.0,
-                    "naam": "Diverse vorderingen - te ontvangen kapitaalsubsidie",
-                    "rekening": "416",
-                    "zijde": "D"
-                  },
-                  {
-                    "bedrag": 6000.0,
-                    "naam": "Kapitaalsubsidies (netto)",
-                    "rekening": "15",
-                    "zijde": "C"
-                  },
-                  {
-                    "bedrag": 4000.0,
-                    "naam": "Uitgestelde belastingen op kapitaalsubsidies",
-                    "rekening": "168",
-                    "zijde": "C"
-                  }
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+                  "resources/bronnen/adviezen/CBN-2013-14-de-boekhoudkundige-verwerking-van-de-uitgestelde-belastingen-bij-gerealiseerde-meerwaarden.md"
                 ],
-                "toelichting": "2002 (toezeggingsboeking, in de loop van het boekjaar): definitieve toezegging kapitaalsubsidie 10.000,00 EUR opgesplitst in netto-subsidie (60%) en uitgestelde belastingen (40%).",
-                "type": "boeking"
-              },
-              {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "regels": [
-                  {
-                    "bedrag": 10000.0,
-                    "naam": "Afschrijvingen op materiele vaste activa",
-                    "rekening": "6302",
-                    "zijde": "D"
-                  },
-                  {
-                    "bedrag": 10000.0,
-                    "naam": "Geboekte afschrijvingen op installaties, machines en uitrusting",
-                    "rekening": "2309",
-                    "zijde": "C"
-                  }
-                ],
-                "toelichting": "Afsluitingsboeking 31/12/2002 - jaarlijkse afschrijving machine 10% x 100.000,00.",
-                "type": "boeking"
-              },
-              {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "regels": [
-                  {
-                    "bedrag": 600.0,
-                    "naam": "Kapitaalsubsidies (netto)",
-                    "rekening": "15",
-                    "zijde": "D"
-                  },
-                  {
-                    "bedrag": 600.0,
-                    "naam": "In resultaat genomen kapitaalsubsidies",
-                    "rekening": "753",
-                    "zijde": "C"
-                  }
-                ],
-                "toelichting": "Afsluitingsboeking 31/12/2002 - pro rata in resultaatname van de netto kapitaalsubsidie (10% van 6.000,00).",
-                "type": "boeking"
-              },
-              {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "regels": [
-                  {
-                    "bedrag": 400.0,
-                    "naam": "Uitgestelde belastingen op kapitaalsubsidies",
-                    "rekening": "168",
-                    "zijde": "D"
-                  },
-                  {
-                    "bedrag": 400.0,
-                    "naam": "Onttrekking aan de uitgestelde belastingen",
-                    "rekening": "780",
-                    "zijde": "C"
-                  }
-                ],
-                "toelichting": "Afsluitingsboeking 31/12/2002 - pro rata onttrekking aan uitgestelde belastingen (10% van 4.000,00).",
-                "type": "boeking"
-              },
-              {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "regels": [
-                  {
-                    "bedrag": 10000.0,
-                    "naam": "Afschrijvingen op materiele vaste activa",
-                    "rekening": "6302",
-                    "zijde": "D"
-                  },
-                  {
-                    "bedrag": 10000.0,
-                    "naam": "Geboekte afschrijvingen op installaties, machines en uitrusting",
-                    "rekening": "2309",
-                    "zijde": "C"
-                  }
-                ],
-                "toelichting": "Afsluitingsboeking 31/12/2003 - jaarlijkse afschrijving machine.",
-                "type": "boeking"
-              },
-              {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "regels": [
-                  {
-                    "bedrag": 600.0,
-                    "naam": "Kapitaalsubsidies (netto)",
-                    "rekening": "15",
-                    "zijde": "D"
-                  },
-                  {
-                    "bedrag": 600.0,
-                    "naam": "In resultaat genomen kapitaalsubsidies",
-                    "rekening": "753",
-                    "zijde": "C"
-                  }
-                ],
-                "toelichting": "Afsluitingsboeking 31/12/2003 - pro rata in resultaatname netto kapitaalsubsidie.",
-                "type": "boeking"
-              },
-              {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "regels": [
-                  {
-                    "bedrag": 400.0,
-                    "naam": "Uitgestelde belastingen op kapitaalsubsidies",
-                    "rekening": "168",
-                    "zijde": "D"
-                  },
-                  {
-                    "bedrag": 400.0,
-                    "naam": "Onttrekking aan de uitgestelde belastingen",
-                    "rekening": "780",
-                    "zijde": "C"
-                  }
-                ],
-                "toelichting": "Afsluitingsboeking 31/12/2003 - pro rata onttrekking aan uitgestelde belastingen.",
-                "type": "boeking"
+                "confidence": "geciteerd",
+                "tekst": "KB W.Venn. art. 76, §1-2 (boekhoudkundige verwerking kapitaalsubsidies en uitgestelde belastingen; nu art. 3:46 KB WVV). **CBN-advies 2011/13 — Overheidssubsidies** geeft de canonieke boekingschema's (toezegging 416 a/n 15 + 168; ontvangst 550 a/n 416; inresultaatname 15 a/n 753 + 168 a/n 780). **CBN-advies 2013/14** preciseert dat de uitgestelde belastingen op kapitaalsubsidies geleidelijk worden afgeboekt naar rek. 780 *Onttrekkingen aan de uitgestelde belastingen*, gelijkmatig met de afboeking van de subsidie in passiefpost VI. 📖",
+                "type": "grondslag",
+                "wetsref": "KB W.Venn. art. 76, §1-2 (nu KB WVV art. 3:46); CBN 2011/13; CBN 2013/14"
               }
             ],
             "id": "i1"
@@ -225,7 +116,57 @@
       "vraag_id": "2003-bibf-vrA1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:27:19Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+                  "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Afsluitingsboekingen** (CBN-methode: voorraad eerst op aanschaffingswaarde, dan waardevermindering apart):\n\n| # | Debet | Bedrag (EUR) | Credit | Bedrag (EUR) | Toelichting |\n|---|---|---:|---|---:|---|\n| 1 | **71** Wijzigingen voorraad goederen in bewerking | 100,00 | **32** Goederen in bewerking | 100,00 | Voorraadafname GIB: 500 → 400 🔗 |\n| 2 | **34** Handelsgoederen | 1.500,00 | **6094** Voorraadwijzigingen handelsgoederen | 1.500,00 | Voorraadtoename handelsgoederen: 7.000 → 8.500 (aanschaffingswaarde) 🔗 |\n| 3 | **6310** Waardeverminderingen op voorraden (toevoegingen) | 325,00 | **349** Op handelsgoederen geboekte waardeverminderingen | 325,00 | WV = 250 (marktwaarde 8.250 < kostprijs 8.500) + 75 (afprijzing) 🔗 |\n\n**Netto boekwaarde handelsgoederen na afsluiting**: 8.500 − 325 = **8.175,00 EUR** 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Stap 1 — Voorraadwijziging GIB (rekening 32)**: saldo D 500 → inventaris 400 → afname **100**. CBN 132/7 boekt uitgaande voorraad GIB: 71 D / 32 C. 🔗\n\n**Stap 2 — Voorraadwijziging handelsgoederen (rekening 34)**: saldo D 7.000 → inventaris **aan aanschaffingswaarde 8.500** → toename **1.500**. CBN-schema voor inkomende handelsgoederen: 34 D / 6094 C. 🔗\n\n**Stap 3 — Waardevermindering op handelsgoederen (rekening 349)**: artikel 3:43 KB WVV (vroeger art. 69 §1 KB W.Venn.) vereist waardering van handelsgoederen tegen aanschaffingswaarde óf tegen lagere marktwaarde op balansdatum. Berekening:\n- Verschil kostprijs/marktwaarde: 8.500 − 8.250 = **250** 📖\n- Bijkomende afprijzing: **75** 📖\n- **Totaal WV: 325** 🔗\nBoeking volgens CBN 132/7: 6310 D / 349 (subrekening \"3·9 Op voorraden geboekte waardeverminderingen\") C. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard — voor goederen in bewerking geldt een afwijkende regel.** Artikel 3:44 KB WVV (vroeger art. 70 KB W.Venn.) eist dat op **goederen in bewerking** een waardevermindering wordt geboekt zodra de **vervaardigingsprijs vermeerderd met de nog te maken kosten** hoger is dan de netto-verkoopprijs op balansdatum. In deze casus is voor de GIB geen marktwaarde gegeven en is geen ontwaarding-indicator vermeld → enkel de voorraadwijziging boeken, geen WV op rekening 329. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+                  "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Wettelijke grondslag**:\n- **Art. 3:43 KB WVV** (oud art. 69 §1 KB W.Venn., van toepassing in 2003): handelsgoederen worden gewaardeerd tegen aanschaffingswaarde óf tegen marktwaarde op balansdatum als die lager is. 🔗\n- **Art. 3:44 KB WVV** (oud art. 70 KB W.Venn.): aanvullende waardeverminderingen om rekening te houden met evolutie van realisatie- of marktwaarde of met risico's eigen aan de aard van de producten. 🔗\n- **MAR (KB 21.10.2018, Bijlage 1)**: rekeningen 32, 34, 71, 6094, 6310, 349 met de hier toegepaste functie. 📖\n- **CBN-advies 132/7** \"Boeking en waardering van voorraden\": schema's voor uitgaande/inkomende voorraden + boekingsschema waardevermindering (6310 / 3·9). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 3:43-3:44 KB WVV (oud art. 69-70 KB W.Venn.); CBN 132/7; MAR"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrA2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -591,7 +532,56 @@
       "vraag_id": "2003-bibf-vrB3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2016-06-verbeteringswerken-aan-gehuurde-gebouwen.md",
+                  "resources/bronnen/adviezen/CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Kosten voor inrichting van gehuurde gebouwen worden geboekt onder **rubriek III.E. Overige materiële vaste activa** — concreet op **rekening 26 'Overige materiële vaste activa'** — en vervolgens afgeschreven volgens een passend afschrijvingsplan (rekening 6302 afschrijvingen MVA / 2609 geboekte afschrijvingen). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2016-06-verbeteringswerken-aan-gehuurde-gebouwen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De huurder is geen eigenaar van het gebouw, dus de inrichtingskosten kunnen niet op rekening 221 'Gebouwen' worden geboekt. Omdat ze toch een duurzaam economisch nut voor de huurder opleveren tijdens de looptijd van de huurovereenkomst, worden ze geactiveerd als materieel vast actief van een aparte aard — vandaar de restcategorie 26 'Overige materiële vaste activa'. 🔗 Het afschrijvingsplan wordt afgestemd op de concrete situatie: doorgaans de **kortste van** (a) de economische levensduur van de inrichting en (b) de **resterende huurtermijn** (rekening houdend met eventuele vergoedingsregeling bij einde huur). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — Rubriek III.E. is een verzamelrubriek: ze bevat o.m. onroerende reserve, woongebouwen, buiten gebruik gestelde MVA, in huur/erfpacht/opstal gegeven goederen, én precies deze inrichtingskosten voor gehuurde gebouwen voor zover die niet ten laste van de resultatenrekening van het lopende boekjaar werden genomen. 📖 De onderneming heeft m.a.w. de keuze: ofwel volledig kosten in het lopende boekjaar (rekening 61), ofwel activeren op rekening 26 en gespreid afschrijven. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2016-06-verbeteringswerken-aan-gehuurde-gebouwen.md",
+                  "resources/bronnen/adviezen/CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 3:89 KB WVV** (voorheen art. 95 KB W.Venn.) — schema en inhoud van de jaarrekening — plaatst de 'kosten voor inrichting van gehuurde gebouwen' uitdrukkelijk onder III.E. Overige materiële vaste activa. 📖 **CBN-advies 2016/6** (Verbeteringswerken aan gehuurde gebouwen) bevestigt: 'de huurder boekt de met deze werken verbonden kosten krachtens artikel 95 KB W.Venn. op de rekening 26 Andere materiële vaste activa' en schrijft ze af volgens een afschrijvingsplan dat afhankelijk is van de vergoedingsregeling en de huurduur. 📖 **CBN-advies 2021/09** geeft de actuele opsomming van wat onder rubriek III.E. valt onder het KB WVV. 📖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrB4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -758,7 +748,143 @@
       "vraag_id": "2003-bibf-vrB5"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:27:43Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Netto bedrijfskapitaal = 54.110,00 EUR** 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Netto bedrijfskapitaal (NBK) = Vlottende activa − Schulden op ten hoogste één jaar 🔗\n\n| Component | Bedrag (EUR) |\n|---|---:|\n| Voorraden | 41.000,00 |\n| Vorderingen op < 1 jaar | 42.700,00 |\n| Geldbeleggingen | 10.000,00 |\n| Liquide middelen | 37.500,00 |\n| **Vlottende activa (totaal)** | **131.200,00** |\n| − Schulden op < 1 jaar | 77.090,00 |\n| **= NBK** | **54.110,00** |\n\nControle via passiefzijde: NBK = (Eigen vermogen + Schulden > 1 jaar) − Vaste activa = (153.150 + 51.000) − 150.040 = **54.110,00 EUR** 🔗. Beide benaderingen geven hetzelfde resultaat — de permanente middelen financieren de vaste activa én een buffer van 54.110 EUR in de exploitatiecyclus.",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Een positief NBK is het normale beeld: het betekent dat de onderneming haar vaste activa en een deel van haar exploitatiecyclus met permanente middelen financiert. Een negatief NBK is niet per definitie problematisch (denk aan retail met snelle voorraadrotatie en lange leverancierskredieten), maar bij een industriële of dienstenonderneming wijst het op een structureel financieringsprobleem. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Standaardformule uit de balansanalyse (financieel beheer). Het NBK wordt afgelezen uit de jaarrekening volgens het schema van het MAR/KB W.Venn. (rubrieken VIII–IX vlottende activa minus rubriek IX passief). 🔗",
+                "type": "grondslag",
+                "wetsref": "KB 29 april 2019 — schema jaarrekening (volledig/verkort)"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Current ratio = 131.200 / 77.090 ≈ 1,70** 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Current ratio (ruime liquiditeitsratio) = Vlottende activa / Schulden op ten hoogste één jaar 🔗\n\n= (41.000 + 42.700 + 10.000 + 37.500) / 77.090\n\n= 131.200,00 / 77.090,00\n\n= **1,7019** (afgerond **1,70**)\n\nInterpretatie: voor elke 1 EUR kortetermijnschuld beschikt de onderneming over 1,70 EUR vlottende activa. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Vuistregel: current ratio ≥ 1 wordt minimaal geacht, ≥ 1,5 à 2 wordt vaak als comfortabel beschouwd. Een te hoge ratio (>3) kan wijzen op overinvestering in voorraden of trage inning — niet altijd een teken van financiële kracht. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Klassieke formule uit de balansanalyse — algemeen aanvaarde definitie in de Belgische financiële-analyseliteratuur (Ooghe & Van Wymeersch). De ratio steunt op het rubrieken-schema van het KB tot uitvoering van het WVV. 🔗",
+                "type": "grondslag",
+                "wetsref": "KB 29 april 2019 — jaarrekeningschema"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Acid test = 90.200 / 77.090 ≈ 1,17** 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Acid test (beperkte/strikte liquiditeitsratio, quick ratio) = (Vlottende activa − Voorraden) / Schulden op ten hoogste één jaar 🔗\n\n= (131.200 − 41.000) / 77.090\n\n= (42.700 + 10.000 + 37.500) / 77.090\n\n= 90.200,00 / 77.090,00\n\n= **1,1700** (afgerond **1,17**)\n\nInterpretatie: ook zonder de voorraden te realiseren kan de onderneming haar kortetermijnschulden meer dan dekken. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Verwar de acid test niet met de current ratio: voorraden worden bewust uitgesloten omdat ze het minst liquide deel van de vlottende activa zijn (realisatie vergt verkoop én inning). Een gezonde current ratio met een zwakke acid test signaleert voorraadafhankelijkheid. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Standaardformule balansanalyse — variant op de current ratio, gebaseerd op dezelfde rubrieken van het jaarrekeningschema (KB tot uitvoering WVV) met uitsluiting van de voorraad-rubriek. 🔗",
+                "type": "grondslag",
+                "wetsref": "KB 29 april 2019 — jaarrekeningschema"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Solvabiliteitsratio = 153.150 / 281.240 ≈ 0,5445 = 54,45%** 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Solvabiliteitsratio = Eigen vermogen / Totaal passief 🔗\n\nEigen vermogen = Kapitaal + Reserves + Overgedragen winst = 100.000 + 50.400 + 2.750 = **153.150,00 EUR**\n\nTotaal passief = **281.240,00 EUR**\n\nSolvabiliteit = 153.150 / 281.240 = **0,5445** ≈ **54,45%**\n\nInterpretatie: 54,45% van het totale vermogen wordt door eigen middelen gefinancierd; de overige 45,55% door schulden (schuldgraad). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Nuance",
+                "tekst": "Er bestaan meerdere solvabiliteits-definities. De klassieke vorm (EV/Totaal vermogen) wordt soms vervangen door EV/Vreemd vermogen (debt-to-equity-variant). Hier wordt de **klassieke ratio** gebruikt — de meest courante in de Belgische balansanalyse en de variant die NBB-Centrale voor balansen rapporteert. Als de oplossingssleutel de andere definitie hanteert, levert dat 153.150 / 128.090 ≈ 1,196 op. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Klassieke financiële-onafhankelijkheidsratio uit de balansanalyse, gebaseerd op de geconsolideerde rubrieken Eigen vermogen (I–VI) en Totaal passief uit het jaarrekeningschema (KB tot uitvoering WVV). 🔗",
+                "type": "grondslag",
+                "wetsref": "KB 29 april 2019 — jaarrekeningschema"
+              }
+            ],
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrC1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -915,7 +1041,48 @@
       "vraag_id": "2003-bibf-vrC1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:28:19Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Operationele cash-flow = 20.280 EUR** 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Operationele cash-flow = nettowinst + niet-kaskosten (afschrijvingen + netto-voorzieningen + waardeverminderingen) 🔗\n\n| Post | Bedrag (EUR) |\n|---|---:|\n| Winst van het boekjaar | 2.750 |\n| + Afschrijvingen | 12.100 |\n| + Toevoegingen aan voorzieningen | 6.300 |\n| − Bestedingen van voorzieningen | −1.650 |\n| + Toevoegingen aan waardeverminderingen | 780 |\n| **= Operationele cash-flow** | **20.280** |\n\nDe bestedingen van voorzieningen worden afgetrokken omdat ze een terugname zijn (een eerder geboekte niet-kaskost wordt teruggedraaid omdat het risico zich realiseert of vervalt). Per saldo wordt dus enkel de **netto-toevoeging** aan voorzieningen bij de winst opgeteld (6.300 − 1.650 = 4.650). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — De cash-flow zoals hier berekend is de **klassieke (indirecte) bedrijfscashflow**: winst na belastingen verhoogd met niet-kaskosten. 🔗 Het is een **proxy** voor de operationele kasstroom, niet de zuivere operationele kasstroom uit een volwaardig kasstroomoverzicht (IAS 7) — die laatste corrigeert daarenboven voor de mutaties in werkkapitaal (voorraden, vorderingen, schulden). 🔗 In een BIBF-examen op basis van een balans + résultatenrekening volstaat de indirecte methode zonder werkkapitaalcorrectie. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Definitie bedrijfscashflow als nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen) — gangbare definitie in jaarrekeninganalyse. 🔗 Voor de boekhoudkundige begrippen 'afschrijvingen' en 'waardeverminderingen' zelf: art. 3:23 KB-WVV 2019. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:23 KB-WVV 2019"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrC2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

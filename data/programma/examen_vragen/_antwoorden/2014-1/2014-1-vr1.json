@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr1",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie d** is correct. Per 31/12/2013 staat: geplaatst kapitaal 100.000 EUR, beschikbare reserves 800.000 EUR, in de resultaatverwerking 'Vergoeding van het kapitaal' 1.000.000 EUR, en op het passief 'Ontvangen voorschotten op kapitaal' (rek. 489X) voor 900.000 EUR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- **a** FOUT — kapitaal kan pas verhoogd worden bij authentieke akte (24/01/2014, dus boekjaar 2014). Op 31/12/2013 staat het kapitaal nog op 100.000 EUR. 🔗\n- **b** FOUT — laat de uitkering ongerealiseerd door beschikbare reserves op 1.800.000 te houden; de bijzondere AV van 20/12/2013 heeft de uitkering bruto 1.000.000 reeds beslist en betaalbaar gesteld op 27/12/2013, dus de reserves moeten dalen naar 800.000. 🔗\n- **c** FOUT — boekt het volledige bedrag (900.000) als 'Dividenden over het boekjaar' (rek. 471) zonder rekening te houden met CBN-2013/17: voor het gedeelte waarvoor een bewijskrachtig element aanwezig is dat de aandeelhouder zal deelnemen aan de kapitaalverhoging, wordt 471 gedebiteerd en 489X 'Ontvangen voorschotten op kapitaal' gecrediteerd. 📖\n- **d** JUIST — reflecteert de CBN-2013/17-verwerking: het tot kapitaal bestemde gedeelte (900.000) staat onder 489X 'Ontvangen voorschotten op kapitaal' i.p.v. onder dividenden, vermits de formele kapitaalverhoging pas in januari 2014 plaatsvindt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Eigen vermogen 31/12/2013 (zonder resultaat boekjaar)**:\n\n| Rubriek | Bedrag (EUR) |\n|---|---:|\n| Geplaatst kapitaal | 100.000 |\n| Wettelijke reserve | 10.000 |\n| Beschikbare reserves (1.800.000 − 1.000.000) | 800.000 |\n| Overgedragen winst | 1.000 |\n\n**Resultaatverwerking**: 'Vergoeding van het kapitaal' (rek. 694) 1.000.000 EUR.\n\n**Op het passief (schulden)**: 489X 'Ontvangen voorschotten op kapitaal' 900.000 EUR (gedeelte bestemd voor kapitaalverhoging — bewijskrachtig element vóór balansdatum) + 100.000 EUR effectief uit te keren dividend (waarop 10% RV ingehouden conform overgangsregime art. 537 WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — De timing van de authentieke akte (24/01/2014) is doorslaggevend. Vóór de akte mag rek. 100 'Geplaatst kapitaal' niet worden gecrediteerd; het bedrag wacht in 489X. Pas bij de formele kapitaalverhoging in 2014 wordt 489X gedebiteerd en 100 gecrediteerd. Verwar dit niet met een gewone dividenduitkering: daar zou 471 'Dividenden over het boekjaar' op het passief staan tot betaling. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 2013/17 (27/11/2013) over de overgangsregeling van art. 537 WIB92 (vastklikken van reserves): bij aanlevering van bewijskrachtig element dat de aandeelhouder deelneemt aan de Verrichting wordt 471 'Dividenden over het boekjaar' gedebiteerd en 489X 'Ontvangen voorschotten op kapitaal' gecrediteerd; bij de latere formele kapitaalverhoging wordt 489X gedebiteerd en 100 'Geplaatst kapitaal' gecrediteerd. Art. 537 WIB92 voorziet de afzonderlijke aanslag van 10% (verlaagde RV) op de tussentijdse uitkering. 📖",
+          "wetsref": "CBN-advies 2013/17; art. 537 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2013-17-de-boekhoudkundige-verwerking-met-betrekking-tot-de-toepassing-van-de-overgangsregeling.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

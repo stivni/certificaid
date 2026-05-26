@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrA2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Op 31/12/2007** (afsluitingsboeking): kost van 1.000 EUR (excl. BTW) toerekenen aan boekjaar 2007 via een **toe te rekenen kost** (rekening 492). De BTW (210 EUR) wordt niet in 2007 geboekt — het aftrekrecht ontstaat pas in 2008 met de factuur. **Op 01/01/2008**: tegenboeking 492. **Bij ontvangst factuur in 2008**: normale aankoopboeking met BTW-aftrek. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "boeking",
+          "tekst": "**31/12/2007 — Afsluitingsboeking (toerekening kost aan 2007)** 🔗\n\n| Zijde | Rekening | Omschrijving | Bedrag |\n|---|---|---|---|\n| D | 640 (of 61) | Reclame- en publiciteitskosten | 1.000,00 |\n| C | 492 | Toe te rekenen kosten | 1.000,00 |\n\n**01/01/2008 — Tegenboeking** (heropening / tegenboeking overlopende rekening) 🔗\n\n| Zijde | Rekening | Omschrijving | Bedrag |\n|---|---|---|---|\n| D | 492 | Toe te rekenen kosten | 1.000,00 |\n| C | 640 (of 61) | Reclame- en publiciteitskosten | 1.000,00 |\n\n**Januari 2008 — Boeking van de ontvangen factuur in het aankoopdagboek** 📖\n\n| Zijde | Rekening | Omschrijving | Bedrag |\n|---|---|---|---|\n| D | 640 (of 61) | Reclame- en publiciteitskosten | 1.000,00 |\n| D | 411 | Terug te vorderen BTW | 210,00 |\n| C | 440 | Leveranciers | 1.210,00 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Waarom in 2007?** Het matching-beginsel (art. 3:11 KB WVV / art. 33 KB W.Venn.) vereist dat kosten worden toegerekend aan het boekjaar waarop ze economisch betrekking hebben, ongeacht het tijdstip van betaling of facturatie. De levering heeft in 2007 plaatsgevonden, dus de kost hoort bij 2007. 🔗\n\n**Waarom rekening 492 (en niet 444 Te ontvangen facturen)?** Beide zijn defensief verdedigbaar in de praktijk; klassieke didactische oplossing voor een nog niet ontvangen factuur op afsluitdatum is **492 Toe te rekenen kosten** (passief overlopende rekening). Sommige handboeken gebruiken **444 Te ontvangen facturen** wanneer de leverancier en het bedrag al gekend zijn — beide leiden tot hetzelfde resultaat. 🤖\n\n**Waarom de BTW pas in 2008?** Het recht op aftrek van BTW ontstaat door de uitreiking van een geldige factuur (art. 3 KB nr. 3). Op 31/12/2007 was er nog geen factuur, dus geen aftrekbare BTW; de toerekening in 2007 gebeurt op het netto-bedrag (1.000 EUR). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — publiciteitsartikelen ≠ relatiegeschenken.** Publiciteitsartikelen (reclame-artikelen met duidelijke en blijvende vermelding van de naam van de schenker, lage eenheidswaarde, in grote hoeveelheid uitgedeeld) zijn **volledig aftrekbaar** als reclamekost, **zonder** de 50%-aftrekbeperking van art. 53, 11° WIB 92 die wel geldt voor relatiegeschenken. De BTW is eveneens volledig aftrekbaar. Bij relatiegeschenken zou 50% van de kost als verworpen uitgave moeten worden teruggenomen in de aangifte VenB (code 1207) en zou de BTW niet aftrekbaar zijn (art. 45, §3, 4° WBTW), met uitzondering precies van publiciteitsartikelen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Matching-/toerekeningsbeginsel: art. 3:11 KB WVV (vroeger art. 33 KB W.Venn., van toepassing in 2007). Recht op BTW-aftrek vereist een geldige factuur: art. 3 KB nr. 3 BTW. Publiciteitsartikelen niet onderworpen aan 50%-beperking relatiegeschenken: art. 53, 8° en 11° WIB 92 (zie aangifte VenB code 1207).",
+          "wetsref": "art. 3:11 KB WVV; art. 3 KB nr. 3 BTW; art. 53, 8° en 11° WIB 92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+            "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

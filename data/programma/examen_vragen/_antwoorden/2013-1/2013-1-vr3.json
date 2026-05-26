@@ -1,0 +1,195 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr3",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_context_notitie": "Examenvraag 2013 — wettelijk kader van vóór KB 18-12-2015. Antwoord volgt het regime dat in 2013 gold (KB W.Venn. art. 60, 61, 95: ook onderzoekskosten activeerbaar, max. afschrijving 5 jaar mits toelichting). Voor de huidige stagiair: zie 'Nuance' bij b) en d) — sinds boekjaren vanaf 1-1-2016 (KB 18-12-2015 + CBN 2016/16) zijn kosten van onderzoek NIET meer activeerbaar; alleen ontwikkelingskosten, max. 10 jaar indien gebruiksduur niet betrouwbaar te ramen.",
+  "_kosten_specificatie_uit_png": {
+    "vooronderzoek_studiebureaus": 20000,
+    "ontwikkeling_door_derden": 15000,
+    "aankopen_materiaal": 180000,
+    "lonen_arbeiders_incl_patronale": 80000,
+    "totaal": 295000
+  },
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Ja**, deze kosten kunnen geactiveerd worden als immaterieel vast actief — *kosten van onderzoek en ontwikkeling* — voor zover ze cumulatief voldoen aan de activeringsvoorwaarden van het KB W.Venn. (regime 2013). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Activering van intern verrichte O&O is slechts toegestaan wanneer **alle volgende criteria cumulatief** vervuld zijn (CBN 2012/13, rn. 8): 📖\n\n1. **Nut**: het product of proces draagt bij tot het ondernemingsdoel of tot een verbeterde concurrentiepositie.\n2. **Individualiseerbaar**: nauwkeurig gedefinieerd en geïndividualiseerd — kostprijs afzonderlijk vast te stellen.\n3. **Technische haalbaarheid + intentie**: voldoende technische uitvoerbaarheid en intentie tot voltooiing/gebruik of verkoop.\n4. **Voldoende middelen** om de ontwikkeling tot een goed einde te brengen.\n5. **Voorzichtige raming gebruikswaarde**: de kostprijs mag niet hoger zijn dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement (art. 60 KB W.Venn.). 📖\n\nVoor het prototype-transportmiddel is het gebruik in fabrieken (verplaatsing zware goederen) een afgebakende toepassing met aanwijsbaar economisch nut — activering is dus inhoudelijk verantwoord, mits het bestuursorgaan deze criteria documenteert. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — *activering is een keuze, geen verplichting*: zelfs als alle criteria vervuld zijn mag de onderneming ervoor kiezen de kosten **onmiddellijk als kost** in de resultatenrekening te boeken (waarderingsregel). De gekozen methode moet consistent worden toegepast en in de waarderingsregels worden vermeld. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 60 en 95 KB W.Venn.** (regime 2013) — vervaardigingsprijs als boekwaarde, beperking tot voorzichtige raming gebruikswaarde; CBN-advies 2012/13 (rn. 8 + activering van kosten van O&O) voor de cumulatieve voorwaarden.",
+          "wetsref": "art. 60 en 95 KB W.Venn. (2013); CBN-advies 2012/13",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "Onder het **regime 2013** (vóór KB 18-12-2015) kunnen **alle vier de kostencategorieën** worden geactiveerd, mits zij rechtstreeks aan het O&O-project zijn toerekenbaar — samen **295.000 EUR**: 🔗\n\n| # | Kostencategorie | Bedrag | Activeerbaar (regime 2013) |\n|---|-----------------|-------:|:--------------------------:|\n| 1 | Vooronderzoek door studiebureaus | 20.000 | ✅ Ja (kosten van **onderzoek**) |\n| 2 | Ontwikkeling door derden | 15.000 | ✅ Ja (kosten van **ontwikkeling** — extern) |\n| 3 | Aankopen materiaal (voor het prototype) | 180.000 | ✅ Ja (vervaardigingsprijs — direct toerekenbaar) |\n| 4 | Lonen arbeiders incl. patronale bijdragen | 80.000 | ✅ Ja (vervaardigingsprijs — direct toerekenbaar personeel) |\n| | **Totaal te activeren** | **295.000** | |\n\nDe vervaardigingsprijs omvat de **direct toerekenbare aankoopkosten van grondstoffen, verbruiksgoederen en hulpstoffen** + de **rechtstreeks toerekenbare productiekosten** (lonen + sociale lasten van het personeel dat aan het project werkte) + extern uitbestede O&O. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Nuance — huidig regime (boekjaren vanaf 1-1-2016, KB 18-12-2015 + CBN 2016/16)**: kosten van **onderzoek** mogen **niet meer** worden geactiveerd en gaan rechtstreeks naar de resultatenrekening. Alleen kosten van **ontwikkeling** komen nog voor activering in aanmerking. Onder het huidig regime zou post 1 (vooronderzoek 20.000) dus **als kost** worden geboekt; enkel posten 2, 3 en 4 (samen 275.000) — voor zover toerekenbaar aan de ontwikkelingsfase — zouden activeerbaar zijn. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 95 KB W.Venn.** (regime 2013): kosten van onderzoek, vervaardiging en ontwikkeling van prototypes en producten die nuttig zijn voor de toekomstige activiteiten van de onderneming. **Vervaardigingsprijs** = directe materiaal- en productiekosten (incl. lonen en sociale lasten van het toegerekend personeel). Voor huidig regime: KB 18-12-2015 + CBN-advies 2016/16.",
+          "wetsref": "art. 95 KB W.Venn. (2013); art. III.89 KB WVV (huidig)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Rubriek 21 — Immateriële vaste activa** (tot op 2 cijfers). Volledig: rekening **210 — Kosten van onderzoek en ontwikkeling**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het MAR (Minimum Algemeen Rekeningstelsel) ordent immateriële vaste activa onder rubriek **21**, met als sub-rekeningen: **210** kosten van onderzoek en ontwikkeling — **211** concessies, octrooien, licenties, knowhow, merken en soortgelijke rechten — **212** goodwill — **213** vooruitbetalingen. Het prototype valt onder **210**. 🔗\n\nTegenboeking bij interne vervaardiging: **72 — Geproduceerde vaste activa** (de zelf geproduceerde delen worden via deze rekening uit de kosten gehaald en als investering opgenomen).",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "MAR — KB van 12-09-1983 (en latere wijzigingen) op de jaarrekening van ondernemingen, rubriek 21 van de balans en de bijhorende algemene rekeningen.",
+          "wetsref": "MAR — rubriek 21 (immateriële vaste activa)",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Er is geen wettelijke minimum-afschrijvingstermijn**. De afschrijving gebeurt volgens een door het bestuursorgaan opgesteld plan, dat de aanschaffingskosten **spreidt over de waarschijnlijke nuttigheids- of gebruiksduur** (art. 28 § 1 + art. 45 § 1 KB W.Venn.). In de praktijk hanteert men onder het regime 2013 doorgaans **5 jaar** als afschrijvingsperiode; een spreiding over **meer dan 5 jaar** vereist een verantwoording in de toelichting. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil — minimum vs. maximum**: de wet legt geen **minimum** op (een onderneming mag versneld afschrijven indien de economische gebruiksduur korter is). De **5 jaar** is een grensdrempel: spreiding **langer dan 5 jaar** moet in de toelichting worden verantwoord — het is dus geen wettelijk maximum, maar wel een **verantwoordingsplicht-grens**. 🔗\n\nHet meest verwachte examenantwoord (regime 2013): **5 jaar** — als de gebruiksduur van het prototype niet uitdrukkelijk korter wordt geraamd.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Nuance — huidig regime**: sinds boekjaren vanaf 1-1-2016 bepaalt het KB W.Venn. (gewijzigd door KB 18-12-2015) dat kosten van **ontwikkeling**, indien hun gebruiksduur niet met zekerheid kan worden geraamd, worden afgeschreven over een **maximum van 10 jaar** (CBN 2016/16). De **5 jaar + toelichting**-regel uit het oude regime is daarmee vervangen door een hard **plafond van 10 jaar**. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 28 § 1 + art. 45 § 1 + art. 61 § 1 KB W.Venn. (regime 2013): afschrijving over waarschijnlijke gebruiksduur, geen minimum, toelichting verplicht bij spreiding > 5 jaar. CBN 2010/15 (afschrijvingsmethoden) en CBN 2012/13 (immateriële vaste activa). Huidig regime: KB 18-12-2015 + CBN 2016/16 (max. 10 jaar bij onzekere gebruiksduur).",
+          "wetsref": "art. 28, 45, 61 KB W.Venn. (2013); KB 18-12-2015 (huidig)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Geen activering**: indien commerciële haalbaarheid niet aangetoond is, is **niet voldaan aan de cumulatieve activeringsvoorwaarden** (geen nut/toekomstig economisch voordeel aantoonbaar). De reeds gemaakte kosten — aankopen en personeelskosten — blijven daarom **als kost van het boekjaar** in de resultatenrekening (rubrieken **60** aankopen, **62** bezoldigingen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Twee scenario's** — afhankelijk van het moment van het besluit:\n\n1. **Nog niet geactiveerd** (besluit vóór einde boekjaar, geen vaste-activa-boeking gemaakt): de kosten blijven gewoon in de resultatenrekening waar ze al stonden — **60** aankopen materiaal, **62** lonen + sociale lasten. Geen tegenboeking via **72** Geproduceerde vaste activa. Dit is het scenario dat de vraag impliceert (\"voortijdig besloten\"). 🔗\n2. **Reeds geactiveerd in een vorig boekjaar** (en pas later blijkt de onhaalbaarheid): de geactiveerde rekening **210** moet via een **uitzonderlijke afschrijving** of **bijzondere waardevermindering** (rekening **660** uitzonderlijke afschrijvingen op immateriële vaste activa) volledig worden afgeboekt — duurzaam waardeverlies. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Voorzichtigheidsbeginsel** — de kern: activering van O&O steunt op de verwachting van **toekomstige economische voordelen**. Zodra die verwachting wegvalt (geen commerciële haalbaarheid), vervalt de grondslag voor activering. Doorrollen van de geactiveerde kosten zou een **geflatteerd actief** op de balans plaatsen en is strijdig met het voorzichtigheids- en getrouwe-beeld-beginsel (art. 3:1 KB WVV / art. 24 KB W.Venn. regime 2013). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Cumulatieve activeringsvoorwaarden — CBN 2012/13 rn. 8 (nut + individualiseerbaar + technische haalbaarheid + intentie + voorzichtige raming gebruikswaarde). Art. 60 KB W.Venn. (2013): activering enkel voor zover de kostprijs niet hoger is dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement. Bijzondere waardevermindering op IVA: art. 64 KB W.Venn.",
+          "wetsref": "art. 60, 64 KB W.Venn. (2013); CBN 2012/13",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

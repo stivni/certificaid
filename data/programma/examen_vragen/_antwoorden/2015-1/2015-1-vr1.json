@@ -1,0 +1,93 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr1",
+  "antwoord_datum": "2026-05-26T12:27:30Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**392.000 EUR** (optie **c**) — de marktwaarde (280 EUR/stuk) ligt op 31/12/2013 onder de FIFO-aanschaffingswaarde, dus geldt de laagstewaarderegel: 1.400 stuks × 280 EUR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — voorraad in stuks op 31/12/2013 (FIFO):** beginvoorraad 0; aankoop 15/01/2013: +1.000 @ 350; aankoop 31/03/2013: +500 @ 300; verkoop 31/05/2013: −100 (FIFO → afgeboekt uit oudste laag van 1.000 @ 350). Eindvoorraad = 900 @ 350 + 500 @ 300 = **1.400 stuks**. 🔗\n\n**Stap 2 — FIFO-aanschaffingswaarde:** 900 × 350 + 500 × 300 = 315.000 + 150.000 = **465.000 EUR** (gemiddeld 332,14 EUR/stuk). 🔗\n\n**Stap 3 — laagstewaarderegel (art. 3:46 KB WVV):** marktwaarde op balansdatum = 280 EUR/stuk < gemiddelde aanschaffingswaarde 332,14 EUR/stuk → voorraad waarderen aan **lagere marktwaarde**. 📖\n\n**Stap 4:** 1.400 × 280 = **392.000 EUR**. Boekhoudkundig: aanschaffingswaarde 465.000 op rekening 340, met geboekte waardevermindering 73.000 op rekening 349 → nettoboekwaarde 392.000. 🔗\n\n**Per optie:**\n- (a) 465.000 EUR → FOUT: dit is de FIFO-aanschaffingswaarde zonder toepassing van de laagstewaarderegel. ❌\n- (b) 470.000 EUR → FOUT: geen consistente FIFO-rekening levert dit op.\n- **(c) 392.000 EUR → JUIST**: 1.400 × 280 (markt < kost). ✓\n- (d) 420.000 EUR → FOUT: zou 1.400 × 300 zijn (jongste-aankoop-kost, geen wettelijke methode).\n- (e) 452.000 EUR → FOUT: lijkt op 1.500 × 280 + 32.000 of een gemixte berekening; in elk geval niet de juiste FIFO-stuks of correcte markt-toepassing.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — bij een prijsdaling moet de waardevermindering geboekt worden op **alle** voorraad-laagjes, niet enkel op de duurste laag. De vergelijking gebeurt per voorraadbestanddeel tussen de FIFO-aanschaffingswaarde en de marktwaarde op balansdatum; het verschil per stuk (hier 52,14 EUR gemiddeld, of laag-per-laag 70 EUR resp. 20 EUR) leidt tot een totale waardevermindering van 73.000 EUR. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 3:46 KB WVV** (oud art. 69 §1 KB W.Venn.): grond- en hulpstoffen, gereed product, handelsgoederen en voor verkoop bestemde goederen worden gewaardeerd aan **aanschaffingswaarde of aan de marktwaarde op balansdatum als die lager is**. 📖 — **Art. 3:58 KB WVV** (oud art. 43 KB W.Venn.): keuze tussen individualisering, gewogen gemiddelde of FIFO/LIFO; eens gekozen, consistent toepassen. 📖 — **CBN-advies 132/7**, *Overzicht van de belangrijkste regels*: bevestigt de laagstewaarderegel voor voorraden en het terugnemingsbeginsel. 📖",
+          "wetsref": "Art. 3:46 + 3:58 KB WVV 2019; CBN 132/7",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**465.000 EUR** (optie **a**) — de marktwaarde (455 EUR) ligt nu boven de FIFO-aanschaffingswaarde (gemiddeld 332,14 EUR/stuk), dus de eerder geboekte waardevermindering wordt **teruggenomen tot de oorspronkelijke aanschaffingswaarde** als plafond. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Uitgangspunt:** geen aan- of verkopen na 31/12/2013 → voorraad blijft 1.400 stuks met FIFO-aanschaffingswaarde 465.000 EUR (900 @ 350 + 500 @ 300). 🔗\n\n**Markttoets op de nieuwe balansdatum:** marktwaarde 455 EUR/stuk × 1.400 = 637.000 EUR. Dit ligt **boven** de gemiddelde FIFO-aanschaffingswaarde (332,14 EUR/stuk) én boven beide laag-kostprijzen (350 en 300 EUR). 🔗\n\n**Toepassing laagstewaarderegel:** waardering = min(aanschaffingswaarde; marktwaarde) = min(465.000; 637.000) = **465.000 EUR**. 📖\n\n**Boeking:** de waardevermindering van 73.000 EUR die op 31/12/2013 op rekening 349 werd geboekt, wordt **teruggenomen** (art. 3:46, tweede lid KB WVV: \"een waardering tegen lagere marktwaarde mag niet meer behouden blijven indien later de marktwaarde hoger komt te liggen dan de voor de waardering gehanteerde lagere marktwaarde\"). 📖\n\n**Per optie:**\n- **(a) 465.000 EUR → JUIST**: FIFO-aanschaffingswaarde als plafond. ✓\n- (b) 470.000 EUR → FOUT.\n- (c) 392.000 EUR → FOUT: dit is de oude lagere marktwaarde van 31/12/2013 (280 EUR), die niet meer geldt nu de markt is hersteld. ❌\n- (d) 420.000 EUR → FOUT.\n- (e) 637.000 EUR → FOUT: dit is de actuele marktwaarde (1.400 × 455); de wet **verbiedt** opwaarderen boven aanschaffingswaarde — geen herwaardering voor voorraden. ❌",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — voor voorraden bestaat **geen herwaarderingsregime** (anders dan bv. art. 3:35 KB WVV voor bepaalde vaste activa). De terugneming van een waardevermindering is dus altijd begrensd door de **oorspronkelijke aanschaffingswaarde**: latente meerwaarden op voorraden worden pas erkend bij realisatie (verkoop). Dat sluit aan op het voorzichtigheidsbeginsel (art. 3:6, 3° KB WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 3:46, tweede lid KB WVV** (oud art. 69 §1, tweede lid KB W.Venn.): \"Een waardering tegen lagere marktwaarde mag niet meer behouden blijven, indien later de marktwaarde hoger komt te liggen dan de voor de waardering van de voorraden gehanteerde lagere marktwaarde.\" 📖 — Plafond = aanschaffingswaarde; geen opwaardering boven kostprijs (voorzichtigheidsbeginsel, art. 3:6 KB WVV). 📖 — **CBN-advies 132/7**, *Overzicht van de belangrijkste regels*, bevestigt deze regel uitdrukkelijk. 📖",
+          "wetsref": "Art. 3:46, tweede lid KB WVV 2019; CBN 132/7",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

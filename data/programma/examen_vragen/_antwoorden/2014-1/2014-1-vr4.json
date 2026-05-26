@@ -1,0 +1,91 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr4",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie d — 4.595.294 EUR** 🔗. Op 5 februari 2014 wordt enkel de **actuele (gedisconteerde) waarde** van de vordering als omzet (rekening 70) geboekt: 5.000.000 − 404.706 = 4.595.294 EUR.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het gaat om een vordering terugbetaalbaar over **meer dan één jaar** (5 jaar) waarbij de **werkelijke (markt-)rente (9%) hoger is dan de contractueel verrekende rente (4%)**. KB WVV art. 3:45, §2 (vroeger art. 27*bis* KB 8/10/1976) verplicht dan om de vordering **op nominale waarde** te boeken en het **disconto** (verschil tussen nominale waarde en actuele waarde aan marktrente) als regularisatie van de omzet af te zonderen via rekening 493 — Over te dragen opbrengsten. 📖\n\n**Per optie**:\n- **a (5.000.000)** — FOUT: dit is de nominale prijs zonder rentecomponent én vóór actualisatie; negeert het disconto. 🔗\n- **b (5.600.000)** — FOUT: dit is de nominale waarde *inclusief* contractuele interest (5.000.000 + 600.000); zou de hele financiële component als omzet erkennen. 🔗\n- **c (4.400.000)** — FOUT: dit is 5.000.000 − 600.000 (interest aftrekken in plaats van disconto), houdt geen rekening met de marktactualisatie. 🔗\n- **d (4.595.294)** — **JUIST**: actuele waarde = 5.000.000 − 404.706 (disconto). 📖\n- **e (5.404.706)** — FOUT: voegt het disconto bij de prijs in plaats van het ervan af te trekken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md",
+            "resources/bronnen/adviezen/CBN-2021-04-aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard**: dat de **contractuele interest van 4% lager ligt dan de marktrente van 9%** is precies de trigger voor de discontoverplichting (\"abnormaal lage rente\"). Zonder dat verschil zou de actualisatie niet nodig zijn en zou 5.600.000 als nominale verkoopprijs geboekt worden, met de 600.000 interest als 751 over de looptijd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**KB WVV art. 3:45, §2** (en het overeenkomstige art. 27*bis*, §2 KB 8/10/1976 dat in 2014 van toepassing was): disconto op renteloze of abnormaal laag rentende vorderingen op meer dan één jaar wordt in 493 geboekt en pro rata temporis in resultaat genomen. **CBN-advies 137/4** detailleert de berekening (actuariële methode, samengestelde interest) en de boekhoudkundige verwerking. 📖",
+          "wetsref": "KB WVV art. 3:45 §2 (= art. 27bis §2 KB 8/10/1976) — CBN-advies 137/4",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md",
+            "resources/bronnen/adviezen/CBN-2021-04-aanschaffingswaarde-bij-de-aankoop-van-een-goed-tegen-betaling-van-een-vaste-prijs.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie d** 🔗 — zowel de **interest** als het **disconto** worden over de 5 terugbetalingstermijnen pro rata temporis in resultaat genomen op rekening **751 — Opbrengsten uit vlottende activa** (financiële opbrengsten). Geen van beide componenten is omzet.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij een verkoop op termijn waarbij de **contractuele rente lager is dan de marktrente**, vormen *beide* de extra contractueel verrekende interest (600.000) én het berekende disconto (404.706) samen de **financiële component** van de verrichting. Die mag conform CBN-advies 137/4 niet als omzet worden geboekt, maar wordt pro rata temporis over de looptijd erkend als financiële opbrengst. 📖\n\nHet disconto staat bij de boeking op 5/2/2014 in 493 — Over te dragen opbrengsten en wordt jaarlijks (volgens de actuariële methode aan de oorspronkelijke actualisatievoet) naar 751 overgeboekt. 📖\n\n**Per optie**:\n- **a** — FOUT: zet disconto op **651 (kost)**; het disconto bij een **vordering** is een **opbrengst** (493 → 751), niet een kost. 🔗\n- **b** — FOUT: interest in 70 (omzet) hoort niet, en disconto in 651 evenmin. 🔗\n- **c** — FOUT: interest in 70 (omzet) i.p.v. 751; disconto-ritme is bovendien **niet** vrij door de raad van bestuur te bepalen — het volgt de actuariële methode. 🔗\n- **d** — **JUIST**: beide op 751 pro rata over 5 jaar. 📖\n- **e** — FOUT: \"niet splitsen, alles in omzet\" druist in tegen de **verplichte** actualisatie van art. 3:45 §2 KB WVV. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil**: rekening **651** is *Geactiveerde intercalaire interesten / Diverse financiële kosten* aan **schuld-zijde**. Bij een **vordering** (zoals hier) is het disconto altijd een **opbrengst** (rekening 751). Opties a en b verwarren actief- met passief-zijde. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**CBN-advies 137/4** — boekingsschema bij een vordering: 493 (overlopende rekening passief) → 750/**751** (financiële opbrengsten) pro rata temporis volgens de actuariële methode aan de **oorspronkelijke** actualisatievoet (niet de marktrente op balansdatum). **KB WVV art. 3:45 §2** (vroeger art. 27*bis* §2 KB 8/10/1976) is de wettelijke grondslag. 📖",
+          "wetsref": "CBN-advies 137/4 — KB WVV art. 3:45 §2",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0137-04-renteloze-vorderingen-schulden-en-vorderingen-schulden-met-een-abnormaal-lage-rente-op.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

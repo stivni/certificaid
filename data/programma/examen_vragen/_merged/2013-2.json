@@ -1,12 +1,132 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-26T12:21:57+00:00",
+  "merge_datum": "2026-05-26T15:05:37+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie a — bij de aanschaffingswaarde van de laptops opnemen** (materiële vaste activa). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Windows-besturingssysteem dat samen met de laptops wordt aangekocht is **systeemsoftware** (geen toepassingssoftware). CBN-advies 138/5 stelt expliciet: \"De systeemsoftware en de firmware (d.i. de software die in de hardware - op chips - is gefixeerd) worden samen met de hardware als één geheel beschouwd en derhalve als materieel vast actief geboekt.\" 📖\n\nDaarnaast geldt: \"Zo de software een bijkomstig karakter zou vertonen in verhouding tot de hardware ... wordt de boekhoudkundige verwerking gevolgd van de hardware\". 📖 De Windows-licentie bij de laptops valt onder beide criteria → opname in rubriek **23 (Installaties, machines en uitrusting) / 24 (Meubilair en rollend materieel)** als onderdeel van de aanschaffingswaarde van de laptops.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 138/5 — Software, sectie *Inleiding* (systeemsoftware + bijkomstig karakter t.o.v. hardware). 📖",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 138/5"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie b — immateriële vaste activa** (rubriek 211 — concessies, octrooien, licenties, know-how, merken en soortgelijke rechten). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Boekhoudsoftware is **toepassingssoftware** aangekocht voor eigen gebruik in de onderneming (geen systeemsoftware, geen doorverkoop). CBN-advies 138/5 (A.1.a — standaardsoftware): \"de softwareleverancier [zal] verkiezen om het auteursrecht te behouden en zal de afnemer een auteursrechtlicentie verkrijgen ... Het is dan de vergoeding die betaald wordt voor de verkrijging van dit recht die de aanschaffingswaarde uitmaakt en die geactiveerd zal worden bij de immateriële vaste activa, rubriek concessies, octrooien, licenties, know-how, merken en andere gelijkaardige rechten.\" 📖\n\nOptie a (materiële vaste activa) → **FOUT**: software heeft geen fysieke vorm en valt niet onder MVA. 🔗\nOptie b → **JUIST**: licentie op standaardsoftware voor eigen gebruik = IVA rubriek 211. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — voor activering is vereist dat de software \"gedurende een aantal boekjaren in de onderneming wordt toegepast en bijdraagt tot het verwezenlijken van het ondernemingsdoel of tot een verbeterde concurrentiepositie\". 📖 Een eenmalig kleine softwarelicentie zonder duurzaam karakter zou eerder als kost geboekt worden — voor een boekhoudpakket is duurzaam gebruik evident.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 138/5 — Software, A.1.a *Standaardsoftware*; MAR-rubriek 211 (concessies, octrooien, licenties, ...). 📖",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 138/5 (A.1.a); art. 3:89 §1 II.B KB WVV (rubricering IVA)"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie a — handelsgoederen** (rubriek 34). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 138/5 (A.2 — Toepassingssoftware bestemd voor commercialisatie) is hier letterlijk van toepassing: \"Verkrijgt de onderneming enkel een verkooprecht van de software en wordt de aangekochte software dus **zonder enige aanpassing doorverkocht**, dan heeft de software het karakter van een voorraad en wordt hij geboekt onder de rubriek *Handelsgoederen*.\" 📖\n\nOptie a (handelsgoederen) → **JUIST**: software wordt zonder wijziging doorverkocht = voorraad rubriek 34. 📖\nOptie b (bestelling in uitvoering) → **FOUT**: bestellingen in uitvoering zijn werken/diensten die op balansdatum nog niet zijn opgeleverd voor een bepaalde klant — niet van toepassing op een doorverkocht handelsproduct. 🔗\nOptie c (immateriële vaste activa) → **FOUT**: software wordt niet duurzaam in de onderneming gebruikt; ze wordt doorverkocht. Activeren als IVA vereist eigen, duurzaam gebruik. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Valkuil** — als de onderneming wél het **aanpassingsrecht** krijgt en de software bewerkt vóór doorverkoop, dan kantelt de kwalificatie: activering onder *immateriële vaste activa*. 📖 En reproducties van zelf-gecommercialiseerde software die nog niet verkocht zijn, gaan onder *gereed product* (rubriek 35), niet onder handelsgoederen. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0138-05-software.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 138/5 — Software, A.2 *Toepassingssoftware bestemd voor commercialisatie* (doorverkoop zonder aanpassing → handelsgoederen). 📖",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 138/5 (A.2)"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-2-vr1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -283,7 +403,94 @@
       "vraag_id": "2013-2-vr2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:27:29Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Rubriek **II.3 Goodwill** (Immateriële vaste activa — goodwill) op het actief van de balans. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De € 30.000 is de **meerprijs** die Final BVBA betaalt boven de marktwaarde van de individueel identificeerbare activa (machines + voorraad = € 70.000). Dat verschil weerspiegelt **verworven goodwill**: betaling voor klantenbestand, knowhow, marktpositie of synergie die niet als afzonderlijk actief op de balans verschijnt. 📖 Onder de immateriële vaste activa onderscheidt het rekeningenstelsel (art. 95 KB W.Venn.) vier subrubrieken: kosten van onderzoek en ontwikkeling, concessies/octrooien/licenties/merken, **goodwill**, en vooruitbetalingen. Een meerprijs bij overname valt expliciet onder de derde subrubriek. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil**: de overige € 70.000 wordt **niet** als goodwill geboekt, maar opgesplitst per verworven actief op marktwaarde (Machine A 15.000 en Machine B 25.000 onder **rubriek III Materiële vaste activa**; Voorraad 30.000 onder **rubriek VI Voorraden**). Goodwill is per definitie het **residu** na toerekening aan identificeerbare activa. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 95 KB W.Venn. van 30 januari 2001 (jaarrekeningschema — uitsplitsing immateriële vaste activa, rubriek II.3 Goodwill). CBN-advies 2012/13 §I.B over verworven goodwill bij overname van een onderneming of bedrijfsafdeling.",
+                "type": "grondslag",
+                "wetsref": "art. 95 KB W.Venn. 30/01/2001"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "| Optie | Toegelaten? | Verklaring |\n|---|:---:|---|\n| **a) 3 jaar** | **JA** | Korter dan 5 jaar — volledig binnen het standaardregime, geen bijzondere verantwoording nodig. 🔗 |\n| **b) 5 jaar** | **JA** | Vijf jaar is de **referentietermijn**: tot en met 5 jaar mag zonder bijzondere verantwoording in de toelichting. 📖 |\n| **c) 10 jaar** | **JA, mits verantwoording** | Spreiding **meer dan 5 jaar** is toegestaan in **uitzonderlijke gevallen**, op voorwaarde dat dit in de **toelichting bij de jaarrekening wordt verantwoord** (langere economische gebruiksduur). 📖 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "De wet legt **geen verplichte minimum- of maximumtermijn** op voor de afschrijving van goodwill (art. 61, § 1 KB W.Venn.). Het afschrijvingsplan moet de aanschaffingskosten spreiden over de **waarschijnlijke nuttigheids- of gebruiksduur** van het actief (art. 28, § 1 + art. 45, § 1 KB W.Venn.). 📖 De enige bijzondere regel: gaat de afschrijving over **méér dan vijf jaar**, dan moet dit \"in uitzonderlijke gevallen\" worden gemotiveerd in de toelichting (art. 61, § 1, lid 4 KB W.Venn.). 📖 Drie en vijf jaar liggen dus binnen het standaardregime; tien jaar vereist een onderbouwde economische rechtvaardiging (bv. duurzaam klantenbestand, langetermijncontracten).",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard**: deze 5-jaar-grens is een **verantwoordingsplicht**, geen **maximumgrens**. Dat onderscheidt enkelvoudige verworven goodwill (geen wettelijk plafond) van de huidige WVV-regel voor **consolidatiegoodwill** waar bij onbepaalbare gebruiksduur **maximaal 10 jaar** geldt (CBN-advies 2016/7). Ten tijde van het examen (2013) gold KB W.Venn. ongewijzigd: drie, vijf én tien jaar zijn alle drie toegelaten. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 61, § 1 KB W.Venn. 30/01/2001 (lid 1: afschrijvingsplan conform art. 28, § 1; lid 4: verantwoording in toelichting bij afschrijving van kosten O&O of goodwill over meer dan vijf jaar). Bevestigd in CBN-advies 2012/13 (afschrijvingen op goodwill) en CBN-advies 2010/15 (afschrijvingsmethoden). Sinds 2019 hernummerd als art. 3:42 KB WVV.",
+                "type": "grondslag",
+                "wetsref": "art. 61, § 1 KB W.Venn. 30/01/2001 (= art. 3:42 KB WVV)"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -371,7 +578,94 @@
       "vraag_id": "2013-2-vr3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Ja — de onderneming **moet** een voorziening voor grote herstellings- en onderhoudswerken (rekening 162) aanleggen en daarvoor **jaarlijks 5.000 EUR** ten laste nemen (40.000 EUR / 8 jaar) gedurende de acht boekjaren tussen twee schilderbeurten. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De schilderwerken vormen een **periodiek terugkerende kost** die niet aan één boekjaar mag worden toegerekend: het matching-beginsel vereist dat de kost wordt gespreid over de acht boekjaren waarin de gebouwen worden gebruikt (de oorzaak van de herstelling ontstaat in de periodes vóór de uitvoering). 📖\n\nBoeking elk boekjaar (jaar 1 t.e.m. 8):\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 6360 | Voorzieningen voor grote herstellings- en onderhoudswerken: Toevoeging | 5.000 | |\n| aan | 162 | Voorzieningen voor grote herstellings- en onderhoudswerken | | 5.000 |\n\nNa acht jaar staat er 40.000 EUR op rekening 162, klaar om te worden besteed wanneer de schilderwerken worden uitgevoerd. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — de voorziening is **verplicht**, niet facultatief: het KB tot uitvoering van het WVV (vroeger KB W.Venn. art. 54) legt expliciet de vorming op van voorzieningen voor grote herstellings- en onderhoudswerken die periodiek terugkeren. De Commissie adviseert om per actief-categorie een **systematisch spreidingsplan** vast te leggen (vergelijkbaar met een afschrijvingsplan). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md",
+                  "resources/bronnen/adviezen/CBN-0107-01-voorzieningen-voor-grote-herstellings-of-onderhoudswerken.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "KB WVV art. 3:28 (vormingsplicht voorzieningen voor risico's en kosten) en de specifieke verplichting voor grote herstellings- en onderhoudswerken — CBN-advies 2018/25 (Voorzieningen, deel III) en historisch CBN-advies 107/1. Rekening 162 (MAR).",
+                "type": "grondslag",
+                "wetsref": "KB WVV art. 3:28; CBN 2018/25; CBN 107/1"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De gevormde voorziening (40.000 EUR) wordt **volledig besteed** ten belope van haar bedrag; het **meerbedrag** boven 40.000 EUR wordt in het jaar van uitvoering rechtstreeks als **kost van het boekjaar** geboekt (onvoldoende voorziening → bijkomende last). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Op het ogenblik dat de schilderwerken effectief worden uitgevoerd, krijgt de kost het karakter van een **zekere en vaststaande schuld**: de voorziening wordt aangewend (besteed).\n\nBoeking in jaar 8 — aanwending voor het geraamde bedrag:\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 162 | Voorzieningen voor grote herstellings- en onderhoudswerken | 40.000 | |\n| aan | 6361 | Voorzieningen voor grote herstellings- en onderhoudswerken: Besteding en terugneming (-) | | 40.000 |\n\nDe werkelijke factuur van de schilder (bv. 45.000 EUR) wordt geboekt op een onderhoudskostenrekening (61) tegen leveranciers (440). Het **verschil** (5.000 EUR meer dan geraamd) blijft per saldo als **bijkomende exploitatiekost** in het resultaat van het jaar van uitvoering — de voorziening neutraliseert enkel het deel dat correct was geraamd. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** — een tekort op de voorziening wordt **niet** retroactief gecorrigeerd via de vorige boekjaren: de raming was destijds de beste schatting, dus het is geen fout. Het meerbedrag is een **schattingswijziging** die in het lopende boekjaar wordt opgevangen (geen herziening van vroegere jaarrekeningen). Omgekeerd: als de werken **minder** zouden kosten dan geraamd, wordt het overschot teruggenomen via rekening 6361 (terugneming-creditzijde), waardoor het resultaat van het uitvoeringsjaar verbetert. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 2018/25 — sectie 'Besteding en terugneming': een voorziening wordt besteed wanneer de kost een zekere en vaststaande schuld wordt; een tekort aan voorziening leidt tot een bijkomende kost in het lopende boekjaar, een overschot tot een terugneming.",
+                "type": "grondslag",
+                "wetsref": "CBN 2018/25 (Besteding en terugneming)"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -610,7 +904,47 @@
       "vraag_id": "2013-2-vr5"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Drie voorbeelden van maatregelen om het netto bedrijfskapitaal te verhogen** 🤖:\n\n1. **Kapitaalverhoging (of inbreng door de aandeelhouders)** — door een inbreng in geld of de incorporatie van een rekening-courant van de aandeelhouder stijgt het eigen vermogen (permanent vermogen) zonder dat de vaste activa toenemen. Het NBK stijgt met het volledige bedrag van de inbreng. 🤖\n2. **Aantrekken van een lening op lange termijn (> 1 jaar)** — vervangen van schulden op korte termijn door een banklening of obligatielening op meer dan één jaar. De vlottende activa blijven gelijk, de schulden op ten hoogste één jaar dalen → NBK stijgt. Variant: een nieuwe LT-lening om vlottende activa (bv. voorraden, klantenkrediet) te financieren. 🤖\n3. **Verkoop van overtollige vaste activa** (desinvestering) — niet-essentiële vaste activa (oud machinepark, niet-bedrijfsmatig vastgoed, niet-strategische deelnemingen) te gelde maken. Vaste activa dalen, liquide middelen (vlottend) stijgen → NBK stijgt. 🤖\n\n*Andere geldige antwoorden* (extra mogelijkheden, niet limitatief): winst reserveren in plaats van uitkeren (zelffinanciering via niet-uitkering van dividend), herfinanciering van korte termijn-leverancierskrediet naar lange termijn, een sale-and-leaseback van een gebouw (vast actief → liquide middelen, met LT-leasingverplichting), of een achtergestelde lening van de aandeelhouder op > 1 jaar. 🤖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Redenering",
+                "tekst": "Het **netto bedrijfskapitaal (NBK)** kan op twee equivalente manieren worden gedefinieerd:\n- *Bottom-up* (vlottend): NBK = vlottende activa − schulden op ten hoogste één jaar.\n- *Top-down* (permanent): NBK = permanent vermogen (eigen vermogen + voorzieningen + schulden > 1 jaar) − vaste activa. 🤖\n\nOm het NBK te verhogen moet men dus **ofwel het permanent vermogen verhogen** (kapitaalverhoging, LT-lening, reservering van winst, achtergestelde lening op LT), **ofwel de vaste activa verlagen** (desinvestering, sale-and-leaseback). Een louter interne verschuiving binnen de vlottende activa (bv. voorraad → klanten → kas) verandert het NBK niet. Een interne verschuiving binnen het permanent vermogen evenmin. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "**Verwar NBK niet met liquiditeit of kas**. Een kapitaalverhoging in cash verhoogt zowel NBK als kas; een LT-lening die meteen wordt gebruikt om een gebouw te kopen, **verhoogt het NBK niet** (de schuld > 1 jaar stijgt, maar de vaste activa stijgen met hetzelfde bedrag). Het NBK stijgt enkel als de inbreng of LT-financiering wordt gebruikt voor **vlottende** doeleinden of als reserve, niet voor nieuwe vaste activa. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "Bedrijfseconomische definitie van het netto bedrijfskapitaal (financiële analyse van de jaarrekening). Geen specifieke wettelijke bepaling — de notie volgt uit de balansstructuur opgelegd door de KB/W.Venn. en het WVV (rubrieken vlottende/vaste activa, schulden > 1 jaar / ≤ 1 jaar). 🤖",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-2-vr6"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

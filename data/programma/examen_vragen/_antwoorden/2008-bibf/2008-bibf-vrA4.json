@@ -1,0 +1,74 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrA4",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**Boeking 1 — Oprichtingskosten (10 maart 2008)** 📖\n\n| Debet | Credit | Bedrag |\n|---|---|---|\n| 200 Oprichtingskosten | | 1.200,00 |\n| | 550 Kredietinstellingen | 1.200,00 |\n\n**Boeking 2 — Aankoop personenwagen (31 maart 2008)** 📖\n\n| Debet | Credit | Bedrag |\n|---|---|---|\n| 2410 Rollend materieel - aanschaffingswaarde | | 22.100,00 |\n| 411 Terug te vorderen BTW | | 2.100,00 |\n| | 440 Leveranciers | 24.200,00 |\n\nDe **aanschaffingswaarde** van de personenwagen bedraagt **22.100 EUR**: nettoprijs 20.000 EUR + 50 % niet-aftrekbare BTW (2.100 EUR). 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Berekening aanschaffingswaarde personenwagen** 🔗\n\n- Nettoprijs: 20.000,00\n- BTW 21 % op 20.000 = 4.200,00\n- Aftrekbare BTW (max. 50 % voor personenwagens, art. 45 §2 BTW-Wb): 2.100,00 → rekening 411\n- Niet-aftrekbare BTW (50 %): 2.100,00 → geactiveerd in aanschaffingswaarde (rekening 240/241)\n- **Aanschaffingswaarde geactiveerd**: 20.000 + 2.100 = **22.100,00**\n- **Totaal te betalen aan leverancier**: 20.000 + 4.200 = **24.200,00**",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil ❗** — De niet-aftrekbare BTW op personenwagens (50 %) hoort **niet** op een kostenrekening (61x) maar wordt **geactiveerd** in de aanschaffingswaarde van het voertuig (rubriek 24 Meubilair en rollend materieel). 🔗 Dat is de reden waarom de personenwagen in de balans staat aan 22.100 EUR i.p.v. 20.000 EUR, met directe impact op de jaarlijkse afschrijvingsbasis.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**BTW-aftrekbeperking personenwagens**: art. 45 § 2 BTW-Wetboek — aftrek beperkt tot max. 50 % (en tot werkelijk beroepsgebruik wanneer dat lager is). 🔗 **Activering niet-aftrekbare BTW in aanschaffingswaarde**: KB-WVV art. 3:13 (aanschaffingswaarde = aankoopprijs + bijkomende kosten, incl. niet-recupereerbare belastingen). 🔗 **Rekeningnummers**: MAR — 200 Kosten van oprichting, 240 Meubilair en rollend materieel, 411 Terug te vorderen BTW, 440 Leveranciers, 550 Kredietinstellingen.",
+          "wetsref": "art. 45 § 2 BTW-Wb; KB-WVV art. 3:13; MAR",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "boeking",
+          "tekst": "**Afschrijvingsboeking per 31 december 2008** 📖\n\n| Debet | Credit | Bedrag |\n|---|---|---|\n| 6300 Afschrijvingen op oprichtingskosten | | 200,00 |\n| | 2009 Geboekte afschrijvingen op oprichtingskosten | 200,00 |\n| 6302 Afschrijvingen op materiële vaste activa | | 3.683,33 |\n| | 2409 Geboekte afschrijvingen op rollend materieel | 3.683,33 |",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Berekening pro rata temporis — boekjaar 1 maart → 31 december 2008 = 10 maanden** 🔗\n\n**Oprichtingskosten** (max. 5 jaar, art. 3:37 KB-WVV — jaarlijkse tranche ≥ 20 %): 📖\n- 1.200,00 / 5 jaar = 240,00 / jaar\n- Pro rata: 240,00 × 10/12 = **200,00**\n\n**Personenwagen** (economische levensduur 5 jaar):\n- 22.100,00 / 5 jaar = 4.420,00 / jaar\n- Pro rata: 4.420,00 × 10/12 = **3.683,33**\n\n**Toelichting pro rata**: Hoewel een **kleine vennootschap** in principe een **volledige annuïteit** mag boeken in het jaar van aanschaffing (afwijking op het pro-rata-beginsel), telt het **eerste boekjaar hier slechts 10 maanden** (van 1 maart tot 31 december). Daarom wordt de jaarannuïteit alsnog met **10/12** vermenigvuldigd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — De pro-rata-correctie hier komt **niet** voort uit een aanschaffingsdatum-midden-in-het-jaar (de kleine-vennootschap-uitzondering laat dat normaal toe), maar uit de **verkorte duur van het eerste boekjaar**. 🔗 Voor de personenwagen is er dus geen extra correctie omdat hij op 31 maart i.p.v. 1 maart is gekocht: de 10/12 dekt het volledige verkorte boekjaar. Voor een normaal boekjaar van 12 maanden zou een kleine vennootschap de **volledige** 240 EUR en 4.420 EUR mogen boeken.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Afschrijving oprichtingskosten**: art. 3:37 KB-WVV — passende afschrijvingen, **jaarlijkse tranches ≥ 20 %** van de werkelijk uitgegeven bedragen (i.e. maximaal vijf jaar). 📖 Bevestigd door CBN-advies 2010/15 §Oprichtingskosten. 📖 **Pro rata bij verkort boekjaar**: art. 3:6 KB-WVV (afschrijvingsplan aangepast aan duurzaamheid en gebruik). **Kleine-vennootschap-afwijking** (volledige annuïteit i.p.v. pro rata): art. 3:39 § 2 KB-WVV — geldt alleen voor het normale geval (12 maanden); een verkort boekjaar vereist alsnog evenredige aanpassing. 🔗",
+          "wetsref": "KB-WVV art. 3:37, art. 3:6, art. 3:39 § 2; CBN-advies 2010/15",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

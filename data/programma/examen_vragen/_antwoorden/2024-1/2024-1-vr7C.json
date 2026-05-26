@@ -1,0 +1,164 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr7C",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Stelling b is een fragment ('Kosten voor voorbereiding van een terrein……?'). Antwoord is gebaseerd op de meest waarschijnlijke afwerking ('...mogen geactiveerd worden als onderdeel van de kostprijs van een materieel vast actief') — IAS 16.17(b) lijst 'kosten van locatievoorbereiding' expliciet als rechtstreeks toerekenbare kosten. Confidence verlaagd naar 'betwijfeld' wegens onvolledige stelling.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — IAS 16 schrijft géén specifieke afschrijvingsmethode voor, maar de gekozen methode moet het *patroon* van verbruik van toekomstige economische voordelen weergeven. Een degressieve methode is dus **enkel toegelaten** indien dat verbruikspatroon werkelijk degressief is — niet als algemeen toegelaten methode zoals onder Belgisch boekhoudrecht of fiscaal recht. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "IAS 16.60-62 bepaalt dat de afschrijvingsmethode moet aansluiten bij het verwachte verbruikspatroon van het actief. Lineair, degressief (*diminishing balance*) en units-of-production worden in IAS 16.62 expliciet **als voorbeelden** genoemd — geen enkele methode is op zich verboden of voorgeschreven. 📖 Het is dus onjuist te stellen dat degressieve afschrijving zonder meer 'toegestaan' is: ze is alleen aanvaardbaar indien ze het werkelijke verbruikspatroon weerspiegelt. 🔗 De stelling is bovendien zo geformuleerd dat ze een algemene vrijheid suggereert, wat strijdig is met de patroon-eis van IAS 16.60. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Onder **Belgisch boekhoudrecht** (CBN-advies 2010/15) is degressieve afschrijving wél als zelfstandige methode aanvaardbaar (mits ze de spreiding van aanschaffingswaarde over de levensduur respecteert of een fiscaal aanvaard versneld systeem volgt). 📖 Niet verwarren met IAS 16: daar geldt de strengere patroon-eis. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "IAS 16.60-62 (Verordening (EU) 2023/1803): afschrijvingsmethode moet het verbruikspatroon van toekomstige economische voordelen weergeven; lineair, degressief en units-of-production zijn voorbeelden. 📖",
+          "wetsref": "IAS 16.60-62",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Vermoedelijk JUIST** — uitgaande van de meest waarschijnlijke afwerking ('Kosten voor voorbereiding van een terrein mogen geactiveerd worden als onderdeel van de kostprijs van een materieel vast actief'): IAS 16.17(b) noemt **kosten van locatievoorbereiding** uitdrukkelijk als rechtstreeks toerekenbare kostprijs-component. ❓ De stelling is in de bron-PDF echter een fragment ('……?'), dus dit oordeel staat onder voorbehoud.",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "IAS 16.16(b) bepaalt dat de kostprijs van een materieel vast actief alle **rechtstreeks toerekenbare kosten** omvat 'om het actief op de locatie en in de staat te krijgen die noodzakelijk is om te functioneren op de door het management beoogde wijze'. 📖 IAS 16.17 geeft als expliciet voorbeeld onder (b): **'kosten van locatievoorbereiding'** (*site preparation*). 📖 Voorbereidingskosten van een terrein waarop een installatie of gebouw zal komen zijn dus activeerbaar als onderdeel van de kostprijs van dat actief. 🔗 *Caveat*: kosten die geen verband houden met het op-locatie-krijgen van een specifiek actief (bv. algemene grondverwerving zonder verband met een specifieke vaste-activa-investering) vallen daarbuiten — daar zou de stelling 'fout' worden. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "IAS 16.16(b) en 16.17(b) (Verordening (EU) 2023/1803): rechtstreeks toerekenbare kosten omvatten uitdrukkelijk 'kosten van locatievoorbereiding'. 📖",
+          "wetsref": "IAS 16.16-17",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — IAS 1 verbiedt uitdrukkelijk de presentatie van baten of lasten als **'buitengewone posten' (*extraordinary items*)** in de winst-en-verliesrekening of in de toelichting. Er bestaan geen 'uitzonderlijke opbrengsten' als afzonderlijke rubriek onder IAS/IFRS. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-1-presentation-of-financial-statements.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "IAS 1.87 stelt expliciet dat een entiteit géén baten of lasten mag presenteren als 'buitengewone posten' (*extraordinary items*) — noch in het overzicht van het totaalresultaat noch in het overzicht van het resultaat of in de toelichting. 🔗 Materiële posten van baten of lasten moeten wel **afzonderlijk worden vermeld** (IAS 1.97) — bv. afwaarderingen van voorraden, herstructureringen, vervreemdingen — maar binnen de gewone exploitatie- of financiële resultaten, niet als 'uitzonderlijk'. 🔗 Onder Belgisch boekhoudrecht bestaat de rubriek 'uitzonderlijke resultaten' niet meer sinds KB van 18 december 2015 (omzetting Richtlijn 2013/34/EU); ook daar is de stelling intussen historisch. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-1-presentation-of-financial-statements.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De afschaffing van 'extraordinary items' onder IFRS dateert al van de IAS 1-revisie van 2003. De achterliggende rationale: het onderscheid tussen 'gewone' en 'buitengewone' baten/lasten was te subjectief en werd gebruikt om resultaten te 'kuisen'. Vandaag moeten alle baten/lasten geïntegreerd worden in de winst-en-verliesrekening, met afzonderlijke vermelding van materiële posten. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "IAS 1.87 (Verordening (EU) 2023/1803): verbod om baten of lasten als 'buitengewone posten' te presenteren. IAS 1.97: afzonderlijke vermelding van materiële posten van baten/lasten. 🔗",
+          "wetsref": "IAS 1.87 + 1.97",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-1-presentation-of-financial-statements.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT** — Een hogere reële waarde dan de boekwaarde is **geen reden om de afschrijving stop te zetten**. Onder IAS 16 wordt zelfs in het herwaarderingsmodel (waar het actief tegen reële waarde wordt geboekt) gewoon verder afgeschreven over de resterende gebruiksduur. Afschrijving stopt slechts in twee gevallen: bij classificatie als *aangehouden voor verkoop* (IFRS 5) of wanneer het actief niet langer wordt opgenomen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "IAS 16.55 bepaalt dat afschrijving van een actief **niet wordt stopgezet** zolang het actief niet volledig is afgeschreven, ook niet wanneer het actief inactief is of buiten gebruik gesteld. 🔗 Afschrijving eindigt enkel op de vroegste van twee data: (i) wanneer het actief overeenkomstig IFRS 5 als *aangehouden voor verkoop* wordt geclassificeerd, of (ii) wanneer het actief niet langer wordt opgenomen. 📖 De reële waarde of de relatie reële waarde ↔ boekwaarde speelt géén rol in de afschrijvingslogica: afschrijving weerspiegelt het systematische *verbruik* van toekomstige economische voordelen, niet de marktwaarde-evolutie. 🔗 Wanneer de reële waarde structureel hoger ligt dan de boekwaarde, kan een entiteit eventueel het **herwaarderingsmodel** toepassen (IAS 16.31) — maar ook dan blijft het actief afschrijfbaar over zijn resterende gebruiksduur op basis van het geherwaardeerde bedrag. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar dit niet met **impairment** (IAS 36): daar gaat het over een boekwaarde die hoger is dan de realiseerbare waarde — dan moet je afwaarderen, niet stoppen met afschrijven. Het omgekeerde scenario (reële waarde > boekwaarde) leidt onder IAS 36 nooit tot een opwaardering boven historische kostprijs, behalve via het optionele herwaarderingsmodel van IAS 16.31. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md",
+            "resources/bronnen/wetteksten/IAS-36-bijzondere-waardevermindering-van-activa.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "IAS 16.55 (afschrijving wordt niet stopgezet bij inactiviteit); IAS 16.31 (herwaarderingsmodel — actief blijft afschrijfbaar); IFRS 5 (enige uitzondering: classificatie als aangehouden voor verkoop). 🔗",
+          "wetsref": "IAS 16.55 + IAS 16.31 + IFRS 5",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IAS-16-materiele-vaste-activa.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

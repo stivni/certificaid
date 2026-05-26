@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrB4",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Kosten voor inrichting van gehuurde gebouwen worden geboekt onder **rubriek III.E. Overige materiële vaste activa** — concreet op **rekening 26 'Overige materiële vaste activa'** — en vervolgens afgeschreven volgens een passend afschrijvingsplan (rekening 6302 afschrijvingen MVA / 2609 geboekte afschrijvingen). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2016-06-verbeteringswerken-aan-gehuurde-gebouwen.md",
+            "resources/bronnen/adviezen/CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De huurder is geen eigenaar van het gebouw, dus de inrichtingskosten kunnen niet op rekening 221 'Gebouwen' worden geboekt. Omdat ze toch een duurzaam economisch nut voor de huurder opleveren tijdens de looptijd van de huurovereenkomst, worden ze geactiveerd als materieel vast actief van een aparte aard — vandaar de restcategorie 26 'Overige materiële vaste activa'. 🔗 Het afschrijvingsplan wordt afgestemd op de concrete situatie: doorgaans de **kortste van** (a) de economische levensduur van de inrichting en (b) de **resterende huurtermijn** (rekening houdend met eventuele vergoedingsregeling bij einde huur). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2016-06-verbeteringswerken-aan-gehuurde-gebouwen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — Rubriek III.E. is een verzamelrubriek: ze bevat o.m. onroerende reserve, woongebouwen, buiten gebruik gestelde MVA, in huur/erfpacht/opstal gegeven goederen, én precies deze inrichtingskosten voor gehuurde gebouwen voor zover die niet ten laste van de resultatenrekening van het lopende boekjaar werden genomen. 📖 De onderneming heeft m.a.w. de keuze: ofwel volledig kosten in het lopende boekjaar (rekening 61), ofwel activeren op rekening 26 en gespreid afschrijven. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 3:89 KB WVV** (voorheen art. 95 KB W.Venn.) — schema en inhoud van de jaarrekening — plaatst de 'kosten voor inrichting van gehuurde gebouwen' uitdrukkelijk onder III.E. Overige materiële vaste activa. 📖 **CBN-advies 2016/6** (Verbeteringswerken aan gehuurde gebouwen) bevestigt: 'de huurder boekt de met deze werken verbonden kosten krachtens artikel 95 KB W.Venn. op de rekening 26 Andere materiële vaste activa' en schrijft ze af volgens een afschrijvingsplan dat afhankelijk is van de vergoedingsregeling en de huurduur. 📖 **CBN-advies 2021/09** geeft de actuele opsomming van wat onder rubriek III.E. valt onder het KB WVV. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2016-06-verbeteringswerken-aan-gehuurde-gebouwen.md",
+            "resources/bronnen/adviezen/CBN-2021-09-rekening-26-overige-materiele-vaste-activa.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr5",
+  "antwoord_datum": "2026-05-26T12:27:21Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Intrinsieke waarde** van een aandeel = het **boekhoudkundig eigen vermogen** van de vennootschap (activa minus alle schulden, zoals het uit de jaarrekening blijkt), **gedeeld door het aantal uitstaande aandelen**. Het is de boekwaarde per aandeel — wat één aandeel theoretisch vertegenwoordigt aan netto-vermogen op een gegeven balansdatum. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Intrinsieke waarde is een **balansgebaseerde** waarde (historische kostprijs, eventueel met herwaarderingsmeerwaarden), niet de **marktwaarde** (beurskoers) en niet de **economische waarde** (DCF of rendementswaarde). Bij waardering van niet-genoteerde aandelen wordt ze vaak als één van meerdere methodes gehanteerd, naast rendementswaarde en gemiddelde waarde. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Fractiewaarde** van een aandeel = het **kapitaal** van de vennootschap **gedeeld door het aantal aandelen** dat het kapitaal vertegenwoordigt. 📖 Voor vennootschappen **zonder kapitaal** (BV, CV) wordt fractiewaarde gelijkgesteld met: de **inbrengwaarde** (uit de jaarrekening) van alle door vennoten/aandeelhouders toegezegde inbrengen in geld of in natura (excl. inbreng in nijverheid), in voorkomend geval verhoogd met de statutair onbeschikbare reserves, gedeeld door het aantal aandelen (art. 12:4 en 12:5 WVV). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md",
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Fractiewaarde is **boekhoudkundig**, niet markt- of intrinsiek. Ze speelt vooral een rol in fusie-/splitsings-/inbrengverrichtingen: de **opleg in geld** mag niet meer bedragen dan **1/10 van de nominale waarde, of bij gebrek daaraan van de fractiewaarde** van de toegekende aandelen (art. 12:7 WVV; ook art. 95 WIB92 voor fiscale neutraliteit van aandelenruil). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Netto rendabiliteit van de bedrijfsactiva** = (**bedrijfsresultaat na belastingen / totaal van de activa**) — meet de **economische rentabiliteit** van het in de onderneming geïnvesteerde vermogen, **zonder beïnvloeding door de financieringswijze** (rente-effect wordt geneutraliseerd) en na fiscale druk. De CBN-formulering: nettoresultaat van het boekjaar vóór belasting + kosten van schulden, gedeeld door totaal van de activa — geeft de variant **vóór belasting**; de **netto-na-belastingen-variant** trekt de belastingen er nog af. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met **ROE** (rendabiliteit eigen vermogen — winst na belasting / eigen vermogen) noch met **brutorendabiliteit van de activa** (waar niet-kaskosten zoals afschrijvingen en waardeverminderingen worden teruggevoegd). De bedrijfsactiva-variant **neutraliseert kosten van schulden** in de teller — dat is precies wat een ROE-formule niet doet. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 2011/14, sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden'. 📖",
+          "wetsref": "CBN-advies 2011/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Algemene schuldgraad** = **totaal van het vreemd vermogen / totaal van het passief (= totaal activa)**, meestal uitgedrukt als percentage. Ze meet welk **deel van het ondernemingsvermogen door schulden** (op korte én op meer dan één jaar, incl. voorzieningen) wordt gefinancierd. Het is het **complement van de solvabiliteitsratio** (= eigen vermogen / totaal passief): schuldgraad + solvabiliteit ≈ 100 %. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Naast de **algemene** schuldgraad bestaan ook deelmaten: **schuldgraad op lange termijn** (schulden > 1 jaar / totaal passief) en **schuldgraad op korte termijn**. De algemene variant is een **financiële-structuur-ratio** en zegt op zich nog niets over aflossingscapaciteit — daarvoor zijn cash-flow-ratio's (zoals dekking van financiële schulden door cash flow) nodig. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Operationele cash flow vóór belastingen** = **bedrijfsresultaat (resultaat uit de gewone bedrijfsuitoefening vóór belasting en vóór financiële resultaten) + niet-kaskosten** (afschrijvingen, waardeverminderingen op vaste en vlottende activa, voorzieningen voor risico's en kosten). Het is de **kasstroom die de operationele activiteit zelf genereert**, vóór de impact van financieringskosten en fiscale druk — een proxy voor de cash-generatiecapaciteit van het bedrijf onafhankelijk van zijn financierings- en belastingstructuur. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met de **boekhoudkundige cash flow** (nettoresultaat na belasting + niet-kaskosten — een totaal-cashflow), noch met de **operationele cash flow uit het kasstroomoverzicht IAS 7** (indirecte methode, vertrekt van resultaat vóór belasting en corrigeert ook voor mutaties in werkkapitaal). De Belgische 'operationele cash flow vóór belastingen' uit de ratio-analyse corrigeert klassiek **niet** voor werkkapitaal-mutaties — het blijft een **resultaatsgebaseerde proxy**. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Definitie via CBN-advies 2011/14 (cashflow = nettoresultaat + niet-kaskosten); IAS 7 §10-13 voor de IFRS-variant met werkkapitaal-correcties (ter contrast). 📖",
+          "wetsref": "CBN-advies 2011/14; IAS 7",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie a — bij de aanschaffingswaarde van de laptops opnemen** (materiële vaste activa). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Windows-besturingssysteem dat samen met de laptops wordt aangekocht is **systeemsoftware** (geen toepassingssoftware). CBN-advies 138/5 stelt expliciet: \"De systeemsoftware en de firmware (d.i. de software die in de hardware - op chips - is gefixeerd) worden samen met de hardware als één geheel beschouwd en derhalve als materieel vast actief geboekt.\" 📖\n\nDaarnaast geldt: \"Zo de software een bijkomstig karakter zou vertonen in verhouding tot de hardware ... wordt de boekhoudkundige verwerking gevolgd van de hardware\". 📖 De Windows-licentie bij de laptops valt onder beide criteria → opname in rubriek **23 (Installaties, machines en uitrusting) / 24 (Meubilair en rollend materieel)** als onderdeel van de aanschaffingswaarde van de laptops.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 138/5 — Software, sectie *Inleiding* (systeemsoftware + bijkomstig karakter t.o.v. hardware). 📖",
+          "wetsref": "CBN-advies 138/5",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie b — immateriële vaste activa** (rubriek 211 — concessies, octrooien, licenties, know-how, merken en soortgelijke rechten). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Boekhoudsoftware is **toepassingssoftware** aangekocht voor eigen gebruik in de onderneming (geen systeemsoftware, geen doorverkoop). CBN-advies 138/5 (A.1.a — standaardsoftware): \"de softwareleverancier [zal] verkiezen om het auteursrecht te behouden en zal de afnemer een auteursrechtlicentie verkrijgen ... Het is dan de vergoeding die betaald wordt voor de verkrijging van dit recht die de aanschaffingswaarde uitmaakt en die geactiveerd zal worden bij de immateriële vaste activa, rubriek concessies, octrooien, licenties, know-how, merken en andere gelijkaardige rechten.\" 📖\n\nOptie a (materiële vaste activa) → **FOUT**: software heeft geen fysieke vorm en valt niet onder MVA. 🔗\nOptie b → **JUIST**: licentie op standaardsoftware voor eigen gebruik = IVA rubriek 211. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — voor activering is vereist dat de software \"gedurende een aantal boekjaren in de onderneming wordt toegepast en bijdraagt tot het verwezenlijken van het ondernemingsdoel of tot een verbeterde concurrentiepositie\". 📖 Een eenmalig kleine softwarelicentie zonder duurzaam karakter zou eerder als kost geboekt worden — voor een boekhoudpakket is duurzaam gebruik evident.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 138/5 — Software, A.1.a *Standaardsoftware*; MAR-rubriek 211 (concessies, octrooien, licenties, ...). 📖",
+          "wetsref": "CBN-advies 138/5 (A.1.a); art. 3:89 §1 II.B KB WVV (rubricering IVA)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie a — handelsgoederen** (rubriek 34). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "CBN-advies 138/5 (A.2 — Toepassingssoftware bestemd voor commercialisatie) is hier letterlijk van toepassing: \"Verkrijgt de onderneming enkel een verkooprecht van de software en wordt de aangekochte software dus **zonder enige aanpassing doorverkocht**, dan heeft de software het karakter van een voorraad en wordt hij geboekt onder de rubriek *Handelsgoederen*.\" 📖\n\nOptie a (handelsgoederen) → **JUIST**: software wordt zonder wijziging doorverkocht = voorraad rubriek 34. 📖\nOptie b (bestelling in uitvoering) → **FOUT**: bestellingen in uitvoering zijn werken/diensten die op balansdatum nog niet zijn opgeleverd voor een bepaalde klant — niet van toepassing op een doorverkocht handelsproduct. 🔗\nOptie c (immateriële vaste activa) → **FOUT**: software wordt niet duurzaam in de onderneming gebruikt; ze wordt doorverkocht. Activeren als IVA vereist eigen, duurzaam gebruik. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — als de onderneming wél het **aanpassingsrecht** krijgt en de software bewerkt vóór doorverkoop, dan kantelt de kwalificatie: activering onder *immateriële vaste activa*. 📖 En reproducties van zelf-gecommercialiseerde software die nog niet verkocht zijn, gaan onder *gereed product* (rubriek 35), niet onder handelsgoederen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 138/5 — Software, A.2 *Toepassingssoftware bestemd voor commercialisatie* (doorverkoop zonder aanpassing → handelsgoederen). 📖",
+          "wetsref": "CBN-advies 138/5 (A.2)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0138-05-software.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

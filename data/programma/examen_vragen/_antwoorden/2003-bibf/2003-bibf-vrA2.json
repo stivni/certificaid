@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrA2",
+  "antwoord_datum": "2026-05-26T12:27:19Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Afsluitingsboekingen** (CBN-methode: voorraad eerst op aanschaffingswaarde, dan waardevermindering apart):\n\n| # | Debet | Bedrag (EUR) | Credit | Bedrag (EUR) | Toelichting |\n|---|---|---:|---|---:|---|\n| 1 | **71** Wijzigingen voorraad goederen in bewerking | 100,00 | **32** Goederen in bewerking | 100,00 | Voorraadafname GIB: 500 → 400 🔗 |\n| 2 | **34** Handelsgoederen | 1.500,00 | **6094** Voorraadwijzigingen handelsgoederen | 1.500,00 | Voorraadtoename handelsgoederen: 7.000 → 8.500 (aanschaffingswaarde) 🔗 |\n| 3 | **6310** Waardeverminderingen op voorraden (toevoegingen) | 325,00 | **349** Op handelsgoederen geboekte waardeverminderingen | 325,00 | WV = 250 (marktwaarde 8.250 < kostprijs 8.500) + 75 (afprijzing) 🔗 |\n\n**Netto boekwaarde handelsgoederen na afsluiting**: 8.500 − 325 = **8.175,00 EUR** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — Voorraadwijziging GIB (rekening 32)**: saldo D 500 → inventaris 400 → afname **100**. CBN 132/7 boekt uitgaande voorraad GIB: 71 D / 32 C. 🔗\n\n**Stap 2 — Voorraadwijziging handelsgoederen (rekening 34)**: saldo D 7.000 → inventaris **aan aanschaffingswaarde 8.500** → toename **1.500**. CBN-schema voor inkomende handelsgoederen: 34 D / 6094 C. 🔗\n\n**Stap 3 — Waardevermindering op handelsgoederen (rekening 349)**: artikel 3:43 KB WVV (vroeger art. 69 §1 KB W.Venn.) vereist waardering van handelsgoederen tegen aanschaffingswaarde óf tegen lagere marktwaarde op balansdatum. Berekening:\n- Verschil kostprijs/marktwaarde: 8.500 − 8.250 = **250** 📖\n- Bijkomende afprijzing: **75** 📖\n- **Totaal WV: 325** 🔗\nBoeking volgens CBN 132/7: 6310 D / 349 (subrekening \"3·9 Op voorraden geboekte waardeverminderingen\") C. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — voor goederen in bewerking geldt een afwijkende regel.** Artikel 3:44 KB WVV (vroeger art. 70 KB W.Venn.) eist dat op **goederen in bewerking** een waardevermindering wordt geboekt zodra de **vervaardigingsprijs vermeerderd met de nog te maken kosten** hoger is dan de netto-verkoopprijs op balansdatum. In deze casus is voor de GIB geen marktwaarde gegeven en is geen ontwaarding-indicator vermeld → enkel de voorraadwijziging boeken, geen WV op rekening 329. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijke grondslag**:\n- **Art. 3:43 KB WVV** (oud art. 69 §1 KB W.Venn., van toepassing in 2003): handelsgoederen worden gewaardeerd tegen aanschaffingswaarde óf tegen marktwaarde op balansdatum als die lager is. 🔗\n- **Art. 3:44 KB WVV** (oud art. 70 KB W.Venn.): aanvullende waardeverminderingen om rekening te houden met evolutie van realisatie- of marktwaarde of met risico's eigen aan de aard van de producten. 🔗\n- **MAR (KB 21.10.2018, Bijlage 1)**: rekeningen 32, 34, 71, 6094, 6310, 349 met de hier toegepaste functie. 📖\n- **CBN-advies 132/7** \"Boeking en waardering van voorraden\": schema's voor uitgaande/inkomende voorraden + boekingsschema waardevermindering (6310 / 3·9). 📖",
+          "wetsref": "art. 3:43-3:44 KB WVV (oud art. 69-70 KB W.Venn.); CBN 132/7; MAR",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

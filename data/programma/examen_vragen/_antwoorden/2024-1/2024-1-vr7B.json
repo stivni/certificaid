@@ -1,0 +1,137 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr7B",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — letterlijke weergave van het realisatiebeginsel uit art. 6, lid 1, c), i) van Richtlijn 2013/34/EU. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het voorzichtigheidsbeginsel verbiedt het opnemen van latente (niet-gerealiseerde) winsten: enkel winsten die op balansdatum effectief gerealiseerd zijn mogen in resultaat worden geboekt. 📖 De stelling parafraseert deze regel exact.",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Richtlijn 2013/34/EU art. 6, lid 1, c), i): *\"winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn\"*. Belgische omzetting: KB-WVV art. 3:10 (waarderingen volgens voorzichtigheid, oprechtheid en goede trouw).",
+          "wetsref": "Richtlijn 2013/34/EU art. 6, lid 1, c), i)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — letterlijke weergave van art. 6, lid 1, c), ii) van Richtlijn 2013/34/EU. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Asymmetrisch met het realisatiebeginsel: terwijl winsten moeten gerealiseerd zijn op balansdatum, worden verplichtingen die hun oorsprong vinden in het (vorig) boekjaar wél opgenomen, óók als ze pas tussen balansdatum en opstellingsdatum bekend worden. 📖 Dit is een **adjusting event** in de zin van IAS 10 / CBN-advies 2019/04: het bestuursorgaan plaatst zich op balansdatum en houdt rekening met *alle* risico's en waarschijnlijke verliezen die op die datum bestonden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md",
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard**: niet elke gebeurtenis na balansdatum geeft aanleiding tot opname — enkel die welke een verplichting bevestigen die op balansdatum reeds bestond (oorsprong in het boekjaar). Loutere *non-adjusting events* (nieuwe feiten na balansdatum, bv. brand in januari) leiden niet tot een aanpassing van de balanscijfers, maar enkel tot een toelichting indien materieel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Richtlijn 2013/34/EU art. 6, lid 1, c), ii): *\"alle verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar, worden opgenomen, ook als die verplichtingen pas bekend worden tussen de balansdatum en de datum waarop de balans wordt opgesteld\"*.",
+          "wetsref": "Richtlijn 2013/34/EU art. 6, lid 1, c), ii)",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — letterlijke weergave van art. 6, lid 1, c), iii) van Richtlijn 2013/34/EU. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Negatieve waardecorrecties (afschrijvingen en waardeverminderingen) moeten *onvoorwaardelijk* worden geboekt, ongeacht het resultaat van het boekjaar. 📖 Een onderneming mag dus niet 'cherry-picken' door afschrijvingen weg te laten in een verliesjaar om het resultaat op te smukken, noch in een winstjaar bijkomende waardeverminderingen te boeken om winst af te romen. De symmetrie met het realisatiebeginsel is volledig: verliezen *altijd*, winsten *enkel indien gerealiseerd*.",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Richtlijn 2013/34/EU art. 6, lid 1, c), iii): *\"alle negatieve waardecorrecties worden opgenomen, ongeacht of het boekjaar met winst of verlies wordt afgesloten\"*.",
+          "wetsref": "Richtlijn 2013/34/EU art. 6, lid 1, c), iii)",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST** — art. 7 van Richtlijn 2013/34/EU laat lidstaten toe waardering aan geherwaardeerde waarde te **toestaan of voor te schrijven** voor (alle of bepaalde categorieën) ondernemingen. 📖 Het woord 'voorschrijven' impliceert verplichting voor de aangewezen categorieën.",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 7, lid 1: *\"in afwijking van artikel 6, lid 1, punt i), kunnen de lidstaten toestaan of voorschrijven dat alle ondernemingen, of bepaalde categorieën ondernemingen, vaste activa tegen geherwaardeerde bedragen waarderen\"*. 📖 De richtlijn zelf creëert dus de mogelijkheid voor de lidstaat om dit verplicht op te leggen aan bepaalde categorieën. De stelling weerspiegelt die rechtsgrondslag.",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Nuance**: in het Belgische recht is herwaardering géén verplichting maar een *mogelijkheid* (KB-WVV art. 3:34 — facultatief, mits duurzame meerwaarde en zekere/vaststaande rendabiliteit). De stelling toetst de tekst van de **richtlijn**, niet de Belgische omzetting: de richtlijn opent expliciet de optie tot verplichting. 🔗 Het verschil 'toestaan' vs 'voorschrijven' is wat de stelling overeind houdt.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Richtlijn 2013/34/EU art. 7, lid 1 (alternatieve waarderingsgrondslag voor vaste activa tegen geherwaardeerde bedragen — lidstaten kunnen 'toestaan of voorschrijven' voor alle of bepaalde categorieën ondernemingen). Belgische uitvoering: KB-WVV art. 3:34 (facultatieve herwaardering).",
+          "wetsref": "Richtlijn 2013/34/EU art. 7, lid 1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/Richtlijn-2013-34-EU.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

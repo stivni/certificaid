@@ -1,0 +1,88 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr3",
+  "antwoord_datum": "2026-05-26T12:27:29Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Rubriek **II.3 Goodwill** (Immateriële vaste activa — goodwill) op het actief van de balans. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De € 30.000 is de **meerprijs** die Final BVBA betaalt boven de marktwaarde van de individueel identificeerbare activa (machines + voorraad = € 70.000). Dat verschil weerspiegelt **verworven goodwill**: betaling voor klantenbestand, knowhow, marktpositie of synergie die niet als afzonderlijk actief op de balans verschijnt. 📖 Onder de immateriële vaste activa onderscheidt het rekeningenstelsel (art. 95 KB W.Venn.) vier subrubrieken: kosten van onderzoek en ontwikkeling, concessies/octrooien/licenties/merken, **goodwill**, en vooruitbetalingen. Een meerprijs bij overname valt expliciet onder de derde subrubriek. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil**: de overige € 70.000 wordt **niet** als goodwill geboekt, maar opgesplitst per verworven actief op marktwaarde (Machine A 15.000 en Machine B 25.000 onder **rubriek III Materiële vaste activa**; Voorraad 30.000 onder **rubriek VI Voorraden**). Goodwill is per definitie het **residu** na toerekening aan identificeerbare activa. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 95 KB W.Venn. van 30 januari 2001 (jaarrekeningschema — uitsplitsing immateriële vaste activa, rubriek II.3 Goodwill). CBN-advies 2012/13 §I.B over verworven goodwill bij overname van een onderneming of bedrijfsafdeling.",
+          "wetsref": "art. 95 KB W.Venn. 30/01/2001",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Optie | Toegelaten? | Verklaring |\n|---|:---:|---|\n| **a) 3 jaar** | **JA** | Korter dan 5 jaar — volledig binnen het standaardregime, geen bijzondere verantwoording nodig. 🔗 |\n| **b) 5 jaar** | **JA** | Vijf jaar is de **referentietermijn**: tot en met 5 jaar mag zonder bijzondere verantwoording in de toelichting. 📖 |\n| **c) 10 jaar** | **JA, mits verantwoording** | Spreiding **meer dan 5 jaar** is toegestaan in **uitzonderlijke gevallen**, op voorwaarde dat dit in de **toelichting bij de jaarrekening wordt verantwoord** (langere economische gebruiksduur). 📖 |",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De wet legt **geen verplichte minimum- of maximumtermijn** op voor de afschrijving van goodwill (art. 61, § 1 KB W.Venn.). Het afschrijvingsplan moet de aanschaffingskosten spreiden over de **waarschijnlijke nuttigheids- of gebruiksduur** van het actief (art. 28, § 1 + art. 45, § 1 KB W.Venn.). 📖 De enige bijzondere regel: gaat de afschrijving over **méér dan vijf jaar**, dan moet dit \"in uitzonderlijke gevallen\" worden gemotiveerd in de toelichting (art. 61, § 1, lid 4 KB W.Venn.). 📖 Drie en vijf jaar liggen dus binnen het standaardregime; tien jaar vereist een onderbouwde economische rechtvaardiging (bv. duurzaam klantenbestand, langetermijncontracten).",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard**: deze 5-jaar-grens is een **verantwoordingsplicht**, geen **maximumgrens**. Dat onderscheidt enkelvoudige verworven goodwill (geen wettelijk plafond) van de huidige WVV-regel voor **consolidatiegoodwill** waar bij onbepaalbare gebruiksduur **maximaal 10 jaar** geldt (CBN-advies 2016/7). Ten tijde van het examen (2013) gold KB W.Venn. ongewijzigd: drie, vijf én tien jaar zijn alle drie toegelaten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 61, § 1 KB W.Venn. 30/01/2001 (lid 1: afschrijvingsplan conform art. 28, § 1; lid 4: verantwoording in toelichting bij afschrijving van kosten O&O of goodwill over meer dan vijf jaar). Bevestigd in CBN-advies 2012/13 (afschrijvingen op goodwill) en CBN-advies 2010/15 (afschrijvingsmethoden). Sinds 2019 hernummerd als art. 3:42 KB WVV.",
+          "wetsref": "art. 61, § 1 KB W.Venn. 30/01/2001 (= art. 3:42 KB WVV)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

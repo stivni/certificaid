@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr7",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "e",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie E** — het voorschot op het uiteindelijk te verdelen liquidatiesaldo wordt geboekt op het **debet van rekening 19** *Voorschot aan de vennoten op de verdeling van het netto-actief (-)*. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md",
+            "resources/bronnen/adviezen/CBN-2019-01-dividenduitkering-en-kapitaalvermindering-in-natura-0.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- **A — debet rekening 100 (Kapitaal)** ❌ — kapitaal wordt pas bij de **sluiting** van de vereffening tegen rekening 19 weggeboekt; tijdens de vereffening blijft 100 onaangeroerd, zonder onderscheid of het voorschot betrekking heeft op kapitaal, uitgiftepremies of reserves. 📖\n- **B — credit rekening 19** ❌ — rekening 19 is een **actief-corrigerende rekening (-)**: een voorschot doet de eigenvermogenscomponent dalen en wordt dus aan de **debetzijde** opgenomen. 🔗\n- **C — debet 416 Diverse vorderingen** ❌ — een uitkering aan de vennoten is **geen vordering** op hen (geen terugbetalingsverplichting); rekening 416 is voorbehouden voor andere casussen (bv. inbreng-in-natura met betalingswaarborg, CBN 2019/01). 🔗\n- **D — credit rekening 101 (Niet-opgevraagd kapitaal)** ❌ — 101 dient enkel voor nog-niet-volgestort kapitaal, niet voor uitkeringen. 🤖\n- **E — debet rekening 19** ✅ — exact wat CBN 2010/22 en CBN 2019/01 voorschrijven. 📖\n- **F — debet rekening 48 'zaakvoerder'** ❌ — vennoten zijn geen zaakvoerders; bovendien is een liquidatie-uitkering geen schuld aan een bestuurder. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md",
+            "resources/bronnen/adviezen/CBN-2019-01-dividenduitkering-en-kapitaalvermindering-in-natura-0.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil — rekening 19 is een *minrekening op het passief*.** Ze verschijnt op het passief als negatieve component van het eigen vermogen (-), zoals 'eigen aandelen' op het actief (-). Daarom: een **toename van het voorschot = debetboeking** op 19 (parallel met 5500/2x bij creditzijde). Pas bij de **sluiting** van de vereffening wordt 19 tegengeboekt tegen 100/11/13x — dan pas verdwijnt het maatschappelijk kapitaal of de inbreng uit de balans. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**CBN-advies 2010/22** *Boekingswijze van een voorschot op de verdeling van het netto-actief*: \"In hoofde van de vennootschap in vereffening wordt een voorschot op de verdeling van het netto-actief tot bij de sluiting van de vereffening geboekt op de rekening **19** *Voorschot aan de vennoten op de verdeling van het netto-actief (-)*, **zonder onderscheid** al naar gelang deze voorschotten betrekking hebben op het maatschappelijk kapitaal, de uitgiftepremies of de reserves.\" Bevestigd door **CBN-advies 2019/01** §Boekingen in hoofde van de ontbonden vennootschap. Wettelijke basis voor het voorlopige karakter: art. 190 §2 W.Venn. (anno 2015; nu art. 2:97 WVV) — definitieve uitkering kan pas na betaling van de schulden of consignatie. 📖",
+          "wetsref": "Art. 190 §2 W.Venn. (2015) — nu art. 2:97 WVV; CBN-advies 2010/22; CBN-advies 2019/01",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2010-22-boekingswijze-van-een-voorschot-op-de-verdeling-van-het-netto-actief.md",
+            "resources/bronnen/adviezen/CBN-2019-01-dividenduitkering-en-kapitaalvermindering-in-natura-0.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

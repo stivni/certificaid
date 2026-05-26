@@ -1,0 +1,59 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr7D",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Onder IFRS 16 (van kracht 1/1/2019, vervangt IAS 17) verdwijnt het onderscheid operationele/financiële leasing aan de lessee-zijde**: élke lease (boven de vrijstellingsdrempels) wordt on-balance verwerkt via een **single model** — opname van een **gebruiksrecht-actief (right-of-use, ROU)** én een **leaseverplichting** voor de contante waarde van de toekomstige leasebetalingen. 📖 Aan de **lessor-zijde** blijft het onderscheid wél bestaan: een **financiële lease** (substantiële overdracht van risico's en voordelen) leidt tot opname van een **leasevordering** en derecognitie van het onderliggende actief; een **operationele lease** blijft on-balance bij de lessor, die de leasebetalingen lineair (of op een andere systematische basis) in opbrengst boekt. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IFRS-16-leaseovereenkomsten.md",
+            "resources/bronnen/wetteksten/IAS-32-financiele-instrumenten-presentatie.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "**Boekhoudkundige verwerking — overzicht IFRS 16**\n\n| Aspect | Lessee (single model) | Lessor — financiële lease | Lessor — operationele lease |\n|---|---|---|---|\n| **Aanvangsdatum** | Opname ROU-actief + leaseverplichting (alinea 22) 📖 | Derecognitie onderliggend actief; opname **netto-investering in lease** (leasevordering) 🔗 | Onderliggend actief blijft op balans; geen vordering 📖 |\n| **Initiële waardering** | ROU = leaseverplichting + reeds betaalde canons (− incentives) + initiële directe kosten + ontmantelingskost (alinea 24). Leaseverplichting = contante waarde leasebetalingen tegen de impliciete rente of, indien niet bepaalbaar, de marginale rentevoet van de lessee. 📖 | Netto-investering = bruto-investering (canons + niet-gegarandeerde restwaarde) gedisconteerd tegen impliciete rente 🔗 | n.v.t. — actief blijft gewaardeerd volgens toepasselijke standaard (IAS 16, IAS 40, …) 🔗 |\n| **Resultatenrekening** | **Twee componenten**: (1) **afschrijving** ROU (doorgaans lineair over kortere van leaseperiode/economische levensduur) — bedrijfskost; (2) **intrest** op de leaseverplichting (effectieve-rente-methode) — financiële kost. EBITDA stijgt t.o.v. IAS 17-operationele lease. 🔗 | Financiële opbrengst op netto-investering (effectieve-rente-methode) 🔗 | **Leaseopbrengst lineair** of op andere systematische basis over de leaseperiode 📖 |\n| **Vrijstellingen lessee** | Optioneel: **korte-termijn-leases (≤ 12 maanden, geen koopoptie)** en **leases van activa met lage waarde** (richtbedrag ~5.000 USD nieuwwaarde) → lineair als kost boeken, geen ROU/verplichting 📖 | — | — |\n| **Klassieke koopoptie redelijk zeker uitgeoefend** | Leaseperiode includeert de termijn tot en met de optie; ROU afschrijven over economische levensduur 🔗 | Onderdeel van kwalificatie als financiële lease (alinea 63) 🔗 | n.v.t. |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IFRS-16-leaseovereenkomsten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Waarom dit single-lessee-model?** IFRS 16 is een reactie op het off-balance-misbruik onder IAS 17, waar economisch identieke contracten via minieme structuurverschillen buiten de balans werden gehouden. Door élke lease als een financieringsverrichting te behandelen (gebruiksrecht financieren met schuld), wordt de economische werkelijkheid hersteld en worden ratio's (schuldgraad, ROA) vergelijkbaar over ondernemingen heen. 🔗\n\n**Kwalificatie financieel/operationeel — lessor-zijde**. De lessor toetst of in wezen **alle risico's en voordelen verbonden aan het eigendom** worden overgedragen (alinea 63 IFRS 16). Indicatoren (niet-cumulatief, op zich of in combinatie): eigendomsoverdracht aan einde leaseperiode · koopoptie tegen prijs aanzienlijk onder reële waarde (redelijk zeker uitgeoefend) · leaseperiode beslaat groot deel van de economische levensduur · contante waarde minimumcanons benadert reële waarde · gespecialiseerd actief alleen door lessee bruikbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IFRS-16-leaseovereenkomsten.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — verschil met Belgische BGAAP** (art. 95 KB W.Venn., CBN-advies 2015/4): onder BGAAP blijft het klassieke onderscheid operationeel/financieel wél gelden voor de lessee. Alleen leasing die voldoet aan de criteria van art. 95 KB W.Venn. (canons dekken de **integrale wedersamenstelling van het kapitaal** van de leasinggever, naast rente en kosten) verschijnt aan de actiefzijde van de balans van de leasingnemer (rubriek III.D); alle andere transacties (huur, renting, operationele leasing) worden als huur behandeld en blijven off-balance. 📖 Dezelfde economische verrichting kan dus onder IFRS 16 on-balance en onder BGAAP off-balance staan — **kwalificatierisico** bij dual reporting.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**IFRS 16 — Leaseovereenkomsten** (Verordening (EU) 2023/1803, geconsolideerde IFRS): alinea 22 (opname ROU + verplichting door lessee), alinea 23-24 (initiële waardering), alinea's 26-38 (vervolg-waardering lessee), alinea 63 (kwalificatie lessor financieel/operationeel), alinea's 5-8 (vrijstellingen korte-termijn / lage-waarde). 📖 Toelichting in IAS 32 §Tl9 over lessor-perspectief financiële vs. operationele lease. 📖 Voor BGAAP-vergelijking: art. 95 KB W.Venn. + CBN-advies 2015/4 (boekhoudkundige verwerking leasing). 📖",
+          "wetsref": "IFRS 16 §22-38, §63; IAS 32 §Tl9; art. 95 KB W.Venn.; CBN-advies 2015/4",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IFRS-16-leaseovereenkomsten.md",
+            "resources/bronnen/wetteksten/IAS-32-financiele-instrumenten-presentatie.md",
+            "resources/bronnen/adviezen/CBN-2015-04-leasing.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

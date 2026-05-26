@@ -1,14 +1,14 @@
 {
   "bron_pdf": "2008-bibf.pdf",
   "examen_id": "2008-bibf",
-  "merge_datum": "2026-05-26T12:11:24+00:00",
+  "merge_datum": "2026-05-26T15:05:37+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
     {
       "antwoord": {
-        "antwoord_datum": "2026-05-21T00:00:00Z",
-        "antwoord_model": "claude-opus-4-7",
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
         "examen_id": "2008-bibf",
         "schema_versie": "1.1",
         "vraag_antwoorden": [
@@ -16,30 +16,36 @@
             "antwoord_status": "beantwoord",
             "blokken": [
               {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "tekst": "Berekening forfaitaire voorziening vakantiegeld bedienden boekjaar 2007 volgens CBN-advies 148/3 (later bevestigd via CBN-advies 2018/22): vertrekbasis = bruto bezoldigingen bedienden - eindejaarspremies = 112.000,00 - 10.000,00 = 102.000,00 EUR. Forfaitair percentage = 18,20% x 102.000,00 = 18.564,00 EUR. ⚠️ te verifiëren - exacte percentage CBN-advies 148/3 (klassiek 18,20%, maar later geactualiseerd) te valideren tegen brondocument; rekeningnummers (623 vs 6202/6203, 456 'Te betalen vakantiegeld') te valideren tegen MAR.",
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Te voorzien vakantiegeld 2007 = 18,8 % × 102.000 EUR = 19.176,00 EUR** 🔗\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 623 | Voorzieningen vakantiegeld (Andere personeelskosten) | 19.176,00 | |\n| aan | 456 | Vakantiegeld | | 19.176,00 |",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Berekeningsgrondslag = brutobezoldigingen bedienden 2007 − eindejaarspremies = 112.000 − 10.000 = **102.000 EUR** 📖. Eindejaarspremies worden uitgesloten omdat zij geen recht op vakantiegeld doen ontstaan. Het forfaitaire percentage **18,8 %** wordt door de Commissie aanvaard als globale schatting van het in 2008 te betalen enkelvoudig + dubbel vakantiegeld op de in 2007 gepresteerde diensten van bedienden 📖.",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — voor *arbeiders* wordt de last niet via een afsluitingsboeking voorzien: het vakantiegeld arbeiders wordt door de Rijksdienst voor Jaarlijkse Vakantie / een vakantiefonds geïnd via de driemaandelijkse RSZ-bijdrage en is dus al ten laste van het lopende boekjaar via de werkgeversbijdragen sociale zekerheid (rekening 621). Enkel voor *bedienden* (en gelijkgestelden) moet de werkgever zelf op afsluitdatum het toekomstige vakantiegeld als schuld/voorziening opnemen 🔗.",
                 "type": "motivatie"
               },
               {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "regels": [
-                  {
-                    "bedrag": 18564.0,
-                    "naam": "Andere personeelskosten - voorziening vakantiegeld bedienden",
-                    "rekening": "623",
-                    "zijde": "D"
-                  },
-                  {
-                    "bedrag": 18564.0,
-                    "naam": "Te betalen vakantiegeld",
-                    "rekening": "456",
-                    "zijde": "C"
-                  }
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
                 ],
-                "toelichting": "Afsluitingsboeking 31/12/2007 - forfaitaire raming vakantiegeld bedienden: 18,20% x (112.000,00 - 10.000,00) = 18,20% x 102.000,00 = 18.564,00 EUR.",
-                "type": "boeking"
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 148/2 (Vakantiegeld) 📖: ten laste van het boekjaar moeten worden geboekt de bezoldigingen en sociale voordelen die in een volgend boekjaar zullen worden betaald voor diensten die *tijdens* het boekjaar zijn verricht (art. 19, vierde lid jaarrekeningbesluit 8/10/1976, gewijzigd bij KB 12/9/1983 — thans matching-beginsel art. 3:11 KB/WVV). De Commissie aanvaardt het globale percentage 18,8 % op de in het boekjaar uitbetaalde brutobezoldigingen van bedienden (exclusief eindejaarspremies) als forfaitaire raming van het in het volgende jaar verschuldigde enkelvoudig + dubbel vakantiegeld.",
+                "type": "grondslag"
               }
             ],
             "id": "i1"
@@ -48,20 +54,28 @@
             "antwoord_status": "beantwoord",
             "blokken": [
               {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "stappen": [
-                  "De boeking wordt verricht als afsluitingsboeking op 31 december van het boekjaar waarin de bedienden de prestaties hebben verricht (in casu: 31/12/2007).",
-                  "Reden: het vakantiegeld is een kost die economisch toerekenbaar is aan het boekjaar waarin het is opgebouwd door de prestaties, ook al wordt het pas in het volgende vakantiejaar (2008) effectief uitbetaald. Toepassing van het matching-beginsel.",
-                  "Bij de effectieve uitbetaling in 2008 wordt de schuldrekening 456 'Te betalen vakantiegeld' tegengeboekt; afwijkingen tussen de forfaitaire raming 2007 en het werkelijk uitbetaalde bedrag in 2008 worden in 2008 via dezelfde personeelskostenrekening verwerkt (correctie van de raming)."
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
                 ],
-                "type": "procedure"
+                "confidence": "afgeleid",
+                "tekst": "Op de **balansdatum 31 december 2007** (afsluitingsboeking) 🔗 — de boeking gebeurt in het boekjaar waarop de gepresteerde diensten betrekking hebben, niet bij de effectieve uitbetaling in 2008.",
+                "type": "conclusie"
               },
               {
-                "bron_refs": [],
-                "confidence": "inferred",
-                "tekst": "Het voorzichtigheidsbeginsel en het matching-beginsel uit het Belgisch boekhoudrecht vereisen dat alle kosten die betrekking hebben op het boekjaar worden geboekt, ook als ze nog niet werden uitbetaald op afsluitdatum. Het vakantiegeld voor bedienden volgt economisch het jaar van de prestaties (2007), niet het jaar van de uitbetaling (2008). CBN-advies 148/3 (later bevestigd in CBN-advies 2018/22) geeft de forfaitaire ramingsmethode op afsluitdatum om dit consistent toe te passen.",
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Toepassing van het **matching-beginsel** (toerekeningsbeginsel) 📖: kosten en opbrengsten worden toegerekend aan het boekjaar waarop ze betrekking hebben, ongeacht het tijdstip van betaling of ontvangst. Het vakantiegeld dat in 2008 zal worden uitbetaald is de tegenprestatie voor de in 2007 gepresteerde arbeid en moet daarom op 31/12/2007 als kost (623) en schuld/voorziening (456) erkend worden. Bij de effectieve uitbetaling in 2008 wordt de credit-rekening 456 tegengeboekt; een eventueel verschil tussen raming en realisatie wordt in 2008 via dezelfde personeelskostenrekening gecorrigeerd.",
                 "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Matching-beginsel: art. 3:11 KB/WVV (voorheen art. 33 KB/W.Venn. en art. 19, vierde lid jaarrekeningbesluit 8/10/1976) — kosten van het boekjaar worden geboekt ongeacht het betalingsmoment. CBN-advies 148/2 bevestigt boeking van het vakantiegeld bedienden als afsluitingsboeking op de balansdatum.",
+                "type": "grondslag"
               }
             ],
             "id": "i2"
@@ -129,7 +143,61 @@
       "vraag_id": "2008-bibf-vrA1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Op 31/12/2007** (afsluitingsboeking): kost van 1.000 EUR (excl. BTW) toerekenen aan boekjaar 2007 via een **toe te rekenen kost** (rekening 492). De BTW (210 EUR) wordt niet in 2007 geboekt — het aftrekrecht ontstaat pas in 2008 met de factuur. **Op 01/01/2008**: tegenboeking 492. **Bij ontvangst factuur in 2008**: normale aankoopboeking met BTW-aftrek. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2018-25-voorzieningen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**31/12/2007 — Afsluitingsboeking (toerekening kost aan 2007)** 🔗\n\n| Zijde | Rekening | Omschrijving | Bedrag |\n|---|---|---|---|\n| D | 640 (of 61) | Reclame- en publiciteitskosten | 1.000,00 |\n| C | 492 | Toe te rekenen kosten | 1.000,00 |\n\n**01/01/2008 — Tegenboeking** (heropening / tegenboeking overlopende rekening) 🔗\n\n| Zijde | Rekening | Omschrijving | Bedrag |\n|---|---|---|---|\n| D | 492 | Toe te rekenen kosten | 1.000,00 |\n| C | 640 (of 61) | Reclame- en publiciteitskosten | 1.000,00 |\n\n**Januari 2008 — Boeking van de ontvangen factuur in het aankoopdagboek** 📖\n\n| Zijde | Rekening | Omschrijving | Bedrag |\n|---|---|---|---|\n| D | 640 (of 61) | Reclame- en publiciteitskosten | 1.000,00 |\n| D | 411 | Terug te vorderen BTW | 210,00 |\n| C | 440 | Leveranciers | 1.210,00 |",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Waarom in 2007?** Het matching-beginsel (art. 3:11 KB WVV / art. 33 KB W.Venn.) vereist dat kosten worden toegerekend aan het boekjaar waarop ze economisch betrekking hebben, ongeacht het tijdstip van betaling of facturatie. De levering heeft in 2007 plaatsgevonden, dus de kost hoort bij 2007. 🔗\n\n**Waarom rekening 492 (en niet 444 Te ontvangen facturen)?** Beide zijn defensief verdedigbaar in de praktijk; klassieke didactische oplossing voor een nog niet ontvangen factuur op afsluitdatum is **492 Toe te rekenen kosten** (passief overlopende rekening). Sommige handboeken gebruiken **444 Te ontvangen facturen** wanneer de leverancier en het bedrag al gekend zijn — beide leiden tot hetzelfde resultaat. 🤖\n\n**Waarom de BTW pas in 2008?** Het recht op aftrek van BTW ontstaat door de uitreiking van een geldige factuur (art. 3 KB nr. 3). Op 31/12/2007 was er nog geen factuur, dus geen aftrekbare BTW; de toerekening in 2007 gebeurt op het netto-bedrag (1.000 EUR). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard — publiciteitsartikelen ≠ relatiegeschenken.** Publiciteitsartikelen (reclame-artikelen met duidelijke en blijvende vermelding van de naam van de schenker, lage eenheidswaarde, in grote hoeveelheid uitgedeeld) zijn **volledig aftrekbaar** als reclamekost, **zonder** de 50%-aftrekbeperking van art. 53, 11° WIB 92 die wel geldt voor relatiegeschenken. De BTW is eveneens volledig aftrekbaar. Bij relatiegeschenken zou 50% van de kost als verworpen uitgave moeten worden teruggenomen in de aangifte VenB (code 1207) en zou de BTW niet aftrekbaar zijn (art. 45, §3, 4° WBTW), met uitzondering precies van publiciteitsartikelen. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md",
+                  "resources/bronnen/wetteksten/WBTW-KB3-aftrekken.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Matching-/toerekeningsbeginsel: art. 3:11 KB WVV (vroeger art. 33 KB W.Venn., van toepassing in 2007). Recht op BTW-aftrek vereist een geldige factuur: art. 3 KB nr. 3 BTW. Publiciteitsartikelen niet onderworpen aan 50%-beperking relatiegeschenken: art. 53, 8° en 11° WIB 92 (zie aangifte VenB code 1207).",
+                "type": "grondslag",
+                "wetsref": "art. 3:11 KB WVV; art. 3 KB nr. 3 BTW; art. 53, 8° en 11° WIB 92"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrA2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -183,7 +251,56 @@
       "vraag_id": "2008-bibf-vrA2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+                  "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Boekingen voorraadwijzigingen 31/12/N** 🔗\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 300 | Grondstoffen — aanschaffingswaarde | 5.000,00 | |\n| 6090 | aan Voorraadwijzigingen van grondstoffen | | 5.000,00 |\n| 6094 | Voorraadwijzigingen van handelsgoederen | 2.000,00 | |\n| 340 | aan Handelsgoederen — aanschaffingswaarde | | 2.000,00 |\n| 712 | Wijzigingen in de voorraad goederen in bewerking | 4.000,00 | |\n| 320 | aan Goederen in bewerking — aanschaffingswaarde | | 4.000,00 |\n| 330 | Gereed product — aanschaffingswaarde | 3.000,00 | |\n| 713 | aan Wijzigingen in de voorraad gereed product | | 3.000,00 |",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Voorraadverschillen (eind − begin)** 🔗\n\n- Grondstoffen (30): 17.000 − 12.000 = **+5.000** → toename → debet 300 / credit 6090 🔗\n- Goederen in bewerking (32): 26.000 − 30.000 = **−4.000** → afname → debet 712 / credit 320 🔗\n- Gereed product (33): 31.000 − 28.000 = **+3.000** → toename → debet 330 / credit 713 🔗\n- Handelsgoederen (34): 4.000 − 6.000 = **−2.000** → afname → debet 6094 / credit 340 🔗\n\n**Boekingslogica** 📖: bij een **toename** wordt de voorraadrekening gedebiteerd en de voorraadwijziging-rekening gecrediteerd (de wijziging vermindert de kosten of verhoogt de opbrengsten); bij een **afname** omgekeerd. Voor **aangekochte voorraden** (grondstoffen 30, handelsgoederen 34) loopt de tegenboeking via klasse **60 — handelsgoederen, grond- en hulpstoffen** (rekening 6090/6094). Voor **zelf voortgebrachte voorraden** (goederen in bewerking 32, gereed product 33) loopt de tegenboeking via klasse **71 — wijzigingen in de voorraad en in de bestellingen in uitvoering** (rekening 712/713).",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** ❓: het teken van de boeking volgt het **soort voorraad**, niet één uniforme regel. Aangekochte voorraden (30/34) → kosten-correctie via **60-reeks** (6090/6094): debet bij toename is een **negatieve kost** (crediteert 6090). Zelf voortgebrachte voorraden (32/33) → opbrengst-correctie via **71-reeks** (712/713): credit bij toename is een **opbrengst** (geactiveerde productie). Vermijd om alles via 609 of alles via 71 te boeken — de scheiding aangekocht/zelf voortgebracht is wezenlijk in het MAR. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0132-07-boeking-en-waardering-van-voorraden.md",
+                  "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**CBN-advies 132/7 — Boeking en waardering van voorraden** 📖: schrijft expliciet de boekingsschema's voor (inkomende/uitgaande voorraden, met onderscheid handelsondernemingen vs industriële ondernemingen — rekeningen 6090/6091/6094 voor aangekochte voorraden, 712/713 voor zelf voortgebrachte voorraden). **MAR (KB 21.10.2018 Bijl. 1)** 📖: klasse 3 voor voorraadrekeningen (30/32/33/34), klasse 60 voor handelsgoederen/grond- en hulpstoffen (incl. 609 voorraadwijzigingen), klasse 71 voor wijzigingen in voorraad zelf voortgebrachte goederen.",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 132/7; MAR (KB 21.10.2018 Bijlage 1) klassen 3, 60, 71"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrA3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -297,7 +414,80 @@
       "vraag_id": "2008-bibf-vrA3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "geciteerd",
+                "tekst": "**Boeking 1 — Oprichtingskosten (10 maart 2008)** 📖\n\n| Debet | Credit | Bedrag |\n|---|---|---|\n| 200 Oprichtingskosten | | 1.200,00 |\n| | 550 Kredietinstellingen | 1.200,00 |\n\n**Boeking 2 — Aankoop personenwagen (31 maart 2008)** 📖\n\n| Debet | Credit | Bedrag |\n|---|---|---|\n| 2410 Rollend materieel - aanschaffingswaarde | | 22.100,00 |\n| 411 Terug te vorderen BTW | | 2.100,00 |\n| | 440 Leveranciers | 24.200,00 |\n\nDe **aanschaffingswaarde** van de personenwagen bedraagt **22.100 EUR**: nettoprijs 20.000 EUR + 50 % niet-aftrekbare BTW (2.100 EUR). 🔗",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Berekening aanschaffingswaarde personenwagen** 🔗\n\n- Nettoprijs: 20.000,00\n- BTW 21 % op 20.000 = 4.200,00\n- Aftrekbare BTW (max. 50 % voor personenwagens, art. 45 §2 BTW-Wb): 2.100,00 → rekening 411\n- Niet-aftrekbare BTW (50 %): 2.100,00 → geactiveerd in aanschaffingswaarde (rekening 240/241)\n- **Aanschaffingswaarde geactiveerd**: 20.000 + 2.100 = **22.100,00**\n- **Totaal te betalen aan leverancier**: 20.000 + 4.200 = **24.200,00**",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil ❗** — De niet-aftrekbare BTW op personenwagens (50 %) hoort **niet** op een kostenrekening (61x) maar wordt **geactiveerd** in de aanschaffingswaarde van het voertuig (rubriek 24 Meubilair en rollend materieel). 🔗 Dat is de reden waarom de personenwagen in de balans staat aan 22.100 EUR i.p.v. 20.000 EUR, met directe impact op de jaarlijkse afschrijvingsbasis.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**BTW-aftrekbeperking personenwagens**: art. 45 § 2 BTW-Wetboek — aftrek beperkt tot max. 50 % (en tot werkelijk beroepsgebruik wanneer dat lager is). 🔗 **Activering niet-aftrekbare BTW in aanschaffingswaarde**: KB-WVV art. 3:13 (aanschaffingswaarde = aankoopprijs + bijkomende kosten, incl. niet-recupereerbare belastingen). 🔗 **Rekeningnummers**: MAR — 200 Kosten van oprichting, 240 Meubilair en rollend materieel, 411 Terug te vorderen BTW, 440 Leveranciers, 550 Kredietinstellingen.",
+                "type": "grondslag",
+                "wetsref": "art. 45 § 2 BTW-Wb; KB-WVV art. 3:13; MAR"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "geciteerd",
+                "tekst": "**Afschrijvingsboeking per 31 december 2008** 📖\n\n| Debet | Credit | Bedrag |\n|---|---|---|\n| 6300 Afschrijvingen op oprichtingskosten | | 200,00 |\n| | 2009 Geboekte afschrijvingen op oprichtingskosten | 200,00 |\n| 6302 Afschrijvingen op materiële vaste activa | | 3.683,33 |\n| | 2409 Geboekte afschrijvingen op rollend materieel | 3.683,33 |",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Berekening pro rata temporis — boekjaar 1 maart → 31 december 2008 = 10 maanden** 🔗\n\n**Oprichtingskosten** (max. 5 jaar, art. 3:37 KB-WVV — jaarlijkse tranche ≥ 20 %): 📖\n- 1.200,00 / 5 jaar = 240,00 / jaar\n- Pro rata: 240,00 × 10/12 = **200,00**\n\n**Personenwagen** (economische levensduur 5 jaar):\n- 22.100,00 / 5 jaar = 4.420,00 / jaar\n- Pro rata: 4.420,00 × 10/12 = **3.683,33**\n\n**Toelichting pro rata**: Hoewel een **kleine vennootschap** in principe een **volledige annuïteit** mag boeken in het jaar van aanschaffing (afwijking op het pro-rata-beginsel), telt het **eerste boekjaar hier slechts 10 maanden** (van 1 maart tot 31 december). Daarom wordt de jaarannuïteit alsnog met **10/12** vermenigvuldigd. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — De pro-rata-correctie hier komt **niet** voort uit een aanschaffingsdatum-midden-in-het-jaar (de kleine-vennootschap-uitzondering laat dat normaal toe), maar uit de **verkorte duur van het eerste boekjaar**. 🔗 Voor de personenwagen is er dus geen extra correctie omdat hij op 31 maart i.p.v. 1 maart is gekocht: de 10/12 dekt het volledige verkorte boekjaar. Voor een normaal boekjaar van 12 maanden zou een kleine vennootschap de **volledige** 240 EUR en 4.420 EUR mogen boeken.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Afschrijving oprichtingskosten**: art. 3:37 KB-WVV — passende afschrijvingen, **jaarlijkse tranches ≥ 20 %** van de werkelijk uitgegeven bedragen (i.e. maximaal vijf jaar). 📖 Bevestigd door CBN-advies 2010/15 §Oprichtingskosten. 📖 **Pro rata bij verkort boekjaar**: art. 3:6 KB-WVV (afschrijvingsplan aangepast aan duurzaamheid en gebruik). **Kleine-vennootschap-afwijking** (volledige annuïteit i.p.v. pro rata): art. 3:39 § 2 KB-WVV — geldt alleen voor het normale geval (12 maanden); een verkort boekjaar vereist alsnog evenredige aanpassing. 🔗",
+                "type": "grondslag",
+                "wetsref": "KB-WVV art. 3:37, art. 3:6, art. 3:39 § 2; CBN-advies 2010/15"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrA4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -359,7 +549,56 @@
       "vraag_id": "2008-bibf-vrA4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2011-20-verbonden-ondernemingen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Boeking bij B (aankoop aandelen C):**\n\n| Rek. | Omschrijving | Debet | Credit |\n|---|---|---:|---:|\n| 280 | Deelnemingen in verbonden ondernemingen 🔗 | 50.000,00 |  |\n| 550 / 489 | Kredietinstellingen *of* Te betalen (aankoopprijs) |  | 50.000,00 |\n\nBoekingstekst: aankoop 12 %-pakket in zustervennootschap C voor 50.000,00 EUR.",
+                "type": "boeking"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2011-20-verbonden-ondernemingen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De kwalificatie van de deelneming is het scharnierpunt. Vennootschap A controleert zowel B als C; B en C zijn dus **zustervennootschappen** binnen dezelfde groep. Op grond van art. 1:20, 1°, d) WVV zijn vennootschappen die onder de controle staan van eenzelfde moedervennootschap onderling **verbonden vennootschappen** 📖. Bijgevolg moet B het 12 %-belang in C niet boeken als rekening 28**2** (deelneming met deelnemingsverhouding) en zeker niet als rekening 28**4** (andere aandelen) — wat de drempel van 10 %/20 % zou suggereren — maar als rekening **280 Deelnemingen in verbonden ondernemingen** 🔗. De groepsband heeft voorrang op het stempercentage.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Niet kijken naar het stempercentage (12 % < 20 %) om automatisch op rekening 282 of 284 uit te komen 🔗. De rubriek 280 is verplicht zodra er een groepsband via een gemeenschappelijke moeder bestaat — dat is een **kwalitatief** criterium (controle binnen de groep), niet het kwantitatieve 10 %/20 %-criterium uit art. 3:88-3:89 KB/WVV dat enkel relevant is voor de afbakening 282 ↔ 284 buiten een groepsverband 🤖.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2011-20-verbonden-ondernemingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 1:20, 1°, d) WVV** — vennootschappen die onder gemeenschappelijke controle staan zijn verbonden vennootschappen 📖. **Art. 1:14-1:15 WVV** — definitie controle en moeder-/dochtervennootschap 📖. **CBN-advies 2011/20** — toepassing op groepsstructuren met zustervennootschappen 📖. MAR-rubriek 28 Financiële vaste activa: 280 Deelnemingen in verbonden ondernemingen 🔗.",
+                "type": "grondslag",
+                "wetsref": "Art. 1:20, 1°, d) WVV; Art. 1:14-1:15 WVV; CBN-advies 2011/20"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrB1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -812,7 +1051,78 @@
       "vraag_id": "2008-bibf-vrB4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "De **behoefte aan bedrijfskapitaal** (BBK; Frans *besoin en fonds de roulement*, BFR) is het bedrag dat de onderneming **permanent** moet financieren omdat haar **exploitatiecyclus** geld vastzet in voorraden en handelsvorderingen vooraleer de klanten betalen — verminderd met wat ze zelf op krediet bij leveranciers koopt. 🔗 Het meet hoeveel cash er structureel vastzit tussen aankoop → productie → verkoop → inning, los van de buffer op de balans. 🔗",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "BBK is een **structureel** financieringsvraagstuk, geen incidenteel kasprobleem: zolang de onderneming actief is, blijft een minimaal bedrag aan voorraden + vorderingen min leveranciersschulden bestaan. Verschil met **werkkapitaal** (vlottende activa − schulden ≤ 1 jaar): werkkapitaal is de *beschikbare* buffer, BBK is de *noodzakelijke* financiering uit de cyclus. Als werkkapitaal < BBK ontstaat een netto-kasbehoefte. 🔗",
+                "type": "motivatie"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**BBK = Voorraden + Handelsvorderingen − Handelsschulden (leveranciers)** 🔗\n\nUitgebreide vorm (operationele cyclus):\n\n```\nBBK = (Voorraden + Vorderingen ≤ 1 jaar uit exploitatie + Overlopende rekeningen actief)\n     − (Schulden ≤ 1 jaar uit exploitatie + Overlopende rekeningen passief)\n```\n\nDe drie operationele posten zijn doorgaans de dominante factoren; financiële schulden ≤ 1 jaar en kas worden **niet** meegenomen (die horen bij de netto-kaspositie, niet bij de exploitatiecyclus). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Nuance",
+                "tekst": "BBK kan ook in **dagen omzet** worden uitgedrukt via de rotatieratio's: BBK-dagen ≈ voorraadrotatie (dagen) + klantenkrediet (DSO) − leverancierskrediet (DPO). Deze maatstaf is bruikbaar voor benchmarking en voor de impact-analyse van de maatregelen in (c). 🔗",
+                "type": "motivatie"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Vanuit financieel beheer kan de BBK worden verlaagd door op de drie componenten te werken:**\n\n**1. Voorraden afbouwen** 🔗\n- Just-in-time-aanvoer en kleinere bestelhoeveelheden (lagere veiligheidsvoorraad).\n- Snellere doorlooptijden in productie; bottleneck-analyse.\n- Slow-movers en obsolete voorraad afbouwen (uitverkoop, afschrijving).\n- Consignatie-voorraad bij de leverancier laten staan.\n\n**2. Klantenkrediet (vorderingen) inkorten** 🔗\n- Kortere betalingstermijnen contractueel afspreken; korting voor contante betaling.\n- Strikt **debiteurenbeheer**: opvolging, rappels, ingebrekestellingen.\n- Voorschotten of tussentijdse facturatie op grote opdrachten.\n- **Factoring** of disconto van handelspapier (vorderingen omzetten in cash, ten koste van een marge).\n- Kredietwaardigheidscheck vóór levering; kredietverzekering.\n\n**3. Leverancierskrediet (schulden) verlengen** 🔗\n- Langere betalingstermijnen onderhandelen met leveranciers.\n- Geen contante-betalingskortingen accepteren wanneer de impliciete jaarrente hoger ligt dan de financieringskost — of net wel, afhankelijk van de afweging.\n- Domiciliëring op de uiterste vervaldag.\n\n**Bijkomende structurele maatregelen** 🔗\n- Omzet-mix herzien naar segmenten met snellere inning (B2C-cash vs B2B-krediet).\n- Outsourcing van voorraad-intensieve activiteiten.\n- Seizoenscyclus afvlakken via vooruitbetalingen of abonnementsformules.",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "BBK-verlaging is geen doel op zich: te agressieve voorraadafbouw veroorzaakt **stockbreuken**, te korte klantentermijnen kosten **omzet**, en te lange leverancierstermijnen schaden de **leveranciersrelatie** of de korting-voor-contant. De afweging is altijd financieringskost vs commerciële kost. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Geen specifieke wetsbasis — dit is **bedrijfseconomische doctrine** (financieel beheer, PO 1.9). Toetssteen: bestaand concept-fiche `werkkapitaalbehoefte` en competentie `bepalen-behoefte-aan-bedrijfskapitaal`. Standaardwerk: Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*. 🔗",
+                "type": "grondslag"
+              }
+            ],
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrC1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -877,7 +1187,56 @@
       "vraag_id": "2008-bibf-vrC1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:27:35Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Het krediet is in deze opzet niet haalbaar.** 🔗 De jaarlijkse annuïteit van de nieuwe lening bedraagt ± **23.097 EUR**; samen met de bestaande kapitaalaflossingen van 12.000 EUR loopt de totale schuldenlast op tot ± **35.097 EUR/jaar**, terwijl de cashflow slechts 30.000 EUR bedraagt. De **debt service coverage** zakt onder 1 (≈ 0,85), wat een tekort van ± 5.000 EUR per jaar betekent. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Annuïteit nieuwe lening** (5 gelijke jaarlijkse schijven, 5% — formule annuïteit a = K · i / (1 − (1+i)^−n)):\n\n- a = 100.000 × 0,05 / (1 − 1,05^−5)\n- a = 5.000 / (1 − 0,78353)\n- a = 5.000 / 0,21647\n- **a ≈ 23.097,48 EUR/jaar** 🔗\n\n**Totale jaarlijkse schuldenlast** na opname nieuw krediet:\n\n| Post | Bedrag |\n|---|---:|\n| Bestaande kapitaalaflossingen | 12.000 |\n| Annuïteit nieuwe lening (kapitaal + interest) | 23.097 |\n| **Totaal debt service** | **35.097** |\n| Beschikbare cashflow | 30.000 |\n| **Tekort** | **−5.097** |\n\n**Debt Service Coverage Ratio (DSCR)** = cashflow / totale schuldenlast = 30.000 / 35.097 ≈ **0,85**. 🔗 Banken hanteren doorgaans een minimum-DSCR van **1,20-1,30**; hier zit men ruim onder 1, wat betekent dat de operationele cashflow de aflossingen zelfs niet volledig dekt, laat staan dat er een veiligheidsmarge overblijft voor investeringen in werkkapitaal, vervangingsinvesteringen of tegenvallers. 🤖",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Mogelijke pistes om het krediet wél haalbaar te maken",
+                "tekst": "Het advies aan de cliënt is niet enkel \"neen\", maar bevat alternatieven: 🤖\n\n- **Langere looptijd**: bij 8 jaar daalt de annuïteit naar ± 15.473 EUR (totaal ± 27.473 < 30.000); bij 10 jaar naar ± 12.950 EUR. Dit veronderstelt wel dat de economische levensduur van de investering die looptijd rechtvaardigt (matching-principe activa/financiering). 🔗\n- **Eigen inbreng**: de vennootschap financiert een deel met eigen middelen, zodat het krediet-bedrag (en dus de annuïteit) zakt.\n- **Bullet- of ballonkrediet** met lagere periodieke aflossingen — verschuift het probleem maar verbetert tijdelijk de cashflow-dekking.\n- **Cashflow-groei aantonen**: als de investering zelf bijkomende cashflow genereert (uitbreidingsinvestering), moet die meegerekend worden in de aflossingscapaciteit-projectie. Een **businessplan met cashflow-prognose post-investering** is dan onmisbaar.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "**Cashflow ≠ vrij beschikbaar voor aflossingen.** 🔗 De boekhoudkundige cashflow (nettoresultaat + niet-kaskosten) is een proxy, geen vrij besteedbaar bedrag. Er moet ook ruimte zijn voor: (i) interesten op bestaande schulden (cashflow zoals hier gedefinieerd is doorgaans vóór financiële lasten? — interpretatie nodig), (ii) belastingen, (iii) vervangingsinvesteringen, (iv) dividenden, (v) toename behoefte aan bedrijfskapitaal. De **vuistregel** dat de totale jaarlijkse schuldenlast (kapitaal + interest) maximaal 70-80% van de cashflow mag bedragen, wordt hier ruim overschreden. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "data/concepten/records/kasstroom-analyse.json"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Geen specifieke wetsbepaling — dit is **financiële analyse / kredietbeoordeling** (PO 1.9: financiering en kredietverlening). Relevante kaders: aflossingscapaciteits-toets en DSCR (bancaire kredietanalyse-doctrine); annuïteitenformule (financiële wiskunde); matching-principe tussen looptijd financiering en economische levensduur investering. Voor de cashflow-definitie: nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen) — concept-record `kasstroom-analyse`. 🔗",
+                "type": "grondslag",
+                "wetsref": "PO 1.9 — financiering en kredietverlening"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrC2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

@@ -2,28 +2,44 @@
   "schema_versie": "1.1",
   "examen_id": "2008-bibf",
   "vraag_id": "2008-bibf-vrA1",
-  "antwoord_datum": "2026-05-21T00:00:00Z",
-  "antwoord_model": "claude-opus-4-7",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
   "vraag_antwoorden": [
     {
       "id": "i1",
       "antwoord_status": "beantwoord",
       "blokken": [
         {
-          "type": "motivatie",
-          "tekst": "Berekening forfaitaire voorziening vakantiegeld bedienden boekjaar 2007 volgens CBN-advies 148/3 (later bevestigd via CBN-advies 2018/22): vertrekbasis = bruto bezoldigingen bedienden - eindejaarspremies = 112.000,00 - 10.000,00 = 102.000,00 EUR. Forfaitair percentage = 18,20% x 102.000,00 = 18.564,00 EUR. ⚠️ te verifiëren - exacte percentage CBN-advies 148/3 (klassiek 18,20%, maar later geactualiseerd) te valideren tegen brondocument; rekeningnummers (623 vs 6202/6203, 456 'Te betalen vakantiegeld') te valideren tegen MAR.",
-          "confidence": "inferred",
-          "bron_refs": []
+          "type": "boeking",
+          "tekst": "**Te voorzien vakantiegeld 2007 = 18,8 % × 102.000 EUR = 19.176,00 EUR** 🔗\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|---|\n| | 623 | Voorzieningen vakantiegeld (Andere personeelskosten) | 19.176,00 | |\n| aan | 456 | Vakantiegeld | | 19.176,00 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+          ]
         },
         {
-          "type": "boeking",
-          "regels": [
-            { "zijde": "D", "rekening": "623", "naam": "Andere personeelskosten - voorziening vakantiegeld bedienden", "bedrag": 18564.0 },
-            { "zijde": "C", "rekening": "456", "naam": "Te betalen vakantiegeld", "bedrag": 18564.0 }
-          ],
-          "toelichting": "Afsluitingsboeking 31/12/2007 - forfaitaire raming vakantiegeld bedienden: 18,20% x (112.000,00 - 10.000,00) = 18,20% x 102.000,00 = 18.564,00 EUR.",
-          "confidence": "inferred",
-          "bron_refs": []
+          "type": "berekening",
+          "tekst": "Berekeningsgrondslag = brutobezoldigingen bedienden 2007 − eindejaarspremies = 112.000 − 10.000 = **102.000 EUR** 📖. Eindejaarspremies worden uitgesloten omdat zij geen recht op vakantiegeld doen ontstaan. Het forfaitaire percentage **18,8 %** wordt door de Commissie aanvaard als globale schatting van het in 2008 te betalen enkelvoudig + dubbel vakantiegeld op de in 2007 gepresteerde diensten van bedienden 📖.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — voor *arbeiders* wordt de last niet via een afsluitingsboeking voorzien: het vakantiegeld arbeiders wordt door de Rijksdienst voor Jaarlijkse Vakantie / een vakantiefonds geïnd via de driemaandelijkse RSZ-bijdrage en is dus al ten laste van het lopende boekjaar via de werkgeversbijdragen sociale zekerheid (rekening 621). Enkel voor *bedienden* (en gelijkgestelden) moet de werkgever zelf op afsluitdatum het toekomstige vakantiegeld als schuld/voorziening opnemen 🔗.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 148/2 (Vakantiegeld) 📖: ten laste van het boekjaar moeten worden geboekt de bezoldigingen en sociale voordelen die in een volgend boekjaar zullen worden betaald voor diensten die *tijdens* het boekjaar zijn verricht (art. 19, vierde lid jaarrekeningbesluit 8/10/1976, gewijzigd bij KB 12/9/1983 — thans matching-beginsel art. 3:11 KB/WVV). De Commissie aanvaardt het globale percentage 18,8 % op de in het boekjaar uitbetaalde brutobezoldigingen van bedienden (exclusief eindejaarspremies) als forfaitaire raming van het in het volgende jaar verschuldigde enkelvoudig + dubbel vakantiegeld.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+          ]
         }
       ]
     },
@@ -32,20 +48,28 @@
       "antwoord_status": "beantwoord",
       "blokken": [
         {
-          "type": "procedure",
-          "stappen": [
-            "De boeking wordt verricht als afsluitingsboeking op 31 december van het boekjaar waarin de bedienden de prestaties hebben verricht (in casu: 31/12/2007).",
-            "Reden: het vakantiegeld is een kost die economisch toerekenbaar is aan het boekjaar waarin het is opgebouwd door de prestaties, ook al wordt het pas in het volgende vakantiejaar (2008) effectief uitbetaald. Toepassing van het matching-beginsel.",
-            "Bij de effectieve uitbetaling in 2008 wordt de schuldrekening 456 'Te betalen vakantiegeld' tegengeboekt; afwijkingen tussen de forfaitaire raming 2007 en het werkelijk uitbetaalde bedrag in 2008 worden in 2008 via dezelfde personeelskostenrekening verwerkt (correctie van de raming)."
-          ],
-          "confidence": "inferred",
-          "bron_refs": []
+          "type": "conclusie",
+          "tekst": "Op de **balansdatum 31 december 2007** (afsluitingsboeking) 🔗 — de boeking gebeurt in het boekjaar waarop de gepresteerde diensten betrekking hebben, niet bij de effectieve uitbetaling in 2008.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+          ]
         },
         {
           "type": "motivatie",
-          "tekst": "Het voorzichtigheidsbeginsel en het matching-beginsel uit het Belgisch boekhoudrecht vereisen dat alle kosten die betrekking hebben op het boekjaar worden geboekt, ook als ze nog niet werden uitbetaald op afsluitdatum. Het vakantiegeld voor bedienden volgt economisch het jaar van de prestaties (2007), niet het jaar van de uitbetaling (2008). CBN-advies 148/3 (later bevestigd in CBN-advies 2018/22) geeft de forfaitaire ramingsmethode op afsluitdatum om dit consistent toe te passen.",
-          "confidence": "inferred",
-          "bron_refs": []
+          "tekst": "Toepassing van het **matching-beginsel** (toerekeningsbeginsel) 📖: kosten en opbrengsten worden toegerekend aan het boekjaar waarop ze betrekking hebben, ongeacht het tijdstip van betaling of ontvangst. Het vakantiegeld dat in 2008 zal worden uitbetaald is de tegenprestatie voor de in 2007 gepresteerde arbeid en moet daarom op 31/12/2007 als kost (623) en schuld/voorziening (456) erkend worden. Bij de effectieve uitbetaling in 2008 wordt de credit-rekening 456 tegengeboekt; een eventueel verschil tussen raming en realisatie wordt in 2008 via dezelfde personeelskostenrekening gecorrigeerd.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Matching-beginsel: art. 3:11 KB/WVV (voorheen art. 33 KB/W.Venn. en art. 19, vierde lid jaarrekeningbesluit 8/10/1976) — kosten van het boekjaar worden geboekt ongeacht het betalingsmoment. CBN-advies 148/2 bevestigt boeking van het vakantiegeld bedienden als afsluitingsboeking op de balansdatum.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0148-02-vakantiegeld.md"
+          ]
         }
       ]
     }

@@ -2,32 +2,167 @@
   "schema_versie": "1.1",
   "examen_id": "2014-1",
   "vraag_id": "2014-1-vr3",
-  "antwoord_datum": "2026-05-21T00:00:00Z",
-  "antwoord_model": "claude-opus-4-7",
+  "antwoord_datum": "2026-05-26T12:27:54Z",
+  "antwoord_model": "claude-sonnet-4-6",
   "vraag_antwoorden": [
     {
       "id": "a",
       "antwoord_status": "beantwoord",
       "gekozen_optie_id": "a",
-      "blokken": []
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie a — de meerwaarde wordt op het passief van de balans behouden** (rubriek III. *Herwaarderingsmeerwaarden*). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/adviezen/CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Sinds het KB van 12 september 1983 mogen **immateriële vaste activa niet meer worden geherwaardeerd**. 📖 Meerwaarden die echter werden geboekt **tijdens een boekjaar dat voorafgaat aan het boekjaar dat ingaat na 31 december 1983** (overgangsregime), mogen op het passief van de balans onder rubriek *III. Herwaarderingsmeerwaarden* **behouden blijven**. 📖 De herwaardering van 1980 op het octrooi (25.000 EUR) valt onder deze overgangsregeling en blijft dus correct op rekening 120 staan zolang het actief niet wordt gerealiseerd. 🔗\n\n**Per optie**:\n- **a** → JUIST: behoud op passief is uitdrukkelijk toegelaten door art. 42 KB 12-9-1983 (nu doorvertaald via art. 3:35 KB WVV-overgang). 📖\n- **b** → FOUT: er bestaat geen verplichting om de pre-1984-meerwaarde af te boeken. 📖\n- **c** → FOUT: incorporatie in kapitaal is een **mogelijke** bestemming, geen verplichting. 🔗\n- **d** → FOUT: spreiding over 5 jaar in resultaat is geen bestemming voor herwaarderingsmeerwaarden — dat regime geldt voor gespreide taxatie van gerealiseerde meerwaarden in VenB (art. 47 WIB), niet voor de boekhoudkundige behandeling van de niet-gerealiseerde herwaarderingsreserve. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/adviezen/CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — De vraagstelling gaat over de boekhoudkundige status vóór de verkoop. Bij de **realisatie** zelf (verkoop op 15-12-2013) moeten echter alle rekeningen rond de niet-gerealiseerde meerwaarde worden **tegengeboekt** (rek. 120 D / 2118 C voor 25.000) zodat het resultaat op de verkoop zuiver wordt berekend op basis van de oorspronkelijke aanschaffingswaarde (75.000 EUR, volledig afgeschreven → boekhoudkundige meerwaarde = 100.000 EUR). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 42 KB van 12 september 1983 (overgangsregime — bevestigd door CBN-advies 113/5 en CBN-advies 2012/13). Verbod nieuwe herwaardering op immateriële vaste activa: CBN-advies 2012/13 §Herwaarderingen. Realisatie-regel: art. 3:35 KB WVV + CBN-advies 2011/14 §Realisatie van geherwaardeerde activa. 📖",
+          "wetsref": "Art. 42 KB 12-9-1983; art. 3:35 KB WVV; CBN-advies 2012/13; CBN-advies 113/5; CBN-advies 2011/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/adviezen/CBN-0113-05-herwaardering-van-vaste-activa-voor-het-begin-van-het-boekjaar-dat-aanvangt-na-31-december.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
     },
     {
       "id": "b",
       "antwoord_status": "beantwoord",
       "gekozen_optie_id": "b",
-      "blokken": []
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie b** — drie mogelijke bestemmingen: (1) **overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen**, (2) **inlijving in het kapitaal**, (3) bij **latere minderwaarden**: uitboeking tot beloop van het **nog niet afgeschreven** bedrag van de meerwaarde. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 3:35 §2-3 KB WVV (vroeger art. 57 §2-3 KB W.Venn.) regelt de bestemmingen van een geboekte herwaarderingsmeerwaarde:\n- §2: voor **afschrijfbare** activa wordt op de meerwaarde een **afschrijvingsbedrag** geboekt evenredig aan de afschrijving op de aanschaffingswaarde; dat **afgeschreven gedeelte** van de meerwaarde mag worden **overgeboekt naar de beschikbare reserves** (rek. 121 D / 133 C). 📖\n- §3: NV's, SE's en SCE's mogen de in art. 3:35 bedoelde geboekte meerwaarde **in kapitaal omzetten** (verminderd met de geraamde belasting). 📖\n- bij **latere minderwaarden / verdwijning** van de meerwaarde: de nog niet afgeschreven, overtollige meerwaarde wordt uitgeboekt door tegengestelde boeking (rek. 120/121 D / activum C). 📖\n\n**Per optie — fouten lokaliseren**:\n- **a** → FOUT: spreekt over overboeking naar reserves *tot beloop van het nog niet afgeschreven bedrag* (omgekeerd: dat geldt voor uitboeking bij minderwaarde, niet voor overboeking naar reserves). 🔗\n- **b** → JUIST: alle drie de bestemmingen exact correct geformuleerd. 📖\n- **c** → FOUT: koppelt het bedrag van de afschrijvingen aan kapitaalinlijving (foute koppeling — afschrijvingsbedrag bepaalt overboeking naar reserves; kapitaal-omzetting heeft eigen begrenzing). 🔗\n- **d** → FOUT: beperkt onterecht tot overboeking naar reserves; sluit kapitaalinlijving en uitboeking ten onrechte uit. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:35 §2 en §3 KB WVV (vroeger art. 57 §2-3 KB W.Venn.); art. 3:76 KB WVV (omzetting in kapitaal voor NV/SE/SCE); CBN-advies 2011/14 secties *Afschrijving van geherwaardeerde activa*, *Omzetting in kapitaal* en *Correctie van herwaarderingsmeerwaarden*. 📖",
+          "wetsref": "Art. 3:35 §2-3 KB WVV; art. 3:76 KB WVV; CBN-advies 2011/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
     },
     {
       "id": "c",
       "antwoord_status": "beantwoord",
       "gekozen_optie_id": "a",
-      "blokken": []
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie a — 25.000 EUR** mag naar de reserves worden overgeboekt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Regel (art. 3:35 §2 KB WVV + CBN 2010/15): de herwaarderingsmeerwaarde mag worden overgeboekt naar de **beschikbare reserves voor het afgeschreven gedeelte** van de meerwaarde. 📖\n\nDe casus stelt dat het octrooi **volledig is afgeschreven**. De op de geherwaardeerde waarde geboekte afschrijvingen bedragen dus 100% van de meerwaarde:\n\n| Element | Bedrag |\n|---|---|\n| Herwaarderingsmeerwaarde (1980) | 25.000 EUR |\n| Afschrijvingen op die meerwaarde | 25.000 EUR (volledig) |\n| **Overboekbaar naar reserves** | **25.000 EUR** |\n\n**Per optie**:\n- **a** (25.000) → JUIST: gelijk aan de afgeschreven meerwaarde. 🔗\n- **b** (75.000) → FOUT: dit is de oorspronkelijke aanschaffingswaarde van het octrooi, niet de meerwaarde. 🤖\n- **c** (50.000) → FOUT: geen relatie tot de cijfers. 🤖\n- **d** (0) → FOUT: zou correct zijn wanneer geen afschrijvingen op de meerwaarde zijn geboekt, maar de meerwaarde is hier volledig afgeschreven. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:35 §2 KB WVV: \"overboeking naar de beschikbare reserves ten belope van het bedrag van de op de meerwaarde geboekte afschrijvingen\". CBN-advies 2010/15 §*Geherwaardeerde activa*: \"De herwaarderingsmeerwaarde mag overgeboekt worden naar de beschikbare reserves voor het afgeschreven gedeelte\". 📖",
+          "wetsref": "Art. 3:35 §2 KB WVV; CBN-advies 2010/15",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        }
+      ]
     },
     {
       "id": "d",
       "antwoord_status": "beantwoord",
       "gekozen_optie_id": "c",
-      "blokken": []
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie c — de boeking van de meerwaarde is verboden**. Immateriële vaste activa (zoals een octrooi) komen **niet** in aanmerking voor herwaardering sinds het KB van 12 september 1983. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 3:35 §1 KB WVV laat herwaardering toe voor **materiële vaste activa** en voor **deelnemingen en aandelen onder de financiële vaste activa** — **immateriële vaste activa worden niet vermeld** in de limitatieve opsomming en zijn dus uitgesloten. 📖 CBN-advies 2012/13 bevestigt dit expliciet: \"De immateriële vaste activa komen niet in aanmerking voor herwaardering\", met als historische motivering dat deze mogelijkheid werd afgeschaft door het KB van 12 september 1983. 📖\n\nEen octrooi behoort tot rubriek 21 *Immateriële vaste activa* (MAR-subrubriek 211 *concessies, octrooien, licenties, know-how, merken en soortgelijke rechten*). 🔗 Een nieuwe herwaardering van 100.000 EUR op 15-12-2013 op dit octrooi is dus **niet toegelaten**.\n\n**Per optie**:\n- **a** (boeking op credit 120) → FOUT: zou de gewone boeking zijn voor materiële/financiële activa, maar verboden voor immateriële. 🔗\n- **b** (in resultaat) → FOUT: herwaarderingsmeerwaarden beïnvloeden de resultatenrekening niet bij boeking — én bovendien is de herwaardering hier sowieso verboden. 📖\n- **c** (verboden) → JUIST. 📖\n- **d** (facultatief) → FOUT: facultatief impliceert dat het mág; dat klopt niet voor immateriële activa. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — Niet verwarren met de **uitzondering** in art. 3:35 §1 lid 3 KB WVV: terugnemingen van waardeverminderingen op immateriële vaste activa **zonder beperkte gebruiksduur** (bv. goodwill met onbepaalde levensduur, merken) **mogen wél** onder rubriek III worden geboekt — maar dat is een *terugneming* van een eerdere waardevermindering, geen *herwaardering boven aanschaffingswaarde*. 📖 Voor een gewoon octrooi (beperkte gebruiksduur) blijft het verbod absoluut.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:35 §1 KB WVV (limitatieve opsomming: materiële vaste activa + financiële vaste activa-deelnemingen/aandelen — immateriële niet vermeld). CBN-advies 2012/13 §*Herwaarderingen*: \"De immateriële vaste activa komen niet in aanmerking voor herwaardering\". Historische achtergrond: KB 12-9-1983 schafte deze mogelijkheid af. 📖",
+          "wetsref": "Art. 3:35 §1 KB WVV; CBN-advies 2012/13",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+          ]
+        }
+      ]
     }
   ]
 }

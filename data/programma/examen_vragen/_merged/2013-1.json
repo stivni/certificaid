@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-1.pdf",
   "examen_id": "2013-1",
-  "merge_datum": "2026-05-26T12:21:57+00:00",
+  "merge_datum": "2026-05-26T15:05:37+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -258,7 +258,126 @@
       "vraag_id": "2013-1-vr1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:26:52Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Optie b** — onderneming A boekt de leveranciersschuld rechtstreeks over naar de rubriek kapitaal. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De inbreng van een schuldvordering in het kapitaal is boekhoudkundig een **inbreng in natura**: de schuldeiser (X) doet afstand van zijn vordering in ruil voor aandelen, waardoor de schuld bij A juridisch tenietgaat door schuldvermenging. De boekingsbeweging is dus rechtstreeks: **debet 44 Leveranciers / credit 10 Kapitaal**. 🔗\n\n- **Optie a** (via resultatenrekening + resultaatverwerking) is **fout**: kapitaalinbreng raakt nooit het resultaat — een leveranciersschuld die in kapitaal wordt ingebracht is geen opbrengst. 🔗\n- **Optie c** (via resultaatverwerking) is **fout** om dezelfde reden: resultaatverwerking dient voor de bestemming van een reeds gerealiseerd resultaat, niet voor kapitaaltransacties met een derde-schuldeiser. 🔗\n\nProcedureel vereist deze inbreng wel een verslag van het bestuursorgaan en een controleverslag van de commissaris of een aangewezen bedrijfsrevisor (art. 5:112 / 7:183 WVV) — dat is een rechtsgeldigheidsvereiste, niet een boekhoudkundige tussenstap. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2021-07-invloed-van-het-buitengerechtelijk-minnelijk-akkoord-en-de-gerechtelijke-reorganisatie-1.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 5:112 / 7:183 WVV — inbreng in natura vereist verslag bestuursorgaan + revisor. CBN-advies 2021/07 bevestigt dat een schuldvordering als inbreng in natura wordt verwerkt (waarderingsdiscussie nominale vs werkelijke waarde, maar steeds rechtstreeks naar kapitaal). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 5:112 WVV; Art. 7:183 WVV; CBN-advies 2021/07"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie c** — boeken naar een rekening *terug te betalen kapitaal* en uitbetalen **na een periode van twee maanden na de publicatie in het Belgisch Staatsblad**. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Bij een kapitaalvermindering met terugbetaling aan aandeelhouders hebben de schuldeisers **twee maanden na de bekendmaking in de Bijlagen bij het Belgisch Staatsblad** het recht zekerheid te eisen voor hun nog niet-opeisbare vorderingen. De vennootschap mag pas effectief terugbetalen na afloop van die wachttermijn — eerdere uitbetaling schendt het schuldeisersbeschermingsregime. 📖\n\n- **Optie a** (onmiddellijke uitbetaling) → **fout**: negeert de wachttermijn. 🔗\n- **Optie b** (via resultaatverwerking) → **fout**: kapitaalvermindering is geen resultaatbestemming maar een rechtstreekse vermindering van het eigen vermogen. 🔗\n- **Optie d** (twee maanden na de notariële akte) → **fout**: de termijn loopt vanaf **bekendmaking in het Belgisch Staatsblad**, niet vanaf de notariële akte. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** — De wachttermijn van twee maanden loopt vanaf de **bekendmaking in het Belgisch Staatsblad**, niet vanaf het besluit van de AV of de notariële akte. Optie d is precies bedoeld als afleider voor wie de wettekst niet exact kent. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 7:208 WVV (NV) / art. 5:153 WVV (BV) — schuldeisersbescherming bij kapitaalvermindering: zekerheidsrecht binnen twee maanden na bekendmaking in het Belgisch Staatsblad, terugbetaling pas na afloop. (Memorie van toelichting beschrijft het regime onder art. 7:195 MvT-nummering — analoge bepalingen voor BV.) 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 7:208 WVV; Art. 5:153 WVV"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Optie d** — de buitenlandse onderneming voert haar Belgische boekhouding volgens de Belgische boekhoudnormen voor de vaste inrichting, en legt **de jaarrekening van de buitenlandse onderneming en in voorkomend geval ook een geconsolideerde jaarrekening** neer in de vorm zoals opgesteld in het buitenland, plus een sociale balans. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Twee aparte verplichtingen voor een Belgische vaste inrichting (bijkantoor) van een buitenlandse vennootschap:\n\n1. **Boekhouding** (art. 3:1 ev. WVV + WER, CBN 2022/14) — de in België gevestigde bijkantoren moeten een **Belgische boekhouding** voeren met inventaris en jaarrekening eigen aan het bijkantoor, volgens het Belgisch boekhoudrecht. 📖\n2. **Neerlegging** (art. 3:20 WVV) — bij de NBB wordt **niet** de Belgische bijkantoor-jaarrekening neergelegd, maar **de jaarrekening van de buitenlandse vennootschap zelf** (en in voorkomend geval haar geconsolideerde jaarrekening) **in de vorm waarin deze werden opgesteld, gecontroleerd en openbaar gemaakt volgens het recht van de Staat waaronder de vennootschap valt**. 📖\n\n- **Optie a** (geen neerlegging) → **fout**: er is wél neerleggingsplicht (art. 3:20). 📖\n- **Optie b** (jaarrekening met cijfers van de vaste inrichting) → **fout**: wat wordt neergelegd is de jaarrekening van de **buitenlandse vennootschap**, niet de cijfers van de vaste inrichting. 📖\n- **Optie c** → **bijna juist**, maar mist het element \"**en in voorkomend geval ook een geconsolideerde jaarrekening**\" dat art. 3:20 §1 expliciet noemt. 📖\n- **Optie d** → **volledig**: bevat alle vier de elementen (Belgische boekhouding voor het bijkantoor + statutaire jaarrekening van buitenlandse onderneming in buitenlandse vorm + geconsolideerde jaarrekening in voorkomend geval + sociale balans). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** — Het onderscheid tussen *boekhouding* (Belgische normen, eigen aan het bijkantoor) en *neer te leggen jaarrekening* (de **buitenlandse** jaarrekening van het moederbedrijf, in buitenlandse vorm). Studenten verwarren beide vaak en kiezen optie b — dat is precies de afleider. Tweede valkuil: optie c laat de geconsolideerde jaarrekening weg, maar art. 3:20 vermeldt die uitdrukkelijk. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-14-belgische-bijkantoren-van-buitenlandse-vennootschappen-toepassing-van-het-belgisch.md",
+                  "resources/bronnen/adviezen/CBN-2022-15-belgische-bijkantoren-van-buitenlandse-vennootschappen-eigen-boekhoudkundige.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 3:20 §1 WVV — buitenlandse vennootschap met Belgisch bijkantoor legt jaarlijks haar (statutaire en in voorkomend geval geconsolideerde) jaarrekening neer bij de NBB, in de vorm naar buitenlands recht. CBN-advies 2022/14 (Belgische boekhoudrecht voor bijkantoren) + CBN-advies 2022/15 (neerlegging). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:20 WVV; CBN-advies 2022/14; CBN-advies 2022/15"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "c"
+          }
+        ],
+        "vraag_id": "2013-1-vr2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -389,7 +508,201 @@
       "vraag_id": "2013-1-vr2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_context_notitie": "Examenvraag 2013 — wettelijk kader van vóór KB 18-12-2015. Antwoord volgt het regime dat in 2013 gold (KB W.Venn. art. 60, 61, 95: ook onderzoekskosten activeerbaar, max. afschrijving 5 jaar mits toelichting). Voor de huidige stagiair: zie 'Nuance' bij b) en d) — sinds boekjaren vanaf 1-1-2016 (KB 18-12-2015 + CBN 2016/16) zijn kosten van onderzoek NIET meer activeerbaar; alleen ontwikkelingskosten, max. 10 jaar indien gebruiksduur niet betrouwbaar te ramen.",
+        "_kosten_specificatie_uit_png": {
+          "aankopen_materiaal": 180000,
+          "lonen_arbeiders_incl_patronale": 80000,
+          "ontwikkeling_door_derden": 15000,
+          "totaal": 295000,
+          "vooronderzoek_studiebureaus": 20000
+        },
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Ja**, deze kosten kunnen geactiveerd worden als immaterieel vast actief — *kosten van onderzoek en ontwikkeling* — voor zover ze cumulatief voldoen aan de activeringsvoorwaarden van het KB W.Venn. (regime 2013). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Activering van intern verrichte O&O is slechts toegestaan wanneer **alle volgende criteria cumulatief** vervuld zijn (CBN 2012/13, rn. 8): 📖\n\n1. **Nut**: het product of proces draagt bij tot het ondernemingsdoel of tot een verbeterde concurrentiepositie.\n2. **Individualiseerbaar**: nauwkeurig gedefinieerd en geïndividualiseerd — kostprijs afzonderlijk vast te stellen.\n3. **Technische haalbaarheid + intentie**: voldoende technische uitvoerbaarheid en intentie tot voltooiing/gebruik of verkoop.\n4. **Voldoende middelen** om de ontwikkeling tot een goed einde te brengen.\n5. **Voorzichtige raming gebruikswaarde**: de kostprijs mag niet hoger zijn dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement (art. 60 KB W.Venn.). 📖\n\nVoor het prototype-transportmiddel is het gebruik in fabrieken (verplaatsing zware goederen) een afgebakende toepassing met aanwijsbaar economisch nut — activering is dus inhoudelijk verantwoord, mits het bestuursorgaan deze criteria documenteert. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard** — *activering is een keuze, geen verplichting*: zelfs als alle criteria vervuld zijn mag de onderneming ervoor kiezen de kosten **onmiddellijk als kost** in de resultatenrekening te boeken (waarderingsregel). De gekozen methode moet consistent worden toegepast en in de waarderingsregels worden vermeld. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 60 en 95 KB W.Venn.** (regime 2013) — vervaardigingsprijs als boekwaarde, beperking tot voorzichtige raming gebruikswaarde; CBN-advies 2012/13 (rn. 8 + activering van kosten van O&O) voor de cumulatieve voorwaarden.",
+                "type": "grondslag",
+                "wetsref": "art. 60 en 95 KB W.Venn. (2013); CBN-advies 2012/13"
+              }
+            ],
+            "id": "a",
+            "oordeel": true
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Onder het **regime 2013** (vóór KB 18-12-2015) kunnen **alle vier de kostencategorieën** worden geactiveerd, mits zij rechtstreeks aan het O&O-project zijn toerekenbaar — samen **295.000 EUR**: 🔗\n\n| # | Kostencategorie | Bedrag | Activeerbaar (regime 2013) |\n|---|-----------------|-------:|:--------------------------:|\n| 1 | Vooronderzoek door studiebureaus | 20.000 | ✅ Ja (kosten van **onderzoek**) |\n| 2 | Ontwikkeling door derden | 15.000 | ✅ Ja (kosten van **ontwikkeling** — extern) |\n| 3 | Aankopen materiaal (voor het prototype) | 180.000 | ✅ Ja (vervaardigingsprijs — direct toerekenbaar) |\n| 4 | Lonen arbeiders incl. patronale bijdragen | 80.000 | ✅ Ja (vervaardigingsprijs — direct toerekenbaar personeel) |\n| | **Totaal te activeren** | **295.000** | |\n\nDe vervaardigingsprijs omvat de **direct toerekenbare aankoopkosten van grondstoffen, verbruiksgoederen en hulpstoffen** + de **rechtstreeks toerekenbare productiekosten** (lonen + sociale lasten van het personeel dat aan het project werkte) + extern uitbestede O&O. 📖",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Nuance — huidig regime (boekjaren vanaf 1-1-2016, KB 18-12-2015 + CBN 2016/16)**: kosten van **onderzoek** mogen **niet meer** worden geactiveerd en gaan rechtstreeks naar de resultatenrekening. Alleen kosten van **ontwikkeling** komen nog voor activering in aanmerking. Onder het huidig regime zou post 1 (vooronderzoek 20.000) dus **als kost** worden geboekt; enkel posten 2, 3 en 4 (samen 275.000) — voor zover toerekenbaar aan de ontwikkelingsfase — zouden activeerbaar zijn. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 95 KB W.Venn.** (regime 2013): kosten van onderzoek, vervaardiging en ontwikkeling van prototypes en producten die nuttig zijn voor de toekomstige activiteiten van de onderneming. **Vervaardigingsprijs** = directe materiaal- en productiekosten (incl. lonen en sociale lasten van het toegerekend personeel). Voor huidig regime: KB 18-12-2015 + CBN-advies 2016/16.",
+                "type": "grondslag",
+                "wetsref": "art. 95 KB W.Venn. (2013); art. III.89 KB WVV (huidig)"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Rubriek 21 — Immateriële vaste activa** (tot op 2 cijfers). Volledig: rekening **210 — Kosten van onderzoek en ontwikkeling**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "Het MAR (Minimum Algemeen Rekeningstelsel) ordent immateriële vaste activa onder rubriek **21**, met als sub-rekeningen: **210** kosten van onderzoek en ontwikkeling — **211** concessies, octrooien, licenties, knowhow, merken en soortgelijke rechten — **212** goodwill — **213** vooruitbetalingen. Het prototype valt onder **210**. 🔗\n\nTegenboeking bij interne vervaardiging: **72 — Geproduceerde vaste activa** (de zelf geproduceerde delen worden via deze rekening uit de kosten gehaald en als investering opgenomen).",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "MAR — KB van 12-09-1983 (en latere wijzigingen) op de jaarrekening van ondernemingen, rubriek 21 van de balans en de bijhorende algemene rekeningen.",
+                "type": "grondslag",
+                "wetsref": "MAR — rubriek 21 (immateriële vaste activa)"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md",
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Er is geen wettelijke minimum-afschrijvingstermijn**. De afschrijving gebeurt volgens een door het bestuursorgaan opgesteld plan, dat de aanschaffingskosten **spreidt over de waarschijnlijke nuttigheids- of gebruiksduur** (art. 28 § 1 + art. 45 § 1 KB W.Venn.). In de praktijk hanteert men onder het regime 2013 doorgaans **5 jaar** als afschrijvingsperiode; een spreiding over **meer dan 5 jaar** vereist een verantwoording in de toelichting. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil — minimum vs. maximum**: de wet legt geen **minimum** op (een onderneming mag versneld afschrijven indien de economische gebruiksduur korter is). De **5 jaar** is een grensdrempel: spreiding **langer dan 5 jaar** moet in de toelichting worden verantwoord — het is dus geen wettelijk maximum, maar wel een **verantwoordingsplicht-grens**. 🔗\n\nHet meest verwachte examenantwoord (regime 2013): **5 jaar** — als de gebruiksduur van het prototype niet uitdrukkelijk korter wordt geraamd.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Nuance — huidig regime**: sinds boekjaren vanaf 1-1-2016 bepaalt het KB W.Venn. (gewijzigd door KB 18-12-2015) dat kosten van **ontwikkeling**, indien hun gebruiksduur niet met zekerheid kan worden geraamd, worden afgeschreven over een **maximum van 10 jaar** (CBN 2016/16). De **5 jaar + toelichting**-regel uit het oude regime is daarmee vervangen door een hard **plafond van 10 jaar**. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md",
+                  "resources/bronnen/adviezen/CBN-2016-16-kosten-van-onderzoek-en-ontwikkeling-wijzigingen-door-het-koninklijk-besluit-van-18.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 28 § 1 + art. 45 § 1 + art. 61 § 1 KB W.Venn. (regime 2013): afschrijving over waarschijnlijke gebruiksduur, geen minimum, toelichting verplicht bij spreiding > 5 jaar. CBN 2010/15 (afschrijvingsmethoden) en CBN 2012/13 (immateriële vaste activa). Huidig regime: KB 18-12-2015 + CBN 2016/16 (max. 10 jaar bij onzekere gebruiksduur).",
+                "type": "grondslag",
+                "wetsref": "art. 28, 45, 61 KB W.Venn. (2013); KB 18-12-2015 (huidig)"
+              }
+            ],
+            "id": "d"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Geen activering**: indien commerciële haalbaarheid niet aangetoond is, is **niet voldaan aan de cumulatieve activeringsvoorwaarden** (geen nut/toekomstig economisch voordeel aantoonbaar). De reeds gemaakte kosten — aankopen en personeelskosten — blijven daarom **als kost van het boekjaar** in de resultatenrekening (rubrieken **60** aankopen, **62** bezoldigingen). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Twee scenario's** — afhankelijk van het moment van het besluit:\n\n1. **Nog niet geactiveerd** (besluit vóór einde boekjaar, geen vaste-activa-boeking gemaakt): de kosten blijven gewoon in de resultatenrekening waar ze al stonden — **60** aankopen materiaal, **62** lonen + sociale lasten. Geen tegenboeking via **72** Geproduceerde vaste activa. Dit is het scenario dat de vraag impliceert (\"voortijdig besloten\"). 🔗\n2. **Reeds geactiveerd in een vorig boekjaar** (en pas later blijkt de onhaalbaarheid): de geactiveerde rekening **210** moet via een **uitzonderlijke afschrijving** of **bijzondere waardevermindering** (rekening **660** uitzonderlijke afschrijvingen op immateriële vaste activa) volledig worden afgeboekt — duurzaam waardeverlies. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Voorzichtigheidsbeginsel** — de kern: activering van O&O steunt op de verwachting van **toekomstige economische voordelen**. Zodra die verwachting wegvalt (geen commerciële haalbaarheid), vervalt de grondslag voor activering. Doorrollen van de geactiveerde kosten zou een **geflatteerd actief** op de balans plaatsen en is strijdig met het voorzichtigheids- en getrouwe-beeld-beginsel (art. 3:1 KB WVV / art. 24 KB W.Venn. regime 2013). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2012-13-de-boekhoudkundige-verwerking-van-immateriele-vaste-activa.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Cumulatieve activeringsvoorwaarden — CBN 2012/13 rn. 8 (nut + individualiseerbaar + technische haalbaarheid + intentie + voorzichtige raming gebruikswaarde). Art. 60 KB W.Venn. (2013): activering enkel voor zover de kostprijs niet hoger is dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement. Bijzondere waardevermindering op IVA: art. 64 KB W.Venn.",
+                "type": "grondslag",
+                "wetsref": "art. 60, 64 KB W.Venn. (2013); CBN 2012/13"
+              }
+            ],
+            "id": "e"
+          }
+        ],
+        "vraag_id": "2013-1-vr3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -689,7 +1002,138 @@
       "vraag_id": "2013-1-vr4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:27:21Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Intrinsieke waarde** van een aandeel = het **boekhoudkundig eigen vermogen** van de vennootschap (activa minus alle schulden, zoals het uit de jaarrekening blijkt), **gedeeld door het aantal uitstaande aandelen**. Het is de boekwaarde per aandeel — wat één aandeel theoretisch vertegenwoordigt aan netto-vermogen op een gegeven balansdatum. 🔗",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Intrinsieke waarde is een **balansgebaseerde** waarde (historische kostprijs, eventueel met herwaarderingsmeerwaarden), niet de **marktwaarde** (beurskoers) en niet de **economische waarde** (DCF of rendementswaarde). Bij waardering van niet-genoteerde aandelen wordt ze vaak als één van meerdere methodes gehanteerd, naast rendementswaarde en gemiddelde waarde. 🤖",
+                "type": "motivatie"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-12-boekhoudkundige-verwerking-van-splitsingen-van-vennootschappen.md",
+                  "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Fractiewaarde** van een aandeel = het **kapitaal** van de vennootschap **gedeeld door het aantal aandelen** dat het kapitaal vertegenwoordigt. 📖 Voor vennootschappen **zonder kapitaal** (BV, CV) wordt fractiewaarde gelijkgesteld met: de **inbrengwaarde** (uit de jaarrekening) van alle door vennoten/aandeelhouders toegezegde inbrengen in geld of in natura (excl. inbreng in nijverheid), in voorkomend geval verhoogd met de statutair onbeschikbare reserves, gedeeld door het aantal aandelen (art. 12:4 en 12:5 WVV). 📖",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md",
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "Fractiewaarde is **boekhoudkundig**, niet markt- of intrinsiek. Ze speelt vooral een rol in fusie-/splitsings-/inbrengverrichtingen: de **opleg in geld** mag niet meer bedragen dan **1/10 van de nominale waarde, of bij gebrek daaraan van de fractiewaarde** van de toegekende aandelen (art. 12:7 WVV; ook art. 95 WIB92 voor fiscale neutraliteit van aandelenruil). 🔗",
+                "type": "motivatie"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Netto rendabiliteit van de bedrijfsactiva** = (**bedrijfsresultaat na belastingen / totaal van de activa**) — meet de **economische rentabiliteit** van het in de onderneming geïnvesteerde vermogen, **zonder beïnvloeding door de financieringswijze** (rente-effect wordt geneutraliseerd) en na fiscale druk. De CBN-formulering: nettoresultaat van het boekjaar vóór belasting + kosten van schulden, gedeeld door totaal van de activa — geeft de variant **vóór belasting**; de **netto-na-belastingen-variant** trekt de belastingen er nog af. 🔗",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met **ROE** (rendabiliteit eigen vermogen — winst na belasting / eigen vermogen) noch met **brutorendabiliteit van de activa** (waar niet-kaskosten zoals afschrijvingen en waardeverminderingen worden teruggevoegd). De bedrijfsactiva-variant **neutraliseert kosten van schulden** in de teller — dat is precies wat een ROE-formule niet doet. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 2011/14, sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden'. 📖",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 2011/14"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Algemene schuldgraad** = **totaal van het vreemd vermogen / totaal van het passief (= totaal activa)**, meestal uitgedrukt als percentage. Ze meet welk **deel van het ondernemingsvermogen door schulden** (op korte én op meer dan één jaar, incl. voorzieningen) wordt gefinancierd. Het is het **complement van de solvabiliteitsratio** (= eigen vermogen / totaal passief): schuldgraad + solvabiliteit ≈ 100 %. 🔗",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Vermeldenswaard",
+                "tekst": "Naast de **algemene** schuldgraad bestaan ook deelmaten: **schuldgraad op lange termijn** (schulden > 1 jaar / totaal passief) en **schuldgraad op korte termijn**. De algemene variant is een **financiële-structuur-ratio** en zegt op zich nog niets over aflossingscapaciteit — daarvoor zijn cash-flow-ratio's (zoals dekking van financiële schulden door cash flow) nodig. 🤖",
+                "type": "motivatie"
+              }
+            ],
+            "id": "d"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Operationele cash flow vóór belastingen** = **bedrijfsresultaat (resultaat uit de gewone bedrijfsuitoefening vóór belasting en vóór financiële resultaten) + niet-kaskosten** (afschrijvingen, waardeverminderingen op vaste en vlottende activa, voorzieningen voor risico's en kosten). Het is de **kasstroom die de operationele activiteit zelf genereert**, vóór de impact van financieringskosten en fiscale druk — een proxy voor de cash-generatiecapaciteit van het bedrijf onafhankelijk van zijn financierings- en belastingstructuur. 🔗",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Niet verwarren met de **boekhoudkundige cash flow** (nettoresultaat na belasting + niet-kaskosten — een totaal-cashflow), noch met de **operationele cash flow uit het kasstroomoverzicht IAS 7** (indirecte methode, vertrekt van resultaat vóór belasting en corrigeert ook voor mutaties in werkkapitaal). De Belgische 'operationele cash flow vóór belastingen' uit de ratio-analyse corrigeert klassiek **niet** voor werkkapitaal-mutaties — het blijft een **resultaatsgebaseerde proxy**. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Definitie via CBN-advies 2011/14 (cashflow = nettoresultaat + niet-kaskosten); IAS 7 §10-13 voor de IFRS-variant met werkkapitaal-correcties (ter contrast). 📖",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 2011/14; IAS 7"
+              }
+            ],
+            "id": "e"
+          }
+        ],
+        "vraag_id": "2013-1-vr5"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
