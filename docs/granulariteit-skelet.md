@@ -104,12 +104,17 @@ reorganisatie                            [Σ-cluster, 4 records — cross PO 3.0
 ├── splitsing                            [G+R]               3 modaliteiten incl. partiële splitsing
 └── fiscale-fusie-splitsing              [R]                 fiscale neutraliteit-regime · voorwaarden · EU-context
 
-fiscale-voordelen-vennootschap           [Σ-cluster ⏳]
-├── dbi-aftrek                           ⏳
-├── innovatie-aftrek                     ⏳
-├── investeringsaftrek                   ⏳
-├── notionele-interestaftrek             ⏳ (historisch)
-└── gespreide-belasting-meerwaarden      ⏳
+fiscale-voordelen-vennootschap           [Σ-cluster, 10 records — cross PO 2.3]
+├── fiscale-voordelen-vennootschap       [Σ]                 keuzekader · aftrek-volgorde art 207 WIB · korf-regime
+├── verlaagd-tarief-kleine-vennootschap  [R]                 KMO-tarief 20% + bezoldigingsregel
+├── dbi-aftrek                           [R, ⏳ NIEUW]        100% vrijstelling deelnemings-dividenden
+├── notionele-interestaftrek             [R]                 afgeschaft 2024 (overgang + historiek)
+├── innovatie-aftrek                     [R, ⏳ NIEUW]        85% octrooi-inkomsten
+├── investeringsaftrek                   [R]                 eenmalig vs gespreid per categorie
+├── gespreide-belasting-meerwaarden      [R, ⏳ NIEUW]        art 47 WIB herinvestering
+├── liquidatiereserve                    [R]                 10%/5%-anti-liquidatie-tarief (cross winstuitkering)
+├── vvprbis                              [R]                 15% RV kleine venn nieuw kapitaal (cross winstuitkering)
+└── meerwaarde-aandelen-venb             [R]                 (OP-K.6 opgelost) vrijstellings-voorwaarden
 
 anti-misbruik                            [⏳]
 ├── algemene-anti-misbruik-bepaling      ⏳
@@ -208,7 +213,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | vennootschapsgeschillen | 1 | PO 3.0.VIII | [§Vennootschapsgeschillen-cluster](#vennootschapsgeschillen-cluster) |
 | insolventie | 7 (incl. nieuwe `faillissement`) | PO 3.0.IX + X | [§Insolventie-cluster](#insolventie-cluster) |
 | winstuitkering | 3 (NIEUW Σ + winstbestemming + tantième; 4 cross-records) | PO 3.0.IV.B + cross 2.3 + 2.1 | [§Winstuitkering-cluster](#winstuitkering-cluster) |
-| **reorganisatie** | **4** (Σ + fusie + splitsing + fiscale-fusie-splitsing) | **cross PO 3.0.taak.2/3 + 2.3.III.B + 2.8.XVI + 1.4** | [**§Reorganisatie-cluster**](#reorganisatie-cluster) |
+| reorganisatie | 4 (Σ + fusie + splitsing + fiscale-fusie-splitsing) | cross PO 3.0.taak.2/3 + 2.3.III.B + 2.8.XVI + 1.4 | [§Reorganisatie-cluster](#reorganisatie-cluster) |
+| **fiscale-voordelen-vennootschap** | **10** (Σ + 9 regimes — 4 nieuw) | **cross PO 2.3.II + III + taak.3** | [**§Fiscale-voordelen-vennootschap-cluster**](#fiscale-voordelen-vennootschap-cluster) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 
@@ -1235,6 +1241,61 @@ reorganisatie                             [Σ-cluster, 4 records]
 - **OP-RE.A** ⏳ `partiële-splitsing` als sub-sectie van `splitsing` (huidig) of eigen record (cross naar `inbreng-bedrijfstak`)? Substantie-vraag bij content-uitwerking
 - **OP-RE.B** ⏳ `geruisloze-fusie` (vereenvoudigde dochter-fusie) als eigen record of sub-sectie van `fusie`? Voorlopig sub-sectie
 - **OP-RE.C** ⏳ `gerechtelijke-reorganisatie` vs `reorganisatie` — naam-overlap maar conceptueel verschillend (insolventie-context vs vrijwillig). Scope.out + cross-relatie volstaat; geen rename nodig
+
+### Fiscale-voordelen-vennootschap-cluster
+
+Thema: `fiscale-voordelen-vennootschap`. *Σ-cluster (cross PO 2.3.II + 2.3.III + 2.3.taak.3, 2026-05-26). VenB-tarief-modulerende aftrekken + regimes. Absorbeert `liquidatiereserve` + `vvprbis` als primaire-thuis (waren cross-thema winstuitkering). Lost open punt OP-K.6 op (`meerwaarde-aandelen-venb` als eigen record bevestigd).*
+
+```
+fiscale-voordelen-vennootschap            [Σ-cluster, 10 records — cross PO 2.3]
+│
+├── fiscale-voordelen-vennootschap        [Σ-hoofdrecord — NIEUW]
+│   ▸ overkoepelend keuzekader VenB-tarief-modulatie
+│   ▸ #vergelijkingsmatrix: KMO-tarief · DBI · NIA · innovatie · investering · gespreide-belasting · liquidatiereserve · VVPR-bis · meerwaarde-aandelen
+│   ▸ #aftrek-volgorde (fiscaal vastgelegde sequentie: art 207 WIB — DBI → innovatie → investering → overgedragen verliezen → NIA → gespreide belastingen → ...)
+│   ▸ #korf-regime sinds 2018 (beperking aftrekken boven 1.000.000€)
+│   ▸ keuze-criteria: voorwaarden · plafonds · termijnen · combineerbaarheid
+│
+├── verlaagd-tarief-kleine-vennootschap   [R]               KMO-tarief 20% eerste schijf 100k · voorwaarden kleine venn + 45.000-EUR-bezoldiging
+├── dbi-aftrek                            [R, ⏳ NIEUW]      aftrek Definitief Belaste Inkomsten — dividenden uit gekwalificeerde deelnemingen 100% vrijstelling
+├── notionele-interestaftrek              [R]               afgeschaft 2024 · nog relevant voor overdracht restant + examen-historiek
+├── innovatie-aftrek                      [R, ⏳ NIEUW]      85% vrijstelling netto-octrooi-inkomsten (oude: octrooi-aftrek 80%)
+├── investeringsaftrek                    [R]               verhoogde percentages per categorie · eenmalig vs gespreid · KMO-tarief
+├── gespreide-belasting-meerwaarden       [R, ⏳ NIEUW]      art 47 WIB — herinvestering binnen termijn = gespreide belasting
+├── liquidatiereserve                     [R]               10% afzonderlijke heffing nu + 5% RV bij uitkering ≥ 5j (anti-liquidatie-tarief uitwijking)
+├── vvprbis                               [R]               15% RV nieuw kapitaal kleine venn · 3j wachtperiode
+└── meerwaarde-aandelen-venb              [R]               (lost OP-K.6 op — eigen record bevestigd) vrijstelling onder voorwaarden · houdperiode · onderworpenheid · taxatie 25%/40% bij niet-naleving
+```
+
+**Cross-cluster**:
+- `vennootschap-groottecategorieen` (ondernemingsvormen) — bepaalt KMO-tarief-toepasselijkheid
+- `winstuitkering` — `liquidatiereserve` + `vvprbis` thema-shared
+- `aandeel` (kapitaalstructuur) — `meerwaarde-aandelen-venb` is fiscale dimensie van aandeel
+- `eigen-vermogen` (kapitaalstructuur) — NIA-historisch (afgeschaft maar grondslag was eigen-vermogen)
+- `dividend-uitkering` (winstuitkering) — DBI raakt ontvangen dividenden bij deelnemingen
+- `kapitaalverhoging` (kapitaalstructuur) — VVPR-bis triggert bij nieuw kapitaal
+- `reorganisatie` — `fiscale-fusie-splitsing` is verwante neutraliteits-regeling (apart cluster)
+- `aangifte-vennootschapsbelasting` — uitvoeringscontext van aftrek-volgorde
+- `anti-misbruik` ⏳ — voorwaarden + motivering bij aftrekken (algemene anti-misbruik-bepaling)
+
+**Schrappen / nieuwe records**:
+- 4 nieuwe records: `fiscale-voordelen-vennootschap` (Σ) + `dbi-aftrek` + `innovatie-aftrek` + `gespreide-belasting-meerwaarden`
+- 6 bestaande records absorberen als leden van Σ (geen rename, geen split)
+
+**Triangulatie 2026-05-26**:
+- Cross PO 2.3.II (VenB-aftrekken) + 2.3.III (fiscale verrichtingen) + 2.3.taak.3 (advies)
+- 6 bestaande regimes + 4 nieuwe = 10 cluster-eigen
+- Lost OP-K.6 (`meerwaarde-aandelen-venb`) op — eigen record bevestigd via Σ-positionering
+
+**Bronnen-pin**:
+- ✅ WIB art 192-217 (VenB-tarief + aftrekken + meerwaarden)
+- ✅ KB-WIB (uitvoeringsbesluiten)
+- ⏳ Circulaires en parl. vragen (interpretatieve bronnen)
+
+**Open punten**:
+- **OP-FV.A** ⏳ `notionele-interestaftrek` na 2024-afschaffing — behouden als historisch record (overgangsregime + examen-stof) of legacy-archiveren? Voorlopig behouden.
+- **OP-FV.B** ⏳ `korf-regime` (aftrek-beperking) als eigen sub-sectie van Σ vs eigen record? Voorlopig sub-sectie
+- **OP-FV.C** ⏳ Aftrek-volgorde (art 207 WIB) als zelfstandig algoritme/K-techniek-record? Voorlopig sub-sectie in Σ (anti-versnippering)
 
 ### Beroepsbeoefening-cluster
 
