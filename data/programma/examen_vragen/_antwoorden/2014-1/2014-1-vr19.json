@@ -1,0 +1,54 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr19",
+  "antwoord_datum": "2026-05-26T12:09:43Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Optie c** — beide vennootschappen moeten hun jaarrekening volgens het **volledig schema** opstellen. 🔗 De broers Legrand controleren samen beide BVBA's, waardoor 'Mise en Trop' en 'Coté Pratique' verbonden vennootschappen zijn; op geaggregeerde basis worden méér dan één van de groottecriteria overschreden, zodat geen van beide vennootschappen als 'klein' kan worden aangemerkt.",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Groottecriteria (W.Venn. art. 15, versie 2013 — drempels destijds: ≤ 50 personeel, omzet ≤ 7.300.000 EUR, balanstotaal ≤ 3.650.000 EUR; max 1 overschrijding = klein).** 🔗\n\n**Enkelvoudig 'Mise en Trop' bvba (2013):**\n- Personeel: 39 VTE ≤ 50 → onder drempel\n- Omzet: 7.450.000 > 7.300.000 → **boven drempel**\n- Balanstotaal: 640.000 ≤ 3.650.000 → onder drempel\n- → 1 overschrijding → enkelvoudig zou 'klein' zijn 🔗\n\n**Enkelvoudig 'Coté Pratique' bvba (2013):**\n- Personeel: 25 halftijds = 12,5 VTE → onder drempel\n- Omzet: 530.000 → onder drempel\n- Balanstotaal: niet gegeven, maar irrelevant → ruim 'klein' 🔗\n\n**Maar: verbonden vennootschappen (W.Venn. art. 11) — geaggregeerde toets verplicht (W.Venn. art. 15 §5, regime 2013):** 📖\n- Personeel: 39 + 12,5 = **51,5 > 50** → boven drempel\n- Omzet: 7.450.000 + 530.000 = **7.980.000 > 7.300.000** → boven drempel\n- Balanstotaal (geaggregeerd, vereenvoudigde methode): ≥ 640.000 → onder drempel\n- → **2 criteria overschreden** → géén van beide vennootschappen kan als 'klein' worden aangemerkt → **beide volledig schema** 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie:**\n- **a** (balans correct, zo voortdoen) → **FOUT**: de balans is opgesteld in verkort schema, maar dat is bij verbonden vennootschappen op enkelvoudige basis niet toegelaten zodra geaggregeerd > 1 criterium overschreden wordt. 🔗\n- **b** (enkel 'Mise en Trop' volledig) → **FOUT**: ook 'Coté Pratique', als verbonden vennootschap, moet volledig schema toepassen — de geaggregeerde toets geldt voor beide. 🔗\n- **c** (beide volledig) → **JUIST** — zie berekening. 🔗\n- **d** (enkel 'Coté Pratique' volledig) → **FOUT**: 'Coté Pratique' overschrijdt op enkelvoudige basis géén drempel en is op zich klein; de aggregatie dwingt beide in volledig schema. 🔗\n- **e** (geconsolideerde jaarrekening neerleggen) → **FOUT**: de consolidatieplicht (W.Venn. art. 110 e.v.) volgt eigen criteria en is hier niet gevraagd. Bovendien zijn deze BVBA's wellicht onder de consolidatiedrempels; de vraag betreft het schema van de **enkelvoudige** jaarrekening, niet consolidatie. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Aggregatie versus consolidatie verwarren.** Op enkelvoudige basis is 'Mise en Trop' net 'klein' (slechts omzet boven drempel = 1 overschrijding), en 'Coté Pratique' is sowieso 'klein'. Wie de aggregatie-regel mist, kiest verkeerdelijk optie a of b. ❓ Tweede valkuil: optie e suggereert dat 'verbonden' automatisch 'consolidatieplicht' betekent — fout, dat zijn aparte regels met eigen drempels en uitzonderingen (W.Venn. art. 113 — vrijstelling kleine groep). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**W.Venn. art. 15 §1 en §5 (versie 2013)** — groottecriteria + verplichte beoordeling op geconsolideerde/geaggregeerde basis voor verbonden vennootschappen. **W.Venn. art. 11** — verbonden vennootschappen (gemeenschappelijke controle, ook door natuurlijke personen via centrale leiding). **CBN-advies 2017/10** — methodiek voor beoordeling groottecriteria bij verbondenheid. 📖 *Noot regime-evolutie: sinds W.Venn.-wijziging 2016 (omgezet in WVV art. 1:24 §6) geldt de geaggregeerde toets enkel nog voor moedervennootschappen sensu stricto — niet meer voor alle verbonden vennootschappen. Voor het examenboekjaar 2013 blijft het oude regime gelden.* 🔗",
+          "wetsref": "W.Venn. art. 11; W.Venn. art. 15 (versie 2013)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata.md",
+            "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "_poc_notitie": "PNG pagina_13 actief gelezen — balans, omzettabel en 5 MC-opties bevestigd. tekst.txt-OCR markeerde optie a als 'Antwoord' (artefact van antwoordruimte), genegeerd. De drempels voor 2013 (W.Venn. art. 15 versie pre-2016: omzet 7.300.000, balanstotaal 3.650.000, 50 VTE) zijn op basis van algemene domeinkennis ingevuld — RAG-bronnen leverden vooral het hedendaagse WVV-regime; voor de exacte historische drempels van 2013 ware een lookup in een Cijferzakboekje 2013 of W.Venn. archief-versie wenselijk geweest. Confidence-token 'afgeleid' op de cijferanalyse weerspiegelt deze afhankelijkheid van algemene kennis voor de drempelwaarden."
+}

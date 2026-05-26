@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2008-bibf.pdf",
   "examen_id": "2008-bibf",
-  "merge_datum": "2026-05-26T10:30:42+00:00",
+  "merge_datum": "2026-05-26T12:11:24+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -252,6 +252,23 @@
           "voorraadwijziging",
           "jaarafsluiting"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2008-bibf-vrA3",
         "vraag_onderwerp": "Boeking van voorraadwijzigingen",
@@ -396,7 +413,95 @@
       "vraag_id": "2008-bibf-vrB1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Vennootschap A **moet het volledig schema** gebruiken: met 120 voltijdse equivalenten overschrijdt zij de personeelsdrempel (50 VTE) en kwalificeert daardoor als **grote vennootschap**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Een vennootschap is klein als zij op balansdatum **maximaal één** van drie groottecriteria overschrijdt (personeel 50 VTE, omzet excl. BTW 9.000.000 EUR, balanstotaal 4.500.000 EUR). 📖 A heeft 120 VTE → personeelscriterium overschreden, en als moedervennootschap moet zij bovendien op **geconsolideerde basis** toetsen (omzet en balanstotaal van de groep meetellen of vereenvoudigde +20%-methode toepassen). 🔗 Zelfs zonder die consolidatie volstaat het personeelscriterium om als groot te kwalificeren — kwalificatie als 'klein' is uitgesloten zodra **meer dan één** criterium wordt overschreden gedurende twee opeenvolgende boekjaren (art. 1:24 §2 WVV). 📖 Grote vennootschappen gebruiken het volledig schema (bijlage 1 KB-WVV). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard.** Een moedervennootschap kan **nooit** een microvennootschap zijn (art. 1:25 §1 WVV vereist 'geen dochter of moeder'). 📖 A is dus ofwel klein (verkort schema) ofwel groot (volledig schema), maar nooit micro.",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 1:24 §1 WVV (groottecriteria klein), art. 1:24 §6 WVV (geconsolideerde toetsing voor moedervennootschappen), art. 1:25 §1 WVV (microvennootschap kan geen moeder zijn), KB-WVV bijlage 1 (volledig schema) en bijlage 2 (verkort schema). CBN-advies 2022/03 verfijnt de toetsing op geconsolideerde of geaggregeerde basis (+20%-methode).",
+                "type": "grondslag"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Vennootschap B **mag het verkort schema** gebruiken: op enkelvoudige basis (5 VTE, 2.000.000 EUR omzet) overschrijdt zij geen enkel criterium en kwalificeert zij als **kleine vennootschap**. Als dochter van A kan zij echter géén microvennootschap zijn. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De groottetoetsing op geconsolideerde of geaggregeerde basis geldt enkel voor **moedervennootschappen** (art. 1:24 §6 WVV — CBN 2022/03: \"de andere verbonden vennootschappen — hoofdzakelijk de dochtervennootschappen — worden niet beoogd door deze uitzondering\"). 📖 B wordt dus op **enkelvoudige basis** beoordeeld: 5 VTE (< 50), 2 mio EUR omzet (< 9 mio), balanstotaal onbekend maar gegeven de schaal vermoedelijk onder 4,5 mio. 🔗 Geen enkel criterium overschreden → klein → **verkort schema** (bijlage 2 KB-WVV). 🔗 Microschema is uitgesloten omdat B een dochtervennootschap is (art. 1:25 §1 WVV). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil.** Het is verleidelijk te denken dat de dochter de grootte van de moeder 'erft' — dat klopt niet. De geconsolideerde toetsing geldt enkel bij de moeder zelf; de dochter blijft op enkelvoudige basis beoordeeld voor klein/groot. Wat de dochter wél verliest door het loutere feit dochter te zijn, is de microkwalificatie. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 1:24 §1 en §6 WVV (groottecriteria + scope geconsolideerde toetsing beperkt tot moedervennootschappen), art. 1:25 §1 WVV (microvennootschap: geen moeder of dochter), KB-WVV bijlage 2 (verkort schema). CBN-advies 2022/03 §Toepassingsgebied: dochters worden niet beoogd door de uitzondering op geconsolideerde basis.",
+                "type": "grondslag"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrB2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -459,7 +564,92 @@
       "vraag_id": "2008-bibf-vrB2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:08:57Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Het ereloon van de commissaris (12.000 EUR excl. BTW) wordt geboekt in **rubriek 61 'Diensten en diverse goederen'**, sub-rekening **61310 'Erelonen en dienstverleningen'** (binnen 613 'Vergoedingen aan derden'). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De commissaris is een externe dienstverlener (bedrijfsrevisor) met een controle-mandaat — geen werknemer en geen bestuurder/zaakvoerder. Zijn ereloon valt dus **niet** onder rekening 618 (bezoldigingen van bestuurders, zaakvoerders en werkende vennoten) en evenmin onder klasse 62 (personeelsbezoldigingen krachtens arbeidsovereenkomst), maar onder de erelonen aan derden in klasse 61. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Minimum Algemeen Rekeningstelsel (KB 21.10.2018, Bijlage 1) — klasse 6, rubriek **61 Diensten en diverse goederen**, post **613 Vergoedingen aan derden**, sub-rekening **61310 Erelonen en dienstverleningen**.",
+                "type": "grondslag",
+                "wetsref": "MAR — KB 21.10.2018 Bijlage 1, rekening 61310"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Ja.** De honoraria van de commissaris moeten worden vermeld in de **toelichting bij de jaarrekening**. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0111-01-bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen.md",
+                  "resources/bronnen/adviezen/CBN-0111-02-toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet.md",
+                  "resources/bronnen/adviezen/CBN-2016-15-vergoedingen-aan-bestuurders-en-werkende-vennoten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Twee samenlopende vermeldingsplichten:\n\n1. **Honoraria-vermelding (commissaris-specifiek)**: de bij aanvang van de opdracht door de algemene vergadering vastgestelde honoraria worden uitdrukkelijk vermeld in de toelichting (art. 3:65 WVV / oud art. 134 W.Venn., parafrase MvT bij art. 3:62 §2). 📖\n2. **Globale bezoldigingsvermelding (bestuurders + commissarissen samen)**: het globale bedrag van de rechtstreekse en onrechtstreekse bezoldigingen toegekend aan beheerders, zaakvoerders en commissarissen moet in de toelichting worden opgenomen, voor zover de vermelding niet uitsluitend of hoofdzakelijk betrekking heeft op één enkel identificeerbaar persoon (CBN-advies 111/1 en 111/2, bevestigd door CBN-advies 2016/15). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0111-02-toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Vermeldenswaard — uitzondering 'identificeerbaar persoon'**: wanneer de vennootschap één enkele commissaris heeft en geen andere bezoldigde bestuurders/zaakvoerders, kan de globale-bezoldigingsvermelding (CBN 111/2) worden weggelaten omdat ze dan uitsluitend de toestand van één identificeerbaar persoon zou bloot leggen. De honoraria-vermelding van de commissaris (art. 3:65 WVV) blijft echter onverkort gelden — dat is een afzonderlijke transparantieverplichting die niet onder die uitzondering valt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-0111-01-bezoldigingen-toegekend-aan-bestuurders-en-commissarissen-bedoelde-bezoldigingen.md",
+                  "resources/bronnen/adviezen/CBN-0111-02-toepassing-van-de-uitzondering-waarin-punt-17-van-de-toelichting-voorziet.md",
+                  "resources/bronnen/adviezen/CBN-2016-15-vergoedingen-aan-bestuurders-en-werkende-vennoten.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Honoraria commissaris**: art. 3:65 WVV (oud art. 134 W.Venn., toepasselijk in 2008) — honoraria vastgesteld bij aanvang opdracht, vermelding in toelichting. **Globale bezoldigingsvermelding bestuurders + commissarissen**: KB 8 oktober 1976 op de jaarrekening (toepasselijk in 2008; nadien geconsolideerd in KB 30.01.2001 en uitvoeringsbesluit WVV), uitgelegd door CBN-advies 111/1, 111/2 en (later) 2016/15.",
+                "type": "grondslag",
+                "wetsref": "Art. 3:65 WVV (oud art. 134 W.Venn.); KB 8.10.1976; CBN-advies 111/1, 111/2, 2016/15"
+              }
+            ],
+            "id": "b",
+            "oordeel": true
+          }
+        ],
+        "vraag_id": "2008-bibf-vrB3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -521,7 +711,54 @@
       "vraag_id": "2008-bibf-vrB3"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2008-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De op te nemen kost (rubriek opleiding van de sociale balans, codes 5821/5822 — formele voortgezette beroepsopleiding) = **(a) directe opleidingskosten** (inschrijvingsgeld voor het seminarie + cursusmateriaal + eventuele verplaatsings- en verblijfkosten) **+ (b) loonkost van de afwezige werknemer voor de duur van het seminarie** (brutoloon pro rata + werkgeversbijdragen, want de opleiding vindt plaats *tijdens* de diensturen), **− (c) ontvangen of verworven tussenkomsten/subsidies** (bv. KMO-portefeuille, opleidingscheques, sectorfondsen). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+                  "resources/bronnen/adviezen/CBN-2013-08-de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Stappenplan voor de berekening:\n\n1. **Directe externe kost van het seminarie**: factuur van de externe opleidingsverstrekker (inschrijvingsgeld, syllabus, didactisch materiaal) — wordt typisch geboekt op **rekening 61** *Diensten en diverse goederen*. 🔗\n2. **Bijhorende kosten**: verplaatsingen, maaltijden en eventuele verblijfkosten van de deelnemers verbonden aan het seminarie. 🔗\n3. **Loonkost tijdens de opleidingsuren**: omdat het seminarie *tijdens de diensturen* plaatsvindt, blijft de werkgever het loon (en de werkgeversbijdragen) betalen zonder productieve prestatie. Bereken pro rata: (brutoloon + RSZ-werkgever + andere directe personeelskosten) × (opleidingsuren / totale arbeidsuren in de periode). Deze loonkost is reeds in rubriek 102 *Personeelskosten* opgenomen via rekening 62, maar moet voor de opleidingsrubriek **afzonderlijk** worden uitgesplitst per opleidingsuur. 🔗\n4. **Verminderen met tussenkomsten**: opleidingssubsidies, opleidingscheques (cfr. CBN 2013/8) en sectorale tussenkomsten worden in mindering gebracht om de **nettokost ten laste van de vennootschap** te bekomen. 🔗\n5. Het aantal **opleidingsuren** (codes 5811/5812) wordt parallel afzonderlijk geregistreerd; het bedrag (5821/5822) wordt uitgedrukt in euro. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "tekst": "**Vermeldenswaard** — Het seminarie is een **formele voortgezette beroepsopleiding** (extern georganiseerd, met vooraf bepaald programma, buiten de werkplek) en komt dus in de specifieke rubriek voor formele opleiding (codes 58.01–58.31 in het volledig schema). Dat is anders dan informele opleiding (on-the-job, codes 58.40-reeks) of initiële opleiding (codes 58.50-reeks): de wet onderscheidt expliciet drie categorieën, elk met eigen uren-, deelnemers- en kost-codes. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+                  "resources/bronnen/adviezen/CBN-2013-08-de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**CBN-advies S100** *Vragen en antwoorden over de sociale balans* — bepaalt welke kosten in welke rubriek thuishoren en bevestigt dat de personeelskosten in rubriek 102 alles omvatten wat naar de aard op rekening 62 wordt geboekt (bezoldigingen + werkgeversbijdragen + bovenwettelijke verzekeringen + andere personeelskosten). 📖 Voor de opleidingscomponent specifiek: KB 30 januari 2001 (uitvoering W.Venn., nu KB/WVV 29 april 2019) art. 3:71 e.v. — model van de sociale balans, met aparte rubrieken voor de kosten van formele, informele en initiële beroepsopleiding. 🔗 Voor tussenkomsten/subsidies: CBN-advies 2013/8 over opleidingscheques (subsidie wordt als bedrijfsopbrengst 740 geboekt → nettokost = brutokost − subsidie). 📖",
+                "type": "grondslag",
+                "wetsref": "CBN-advies S100; KB/WVV 29 april 2019, art. 3:71 e.v.; CBN-advies 2013/8"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2008-bibf-vrB4"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1233,6 +1470,19 @@
           "netto-inkomen",
           "onderhoudsgelden"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2008-bibf-vrF3",
         "vraag_onderwerp": "Berekening belastingvoordeel dienstencheques voor een echtpaar",
@@ -1651,6 +1901,19 @@
           "maaltijdcheques",
           "KMO"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2008-bibf-vrG1",
         "vraag_onderwerp": "Belastbare basis vennootschapsbelasting: fiscale aangifte voor KMO Green",

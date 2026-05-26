@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10E",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Geen effect** op de bruto verkoopmarge (optie **c**). 🔗 Afschrijvingen op gebouwen worden geboekt op rekening **6302 — Afschrijvingen op materiële vaste activa** (rubriek 63 van de resultatenrekening). Die rubriek staat **onder** de bruto verkoopmarge en raakt de marge dus niet. Dat de onderneming verlieslatend is, verandert hier niets aan — de plaats van de kost in het schema is structureel, niet resultaatafhankelijk. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n- **a (Stijging)** — FOUT. Een hogere kost kan een marge nooit doen stijgen; en bovendien zit de kost niet in de teller van de marge. ❌\n- **b (Daling)** — FOUT. Aannemelijke valstrik (\"hogere kost = lagere marge\"), maar de afschrijving op gebouwen behoort tot rubriek 63, niet tot de **kostprijs van de verkochte goederen** (rubriek 60 + voorraadwijzigingen). De bruto verkoopmarge = omzet − kostprijs verkochte goederen blijft dus ongewijzigd. 🔗\n- **c (Geen)** — JUIST. De extra afschrijving treft de bedrijfswinst (rubriek 9901), niet de bruto marge. 🔗\n- **d (Stijging mits geboekt als bedrijfskost)** — FOUT. Onzin-conditie: afschrijvingen op gebouwen wórden per definitie als bedrijfskost (rubriek 63) geboekt, en dat plaatst ze net **onder** de bruto marge → effect = nul, geen stijging. Een hogere kost laat de marge nooit stijgen, ongeacht waar hij in het schema staat. ❌",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Bruto verkoopmarge ≠ bedrijfsresultaat.** De bruto marge meet enkel het verschil tussen omzet en directe inkoop-/voorraadkost (60/61). Alles wat in rubrieken 62 (personeel), 63 (afschrijvingen/waardeverminderingen), 64 (andere bedrijfskosten) zit, beïnvloedt het **bedrijfsresultaat** maar **niet** de bruto marge. Zelfde redenering geldt voor lonen, huur en waardeverminderingen op vorderingen: die zakken de winst, niet de bruto marge. 🔗 De verwijzing naar \"verlieslatend\" in de vraagstelling is een afleider — verlieslatendheid verandert het schema niet. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Boeking afschrijvingen materiële vaste activa op rekening **6302** (MAR-ondernemingen, KB 21.10.2018 Bijlage 1, klasse 6 — rubriek 63 \"Afschrijvingen en waardeverminderingen op oprichtingskosten, op immateriële en materiële vaste activa\"). 📖 De resultatenrekening-rubrieken 60 (handelsgoederen, grond- en hulpstoffen) + 61 (diensten en diverse goederen) zijn de kostprijs verkochte goederen die in de bruto verkoopmarge ingaat; rubrieken 62-64 vallen erbuiten. 🔗 Concept-definitie afschrijvingen: KB WVV art. 3:23 — spreiden van aanschaffingswaarde over waarschijnlijke gebruiksduur. 📖",
+          "wetsref": "MAR (KB 21.10.2018 Bijlage 1) klasse 6; KB WVV art. 3:23",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

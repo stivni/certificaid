@@ -1,0 +1,75 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr14",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Adviseer de cliënt om de vier ontbrekende jaarrekeningen **onmiddellijk en in chronologische volgorde** te laten goedkeuren door de algemene vergadering (zo nodig retroactief vaststellen) en elektronisch neer te leggen bij de Balanscentrale van de Nationale Bank van België, met betaling van de tariefbijdrage voor laattijdige neerlegging per boekjaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "Concrete stappen:\n\n1. **Reconstrueer** de jaarrekeningen van de vier ontbrekende boekjaren (balans, resultatenrekening, toelichting volgens het toepasselijke schema). 🤖\n2. **Roep een (bijzondere) algemene vergadering** bijeen om elke jaarrekening goed te keuren. 🔗\n3. **Leg elk van de vier jaarrekeningen elektronisch neer** bij de Balanscentrale (NBB) — één neerlegging per boekjaar, in volgorde van oudste naar recentste. 🔗\n4. **Betaal de tariefbijdrage** voor laattijdige neerlegging per boekjaar (art. 3:13 WVV). 📖\n5. **Documenteer de regularisatie** zodat ze kan worden voorgelegd indien het openbaar ministerie of een belanghebbende reeds een ontbindingsvordering inleidde of nog wil inleiden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Het advies is dringend omdat niet-neerlegging drie cumulerende risico's blootlegt: (i) een **financiële tariefbijdrage** per laattijdig boekjaar, (ii) **burgerlijke aansprakelijkheid van het bestuursorgaan** jegens derden voor schade door de niet-neerlegging, en (iii) een **gerechtelijke ontbinding** van de BV op vordering van iedere belanghebbende of het openbaar ministerie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Drie sanctie-sporen:**\n\n- **Tariefbijdrage laattijdige neerlegging** — art. 3:13 WVV: per boekjaar waarvan de jaarrekening laattijdig wordt neergelegd is een forfaitaire bijdrage verschuldigd, gestaffeld volgens de overschrijdingsduur en de groottecategorie van de vennootschap (bedragen in het Cijferzakboekje). 📖\n- **Burgerlijke aansprakelijkheid bestuurders** — bij overschrijding van de termijnen van art. 3:1 § 1 (jaarrekening voorleggen aan AV binnen 6 maanden) en art. 3:10/3:12 WVV (neerlegging binnen 30 dagen na goedkeuring, uiterlijk 7 maanden na boekjaarafsluiting) wordt **de schade geleden door derden geacht voort te vloeien uit de niet-neerlegging**, behoudens tegenbewijs. 🔗\n- **Gerechtelijke ontbinding** — art. 2:74 WVV: de ondernemingsrechtbank kan, op vordering van iedere belanghebbende of het openbaar ministerie (of na mededeling door de kamer voor ondernemingen in moeilijkheden), de ontbinding uitspreken van een vennootschap die haar neerleggingsplicht (art. 3:10/3:12) niet is nagekomen. De vordering kan worden ingesteld na verstrijken van de termijn van zeven maanden na boekjaarafsluiting; bij Mode Invest bvba zijn vier boekjaren overschreden, dus het risico is acuut. De rechtbank kan een regularisatietermijn toekennen, wat extra reden is om de neerlegging onmiddellijk in orde te brengen. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+            "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — De oude voorwaarde dat de niet-neerlegging gedurende **drie opeenvolgende boekjaren** moest hebben plaatsgevonden vooraleer een gerechtelijke ontbinding mogelijk was (oud art. 182 W.Venn.) **bestaat sinds de Wet van 17 mei 2017 niet meer**. Onder het huidige WVV (art. 2:74) volstaat één niet-neergelegd boekjaar opdat de vordering ontvankelijk is na het verstrijken van zeven maanden na boekjaarafsluiting. Dat de casus uit 2013 dateert, doet daar voor het advies vandaag niet aan af: er moet getoetst worden aan het thans geldende WVV. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Neerleggingsplicht en termijn**: art. 3:10 en 3:12 WVV (elektronisch bij Balanscentrale NBB binnen 30 dagen na AV-goedkeuring, uiterlijk 7 maanden na boekjaarafsluiting). **Tariefbijdrage laattijdige neerlegging**: art. 3:13 WVV (bedragen Cijferzakboekje). **Bestuurdersaansprakelijkheid**: art. 3:1 § 1 jo. 3:10/3:12 WVV — schade derden vermoed voort te vloeien uit niet-neerlegging. **Gerechtelijke ontbinding**: art. 2:74 § 1 WVV (vordering door belanghebbende, OM of na mededeling kamer voor ondernemingen in moeilijkheden; regularisatietermijn mogelijk; vordering pas na zeven maanden na boekjaarafsluiting). 📖",
+          "wetsref": "art. 3:10, 3:12, 3:13, 3:1 § 1 en 2:74 WVV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

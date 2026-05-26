@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10D",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Vraagstelling is een herinneringsfragment ('JR kort model NBB voor kapitaal vennootschap wordt EV als volgt berekend:') zonder bewaarde opties of vervolg. Antwoord interpreteert de vraag als 'welke rubrieken vormen samen het eigen vermogen op de balans van het verkort NBB-model voor een kapitaalvennootschap' — de standaard-recall-vraag over de balansrubrieken I-VI.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "**Eigen vermogen (passiefrubriek 10/15) in het verkort NBB-model voor een kapitaalvennootschap** = som van de zes hoofdrubrieken: 🔗\n\n- **I. Inbreng** (10/11) — geplaatst kapitaal (10) + uitgiftepremies (11), onderverdeeld in volgestort en niet-opgevraagd 📖\n- **II. Herwaarderingsmeerwaarden** (12) 📖\n- **III. Reserves** (13) — wettelijke reserve + onbeschikbare reserves + belastingvrije reserves + beschikbare reserves (in het verkort schema **niet verder uitgesplitst** per subrubriek zoals in het volledig model) 🔗\n- **IV. Overgedragen winst (verlies)** (14) — met minteken bij verlies 📖\n- **V. Kapitaalsubsidies** (15) 📖\n- **VI. Voorschot aan de vennoten op de verdeling van het netto-actief** (alleen relevant bij vereffening) 🔗\n\nFormule: **EV = Inbreng + Herwaarderingsmeerwaarden + Reserves + Overgedragen resultaat + Kapitaalsubsidies (+/− Voorschot vereffening)**.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — verkort vs. volledig schema** ❓: het *verkort* model groepeert de reserves (rubriek III) zonder de in het volledig schema vereiste uitsplitsing naar wettelijke/onbeschikbare/belastingvrije/beschikbare reserves op de balans zelf — die detaillering verschijnt enkel in de toelichting. De hoofdrubrieken I-VI zijn echter **identiek** in volledig, verkort en micromodel. 🔗\n\n**Valkuil — kapitaalvennootschap vs. kapitaalloze vennootschap** ⚠️: sinds het WVV (1 januari 2020) hebben kapitaalloze vennootschappen (BV, CV) geen rubriek 'Kapitaal' meer; de inbreng wordt geboekt onder een 'statutair onbeschikbare eigen vermogensrekening'. De vraag specifieert expliciet **kapitaal**vennootschap (NV, Comm.VA, SE), waarvoor de klassieke rubriek I 'Kapitaal' wel blijft bestaan. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**KB WVV 29 april 2019, bijlage 2** (verkort schema balans, rubrieken I-VI van het passief) — de modellen worden door de NBB opgesteld na advies van de CBN en op haar website gepubliceerd. **CBN-advies 2020/01** geeft het overzicht van de samenstelling van het eigen vermogen per model (volledig, verkort, micro) en per vennootschapsvorm (kapitaal- vs. kapitaalloze vennootschap). 📖",
+          "wetsref": "KB WVV 29 april 2019, bijlage 2; CBN-advies 2020/01",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-01-neerlegging-van-de-enkelvoudige-jaarrekening-bij-de-nationale-bank-van-belgie-nieuwe.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

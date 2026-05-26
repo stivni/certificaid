@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2014-1.pdf",
   "examen_id": "2014-1",
-  "merge_datum": "2026-05-26T10:30:42+00:00",
+  "merge_datum": "2026-05-26T12:11:24+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -55,6 +55,15 @@
           "roerende voorheffing",
           "eigen vermogen"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr1",
         "vraag_onderwerp": "Vastklikken van reserves — verwerking in jaarrekening bij liquidatiereserve-maatregel",
@@ -494,6 +503,20 @@
           "liquiditeit in enge zin",
           "jaarrekening analyse"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "patroon": "kruis_aan",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr5",
         "vraag_onderwerp": "Financiële ratio's berekenen op basis van jaarrekening — toegevoegde waarde, nettobedrijfskapitaal, rentabiliteit, liquiditeit",
@@ -937,6 +960,29 @@
           "volledige consolidatie",
           "vermogensmutatiemethode"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "context_blok",
+              "waarde": "groepsschema"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "tabel"
+            },
+            {
+              "patroon": "vul_tabel_aan",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            },
+            {
+              "patroon": "het_schema_de_fig",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr8",
         "vraag_onderwerp": "Consolidatie — controlepercentage, belangenpercentage en consolidatiemethode bepalen",
@@ -1421,6 +1467,25 @@
           "CVOA",
           "VOF"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "patroon": "kruis_aan",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            },
+            {
+              "patroon": "het_schema_de_fig",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr15",
         "vraag_onderwerp": "Vennootschapsvormen — kenmerken per vennootschapsvorm invullen (aansprakelijkheid, winstbewijzen, neerlegging, financieel plan)",
@@ -1533,6 +1598,15 @@
           "raad van bestuur",
           "vennootschapsrecht"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr16",
         "vraag_onderwerp": "Toegestaan kapitaal — advies bij kapitaalverhoging door inlijving beschikbare reserves",
@@ -1763,6 +1837,27 @@
           "vennootschapsrecht",
           "verificatieverslag"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr18",
         "vraag_onderwerp": "Interimdividend — voorwaarden en procedure voor NV",
@@ -1813,7 +1908,60 @@
       "vraag_id": "2014-1-vr18"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "PNG pagina_13 actief gelezen — balans, omzettabel en 5 MC-opties bevestigd. tekst.txt-OCR markeerde optie a als 'Antwoord' (artefact van antwoordruimte), genegeerd. De drempels voor 2013 (W.Venn. art. 15 versie pre-2016: omzet 7.300.000, balanstotaal 3.650.000, 50 VTE) zijn op basis van algemene domeinkennis ingevuld — RAG-bronnen leverden vooral het hedendaagse WVV-regime; voor de exacte historische drempels van 2013 ware een lookup in een Cijferzakboekje 2013 of W.Venn. archief-versie wenselijk geweest. Confidence-token 'afgeleid' op de cijferanalyse weerspiegelt deze afhankelijkheid van algemene kennis voor de drempelwaarden.",
+        "antwoord_datum": "2026-05-26T12:09:43Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Optie c** — beide vennootschappen moeten hun jaarrekening volgens het **volledig schema** opstellen. 🔗 De broers Legrand controleren samen beide BVBA's, waardoor 'Mise en Trop' en 'Coté Pratique' verbonden vennootschappen zijn; op geaggregeerde basis worden méér dan één van de groottecriteria overschreden, zodat geen van beide vennootschappen als 'klein' kan worden aangemerkt.",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Groottecriteria (W.Venn. art. 15, versie 2013 — drempels destijds: ≤ 50 personeel, omzet ≤ 7.300.000 EUR, balanstotaal ≤ 3.650.000 EUR; max 1 overschrijding = klein).** 🔗\n\n**Enkelvoudig 'Mise en Trop' bvba (2013):**\n- Personeel: 39 VTE ≤ 50 → onder drempel\n- Omzet: 7.450.000 > 7.300.000 → **boven drempel**\n- Balanstotaal: 640.000 ≤ 3.650.000 → onder drempel\n- → 1 overschrijding → enkelvoudig zou 'klein' zijn 🔗\n\n**Enkelvoudig 'Coté Pratique' bvba (2013):**\n- Personeel: 25 halftijds = 12,5 VTE → onder drempel\n- Omzet: 530.000 → onder drempel\n- Balanstotaal: niet gegeven, maar irrelevant → ruim 'klein' 🔗\n\n**Maar: verbonden vennootschappen (W.Venn. art. 11) — geaggregeerde toets verplicht (W.Venn. art. 15 §5, regime 2013):** 📖\n- Personeel: 39 + 12,5 = **51,5 > 50** → boven drempel\n- Omzet: 7.450.000 + 530.000 = **7.980.000 > 7.300.000** → boven drempel\n- Balanstotaal (geaggregeerd, vereenvoudigde methode): ≥ 640.000 → onder drempel\n- → **2 criteria overschreden** → géén van beide vennootschappen kan als 'klein' worden aangemerkt → **beide volledig schema** 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie:**\n- **a** (balans correct, zo voortdoen) → **FOUT**: de balans is opgesteld in verkort schema, maar dat is bij verbonden vennootschappen op enkelvoudige basis niet toegelaten zodra geaggregeerd > 1 criterium overschreden wordt. 🔗\n- **b** (enkel 'Mise en Trop' volledig) → **FOUT**: ook 'Coté Pratique', als verbonden vennootschap, moet volledig schema toepassen — de geaggregeerde toets geldt voor beide. 🔗\n- **c** (beide volledig) → **JUIST** — zie berekening. 🔗\n- **d** (enkel 'Coté Pratique' volledig) → **FOUT**: 'Coté Pratique' overschrijdt op enkelvoudige basis géén drempel en is op zich klein; de aggregatie dwingt beide in volledig schema. 🔗\n- **e** (geconsolideerde jaarrekening neerleggen) → **FOUT**: de consolidatieplicht (W.Venn. art. 110 e.v.) volgt eigen criteria en is hier niet gevraagd. Bovendien zijn deze BVBA's wellicht onder de consolidatiedrempels; de vraag betreft het schema van de **enkelvoudige** jaarrekening, niet consolidatie. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "**Aggregatie versus consolidatie verwarren.** Op enkelvoudige basis is 'Mise en Trop' net 'klein' (slechts omzet boven drempel = 1 overschrijding), en 'Coté Pratique' is sowieso 'klein'. Wie de aggregatie-regel mist, kiest verkeerdelijk optie a of b. ❓ Tweede valkuil: optie e suggereert dat 'verbonden' automatisch 'consolidatieplicht' betekent — fout, dat zijn aparte regels met eigen drempels en uitzonderingen (W.Venn. art. 113 — vrijstelling kleine groep). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2017-10-groottecriteria-artikel-15-wvenn-verbonden-vennootschappen-verschillende-afsluitingsdata.md",
+                  "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria-overeenkomstig-artikelen-124-en-125-van-het-wetboek-van.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**W.Venn. art. 15 §1 en §5 (versie 2013)** — groottecriteria + verplichte beoordeling op geconsolideerde/geaggregeerde basis voor verbonden vennootschappen. **W.Venn. art. 11** — verbonden vennootschappen (gemeenschappelijke controle, ook door natuurlijke personen via centrale leiding). **CBN-advies 2017/10** — methodiek voor beoordeling groottecriteria bij verbondenheid. 📖 *Noot regime-evolutie: sinds W.Venn.-wijziging 2016 (omgezet in WVV art. 1:24 §6) geldt de geaggregeerde toets enkel nog voor moedervennootschappen sensu stricto — niet meer voor alle verbonden vennootschappen. Voor het examenboekjaar 2013 blijft het oude regime gelden.* 🔗",
+                "type": "grondslag",
+                "wetsref": "W.Venn. art. 11; W.Venn. art. 15 (versie 2013)"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr19"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": {
           "deelvraag_id": "a",
@@ -1941,6 +2089,23 @@
           "omzetdrempel",
           "BVBA"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "balans"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr19",
         "vraag_onderwerp": "Jaarrekening — volledig of verkort schema bij verbonden vennootschappen",
@@ -2221,6 +2386,19 @@
           "waardecorrectie",
           "omzettingsvereisten"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "balans"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr21",
         "vraag_onderwerp": "Omzetting VOF naar BVBA — controleverslag bij faillissement debiteur",
@@ -2833,6 +3011,19 @@
           "fiscaal gestort kapitaal",
           "waardevermindering"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr29",
         "vraag_onderwerp": "Vennootschapsbelasting — verworpen uitgaven en fiscaal gestort kapitaal",
@@ -3338,6 +3529,15 @@
           "bijzonder legataris",
           "aangifte nalatenschap"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr36",
         "vraag_onderwerp": "Erfrecht/successierecht — hoedanigheid begiftigden en aangifte nalatenschap",
@@ -3468,6 +3668,15 @@
           "Belgisch recht",
           "Duits recht"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2014-1-vr38",
         "vraag_onderwerp": "Fusie-richtlijn — aftrekbaarheid fiscale verliezen Belgische vennootschap na overname door Duitse vennootschap",

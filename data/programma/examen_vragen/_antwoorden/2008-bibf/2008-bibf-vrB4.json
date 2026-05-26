@@ -1,0 +1,48 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrB4",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De op te nemen kost (rubriek opleiding van de sociale balans, codes 5821/5822 — formele voortgezette beroepsopleiding) = **(a) directe opleidingskosten** (inschrijvingsgeld voor het seminarie + cursusmateriaal + eventuele verplaatsings- en verblijfkosten) **+ (b) loonkost van de afwezige werknemer voor de duur van het seminarie** (brutoloon pro rata + werkgeversbijdragen, want de opleiding vindt plaats *tijdens* de diensturen), **− (c) ontvangen of verworven tussenkomsten/subsidies** (bv. KMO-portefeuille, opleidingscheques, sectorfondsen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Stappenplan voor de berekening:\n\n1. **Directe externe kost van het seminarie**: factuur van de externe opleidingsverstrekker (inschrijvingsgeld, syllabus, didactisch materiaal) — wordt typisch geboekt op **rekening 61** *Diensten en diverse goederen*. 🔗\n2. **Bijhorende kosten**: verplaatsingen, maaltijden en eventuele verblijfkosten van de deelnemers verbonden aan het seminarie. 🔗\n3. **Loonkost tijdens de opleidingsuren**: omdat het seminarie *tijdens de diensturen* plaatsvindt, blijft de werkgever het loon (en de werkgeversbijdragen) betalen zonder productieve prestatie. Bereken pro rata: (brutoloon + RSZ-werkgever + andere directe personeelskosten) × (opleidingsuren / totale arbeidsuren in de periode). Deze loonkost is reeds in rubriek 102 *Personeelskosten* opgenomen via rekening 62, maar moet voor de opleidingsrubriek **afzonderlijk** worden uitgesplitst per opleidingsuur. 🔗\n4. **Verminderen met tussenkomsten**: opleidingssubsidies, opleidingscheques (cfr. CBN 2013/8) en sectorale tussenkomsten worden in mindering gebracht om de **nettokost ten laste van de vennootschap** te bekomen. 🔗\n5. Het aantal **opleidingsuren** (codes 5811/5812) wordt parallel afzonderlijk geregistreerd; het bedrag (5821/5822) wordt uitgedrukt in euro. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+            "resources/bronnen/adviezen/CBN-2013-08-de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — Het seminarie is een **formele voortgezette beroepsopleiding** (extern georganiseerd, met vooraf bepaald programma, buiten de werkplek) en komt dus in de specifieke rubriek voor formele opleiding (codes 58.01–58.31 in het volledig schema). Dat is anders dan informele opleiding (on-the-job, codes 58.40-reeks) of initiële opleiding (codes 58.50-reeks): de wet onderscheidt expliciet drie categorieën, elk met eigen uren-, deelnemers- en kost-codes. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**CBN-advies S100** *Vragen en antwoorden over de sociale balans* — bepaalt welke kosten in welke rubriek thuishoren en bevestigt dat de personeelskosten in rubriek 102 alles omvatten wat naar de aard op rekening 62 wordt geboekt (bezoldigingen + werkgeversbijdragen + bovenwettelijke verzekeringen + andere personeelskosten). 📖 Voor de opleidingscomponent specifiek: KB 30 januari 2001 (uitvoering W.Venn., nu KB/WVV 29 april 2019) art. 3:71 e.v. — model van de sociale balans, met aparte rubrieken voor de kosten van formele, informele en initiële beroepsopleiding. 🔗 Voor tussenkomsten/subsidies: CBN-advies 2013/8 over opleidingscheques (subsidie wordt als bedrijfsopbrengst 740 geboekt → nettokost = brutokost − subsidie). 📖",
+          "wetsref": "CBN-advies S100; KB/WVV 29 april 2019, art. 3:71 e.v.; CBN-advies 2013/8",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0100-vragen-en-antwoorden-over-de-sociale-balans.md",
+            "resources/bronnen/adviezen/CBN-2013-08-de-boekhoudkundige-verwerking-van-de-door-de-waalse-regering-gecreeerde-opleidingscheques.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

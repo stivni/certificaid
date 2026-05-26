@@ -1,0 +1,65 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10A",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_topic_only_notitie": "Herinnering-fragment zonder concrete stellingen — enkel het onderwerp 'Stellingen ivm financiële onafhankelijkheid' is bewaard. Antwoord bouwt het concept-kader op zodat een stagiair vrijwel elke plausibele juist/fout-stelling kan beoordelen: definitie + formule + interpretatie + de drie klassieke valkuilen die in stellingen-vragen worden uitgebuit (verwarring met liquiditeit, met rentabiliteit, en spiegel-getal schuldgraad).",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "topic_only_kader",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "**Financiële onafhankelijkheid** is een synoniem voor de **klassieke solvabiliteitsratio**: het aandeel van het eigen vermogen in het totale vermogen van de onderneming. Ze meet welk deel van de activa met eigen middelen is gefinancierd in plaats van met schulden — dus hoe weinig de onderneming afhankelijk is van derden om haar werking te dragen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/solvabiliteitsratio.json"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Formule (klassiek / NBB-conform)**:\n\n`Financiële onafhankelijkheid = Eigen vermogen / Totaal passief × 100 %`\n\n- **Teller** = eigen vermogen (MAR-rubrieken 10–15): kapitaal + uitgiftepremies + herwaarderingsmeerwaarden + reserves + overgedragen resultaat + kapitaalsubsidies. 🔗\n- **Noemer** = balanstotaal (rubrieken 10–49): eigen vermogen + voorzieningen + schulden > 1 jaar + schulden ≤ 1 jaar + overlopende rekeningen passief. 🔗\n- **Schaal**: 0 % (puur schuldgefinancierd) tot 100 % (puur eigen). 🔗\n\nSpiegelgetal: `Schuldgraad = 100 % − Financiële onafhankelijkheid`. De twee ratio's geven dezelfde informatie in omgekeerd perspectief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/solvabiliteitsratio.json"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Interpretatie-vuistregels** (beroepsdoctrine, geen wet — sector-correctie altijd toepassen):\n\n| Niveau | Lezing |\n|---|---|\n| > 50 % | Zeer gezond — sterke buffer, soms overgekapitaliseerd |\n| 33 – 50 % | Gezond — typisch solide KMO |\n| 25 – 33 % | Aanvaardbaar — Belgische KMO-mediaan (NBB) |\n| 15 – 25 % | Zwak — verhoogde gevoeligheid, covenants in zicht |\n| < 15 % | Kritisch — faillissementsrisico bij verlies-jaar |\n| Negatief | Insolvabel — alarmbel-procedure verplicht |\n\nDeze drempels zijn vuistregels (🤖); een vastgoedvennootschap met 20 % kan gezond zijn, een dienstverlener met 20 % alarmerend. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/solvabiliteitsratio.json"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Drie klassieke juist/fout-valkuilen** (de stellingen die typisch worden getest):\n\n1. **Solvabiliteit ≠ liquiditeit.** Financiële onafhankelijkheid is een **structurele balans-positie** (lange termijn). Ze zegt **niets** over of de onderneming haar facturen op tijd kan betalen — daarvoor dienen current ratio, quick ratio, cash ratio. **Solvabel én illiquide** is een reëel scenario (gezonde balans, lege kas). Een stelling die solvabiliteit gelijkstelt aan betaalcapaciteit op korte termijn is **FOUT**. 🔗\n\n2. **Solvabiliteit ≠ rentabiliteit (ROE).** Een hoge solvabiliteit zegt **niets** over winstgevendheid. Een onderneming met 60 % eigen vermogen kan zwaar verlieslatend zijn; een onderneming met 15 % EV kan een hoge ROE halen door hefboomeffect. Een stelling die 'hoge financiële onafhankelijkheid = goede rendabiliteit' beweert is **FOUT**. 🔗\n\n3. **Hogere ratio is niet altijd 'beter'.** Boven ~50 % spreekt men van **overkapitalisatie**: het EV rendeert slecht omdat het niet wordt ingezet als hefboom. Een stelling die suggereert dat 'hoe hoger de financiële onafhankelijkheid, hoe gezonder de onderneming, zonder bovengrens' is genuanceerd **FOUT** — er bestaat een optimum dat sector-afhankelijk is. 🔗\n\n**Bijkomende vaak-getoetste nuances**:\n- **Achtergestelde lening van een aandeelhouder** staat boekhoudkundig in het VV (rubriek 17 of 42) en verlaagt dus de ratio — economisch fungeert ze echter als EV-buffer (niet opeisbaar vóór andere schuldeisers). Een 'pure' balanslezing onderschat hier de werkelijke onafhankelijkheid. 🔗\n- **Herwaarderingsmeerwaarden** (rubriek 12) verhogen het EV maar zijn geen cash — een 'gecorrigeerde' ratio sluit ze vaak uit. 🔗\n- De ratio is **niet zinvol** voor banken (Basel III), verzekeraars (Solvency II), vzw's of eenmanszaken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/solvabiliteitsratio.json"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard — wettelijke link**: hoewel de ratio zelf geen wettelijke drempel kent, is de **teller** (het netto-actief) wél wettelijk gemonitord via de **alarmbel-procedure**:\n- **BV/CV**: netto-actief negatief of dreigt negatief → AV binnen 2 maanden + bijzonder verslag (WVV art. 5:153 §1). 📖\n- **NV**: netto-actief < ½ geplaatst kapitaal (eerste trigger) en < ¼ (tweede, met ontbindingsrecht minderheid 25 %) (WVV art. 7:228 §1); < € 61.500 → gerechtelijke ontbinding (WVV art. 7:229). 📖\n\nEen stelling die beweert 'de wet legt een minimum-solvabiliteit op' is technisch **FOUT** — de wet richt zich op het netto-actief, niet op de ratio. De link is mechanisch maar niet identiek.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/solvabiliteitsratio.json"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Concept-record: solvabiliteitsratio (synoniemen: equity ratio, financiële onafhankelijkheid) — PO 1.2 / 1.3 / 1.9. Wettelijke ankers voor de netto-actief-drempels: **WVV art. 5:153** (BV-alarmbel), **WVV art. 7:228 §1** (NV-alarmbel), **WVV art. 7:229** (gerechtelijke ontbinding NV). Cross-link met thin-cap fiscaliteit: **WIB92 art. 198 §1, 11°/1** (5:1-grens groepslening) en **WIB92 art. 198/1** (ATAD EBITDA-regel). Vuistregel-drempels: ITAA-praktijkdoctrine + NBB Centrale voor Balansen. 📖",
+          "wetsref": "WVV art. 5:153; WVV art. 7:228 §1; WVV art. 7:229; WIB92 art. 198 §1, 11°/1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "data/concepten/_archive/v2.0-pre-schema-2.1-20260522T104513Z/solvabiliteitsratio.json"
+          ]
+        }
+      ]
+    }
+  ]
+}

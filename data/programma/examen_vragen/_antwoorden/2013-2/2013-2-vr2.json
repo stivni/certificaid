@@ -1,0 +1,90 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr2",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG pagina_02 toont enkel de aanhef van vr2 (subvraag a-tekst), niet de MC-opties. De interpretatie merkt zelf 'subvraag_zonder_inhoud' aan: keuze-opties zijn niet leesbaar. Antwoord is daarom geformuleerd als open antwoord op de gestelde vraag, niet als MC-keuze.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Op de eerste bladzijde vermeldt de vennootschap de **bestuurders die in functie zijn op het moment van de vaststelling van de jaarrekening** door het bestuursorgaan — dus de nieuw benoemde bestuurders, en niet de ontslagnemers (tenzij zij vrijwillig worden opgenomen om hun aansprakelijkheid te documenteren). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het criterium is **'bestuurder in functie op datum van vaststelling van de jaarrekening'** (= datum waarop het bestuursorgaan de jaarrekening opmaakt en voorlegt aan de AV), niet 'bestuurder tijdens het boekjaar'. 📖 Gevolg voor de drie typische scenario's:\n\n- **Ontslag tijdens of na het boekjaar, vóór de vaststelling**: niet verplicht te vermelden — zij zijn niet meer auteur van de jaarrekening. 📖\n- **Benoeming na afsluiting maar vóór de vaststelling**: wél te vermelden — zij zijn mede-auteur van de aan de AV voorgelegde jaarrekening. 📖\n- **Bestuurder gedurende heel het boekjaar én op vaststellingsdatum**: vanzelfsprekend te vermelden. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — Het is **courante praktijk** om de ontslagnemers tóch op te nemen (met begin- en einddatum van het mandaat), omdat dit de **aansprakelijkheid voor fouten tijdens hun bestuursperiode** documenteert. Dit is een mogelijkheid, geen verplichting. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "CBN-advies 2020/09 (Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris) — peildatum is de **vaststelling van de jaarrekening door het bestuursorgaan**. De te vermelden gegevens zijn naam, voornaam, beroep en woonplaats van elke bestuurder in functie op die datum.",
+          "wetsref": "CBN-advies 2020/09",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Prospectief** verwerken: het bestuursorgaan past het afschrijvingsplan aan voor het lopende en de toekomstige boekjaren. De **resterende boekwaarde** wordt afgeschreven over de **nieuwe (langere) restgebruiksduur**. Geen retroactieve correctie van vorige boekjaren, geen terugname van reeds geboekte afschrijvingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Stappen:\n\n1. **Het bestuursorgaan beslist** tot wijziging en motiveert in de toelichting waarom de economische levensduur langer is. 📖\n2. **Aanpassing van de waarderingsregels** (of de invulling ervan) — vermelding in de toelichting, met motivering en becijferde inschatting van de invloed op het vermogen, de financiële positie en het resultaat. 📖\n3. **Nieuw afschrijvingsplan** voor de machines: (boekwaarde op datum van wijziging) ÷ (nieuwe resterende gebruiksduur) = nieuwe jaarlijkse afschrijving. 🔗\n4. **Geen herwerking** van de openingsbalans of vergelijkende cijfers: vorige afschrijvingen blijven staan. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil** — Niet verwarren met BE-GAAP en IFRS-terminologie: onder BE-GAAP heet dit een **wijziging van (de invulling van) de waarderingsregels** (toelichten in de toelichting + motivatie), terwijl IFRS dit een **schattingswijziging** (IAS 8) noemt. Behandeling is in beide kaders **prospectief**, maar de openbaarmakingsverplichtingen verschillen. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:6 § 1, 4° KB WVV (vermelding en motivering van wijziging waarderingsregels in de toelichting) + art. 3:42 KB WVV (afschrijvingsplan vastgesteld door bestuursorgaan, te herzien bij wijziging economische omstandigheden). CBN-advies 2019/04 expliciteert dit met als voorbeeld een verlenging van de economische levensduur. CBN-advies 2010/15 over afschrijvingsmethoden en -periode.",
+          "wetsref": "art. 3:6 §1, 4° en art. 3:42 KB WVV; CBN-advies 2019/04; CBN-advies 2010/15",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md",
+            "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

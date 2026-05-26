@@ -1,0 +1,54 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrB2",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "In het **centraal boek** (centralisatieboek) worden de **samenvattende (gecentraliseerde) boekingen** opgenomen van alle mutaties die voorafgaandelijk in de **hulpdagboeken** (aankoop-, verkoop- en financieel dagboek) werden ingeschreven, gegroepeerd per rekening. 📖 De inschrijving gebeurt **ten minste één keer per maand**. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0004-01-vermeldingen-in-het-centralisatieboek.md",
+            "resources/bronnen/adviezen/CBN-0174-01-beginselen-van-een-regelmatige-boekhouding.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Inhoud** — De wetgever wou niet dat élk gegeven uit de hulpdagboeken letterlijk wordt overgeschreven, maar wel het **geheel van de gegevens, gegroepeerd volgens gemeenschappelijke kenmerken** (per rekening / per kolom van het hulpdagboek). 📖 Het centraal boek bevat dus per periode de **totalen per rekening** zoals die uit de gespecialiseerde dagboeken (aankopen, verkopen, financieel, diversen) voortvloeien. 🔗\n\n**Frequentie** — De centralisatie geschiedt **periodiek** en moet **minstens maandelijks** plaatsvinden (samenvattende boeking per maand). 📖 Dit is de klassieke periodiciteit van art. 4 wet 17 juli 1975 (van toepassing in 2003) en wordt onverkort overgenomen in art. III.84 WER. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0004-01-vermeldingen-in-het-centralisatieboek.md",
+            "resources/bronnen/adviezen/CBN-0174-01-beginselen-van-een-regelmatige-boekhouding.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — De verplichting tot het houden van een centraal boek **vervalt** wanneer de hulpdagboeken zelf door de griffie zijn **geviseerd (en in voorkomend geval geparafeerd)**: in dat geval is de onuitwisbaarheid van de boekingen al gewaarborgd en is een afzonderlijke centralisatie overbodig. 📖 Sinds het KB van 21 oktober 2018 (art. 5) geldt dit ook expliciet voor verenigingen met een vereenvoudigde boekhouding. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0004-03-over-het-centraal-boek.md",
+            "resources/bronnen/wetteksten/KB-21-10-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 4 wet 17 juli 1975 op de boekhouding (van kracht in 2003) — verplichting centralisatieboek + samenvattende boekingen; CBN-advies 4/1 (inhoud: gegroepeerde gegevens, niet elke individuele lijn); CBN-advies 174/1 (periodieke centralisatie, minstens maandelijks); CBN-advies 4/3 (vrijstelling bij geviseerde hulpdagboeken). Nu hernomen in art. III.84 WER + KB 21/10/2018.",
+          "wetsref": "Wet 17 juli 1975 art. 4; thans art. III.84 WER; CBN 4/1, 174/1, 4/3; KB 21/10/2018 art. 5",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-0004-01-vermeldingen-in-het-centralisatieboek.md",
+            "resources/bronnen/adviezen/CBN-0174-01-beginselen-van-een-regelmatige-boekhouding.md",
+            "resources/bronnen/adviezen/CBN-0004-03-over-het-centraal-boek.md",
+            "resources/bronnen/wetteksten/KB-21-10-2018.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

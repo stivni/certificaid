@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2003-bibf.pdf",
   "examen_id": "2003-bibf",
-  "merge_datum": "2026-05-26T10:30:42+00:00",
+  "merge_datum": "2026-05-26T12:11:24+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -254,6 +254,15 @@
           "marktwaarde",
           "afprijzing"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2003-bibf-vrA2",
         "vraag_onderwerp": "Afsluitingsboekingen voor voorraden met waardeverminderingen",
@@ -282,7 +291,62 @@
       "vraag_id": "2003-bibf-vrA2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-21-10-2018.md",
+                  "resources/bronnen/adviezen/CBN-2019-10.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Wie**: natuurlijke personen-ondernemers, organisaties zonder rechtspersoonlijkheid (bv. maatschap), vennootschappen onder firma (VOF) en gewone commanditaire vennootschappen (Comm.V), op voorwaarde dat hun omzet excl. btw over het laatste boekjaar **€ 500.000 niet overschrijdt** (€ 620.000 voor kleinhandel in motorbrandstoffen). 📖\n\n**Wat**: een boekhouding gevoerd in **ten minste drie dagboeken** — financieel dagboek (bank/kas), aankoopdagboek (alle uitgaven) en verkoopdagboek (alle inkomsten) — aangevuld met een **jaarlijkse inventaris** en een **interne (vereenvoudigde) jaarrekening** (staat van ontvangsten en uitgaven + opgave van het vermogen). 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-21-10-2018.md",
+                  "resources/bronnen/adviezen/CBN-2019-10.md",
+                  "resources/bronnen/adviezen/CBN-174-01.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Toepassingsgebied — cumulatief twee voorwaarden** (art. III.85 §1 WER + KB 21 oktober 2018 art. 1) 🔗:\n\n1. **Rechtsvorm** behoort tot één van:\n   - natuurlijke persoon-onderneming (art. I.1, eerste lid, (a) WER) 📖\n   - organisatie zonder rechtspersoonlijkheid, bv. maatschap (art. I.1, eerste lid, (c) WER) 📖\n   - vennootschap onder firma (VOF) 📖\n   - gewone commanditaire vennootschap (Comm.V) 📖\n2. **Omzetdrempel**: omzet excl. btw over het laatste boekjaar ≤ € 500.000 (of ≤ € 620.000 bij kleinhandel in vloeibare/gasvormige motorbrandstoffen). 📖\n\n**Inhoud — minimum drie dagboeken** (CBN-advies 174/1 + 2019/10) 📖:\n\n- **Financieel dagboek**: alle ontvangsten en uitgaven via bank en kas.\n- **Aankoopdagboek (inkoopdagboek)**: alle uitgaande facturen/uitgaven van de onderneming.\n- **Verkoopdagboek**: alle inkomende facturen/inkomsten.\n\nAangevuld met een **jaarlijkse inventaris** (alle bezittingen, vorderingen, schulden, eigen middelen) en een **interne jaarrekening** in de vorm van een staat van ontvangsten en uitgaven + opgave van het vermogen. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-21-10-2018.md",
+                  "resources/bronnen/adviezen/CBN-2019-11.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "**Kapitaalvennootschappen (BV, NV, CV) mogen NOOIT een vereenvoudigde boekhouding voeren** — ook niet als ze onder de omzetdrempel zitten. Het regime is uitdrukkelijk beperkt tot natuurlijke personen, organisaties zonder rechtspersoonlijkheid, VOF en Comm.V. 🔗 Een tweede klassieke valkuil: bij **overschrijding** van € 500.000 (of € 620.000) moet de onderneming **vanaf het volgende boekjaar** overschakelen naar een dubbele boekhouding. 🤖\n\n**Historische nuance** (relevant voor het 2003-vraagstuk): de vraag dateert van 2003, vóór het WER en vóór de hervorming ondernemingsrecht 2018. De toenmalige rechtsbasis was de boekhoudwet van 17 juli 1975 + KB 12 september 1983 met destijds een omzetdrempel van € 500.000 voor 'kleine handelaars/ambachtslieden'. De kern (drie dagboeken + beperkte rechtsvormen + omzetdrempel) is door de tijd dezelfde gebleven; alleen de wetsverwijzingen en het ondernemingsbegrip zijn vernieuwd. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-21-10-2018.md",
+                  "resources/bronnen/adviezen/CBN-2019-10.md",
+                  "resources/bronnen/adviezen/CBN-2019-11.md",
+                  "resources/bronnen/adviezen/CBN-174-01.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. III.85 §1 WER** (mogelijkheid tot vereenvoudigde boekhouding voor bepaalde ondernemingen onder een omzetdrempel) + **KB 21 oktober 2018 art. 1** (rechtsvormen + drempels € 500.000 / € 620.000). 📖 Praktische uitwerking: **CBN-advies 2019/10** (drie dagboeken, inventaris, interne jaarrekening) + **CBN-advies 174/1** (beginselen regelmatige boekhouding) + **CBN-advies 2019/11** (omzetbegrip onder verruimd ondernemingsbegrip). 📖",
+                "type": "grondslag",
+                "wetsref": "WER art. III.85 §1; KB 21-10-2018 art. 1; CBN 2019/10; CBN 2019/11; CBN 174/1"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrB1"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -329,7 +393,60 @@
       "vraag_id": "2003-bibf-vrB1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0004-01-vermeldingen-in-het-centralisatieboek.md",
+                  "resources/bronnen/adviezen/CBN-0174-01-beginselen-van-een-regelmatige-boekhouding.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "In het **centraal boek** (centralisatieboek) worden de **samenvattende (gecentraliseerde) boekingen** opgenomen van alle mutaties die voorafgaandelijk in de **hulpdagboeken** (aankoop-, verkoop- en financieel dagboek) werden ingeschreven, gegroepeerd per rekening. 📖 De inschrijving gebeurt **ten minste één keer per maand**. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0004-01-vermeldingen-in-het-centralisatieboek.md",
+                  "resources/bronnen/adviezen/CBN-0174-01-beginselen-van-een-regelmatige-boekhouding.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Inhoud** — De wetgever wou niet dat élk gegeven uit de hulpdagboeken letterlijk wordt overgeschreven, maar wel het **geheel van de gegevens, gegroepeerd volgens gemeenschappelijke kenmerken** (per rekening / per kolom van het hulpdagboek). 📖 Het centraal boek bevat dus per periode de **totalen per rekening** zoals die uit de gespecialiseerde dagboeken (aankopen, verkopen, financieel, diversen) voortvloeien. 🔗\n\n**Frequentie** — De centralisatie geschiedt **periodiek** en moet **minstens maandelijks** plaatsvinden (samenvattende boeking per maand). 📖 Dit is de klassieke periodiciteit van art. 4 wet 17 juli 1975 (van toepassing in 2003) en wordt onverkort overgenomen in art. III.84 WER. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0004-03-over-het-centraal-boek.md",
+                  "resources/bronnen/wetteksten/KB-21-10-2018.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — De verplichting tot het houden van een centraal boek **vervalt** wanneer de hulpdagboeken zelf door de griffie zijn **geviseerd (en in voorkomend geval geparafeerd)**: in dat geval is de onuitwisbaarheid van de boekingen al gewaarborgd en is een afzonderlijke centralisatie overbodig. 📖 Sinds het KB van 21 oktober 2018 (art. 5) geldt dit ook expliciet voor verenigingen met een vereenvoudigde boekhouding. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-0004-01-vermeldingen-in-het-centralisatieboek.md",
+                  "resources/bronnen/adviezen/CBN-0174-01-beginselen-van-een-regelmatige-boekhouding.md",
+                  "resources/bronnen/adviezen/CBN-0004-03-over-het-centraal-boek.md",
+                  "resources/bronnen/wetteksten/KB-21-10-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 4 wet 17 juli 1975 op de boekhouding (van kracht in 2003) — verplichting centralisatieboek + samenvattende boekingen; CBN-advies 4/1 (inhoud: gegroepeerde gegevens, niet elke individuele lijn); CBN-advies 174/1 (periodieke centralisatie, minstens maandelijks); CBN-advies 4/3 (vrijstelling bij geviseerde hulpdagboeken). Nu hernomen in art. III.84 WER + KB 21/10/2018.",
+                "type": "grondslag",
+                "wetsref": "Wet 17 juli 1975 art. 4; thans art. III.84 WER; CBN 4/1, 174/1, 4/3; KB 21/10/2018 art. 5"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrB2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -376,7 +493,57 @@
       "vraag_id": "2003-bibf-vrB2"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Enkel **materiële vaste activa** en **deelnemingen/aandelen onder de financiële vaste activa** mogen worden geherwaardeerd, op voorwaarde dat de meerwaarde **vaststaand en duurzaam** is, en — wanneer de activa noodzakelijk zijn voor de voortzetting van het bedrijf — verantwoord door de **rentabiliteit** van de vennootschap (of het betrokken bedrijfsonderdeel). De geherwaardeerde waarde moet worden **verantwoord in de toelichting** bij de jaarrekening. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Toepassingsgebied (welke activa):**\n- **Materiële vaste activa** (terreinen, gebouwen, installaties, …). 📖\n- **Deelnemingen en aandelen** opgenomen onder de **financiële vaste activa**. 📖\n- Mag ook beperkt worden tot **bepaalde soorten** van bovenstaande activa (selectieve toepassing, mits bestendigheid). 📖\n\n**Uitgesloten** (a contrario): immateriële vaste activa, voorraden, vorderingen, geldbeleggingen en andere financiële vaste activa dan deelnemingen/aandelen (bv. vorderingen op verbonden ondernemingen). 🔗\n\n**Voorwaarden (cumulatief):**\n1. De waarde, bepaald **in functie van het nut voor de vennootschap**, stijgt **op vaststaande en duurzame wijze** uit boven de boekwaarde — louter conjuncturele of speculatieve waardestijgingen volstaan niet; het bestuursorgaan beoordeelt het vaststaand en duurzaam karakter. 📖\n2. Wanneer de activa **noodzakelijk zijn voor de voortzetting van het bedrijf** (of een bedrijfsonderdeel): de meerwaarde mag enkel worden uitgedrukt in de mate waarin zij wordt **verantwoord door de rentabiliteit** van de vennootschap of het betrokken bedrijfsonderdeel. 📖\n3. De geherwaardeerde waarde wordt **verantwoord in de toelichting** bij de jaarrekening waarin de herwaardering voor het eerst werd toegepast. 📖\n4. Voor **afschrijfbare** materiële vaste activa: de meerwaarde wordt afgeschreven volgens een **opgesteld en in de toelichting vermeld plan**, conform de resterende vermoedelijke gebruiksduur. 📖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — herwaardering is een **optie, geen verplichting**: ze vereist grote voorzichtigheid. De meerwaarde wordt rechtstreeks geboekt op passiefpost **III. Herwaarderingsmeerwaarden** (eigen vermogen) en is **niet uitkeerbaar** zolang de meerwaarde niet is gerealiseerd. De boeking raakt de balans, niet de resultatenrekening. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 3:35 KB WVV** (vroeger art. 57 KB W.Venn. — destijds toepasselijk voor het BIBF-examen 2003): toepassingsgebied (materiële vaste activa + deelnemingen/aandelen onder FVA), voorwaarden (vaststaand en duurzaam, rentabiliteitsverantwoording) en toelichtingsverplichting. **CBN-advies 2011/14 — Herwaarderingsmeerwaarden** detailleert de beoordeling door het bestuursorgaan en het afschrijvingsplan voor afschrijfbare geherwaardeerde activa. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 3:35 KB WVV (ex art. 57 KB W.Venn.); CBN-advies 2011/14"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrB3"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -477,7 +644,68 @@
       "vraag_id": "2003-bibf-vrB4"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2003-bibf",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Voor geval A (kapitaalsubsidie 10.000 EUR voor machine 100.000 EUR, 10% afschrijving, 40% belasting) moet de toelichting in beide boekjaren (1) de waarderingsregel voor kapitaalsubsidies en uitgestelde belastingen vermelden en (2) een mutatie-overzicht geven van de rekening 15 'Kapitaalsubsidies' en (indirect via post VII.B) de rekening 168 'Uitgestelde belastingen'. 2002: opname netto-subsidie 6.000 EUR + uitgestelde belasting 4.000 EUR, eerste in resultaatname (600 + 400). 2003: voortzetting in resultaatname (600 + 400); saldi einde 2003: rekening 15 = 4.800 EUR, rekening 168 = 3.200 EUR. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+                  "resources/bronnen/adviezen/CBN-2013-14-uitgestelde-belastingen.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Te vermelden in de toelichting (boekjaar 2002 én 2003):**\n\n1. **Waarderingsregels** 📖 — In het overzicht van de waarderingsregels (verplichte rubriek van de toelichting) moet worden vermeld welke methode gehanteerd wordt voor (a) de boeking van kapitaalsubsidies en (b) de waardering en geleidelijke afboeking van de uitgestelde belastingen op kapitaalsubsidies (i.e. waardering tegen normaal belastingtarief, geleidelijke overboeking naar post 780 'Onttrekkingen aan uitgestelde belastingen' parallel met afschrijvingsritme van het gesubsidieerde actief). In het eerste boekjaar (2002) is dit een volledige beschrijving; in 2003 volstaat een vermelding dat de waarderingsregels ongewijzigd zijn — bij wijziging zou de aard en de financiële impact gemotiveerd moeten worden. 🔗\n\n2. **Mutatieoverzicht kapitaalsubsidies (rekening 15)** 📖 — In het volledig schema bestaat hiervoor een specifieke staat (destijds 'Staat VIII / Staat van de kapitaalsubsidies en uitgestelde belastingen'). Op te nemen:\n   - **2002**: beginsaldo 0 → toename door definitieve toezegging 6.000 (netto, na aftrek 40% UB) → afname door in resultaat genomen kapitaalsubsidie 600 → eindsaldo 31/12/2002 = **5.400 EUR**.\n   - **2003**: beginsaldo 5.400 → afname door in resultaat genomen kapitaalsubsidie 600 → eindsaldo 31/12/2003 = **4.800 EUR**.\n\n3. **Uitgestelde belastingen op kapitaalsubsidies (rekening 168, post VII.B)** 📖 — Eveneens te detailleren (mutatieoverzicht uitgestelde belastingen):\n   - **2002**: beginsaldo 0 → toename 4.000 (40% × 10.000) → afname via 780 = 400 → eindsaldo 31/12/2002 = **3.600 EUR**.\n   - **2003**: beginsaldo 3.600 → afname via 780 = 400 → eindsaldo 31/12/2003 = **3.200 EUR**.\n\n4. **Niet-opeisbare vordering 'te ontvangen kapitaalsubsidie' (rekening 416)** 🔗 — In 2002 staat 10.000 EUR op rekening 416 (twee schijven van 5.000 in 2003 en 2004). In 2003 wordt de eerste schijf van 5.000 ontvangen → eindsaldo 416 op 31/12/2003 = 5.000 EUR. Voor zover materieel: vermelding bij de toelichting bij 'Overige vorderingen' (op meer dan één jaar voor het 2004-deel). 🤖",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Samenvattende staat (toelichting bij rubriek VI. Kapitaalsubsidies + VII.B Uitgestelde belastingen):**\n\n| Boekjaar | Beginsaldo 15 | Toename (60% × 10.000) | In resultaat (753) | Eindsaldo 15 | Beginsaldo 168 | Toename (40% × 10.000) | Onttrekking (780) | Eindsaldo 168 |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|\n| **2002** | 0,00 | 6.000,00 | -600,00 | **5.400,00** | 0,00 | 4.000,00 | -400,00 | **3.600,00** |\n| **2003** | 5.400,00 | 0,00 | -600,00 | **4.800,00** | 3.600,00 | 0,00 | -400,00 | **3.200,00** |\n\nBedragen in EUR. Bruto kapitaalsubsidie 10.000 EUR, gesplitst 60/40 conform 40% belastingvoet. 🔗",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2013-14-uitgestelde-belastingen.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De toelichting bij kapitaalsubsidies dient een **dubbel doel**: enerzijds de mutatie van rekening 15 'Kapitaalsubsidies' (passiefpost VI), anderzijds de mutatie van de gepassiveerde uitgestelde belastingen (passiefpost VII.B, rekening 168). De twee bewegen parallel: een toename op 15 gaat samen met een toename op 168; een in resultaat genomen kapitaalsubsidie (753) gaat altijd samen met een evenredige onttrekking aan uitgestelde belastingen (780). Een toelichting die alleen de netto-rekening 15 toont, mist de belastinglatentie. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+                  "resources/bronnen/adviezen/CBN-2013-14-uitgestelde-belastingen.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Wettelijke grondslag** (geldend in 2002-2003): KB van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (KB W.Venn.), art. 95 §2 (begrip kapitaalsubsidie + presentatie passiefpost VI na aftrek uitgestelde belastingen) 📖; art. 76 §1-§2 (waardering en geleidelijke afboeking uitgestelde belastingen) 📖. **Vandaag**: KB van 29 april 2019 tot uitvoering van het WVV (KB-WVV-2019), art. 3:54 §1-§2 — identieke regeling 📖. **Toelichtingsvereisten** als zodanig: KB W.Venn. art. 91 (volledige toelichting, Staat van de kapitaalsubsidies in het volledig schema) en art. 25 (waarderingsregels). CBN-advies 2011/13 (Overheidssubsidies) bevestigt de splitsing 60/40 en de toelichtingsverplichting; CBN-advies 2013/14 detailleert de behandeling van de uitgestelde belastingen. 🔗",
+                "type": "grondslag",
+                "wetsref": "KB W.Venn. art. 76 §1-§2 en art. 95 §2; KB-WVV-2019 art. 3:54"
+              }
+            ],
+            "id": "i1"
+          }
+        ],
+        "vraag_id": "2003-bibf-vrB5"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -622,6 +850,19 @@
           "balansanalyse",
           "financieel beheer"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "balans"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2003-bibf-vrC1",
         "vraag_onderwerp": "Financieel beheer: berekening liquiditeits- en solvabiliteitsratio's",
@@ -726,6 +967,15 @@
           "waardeverminderingen",
           "financieel beheer"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2003-bibf-vrC2",
         "vraag_onderwerp": "Berekening van de operationele cash-flow",
@@ -1331,6 +1581,23 @@
           "sociale bijdragen",
           "onroerende inkomsten"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2003-bibf-vrF1",
         "vraag_onderwerp": "Personenbelasting: belastbare basis bedrijfsleider (Vak II)",
@@ -1509,6 +1776,27 @@
           "liberaliteiten",
           "belastbare basis"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "balans"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2003-bibf-vrG1",
         "vraag_onderwerp": "Vennootschapsbelasting: invullen aangifte en belastbare basis BVBA Albert",

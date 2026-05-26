@@ -1,0 +1,56 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrB1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Wie**: natuurlijke personen-ondernemers, organisaties zonder rechtspersoonlijkheid (bv. maatschap), vennootschappen onder firma (VOF) en gewone commanditaire vennootschappen (Comm.V), op voorwaarde dat hun omzet excl. btw over het laatste boekjaar **€ 500.000 niet overschrijdt** (€ 620.000 voor kleinhandel in motorbrandstoffen). 📖\n\n**Wat**: een boekhouding gevoerd in **ten minste drie dagboeken** — financieel dagboek (bank/kas), aankoopdagboek (alle uitgaven) en verkoopdagboek (alle inkomsten) — aangevuld met een **jaarlijkse inventaris** en een **interne (vereenvoudigde) jaarrekening** (staat van ontvangsten en uitgaven + opgave van het vermogen). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-21-10-2018.md",
+            "resources/bronnen/adviezen/CBN-2019-10.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Toepassingsgebied — cumulatief twee voorwaarden** (art. III.85 §1 WER + KB 21 oktober 2018 art. 1) 🔗:\n\n1. **Rechtsvorm** behoort tot één van:\n   - natuurlijke persoon-onderneming (art. I.1, eerste lid, (a) WER) 📖\n   - organisatie zonder rechtspersoonlijkheid, bv. maatschap (art. I.1, eerste lid, (c) WER) 📖\n   - vennootschap onder firma (VOF) 📖\n   - gewone commanditaire vennootschap (Comm.V) 📖\n2. **Omzetdrempel**: omzet excl. btw over het laatste boekjaar ≤ € 500.000 (of ≤ € 620.000 bij kleinhandel in vloeibare/gasvormige motorbrandstoffen). 📖\n\n**Inhoud — minimum drie dagboeken** (CBN-advies 174/1 + 2019/10) 📖:\n\n- **Financieel dagboek**: alle ontvangsten en uitgaven via bank en kas.\n- **Aankoopdagboek (inkoopdagboek)**: alle uitgaande facturen/uitgaven van de onderneming.\n- **Verkoopdagboek**: alle inkomende facturen/inkomsten.\n\nAangevuld met een **jaarlijkse inventaris** (alle bezittingen, vorderingen, schulden, eigen middelen) en een **interne jaarrekening** in de vorm van een staat van ontvangsten en uitgaven + opgave van het vermogen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-21-10-2018.md",
+            "resources/bronnen/adviezen/CBN-2019-10.md",
+            "resources/bronnen/adviezen/CBN-174-01.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Kapitaalvennootschappen (BV, NV, CV) mogen NOOIT een vereenvoudigde boekhouding voeren** — ook niet als ze onder de omzetdrempel zitten. Het regime is uitdrukkelijk beperkt tot natuurlijke personen, organisaties zonder rechtspersoonlijkheid, VOF en Comm.V. 🔗 Een tweede klassieke valkuil: bij **overschrijding** van € 500.000 (of € 620.000) moet de onderneming **vanaf het volgende boekjaar** overschakelen naar een dubbele boekhouding. 🤖\n\n**Historische nuance** (relevant voor het 2003-vraagstuk): de vraag dateert van 2003, vóór het WER en vóór de hervorming ondernemingsrecht 2018. De toenmalige rechtsbasis was de boekhoudwet van 17 juli 1975 + KB 12 september 1983 met destijds een omzetdrempel van € 500.000 voor 'kleine handelaars/ambachtslieden'. De kern (drie dagboeken + beperkte rechtsvormen + omzetdrempel) is door de tijd dezelfde gebleven; alleen de wetsverwijzingen en het ondernemingsbegrip zijn vernieuwd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-21-10-2018.md",
+            "resources/bronnen/adviezen/CBN-2019-11.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. III.85 §1 WER** (mogelijkheid tot vereenvoudigde boekhouding voor bepaalde ondernemingen onder een omzetdrempel) + **KB 21 oktober 2018 art. 1** (rechtsvormen + drempels € 500.000 / € 620.000). 📖 Praktische uitwerking: **CBN-advies 2019/10** (drie dagboeken, inventaris, interne jaarrekening) + **CBN-advies 174/1** (beginselen regelmatige boekhouding) + **CBN-advies 2019/11** (omzetbegrip onder verruimd ondernemingsbegrip). 📖",
+          "wetsref": "WER art. III.85 §1; KB 21-10-2018 art. 1; CBN 2019/10; CBN 2019/11; CBN 174/1",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-21-10-2018.md",
+            "resources/bronnen/adviezen/CBN-2019-10.md",
+            "resources/bronnen/adviezen/CBN-2019-11.md",
+            "resources/bronnen/adviezen/CBN-174-01.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-26T10:30:42+00:00",
+  "merge_datum": "2026-05-26T12:11:24+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -35,6 +35,20 @@
           "bestelling in uitvoering",
           "BVBA"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "patroon": "kruis_aan",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr1",
         "vraag_onderwerp": "Boekhoudkundige verwerking van software-aankopen",
@@ -113,7 +127,96 @@
       "vraag_id": "2013-2-vr1"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "_poc_notitie": "PNG pagina_02 toont enkel de aanhef van vr2 (subvraag a-tekst), niet de MC-opties. De interpretatie merkt zelf 'subvraag_zonder_inhoud' aan: keuze-opties zijn niet leesbaar. Antwoord is daarom geformuleerd als open antwoord op de gestelde vraag, niet als MC-keuze.",
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Op de eerste bladzijde vermeldt de vennootschap de **bestuurders die in functie zijn op het moment van de vaststelling van de jaarrekening** door het bestuursorgaan — dus de nieuw benoemde bestuurders, en niet de ontslagnemers (tenzij zij vrijwillig worden opgenomen om hun aansprakelijkheid te documenteren). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Het criterium is **'bestuurder in functie op datum van vaststelling van de jaarrekening'** (= datum waarop het bestuursorgaan de jaarrekening opmaakt en voorlegt aan de AV), niet 'bestuurder tijdens het boekjaar'. 📖 Gevolg voor de drie typische scenario's:\n\n- **Ontslag tijdens of na het boekjaar, vóór de vaststelling**: niet verplicht te vermelden — zij zijn niet meer auteur van de jaarrekening. 📖\n- **Benoeming na afsluiting maar vóór de vaststelling**: wél te vermelden — zij zijn mede-auteur van de aan de AV voorgelegde jaarrekening. 📖\n- **Bestuurder gedurende heel het boekjaar én op vaststellingsdatum**: vanzelfsprekend te vermelden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Vermeldenswaard** — Het is **courante praktijk** om de ontslagnemers tóch op te nemen (met begin- en einddatum van het mandaat), omdat dit de **aansprakelijkheid voor fouten tijdens hun bestuursperiode** documenteert. Dit is een mogelijkheid, geen verplichting. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2020-09-vermelding-in-de-jaarrekening-van-de-gegevens-van-de-bestuurders-en-de-commissaris.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "CBN-advies 2020/09 (Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris) — peildatum is de **vaststelling van de jaarrekening door het bestuursorgaan**. De te vermelden gegevens zijn naam, voornaam, beroep en woonplaats van elke bestuurder in functie op die datum.",
+                "type": "grondslag",
+                "wetsref": "CBN-advies 2020/09"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md",
+                  "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Prospectief** verwerken: het bestuursorgaan past het afschrijvingsplan aan voor het lopende en de toekomstige boekjaren. De **resterende boekwaarde** wordt afgeschreven over de **nieuwe (langere) restgebruiksduur**. Geen retroactieve correctie van vorige boekjaren, geen terugname van reeds geboekte afschrijvingen. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Stappen:\n\n1. **Het bestuursorgaan beslist** tot wijziging en motiveert in de toelichting waarom de economische levensduur langer is. 📖\n2. **Aanpassing van de waarderingsregels** (of de invulling ervan) — vermelding in de toelichting, met motivering en becijferde inschatting van de invloed op het vermogen, de financiële positie en het resultaat. 📖\n3. **Nieuw afschrijvingsplan** voor de machines: (boekwaarde op datum van wijziging) ÷ (nieuwe resterende gebruiksduur) = nieuwe jaarlijkse afschrijving. 🔗\n4. **Geen herwerking** van de openingsbalans of vergelijkende cijfers: vorige afschrijvingen blijven staan. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md"
+                ],
+                "confidence": "betwijfeld",
+                "tekst": "**Valkuil** — Niet verwarren met BE-GAAP en IFRS-terminologie: onder BE-GAAP heet dit een **wijziging van (de invulling van) de waarderingsregels** (toelichten in de toelichting + motivatie), terwijl IFRS dit een **schattingswijziging** (IAS 8) noemt. Behandeling is in beide kaders **prospectief**, maar de openbaarmakingsverplichtingen verschillen. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2019-04-gevolgen-op-gebied-van-financiele-rapportering-als-gevolg-van-de-brexit-0.md",
+                  "resources/bronnen/adviezen/CBN-2010-15-afschrijvingsmethoden.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 3:6 § 1, 4° KB WVV (vermelding en motivering van wijziging waarderingsregels in de toelichting) + art. 3:42 KB WVV (afschrijvingsplan vastgesteld door bestuursorgaan, te herzien bij wijziging economische omstandigheden). CBN-advies 2019/04 expliciteert dit met als voorbeeld een verlenging van de economische levensduur. CBN-advies 2010/15 over afschrijvingsmethoden en -periode.",
+                "type": "grondslag",
+                "wetsref": "art. 3:6 §1, 4° en art. 3:42 KB WVV; CBN-advies 2019/04; CBN-advies 2010/15"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr2"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -209,6 +312,15 @@
           "jaarrekening",
           "wettelijke bepalingen"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr3",
         "vraag_onderwerp": "Goodwill (meerprijs bij overname): rubricering en afschrijvingstermijn",
@@ -780,6 +892,24 @@
           "controlprocedures",
           "aankoopproces"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            },
+            {
+              "patroon": "het_schema_de_fig",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr10",
         "vraag_onderwerp": "Functiescheiding: indeling van activiteiten naar soort taak",
@@ -904,6 +1034,15 @@
           "ICT-beveiliging",
           "handtekeningsbevoegdheid"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr12",
         "vraag_onderwerp": "Interne controle: preventieve, repressieve en corrigerende maatregelen",
@@ -1143,7 +1282,81 @@
       "vraag_id": "2013-2-vr13"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Adviseer de cliënt om de vier ontbrekende jaarrekeningen **onmiddellijk en in chronologische volgorde** te laten goedkeuren door de algemene vergadering (zo nodig retroactief vaststellen) en elektronisch neer te leggen bij de Balanscentrale van de Nationale Bank van België, met betaling van de tariefbijdrage voor laattijdige neerlegging per boekjaar. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Concrete stappen:\n\n1. **Reconstrueer** de jaarrekeningen van de vier ontbrekende boekjaren (balans, resultatenrekening, toelichting volgens het toepasselijke schema). 🤖\n2. **Roep een (bijzondere) algemene vergadering** bijeen om elke jaarrekening goed te keuren. 🔗\n3. **Leg elk van de vier jaarrekeningen elektronisch neer** bij de Balanscentrale (NBB) — één neerlegging per boekjaar, in volgorde van oudste naar recentste. 🔗\n4. **Betaal de tariefbijdrage** voor laattijdige neerlegging per boekjaar (art. 3:13 WVV). 📖\n5. **Documenteer de regularisatie** zodat ze kan worden voorgelegd indien het openbaar ministerie of een belanghebbende reeds een ontbindingsvordering inleidde of nog wil inleiden. 🔗",
+                "type": "opsomming"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het advies is dringend omdat niet-neerlegging drie cumulerende risico's blootlegt: (i) een **financiële tariefbijdrage** per laattijdig boekjaar, (ii) **burgerlijke aansprakelijkheid van het bestuursorgaan** jegens derden voor schade door de niet-neerlegging, en (iii) een **gerechtelijke ontbinding** van de BV op vordering van iedere belanghebbende of het openbaar ministerie. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md",
+                  "resources/bronnen/adviezen/CBN-2020-08-mogelijkheid-tot-uitstel-van-de-gewone-algemene-vergadering-en-van-de-neerlegging-van-de.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Drie sanctie-sporen:**\n\n- **Tariefbijdrage laattijdige neerlegging** — art. 3:13 WVV: per boekjaar waarvan de jaarrekening laattijdig wordt neergelegd is een forfaitaire bijdrage verschuldigd, gestaffeld volgens de overschrijdingsduur en de groottecategorie van de vennootschap (bedragen in het Cijferzakboekje). 📖\n- **Burgerlijke aansprakelijkheid bestuurders** — bij overschrijding van de termijnen van art. 3:1 § 1 (jaarrekening voorleggen aan AV binnen 6 maanden) en art. 3:10/3:12 WVV (neerlegging binnen 30 dagen na goedkeuring, uiterlijk 7 maanden na boekjaarafsluiting) wordt **de schade geleden door derden geacht voort te vloeien uit de niet-neerlegging**, behoudens tegenbewijs. 🔗\n- **Gerechtelijke ontbinding** — art. 2:74 WVV: de ondernemingsrechtbank kan, op vordering van iedere belanghebbende of het openbaar ministerie (of na mededeling door de kamer voor ondernemingen in moeilijkheden), de ontbinding uitspreken van een vennootschap die haar neerleggingsplicht (art. 3:10/3:12) niet is nagekomen. De vordering kan worden ingesteld na verstrijken van de termijn van zeven maanden na boekjaarafsluiting; bij Mode Invest bvba zijn vier boekjaren overschreden, dus het risico is acuut. De rechtbank kan een regularisatietermijn toekennen, wat extra reden is om de neerlegging onmiddellijk in orde te brengen. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Valkuil** — De oude voorwaarde dat de niet-neerlegging gedurende **drie opeenvolgende boekjaren** moest hebben plaatsgevonden vooraleer een gerechtelijke ontbinding mogelijk was (oud art. 182 W.Venn.) **bestaat sinds de Wet van 17 mei 2017 niet meer**. Onder het huidige WVV (art. 2:74) volstaat één niet-neergelegd boekjaar opdat de vordering ontvankelijk is na het verstrijken van zeven maanden na boekjaarafsluiting. Dat de casus uit 2013 dateert, doet daar voor het advies vandaag niet aan af: er moet getoetst worden aan het thans geldende WVV. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-04-verslaggeving-bij-ontbinding-en-vereffening-van-bv-cv-nv-se-en-sce.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Neerleggingsplicht en termijn**: art. 3:10 en 3:12 WVV (elektronisch bij Balanscentrale NBB binnen 30 dagen na AV-goedkeuring, uiterlijk 7 maanden na boekjaarafsluiting). **Tariefbijdrage laattijdige neerlegging**: art. 3:13 WVV (bedragen Cijferzakboekje). **Bestuurdersaansprakelijkheid**: art. 3:1 § 1 jo. 3:10/3:12 WVV — schade derden vermoed voort te vloeien uit niet-neerlegging. **Gerechtelijke ontbinding**: art. 2:74 § 1 WVV (vordering door belanghebbende, OM of na mededeling kamer voor ondernemingen in moeilijkheden; regularisatietermijn mogelijk; vordering pas na zeven maanden na boekjaarafsluiting). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 3:10, 3:12, 3:13, 3:1 § 1 en 2:74 WVV"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr14"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -1362,6 +1575,23 @@
           "kapitaal",
           "niet-opgevraagd kapitaal"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "balans"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "balans"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr15",
         "vraag_onderwerp": "Alarmbelprocedure BVBA: toepasbaarheid in twee situaties",
@@ -1499,6 +1729,25 @@
           "onderhandse akte",
           "jaarrekening neerlegging"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "patroon": "kruis_aan",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            },
+            {
+              "patroon": "het_schema_de_fig",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr17",
         "vraag_onderwerp": "Vennootschapsvormen: kenmerken per vennootschapsvorm",
@@ -1688,6 +1937,24 @@
           "correcties actief",
           "omzettingsverslag"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            },
+            {
+              "patroon": "kruis_aan",
+              "type": "tekst_patroon",
+              "veld": "vraagstelling-a"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr19",
         "vraag_onderwerp": "Omzettingsopdracht CVBA naar BVBA: onafhankelijkheid, correcties actief en verslag",
@@ -2262,6 +2529,23 @@
           "notionele intrestaftrek",
           "aanslagjaar 2013"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "balans"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr24",
         "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten",
@@ -2435,6 +2719,23 @@
           "belastbaar resultaat",
           "eigen vermogen"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr25",
         "vraag_onderwerp": "Vennootschapsbelasting: aandelenportefeuille, DBI en belastbaar resultaat",
@@ -2645,6 +2946,15 @@
           "Waals recht",
           "erfgenamen"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2013-2-vr28",
         "vraag_onderwerp": "Successierechten Luik: passief nalatenschap — aangenomen of niet",

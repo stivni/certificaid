@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
   "examen_id": "2015-1",
-  "merge_datum": "2026-05-26T10:30:42+00:00",
+  "merge_datum": "2026-05-26T12:11:24+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -528,6 +528,15 @@
           "rekening 100",
           "boekhoudkundige verwerking"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr7",
         "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
@@ -647,6 +656,25 @@
           "financiële ratio's",
           "jaarrekening analyse"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "patroon": "zie_bijlage",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            },
+            {
+              "patroon": "op_basis_van_de_bal",
+              "type": "tekst_patroon",
+              "veld": "casus_context"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr8",
         "vraag_onderwerp": "Berekening financiële ratio's op basis van jaarrekening",
@@ -966,6 +994,19 @@
           "balansposten",
           "financiële analyse"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr10",
         "vraag_onderwerp": "Behoefte aan werkkapitaal: selectie van balansposten",
@@ -1313,6 +1354,19 @@
           "operationeel aspect",
           "conformiteitsaspect"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr14",
         "vraag_onderwerp": "Operationele audit verkoopcyclus: classificatie doelstellingen naar financieel/operationeel/conformiteit",
@@ -1472,6 +1526,15 @@
           "controletechnieken",
           "accountantsonderzoek"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr17",
         "vraag_onderwerp": "Controledoelstellingen en -technieken op debet lopende rekening bij omzetting",
@@ -1537,6 +1600,15 @@
           "voorbehoud",
           "accountantsonderzoek"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr18",
         "vraag_onderwerp": "Controle na voorraadtelling en behandeling handelsvorderingsverschil",
@@ -1776,6 +1848,23 @@
           "vennootschapsrecht",
           "bijeenroeping algemene vergadering"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "balans"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr20",
         "vraag_onderwerp": "Alarmbelprocedure bvba: advies bij verlies dat geplaatst kapitaal aantast",
@@ -2296,6 +2385,15 @@
           "werkzaamheden",
           "bijzondere mandaten"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr27",
         "vraag_onderwerp": "Opdracht externe accountant bij omzetting NV naar BVBA: juist/fout stellingen",
@@ -2804,6 +2902,19 @@
           "fiscaal overgedragen verlies",
           "meerwaarden effecten"
         ],
+        "vision_review_nodig": {
+          "actie": "vision_review_aanbevolen",
+          "signalen": [
+            {
+              "type": "kwaliteits_flag",
+              "waarde": "tabel_in_pdf_zichtbaar"
+            },
+            {
+              "type": "context_blok",
+              "waarde": "gegevens_tabel"
+            }
+          ]
+        },
         "vraag_herkomst": "officieel",
         "vraag_id": "2015-1-vr33",
         "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille",

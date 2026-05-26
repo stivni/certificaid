@@ -1,0 +1,81 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrB2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Vennootschap A **moet het volledig schema** gebruiken: met 120 voltijdse equivalenten overschrijdt zij de personeelsdrempel (50 VTE) en kwalificeert daardoor als **grote vennootschap**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/MvT-WVV-2018.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Een vennootschap is klein als zij op balansdatum **maximaal één** van drie groottecriteria overschrijdt (personeel 50 VTE, omzet excl. BTW 9.000.000 EUR, balanstotaal 4.500.000 EUR). 📖 A heeft 120 VTE → personeelscriterium overschreden, en als moedervennootschap moet zij bovendien op **geconsolideerde basis** toetsen (omzet en balanstotaal van de groep meetellen of vereenvoudigde +20%-methode toepassen). 🔗 Zelfs zonder die consolidatie volstaat het personeelscriterium om als groot te kwalificeren — kwalificatie als 'klein' is uitgesloten zodra **meer dan één** criterium wordt overschreden gedurende twee opeenvolgende boekjaren (art. 1:24 §2 WVV). 📖 Grote vennootschappen gebruiken het volledig schema (bijlage 1 KB-WVV). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard.** Een moedervennootschap kan **nooit** een microvennootschap zijn (art. 1:25 §1 WVV vereist 'geen dochter of moeder'). 📖 A is dus ofwel klein (verkort schema) ofwel groot (volledig schema), maar nooit micro.",
+          "confidence": "geciteerd",
+          "bron_refs": ["resources/bronnen/wetteksten/MvT-WVV-2018.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1:24 §1 WVV (groottecriteria klein), art. 1:24 §6 WVV (geconsolideerde toetsing voor moedervennootschappen), art. 1:25 §1 WVV (microvennootschap kan geen moeder zijn), KB-WVV bijlage 1 (volledig schema) en bijlage 2 (verkort schema). CBN-advies 2022/03 verfijnt de toetsing op geconsolideerde of geaggregeerde basis (+20%-methode).",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Vennootschap B **mag het verkort schema** gebruiken: op enkelvoudige basis (5 VTE, 2.000.000 EUR omzet) overschrijdt zij geen enkel criterium en kwalificeert zij als **kleine vennootschap**. Als dochter van A kan zij echter géén microvennootschap zijn. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/wetteksten/MvT-WVV-2018.md"]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De groottetoetsing op geconsolideerde of geaggregeerde basis geldt enkel voor **moedervennootschappen** (art. 1:24 §6 WVV — CBN 2022/03: \"de andere verbonden vennootschappen — hoofdzakelijk de dochtervennootschappen — worden niet beoogd door deze uitzondering\"). 📖 B wordt dus op **enkelvoudige basis** beoordeeld: 5 VTE (< 50), 2 mio EUR omzet (< 9 mio), balanstotaal onbekend maar gegeven de schaal vermoedelijk onder 4,5 mio. 🔗 Geen enkel criterium overschreden → klein → **verkort schema** (bijlage 2 KB-WVV). 🔗 Microschema is uitgesloten omdat B een dochtervennootschap is (art. 1:25 §1 WVV). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil.** Het is verleidelijk te denken dat de dochter de grootte van de moeder 'erft' — dat klopt niet. De geconsolideerde toetsing geldt enkel bij de moeder zelf; de dochter blijft op enkelvoudige basis beoordeeld voor klein/groot. Wat de dochter wél verliest door het loutere feit dochter te zijn, is de microkwalificatie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": ["resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 1:24 §1 en §6 WVV (groottecriteria + scope geconsolideerde toetsing beperkt tot moedervennootschappen), art. 1:25 §1 WVV (microvennootschap: geen moeder of dochter), KB-WVV bijlage 2 (verkort schema). CBN-advies 2022/03 §Toepassingsgebied: dochters worden niet beoogd door de uitzondering op geconsolideerde basis.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-03-beoordeling-van-de-groottecriteria.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10B",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De **rotatie / omloopsnelheid van het klantenkrediet** (de zogenaamde **n-dagen klantenkrediet** of *Days Sales Outstanding*) kan **niet** worden berekend op basis van een verkort schema. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De formule is: **n-dagen klantenkrediet = (Handelsvorderingen op ten hoogste één jaar × 365) / Omzet incl. btw**. 🔗\n\nIn het **verkort schema** van de resultatenrekening worden de rubrieken **70 Omzet, 71 Wijziging in voorraden, 72 Geproduceerde vaste activa en 74 Andere bedrijfsopbrengsten** **samengevoegd** tot één enkele rubriek **9900 Brutomarge** (= bedrijfsopbrengsten − handelsgoederen, grond- en hulpstoffen − diensten en diverse goederen). 📖 De afzonderlijke omzet (rekening 70) wordt dus **niet** als aparte post gepubliceerd. 🔗\n\nDe teller van de ratio (handelsvorderingen, balansrubriek VII.A) is wél beschikbaar in het verkort schema, maar zonder afzonderlijke omzet ontbreekt de noemer en is de ratio niet berekenbaar. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — Liquiditeits- en solvabiliteitsratio's (current ratio, quick ratio, cash ratio, schuldgraad, financiële onafhankelijkheid) zijn **wél** berekenbaar op een verkort schema: alle balansrubrieken die hierin nodig zijn (vlottende activa, voorraden, vorderingen, liquide middelen, schulden ≤ 1 jaar, eigen vermogen, totaal vreemd vermogen) staan ook in het verkort schema. Het probleem treft enkel ratio's die de **omzet** of een andere afzonderlijk niet-verplichte resultatenrekening-post als input nemen (bv. ook n-dagen leverancierskrediet vereist 'Aankopen 60', en bruto-verkoopmarge vereist Omzet — beide eveneens problematisch in het verkort schema). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "KB-WVV, bijlagen bij art. 3:11 (volledig schema) en art. 3:12 (verkort schema): in het verkort schema worden 70–74 samengevoegd tot rubriek 9900 *Brutomarge*. 📖 CBN-advies 2017/08 bevestigt dat het verkort en het volledig schema verschillen in de mate van detail van de resultatenrekening; sinds KB 18 december 2015 zijn beide schema's herwerkt maar de aggregatie tot brutomarge in het verkort schema blijft behouden. 🔗",
+          "wetsref": "KB-WVV art. 3:11–3:12 + bijlagen schema's; CBN-advies 2017/08",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2017-08-cijfers-van-het-vorig-boekjaar-bij-opmaak-jaarrekening-volgens-nieuw-model.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

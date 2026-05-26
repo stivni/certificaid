@@ -1,0 +1,62 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrB5",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Voor geval A (kapitaalsubsidie 10.000 EUR voor machine 100.000 EUR, 10% afschrijving, 40% belasting) moet de toelichting in beide boekjaren (1) de waarderingsregel voor kapitaalsubsidies en uitgestelde belastingen vermelden en (2) een mutatie-overzicht geven van de rekening 15 'Kapitaalsubsidies' en (indirect via post VII.B) de rekening 168 'Uitgestelde belastingen'. 2002: opname netto-subsidie 6.000 EUR + uitgestelde belasting 4.000 EUR, eerste in resultaatname (600 + 400). 2003: voortzetting in resultaatname (600 + 400); saldi einde 2003: rekening 15 = 4.800 EUR, rekening 168 = 3.200 EUR. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Te vermelden in de toelichting (boekjaar 2002 én 2003):**\n\n1. **Waarderingsregels** 📖 — In het overzicht van de waarderingsregels (verplichte rubriek van de toelichting) moet worden vermeld welke methode gehanteerd wordt voor (a) de boeking van kapitaalsubsidies en (b) de waardering en geleidelijke afboeking van de uitgestelde belastingen op kapitaalsubsidies (i.e. waardering tegen normaal belastingtarief, geleidelijke overboeking naar post 780 'Onttrekkingen aan uitgestelde belastingen' parallel met afschrijvingsritme van het gesubsidieerde actief). In het eerste boekjaar (2002) is dit een volledige beschrijving; in 2003 volstaat een vermelding dat de waarderingsregels ongewijzigd zijn — bij wijziging zou de aard en de financiële impact gemotiveerd moeten worden. 🔗\n\n2. **Mutatieoverzicht kapitaalsubsidies (rekening 15)** 📖 — In het volledig schema bestaat hiervoor een specifieke staat (destijds 'Staat VIII / Staat van de kapitaalsubsidies en uitgestelde belastingen'). Op te nemen:\n   - **2002**: beginsaldo 0 → toename door definitieve toezegging 6.000 (netto, na aftrek 40% UB) → afname door in resultaat genomen kapitaalsubsidie 600 → eindsaldo 31/12/2002 = **5.400 EUR**.\n   - **2003**: beginsaldo 5.400 → afname door in resultaat genomen kapitaalsubsidie 600 → eindsaldo 31/12/2003 = **4.800 EUR**.\n\n3. **Uitgestelde belastingen op kapitaalsubsidies (rekening 168, post VII.B)** 📖 — Eveneens te detailleren (mutatieoverzicht uitgestelde belastingen):\n   - **2002**: beginsaldo 0 → toename 4.000 (40% × 10.000) → afname via 780 = 400 → eindsaldo 31/12/2002 = **3.600 EUR**.\n   - **2003**: beginsaldo 3.600 → afname via 780 = 400 → eindsaldo 31/12/2003 = **3.200 EUR**.\n\n4. **Niet-opeisbare vordering 'te ontvangen kapitaalsubsidie' (rekening 416)** 🔗 — In 2002 staat 10.000 EUR op rekening 416 (twee schijven van 5.000 in 2003 en 2004). In 2003 wordt de eerste schijf van 5.000 ontvangen → eindsaldo 416 op 31/12/2003 = 5.000 EUR. Voor zover materieel: vermelding bij de toelichting bij 'Overige vorderingen' (op meer dan één jaar voor het 2004-deel). 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+            "resources/bronnen/adviezen/CBN-2013-14-uitgestelde-belastingen.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "**Samenvattende staat (toelichting bij rubriek VI. Kapitaalsubsidies + VII.B Uitgestelde belastingen):**\n\n| Boekjaar | Beginsaldo 15 | Toename (60% × 10.000) | In resultaat (753) | Eindsaldo 15 | Beginsaldo 168 | Toename (40% × 10.000) | Onttrekking (780) | Eindsaldo 168 |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|\n| **2002** | 0,00 | 6.000,00 | -600,00 | **5.400,00** | 0,00 | 4.000,00 | -400,00 | **3.600,00** |\n| **2003** | 5.400,00 | 0,00 | -600,00 | **4.800,00** | 3.600,00 | 0,00 | -400,00 | **3.200,00** |\n\nBedragen in EUR. Bruto kapitaalsubsidie 10.000 EUR, gesplitst 60/40 conform 40% belastingvoet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De toelichting bij kapitaalsubsidies dient een **dubbel doel**: enerzijds de mutatie van rekening 15 'Kapitaalsubsidies' (passiefpost VI), anderzijds de mutatie van de gepassiveerde uitgestelde belastingen (passiefpost VII.B, rekening 168). De twee bewegen parallel: een toename op 15 gaat samen met een toename op 168; een in resultaat genomen kapitaalsubsidie (753) gaat altijd samen met een evenredige onttrekking aan uitgestelde belastingen (780). Een toelichting die alleen de netto-rekening 15 toont, mist de belastinglatentie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2013-14-uitgestelde-belastingen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijke grondslag** (geldend in 2002-2003): KB van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (KB W.Venn.), art. 95 §2 (begrip kapitaalsubsidie + presentatie passiefpost VI na aftrek uitgestelde belastingen) 📖; art. 76 §1-§2 (waardering en geleidelijke afboeking uitgestelde belastingen) 📖. **Vandaag**: KB van 29 april 2019 tot uitvoering van het WVV (KB-WVV-2019), art. 3:54 §1-§2 — identieke regeling 📖. **Toelichtingsvereisten** als zodanig: KB W.Venn. art. 91 (volledige toelichting, Staat van de kapitaalsubsidies in het volledig schema) en art. 25 (waarderingsregels). CBN-advies 2011/13 (Overheidssubsidies) bevestigt de splitsing 60/40 en de toelichtingsverplichting; CBN-advies 2013/14 detailleert de behandeling van de uitgestelde belastingen. 🔗",
+          "confidence": "geciteerd",
+          "wetsref": "KB W.Venn. art. 76 §1-§2 en art. 95 §2; KB-WVV-2019 art. 3:54",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-13-overheidssubsidies.md",
+            "resources/bronnen/adviezen/CBN-2013-14-uitgestelde-belastingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10C",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De passief-rubrieken zijn gerangschikt volgens **toenemende eisbaarheid**: van het meest permanent (eigen vermogen) naar het meest opeisbaar op korte termijn (overlopende rekeningen passief). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-16-de-boekhoudkundige-verwerking-van-wentelkredieten.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Volgorde rubrieken passief** (KB WVV 2019, balansschema volledig model):\n\n- **I. Kapitaal / Inbreng** (rubriek 10/11 — geplaatst kapitaal, uitgiftepremies) 📖\n- **II. Herwaarderingsmeerwaarden** (rubriek 12) 📖\n- **III. Reserves** (rubriek 13 — wettelijke, onbeschikbare, belastingvrije, beschikbare) 📖\n- **IV. Overgedragen winst / verlies** (rubriek 14) 📖\n- **V. Kapitaalsubsidies** (rubriek 15) 📖\n- **VI. Voorzieningen en uitgestelde belastingen** (rubriek 16) 📖\n- **VII. Schulden op meer dan één jaar** (rubriek 17) 📖\n- **VIII. Schulden op ten hoogste één jaar** (rubrieken 42-48 — incl. financiële schulden, handelsschulden, fiscale/sociale schulden) 📖\n- **IX. Overlopende rekeningen** (rubriek 49 — toe te rekenen kosten, over te dragen opbrengsten) 📖\n\nRubrieken I t.e.m. V vormen samen het **eigen vermogen**; VI is een tussencategorie (kosten die waarschijnlijk worden maar onzeker in bedrag/timing); VII t.e.m. IX is het **vreemd vermogen** in oplopende eisbaarheid.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — spiegelbeeld met actief: het actief wordt gerangschikt in **toenemende realiseerbaarheid** (vaste activa → vlottende activa → liquide middelen), het passief in **toenemende eisbaarheid**. Beide rangschikkings-logica's zijn dus liquiditeits-gedreven, niet bedragmatig. 🔗\n\n**Valkuil**: een lening op lange termijn waarbij de schuldeiser binnen het jaar kan opeisen, hoort op basis van dit rangschikkings-criterium onder VIII (schulden ≤ 1 jaar), niet onder VII — anders ontstaat een **vals beeld van liquiditeit** (CBN 2012/16). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2012-16-de-boekhoudkundige-verwerking-van-wentelkredieten.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**KB WVV 29.04.2019, art. 3:89** (balansschema volledig model — rubrieken I-IX van het passief). **CBN-advies 2012/16**: \"de passiva worden gerangschikt in een stijgende lijn van eisbaarheid\". **MAR (KB 21.10.2018, Bijlage 1)**, klasse 1 (eigen vermogen + voorzieningen + schulden > 1 jaar) en klasse 4 (schulden ≤ 1 jaar + overlopende rekeningen passief).",
+          "wetsref": "KB WVV 2019 art. 3:89; CBN 2012/16; MAR klasse 1 en 4",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2012-16-de-boekhoudkundige-verwerking-van-wentelkredieten.md",
+            "resources/bronnen/wetteksten/MAR-ondernemingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

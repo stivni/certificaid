@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrB3",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Enkel **materiële vaste activa** en **deelnemingen/aandelen onder de financiële vaste activa** mogen worden geherwaardeerd, op voorwaarde dat de meerwaarde **vaststaand en duurzaam** is, en — wanneer de activa noodzakelijk zijn voor de voortzetting van het bedrijf — verantwoord door de **rentabiliteit** van de vennootschap (of het betrokken bedrijfsonderdeel). De geherwaardeerde waarde moet worden **verantwoord in de toelichting** bij de jaarrekening. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Toepassingsgebied (welke activa):**\n- **Materiële vaste activa** (terreinen, gebouwen, installaties, …). 📖\n- **Deelnemingen en aandelen** opgenomen onder de **financiële vaste activa**. 📖\n- Mag ook beperkt worden tot **bepaalde soorten** van bovenstaande activa (selectieve toepassing, mits bestendigheid). 📖\n\n**Uitgesloten** (a contrario): immateriële vaste activa, voorraden, vorderingen, geldbeleggingen en andere financiële vaste activa dan deelnemingen/aandelen (bv. vorderingen op verbonden ondernemingen). 🔗\n\n**Voorwaarden (cumulatief):**\n1. De waarde, bepaald **in functie van het nut voor de vennootschap**, stijgt **op vaststaande en duurzame wijze** uit boven de boekwaarde — louter conjuncturele of speculatieve waardestijgingen volstaan niet; het bestuursorgaan beoordeelt het vaststaand en duurzaam karakter. 📖\n2. Wanneer de activa **noodzakelijk zijn voor de voortzetting van het bedrijf** (of een bedrijfsonderdeel): de meerwaarde mag enkel worden uitgedrukt in de mate waarin zij wordt **verantwoord door de rentabiliteit** van de vennootschap of het betrokken bedrijfsonderdeel. 📖\n3. De geherwaardeerde waarde wordt **verantwoord in de toelichting** bij de jaarrekening waarin de herwaardering voor het eerst werd toegepast. 📖\n4. Voor **afschrijfbare** materiële vaste activa: de meerwaarde wordt afgeschreven volgens een **opgesteld en in de toelichting vermeld plan**, conform de resterende vermoedelijke gebruiksduur. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Vermeldenswaard** — herwaardering is een **optie, geen verplichting**: ze vereist grote voorzichtigheid. De meerwaarde wordt rechtstreeks geboekt op passiefpost **III. Herwaarderingsmeerwaarden** (eigen vermogen) en is **niet uitkeerbaar** zolang de meerwaarde niet is gerealiseerd. De boeking raakt de balans, niet de resultatenrekening. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 3:35 KB WVV** (vroeger art. 57 KB W.Venn. — destijds toepasselijk voor het BIBF-examen 2003): toepassingsgebied (materiële vaste activa + deelnemingen/aandelen onder FVA), voorwaarden (vaststaand en duurzaam, rentabiliteitsverantwoording) en toelichtingsverplichting. **CBN-advies 2011/14 — Herwaarderingsmeerwaarden** detailleert de beoordeling door het bestuursorgaan en het afschrijvingsplan voor afschrijfbare geherwaardeerde activa. 📖",
+          "wetsref": "Art. 3:35 KB WVV (ex art. 57 KB W.Venn.); CBN-advies 2011/14",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/adviezen/CBN-2011-14-herwaarderingsmeerwaarden.md"
+          ]
+        }
+      ]
+    }
+  ]
+}
