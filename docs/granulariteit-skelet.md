@@ -98,11 +98,11 @@ schuldfinanciering                       [eigen cluster — user-keuze 2026-05-2
 │   └── operationele-leasing             [E+R]    (bestaand)
 └── (schuldfinanciering-Σ)               TBD — verzamelconcept "vreemd vermogen kiezen"?
 
-reorganisatie                            [Σ-cluster ⏳]
-├── fusie                                ⏳
-├── splitsing                            ⏳
-├── partiële-splitsing                   ⏳
-└── (inbreng-bedrijfstak-of-algemeenheid → kapitaalstructuur)
+reorganisatie                            [Σ-cluster, 4 records — cross PO 3.0.taak.2/3 + 2.3.III.B + 2.8.XVI + 1.4]
+├── reorganisatie                        [R, Σ]              keuzekader · vergelijkingsmatrix · WVV boek 12 + fiscale-neutraliteit
+├── fusie                                [G+R]               3 modaliteiten · ruilverhouding · revisor-verslag (bijzonder mandaat)
+├── splitsing                            [G+R]               3 modaliteiten incl. partiële splitsing
+└── fiscale-fusie-splitsing              [R]                 fiscale neutraliteit-regime · voorwaarden · EU-context
 
 fiscale-voordelen-vennootschap           [Σ-cluster ⏳]
 ├── dbi-aftrek                           ⏳
@@ -207,7 +207,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | bestuur-en-aansprakelijkheid | 4 | PO 3.0.II + VII | [§Bestuur-en-aansprakelijkheid-cluster](#bestuur-en-aansprakelijkheid-cluster) |
 | vennootschapsgeschillen | 1 | PO 3.0.VIII | [§Vennootschapsgeschillen-cluster](#vennootschapsgeschillen-cluster) |
 | insolventie | 7 (incl. nieuwe `faillissement`) | PO 3.0.IX + X | [§Insolventie-cluster](#insolventie-cluster) |
-| **winstuitkering** | **3** (NIEUW Σ + winstbestemming + tantième; 4 cross-records) | **PO 3.0.IV.B + cross 2.3 + 2.1** | [**§Winstuitkering-cluster**](#winstuitkering-cluster) |
+| winstuitkering | 3 (NIEUW Σ + winstbestemming + tantième; 4 cross-records) | PO 3.0.IV.B + cross 2.3 + 2.1 | [§Winstuitkering-cluster](#winstuitkering-cluster) |
+| **reorganisatie** | **4** (Σ + fusie + splitsing + fiscale-fusie-splitsing) | **cross PO 3.0.taak.2/3 + 2.3.III.B + 2.8.XVI + 1.4** | [**§Reorganisatie-cluster**](#reorganisatie-cluster) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 
@@ -1159,6 +1160,81 @@ winstuitkering                            [Σ-cluster, 3 records — PO 3.0.IV.B
 - **OP-WU.B** ⏳ `tussentijdse-dividenden` als sub-sectie van Σ (huidig) of eigen record? Voorlopig sub-sectie (anti-versnippering); split bij content-zwaarte (BV-mechaniek substantieel verschillend van NV)
 - **OP-WU.C** ⏳ `winstbestemming`-positionering — eigen record (huidig) of sub-sectie van `winstuitkering`-Σ? Voorlopig eigen want AV-procedure + wettelijke reserve substantieel; cross-link in Σ
 - **OP-WU.D** ⏳ `dividend-uitkering` als eigen record creëren? Voorlopig: regulier dividend = sub-sectie van Σ + RV-aspecten in `uitkering-aan-aandeelhouders` hernoemd. Splitsen indien content-zwaarte rechtvaardigt
+
+### Reorganisatie-cluster
+
+Thema: `reorganisatie`. *Σ-cluster (cross PO 3.0.taak.2 + 3.0.taak.3 + 2.3.III.B + 2.8.XVI + 1.4.II.A/D, 2026-05-26). Vennootschapsrechtelijke reorganisaties + fiscale neutraliteit. Cross-cluster met `bijzondere-mandaten` (revisor-verslag-vereisten per type) + `overdracht-onderneming` (alternatieve structurering).*
+
+```
+reorganisatie                             [Σ-cluster, 4 records]
+│
+├── reorganisatie                         [R, Σ-hoofdrecord — NIEUW]
+│   ▸ overkoepelend keuzekader voor herstructureringen
+│   ▸ #vergelijkingsmatrix-modaliteiten:
+│       - fusie (door overneming · door oprichting · zuster-fusie)
+│       - splitsing (door overneming · door oprichting · partiële-splitsing)
+│       - inbreng-bedrijfstak-of-algemeenheid (alternatieve structurering — cross naar Geb-record)
+│       - omzetting (cross naar omzetting-vennootschap)
+│       - geruisloze fusie (vereenvoudigde procedure dochter)
+│   ▸ #fiscale-neutraliteit (cross naar fiscale-fusie-splitsing) — voorwaarden voor vrijstelling realisatie meerwaarden
+│   ▸ #wettelijke-procedure (WVV boek 12) — voorstel-tot-fusie · revisor-verslag · AV-besluit · notariële akte · publicatie
+│   ▸ #bijzonder-mandaat (cross naar bijzondere-mandaten) — controle ruilverhouding + waardering inbreng
+│   ▸ keuze-criteria: fiscale impact · operationele context · timing · arbeidsrecht (CAO 32bis)
+│
+├── fusie                                 [G+R, bestaand]
+│   ▸ 3 modaliteiten (overneming · oprichting · zuster) · uitwisseling aandelen · ruilverhouding
+│   ▸ algemene rechtsopvolging — automatische overgang activa+passiva
+│   ▸ revisor-verslag (cross bijzondere-mandaten + ITAA-norm-fusie-splitsing)
+│   ▸ accountant_perspectieven[].audit: bijzonder mandaat controle ruilverhouding
+│
+├── splitsing                             [G+R, bestaand]
+│   ▸ 3 modaliteiten: zuivere splitsing (oude venn verdwijnt → 2 nieuwe) · door overneming · partiële splitsing (deel-vermogen naar bestaande/nieuwe venn)
+│   ▸ partiële splitsing onderscheid met inbreng-bedrijfstak: rechts-opvolging vs contractuele inbreng
+│   ▸ accountant_perspectieven[].audit: bijzonder mandaat
+│
+└── fiscale-fusie-splitsing               [R, bestaand]
+    ▸ fiscale neutraliteit-regime VenB — vrijstelling realisatie meerwaarden mits voorwaarden
+    ▸ #voorwaarden: continuïteit · bedrijfsmatige redenen (anti-misbruik) · binnen-EU
+    ▸ EU fusierichtlijn (cross naar fiscale-fusierichtlijn voor grensoverschrijdend)
+    ▸ #latente belasting overdracht (overgenomen venn neemt fiscale schoenen over)
+    ▸ cross-thema: anti-misbruik (motivering-toets) ⏳
+```
+
+**Cross-cluster** (records met primair-thuis elders):
+- `inbreng-van-bedrijfstak-of-algemeenheid` (kapitaalstructuur) — verwante structureringsvorm; cross-thema reorganisatie
+- `omzetting-vennootschap` (ondernemingsvormen — bestaand-record? te checken) — vorm-wissel binnen zelfde rechtspersoon
+- `overdracht-onderneming` (overdracht-onderneming-cluster) — alternatieve route (share-deal/asset-deal)
+- `bijzondere-mandaten` (controle) — categorisch begrip; fusie/splitsing zijn types
+- `fiscale-aandachtspunten-herstructurering` (fiscale-voordelen-vennootschap ⏳?) — pre-/post-deal fiscale due diligence
+- `fiscale-fusierichtlijn` (cross PO 2.8) — grensoverschrijdend EU
+- `gerechtelijke-reorganisatie` (insolventie) — andere context (insolventie-aanloop, niet vrijwillige reorganisatie); naam-overlap maar conceptueel verschillend (te flaggen via cross-relatie + scope.out)
+
+**Schrappen / nieuwe records**:
+- 1 nieuw Σ-record `reorganisatie` (overkoepelend)
+- Bestaande records behouden: `fusie`, `splitsing`, `fiscale-fusie-splitsing`
+- Splits-overweging: `fusie` × 3 modaliteiten (overneming/oprichting/zuster) — voorlopig sub-secties (anti-versnippering)
+- Idem `splitsing` × 3 modaliteiten — voorlopig sub-secties; **partiële-splitsing** mogelijk eigen record indien substantieel (cross naar inbreng-bedrijfstak)
+
+**Triangulatie 2026-05-26**:
+- Cross PO 3.0.taak.2 (overdracht/ontbinding) + 3.0.taak.3 (bijzondere mandaten) + 2.3.III.B (VenB-fusie/splitsing) + 2.8.XVI (EU-fusierichtlijn) + 1.4.II.A/D (consolidatie-context)
+- 4 bestaande records + 1 nieuw Σ = 5; netto cluster-eigen = 4 (incl. Σ)
+- Geen split, geen rename
+
+**Bronnen-pin**:
+- ✅ WVV boek 12 (vennootschapsrechtelijke reorganisaties)
+- ✅ ITAA-norm-fusie-splitsing (trusted) — bijzonder-mandaat-context
+- ✅ WIB art 211 ev (fiscale neutraliteit)
+- ✅ EU Fusierichtlijn 2009/133/EG
+
+**Mapping-actie OP-EC.E** voor `fusie` + `splitsing`:
+- `accountant_perspectieven[].audit` met cross-link naar `bijzondere-mandaten`
+- ITAA-norm-fusie-splitsing pin
+- Oordeel-onderwerp: ruilverhouding + waardering inbreng
+
+**Open punten**:
+- **OP-RE.A** ⏳ `partiële-splitsing` als sub-sectie van `splitsing` (huidig) of eigen record (cross naar `inbreng-bedrijfstak`)? Substantie-vraag bij content-uitwerking
+- **OP-RE.B** ⏳ `geruisloze-fusie` (vereenvoudigde dochter-fusie) als eigen record of sub-sectie van `fusie`? Voorlopig sub-sectie
+- **OP-RE.C** ⏳ `gerechtelijke-reorganisatie` vs `reorganisatie` — naam-overlap maar conceptueel verschillend (insolventie-context vs vrijwillig). Scope.out + cross-relatie volstaat; geen rename nodig
 
 ### Beroepsbeoefening-cluster
 
