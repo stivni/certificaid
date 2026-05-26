@@ -24,12 +24,11 @@
 {% endfor %}
 
 {% endif %}
-{# PRUTS: Topic-only — warning-callout met onderwerp. Soort en titel aanpasbaar. #}
-{% if volledigheid == "topic_only" %}
-> [!warning] Topic enkel — geen vraagstelling beschikbaar
-{% if topic_only_onderwerp %}
-> {{ topic_only_onderwerp }}
-{% endif %}
+{# Topic-only: alleen onderwerp tonen als italic placeholder. Geen warning-
+   callout — de outer topic-callout (zie _render_vraag_eenheid) signaleert
+   al dat de vraag onvolledig is. #}
+{% if volledigheid == "topic_only" and topic_only_onderwerp %}
+_{{ topic_only_onderwerp }}_
 
 {% endif %}
 {# Antwoord-callout per deelvraag (collapsed): inhoud is in Python pre-rendered. #}

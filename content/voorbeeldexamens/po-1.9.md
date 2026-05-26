@@ -37,7 +37,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Verwar NBK niet met liquiditeit of kas**. Een kapitaalverhoging in cash verhoogt zowel NBK als kas; een LT-lening die meteen wordt gebruikt om een gebouw te kopen, **verhoogt het NBK niet** (de schuld > 1 jaar stijgt, maar de vaste activa stijgen met hetzelfde bedrag). Het NBK stijgt enkel als de inbreng of LT-financiering wordt gebruikt voor **vlottende** doeleinden of als reserve, niet voor nieuwe vaste activa. 🤖
 > > 
-> > *Bedrijfseconomische definitie van het netto bedrijfskapitaal (financiële analyse van de jaarrekening). Geen specifieke wettelijke bepaling — de notie volgt uit de balansstructuur opgelegd door de KB/W.Venn. en het WVV (rubrieken vlottende/vaste activa, schulden > 1 jaar / ≤ 1 jaar). 🤖*
+> > Bedrijfseconomische definitie van het netto bedrijfskapitaal (financiële analyse van de jaarrekening). Geen specifieke wettelijke bepaling — de notie volgt uit de balansstructuur opgelegd door de KB/W.Venn. en het WVV (rubrieken vlottende/vaste activa, schulden > 1 jaar / ≤ 1 jaar). 🤖
 
 <a id="2013-1-vr5"></a>
 
@@ -70,7 +70,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet verwarren met **ROE** (rendabiliteit eigen vermogen — winst na belasting / eigen vermogen) noch met **brutorendabiliteit van de activa** (waar niet-kaskosten zoals afschrijvingen en waardeverminderingen worden teruggevoegd). De bedrijfsactiva-variant **neutraliseert kosten van schulden** in de teller — dat is precies wat een ROE-formule niet doet. 🤖
 > > 
-> > *CBN-advies 2011/14, sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden'. 📖*  
+> > CBN-advies 2011/14, sectie 'Rentabiliteit van het totaal van de activa: voorbeeldmethoden'. 📖  
 > > *Bron: CBN-advies 2011/14*
 >
 > Omschrijf het begrip 'algemene schuldgraad'.
@@ -89,7 +89,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet verwarren met de **boekhoudkundige cash flow** (nettoresultaat na belasting + niet-kaskosten — een totaal-cashflow), noch met de **operationele cash flow uit het kasstroomoverzicht IAS 7** (indirecte methode, vertrekt van resultaat vóór belasting en corrigeert ook voor mutaties in werkkapitaal). De Belgische 'operationele cash flow vóór belastingen' uit de ratio-analyse corrigeert klassiek **niet** voor werkkapitaal-mutaties — het blijft een **resultaatsgebaseerde proxy**. 🤖
 > > 
-> > *Definitie via CBN-advies 2011/14 (cashflow = nettoresultaat + niet-kaskosten); IAS 7 §10-13 voor de IFRS-variant met werkkapitaal-correcties (ter contrast). 📖*  
+> > Definitie via CBN-advies 2011/14 (cashflow = nettoresultaat + niet-kaskosten); IAS 7 §10-13 voor de IFRS-variant met werkkapitaal-correcties (ter contrast). 📖  
 > > *Bron: CBN-advies 2011/14; IAS 7*
 
 <a id="2008-bibf-vrC1"></a>
@@ -153,7 +153,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > BBK-verlaging is geen doel op zich: te agressieve voorraadafbouw veroorzaakt **stockbreuken**, te korte klantentermijnen kosten **omzet**, en te lange leverancierstermijnen schaden de **leveranciersrelatie** of de korting-voor-contant. De afweging is altijd financieringskost vs commerciële kost. 🔗
 > > 
-> > *Geen specifieke wetsbasis — dit is **bedrijfseconomische doctrine** (financieel beheer, PO 1.9). Toetssteen: bestaand concept-fiche `werkkapitaalbehoefte` en competentie `bepalen-behoefte-aan-bedrijfskapitaal`. Standaardwerk: Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*. 🔗*
+> > Geen specifieke wetsbasis — dit is **bedrijfseconomische doctrine** (financieel beheer, PO 1.9). Toetssteen: bestaand concept-fiche `werkkapitaalbehoefte` en competentie `bepalen-behoefte-aan-bedrijfskapitaal`. Standaardwerk: Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*. 🔗
 
 <a id="2008-bibf-vrC2"></a>
 
@@ -166,7 +166,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Het krediet is in deze opzet niet haalbaar.** 🔗 De jaarlijkse annuïteit van de nieuwe lening bedraagt ± **23.097 EUR**; samen met de bestaande kapitaalaflossingen van 12.000 EUR loopt de totale schuldenlast op tot ± **35.097 EUR/jaar**, terwijl de cashflow slechts 30.000 EUR bedraagt. De **debt service coverage** zakt onder 1 (≈ 0,85), wat een tekort van ± 5.000 EUR per jaar betekent. 🔗_**
+> > **Het krediet is in deze opzet niet haalbaar.** 🔗 De jaarlijkse annuïteit van de nieuwe lening bedraagt ± **23.097 EUR**; samen met de bestaande kapitaalaflossingen van 12.000 EUR loopt de totale schuldenlast op tot ± **35.097 EUR/jaar**, terwijl de cashflow slechts 30.000 EUR bedraagt. De **debt service coverage** zakt onder 1 (≈ 0,85), wat een tekort van ± 5.000 EUR per jaar betekent. 🔗
 > > 
 > > **Annuïteit nieuwe lening** (5 gelijke jaarlijkse schijven, 5% — formule annuïteit a = K · i / (1 − (1+i)^−n)):
 > > 
@@ -196,7 +196,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Cashflow ≠ vrij beschikbaar voor aflossingen.** 🔗 De boekhoudkundige cashflow (nettoresultaat + niet-kaskosten) is een proxy, geen vrij besteedbaar bedrag. Er moet ook ruimte zijn voor: (i) interesten op bestaande schulden (cashflow zoals hier gedefinieerd is doorgaans vóór financiële lasten? — interpretatie nodig), (ii) belastingen, (iii) vervangingsinvesteringen, (iv) dividenden, (v) toename behoefte aan bedrijfskapitaal. De **vuistregel** dat de totale jaarlijkse schuldenlast (kapitaal + interest) maximaal 70-80% van de cashflow mag bedragen, wordt hier ruim overschreden. 🤖
 > > 
-> > *Geen specifieke wetsbepaling — dit is **financiële analyse / kredietbeoordeling** (PO 1.9: financiering en kredietverlening). Relevante kaders: aflossingscapaciteits-toets en DSCR (bancaire kredietanalyse-doctrine); annuïteitenformule (financiële wiskunde); matching-principe tussen looptijd financiering en economische levensduur investering. Voor de cashflow-definitie: nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen) — concept-record `kasstroom-analyse`. 🔗*  
+> > Geen specifieke wetsbepaling — dit is **financiële analyse / kredietbeoordeling** (PO 1.9: financiering en kredietverlening). Relevante kaders: aflossingscapaciteits-toets en DSCR (bancaire kredietanalyse-doctrine); annuïteitenformule (financiële wiskunde); matching-principe tussen looptijd financiering en economische levensduur investering. Voor de cashflow-definitie: nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen) — concept-record `kasstroom-analyse`. 🔗  
 > > *Bron: PO 1.9 — financiering en kredietverlening*
 
 <a id="2003-bibf-vrC1"></a>
@@ -232,7 +232,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Netto bedrijfskapitaal = 54.110,00 EUR** 🔗_**
+> > **Netto bedrijfskapitaal = 54.110,00 EUR** 🔗
 > > 
 > > Netto bedrijfskapitaal (NBK) = Vlottende activa − Schulden op ten hoogste één jaar 🔗
 > > 
@@ -250,14 +250,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Een positief NBK is het normale beeld: het betekent dat de onderneming haar vaste activa en een deel van haar exploitatiecyclus met permanente middelen financiert. Een negatief NBK is niet per definitie problematisch (denk aan retail met snelle voorraadrotatie en lange leverancierskredieten), maar bij een industriële of dienstenonderneming wijst het op een structureel financieringsprobleem. 🤖
 > > 
-> > *Standaardformule uit de balansanalyse (financieel beheer). Het NBK wordt afgelezen uit de jaarrekening volgens het schema van het MAR/KB W.Venn. (rubrieken VIII–IX vlottende activa minus rubriek IX passief). 🔗*  
+> > Standaardformule uit de balansanalyse (financieel beheer). Het NBK wordt afgelezen uit de jaarrekening volgens het schema van het MAR/KB W.Venn. (rubrieken VIII–IX vlottende activa minus rubriek IX passief). 🔗  
 > > *Bron: KB 29 april 2019 — schema jaarrekening (volledig/verkort)*
 >
 > Bereken de ruime liquiditeitsratio (current ratio).
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Current ratio = 131.200 / 77.090 ≈ 1,70** 🔗_**
+> > **Current ratio = 131.200 / 77.090 ≈ 1,70** 🔗
 > > 
 > > Current ratio (ruime liquiditeitsratio) = Vlottende activa / Schulden op ten hoogste één jaar 🔗
 > > 
@@ -271,14 +271,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Vuistregel: current ratio ≥ 1 wordt minimaal geacht, ≥ 1,5 à 2 wordt vaak als comfortabel beschouwd. Een te hoge ratio (>3) kan wijzen op overinvestering in voorraden of trage inning — niet altijd een teken van financiële kracht. 🤖
 > > 
-> > *Klassieke formule uit de balansanalyse — algemeen aanvaarde definitie in de Belgische financiële-analyseliteratuur (Ooghe & Van Wymeersch). De ratio steunt op het rubrieken-schema van het KB tot uitvoering van het WVV. 🔗*  
+> > Klassieke formule uit de balansanalyse — algemeen aanvaarde definitie in de Belgische financiële-analyseliteratuur (Ooghe & Van Wymeersch). De ratio steunt op het rubrieken-schema van het KB tot uitvoering van het WVV. 🔗  
 > > *Bron: KB 29 april 2019 — jaarrekeningschema*
 >
 > Bereken de beperkte liquiditeitsratio (acid test).
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Acid test = 90.200 / 77.090 ≈ 1,17** 🔗_**
+> > **Acid test = 90.200 / 77.090 ≈ 1,17** 🔗
 > > 
 > > Acid test (beperkte/strikte liquiditeitsratio, quick ratio) = (Vlottende activa − Voorraden) / Schulden op ten hoogste één jaar 🔗
 > > 
@@ -294,14 +294,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar de acid test niet met de current ratio: voorraden worden bewust uitgesloten omdat ze het minst liquide deel van de vlottende activa zijn (realisatie vergt verkoop én inning). Een gezonde current ratio met een zwakke acid test signaleert voorraadafhankelijkheid. 🤖
 > > 
-> > *Standaardformule balansanalyse — variant op de current ratio, gebaseerd op dezelfde rubrieken van het jaarrekeningschema (KB tot uitvoering WVV) met uitsluiting van de voorraad-rubriek. 🔗*  
+> > Standaardformule balansanalyse — variant op de current ratio, gebaseerd op dezelfde rubrieken van het jaarrekeningschema (KB tot uitvoering WVV) met uitsluiting van de voorraad-rubriek. 🔗  
 > > *Bron: KB 29 april 2019 — jaarrekeningschema*
 >
 > Bereken de solvabiliteitsratio.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Solvabiliteitsratio = 153.150 / 281.240 ≈ 0,5445 = 54,45%** 🔗_**
+> > **Solvabiliteitsratio = 153.150 / 281.240 ≈ 0,5445 = 54,45%** 🔗
 > > 
 > > Solvabiliteitsratio = Eigen vermogen / Totaal passief 🔗
 > > 
@@ -315,7 +315,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Er bestaan meerdere solvabiliteits-definities. De klassieke vorm (EV/Totaal vermogen) wordt soms vervangen door EV/Vreemd vermogen (debt-to-equity-variant). Hier wordt de **klassieke ratio** gebruikt — de meest courante in de Belgische balansanalyse en de variant die NBB-Centrale voor balansen rapporteert. Als de oplossingssleutel de andere definitie hanteert, levert dat 153.150 / 128.090 ≈ 1,196 op. 🤖
 > > 
-> > *Klassieke financiële-onafhankelijkheidsratio uit de balansanalyse, gebaseerd op de geconsolideerde rubrieken Eigen vermogen (I–VI) en Totaal passief uit het jaarrekeningschema (KB tot uitvoering WVV). 🔗*  
+> > Klassieke financiële-onafhankelijkheidsratio uit de balansanalyse, gebaseerd op de geconsolideerde rubrieken Eigen vermogen (I–VI) en Totaal passief uit het jaarrekeningschema (KB tot uitvoering WVV). 🔗  
 > > *Bron: KB 29 april 2019 — jaarrekeningschema*
 
 <a id="2003-bibf-vrC2"></a>
@@ -339,7 +339,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Operationele cash-flow = 20.280 EUR** 🔗_**
+> > **Operationele cash-flow = 20.280 EUR** 🔗
 > > 
 > > Operationele cash-flow = nettowinst + niet-kaskosten (afschrijvingen + netto-voorzieningen + waardeverminderingen) 🔗
 > > 
@@ -356,5 +356,5 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — De cash-flow zoals hier berekend is de **klassieke (indirecte) bedrijfscashflow**: winst na belastingen verhoogd met niet-kaskosten. 🔗 Het is een **proxy** voor de operationele kasstroom, niet de zuivere operationele kasstroom uit een volwaardig kasstroomoverzicht (IAS 7) — die laatste corrigeert daarenboven voor de mutaties in werkkapitaal (voorraden, vorderingen, schulden). 🔗 In een BIBF-examen op basis van een balans + résultatenrekening volstaat de indirecte methode zonder werkkapitaalcorrectie. 🤖
 > > 
-> > *Definitie bedrijfscashflow als nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen) — gangbare definitie in jaarrekeninganalyse. 🔗 Voor de boekhoudkundige begrippen 'afschrijvingen' en 'waardeverminderingen' zelf: art. 3:23 KB-WVV 2019. 📖*  
+> > Definitie bedrijfscashflow als nettoresultaat na belastingen + niet-kaskosten (afschrijvingen, waardeverminderingen, voorzieningen) — gangbare definitie in jaarrekeninganalyse. 🔗 Voor de boekhoudkundige begrippen 'afschrijvingen' en 'waardeverminderingen' zelf: art. 3:23 KB-WVV 2019. 📖  
 > > *Bron: Art. 3:23 KB-WVV 2019*

@@ -28,7 +28,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het positief consolidatieverschil wordt **systematisch afgeschreven** ten laste van de geconsolideerde resultatenrekening (standaard max. 5 jaar; gemotiveerde langere termijn tot 20 jaar, te verantwoorden in de toelichting). Spiegelbeeld: bij een aanschaffingsprijs **lager** dan het pro-rata eigen vermogen ontstaat een **negatief consolidatieverschil** (badwill) aan de passiefzijde. 🤖
 > > 
-> > *Art. 3:140 KB WVV (toerekening positief consolidatieverschil aan over/ondergewaardeerde activa en passiva) en art. 3:129 KB WVV (compensatie aanschaffingswaarde deelneming met aandeel eigen vermogen op overnamedatum). CBN-advies 2022/11 illustreert het mechanisme; CBN-advies 2013/3 toont de berekening bij step acquisitions.* 📖  
+> > Art. 3:140 KB WVV (toerekening positief consolidatieverschil aan over/ondergewaardeerde activa en passiva) en art. 3:129 KB WVV (compensatie aanschaffingswaarde deelneming met aandeel eigen vermogen op overnamedatum). CBN-advies 2022/11 illustreert het mechanisme; CBN-advies 2013/3 toont de berekening bij step acquisitions. 📖  
 > > *Bron: art. 3:129 en 3:140 KB WVV*
 >
 > Geef de vier voornaamste oorzaken van positieve consolidatieverschillen.
@@ -46,7 +46,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De wet vereist dat de toerekening aan over/ondergewaardeerde activa en passiva **eerst** gebeurt ("zoveel mogelijk"), zodat de geconsolideerde balans de werkelijke economische waarde van de groepsactiva weerspiegelt. Alleen het niet-toerekenbare deel krijgt de aparte rubriek "Consolidatieverschillen" — anders zou alles onder één goodwill-post verdwijnen en de informatieve waarde van de balans dalen. 🤖
 > > 
-> > *Art. 3:140 KB WVV: het positief consolidatieverschil wordt **"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde"** — dekt oorzaken 1-2 (en deels 3). Niet-toerekenbaar residu = oorzaken 3 (niet-erkenbare immateriële elementen) en 4 (overprijs). CBN-advies 126/8 omschrijft het consolidatieverschil als het surplus boven het toerekenbare deel; CBN-advies 2022/11 toont de toerekening aan terreinen vóór het residu.* 📖  
+> > Art. 3:140 KB WVV: het positief consolidatieverschil wordt **"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde"** — dekt oorzaken 1-2 (en deels 3). Niet-toerekenbaar residu = oorzaken 3 (niet-erkenbare immateriële elementen) en 4 (overprijs). CBN-advies 126/8 omschrijft het consolidatieverschil als het surplus boven het toerekenbare deel; CBN-advies 2022/11 toont de toerekening aan terreinen vóór het residu. 📖  
 > > *Bron: art. 3:140 KB WVV*
 
 <a id="2014-1-vr7"></a>
@@ -63,11 +63,11 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Drie (3) maanden.** Het verschil tussen de afsluitingsdatum van een in de consolidatie opgenomen dochter en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen. ⚖️_**
+> > **Drie (3) maanden.** Het verschil tussen de afsluitingsdatum van een in de consolidatie opgenomen dochter en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen. ⚖️
 > > 
 > > Het Belgisch KB WVV (art. 3:109) noemt zelf **geen expliciete cijfergrens** — het stelt enkel dat de geconsolideerde jaarrekening op een ander tijdstip mag afgesloten worden om rekening te houden met de balansdatum van de meeste of belangrijkste dochters. ⚖️ De harde grens van 3 maanden komt uit **IFRS 10 §B93** (historisch art. 27 Zevende Richtlijn 83/349/EEG) en wordt in de Belgische doctrine als algemeen aanvaarde drempel toegepast. 🤖 Bij afwijking moet er bovendien rekening gehouden worden met belangrijke gebeurtenissen tussen beide afsluitdata, en het verschil moet van jaar tot jaar gelijk blijven. ⚖️
 > > 
-> > *IFRS 10 §B93 (expliciete 3-maanden-grens); KB WVV art. 3:109 (afwijking toegelaten, geen cijfergrens in tekst); art. 27 Zevende Richtlijn 83/349/EEG (historische oorsprong).* 📖  
+> > IFRS 10 §B93 (expliciete 3-maanden-grens); KB WVV art. 3:109 (afwijking toegelaten, geen cijfergrens in tekst); art. 27 Zevende Richtlijn 83/349/EEG (historische oorsprong). 📖  
 > > *Bron: IFRS 10 §B93; KB WVV art. 3:109*
 
 <a id="2014-1-vr8"></a>
@@ -122,7 +122,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De 20 % die C in B houdt telt **niet** mee voor het controlepercentage van M in B. Reden: M controleert C niet exclusief (slechts 30 % — invloed van betekenis, geen controle in de zin van WVV art. 1:14). Onrechtstreekse controle via een geassocieerde onderneming wordt niet bij de rechtstreekse controle opgeteld — art. 1:16 §1, 1° spreekt expliciet over de onrechtstreekse bevoegdheid via een **dochter**vennootschap. 📖 De 20 % telt wel mee voor het **belang**enpercentage (want belang = economische deelneming, ongeacht controle): 30 % × 20 % = 6 %, samen met 70 % × 60 % = 42 % geeft 48 %. 🔗
 > > 
-> > *Controle = bevoegdheid in rechte of in feite tot beslissende invloed op de aanstelling van de meerderheid van bestuurders/zaakvoerders of op de oriëntatie van het beleid (WVV art. 1:14). Exclusieve controle = controle alleen of samen met dochtervennootschappen (WVV art. 1:17). Bij vaststelling van de controlebevoegdheid wordt de onrechtstreekse bevoegdheid via een dochter bij de rechtstreekse bevoegdheid geteld (WVV art. 1:16 §1, 1°). Vermogensmutatiemethode geldt voor geassocieerde ondernemingen (invloed van betekenis, vermoeden ≥ 20 % stemrechten) — KB WVV art. 3:152; CBN-advies 2022/11. 📖*  
+> > Controle = bevoegdheid in rechte of in feite tot beslissende invloed op de aanstelling van de meerderheid van bestuurders/zaakvoerders of op de oriëntatie van het beleid (WVV art. 1:14). Exclusieve controle = controle alleen of samen met dochtervennootschappen (WVV art. 1:17). Bij vaststelling van de controlebevoegdheid wordt de onrechtstreekse bevoegdheid via een dochter bij de rechtstreekse bevoegdheid geteld (WVV art. 1:16 §1, 1°). Vermogensmutatiemethode geldt voor geassocieerde ondernemingen (invloed van betekenis, vermoeden ≥ 20 % stemrechten) — KB WVV art. 3:152; CBN-advies 2022/11. 📖  
 > > *Bron: WVV art. 1:14, 1:16 §1, 1°, 1:17; KB WVV art. 3:142, 3:152*
 
 <a id="2013-1-vr6"></a>
@@ -134,11 +134,11 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De post **"Aandeel van derden in het resultaat"** in de geconsolideerde resultatenrekening. 📖_**
+> > De post **"Aandeel van derden in het resultaat"** in de geconsolideerde resultatenrekening. 📖
 > > 
 > > Bij **integrale consolidatie** worden 100 % van de activa, passiva, opbrengsten en kosten van een dochter opgenomen, ook al heeft de moeder geen 100 %-belang. 🔗 Het deel van het dochterresultaat dat toekomt aan de minderheidsaandeelhouders (derden buiten de consolidatiekring) wordt afgezonderd onder deze afzonderlijke post, zodat het saldo dat overblijft uitsluitend toerekenbaar is aan de groep. 🔗
 > > 
 > > Niet verwarren met **"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast"** (art. 3:145 KB WVV) — die post is voorbehouden aan deelnemingen verwerkt via de **equity-methode** (vermogensmutatie), niet aan integraal geconsolideerde dochters. 📖 Bij een consortium (horizontale groep) komt de post 'Belangen van derden' overigens niet voor, behoudens belangen ontstaan via een onderliggende verticale consolidatie (CBN 2022/09). 📖
 > > 
-> > *Art. 3:137 KB WVV (integrale consolidatie): het resultaat-aandeel toerekenbaar aan aandelen gehouden door anderen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochters wordt vermeld onder de post "Aandeel van derden in het resultaat". Op de balanszijde correspondeert dat met de post 'Belangen van derden' in het eigen vermogen.* 📖  
+> > Art. 3:137 KB WVV (integrale consolidatie): het resultaat-aandeel toerekenbaar aan aandelen gehouden door anderen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochters wordt vermeld onder de post "Aandeel van derden in het resultaat". Op de balanszijde correspondeert dat met de post 'Belangen van derden' in het eigen vermogen. 📖  
 > > *Bron: Art. 3:137 KB WVV*

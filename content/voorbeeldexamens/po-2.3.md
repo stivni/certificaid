@@ -32,7 +32,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_Optie **d** — De garage is **verplicht** een factuur uit te reiken (onderhoud/herstelling van een autovoertuig aan een natuurlijke persoon voor privégebruik valt onder de factuurplicht van art. 1 KB nr. 1), en de BTW is **opeisbaar op 30/4/N**, het tijdstip waarop de factuur effectief werd uitgereikt (art. 22bis, § 1 WBTW). 🔗_**
+> > Optie **d** — De garage is **verplicht** een factuur uit te reiken (onderhoud/herstelling van een autovoertuig aan een natuurlijke persoon voor privégebruik valt onder de factuurplicht van art. 1 KB nr. 1), en de BTW is **opeisbaar op 30/4/N**, het tijdstip waarop de factuur effectief werd uitgereikt (art. 22bis, § 1 WBTW). 🔗
 > > 
 > > **Stap 1 — Factuurplicht?** Hoofdregel: een belastingplichtige hoeft géén factuur uit te reiken aan een natuurlijke persoon die de dienst bestemt voor privégebruik (art. 53, § 2 WBTW). 📖 Maar art. 1 KB nr. 1 voorziet een lijst van uitzonderingen waarin de factuur wél verplicht is — onder andere **werk in onroerende staat, leveringen en diensten met betrekking tot autovoertuigen, en onderhoud/herstelling van personenwagens**. Een rentenier is een niet-belastingplichtige natuurlijke persoon → onderhoud van zijn hybride dieselwagen valt onder die uitzondering → **factuur verplicht**. 🔗
 > > 
@@ -46,33 +46,15 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar **opeisbaarheid** niet met het **belastbare feit**. Het belastbare feit (art. 22, § 1 WBTW) blijft het tijdstip waarop de dienst is verricht (27/4/N); dat is het ogenblik waarop de BTW-verschuldigdheid ontstaat. De **opeisbaarheid** (wanneer de BTW in de aangifte moet worden opgenomen) wordt door art. 22bis vervroegd naar de factuurdatum of betaling, naargelang wat eerst gebeurt. Voor een **maandaangever** betekent dit dat de BTW van deze handeling in de aangifte over april (in te dienen tegen 20 mei) moet worden opgenomen — niet in mei. 🔗 Het feit dat de klant een rentenier (particulier) is, is voor de opeisbaarheid niet relevant zodra er factuurplicht is: art. 22bis maakt geen onderscheid B2B/B2C. 🔗
 > > 
-> > ***Art. 53, § 2 WBTW + art. 1 KB nr. 1**: factuurplicht aan natuurlijke personen voor privégebruik is in beginsel uitgesloten, behalve voor de in art. 1 KB nr. 1 opgesomde handelingen — waaronder leveringen, onderhoud en herstelling van autovoertuigen. 📖 **Art. 22, § 1 WBTW**: belastbaar feit en opeisbaarheid bij diensten = tijdstip waarop de dienst is verricht. 📖 **Art. 22bis, § 1 WBTW** (afwijking voor diensten met factuurplicht): BTW opeisbaar op het tijdstip waarop de factuur wordt uitgereikt; bij gebreke daaraan op de 15de dag van de maand volgend op het belastbare feit; bij vooruitbetaling op het tijdstip van de ontvangst. 📖*  
+> > **Art. 53, § 2 WBTW + art. 1 KB nr. 1**: factuurplicht aan natuurlijke personen voor privégebruik is in beginsel uitgesloten, behalve voor de in art. 1 KB nr. 1 opgesomde handelingen — waaronder leveringen, onderhoud en herstelling van autovoertuigen. 📖 **Art. 22, § 1 WBTW**: belastbaar feit en opeisbaarheid bij diensten = tijdstip waarop de dienst is verricht. 📖 **Art. 22bis, § 1 WBTW** (afwijking voor diensten met factuurplicht): BTW opeisbaar op het tijdstip waarop de factuur wordt uitgereikt; bij gebreke daaraan op de 15de dag van de maand volgend op het belastbare feit; bij vooruitbetaling op het tijdstip van de ontvangst. 📖  
 > > *Bron: Art. 22, art. 22bis §1, art. 53 §2 WBTW; art. 1 KB nr. 1*
 
 <a id="2024-1-vr11B"></a>
 
-> [!question]- Margeregeling en vermelding in de BTW-aangifte
+> [!topic]- Margeregeling en vermelding in de BTW-aangifte
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.3*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Margeregeling — hoe op te nemen in de BTW-aangifte
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > **_Onder de winstmargeregeling (KB nr. 53) wordt **niet de verkoopprijs** maar de **winstmarge exclusief BTW** (= verkoopprijs − aankoopprijs, verminderd met de in de marge begrepen BTW) opgenomen als maatstaf van heffing in de periodieke BTW-aangifte. De aangifte gebeurt per **aangiftetijdvak** op basis van de **globale (totale) winstmarge** van dat tijdvak, niet stuk per stuk. 🔗_**
-> > 
-> > - **Rooster 00** — de **verkoopprijzen** (inclusief BTW) van de leveringen onder de margeregeling worden ter informatie opgenomen in vak **00** (handelingen onderworpen aan een bijzondere regeling). 🤖
-> > - **Rooster 03 (of 01/02)** — de **maatstaf van heffing = de winstmarge exclusief BTW**, opgesplitst per BTW-tarief (meestal 21 %, dus rooster 03). 🔗
-> > - **Rooster 54** — de **verschuldigde BTW** berekend op die winstmarge (winstmarge × t / (100+t)). 🔗
-> > - **Rooster 81/82/83** — de **aankoopprijs** van de tweedehandsgoederen wordt **niet** in de gewone aankoop-roosters opgenomen voor wat de marge-aankopen betreft (geen aftrekbare BTW — er is geen BTW gefactureerd door de leverancier-particulier of vrijgestelde belastingplichtige). 🔗
-> > - **Geen BTW-aftrek** op de aankoopprijs van het tweedehandsgoed zelf; wél aftrek mogelijk op andere kosten (herstelling, transport, commissie). 🔗
-> > 
-> > De **globalisatiemethode** (art. 3 KB nr. 53) geldt: per tijdvak wordt de **totale winstmarge** vastgesteld als het verschil tussen het **totaalbedrag van de verkopen** onder margeregeling en het **totaalbedrag van de aankopen** van goederen die in dat tijdvak voor margeregeling werden bestemd, per BTW-tarief. Is dit verschil negatief, dan wordt het overgedragen naar het volgende tijdvak. Het **laatste tijdvak van het jaar** wordt gecorrigeerd op basis van de jaarlijkse **inventaris** van de margevoorraad. De maatstaf van heffing = totale winstmarge × 100 / (100 + t). 📖
-> > 
-> > Op de **factuur** aan de klant mag **geen BTW afzonderlijk worden vermeld** (anders verliest de wederverkoper de margeregeling voor die handeling); de factuur draagt verplicht de vermelding *"Bijzondere regeling — gebruikte goederen"* (of kunstvoorwerpen / verzamelingen / antiquiteiten). De klant kan die BTW dus **niet aftrekken**. De wederverkoper kan per levering altijd opteren voor de **normale BTW-regeling** (art. 319 BTW-richtlijn) — dan komt de volledige verkoopprijs in rooster 03 en wordt BTW op de volledige prijs aangerekend. 📖
-> > 
-> > ***KB nr. 53 van 23.12.1994** (winstmarge tweedehandsgoederen, kunstvoorwerpen, verzamelingen, antiquiteiten): art. 1 (definities), art. 2 (maatstaf van heffing = winstmarge exclusief BTW per individuele levering), art. 3 (globalisatiemethode per aangiftetijdvak + jaarlijkse inventaris), art. 8 (verplichte factuurvermelding *"Bijzondere regeling — gebruikte goederen"*). Achterliggend: **art. 58 §4 WBTW** + **art. 311-343 BTW-richtlijn 2006/112/EG** (art. 314: doelgroep; art. 315: maatstaf = winstmarge − BTW; art. 319: optie normale regeling per levering). 📖*  
-> > *Bron: KB nr. 53 art. 1-3, 8 · art. 58 §4 WBTW · art. 311-343 (i.h.b. 314, 315, 319) Richtlijn 2006/112/EG*
+> _Margeregeling — hoe op te nemen in de BTW-aangifte_
 
 <a id="2024-1-vr11C"></a>
 
@@ -87,11 +69,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT** — een elektricien verricht werk in onroerende staat (art. 19, §2 WBTW) en is daarom voor zijn volledige economische activiteit uitgesloten van de vrijstellingsregeling, ongeacht het omzetcijfer. 🔗_**
+> > **FOUT** — een elektricien verricht werk in onroerende staat (art. 19, §2 WBTW) en is daarom voor zijn volledige economische activiteit uitgesloten van de vrijstellingsregeling, ongeacht het omzetcijfer. 🔗
 > > 
 > > Art. 56bis, §2, 1° WBTW sluit "werk in onroerende staat bedoeld in artikel 19, §2, derde lid, alsook de daarmee gelijkgestelde handelingen" expliciet uit van de vrijstellingsregeling. Elektriciteitswerken aan een gebouw (installatie, herstelling, onderhoud) vallen onder dat begrip. De omzet van €10.000 is irrelevant — de uitsluiting werkt op de aard van de activiteit, niet op de drempel. 📖
 > > 
-> > *Art. 56bis, §2, 1° WBTW (uitsluiting werk in onroerende staat) j° art. 19, §2 WBTW (definitie). 📖*  
+> > Art. 56bis, §2, 1° WBTW (uitsluiting werk in onroerende staat) j° art. 19, §2 WBTW (definitie). 📖  
 > > *Bron: Art. 56bis, §2, 1° WBTW*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: kapper met omzet 15.000 euro</span>
@@ -100,11 +82,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST** — kappersdiensten zijn niet uitgesloten in art. 56bis, §2 WBTW en de jaaromzet van €15.000 ligt onder de drempel van €25.000. De vrijstellingsregeling kan toegepast worden. 🔗_**
+> > **JUIST** — kappersdiensten zijn niet uitgesloten in art. 56bis, §2 WBTW en de jaaromzet van €15.000 ligt onder de drempel van €25.000. De vrijstellingsregeling kan toegepast worden. 🔗
 > > 
 > > Twee cumulatieve voorwaarden: (i) activiteit niet uitgesloten in art. 56bis, §2 (werk in onroerende staat, horeca/logies, afval/oude materialen, btw-eenheden) — kappers vallen onder geen van die categorieën; (ii) jaaromzet in België ≤ €25.000 — €15.000 voldoet. 🔗
 > > 
-> > *Art. 56bis, §1, 2° WBTW (drempel €25.000) en art. 56bis, §2 WBTW (limitatieve lijst uitsluitingen). 📖*  
+> > Art. 56bis, §1, 2° WBTW (drempel €25.000) en art. 56bis, §2 WBTW (limitatieve lijst uitsluitingen). 📖  
 > > *Bron: Art. 56bis, §1-§2 WBTW*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: diëtist met vrijgestelde omzet 50.000 euro en onderworpen omzet 15.000 euro</span>
@@ -113,13 +95,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST** — een diëtist is gemengde belastingplichtige: de medische verstrekkingen zijn vrijgesteld door art. 44 WBTW (zonder recht op aftrek) en tellen niet mee voor de drempel. Enkel de onderworpen omzet van €15.000 wordt getoetst, en die ligt onder €25.000. 🔗_**
+> > **JUIST** — een diëtist is gemengde belastingplichtige: de medische verstrekkingen zijn vrijgesteld door art. 44 WBTW (zonder recht op aftrek) en tellen niet mee voor de drempel. Enkel de onderworpen omzet van €15.000 wordt getoetst, en die ligt onder €25.000. 🔗
 > > 
 > > Art. 56nonies WBTW bepaalt welke bedragen meetellen voor de jaaromzet als drempel-maatstaf: leveringen/diensten die belast *zouden zijn*, nultarief-handelingen, en bepaalde vrijgestelde handelingen op grond van art. 39 tot 42 (uitvoer, intracommunautair). De vrijstellingen van art. 44 (medische, paramedische, onderwijs, sociale, financiële) zijn daar **niet** in opgenomen. Vrijgestelde medische omzet telt dus niet mee — alleen €15.000 onderworpen omzet wordt getoetst. 🔗
 > > 
 > > De grote omzet (€50.000 + €15.000 = €65.000) is een rookgordijn — wie blind optelt komt boven de drempel uit en antwoordt fout. De drempel kijkt enkel naar belaste handelingen (art. 56nonies, 1°), niet naar art. 44-vrijgestelde omzet. De vrijstellingsregeling werkt vervolgens op het onderworpen deel; het vrijgestelde deel blijft sowieso vrijgesteld zonder aftrekrecht. 🔗
 > > 
-> > *Art. 56bis, §1, 2° WBTW (drempel €25.000) j° art. 56nonies WBTW (samenstelling jaaromzet) j° art. 44 WBTW (vrijgestelde medische/paramedische handelingen — telt niet in de drempel). 📖*  
+> > Art. 56bis, §1, 2° WBTW (drempel €25.000) j° art. 56nonies WBTW (samenstelling jaaromzet) j° art. 44 WBTW (vrijgestelde medische/paramedische handelingen — telt niet in de drempel). 📖  
 > > *Bron: Art. 56bis + 56nonies WBTW j° art. 44 WBTW*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: schoonheidsspecialiste met omzet 30.000 euro</span>
@@ -128,11 +110,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT** — een schoonheidsspecialiste verricht geen uitgesloten activiteit, maar haar jaaromzet van €30.000 overschrijdt de drempel van €25.000. De vrijstellingsregeling kan niet toegepast worden. 🔗_**
+> > **FOUT** — een schoonheidsspecialiste verricht geen uitgesloten activiteit, maar haar jaaromzet van €30.000 overschrijdt de drempel van €25.000. De vrijstellingsregeling kan niet toegepast worden. 🔗
 > > 
 > > Drempel art. 56bis, §1, 2° WBTW = €25.000 jaaromzet in België (excl. btw). €30.000 > €25.000 → uitgesloten. De tolerantie van art. 56decies (overschrijding ≤10% tijdens lopend jaar geeft tijdelijke continuïteit) geldt enkel voor wie al onder de regeling viel; bij nieuwe instap of voorafgaand kalenderjaar boven €25.000 → geen vrijstellingsregeling. 🔗
 > > 
-> > *Art. 56bis, §1, 2° WBTW (drempel €25.000); art. 56decies WBTW (tolerantie 10% bij lopende overschrijding). 📖*  
+> > Art. 56bis, §1, 2° WBTW (drempel €25.000); art. 56decies WBTW (tolerantie 10% bij lopende overschrijding). 📖  
 > > *Bron: Art. 56bis, §1, 2° WBTW*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Vrijstellingsregeling is mogelijk voor: verhuur van gastenkamers met ontbijt met omzet 20.000 euro</span>
@@ -141,13 +123,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT** — het verschaffen van gemeubeld logies met ontbijt is een handeling bedoeld in art. 44, §3, 2°, a), derde streepje WBTW (horeca-/hotelregime) en is uitgesloten van de vrijstellingsregeling, ongeacht de omzet van €20.000. 🔗_**
+> > **FOUT** — het verschaffen van gemeubeld logies met ontbijt is een handeling bedoeld in art. 44, §3, 2°, a), derde streepje WBTW (horeca-/hotelregime) en is uitgesloten van de vrijstellingsregeling, ongeacht de omzet van €20.000. 🔗
 > > 
 > > Art. 56bis, §2, 5° WBTW sluit "de in artikel 44, § 3, 2°, a), derde streepje, bedoelde handelingen" uit van de vrijstellingsregeling. Dat derde streepje viseert het verschaffen van gemeubeld logies — typisch hotels, B&B's, gastenkamers met ontbijt. De uitsluiting werkt op de aard van de activiteit, dus €20.000 < €25.000 helpt niet. 📖
 > > 
 > > Art. 56bis, §2, 5° WBTW voorziet één uitzondering: een belastingplichtige **natuurlijke persoon** die onder de voorwaarden van art. 50, §4 WBTW valt, kan de vrijstellingsregeling tóch toepassen voor de logies-met-ontbijt-activiteit. De vraag specificeert die hoedanigheid niet — bij stilzwijgen geldt de algemene uitsluiting. ❓
 > > 
-> > *Art. 56bis, §2, 5° WBTW (uitsluiting handelingen art. 44, §3, 2°, a), derde streepje — verschaffen gemeubeld logies); uitzondering voor natuurlijke persoon onder art. 50, §4 WBTW. 📖*  
+> > Art. 56bis, §2, 5° WBTW (uitsluiting handelingen art. 44, §3, 2°, a), derde streepje — verschaffen gemeubeld logies); uitzondering voor natuurlijke persoon onder art. 50, §4 WBTW. 📖  
 > > *Bron: Art. 56bis, §2, 5° WBTW j° art. 44, §3, 2°, a) WBTW*
 
 <a id="2024-1-vr11D"></a>
@@ -161,11 +143,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT**. Een vrijgestelde belastingplichtige (art. 44 W.BTW) heeft geen recht op aftrek en bijgevolg ook geen recht op teruggaaf via de VAT Refund-procedure. 🔗_**
+> > **FOUT**. Een vrijgestelde belastingplichtige (art. 44 W.BTW) heeft geen recht op aftrek en bijgevolg ook geen recht op teruggaaf via de VAT Refund-procedure. 🔗
 > > 
 > > De VAT Refund-procedure (Richtlijn 2008/9/EG, omgezet in K.B. nr. 56 van 10 april 2022) is een mechanisme om buitenlandse BTW te recupereren die in een andere lidstaat werd opgelopen. Art. 170 van de BTW-Richtlijn 2006/112/EG koppelt dat recht expliciet aan handelingen waarvoor *in de lidstaat van vestiging* recht op aftrek bestaat (art. 169-handelingen). 📖 Een vrijgestelde belastingplichtige zonder recht op aftrek (art. 44 W.BTW — bv. arts, advocaat-vrijgestelde diensten, kleine onderneming onder vrijstellingsregeling) kan geen Belgische BTW recupereren en kan a fortiori ook geen buitenlandse BTW via VAT Refund recupereren. 🔗
 > > 
-> > *Art. 170-171 Richtlijn 2006/112/EG juncto art. 3 Richtlijn 2008/9/EG: de teruggaaf is voorbehouden aan belastingplichtigen die in hun lidstaat van vestiging recht op aftrek hebben voor de betrokken handelingen. Art. 22 K.B. nr. 56 herneemt dit voor de in België gevestigde belastingplichtige. 📖*  
+> > Art. 170-171 Richtlijn 2006/112/EG juncto art. 3 Richtlijn 2008/9/EG: de teruggaaf is voorbehouden aan belastingplichtigen die in hun lidstaat van vestiging recht op aftrek hebben voor de betrokken handelingen. Art. 22 K.B. nr. 56 herneemt dit voor de in België gevestigde belastingplichtige. 📖  
 > > *Bron: art. 170-171 Richtlijn 2006/112/EG; art. 3 Richtlijn 2008/9/EG; art. 22 K.B. nr. 56*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het minimumbedrag vereist voor een verzoek tot teruggave is 50 euro per kalenderjaar per lidstaat</span>
@@ -174,7 +156,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT** (onvolledig). 50 EUR geldt enkel als het teruggaafverzoek een **volledig kalenderjaar** (of het resterende gedeelte daarvan) betreft. Voor een teruggaafperiode korter dan een jaar maar minstens drie maanden is het minimum 400 EUR. 📖_**
+> > **FOUT** (onvolledig). 50 EUR geldt enkel als het teruggaafverzoek een **volledig kalenderjaar** (of het resterende gedeelte daarvan) betreft. Voor een teruggaafperiode korter dan een jaar maar minstens drie maanden is het minimum 400 EUR. 📖
 > > 
 > > Art. 17 Richtlijn 2008/9/EG kent twee drempels naargelang de duur van het teruggaaftijdvak:
 > > 
@@ -183,7 +165,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De stelling noemt enkel het kalenderjaar-bedrag (50 EUR) en is daardoor feitelijk onvolledig: ze suggereert dat 50 EUR steeds het toepasselijke minimum is, wat niet klopt voor tussentijdse verzoeken. 🔗
 > > 
-> > *Art. 17 Richtlijn 2008/9/EG; in Belgisch recht omgezet in art. 11 § 2 K.B. nr. 56 van 10 april 2022 (België als lidstaat van teruggaaf) en art. 35 § 2 K.B. nr. 56 (niet-EU belastingplichtigen). 📖*  
+> > Art. 17 Richtlijn 2008/9/EG; in Belgisch recht omgezet in art. 11 § 2 K.B. nr. 56 van 10 april 2022 (België als lidstaat van teruggaaf) en art. 35 § 2 K.B. nr. 56 (niet-EU belastingplichtigen). 📖  
 > > *Bron: art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het minimumbedrag vereist voor een verzoek tot teruggave is afhankelijk van de EU-lidstaat van het land van de belastingplichtige</span>
@@ -192,11 +174,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT**. Het minimumbedrag is geharmoniseerd op EU-niveau (Richtlijn 2008/9/EG) en hangt niet af van de lidstaat waarin de aanvrager (de belastingplichtige) gevestigd is. 🔗_**
+> > **FOUT**. Het minimumbedrag is geharmoniseerd op EU-niveau (Richtlijn 2008/9/EG) en hangt niet af van de lidstaat waarin de aanvrager (de belastingplichtige) gevestigd is. 🔗
 > > 
 > > Art. 17 Richtlijn 2008/9/EG legt uniforme drempels op (50 EUR / 400 EUR) die in alle EU-lidstaten gelden. 📖 Het criterium dat de drempel bepaalt is de **duur van het teruggaaftijdvak**, niet de identiteit van de lidstaat van vestiging. De richtlijn voorziet enkel een omrekening naar de nationale munteenheid voor lidstaten buiten de eurozone — een wisselkoers-conversie, geen aparte drempel. 🔗
 > > 
-> > *Art. 17 Richtlijn 2008/9/EG: "ten minste 400 EUR of de tegenwaarde daarvan in de nationale munteenheid" respectievelijk "ten minste 50 EUR of de tegenwaarde daarvan in de nationale munteenheid". De bedragen zijn EU-rechtelijk vastgelegd, niet door de lidstaat van vestiging. 📖*  
+> > Art. 17 Richtlijn 2008/9/EG: "ten minste 400 EUR of de tegenwaarde daarvan in de nationale munteenheid" respectievelijk "ten minste 50 EUR of de tegenwaarde daarvan in de nationale munteenheid". De bedragen zijn EU-rechtelijk vastgelegd, niet door de lidstaat van vestiging. 📖  
 > > *Bron: art. 17 Richtlijn 2008/9/EG*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het minimumbedrag vereist voor een verzoek tot teruggave is afhankelijk van het land waarop de teruggave betrekking heeft</span>
@@ -205,13 +187,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT**. Het minimumbedrag is uniform door art. 17 Richtlijn 2008/9/EG vastgelegd en hangt niet af van de lidstaat van teruggaaf, maar van de **duur van het teruggaaftijdvak** (kalenderjaar versus tussenperiode ≥ 3 maanden). 📖_**
+> > **FOUT**. Het minimumbedrag is uniform door art. 17 Richtlijn 2008/9/EG vastgelegd en hangt niet af van de lidstaat van teruggaaf, maar van de **duur van het teruggaaftijdvak** (kalenderjaar versus tussenperiode ≥ 3 maanden). 📖
 > > 
 > > De drempels 50 EUR (jaarverzoek) en 400 EUR (tussentijds verzoek ≥ 3 maanden) gelden in elke EU-lidstaat op dezelfde manier. 📖 De richtlijn laat lidstaten geen ruimte om een afwijkend bedrag op te leggen — wat verschilt, is hoogstens de nationale munteenheid (omrekening voor lidstaten buiten de eurozone). 🔗 In België zijn de bedragen ongewijzigd overgenomen in art. 11 K.B. nr. 56. 📖
 > > 
 > > Niet verwarren met de drempel voor het bijvoegen van een **factuurafschrift**: die drempel (1 000 EUR voor algemene aankopen, 250 EUR voor brandstof — art. 10 Richtlijn 2008/9/EG, art. 8 K.B. nr. 56) is wel een bedragdrempel die op factuurniveau speelt, maar staat los van de minimumdrempel van het teruggaafverzoek zelf. 📖
 > > 
-> > *Art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56 van 10 april 2022. 📖*  
+> > Art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56 van 10 april 2022. 📖  
 > > *Bron: art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Het minimumbedrag voor een verzoek tot teruggave is 400 euro per kalenderjaar per EU-lidstaat</span>
@@ -220,7 +202,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT** (onvolledig). 400 EUR is enkel het minimum voor een teruggaafverzoek met een tijdvak **korter dan een kalenderjaar maar minstens drie maanden**. Voor een verzoek dat een volledig kalenderjaar (of het resterende deel) dekt, is het minimum **50 EUR**. 📖_**
+> > **FOUT** (onvolledig). 400 EUR is enkel het minimum voor een teruggaafverzoek met een tijdvak **korter dan een kalenderjaar maar minstens drie maanden**. Voor een verzoek dat een volledig kalenderjaar (of het resterende deel) dekt, is het minimum **50 EUR**. 📖
 > > 
 > > Art. 17 Richtlijn 2008/9/EG legt **twee** drempels op, gekoppeld aan de duur van het teruggaaftijdvak:
 > > 
@@ -231,7 +213,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De stelling "400 EUR per kalenderjaar per EU-lidstaat" mengt beide regels door en is daardoor onjuist: per kalenderjaar geldt 50 EUR, niet 400 EUR. 🔗
 > > 
-> > *Art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56 van 10 april 2022. 📖*  
+> > Art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56 van 10 april 2022. 📖  
 > > *Bron: art. 17 Richtlijn 2008/9/EG; art. 11 § 2 K.B. nr. 56*
 
 <a id="2024-1-vr11E"></a>
@@ -245,65 +227,65 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**21 % BTW met verlegging van heffing** naar de medecontractant. De Belgische dienstverrichter factureert zonder BTW met de vermelding "Btw verlegd"; de Belgische afnemer-belastingplichtige (gewone aangifte) voldoet de BTW zelf in zijn periodieke aangifte. 🔗_**
+> > **21 % BTW met verlegging van heffing** naar de medecontractant. De Belgische dienstverrichter factureert zonder BTW met de vermelding "Btw verlegd"; de Belgische afnemer-belastingplichtige (gewone aangifte) voldoet de BTW zelf in zijn periodieke aangifte. 🔗
 > > 
 > > Glazenwassen aan een gebouw is een dienst die verband houdt met een uit zijn aard onroerend goed (art. 21, § 3, 1° W.BTW): plaats van de dienst = plaats van het onroerend goed = België. 📖 Voor reinigingsdiensten verricht aan een belgisch gebouw geldt geen verlaagd tarief (reiniging is uitdrukkelijk uitgesloten uit de renovatie-regimes), dus het normale tarief van 21 % is van toepassing (KB nr. 20, art. 1, tabel A). 🔗 Omdat zowel dienstverrichter als afnemer in België gevestigde gewone belastingplichtigen zijn die periodieke aangifte indienen, geldt de verleggingsregeling "medecontractant" voor werk in onroerende staat (art. 20 KB nr. 1). 📖
 > > 
 > > Glazenwassen wordt door art. 19, § 2, tweede lid, W.BTW gelijkgesteld met "werk in onroerende staat" — het valt dus binnen het toepassingsgebied van de verleggingsregeling (art. 20 KB nr. 1), ook al gaat het strikt om reiniging. De uitsluiting van "reiniging" geldt enkel voor het verlaagd tarief renovatie (rubriek XXXVIII KB nr. 20), niet voor de plaatsbepaling of de verleggingsregeling. 🤖
 > > 
-> > *Plaats: art. 21, § 3, 1° W.BTW (onroerend-goed-dienst). Tarief: art. 1 KB nr. 20 (gewoon tarief 21 %); reiniging uitgesloten uit verlaagd tarief renovatie (KB nr. 20, tabel A, rubriek XXXVIII). Schuldenaar: art. 20 KB nr. 1 — medecontractant-regeling voor werk in onroerende staat aan een Belgische belastingplichtige met periodieke aangifte. 📖*  
+> > Plaats: art. 21, § 3, 1° W.BTW (onroerend-goed-dienst). Tarief: art. 1 KB nr. 20 (gewoon tarief 21 %); reiniging uitgesloten uit verlaagd tarief renovatie (KB nr. 20, tabel A, rubriek XXXVIII). Schuldenaar: art. 20 KB nr. 1 — medecontractant-regeling voor werk in onroerende staat aan een Belgische belastingplichtige met periodieke aangifte. 📖  
 > > *Bron: Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 · KB nr. 1 art. 20*
 >
 > Belgisch gebouw, meer dan 10 jaar betrokken door een Belgisch particulier
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**21 % BTW**, gefactureerd door de Belgische dienstverrichter aan de particulier. Geen verlaagd tarief, geen verlegging. 🔗_**
+> > **21 % BTW**, gefactureerd door de Belgische dienstverrichter aan de particulier. Geen verlaagd tarief, geen verlegging. 🔗
 > > 
 > > Plaats van de dienst = België (onroerend goed gelegen in BE, art. 21, § 3, 1° W.BTW). 📖 Hoewel de woning meer dan 10 jaar in gebruik is — wat normaal toegang geeft tot het verlaagd tarief van 6 % voor renovatie aan privéwoningen (KB nr. 20, tabel A, rubriek XXXVIII) — is **reiniging uitdrukkelijk uitgesloten** uit dat verlaagd tarief. Glazenwassen valt dus terug op het standaardtarief van 21 %. 🔗 Geen verlegging: de afnemer is een particulier en geen belastingplichtige met periodieke aangifte (art. 20 KB nr. 1 niet vervuld). 🔗
 > > 
 > > Klassieke valstrik: studenten kiezen vaak 6 % omdat de woning > 10 jaar oud is. Maar de uitsluiting van reiniging in rubriek XXXVIII KB nr. 20 ("werk in onroerende staat … met uitsluiting van het reinigen") is absoluut. Verlaagd tarief geldt wel voor schilder-, behangers-, vloer- en sanitaire werken aan zo'n woning, maar niet voor glazenwassen of poetsdiensten. 📖
 > > 
-> > *Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst); KB nr. 20, art. 1 (gewoon tarief 21 %); KB nr. 20, tabel A, rubriek XXXVIII, § 1 (verlaagd tarief 6 % renovatie woning ≥ 10 jaar, met uitsluiting van reiniging). 📖*  
+> > Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst); KB nr. 20, art. 1 (gewoon tarief 21 %); KB nr. 20, tabel A, rubriek XXXVIII, § 1 (verlaagd tarief 6 % renovatie woning ≥ 10 jaar, met uitsluiting van reiniging). 📖  
 > > *Bron: Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 + tabel A rubriek XXXVIII*
 >
 > Belgisch gebouw, minder dan 10 jaar betrokken door een Belgisch particulier
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**21 % BTW**, gefactureerd door de Belgische dienstverrichter aan de particulier. Geen verlaagd tarief, geen verlegging. 🔗_**
+> > **21 % BTW**, gefactureerd door de Belgische dienstverrichter aan de particulier. Geen verlaagd tarief, geen verlegging. 🔗
 > > 
 > > Plaats van de dienst = België (art. 21, § 3, 1° W.BTW). 📖 Het verlaagd tarief van 6 % voor renovatie aan privéwoningen (rubriek XXXVIII KB nr. 20) vereist dat de woning **sinds minstens 10 jaar** voor het eerst in gebruik is genomen — die voorwaarde is hier niet vervuld. 🔗 Daarbij komt dat reiniging sowieso is uitgesloten uit dat verlaagd tarief, dus zelfs als de ouderdomsvoorwaarde wel vervuld was zou glazenwassen aan 21 % blijven. 🔗 Geen verlegging: afnemer is een particulier (art. 20 KB nr. 1 niet vervuld). 🔗
 > > 
 > > Het antwoord is identiek aan situatie (b): 21 %. De ouderdom van de woning (< of > 10 jaar) maakt voor glazenwassen geen verschil omdat reiniging hoe dan ook uit het verlaagd tarief is geweerd. De ouderdomsdrempel is wél relevant voor échte renovatiewerken (schilderen, vloeren, sanitair, …). 🔗
 > > 
-> > *Art. 21, § 3, 1° W.BTW (plaats); KB nr. 20, art. 1 (tarief 21 %); KB nr. 20, tabel A, rubriek XXXVIII, § 1, 1° (10-jaarvoorwaarde voor verlaagd tarief renovatie). 📖*  
+> > Art. 21, § 3, 1° W.BTW (plaats); KB nr. 20, art. 1 (tarief 21 %); KB nr. 20, tabel A, rubriek XXXVIII, § 1, 1° (10-jaarvoorwaarde voor verlaagd tarief renovatie). 📖  
 > > *Bron: Art. 21 § 3 1° W.BTW · KB nr. 20 art. 1 + tabel A rubriek XXXVIII § 1*
 >
 > Belgisch gebouw, afnemer is een Franse belastingplichtige
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**21 % Belgische BTW met verlegging van heffing** naar de Franse afnemer. De Belgische dienstverrichter factureert zonder BTW met de vermelding "Btw verlegd"; de Franse belastingplichtige voldoet de Belgische BTW via zijn Belgische BTW-identificatie (rechtstreekse aansprakelijkheid art. 51, § 2, 5° W.BTW). 🔗_**
+> > **21 % Belgische BTW met verlegging van heffing** naar de Franse afnemer. De Belgische dienstverrichter factureert zonder BTW met de vermelding "Btw verlegd"; de Franse belastingplichtige voldoet de Belgische BTW via zijn Belgische BTW-identificatie (rechtstreekse aansprakelijkheid art. 51, § 2, 5° W.BTW). 🔗
 > > 
 > > Plaatsbepaling: glazenwassen aan een Belgisch gebouw is een onroerend-goed-dienst (art. 21, § 3, 1° W.BTW); de **B2B-algemene regel** van art. 21, § 2 (plaats = zetel afnemer) is hier **niet** van toepassing — de plaats is steeds België omdat het gebouw daar ligt. 📖 De dienst is dus in België belastbaar tegen 21 % (geen verlaagd tarief voor reiniging). 🔗 Omdat de dienstverrichter in België is gevestigd en de afnemer een buitenlandse belastingplichtige is die niet in België is gevestigd, wordt de Belgische BTW verlegd naar de afnemer (art. 51, § 2, 5° W.BTW): de Franse belastingplichtige moet zich voor deze handeling in België laten identificeren of een aansprakelijke vertegenwoordiger aanstellen om de Belgische BTW te voldoen. 📖
 > > 
 > > **Niet** de B2B-hoofdregel toepassen. Voor onroerend-goed-diensten (art. 21, § 3, 1°) is de plaats altijd het land waar het gebouw ligt — onafhankelijk van de zetel van de afnemer. Een Franse afnemer maakt de dienst dus **niet** Franse-BTW-belastbaar; het blijft Belgische BTW (21 %), enkel de schuldenaar wisselt via de verleggingsregeling. 🔗
 > > 
-> > *Art. 21, § 3, 1° W.BTW (afwijking op B2B-hoofdregel voor onroerend-goed-diensten). KB nr. 20, art. 1 (gewoon tarief 21 %). Art. 51, § 2, 5° W.BTW (verlegging naar niet in België gevestigde belastingplichtige afnemer). 📖*  
+> > Art. 21, § 3, 1° W.BTW (afwijking op B2B-hoofdregel voor onroerend-goed-diensten). KB nr. 20, art. 1 (gewoon tarief 21 %). Art. 51, § 2, 5° W.BTW (verlegging naar niet in België gevestigde belastingplichtige afnemer). 📖  
 > > *Bron: Art. 21 § 3 1° W.BTW · Art. 51 § 2 5° W.BTW · KB nr. 20 art. 1*
 >
 > Belgisch gebouw, afnemer is een Zweedse belastingplichtige
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**21 % Belgische BTW met verlegging van heffing** naar de Zweedse afnemer. Identiek aan situatie (d): het is de ligging van het gebouw (BE) die de plaats bepaalt, niet de nationaliteit van de afnemer. 🔗_**
+> > **21 % Belgische BTW met verlegging van heffing** naar de Zweedse afnemer. Identiek aan situatie (d): het is de ligging van het gebouw (BE) die de plaats bepaalt, niet de nationaliteit van de afnemer. 🔗
 > > 
 > > Plaats van de dienst = België (art. 21, § 3, 1° W.BTW — onroerend-goed-dienst). 📖 Tarief = 21 % (geen verlaagd tarief voor reiniging). 🔗 De Zweedse belastingplichtige is niet in België gevestigd: de Belgische BTW wordt naar hem verlegd op grond van art. 51, § 2, 5° W.BTW. 📖 Hij dient zich in België te identificeren of een aansprakelijke vertegenwoordiger aan te stellen om de verschuldigde Belgische BTW te voldoen. 🔗
 > > 
 > > Voor onroerend-goed-diensten maakt het geen verschil of de buitenlandse afnemer uit een EU-lidstaat komt (Frankrijk, Zweden, …) of uit een derde land: de plaats blijft het land waar het gebouw ligt, en de BTW is steeds die van het ligging-land. De verleggingsregeling werkt identiek voor alle niet in België gevestigde belastingplichtige afnemers. 🤖
 > > 
-> > *Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst, afwijking op B2B-hoofdregel art. 21 § 2). Art. 51, § 2, 5° W.BTW (verlegging naar niet-gevestigde belastingplichtige afnemer). KB nr. 20, art. 1 (tarief 21 %). 📖*  
+> > Art. 21, § 3, 1° W.BTW (plaats onroerend-goed-dienst, afwijking op B2B-hoofdregel art. 21 § 2). Art. 51, § 2, 5° W.BTW (verlegging naar niet-gevestigde belastingplichtige afnemer). KB nr. 20, art. 1 (tarief 21 %). 📖  
 > > *Bron: Art. 21 § 3 1° W.BTW · Art. 51 § 2 5° W.BTW · KB nr. 20 art. 1*
 
 <a id="2015-1-vr33"></a>
@@ -348,7 +330,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**De belastbare winst bedraagt 50.000 EUR.** Het abnormaal voordeel (50.000 EUR) vormt een fiscale vloer: aftrekken (DBI, notionele intrestaftrek, investeringsaftrek) mogen *niet* worden toegepast op het gedeelte van het resultaat dat uit dat voordeel voortkomt (art. 207, tweede lid WIB 92, versie aanslagjaar 2014). 🔗_**
+> > **De belastbare winst bedraagt 50.000 EUR.** Het abnormaal voordeel (50.000 EUR) vormt een fiscale vloer: aftrekken (DBI, notionele intrestaftrek, investeringsaftrek) mogen *niet* worden toegepast op het gedeelte van het resultaat dat uit dat voordeel voortkomt (art. 207, tweede lid WIB 92, versie aanslagjaar 2014). 🔗
 > > 
 > > | Stap | Bedrag | Toelichting |
 > > |---|---:|---|
@@ -362,7 +344,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Deze "vloer-techniek" is de **anti-misbruik-kern** van art. 207, tweede lid WIB 92: zonder die regel zou een vennootschap een vastgesteld abnormaal voordeel kunnen "wegaftrekken" met DBI of NID en dus niets bijbetalen, wat de hele art. 26-correctie zinloos zou maken. De regel werd ingevoerd door de wet van 24 december 2002 (gelijktijdig met de invoering van het rulingsysteem) en is sindsdien uitgebreid naar andere "besmette" basissen (verworpen uitgaven art. 198 §12°, bijzondere aanslag art. 219, e.d.). 📖
 > > 
-> > ***Art. 26 WIB 92** — toevoeging van het abnormaal of goedgunstig voordeel aan de winst van de toekennende vennootschap (hier: 50.000 EUR onder-marktprijs aankoop bij verbonden onderneming). **Art. 207, tweede lid WIB 92** (versie ajr 2014, zoals gewijzigd door wet 24 december 2002, art. 11): "Geen van deze aftrekken noch compensatie met het verlies van het belastbare tijdperk mag worden verricht op het gedeelte van het resultaat dat voortkomt van abnormale of goedgunstige voordelen vermeld in artikel 79." Sinds de hervorming 2018 zit de equivalente regel in art. 206/3 WIB 92 met dezelfde uitkomst. 📖*  
+> > **Art. 26 WIB 92** — toevoeging van het abnormaal of goedgunstig voordeel aan de winst van de toekennende vennootschap (hier: 50.000 EUR onder-marktprijs aankoop bij verbonden onderneming). **Art. 207, tweede lid WIB 92** (versie ajr 2014, zoals gewijzigd door wet 24 december 2002, art. 11): "Geen van deze aftrekken noch compensatie met het verlies van het belastbare tijdperk mag worden verricht op het gedeelte van het resultaat dat voortkomt van abnormale of goedgunstige voordelen vermeld in artikel 79." Sinds de hervorming 2018 zit de equivalente regel in art. 206/3 WIB 92 met dezelfde uitkomst. 📖  
 > > *Bron: Art. 26 WIB 92 + Art. 207, tweede lid WIB 92 (ajr 2014)*
 
 <a id="2015-1-vr35"></a>
@@ -376,7 +358,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**JA** — BVBA ABC kan aanspraak maken op het verminderd basistarief. De totale bezoldiging van de enige bedrijfsleider (in de zin van de minimum-bezoldigingstest, AJ 2014) bedraagt **37.270,83 EUR** en overschrijdt dus de drempel van 36.000,00 EUR. 🔗_**
+> > **JA** — BVBA ABC kan aanspraak maken op het verminderd basistarief. De totale bezoldiging van de enige bedrijfsleider (in de zin van de minimum-bezoldigingstest, AJ 2014) bedraagt **37.270,83 EUR** en overschrijdt dus de drempel van 36.000,00 EUR. 🔗
 > > 
 > > **Berekening van de in aanmerking te nemen bedrijfsleidersbezoldiging (AJ 2014)**
 > > 
@@ -413,13 +395,13 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil 3 — KI gewoon × 5/3 zonder revalorisatie.** De drempel is `5/3 × KI **gerevaloriseerd**` (art. 32 jo. art. 13 WIB92). Vergeet je de revalorisatiecoëfficiënt (4,19 voor AJ 2014), dan onderschat je de drempel sterk en overschat je de herkwalificatie. 📖
 > > 
-> > ***Wettelijke grondslag (versie AJ 2014):**
+> > **Wettelijke grondslag (versie AJ 2014):**
 > > 
 > > - **Art. 215, tweede en derde lid WIB92** (oude versie vóór W. 25/12/2017): verlaagd opklimmend tarief (24,25 % / 31 % / 34,5 %) voor KMO-vennootschappen, met uitsluitingsvoorwaarden waaronder de **bezoldigingstest** in 4°: ten minste één bedrijfsleider-natuurlijke-persoon moet een bezoldiging genieten van **ten minste 36.000 EUR** (of, indien lager, een bezoldiging gelijk aan het belastbaar resultaat). 📖
 > > - **Art. 32, eerste lid + tweede lid, 1° WIB92**: bezoldigingen van bedrijfsleiders omvatten o.m. periodieke bezoldigingen én **tantièmes**. 📖
 > > - **Art. 32, tweede lid, 3° WIB92** (huurherkwalificatie): huurprijs > 5/3 × KI gerevaloriseerd = bezoldiging bedrijfsleider. **Art. 13 WIB92** bepaalt de revalorisatiecoëfficiënt (4,19 voor AJ 2014). 📖
 > > - **Art. 195, §1, tweede lid WIB92**: tantièmes worden voor de vennootschap als kost gedragen door het boekjaar waarop ze betrekking hebben (matching) — relevant voor de inrekening in de bezoldigingstest van datzelfde belastbaar tijdperk. 📖
-> > - **Art. 18, eerste lid, 4° WIB92**: geldlening van bedrijfsleider aan de vennootschap → geen herkwalificatie tot dividend zolang rente marktconform en lening niet bovenmatig (hier: 4 % is marktconform → blijft intrest). 📖*  
+> > - **Art. 18, eerste lid, 4° WIB92**: geldlening van bedrijfsleider aan de vennootschap → geen herkwalificatie tot dividend zolang rente marktconform en lening niet bovenmatig (hier: 4 % is marktconform → blijft intrest). 📖  
 > > *Bron: Art. 215, 32, 13, 195 §1, 18 WIB92 (versie AJ 2014)*
 
 <a id="2014-1-vr28"></a>
@@ -433,7 +415,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Fiscale meerwaarde voor gespreide taxatie = **42.000 EUR**. 🔗_**
+> > Fiscale meerwaarde voor gespreide taxatie = **42.000 EUR**. 🔗
 > > 
 > > Meerwaarde = (verkoopprijs − verkoopkosten) − netto-boekwaarde:
 > > 
@@ -451,14 +433,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het gebouw voldoet aan de voorwaarden van art. 47 WIB 92: materieel vast actief, sedert meer dan 5 jaar in de vennootschap (aangekocht in 1985, verkocht in 2012 — ruimschoots > 5 jaar). De vennootschap moet wel een bedrag gelijk aan de **volledige verkoopwaarde** (niet enkel de meerwaarde) herbeleggen binnen 3 jaar (5 jaar voor onroerend goed) in afschrijfbare immateriële/materiële vaste activa in een EER-lidstaat. 📖
 > > 
-> > *Art. 47 § 1, 2° WIB 92: meerwaarden bij vervreemding van materiële vaste activa die sedert meer dan 5 jaar de aard van vaste activa hadden, kunnen gespreid belast worden mits herbelegging van een bedrag gelijk aan de verkoopwaarde. 📖*  
+> > Art. 47 § 1, 2° WIB 92: meerwaarden bij vervreemding van materiële vaste activa die sedert meer dan 5 jaar de aard van vaste activa hadden, kunnen gespreid belast worden mits herbelegging van een bedrag gelijk aan de verkoopwaarde. 📖  
 > > *Bron: Art. 47 § 1, 2° WIB 92*
 >
 > De vennootschap heeft de meerwaarde verwerkt als gespreide taxatie in haar jaarrekening. Welke bedragen van de gespreide meerwaarde zullen in de jaarrekening van 31 december 2012 overgeboekt worden naar de resultatenrekeningen als onttrekking? U dient rekening te houden met een belastingtarief van 33,99%. Geef een detail van uw berekening.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Onttrekking 2012 = **1.260 EUR** (totaal), op te splitsen in **428,27 EUR** uitgestelde belastingen → resultatenrekening (belastingen) en **831,73 EUR** belastingvrije reserves → opbrengst onttrekking (rek. 789). 🔗_**
+> > Onttrekking 2012 = **1.260 EUR** (totaal), op te splitsen in **428,27 EUR** uitgestelde belastingen → resultatenrekening (belastingen) en **831,73 EUR** belastingvrije reserves → opbrengst onttrekking (rek. 789). 🔗
 > > 
 > > **Stap 1 — splitsing meerwaarde bij overboeking naar belastingvrije reserves** (boekhoudkundige verwerking gespreide taxatie):
 > > 
@@ -482,14 +464,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De vennootschap heeft **anterieur** herbelegd: het herbeleggingsgoed werd in 2011 aangekocht, vóór de realisatie van de meerwaarde in 2012. Art. 47 § 4 WIB 92 laat dit toe — herbeleggingen die zijn gebeurd in het belastbaar tijdperk waarin de meerwaarde is verwezenlijkt of in één van de drie voorafgaande tijdperken komen in aanmerking. De onttrekking start in het jaar van realisatie van de meerwaarde (2012), niet in het jaar van herbelegging. 📖
 > > 
-> > *Art. 47 § 1 WIB 92: de meerwaarde wordt belast "naar verhouding tot de afschrijvingen op die [herbelegde] goederen die ... in aanmerking worden genomen". CBN-advies 147/3 beschrijft de boekhoudkundige verwerking: bij realisatie boeking via resultatenrekening en overboeking naar (132) Belastingvrije reserves met afzondering van het uitgestelde-belastinggedeelte op (168). Bij elke afschrijving op het herbeleggingsgoed wordt een pro-rata-deel onttrokken. 📖*  
+> > Art. 47 § 1 WIB 92: de meerwaarde wordt belast "naar verhouding tot de afschrijvingen op die [herbelegde] goederen die ... in aanmerking worden genomen". CBN-advies 147/3 beschrijft de boekhoudkundige verwerking: bij realisatie boeking via resultatenrekening en overboeking naar (132) Belastingvrije reserves met afzondering van het uitgestelde-belastinggedeelte op (168). Bij elke afschrijving op het herbeleggingsgoed wordt een pro-rata-deel onttrokken. 📖  
 > > *Bron: Art. 47 § 1 WIB 92; CBN-advies 147/3; KB W.Venn. art. 76 (boekhoudkundige verwerking)*
 >
 > Welk bedrag zal in de aangifte vennootschapsbelasting aanslagjaar 2013 ingevuld worden in het vak vrijgestelde reserves als gespreid te belasten meerwaarde? Geef een detail van uw berekening.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Vak "Gespreid te belasten meerwaarden" (code **1112**, art. 47 WIB 92) op de aangifte VenB aanslagjaar 2013 = **40.740 EUR**. 🔗_**
+> > Vak "Gespreid te belasten meerwaarden" (code **1112**, art. 47 WIB 92) op de aangifte VenB aanslagjaar 2013 = **40.740 EUR**. 🔗
 > > 
 > > Het vak "Vrijgestelde reserves — Gespreid te belasten meerwaarden" toont het bedrag aan meerwaarde dat **nog niet** belastbaar werd gesteld op het einde van het belastbaar tijdperk (= aanslagjaar 2013 voor boekjaar 2012):
 > > 
@@ -503,7 +485,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet verwarren: in het vak "Vrijgestelde reserves" komt het **bruto** saldo van de gespreid te belasten meerwaarde (42.000 − 1.260 = 40.740), **niet** het netto-bedrag dat boekhoudkundig op rekening 132 staat (27.724,20 − 831,73 = 26.892,47). Fiscaal volgt men de volledige meerwaarde; de splitsing naar uitgestelde belastingen is enkel boekhoudkundig. 🔗
 > > 
-> > *Aangifte VenB — vak "Vrijgestelde reserves", rubriek 4b code **1112**: gespreid te belasten meerwaarden op materiële en immateriële vaste activa (art. 47 WIB 92), belastbaar naar verhouding van de afschrijvingen op de herbeleggingsgoederen (opgave 276 K). 📖*  
+> > Aangifte VenB — vak "Vrijgestelde reserves", rubriek 4b code **1112**: gespreid te belasten meerwaarden op materiële en immateriële vaste activa (art. 47 WIB 92), belastbaar naar verhouding van de afschrijvingen op de herbeleggingsgoederen (opgave 276 K). 📖  
 > > *Bron: Art. 47 WIB 92; aangifte VenB code 1112 (vak "Gespreid te belasten meerwaarden op materiële en immateriële vaste activa")*
 
 <a id="2014-1-vr29"></a>
@@ -528,7 +510,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Verworpen uitgaven voor het boekjaar 2012 = 10.750 EUR**, uitsluitend afkomstig van de niet-aftrekbare interest op de groepslening (thin-cap-regel art. 198, 11°/1 WIB92). De interne pensioenbelofte en de waardevermindering op de Trusty-deelneming geven in 2012 geen aanvullende verwerping (zie verantwoording). 🔗_**
+> > **Verworpen uitgaven voor het boekjaar 2012 = 10.750 EUR**, uitsluitend afkomstig van de niet-aftrekbare interest op de groepslening (thin-cap-regel art. 198, 11°/1 WIB92). De interne pensioenbelofte en de waardevermindering op de Trusty-deelneming geven in 2012 geen aanvullende verwerping (zie verantwoording). 🔗
 > > 
 > > **Stap 1 — som van fiscaal gestort kapitaal (einde 2012) + belaste reserves (begin 2012)**:
 > > 
@@ -555,14 +537,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De **incorporatie van beschikbare reserves in het kapitaal** verhoogt wel het boekhoudkundig geplaatst kapitaal, maar **niet** het fiscaal gestort kapitaal (art. 184, eerste lid WIB92 — "werkelijk gestorte inbrengen in geld of in natura"). Wie deze 50.000 zou meetellen in de thin-cap-drempel, verhoogt de drempel ten onrechte tot 810.000 en mist een belangrijk stuk van de verwerping. 📖
 > > 
-> > ***Art. 198, 11°/1 WIB92** — interesten op een lening van een groepsvennootschap zijn niet-aftrekbaar in de mate dat het totale leningsbedrag hoger is dan **5 × (belaste reserves bij begin van het belastbaar tijdperk + gestort kapitaal bij einde van het belastbaar tijdperk)**. **Art. 184 WIB92** — fiscaal gestort kapitaal = enkel werkelijk gestorte inbrengen in geld of in natura; incorporaties van reserves tellen niet mee. **Art. 198, §1, 7° WIB92** — waardeverminderingen en minderwaarden op aandelen zijn niet-aftrekbaar, behoudens minderwaarden bij volledige verdeling van het maatschappelijk vermogen tot beloop van het verlies aan fiscaal gestort kapitaal. 📖*  
+> > **Art. 198, 11°/1 WIB92** — interesten op een lening van een groepsvennootschap zijn niet-aftrekbaar in de mate dat het totale leningsbedrag hoger is dan **5 × (belaste reserves bij begin van het belastbaar tijdperk + gestort kapitaal bij einde van het belastbaar tijdperk)**. **Art. 184 WIB92** — fiscaal gestort kapitaal = enkel werkelijk gestorte inbrengen in geld of in natura; incorporaties van reserves tellen niet mee. **Art. 198, §1, 7° WIB92** — waardeverminderingen en minderwaarden op aandelen zijn niet-aftrekbaar, behoudens minderwaarden bij volledige verdeling van het maatschappelijk vermogen tot beloop van het verlies aan fiscaal gestort kapitaal. 📖  
 > > *Bron: Art. 198, 11°/1 WIB92 · Art. 184 WIB92 · Art. 198, §1, 7° WIB92*
 >
 > **Hoeveel bedraagt het fiscaal gestort kapitaal van de vennootschap op 31 december 2012?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Fiscaal gestort kapitaal op 31/12/2012 = 100.000 EUR**: 20.000 oprichting 1989 (speciën) + 80.000 inbreng in natura 14/03/2012. De incorporatie van 50.000 EUR beschikbare reserves telt fiscaal **niet** mee. 🔗_**
+> > **Fiscaal gestort kapitaal op 31/12/2012 = 100.000 EUR**: 20.000 oprichting 1989 (speciën) + 80.000 inbreng in natura 14/03/2012. De incorporatie van 50.000 EUR beschikbare reserves telt fiscaal **niet** mee. 🔗
 > > 
 > > | Component | Bedrag | Telt mee als fiscaal gestort kapitaal? |
 > > |---|---:|:---:|
@@ -573,7 +555,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Boekhoudkundig geplaatst kapitaal eind 2012 = 150.000 EUR (de drie componenten samen), maar **fiscaal** stopt het op 100.000 EUR. Dit verschil van 50.000 EUR is belangrijk bij latere kapitaalverminderingen: enkel het deel dat fiscaal gestort kapitaal is, kan belastingvrij worden terugbetaald (mits pro rata-regel art. 18 WIB92); het deel dat een geïncorporeerde reserve vertegenwoordigt, wordt fiscaal als dividend gekwalificeerd. 🔗
 > > 
-> > ***Art. 184, eerste lid WIB92** definieert het fiscaal gestort kapitaal als "het kapitaal voor zover dat gevormd wordt door werkelijk gestorte inbrengen in geld of in natura, andere dan inbrengen in nijverheid, en in zoverre er geen terugbetaling of vermindering heeft plaatsgevonden". Reserves die in het kapitaal worden geïncorporeerd zijn geen werkelijke inbreng en behouden dus hun fiscaal karakter van belaste reserve. 📖*  
+> > **Art. 184, eerste lid WIB92** definieert het fiscaal gestort kapitaal als "het kapitaal voor zover dat gevormd wordt door werkelijk gestorte inbrengen in geld of in natura, andere dan inbrengen in nijverheid, en in zoverre er geen terugbetaling of vermindering heeft plaatsgevonden". Reserves die in het kapitaal worden geïncorporeerd zijn geen werkelijke inbreng en behouden dus hun fiscaal karakter van belaste reserve. 📖  
 > > *Bron: Art. 184, eerste lid WIB92*
 
 <a id="2013-1-vr22"></a>
@@ -608,7 +590,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De controledienst zal de belastbare winst van boekjaar 2012 verhogen met **4.000 EUR** (20 stuks × 200 EUR). De aankoopkost is te vroeg in resultaat genomen: ofwel moeten de 20 niet-geleverde stuks alsnog in de eindvoorraad worden opgenomen ("goederen onderweg"), ofwel moet de factuur via een overlopende rekening worden uitgesteld naar 2013. Bijkomende vennootschapsbelasting + nalatigheidsinteresten (en in voorkomend geval een belastingverhoging) volgen. 🔗_**
+> > De controledienst zal de belastbare winst van boekjaar 2012 verhogen met **4.000 EUR** (20 stuks × 200 EUR). De aankoopkost is te vroeg in resultaat genomen: ofwel moeten de 20 niet-geleverde stuks alsnog in de eindvoorraad worden opgenomen ("goederen onderweg"), ofwel moet de factuur via een overlopende rekening worden uitgesteld naar 2013. Bijkomende vennootschapsbelasting + nalatigheidsinteresten (en in voorkomend geval een belastingverhoging) volgen. 🔗
 > > 
 > > **Het mechanisme van de fout** — De vennootschap heeft 4.000 EUR aankopen geboekt voor goederen die zij op 31.12.2012 niet bezit. In de KVG-formule `BV + Aankopen − EV` zorgt dit voor een overschatte kost: 🔗
 > > 
@@ -626,7 +608,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Naast de aanslag zelf**: (i) nalatigheidsinteresten lopen vanaf de uiterste betalingsdatum van de oorspronkelijke aanslag 2012; (ii) een belastingverhoging (10-200 %) kan worden opgelegd indien de fiscus een onjuiste aangifte vaststelt (art. 444 WIB92); (iii) de **timing**-aard van de fout maakt dat de 4.000 EUR in 2013 spiegelbeeldig aftrekbaar is — economisch is het verschil dus de tijdwaarde + eventuele tariefverschillen, plus de boetes en interesten. 🤖 Praktisch zal de accountant in de aangifte VenB 2012 een verworpen uitgave / aanpassing van de begintoestand voorstellen, en in 2013 een correctie in de andere zin doorvoeren. 🔗
 > > 
-> > ***Art. 49 WIB92** — beroepskosten zijn slechts aftrekbaar in het belastbare tijdperk waarin zij werkelijk zijn gedaan of gedragen, of waarin zij het karakter van zekere en vaststaande schulden hebben verkregen *en als zodanig zijn geboekt*. 📖 **Art. 24, 1° WIB92** definieert winst onder meer als waardevermeerderingen van voorraden — de onvolledige voorraadopname leidt tot onderschatte winst. **CBN-advies 132/7** bepaalt dat aankopen via rek. 604 als kost worden geboekt mét gelijktijdige voorraadwijziging (rek. 6094/34), zodat de match tussen kost en omzet pas plaatsvindt bij verkoop. 📖 Voor de procedure: art. 346 WIB92 (bericht van wijziging) en art. 354 WIB92 (3-jarige aanslagtermijn). 🔗*  
+> > **Art. 49 WIB92** — beroepskosten zijn slechts aftrekbaar in het belastbare tijdperk waarin zij werkelijk zijn gedaan of gedragen, of waarin zij het karakter van zekere en vaststaande schulden hebben verkregen *en als zodanig zijn geboekt*. 📖 **Art. 24, 1° WIB92** definieert winst onder meer als waardevermeerderingen van voorraden — de onvolledige voorraadopname leidt tot onderschatte winst. **CBN-advies 132/7** bepaalt dat aankopen via rek. 604 als kost worden geboekt mét gelijktijdige voorraadwijziging (rek. 6094/34), zodat de match tussen kost en omzet pas plaatsvindt bij verkoop. 📖 Voor de procedure: art. 346 WIB92 (bericht van wijziging) en art. 354 WIB92 (3-jarige aanslagtermijn). 🔗  
 > > *Bron: Art. 49 WIB92 + art. 24 WIB92 + CBN-advies 132/7 + art. 346/354 WIB92*
 
 <a id="2013-1-vr23"></a>
@@ -680,13 +662,13 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De casus is bewust opgesteld om de student te laten splitsen: niet de hele 23.000 EUR is een vrijgestelde voorziening. Een **uitbreiding** (van een gebouw, machine, garage…) is per definitie geen "grote herstelling of onderhoud" — het matching-beginsel rechtvaardigt enkel de spreiding van *terugkerende* onderhoudskosten, niet van *toekomstige investeringen*. CBN 2018/25 herhaalt dat een voorziening voor grote herstellingen moet beantwoorden aan kosten die *in de loop van het boekjaar of voorgaande boekjaren zijn ontstaan* — een geplande uitbreiding ontstaat pas door de toekomstige beslissing tot investering. 📖
 > > 
-> > ***Wettelijk kader voor vrijgestelde voorzieningen grote herstellingen**:
+> > **Wettelijk kader voor vrijgestelde voorzieningen grote herstellingen**:
 > > 
 > > - **Art. 48 WIB 92** — algemene vrijstellingsregel voor voorzieningen voor scherp omschreven en waarschijnlijke risico's en kosten. 📖
 > > - **Art. 194 WIB 92** — beperkt de vrijstelling tot voorzieningen die voortvloeien uit (a) verbintenissen aangegaan tijdens het belastbaar tijdperk of voorgaande tijdperken, of (b) wettelijke/reglementaire verplichtingen. 📖
 > > - **Art. 24-27 KB/WIB 92** — uitvoeringsvoorwaarden: scherp omschreven aard, geboekt op een afzonderlijke rekening, en de uitgave moet redelijkerwijs verwacht zijn binnen redelijke termijn (10 jaar wordt courant aanvaard voor periodiek onderhoud). 🔗
 > > - **CBN-advies 2018/25** (en het oudere advies 107/1) — boekhoudkundige criteria: het KB WVV verplicht expliciet de vorming van voorzieningen voor grote herstellings- en onderhoudswerken (art. 3:34 KB WVV, voorheen art. 33 KB W.Venn.), mits aan de algemene criteria voldaan; uitbreidings­investeringen vallen er buiten en worden geactiveerd. 📖
-> > - **Formulier 204.3** (aj. 2013, voorloper van het huidige vak Vrijgestelde reserves op formulier 275.1) — afzonderlijke detailstaat per vrijgestelde voorziening, met beginsaldo, mutaties (aanleg/aanwending) en eindsaldo per rubriek. 🔗*  
+> > - **Formulier 204.3** (aj. 2013, voorloper van het huidige vak Vrijgestelde reserves op formulier 275.1) — afzonderlijke detailstaat per vrijgestelde voorziening, met beginsaldo, mutaties (aanleg/aanwending) en eindsaldo per rubriek. 🔗  
 > > *Bron: Art. 48 + 194 WIB 92; art. 24-27 KB/WIB 92; CBN 2018/25*
 
 <a id="2013-1-vr24"></a>
@@ -709,7 +691,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Belastbare grondslag = **37 000,00 euro**. 🔗_**
+> > Belastbare grondslag = **37 000,00 euro**. 🔗
 > > 
 > > Opbouw via de bewerkingen (volgorde art. 74 KB/WIB 92 → art. 206/1 WIB 92 nieuwe nummering):
 > > 
@@ -729,7 +711,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Een tweede valkuil betreft het **gebroken boekjaar**: het boekjaar loopt van 01.10.2011 tot 30.09.2012, maar het aanslagjaar wordt bepaald door de afsluitdatum → **aanslagjaar 2013** (niet 2012). De casus vermeldt overgedragen verliezen "voor aanslagjaar 2012" — dit zijn de op die balansdatum nog beschikbare overgedragen verliezen die in AJ 2013 worden verrekend. 🤖
 > > 
-> > ***Art. 183 e.v. WIB 92** — vaststelling van de belastbare grondslag in de VenB volgens de zes bewerkingen. **Art. 206 WIB 92** — aftrek van overgedragen beroepsverliezen, onbeperkt verrekenbaar in de tijd voor AJ 2013. **Art. 207, tweede lid WIB 92** (versie AJ 2013) — aftrekverbod geldt enkel op abnormale/goedgunstige voordelen (art. 79), op de afzonderlijke aanslag geheime commissielonen (art. 219) en op bepaalde investeringsreserve-recapture; **niet** op het gedeelte VAA-VU dat hier gangbaar in de winst zit. **Art. 198, § 1, 9°bis WIB 92** — 17 % van het VAA brandstof = verworpen uitgave. 🔗*  
+> > **Art. 183 e.v. WIB 92** — vaststelling van de belastbare grondslag in de VenB volgens de zes bewerkingen. **Art. 206 WIB 92** — aftrek van overgedragen beroepsverliezen, onbeperkt verrekenbaar in de tijd voor AJ 2013. **Art. 207, tweede lid WIB 92** (versie AJ 2013) — aftrekverbod geldt enkel op abnormale/goedgunstige voordelen (art. 79), op de afzonderlijke aanslag geheime commissielonen (art. 219) en op bepaalde investeringsreserve-recapture; **niet** op het gedeelte VAA-VU dat hier gangbaar in de winst zit. **Art. 198, § 1, 9°bis WIB 92** — 17 % van het VAA brandstof = verworpen uitgave. 🔗  
 > > *Bron: Art. 183, 198 § 1 9°bis, 206, 207 WIB 92*
 >
 > Vul de bijgevoegde onderdelen van de aangifte in.
@@ -754,7 +736,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Voorbehoud bij de codes**: voor AJ 2013 gebruikte de aangifte gedeeltelijk andere subcodes voor de VU's (geen onderverdeling "autokosten boven aftrekbeperking" in dezelfde vorm als nu). De bijlage van het examen zal de exacte codes geven; bovenstaande zijn de hoofdcodes die toen al bestonden. ❓
 > > 
-> > ***KB/WIB 92, bijlage III** (model aangifte VenB AJ 2013) — codes 1080, 1206, 1320, 1436, 1460. **Art. 198, § 1, 9°bis WIB 92** — VU-statuut 17 % brandstof-VAA. **Art. 206 WIB 92** — code 1436 "aftrek vorige beroepsverliezen". 🔗*  
+> > **KB/WIB 92, bijlage III** (model aangifte VenB AJ 2013) — codes 1080, 1206, 1320, 1436, 1460. **Art. 198, § 1, 9°bis WIB 92** — VU-statuut 17 % brandstof-VAA. **Art. 206 WIB 92** — code 1436 "aftrek vorige beroepsverliezen". 🔗  
 > > *Bron: KB/WIB 92 bijlage III; art. 198, 206 WIB 92*
 
 <a id="2008-bibf-vrG1"></a>
@@ -847,14 +829,14 @@ gegenereerd_op: 2026-05-26
 > > - **Belaste reserve in kapitaal**: incorporatie van **reeds belaste** reserves leidt niet tot nieuwe belasting. Niet verwarren met incorporatie van vrijgestelde reserves. 📖
 > > - **Voordeel van alle aard 1.385 EUR zonder factuur**: art. 49 WIB92 vereist bewijs van werkelijkheid en bedrag. Zonder factuur of fiche 281.20 → VU; eventueel ook **bijzondere aanslag geheime commissielonen** (art. 219 WIB92) — niet gevraagd in deze opgave maar wel een examen-klassieker. 🔗
 > > 
-> > ***Wettelijke grondslag** 📖
+> > **Wettelijke grondslag** 📖
 > > 
 > > - **Verworpen uitgaven**: art. 53, 198 WIB92 (belastingen op winst, geldboeten, niet-aftrekbare kosten).
 > > - **Autokosten-aftrekbeperking** (oude regime, pre-2018): art. 66 §1 WIB92 j° art. 198bis WIB92 (75%-aftrek; intresten uitgezonderd).
 > > - **Onthaal- en restaurantkosten 50%**: art. 53, 8° en 8°bis WIB92 (regime aj. 2008).
 > > - **Investeringsaftrek energiebesparende investeringen**: art. 69 WIB92 j° art. 201 WIB92 — verhoogd percentage (voor aj. 2008: 13,5% bij KMO met attest gewest).
 > > - **Notionele intrestaftrek (aftrek risicokapitaal)**: art. 205bis–205novies WIB92 — percentage aj. 2008 = 4,281% × gecorrigeerd eigen vermogen.
-> > - **Bewijsregel beroepskosten**: art. 49 WIB92 — werkelijkheid + bewijs (factuur/fiche).* 📖
+> > - **Bewijsregel beroepskosten**: art. 49 WIB92 — werkelijkheid + bewijs (factuur/fiche). 📖
 
 <a id="2003-bibf-vrG1"></a>
 
@@ -951,5 +933,5 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Bruto vs. netto-dividend voor DBI**. De DBI-aftrek slaat op het **bruto-dividend** (vóór inhouding van roerende voorheffing), niet op het netto-bedrag dat de vennootschap effectief ontvangt. Hier dus 1.600 (= 1.200 ontvangen + 400 RV), niet 1.200. Wie het netto-bedrag neemt, verliest 95 EUR DBI-aftrek. De ingehouden RV is bovendien **verrekenbaar én terugbetaalbaar** met de VenB — losstaand van de DBI-aftrek. 🔗
 > > 
-> > ***Drie-bewerkingenstelsel VenB** (toenmalig art. 74-79 KB/WIB 92 — uitvoering art. 183 WIB 92): fiscale winst = belastbare reserves-toename + verworpen uitgaven + uitgekeerde dividenden, gevolgd door achtereenvolgende aftrekken (DBI, vorige verliezen, investeringsaftrek …) volgens de in art. 207 WIB 92 vastgelegde volgorde. 🔗 **Verworpen uitgaven**: art. 198 § 1 WIB 92 (niet-aftrekbare belastingen, liberaliteiten zonder attest) + art. 53, 8°/8°bis WIB 92 (representatie- en restaurantkosten) + art. 66 WIB 92 (autokosten, oude 25 %-regel vóór CO2-formule). 📖 **DBI**: art. 202-204 WIB 92 — 95 %-aftrek in 2003, participatievoorwaarde (≥ 10 % of ≥ 1.200.000 EUR aanschaffingswaarde) + taxatievoorwaarde + één-jaar-houdperiode. 📖*  
+> > **Drie-bewerkingenstelsel VenB** (toenmalig art. 74-79 KB/WIB 92 — uitvoering art. 183 WIB 92): fiscale winst = belastbare reserves-toename + verworpen uitgaven + uitgekeerde dividenden, gevolgd door achtereenvolgende aftrekken (DBI, vorige verliezen, investeringsaftrek …) volgens de in art. 207 WIB 92 vastgelegde volgorde. 🔗 **Verworpen uitgaven**: art. 198 § 1 WIB 92 (niet-aftrekbare belastingen, liberaliteiten zonder attest) + art. 53, 8°/8°bis WIB 92 (representatie- en restaurantkosten) + art. 66 WIB 92 (autokosten, oude 25 %-regel vóór CO2-formule). 📖 **DBI**: art. 202-204 WIB 92 — 95 %-aftrek in 2003, participatievoorwaarde (≥ 10 % of ≥ 1.200.000 EUR aanschaffingswaarde) + taxatievoorwaarde + één-jaar-houdperiode. 📖  
 > > *Bron: Art. 183, 198, 199-200, 202-204, 207 + (oud) art. 66 WIB 92*

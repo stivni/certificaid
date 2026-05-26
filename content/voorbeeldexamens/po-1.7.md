@@ -30,7 +30,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het onderscheid gaat over **wat** wordt gecontroleerd, niet **wanneer**: accountingcontrole = output (de boeken), administratieve controle = proces (de weg ernaartoe). Een goed IC-systeem heeft beide nodig — administratieve controle voorkomt fouten, accountingcontrole detecteert wat er toch nog inglipt. ISA 315 (herzien 2019) hanteert deze procesgerichte invalshoek via de vijf componenten (controle-omgeving, risico-inschatting, **beheersingsactiviteiten**, informatie en communicatie, monitoring) waarin beide types een plaats krijgen. 🔗
 > > 
-> > *Klassieke interne-controle-typologie (Starreveld-traditie), in ITAA-context bevestigd door ISA 315 (herzien 2019) bijlage 3 §20 e.v. — beheersingsactiviteiten omvatten zowel **transactie-controles** (administratieve processen: autorisatie, functiescheiding, fysieke beveiliging) als **rapportage-controles** (boekhoudkundige juistheid: reconciliaties, periode-afgrenzing, controle van journaalposten). 🔗*  
+> > Klassieke interne-controle-typologie (Starreveld-traditie), in ITAA-context bevestigd door ISA 315 (herzien 2019) bijlage 3 §20 e.v. — beheersingsactiviteiten omvatten zowel **transactie-controles** (administratieve processen: autorisatie, functiescheiding, fysieke beveiliging) als **rapportage-controles** (boekhoudkundige juistheid: reconciliaties, periode-afgrenzing, controle van journaalposten). 🔗  
 > > *Bron: ISA 315 (herzien 2019), bijlage 3 §20-21*
 >
 > Verklaar het begrip 'preventieve en repressieve controle' en geef van elke controleactiviteit een voorbeeld.
@@ -46,7 +46,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Preventief en repressief zijn **complementair, geen alternatieven**. ISA 315 (herzien 2019) erkent expliciet dat wanneer **functiescheiding niet haalbaar is** (kleine KMO, te weinig personeel), de organisatie schakelt naar **detecterende (repressieve) compensatie** — bijvoorbeeld periodieke review door de zaakvoerder van alle prijsaanpassingen. Een sluitend IC-systeem combineert beide: alleen preventief geeft blinde vlekken (wat als de control faalt?), alleen repressief betekent schade incasseren vóór correctie. 🔗
 > > 
-> > *ISA 315 (herzien 2019), bijlage 3 §20-22: beheersingsmaatregelen worden geclassificeerd naar tijdstip van werking — **vóór** de transactie (preventief, bv. functiescheiding, autorisatie) of **na** de transactie (detecterend ≈ repressief, bv. reconciliatie, exceptie-rapportering). Hoe effectief het IC-systeem ook is, het kan slechts een **redelijke** mate van zekerheid verschaffen (§22) — inherente beperkingen zoals samenspanning en management override blijven. 📖*  
+> > ISA 315 (herzien 2019), bijlage 3 §20-22: beheersingsmaatregelen worden geclassificeerd naar tijdstip van werking — **vóór** de transactie (preventief, bv. functiescheiding, autorisatie) of **na** de transactie (detecterend ≈ repressief, bv. reconciliatie, exceptie-rapportering). Hoe effectief het IC-systeem ook is, het kan slechts een **redelijke** mate van zekerheid verschaffen (§22) — inherente beperkingen zoals samenspanning en management override blijven. 📖  
 > > *Bron: ISA 315 (herzien 2019), bijlage 3 §20-22*
 
 <a id="2015-1-vr13"></a>
@@ -69,7 +69,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De vraag spreekt van *interne* controleur (interne audit), maar de technieken zijn dezelfde als die de externe commissaris hanteert — ISA 500/501 zijn de canonieke bron. Voor *interne* audit ligt het accent extra op **toetsing van de werking van interne beheersingsmaatregelen** (toegangsbeperking magazijn, functiescheiding ontvangst ↔ telling ↔ administratie), niet enkel op het bestaan van de voorraad zelf. 🔗
 > > 
-> > *ISA 500 *Controle-informatie* §A14-A25: zeven generieke controletechnieken — inspectie, waarneming, externe bevestiging, herberekening, herrekening, navraag, cijferanalyse. ISA 501 *Controle-informatie – specifieke overwegingen* §4: bij materiële voorraad moet de auditor de fysieke voorraadopname bijwonen, de instructies van het management evalueren, de voorraad inspecteren en tellingen ter toetsing uitvoeren. 📖*  
+> > ISA 500 *Controle-informatie* §A14-A25: zeven generieke controletechnieken — inspectie, waarneming, externe bevestiging, herberekening, herrekening, navraag, cijferanalyse. ISA 501 *Controle-informatie – specifieke overwegingen* §4: bij materiële voorraad moet de auditor de fysieke voorraadopname bijwonen, de instructies van het management evalueren, de voorraad inspecteren en tellingen ter toetsing uitvoeren. 📖  
 > > *Bron: ISA 500 §A14-A25; ISA 501 §4-§8*
 
 <a id="2015-1-vr14"></a>
@@ -119,7 +119,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het examenmodel laat meerdere aspecten per doelstelling toe — een doelstelling die zowel de efficiëntie van een proces als de juistheid van de boekhouding raakt, krijgt zowel een 'operationeel' als een 'financieel' kruisje. Strategische doelstellingen (marketingstrategie, productportefeuille) horen vrijwel altijd in de operationele kolom; controle-doelstellingen rond autorisatie en cut-off raken meestal aan zowel financieel als conformiteit. 🤖
 > > 
-> > *De driedeling financieel / operationeel / conformiteit is afkomstig uit het COSO Internal Control – Integrated Framework en wordt door het IIA (Institute of Internal Auditors) gehanteerd als de drie categorieën van interne-controle-doelstellingen (reporting, operations, compliance). Geen Belgische wettekst codificeert deze indeling; het is auditdoctrine die in de ITAA-stage-literatuur (operationele audit verkoopcyclus) als standaard-raamwerk wordt gebruikt. 🤖*  
+> > De driedeling financieel / operationeel / conformiteit is afkomstig uit het COSO Internal Control – Integrated Framework en wordt door het IIA (Institute of Internal Auditors) gehanteerd als de drie categorieën van interne-controle-doelstellingen (reporting, operations, compliance). Geen Belgische wettekst codificeert deze indeling; het is auditdoctrine die in de ITAA-stage-literatuur (operationele audit verkoopcyclus) als standaard-raamwerk wordt gebruikt. 🤖  
 > > *Bron: COSO Internal Control – Integrated Framework (doctrine, niet gecodificeerd)*
 
 <a id="2014-1-vr9"></a>
@@ -135,11 +135,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST**. Dit is de **autorisatie-doelstelling**: transacties mogen pas geregistreerd worden als zij goedgekeurd zijn binnen de door het management vastgelegde bevoegdheidsschema's. 🔗_**
+> > **JUIST**. Dit is de **autorisatie-doelstelling**: transacties mogen pas geregistreerd worden als zij goedgekeurd zijn binnen de door het management vastgelegde bevoegdheidsschema's. 🔗
 > > 
 > > Eén van de klassieke interne-controledoelstellingen rond boekhoudkundige registratie is dat **elke transactie passend geautoriseerd** moet zijn vóór ze geboekt wordt. Dit voorkomt dat medewerkers buiten hun bevoegdheid verbintenissen aangaan of vermogensbestanddelen verschuiven. De bevoegdheidsverdeling (autorisatiematrix) is daarvan het instrument. 🔗
 > > 
-> > *COSO-component **Controle-activiteiten** — autorisaties en goedkeuringen zijn één van de standaard-controle-activiteiten. ISA 315 (herzien) bespreekt autorisatie als kerncontrole binnen het informatiesysteem voor financiële verslaggeving. 🔗*  
+> > COSO-component **Controle-activiteiten** — autorisaties en goedkeuringen zijn één van de standaard-controle-activiteiten. ISA 315 (herzien) bespreekt autorisatie als kerncontrole binnen het informatiesysteem voor financiële verslaggeving. 🔗  
 > > *Bron: COSO Internal Control — Integrated Framework; ISA 315 (herzien)*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De toegang tot de activa is vrij voor elke medewerker in vast dienstverband.</span>
@@ -148,11 +148,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT**. De interne-controledoelstelling is precies het **omgekeerde**: de toegang tot activa moet **beperkt** zijn tot personen die er uit hoofde van hun functie toegang toe nodig hebben — een vast dienstverband op zich geeft géén toegang. 🔗_**
+> > **FOUT**. De interne-controledoelstelling is precies het **omgekeerde**: de toegang tot activa moet **beperkt** zijn tot personen die er uit hoofde van hun functie toegang toe nodig hebben — een vast dienstverband op zich geeft géén toegang. 🔗
 > > 
 > > **Bescherming van activa** (*safeguarding of assets*) is een kerndoelstelling van interne controle: fysieke en logische toegang tot kasmiddelen, voorraden, IT-systemen en vaste activa moet **beperkt en geautoriseerd** zijn. Hoe ruimer de toegang, hoe groter het risico op diefstal, ongeautoriseerd gebruik en onverklaarbare verschillen. Functiescheiding (bewaring vs. registratie) staat hier centraal. 🔗
 > > 
-> > *COSO — bescherming van activa valt onder de **operationele doelstelling** en wordt geïmplementeerd via controle-activiteiten (toegangsbeperking, functiescheiding). ISA 315 vereist dat de auditor de beheersingsmaatregelen rond bescherming van activa begrijpt. 🔗*  
+> > COSO — bescherming van activa valt onder de **operationele doelstelling** en wordt geïmplementeerd via controle-activiteiten (toegangsbeperking, functiescheiding). ISA 315 vereist dat de auditor de beheersingsmaatregelen rond bescherming van activa begrijpt. 🔗  
 > > *Bron: COSO Internal Control — Integrated Framework; ISA 315 (herzien)*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Enkel de verrichtingen behorend tot het patrimonium van de onderneming worden geregistreerd.</span>
@@ -161,7 +161,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST**. Dit is de **realiteit/afbakening-doelstelling**: enkel verrichtingen die werkelijk tot het patrimonium van de onderneming behoren mogen geboekt worden — geen privé-transacties van de bestuurder, geen fictieve verrichtingen. 🔗_**
+> > **JUIST**. Dit is de **realiteit/afbakening-doelstelling**: enkel verrichtingen die werkelijk tot het patrimonium van de onderneming behoren mogen geboekt worden — geen privé-transacties van de bestuurder, geen fictieve verrichtingen. 🔗
 > > 
 > > De controledoelstellingen rond boekhoudkundige registratie vereisen dat geboekte transacties:
 > > 
@@ -172,7 +172,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Dit principe correspondeert in de auditpraktijk met de **beweringen** ('assertions') uit ISA 315: *occurrence* (verrichtingen hebben werkelijk plaatsgevonden) en *rights and obligations* (de geboekte activa en passiva behoren tot de entiteit). 🔗
 > > 
-> > *COSO — rapporteringsdoelstelling (betrouwbaarheid financiële rapportering); ISA 315 — beweringen op transactieniveau (*occurrence*, *rights & obligations*). 🔗*  
+> > COSO — rapporteringsdoelstelling (betrouwbaarheid financiële rapportering); ISA 315 — beweringen op transactieniveau (*occurrence*, *rights & obligations*). 🔗  
 > > *Bron: COSO Internal Control — Integrated Framework; ISA 315 (herzien) — beweringen*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De transacties worden in een door de boekhouder bepaalde periode in het informatiesysteem opgenomen.</span>
@@ -181,13 +181,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT**. Transacties moeten in de **juiste periode** geregistreerd worden (cut-off-doelstelling) — niet in een periode die de boekhouder vrij kiest. 🔗_**
+> > **FOUT**. Transacties moeten in de **juiste periode** geregistreerd worden (cut-off-doelstelling) — niet in een periode die de boekhouder vrij kiest. 🔗
 > > 
 > > De interne-controledoelstelling rond **tijdigheid en cut-off** vereist dat een transactie geregistreerd wordt in de boekhoudkundige periode waartoe ze economisch behoort (matching-beginsel / overeenstemmingsbeginsel). Vrije keuze door de boekhouder zou cut-off-manipulatie en winststuring mogelijk maken — precies de risico's die interne controle moet uitsluiten. Bovendien legt de boekhoudwetgeving zelf termijnen op (registratie zonder vertraging, jaarafsluiting per balansdatum). 🔗
 > > 
 > > Niet verwarren met de **vrijheid om hulp- of subrekeningen te kiezen**: de boekhouder bepaalt wél de rekening-onderverdeling binnen het MAR, maar **niet** de periode waarin een transactie wordt opgenomen. Cut-off is dwingend, rekeningindeling is een keuze. 🔗
 > > 
-> > *COSO — controledoelstelling tijdigheid/cut-off (onderdeel van betrouwbare rapportering); ISA 315 — bewering *cut-off*. Boekhoudkundig: art. III.83 e.v. Wetboek van economisch recht en KB 29 april 2019 op de jaarrekening (overeenstemmingsbeginsel). 🔗*  
+> > COSO — controledoelstelling tijdigheid/cut-off (onderdeel van betrouwbare rapportering); ISA 315 — bewering *cut-off*. Boekhoudkundig: art. III.83 e.v. Wetboek van economisch recht en KB 29 april 2019 op de jaarrekening (overeenstemmingsbeginsel). 🔗  
 > > *Bron: COSO; ISA 315 (cut-off-bewering); WER Boek III Titel 3 + KB 29 april 2019*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De boekhoudkundige informatie wordt geregeld vergeleken met de onderliggende inventaris en eventuele verschillen moeten niet verantwoord worden.</span>
@@ -196,7 +196,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT**. De vergelijking met de inventaris is correct als doelstelling, maar **eventuele verschillen moeten wél verantwoord** (onderzocht en verklaard) worden — anders heeft de reconciliatie geen controlewaarde. 🔗_**
+> > **FOUT**. De vergelijking met de inventaris is correct als doelstelling, maar **eventuele verschillen moeten wél verantwoord** (onderzocht en verklaard) worden — anders heeft de reconciliatie geen controlewaarde. 🔗
 > > 
 > > De controledoelstelling **periodieke afstemming** (*reconciliation*) houdt twee delen in:
 > > 
@@ -205,7 +205,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De stelling klopt voor het eerste deel maar is **fout in het tweede**: een afstemming die verschillen niet verantwoordt detecteert noch fouten, noch fraude, noch krimpverliezen. Het is precies in die verantwoording dat de interne controle haar nut bewijst. 🔗
 > > 
-> > *COSO — controle-activiteit *reconciliations*; boekhoudkundig: jaarlijkse inventaris (art. III.89 WER) en verplichting de boekhouding in overeenstemming te brengen met de inventaris (KB 29 april 2019). Verschillen vragen een correctieboeking of motivering in het inventarisboek. 🔗*  
+> > COSO — controle-activiteit *reconciliations*; boekhoudkundig: jaarlijkse inventaris (art. III.89 WER) en verplichting de boekhouding in overeenstemming te brengen met de inventaris (KB 29 april 2019). Verschillen vragen een correctieboeking of motivering in het inventarisboek. 🔗  
 > > *Bron: COSO; art. III.89 WER; KB 29 april 2019 op de jaarrekening*
 
 <a id="2014-1-vr10"></a>
@@ -219,11 +219,11 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Drie risico's bij het aanmaken van klantenfiches door de verkoopafdeling:
+> > Drie risico's bij het aanmaken van klantenfiches door de verkoopafdeling:
 > > 
 > > 1. **Gebrek aan functiescheiding** — dezelfde verkoper initieert de verkoop én legt het klantmasterbestand aan, waardoor hij fictieve of gefingeerde klanten kan creëren om eigen omzet/commissies op te blazen. 🔗
 > > 2. **Geen kredietwaardigheidstoetsing vooraf** — de fiche wordt aangemaakt op het moment van bestelbon-ontvangst, zonder voorafgaande kredietacceptatie door een onafhankelijke functie, met risico op oninbare vorderingen. 🔗
-> > 3. **Onvolledige of foutieve master-data** — verkopers werken onder tijdsdruk en zonder verplichte invul-/valideringscontroles, waardoor BTW-nummer, leveradres, betalingsvoorwaarden of kortingspercentages fout of manipuleerbaar zijn (foutieve facturatie, te ruime kortingen, BTW-correcties). 🔗_**
+> > 3. **Onvolledige of foutieve master-data** — verkopers werken onder tijdsdruk en zonder verplichte invul-/valideringscontroles, waardoor BTW-nummer, leveradres, betalingsvoorwaarden of kortingspercentages fout of manipuleerbaar zijn (foutieve facturatie, te ruime kortingen, BTW-correcties). 🔗
 > > 
 > > **Toelichting per risico**:
 > > 
@@ -237,9 +237,9 @@ gegenereerd_op: 2026-05-26
 > > - **Anti-witwas / KYC**: bij een nieuwe klant is een identificatie- en risico-inschatting vereist (Wet 18.09.2017); de verkoper is niet de aangewezen functie om dit uit te voeren. 🔗
 > > - **IT-toegangsrechten**: verkopers hebben create-rechten op masterbestanden — een general-IT-control-tekortkoming die de hele cyclus raakt. 🔗
 > > 
-> > ***ISA 315 (herzien 2019), Bijlage 3** — illustreert functiescheiding in de verkoopcyclus: scheiding tussen autoriseren van transacties, vastleggen van transacties en bewaren van activa; verkopers mogen geen prijs- of klantparameters kunnen wijzigen. 📖 Zonder die scheiding ontstaat het fictieve-verkoop-scenario dat de norm zelf als voorbeeld noemt.
+> > **ISA 315 (herzien 2019), Bijlage 3** — illustreert functiescheiding in de verkoopcyclus: scheiding tussen autoriseren van transacties, vastleggen van transacties en bewaren van activa; verkopers mogen geen prijs- of klantparameters kunnen wijzigen. 📖 Zonder die scheiding ontstaat het fictieve-verkoop-scenario dat de norm zelf als voorbeeld noemt.
 > > 
-> > **ITAA-norm KMO-controleopdracht** — vereist dat de beroepsbeoefenaar de opzet en implementatie van interne beheersing op transactiecycli (waaronder de verkoopcyclus en de bijhorende master-data) beoordeelt; zwaktes leiden tot verhoogd intern beheersingsrisico en bijgevolg uitgebreidere gegevensgerichte werkzaamheden (§99-§101). 🔗*  
+> > **ITAA-norm KMO-controleopdracht** — vereist dat de beroepsbeoefenaar de opzet en implementatie van interne beheersing op transactiecycli (waaronder de verkoopcyclus en de bijhorende master-data) beoordeelt; zwaktes leiden tot verhoogd intern beheersingsrisico en bijgevolg uitgebreidere gegevensgerichte werkzaamheden (§99-§101). 🔗  
 > > *Bron: ISA 315 (herzien-2019), Bijlage 3; ITAA-norm KMO-controleopdracht §99-§101*
 
 <a id="2014-1-vr11"></a>
@@ -320,7 +320,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De vier categorieën moeten over **minstens drie personen** verdeeld worden; in kleine ondernemingen waar dit niet kan, vereist ISA 315 compenserende controles (bv. periodieke review door zaakvoerder). 📖
 > > 
-> > ***ISA 315 (herzien 2019), Bijlage 3** definieert functiescheiding als het toewijzen aan verschillende personen van de verantwoordelijkheden voor (i) het *autoriseren* van transacties, (ii) het *vastleggen* (registratie) van transacties en (iii) het *bewaren* van activa, met als doel de mogelijkheid te beperken om fouten of fraude te maken én te verhullen. De ITAA-doctrine voegt expliciet *controleprocedures* (detecterende controles zoals matching en review) toe als vierde categorie. 📖*  
+> > **ISA 315 (herzien 2019), Bijlage 3** definieert functiescheiding als het toewijzen aan verschillende personen van de verantwoordelijkheden voor (i) het *autoriseren* van transacties, (ii) het *vastleggen* (registratie) van transacties en (iii) het *bewaren* van activa, met als doel de mogelijkheid te beperken om fouten of fraude te maken én te verhullen. De ITAA-doctrine voegt expliciet *controleprocedures* (detecterende controles zoals matching en review) toe als vierde categorie. 📖  
 > > *Bron: ISA 315 (herzien 2019), Bijlage 3 — Beheersingsactiviteitencomponent*
 
 <a id="2013-2-vr12"></a>
@@ -340,11 +340,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**Preventief**. Functiescheiding voorkomt dat één persoon een onregelmatigheid kan plegen én verhullen. 🔗_**
+> > **Preventief**. Functiescheiding voorkomt dat één persoon een onregelmatigheid kan plegen én verhullen. 🔗
 > > 
 > > ISA 315 (Bijlage 3) omschrijft functiescheiding expliciet als een **preventieve** maatregel: "bedoeld om beperkingen aan te brengen in de mogelijkheden voor wie dan ook om bij de uitoefening van zijn normale taken fouten te maken en te verhullen of fraude te plegen en te verhullen". 📖 Voorkomen, niet detecteren of corrigeren. 📖
 > > 
-> > *ISA 315 (herzien 2019), Bijlage 3 — functiescheiding als preventieve beheersingsmaatregel binnen het systeem van interne beheersing. 📖*  
+> > ISA 315 (herzien 2019), Bijlage 3 — functiescheiding als preventieve beheersingsmaatregel binnen het systeem van interne beheersing. 📖  
 > > *Bron: ISA 315 (herzien 2019), Bijlage 3*
 >
 > **Periodieke inventarisaties: preventief, repressief of corrigerend?**
@@ -357,11 +357,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Repressief** (detecterend). Een periodieke inventarisatie stelt verschillen tussen werkelijke en geboekte voorraad/kas *achteraf* vast. 🔗_**
+> > **Repressief** (detecterend). Een periodieke inventarisatie stelt verschillen tussen werkelijke en geboekte voorraad/kas *achteraf* vast. 🔗
 > > 
 > > Repressieve = detecterende maatregel: opspeuren van fouten of onregelmatigheden *nadat* ze gebeurd zijn. Een telling van fysieke voorraad of kassaldo vergelijkt de werkelijkheid met de boekhouding — dat is per definitie detecterend, niet preventief. 🤖 De correctieboeking die erop volgt is wel corrigerend, maar de inventarisatie zelf is repressief. 🤖
 > > 
-> > *Klassieke driedeling in interne-controle-doctrine (preventief / repressief-detecterend / corrigerend). ISA 315 (herzien 2019), Bijlage 3 hanteert de termen preventief en detecterend als de twee primaire categorieën van interne beheersingsmaatregelen. 🔗*  
+> > Klassieke driedeling in interne-controle-doctrine (preventief / repressief-detecterend / corrigerend). ISA 315 (herzien 2019), Bijlage 3 hanteert de termen preventief en detecterend als de twee primaire categorieën van interne beheersingsmaatregelen. 🔗  
 > > *Bron: ISA 315 (herzien 2019), Bijlage 3*
 >
 > **Tussentijdse confirmaties: preventief, repressief of corrigerend?**
@@ -374,11 +374,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Repressief** (detecterend). Een confirmatie verifieert *achteraf* een bestaand saldo of een bestaande transactie bij een derde. 🔗_**
+> > **Repressief** (detecterend). Een confirmatie verifieert *achteraf* een bestaand saldo of een bestaande transactie bij een derde. 🔗
 > > 
 > > Tussentijdse confirmaties (bv. saldobevestiging van klanten, leveranciers of banken) bevestigen de juistheid van reeds geboekte posities. Ze voorkomen niets; ze detecteren afwijkingen tussen wat geboekt staat en wat de derde rapporteert. 🤖
 > > 
-> > *Confirmaties zijn een klassieke detecterende werkwijze (vgl. ISA 505 *Externe confirmaties* — toetsing van bestaan en juistheid). De interne-controle-classificatie van die werkwijze is bijgevolg repressief/detecterend. 🔗*  
+> > Confirmaties zijn een klassieke detecterende werkwijze (vgl. ISA 505 *Externe confirmaties* — toetsing van bestaan en juistheid). De interne-controle-classificatie van die werkwijze is bijgevolg repressief/detecterend. 🔗  
 > > *Bron: ISA 505 (externe confirmaties) — classificatie repressief*
 >
 > **ICT beveiligingen: preventief, repressief of corrigerend?**
@@ -391,11 +391,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**Preventief**. ICT-beveiligingen (toegangsrechten, wachtwoorden, autorisatieprofielen, firewalls) verhinderen ongeautoriseerde acties *vooraf*. 🔗_**
+> > **Preventief**. ICT-beveiligingen (toegangsrechten, wachtwoorden, autorisatieprofielen, firewalls) verhinderen ongeautoriseerde acties *vooraf*. 🔗
 > > 
 > > Logische toegangsbeperkingen en rolgebaseerde autorisaties (RBAC) zijn typische *access controls*: ze sluiten een transactie of mutatie uit vóór ze gebeurt. ISA 315 noemt geautomatiseerde toegangsbeheersingen als preventieve maatregelen binnen het informatiesysteem. 🔗 Log-review of intrusion-detection zou repressief zijn — die werd hier niet bedoeld. 🔗
 > > 
-> > *ISA 315 (herzien 2019), Bijlage 3 — geautomatiseerde beheersingsmaatregelen (toegangscontrole, applicatiecontroles) zijn primair preventief van aard. 🔗*  
+> > ISA 315 (herzien 2019), Bijlage 3 — geautomatiseerde beheersingsmaatregelen (toegangscontrole, applicatiecontroles) zijn primair preventief van aard. 🔗  
 > > *Bron: ISA 315 (herzien 2019), Bijlage 3*
 >
 > **Handtekeningsbevoegdheid: preventief, repressief of corrigerend?**
@@ -408,11 +408,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**Preventief**. Het reglement van handtekeningsbevoegdheid bepaalt *vooraf* wie welke transactie mag autoriseren. 🔗_**
+> > **Preventief**. Het reglement van handtekeningsbevoegdheid bepaalt *vooraf* wie welke transactie mag autoriseren. 🔗
 > > 
 > > Autorisatie is een tekstboek-preventieve maatregel: de transactie wordt enkel verwerkt wanneer een bevoegde handtekening aanwezig is. Zonder die handtekening vindt de uitgave/het contract niet plaats. 🔗 ISA 315 schaart "autorisaties en goedkeuringen" expliciet onder preventieve maatregelen. 🔗
 > > 
-> > *ISA 315 (herzien 2019), Bijlage 3 — autorisaties en handtekeningsbevoegdheden behoren tot de preventieve beheersingsactiviteiten. 🔗*  
+> > ISA 315 (herzien 2019), Bijlage 3 — autorisaties en handtekeningsbevoegdheden behoren tot de preventieve beheersingsactiviteiten. 🔗  
 > > *Bron: ISA 315 (herzien 2019), Bijlage 3*
 >
 > **Cijferbeoordeling: controle op brutomarges, controle op toegestane korting: preventief, repressief of corrigerend?**
@@ -425,13 +425,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Repressief** (detecterend). Cijferbeoordeling — toetsen van brutomarges en toegekende kortingen — detecteert afwijkingen *achteraf* in geboekte cijfers. 🔗_**
+> > **Repressief** (detecterend). Cijferbeoordeling — toetsen van brutomarges en toegekende kortingen — detecteert afwijkingen *achteraf* in geboekte cijfers. 🔗
 > > 
 > > Analytische review (ratio's, margevergelijking, trendanalyse) wordt uitgevoerd op reeds geregistreerde transacties om onverwachte afwijkingen op te sporen — bv. ongebruikelijk lage brutomarge die op niet-geboekte verkopen of te hoge kortingen kan wijzen. Dat is per definitie een detecterende = repressieve controle. 🤖
 > > 
 > > Analytische procedures worden door de externe auditor gebruikt als *substantive analytical procedures* (ISA 520). Maar als interne-beheersingsmaatregel binnen de organisatie zélf zijn ze repressief: ze detecteren, ze voorkomen niet. 🔗
 > > 
-> > *Klassieke interne-controle-doctrine; vgl. ISA 315 (herzien 2019), Bijlage 3 over detecterende monitoringactiviteiten en cijferanalyse. 🔗*  
+> > Klassieke interne-controle-doctrine; vgl. ISA 315 (herzien 2019), Bijlage 3 over detecterende monitoringactiviteiten en cijferanalyse. 🔗  
 > > *Bron: ISA 315 (herzien 2019), Bijlage 3; ISA 520*
 >
 > **Solvabiliteitsonderzoek bij klantenacceptatie: preventief, repressief of corrigerend?**
@@ -444,11 +444,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**Preventief**. Een solvabiliteitsonderzoek *vóór* klantenacceptatie voorkomt dat verkopen op krediet worden afgesloten met een wanbetaler. 🔗_**
+> > **Preventief**. Een solvabiliteitsonderzoek *vóór* klantenacceptatie voorkomt dat verkopen op krediet worden afgesloten met een wanbetaler. 🔗
 > > 
 > > De maatregel grijpt in vóór de transactie: het krediet wordt geweigerd of beperkt op basis van een credit-check (bv. Graydon-rapport, balansanalyse, betalingsgedrag). Het voorkomt het ontstaan van een dubieuze vordering, in plaats van die achteraf te detecteren of te corrigeren. 🤖
 > > 
-> > *Klantenacceptatie-procedure als preventieve interne beheersing binnen de verkoopcyclus; vgl. ISA 315 (herzien 2019), Bijlage 3 over autorisatie- en acceptatiecontroles. 🔗*  
+> > Klantenacceptatie-procedure als preventieve interne beheersing binnen de verkoopcyclus; vgl. ISA 315 (herzien 2019), Bijlage 3 over autorisatie- en acceptatiecontroles. 🔗  
 > > *Bron: ISA 315 (herzien 2019), Bijlage 3*
 
 <a id="2013-1-vr8"></a>
@@ -471,7 +471,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > COSO-2013 en het ITAA KMO-controlekader (ISA 315-conform) groeperen deze doelstellingen onder **drie** categorieën — *reporting*, *operations*, *compliance* — waarbij "bescherming van activa" wordt beschouwd als onderdeel van *operations*. De klassieke Belgische examen-doctrine (en oudere doctrine zoals B. Theunissen, IBR-cursus interne controle) hanteert nog steeds de vier-deling met activa-bescherming als afzonderlijke pijler, omdat dit historisch het accountantsperspectief op activabeheer benadrukt. Beide indelingen worden in examens aanvaard; de vier-deling is hier expliciet gevraagd. 🤖
 > > 
-> > *ITAA KMO-controlenorm — *Bijlage 1 Definities*: "Interne beheersing: het proces dat is opgezet, wordt geïmplementeerd en gesuperviseerd door het toezichthoudend orgaan, het management, de met governance belaste personen en andere personeelsleden met als doel een redelijke mate van zekerheid te verschaffen dat de doelstellingen [...] met betrekking tot de betrouwbaarheid van de financiële verslaggeving, de effectiviteit en efficiëntie van de uitoefening van de activiteiten alsmede het naleven van de van toepassing zijnde wet- en regelgeving worden bereikt." De bescherming-van-activa-pijler vloeit voort uit de oudere COSO-1992 / IBR-doctrine en wordt in Belgische accountancy-handboeken consistent als vierde doelstelling vermeld. 📖*  
+> > ITAA KMO-controlenorm — *Bijlage 1 Definities*: "Interne beheersing: het proces dat is opgezet, wordt geïmplementeerd en gesuperviseerd door het toezichthoudend orgaan, het management, de met governance belaste personen en andere personeelsleden met als doel een redelijke mate van zekerheid te verschaffen dat de doelstellingen [...] met betrekking tot de betrouwbaarheid van de financiële verslaggeving, de effectiviteit en efficiëntie van de uitoefening van de activiteiten alsmede het naleven van de van toepassing zijnde wet- en regelgeving worden bereikt." De bescherming-van-activa-pijler vloeit voort uit de oudere COSO-1992 / IBR-doctrine en wordt in Belgische accountancy-handboeken consistent als vierde doelstelling vermeld. 📖  
 > > *Bron: ITAA KMO-controlenorm, Bijlage 1 (definitie interne beheersing); ISA 315 (herzien-2019), §12(m) en bijlage 3*
 
 <a id="2013-1-vr10"></a>
@@ -485,7 +485,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Vergelijking van de gerealiseerde brutomarge per verkochte werfkraan met de begrote/historische brutomarge** — de interne controleafdeling neemt de tussentijdse verkoopcijfers, deelt door het aantal verkochte kranen en confronteert het resultaat met budget, vorige periode en/of voorraadbeweging; significante afwijkingen worden onderzocht. 🔗_**
+> > **Vergelijking van de gerealiseerde brutomarge per verkochte werfkraan met de begrote/historische brutomarge** — de interne controleafdeling neemt de tussentijdse verkoopcijfers, deelt door het aantal verkochte kranen en confronteert het resultaat met budget, vorige periode en/of voorraadbeweging; significante afwijkingen worden onderzocht. 🔗
 > > 
 > > Een analytische test (cijferanalyse) onderzoekt **plausibele relaties** tussen financiële en niet-financiële gegevens en signaleert fluctuaties die afwijken van de verwachte waarden. 📖 Concreet voor werfkranen-handel kan de interne controleafdeling op tussentijdse resultaten bijvoorbeeld:
 > > 
@@ -498,7 +498,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Eén voorbeeld volstaat — de vraag vraagt niet om een uitputtende lijst. Kies een voorbeeld dat de **drie kenmerken van een analytische test** zichtbaar maakt: (1) een berekende verhouding of vergelijking, (2) een verwachte waarde (budget, vorig jaar, branche, niet-financiële driver) en (3) een opvolgingsactie bij afwijking. Een loutere "omzet kijken" zonder benchmark is géén analytische test maar een gewone inzage. 🔗
 > > 
-> > *ISA 520 *Cijferanalyses* §4 + §A1-A2: cijferanalyse = evaluatie van financiële informatie door analyse van plausibele relaties — vergelijking met voorgaande periodes, budgetten/prognoses, branche-informatie, of verbanden zoals brutomargepercentages of loonkosten per werknemer. 📖 ISA 330 §A57 e.v. behandelt gegevensgerichte controles (incl. cijferanalyses) uitgevoerd op een **tussentijdse datum** vóór einddatum verslagperiode. 📖*  
+> > ISA 520 *Cijferanalyses* §4 + §A1-A2: cijferanalyse = evaluatie van financiële informatie door analyse van plausibele relaties — vergelijking met voorgaande periodes, budgetten/prognoses, branche-informatie, of verbanden zoals brutomargepercentages of loonkosten per werknemer. 📖 ISA 330 §A57 e.v. behandelt gegevensgerichte controles (incl. cijferanalyses) uitgevoerd op een **tussentijdse datum** vóór einddatum verslagperiode. 📖  
 > > *Bron: ISA 520 §4 en §A1-A3; ISA 330 §A55-A60*
 
 <a id="2013-1-vr11"></a>
@@ -510,7 +510,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Een budget voor de interne controleafdeling is het sturings- en onafhankelijkheidsinstrument van de functie: het verankert vooraf de **middelen** (mensen, dagen, opleiding, tooling) die nodig zijn om het risicogebaseerd auditplan te realiseren, het maakt de functie **planbaar en afrekenbaar** ten aanzien van het auditcomite/bestuur, en het beschermt haar **operationele onafhankelijkheid** doordat resources niet ad hoc door het uitvoerend management kunnen worden teruggeschroefd. 🔗_**
+> > Een budget voor de interne controleafdeling is het sturings- en onafhankelijkheidsinstrument van de functie: het verankert vooraf de **middelen** (mensen, dagen, opleiding, tooling) die nodig zijn om het risicogebaseerd auditplan te realiseren, het maakt de functie **planbaar en afrekenbaar** ten aanzien van het auditcomite/bestuur, en het beschermt haar **operationele onafhankelijkheid** doordat resources niet ad hoc door het uitvoerend management kunnen worden teruggeschroefd. 🔗
 > > 
 > > **Vier functies van het budget**:
 > > 
@@ -521,7 +521,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De interne controleafdeling (interne auditfunctie) is **geen wettelijk verplicht orgaan** in de Belgische vennootschap — behalve voor genoteerde, krediet- en verzekeringsinstellingen (sectorale regelgeving). Waar ze bestaat, hoort ze functioneel te rapporteren aan het auditcomite of de raad van bestuur, niet aan het uitvoerend management. Het budget volgt diezelfde governance-lijn: goedkeuring door auditcomite, niet door de CFO alleen — anders ondergraaft het de onafhankelijkheid. 🤖
 > > 
-> > *Het belang van toereikende middelen voor de interne auditfunctie is geen Belgische wettekst-bepaling maar volgt uit de auditing-doctrine: **ISA 610 (herzien)** vereist dat de externe auditor evalueert of de interne auditfunctie beschikt over voldoende middelen en niet aan beperkingen onderhevig is om haar werkzaamheden uit te voeren — een werkbaar budget is daarvan de operationele uitdrukking. Onderliggend referentiekader: **IIA International Professional Practices Framework** (Standards 2020 *Planning* en 2030 *Resource Management*: de chief audit executive moet de toereikendheid van middelen aan bestuur en management rapporteren). 🔗*  
+> > Het belang van toereikende middelen voor de interne auditfunctie is geen Belgische wettekst-bepaling maar volgt uit de auditing-doctrine: **ISA 610 (herzien)** vereist dat de externe auditor evalueert of de interne auditfunctie beschikt over voldoende middelen en niet aan beperkingen onderhevig is om haar werkzaamheden uit te voeren — een werkbaar budget is daarvan de operationele uitdrukking. Onderliggend referentiekader: **IIA International Professional Practices Framework** (Standards 2020 *Planning* en 2030 *Resource Management*: de chief audit executive moet de toereikendheid van middelen aan bestuur en management rapporteren). 🔗  
 > > *Bron: ISA 610 (herzien) — Gebruikmaken van de werkzaamheden van interne auditors; IIA IPPF Standards 2020/2030*
 
 <a id="2013-1-vr12"></a>
@@ -533,7 +533,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Omdat de boekhouding alleen bevestigt wat de onderneming **zelf** heeft geregistreerd. Een schriftelijke confirmatie bij de leverancier is een **onafhankelijke, externe** controle-informatiebron die toelaat de **volledigheid** van de geboekte schulden te toetsen — d.w.z. of er geen facturen, vervallen verplichtingen of geschillen ontbreken in de boeken. 🔗_**
+> > Omdat de boekhouding alleen bevestigt wat de onderneming **zelf** heeft geregistreerd. Een schriftelijke confirmatie bij de leverancier is een **onafhankelijke, externe** controle-informatiebron die toelaat de **volledigheid** van de geboekte schulden te toetsen — d.w.z. of er geen facturen, vervallen verplichtingen of geschillen ontbreken in de boeken. 🔗
 > > 
 > > Concrete redenen waarom de boekhouding alléén onvoldoende waarborg biedt en confirmatie nodig is:
 > > 
@@ -545,7 +545,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Bij **leveranciers** geldt — anders dan bij klantenconfirmaties — vaak de voorkeur voor een **blanco (positieve) confirmatie**: men vraagt de leverancier het volledige openstaande saldo en de detailposten op te geven, zonder een bedrag voor te stellen. Reden: het volledigheidsrisico kan men niet afdekken door de leverancier enkel een door de entiteit zelf opgegeven saldo te laten bevestigen — dan zou een ontbrekende factuur onzichtbaar blijven. 🔗
 > > 
-> > *ISA 505 *Externe bevestigingen* — externe bevestiging is controle-informatie verkregen als rechtstreeks schriftelijk antwoord van een derde partij aan de auditor; de auditor (resp. de interne controleafdeling) beheerst zelf het verzoek, de selectie van de bevestigende partij en de ontvangst. 📖 ISA 500 §A5 — controle-informatie is overtuigender wanneer ze uit onafhankelijke bronnen buiten de entiteit wordt verkregen. 📖 Werkzaamheden inzake externe bevestiging zijn bij uitstek relevant voor beweringen omtrent rekeningssaldi (volledigheid, bestaan, waardering) zoals leveranciersschulden. 📖*  
+> > ISA 505 *Externe bevestigingen* — externe bevestiging is controle-informatie verkregen als rechtstreeks schriftelijk antwoord van een derde partij aan de auditor; de auditor (resp. de interne controleafdeling) beheerst zelf het verzoek, de selectie van de bevestigende partij en de ontvangst. 📖 ISA 500 §A5 — controle-informatie is overtuigender wanneer ze uit onafhankelijke bronnen buiten de entiteit wordt verkregen. 📖 Werkzaamheden inzake externe bevestiging zijn bij uitstek relevant voor beweringen omtrent rekeningssaldi (volledigheid, bestaan, waardering) zoals leveranciersschulden. 📖  
 > > *Bron: ISA 505 §§5-7 + ISA 500 §A5*
 
 <a id="2013-1-vr13"></a>
@@ -571,7 +571,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Rode draad: de boekhouder combineert in zijn eentje **registratie van vorderingen/schulden**, **behandeling van ontvangsten/cheques** en **autorisatie van creditnota's en onkostennota's** — een gebrek aan **functiescheiding** (ISA 315 Bijlage 3) dat **asset misappropriation** mogelijk maakt en verhult. Voor elke vaststelling geldt eenzelfde mitigatie-logica: scheiden van de drie onverenigbare functies (autoriseren · registreren · bewaren), dual control op uitgaande geldstromen, en onafhankelijke afstemmingen. 🔗_**
+> > Rode draad: de boekhouder combineert in zijn eentje **registratie van vorderingen/schulden**, **behandeling van ontvangsten/cheques** en **autorisatie van creditnota's en onkostennota's** — een gebrek aan **functiescheiding** (ISA 315 Bijlage 3) dat **asset misappropriation** mogelijk maakt en verhult. Voor elke vaststelling geldt eenzelfde mitigatie-logica: scheiden van de drie onverenigbare functies (autoriseren · registreren · bewaren), dual control op uitgaande geldstromen, en onafhankelijke afstemmingen. 🔗
 > > 
 > > | # | Vaststelling | Probleem (controle-zwakte) | Maatregelen |
 > > |---|---|---|---|
@@ -585,9 +585,9 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Bij **kleine ondernemingen** (zoals NV SLA-BAK) is volledige functiescheiding vaak niet kosten-effectief — ISA 315 Bijlage 3 erkent dit uitdrukkelijk. Het antwoord moet dus realistisch zijn: waar scheiding niet haalbaar is, moet het **management compenserende detective controls** inrichten (bedrijfsleider tekent zelf bankuittreksels af, externe accountant doet periodieke saldobevestigingen, vier-ogen op uitgaande betalingen). De zwakte hier is niet dat de boekhouder veel taken combineerde — wél dat **geen enkele compenserende controle** door de bedrijfsleider werd uitgeoefend. 🔗
 > > 
-> > ***ISA 315 (herzien 2019), Bijlage 3** — Functiescheiding scheidt drie verantwoordelijkheden: **autoriseren van transacties · vastleggen van transacties · bewaren van activa**, en is bedoeld om fouten en fraude te beperken én te helpen detecteren. Bij kleine entiteiten waar scheiding niet haalbaar is, moet het management **alternatieve (detective) interne beheersingsmaatregelen** instellen. 📖
+> > **ISA 315 (herzien 2019), Bijlage 3** — Functiescheiding scheidt drie verantwoordelijkheden: **autoriseren van transacties · vastleggen van transacties · bewaren van activa**, en is bedoeld om fouten en fraude te beperken én te helpen detecteren. Bij kleine entiteiten waar scheiding niet haalbaar is, moet het management **alternatieve (detective) interne beheersingsmaatregelen** instellen. 📖
 > > 
 > > **ISA 240** — De auditor handhaaft een **professioneel-kritische instelling** ten aanzien van frauderisico's; Bijlage 2 geeft voorbeelden van controlewerkzaamheden voor risico op **oneigenlijke toe-eigening van activa** (klantbevestigingen, onaangekondigde kasopnames, analyse van creditnota's en niet-routinetransacties). 📖
 > > 
-> > **CBN-advies 4/4** — Creditnota's volgen het beginsel van het dubbel boekhouden en moeten dezelfde boekingswijze hebben in dagboek én rekeningen; afwijkingen verhullen mutaties en breken de auditspoor — relevant voor vaststelling 3. 📖*  
+> > **CBN-advies 4/4** — Creditnota's volgen het beginsel van het dubbel boekhouden en moeten dezelfde boekingswijze hebben in dagboek én rekeningen; afwijkingen verhullen mutaties en breken de auditspoor — relevant voor vaststelling 3. 📖  
 > > *Bron: ISA 315 Bijlage 3 · ISA 240 · CBN-advies 4/4*

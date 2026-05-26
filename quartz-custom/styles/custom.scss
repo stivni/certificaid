@@ -160,3 +160,253 @@ article table {
     }
   }
 }
+// ---------------------------------------------------------------------------
+// Voorbeeldexamen-vragen: question-callout als "1-lijnige" klikbare titel.
+// ADR-032 §6: top-level question-callouts hebben geen frame, geen achtergrond,
+// geen border (links of rechts). Visueel: gewoon een klikbare titel-regel met
+// vraagteken-icon en chevron. Bij expand verschijnt de content met aparte
+// inside-styling (compact, kleinere font). Geneste success-callouts (model-
+// antwoorden) behouden hun standaard prominent visual.
+// ---------------------------------------------------------------------------
+
+.callout[data-callout="question"]:not(.callout .callout),
+.callout[data-callout="topic"]:not(.callout .callout) {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0.5rem 0 0;
+
+  & > .callout-title {
+    padding: 0.35rem 0;
+    font-size: 0.98rem;
+    line-height: 1.35;
+    align-items: center;  // override Quartz default `flex-start`
+
+    .callout-icon {
+      width: 16px;
+      height: 16px;
+      min-width: 16px;
+    }
+  }
+}
+
+// Topic-callout: visueel "incomplete vraag" (alleen onderwerp, geen
+// vraagstelling). Grijzer dan question-callout zodat de student meteen
+// ziet dat hier geen modelantwoord-werk is. Gebruik in `_render_vraag_eenheid`
+// wanneer alle deelvragen `volledigheid: topic_only` hebben.
+//
+// `--color` override is cruciaal: Quartz default voor onbekende callout-
+// types is BLAUW (#448aff). Met `--color: var(--gray)` wordt de title-tekst
+// + icon-color daadwerkelijk grijs.
+.callout[data-callout="topic"]:not(.callout .callout) {
+  --color: var(--gray);
+  --border: transparent;
+  --bg: transparent;
+
+  > .callout-title {
+    color: var(--gray);
+
+    .callout-icon {
+      opacity: 0.6;
+    }
+  }
+}
+
+// Spacing tussen topic-callouts onderling én tussen topic en question.
+.callout[data-callout="topic"]:not(.callout .callout)
+  + .callout[data-callout="question"]:not(.callout .callout),
+.callout[data-callout="question"]:not(.callout .callout)
+  + .callout[data-callout="topic"]:not(.callout .callout),
+.callout[data-callout="topic"]:not(.callout .callout)
+  + .callout[data-callout="topic"]:not(.callout .callout) {
+  margin-top: 1.5rem;
+}
+
+// Extra ruimte tussen consecutive question-callouts — visuele scheiding
+// tussen losse vraag-eenheden.
+.callout[data-callout="question"]:not(.callout .callout)
+  + .callout[data-callout="question"]:not(.callout .callout) {
+  margin-top: 1.5rem;
+}
+
+// In collapsed state krijgt elke directe child van .callout-content `height: 0`
+// via Quartz, maar borders + background van inner callouts (success, warning)
+// blijven zichtbaar als dunne strepen (border-top + border-bottom op 0-hoog
+// element = 2px gekleurde lijn). Forceer ze invisible in collapsed state.
+.callout[data-callout="question"]:not(.callout .callout).is-collapsed
+  > .callout-content > .callout {
+  border: none;
+  background-color: transparent;
+}
+
+// Inline badge "Juist of fout?" vóór juist_fout-stellingen. Markeert de
+// stelling als "te-beoordelen". Stijl matcht MC-letter-badges hierboven
+// (zelfde background, color, font-weight, radius) voor visuele coherentie.
+.jf-badge {
+  display: inline-block;
+  padding: 0.05rem 0.55rem;
+  margin-right: 0.55rem;
+  background-color: var(--highlight);
+  color: var(--darkgray);
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+// `:not(.is-collapsed)` is cruciaal: anders overrulen onze margin/font-size
+// regels de Quartz `is-collapsed { height: 0; margin: 0; padding: 0; }` regel
+// (onze selector heeft hogere specificity), waardoor collapsed callouts toch
+// een stuk content-hoogte behouden.
+.callout[data-callout="question"]:not(.callout .callout):not(.is-collapsed) > .callout-content {
+  font-size: 0.9rem;
+  line-height: 1.45;
+
+  // Compactere interne afstanden: vraag-onderdelen (context, vraagstelling,
+  // opties, antwoord-callout) horen visueel als één eenheid samen.
+  > * {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+
+  > :first-child {
+    margin-top: 0.2rem;
+  }
+
+  // Herkomst-regel (italic paragraph net na de titel) als visuele blockquote:
+  // border-left + grijs + kleiner. Markeert duidelijk waar de meta-info eindigt
+  // en de eigenlijke vraag begint.
+  > p:first-child > em:only-child,
+  > p:first-of-type > em:only-child {
+    display: inline-block;
+    padding: 0.05rem 0 0.05rem 0.55rem;
+    border-left: 2px solid var(--lightgray);
+    font-size: 0.8rem;
+    color: var(--gray);
+    font-style: normal;
+  }
+
+  // J/F-stelling-paragraaf: badge inline aan begin met hanging-indent op
+  // multi-line tekst. CSS Grid maakt badge kolom 1 (auto), stelling-tekst
+  // kolom 2 (1fr). Effect: stelling-tekst wraps onder zichzelf, niet onder
+  // de badge — visueel zoals een MC-optie.
+  > p:has(> .jf-badge:first-child) {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.55rem;
+    align-items: baseline;
+  }
+
+  // MC-opties (direct child ul van de vraag-content): bullet weg, letter
+  // (a/b/c/d) als badge-chip met hanging-indent op multi-line tekst.
+  // Hanging-indent via CSS Grid: badge in kolom 1, tekst in kolom 2.
+  // `display: contents` op de p (die markdown om list-item content wraps)
+  // unwrapped zijn children zodat strong en text-node direct grid-items
+  // worden. Scope: `> ul` zodat bullet-lijsten binnen antwoord-callouts
+  // (diepere nesting) hun normale lijst-stijl houden.
+  > ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0.5rem 0;
+
+    > li {
+      display: grid;
+      grid-template-columns: max-content 1fr;
+      column-gap: 0.55rem;
+      align-items: baseline;
+      margin: 0.3rem 0;
+      line-height: 1.5;
+
+      > p:first-child {
+        display: contents;
+      }
+
+      > p:first-child > strong:first-child,
+      > strong:first-child {
+        align-self: baseline;
+        min-width: 1.4rem;
+        padding: 0.05rem 0.45rem;
+        background-color: var(--highlight);
+        border-radius: 4px;
+        font-size: 0.85rem;
+        font-weight: 600;
+        text-align: center;
+        color: var(--darkgray);
+      }
+    }
+  }
+
+  // Andere lijsten (genummerd, geneste bullets, etc.) krijgen alleen compactere spacing.
+  > ol {
+    margin: 0.35rem 0;
+    padding-left: 1.4rem;
+
+    > li {
+      margin: 0.15rem 0;
+    }
+  }
+
+  // Geneste antwoord-callout (success) — strak tegen de vraag aan plakken
+  // (dichter erbij dan andere paragrafen) zodat vraag + antwoord visueel
+  // één eenheid vormen. Titel-bar is even compact als een jf-badge: zelfde
+  // padding, font-size en icon-grootte — maakt het visueel een "knop in
+  // dezelfde familie" als de stelling-badge.
+  // Antwoord-callout: full-width box met compacte titel-bar. Light-green
+  // tint behouden voor antwoord-affordance, chevron rechts voor klik-hint.
+  // Belangrijk: bottom-padding op title is 0 + content padding 0 wanneer
+  // collapsed, anders blijft er een groene oppervlakte onderaan zichtbaar
+  // (Quartz' `is-collapsed > * { padding: 0 }` werkt alleen op direct kinderen,
+  // niet op de callout-content zelf).
+  > .callout[data-callout="success"] {
+    margin: 0.35rem 0 0;
+    font-size: 0.85rem;
+    border-radius: 4px;
+    padding: 0;
+
+    > .callout-title {
+      padding: 0.15rem 0.6rem;
+      font-size: 0.85rem;
+      font-weight: 600;
+      gap: 0.4rem;
+      align-items: center;
+      min-height: auto;
+
+      .callout-icon {
+        width: 14px;
+        height: 14px;
+        min-width: 14px;
+      }
+
+      .fold-callout-icon {
+        width: 14px;
+        height: 14px;
+      }
+    }
+
+    > .callout-content {
+      padding: 0;
+    }
+
+    // Geen "groene strip" onderaan in collapsed state — Quartz' grid-collapse
+    // verbergt content-kinderen maar laat de content-wrapper-padding staan.
+    &.is-collapsed > .callout-content {
+      padding: 0;
+    }
+
+    // Wanneer expanded: lichte padding voor de antwoord-inhoud zelf.
+    &:not(.is-collapsed) > .callout-content {
+      padding: 0.35rem 0.6rem 0.5rem;
+    }
+  }
+
+  // Ruimte tussen consecutive deelvragen: de paragraaf direct na een
+  // antwoord-callout pill is de start van de volgende deelvraag (typically
+  // met een jf-badge). Adjacent-sibling werkt nog steeds op inline-block
+  // (CSS-selector geldt op DOM-niveau, niet op visual layout).
+  > .callout[data-callout="success"] + p {
+    margin-top: 1.25rem;
+  }
+}
+

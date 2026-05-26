@@ -21,7 +21,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST.** Op de toekenning aan de meewerkend echtgenoot in het ministatuut is, bij gebrek aan bewijzen van werkelijke kosten, een forfaitaire kostenaftrek van **5%** van toepassing (art. 51, tweede lid, 3° WIB92). 📖_**
+> > **JUIST.** Op de toekenning aan de meewerkend echtgenoot in het ministatuut is, bij gebrek aan bewijzen van werkelijke kosten, een forfaitaire kostenaftrek van **5%** van toepassing (art. 51, tweede lid, 3° WIB92). 📖
 > > 
 > > De redenering loopt in twee stappen:
 > > 
@@ -30,7 +30,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet verwarren met het **maxistatuut**: de meewerkend echtgenoot die wél volwaardig is aangesloten bij het sociaal statuut van zelfstandigen (sinds 1 juli 2005 verplicht voor wie na 1956 geboren is) ontvangt nog steeds bezoldigingen van meewerkende echtgenoot in de zin van art. 30, 3° / 33 WIB92 — en geniet **dezelfde 5%-forfait** van art. 51, 3°. Het onderscheid mini/maxi speelt op sociaalrechtelijk vlak (sociale bijdragen, rechten), niet op het fiscale kostenforfait. 🔗 Verwar het 5%-forfait evenmin met de 3%-forfait voor bedrijfsleiders (art. 51, 2°) of de 30%-forfait voor werknemers (art. 51, 1°). 📖
 > > 
-> > *Art. 51, tweede lid, 3° WIB92: "voor bezoldigingen van meewerkende echtgenoten: 5 pct." Art. 33 WIB92 omschrijft die bezoldigingen als toekenningen aan de echtgenoot die geen eigen sociaal statuut heeft (ministatuut). Art. 86 WIB92 regelt de toekenning zelf (max. 30% van de inkomsten). 📖*  
+> > Art. 51, tweede lid, 3° WIB92: "voor bezoldigingen van meewerkende echtgenoten: 5 pct." Art. 33 WIB92 omschrijft die bezoldigingen als toekenningen aan de echtgenoot die geen eigen sociaal statuut heeft (ministatuut). Art. 86 WIB92 regelt de toekenning zelf (max. 30% van de inkomsten). 📖  
 > > *Bron: Art. 51, tweede lid, 3° WIB92; art. 33 WIB92; art. 86 WIB92*
 
 <a id="2024-1-vr5B"></a>
@@ -44,7 +44,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Proportionele vermindering (kwijtschelding) van de onroerende voorheffing pro rata 6/12** wegens onvrijwillige improductiviteit door overmacht (overstroming). De belastingplichtige moet de vermindering **uitdrukkelijk aanvragen** bij de bevoegde belastingdienst (Vlaanderen: Vlabel; Wallonië/Brussel: federale ontvanger). 🔗_**
+> > **Proportionele vermindering (kwijtschelding) van de onroerende voorheffing pro rata 6/12** wegens onvrijwillige improductiviteit door overmacht (overstroming). De belastingplichtige moet de vermindering **uitdrukkelijk aanvragen** bij de bevoegde belastingdienst (Vlaanderen: Vlabel; Wallonië/Brussel: federale ontvanger). 🔗
 > > 
 > > De casus voldoet aan de drie cumulatieve voorwaarden van art. 15 §1, 1° WIB 92 voor proportionele vermindering van het kadastraal inkomen — en dus, via art. 257, 3° WIB 92 (of art. 2.1.5.0.2 §1, 3° VCF in het Vlaamse Gewest), van de onroerende voorheffing:
 > > 
@@ -58,7 +58,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De onroerende voorheffing is een **gewestelijke** belasting (sinds 2002, volledig geregionaliseerd). In het **Vlaamse Gewest** verwijst de VCF (art. 2.1.5.0.2 §1, 3°) uitdrukkelijk terug naar art. 15 WIB 92 voor de inhoudelijke voorwaarden — de federale regel blijft dus materieel bepalend. In **Wallonië** en **Brussel** blijft het federale WIB 92 (art. 257-259) rechtstreeks van toepassing. 🔗
 > > 
-> > ***Art. 15 §1, 1° WIB 92** — proportionele vermindering KI bij niet-gemeubileerd gebouwd onroerend goed dat ≥ 90 dagen volstrekt niet in gebruik is en geen inkomsten heeft opgebracht. **Art. 257, 3° WIB 92** — kwijtschelding of proportionele vermindering van de OV in de gevallen van art. 15. **Art. 2.1.5.0.2 §1, 3° VCF** — Vlaamse evenknie, expliciete terugverwijzing naar art. 15 WIB 92. **Art. 369 WIB 92 / art. 3.5.3.0.3 VCF** — aanvraagprocedure via bezwaartermijn. 📖*  
+> > **Art. 15 §1, 1° WIB 92** — proportionele vermindering KI bij niet-gemeubileerd gebouwd onroerend goed dat ≥ 90 dagen volstrekt niet in gebruik is en geen inkomsten heeft opgebracht. **Art. 257, 3° WIB 92** — kwijtschelding of proportionele vermindering van de OV in de gevallen van art. 15. **Art. 2.1.5.0.2 §1, 3° VCF** — Vlaamse evenknie, expliciete terugverwijzing naar art. 15 WIB 92. **Art. 369 WIB 92 / art. 3.5.3.0.3 VCF** — aanvraagprocedure via bezwaartermijn. 📖  
 > > *Bron: Art. 15 §1, 1° WIB 92 ; Art. 257, 3° WIB 92 ; Art. 2.1.5.0.2 §1, 3° VCF ; Art. 369 WIB 92*
 
 <a id="2024-1-vr5C"></a>
@@ -85,7 +85,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Geef **niet** de volledige 12.000 € huurprijs aan als onroerend inkomen. Voor verhuur aan een privé-natuurlijke persoon (art. 7 § 1 2° a WIB92) blijft het belastbaar onroerend inkomen forfaitair bepaald op KI × 1,40 — de werkelijk ontvangen huurprijs speelt geen rol voor het onroerende luik. Alleen het **roerend** gedeelte van 40 % wordt als brutohuurprijs (van het meubilair) aangegeven; daarop kan vervolgens 50 % kostenforfait worden toegepast voor de netto-belastbare grondslag (art. 22 § 3 WIB92 + art. 3 KB/WIB92). 🔗
 > > 
-> > ***Art. 7 § 1 2° a WIB92** — voor een gebouwd onroerend goed dat verhuurd is aan een natuurlijk persoon die het niet voor beroep gebruikt, is het belastbaar onroerend inkomen het kadastraal inkomen verhoogd met 40 %. 📖  **Art. 8 WIB92** — afzonderlijke vaststelling in geregistreerde huurovereenkomst kan splitsen tussen beroeps- en privé-gedeelte (hier niet van toepassing — volledig privé). 📖  **Art. 17 § 1 3° WIB92** — inkomsten uit verhuring van roerende goederen (meubilair) zijn roerende inkomsten; bij gemeubeld verhuur zonder afzonderlijke prijsbepaling geldt het forfaitair vermoeden 60 / 40 (art. 4 KB/WIB92). 🔗  **Aangifte AJ 2025** — vak III code 1106 (gebouw verhuurd aan natuurlijk persoon, niet-beroep) voor het KI; vak VII.B code 1156 (verhuring van meubilair) voor het roerende gedeelte. 📖*  
+> > **Art. 7 § 1 2° a WIB92** — voor een gebouwd onroerend goed dat verhuurd is aan een natuurlijk persoon die het niet voor beroep gebruikt, is het belastbaar onroerend inkomen het kadastraal inkomen verhoogd met 40 %. 📖  **Art. 8 WIB92** — afzonderlijke vaststelling in geregistreerde huurovereenkomst kan splitsen tussen beroeps- en privé-gedeelte (hier niet van toepassing — volledig privé). 📖  **Art. 17 § 1 3° WIB92** — inkomsten uit verhuring van roerende goederen (meubilair) zijn roerende inkomsten; bij gemeubeld verhuur zonder afzonderlijke prijsbepaling geldt het forfaitair vermoeden 60 / 40 (art. 4 KB/WIB92). 🔗  **Aangifte AJ 2025** — vak III code 1106 (gebouw verhuurd aan natuurlijk persoon, niet-beroep) voor het KI; vak VII.B code 1156 (verhuring van meubilair) voor het roerende gedeelte. 📖  
 > > *Bron: Art. 7 § 1 2° a, art. 8, art. 17 § 1 3° WIB92; art. 4 KB/WIB92*
 
 <a id="2024-1-vr5D"></a>
@@ -97,7 +97,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Beroepsinkomsten die niet aan het progressief tarief (art. 130 WIB) worden belast, zijn die welke vallen onder de **afzonderlijke aanslagvoeten van art. 171 WIB 92** — hoofdzakelijk: **stopzettingsmeerwaarden** (10 % / 15 % / 16,5 % / 33 %), **opzeggings- en stopzettingsvergoedingen**, **achterstallen** van bezoldigingen, pensioenen of werkloosheidsuitkeringen door schuld van de overheid of bij rechterlijke betwisting, **vervroegd vakantiegeld**, en **kapitalen/afkoopwaarden van aanvullende pensioenen** (groepsverzekering, IPT, VAPZ) — telkens belast aan de gemiddelde aanslagvoet van het laatste vorige jaar met 12 maanden beroepsinkomsten, of aan een vast tarief (10 %, 16,5 %, 18 %, 20 % of 33 %) naargelang de aard. 🔗_**
+> > Beroepsinkomsten die niet aan het progressief tarief (art. 130 WIB) worden belast, zijn die welke vallen onder de **afzonderlijke aanslagvoeten van art. 171 WIB 92** — hoofdzakelijk: **stopzettingsmeerwaarden** (10 % / 15 % / 16,5 % / 33 %), **opzeggings- en stopzettingsvergoedingen**, **achterstallen** van bezoldigingen, pensioenen of werkloosheidsuitkeringen door schuld van de overheid of bij rechterlijke betwisting, **vervroegd vakantiegeld**, en **kapitalen/afkoopwaarden van aanvullende pensioenen** (groepsverzekering, IPT, VAPZ) — telkens belast aan de gemiddelde aanslagvoet van het laatste vorige jaar met 12 maanden beroepsinkomsten, of aan een vast tarief (10 %, 16,5 %, 18 %, 20 % of 33 %) naargelang de aard. 🔗
 > > 
 > > **Overzicht art. 171 WIB 92 — beroepsinkomsten aan afzonderlijk tarief**:
 > > 
@@ -118,5 +118,5 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil**: een **flexi-job-bezoldiging** boven het vrijstellingsplafond van art. 38, § 1, 29° WIB is **uitgesloten** van art. 171 (art. 171/1 WIB) — die wordt dus tegen het normale progressieve tarief belast, ondanks haar specifieke karakter. 📖
 > > 
-> > ***Art. 171 WIB 92** (Bijzondere stelsels van aanslag — Afzonderlijke aanslagen) somt limitatief op welke inkomsten aan afzonderlijke aanslagvoeten worden belast in plaats van aan het progressief tarief (art. 130). Voor beroepsinkomsten zijn dit voornamelijk: stopzettingsmeerwaarden (1° c, 4° b), kapitalen van aanvullende pensioenen (1° d, 2°quater, 4° f-g), opzeggings- en stopzettingsvergoedingen, achterstallen, vervroegd vakantiegeld en vergoedingen voor tijdelijke derving (5°, 6°). Uitzondering: flexi-jobs boven het vrijstellingsplafond (art. 171/1). Slotbepaling van art. 171: globalisatie geldt als ze gunstiger is. 📖*  
+> > **Art. 171 WIB 92** (Bijzondere stelsels van aanslag — Afzonderlijke aanslagen) somt limitatief op welke inkomsten aan afzonderlijke aanslagvoeten worden belast in plaats van aan het progressief tarief (art. 130). Voor beroepsinkomsten zijn dit voornamelijk: stopzettingsmeerwaarden (1° c, 4° b), kapitalen van aanvullende pensioenen (1° d, 2°quater, 4° f-g), opzeggings- en stopzettingsvergoedingen, achterstallen, vervroegd vakantiegeld en vergoedingen voor tijdelijke derving (5°, 6°). Uitzondering: flexi-jobs boven het vrijstellingsplafond (art. 171/1). Slotbepaling van art. 171: globalisatie geldt als ze gunstiger is. 📖  
 > > *Bron: Art. 130, 171 en 171/1 WIB 92*

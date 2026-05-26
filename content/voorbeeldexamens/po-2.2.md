@@ -12,15 +12,10 @@ gegenereerd_op: 2026-05-26
 
 <a id="2024-1-vr8A"></a>
 
-> [!question]- Overdraagbare fiscale verliezen in de vennootschapsbelasting
+> [!topic]- Overdraagbare fiscale verliezen in de vennootschapsbelasting
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 2.2*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Stellingen in verband met overdraagbare fiscale verliezen in de vennootschapsbelasting
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> _Stellingen in verband met overdraagbare fiscale verliezen in de vennootschapsbelasting_
 
 <a id="2024-1-vr8B"></a>
 
@@ -38,20 +33,20 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Meerwaarde van 80** op de deelneming. Berekening: netto actief B (100) − fiscale waarde participatie in A (20) = **+80**. 🔗_**
+> > **Meerwaarde van 80** op de deelneming. Berekening: netto actief B (100) − fiscale waarde participatie in A (20) = **+80**. 🔗
 > > 
 > > Bij een moeder-dochter fusie verdwijnt de deelneming van A in B uit de boekhouding van A; in ruil neemt A de activa en passiva van B over voor hun netto-fiscale waarde (boekhoudkundige én fiscale continuïteit, art. 78 §8 KB W.Venn. / art. 3:77 KB WVV). Het verschil tussen wat "binnenkomt" (netto actief B = 100) en wat "verdwijnt" (fiscale waarde deelneming = 20) is een **fusiemeerwaarde van 80** (de zogenaamde *opwaardering* of *goodwill* op de deelneming). 🔗
 > > 
 > > Verwar het **netto actief** van B (= eigen vermogen, hier 100) niet met de marktwaarde of met de boekwaarde van de overgenomen activa los. Bij de M-D fusie is het altijd het *aandeel in het eigen vermogen van B dat A reeds bezit* (hier 100 % × 100 = 100) dat tegenover de fiscale waarde van de deelneming wordt geplaatst. 🤖
 > > 
-> > *Art. 3:77 §5 KB WVV (voorheen art. 78 §8 KB W.Venn.) — boekhoudkundige verwerking bij verschil tussen boekwaarde aandelen en aandeel in eigen vermogen van de overgenomen vennootschap. CBN-advies 2021/10, hoofdstuk "De boekwaarde van de aandelen in de overgenomen vennootschap stemt niet overeen met het aandeel in haar eigen vermogen". 📖*  
+> > Art. 3:77 §5 KB WVV (voorheen art. 78 §8 KB W.Venn.) — boekhoudkundige verwerking bij verschil tussen boekwaarde aandelen en aandeel in eigen vermogen van de overgenomen vennootschap. CBN-advies 2021/10, hoofdstuk "De boekwaarde van de aandelen in de overgenomen vennootschap stemt niet overeen met het aandeel in haar eigen vermogen". 📖  
 > > *Bron: art. 3:77 §5 KB WVV; CBN 2021/10*
 >
 > **Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De fusiemeerwaarde van 80 is bij A **volledig fiscaal vrijgesteld** (geen belasting), op voorwaarde dat de fusie belastingneutraal verloopt (art. 211 §1 WIB92). De vrijstelling van het deel dat overeenstemt met de opwaardering van overgenomen activa is wel onderworpen aan de **onaantastbaarheidsvoorwaarde** (boeking op een vrijgestelde reserve). 🔗_**
+> > De fusiemeerwaarde van 80 is bij A **volledig fiscaal vrijgesteld** (geen belasting), op voorwaarde dat de fusie belastingneutraal verloopt (art. 211 §1 WIB92). De vrijstelling van het deel dat overeenstemt met de opwaardering van overgenomen activa is wel onderworpen aan de **onaantastbaarheidsvoorwaarde** (boeking op een vrijgestelde reserve). 🔗
 > > 
 > > Drie luiken in de fiscale behandeling bij A:
 > > 
@@ -61,7 +56,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De **onaantastbaarheidsvoorwaarde** voor de fusiemeerwaarde wordt in de praktijk vervuld door één van twee technieken (CBN 2021/10): ofwel een **overboeking naar belastingvrije reserves** (689 aan 132) via debet resultatenrekening, ofwel het simultaan boeken van een **vrijgestelde reserve én een negatieve belaste reserve** in het kapitaal/inbreng (beide voor hetzelfde bedrag). De tweede techniek vermijdt een kunstmatig boekhoudkundig verlies bij A. 📖
 > > 
-> > *Art. 211 §1, 1° WIB92 — bij belastingneutrale fusie komen verwezenlijkte of vastgestelde meerwaarden niet in aanmerking voor belastingheffing (mits onaantastbaarheidsvoorwaarde voor het opwaarderingsgedeelte). Art. 206 §2 WIB92 — beperking van overdracht van verliezen én overige aftrekken (innovatie-aftrek, NIA, DBI-overschotten) pro rata fiscaal netto-actief. Art. 3:77 §5 KB WVV + CBN-advies 2021/10 voor de boekhoudkundige tegenboeking. 📖*  
+> > Art. 211 §1, 1° WIB92 — bij belastingneutrale fusie komen verwezenlijkte of vastgestelde meerwaarden niet in aanmerking voor belastingheffing (mits onaantastbaarheidsvoorwaarde voor het opwaarderingsgedeelte). Art. 206 §2 WIB92 — beperking van overdracht van verliezen én overige aftrekken (innovatie-aftrek, NIA, DBI-overschotten) pro rata fiscaal netto-actief. Art. 3:77 §5 KB WVV + CBN-advies 2021/10 voor de boekhoudkundige tegenboeking. 📖  
 > > *Bron: art. 211 §1 WIB92; art. 206 §2 WIB92; art. 3:77 §5 KB WVV; CBN 2021/10*
 
 <a id="2024-1-vr8C"></a>
@@ -75,7 +70,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Geen vermeerdering verschuldigd.** De VOF is opgericht op 1/1/N-2; boekjaar N is haar **derde** boekjaar. Als kleine vennootschap die het verlaagd tarief van 20 % geniet (en dus per definitie aan de criteria van art. 1:24 WVV voldoet) valt zij onder de vrijstelling van art. 218, § 2 WIB 92: géén vermeerdering wegens ontoereikende voorafbetaling op de belasting van de **eerste drie boekjaren vanaf de oprichting**. Voorafbetalen is voor boekjaar N dus **niet nodig** om een vermeerdering te vermijden — het mag wel (men kan nog steeds VA1–VA4 storten, maar er is geen sanctie als men het niet doet). 📖_**
+> > **Geen vermeerdering verschuldigd.** De VOF is opgericht op 1/1/N-2; boekjaar N is haar **derde** boekjaar. Als kleine vennootschap die het verlaagd tarief van 20 % geniet (en dus per definitie aan de criteria van art. 1:24 WVV voldoet) valt zij onder de vrijstelling van art. 218, § 2 WIB 92: géén vermeerdering wegens ontoereikende voorafbetaling op de belasting van de **eerste drie boekjaren vanaf de oprichting**. Voorafbetalen is voor boekjaar N dus **niet nodig** om een vermeerdering te vermijden — het mag wel (men kan nog steeds VA1–VA4 storten, maar er is geen sanctie als men het niet doet). 📖
 > > 
 > > Redenering in drie stappen:
 > > 
@@ -87,7 +82,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De vrijstelling geldt **enkel** voor *kleine* vennootschappen. Een grote vennootschap (art. 1:24 WVV-criteria overschreden) is vánaf haar eerste boekjaar onderworpen aan de vermeerdering. Tweede valkuil: de telling start bij de **oprichting**, niet bij het eerste volledige boekjaar — een verkort eerste boekjaar (bv. oprichting in oktober) telt dus mee als boekjaar 1. Derde valkuil: de basisrentevoet voor de berekening van de vermeerdering mag in de VenB **niet lager zijn dan 3 %** (art. 218, § 1, tweede lid WIB 92) — relevant zodra het vierde boekjaar aanbreekt. 📖
 > > 
-> > ***Art. 218, § 2 WIB 92** — vrijstelling van de vermeerdering wegens ontoereikende voorafbetaling voor kleine vennootschappen tijdens de eerste drie boekjaren vanaf de oprichting. **Art. 218, § 1 WIB 92** koppelt de vermeerderingsregeling van de VenB door naar **art. 157–168 WIB 92** (PB-regeling), met als specifieke afwijking dat de basisrentevoet minstens 3 % bedraagt en dat de beperking tot 90 % (art. 160) en de verhoging tot 106 % (art. 165) niet gelden. Het kleine-vennootschapsbegrip volgt uit **art. 1:24 WVV** (groottecriteria). 📖*  
+> > **Art. 218, § 2 WIB 92** — vrijstelling van de vermeerdering wegens ontoereikende voorafbetaling voor kleine vennootschappen tijdens de eerste drie boekjaren vanaf de oprichting. **Art. 218, § 1 WIB 92** koppelt de vermeerderingsregeling van de VenB door naar **art. 157–168 WIB 92** (PB-regeling), met als specifieke afwijking dat de basisrentevoet minstens 3 % bedraagt en dat de beperking tot 90 % (art. 160) en de verhoging tot 106 % (art. 165) niet gelden. Het kleine-vennootschapsbegrip volgt uit **art. 1:24 WVV** (groottecriteria). 📖  
 > > *Bron: Art. 218, §§ 1-2 WIB 92; art. 157-168 WIB 92; art. 1:24 WVV*
 
 <a id="2024-1-vr8D"></a>
@@ -101,7 +96,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Belastbare basis aanslagjaar 2023 = 90.000 euro.** Berekening: 100.000 (winst vóór belasting) − 10.000 (tantième, aftrekbare beroepskost) = 90.000. Het dividend van 20.000 is **niet** aftrekbaar — het maakt deel uit van de uitgekeerde winst die volgens art. 185 §1 WIB92 mee belastbaar is. 🔗_**
+> > **Belastbare basis aanslagjaar 2023 = 90.000 euro.** Berekening: 100.000 (winst vóór belasting) − 10.000 (tantième, aftrekbare beroepskost) = 90.000. Het dividend van 20.000 is **niet** aftrekbaar — het maakt deel uit van de uitgekeerde winst die volgens art. 185 §1 WIB92 mee belastbaar is. 🔗
 > > 
 > > | Stap | Bedrag |
 > > |---|---:|
@@ -114,9 +109,9 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Tantième ≠ dividend** — fiscaal een wereld van verschil. Het tantième is een **bezoldiging van de bedrijfsleider** (art. 32, eerste lid, 1° WIB92 noemt expliciet "vaste of veranderlijke tantièmes") en is via art. 195 WIB92 aftrekbaar als beroepskost van de vennootschap. Het dividend is een **uitkering van winst** aan aandeelhouders en blijft volgens art. 185 §1 WIB92 deel van de belastbare basis ("vennootschappen zijn belastbaar op het totale bedrag van de winst, uitgekeerde dividenden inbegrepen"). Wie het tantième zou vergeten af te trekken of het dividend ten onrechte zou aftrekken, komt op een verkeerde belastbare basis uit. 📖
 > > 
-> > ***Art. 185, §1 WIB92** (Belastinggrondslag VenB): "Vennootschappen zijn belastbaar op het totale bedrag van de winst, uitgekeerde dividenden inbegrepen ..." — dividenden zijn dus **niet** aftrekbaar. 📖
+> > **Art. 185, §1 WIB92** (Belastinggrondslag VenB): "Vennootschappen zijn belastbaar op het totale bedrag van de winst, uitgekeerde dividenden inbegrepen ..." — dividenden zijn dus **niet** aftrekbaar. 📖
 > > 
-> > **Art. 195, §1 WIB92** (Beroepskosten VenB): "Bedrijfsleiders worden voor de toepassing van de bepalingen inzake beroepskosten met werknemers gelijkgesteld en hun bezoldigingen en de ermede verband houdende sociale lasten worden als beroepskosten aangemerkt." Gecombineerd met **art. 32, eerste lid, 1° WIB92** dat tantièmes uitdrukkelijk als bezoldiging van bedrijfsleiders kwalificeert → tantième is aftrekbaar. 📖*  
+> > **Art. 195, §1 WIB92** (Beroepskosten VenB): "Bedrijfsleiders worden voor de toepassing van de bepalingen inzake beroepskosten met werknemers gelijkgesteld en hun bezoldigingen en de ermede verband houdende sociale lasten worden als beroepskosten aangemerkt." Gecombineerd met **art. 32, eerste lid, 1° WIB92** dat tantièmes uitdrukkelijk als bezoldiging van bedrijfsleiders kwalificeert → tantième is aftrekbaar. 📖  
 > > *Bron: art. 185 §1 WIB92; art. 195 §1 WIB92; art. 32, eerste lid, 1° WIB92*
 
 <a id="2024-1-vr8E"></a>
@@ -142,7 +137,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Besmette verworpen uitgaven** (geen DBI-verrekening mogelijk, zelfs niet met DBI uit een land buiten de EER) zijn: **c. Abnormale of goedgunstige voordelen**, **d. Sociale voordelen**, **e. Voordelen maaltijdcheques/ecocheques**, **f. Giften (liberaliteiten)** en **i. Taxshelter** 📖. De overige posten (a beroepskledij, b intresten op een deel van bepaalde leningen, g waardeverminderingen/minderwaarden op aandelen, h terugname van vroegere vrijstellingen) zijn "gewone" verworpen uitgaven waarop DBI-aftrek wél kan worden toegepast 🔗._** 📖
+> > **Besmette verworpen uitgaven** (geen DBI-verrekening mogelijk, zelfs niet met DBI uit een land buiten de EER) zijn: **c. Abnormale of goedgunstige voordelen**, **d. Sociale voordelen**, **e. Voordelen maaltijdcheques/ecocheques**, **f. Giften (liberaliteiten)** en **i. Taxshelter** 📖. De overige posten (a beroepskledij, b intresten op een deel van bepaalde leningen, g waardeverminderingen/minderwaarden op aandelen, h terugname van vroegere vrijstellingen) zijn "gewone" verworpen uitgaven waarop DBI-aftrek wél kan worden toegepast 🔗. 📖
 > > 
 > > **Mechaniek — waarom "besmet"** 🔗. Art. 206/3, §1 WIB 92 somt limitatief de bestanddelen op van het resultaat waarop **geen enkele** van de aftrekken voorzien in art. 199 tot 206, 536 en 543 WIB 92 (dus ook **geen DBI-aftrek** uit art. 202-205) en **geen compensatie met het verlies van het belastbare tijdperk** mag worden verricht. Deze bestanddelen maken **steeds deel uit van de minimum belastbare grondslag** 📖. Dat is de zogenaamde "besmette" categorie. Voor DBI maakt het bovendien niet uit of de bron binnen of buiten de EER ligt — het aftrekverbod van art. 206/3 §1 werkt vóór de DBI-bewerking, dus de DBI kan deze bestanddelen sowieso niet absorberen.
 > > 
@@ -161,11 +156,11 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil — "DBI buiten EER" is een afleider** ❓. De vraagstelling vermeldt expliciet "DBI afkomstig van een land buiten de EER". Dat lijkt te suggereren dat de EER-grens bepaalt welke VU besmet zijn — maar dat klopt **niet**: de lijst van besmette bestanddelen (art. 206/3 §1) is dezelfde ongeacht de oorsprong van de DBI. Wat *wél* van de EER-grens afhangt is de **overdraagbaarheid** van het DBI-overschot: enkel DBI van een **EER-uitkeerder** is overdraagbaar naar volgende belastbare tijdperken (art. 205, §3 WIB 92) 📖. DBI uit een land buiten de EER die niet onmiddellijk kan worden afgetrokken — bv. omdat de winst voor het overgrote deel bestaat uit besmette bestanddelen — gaat dus **definitief verloren**. Daarom is de "besmette"-categorie pijnlijker bij DBI buiten EER dan bij EER-DBI: geen overdracht-vangnet 🔗. 🔗
 > > 
-> > ***Kern-grondslagen** 📖:
+> > **Kern-grondslagen** 📖:
 > > - **Art. 206/3, §1 WIB 92** — bestanddelen waarop geen aftrek (incl. DBI) en geen verliescompensatie mogelijk is; verwijst onder andere naar art. 79 (abnormale/goedgunstige voordelen) en art. 198, §1, 9°, 9°bis, 12° en 17° WIB 92.
 > > - **Art. 198, §1 WIB 92**: 9° sociale voordelen (verwijzing naar art. 38 §1, 11°); 9°bis maaltijd-/sport-/cultuur-/ecocheques (art. 38 §1, 25°); 12° liberaliteiten (giften, ook de vrijgestelde); 17° tax-shelter-uitgaven (art. 194ter e.v.).
 > > - **Art. 207 WIB 92** — aftrekvolgorde + bevestiging dat geen aftrek noch verliescompensatie mogelijk is op het in art. 206/3 §1 bedoelde gedeelte van het resultaat.
-> > - **Art. 205, §3 WIB 92** — overdraagbaarheid DBI-overschot beperkt tot vennootschappen gevestigd in een EER-lidstaat (relevant voor de framing van de vraag, niet voor de besmette-lijst zelf).* 📖  
+> > - **Art. 205, §3 WIB 92** — overdraagbaarheid DBI-overschot beperkt tot vennootschappen gevestigd in een EER-lidstaat (relevant voor de framing van de vraag, niet voor de besmette-lijst zelf). 📖  
 > > *Bron: Art. 206/3 §1 WIB 92; art. 198 §1, 9°, 9°bis, 12°, 17° WIB 92; art. 79 WIB 92; art. 207 WIB 92; art. 205 §3 WIB 92*
 
 <a id="2015-1-vr28"></a>
@@ -185,7 +180,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_Optie **c** is de ONJUISTE uitspraak. Art. 129 WIB92 maakt **geen** uitzondering voor echtgenoten gehuwd onder scheiding van goederen — het overschot aan beroepsverliezen wordt op de positieve beroepsinkomsten van de andere echtgenoot aangerekend, ongeacht het huwelijksvermogensstelsel. 🔗_**
+> > Optie **c** is de ONJUISTE uitspraak. Art. 129 WIB92 maakt **geen** uitzondering voor echtgenoten gehuwd onder scheiding van goederen — het overschot aan beroepsverliezen wordt op de positieve beroepsinkomsten van de andere echtgenoot aangerekend, ongeacht het huwelijksvermogensstelsel. 🔗
 > > 
 > > **Per optie**:
 > > 
@@ -197,7 +192,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar **inter-echtgenootlijke verlies-aanrekening** (art. 129 WIB92, gestuurd door de **gemeenschappelijke aanslag**) niet met de **fiscale gevolgen van het huwelijksvermogensstelsel** voor de inkomsten-toerekening zelf (eigen inkomsten ↔ gemeenschappelijke inkomsten). Het stelsel van scheiding van goederen verandert **wie** welke beroepsinkomsten aangeeft, maar **niet** de regel dat het overschot aan beroepsverliezen op de andere echtgenoot wordt aangerekend. De enige uitsluitingen van de gemeenschappelijke aanslag zijn de wettelijke uitzonderingen van art. 126 WIB92 (jaar huwelijk, feitelijke scheiding, overlijden onder bepaalde voorwaarden). 🔗
 > > 
-> > ***Art. 129 WIB92**: "Wanneer de inkomsten van een echtgenoot onvoldoende zijn om de overeenkomstig de artikelen 23, § 2, 2° en 3° en 103, aftrekbare verliezen erop aan te zuiveren, wordt het saldo aangerekend op de inkomsten van de andere echtgenoot met inachtneming van de in die artikelen gestelde beperkingen." Geen verwijzing naar het huwelijksvermogensstelsel. Aanvullend: art. 23 § 2 WIB92 (volgorde van compensatie), art. 78 § 1 WIB92 (overdracht naar volgende tijdperken), art. 86-87 WIB92 (meewerkinkomen + huwelijksquotiënt), art. 63 KB/WIB92 (uitvoering aanrekening). 📖*  
+> > **Art. 129 WIB92**: "Wanneer de inkomsten van een echtgenoot onvoldoende zijn om de overeenkomstig de artikelen 23, § 2, 2° en 3° en 103, aftrekbare verliezen erop aan te zuiveren, wordt het saldo aangerekend op de inkomsten van de andere echtgenoot met inachtneming van de in die artikelen gestelde beperkingen." Geen verwijzing naar het huwelijksvermogensstelsel. Aanvullend: art. 23 § 2 WIB92 (volgorde van compensatie), art. 78 § 1 WIB92 (overdracht naar volgende tijdperken), art. 86-87 WIB92 (meewerkinkomen + huwelijksquotiënt), art. 63 KB/WIB92 (uitvoering aanrekening). 📖  
 > > *Bron: Art. 129 WIB92 (+ art. 23 § 2, art. 78 § 1, art. 86, art. 87 WIB92; art. 63 KB/WIB92)*
 
 <a id="2015-1-vr29"></a>
@@ -219,7 +214,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_Optie **a** is JUIST. Voor een niet-verhuurd buitenlands gebouw (geen eigen woning, geen theoretische huurwaarde in het buitenland) is het aan te geven onroerend inkomen voor aanslagjaar 2014 = **huurwaarde − werkelijk in het buitenland gedragen belastingen op het goed**, vervolgens **verminderd met het kostenforfait van 40 %** (art. 13 WIB 92). 🔗_**
+> > Optie **a** is JUIST. Voor een niet-verhuurd buitenlands gebouw (geen eigen woning, geen theoretische huurwaarde in het buitenland) is het aan te geven onroerend inkomen voor aanslagjaar 2014 = **huurwaarde − werkelijk in het buitenland gedragen belastingen op het goed**, vervolgens **verminderd met het kostenforfait van 40 %** (art. 13 WIB 92). 🔗
 > > 
 > > Bespreking per optie (regime aanslagjaar 2014 — vóór de Belgische wetswijziging na het Hofstad-arrest die buitenlandse OG aan een gelijkgesteld KI heeft onderworpen):
 > > 
@@ -231,7 +226,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Sinds aanslagjaar 2022 (wet 17.02.2021) heeft België voor in het buitenland gelegen onroerende goederen een **gelijkgesteld kadastraal inkomen** ingevoerd, naar aanleiding van het arrest *Hof van Justitie 12.04.2018* (zaak C-110/17). De vraag betreft AJ 2014 — toen gold nog de **huurwaarde**-grondslag. Bij latere examenvragen over eenzelfde casus voor recente aanslagjaren is het antwoord dus **niet** meer de huurwaarde-formule van optie **a**, maar het (al dan niet geïndexeerd en met 40 % verminderd) gelijkgesteld KI. ❓
 > > 
-> > *Art. 7, § 1, 1° WIB 92 (belastbaar onroerend inkomen voor niet-verhuurde OG — voor buitenlandse OG getransponeerd naar huurwaarde) + art. 13, eerste lid WIB 92 (vermindering brutohuur/huurwaarde met **werkelijk in het buitenland gedragen belastingen op het goed**, daarna **40 %-kostenforfait** voor gebouwen) + art. 156, 1° WIB 92 (vermindering tot de helft van de Belgische belasting op buitenlandse onroerende inkomsten, ongeacht het bestaan van een DBV). Voor AJ 2014: revalorisatiecoëfficiënt = **4,23** (art. 13, tweede lid). 📖*  
+> > Art. 7, § 1, 1° WIB 92 (belastbaar onroerend inkomen voor niet-verhuurde OG — voor buitenlandse OG getransponeerd naar huurwaarde) + art. 13, eerste lid WIB 92 (vermindering brutohuur/huurwaarde met **werkelijk in het buitenland gedragen belastingen op het goed**, daarna **40 %-kostenforfait** voor gebouwen) + art. 156, 1° WIB 92 (vermindering tot de helft van de Belgische belasting op buitenlandse onroerende inkomsten, ongeacht het bestaan van een DBV). Voor AJ 2014: revalorisatiecoëfficiënt = **4,23** (art. 13, tweede lid). 📖  
 > > *Bron: art. 7 § 1 1°, art. 13, art. 156 1° WIB 92*
 
 <a id="2015-1-vr30"></a>
@@ -251,7 +246,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_Optie **a** is de **ONJUISTE** uitspraak. De belastingvermindering voor kinderoppas is een **gewone** (niet-terugbetaalbare) vermindering — het surplus boven de verschuldigde belasting wordt **niet** omgezet in een terugbetaalbaar belastingkrediet. 🔗_**
+> > Optie **a** is de **ONJUISTE** uitspraak. De belastingvermindering voor kinderoppas is een **gewone** (niet-terugbetaalbare) vermindering — het surplus boven de verschuldigde belasting wordt **niet** omgezet in een terugbetaalbaar belastingkrediet. 🔗
 > > 
 > > **Per optie**:
 > > 
@@ -263,7 +258,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar de **belastingvermindering voor kinderoppas** (art. 14535, niet-terugbetaalbaar) niet met het **terugbetaalbaar belastingkrediet voor kinderen ten laste** (art. 134 §3 WIB92): wanneer de toeslagen op de belastingvrije som wegens kinderlast — incl. de bijkomende toeslag voor kinderen jonger dan 3 jaar (art. 132, 6°) — de belasting overstijgen, wordt het saldo van de daarmee corresponderende belastingvermindering wél omgezet in een terugbetaalbaar belastingkrediet (begrensd). Die regeling slaat dus op de **belastingvrije som**, niet op de aftrek/vermindering voor kinderoppas zelf. Wie kinderoppas claimt, verliest bovendien de bijkomende toeslag voor kinderen jonger dan 3 jaar (art. 132, 6° in fine). 🔗
 > > 
-> > *Art. 14535 WIB92 (belastingvermindering kinderoppas — voorwaarden); art. 132, 6° WIB92 (bijkomende toeslag kinderen <3 jaar, niet-cumuleerbaar met art. 14535); art. 134 §3 WIB92 (omzetting van het saldo van de belastingvermindering voor kinderlast in terugbetaalbaar belastingkrediet — geldt voor de belastingvrije som, niet voor art. 14535); art. 105 WIB92 (aanrekening aftrekbare bestedingen in gemeenschappelijke aanslag); art. 14523 §1 WIB92 (omdeling vermindering dienstencheques). 📖*  
+> > Art. 14535 WIB92 (belastingvermindering kinderoppas — voorwaarden); art. 132, 6° WIB92 (bijkomende toeslag kinderen <3 jaar, niet-cumuleerbaar met art. 14535); art. 134 §3 WIB92 (omzetting van het saldo van de belastingvermindering voor kinderlast in terugbetaalbaar belastingkrediet — geldt voor de belastingvrije som, niet voor art. 14535); art. 105 WIB92 (aanrekening aftrekbare bestedingen in gemeenschappelijke aanslag); art. 14523 §1 WIB92 (omdeling vermindering dienstencheques). 📖  
 > > *Bron: WIB92 art. 14535, 105, 134 §3, 14523, 1457-1458*
 
 <a id="2015-1-vr31"></a>
@@ -285,7 +280,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_Optie **d** is ONJUIST. De uitzondering op de uitsluiting van de investeringsaftrek bij overdracht van het recht van gebruik geldt blijkens art. 75, 3° WIB 92 zowel bij overdracht aan een **natuurlijke persoon** als aan een **vennootschap** die zelf aan de voorwaarden, criteria en grenzen voor investeringsaftrek voldoet tegen eenzelfde of hoger percentage. Optie d beperkt de uitzondering ten onrechte tot een natuurlijke persoon. 🔗_**
+> > Optie **d** is ONJUIST. De uitzondering op de uitsluiting van de investeringsaftrek bij overdracht van het recht van gebruik geldt blijkens art. 75, 3° WIB 92 zowel bij overdracht aan een **natuurlijke persoon** als aan een **vennootschap** die zelf aan de voorwaarden, criteria en grenzen voor investeringsaftrek voldoet tegen eenzelfde of hoger percentage. Optie d beperkt de uitzondering ten onrechte tot een natuurlijke persoon. 🔗
 > > 
 > > **Per optie**:
 > > 
@@ -297,7 +292,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Optie d herneemt op het eerste gezicht woordelijk de vier eerste IA-uitsluitingen van art. 75 WIB 92, maar laat één hoek van de uitzondering weg: de overdracht mag óók gebeuren aan een **vennootschap** die zelf aan de IA-voorwaarden voldoet (tegen eenzelfde of hoger percentage). Wie alleen leest "behalve aan natuurlijke persoon" mist de tweede arm van de uitzondering. Vergelijk met de gangbare leasingcasus: een holding die een onroerend goed verhuurt aan een werkmaatschappij van dezelfde groep verliest niet automatisch de IA als de werkmaatschappij zelf voor de IA in aanmerking komt. 🔗
 > > 
-> > ***Art. 67, 67ter, 70, 75 WIB 92** — gezamenlijk regime van de vrijstellingen van economische aard en de investeringsaftrek in de personenbelasting. Art. 67 (vrijstelling bijkomend personeel uitvoer/IKZ); art. 67ter §1-3 (vrijstelling ander bijkomend personeel + terugname bij personeelsdaling, met loonsverhoging-uitzondering); art. 70 (gespreide investeringsaftrek voor natuurlijke personen met minder dan 20 werknemers, percentage vast over afschrijvingsduur); **art. 75, 3°** (uitsluiting overdracht recht van gebruik — uitzondering voor overdracht aan natuurlijke persoon **of vennootschap** die zelf aan IA-voorwaarden voldoet). 📖*  
+> > **Art. 67, 67ter, 70, 75 WIB 92** — gezamenlijk regime van de vrijstellingen van economische aard en de investeringsaftrek in de personenbelasting. Art. 67 (vrijstelling bijkomend personeel uitvoer/IKZ); art. 67ter §1-3 (vrijstelling ander bijkomend personeel + terugname bij personeelsdaling, met loonsverhoging-uitzondering); art. 70 (gespreide investeringsaftrek voor natuurlijke personen met minder dan 20 werknemers, percentage vast over afschrijvingsduur); **art. 75, 3°** (uitsluiting overdracht recht van gebruik — uitzondering voor overdracht aan natuurlijke persoon **of vennootschap** die zelf aan IA-voorwaarden voldoet). 📖  
 > > *Bron: Art. 67, 67ter, 70, 75 WIB 92*
 
 <a id="2015-1-vr32"></a>
@@ -317,7 +312,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_Optie **b** is ONJUIST. De eerste schijf van inkomsten uit de cessie of concessie van auteursrechten en naburige rechten (in aanslagjaar 2015: € 56.450) die als roerende inkomsten worden gekwalificeerd, wordt belast aan **15 %** roerende voorheffing/afzonderlijk tarief — niet aan 25 %. 🔗_**
+> > Optie **b** is ONJUIST. De eerste schijf van inkomsten uit de cessie of concessie van auteursrechten en naburige rechten (in aanslagjaar 2015: € 56.450) die als roerende inkomsten worden gekwalificeerd, wordt belast aan **15 %** roerende voorheffing/afzonderlijk tarief — niet aan 25 %. 🔗
 > > 
 > > **Per optie**:
 > > 
@@ -329,7 +324,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het tarief van **15 %** voor auteursrechten is in 2015 een uitzondering op het algemene 25 %-tarief van de roerende voorheffing — én staat los van het 15 %-regime voor (sommige) staatsbons of liquidatieboni. Verwar de **schijf** (€ 56.450, geïndexeerd) niet met een vrijstelling: het is het plafond waaronder het inkomen verplicht als roerend wordt gekwalificeerd en aan 15 % wordt belast; daarboven kan het worden geherkwalificeerd als beroepsinkomen aan progressief tarief. ❓
 > > 
-> > *Auteursrechten als roerend inkomen: **art. 17 §1 5° WIB92** (kwalificatie) + **art. 37, tweede lid WIB92** (eerste schijf als roerend, geïndexeerd tot € 56.450 voor aanslagjaar 2015) + **art. 269 §1 WIB92** en **art. 171 2°bis WIB92** (tarief 15 %). RV-tarief op gewone interesten 2014: **25 %** (art. 269 §1, 1° WIB92, oude versie). Vrijstelling gereglementeerde spaarrekeningen: **art. 21, 5° WIB92**. Niet-verrekenbaarheid RV bij verdragsvrijgestelde beroepsinkomsten: **art. 284 WIB92**. Aan te geven roerend inkomen (bruto vóór innings-/bewaringskosten, na RV, vóór woonstaatheffing): **art. 22 §1 WIB92**. Voordeligheidsregel afzonderlijke belasting vs globalisering: **art. 171 WIB92** in fine. 🔗*  
+> > Auteursrechten als roerend inkomen: **art. 17 §1 5° WIB92** (kwalificatie) + **art. 37, tweede lid WIB92** (eerste schijf als roerend, geïndexeerd tot € 56.450 voor aanslagjaar 2015) + **art. 269 §1 WIB92** en **art. 171 2°bis WIB92** (tarief 15 %). RV-tarief op gewone interesten 2014: **25 %** (art. 269 §1, 1° WIB92, oude versie). Vrijstelling gereglementeerde spaarrekeningen: **art. 21, 5° WIB92**. Niet-verrekenbaarheid RV bij verdragsvrijgestelde beroepsinkomsten: **art. 284 WIB92**. Aan te geven roerend inkomen (bruto vóór innings-/bewaringskosten, na RV, vóór woonstaatheffing): **art. 22 §1 WIB92**. Voordeligheidsregel afzonderlijke belasting vs globalisering: **art. 171 WIB92** in fine. 🔗  
 > > *Bron: Art. 17 §1 5°, 22, 37, 171, 269 §1, 284 WIB92*
 
 <a id="2014-1-vr22"></a>
@@ -349,7 +344,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: e**
 > > 
-> > **_Optie **e** — het kind van een alleenstaande met "bruto bestaansmiddelen van max. 3.737,50 EUR" kan **niet** als persoon ten laste worden beschouwd zoals omschreven: de wet kijkt naar de **netto** bestaansmiddelen (art. 142 WIB92), en het cijfer 3.737,50 EUR stemt voor aanslagjaar 2013 niet overeen met de wettelijke drempel voor een kind van een alleenstaande. 🔗_**
+> > Optie **e** — het kind van een alleenstaande met "bruto bestaansmiddelen van max. 3.737,50 EUR" kan **niet** als persoon ten laste worden beschouwd zoals omschreven: de wet kijkt naar de **netto** bestaansmiddelen (art. 142 WIB92), en het cijfer 3.737,50 EUR stemt voor aanslagjaar 2013 niet overeen met de wettelijke drempel voor een kind van een alleenstaande. 🔗
 > > 
 > > Per optie:
 > > 
@@ -361,7 +356,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar **bruto** en **netto** bestaansmiddelen niet. Art. 142 WIB92 definieert het nettobedrag als bruto verminderd met de kosten gemaakt om de middelen te verkrijgen of te behouden (bij gebrek aan bewijs forfaitair 20%, minimum 250 EUR voor bezoldigingen/baten). Bovendien telt art. 143 WIB92 een reeks inkomsten **niet** mee (o.a. wettelijke kinderbijslag, onderhoudsgelden tot 1.800 EUR/jaar, eerste schijf van studentenarbeid). Een MC-optie die de drempel als "bruto" omschrijft is daarom per definitie incorrect, los van het exacte cijfer. 📖
 > > 
-> > *Categorieën ptL: art. 136 WIB92 (kinderen, ascendenten, zijverwanten t.e.m. 2e graad, personen van wie de bp als kind ten laste was) — gezinsvoorwaarde op 1 januari aanslagjaar + nettobestaansmiddelen ≤ 1.800 EUR (basisbedrag, te indexeren). Art. 141 WIB92 verhoogt deze drempel voor kinderen ten laste, met een nog hogere drempel voor een kind van een alleenstaande. Art. 142 WIB92 omschrijft "netto". Art. 143 WIB92 somt vrijgestelde bestaansmiddelen op. 📖*  
+> > Categorieën ptL: art. 136 WIB92 (kinderen, ascendenten, zijverwanten t.e.m. 2e graad, personen van wie de bp als kind ten laste was) — gezinsvoorwaarde op 1 januari aanslagjaar + nettobestaansmiddelen ≤ 1.800 EUR (basisbedrag, te indexeren). Art. 141 WIB92 verhoogt deze drempel voor kinderen ten laste, met een nog hogere drempel voor een kind van een alleenstaande. Art. 142 WIB92 omschrijft "netto". Art. 143 WIB92 somt vrijgestelde bestaansmiddelen op. 📖  
 > > *Bron: Art. 136, 141, 142, 143 WIB92*
 
 <a id="2014-1-vr23"></a>
@@ -381,7 +376,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_Optie **b** is de onjuiste stelling. Art. 87 WIB92 koppelt het huwelijksquotiënt enkel aan het feit dat **slechts één echtgenoot beroepsinkomsten** heeft — de toevoeging "of onroerende inkomsten" hoort niet bij de voorwaarde. Het percentage (30 %) en het geïndexeerde plafond (9.810 EUR voor AJ 2013, basisbedrag 6.700 EUR) zijn op zich correct, maar de voorwaarde zelf is fout geformuleerd. 🔗_**
+> > Optie **b** is de onjuiste stelling. Art. 87 WIB92 koppelt het huwelijksquotiënt enkel aan het feit dat **slechts één echtgenoot beroepsinkomsten** heeft — de toevoeging "of onroerende inkomsten" hoort niet bij de voorwaarde. Het percentage (30 %) en het geïndexeerde plafond (9.810 EUR voor AJ 2013, basisbedrag 6.700 EUR) zijn op zich correct, maar de voorwaarde zelf is fout geformuleerd. 🔗
 > > 
 > > Per optie:
 > > 
@@ -393,7 +388,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar het **huwelijksquotiënt** (art. 87 WIB92 — toerekening wanneer slechts één echtgenoot beroepsinkomsten heeft) niet met het **meewerkinkomen** (art. 86 WIB92 — toekenning aan de feitelijk meewerkende echtgenoot, ook 30 % maar plafond 8.700 EUR basisbedrag) of met de **toerekening bij gering beroepsinkomen** (art. 88 WIB92 — wanneer de inkomsten van één echtgenoot minder dan 30 % van het totaal bedragen). Alle drie staan onder dezelfde afdeling "Toekenning en toerekening van een deel van de beroepsinkomsten aan de echtgenoot", maar hebben verschillende toepassingsvoorwaarden. 🔗
 > > 
-> > ***Art. 87 WIB92**: "Wanneer een gemeenschappelijke aanslag wordt gevestigd en slechts één van de echtgenoten beroepsinkomsten heeft verkregen, wordt een deel daarvan toegerekend aan de andere echtgenoot (...). Dat deel bedraagt 30 pct. van die inkomsten, doch mag niet hoger zijn dan 6.700 EUR." 📖 — Basisbedrag is niet-geïndexeerd; voor aanslagjaar 2013 wordt dit geïndexeerd tot 9.810 EUR (Cijferzakboekje). **Art. 88 WIB92**: variant wanneer beide echtgenoten beroepsinkomsten hebben maar de ene minder dan 30 % van het totaal. **Art. 2, 2° WIB92**: gelijkstelling wettelijk samenwonenden met echtgenoten. Beide artikelen sluiten toepassing uit "wanneer daardoor de belasting Staat (...) wordt verhoogd".* 📖  
+> > **Art. 87 WIB92**: "Wanneer een gemeenschappelijke aanslag wordt gevestigd en slechts één van de echtgenoten beroepsinkomsten heeft verkregen, wordt een deel daarvan toegerekend aan de andere echtgenoot (...). Dat deel bedraagt 30 pct. van die inkomsten, doch mag niet hoger zijn dan 6.700 EUR." 📖 — Basisbedrag is niet-geïndexeerd; voor aanslagjaar 2013 wordt dit geïndexeerd tot 9.810 EUR (Cijferzakboekje). **Art. 88 WIB92**: variant wanneer beide echtgenoten beroepsinkomsten hebben maar de ene minder dan 30 % van het totaal. **Art. 2, 2° WIB92**: gelijkstelling wettelijk samenwonenden met echtgenoten. Beide artikelen sluiten toepassing uit "wanneer daardoor de belasting Staat (...) wordt verhoogd". 📖  
 > > *Bron: Art. 87-88 WIB92; art. 2, 2° WIB92*
 
 <a id="2014-1-vr24"></a>
@@ -415,7 +410,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_Optie **c** is onmogelijk. Bij gemeubileerde verhuur wordt de huurprijs forfaitair gesplitst in 60% onroerend inkomen en 40% roerend inkomen (art. 4 KB/WIB92), zodat "100% van het KI onderworpen aan de PB" als belastbare grondslag onjuist is — het belastbare onroerende inkomen wordt bovendien niet bepaald op het KI maar op de werkelijke (netto) huur wanneer aan een beroepsgebruiker of rechtspersoon wordt verhuurd. 🔗_**
+> > Optie **c** is onmogelijk. Bij gemeubileerde verhuur wordt de huurprijs forfaitair gesplitst in 60% onroerend inkomen en 40% roerend inkomen (art. 4 KB/WIB92), zodat "100% van het KI onderworpen aan de PB" als belastbare grondslag onjuist is — het belastbare onroerende inkomen wordt bovendien niet bepaald op het KI maar op de werkelijke (netto) huur wanneer aan een beroepsgebruiker of rechtspersoon wordt verhuurd. 🔗
 > > 
 > > Doorlopen van elke optie tegen art. 7-13 WIB92 en art. 32, 3° WIB92:
 > > 
@@ -437,7 +432,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Vermijd verwarring tussen drie verschillende belastbare grondslagen voor onroerende inkomsten: (i) **niet verhuurd / verhuurd aan privé voor woongebruik** → geïndexeerd KI (× 1,40 voor gebouwen, art. 7 §1, 1°-2°a); (ii) **verhuurd aan beroep of rechtspersoon (niet-pacht)** → werkelijke netto-huur, geplafonneerd op KI × revalorisatiecoëfficiënt × 2/3 (art. 7 §1, 2°, c + art. 13); (iii) **gemeubileerd verhuurd** → boven op (i) of (ii) een opsplitsing 60% OI / 40% RI van de huurprijs (art. 4 KB/WIB92). De zinsnede "100% van het KI in de PB" in optie c slaat op geen enkele van die regimes. 🔗
 > > 
-> > *Art. 7 WIB92 (belastbare onroerende inkomsten — KI, geïndexeerd KI × 1,40, of werkelijke huur naargelang gebruik en huurder). 📖 Art. 8 WIB92 (gemengde verhuur — afzonderlijke vaststelling beroeps- vs. privégedeelte bij geregistreerde overeenkomst). 📖 Art. 13 WIB92 (netto-OI = brutohuur − 40% kostenforfait, geplafonneerd op 2/3 × KI × revalorisatiecoëfficiënt; revalorisatiecoëfficiënt = 4,10 voor aj. 2013). 📖 Art. 32, 3° WIB92 (herkwalificatie huurprijs tot bedrijfsleidersbezoldiging boven 5/3 × KI × revalorisatiecoëfficiënt bij verhuur aan eigen vennootschap). 📖 Art. 12 §3 WIB92 (vrijstelling eigen woning). 📖 Art. 4 KB/WIB92 (60/40-splitsing gemeubileerde verhuur). 🔗*  
+> > Art. 7 WIB92 (belastbare onroerende inkomsten — KI, geïndexeerd KI × 1,40, of werkelijke huur naargelang gebruik en huurder). 📖 Art. 8 WIB92 (gemengde verhuur — afzonderlijke vaststelling beroeps- vs. privégedeelte bij geregistreerde overeenkomst). 📖 Art. 13 WIB92 (netto-OI = brutohuur − 40% kostenforfait, geplafonneerd op 2/3 × KI × revalorisatiecoëfficiënt; revalorisatiecoëfficiënt = 4,10 voor aj. 2013). 📖 Art. 32, 3° WIB92 (herkwalificatie huurprijs tot bedrijfsleidersbezoldiging boven 5/3 × KI × revalorisatiecoëfficiënt bij verhuur aan eigen vennootschap). 📖 Art. 12 §3 WIB92 (vrijstelling eigen woning). 📖 Art. 4 KB/WIB92 (60/40-splitsing gemeubileerde verhuur). 🔗  
 > > *Bron: WIB92 art. 7, 8, 12 §3, 13, 32, 3°; KB/WIB92 art. 4*
 
 <a id="2014-1-vr25"></a>
@@ -457,7 +452,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_Optie **a** — Erelonen voor advies verstrekt buiten het kader van een echt beroep zijn het schoolvoorbeeld van **occasionele baten** in de zin van art. 90, 1° WIB 1992: een prestatie/dienst aan derden, buiten een beroepswerkzaamheid en buiten het normaal beheer van een privévermogen. 📖_**
+> > Optie **a** — Erelonen voor advies verstrekt buiten het kader van een echt beroep zijn het schoolvoorbeeld van **occasionele baten** in de zin van art. 90, 1° WIB 1992: een prestatie/dienst aan derden, buiten een beroepswerkzaamheid en buiten het normaal beheer van een privévermogen. 📖
 > > 
 > > Art. 90, 1° viseert *"winst of baten, hoe ook genaamd, die zelfs occasioneel of toevallig, buiten het uitoefenen van een beroepswerkzaamheid, voortkomen uit enige prestatie, verrichting of speculatie of uit diensten bewezen aan derden, daaronder niet begrepen normale verrichtingen van beheer van een privévermogen"*. 📖
 > > 
@@ -470,7 +465,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Optie **c** is de klassieke afleider: "occasionele" beursverrichtingen lijken te passen bij "occasionele baten", maar art. 90, 1° sluit *"normale verrichtingen van beheer van een privévermogen bestaande uit ... portefeuillewaarden"* uitdrukkelijk uit. Enkel **speculatieve** verrichtingen (abnormaal risicovol, met geleend geld, hoge frequentie) worden belast — een loutere occasionele aan- en verkoop op de effectenbeurs is dat niet. De rechtspraak hanteert hier het criterium "goede huisvader". 🔗
 > > 
-> > *Art. 90, 1° WIB 1992 viseert winst of baten die — zelfs occasioneel of toevallig — voortkomen uit *enige prestatie, verrichting of speculatie of uit diensten bewezen aan derden*, buiten een beroepswerkzaamheid en buiten het normaal beheer van een privévermogen. Loterijprijzen vallen onder de taks op de spelen (vrijstelling toegelaten loterijen: art. 2.12.6.0.1 VCF). Inkomsten na stopzetting beroep: art. 28 WIB. 📖*  
+> > Art. 90, 1° WIB 1992 viseert winst of baten die — zelfs occasioneel of toevallig — voortkomen uit *enige prestatie, verrichting of speculatie of uit diensten bewezen aan derden*, buiten een beroepswerkzaamheid en buiten het normaal beheer van een privévermogen. Loterijprijzen vallen onder de taks op de spelen (vrijstelling toegelaten loterijen: art. 2.12.6.0.1 VCF). Inkomsten na stopzetting beroep: art. 28 WIB. 📖  
 > > *Bron: Art. 90, 1° WIB 1992; art. 28 WIB 1992; art. 2.12.6.0.1 VCF*
 
 <a id="2014-1-vr26"></a>
@@ -490,7 +485,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: e**
 > > 
-> > **_Optie **e** — stopzettingsmeerwaarden op immateriële vaste activa, met als plafond ("fiscaal maximumbedrag") de belastbare nettowinst of -baten van de vier voorafgaande jaren. Dit is letterlijk de hypothese van art. 171, 1°, c WIB92. 📖_**
+> > Optie **e** — stopzettingsmeerwaarden op immateriële vaste activa, met als plafond ("fiscaal maximumbedrag") de belastbare nettowinst of -baten van de vier voorafgaande jaren. Dit is letterlijk de hypothese van art. 171, 1°, c WIB92. 📖
 > > 
 > > Per optie:
 > > 
@@ -502,7 +497,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Drie tarieven door elkaar: **10 %** voor stopzetting ≥ 60 jaar / gedwongen stopzetting / overlijden (art. 171, 4°, b), **16,5 %** voor meerwaarden op MVA die **> 5 jaar** voor het beroep zijn gebruikt bij vrijwillige stopzetting < 60 jaar (art. 171, 4°, b), en **33 %** voor stopzettingsmeerwaarden op **immateriële** vaste activa bij vrijwillige stopzetting vóór 60 jaar (art. 171, 1°, c). Opties c en d klinken plausibel maar zetten het verkeerde tarief naast de juiste hypothese. 🔗
 > > 
-> > *Art. 171, 1°, c WIB92: "stopzettingsmeerwaarden op immateriële vaste activa als vermeld in artikel 28, eerste lid, 1° ... in zover zij niet meer bedragen dan de belastbare nettowinst of -baten die in de vier jaren voorafgaand aan het jaar van de stopzetting of de vermindering van de werkzaamheid uit de niet meer uitgeoefende werkzaamheid zijn verkregen" → 33 %, behoudens globalisering. Het meerdere boven dat plafond is progressief belast. 📖*  
+> > Art. 171, 1°, c WIB92: "stopzettingsmeerwaarden op immateriële vaste activa als vermeld in artikel 28, eerste lid, 1° ... in zover zij niet meer bedragen dan de belastbare nettowinst of -baten die in de vier jaren voorafgaand aan het jaar van de stopzetting of de vermindering van de werkzaamheid uit de niet meer uitgeoefende werkzaamheid zijn verkregen" → 33 %, behoudens globalisering. Het meerdere boven dat plafond is progressief belast. 📖  
 > > *Bron: Art. 171, 1°, c WIB92*
 
 <a id="2014-1-vr27"></a>
@@ -522,7 +517,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_Optie **b** is **niet juist** voor aanslagjaar 2013. Kinderoppas was vanaf aanslagjaar 2013 geen aftrekbare besteding meer, maar een **belastingvermindering** (art. 14535 WIB92). De stelling kwalificeert ze ten onrechte als "aftrekbaar". 🔗_**
+> > Optie **b** is **niet juist** voor aanslagjaar 2013. Kinderoppas was vanaf aanslagjaar 2013 geen aftrekbare besteding meer, maar een **belastingvermindering** (art. 14535 WIB92). De stelling kwalificeert ze ten onrechte als "aftrekbaar". 🔗
 > > 
 > > Per optie voor aanslagjaar 2013:
 > > 
@@ -534,7 +529,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Klassieke distractor: het **systematisch verschil** aftrekbare besteding ↔ belastingvermindering. Een aftrekbare besteding verlaagt het *belastbaar inkomen* en werkt aan de marginale aanslagvoet; een belastingvermindering verlaagt rechtstreeks de *belasting* (meestal aan een vast tarief). Sinds aanslagjaar 2013 is de lijst aftrekbare bestedingen in art. 104 WIB92 sterk afgeslankt (in essentie: onderhoudsuitkeringen + 50% beschermde monumenten). Kinderopvang, giften, PWA/dienstencheques enz. zijn naar art. 14524 e.v. WIB92 verhuisd als belastingverminderingen. 🔗
 > > 
-> > *Art. 104 WIB92 (aftrekbare bestedingen — kasstelsel, limitatieve lijst) ↔ art. 14535 WIB92 (belastingvermindering voor kinderoppas, sinds aanslagjaar 2013); art. 105 WIB92 (aanrekening bij gemeenschappelijke aanslag); art. 106 WIB92 + art. 56 KB/WIB92 (evenredige toerekening over inkomstencategorieën). 📖*  
+> > Art. 104 WIB92 (aftrekbare bestedingen — kasstelsel, limitatieve lijst) ↔ art. 14535 WIB92 (belastingvermindering voor kinderoppas, sinds aanslagjaar 2013); art. 105 WIB92 (aanrekening bij gemeenschappelijke aanslag); art. 106 WIB92 + art. 56 KB/WIB92 (evenredige toerekening over inkomstencategorieën). 📖  
 > > *Bron: Art. 104, 14535, 105, 106 WIB92; art. 56 KB/WIB92*
 
 <a id="2013-2-vr21"></a>
@@ -548,7 +543,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Belastbaar bedrag bij mevr. Martin voor aanslagjaar 2013: **80 % × (€ 100.000 × omzettingscoëfficiënt art. 73 KB/WIB92)**. Bij een leeftijd van 37 jaar op datum van betaling (10/06/1975 → 01/12/2012) bedraagt de coëfficiënt **1,5 %**, zodat de fictieve jaarlijkse rente = € 1.500 en het belastbaar bedrag = **€ 1.200**. 🔗_**
+> > Belastbaar bedrag bij mevr. Martin voor aanslagjaar 2013: **80 % × (€ 100.000 × omzettingscoëfficiënt art. 73 KB/WIB92)**. Bij een leeftijd van 37 jaar op datum van betaling (10/06/1975 → 01/12/2012) bedraagt de coëfficiënt **1,5 %**, zodat de fictieve jaarlijkse rente = € 1.500 en het belastbaar bedrag = **€ 1.200**. 🔗
 > > 
 > > **Mechaniek (art. 170 WIB92)**: een kapitaal dat een onderhoudsuitkering vervangt (art. 90, eerste lid, 3° WIB92) wordt **niet** in één keer belast — het wordt omgezet in een **fictieve jaarlijkse lijfrente** en die rente wordt elk jaar gezamenlijk met de andere inkomsten belast, ten belope van **80 %**, vanaf de dag van betaling tot het overlijden van de verkrijger. 📖
 > > 
@@ -560,7 +555,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet de **volledige € 100.000** belasten — dat is precies wat art. 170 WIB92 wil vermijden. Evenmin de eenmalige kapitaaluitkering afzonderlijk belasten aan een vast tarief (zoals bij sommige pensioenkapitalen): voor onderhoudskapitalen geldt **geen** afzonderlijke aanslag, maar wel **gezamenlijke** belasting van de fictieve jaarlijkse rente. ❓ De exacte omzettingscoëfficiënt voor leeftijd 37 moet bij het examen uit het Cijferzakboekje worden afgelezen — de hier gebruikte 1,5 % is de gangbare waarde voor deze leeftijdsklasse, maar te verifiëren. ❓
 > > 
-> > ***Art. 170 WIB92** — kapitaal art. 90, 3° belast tot bedrag jaarlijkse uitkering bekomen door omzettingscoëfficiënt art. 169 § 1 toe te passen; 80 % van die jaarlijkse uitkering wordt elk belastbaar tijdperk gezamenlijk belast tot overlijden van de verkrijger. **Art. 169 § 1 WIB92** + **art. 73 KB/WIB92**: omzettingscoëfficiënten in functie van de leeftijd. **Art. 90, eerste lid, 3° WIB92**: kapitalen die onderhoudsuitkeringen vervangen vormen een divers inkomen. 📖*  
+> > **Art. 170 WIB92** — kapitaal art. 90, 3° belast tot bedrag jaarlijkse uitkering bekomen door omzettingscoëfficiënt art. 169 § 1 toe te passen; 80 % van die jaarlijkse uitkering wordt elk belastbaar tijdperk gezamenlijk belast tot overlijden van de verkrijger. **Art. 169 § 1 WIB92** + **art. 73 KB/WIB92**: omzettingscoëfficiënten in functie van de leeftijd. **Art. 90, eerste lid, 3° WIB92**: kapitalen die onderhoudsuitkeringen vervangen vormen een divers inkomen. 📖  
 > > *Bron: art. 170 + art. 169 § 1 + art. 90, 3° WIB92; art. 73 KB/WIB92*
 >
 > Moet het bedrag voor de volgende aanslagjaren gewijzigd worden?
@@ -569,31 +564,31 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Neen** — het bedrag blijft voor de volgende aanslagjaren **ongewijzigd € 1.200** per jaar. Geen indexering, geen herberekening: art. 170 WIB92 fixeert het bedrag op het moment van de uitbetaling van het kapitaal. 🔗_**
+> > **Neen** — het bedrag blijft voor de volgende aanslagjaren **ongewijzigd € 1.200** per jaar. Geen indexering, geen herberekening: art. 170 WIB92 fixeert het bedrag op het moment van de uitbetaling van het kapitaal. 🔗
 > > 
 > > De omzettingscoëfficiënt wordt **één keer** toegepast — op het ogenblik van de betaling van het kapitaal en op basis van de leeftijd van de verkrijger op dat ogenblik. De resulterende fictieve jaarlijkse rente is een **constant** bedrag dat elk jaar wordt belast, zonder herevaluatie naargelang de verkrijger ouder wordt of naargelang indexcijfers. 🔗
 > > 
-> > ***Art. 170, tweede en derde lid WIB92** — het bedrag wordt vastgesteld door de omzettingscoëfficiënt toe te passen op het kapitaal (eenmalige bewerking); 80 % van die jaarlijkse uitkering wordt voor **elk** belastbaar tijdperk belast. Geen mechanisme van herberekening in de tekst. 📖*  
+> > **Art. 170, tweede en derde lid WIB92** — het bedrag wordt vastgesteld door de omzettingscoëfficiënt toe te passen op het kapitaal (eenmalige bewerking); 80 % van die jaarlijkse uitkering wordt voor **elk** belastbaar tijdperk belast. Geen mechanisme van herberekening in de tekst. 📖  
 > > *Bron: art. 170 WIB92*
 >
 > Gedurende hoeveel jaren zal er ten name van mevr. Martin een belasting worden gevestigd? Geef het aantal betrokken aanslagjaren of het jaar waarnaar het laatste betrokken aanslagjaar wordt genoemd.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De belasting wordt gevestigd **vanaf aanslagjaar 2013** (inkomsten 2012, jaar van betaling) **tot het aanslagjaar verbonden aan het jaar van overlijden van mevr. Martin** — het exacte aantal jaren is dus **onbepaald**, want het hangt af van haar levensduur. Geen vaste einddatum in de wet. 🔗_**
+> > De belasting wordt gevestigd **vanaf aanslagjaar 2013** (inkomsten 2012, jaar van betaling) **tot het aanslagjaar verbonden aan het jaar van overlijden van mevr. Martin** — het exacte aantal jaren is dus **onbepaald**, want het hangt af van haar levensduur. Geen vaste einddatum in de wet. 🔗
 > > 
 > > Art. 170, derde lid WIB92 is expliciet: **"vanaf de dag waarop dat kapitaal is betaald of toegekend en tot de dag van het overlijden van de verkrijger"** wordt 80 % van de jaarlijkse rente elk belastbaar tijdperk belast. Het stelsel kent dus geen vooraf bepaalde duur (anders dan bij sommige pensioenkapitalen waar bv. 10 of 13 belastbare tijdperken gelden — zie art. 515 WIB92). 📖
 > > 
 > > **Eerste aanslagjaar**: aj 2013 (inkomsten 2012 — betaling op 01/12/2012). **Laatste aanslagjaar**: het aanslagjaar verbonden aan het inkomstenjaar waarin mevr. Martin overlijdt. 🔗
 > > 
-> > ***Art. 170, derde lid WIB92** — belasting van 80 % van de jaarlijkse rente "vanaf de dag waarop dat kapitaal is betaald of toegekend en tot de dag van het overlijden van de verkrijger". Geen duur-plafond. 📖*  
+> > **Art. 170, derde lid WIB92** — belasting van 80 % van de jaarlijkse rente "vanaf de dag waarop dat kapitaal is betaald of toegekend en tot de dag van het overlijden van de verkrijger". Geen duur-plafond. 📖  
 > > *Bron: art. 170, derde lid WIB92*
 >
 > Bereken het bedrag dat bij dhr. Martin aftrekbaar zal zijn voor het aanslagjaar 2013. Het gaat om het bedrag dat in rekening wordt gebracht in de berekening van de belasting van dhr. Martin, en niet om het bedrag dat in de aangifte wordt ingevuld.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Aftrekbaar bij dhr. Martin voor aanslagjaar 2013 (bedrag dat in de **berekening** van de belasting wordt opgenomen — dus na toepassing van het aftrekpercentage): **80 % × € 1.500 = € 1.200**. In de **aangifte** wordt het volledige bedrag van de fictieve jaarlijkse rente (€ 1.500) vermeld; de fiscus past zelf de 80 %-beperking toe. 🔗_**
+> > Aftrekbaar bij dhr. Martin voor aanslagjaar 2013 (bedrag dat in de **berekening** van de belasting wordt opgenomen — dus na toepassing van het aftrekpercentage): **80 % × € 1.500 = € 1.200**. In de **aangifte** wordt het volledige bedrag van de fictieve jaarlijkse rente (€ 1.500) vermeld; de fiscus past zelf de 80 %-beperking toe. 🔗
 > > 
 > > **Symmetrie wettekst (aj 2013)**: art. 104, 1° WIB92 (versie aj 2013) liet **80 %** aftrek toe van regelmatig betaalde onderhoudsuitkeringen, alsmede van **de kapitalen die zulke uitkeringen vervangen**. Het kapitaal wordt voor de aftrek omgezet in dezelfde fictieve jaarlijkse rente als bij de verkrijger (art. 170 WIB92, gespiegeld toegepast bij de schuldenaar). ❓
 > > 
@@ -606,7 +601,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Wijziging na aj 2013**: het percentage in art. 104, 1° WIB92 werd later verlaagd; in de huidige wettekst staat **70 %**. Voor aj 2013 is **80 %** echter het correcte percentage. ❓
 > > 
-> > ***Art. 104, 1° WIB92** (versie aj 2013) — 80 % van de onderhoudsuitkeringen en **van de kapitalen die zulke uitkeringen vervangen** is aftrekbaar van het totale netto-inkomen. **Art. 170 WIB92** voor de omzetting van het kapitaal in een fictieve jaarlijkse rente. Spiegelbeginsel: wat bij de verkrijger belast wordt, is bij de schuldenaar aftrekbaar (mits aan de voorwaarden — wettelijke onderhoudsplicht, regelmatige betaling, niet samenwonend, EER-resident — voldaan; volgens de casus zijn alle wettelijke voorwaarden vervuld). 📖*  
+> > **Art. 104, 1° WIB92** (versie aj 2013) — 80 % van de onderhoudsuitkeringen en **van de kapitalen die zulke uitkeringen vervangen** is aftrekbaar van het totale netto-inkomen. **Art. 170 WIB92** voor de omzetting van het kapitaal in een fictieve jaarlijkse rente. Spiegelbeginsel: wat bij de verkrijger belast wordt, is bij de schuldenaar aftrekbaar (mits aan de voorwaarden — wettelijke onderhoudsplicht, regelmatige betaling, niet samenwonend, EER-resident — voldaan; volgens de casus zijn alle wettelijke voorwaarden vervuld). 📖  
 > > *Bron: art. 104, 1° + art. 170 WIB92*
 
 <a id="2013-2-vr22"></a>
@@ -647,7 +642,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Totaal aftrekbare verplaatsingskosten = 6.136,18 EUR** (wagen 5.486,18 + scooter 650,00). Voordeligste keuze: voor beide voertuigen **werkelijke kosten** toepassen (geen woon-werk-forfait van 0,15 €/km — dat zou ongunstiger uitkomen). 🔗_**
+> > **Totaal aftrekbare verplaatsingskosten = 6.136,18 EUR** (wagen 5.486,18 + scooter 650,00). Voordeligste keuze: voor beide voertuigen **werkelijke kosten** toepassen (geen woon-werk-forfait van 0,15 €/km — dat zou ongunstiger uitkomen). 🔗
 > > 
 > > **Beroepsbreuk wagen** = (3.500 woon-werk + 15.000 huisbezoeken) / 27.500 jaartotaal = **18.500/27.500 = 67,2727 %**. 🔗
 > > 
@@ -693,7 +688,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Voor een **PB-zelfstandige** (geen vennootschap) gold in aanslagjaar 2013 dat **brandstofkosten NIET onder de CO2-aftrekbeperking** van art. 66 §1 WIB92 vielen — die uitbreiding kwam pas met de Wet van 25.12.2017 (vanaf aj. 2020). Voor aj. 2013 dus: brandstof 100 % aftrekbaar op het beroepsgedeelte. **Interest** van financiering blijft sowieso buiten de beperking (art. 66 §1 al. 2 WIB92), in PB én in venn.B. Niet verwarren met het venn.B-regime waar brandstof reeds vanaf aj. 2010 op 75 % stond (art. 198bis WIB92). 🔗
 > > 
-> > ***Art. 66 §1 WIB92** (CO2-aftrekschaal personenwagens — aj. 2013): aftrekpercentage in functie van CO2-uitstoot en brandstoftype; benzine 89 g/km valt in schijf 61–105 g = 90 %. Uitgezonderd van de beperking: interest van financiering, brandstofkosten (PB-zelfstandige tot aj. 2019), mobilofoonkosten. **Art. 66bis WIB92**: forfait 0,15 €/km voor woon-werkverkeer bij gebrek aan bewijzen (max. 100 km enkele reis). **Art. 65 WIB92**: de beperking geldt enkel voor personenauto's, auto's voor dubbel gebruik en minibussen — scooter valt buiten scope. 📖*  
+> > **Art. 66 §1 WIB92** (CO2-aftrekschaal personenwagens — aj. 2013): aftrekpercentage in functie van CO2-uitstoot en brandstoftype; benzine 89 g/km valt in schijf 61–105 g = 90 %. Uitgezonderd van de beperking: interest van financiering, brandstofkosten (PB-zelfstandige tot aj. 2019), mobilofoonkosten. **Art. 66bis WIB92**: forfait 0,15 €/km voor woon-werkverkeer bij gebrek aan bewijzen (max. 100 km enkele reis). **Art. 65 WIB92**: de beperking geldt enkel voor personenauto's, auto's voor dubbel gebruik en minibussen — scooter valt buiten scope. 📖  
 > > *Bron: art. 65, 66 §1 en 66bis WIB92*
 
 <a id="2013-2-vr23"></a>
@@ -709,7 +704,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar.** Vergoedingen "gewaarborgd inkomen" tot herstel van een **tijdelijke** derving van beroepsinkomsten worden belast tegen de **gemiddelde aanslagvoet** van het laatste vorige jaar met 12 maanden beroepsinkomsten (art. 171, 5°, b WIB92), niet tegen 33%. 🔗_**
+> > **Niet waar.** Vergoedingen "gewaarborgd inkomen" tot herstel van een **tijdelijke** derving van beroepsinkomsten worden belast tegen de **gemiddelde aanslagvoet** van het laatste vorige jaar met 12 maanden beroepsinkomsten (art. 171, 5°, b WIB92), niet tegen 33%. 🔗
 > > 
 > > De stelling verwart twee verschillende afzonderlijke aanslagregimes:
 > > 
@@ -720,7 +715,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Klassieke verwarring: 33% komt wel voor in art. 171 WIB92, maar telkens bij andere situaties (stopzetting, vermindering werkzaamheid, diverse inkomsten art. 90 1°/9°/12°). Vergoedingen "gewaarborgd inkomen" tijdens een **tijdelijke** arbeidsongeschiktheid → gemiddelde aanslagvoet, niet 33%. Geheugensteun: "gewaarborgd inkomen" = ziekte/ongeval → komt terug aan het werk → gemiddelde aanslagvoet (anders zou belasting straffend zijn). 🤖
 > > 
-> > *Art. 171, 5°, b WIB92 — gemiddelde aanslagvoet voor vergoedingen tot herstel van een tijdelijke derving van beroepsinkomsten (art. 25, 6°, b; 27, tweede lid, 4°, b; 32, tweede lid, 2°; 33, derde lid). Te onderscheiden van art. 171, 1°, c (33% met 4-jaar-plafond, stopzettingsmeerwaarden en compensatievergoedingen voor **vermindering** van werkzaamheid). 📖*  
+> > Art. 171, 5°, b WIB92 — gemiddelde aanslagvoet voor vergoedingen tot herstel van een tijdelijke derving van beroepsinkomsten (art. 25, 6°, b; 27, tweede lid, 4°, b; 32, tweede lid, 2°; 33, derde lid). Te onderscheiden van art. 171, 1°, c (33% met 4-jaar-plafond, stopzettingsmeerwaarden en compensatievergoedingen voor **vermindering** van werkzaamheid). 📖  
 > > *Bron: Art. 171, 5°, b WIB92 (vs. art. 171, 1°, c)*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">André is loodgieter en heeft in de loop van 2012 een machine verkocht en daarop een meerwaarde behaald. Hij heeft de machine in 2004 in nieuwe staat aangekocht. Indien André de verkoopprijs van de machine herbelegt, zal de meerwaarde gespreid worden belast tegen de aanslagvoet van 16,5%.</span>
@@ -729,7 +724,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar.** De stelling combineert twee elkaar uitsluitende regimes. **Bij herbelegging** (art. 47 WIB92) wordt de meerwaarde **gespreid belast tegen het progressieve tarief**, naar verhouding van de afschrijvingen op het herbeleggingsactief — **niet** tegen 16,5%. Het 16,5%-tarief (art. 171, 4°, b) geldt enkel als men **niet** voor de gespreide belasting kiest. 🔗_**
+> > **Niet waar.** De stelling combineert twee elkaar uitsluitende regimes. **Bij herbelegging** (art. 47 WIB92) wordt de meerwaarde **gespreid belast tegen het progressieve tarief**, naar verhouding van de afschrijvingen op het herbeleggingsactief — **niet** tegen 16,5%. Het 16,5%-tarief (art. 171, 4°, b) geldt enkel als men **niet** voor de gespreide belasting kiest. 🔗
 > > 
 > > Voor meerwaarden op materiële vaste activa die sedert meer dan 5 jaar voor de beroepswerkzaamheid zijn gebruikt (machine aangekocht in 2004, verkocht in 2012 → 8 jaar, voldoet), heeft de zelfstandige een **keuze**:
 > > 
@@ -740,7 +735,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Klassieke examenval: "gespreid + 16,5%" klinkt mooi, maar is wettelijk onmogelijk. Onthoud: **16,5% = onmiddellijk afzonderlijk** ; **gespreid = progressief, prorata afschrijvingen**. Voor een zelfstandige zonder grote inkomsten kan gespreid belast tegen progressief tarief soms voordeliger zijn dan 16,5% direct; voor wie al hoog scoort op de progressieve schaal is 16,5% direct meestal interessanter. 🤖
 > > 
-> > *Art. 47 WIB92 — voorwaarden gespreide belasting (herbelegging in afschrijfbare vaste activa binnen 3 jaar, of 5 jaar voor gebouwen; meerwaarde wordt aangemerkt als winst/baten gespreid over de afschrijvingsperiode). Art. 171, 4°, b WIB92 — 16,5%-tarief voor meerwaarden op activa sedert meer dan 5 jaar voor de beroepswerkzaamheid gebruikt, **mits niet voor gespreide belasting werd gekozen**. 📖*  
+> > Art. 47 WIB92 — voorwaarden gespreide belasting (herbelegging in afschrijfbare vaste activa binnen 3 jaar, of 5 jaar voor gebouwen; meerwaarde wordt aangemerkt als winst/baten gespreid over de afschrijvingsperiode). Art. 171, 4°, b WIB92 — 16,5%-tarief voor meerwaarden op activa sedert meer dan 5 jaar voor de beroepswerkzaamheid gebruikt, **mits niet voor gespreide belasting werd gekozen**. 📖  
 > > *Bron: Art. 47 WIB92; Art. 171, 4°, b WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De aftrek van forfaitaire beroepskosten is mogelijk voor de bezoldigingen van werknemers en de bezoldigingen van bedrijfsleiders, maar is niet mogelijk voor de baten van vrije beroepen.</span>
@@ -749,7 +744,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar.** Art. 51 WIB92 voorziet **wél** een forfaitaire kostenaftrek voor baten van vrije beroepen, in degressieve schijven (28,7% / 10% / 5% / 3%). Forfaitaire beroepskosten zijn dus mogelijk voor zowel werknemers, bedrijfsleiders, meewerkende echtgenoten, **baten** als winst. 📖_**
+> > **Niet waar.** Art. 51 WIB92 voorziet **wél** een forfaitaire kostenaftrek voor baten van vrije beroepen, in degressieve schijven (28,7% / 10% / 5% / 3%). Forfaitaire beroepskosten zijn dus mogelijk voor zowel werknemers, bedrijfsleiders, meewerkende echtgenoten, **baten** als winst. 📖
 > > 
 > > Forfaitaire kostenpercentages (art. 51, tweede lid WIB92):
 > > 
@@ -765,7 +760,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De stelling klopt **wel** als ze zou zeggen dat het forfait voor baten lager uitvalt dan voor werknemers — een vrij beroep met hoge baten heeft praktisch baat bij **werkelijke** beroepskosten te bewijzen. Maar het forfait bestaat juridisch voor élke beroepsinkomensoort behalve voor bepaalde uitgesloten vergoedingen (zie art. 51, eerste lid: aankoopprijs verkochte goederen en sociale bijdragen art. 52, 7°/8°). 🔗
 > > 
-> > *Art. 51 WIB92 — "Met betrekking tot andere bezoldigingen, winst en baten ... worden de beroepskosten, bij gebrek aan bewijzen, forfaitair bepaald op percentages van het brutobedrag." De wet noemt expliciet **baten** in punt 4° (degressieve schijven 28,7% → 3%). Geen wettelijke uitzondering voor vrije beroepen. 📖*  
+> > Art. 51 WIB92 — "Met betrekking tot andere bezoldigingen, winst en baten ... worden de beroepskosten, bij gebrek aan bewijzen, forfaitair bepaald op percentages van het brutobedrag." De wet noemt expliciet **baten** in punt 4° (degressieve schijven 28,7% → 3%). Geen wettelijke uitzondering voor vrije beroepen. 📖  
 > > *Bron: Art. 51 WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Wanneer een belastingplichtige een rustpensioen uit het buitenland ontvangt, is dit in België nooit belastbaar, maar komt het wel in aanmerking voor de berekening van het progressievoorbehoud.</span>
@@ -774,7 +769,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar.** De stelling is veel te absoluut. Een buitenlands rustpensioen is in België **in beginsel belastbaar** als rijksinwoner-inkomen (art. 5 + art. 34 WIB92). Het is **enkel** vrijgesteld als een dubbelbelastingverdrag (DBV) de heffingsbevoegdheid aan de bronstaat toekent — en dan geldt vrijstelling met progressievoorbehoud (art. 155 WIB92). "Nooit belastbaar" klopt dus niet. 🔗_**
+> > **Niet waar.** De stelling is veel te absoluut. Een buitenlands rustpensioen is in België **in beginsel belastbaar** als rijksinwoner-inkomen (art. 5 + art. 34 WIB92). Het is **enkel** vrijgesteld als een dubbelbelastingverdrag (DBV) de heffingsbevoegdheid aan de bronstaat toekent — en dan geldt vrijstelling met progressievoorbehoud (art. 155 WIB92). "Nooit belastbaar" klopt dus niet. 🔗
 > > 
 > > Het werkelijke regime:
 > > 
@@ -787,7 +782,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Stagiairs verwarren "buitenlands inkomen" vaak automatisch met "vrijgesteld in België". Standaardregel: Belg = belast op wereldwijd inkomen. Vrijstelling is de **uitzondering** en hangt af van het concrete verdrag én van het type pensioen (publiek vs. privé, kasstaat vs. bronstaat). "Nooit" is in fiscaal recht zelden juist. 🤖
 > > 
-> > *Art. 5 WIB92 (wereldwijde belastbaarheid rijksinwoners) + art. 34 WIB92 (pensioenen als beroepsinkomen) + art. 155 WIB92 (vrijstelling met progressievoorbehoud krachtens DBV). De vrijstelling treedt **alleen** op als het toepasselijke DBV de heffingsbevoegdheid aan de bronstaat toekent met vrijstellingsclausule. 📖*  
+> > Art. 5 WIB92 (wereldwijde belastbaarheid rijksinwoners) + art. 34 WIB92 (pensioenen als beroepsinkomen) + art. 155 WIB92 (vrijstelling met progressievoorbehoud krachtens DBV). De vrijstelling treedt **alleen** op als het toepasselijke DBV de heffingsbevoegdheid aan de bronstaat toekent met vrijstellingsclausule. 📖  
 > > *Bron: Art. 5, 34, 155 WIB92 + toepasselijk DBV*
 
 <a id="2013-1-vr20"></a>
@@ -821,7 +816,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_André is 58 jaar en stopt vrijwillig (geen overlijden, geen gedwongen stopzetting) → tarief 10 % is uitgesloten. Toepasselijke regimes: **16,5 %** voor materiële vaste activa die > 5 jaar voor het beroep werden gebruikt (art. 171, 4°, b WIB92) en **33 % + progressief** voor cliënteel (art. 171, 1°, c + plafond "4 × 4"). Commissieloon bemiddelaar (10 %) is een werkelijke kost van overdracht en wordt pro rata in mindering gebracht (rubriek 1 vak XXI). 🔗_**
+> > André is 58 jaar en stopt vrijwillig (geen overlijden, geen gedwongen stopzetting) → tarief 10 % is uitgesloten. Toepasselijke regimes: **16,5 %** voor materiële vaste activa die > 5 jaar voor het beroep werden gebruikt (art. 171, 4°, b WIB92) en **33 % + progressief** voor cliënteel (art. 171, 1°, c + plafond "4 × 4"). Commissieloon bemiddelaar (10 %) is een werkelijke kost van overdracht en wordt pro rata in mindering gebracht (rubriek 1 vak XXI). 🔗
 > > 
 > > | Bestanddeel | Verkoopprijs (beroep) | Commissie 10 % | Boekwaarde (aanname) | Meerwaarde | Aanslagvoet |
 > > |---|---:|---:|---:|---:|---|
@@ -857,10 +852,10 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het tarief van **10 %** (art. 171, 2° WIB92) is hier **niet** van toepassing: dit vereist stopzetting **vanaf 60 jaar**, of gedwongen stopzetting (gezondheid, onteigening), of overlijden. André is 58 en stopt vrijwillig → 16,5 % blijft het laagste tarief voor MVA. Tweede valkuil: de "4 × 4"-regel geldt **enkel voor cliënteel en andere immateriële vaste activa** (art. 171, 1°, c) — niet voor MVA. Derde valkuil: het privégedeelte van het gebouw (50 %, 1ste verdieping) behoort niet tot de beroepswerkzaamheid en mag **niet** in vak XXI verschijnen; bij verkoop > 5 of > 8 jaar na aankoop is dit zelfs volledig vrijgesteld van diverse-inkomsten-belasting (art. 90, 8°). 🔗
 > > 
-> > ***Art. 171, 1°, c WIB92**: 33 % op stopzettingsmeerwaarden op immateriële vaste activa, in zover zij niet meer bedragen dan de belastbare nettowinst van de **vier jaren voorafgaand** aan de stopzetting ("4 × 4"-plafond). Het meerdere is gezamenlijk belastbaar. 📖
+> > **Art. 171, 1°, c WIB92**: 33 % op stopzettingsmeerwaarden op immateriële vaste activa, in zover zij niet meer bedragen dan de belastbare nettowinst van de **vier jaren voorafgaand** aan de stopzetting ("4 × 4"-plafond). Het meerdere is gezamenlijk belastbaar. 📖
 > > **Art. 171, 4°, b WIB92**: 16,5 % op stopzettingsmeerwaarden op materiële vaste activa die **meer dan 5 jaar** voor de beroepswerkzaamheid werden gebruikt. 📖
 > > **Art. 171, 2° WIB92**: 10 % uitsluitend bij stopzetting vanaf 60 jaar, gedwongen stopzetting of overlijden — niet van toepassing op André (58, vrijwillig). 📖
-> > **Vak XXI aangifte PB**: rubriek 1 "Stopzettingsmeerwaarden **na aftrek van werkelijke kosten van overdracht**" — codes 1690-56 (16,5 %), 1691-55 (33 %), 1692-54 (gezamenlijk). 📖*  
+> > **Vak XXI aangifte PB**: rubriek 1 "Stopzettingsmeerwaarden **na aftrek van werkelijke kosten van overdracht**" — codes 1690-56 (16,5 %), 1691-55 (33 %), 1692-54 (gezamenlijk). 📖  
 > > *Bron: Art. 171, 1°, c + 4°, b + 2° WIB92; vak XXI aangifte PB*
 
 <a id="2013-1-vr21"></a>
@@ -876,11 +871,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT.** De bonificatie wordt berekend op de **totale** verschuldigde belasting (na verrekening van voorheffingen en de voorafbetalingen die vermeerdering vermijden), niet beperkt tot het deel dat betrekking heeft op beroepsinkomsten. 🔗_**
+> > **FOUT.** De bonificatie wordt berekend op de **totale** verschuldigde belasting (na verrekening van voorheffingen en de voorafbetalingen die vermeerdering vermijden), niet beperkt tot het deel dat betrekking heeft op beroepsinkomsten. 🔗
 > > 
 > > Art. 175 WIB92 spreekt van een bonificatie "op de totale belasting, verhoogd tot 106 pct." verminderd met voorheffingen en de noodzakelijke voorafbetalingen — er is geen splitsing per inkomsten-categorie. 📖 Voor werknemers geldt bovendien dat de bedrijfsvoorheffing normaal volstaat zodat er geen vermeerdering wegens onvoldoende voorafbetaling is; doet de werknemer toch vrijwillig een voorafbetaling, dan komt **het volledige bedrag** in aanmerking voor bonificatie (art. 176 WIB92) — opnieuw zonder beperking tot belasting op beroepsinkomsten. 🔗
 > > 
-> > *Art. 175-177 WIB92 — bonificatie op totale belasting; tarief 1,5/1,25/1/0,75 × basisrentevoet naargelang vervaldag (10/4, 10/7, 10/10, 20/12). 📖*  
+> > Art. 175-177 WIB92 — bonificatie op totale belasting; tarief 1,5/1,25/1/0,75 × basisrentevoet naargelang vervaldag (10/4, 10/7, 10/10, 20/12). 📖  
 > > *Bron: Art. 175-177 WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De interest van een spaarrekening geopend ten name van een minderjarig kind, moet nooit worden opgenomen in de belastbare grondslag van de ouders, tenzij de ouders gehuwd zijn onder het stelsel van de wettelijke gemeenschap.</span>
@@ -889,13 +884,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT.** De huwelijksstelselgedachte is niet relevant. Interesten van een spaarrekening op naam van een minderjarig kind worden samengevoegd met het inkomen van de ouders zodra de ouders het **wettelijk genot** van de goederen van het kind hebben (art. 384 oud BW) — onafhankelijk van hun huwelijksstelsel. 🔗_**
+> > **FOUT.** De huwelijksstelselgedachte is niet relevant. Interesten van een spaarrekening op naam van een minderjarig kind worden samengevoegd met het inkomen van de ouders zodra de ouders het **wettelijk genot** van de goederen van het kind hebben (art. 384 oud BW) — onafhankelijk van hun huwelijksstelsel. 🔗
 > > 
 > > Art. 126 WIB92 koppelt de samenvoeging aan het wettelijk genot dat de ouders hebben op de goederen van hun minderjarige kinderen. Dat wettelijk genot vloeit voort uit art. 384 oud BW ("de ouders hebben het genot van de goederen van hun kinderen tot aan hun meerderjarigheid") en bestaat ongeacht of de ouders gehuwd zijn onder gemeenschap, scheiding van goederen, of zelfs niet gehuwd zijn. 📖 Samenvoeging stopt enkel bij ontheffing van het wettelijk genot (bv. bij ontvoogding of beslissing van de familierechtbank), niet door het huwelijksstelsel. 🔗
 > > 
 > > Vrijgestelde schijf gereglementeerde spaarrekening (art. 21, 5° WIB92) blijft van toepassing op de samengevoegde interesten; alleen het surplus wordt effectief belast bij de ouders. 🤖
 > > 
-> > *Art. 126 WIB92 (samenvoeging inkomsten van kinderen waarvan de ouders het wettelijk genot hebben); art. 384 oud BW (wettelijk genot van de ouders). 📖*  
+> > Art. 126 WIB92 (samenvoeging inkomsten van kinderen waarvan de ouders het wettelijk genot hebben); art. 384 oud BW (wettelijk genot van de ouders). 📖  
 > > *Bron: Art. 126 WIB92 · art. 384 oud BW*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Wanneer de eigendom van een onroerend goed gesplitst is en dat goed verhuurd wordt aan een huurder die het gebruikt voor de uitoefening van zijn beroep, zal de naakte eigenaar belast worden op het kadastraal inkomen en zal de vruchtgebruiker belast worden op de ontvangen huur.</span>
@@ -904,13 +899,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT.** Het is **omgekeerd**: de **vruchtgebruiker** (niet de naakte eigenaar) wordt belast op het onroerend inkomen — KI verhoogd met 40% of de werkelijke huur indien de huurder het goed voor zijn beroep gebruikt (art. 11 + art. 7 WIB92). De naakte eigenaar ontvangt geen inkomen en wordt niet belast. 🔗_**
+> > **FOUT.** Het is **omgekeerd**: de **vruchtgebruiker** (niet de naakte eigenaar) wordt belast op het onroerend inkomen — KI verhoogd met 40% of de werkelijke huur indien de huurder het goed voor zijn beroep gebruikt (art. 11 + art. 7 WIB92). De naakte eigenaar ontvangt geen inkomen en wordt niet belast. 🔗
 > > 
 > > Art. 11 WIB92 wijst het onroerend inkomen toe aan wie het genot van het goed heeft — bij vruchtgebruik is dat de vruchtgebruiker, niet de blote eigenaar. 📖 Bij verhuur aan een huurder die het goed voor zijn beroep gebruikt, geldt de regel van art. 7, § 1, 2°, c WIB92: belasting op brutohuur en huurvoordelen, met aftrek van de forfaitaire kostenaftrek (40% gebouw / 10% grond), met als minimum het geïndexeerd KI × 1,40. 🔗 Die brutohuur wordt aangegeven door de vruchtgebruiker; de naakte eigenaar geeft niets aan voor dat goed. 🔗
 > > 
 > > Niet verwarren met successie- of registratierechten waar de blote eigenaar wél een te belasten waardeaccres ondergaat: in de inkomstenbelasting volgt het inkomen het genot, dus de vruchtgebruiker. 🤖
 > > 
-> > *Art. 11 WIB92 (toerekening aan eigenaar/vruchtgebruiker met genot); art. 7 WIB92 (belastbare basis volgens gebruik door huurder). 📖*  
+> > Art. 11 WIB92 (toerekening aan eigenaar/vruchtgebruiker met genot); art. 7 WIB92 (belastbare basis volgens gebruik door huurder). 📖  
 > > *Bron: Art. 7 + Art. 11 WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De enige beroepsinkomsten die in aanmerking komen voor de forfaitaire aftrek van beroepskosten zijn de inkomsten van werknemers en de inkomsten van bedrijfsleiders.</span>
@@ -919,13 +914,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT.** De forfaitaire beroepskostenaftrek (art. 51 WIB92) staat **ook open voor baten** (vrije beroepen, ambten en posten, winstgevende bezigheden), niet enkel voor werknemers en bedrijfsleiders. Winsten van zelfstandigen zijn de belangrijkste uitzondering — daar geldt geen forfait. 🔗_**
+> > **FOUT.** De forfaitaire beroepskostenaftrek (art. 51 WIB92) staat **ook open voor baten** (vrije beroepen, ambten en posten, winstgevende bezigheden), niet enkel voor werknemers en bedrijfsleiders. Winsten van zelfstandigen zijn de belangrijkste uitzondering — daar geldt geen forfait. 🔗
 > > 
 > > Art. 51, tweede lid WIB92 lijst de inkomsten op waarop het kostenforfait toepasselijk is: bezoldigingen van werknemers (art. 30, 1°), bezoldigingen van bedrijfsleiders (art. 30, 2°) **én** baten (art. 27 WIB92) van houders van een vrij beroep en gelijkgestelde activiteiten. 📖 Winsten van handels-, ambachts- en landbouwondernemingen (art. 24 WIB92) komen niet in aanmerking — die moeten werkelijke beroepskosten bewijzen. 🔗
 > > 
 > > Het forfait-percentage en plafond verschillen per categorie: werknemers (degressieve schaal met hoog plafond), bedrijfsleiders (vast 3%, plafond circa € 3.030 (aj. 2025)), baten (degressieve schaal). Bij meewerkende echtgenoot geldt nog een aparte regeling. 🔗
 > > 
-> > *Art. 51 WIB92 — forfaitaire beroepskosten van toepassing op bezoldigingen van werknemers, bezoldigingen van bedrijfsleiders **en** baten. 📖*  
+> > Art. 51 WIB92 — forfaitaire beroepskosten van toepassing op bezoldigingen van werknemers, bezoldigingen van bedrijfsleiders **en** baten. 📖  
 > > *Bron: Art. 51 WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Auteursrechten worden nooit als beroepsinkomsten beschouwd maar worden steeds als roerende inkomsten belast.</span>
@@ -934,13 +929,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT.** Auteursrechten behouden enkel hun roerend karakter **binnen de wettelijke grenzen**. Boven die grenzen (drempelbedrag en/of 30%-regel) en wanneer ze worden gebruikt voor de beroepswerkzaamheid van de verkrijger, worden ze geherkwalificeerd als beroepsinkomsten (art. 37 WIB92). 🔗_**
+> > **FOUT.** Auteursrechten behouden enkel hun roerend karakter **binnen de wettelijke grenzen**. Boven die grenzen (drempelbedrag en/of 30%-regel) en wanneer ze worden gebruikt voor de beroepswerkzaamheid van de verkrijger, worden ze geherkwalificeerd als beroepsinkomsten (art. 37 WIB92). 🔗
 > > 
 > > Art. 17, § 1, 5° WIB92 kwalificeert vergoedingen voor de overdracht of licentie van auteursrechten en naburige rechten als roerende inkomsten. 📖 Art. 37 WIB92 maakt daarop een belangrijke afwijking: indien die rechten worden gebruikt voor het uitoefenen van de beroepswerkzaamheid van de verkrijger én bepaalde drempels (huidige regeling: jaargrens van € 37.500 (te indexeren) én een 30%-verhouding tussen auteursrechten en totale vergoedingen) worden overschreden, worden zij **als beroepsinkomsten aangemerkt**. 📖 "Steeds als roerende inkomsten" en "nooit beroepsinkomsten" is dus onjuist. 🔗
 > > 
 > > De huidige (verstrakte) regeling van art. 37 WIB92 dateert van na 2013 (programmawet 26 december 2022). In 2013 was de afbakening louter "binnen het plafond = roerend, daarboven = beroeps" zonder de 30%-regel. De kern van de stelling — dat auteursrechten *steeds* roerend zouden zijn — is in beide regimes fout. 🔗
 > > 
-> > *Art. 17, § 1, 5° WIB92 (kwalificatie als roerend inkomen binnen grenzen); art. 37, tweede lid WIB92 (afwijking — beroepsinkomsten boven drempels en bij beroepsgebruik). 📖*  
+> > Art. 17, § 1, 5° WIB92 (kwalificatie als roerend inkomen binnen grenzen); art. 37, tweede lid WIB92 (afwijking — beroepsinkomsten boven drempels en bij beroepsgebruik). 📖  
 > > *Bron: Art. 17 § 1, 5° + Art. 37 WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Bij werknemers worden, alvorens de forfaitaire beroepskosten te berekenen, eerst de door de werknemer gedragen persoonlijke sociale bijdragen die door de werkgever niet werden ingehouden afgetrokken.</span>
@@ -949,13 +944,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST.** Persoonlijke sociale bijdragen die de werknemer zelf heeft betaald en die de werkgever niet aan de bron heeft ingehouden, worden eerst van de brutobezoldiging afgetrokken; het forfait wordt vervolgens berekend op het saldo. 🔗_**
+> > **JUIST.** Persoonlijke sociale bijdragen die de werknemer zelf heeft betaald en die de werkgever niet aan de bron heeft ingehouden, worden eerst van de brutobezoldiging afgetrokken; het forfait wordt vervolgens berekend op het saldo. 🔗
 > > 
 > > Art. 52, 7° WIB92 erkent persoonlijke sociale bijdragen uitdrukkelijk als beroepskost. 📖 Voor de berekening van het kostenforfait gaat men uit van de nettobezoldiging na aftrek van die persoonlijke RSZ-bijdragen (niet-ingehouden bijdragen worden door de belastingplichtige zelf afgetrokken via een eigen aangifte-code). 🔗 Het forfait (art. 51 WIB92) treedt vervolgens in de plaats van de overige werkelijke kosten — niet in de plaats van de aftrek van sociale bijdragen, die los staat. 🔗
 > > 
 > > Werkgeversbijdragen die de werkgever bovenop het brutoloon stort, zijn voor de werknemer geen belastbare bezoldiging en spelen dus niet in deze berekening; enkel de **persoonlijke** bijdragen van de werknemer (RSZ-aandeel werknemer, eventuele niet-ingehouden bijdragen) doen mee. 🤖
 > > 
-> > *Art. 51 WIB92 (forfait) + Art. 52, 7° WIB92 (persoonlijke sociale bijdragen aftrekbaar als beroepskost). 📖*  
+> > Art. 51 WIB92 (forfait) + Art. 52, 7° WIB92 (persoonlijke sociale bijdragen aftrekbaar als beroepskost). 📖  
 > > *Bron: Art. 51 + Art. 52, 7° WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Wanneer een bedrijfsleider het bedrag van het verlies van zijn vennootschap dat hij ten laste wil nemen op het debet van zijn rekening-courant laat inschrijven, kan dat bedrag ten name van de bedrijfsleider als beroepskosten worden afgetrokken.</span>
@@ -964,13 +959,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT.** Een loutere debet-inschrijving op de rekening-courant volstaat niet. Art. 53, 15° WIB92 vereist een **onherroepelijke en daadwerkelijke betaling** van het verliesbedrag, die bovendien door de vennootschap effectief wordt aangewend om het verlies te delgen. Een boekhoudkundige inschrijving is geen betaling. 🔗_**
+> > **FOUT.** Een loutere debet-inschrijving op de rekening-courant volstaat niet. Art. 53, 15° WIB92 vereist een **onherroepelijke en daadwerkelijke betaling** van het verliesbedrag, die bovendien door de vennootschap effectief wordt aangewend om het verlies te delgen. Een boekhoudkundige inschrijving is geen betaling. 🔗
 > > 
 > > Art. 53, 15° WIB92 sluit als beroepskost uit: "verliezen van vennootschappen ten laste genomen door natuurlijke personen, behalve indien het gaat om bedrijfsleiders, deze tenlasteneming geschiedt door onherroepelijke en daadwerkelijke betaling van een som, gedaan met het doel bezoldigingen te behouden en het aldus betaalde bedrag door de vennootschap volledig wordt gebruikt om het verlies aan te zuiveren." 📖 Drie cumulatieve voorwaarden: (i) **daadwerkelijke en onherroepelijke betaling** — geen loutere boeking, (ii) **doel = behoud bezoldigingen**, (iii) **aanwending door de vennootschap voor verliesdelging**. 🔗 Een eenvoudige debet-boeking op de R/C creëert enkel een vordering van de vennootschap op de bedrijfsleider; er is dan geen sprake van een werkelijke geldstroom of overdracht van middelen. De cassatierechtspraak en de administratie zijn op dit punt constant: een loutere R/C-boeking voldoet niet aan het criterium "daadwerkelijk betaald". 🔗
 > > 
 > > Wel aanvaard: storting in cash of via overschrijving op de rekening van de vennootschap, of een **creditering** op de R/C-rekening van de bedrijfsleider die vervolgens onmiddellijk wordt aangewend om de openstaande schuld (verlies) te delgen. Een **debet**-boeking op de R/C van de bedrijfsleider (hij wordt schuldenaar) is daarentegen geen tenlasteneming. 🤖
 > > 
-> > *Art. 53, 15° WIB92 — tenlasteneming verlies vennootschap door bedrijfsleider enkel aftrekbaar bij onherroepelijke en daadwerkelijke betaling, behoud van bezoldigingen, aanwending voor verliesdelging. 📖*  
+> > Art. 53, 15° WIB92 — tenlasteneming verlies vennootschap door bedrijfsleider enkel aftrekbaar bij onherroepelijke en daadwerkelijke betaling, behoud van bezoldigingen, aanwending voor verliesdelging. 📖  
 > > *Bron: Art. 53, 15° WIB92*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De herkwalificatie van huur tot bezoldigingen die ten name van een bedrijfsleider wordt uitgevoerd, heeft betrekking op alle onroerende goederen, inclusief terreinen.</span>
@@ -979,13 +974,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT.** De herkwalificatie van huur tot bezoldiging (art. 32, derde lid, 3° WIB92) geldt enkel voor **gebouwde** onroerende goederen, **niet voor terreinen** (ongebouwd). 🔗_**
+> > **FOUT.** De herkwalificatie van huur tot bezoldiging (art. 32, derde lid, 3° WIB92) geldt enkel voor **gebouwde** onroerende goederen, **niet voor terreinen** (ongebouwd). 🔗
 > > 
 > > Art. 32, 3° WIB92 herkwalificeert "in afwijking van artikel 7, de huurprijs en de huurvoordelen **van een gebouwd onroerend goed** verhuurd door de in het eerste lid, 1°, vermelde personen aan de vennootschap waarin zij een opdracht of gelijksoortige functies uitoefenen, voor zover zij meer bedragen dan vijf derden van het kadastraal inkomen gerevaloriseerd met de in artikel 13 vermelde coëfficiënt." 📖 De wettekst is expliciet beperkt tot "gebouwd onroerend goed" — terreinen (gronden, ongebouwde percelen) vallen er buiten en blijven onroerende inkomsten in hoofde van de bedrijfsleider, ongeacht de huurprijs. 🔗
 > > 
 > > Bij een gemengd goed (gebouw + grond) wordt enkel het gebouwgedeelte aan de 5/3 × KI × revalorisatiecoëfficiënt-test onderworpen. De drempel is in 2025 5/3 × geïndexeerd KI × 5,46 (revalorisatiecoëfficiënt aj. 2025). 🔗 Bedrijfsleider verhuurt enkel terrein → geen herkwalificatie; verhuurt gebouw + grond samen → enkel het gebouw kan geherkwalificeerd worden. 🤖
 > > 
-> > *Art. 32, derde lid, 3° WIB92 — herkwalificatie beperkt tot gebouwde onroerende goederen, drempel 5/3 × geïndexeerd KI × revalorisatiecoëfficiënt (art. 13 WIB92). 📖*  
+> > Art. 32, derde lid, 3° WIB92 — herkwalificatie beperkt tot gebouwde onroerende goederen, drempel 5/3 × geïndexeerd KI × revalorisatiecoëfficiënt (art. 13 WIB92). 📖  
 > > *Bron: Art. 32, derde lid, 3° + Art. 13 WIB92*
 
 <a id="2008-bibf-vrF1"></a>
@@ -1001,11 +996,11 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Lening van 13.03.2004 (oud stelsel, pré-woonbonus):
+> > Lening van 13.03.2004 (oud stelsel, pré-woonbonus):
 > > 
 > > - **Gewone intrestaftrek**: blijft behouden. 📖
 > > - **Aanvullende intrestaftrek**: gaat verloren door de erfenis. 📖
-> > - **Kapitaalaflossingen (belastingvermindering bouwsparen)**: blijft behouden. 📖_**
+> > - **Kapitaalaflossingen (belastingvermindering bouwsparen)**: blijft behouden. 📖
 > > 
 > > Onder het oude stelsel (lening vóór 01.01.2005) bestaan drie afzonderlijke voordelen, elk met hun eigen voorwaarden:
 > > 
@@ -1015,7 +1010,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet alle drie de voordelen worden gelijk getroffen. De **gewone** intrestaftrek heeft géén enige-woning-voorwaarde, en de **bouwsparenvermindering** kijkt enkel naar het moment van het aangaan van de lening (eenmalige toets). Alleen de **aanvullende** intrestaftrek wordt jaar per jaar getoetst en valt dus weg vanaf het jaar waarin een tweede onroerend goed in het patrimonium komt. 🔗
 > > 
-> > *Oud stelsel — art. 14, art. 104, 9°, art. 115-116 en art. 14517 e.v. WIB92, zoals ze bestonden vóór hun opheffing/wijziging door art. 394-395 en 400 van de programmawet van 27.12.2004; overgangsregeling in art. 526 WIB92 vrijwaart deze regels voor leningen aangegaan vóór 01.01.2005. 📖*  
+> > Oud stelsel — art. 14, art. 104, 9°, art. 115-116 en art. 14517 e.v. WIB92, zoals ze bestonden vóór hun opheffing/wijziging door art. 394-395 en 400 van de programmawet van 27.12.2004; overgangsregeling in art. 526 WIB92 vrijwaart deze regels voor leningen aangegaan vóór 01.01.2005. 📖  
 > > *Bron: WIB92 art. 14 · art. 104, 9° (oud) · art. 115-116 (oud) · art. 14517 e.v. (oud) · art. 526 (overgang)*
 >
 > Indien Gert deze hypothecaire lening afgesloten had op 13.03.
@@ -1024,12 +1019,12 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Lening van 13.03.2005 (woonbonus-stelsel, art. 104, 9° oud / art. 14545 WIB92):
+> > Lening van 13.03.2005 (woonbonus-stelsel, art. 104, 9° oud / art. 14545 WIB92):
 > > 
 > > - **Aftrek voor enige eigen woning (woonbonus)**: het recht op de aftrek blijft behouden. 📖
 > > - **Verhoging woonbonus** (€ 650 voor de eerste 10 jaar): verdwijnt vanaf het jaar van de erfenis. 📖
 > > 
-> > Kapitaalaflossingen en intresten worden onder dit stelsel samen verwerkt via één belastingvermindering — er is geen aparte behandeling meer zoals onder het oude stelsel. 🔗_**
+> > Kapitaalaflossingen en intresten worden onder dit stelsel samen verwerkt via één belastingvermindering — er is geen aparte behandeling meer zoals onder het oude stelsel. 🔗
 > > 
 > > De woonbonus (oorspronkelijk "aftrek voor enige eigen woning", art. 104, 9° WIB92 vóór de regionalisering, nadien omgezet in de belastingvermindering van art. 14545 WIB92) bestaat uit twee componenten:
 > > 
@@ -1038,7 +1033,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De woonbonus-hervorming van 2005 vereenvoudigde de behandeling: intresten én kapitaalaflossingen vallen onder één enkel forfaitair aftrekbaar (later: belastingverminderbaar) bedrag. De erfenis raakt enkel de **verhoging** voor enige woning — niet het basisrecht zelf. Dit verschilt fundamenteel van het oude stelsel waar de aanvullende intrestaftrek volledig wegvalt. 🔗
 > > 
-> > *Art. 104, 9° WIB92 (zoals bestond vóór opheffing door art. 20 W. 08.05.2014, regionalisering), nadien omgezet in de belastingvermindering van art. 14545 WIB92. De "enige woning"-toets gebeurt op 31 december van het jaar waarin de lening is gesloten voor het basisrecht; de verhoging vereist een jaarlijkse toets. 📖*  
+> > Art. 104, 9° WIB92 (zoals bestond vóór opheffing door art. 20 W. 08.05.2014, regionalisering), nadien omgezet in de belastingvermindering van art. 14545 WIB92. De "enige woning"-toets gebeurt op 31 december van het jaar waarin de lening is gesloten voor het basisrecht; de verhoging vereist een jaarlijkse toets. 📖  
 > > *Bron: WIB92 art. 104, 9° (oud) · art. 14545 (huidig, gewestelijk) · art. 526 (overgang)*
 
 <a id="2008-bibf-vrF2"></a>
@@ -1079,13 +1074,13 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het KI 1.200 is reeds het niet-geïndexeerde bedrag — nooit zelf indexeren of × 1,40 doen in de aangifte: de fiscus past de indexering en de 40%-verhoging toe op basis van de aangegeven codes 1106/2106. 🔗
 > > 
-> > ***Onroerend inkomen** — art. 7 § 1, 2° a) WIB 92: voor gebouwen verhuurd aan een natuurlijke persoon die ze niet voor zijn beroep gebruikt, is het belastbaar onroerend inkomen het KI verhoogd met 40% (verhoging wordt automatisch door fiscus toegepast). Aangiftecodes 1106/2106 in vak III rubriek 2. Pro rata bij verkoop in de loop van het jaar (art. 9 WIB 92). 📖
+> > **Onroerend inkomen** — art. 7 § 1, 2° a) WIB 92: voor gebouwen verhuurd aan een natuurlijke persoon die ze niet voor zijn beroep gebruikt, is het belastbaar onroerend inkomen het KI verhoogd met 40% (verhoging wordt automatisch door fiscus toegepast). Aangiftecodes 1106/2106 in vak III rubriek 2. Pro rata bij verkoop in de loop van het jaar (art. 9 WIB 92). 📖
 > > 
 > > **Huwelijksvermogensrecht** — art. 1399 oud BW (eigen goederen van vóór het huwelijk) en art. 1405 oud BW (vruchten en inkomsten van eigen goederen vallen in de gemeenschap). 📖
 > > 
 > > **Belastbare meerwaarde** — art. 90, 10° WIB 92 (meerwaarde op gebouwd onroerend goed binnen 5 jaar na verwerving, of 8° bij speculatie buiten 5 jaar). Belastbaar tegen 16,5% (art. 171, 4° e WIB 92). Aangiftecode 1171/2171 in vak XV rubriek B. 📖
 > > 
-> > **Individuele toerekening diverse inkomsten** — art. 127 WIB 92: diverse inkomsten worden toegerekend aan de echtgenoot die ze heeft verworven, geen 50/50-splitsing. 📖*  
+> > **Individuele toerekening diverse inkomsten** — art. 127 WIB 92: diverse inkomsten worden toegerekend aan de echtgenoot die ze heeft verworven, geen 50/50-splitsing. 📖  
 > > *Bron: art. 7 § 1 / 90, 8°–10° / 127 / 171 WIB 92; art. 1399 + 1405 oud BW*
 
 <a id="2008-bibf-vrF3"></a>
@@ -1109,7 +1104,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Totaal belastingvoordeel = **1 008,00 EUR**, omgedeeld over de echtgenoten pro rata hun belastbaar inkomen: **670,02 EUR voor de aangever** en **337,98 EUR voor de partner**. 🔗_**
+> > Totaal belastingvoordeel = **1 008,00 EUR**, omgedeeld over de echtgenoten pro rata hun belastbaar inkomen: **670,02 EUR voor de aangever** en **337,98 EUR voor de partner**. 🔗
 > > 
 > > **Stap 1 — Plafonneer de uitgaven per belastingplichtige (AJ 2008: max. 2 360 EUR/persoon):** 📖
 > > - Aangever: aankoop 3 000,00 → geplafonneerd op **2 360,00 EUR**.
@@ -1128,8 +1123,8 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Art. 14523 § 1 WIB92 spreekt letterlijk van "het overeenkomstig artikel 130 belaste inkomen" — strikt gelezen is dat het gezamenlijk belastbaar inkomen á 49 900 EUR (29 900 + 17 100 — dus ná aftrek onderhoudsgelden), niet het totale netto-inkomen á 51 000. Het officiële modelantwoord uit 2008 hanteert echter 51 000 (nóg vóór de aftrek onderhoudsgelden). Volg in het examen de modelantwoord-breuk; weet wel dat de wetsletter strenger is. ❓
 > > 
-> > ***Art. 14521 WIB92** — belastingvermindering = 30 % van de uitgaven voor dienstencheques, met een uitgavenplafond per belastingplichtige (AJ 2008: 2 360 EUR; basisbedrag 920 EUR, geïndexeerd). 📖
-> > **Art. 14523 § 1 WIB92** — bij gemeenschappelijke aanslag wordt de vermindering evenredig omgedeeld in functie van het overeenkomstig art. 130 belaste inkomen van elke echtgenoot. 📖*  
+> > **Art. 14521 WIB92** — belastingvermindering = 30 % van de uitgaven voor dienstencheques, met een uitgavenplafond per belastingplichtige (AJ 2008: 2 360 EUR; basisbedrag 920 EUR, geïndexeerd). 📖
+> > **Art. 14523 § 1 WIB92** — bij gemeenschappelijke aanslag wordt de vermindering evenredig omgedeeld in functie van het overeenkomstig art. 130 belaste inkomen van elke echtgenoot. 📖  
 > > *Bron: Art. 14521 en 14523 § 1 WIB92*
 
 <a id="2008-bibf-vrF4"></a>
@@ -1143,7 +1138,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Omdat Wim en Inge gehuwd zijn (gemeenschappelijke aanslag) maar Wim als enige eigenaar en enige ontlener optreedt, gaat een deel van de woon-fiscale aftrek **structureel verloren**: de fiscale wet dwingt om de aftrekbare besteding gedeeltelijk om te delen naar Inge, maar haar omgedeelde aandeel kan niet worden gerecupereerd omdat zij geen eigenaar is en dus zelf geen aftrekrecht heeft. 🔗_**
+> > Omdat Wim en Inge gehuwd zijn (gemeenschappelijke aanslag) maar Wim als enige eigenaar en enige ontlener optreedt, gaat een deel van de woon-fiscale aftrek **structureel verloren**: de fiscale wet dwingt om de aftrekbare besteding gedeeltelijk om te delen naar Inge, maar haar omgedeelde aandeel kan niet worden gerecupereerd omdat zij geen eigenaar is en dus zelf geen aftrekrecht heeft. 🔗
 > > 
 > > **Mechaniek bij gemeenschappelijke aanslag (art. 105 WIB)**:
 > > 
@@ -1154,11 +1149,11 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Eigenaarschap ≠ kredietnemerschap ≠ aftrekgerechtigde**. Voor de woon-fiscale aftrek (eertijds woonbonus / aftrek enige woning, vandaag de regionale belastingvermindering) is **eigendomstitel op de gefinancierde woning** een vereiste; ook al wordt de uitgave bij gemeenschappelijke aanslag omgedeeld, de echtgenoot zonder zakelijk recht op de woning heeft geen eigen aftrekgrondslag. Bovendien is het regime sinds de 6e staatshervorming **geregionaliseerd** (gewestelijke belastingvermindering i.p.v. federale aftrek); de exacte percentages en plafonds verschillen per gewest, maar het principe — gemeenschappelijke aanslag dwingt omdeling — blijft overeind. ❓
 > > 
-> > ***Art. 105 WIB92** — *"Wanneer een gemeenschappelijke aanslag wordt gevestigd, worden de aftrekken bedoeld in artikel 104 als volgt aangerekend: (1°) uitgaven door beide echtgenoten samen verschuldigd: evenredig op de totale netto-inkomens van beide echtgenoten; (2°) uitgaven persoonlijk verschuldigd door één echtgenoot: bij voorrang op het totale netto-inkomen van die echtgenoot, het eventuele saldo op het totale netto-inkomen van de andere echtgenoot."* 📖
+> > **Art. 105 WIB92** — *"Wanneer een gemeenschappelijke aanslag wordt gevestigd, worden de aftrekken bedoeld in artikel 104 als volgt aangerekend: (1°) uitgaven door beide echtgenoten samen verschuldigd: evenredig op de totale netto-inkomens van beide echtgenoten; (2°) uitgaven persoonlijk verschuldigd door één echtgenoot: bij voorrang op het totale netto-inkomen van die echtgenoot, het eventuele saldo op het totale netto-inkomen van de andere echtgenoot."* 📖
 > > 
 > > **Art. 126 WIB92** — gemeenschappelijke aanslag is verplicht zodra echtgenoten of wettelijk samenwonenden samen worden belast (behoudens uitzonderingen in §2). 📖
 > > 
-> > De specifieke **15%-minimum-omdeling** zoals geciteerd in het BIBF-modelantwoord is een toepassingsregel die op het ogenblik van het examen (2008) gold binnen het regime van de aftrek enige woning / woonbonus (art. 104, 9° + art. 115-116 WIB, regime van vóór de 6e staatshervorming). 🔗*  
+> > De specifieke **15%-minimum-omdeling** zoals geciteerd in het BIBF-modelantwoord is een toepassingsregel die op het ogenblik van het examen (2008) gold binnen het regime van de aftrek enige woning / woonbonus (art. 104, 9° + art. 115-116 WIB, regime van vóór de 6e staatshervorming). 🔗  
 > > *Bron: Art. 105 WIB92; art. 126 WIB92*
 
 <a id="2008-bibf-vrF5"></a>
@@ -1177,7 +1172,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_Optie **a** — een uitgave gedaan in 2006 die betrekking heeft op een door een handelaar pas in 2007 te realiseren meerwaarde, hoort fiscaal thuis bij de gezamenlijk belastbare winst van het belastbaar tijdperk 2007 (matching tussen kosten van overdracht en de meerwaarde). 🔗_**
+> > Optie **a** — een uitgave gedaan in 2006 die betrekking heeft op een door een handelaar pas in 2007 te realiseren meerwaarde, hoort fiscaal thuis bij de gezamenlijk belastbare winst van het belastbaar tijdperk 2007 (matching tussen kosten van overdracht en de meerwaarde). 🔗
 > > 
 > > Per optie:
 > > 
@@ -1188,7 +1183,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Tantième ≠ bezoldiging-met-prestatieperiode.** Doordat een tantième pas ontstaat door de winstbestemming op de algemene vergadering, valt het toekenningsjaar (en dus het belastbaar tijdperk in hoofde van de bedrijfsleider) **na** het boekjaar waarop het slaat. Bij de uitkerende vennootschap blijft het tantième wel een kost van het boekjaar waarop het betrekking heeft (CBN-advies 2016/15 — boeking op 695 / 472 op afsluitdatum). Dit is een klassieke time-mismatch: kost-jaar vennootschap = N, belastbaar jaar bedrijfsleider = N+1. 📖
 > > 
-> > ***Art. 360 WIB92** — de voor een aanslagjaar verschuldigde belasting wordt gevestigd op de inkomsten die de belastingplichtige in het belastbare tijdperk heeft **verkregen**. **Art. 204 KB/WIB92** concretiseert: bezoldigingen zijn belastbaar in het jaar van betaling of toekenning (beschikbaarheidscriterium). **Art. 49 WIB92** (kosten) en de matching met meerwaarden (aangifte PB rubriek 7a) verankeren optie a. **Art. 32, 1° WIB92** kwalificeert tantièmes als bedrijfsleidersbezoldiging — toerekening volgt de toekenning, niet het onderliggende boekjaar van de vennootschap. 📖*  
+> > **Art. 360 WIB92** — de voor een aanslagjaar verschuldigde belasting wordt gevestigd op de inkomsten die de belastingplichtige in het belastbare tijdperk heeft **verkregen**. **Art. 204 KB/WIB92** concretiseert: bezoldigingen zijn belastbaar in het jaar van betaling of toekenning (beschikbaarheidscriterium). **Art. 49 WIB92** (kosten) en de matching met meerwaarden (aangifte PB rubriek 7a) verankeren optie a. **Art. 32, 1° WIB92** kwalificeert tantièmes als bedrijfsleidersbezoldiging — toerekening volgt de toekenning, niet het onderliggende boekjaar van de vennootschap. 📖  
 > > *Bron: Art. 360 WIB92 · Art. 204 KB/WIB92 · Art. 32, 1° WIB92 · Art. 49 WIB92 · Aangifte PB rubriek 7a*
 
 <a id="2008-bibf-vrF6"></a>
@@ -1207,7 +1202,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_Optie **d** — een **wettelijke ziekte-uitkering** is geen vrijgesteld inkomen. Ze is een **vervangingsinkomen** dat als beroepsinkomen belastbaar blijft (wel met belastingvermindering art. 154 WIB92, maar niet vrijgesteld). De drie andere opties zijn wel uitdrukkelijk vrijgesteld in art. 38 WIB92. 🔗_**
+> > Optie **d** — een **wettelijke ziekte-uitkering** is geen vrijgesteld inkomen. Ze is een **vervangingsinkomen** dat als beroepsinkomen belastbaar blijft (wel met belastingvermindering art. 154 WIB92, maar niet vrijgesteld). De drie andere opties zijn wel uitdrukkelijk vrijgesteld in art. 38 WIB92. 🔗
 > > 
 > > Per optie:
 > > 
@@ -1218,7 +1213,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Een **belastingvermindering** (art. 154 WIB92, vermindering voor pensioenen en vervangingsinkomsten) is **niet** hetzelfde als een **vrijstelling** (art. 38 WIB92). De ziekte-uitkering blijft bruto belastbaar inkomen en wordt mee opgenomen in de aangifte; pas in de berekening van de belasting wordt een vermindering toegekend. Wie de twee verwart, kiest hier verkeerd. 🔗
 > > 
-> > ***Art. 38, §1 WIB92** somt limitatief de van personenbelasting **vrijgestelde beroepsinkomsten** op: o.a. 11° sociale voordelen, 14° fietsvergoeding ten belope van het wettelijk forfait, 24° niet-recurrente resultaatsgebonden voordelen (CAO 90) ten belope van het jaarmaximum. Wettelijke ziekte-uitkeringen komen daar niet in voor — ze blijven belastbaar als vervangingsinkomen (art. 34 WIB92), met enkel een belastingvermindering op grond van art. 154 WIB92. 📖*  
+> > **Art. 38, §1 WIB92** somt limitatief de van personenbelasting **vrijgestelde beroepsinkomsten** op: o.a. 11° sociale voordelen, 14° fietsvergoeding ten belope van het wettelijk forfait, 24° niet-recurrente resultaatsgebonden voordelen (CAO 90) ten belope van het jaarmaximum. Wettelijke ziekte-uitkeringen komen daar niet in voor — ze blijven belastbaar als vervangingsinkomen (art. 34 WIB92), met enkel een belastingvermindering op grond van art. 154 WIB92. 📖  
 > > *Bron: Art. 38, §1, 11° / 14° / 24° WIB92 · Art. 34 WIB92 · Art. 154 WIB92*
 
 <a id="2008-bibf-vrF7"></a>
@@ -1237,7 +1232,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_Optie **a** — uitgaven voor het **onderhoud en de restauratie van beschermde eigendommen** waren in 2008 een **aftrekbare besteding** (toen art. 104, 8° WIB92). De andere drie opties zijn **belastingverminderingen**, géén aftrekbare bestedingen. 🔗_**
+> > Optie **a** — uitgaven voor het **onderhoud en de restauratie van beschermde eigendommen** waren in 2008 een **aftrekbare besteding** (toen art. 104, 8° WIB92). De andere drie opties zijn **belastingverminderingen**, géén aftrekbare bestedingen. 🔗
 > > 
 > > Het verschil dat de vraag toetst: **aftrekbare besteding** (van het totale netto-inkomen afgetrokken vóór de tariefberekening, art. 104 WIB92) versus **belastingvermindering** (vermindert de belasting zelf, art. 145/x WIB92).
 > > 
@@ -1250,7 +1245,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Optie a is sinds aanslagjaar 2009 zelf óók omgezet naar een **belastingvermindering** (huidig art. 14536 WIB92, 30 % van de uitgaven). Voor het bouwjaar van dit examen (2008) was het echter nog steeds een **aftrekbare besteding** onder art. 104, 8° WIB92 — dat verklaart waarom de vraag-asser onderhoud/restauratie van beschermde eigendommen als enige juiste antwoord behandelt. Op een actueel examen zou geen van de vier opties nog een aftrekbare besteding zijn — dit is historische wetgeving. ❓
 > > 
-> > ***Art. 104 WIB92** somt limitatief de **aftrekbare bestedingen** op (onderhoudsuitkeringen, giften, kinderoppas, en — destijds — onderhoud/restauratie van beschermde monumenten en landschappen onder 8°). De **belastingverminderingen** voor woning-vernieuwing in een zone voor positief grootstedelijk beleid, vernieuwing via een sociaal verhuurkantoor en beveiliging tegen inbraak/brand staan in respectievelijk **art. 14525, 14530 en 14531 WIB92** (Hoofdstuk III — gewoon stelsel van aanslag, onderafdelingen septies/duodecies/terdecies). 📖*  
+> > **Art. 104 WIB92** somt limitatief de **aftrekbare bestedingen** op (onderhoudsuitkeringen, giften, kinderoppas, en — destijds — onderhoud/restauratie van beschermde monumenten en landschappen onder 8°). De **belastingverminderingen** voor woning-vernieuwing in een zone voor positief grootstedelijk beleid, vernieuwing via een sociaal verhuurkantoor en beveiliging tegen inbraak/brand staan in respectievelijk **art. 14525, 14530 en 14531 WIB92** (Hoofdstuk III — gewoon stelsel van aanslag, onderafdelingen septies/duodecies/terdecies). 📖  
 > > *Bron: Art. 104 WIB92 (aftrekbare bestedingen); art. 14525, 14530, 14531 WIB92 (belastingverminderingen)*
 
 <a id="2003-bibf-vrF1"></a>
@@ -1338,13 +1333,13 @@ gegenereerd_op: 2026-05-26
 > > - Het forfait toepassen op de **brutobezoldiging vóór** aftrek van sociale bijdragen. Art. 51, eerste lid WIB92 zegt uitdrukkelijk dat het percentage wordt berekend op het bedrag **"vooraf verminderd met de [sociale] bijdragen"** — dus eerst sociale lasten aftrekken, dán 3 %. 📖
 > > - De **volledige huur** als onroerend inkomen behandelen of omgekeerd integraal als bezoldiging. De wet maakt een knip op 5/3 × geherwaardeerd KI: alleen het **overschot** verhuist naar Vak II (art. 32, 3° WIB92); de rest blijft Vak III als onroerend inkomen. 🔗
 > > 
-> > ***Wettelijke basis (WIB92):**
+> > **Wettelijke basis (WIB92):**
 > > 
 > > - **Art. 32, eerste lid, 3° WIB92** — herkwalificatie van huur tussen bedrijfsleider en zijn vennootschap: het gedeelte boven 5/3 × KI gerevaloriseerd (revalorisatiecoëfficiënt art. 13 WIB92) is bezoldiging. 📖
 > > - **Art. 51, tweede lid, 2° WIB92** — forfaitaire beroepskosten bedrijfsleiders = **3 %**, berekend op de bezoldiging **na** aftrek van de sociale bijdragen (art. 51, eerste lid). 📖
 > > - **Art. 52, 7° WIB92** + **art. 195 WIB92** — sociale bijdragen (incl. die de vennootschap voor rekening van de bedrijfsleider betaalt) zijn aftrekbare beroepskosten. 📖
 > > - **Art. 1 KBWIB 92** — revalorisatiecoëfficiënt (3,35 voor inkomsten 2003 / aj. 2004), zoals expliciet in de opgave gegeven. 📖
-> > - **Art. 296 WIB92** — bedrijfsvoorheffing is een verrekenbaar voorschot, geen beroepskost. 🔗*  
+> > - **Art. 296 WIB92** — bedrijfsvoorheffing is een verrekenbaar voorschot, geen beroepskost. 🔗  
 > > *Bron: Art. 32, 3° · Art. 51 · Art. 52, 7° · Art. 195 · Art. 296 WIB92; Art. 1 KBWIB 92*
 
 <a id="2003-bibf-vrJ1"></a>
@@ -1358,7 +1353,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Advies: laat de cliënt bij zijn sociaal verzekeringsfonds een **verzoek tot vermindering van de voorlopige sociale bijdragen** indienen, op basis van de fors gedaalde bezoldiging in 2003 ten opzichte van het refertejaar 2000. De voorlopige bijdragen worden dan herrekend; de **definitieve afrekening** volgt later op basis van het werkelijke inkomen van 2003 (regularisatie). 🔗_**
+> > Advies: laat de cliënt bij zijn sociaal verzekeringsfonds een **verzoek tot vermindering van de voorlopige sociale bijdragen** indienen, op basis van de fors gedaalde bezoldiging in 2003 ten opzichte van het refertejaar 2000. De voorlopige bijdragen worden dan herrekend; de **definitieve afrekening** volgt later op basis van het werkelijke inkomen van 2003 (regularisatie). 🔗
 > > 
 > > **Werking van het systeem (anno 2003)**:
 > > 
@@ -1369,5 +1364,5 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De vermindering van voorlopige bijdragen is **geen kwijtschelding**: als achteraf blijkt dat het werkelijke inkomen 2003 toch hoger ligt dan de drempel waarvoor de vermindering werd toegestaan, vordert het fonds bij de regularisatie **bijdrageverhogingen** (verwijlinteresten/sancties) op het deel dat ten onrechte te laag werd betaald. De cliënt moet zijn raming dus **realistisch onderbouwen** en bij gewijzigde vooruitzichten het fonds tijdig verwittigen. 🤖
 > > 
-> > *Sociaal statuut der zelfstandigen — **KB nr. 38 van 27 juli 1967** houdende inrichting van het sociaal statuut der zelfstandigen + uitvoerings-KB van 19 december 1967, dat de berekeningswijze op het refertejaar (N-3) regelt en de procedure voor vermindering van voorlopige bijdragen en de definitieve regularisatie organiseert. ❓ *(geen letterlijke bron in RAG-corpus — zie lacune-signaal in rapport)** ❓  
+> > Sociaal statuut der zelfstandigen — **KB nr. 38 van 27 juli 1967** houdende inrichting van het sociaal statuut der zelfstandigen + uitvoerings-KB van 19 december 1967, dat de berekeningswijze op het refertejaar (N-3) regelt en de procedure voor vermindering van voorlopige bijdragen en de definitieve regularisatie organiseert. ❓ *(geen letterlijke bron in RAG-corpus — zie lacune-signaal in rapport)* ❓  
 > > *Bron: KB nr. 38 van 27.07.1967 (sociaal statuut zelfstandigen) + uitvoerings-KB 19.12.1967*

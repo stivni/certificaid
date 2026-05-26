@@ -19,10 +19,10 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Twee typische weigeringsgronden bij de aanvaardingsprocedure:
+> > Twee typische weigeringsgronden bij de aanvaardingsprocedure:
 > > 
 > > 1. **Onafhankelijkheid (of objectiviteit) van de accountant is in gevaar** — bv. een nauwe financiële, familiale of zakelijke band met de client, een lopend geschil, of niet-verenigbare niet-controle-diensten waarvoor geen afdoende waarborgen bestaan. 📖
-> > 2. **De randvoorwaarden voor de controle (preconditions) zijn niet vervuld** — het management gebruikt geen aanvaardbaar stelsel inzake financiele verslaggeving, OF erkent niet schriftelijk zijn drie basisverantwoordelijkheden (opmaak jaarrekening, interne beheersing, toegang/informatie verschaffen). 📖_**
+> > 2. **De randvoorwaarden voor de controle (preconditions) zijn niet vervuld** — het management gebruikt geen aanvaardbaar stelsel inzake financiele verslaggeving, OF erkent niet schriftelijk zijn drie basisverantwoordelijkheden (opmaak jaarrekening, interne beheersing, toegang/informatie verschaffen). 📖
 > > 
 > > **Grond 1 — onafhankelijkheid in gevaar**. Art. 9 KB 1 maart 1998 (plichtenleer accountants) verplicht de externe accountant een opdracht te **weigeren** (of er afstand van te doen) zodra hij invloeden, feiten of banden vaststelt die zijn onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid kunnen aantasten. 📖 Voorbeelden uit de IESBA-Code (bedreigingen-kader): eigenbelang-bedreiging door een aandeelhoudersrelatie of openstaande honoraria, intimidatie of self-interest door een (dreigend) geschil met de client (Section 430), self-review bij voorafgaande boekhouding/advies voor dezelfde client. 🔗
 > > 
@@ -32,7 +32,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De toetsing is niet eenmalig: art. 9 KB 1998 en ISA 220 (herzien) eisen dat de accountant ook **doorlopend** waakt over onafhankelijkheid en randvoorwaarden. Verdwijnt een randvoorwaarde tijdens de opdracht (bv. management beperkt alsnog de scope, of een nieuw bestuurslid creeert een belangenconflict), dan moet de accountant de opdracht **beeindigen** — niet stilzwijgend voortzetten. 🔗
 > > 
-> > ***Art. 9 KB 1 maart 1998** (reglement plichtenleer accountants): verplichting tot weigering/afstand bij elke bedreiging van onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid. **ISA 210 par. 6 (Randvoorwaarden voor een controle)**: aanvaardbaar verslaggevingsstelsel + drie basisverantwoordelijkheden van het management; ontbreken => geen aanvaarding. Aanvullend: **IESBA-Code Section 120** (conceptual framework: identify-evaluate-address threats) en **Section 600/950** (niet-controle-diensten en safeguards). 📖*  
+> > **Art. 9 KB 1 maart 1998** (reglement plichtenleer accountants): verplichting tot weigering/afstand bij elke bedreiging van onafhankelijkheid, wils- of beoordelingsvrijheid of onpartijdigheid. **ISA 210 par. 6 (Randvoorwaarden voor een controle)**: aanvaardbaar verslaggevingsstelsel + drie basisverantwoordelijkheden van het management; ontbreken => geen aanvaarding. Aanvullend: **IESBA-Code Section 120** (conceptual framework: identify-evaluate-address threats) en **Section 600/950** (niet-controle-diensten en safeguards). 📖  
 > > *Bron: Art. 9 KB 1 maart 1998; ISA 210 par. 6; IESBA Code Sections 120 & 600*
 
 <a id="2015-1-vr17"></a>
@@ -46,7 +46,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Twee controledoelstellingen voor een debet lopende rekening op naam van de overleden vader: **(1) Bestaan en rechten** — gaat de vordering werkelijk over een opeisbare schuld van een geïdentificeerde debiteur, of is ze fictief / zonder titel? **(2) Waardering (inbaarheid)** — wordt het saldo in de staat van activa en passiva niet overgewaardeerd, gezien het overlijden van de debiteur en het risico op niet-inning uit de nalatenschap? 🔗_**
+> > Twee controledoelstellingen voor een debet lopende rekening op naam van de overleden vader: **(1) Bestaan en rechten** — gaat de vordering werkelijk over een opeisbare schuld van een geïdentificeerde debiteur, of is ze fictief / zonder titel? **(2) Waardering (inbaarheid)** — wordt het saldo in de staat van activa en passiva niet overgewaardeerd, gezien het overlijden van de debiteur en het risico op niet-inning uit de nalatenschap? 🔗
 > > 
 > > Bij een omzettingsverslag (Boek 14 WVV) moet de accountant beoordelen of het netto-actief niet overgewaardeerd is. Een debet R/C op een overledene is per definitie risicovol op **twee** assertions:
 > > 
@@ -57,7 +57,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar **controledoelstelling** (assertion / bewering die je wilt staven: bestaan, rechten, waardering, volledigheid, presentatie) niet met **controletechniek** (procedure waarmee je dat doet: bevestiging, inspectie, herberekening, externe confirmatie, etc.). Deelvraag a vraagt de doelstellingen; deelvraag b vraagt per doelstelling de techniek — beantwoord ze niet door elkaar. 🤖
 > > 
-> > *Bewerings-categorieën (assertions): ISA 315 (herzien) §A190 — bestaan, rechten en verplichtingen, volledigheid, juistheid, afgrenzing, waardering en toerekening, classificatie en presentatie. ISA 500 §A1 — controle-informatie wordt verkregen om uitspraken over deze beweringen te onderbouwen. Voor het concrete kader van het omzettingsverslag: ICCI-norm omzetting + art. 14:3 WVV (oordeel over niet-overwaardering van netto-actief). 📖*  
+> > Bewerings-categorieën (assertions): ISA 315 (herzien) §A190 — bestaan, rechten en verplichtingen, volledigheid, juistheid, afgrenzing, waardering en toerekening, classificatie en presentatie. ISA 500 §A1 — controle-informatie wordt verkregen om uitspraken over deze beweringen te onderbouwen. Voor het concrete kader van het omzettingsverslag: ICCI-norm omzetting + art. 14:3 WVV (oordeel over niet-overwaardering van netto-actief). 📖  
 > > *Bron: ISA 315 §A190 · ISA 500 §A1 · art. 14:3 WVV*
 >
 > Geef kort weer voor elk van deze twee controledoelstellingen welke techniek of methodiek je toepast.
@@ -78,7 +78,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Een **debet R/C op een aandeelhouder/zaakvoerder** (of, zoals hier, op een nauw verbonden persoon zoals de overleden vader) is een **klassiek aandachtspunt** bij omzetting en bij wettelijke controle: het wijst vaak op een verkapte uitkering, een onterechte privé-financiering of een fiscaal probleem (art. 18 WIB 92 — herkwalificatie tot dividend bij ontbreken van marktconforme rente, art. 32 WIB 92 — voordeel van alle aard). De accountant moet niet alleen de balanswaarde verifiëren, maar ook de **fiscale en vennootschapsrechtelijke implicaties** signaleren in zijn verslag. 🔗
 > > 
-> > *ISA 505 *Externe bevestigingen* — confirmation is de meest geschikte techniek voor het staven van bestaan/rechten van vorderingen. ISA 540 (herzien) *Schattingen* — kader voor het beoordelen van management-schattingen zoals waardeverminderingen. CBN-advies 2011/15 — toepassing van art. 3:46 KB-WVV (vroeger art. 67 KB W.Venn.): waardevermindering verplicht zodra onzekerheid bestaat over de inning op vervaldag. Voor de R/C-context: CBN-advies 2017/13 (rekening-courant met bestuurders) — documentaire vereisten en rente-marktconformiteit. 📖*  
+> > ISA 505 *Externe bevestigingen* — confirmation is de meest geschikte techniek voor het staven van bestaan/rechten van vorderingen. ISA 540 (herzien) *Schattingen* — kader voor het beoordelen van management-schattingen zoals waardeverminderingen. CBN-advies 2011/15 — toepassing van art. 3:46 KB-WVV (vroeger art. 67 KB W.Venn.): waardevermindering verplicht zodra onzekerheid bestaat over de inning op vervaldag. Voor de R/C-context: CBN-advies 2017/13 (rekening-courant met bestuurders) — documentaire vereisten en rente-marktconformiteit. 📖  
 > > *Bron: ISA 505 · ISA 540 (herzien) · CBN 2011/15 · art. 3:46 KB-WVV*
 
 <a id="2015-1-vr18"></a>
@@ -106,7 +106,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Bij hoogtechnologische gasleidingen is **technologische veroudering** een verhoogd risico — vraag specifiek naar verkoopstatistieken per artikel, brutomarges en stockomloop, en evalueer of een waardevermindering nodig is op slow movers. De materialiteit van 70.000 EUR op balansposten is laag t.o.v. een typische voorraad in zo'n sector, dus de waarderings-toets weegt zwaar. 🤖
 > > 
-> > *CBN-advies 132/7 omschrijft dat de inventaris drie luiken heeft: kwantitatieve opgave, kwaliteitscontrole (fysieke veroudering / slow movers) en vergelijking aanschaffingsprijs vs. markt-/realisatiewaarde. De fysieke telling dekt enkel het eerste; de accountant moet ook de twee andere luiken toetsen. ISA 501 (specifiek bij voorraadcontroles) en de algemene ISA-beweringen (bestaan, volledigheid, waardering, rechten/verplichtingen, presentatie) vormen de doelstellingen-kapstok. 📖*  
+> > CBN-advies 132/7 omschrijft dat de inventaris drie luiken heeft: kwantitatieve opgave, kwaliteitscontrole (fysieke veroudering / slow movers) en vergelijking aanschaffingsprijs vs. markt-/realisatiewaarde. De fysieke telling dekt enkel het eerste; de accountant moet ook de twee andere luiken toetsen. ISA 501 (specifiek bij voorraadcontroles) en de algemene ISA-beweringen (bestaan, volledigheid, waardering, rechten/verplichtingen, presentatie) vormen de doelstellingen-kapstok. 📖  
 > > *Bron: CBN-advies 132/7; ISA 501; ISA 315 (beweringen)*
 >
 > Bij nazicht van de handelsvorderingen wordt een confirmatie bekomen van een klant voor 121.000,00 EUR, terwijl de vordering in de boekhouding op 217.800,00 EUR staat (80.000,00 EUR excl. btw fout geleverde goederen teruggenomen per 29/09/2014).
@@ -115,7 +115,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Correctieboeking voorstellen** (eerste keuze). Het verschil van **96.800 EUR** (= 80.000 EUR excl. btw + 16.800 EUR btw 21%) is een **bevestigde** afwijking betreffende een feit van vóór balansdatum (retourbon 29/09/2014) en moet in boekjaar 30/09/2014 gecorrigeerd worden. De afwijking (96.800 EUR) overschrijdt bovendien de balans-materialiteit (70.000 EUR), zodat zonder correctie een **oordeel met voorbehoud** zou volgen. 🔗_**
+> > **Correctieboeking voorstellen** (eerste keuze). Het verschil van **96.800 EUR** (= 80.000 EUR excl. btw + 16.800 EUR btw 21%) is een **bevestigde** afwijking betreffende een feit van vóór balansdatum (retourbon 29/09/2014) en moet in boekjaar 30/09/2014 gecorrigeerd worden. De afwijking (96.800 EUR) overschrijdt bovendien de balans-materialiteit (70.000 EUR), zodat zonder correctie een **oordeel met voorbehoud** zou volgen. 🔗
 > > 
 > > Voorgestelde correctieboeking (terugname van de foutieve verkoop) per 30/09/2014:
 > > 
@@ -137,7 +137,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar niet **niet-gecorrigeerde afwijkingen** (ISA 450 — verzamelen in een opgave, bespreken met management, opnemen in management representation letter) met de drempel voor **voorbehoud** (ISA 705 / ITAA-KMO §119). Hier gaat het om een **bevestigde fout** waarvoor correctie wordt gevraagd; pas wanneer management weigert en de afwijking blijft bestaan, verschuift de keuze naar voorbehoud (materieel maar niet diepgaand) of afkeurend oordeel (materieel én diepgaand). 📖
 > > 
-> > *ISA 450 §8: de auditor deelt tijdig alle tijdens de controle geïdentificeerde afwijkingen mee aan het passende managementniveau en verzoekt om correctie. ITAA-KMO-controlenorm §119: voorbehoud volgt enkel wanneer afwijkingen materieel zijn én niet gecorrigeerd worden. Btw-aspect: art. 77 §1, 1° W.btw — teruggave btw bij terugzending van geleverde goederen, mits creditnota (art. 4 KB nr. 4). 📖*  
+> > ISA 450 §8: de auditor deelt tijdig alle tijdens de controle geïdentificeerde afwijkingen mee aan het passende managementniveau en verzoekt om correctie. ITAA-KMO-controlenorm §119: voorbehoud volgt enkel wanneer afwijkingen materieel zijn én niet gecorrigeerd worden. Btw-aspect: art. 77 §1, 1° W.btw — teruggave btw bij terugzending van geleverde goederen, mits creditnota (art. 4 KB nr. 4). 📖  
 > > *Bron: ISA 450 §8; ITAA-KMO-controlenorm §119; art. 77 §1, 1° W.btw*
 
 <a id="2015-1-vr19"></a>
@@ -149,7 +149,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Een selectie is representatief wanneer **elk leverancierssaldo in de populatie een kans heeft om geselecteerd te worden** en de getrokken steekproef toelaat een redelijke conclusie te trekken over de **totaliteit van de leveranciersrekeningen** (niet enkel de grootste saldi). 🔗_**
+> > Een selectie is representatief wanneer **elk leverancierssaldo in de populatie een kans heeft om geselecteerd te worden** en de getrokken steekproef toelaat een redelijke conclusie te trekken over de **totaliteit van de leveranciersrekeningen** (niet enkel de grootste saldi). 🔗
 > > 
 > > Representativiteit veronderstelt drie dingen:
 > > 
@@ -159,14 +159,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Bij leveranciers is **niet de geldwaarde maar het volledigheidsrisico** dominant — een leverancier met saldo nul kan een vergeten of weggemoffelde factuur verbergen. Selecteer dus niet uitsluitend op hoogste saldi (zoals bij klanten), maar voeg ook **leveranciers met hoge omzet en laag/nul saldo** toe. 🤖
 > > 
-> > *ISA 530 §6-8: bij het opzetten van een steekproef moet de auditor het doel van de werkzaamheden en de kenmerken van de populatie overwegen, en de elementen zo selecteren dat elke steekproefeenheid kan worden gekozen. Bijlage 1 beschrijft stratificatie als techniek om de variabiliteit binnen strata te verkleinen. 📖*  
+> > ISA 530 §6-8: bij het opzetten van een steekproef moet de auditor het doel van de werkzaamheden en de kenmerken van de populatie overwegen, en de elementen zo selecteren dat elke steekproefeenheid kan worden gekozen. Bijlage 1 beschrijft stratificatie als techniek om de variabiliteit binnen strata te verkleinen. 📖  
 > > *Bron: ISA 530 §6-8 + Bijlage 1*
 >
 > **Hoe doe je de steekproef?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De steekproef wordt **door de auditor zelf** opgezet, gebaseerd op de **leverancierssaldilijst per balansdatum**, met een combinatie van **integrale opname van grote/risicovolle saldi** (key items) en een **willekeurige (at random) selectie** uit de resterende populatie. 🔗_**
+> > De steekproef wordt **door de auditor zelf** opgezet, gebaseerd op de **leverancierssaldilijst per balansdatum**, met een combinatie van **integrale opname van grote/risicovolle saldi** (key items) en een **willekeurige (at random) selectie** uit de resterende populatie. 🔗
 > > 
 > > Praktische stappen:
 > > 
@@ -176,36 +176,36 @@ gegenereerd_op: 2026-05-26
 > > - **Trekken** — zo dat elke eenheid een kans heeft (random number generator, systematisch, MUS). 📖
 > > - **Aanvullen met aandachtsposten** — leveranciers met hoge omzet en nul/laag saldo, gediscussieerde saldi, related parties. 🤖
 > > 
-> > *ISA 530 §6-8 + A4-A13 (steekproefopzet, -omvang en -selectie) + Bijlage 1 (stratificatie en selectie op basis van gewogen waarden — MUS). 📖*  
+> > ISA 530 §6-8 + A4-A13 (steekproefopzet, -omvang en -selectie) + Bijlage 1 (stratificatie en selectie op basis van gewogen waarden — MUS). 📖  
 > > *Bron: ISA 530 §6-8 + A4-A13 + Bijlage 1*
 >
 > **Hoe gebeurt de verzending van de confirmatiebrieven?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De confirmatiebrieven worden **opgesteld op briefpapier van de cliënt en ondertekend door de cliënt** (die zijn leverancier toestemming geeft om informatie vrij te geven), maar **verzonden door de auditor zelf**, met als **retouradres het kantoor van de auditor**. De cliënt mag de brieven niet onder ogen krijgen vóór verzending. 📖_**
+> > De confirmatiebrieven worden **opgesteld op briefpapier van de cliënt en ondertekend door de cliënt** (die zijn leverancier toestemming geeft om informatie vrij te geven), maar **verzonden door de auditor zelf**, met als **retouradres het kantoor van de auditor**. De cliënt mag de brieven niet onder ogen krijgen vóór verzending. 📖
 > > 
 > > De auditor behoudt **rechtstreekse controle** over het hele bevestigingsproces (selectie, opmaak/review van de brief, verzending, ontvangst van het antwoord). Anders verliest de externe bevestiging haar betrouwbaarheid als controle-informatie. 📖
 > > 
-> > *ISA 505 §7: de auditor moet controle uitoefenen over de verzoeken om externe bevestiging, met name (a) het bepalen van de te bevestigen informatie, (b) het selecteren van de bevestigende partij, (c) het opzetten van de verzoeken (correct geadresseerd, retourinformatie naar de auditor), en (d) het zenden van de verzoeken, inclusief follow-up waar van toepassing. 📖*  
+> > ISA 505 §7: de auditor moet controle uitoefenen over de verzoeken om externe bevestiging, met name (a) het bepalen van de te bevestigen informatie, (b) het selecteren van de bevestigende partij, (c) het opzetten van de verzoeken (correct geadresseerd, retourinformatie naar de auditor), en (d) het zenden van de verzoeken, inclusief follow-up waar van toepassing. 📖  
 > > *Bron: ISA 505 §7*
 >
 > **Wie ontvangt de antwoorden?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**De auditor zelf** ontvangt de antwoorden — rechtstreeks van de leverancier, op het kantooradres van de auditor. De cliënt mag de antwoorden **niet onderscheppen, openen of filteren**. 📖_**
+> > **De auditor zelf** ontvangt de antwoorden — rechtstreeks van de leverancier, op het kantooradres van de auditor. De cliënt mag de antwoorden **niet onderscheppen, openen of filteren**. 📖
 > > 
 > > Loopt het antwoord via de cliënt, dan is de informatie geen externe bevestiging meer in de zin van ISA 505 (geen "rechtstreekse schriftelijke reactie aan de auditor") en heeft ze haar bewijswaarde verloren. Dit geldt ook voor elektronische antwoorden (e-mail rechtstreeks naar de auditor, of via een beveiligd platform zoals Confirmation.com). 🔗
 > > 
-> > *ISA 505 §6(a) — definitie externe bevestiging: "controle-informatie verkregen in de vorm van een van een derde partij afkomstige **rechtstreekse schriftelijke reactie ... aan de auditor**". 📖*  
+> > ISA 505 §6(a) — definitie externe bevestiging: "controle-informatie verkregen in de vorm van een van een derde partij afkomstige **rechtstreekse schriftelijke reactie ... aan de auditor**". 📖  
 > > *Bron: ISA 505 §6(a)*
 >
 > **Wat bij niet ontvangst van antwoorden?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Bij **non-respons** verstuurt de auditor een of meer **herinneringen** (tweede en eventueel derde rappel). Blijft een antwoord uit, dan voert de auditor **alternatieve controlewerkzaamheden** uit om gelijkwaardige controle-informatie te verkrijgen. 📖_**
+> > Bij **non-respons** verstuurt de auditor een of meer **herinneringen** (tweede en eventueel derde rappel). Blijft een antwoord uit, dan voert de auditor **alternatieve controlewerkzaamheden** uit om gelijkwaardige controle-informatie te verkrijgen. 📖
 > > 
 > > Concrete alternatieve werkzaamheden bij leverancierssaldi:
 > > 
@@ -216,7 +216,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Als de auditor oordeelt dat een externe bevestiging **noodzakelijk** is en alternatieve werkzaamheden onvoldoende compenseren, moet hij **de mogelijke implicaties voor de controleverklaring** (scope-beperking) en de communicatie aan de met governance belaste personen overwegen — ISA 505 §12-13. 📖
 > > 
-> > *ISA 505 §6(d) (definitie non-respons), §12 (alternatieve werkzaamheden bij niet-ontvangen reactie), §13 (gevolgen wanneer een positieve bevestiging noodzakelijk is en alternatieven onvoldoende zijn). 📖*  
+> > ISA 505 §6(d) (definitie non-respons), §12 (alternatieve werkzaamheden bij niet-ontvangen reactie), §13 (gevolgen wanneer een positieve bevestiging noodzakelijk is en alternatieven onvoldoende zijn). 📖  
 > > *Bron: ISA 505 §6(d), §12-13*
 
 <a id="2015-1-vr56"></a>
@@ -230,11 +230,11 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Twee van de drie verplichtingen (de norm noemt er drie, twee volstaan):
+> > Twee van de drie verplichtingen (de norm noemt er drie, twee volstaan):
 > > 
 > > 1. **Werkprogramma over alle betrokken vennootschappen + wederzijdse steun**: het werkprogramma moet alle bij de verrichting betrokken vennootschappen dekken; elke beroepsbeoefenaar kan steunen op de werkzaamheden van de andere, mits hij heeft kunnen nagaan dat die werkzaamheden gepast zijn (aanbeveling: werkdocumenten wederzijds laten inzien). 📖
 > > 2. **Conclusies van het onderzoek aan elkaar mededelen vóór het verslag wordt opgesteld** (deontologische verplichting). 📖
-> > 3. **Wederzijds aandacht vestigen op onvolledigheid of onnauwkeurigheid** van het fusie- of splitsingsvoorstel die bij de controle van de overige inlichtingen wordt vastgesteld. 📖_**
+> > 3. **Wederzijds aandacht vestigen op onvolledigheid of onnauwkeurigheid** van het fusie- of splitsingsvoorstel die bij de controle van de overige inlichtingen wordt vastgesteld. 📖
 > > 
 > > Het samenwerkingskader van de IAB-norm rust op drie pijlers — planning, oordeelsvorming en signalering:
 > > 
@@ -244,7 +244,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De norm is een gezamenlijke norm IBR ↔ IAB (vandaag: ITAA). Daarom geldt dezelfde samenwerkingsverplichting ongeacht of de twee beroepsbeoefenaars allebei bedrijfsrevisor, allebei (gecertificeerd) accountant, of gemengd zijn — confraterniteit is grensoverschrijdend tussen beide instituten. 🔗
 > > 
-> > *ITAA-norm inzake de controle van fusie- en splitsingsverrichtingen van vennootschappen (gemeenschappelijke norm IBR/IAB, goedgekeurd door de raad van het IAB): §2.1 Werkprogramma (steunen op elkaars werkzaamheden + werkdocumenten inzien), §3 Deontologische aspecten (mededelen conclusies vóór verslag) en §6.1 Controle van de overige inlichtingen (aandacht vestigen op onvolledigheid/onnauwkeurigheid). 📖*  
+> > ITAA-norm inzake de controle van fusie- en splitsingsverrichtingen van vennootschappen (gemeenschappelijke norm IBR/IAB, goedgekeurd door de raad van het IAB): §2.1 Werkprogramma (steunen op elkaars werkzaamheden + werkdocumenten inzien), §3 Deontologische aspecten (mededelen conclusies vóór verslag) en §6.1 Controle van de overige inlichtingen (aandacht vestigen op onvolledigheid/onnauwkeurigheid). 📖  
 > > *Bron: ITAA-norm fusie- en splitsingsverrichtingen §2.1 + §3 + §6.1*
 
 <a id="2014-1-vr12"></a>
@@ -258,13 +258,13 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Niet noodzakelijk** — een lage respons op zich is geen reden voor voorbehoud. De auditor moet eerst **alternatieve controlewerkzaamheden** uitvoeren voor de non-respons. Alleen als die geen voldoende en geschikte controle-informatie opleveren én het effect op de jaarrekening van materieel belang kan zijn, is een voorbehoud (of een oordeelonthouding) nodig op grond van ISA 705. 🔗_**
+> > **Niet noodzakelijk** — een lage respons op zich is geen reden voor voorbehoud. De auditor moet eerst **alternatieve controlewerkzaamheden** uitvoeren voor de non-respons. Alleen als die geen voldoende en geschikte controle-informatie opleveren én het effect op de jaarrekening van materieel belang kan zijn, is een voorbehoud (of een oordeelonthouding) nodig op grond van ISA 705. 🔗
 > > 
 > > ISA 505 §12 verplicht de auditor om bij non-respons op een verzoek om positieve bevestiging **alternatieve controlewerkzaamheden** uit te voeren om de controle-informatie te verkrijgen die de bevestigingen hadden moeten leveren (bv. nazicht subsequent cash receipts, inspectie van verkoopfacturen + verzendingsdocumenten + ondertekende bestelbonnen voor de openstaande posten). 📖 Pas wanneer de auditor oordeelt dat **een bevestiging via een positief verzoek noodzakelijk is om voldoende en geschikte controle-informatie te verkrijgen** en alternatieve werkzaamheden die informatie niet kunnen opleveren, moet hij de mogelijke implicatie voor de controle en voor het oordeel beoordelen — wat tot een voorbehoud of oordeelonthouding kan leiden (ISA 705). 🔗 Een voorbehoud is dus de **uitzondering**, na uitputting van alternatieven. 🔗
 > > 
 > > Een te lage respons is op zich géén scope-limitatie. De vraag is steeds: heeft de auditor met de **gecombineerde** controle-informatie (bevestigingen die wél binnenkwamen + alternatieve werkzaamheden) voldoende zekerheid over de bewering — meestal *bestaan* van de vorderingen? Pas als het antwoord nee is en het materieel is, komt voorbehoud in beeld. 🔗
 > > 
-> > *ISA 505 *Externe bevestigingen* §12 (alternatieve werkzaamheden bij non-respons) en §13 (wanneer bevestiging niet kan worden vervangen → beoordeel implicaties voor oordeel onder ISA 705). 📖*  
+> > ISA 505 *Externe bevestigingen* §12 (alternatieve werkzaamheden bij non-respons) en §13 (wanneer bevestiging niet kan worden vervangen → beoordeel implicaties voor oordeel onder ISA 705). 📖  
 > > *Bron: ISA 505 §12-13; ISA 705*
 >
 > **Welke acties kan men ondernemen om aan dit onvoldoende aantal antwoorden te remediëren (geef twee voorbeelden)?**
@@ -280,7 +280,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Aanvullend mogelijk (niet verplicht als twee voorbeelden gevraagd zijn): de **selectie uitbreiden** of een **negatieve bevestiging** combineren met positieve voor minder risicovolle saldi (ISA 505 §15 stelt strenge voorwaarden voor negatieve bevestigingen alleen). 🔗
 > > 
-> > *ISA 505 §7(d) (follow-upverzoeken), §12 (alternatieve werkzaamheden bij non-respons), §15 (voorwaarden negatieve bevestigingen). 📖*  
+> > ISA 505 §7(d) (follow-upverzoeken), §12 (alternatieve werkzaamheden bij non-respons), §15 (voorwaarden negatieve bevestigingen). 📖  
 > > *Bron: ISA 505 §7, §12, §15*
 >
 > **Welke is de werkwijze nadat we onze selectie hebben gemaakt van de klanten aan dewelke de confirmatiebrieven worden verzonden: door wie zijn de confirmatiebrieven opgesteld en getekend, aan wie moeten de antwoorden opgestuurd worden, wie verzendt de confirmatiebrieven?**
@@ -297,7 +297,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Een antwoord dat per vergissing bij de cliënt toekomt in plaats van bij de auditor, voldoet niet aan de definitie van een externe bevestiging (geen *rechtstreekse* schriftelijke reactie aan de auditor). De auditor moet de bevestigende partij in dat geval vragen om alsnog rechtstreeks te reageren (ISA 505 §A15). Mondelinge bevestigingen tellen evenmin als externe bevestiging. 📖
 > > 
-> > *ISA 505 *Externe bevestigingen* §7(a)-(d) (de auditor beheerst opstelling, selectie bevestigende partij, opzet van het verzoek met rechtstreekse adressering aan de auditor, en de verzending inclusief follow-up). Definitie §6(a): rechtstreekse schriftelijke reactie aan de auditor. 📖*  
+> > ISA 505 *Externe bevestigingen* §7(a)-(d) (de auditor beheerst opstelling, selectie bevestigende partij, opzet van het verzoek met rechtstreekse adressering aan de auditor, en de verzending inclusief follow-up). Definitie §6(a): rechtstreekse schriftelijke reactie aan de auditor. 📖  
 > > *Bron: ISA 505 §6(a), §7(a)-(d)*
 
 <a id="2014-1-vr13"></a>
@@ -311,7 +311,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Erelonen advocaat van 12.000 EUR zijn een **indicator van mogelijk hangende rechtszaken of claims** tegen (of door) de vennootschap. Dit raakt rechtstreeks de **volledigheid** van de geboekte voorzieningen voor risico's en kosten en de **toelichting** van niet in de balans opgenomen rechten en verplichtingen — twee kernbeweringen waarover de auditor zekerheid moet verschaffen in zijn controleverslag. 🔗_**
+> > Erelonen advocaat van 12.000 EUR zijn een **indicator van mogelijk hangende rechtszaken of claims** tegen (of door) de vennootschap. Dit raakt rechtstreeks de **volledigheid** van de geboekte voorzieningen voor risico's en kosten en de **toelichting** van niet in de balans opgenomen rechten en verplichtingen — twee kernbeweringen waarover de auditor zekerheid moet verschaffen in zijn controleverslag. 🔗
 > > 
 > > ISA 501 verplicht de auditor om werkzaamheden op te zetten die rechtszaken en claims tegen de entiteit — die aanleiding kunnen geven tot een **risico van afwijking van materieel belang** — kunnen identificeren. 📖 Een ongebruikelijk hoog of onverklaard ereloon advocaat is precies het type **signaal** dat de auditor moet alarmeren: er kan een geschil hangende zijn dat
 > > 
@@ -323,14 +323,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het bedrag op zich (12.000 EUR) zegt niets — het gaat om de **aard** van de prestatie. Het kan ook gaan om courante juridische bijstand (contracten, invorderingen, fiscale begeleiding) zonder geschil. De auditor moet de **detail-facturen** opvragen om de aard te beoordelen vooraleer hij conclusies trekt. 🤖
 > > 
-> > *ISA 501 §§9-12 — *Rechtszaken en claims*: de auditor moet werkzaamheden opzetten om rechtszaken en claims tegen de entiteit te identificeren die een risico van afwijking van materieel belang kunnen veroorzaken, onder meer door inlichtingen in te winnen bij het management, notulen te lezen en **kostenrekeningen voor juridische bijstand na te zien**. 📖*  
+> > ISA 501 §§9-12 — *Rechtszaken en claims*: de auditor moet werkzaamheden opzetten om rechtszaken en claims tegen de entiteit te identificeren die een risico van afwijking van materieel belang kunnen veroorzaken, onder meer door inlichtingen in te winnen bij het management, notulen te lezen en **kostenrekeningen voor juridische bijstand na te zien**. 📖  
 > > *Bron: ISA 501 §§9-12*
 >
 > **Welke actie stel je voor?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Bijkomende controlewerkzaamheden uitvoeren** om de aard en de financiële impact van het advocatenwerk vast te stellen, met als sluitstuk een **bevestigingsbrief aan de externe advocaat** (lawyer's letter) én een **schriftelijke bevestiging van het management** dat alle gekende of waarschijnlijke rechtszaken zijn meegedeeld. 🔗_**
+> > **Bijkomende controlewerkzaamheden uitvoeren** om de aard en de financiële impact van het advocatenwerk vast te stellen, met als sluitstuk een **bevestigingsbrief aan de externe advocaat** (lawyer's letter) én een **schriftelijke bevestiging van het management** dat alle gekende of waarschijnlijke rechtszaken zijn meegedeeld. 🔗
 > > 
 > > Concrete stappen in oplopende volgorde:
 > > 
@@ -343,7 +343,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Als het management **weigert** de bevestigingsbrief aan de advocaat te laten versturen of de advocaat **weigert** te antwoorden, beschouwt ISA 501 §10 dit als een **beperking in de reikwijdte** van de controle — gevolg: oordeel **met voorbehoud** of **onthouding van oordeel**. De auditor mag zich niet tevreden stellen met enkel een mondelinge geruststelling. 📖
 > > 
-> > *ISA 501 §§9-12 *Rechtszaken en claims* — verplicht doorlopen werkzaamheden (inlichtingen management, kostennazicht, notulen, correspondentie advocaten) + bij geïdentificeerd risico: rechtstreekse communicatie met externe juridische adviseur. ISA 580 *Schriftelijke bevestigingen* — vereist schriftelijke management-bevestiging dat alle relevante informatie (incl. rechtszaken/claims) is meegedeeld; bijlage 1 vermeldt ISA 501 §12 expliciet. 📖*  
+> > ISA 501 §§9-12 *Rechtszaken en claims* — verplicht doorlopen werkzaamheden (inlichtingen management, kostennazicht, notulen, correspondentie advocaten) + bij geïdentificeerd risico: rechtstreekse communicatie met externe juridische adviseur. ISA 580 *Schriftelijke bevestigingen* — vereist schriftelijke management-bevestiging dat alle relevante informatie (incl. rechtszaken/claims) is meegedeeld; bijlage 1 vermeldt ISA 501 §12 expliciet. 📖  
 > > *Bron: ISA 501 §§9-12 + ISA 580 §10 en bijlage 1*
 
 <a id="2014-1-vr14"></a>
@@ -357,7 +357,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Neen** — een controleopdracht (volkomen controle) kan niet worden afgesloten op basis van een door de **interne** boekhouder opgemaakte, niet door het bestuursorgaan goedgekeurde tussentijdse staat per 31/12/2013. We hebben (i) een door het bestuursorgaan opgestelde en ondertekende ontwerp-jaarrekening, (ii) voldoende en geschikte controle-informatie volgens de ISAs en (iii) onder meer een verslag van het bestuursorgaan, gebeurtenissen na balansdatum en een schriftelijke bevestiging van de leiding (LOR) nodig vooraleer we ons oordeel kunnen ondertekenen. 🔗_**
+> > **Neen** — een controleopdracht (volkomen controle) kan niet worden afgesloten op basis van een door de **interne** boekhouder opgemaakte, niet door het bestuursorgaan goedgekeurde tussentijdse staat per 31/12/2013. We hebben (i) een door het bestuursorgaan opgestelde en ondertekende ontwerp-jaarrekening, (ii) voldoende en geschikte controle-informatie volgens de ISAs en (iii) onder meer een verslag van het bestuursorgaan, gebeurtenissen na balansdatum en een schriftelijke bevestiging van de leiding (LOR) nodig vooraleer we ons oordeel kunnen ondertekenen. 🔗
 > > 
 > > De situatie zoals beschreven schiet op meerdere punten tekort om een controleverslag te kunnen ondertekenen:
 > > 
@@ -370,14 +370,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet verwarren met een *beoordelingsopdracht* (ISRE 2400) of *agreed-upon procedures*: bij die opdrachten volstaat een lager assurance-niveau en zijn substantieve cijfercontroles beperkter. De vraag specificeert uitdrukkelijk een **volkomen controle** (= redelijke mate van zekerheid, ISA-kader), waarvoor de hele audit-cyclus moet worden doorlopen alvorens een oordeel kan worden uitgebracht. 🤖
 > > 
-> > *ISA 200 §A2-A4 (premise — financiële overzichten opgesteld onder verantwoordelijkheid van management), ISA 560 (gebeurtenissen na balansdatum), ISA 580 (schriftelijke bevestigingen), ISA 700 (herzien) (vereisten vóór het uitbrengen van een oordeel) en art. 3:75 WVV / ISA 720 (lezen van het jaarverslag in samenhang met de jaarrekening). 🔗*  
+> > ISA 200 §A2-A4 (premise — financiële overzichten opgesteld onder verantwoordelijkheid van management), ISA 560 (gebeurtenissen na balansdatum), ISA 580 (schriftelijke bevestigingen), ISA 700 (herzien) (vereisten vóór het uitbrengen van een oordeel) en art. 3:75 WVV / ISA 720 (lezen van het jaarverslag in samenhang met de jaarrekening). 🔗  
 > > *Bron: ISA 200, ISA 560, ISA 580, ISA 700 (herzien); art. 3:75 WVV*
 >
 > **Wat is het belang, in het kader van deze opdracht, zoals hierboven beschreven, van het vastleggen van de materialiteitsgrens?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De materialiteitsgrens (hier 50.000 EUR) bepaalt de **drempel waarboven een afwijking redelijkerwijs de beslissingen van de gebruikers van de jaarrekening kan beïnvloeden**. Ze stuurt de planning (aard, timing en omvang van de werkzaamheden), de uitvoeringsmaterialiteit (lagere werkdrempel om het aggregate risk te beheersen) en de evaluatie van geconstateerde afwijkingen aan het einde van de controle. 📖_**
+> > De materialiteitsgrens (hier 50.000 EUR) bepaalt de **drempel waarboven een afwijking redelijkerwijs de beslissingen van de gebruikers van de jaarrekening kan beïnvloeden**. Ze stuurt de planning (aard, timing en omvang van de werkzaamheden), de uitvoeringsmaterialiteit (lagere werkdrempel om het aggregate risk te beheersen) en de evaluatie van geconstateerde afwijkingen aan het einde van de controle. 📖
 > > 
 > > Concreet belang in deze opdracht:
 > > 
@@ -389,14 +389,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Materialiteit is geen vast wettelijk cijfer maar professional judgment. Gangbare benchmarks: 0,5-1% van omzet, 1-2% van totaal-activa, 5-10% van resultaat vóór belastingen. Voor deze opdracht (50.000 EUR) ligt achter het cijfer dus een keuze van benchmark + percentage die in het auditdossier gedocumenteerd moet zijn (ISA 320 §14). 🔗
 > > 
-> > *ISA 320 — *Materialiteit bij de planning en uitvoering van een controle*: definitie, bepaling van de materialiteit voor de financiële overzichten als geheel, uitvoeringsmaterialiteit, herziening en documentatie. ISA 450 regelt de evaluatie van afwijkingen ten opzichte van de materialiteit. 📖*  
+> > ISA 320 — *Materialiteit bij de planning en uitvoering van een controle*: definitie, bepaling van de materialiteit voor de financiële overzichten als geheel, uitvoeringsmaterialiteit, herziening en documentatie. ISA 450 regelt de evaluatie van afwijkingen ten opzichte van de materialiteit. 📖  
 > > *Bron: ISA 320, ISA 450*
 >
 > De vennootschap voor dewelke wij deze controleopdracht verrichten, heeft een dochterbedrijf via aandelen aangekocht voor 300.000 EUR (code 28). Hoe pak je deze post aan? Geef 2 controledoelstellingen en 2 controletechnieken die hier kunnen toegepast worden.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Een deelneming van 300.000 EUR (code 28) ligt **boven de materialiteit** (50.000 EUR) en vereist substantieve controle. Twee controledoelstellingen — **bestaan/eigendomsrecht** en **waardering** — gecombineerd met twee technieken — **inspectie van bewijsstukken** (aankoopakte, aandelenregister) en **herberekening van eventuele waardeverminderingen** op basis van de jaarrekening van de dochter. 🔗_**
+> > Een deelneming van 300.000 EUR (code 28) ligt **boven de materialiteit** (50.000 EUR) en vereist substantieve controle. Twee controledoelstellingen — **bestaan/eigendomsrecht** en **waardering** — gecombineerd met twee technieken — **inspectie van bewijsstukken** (aankoopakte, aandelenregister) en **herberekening van eventuele waardeverminderingen** op basis van de jaarrekening van de dochter. 🔗
 > > 
 > > **Twee controledoelstellingen** (assertions, ISA 315 §A190):
 > > 
@@ -414,7 +414,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet vergeten dat een deelneming van 300.000 EUR mogelijks tot **consolidatieplicht** leidt (art. 3:24 WVV — consolidatiekring en groottecriteria art. 1:26 WVV). Voor de enkelvoudige controle blijft de waardering aan aanschaffingswaarde + eventuele waardevermindering (geen equity-methode in BE GAAP enkelvoudig). Vermijd ook de fout om bestaan + waardering door één techniek te willen afdekken: een aankoopakte bewijst bestaan op aankoopdatum, niet de actuele waardering per 31/12. 🤖
 > > 
-> > *ISA 315 (herzien) §A190 — onderscheid assertions op klassen van transacties versus rekeningsaldi (bestaan, volledigheid, juistheid, waardering, rechten en verplichtingen, presentatie). ISA 500 §A14-A25 — toegelaten controletechnieken (inspectie, observatie, externe bevestiging, herberekening, herhaling, analytische werkzaamheden, inquiry). Voor waardering: art. 3:42 KB/WVV (waardevermindering bij duurzame minderwaarde van financiële vaste activa). 🔗*  
+> > ISA 315 (herzien) §A190 — onderscheid assertions op klassen van transacties versus rekeningsaldi (bestaan, volledigheid, juistheid, waardering, rechten en verplichtingen, presentatie). ISA 500 §A14-A25 — toegelaten controletechnieken (inspectie, observatie, externe bevestiging, herberekening, herhaling, analytische werkzaamheden, inquiry). Voor waardering: art. 3:42 KB/WVV (waardevermindering bij duurzame minderwaarde van financiële vaste activa). 🔗  
 > > *Bron: ISA 315 (herzien), ISA 500; art. 3:42 KB/WVV*
 >
 > Gedurende deze controleopdracht, ga je een afloopcontrole uitvoeren op de post 'bezoldigingen en sociale lasten' (passief codes 454/9).
@@ -423,7 +423,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Een **afloopcontrole** (cut-off / subsequent payments test) op rekening 454/9 (te betalen bezoldigingen en sociale lasten) bestaat erin **na balansdatum na te gaan welke posten van het saldo per 31/12/2013 in de periode januari-februari 2014 zijn betaald of geregulariseerd**. De effectief afgelopen bedragen leveren bewijs voor het bestaan en de volledigheid van de schuld per balansdatum. 🔗_**
+> > Een **afloopcontrole** (cut-off / subsequent payments test) op rekening 454/9 (te betalen bezoldigingen en sociale lasten) bestaat erin **na balansdatum na te gaan welke posten van het saldo per 31/12/2013 in de periode januari-februari 2014 zijn betaald of geregulariseerd**. De effectief afgelopen bedragen leveren bewijs voor het bestaan en de volledigheid van de schuld per balansdatum. 🔗
 > > 
 > > **Stappenplan**:
 > > 
@@ -447,7 +447,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De afloopcontrole is een typische **subsequent events procedure** (ISA 560) en geldt als één van de sterkste vormen van bewijs voor passiefposten die kort na balansdatum aflopen. Voor het **vakantiegeld** is de Belgische gangbare forfaitaire raming 18,8 % van de bezoldigingen van het lopende jaar voor bedienden (CBN-bulletin 90/3-6) — die formule vervangt geen afloopcontrole maar dient als plausibiliteits-toets. 🤖
 > > 
-> > *ISA 500 — *Controle-informatie* (subsequent payments als externe, hoogwaardige informatie); ISA 560 — *Gebeurtenissen na balansdatum* (auditor onderzoekt feiten tussen balansdatum en datum controleverslag); art. 3:11 KB/WVV en CBN-bulletin 90/3-6 (waardering schuld vakantiegeld). 🔗*  
+> > ISA 500 — *Controle-informatie* (subsequent payments als externe, hoogwaardige informatie); ISA 560 — *Gebeurtenissen na balansdatum* (auditor onderzoekt feiten tussen balansdatum en datum controleverslag); art. 3:11 KB/WVV en CBN-bulletin 90/3-6 (waardering schuld vakantiegeld). 🔗  
 > > *Bron: ISA 500, ISA 560; CBN-bulletin 90/3-6; art. 3:11 KB/WVV*
 
 <a id="2013-2-vr9"></a>
@@ -470,7 +470,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > ISA 500 §A14-A25 noemt in totaal **zeven** controlewerkzaamheden: naast bovenstaande vier ook **externe bevestiging** (ISA 505 — direct schriftelijk antwoord van een derde), **opnieuw uitvoeren** (re-performance van een interne beheersingsmaatregel) en **cijferanalyses** (analytical procedures, ISA 520). De vraag vraagt er vier — elke combinatie van vier uit deze zeven is verdedigbaar; bovenstaande keuze dekt de klassieke pijlers (documentair, visueel, mondeling, rekenkundig). 🔗
 > > 
-> > *ISA 500 *Controle-informatie* §A14-A25 somt de controlewerkzaamheden op waarmee de auditor controle-informatie verkrijgt: inspectie, waarneming, externe bevestiging, herberekening, opnieuw uitvoeren, cijferanalyses en verzoeken om inlichtingen. Externe bevestiging wordt verder uitgewerkt in ISA 505. 📖*  
+> > ISA 500 *Controle-informatie* §A14-A25 somt de controlewerkzaamheden op waarmee de auditor controle-informatie verkrijgt: inspectie, waarneming, externe bevestiging, herberekening, opnieuw uitvoeren, cijferanalyses en verzoeken om inlichtingen. Externe bevestiging wordt verder uitgewerkt in ISA 505. 📖  
 > > *Bron: ISA 500 §A14-A25; ISA 505*
 
 <a id="2013-2-vr11"></a>
@@ -482,7 +482,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Een **onthoudende verklaring** (oordeelonthouding / *disclaimer of opinion*) wordt afgegeven wanneer de auditor **niet in staat is voldoende en geschikte controle-informatie te verkrijgen** om zijn oordeel op te baseren, EN hij concludeert dat de mogelijke gevolgen van eventueel niet-gedetecteerde afwijkingen voor de financiële overzichten zowel **van materieel belang** als **van diepgaande invloed** (*pervasive*) kunnen zijn. 📖_**
+> > Een **onthoudende verklaring** (oordeelonthouding / *disclaimer of opinion*) wordt afgegeven wanneer de auditor **niet in staat is voldoende en geschikte controle-informatie te verkrijgen** om zijn oordeel op te baseren, EN hij concludeert dat de mogelijke gevolgen van eventueel niet-gedetecteerde afwijkingen voor de financiële overzichten zowel **van materieel belang** als **van diepgaande invloed** (*pervasive*) kunnen zijn. 📖
 > > 
 > > **Twee dimensies** bepalen de keuze van het aangepaste oordeel (ISA 705 par. 7-10): 🔗
 > > 
@@ -507,7 +507,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Een tweede valkuil: **continuïteits-onzekerheid** leidt op zichzelf NIET tot een oordeelonthouding. Als de continuïteitsveronderstelling passend is en de toelichting adequaat, volstaat een goedkeurend oordeel met een aparte sectie "Onzekerheid van materieel belang omtrent de continuïteit" (ISA 570). Een onthouding kan wel uitzonderlijk volgen wanneer de onzekerheid combineert met andere scope-beperkingen (ISA 705 par. 10). 📖
 > > 
-> > ***ISA 705 (herzien) par. 9-10** — *Aanpassingen van het oordeel in de controleverklaring*: de auditor formuleert een oordeelonthouding wanneer hij geen voldoende en geschikte controle-informatie kan verkrijgen en de mogelijke effecten op de financiële overzichten zowel van materieel belang als van diepgaande invloed kunnen zijn (par. 9); en uitzonderlijk wanneer het cumulatieve effect van meerdere onzekerheden samen het vormen van een oordeel onmogelijk maakt (par. 10). **ITAA KMO-controlenorm §121** bevestigt deze regel voor de niet-wettelijke contractuele controleopdracht. Rapportage-vereisten in ISA 705 par. 19-20 (geen oordeel, sectie "Onderbouwing van onze oordeelonthouding", aangepaste verantwoordelijkheids-paragrafen). 📖*  
+> > **ISA 705 (herzien) par. 9-10** — *Aanpassingen van het oordeel in de controleverklaring*: de auditor formuleert een oordeelonthouding wanneer hij geen voldoende en geschikte controle-informatie kan verkrijgen en de mogelijke effecten op de financiële overzichten zowel van materieel belang als van diepgaande invloed kunnen zijn (par. 9); en uitzonderlijk wanneer het cumulatieve effect van meerdere onzekerheden samen het vormen van een oordeel onmogelijk maakt (par. 10). **ITAA KMO-controlenorm §121** bevestigt deze regel voor de niet-wettelijke contractuele controleopdracht. Rapportage-vereisten in ISA 705 par. 19-20 (geen oordeel, sectie "Onderbouwing van onze oordeelonthouding", aangepaste verantwoordelijkheids-paragrafen). 📖  
 > > *Bron: ISA 705 (herzien) par. 9-10, 19-20; ITAA KMO-controlenorm §121*
 
 <a id="2013-2-vr13"></a>
@@ -521,7 +521,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Nee, niet zonder meer.** De cijfers van de interne boekhouder zijn een uitgangspunt, geen controle-informatie op zich. De externe accountant moet zelf voldoende en geschikte controle-informatie verzamelen om een eigen oordeel te onderbouwen — ook bij een laag risicoprofiel en een sterke interne controle. 🔗_**
+> > **Nee, niet zonder meer.** De cijfers van de interne boekhouder zijn een uitgangspunt, geen controle-informatie op zich. De externe accountant moet zelf voldoende en geschikte controle-informatie verzamelen om een eigen oordeel te onderbouwen — ook bij een laag risicoprofiel en een sterke interne controle. 🔗
 > > 
 > > Drie redenen waarom de cijfers van de interne boekhouder onvoldoende zijn als basis:
 > > 
@@ -533,14 +533,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het gegeven "goede interne controle voor aankopen, financieel en verkopen" betekent dat de accountant **mag steunen op de IC** voor die cycli — mits hij die werking zélf via toetsingen (test of controls) heeft bevestigd. Pas dán kan hij de omvang van zijn substantieve werkzaamheden verminderen. Het is geen carte blanche om de cijfers over te nemen. 🔗
 > > 
-> > *ISA 500 *Controle-informatie* — de auditor moet voldoende en geschikte controle-informatie verkrijgen; interne bronnen hebben lagere bewijskracht dan externe bevestigingen of eigen waarnemingen. ISA 315 (herzien) + ISA 330 — risico-inschatting en inspelen op risico's: ook bij laag risico blijven substantieve werkzaamheden vereist. Algemene controlenorm ITAA — onafhankelijkheid en eigen oordeelsvorming zijn basisprincipes voor elke controleopdracht. 🔗*  
+> > ISA 500 *Controle-informatie* — de auditor moet voldoende en geschikte controle-informatie verkrijgen; interne bronnen hebben lagere bewijskracht dan externe bevestigingen of eigen waarnemingen. ISA 315 (herzien) + ISA 330 — risico-inschatting en inspelen op risico's: ook bij laag risico blijven substantieve werkzaamheden vereist. Algemene controlenorm ITAA — onafhankelijkheid en eigen oordeelsvorming zijn basisprincipes voor elke controleopdracht. 🔗  
 > > *Bron: ISA 500 · ISA 315 (herzien) · ISA 330 · Algemene controlenorm ITAA*
 >
 > De telling van de voorraad (30/11/2013) hebben we fysiek kunnen meemaken. Welke controle doen we nu tijdens de controlewerkzaamheden op de voorraad landbouwmachines? Geef één controledoelstelling en één voorbeeld van de techniek die je daarvoor gaat toepassen.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Controledoelstelling: waardering** (zijn de getelde landbouwmachines correct gewaardeerd tegen de laagste van aanschaffingswaarde of marktwaarde?). **Techniek: prijsonderzoek** — toets de eenheidsprijzen in de voorraadlijst aan recente aankoopfacturen en vergelijk de boekwaarde met de actuele marktwaarde / recente verkoopprijzen om eventuele waardeverminderingen te detecteren. 🔗_**
+> > **Controledoelstelling: waardering** (zijn de getelde landbouwmachines correct gewaardeerd tegen de laagste van aanschaffingswaarde of marktwaarde?). **Techniek: prijsonderzoek** — toets de eenheidsprijzen in de voorraadlijst aan recente aankoopfacturen en vergelijk de boekwaarde met de actuele marktwaarde / recente verkoopprijzen om eventuele waardeverminderingen te detecteren. 🔗
 > > 
 > > De fysieke aanwezigheid bij de voorraadopname dekt de **bestaan**-bewering af (de machines zijn er, in de getelde hoeveelheid). Tijdens de eigenlijke controlewerkzaamheden moet de accountant de andere beweringen rond de voorraadpost nog afdekken:
 > > 
@@ -555,7 +555,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > ISA 501 noemt expliciet dat de auditor bij de voorraadtelling **niet enkel telt**, maar ook let op kwaliteit, beschadiging, veroudering en stapeling — signalen voor waardevermindering. Voor een handelaar in landbouwmachines zijn typische valkuilen: tweedehands-toestellen tegen volledige aanschaffingswaarde, demonstratie-modellen die als nieuw geboekt blijven, en consignatie-voorraad die niet aan de NV toebehoort. 🔗
 > > 
-> > *ISA 501 *Controle-informatie — Specifieke overwegingen voor geselecteerde elementen* — voorraadopname dekt bestaan en toestand af; voor waardering, eigendom en cut-off zijn aanvullende werkzaamheden vereist. ISA 500 §A1 e.v. — beweringen rond rekeningssaldi (existence, completeness, rights and obligations, valuation and allocation). 🔗*  
+> > ISA 501 *Controle-informatie — Specifieke overwegingen voor geselecteerde elementen* — voorraadopname dekt bestaan en toestand af; voor waardering, eigendom en cut-off zijn aanvullende werkzaamheden vereist. ISA 500 §A1 e.v. — beweringen rond rekeningssaldi (existence, completeness, rights and obligations, valuation and allocation). 🔗  
 > > *Bron: ISA 501 · ISA 500*
 
 <a id="2013-2-vr19"></a>
@@ -601,7 +601,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De CVBA is sinds de WVV-hervorming (1 mei 2019) een uitdovende rechtsvorm: bestaande CV's met aandelen die niet aan de coöperatieve gedachte beantwoorden, moesten vóór 1 januari 2024 worden omgezet (meestal naar BV). In 2013 — datum van dit examen — was die transformatie-druk er nog niet; CVBA → BVBA was toen al perfect mogelijk onder het W.Venn., maar de huidige terminologie is BV (geen "BVBA" meer). 🤖
 > > 
-> > *Boek 14 WVV (vroeger art. 774-788 W.Venn.) regelt de nationale omzetting. Onafhankelijkheid: art. 9 en art. 11 KB van 1 maart 1998 (plichtenleer accountants) — opdracht weigeren bij invloeden of belangenconflict die de onafhankelijkheid aantasten; hier niet van toepassing. 📖*  
+> > Boek 14 WVV (vroeger art. 774-788 W.Venn.) regelt de nationale omzetting. Onafhankelijkheid: art. 9 en art. 11 KB van 1 maart 1998 (plichtenleer accountants) — opdracht weigeren bij invloeden of belangenconflict die de onafhankelijkheid aantasten; hier niet van toepassing. 📖  
 > > *Bron: Boek 14 WVV; art. 9 + art. 11 KB van 1 maart 1998*
 >
 > Kan je werken op basis van een proef- en saldibalans zoals in bijlage? Verklaar uw antwoord.
@@ -613,7 +613,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Nee.** Een proef- en saldibalans is geen geldige basis. Je hebt een door het bestuursorgaan opgestelde **staat van activa en passiva** nodig, gepresenteerd volgens het schema van de jaarrekening en met de toegepaste waarderingsregels. 🔗_**
+> > **Nee.** Een proef- en saldibalans is geen geldige basis. Je hebt een door het bestuursorgaan opgestelde **staat van activa en passiva** nodig, gepresenteerd volgens het schema van de jaarrekening en met de toegepaste waarderingsregels. 🔗
 > > 
 > > Drie redenen waarom de proef- en saldibalans niet volstaat:
 > > 
@@ -621,20 +621,20 @@ gegenereerd_op: 2026-05-26
 > > - **Verkeerde vorm.** Boek 14 WVV en de ITAA-norm vereisen een staat A&P opgesteld volgens het schema van de jaarrekening (vaste / vlottende activa, eigen vermogen, schulden), met de toegepaste waarderingsregels. Een rauwe proef- en saldibalans (kolommen debet/credit per rekeningnummer) heeft die structuur niet en bevat geen waarderingsregels. 📖
 > > - **Mogelijk verouderd, niet afgesloten.** De staat A&P moet afgesloten zijn op een datum die maximaal drie maanden voorafgaat aan de buitengewone algemene vergadering die over de omzetting beslist. Een proef- en saldibalans is een tussenstand, geen afsluiting; bovendien moeten resultaatrekeningen worden afgesloten en moet het tussentijds resultaat in het eigen vermogen worden opgenomen. 🔗
 > > 
-> > *ITAA-norm omzetting van een entiteit — basis voor de conclusie: "De staat van activa en passiva is opgesteld door het bestuursorgaan. Deze is afgesloten op een datum die niet meer dan drie maanden voorafgaat aan de algemene vergadering die zich moet uitspreken over het omzettingsvoorstel." Art. 14:3 WVV (oud art. 776 W.Venn.) voor de nationale procedure. 📖*  
+> > ITAA-norm omzetting van een entiteit — basis voor de conclusie: "De staat van activa en passiva is opgesteld door het bestuursorgaan. Deze is afgesloten op een datum die niet meer dan drie maanden voorafgaat aan de algemene vergadering die zich moet uitspreken over het omzettingsvoorstel." Art. 14:3 WVV (oud art. 776 W.Venn.) voor de nationale procedure. 📖  
 > > *Bron: ITAA-norm omzetting van een entiteit; art. 14:3 WVV*
 >
 > Wie draagt de verantwoordelijkheid over de verstrekte cijfers? Geef één voorbeeld waaruit deze verantwoordelijkheid kan blijken.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Het **bestuursorgaan** (zaakvoerder(s) / raad van bestuur) van de zich omzettende vennootschap draagt de verantwoordelijkheid over de verstrekte cijfers. 📖_**
+> > Het **bestuursorgaan** (zaakvoerder(s) / raad van bestuur) van de zich omzettende vennootschap draagt de verantwoordelijkheid over de verstrekte cijfers. 📖
 > > 
 > > Voorbeeld waaruit deze verantwoordelijkheid blijkt: **de staat van activa en passiva wordt door het bestuursorgaan opgesteld en ondertekend, samen met de toegepaste waarderingsregels en een verslag van het bestuursorgaan dat het voorstel tot omzetting toelicht**. De accountant beoordeelt enkel of het nettoactief, in alle van materieel belang zijnde opzichten, niet is overgewaardeerd — hij stelt de cijfers niet op en herwerkt ze niet zelf. 🔗
 > > 
 > > Andere mogelijke voorbeelden: een schriftelijke bevestiging (representation letter) van het bestuursorgaan aan de beroepsbeoefenaar dat alle relevante informatie is verstrekt; de neerlegging van de authentieke omzettingsakte met bijgevoegde staat A&P bij de NBB, ondertekend door of namens het bestuursorgaan. 🤖
 > > 
-> > *ITAA-norm omzetting van een entiteit — sectie "Verantwoordelijkheden van het bestuursorgaan": het bestuursorgaan stelt de staat A&P op, hanteert de waarderingsregels, motiveert de omzetting in een verslag en verschaft toegang tot alle informatie. De accountant geeft een beoordelingsverslag met beperkte zekerheid. 📖*  
+> > ITAA-norm omzetting van een entiteit — sectie "Verantwoordelijkheden van het bestuursorgaan": het bestuursorgaan stelt de staat A&P op, hanteert de waarderingsregels, motiveert de omzetting in een verslag en verschaft toegang tot alle informatie. De accountant geeft een beoordelingsverslag met beperkte zekerheid. 📖  
 > > *Bron: ITAA-norm omzetting van een entiteit (II.3 + Bijlage 3); art. 14:3 WVV*
 >
 > Geef drie voorbeelden van stukken die vereist zijn in elk werkdossier van een wettelijke opdracht die je opvraagt nog vóór je begint te cijferen en te controleren.
@@ -649,15 +649,10 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Andere veel-vermelde stukken (bonus, niet de drie kern): goedgekeurde jaarrekening van het vorige boekjaar, gecoördineerde statuten, KBO-uittreksel, notulen bestuursorgaan dat de beroepsbeoefenaar aanstelt. 🤖
 > > 
-> > *ITAA-norm omzetting (par. II.3 opdrachtbrief + bijlage modelverslagen) + ITAA-norm opdrachtbrief + ITAA-AWW-norm (identificatie cliënt en UBO vóór aanvang opdracht). Art. 14:3 WVV legt het voorstel tot omzetting + verslag bestuursorgaan + staat A&P vast als procedurele documenten. 📖*  
+> > ITAA-norm omzetting (par. II.3 opdrachtbrief + bijlage modelverslagen) + ITAA-norm opdrachtbrief + ITAA-AWW-norm (identificatie cliënt en UBO vóór aanvang opdracht). Art. 14:3 WVV legt het voorstel tot omzetting + verslag bestuursorgaan + staat A&P vast als procedurele documenten. 📖  
 > > *Bron: ITAA-norm omzetting II.3; ITAA-norm opdrachtbrief; ITAA-AWW-norm; art. 14:3 WVV*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Onbekende deelvraag e (tekst ontbreekt in OCR — mogelijk verdere vereisten werkdossier of een bijkomende stap in de omzettingsprocedure)
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> _Onbekende deelvraag e (tekst ontbreekt in OCR — mogelijk verdere vereisten werkdossier of een bijkomende stap in de omzettingsprocedure)_
 >
 > Omschrijf en bereken de door te voeren correcties op de activaposten zoals deze voorkomen in de ontvangen cijfers per 30/09/2013 (enkel de correcties van het ACTIEF). Gebruik de staat activa en passiva, afschrijvingstabel, detail participatie en overzicht handelsvorderingen.
 > 
@@ -672,7 +667,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De vraag vraagt enkel correcties op het ACTIEF — laat passief-correcties (overlopende rekeningen, voorzieningen, latente belastingen, schulden) buiten beschouwing, ook al worden de tegenboekingen daar uitgevoerd. De afschrijving installaties geeft bv. 6302 (kost) tegenover 230900 (vermindering actief): in deze deelvraag schrijf je enkel de actief-impact (toename 230900). 🤖
 > > 
-> > *Waarderingsregels: art. 3:30 e.v. KB WVV 2019 (oud art. 28 e.v. KB W.Venn. 30/01/2001) — afschrijvingen, waardeverminderingen, getrouw beeld. Bij omzetting moet de staat A&P opgesteld worden conform deze waarderingsregels (ITAA-norm omzetting, par. II + III). 📖*  
+> > Waarderingsregels: art. 3:30 e.v. KB WVV 2019 (oud art. 28 e.v. KB W.Venn. 30/01/2001) — afschrijvingen, waardeverminderingen, getrouw beeld. Bij omzetting moet de staat A&P opgesteld worden conform deze waarderingsregels (ITAA-norm omzetting, par. II + III). 📖  
 > > *Bron: Art. 3:30 e.v. KB WVV 2019; ITAA-norm omzetting van een entiteit*
 >
 > Als gevolg van uw vaststellingen en vereiste correcties moeten er vermeldingen komen in het besluit van je verslag. Geef twee vermeldingen.
@@ -684,18 +679,18 @@ gegenereerd_op: 2026-05-26
 > > - **Conclusie over (eventuele) overwaardering van het nettoactief.** Het besluit moet uitdrukkelijk vermelden of het nettoactief, in alle van materieel belang zijnde opzichten, al dan niet is overgewaardeerd — én een specifieke verwijzing naar de doorgevoerde correcties (afschrijvingen, waardeverminderingen handelsdebiteuren en/of participatie) die nodig waren om tot een niet-overgewaardeerd nettoactief te komen. 📖
 > > - **Beperking van het gebruik van het verslag.** Het verslag werd uitsluitend opgesteld in uitvoering van art. 14:3 WVV in het kader van de omzetting van de CVBA Fortunito naar de BVBA Reflexfort, en mag niet voor andere doeleinden worden gebruikt. 📖
 > > 
-> > *ITAA-norm omzetting van een entiteit — Bijlage 3 modelverslagen, secties "Conclusie" en "Beperking van het gebruik van ons verslag". Art. 14:3 WVV vereist een uitspraak over de overwaardering van het nettoactief. 📖*  
+> > ITAA-norm omzetting van een entiteit — Bijlage 3 modelverslagen, secties "Conclusie" en "Beperking van het gebruik van ons verslag". Art. 14:3 WVV vereist een uitspraak over de overwaardering van het nettoactief. 📖  
 > > *Bron: ITAA-norm omzetting van een entiteit (Bijlage 3); art. 14:3 WVV*
 >
 > Als gevolg van je vaststelling moet je een specifiek risico in je besluit opnemen. Geef de formulering ervan.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Specifiek risico in het besluit op te nemen: **"Aangezien de omzetting plaatsvindt zonder onderbreking van de rechtspersoonlijkheid, blijven de leden van het bestuursorgaan en de vennoten hoofdelijk en onbeperkt aansprakelijk jegens belanghebbende derden voor het verschil tussen het werkelijk nettoactief van de vennootschap op datum van de omzetting en het nettoactief zoals dat blijkt uit de door het bestuursorgaan opgestelde staat van activa en passiva."** 🔗_**
+> > Specifiek risico in het besluit op te nemen: **"Aangezien de omzetting plaatsvindt zonder onderbreking van de rechtspersoonlijkheid, blijven de leden van het bestuursorgaan en de vennoten hoofdelijk en onbeperkt aansprakelijk jegens belanghebbende derden voor het verschil tussen het werkelijk nettoactief van de vennootschap op datum van de omzetting en het nettoactief zoals dat blijkt uit de door het bestuursorgaan opgestelde staat van activa en passiva."** 🔗
 > > 
 > > De vastgestelde correcties op het actief (afschrijving installaties niet geboekt, mogelijke waardeverminderingen op O'Cool en handelsdebiteuren) duwen het nettoactief naar beneden. Wanneer de beroepsbeoefenaar een nettoactief vaststelt dat **lager** ligt dan wat het bestuursorgaan in de staat A&P heeft opgegeven, is er een **specifiek aansprakelijkheidsrisico** voor het bestuursorgaan en/of de vennoten. Boek 14 WVV verbindt aan dit verschil een bijzondere hoofdelijke aansprakelijkheid (oud art. 785 W.Venn.; thans art. 14:5 WVV) — de beroepsbeoefenaar moet dit risico expliciet in het besluit van het verslag formuleren. 🔗
 > > 
-> > *Art. 14:5 WVV (oud art. 785 W.Venn.): hoofdelijke aansprakelijkheid van de leden van het bestuursorgaan en van de vennoten ten aanzien van belanghebbende derden voor het verschil tussen het werkelijk nettoactief en dat bedoeld in de staat van activa en passiva. ITAA-norm omzetting — modelverslag, sectie risico-vermelding. 📖*  
+> > Art. 14:5 WVV (oud art. 785 W.Venn.): hoofdelijke aansprakelijkheid van de leden van het bestuursorgaan en van de vennoten ten aanzien van belanghebbende derden voor het verschil tussen het werkelijk nettoactief en dat bedoeld in de staat van activa en passiva. ITAA-norm omzetting — modelverslag, sectie risico-vermelding. 📖  
 > > *Bron: Art. 14:5 WVV (oud art. 785 W.Venn.); ITAA-norm omzetting van een entiteit*
 
 <a id="2013-1-vr16"></a>
@@ -709,7 +704,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Voorwerp**: een controle-opdracht (beoordelingsopdracht) over de **staat van activa en passiva** die het bestuursorgaan opmaakt ter onderbouwing van het ontbindingsvoorstel. **Doel**: aan de algemene vergadering schriftelijk verslag uitbrengen of die staat **een getrouw beeld** geeft van het vermogen van de vennootschap en in voorkomend geval **vermelden of er overwaardering is** van activa of onderwaardering van passiva. 🔗_**
+> > **Voorwerp**: een controle-opdracht (beoordelingsopdracht) over de **staat van activa en passiva** die het bestuursorgaan opmaakt ter onderbouwing van het ontbindingsvoorstel. **Doel**: aan de algemene vergadering schriftelijk verslag uitbrengen of die staat **een getrouw beeld** geeft van het vermogen van de vennootschap en in voorkomend geval **vermelden of er overwaardering is** van activa of onderwaardering van passiva. 🔗
 > > 
 > > Bij elk voorstel tot vrijwillige ontbinding van een BV, CV, NV, SE of SCE legt het bestuursorgaan aan de AV (i) een **verslag** voor dat het voorstel toelicht en (ii) een daaraan gehechte **staat van activa en passiva**, vastgesteld op een datum die maximaal **drie maanden** vóór de AV ligt (art. 2:71, § 2 WVV). 📖
 > > 
@@ -719,27 +714,27 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Zonder dit verslag (en zonder het bestuurdersverslag) kan de AV **niet rechtsgeldig** beslissen tot ontbinding — de beslissing zou nietig zijn (art. 2:71, § 3 WVV). De accountant heeft hier dus een **constitutieve** rol in de geldigheid van het ontbindingsbesluit. 🔗
 > > 
-> > *Art. **2:71, § 2 WVV** (verslag bestuursorgaan + staat van A&P + controleverslag commissaris/bedrijfsrevisor/GA met expliciete vermelding van eventuele overwaardering). **ITAA-norm ontbinding-vereffening** (uitvoeringsmodaliteiten + modelverslag Bijlage 3). **CBN-advies 2022/04** (boekhoudkundige verwerking). 📖*  
+> > Art. **2:71, § 2 WVV** (verslag bestuursorgaan + staat van A&P + controleverslag commissaris/bedrijfsrevisor/GA met expliciete vermelding van eventuele overwaardering). **ITAA-norm ontbinding-vereffening** (uitvoeringsmodaliteiten + modelverslag Bijlage 3). **CBN-advies 2022/04** (boekhoudkundige verwerking). 📖  
 > > *Bron: art. 2:71, § 2 WVV*
 >
 > **Wie stelt de staat van activa en passiva op bij ontbinding?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De staat van activa en passiva wordt opgesteld door het **bestuursorgaan** van de vennootschap (raad van bestuur / bestuurder(s)). De externe accountant of bedrijfsrevisor **stelt hem niet op** — die controleert hem en brengt erover verslag uit. 📖_**
+> > De staat van activa en passiva wordt opgesteld door het **bestuursorgaan** van de vennootschap (raad van bestuur / bestuurder(s)). De externe accountant of bedrijfsrevisor **stelt hem niet op** — die controleert hem en brengt erover verslag uit. 📖
 > > 
 > > De ITAA-norm formuleert het expliciet: *"Het bestuursorgaan is verantwoordelijk voor het opstellen van de staat van activa en passiva, in overeenstemming met het in België van toepassing zijnde boekhoudkundig referentiestelsel"* — net als voor het toelichtingsverslag bij het ontbindingsvoorstel en voor de naleving van de WVV-vereisten. De **controle** door de beroepsbeoefenaar **ontslaat het bestuursorgaan niet** van die verantwoordelijkheid. 📖
 > > 
 > > Verwar de **opsteller** (bestuursorgaan) niet met de **verslaggever** (commissaris, of bij gebrek daaraan een bedrijfsrevisor of externe GA aangesteld door het bestuursorgaan). En verwar de **staat van A&P bij ontbinding** (art. 2:71 WVV — vóór de AV) niet met de **vereffeningsstaten** die nadien door de **vereffenaar** worden opgemaakt (jaarlijks en bij sluiting). 🔗
 > > 
-> > *Art. **2:71, § 2 WVV** (de staat van A&P wordt door het bestuursorgaan opgemaakt en bij het verslag van het bestuursorgaan gevoegd). **ITAA-norm ontbinding-vereffening**, sectie *Verantwoordelijkheden van het bestuursorgaan*. 📖*  
+> > Art. **2:71, § 2 WVV** (de staat van A&P wordt door het bestuursorgaan opgemaakt en bij het verslag van het bestuursorgaan gevoegd). **ITAA-norm ontbinding-vereffening**, sectie *Verantwoordelijkheden van het bestuursorgaan*. 📖  
 > > *Bron: art. 2:71, § 2 WVV*
 >
 > **Wanneer kan de staat van activa en passiva opgesteld worden in continuïteit?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De staat van activa en passiva wordt **bij wijze van uitzondering** in continuïteit opgesteld wanneer het bestuursorgaan, ondanks de voorgenomen ontbinding, kan **motiveren** dat de **continuïteitsveronderstelling** verantwoord blijft — bijvoorbeeld omdat het handelsfonds of de activiteit als geheel wordt **overgedragen of voortgezet** (going concern bij een derde) en er geen significante twijfel bestaat over het vermogen om verplichtingen na te komen. De regel is *discontinuïteit*; continuïteit is de te motiveren uitzondering. 🔗_**
+> > De staat van activa en passiva wordt **bij wijze van uitzondering** in continuïteit opgesteld wanneer het bestuursorgaan, ondanks de voorgenomen ontbinding, kan **motiveren** dat de **continuïteitsveronderstelling** verantwoord blijft — bijvoorbeeld omdat het handelsfonds of de activiteit als geheel wordt **overgedragen of voortgezet** (going concern bij een derde) en er geen significante twijfel bestaat over het vermogen om verplichtingen na te komen. De regel is *discontinuïteit*; continuïteit is de te motiveren uitzondering. 🔗
 > > 
 > > **Default = discontinuïteit.** Art. **3:6, § 2 KB/WVV** schrijft voor dat zodra de vennootschap er niet meer naar streeft haar activiteiten voort te zetten (zoals bij ontbinding), de waarderingsregels **worden aangepast aan de discontinuïteit**: vaste activa naar realisatiewaarde, voorzieningen voor sluitings- en herstructureringskosten, herklassering van LT-schulden naar KT. 📖
 > > 
@@ -749,7 +744,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Bij een **ontbinding-en-sluiting-in-één-akte** (art. 2:80 WVV — alle schulden betaald of geconsigneerd, akkoord van alle aandeelhouders) wordt de staat in de praktijk vaak in continuïteit opgesteld, maar dat is **geen automatisme**: het blijft een keuze die het bestuursorgaan moet motiveren en die de beroepsbeoefenaar moet toetsen. ❓
 > > 
-> > *Art. **3:6, § 2 KB/WVV** (29 april 2019): bij ontbinding worden de waarderingsregels aangepast aan de discontinuïteit, behoudens gemotiveerde uitzondering. **ITAA-norm ontbinding-vereffening**, §II.2 *Staat van activa en passiva opgesteld in continuïteit* (par. 32 — beoordeling van de motivatie + continuïteitstoets). **CBN-advies 2022/04** §waarderingsregels. 📖*  
+> > Art. **3:6, § 2 KB/WVV** (29 april 2019): bij ontbinding worden de waarderingsregels aangepast aan de discontinuïteit, behoudens gemotiveerde uitzondering. **ITAA-norm ontbinding-vereffening**, §II.2 *Staat van activa en passiva opgesteld in continuïteit* (par. 32 — beoordeling van de motivatie + continuïteitstoets). **CBN-advies 2022/04** §waarderingsregels. 📖  
 > > *Bron: art. 3:6, § 2 KB/WVV; ITAA-norm ontbinding-vereffening §II.2*
 
 <a id="2013-1-vr17"></a>
@@ -797,14 +792,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De zaakvoerders kunnen schriftelijk en met motivering kiezen om de staat **in continuïteit** op te stellen (uitzondering op KB WVV art. 3:6 § 2 — zie CBN 2018/18 en 2022/04). Dat is hier echter onhoudbaar: na het ontbindingsbesluit *stopt* HOLDING RICH per definitie haar bedrijfsactiviteit, en de DCF-waardering veronderstelt net die voortgezette exploitatie. Going-concern-redenering bij een ontbindingsstaat is dus inhoudelijk inconsistent — de accountant moet de afwijking weigeren of een voorbehoud formuleren. 🔗
 > > 
-> > *Art. 2:71 § 2 WVV (staat ≤ 3 maanden vóór AV, opgesteld volgens KB WVV) + KB WVV art. 3:6 § 2 (waarderingsregels in **discontinuïteit** bij stopzetting, behoudens gemotiveerde afwijking) + CBN-advies 2018/18 (going-concern bij stopzetting) + CBN-advies 2024/03 (niet-uitgedrukte meerwaarden bij ontbinding) + CBN-advies 2022/04 (verslaggeving bij ontbinding en vereffening BV/NV). 📖*  
+> > Art. 2:71 § 2 WVV (staat ≤ 3 maanden vóór AV, opgesteld volgens KB WVV) + KB WVV art. 3:6 § 2 (waarderingsregels in **discontinuïteit** bij stopzetting, behoudens gemotiveerde afwijking) + CBN-advies 2018/18 (going-concern bij stopzetting) + CBN-advies 2024/03 (niet-uitgedrukte meerwaarden bij ontbinding) + CBN-advies 2022/04 (verslaggeving bij ontbinding en vereffening BV/NV). 📖  
 > > *Bron: art. 2:71 § 2 WVV; KB WVV art. 3:6 § 2; CBN-advies 2018/18, 2022/04, 2024/03*
 >
 > **Welk soort controle ga je toepassen bij uw verslag inzake ontbinding?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Een **opdracht met beperkte mate van zekerheid** (*limited assurance*): de gecertificeerd accountant beoordeelt of het **nettoactief** in de staat van activa en passiva in alle van materieel belang zijnde opzichten **niet overgewaardeerd** is. Geen volledige controleopdracht (audit) met redelijke zekerheid. 🔗_**
+> > Een **opdracht met beperkte mate van zekerheid** (*limited assurance*): de gecertificeerd accountant beoordeelt of het **nettoactief** in de staat van activa en passiva in alle van materieel belang zijnde opzichten **niet overgewaardeerd** is. Geen volledige controleopdracht (audit) met redelijke zekerheid. 🔗
 > > 
 > > De wettelijk voorbehouden opdracht (art. 2:71 § 2, derde lid WVV) draagt de accountant op een verslag op te maken bij de staat van activa en passiva. De **ITAA-norm inzake opdrachten in het kader van ontbinding en vereffening** preciseert dat het gaat om een opdracht met *beperkte zekerheid* — analoog aan een ISRE-2400-beoordelingsopdracht, niet een ISA-audit. De conclusie luidt typisch: *"niets is onder onze aandacht gekomen waaruit zou blijken dat het nettoactief van materieel belang is overgewaardeerd"* (negatieve formulering, eigen aan limited assurance). 🔗
 > > 
@@ -814,14 +809,14 @@ gegenereerd_op: 2026-05-26
 > > - analytische procedures + beperkte detailtests op materiële posten;
 > > - in geval van ontbinding-en-sluiting-in-één-akte (art. 2:80 WVV): aanvullend bevestigen dat schulden zijn betaald of geconsigneerd. 🔗
 > > 
-> > *Art. 2:71 § 2, derde lid WVV (verslag commissaris / bedrijfsrevisor / GA bij voorstel ontbinding) + ITAA-norm *Opdrachten in het kader van de (vrijwillige) ontbinding en vereffening van vennootschappen* — bijlage 3 modelverslag bevestigt het karakter van *beperkte zekerheid*. 📖*  
+> > Art. 2:71 § 2, derde lid WVV (verslag commissaris / bedrijfsrevisor / GA bij voorstel ontbinding) + ITAA-norm *Opdrachten in het kader van de (vrijwillige) ontbinding en vereffening van vennootschappen* — bijlage 3 modelverslag bevestigt het karakter van *beperkte zekerheid*. 📖  
 > > *Bron: art. 2:71 § 2 WVV; ITAA-norm ontbinding-vereffening*
 >
 > Kan deze ontbinding in één akte ook gesloten worden? Leg uit.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Neen** — een ontbinding in één akte (art. 2:80 WVV, voorwaarden uit het oude art. 2:91 / huidig art. 2:80 § 1 WVV) is hier **niet mogelijk**. De vennootschap heeft openstaande schulden van € 330.000 (€ 250.000 LT + € 80.000 KT) en slechts € 20.000 bank. De voorwaarde dat *alle schulden t.a.v. derden zijn terugbetaald of de nodige gelden geconsigneerd* is dus niet vervuld. 🔗_**
+> > **Neen** — een ontbinding in één akte (art. 2:80 WVV, voorwaarden uit het oude art. 2:91 / huidig art. 2:80 § 1 WVV) is hier **niet mogelijk**. De vennootschap heeft openstaande schulden van € 330.000 (€ 250.000 LT + € 80.000 KT) en slechts € 20.000 bank. De voorwaarde dat *alle schulden t.a.v. derden zijn terugbetaald of de nodige gelden geconsigneerd* is dus niet vervuld. 🔗
 > > 
 > > Cumulatieve voorwaarden voor ontbinding-en-sluiting-in-één-akte (art. 2:80 WVV):
 > > 
@@ -834,7 +829,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De procedure-in-één-akte is bedoeld voor *eenvoudige afsluitingen waar niets te vereffenen valt* of waar de vereffening van actiefbestanddelen niet nodig is om alle verplichtingen te voldoen (CBN-advies 2022/06). HOLDING RICH past hier duidelijk niet: het actief moet eerst worden gerealiseerd (machines verkocht aan leverancier, handelsvorderingen geïnd) om de derdenschulden te kunnen voldoen — typisch werk voor een aangestelde vereffenaar. 🔗
 > > 
-> > *Art. 2:80 WVV (ontbinding en sluiting van de vereffening in één akte — cumulatieve voorwaarden, m.n. terugbetaling/consignatie van schulden bevestigd door commissaris/bedrijfsrevisor/GA, eenparig besluit van alle aandeelhouders, geen vereffenaar aangeduid) + CBN-advies 2022/06 (verslaggeving bij onmiddellijke sluiting vereffening vennootschap). 📖*  
+> > Art. 2:80 WVV (ontbinding en sluiting van de vereffening in één akte — cumulatieve voorwaarden, m.n. terugbetaling/consignatie van schulden bevestigd door commissaris/bedrijfsrevisor/GA, eenparig besluit van alle aandeelhouders, geen vereffenaar aangeduid) + CBN-advies 2022/06 (verslaggeving bij onmiddellijke sluiting vereffening vennootschap). 📖  
 > > *Bron: art. 2:80 WVV (voorheen art. 2:91 WVV-ontwerp); CBN-advies 2022/06*
 
 <a id="2013-1-vr18"></a>
@@ -848,7 +843,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Drie procedure-fouten: (1) de staat van activa en passiva is opgesteld en ondertekend door de **interne boekhouder** in plaats van door het **bestuursorgaan**; (2) het **controleverslag dateert van 14/04/2013** — de dag vóór de AV — zodat de stukken niet de wettelijke **15 dagen** ter beschikking van de aandeelhouders konden liggen; (3) een 10%-vennoot heeft **geen unilateraal recht op verdaging** vóór de zitting — de vergadering kan gewoon doorgaan. 🔗_**
+> > Drie procedure-fouten: (1) de staat van activa en passiva is opgesteld en ondertekend door de **interne boekhouder** in plaats van door het **bestuursorgaan**; (2) het **controleverslag dateert van 14/04/2013** — de dag vóór de AV — zodat de stukken niet de wettelijke **15 dagen** ter beschikking van de aandeelhouders konden liggen; (3) een 10%-vennoot heeft **geen unilateraal recht op verdaging** vóór de zitting — de vergadering kan gewoon doorgaan. 🔗
 > > 
 > > **Opmerking 1 — Opsteller staat van activa en passiva.**
 > > - **Fout**: de staat per 31/01/2013 is opgesteld en ondertekend door de interne boekhouder. 📖
@@ -867,7 +862,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De datum van de staat (31/01/2013) ligt **binnen** drie maanden vóór de AV (15/04/2013) en is dus op zichzelf **geen** procedurefout (art. 2:71 § 2 WVV — staat mag niet ouder zijn dan drie maanden vóór de AV). De casus oogt door de cijfers verdacht, maar voldoet aan de termijn — een veelgemaakte valkuil bij snel lezen. 🔗 Dat de accountant **niet de reguliere adviseur** is, is eérder een **kwaliteitsgarantie** (onafhankelijkheid) dan een fout: bij afwezigheid van commissaris mag het bestuursorgaan een GA óf bedrijfsrevisor aanwijzen (art. 2:71 § 2, derde lid WVV; ITAA-norm). 🔗
 > > 
-> > *Art. 2:71 § 2 WVV — het voorstel tot vrijwillige ontbinding wordt toegelicht in een verslag van het **bestuursorgaan**, waarbij een **staat van activa en passiva** wordt gevoegd die **niet meer dan drie maanden** vóór de AV is vastgesteld, en waarover de commissaris (of, bij afwezigheid, een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant) een verslag uitbrengt. 📖 Art. 5:76 jo. 5:62 WVV — stukken voor de AV liggen **15 dagen vóór** de vergadering ter inzage. 📖 Art. 5:62 § 1 WVV — 10%-aandeelhouders kunnen **bijeenroeping** of agendapunten vragen, **geen verdaging**. 📖 Art. 5:84 WVV — ontbindingsbeslissing vergt **4/5 van de uitgebrachte stemmen**. 📖 ITAA-norm ontbinding-vereffening — verantwoordelijkheid bestuursorgaan + modelverslag. 📖*  
+> > Art. 2:71 § 2 WVV — het voorstel tot vrijwillige ontbinding wordt toegelicht in een verslag van het **bestuursorgaan**, waarbij een **staat van activa en passiva** wordt gevoegd die **niet meer dan drie maanden** vóór de AV is vastgesteld, en waarover de commissaris (of, bij afwezigheid, een door het bestuursorgaan aangewezen bedrijfsrevisor of gecertificeerd accountant) een verslag uitbrengt. 📖 Art. 5:76 jo. 5:62 WVV — stukken voor de AV liggen **15 dagen vóór** de vergadering ter inzage. 📖 Art. 5:62 § 1 WVV — 10%-aandeelhouders kunnen **bijeenroeping** of agendapunten vragen, **geen verdaging**. 📖 Art. 5:84 WVV — ontbindingsbeslissing vergt **4/5 van de uitgebrachte stemmen**. 📖 ITAA-norm ontbinding-vereffening — verantwoordelijkheid bestuursorgaan + modelverslag. 📖  
 > > *Bron: art. 2:71, 5:62, 5:76, 5:78, 5:84 WVV; ITAA-norm ontbinding-vereffening*
 
 <a id="2013-1-vr19"></a>
@@ -881,13 +876,13 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De **beroepsbeoefenaar** (commissaris, bedrijfsrevisor of gecertificeerd accountant) ondertekent de opdrachtbrief en richt die aan het **bestuursorgaan** van de om te zetten vennootschap, dat de brief voor akkoord medeondertekent. 🔗_**
+> > De **beroepsbeoefenaar** (commissaris, bedrijfsrevisor of gecertificeerd accountant) ondertekent de opdrachtbrief en richt die aan het **bestuursorgaan** van de om te zetten vennootschap, dat de brief voor akkoord medeondertekent. 🔗
 > > 
 > > De ITAA-norm omzetting vennootschap (par. 19, II.3) bepaalt dat de beroepsbeoefenaar vóór de aanvang van zijn opdracht een opdrachtbrief van het bestuursorgaan moet verkrijgen. De voorbeeldbrief in Bijlage 1 is geadresseerd aan het bestuursorgaan en uitgaande van de beroepsbeoefenaar; ze wordt door beide partijen ondertekend (de beroepsbeoefenaar als opsteller, het bestuursorgaan voor akkoord met de voorwaarden). 📖 Voor accountants bevestigt art. 18 KB plichtenleer 1998 bovendien dat verklaringen en verslagen ondertekend worden door de externe accountant als natuurlijke persoon, in eigen naam en in voorkomend geval als vertegenwoordiger van zijn vennootschap. 📖
 > > 
 > > Verwar de opdrachtbrief niet met het **omzettingsverslag** zelf: dat verslag wordt enkel door de beroepsbeoefenaar ondertekend en gericht aan de algemene vergadering. De opdrachtbrief daarentegen is een **wederzijds contract** tussen beroepsbeoefenaar en bestuursorgaan en draagt dus twee handtekeningen. 🔗
 > > 
-> > *ITAA-norm omzetting van een vennootschap, par. 19 (II.3 Opdrachtbrief) + Bijlage 1 (voorbeeld opdrachtbrief, gericht aan bestuursorgaan). Voor accountants: art. 18 KB van 1 maart 1998 (plichtenleer) — ondertekening door externe accountant als natuurlijke persoon. 📖*  
+> > ITAA-norm omzetting van een vennootschap, par. 19 (II.3 Opdrachtbrief) + Bijlage 1 (voorbeeld opdrachtbrief, gericht aan bestuursorgaan). Voor accountants: art. 18 KB van 1 maart 1998 (plichtenleer) — ondertekening door externe accountant als natuurlijke persoon. 📖  
 > > *Bron: ITAA-norm omzetting vennootschap, par. 19 + Bijlage 1; art. 18 KB 1 maart 1998*
 >
 > Geef 3 elementen die minimaal in de opdrachtbrief dienen voor te komen.
@@ -902,7 +897,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De norm voorziet nog bijkomende minimumelementen die ook valabel zijn als alternatief antwoord: de **vergoeding** (ereloon en kosten), de **planning en timing** van de werkzaamheden, een verwijzing naar het feit dat het verslag uitsluitend wordt opgesteld in het kader van art. 14:4 of 14:21 WVV met **beperkte verspreiding**, en voor grensoverschrijdende omzettingen een verklaring over de geldelijke vergoeding. 🔗
 > > 
-> > *ITAA-norm omzetting van een vennootschap, par. 19 (II.3 Opdrachtbrief) — limitatieve opsomming van minimuminhoud die de beroepsbeoefenaar voorafgaand aan de opdracht van het bestuursorgaan moet verkrijgen; Bijlage 1 geeft een voorbeeldbrief die deze elementen uitwerkt. 📖*  
+> > ITAA-norm omzetting van een vennootschap, par. 19 (II.3 Opdrachtbrief) — limitatieve opsomming van minimuminhoud die de beroepsbeoefenaar voorafgaand aan de opdracht van het bestuursorgaan moet verkrijgen; Bijlage 1 geeft een voorbeeldbrief die deze elementen uitwerkt. 📖  
 > > *Bron: ITAA-norm omzetting vennootschap, par. 19 + Bijlage 1*
 
 <a id="2013-1-vr37"></a>
@@ -916,7 +911,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Vereffening** — *Vertrekpunt*: de datum waarop de externe accountant zijn controleverslag over de staat van activa en passiva (art. 2:71 §2 WVV / oud art. 181 W.Venn.) ondertekent. *Termijn*: een kopie wordt **binnen één maand** na ondertekening overgemaakt aan het ITAA. 🤖_**
+> > **Vereffening** — *Vertrekpunt*: de datum waarop de externe accountant zijn controleverslag over de staat van activa en passiva (art. 2:71 §2 WVV / oud art. 181 W.Venn.) ondertekent. *Termijn*: een kopie wordt **binnen één maand** na ondertekening overgemaakt aan het ITAA. 🤖
 > > 
 > > De keten:
 > > 
@@ -927,14 +922,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De drie-maanden-termijn slaat op de **ouderdom van de staat van actief en passief** (vertrekpunt: datum BAV terugrekenend), niet op de toezending van het verslag aan het Instituut. Verwar deze niet met de termijn voor toezending aan het ITAA, en evenmin met de neerleggingstermijn van de omstandige staat door de vereffenaar (7e en 13e maand na invereffeningstelling — art. 2:86 WVV). 🔗
 > > 
-> > *Art. 2:71 §2 WVV (oud art. 181 W.Venn.) — staat van activa en passiva max. 3 maanden oud + controleverslag van commissaris/bedrijfsrevisor/gecertificeerd accountant. ITAA-norm ontbinding-vereffening (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖*  
+> > Art. 2:71 §2 WVV (oud art. 181 W.Venn.) — staat van activa en passiva max. 3 maanden oud + controleverslag van commissaris/bedrijfsrevisor/gecertificeerd accountant. ITAA-norm ontbinding-vereffening (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖  
 > > *Bron: Art. 2:71 §2 WVV (vroeger art. 181 W.Venn.)*
 >
 > Preciseer vanaf welk moment en binnen welke termijn het verslag moet verstuurd worden in het kader van een omvorming van een vennootschap.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Omvorming** — *Vertrekpunt*: de datum waarop de externe accountant zijn controleverslag over de staat van activa en passiva in het kader van de omzetting (art. 14:6 WVV / oud art. 776 W.Venn.) ondertekent. *Termijn*: kopie **binnen één maand** na ondertekening aan het ITAA. 🤖_**
+> > **Omvorming** — *Vertrekpunt*: de datum waarop de externe accountant zijn controleverslag over de staat van activa en passiva in het kader van de omzetting (art. 14:6 WVV / oud art. 776 W.Venn.) ondertekent. *Termijn*: kopie **binnen één maand** na ondertekening aan het ITAA. 🤖
 > > 
 > > De keten:
 > > 
@@ -945,5 +940,5 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Voor zowel vereffening als omvorming geldt dezelfde structuur: (1) staat max. 3 maanden oud, (2) verslag van accountant/revisor over die staat, (3) meedelen aan aandeelhouders bij oproeping AV, (4) kopie aan ITAA na ondertekening. Het **vertrekpunt** voor de termijn naar het Instituut is in beide gevallen de **datum van het verslag**, niet de datum van de algemene vergadering of van de publicatie. 🤖
 > > 
-> > *Art. 14:3-14:6 WVV (oud art. 774-778 W.Venn.) — staat max. 3 maanden + controleverslag + mededeling bij oproeping AV. ITAA-norm omzetting-vennootschap (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖*  
+> > Art. 14:3-14:6 WVV (oud art. 774-778 W.Venn.) — staat max. 3 maanden + controleverslag + mededeling bij oproeping AV. ITAA-norm omzetting-vennootschap (bijlage 3) bevestigt de verslagopdracht. Termijn voor kopie aan ITAA: te verifiëren in ITAA-deontologie. 🤖  
 > > *Bron: Art. 14:3, 14:6 WVV (vroeger art. 776, 778 W.Venn.)*

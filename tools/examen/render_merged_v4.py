@@ -308,17 +308,20 @@ def _render_antwoord_blok(blok: dict[str, Any]) -> str:
         return f"{tekst}{conf}"
 
     if blok_type == "conclusie":
+        # Geen wrap — bron-tekst bevat typisch al `**bold**` markers voor de
+        # belangrijkste delen. Een extra `**_..._**` wrap zou de inline-bold
+        # mixen met de outer-bold (`**_**foo** bar_**` = parser-mess).
         tekst = (blok.get("tekst") or "").strip()
-        return f"**_{tekst}_**{conf}"
+        return f"{tekst}{conf}"
 
     if blok_type == "grondslag":
+        # Geen cursief-wrap meer — bron-tekst kan zelf `**bold**` of `*italic*`
+        # markers bevatten die met de outer-wrap conflicteren. Plain tekst +
+        # "Bron"-suffix op nieuwe regel.
         tekst = (blok.get("tekst") or "").strip()
         wetsref = blok.get("wetsref", "")
         bron_zin = f"  \n*Bron: {wetsref}*" if wetsref else ""
-        # Geen `> `-prefix meer: zit al binnen geneste callouts (question >
-        # success), een blockquote daarbinnen geeft `> > > ` en visuele
-        # verwarring. Cursief markeert dat het een grondslag is.
-        return f"*{tekst}*{conf}{bron_zin}"
+        return f"{tekst}{conf}{bron_zin}"
 
     if blok_type == "definitie":
         lemma = blok.get("lemma", "")
@@ -551,8 +554,12 @@ def _render_deelvraag_data(
 
     topic_only_onderwerp = deelvraag.get("topic_only_onderwerp", "") or ""
 
-    # Complexe antwoord-callout blijft in Python (titel is type-bewust)
-    antwoord_callout_md = _render_antwoord_callout(deelvraag, vraag_antwoord)
+    # Geen antwoord-callout voor topic_only deelvragen — er is geen vraag,
+    # dus een "wacht op antwoord"-placeholder zou misleidend zijn.
+    if volledigheid == "topic_only":
+        antwoord_callout_md = ""
+    else:
+        antwoord_callout_md = _render_antwoord_callout(deelvraag, vraag_antwoord)
 
     tmpl = env.get_template("_deelvraag.md.j2")
     uitvoer = tmpl.render(
@@ -774,6 +781,14 @@ def _render_vraag_eenheid(
     # onbetrouwbaar voor een nested-callout-layout die strict '> '-prefixen
     # vereist. Pure-Python is voorspelbaarder.
     titel = onderwerp or "Vraag"
+    # Outer callout-type wordt `topic` (i.p.v. `question`) wanneer ALLE
+    # deelvragen topic_only zijn — visueel grijzer in CSS, signaal aan de
+    # student dat er hier geen echt antwoord-werk is (geen vraagstelling).
+    alle_topic_only = (
+        len(deelvragen) > 0
+        and all(dv.get("volledigheid") == "topic_only" for dv in deelvragen)
+    )
+    outer_callout_type = "topic" if alle_topic_only else "question"
     # Anchors: bij cluster alle leden, anders alleen canonical
     if cluster_leden and len(cluster_leden) > 1:
         anchor_ids = [lid["vraag_id"] for lid in cluster_leden]
@@ -781,7 +796,7 @@ def _render_vraag_eenheid(
         anchor_ids = [vraag_id]
     regels: list[str] = [f'<a id="{aid}"></a>' for aid in anchor_ids]
     regels.append("")
-    regels.append(f"> [!question]- {titel}")
+    regels.append(f"> [!{outer_callout_type}]- {titel}")
     if herkomst_regel:
         regels.append(f"> *{herkomst_regel}*")
         regels.append(">")

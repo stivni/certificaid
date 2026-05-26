@@ -28,7 +28,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_Optie **b** — FIFO, gewogen gemiddelde, individueel (specifieke identificatie). LIFO is onder IAS/IFRS uitdrukkelijk verboden. 🔗_**
+> > Optie **b** — FIFO, gewogen gemiddelde, individueel (specifieke identificatie). LIFO is onder IAS/IFRS uitdrukkelijk verboden. 🔗
 > > 
 > > IAS 2 laat drie kostprijsformules toe voor voorraden:
 > > 
@@ -44,7 +44,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Belgisch boekhoudrecht (art. 3:54 KB WVV, voorheen art. 43 KB W.Venn.) laat **wél vier** methoden toe: individualisering, gewogen gemiddelde, FIFO én LIFO. Het verbod op LIFO geldt enkel onder IAS/IFRS (sinds de herziene IAS 2 van 2003). Vraag goed lezen — "onder IAS/IFRS" versus "in de Belgische enkelvoudige jaarrekening" geeft een ander antwoord. 📖
 > > 
-> > *IAS 2 *Voorraden* (Verordening (EU) 2023/1803, geconsolideerde IFRS): drie toegelaten kostprijsformules — specifieke identificatie (niet-uitwisselbare items), FIFO en gewogen gemiddelde voor uitwisselbare items. LIFO is sinds de herziene IAS 2 (2003) niet langer aanvaard — CBN-advies 132/7 bevestigt dit expliciet. 📖*  
+> > IAS 2 *Voorraden* (Verordening (EU) 2023/1803, geconsolideerde IFRS): drie toegelaten kostprijsformules — specifieke identificatie (niet-uitwisselbare items), FIFO en gewogen gemiddelde voor uitwisselbare items. LIFO is sinds de herziene IAS 2 (2003) niet langer aanvaard — CBN-advies 132/7 bevestigt dit expliciet. 📖  
 > > *Bron: IAS 2 (Verordening (EU) 2023/1803)*
 
 <a id="2024-1-vr7B"></a>
@@ -62,11 +62,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST** — letterlijke weergave van het realisatiebeginsel uit art. 6, lid 1, c), i) van Richtlijn 2013/34/EU. 📖_**
+> > **JUIST** — letterlijke weergave van het realisatiebeginsel uit art. 6, lid 1, c), i) van Richtlijn 2013/34/EU. 📖
 > > 
 > > Het voorzichtigheidsbeginsel verbiedt het opnemen van latente (niet-gerealiseerde) winsten: enkel winsten die op balansdatum effectief gerealiseerd zijn mogen in resultaat worden geboekt. 📖 De stelling parafraseert deze regel exact. 📖
 > > 
-> > *Richtlijn 2013/34/EU art. 6, lid 1, c), i): *"winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn"*. Belgische omzetting: KB-WVV art. 3:10 (waarderingen volgens voorzichtigheid, oprechtheid en goede trouw).* 📖  
+> > Richtlijn 2013/34/EU art. 6, lid 1, c), i): *"winsten mogen slechts worden opgenomen voor zover zij op de balansdatum gerealiseerd zijn"*. Belgische omzetting: KB-WVV art. 3:10 (waarderingen volgens voorzichtigheid, oprechtheid en goede trouw). 📖  
 > > *Bron: Richtlijn 2013/34/EU art. 6, lid 1, c), i)*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar worden opgenomen, ook als die verplichting pas wordt bekend tussen balansdatum en de datum waarop de balans wordt opgesteld.</span>
@@ -75,13 +75,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST** — letterlijke weergave van art. 6, lid 1, c), ii) van Richtlijn 2013/34/EU. 📖_**
+> > **JUIST** — letterlijke weergave van art. 6, lid 1, c), ii) van Richtlijn 2013/34/EU. 📖
 > > 
 > > Asymmetrisch met het realisatiebeginsel: terwijl winsten moeten gerealiseerd zijn op balansdatum, worden verplichtingen die hun oorsprong vinden in het (vorig) boekjaar wél opgenomen, óók als ze pas tussen balansdatum en opstellingsdatum bekend worden. 📖 Dit is een **adjusting event** in de zin van IAS 10 / CBN-advies 2019/04: het bestuursorgaan plaatst zich op balansdatum en houdt rekening met *alle* risico's en waarschijnlijke verliezen die op die datum bestonden. 🔗
 > > 
 > > **Vermeldenswaard**: niet elke gebeurtenis na balansdatum geeft aanleiding tot opname — enkel die welke een verplichting bevestigen die op balansdatum reeds bestond (oorsprong in het boekjaar). Loutere *non-adjusting events* (nieuwe feiten na balansdatum, bv. brand in januari) leiden niet tot een aanpassing van de balanscijfers, maar enkel tot een toelichting indien materieel. 🔗
 > > 
-> > *Richtlijn 2013/34/EU art. 6, lid 1, c), ii): *"alle verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar, worden opgenomen, ook als die verplichtingen pas bekend worden tussen de balansdatum en de datum waarop de balans wordt opgesteld"*.* 📖  
+> > Richtlijn 2013/34/EU art. 6, lid 1, c), ii): *"alle verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar, worden opgenomen, ook als die verplichtingen pas bekend worden tussen de balansdatum en de datum waarop de balans wordt opgesteld"*. 📖  
 > > *Bron: Richtlijn 2013/34/EU art. 6, lid 1, c), ii)*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Alle negatieve waardecorrecties worden opgenomen ongeacht of het boekjaar met winst of verlies wordt afgesloten.</span>
@@ -90,11 +90,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST** — letterlijke weergave van art. 6, lid 1, c), iii) van Richtlijn 2013/34/EU. 📖_**
+> > **JUIST** — letterlijke weergave van art. 6, lid 1, c), iii) van Richtlijn 2013/34/EU. 📖
 > > 
 > > Negatieve waardecorrecties (afschrijvingen en waardeverminderingen) moeten *onvoorwaardelijk* worden geboekt, ongeacht het resultaat van het boekjaar. 📖 Een onderneming mag dus niet 'cherry-picken' door afschrijvingen weg te laten in een verliesjaar om het resultaat op te smukken, noch in een winstjaar bijkomende waardeverminderingen te boeken om winst af te romen. De symmetrie met het realisatiebeginsel is volledig: verliezen *altijd*, winsten *enkel indien gerealiseerd*. 📖
 > > 
-> > *Richtlijn 2013/34/EU art. 6, lid 1, c), iii): *"alle negatieve waardecorrecties worden opgenomen, ongeacht of het boekjaar met winst of verlies wordt afgesloten"*.* 📖  
+> > Richtlijn 2013/34/EU art. 6, lid 1, c), iii): *"alle negatieve waardecorrecties worden opgenomen, ongeacht of het boekjaar met winst of verlies wordt afgesloten"*. 📖  
 > > *Bron: Richtlijn 2013/34/EU art. 6, lid 1, c), iii)*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde vaste activa aan geherwaardeerde waarde op te nemen.</span>
@@ -103,13 +103,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**JUIST** — art. 7 van Richtlijn 2013/34/EU laat lidstaten toe waardering aan geherwaardeerde waarde te **toestaan of voor te schrijven** voor (alle of bepaalde categorieën) ondernemingen. 📖 Het woord 'voorschrijven' impliceert verplichting voor de aangewezen categorieën._** 📖
+> > **JUIST** — art. 7 van Richtlijn 2013/34/EU laat lidstaten toe waardering aan geherwaardeerde waarde te **toestaan of voor te schrijven** voor (alle of bepaalde categorieën) ondernemingen. 📖 Het woord 'voorschrijven' impliceert verplichting voor de aangewezen categorieën. 📖
 > > 
 > > Art. 7, lid 1: *"in afwijking van artikel 6, lid 1, punt i), kunnen de lidstaten toestaan of voorschrijven dat alle ondernemingen, of bepaalde categorieën ondernemingen, vaste activa tegen geherwaardeerde bedragen waarderen"*. 📖 De richtlijn zelf creëert dus de mogelijkheid voor de lidstaat om dit verplicht op te leggen aan bepaalde categorieën. De stelling weerspiegelt die rechtsgrondslag. 📖
 > > 
 > > **Nuance**: in het Belgische recht is herwaardering géén verplichting maar een *mogelijkheid* (KB-WVV art. 3:34 — facultatief, mits duurzame meerwaarde en zekere/vaststaande rendabiliteit). De stelling toetst de tekst van de **richtlijn**, niet de Belgische omzetting: de richtlijn opent expliciet de optie tot verplichting. 🔗 Het verschil 'toestaan' vs 'voorschrijven' is wat de stelling overeind houdt. 🔗
 > > 
-> > *Richtlijn 2013/34/EU art. 7, lid 1 (alternatieve waarderingsgrondslag voor vaste activa tegen geherwaardeerde bedragen — lidstaten kunnen 'toestaan of voorschrijven' voor alle of bepaalde categorieën ondernemingen). Belgische uitvoering: KB-WVV art. 3:34 (facultatieve herwaardering).* 📖  
+> > Richtlijn 2013/34/EU art. 7, lid 1 (alternatieve waarderingsgrondslag voor vaste activa tegen geherwaardeerde bedragen — lidstaten kunnen 'toestaan of voorschrijven' voor alle of bepaalde categorieën ondernemingen). Belgische uitvoering: KB-WVV art. 3:34 (facultatieve herwaardering). 📖  
 > > *Bron: Richtlijn 2013/34/EU art. 7, lid 1*
 
 <a id="2024-1-vr7C"></a>
@@ -127,13 +127,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT** — IAS 16 schrijft géén specifieke afschrijvingsmethode voor, maar de gekozen methode moet het *patroon* van verbruik van toekomstige economische voordelen weergeven. Een degressieve methode is dus **enkel toegelaten** indien dat verbruikspatroon werkelijk degressief is — niet als algemeen toegelaten methode zoals onder Belgisch boekhoudrecht of fiscaal recht. 🔗_**
+> > **FOUT** — IAS 16 schrijft géén specifieke afschrijvingsmethode voor, maar de gekozen methode moet het *patroon* van verbruik van toekomstige economische voordelen weergeven. Een degressieve methode is dus **enkel toegelaten** indien dat verbruikspatroon werkelijk degressief is — niet als algemeen toegelaten methode zoals onder Belgisch boekhoudrecht of fiscaal recht. 🔗
 > > 
 > > IAS 16.60-62 bepaalt dat de afschrijvingsmethode moet aansluiten bij het verwachte verbruikspatroon van het actief. Lineair, degressief (*diminishing balance*) en units-of-production worden in IAS 16.62 expliciet **als voorbeelden** genoemd — geen enkele methode is op zich verboden of voorgeschreven. 📖 Het is dus onjuist te stellen dat degressieve afschrijving zonder meer 'toegestaan' is: ze is alleen aanvaardbaar indien ze het werkelijke verbruikspatroon weerspiegelt. 🔗 De stelling is bovendien zo geformuleerd dat ze een algemene vrijheid suggereert, wat strijdig is met de patroon-eis van IAS 16.60. 🔗
 > > 
 > > Onder **Belgisch boekhoudrecht** (CBN-advies 2010/15) is degressieve afschrijving wél als zelfstandige methode aanvaardbaar (mits ze de spreiding van aanschaffingswaarde over de levensduur respecteert of een fiscaal aanvaard versneld systeem volgt). 📖 Niet verwarren met IAS 16: daar geldt de strengere patroon-eis. 🔗
 > > 
-> > *IAS 16.60-62 (Verordening (EU) 2023/1803): afschrijvingsmethode moet het verbruikspatroon van toekomstige economische voordelen weergeven; lineair, degressief en units-of-production zijn voorbeelden. 📖*  
+> > IAS 16.60-62 (Verordening (EU) 2023/1803): afschrijvingsmethode moet het verbruikspatroon van toekomstige economische voordelen weergeven; lineair, degressief en units-of-production zijn voorbeelden. 📖  
 > > *Bron: IAS 16.60-62*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Kosten voor voorbereiding van een terrein……?</span>
@@ -142,11 +142,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Juist**
 > > 
-> > **_**Vermoedelijk JUIST** — uitgaande van de meest waarschijnlijke afwerking ('Kosten voor voorbereiding van een terrein mogen geactiveerd worden als onderdeel van de kostprijs van een materieel vast actief'): IAS 16.17(b) noemt **kosten van locatievoorbereiding** uitdrukkelijk als rechtstreeks toerekenbare kostprijs-component. ❓ De stelling is in de bron-PDF echter een fragment ('……?'), dus dit oordeel staat onder voorbehoud._** ❓
+> > **Vermoedelijk JUIST** — uitgaande van de meest waarschijnlijke afwerking ('Kosten voor voorbereiding van een terrein mogen geactiveerd worden als onderdeel van de kostprijs van een materieel vast actief'): IAS 16.17(b) noemt **kosten van locatievoorbereiding** uitdrukkelijk als rechtstreeks toerekenbare kostprijs-component. ❓ De stelling is in de bron-PDF echter een fragment ('……?'), dus dit oordeel staat onder voorbehoud. ❓
 > > 
 > > IAS 16.16(b) bepaalt dat de kostprijs van een materieel vast actief alle **rechtstreeks toerekenbare kosten** omvat 'om het actief op de locatie en in de staat te krijgen die noodzakelijk is om te functioneren op de door het management beoogde wijze'. 📖 IAS 16.17 geeft als expliciet voorbeeld onder (b): **'kosten van locatievoorbereiding'** (*site preparation*). 📖 Voorbereidingskosten van een terrein waarop een installatie of gebouw zal komen zijn dus activeerbaar als onderdeel van de kostprijs van dat actief. 🔗 *Caveat*: kosten die geen verband houden met het op-locatie-krijgen van een specifiek actief (bv. algemene grondverwerving zonder verband met een specifieke vaste-activa-investering) vallen daarbuiten — daar zou de stelling 'fout' worden. ❓
 > > 
-> > *IAS 16.16(b) en 16.17(b) (Verordening (EU) 2023/1803): rechtstreeks toerekenbare kosten omvatten uitdrukkelijk 'kosten van locatievoorbereiding'. 📖*  
+> > IAS 16.16(b) en 16.17(b) (Verordening (EU) 2023/1803): rechtstreeks toerekenbare kosten omvatten uitdrukkelijk 'kosten van locatievoorbereiding'. 📖  
 > > *Bron: IAS 16.16-17*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Uitzonderlijke opbrengsten boeken is toegestaan onder IAS/IFRS.</span>
@@ -155,13 +155,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT** — IAS 1 verbiedt uitdrukkelijk de presentatie van baten of lasten als **'buitengewone posten' (*extraordinary items*)** in de winst-en-verliesrekening of in de toelichting. Er bestaan geen 'uitzonderlijke opbrengsten' als afzonderlijke rubriek onder IAS/IFRS. 🔗_**
+> > **FOUT** — IAS 1 verbiedt uitdrukkelijk de presentatie van baten of lasten als **'buitengewone posten' (*extraordinary items*)** in de winst-en-verliesrekening of in de toelichting. Er bestaan geen 'uitzonderlijke opbrengsten' als afzonderlijke rubriek onder IAS/IFRS. 🔗
 > > 
 > > IAS 1.87 stelt expliciet dat een entiteit géén baten of lasten mag presenteren als 'buitengewone posten' (*extraordinary items*) — noch in het overzicht van het totaalresultaat noch in het overzicht van het resultaat of in de toelichting. 🔗 Materiële posten van baten of lasten moeten wel **afzonderlijk worden vermeld** (IAS 1.97) — bv. afwaarderingen van voorraden, herstructureringen, vervreemdingen — maar binnen de gewone exploitatie- of financiële resultaten, niet als 'uitzonderlijk'. 🔗 Onder Belgisch boekhoudrecht bestaat de rubriek 'uitzonderlijke resultaten' niet meer sinds KB van 18 december 2015 (omzetting Richtlijn 2013/34/EU); ook daar is de stelling intussen historisch. 🔗
 > > 
 > > De afschaffing van 'extraordinary items' onder IFRS dateert al van de IAS 1-revisie van 2003. De achterliggende rationale: het onderscheid tussen 'gewone' en 'buitengewone' baten/lasten was te subjectief en werd gebruikt om resultaten te 'kuisen'. Vandaag moeten alle baten/lasten geïntegreerd worden in de winst-en-verliesrekening, met afzonderlijke vermelding van materiële posten. 🤖
 > > 
-> > *IAS 1.87 (Verordening (EU) 2023/1803): verbod om baten of lasten als 'buitengewone posten' te presenteren. IAS 1.97: afzonderlijke vermelding van materiële posten van baten/lasten. 🔗*  
+> > IAS 1.87 (Verordening (EU) 2023/1803): verbod om baten of lasten als 'buitengewone posten' te presenteren. IAS 1.97: afzonderlijke vermelding van materiële posten van baten/lasten. 🔗  
 > > *Bron: IAS 1.87 + 1.97*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Afschrijving op materiële vaste activa mag stopgezet worden wanneer de reële waarde van het actief groter is dan de boekwaarde.</span>
@@ -170,13 +170,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**FOUT** — Een hogere reële waarde dan de boekwaarde is **geen reden om de afschrijving stop te zetten**. Onder IAS 16 wordt zelfs in het herwaarderingsmodel (waar het actief tegen reële waarde wordt geboekt) gewoon verder afgeschreven over de resterende gebruiksduur. Afschrijving stopt slechts in twee gevallen: bij classificatie als *aangehouden voor verkoop* (IFRS 5) of wanneer het actief niet langer wordt opgenomen. 🔗_**
+> > **FOUT** — Een hogere reële waarde dan de boekwaarde is **geen reden om de afschrijving stop te zetten**. Onder IAS 16 wordt zelfs in het herwaarderingsmodel (waar het actief tegen reële waarde wordt geboekt) gewoon verder afgeschreven over de resterende gebruiksduur. Afschrijving stopt slechts in twee gevallen: bij classificatie als *aangehouden voor verkoop* (IFRS 5) of wanneer het actief niet langer wordt opgenomen. 🔗
 > > 
 > > IAS 16.55 bepaalt dat afschrijving van een actief **niet wordt stopgezet** zolang het actief niet volledig is afgeschreven, ook niet wanneer het actief inactief is of buiten gebruik gesteld. 🔗 Afschrijving eindigt enkel op de vroegste van twee data: (i) wanneer het actief overeenkomstig IFRS 5 als *aangehouden voor verkoop* wordt geclassificeerd, of (ii) wanneer het actief niet langer wordt opgenomen. 📖 De reële waarde of de relatie reële waarde ↔ boekwaarde speelt géén rol in de afschrijvingslogica: afschrijving weerspiegelt het systematische *verbruik* van toekomstige economische voordelen, niet de marktwaarde-evolutie. 🔗 Wanneer de reële waarde structureel hoger ligt dan de boekwaarde, kan een entiteit eventueel het **herwaarderingsmodel** toepassen (IAS 16.31) — maar ook dan blijft het actief afschrijfbaar over zijn resterende gebruiksduur op basis van het geherwaardeerde bedrag. 🔗
 > > 
 > > Verwar dit niet met **impairment** (IAS 36): daar gaat het over een boekwaarde die hoger is dan de realiseerbare waarde — dan moet je afwaarderen, niet stoppen met afschrijven. Het omgekeerde scenario (reële waarde > boekwaarde) leidt onder IAS 36 nooit tot een opwaardering boven historische kostprijs, behalve via het optionele herwaarderingsmodel van IAS 16.31. 🔗
 > > 
-> > *IAS 16.55 (afschrijving wordt niet stopgezet bij inactiviteit); IAS 16.31 (herwaarderingsmodel — actief blijft afschrijfbaar); IFRS 5 (enige uitzondering: classificatie als aangehouden voor verkoop). 🔗*  
+> > IAS 16.55 (afschrijving wordt niet stopgezet bij inactiviteit); IAS 16.31 (herwaarderingsmodel — actief blijft afschrijfbaar); IFRS 5 (enige uitzondering: classificatie als aangehouden voor verkoop). 🔗  
 > > *Bron: IAS 16.55 + IAS 16.31 + IFRS 5*
 
 <a id="2024-1-vr7D"></a>
@@ -188,7 +188,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Onder IFRS 16 (van kracht 1/1/2019, vervangt IAS 17) verdwijnt het onderscheid operationele/financiële leasing aan de lessee-zijde**: élke lease (boven de vrijstellingsdrempels) wordt on-balance verwerkt via een **single model** — opname van een **gebruiksrecht-actief (right-of-use, ROU)** én een **leaseverplichting** voor de contante waarde van de toekomstige leasebetalingen. 📖 Aan de **lessor-zijde** blijft het onderscheid wél bestaan: een **financiële lease** (substantiële overdracht van risico's en voordelen) leidt tot opname van een **leasevordering** en derecognitie van het onderliggende actief; een **operationele lease** blijft on-balance bij de lessor, die de leasebetalingen lineair (of op een andere systematische basis) in opbrengst boekt. 📖_**
+> > **Onder IFRS 16 (van kracht 1/1/2019, vervangt IAS 17) verdwijnt het onderscheid operationele/financiële leasing aan de lessee-zijde**: élke lease (boven de vrijstellingsdrempels) wordt on-balance verwerkt via een **single model** — opname van een **gebruiksrecht-actief (right-of-use, ROU)** én een **leaseverplichting** voor de contante waarde van de toekomstige leasebetalingen. 📖 Aan de **lessor-zijde** blijft het onderscheid wél bestaan: een **financiële lease** (substantiële overdracht van risico's en voordelen) leidt tot opname van een **leasevordering** en derecognitie van het onderliggende actief; een **operationele lease** blijft on-balance bij de lessor, die de leasebetalingen lineair (of op een andere systematische basis) in opbrengst boekt. 📖
 > > 
 > > **Boekhoudkundige verwerking — overzicht IFRS 16**
 > > 
@@ -206,7 +206,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard — verschil met Belgische BGAAP** (art. 95 KB W.Venn., CBN-advies 2015/4): onder BGAAP blijft het klassieke onderscheid operationeel/financieel wél gelden voor de lessee. Alleen leasing die voldoet aan de criteria van art. 95 KB W.Venn. (canons dekken de **integrale wedersamenstelling van het kapitaal** van de leasinggever, naast rente en kosten) verschijnt aan de actiefzijde van de balans van de leasingnemer (rubriek III.D); alle andere transacties (huur, renting, operationele leasing) worden als huur behandeld en blijven off-balance. 📖 Dezelfde economische verrichting kan dus onder IFRS 16 on-balance en onder BGAAP off-balance staan — **kwalificatierisico** bij dual reporting. 📖
 > > 
-> > ***IFRS 16 — Leaseovereenkomsten** (Verordening (EU) 2023/1803, geconsolideerde IFRS): alinea 22 (opname ROU + verplichting door lessee), alinea 23-24 (initiële waardering), alinea's 26-38 (vervolg-waardering lessee), alinea 63 (kwalificatie lessor financieel/operationeel), alinea's 5-8 (vrijstellingen korte-termijn / lage-waarde). 📖 Toelichting in IAS 32 §Tl9 over lessor-perspectief financiële vs. operationele lease. 📖 Voor BGAAP-vergelijking: art. 95 KB W.Venn. + CBN-advies 2015/4 (boekhoudkundige verwerking leasing). 📖*  
+> > **IFRS 16 — Leaseovereenkomsten** (Verordening (EU) 2023/1803, geconsolideerde IFRS): alinea 22 (opname ROU + verplichting door lessee), alinea 23-24 (initiële waardering), alinea's 26-38 (vervolg-waardering lessee), alinea 63 (kwalificatie lessor financieel/operationeel), alinea's 5-8 (vrijstellingen korte-termijn / lage-waarde). 📖 Toelichting in IAS 32 §Tl9 over lessor-perspectief financiële vs. operationele lease. 📖 Voor BGAAP-vergelijking: art. 95 KB W.Venn. + CBN-advies 2015/4 (boekhoudkundige verwerking leasing). 📖  
 > > *Bron: IFRS 16 §22-38, §63; IAS 32 §Tl9; art. 95 KB W.Venn.; CBN-advies 2015/4*
 
 <a id="2015-1-vr1"></a>
@@ -228,7 +228,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_**392.000 EUR** (optie **c**) — de marktwaarde (280 EUR/stuk) ligt op 31/12/2013 onder de FIFO-aanschaffingswaarde, dus geldt de laagstewaarderegel: 1.400 stuks × 280 EUR. 🔗_**
+> > **392.000 EUR** (optie **c**) — de marktwaarde (280 EUR/stuk) ligt op 31/12/2013 onder de FIFO-aanschaffingswaarde, dus geldt de laagstewaarderegel: 1.400 stuks × 280 EUR. 🔗
 > > 
 > > **Stap 1 — voorraad in stuks op 31/12/2013 (FIFO):** beginvoorraad 0; aankoop 15/01/2013: +1.000 @ 350; aankoop 31/03/2013: +500 @ 300; verkoop 31/05/2013: −100 (FIFO → afgeboekt uit oudste laag van 1.000 @ 350). Eindvoorraad = 900 @ 350 + 500 @ 300 = **1.400 stuks**. 🔗
 > > 
@@ -247,7 +247,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — bij een prijsdaling moet de waardevermindering geboekt worden op **alle** voorraad-laagjes, niet enkel op de duurste laag. De vergelijking gebeurt per voorraadbestanddeel tussen de FIFO-aanschaffingswaarde en de marktwaarde op balansdatum; het verschil per stuk (hier 52,14 EUR gemiddeld, of laag-per-laag 70 EUR resp. 20 EUR) leidt tot een totale waardevermindering van 73.000 EUR. 🤖
 > > 
-> > ***Art. 3:46 KB WVV** (oud art. 69 §1 KB W.Venn.): grond- en hulpstoffen, gereed product, handelsgoederen en voor verkoop bestemde goederen worden gewaardeerd aan **aanschaffingswaarde of aan de marktwaarde op balansdatum als die lager is**. 📖 — **Art. 3:58 KB WVV** (oud art. 43 KB W.Venn.): keuze tussen individualisering, gewogen gemiddelde of FIFO/LIFO; eens gekozen, consistent toepassen. 📖 — **CBN-advies 132/7**, *Overzicht van de belangrijkste regels*: bevestigt de laagstewaarderegel voor voorraden en het terugnemingsbeginsel. 📖*  
+> > **Art. 3:46 KB WVV** (oud art. 69 §1 KB W.Venn.): grond- en hulpstoffen, gereed product, handelsgoederen en voor verkoop bestemde goederen worden gewaardeerd aan **aanschaffingswaarde of aan de marktwaarde op balansdatum als die lager is**. 📖 — **Art. 3:58 KB WVV** (oud art. 43 KB W.Venn.): keuze tussen individualisering, gewogen gemiddelde of FIFO/LIFO; eens gekozen, consistent toepassen. 📖 — **CBN-advies 132/7**, *Overzicht van de belangrijkste regels*: bevestigt de laagstewaarderegel voor voorraden en het terugnemingsbeginsel. 📖  
 > > *Bron: Art. 3:46 + 3:58 KB WVV 2019; CBN 132/7*
 >
 > **Welke waarde gaat zij weerhouden op 30 april 2014 indien er geen verdere aan- en verkopen zijn geweest en de marktwaarde dan 455 EUR is?**
@@ -262,7 +262,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**465.000 EUR** (optie **a**) — de marktwaarde (455 EUR) ligt nu boven de FIFO-aanschaffingswaarde (gemiddeld 332,14 EUR/stuk), dus de eerder geboekte waardevermindering wordt **teruggenomen tot de oorspronkelijke aanschaffingswaarde** als plafond. 🔗_**
+> > **465.000 EUR** (optie **a**) — de marktwaarde (455 EUR) ligt nu boven de FIFO-aanschaffingswaarde (gemiddeld 332,14 EUR/stuk), dus de eerder geboekte waardevermindering wordt **teruggenomen tot de oorspronkelijke aanschaffingswaarde** als plafond. 🔗
 > > 
 > > **Uitgangspunt:** geen aan- of verkopen na 31/12/2013 → voorraad blijft 1.400 stuks met FIFO-aanschaffingswaarde 465.000 EUR (900 @ 350 + 500 @ 300). 🔗
 > > 
@@ -281,7 +281,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — voor voorraden bestaat **geen herwaarderingsregime** (anders dan bv. art. 3:35 KB WVV voor bepaalde vaste activa). De terugneming van een waardevermindering is dus altijd begrensd door de **oorspronkelijke aanschaffingswaarde**: latente meerwaarden op voorraden worden pas erkend bij realisatie (verkoop). Dat sluit aan op het voorzichtigheidsbeginsel (art. 3:6, 3° KB WVV). 🔗
 > > 
-> > ***Art. 3:46, tweede lid KB WVV** (oud art. 69 §1, tweede lid KB W.Venn.): "Een waardering tegen lagere marktwaarde mag niet meer behouden blijven, indien later de marktwaarde hoger komt te liggen dan de voor de waardering van de voorraden gehanteerde lagere marktwaarde." 📖 — Plafond = aanschaffingswaarde; geen opwaardering boven kostprijs (voorzichtigheidsbeginsel, art. 3:6 KB WVV). 📖 — **CBN-advies 132/7**, *Overzicht van de belangrijkste regels*, bevestigt deze regel uitdrukkelijk. 📖*  
+> > **Art. 3:46, tweede lid KB WVV** (oud art. 69 §1, tweede lid KB W.Venn.): "Een waardering tegen lagere marktwaarde mag niet meer behouden blijven, indien later de marktwaarde hoger komt te liggen dan de voor de waardering van de voorraden gehanteerde lagere marktwaarde." 📖 — Plafond = aanschaffingswaarde; geen opwaardering boven kostprijs (voorzichtigheidsbeginsel, art. 3:6 KB WVV). 📖 — **CBN-advies 132/7**, *Overzicht van de belangrijkste regels*, bevestigt deze regel uitdrukkelijk. 📖  
 > > *Bron: Art. 3:46, tweede lid KB WVV 2019; CBN 132/7*
 
 <a id="2015-1-vr2"></a>
@@ -303,7 +303,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Optie b is juist.** Op 05/12/2013 (datum van het ontslag / betekening van de opzegging) vormt XYZ een voorziening voor de geactualiseerde toekomstige bedrijfstoeslagen, geraamd op basis van leeftijd en geslacht (sterftekansen) van de werknemer. Vanaf 01/03/2014 worden de maandelijkse uitbetalingen (2.000 EUR) geboekt als personeelskost in de resultatenrekening, en wordt jaarlijks een evenredig gedeelte van de voorziening teruggenomen via een opbrengstrekening. 🔗_**
+> > **Optie b is juist.** Op 05/12/2013 (datum van het ontslag / betekening van de opzegging) vormt XYZ een voorziening voor de geactualiseerde toekomstige bedrijfstoeslagen, geraamd op basis van leeftijd en geslacht (sterftekansen) van de werknemer. Vanaf 01/03/2014 worden de maandelijkse uitbetalingen (2.000 EUR) geboekt als personeelskost in de resultatenrekening, en wordt jaarlijks een evenredig gedeelte van de voorziening teruggenomen via een opbrengstrekening. 🔗
 > > 
 > > **Per optie**:
 > > 
@@ -315,7 +315,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil — voorziening boeken ≠ kost boeken.** De voorziening op 05/12/2013 is een **niet-kaskost** (debet 6350/6360 Toevoeging aan voorzieningen — krediet 160/163 Voorziening). De latere maandelijkse betalingen van 2.000 EUR zijn **wel** een effectieve kost (debet 62 Personeelskosten / krediet 45 of 55) gecombineerd met een gelijktijdige terugname van een evenredig deel van de voorziening (debet 160/163 — krediet 7350/7360 Onttrekking aan voorzieningen). Netto-impact op het resultaat in de SWT-jaren: ≈ nul, want kost en terugname compenseren elkaar. De impact op het resultaat zit volledig in **2013** (jaar van ontslag) — dat is precies de bedoeling van het matching-beginsel. 🔗
 > > 
-> > ***CBN-advies 2018/25** (Voorzieningen voor risico's en kosten — sectie SWT) — vervangt 107/3 en 107/3bis; de werkgever moet bij ontslag een voorziening boeken voor de geactualiseerde waarde van de toekomstige bedrijfstoeslagen tot de pensioengerechtigde leeftijd, geraamd op basis van leeftijd, geslacht en sterftekansen. **CBN-advies 107/3bis**: de voorziening wordt gevormd op het ogenblik van de **betekening van de opzegging** (niet bij afsluiting van de CAO en niet bij effectief stoppen met werken). **Art. 3:11 KB/WVV** (oud art. 33 KB/W.Venn. 30/01/2001 — gecodificeerd in art. 19 KB 08/10/1976): verplichting tot vorming van voorzieningen voor brugpensioenverplichtingen. 📖*  
+> > **CBN-advies 2018/25** (Voorzieningen voor risico's en kosten — sectie SWT) — vervangt 107/3 en 107/3bis; de werkgever moet bij ontslag een voorziening boeken voor de geactualiseerde waarde van de toekomstige bedrijfstoeslagen tot de pensioengerechtigde leeftijd, geraamd op basis van leeftijd, geslacht en sterftekansen. **CBN-advies 107/3bis**: de voorziening wordt gevormd op het ogenblik van de **betekening van de opzegging** (niet bij afsluiting van de CAO en niet bij effectief stoppen met werken). **Art. 3:11 KB/WVV** (oud art. 33 KB/W.Venn. 30/01/2001 — gecodificeerd in art. 19 KB 08/10/1976): verplichting tot vorming van voorzieningen voor brugpensioenverplichtingen. 📖  
 > > *Bron: Art. 3:11 KB/WVV; CBN-advies 2018/25; CBN-advies 107/3bis*
 
 <a id="2015-1-vr3"></a>
@@ -337,7 +337,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_**Optie c** — de vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar (de rente die contractueel verschuldigd blijft maar via overlopende rekeningen nog moet worden uitgedrukt) en boekt een **waardevermindering op zowel de vordering (hoofdsom) als op de rente**, omdat de inning door het aangevraagde faillissement onzeker is geworden. 🔗_**
+> > **Optie c** — de vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar (de rente die contractueel verschuldigd blijft maar via overlopende rekeningen nog moet worden uitgedrukt) en boekt een **waardevermindering op zowel de vordering (hoofdsom) als op de rente**, omdat de inning door het aangevraagde faillissement onzeker is geworden. 🔗
 > > 
 > > **Drie stappen bij faillissementsaanvraag van de klant:**
 > > 
@@ -354,9 +354,9 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil — overboeking lange→korte termijn vs. dubieuze afzondering**: optie d klinkt aantrekkelijk omdat 'faillissement' associeert met 'snel innen', maar de balansrubriek-overboeking (V → VII) hangt af van de **resterende looptijd** op balansdatum, niet van het faillissementsrisico. De dubieuze-status is een aparte beweging (binnen rubriek V naar dubieuze sub-rekening), niet een verschuiving naar 'op ten hoogste één jaar'. ❓
 > > 
-> > ***Art. 3:46 KB WVV** (jaarrekeningbesluit): "Op de vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar worden waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag." 📖
+> > **Art. 3:46 KB WVV** (jaarrekeningbesluit): "Op de vorderingen terugbetaalbaar op meer dan een jaar en op ten hoogste een jaar worden waardeverminderingen toegepast, zo er voor het geheel of een gedeelte van de vordering onzekerheid bestaat over de betaling hiervan op de vervaldag." 📖
 > > 
-> > **CBN-advies 2011/15** bevestigt de werkwijze: bij twijfelachtige inning eerst afzonderen naar dubieuze debiteuren, dan waardevermindering boeken op het niet-gedekte deel (kapitaal én erkende rente). 📖*  
+> > **CBN-advies 2011/15** bevestigt de werkwijze: bij twijfelachtige inning eerst afzonderen naar dubieuze debiteuren, dan waardevermindering boeken op het niet-gedekte deel (kapitaal én erkende rente). 📖  
 > > *Bron: Art. 3:46 KB WVV; CBN-advies 2011/15*
 
 <a id="2015-1-vr4"></a>
@@ -377,7 +377,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_**Optie d** — intercalaire interesten mogen **onder bepaalde voorwaarden** geactiveerd worden in de aanschaffingswaarde van het materieel vast actief; ze hoeven dus niet noodzakelijk op rubriek 65 te blijven staan, en de activering is evenmin onvoorwaardelijk. 🔗_**
+> > **Optie d** — intercalaire interesten mogen **onder bepaalde voorwaarden** geactiveerd worden in de aanschaffingswaarde van het materieel vast actief; ze hoeven dus niet noodzakelijk op rubriek 65 te blijven staan, en de activering is evenmin onvoorwaardelijk. 🔗
 > > 
 > > Analyse per optie:
 > > 
@@ -390,7 +390,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — verwar de regeling voor **vaste activa** (art. 3:16 KB WVV: pre-bedrijfsklaarheid) niet met die voor **voorraden met productie­cyclus > 1 jaar** (art. 3:42 KB WVV / CBN-advies 2015/8): daar geldt een eigen voorwaarde (normale productie­periode) en verloopt de activering via creditering van rekening 6503 *Geactiveerde intercalaire intresten*. ❓
 > > 
-> > ***Art. 3:16 lid 1 KB WVV** (vroeger art. 38 KB W.Venn., van toepassing in 2014): "In de aanschaffingswaarde van immateriële en materiële vaste activa mag de rente op vreemd vermogen dat wordt gebruikt voor hun financiering worden opgenomen, doch slechts voor zover zij betrekking heeft op de periode welke de bedrijfsklaarheid van deze vaste activa voorafgaat." 📖*  
+> > **Art. 3:16 lid 1 KB WVV** (vroeger art. 38 KB W.Venn., van toepassing in 2014): "In de aanschaffingswaarde van immateriële en materiële vaste activa mag de rente op vreemd vermogen dat wordt gebruikt voor hun financiering worden opgenomen, doch slechts voor zover zij betrekking heeft op de periode welke de bedrijfsklaarheid van deze vaste activa voorafgaat." 📖  
 > > *Bron: art. 3:16 lid 1 KB WVV (= art. 38 KB W.Venn. 2001)*
 
 <a id="2015-1-vr5"></a>
@@ -414,7 +414,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_Optie **d** is correct: vanaf het ogenblik dat het recht op de subsidie vaststaat (toekenningsbericht), wordt zij geboekt op rekening 15 *Kapitaalsubsidies* (gesplitst met 1680 *Uitgestelde belastingen op kapitaalsubsidies*) en vervolgens **gelijkmatig met het afschrijvingsritme** van het gesubsidieerde actief in resultaat genomen. 🔗_**
+> > Optie **d** is correct: vanaf het ogenblik dat het recht op de subsidie vaststaat (toekenningsbericht), wordt zij geboekt op rekening 15 *Kapitaalsubsidies* (gesplitst met 1680 *Uitgestelde belastingen op kapitaalsubsidies*) en vervolgens **gelijkmatig met het afschrijvingsritme** van het gesubsidieerde actief in resultaat genomen. 🔗
 > > 
 > > **Per optie**:
 > > 
@@ -426,7 +426,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De vraagstelling vermeldt naast *kapitaalsubsidie* ook *interestsubsidie*. Een **interestsubsidie** wordt **niet** via rekening 15 + 753 geboekt volgens het afschrijvingsritme, maar **direct als financiële opbrengst** op rekening 753 *Kapitaal- en interestsubsidies* in het boekjaar waarop de betoelaagde rentelast slaat (matching met de interestkost). De vraag betreft echter expliciet een **investeringssubsidie** (productieapparaat), dus kapitaalsubsidie-regime. 🔗
 > > 
-> > *Art. 95 §2.VI en art. 76 §2 KB W.Venn. (sinds 2019: art. 3:89 §2.VI en art. 3:48 KB WVV) — kapitaalsubsidies op rekening 15 + uitgestelde belastingen op 1680, gelijkmatig met de afschrijving via 753 in resultaat. Praktijk-uitwerking: CBN-advies 2011/13 (Overheidssubsidies) en CBN-advies 2009/3. 📖*  
+> > Art. 95 §2.VI en art. 76 §2 KB W.Venn. (sinds 2019: art. 3:89 §2.VI en art. 3:48 KB WVV) — kapitaalsubsidies op rekening 15 + uitgestelde belastingen op 1680, gelijkmatig met de afschrijving via 753 in resultaat. Praktijk-uitwerking: CBN-advies 2011/13 (Overheidssubsidies) en CBN-advies 2009/3. 📖  
 > > *Bron: Art. 3:89 §2.VI + art. 3:48 KB WVV; CBN 2011/13; CBN 2009/3*
 
 <a id="2015-1-vr6"></a>
@@ -448,7 +448,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_**Optie c** — de activering **moet** gebeuren door het crediteren van de rekening **649** (geactiveerde bedrijfskosten) of **669** (geactiveerde uitzonderlijke kosten). 📖_**
+> > **Optie c** — de activering **moet** gebeuren door het crediteren van de rekening **649** (geactiveerde bedrijfskosten) of **669** (geactiveerde uitzonderlijke kosten). 📖
 > > 
 > > Art. 3:36 KB-WVV (voorheen art. 58, tweede lid KB W.Venn.) vereist dat herstructureringskosten worden geactiveerd door ze **op zichtbare wijze in mindering te brengen** van het totaalbedrag van respectievelijk de bedrijfskosten, de uitzonderlijke kosten of de financiële kosten. 📖 Dat gebeurt via dedicated tegenboekrekeningen met een credit-saldo (negatieve kosten): **649** *Als herstructureringskosten geactiveerde bedrijfskosten (-)* en **669** *Uitzonderlijke kosten als herstructureringskosten opgenomen onder de activa (-)*. 📖
 > > 
@@ -459,7 +459,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — "kan" versus "moet": het *activeren zelf* is een keuze van het bestuursorgaan (mits aan de voorwaarden van art. 3:36 voldaan is: ingrijpende structuurwijziging + duurzame gunstige weerslag op rentabiliteit, verantwoord in de toelichting). Eenmaal die keuze is gemaakt, is de **boekingstechniek dwingend voorgeschreven**: zichtbaar in mindering brengen via 649/669 (en analoog een 65X-min-rekening voor financiële kosten — die staat zelfs niet expliciet in het MAR maar wordt door CBN bevolen). 📖 Dat onderscheid kan-vs-moet zit precies in het verschil tussen optie c en d. 📖
 > > 
-> > *Art. 3:36 KB-WVV (29.04.2019), tweede lid — verplicht zichtbare aftrek van de respectieve kostenrubrieken. CBN-advies 2011/24 *Herstructureringskosten — Verwerking in de jaarrekening* (09.11.2011), voetnoot 2: "*Artikel 58, tweede lid KB W.Venn. vereist namelijk dat deze kosten geactiveerd worden door ze op zichtbare wijze in mindering te brengen [...]*". MAR (KB 21.10.2018, Bijlage 1), klasse 6: rekening **649** *Als herstructureringskosten geactiveerde bedrijfskosten (-)* en **669** *Uitzonderlijke kosten als herstructureringskosten opgenomen onder de activa (-)*. Debet-zijde van de tegenboeking: rubriek **20** *Oprichtingskosten* (of subrekening **204** *Herstructureringskosten*).* 📖  
+> > Art. 3:36 KB-WVV (29.04.2019), tweede lid — verplicht zichtbare aftrek van de respectieve kostenrubrieken. CBN-advies 2011/24 *Herstructureringskosten — Verwerking in de jaarrekening* (09.11.2011), voetnoot 2: "*Artikel 58, tweede lid KB W.Venn. vereist namelijk dat deze kosten geactiveerd worden door ze op zichtbare wijze in mindering te brengen [...]*". MAR (KB 21.10.2018, Bijlage 1), klasse 6: rekening **649** *Als herstructureringskosten geactiveerde bedrijfskosten (-)* en **669** *Uitzonderlijke kosten als herstructureringskosten opgenomen onder de activa (-)*. Debet-zijde van de tegenboeking: rubriek **20** *Oprichtingskosten* (of subrekening **204** *Herstructureringskosten*). 📖  
 > > *Bron: Art. 3:36 KB-WVV; CBN-advies 2011/24*
 
 <a id="2015-1-vr7"></a>
@@ -482,7 +482,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: e**
 > > 
-> > **_**Optie E** — het voorschot op het uiteindelijk te verdelen liquidatiesaldo wordt geboekt op het **debet van rekening 19** *Voorschot aan de vennoten op de verdeling van het netto-actief (-)*. 📖_**
+> > **Optie E** — het voorschot op het uiteindelijk te verdelen liquidatiesaldo wordt geboekt op het **debet van rekening 19** *Voorschot aan de vennoten op de verdeling van het netto-actief (-)*. 📖
 > > 
 > > **Per optie**:
 > > - **A — debet rekening 100 (Kapitaal)** ❌ — kapitaal wordt pas bij de **sluiting** van de vereffening tegen rekening 19 weggeboekt; tijdens de vereffening blijft 100 onaangeroerd, zonder onderscheid of het voorschot betrekking heeft op kapitaal, uitgiftepremies of reserves. 📖
@@ -494,7 +494,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil — rekening 19 is een *minrekening op het passief*.** Ze verschijnt op het passief als negatieve component van het eigen vermogen (-), zoals 'eigen aandelen' op het actief (-). Daarom: een **toename van het voorschot = debetboeking** op 19 (parallel met 5500/2x bij creditzijde). Pas bij de **sluiting** van de vereffening wordt 19 tegengeboekt tegen 100/11/13x — dan pas verdwijnt het maatschappelijk kapitaal of de inbreng uit de balans. 🔗
 > > 
-> > ***CBN-advies 2010/22** *Boekingswijze van een voorschot op de verdeling van het netto-actief*: "In hoofde van de vennootschap in vereffening wordt een voorschot op de verdeling van het netto-actief tot bij de sluiting van de vereffening geboekt op de rekening **19** *Voorschot aan de vennoten op de verdeling van het netto-actief (-)*, **zonder onderscheid** al naar gelang deze voorschotten betrekking hebben op het maatschappelijk kapitaal, de uitgiftepremies of de reserves." Bevestigd door **CBN-advies 2019/01** §Boekingen in hoofde van de ontbonden vennootschap. Wettelijke basis voor het voorlopige karakter: art. 190 §2 W.Venn. (anno 2015; nu art. 2:97 WVV) — definitieve uitkering kan pas na betaling van de schulden of consignatie. 📖*  
+> > **CBN-advies 2010/22** *Boekingswijze van een voorschot op de verdeling van het netto-actief*: "In hoofde van de vennootschap in vereffening wordt een voorschot op de verdeling van het netto-actief tot bij de sluiting van de vereffening geboekt op de rekening **19** *Voorschot aan de vennoten op de verdeling van het netto-actief (-)*, **zonder onderscheid** al naar gelang deze voorschotten betrekking hebben op het maatschappelijk kapitaal, de uitgiftepremies of de reserves." Bevestigd door **CBN-advies 2019/01** §Boekingen in hoofde van de ontbonden vennootschap. Wettelijke basis voor het voorlopige karakter: art. 190 §2 W.Venn. (anno 2015; nu art. 2:97 WVV) — definitieve uitkering kan pas na betaling van de schulden of consignatie. 📖  
 > > *Bron: Art. 190 §2 W.Venn. (2015) — nu art. 2:97 WVV; CBN-advies 2010/22; CBN-advies 2019/01*
 
 <a id="2014-1-vr1"></a>
@@ -524,7 +524,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_**Optie d** is correct. Per 31/12/2013 staat: geplaatst kapitaal 100.000 EUR, beschikbare reserves 800.000 EUR, in de resultaatverwerking 'Vergoeding van het kapitaal' 1.000.000 EUR, en op het passief 'Ontvangen voorschotten op kapitaal' (rek. 489X) voor 900.000 EUR. 🔗_**
+> > **Optie d** is correct. Per 31/12/2013 staat: geplaatst kapitaal 100.000 EUR, beschikbare reserves 800.000 EUR, in de resultaatverwerking 'Vergoeding van het kapitaal' 1.000.000 EUR, en op het passief 'Ontvangen voorschotten op kapitaal' (rek. 489X) voor 900.000 EUR. 🔗
 > > 
 > > **Per optie**:
 > > - **a** FOUT — kapitaal kan pas verhoogd worden bij authentieke akte (24/01/2014, dus boekjaar 2014). Op 31/12/2013 staat het kapitaal nog op 100.000 EUR. 🔗
@@ -547,7 +547,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — De timing van de authentieke akte (24/01/2014) is doorslaggevend. Vóór de akte mag rek. 100 'Geplaatst kapitaal' niet worden gecrediteerd; het bedrag wacht in 489X. Pas bij de formele kapitaalverhoging in 2014 wordt 489X gedebiteerd en 100 gecrediteerd. Verwar dit niet met een gewone dividenduitkering: daar zou 471 'Dividenden over het boekjaar' op het passief staan tot betaling. 📖
 > > 
-> > *CBN-advies 2013/17 (27/11/2013) over de overgangsregeling van art. 537 WIB92 (vastklikken van reserves): bij aanlevering van bewijskrachtig element dat de aandeelhouder deelneemt aan de Verrichting wordt 471 'Dividenden over het boekjaar' gedebiteerd en 489X 'Ontvangen voorschotten op kapitaal' gecrediteerd; bij de latere formele kapitaalverhoging wordt 489X gedebiteerd en 100 'Geplaatst kapitaal' gecrediteerd. Art. 537 WIB92 voorziet de afzonderlijke aanslag van 10% (verlaagde RV) op de tussentijdse uitkering. 📖*  
+> > CBN-advies 2013/17 (27/11/2013) over de overgangsregeling van art. 537 WIB92 (vastklikken van reserves): bij aanlevering van bewijskrachtig element dat de aandeelhouder deelneemt aan de Verrichting wordt 471 'Dividenden over het boekjaar' gedebiteerd en 489X 'Ontvangen voorschotten op kapitaal' gecrediteerd; bij de latere formele kapitaalverhoging wordt 489X gedebiteerd en 100 'Geplaatst kapitaal' gecrediteerd. Art. 537 WIB92 voorziet de afzonderlijke aanslag van 10% (verlaagde RV) op de tussentijdse uitkering. 📖  
 > > *Bron: CBN-advies 2013/17; art. 537 WIB92*
 
 <a id="2014-1-vr2"></a>
@@ -568,7 +568,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Antwoord b**: zowel de reserves als de uitgiftepremie worden **rechtstreeks** overgeboekt naar kapitaal — dus van de ene eigen-vermogenspost naar de andere, zonder tussenkomst van de resultaatverwerking (rekeningen 69/79). 🔗_**
+> > **Antwoord b**: zowel de reserves als de uitgiftepremie worden **rechtstreeks** overgeboekt naar kapitaal — dus van de ene eigen-vermogenspost naar de andere, zonder tussenkomst van de resultaatverwerking (rekeningen 69/79). 🔗
 > > 
 > > **Per optie**:
 > > - **a (FOUT)** — Onttrekking reserves én kapitaalverhoging via resultaatverwerking: dit is precies de benadering die CBN 121/3 verwerpt voor interne mutaties die het totaal eigen vermogen niet wijzigen. 📖
@@ -580,7 +580,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil**: de resultaatverwerking (rekeningen 69/79) wordt **wél** verplicht ingeschakeld wanneer reserves of uitgiftepremies worden onttrokken om verliezen aan te zuiveren of om uitkeringen aan vennoten/derden te dekken — dáár grijpt de resultatenrekening in. Bij een loutere kapitaalverhoging door incorporatie blijft het totaal eigen vermogen identiek en is er geen aanleiding voor passage via 69/79. 🔗
 > > 
-> > *CBN-advies 121/3 *Mutaties binnen het eigen vermogen*, §"Toevoeging van reserves of van overgedragen winst aan het kapitaal": rechtstreekse overboeking tussen eigen-vermogensposten is de regel. Toepasselijk verklaard op zowel reserves als uitgiftepremies. Boekhoudkundig: debet 13x *Reserves* / 11 *Uitgiftepremies* → credit 100 *Geplaatst kapitaal* (post-WVV: 110 *Inbreng*).* 📖  
+> > CBN-advies 121/3 *Mutaties binnen het eigen vermogen*, §"Toevoeging van reserves of van overgedragen winst aan het kapitaal": rechtstreekse overboeking tussen eigen-vermogensposten is de regel. Toepasselijk verklaard op zowel reserves als uitgiftepremies. Boekhoudkundig: debet 13x *Reserves* / 11 *Uitgiftepremies* → credit 100 *Geplaatst kapitaal* (post-WVV: 110 *Inbreng*). 📖  
 > > *Bron: CBN-advies 121/3 — Mutaties binnen het eigen vermogen*
 
 <a id="2014-1-vr3"></a>
@@ -601,7 +601,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**Optie a — de meerwaarde wordt op het passief van de balans behouden** (rubriek III. *Herwaarderingsmeerwaarden*). 🔗_**
+> > **Optie a — de meerwaarde wordt op het passief van de balans behouden** (rubriek III. *Herwaarderingsmeerwaarden*). 🔗
 > > 
 > > Sinds het KB van 12 september 1983 mogen **immateriële vaste activa niet meer worden geherwaardeerd**. 📖 Meerwaarden die echter werden geboekt **tijdens een boekjaar dat voorafgaat aan het boekjaar dat ingaat na 31 december 1983** (overgangsregime), mogen op het passief van de balans onder rubriek *III. Herwaarderingsmeerwaarden* **behouden blijven**. 📖 De herwaardering van 1980 op het octrooi (25.000 EUR) valt onder deze overgangsregeling en blijft dus correct op rekening 120 staan zolang het actief niet wordt gerealiseerd. 🔗
 > > 
@@ -613,7 +613,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — De vraagstelling gaat over de boekhoudkundige status vóór de verkoop. Bij de **realisatie** zelf (verkoop op 15-12-2013) moeten echter alle rekeningen rond de niet-gerealiseerde meerwaarde worden **tegengeboekt** (rek. 120 D / 2118 C voor 25.000) zodat het resultaat op de verkoop zuiver wordt berekend op basis van de oorspronkelijke aanschaffingswaarde (75.000 EUR, volledig afgeschreven → boekhoudkundige meerwaarde = 100.000 EUR). 🔗
 > > 
-> > *Art. 42 KB van 12 september 1983 (overgangsregime — bevestigd door CBN-advies 113/5 en CBN-advies 2012/13). Verbod nieuwe herwaardering op immateriële vaste activa: CBN-advies 2012/13 §Herwaarderingen. Realisatie-regel: art. 3:35 KB WVV + CBN-advies 2011/14 §Realisatie van geherwaardeerde activa. 📖*  
+> > Art. 42 KB van 12 september 1983 (overgangsregime — bevestigd door CBN-advies 113/5 en CBN-advies 2012/13). Verbod nieuwe herwaardering op immateriële vaste activa: CBN-advies 2012/13 §Herwaarderingen. Realisatie-regel: art. 3:35 KB WVV + CBN-advies 2011/14 §Realisatie van geherwaardeerde activa. 📖  
 > > *Bron: Art. 42 KB 12-9-1983; art. 3:35 KB WVV; CBN-advies 2012/13; CBN-advies 113/5; CBN-advies 2011/14*
 >
 > **Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?**
@@ -627,7 +627,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Optie b** — drie mogelijke bestemmingen: (1) **overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen**, (2) **inlijving in het kapitaal**, (3) bij **latere minderwaarden**: uitboeking tot beloop van het **nog niet afgeschreven** bedrag van de meerwaarde. 📖_**
+> > **Optie b** — drie mogelijke bestemmingen: (1) **overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen**, (2) **inlijving in het kapitaal**, (3) bij **latere minderwaarden**: uitboeking tot beloop van het **nog niet afgeschreven** bedrag van de meerwaarde. 📖
 > > 
 > > Art. 3:35 §2-3 KB WVV (vroeger art. 57 §2-3 KB W.Venn.) regelt de bestemmingen van een geboekte herwaarderingsmeerwaarde:
 > > - §2: voor **afschrijfbare** activa wordt op de meerwaarde een **afschrijvingsbedrag** geboekt evenredig aan de afschrijving op de aanschaffingswaarde; dat **afgeschreven gedeelte** van de meerwaarde mag worden **overgeboekt naar de beschikbare reserves** (rek. 121 D / 133 C). 📖
@@ -640,7 +640,7 @@ gegenereerd_op: 2026-05-26
 > > - **c** → FOUT: koppelt het bedrag van de afschrijvingen aan kapitaalinlijving (foute koppeling — afschrijvingsbedrag bepaalt overboeking naar reserves; kapitaal-omzetting heeft eigen begrenzing). 🔗
 > > - **d** → FOUT: beperkt onterecht tot overboeking naar reserves; sluit kapitaalinlijving en uitboeking ten onrechte uit. 🔗
 > > 
-> > *Art. 3:35 §2 en §3 KB WVV (vroeger art. 57 §2-3 KB W.Venn.); art. 3:76 KB WVV (omzetting in kapitaal voor NV/SE/SCE); CBN-advies 2011/14 secties *Afschrijving van geherwaardeerde activa*, *Omzetting in kapitaal* en *Correctie van herwaarderingsmeerwaarden*. 📖*  
+> > Art. 3:35 §2 en §3 KB WVV (vroeger art. 57 §2-3 KB W.Venn.); art. 3:76 KB WVV (omzetting in kapitaal voor NV/SE/SCE); CBN-advies 2011/14 secties *Afschrijving van geherwaardeerde activa*, *Omzetting in kapitaal* en *Correctie van herwaarderingsmeerwaarden*. 📖  
 > > *Bron: Art. 3:35 §2-3 KB WVV; art. 3:76 KB WVV; CBN-advies 2011/14*
 >
 > **Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag worden overgeboekt?**
@@ -654,7 +654,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**Optie a — 25.000 EUR** mag naar de reserves worden overgeboekt. 🔗_**
+> > **Optie a — 25.000 EUR** mag naar de reserves worden overgeboekt. 🔗
 > > 
 > > Regel (art. 3:35 §2 KB WVV + CBN 2010/15): de herwaarderingsmeerwaarde mag worden overgeboekt naar de **beschikbare reserves voor het afgeschreven gedeelte** van de meerwaarde. 📖
 > > 
@@ -672,7 +672,7 @@ gegenereerd_op: 2026-05-26
 > > - **c** (50.000) → FOUT: geen relatie tot de cijfers. 🤖
 > > - **d** (0) → FOUT: zou correct zijn wanneer geen afschrijvingen op de meerwaarde zijn geboekt, maar de meerwaarde is hier volledig afgeschreven. 🔗
 > > 
-> > *Art. 3:35 §2 KB WVV: "overboeking naar de beschikbare reserves ten belope van het bedrag van de op de meerwaarde geboekte afschrijvingen". CBN-advies 2010/15 §*Geherwaardeerde activa*: "De herwaarderingsmeerwaarde mag overgeboekt worden naar de beschikbare reserves voor het afgeschreven gedeelte". 📖*  
+> > Art. 3:35 §2 KB WVV: "overboeking naar de beschikbare reserves ten belope van het bedrag van de op de meerwaarde geboekte afschrijvingen". CBN-advies 2010/15 §*Geherwaardeerde activa*: "De herwaarderingsmeerwaarde mag overgeboekt worden naar de beschikbare reserves voor het afgeschreven gedeelte". 📖  
 > > *Bron: Art. 3:35 §2 KB WVV; CBN-advies 2010/15*
 >
 > Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had en in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een herwaardering van 100.
@@ -688,7 +688,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_**Optie c — de boeking van de meerwaarde is verboden**. Immateriële vaste activa (zoals een octrooi) komen **niet** in aanmerking voor herwaardering sinds het KB van 12 september 1983. 📖_**
+> > **Optie c — de boeking van de meerwaarde is verboden**. Immateriële vaste activa (zoals een octrooi) komen **niet** in aanmerking voor herwaardering sinds het KB van 12 september 1983. 📖
 > > 
 > > Art. 3:35 §1 KB WVV laat herwaardering toe voor **materiële vaste activa** en voor **deelnemingen en aandelen onder de financiële vaste activa** — **immateriële vaste activa worden niet vermeld** in de limitatieve opsomming en zijn dus uitgesloten. 📖 CBN-advies 2012/13 bevestigt dit expliciet: "De immateriële vaste activa komen niet in aanmerking voor herwaardering", met als historische motivering dat deze mogelijkheid werd afgeschaft door het KB van 12 september 1983. 📖
 > > 
@@ -702,7 +702,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — Niet verwarren met de **uitzondering** in art. 3:35 §1 lid 3 KB WVV: terugnemingen van waardeverminderingen op immateriële vaste activa **zonder beperkte gebruiksduur** (bv. goodwill met onbepaalde levensduur, merken) **mogen wél** onder rubriek III worden geboekt — maar dat is een *terugneming* van een eerdere waardevermindering, geen *herwaardering boven aanschaffingswaarde*. 📖 Voor een gewoon octrooi (beperkte gebruiksduur) blijft het verbod absoluut. 🔗
 > > 
-> > *Art. 3:35 §1 KB WVV (limitatieve opsomming: materiële vaste activa + financiële vaste activa-deelnemingen/aandelen — immateriële niet vermeld). CBN-advies 2012/13 §*Herwaarderingen*: "De immateriële vaste activa komen niet in aanmerking voor herwaardering". Historische achtergrond: KB 12-9-1983 schafte deze mogelijkheid af. 📖*  
+> > Art. 3:35 §1 KB WVV (limitatieve opsomming: materiële vaste activa + financiële vaste activa-deelnemingen/aandelen — immateriële niet vermeld). CBN-advies 2012/13 §*Herwaarderingen*: "De immateriële vaste activa komen niet in aanmerking voor herwaardering". Historische achtergrond: KB 12-9-1983 schafte deze mogelijkheid af. 📖  
 > > *Bron: Art. 3:35 §1 KB WVV; CBN-advies 2012/13*
 
 <a id="2014-1-vr4"></a>
@@ -724,7 +724,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_**Optie d — 4.595.294 EUR** 🔗. Op 5 februari 2014 wordt enkel de **actuele (gedisconteerde) waarde** van de vordering als omzet (rekening 70) geboekt: 5.000.000 − 404.706 = 4.595.294 EUR._** 🔗
+> > **Optie d — 4.595.294 EUR** 🔗. Op 5 februari 2014 wordt enkel de **actuele (gedisconteerde) waarde** van de vordering als omzet (rekening 70) geboekt: 5.000.000 − 404.706 = 4.595.294 EUR. 🔗
 > > 
 > > Het gaat om een vordering terugbetaalbaar over **meer dan één jaar** (5 jaar) waarbij de **werkelijke (markt-)rente (9%) hoger is dan de contractueel verrekende rente (4%)**. KB WVV art. 3:45, §2 (vroeger art. 27*bis* KB 8/10/1976) verplicht dan om de vordering **op nominale waarde** te boeken en het **disconto** (verschil tussen nominale waarde en actuele waarde aan marktrente) als regularisatie van de omzet af te zonderen via rekening 493 — Over te dragen opbrengsten. 📖
 > > 
@@ -737,7 +737,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard**: dat de **contractuele interest van 4% lager ligt dan de marktrente van 9%** is precies de trigger voor de discontoverplichting ("abnormaal lage rente"). Zonder dat verschil zou de actualisatie niet nodig zijn en zou 5.600.000 als nominale verkoopprijs geboekt worden, met de 600.000 interest als 751 over de looptijd. 🔗
 > > 
-> > ***KB WVV art. 3:45, §2** (en het overeenkomstige art. 27*bis*, §2 KB 8/10/1976 dat in 2014 van toepassing was): disconto op renteloze of abnormaal laag rentende vorderingen op meer dan één jaar wordt in 493 geboekt en pro rata temporis in resultaat genomen. **CBN-advies 137/4** detailleert de berekening (actuariële methode, samengestelde interest) en de boekhoudkundige verwerking. 📖*  
+> > **KB WVV art. 3:45, §2** (en het overeenkomstige art. 27*bis*, §2 KB 8/10/1976 dat in 2014 van toepassing was): disconto op renteloze of abnormaal laag rentende vorderingen op meer dan één jaar wordt in 493 geboekt en pro rata temporis in resultaat genomen. **CBN-advies 137/4** detailleert de berekening (actuariële methode, samengestelde interest) en de boekhoudkundige verwerking. 📖  
 > > *Bron: KB WVV art. 3:45 §2 (= art. 27bis §2 KB 8/10/1976) — CBN-advies 137/4*
 >
 > **Hoe worden de interest en het disconto uitgesplitst?**
@@ -752,7 +752,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_**Optie d** 🔗 — zowel de **interest** als het **disconto** worden over de 5 terugbetalingstermijnen pro rata temporis in resultaat genomen op rekening **751 — Opbrengsten uit vlottende activa** (financiële opbrengsten). Geen van beide componenten is omzet._** 🔗
+> > **Optie d** 🔗 — zowel de **interest** als het **disconto** worden over de 5 terugbetalingstermijnen pro rata temporis in resultaat genomen op rekening **751 — Opbrengsten uit vlottende activa** (financiële opbrengsten). Geen van beide componenten is omzet. 🔗
 > > 
 > > Bij een verkoop op termijn waarbij de **contractuele rente lager is dan de marktrente**, vormen *beide* de extra contractueel verrekende interest (600.000) én het berekende disconto (404.706) samen de **financiële component** van de verrichting. Die mag conform CBN-advies 137/4 niet als omzet worden geboekt, maar wordt pro rata temporis over de looptijd erkend als financiële opbrengst. 📖
 > > 
@@ -767,7 +767,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil**: rekening **651** is *Geactiveerde intercalaire interesten / Diverse financiële kosten* aan **schuld-zijde**. Bij een **vordering** (zoals hier) is het disconto altijd een **opbrengst** (rekening 751). Opties a en b verwarren actief- met passief-zijde. 🔗
 > > 
-> > ***CBN-advies 137/4** — boekingsschema bij een vordering: 493 (overlopende rekening passief) → 750/**751** (financiële opbrengsten) pro rata temporis volgens de actuariële methode aan de **oorspronkelijke** actualisatievoet (niet de marktrente op balansdatum). **KB WVV art. 3:45 §2** (vroeger art. 27*bis* §2 KB 8/10/1976) is de wettelijke grondslag. 📖*  
+> > **CBN-advies 137/4** — boekingsschema bij een vordering: 493 (overlopende rekening passief) → 750/**751** (financiële opbrengsten) pro rata temporis volgens de actuariële methode aan de **oorspronkelijke** actualisatievoet (niet de marktrente op balansdatum). **KB WVV art. 3:45 §2** (vroeger art. 27*bis* §2 KB 8/10/1976) is de wettelijke grondslag. 📖  
 > > *Bron: CBN-advies 137/4 — KB WVV art. 3:45 §2*
 
 <a id="2013-2-vr1"></a>
@@ -786,13 +786,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**Optie a — bij de aanschaffingswaarde van de laptops opnemen** (materiële vaste activa). 📖_**
+> > **Optie a — bij de aanschaffingswaarde van de laptops opnemen** (materiële vaste activa). 📖
 > > 
 > > Windows-besturingssysteem dat samen met de laptops wordt aangekocht is **systeemsoftware** (geen toepassingssoftware). CBN-advies 138/5 stelt expliciet: "De systeemsoftware en de firmware (d.i. de software die in de hardware - op chips - is gefixeerd) worden samen met de hardware als één geheel beschouwd en derhalve als materieel vast actief geboekt." 📖
 > > 
 > > Daarnaast geldt: "Zo de software een bijkomstig karakter zou vertonen in verhouding tot de hardware ... wordt de boekhoudkundige verwerking gevolgd van de hardware". 📖 De Windows-licentie bij de laptops valt onder beide criteria → opname in rubriek **23 (Installaties, machines en uitrusting) / 24 (Meubilair en rollend materieel)** als onderdeel van de aanschaffingswaarde van de laptops. 📖
 > > 
-> > *CBN-advies 138/5 — Software, sectie *Inleiding* (systeemsoftware + bijkomstig karakter t.o.v. hardware). 📖*  
+> > CBN-advies 138/5 — Software, sectie *Inleiding* (systeemsoftware + bijkomstig karakter t.o.v. hardware). 📖  
 > > *Bron: CBN-advies 138/5*
 >
 > **Aankoop van boekhoudsoftware bij firma XYZ: in welke rubriek wordt dit opgenomen?**
@@ -804,7 +804,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Optie b — immateriële vaste activa** (rubriek 211 — concessies, octrooien, licenties, know-how, merken en soortgelijke rechten). 📖_**
+> > **Optie b — immateriële vaste activa** (rubriek 211 — concessies, octrooien, licenties, know-how, merken en soortgelijke rechten). 📖
 > > 
 > > Boekhoudsoftware is **toepassingssoftware** aangekocht voor eigen gebruik in de onderneming (geen systeemsoftware, geen doorverkoop). CBN-advies 138/5 (A.1.a — standaardsoftware): "de softwareleverancier [zal] verkiezen om het auteursrecht te behouden en zal de afnemer een auteursrechtlicentie verkrijgen ... Het is dan de vergoeding die betaald wordt voor de verkrijging van dit recht die de aanschaffingswaarde uitmaakt en die geactiveerd zal worden bij de immateriële vaste activa, rubriek concessies, octrooien, licenties, know-how, merken en andere gelijkaardige rechten." 📖
 > > 
@@ -813,7 +813,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — voor activering is vereist dat de software "gedurende een aantal boekjaren in de onderneming wordt toegepast en bijdraagt tot het verwezenlijken van het ondernemingsdoel of tot een verbeterde concurrentiepositie". 📖 Een eenmalig kleine softwarelicentie zonder duurzaam karakter zou eerder als kost geboekt worden — voor een boekhoudpakket is duurzaam gebruik evident. 📖
 > > 
-> > *CBN-advies 138/5 — Software, A.1.a *Standaardsoftware*; MAR-rubriek 211 (concessies, octrooien, licenties, ...). 📖*  
+> > CBN-advies 138/5 — Software, A.1.a *Standaardsoftware*; MAR-rubriek 211 (concessies, octrooien, licenties, ...). 📖  
 > > *Bron: CBN-advies 138/5 (A.1.a); art. 3:89 §1 II.B KB WVV (rubricering IVA)*
 >
 > Zij koopt software X aan, die zij zonder enige wijziging doorverkoopt aan haar klanten.
@@ -828,7 +828,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: a**
 > > 
-> > **_**Optie a — handelsgoederen** (rubriek 34). 📖_**
+> > **Optie a — handelsgoederen** (rubriek 34). 📖
 > > 
 > > CBN-advies 138/5 (A.2 — Toepassingssoftware bestemd voor commercialisatie) is hier letterlijk van toepassing: "Verkrijgt de onderneming enkel een verkooprecht van de software en wordt de aangekochte software dus **zonder enige aanpassing doorverkocht**, dan heeft de software het karakter van een voorraad en wordt hij geboekt onder de rubriek *Handelsgoederen*." 📖
 > > 
@@ -838,7 +838,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — als de onderneming wél het **aanpassingsrecht** krijgt en de software bewerkt vóór doorverkoop, dan kantelt de kwalificatie: activering onder *immateriële vaste activa*. 📖 En reproducties van zelf-gecommercialiseerde software die nog niet verkocht zijn, gaan onder *gereed product* (rubriek 35), niet onder handelsgoederen. 📖
 > > 
-> > *CBN-advies 138/5 — Software, A.2 *Toepassingssoftware bestemd voor commercialisatie* (doorverkoop zonder aanpassing → handelsgoederen). 📖*  
+> > CBN-advies 138/5 — Software, A.2 *Toepassingssoftware bestemd voor commercialisatie* (doorverkoop zonder aanpassing → handelsgoederen). 📖  
 > > *Bron: CBN-advies 138/5 (A.2)*
 
 <a id="2013-2-vr3"></a>
@@ -856,13 +856,13 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Rubriek **II.3 Goodwill** (Immateriële vaste activa — goodwill) op het actief van de balans. 🔗_**
+> > Rubriek **II.3 Goodwill** (Immateriële vaste activa — goodwill) op het actief van de balans. 🔗
 > > 
 > > De € 30.000 is de **meerprijs** die Final BVBA betaalt boven de marktwaarde van de individueel identificeerbare activa (machines + voorraad = € 70.000). Dat verschil weerspiegelt **verworven goodwill**: betaling voor klantenbestand, knowhow, marktpositie of synergie die niet als afzonderlijk actief op de balans verschijnt. 📖 Onder de immateriële vaste activa onderscheidt het rekeningenstelsel (art. 95 KB W.Venn.) vier subrubrieken: kosten van onderzoek en ontwikkeling, concessies/octrooien/licenties/merken, **goodwill**, en vooruitbetalingen. Een meerprijs bij overname valt expliciet onder de derde subrubriek. 📖
 > > 
 > > **Valkuil**: de overige € 70.000 wordt **niet** als goodwill geboekt, maar opgesplitst per verworven actief op marktwaarde (Machine A 15.000 en Machine B 25.000 onder **rubriek III Materiële vaste activa**; Voorraad 30.000 onder **rubriek VI Voorraden**). Goodwill is per definitie het **residu** na toerekening aan identificeerbare activa. 🔗
 > > 
-> > *Art. 95 KB W.Venn. van 30 januari 2001 (jaarrekeningschema — uitsplitsing immateriële vaste activa, rubriek II.3 Goodwill). CBN-advies 2012/13 §I.B over verworven goodwill bij overname van een onderneming of bedrijfsafdeling.* 📖  
+> > Art. 95 KB W.Venn. van 30 januari 2001 (jaarrekeningschema — uitsplitsing immateriële vaste activa, rubriek II.3 Goodwill). CBN-advies 2012/13 §I.B over verworven goodwill bij overname van een onderneming of bedrijfsafdeling. 📖  
 > > *Bron: art. 95 KB W.Venn. 30/01/2001*
 >
 > Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven? Geef voor elke optie aan (Ja/Nee) en verklaar uw keuze met verwijzing naar de relevante bepalingen van de wetgeving inzake de jaarrekening.
@@ -885,7 +885,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard**: deze 5-jaar-grens is een **verantwoordingsplicht**, geen **maximumgrens**. Dat onderscheidt enkelvoudige verworven goodwill (geen wettelijk plafond) van de huidige WVV-regel voor **consolidatiegoodwill** waar bij onbepaalbare gebruiksduur **maximaal 10 jaar** geldt (CBN-advies 2016/7). Ten tijde van het examen (2013) gold KB W.Venn. ongewijzigd: drie, vijf én tien jaar zijn alle drie toegelaten. 🔗
 > > 
-> > *Art. 61, § 1 KB W.Venn. 30/01/2001 (lid 1: afschrijvingsplan conform art. 28, § 1; lid 4: verantwoording in toelichting bij afschrijving van kosten O&O of goodwill over meer dan vijf jaar). Bevestigd in CBN-advies 2012/13 (afschrijvingen op goodwill) en CBN-advies 2010/15 (afschrijvingsmethoden). Sinds 2019 hernummerd als art. 3:42 KB WVV.* 📖  
+> > Art. 61, § 1 KB W.Venn. 30/01/2001 (lid 1: afschrijvingsplan conform art. 28, § 1; lid 4: verantwoording in toelichting bij afschrijving van kosten O&O of goodwill over meer dan vijf jaar). Bevestigd in CBN-advies 2012/13 (afschrijvingen op goodwill) en CBN-advies 2010/15 (afschrijvingsmethoden). Sinds 2019 hernummerd als art. 3:42 KB WVV. 📖  
 > > *Bron: art. 61, § 1 KB W.Venn. 30/01/2001 (= art. 3:42 KB WVV)*
 
 <a id="2013-2-vr4"></a>
@@ -901,7 +901,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Ja — de onderneming **moet** een voorziening voor grote herstellings- en onderhoudswerken (rekening 162) aanleggen en daarvoor **jaarlijks 5.000 EUR** ten laste nemen (40.000 EUR / 8 jaar) gedurende de acht boekjaren tussen twee schilderbeurten. 🔗_**
+> > Ja — de onderneming **moet** een voorziening voor grote herstellings- en onderhoudswerken (rekening 162) aanleggen en daarvoor **jaarlijks 5.000 EUR** ten laste nemen (40.000 EUR / 8 jaar) gedurende de acht boekjaren tussen twee schilderbeurten. 🔗
 > > 
 > > De schilderwerken vormen een **periodiek terugkerende kost** die niet aan één boekjaar mag worden toegerekend: het matching-beginsel vereist dat de kost wordt gespreid over de acht boekjaren waarin de gebouwen worden gebruikt (de oorzaak van de herstelling ontstaat in de periodes vóór de uitvoering). 📖
 > > 
@@ -916,7 +916,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — de voorziening is **verplicht**, niet facultatief: het KB tot uitvoering van het WVV (vroeger KB W.Venn. art. 54) legt expliciet de vorming op van voorzieningen voor grote herstellings- en onderhoudswerken die periodiek terugkeren. De Commissie adviseert om per actief-categorie een **systematisch spreidingsplan** vast te leggen (vergelijkbaar met een afschrijvingsplan). 📖
 > > 
-> > *KB WVV art. 3:28 (vormingsplicht voorzieningen voor risico's en kosten) en de specifieke verplichting voor grote herstellings- en onderhoudswerken — CBN-advies 2018/25 (Voorzieningen, deel III) en historisch CBN-advies 107/1. Rekening 162 (MAR).* 📖  
+> > KB WVV art. 3:28 (vormingsplicht voorzieningen voor risico's en kosten) en de specifieke verplichting voor grote herstellings- en onderhoudswerken — CBN-advies 2018/25 (Voorzieningen, deel III) en historisch CBN-advies 107/1. Rekening 162 (MAR). 📖  
 > > *Bron: KB WVV art. 3:28; CBN 2018/25; CBN 107/1*
 >
 > Wat indien na acht jaar de schilderwerken worden uitgevoerd, maar meer bedragen dan de raming van 40.
@@ -925,7 +925,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De gevormde voorziening (40.000 EUR) wordt **volledig besteed** ten belope van haar bedrag; het **meerbedrag** boven 40.000 EUR wordt in het jaar van uitvoering rechtstreeks als **kost van het boekjaar** geboekt (onvoldoende voorziening → bijkomende last). 🔗_**
+> > De gevormde voorziening (40.000 EUR) wordt **volledig besteed** ten belope van haar bedrag; het **meerbedrag** boven 40.000 EUR wordt in het jaar van uitvoering rechtstreeks als **kost van het boekjaar** geboekt (onvoldoende voorziening → bijkomende last). 🔗
 > > 
 > > Op het ogenblik dat de schilderwerken effectief worden uitgevoerd, krijgt de kost het karakter van een **zekere en vaststaande schuld**: de voorziening wordt aangewend (besteed).
 > > 
@@ -940,7 +940,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — een tekort op de voorziening wordt **niet** retroactief gecorrigeerd via de vorige boekjaren: de raming was destijds de beste schatting, dus het is geen fout. Het meerbedrag is een **schattingswijziging** die in het lopende boekjaar wordt opgevangen (geen herziening van vroegere jaarrekeningen). Omgekeerd: als de werken **minder** zouden kosten dan geraamd, wordt het overschot teruggenomen via rekening 6361 (terugneming-creditzijde), waardoor het resultaat van het uitvoeringsjaar verbetert. 🔗
 > > 
-> > *CBN-advies 2018/25 — sectie 'Besteding en terugneming': een voorziening wordt besteed wanneer de kost een zekere en vaststaande schuld wordt; een tekort aan voorziening leidt tot een bijkomende kost in het lopende boekjaar, een overschot tot een terugneming.* 📖  
+> > CBN-advies 2018/25 — sectie 'Besteding en terugneming': een voorziening wordt besteed wanneer de kost een zekere en vaststaande schuld wordt; een tekort aan voorziening leidt tot een bijkomende kost in het lopende boekjaar, een overschot tot een terugneming. 📖  
 > > *Bron: CBN 2018/25 (Besteding en terugneming)*
 
 <a id="2013-1-vr2"></a>
@@ -960,7 +960,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: b**
 > > 
-> > **_**Optie b** — onderneming A boekt de leveranciersschuld rechtstreeks over naar de rubriek kapitaal. 🔗_**
+> > **Optie b** — onderneming A boekt de leveranciersschuld rechtstreeks over naar de rubriek kapitaal. 🔗
 > > 
 > > De inbreng van een schuldvordering in het kapitaal is boekhoudkundig een **inbreng in natura**: de schuldeiser (X) doet afstand van zijn vordering in ruil voor aandelen, waardoor de schuld bij A juridisch tenietgaat door schuldvermenging. De boekingsbeweging is dus rechtstreeks: **debet 44 Leveranciers / credit 10 Kapitaal**. 🔗
 > > 
@@ -969,7 +969,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Procedureel vereist deze inbreng wel een verslag van het bestuursorgaan en een controleverslag van de commissaris of een aangewezen bedrijfsrevisor (art. 5:112 / 7:183 WVV) — dat is een rechtsgeldigheidsvereiste, niet een boekhoudkundige tussenstap. 📖
 > > 
-> > *Art. 5:112 / 7:183 WVV — inbreng in natura vereist verslag bestuursorgaan + revisor. CBN-advies 2021/07 bevestigt dat een schuldvordering als inbreng in natura wordt verwerkt (waarderingsdiscussie nominale vs werkelijke waarde, maar steeds rechtstreeks naar kapitaal). 📖*  
+> > Art. 5:112 / 7:183 WVV — inbreng in natura vereist verslag bestuursorgaan + revisor. CBN-advies 2021/07 bevestigt dat een schuldvordering als inbreng in natura wordt verwerkt (waarderingsdiscussie nominale vs werkelijke waarde, maar steeds rechtstreeks naar kapitaal). 📖  
 > > *Bron: Art. 5:112 WVV; Art. 7:183 WVV; CBN-advies 2021/07*
 >
 > Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren door terugbetaling aan haar aandeelhouders.
@@ -983,7 +983,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_**Optie c** — boeken naar een rekening *terug te betalen kapitaal* en uitbetalen **na een periode van twee maanden na de publicatie in het Belgisch Staatsblad**. 📖_**
+> > **Optie c** — boeken naar een rekening *terug te betalen kapitaal* en uitbetalen **na een periode van twee maanden na de publicatie in het Belgisch Staatsblad**. 📖
 > > 
 > > Bij een kapitaalvermindering met terugbetaling aan aandeelhouders hebben de schuldeisers **twee maanden na de bekendmaking in de Bijlagen bij het Belgisch Staatsblad** het recht zekerheid te eisen voor hun nog niet-opeisbare vorderingen. De vennootschap mag pas effectief terugbetalen na afloop van die wachttermijn — eerdere uitbetaling schendt het schuldeisersbeschermingsregime. 📖
 > > 
@@ -993,7 +993,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — De wachttermijn van twee maanden loopt vanaf de **bekendmaking in het Belgisch Staatsblad**, niet vanaf het besluit van de AV of de notariële akte. Optie d is precies bedoeld als afleider voor wie de wettekst niet exact kent. 🔗
 > > 
-> > *Art. 7:208 WVV (NV) / art. 5:153 WVV (BV) — schuldeisersbescherming bij kapitaalvermindering: zekerheidsrecht binnen twee maanden na bekendmaking in het Belgisch Staatsblad, terugbetaling pas na afloop. (Memorie van toelichting beschrijft het regime onder art. 7:195 MvT-nummering — analoge bepalingen voor BV.) 📖*  
+> > Art. 7:208 WVV (NV) / art. 5:153 WVV (BV) — schuldeisersbescherming bij kapitaalvermindering: zekerheidsrecht binnen twee maanden na bekendmaking in het Belgisch Staatsblad, terugbetaling pas na afloop. (Memorie van toelichting beschrijft het regime onder art. 7:195 MvT-nummering — analoge bepalingen voor BV.) 📖  
 > > *Bron: Art. 7:208 WVV; Art. 5:153 WVV*
 >
 > Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel die exclusieve juwelen verkoopt.
@@ -1009,7 +1009,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_**Optie d** — de buitenlandse onderneming voert haar Belgische boekhouding volgens de Belgische boekhoudnormen voor de vaste inrichting, en legt **de jaarrekening van de buitenlandse onderneming en in voorkomend geval ook een geconsolideerde jaarrekening** neer in de vorm zoals opgesteld in het buitenland, plus een sociale balans. 📖_**
+> > **Optie d** — de buitenlandse onderneming voert haar Belgische boekhouding volgens de Belgische boekhoudnormen voor de vaste inrichting, en legt **de jaarrekening van de buitenlandse onderneming en in voorkomend geval ook een geconsolideerde jaarrekening** neer in de vorm zoals opgesteld in het buitenland, plus een sociale balans. 📖
 > > 
 > > Twee aparte verplichtingen voor een Belgische vaste inrichting (bijkantoor) van een buitenlandse vennootschap:
 > > 
@@ -1023,7 +1023,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — Het onderscheid tussen *boekhouding* (Belgische normen, eigen aan het bijkantoor) en *neer te leggen jaarrekening* (de **buitenlandse** jaarrekening van het moederbedrijf, in buitenlandse vorm). Studenten verwarren beide vaak en kiezen optie b — dat is precies de afleider. Tweede valkuil: optie c laat de geconsolideerde jaarrekening weg, maar art. 3:20 vermeldt die uitdrukkelijk. 🔗
 > > 
-> > *Art. 3:20 §1 WVV — buitenlandse vennootschap met Belgisch bijkantoor legt jaarlijks haar (statutaire en in voorkomend geval geconsolideerde) jaarrekening neer bij de NBB, in de vorm naar buitenlands recht. CBN-advies 2022/14 (Belgische boekhoudrecht voor bijkantoren) + CBN-advies 2022/15 (neerlegging). 📖*  
+> > Art. 3:20 §1 WVV — buitenlandse vennootschap met Belgisch bijkantoor legt jaarlijks haar (statutaire en in voorkomend geval geconsolideerde) jaarrekening neer bij de NBB, in de vorm naar buitenlands recht. CBN-advies 2022/14 (Belgische boekhoudrecht voor bijkantoren) + CBN-advies 2022/15 (neerlegging). 📖  
 > > *Bron: Art. 3:20 WVV; CBN-advies 2022/14; CBN-advies 2022/15*
 
 <a id="2013-1-vr3"></a>
@@ -1037,7 +1037,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Ja**, deze kosten kunnen geactiveerd worden als immaterieel vast actief — *kosten van onderzoek en ontwikkeling* — voor zover ze cumulatief voldoen aan de activeringsvoorwaarden van het KB W.Venn. (regime 2013). 🔗_**
+> > **Ja**, deze kosten kunnen geactiveerd worden als immaterieel vast actief — *kosten van onderzoek en ontwikkeling* — voor zover ze cumulatief voldoen aan de activeringsvoorwaarden van het KB W.Venn. (regime 2013). 🔗
 > > 
 > > Activering van intern verrichte O&O is slechts toegestaan wanneer **alle volgende criteria cumulatief** vervuld zijn (CBN 2012/13, rn. 8): 📖
 > > 
@@ -1051,7 +1051,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — *activering is een keuze, geen verplichting*: zelfs als alle criteria vervuld zijn mag de onderneming ervoor kiezen de kosten **onmiddellijk als kost** in de resultatenrekening te boeken (waarderingsregel). De gekozen methode moet consistent worden toegepast en in de waarderingsregels worden vermeld. 🔗
 > > 
-> > ***Art. 60 en 95 KB W.Venn.** (regime 2013) — vervaardigingsprijs als boekwaarde, beperking tot voorzichtige raming gebruikswaarde; CBN-advies 2012/13 (rn. 8 + activering van kosten van O&O) voor de cumulatieve voorwaarden.* 📖  
+> > **Art. 60 en 95 KB W.Venn.** (regime 2013) — vervaardigingsprijs als boekwaarde, beperking tot voorzichtige raming gebruikswaarde; CBN-advies 2012/13 (rn. 8 + activering van kosten van O&O) voor de cumulatieve voorwaarden. 📖  
 > > *Bron: art. 60 en 95 KB W.Venn. (2013); CBN-advies 2012/13*
 >
 > **Zo ja, welke van de bovenvermelde kosten kunnen geactiveerd worden?**
@@ -1072,27 +1072,27 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Nuance — huidig regime (boekjaren vanaf 1-1-2016, KB 18-12-2015 + CBN 2016/16)**: kosten van **onderzoek** mogen **niet meer** worden geactiveerd en gaan rechtstreeks naar de resultatenrekening. Alleen kosten van **ontwikkeling** komen nog voor activering in aanmerking. Onder het huidig regime zou post 1 (vooronderzoek 20.000) dus **als kost** worden geboekt; enkel posten 2, 3 en 4 (samen 275.000) — voor zover toerekenbaar aan de ontwikkelingsfase — zouden activeerbaar zijn. ❓
 > > 
-> > ***Art. 95 KB W.Venn.** (regime 2013): kosten van onderzoek, vervaardiging en ontwikkeling van prototypes en producten die nuttig zijn voor de toekomstige activiteiten van de onderneming. **Vervaardigingsprijs** = directe materiaal- en productiekosten (incl. lonen en sociale lasten van het toegerekend personeel). Voor huidig regime: KB 18-12-2015 + CBN-advies 2016/16.* 📖  
+> > **Art. 95 KB W.Venn.** (regime 2013): kosten van onderzoek, vervaardiging en ontwikkeling van prototypes en producten die nuttig zijn voor de toekomstige activiteiten van de onderneming. **Vervaardigingsprijs** = directe materiaal- en productiekosten (incl. lonen en sociale lasten van het toegerekend personeel). Voor huidig regime: KB 18-12-2015 + CBN-advies 2016/16. 📖  
 > > *Bron: art. 95 KB W.Venn. (2013); art. III.89 KB WVV (huidig)*
 >
 > Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op te geven tot op 2 cijfers.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Rubriek 21 — Immateriële vaste activa** (tot op 2 cijfers). Volledig: rekening **210 — Kosten van onderzoek en ontwikkeling**. 🔗_**
+> > **Rubriek 21 — Immateriële vaste activa** (tot op 2 cijfers). Volledig: rekening **210 — Kosten van onderzoek en ontwikkeling**. 🔗
 > > 
 > > Het MAR (Minimum Algemeen Rekeningstelsel) ordent immateriële vaste activa onder rubriek **21**, met als sub-rekeningen: **210** kosten van onderzoek en ontwikkeling — **211** concessies, octrooien, licenties, knowhow, merken en soortgelijke rechten — **212** goodwill — **213** vooruitbetalingen. Het prototype valt onder **210**. 🔗
 > > 
 > > Tegenboeking bij interne vervaardiging: **72 — Geproduceerde vaste activa** (de zelf geproduceerde delen worden via deze rekening uit de kosten gehaald en als investering opgenomen). 🔗
 > > 
-> > *MAR — KB van 12-09-1983 (en latere wijzigingen) op de jaarrekening van ondernemingen, rubriek 21 van de balans en de bijhorende algemene rekeningen.* 🔗  
+> > MAR — KB van 12-09-1983 (en latere wijzigingen) op de jaarrekening van ondernemingen, rubriek 21 van de balans en de bijhorende algemene rekeningen. 🔗  
 > > *Bron: MAR — rubriek 21 (immateriële vaste activa)*
 >
 > **Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Er is geen wettelijke minimum-afschrijvingstermijn**. De afschrijving gebeurt volgens een door het bestuursorgaan opgesteld plan, dat de aanschaffingskosten **spreidt over de waarschijnlijke nuttigheids- of gebruiksduur** (art. 28 § 1 + art. 45 § 1 KB W.Venn.). In de praktijk hanteert men onder het regime 2013 doorgaans **5 jaar** als afschrijvingsperiode; een spreiding over **meer dan 5 jaar** vereist een verantwoording in de toelichting. 📖_**
+> > **Er is geen wettelijke minimum-afschrijvingstermijn**. De afschrijving gebeurt volgens een door het bestuursorgaan opgesteld plan, dat de aanschaffingskosten **spreidt over de waarschijnlijke nuttigheids- of gebruiksduur** (art. 28 § 1 + art. 45 § 1 KB W.Venn.). In de praktijk hanteert men onder het regime 2013 doorgaans **5 jaar** als afschrijvingsperiode; een spreiding over **meer dan 5 jaar** vereist een verantwoording in de toelichting. 📖
 > > 
 > > **Valkuil — minimum vs. maximum**: de wet legt geen **minimum** op (een onderneming mag versneld afschrijven indien de economische gebruiksduur korter is). De **5 jaar** is een grensdrempel: spreiding **langer dan 5 jaar** moet in de toelichting worden verantwoord — het is dus geen wettelijk maximum, maar wel een **verantwoordingsplicht-grens**. 🔗
 > > 
@@ -1100,14 +1100,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Nuance — huidig regime**: sinds boekjaren vanaf 1-1-2016 bepaalt het KB W.Venn. (gewijzigd door KB 18-12-2015) dat kosten van **ontwikkeling**, indien hun gebruiksduur niet met zekerheid kan worden geraamd, worden afgeschreven over een **maximum van 10 jaar** (CBN 2016/16). De **5 jaar + toelichting**-regel uit het oude regime is daarmee vervangen door een hard **plafond van 10 jaar**. ❓
 > > 
-> > *Art. 28 § 1 + art. 45 § 1 + art. 61 § 1 KB W.Venn. (regime 2013): afschrijving over waarschijnlijke gebruiksduur, geen minimum, toelichting verplicht bij spreiding > 5 jaar. CBN 2010/15 (afschrijvingsmethoden) en CBN 2012/13 (immateriële vaste activa). Huidig regime: KB 18-12-2015 + CBN 2016/16 (max. 10 jaar bij onzekere gebruiksduur).* 📖  
+> > Art. 28 § 1 + art. 45 § 1 + art. 61 § 1 KB W.Venn. (regime 2013): afschrijving over waarschijnlijke gebruiksduur, geen minimum, toelichting verplicht bij spreiding > 5 jaar. CBN 2010/15 (afschrijvingsmethoden) en CBN 2012/13 (immateriële vaste activa). Huidig regime: KB 18-12-2015 + CBN 2016/16 (max. 10 jaar bij onzekere gebruiksduur). 📖  
 > > *Bron: art. 28, 45, 61 KB W.Venn. (2013); KB 18-12-2015 (huidig)*
 >
 > Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet commercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet verder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals aankopen en personeelskosten.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Geen activering**: indien commerciële haalbaarheid niet aangetoond is, is **niet voldaan aan de cumulatieve activeringsvoorwaarden** (geen nut/toekomstig economisch voordeel aantoonbaar). De reeds gemaakte kosten — aankopen en personeelskosten — blijven daarom **als kost van het boekjaar** in de resultatenrekening (rubrieken **60** aankopen, **62** bezoldigingen). 🔗_**
+> > **Geen activering**: indien commerciële haalbaarheid niet aangetoond is, is **niet voldaan aan de cumulatieve activeringsvoorwaarden** (geen nut/toekomstig economisch voordeel aantoonbaar). De reeds gemaakte kosten — aankopen en personeelskosten — blijven daarom **als kost van het boekjaar** in de resultatenrekening (rubrieken **60** aankopen, **62** bezoldigingen). 🔗
 > > 
 > > **Twee scenario's** — afhankelijk van het moment van het besluit:
 > > 
@@ -1116,7 +1116,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Voorzichtigheidsbeginsel** — de kern: activering van O&O steunt op de verwachting van **toekomstige economische voordelen**. Zodra die verwachting wegvalt (geen commerciële haalbaarheid), vervalt de grondslag voor activering. Doorrollen van de geactiveerde kosten zou een **geflatteerd actief** op de balans plaatsen en is strijdig met het voorzichtigheids- en getrouwe-beeld-beginsel (art. 3:1 KB WVV / art. 24 KB W.Venn. regime 2013). 🔗
 > > 
-> > *Cumulatieve activeringsvoorwaarden — CBN 2012/13 rn. 8 (nut + individualiseerbaar + technische haalbaarheid + intentie + voorzichtige raming gebruikswaarde). Art. 60 KB W.Venn. (2013): activering enkel voor zover de kostprijs niet hoger is dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement. Bijzondere waardevermindering op IVA: art. 64 KB W.Venn.* 📖  
+> > Cumulatieve activeringsvoorwaarden — CBN 2012/13 rn. 8 (nut + individualiseerbaar + technische haalbaarheid + intentie + voorzichtige raming gebruikswaarde). Art. 60 KB W.Venn. (2013): activering enkel voor zover de kostprijs niet hoger is dan een voorzichtige raming van de gebruikswaarde of het toekomstig rendement. Bijzondere waardevermindering op IVA: art. 64 KB W.Venn. 📖  
 > > *Bron: art. 60, 64 KB W.Venn. (2013); CBN 2012/13*
 
 <a id="2008-bibf-vrA1"></a>
@@ -1141,17 +1141,17 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — voor *arbeiders* wordt de last niet via een afsluitingsboeking voorzien: het vakantiegeld arbeiders wordt door de Rijksdienst voor Jaarlijkse Vakantie / een vakantiefonds geïnd via de driemaandelijkse RSZ-bijdrage en is dus al ten laste van het lopende boekjaar via de werkgeversbijdragen sociale zekerheid (rekening 621). Enkel voor *bedienden* (en gelijkgestelden) moet de werkgever zelf op afsluitdatum het toekomstige vakantiegeld als schuld/voorziening opnemen 🔗. 🔗
 > > 
-> > *CBN-advies 148/2 (Vakantiegeld) 📖: ten laste van het boekjaar moeten worden geboekt de bezoldigingen en sociale voordelen die in een volgend boekjaar zullen worden betaald voor diensten die *tijdens* het boekjaar zijn verricht (art. 19, vierde lid jaarrekeningbesluit 8/10/1976, gewijzigd bij KB 12/9/1983 — thans matching-beginsel art. 3:11 KB/WVV). De Commissie aanvaardt het globale percentage 18,8 % op de in het boekjaar uitbetaalde brutobezoldigingen van bedienden (exclusief eindejaarspremies) als forfaitaire raming van het in het volgende jaar verschuldigde enkelvoudig + dubbel vakantiegeld.* 📖
+> > CBN-advies 148/2 (Vakantiegeld) 📖: ten laste van het boekjaar moeten worden geboekt de bezoldigingen en sociale voordelen die in een volgend boekjaar zullen worden betaald voor diensten die *tijdens* het boekjaar zijn verricht (art. 19, vierde lid jaarrekeningbesluit 8/10/1976, gewijzigd bij KB 12/9/1983 — thans matching-beginsel art. 3:11 KB/WVV). De Commissie aanvaardt het globale percentage 18,8 % op de in het boekjaar uitbetaalde brutobezoldigingen van bedienden (exclusief eindejaarspremies) als forfaitaire raming van het in het volgende jaar verschuldigde enkelvoudig + dubbel vakantiegeld. 📖
 >
 > **Wanneer boekt u dit vakantiegeld?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Op de **balansdatum 31 december 2007** (afsluitingsboeking) 🔗 — de boeking gebeurt in het boekjaar waarop de gepresteerde diensten betrekking hebben, niet bij de effectieve uitbetaling in 2008._** 🔗
+> > Op de **balansdatum 31 december 2007** (afsluitingsboeking) 🔗 — de boeking gebeurt in het boekjaar waarop de gepresteerde diensten betrekking hebben, niet bij de effectieve uitbetaling in 2008. 🔗
 > > 
 > > Toepassing van het **matching-beginsel** (toerekeningsbeginsel) 📖: kosten en opbrengsten worden toegerekend aan het boekjaar waarop ze betrekking hebben, ongeacht het tijdstip van betaling of ontvangst. Het vakantiegeld dat in 2008 zal worden uitbetaald is de tegenprestatie voor de in 2007 gepresteerde arbeid en moet daarom op 31/12/2007 als kost (623) en schuld/voorziening (456) erkend worden. Bij de effectieve uitbetaling in 2008 wordt de credit-rekening 456 tegengeboekt; een eventueel verschil tussen raming en realisatie wordt in 2008 via dezelfde personeelskostenrekening gecorrigeerd. 📖
 > > 
-> > *Matching-beginsel: art. 3:11 KB/WVV (voorheen art. 33 KB/W.Venn. en art. 19, vierde lid jaarrekeningbesluit 8/10/1976) — kosten van het boekjaar worden geboekt ongeacht het betalingsmoment. CBN-advies 148/2 bevestigt boeking van het vakantiegeld bedienden als afsluitingsboeking op de balansdatum.* 📖
+> > Matching-beginsel: art. 3:11 KB/WVV (voorheen art. 33 KB/W.Venn. en art. 19, vierde lid jaarrekeningbesluit 8/10/1976) — kosten van het boekjaar worden geboekt ongeacht het betalingsmoment. CBN-advies 148/2 bevestigt boeking van het vakantiegeld bedienden als afsluitingsboeking op de balansdatum. 📖
 
 <a id="2008-bibf-vrA2"></a>
 
@@ -1164,7 +1164,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Op 31/12/2007** (afsluitingsboeking): kost van 1.000 EUR (excl. BTW) toerekenen aan boekjaar 2007 via een **toe te rekenen kost** (rekening 492). De BTW (210 EUR) wordt niet in 2007 geboekt — het aftrekrecht ontstaat pas in 2008 met de factuur. **Op 01/01/2008**: tegenboeking 492. **Bij ontvangst factuur in 2008**: normale aankoopboeking met BTW-aftrek. 🔗_**
+> > **Op 31/12/2007** (afsluitingsboeking): kost van 1.000 EUR (excl. BTW) toerekenen aan boekjaar 2007 via een **toe te rekenen kost** (rekening 492). De BTW (210 EUR) wordt niet in 2007 geboekt — het aftrekrecht ontstaat pas in 2008 met de factuur. **Op 01/01/2008**: tegenboeking 492. **Bij ontvangst factuur in 2008**: normale aankoopboeking met BTW-aftrek. 🔗
 > > 
 > > **31/12/2007 — Afsluitingsboeking (toerekening kost aan 2007)** 🔗
 > > 
@@ -1196,7 +1196,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard — publiciteitsartikelen ≠ relatiegeschenken.** Publiciteitsartikelen (reclame-artikelen met duidelijke en blijvende vermelding van de naam van de schenker, lage eenheidswaarde, in grote hoeveelheid uitgedeeld) zijn **volledig aftrekbaar** als reclamekost, **zonder** de 50%-aftrekbeperking van art. 53, 11° WIB 92 die wel geldt voor relatiegeschenken. De BTW is eveneens volledig aftrekbaar. Bij relatiegeschenken zou 50% van de kost als verworpen uitgave moeten worden teruggenomen in de aangifte VenB (code 1207) en zou de BTW niet aftrekbaar zijn (art. 45, §3, 4° WBTW), met uitzondering precies van publiciteitsartikelen. 📖
 > > 
-> > *Matching-/toerekeningsbeginsel: art. 3:11 KB WVV (vroeger art. 33 KB W.Venn., van toepassing in 2007). Recht op BTW-aftrek vereist een geldige factuur: art. 3 KB nr. 3 BTW. Publiciteitsartikelen niet onderworpen aan 50%-beperking relatiegeschenken: art. 53, 8° en 11° WIB 92 (zie aangifte VenB code 1207).* 🔗  
+> > Matching-/toerekeningsbeginsel: art. 3:11 KB WVV (vroeger art. 33 KB W.Venn., van toepassing in 2007). Recht op BTW-aftrek vereist een geldige factuur: art. 3 KB nr. 3 BTW. Publiciteitsartikelen niet onderworpen aan 50%-beperking relatiegeschenken: art. 53, 8° en 11° WIB 92 (zie aangifte VenB code 1207). 🔗  
 > > *Bron: art. 3:11 KB WVV; art. 3 KB nr. 3 BTW; art. 53, 8° en 11° WIB 92*
 
 <a id="2008-bibf-vrA3"></a>
@@ -1250,7 +1250,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** ❓: het teken van de boeking volgt het **soort voorraad**, niet één uniforme regel. Aangekochte voorraden (30/34) → kosten-correctie via **60-reeks** (6090/6094): debet bij toename is een **negatieve kost** (crediteert 6090). Zelf voortgebrachte voorraden (32/33) → opbrengst-correctie via **71-reeks** (712/713): credit bij toename is een **opbrengst** (geactiveerde productie). Vermijd om alles via 609 of alles via 71 te boeken — de scheiding aangekocht/zelf voortgebracht is wezenlijk in het MAR. 🔗
 > > 
-> > ***CBN-advies 132/7 — Boeking en waardering van voorraden** 📖: schrijft expliciet de boekingsschema's voor (inkomende/uitgaande voorraden, met onderscheid handelsondernemingen vs industriële ondernemingen — rekeningen 6090/6091/6094 voor aangekochte voorraden, 712/713 voor zelf voortgebrachte voorraden). **MAR (KB 21.10.2018 Bijl. 1)** 📖: klasse 3 voor voorraadrekeningen (30/32/33/34), klasse 60 voor handelsgoederen/grond- en hulpstoffen (incl. 609 voorraadwijzigingen), klasse 71 voor wijzigingen in voorraad zelf voortgebrachte goederen.* 📖  
+> > **CBN-advies 132/7 — Boeking en waardering van voorraden** 📖: schrijft expliciet de boekingsschema's voor (inkomende/uitgaande voorraden, met onderscheid handelsondernemingen vs industriële ondernemingen — rekeningen 6090/6091/6094 voor aangekochte voorraden, 712/713 voor zelf voortgebrachte voorraden). **MAR (KB 21.10.2018 Bijl. 1)** 📖: klasse 3 voor voorraadrekeningen (30/32/33/34), klasse 60 voor handelsgoederen/grond- en hulpstoffen (incl. 609 voorraadwijzigingen), klasse 71 voor wijzigingen in voorraad zelf voortgebrachte goederen. 📖  
 > > *Bron: CBN-advies 132/7; MAR (KB 21.10.2018 Bijlage 1) klassen 3, 60, 71*
 
 <a id="2008-bibf-vrA4"></a>
@@ -1292,7 +1292,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil ❗** — De niet-aftrekbare BTW op personenwagens (50 %) hoort **niet** op een kostenrekening (61x) maar wordt **geactiveerd** in de aanschaffingswaarde van het voertuig (rubriek 24 Meubilair en rollend materieel). 🔗 Dat is de reden waarom de personenwagen in de balans staat aan 22.100 EUR i.p.v. 20.000 EUR, met directe impact op de jaarlijkse afschrijvingsbasis. 🔗
 > > 
-> > ***BTW-aftrekbeperking personenwagens**: art. 45 § 2 BTW-Wetboek — aftrek beperkt tot max. 50 % (en tot werkelijk beroepsgebruik wanneer dat lager is). 🔗 **Activering niet-aftrekbare BTW in aanschaffingswaarde**: KB-WVV art. 3:13 (aanschaffingswaarde = aankoopprijs + bijkomende kosten, incl. niet-recupereerbare belastingen). 🔗 **Rekeningnummers**: MAR — 200 Kosten van oprichting, 240 Meubilair en rollend materieel, 411 Terug te vorderen BTW, 440 Leveranciers, 550 Kredietinstellingen.* 🔗  
+> > **BTW-aftrekbeperking personenwagens**: art. 45 § 2 BTW-Wetboek — aftrek beperkt tot max. 50 % (en tot werkelijk beroepsgebruik wanneer dat lager is). 🔗 **Activering niet-aftrekbare BTW in aanschaffingswaarde**: KB-WVV art. 3:13 (aanschaffingswaarde = aankoopprijs + bijkomende kosten, incl. niet-recupereerbare belastingen). 🔗 **Rekeningnummers**: MAR — 200 Kosten van oprichting, 240 Meubilair en rollend materieel, 411 Terug te vorderen BTW, 440 Leveranciers, 550 Kredietinstellingen. 🔗  
 > > *Bron: art. 45 § 2 BTW-Wb; KB-WVV art. 3:13; MAR*
 >
 > Boek de afschrijvingen.
@@ -1322,7 +1322,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — De pro-rata-correctie hier komt **niet** voort uit een aanschaffingsdatum-midden-in-het-jaar (de kleine-vennootschap-uitzondering laat dat normaal toe), maar uit de **verkorte duur van het eerste boekjaar**. 🔗 Voor de personenwagen is er dus geen extra correctie omdat hij op 31 maart i.p.v. 1 maart is gekocht: de 10/12 dekt het volledige verkorte boekjaar. Voor een normaal boekjaar van 12 maanden zou een kleine vennootschap de **volledige** 240 EUR en 4.420 EUR mogen boeken. 🔗
 > > 
-> > ***Afschrijving oprichtingskosten**: art. 3:37 KB-WVV — passende afschrijvingen, **jaarlijkse tranches ≥ 20 %** van de werkelijk uitgegeven bedragen (i.e. maximaal vijf jaar). 📖 Bevestigd door CBN-advies 2010/15 §Oprichtingskosten. 📖 **Pro rata bij verkort boekjaar**: art. 3:6 KB-WVV (afschrijvingsplan aangepast aan duurzaamheid en gebruik). **Kleine-vennootschap-afwijking** (volledige annuïteit i.p.v. pro rata): art. 3:39 § 2 KB-WVV — geldt alleen voor het normale geval (12 maanden); een verkort boekjaar vereist alsnog evenredige aanpassing. 🔗*  
+> > **Afschrijving oprichtingskosten**: art. 3:37 KB-WVV — passende afschrijvingen, **jaarlijkse tranches ≥ 20 %** van de werkelijk uitgegeven bedragen (i.e. maximaal vijf jaar). 📖 Bevestigd door CBN-advies 2010/15 §Oprichtingskosten. 📖 **Pro rata bij verkort boekjaar**: art. 3:6 KB-WVV (afschrijvingsplan aangepast aan duurzaamheid en gebruik). **Kleine-vennootschap-afwijking** (volledige annuïteit i.p.v. pro rata): art. 3:39 § 2 KB-WVV — geldt alleen voor het normale geval (12 maanden); een verkort boekjaar vereist alsnog evenredige aanpassing. 🔗  
 > > *Bron: KB-WVV art. 3:37, art. 3:6, art. 3:39 § 2; CBN-advies 2010/15*
 
 <a id="2008-bibf-vrB1"></a>
@@ -1349,7 +1349,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Niet kijken naar het stempercentage (12 % < 20 %) om automatisch op rekening 282 of 284 uit te komen 🔗. De rubriek 280 is verplicht zodra er een groepsband via een gemeenschappelijke moeder bestaat — dat is een **kwalitatief** criterium (controle binnen de groep), niet het kwantitatieve 10 %/20 %-criterium uit art. 3:88-3:89 KB/WVV dat enkel relevant is voor de afbakening 282 ↔ 284 buiten een groepsverband 🤖. 🤖
 > > 
-> > ***Art. 1:20, 1°, d) WVV** — vennootschappen die onder gemeenschappelijke controle staan zijn verbonden vennootschappen 📖. **Art. 1:14-1:15 WVV** — definitie controle en moeder-/dochtervennootschap 📖. **CBN-advies 2011/20** — toepassing op groepsstructuren met zustervennootschappen 📖. MAR-rubriek 28 Financiële vaste activa: 280 Deelnemingen in verbonden ondernemingen 🔗.* 📖  
+> > **Art. 1:20, 1°, d) WVV** — vennootschappen die onder gemeenschappelijke controle staan zijn verbonden vennootschappen 📖. **Art. 1:14-1:15 WVV** — definitie controle en moeder-/dochtervennootschap 📖. **CBN-advies 2011/20** — toepassing op groepsstructuren met zustervennootschappen 📖. MAR-rubriek 28 Financiële vaste activa: 280 Deelnemingen in verbonden ondernemingen 🔗. 📖  
 > > *Bron: Art. 1:20, 1°, d) WVV; Art. 1:14-1:15 WVV; CBN-advies 2011/20*
 
 <a id="2003-bibf-vrA1"></a>
@@ -1363,7 +1363,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Boekjaar 2002**: (1) toezegging kapitaalsubsidie 416 a/n 15 (6.000) + 168 (4.000); (2) afschrijving machine 6302 a/n 23x9 voor 10.000; (3) inresultaatname subsidie 15 a/n 753 voor 600; (4) onttrekking uitgestelde belastingen 168 a/n 780 voor 400. **Boekjaar 2003**: (1) ontvangst eerste schijf 550 a/n 416 voor 5.000 (geen afsluitingsboeking — kasverrichting in de loop van het jaar, hier vermeld voor volledigheid); (2-4) idem afschrijving + inresultaatname (600) + onttrekking (400). 🔗_**
+> > **Boekjaar 2002**: (1) toezegging kapitaalsubsidie 416 a/n 15 (6.000) + 168 (4.000); (2) afschrijving machine 6302 a/n 23x9 voor 10.000; (3) inresultaatname subsidie 15 a/n 753 voor 600; (4) onttrekking uitgestelde belastingen 168 a/n 780 voor 400. **Boekjaar 2003**: (1) ontvangst eerste schijf 550 a/n 416 voor 5.000 (geen afsluitingsboeking — kasverrichting in de loop van het jaar, hier vermeld voor volledigheid); (2-4) idem afschrijving + inresultaatname (600) + onttrekking (400). 🔗
 > > 
 > > **Afsluitingsboekingen 31/12/2002**
 > > 
@@ -1411,7 +1411,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil — geen pro rata temporis**: het examen geeft geen aankoopdatum binnen 2002; we nemen aan dat een volledige jaarafschrijving (10.000) en volledige inresultaatname (600 + 400) voor 2002 worden geboekt. In de praktijk schrijft KB W.Venn. art. 45 voor om pro rata temporis af te schrijven, maar examen-casussen zonder datum-specificatie gebruiken doorgaans 12/12. 🤖
 > > 
-> > *KB W.Venn. art. 76, §1-2 (boekhoudkundige verwerking kapitaalsubsidies en uitgestelde belastingen; nu art. 3:46 KB WVV). **CBN-advies 2011/13 — Overheidssubsidies** geeft de canonieke boekingschema's (toezegging 416 a/n 15 + 168; ontvangst 550 a/n 416; inresultaatname 15 a/n 753 + 168 a/n 780). **CBN-advies 2013/14** preciseert dat de uitgestelde belastingen op kapitaalsubsidies geleidelijk worden afgeboekt naar rek. 780 *Onttrekkingen aan de uitgestelde belastingen*, gelijkmatig met de afboeking van de subsidie in passiefpost VI. 📖*  
+> > KB W.Venn. art. 76, §1-2 (boekhoudkundige verwerking kapitaalsubsidies en uitgestelde belastingen; nu art. 3:46 KB WVV). **CBN-advies 2011/13 — Overheidssubsidies** geeft de canonieke boekingschema's (toezegging 416 a/n 15 + 168; ontvangst 550 a/n 416; inresultaatname 15 a/n 753 + 168 a/n 780). **CBN-advies 2013/14** preciseert dat de uitgestelde belastingen op kapitaalsubsidies geleidelijk worden afgeboekt naar rek. 780 *Onttrekkingen aan de uitgestelde belastingen*, gelijkmatig met de afboeking van de subsidie in passiefpost VI. 📖  
 > > *Bron: KB W.Venn. art. 76, §1-2 (nu KB WVV art. 3:46); CBN 2011/13; CBN 2013/14*
 
 <a id="2003-bibf-vrA2"></a>
@@ -1447,11 +1447,11 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard — voor goederen in bewerking geldt een afwijkende regel.** Artikel 3:44 KB WVV (vroeger art. 70 KB W.Venn.) eist dat op **goederen in bewerking** een waardevermindering wordt geboekt zodra de **vervaardigingsprijs vermeerderd met de nog te maken kosten** hoger is dan de netto-verkoopprijs op balansdatum. In deze casus is voor de GIB geen marktwaarde gegeven en is geen ontwaarding-indicator vermeld → enkel de voorraadwijziging boeken, geen WV op rekening 329. 🔗
 > > 
-> > ***Wettelijke grondslag**:
+> > **Wettelijke grondslag**:
 > > - **Art. 3:43 KB WVV** (oud art. 69 §1 KB W.Venn., van toepassing in 2003): handelsgoederen worden gewaardeerd tegen aanschaffingswaarde óf tegen marktwaarde op balansdatum als die lager is. 🔗
 > > - **Art. 3:44 KB WVV** (oud art. 70 KB W.Venn.): aanvullende waardeverminderingen om rekening te houden met evolutie van realisatie- of marktwaarde of met risico's eigen aan de aard van de producten. 🔗
 > > - **MAR (KB 21.10.2018, Bijlage 1)**: rekeningen 32, 34, 71, 6094, 6310, 349 met de hier toegepaste functie. 📖
-> > - **CBN-advies 132/7** "Boeking en waardering van voorraden": schema's voor uitgaande/inkomende voorraden + boekingsschema waardevermindering (6310 / 3·9). 📖*  
+> > - **CBN-advies 132/7** "Boeking en waardering van voorraden": schema's voor uitgaande/inkomende voorraden + boekingsschema waardevermindering (6310 / 3·9). 📖  
 > > *Bron: art. 3:43-3:44 KB WVV (oud art. 69-70 KB W.Venn.); CBN 132/7; MAR*
 
 <a id="2003-bibf-vrB4"></a>
@@ -1465,10 +1465,10 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Kosten voor inrichting van gehuurde gebouwen worden geboekt onder **rubriek III.E. Overige materiële vaste activa** — concreet op **rekening 26 'Overige materiële vaste activa'** — en vervolgens afgeschreven volgens een passend afschrijvingsplan (rekening 6302 afschrijvingen MVA / 2609 geboekte afschrijvingen). 📖_**
+> > Kosten voor inrichting van gehuurde gebouwen worden geboekt onder **rubriek III.E. Overige materiële vaste activa** — concreet op **rekening 26 'Overige materiële vaste activa'** — en vervolgens afgeschreven volgens een passend afschrijvingsplan (rekening 6302 afschrijvingen MVA / 2609 geboekte afschrijvingen). 📖
 > > 
 > > De huurder is geen eigenaar van het gebouw, dus de inrichtingskosten kunnen niet op rekening 221 'Gebouwen' worden geboekt. Omdat ze toch een duurzaam economisch nut voor de huurder opleveren tijdens de looptijd van de huurovereenkomst, worden ze geactiveerd als materieel vast actief van een aparte aard — vandaar de restcategorie 26 'Overige materiële vaste activa'. 🔗 Het afschrijvingsplan wordt afgestemd op de concrete situatie: doorgaans de **kortste van** (a) de economische levensduur van de inrichting en (b) de **resterende huurtermijn** (rekening houdend met eventuele vergoedingsregeling bij einde huur). 🔗
 > > 
 > > **Vermeldenswaard** — Rubriek III.E. is een verzamelrubriek: ze bevat o.m. onroerende reserve, woongebouwen, buiten gebruik gestelde MVA, in huur/erfpacht/opstal gegeven goederen, én precies deze inrichtingskosten voor gehuurde gebouwen voor zover die niet ten laste van de resultatenrekening van het lopende boekjaar werden genomen. 📖 De onderneming heeft m.a.w. de keuze: ofwel volledig kosten in het lopende boekjaar (rekening 61), ofwel activeren op rekening 26 en gespreid afschrijven. 🔗
 > > 
-> > ***Art. 3:89 KB WVV** (voorheen art. 95 KB W.Venn.) — schema en inhoud van de jaarrekening — plaatst de 'kosten voor inrichting van gehuurde gebouwen' uitdrukkelijk onder III.E. Overige materiële vaste activa. 📖 **CBN-advies 2016/6** (Verbeteringswerken aan gehuurde gebouwen) bevestigt: 'de huurder boekt de met deze werken verbonden kosten krachtens artikel 95 KB W.Venn. op de rekening 26 Andere materiële vaste activa' en schrijft ze af volgens een afschrijvingsplan dat afhankelijk is van de vergoedingsregeling en de huurduur. 📖 **CBN-advies 2021/09** geeft de actuele opsomming van wat onder rubriek III.E. valt onder het KB WVV. 📖*
+> > **Art. 3:89 KB WVV** (voorheen art. 95 KB W.Venn.) — schema en inhoud van de jaarrekening — plaatst de 'kosten voor inrichting van gehuurde gebouwen' uitdrukkelijk onder III.E. Overige materiële vaste activa. 📖 **CBN-advies 2016/6** (Verbeteringswerken aan gehuurde gebouwen) bevestigt: 'de huurder boekt de met deze werken verbonden kosten krachtens artikel 95 KB W.Venn. op de rekening 26 Andere materiële vaste activa' en schrijft ze af volgens een afschrijvingsplan dat afhankelijk is van de vergoedingsregeling en de huurduur. 📖 **CBN-advies 2021/09** geeft de actuele opsomming van wat onder rubriek III.E. valt onder het KB WVV. 📖

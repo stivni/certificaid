@@ -23,11 +23,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar**. Nationaliteit is in de tie-breaker van art. 4, § 2 OESO-modelverdrag pas het **derde** criterium (c), niet het eerste. 🔗_**
+> > **Niet waar**. Nationaliteit is in de tie-breaker van art. 4, § 2 OESO-modelverdrag pas het **derde** criterium (c), niet het eerste. 🔗
 > > 
 > > Voor een natuurlijke persoon met dubbele woonplaats voorziet art. 4, § 2 een **cascade**: (a) staat met duurzaam tehuis; (b) staat van middelpunt der levensbelangen; (c) staat van gewoonlijk verblijf; (d) staat van nationaliteit; en pas daarna onderling overleg. 📖 Nationaliteit komt dus enkel in beeld als de eerste drie criteria geen uitsluitsel geven — "steeds" en "zonder andere criteria" maakt de stelling fout. 🔗
 > > 
-> > *Art. 4, § 2 OESO-modelverdrag (Resident — tie-breaker voor natuurlijke personen): cascade duurzaam tehuis → middelpunt der levensbelangen → gewoonlijk verblijf → nationaliteit → onderling overleg. 📖*  
+> > Art. 4, § 2 OESO-modelverdrag (Resident — tie-breaker voor natuurlijke personen): cascade duurzaam tehuis → middelpunt der levensbelangen → gewoonlijk verblijf → nationaliteit → onderling overleg. 📖  
 > > *Bron: Art. 4, § 2 OESO-modelverdrag*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een pensioen dat door België aan een natuurlijk persoon van Belgische nationaliteit wordt betaald ter zake van een vroegere dienstbetrekking als ambtenaar van een Federale Overheidsdienst zal niet meer in België belastbaar zijn, indien deze natuurlijke persoon inwoner wordt van een land waarmee België een overeenkomst tot voorkoming van dubbele belasting heeft gesloten.</span>
@@ -36,11 +36,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar**. Een overheidspensioen aan een persoon met de **Belgische** nationaliteit blijft op grond van art. 19, § 2, a) OESO-modelverdrag belastbaar in België (de bronstaat). 🔗_**
+> > **Niet waar**. Een overheidspensioen aan een persoon met de **Belgische** nationaliteit blijft op grond van art. 19, § 2, a) OESO-modelverdrag belastbaar in België (de bronstaat). 🔗
 > > 
 > > Art. 19, § 2, a) wijst overheidspensioenen voor vroegere overheidsdienst exclusief toe aan de bronstaat (de uitbetalende staat). 📖 De uitzondering in § 2, b) — belastbaar in de woonstaat — geldt **enkel** wanneer de gepensioneerde tegelijk **inwoner én onderdaan** is van die andere staat. 📖 De casus zegt uitdrukkelijk dat de betrokkene de **Belgische** nationaliteit heeft, dus de uitzondering bijt niet en België behoudt de heffingsbevoegdheid — ongeacht het feit dat hij inwoner is geworden van een verdragsland. 🔗
 > > 
-> > *Art. 19, § 2 OESO-modelverdrag (Government Service — pensioenen): bronstaatheffing als hoofdregel; woonstaatheffing enkel als de begunstigde *resident is of, and a national of* de andere staat. Art. 18 (privé-pensioenen, exclusief woonstaat) is hier uitdrukkelijk niet van toepassing wegens de "subject to the provisions of paragraph 2 of Article 19"-clausule. 📖*  
+> > Art. 19, § 2 OESO-modelverdrag (Government Service — pensioenen): bronstaatheffing als hoofdregel; woonstaatheffing enkel als de begunstigde *resident is of, and a national of* de andere staat. Art. 18 (privé-pensioenen, exclusief woonstaat) is hier uitdrukkelijk niet van toepassing wegens de "subject to the provisions of paragraph 2 of Article 19"-clausule. 📖  
 > > *Bron: Art. 19, § 2 OESO-modelverdrag (juncto art. 18)*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Een steengroeve is slechts een vaste inrichting, indien de uitbatingsduur ervan 6 maanden overschrijdt.</span>
@@ -49,13 +49,13 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar**. Een steengroeve is op grond van art. 5, § 2, f) OESO-modelverdrag **per definitie** een vaste inrichting — er geldt geen duur-vereiste van 6 maanden (noch van 12 maanden). 🔗_**
+> > **Niet waar**. Een steengroeve is op grond van art. 5, § 2, f) OESO-modelverdrag **per definitie** een vaste inrichting — er geldt geen duur-vereiste van 6 maanden (noch van 12 maanden). 🔗
 > > 
 > > Art. 5, § 2 noemt expliciet als voorbeelden van een vaste inrichting onder meer "a mine, an oil or gas well, a **quarry** or any other place of extraction of natural resources". 📖 Voor een steengroeve volstaat dus het bestaan van een vaste bedrijfsinrichting voor de winning — een minimumduur staat niet in de tekst. 🔗
 > > 
 > > Niet verwarren met **art. 5, § 3**: daar geldt wél een drempel, namelijk **12 maanden**, maar enkel voor *bouw- of constructie- of installatieprojecten* ("building site or construction or installation project"). 📖 Een steengroeve is een extractieplaats (§ 2, f)), geen bouwwerf (§ 3) — de stelling verwart bovendien de termijn (6 ≠ 12 maanden). 🔗
 > > 
-> > *Art. 5, § 2, f) OESO-modelverdrag: "a mine, an oil or gas well, a quarry or any other place of extraction of natural resources" is een vaste inrichting. Art. 5, § 3: bouw-/installatieprojecten worden pas een vaste inrichting bij meer dan 12 maanden. 📖*  
+> > Art. 5, § 2, f) OESO-modelverdrag: "a mine, an oil or gas well, a quarry or any other place of extraction of natural resources" is een vaste inrichting. Art. 5, § 3: bouw-/installatieprojecten worden pas een vaste inrichting bij meer dan 12 maanden. 📖  
 > > *Bron: Art. 5, § 2, f) en § 3 OESO-modelverdrag*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">De overeenkomsten tot voorkoming van dubbele belasting, die volgens de hierboven bedoelde modelovereenkomst afgesloten zijn, gelden voor de successierechten.</span>
@@ -64,11 +64,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar**. Het OESO-modelverdrag in deze context is het *Model Tax Convention on **Income and on Capital*** — het dekt inkomsten- en vermogensbelasting, niet successierechten. 🔗_**
+> > **Niet waar**. Het OESO-modelverdrag in deze context is het *Model Tax Convention on **Income and on Capital*** — het dekt inkomsten- en vermogensbelasting, niet successierechten. 🔗
 > > 
 > > Het toepassingsgebied (art. 2 OESO-modelverdrag) somt limitatief de belastingen op naar inkomen en vermogen waarop het verdrag van toepassing is. 🔗 Voor successie- en schenkrechten bestaat een **afzonderlijk** OESO-modelverdrag — het *Model Convention for the Avoidance of Double Taxation with Respect to Taxes on Estates and Inheritances and on Gifts* (1982). 🤖 De DBV's die België sluit naar het inkomstenmodel gelden dus niet voor successierechten. 🔗
 > > 
-> > *OESO-modelverdrag — volledige titel: *Model Tax Convention on Income and on Capital* (Condensed Version 21 November 2017). Materieel toepassingsgebied: belastingen naar inkomen en naar vermogen (art. 2). Successie- en schenkrechten vallen onder een afzonderlijk OESO-model (1982). 📖*  
+> > OESO-modelverdrag — volledige titel: *Model Tax Convention on Income and on Capital* (Condensed Version 21 November 2017). Materieel toepassingsgebied: belastingen naar inkomen en naar vermogen (art. 2). Successie- en schenkrechten vallen onder een afzonderlijk OESO-model (1982). 📖  
 > > *Bron: Art. 2 OESO-modelverdrag (Income and Capital)*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Voor een natuurlijke persoon die inwoner is van één van de overeenkomstsluitende staten, zijn de onroerende inkomsten verkregen in de andere staat, uitsluitend belastbaar in die andere staat (met name de bronstaat).</span>
@@ -77,11 +77,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar**. Onroerende inkomsten **mogen** worden belast in de bronstaat (ligging-staat) — niet uitsluitend. De woonstaat behoudt eveneens heffingsbevoegdheid en vermijdt dubbele belasting via art. 23A/B. 🔗_**
+> > **Niet waar**. Onroerende inkomsten **mogen** worden belast in de bronstaat (ligging-staat) — niet uitsluitend. De woonstaat behoudt eveneens heffingsbevoegdheid en vermijdt dubbele belasting via art. 23A/B. 🔗
 > > 
 > > Art. 6, § 1 luidt: "Income derived by a resident of a Contracting State from immovable property … situated in the other Contracting State **may be taxed** in that other State." 📖 De formulering "may be taxed" is **niet-exclusief**: ze geeft de bronstaat een heffingsrecht, maar sluit het heffingsrecht van de woonstaat niet uit. 🔗 Vergelijk met de "taxable only in"-formuleringen in art. 18 of art. 19 — daar is de toewijzing wél exclusief. 🔗 De effectieve vermijding van dubbele belasting verloopt vervolgens via art. 23A (vrijstelling) of art. 23B (verrekening) in de woonstaat. 🔗
 > > 
-> > *Art. 6, § 1 OESO-modelverdrag: onroerende inkomsten "may be taxed" in de ligging-staat — gedeeld heffingsrecht. Vermijding van dubbele belasting: art. 23A (vrijstellingsmethode) of art. 23B (verrekeningsmethode) in de woonstaat. 📖*  
+> > Art. 6, § 1 OESO-modelverdrag: onroerende inkomsten "may be taxed" in de ligging-staat — gedeeld heffingsrecht. Vermijding van dubbele belasting: art. 23A (vrijstellingsmethode) of art. 23B (verrekeningsmethode) in de woonstaat. 📖  
 > > *Bron: Art. 6, § 1 + art. 23A/B OESO-modelverdrag*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Als een vaste inrichting van een onderneming, die inwoner is van een andere overeenkomstsluitende staat, een supplement in de inkomstenbelasting wordt opgelegd naar aanleiding van een controle op de verrekenprijzen toegepast op de goederen- of dienstenstromen tussen die vaste inrichting en haar hoofdzetel in de andere overeenkomstsluitende staat, zal er sprake zijn van juridisch dubbele belasting en is dit onvermijdbaar.</span>
@@ -90,11 +90,11 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Niet waar**. Een correctie op verrekenprijzen tussen een vaste inrichting en haar hoofdzetel betreft **dezelfde rechtspersoon** — dat is **economisch** dubbele belasting (binnen één belastingplichtige), en bovendien wel degelijk **vermijdbaar** via art. 7, § 3 (corresponderende correctie) en art. 25 (onderling overleg). 🔗_**
+> > **Niet waar**. Een correctie op verrekenprijzen tussen een vaste inrichting en haar hoofdzetel betreft **dezelfde rechtspersoon** — dat is **economisch** dubbele belasting (binnen één belastingplichtige), en bovendien wel degelijk **vermijdbaar** via art. 7, § 3 (corresponderende correctie) en art. 25 (onderling overleg). 🔗
 > > 
 > > Twee fouten in de stelling. (i) **Kwalificatie**: juridische dubbele belasting = dezelfde belastingplichtige in twee staten op hetzelfde inkomen; economische dubbele belasting = twee verschillende belastingplichtigen op hetzelfde inkomen. 🤖 Een vaste inrichting heeft echter géén afzonderlijke rechtspersoonlijkheid — VI en hoofdzetel zijn dezelfde belastingplichtige, wat hier dus eerder een toerekeningsvraagstuk binnen dezelfde juridische entiteit is dan een klassiek art. 9-verrekenprijsgeval tussen twee verbonden ondernemingen. 🤖 (ii) **Onvermijdbaarheid**: art. 7, § 3 OESO-modelverdrag voorziet dat bij een winstcorrectie aan een VI in de ene staat, de andere staat een **corresponderende aanpassing** doorvoert; lukt dat niet, dan biedt art. 25 de *mutual agreement procedure* (MAP) als geschillenbeslechtingskader. 🔗 Dubbele belasting is dus principieel **vermijdbaar**, niet onvermijdbaar. 🔗
 > > 
-> > *Art. 7 OESO-modelverdrag (Business Profits — winsttoerekening aan vaste inrichting, met § 3 corresponderende aanpassing); art. 9 OESO-modelverdrag (Associated Enterprises — verrekenprijzen tussen verbonden ondernemingen); art. 25 OESO-modelverdrag (Mutual Agreement Procedure). 📖*  
+> > Art. 7 OESO-modelverdrag (Business Profits — winsttoerekening aan vaste inrichting, met § 3 corresponderende aanpassing); art. 9 OESO-modelverdrag (Associated Enterprises — verrekenprijzen tussen verbonden ondernemingen); art. 25 OESO-modelverdrag (Mutual Agreement Procedure). 📖  
 > > *Bron: Art. 7 + art. 9 + art. 25 OESO-modelverdrag*
 
 <a id="2015-1-vr50"></a>
@@ -112,7 +112,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Nee.** Richtlijn 2009/133/EG is niet van toepassing op deze verrichting: noch de overnemende ivzw, noch de over te nemen Spaanse caritatieve vzw kwalificeert als "vennootschap van een lidstaat" in de zin van art. 3 van de richtlijn. De vrijstelling van belasting over de meerwaarden op de Spaanse onroerende goederen kan dus niet op grond van deze richtlijn worden ingeroepen. 🔗_**
+> > **Nee.** Richtlijn 2009/133/EG is niet van toepassing op deze verrichting: noch de overnemende ivzw, noch de over te nemen Spaanse caritatieve vzw kwalificeert als "vennootschap van een lidstaat" in de zin van art. 3 van de richtlijn. De vrijstelling van belasting over de meerwaarden op de Spaanse onroerende goederen kan dus niet op grond van deze richtlijn worden ingeroepen. 🔗
 > > 
 > > Art. 3 van richtlijn 2009/133/EG omschrijft "vennootschap van een lidstaat" via **drie cumulatieve voorwaarden**:
 > > 
@@ -129,7 +129,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Een herstructurering tussen een ivzw en een buitenlandse vzw is op het **vennootschapsrechtelijke** vlak wél mogelijk via boek 13 WVV (fusies/splitsingen van VZW's, IVZW's en stichtingen — zie CBN-advies 2022/13), maar dat **vennootschapsrechtelijke** kader staat los van het **fiscale** kader. De EU-fusierichtlijn 2009/133/EG dekt enkel verrichtingen tussen *kapitaalvennootschappen* uit de bijlage en zwijgt over verenigingen — er is op EU-niveau geen equivalente fiscale-neutraliteitsrichtlijn voor non-profit-herstructureringen. 🔗
 > > 
-> > *Richtlijn 2009/133/EG van de Raad van 19 oktober 2009, **art. 3** (definitie "vennootschap van een lidstaat" — drie cumulatieve voorwaarden a/b/c) en **bijlage I, deel A** (limitatieve lijst van rechtsvormen — kapitaalvennootschappen, SE, SCE; geen verenigingen) en **bijlage I, deel B** (limitatieve lijst van vennootschapsbelastingen — voor België: vennootschapsbelasting; voor Spanje: impuesto sobre sociedades). Voor de Belgische fiscale behandeling van een ivzw: art. 220 WIB 92 (rechtspersonenbelasting). 📖*  
+> > Richtlijn 2009/133/EG van de Raad van 19 oktober 2009, **art. 3** (definitie "vennootschap van een lidstaat" — drie cumulatieve voorwaarden a/b/c) en **bijlage I, deel A** (limitatieve lijst van rechtsvormen — kapitaalvennootschappen, SE, SCE; geen verenigingen) en **bijlage I, deel B** (limitatieve lijst van vennootschapsbelastingen — voor België: vennootschapsbelasting; voor Spanje: impuesto sobre sociedades). Voor de Belgische fiscale behandeling van een ivzw: art. 220 WIB 92 (rechtspersonenbelasting). 📖  
 > > *Bron: Richtlijn 2009/133/EG art. 3 + bijlage I deel A en B*
 
 <a id="2014-1-vr37"></a>
@@ -143,7 +143,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Ja**, de financieel directeur heeft gelijk: in jaar 2 wordt de Belgische vennootschap effectief belast op een **belastbare grondslag van 4.000** (Belgische winst 2.000 + recapture VI-verlies jaar 1 van 1.000 + niet-vrijgestelde Italiaanse VI-winst 1.000), hoewel de boekhoudkundige (wereldwijde) winst slechts 3.000 bedraagt. 🔗_**
+> > **Ja**, de financieel directeur heeft gelijk: in jaar 2 wordt de Belgische vennootschap effectief belast op een **belastbare grondslag van 4.000** (Belgische winst 2.000 + recapture VI-verlies jaar 1 van 1.000 + niet-vrijgestelde Italiaanse VI-winst 1.000), hoewel de boekhoudkundige (wereldwijde) winst slechts 3.000 bedraagt. 🔗
 > > 
 > > **Jaar 1** — toerekening van het VI-verlies:
 > > 
@@ -173,18 +173,18 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De directeur spreekt over "belast worden op 4.000" — let op de interpretatie: het gaat om het **bedrag dat in de Belgische aangifte als belastbare grondslag wordt aangegeven na recapture** (Belgische winst 2.000 + recapture-fractie 1.000 + nog-niet-recupereerbaar deel 1.000 = 4.000 brutto-grondslag vóór aftrek van de bij-verdrag-vrijgestelde winst). Indien er in jaar 2 méér VI-winst zou zijn (bv. 1.500), dan zou enkel 1.000 als recapture niet-vrijgesteld blijven en de overige 500 wél bij verdrag vrijgesteld worden. 🔗
 > > 
-> > ***Art. 206/4 WIB 92** — drie-oorsprongen-onderverdeling van de winst (Belgisch / niet-bij-verdrag-vrijgesteld buitenland / bij-verdrag-vrijgesteld buitenland), met **expliciete recapture-regel**: "verliezen geleden in een land waarvoor de winst bij verdrag vrijgesteld is" worden eerst aangerekend op de bij-verdrag-vrijgestelde winst van andere landen, en bij ontoereiken op de Belgische of niet-bij-verdrag-vrijgestelde winst — met als gevolg dat latere VI-winsten in dezelfde mate **niet** meer worden vrijgesteld tot het eerder verrekende verlies is gerecupereerd. 📖
+> > **Art. 206/4 WIB 92** — drie-oorsprongen-onderverdeling van de winst (Belgisch / niet-bij-verdrag-vrijgesteld buitenland / bij-verdrag-vrijgesteld buitenland), met **expliciete recapture-regel**: "verliezen geleden in een land waarvoor de winst bij verdrag vrijgesteld is" worden eerst aangerekend op de bij-verdrag-vrijgestelde winst van andere landen, en bij ontoereiken op de Belgische of niet-bij-verdrag-vrijgestelde winst — met als gevolg dat latere VI-winsten in dezelfde mate **niet** meer worden vrijgesteld tot het eerder verrekende verlies is gerecupereerd. 📖
 > > 
 > > **Art. 7 OESO-Modelverdrag** — *Business Profits*: de winst van een onderneming is enkel belastbaar in de woonstaat, **tenzij** de onderneming in de andere staat een vaste inrichting heeft; in dat geval mag de andere staat de aan de VI toerekenbare winst belasten. 📖
 > > 
-> > **Art. 23 A OESO** — *Exemption method* (toegepast in het BE-IT-verdrag): de woonstaat (België) stelt de in de bronstaat (Italië) belastbare VI-winst vrij. Het verdrag verhindert echter niet dat België intern (via art. 206/4 WIB 92) een **recapture-mechanisme** toepast voor verliezen die eerder met Belgische winst werden gecompenseerd — dit raakt niet de vrijstelling-an-sich maar herstelt het wereldwijde-winst-beginsel over meerdere jaren. 🔗*  
+> > **Art. 23 A OESO** — *Exemption method* (toegepast in het BE-IT-verdrag): de woonstaat (België) stelt de in de bronstaat (Italië) belastbare VI-winst vrij. Het verdrag verhindert echter niet dat België intern (via art. 206/4 WIB 92) een **recapture-mechanisme** toepast voor verliezen die eerder met Belgische winst werden gecompenseerd — dit raakt niet de vrijstelling-an-sich maar herstelt het wereldwijde-winst-beginsel over meerdere jaren. 🔗  
 > > *Bron: art. 206/4 WIB 92; art. 7 + art. 23 A OESO-Modelverdrag 2017; Verdrag BE-IT tot vermijding van dubbele belasting van 29.04.1983*
 >
 > Verklaar uw antwoord op grond van de beginselen van de door de OESO ontwikkelde bilaterale modelovereenkomst tot het vermijden van dubbele belasting.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Het OESO-modelverdrag wijst de heffingsbevoegdheid over **ondernemingswinsten van een vaste inrichting toe aan de bronstaat** (art. 7), terwijl de **woonstaat** die winst **vrijstelt** via de exemption-methode (art. 23 A) — maar de woonstaat behoudt het recht om **eerder gecompenseerde VI-verliezen** later via een recapture op te nemen in de belastbare grondslag, om het globale winstbeginsel over de tijd te respecteren. 🔗_**
+> > Het OESO-modelverdrag wijst de heffingsbevoegdheid over **ondernemingswinsten van een vaste inrichting toe aan de bronstaat** (art. 7), terwijl de **woonstaat** die winst **vrijstelt** via de exemption-methode (art. 23 A) — maar de woonstaat behoudt het recht om **eerder gecompenseerde VI-verliezen** later via een recapture op te nemen in de belastbare grondslag, om het globale winstbeginsel over de tijd te respecteren. 🔗
 > > 
 > > **Beginselen van de OESO-modelovereenkomst die hier samenkomen:**
 > > 
@@ -204,11 +204,11 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Sommige stagiairs denken dat de vrijstellingsmethode (art. 23 A OESO) impliceert dat de Italiaanse VI-winst **nooit** in een Belgische belastbare basis verschijnt. Dat is onjuist: de winst wordt **wel** opgenomen in de wereldwijde winst en pas daarna afgetrokken als bij-verdrag-vrijgesteld inkomen. Bovendien blokkeert het verdrag niet dat België via art. 206/4 WIB 92 **eerder met Belgische winst gecompenseerde VI-verliezen** later recupereert door de overeenkomstige VI-winst niet vrij te stellen — een mechanisme dat het Hof van Justitie in arrest *Krankenheim Ruhesitz* (C-157/07, 2008) verenigbaar achtte met de vrijheid van vestiging. 🔗
 > > 
-> > ***Art. 7 OESO-Modelverdrag 2017** — *Business Profits*: "Profits of an enterprise of a Contracting State shall be taxable only in that State unless the enterprise carries on business in the other Contracting State through a permanent establishment situated therein." Bronstaat (IT) mag heffen op VI-winst; rest blijft in de woonstaat (BE). 📖
+> > **Art. 7 OESO-Modelverdrag 2017** — *Business Profits*: "Profits of an enterprise of a Contracting State shall be taxable only in that State unless the enterprise carries on business in the other Contracting State through a permanent establishment situated therein." Bronstaat (IT) mag heffen op VI-winst; rest blijft in de woonstaat (BE). 📖
 > > 
 > > **Art. 23 A OESO** — *Exemption method*: de woonstaat stelt het inkomen vrij dat overeenkomstig het verdrag in de bronstaat belastbaar is. Het BE-IT-verdrag van 29.04.1983 volgt deze methode voor ondernemingswinsten.
 > > 
-> > **Art. 206/4 WIB 92** — interne Belgische volgorde van verliesaanrekening + impliciete recapture: "Verliezen geleden in een land waarvoor de winst bij verdrag vrijgesteld is" worden eerst op de bij-verdrag-vrijgestelde winst aangerekend, daarna op de Belgische / niet-bij-verdrag-vrijgestelde winst. Een latere VI-winst is dan in dezelfde mate **niet** opnieuw vrijgesteld tot het verlies gerecupereerd is. 📖*  
+> > **Art. 206/4 WIB 92** — interne Belgische volgorde van verliesaanrekening + impliciete recapture: "Verliezen geleden in een land waarvoor de winst bij verdrag vrijgesteld is" worden eerst op de bij-verdrag-vrijgestelde winst aangerekend, daarna op de Belgische / niet-bij-verdrag-vrijgestelde winst. Een latere VI-winst is dan in dezelfde mate **niet** opnieuw vrijgesteld tot het verlies gerecupereerd is. 📖  
 > > *Bron: art. 7 + art. 23 A OESO-Modelverdrag 2017; art. 206/4 WIB 92; Verdrag BE-IT 29.04.1983 tot vermijding van dubbele belasting*
 
 <a id="2014-1-vr38"></a>
@@ -238,16 +238,16 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Het scenario veronderstelt dat de fusie in België een **vaste inrichting** doet ontstaan waaraan de activa/passiva van de gefusioneerde Belgische vennootschap worden toegerekend. Zonder zo'n Belgische vaste inrichting na fusie zijn de Belgische verliezen **definitief verloren** — art. 6 vereist niet dat de andere lidstaat een PE aanvaardt, het verplicht enkel de lidstaat van de inbrengende vennootschap zijn eigen verliesregels uit te breiden naar de PE indien die bestaat. ❓
 > > 
-> > ***Art. 6 Richtlijn 2009/133/EG**: "Voor zover de lidstaat van de inbrengende vennootschap, indien de in artikel 1, onder a), bedoelde rechtshandelingen verricht werden tussen op zijn grondgebied gevestigde vennootschappen, bepalingen zou toepassen die de ontvangende vennootschap in staat stellen de fiscaal nog niet verrekende verliezen van de inbrengende vennootschap over te nemen, breidt die lidstaat deze bepalingen uit tot de overname van zulke verliezen door de vaste inrichtingen van de ontvangende vennootschap, die zich op zijn grondgebied bevinden." 📖
+> > **Art. 6 Richtlijn 2009/133/EG**: "Voor zover de lidstaat van de inbrengende vennootschap, indien de in artikel 1, onder a), bedoelde rechtshandelingen verricht werden tussen op zijn grondgebied gevestigde vennootschappen, bepalingen zou toepassen die de ontvangende vennootschap in staat stellen de fiscaal nog niet verrekende verliezen van de inbrengende vennootschap over te nemen, breidt die lidstaat deze bepalingen uit tot de overname van zulke verliezen door de vaste inrichtingen van de ontvangende vennootschap, die zich op zijn grondgebied bevinden." 📖
 > > 
-> > Belgische uitvoeringsbepaling: art. 206, §2 WIB92 (overname recupereerbare verliezen bij fusie pro rata fiscaal netto-actief). 🔗*  
+> > Belgische uitvoeringsbepaling: art. 206, §2 WIB92 (overname recupereerbare verliezen bij fusie pro rata fiscaal netto-actief). 🔗  
 > > *Bron: Art. 6 Richtlijn 2009/133/EG; art. 206, §2 WIB92*
 >
 > Verklaar uw antwoord op grond van de op deze toestand toepasselijke beginselen en verwijs naar de toepasselijke bepaling van Richtlijn 2009/133/EG van de Raad van 19 oktober 2009 voor fusies, splitsingen, enz. met betrekking tot vennootschappen uit de Europese Unie (volgens de erin vastgestelde voorwaarden).
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Toepasselijke bepaling: **art. 6 van Richtlijn 2009/133/EG** (overname van fiscaal nog niet verrekende verliezen bij grensoverschrijdende fusie). 📖_**
+> > Toepasselijke bepaling: **art. 6 van Richtlijn 2009/133/EG** (overname van fiscaal nog niet verrekende verliezen bij grensoverschrijdende fusie). 📖
 > > 
 > > **Beginsel — fiscale neutraliteit binnen de bronstaat**: de Fusierichtlijn beoogt grensoverschrijdende fusies fiscaal even neutraal te behandelen als interne fusies, maar respecteert tegelijk de **territorialiteit van de heffingsbevoegdheid**. Verliezen ontstaan onder Belgische jurisdictie blijven verbonden aan Belgisch belastbaar resultaat. 🔗
 > > 
@@ -259,12 +259,12 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Spiegelbepaling: **art. 10 Richtlijn 2009/133/EG** regelt het omgekeerde geval — verliezen van een buitenlandse vaste inrichting van de Belgische inbrengende vennootschap. Daar mag België de eerder afgetrokken verliezen van de PE 'recapture' bij overdracht. Samen vormen art. 6 + art. 10 het closed system: verliezen blijven gekoppeld aan de jurisdictie waar de winst belastbaar was. 🔗
 > > 
-> > ***Richtlijn 2009/133/EG van de Raad van 19 oktober 2009** betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie):
+> > **Richtlijn 2009/133/EG van de Raad van 19 oktober 2009** betreffende de gemeenschappelijke fiscale regeling voor fusies, splitsingen, gedeeltelijke splitsingen, inbreng van activa en aandelenruil (gecodificeerde versie):
 > > 
 > > - **Art. 6** — verplichting voor de lidstaat van de inbrengende vennootschap om zijn verliesovername-regels uit te breiden naar vaste inrichtingen van de ontvangende vennootschap op zijn grondgebied. 📖
 > > - **Art. 1, a)** — toepassingsgebied: fusies waarbij vennootschappen van twee of meer lidstaten betrokken zijn. 📖
 > > 
-> > Belgische uitvoeringsbepaling: **art. 206, §2 WIB92** (overname verrekenbare verliezen pro rata fiscaal netto-actief bij fusie). 🔗*  
+> > Belgische uitvoeringsbepaling: **art. 206, §2 WIB92** (overname verrekenbare verliezen pro rata fiscaal netto-actief bij fusie). 🔗  
 > > *Bron: Art. 1, a) en art. 6 Richtlijn 2009/133/EG; art. 206, §2 WIB92*
 
 <a id="2013-2-vr30"></a>
@@ -282,7 +282,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Boekjaar 2012** — Het Italiaans bijkantoor is een **vaste inrichting** in de zin van art. 5 OESO-modelverdrag; krachtens art. 7 OESO-MV behoort de bijkantoor-winst (en dus ook het verlies) tot Italië's belastingbevoegdheid en is zij in België krachtens art. 23A OESO-MV **bij verdrag vrijgesteld**. De Belgische vennootschap is echter belastbaar op haar **wereldwijde winst** (art. 5 WIB 92), zodat het Italiaanse verlies in het Belgische wereldwijd resultaat opgenomen wordt en — bij het ontbreken van vrijgestelde verdragwinst om het op aan te rekenen — **in mindering komt van de Belgische winst** van 2012. 🔗 **Boekjaar 2013** — De Italiaanse bijkantoor-winst is in principe **bij verdrag vrijgesteld** (art. 7 + 23A OESO-MV; aangifte VenB code 1433/1408 — "bij verdrag vrijgestelde winst"). Maar omdat het verlies van 2012 reeds in België in mindering kwam **en** in 2013 in Italië nogmaals fiscaal aftrekbaar is, geldt een **recapture-mechanisme** (art. 185, § 3 WIB 92 — destijds reeds in voege voor aanslagjaar 2014): de in 2013 in België vrij te stellen verdragwinst wordt **verhoogd met het bedrag van het in 2012 in België reeds afgetrokken Italiaans verlies**, zodat dat verlies effectief in België wordt **teruggenomen** en in 2013 belast. 🔗_**
+> > **Boekjaar 2012** — Het Italiaans bijkantoor is een **vaste inrichting** in de zin van art. 5 OESO-modelverdrag; krachtens art. 7 OESO-MV behoort de bijkantoor-winst (en dus ook het verlies) tot Italië's belastingbevoegdheid en is zij in België krachtens art. 23A OESO-MV **bij verdrag vrijgesteld**. De Belgische vennootschap is echter belastbaar op haar **wereldwijde winst** (art. 5 WIB 92), zodat het Italiaanse verlies in het Belgische wereldwijd resultaat opgenomen wordt en — bij het ontbreken van vrijgestelde verdragwinst om het op aan te rekenen — **in mindering komt van de Belgische winst** van 2012. 🔗 **Boekjaar 2013** — De Italiaanse bijkantoor-winst is in principe **bij verdrag vrijgesteld** (art. 7 + 23A OESO-MV; aangifte VenB code 1433/1408 — "bij verdrag vrijgestelde winst"). Maar omdat het verlies van 2012 reeds in België in mindering kwam **en** in 2013 in Italië nogmaals fiscaal aftrekbaar is, geldt een **recapture-mechanisme** (art. 185, § 3 WIB 92 — destijds reeds in voege voor aanslagjaar 2014): de in 2013 in België vrij te stellen verdragwinst wordt **verhoogd met het bedrag van het in 2012 in België reeds afgetrokken Italiaans verlies**, zodat dat verlies effectief in België wordt **teruggenomen** en in 2013 belast. 🔗
 > > 
 > > **Stappen — boekjaar 2012**:
 > > 
@@ -301,14 +301,14 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Verwar **vrijstellingsmethode** (art. 23A OESO-MV — België voor PE-winst) niet met de **verrekeningsmethode** (art. 23B OESO-MV — België voor passieve inkomsten zoals roerende inkomsten met FBB). Voor een Italiaanse vaste inrichting geldt vrijstelling met progressievoorbehoud, niet credit. 🔗 Tweede valkuil: het verlies wordt **niet** verrekend tegen latere **Belgische** winst — het wordt in 2012 onmiddellijk geneutraliseerd in het wereldwijd resultaat (geen overdracht-mechanisme nodig). 🔗
 > > 
-> > ***OESO-modelverdrag**: art. 5 (vaste inrichting — een bijkantoor is uitdrukkelijk een PE, art. 5, lid 2, b) 📖; art. 7, lid 1 (ondernemingswinsten toerekenbaar aan de PE belastbaar in de bronstaat) 📖; art. 23A (vrijstellingsmethode in de woonstaat). 📖 **WIB 92**: art. 5 (wereldwijde belastbaarheid binnenlandse vennootschap); art. 185, § 3 (recapture van eerder in BE afgetrokken verlies van een verdragwinst-vrijgestelde inrichting) 🔗; art. 206/4 (driesplitsing van het resultaat naar oorsprong — Belgische / niet-vrijgestelde buitenlandse / verdragvrijgestelde winst) 📖. **Dubbelbelastingverdrag BE-Italië** (Overeenkomst 29 april 1983) volgt OESO-MV-stramien; vrijstellingsmethode voor PE-winst.* 📖  
+> > **OESO-modelverdrag**: art. 5 (vaste inrichting — een bijkantoor is uitdrukkelijk een PE, art. 5, lid 2, b) 📖; art. 7, lid 1 (ondernemingswinsten toerekenbaar aan de PE belastbaar in de bronstaat) 📖; art. 23A (vrijstellingsmethode in de woonstaat). 📖 **WIB 92**: art. 5 (wereldwijde belastbaarheid binnenlandse vennootschap); art. 185, § 3 (recapture van eerder in BE afgetrokken verlies van een verdragwinst-vrijgestelde inrichting) 🔗; art. 206/4 (driesplitsing van het resultaat naar oorsprong — Belgische / niet-vrijgestelde buitenlandse / verdragvrijgestelde winst) 📖. **Dubbelbelastingverdrag BE-Italië** (Overeenkomst 29 april 1983) volgt OESO-MV-stramien; vrijstellingsmethode voor PE-winst. 📖  
 > > *Bron: art. 5 + 7 + 23A OESO-MV; art. 5, 185 § 3, 206/4 WIB 92; DBV BE-IT 29 april 1983*
 >
 > **Gelet op de informatie die uw cliënt u heeft verstrekt, is er enig advies dat u hem voor de toekomstige jaren dient te geven?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Ja — twee adviezen**: (1) **pas de voorafbetalingen aan** vanaf het ogenblik dat het bijkantoor structureel winst maakt, want vanaf 2013 wordt — door de recapture — opnieuw een aanzienlijk Belgisch belastbaar bedrag verwacht, zodat de huidige VA-raming (gemaakt zonder rekening met het bijkantoor) een **belastingvermeerdering wegens onvoldoende voorafbetalingen** (art. 218 WIB 92) zal oproepen; (2) **documenteer en monitor de winsttoerekening aan de PE** conform de OESO-richtlijnen voor toerekening (Authorised OECD Approach — art. 7, lid 2 OESO-MV 2010), zodat verschillen tussen de Italiaanse en Belgische winstbepaling later geen dubbele belasting (en evenmin dubbele niet-belasting) oproepen. 🔗_**
+> > **Ja — twee adviezen**: (1) **pas de voorafbetalingen aan** vanaf het ogenblik dat het bijkantoor structureel winst maakt, want vanaf 2013 wordt — door de recapture — opnieuw een aanzienlijk Belgisch belastbaar bedrag verwacht, zodat de huidige VA-raming (gemaakt zonder rekening met het bijkantoor) een **belastingvermeerdering wegens onvoldoende voorafbetalingen** (art. 218 WIB 92) zal oproepen; (2) **documenteer en monitor de winsttoerekening aan de PE** conform de OESO-richtlijnen voor toerekening (Authorised OECD Approach — art. 7, lid 2 OESO-MV 2010), zodat verschillen tussen de Italiaanse en Belgische winstbepaling later geen dubbele belasting (en evenmin dubbele niet-belasting) oproepen. 🔗
 > > 
 > > **Waarom de VA aanpassen?**
 > > 
@@ -323,7 +323,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De vennootschap kan voor de raming van haar VA voortaan rekening houden met (i) de **terugneming van het verlies** in 2013, (ii) de **vrijstelling** voor het saldo van de Italiaanse winst, en (iii) de **belasting in Italië** zelf (die louter de Italiaanse aangifte raakt — geen Belgische FBB op verdragvrijgestelde PE-winst). De gunstigste timing voor VA is **VA1** (eerste kwartaal): hoogste vermeerderingsbonus en dus laagste netto-kost om de tekorten van vorige kwartalen weg te werken. 🤖
 > > 
-> > ***WIB 92**: art. 157-168 (regime van de voorafbetalingen — vermeerdering wegens ontoereikende VA, kwartaal-bonificaties) en art. 218 (vermeerdering van toepassing op vennootschappen, met uitzonderingen voor kleine vennootschappen in eerste drie boekjaren). 🔗 **OESO-MV**: art. 7, lid 2 (Authorised OECD Approach — winsttoerekening aan PE als ware zij een onafhankelijke onderneming). 📖*  
+> > **WIB 92**: art. 157-168 (regime van de voorafbetalingen — vermeerdering wegens ontoereikende VA, kwartaal-bonificaties) en art. 218 (vermeerdering van toepassing op vennootschappen, met uitzonderingen voor kleine vennootschappen in eerste drie boekjaren). 🔗 **OESO-MV**: art. 7, lid 2 (Authorised OECD Approach — winsttoerekening aan PE als ware zij een onafhankelijke onderneming). 📖  
 > > *Bron: art. 157-168, 218 WIB 92; art. 7, lid 2 OESO-MV*
 
 <a id="2013-2-vr31"></a>
@@ -337,7 +337,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De Luxemburgse interesten **moeten** aangegeven worden bij de roerende inkomsten in de aangifte personenbelasting AJ 2014 (geen bevrijdende roerende voorheffing — die geldt enkel voor inkomsten waarop in België RV werd ingehouden). 🔗 De ingehouden "Woonstaatheffing" (35 % in 2013) wordt vermeld in het daarvoor bestemde vak en is **volledig verrekenbaar** met de Belgische personenbelasting; het eventuele overschot wordt **terugbetaald of overgedragen**. 🔗_**
+> > De Luxemburgse interesten **moeten** aangegeven worden bij de roerende inkomsten in de aangifte personenbelasting AJ 2014 (geen bevrijdende roerende voorheffing — die geldt enkel voor inkomsten waarop in België RV werd ingehouden). 🔗 De ingehouden "Woonstaatheffing" (35 % in 2013) wordt vermeld in het daarvoor bestemde vak en is **volledig verrekenbaar** met de Belgische personenbelasting; het eventuele overschot wordt **terugbetaald of overgedragen**. 🔗
 > > 
 > > **Redenering in drie stappen**:
 > > 
@@ -347,20 +347,20 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De "Woonstaatheffing" is **geen** klassieke buitenlandse bronheffing waarop het beperkte FBB (forfaitair gedeelte van buitenlandse belasting, art. 285 WIB92) van toepassing is, en evenmin de bronstaatheffing van het BE-LUX-dubbelbelastingverdrag (art. 11 DBV — 15 % bronstaatheffing op interesten). Het is een **richtlijn-specifieke** heffing met een eigen verrekenregime (art. 14 Spaarrenterichtlijn): **volledige verrekening + terugbetaling van het overschot**, los van enig DBV-tarief. 🔗
 > > 
-> > *Art. 313 WIB92 (aangifteplicht roerende inkomsten zonder Belgische RV). 📖 Art. 171, 2°ter WIB92 (25 % afzonderlijk tarief op interesten in 2013). 🔗 Richtlijn 2003/48/EG (Spaarrenterichtlijn) art. 11 (35 % bronheffing in overgangsregeling vanaf 1.7.2011) en art. 14 (verrekening + terugbetaling overschot in woonstaat). 🔗*  
+> > Art. 313 WIB92 (aangifteplicht roerende inkomsten zonder Belgische RV). 📖 Art. 171, 2°ter WIB92 (25 % afzonderlijk tarief op interesten in 2013). 🔗 Richtlijn 2003/48/EG (Spaarrenterichtlijn) art. 11 (35 % bronheffing in overgangsregeling vanaf 1.7.2011) en art. 14 (verrekening + terugbetaling overschot in woonstaat). 🔗  
 > > *Bron: Art. 313 WIB92; art. 171 2°ter WIB92; art. 11 en 14 Richtlijn 2003/48/EG*
 >
 > **Zal het overschot van die woonstaatheffing ten opzichte van de verschuldigde Belgische belasting in België worden terugbetaald?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Ja.** Het overschot van de woonstaatheffing ten opzichte van de verschuldigde Belgische personenbelasting wordt in België **terugbetaald** (of, naar keuze van de belastingplichtige, verrekend met andere belastingschulden). 🔗_**
+> > **Ja.** Het overschot van de woonstaatheffing ten opzichte van de verschuldigde Belgische personenbelasting wordt in België **terugbetaald** (of, naar keuze van de belastingplichtige, verrekend met andere belastingschulden). 🔗
 > > 
 > > Art. 14 van de Spaarrenterichtlijn 2003/48/EG verplicht de woonstaat (België) om de in een andere lidstaat ingehouden bronheffing **volledig** te verrekenen met de eigen belasting op die interesten. Als die bronheffing (35 % op het bruto-bedrag) hoger is dan de Belgische belasting (25 % afzonderlijk tarief + aanvullende gemeentebelasting), is België verplicht het **verschil terug te betalen of te verrekenen** met andere fiscale schulden. Dit onderscheidt de woonstaatheffing van het gewone FBB van art. 285 WIB92, dat enkel verrekening tot beloop van de Belgische belasting toestaat zonder teruggave. 🔗
 > > 
 > > Sinds 1 januari 2015 past Luxemburg de uitwisseling van gegevens toe in plaats van de bronheffing; de Spaarrenterichtlijn 2003/48/EG werd ingetrokken door Richtlijn 2015/2060/EU en vervangen door de DAC2-richtlijn (automatische uitwisseling van financiële gegevens). Voor inkomsten 2013 (de vraag) gold echter nog **wél** de bronheffing van 35 % met verrekening en terugbetaling — een regime dat dus enkel voor historische aanslagjaren (tot AJ 2015) nog relevant kan zijn. 🔗
 > > 
-> > *Art. 14, lid 2 en 3 Richtlijn 2003/48/EG (Spaarrenterichtlijn): de woonstaat verleent een belastingkrediet gelijk aan de in de bronstaat ingehouden heffing; indien dit krediet hoger is dan de verschuldigde belasting, **betaalt de woonstaat het verschil terug** aan de uiteindelijk gerechtigde. 📖 Omgezet in Belgisch recht via art. 22ter WIB92 (intussen opgeheven na intrekking richtlijn).* 🔗  
+> > Art. 14, lid 2 en 3 Richtlijn 2003/48/EG (Spaarrenterichtlijn): de woonstaat verleent een belastingkrediet gelijk aan de in de bronstaat ingehouden heffing; indien dit krediet hoger is dan de verschuldigde belasting, **betaalt de woonstaat het verschil terug** aan de uiteindelijk gerechtigde. 📖 Omgezet in Belgisch recht via art. 22ter WIB92 (intussen opgeheven na intrekking richtlijn). 🔗  
 > > *Bron: Art. 14 Richtlijn 2003/48/EG; art. 22ter WIB92 (oud)*
 
 <a id="2013-1-vr29"></a>
@@ -374,7 +374,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De heer B. is als Belgisch rijksinwoner onderworpen aan de **personenbelasting in België op zijn volledige (wereldwijde) loon**. Daarnaast mag elk werkland heffen op het loon dat slaat op de daar uitgeoefende arbeid: **Frankrijk** belast het loon van de Franse werkdag (1/5 = 20 %) en **Duitsland** belast het loon van de Duitse werkdag (1/5 = 20 %). België verleent vervolgens vrijstelling met progressievoorbehoud voor de in FR en DE belastbare delen, zodat **effectief 3/5 (60 %) van het loon in BE belast blijft**, 20 % in FR en 20 % in DE. 🔗_**
+> > De heer B. is als Belgisch rijksinwoner onderworpen aan de **personenbelasting in België op zijn volledige (wereldwijde) loon**. Daarnaast mag elk werkland heffen op het loon dat slaat op de daar uitgeoefende arbeid: **Frankrijk** belast het loon van de Franse werkdag (1/5 = 20 %) en **Duitsland** belast het loon van de Duitse werkdag (1/5 = 20 %). België verleent vervolgens vrijstelling met progressievoorbehoud voor de in FR en DE belastbare delen, zodat **effectief 3/5 (60 %) van het loon in BE belast blijft**, 20 % in FR en 20 % in DE. 🔗
 > > 
 > > | Werkdag | Werkstaat | Werkgever / loondrager | Toewijzingsregel art. 15 OESO-MV | Heffingsbevoegd |
 > > |---|---|---|---|---|
@@ -396,7 +396,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De **183-dagenregel** (art. 15 §2) is **geen automatische vrijstelling** voor korte buitenlandse opdrachten — alle drie de voorwaarden (a-b-c) moeten **cumulatief** vervuld zijn. Eén dag per week (≈ 52 dagen/jaar) blijft ruim onder 183 dagen, maar zodra het loon door een vaste inrichting in de werkstaat wordt **gedragen** (FR-casus) óf zodra de **werkgever zelf inwoner is van de werkstaat** (DE-casus, aparte arbeidsovereenkomst), valt §2 weg en mag de werkstaat heffen — ongeacht het lage aantal dagen. ❓
 > > 
-> > ***Art. 15 OESO-Modelverdrag (Income From Employment)** — §1 toewijzing aan werkstaat zodra arbeid daar wordt uitgeoefend; §2 cumulatieve uitzondering (183 dagen + niet-inwoner-werkgever + niet-doorrekening aan VI). **Art. 4 OESO-MV** — woonplaats (BE-rijksinwoner). **Art. 5 WIB92** — Belgische rijksinwoners zijn aan PB onderworpen op hun wereldwijd inkomen. **Art. 155 WIB92** — vrijstelling met progressievoorbehoud voor bij verdrag vrijgesteld buitenlands beroepsinkomen. Concrete heffingsverdeling moet steeds worden gelezen via de **bilaterale DBV's BE-FR en BE-DE**, die voor lonen de OESO-Modelregel volgen.* 📖
+> > **Art. 15 OESO-Modelverdrag (Income From Employment)** — §1 toewijzing aan werkstaat zodra arbeid daar wordt uitgeoefend; §2 cumulatieve uitzondering (183 dagen + niet-inwoner-werkgever + niet-doorrekening aan VI). **Art. 4 OESO-MV** — woonplaats (BE-rijksinwoner). **Art. 5 WIB92** — Belgische rijksinwoners zijn aan PB onderworpen op hun wereldwijd inkomen. **Art. 155 WIB92** — vrijstelling met progressievoorbehoud voor bij verdrag vrijgesteld buitenlands beroepsinkomen. Concrete heffingsverdeling moet steeds worden gelezen via de **bilaterale DBV's BE-FR en BE-DE**, die voor lonen de OESO-Modelregel volgen. 📖
 
 <a id="2013-1-vr30"></a>
 
@@ -411,9 +411,9 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Neen** — de Moeder-dochterrichtlijn (Richtlijn 2011/96/EU) is **niet** van toepassing. De Belgische NV bezit slechts 3 % van het kapitaal van de Hongaarse vennootschap, ruim onder de drempel van 10 % die de richtlijn vereist om als "moedermaatschappij" te kwalificeren. 🔗_**
+> > **Neen** — de Moeder-dochterrichtlijn (Richtlijn 2011/96/EU) is **niet** van toepassing. De Belgische NV bezit slechts 3 % van het kapitaal van de Hongaarse vennootschap, ruim onder de drempel van 10 % die de richtlijn vereist om als "moedermaatschappij" te kwalificeren. 🔗
 > > 
-> > *Art. 3, lid 1, a), i) Richtlijn 2011/96/EU: de hoedanigheid van moedermaatschappij wordt toegekend aan een vennootschap die "een deelneming van ten minste 10 % bezit in het kapitaal van een vennootschap van een andere lidstaat". Bij 3 % is die voorwaarde niet vervuld, zodat de vrijstelling van bronbelasting op dividenden (art. 5) niet ingeroepen kan worden. 📖*  
+> > Art. 3, lid 1, a), i) Richtlijn 2011/96/EU: de hoedanigheid van moedermaatschappij wordt toegekend aan een vennootschap die "een deelneming van ten minste 10 % bezit in het kapitaal van een vennootschap van een andere lidstaat". Bij 3 % is die voorwaarde niet vervuld, zodat de vrijstelling van bronbelasting op dividenden (art. 5) niet ingeroepen kan worden. 📖  
 > > *Bron: Richtlijn 2011/96/EU, art. 3, lid 1, a), i) en art. 5*
 >
 > <span class="jf-badge">Juist of fout?</span><span class="jf-stelling">Is de Interest-royaltyrichtlijn van toepassing op de beschreven situatie?</span>
@@ -422,9 +422,9 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: Fout**
 > > 
-> > **_**Neen** — de Interest-royaltyrichtlijn (Richtlijn 2003/49/EG) is **niet** van toepassing. De Belgische NV en de Hongaarse vennootschap zijn geen "verbonden ondernemingen" in de zin van de richtlijn: een directe deelneming van minstens 25 % is vereist, en hier is er slechts 3 %. 🔗_**
+> > **Neen** — de Interest-royaltyrichtlijn (Richtlijn 2003/49/EG) is **niet** van toepassing. De Belgische NV en de Hongaarse vennootschap zijn geen "verbonden ondernemingen" in de zin van de richtlijn: een directe deelneming van minstens 25 % is vereist, en hier is er slechts 3 %. 🔗
 > > 
-> > *Art. 3, b) Richtlijn 2003/49/EG: twee ondernemingen zijn verbonden wanneer (i) de ene rechtstreeks ≥ 25 % in het kapitaal van de andere bezit, (ii) omgekeerd, of (iii) een derde onderneming rechtstreeks ≥ 25 % in beide bezit. Met 3 % rechtstreekse deelneming en een natuurlijke persoon (de schoonbroer) als gemeenschappelijke aandeelhouder — geen onderneming — is geen van de drie verbindingen vervuld. 📖*  
+> > Art. 3, b) Richtlijn 2003/49/EG: twee ondernemingen zijn verbonden wanneer (i) de ene rechtstreeks ≥ 25 % in het kapitaal van de andere bezit, (ii) omgekeerd, of (iii) een derde onderneming rechtstreeks ≥ 25 % in beide bezit. Met 3 % rechtstreekse deelneming en een natuurlijke persoon (de schoonbroer) als gemeenschappelijke aandeelhouder — geen onderneming — is geen van de drie verbindingen vervuld. 📖  
 > > *Bron: Richtlijn 2003/49/EG, art. 3, b) en art. 1*
 >
 > Verklaar uw antwoord door te verwijzen naar de bepalingen van die Europese richtlijnen.
@@ -437,5 +437,5 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De twee richtlijnen hanteren **verschillende drempels** (10 % voor MD, 25 % voor IR) en **verschillende structuurfiguren** (verticale moeder-dochterband versus brede "verbondenheid" tussen ondernemingen, ook horizontaal via een gemeenschappelijke moeder). Verbondenheid via natuurlijke personen — zoals een familieband tussen aandeelhouders — telt voor geen van beide. Wanneer een EU-richtlijn niet ingrijpt, valt men terug op het **bilateraal dubbelbelastingverdrag** België-Hongarije om de bronheffing te verminderen of te verrekenen. 🔗
 > > 
-> > *Richtlijn 2011/96/EU (Moeder-dochterrichtlijn), art. 3, lid 1, a), i) (drempel 10 %) + art. 5 (vrijstelling bronbelasting op uitgekeerde winst). Richtlijn 2003/49/EG (Interest-royaltyrichtlijn), art. 1 (afschaffing bronbelasting), art. 2 (definitie interest en royalty's) en art. 3, b) (drempel 25 % verbondenheid tussen ondernemingen). 📖*  
+> > Richtlijn 2011/96/EU (Moeder-dochterrichtlijn), art. 3, lid 1, a), i) (drempel 10 %) + art. 5 (vrijstelling bronbelasting op uitgekeerde winst). Richtlijn 2003/49/EG (Interest-royaltyrichtlijn), art. 1 (afschaffing bronbelasting), art. 2 (definitie interest en royalty's) en art. 3, b) (drempel 25 % verbondenheid tussen ondernemingen). 📖  
 > > *Bron: Richtlijn 2011/96/EU, art. 3 + art. 5; Richtlijn 2003/49/EG, art. 1, art. 2, art. 3*

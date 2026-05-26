@@ -12,15 +12,10 @@ gegenereerd_op: 2026-05-26
 
 <a id="2024-1-vr2A"></a>
 
-> [!question]- Onafhankelijkheid bij een controleopdracht: stellingen juist of fout
+> [!topic]- Onafhankelijkheid bij een controleopdracht: stellingen juist of fout
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Stellingen juist of fout in verband met onafhankelijkheid bij een controleopdracht
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> _Stellingen juist of fout in verband met onafhankelijkheid bij een controleopdracht_
 
 <a id="2024-1-vr2B"></a>
 
@@ -33,7 +28,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Na acceptatie verwerft de revisor in de **planningsfase** voldoende inzicht in de entiteit, haar omgeving, het van toepassing zijnde stelsel inzake financiele verslaggeving en het systeem van interne beheersing door **risico-inschattingswerkzaamheden** (ISA 315 herzien 2019, par. 13). Die werkzaamheden bestaan uit drie technieken: (1) **verzoeken om inlichtingen** bij management, met governance belaste personen en andere personeelsleden, (2) **cijferanalyses** (analytische werkzaamheden) en (3) **waarneming en inspectie**. 📖_**
+> > Na acceptatie verwerft de revisor in de **planningsfase** voldoende inzicht in de entiteit, haar omgeving, het van toepassing zijnde stelsel inzake financiele verslaggeving en het systeem van interne beheersing door **risico-inschattingswerkzaamheden** (ISA 315 herzien 2019, par. 13). Die werkzaamheden bestaan uit drie technieken: (1) **verzoeken om inlichtingen** bij management, met governance belaste personen en andere personeelsleden, (2) **cijferanalyses** (analytische werkzaamheden) en (3) **waarneming en inspectie**. 📖
 > > 
 > > **Concreet — de drie risico-inschattingswerkzaamheden uitgewerkt** (ISA 315 par. 14):
 > > 
@@ -49,46 +44,22 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De diepgang van de kennisverwerving is bovendien **schaalbaar**: een minder complexe entiteit vereist minder gestructureerde procedures dan een beursgenoteerde groep — maar het inzicht moet altijd voldoende zijn om risico's op een afwijking van materieel belang te kunnen identificeren en inschatten op het niveau van de financiele overzichten en op het niveau van de beweringen. 📖
 > > 
-> > ***ISA 315 (herzien 2019)** — Risico's op een afwijking van materieel belang identificeren en inschatten door inzicht te verwerven in de entiteit en haar omgeving: par. 13 (risico-inschattingswerkzaamheden), par. 14 (drie technieken: inquiries, analytische werkzaamheden, waarneming en inspectie), par. 17 (opdrachtteam-bespreking), par. 19-27 (verplichte inhoudsgebieden van het inzicht), par. 28-37 (identificeren en inschatten van risico's, met inbegrip van iteratieve herziening). Aansluitend: **ISA 330** (inspelen op ingeschatte risico's) bepaalt de volgende stap. 📖*  
+> > **ISA 315 (herzien 2019)** — Risico's op een afwijking van materieel belang identificeren en inschatten door inzicht te verwerven in de entiteit en haar omgeving: par. 13 (risico-inschattingswerkzaamheden), par. 14 (drie technieken: inquiries, analytische werkzaamheden, waarneming en inspectie), par. 17 (opdrachtteam-bespreking), par. 19-27 (verplichte inhoudsgebieden van het inzicht), par. 28-37 (identificeren en inschatten van risico's, met inbegrip van iteratieve herziening). Aansluitend: **ISA 330** (inspelen op ingeschatte risico's) bepaalt de volgende stap. 📖  
 > > *Bron: ISA 315 (herzien 2019), par. 13-37*
 
 <a id="2024-1-vr2C"></a>
 
-> [!question]- Volkomen controle volgens de revisienormen
+> [!topic]- Volkomen controle volgens de revisienormen
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Volkomen controle volgens de revisienormen
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > **Volkomen controle** is de Belgische traditionele benaming voor de **wettelijke controle van de jaarrekening** door de commissaris-bedrijfsrevisor, uitgevoerd volgens de ISA-normen (revisienormen) en resulterend in een **redelijke mate van zekerheid** (hoge — maar geen absolute — zekerheid) dat de jaarrekening als geheel geen afwijkingen van materieel belang bevat. 🔗 Het is de zwaarste assurance-opdracht: positief geformuleerd oordeel ("de jaarrekening geeft een getrouw beeld") op basis van voldoende en geschikte controle-informatie waarmee het controlerisico tot een aanvaardbaar laag niveau wordt teruggebracht. 📖
-> > 
-> > **Kernkenmerken van de volkomen controle** (tegenover beperkte controle / beoordelingsopdracht):
-> > 
-> > 1. **Doelstelling**: redelijke mate van zekerheid — "een hoge mate van zekerheid, maar geen garantie" (ISA 200) dat de jaarrekening vrij is van afwijkingen van materieel belang door fraude of fout. 📖
-> > 2. **Aard van het oordeel**: positief geformuleerd ("geeft een getrouw beeld in overeenstemming met het van toepassing zijnde verslaggevingsstelsel"), in tegenstelling tot het negatief geformuleerd oordeel bij een beoordelingsopdracht. 🔗
-> > 3. **Werkzaamheden**: risico-gebaseerde aanpak met inzicht in de entiteit en haar omgeving (incl. interne beheersing), inschatting van risico's op afwijkingen van materieel belang, en daarop afgestemde gegevensgerichte controles en/of systeemgerichte tests. 🔗
-> > 4. **Materialiteit**: vooraf bepaald op niveau van de jaarrekening als geheel én uitvoeringsmaterialiteit (ISA 320) — niet wettelijk bij KB vastgelegd, maar door de auditor in functie van risico's en gebruikers. 📖
-> > 5. **Wettelijk verplicht**: voor grote vennootschappen (overschrijden groottecriteria art. 1:24-1:26 WVV) en voor organisaties van openbaar belang (PIE's); uitgevoerd door een door de algemene vergadering benoemde commissaris (IBR-lid). 🔗
-> > 6. **Eindproduct**: commissarisverslag conform art. 3:74-75 WVV, opgesteld volgens ISA 700 (herzien). 🔗
-> > 
-> > De term **"volkomen controle"** is een Belgisch-historische uitdrukking die de **volledige wettelijke audit** contrasteert met lichtere opdrachten (beperkte controle/review onder ISRE 2400, AUP onder ISRS 4400, samenstellingsopdracht onder ISRS 4410). 🤖 Belangrijke valkuil: "volkomen" betekent **niet** "absolute zekerheid" of "100% nazicht van alle verrichtingen" — het blijft een **risico-gebaseerde steekproefcontrole** die werkt met materialiteit en aanvaardbaar controlerisico. 📖 Een commissaris die alle transacties zou verifiëren, voert geen volkomen controle uit — hij begrijpt het concept niet. 🔗
-> > 
-> > ***Wettelijk kader**: art. 3:70 WVV (opdracht commissaris voor controle financiële toestand, jaarrekening en regelmatigheid); art. 3:72-75 WVV (uitvoering en verslaggeving). **Normenkader**: ISA 200 (algehele doelstellingen + definitie redelijke mate van zekerheid), ISA 315 (risico-inschatting), ISA 320 (materialiteit), ISA 330 (inspelen op ingeschatte risico's), ISA 700 (herzien) (oordeel + commissarisverslag). De ISA's zijn van toepassing krachtens de **bijkomende normen van het IBR** bij de uitvoering van wettelijke controleopdrachten in België.* 📖  
-> > *Bron: WVV art. 3:70-3:75; ISA 200, 315, 320, 330, 700*
+> _Volkomen controle volgens de revisienormen_
 
 <a id="2024-1-vr2D"></a>
 
-> [!question]- Algemene stellingen externe controle: juist of fout
+> [!topic]- Algemene stellingen externe controle: juist of fout
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > 4 algemene stellingen juist of fout (externe controle)
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> _4 algemene stellingen juist of fout (externe controle)_
 
 <a id="2024-1-vr2E"></a>
 
@@ -106,7 +77,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: d**
 > > 
-> > **_**Optie d** — de materialiteitsdrempel wordt door de beroepsbeoefenaar zelf bepaald op basis van zijn **professionele oordeelsvorming**, rekening houdend met de **inherente risico's** en het **interne controlesysteem** van de cliënt. 🔗_**
+> > **Optie d** — de materialiteitsdrempel wordt door de beroepsbeoefenaar zelf bepaald op basis van zijn **professionele oordeelsvorming**, rekening houdend met de **inherente risico's** en het **interne controlesysteem** van de cliënt. 🔗
 > > 
 > > **Per MC-optie**:
 > > 
@@ -117,33 +88,15 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — Materialiteit wordt **bij planning** vastgesteld (overall materiality) én in een **lagere uitvoeringsmaterialiteit** (performance materiality) vertaald om het cumulatief risico van niet-gecorrigeerde afwijkingen op te vangen (ISA 320 §9, §11). De drempel wordt **herzien naarmate de controle vordert** als nieuwe informatie dat rechtvaardigt (ISA 320 §12-13). 🔗
 > > 
-> > ***ISA 320 — Materialiteit bij de planning en uitvoering van een controle** (§4, §10-13, §A1-A13): de auditor bepaalt materialiteit op basis van professionele oordeelsvorming, in samenhang met de risico-inschatting. **ISA 200 §A26**: professionele oordeelsvorming is noodzakelijk voor beslissingen over materialiteit en controlerisico. **ISA 315 (herzien 2019)**: het inherent risico en het interne-controle-systeem vormen samen het risico op een afwijking van materieel belang, dat de drempel mee bepaalt. 📖*  
+> > **ISA 320 — Materialiteit bij de planning en uitvoering van een controle** (§4, §10-13, §A1-A13): de auditor bepaalt materialiteit op basis van professionele oordeelsvorming, in samenhang met de risico-inschatting. **ISA 200 §A26**: professionele oordeelsvorming is noodzakelijk voor beslissingen over materialiteit en controlerisico. **ISA 315 (herzien 2019)**: het inherent risico en het interne-controle-systeem vormen samen het risico op een afwijking van materieel belang, dat de drempel mee bepaalt. 📖  
 > > *Bron: ISA 320 §10-13; ISA 200 §A26; ISA 315 (herzien 2019)*
 
 <a id="2024-1-vr3A"></a>
 
-> [!question]- Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus
+> [!topic]- Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus (interne controle)
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > **Goede adviezen aan de bedrijfsleider voor interne controle in de verkoopcyclus** — beheers de vijf opeenvolgende stadia *order → kredietacceptatie → levering → facturatie → inning* met deze maatregelen:
-> > 
-> > 1. **Functiescheiding** tussen wie verkooporders autoriseert, wie levert, wie factureert, wie boekt (debiteurenrekeningen bijhoudt) en wie betalingen int. 🔗 Een verkoper mag bijvoorbeeld geen productprijsbestanden of commissietarieven kunnen wijzigen, en de manager die kredietverkopen autoriseert mag geen debiteuren bijhouden of contanten ontvangen — anders kan één persoon een fictieve verkoop creëren en verbergen. 📖
-> > 2. **Kredietacceptatie vooraf** — limieten per klant, blokkade van nieuwe leveringen bij overschrijding of betalingsachterstand. 🔗
-> > 3. **Autorisatie van afwijkende prijzen, kortingen en creditnota's** door een tweede persoon (geen verkoper); creditnota's altijd gemotiveerd en gekoppeld aan de oorspronkelijke factuur. 🔗
-> > 4. **Sluitende koppeling order → leveringsbon → factuur** (pre-numbered documents, three-way match) zodat geen levering ongefactureerd blijft en geen factuur zonder onderliggende levering wordt opgemaakt. 🔗
-> > 5. **Cut-off-controle** rond balansdatum: leveringen tot 31/12 horen in omzet van dat jaar, leveringen na 31/12 niet. 🔗
-> > 6. **Periodieke opvolging openstaande vorderingen** (ouderdomsbalans/aging), aanmaningsprocedure, en tijdige boeking van waardeverminderingen op dubieuze debiteuren. 🔗
-> > 7. **Compenserende maatregelen in een KMO** waar volledige functiescheiding niet haalbaar is: directe betrokkenheid van de eigenaar-bestuurder (zelf kredietlimieten goedkeuren, bankuittreksels openen, periodiek de ouderdomsbalans aftekenen) als alternatief voor scheiding. 📖
-> > 
-> > **Vermeldenswaard** — de vraag is gesteld in een **KMO-context** (zie vr3B/C/D in hetzelfde blok). Het examen verwacht dus géén opsomming van zware grote-onderneming-controls (geautomatiseerde three-way-matches in een ERP, aparte interne-auditfunctie), maar **pragmatische, schaalbare adviezen** waar de bedrijfsleider zelf het sluitstuk vormt. ISA 315 erkent expliciet dat "in een door de eigenaar bestuurde entiteit de eigenaar-bestuurder mogelijk meer effectief toezicht uitoefent door directe betrokkenheid" als compensatie voor beperkte functiescheiding. 📖
-> > 
-> > ***ISA 315 (herzien 2019), Bijlage 3** — voorbeeld van functiescheiding in de verkoopcyclus (autorisatie kredietverkopen, bijhouden debiteuren, afhandelen contanten gescheiden; productprijsbestanden en commissietarieven afgeschermd van verkopers). **ISA 315 §A156-A157 (Schaalbaarheid)** — voor minder complexe entiteiten zijn beheersingsmaatregelen vergelijkbaar maar minder formeel; directe betrokkenheid van de eigenaar-bestuurder kan beperkte functiescheiding compenseren. **COSO Internal Control — Integrated Framework** als overkoepelend kader (control activities-component).* 📖  
-> > *Bron: ISA 315 Bijlage 3 + §A156-A157*
+> _Goede adviezen aan de bedrijfsleider in verband met de verkoopcyclus (interne controle)_
 
 <a id="2024-1-vr3B"></a>
 
@@ -154,7 +107,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De **hoofddoelstelling** van interne controle in een KMO is het verschaffen van een **redelijke mate van zekerheid** dat de organisatie haar **drie kerndoelstellingen** bereikt: (1) **betrouwbaarheid van de financiële verslaggeving**, (2) **effectiviteit en efficiëntie van de bedrijfsvoering** en (3) **naleving van de toepasselijke wet- en regelgeving**. 📖_**
+> > De **hoofddoelstelling** van interne controle in een KMO is het verschaffen van een **redelijke mate van zekerheid** dat de organisatie haar **drie kerndoelstellingen** bereikt: (1) **betrouwbaarheid van de financiële verslaggeving**, (2) **effectiviteit en efficiëntie van de bedrijfsvoering** en (3) **naleving van de toepasselijke wet- en regelgeving**. 📖
 > > 
 > > **Toelichting op de drie doelstellingen** (COSO-raamwerk, overgenomen in de ITAA-KMO-controlenorm):
 > > 
@@ -166,66 +119,24 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard — 'redelijke' en geen absolute zekerheid**: het concept biedt per definitie slechts *redelijke* zekerheid wegens vier inherente beperkingen: menselijke oordeelsvorming, **kosten-batenafweging** (cruciaal in KMO-context — uitgebreide controles zijn vaak niet rendabel), **samenspanning** tussen medewerkers, en **management override** door de bedrijfsleider. Een examenstelling die suggereert dat interne controle fraude *volledig* uitsluit, past het concept verkeerd toe. 🔗
 > > 
-> > ***ITAA-KMO-controlenorm, Bijlage 1 (Definities)** — definieert *interne beheersing* als het proces, opgezet en gesuperviseerd door bestuur en management, dat *een redelijke mate van zekerheid* verschaft dat de doelstellingen van de KMO of kleine vzw met betrekking tot (a) betrouwbaarheid van de financiële verslaggeving, (b) effectiviteit en efficiëntie van de activiteiten en (c) naleving van wet- en regelgeving worden bereikt. 📖
+> > **ITAA-KMO-controlenorm, Bijlage 1 (Definities)** — definieert *interne beheersing* als het proces, opgezet en gesuperviseerd door bestuur en management, dat *een redelijke mate van zekerheid* verschaft dat de doelstellingen van de KMO of kleine vzw met betrekking tot (a) betrouwbaarheid van de financiële verslaggeving, (b) effectiviteit en efficiëntie van de activiteiten en (c) naleving van wet- en regelgeving worden bereikt. 📖
 > > 
-> > Conceptueel onderbouwd door het **COSO-raamwerk** (Internal Control — Integrated Framework, 1992, herzien 2013) — internationaal de facto-standaard voor interne controle, structureert dezelfde drie doelstellingen langs vijf componenten (controle-omgeving · risico-inschatting · controle-activiteiten · informatie & communicatie · monitoring).* 📖  
+> > Conceptueel onderbouwd door het **COSO-raamwerk** (Internal Control — Integrated Framework, 1992, herzien 2013) — internationaal de facto-standaard voor interne controle, structureert dezelfde drie doelstellingen langs vijf componenten (controle-omgeving · risico-inschatting · controle-activiteiten · informatie & communicatie · monitoring). 📖  
 > > *Bron: ITAA-norm-kmo-controlenorm, Bijlage 1 (Definities); COSO Internal Control — Integrated Framework (2013)*
 
 <a id="2024-1-vr3C"></a>
 
-> [!question]- Risicoclassificatie volgens het COSO-model
+> [!topic]- Risicoclassificatie volgens het COSO-model
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Over welke soort risico gaat het? (COSO-model) — vier categorieën: Strategisch, Informatie, Operationeel, Financieel
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > **Vier risicocategorieën volgens het COSO-model** (zoals in de vraag opgesomd):
-> > 
-> > - **Strategisch risico** 🤖 — risico dat raakt aan de doelstellingen op lange termijn en de keuze van de strategie (bv. fout businessmodel, markt-shift, verkeerde overname, reputatieschade). Wordt op directie-/bestuursniveau beheerd.
-> > - **Operationeel risico** 🤖 — risico verbonden aan de dagelijkse werking en bedrijfsprocessen (bv. productie-uitval, fouten in de aankoop- of verkoopcyclus, IT-storing, personeelsverloop, fraude door medewerkers).
-> > - **Financieel risico** 🤖 — risico verbonden aan de financiële positie en geldstromen (bv. liquiditeitsrisico, kredietrisico op klanten, wissel- en renterisico, financieringsrisico, fout in financiële rapportering met materiële impact).
-> > - **Informatierisico** 🤖 — risico dat de informatie die in/uit de organisatie stroomt onjuist, onvolledig of niet-tijdig is — zowel interne stuurinformatie (rapportering aan management) als externe rapportering en compliance-informatie (bv. foute KPI's, lekken van vertrouwelijke data, niet-conforme rapportering). 🤖
-> > 
-> > De Nederlandstalige examen-taxonomie **Strategisch / Informatie / Operationeel / Financieel** is een didactische variant van het klassieke COSO ERM-kwadrant **Strategic · Operations · Reporting · Compliance** (COSO ERM 2004; geactualiseerd 2017). In de ITAA-examencontext wordt 'Informatie' meestal gekoppeld aan Reporting (interne + externe info-stromen) en 'Financieel' aan financiële rapportering en treasury — bij toewijzing van een casus is dat de eerste leidraad. ❓ Compliance-risico (wet- en regelgeving) wordt in deze 4-deling typisch onder Strategisch of Operationeel gebracht, afhankelijk van de aard van de casus. 🤖
-> > 
-> > Bij een echte deelvraag (per casus toewijzen aan één van de vier categorieën) — gebruik deze beslis-vragen 🤖:
-> > 
-> > 1. Raakt het de **lange-termijn strategie of het businessmodel**? → **Strategisch**.
-> > 2. Gaat het over een **bedrijfsproces** (aankoop, productie, verkoop, HR, IT-werking)? → **Operationeel**.
-> > 3. Gaat het over **geldstromen, financiering, financiële rapportering of treasury**? → **Financieel**.
-> > 4. Gaat het over de **kwaliteit, volledigheid of tijdigheid van informatie** (intern of extern)? → **Informatierisico**.
-> > 
-> > Eén risico kan in meerdere categorieën vallen; kies de **primaire** dimensie op basis van waar de impact het grootst is. 🤖
-> > 
-> > *COSO Enterprise Risk Management — Integrated Framework (2004, geactualiseerd 'Enterprise Risk Management — Integrating with Strategy and Performance', 2017): vier oorspronkelijke doelstellingen-/risico-categorieën Strategic · Operations · Reporting · Compliance. In het ITAA-onderwijs (PO 1.3 — Interne controle) wordt vaak de 4-deling Strategisch / Operationeel / Financieel / Informatie gehanteerd. ❓ Geen letterlijke COSO-bron in het Certificaid-corpus (concept-record `risico-inschatting-coso` is nog een seed); een directe wetsref bestaat niet — COSO is een professioneel framework, geen wet.* 🤖  
-> > *Bron: COSO ERM Framework (2004 / 2017)*
+> _Over welke soort risico gaat het? (COSO-model) — vier categorieën: Strategisch, Informatie, Operationeel, Financieel_
 
 <a id="2024-1-vr3D"></a>
 
-> [!question]- Doelstellingen van interne controle in de verkoopcyclus
+> [!topic]- Doelstellingen van interne controle in de verkoopcyclus
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.3*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Verkoopcyclus: doelstellingen (Financieel, Operationeel, Conformiteit)
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > **_Interne controle in de verkoopcyclus (order → kredietcheck → levering → facturatie → inning) dient drie COSO-doelstellingscategorieen: **operationeel** (efficiente cyclus, geen leveringen zonder factuur, geen oninbare vorderingen), **financieel/rapportering** (volledige en correcte omzet- en debiteurenboeking, juiste cut-off) en **conformiteit** (naleving wet- en regelgeving zoals btw, e-invoicing, GDPR, consumentenrecht). 🔗_**
-> > 
-> > | Doelstelling | Concrete IC-doelen in de verkoopcyclus | Typische maatregelen |
-> > |---|---|---|
-> > | **Operationeel** (effectiviteit en efficientie van de processen) | Snelle order-doorlooptijd; geen leveringen aan slechte betalers; minimaliseren oninbare vorderingen; correcte prijs- en kortingstoepassing. 🔗 | Kredietlimiet per klant; automatische blokkering bij overschrijding; aging-rapport debiteuren; prijslijst-master onder change-control. |
-> > | **Financieel / betrouwbare rapportering** (juiste en volledige cijfers in de jaarrekening) | Alle leveringen worden gefactureerd (volledigheid omzet); geen fictieve verkopen (bestaan); correcte cut-off rond balansdatum; juiste waardering debiteuren incl. dubieuze vorderingen. 🔗 | Sequentiele nummering van leveringsbonnen en facturen, three-way match levering ↔ factuur ↔ order; afzonderlijke functie debiteurenbeheer; periodieke aansluiting subadministratie ↔ grootboek. |
-> > | **Conformiteit** (naleving wet- en regelgeving) | Correcte btw-tarieven, btw-vermeldingen op facturen, intracommunautaire listing; e-invoicing-verplichtingen (B2B Peppol vanaf 2026); GDPR bij klantendata; consumentenrecht (B2C). 🔗 | Btw-codes in stamgegevens onder controle; facturatie-template met verplichte vermeldingen (art. 5 KB nr. 1); DPIA en klantenregister; herroepingsmodaliteiten in algemene voorwaarden. | 🔗
-> > 
-> > De drie categorieen komen rechtstreeks uit het **COSO Internal Control – Integrated Framework (1992, hernieuwd 2013)**: *operations*, *reporting*, *compliance*. ISA 315 (herzien 2019) hanteert dezelfde driedeling als kader voor het begrijpen van de interne beheersing van de entiteit door de auditor. 🔗 In de Belgische context vindt deze driedeling ook weerklank in art. 3:6 §1, 9° WVV (corporate-governance-luik van het jaarverslag) en in de bestuurdersverantwoordelijkheid voor een passend systeem van interne controle (alarmbelprocedure-logica). 🤖
-> > 
-> > De drie doelstellingen overlappen — eenzelfde IC-maatregel dient vaak meerdere doelen tegelijk. Voorbeeld: sequentiele facturatienummering dient **financieel** (volledigheid omzet) en **conformiteit** (btw-art. 5 KB nr. 1 verplicht opeenvolgende nummering). Examenkandidaten die per maatregel slechts een doelstelling noteren, missen punten. Antwoord beter per doelstelling met 2-3 voorbeelden, en bij overlap expliciet vermelden. 🤖
-> > 
-> > *COSO Internal Control – Integrated Framework (1992/2013): drie doelstellingscategorieen *operations · reporting · compliance*. ISA 315 (herzien 2019) §12 e.v. — begrijpen van de interne beheersing als onderdeel van risico-inschatting. WVV art. 3:6 §1, 9° — beschrijving voornaamste kenmerken interne controle en risicobeheer in het jaarverslag. KB nr. 1 btw art. 5 — verplichte vermeldingen op facturen. 📖*  
-> > *Bron: COSO 1992/2013; ISA 315 (herzien 2019); WVV art. 3:6 §1, 9°; KB nr. 1 btw art. 5*
+> _Verkoopcyclus: doelstellingen (Financieel, Operationeel, Conformiteit)_
 
 <a id="2015-1-vr8"></a>
 <a id="2014-1-vr5"></a>
@@ -303,7 +214,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > Sinds het WVV (2019) hebben BV/CV **geen kapitaal** meer maar een **inbreng**. Voor die rechtsvormen bedraagt de fractiewaarde: de **inbrengwaarde** (kapitaal-substituut: inbrengen in geld of natura, exclusief inbreng in nijverheid, eventueel verhoogd met statutair-onbeschikbare reserves) gedeeld door het aantal aandelen (art. 12:4 en 12:5 WVV). 📖
 > > 
-> > *Art. 12:4, tweede lid en art. 12:5, tweede lid WVV (fractiewaarde voor vennootschappen zonder kapitaal); CBN-advies 2022/12 (numerieke illustraties).* 📖  
+> > Art. 12:4, tweede lid en art. 12:5, tweede lid WVV (fractiewaarde voor vennootschappen zonder kapitaal); CBN-advies 2022/12 (numerieke illustraties). 📖  
 > > *Bron: art. 12:4 en 12:5 WVV; CBN 2022/12*
 >
 > Omschrijf het begrip 'netto rendabiliteit van de bedrijfsactiva'.
@@ -418,7 +329,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Verwar BWK niet met werkkapitaal (NBK)** ❓ — Het **nettobedrijfskapitaal** (= permanent vermogen − vaste activa, of equivalent: vlottende activa − schulden ≤ 1 jaar) is een **buffer-maat** op de hele balans. De **BWK** isoleert enkel de **exploitatie**-posten en sluit thesaurie (50/53, 54/58, 43) en niet-exploitatieve langlopende elementen uit. **Rekening 42** (schulden > 1 jaar die binnen het jaar vervallen) is een **financiële** schuld die kortlopend wordt — niet exploitatief, dus **niet** in BWK. **Overlopende rekeningen** (490/1 en 492/3) zijn cyclisch (pro rata van kosten/opbrengsten) en horen wél in BWK. 🤖
 > > 
-> > *Klassieke financiële-analyse-doctrine (Ooghe & Van Wymeersch, *Financiële analyse van de onderneming*; NBB-toelichting bij het jaarrekeningmodel). Geen specifieke wetsbepaling — de BWK is een analytisch concept, geen wettelijk gedefinieerde post. De balansrubrieken zelf volgen het **KB van 29 april 2019 tot uitvoering van het WVV** (jaarrekeningschema, art. 3:89). 📖*  
+> > Klassieke financiële-analyse-doctrine (Ooghe & Van Wymeersch, *Financiële analyse van de onderneming*; NBB-toelichting bij het jaarrekeningmodel). Geen specifieke wetsbepaling — de BWK is een analytisch concept, geen wettelijk gedefinieerde post. De balansrubrieken zelf volgen het **KB van 29 april 2019 tot uitvoering van het WVV** (jaarrekeningschema, art. 3:89). 📖  
 > > *Bron: KB WVV 29-04-2019, art. 3:89 (balansschema); financiële-analyse-doctrine*
 
 <a id="2014-1-vr6"></a>
@@ -442,13 +353,13 @@ gegenereerd_op: 2026-05-26
 > > - **Behoefte aan bedrijfskapitaal (BBK)** = (voorraden + handelsvorderingen + overlopende activa) − (handelsschulden + overlopende passiva). Cash die de operationele cyclus vastlegt tussen aankoop, productie, verkoop en inning.
 > > - **Nettothesaurie (NT) = WK − BBK**. Sluitstuk dat aangeeft of de onderneming na financiering van haar cyclus nog cash overhoudt (NT > 0) of moet bijlenen op korte termijn (NT < 0). 🔗
 > > 
-> > *Klassiek schema van de **functionele balansanalyse** (Franse/Belgische doctrine financiële analyse — Vernimmen, Ooghe & Van Wymeersch). Geen specifieke wetsbepaling: nettothesaurie is een **analytisch concept**, niet wettelijk gedefinieerd in het WVV of KB/WVV-jaarrekening. 🤖*
+> > Klassiek schema van de **functionele balansanalyse** (Franse/Belgische doctrine financiële analyse — Vernimmen, Ooghe & Van Wymeersch). Geen specifieke wetsbepaling: nettothesaurie is een **analytisch concept**, niet wettelijk gedefinieerd in het WVV of KB/WVV-jaarrekening. 🤖
 >
 > **Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Een **positieve nettothesaurie** betekent dat het **werkkapitaal groter is dan de behoefte aan bedrijfskapitaal**: de structurele financiering volstaat ruimschoots om de operationele cyclus te financieren en er blijft een **cash-overschot** over in de vorm van liquide middelen en geldbeleggingen die de financiële schulden op korte termijn overtreffen. 🔗_**
+> > Een **positieve nettothesaurie** betekent dat het **werkkapitaal groter is dan de behoefte aan bedrijfskapitaal**: de structurele financiering volstaat ruimschoots om de operationele cyclus te financieren en er blijft een **cash-overschot** over in de vorm van liquide middelen en geldbeleggingen die de financiële schulden op korte termijn overtreffen. 🔗
 > > 
 > > **Concreet betekent NT > 0:** 🔗
 > > 
@@ -458,7 +369,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard — nuance**: een positieve nettothesaurie is doorgaans een teken van financiële gezondheid, maar een **structureel hoge** NT kan ook wijzen op **suboptimaal beheer van de cash** (onderbenutting van middelen, gemiste rendabele investeringen of uitkeringen). Omgekeerd duidt een **negatieve nettothesaurie** op een afhankelijkheid van kortetermijnkrediet om de exploitatiecyclus te financieren — niet noodzakelijk problematisch op zich, maar wel een **kwetsbaarheid** bij intrekking van kredietlijnen. 🔗
 > > 
-> > *Functionele balansanalyse — interpretatieregel: **NT = WK − BBK > 0 ⇒ exploitatiecyclus integraal gefinancierd door permanente middelen**. Klassieke leerboek-doctrine financiële analyse (Vernimmen; Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*). 🤖*
+> > Functionele balansanalyse — interpretatieregel: **NT = WK − BBK > 0 ⇒ exploitatiecyclus integraal gefinancierd door permanente middelen**. Klassieke leerboek-doctrine financiële analyse (Vernimmen; Ooghe & Van Wymeersch, *Handboek financiële analyse van de onderneming*). 🤖
 
 <a id="2013-2-vr5"></a>
 
@@ -506,7 +417,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De liquiditeitsratio's geven de bedrijfsleider een momentopname van de **capaciteit van de onderneming om haar kortlopende schulden (≤ 1 jaar) tijdig te betalen** met haar vlottende activa of een deel ervan. 🔗_**
+> > De liquiditeitsratio's geven de bedrijfsleider een momentopname van de **capaciteit van de onderneming om haar kortlopende schulden (≤ 1 jaar) tijdig te betalen** met haar vlottende activa of een deel ervan. 🔗
 > > 
 > > Concreet leert de bedrijfsleider hieruit:
 > > 
@@ -520,13 +431,13 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De ratio's zijn een **balanssnapshot**: ze zeggen niets over kasstroompatronen of seizoensschommelingen tijdens het jaar, en zijn vatbaar voor **window dressing** (bv. tijdelijk afbouwen van schulden vlak vóór balansdatum). Voor een volledig liquiditeitsbeeld combineert men ze met een kasstroomanalyse en evolutie over meerdere boekjaren. 🔗
 > > 
-> > *Klassieke financiële analyse (geen wettelijke verankering). Conceptueel uitgewerkt in: `current-ratio`, `quick-ratio`, `cash-ratio` (Certificaid-concepten, anker 1.3.II.C). 🤖*
+> > Klassieke financiële analyse (geen wettelijke verankering). Conceptueel uitgewerkt in: `current-ratio`, `quick-ratio`, `cash-ratio` (Certificaid-concepten, anker 1.3.II.C). 🤖
 >
 > **Met welke elementen houdt men geen rekening bij de berekening van de liquiditeit in enge zin en wel bij de berekening van de liquiditeit in ruime zin?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Bij de **liquiditeit in enge zin (quick ratio / acid test)** houdt men **geen rekening met de voorraden** (en, in een strikte variant, ook niet met de bestellingen in uitvoering en de overlopende rekeningen aan actiefzijde). Bij de **liquiditeit in ruime zin (current ratio)** worden deze posten **wél** meegerekend in de teller. 🔗_**
+> > Bij de **liquiditeit in enge zin (quick ratio / acid test)** houdt men **geen rekening met de voorraden** (en, in een strikte variant, ook niet met de bestellingen in uitvoering en de overlopende rekeningen aan actiefzijde). Bij de **liquiditeit in ruime zin (current ratio)** worden deze posten **wél** meegerekend in de teller. 🔗
 > > 
 > > | Bestanddeel teller | Liquiditeit in ruime zin (CR) | Liquiditeit in enge zin (QR) |
 > > |---|:---:|:---:|
@@ -543,14 +454,14 @@ gegenereerd_op: 2026-05-26
 > > - **Liquiditeit in ruime zin** = Vlottende activa / Schulden op ≤ 1 jaar 🔗
 > > - **Liquiditeit in enge zin** = (Vlottende activa – Voorraden – Bestellingen in uitvoering – Overlopende rekeningen) / Schulden op ≤ 1 jaar 🔗
 > > 
-> > *Conceptueel uitgewerkt in `current-ratio` (element `beperking-voorraden`: voorraden worden bij CR meegerekend maar zijn niet onmiddellijk liquid) en in de relatie `current-ratio ↔ quick-ratio` ("De quick ratio sluit voorraden uit de teller uit, waardoor een strengere liquiditeitsmeting ontstaat"). Anker 1.3.II.C. 🔗*  
+> > Conceptueel uitgewerkt in `current-ratio` (element `beperking-voorraden`: voorraden worden bij CR meegerekend maar zijn niet onmiddellijk liquid) en in de relatie `current-ratio ↔ quick-ratio` ("De quick ratio sluit voorraden uit de teller uit, waardoor een strengere liquiditeitsmeting ontstaat"). Anker 1.3.II.C. 🔗  
 > > *Bron: n.v.t. — financieel-analytisch concept, geen wettelijke definitie*
 >
 > Verklaar uw antwoord aangaande punt b.
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Voorraden en bestellingen in uitvoering zijn niet onmiddellijk liquide**: ze moeten eerst worden verkocht en daarna nog worden geïnd vóór ze cash opleveren. De liquiditeit in enge zin sluit ze daarom uit om een **scherpere, voorzichtiger** maatstaf te geven van de capaciteit om kortlopende schulden onmiddellijk te voldoen. 🔗_**
+> > **Voorraden en bestellingen in uitvoering zijn niet onmiddellijk liquide**: ze moeten eerst worden verkocht en daarna nog worden geïnd vóór ze cash opleveren. De liquiditeit in enge zin sluit ze daarom uit om een **scherpere, voorzichtiger** maatstaf te geven van de capaciteit om kortlopende schulden onmiddellijk te voldoen. 🔗
 > > 
 > > **Waarom dit onderscheid bestaat — drie redenen**:
 > > 
@@ -562,5 +473,5 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De cash ratio (liquiditeit in **strenge** zin) gaat nog een stap verder en houdt enkel de geldbeleggingen en liquide middelen over — relevant bij acute liquiditeitsnood. Voor dezelfde onderneming geldt steeds: **cash ratio ≤ quick ratio ≤ current ratio**. 🔗
 > > 
-> > *Concept-record `current-ratio`, element `beperking-voorraden`: "De current ratio houdt voorraden mee als vlottende activa, maar voorraden zijn niet onmiddellijk liquide: ze moeten eerst worden omgezet via verkoop en inning. Dit kan de werkelijke liquiditeitspositie overschatten — voor een scherper beeld vergelijkt men de current ratio met de quick ratio (die voorraden uitsluit)." 📖*  
+> > Concept-record `current-ratio`, element `beperking-voorraden`: "De current ratio houdt voorraden mee als vlottende activa, maar voorraden zijn niet onmiddellijk liquide: ze moeten eerst worden omgezet via verkoop en inning. Dit kan de werkelijke liquiditeitspositie overschatten — voor een scherper beeld vergelijkt men de current ratio met de quick ratio (die voorraden uitsluit)." 📖  
 > > *Bron: n.v.t.*

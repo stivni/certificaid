@@ -12,15 +12,10 @@ gegenereerd_op: 2026-05-26
 
 <a id="2024-1-vr10A"></a>
 
-> [!question]- Stellingen inzake financiële onafhankelijkheid
+> [!topic]- Stellingen inzake financiële onafhankelijkheid
 > *Examen 2024-1 (uit herinnering gereconstrueerd) · PO 1.2*
 >
-> > [!warning] Topic enkel — geen vraagstelling beschikbaar
-> > Stellingen ivm financiële onafhankelijkheid
-> 
-> > [!success]- Antwoord (klik om te openen)
-> >
-> > _Antwoord wacht op concept-laag._
+> _Stellingen ivm financiële onafhankelijkheid_
 
 <a id="2024-1-vr10B"></a>
 
@@ -31,7 +26,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De **rotatie / omloopsnelheid van het klantenkrediet** (de zogenaamde **n-dagen klantenkrediet** of *Days Sales Outstanding*) kan **niet** worden berekend op basis van een verkort schema. 🔗_**
+> > De **rotatie / omloopsnelheid van het klantenkrediet** (de zogenaamde **n-dagen klantenkrediet** of *Days Sales Outstanding*) kan **niet** worden berekend op basis van een verkort schema. 🔗
 > > 
 > > De formule is: **n-dagen klantenkrediet = (Handelsvorderingen op ten hoogste één jaar × 365) / Omzet incl. btw**. 🔗
 > > 
@@ -41,7 +36,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — Liquiditeits- en solvabiliteitsratio's (current ratio, quick ratio, cash ratio, schuldgraad, financiële onafhankelijkheid) zijn **wél** berekenbaar op een verkort schema: alle balansrubrieken die hierin nodig zijn (vlottende activa, voorraden, vorderingen, liquide middelen, schulden ≤ 1 jaar, eigen vermogen, totaal vreemd vermogen) staan ook in het verkort schema. Het probleem treft enkel ratio's die de **omzet** of een andere afzonderlijk niet-verplichte resultatenrekening-post als input nemen (bv. ook n-dagen leverancierskrediet vereist 'Aankopen 60', en bruto-verkoopmarge vereist Omzet — beide eveneens problematisch in het verkort schema). 🔗
 > > 
-> > *KB-WVV, bijlagen bij art. 3:11 (volledig schema) en art. 3:12 (verkort schema): in het verkort schema worden 70–74 samengevoegd tot rubriek 9900 *Brutomarge*. 📖 CBN-advies 2017/08 bevestigt dat het verkort en het volledig schema verschillen in de mate van detail van de resultatenrekening; sinds KB 18 december 2015 zijn beide schema's herwerkt maar de aggregatie tot brutomarge in het verkort schema blijft behouden. 🔗*  
+> > KB-WVV, bijlagen bij art. 3:11 (volledig schema) en art. 3:12 (verkort schema): in het verkort schema worden 70–74 samengevoegd tot rubriek 9900 *Brutomarge*. 📖 CBN-advies 2017/08 bevestigt dat het verkort en het volledig schema verschillen in de mate van detail van de resultatenrekening; sinds KB 18 december 2015 zijn beide schema's herwerkt maar de aggregatie tot brutomarge in het verkort schema blijft behouden. 🔗  
 > > *Bron: KB-WVV art. 3:11–3:12 + bijlagen schema's; CBN-advies 2017/08*
 
 <a id="2024-1-vr10C"></a>
@@ -53,7 +48,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De passief-rubrieken zijn gerangschikt volgens **toenemende eisbaarheid**: van het meest permanent (eigen vermogen) naar het meest opeisbaar op korte termijn (overlopende rekeningen passief). 📖_**
+> > De passief-rubrieken zijn gerangschikt volgens **toenemende eisbaarheid**: van het meest permanent (eigen vermogen) naar het meest opeisbaar op korte termijn (overlopende rekeningen passief). 📖
 > > 
 > > **Volgorde rubrieken passief** (KB WVV 2019, balansschema volledig model):
 > > 
@@ -73,7 +68,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil**: een lening op lange termijn waarbij de schuldeiser binnen het jaar kan opeisen, hoort op basis van dit rangschikkings-criterium onder VIII (schulden ≤ 1 jaar), niet onder VII — anders ontstaat een **vals beeld van liquiditeit** (CBN 2012/16). 📖
 > > 
-> > ***KB WVV 29.04.2019, art. 3:89** (balansschema volledig model — rubrieken I-IX van het passief). **CBN-advies 2012/16**: "de passiva worden gerangschikt in een stijgende lijn van eisbaarheid". **MAR (KB 21.10.2018, Bijlage 1)**, klasse 1 (eigen vermogen + voorzieningen + schulden > 1 jaar) en klasse 4 (schulden ≤ 1 jaar + overlopende rekeningen passief).* 📖  
+> > **KB WVV 29.04.2019, art. 3:89** (balansschema volledig model — rubrieken I-IX van het passief). **CBN-advies 2012/16**: "de passiva worden gerangschikt in een stijgende lijn van eisbaarheid". **MAR (KB 21.10.2018, Bijlage 1)**, klasse 1 (eigen vermogen + voorzieningen + schulden > 1 jaar) en klasse 4 (schulden ≤ 1 jaar + overlopende rekeningen passief). 📖  
 > > *Bron: KB WVV 2019 art. 3:89; CBN 2012/16; MAR klasse 1 en 4*
 
 <a id="2024-1-vr10D"></a>
@@ -100,7 +95,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil — kapitaalvennootschap vs. kapitaalloze vennootschap** ⚠️: sinds het WVV (1 januari 2020) hebben kapitaalloze vennootschappen (BV, CV) geen rubriek 'Kapitaal' meer; de inbreng wordt geboekt onder een 'statutair onbeschikbare eigen vermogensrekening'. De vraag specifieert expliciet **kapitaal**vennootschap (NV, Comm.VA, SE), waarvoor de klassieke rubriek I 'Kapitaal' wel blijft bestaan. 📖
 > > 
-> > ***KB WVV 29 april 2019, bijlage 2** (verkort schema balans, rubrieken I-VI van het passief) — de modellen worden door de NBB opgesteld na advies van de CBN en op haar website gepubliceerd. **CBN-advies 2020/01** geeft het overzicht van de samenstelling van het eigen vermogen per model (volledig, verkort, micro) en per vennootschapsvorm (kapitaal- vs. kapitaalloze vennootschap). 📖*  
+> > **KB WVV 29 april 2019, bijlage 2** (verkort schema balans, rubrieken I-VI van het passief) — de modellen worden door de NBB opgesteld na advies van de CBN en op haar website gepubliceerd. **CBN-advies 2020/01** geeft het overzicht van de samenstelling van het eigen vermogen per model (volledig, verkort, micro) en per vennootschapsvorm (kapitaal- vs. kapitaalloze vennootschap). 📖  
 > > *Bron: KB WVV 29 april 2019, bijlage 2; CBN-advies 2020/01*
 
 <a id="2024-1-vr10E"></a>
@@ -119,7 +114,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_**Geen effect** op de bruto verkoopmarge (optie **c**). 🔗 Afschrijvingen op gebouwen worden geboekt op rekening **6302 — Afschrijvingen op materiële vaste activa** (rubriek 63 van de resultatenrekening). Die rubriek staat **onder** de bruto verkoopmarge en raakt de marge dus niet. Dat de onderneming verlieslatend is, verandert hier niets aan — de plaats van de kost in het schema is structureel, niet resultaatafhankelijk. 🔗_**
+> > **Geen effect** op de bruto verkoopmarge (optie **c**). 🔗 Afschrijvingen op gebouwen worden geboekt op rekening **6302 — Afschrijvingen op materiële vaste activa** (rubriek 63 van de resultatenrekening). Die rubriek staat **onder** de bruto verkoopmarge en raakt de marge dus niet. Dat de onderneming verlieslatend is, verandert hier niets aan — de plaats van de kost in het schema is structureel, niet resultaatafhankelijk. 🔗
 > > 
 > > **Per optie**:
 > > - **a (Stijging)** — FOUT. Een hogere kost kan een marge nooit doen stijgen; en bovendien zit de kost niet in de teller van de marge. ❌
@@ -129,7 +124,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Bruto verkoopmarge ≠ bedrijfsresultaat.** De bruto marge meet enkel het verschil tussen omzet en directe inkoop-/voorraadkost (60/61). Alles wat in rubrieken 62 (personeel), 63 (afschrijvingen/waardeverminderingen), 64 (andere bedrijfskosten) zit, beïnvloedt het **bedrijfsresultaat** maar **niet** de bruto marge. Zelfde redenering geldt voor lonen, huur en waardeverminderingen op vorderingen: die zakken de winst, niet de bruto marge. 🔗 De verwijzing naar "verlieslatend" in de vraagstelling is een afleider — verlieslatendheid verandert het schema niet. 🤖
 > > 
-> > *Boeking afschrijvingen materiële vaste activa op rekening **6302** (MAR-ondernemingen, KB 21.10.2018 Bijlage 1, klasse 6 — rubriek 63 "Afschrijvingen en waardeverminderingen op oprichtingskosten, op immateriële en materiële vaste activa"). 📖 De resultatenrekening-rubrieken 60 (handelsgoederen, grond- en hulpstoffen) + 61 (diensten en diverse goederen) zijn de kostprijs verkochte goederen die in de bruto verkoopmarge ingaat; rubrieken 62-64 vallen erbuiten. 🔗 Concept-definitie afschrijvingen: KB WVV art. 3:23 — spreiden van aanschaffingswaarde over waarschijnlijke gebruiksduur. 📖*  
+> > Boeking afschrijvingen materiële vaste activa op rekening **6302** (MAR-ondernemingen, KB 21.10.2018 Bijlage 1, klasse 6 — rubriek 63 "Afschrijvingen en waardeverminderingen op oprichtingskosten, op immateriële en materiële vaste activa"). 📖 De resultatenrekening-rubrieken 60 (handelsgoederen, grond- en hulpstoffen) + 61 (diensten en diverse goederen) zijn de kostprijs verkochte goederen die in de bruto verkoopmarge ingaat; rubrieken 62-64 vallen erbuiten. 🔗 Concept-definitie afschrijvingen: KB WVV art. 3:23 — spreiden van aanschaffingswaarde over waarschijnlijke gebruiksduur. 📖  
 > > *Bron: MAR (KB 21.10.2018 Bijlage 1) klasse 6; KB WVV art. 3:23*
 
 <a id="2014-1-vr19"></a>
@@ -182,7 +177,7 @@ gegenereerd_op: 2026-05-26
 > >
 > > **Antwoord: c**
 > > 
-> > **_**Optie c** — beide vennootschappen moeten hun jaarrekening volgens het **volledig schema** opstellen. 🔗 De broers Legrand controleren samen beide BVBA's, waardoor 'Mise en Trop' en 'Coté Pratique' verbonden vennootschappen zijn; op geaggregeerde basis worden méér dan één van de groottecriteria overschreden, zodat geen van beide vennootschappen als 'klein' kan worden aangemerkt._** 🔗
+> > **Optie c** — beide vennootschappen moeten hun jaarrekening volgens het **volledig schema** opstellen. 🔗 De broers Legrand controleren samen beide BVBA's, waardoor 'Mise en Trop' en 'Coté Pratique' verbonden vennootschappen zijn; op geaggregeerde basis worden méér dan één van de groottecriteria overschreden, zodat geen van beide vennootschappen als 'klein' kan worden aangemerkt. 🔗
 > > 
 > > **Groottecriteria (W.Venn. art. 15, versie 2013 — drempels destijds: ≤ 50 personeel, omzet ≤ 7.300.000 EUR, balanstotaal ≤ 3.650.000 EUR; max 1 overschrijding = klein).** 🔗
 > > 
@@ -212,7 +207,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Aggregatie versus consolidatie verwarren.** Op enkelvoudige basis is 'Mise en Trop' net 'klein' (slechts omzet boven drempel = 1 overschrijding), en 'Coté Pratique' is sowieso 'klein'. Wie de aggregatie-regel mist, kiest verkeerdelijk optie a of b. ❓ Tweede valkuil: optie e suggereert dat 'verbonden' automatisch 'consolidatieplicht' betekent — fout, dat zijn aparte regels met eigen drempels en uitzonderingen (W.Venn. art. 113 — vrijstelling kleine groep). 🔗
 > > 
-> > ***W.Venn. art. 15 §1 en §5 (versie 2013)** — groottecriteria + verplichte beoordeling op geconsolideerde/geaggregeerde basis voor verbonden vennootschappen. **W.Venn. art. 11** — verbonden vennootschappen (gemeenschappelijke controle, ook door natuurlijke personen via centrale leiding). **CBN-advies 2017/10** — methodiek voor beoordeling groottecriteria bij verbondenheid. 📖 *Noot regime-evolutie: sinds W.Venn.-wijziging 2016 (omgezet in WVV art. 1:24 §6) geldt de geaggregeerde toets enkel nog voor moedervennootschappen sensu stricto — niet meer voor alle verbonden vennootschappen. Voor het examenboekjaar 2013 blijft het oude regime gelden.* 🔗*  
+> > **W.Venn. art. 15 §1 en §5 (versie 2013)** — groottecriteria + verplichte beoordeling op geconsolideerde/geaggregeerde basis voor verbonden vennootschappen. **W.Venn. art. 11** — verbonden vennootschappen (gemeenschappelijke controle, ook door natuurlijke personen via centrale leiding). **CBN-advies 2017/10** — methodiek voor beoordeling groottecriteria bij verbondenheid. 📖 *Noot regime-evolutie: sinds W.Venn.-wijziging 2016 (omgezet in WVV art. 1:24 §6) geldt de geaggregeerde toets enkel nog voor moedervennootschappen sensu stricto — niet meer voor alle verbonden vennootschappen. Voor het examenboekjaar 2013 blijft het oude regime gelden.* 🔗  
 > > *Bron: W.Venn. art. 11; W.Venn. art. 15 (versie 2013)*
 
 <a id="2013-2-vr2"></a>
@@ -228,7 +223,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Op de eerste bladzijde vermeldt de vennootschap de **bestuurders die in functie zijn op het moment van de vaststelling van de jaarrekening** door het bestuursorgaan — dus de nieuw benoemde bestuurders, en niet de ontslagnemers (tenzij zij vrijwillig worden opgenomen om hun aansprakelijkheid te documenteren). 🔗_**
+> > Op de eerste bladzijde vermeldt de vennootschap de **bestuurders die in functie zijn op het moment van de vaststelling van de jaarrekening** door het bestuursorgaan — dus de nieuw benoemde bestuurders, en niet de ontslagnemers (tenzij zij vrijwillig worden opgenomen om hun aansprakelijkheid te documenteren). 🔗
 > > 
 > > Het criterium is **'bestuurder in functie op datum van vaststelling van de jaarrekening'** (= datum waarop het bestuursorgaan de jaarrekening opmaakt en voorlegt aan de AV), niet 'bestuurder tijdens het boekjaar'. 📖 Gevolg voor de drie typische scenario's:
 > > 
@@ -238,7 +233,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — Het is **courante praktijk** om de ontslagnemers tóch op te nemen (met begin- en einddatum van het mandaat), omdat dit de **aansprakelijkheid voor fouten tijdens hun bestuursperiode** documenteert. Dit is een mogelijkheid, geen verplichting. 📖
 > > 
-> > *CBN-advies 2020/09 (Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris) — peildatum is de **vaststelling van de jaarrekening door het bestuursorgaan**. De te vermelden gegevens zijn naam, voornaam, beroep en woonplaats van elke bestuurder in functie op die datum.* 📖  
+> > CBN-advies 2020/09 (Vermelding in de jaarrekening van de gegevens van de bestuurders en de commissaris) — peildatum is de **vaststelling van de jaarrekening door het bestuursorgaan**. De te vermelden gegevens zijn naam, voornaam, beroep en woonplaats van elke bestuurder in functie op die datum. 📖  
 > > *Bron: CBN-advies 2020/09*
 >
 > Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens een langere economische levensduur.
@@ -247,7 +242,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Prospectief** verwerken: het bestuursorgaan past het afschrijvingsplan aan voor het lopende en de toekomstige boekjaren. De **resterende boekwaarde** wordt afgeschreven over de **nieuwe (langere) restgebruiksduur**. Geen retroactieve correctie van vorige boekjaren, geen terugname van reeds geboekte afschrijvingen. 🔗_**
+> > **Prospectief** verwerken: het bestuursorgaan past het afschrijvingsplan aan voor het lopende en de toekomstige boekjaren. De **resterende boekwaarde** wordt afgeschreven over de **nieuwe (langere) restgebruiksduur**. Geen retroactieve correctie van vorige boekjaren, geen terugname van reeds geboekte afschrijvingen. 🔗
 > > 
 > > Stappen:
 > > 
@@ -258,7 +253,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — Niet verwarren met BE-GAAP en IFRS-terminologie: onder BE-GAAP heet dit een **wijziging van (de invulling van) de waarderingsregels** (toelichten in de toelichting + motivatie), terwijl IFRS dit een **schattingswijziging** (IAS 8) noemt. Behandeling is in beide kaders **prospectief**, maar de openbaarmakingsverplichtingen verschillen. ❓
 > > 
-> > *Art. 3:6 § 1, 4° KB WVV (vermelding en motivering van wijziging waarderingsregels in de toelichting) + art. 3:42 KB WVV (afschrijvingsplan vastgesteld door bestuursorgaan, te herzien bij wijziging economische omstandigheden). CBN-advies 2019/04 expliciteert dit met als voorbeeld een verlenging van de economische levensduur. CBN-advies 2010/15 over afschrijvingsmethoden en -periode.* 🔗  
+> > Art. 3:6 § 1, 4° KB WVV (vermelding en motivering van wijziging waarderingsregels in de toelichting) + art. 3:42 KB WVV (afschrijvingsplan vastgesteld door bestuursorgaan, te herzien bij wijziging economische omstandigheden). CBN-advies 2019/04 expliciteert dit met als voorbeeld een verlenging van de economische levensduur. CBN-advies 2010/15 over afschrijvingsmethoden en -periode. 🔗  
 > > *Bron: art. 3:6 §1, 4° en art. 3:42 KB WVV; CBN-advies 2019/04; CBN-advies 2010/15*
 
 <a id="2013-2-vr14"></a>
@@ -272,7 +267,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Adviseer de cliënt om de vier ontbrekende jaarrekeningen **onmiddellijk en in chronologische volgorde** te laten goedkeuren door de algemene vergadering (zo nodig retroactief vaststellen) en elektronisch neer te leggen bij de Balanscentrale van de Nationale Bank van België, met betaling van de tariefbijdrage voor laattijdige neerlegging per boekjaar. 🔗_**
+> > Adviseer de cliënt om de vier ontbrekende jaarrekeningen **onmiddellijk en in chronologische volgorde** te laten goedkeuren door de algemene vergadering (zo nodig retroactief vaststellen) en elektronisch neer te leggen bij de Balanscentrale van de Nationale Bank van België, met betaling van de tariefbijdrage voor laattijdige neerlegging per boekjaar. 🔗
 > > 
 > > Concrete stappen:
 > > 
@@ -286,7 +281,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Het advies is dringend omdat niet-neerlegging drie cumulerende risico's blootlegt: (i) een **financiële tariefbijdrage** per laattijdig boekjaar, (ii) **burgerlijke aansprakelijkheid van het bestuursorgaan** jegens derden voor schade door de niet-neerlegging, en (iii) een **gerechtelijke ontbinding** van de BV op vordering van iedere belanghebbende of het openbaar ministerie. 🔗_**
+> > Het advies is dringend omdat niet-neerlegging drie cumulerende risico's blootlegt: (i) een **financiële tariefbijdrage** per laattijdig boekjaar, (ii) **burgerlijke aansprakelijkheid van het bestuursorgaan** jegens derden voor schade door de niet-neerlegging, en (iii) een **gerechtelijke ontbinding** van de BV op vordering van iedere belanghebbende of het openbaar ministerie. 🔗
 > > 
 > > **Drie sanctie-sporen:**
 > > 
@@ -296,7 +291,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Valkuil** — De oude voorwaarde dat de niet-neerlegging gedurende **drie opeenvolgende boekjaren** moest hebben plaatsgevonden vooraleer een gerechtelijke ontbinding mogelijk was (oud art. 182 W.Venn.) **bestaat sinds de Wet van 17 mei 2017 niet meer**. Onder het huidige WVV (art. 2:74) volstaat één niet-neergelegd boekjaar opdat de vordering ontvankelijk is na het verstrijken van zeven maanden na boekjaarafsluiting. Dat de casus uit 2013 dateert, doet daar voor het advies vandaag niet aan af: er moet getoetst worden aan het thans geldende WVV. 🔗
 > > 
-> > ***Neerleggingsplicht en termijn**: art. 3:10 en 3:12 WVV (elektronisch bij Balanscentrale NBB binnen 30 dagen na AV-goedkeuring, uiterlijk 7 maanden na boekjaarafsluiting). **Tariefbijdrage laattijdige neerlegging**: art. 3:13 WVV (bedragen Cijferzakboekje). **Bestuurdersaansprakelijkheid**: art. 3:1 § 1 jo. 3:10/3:12 WVV — schade derden vermoed voort te vloeien uit niet-neerlegging. **Gerechtelijke ontbinding**: art. 2:74 § 1 WVV (vordering door belanghebbende, OM of na mededeling kamer voor ondernemingen in moeilijkheden; regularisatietermijn mogelijk; vordering pas na zeven maanden na boekjaarafsluiting). 📖*  
+> > **Neerleggingsplicht en termijn**: art. 3:10 en 3:12 WVV (elektronisch bij Balanscentrale NBB binnen 30 dagen na AV-goedkeuring, uiterlijk 7 maanden na boekjaarafsluiting). **Tariefbijdrage laattijdige neerlegging**: art. 3:13 WVV (bedragen Cijferzakboekje). **Bestuurdersaansprakelijkheid**: art. 3:1 § 1 jo. 3:10/3:12 WVV — schade derden vermoed voort te vloeien uit niet-neerlegging. **Gerechtelijke ontbinding**: art. 2:74 § 1 WVV (vordering door belanghebbende, OM of na mededeling kamer voor ondernemingen in moeilijkheden; regularisatietermijn mogelijk; vordering pas na zeven maanden na boekjaarafsluiting). 📖  
 > > *Bron: art. 3:10, 3:12, 3:13, 3:1 § 1 en 2:74 WVV*
 
 <a id="2013-1-vr1"></a>
@@ -355,7 +350,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Ja — BVBA XYZ moet haar waarderingsregels verantwoorden, maar omdat zij op basis van de balans (175.000 EUR balanstotaal) ruim onder de groottecriteria zit, is zij **vrijgesteld van het jaarverslag** en gebeurt de verantwoording **in de toelichting bij de jaarrekening** (verkort schema). 🔗_**
+> > Ja — BVBA XYZ moet haar waarderingsregels verantwoorden, maar omdat zij op basis van de balans (175.000 EUR balanstotaal) ruim onder de groottecriteria zit, is zij **vrijgesteld van het jaarverslag** en gebeurt de verantwoording **in de toelichting bij de jaarrekening** (verkort schema). 🔗
 > > 
 > > **Twee verplichtingen, nét onderscheiden**:
 > > 
@@ -366,9 +361,9 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard — bestendigheid betekent geen onveranderlijkheid** → de waarderingsregels **moeten** worden aangepast wanneer ze door belangrijke veranderingen in activiteit, vermogensstructuur of economische/technologische omstandigheden niet langer een getrouw beeld geven. De aanpassing wordt dan **vermeld én verantwoord** in de toelichting, samen met de inschatting van de invloed op het boekjaar waarin de wijziging voor het eerst werd toegepast. Een louter resultaatsdaling (zoals hier: +15.000 → –5.000) is op zich **geen reden** om de waarderingsregels te wijzigen — het is een aanwijzing om kritisch te kijken, maar wijziging vereist een onderliggende structurele oorzaak. 🔗
 > > 
-> > ***Bestendigheidsbeginsel + verantwoording in toelichting**: KB W.Venn. 30/01/2001 art. 28 (toepasselijk op boekjaar 2012) — vandaag KB-WVV 29/04/2019 art. 3:6 (waarderingsregels identiek van boekjaar tot boekjaar; aanpassing wordt vermeld en verantwoord in de toelichting + inschatting invloed). 📖
+> > **Bestendigheidsbeginsel + verantwoording in toelichting**: KB W.Venn. 30/01/2001 art. 28 (toepasselijk op boekjaar 2012) — vandaag KB-WVV 29/04/2019 art. 3:6 (waarderingsregels identiek van boekjaar tot boekjaar; aanpassing wordt vermeld en verantwoord in de toelichting + inschatting invloed). 📖
 > > 
-> > **Vrijstelling jaarverslag voor kleine vennootschappen**: oud W.Venn. art. 94, § 1 + art. 15 (groottecriteria) — vandaag art. 3:5 WVV. Boekjaar 2012-drempels: balanstotaal 3.650.000 EUR / omzet 7.300.000 EUR / personeel 50 (☰ te verifiëren in Cijferzakboekje 2012-versie). 🔗*  
+> > **Vrijstelling jaarverslag voor kleine vennootschappen**: oud W.Venn. art. 94, § 1 + art. 15 (groottecriteria) — vandaag art. 3:5 WVV. Boekjaar 2012-drempels: balanstotaal 3.650.000 EUR / omzet 7.300.000 EUR / personeel 50 (☰ te verifiëren in Cijferzakboekje 2012-versie). 🔗  
 > > *Bron: KB W.Venn. 30/01/2001 art. 28 (oud) / KB-WVV 29/04/2019 art. 3:6 — bestendigheidsbeginsel + toelichting; oud W.Venn. art. 94 § 1 + art. 15 / art. 3:5 WVV — vrijstelling jaarverslag kleine vennootschap; CBN-advies 154/1; CBN-advies 2019/04*
 
 <a id="2008-bibf-vrB2"></a>
@@ -382,25 +377,25 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Vennootschap A **moet het volledig schema** gebruiken: met 120 voltijdse equivalenten overschrijdt zij de personeelsdrempel (50 VTE) en kwalificeert daardoor als **grote vennootschap**. 🔗_**
+> > Vennootschap A **moet het volledig schema** gebruiken: met 120 voltijdse equivalenten overschrijdt zij de personeelsdrempel (50 VTE) en kwalificeert daardoor als **grote vennootschap**. 🔗
 > > 
 > > Een vennootschap is klein als zij op balansdatum **maximaal één** van drie groottecriteria overschrijdt (personeel 50 VTE, omzet excl. BTW 9.000.000 EUR, balanstotaal 4.500.000 EUR). 📖 A heeft 120 VTE → personeelscriterium overschreden, en als moedervennootschap moet zij bovendien op **geconsolideerde basis** toetsen (omzet en balanstotaal van de groep meetellen of vereenvoudigde +20%-methode toepassen). 🔗 Zelfs zonder die consolidatie volstaat het personeelscriterium om als groot te kwalificeren — kwalificatie als 'klein' is uitgesloten zodra **meer dan één** criterium wordt overschreden gedurende twee opeenvolgende boekjaren (art. 1:24 §2 WVV). 📖 Grote vennootschappen gebruiken het volledig schema (bijlage 1 KB-WVV). 🔗
 > > 
 > > **Vermeldenswaard.** Een moedervennootschap kan **nooit** een microvennootschap zijn (art. 1:25 §1 WVV vereist 'geen dochter of moeder'). 📖 A is dus ofwel klein (verkort schema) ofwel groot (volledig schema), maar nooit micro. 📖
 > > 
-> > *Art. 1:24 §1 WVV (groottecriteria klein), art. 1:24 §6 WVV (geconsolideerde toetsing voor moedervennootschappen), art. 1:25 §1 WVV (microvennootschap kan geen moeder zijn), KB-WVV bijlage 1 (volledig schema) en bijlage 2 (verkort schema). CBN-advies 2022/03 verfijnt de toetsing op geconsolideerde of geaggregeerde basis (+20%-methode).* 📖
+> > Art. 1:24 §1 WVV (groottecriteria klein), art. 1:24 §6 WVV (geconsolideerde toetsing voor moedervennootschappen), art. 1:25 §1 WVV (microvennootschap kan geen moeder zijn), KB-WVV bijlage 1 (volledig schema) en bijlage 2 (verkort schema). CBN-advies 2022/03 verfijnt de toetsing op geconsolideerde of geaggregeerde basis (+20%-methode). 📖
 >
 > **Welk schema moet/mag de vennootschap B voor haar jaarrekening gebruiken?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Vennootschap B **mag het verkort schema** gebruiken: op enkelvoudige basis (5 VTE, 2.000.000 EUR omzet) overschrijdt zij geen enkel criterium en kwalificeert zij als **kleine vennootschap**. Als dochter van A kan zij echter géén microvennootschap zijn. 🔗_**
+> > Vennootschap B **mag het verkort schema** gebruiken: op enkelvoudige basis (5 VTE, 2.000.000 EUR omzet) overschrijdt zij geen enkel criterium en kwalificeert zij als **kleine vennootschap**. Als dochter van A kan zij echter géén microvennootschap zijn. 🔗
 > > 
 > > De groottetoetsing op geconsolideerde of geaggregeerde basis geldt enkel voor **moedervennootschappen** (art. 1:24 §6 WVV — CBN 2022/03: "de andere verbonden vennootschappen — hoofdzakelijk de dochtervennootschappen — worden niet beoogd door deze uitzondering"). 📖 B wordt dus op **enkelvoudige basis** beoordeeld: 5 VTE (< 50), 2 mio EUR omzet (< 9 mio), balanstotaal onbekend maar gegeven de schaal vermoedelijk onder 4,5 mio. 🔗 Geen enkel criterium overschreden → klein → **verkort schema** (bijlage 2 KB-WVV). 🔗 Microschema is uitgesloten omdat B een dochtervennootschap is (art. 1:25 §1 WVV). 📖
 > > 
 > > **Valkuil.** Het is verleidelijk te denken dat de dochter de grootte van de moeder 'erft' — dat klopt niet. De geconsolideerde toetsing geldt enkel bij de moeder zelf; de dochter blijft op enkelvoudige basis beoordeeld voor klein/groot. Wat de dochter wél verliest door het loutere feit dochter te zijn, is de microkwalificatie. 🔗
 > > 
-> > *Art. 1:24 §1 en §6 WVV (groottecriteria + scope geconsolideerde toetsing beperkt tot moedervennootschappen), art. 1:25 §1 WVV (microvennootschap: geen moeder of dochter), KB-WVV bijlage 2 (verkort schema). CBN-advies 2022/03 §Toepassingsgebied: dochters worden niet beoogd door de uitzondering op geconsolideerde basis.* 📖
+> > Art. 1:24 §1 en §6 WVV (groottecriteria + scope geconsolideerde toetsing beperkt tot moedervennootschappen), art. 1:25 §1 WVV (microvennootschap: geen moeder of dochter), KB-WVV bijlage 2 (verkort schema). CBN-advies 2022/03 §Toepassingsgebied: dochters worden niet beoogd door de uitzondering op geconsolideerde basis. 📖
 
 <a id="2008-bibf-vrB3"></a>
 
@@ -413,18 +408,18 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Het ereloon van de commissaris (12.000 EUR excl. BTW) wordt geboekt in **rubriek 61 'Diensten en diverse goederen'**, sub-rekening **61310 'Erelonen en dienstverleningen'** (binnen 613 'Vergoedingen aan derden'). 📖_**
+> > Het ereloon van de commissaris (12.000 EUR excl. BTW) wordt geboekt in **rubriek 61 'Diensten en diverse goederen'**, sub-rekening **61310 'Erelonen en dienstverleningen'** (binnen 613 'Vergoedingen aan derden'). 📖
 > > 
 > > De commissaris is een externe dienstverlener (bedrijfsrevisor) met een controle-mandaat — geen werknemer en geen bestuurder/zaakvoerder. Zijn ereloon valt dus **niet** onder rekening 618 (bezoldigingen van bestuurders, zaakvoerders en werkende vennoten) en evenmin onder klasse 62 (personeelsbezoldigingen krachtens arbeidsovereenkomst), maar onder de erelonen aan derden in klasse 61. 🔗
 > > 
-> > *Minimum Algemeen Rekeningstelsel (KB 21.10.2018, Bijlage 1) — klasse 6, rubriek **61 Diensten en diverse goederen**, post **613 Vergoedingen aan derden**, sub-rekening **61310 Erelonen en dienstverleningen**.* 📖  
+> > Minimum Algemeen Rekeningstelsel (KB 21.10.2018, Bijlage 1) — klasse 6, rubriek **61 Diensten en diverse goederen**, post **613 Vergoedingen aan derden**, sub-rekening **61310 Erelonen en dienstverleningen**. 📖  
 > > *Bron: MAR — KB 21.10.2018 Bijlage 1, rekening 61310*
 >
 > **Moeten hieromtrent inlichtingen worden opgenomen in de jaarrekening?**
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Ja.** De honoraria van de commissaris moeten worden vermeld in de **toelichting bij de jaarrekening**. 📖_**
+> > **Ja.** De honoraria van de commissaris moeten worden vermeld in de **toelichting bij de jaarrekening**. 📖
 > > 
 > > Twee samenlopende vermeldingsplichten:
 > > 
@@ -433,7 +428,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard — uitzondering 'identificeerbaar persoon'**: wanneer de vennootschap één enkele commissaris heeft en geen andere bezoldigde bestuurders/zaakvoerders, kan de globale-bezoldigingsvermelding (CBN 111/2) worden weggelaten omdat ze dan uitsluitend de toestand van één identificeerbaar persoon zou bloot leggen. De honoraria-vermelding van de commissaris (art. 3:65 WVV) blijft echter onverkort gelden — dat is een afzonderlijke transparantieverplichting die niet onder die uitzondering valt. 🔗
 > > 
-> > ***Honoraria commissaris**: art. 3:65 WVV (oud art. 134 W.Venn., toepasselijk in 2008) — honoraria vastgesteld bij aanvang opdracht, vermelding in toelichting. **Globale bezoldigingsvermelding bestuurders + commissarissen**: KB 8 oktober 1976 op de jaarrekening (toepasselijk in 2008; nadien geconsolideerd in KB 30.01.2001 en uitvoeringsbesluit WVV), uitgelegd door CBN-advies 111/1, 111/2 en (later) 2016/15.* 📖  
+> > **Honoraria commissaris**: art. 3:65 WVV (oud art. 134 W.Venn., toepasselijk in 2008) — honoraria vastgesteld bij aanvang opdracht, vermelding in toelichting. **Globale bezoldigingsvermelding bestuurders + commissarissen**: KB 8 oktober 1976 op de jaarrekening (toepasselijk in 2008; nadien geconsolideerd in KB 30.01.2001 en uitvoeringsbesluit WVV), uitgelegd door CBN-advies 111/1, 111/2 en (later) 2016/15. 📖  
 > > *Bron: Art. 3:65 WVV (oud art. 134 W.Venn.); KB 8.10.1976; CBN-advies 111/1, 111/2, 2016/15*
 
 <a id="2008-bibf-vrB4"></a>
@@ -447,7 +442,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_De op te nemen kost (rubriek opleiding van de sociale balans, codes 5821/5822 — formele voortgezette beroepsopleiding) = **(a) directe opleidingskosten** (inschrijvingsgeld voor het seminarie + cursusmateriaal + eventuele verplaatsings- en verblijfkosten) **+ (b) loonkost van de afwezige werknemer voor de duur van het seminarie** (brutoloon pro rata + werkgeversbijdragen, want de opleiding vindt plaats *tijdens* de diensturen), **− (c) ontvangen of verworven tussenkomsten/subsidies** (bv. KMO-portefeuille, opleidingscheques, sectorfondsen). 🔗_**
+> > De op te nemen kost (rubriek opleiding van de sociale balans, codes 5821/5822 — formele voortgezette beroepsopleiding) = **(a) directe opleidingskosten** (inschrijvingsgeld voor het seminarie + cursusmateriaal + eventuele verplaatsings- en verblijfkosten) **+ (b) loonkost van de afwezige werknemer voor de duur van het seminarie** (brutoloon pro rata + werkgeversbijdragen, want de opleiding vindt plaats *tijdens* de diensturen), **− (c) ontvangen of verworven tussenkomsten/subsidies** (bv. KMO-portefeuille, opleidingscheques, sectorfondsen). 🔗
 > > 
 > > Stappenplan voor de berekening:
 > > 
@@ -459,7 +454,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — Het seminarie is een **formele voortgezette beroepsopleiding** (extern georganiseerd, met vooraf bepaald programma, buiten de werkplek) en komt dus in de specifieke rubriek voor formele opleiding (codes 58.01–58.31 in het volledig schema). Dat is anders dan informele opleiding (on-the-job, codes 58.40-reeks) of initiële opleiding (codes 58.50-reeks): de wet onderscheidt expliciet drie categorieën, elk met eigen uren-, deelnemers- en kost-codes. ❓
 > > 
-> > ***CBN-advies S100** *Vragen en antwoorden over de sociale balans* — bepaalt welke kosten in welke rubriek thuishoren en bevestigt dat de personeelskosten in rubriek 102 alles omvatten wat naar de aard op rekening 62 wordt geboekt (bezoldigingen + werkgeversbijdragen + bovenwettelijke verzekeringen + andere personeelskosten). 📖 Voor de opleidingscomponent specifiek: KB 30 januari 2001 (uitvoering W.Venn., nu KB/WVV 29 april 2019) art. 3:71 e.v. — model van de sociale balans, met aparte rubrieken voor de kosten van formele, informele en initiële beroepsopleiding. 🔗 Voor tussenkomsten/subsidies: CBN-advies 2013/8 over opleidingscheques (subsidie wordt als bedrijfsopbrengst 740 geboekt → nettokost = brutokost − subsidie). 📖*  
+> > **CBN-advies S100** *Vragen en antwoorden over de sociale balans* — bepaalt welke kosten in welke rubriek thuishoren en bevestigt dat de personeelskosten in rubriek 102 alles omvatten wat naar de aard op rekening 62 wordt geboekt (bezoldigingen + werkgeversbijdragen + bovenwettelijke verzekeringen + andere personeelskosten). 📖 Voor de opleidingscomponent specifiek: KB 30 januari 2001 (uitvoering W.Venn., nu KB/WVV 29 april 2019) art. 3:71 e.v. — model van de sociale balans, met aparte rubrieken voor de kosten van formele, informele en initiële beroepsopleiding. 🔗 Voor tussenkomsten/subsidies: CBN-advies 2013/8 over opleidingscheques (subsidie wordt als bedrijfsopbrengst 740 geboekt → nettokost = brutokost − subsidie). 📖  
 > > *Bron: CBN-advies S100; KB/WVV 29 april 2019, art. 3:71 e.v.; CBN-advies 2013/8*
 
 <a id="2003-bibf-vrB1"></a>
@@ -471,9 +466,9 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_**Wie**: natuurlijke personen-ondernemers, organisaties zonder rechtspersoonlijkheid (bv. maatschap), vennootschappen onder firma (VOF) en gewone commanditaire vennootschappen (Comm.V), op voorwaarde dat hun omzet excl. btw over het laatste boekjaar **€ 500.000 niet overschrijdt** (€ 620.000 voor kleinhandel in motorbrandstoffen). 📖
+> > **Wie**: natuurlijke personen-ondernemers, organisaties zonder rechtspersoonlijkheid (bv. maatschap), vennootschappen onder firma (VOF) en gewone commanditaire vennootschappen (Comm.V), op voorwaarde dat hun omzet excl. btw over het laatste boekjaar **€ 500.000 niet overschrijdt** (€ 620.000 voor kleinhandel in motorbrandstoffen). 📖
 > > 
-> > **Wat**: een boekhouding gevoerd in **ten minste drie dagboeken** — financieel dagboek (bank/kas), aankoopdagboek (alle uitgaven) en verkoopdagboek (alle inkomsten) — aangevuld met een **jaarlijkse inventaris** en een **interne (vereenvoudigde) jaarrekening** (staat van ontvangsten en uitgaven + opgave van het vermogen). 📖_**
+> > **Wat**: een boekhouding gevoerd in **ten minste drie dagboeken** — financieel dagboek (bank/kas), aankoopdagboek (alle uitgaven) en verkoopdagboek (alle inkomsten) — aangevuld met een **jaarlijkse inventaris** en een **interne (vereenvoudigde) jaarrekening** (staat van ontvangsten en uitgaven + opgave van het vermogen). 📖
 > > 
 > > **Toepassingsgebied — cumulatief twee voorwaarden** (art. III.85 §1 WER + KB 21 oktober 2018 art. 1) 🔗:
 > > 
@@ -496,7 +491,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Historische nuance** (relevant voor het 2003-vraagstuk): de vraag dateert van 2003, vóór het WER en vóór de hervorming ondernemingsrecht 2018. De toenmalige rechtsbasis was de boekhoudwet van 17 juli 1975 + KB 12 september 1983 met destijds een omzetdrempel van € 500.000 voor 'kleine handelaars/ambachtslieden'. De kern (drie dagboeken + beperkte rechtsvormen + omzetdrempel) is door de tijd dezelfde gebleven; alleen de wetsverwijzingen en het ondernemingsbegrip zijn vernieuwd. 🔗
 > > 
-> > ***Art. III.85 §1 WER** (mogelijkheid tot vereenvoudigde boekhouding voor bepaalde ondernemingen onder een omzetdrempel) + **KB 21 oktober 2018 art. 1** (rechtsvormen + drempels € 500.000 / € 620.000). 📖 Praktische uitwerking: **CBN-advies 2019/10** (drie dagboeken, inventaris, interne jaarrekening) + **CBN-advies 174/1** (beginselen regelmatige boekhouding) + **CBN-advies 2019/11** (omzetbegrip onder verruimd ondernemingsbegrip). 📖*  
+> > **Art. III.85 §1 WER** (mogelijkheid tot vereenvoudigde boekhouding voor bepaalde ondernemingen onder een omzetdrempel) + **KB 21 oktober 2018 art. 1** (rechtsvormen + drempels € 500.000 / € 620.000). 📖 Praktische uitwerking: **CBN-advies 2019/10** (drie dagboeken, inventaris, interne jaarrekening) + **CBN-advies 174/1** (beginselen regelmatige boekhouding) + **CBN-advies 2019/11** (omzetbegrip onder verruimd ondernemingsbegrip). 📖  
 > > *Bron: WER art. III.85 §1; KB 21-10-2018 art. 1; CBN 2019/10; CBN 2019/11; CBN 174/1*
 
 <a id="2003-bibf-vrB2"></a>
@@ -508,7 +503,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_In het **centraal boek** (centralisatieboek) worden de **samenvattende (gecentraliseerde) boekingen** opgenomen van alle mutaties die voorafgaandelijk in de **hulpdagboeken** (aankoop-, verkoop- en financieel dagboek) werden ingeschreven, gegroepeerd per rekening. 📖 De inschrijving gebeurt **ten minste één keer per maand**. 📖_**
+> > In het **centraal boek** (centralisatieboek) worden de **samenvattende (gecentraliseerde) boekingen** opgenomen van alle mutaties die voorafgaandelijk in de **hulpdagboeken** (aankoop-, verkoop- en financieel dagboek) werden ingeschreven, gegroepeerd per rekening. 📖 De inschrijving gebeurt **ten minste één keer per maand**. 📖
 > > 
 > > **Inhoud** — De wetgever wou niet dat élk gegeven uit de hulpdagboeken letterlijk wordt overgeschreven, maar wel het **geheel van de gegevens, gegroepeerd volgens gemeenschappelijke kenmerken** (per rekening / per kolom van het hulpdagboek). 📖 Het centraal boek bevat dus per periode de **totalen per rekening** zoals die uit de gespecialiseerde dagboeken (aankopen, verkopen, financieel, diversen) voortvloeien. 🔗
 > > 
@@ -516,7 +511,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — De verplichting tot het houden van een centraal boek **vervalt** wanneer de hulpdagboeken zelf door de griffie zijn **geviseerd (en in voorkomend geval geparafeerd)**: in dat geval is de onuitwisbaarheid van de boekingen al gewaarborgd en is een afzonderlijke centralisatie overbodig. 📖 Sinds het KB van 21 oktober 2018 (art. 5) geldt dit ook expliciet voor verenigingen met een vereenvoudigde boekhouding. 🔗
 > > 
-> > *Art. 4 wet 17 juli 1975 op de boekhouding (van kracht in 2003) — verplichting centralisatieboek + samenvattende boekingen; CBN-advies 4/1 (inhoud: gegroepeerde gegevens, niet elke individuele lijn); CBN-advies 174/1 (periodieke centralisatie, minstens maandelijks); CBN-advies 4/3 (vrijstelling bij geviseerde hulpdagboeken). Nu hernomen in art. III.84 WER + KB 21/10/2018.* 🔗  
+> > Art. 4 wet 17 juli 1975 op de boekhouding (van kracht in 2003) — verplichting centralisatieboek + samenvattende boekingen; CBN-advies 4/1 (inhoud: gegroepeerde gegevens, niet elke individuele lijn); CBN-advies 174/1 (periodieke centralisatie, minstens maandelijks); CBN-advies 4/3 (vrijstelling bij geviseerde hulpdagboeken). Nu hernomen in art. III.84 WER + KB 21/10/2018. 🔗  
 > > *Bron: Wet 17 juli 1975 art. 4; thans art. III.84 WER; CBN 4/1, 174/1, 4/3; KB 21/10/2018 art. 5*
 
 <a id="2003-bibf-vrB3"></a>
@@ -528,7 +523,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Enkel **materiële vaste activa** en **deelnemingen/aandelen onder de financiële vaste activa** mogen worden geherwaardeerd, op voorwaarde dat de meerwaarde **vaststaand en duurzaam** is, en — wanneer de activa noodzakelijk zijn voor de voortzetting van het bedrijf — verantwoord door de **rentabiliteit** van de vennootschap (of het betrokken bedrijfsonderdeel). De geherwaardeerde waarde moet worden **verantwoord in de toelichting** bij de jaarrekening. 📖_**
+> > Enkel **materiële vaste activa** en **deelnemingen/aandelen onder de financiële vaste activa** mogen worden geherwaardeerd, op voorwaarde dat de meerwaarde **vaststaand en duurzaam** is, en — wanneer de activa noodzakelijk zijn voor de voortzetting van het bedrijf — verantwoord door de **rentabiliteit** van de vennootschap (of het betrokken bedrijfsonderdeel). De geherwaardeerde waarde moet worden **verantwoord in de toelichting** bij de jaarrekening. 📖
 > > 
 > > **Toepassingsgebied (welke activa):**
 > > - **Materiële vaste activa** (terreinen, gebouwen, installaties, …). 📖
@@ -545,7 +540,7 @@ gegenereerd_op: 2026-05-26
 > > 
 > > **Vermeldenswaard** — herwaardering is een **optie, geen verplichting**: ze vereist grote voorzichtigheid. De meerwaarde wordt rechtstreeks geboekt op passiefpost **III. Herwaarderingsmeerwaarden** (eigen vermogen) en is **niet uitkeerbaar** zolang de meerwaarde niet is gerealiseerd. De boeking raakt de balans, niet de resultatenrekening. 📖
 > > 
-> > ***Art. 3:35 KB WVV** (vroeger art. 57 KB W.Venn. — destijds toepasselijk voor het BIBF-examen 2003): toepassingsgebied (materiële vaste activa + deelnemingen/aandelen onder FVA), voorwaarden (vaststaand en duurzaam, rentabiliteitsverantwoording) en toelichtingsverplichting. **CBN-advies 2011/14 — Herwaarderingsmeerwaarden** detailleert de beoordeling door het bestuursorgaan en het afschrijvingsplan voor afschrijfbare geherwaardeerde activa. 📖*  
+> > **Art. 3:35 KB WVV** (vroeger art. 57 KB W.Venn. — destijds toepasselijk voor het BIBF-examen 2003): toepassingsgebied (materiële vaste activa + deelnemingen/aandelen onder FVA), voorwaarden (vaststaand en duurzaam, rentabiliteitsverantwoording) en toelichtingsverplichting. **CBN-advies 2011/14 — Herwaarderingsmeerwaarden** detailleert de beoordeling door het bestuursorgaan en het afschrijvingsplan voor afschrijfbare geherwaardeerde activa. 📖  
 > > *Bron: Art. 3:35 KB WVV (ex art. 57 KB W.Venn.); CBN-advies 2011/14*
 
 <a id="2003-bibf-vrB5"></a>
@@ -559,7 +554,7 @@ gegenereerd_op: 2026-05-26
 > 
 > > [!success]- Antwoord (klik om te openen)
 > >
-> > **_Voor geval A (kapitaalsubsidie 10.000 EUR voor machine 100.000 EUR, 10% afschrijving, 40% belasting) moet de toelichting in beide boekjaren (1) de waarderingsregel voor kapitaalsubsidies en uitgestelde belastingen vermelden en (2) een mutatie-overzicht geven van de rekening 15 'Kapitaalsubsidies' en (indirect via post VII.B) de rekening 168 'Uitgestelde belastingen'. 2002: opname netto-subsidie 6.000 EUR + uitgestelde belasting 4.000 EUR, eerste in resultaatname (600 + 400). 2003: voortzetting in resultaatname (600 + 400); saldi einde 2003: rekening 15 = 4.800 EUR, rekening 168 = 3.200 EUR. 🔗_**
+> > Voor geval A (kapitaalsubsidie 10.000 EUR voor machine 100.000 EUR, 10% afschrijving, 40% belasting) moet de toelichting in beide boekjaren (1) de waarderingsregel voor kapitaalsubsidies en uitgestelde belastingen vermelden en (2) een mutatie-overzicht geven van de rekening 15 'Kapitaalsubsidies' en (indirect via post VII.B) de rekening 168 'Uitgestelde belastingen'. 2002: opname netto-subsidie 6.000 EUR + uitgestelde belasting 4.000 EUR, eerste in resultaatname (600 + 400). 2003: voortzetting in resultaatname (600 + 400); saldi einde 2003: rekening 15 = 4.800 EUR, rekening 168 = 3.200 EUR. 🔗
 > > 
 > > **Te vermelden in de toelichting (boekjaar 2002 én 2003):**
 > > 
@@ -586,5 +581,5 @@ gegenereerd_op: 2026-05-26
 > > 
 > > De toelichting bij kapitaalsubsidies dient een **dubbel doel**: enerzijds de mutatie van rekening 15 'Kapitaalsubsidies' (passiefpost VI), anderzijds de mutatie van de gepassiveerde uitgestelde belastingen (passiefpost VII.B, rekening 168). De twee bewegen parallel: een toename op 15 gaat samen met een toename op 168; een in resultaat genomen kapitaalsubsidie (753) gaat altijd samen met een evenredige onttrekking aan uitgestelde belastingen (780). Een toelichting die alleen de netto-rekening 15 toont, mist de belastinglatentie. 🔗
 > > 
-> > ***Wettelijke grondslag** (geldend in 2002-2003): KB van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (KB W.Venn.), art. 95 §2 (begrip kapitaalsubsidie + presentatie passiefpost VI na aftrek uitgestelde belastingen) 📖; art. 76 §1-§2 (waardering en geleidelijke afboeking uitgestelde belastingen) 📖. **Vandaag**: KB van 29 april 2019 tot uitvoering van het WVV (KB-WVV-2019), art. 3:54 §1-§2 — identieke regeling 📖. **Toelichtingsvereisten** als zodanig: KB W.Venn. art. 91 (volledige toelichting, Staat van de kapitaalsubsidies in het volledig schema) en art. 25 (waarderingsregels). CBN-advies 2011/13 (Overheidssubsidies) bevestigt de splitsing 60/40 en de toelichtingsverplichting; CBN-advies 2013/14 detailleert de behandeling van de uitgestelde belastingen. 🔗*  
+> > **Wettelijke grondslag** (geldend in 2002-2003): KB van 30 januari 2001 tot uitvoering van het Wetboek van Vennootschappen (KB W.Venn.), art. 95 §2 (begrip kapitaalsubsidie + presentatie passiefpost VI na aftrek uitgestelde belastingen) 📖; art. 76 §1-§2 (waardering en geleidelijke afboeking uitgestelde belastingen) 📖. **Vandaag**: KB van 29 april 2019 tot uitvoering van het WVV (KB-WVV-2019), art. 3:54 §1-§2 — identieke regeling 📖. **Toelichtingsvereisten** als zodanig: KB W.Venn. art. 91 (volledige toelichting, Staat van de kapitaalsubsidies in het volledig schema) en art. 25 (waarderingsregels). CBN-advies 2011/13 (Overheidssubsidies) bevestigt de splitsing 60/40 en de toelichtingsverplichting; CBN-advies 2013/14 detailleert de behandeling van de uitgestelde belastingen. 🔗  
 > > *Bron: KB W.Venn. art. 76 §1-§2 en art. 95 §2; KB-WVV-2019 art. 3:54*
