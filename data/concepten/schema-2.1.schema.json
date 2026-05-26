@@ -91,10 +91,29 @@
           "minItems": 1,
           "description": "Anchors uit het ITAA-programma die dit concept dekt. Eerste anchor is de primaire/leidende. Vorm: '<PO>.<sectie>.<sub>' (bv. '3.0.IV.D')."
         },
+        "scope": { "$ref": "#/$defs/scope" },
         "provenance": { "$ref": "#/$defs/provenance" },
         "changelog":  { "$ref": "#/$defs/changelog" }
       },
-      "$comment": "v1.5: 'primary_po', 'linked_anchors', 'dekt_tdks', 'tags' en 'cross_po' zijn gedropt. Primaire PO is afleidbaar uit eerste anker (split op '.'); dekt_tdks was redundant; tags onbenut; cross_po afleidbaar uit anker-prefix-set."
+      "$comment": "v1.5: 'primary_po', 'linked_anchors', 'dekt_tdks', 'tags' en 'cross_po' zijn gedropt. Primaire PO is afleidbaar uit eerste anker (split op '.'); dekt_tdks was redundant; tags onbenut; cross_po afleidbaar uit anker-prefix-set. ADR-033 (2026-05-26): 'scope' toegevoegd als optionele extractie-guidance (scope.in[] + scope.out[] als vrije strings)."
+    },
+
+    "scope": {
+      "type": "object",
+      "additionalProperties": false,
+      "description": "Optionele extractie-guidance voor de LLM (ADR-033, 2026-05-26). Beide velden zijn vrije strings, geen integriteit-check. Doel: voorkomt scope-creep + content-duplicatie tussen verwante records. 'in' = topics die dit record behandelt (positieve guidance bij beschrijven/claims_checken/didactisch_verrijken). 'out' = topics die expliciet NIET in dit record komen (negatieve guidance + verwijzing naar record dat het wel behandelt). Cross-references in 'inhoud'-tekst blijven legitiem en nodig voor leespad-discipline — scope-velden zijn metadata-laag, geen inhoud-vervanger.",
+      "properties": {
+        "in": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "description": "Vrije strings die topics beschrijven die dit record behandelt. Eén string per topic. Bv. '4-fase-cyclus (aanvaarden → plannen → bewijswerk → afronden+oordeel)'."
+        },
+        "out": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "description": "Vrije strings die topics beschrijven die EXPLICIET niet in dit record komen, met verwijzing naar record dat het wel behandelt. Convention: '<topic> — zie <record-id>'. Bv. 'planning-detail (kennis-entiteit, risicomodel, materialiteit, werkprogramma) — zie audit-planning'."
+        }
+      }
     },
 
     "provenance": {
