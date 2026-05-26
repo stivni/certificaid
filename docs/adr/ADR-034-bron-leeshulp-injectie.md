@@ -60,17 +60,31 @@ Beide lagen bestaan náást elkaar; ze concurreren niet. Een leeshulp-callout op
 
 **Geen unificatie nagestreefd.** De operatie `didactisch_verrijken` (ADR-029) opereert op een concept-record en produceert valkuilen/speelruimtes/syntheses **in dat record**. De leeshulp-injectie opereert op een bron-pagina en produceert callouts **rond de bron-tekst**. Verschillende inputs, verschillende outputs, verschillende doelgroep-aanvliegroute.
 
-## POC
+## POC + tool — uitgevoerd
 
-Eerste leeshulp: [`resources/leeshulp/normen/ITAA-norm-algemene-controlenorm.md`](../../resources/leeshulp/normen/ITAA-norm-algemene-controlenorm.md) — 4 callouts (intro + na §2, §4, §7). Geïnjecteerd in [`content/bronnen/normen/ITAA-norm-algemene-controlenorm.md`](../../content/bronnen/normen/ITAA-norm-algemene-controlenorm.md). **Handmatig** geïnjecteerd in deze fase; tool volgt na validatie van het patroon.
+- Leeshulp-source: [`resources/leeshulp/normen/ITAA-norm-algemene-controlenorm.md`](../../resources/leeshulp/normen/ITAA-norm-algemene-controlenorm.md) — 4 callouts (intro + na §2, §4, §7).
+- Publicatie: [`content/bronnen/normen/ITAA-norm-algemene-controlenorm.md`](../../content/bronnen/normen/ITAA-norm-algemene-controlenorm.md), gegenereerd door de injectie-tool.
+- Tool: [`tools/leermateriaal/inject_leeshulp.py`](../../tools/leermateriaal/inject_leeshulp.py) — `inject-all` (regenereer) + `check` (exit 1 bij drift).
+- Tests: [`tests/test_inject_leeshulp.py`](../../tests/test_inject_leeshulp.py) — unit-tests + integration-test die als pre-commit gate fungeert (pytest draait in pre-commit hook).
 
-## Open punten (te beslissen vóór tool-bouw)
+## Open punten — resolutie
 
-1. **Heading-disambiguation.** Wat als twee H2's dezelfde tekst hebben? Voorlopig: eerste match. Bij conflict → leeshulp-author moet uniciteit afdwingen (bv. `## @na "## 2. Verslag" #occurrence:1`).
-2. **Pre-commit gate.** Wanneer is `content/`-versie out-of-sync? Hash van `(bron, leeshulp)` opslaan in HTML-comment in de header van `content/`-versie? Of pre-commit altijd injecteren?
-3. **Leeshulp-bestanden in Quartz?** `resources/leeshulp/`-bestanden zijn op zichzelf leesbaar — willen we ze óók als losse Quartz-pagina renderen (debug/preview-modus), of strikt als build-input?
-4. **Coverage voor wetteksten.** Eerste scope: ITAA-normen (17 bestanden). Wetteksten (WIB, WBTW, WVV, …) zijn ordes van grootte groter — leeshulp daar werkt mogelijk per artikel-cluster i.p.v. per heading. Niet in v1.
-5. **Review-discipline.** Leeshulp is 🤖 inferred — wie reviewt? Voorlopig: `review_status: draft` in frontmatter, geen automatische QA-gate; expliciete review-pass door gebruiker.
+| # | Punt | Resolutie v1 |
+|---|---|---|
+| 1 | Heading-disambiguation | **Eerste match.** Bij conflict moet de leeshulp-auteur het heading-argument uniek maken (bv. door het volledig over te nemen incl. nummering). Geen `#occurrence:N`-syntax in v1. |
+| 2 | Pre-commit gate | **Pytest-test** `test_content_bronnen_in_sync_met_leeshulp` (in `tests/test_inject_leeshulp.py`). Faalt als ten minste één `content/`-versie afwijkt van `inject(bron, leeshulp)`. Draait via bestaande pre-commit hook (`scripts/install-git-hooks.sh`). |
+| 3 | Leeshulp-bestanden in Quartz? | **Nee in v1.** `resources/leeshulp/` is build-input, niet site-content. |
+| 4 | Coverage wetteksten | **Niet in v1.** Tool ondersteunt enkel `normen/` via `SUPPORTED_TYPES`. |
+| 5 | Review-discipline | **Geen automatische QA-gate.** Leeshulp-frontmatter heeft `review_status: draft`; expliciete review-pass door gebruiker. |
+
+## Open — voor latere ronde
+
+**Drift-opkuis bronnen zónder leeshulp.** De tool default-scope is `only_with_leeshulp=True` — d.w.z. `cmd_check` ignoreert de 38 normen-bestanden waar `content/bronnen/normen/X.md` afwijkt van `resources/bronnen/normen/X.md` (gevonden bij eerste tool-run, 2026-05-26). Dit gaat over bron-versies waar `resources/` recenter is bijgewerkt dan `content/` (re-conversies + trust-confirms). Verdere opties:
+
+- Tool runnen met `--all`-flag om alle 38 bronnen 1-op-1 te re-syncen (separate commit).
+- Het re-sync-werk afhandelen via een aparte sync-pipeline die buiten leeshulp leeft.
+
+Niet in deze ronde — POC-scope.
 
 ## Niet-doelen
 
