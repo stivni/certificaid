@@ -1,0 +1,40 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr11A",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Factuurplicht en BTW-opeisbaarheid bij dienstverlening aan een rentenier",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": ["BTW-opeisbaarheid", "factuurplicht", "dienstverrichting", "rentenier", "hybride voertuig", "maandaangever"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Situatie: Een rentenier liet zijn hybride dieselwagen onderhouden door de Porsche-garage Antwerpen (maandaangever).\n\nOnderhoud op 27/4/N\nKlant betaalde op 3/5/N\nOp 30/4/N uitreiking factuur van 1.210 euro incl. BTW"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke uitspraak is juist over de factuurplicht en de BTW-opeisbaarheid?",
+      "opties": [
+        { "id": "a", "tekst": "Niet verplicht van factuur uit te reiken: BTW opeisbaar op 3/5/N" },
+        { "id": "b", "tekst": "Niet verplicht van factuur uit te reiken: BTW opeisbaar op 30/4/N" },
+        { "id": "c", "tekst": "Verplicht factuur uit te reiken: BTW opeisbaar op 30/5/N" },
+        { "id": "d", "tekst": "Verplicht factuur uit te reiken: BTW opeisbaar op 30/4/N" }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment met volledige vraaginhoud. Casus-context geconstrueerd uit de beschrijving in tekst.txt en PNG. De vier opties zijn integraal aanwezig in tekst.txt en visueel bevestigd op pagina 6. Kleine normalisaties: 'incl BTW' → 'incl. BTW'; typografische spaties rond '/' zijn niet aangepast. De vraagstelling zelf ('Welke uitspraak is juist') is impliciet uit de opties afgeleid — de PDF toont enkel de situatieschets gevolgd door de opties, zonder expliciete vraagzin; de vraagstelling is als fragment gereconstrueerd.",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

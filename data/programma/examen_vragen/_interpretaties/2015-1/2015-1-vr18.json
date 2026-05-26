@@ -46,5 +46,14 @@
   "herinterpretatie_motivering": "Vraag 4 van de sectie 'Accountantsonderzoek'. Twee eigenstandige deelvragen. Deelvraag b vereist keuze + motivering (verklaar bondig), vandaar motivatie_verwacht: true.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

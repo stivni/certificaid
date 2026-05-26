@@ -60,5 +60,14 @@
   "herinterpretatie_motivering": "Deelvraag b is een Ja/Nee-tabel met motivatie-kolom voor drie opties (3/5/10 jaar). Behandeld als mc_keuze met motivatie_verwacht omdat de kandidaat per optie moet aangeven of het al dan niet geldig is en dit moet motiveren. Deelvraag b combineert feitelijk selectie en argumentatie.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

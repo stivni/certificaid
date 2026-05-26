@@ -78,5 +78,22 @@
   "herinterpretatie_motivering": "PNG bevestigt de getallenreeksen uit tekst.txt. Gegevens gestructureerd als twee gegevens_tabellen (begin- en eindvoorraden). Modelantwoord (rekeningnummers 300, 6094, 6090, 340, 712, 330, 320, 713) is NIET opgenomen.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

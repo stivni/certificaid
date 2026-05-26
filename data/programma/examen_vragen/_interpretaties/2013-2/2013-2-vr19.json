@@ -158,5 +158,23 @@
     "ocr_artefact",
     "subvraag_zonder_inhoud",
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "kruis_aan",
+        "veld": "vraagstelling-a"
+      }
+    ]
+  }
 }

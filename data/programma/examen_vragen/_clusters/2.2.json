@@ -1,0 +1,206 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "2.2",
+  "gegenereerd_op": "2026-05-26T10:20:58+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 30,
+  "n_clusters": 0,
+  "n_singletons": 30,
+  "clusters": [],
+  "borderline_paren": [
+    {
+      "van": "2015-1-vr28",
+      "naar": "2015-1-vr30",
+      "cosine": 0.774
+    },
+    {
+      "van": "2015-1-vr31",
+      "naar": "2015-1-vr32",
+      "cosine": 0.7536
+    }
+  ],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrF1",
+      "vraag_onderwerp": "Personenbelasting: belastbare basis bedrijfsleider (Vak II)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrF1.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrJ1",
+      "vraag_onderwerp": "Sociale bijdragen zelfstandige bedrijfsleider bij sterk gedaalde bezoldiging",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrJ1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrF1",
+      "vraag_onderwerp": "Effect van erfenis bijkomend onroerend goed op hypothecaire aftrek en bouwsparen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrF2",
+      "vraag_onderwerp": "Aangifte onroerend inkomen en belastbare meerwaarde bij verkoop appartement",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrF3",
+      "vraag_onderwerp": "Berekening belastingvoordeel dienstencheques voor een echtpaar",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF3.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrF4",
+      "vraag_onderwerp": "Gevolgen aankoop woning uitsluitend op naam van één echtgenoot voor hypothecaire aftrek",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF4.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrF5",
+      "vraag_onderwerp": "Belastbaar tijdperk: welke stelling is juist?",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF5.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrF6",
+      "vraag_onderwerp": "Vrijgesteld inkomen: welke is geen vrijgesteld inkomen?",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF6.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrF7",
+      "vraag_onderwerp": "Aftrekbare besteding: welke uitgave vormt een aftrekbare besteding?",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF7.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr20",
+      "vraag_onderwerp": "Berekening stopzettingsmeerwaarden en aanslagvoet bij overlating handelszaak",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr20.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr21",
+      "vraag_onderwerp": "Juist of fout: stellingen over personenbelasting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr21.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr21",
+      "vraag_onderwerp": "Eenmalige onderhoudsuitkering als kapitaal: belasting ex-echtgenoot en aftrek",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr21.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr22",
+      "vraag_onderwerp": "Aftrekbare beroepskosten voor verplaatsingen: osteopaat met wagen en scooter",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr22.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr23",
+      "vraag_onderwerp": "Personenbelasting: vier stellingen over specifieke situaties",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr23.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr22",
+      "vraag_onderwerp": "Personenbelasting — personen ten laste: uitzondering herkennen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr22.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr23",
+      "vraag_onderwerp": "Personenbelasting — huwelijksquotiënt: onjuiste stelling herkennen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr23.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr24",
+      "vraag_onderwerp": "Personenbelasting — onroerende inkomsten: onmogelijke situatie herkennen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr24.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr25",
+      "vraag_onderwerp": "Personenbelasting — diverse inkomsten art. 90 1° WIB 1992: correcte categorie herkennen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr25.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr26",
+      "vraag_onderwerp": "Personenbelasting — meerwaarden belastbaar aan 33%: correcte categorie herkennen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr26.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr27",
+      "vraag_onderwerp": "Personenbelasting — aftrekbare uitgaven: onjuiste stelling herkennen (aanslagjaar 2013)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr27.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr29",
+      "vraag_onderwerp": "Aangifte buitenlands onroerend goed personenbelasting: juiste uitspraak",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr29.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr31",
+      "vraag_onderwerp": "Vrijstellingen van economische aard personenbelasting: onjuiste uitspraak",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr31.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr8A",
+      "vraag_onderwerp": "Overdraagbare fiscale verliezen in de vennootschapsbelasting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr8B",
+      "vraag_onderwerp": "Fusie moeder-dochter — meer- of minderwaarde op deelneming en fiscale behandeling",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr8C",
+      "vraag_onderwerp": "Voorafbetalingen en vermeerdering wegens onvoldoende voorafbetaling bij verlaagd tarief vennootschapsbelasting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr8D",
+      "vraag_onderwerp": "Belastbare basis vennootschapsbelasting — tantième en dividend",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8D.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr8E",
+      "vraag_onderwerp": "Besmette verworpen uitgaven — DBI-verrekening buiten EER",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8E.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr28",
+      "vraag_onderwerp": "Beroepsverliezen personenbelasting: onjuiste uitspraken identificeren",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr28.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr30",
+      "vraag_onderwerp": "Aftrekbare bestedingen en belastingverminderingen personenbelasting: onjuiste uitspraak",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr30.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr32",
+      "vraag_onderwerp": "Belasting roerende inkomsten personenbelasting: onjuiste uitspraak",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr32.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

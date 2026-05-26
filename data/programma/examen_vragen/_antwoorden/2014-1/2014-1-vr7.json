@@ -1,0 +1,43 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr7",
+  "antwoord_datum": "2026-05-26T12:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Drie (3) maanden.** Het verschil tussen de afsluitingsdatum van een in de consolidatie opgenomen dochter en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen. ⚖️",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het Belgisch KB WVV (art. 3:109) noemt zelf **geen expliciete cijfergrens** — het stelt enkel dat de geconsolideerde jaarrekening op een ander tijdstip mag afgesloten worden om rekening te houden met de balansdatum van de meeste of belangrijkste dochters. ⚖️ De harde grens van 3 maanden komt uit **IFRS 10 §B93** (historisch art. 27 Zevende Richtlijn 83/349/EEG) en wordt in de Belgische doctrine als algemeen aanvaarde drempel toegepast. 🤖 Bij afwijking moet er bovendien rekening gehouden worden met belangrijke gebeurtenissen tussen beide afsluitdata, en het verschil moet van jaar tot jaar gelijk blijven. ⚖️",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md",
+            "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "IFRS 10 §B93 (expliciete 3-maanden-grens); KB WVV art. 3:109 (afwijking toegelaten, geen cijfergrens in tekst); art. 27 Zevende Richtlijn 83/349/EEG (historische oorsprong).",
+          "wetsref": "IFRS 10 §B93; KB WVV art. 3:109",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md",
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

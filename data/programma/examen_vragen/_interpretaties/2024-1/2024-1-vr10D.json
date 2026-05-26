@@ -1,0 +1,29 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10D",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Berekening van het eigen vermogen in het kort NBB-model voor kapitaalvennootschappen",
+  "programmaonderdeel_ids": ["1.2"],
+  "themas": ["eigen vermogen", "jaarrekening", "NBB-model", "kort schema", "kapitaalvennootschap", "balansrubriek"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "D",
+      "vraagtype": "open",
+      "vraagstelling": "In de jaarrekening kort model NBB voor een kapitaalvennootschap wordt het eigen vermogen als volgt berekend:",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. De vraagstelling is slechts gedeeltelijk bewaard als 'JR kort model NBB voor kapitaal vennootschap wordt EV als volgt berekend:' — normalisatie toegepast (EV → eigen vermogen, JR → jaarrekening, volledige zin gereconstrueerd). Geen opties in tekst.txt of PNG; het incomplete karakter van de vraagstelling ('als volgt:' zonder vervolg) suggereert dat de specifieke berekening niet bewaard is. Geclassificeerd als open, volledigheid=fragment. Afkortingen genormaliseerd conform CLAUDE.md regel 8.",
+  "kwaliteits_flags": ["typo_genormaliseerd", "subvraag_zonder_inhoud"]
+}

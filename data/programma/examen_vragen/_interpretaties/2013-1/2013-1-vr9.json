@@ -35,5 +35,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 3. Enkelvoudige open vraag om een procedure te beschrijven met minimaal twee functiescheidingen.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "1.7-c1",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

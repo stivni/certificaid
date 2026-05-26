@@ -122,5 +122,18 @@
   "herinterpretatie_motivering": "Vraag 3 van de sectie 'Analyse en kritische beoordeling'. De vraag bevat een tabel met 20 balansposten waarvoor de kandidaat 'ja' of 'nee' moet aanduiden. Dit is een open invulvraag (ja/nee per rubriek, met aftrekpunten). Weergegeven als gegevens_tabel voor de context + één open deelvraag.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

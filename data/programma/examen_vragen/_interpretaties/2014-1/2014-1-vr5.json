@@ -133,5 +133,22 @@
   "herinterpretatie_motivering": "Vier MC-deelvragen (a-d) over financiële ratio's. De jaarrekening zelf is als bijlage bij het examen gevoegd maar niet in het segment opgenomen — de berekeningsopties bevatten de cijfers die nodig zijn. PNG pagina_02 en 06 bevestigen de vier deelvragen en hun opties.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "cluster_id": "1.3-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label",
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "kruis_aan",
+        "veld": "casus_context"
+      }
+    ]
+  }
 }

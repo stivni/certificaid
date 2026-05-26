@@ -52,5 +52,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Drie juist/fout-stellingen over onafhankelijkheid. PNG pagina_04 bevestigt de drie stellingen.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "4.0-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label"
 }

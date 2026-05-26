@@ -1,0 +1,91 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr11",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "definitie",
+          "tekst": "Een **positief consolidatieverschil** is het verschil dat bij de **eerste consolidatie** overblijft tussen (a) de aanschaffingsprijs van de aandelen van de dochter en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat** dat verschil zoveel mogelijk is toegerekend aan onder- of overgewaardeerde activa en schulden. Het residu verschijnt aan de **actiefzijde** van de geconsolideerde balans onder \"Consolidatieverschillen\" (overname-goodwill). ⚖️",
+          "confidence": "grounded",
+          "bron_refs": [
+            "content/concepten/consolidatieverschil-goodwill.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Formule**: positief consolidatieverschil = aanschaffingsprijs deelneming − (%-belang × reële waarde netto-activa dochter op overnamedatum). De toerekening aan herwaarderingen van identificeerbare bestanddelen gebeurt **vóór** het residu als goodwill wordt gepresenteerd. 🤖",
+          "confidence": "inferred",
+          "bron_refs": [
+            "content/concepten/consolidatieverschil-goodwill.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het positief consolidatieverschil wordt **systematisch afgeschreven** ten laste van de geconsolideerde resultatenrekening (standaard max. 5 jaar; gemotiveerde langere termijn tot 20 jaar, te verantwoorden in de toelichting). Spiegelbeeld: bij een aanschaffingsprijs **lager** dan het pro-rata eigen vermogen ontstaat een **negatief consolidatieverschil** (badwill) aan de passiefzijde. 🤖",
+          "confidence": "inferred",
+          "bron_refs": [
+            "content/concepten/consolidatieverschil-goodwill.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:140 KB WVV (toerekening positief consolidatieverschil aan over/ondergewaardeerde activa en passiva) en art. 3:129 KB WVV (compensatie aanschaffingswaarde deelneming met aandeel eigen vermogen op overnamedatum). CBN-advies 2022/11 illustreert het mechanisme; CBN-advies 2013/3 toont de berekening bij step acquisitions.",
+          "wetsref": "art. 3:129 en 3:140 KB WVV",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md",
+            "resources/bronnen/adviezen/CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "opsomming",
+          "tekst": "**Vier voornaamste oorzaken van een positief consolidatieverschil**:\n\n1. **Ondergewaardeerde activa** — bezittingen van de dochter (terreinen, gebouwen, voorraden, financiële vaste activa) staan aan historische boekwaarde lager dan hun reële waarde op overnamedatum. ⚖️\n2. **Overgewaardeerde of niet-geboekte passiva** — schulden of voorzieningen die op de balans van de dochter te hoog staan, of latente verplichtingen (latente belastingen op herwaarderingen, ongunstige contracten) die niet erkend zijn. ⚖️\n3. **Niet-geboekte immateriële waardebronnen** — intern opgebouwde merknaam, cliënteel, knowhow, lopende O&O-projecten of synergiën met de groep die in de enkelvoudige rekening van de dochter niet aan de erkenningscriteria voldoen, maar waarvoor de overnemer wel betaalt. ⚖️\n4. **Overname-premie (goodwill stricto sensu)** — residueel deel dat na alle herwaarderingen overblijft: betaling voor verwachte rentabiliteit, marktpositie of een strategische premie (concurrent uit de markt, controle verwerven). ⚖️",
+          "confidence": "grounded",
+          "bron_refs": [
+            "content/concepten/consolidatieverschil-goodwill.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De vier oorzaken volgen uit de berekeningssystematiek: het verschil tussen aanschaffingsprijs en boekwaardelijk aandeel in het eigen vermogen wordt **eerst** toegerekend aan onder/overgewaardeerde identificeerbare bestanddelen (oorzaken 1-2) en aan niet-erkende immateriële activa (oorzaak 3); het **niet-toerekenbare residu** is de zuivere overnamepremie (oorzaak 4). 🤖",
+          "confidence": "inferred",
+          "bron_refs": [
+            "content/concepten/consolidatieverschil-goodwill.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De wet vereist dat de toerekening aan over/ondergewaardeerde activa en passiva **eerst** gebeurt (\"zoveel mogelijk\"), zodat de geconsolideerde balans de werkelijke economische waarde van de groepsactiva weerspiegelt. Alleen het niet-toerekenbare deel krijgt de aparte rubriek \"Consolidatieverschillen\" — anders zou alles onder één goodwill-post verdwijnen en de informatieve waarde van de balans dalen. 🤖",
+          "confidence": "inferred",
+          "bron_refs": [
+            "content/concepten/consolidatieverschil-goodwill.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:140 KB WVV: het positief consolidatieverschil wordt **\"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde\"** — dekt oorzaken 1-2 (en deels 3). Niet-toerekenbaar residu = oorzaken 3 (niet-erkenbare immateriële elementen) en 4 (overprijs). CBN-advies 126/8 omschrijft het consolidatieverschil als het surplus boven het toerekenbare deel; CBN-advies 2022/11 toont de toerekening aan terreinen vóór het residu.",
+          "wetsref": "art. 3:140 KB WVV",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md",
+            "resources/bronnen/adviezen/CBN-0126-08-financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

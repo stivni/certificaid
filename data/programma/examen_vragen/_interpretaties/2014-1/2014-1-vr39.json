@@ -52,5 +52,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Drie open deelvragen over fiscale procedure. Elke deelvraag vraagt een verklaring (regelmatig? wettelijk? hoe te handelen?), vandaar motivatie_verwacht: true voor alle drie.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "2.5-c1",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

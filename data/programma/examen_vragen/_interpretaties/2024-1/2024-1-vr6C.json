@@ -1,0 +1,30 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6C",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Vragen over het openbaar register in het kader van deontologie en AWW",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": ["openbaar register", "ITAA", "deontologie", "antiwitwaswetgeving", "registratieplicht"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": "C",
+      "vraagtype": "onbekend",
+      "vraagstelling": null,
+      "motivatie_verwacht": false,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Vragen in verband met het openbaar register (ITAA of AWW-context)"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. Tekst.txt en PNG vermelden enkel 'Vragen mbt openbaar register.' — geen afzonderlijke sub-vragen of vraagtype beschikbaar. Mogelijk betreft dit het openbaar register van erkende beoefenaars bij het ITAA of een register in AWW-context. Gemarkeerd als topic_only.",
+  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+}

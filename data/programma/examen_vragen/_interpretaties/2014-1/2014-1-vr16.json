@@ -91,5 +91,14 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige MC-vraag met 5 opties. De statuten werden nooit gewijzigd (opgericht 1992) — relevant voor de vraag of het maximumbedrag van het toegestane kapitaal (gelijk aan het geplaatst kapitaal) al uitgeput is. PNG pagina_02 bevestigt de opties.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "1.9",
+  "gegenereerd_op": "2026-05-26T10:20:50+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 6,
+  "n_clusters": 0,
+  "n_singletons": 6,
+  "clusters": [],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrC1",
+      "vraag_onderwerp": "Financieel beheer: berekening liquiditeits- en solvabiliteitsratio's",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrC1.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrC2",
+      "vraag_onderwerp": "Berekening van de operationele cash-flow",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrC2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrC1",
+      "vraag_onderwerp": "Behoefte aan bedrijfskapitaal: definitie, berekening en reductiemaatregelen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrC1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrC2",
+      "vraag_onderwerp": "Haalbaarheid van een investeringskrediet gezien cashflow en aflossingscapaciteit",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrC2.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr5",
+      "vraag_onderwerp": "Definities van financiële begrippen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr5.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr6",
+      "vraag_onderwerp": "Netto bedrijfskapitaal: manieren om het te verhogen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr6.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

@@ -71,5 +71,18 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 3. Enkelvoudige invuloefening voor de aangifte VenB. De aangifte zelf (formulier) staat in bijlage.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

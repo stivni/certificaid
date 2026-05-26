@@ -1,0 +1,35 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6A",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Ereloon van de accountant: welke stelling is juist?",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": ["ereloon", "deontologie", "ITAA", "provisie", "commissielonen", "honorarium"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Welke van de volgende stellingen over het ereloon van de accountant is juist?",
+      "opties": [
+        { "id": "a", "tekst": "Het ereloon wordt bepaald door een barema opgesteld door het ITAA." },
+        { "id": "b", "tekst": "De accountant stelt het ereloon zelf vast." },
+        { "id": "c", "tekst": "Provisies en voorschotten zijn verboden." },
+        { "id": "d", "tekst": "Het ereloon kan bestaan uit commissielonen." }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. PNG bevestigt vier opties (A-D) onder de vraag 'Ereloon accountant: (Welke stelling is juist)?'. De opties zijn in telegramstijl weergegeven in de bron; de vraagstelling en opties zijn licht uitgeschreven voor leesbaarheid maar de inhoud is ongewijzigd. Geen OCR-artefacten.",
+  "kwaliteits_flags": []
+}

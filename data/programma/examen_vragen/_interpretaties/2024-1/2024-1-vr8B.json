@@ -1,0 +1,42 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr8B",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Fusie moeder-dochter — meer- of minderwaarde op deelneming en fiscale behandeling",
+  "programmaonderdeel_ids": ["2.2"],
+  "themas": ["fusie", "moeder-dochter fusie", "deelneming", "meer- of minderwaarde", "fiscale neutraliteit", "overdraagbare verliezen", "innovatie-aftrek"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Moeder A fuseert (neutraal) met Dochter B, waarin ze 100% bezit.\n\nNetto Actief van B = 100\nFiscale waarde van de participatie in B in de boekhouding van A = 20\nOvergedragen fiscale verliezen van B = 30\nOverdraagbare aftrek innovatie-inkomsten A = 40"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Hoeveel bedraagt de meer- of minderwaarde die A zal realiseren op de deelneming in B ingevolge de moeder-dochter fusie?",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Hoe wordt deze meer- of minderwaarde vanuit fiscaal oogpunt bij A behandeld?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. Casus met concrete gegevens (netto actief, fiscale waarde participatie, overgedragen verliezen, innovatie-aftrek). Twee deelvragen a en b zijn eigenstandige vragen: a vraagt naar een berekening, b naar fiscale behandeling — beide behouden als aparte deelvragen. Afkorting 'M-D fusie' uitgeschreven naar 'moeder-dochter fusie'.",
+  "kwaliteits_flags": []
+}

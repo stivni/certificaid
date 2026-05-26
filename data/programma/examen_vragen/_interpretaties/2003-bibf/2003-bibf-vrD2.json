@@ -43,5 +43,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Twee deelvragen: (a) advies over werkwijze — vraagt expliciet om redenering, motivatie_verwacht: true; (b) bewaarplicht documenten — afzonderlijk onderwerp. Vraagtype 'open' voor beide.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "2.4-c2",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

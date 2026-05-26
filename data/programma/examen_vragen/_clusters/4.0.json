@@ -1,0 +1,230 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "4.0",
+  "gegenereerd_op": "2026-05-26T10:21:34+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 31,
+  "n_clusters": 1,
+  "n_singletons": 29,
+  "clusters": [
+    {
+      "cluster_id": "4.0-c1",
+      "voorlopige_label": "Onafhankelijkheid externe accountant: toegelaten en verboden activiteiten en mandaten",
+      "n_voorkomens": 2,
+      "voorkomens": [
+        {
+          "examen_id": "2013-1",
+          "vraag_id": "2013-1-vr35",
+          "vraag_onderwerp": "Onafhankelijkheid externe accountant: toegelaten en verboden activiteiten en mandaten",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr35.json"
+        },
+        {
+          "examen_id": "2014-1",
+          "vraag_id": "2014-1-vr45",
+          "vraag_onderwerp": "Deontologie — onafhankelijkheid externe accountant: verboden mandaten en opdrachten (juist/fout)",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr45.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2013-1-vr35",
+          "naar": "2014-1-vr45",
+          "cosine": 0.8703
+        }
+      ],
+      "verdict": "varianten",
+      "actie": "behoud_apart_met_label",
+      "motivering": "Beide juist/fout-stellingen over onafhankelijkheid externe accountant (verboden/toegelaten mandaten + activiteiten). Eén stelling overlapt expliciet (bestuursmandaat in commerciële vennootschap met toestemming Raad); overige stellingen verschillen (verzekeringsmakelaar, krediet-makelaar, patrimoniumvennootschap vs echtgenoot-stemrechten, interne accountant). Gedeeld antwoord moet alle stellingen afzonderlijk dekken."
+    }
+  ],
+  "borderline_paren": [
+    {
+      "van": "2013-1-vr36",
+      "naar": "2015-1-vr52",
+      "cosine": 0.7946
+    },
+    {
+      "van": "2003-bibf-vrK1",
+      "naar": "2003-bibf-vrK2",
+      "cosine": 0.7725
+    }
+  ],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrK1",
+      "vraag_onderwerp": "Deontologische regels bij dossiertransfer tussen BIBF-leden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrK1.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrK2",
+      "vraag_onderwerp": "Deontologische regels dossiertransfer: toepassing bij IAB-accountant of IBR-bedrijfsrevisor",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrK2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrK1",
+      "vraag_onderwerp": "Onverenigbaarheid bestuursmandaat NV met beroep als erkend boekhouder-fiscalist",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrK1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrK2",
+      "vraag_onderwerp": "Deontologische beoordeling: gebruik van vertrouwelijke klantenlijst van confrater",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrK2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrK3",
+      "vraag_onderwerp": "Dossieroverdracht en aanbrengcommissie: plichtenleer BIBF-stagiair",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrK3.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrK4",
+      "vraag_onderwerp": "Tuchtstraf schorsing BIBF: verplichtingen naar cliënten en overtredingen plichtenleer",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrK4.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrK5",
+      "vraag_onderwerp": "Oprichting boekhoudvennootschap BIBF: doel, zaakvoerders, aandelenverdeling en stagiair",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrK5.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr33",
+      "vraag_onderwerp": "Antiwitwaswetgeving: compliance officer, beroepsbeoefenaars en meldingsplicht",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr33.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr34",
+      "vraag_onderwerp": "Uitzonderingen op het beroepsgeheim in het strafwetboek",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr34.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr36",
+      "vraag_onderwerp": "Publiciteitsregels voor externe accountant en belastingconsulent",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr36.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr35",
+      "vraag_onderwerp": "Permanente vorming IAB: verhoudingsregel, aard en wettelijke grondslag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr35.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr36",
+      "vraag_onderwerp": "Antiwitwaswet: identificatie bij cliëntenacceptatie",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr36.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr37",
+      "vraag_onderwerp": "Dossieroverdracht tussen confraters: stellingen juist/fout",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr37.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr38",
+      "vraag_onderwerp": "Monopolieopdrachten: onafhankelijkheid extern vs. intern accountant",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr38.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr42",
+      "vraag_onderwerp": "Kwaliteitstoetsing ITAA — soort toetsing herkennen voor gegeven situaties",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr42.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr43",
+      "vraag_onderwerp": "Deontologie — intredeprocedure nieuwe klant: punten van akkoord/niet-akkoord",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr43.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr44",
+      "vraag_onderwerp": "Deontologie — samenwerkingsverbanden: middelenvennootschap en professionele vennootschap (juist/fout)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr44.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr46",
+      "vraag_onderwerp": "Deontologie — verslag van omvorming op verzoek van confrater: akkoord of niet (juist/fout)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr46.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr15",
+      "vraag_onderwerp": "Deontologische implicaties van talrijke adjustments bij contractueel beperkt nazicht",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr15.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr51",
+      "vraag_onderwerp": "Discretieplicht en beroepsgeheim accountant: juist/fout stellingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr51.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr52",
+      "vraag_onderwerp": "Erelonen accountant/belastingconsulent: juist/fout stellingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr52.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr53",
+      "vraag_onderwerp": "Limiet contante betalingen en meldingsplicht CFI witwaswetgeving",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr53.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr54",
+      "vraag_onderwerp": "Opdracht externe accountant bij vereffening: onafhankelijkheid, bevoegdheid en witwasverplichting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr54.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr55",
+      "vraag_onderwerp": "Deontologie: aandelen Luxemburgs belastingkantoor + onderaanneming in België",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr55.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr6A",
+      "vraag_onderwerp": "Ereloon van de accountant: welke stelling is juist?",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr6A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr6B",
+      "vraag_onderwerp": "Contante betalingen en antiwitwaswetgeving: welke stelling is fout?",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr6B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr6C",
+      "vraag_onderwerp": "Vragen over het openbaar register in het kader van deontologie en AWW",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr6C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr6D",
+      "vraag_onderwerp": "UBO-register: wie moet worden opgenomen?",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr6D.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr6E",
+      "vraag_onderwerp": "AMLCO-verplichtingen: stellingen juist of fout",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr6E.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

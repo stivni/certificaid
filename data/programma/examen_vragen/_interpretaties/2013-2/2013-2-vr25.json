@@ -135,5 +135,25 @@
   "herinterpretatie_motivering": "Enkelvoudige berekeningsvraag. Aandelenportefeuille-gegevens gestructureerd als gegevens_tabel. DBI-aftrek, meerwaarden en minwaarden op aandelen zijn de centrale thema's.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "cluster_id": "2.3-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label",
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

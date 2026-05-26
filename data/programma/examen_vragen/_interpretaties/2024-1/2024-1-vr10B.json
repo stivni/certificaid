@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10B",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Ratio's berekenen op basis van een verkort schema",
+  "programmaonderdeel_ids": ["1.2"],
+  "themas": ["ratio-analyse", "verkort schema", "jaarrekening", "klantenkrediet", "n-dagen ratio", "liquiditeit"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "B",
+      "vraagtype": "open",
+      "vraagstelling": "Welke ratio kan je niet berekenen op basis van een verkort schema?",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "a",
+    "tekst": "n-dagen klantenkrediet",
+    "vermoedelijke_status": "stagiair-notitie van eigen antwoord"
+  },
+  "herinterpretatie_motivering": "Herinnering-fragment. Tekst.txt en PNG bevatten 'n-dagen klantenkrediet' direct na de vraagstelling — dit is een antwoord-hint (stagiair-notitie van het eigen antwoord op de MC-vraag) en geen onderdeel van de vraag zelf. Verwijderd uit vraagstelling en opgenomen in antwoord_hint_in_vraag conform §4.3 (analoog aan zusvraag 2024-1-vr10C). MC-opties zijn niet bewaard → volledigheid=fragment. Vraagtype=open omdat schema 1.2 opties[] vereist bij mc_keuze — zonder bewaard opties-set is open de eerlijkste weergave.",
+  "kwaliteits_flags": ["antwoord_hint_aanwezig", "subvraag_zonder_inhoud"]
+}

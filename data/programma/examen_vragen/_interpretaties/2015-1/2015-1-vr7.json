@@ -64,5 +64,14 @@
   "herinterpretatie_motivering": "Deze vraag heeft 6 opties (A t/m F) in plaats van de gebruikelijke 5. De meta vermeldt pagina's 4-37, wat erop duidt dat pdfplumber de bijlage (balans) meenam in het segment. De vraag zelf staat op pagina 4 en betreft een enkelvoudige MC-vraag.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

@@ -1,0 +1,37 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr1A",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "BVBA-omzetting naar BV en volstortingsverplichting onder het WVV",
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
+  "themas": [
+    "WVV",
+    "BV",
+    "BVBA",
+    "omzetting",
+    "volstorting",
+    "liquidatietest",
+    "kapitaal"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "open",
+      "vraagstelling": "Een BVBA wordt onder het nieuwe WVV omgezet naar een BV. Is de aandeelhouder vrij van de volstortingsverplichting voor het niet-volstorte kapitaal? Is een liquidatietest nodig?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment (enkelvoudige open vraag). Tekst stemt volledig overeen met PNG. Twee deelaspects (vrijstelling volstorting + liquidatietest-vereiste) worden als één samengestelde open vraag gemodelleerd, conform het fragment. Geen tabellen of context-blokken.",
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
+}

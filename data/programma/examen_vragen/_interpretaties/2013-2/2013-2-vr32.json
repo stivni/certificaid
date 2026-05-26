@@ -54,5 +54,8 @@
   "herinterpretatie_motivering": "Tekst.txt fragmentarisch. Drie deelvragen over regelmatigheid, wettelijke termijn en praktische aanpak bij overmacht (staking). Alle drie vragen 'verklaar uw antwoord' → motivatie_verwacht:true.",
   "kwaliteits_flags": [
     "ocr_artefact"
-  ]
+  ],
+  "cluster_id": "2.5-c1",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

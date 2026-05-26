@@ -88,5 +88,22 @@
   "herinterpretatie_motivering": "Pagina 2. Enkelvoudige vraag over fiscale gevolgen van een fout geboekte factuur. Alle cijfergegevens gestructureerd als gegevens_tabellen.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

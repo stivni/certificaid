@@ -69,5 +69,17 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "De balans en resultatenrekening bevinden zich in bijlage (niet in dit segment). Toelichting-gegevens staan in de vraagstelling. Te bestemmen winst werd integraal gereserveerd. motivatie_verwacht true omdat de vraag expliciet vraagt om de gebruikte cijfers te vermelden als motivatie.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "1.3-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label",
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

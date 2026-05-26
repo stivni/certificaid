@@ -38,5 +38,14 @@
   "herinterpretatie_motivering": "Eén deelvraag — boeking-instructie. Vraagtype 'open' want boeking is antwoord-vorm. Context bevat alle nodige gegevens: saldo's uit proef- en saldibalans, inventariswaarden, marktwaarde en afprijzingsbedrag. PNG bevestigt de tabelstructuur.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

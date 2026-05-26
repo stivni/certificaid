@@ -70,5 +70,8 @@
   "herinterpretatie_motivering": "Pagina 4. 5 juist/fout-stellingen over onafhankelijkheidsregels. Kleine typo 'voort vloeit' in tekst gecorrigeerd naar 'voorttvloeit' — genormaliseerd.",
   "kwaliteits_flags": [
     "typo_genormaliseerd"
-  ]
+  ],
+  "cluster_id": "4.0-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label"
 }

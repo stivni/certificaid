@@ -1,0 +1,156 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "2.3",
+  "gegenereerd_op": "2026-05-26T10:21:02+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 17,
+  "n_clusters": 1,
+  "n_singletons": 14,
+  "clusters": [
+    {
+      "cluster_id": "2.3-c1",
+      "voorlopige_label": "Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten",
+      "n_voorkomens": 3,
+      "voorkomens": [
+        {
+          "examen_id": "2013-2",
+          "vraag_id": "2013-2-vr24",
+          "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr24.json"
+        },
+        {
+          "examen_id": "2013-2",
+          "vraag_id": "2013-2-vr25",
+          "vraag_onderwerp": "Vennootschapsbelasting: aandelenportefeuille, DBI en belastbaar resultaat",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr25.json"
+        },
+        {
+          "examen_id": "2015-1",
+          "vraag_id": "2015-1-vr33",
+          "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr33.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2013-2-vr25",
+          "naar": "2015-1-vr33",
+          "cosine": 0.8216
+        },
+        {
+          "van": "2013-2-vr24",
+          "naar": "2013-2-vr25",
+          "cosine": 0.8158
+        },
+        {
+          "van": "2013-2-vr24",
+          "naar": "2015-1-vr33",
+          "cosine": 0.814
+        }
+      ],
+      "verdict": "varianten",
+      "actie": "behoud_apart_met_label",
+      "motivering": "Alle drie 'bereken belastbaar resultaat VenB', maar verschillende fiscale technieken per casus: vr24 = verworpen uitgaven + notionele intrestaftrek + KMO-tarief + verliesoverdracht; vr25 = DBI-aftrek + meer/minwaarde aandelen; vr33 = DBI + verlaagd tarief + fiscaal overgedragen verlies. Gedeeld berekenings-skelet, verschillende correcties."
+    }
+  ],
+  "borderline_paren": [
+    {
+      "van": "2003-bibf-vrG1",
+      "naar": "2013-2-vr24",
+      "cosine": 0.7604
+    },
+    {
+      "van": "2003-bibf-vrG1",
+      "naar": "2013-1-vr24",
+      "cosine": 0.7529
+    }
+  ],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrG1",
+      "vraag_onderwerp": "Vennootschapsbelasting: invullen aangifte en belastbare basis BVBA Albert",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrG1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrG1",
+      "vraag_onderwerp": "Belastbare basis vennootschapsbelasting: fiscale aangifte voor KMO Green",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrG1.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr22",
+      "vraag_onderwerp": "Fiscale gevolgen van een fout geboekte aankoopfactuur op voorraadwaardering",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr22.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr23",
+      "vraag_onderwerp": "Invullen aangifte vennootschapsbelasting: voorzieningen grote herstellingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr23.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr24",
+      "vraag_onderwerp": "Berekening belastbare grondslag vennootschapsbelasting: voordelen alle aard firmawagens",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr24.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr28",
+      "vraag_onderwerp": "Vennootschapsbelasting — gespreide taxatie meerwaarde op gebouw",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr28.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr29",
+      "vraag_onderwerp": "Vennootschapsbelasting — verworpen uitgaven en fiscaal gestort kapitaal",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr29.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr34",
+      "vraag_onderwerp": "Vennootschapsbelasting: abnormale voordelen en impact op belastbare winst",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr34.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr35",
+      "vraag_onderwerp": "Vennootschapsbelasting: aanspraak op verlaagd basistarief via bedrijfsleidersbezoldiging",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr35.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr11A",
+      "vraag_onderwerp": "Factuurplicht en BTW-opeisbaarheid bij dienstverlening aan een rentenier",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr11B",
+      "vraag_onderwerp": "Margeregeling en vermelding in de BTW-aangifte",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr11C",
+      "vraag_onderwerp": "Toepasselijkheid vrijstellingsregeling kleine onderneming voor diverse activiteiten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr11D",
+      "vraag_onderwerp": "VAT Refund — stellingen juist of fout",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11D.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr11E",
+      "vraag_onderwerp": "BTW-tarief of -stelsel voor glazenwassen door een Belgische onderneming per situatie",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr11E.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

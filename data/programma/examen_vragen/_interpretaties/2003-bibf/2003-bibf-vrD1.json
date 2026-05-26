@@ -38,5 +38,8 @@
   "herinterpretatie_motivering": "Open vraag met twee samenhangende onderdelen (wettelijke verplichtingen + documenten per trimester). Twee aspecten van dezelfde instructie, niet twee aparte deelvragen. Vraagtype 'open' (procedure). OCR-artefact 'BTW- belastingplichtige' gecorrigeerd.",
   "kwaliteits_flags": [
     "typo_genormaliseerd"
-  ]
+  ],
+  "cluster_id": "2.4-c1",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

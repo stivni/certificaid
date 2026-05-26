@@ -2,7 +2,7 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-05-26 (controle-opdracht + interne-controle + ondernemingsvormen-clusters afgewerkt; eerste PO 3.0-cluster; OP-EC.7 vennootschap-typologie opgelost; `-rechtsvorm`/`-cluster`-suffix-naam-smell formeel)
+**Laatste update**: 2026-05-26 (Fase 4 examenvraag-antwoord-pipeline: 4.1 cluster-detectie + dedup-rendering, 4.2 prompt v2.0, 4.3 visuele-vraag-detectie — alle drie gerealiseerd; POC PO 1.4 succesvol; controle-opdracht + interne-controle + ondernemingsvormen-clusters afgewerkt; eerste PO 3.0-cluster; OP-EC.7 vennootschap-typologie opgelost; `-rechtsvorm`/`-cluster`-suffix-naam-smell formeel)
 
 ---
 
@@ -134,6 +134,36 @@ Vereist Fase 2.1 (Wet-beroepskwalificaties). Primaire bronnen: IESBA-code + ITAA
 ### 3.3 — PO 2.1 t/m 2.8 — Fiscaliteit (8 PO's)
 
 Vereist Fase 2.2 (8 fiscale gidsen). Volgorde binnen 2.x: nog te bepalen.
+
+---
+
+## Fase 4 — Examenvraag-antwoord-pipeline (POC actief)
+
+Pasklare student-ready antwoorden op alle voorbeeldexamen-vragen, RAG-gegrond aan bronnen, per-claim confidence (schema 2.1 v1.5 tokens). Werkpakket-spec: [`docs/examen-antwoord-pipeline.md`](examen-antwoord-pipeline.md).
+
+**Status 2026-05-26**: POC op PO 1.4 (6 vragen) succesvol — gemiddeld ~60-90 sec/vraag met 2-5 RAG-calls (vs. 23 min/vraag van eerste POC zonder budget). v3-prompt-regels gevonden, render-laag fixes gemerged, vision-her-interpretatie-noodzaak gedocumenteerd.
+
+### 4.1 — Cluster-detectie + dedup — ✅ gerealiseerd
+Pipeline: [`tools/examen/cluster_vragen.py`](../tools/examen/cluster_vragen.py) (bge-m3 embedding, cosine ≥ 0.80) → agent-review → [`tools/examen/apply_cluster_review.py`](../tools/examen/apply_cluster_review.py) stempelt interpretaties met `cluster_id` + `cluster_verdict`. Renderer ([`tools/examen/render_merged_v4.py`](../tools/examen/render_merged_v4.py)) groepeert cluster-leden: één canonical-render, gecombineerde herkomst-regel "Examens X & Y", multi-anchor, 🔁-badge. Eindstand: 11 clusters in 8 PO's, 282 unieke antwoord-units uit 293 vragen.
+
+**Open vervolg**: antwoord-deduplicatie voor `echt_duplicaat` (één canoniek `_antwoorden/<cluster_id>.json` ipv per-vraag-records). Voor `varianten`-clusters: antwoord moet UNIE van alle subsets dekken (vereist cluster-context in antwoord-prompt — al gevangen in prompt v2.0 §9).
+
+### 4.2 — Prompt v2.0 (canoniek antwoord-prompt) — ✅ gerealiseerd
+[`prompts/modelantwoord-v1.md`](../prompts/modelantwoord-v1.md) herschreven naar v2.0. Bevat alle POC-leerlessen: tool-budget (max 4 RAG-calls, parallel, rerank=False), blok-volgorde verplicht, schema 2.1 v1.5 confidence-tokens + 📖/🔗/🤖/❓/❌-iconen, PNG-Read regel voor visuele vragen, cluster-bewustzijn voor varianten, compactheid per vraag-type, anti-patterns.
+
+**Open vervolg**: re-run de 6 PO 1.4 vragen met canonical v2.0-prompt voor visuele consistentie (huidige tekst-iconen zijn nog ⚖️/🤖 — backward-compat in renderer maar visueel gemengd).
+
+### 4.3 — Visuele-vraag-detectie — ✅ gerealiseerd
+[`tools/examen/detect_visuele_vragen.py`](../tools/examen/detect_visuele_vragen.py) scant alle interpretaties op signalen: visuele `kwaliteits_flags`, typed `context_blokken[]` (tabel/groepsschema/balans), tekstpatronen ("zie onderstaande tabel", "vul aan", "kruis aan"). Output: `data/programma/examen_vragen/_visuele_vragen.json` + `--stamp`-modus voegt `vision_review_nodig`-veld toe aan 50 interpretaties (17% van corpus). Pipeline gebruikt dit veld om bij scaling automatisch PNG-Read te triggeren in antwoord-agent.
+
+### 4.4 — Schema-veld voor "wetsletter ↔ doctrine"-nuance
+Terugkerend patroon (3 vragen in PO 1.4 alleen): het examen-verwachte antwoord steunt op IFRS/doctrine/CBN-advies, niet op letterlijke wetstekst. Nu in ad-hoc `_poc_notitie`. Structureel veld nodig — bv. `grondings_caveat` per `vraag_antwoord` of een 6e confidence-token.
+
+### 4.5 — Bron_refs-validatie
+Script dat alle `bron_refs` in `_antwoorden/` controleert tegen filesystem `resources/bronnen/` en bronnen-index. Voorkomt verzonnen paden (al wel `#anchor`-fragmenten in prompt verboden — niet gevangen).
+
+### 4.6 — ADR-034
+Schrijven zodra POC stabiel is. Bundelt: pipeline-architectuur, RAG-grounding-regels, dedup-strategie, render-laag.
 
 ---
 

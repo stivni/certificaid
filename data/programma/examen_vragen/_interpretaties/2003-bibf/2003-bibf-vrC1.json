@@ -125,5 +125,18 @@
   "herinterpretatie_motivering": "Vier berekeningsvragen op basis van een gedeelde balans. Vraagtype 'open' want berekening is antwoord-vorm. Balans opgesplitst in actief/passief conform schema v1.1. Liquide middelen zijn apart van geldbeleggingen — relevant voor acid test. PNG bevestigt de balansstructuur.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "balans"
+      }
+    ]
+  }
 }

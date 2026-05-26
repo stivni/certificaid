@@ -1,0 +1,29 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6D",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "UBO-register: wie moet worden opgenomen?",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": ["UBO-register", "uiteindelijke begunstigde", "antiwitwaswetgeving", "registratieplicht", "drempel", "controle"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "D",
+      "vraagtype": "open",
+      "vraagstelling": "Wie moet worden opgenomen in het UBO-register?",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. Tekst.txt en PNG geven 'Vragen mbt UBO register. Wie moet worden opgenomen?' — de hoofdvraag is leesbaar maar mogelijke sub-vragen zijn niet overgeleverd. Gemarkeerd als fragment: de hoofdvraag is aanwezig maar het is onduidelijk of er verdere deelvragen waren. Vraagtype open (definitie/opsomming van categorieën uiteindelijke begunstigden).",
+  "kwaliteits_flags": []
+}

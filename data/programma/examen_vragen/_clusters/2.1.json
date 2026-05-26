@@ -1,0 +1,39 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "2.1",
+  "gegenereerd_op": "2026-05-26T10:20:50+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 4,
+  "n_clusters": 0,
+  "n_singletons": 4,
+  "clusters": [],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr5A",
+      "vraag_onderwerp": "Juist of fout: forfaitaire kostenaftrek bij meewerkend echtgenoot met ministatuut",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr5A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr5B",
+      "vraag_onderwerp": "Onroerende voorheffing bij niet-verhuurde woning wegens overstroming",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr5B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr5C",
+      "vraag_onderwerp": "Aangifte gemeubeld onroerend goed verhuurd aan natuurlijk persoon: te vermelden bedragen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr5C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr5D",
+      "vraag_onderwerp": "Beroepsinkomsten niet onderworpen aan het progressief belastingtarief",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr5D.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

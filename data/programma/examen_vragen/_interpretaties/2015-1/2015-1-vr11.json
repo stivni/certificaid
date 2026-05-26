@@ -37,5 +37,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Tekst.txt is beknopt maar beide deelvragen zijn volledig leesbaar. Twee open vragen over consolidatieverschillen.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "1.4-c2",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

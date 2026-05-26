@@ -43,5 +43,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "De tekst na de twee vraagstellingen bevat het modelantwoord (met verwijzing naar art. 4 §1 §3 en KB 1). Dat is NIET opgenomen. Twee deelvragen: advies over werkwijze (met verantwoording) en bewaarplicht.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "2.4-c2",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

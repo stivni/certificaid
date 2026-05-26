@@ -94,5 +94,23 @@
   "herinterpretatie_motivering": "Matchingvraag: 8 activiteiten elk toe te wijzen aan één van 4 taakcategorieën. Gemodelleerd als mc_keuze met de vier categorieën als opties (per activiteit één optie kiezen). De gegevens_tabel bevat de activiteiten maar geen bedragen — bedrag-veld gebruikt als null placeholder.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "het_schema_de_fig",
+        "veld": "casus_context"
+      }
+    ]
+  }
 }

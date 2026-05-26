@@ -36,5 +36,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "De genummerde lijst (1-12) in de tekst is het modelantwoord (de 'verwachte antwoorden'). Dat is NIET opgenomen in context_blokken conform de instructie. De vraagstelling is de instructie aan het begin van het segment. Één enkelvoudige open vraag.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "2.4-c1",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

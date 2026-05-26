@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
   "examen_id": "2015-1",
-  "merge_datum": "2026-05-21T08:50:02+00:00",
+  "merge_datum": "2026-05-26T10:30:42+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -112,6 +112,745 @@
         "vraag_id": "2015-1-vr1"
       },
       "vraag_id": "2015-1-vr1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Werknemer de heer Janssens van vennootschap XYZ ontvangt ontslag op 5 december 2013 en kan vanaf 1 maart 2014 genieten van het stelsel werkloosheid met bedrijfstoeslag (oud brugpensioenstelsel). Vanaf 1 maart 2014 betaalt de vennootschap 2.000 EUR bruto per maand.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "De tekst.txt herhaalt de vraagstelling bij elke subvraag (A-E zijn de opties, geen aparte deelvragen). OCR-artifact: pdfplumber heeft elke optie als aparte subvraag weergegeven met de volledige vraagstelling als herhaling. Dit is één enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "brugpensioen",
+          "werkloosheid met bedrijfstoeslag",
+          "voorzieningen",
+          "personeelskosten",
+          "boekhoudkundige verwerking"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr2",
+        "vraag_onderwerp": "Boekhoudkundige verwerking stelsel werkloosheid met bedrijfstoeslag (brugpensioen)",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het moment dat zij zich voordoen."
+              },
+              {
+                "id": "b",
+                "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag komen vanaf maart 2014 in de resultatenrekening. Een gedeelte van de voorziening wordt jaarlijks teruggenomen."
+              },
+              {
+                "id": "c",
+                "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer."
+              },
+              {
+                "id": "d",
+                "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht van de voorziening."
+              },
+              {
+                "id": "e",
+                "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. Op het moment van het bereiken van de pensioengerechtigde leeftijd van de werknemer wordt de voorziening teruggenomen."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe wordt dit stelsel werkloosheid met bedrijfstoeslag verwerkt in de boekhouding?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr2 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr2"
+      },
+      "vraag_id": "2015-1-vr2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap XYZ heeft een machine verkocht aan een klant voor 121.000,00 EUR incl. 21% btw op 1 juli 2012. Betaling na drie jaar, rente 8% zesmaandelijks. Vordering op rekening 290000 'Handelsdebiteuren op meer dan één jaar'. Op 15/07/2013 worden financiële moeilijkheden van de klant bekend en vraagt de klant het faillissement aan.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Zelfde OCR-patroon als vr2: de opties A-E worden door pdfplumber als aparte subvragen weergegeven met de volledige casus-tekst herhaald. Dit is één enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "vorderingen op lange termijn",
+          "dubieuze vorderingen",
+          "waardevermindering",
+          "rente op vorderingen",
+          "faillissement klant",
+          "overboeking vorderingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr3",
+        "vraag_onderwerp": "Boekhoudkundige behandeling dubieuze vordering op meer dan één jaar bij faillissement klant",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De vennootschap boekt een waardevermindering op de vordering."
+              },
+              {
+                "id": "b",
+                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering."
+              },
+              {
+                "id": "c",
+                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente."
+              },
+              {
+                "id": "d",
+                "tekst": "De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de nog verschuldigde rente die nog niet tot uiting was gebracht dienen uit te drukken. Zij boekt een waardevermindering voor de vordering en de rente."
+              },
+              {
+                "id": "e",
+                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente. Zij vermeldt in haar jaarrekening dat de inning onzeker is."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat zal de onderneming met de vordering op meer dan één jaar in haar boekhouding doen?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr3 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr3"
+      },
+      "vraag_id": "2015-1-vr3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In de boekhouding werd onder rubriek '499 – wachtrekening' een bedrag van 125.000,00 EUR opgenomen met de vermelding 'intercalaire interesten per 31/08/2014 op het investeringskrediet 15-237584-22'.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Optie D is in tekst.txt afgekapt (zonder slot). Uit de context van de andere opties is de strekking duidelijk: 'De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt.' Dit is een 4-optie MC-vraag (A t/m D).",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "intercalaire interesten",
+          "activering kosten",
+          "vaste activa",
+          "wachtrekening",
+          "boekhoudreglementering"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr4",
+        "vraag_onderwerp": "Boekhoudkundige verwerking intercalaire interesten op investeringskrediet",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen."
+              },
+              {
+                "id": "b",
+                "tekst": "De intercalaire interesten moeten op het actief van de balans worden geboekt."
+              },
+              {
+                "id": "c",
+                "tekst": "De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden geboekt."
+              },
+              {
+                "id": "d",
+                "tekst": "De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke van onderstaande instructies moet u aan de boekhouder geven om dit bedrag correct op te nemen?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr4 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr4"
+      },
+      "vraag_id": "2015-1-vr4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een vennootschap wenst te investeren in een nieuw productieapparaat. Kosten investering: 80.000 EUR. Mogelijke subsidie: 12.800 EUR, uitbetaald in twee stortingen van 40% en 60% in functie van het investeringsritme.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Zelfde OCR-patroon: opties A-E door pdfplumber als subvragen weergegeven. Dit is één enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "kapitaalsubsidies",
+          "interestsubsidies",
+          "boekhoudkundige verwerking",
+          "rekening 15",
+          "rekening 753",
+          "uitgestelde belastingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr5",
+        "vraag_onderwerp": "Boekhoudkundige verwerking kapitaalsubsidies",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'."
+              },
+              {
+                "id": "b",
+                "tekst": "Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 'Kapitaalsubsidies' en op rekening 1680 'Uitgestelde belastingen op kapitaalsubsidies' en zal daarop behouden blijven zolang het nieuwe productieapparaat niet is gerealiseerd."
+              },
+              {
+                "id": "c",
+                "tekst": "De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'."
+              },
+              {
+                "id": "d",
+                "tekst": "De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed."
+              },
+              {
+                "id": "e",
+                "tekst": "De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "De vennootschap vraagt uw advies over de boekhoudkundige verwerking van de subsidie. Welke optie is correct?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr5 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr5"
+      },
+      "vraag_id": "2015-1-vr5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap 'Koffie van het Noorden' herstructureert haar afdeling 'Fabricatie van Koffiemolens'. Kosten: ontmanteling bestaande productielijn 150.000 EUR, elektronische automatisatie nieuwe productielijn 300.000 EUR, technische werkloosheid fabriekspersoneel 250.000 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Zelfde OCR-patroon als voorgaande vragen. Één enkelvoudige MC-vraag met opties A-E.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "herstructureringskosten",
+          "activering kosten",
+          "immateriële activa",
+          "rekening 649",
+          "rekening 669",
+          "rekeningen 61-62",
+          "boekhoudkundige verwerking"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr6",
+        "vraag_onderwerp": "Activering herstructureringskosten: tegenboekingmethode",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven."
+              },
+              {
+                "id": "b",
+                "tekst": "De activering moet tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt om de uitgaven in kosten te nemen."
+              },
+              {
+                "id": "c",
+                "tekst": "De activering moet tot uiting worden gebracht door het crediteren van de rekening 649 of 669."
+              },
+              {
+                "id": "d",
+                "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669."
+              },
+              {
+                "id": "e",
+                "tekst": "De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door het crediteren van de rekening 649 of 669."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Aan de hand van welke tegenboeking kunnen deze uitgaven naar het actief van de balans worden overgeboekt?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr6 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr6"
+      },
+      "vraag_id": "2015-1-vr6"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Bij de vereffening van een bvba wordt een voorschot op het uiteindelijk te verdelen bedrag uitgekeerd.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Deze vraag heeft 6 opties (A t/m F) in plaats van de gebruikelijke 5. De meta vermeldt pagina's 4-37, wat erop duidt dat pdfplumber de bijlage (balans) meenam in het segment. De vraag zelf staat op pagina 4 en betreft een enkelvoudige MC-vraag.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "vereffening",
+          "bvba",
+          "liquidatie",
+          "voorschot liquidatiesaldo",
+          "rekening 19",
+          "rekening 100",
+          "boekhoudkundige verwerking"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr7",
+        "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "–",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Het voorschot wordt geboekt op het debet van rekening 100."
+              },
+              {
+                "id": "b",
+                "tekst": "Het voorschot wordt geboekt op het credit van rekening 19."
+              },
+              {
+                "id": "c",
+                "tekst": "Het voorschot wordt geboekt op het debet van rekening 416 Diverse vorderingen."
+              },
+              {
+                "id": "d",
+                "tekst": "Het voorschot wordt geboekt op het credit van rekening 101."
+              },
+              {
+                "id": "e",
+                "tekst": "Het voorschot wordt geboekt op het debet van rekening 19."
+              },
+              {
+                "id": "f",
+                "tekst": "Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke van de onderstaande voorstellen geeft de juiste boekhoudkundige verwerking weer?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr7 pagina 4-37",
+        "pagina_nummers": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr7"
+      },
+      "vraag_id": "2015-1-vr7"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "1.3-c1",
+        "cluster_verdict": "varianten",
+        "context_blokken": [
+          {
+            "tekst": "Op basis van de balans na winstverdeling en de resultatenrekening van een cliënt (zie bijlage). Uit de toelichting: (1) investeringen materiële vaste activa 452.835 EUR; (2) exploitatiesubsidies 1.288 EUR; (3) intrestsubsidies 14.214 EUR; (4) geen disconto ten laste; (5) gemiddeld 38,20 werknemers (VTE); (6) voorziening pensioenen teruggenomen voor 1.665 EUR; (7) te bestemmen winst integraal gereserveerd.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Analyse en kritische beoordeling van de jaarrekening - Consolidatie'. Vier MC-deelvragen (a-d) elk met 4 opties (A-D). Kandidaat kruist per deelratio het juiste antwoord aan in een antwoordrooster.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "brutoverkoopmarge",
+          "toegevoegde waarde",
+          "personeelskosten",
+          "nettorentabiliteit eigen vermogen",
+          "voorraadrotatie",
+          "financiële ratio's",
+          "jaarrekening analyse"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr8",
+        "vraag_onderwerp": "Berekening financiële ratio's op basis van jaarrekening",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "(1.479.283 + 425.554 + 804) x 100 / (8.034.747 + 344.153) = 22,74"
+              },
+              {
+                "id": "b",
+                "tekst": "(1.417.747 + 425.554 + 804) x 100 / (8.365.788 - 1.600.244) = 27,26"
+              },
+              {
+                "id": "c",
+                "tekst": "(1.479.283 + 425.554 + 804 – 1.665) x 100 / (8.034.747 + 344.153 – 1.288) = 22,73"
+              },
+              {
+                "id": "d",
+                "tekst": "(968.829 + 425.554 + 804 – 1.665) x 100 / (8.365.788 – 1.288) = 16,66"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Brutoverkoopmarge: welke berekening is correct?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "(1.600.244 – 1.665) X 100 / (8.365.788 - 1.288 – 3.457.309 – 1.398.278) = 45,56"
+              },
+              {
+                "id": "b",
+                "tekst": "1.600.244 x 100 / (8.365.788 – 3.457.309 – 1.398.278) = 45,59"
+              },
+              {
+                "id": "c",
+                "tekst": "1.600.244 x 100 / 1.479.283 = 108,18"
+              },
+              {
+                "id": "d",
+                "tekst": "(1.600.244 – 1.665) x 100 / (8.034.747 – 13.112 - 3.457.309 – 1.398.278 – 1.288) = 50,51"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Personeelskosten ten opzichte van toegevoegde waarde: welke berekening is correct?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "968.829 x 100 / 10.274.463 = 9,43"
+              },
+              {
+                "id": "b",
+                "tekst": "968.829 x 100 / 8.177.941 = 11,85"
+              },
+              {
+                "id": "c",
+                "tekst": "1.417.747 x 100 / 10.274.463 = 13,80"
+              },
+              {
+                "id": "d",
+                "tekst": "1.479.283 x 100 / 8.177.941 = 18,09"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Nettorentabiliteit van het eigen vermogen na belastingen: welke berekening is correct?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "3.444.161 / 530.373 = 6,49"
+              },
+              {
+                "id": "b",
+                "tekst": "3.457.309 / 530.373 = 6,52"
+              },
+              {
+                "id": "c",
+                "tekst": "3.457.309 / 1.344.750 = 2,57"
+              },
+              {
+                "id": "d",
+                "tekst": "3.444.161 / 1.344.750 = 2,56"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen: welke berekening is correct?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr8 pagina 1",
+        "pagina_nummers": [
+          1
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr8"
+      },
+      "vraag_id": "2015-1-vr8"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2015-1",
+        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Analyse en kritische beoordeling'. Vijf open begripsomschrijvingen. Tekst.txt is beknopt maar de deelvragen zijn volledig leesbaar.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "intrinsieke waarde",
+          "fractiewaarde",
+          "netto rendabiliteit bedrijfsactiva",
+          "algemene schuldgraad",
+          "operationele cash flow",
+          "financiële analyse",
+          "begripsomschrijving"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2015-1-vr9",
+        "vraag_onderwerp": "Begripsomschrijving financiële analyse: intrinsieke waarde, fractiewaarde, rendabiliteit, schuldgraad, operationele cash flow",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'intrinsieke waarde'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'fractiewaarde'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'netto rendabiliteit van de bedrijfsactiva'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'algemene schuldgraad'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "e",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'operationele cash flow voor belastingen'.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2015-1",
+        "karakter": "auto-isolatie 2015-1-vr9 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2015-1-vr9"
+      },
+      "vraag_id": "2015-1-vr9"
     },
     {
       "antwoord": null,
@@ -255,9 +994,102 @@
       "vraag_id": "2015-1-vr10"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "content/concepten/consolidatieverschil-goodwill.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Een **positief consolidatieverschil** is het verschil dat bij de **eerste consolidatie** overblijft tussen (a) de aanschaffingsprijs van de aandelen van de dochter en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat** dat verschil zoveel mogelijk is toegerekend aan onder- of overgewaardeerde activa en schulden. Het residu verschijnt aan de **actiefzijde** van de geconsolideerde balans onder \"Consolidatieverschillen\" (overname-goodwill). ⚖️",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/consolidatieverschil-goodwill.md"
+                ],
+                "confidence": "inferred",
+                "tekst": "**Formule**: positief consolidatieverschil = aanschaffingsprijs deelneming − (%-belang × reële waarde netto-activa dochter op overnamedatum). De toerekening aan herwaarderingen van identificeerbare bestanddelen gebeurt **vóór** het residu als goodwill wordt gepresenteerd. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/consolidatieverschil-goodwill.md"
+                ],
+                "confidence": "inferred",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het positief consolidatieverschil wordt **systematisch afgeschreven** ten laste van de geconsolideerde resultatenrekening (standaard max. 5 jaar; gemotiveerde langere termijn tot 20 jaar, te verantwoorden in de toelichting). Spiegelbeeld: bij een aanschaffingsprijs **lager** dan het pro-rata eigen vermogen ontstaat een **negatief consolidatieverschil** (badwill) aan de passiefzijde. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md",
+                  "resources/bronnen/adviezen/CBN-2013-03-de-boekhoudkundige-verwerking-van-step-acquisitions-update.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Art. 3:140 KB WVV (toerekening positief consolidatieverschil aan over/ondergewaardeerde activa en passiva) en art. 3:129 KB WVV (compensatie aanschaffingswaarde deelneming met aandeel eigen vermogen op overnamedatum). CBN-advies 2022/11 illustreert het mechanisme; CBN-advies 2013/3 toont de berekening bij step acquisitions.",
+                "type": "grondslag",
+                "wetsref": "art. 3:129 en 3:140 KB WVV"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "content/concepten/consolidatieverschil-goodwill.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "**Vier voornaamste oorzaken van een positief consolidatieverschil**:\n\n1. **Ondergewaardeerde activa** — bezittingen van de dochter (terreinen, gebouwen, voorraden, financiële vaste activa) staan aan historische boekwaarde lager dan hun reële waarde op overnamedatum. ⚖️\n2. **Overgewaardeerde of niet-geboekte passiva** — schulden of voorzieningen die op de balans van de dochter te hoog staan, of latente verplichtingen (latente belastingen op herwaarderingen, ongunstige contracten) die niet erkend zijn. ⚖️\n3. **Niet-geboekte immateriële waardebronnen** — intern opgebouwde merknaam, cliënteel, knowhow, lopende O&O-projecten of synergiën met de groep die in de enkelvoudige rekening van de dochter niet aan de erkenningscriteria voldoen, maar waarvoor de overnemer wel betaalt. ⚖️\n4. **Overname-premie (goodwill stricto sensu)** — residueel deel dat na alle herwaarderingen overblijft: betaling voor verwachte rentabiliteit, marktpositie of een strategische premie (concurrent uit de markt, controle verwerven). ⚖️",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/consolidatieverschil-goodwill.md"
+                ],
+                "confidence": "inferred",
+                "tekst": "De vier oorzaken volgen uit de berekeningssystematiek: het verschil tussen aanschaffingsprijs en boekwaardelijk aandeel in het eigen vermogen wordt **eerst** toegerekend aan onder/overgewaardeerde identificeerbare bestanddelen (oorzaken 1-2) en aan niet-erkende immateriële activa (oorzaak 3); het **niet-toerekenbare residu** is de zuivere overnamepremie (oorzaak 4). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "content/concepten/consolidatieverschil-goodwill.md"
+                ],
+                "confidence": "inferred",
+                "kop": "Vermeldenswaard",
+                "tekst": "De wet vereist dat de toerekening aan over/ondergewaardeerde activa en passiva **eerst** gebeurt (\"zoveel mogelijk\"), zodat de geconsolideerde balans de werkelijke economische waarde van de groepsactiva weerspiegelt. Alleen het niet-toerekenbare deel krijgt de aparte rubriek \"Consolidatieverschillen\" — anders zou alles onder één goodwill-post verdwijnen en de informatieve waarde van de balans dalen. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md",
+                  "resources/bronnen/adviezen/CBN-0126-08-financiele-vaste-activa-waardering-aanschaffingswaarde-met-prijstoeslag.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Art. 3:140 KB WVV: het positief consolidatieverschil wordt **\"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde\"** — dekt oorzaken 1-2 (en deels 3). Niet-toerekenbaar residu = oorzaken 3 (niet-erkenbare immateriële elementen) en 4 (overprijs). CBN-advies 126/8 omschrijft het consolidatieverschil als het surplus boven het toerekenbare deel; CBN-advies 2022/11 toont de toerekening aan terreinen vóór het residu.",
+                "type": "grondslag",
+                "wetsref": "art. 3:140 KB WVV"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2015-1-vr11"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "1.4-c2",
+        "cluster_verdict": "echt_duplicaat",
         "context_blokken": [],
         "examen_id": "2015-1",
         "herinterpretatie_motivering": "Tekst.txt is beknopt maar beide deelvragen zijn volledig leesbaar. Twee open vragen over consolidatieverschillen.",
@@ -820,83 +1652,6 @@
         "vraag_id": "2015-1-vr19"
       },
       "vraag_id": "2015-1-vr19"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Werknemer de heer Janssens van vennootschap XYZ ontvangt ontslag op 5 december 2013 en kan vanaf 1 maart 2014 genieten van het stelsel werkloosheid met bedrijfstoeslag (oud brugpensioenstelsel). Vanaf 1 maart 2014 betaalt de vennootschap 2.000 EUR bruto per maand.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2015-1",
-        "herinterpretatie_motivering": "De tekst.txt herhaalt de vraagstelling bij elke subvraag (A-E zijn de opties, geen aparte deelvragen). OCR-artifact: pdfplumber heeft elke optie als aparte subvraag weergegeven met de volledige vraagstelling als herhaling. Dit is één enkelvoudige MC-vraag.",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "ocr_artefact"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "brugpensioen",
-          "werkloosheid met bedrijfstoeslag",
-          "voorzieningen",
-          "personeelskosten",
-          "boekhoudkundige verwerking"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2015-1-vr2",
-        "vraag_onderwerp": "Boekhoudkundige verwerking stelsel werkloosheid met bedrijfstoeslag (brugpensioen)",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "–",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "De vennootschap neemt de maandelijkse kosten op in de resultatenrekening op het moment dat zij zich voordoen."
-              },
-              {
-                "id": "b",
-                "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag komen vanaf maart 2014 in de resultatenrekening. Een gedeelte van de voorziening wordt jaarlijks teruggenomen."
-              },
-              {
-                "id": "c",
-                "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer."
-              },
-              {
-                "id": "d",
-                "tekst": "Op 05/12/2013 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. De kosten van het stelsel werkloosheid met bedrijfstoeslag worden vanaf maart 2014 in mindering gebracht van de voorziening."
-              },
-              {
-                "id": "e",
-                "tekst": "Op 01/03/2014 berekent de vennootschap een voorziening voor de toekomstige kosten, rekening houdend met het geslacht en de leeftijd van de werknemer. Op het moment van het bereiken van de pensioengerechtigde leeftijd van de werknemer wordt de voorziening teruggenomen."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Hoe wordt dit stelsel werkloosheid met bedrijfstoeslag verwerkt in de boekhouding?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2015-1",
-        "karakter": "auto-isolatie 2015-1-vr2 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2015-1-vr2"
-      },
-      "vraag_id": "2015-1-vr2"
     },
     {
       "antwoord": null,
@@ -1783,84 +2538,6 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Vennootschap XYZ heeft een machine verkocht aan een klant voor 121.000,00 EUR incl. 21% btw op 1 juli 2012. Betaling na drie jaar, rente 8% zesmaandelijks. Vordering op rekening 290000 'Handelsdebiteuren op meer dan één jaar'. Op 15/07/2013 worden financiële moeilijkheden van de klant bekend en vraagt de klant het faillissement aan.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2015-1",
-        "herinterpretatie_motivering": "Zelfde OCR-patroon als vr2: de opties A-E worden door pdfplumber als aparte subvragen weergegeven met de volledige casus-tekst herhaald. Dit is één enkelvoudige MC-vraag.",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "ocr_artefact"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "vorderingen op lange termijn",
-          "dubieuze vorderingen",
-          "waardevermindering",
-          "rente op vorderingen",
-          "faillissement klant",
-          "overboeking vorderingen"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2015-1-vr3",
-        "vraag_onderwerp": "Boekhoudkundige behandeling dubieuze vordering op meer dan één jaar bij faillissement klant",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "–",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "De vennootschap boekt een waardevermindering op de vordering."
-              },
-              {
-                "id": "b",
-                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering."
-              },
-              {
-                "id": "c",
-                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente."
-              },
-              {
-                "id": "d",
-                "tekst": "De vordering dient overgeboekt te worden naar vorderingen op korte termijn. Zij zal ook de nog verschuldigde rente die nog niet tot uiting was gebracht dienen uit te drukken. Zij boekt een waardevermindering voor de vordering en de rente."
-              },
-              {
-                "id": "e",
-                "tekst": "De vennootschap berekent de nog verschuldigde rente tot het einde van de drie jaar. Zij boekt tevens een waardevermindering voor de vordering en de rente. Zij vermeldt in haar jaarrekening dat de inning onzeker is."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Wat zal de onderneming met de vordering op meer dan één jaar in haar boekhouding doen?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2015-1",
-        "karakter": "auto-isolatie 2015-1-vr3 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2015-1-vr3"
-      },
-      "vraag_id": "2015-1-vr3"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
         "context_blokken": [],
         "examen_id": "2015-1",
         "herinterpretatie_motivering": "Vraag 3 van de sectie 'Personenbelasting'. Enkelvoudige MC-vraag met 5 opties, kandidaat identificeert de ONJUISTE uitspraak.",
@@ -2081,6 +2758,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "2.3-c1",
+        "cluster_verdict": "varianten",
         "context_blokken": [
           {
             "tekst": "Vennootschap ABC heeft een beleggingsportefeuille. Resultaat boekjaar 22.150 EUR: verkoop beleggingen 25.000 EUR, aankoopkosten 1.200 EUR, verkoopkosten 1.650 EUR. Geen andere kosten en opbrengsten. Vennootschap voldoet aan criteria art. 15 W.Venn. Fiscaal overgedragen verlies van 10.000 EUR van aanslagjaar 2013. Geen recht op notionele intrestaftrek. Niet voldaan aan voorwaarden verlaagd tarief. Aanslagjaar 2014.",
@@ -2565,79 +3245,6 @@
         "vraag_id": "2015-1-vr39"
       },
       "vraag_id": "2015-1-vr39"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "In de boekhouding werd onder rubriek '499 – wachtrekening' een bedrag van 125.000,00 EUR opgenomen met de vermelding 'intercalaire interesten per 31/08/2014 op het investeringskrediet 15-237584-22'.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2015-1",
-        "herinterpretatie_motivering": "Optie D is in tekst.txt afgekapt (zonder slot). Uit de context van de andere opties is de strekking duidelijk: 'De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt.' Dit is een 4-optie MC-vraag (A t/m D).",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "ocr_artefact"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "intercalaire interesten",
-          "activering kosten",
-          "vaste activa",
-          "wachtrekening",
-          "boekhoudreglementering"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2015-1-vr4",
-        "vraag_onderwerp": "Boekhoudkundige verwerking intercalaire interesten op investeringskrediet",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "–",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "De intercalaire interesten mogen enkel onder de rubriek 65 worden opgenomen."
-              },
-              {
-                "id": "b",
-                "tekst": "De intercalaire interesten moeten op het actief van de balans worden geboekt."
-              },
-              {
-                "id": "c",
-                "tekst": "De intercalaire interesten mogen onvoorwaardelijk op het actief van de balans worden geboekt."
-              },
-              {
-                "id": "d",
-                "tekst": "De intercalaire interesten mogen, onder bepaalde voorwaarden, op het actief van de balans worden geboekt."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Welke van onderstaande instructies moet u aan de boekhouder geven om dit bedrag correct op te nemen?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2015-1",
-        "karakter": "auto-isolatie 2015-1-vr4 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2015-1-vr4"
-      },
-      "vraag_id": "2015-1-vr4"
     },
     {
       "antwoord": null,
@@ -3464,84 +4071,6 @@
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
           {
-            "tekst": "Een vennootschap wenst te investeren in een nieuw productieapparaat. Kosten investering: 80.000 EUR. Mogelijke subsidie: 12.800 EUR, uitbetaald in twee stortingen van 40% en 60% in functie van het investeringsritme.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2015-1",
-        "herinterpretatie_motivering": "Zelfde OCR-patroon: opties A-E door pdfplumber als subvragen weergegeven. Dit is één enkelvoudige MC-vraag.",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "ocr_artefact"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "kapitaalsubsidies",
-          "interestsubsidies",
-          "boekhoudkundige verwerking",
-          "rekening 15",
-          "rekening 753",
-          "uitgestelde belastingen"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2015-1-vr5",
-        "vraag_onderwerp": "Boekhoudkundige verwerking kapitaalsubsidies",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "–",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "Elke ontvangen betaling zal rechtstreeks geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'."
-              },
-              {
-                "id": "b",
-                "tekst": "Elke ontvangen betaling zal gelijktijdig geboekt worden op rekening 15 'Kapitaalsubsidies' en op rekening 1680 'Uitgestelde belastingen op kapitaalsubsidies' en zal daarop behouden blijven zolang het nieuwe productieapparaat niet is gerealiseerd."
-              },
-              {
-                "id": "c",
-                "tekst": "De subsidie zal, bij ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 753 'Kapitaal- en interestsubsidies'."
-              },
-              {
-                "id": "d",
-                "tekst": "De subsidie zal, vanaf de ontvangst van het bericht tot bevestiging van de toekenning van de subsidie, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed."
-              },
-              {
-                "id": "e",
-                "tekst": "De subsidie zal, vanaf de creditering ervan op de bankrekening, ineens geboekt worden op rekening 15 'Kapitaalsubsidies' en zal in resultaat worden genomen volgens het afschrijvingsritme van het geïnvesteerde goed."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "De vennootschap vraagt uw advies over de boekhoudkundige verwerking van de subsidie. Welke optie is correct?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2015-1",
-        "karakter": "auto-isolatie 2015-1-vr5 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2015-1-vr5"
-      },
-      "vraag_id": "2015-1-vr5"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
             "tekst": "Ivzw met maatschappelijke zetel in België wenst een caritatieve vzw gevestigd in Spanje (met waardevolle landeigendommen) over te nemen. Na de verrichting: ivzw beschikt naast hoofdzetel in België ook over uitbatingszetel in Spanje. De overname zou in Spanje aanleiding geven tot belastingheffing over meerwaarden op onroerende goederen. Vraag: is toepassing van richtlijn 2009/133/EG mogelijk met vrijstelling van belasting?",
             "type": "casus_context"
           }
@@ -3979,436 +4508,6 @@
         "vraag_id": "2015-1-vr56"
       },
       "vraag_id": "2015-1-vr56"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Vennootschap 'Koffie van het Noorden' herstructureert haar afdeling 'Fabricatie van Koffiemolens'. Kosten: ontmanteling bestaande productielijn 150.000 EUR, elektronische automatisatie nieuwe productielijn 300.000 EUR, technische werkloosheid fabriekspersoneel 250.000 EUR.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2015-1",
-        "herinterpretatie_motivering": "Zelfde OCR-patroon als voorgaande vragen. Één enkelvoudige MC-vraag met opties A-E.",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "ocr_artefact"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "herstructureringskosten",
-          "activering kosten",
-          "immateriële activa",
-          "rekening 649",
-          "rekening 669",
-          "rekeningen 61-62",
-          "boekhoudkundige verwerking"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2015-1-vr6",
-        "vraag_onderwerp": "Activering herstructureringskosten: tegenboekingmethode",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "–",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven."
-              },
-              {
-                "id": "b",
-                "tekst": "De activering moet tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt om de uitgaven in kosten te nemen."
-              },
-              {
-                "id": "c",
-                "tekst": "De activering moet tot uiting worden gebracht door het crediteren van de rekening 649 of 669."
-              },
-              {
-                "id": "d",
-                "tekst": "De activering kan tot uiting worden gebracht door het crediteren van de rekening 649 of 669."
-              },
-              {
-                "id": "e",
-                "tekst": "De activering kan, naar keuze, tot uiting worden gebracht door het crediteren van de rekeningen 61-62, die werden gebruikt voor de in resultaatneming van de uitgaven, of door het crediteren van de rekening 649 of 669."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Aan de hand van welke tegenboeking kunnen deze uitgaven naar het actief van de balans worden overgeboekt?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2015-1",
-        "karakter": "auto-isolatie 2015-1-vr6 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2015-1-vr6"
-      },
-      "vraag_id": "2015-1-vr6"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Bij de vereffening van een bvba wordt een voorschot op het uiteindelijk te verdelen bedrag uitgekeerd.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2015-1",
-        "herinterpretatie_motivering": "Deze vraag heeft 6 opties (A t/m F) in plaats van de gebruikelijke 5. De meta vermeldt pagina's 4-37, wat erop duidt dat pdfplumber de bijlage (balans) meenam in het segment. De vraag zelf staat op pagina 4 en betreft een enkelvoudige MC-vraag.",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "tabel_in_pdf_zichtbaar"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "vereffening",
-          "bvba",
-          "liquidatie",
-          "voorschot liquidatiesaldo",
-          "rekening 19",
-          "rekening 100",
-          "boekhoudkundige verwerking"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2015-1-vr7",
-        "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "–",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "Het voorschot wordt geboekt op het debet van rekening 100."
-              },
-              {
-                "id": "b",
-                "tekst": "Het voorschot wordt geboekt op het credit van rekening 19."
-              },
-              {
-                "id": "c",
-                "tekst": "Het voorschot wordt geboekt op het debet van rekening 416 Diverse vorderingen."
-              },
-              {
-                "id": "d",
-                "tekst": "Het voorschot wordt geboekt op het credit van rekening 101."
-              },
-              {
-                "id": "e",
-                "tekst": "Het voorschot wordt geboekt op het debet van rekening 19."
-              },
-              {
-                "id": "f",
-                "tekst": "Het voorschot wordt geboekt op het debet van de rekening zaakvoerder – 48."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Welke van de onderstaande voorstellen geeft de juiste boekhoudkundige verwerking weer?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2015-1",
-        "karakter": "auto-isolatie 2015-1-vr7 pagina 4-37",
-        "pagina_nummers": [
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12,
-          13,
-          14,
-          15,
-          16,
-          17,
-          18,
-          19,
-          20,
-          21,
-          22,
-          23,
-          24,
-          25,
-          26,
-          27,
-          28,
-          29,
-          30,
-          31,
-          32,
-          33,
-          34,
-          35,
-          36,
-          37
-        ],
-        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2015-1-vr7"
-      },
-      "vraag_id": "2015-1-vr7"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Op basis van de balans na winstverdeling en de resultatenrekening van een cliënt (zie bijlage). Uit de toelichting: (1) investeringen materiële vaste activa 452.835 EUR; (2) exploitatiesubsidies 1.288 EUR; (3) intrestsubsidies 14.214 EUR; (4) geen disconto ten laste; (5) gemiddeld 38,20 werknemers (VTE); (6) voorziening pensioenen teruggenomen voor 1.665 EUR; (7) te bestemmen winst integraal gereserveerd.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2015-1",
-        "herinterpretatie_motivering": "Vraag 1 van de sectie 'Analyse en kritische beoordeling van de jaarrekening - Consolidatie'. Vier MC-deelvragen (a-d) elk met 4 opties (A-D). Kandidaat kruist per deelratio het juiste antwoord aan in een antwoordrooster.",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "tabel_in_pdf_zichtbaar"
-        ],
-        "programmaonderdeel_ids": [
-          "1.3"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "brutoverkoopmarge",
-          "toegevoegde waarde",
-          "personeelskosten",
-          "nettorentabiliteit eigen vermogen",
-          "voorraadrotatie",
-          "financiële ratio's",
-          "jaarrekening analyse"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2015-1-vr8",
-        "vraag_onderwerp": "Berekening financiële ratio's op basis van jaarrekening",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "(1.479.283 + 425.554 + 804) x 100 / (8.034.747 + 344.153) = 22,74"
-              },
-              {
-                "id": "b",
-                "tekst": "(1.417.747 + 425.554 + 804) x 100 / (8.365.788 - 1.600.244) = 27,26"
-              },
-              {
-                "id": "c",
-                "tekst": "(1.479.283 + 425.554 + 804 – 1.665) x 100 / (8.034.747 + 344.153 – 1.288) = 22,73"
-              },
-              {
-                "id": "d",
-                "tekst": "(968.829 + 425.554 + 804 – 1.665) x 100 / (8.365.788 – 1.288) = 16,66"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Brutoverkoopmarge: welke berekening is correct?",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "(1.600.244 – 1.665) X 100 / (8.365.788 - 1.288 – 3.457.309 – 1.398.278) = 45,56"
-              },
-              {
-                "id": "b",
-                "tekst": "1.600.244 x 100 / (8.365.788 – 3.457.309 – 1.398.278) = 45,59"
-              },
-              {
-                "id": "c",
-                "tekst": "1.600.244 x 100 / 1.479.283 = 108,18"
-              },
-              {
-                "id": "d",
-                "tekst": "(1.600.244 – 1.665) x 100 / (8.034.747 – 13.112 - 3.457.309 – 1.398.278 – 1.288) = 50,51"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Personeelskosten ten opzichte van toegevoegde waarde: welke berekening is correct?",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "968.829 x 100 / 10.274.463 = 9,43"
-              },
-              {
-                "id": "b",
-                "tekst": "968.829 x 100 / 8.177.941 = 11,85"
-              },
-              {
-                "id": "c",
-                "tekst": "1.417.747 x 100 / 10.274.463 = 13,80"
-              },
-              {
-                "id": "d",
-                "tekst": "1.479.283 x 100 / 8.177.941 = 18,09"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Nettorentabiliteit van het eigen vermogen na belastingen: welke berekening is correct?",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "d",
-            "label_in_pdf": "d",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "3.444.161 / 530.373 = 6,49"
-              },
-              {
-                "id": "b",
-                "tekst": "3.457.309 / 530.373 = 6,52"
-              },
-              {
-                "id": "c",
-                "tekst": "3.457.309 / 1.344.750 = 2,57"
-              },
-              {
-                "id": "d",
-                "tekst": "3.444.161 / 1.344.750 = 2,56"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Rotatie van de voorraad handelsgoederen, grond- en hulpstoffen: welke berekening is correct?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2015-1",
-        "karakter": "auto-isolatie 2015-1-vr8 pagina 1",
-        "pagina_nummers": [
-          1
-        ],
-        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2015-1-vr8"
-      },
-      "vraag_id": "2015-1-vr8"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [],
-        "examen_id": "2015-1",
-        "herinterpretatie_motivering": "Vraag 2 van de sectie 'Analyse en kritische beoordeling'. Vijf open begripsomschrijvingen. Tekst.txt is beknopt maar de deelvragen zijn volledig leesbaar.",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.3"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "intrinsieke waarde",
-          "fractiewaarde",
-          "netto rendabiliteit bedrijfsactiva",
-          "algemene schuldgraad",
-          "operationele cash flow",
-          "financiële analyse",
-          "begripsomschrijving"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2015-1-vr9",
-        "vraag_onderwerp": "Begripsomschrijving financiële analyse: intrinsieke waarde, fractiewaarde, rendabiliteit, schuldgraad, operationele cash flow",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'intrinsieke waarde'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'fractiewaarde'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'netto rendabiliteit van de bedrijfsactiva'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "d",
-            "label_in_pdf": "d",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'algemene schuldgraad'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "e",
-            "label_in_pdf": "e",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'operationele cash flow voor belastingen'.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2015-1",
-        "karakter": "auto-isolatie 2015-1-vr9 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2015-1-vr9"
-      },
-      "vraag_id": "2015-1-vr9"
     }
   ]
 }

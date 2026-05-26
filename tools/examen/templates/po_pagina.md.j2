@@ -1,0 +1,30 @@
+{# Render één programmaonderdeel-pagina: frontmatter + intro + alle vraag-eenheden uit alle examens onder dit PO.
+   Variabelen:
+     po_code            — string (bv. "1.1")
+     po_titel           — string (bv. "Algemene boekhouding")
+     po_slug            — string voor frontmatter-tag (bv. "1-1")
+     vragen             — lijst van vraag-dicts (gesorteerd: examen-jaar asc, dan natural-sort vraag_id)
+     vraag_eenheden_md  — lijst van pre-rendered markdown-strings (1-op-1 met vragen)
+     examens            — lijst van examen-ids die vragen leveren onder dit PO
+     totaal             — int (aantal unieke vraag-eenheden in dit PO, na cluster-dedup)
+     totaal_voorkomens  — int (totaal aantal vraag-voorkomens, incl. duplicaten in clusters)
+     n_clusters         — int (aantal multi-lid clusters; verschil met totaal = aantal duplicaten weg)
+     met_antwoord       — int (aantal vragen met modelantwoord)
+     vandaag            — datum-string (ISO formaat)
+#}
+---
+title: PO {{ po_code }} — {{ po_titel }}
+description: Voorbeeldexamenvragen geclassificeerd onder programmaonderdeel {{ po_code }} ({{ po_titel }}).
+tags: [examen, voorbeeldvragen, po-{{ po_slug }}]
+gegenereerd_uit: tools/examen/render_merged_v4.py
+gegenereerd_op: {{ vandaag }}
+---
+
+# PO {{ po_code }} — {{ po_titel }}
+
+**{{ totaal }} unieke vraag-eenhe{{ "den" if totaal != 1 else "id" }}**{% if n_clusters %} (waarvan {{ n_clusters }} cluster{{ "s" if n_clusters != 1 else "" }}, totaal {{ totaal_voorkomens }} voorkomens){% endif %} uit {{ examens|length }} examen{{ "s" if examens|length != 1 else "" }} ({{ examens|join(", ") }}) — {{ met_antwoord }} met modelantwoord
+
+{% for vraag_md in vraag_eenheden_md %}
+{{ vraag_md }}
+
+{% endfor %}

@@ -134,5 +134,27 @@
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Analyse en kritische beoordeling van de jaarrekening - Consolidatie'. Vier MC-deelvragen (a-d) elk met 4 opties (A-D). Kandidaat kruist per deelratio het juiste antwoord aan in een antwoordrooster.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "cluster_id": "1.3-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label",
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "zie_bijlage",
+        "veld": "casus_context"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "op_basis_van_de_bal",
+        "veld": "casus_context"
+      }
+    ]
+  }
 }

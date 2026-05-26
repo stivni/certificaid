@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-1.pdf",
   "examen_id": "2013-1",
-  "merge_datum": "2026-05-21T08:50:02+00:00",
+  "merge_datum": "2026-05-26T10:30:42+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -213,6 +213,698 @@
         "vraag_id": "2013-1-vr1"
       },
       "vraag_id": "2013-1-vr1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-1",
+        "herinterpretatie_motivering": "Vraag 2 uit de sectie Wetgeving inzake de jaarrekening. PNG bevestigt MC-antwoordvakjes voor a, b en c. Opties volledig leesbaar uit PNG pagina 3.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "leveranciersschuld",
+          "kapitaalinbreng",
+          "kapitaalvermindering",
+          "vaste inrichting",
+          "boekhoudkundige verwerking",
+          "boeking"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-1-vr2",
+        "vraag_onderwerp": "Boekingen bij kapitaaloperaties en buitenlandse vaste inrichting",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Zij boekt de leveranciersschuld ten opzichte van een resultatenrekening tegen. Vervolgens zal zij via de resultaatverwerking een overboeking maken naar de rubriek kapitaal."
+              },
+              {
+                "id": "b",
+                "tekst": "Zij boekt de leveranciersschuld rechtstreeks over naar de rubriek kapitaal."
+              },
+              {
+                "id": "c",
+                "tekst": "Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Onderneming A heeft een openstaande leveranciersschuld ten opzichte van onderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze schuld in te brengen als kapitaal. Zij dient de volgende boeking(en) aan te brengen in haar boekhouding.",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden."
+              },
+              {
+                "id": "b",
+                "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening resultaatverwerking."
+              },
+              {
+                "id": "c",
+                "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van twee maanden na de publicatie in het Belgisch Staatsblad."
+              },
+              {
+                "id": "d",
+                "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van twee maanden na de notariële akte."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren door terugbetaling aan haar aandeelhouders.",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar dient geen jaarrekening neer te leggen."
+              },
+              {
+                "id": "b",
+                "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening met cijfers van de vaste inrichting neer te leggen."
+              },
+              {
+                "id": "c",
+                "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening van de buitenlandse onderneming in de vorm zoals opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen."
+              },
+              {
+                "id": "d",
+                "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening van de buitenlandse onderneming en in voorkomend geval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel die exclusieve juwelen verkoopt. Welke boekhouding dient zij te voeren?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-1",
+        "karakter": "auto-isolatie 2013-1-vr2 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2013-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-1-vr2"
+      },
+      "vraag_id": "2013-1-vr2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt kan worden in ondermeer fabrieken voor de verplaatsing van zware goederen. Zij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten doen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf werd geproduceerd en deels bij derden werd ontwikkeld. Zij heeft hiervoor volgende kosten gehad: [niet gespecificeerd in tekst — kosten vermeld op bijlage]",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-1",
+        "herinterpretatie_motivering": "Pagina 4. Kosten-specificatie ontbreekt in tekst.txt (vermoedelijk tabel op bijlage). Vraag a bevat 'Motiveer uw antwoord' impliciet via context; motivatie_verwacht true gezet. Deelvraag b is zelfstandig (welke kosten) — eigen inhoud.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "subvraag_zonder_inhoud"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "immateriële vaste activa",
+          "ontwikkelingskosten",
+          "activering",
+          "afschrijving",
+          "commerciële haalbaarheid",
+          "prototype"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-1-vr3",
+        "vraag_onderwerp": "Activering van ontwikkelingskosten voor een prototype",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Kunnen deze kosten in aanmerking voor activering?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Zo ja, welke van de bovenvermelde kosten kunnen geactiveerd worden?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op te geven tot op 2 cijfers.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "e",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet commercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet verder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals aankopen en personeelskosten.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-1",
+        "karakter": "auto-isolatie 2013-1-vr3 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "2013-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-1-vr3"
+      },
+      "vraag_id": "2013-1-vr3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "1.3-c1",
+        "cluster_verdict": "varianten",
+        "context_blokken": [
+          {
+            "tekst": "In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Bereken de gevraagde ratio's telkens voor het BOEKJAAR. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord. U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.",
+            "type": "casus_context"
+          },
+          {
+            "rijen": [
+              {
+                "bedrag": 451692.38,
+                "label": "Investeringen in materiële vaste activa tijdens het boekjaar"
+              },
+              {
+                "bedrag": 56498.19,
+                "label": "Kapitaalsubsidies aangerekend op de resultatenrekening"
+              },
+              {
+                "bedrag": 0,
+                "label": "Andere exploitatiesubsidies ontvangen"
+              }
+            ],
+            "titel": "Bijkomende informatie uit toelichting",
+            "type": "gegevens_tabel"
+          }
+        ],
+        "examen_id": "2013-1",
+        "herinterpretatie_motivering": "De balans en resultatenrekening bevinden zich in bijlage (niet in dit segment). Toelichting-gegevens staan in de vraagstelling. Te bestemmen winst werd integraal gereserveerd. motivatie_verwacht true omdat de vraag expliciet vraagt om de gebruikte cijfers te vermelden als motivatie.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "nettobedrijfskapitaal",
+          "brutoverkoopmarge",
+          "personeelskosten",
+          "toegevoegde waarde",
+          "financiële ratio's",
+          "jaarrekening analyse"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-1-vr4",
+        "vraag_onderwerp": "Berekening van financiële ratio's op basis van de jaarrekening",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken het nettobedrijfskapitaal voor het boekjaar.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de brutoverkoopmarge (in %) voor het boekjaar.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": true,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de personeelskosten ten opzichte van de toegevoegde waarde (in %) voor het boekjaar.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-1",
+        "karakter": "auto-isolatie 2013-1-vr4 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2013-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-1-vr4"
+      },
+      "vraag_id": "2013-1-vr4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Omschrijf de volgende begrippen:",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-1",
+        "herinterpretatie_motivering": "Pagina 3. Zuivere definitievraag per begrip. Geen motivering gevraagd — antwoordvorm is inherent de definitie zelf.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.9"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "intrinsieke waarde",
+          "fractiewaarde",
+          "rendabiliteit bedrijfsactiva",
+          "schuldgraad",
+          "operationele cash flow",
+          "financiële begrippen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-1-vr5",
+        "vraag_onderwerp": "Definities van financiële begrippen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'intrinsieke waarde'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'fractiewaarde'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'netto rendabiliteit van de bedrijfsactiva'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'algemene schuldgraad'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "e",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'operationele cash flow voor belastingen'.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-1",
+        "karakter": "auto-isolatie 2013-1-vr5 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2013-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-1-vr5"
+      },
+      "vraag_id": "2013-1-vr5"
+    },
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "De post **\"Aandeel van derden in het resultaat\"** in de geconsolideerde resultatenrekening. ⚖️",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Bij **integrale (volledige) consolidatie** worden 100% van de activa, passiva, opbrengsten en kosten van de dochter opgenomen, ook al heeft de moeder geen 100%-belang. Het deel van het resultaat dat toekomt aan de minderheidsaandeelhouders (derden) wordt afzonderlijk afgezonderd via deze post, zodat het geconsolideerde resultaat dat overblijft uitsluitend toerekenbaar is aan de groep. ⚖️",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "kop": "Vermeldenswaard",
+                "tekst": "Niet verwarren met de post **\"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast\"** (art. 3:145 KB WVV) — die geldt voor deelnemingen verwerkt via equity-methode, niet voor integraal geconsolideerde dochters. ⚖️",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Art. 3:137 KB WVV (integrale consolidatie — aandeel van derden in het resultaat). Vgl. art. 3:145 KB WVV (vermogensmutatie).",
+                "type": "grondslag",
+                "wetsref": "Art. 3:137 KB WVV"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr6"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2013-1",
+        "herinterpretatie_motivering": "Pagina 4-5. Enkelvoudige vraag over post in geconsolideerde resultatenrekening voor minderheidsbelangen. Geen deelvragen.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.4"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "geconsolideerde jaarrekening",
+          "minderheidsbelangen",
+          "resultatenrekening consolidatie",
+          "volledig geconsolideerde dochteronderneming"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-1-vr6",
+        "vraag_onderwerp": "Vermelding van minderheidsbelangen in de geconsolideerde resultatenrekening",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt u onder welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochterondernemingen moet worden vermeld.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-1",
+        "karakter": "auto-isolatie 2013-1-vr6 pagina 4-5",
+        "pagina_nummers": [
+          4,
+          5
+        ],
+        "pdf_bestand": "2013-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-1-vr6"
+      },
+      "vraag_id": "2013-1-vr6"
+    },
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "**Drie maanden.** ⚖️",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "**Principe (KB WVV art. 3:109)**: de geconsolideerde jaarrekening wordt op dezelfde datum afgesloten als die van de consoliderende vennootschap. Afwijken mag enkel om rekening te houden met de balansdatum van de meeste of belangrijkste in de consolidatie opgenomen ondernemingen. ⚖️\n\n**Cap (IFRS 10 B93)**: \"Het verschil tussen de datum van de jaarrekening van de dochteronderneming en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen.\" ⚖️",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "kop": "Vermeldenswaard",
+                "tekst": "Bij gebruik van de afwijking moet de toelichting (KB WVV art. 3:111) melding maken van belangrijke gebeurtenissen tussen de balansdatum van de dochter en die van de geconsolideerde jaarrekening. ⚖️",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "KB WVV art. 3:109 (principe gelijke afsluitingsdatum + afwijkingsgrond); IFRS 10 B92-B93 (cap van drie maanden + aanvullende financiële informatie); KB WVV art. 3:111 (toelichtingsplicht).",
+                "type": "grondslag",
+                "wetsref": "KB WVV art. 3:109, 3:111; IFRS 10 B92-B93"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-1-vr7"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "1.4-c1",
+        "cluster_verdict": "echt_duplicaat",
+        "context_blokken": [],
+        "examen_id": "2013-1",
+        "herinterpretatie_motivering": "Pagina 6. Enkelvoudige feitelijke vraag. De tekst bevat een alinea-titel 'INTERNE CONTROLE EN ACCOUNTANTSONDERZOEK' die het begin van de volgende sectie markeert — geen onderdeel van deze vraag.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.4"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "geconsolideerde jaarrekening",
+          "afsluitingsdatum",
+          "consolidatie",
+          "afwijking"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-1-vr7",
+        "vraag_onderwerp": "Maximale afwijking afsluitingsdatum geconsolideerde jaarrekening",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-1",
+        "karakter": "auto-isolatie 2013-1-vr7 pagina 6",
+        "pagina_nummers": [
+          6
+        ],
+        "pdf_bestand": "2013-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-1-vr7"
+      },
+      "vraag_id": "2013-1-vr7"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "De interne controle wordt gedefinieerd als: 'Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te hebben over…'",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-1",
+        "herinterpretatie_motivering": "Pagina 2. Enkelvoudige open vraag die vier elementen vraagt. Geen deelvragen.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.7"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "interne controle",
+          "redelijke zekerheid",
+          "bestuursorgaan",
+          "controledoelstellingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-1-vr8",
+        "vraag_onderwerp": "Doelstellingen van interne controle",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef vier elementen aan waarover het bestuursorgaan een redelijke zekerheid wil bereiken via interne controle.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-1",
+        "karakter": "auto-isolatie 2013-1-vr8 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2013-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-1-vr8"
+      },
+      "vraag_id": "2013-1-vr8"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "1.7-c1",
+        "cluster_verdict": "echt_duplicaat",
+        "context_blokken": [
+          {
+            "tekst": "Het secretariaat van de zaakvoerder van een familiale BVBA betaalt kleine kosten gemaakt door het personeel terug via een kas.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-1",
+        "herinterpretatie_motivering": "Pagina 3. Enkelvoudige open vraag om een procedure te beschrijven met minimaal twee functiescheidingen.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.7"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "interne controle",
+          "functiescheiding",
+          "kas",
+          "procedure",
+          "BVBA",
+          "kleine kosten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-1-vr9",
+        "vraag_onderwerp": "Procedure met functiescheiding voor kasbetalingen kleine kosten",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen voorkomen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-1",
+        "karakter": "auto-isolatie 2013-1-vr9 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2013-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-1-vr9"
+      },
+      "vraag_id": "2013-1-vr9"
     },
     {
       "antwoord": null,
@@ -973,128 +1665,6 @@
         "vraag_id": "2013-1-vr19"
       },
       "vraag_id": "2013-1-vr19"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-1",
-        "herinterpretatie_motivering": "Vraag 2 uit de sectie Wetgeving inzake de jaarrekening. PNG bevestigt MC-antwoordvakjes voor a, b en c. Opties volledig leesbaar uit PNG pagina 3.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "tabel_in_pdf_zichtbaar"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "leveranciersschuld",
-          "kapitaalinbreng",
-          "kapitaalvermindering",
-          "vaste inrichting",
-          "boekhoudkundige verwerking",
-          "boeking"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-1-vr2",
-        "vraag_onderwerp": "Boekingen bij kapitaaloperaties en buitenlandse vaste inrichting",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "Zij boekt de leveranciersschuld ten opzichte van een resultatenrekening tegen. Vervolgens zal zij via de resultaatverwerking een overboeking maken naar de rubriek kapitaal."
-              },
-              {
-                "id": "b",
-                "tekst": "Zij boekt de leveranciersschuld rechtstreeks over naar de rubriek kapitaal."
-              },
-              {
-                "id": "c",
-                "tekst": "Zij boekt via resultaatverwerking het bedrag naar de rubriek kapitaal."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Onderneming A heeft een openstaande leveranciersschuld ten opzichte van onderneming X voor een bedrag van 100.000,00 euro. Er werd besloten om deze schuld in te brengen als kapitaal. Zij dient de volgende boeking(en) aan te brengen in haar boekhouding.",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden."
-              },
-              {
-                "id": "b",
-                "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening resultaatverwerking."
-              },
-              {
-                "id": "c",
-                "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van twee maanden na de publicatie in het Belgisch Staatsblad."
-              },
-              {
-                "id": "d",
-                "tekst": "Zij boekt de vermindering van kapitaal ten opzichte van een rekening terug te betalen kapitaal en gaat over tot de uitbetaling van de gelden na een periode van twee maanden na de notariële akte."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Onderneming A besluit een kapitaalvermindering van 100.000,00 euro door te voeren door terugbetaling aan haar aandeelhouders.",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, maar dient geen jaarrekening neer te leggen."
-              },
-              {
-                "id": "b",
-                "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening met cijfers van de vaste inrichting neer te leggen."
-              },
-              {
-                "id": "c",
-                "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening van de buitenlandse onderneming in de vorm zoals opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen."
-              },
-              {
-                "id": "d",
-                "tekst": "Zij dient de boekhouding te voeren volgens de Belgische boekhoudnormen, en dient een jaarrekening van de buitenlandse onderneming en in voorkomend geval ook een geconsolideerde jaarrekening in de vorm zoals opgesteld in het buitenland neer te leggen. Zij dient ook een sociale balans neer te leggen."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Buitenlandse onderneming AB beschikt in België over een vaste inrichting, een winkel die exclusieve juwelen verkoopt. Welke boekhouding dient zij te voeren?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-1",
-        "karakter": "auto-isolatie 2013-1-vr2 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2013-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-1-vr2"
-      },
-      "vraag_id": "2013-1-vr2"
     },
     {
       "antwoord": null,
@@ -2043,94 +2613,6 @@
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
           {
-            "tekst": "Een onderneming heeft een nieuw prototype ontwikkeld van een transportmiddel dat gebruikt kan worden in ondermeer fabrieken voor de verplaatsing van zware goederen. Zij heeft voor de ontwikkeling tot stand kwam een hele reeks van vooronderzoeken laten doen. Dit heeft nadien geressorteerd in een ontwikkeling, dat deels door de onderneming zelf werd geproduceerd en deels bij derden werd ontwikkeld. Zij heeft hiervoor volgende kosten gehad: [niet gespecificeerd in tekst — kosten vermeld op bijlage]",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-1",
-        "herinterpretatie_motivering": "Pagina 4. Kosten-specificatie ontbreekt in tekst.txt (vermoedelijk tabel op bijlage). Vraag a bevat 'Motiveer uw antwoord' impliciet via context; motivatie_verwacht true gezet. Deelvraag b is zelfstandig (welke kosten) — eigen inhoud.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "subvraag_zonder_inhoud"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "immateriële vaste activa",
-          "ontwikkelingskosten",
-          "activering",
-          "afschrijving",
-          "commerciële haalbaarheid",
-          "prototype"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-1-vr3",
-        "vraag_onderwerp": "Activering van ontwikkelingskosten voor een prototype",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": true,
-            "volledigheid": "volledig",
-            "vraagstelling": "Kunnen deze kosten in aanmerking voor activering?",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Zo ja, welke van de bovenvermelde kosten kunnen geactiveerd worden?",
-            "vraagtype": "open"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Op welke rekening zou u deze activering dan verwerken? U hoeft enkel de rubriek op te geven tot op 2 cijfers.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "d",
-            "label_in_pdf": "d",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Over hoeveel jaar dient de onderneming dit minimaal af te schrijven?",
-            "vraagtype": "open"
-          },
-          {
-            "id": "e",
-            "label_in_pdf": "e",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Wat indien uit de periode na het vooronderzoek gebleken was dat het prototype niet commercieel haalbaar was en bijgevolg voortijdig besloten werd het prototype niet verder te ontwikkelen? Er werden wel reeds een aantal kosten gemaakt, zoals aankopen en personeelskosten.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-1",
-        "karakter": "auto-isolatie 2013-1-vr3 pagina 4",
-        "pagina_nummers": [
-          4
-        ],
-        "pdf_bestand": "2013-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-1-vr3"
-      },
-      "vraag_id": "2013-1-vr3"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
             "tekst": "Uw cliënt en zijn echtgenote zijn de enige aandeelhouders van een naamloze vennootschap naar Belgisch recht. Hun schoonbroer bezit 97% van de aandelen van een handelsvennootschap naar Hongaars recht. De resterende 3% van het kapitaal van die Hongaarse vennootschap is in bezit van de Belgische naamloze vennootschap. De Belgische en de Hongaarse vennootschappen worden volledig gescheiden beheerd. Deze toestand bestaat sinds 2001. In 2010 heeft de Belgische NV een lening toegestaan aan de Hongaarse vennootschap. In 2012 heeft de Belgische vennootschap dividenden van de Hongaarse vennootschap geïnd. De Hongaarse fiscus eist de inhouding van een bronheffing op de interesten en op de dividenden.",
             "type": "casus_context"
           }
@@ -2527,6 +3009,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "4.0-c1",
+        "cluster_verdict": "varianten",
         "context_blokken": [
           {
             "tekst": "In het kader van de onafhankelijkheid zijn er een aantal activiteiten die expliciet werden uitgesloten als uit te voeren door een externe accountant en/of belastingconsulent of er zijn activiteiten die mits te voldoen aan een aantal voorwaarden toch kunnen uitgevoerd worden. Duid aan welke bewering juist of fout is.",
@@ -2772,381 +3257,6 @@
         "vraag_id": "2013-1-vr37"
       },
       "vraag_id": "2013-1-vr37"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Bereken de gevraagde ratio's telkens voor het BOEKJAAR. U dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord. U dient uw antwoord uit te drukken tot TWEE cijfers na de komma.",
-            "type": "casus_context"
-          },
-          {
-            "rijen": [
-              {
-                "bedrag": 451692.38,
-                "label": "Investeringen in materiële vaste activa tijdens het boekjaar"
-              },
-              {
-                "bedrag": 56498.19,
-                "label": "Kapitaalsubsidies aangerekend op de resultatenrekening"
-              },
-              {
-                "bedrag": 0,
-                "label": "Andere exploitatiesubsidies ontvangen"
-              }
-            ],
-            "titel": "Bijkomende informatie uit toelichting",
-            "type": "gegevens_tabel"
-          }
-        ],
-        "examen_id": "2013-1",
-        "herinterpretatie_motivering": "De balans en resultatenrekening bevinden zich in bijlage (niet in dit segment). Toelichting-gegevens staan in de vraagstelling. Te bestemmen winst werd integraal gereserveerd. motivatie_verwacht true omdat de vraag expliciet vraagt om de gebruikte cijfers te vermelden als motivatie.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.3"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "nettobedrijfskapitaal",
-          "brutoverkoopmarge",
-          "personeelskosten",
-          "toegevoegde waarde",
-          "financiële ratio's",
-          "jaarrekening analyse"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-1-vr4",
-        "vraag_onderwerp": "Berekening van financiële ratio's op basis van de jaarrekening",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": true,
-            "volledigheid": "volledig",
-            "vraagstelling": "Bereken het nettobedrijfskapitaal voor het boekjaar.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": true,
-            "volledigheid": "volledig",
-            "vraagstelling": "Bereken de brutoverkoopmarge (in %) voor het boekjaar.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": true,
-            "volledigheid": "volledig",
-            "vraagstelling": "Bereken de personeelskosten ten opzichte van de toegevoegde waarde (in %) voor het boekjaar.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-1",
-        "karakter": "auto-isolatie 2013-1-vr4 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2013-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-1-vr4"
-      },
-      "vraag_id": "2013-1-vr4"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Omschrijf de volgende begrippen:",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-1",
-        "herinterpretatie_motivering": "Pagina 3. Zuivere definitievraag per begrip. Geen motivering gevraagd — antwoordvorm is inherent de definitie zelf.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.9"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "intrinsieke waarde",
-          "fractiewaarde",
-          "rendabiliteit bedrijfsactiva",
-          "schuldgraad",
-          "operationele cash flow",
-          "financiële begrippen"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-1-vr5",
-        "vraag_onderwerp": "Definities van financiële begrippen",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'intrinsieke waarde'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'fractiewaarde'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'netto rendabiliteit van de bedrijfsactiva'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "d",
-            "label_in_pdf": "d",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'algemene schuldgraad'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "e",
-            "label_in_pdf": "e",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'operationele cash flow voor belastingen'.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-1",
-        "karakter": "auto-isolatie 2013-1-vr5 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2013-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-1-vr5"
-      },
-      "vraag_id": "2013-1-vr5"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [],
-        "examen_id": "2013-1",
-        "herinterpretatie_motivering": "Pagina 4-5. Enkelvoudige vraag over post in geconsolideerde resultatenrekening voor minderheidsbelangen. Geen deelvragen.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.4"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "geconsolideerde jaarrekening",
-          "minderheidsbelangen",
-          "resultatenrekening consolidatie",
-          "volledig geconsolideerde dochteronderneming"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-1-vr6",
-        "vraag_onderwerp": "Vermelding van minderheidsbelangen in de geconsolideerde resultatenrekening",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Een onderneming, die een geconsolideerde jaarrekening moet opstellen, vraagt u onder welke post in de geconsolideerde resultatenrekening het gedeelte van het resultaat van de volledig geconsolideerde dochterondernemingen dat kan worden toegerekend aan aandelen die worden gehouden door andere personen dan de consoliderende vennootschap of de in de consolidatie opgenomen dochterondernemingen moet worden vermeld.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-1",
-        "karakter": "auto-isolatie 2013-1-vr6 pagina 4-5",
-        "pagina_nummers": [
-          4,
-          5
-        ],
-        "pdf_bestand": "2013-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-1-vr6"
-      },
-      "vraag_id": "2013-1-vr6"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [],
-        "examen_id": "2013-1",
-        "herinterpretatie_motivering": "Pagina 6. Enkelvoudige feitelijke vraag. De tekst bevat een alinea-titel 'INTERNE CONTROLE EN ACCOUNTANTSONDERZOEK' die het begin van de volgende sectie markeert — geen onderdeel van deze vraag.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.4"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "geconsolideerde jaarrekening",
-          "afsluitingsdatum",
-          "consolidatie",
-          "afwijking"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-1-vr7",
-        "vraag_onderwerp": "Maximale afwijking afsluitingsdatum geconsolideerde jaarrekening",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken. Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-1",
-        "karakter": "auto-isolatie 2013-1-vr7 pagina 6",
-        "pagina_nummers": [
-          6
-        ],
-        "pdf_bestand": "2013-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-1-vr7"
-      },
-      "vraag_id": "2013-1-vr7"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "De interne controle wordt gedefinieerd als: 'Het geheel van maatregelen en procedures om een redelijke mate van zekerheid te hebben over…'",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-1",
-        "herinterpretatie_motivering": "Pagina 2. Enkelvoudige open vraag die vier elementen vraagt. Geen deelvragen.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.7"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "interne controle",
-          "redelijke zekerheid",
-          "bestuursorgaan",
-          "controledoelstellingen"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-1-vr8",
-        "vraag_onderwerp": "Doelstellingen van interne controle",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Geef vier elementen aan waarover het bestuursorgaan een redelijke zekerheid wil bereiken via interne controle.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-1",
-        "karakter": "auto-isolatie 2013-1-vr8 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2013-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-1-vr8"
-      },
-      "vraag_id": "2013-1-vr8"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Het secretariaat van de zaakvoerder van een familiale BVBA betaalt kleine kosten gemaakt door het personeel terug via een kas.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-1",
-        "herinterpretatie_motivering": "Pagina 3. Enkelvoudige open vraag om een procedure te beschrijven met minimaal twee functiescheidingen.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.7"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "interne controle",
-          "functiescheiding",
-          "kas",
-          "procedure",
-          "BVBA",
-          "kleine kosten"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-1-vr9",
-        "vraag_onderwerp": "Procedure met functiescheiding voor kasbetalingen kleine kosten",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Stel een procedure op waarbij minimaal twee controletechnische functiescheidingen voorkomen.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-1",
-        "karakter": "auto-isolatie 2013-1-vr9 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2013-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-1-vr9"
-      },
-      "vraag_id": "2013-1-vr9"
     }
   ]
 }

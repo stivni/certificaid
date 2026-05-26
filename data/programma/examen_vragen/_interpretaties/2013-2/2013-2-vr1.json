@@ -88,5 +88,19 @@
   "herinterpretatie_motivering": "Drie deelvragen elk met aparte MC-opties zoals zichtbaar op PNG. De tekst.txt bevat een dubbele sectie met subvraag-rendering onderaan — genegeerd ten voordele van de hoofdtekst. Elke deelvraag is een keuze-vraag waarbij juiste antwoord wordt aangevinkt.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "kruis_aan",
+        "veld": "casus_context"
+      }
+    ]
+  }
 }

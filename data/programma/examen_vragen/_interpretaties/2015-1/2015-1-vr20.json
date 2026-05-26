@@ -153,5 +153,22 @@
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Vennootschapsrecht'. De balans en resultatenrekening zijn gereconstrueerd uit de tekst. Enkelvoudige MC-vraag.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "balans"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

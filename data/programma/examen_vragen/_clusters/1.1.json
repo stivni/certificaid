@@ -1,0 +1,183 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "1.1",
+  "gegenereerd_op": "2026-05-26T10:20:42+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 28,
+  "n_clusters": 0,
+  "n_singletons": 28,
+  "clusters": [],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrA1",
+      "vraag_onderwerp": "Afsluitingsboekingen bij kapitaalsubsidie op een afschrijfbaar actief",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrA1.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrA2",
+      "vraag_onderwerp": "Afsluitingsboekingen voor voorraden met waardeverminderingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrA2.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrB4",
+      "vraag_onderwerp": "Boeking van inrichtingskosten in gehuurde gebouwen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrB4.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrA1",
+      "vraag_onderwerp": "Boeking van het vakantiegeld voor bedienden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrA1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrA2",
+      "vraag_onderwerp": "Boekhouding van een laattijdige aankoopfactuur over twee boekjaren",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrA2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrA3",
+      "vraag_onderwerp": "Boeking van voorraadwijzigingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrA3.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrA4",
+      "vraag_onderwerp": "Boeking van oprichtingskosten en afschrijvingen bij een nieuwe vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrA4.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrB1",
+      "vraag_onderwerp": "Boeking van aandelenaankoop in een verbonden groepsstructuur",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrB1.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr2",
+      "vraag_onderwerp": "Boekingen bij kapitaaloperaties en buitenlandse vaste inrichting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr2.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr3",
+      "vraag_onderwerp": "Activering van ontwikkelingskosten voor een prototype",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr3.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr1",
+      "vraag_onderwerp": "Boekhoudkundige verwerking van software-aankopen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr1.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr3",
+      "vraag_onderwerp": "Goodwill (meerprijs bij overname): rubricering en afschrijvingstermijn",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr3.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr4",
+      "vraag_onderwerp": "Voorzieningen voor groot onderhoud (periodieke schilderwerken)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr4.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr1",
+      "vraag_onderwerp": "Vastklikken van reserves — verwerking in jaarrekening bij liquidatiereserve-maatregel",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr1.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr2",
+      "vraag_onderwerp": "Kapitaalverhoging door incorporatie reserves en uitgiftepremie — boekhoudkundige verwerking",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr2.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr3",
+      "vraag_onderwerp": "Herwaarderingsmeerwaarden op immateriële vaste activa — verwerking bij realisatie en bij nieuwe herwaardering",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr3.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr4",
+      "vraag_onderwerp": "Verkoop op termijn met interest en disconto — omzetbedrag en boekhoudkundige uitsplitsing",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr4.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr1",
+      "vraag_onderwerp": "Voorraadwaardering FIFO-methode en lager-van-kostprijs-of-marktwaarde",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr1.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr2",
+      "vraag_onderwerp": "Boekhoudkundige verwerking stelsel werkloosheid met bedrijfstoeslag (brugpensioen)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr2.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr3",
+      "vraag_onderwerp": "Boekhoudkundige behandeling dubieuze vordering op meer dan één jaar bij faillissement klant",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr3.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr4",
+      "vraag_onderwerp": "Boekhoudkundige verwerking intercalaire interesten op investeringskrediet",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr4.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr5",
+      "vraag_onderwerp": "Boekhoudkundige verwerking kapitaalsubsidies",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr5.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr6",
+      "vraag_onderwerp": "Activering herstructureringskosten: tegenboekingmethode",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr6.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr7",
+      "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr7.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr7A",
+      "vraag_onderwerp": "Voorraadwaarderingsmethoden toegelaten onder IAS/IFRS",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr7B",
+      "vraag_onderwerp": "Voorzichtigheidsprincipe — opname en waardering (Richtlijn 2013/34/EU)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr7C",
+      "vraag_onderwerp": "IAS/IFRS — stellingen over afschrijvingen, kosten en uitzonderlijke posten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr7D",
+      "vraag_onderwerp": "Operationele en financiële leasing — boekhoudkundige verwerking onder IAS/IFRS",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr7D.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

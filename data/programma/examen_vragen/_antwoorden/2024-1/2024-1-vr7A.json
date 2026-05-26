@@ -1,0 +1,34 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr7A",
+  "antwoord_datum": "2026-05-25T23:48:09Z",
+  "antwoord_model": "claude-opus-4-7",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "motivatie",
+          "tekst": "**Onder IAS 2 'Voorraden'** zijn drie cost-formules toegelaten:\n\n1. **Specifieke identificatie** (IAS 2.23) — voor voorraad-items die niet onderling uitwisselbaar zijn (bv. unieke kunstwerken, vastgoed, voertuigen met VIN). ⚖️\n2. **FIFO (First-In, First-Out)** (IAS 2.25) — voor onderling uitwisselbare items. ⚖️\n3. **Gewogen gemiddelde kostprijs** (IAS 2.25) — alternatief voor FIFO. ⚖️\n\n**LIFO** is **uitdrukkelijk verboden** onder IFRS sinds IAS 2 (revised 2003) — IAS 2.BC9 ev. ⚖️\n\n**Per MC-optie**:\n- **a** (FIFO, LIFO, gewogen gemiddelde, individueel) → **FOUT** (LIFO erin)\n- **b** (FIFO, gewogen gemiddelde, individueel) → **JUIST** (alle drie de toegelaten methodes — typo 'Fifi' in PDF gecorrigeerd naar 'FIFO')\n- **c** (LIFO, gewogen gemiddelde, individueel) → **FOUT** (LIFO erin)\n- **d** (FIFO en gewogen gemiddelde) → **DEELS correct** (sluit LIFO uit, mist specifieke identificatie)\n\n**Beste antwoord**: optie **b** — bevat geen verboden LIFO en noemt alle drie de toegelaten methodes (FIFO + gewogen gemiddelde + specifieke identificatie/individueel). Optie d sluit LIFO ook uit, maar is incompleet.",
+          "confidence": "grounded",
+          "bron_refs": [
+            "content/concepten/voorraden-ifrs.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "IAS 2 §9-27 (toegelaten methodes); verbod LIFO sinds IAS 2 (revised 2003), IAS 2.BC9 ev.",
+          "wetsref": "IAS 2",
+          "confidence": "grounded",
+          "bron_refs": [
+            "content/concepten/voorraden-ifrs.md"
+          ]
+        }
+      ]
+    }
+  ],
+  "_migratie_notitie": "Gemigreerd uit pre-ADR-031 antwoord (was gekoppeld aan 2024-1-vr7 als geheel; scope-deel A IFRS voorraadwaardering mapt 1-op-1 op vr7A). Oorspronkelijke 'beste antwoord D'-keuze is herzien naar 'b': nieuwe interpretatie corrigeert PDF-typo 'Fifi' → 'FIFO', waardoor optie b alle drie de toegelaten IAS 2-methodes correct opsomt."
+}

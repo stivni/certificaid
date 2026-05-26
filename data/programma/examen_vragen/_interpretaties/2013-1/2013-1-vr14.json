@@ -145,5 +145,18 @@
   "herinterpretatie_motivering": "Pagina 2. Complexe vraag met drie delen en balans. Balans overgenomen van PNG. Instructie 'Verklaar uw antwoorden bondig' geïnterpreteerd als motivatie_verwacht true voor deelvragen a, b, c, d. Deel II is een aparte vraag zonder letter maar eigen inhoud. Deelstelling 'Antwoord' na Deel II in tekst.txt is antwoordruimte, geen vraag.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "balans"
+      }
+    ]
+  }
 }

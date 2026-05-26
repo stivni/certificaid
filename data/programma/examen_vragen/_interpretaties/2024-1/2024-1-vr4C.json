@@ -1,0 +1,35 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr4C",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Stellingen juist of fout over omzettingen van vennootschappen",
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
+  "themas": [
+    "omzetting",
+    "vennootschapsrecht",
+    "bijzondere mandaten",
+    "WVV"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "i1",
+      "label_in_pdf": null,
+      "vraagtype": "juist_fout",
+      "vraagstelling": null,
+      "motivatie_verwacht": false,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Verschillende stellingen juist of fout in verband met omzettingen van vennootschappen"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. Tekst.txt en PNG vermelden enkel de paraplu 'Verschillende stellingen Juist of Fout ivm omzettingen' — geen afzonderlijke stellingsteksten beschikbaar. De individuele stellingen zijn niet gereconstrueerd; artefact gemarkeerd als topic_only om geen content te verzinnen.",
+  "kwaliteits_flags": [
+    "subvraag_zonder_inhoud"
+  ]
+}

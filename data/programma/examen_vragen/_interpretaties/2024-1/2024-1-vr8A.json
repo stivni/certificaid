@@ -1,0 +1,30 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr8A",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Overdraagbare fiscale verliezen in de vennootschapsbelasting",
+  "programmaonderdeel_ids": ["2.2"],
+  "themas": ["fiscale verliezen", "verliescompensatie", "overdraagbare verliezen", "vennootschapsbelasting", "belastbare basis"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "juist_fout",
+      "vraagstelling": null,
+      "motivatie_verwacht": true,
+      "volledigheid": "topic_only",
+      "topic_only_onderwerp": "Stellingen in verband met overdraagbare fiscale verliezen in de vennootschapsbelasting"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. Alleen het onderwerp is known: stellingen ivm overdraagbare fiscale verliezen. De precieze stellingen zijn niet overgeleverd. Als topic_only gemarkeerd — geen verzonnen stellingen. Vraagtype juist/fout is de meest voor de hand liggende aanname gezien het patroon van de rest van vak 8.",
+  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+}

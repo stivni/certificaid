@@ -63,5 +63,21 @@
   "herinterpretatie_motivering": "Vraag 1 van de sectie 'Vennootschapsbelasting'. Twee open berekeningsvragen. Deelvraag b vraagt expliciet een tabel van tarieven × belastbare bedragen.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "cluster_id": "2.3-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label",
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

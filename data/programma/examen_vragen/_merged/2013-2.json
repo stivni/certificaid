@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-21T08:50:02+00:00",
+  "merge_datum": "2026-05-26T10:30:42+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -111,6 +111,606 @@
         "vraag_id": "2013-2-vr1"
       },
       "vraag_id": "2013-2-vr1"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-2",
+        "herinterpretatie_motivering": "Tekst.txt is onvolledig — enkel de subvraag-beschrijvingen zijn zichtbaar, de antwoordopties ontbreken in de tekst. PNG toont dat dit MC-vragen zijn (kruisjes in tabel), maar de antwoordopties zijn niet volledig leesbaar in de tekst. Verwerkt als open vragen (fragment) gezien de ontbrekende keuze-opties. De PNG toont dezelfde pagina als vr1 (startpagina), niet de juiste pagina met vr2-inhoud — OCR-probleem.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact",
+          "subvraag_zonder_inhoud"
+        ],
+        "programmaonderdeel_ids": [
+          "1.2"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "jaarrekening",
+          "bestuurders",
+          "afschrijvingen",
+          "economische levensduur",
+          "openbaarmaking",
+          "prospectief"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-2-vr2",
+        "vraag_onderwerp": "Jaarrekening: bestuurdersvermelding en afschrijvingspercentage-wijziging",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": null,
+            "volledigheid": "fragment",
+            "vraagstelling": "Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het afgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op: welke bestuurders vermeldt zij?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "topic_only_onderwerp": null,
+            "volledigheid": "fragment",
+            "vraagstelling": "Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens een langere economische levensduur. Hoe verwerkt zij dit?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-2",
+        "karakter": "auto-isolatie 2013-2-vr2 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2013-2.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-2-vr2"
+      },
+      "vraag_id": "2013-2-vr2"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap 'Final' BVBA heeft van vennootschap 'DEF' een aantal activa gekocht, zoals machines en voorraad. Deze activa hadden de volgende marktwaarde:\n- Machine A: 15.000 euro\n- Machine B: 25.000 euro\n- Voorraad: 30.000 euro\nZij heeft in totaal 100.000 euro betaald. Het bedrag van 30.000 euro is de meerprijs die zij betaald heeft voor de overname.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-2",
+        "herinterpretatie_motivering": "Deelvraag b is een Ja/Nee-tabel met motivatie-kolom voor drie opties (3/5/10 jaar). Behandeld als mc_keuze met motivatie_verwacht omdat de kandidaat per optie moet aangeven of het al dan niet geldig is en dit moet motiveren. Deelvraag b combineert feitelijk selectie en argumentatie.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "goodwill",
+          "immateriële vaste activa",
+          "overname",
+          "afschrijving",
+          "meerprijs",
+          "jaarrekening",
+          "wettelijke bepalingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-2-vr3",
+        "vraag_onderwerp": "Goodwill (meerprijs bij overname): rubricering en afschrijvingstermijn",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "In welke rubriek van de jaarrekening zou u het bedrag van 30.000 euro meerprijs verwerken? U hoeft geen rekeningnummer op te geven (enkel rubriek tot op twee cijfers).",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": true,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "3 jaar"
+              },
+              {
+                "id": "b",
+                "tekst": "5 jaar"
+              },
+              {
+                "id": "c",
+                "tekst": "10 jaar"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven? Geef voor elke optie aan (Ja/Nee) en verklaar uw keuze met verwijzing naar de relevante bepalingen van de wetgeving inzake de jaarrekening.",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-2",
+        "karakter": "auto-isolatie 2013-2-vr3 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2013-2.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-2-vr3"
+      },
+      "vraag_id": "2013-2-vr3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een onderneming laat om de acht jaar haar gebouwen herschilderen. De schilderwerken worden geschat op 40.000 euro.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-2",
+        "herinterpretatie_motivering": "Tekst.txt is onvolledig (toont alleen de antwoordruimte-labels). PNG toont de volledige vraagstelling. Beide deelvragen zijn open procedurevragen over voorzieningen voor groot onderhoud.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "voorzieningen",
+          "groot onderhoud",
+          "schilderwerken",
+          "jaarrekening",
+          "raming",
+          "periodieke kosten"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-2-vr4",
+        "vraag_onderwerp": "Voorzieningen voor groot onderhoud (periodieke schilderwerken)",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Kan zij in haar jaarrekening hiermee al rekening houden? Op welke manier en voor welk bedrag zal zij dit doen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat indien na acht jaar de schilderwerken worden uitgevoerd, maar meer bedragen dan de raming van 40.000 euro?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-2",
+        "karakter": "auto-isolatie 2013-2-vr4 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "2013-2.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-2-vr4"
+      },
+      "vraag_id": "2013-2-vr4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt.\n\nBereken de gevraagde ratio's telkens voor het BOEKJAAR.\nU dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord.\nU dient uw antwoord uit te drukken tot TWEE cijfers na de komma.\n\nUit de toelichting tot de jaarrekening blijkt o.a. dat:\n1) Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361.869,98 euro;\n2) Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415 euro;\n3) Er geen intrestsubsidies zijn;\n4) Er werd geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt;\n5) Er werden geen belastingen geboekt op het resultaat van vorige boekjaren;\n6) De te bestemmen winst van het boekjaar integraal gereserveerd werd.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-2",
+        "herinterpretatie_motivering": "Balans en resultatenrekening zitten in bijlage (niet in dit segment). De zes toelichting-items zijn beschikbaar in tekst.txt en vormen de rekencontext. Alle drie deelvragen zijn berekeningsvragen (open).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "ratio-analyse",
+          "brutoverkoopmarge",
+          "nettorentabiliteit",
+          "liquiditeit",
+          "jaarrekening",
+          "balans",
+          "resultatenrekening"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-2-vr5",
+        "vraag_onderwerp": "Ratio-analyse: brutoverkoopmarge, nettorentabiliteit en liquiditeit",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de brutoverkoopmarge (%).",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%).",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Bereken de liquiditeit in ruime zin.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-2",
+        "karakter": "auto-isolatie 2013-2-vr5 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2013-2.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-2-vr5"
+      },
+      "vraag_id": "2013-2-vr5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Bij de bespreking van de jaarrekening deelt u aan uw cliënt mede dat het netto bedrijfskapitaal van zijn vennootschap zeer laag is. Hij vraagt u hoe hij het netto bedrijfskapitaal kan verhogen.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-2",
+        "herinterpretatie_motivering": "Enkelvoudige open vraag, geen subvragen. Gevraagd worden drie concrete voorbeelden.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.9"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "netto bedrijfskapitaal",
+          "werkkapitaal",
+          "liquiditeit",
+          "financiering",
+          "balansstructuur"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-2-vr6",
+        "vraag_onderwerp": "Netto bedrijfskapitaal: manieren om het te verhogen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": null,
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef drie voorbeelden van maatregelen om het netto bedrijfskapitaal te verhogen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-2",
+        "karakter": "auto-isolatie 2013-2-vr6 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2013-2.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-2-vr6"
+      },
+      "vraag_id": "2013-2-vr6"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2013-2",
+        "herinterpretatie_motivering": "Tekst.txt is fragmentarisch (begint midden in de vraagstelling van deelvraag b). PNG van pagina 5 toont de volledige vraagstelling inclusief vraag 3 label. Deelvraag c is een eigenstandige verklaringsvraag (niet enkel motivatie bij b — het vraagt een uitleg van waarom het onderscheid bestaat).",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "ocr_artefact"
+        ],
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "liquiditeitsratio",
+          "liquiditeit in ruime zin",
+          "liquiditeit in enge zin",
+          "current ratio",
+          "quick ratio",
+          "voorraden",
+          "ratio-analyse"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-2-vr7",
+        "vraag_onderwerp": "Liquiditeitsratio's: betekenis en onderscheid ruime vs. enge zin",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat komt een bedrijfsleider te weten door de liquiditeitsratio's te berekenen?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Met welke elementen houdt men geen rekening bij de berekening van de liquiditeit in enge zin en wel bij de berekening van de liquiditeit in ruime zin?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Verklaar uw antwoord aangaande punt b.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-2",
+        "karakter": "auto-isolatie 2013-2-vr7 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2013-2.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-2-vr7"
+      },
+      "vraag_id": "2013-2-vr7"
+    },
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "data/concepten/records/consolidatieverschil-goodwill.json",
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Een **positief consolidatieverschil** is het positieve verschil dat bij de **eerste consolidatie** van een dochter overblijft tussen (a) de aanschaffingsprijs van de deelneming en (b) het pro-rata aandeel van de groep in het eigen vermogen van die dochter op overnamedatum, **nadat dit verschil zoveel mogelijk is toegerekend** aan onder- of overgewaardeerde actief- en passiefbestanddelen. Het residu verschijnt aan **actiefzijde** van de geconsolideerde balans onder de post \"Consolidatieverschillen\". ⚖️",
+                "type": "definitie"
+              },
+              {
+                "bron_refs": [
+                  "data/concepten/records/consolidatieverschil-goodwill.json"
+                ],
+                "confidence": "inferred",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het residu na toerekening wordt in de geconsolideerde jaarrekening behandeld als **goodwill** (immaterieel vast actief) en systematisch afgeschreven over de economische gebruiksduur — niet in de enkelvoudige jaarrekening van de moeder, waar de deelneming aan aanschaffingsprijs blijft staan. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/adviezen/CBN-2016-07-verwerving-van-een-bedrijfstak-tegen-een-symbolische-euro.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Art. 3:130 KB WVV (toerekening en presentatie van consolidatieverschillen); CBN-advies 2016/7 bevestigt het toerekeningsbeginsel.",
+                "type": "grondslag",
+                "wetsref": "Art. 3:130 KB WVV"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "data/concepten/records/consolidatieverschil-goodwill.json",
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "items": [
+                  "**Onderwaardering van activa** in de boekhouding van de dochter — bv. gebouwen, terreinen of voorraden waarvan de reële waarde op overnamedatum hoger ligt dan de historische boekwaarde. ⚖️",
+                  "**Overwaardering van passiva** — bv. te hoog ingeschatte voorzieningen of schulden waarvan de werkelijke verplichting lager is dan het geboekte bedrag. 🤖",
+                  "**Niet-geboekte identificeerbare immateriële activa** — intern ontwikkelde merken, klantenportefeuille, knowhow, lopende O&O-projecten of voordelige contracten die in de enkelvoudige balans niet staan maar wel marktwaarde hebben. ⚖️",
+                  "**Goodwill in enge zin** — niet-toewijsbaar restbedrag dat verwachte synergiën, bovennormale rentabiliteit en marktpositie vergoedt; blijft als residuele goodwill op de geconsolideerde balans staan. ⚖️"
+                ],
+                "kop": "Vier voornaamste oorzaken van een positief consolidatieverschil",
+                "type": "opsomming"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "inferred",
+                "kop": "Vermeldenswaard",
+                "tekst": "Art. 3:130 KB WVV schrijft **toerekening eerst** voor: oorzaken 1–3 worden aan specifieke actief-/passiefbestanddelen toegewezen; pas het residu daarna is de eigenlijke goodwill (oorzaak 4). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Art. 3:130 KB WVV: het verschil wordt \"zoveel mogelijk toegerekend aan de actief- en passiefbestanddelen waarvan de waarde hoger of lager is dan hun boekwaarde\"; het residu komt onder \"Consolidatieverschillen\" aan actiefzijde.",
+                "type": "grondslag",
+                "wetsref": "Art. 3:130 KB WVV"
+              }
+            ],
+            "id": "b"
+          }
+        ],
+        "vraag_id": "2013-2-vr8"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "1.4-c2",
+        "cluster_verdict": "echt_duplicaat",
+        "context_blokken": [],
+        "examen_id": "2013-2",
+        "herinterpretatie_motivering": "Vraag beslaat meerdere pagina's (4-6). Tekst.txt toont slechts de subvraag-beschrijvingen. PNG van pagina 5 toont vraag 4 volledig. Deelvraag b vraagt expliciet vier oorzaken.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.4"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "consolidatieverschil",
+          "goodwill consolidatie",
+          "consolidatie",
+          "overname",
+          "waardering",
+          "deelnemingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-2-vr8",
+        "vraag_onderwerp": "Consolidatieverschillen: definitie en oorzaken",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is een positief consolidatieverschil?",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef de vier voornaamste oorzaken van positieve consolidatieverschillen.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-2",
+        "karakter": "auto-isolatie 2013-2-vr8 pagina 4-6",
+        "pagina_nummers": [
+          4,
+          5,
+          6
+        ],
+        "pdf_bestand": "2013-2.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-2-vr8"
+      },
+      "vraag_id": "2013-2-vr8"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Een auditprocedure is een gedetailleerde instructie voor het verzamelen van een bepaald auditbewijsmiddel.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2013-2",
+        "herinterpretatie_motivering": "Enkelvoudige open vraag. De introductiezin over auditprocedure is context, geen apart te beantwoorden vraag. Tekst.txt is duidelijk.",
+        "interpretatie_datum": "2026-05-21T12:00:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.6"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "auditstrategie",
+          "auditmethodes",
+          "auditbewijsmiddelen",
+          "inspectie",
+          "observatie",
+          "bevraging",
+          "herberekening"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2013-2-vr9",
+        "vraag_onderwerp": "Auditmethodes: soorten",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": null,
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Geef 4 soorten auditmethodes.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2013-2",
+        "karakter": "auto-isolatie 2013-2-vr9 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2013-2.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2013-2-vr9"
+      },
+      "vraag_id": "2013-2-vr9"
     },
     {
       "antwoord": null,
@@ -866,6 +1466,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "3.0-c1",
+        "cluster_verdict": "varianten",
         "context_blokken": [
           {
             "tekst": "Kruis de juiste antwoorden aan in onderstaande tabel:\n1. Welke vennootschap kan opgericht worden met een onderhandse akte?\n2. Welke vennootschap kan winstbewijzen toekennen?\n3. Welke vennootschap is verplicht haar jaarrekening neer te leggen bij de Nationale Bank van België?\n4. Welke vennootschap moet een minimumkapitaal hebben?",
@@ -1199,73 +1802,6 @@
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
           {
-            "tekst": "Gelieve voor de onderstaande gevallen het juiste antwoord aan te kruisen.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-2",
-        "herinterpretatie_motivering": "Tekst.txt is onvolledig — enkel de subvraag-beschrijvingen zijn zichtbaar, de antwoordopties ontbreken in de tekst. PNG toont dat dit MC-vragen zijn (kruisjes in tabel), maar de antwoordopties zijn niet volledig leesbaar in de tekst. Verwerkt als open vragen (fragment) gezien de ontbrekende keuze-opties. De PNG toont dezelfde pagina als vr1 (startpagina), niet de juiste pagina met vr2-inhoud — OCR-probleem.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "ocr_artefact",
-          "subvraag_zonder_inhoud"
-        ],
-        "programmaonderdeel_ids": [
-          "1.2"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "jaarrekening",
-          "bestuurders",
-          "afschrijvingen",
-          "economische levensduur",
-          "openbaarmaking",
-          "prospectief"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-2-vr2",
-        "vraag_onderwerp": "Jaarrekening: bestuurdersvermelding en afschrijvingspercentage-wijziging",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "topic_only_onderwerp": null,
-            "volledigheid": "fragment",
-            "vraagstelling": "Tijdens het afgelopen boekjaar hebben een aantal bestuursleden ontslag genomen. Er werden ter vervanging nieuwe bestuurders benoemd. In de jaarrekening over het afgelopen jaar neemt zij volgende bestuurders op de eerste bladzijde op: welke bestuurders vermeldt zij?",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "topic_only_onderwerp": null,
-            "volledigheid": "fragment",
-            "vraagstelling": "Onderneming ABC wil de afschrijvingspercentages van de machines wijzigen wegens een langere economische levensduur. Hoe verwerkt zij dit?",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-2",
-        "karakter": "auto-isolatie 2013-2-vr2 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2013-2.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-2-vr2"
-      },
-      "vraag_id": "2013-2-vr2"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
             "tekst": "Een Franse vennootschap is voor 15% aandeelhouder in een Belgische vennootschap BVBA SUPERTOC. De Franse vennootschap vraagt je om in het kader van het individueel controlerecht ter plaatse inzage te nemen in de stukken van de BVBA SUPERTOC. Beantwoord met FOUT / JUIST volgende stellingen die slaan op voorgaande situatie.",
             "type": "casus_context"
           }
@@ -1560,6 +2096,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "2.3-c1",
+        "cluster_verdict": "varianten",
         "context_blokken": [
           {
             "tekst": "Een vennootschap ABC heeft de volgende balans- en resultatenrekeningen per 31 december 2012. De personenwagens zijn onderworpen aan de beperking van 30%. Er waren geen overdrachten van fiscale verliezen, notionele intrestaftrek en investeringsaftrek. De vennootschap is een KMO-vennootschap in de zin van artikel 15 van het Wetboek van Vennootschappen en werd opgericht op 13 maart 2011. De aandelen zijn allemaal in handen van natuurlijke personen.",
@@ -1770,6 +2309,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "2.3-c1",
+        "cluster_verdict": "varianten",
         "context_blokken": [
           {
             "tekst": "De vennootschap GOODLUCK heeft een deel van haar middelen geïnvesteerd in een aandelenportefeuille. Zij heeft ook nog een overgedragen fiscaal verlies van 2.000. Zij heeft geen recht op notionele intrestaftrek. De vennootschap kan niet genieten van de progressieve tarieven.",
@@ -2279,85 +2821,6 @@
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
           {
-            "tekst": "Vennootschap 'Final' BVBA heeft van vennootschap 'DEF' een aantal activa gekocht, zoals machines en voorraad. Deze activa hadden de volgende marktwaarde:\n- Machine A: 15.000 euro\n- Machine B: 25.000 euro\n- Voorraad: 30.000 euro\nZij heeft in totaal 100.000 euro betaald. Het bedrag van 30.000 euro is de meerprijs die zij betaald heeft voor de overname.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-2",
-        "herinterpretatie_motivering": "Deelvraag b is een Ja/Nee-tabel met motivatie-kolom voor drie opties (3/5/10 jaar). Behandeld als mc_keuze met motivatie_verwacht omdat de kandidaat per optie moet aangeven of het al dan niet geldig is en dit moet motiveren. Deelvraag b combineert feitelijk selectie en argumentatie.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "tabel_in_pdf_zichtbaar"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "goodwill",
-          "immateriële vaste activa",
-          "overname",
-          "afschrijving",
-          "meerprijs",
-          "jaarrekening",
-          "wettelijke bepalingen"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-2-vr3",
-        "vraag_onderwerp": "Goodwill (meerprijs bij overname): rubricering en afschrijvingstermijn",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "In welke rubriek van de jaarrekening zou u het bedrag van 30.000 euro meerprijs verwerken? U hoeft geen rekeningnummer op te geven (enkel rubriek tot op twee cijfers).",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": true,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "3 jaar"
-              },
-              {
-                "id": "b",
-                "tekst": "5 jaar"
-              },
-              {
-                "id": "c",
-                "tekst": "10 jaar"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Over welke periode mag de onderneming deze meerprijs van € 30.000 afschrijven? Geef voor elke optie aan (Ja/Nee) en verklaar uw keuze met verwijzing naar de relevante bepalingen van de wetgeving inzake de jaarrekening.",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-2",
-        "karakter": "auto-isolatie 2013-2-vr3 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2013-2.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-2-vr3"
-      },
-      "vraag_id": "2013-2-vr3"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
             "tekst": "Een naamloze vennootschap naar Belgisch recht die haar boekjaar afsluit op 31 december, is in Italië actief via een bijkantoor dat goederen verkoopt aan in Italië gevestigde klanten. Het bijkantoor neemt bestellingen op, keurt ze goed, reikt facturen uit aan de klanten, levert de goederen en int de aan de klanten gefactureerde bedragen. Dit bijkantoor voert haar eigen boekhouding.\n\nHet Italiaans bijkantoor, dat in 2012 werd geopend en in datzelfde jaar zijn handelsactiviteiten aanvatte, heeft voor het jaar 2012 zowel boekhoudkundig als fiscaal verlies gemaakt. In 2013 doet het bijkantoor wel goede zaken zodat de rekeningen met een positief saldo zullen afsluiten, en wel met een winst die hoger is dan het in 2012 geleden verlies. Op belastinggebied in Italië zal het bijkantoor het totaal verlies van 2012 van de winst van 2013 aftrekken.\n\nDe Belgische vennootschap boekt in 2012 en 2013 winst met betrekking tot haar overige activiteiten die enkel in België plaatsvinden. Om het bedrag van de voorafbetalingen te bepalen die de Belgische vennootschap in 2012 en 2013 in België heeft gedaan, heeft zij geen rekening gehouden met het feit dat zij over een Italiaans bijkantoor beschikt. We veronderstellen dat er in België noch in Italië verworpen uitgaven zijn.",
             "type": "casus_context"
           }
@@ -2487,6 +2950,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "2.5-c1",
+        "cluster_verdict": "echt_duplicaat",
         "context_blokken": [
           {
             "tekst": "Één van uw cliënten – een verwarmingsinstallateur – ontvangt op 10 september 2013 een vraag om inlichtingen, luidende als volgt (NB: het gaat hier over een aanvraag van inlichtingen betreffende een derde):\n\"Gelieve mij de volgende inlichtingen mede te delen:\n- de volledige identiteit van al uw leveranciers bij wie u een verwarmingsketel van het type XYZ100 hebt aangekocht;\n- het aantal aangekochte verwarmingsketels bij elk van de betrokken leveranciers;\n- de aankoopprijs van de verwarmingsketels met vermelding van de eventuele korting die u hebt genoten.\"\nDe belastingplichtige krijgt een termijn van 10 dagen om de gevraagde inlichtingen te verstrekken.\n\nUw cliënt meldt u ook dat, op 15 september, de toegang tot het bedrijf volledig geblokkeerd werd door stakingspiketten en dat de onderhandelingen met de vakbonden zeker 2 weken zullen aanslepen.",
@@ -2560,6 +3026,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "2.5-c2",
+        "cluster_verdict": "echt_duplicaat",
         "context_blokken": [
           {
             "tekst": "Geef aan of onderstaande uitspraken waar of niet waar zijn.",
@@ -3017,376 +3486,6 @@
         "vraag_id": "2013-2-vr38"
       },
       "vraag_id": "2013-2-vr38"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Een onderneming laat om de acht jaar haar gebouwen herschilderen. De schilderwerken worden geschat op 40.000 euro.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-2",
-        "herinterpretatie_motivering": "Tekst.txt is onvolledig (toont alleen de antwoordruimte-labels). PNG toont de volledige vraagstelling. Beide deelvragen zijn open procedurevragen over voorzieningen voor groot onderhoud.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "ocr_artefact"
-        ],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "voorzieningen",
-          "groot onderhoud",
-          "schilderwerken",
-          "jaarrekening",
-          "raming",
-          "periodieke kosten"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-2-vr4",
-        "vraag_onderwerp": "Voorzieningen voor groot onderhoud (periodieke schilderwerken)",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Kan zij in haar jaarrekening hiermee al rekening houden? Op welke manier en voor welk bedrag zal zij dit doen?",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Wat indien na acht jaar de schilderwerken worden uitgevoerd, maar meer bedragen dan de raming van 40.000 euro?",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-2",
-        "karakter": "auto-isolatie 2013-2-vr4 pagina 4",
-        "pagina_nummers": [
-          4
-        ],
-        "pdf_bestand": "2013-2.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-2-vr4"
-      },
-      "vraag_id": "2013-2-vr4"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt.\n\nBereken de gevraagde ratio's telkens voor het BOEKJAAR.\nU dient de formules NIET uit te schrijven, maar WEL de gebruikte cijfers uit de jaarrekening als motivatie van uw antwoord.\nU dient uw antwoord uit te drukken tot TWEE cijfers na de komma.\n\nUit de toelichting tot de jaarrekening blijkt o.a. dat:\n1) Er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361.869,98 euro;\n2) Er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415 euro;\n3) Er geen intrestsubsidies zijn;\n4) Er werd geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt;\n5) Er werden geen belastingen geboekt op het resultaat van vorige boekjaren;\n6) De te bestemmen winst van het boekjaar integraal gereserveerd werd.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-2",
-        "herinterpretatie_motivering": "Balans en resultatenrekening zitten in bijlage (niet in dit segment). De zes toelichting-items zijn beschikbaar in tekst.txt en vormen de rekencontext. Alle drie deelvragen zijn berekeningsvragen (open).",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.3"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "ratio-analyse",
-          "brutoverkoopmarge",
-          "nettorentabiliteit",
-          "liquiditeit",
-          "jaarrekening",
-          "balans",
-          "resultatenrekening"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-2-vr5",
-        "vraag_onderwerp": "Ratio-analyse: brutoverkoopmarge, nettorentabiliteit en liquiditeit",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Bereken de brutoverkoopmarge (%).",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Bereken de nettorentabiliteit van het totaal der activa, voor belastingen en financiële kosten (%).",
-            "vraagtype": "open"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Bereken de liquiditeit in ruime zin.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-2",
-        "karakter": "auto-isolatie 2013-2-vr5 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2013-2.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-2-vr5"
-      },
-      "vraag_id": "2013-2-vr5"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Bij de bespreking van de jaarrekening deelt u aan uw cliënt mede dat het netto bedrijfskapitaal van zijn vennootschap zeer laag is. Hij vraagt u hoe hij het netto bedrijfskapitaal kan verhogen.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-2",
-        "herinterpretatie_motivering": "Enkelvoudige open vraag, geen subvragen. Gevraagd worden drie concrete voorbeelden.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.9"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "netto bedrijfskapitaal",
-          "werkkapitaal",
-          "liquiditeit",
-          "financiering",
-          "balansstructuur"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-2-vr6",
-        "vraag_onderwerp": "Netto bedrijfskapitaal: manieren om het te verhogen",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": null,
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Geef drie voorbeelden van maatregelen om het netto bedrijfskapitaal te verhogen.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-2",
-        "karakter": "auto-isolatie 2013-2-vr6 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2013-2.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-2-vr6"
-      },
-      "vraag_id": "2013-2-vr6"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [],
-        "examen_id": "2013-2",
-        "herinterpretatie_motivering": "Tekst.txt is fragmentarisch (begint midden in de vraagstelling van deelvraag b). PNG van pagina 5 toont de volledige vraagstelling inclusief vraag 3 label. Deelvraag c is een eigenstandige verklaringsvraag (niet enkel motivatie bij b — het vraagt een uitleg van waarom het onderscheid bestaat).",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "ocr_artefact"
-        ],
-        "programmaonderdeel_ids": [
-          "1.3"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "liquiditeitsratio",
-          "liquiditeit in ruime zin",
-          "liquiditeit in enge zin",
-          "current ratio",
-          "quick ratio",
-          "voorraden",
-          "ratio-analyse"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-2-vr7",
-        "vraag_onderwerp": "Liquiditeitsratio's: betekenis en onderscheid ruime vs. enge zin",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Wat komt een bedrijfsleider te weten door de liquiditeitsratio's te berekenen?",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Met welke elementen houdt men geen rekening bij de berekening van de liquiditeit in enge zin en wel bij de berekening van de liquiditeit in ruime zin?",
-            "vraagtype": "open"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Verklaar uw antwoord aangaande punt b.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-2",
-        "karakter": "auto-isolatie 2013-2-vr7 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2013-2.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-2-vr7"
-      },
-      "vraag_id": "2013-2-vr7"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [],
-        "examen_id": "2013-2",
-        "herinterpretatie_motivering": "Vraag beslaat meerdere pagina's (4-6). Tekst.txt toont slechts de subvraag-beschrijvingen. PNG van pagina 5 toont vraag 4 volledig. Deelvraag b vraagt expliciet vier oorzaken.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.4"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "consolidatieverschil",
-          "goodwill consolidatie",
-          "consolidatie",
-          "overname",
-          "waardering",
-          "deelnemingen"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-2-vr8",
-        "vraag_onderwerp": "Consolidatieverschillen: definitie en oorzaken",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Wat is een positief consolidatieverschil?",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Geef de vier voornaamste oorzaken van positieve consolidatieverschillen.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-2",
-        "karakter": "auto-isolatie 2013-2-vr8 pagina 4-6",
-        "pagina_nummers": [
-          4,
-          5,
-          6
-        ],
-        "pdf_bestand": "2013-2.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-2-vr8"
-      },
-      "vraag_id": "2013-2-vr8"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Een auditprocedure is een gedetailleerde instructie voor het verzamelen van een bepaald auditbewijsmiddel.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2013-2",
-        "herinterpretatie_motivering": "Enkelvoudige open vraag. De introductiezin over auditprocedure is context, geen apart te beantwoorden vraag. Tekst.txt is duidelijk.",
-        "interpretatie_datum": "2026-05-21T12:00:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.6"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "auditstrategie",
-          "auditmethodes",
-          "auditbewijsmiddelen",
-          "inspectie",
-          "observatie",
-          "bevraging",
-          "herberekening"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2013-2-vr9",
-        "vraag_onderwerp": "Auditmethodes: soorten",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": null,
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Geef 4 soorten auditmethodes.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2013-2",
-        "karakter": "auto-isolatie 2013-2-vr9 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2013-2.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2013-2-vr9"
-      },
-      "vraag_id": "2013-2-vr9"
     }
   ]
 }

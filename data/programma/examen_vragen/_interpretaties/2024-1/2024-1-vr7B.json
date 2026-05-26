@@ -1,0 +1,58 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr7B",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Voorzichtigheidsprincipe — opname en waardering (Richtlijn 2013/34/EU)",
+  "programmaonderdeel_ids": ["1.1"],
+  "themas": ["voorzichtigheidsprincipe", "richtlijn 2013/34/EU", "opname waardering", "winstrealisatie", "verplichtingen", "waardecorrecties", "herwaardering"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Richtlijn 2013/34/EU van 26/06/2013, opname en waardering volgens het voorzichtigheidsprincipe. Welke stellingen zijn juist of fout?"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Winsten mogen slechts opgenomen worden voor zover zij op balansdatum gerealiseerd zijn.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "B",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Verplichtingen die hun oorsprong hebben in het betrokken boekjaar of in de loop van een vorig boekjaar worden opgenomen, ook als die verplichting pas wordt bekend tussen balansdatum en de datum waarop de balans wordt opgesteld.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "C",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Alle negatieve waardecorrecties worden opgenomen ongeacht of het boekjaar met winst of verlies wordt afgesloten.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "D",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Voor bepaalde categorieën van ondernemingen wordt verplicht om bepaalde vaste activa aan geherwaardeerde waarde op te nemen.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. Vier afzonderlijke stellingen over het voorzichtigheidsprincipe conform Richtlijn 2013/34/EU, elk als aparte juist/fout-deelvraag verwerkt. OCR-artefact in tekst.txt ('wordt' i.p.v. 'wordt bekend') gecorrigeerd conform PNG. Afkorting 'VA' in stelling D uitgeschreven naar 'vaste activa' conform CLAUDE.md regel 8.",
+  "kwaliteits_flags": ["ocr_artefact"]
+}

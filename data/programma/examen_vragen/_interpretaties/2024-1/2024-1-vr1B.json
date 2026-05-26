@@ -1,0 +1,34 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr1B",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Quasi-inbreng in een NV: wie kan dit doen?",
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
+  "themas": [
+    "NV",
+    "quasi-inbreng",
+    "oprichters",
+    "aandeelhouders",
+    "WVV",
+    "inbreng in natura"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "B",
+      "vraagtype": "open",
+      "vraagstelling": "Quasi-inbreng in een NV: wie kan dit doen?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. Korte open vraag. Tekst en PNG stemmen overeen. Geen context-blokken aanwezig. Vraag peilt naar de personele reikwijdte van de quasi-inbrengprocedure (art. 7:11 WVV).",
+  "kwaliteits_flags": []
+}

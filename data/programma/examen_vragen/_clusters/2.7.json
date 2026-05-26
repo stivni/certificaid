@@ -1,0 +1,45 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "2.7",
+  "gegenereerd_op": "2026-05-26T10:21:17+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 5,
+  "n_clusters": 0,
+  "n_singletons": 5,
+  "clusters": [],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9A",
+      "vraag_onderwerp": "Bericht van wijziging — uiterlijke termijn voor aangetekende verzending",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9B",
+      "vraag_onderwerp": "Fiscale procedure bij vertrek uit België — verplichtingen belastingplichtige",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9C",
+      "vraag_onderwerp": "Bericht van wijziging bij nakende verjaring — te nemen stappen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9D",
+      "vraag_onderwerp": "Vraag om inlichtingen — antwoordtermijn belastingplichtige",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9D.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr9E",
+      "vraag_onderwerp": "Bewaarplicht — te bewaren stukken en bewaringstermijn",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr9E.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

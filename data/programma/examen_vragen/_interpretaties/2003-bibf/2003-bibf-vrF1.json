@@ -82,5 +82,22 @@
   "herinterpretatie_motivering": "Berekeningsvraag voor Vak II personenbelasting (bedrijfsleider). Gegevens gestructureerd als twee gegevens_tabellen: KI + revalorisatie, en de loongegevens. Forfaitaire beroepskosten staan als 'UIT TE REKENEN' in het bronmateriaal — dit is onderdeel van de berekening. Vraagtype 'open' (berekening). PNG bevestigt de opgegeven gegevens.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2014-1.pdf",
   "examen_id": "2014-1",
-  "merge_datum": "2026-05-21T08:50:02+00:00",
+  "merge_datum": "2026-05-26T10:30:42+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -106,6 +106,964 @@
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
           {
+            "tekst": "Voor de vennootschap ABC is er een authentieke akte verleden voor een kapitaalverhoging. De kapitaalverhoging is doorgevoerd door enerzijds een incorporatie van bestaande reserves en anderzijds een inbreng in speciën. Voor dit laatste lag de uitgifteprijs van de nieuwe aandelen hoger dan de bestaande fractiewaarde van de aandelen. De uitgiftepremie werd ook geïncorporeerd in kapitaal.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Enkelvoudige MC-vraag over boekhoudkundige verwerking kapitaalverhoging. tekst.txt bevat markdown-opmaak (bold, quotes) die OCR-artefacten zijn; inhoud is volledig leesbaar.",
+        "interpretatie_datum": "2026-05-21T10:01:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "kapitaalverhoging",
+          "incorporatie reserves",
+          "uitgiftepremie",
+          "resultaatverwerking",
+          "kapitaal",
+          "boekhouding"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr2",
+        "vraag_onderwerp": "Kapitaalverhoging door incorporatie reserves en uitgiftepremie — boekhoudkundige verwerking",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Vraag 2",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "Zij boekt zowel de onttrekking van haar reserves als de volledige kapitaalverhoging via de resultaatverwerking."
+              },
+              {
+                "id": "b",
+                "tekst": "Zij boekt de reserves rechtstreeks over naar kapitaal. Ook de uitgiftepremie kan zij rechtstreeks overboeken naar kapitaal."
+              },
+              {
+                "id": "c",
+                "tekst": "Zij boekt zowel de onttrekking van haar reserves als de kapitaalverhoging door de incorporatie via de resultaatverwerking. De uitgiftepremie kan zij rechtstreeks naar kapitaal overboeken."
+              },
+              {
+                "id": "d",
+                "tekst": "Zij boekt de reserves rechtstreeks over naar kapitaal. De uitgiftepremie blijft als afzonderlijke rekening staan op haar passief."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe dient zij de kapitaalverhoging door incorporatie bestaande reserves en de uitgiftepremie te verwerken in haar jaarrekening?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "auto-isolatie 2014-1-vr2 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2014-1-vr2"
+      },
+      "vraag_id": "2014-1-vr2"
+    },
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-21T00:00:00Z",
+        "antwoord_model": "claude-opus-4-7",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "b",
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "a",
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [],
+            "gekozen_optie_id": "c",
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2014-1-vr3"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap Immo-C had in 1980 een herwaardering toegepast op een octrooi. De herwaardering bedroeg 25.000 EUR en werd op rekening 120 van het passief van de balans geboekt. Het octrooi werd oorspronkelijk verworven voor 75.000 EUR. Het octrooi is thans volledig afgeschreven. Op 15 december 2013 verkoopt Immo-C het octrooi tegen 100.000 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Vier MC-deelvragen (a-d) elk met 4 opties. tekst.txt rendert de MC-opties zonder duidelijke groeperingsmarkers; ik heb ze visueel aan de juiste subvraag toegewezen op basis van de twee PNGs (pagina 3 en 4). Deelvraag a: opties over wat er met de 1980-meerwaarde gebeurt. Deelvraag b: opties over mogelijke bestemmingen van de meerwaarde. Deelvraag c: bedrag-opties (25.000/75.000/50.000/0). Deelvraag d: opties over nieuwe herwaardering van 100.000 EUR.",
+        "interpretatie_datum": "2026-05-21T00:00:00Z",
+        "interpretatie_model": "claude-opus-4-7",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "herwaarderingsmeerwaarde",
+          "immateriële vaste activa",
+          "octrooi",
+          "reserves",
+          "kapitaal",
+          "afschrijvingen"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr3",
+        "vraag_onderwerp": "Herwaarderingsmeerwaarden op immateriële vaste activa — verwerking bij realisatie en bij nieuwe herwaardering",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a)",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "de meerwaarde wordt op het passief van de balans behouden"
+              },
+              {
+                "id": "b",
+                "tekst": "de meerwaarde mag niet op de balans worden behouden"
+              },
+              {
+                "id": "c",
+                "tekst": "de meerwaarde moet geïncorporeerd worden in het kapitaal"
+              },
+              {
+                "id": "d",
+                "tekst": "de meerwaarde moet gespreid over 5 jaar in resultaat genomen worden"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b)",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "ofwel overboeking naar de reserves tot beloop van het nog niet afgeschreven bedrag van de meerwaarde, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+              },
+              {
+                "id": "b",
+                "tekst": "ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+              },
+              {
+                "id": "c",
+                "tekst": "ofwel overboeking naar de reserves, ofwel inlijving in het kapitaal tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
+              },
+              {
+                "id": "d",
+                "tekst": "ofwel enkel overboeking naar de reserves"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c)",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "25.000 EUR"
+              },
+              {
+                "id": "b",
+                "tekst": "75.000 EUR"
+              },
+              {
+                "id": "c",
+                "tekst": "50.000 EUR"
+              },
+              {
+                "id": "d",
+                "tekst": "0 EUR"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag worden overgeboekt?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d)",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "de meerwaarde wordt op het passief van de balans op het credit van rekening 120 geboekt"
+              },
+              {
+                "id": "b",
+                "tekst": "de meerwaarde wordt volledig in resultaat genomen"
+              },
+              {
+                "id": "c",
+                "tekst": "de boeking van de meerwaarde is verboden"
+              },
+              {
+                "id": "d",
+                "tekst": "de boeking van de meerwaarde is facultatief"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had en in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een herwaardering van 100.000 EUR te boeken?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "officieel, casus 8 punten",
+        "pagina_nummers": [
+          3,
+          4
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "complexe casus + tabel-vangnet",
+        "vraag_id": "2014-1-vr3"
+      },
+      "vraag_id": "2014-1-vr3"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vennootschap Export heeft op 5 februari 2014 een goed verkocht tegen de prijs van 5.000.000 EUR. Het contract voorziet in de betaling van dit bedrag in 5 jaarlijkse stortingen van 1.000.000 EUR. Wegens de toegestane betalingstermijn werd de verkoopprijs verhoogd met een interest van 4% per jaar, aldus berekend op 600.000 EUR. De toegepaste discontovoet bedraagt 9% (tarief toegepast op de kredietmarkt). Het disconto wordt vastgesteld op 404.706 EUR.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Twee MC-deelvragen a en b met respectievelijk 5 opties elk. PNG (pagina_04 en pagina_05) bevestigt de opsomming van opties. tekst.txt groepeert de opties correct maar mist expliciete labels; toewijzing aan a of b is gedaan op basis van volgorde in PDF.",
+        "interpretatie_datum": "2026-05-21T10:02:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.1"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "verkoop op termijn",
+          "betalingsuitstel",
+          "interest",
+          "disconto",
+          "omzet",
+          "rekening 751",
+          "rekening 651"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr4",
+        "vraag_onderwerp": "Verkoop op termijn met interest en disconto — omzetbedrag en boekhoudkundige uitsplitsing",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "5.000.000 EUR"
+              },
+              {
+                "id": "b",
+                "tekst": "5.600.000 EUR"
+              },
+              {
+                "id": "c",
+                "tekst": "4.400.000 EUR"
+              },
+              {
+                "id": "d",
+                "tekst": "4.595.294 EUR"
+              },
+              {
+                "id": "e",
+                "tekst": "5.404.706 EUR"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Welk bedrag zult u in de omzet opnemen (boeking op 5 februari 2014)?",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "De interest wordt op rekening 751 en het disconto op rekening 651 geboekt over de 5 terugbetalingstermijnen."
+              },
+              {
+                "id": "b",
+                "tekst": "Bij de boeking van het contract (5 februari 2014) wordt de interest op rekening 70 - Omzet en het disconto op rekening 651 geboekt."
+              },
+              {
+                "id": "c",
+                "tekst": "De interest wordt geboekt op rekening 70 – Omzet en het disconto op rekening 751, volgens een door de Raad van Bestuur vastgesteld ritme maar over een periode die niet langer is dan 5 jaar."
+              },
+              {
+                "id": "d",
+                "tekst": "De interest wordt op rekening 751 en het disconto op rekening 751 geboekt over de 5 terugbetalingstermijnen."
+              },
+              {
+                "id": "e",
+                "tekst": "De interest en het disconto mogen niet worden gesplitst en moeten, bij de boeking van het contract (5 februari 2014), integraal op rekening 70 – Omzet worden geboekt."
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoe worden de interest en het disconto uitgesplitst?",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "auto-isolatie 2014-1-vr4 pagina 4",
+        "pagina_nummers": [
+          4
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2014-1-vr4"
+      },
+      "vraag_id": "2014-1-vr4"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "1.3-c1",
+        "cluster_verdict": "varianten",
+        "context_blokken": [
+          {
+            "tekst": "In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Kruis het juiste antwoord aan voor de ratio's van het boekjaar. Uit de toelichting tot de jaarrekening blijkt o.a. dat: (1) er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361.869,98 EUR; (2) er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415,00 EUR; (3) er intrestsubsidies werden aangerekend op de resultatenrekening voor een bedrag van 6.000,00 EUR; (4) er geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt werd; (5) er gemiddeld 38,20 werknemers (voltijds equivalent) tewerkgesteld waren; (6) de te bestemmen winst van het boekjaar integraal gereserveerd werd.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Vier MC-deelvragen (a-d) over financiële ratio's. De jaarrekening zelf is als bijlage bij het examen gevoegd maar niet in het segment opgenomen — de berekeningsopties bevatten de cijfers die nodig zijn. PNG pagina_02 en 06 bevestigen de vier deelvragen en hun opties.",
+        "interpretatie_datum": "2026-05-21T10:03:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [
+          "tabel_in_pdf_zichtbaar"
+        ],
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "financiële ratio's",
+          "bruto toegevoegde waarde per werknemer",
+          "nettobedrijfskapitaal",
+          "nettorentabiliteit",
+          "liquiditeit in enge zin",
+          "jaarrekening analyse"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr5",
+        "vraag_onderwerp": "Financiële ratio's berekenen op basis van jaarrekening — toegevoegde waarde, nettobedrijfskapitaal, rentabiliteit, liquiditeit",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "(7.441.663 – 3.185.295 – 1.192.317) : 38,20 = 80.210,76"
+              },
+              {
+                "id": "b",
+                "tekst": "(7.441.663 – 415 – 3.185.295 – 1.192.317) : 38,20 = 80.199,90"
+              },
+              {
+                "id": "c",
+                "tekst": "(7.441.663 – 3.185.295 – 1.192.317 – 1.548.647) : 38,20 = 39.670,26"
+              },
+              {
+                "id": "d",
+                "tekst": "(7.441.663 – 3.185.295 – 1.192.317 – 436.469 – 879) : 38,20 = 68.761,86"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Bruto toegevoegde waarde per werknemer",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 – 1.210.536 = 6.648.695"
+              },
+              {
+                "id": "b",
+                "tekst": "120.000 + 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 – 1.210.536 = 6.768.695"
+              },
+              {
+                "id": "c",
+                "tekst": "1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704 – 1.210.536 – 39.932 = 6.611.467"
+              },
+              {
+                "id": "d",
+                "tekst": "120.000 + 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704 – 1.210.536 – 39.932 = 6.731.467"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Nettobedrijfskapitaal",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "c",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "((877.279 + 46.934 + 211.950 – 6.000) : 9.081.054) % = 12,45"
+              },
+              {
+                "id": "b",
+                "tekst": "((577.279 + 109.642 + 185.720 – 6.000) : 9.081.054) % = 9,54"
+              },
+              {
+                "id": "c",
+                "tekst": "((877.279 + 46.934 + 211.950) : 9.081.054) % = 12,51"
+              },
+              {
+                "id": "d",
+                "tekst": "((577.279 + 109.642 + 211.950 – 6.000) : 9.081.054) % = 9,83"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten",
+            "vraagtype": "mc_keuze"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "d",
+            "motivatie_verwacht": false,
+            "opties": [
+              {
+                "id": "a",
+                "tekst": "(1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704) : (1.210.536 + 39.932) = 6,29"
+              },
+              {
+                "id": "b",
+                "tekst": "(1.739.806 + 2.200.000 + 2.548.415) : 1.210.536 = 5,36"
+              },
+              {
+                "id": "c",
+                "tekst": "(1.371.010 + 1.739.806 + 2.200.000 + 2.548.415) : 1.210.536 = 6,49"
+              },
+              {
+                "id": "d",
+                "tekst": "(1.739.806 + 2.200.000 + 2.548.415 + 2.704) : (1.210.536 + 39.932) = 5,19"
+              }
+            ],
+            "volledigheid": "volledig",
+            "vraagstelling": "Liquiditeit in enge zin",
+            "vraagtype": "mc_keuze"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "auto-isolatie 2014-1-vr5 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2014-1-vr5"
+      },
+      "vraag_id": "2014-1-vr5"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Twee open deelvragen over nettothesaurie. PNG pagina_07 bevestigt de exacte formulering van beide deelvragen.",
+        "interpretatie_datum": "2026-05-21T10:04:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.3"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "nettothesaurie",
+          "thesaurie",
+          "bedrijfskapitaal",
+          "liquiditeit",
+          "financiële analyse"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr6",
+        "vraag_onderwerp": "Nettothesaurie — begrip omschrijven en positief saldo interpreteren",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "a",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Omschrijf het begrip 'nettothesaurie'.",
+            "vraagtype": "open"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "b",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "auto-isolatie 2014-1-vr6 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2014-1-vr6"
+      },
+      "vraag_id": "2014-1-vr6"
+    },
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T12:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "**Drie (3) maanden.** Het verschil tussen de afsluitingsdatum van een in de consolidatie opgenomen dochter en die van de geconsolideerde jaarrekening mag in elk geval niet meer dan drie maanden bedragen. ⚖️",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md",
+                  "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md"
+                ],
+                "confidence": "grounded",
+                "kop": "Vermeldenswaard",
+                "tekst": "Het Belgisch KB WVV (art. 3:109) noemt zelf **geen expliciete cijfergrens** — het stelt enkel dat de geconsolideerde jaarrekening op een ander tijdstip mag afgesloten worden om rekening te houden met de balansdatum van de meeste of belangrijkste dochters. ⚖️ De harde grens van 3 maanden komt uit **IFRS 10 §B93** (historisch art. 27 Zevende Richtlijn 83/349/EEG) en wordt in de Belgische doctrine als algemeen aanvaarde drempel toegepast. 🤖 Bij afwijking moet er bovendien rekening gehouden worden met belangrijke gebeurtenissen tussen beide afsluitdata, en het verschil moet van jaar tot jaar gelijk blijven. ⚖️",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/IFRS-10-geconsolideerde-jaarrekening.md",
+                  "resources/bronnen/wetteksten/KB-WVV-2019.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "IFRS 10 §B93 (expliciete 3-maanden-grens); KB WVV art. 3:109 (afwijking toegelaten, geen cijfergrens in tekst); art. 27 Zevende Richtlijn 83/349/EEG (historische oorsprong).",
+                "type": "grondslag",
+                "wetsref": "IFRS 10 §B93; KB WVV art. 3:109"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr7"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "1.4-c1",
+        "cluster_verdict": "echt_duplicaat",
+        "context_blokken": [
+          {
+            "tekst": "De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Enkelvoudige open vraag. PNG pagina_07 bevestigt de formulering. Het antwoord is een feitelijk gegeven (3 maanden), maar dit is een interpretatie-artefact, geen modelantwoord.",
+        "interpretatie_datum": "2026-05-21T10:05:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.4"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "geconsolideerde jaarrekening",
+          "afsluitingsdatum",
+          "consolidatie",
+          "vennootschapsrecht"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr7",
+        "vraag_onderwerp": "Geconsolideerde jaarrekening — maximale afwijking afsluitingsdatum",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Vraag 3",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "auto-isolatie 2014-1-vr7 pagina 3",
+        "pagina_nummers": [
+          3
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2014-1-vr7"
+      },
+      "vraag_id": "2014-1-vr7"
+    },
+    {
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
+                ],
+                "confidence": "grounded",
+                "headers": [
+                  "Relatie",
+                  "Controle%",
+                  "Belang%",
+                  "Consolidatiemethode"
+                ],
+                "rows": [
+                  [
+                    "M in A",
+                    "70 %",
+                    "70 %",
+                    "Volledige consolidatie"
+                  ],
+                  [
+                    "M in B",
+                    "60 %",
+                    "48 %",
+                    "Volledige consolidatie"
+                  ],
+                  [
+                    "M in C",
+                    "30 %",
+                    "30 %",
+                    "Vermogensmutatiemethode"
+                  ]
+                ],
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "**Rekenregels**:\n- **Controlepercentage**: directe stemrechten van de moeder + 100 % van de stemrechten die exclusief gecontroleerde dochters in de doelvennootschap houden (WVV art. 1:16 §1, 1°: onrechtstreekse bevoegdheid via een dochter wordt bij de rechtstreekse bevoegdheid geteld — geen vermenigvuldiging, controle is binair). ⚖️\n- **Belangenpercentage**: som van directe en indirecte deelnemingen, waarbij indirecte deelnemingen langs de keten worden **vermenigvuldigd**. ⚖️\n- **Methode**: exclusieve controle (> 50 % stemrechten of in feite) → volledige consolidatie; invloed van betekenis (vermoeden ≥ 20 % en < 50 %) → vermogensmutatiemethode. ⚖️\n\n**M in A** — directe deelneming 70 % > 50 % → exclusieve controle; belang = 70 %.\n\n**M in B** — M heeft géén directe deelneming in B. A controleert B exclusief (60 %) en M controleert A exclusief (70 %), dus de 60 % van A in B telt volledig mee voor het controlepercentage van M in B. Belang = (70 % × 60 %) + (30 % × 20 %) = 42 % + 6 % = 48 %.\n\n**M in C** — directe deelneming 30 %: tussen 20 % en 50 %, dus geen exclusieve controle maar wel vermoeden van invloed van betekenis; belang = 30 %.",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+                ],
+                "confidence": "inferred",
+                "kop": "Valkuil",
+                "tekst": "De 20 % die C in B houdt telt **niet** mee voor het controlepercentage van M in B. Reden: M controleert C niet exclusief (slechts 30 % — invloed van betekenis, geen controle in de zin van WVV art. 1:14). Onrechtstreekse controle via een geassocieerde onderneming wordt niet bij de rechtstreekse controle opgeteld — art. 1:16 §1, 1° spreekt expliciet over de onrechtstreekse bevoegdheid via een **dochter**vennootschap. De 20 % telt wel mee voor het **belang**enpercentage (want belang = economische deelneming, ongeacht controle): 30 % × 20 % = 6 %, samen met 70 % × 60 % = 42 % geeft dat 48 %. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+                  "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
+                ],
+                "confidence": "grounded",
+                "tekst": "Controle = bevoegdheid in rechte of in feite tot beslissende invloed op de aanstelling van de meerderheid van bestuurders/zaakvoerders of op de oriëntatie van het beleid (WVV art. 1:14). Exclusieve controle = controle alleen of samen met dochtervennootschappen (WVV art. 1:17). Bij vaststelling van de controlebevoegdheid wordt de onrechtstreekse bevoegdheid via een dochter bij de rechtstreekse bevoegdheid geteld (WVV art. 1:16 §1, 1°). Vermogensmutatiemethode geldt voor geassocieerde ondernemingen (invloed van betekenis, vermoeden ≥ 20 % stemrechten) — KB WVV art. 3:152; CBN-advies 2022/11. ⚖️",
+                "type": "grondslag",
+                "wetsref": "WVV art. 1:14, 1:16 §1, 1°, 1:17; KB WVV art. 3:142, 3:152"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr8"
+      },
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Vul onderstaande tabel aan op basis van volgende gegevens. De groepsstructuur is weergegeven in het schema hieronder; de in te vullen antwoord-tabel staat eronder.",
+            "type": "casus_context"
+          },
+          {
+            "beschrijving": "M staat bovenaan en houdt rechtstreeks 70 % in A en 30 % in C. A houdt 60 % in B; C houdt 20 % in B.",
+            "knopen": [
+              "M",
+              "A",
+              "B",
+              "C"
+            ],
+            "kop": "Groepsstructuur",
+            "relaties": [
+              {
+                "naar": "A",
+                "percentage": "70 %",
+                "van": "M"
+              },
+              {
+                "naar": "C",
+                "percentage": "30 %",
+                "van": "M"
+              },
+              {
+                "naar": "B",
+                "percentage": "60 %",
+                "van": "A"
+              },
+              {
+                "naar": "B",
+                "percentage": "20 %",
+                "van": "C"
+              }
+            ],
+            "type": "groepsschema"
+          },
+          {
+            "headers": [
+              "",
+              "CONTROLEPERCENTAGE",
+              "BELANGENPERCENTAGE",
+              "CONSOLIDATIEMETHODE"
+            ],
+            "kop": "In te vullen tabel",
+            "rows": [
+              [
+                "M IN A",
+                "",
+                "",
+                ""
+              ],
+              [
+                "M IN B",
+                "",
+                "",
+                ""
+              ],
+              [
+                "M IN C",
+                "",
+                "",
+                ""
+              ]
+            ],
+            "type": "tabel"
+          }
+        ],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Open invuloefening met tabelstructuur. PNG pagina_07 toont het groepsschema duidelijk: M→A (70%), M→C (30%), A→B (60%), C→B (20%). De antwoordtabel heeft kolommen CONTROLEPERCENTAGE, BELANGENPERCENTAGE, CONSOLIDATIEMETHODE voor de relaties M in A, M in B en M in C. Dit is één geïntegreerde open deelvraag. Pagina's 8-12 bevatten de andere vragen van het examen. v2 herinterpretatie 2026-05-26: tabel + schema gereconstrueerd uit pagina_07.png (eerdere tekst-beschrijving 'M heeft 30% in B' en 'B heeft 20% in C' was foutief — pijlen op het schema lopen M→C en C→B).",
+        "interpretatie_datum": "2026-05-21T10:06:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.4"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "consolidatie",
+          "controlepercentage",
+          "belangenpercentage",
+          "consolidatiemethode",
+          "groepsstructuur",
+          "volledige consolidatie",
+          "vermogensmutatiemethode"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr8",
+        "vraag_onderwerp": "Consolidatie — controlepercentage, belangenpercentage en consolidatiemethode bepalen",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "Vraag 4",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Vul voor M in A, M in B en M in C telkens het controlepercentage, het belangenpercentage en de consolidatiemethode in.",
+            "vraagtype": "open"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "auto-isolatie 2014-1-vr8 pagina 4-12",
+        "pagina_nummers": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2014-1-vr8"
+      },
+      "vraag_id": "2014-1-vr8"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
+            "tekst": "Duid met een kruis aan of de volgende omschrijvingen juist of fout zijn in het kader van de algemene interne controle doelstellingen met betrekking tot de boekhoudkundige registratie.",
+            "type": "casus_context"
+          }
+        ],
+        "examen_id": "2014-1",
+        "herinterpretatie_motivering": "Vijf juist/fout-stellingen over interne controle doelstellingen. tekst.txt geeft de stellingen duidelijk genoeg; PNG bevestigt de indeling. Geen motivatie vereist.",
+        "interpretatie_datum": "2026-05-21T10:07:00Z",
+        "interpretatie_model": "claude-sonnet-4-6",
+        "kwaliteits_flags": [],
+        "programmaonderdeel_ids": [
+          "1.7"
+        ],
+        "schema_versie": "1.2",
+        "themas": [
+          "interne controle",
+          "boekhoudkundige registratie",
+          "controledoelstellingen",
+          "bevoegdheidsverdeling",
+          "toegang activa",
+          "volledigheid registratie"
+        ],
+        "vraag_herkomst": "officieel",
+        "vraag_id": "2014-1-vr9",
+        "vraag_onderwerp": "Interne controle — doelstellingen boekhoudkundige registratie: juist of fout",
+        "vragen": [
+          {
+            "id": "a",
+            "label_in_pdf": "A",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Transacties worden uitgevoerd in overeenstemming met de door het management vastgelegde bevoegdheidsverdelingen.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "b",
+            "label_in_pdf": "B",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De toegang tot de activa is vrij voor elke medewerker in vast dienstverband.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "c",
+            "label_in_pdf": "C",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "Enkel de verrichtingen behorend tot het patrimonium van de onderneming worden geregistreerd.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "d",
+            "label_in_pdf": "D",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De transacties worden in een door de boekhouder bepaalde periode in het informatiesysteem opgenomen.",
+            "vraagtype": "juist_fout"
+          },
+          {
+            "id": "e",
+            "label_in_pdf": "E",
+            "motivatie_verwacht": false,
+            "volledigheid": "volledig",
+            "vraagstelling": "De boekhoudkundige informatie wordt geregeld vergeleken met de onderliggende inventaris en eventuele verschillen moeten niet verantwoord worden.",
+            "vraagtype": "juist_fout"
+          }
+        ]
+      },
+      "segment_meta": {
+        "bbox_hint": null,
+        "examen_id": "2014-1",
+        "karakter": "auto-isolatie 2014-1-vr9 pagina 2",
+        "pagina_nummers": [
+          2
+        ],
+        "pdf_bestand": "2014-1.pdf",
+        "rationale": "alle-vragen-modus",
+        "vraag_id": "2014-1-vr9"
+      },
+      "vraag_id": "2014-1-vr9"
+    },
+    {
+      "antwoord": null,
+      "interpretatie": {
+        "antwoord_hint_in_vraag": null,
+        "context_blokken": [
+          {
             "tekst": "De verkoopafdeling maakt de nieuwe klantenfiches aan in het computersysteem op het moment dat de verkoper een door een nieuwe klant getekende bestelbon binnenbrengt.",
             "type": "casus_context"
           }
@@ -158,6 +1116,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "1.7-c1",
+        "cluster_verdict": "echt_duplicaat",
         "context_blokken": [
           {
             "tekst": "De secretaresse van de zaakvoerder betaalt kleine kosten gemaakt door het personeel terug via een kas.",
@@ -427,6 +1388,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "3.0-c1",
+        "cluster_verdict": "varianten",
         "context_blokken": [
           {
             "tekst": "Kruis de juiste antwoorden aan in onderstaande tabel. De punten worden toegekend per kolom en de kolom dient volledig juist te zijn.",
@@ -1025,78 +1989,6 @@
         "vraag_id": "2014-1-vr19"
       },
       "vraag_id": "2014-1-vr19"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Voor de vennootschap ABC is er een authentieke akte verleden voor een kapitaalverhoging. De kapitaalverhoging is doorgevoerd door enerzijds een incorporatie van bestaande reserves en anderzijds een inbreng in speciën. Voor dit laatste lag de uitgifteprijs van de nieuwe aandelen hoger dan de bestaande fractiewaarde van de aandelen. De uitgiftepremie werd ook geïncorporeerd in kapitaal.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2014-1",
-        "herinterpretatie_motivering": "Enkelvoudige MC-vraag over boekhoudkundige verwerking kapitaalverhoging. tekst.txt bevat markdown-opmaak (bold, quotes) die OCR-artefacten zijn; inhoud is volledig leesbaar.",
-        "interpretatie_datum": "2026-05-21T10:01:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "kapitaalverhoging",
-          "incorporatie reserves",
-          "uitgiftepremie",
-          "resultaatverwerking",
-          "kapitaal",
-          "boekhouding"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2014-1-vr2",
-        "vraag_onderwerp": "Kapitaalverhoging door incorporatie reserves en uitgiftepremie — boekhoudkundige verwerking",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "Vraag 2",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "Zij boekt zowel de onttrekking van haar reserves als de volledige kapitaalverhoging via de resultaatverwerking."
-              },
-              {
-                "id": "b",
-                "tekst": "Zij boekt de reserves rechtstreeks over naar kapitaal. Ook de uitgiftepremie kan zij rechtstreeks overboeken naar kapitaal."
-              },
-              {
-                "id": "c",
-                "tekst": "Zij boekt zowel de onttrekking van haar reserves als de kapitaalverhoging door de incorporatie via de resultaatverwerking. De uitgiftepremie kan zij rechtstreeks naar kapitaal overboeken."
-              },
-              {
-                "id": "d",
-                "tekst": "Zij boekt de reserves rechtstreeks over naar kapitaal. De uitgiftepremie blijft als afzonderlijke rekening staan op haar passief."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Hoe dient zij de kapitaalverhoging door incorporatie bestaande reserves en de uitgiftepremie te verwerken in haar jaarrekening?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2014-1",
-        "karakter": "auto-isolatie 2014-1-vr2 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2014-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2014-1-vr2"
-      },
-      "vraag_id": "2014-1-vr2"
     },
     {
       "antwoord": null,
@@ -1977,189 +2869,6 @@
       "vraag_id": "2014-1-vr29"
     },
     {
-      "antwoord": {
-        "antwoord_datum": "2026-05-21T00:00:00Z",
-        "antwoord_model": "claude-opus-4-7",
-        "examen_id": "2014-1",
-        "schema_versie": "1.1",
-        "vraag_antwoorden": [
-          {
-            "antwoord_status": "beantwoord",
-            "blokken": [],
-            "gekozen_optie_id": "a",
-            "id": "a"
-          },
-          {
-            "antwoord_status": "beantwoord",
-            "blokken": [],
-            "gekozen_optie_id": "b",
-            "id": "b"
-          },
-          {
-            "antwoord_status": "beantwoord",
-            "blokken": [],
-            "gekozen_optie_id": "a",
-            "id": "c"
-          },
-          {
-            "antwoord_status": "beantwoord",
-            "blokken": [],
-            "gekozen_optie_id": "c",
-            "id": "d"
-          }
-        ],
-        "vraag_id": "2014-1-vr3"
-      },
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Vennootschap Immo-C had in 1980 een herwaardering toegepast op een octrooi. De herwaardering bedroeg 25.000 EUR en werd op rekening 120 van het passief van de balans geboekt. Het octrooi werd oorspronkelijk verworven voor 75.000 EUR. Het octrooi is thans volledig afgeschreven. Op 15 december 2013 verkoopt Immo-C het octrooi tegen 100.000 EUR.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2014-1",
-        "herinterpretatie_motivering": "Vier MC-deelvragen (a-d) elk met 4 opties. tekst.txt rendert de MC-opties zonder duidelijke groeperingsmarkers; ik heb ze visueel aan de juiste subvraag toegewezen op basis van de twee PNGs (pagina 3 en 4). Deelvraag a: opties over wat er met de 1980-meerwaarde gebeurt. Deelvraag b: opties over mogelijke bestemmingen van de meerwaarde. Deelvraag c: bedrag-opties (25.000/75.000/50.000/0). Deelvraag d: opties over nieuwe herwaardering van 100.000 EUR.",
-        "interpretatie_datum": "2026-05-21T00:00:00Z",
-        "interpretatie_model": "claude-opus-4-7",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "herwaarderingsmeerwaarde",
-          "immateriële vaste activa",
-          "octrooi",
-          "reserves",
-          "kapitaal",
-          "afschrijvingen"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2014-1-vr3",
-        "vraag_onderwerp": "Herwaarderingsmeerwaarden op immateriële vaste activa — verwerking bij realisatie en bij nieuwe herwaardering",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a)",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "de meerwaarde wordt op het passief van de balans behouden"
-              },
-              {
-                "id": "b",
-                "tekst": "de meerwaarde mag niet op de balans worden behouden"
-              },
-              {
-                "id": "c",
-                "tekst": "de meerwaarde moet geïncorporeerd worden in het kapitaal"
-              },
-              {
-                "id": "d",
-                "tekst": "de meerwaarde moet gespreid over 5 jaar in resultaat genomen worden"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Wat gebeurt er met de in 1980 geboekte herwaarderingsmeerwaarde?",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b)",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "ofwel overboeking naar de reserves tot beloop van het nog niet afgeschreven bedrag van de meerwaarde, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
-              },
-              {
-                "id": "b",
-                "tekst": "ofwel overboeking naar de reserves tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel inlijving in het kapitaal, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
-              },
-              {
-                "id": "c",
-                "tekst": "ofwel overboeking naar de reserves, ofwel inlijving in het kapitaal tot beloop van het bedrag van de op de meerwaarde geboekte afschrijvingen, ofwel, bij latere minderwaarden, uitboeking tot beloop van het nog niet afgeschreven bedrag van de meerwaarde"
-              },
-              {
-                "id": "d",
-                "tekst": "ofwel enkel overboeking naar de reserves"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Welke zijn de mogelijke bestemmingen van deze herwaarderingsmeerwaarde?",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c)",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "25.000 EUR"
-              },
-              {
-                "id": "b",
-                "tekst": "75.000 EUR"
-              },
-              {
-                "id": "c",
-                "tekst": "50.000 EUR"
-              },
-              {
-                "id": "d",
-                "tekst": "0 EUR"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Wat is het bedrag van de herwaarderingsmeerwaarde dat naar de reserves mag worden overgeboekt?",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "d",
-            "label_in_pdf": "d)",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "de meerwaarde wordt op het passief van de balans op het credit van rekening 120 geboekt"
-              },
-              {
-                "id": "b",
-                "tekst": "de meerwaarde wordt volledig in resultaat genomen"
-              },
-              {
-                "id": "c",
-                "tekst": "de boeking van de meerwaarde is verboden"
-              },
-              {
-                "id": "d",
-                "tekst": "de boeking van de meerwaarde is facultatief"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Wat zou er moeten gebeuren, indien de vennootschap haar octrooi niet verkocht had en in de plaats daarvan beslist had om op dezelfde datum van 15 december 2013 een herwaardering van 100.000 EUR te boeken?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2014-1",
-        "karakter": "officieel, casus 8 punten",
-        "pagina_nummers": [
-          3,
-          4
-        ],
-        "pdf_bestand": "2014-1.pdf",
-        "rationale": "complexe casus + tabel-vangnet",
-        "vraag_id": "2014-1-vr3"
-      },
-      "vraag_id": "2014-1-vr3"
-    },
-    {
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
@@ -2798,6 +3507,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "2.5-c1",
+        "cluster_verdict": "echt_duplicaat",
         "context_blokken": [
           {
             "tekst": "Eén van uw cliënten – de BVBA 'Souris' die een winkel uitbaat van informaticamateriaal – ontvangt op 2 februari 2014 een vraag om inlichtingen met betrekking tot derden (leveranciers van 'Sumsang'-schermen type 123ZXY): volledige identiteit, aantal aangekochte schermen per leverancier, aankoopprijs en eventuele korting. De belastingplichtige krijgt een termijn van 12 dagen. Op 10 februari 2014 werd de toegang tot het bedrijf volledig afgesloten wegens wateroverlast en een termijn van 3 weken is nodig om de lokalen te herstellen.",
@@ -2869,113 +3581,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Vennootschap Export heeft op 5 februari 2014 een goed verkocht tegen de prijs van 5.000.000 EUR. Het contract voorziet in de betaling van dit bedrag in 5 jaarlijkse stortingen van 1.000.000 EUR. Wegens de toegestane betalingstermijn werd de verkoopprijs verhoogd met een interest van 4% per jaar, aldus berekend op 600.000 EUR. De toegepaste discontovoet bedraagt 9% (tarief toegepast op de kredietmarkt). Het disconto wordt vastgesteld op 404.706 EUR.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2014-1",
-        "herinterpretatie_motivering": "Twee MC-deelvragen a en b met respectievelijk 5 opties elk. PNG (pagina_04 en pagina_05) bevestigt de opsomming van opties. tekst.txt groepeert de opties correct maar mist expliciete labels; toewijzing aan a of b is gedaan op basis van volgorde in PDF.",
-        "interpretatie_datum": "2026-05-21T10:02:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.1"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "verkoop op termijn",
-          "betalingsuitstel",
-          "interest",
-          "disconto",
-          "omzet",
-          "rekening 751",
-          "rekening 651"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2014-1-vr4",
-        "vraag_onderwerp": "Verkoop op termijn met interest en disconto — omzetbedrag en boekhoudkundige uitsplitsing",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "5.000.000 EUR"
-              },
-              {
-                "id": "b",
-                "tekst": "5.600.000 EUR"
-              },
-              {
-                "id": "c",
-                "tekst": "4.400.000 EUR"
-              },
-              {
-                "id": "d",
-                "tekst": "4.595.294 EUR"
-              },
-              {
-                "id": "e",
-                "tekst": "5.404.706 EUR"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Welk bedrag zult u in de omzet opnemen (boeking op 5 februari 2014)?",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "De interest wordt op rekening 751 en het disconto op rekening 651 geboekt over de 5 terugbetalingstermijnen."
-              },
-              {
-                "id": "b",
-                "tekst": "Bij de boeking van het contract (5 februari 2014) wordt de interest op rekening 70 - Omzet en het disconto op rekening 651 geboekt."
-              },
-              {
-                "id": "c",
-                "tekst": "De interest wordt geboekt op rekening 70 – Omzet en het disconto op rekening 751, volgens een door de Raad van Bestuur vastgesteld ritme maar over een periode die niet langer is dan 5 jaar."
-              },
-              {
-                "id": "d",
-                "tekst": "De interest wordt op rekening 751 en het disconto op rekening 751 geboekt over de 5 terugbetalingstermijnen."
-              },
-              {
-                "id": "e",
-                "tekst": "De interest en het disconto mogen niet worden gesplitst en moeten, bij de boeking van het contract (5 februari 2014), integraal op rekening 70 – Omzet worden geboekt."
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Hoe worden de interest en het disconto uitgesplitst?",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2014-1",
-        "karakter": "auto-isolatie 2014-1-vr4 pagina 4",
-        "pagina_nummers": [
-          4
-        ],
-        "pdf_bestand": "2014-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2014-1-vr4"
-      },
-      "vraag_id": "2014-1-vr4"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "2.5-c2",
+        "cluster_verdict": "echt_duplicaat",
         "context_blokken": [],
         "examen_id": "2014-1",
         "herinterpretatie_motivering": "Vier juist/fout-stellingen over bezwaarrecht in fiscale procedure. tekst.txt bevat ja/neen-tabellen als PDF-artefact — omgezet naar juist/fout-stellingen per prompt-spec.",
@@ -3410,6 +4018,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "behoud_apart_met_label",
+        "cluster_id": "4.0-c1",
+        "cluster_verdict": "varianten",
         "context_blokken": [
           {
             "tekst": "In het KB van 1 maart 1998 wordt eveneens de onafhankelijkheid van de externe accountant/belastingconsulent behandeld. In dat kader wordt er ook gesproken over mandaten en opdrachten die men niet mag aanvaarden. Geef hierna aan of de stellingen juist of fout zijn.",
@@ -3567,417 +4178,6 @@
         "vraag_id": "2014-1-vr46"
       },
       "vraag_id": "2014-1-vr46"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "In bijlage vindt u de balans na winstverdeling en de resultatenrekening van een cliënt. Kruis het juiste antwoord aan voor de ratio's van het boekjaar. Uit de toelichting tot de jaarrekening blijkt o.a. dat: (1) er tijdens het boekjaar investeringen in materiële vaste activa werden gedaan voor 361.869,98 EUR; (2) er exploitatiesubsidies werden aangerekend op de resultatenrekening voor 415,00 EUR; (3) er intrestsubsidies werden aangerekend op de resultatenrekening voor een bedrag van 6.000,00 EUR; (4) er geen disconto ten laste van de onderneming bij de verhandeling van vorderingen geboekt werd; (5) er gemiddeld 38,20 werknemers (voltijds equivalent) tewerkgesteld waren; (6) de te bestemmen winst van het boekjaar integraal gereserveerd werd.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2014-1",
-        "herinterpretatie_motivering": "Vier MC-deelvragen (a-d) over financiële ratio's. De jaarrekening zelf is als bijlage bij het examen gevoegd maar niet in het segment opgenomen — de berekeningsopties bevatten de cijfers die nodig zijn. PNG pagina_02 en 06 bevestigen de vier deelvragen en hun opties.",
-        "interpretatie_datum": "2026-05-21T10:03:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "tabel_in_pdf_zichtbaar"
-        ],
-        "programmaonderdeel_ids": [
-          "1.3"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "financiële ratio's",
-          "bruto toegevoegde waarde per werknemer",
-          "nettobedrijfskapitaal",
-          "nettorentabiliteit",
-          "liquiditeit in enge zin",
-          "jaarrekening analyse"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2014-1-vr5",
-        "vraag_onderwerp": "Financiële ratio's berekenen op basis van jaarrekening — toegevoegde waarde, nettobedrijfskapitaal, rentabiliteit, liquiditeit",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "(7.441.663 – 3.185.295 – 1.192.317) : 38,20 = 80.210,76"
-              },
-              {
-                "id": "b",
-                "tekst": "(7.441.663 – 415 – 3.185.295 – 1.192.317) : 38,20 = 80.199,90"
-              },
-              {
-                "id": "c",
-                "tekst": "(7.441.663 – 3.185.295 – 1.192.317 – 1.548.647) : 38,20 = 39.670,26"
-              },
-              {
-                "id": "d",
-                "tekst": "(7.441.663 – 3.185.295 – 1.192.317 – 436.469 – 879) : 38,20 = 68.761,86"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Bruto toegevoegde waarde per werknemer",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 – 1.210.536 = 6.648.695"
-              },
-              {
-                "id": "b",
-                "tekst": "120.000 + 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 – 1.210.536 = 6.768.695"
-              },
-              {
-                "id": "c",
-                "tekst": "1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704 – 1.210.536 – 39.932 = 6.611.467"
-              },
-              {
-                "id": "d",
-                "tekst": "120.000 + 1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704 – 1.210.536 – 39.932 = 6.731.467"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Nettobedrijfskapitaal",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "c",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "((877.279 + 46.934 + 211.950 – 6.000) : 9.081.054) % = 12,45"
-              },
-              {
-                "id": "b",
-                "tekst": "((577.279 + 109.642 + 185.720 – 6.000) : 9.081.054) % = 9,54"
-              },
-              {
-                "id": "c",
-                "tekst": "((877.279 + 46.934 + 211.950) : 9.081.054) % = 12,51"
-              },
-              {
-                "id": "d",
-                "tekst": "((577.279 + 109.642 + 211.950 – 6.000) : 9.081.054) % = 9,83"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Nettorentabiliteit van het totaal der activa voor belastingen en financiële kosten",
-            "vraagtype": "mc_keuze"
-          },
-          {
-            "id": "d",
-            "label_in_pdf": "d",
-            "motivatie_verwacht": false,
-            "opties": [
-              {
-                "id": "a",
-                "tekst": "(1.371.010 + 1.739.806 + 2.200.000 + 2.548.415 + 2.704) : (1.210.536 + 39.932) = 6,29"
-              },
-              {
-                "id": "b",
-                "tekst": "(1.739.806 + 2.200.000 + 2.548.415) : 1.210.536 = 5,36"
-              },
-              {
-                "id": "c",
-                "tekst": "(1.371.010 + 1.739.806 + 2.200.000 + 2.548.415) : 1.210.536 = 6,49"
-              },
-              {
-                "id": "d",
-                "tekst": "(1.739.806 + 2.200.000 + 2.548.415 + 2.704) : (1.210.536 + 39.932) = 5,19"
-              }
-            ],
-            "volledigheid": "volledig",
-            "vraagstelling": "Liquiditeit in enge zin",
-            "vraagtype": "mc_keuze"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2014-1",
-        "karakter": "auto-isolatie 2014-1-vr5 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2014-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2014-1-vr5"
-      },
-      "vraag_id": "2014-1-vr5"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [],
-        "examen_id": "2014-1",
-        "herinterpretatie_motivering": "Twee open deelvragen over nettothesaurie. PNG pagina_07 bevestigt de exacte formulering van beide deelvragen.",
-        "interpretatie_datum": "2026-05-21T10:04:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.3"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "nettothesaurie",
-          "thesaurie",
-          "bedrijfskapitaal",
-          "liquiditeit",
-          "financiële analyse"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2014-1-vr6",
-        "vraag_onderwerp": "Nettothesaurie — begrip omschrijven en positief saldo interpreteren",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "a",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Omschrijf het begrip 'nettothesaurie'.",
-            "vraagtype": "open"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "b",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Als u de nettothesaurie berekent en de uitkomst is positief, wat betekent dit dan?",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2014-1",
-        "karakter": "auto-isolatie 2014-1-vr6 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2014-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2014-1-vr6"
-      },
-      "vraag_id": "2014-1-vr6"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "De geconsolideerde jaarrekening wordt in principe op dezelfde datum afgesloten als de jaarrekening van de consoliderende vennootschap. In bepaalde gevallen kan men hiervan afwijken.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2014-1",
-        "herinterpretatie_motivering": "Enkelvoudige open vraag. PNG pagina_07 bevestigt de formulering. Het antwoord is een feitelijk gegeven (3 maanden), maar dit is een interpretatie-artefact, geen modelantwoord.",
-        "interpretatie_datum": "2026-05-21T10:05:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.4"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "geconsolideerde jaarrekening",
-          "afsluitingsdatum",
-          "consolidatie",
-          "vennootschapsrecht"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2014-1-vr7",
-        "vraag_onderwerp": "Geconsolideerde jaarrekening — maximale afwijking afsluitingsdatum",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "Vraag 3",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum?",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2014-1",
-        "karakter": "auto-isolatie 2014-1-vr7 pagina 3",
-        "pagina_nummers": [
-          3
-        ],
-        "pdf_bestand": "2014-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2014-1-vr7"
-      },
-      "vraag_id": "2014-1-vr7"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Vul onderstaande tabel aan op basis van volgende gegevens. Groepsstructuur: M heeft 70% in A en 30% in B. A heeft 60% in B. B heeft 20% in C. (zie schema in PNG)",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2014-1",
-        "herinterpretatie_motivering": "Open invuloefening met tabelstructuur. PNG pagina_07 toont het groepsschema duidelijk: M→A (70%), M→B (30%), A→B (60%), B→C (20%). De antwoordtabel heeft kolommen CONTROLEPERCENTAGE, BELANGENPERCENTAGE, CONSOLIDATIEMETHODE voor de relaties M in A, M in B en M in C. Dit is één geïntegreerde open deelvraag. Pagina's 8-12 bevatten de andere vragen van het examen.",
-        "interpretatie_datum": "2026-05-21T10:06:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [
-          "tabel_in_pdf_zichtbaar"
-        ],
-        "programmaonderdeel_ids": [
-          "1.4"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "consolidatie",
-          "controlepercentage",
-          "belangenpercentage",
-          "consolidatiemethode",
-          "groepsstructuur",
-          "volledige consolidatie",
-          "vermogensmutatiemethode"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2014-1-vr8",
-        "vraag_onderwerp": "Consolidatie — controlepercentage, belangenpercentage en consolidatiemethode bepalen",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "Vraag 4",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Vul voor M in A, M in B en M in C telkens het controlepercentage, het belangenpercentage en de consolidatiemethode in.",
-            "vraagtype": "open"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2014-1",
-        "karakter": "auto-isolatie 2014-1-vr8 pagina 4-12",
-        "pagina_nummers": [
-          4,
-          5,
-          6,
-          7,
-          8,
-          9,
-          10,
-          11,
-          12
-        ],
-        "pdf_bestand": "2014-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2014-1-vr8"
-      },
-      "vraag_id": "2014-1-vr8"
-    },
-    {
-      "antwoord": null,
-      "interpretatie": {
-        "antwoord_hint_in_vraag": null,
-        "context_blokken": [
-          {
-            "tekst": "Duid met een kruis aan of de volgende omschrijvingen juist of fout zijn in het kader van de algemene interne controle doelstellingen met betrekking tot de boekhoudkundige registratie.",
-            "type": "casus_context"
-          }
-        ],
-        "examen_id": "2014-1",
-        "herinterpretatie_motivering": "Vijf juist/fout-stellingen over interne controle doelstellingen. tekst.txt geeft de stellingen duidelijk genoeg; PNG bevestigt de indeling. Geen motivatie vereist.",
-        "interpretatie_datum": "2026-05-21T10:07:00Z",
-        "interpretatie_model": "claude-sonnet-4-6",
-        "kwaliteits_flags": [],
-        "programmaonderdeel_ids": [
-          "1.7"
-        ],
-        "schema_versie": "1.2",
-        "themas": [
-          "interne controle",
-          "boekhoudkundige registratie",
-          "controledoelstellingen",
-          "bevoegdheidsverdeling",
-          "toegang activa",
-          "volledigheid registratie"
-        ],
-        "vraag_herkomst": "officieel",
-        "vraag_id": "2014-1-vr9",
-        "vraag_onderwerp": "Interne controle — doelstellingen boekhoudkundige registratie: juist of fout",
-        "vragen": [
-          {
-            "id": "a",
-            "label_in_pdf": "A",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Transacties worden uitgevoerd in overeenstemming met de door het management vastgelegde bevoegdheidsverdelingen.",
-            "vraagtype": "juist_fout"
-          },
-          {
-            "id": "b",
-            "label_in_pdf": "B",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "De toegang tot de activa is vrij voor elke medewerker in vast dienstverband.",
-            "vraagtype": "juist_fout"
-          },
-          {
-            "id": "c",
-            "label_in_pdf": "C",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "Enkel de verrichtingen behorend tot het patrimonium van de onderneming worden geregistreerd.",
-            "vraagtype": "juist_fout"
-          },
-          {
-            "id": "d",
-            "label_in_pdf": "D",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "De transacties worden in een door de boekhouder bepaalde periode in het informatiesysteem opgenomen.",
-            "vraagtype": "juist_fout"
-          },
-          {
-            "id": "e",
-            "label_in_pdf": "E",
-            "motivatie_verwacht": false,
-            "volledigheid": "volledig",
-            "vraagstelling": "De boekhoudkundige informatie wordt geregeld vergeleken met de onderliggende inventaris en eventuele verschillen moeten niet verantwoord worden.",
-            "vraagtype": "juist_fout"
-          }
-        ]
-      },
-      "segment_meta": {
-        "bbox_hint": null,
-        "examen_id": "2014-1",
-        "karakter": "auto-isolatie 2014-1-vr9 pagina 2",
-        "pagina_nummers": [
-          2
-        ],
-        "pdf_bestand": "2014-1.pdf",
-        "rationale": "alle-vragen-modus",
-        "vraag_id": "2014-1-vr9"
-      },
-      "vraag_id": "2014-1-vr9"
     }
   ]
 }

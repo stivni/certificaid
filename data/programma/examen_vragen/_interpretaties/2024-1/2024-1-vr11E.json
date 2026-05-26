@@ -1,0 +1,66 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr11E",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "BTW-tarief of -stelsel voor glazenwassen door een Belgische onderneming per situatie",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": ["BTW-tarief", "BTW-stelsel", "plaatsbepaling dienst", "verlegging heffing", "particulier", "buitenlandse belastingplichtige", "glazenwassen"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Een Belgische onderneming (gewone belastingplichtige) verricht glazenwassingsdiensten. Vermeld het toepasselijke BTW-tarief of -stelsel voor elk van de volgende situaties:"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "open",
+      "vraagstelling": "Belgisch gebouw, afnemer is een belastingplichtige die aangifte indient",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "open",
+      "vraagstelling": "Belgisch gebouw, meer dan 10 jaar betrokken door een Belgisch particulier",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "open",
+      "vraagstelling": "Belgisch gebouw, minder dan 10 jaar betrokken door een Belgisch particulier",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "open",
+      "vraagstelling": "Belgisch gebouw, afnemer is een Franse belastingplichtige",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "open",
+      "vraagstelling": "Belgisch gebouw, afnemer is een Zweedse belastingplichtige",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment met volledig bewaarde vraaginhoud. PNG pagina 6 bevestigt alle vijf situaties. Gemodelleerd als 5 open deelvragen: de student moet per situatie het toepasselijke tarief of stelsel vermelden (geen keuze uit opties, geen juist/fout — vrij te formuleren antwoord). Afkortingen genormaliseerd: 'BP' → 'belastingplichtige', 'BE' → 'Belgisch', 'FR' → 'Frans'. Casus-context expliciteert de overkoepelende situatie (Belgische BP = gewone belastingplichtige).",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

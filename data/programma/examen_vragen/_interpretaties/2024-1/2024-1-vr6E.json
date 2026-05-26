@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr6E",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "AMLCO-verplichtingen: stellingen juist of fout",
+  "programmaonderdeel_ids": ["4.0"],
+  "themas": ["AMLCO", "antiwitwaswetgeving", "intern verslag", "atypische verrichtingen", "risicobeoordeling", "actualiteitsverslag", "witwasmelding"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "A",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De AMLCO moet een intern verslag maken bij atypische verrichtingen.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "B",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De AMLCO moet een intern verslag maken wanneer het kantoor niet kan voldoen aan de verplichting tot beoordeling van het risico verbonden aan de klant.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "C",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De AMLCO moet een intern verslag maken wanneer, na het uitvoeren van de risicobeoordeling, het kantoor beslist om de potentiële cliënt te weigeren wegens witwas- of terrorismefinancieringsrisico.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "D",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "De AMLCO zal minstens om de 2 jaar een actualiteitsverslag opmaken.",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. PNG pagina 3 bevestigt vier stellingen (A-D) over AMLCO-verplichtingen. Afkorting 'WG/FT risico' in tekst.txt uitgeschreven als 'witwas- of terrorismefinancieringsrisico' in stelling C voor helderheid (typo_genormaliseerd). De overige stellingen zijn ongewijzigd overgenomen.",
+  "kwaliteits_flags": ["typo_genormaliseerd"]
+}

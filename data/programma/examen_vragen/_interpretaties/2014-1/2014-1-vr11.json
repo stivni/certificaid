@@ -35,5 +35,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige open vraag om een procedure op te stellen. PNG pagina_03 bevestigt de formulering.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "1.7-c1",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

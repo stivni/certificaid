@@ -1,0 +1,81 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "2.6",
+  "gegenereerd_op": "2026-05-26T10:21:16+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 11,
+  "n_clusters": 0,
+  "n_singletons": 11,
+  "clusters": [],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrI2",
+      "vraag_onderwerp": "Omzetting eenmanszaak naar BVBA: formaliteiten en registratierechten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrI2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrH3",
+      "vraag_onderwerp": "Schenking van effecten aan dochter: mogelijkheden, schenkingsrechten en risico's",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrH3.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr27",
+      "vraag_onderwerp": "Registratierechten: verplichte registratie, verantwoordelijke, termijn en belastbare grondslag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr27.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr28",
+      "vraag_onderwerp": "Successierechten bij verzaking aan nalatenschap door legataris",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr28.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr28",
+      "vraag_onderwerp": "Successierechten Luik: passief nalatenschap — aangenomen of niet",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr28.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr29",
+      "vraag_onderwerp": "Registratierechten: onverdeeld onroerend goed, verkoop en overname",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr29.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr35",
+      "vraag_onderwerp": "Notarieel recht — aanwijzing van persoon bij compromis (sterkmaking) en registratie",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr35.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr36",
+      "vraag_onderwerp": "Erfrecht/successierecht — hoedanigheid begiftigden en aangifte nalatenschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr36.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr46",
+      "vraag_onderwerp": "Registratierechten Brussel: uitsluiting vermindering eigen woning",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr46.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr47",
+      "vraag_onderwerp": "Successierechten: aangifte nalatenschap met opschortende voorwaarde",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr47.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr48",
+      "vraag_onderwerp": "Registratierechten blote eigendom en vruchtgebruik: belastbare grondslag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr48.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

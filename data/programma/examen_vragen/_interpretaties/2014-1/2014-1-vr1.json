@@ -76,5 +76,14 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige MC-vraag met 4 opties over verwerking vastklikken-maatregel per 31/12/2013. De PNG bevestigt de 4 opties en de eigenvermogenstabel. Kapitaalverhoging via authentieke akte (24/01/2014) valt buiten boekjaar 2013, dus 'ontvangen voorschotten op kapitaal' is het kernverschil met optie c.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

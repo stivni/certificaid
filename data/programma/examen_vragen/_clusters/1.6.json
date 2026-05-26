@@ -1,0 +1,123 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "1.6",
+  "gegenereerd_op": "2026-05-26T10:20:48+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 17,
+  "n_clusters": 0,
+  "n_singletons": 17,
+  "clusters": [],
+  "borderline_paren": [
+    {
+      "van": "2013-1-vr16",
+      "naar": "2013-1-vr17",
+      "cosine": 0.761
+    }
+  ],
+  "singletons": [
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr16",
+      "vraag_onderwerp": "Opdracht externe accountant bij ontbinding: staat van activa en passiva",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr16.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr17",
+      "vraag_onderwerp": "Controleverslag bij ontbinding: correcties op staat activa-passiva, controlesoort, ontbinding in één akte",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr17.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr18",
+      "vraag_onderwerp": "Opmerkingen bij de ontbindingsprocedure van BVBA GOFORT",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr18.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr19",
+      "vraag_onderwerp": "Opdrachtbrief bij omzetting van een vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr19.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr37",
+      "vraag_onderwerp": "Termijn voor toezending controleverslag aan instituut: vereffening en omvorming",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr37.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr11",
+      "vraag_onderwerp": "Onthoudende verklaring: toepassingsvoorwaarden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr11.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr13",
+      "vraag_onderwerp": "Controleopdracht: betrouwbaarheid interne cijfers en voorraadcontrole",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr13.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr19",
+      "vraag_onderwerp": "Omzettingsopdracht CVBA naar BVBA: onafhankelijkheid, correcties actief en verslag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr19.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr9",
+      "vraag_onderwerp": "Auditmethodes: soorten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr9.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr12",
+      "vraag_onderwerp": "Audit — confirmatiebrieven: voorbehoud in verslag, remediëring en werkwijze",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr12.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr13",
+      "vraag_onderwerp": "Audit — advocatenkosten als indicator voor rechtszaken en gevolg voor controleverslag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr13.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr14",
+      "vraag_onderwerp": "Controleopdracht — voorbereiding, materialiteit, deelnemingen en afloopcontrole",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr14.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr16",
+      "vraag_onderwerp": "Aanvaardingsprocedure auditdossier: weigeringsgronden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr16.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr17",
+      "vraag_onderwerp": "Controledoelstellingen en -technieken op debet lopende rekening bij omzetting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr17.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr18",
+      "vraag_onderwerp": "Controle na voorraadtelling en behandeling handelsvorderingsverschil",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr18.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr19",
+      "vraag_onderwerp": "Werkwijze confirmatie leverancierssaldi bij externe controle",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr19.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr56",
+      "vraag_onderwerp": "Norm controle fusie- en splitsingsverrichtingen: verplichtingen bij meerdere beroepsbeoefenaars",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr56.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

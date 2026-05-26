@@ -61,5 +61,14 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Berekeningsvraag op basis van resultatenrekening-gegevens. Vraagtype 'open' want berekening is antwoord-vorm. Gegevens-blok als gegevens_tabel met label/bedrag-paren. Bouwt voort op de balans van C.1.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr6",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De post **\"Aandeel van derden in het resultaat\"** in de geconsolideerde resultatenrekening. ⚖️",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bij **integrale (volledige) consolidatie** worden 100% van de activa, passiva, opbrengsten en kosten van de dochter opgenomen, ook al heeft de moeder geen 100%-belang. Het deel van het resultaat dat toekomt aan de minderheidsaandeelhouders (derden) wordt afzonderlijk afgezonderd via deze post, zodat het geconsolideerde resultaat dat overblijft uitsluitend toerekenbaar is aan de groep. ⚖️",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Niet verwarren met de post **\"Aandeel in het resultaat van de vennootschappen waarop vermogensmutatie is toegepast\"** (art. 3:145 KB WVV) — die geldt voor deelnemingen verwerkt via equity-methode, niet voor integraal geconsolideerde dochters. ⚖️",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:137 KB WVV (integrale consolidatie — aandeel van derden in het resultaat). Vgl. art. 3:145 KB WVV (vermogensmutatie).",
+          "wetsref": "Art. 3:137 KB WVV",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/KB-WVV-2019.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

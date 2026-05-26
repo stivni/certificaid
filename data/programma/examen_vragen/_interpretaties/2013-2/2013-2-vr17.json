@@ -60,5 +60,27 @@
   "herinterpretatie_motivering": "Matrix-vraag: 6 vennootschapsvormen × 4 kenmerken. Gemodelleerd als één mc_keuze-deelvraag met de vier kenmerken als opties. Per vennootschapsvorm worden meerdere kenmerken aangevinkt (multiselect in de tabel).",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "cluster_id": "3.0-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label",
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "kruis_aan",
+        "veld": "casus_context"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "het_schema_de_fig",
+        "veld": "casus_context"
+      }
+    ]
+  }
 }

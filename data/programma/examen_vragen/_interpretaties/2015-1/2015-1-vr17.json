@@ -45,5 +45,14 @@
   "herinterpretatie_motivering": "Vraag 3 van de sectie 'Accountantsonderzoek'. Twee deelvragen die samen betrekking hebben op het schema 'controledoelstelling / techniek'. Deelvraag b is een eigenstandige vervolgvraag (eigen inhoud: welke techniek), niet een pure motivatie-instructie.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

@@ -55,5 +55,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vier juist/fout-stellingen over bezwaarrecht in fiscale procedure. tekst.txt bevat ja/neen-tabellen als PDF-artefact — omgezet naar juist/fout-stellingen per prompt-spec.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "2.5-c2",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

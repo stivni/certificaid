@@ -191,5 +191,25 @@
   "herinterpretatie_motivering": "Omvangrijke berekenisvraag. Balans en resultatenrekening gestructureerd als aparte blokken. De resultatenrekening bevat zowel kosten als opbrengsten — weergegeven als gegevens_tabel met negatieve bedragen voor kosten.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "cluster_id": "2.3-c1",
+  "cluster_verdict": "varianten",
+  "cluster_actie": "behoud_apart_met_label",
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "balans"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

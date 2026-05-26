@@ -110,5 +110,14 @@
   "herinterpretatie_motivering": "Tien passief-elementen die elk beoordeeld moeten worden (aangenomen/niet aangenomen + verklaring bij verwerping). Elke passief-post is een aparte deelvraag. De A/B/C-structuur in de PDF (Aangenomen/Niet aangenomen/Verklaar) is geïntegreerd in de open vraagstelling met motivatie_verwacht:true.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

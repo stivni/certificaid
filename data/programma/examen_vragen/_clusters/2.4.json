@@ -1,0 +1,234 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "2.4",
+  "gegenereerd_op": "2026-05-26T10:21:09+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 28,
+  "n_clusters": 2,
+  "n_singletons": 24,
+  "clusters": [
+    {
+      "cluster_id": "2.4-c1",
+      "voorlopige_label": "BTW-verplichtingen en boekhouding voor een zelfstandige horeca-uitbater",
+      "n_voorkomens": 2,
+      "voorkomens": [
+        {
+          "examen_id": "2003-bibf",
+          "vraag_id": "2003-bibf-vrD1",
+          "vraag_onderwerp": "BTW-verplichtingen en boekhouding voor een zelfstandige horeca-uitbater",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrD1.json"
+        },
+        {
+          "examen_id": "2008-bibf",
+          "vraag_id": "2008-bibf-vrD1",
+          "vraag_onderwerp": "Boekhoudkundige organisatie en wettelijke verplichtingen voor een taverne-restaurant als BTW-plichtige",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrD1.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2003-bibf-vrD1",
+          "naar": "2008-bibf-vrD1",
+          "cosine": 0.8266
+        }
+      ],
+      "verdict": "echt_duplicaat",
+      "actie": "merge_one_antwoord",
+      "motivering": "Identieke vraag: 'Leg wettelijke verplichtingen + per kwartaal te ontvangen stukken uit aan zelfstandige horeca-uitbater'. Casus quasi-identiek (horeca/taverne-restaurant), antwoord dekt beide."
+    },
+    {
+      "cluster_id": "2.4-c2",
+      "voorlopige_label": "BTW-factureringsverplichtingen bij voorschotfacturen voor schrijnwerkerswerken",
+      "n_voorkomens": 2,
+      "voorkomens": [
+        {
+          "examen_id": "2003-bibf",
+          "vraag_id": "2003-bibf-vrD2",
+          "vraag_onderwerp": "BTW-factureringsverplichtingen bij voorschotfacturen voor schrijnwerkerswerken",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrD2.json"
+        },
+        {
+          "examen_id": "2008-bibf",
+          "vraag_id": "2008-bibf-vrD2",
+          "vraag_onderwerp": "BTW-factureringsplicht bij voorschotten en bewaarplicht documenten voor een schrijnwerker",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrD2.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2003-bibf-vrD2",
+          "naar": "2008-bibf-vrD2",
+          "cosine": 0.9604
+        }
+      ],
+      "verdict": "echt_duplicaat",
+      "actie": "merge_one_antwoord",
+      "motivering": "Identieke twee deelvragen aan schrijnwerker: 'Reden om werkwijze aan te passen (voorschotfactuur)?' + 'Welke documenten bewaren?' Casus identiek."
+    }
+  ],
+  "borderline_paren": [
+    {
+      "van": "2014-1-vr30",
+      "naar": "2014-1-vr33",
+      "cosine": 0.794
+    },
+    {
+      "van": "2014-1-vr30",
+      "naar": "2014-1-vr34",
+      "cosine": 0.7896
+    },
+    {
+      "van": "2014-1-vr33",
+      "naar": "2014-1-vr34",
+      "cosine": 0.7803
+    }
+  ],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrE1",
+      "vraag_onderwerp": "BTW-aftrekrecht: economische activiteiten zonder aftrekrecht",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrE1.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrE2",
+      "vraag_onderwerp": "Berekening aftrekbare BTW in diverse gevallen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrE2.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrE3",
+      "vraag_onderwerp": "BTW-verschuldigdheid bij diverse verrichtingen — ja/neen met bedrag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrE3.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrE4",
+      "vraag_onderwerp": "BTW-termijnen en deadlines voor diverse verplichtingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrE4.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrE5",
+      "vraag_onderwerp": "Dagboek van ontvangsten — juist/fout stellingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrE5.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrI1",
+      "vraag_onderwerp": "Accijnzen bij intracommunautaire verwervingen door restaurateur",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrI1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrE1",
+      "vraag_onderwerp": "Gevolgen van switch van forfaitair naar maandelijks BTW-regime",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrE1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrE2",
+      "vraag_onderwerp": "BTW-aangifte vakken invullen voor diverse verrichtingen tweedehandswagenhandelaar",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrE2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrE3",
+      "vraag_onderwerp": "Diverse BTW-vraagstukken: aftrekverjaring, regime psycholoog, BTW-eenheid, territoriale BTW-bevoegdheid",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrE3.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr25",
+      "vraag_onderwerp": "BTW-aangifte roosters invullen: stopzetting, dienst buitenland, intracommunautaire overbrenging",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr25.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr26",
+      "vraag_onderwerp": "BTW-gevolgen: gebouw opslagplaats, personenwagen terbeschikkingstelling, verkoop tweedehandswagen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr26.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr26",
+      "vraag_onderwerp": "BTW-herziening bij stopzetting activiteit: gebouw, verbeteringswerken, goederen en diepvrieskasten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr26.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr27",
+      "vraag_onderwerp": "BTW en personenwagens: aftrek bij zaakvoerder en werknemer",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr27.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr34",
+      "vraag_onderwerp": "Intracommunautaire verwerving: BTW-opeisbaarheid en verjaring",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr34.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr30",
+      "vraag_onderwerp": "BTW — plaatsbepaling dienst onroerend werk in andere EU-lidstaat (B2C)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr30.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr31",
+      "vraag_onderwerp": "BTW — openbare verkoop faillissement: plaatsbepaling levering van goederen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr31.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr32",
+      "vraag_onderwerp": "BTW — boekhoudster in bijberoep: BTW-plicht en belastingplichtige hoedanigheid",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr32.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr33",
+      "vraag_onderwerp": "BTW — plaatsbepaling dienst accountant aan particulier (B2C, algemene regel)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr33.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr34",
+      "vraag_onderwerp": "BTW — plaatsbepaling reclame-advertentie voor buitenlandse BTW-plichtige (B2B)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr34.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr36",
+      "vraag_onderwerp": "BTW bij verkoop nieuwbouw: vergelijking BTW-stelsel vs. registratierecht",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr36.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr37",
+      "vraag_onderwerp": "BTW-statuut vzw met yoga, café en boekenverkoop",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr37.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr38",
+      "vraag_onderwerp": "BTW-verplichting bij eigen verbruik van producten door supermarktuitbater",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr38.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr39",
+      "vraag_onderwerp": "BTW-verplichtingen bij tijdelijke overbrenging van goederen naar EU-lidstaat (niet-overbrenging)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr39.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr40",
+      "vraag_onderwerp": "BTW bij driehoeksverkeer: factuurvermelding, btw-aangifte en intracommunautaire opgave",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr40.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

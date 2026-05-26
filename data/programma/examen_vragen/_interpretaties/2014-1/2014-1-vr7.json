@@ -33,5 +33,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Enkelvoudige open vraag. PNG pagina_07 bevestigt de formulering. Het antwoord is een feitelijk gegeven (3 maanden), maar dit is een interpretatie-artefact, geen modelantwoord.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "1.4-c1",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

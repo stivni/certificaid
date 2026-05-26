@@ -1,0 +1,278 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "3.0",
+  "gegenereerd_op": "2026-05-26T10:21:29+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 39,
+  "n_clusters": 1,
+  "n_singletons": 37,
+  "clusters": [
+    {
+      "cluster_id": "3.0-c1",
+      "voorlopige_label": "Vennootschapsvormen: kenmerken per vennootschapsvorm",
+      "n_voorkomens": 2,
+      "voorkomens": [
+        {
+          "examen_id": "2013-2",
+          "vraag_id": "2013-2-vr17",
+          "vraag_onderwerp": "Vennootschapsvormen: kenmerken per vennootschapsvorm",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr17.json"
+        },
+        {
+          "examen_id": "2014-1",
+          "vraag_id": "2014-1-vr15",
+          "vraag_onderwerp": "Vennootschapsvormen — kenmerken per vennootschapsvorm invullen (aansprakelijkheid, winstbewijzen, neerlegging, financieel plan)",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr15.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2013-2-vr17",
+          "naar": "2014-1-vr15",
+          "cosine": 0.8361
+        }
+      ],
+      "verdict": "varianten",
+      "actie": "behoud_apart_met_label",
+      "motivering": "Beide matrix-invul-vragen 'kenmerk per vennootschapsvorm (NV/BVBA/CVA/CVBA/CVOA/VOF)'. 2013-2 toetst onderhandse akte + winstbewijzen + neerlegging + minimumkapitaal; 2014-1 toetst aansprakelijkheid + winstbewijzen + neerlegging + financieel plan. Twee kenmerken overlappen, twee verschillen — gedeeld antwoord moet alle zes kenmerken dekken."
+    }
+  ],
+  "borderline_paren": [
+    {
+      "van": "2014-1-vr20",
+      "naar": "2014-1-vr21",
+      "cosine": 0.7802
+    },
+    {
+      "van": "2014-1-vr20",
+      "naar": "2015-1-vr27",
+      "cosine": 0.7624
+    }
+  ],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrI2",
+      "vraag_onderwerp": "Omzetting eenmanszaak naar BVBA: formaliteiten en registratierechten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrI2.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrI3",
+      "vraag_onderwerp": "Alarmbelprocedure bij verlies — verplichtingen vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrI3.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrI4",
+      "vraag_onderwerp": "Gevolgen van niet-neerlegging jaarrekening bij de NBB gedurende drie boekjaren",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrI4.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrJ2",
+      "vraag_onderwerp": "Procedure ontslag en opzegtermijn voor bedienden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrJ2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrI1",
+      "vraag_onderwerp": "Kapitaalverhoging NV zonder buitengewone algemene vergadering: mogelijkheid en voorwaarden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrI1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrI2",
+      "vraag_onderwerp": "Financieel plan bij oprichting: verplichting, doel en ontvanger",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrI2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrI3",
+      "vraag_onderwerp": "Procedure tegenstrijdig belang voor zaakvoerder-enige vennoot van een BVBA",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrI3.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrI4",
+      "vraag_onderwerp": "Gerechtelijk akkoord voor burgerlijke vennootschap met handelsvorm",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrI4.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrI5",
+      "vraag_onderwerp": "Aansprakelijkheid oprichters BVBA vs. NV",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrI5.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrJ1",
+      "vraag_onderwerp": "Ontslag om dringende reden: termijnen en opzegvergoeding",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrJ1.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr14",
+      "vraag_onderwerp": "Vennootschapsrecht: aandelen bij overlijden, vordering oninvorderbaar, oprichting S-BVBA",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr14.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr15",
+      "vraag_onderwerp": "Omzetting van effecten aan toonder: maatregel, gevolgen 2014 en 2015",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr15.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr15",
+      "vraag_onderwerp": "Alarmbelprocedure BVBA: toepasbaarheid in twee situaties",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr15.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr16",
+      "vraag_onderwerp": "NV: toegestaan kapitaal en oprichtersaansprakelijkheid bij faillissement",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr16.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr18",
+      "vraag_onderwerp": "BVBA: rechten van minderheidsaandeelhouder bij vermoeden van verduisteringen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr18.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr19",
+      "vraag_onderwerp": "Omzettingsopdracht CVBA naar BVBA: onafhankelijkheid, correcties actief en verslag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr19.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr20",
+      "vraag_onderwerp": "Individueel controlerecht BVBA: stellingen juist/fout",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr20.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr16",
+      "vraag_onderwerp": "Toegestaan kapitaal — advies bij kapitaalverhoging door inlijving beschikbare reserves",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr16.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr17",
+      "vraag_onderwerp": "BVBA — verkoop persoonlijk onroerend goed door enig vennoot-zaakvoerder aan vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr17.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr18",
+      "vraag_onderwerp": "Interimdividend — voorwaarden en procedure voor NV",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr18.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr20",
+      "vraag_onderwerp": "Omzetting NV naar BVBA — controleopdracht en juist/fout-stellingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr20.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr21",
+      "vraag_onderwerp": "Omzetting VOF naar BVBA — controleverslag bij faillissement debiteur",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr21.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr20",
+      "vraag_onderwerp": "Alarmbelprocedure bvba: advies bij verlies dat geplaatst kapitaal aantast",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr20.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr21",
+      "vraag_onderwerp": "Omzetting bvba naar nv: vereisten en mogelijkheden voor kapitaalverhoging",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr21.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr22",
+      "vraag_onderwerp": "Alarmbelprocedure bvba: verplichtingen zaakvoerder bij ernstig verlies",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr22.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr23",
+      "vraag_onderwerp": "Gevolgen laattijdige bijeenroeping gewone algemene vergadering nv",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr23.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr24",
+      "vraag_onderwerp": "Kapitaalverhoging in natura bvba: vereiste verslagen bij inbreng aandelen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr24.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr25",
+      "vraag_onderwerp": "Doelstelling specifieke opdracht externe accountant bij omzetting vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr25.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr26",
+      "vraag_onderwerp": "Norm inzake controle bij voorstel tot ontbinding: specifieke gevallen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr26.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr27",
+      "vraag_onderwerp": "Opdracht externe accountant bij omzetting NV naar BVBA: juist/fout stellingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr27.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr1A",
+      "vraag_onderwerp": "BVBA-omzetting naar BV en volstortingsverplichting onder het WVV",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr1A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr1B",
+      "vraag_onderwerp": "Quasi-inbreng in een NV: wie kan dit doen?",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr1B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr1C",
+      "vraag_onderwerp": "Verlies van rechtspersoonlijkheid door een vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr1C.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr1D",
+      "vraag_onderwerp": "Uittreding en uitsluiting van aandeelhouders: statutaire regeling per rechtsvorm",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr1D.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr4A",
+      "vraag_onderwerp": "Stellingen juist of fout over ontbinding en vereffening van CV en BV",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr4A.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr4B",
+      "vraag_onderwerp": "Stellingen juist of fout over ontbinding en vereffening (verdere stellingen)",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr4B.json"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr4C",
+      "vraag_onderwerp": "Stellingen juist of fout over omzettingen van vennootschappen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr4C.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

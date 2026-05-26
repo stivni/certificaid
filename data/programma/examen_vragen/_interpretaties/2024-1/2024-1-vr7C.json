@@ -1,0 +1,58 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr7C",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "IAS/IFRS — stellingen over afschrijvingen, kosten en uitzonderlijke posten",
+  "programmaonderdeel_ids": ["1.1"],
+  "themas": ["ifrs", "IAS 16", "afschrijvingen", "degressieve afschrijving", "materiele vaste activa", "uitzonderlijke opbrengsten", "terreinkosten"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Stellingen met betrekking tot IAS/IFRS. Juist of fout?"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Degressieve afschrijvingen zijn toegestaan onder IAS/IFRS.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Kosten voor voorbereiding van een terrein……?",
+      "motivatie_verwacht": true,
+      "volledigheid": "fragment"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Uitzonderlijke opbrengsten boeken is toegestaan onder IAS/IFRS.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Afschrijving op materiële vaste activa mag stopgezet worden wanneer de reële waarde van het actief groter is dan de boekwaarde.",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. Vier stellingen over IAS/IFRS. Stelling b eindigt met '……?' — de vraagstelling is onvolledig in zowel tekst.txt als PNG; als fragment gemarkeerd. Afkorting 'Afschr. MVA' in stelling d uitgeschreven naar 'Afschrijving op materiële vaste activa' conform CLAUDE.md regel 8. Afkorting 'reële waarde' behouden als vakterm.",
+  "kwaliteits_flags": ["subvraag_zonder_inhoud"]
+}

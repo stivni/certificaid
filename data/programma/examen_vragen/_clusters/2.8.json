@@ -1,0 +1,63 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "2.8",
+  "gegenereerd_op": "2026-05-26T10:21:19+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 8,
+  "n_clusters": 0,
+  "n_singletons": 8,
+  "clusters": [],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr29",
+      "vraag_onderwerp": "Inkomstenbelasting grensoverschrijdende tewerkstelling: OESO-Modelverdrag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr29.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr30",
+      "vraag_onderwerp": "Toepasselijkheid Moeder-dochterrichtlijn en Interest-royaltyrichtlijn: Belgisch-Hongaarse situatie",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr30.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr30",
+      "vraag_onderwerp": "Italiaans bijkantoor: verwerking verlies/winst in Belgische Ven.B en dubbelbelastingverdrag",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr30.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr31",
+      "vraag_onderwerp": "Woonstaatheffing Luxemburg: aangifte in België en terugbetaling overschot",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr31.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr37",
+      "vraag_onderwerp": "Internationaal belastingrecht — vaste inrichting en OESO-modelovereenkomst: verliesaftrek en globale winst",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr37.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr38",
+      "vraag_onderwerp": "Fusie-richtlijn — aftrekbaarheid fiscale verliezen Belgische vennootschap na overname door Duitse vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr38.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr49",
+      "vraag_onderwerp": "OESO-modelverdrag: juist/niet waar stellingen over internationale belastingregels",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr49.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr50",
+      "vraag_onderwerp": "EU-fusierichtlijn 2009/133/EG: toepassing op overname door ivzw",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr50.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

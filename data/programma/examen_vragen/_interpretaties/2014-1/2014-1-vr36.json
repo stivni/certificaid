@@ -47,5 +47,14 @@
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar",
     "ocr_artefact"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

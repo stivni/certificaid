@@ -1,0 +1,381 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://certificaid.local/schemas/examenvraag-interpretatie-1.2.schema.json",
+  "title": "Certificaid examenvraag-interpretatie schema 1.2",
+  "description": "Canonical schema voor per-vraag interpretatie-artefacten onder data/programma/examen_vragen/_interpretaties/<examen_id>/<vraag_id>.json. Bron-van-waarheid voor validator, agent-prompt (prompts/vraag-interpretatie-v1.md) en schema-tests (tests/test_interpretatie_schema.py). Spec: ADR-024 §3. Veldnamen Nederlands; JSON-Schema-mechanica Engels. v1.2 voegt programmaonderdeel_ids toe (additief t.o.v. v1.1).",
+
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_versie",
+    "examen_id",
+    "vraag_id",
+    "interpretatie_datum",
+    "vraag_herkomst",
+    "vraag_onderwerp",
+    "themas",
+    "context_blokken",
+    "vragen",
+    "herinterpretatie_motivering",
+    "kwaliteits_flags",
+    "programmaonderdeel_ids"
+  ],
+
+  "properties": {
+    "schema_versie": {
+      "const": "1.2",
+      "description": "Vastgepind. Schema-bumps zijn breaking (geen impliciete migratie)."
+    },
+    "examen_id": {
+      "type": "string",
+      "pattern": "^[0-9]{4}(-[a-z0-9]+)?(-[0-9]+)?$",
+      "description": "Bv. '2024-1', '2008-bibf', '2013-2'."
+    },
+    "vraag_id": {
+      "type": "string",
+      "pattern": "^[0-9]{4}(-[a-z0-9]+)?(-[0-9]+)?-vr[A-Za-z0-9]+$",
+      "description": "Bv. '2024-1-vr7'. Komt overeen met de bestandsnaam zonder .json."
+    },
+    "interpretatie_datum": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO-8601 timestamp van wanneer de interpretatie-agent dit artefact heeft geproduceerd."
+    },
+    "interpretatie_model": {
+      "type": "string",
+      "description": "Optioneel: model-id van de interpretatie-agent (bv. 'claude-opus-4-7', 'claude-sonnet-4-6')."
+    },
+    "vraag_herkomst": {
+      "enum": ["officieel", "herinnering", "hybride"],
+      "description": "Officieel = ITAA/BIBF-bundel. Herinnering = stagiair-reconstructie. Hybride = officiële kop met herinnering-aanvullingen."
+    },
+    "vraag_onderwerp": {
+      "type": "string",
+      "minLength": 1,
+      "description": "H2-titel van de gerenderde vraag. Beschrijft de inhoudelijke scope. Zie ADR-024 §3 en CLAUDE.md regel 8 (geen afkortingen)."
+    },
+    "programmaonderdeel_ids": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 2,
+      "items": {
+        "type": "string",
+        "pattern": "^[1-4](\\.[0-9]+)?$"
+      },
+      "description": "Eén tot twee PO-codes (bv. ['1.5'] of ['1.6', '3.0']). Ingevuld via aparte classificatie-pass."
+    },
+    "themas": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "3–8 topic-keywords voor clustering/search/vraag-generatie. Vrije taxonomie, descriptief."
+    },
+    "context_blokken": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/context_blok" },
+      "description": "Gedeelde context voor de hele vraag-eenheid: casus-tekst, balans, tabellen, figuren. Mag leeg zijn."
+    },
+    "vragen": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/deelvraag" },
+      "description": "Eén of meer deelvragen binnen dezelfde context. Stellingen-set van N items = N juist_fout-deelvragen."
+    },
+    "antwoord_hint_in_vraag": {
+      "oneOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/antwoord_hint" }
+      ],
+      "description": "Vlag wanneer de bron een hint of stagiair-notitie bevat die er als antwoord uitziet. null als geen hint aanwezig."
+    },
+    "herinterpretatie_motivering": {
+      "type": "string",
+      "minLength": 21,
+      "description": "Korte motivering: welke OCR/herinnering-problemen je hebt opgelost, welke aannames je gemaakt hebt. Minimaal 21 karakters (schema-test enforces > 20)."
+    },
+    "kwaliteits_flags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "typo_genormaliseerd",
+          "ocr_artefact",
+          "subvraag_zonder_inhoud",
+          "tabel_in_pdf_zichtbaar",
+          "antwoord_hint_aanwezig",
+          "pagina_overslaat"
+        ]
+      },
+      "description": "Open enum — uitbreidbaar in prompts/vraag-interpretatie-v1.md §5."
+    },
+    "cluster_id": {
+      "type": "string",
+      "description": "ID van het cluster waar deze vraag toe behoort, bv. '1.4-c1'. Gestempeld door tools/examen/apply_cluster_review.py. Verwijst naar een cluster in data/programma/examen_vragen/_clusters/<po>.json."
+    },
+    "cluster_verdict": {
+      "type": "string",
+      "enum": ["echt_duplicaat", "varianten"],
+      "description": "Review-verdict van het cluster (alleen non-false-positive komen tot hier). Bepaalt of het antwoord wordt gedeeld (echt_duplicaat) of de unie van subsets moet dekken (varianten)."
+    },
+    "cluster_actie": {
+      "type": "string",
+      "enum": ["merge_one_antwoord", "behoud_apart_met_label"],
+      "description": "Aanbevolen actie voor de antwoord-pipeline: één gedeeld antwoord of aparte fiches met cluster-label."
+    },
+    "vision_review_nodig": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["actie", "signalen"],
+      "properties": {
+        "actie": {
+          "type": "string",
+          "enum": ["vision_review_aanbevolen", "png_read_in_antwoord_pas"]
+        },
+        "signalen": {
+          "type": "array",
+          "items": { "type": "object" }
+        }
+      },
+      "description": "Gezet door tools/examen/detect_visuele_vragen.py wanneer de vraag visuele content heeft (tabel/schema/figuur). De antwoord-pipeline moet PNG-Read uitvoeren bij vragen met deze flag."
+    }
+  },
+
+  "$defs": {
+
+    "deelvraag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "vraagtype", "motivatie_verwacht", "volledigheid"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Lokaal stabiele id binnen de vraag. Lowercase letter ('a', 'b') of 'i1', 'i2'. Uniek binnen vragen[]."
+        },
+        "label_in_pdf": {
+          "type": ["string", "null"],
+          "description": "Display-label zoals in de PDF (mag uppercase zijn, bv. 'A', 'A.1', 'B'). Niet gebruikt voor groepering — alleen weergave. null als de PDF geen letter-label heeft."
+        },
+        "vraagtype": {
+          "enum": ["open", "mc_keuze", "juist_fout", "onbekend"],
+          "description": "Vraag-mechaniek, niet antwoord-vorm. 'onbekend' alleen bij topic_only waar het type echt onduidelijk is."
+        },
+        "vraagstelling": {
+          "oneOf": [
+            { "type": "null" },
+            { "type": "string", "minLength": 1 }
+          ],
+          "description": "De vraagtekst. null bij topic_only. Bij volledig/fragment: non-empty string."
+        },
+        "opties": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "tekst"],
+            "properties": {
+              "id":    { "type": "string", "pattern": "^[a-z]$" },
+              "tekst": { "type": "string", "minLength": 1 }
+            }
+          },
+          "description": "MC-opties — vereist bij vraagtype mc_keuze. Optie-ids uniek binnen de deelvraag."
+        },
+        "motivatie_verwacht": {
+          "type": "boolean",
+          "description": "Orthogonaal aan vraagtype. true als de vraagstelling expliciet om motivering vraagt of bij J/F+motiveer (standaard ITAA-patroon)."
+        },
+        "volledigheid": {
+          "enum": ["volledig", "fragment", "topic_only"],
+          "description": "Volledig = alle nodige elementen aanwezig. Fragment = vraagstelling aanwezig, één of meer elementen ontbreken. Topic_only = alleen onderwerp bekend."
+        },
+        "topic_only_onderwerp": {
+          "type": ["string", "null"],
+          "description": "Korte beschrijving van het topic — verplicht (non-null, non-empty) bij volledigheid topic_only. Bij overige volledigheid-waardes meestal null of weggelaten."
+        }
+      },
+
+      "allOf": [
+        {
+          "if": { "properties": { "vraagtype": { "const": "mc_keuze" } }, "required": ["vraagtype"] },
+          "then": { "required": ["opties"] }
+        },
+        {
+          "if": { "properties": { "volledigheid": { "const": "topic_only" } }, "required": ["volledigheid"] },
+          "then": {
+            "required": ["topic_only_onderwerp"],
+            "properties": {
+              "vraagstelling": { "type": "null" },
+              "topic_only_onderwerp": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "volledigheid": { "enum": ["volledig", "fragment"] } },
+            "required": ["volledigheid"]
+          },
+          "then": {
+            "required": ["vraagstelling"],
+            "properties": { "vraagstelling": { "type": "string", "minLength": 1 } }
+          }
+        }
+      ]
+    },
+
+    "antwoord_hint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["tekst", "vermoedelijke_status"],
+      "properties": {
+        "tekst": {
+          "type": "string",
+          "minLength": 1,
+          "description": "De hint-tekst zoals in de bron, verwijderd uit vraagstelling."
+        },
+        "vermoedelijke_status": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Bv. 'stagiair-notitie van eigen antwoord', 'voorbeeld-berekening in vraag'."
+        },
+        "deelvraag_id": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optioneel — id van de deelvraag waaraan de hint hoort. Moet matchen met een vragen[].id."
+        },
+        "aanwezig": {
+          "type": "boolean",
+          "description": "Legacy-veld in sommige bestaande artefacten. Niet meer schrijven in nieuwe interpretaties."
+        }
+      }
+    },
+
+    "context_blok": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "enum": [
+            "casus_context",
+            "bijlage_verwijzing",
+            "tabel",
+            "gegevens_tabel",
+            "balans",
+            "resultatenrekening",
+            "proef_saldibalans",
+            "rekeningstaat",
+            "inventaris",
+            "marktwaarde",
+            "aanpassing",
+            "formule",
+            "figuur",
+            "tekst"
+          ]
+        }
+      },
+
+      "allOf": [
+        {
+          "if": { "properties": { "type": { "const": "balans" } }, "required": ["type"] },
+          "then": {
+            "required": ["actief", "passief"],
+            "properties": {
+              "actief":  { "$ref": "#/$defs/tabel_subblok" },
+              "passief": { "$ref": "#/$defs/tabel_subblok" }
+            }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "gegevens_tabel" } }, "required": ["type"] },
+          "then": {
+            "required": ["titel", "rijen"],
+            "properties": {
+              "titel": { "type": "string", "minLength": 1 },
+              "rijen": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": ["label", "bedrag"],
+                  "properties": {
+                    "label":  { "type": "string", "minLength": 1 },
+                    "bedrag": { "type": ["number", "null"] }
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": ["tabel", "resultatenrekening", "proef_saldibalans", "rekeningstaat", "inventaris", "marktwaarde", "aanpassing"]
+              }
+            },
+            "required": ["type"]
+          },
+          "then": {
+            "required": ["headers", "rows"],
+            "properties": {
+              "headers": { "type": "array", "items": { "type": "string" } },
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": { "type": ["string", "number", "null"] }
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "type": { "enum": ["casus_context", "tekst", "bijlage_verwijzing", "formule"] } },
+            "required": ["type"]
+          },
+          "then": {
+            "required": ["tekst"],
+            "properties": { "tekst": { "type": "string", "minLength": 1 } }
+          }
+        },
+        {
+          "if": { "properties": { "type": { "const": "figuur" } }, "required": ["type"] },
+          "then": {
+            "anyOf": [
+              { "required": ["beschrijving"] },
+              { "required": ["pad"] }
+            ],
+            "properties": {
+              "beschrijving": { "type": "string", "minLength": 1 },
+              "pad":          { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      ]
+    },
+
+    "tabel_subblok": {
+      "type": "object",
+      "required": ["headers", "rows"],
+      "properties": {
+        "headers": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": { "type": ["string", "number", "null"] }
+          }
+        }
+      },
+      "description": "Sub-tabel binnen een balans-blok: aparte tabellen voor actief en passief."
+    }
+  }
+}

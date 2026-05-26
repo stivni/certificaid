@@ -1,0 +1,57 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr8",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "headers": ["Relatie", "Controle%", "Belang%", "Consolidatiemethode"],
+          "rows": [
+            ["M in A", "70 %", "70 %", "Volledige consolidatie"],
+            ["M in B", "60 %", "48 %", "Volledige consolidatie"],
+            ["M in C", "30 %", "30 %", "Vermogensmutatiemethode"]
+          ],
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Rekenregels**:\n- **Controlepercentage**: directe stemrechten van de moeder + 100 % van de stemrechten die exclusief gecontroleerde dochters in de doelvennootschap houden (WVV art. 1:16 §1, 1°: onrechtstreekse bevoegdheid via een dochter wordt bij de rechtstreekse bevoegdheid geteld — geen vermenigvuldiging, controle is binair). ⚖️\n- **Belangenpercentage**: som van directe en indirecte deelnemingen, waarbij indirecte deelnemingen langs de keten worden **vermenigvuldigd**. ⚖️\n- **Methode**: exclusieve controle (> 50 % stemrechten of in feite) → volledige consolidatie; invloed van betekenis (vermoeden ≥ 20 % en < 50 %) → vermogensmutatiemethode. ⚖️\n\n**M in A** — directe deelneming 70 % > 50 % → exclusieve controle; belang = 70 %.\n\n**M in B** — M heeft géén directe deelneming in B. A controleert B exclusief (60 %) en M controleert A exclusief (70 %), dus de 60 % van A in B telt volledig mee voor het controlepercentage van M in B. Belang = (70 % × 60 %) + (30 % × 20 %) = 42 % + 6 % = 48 %.\n\n**M in C** — directe deelneming 30 %: tussen 20 % en 50 %, dus geen exclusieve controle maar wel vermoeden van invloed van betekenis; belang = 30 %.",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De 20 % die C in B houdt telt **niet** mee voor het controlepercentage van M in B. Reden: M controleert C niet exclusief (slechts 30 % — invloed van betekenis, geen controle in de zin van WVV art. 1:14). Onrechtstreekse controle via een geassocieerde onderneming wordt niet bij de rechtstreekse controle opgeteld — art. 1:16 §1, 1° spreekt expliciet over de onrechtstreekse bevoegdheid via een **dochter**vennootschap. De 20 % telt wel mee voor het **belang**enpercentage (want belang = economische deelneming, ongeacht controle): 30 % × 20 % = 6 %, samen met 70 % × 60 % = 42 % geeft dat 48 %. 🤖",
+          "confidence": "inferred",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Controle = bevoegdheid in rechte of in feite tot beslissende invloed op de aanstelling van de meerderheid van bestuurders/zaakvoerders of op de oriëntatie van het beleid (WVV art. 1:14). Exclusieve controle = controle alleen of samen met dochtervennootschappen (WVV art. 1:17). Bij vaststelling van de controlebevoegdheid wordt de onrechtstreekse bevoegdheid via een dochter bij de rechtstreekse bevoegdheid geteld (WVV art. 1:16 §1, 1°). Vermogensmutatiemethode geldt voor geassocieerde ondernemingen (invloed van betekenis, vermoeden ≥ 20 % stemrechten) — KB WVV art. 3:152; CBN-advies 2022/11. ⚖️",
+          "wetsref": "WVV art. 1:14, 1:16 §1, 1°, 1:17; KB WVV art. 3:142, 3:152",
+          "confidence": "grounded",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/MvT-WVV-2018.md",
+            "resources/bronnen/adviezen/CBN-2022-11-vermogensmutatiemethode.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

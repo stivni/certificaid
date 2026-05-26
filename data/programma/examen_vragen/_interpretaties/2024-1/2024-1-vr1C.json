@@ -1,0 +1,54 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr1C",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Verlies van rechtspersoonlijkheid door een vennootschap",
+  "programmaonderdeel_ids": [
+    "3.0"
+  ],
+  "themas": [
+    "rechtspersoonlijkheid",
+    "ontbinding",
+    "vereffening",
+    "publicatie",
+    "WVV",
+    "vennootschap"
+  ],
+  "context_blokken": [],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "C",
+      "vraagtype": "mc_keuze",
+      "vraagstelling": "Wanneer verliest een vennootschap haar rechtspersoonlijkheid?",
+      "opties": [
+        {
+          "id": "a",
+          "tekst": "Bij ontbinding"
+        },
+        {
+          "id": "b",
+          "tekst": "Bij publicatie van de ontbinding"
+        },
+        {
+          "id": "c",
+          "tekst": "Bij de afsluit van de vereffening"
+        },
+        {
+          "id": "d",
+          "tekst": "Bij akkoord van de vennoten"
+        }
+      ],
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. De PNG bevestigt de vier opties A-D zoals weergegeven in tekst.txt. Vraagstelling is gereconstrueerd uit de koptekst ('Vennootschap verliest rechtspersoonlijkheid:') omdat de bron geen expliciete vraagtekst bevat maar de opties structuur duidelijk MC maakt. Dubbele letter-labels (A. a., B. b., etc.) zijn genormaliseerd naar enkelvoudige optie-labels.",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd"
+  ]
+}

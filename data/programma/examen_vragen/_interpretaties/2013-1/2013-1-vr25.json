@@ -53,5 +53,14 @@
   "herinterpretatie_motivering": "Pagina 2. De modelaangifte (roosters) staat in bijlage. Antwoordtabellen met ROOSTER / NR / BEDRAG staan in de tekst als antwoordsjabloon — dit zijn invulvakken, geen antwoorden. Tekst.txt trunceert deelvraag a-tekst licht; volledige tekst gereconstrueerd.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

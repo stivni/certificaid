@@ -184,5 +184,14 @@
   "herinterpretatie_motivering": "Zeven maatregelen elk te classificeren als preventief/repressief/corrigerend. Elke maatregel is een aparte deelvraag met dezelfde drie opties. Matchingstructuur in tabel-formaat in de PDF.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

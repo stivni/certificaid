@@ -157,5 +157,30 @@
   "herinterpretatie_motivering": "Balans uit tekst.txt was als één tabel met ACTIEF/PASSIEF naast elkaar gerenderd; opgesplitst in twee aparte sub-tabellen conform v1.1. Resultaatverwerkingen 2011 en 2012 als gegevens_tabel-blokken gestructureerd. Te bestemmen winst/verlies regel uit de resultatenrekening als aparte gegevens_tabel-blok (geen volledige resultatenrekening zichtbaar in PDF — enkel die ene regel).",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "balans"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

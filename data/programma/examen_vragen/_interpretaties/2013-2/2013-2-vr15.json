@@ -174,5 +174,22 @@
   "herinterpretatie_motivering": "Twee balansen uit de tekst gestructureerd als aparte balans-blokken. De vraag vraagt per situatie of de alarmbelprocedure van toepassing is + uitleg. Gemodelleerd als twee open deelvragen met motivatie_verwacht:true.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "balans"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "balans"
+      }
+    ]
+  }
 }

@@ -88,5 +88,18 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 2. Enkelvoudige berekeningsvraag. Alle gegevens staan in de casus. Commissieloon bemiddelaar is relevant voor netto-ontvangst maar niet voor bruto-meerwaarden. De 50/50-verhouding beroep/privé en de aankoopprijs 1985 zijn relevant voor de berekening per bestanddeel.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

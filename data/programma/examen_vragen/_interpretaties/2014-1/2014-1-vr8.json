@@ -21,7 +21,70 @@
   "context_blokken": [
     {
       "type": "casus_context",
-      "tekst": "Vul onderstaande tabel aan op basis van volgende gegevens. Groepsstructuur: M heeft 70% in A en 30% in B. A heeft 60% in B. B heeft 20% in C. (zie schema in PNG)"
+      "tekst": "Vul onderstaande tabel aan op basis van volgende gegevens. De groepsstructuur is weergegeven in het schema hieronder; de in te vullen antwoord-tabel staat eronder."
+    },
+    {
+      "type": "groepsschema",
+      "kop": "Groepsstructuur",
+      "knopen": [
+        "M",
+        "A",
+        "B",
+        "C"
+      ],
+      "relaties": [
+        {
+          "van": "M",
+          "naar": "A",
+          "percentage": "70 %"
+        },
+        {
+          "van": "M",
+          "naar": "C",
+          "percentage": "30 %"
+        },
+        {
+          "van": "A",
+          "naar": "B",
+          "percentage": "60 %"
+        },
+        {
+          "van": "C",
+          "naar": "B",
+          "percentage": "20 %"
+        }
+      ],
+      "beschrijving": "M staat bovenaan en houdt rechtstreeks 70 % in A en 30 % in C. A houdt 60 % in B; C houdt 20 % in B."
+    },
+    {
+      "type": "tabel",
+      "kop": "In te vullen tabel",
+      "headers": [
+        "",
+        "CONTROLEPERCENTAGE",
+        "BELANGENPERCENTAGE",
+        "CONSOLIDATIEMETHODE"
+      ],
+      "rows": [
+        [
+          "M IN A",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M IN B",
+          "",
+          "",
+          ""
+        ],
+        [
+          "M IN C",
+          "",
+          "",
+          ""
+        ]
+      ]
     }
   ],
   "vragen": [
@@ -35,8 +98,29 @@
     }
   ],
   "antwoord_hint_in_vraag": null,
-  "herinterpretatie_motivering": "Open invuloefening met tabelstructuur. PNG pagina_07 toont het groepsschema duidelijk: M→A (70%), M→B (30%), A→B (60%), B→C (20%). De antwoordtabel heeft kolommen CONTROLEPERCENTAGE, BELANGENPERCENTAGE, CONSOLIDATIEMETHODE voor de relaties M in A, M in B en M in C. Dit is één geïntegreerde open deelvraag. Pagina's 8-12 bevatten de andere vragen van het examen.",
-  "kwaliteits_flags": [
-    "tabel_in_pdf_zichtbaar"
-  ]
+  "herinterpretatie_motivering": "Open invuloefening met tabelstructuur. PNG pagina_07 toont het groepsschema duidelijk: M→A (70%), M→C (30%), A→B (60%), C→B (20%). De antwoordtabel heeft kolommen CONTROLEPERCENTAGE, BELANGENPERCENTAGE, CONSOLIDATIEMETHODE voor de relaties M in A, M in B en M in C. Dit is één geïntegreerde open deelvraag. Pagina's 8-12 bevatten de andere vragen van het examen. v2 herinterpretatie 2026-05-26: tabel + schema gereconstrueerd uit pagina_07.png (eerdere tekst-beschrijving 'M heeft 30% in B' en 'B heeft 20% in C' was foutief — pijlen op het schema lopen M→C en C→B).",
+  "kwaliteits_flags": [],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "context_blok",
+        "waarde": "groepsschema"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "tabel"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "vul_tabel_aan",
+        "veld": "casus_context"
+      },
+      {
+        "type": "tekst_patroon",
+        "patroon": "het_schema_de_fig",
+        "veld": "casus_context"
+      }
+    ]
+  }
 }

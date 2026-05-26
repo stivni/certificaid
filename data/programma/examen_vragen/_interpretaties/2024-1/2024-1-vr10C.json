@@ -1,0 +1,33 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr10C",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Rangschikking van rubrieken op het Passief van de Balans",
+  "programmaonderdeel_ids": ["1.2"],
+  "themas": ["balansstructuur", "passief", "rubrieken", "eisbaarheid", "jaarrekening", "balansanalyse"],
+
+  "context_blokken": [],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "C",
+      "vraagtype": "open",
+      "vraagstelling": "In welke volgorde zijn de rubrieken op het Passief van de Balans gerangschikt?",
+      "motivatie_verwacht": false,
+      "volledigheid": "fragment"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": {
+    "deelvraag_id": "a",
+    "tekst": "Toenemende eisbaarheid",
+    "vermoedelijke_status": "stagiair-notitie van eigen antwoord"
+  },
+  "herinterpretatie_motivering": "Herinnering-fragment. Tekst.txt en PNG bevatten 'Toenemende eisbaarheid' direct na de vraagstelling — dit is een antwoord-hint (stagiair-notitie) en geen onderdeel van de vraag zelf. Verwijderd uit vraagstelling en opgenomen in antwoord_hint_in_vraag conform §4.3. MC-opties zijn niet bewaard → volledigheid=fragment. Vraagtype gewijzigd naar open omdat schema 1.2 opties[] vereist bij mc_keuze — zonder bewaard opties-set is open de eerlijkste weergave.",
+  "kwaliteits_flags": ["antwoord_hint_aanwezig", "subvraag_zonder_inhoud"]
+}

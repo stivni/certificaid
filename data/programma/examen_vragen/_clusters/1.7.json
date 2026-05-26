@@ -1,0 +1,117 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "1.7",
+  "gegenereerd_op": "2026-05-26T10:20:50+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 14,
+  "n_clusters": 1,
+  "n_singletons": 12,
+  "clusters": [
+    {
+      "cluster_id": "1.7-c1",
+      "voorlopige_label": "Procedure met functiescheiding voor kasbetalingen kleine kosten",
+      "n_voorkomens": 2,
+      "voorkomens": [
+        {
+          "examen_id": "2013-1",
+          "vraag_id": "2013-1-vr9",
+          "vraag_onderwerp": "Procedure met functiescheiding voor kasbetalingen kleine kosten",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr9.json"
+        },
+        {
+          "examen_id": "2014-1",
+          "vraag_id": "2014-1-vr11",
+          "vraag_onderwerp": "Interne controle — procedure opstellen voor terugbetaling kleine kosten met functiescheiding",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr11.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2013-1-vr9",
+          "naar": "2014-1-vr11",
+          "cosine": 0.8804
+        }
+      ],
+      "verdict": "echt_duplicaat",
+      "actie": "merge_one_antwoord",
+      "motivering": "Identieke vraag: 'Stel een procedure op voor kasbetalingen/terugbetaling kleine kosten met minimaal twee controletechnische functiescheidingen.' Casus verschilt cosmetisch (BVBA vs onkostennota's), procedure-antwoord is identiek."
+    }
+  ],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr10",
+      "vraag_onderwerp": "Analytische test op tussentijdse resultaten door de interne controleafdeling",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr10.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr11",
+      "vraag_onderwerp": "Belang van een budget voor de interne controleafdeling",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr11.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr12",
+      "vraag_onderwerp": "Externe bevestiging bij leveranciers door interne controleafdeling",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr12.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr13",
+      "vraag_onderwerp": "Interne controlemaatregelen bij vastgestelde onregelmatigheden door boekhouder",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr13.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr8",
+      "vraag_onderwerp": "Doelstellingen van interne controle",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr8.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr10",
+      "vraag_onderwerp": "Functiescheiding: indeling van activiteiten naar soort taak",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr10.json"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr12",
+      "vraag_onderwerp": "Interne controle: preventieve, repressieve en corrigerende maatregelen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr12.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr10",
+      "vraag_onderwerp": "Interne controle — risico's detecteren bij aanmaken klantenfiches door verkoopafdeling",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr10.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr9",
+      "vraag_onderwerp": "Interne controle — doelstellingen boekhoudkundige registratie: juist of fout",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr9.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr12",
+      "vraag_onderwerp": "Begripsverklaring controleactiviteiten: soorten en voorbeelden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr12.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr13",
+      "vraag_onderwerp": "Controletechnieken interne audit op goederenbestand magazijn",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr13.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr14",
+      "vraag_onderwerp": "Operationele audit verkoopcyclus: classificatie doelstellingen naar financieel/operationeel/conformiteit",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr14.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

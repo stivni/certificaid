@@ -76,5 +76,18 @@
   "herinterpretatie_motivering": "Twee open berekening-deelvragen. Deelvraag a vraagt expliciet een verantwoording, vandaar motivatie_verwacht: true. De eigenvermogenstabel bevat drie componenten van het geplaatste kapitaal voor 2012 en 2011 — gereconstrueerd voor 2012 op basis van de tekst.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

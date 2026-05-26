@@ -66,5 +66,14 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Pagina 4. De aangifte-bijlage staat in bijlage van het examen. Deelvraag b vereist het invullen van formuliervakjes.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

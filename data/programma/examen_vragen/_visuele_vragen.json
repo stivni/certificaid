@@ -1,0 +1,1040 @@
+{
+  "schema_versie": "1.0",
+  "gegenereerd_op": "2026-05-26T10:51:40+00:00",
+  "po_filter": null,
+  "n_totaal_vragen_gescand": 291,
+  "n_met_signaal": 50,
+  "n_sterk_signaal": 50,
+  "n_zwak_signaal": 0,
+  "vragen": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrA2",
+      "vraag_onderwerp": "Afsluitingsboekingen voor voorraden met waardeverminderingen",
+      "programmaonderdeel_ids": [
+        "1.1"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrA2.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrA3",
+      "vraag_onderwerp": "Boeking van voorraadwijzigingen",
+      "programmaonderdeel_ids": [
+        "1.1"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrA3.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr2",
+      "vraag_onderwerp": "Boekingen bij kapitaaloperaties en buitenlandse vaste inrichting",
+      "programmaonderdeel_ids": [
+        "1.1"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr2.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr1",
+      "vraag_onderwerp": "Boekhoudkundige verwerking van software-aankopen",
+      "programmaonderdeel_ids": [
+        "1.1"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr1.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "kruis_aan",
+          "veld": "casus_context"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr3",
+      "vraag_onderwerp": "Goodwill (meerprijs bij overname): rubricering en afschrijvingstermijn",
+      "programmaonderdeel_ids": [
+        "1.1"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr3.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr1",
+      "vraag_onderwerp": "Vastklikken van reserves — verwerking in jaarrekening bij liquidatiereserve-maatregel",
+      "programmaonderdeel_ids": [
+        "1.1"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr1.json",
+      "signalen": [
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr7",
+      "vraag_onderwerp": "Boekhoudkundige verwerking voorschot op liquidatiesaldo bij vereffening bvba",
+      "programmaonderdeel_ids": [
+        "1.1"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr7.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr1",
+      "vraag_onderwerp": "Verantwoording van de waarderingsregels in jaarverslag of jaarrekening",
+      "programmaonderdeel_ids": [
+        "1.2"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr1.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr19",
+      "vraag_onderwerp": "Jaarrekening — volledig of verkort schema bij verbonden vennootschappen",
+      "programmaonderdeel_ids": [
+        "1.2"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr19.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr4",
+      "vraag_onderwerp": "Berekening van financiële ratio's op basis van de jaarrekening",
+      "programmaonderdeel_ids": [
+        "1.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr4.json",
+      "signalen": [
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr5",
+      "vraag_onderwerp": "Financiële ratio's berekenen op basis van jaarrekening — toegevoegde waarde, nettobedrijfskapitaal, rentabiliteit, liquiditeit",
+      "programmaonderdeel_ids": [
+        "1.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr5.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "kruis_aan",
+          "veld": "casus_context"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr10",
+      "vraag_onderwerp": "Behoefte aan werkkapitaal: selectie van balansposten",
+      "programmaonderdeel_ids": [
+        "1.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr10.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr8",
+      "vraag_onderwerp": "Berekening financiële ratio's op basis van jaarrekening",
+      "programmaonderdeel_ids": [
+        "1.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr8.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "zie_bijlage",
+          "veld": "casus_context"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "op_basis_van_de_bal",
+          "veld": "casus_context"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr8",
+      "vraag_onderwerp": "Consolidatie — controlepercentage, belangenpercentage en consolidatiemethode bepalen",
+      "programmaonderdeel_ids": [
+        "1.4"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr8.json",
+      "signalen": [
+        {
+          "type": "context_blok",
+          "waarde": "groepsschema"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "tabel"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "vul_tabel_aan",
+          "veld": "casus_context"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "het_schema_de_fig",
+          "veld": "casus_context"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr17",
+      "vraag_onderwerp": "Controleverslag bij ontbinding: correcties op staat activa-passiva, controlesoort, ontbinding in één akte",
+      "programmaonderdeel_ids": [
+        "1.6"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr17.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr19",
+      "vraag_onderwerp": "Omzettingsopdracht CVBA naar BVBA: onafhankelijkheid, correcties actief en verslag",
+      "programmaonderdeel_ids": [
+        "1.6",
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr19.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "kruis_aan",
+          "veld": "vraagstelling-a"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr17",
+      "vraag_onderwerp": "Controledoelstellingen en -technieken op debet lopende rekening bij omzetting",
+      "programmaonderdeel_ids": [
+        "1.6"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr17.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr18",
+      "vraag_onderwerp": "Controle na voorraadtelling en behandeling handelsvorderingsverschil",
+      "programmaonderdeel_ids": [
+        "1.6"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr18.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr10",
+      "vraag_onderwerp": "Functiescheiding: indeling van activiteiten naar soort taak",
+      "programmaonderdeel_ids": [
+        "1.7"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr10.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "het_schema_de_fig",
+          "veld": "casus_context"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr12",
+      "vraag_onderwerp": "Interne controle: preventieve, repressieve en corrigerende maatregelen",
+      "programmaonderdeel_ids": [
+        "1.7"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr12.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr14",
+      "vraag_onderwerp": "Operationele audit verkoopcyclus: classificatie doelstellingen naar financieel/operationeel/conformiteit",
+      "programmaonderdeel_ids": [
+        "1.7"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr14.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrC1",
+      "vraag_onderwerp": "Financieel beheer: berekening liquiditeits- en solvabiliteitsratio's",
+      "programmaonderdeel_ids": [
+        "1.9"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrC1.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrC2",
+      "vraag_onderwerp": "Berekening van de operationele cash-flow",
+      "programmaonderdeel_ids": [
+        "1.9"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrC2.json",
+      "signalen": [
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrF1",
+      "vraag_onderwerp": "Personenbelasting: belastbare basis bedrijfsleider (Vak II)",
+      "programmaonderdeel_ids": [
+        "2.2"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrF1.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrF3",
+      "vraag_onderwerp": "Berekening belastingvoordeel dienstencheques voor een echtpaar",
+      "programmaonderdeel_ids": [
+        "2.2"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrF3.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr20",
+      "vraag_onderwerp": "Berekening stopzettingsmeerwaarden en aanslagvoet bij overlating handelszaak",
+      "programmaonderdeel_ids": [
+        "2.2"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr20.json",
+      "signalen": [
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2024-1",
+      "vraag_id": "2024-1-vr8E",
+      "vraag_onderwerp": "Besmette verworpen uitgaven — DBI-verrekening buiten EER",
+      "programmaonderdeel_ids": [
+        "2.2"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2024-1/2024-1-vr8E.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrG1",
+      "vraag_onderwerp": "Vennootschapsbelasting: invullen aangifte en belastbare basis BVBA Albert",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrG1.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrG1",
+      "vraag_onderwerp": "Belastbare basis vennootschapsbelasting: fiscale aangifte voor KMO Green",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrG1.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr22",
+      "vraag_onderwerp": "Fiscale gevolgen van een fout geboekte aankoopfactuur op voorraadwaardering",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr22.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr23",
+      "vraag_onderwerp": "Invullen aangifte vennootschapsbelasting: voorzieningen grote herstellingen",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr23.json",
+      "signalen": [
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr24",
+      "vraag_onderwerp": "Berekening belastbare grondslag vennootschapsbelasting: voordelen alle aard firmawagens",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr24.json",
+      "signalen": [
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr24",
+      "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat, Ven.B en overdrachten",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr24.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr25",
+      "vraag_onderwerp": "Vennootschapsbelasting: aandelenportefeuille, DBI en belastbaar resultaat",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr25.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr29",
+      "vraag_onderwerp": "Vennootschapsbelasting — verworpen uitgaven en fiscaal gestort kapitaal",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr29.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr33",
+      "vraag_onderwerp": "Vennootschapsbelasting: belastbaar resultaat en toepasselijke tarieven beleggingsportefeuille",
+      "programmaonderdeel_ids": [
+        "2.3"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr33.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr25",
+      "vraag_onderwerp": "BTW-aangifte roosters invullen: stopzetting, dienst buitenland, intracommunautaire overbrenging",
+      "programmaonderdeel_ids": [
+        "2.4"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr25.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr27",
+      "vraag_onderwerp": "Registratierechten: verplichte registratie, verantwoordelijke, termijn en belastbare grondslag",
+      "programmaonderdeel_ids": [
+        "2.6"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr27.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr28",
+      "vraag_onderwerp": "Successierechten Luik: passief nalatenschap — aangenomen of niet",
+      "programmaonderdeel_ids": [
+        "2.6"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr28.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr36",
+      "vraag_onderwerp": "Erfrecht/successierecht — hoedanigheid begiftigden en aangifte nalatenschap",
+      "programmaonderdeel_ids": [
+        "2.6"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr36.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr38",
+      "vraag_onderwerp": "Fusie-richtlijn — aftrekbaarheid fiscale verliezen Belgische vennootschap na overname door Duitse vennootschap",
+      "programmaonderdeel_ids": [
+        "2.8"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr38.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr14",
+      "vraag_onderwerp": "Vennootschapsrecht: aandelen bij overlijden, vordering oninvorderbaar, oprichting S-BVBA",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr14.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr15",
+      "vraag_onderwerp": "Alarmbelprocedure BVBA: toepasbaarheid in twee situaties",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr15.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2013-2",
+      "vraag_id": "2013-2-vr17",
+      "vraag_onderwerp": "Vennootschapsvormen: kenmerken per vennootschapsvorm",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr17.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "kruis_aan",
+          "veld": "casus_context"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "het_schema_de_fig",
+          "veld": "casus_context"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr15",
+      "vraag_onderwerp": "Vennootschapsvormen — kenmerken per vennootschapsvorm invullen (aansprakelijkheid, winstbewijzen, neerlegging, financieel plan)",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr15.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "kruis_aan",
+          "veld": "casus_context"
+        },
+        {
+          "type": "tekst_patroon",
+          "patroon": "het_schema_de_fig",
+          "veld": "casus_context"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr16",
+      "vraag_onderwerp": "Toegestaan kapitaal — advies bij kapitaalverhoging door inlijving beschikbare reserves",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr16.json",
+      "signalen": [
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr18",
+      "vraag_onderwerp": "Interimdividend — voorwaarden en procedure voor NV",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr18.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr21",
+      "vraag_onderwerp": "Omzetting VOF naar BVBA — controleverslag bij faillissement debiteur",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr21.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr20",
+      "vraag_onderwerp": "Alarmbelprocedure bvba: advies bij verlies dat geplaatst kapitaal aantast",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr20.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "balans"
+        },
+        {
+          "type": "context_blok",
+          "waarde": "gegevens_tabel"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr27",
+      "vraag_onderwerp": "Opdracht externe accountant bij omzetting NV naar BVBA: juist/fout stellingen",
+      "programmaonderdeel_ids": [
+        "3.0"
+      ],
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr27.json",
+      "signalen": [
+        {
+          "type": "kwaliteits_flag",
+          "waarde": "tabel_in_pdf_zichtbaar"
+        }
+      ],
+      "aanbevolen_actie": "vision_review_aanbevolen"
+    }
+  ]
+}

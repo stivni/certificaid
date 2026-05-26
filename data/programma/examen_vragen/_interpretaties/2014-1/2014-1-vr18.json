@@ -134,5 +134,26 @@
   "herinterpretatie_motivering": "Enkelvoudige MC met 5 opties over interimdividend-procedure voor een NV zonder commissaris. De drie gegevenstabellen zijn gereconstrueerd vanuit tekst.txt, PNG pagina_04 bevestigt de nummers.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "gegevens_tabel"
+      }
+    ]
+  }
 }

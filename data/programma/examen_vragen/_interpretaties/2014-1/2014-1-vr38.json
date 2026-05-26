@@ -46,5 +46,14 @@
   "herinterpretatie_motivering": "Twee deelvragen. Deelvraag a bevat drie ja/neen-sub-scenario's — weergegeven als één open deelvraag met de drie scenario's uitgeschreven in de vraagstelling. De drie afzonderlijke ja/neen-tabellen in tekst.txt zijn fusie-scenario's binnen één vraag.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

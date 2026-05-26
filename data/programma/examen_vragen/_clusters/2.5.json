@@ -1,0 +1,146 @@
+{
+  "schema_versie": "1.0",
+  "po_code": "2.5",
+  "gegenereerd_op": "2026-05-26T10:21:13+00:00",
+  "embedding_model": "BAAI/bge-m3",
+  "threshold_cosine": 0.8,
+  "n_vragen": 16,
+  "n_clusters": 2,
+  "n_singletons": 12,
+  "clusters": [
+    {
+      "cluster_id": "2.5-c1",
+      "voorlopige_label": "Fiscale procedure: vraag om inlichtingen over een derde, regelmatigheid en termijn",
+      "n_voorkomens": 2,
+      "voorkomens": [
+        {
+          "examen_id": "2013-2",
+          "vraag_id": "2013-2-vr32",
+          "vraag_onderwerp": "Fiscale procedure: vraag om inlichtingen over een derde, regelmatigheid en termijn",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr32.json"
+        },
+        {
+          "examen_id": "2014-1",
+          "vraag_id": "2014-1-vr39",
+          "vraag_onderwerp": "Fiscale procedure — vraag om inlichtingen van derden: regelmatigheid, termijn en overmacht",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr39.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2013-2-vr32",
+          "naar": "2014-1-vr39",
+          "cosine": 0.8859
+        }
+      ],
+      "verdict": "echt_duplicaat",
+      "actie": "merge_one_antwoord",
+      "motivering": "Identieke 3-delige vraag over vraag om inlichtingen aan derde: regelmatigheid, antwoordtermijn, overmachtsoplossing. Alleen het overmacht-scenario verschilt (staking vs wateroverlast) — juridisch antwoord identiek."
+    },
+    {
+      "cluster_id": "2.5-c2",
+      "voorlopige_label": "Bezwaarrecht: vier stellingen over wie bezwaar kan indienen",
+      "n_voorkomens": 2,
+      "voorkomens": [
+        {
+          "examen_id": "2013-2",
+          "vraag_id": "2013-2-vr33",
+          "vraag_onderwerp": "Bezwaarrecht: vier stellingen over wie bezwaar kan indienen",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-2/2013-2-vr33.json"
+        },
+        {
+          "examen_id": "2014-1",
+          "vraag_id": "2014-1-vr40",
+          "vraag_onderwerp": "Fiscale procedure — bezwaar: roerende voorheffing, ambtshalve aanslag, erfgenamen, ex-echtgenoot",
+          "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr40.json"
+        }
+      ],
+      "interne_scores": [
+        {
+          "van": "2013-2-vr33",
+          "naar": "2014-1-vr40",
+          "cosine": 0.957
+        }
+      ],
+      "verdict": "echt_duplicaat",
+      "actie": "merge_one_antwoord",
+      "motivering": "Vier identieke stellingen over bezwaarrecht (roerende voorheffing, erfgenamen, ex-echtgenoot, ambtshalve aanslag). Volgorde verschilt, tekst woord-voor-woord gelijk."
+    }
+  ],
+  "borderline_paren": [],
+  "singletons": [
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrH1",
+      "vraag_onderwerp": "BTW-inregelstelling: wettelijke termijn",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrH1.json"
+    },
+    {
+      "examen_id": "2003-bibf",
+      "vraag_id": "2003-bibf-vrH2",
+      "vraag_onderwerp": "Gevolgen van laattijdige personenbelasting-aangifte",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2003-bibf/2003-bibf-vrH2.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrH1",
+      "vraag_onderwerp": "Procedure en termijn voor bezwaarschrift personenbelasting",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrH1.json"
+    },
+    {
+      "examen_id": "2008-bibf",
+      "vraag_id": "2008-bibf-vrH2",
+      "vraag_onderwerp": "Belasting op tekenen en indiciën: voorwaarden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2008-bibf/2008-bibf-vrH2.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr31",
+      "vraag_onderwerp": "BTW-procedure: verjaringstermijnen en aanwijzing belastingontduiking bij controle 'Snack on the Road'",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr31.json"
+    },
+    {
+      "examen_id": "2013-1",
+      "vraag_id": "2013-1-vr32",
+      "vraag_onderwerp": "Directe belastingen procedure: inkohiering, aanwijzing belastingontduiking bij Snack on the Road",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2013-1/2013-1-vr32.json"
+    },
+    {
+      "examen_id": "2014-1",
+      "vraag_id": "2014-1-vr41",
+      "vraag_onderwerp": "BTW-procedure — vraag om inlichtingen door BTW-administratie aan accountantskantoor over klant",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2014-1/2014-1-vr41.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr41",
+      "vraag_onderwerp": "Fiscale procedure: onderzoekstermijn personenbelasting 5 jaar geleden",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr41.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr42",
+      "vraag_onderwerp": "Fiscale procedure: bijzondere taxatietermijn op basis van buitenlandse inlichtingen",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr42.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr43",
+      "vraag_onderwerp": "Fiscale procedure: voorleggingsplicht bestelbonnen bij vennootschap",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr43.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr44",
+      "vraag_onderwerp": "Fiscale procedure: tenuitvoerlegging dwangbevel stuiten",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr44.json"
+    },
+    {
+      "examen_id": "2015-1",
+      "vraag_id": "2015-1-vr45",
+      "vraag_onderwerp": "Fiscale procedure: onderzoekstermijn inzake btw",
+      "vraag_pad": "data/programma/examen_vragen/_interpretaties/2015-1/2015-1-vr45.json"
+    }
+  ],
+  "review_toegepast_op": "2026-05-26T10:30:26+00:00"
+}

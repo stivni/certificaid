@@ -1,0 +1,66 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr11C",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Toepasselijkheid vrijstellingsregeling kleine onderneming voor diverse activiteiten",
+  "programmaonderdeel_ids": ["2.3"],
+  "themas": ["vrijstellingsregeling", "kleine onderneming", "BTW-vrijstelling", "omzetdrempel", "activiteiten", "mengde belastingplichtige"],
+
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Vraagstelling: Is de vrijstellingsregeling voor kleine ondernemingen mogelijk voor elk van de volgende activiteiten? (Alle antwoorden moeten juist zijn voor punten — alles juist of geen punten)"
+    }
+  ],
+
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "a",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Vrijstellingsregeling is mogelijk voor: elektricien met omzet 10.000 euro",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "b",
+      "label_in_pdf": "b",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Vrijstellingsregeling is mogelijk voor: kapper met omzet 15.000 euro",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "c",
+      "label_in_pdf": "c",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Vrijstellingsregeling is mogelijk voor: diëtist met vrijgestelde omzet 50.000 euro en onderworpen omzet 15.000 euro",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "d",
+      "label_in_pdf": "d",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Vrijstellingsregeling is mogelijk voor: schoonheidsspecialiste met omzet 30.000 euro",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    },
+    {
+      "id": "e",
+      "label_in_pdf": "e",
+      "vraagtype": "juist_fout",
+      "vraagstelling": "Vrijstellingsregeling is mogelijk voor: verhuur van gastenkamers met ontbijt met omzet 20.000 euro",
+      "motivatie_verwacht": false,
+      "volledigheid": "volledig"
+    }
+  ],
+
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment met volledig bewaarde stellingen-set (5 items a-e). PNG pagina 6 bevestigt alle vijf activiteiten. Gemodelleerd als 5 juist_fout-deelvragen conform prompt-spec §3. Bijzondere scoringsregel 'alles juist of geen punten' is opgenomen in context_blok maar niet als apart schema-veld (bestaat niet in schema 1.2). Omzetbedragen zijn afgerond gehele getallen zoals vermeld in PNG.",
+  "kwaliteits_flags": []
+}

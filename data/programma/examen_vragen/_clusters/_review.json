@@ -1,0 +1,115 @@
+{
+  "schema_versie": "1.0",
+  "review_datum": "2026-05-26T10:26:30Z",
+  "review_model": "claude-sonnet-4-6",
+  "n_clusters_input": 13,
+  "n_echt_duplicaat": 7,
+  "n_varianten": 4,
+  "n_false_positive": 2,
+  "reviews": [
+    {
+      "cluster_id": "1.3-c1",
+      "po_code": "1.3",
+      "verdict": "varianten",
+      "voorkomens": ["2013-1-vr4", "2014-1-vr5", "2015-1-vr8"],
+      "motivering": "Alle drie vragen 'bereken financiële ratio's op basis van jaarrekening', maar elk examen kiest een andere subset ratio's (nettobedrijfskapitaal, brutoverkoopmarge, toegevoegde waarde, rentabiliteit, liquiditeit, voorraadrotatie). Casus-type is gedeeld, formules per ratio overlappen, maar geen identieke vraag — één gedeeld antwoord moet alle ratio-formules dekken en per examen verwijzen welke gevraagd worden.",
+      "actie": "behoud_apart_met_label"
+    },
+    {
+      "cluster_id": "1.3-c2",
+      "po_code": "1.3",
+      "verdict": "false_positive",
+      "voorkomens": ["2024-1-vr2A", "2024-1-vr2D"],
+      "motivering": "Alleen de vraagvorm (stellingen juist/fout over externe controle) matcht. vr2A gaat specifiek over onafhankelijkheid bij controleopdracht; vr2D over algemene beginselen externe controle/revisienormen. Verschillende deelkennis — geen gedeeld antwoord mogelijk.",
+      "actie": "splits_terug"
+    },
+    {
+      "cluster_id": "1.4-c1",
+      "po_code": "1.4",
+      "verdict": "echt_duplicaat",
+      "voorkomens": ["2013-1-vr7", "2014-1-vr7"],
+      "motivering": "Identieke kennisvraag: 'Hoeveel bedraagt de maximale afwijking qua afsluitingsdatum geconsolideerde jaarrekening?' Eén feitelijk antwoord dekt beide.",
+      "actie": "merge_one_antwoord"
+    },
+    {
+      "cluster_id": "1.4-c2",
+      "po_code": "1.4",
+      "verdict": "echt_duplicaat",
+      "voorkomens": ["2013-2-vr8", "2015-1-vr11"],
+      "motivering": "Identieke deelvragen: 'Wat is een positief consolidatieverschil?' + 'Geef de vier voornaamste oorzaken'. Tekstueel woord-voor-woord gelijk.",
+      "actie": "merge_one_antwoord"
+    },
+    {
+      "cluster_id": "1.7-c1",
+      "po_code": "1.7",
+      "verdict": "echt_duplicaat",
+      "voorkomens": ["2013-1-vr9", "2014-1-vr11"],
+      "motivering": "Identieke vraag: 'Stel een procedure op voor kasbetalingen/terugbetaling kleine kosten met minimaal twee controletechnische functiescheidingen.' Casus verschilt cosmetisch (BVBA vs onkostennota's), procedure-antwoord is identiek.",
+      "actie": "merge_one_antwoord"
+    },
+    {
+      "cluster_id": "2.2-c1",
+      "po_code": "2.2",
+      "verdict": "false_positive",
+      "voorkomens": ["2015-1-vr28", "2015-1-vr30", "2015-1-vr32"],
+      "motivering": "Bevestigt de in cluster-file geflagde false-positive. Alleen vraagvorm ('welke uitspraak is ONJUIST') is gelijk. vr28 = beroepsverliezen; vr30 = aftrekbare bestedingen/belastingverminderingen; vr32 = belasting roerende inkomsten. Drie compleet verschillende PB-subdomeinen.",
+      "actie": "splits_terug"
+    },
+    {
+      "cluster_id": "2.3-c1",
+      "po_code": "2.3",
+      "verdict": "varianten",
+      "voorkomens": ["2013-2-vr24", "2013-2-vr25", "2015-1-vr33"],
+      "motivering": "Alle drie 'bereken belastbaar resultaat VenB', maar verschillende fiscale technieken per casus: vr24 = verworpen uitgaven + notionele intrestaftrek + KMO-tarief + verliesoverdracht; vr25 = DBI-aftrek + meer/minwaarde aandelen; vr33 = DBI + verlaagd tarief + fiscaal overgedragen verlies. Gedeeld berekenings-skelet, verschillende correcties.",
+      "actie": "behoud_apart_met_label"
+    },
+    {
+      "cluster_id": "2.4-c1",
+      "po_code": "2.4",
+      "verdict": "echt_duplicaat",
+      "voorkomens": ["2003-bibf-vrD1", "2008-bibf-vrD1"],
+      "motivering": "Identieke vraag: 'Leg wettelijke verplichtingen + per kwartaal te ontvangen stukken uit aan zelfstandige horeca-uitbater'. Casus quasi-identiek (horeca/taverne-restaurant), antwoord dekt beide.",
+      "actie": "merge_one_antwoord"
+    },
+    {
+      "cluster_id": "2.4-c2",
+      "po_code": "2.4",
+      "verdict": "echt_duplicaat",
+      "voorkomens": ["2003-bibf-vrD2", "2008-bibf-vrD2"],
+      "motivering": "Identieke twee deelvragen aan schrijnwerker: 'Reden om werkwijze aan te passen (voorschotfactuur)?' + 'Welke documenten bewaren?' Casus identiek.",
+      "actie": "merge_one_antwoord"
+    },
+    {
+      "cluster_id": "2.5-c1",
+      "po_code": "2.5",
+      "verdict": "echt_duplicaat",
+      "voorkomens": ["2013-2-vr32", "2014-1-vr39"],
+      "motivering": "Identieke 3-delige vraag over vraag om inlichtingen aan derde: regelmatigheid, antwoordtermijn, overmachtsoplossing. Alleen het overmacht-scenario verschilt (staking vs wateroverlast) — juridisch antwoord identiek.",
+      "actie": "merge_one_antwoord"
+    },
+    {
+      "cluster_id": "2.5-c2",
+      "po_code": "2.5",
+      "verdict": "echt_duplicaat",
+      "voorkomens": ["2013-2-vr33", "2014-1-vr40"],
+      "motivering": "Vier identieke stellingen over bezwaarrecht (roerende voorheffing, erfgenamen, ex-echtgenoot, ambtshalve aanslag). Volgorde verschilt, tekst woord-voor-woord gelijk.",
+      "actie": "merge_one_antwoord"
+    },
+    {
+      "cluster_id": "3.0-c1",
+      "po_code": "3.0",
+      "verdict": "varianten",
+      "voorkomens": ["2013-2-vr17", "2014-1-vr15"],
+      "motivering": "Beide matrix-invul-vragen 'kenmerk per vennootschapsvorm (NV/BVBA/CVA/CVBA/CVOA/VOF)'. 2013-2 toetst onderhandse akte + winstbewijzen + neerlegging + minimumkapitaal; 2014-1 toetst aansprakelijkheid + winstbewijzen + neerlegging + financieel plan. Twee kenmerken overlappen, twee verschillen — gedeeld antwoord moet alle zes kenmerken dekken.",
+      "actie": "behoud_apart_met_label"
+    },
+    {
+      "cluster_id": "4.0-c1",
+      "po_code": "4.0",
+      "verdict": "varianten",
+      "voorkomens": ["2013-1-vr35", "2014-1-vr45"],
+      "motivering": "Beide juist/fout-stellingen over onafhankelijkheid externe accountant (verboden/toegelaten mandaten + activiteiten). Eén stelling overlapt expliciet (bestuursmandaat in commerciële vennootschap met toestemming Raad); overige stellingen verschillen (verzekeringsmakelaar, krediet-makelaar, patrimoniumvennootschap vs echtgenoot-stemrechten, interne accountant). Gedeeld antwoord moet alle stellingen afzonderlijk dekken.",
+      "actie": "behoud_apart_met_label"
+    }
+  ]
+}

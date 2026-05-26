@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2003-bibf.pdf",
   "examen_id": "2003-bibf",
-  "merge_datum": "2026-05-21T08:50:02+00:00",
+  "merge_datum": "2026-05-26T10:30:42+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -757,6 +757,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "2.4-c1",
+        "cluster_verdict": "echt_duplicaat",
         "context_blokken": [
           {
             "tekst": "Een persoon vestigt zich als zelfstandige om een taverne-restaurant uit te baten. Na alle administratieve formaliteiten te hebben verricht, opteert hij bij de BTW-administratie voor het statuut van normale trimestriële BTW-belastingplichtige. Hij vraagt u om zijn boekhoudkundig dossier te beheren.",
@@ -814,6 +817,9 @@
       "antwoord": null,
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
+        "cluster_actie": "merge_one_antwoord",
+        "cluster_id": "2.4-c2",
+        "cluster_verdict": "echt_duplicaat",
         "context_blokken": [
           {
             "tekst": "Een zelfstandige schrijnwerker stelt offertes op voor zijn cliënten met prijsaanduidingen. Wanneer de offerte aanvaard wordt, vraagt hij een eerste voorschot alvorens de werkzaamheden aan te vangen. Een tweede voorschot wordt gevraagd wanneer de werken halfweg zijn en het saldo wordt afgerekend bij het einde van de werken. Hij stelt vervolgens een factuur op met vermelding 'voldaan' voor het totaal der uitgevoerde werken.",

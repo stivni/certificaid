@@ -103,5 +103,14 @@
   "herinterpretatie_motivering": "Vraag 2 uit de sectie Wetgeving inzake de jaarrekening. PNG bevestigt MC-antwoordvakjes voor a, b en c. Opties volledig leesbaar uit PNG pagina 3.",
   "kwaliteits_flags": [
     "tabel_in_pdf_zichtbaar"
-  ]
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      }
+    ]
+  }
 }

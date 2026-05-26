@@ -38,5 +38,8 @@
   ],
   "antwoord_hint_in_vraag": null,
   "herinterpretatie_motivering": "Vraag beslaat meerdere pagina's (4-6). Tekst.txt toont slechts de subvraag-beschrijvingen. PNG van pagina 5 toont vraag 4 volledig. Deelvraag b vraagt expliciet vier oorzaken.",
-  "kwaliteits_flags": []
+  "kwaliteits_flags": [],
+  "cluster_id": "1.4-c2",
+  "cluster_verdict": "echt_duplicaat",
+  "cluster_actie": "merge_one_antwoord"
 }

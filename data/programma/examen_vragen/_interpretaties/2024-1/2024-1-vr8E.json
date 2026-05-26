@@ -1,0 +1,101 @@
+{
+  "schema_versie": "1.2",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr8E",
+  "interpretatie_datum": "2026-05-26T10:00:00Z",
+  "interpretatie_model": "claude-sonnet-4-6",
+  "vraag_herkomst": "herinnering",
+  "vraag_onderwerp": "Besmette verworpen uitgaven — DBI-verrekening buiten EER",
+  "programmaonderdeel_ids": [
+    "2.2"
+  ],
+  "themas": [
+    "DBI",
+    "definitief belaste inkomsten",
+    "verworpen uitgaven",
+    "besmette verworpen uitgaven",
+    "EER",
+    "vennootschapsbelasting",
+    "aftrek"
+  ],
+  "context_blokken": [
+    {
+      "type": "casus_context",
+      "tekst": "Wat zijn de \"besmette\" verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is."
+    },
+    {
+      "type": "tabel",
+      "headers": [
+        "Label",
+        "Verworpen uitgave"
+      ],
+      "rows": [
+        [
+          "a",
+          "Niet aftrekbare kosten beroepskledij"
+        ],
+        [
+          "b",
+          "Intresten met betrekking tot een deel van bepaalde leningen"
+        ],
+        [
+          "c",
+          "Abnormale en goedgunstige voordelen"
+        ],
+        [
+          "d",
+          "Sociale voordelen"
+        ],
+        [
+          "e",
+          "Voordelen maaltijdcheques, ecocheques"
+        ],
+        [
+          "f",
+          "Giften"
+        ],
+        [
+          "g",
+          "Waardevermindering en minderwaarde op aandelen"
+        ],
+        [
+          "h",
+          "Terugname van vroegere vrijstellingen"
+        ],
+        [
+          "i",
+          "Taxshelter"
+        ]
+      ]
+    }
+  ],
+  "vragen": [
+    {
+      "id": "a",
+      "label_in_pdf": "E",
+      "vraagtype": "open",
+      "vraagstelling": "Welke van de bovenstaande posten (a t/m i) zijn \"besmette\" verworpen uitgaven waarop een verrekening van DBI afkomstig van een land buiten de EER niet mogelijk is?",
+      "motivatie_verwacht": true,
+      "volledigheid": "volledig"
+    }
+  ],
+  "antwoord_hint_in_vraag": null,
+  "herinterpretatie_motivering": "Herinnering-fragment. De negen items a-i zijn een keuzelijst waaruit de student de 'besmette' verworpen uitgaven moet identificeren — geen afzonderlijke juist/fout-stellingen maar een open identificatievraag met een contexttabel. Typo 'Takxshelter' in brontekst gecorrigeerd naar 'Taxshelter'. Afkorting 'MC' in item e uitgeschreven naar 'maaltijdcheques'.",
+  "kwaliteits_flags": [
+    "typo_genormaliseerd",
+    "tabel_in_pdf_zichtbaar"
+  ],
+  "vision_review_nodig": {
+    "actie": "vision_review_aanbevolen",
+    "signalen": [
+      {
+        "type": "kwaliteits_flag",
+        "waarde": "tabel_in_pdf_zichtbaar"
+      },
+      {
+        "type": "context_blok",
+        "waarde": "tabel"
+      }
+    ]
+  }
+}
