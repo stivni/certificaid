@@ -84,13 +84,6 @@ werknemers-vergoedingen                  [R, Σ — cluster-record]
     ├── opzegvergoeding                  [R ⏳]
     └── outplacementkost                 [R ⏳]
 
-winstuitkering                           [Σ-cluster ⏳]
-├── dividend-uitkering                   ⏳
-├── tussentijdse-dividenden              ⏳       (flag uit triangulatie KS — PO 3.0.IV.B)
-├── tantième                             [G+R]    (primair hier; ook in werknemers-vergoedingen-lijst)
-├── winstbestemming                      ⏳
-├── liquidatiereserve                    ⏳
-└── vvpr-bis-en-vvpr-uitkering           ⏳
 
 overdracht-onderneming                   [eigen cluster — user-keuze 2026-05-24]
 ├── overdracht-onderneming               [R, Σ]   share-deal-aandelenovername · asset-deal-handelsfonds-overname; gedeelde aspecten: waardering · due-diligence · garanties
@@ -123,11 +116,6 @@ anti-misbruik                            [⏳]
 ├── simulatie                            ⏳
 ├── transfer-pricing-correcties          ⏳
 └── thin-cap                             ⏳
-
-insolventie                              [⏳]
-├── alarmbel-procedure                   ⏳
-├── faillissement                        ⏳
-└── gerechtelijke-reorganisatie          ⏳
 
 controle-opdracht                        [sub-Kader `controle`, 7 records — PO 1.6]
 ├── controleopdracht                     [K-techniek-Σ]    ▸ 4 fases (aanvaarden→plannen→bewijswerk→afronden+oordeel) ▸ prof skepticism ▸ delegatie-en-supervisie
