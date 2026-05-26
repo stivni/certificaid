@@ -36,7 +36,27 @@ Deze gelden bij elke keuze:
 - [`docs/schema-v15-besluit.md`](schema-v15-besluit.md) — geconsolideerde spec (21 besluiten + finale structuur)
 - [`data/concepten/schema-2.1.schema.json`](../data/concepten/schema-2.1.schema.json) — bron-van-waarheid
 - [`docs/render-laag.md`](render-laag.md) — render-laag werkpakket-spec
-- [`prompts/operaties/`](../prompts/operaties/) — 5 slanke operatie-prompts
+- [`prompts/operaties/`](../prompts/operaties/) — 5 slanke operatie-prompts (5 incl. scope-respect ADR-033)
+
+### 1.0 — 🚨 BLOCKER: Daemon-schema-2.1-compatibiliteit
+
+**Symptoom**: elke `records_api.save_record`-call op een schema-2.1-record faalt met `AttributeError: 'dict' object has no attribute 'strip'`. Daemon-endpoint `/index-concept` crasht.
+
+**Root cause**: `tools/extractie/embedding_daemon.py:389` (`_bouw_embed_tekst`) is geschreven voor schema 1.x — verwacht `record["naam"]` als string en `record["node_type"]`/`main_rule`/`definitie`/`verplichting`/`doel` als top-level velden. In schema 2.1 v1.5 is `naam` een dict (`{"primair": ...}`), `concept_type` (niet `node_type`), en inhoud-velden zitten onder `inhoud.kern.definitie.tekst`.
+
+**Impact**:
+- ❌ Wave-2 (1.1) — blokkeert het invullen van 371 lege records
+- ❌ Scope.in bootstrap-migratie (script staat klaar op de plank — `tools/lib/migrate_scope_in_bootstrap.py`)
+- ❌ Elke andere `save_record`-call op een schema-2.1-record
+
+**Fix-scope** (te onderzoeken vóór uitvoer):
+- Port `_bouw_embed_tekst()` naar schema 2.1 v1.5 (`naam.primair`, `concept_type`, `inhoud.kern.definitie.tekst`)
+- Scan rest van `embedding_daemon.py` op andere schema-1.x-veld-references
+- Mogelijk ook `_render_concept_fiche` in `records_api.py` herzien
+- Restart daemon na fix
+- Verifieer met 1 record voor bulk-werk hervat
+
+**Werkpunt**: aparte sparring-sessie + ADR (daemon-schema-2.1-compatibiliteit) + zorgvuldige port. Niet ad-hoc fixen.
 
 ### 1.1 — Wave-2 beschrijven-operatie
 
