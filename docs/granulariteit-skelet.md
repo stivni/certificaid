@@ -1443,6 +1443,108 @@ overeengekomen-procedures                 [sub-Kader, 1 record]
 **Open punten**:
 - **OP-OK.A** ⏳ 3 mini-records (`beoordeling-cyclus`, `isae-opdracht`, `overeengekomen-procedures-opdracht`) wachten op daemon-fix voor creatie (Fase 1.0 BLOCKER). Allemaal kandidaten ⏳.
 
+### Boekhouding-discipline — compact cluster-mapping
+
+Thema: `boekhouding` (top-discipline laag-1). *Compact-mapping voor PO 1.1 (Algemene boekhouding, 29 anchors) + cross PO 1.2 (jaarrekeningrecht) + 1.4 (consolidatie) + 1.5 (correctie/herwerking) + 1.8 (boekhoudkundige expertise) + 1.9 (financiële analyse). Veel content cross-leeft al via uitgewerkte thema-clusters; deze sectie identificeert de **boekhouding-eigen sub-clusters** + verzamelt bestaande records.*
+
+PO 1.1 organiseert zich op **balans-volgorde** (vaste activa → vlottend → eigen vermogen → schulden → resultatenrekening → bijzondere verrichtingen). Veel raakt al cross-uitgewerkte clusters:
+
+| PO 1.1-anker | Inhoud | Primaire cluster |
+|---|---|---|
+| I.A · I.B | Boekhoudkundige principes + MAR + dubbele boekhouding | **boekhoudbeginselen** (nieuw cluster) |
+| II.A | Oprichtingskosten | absorbed in `oprichting-vennootschap` (kapitaalstructuur) |
+| II.B-D | Immateriële/materiële/financiële vaste activa + afschrijvingen | **vaste-activa** (nieuw cluster) |
+| II.E | Voorraden | **voorraden-vorderingen** (nieuw cluster) |
+| II.F | Bedrijfsvorderingen + waardecorrecties | idem |
+| II.G | Geldbeleggingen + liquide middelen | **liquide-middelen-en-effecten** (mini-cluster) |
+| II.H | Eigen middelen | ✅ `kapitaalstructuur`-cluster (al uitgewerkt) |
+| II.I | Voorzieningen + uitgestelde belastingen | **voorzieningen-en-overlopende** (cluster) |
+| II.J-K | Schulden lange + korte termijn | ✅ `schuldfinanciering`-cluster (al uitgewerkt) |
+| II.L | Overlopende rekeningen | idem voorzieningen-en-overlopende |
+| II.M | Bedrijfskosten + bezoldigingen | ✅ `werknemers-vergoedingen` + `loon-en-payroll` |
+| II.N | Bedrijfsopbrengsten | **resultatenrekening-boekhouding** (cluster) |
+| II.O · II.P | Financiële + niet-recurrente verrichtingen | idem |
+| II.Q | Winstbestemming | ✅ `winstuitkering`-cluster (al uitgewerkt) |
+| II.R | Rechten + verplichtingen (off-balance) | sub-sectie of klein record `niet-in-balans-rechten-en-verplichtingen` (bestaand) |
+| II.S | Synthesedocumenten (jaarrekening) | **jaarrekening-en-synthesedocumenten** (cluster) |
+| II.T | Kapitaalwijzigingen + fusies + splitsingen + overnames + vereffeningen | ✅ `kapitaalstructuur` + `reorganisatie` + `overdracht-onderneming` + `insolventie` (al uitgewerkt) |
+| II.U | Beheer eigen aandelen | ✅ `kapitaalstructuur` (inkoop-eigen-aandelen) |
+| II.V | Obligatieleningen | ✅ `schuldfinanciering` |
+| II.W | Leasing | ✅ `schuldfinanciering` + `mobiliteit` |
+| II.X | Opsplitsing eigendom (vruchtgebruik/naakte eigendom) | **opsplitsing-eigendom** (mini-cluster, 1 record) |
+
+#### Boekhouding-eigen clusters (nieuw of compact)
+
+```
+boekhoudbeginselen                        [cluster, ~4 records — PO 1.1.I.A + I.B + taak.1]
+├── boekhoudbeginselen                   [K — bestaand]    voorzichtigheid · continuïteit · matching · realisatie · consistentie
+├── bgaap                                [K — bestaand]    Belgische GAAP — wettelijk kader (KB 29-04-2019 + BCBoekhouding-regels)
+├── dubbele-boekhouding                  [K — bestaand]    debet/credit + journaal/grootboek + balans/resultatenrekening
+└── be-gaap-vs-ifrs-verschillen          [K — bestaand]    vergelijking met IFRS (waardering · presentatie · keuze)
+
+vaste-activa                              [Σ-cluster, ~5 records — PO 1.1.II.A-D]
+├── vaste-activa                         [Σ — NIEUW]       overkoepelend keuzekader · afschrijvings-methodologie · waardeverminderingen · herwaardering
+├── immateriele-vaste-activa             [E+balanspost — bestaand]   goodwill · ontwikkelingskosten · concessies · merken
+├── materiele-vaste-activa               [E+balanspost — bestaand]   gebouwen · machines · meubilair · rollend materieel
+├── deelneming-financieel-vast-actief    [E+instrument — bestaand]   participatie ≥ 10% · waardering kostprijs vs vermogensmutatie
+└── herwaardering-vast-actief            [G+R — bestaand]  uitzonderlijke waardestijging · herwaarderingsmeerwaarde in eigen vermogen
+
+voorraden-vorderingen                     [cluster, ~4 records — PO 1.1.II.E-F]
+├── voorraden                            [E+balanspost — ⏳ NIEUW]   FIFO/LIFO/gewogen gemiddelde · waardecorrecties · onderhanden werk
+├── handelsvorderingen                   [E+balanspost — bestaand]   waardeverminderingen · oninbaarheid · ageing
+├── vorderingen-op-meer-dan-een-jaar     [E+balanspost — bestaand]   discontering · presentatie balans
+└── (cyclus-analyse#aankoopcyclus + #verkoopcyclus shared van interne-controle)
+
+liquide-middelen-en-effecten              [mini-cluster, 1 record — PO 1.1.II.G]
+└── geldbeleggingen-en-liquide-middelen  [E+balanspost — bestaand]   kasgeld · banken · termijnrekeningen · korte-termijn-effecten
+
+voorzieningen-en-overlopende              [cluster, ~3 records — PO 1.1.II.I + L]
+├── voorzieningen-en-uitgestelde-belastingen [E+R — bestaand]   pensioen · grote herstellingen · litigatie · UB
+├── overlopende-rekeningen               [E+balanspost — bestaand]   accrual-principe · pro-rata-toerekening
+└── eindejaarsverrichtingen              [procedure — bestaand]   afsluitingsverrichtingen voor jaarrekening (cross PO 1.1.taak.1 + II.L + II.Q)
+
+resultatenrekening-boekhouding            [cluster, ~5 records — PO 1.1.II.M-P]
+├── bedrijfskosten-en-bedrijfsopbrengsten [K — bestaand]   `-en-`-smell ⚠️ → splitsen later? Schema klasse 6/7
+├── kostencomponenten                    [K — bestaand]    direct/indirect · vast/variabel · per kostenplaats
+├── kostentypologie                      [K — bestaand]    materiële · loon · diensten · afschrijving · voorzieningen
+├── opbrengstverantwoording              [K — bestaand]    realisatie-principe · cut-off · multi-period contracten
+└── personeelskosten                     [E+balanspost — bestaand]   1.1.II.M-specifiek · klasse 62 · cross werknemers-vergoedingen
+
+jaarrekening-en-synthesedocumenten        [cluster, ~3 records — PO 1.1.II.S + cross PO 1.2]
+├── jaarrekening                         [E+instrument — bestaand]   balans · resultatenrekening · toelichting · sociale balans
+├── openbaarmaking-jaarrekening          [procedure — bestaand]   neerlegging KBO/NBB · termijnen · sanctie
+└── niet-in-balans-rechten-en-verplichtingen [K — bestaand]   off-balance commitments · garanties · operationele leasing pre-IFRS-16
+
+opsplitsing-eigendom                      [mini-cluster, 1 record — PO 1.1.II.X]
+└── opsplitsing-eigendom                 [K — bestaand]    vruchtgebruik · blote eigendom · waardering · cross naar erfrecht + estate planning
+
+consolidatie                              [cluster, ~8 records — PO 1.4]
+├── consolidatiekring                    [E+R — bestaand]
+├── consolidatiemethoden                 [K — bestaand]    integraal · vermogensmutatie · evenredig
+├── consolidatieverschil-goodwill        [K+R — bestaand]
+├── eerste-consolidatie                  [G — bestaand]
+├── evenredige-consolidatie              [G — bestaand]
+├── integrale-consolidatie               [G — bestaand]
+├── uniforme-waarderingsregels-consolidatie [R — bestaand]
+└── wijziging-consolidatiekring          [G — bestaand]
+```
+
+**Cross-cluster** (records primair elders, raken boekhouding):
+- `kapitaalstructuur`-cluster (II.H + II.T + II.U) — eigen vermogen + kapitaalwijzigingen + eigen aandelen
+- `schuldfinanciering`-cluster (II.J + II.K + II.V + II.W) — schulden + obligaties + leasing
+- `werknemers-vergoedingen` + `loon-en-payroll` (II.M) — bezoldigingen
+- `winstuitkering` (II.Q) — winstbestemming
+- `reorganisatie` + `overdracht-onderneming` + `insolventie` (II.T) — bijzondere verrichtingen
+- `mobiliteit` (autokosten) — boekhoudkundige verwerking + waardering
+
+**Totaaltelling boekhouding-discipline**: ~30 records over 9 sub-clusters (waarvan 3 ⏳ nieuw + 27 bestaand). Veel cross-coverage via thema-clusters.
+
+**Open punten**:
+- **OP-BH.A** ⏳ `bedrijfskosten-en-bedrijfsopbrengsten` heeft `-en-`-smell (precedent rationale-log 2026-05-24). Splits later in 2 records of behoud als bundel-record? Voorlopig behouden (volgt MAR-klasse-6/7-koppeling).
+- **OP-BH.B** ⏳ `voorraden`-record bestaat nog niet (alleen `omloopsnelheid-voorraad` ratio + `voorraadcyclus-ic` procedure). Te creëren in mapping-fase.
+- **OP-BH.C** ⏳ MAR-stelsel-record (Minimum Algemeen Rekeningenstelsel) als zelfstandig record of sub-sectie van `bgaap`/`boekhoudbeginselen`? Voorlopig sub-sectie.
+- **OP-BH.D** ⏳ Per sub-cluster diepe uitwerking nog te doen indien substantieel didactisch werk nodig (vaste-activa-Σ-vergelijkingsmatrix · afschrijvingsmethoden · waardeverminderings-mechaniek).
+
 ### Beroepsbeoefening-cluster
 
 Thema: `beroepsbeoefening`. *Thema-cluster onder `beroep-en-deontologie`-discipline. Resulteert uit PO 4.0-werk (2026-05-26). PO 4.0 = "Deontologische beginselen + antiwitwaswetgeving" met dubbele functie: deel I + taken 1-3 = kern (eigen cluster); deel II + taken 4-6 = competentie-overzicht (cross-naar-andere-PO's, geen eigen records). Absorbeert meerdere records die in eerdere cluster-sparring waren voorzien om hier te verhuizen (commissaris-blok, kwaliteitsmanagement, opdrachtbrief, AML).*
