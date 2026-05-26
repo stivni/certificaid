@@ -82,7 +82,7 @@ werknemers-vergoedingen                  [R, Σ — cluster-record]
     ├── enkel-en-dubbel-vakantiegeld     [R ⏳]
     ├── dertiende-maand                  [R ⏳]
     ├── opzegvergoeding                  [R ⏳]
-    └── outplacementkost                 [R ⏳]
+    └── outplacementkost                 [R, ⏳ NIEUW]      werkgever-verplichting bij collectief ontslag + 45+
 
 
 overdracht-onderneming                   [eigen cluster — user-keuze 2026-05-24]
@@ -116,11 +116,14 @@ fiscale-voordelen-vennootschap           [Σ-cluster, 10 records — cross PO 2.
 ├── vvprbis                              [R]                 15% RV kleine venn nieuw kapitaal (cross winstuitkering)
 └── meerwaarde-aandelen-venb             [R]                 (OP-K.6 opgelost) vrijstellings-voorwaarden
 
-anti-misbruik                            [⏳]
-├── algemene-anti-misbruik-bepaling      ⏳
-├── simulatie                            ⏳
-├── transfer-pricing-correcties          ⏳
-└── thin-cap                             ⏳
+anti-misbruik                            [Σ-cluster, 6 records — cross PO 2.1 + 2.8]
+├── anti-misbruik                        [Σ]                 keuzekader · onderscheid simulatie/AAMB/verboden · bewijslast
+├── algemene-anti-misbruik-bepaling      [R]                 AAMB art 344§1 WIB
+├── simulatie-leer                       [R, ⏳ NIEUW]        herkwalificatie werkelijke bedoeling
+├── transfer-pricing                     [K]                 arm's length · TP-doc · OESO
+├── thin-cap-regime                      [R, ⏳ NIEUW]        ATAD interest-aftrekbaarheid 30% EBITDA / 3M€
+├── atad-richtlijn                       [K]                 EU GAAR + CFC + thin-cap + exit-tax + hybride
+└── verboden-constructies                [R, ⏳ NIEUW]        specifieke anti-misbruik-bepalingen (art 18 etc.)
 
 controle-opdracht                        [sub-Kader `controle`, 7 records — PO 1.6]
 ├── controleopdracht                     [K-techniek-Σ]    ▸ 4 fases (aanvaarden→plannen→bewijswerk→afronden+oordeel) ▸ prof skepticism ▸ delegatie-en-supervisie
@@ -214,7 +217,9 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | insolventie | 7 (incl. nieuwe `faillissement`) | PO 3.0.IX + X | [§Insolventie-cluster](#insolventie-cluster) |
 | winstuitkering | 3 (NIEUW Σ + winstbestemming + tantième; 4 cross-records) | PO 3.0.IV.B + cross 2.3 + 2.1 | [§Winstuitkering-cluster](#winstuitkering-cluster) |
 | reorganisatie | 4 (Σ + fusie + splitsing + fiscale-fusie-splitsing) | cross PO 3.0.taak.2/3 + 2.3.III.B + 2.8.XVI + 1.4 | [§Reorganisatie-cluster](#reorganisatie-cluster) |
-| **fiscale-voordelen-vennootschap** | **10** (Σ + 9 regimes — 4 nieuw) | **cross PO 2.3.II + III + taak.3** | [**§Fiscale-voordelen-vennootschap-cluster**](#fiscale-voordelen-vennootschap-cluster) |
+| fiscale-voordelen-vennootschap | 10 (Σ + 9 regimes — 4 nieuw) | cross PO 2.3.II + III + taak.3 | [§Fiscale-voordelen-vennootschap-cluster](#fiscale-voordelen-vennootschap-cluster) |
+| **anti-misbruik** | **6** (Σ + AAMB + simulatie + TP + thin-cap + ATAD + verboden — 3 nieuw) | **cross PO 2.1.IX + 2.8.XVI + XVII** | [**§Anti-misbruik-cluster**](#anti-misbruik-cluster) |
+| **loon-en-payroll** | **K-techniek + 10 component-records** (deels nieuw) | **cross PO 2.1 + werknemers-vergoedingen** | [**§Loon-en-payroll-cluster (K-techniek)**](#loon-en-payroll-cluster-k-techniek) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 
@@ -1296,6 +1301,99 @@ fiscale-voordelen-vennootschap            [Σ-cluster, 10 records — cross PO 2
 - **OP-FV.A** ⏳ `notionele-interestaftrek` na 2024-afschaffing — behouden als historisch record (overgangsregime + examen-stof) of legacy-archiveren? Voorlopig behouden.
 - **OP-FV.B** ⏳ `korf-regime` (aftrek-beperking) als eigen sub-sectie van Σ vs eigen record? Voorlopig sub-sectie
 - **OP-FV.C** ⏳ Aftrek-volgorde (art 207 WIB) als zelfstandig algoritme/K-techniek-record? Voorlopig sub-sectie in Σ (anti-versnippering)
+
+### Anti-misbruik-cluster
+
+Thema: `anti-misbruik`. *Σ-cluster (cross PO 2.1.IX.B + 2.8.XVI + 2.8.XVII + 2.8.taak.3, 2026-05-26). Fiscale anti-misbruik-toolbox van de overheid + EU. Bestrijken: algemene anti-misbruik (AAMB) · simulatie · TP-correcties · thin-cap/ATAD · misbruik-bestrijdingsmaatregelen.*
+
+```
+anti-misbruik                             [Σ-cluster, 6 records — cross PO 2.1 + 2.8]
+│
+├── anti-misbruik                         [Σ-hoofdrecord — NIEUW]
+│   ▸ overkoepelend keuzekader: hoe bestrijdt fiscus kunstmatige constructies?
+│   ▸ #vergelijkingsmatrix-instrumenten: AAMB · simulatie-leer · TP-correcties · thin-cap · CFC-regels · GAAR (EU)
+│   ▸ #onderscheid simulatie (rechtshandeling niet wat ze lijkt) vs ABM-fiscaal (rechtshandeling echt maar fiscaal misbruik) vs verboden constructies
+│   ▸ #bewijslast — fiscus toont gebrek aan niet-fiscale motieven (bedrijfsmatige redenen)
+│   ▸ keuze-criteria: aard transactie · grensoverschrijdend · grootte · context
+│
+├── algemene-anti-misbruik-bepaling       [R]               AAMB art 344§1 WIB — vermoeden van misbruik bij rechtshandeling die fiscaal voordeel als hoofddoel heeft + tegenstrijdig met doel wettekst; bedrijfsmatige redenen als tegenbewijs
+├── simulatie-leer                        [R, ⏳ NIEUW]      pre-AAMB-instrument: rechtshandeling wordt geherkwalificeerd op basis van werkelijke bedoeling partijen; smaller toepassingsgebied maar nog actief
+├── transfer-pricing                      [K]               arm's length-beginsel · verrekenprijsdocumentatie · masterfile/lokaal dossier/CbCR · OESO-richtlijnen
+├── thin-cap-regime                       [R, ⏳ NIEUW]      ATAD-implementatie: interest-aftrekbaarheid-beperking 30% EBITDA / 3M€ drempel (art 198/1 WIB)
+├── atad-richtlijn                        [K]               EU-anti-tax-avoidance directive overzicht: GAAR · thin-cap (interest limitation) · CFC · exit-tax · hybride mismatches
+└── verboden-constructies                 [R, ⏳ NIEUW?]     specifieke anti-misbruik-bepalingen (bv. 3-jaar-vermoeden art 18 WIB, opname WIB 90 5° voor effecten-omzeiling)
+```
+
+**Cross-cluster**:
+- `fiscale-voordelen-vennootschap` — AAMB-toets bij aftrekken (bedrijfsmatige redenen)
+- `reorganisatie` — neutraliteits-regime vraagt bedrijfsmatige redenen (cross naar AAMB)
+- `dividend-uitkering` (winstuitkering) — herkwalificatie verkapte dividenden
+- `inkoop-eigen-aandelen` (kapitaalstructuur) — fiscale herkwalificatie als dividend bij niet-naleving
+- `quasi-inbreng` (kapitaalstructuur) — anti-misbruik op zichzelf (verkapte natura-inbreng)
+- `kapitaalvermindering` (kapitaalstructuur) — pro-rata-toerekening = anti-misbruik
+- `verbonden-partijen` (cross-cutting) — TP-context
+
+**Schrappen / nieuwe records**:
+- 1 nieuw Σ + 3 nieuwe regimes (simulatie · thin-cap · verboden-constructies)
+- 3 bestaande records absorberen als leden
+
+**Triangulatie 2026-05-26**:
+- Cross PO 2.1.IX.B (PB-anti-misbruik) + 2.8.XVI (EU-fiscaliteit + ATAD) + 2.8.XVII (anti-misbruik internationaal)
+- 3 bestaande + 3 nieuw = 6 cluster-eigen (+ 1 Σ)
+- Smell-check: `algemene-anti-misbruik-bepaling`-naam is descriptief lang maar accuraat; behouden
+
+**Bronnen-pin**:
+- ✅ WIB art 344 (AAMB) + art 198/1 (thin-cap) + art 18 (3-jaar-vermoeden)
+- ✅ ATAD I + II (EU-richtlijnen)
+- ✅ OESO TP Guidelines + MLI (cross PO 2.8) — bestaande resources
+
+**Open punten**:
+- **OP-AM.A** ⏳ `verboden-constructies` als eigen record (overzichts-cluster van specifieke anti-misbruik-bepalingen) vs sub-sectie van Σ? Voorlopig eigen klein record; te beslissen bij content-uitwerking
+- **OP-AM.B** ⏳ `transfer-pricing` is breed (TP-documentatie + masterfile + CbCR) — splits-overweging als sub-onderwerpen zelfstandig substantieel groeien
+
+### Loon-en-payroll-cluster (K-techniek)
+
+Thema: `loon-en-payroll`. *K-techniek-cluster (cross PO 2.1 PB + werknemers-vergoedingen, 2026-05-26). Was al beslist in werknemers-vergoedingen-werk 2026-05-24 (OP-W.2): loon-en-payroll als K-techniek (deterministisch proces, geen Σ-keuze). Hier formeel uitgewerkt.*
+
+```
+loon-en-payroll                           [K-techniek-cluster, 1 K-techniek + 10 component-records]
+│
+├── loon-en-payroll                       [K-techniek-hoofdrecord — NIEUW]
+│   ▸ deterministische bruto-naar-netto-flow:
+│       bruto-loon → BV → RSZ-werknemer → netto-loon (kant werknemer)
+│       bruto-loon + RSZ-werkgever → totale loonkost (kant werkgever)
+│   ▸ #flow-overzicht (stap-voor-stap, geen keuzevariant)
+│   ▸ #referentie-tabellen (RSZ-percentages, BV-schalen — Cijferzakboekje)
+│   ▸ #correcties (werkbonus, fiscale aftrekken)
+│   ▸ ITAA-norm permanente vorming-relevantie (compleet payroll-onderwerp)
+│
+├── bruto-loon                            [R, ⏳ NIEUW]      barema's · maandloon · loonsverhogingen
+├── bedrijfsvoorheffing                   [R, bestaand?]   schalen + categorieën + verminderingen — afhouding bij werkgever
+├── rsz-werknemer                         [R, ⏳ NIEUW]      13,07% standaard · maandelijkse afhouding
+├── rsz-werkgever                         [R, ⏳ NIEUW]      ~25% (sector-afhankelijk) · structurele verminderingen + doelgroep-verminderingen
+├── werkbonus                             [R, ⏳ NIEUW]      RSZ-vermindering werknemer + fiscale werkbonus (lage lonen)
+├── eindejaarspremie                      [R, ⏳ NIEUW]      sectorale CAO · 1/12 of vast bedrag
+├── enkel-en-dubbel-vakantiegeld          [R, ⏳ NIEUW]      bedienden (jaarlijks) vs arbeiders (RJV)
+├── dertiende-maand                       [R, ⏳ NIEUW]      sectoraal · onderscheid eindejaarspremie
+├── opzegvergoeding                       [R, ⏳ NIEUW]      eenheidsstatuut · termijnen Wet Eenheidsstatuut 2014 · forfait
+└── outplacementkost                      [R, ⏳ NIEUW]      werkgever-verplichting bij collectief ontslag + 45+
+```
+
+**Cross-cluster** — leden van `werknemers-vergoedingen`-Σ (al vermeld):
+- `werknemers-vergoedingen` (parent-Σ-cluster) — alle componenten zijn ook leden van die vergelijkingsmatrix
+- `bedrijfsleidersbezoldiging` (werknemers-vergoedingen) — analoog payroll-onderwerp voor bedrijfsleider (geen RSZ-werknemer maar wel BV + sociale bijdragen zelfstandigen)
+
+**Schrappen / nieuwe records**:
+- 1 nieuw K-techniek-hoofdrecord + 9 component-records (deels bestaand, deels nieuw)
+- Mogelijk `bedrijfsvoorheffing` bestaat al — te valideren
+
+**Triangulatie 2026-05-26**:
+- Cross PO 2.1 (PB-bezoldigingen + BV) + werknemers-vergoedingen (al uitgewerkt)
+- Klein cluster qua hoofdrecord; veel ⏳-componenten (mapping-fase werk)
+
+**Open punten**:
+- **OP-LP.A** ⏳ Hoeveel van de 10 component-records bestaat al vs nieuw? Te scannen
+- **OP-LP.B** ⏳ Splits `enkel-en-dubbel-vakantiegeld` (`-en-`-smell?) — voorlopig 1 record want gedeelde regeling
 
 ### Beroepsbeoefening-cluster
 
