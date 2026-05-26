@@ -26,7 +26,8 @@ controle                                 [K]   *hernoemd van `audit-en-assurance
 ├── isae-opdrachten                      [K]
 ├── overeengekomen-procedures            [K]
 ├── interne-controle                     [K]   ✅ uitgewerkt
-└── bijzondere-mandaten                  [K]   ✅ uitgewerkt   *shared thema beroepsbeoefening — wettelijke voorbehouden opdrachten per WVV-verrichting*
+├── bijzondere-mandaten                  [K]   ✅ uitgewerkt   *shared thema beroepsbeoefening — wettelijke voorbehouden opdrachten per WVV-verrichting*
+└── *Overige sub-Kaders compact uitgewerkt:* beoordelings-opdracht (ISRE 2400) · isae-opdrachten (ISAE 3000-serie) · overeengekomen-procedures (ISRS 4400) — telkens 1 mini-record + cross naar `opdracht-types`-Σ in controle-opdracht-cluster
 vennootschapsrecht                       [K]
 beroep-en-deontologie                    [K]
 bedrijfseconomie-en-management           [K]
@@ -219,7 +220,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | reorganisatie | 4 (Σ + fusie + splitsing + fiscale-fusie-splitsing) | cross PO 3.0.taak.2/3 + 2.3.III.B + 2.8.XVI + 1.4 | [§Reorganisatie-cluster](#reorganisatie-cluster) |
 | fiscale-voordelen-vennootschap | 10 (Σ + 9 regimes — 4 nieuw) | cross PO 2.3.II + III + taak.3 | [§Fiscale-voordelen-vennootschap-cluster](#fiscale-voordelen-vennootschap-cluster) |
 | **anti-misbruik** | **6** (Σ + AAMB + simulatie + TP + thin-cap + ATAD + verboden — 3 nieuw) | **cross PO 2.1.IX + 2.8.XVI + XVII** | [**§Anti-misbruik-cluster**](#anti-misbruik-cluster) |
-| **loon-en-payroll** | **K-techniek + 10 component-records** (deels nieuw) | **cross PO 2.1 + werknemers-vergoedingen** | [**§Loon-en-payroll-cluster (K-techniek)**](#loon-en-payroll-cluster-k-techniek) |
+| loon-en-payroll | K-techniek + 10 component-records (deels nieuw) | cross PO 2.1 + werknemers-vergoedingen | [§Loon-en-payroll-cluster (K-techniek)](#loon-en-payroll-cluster-k-techniek) |
+| **beoordelings-opdracht** + **isae-opdrachten** + **overeengekomen-procedures** | 3 × 1 mini-record (allemaal ⏳) | sub-Kaders van `controle` — gedragen via `opdracht-types`-Σ | [§Overige sub-Kaders van controle-discipline (compact)](#overige-sub-kaders-van-controle-discipline-compact) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 
@@ -1394,6 +1396,52 @@ loon-en-payroll                           [K-techniek-cluster, 1 K-techniek + 10
 **Open punten**:
 - **OP-LP.A** ⏳ Hoeveel van de 10 component-records bestaat al vs nieuw? Te scannen
 - **OP-LP.B** ⏳ Splits `enkel-en-dubbel-vakantiegeld` (`-en-`-smell?) — voorlopig 1 record want gedeelde regeling
+
+### Overige sub-Kaders van controle-discipline (compact)
+
+*Drie sub-Kaders van `controle` met klein-substantieel volume. Inhoud grotendeels gedragen via `opdracht-types`-Σ (controle-opdracht-cluster) + ITAA-norm-pin per type. Per sub-Kader 1 mini-record voor type-specifieke methodologie/verslag-stijl. Alle delen de fase-cyclus uit `controleopdracht`.*
+
+#### beoordelings-opdracht (sub-Kader, 1 record)
+
+```
+beoordelings-opdracht                     [sub-Kader, 1 record]
+└── beoordeling-cyclus                    [K-techniek-mini, ⏳ NIEUW]
+    ▸ limited assurance · ISRE 2400 (jaarrekening) + ISRE 2410 (tussentijds)
+    ▸ negatief geformuleerd oordeel ("Niets is ons onder de aandacht gekomen waaruit blijkt dat ...")
+    ▸ scope: voornamelijk navraag + analytische procedures · geen volledig bewijswerk
+    ▸ KMO-context: ITAA-KMO-controlenorm deel 2
+    ▸ cross: opdracht-types (controle-opdracht) als parent-Σ · controleopdracht voor gemeenschappelijke cyclus · ITAA-KMO-controlenorm
+```
+
+#### isae-opdrachten (sub-Kader, 1 record)
+
+```
+isae-opdrachten                           [sub-Kader, 1 record]
+└── isae-opdracht                         [K-techniek-mini, ⏳ NIEUW]
+    ▸ assurance ANDERS DAN jaarrekening-audit
+    ▸ voorbeelden: EBITDA-certificatie · prospectus-attest · service-organisatie-rapport (SOC) · duurzaamheidsrapport-assurance
+    ▸ ISAE 3000-serie (algemeen 3000 + specifiek 3400-3402)
+    ▸ contractuele basis · scope + criteria per opdracht
+    ▸ assurance-niveau: redelijke OF beperkte zekerheid (per opdracht)
+    ▸ cross: bijzondere-mandaten (sommige bijzondere mandaten zijn ISAE-engagements: bv. EBITDA-attest bij overname)
+```
+
+#### overeengekomen-procedures (sub-Kader, 1 record)
+
+```
+overeengekomen-procedures                 [sub-Kader, 1 record]
+└── overeengekomen-procedures-opdracht    [K-techniek-mini, ⏳ NIEUW]
+    ▸ ISRS 4400 — Agreed-upon procedures
+    ▸ geen assurance · geen oordeel · alleen feitelijke bevindingen
+    ▸ cliënt specificeert procedures vooraf · verslag in vorm feitenrelaas
+    ▸ context: due diligence-light · subsidie-controle · specifieke verklaring op vraag bank
+    ▸ scope-limitatie: gebruikers zijn alleen partijen die procedures hebben overeengekomen (geen derde-partij-distributie)
+```
+
+**Cluster-strategie**: deze 3 sub-Kaders blijven slank — inhoud leeft primair via `opdracht-types`-Σ (controle-opdracht) en cross naar `controleopdracht` (cyclus) + ITAA-normen. Mini-records bevatten alleen type-specifieke afwijkingen. Geen aparte test-case-validatie noodzakelijk — afgedekt door `opdract-types`-Σ-validatie (al 6 test-cases in controle-opdracht-cluster).
+
+**Open punten**:
+- **OP-OK.A** ⏳ 3 mini-records (`beoordeling-cyclus`, `isae-opdracht`, `overeengekomen-procedures-opdracht`) wachten op daemon-fix voor creatie (Fase 1.0 BLOCKER). Allemaal kandidaten ⏳.
 
 ### Beroepsbeoefening-cluster
 
