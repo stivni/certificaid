@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrF1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Belastbare basis Vak II — Heer Janssens (bedrijfsleider) — aanslagjaar 2004 (inkomsten 2003)**\n\n| Component | Bedrag (EUR) |\n|---|---:|\n| Jaarlijkse bruto bezoldiging | 30.000,00 |\n| Sociale bijdragen voor rekening Janssens, betaald door NV (4 × 1.200) — voordeel | 4.800,00 |\n| Voordeel alle aard (auto) | 1.500,00 |\n| Geherkwalificeerd huur-gedeelte: 15.000 − (5/3 × 1.202 × 3,35) = 15.000 − 6.711,17 | 8.288,83 |\n| **Brutobezoldiging Vak II** | **44.588,83** |\n| − Sociale bijdragen Janssens (betaald door NV, art. 52, 7° WIB92) | − 4.800,00 |\n| − Mutualiteitbijdrage (vrije aanvullende ziekteverzekering, netto) | − 887,00 |\n| **Brutobezoldiging na sociale lasten** | **38.901,83** |\n| − Forfaitaire beroepskosten (art. 51 WIB92, 3 %) | − 1.167,05 |\n| **Netto belastbare basis Vak II** | **≈ 37.734,78** |\n\nBedrijfsvoorheffing (4.636 EUR) is **geen** beroepskost — die wordt verrekend met de eindbelasting (art. 296 WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — Bezoldigingen opbouwen (bruto):**\n\n- Bruto loon: 30.000 EUR (fiche-gegeven). 📖\n- Sociale bijdragen voor rekening van Janssens die de NV betaalt = belastbaar voordeel in hoofde van Janssens (de NV neemt een persoonlijke schuld van de bedrijfsleider over): 4 × 1.200 = 4.800 EUR. 🔗\n- VAA auto: 1.500 EUR (forfaitaire waardering). 📖\n\n**Stap 2 — Herkwalificatie van huurinkomsten (art. 32, 3° WIB92):**\n\nDe huur die de NV aan haar bedrijfsleider betaalt voor onroerend goed B wordt **deels geherkwalificeerd** tot bezoldiging voor zover ze meer bedraagt dan 5/3 × KI gerevaloriseerd. 📖\n\n- Drempel: 5/3 × 1.202 × 3,35 = **6.711,17 EUR**\n- Werkelijke huur: 15.000 EUR (de onroerende voorheffing-doorrekening blijft buiten de huurprijs zelf en herkwalificeert niet mee).\n- Geherkwalificeerd deel → Vak II: 15.000 − 6.711,17 = **8.288,83 EUR** 🔗\n- (Het gedeelte tot 6.711,17 EUR blijft onroerend inkomen in Vak III — niet gevraagd hier.)\n\n**Tussentotaal bruto Vak II** = 30.000 + 4.800 + 1.500 + 8.288,83 = **44.588,83 EUR**.\n\n**Stap 3 — Aftrek sociale bijdragen (art. 52, 7° WIB92):**\n\n- Sociale bijdragen Janssens (4.800 EUR): aftrekbaar als beroepskost — vooraf in mindering vóór forfait (art. 51 WIB92, eerste lid). 🔗\n- Netto mutualiteitbijdrage (887 EUR): aanvullende vrije ziekteverzekering — aftrekbaar als sociale bijdrage. 🔗\n\nSubtotaal na sociale lasten: 44.588,83 − 4.800 − 887 = **38.901,83 EUR**.\n\n**Stap 4 — Forfaitaire beroepskosten (art. 51 WIB92, 2° bedrijfsleiders):**\n\n- 3 % × 38.901,83 = **1.167,05 EUR** 🔗\n- Het wettelijk maximum (aj. 2004 ≈ 2.250 EUR) wordt niet bereikt.\n\n**Stap 5 — Netto belastbare basis Vak II:**\n\n38.901,83 − 1.167,05 ≈ **37.734,78 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Drie klassieke fouten in dit type oefening:**\n\n- De **bedrijfsvoorheffing (4.636 EUR)** verwarren met een beroepskost. Dat is ze niet — het is een voorafbetaling die in de eindafrekening wordt verrekend (art. 296 WIB92). 🔗\n- Het forfait toepassen op de **brutobezoldiging vóór** aftrek van sociale bijdragen. Art. 51, eerste lid WIB92 zegt uitdrukkelijk dat het percentage wordt berekend op het bedrag **\"vooraf verminderd met de [sociale] bijdragen\"** — dus eerst sociale lasten aftrekken, dán 3 %. 📖\n- De **volledige huur** als onroerend inkomen behandelen of omgekeerd integraal als bezoldiging. De wet maakt een knip op 5/3 × geherwaardeerd KI: alleen het **overschot** verhuist naar Vak II (art. 32, 3° WIB92); de rest blijft Vak III als onroerend inkomen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Wettelijke basis (WIB92):**\n\n- **Art. 32, eerste lid, 3° WIB92** — herkwalificatie van huur tussen bedrijfsleider en zijn vennootschap: het gedeelte boven 5/3 × KI gerevaloriseerd (revalorisatiecoëfficiënt art. 13 WIB92) is bezoldiging. 📖\n- **Art. 51, tweede lid, 2° WIB92** — forfaitaire beroepskosten bedrijfsleiders = **3 %**, berekend op de bezoldiging **na** aftrek van de sociale bijdragen (art. 51, eerste lid). 📖\n- **Art. 52, 7° WIB92** + **art. 195 WIB92** — sociale bijdragen (incl. die de vennootschap voor rekening van de bedrijfsleider betaalt) zijn aftrekbare beroepskosten. 📖\n- **Art. 1 KBWIB 92** — revalorisatiecoëfficiënt (3,35 voor inkomsten 2003 / aj. 2004), zoals expliciet in de opgave gegeven. 📖\n- **Art. 296 WIB92** — bedrijfsvoorheffing is een verrekenbaar voorschot, geen beroepskost. 🔗",
+          "wetsref": "Art. 32, 3° · Art. 51 · Art. 52, 7° · Art. 195 · Art. 296 WIB92; Art. 1 KBWIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

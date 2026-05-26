@@ -1,0 +1,68 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr22",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Totaal aftrekbare verplaatsingskosten = 6.136,18 EUR** (wagen 5.486,18 + scooter 650,00). Voordeligste keuze: voor beide voertuigen **werkelijke kosten** toepassen (geen woon-werk-forfait van 0,15 €/km — dat zou ongunstiger uitkomen). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "kop": "Wagen — Toyota Prius benzine, 89 g CO2",
+          "tekst": "**Beroepsbreuk wagen** = (3.500 woon-werk + 15.000 huisbezoeken) / 27.500 jaartotaal = **18.500/27.500 = 67,2727 %**. 🔗\n\n**Kosten op te splitsen per regime** (aanslagjaar 2013 — inkomsten 2012):\n\n| Kostenpost | Bedrag | Regime | Aftrek-% | Na CO2-beperking |\n|---|---:|---|---:|---:|\n| Leasing | 5.000 | CO2 (art. 66 §1) | 90 % | 4.500,00 |\n| Verzekering | 1.000 | CO2 | 90 % | 900,00 |\n| Verkeersbelasting | 300 | CO2 | 90 % | 270,00 |\n| Onderhoud | 650 | CO2 | 90 % | 585,00 |\n| **Subtotaal CO2-onderworpen** | **6.950** | | | **6.255,00** |\n| Interest financiering | 250 | uitgezonderd (art. 66 §1 al. 2) | 100 % | 250,00 |\n| Brandstof | 1.650 | uitgezonderd in PB-zelfstandige aj. 2013 | 100 % | 1.650,00 |\n| **Totaal vóór beroepsbreuk** | **8.850** | | | **8.155,00** |\n\n**89 g CO2 benzine → 90 % aftrek** (schaal art. 66 §1 WIB92 aj. 2013: 61–105 g benzine = 90 %). 📖\n\n**Aftrekbaar wagen** = 8.155,00 × 18.500/27.500 = **5.486,18 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "kop": "Scooter",
+          "tekst": "**Beroepsbreuk scooter** = 2.500 (woonplaats ↔ rugbyveld, heen+terug) / 5.000 jaartotaal = **50 %**. 🔗\n\n| Kostenpost | Bedrag |\n|---|---:|\n| Verkeersbelasting | 100 |\n| Onderhoud | 350 |\n| Verzekering | 250 |\n| Brandstof | 600 |\n| **Totaal** | **1.300** |\n\nScooter valt **niet** onder de CO2-aftrekbeperking van art. 66 §1 WIB92 (geldt enkel voor personenwagens, auto's voor dubbel gebruik en minibussen — art. 65 WIB92). 📖\n\n**Aftrekbaar scooter** = 1.300 × 50 % = **650,00 EUR**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "kop": "Vergelijking met forfait woon-werk (art. 66bis WIB92) — minder voordelig",
+          "tekst": "**Alternatief 1** — forfait 0,15 €/km voor woon-werk wagen + werkelijke kosten op zuivere beroeps-km:\n- Forfait wagen: 3.500 × 0,15 = 525,00\n- Werkelijke kosten patiënten-km: 8.155 × 15.000/27.500 = 4.448,18\n- Subtotaal wagen = **4.973,18** < 5.486,18 ❌ minder gunstig\n\n**Alternatief 2** — forfait scooter (voor zover rugbyveld als plaats van tewerkstelling kwalificeert): 2.500 × 0,15 = 375 < 650 ❌ minder gunstig.\n\nDe **werkelijke-kosten-methode op de globale beroepsbreuk** is in beide gevallen het meest voordelig. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Voor een **PB-zelfstandige** (geen vennootschap) gold in aanslagjaar 2013 dat **brandstofkosten NIET onder de CO2-aftrekbeperking** van art. 66 §1 WIB92 vielen — die uitbreiding kwam pas met de Wet van 25.12.2017 (vanaf aj. 2020). Voor aj. 2013 dus: brandstof 100 % aftrekbaar op het beroepsgedeelte. **Interest** van financiering blijft sowieso buiten de beperking (art. 66 §1 al. 2 WIB92), in PB én in venn.B. Niet verwarren met het venn.B-regime waar brandstof reeds vanaf aj. 2010 op 75 % stond (art. 198bis WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 66 §1 WIB92** (CO2-aftrekschaal personenwagens — aj. 2013): aftrekpercentage in functie van CO2-uitstoot en brandstoftype; benzine 89 g/km valt in schijf 61–105 g = 90 %. Uitgezonderd van de beperking: interest van financiering, brandstofkosten (PB-zelfstandige tot aj. 2019), mobilofoonkosten. **Art. 66bis WIB92**: forfait 0,15 €/km voor woon-werkverkeer bij gebrek aan bewijzen (max. 100 km enkele reis). **Art. 65 WIB92**: de beperking geldt enkel voor personenauto's, auto's voor dubbel gebruik en minibussen — scooter valt buiten scope. 📖",
+          "wetsref": "art. 65, 66 §1 en 66bis WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

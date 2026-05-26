@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr8E",
+  "antwoord_datum": "2026-05-26T14:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Herinnering-fragment. Items a-f bevestigd via PNG pagina_04.png; items g-i (Waardeverminderingen aandelen / Terugname vrijstellingen / Taxshelter) komen uit interpretatie en zijn niet visueel verifieerbaar op de beschikbare pagina (de keuzelijst loopt door op een volgende pagina die niet in het segment zit). Geen mismatch tussen tekst en PNG voor a-f.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Besmette verworpen uitgaven** (geen DBI-verrekening mogelijk, zelfs niet met DBI uit een land buiten de EER) zijn: **c. Abnormale of goedgunstige voordelen**, **d. Sociale voordelen**, **e. Voordelen maaltijdcheques/ecocheques**, **f. Giften (liberaliteiten)** en **i. Taxshelter** 📖. De overige posten (a beroepskledij, b intresten op een deel van bepaalde leningen, g waardeverminderingen/minderwaarden op aandelen, h terugname van vroegere vrijstellingen) zijn \"gewone\" verworpen uitgaven waarop DBI-aftrek wél kan worden toegepast 🔗.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Mechaniek — waarom \"besmet\"** 🔗. Art. 206/3, §1 WIB 92 somt limitatief de bestanddelen op van het resultaat waarop **geen enkele** van de aftrekken voorzien in art. 199 tot 206, 536 en 543 WIB 92 (dus ook **geen DBI-aftrek** uit art. 202-205) en **geen compensatie met het verlies van het belastbare tijdperk** mag worden verricht. Deze bestanddelen maken **steeds deel uit van de minimum belastbare grondslag** 📖. Dat is de zogenaamde \"besmette\" categorie. Voor DBI maakt het bovendien niet uit of de bron binnen of buiten de EER ligt — het aftrekverbod van art. 206/3 §1 werkt vóór de DBI-bewerking, dus de DBI kan deze bestanddelen sowieso niet absorberen.\n\n**Per-item-mapping naar art. 206/3 §1 WIB 92** 📖:\n- **c. Abnormale of goedgunstige voordelen** → art. 206/3, §1, eerste streepje, *via art. 79 WIB 92* (gedeelte van het resultaat dat voortkomt van abnormale of goedgunstige voordelen).\n- **d. Sociale voordelen** → art. 206/3, §1, vierde streepje, via **art. 198, §1, 9° WIB 92** (uitgaven sociale voordelen art. 38 §1, 11°).\n- **e. Voordelen maaltijdcheques/ecocheques** → art. 206/3, §1, vierde streepje, via **art. 198, §1, 9°bis WIB 92** (cheques art. 38 §1, 25°).\n- **f. Giften (liberaliteiten)** → art. 206/3, §1, vierde streepje, via **art. 198, §1, 12° WIB 92** (liberaliteiten, ook de vrijgestelde).\n- **i. Taxshelter** → art. 206/3, §1, vierde streepje, via **art. 198, §1, 17° WIB 92** (uitgaven in het kader van de tax-shelterregeling).\n\n**Waarom de overige posten NIET besmet zijn** 🔗:\n- **a. Niet aftrekbare beroepskledij** (art. 53, 7° WIB 92) — gewone VU; niet vermeld in art. 206/3 §1.\n- **b. Intresten op een deel van bepaalde leningen** (overdreven intresten art. 55 of thin-cap art. 198 §1, 11° / 11°/1) — gewone VU; niet vermeld in art. 206/3 §1.\n- **g. Waardevermindering en minderwaarde op aandelen** (art. 198, §1, 7° WIB 92) — gewone VU; staat **niet** in de limitatieve lijst van art. 206/3 §1.\n- **h. Terugname van vroegere vrijstellingen** (o.m. art. 67quater, 513, 524, 531, 548 WIB 92) — gewone VU; niet vermeld in art. 206/3 §1.",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-verworpen-uitgaven.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Valkuil — \"DBI buiten EER\" is een afleider** ❓. De vraagstelling vermeldt expliciet \"DBI afkomstig van een land buiten de EER\". Dat lijkt te suggereren dat de EER-grens bepaalt welke VU besmet zijn — maar dat klopt **niet**: de lijst van besmette bestanddelen (art. 206/3 §1) is dezelfde ongeacht de oorsprong van de DBI. Wat *wél* van de EER-grens afhangt is de **overdraagbaarheid** van het DBI-overschot: enkel DBI van een **EER-uitkeerder** is overdraagbaar naar volgende belastbare tijdperken (art. 205, §3 WIB 92) 📖. DBI uit een land buiten de EER die niet onmiddellijk kan worden afgetrokken — bv. omdat de winst voor het overgrote deel bestaat uit besmette bestanddelen — gaat dus **definitief verloren**. Daarom is de \"besmette\"-categorie pijnlijker bij DBI buiten EER dan bij EER-DBI: geen overdracht-vangnet 🔗.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Kern-grondslagen** 📖:\n- **Art. 206/3, §1 WIB 92** — bestanddelen waarop geen aftrek (incl. DBI) en geen verliescompensatie mogelijk is; verwijst onder andere naar art. 79 (abnormale/goedgunstige voordelen) en art. 198, §1, 9°, 9°bis, 12° en 17° WIB 92.\n- **Art. 198, §1 WIB 92**: 9° sociale voordelen (verwijzing naar art. 38 §1, 11°); 9°bis maaltijd-/sport-/cultuur-/ecocheques (art. 38 §1, 25°); 12° liberaliteiten (giften, ook de vrijgestelde); 17° tax-shelter-uitgaven (art. 194ter e.v.).\n- **Art. 207 WIB 92** — aftrekvolgorde + bevestiging dat geen aftrek noch verliescompensatie mogelijk is op het in art. 206/3 §1 bedoelde gedeelte van het resultaat.\n- **Art. 205, §3 WIB 92** — overdraagbaarheid DBI-overschot beperkt tot vennootschappen gevestigd in een EER-lidstaat (relevant voor de framing van de vraag, niet voor de besmette-lijst zelf).",
+          "wetsref": "Art. 206/3 §1 WIB 92; art. 198 §1, 9°, 9°bis, 12°, 17° WIB 92; art. 79 WIB 92; art. 207 WIB 92; art. 205 §3 WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-uiteenzetting-winst.md",
+            "resources/bronnen/wetteksten/aangifte-VenB-2025-dbi-detail.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

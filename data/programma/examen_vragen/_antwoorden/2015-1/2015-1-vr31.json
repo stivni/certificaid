@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr31",
+  "antwoord_datum": "2026-05-26T16:19:34Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** is ONJUIST. De uitzondering op de uitsluiting van de investeringsaftrek bij overdracht van het recht van gebruik geldt blijkens art. 75, 3° WIB 92 zowel bij overdracht aan een **natuurlijke persoon** als aan een **vennootschap** die zelf aan de voorwaarden, criteria en grenzen voor investeringsaftrek voldoet tegen eenzelfde of hoger percentage. Optie d beperkt de uitzondering ten onrechte tot een natuurlijke persoon. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** JUIST — De drie eerste vrijstellingen van economische aard (bijkomend personeel uitvoer/IKZ, ander bijkomend personeel, stage in de onderneming) zijn pure winstvrijstellingen: ze kunnen niet tot verlies leiden en het niet-afgetrokken gedeelte is bij gebrek aan winst **definitief verloren** — anders dan de investeringsaftrek die wél overdraagbaar is. 🔗\n- **b** JUIST — Art. 67ter §3 WIB 92 voorziet de terugname bij daling van het personeelsbestand in het volgende jaar (effectieve 2-jaar-vereiste), met de expliciete uitzondering dat geen terugname gebeurt wanneer de overschrijding van het maximumdagloon enkel het gevolg is van een loonsverhoging in het jaar na de toekenning. 🔗\n- **c** JUIST — De stagebonus-gerelateerde winstvrijstelling werd door art. 271 W. 27.12.2012 opgetrokken van 20 % naar **40 %** vanaf 01.01.2014 (aanslagjaar 2015), berekend op de als beroepskosten afgetrokken bezoldigingen van stagiairs waarvoor een stagebonus is bekomen. 🤖\n- **d** ONJUIST — Zie conclusie. Art. 75, 3° WIB 92 spreekt van overdracht aan \"een **natuurlijke persoon of aan een vennootschap**\" die zelf voldoet aan de IA-voorwaarden tegen een eenzelfde of hoger percentage en het gebruiksrecht niet doorgeeft aan een derde. Optie d laat \"of aan een vennootschap\" weg. 📖\n- **e** JUIST — Voor natuurlijke personen die op de eerste dag van het belastbaar tijdperk **minder dan 20 werknemers** tewerkstellen, kan geopteerd worden voor de gespreide investeringsaftrek (art. 70 WIB 92). Het toegepaste percentage wordt gefixeerd bij het investeringsjaar en blijft onveranderd over de hele afschrijvingsduur, ongeacht latere wijzigingen van het tarief. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Optie d herneemt op het eerste gezicht woordelijk de vier eerste IA-uitsluitingen van art. 75 WIB 92, maar laat één hoek van de uitzondering weg: de overdracht mag óók gebeuren aan een **vennootschap** die zelf aan de IA-voorwaarden voldoet (tegen eenzelfde of hoger percentage). Wie alleen leest \"behalve aan natuurlijke persoon\" mist de tweede arm van de uitzondering. Vergelijk met de gangbare leasingcasus: een holding die een onroerend goed verhuurt aan een werkmaatschappij van dezelfde groep verliest niet automatisch de IA als de werkmaatschappij zelf voor de IA in aanmerking komt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 67, 67ter, 70, 75 WIB 92** — gezamenlijk regime van de vrijstellingen van economische aard en de investeringsaftrek in de personenbelasting. Art. 67 (vrijstelling bijkomend personeel uitvoer/IKZ); art. 67ter §1-3 (vrijstelling ander bijkomend personeel + terugname bij personeelsdaling, met loonsverhoging-uitzondering); art. 70 (gespreide investeringsaftrek voor natuurlijke personen met minder dan 20 werknemers, percentage vast over afschrijvingsduur); **art. 75, 3°** (uitsluiting overdracht recht van gebruik — uitzondering voor overdracht aan natuurlijke persoon **of vennootschap** die zelf aan IA-voorwaarden voldoet). 📖",
+          "wetsref": "Art. 67, 67ter, 70, 75 WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

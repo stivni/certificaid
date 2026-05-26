@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr30",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** is de **ONJUISTE** uitspraak. De belastingvermindering voor kinderoppas is een **gewone** (niet-terugbetaalbare) vermindering — het surplus boven de verschuldigde belasting wordt **niet** omgezet in een terugbetaalbaar belastingkrediet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a — ONJUIST**. Het eerste deel klopt: sinds aanslagjaar 2013 zijn kinderoppaskosten geen aftrekbare besteding meer (art. 104, 7° opgeheven) en geven ze recht op een belastingvermindering (art. 14535 WIB92). 📖 Maar het tweede deel is fout: er bestaat **geen** wettelijke omzetting van het overschot van deze vermindering in een terugbetaalbaar belastingkrediet. De vermindering kan enkel de verschuldigde belasting verminderen tot nul — een eventueel niet-benut saldo gaat verloren. 🔗\n- **b — JUIST**. Letterlijke parafrase van art. 105, 2° WIB92: persoonlijk verschuldigde aftrekbare bestedingen (incl. onderhoudsuitkeringen, art. 104, 1°-2°) worden bij voorrang aangerekend op het netto-inkomen van de schuldenaar; het saldo gaat naar de andere echtgenoot. 📖\n- **c — JUIST** (voor aj. 2015). Vóór de aanpassing geldend in 2015 worden de werkelijk gedane giften van beide echtgenoten samengeteld en geeft het totaal recht op een belastingvermindering van 45%. De vermindering wordt omgedeeld in functie van het belastbaar inkomen van elk der echtgenoten (art. 14533 WIB92 in de versie 2015). 🔗\n- **d — JUIST**. Het pensioensparen (art. 1458 WIB92) en de vermindering voor verwerving van werkgeversaandelen (art. 1457 WIB92) zijn niet cumuleerbaar voor hetzelfde belastbaar tijdperk. 🔗\n- **e — JUIST**. Per echtgenoot afzonderlijk aangifte van betaalde dienstencheques; in een gemeenschappelijke aanslag wordt de vermindering evenredig omgedeeld in functie van het belaste inkomen van elk der echtgenoten — art. 14523 §1 WIB92. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar de **belastingvermindering voor kinderoppas** (art. 14535, niet-terugbetaalbaar) niet met het **terugbetaalbaar belastingkrediet voor kinderen ten laste** (art. 134 §3 WIB92): wanneer de toeslagen op de belastingvrije som wegens kinderlast — incl. de bijkomende toeslag voor kinderen jonger dan 3 jaar (art. 132, 6°) — de belasting overstijgen, wordt het saldo van de daarmee corresponderende belastingvermindering wél omgezet in een terugbetaalbaar belastingkrediet (begrensd). Die regeling slaat dus op de **belastingvrije som**, niet op de aftrek/vermindering voor kinderoppas zelf. Wie kinderoppas claimt, verliest bovendien de bijkomende toeslag voor kinderen jonger dan 3 jaar (art. 132, 6° in fine). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 14535 WIB92 (belastingvermindering kinderoppas — voorwaarden); art. 132, 6° WIB92 (bijkomende toeslag kinderen <3 jaar, niet-cumuleerbaar met art. 14535); art. 134 §3 WIB92 (omzetting van het saldo van de belastingvermindering voor kinderlast in terugbetaalbaar belastingkrediet — geldt voor de belastingvrije som, niet voor art. 14535); art. 105 WIB92 (aanrekening aftrekbare bestedingen in gemeenschappelijke aanslag); art. 14523 §1 WIB92 (omdeling vermindering dienstencheques). 📖",
+          "wetsref": "WIB92 art. 14535, 105, 134 §3, 14523, 1457-1458",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

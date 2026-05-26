@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr27",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** is **niet juist** voor aanslagjaar 2013. Kinderoppas was vanaf aanslagjaar 2013 geen aftrekbare besteding meer, maar een **belastingvermindering** (art. 14535 WIB92). De stelling kwalificeert ze ten onrechte als \"aftrekbaar\". 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie voor aanslagjaar 2013:\n\n- **a** — JUIST. Cumulverbod: uitgaven die recht geven op een belastingvermindering mogen niet eerst als beroepskost of andere aftrek de netto-inkomsten verminderen (zie cumulclausules in o.a. art. 14535, 14536, 14531: \"niet van toepassing op uitgaven die in aanmerking genomen zijn als werkelijke beroepskosten\"). 🔗\n- **b** — **FOUT**. Vanaf aanslagjaar 2013 werd de kinderoppas-regeling omgezet van aftrekbare besteding (oud art. 104, 7° WIB92) naar **belastingvermindering** (art. 14535 WIB92). De uitgaven geven dus recht op een *vermindering van de belasting*, niet op een *aftrek van de netto-inkomsten*. 📖\n- **c** — JUIST voor aj 2013. Art. 104, 1° WIB92 voorzag toen in 80% aftrek van regelmatig betaalde onderhoudsuitkeringen aan niet-gezinsleden krachtens BW/GW of de wet wettelijke samenwoning, idem 80% van vervangende kapitalen. (De huidige WIB-tekst zegt 70%; dat percentage werd later gewijzigd — voor aj 2013 gold nog 80%.) ❓\n- **d** — JUIST. Art. 106 WIB92 + art. 56 KB/WIB92: de aftrekbare bestedingen worden evenredig aangerekend op de verschillende categorieën van netto-inkomsten. 📖\n- **e** — JUIST. Art. 104 WIB92, aanhef: bestedingen zijn aftrekbaar \"in zover zij in het belastbare tijdperk werkelijk zijn betaald\" (kasstelsel). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Klassieke distractor: het **systematisch verschil** aftrekbare besteding ↔ belastingvermindering. Een aftrekbare besteding verlaagt het *belastbaar inkomen* en werkt aan de marginale aanslagvoet; een belastingvermindering verlaagt rechtstreeks de *belasting* (meestal aan een vast tarief). Sinds aanslagjaar 2013 is de lijst aftrekbare bestedingen in art. 104 WIB92 sterk afgeslankt (in essentie: onderhoudsuitkeringen + 50% beschermde monumenten). Kinderopvang, giften, PWA/dienstencheques enz. zijn naar art. 14524 e.v. WIB92 verhuisd als belastingverminderingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 104 WIB92 (aftrekbare bestedingen — kasstelsel, limitatieve lijst) ↔ art. 14535 WIB92 (belastingvermindering voor kinderoppas, sinds aanslagjaar 2013); art. 105 WIB92 (aanrekening bij gemeenschappelijke aanslag); art. 106 WIB92 + art. 56 KB/WIB92 (evenredige toerekening over inkomstencategorieën). 📖",
+          "wetsref": "Art. 104, 14535, 105, 106 WIB92; art. 56 KB/WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

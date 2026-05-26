@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr28",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** is de ONJUISTE uitspraak. Art. 129 WIB92 maakt **geen** uitzondering voor echtgenoten gehuwd onder scheiding van goederen — het overschot aan beroepsverliezen wordt op de positieve beroepsinkomsten van de andere echtgenoot aangerekend, ongeacht het huwelijksvermogensstelsel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** — JUIST. Art. 23, § 2, 1° WIB92 legt de eerste stap vast: een beroepsverlies in één werkzaamheid wordt eerst gecompenseerd met positieve beroepsinkomsten van dezelfde belastingplichtige uit andere beroepswerkzaamheden binnen hetzelfde tijdperk (horizontale, intra-persoonlijke compensatie). 🔗\n- **b** — JUIST. Het beroepsverlies wordt eerst aangerekend op de gezamenlijk belaste beroepsinkomsten en het saldo daarna proportioneel op de afzonderlijk belaste beroepsinkomsten (uitvoeringsregels art. 78 WIB92 / art. 63 KB/WIB92). 🔗\n- **c** — ONJUIST. Art. 129 WIB92 bepaalt onvoorwaardelijk dat het saldo wordt aangerekend op de inkomsten van de andere echtgenoot wanneer een gemeenschappelijke aanslag wordt gevestigd. Er is **geen** uitsluiting voor het stelsel van scheiding van goederen — de inter-echtgenootlijke verlies-aanrekening volgt uit de gemeenschappelijke aanslag, niet uit het huwelijksvermogensstelsel. 📖\n- **d** — JUIST. Art. 78, § 1 WIB92: vorige beroepsverliezen worden achtereenvolgens afgetrokken van de beroepsinkomsten van elk **volgend** belastbaar tijdperk — onbeperkte overdracht in de tijd. 📖\n- **e** — JUIST. Wanneer het meewerkinkomen (art. 86 WIB92) van de begunstigde echtgenoot al door eigen beroepsverliezen wordt opgeslorpt, mag het huwelijksquotiënt (art. 87 WIB92) niet bovenop dat verloren meewerkinkomen worden toegekend zonder vermindering — anders zou de aanzuivering dubbel werken. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **inter-echtgenootlijke verlies-aanrekening** (art. 129 WIB92, gestuurd door de **gemeenschappelijke aanslag**) niet met de **fiscale gevolgen van het huwelijksvermogensstelsel** voor de inkomsten-toerekening zelf (eigen inkomsten ↔ gemeenschappelijke inkomsten). Het stelsel van scheiding van goederen verandert **wie** welke beroepsinkomsten aangeeft, maar **niet** de regel dat het overschot aan beroepsverliezen op de andere echtgenoot wordt aangerekend. De enige uitsluitingen van de gemeenschappelijke aanslag zijn de wettelijke uitzonderingen van art. 126 WIB92 (jaar huwelijk, feitelijke scheiding, overlijden onder bepaalde voorwaarden). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 129 WIB92**: \"Wanneer de inkomsten van een echtgenoot onvoldoende zijn om de overeenkomstig de artikelen 23, § 2, 2° en 3° en 103, aftrekbare verliezen erop aan te zuiveren, wordt het saldo aangerekend op de inkomsten van de andere echtgenoot met inachtneming van de in die artikelen gestelde beperkingen.\" Geen verwijzing naar het huwelijksvermogensstelsel. Aanvullend: art. 23 § 2 WIB92 (volgorde van compensatie), art. 78 § 1 WIB92 (overdracht naar volgende tijdperken), art. 86-87 WIB92 (meewerkinkomen + huwelijksquotiënt), art. 63 KB/WIB92 (uitvoering aanrekening). 📖",
+          "wetsref": "Art. 129 WIB92 (+ art. 23 § 2, art. 78 § 1, art. 86, art. 87 WIB92; art. 63 KB/WIB92)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

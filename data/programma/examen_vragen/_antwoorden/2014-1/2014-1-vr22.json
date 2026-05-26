@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr22",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "e",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **e** — het kind van een alleenstaande met \"bruto bestaansmiddelen van max. 3.737,50 EUR\" kan **niet** als persoon ten laste worden beschouwd zoals omschreven: de wet kijkt naar de **netto** bestaansmiddelen (art. 142 WIB92), en het cijfer 3.737,50 EUR stemt voor aanslagjaar 2013 niet overeen met de wettelijke drempel voor een kind van een alleenstaande. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** (afstammelingen: kinderen, kleinkinderen, achterkleinkinderen) → JUIST. Art. 136, 1° WIB92 noemt \"hun kinderen\"; afstammelingen in rechte neerdalende lijn zijn de typische categorie ptL. 📖\n- **b** (kinderen vóór hun meerderjarigheid volledig of hoofdzakelijk ten laste genomen) → JUIST. Deze pleegkinderen / ten laste genomen kinderen worden voor de toepassing van Titel II met eigen kinderen gelijkgesteld (art. 2, §1, 5° WIB92) en vallen onder art. 136, 1°. 🔗\n- **c** (ouders, grootouders, overgrootouders van de bp of zijn echtgenoot) → JUIST. Art. 136, 2° WIB92: \"hun ascendenten\". 📖\n- **d** (kinderen die op 1 januari van het aanslagjaar deel uitmaken van het gezin) → JUIST. Dit is precies de gezinsvoorwaarde van art. 136 WIB92 (\"mits zij deel uitmaken van hun gezin op 1 januari van het aanslagjaar\"). 📖\n- **e** (kind van alleenstaande met max. **bruto** bestaansmiddelen van 3.737,50 EUR voor aj 2013) → FOUT op twee punten: (i) de wet hanteert het **netto**bedrag van de bestaansmiddelen (art. 142 WIB92), niet het brutobedrag; (ii) het bedrag 3.737,50 EUR stemt niet overeen met de geïndexeerde drempel voor een kind van een alleenstaande in aj 2013 (die lag op ca. 4.440 EUR netto). De omschrijving zoals geformuleerd komt dus niet overeen met een geldige PtL-categorie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar **bruto** en **netto** bestaansmiddelen niet. Art. 142 WIB92 definieert het nettobedrag als bruto verminderd met de kosten gemaakt om de middelen te verkrijgen of te behouden (bij gebrek aan bewijs forfaitair 20%, minimum 250 EUR voor bezoldigingen/baten). Bovendien telt art. 143 WIB92 een reeks inkomsten **niet** mee (o.a. wettelijke kinderbijslag, onderhoudsgelden tot 1.800 EUR/jaar, eerste schijf van studentenarbeid). Een MC-optie die de drempel als \"bruto\" omschrijft is daarom per definitie incorrect, los van het exacte cijfer. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Categorieën ptL: art. 136 WIB92 (kinderen, ascendenten, zijverwanten t.e.m. 2e graad, personen van wie de bp als kind ten laste was) — gezinsvoorwaarde op 1 januari aanslagjaar + nettobestaansmiddelen ≤ 1.800 EUR (basisbedrag, te indexeren). Art. 141 WIB92 verhoogt deze drempel voor kinderen ten laste, met een nog hogere drempel voor een kind van een alleenstaande. Art. 142 WIB92 omschrijft \"netto\". Art. 143 WIB92 somt vrijgestelde bestaansmiddelen op. 📖",
+          "wetsref": "Art. 136, 141, 142, 143 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

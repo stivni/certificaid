@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2014-1.pdf",
   "examen_id": "2014-1",
-  "merge_datum": "2026-05-26T15:37:26+00:00",
+  "merge_datum": "2026-05-26T16:23:57+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4004,7 +4004,56 @@
       "vraag_id": "2014-1-vr21"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **e** — het kind van een alleenstaande met \"bruto bestaansmiddelen van max. 3.737,50 EUR\" kan **niet** als persoon ten laste worden beschouwd zoals omschreven: de wet kijkt naar de **netto** bestaansmiddelen (art. 142 WIB92), en het cijfer 3.737,50 EUR stemt voor aanslagjaar 2013 niet overeen met de wettelijke drempel voor een kind van een alleenstaande. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** (afstammelingen: kinderen, kleinkinderen, achterkleinkinderen) → JUIST. Art. 136, 1° WIB92 noemt \"hun kinderen\"; afstammelingen in rechte neerdalende lijn zijn de typische categorie ptL. 📖\n- **b** (kinderen vóór hun meerderjarigheid volledig of hoofdzakelijk ten laste genomen) → JUIST. Deze pleegkinderen / ten laste genomen kinderen worden voor de toepassing van Titel II met eigen kinderen gelijkgesteld (art. 2, §1, 5° WIB92) en vallen onder art. 136, 1°. 🔗\n- **c** (ouders, grootouders, overgrootouders van de bp of zijn echtgenoot) → JUIST. Art. 136, 2° WIB92: \"hun ascendenten\". 📖\n- **d** (kinderen die op 1 januari van het aanslagjaar deel uitmaken van het gezin) → JUIST. Dit is precies de gezinsvoorwaarde van art. 136 WIB92 (\"mits zij deel uitmaken van hun gezin op 1 januari van het aanslagjaar\"). 📖\n- **e** (kind van alleenstaande met max. **bruto** bestaansmiddelen van 3.737,50 EUR voor aj 2013) → FOUT op twee punten: (i) de wet hanteert het **netto**bedrag van de bestaansmiddelen (art. 142 WIB92), niet het brutobedrag; (ii) het bedrag 3.737,50 EUR stemt niet overeen met de geïndexeerde drempel voor een kind van een alleenstaande in aj 2013 (die lag op ca. 4.440 EUR netto). De omschrijving zoals geformuleerd komt dus niet overeen met een geldige PtL-categorie. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "kop": "Valkuil",
+                "tekst": "Verwar **bruto** en **netto** bestaansmiddelen niet. Art. 142 WIB92 definieert het nettobedrag als bruto verminderd met de kosten gemaakt om de middelen te verkrijgen of te behouden (bij gebrek aan bewijs forfaitair 20%, minimum 250 EUR voor bezoldigingen/baten). Bovendien telt art. 143 WIB92 een reeks inkomsten **niet** mee (o.a. wettelijke kinderbijslag, onderhoudsgelden tot 1.800 EUR/jaar, eerste schijf van studentenarbeid). Een MC-optie die de drempel als \"bruto\" omschrijft is daarom per definitie incorrect, los van het exacte cijfer. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Categorieën ptL: art. 136 WIB92 (kinderen, ascendenten, zijverwanten t.e.m. 2e graad, personen van wie de bp als kind ten laste was) — gezinsvoorwaarde op 1 januari aanslagjaar + nettobestaansmiddelen ≤ 1.800 EUR (basisbedrag, te indexeren). Art. 141 WIB92 verhoogt deze drempel voor kinderen ten laste, met een nog hogere drempel voor een kind van een alleenstaande. Art. 142 WIB92 omschrijft \"netto\". Art. 143 WIB92 somt vrijgestelde bestaansmiddelen op. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 136, 141, 142, 143 WIB92"
+              }
+            ],
+            "gekozen_optie_id": "e",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr22"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -4075,7 +4124,56 @@
       "vraag_id": "2014-1-vr22"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** is de onjuiste stelling. Art. 87 WIB92 koppelt het huwelijksquotiënt enkel aan het feit dat **slechts één echtgenoot beroepsinkomsten** heeft — de toevoeging \"of onroerende inkomsten\" hoort niet bij de voorwaarde. Het percentage (30 %) en het geïndexeerde plafond (9.810 EUR voor AJ 2013, basisbedrag 6.700 EUR) zijn op zich correct, maar de voorwaarde zelf is fout geformuleerd. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** — JUIST. Het huwelijksquotiënt (art. 87-88 WIB92) veronderstelt een **gemeenschappelijke aanslag**; dat regime geldt voor gehuwden en (via art. 2, 2° WIB92) voor wettelijk samenwonenden, die verplicht een gezamenlijke aangifte indienen (art. 126 WIB92). 🔗\n- **b** — ONJUIST. Art. 87 WIB92 spreekt enkel over de situatie waarin slechts één echtgenoot **beroepsinkomsten** heeft verkregen. **Onroerende inkomsten** spelen geen rol in de toepassingsvoorwaarde — die worden in het kader van een gemeenschappelijke aanslag sowieso afzonderlijk per echtgenoot belast (art. 127 WIB92). Het bedrag 9.810 EUR (= 6.700 EUR basisbedrag, geïndexeerd voor AJ 2013) en 30 % zijn op zich juist, maar de stelling is fout door de toegevoegde voorwaarde. 📖\n- **c** — JUIST. Het doel is wel degelijk de belastingdruk te verlagen door virtuele toerekening van een deel van de inkomsten van de meest verdienende echtgenoot aan de andere, zodat het progressievoordeel benut wordt. 🔗\n- **d** — JUIST. Art. 87 en 88 WIB92 sluiten beide expliciet toepassing uit \"wanneer daardoor de belasting (...) wordt verhoogd\" — het huwelijksquotiënt is dus enkel van toepassing voor zover het gunstig is. 📖\n- **e** — JUIST. Wanneer de beroepsinkomsten uit meerdere categorieën komen (bezoldigingen, winst, baten, …), wordt het toegerekende quotiënt geacht prorata dezelfde samenstelling te hebben. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar het **huwelijksquotiënt** (art. 87 WIB92 — toerekening wanneer slechts één echtgenoot beroepsinkomsten heeft) niet met het **meewerkinkomen** (art. 86 WIB92 — toekenning aan de feitelijk meewerkende echtgenoot, ook 30 % maar plafond 8.700 EUR basisbedrag) of met de **toerekening bij gering beroepsinkomen** (art. 88 WIB92 — wanneer de inkomsten van één echtgenoot minder dan 30 % van het totaal bedragen). Alle drie staan onder dezelfde afdeling \"Toekenning en toerekening van een deel van de beroepsinkomsten aan de echtgenoot\", maar hebben verschillende toepassingsvoorwaarden. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 87 WIB92**: \"Wanneer een gemeenschappelijke aanslag wordt gevestigd en slechts één van de echtgenoten beroepsinkomsten heeft verkregen, wordt een deel daarvan toegerekend aan de andere echtgenoot (...). Dat deel bedraagt 30 pct. van die inkomsten, doch mag niet hoger zijn dan 6.700 EUR.\" 📖 — Basisbedrag is niet-geïndexeerd; voor aanslagjaar 2013 wordt dit geïndexeerd tot 9.810 EUR (Cijferzakboekje). **Art. 88 WIB92**: variant wanneer beide echtgenoten beroepsinkomsten hebben maar de ene minder dan 30 % van het totaal. **Art. 2, 2° WIB92**: gelijkstelling wettelijk samenwonenden met echtgenoten. Beide artikelen sluiten toepassing uit \"wanneer daardoor de belasting Staat (...) wordt verhoogd\".",
+                "type": "grondslag",
+                "wetsref": "Art. 87-88 WIB92; art. 2, 2° WIB92"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr23"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -4146,7 +4244,65 @@
       "vraag_id": "2014-1-vr23"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **c** is onmogelijk. Bij gemeubileerde verhuur wordt de huurprijs forfaitair gesplitst in 60% onroerend inkomen en 40% roerend inkomen (art. 4 KB/WIB92), zodat \"100% van het KI onderworpen aan de PB\" als belastbare grondslag onjuist is — het belastbare onroerende inkomen wordt bovendien niet bepaald op het KI maar op de werkelijke (netto) huur wanneer aan een beroepsgebruiker of rechtspersoon wordt verhuurd. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Doorlopen van elke optie tegen art. 7-13 WIB92 en art. 32, 3° WIB92:\n\n- **a — eigen woonhuis, niet aangegeven**: MOGELIJK. De eigen woning is sinds aj. 2006 vrijgesteld van PB (art. 12 §3 WIB92) en moet sinds aj. 2015 niet meer aangegeven worden in vak III. 🔗\n- **b — gedeeltelijk beroepsgebruik, vrijstelling op beroepsdeel KI**: MOGELIJK. Het deel van het KI dat overeenstemt met het beroepsgebruik wordt niet als onroerend inkomen belast (art. 7 §1, 1° i.s.m. art. 38), omdat het al via de beroepsinkomsten in aanmerking komt. 🔗\n- **c — gemeubileerd verhuurd, 100% KI in PB**: ONMOGELIJK. Bij gemeubileerde verhuur splitst art. 4 KB/WIB92 de huurprijs in 60% OI en 40% RI; bovendien is bij verhuur de belastbare basis ofwel KI × 1,40 (verhuur aan privé) ofwel de werkelijke netto-huur (verhuur aan beroep/rechtspersoon, geplafonneerd op KI × revalorisatiecoëfficiënt × 2/3) — niet \"100% van het KI\". 🔗\n- **d — verhuurd aan een vzw**: MOGELIJK. Een vzw is een rechtspersoon (geen natuurlijke persoon die het goed voor woondoeleinden gebruikt), dus art. 7 §1, 2°, c WIB92 is van toepassing: belasting op de werkelijke huur en huurlasten (verminderd met 40% kostenforfait, met plafond). 🔗\n- **e — verhuurd aan eigen vennootschap, geen herkwalificatie**: MOGELIJK. Drempel = 5/3 × KI × revalorisatiecoëfficiënt = 5/3 × 5.000 × 4,10 = **34.166,67 EUR**. Werkelijke jaarhuur = 500 × 12 = **6.000 EUR**. 6.000 < 34.167, dus geen herkwalificatie naar bezoldiging (art. 32, 3° WIB92). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Toets herkwalificatie optie e",
+                "tekst": "| Grootheid | Waarde |\n|---|---|\n| Niet-geïndexeerd KI | 5.000 EUR |\n| Revalorisatiecoëfficiënt (aj. 2013) | 4,10 |\n| Drempel = 5/3 × KI × revalorisatie | 5/3 × 5.000 × 4,10 = **34.166,67 EUR** |\n| Werkelijke jaarhuur (500 × 12) | **6.000 EUR** |\n| Excedent boven drempel | 0 EUR — geen herkwalificatie 🔗 |\n\nDe huur blijft volledig onroerend inkomen; er wordt niets als bezoldiging geherkwalificeerd. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Vermijd verwarring tussen drie verschillende belastbare grondslagen voor onroerende inkomsten: (i) **niet verhuurd / verhuurd aan privé voor woongebruik** → geïndexeerd KI (× 1,40 voor gebouwen, art. 7 §1, 1°-2°a); (ii) **verhuurd aan beroep of rechtspersoon (niet-pacht)** → werkelijke netto-huur, geplafonneerd op KI × revalorisatiecoëfficiënt × 2/3 (art. 7 §1, 2°, c + art. 13); (iii) **gemeubileerd verhuurd** → boven op (i) of (ii) een opsplitsing 60% OI / 40% RI van de huurprijs (art. 4 KB/WIB92). De zinsnede \"100% van het KI in de PB\" in optie c slaat op geen enkele van die regimes. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 7 WIB92 (belastbare onroerende inkomsten — KI, geïndexeerd KI × 1,40, of werkelijke huur naargelang gebruik en huurder). 📖 Art. 8 WIB92 (gemengde verhuur — afzonderlijke vaststelling beroeps- vs. privégedeelte bij geregistreerde overeenkomst). 📖 Art. 13 WIB92 (netto-OI = brutohuur − 40% kostenforfait, geplafonneerd op 2/3 × KI × revalorisatiecoëfficiënt; revalorisatiecoëfficiënt = 4,10 voor aj. 2013). 📖 Art. 32, 3° WIB92 (herkwalificatie huurprijs tot bedrijfsleidersbezoldiging boven 5/3 × KI × revalorisatiecoëfficiënt bij verhuur aan eigen vennootschap). 📖 Art. 12 §3 WIB92 (vrijstelling eigen woning). 📖 Art. 4 KB/WIB92 (60/40-splitsing gemeubileerde verhuur). 🔗",
+                "type": "grondslag",
+                "wetsref": "WIB92 art. 7, 8, 12 §3, 13, 32, 3°; KB/WIB92 art. 4"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr24"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4223,7 +4379,58 @@
       "vraag_id": "2014-1-vr24"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Optie **a** — Erelonen voor advies verstrekt buiten het kader van een echt beroep zijn het schoolvoorbeeld van **occasionele baten** in de zin van art. 90, 1° WIB 1992: een prestatie/dienst aan derden, buiten een beroepswerkzaamheid en buiten het normaal beheer van een privévermogen. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 90, 1° viseert *\"winst of baten, hoe ook genaamd, die zelfs occasioneel of toevallig, buiten het uitoefenen van een beroepswerkzaamheid, voortkomen uit enige prestatie, verrichting of speculatie of uit diensten bewezen aan derden, daaronder niet begrepen normale verrichtingen van beheer van een privévermogen\"*. 📖\n\n**Per optie:**\n- **a) Erelonen voor advies buiten echt beroep** → **JUIST** — typische occasionele dienstverlening aan derden, valt rechtstreeks onder art. 90, 1°. 🔗\n- **b) Prijzen tombola's / toegelaten loterijen / Nationale Loterij** → FOUT — toegelaten loterijen en de Nationale Loterij zijn **vrijgesteld** van personenbelasting (afzonderlijke taks op de spelen en weddenschappen; vrijstelling toegelaten loterijen art. 2.12.6.0.1 VCF). Niet art. 90, 1°. 🔗\n- **c) Winsten van occasionele verrichtingen op de effecten- of termijnbeurs** → FOUT — louter occasionele beursverrichtingen vallen in de regel onder het **\"normaal beheer van een privévermogen\"** dat art. 90, 1° expliciet uitsluit; enkel duidelijk **speculatieve** verrichtingen (abnormaal frequent, met geleend geld, ...) worden belast. De optie stelt occasioneel = belastbaar, wat te ruim is. 🔗\n- **d) Interesten bij laattijdige betaling na volledige en definitieve stopzetting** → FOUT — dit zijn **inkomsten van een vorige beroepswerkzaamheid** in de zin van art. 28 WIB (verkregen na stopzetting maar voortkomend uit die vorige werkzaamheid), niet art. 90, 1°. 📖\n- **e) Prijzen uit publiciteitswedstrijden in pers/radio/tv** → FOUT — deze prijzen vallen onder een eigen categorie diverse inkomsten (loten/prijzen, art. 90, 6°-gerelateerd, met taks op spelen en weddenschappen), niet onder de occasionele winst-of-baten-categorie van **art. 90, 1°**. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Optie **c** is de klassieke afleider: \"occasionele\" beursverrichtingen lijken te passen bij \"occasionele baten\", maar art. 90, 1° sluit *\"normale verrichtingen van beheer van een privévermogen bestaande uit ... portefeuillewaarden\"* uitdrukkelijk uit. Enkel **speculatieve** verrichtingen (abnormaal risicovol, met geleend geld, hoge frequentie) worden belast — een loutere occasionele aan- en verkoop op de effectenbeurs is dat niet. De rechtspraak hanteert hier het criterium \"goede huisvader\". 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/VCF.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 90, 1° WIB 1992 viseert winst of baten die — zelfs occasioneel of toevallig — voortkomen uit *enige prestatie, verrichting of speculatie of uit diensten bewezen aan derden*, buiten een beroepswerkzaamheid en buiten het normaal beheer van een privévermogen. Loterijprijzen vallen onder de taks op de spelen (vrijstelling toegelaten loterijen: art. 2.12.6.0.1 VCF). Inkomsten na stopzetting beroep: art. 28 WIB. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 90, 1° WIB 1992; art. 28 WIB 1992; art. 2.12.6.0.1 VCF"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr25"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -4294,7 +4501,57 @@
       "vraag_id": "2014-1-vr25"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Optie **e** — stopzettingsmeerwaarden op immateriële vaste activa, met als plafond (\"fiscaal maximumbedrag\") de belastbare nettowinst of -baten van de vier voorafgaande jaren. Dit is letterlijk de hypothese van art. 171, 1°, c WIB92. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md",
+                  "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie:\n\n- **a** — Activa die **niet** voor de beroepswerkzaamheid werden gebruikt → FOUT. Het gaat dan niet om beroepsmeerwaarden onder art. 171, 1°, c, maar om diverse inkomsten (art. 90 WIB92) met een eigen taxatieregeling. De omschrijving (\"immateriële of materiële vaste activa\" terwijl ze net níét voor het beroep werden gebruikt) is bovendien contradictoir — vaste activa veronderstellen beroepsgebruik. 🔗\n- **b** — Materiële vaste activa < 5 jaar in beroep gebruikt → FOUT. Het bijzondere tarief van **16,5 %** (art. 171, 4°, b WIB92) geldt enkel voor MVA die **méér dan 5 jaar** voor de beroepswerkzaamheid werden gebruikt. MVA die korter werden gebruikt, vallen onder het **progressieve** (gezamenlijke) tarief — niet 33 %. 🔗\n- **c** — IVA bij **gedwongen** vervreemding → FOUT op tarief. Gedwongen vervreemding (en stopzetting ≥ 60 jaar / overlijden) wordt aan **10 %** belast (art. 171, 4°, b → cross-ref art. 171, 2° voor stopzettingsmeerwaarden), niet aan 33 %. 🔗\n- **d** — IVA bij stopzetting door belastingplichtige **> 60 jaar** → FOUT op tarief. Net als bij gedwongen stopzetting: **10 %**, niet 33 % (art. 171, 4°, b WIB92). 🔗\n- **e** — IVA bij **vrijwillige stopzetting vóór 60 jaar**, met plafond gelijk aan de belastbare nettowinst of -baten van de **vier voorafgaande jaren** → JUIST. Exact de hypothese van art. 171, 1°, c WIB92: 33 %, tenzij globalisering voordeliger uitvalt. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Drie tarieven door elkaar: **10 %** voor stopzetting ≥ 60 jaar / gedwongen stopzetting / overlijden (art. 171, 4°, b), **16,5 %** voor meerwaarden op MVA die **> 5 jaar** voor het beroep zijn gebruikt bij vrijwillige stopzetting < 60 jaar (art. 171, 4°, b), en **33 %** voor stopzettingsmeerwaarden op **immateriële** vaste activa bij vrijwillige stopzetting vóór 60 jaar (art. 171, 1°, c). Opties c en d klinken plausibel maar zetten het verkeerde tarief naast de juiste hypothese. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 171, 1°, c WIB92: \"stopzettingsmeerwaarden op immateriële vaste activa als vermeld in artikel 28, eerste lid, 1° ... in zover zij niet meer bedragen dan de belastbare nettowinst of -baten die in de vier jaren voorafgaand aan het jaar van de stopzetting of de vermindering van de werkzaamheid uit de niet meer uitgeoefende werkzaamheid zijn verkregen\" → 33 %, behoudens globalisering. Het meerdere boven dat plafond is progressief belast. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 171, 1°, c WIB92"
+              }
+            ],
+            "gekozen_optie_id": "e",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr26"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -4366,7 +4623,56 @@
       "vraag_id": "2014-1-vr26"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2014-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** is **niet juist** voor aanslagjaar 2013. Kinderoppas was vanaf aanslagjaar 2013 geen aftrekbare besteding meer, maar een **belastingvermindering** (art. 14535 WIB92). De stelling kwalificeert ze ten onrechte als \"aftrekbaar\". 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Per optie voor aanslagjaar 2013:\n\n- **a** — JUIST. Cumulverbod: uitgaven die recht geven op een belastingvermindering mogen niet eerst als beroepskost of andere aftrek de netto-inkomsten verminderen (zie cumulclausules in o.a. art. 14535, 14536, 14531: \"niet van toepassing op uitgaven die in aanmerking genomen zijn als werkelijke beroepskosten\"). 🔗\n- **b** — **FOUT**. Vanaf aanslagjaar 2013 werd de kinderoppas-regeling omgezet van aftrekbare besteding (oud art. 104, 7° WIB92) naar **belastingvermindering** (art. 14535 WIB92). De uitgaven geven dus recht op een *vermindering van de belasting*, niet op een *aftrek van de netto-inkomsten*. 📖\n- **c** — JUIST voor aj 2013. Art. 104, 1° WIB92 voorzag toen in 80% aftrek van regelmatig betaalde onderhoudsuitkeringen aan niet-gezinsleden krachtens BW/GW of de wet wettelijke samenwoning, idem 80% van vervangende kapitalen. (De huidige WIB-tekst zegt 70%; dat percentage werd later gewijzigd — voor aj 2013 gold nog 80%.) ❓\n- **d** — JUIST. Art. 106 WIB92 + art. 56 KB/WIB92: de aftrekbare bestedingen worden evenredig aangerekend op de verschillende categorieën van netto-inkomsten. 📖\n- **e** — JUIST. Art. 104 WIB92, aanhef: bestedingen zijn aftrekbaar \"in zover zij in het belastbare tijdperk werkelijk zijn betaald\" (kasstelsel). 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Klassieke distractor: het **systematisch verschil** aftrekbare besteding ↔ belastingvermindering. Een aftrekbare besteding verlaagt het *belastbaar inkomen* en werkt aan de marginale aanslagvoet; een belastingvermindering verlaagt rechtstreeks de *belasting* (meestal aan een vast tarief). Sinds aanslagjaar 2013 is de lijst aftrekbare bestedingen in art. 104 WIB92 sterk afgeslankt (in essentie: onderhoudsuitkeringen + 50% beschermde monumenten). Kinderopvang, giften, PWA/dienstencheques enz. zijn naar art. 14524 e.v. WIB92 verhuisd als belastingverminderingen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 104 WIB92 (aftrekbare bestedingen — kasstelsel, limitatieve lijst) ↔ art. 14535 WIB92 (belastingvermindering voor kinderoppas, sinds aanslagjaar 2013); art. 105 WIB92 (aanrekening bij gemeenschappelijke aanslag); art. 106 WIB92 + art. 56 KB/WIB92 (evenredige toerekening over inkomstencategorieën). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 104, 14535, 105, 106 WIB92; art. 56 KB/WIB92"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2014-1-vr27"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],

@@ -1,0 +1,55 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF5",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — een uitgave gedaan in 2006 die betrekking heeft op een door een handelaar pas in 2007 te realiseren meerwaarde, hoort fiscaal thuis bij de gezamenlijk belastbare winst van het belastbaar tijdperk 2007 (matching tussen kosten van overdracht en de meerwaarde). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a — JUIST.** Kosten die rechtstreeks verband houden met de realisatie van een meerwaarde worden fiscaal gematcht met het belastbaar tijdperk waarin die meerwaarde wordt verwezenlijkt. De aangifte PB voorziet dit expliciet (rubriek 7a — \"kosten van overdracht van activa waarop u in het belastbare tijdperk een (al dan niet belastbare) meerwaarde hebt verwezenlijkt\"). De uitgave 2006 volgt dus de meerwaarde 2007. 📖\n- **b — FOUT.** Een tantième is een bedrijfsleidersbezoldiging (art. 32, 1° WIB92). Beslissend voor de toerekening is het moment van **toekenning** door de algemene vergadering, niet het boekjaar waarop het tantième economisch slaat. Toekenning op 15.04.2008 → belastbaar in hoofde van de bedrijfsleider voor het belastbaar tijdperk **2008** (aanslagjaar 2009), niet 2007. 🔗\n- **c — FOUT.** Bezoldigingen van werknemers worden belast in het jaar waarin ze **zijn betaald of toegekend** (beschikbaarheidscriterium — art. 360 WIB92 jo. art. 204 KB/WIB92). Een achterstallige bezoldiging die door een geschil pas in 2008 wordt uitbetaald, is in beginsel een belastbaar inkomen van **2008**, met aparte regeling voor achterstallen (afzonderlijke aanslag, art. 171 WIB92). 🔗\n- **d — FOUT.** Voor vrije beroepen (baten, art. 27 WIB92) geldt het kasstelsel: belastbaar in het jaar van **inning**. De ereloonnota is opgemaakt in 2007, maar de betaling valt in 2008, dus het ereloon hoort tot het belastbaar tijdperk **2008**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Tantième ≠ bezoldiging-met-prestatieperiode.** Doordat een tantième pas ontstaat door de winstbestemming op de algemene vergadering, valt het toekenningsjaar (en dus het belastbaar tijdperk in hoofde van de bedrijfsleider) **na** het boekjaar waarop het slaat. Bij de uitkerende vennootschap blijft het tantième wel een kost van het boekjaar waarop het betrekking heeft (CBN-advies 2016/15 — boeking op 695 / 472 op afsluitdatum). Dit is een klassieke time-mismatch: kost-jaar vennootschap = N, belastbaar jaar bedrijfsleider = N+1. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2016-15-vergoedingen-aan-bestuurders-en-werkende-vennoten.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 360 WIB92** — de voor een aanslagjaar verschuldigde belasting wordt gevestigd op de inkomsten die de belastingplichtige in het belastbare tijdperk heeft **verkregen**. **Art. 204 KB/WIB92** concretiseert: bezoldigingen zijn belastbaar in het jaar van betaling of toekenning (beschikbaarheidscriterium). **Art. 49 WIB92** (kosten) en de matching met meerwaarden (aangifte PB rubriek 7a) verankeren optie a. **Art. 32, 1° WIB92** kwalificeert tantièmes als bedrijfsleidersbezoldiging — toerekening volgt de toekenning, niet het onderliggende boekjaar van de vennootschap. 📖",
+          "wetsref": "Art. 360 WIB92 · Art. 204 KB/WIB92 · Art. 32, 1° WIB92 · Art. 49 WIB92 · Aangifte PB rubriek 7a",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md",
+            "resources/bronnen/adviezen/CBN-2016-15-vergoedingen-aan-bestuurders-en-werkende-vennoten.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

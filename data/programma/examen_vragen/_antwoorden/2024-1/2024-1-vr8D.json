@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr8D",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Belastbare basis aanslagjaar 2023 = 90.000 euro.** Berekening: 100.000 (winst vóór belasting) − 10.000 (tantième, aftrekbare beroepskost) = 90.000. Het dividend van 20.000 is **niet** aftrekbaar — het maakt deel uit van de uitgekeerde winst die volgens art. 185 §1 WIB92 mee belastbaar is. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "| Stap | Bedrag |\n|---|---:|\n| Winst vóór belasting (vóór winstuitkering) | 100.000 |\n| − Tantième (bezoldiging bedrijfsleider, art. 195 + art. 32, 1° WIB92) | − 10.000 |\n| = Belastbaar resultaat (= belastbare basis vóór aftrekken) | **90.000** |\n| Dividend van 20.000 → géén correctie (zit in de belastbare winst, art. 185 §1) | 0 |\n\nDe Belgische belasting van 20.000 euro die in de casus vermeld staat, is de **boekhoudkundige** vennootschapsbelastinglast en speelt fiscaal geen rol bij het bepalen van de belastbare basis: belastingen op het resultaat (rekening 67) zijn verworpen uitgaven (art. 198, §1, 1° WIB92) en worden bij de winst gevoegd — maar in deze casus geeft de stelling \"winst voor belasting 100.000 (voor winstuitkering)\" net dat startpunt vóór aftrek van de venB-last, dus geen extra correctie nodig. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Tantième ≠ dividend** — fiscaal een wereld van verschil. Het tantième is een **bezoldiging van de bedrijfsleider** (art. 32, eerste lid, 1° WIB92 noemt expliciet \"vaste of veranderlijke tantièmes\") en is via art. 195 WIB92 aftrekbaar als beroepskost van de vennootschap. Het dividend is een **uitkering van winst** aan aandeelhouders en blijft volgens art. 185 §1 WIB92 deel van de belastbare basis (\"vennootschappen zijn belastbaar op het totale bedrag van de winst, uitgekeerde dividenden inbegrepen\"). Wie het tantième zou vergeten af te trekken of het dividend ten onrechte zou aftrekken, komt op een verkeerde belastbare basis uit. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 185, §1 WIB92** (Belastinggrondslag VenB): \"Vennootschappen zijn belastbaar op het totale bedrag van de winst, uitgekeerde dividenden inbegrepen ...\" — dividenden zijn dus **niet** aftrekbaar. 📖\n\n**Art. 195, §1 WIB92** (Beroepskosten VenB): \"Bedrijfsleiders worden voor de toepassing van de bepalingen inzake beroepskosten met werknemers gelijkgesteld en hun bezoldigingen en de ermede verband houdende sociale lasten worden als beroepskosten aangemerkt.\" Gecombineerd met **art. 32, eerste lid, 1° WIB92** dat tantièmes uitdrukkelijk als bezoldiging van bedrijfsleiders kwalificeert → tantième is aftrekbaar. 📖",
+          "wetsref": "art. 185 §1 WIB92; art. 195 §1 WIB92; art. 32, eerste lid, 1° WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

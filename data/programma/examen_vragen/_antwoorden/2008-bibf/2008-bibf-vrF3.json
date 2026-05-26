@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF3",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Totaal belastingvoordeel = **1 008,00 EUR**, omgedeeld over de echtgenoten pro rata hun belastbaar inkomen: **670,02 EUR voor de aangever** en **337,98 EUR voor de partner**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — Plafonneer de uitgaven per belastingplichtige (AJ 2008: max. 2 360 EUR/persoon):** 📖\n- Aangever: aankoop 3 000,00 → geplafonneerd op **2 360,00 EUR**.\n- Partner: aankoop 1 000,00 → **1 000,00 EUR** (onder plafond).\n\n**Stap 2 — Pas tarief 30 % toe:** 📖\n- 2 360 × 30 % = **708,00**\n- 1 000 × 30 % = **300,00**\n- Totaal belastingvermindering = **1 008,00 EUR**\n\n**Stap 3 — Omdeling bij gemeenschappelijke aanslag (art. 14523 § 1 WIB92):** 🔗\nDe vermindering wordt evenredig omgedeeld in functie van het inkomen van elke echtgenoot. In het modelantwoord wordt de breuk berekend op het **totale netto-inkomen** (33 900 + 17 100 = 51 000):\n- Aangever: 1 008 × 33 900 / 51 000 = **670,02 EUR**\n- Partner: 1 008 × 17 100 / 51 000 = **337,98 EUR**\n- Som: 1 008,00 EUR ✓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Art. 14523 § 1 WIB92 spreekt letterlijk van \"het overeenkomstig artikel 130 belaste inkomen\" — strikt gelezen is dat het gezamenlijk belastbaar inkomen á 49 900 EUR (29 900 + 17 100 — dus ná aftrek onderhoudsgelden), niet het totale netto-inkomen á 51 000. Het officiële modelantwoord uit 2008 hanteert echter 51 000 (nóg vóór de aftrek onderhoudsgelden). Volg in het examen de modelantwoord-breuk; weet wel dat de wetsletter strenger is. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 14521 WIB92** — belastingvermindering = 30 % van de uitgaven voor dienstencheques, met een uitgavenplafond per belastingplichtige (AJ 2008: 2 360 EUR; basisbedrag 920 EUR, geïndexeerd). 📖\n**Art. 14523 § 1 WIB92** — bij gemeenschappelijke aanslag wordt de vermindering evenredig omgedeeld in functie van het overeenkomstig art. 130 belaste inkomen van elke echtgenoot. 📖",
+          "wetsref": "Art. 14521 en 14523 § 1 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

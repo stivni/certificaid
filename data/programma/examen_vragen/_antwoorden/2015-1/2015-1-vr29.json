@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr29",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** is JUIST. Voor een niet-verhuurd buitenlands gebouw (geen eigen woning, geen theoretische huurwaarde in het buitenland) is het aan te geven onroerend inkomen voor aanslagjaar 2014 = **huurwaarde − werkelijk in het buitenland gedragen belastingen op het goed**, vervolgens **verminderd met het kostenforfait van 40 %** (art. 13 WIB 92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Bespreking per optie (regime aanslagjaar 2014 — vóór de Belgische wetswijziging na het Hofstad-arrest die buitenlandse OG aan een gelijkgesteld KI heeft onderworpen):\n\n- **a — JUIST.** De aan te geven brutowaarde voor een niet-verhuurd buitenlands gebouw is de **huurwaarde** (art. 7, § 1, 1° WIB 92, transpositie voor het buitenland), te verminderen met de **buitenlandse belastingen die het goed werkelijk hebben bezwaard** (art. 13, eerste lid in fine WIB 92). Op het bekomen nettobruto wordt vervolgens het **forfait van 40 %** voor onderhouds- en herstellingskosten toegepast voor gebouwen (art. 13 WIB 92). 🔗\n- **b — FOUT.** De huurwaarde is niet beperkt tot wat het goed \"het vorige jaar\" had kunnen opbrengen — het is de huurprijs die het goed **normaal** (gemiddeld, op duurzame basis) zou kunnen opbrengen bij verhuur. De omschrijving \"tijdens het vorige jaar\" introduceert een tijdsbeperking die niet in de wettekst noch in de commentaar staat. 🔗\n- **c — FOUT.** De vergelijking \"hoogste van brutohuur (min buitenlandse belasting) ofwel brutohuur × 2/3 × revalorisatiecoëfficiënt\" is een verwarring met de Belgische regel voor **verhuurde** OG met beroepsbestemming (art. 7, § 1, 2°, c WIB 92), waar het belastbaar bedrag minstens het **gerevaloriseerd KI** moet bedragen en het kostenforfait beperkt is tot **2/3 × KI × revalorisatiecoëfficiënt**. Voor buitenlandse OG bestaat geen KI; de revalorisatie-toets is dus niet van toepassing. Bovendien bedroeg de revalorisatiecoëfficiënt voor AJ 2014 **4,23** (niet 4,19). 🔗\n- **d — FOUT.** Ook een niet-verhuurd en niet-betrokken buitenlands gebouw moet aangegeven worden: de **huurwaarde** is belastbaar als onroerend inkomen van Belgische rijksinwoners op grond van het wereldwijd-inkomen-beginsel (art. 5 WIB 92). 🔗\n- **e — FOUT.** Wanneer België met het bronland **geen** dubbelbelastingverdrag heeft gesloten, blijft het inkomen volledig in de aangrondslag van de personenbelasting opgenomen. De wetgever voorziet **niet** een halvering van de **basis** tot 50 %; wel wordt de **belasting** die evenredig op buitenlandse onroerende inkomsten betrekking heeft tot de **helft** verminderd (art. 156, 1° WIB 92) — een vermindering op het belastingbedrag, niet op de belastbare basis. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Sinds aanslagjaar 2022 (wet 17.02.2021) heeft België voor in het buitenland gelegen onroerende goederen een **gelijkgesteld kadastraal inkomen** ingevoerd, naar aanleiding van het arrest *Hof van Justitie 12.04.2018* (zaak C-110/17). De vraag betreft AJ 2014 — toen gold nog de **huurwaarde**-grondslag. Bij latere examenvragen over eenzelfde casus voor recente aanslagjaren is het antwoord dus **niet** meer de huurwaarde-formule van optie **a**, maar het (al dan niet geïndexeerd en met 40 % verminderd) gelijkgesteld KI. ❓",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7, § 1, 1° WIB 92 (belastbaar onroerend inkomen voor niet-verhuurde OG — voor buitenlandse OG getransponeerd naar huurwaarde) + art. 13, eerste lid WIB 92 (vermindering brutohuur/huurwaarde met **werkelijk in het buitenland gedragen belastingen op het goed**, daarna **40 %-kostenforfait** voor gebouwen) + art. 156, 1° WIB 92 (vermindering tot de helft van de Belgische belasting op buitenlandse onroerende inkomsten, ongeacht het bestaan van een DBV). Voor AJ 2014: revalorisatiecoëfficiënt = **4,23** (art. 13, tweede lid). 📖",
+          "wetsref": "art. 7 § 1 1°, art. 13, art. 156 1° WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

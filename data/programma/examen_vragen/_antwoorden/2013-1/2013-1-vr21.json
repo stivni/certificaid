@@ -1,0 +1,323 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr21",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De bonificatie wordt berekend op de **totale** verschuldigde belasting (na verrekening van voorheffingen en de voorafbetalingen die vermeerdering vermijden), niet beperkt tot het deel dat betrekking heeft op beroepsinkomsten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 175 WIB92 spreekt van een bonificatie \"op de totale belasting, verhoogd tot 106 pct.\" verminderd met voorheffingen en de noodzakelijke voorafbetalingen — er is geen splitsing per inkomsten-categorie. 📖 Voor werknemers geldt bovendien dat de bedrijfsvoorheffing normaal volstaat zodat er geen vermeerdering wegens onvoldoende voorafbetaling is; doet de werknemer toch vrijwillig een voorafbetaling, dan komt **het volledige bedrag** in aanmerking voor bonificatie (art. 176 WIB92) — opnieuw zonder beperking tot belasting op beroepsinkomsten. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 175-177 WIB92 — bonificatie op totale belasting; tarief 1,5/1,25/1/0,75 × basisrentevoet naargelang vervaldag (10/4, 10/7, 10/10, 20/12). 📖",
+          "wetsref": "Art. 175-177 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De huwelijksstelselgedachte is niet relevant. Interesten van een spaarrekening op naam van een minderjarig kind worden samengevoegd met het inkomen van de ouders zodra de ouders het **wettelijk genot** van de goederen van het kind hebben (art. 384 oud BW) — onafhankelijk van hun huwelijksstelsel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Oud-BW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 126 WIB92 koppelt de samenvoeging aan het wettelijk genot dat de ouders hebben op de goederen van hun minderjarige kinderen. Dat wettelijk genot vloeit voort uit art. 384 oud BW (\"de ouders hebben het genot van de goederen van hun kinderen tot aan hun meerderjarigheid\") en bestaat ongeacht of de ouders gehuwd zijn onder gemeenschap, scheiding van goederen, of zelfs niet gehuwd zijn. 📖 Samenvoeging stopt enkel bij ontheffing van het wettelijk genot (bv. bij ontvoogding of beslissing van de familierechtbank), niet door het huwelijksstelsel. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Oud-BW.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "Vrijgestelde schijf gereglementeerde spaarrekening (art. 21, 5° WIB92) blijft van toepassing op de samengevoegde interesten; alleen het surplus wordt effectief belast bij de ouders. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 126 WIB92 (samenvoeging inkomsten van kinderen waarvan de ouders het wettelijk genot hebben); art. 384 oud BW (wettelijk genot van de ouders). 📖",
+          "wetsref": "Art. 126 WIB92 · art. 384 oud BW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Oud-BW.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Het is **omgekeerd**: de **vruchtgebruiker** (niet de naakte eigenaar) wordt belast op het onroerend inkomen — KI verhoogd met 40% of de werkelijke huur indien de huurder het goed voor zijn beroep gebruikt (art. 11 + art. 7 WIB92). De naakte eigenaar ontvangt geen inkomen en wordt niet belast. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 11 WIB92 wijst het onroerend inkomen toe aan wie het genot van het goed heeft — bij vruchtgebruik is dat de vruchtgebruiker, niet de blote eigenaar. 📖 Bij verhuur aan een huurder die het goed voor zijn beroep gebruikt, geldt de regel van art. 7, § 1, 2°, c WIB92: belasting op brutohuur en huurvoordelen, met aftrek van de forfaitaire kostenaftrek (40% gebouw / 10% grond), met als minimum het geïndexeerd KI × 1,40. 🔗 Die brutohuur wordt aangegeven door de vruchtgebruiker; de naakte eigenaar geeft niets aan voor dat goed. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met successie- of registratierechten waar de blote eigenaar wél een te belasten waardeaccres ondergaat: in de inkomstenbelasting volgt het inkomen het genot, dus de vruchtgebruiker. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 11 WIB92 (toerekening aan eigenaar/vruchtgebruiker met genot); art. 7 WIB92 (belastbare basis volgens gebruik door huurder). 📖",
+          "wetsref": "Art. 7 + Art. 11 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De forfaitaire beroepskostenaftrek (art. 51 WIB92) staat **ook open voor baten** (vrije beroepen, ambten en posten, winstgevende bezigheden), niet enkel voor werknemers en bedrijfsleiders. Winsten van zelfstandigen zijn de belangrijkste uitzondering — daar geldt geen forfait. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 51, tweede lid WIB92 lijst de inkomsten op waarop het kostenforfait toepasselijk is: bezoldigingen van werknemers (art. 30, 1°), bezoldigingen van bedrijfsleiders (art. 30, 2°) **én** baten (art. 27 WIB92) van houders van een vrij beroep en gelijkgestelde activiteiten. 📖 Winsten van handels-, ambachts- en landbouwondernemingen (art. 24 WIB92) komen niet in aanmerking — die moeten werkelijke beroepskosten bewijzen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Het forfait-percentage en plafond verschillen per categorie: werknemers (degressieve schaal met hoog plafond), bedrijfsleiders (vast 3%, plafond circa € 3.030 (aj. 2025)), baten (degressieve schaal). Bij meewerkende echtgenoot geldt nog een aparte regeling. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 51 WIB92 — forfaitaire beroepskosten van toepassing op bezoldigingen van werknemers, bezoldigingen van bedrijfsleiders **en** baten. 📖",
+          "wetsref": "Art. 51 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Auteursrechten behouden enkel hun roerend karakter **binnen de wettelijke grenzen**. Boven die grenzen (drempelbedrag en/of 30%-regel) en wanneer ze worden gebruikt voor de beroepswerkzaamheid van de verkrijger, worden ze geherkwalificeerd als beroepsinkomsten (art. 37 WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 17, § 1, 5° WIB92 kwalificeert vergoedingen voor de overdracht of licentie van auteursrechten en naburige rechten als roerende inkomsten. 📖 Art. 37 WIB92 maakt daarop een belangrijke afwijking: indien die rechten worden gebruikt voor het uitoefenen van de beroepswerkzaamheid van de verkrijger én bepaalde drempels (huidige regeling: jaargrens van € 37.500 (te indexeren) én een 30%-verhouding tussen auteursrechten en totale vergoedingen) worden overschreden, worden zij **als beroepsinkomsten aangemerkt**. 📖 \"Steeds als roerende inkomsten\" en \"nooit beroepsinkomsten\" is dus onjuist. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De huidige (verstrakte) regeling van art. 37 WIB92 dateert van na 2013 (programmawet 26 december 2022). In 2013 was de afbakening louter \"binnen het plafond = roerend, daarboven = beroeps\" zonder de 30%-regel. De kern van de stelling — dat auteursrechten *steeds* roerend zouden zijn — is in beide regimes fout. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 17, § 1, 5° WIB92 (kwalificatie als roerend inkomen binnen grenzen); art. 37, tweede lid WIB92 (afwijking — beroepsinkomsten boven drempels en bij beroepsgebruik). 📖",
+          "wetsref": "Art. 17 § 1, 5° + Art. 37 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Persoonlijke sociale bijdragen die de werknemer zelf heeft betaald en die de werkgever niet aan de bron heeft ingehouden, worden eerst van de brutobezoldiging afgetrokken; het forfait wordt vervolgens berekend op het saldo. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 52, 7° WIB92 erkent persoonlijke sociale bijdragen uitdrukkelijk als beroepskost. 📖 Voor de berekening van het kostenforfait gaat men uit van de nettobezoldiging na aftrek van die persoonlijke RSZ-bijdragen (niet-ingehouden bijdragen worden door de belastingplichtige zelf afgetrokken via een eigen aangifte-code). 🔗 Het forfait (art. 51 WIB92) treedt vervolgens in de plaats van de overige werkelijke kosten — niet in de plaats van de aftrek van sociale bijdragen, die los staat. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Werkgeversbijdragen die de werkgever bovenop het brutoloon stort, zijn voor de werknemer geen belastbare bezoldiging en spelen dus niet in deze berekening; enkel de **persoonlijke** bijdragen van de werknemer (RSZ-aandeel werknemer, eventuele niet-ingehouden bijdragen) doen mee. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 51 WIB92 (forfait) + Art. 52, 7° WIB92 (persoonlijke sociale bijdragen aftrekbaar als beroepskost). 📖",
+          "wetsref": "Art. 51 + Art. 52, 7° WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** Een loutere debet-inschrijving op de rekening-courant volstaat niet. Art. 53, 15° WIB92 vereist een **onherroepelijke en daadwerkelijke betaling** van het verliesbedrag, die bovendien door de vennootschap effectief wordt aangewend om het verlies te delgen. Een boekhoudkundige inschrijving is geen betaling. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 53, 15° WIB92 sluit als beroepskost uit: \"verliezen van vennootschappen ten laste genomen door natuurlijke personen, behalve indien het gaat om bedrijfsleiders, deze tenlasteneming geschiedt door onherroepelijke en daadwerkelijke betaling van een som, gedaan met het doel bezoldigingen te behouden en het aldus betaalde bedrag door de vennootschap volledig wordt gebruikt om het verlies aan te zuiveren.\" 📖 Drie cumulatieve voorwaarden: (i) **daadwerkelijke en onherroepelijke betaling** — geen loutere boeking, (ii) **doel = behoud bezoldigingen**, (iii) **aanwending door de vennootschap voor verliesdelging**. 🔗 Een eenvoudige debet-boeking op de R/C creëert enkel een vordering van de vennootschap op de bedrijfsleider; er is dan geen sprake van een werkelijke geldstroom of overdracht van middelen. De cassatierechtspraak en de administratie zijn op dit punt constant: een loutere R/C-boeking voldoet niet aan het criterium \"daadwerkelijk betaald\". 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Wel aanvaard: storting in cash of via overschrijving op de rekening van de vennootschap, of een **creditering** op de R/C-rekening van de bedrijfsleider die vervolgens onmiddellijk wordt aangewend om de openstaande schuld (verlies) te delgen. Een **debet**-boeking op de R/C van de bedrijfsleider (hij wordt schuldenaar) is daarentegen geen tenlasteneming. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 53, 15° WIB92 — tenlasteneming verlies vennootschap door bedrijfsleider enkel aftrekbaar bij onherroepelijke en daadwerkelijke betaling, behoud van bezoldigingen, aanwending voor verliesdelging. 📖",
+          "wetsref": "Art. 53, 15° WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**FOUT.** De herkwalificatie van huur tot bezoldiging (art. 32, derde lid, 3° WIB92) geldt enkel voor **gebouwde** onroerende goederen, **niet voor terreinen** (ongebouwd). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 32, 3° WIB92 herkwalificeert \"in afwijking van artikel 7, de huurprijs en de huurvoordelen **van een gebouwd onroerend goed** verhuurd door de in het eerste lid, 1°, vermelde personen aan de vennootschap waarin zij een opdracht of gelijksoortige functies uitoefenen, voor zover zij meer bedragen dan vijf derden van het kadastraal inkomen gerevaloriseerd met de in artikel 13 vermelde coëfficiënt.\" 📖 De wettekst is expliciet beperkt tot \"gebouwd onroerend goed\" — terreinen (gronden, ongebouwde percelen) vallen er buiten en blijven onroerende inkomsten in hoofde van de bedrijfsleider, ongeacht de huurprijs. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Bij een gemengd goed (gebouw + grond) wordt enkel het gebouwgedeelte aan de 5/3 × KI × revalorisatiecoëfficiënt-test onderworpen. De drempel is in 2025 5/3 × geïndexeerd KI × 5,46 (revalorisatiecoëfficiënt aj. 2025). 🔗 Bedrijfsleider verhuurt enkel terrein → geen herkwalificatie; verhuurt gebouw + grond samen → enkel het gebouw kan geherkwalificeerd worden. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 32, derde lid, 3° WIB92 — herkwalificatie beperkt tot gebouwde onroerende goederen, drempel 5/3 × geïndexeerd KI × revalorisatiecoëfficiënt (art. 13 WIB92). 📖",
+          "wetsref": "Art. 32, derde lid, 3° + Art. 13 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

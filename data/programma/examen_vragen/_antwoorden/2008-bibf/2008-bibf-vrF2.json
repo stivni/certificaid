@@ -1,0 +1,53 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF2",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "**Aangifte vak III + vak XV (PB 2008, ink. 2007):**\n\n| Rubriek | Code Riet (kolom 1) | Code Piet (kolom 2) | Bedrag |\n|---|---|---|---|\n| Onroerend inkomen — verhuurd aan particulier (niet voor beroep) | **1106** | **2106** | **150 / 150** |\n| Diverse inkomsten — belastbare meerwaarde op onroerend goed | **1171** | **2171** | **30.000 / 0** |\n\n*Onroerend inkomen: KI 1.200 × 3/12 (1 jan → 6 apr 2007) = 300, daarna 50/50 over beide echtgenoten (vruchten van eigen goed vallen in gemeenschap). Diverse inkomsten: meerwaarde individueel toegerekend aan de eigenaar Riet, niet gesplitst. 🔗*",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md",
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Onroerend inkomen (codes 1106 / 2106)** 🔗\n\n- Appartement Wemmel, KI 1.200, verhuurd aan natuurlijk persoon die het niet voor zijn beroep gebruikt → rubriek 2 van vak III → **codes 1106-58 / 2106-28**. Aan te geven: het **niet-geïndexeerde KI** (de indexering en de verhoging met 40% gebeurt door de fiscus). 📖\n- Pro rata temporis: appartement was eigendom van 1 jan tot 6 april 2007 → **3 maanden** → 1.200 × 3/12 = **300**. 🔗\n- Wettelijk stelsel: het appartement is een **eigen goed** van Riet (van vóór het huwelijk, art. 1399 oud BW), maar de **vruchten** ervan — inclusief het belastbaar onroerend inkomen — vallen in de **gemeenschap** (art. 1405 oud BW). Voor de PB worden de onroerende inkomsten van gemeenschappelijke aard daarom **50/50 verdeeld** → **150 bij Riet (1106) en 150 bij Piet (2106)**. 🔗\n\n**Belastbare meerwaarde (codes 1171 / 2171)** 🔗\n\n- De gerealiseerde meerwaarde van € 30.000 op de verkoop van een gebouwd onroerend goed binnen 5 jaar (of buiten 5 jaar met speculatief karakter) is een **divers inkomen** in de zin van art. 90, 10° (of 8°) WIB 92 → **rubriek B.2 van vak XV** → **codes 1171 / 2171** (belastbare meerwaarden op in België gelegen gebouwde onroerende goederen). 🔗\n- **Individuele toerekening**: diverse inkomsten worden niet 50/50 verdeeld; ze worden toegerekend aan de echtgenoot **die ze heeft verworven** (art. 127 WIB 92). Het appartement is een eigen goed van Riet → de **volledige € 30.000** komt op haar naam. Op het modelantwoord verschijnt 30.000 in kolom 2 (2171) omdat Riet daar als 'partner' is opgenomen; in kolom 1 (1171) staat 0. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Onderscheid goed de twee toerekeningsregels bij gehuwden in wettelijk stelsel: 🔗\n\n- **Onroerend inkomen** uit een eigen goed: gemeenschappelijke vrucht → **50/50** (art. 1405 oud BW + art. 127 WIB 92 voor onroerende inkomsten).\n- **Diverse inkomsten** (incl. meerwaarde art. 90 WIB): **individueel** → volledig bij de eigenaar-echtgenoot, geen splitsing.\n\nHet KI 1.200 is reeds het niet-geïndexeerde bedrag — nooit zelf indexeren of × 1,40 doen in de aangifte: de fiscus past de indexering en de 40%-verhoging toe op basis van de aangegeven codes 1106/2106. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Onroerend inkomen** — art. 7 § 1, 2° a) WIB 92: voor gebouwen verhuurd aan een natuurlijke persoon die ze niet voor zijn beroep gebruikt, is het belastbaar onroerend inkomen het KI verhoogd met 40% (verhoging wordt automatisch door fiscus toegepast). Aangiftecodes 1106/2106 in vak III rubriek 2. Pro rata bij verkoop in de loop van het jaar (art. 9 WIB 92). 📖\n\n**Huwelijksvermogensrecht** — art. 1399 oud BW (eigen goederen van vóór het huwelijk) en art. 1405 oud BW (vruchten en inkomsten van eigen goederen vallen in de gemeenschap). 📖\n\n**Belastbare meerwaarde** — art. 90, 10° WIB 92 (meerwaarde op gebouwd onroerend goed binnen 5 jaar na verwerving, of 8° bij speculatie buiten 5 jaar). Belastbaar tegen 16,5% (art. 171, 4° e WIB 92). Aangiftecode 1171/2171 in vak XV rubriek B. 📖\n\n**Individuele toerekening diverse inkomsten** — art. 127 WIB 92: diverse inkomsten worden toegerekend aan de echtgenoot die ze heeft verworven, geen 50/50-splitsing. 📖",
+          "wetsref": "art. 7 § 1 / 90, 8°–10° / 127 / 171 WIB 92; art. 1399 + 1405 oud BW",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/Oud-BW.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

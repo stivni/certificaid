@@ -1,0 +1,47 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF4",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Omdat Wim en Inge gehuwd zijn (gemeenschappelijke aanslag) maar Wim als enige eigenaar en enige ontlener optreedt, gaat een deel van de woon-fiscale aftrek **structureel verloren**: de fiscale wet dwingt om de aftrekbare besteding gedeeltelijk om te delen naar Inge, maar haar omgedeelde aandeel kan niet worden gerecupereerd omdat zij geen eigenaar is en dus zelf geen aftrekrecht heeft. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Mechaniek bij gemeenschappelijke aanslag (art. 105 WIB)**:\n\n- De woon-uitgave (interesten + kapitaalaflossingen + premie levensverzekering) is **persoonlijk verschuldigd door Wim**, want hij is alleen ontlener en alleen eigenaar. 🔗\n- Bij gemeenschappelijke aanslag wordt deze persoonlijke uitgave **eerst bij voorrang** aangerekend op Wims totaal netto-inkomen; het eventuele **saldo wordt op het netto-inkomen van Inge** aangerekend (art. 105, 2° WIB). 📖\n- Het BIBF-modelantwoord stelt dat **minstens 15%** van de aftrekbare besteding hoe dan ook bij de partner moet worden aangegeven. Vermits Inge formeel **geen eigenaar** is, kan zij geen aftrek genieten voor *haar* aandeel en gaat **dat aandeel fiscaal verloren**. 🔗\n- **Advies**: laat de aankoop tóch in onverdeeldheid gebeuren (50/50 of een andere passende verhouding), of laat beide echtgenoten samen ontlenen — zo behoudt het koppel het volle fiscale voordeel.",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "**Eigenaarschap ≠ kredietnemerschap ≠ aftrekgerechtigde**. Voor de woon-fiscale aftrek (eertijds woonbonus / aftrek enige woning, vandaag de regionale belastingvermindering) is **eigendomstitel op de gefinancierde woning** een vereiste; ook al wordt de uitgave bij gemeenschappelijke aanslag omgedeeld, de echtgenoot zonder zakelijk recht op de woning heeft geen eigen aftrekgrondslag. Bovendien is het regime sinds de 6e staatshervorming **geregionaliseerd** (gewestelijke belastingvermindering i.p.v. federale aftrek); de exacte percentages en plafonds verschillen per gewest, maar het principe — gemeenschappelijke aanslag dwingt omdeling — blijft overeind. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 105 WIB92** — *\"Wanneer een gemeenschappelijke aanslag wordt gevestigd, worden de aftrekken bedoeld in artikel 104 als volgt aangerekend: (1°) uitgaven door beide echtgenoten samen verschuldigd: evenredig op de totale netto-inkomens van beide echtgenoten; (2°) uitgaven persoonlijk verschuldigd door één echtgenoot: bij voorrang op het totale netto-inkomen van die echtgenoot, het eventuele saldo op het totale netto-inkomen van de andere echtgenoot.\"* 📖\n\n**Art. 126 WIB92** — gemeenschappelijke aanslag is verplicht zodra echtgenoten of wettelijk samenwonenden samen worden belast (behoudens uitzonderingen in §2). 📖\n\nDe specifieke **15%-minimum-omdeling** zoals geciteerd in het BIBF-modelantwoord is een toepassingsregel die op het ogenblik van het examen (2008) gold binnen het regime van de aftrek enige woning / woonbonus (art. 104, 9° + art. 115-116 WIB, regime van vóór de 6e staatshervorming). 🔗",
+          "wetsref": "Art. 105 WIB92; art. 126 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

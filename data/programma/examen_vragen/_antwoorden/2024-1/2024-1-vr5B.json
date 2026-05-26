@@ -1,0 +1,60 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr5B",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Proportionele vermindering (kwijtschelding) van de onroerende voorheffing pro rata 6/12** wegens onvrijwillige improductiviteit door overmacht (overstroming). De belastingplichtige moet de vermindering **uitdrukkelijk aanvragen** bij de bevoegde belastingdienst (Vlaanderen: Vlabel; Wallonië/Brussel: federale ontvanger). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De casus voldoet aan de drie cumulatieve voorwaarden van art. 15 §1, 1° WIB 92 voor proportionele vermindering van het kadastraal inkomen — en dus, via art. 257, 3° WIB 92 (of art. 2.1.5.0.2 §1, 3° VCF in het Vlaamse Gewest), van de onroerende voorheffing:\n\n- **Niet-gemeubileerd gebouwd onroerend goed** — vervuld (de casus stelt dit expliciet). 📖\n- **≥ 90 dagen volstrekt niet in gebruik en volstrekt geen inkomsten** — vervuld: 6 maanden ≈ 180 dagen leegstand zonder huurinkomsten. 📖\n- **Onvrijwillig karakter** — vervuld: overstroming is overmacht (geen vrijwillige leegstand of speculatie). 🔗\n\nDe vermindering is **proportioneel** aan duur en omvang van de improductiviteit: voor 6 maanden volledige improductiviteit wordt het belastbaar KI met 6/12 verminderd, met overeenkomstige verlaging van de OV. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De vermindering is **niet automatisch** — ze wordt enkel op **aanvraag** verleend (art. 257 WIB 92 en art. 2.1.5.0.2 §1 VCF: \"op aanvraag van de belanghebbende/belastingschuldige\"). De aanvraag verloopt via de bezwaarprocedure (art. 369 WIB 92 / art. 3.5.3.0.3 VCF), met bewijslast voor de belastingplichtige (bewijs van duur leegstand + overmacht). \"Volstrekt\" betekent ook écht volstrekt: een tussentijdse korte verhuring breekt de 90-dagen-termijn. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De onroerende voorheffing is een **gewestelijke** belasting (sinds 2002, volledig geregionaliseerd). In het **Vlaamse Gewest** verwijst de VCF (art. 2.1.5.0.2 §1, 3°) uitdrukkelijk terug naar art. 15 WIB 92 voor de inhoudelijke voorwaarden — de federale regel blijft dus materieel bepalend. In **Wallonië** en **Brussel** blijft het federale WIB 92 (art. 257-259) rechtstreeks van toepassing. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 15 §1, 1° WIB 92** — proportionele vermindering KI bij niet-gemeubileerd gebouwd onroerend goed dat ≥ 90 dagen volstrekt niet in gebruik is en geen inkomsten heeft opgebracht. **Art. 257, 3° WIB 92** — kwijtschelding of proportionele vermindering van de OV in de gevallen van art. 15. **Art. 2.1.5.0.2 §1, 3° VCF** — Vlaamse evenknie, expliciete terugverwijzing naar art. 15 WIB 92. **Art. 369 WIB 92 / art. 3.5.3.0.3 VCF** — aanvraagprocedure via bezwaartermijn. 📖",
+          "wetsref": "Art. 15 §1, 1° WIB 92 ; Art. 257, 3° WIB 92 ; Art. 2.1.5.0.2 §1, 3° VCF ; Art. 369 WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

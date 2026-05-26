@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2013-2.pdf",
   "examen_id": "2013-2",
-  "merge_datum": "2026-05-26T15:37:26+00:00",
+  "merge_datum": "2026-05-26T16:23:57+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -3804,7 +3804,155 @@
       "vraag_id": "2013-2-vr20"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Belastbaar bedrag bij mevr. Martin voor aanslagjaar 2013: **80 % × (€ 100.000 × omzettingscoëfficiënt art. 73 KB/WIB92)**. Bij een leeftijd van 37 jaar op datum van betaling (10/06/1975 → 01/12/2012) bedraagt de coëfficiënt **1,5 %**, zodat de fictieve jaarlijkse rente = € 1.500 en het belastbaar bedrag = **€ 1.200**. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Mechaniek (art. 170 WIB92)**: een kapitaal dat een onderhoudsuitkering vervangt (art. 90, eerste lid, 3° WIB92) wordt **niet** in één keer belast — het wordt omgezet in een **fictieve jaarlijkse lijfrente** en die rente wordt elk jaar gezamenlijk met de andere inkomsten belast, ten belope van **80 %**, vanaf de dag van betaling tot het overlijden van de verkrijger. 📖\n\n**Stap 1 — omzettingscoëfficiënt (art. 73 KB/WIB92)**: de coëfficiënt hangt af van de leeftijd van de verkrijger op het ogenblik van de betaling. Mevr. Martin is geboren op 10/06/1975 en is op 01/12/2012 **37 jaar**. Voor die leeftijdsklasse bedraagt de coëfficiënt **1,5 %** (Cijferzakboekje — schaal art. 73 KB/WIB92). 🤖\n\n**Stap 2 — fictieve jaarlijkse rente**: € 100.000 × 1,5 % = **€ 1.500**. 🔗\n\n**Stap 3 — belastbaar gedeelte**: 80 % × € 1.500 = **€ 1.200** per aanslagjaar, gezamenlijk belast met de andere inkomsten. 📖",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "betwijfeld",
+                "kop": "Valkuil",
+                "tekst": "Niet de **volledige € 100.000** belasten — dat is precies wat art. 170 WIB92 wil vermijden. Evenmin de eenmalige kapitaaluitkering afzonderlijk belasten aan een vast tarief (zoals bij sommige pensioenkapitalen): voor onderhoudskapitalen geldt **geen** afzonderlijke aanslag, maar wel **gezamenlijke** belasting van de fictieve jaarlijkse rente. ❓ De exacte omzettingscoëfficiënt voor leeftijd 37 moet bij het examen uit het Cijferzakboekje worden afgelezen — de hier gebruikte 1,5 % is de gangbare waarde voor deze leeftijdsklasse, maar te verifiëren. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 170 WIB92** — kapitaal art. 90, 3° belast tot bedrag jaarlijkse uitkering bekomen door omzettingscoëfficiënt art. 169 § 1 toe te passen; 80 % van die jaarlijkse uitkering wordt elk belastbaar tijdperk gezamenlijk belast tot overlijden van de verkrijger. **Art. 169 § 1 WIB92** + **art. 73 KB/WIB92**: omzettingscoëfficiënten in functie van de leeftijd. **Art. 90, eerste lid, 3° WIB92**: kapitalen die onderhoudsuitkeringen vervangen vormen een divers inkomen. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 170 + art. 169 § 1 + art. 90, 3° WIB92; art. 73 KB/WIB92"
+              }
+            ],
+            "id": "a"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Neen** — het bedrag blijft voor de volgende aanslagjaren **ongewijzigd € 1.200** per jaar. Geen indexering, geen herberekening: art. 170 WIB92 fixeert het bedrag op het moment van de uitbetaling van het kapitaal. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De omzettingscoëfficiënt wordt **één keer** toegepast — op het ogenblik van de betaling van het kapitaal en op basis van de leeftijd van de verkrijger op dat ogenblik. De resulterende fictieve jaarlijkse rente is een **constant** bedrag dat elk jaar wordt belast, zonder herevaluatie naargelang de verkrijger ouder wordt of naargelang indexcijfers. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 170, tweede en derde lid WIB92** — het bedrag wordt vastgesteld door de omzettingscoëfficiënt toe te passen op het kapitaal (eenmalige bewerking); 80 % van die jaarlijkse uitkering wordt voor **elk** belastbaar tijdperk belast. Geen mechanisme van herberekening in de tekst. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 170 WIB92"
+              }
+            ],
+            "id": "b"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De belasting wordt gevestigd **vanaf aanslagjaar 2013** (inkomsten 2012, jaar van betaling) **tot het aanslagjaar verbonden aan het jaar van overlijden van mevr. Martin** — het exacte aantal jaren is dus **onbepaald**, want het hangt af van haar levensduur. Geen vaste einddatum in de wet. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Art. 170, derde lid WIB92 is expliciet: **\"vanaf de dag waarop dat kapitaal is betaald of toegekend en tot de dag van het overlijden van de verkrijger\"** wordt 80 % van de jaarlijkse rente elk belastbaar tijdperk belast. Het stelsel kent dus geen vooraf bepaalde duur (anders dan bij sommige pensioenkapitalen waar bv. 10 of 13 belastbare tijdperken gelden — zie art. 515 WIB92). 📖\n\n**Eerste aanslagjaar**: aj 2013 (inkomsten 2012 — betaling op 01/12/2012). **Laatste aanslagjaar**: het aanslagjaar verbonden aan het inkomstenjaar waarin mevr. Martin overlijdt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 170, derde lid WIB92** — belasting van 80 % van de jaarlijkse rente \"vanaf de dag waarop dat kapitaal is betaald of toegekend en tot de dag van het overlijden van de verkrijger\". Geen duur-plafond. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 170, derde lid WIB92"
+              }
+            ],
+            "id": "c"
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Aftrekbaar bij dhr. Martin voor aanslagjaar 2013 (bedrag dat in de **berekening** van de belasting wordt opgenomen — dus na toepassing van het aftrekpercentage): **80 % × € 1.500 = € 1.200**. In de **aangifte** wordt het volledige bedrag van de fictieve jaarlijkse rente (€ 1.500) vermeld; de fiscus past zelf de 80 %-beperking toe. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Symmetrie wettekst (aj 2013)**: art. 104, 1° WIB92 (versie aj 2013) liet **80 %** aftrek toe van regelmatig betaalde onderhoudsuitkeringen, alsmede van **de kapitalen die zulke uitkeringen vervangen**. Het kapitaal wordt voor de aftrek omgezet in dezelfde fictieve jaarlijkse rente als bij de verkrijger (art. 170 WIB92, gespiegeld toegepast bij de schuldenaar). ❓\n\n**Berekening**: \n- Fictieve jaarlijkse rente: € 100.000 × 1,5 % = € 1.500. 🔗\n- Aftrek in de **belastingberekening**: 80 % × € 1.500 = **€ 1.200**. 🔗\n- Aangegeven bedrag in de aangifte: € 1.500 (de aftrekbeperking van 80 % wordt door de administratie toegepast). 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "betwijfeld",
+                "kop": "Valkuil",
+                "tekst": "Twee veelgemaakte fouten: (1) de **volledige € 100.000** aftrekken in aj 2013 — onmogelijk: kapitaal wordt eerst omgezet in een jaarlijkse rente en dan beperkt tot 80 %, en die aftrek wordt herhaald elk jaar tot overlijden van mevr. Martin. (2) Het verschil tussen **aangegeven bedrag** (= volledige fictieve rente € 1.500) en **bedrag in de belastingberekening** (= 80 % daarvan = € 1.200) verwarren — de vraagstelling expliciteert dit onderscheid. 🔗\n\n**Wijziging na aj 2013**: het percentage in art. 104, 1° WIB92 werd later verlaagd; in de huidige wettekst staat **70 %**. Voor aj 2013 is **80 %** echter het correcte percentage. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 104, 1° WIB92** (versie aj 2013) — 80 % van de onderhoudsuitkeringen en **van de kapitalen die zulke uitkeringen vervangen** is aftrekbaar van het totale netto-inkomen. **Art. 170 WIB92** voor de omzetting van het kapitaal in een fictieve jaarlijkse rente. Spiegelbeginsel: wat bij de verkrijger belast wordt, is bij de schuldenaar aftrekbaar (mits aan de voorwaarden — wettelijke onderhoudsplicht, regelmatige betaling, niet samenwonend, EER-resident — voldaan; volgens de casus zijn alle wettelijke voorwaarden vervuld). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 104, 1° + art. 170 WIB92"
+              }
+            ],
+            "id": "d"
+          }
+        ],
+        "vraag_id": "2013-2-vr21"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -3885,7 +4033,74 @@
       "vraag_id": "2013-2-vr21"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Totaal aftrekbare verplaatsingskosten = 6.136,18 EUR** (wagen 5.486,18 + scooter 650,00). Voordeligste keuze: voor beide voertuigen **werkelijke kosten** toepassen (geen woon-werk-forfait van 0,15 €/km — dat zou ongunstiger uitkomen). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Wagen — Toyota Prius benzine, 89 g CO2",
+                "tekst": "**Beroepsbreuk wagen** = (3.500 woon-werk + 15.000 huisbezoeken) / 27.500 jaartotaal = **18.500/27.500 = 67,2727 %**. 🔗\n\n**Kosten op te splitsen per regime** (aanslagjaar 2013 — inkomsten 2012):\n\n| Kostenpost | Bedrag | Regime | Aftrek-% | Na CO2-beperking |\n|---|---:|---|---:|---:|\n| Leasing | 5.000 | CO2 (art. 66 §1) | 90 % | 4.500,00 |\n| Verzekering | 1.000 | CO2 | 90 % | 900,00 |\n| Verkeersbelasting | 300 | CO2 | 90 % | 270,00 |\n| Onderhoud | 650 | CO2 | 90 % | 585,00 |\n| **Subtotaal CO2-onderworpen** | **6.950** | | | **6.255,00** |\n| Interest financiering | 250 | uitgezonderd (art. 66 §1 al. 2) | 100 % | 250,00 |\n| Brandstof | 1.650 | uitgezonderd in PB-zelfstandige aj. 2013 | 100 % | 1.650,00 |\n| **Totaal vóór beroepsbreuk** | **8.850** | | | **8.155,00** |\n\n**89 g CO2 benzine → 90 % aftrek** (schaal art. 66 §1 WIB92 aj. 2013: 61–105 g benzine = 90 %). 📖\n\n**Aftrekbaar wagen** = 8.155,00 × 18.500/27.500 = **5.486,18 EUR**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Scooter",
+                "tekst": "**Beroepsbreuk scooter** = 2.500 (woonplaats ↔ rugbyveld, heen+terug) / 5.000 jaartotaal = **50 %**. 🔗\n\n| Kostenpost | Bedrag |\n|---|---:|\n| Verkeersbelasting | 100 |\n| Onderhoud | 350 |\n| Verzekering | 250 |\n| Brandstof | 600 |\n| **Totaal** | **1.300** |\n\nScooter valt **niet** onder de CO2-aftrekbeperking van art. 66 §1 WIB92 (geldt enkel voor personenwagens, auto's voor dubbel gebruik en minibussen — art. 65 WIB92). 📖\n\n**Aftrekbaar scooter** = 1.300 × 50 % = **650,00 EUR**. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vergelijking met forfait woon-werk (art. 66bis WIB92) — minder voordelig",
+                "tekst": "**Alternatief 1** — forfait 0,15 €/km voor woon-werk wagen + werkelijke kosten op zuivere beroeps-km:\n- Forfait wagen: 3.500 × 0,15 = 525,00\n- Werkelijke kosten patiënten-km: 8.155 × 15.000/27.500 = 4.448,18\n- Subtotaal wagen = **4.973,18** < 5.486,18 ❌ minder gunstig\n\n**Alternatief 2** — forfait scooter (voor zover rugbyveld als plaats van tewerkstelling kwalificeert): 2.500 × 0,15 = 375 < 650 ❌ minder gunstig.\n\nDe **werkelijke-kosten-methode op de globale beroepsbreuk** is in beide gevallen het meest voordelig. 🔗",
+                "type": "berekening"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Voor een **PB-zelfstandige** (geen vennootschap) gold in aanslagjaar 2013 dat **brandstofkosten NIET onder de CO2-aftrekbeperking** van art. 66 §1 WIB92 vielen — die uitbreiding kwam pas met de Wet van 25.12.2017 (vanaf aj. 2020). Voor aj. 2013 dus: brandstof 100 % aftrekbaar op het beroepsgedeelte. **Interest** van financiering blijft sowieso buiten de beperking (art. 66 §1 al. 2 WIB92), in PB én in venn.B. Niet verwarren met het venn.B-regime waar brandstof reeds vanaf aj. 2010 op 75 % stond (art. 198bis WIB92). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 66 §1 WIB92** (CO2-aftrekschaal personenwagens — aj. 2013): aftrekpercentage in functie van CO2-uitstoot en brandstoftype; benzine 89 g/km valt in schijf 61–105 g = 90 %. Uitgezonderd van de beperking: interest van financiering, brandstofkosten (PB-zelfstandige tot aj. 2019), mobilofoonkosten. **Art. 66bis WIB92**: forfait 0,15 €/km voor woon-werkverkeer bij gebrek aan bewijzen (max. 100 km enkele reis). **Art. 65 WIB92**: de beperking geldt enkel voor personenauto's, auto's voor dubbel gebruik en minibussen — scooter valt buiten scope. 📖",
+                "type": "grondslag",
+                "wetsref": "art. 65, 66 §1 en 66bis WIB92"
+              }
+            ],
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2013-2-vr22"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -3943,7 +4158,173 @@
       "vraag_id": "2013-2-vr22"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2013-2",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar.** Vergoedingen \"gewaarborgd inkomen\" tot herstel van een **tijdelijke** derving van beroepsinkomsten worden belast tegen de **gemiddelde aanslagvoet** van het laatste vorige jaar met 12 maanden beroepsinkomsten (art. 171, 5°, b WIB92), niet tegen 33%. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "De stelling verwart twee verschillende afzonderlijke aanslagregimes:\n\n- **Art. 171, 5°, b WIB92** — vergoedingen tot volledig of gedeeltelijk herstel van een **tijdelijke** derving van beroepsinkomsten (typevoorbeeld: uitkering gewaarborgd inkomen tijdens ziekte) → belast tegen de **gemiddelde aanslagvoet** van het laatste vorige jaar met 12 maanden belastbare beroepsinkomsten. Géén plafond van \"nettobaten van de vier laatste jaren\". 📖\n- **Art. 171, 1°, c WIB92** — stopzettingsmeerwaarden op immateriële vaste activa en compensatievergoedingen wegens **vermindering van de werkzaamheid** → belast tegen 33%, beperkt tot de belastbare nettowinst of -baten van de vier voorafgaande jaren. 📖\n\nDe stelling beschrijft het 33%-regime van art. 171, 1°, c (vermindering werkzaamheid) en plakt het op een geval van tijdelijke derving (ziekte van 6 maanden) — wat onder art. 171, 5°, b valt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Klassieke verwarring: 33% komt wel voor in art. 171 WIB92, maar telkens bij andere situaties (stopzetting, vermindering werkzaamheid, diverse inkomsten art. 90 1°/9°/12°). Vergoedingen \"gewaarborgd inkomen\" tijdens een **tijdelijke** arbeidsongeschiktheid → gemiddelde aanslagvoet, niet 33%. Geheugensteun: \"gewaarborgd inkomen\" = ziekte/ongeval → komt terug aan het werk → gemiddelde aanslagvoet (anders zou belasting straffend zijn). 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 171, 5°, b WIB92 — gemiddelde aanslagvoet voor vergoedingen tot herstel van een tijdelijke derving van beroepsinkomsten (art. 25, 6°, b; 27, tweede lid, 4°, b; 32, tweede lid, 2°; 33, derde lid). Te onderscheiden van art. 171, 1°, c (33% met 4-jaar-plafond, stopzettingsmeerwaarden en compensatievergoedingen voor **vermindering** van werkzaamheid). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 171, 5°, b WIB92 (vs. art. 171, 1°, c)"
+              }
+            ],
+            "id": "a",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar.** De stelling combineert twee elkaar uitsluitende regimes. **Bij herbelegging** (art. 47 WIB92) wordt de meerwaarde **gespreid belast tegen het progressieve tarief**, naar verhouding van de afschrijvingen op het herbeleggingsactief — **niet** tegen 16,5%. Het 16,5%-tarief (art. 171, 4°, b) geldt enkel als men **niet** voor de gespreide belasting kiest. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Voor meerwaarden op materiële vaste activa die sedert meer dan 5 jaar voor de beroepswerkzaamheid zijn gebruikt (machine aangekocht in 2004, verkocht in 2012 → 8 jaar, voldoet), heeft de zelfstandige een **keuze**:\n\n- **Optie 1 — afzonderlijke belasting tegen 16,5%** (art. 171, 4°, b WIB92): direct, geen herbeleggingsverplichting, maar onmiddellijk belastbaar in het jaar van verwezenlijking. 📖\n- **Optie 2 — gespreide belasting** (art. 47 WIB92): voorwaardelijke vrijstelling mits herbelegging binnen 3 jaar (of 5 jaar bij gebouwen) in afschrijfbare immateriële of materiële vaste activa. De meerwaarde wordt dan **progressief** belast (samen met de overige beroepsinkomsten), gespreid over de afschrijvingsperiode van het herbeleggingsactief. 📖\n\nDe stelling combineert de herbeleggingsvoorwaarde van art. 47 met het tarief van art. 171, 4°, b — dat kan niet samen. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Klassieke examenval: \"gespreid + 16,5%\" klinkt mooi, maar is wettelijk onmogelijk. Onthoud: **16,5% = onmiddellijk afzonderlijk** ; **gespreid = progressief, prorata afschrijvingen**. Voor een zelfstandige zonder grote inkomsten kan gespreid belast tegen progressief tarief soms voordeliger zijn dan 16,5% direct; voor wie al hoog scoort op de progressieve schaal is 16,5% direct meestal interessanter. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 47 WIB92 — voorwaarden gespreide belasting (herbelegging in afschrijfbare vaste activa binnen 3 jaar, of 5 jaar voor gebouwen; meerwaarde wordt aangemerkt als winst/baten gespreid over de afschrijvingsperiode). Art. 171, 4°, b WIB92 — 16,5%-tarief voor meerwaarden op activa sedert meer dan 5 jaar voor de beroepswerkzaamheid gebruikt, **mits niet voor gespreide belasting werd gekozen**. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 47 WIB92; Art. 171, 4°, b WIB92"
+              }
+            ],
+            "id": "b",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Niet waar.** Art. 51 WIB92 voorziet **wél** een forfaitaire kostenaftrek voor baten van vrije beroepen, in degressieve schijven (28,7% / 10% / 5% / 3%). Forfaitaire beroepskosten zijn dus mogelijk voor zowel werknemers, bedrijfsleiders, meewerkende echtgenoten, **baten** als winst. 📖",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Forfaitaire kostenpercentages (art. 51, tweede lid WIB92):\n\n| Categorie | Forfait |\n|---|---|\n| Bezoldigingen werknemers | 30 % (sinds hervorming één enkel percentage; in 2012 nog degressieve schijven) |\n| Bezoldigingen bedrijfsleiders | 3 % |\n| Bezoldigingen meewerkende echtgenoten | 5 % |\n| **Baten (vrije beroepen)** | **28,7 % / 10 % / 5 % / 3 %** in opklimmende schijven |\n| Winst | 30 % |\n\nHet forfait wordt geplafonneerd door een absoluut maximumbedrag (cijferzakboekje). 📖",
+                "type": "tabel"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Vermeldenswaard",
+                "tekst": "De stelling klopt **wel** als ze zou zeggen dat het forfait voor baten lager uitvalt dan voor werknemers — een vrij beroep met hoge baten heeft praktisch baat bij **werkelijke** beroepskosten te bewijzen. Maar het forfait bestaat juridisch voor élke beroepsinkomensoort behalve voor bepaalde uitgesloten vergoedingen (zie art. 51, eerste lid: aankoopprijs verkochte goederen en sociale bijdragen art. 52, 7°/8°). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 51 WIB92 — \"Met betrekking tot andere bezoldigingen, winst en baten ... worden de beroepskosten, bij gebrek aan bewijzen, forfaitair bepaald op percentages van het brutobedrag.\" De wet noemt expliciet **baten** in punt 4° (degressieve schijven 28,7% → 3%). Geen wettelijke uitzondering voor vrije beroepen. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 51 WIB92"
+              }
+            ],
+            "id": "c",
+            "oordeel": false
+          },
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Niet waar.** De stelling is veel te absoluut. Een buitenlands rustpensioen is in België **in beginsel belastbaar** als rijksinwoner-inkomen (art. 5 + art. 34 WIB92). Het is **enkel** vrijgesteld als een dubbelbelastingverdrag (DBV) de heffingsbevoegdheid aan de bronstaat toekent — en dan geldt vrijstelling met progressievoorbehoud (art. 155 WIB92). \"Nooit belastbaar\" klopt dus niet. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Het werkelijke regime:\n\n- **Belgisch rijksinwoner** wordt belast op zijn **wereldwijd inkomen** (art. 5 WIB92), inclusief buitenlandse pensioenen (art. 34 WIB92). 📖\n- **Met DBV en vrijstellingsclausule**: het pensioen is **vrijgesteld in België** maar komt in aanmerking voor **progressievoorbehoud** (art. 155 WIB92) — het bepaalt mee het tarief op de overige Belgische inkomsten. 📖\n- **Zonder DBV of bij verrekeningsstelsel**: het pensioen is gewoon belastbaar in België (eventueel met verrekening van de buitenlandse belasting indien voorzien). 🔗\n- **Specifiek voor pensioenen**: veel DBV's (bv. OESO-modelartikel 18) wijzen de heffingsbevoegdheid voor **privé**-rustpensioenen toe aan de **woonstaat** (= België voor de Belgische rijksinwoner) → dan is het pensioen gewoon in België belastbaar, geen vrijstelling, geen progressievoorbehoud-vraag. 🔗\n\nDe absoluutheid \"**nooit** belastbaar, **maar wel** progressievoorbehoud\" miskent al deze nuances. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Stagiairs verwarren \"buitenlands inkomen\" vaak automatisch met \"vrijgesteld in België\". Standaardregel: Belg = belast op wereldwijd inkomen. Vrijstelling is de **uitzondering** en hangt af van het concrete verdrag én van het type pensioen (publiek vs. privé, kasstaat vs. bronstaat). \"Nooit\" is in fiscaal recht zelden juist. 🤖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 5 WIB92 (wereldwijde belastbaarheid rijksinwoners) + art. 34 WIB92 (pensioenen als beroepsinkomen) + art. 155 WIB92 (vrijstelling met progressievoorbehoud krachtens DBV). De vrijstelling treedt **alleen** op als het toepasselijke DBV de heffingsbevoegdheid aan de bronstaat toekent met vrijstellingsclausule. 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 5, 34, 155 WIB92 + toepasselijk DBV"
+              }
+            ],
+            "id": "d",
+            "oordeel": false
+          }
+        ],
+        "vraag_id": "2013-2-vr23"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [

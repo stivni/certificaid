@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr5A",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": true,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**JUIST.** Op de toekenning aan de meewerkend echtgenoot in het ministatuut is, bij gebrek aan bewijzen van werkelijke kosten, een forfaitaire kostenaftrek van **5%** van toepassing (art. 51, tweede lid, 3° WIB92). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De redenering loopt in twee stappen:\n\n- **Kwalificatie** — De \"meewerkend echtgenoot in het ministatuut\" is de echtgenoot die meewerkt aan de zelfstandige activiteit maar **geen eigen sociaal statuut** opbouwt (geen volwaardige rechten op pensioen, kinderbijslag en ziekte/invaliditeit). Diens inkomen wordt fiscaal gekwalificeerd als **bezoldiging van meewerkende echtgenoot** (art. 30, 3° juncto art. 33 WIB92), via een **toekenning** door de helpende echtgenoot van max. 30% van de winst/baten (art. 86 WIB92). 🔗\n- **Forfaitair kostenpercentage** — Voor die categorie van bezoldigingen bepaalt art. 51, tweede lid, 3° WIB92 het forfaitaire kostenpercentage uitdrukkelijk op **5%** van het brutobedrag, indien geen werkelijke beroepskosten worden bewezen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet verwarren met het **maxistatuut**: de meewerkend echtgenoot die wél volwaardig is aangesloten bij het sociaal statuut van zelfstandigen (sinds 1 juli 2005 verplicht voor wie na 1956 geboren is) ontvangt nog steeds bezoldigingen van meewerkende echtgenoot in de zin van art. 30, 3° / 33 WIB92 — en geniet **dezelfde 5%-forfait** van art. 51, 3°. Het onderscheid mini/maxi speelt op sociaalrechtelijk vlak (sociale bijdragen, rechten), niet op het fiscale kostenforfait. 🔗 Verwar het 5%-forfait evenmin met de 3%-forfait voor bedrijfsleiders (art. 51, 2°) of de 30%-forfait voor werknemers (art. 51, 1°). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 51, tweede lid, 3° WIB92: \"voor bezoldigingen van meewerkende echtgenoten: 5 pct.\" Art. 33 WIB92 omschrijft die bezoldigingen als toekenningen aan de echtgenoot die geen eigen sociaal statuut heeft (ministatuut). Art. 86 WIB92 regelt de toekenning zelf (max. 30% van de inkomsten). 📖",
+          "wetsref": "Art. 51, tweede lid, 3° WIB92; art. 33 WIB92; art. 86 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

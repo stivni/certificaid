@@ -1,0 +1,48 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2015-1",
+  "vraag_id": "2015-1-vr32",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** is ONJUIST. De eerste schijf van inkomsten uit de cessie of concessie van auteursrechten en naburige rechten (in aanslagjaar 2015: € 56.450) die als roerende inkomsten worden gekwalificeerd, wordt belast aan **15 %** roerende voorheffing/afzonderlijk tarief — niet aan 25 %. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Per optie**:\n\n- **a** — JUIST. In aanslagjaar 2015 (inkomsten 2014) gold een algemeen RV-tarief van **25 %** op interesten. Bij een **niet-gereglementeerde** spaarrekening geldt geen vrijstelling: de volledige bruto-interest is onderworpen aan 25 % RV (art. 269 §1 WIB92; de vrijstelling van art. 21, 5° WIB92 geldt enkel voor gereglementeerde spaarrekeningen, en zelfs daar enkel boven de vrijgestelde schijf). 🔗\n- **b** — ONJUIST. Auteursrechten en naburige rechten worden — als roerend inkomen (art. 17 §1 5° WIB92) — onderworpen aan **15 %** RV en aan een afzonderlijk PB-tarief van 15 % op de eerste schijf van € 56.450 (geïndexeerd, aanslagjaar 2015), niet aan 25 %. Boven die schijf kan herkwalificatie als beroepsinkomen volgen (art. 37 WIB92). 🔗\n- **c** — JUIST. Aangegeven roerende inkomsten worden afzonderlijk belast tegen het tarief dat met de RV overeenstemt (art. 171 WIB92), tenzij globalisering met de andere inkomsten voordeliger uitvalt — dan past de fiscus die spontaan toe (art. 171 in fine WIB92, \"voordeligheidsregel\"). 🔗\n- **d** — JUIST. De ingehouden RV wordt **niet verrekend en niet teruggegeven** wanneer de belastingplichtige beroepsinkomsten verkrijgt die **bij overeenkomst** (DBV/internationaal verdrag) zijn vrijgesteld en die niet meetellen voor de berekening van de belasting op zijn andere inkomsten (art. 284 WIB92). 🔗\n- **e** — JUIST. Het aan te geven bedrag van roerende inkomsten is het **werkelijk geïnde of verkregen** bedrag, **vóór** aftrek van innings- en bewaringskosten en andere soortgelijke kosten, en — zoals het werkelijk geïnd is — **na** inhouding van de RV maar **vóór** inhouding van de eventuele woonstaatheffing (art. 22 §1 WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het tarief van **15 %** voor auteursrechten is in 2015 een uitzondering op het algemene 25 %-tarief van de roerende voorheffing — én staat los van het 15 %-regime voor (sommige) staatsbons of liquidatieboni. Verwar de **schijf** (€ 56.450, geïndexeerd) niet met een vrijstelling: het is het plafond waaronder het inkomen verplicht als roerend wordt gekwalificeerd en aan 15 % wordt belast; daarboven kan het worden geherkwalificeerd als beroepsinkomen aan progressief tarief. ❓",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Auteursrechten als roerend inkomen: **art. 17 §1 5° WIB92** (kwalificatie) + **art. 37, tweede lid WIB92** (eerste schijf als roerend, geïndexeerd tot € 56.450 voor aanslagjaar 2015) + **art. 269 §1 WIB92** en **art. 171 2°bis WIB92** (tarief 15 %). RV-tarief op gewone interesten 2014: **25 %** (art. 269 §1, 1° WIB92, oude versie). Vrijstelling gereglementeerde spaarrekeningen: **art. 21, 5° WIB92**. Niet-verrekenbaarheid RV bij verdragsvrijgestelde beroepsinkomsten: **art. 284 WIB92**. Aan te geven roerend inkomen (bruto vóór innings-/bewaringskosten, na RV, vóór woonstaatheffing): **art. 22 §1 WIB92**. Voordeligheidsregel afzonderlijke belasting vs globalisering: **art. 171 WIB92** in fine. 🔗",
+          "wetsref": "Art. 17 §1 5°, 22, 37, 171, 269 §1, 284 WIB92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Lening van 13.03.2004 (oud stelsel, pré-woonbonus):\n\n- **Gewone intrestaftrek**: blijft behouden. 📖\n- **Aanvullende intrestaftrek**: gaat verloren door de erfenis. 📖\n- **Kapitaalaflossingen (belastingvermindering bouwsparen)**: blijft behouden. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Onder het oude stelsel (lening vóór 01.01.2005) bestaan drie afzonderlijke voordelen, elk met hun eigen voorwaarden:\n\n- **Gewone intrestaftrek** (art. 14 WIB92, zoals destijds van toepassing): aftrek van intresten van schulden aangegaan om onroerende goederen te verkrijgen of te behouden, beperkt tot het onroerend inkomen. Géén voorwaarde van enige woning — de aftrek blijft ook na het erven van een tweede pand. 🔗\n- **Aanvullende (bijkomende) intrestaftrek** (art. 104, 9° + art. 115 WIB92, zoals destijds van toepassing): vereist dat de woning waarvoor de lening werd aangegaan de **enige woning** is van de belastingplichtige. Door de erfenis van het ouderlijk huis in 2007 wordt deze voorwaarde vanaf dat jaar niet meer vervuld → het voordeel valt weg. 🔗\n- **Belastingvermindering voor bouwsparen** op kapitaalaflossingen (art. 14517 e.v. WIB92, oud stelsel): de \"enige woning\"-voorwaarde wordt **eenmalig** beoordeeld op het ogenblik van het aangaan van de lening. Latere wijzigingen in het onroerend patrimonium (zoals een erfenis in 2007) doen het voordeel niet vervallen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet alle drie de voordelen worden gelijk getroffen. De **gewone** intrestaftrek heeft géén enige-woning-voorwaarde, en de **bouwsparenvermindering** kijkt enkel naar het moment van het aangaan van de lening (eenmalige toets). Alleen de **aanvullende** intrestaftrek wordt jaar per jaar getoetst en valt dus weg vanaf het jaar waarin een tweede onroerend goed in het patrimonium komt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Oud stelsel — art. 14, art. 104, 9°, art. 115-116 en art. 14517 e.v. WIB92, zoals ze bestonden vóór hun opheffing/wijziging door art. 394-395 en 400 van de programmawet van 27.12.2004; overgangsregeling in art. 526 WIB92 vrijwaart deze regels voor leningen aangegaan vóór 01.01.2005. 📖",
+          "wetsref": "WIB92 art. 14 · art. 104, 9° (oud) · art. 115-116 (oud) · art. 14517 e.v. (oud) · art. 526 (overgang)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Lening van 13.03.2005 (woonbonus-stelsel, art. 104, 9° oud / art. 14545 WIB92):\n\n- **Aftrek voor enige eigen woning (woonbonus)**: het recht op de aftrek blijft behouden. 📖\n- **Verhoging woonbonus** (€ 650 voor de eerste 10 jaar): verdwijnt vanaf het jaar van de erfenis. 📖\n\nKapitaalaflossingen en intresten worden onder dit stelsel samen verwerkt via één belastingvermindering — er is geen aparte behandeling meer zoals onder het oude stelsel. 🔗",
+          "confidence": "geciteerd",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De woonbonus (oorspronkelijk \"aftrek voor enige eigen woning\", art. 104, 9° WIB92 vóór de regionalisering, nadien omgezet in de belastingvermindering van art. 14545 WIB92) bestaat uit twee componenten:\n\n- Een **basisbedrag** dat geldt zolang de woning de eigen woning blijft. De voorwaarde \"enige woning\" wordt voor het basisrecht beoordeeld op **31 december van het jaar waarin de lening werd gesloten** (art. 14545, §1, 2° WIB92). Een latere erfenis (2007) tast dit verworven recht niet aan — Gert behoudt de woonbonus. 🔗\n- Een **verhoging** (€ 650 in basisbedrag, geïndexeerd) gedurende de eerste 10 jaar van de lening, op voorwaarde dat de woning op 31 december van élk belastbaar tijdperk nog de enige woning is. Door de erfenis van het ouderlijk huis in 2007 is deze jaarlijkse voorwaarde niet meer vervuld — de verhoging vervalt vanaf aanslagjaar 2008 (inkomsten 2007). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Nuance",
+          "tekst": "De woonbonus-hervorming van 2005 vereenvoudigde de behandeling: intresten én kapitaalaflossingen vallen onder één enkel forfaitair aftrekbaar (later: belastingverminderbaar) bedrag. De erfenis raakt enkel de **verhoging** voor enige woning — niet het basisrecht zelf. Dit verschilt fundamenteel van het oude stelsel waar de aanvullende intrestaftrek volledig wegvalt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 104, 9° WIB92 (zoals bestond vóór opheffing door art. 20 W. 08.05.2014, regionalisering), nadien omgezet in de belastingvermindering van art. 14545 WIB92. De \"enige woning\"-toets gebeurt op 31 december van het jaar waarin de lening is gesloten voor het basisrecht; de verhoging vereist een jaarlijkse toets. 📖",
+          "wetsref": "WIB92 art. 104, 9° (oud) · art. 14545 (huidig, gewestelijk) · art. 526 (overgang)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

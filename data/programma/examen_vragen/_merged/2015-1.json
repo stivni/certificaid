@@ -1,7 +1,7 @@
 {
   "bron_pdf": "2015_1_-_bekwaamheidsexamen_ac_1.pdf",
   "examen_id": "2015-1",
-  "merge_datum": "2026-05-26T15:37:26+00:00",
+  "merge_datum": "2026-05-26T16:23:57+00:00",
   "schema_versie": "4.0",
   "tool": "merge-examen-artefacten",
   "vragen": [
@@ -4509,7 +4509,56 @@
       "vraag_id": "2015-1-vr27"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **c** is de ONJUISTE uitspraak. Art. 129 WIB92 maakt **geen** uitzondering voor echtgenoten gehuwd onder scheiding van goederen — het overschot aan beroepsverliezen wordt op de positieve beroepsinkomsten van de andere echtgenoot aangerekend, ongeacht het huwelijksvermogensstelsel. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a** — JUIST. Art. 23, § 2, 1° WIB92 legt de eerste stap vast: een beroepsverlies in één werkzaamheid wordt eerst gecompenseerd met positieve beroepsinkomsten van dezelfde belastingplichtige uit andere beroepswerkzaamheden binnen hetzelfde tijdperk (horizontale, intra-persoonlijke compensatie). 🔗\n- **b** — JUIST. Het beroepsverlies wordt eerst aangerekend op de gezamenlijk belaste beroepsinkomsten en het saldo daarna proportioneel op de afzonderlijk belaste beroepsinkomsten (uitvoeringsregels art. 78 WIB92 / art. 63 KB/WIB92). 🔗\n- **c** — ONJUIST. Art. 129 WIB92 bepaalt onvoorwaardelijk dat het saldo wordt aangerekend op de inkomsten van de andere echtgenoot wanneer een gemeenschappelijke aanslag wordt gevestigd. Er is **geen** uitsluiting voor het stelsel van scheiding van goederen — de inter-echtgenootlijke verlies-aanrekening volgt uit de gemeenschappelijke aanslag, niet uit het huwelijksvermogensstelsel. 📖\n- **d** — JUIST. Art. 78, § 1 WIB92: vorige beroepsverliezen worden achtereenvolgens afgetrokken van de beroepsinkomsten van elk **volgend** belastbaar tijdperk — onbeperkte overdracht in de tijd. 📖\n- **e** — JUIST. Wanneer het meewerkinkomen (art. 86 WIB92) van de begunstigde echtgenoot al door eigen beroepsverliezen wordt opgeslorpt, mag het huwelijksquotiënt (art. 87 WIB92) niet bovenop dat verloren meewerkinkomen worden toegekend zonder vermindering — anders zou de aanzuivering dubbel werken. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar **inter-echtgenootlijke verlies-aanrekening** (art. 129 WIB92, gestuurd door de **gemeenschappelijke aanslag**) niet met de **fiscale gevolgen van het huwelijksvermogensstelsel** voor de inkomsten-toerekening zelf (eigen inkomsten ↔ gemeenschappelijke inkomsten). Het stelsel van scheiding van goederen verandert **wie** welke beroepsinkomsten aangeeft, maar **niet** de regel dat het overschot aan beroepsverliezen op de andere echtgenoot wordt aangerekend. De enige uitsluitingen van de gemeenschappelijke aanslag zijn de wettelijke uitzonderingen van art. 126 WIB92 (jaar huwelijk, feitelijke scheiding, overlijden onder bepaalde voorwaarden). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 129 WIB92**: \"Wanneer de inkomsten van een echtgenoot onvoldoende zijn om de overeenkomstig de artikelen 23, § 2, 2° en 3° en 103, aftrekbare verliezen erop aan te zuiveren, wordt het saldo aangerekend op de inkomsten van de andere echtgenoot met inachtneming van de in die artikelen gestelde beperkingen.\" Geen verwijzing naar het huwelijksvermogensstelsel. Aanvullend: art. 23 § 2 WIB92 (volgorde van compensatie), art. 78 § 1 WIB92 (overdracht naar volgende tijdperken), art. 86-87 WIB92 (meewerkinkomen + huwelijksquotiënt), art. 63 KB/WIB92 (uitvoering aanrekening). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 129 WIB92 (+ art. 23 § 2, art. 78 § 1, art. 86, art. 87 WIB92; art. 63 KB/WIB92)"
+              }
+            ],
+            "gekozen_optie_id": "c",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr28"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -4580,7 +4629,56 @@
       "vraag_id": "2015-1-vr28"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **a** is JUIST. Voor een niet-verhuurd buitenlands gebouw (geen eigen woning, geen theoretische huurwaarde in het buitenland) is het aan te geven onroerend inkomen voor aanslagjaar 2014 = **huurwaarde − werkelijk in het buitenland gedragen belastingen op het goed**, vervolgens **verminderd met het kostenforfait van 40 %** (art. 13 WIB 92). 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Bespreking per optie (regime aanslagjaar 2014 — vóór de Belgische wetswijziging na het Hofstad-arrest die buitenlandse OG aan een gelijkgesteld KI heeft onderworpen):\n\n- **a — JUIST.** De aan te geven brutowaarde voor een niet-verhuurd buitenlands gebouw is de **huurwaarde** (art. 7, § 1, 1° WIB 92, transpositie voor het buitenland), te verminderen met de **buitenlandse belastingen die het goed werkelijk hebben bezwaard** (art. 13, eerste lid in fine WIB 92). Op het bekomen nettobruto wordt vervolgens het **forfait van 40 %** voor onderhouds- en herstellingskosten toegepast voor gebouwen (art. 13 WIB 92). 🔗\n- **b — FOUT.** De huurwaarde is niet beperkt tot wat het goed \"het vorige jaar\" had kunnen opbrengen — het is de huurprijs die het goed **normaal** (gemiddeld, op duurzame basis) zou kunnen opbrengen bij verhuur. De omschrijving \"tijdens het vorige jaar\" introduceert een tijdsbeperking die niet in de wettekst noch in de commentaar staat. 🔗\n- **c — FOUT.** De vergelijking \"hoogste van brutohuur (min buitenlandse belasting) ofwel brutohuur × 2/3 × revalorisatiecoëfficiënt\" is een verwarring met de Belgische regel voor **verhuurde** OG met beroepsbestemming (art. 7, § 1, 2°, c WIB 92), waar het belastbaar bedrag minstens het **gerevaloriseerd KI** moet bedragen en het kostenforfait beperkt is tot **2/3 × KI × revalorisatiecoëfficiënt**. Voor buitenlandse OG bestaat geen KI; de revalorisatie-toets is dus niet van toepassing. Bovendien bedroeg de revalorisatiecoëfficiënt voor AJ 2014 **4,23** (niet 4,19). 🔗\n- **d — FOUT.** Ook een niet-verhuurd en niet-betrokken buitenlands gebouw moet aangegeven worden: de **huurwaarde** is belastbaar als onroerend inkomen van Belgische rijksinwoners op grond van het wereldwijd-inkomen-beginsel (art. 5 WIB 92). 🔗\n- **e — FOUT.** Wanneer België met het bronland **geen** dubbelbelastingverdrag heeft gesloten, blijft het inkomen volledig in de aangrondslag van de personenbelasting opgenomen. De wetgever voorziet **niet** een halvering van de **basis** tot 50 %; wel wordt de **belasting** die evenredig op buitenlandse onroerende inkomsten betrekking heeft tot de **helft** verminderd (art. 156, 1° WIB 92) — een vermindering op het belastingbedrag, niet op de belastbare basis. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Sinds aanslagjaar 2022 (wet 17.02.2021) heeft België voor in het buitenland gelegen onroerende goederen een **gelijkgesteld kadastraal inkomen** ingevoerd, naar aanleiding van het arrest *Hof van Justitie 12.04.2018* (zaak C-110/17). De vraag betreft AJ 2014 — toen gold nog de **huurwaarde**-grondslag. Bij latere examenvragen over eenzelfde casus voor recente aanslagjaren is het antwoord dus **niet** meer de huurwaarde-formule van optie **a**, maar het (al dan niet geïndexeerd en met 40 % verminderd) gelijkgesteld KI. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 7, § 1, 1° WIB 92 (belastbaar onroerend inkomen voor niet-verhuurde OG — voor buitenlandse OG getransponeerd naar huurwaarde) + art. 13, eerste lid WIB 92 (vermindering brutohuur/huurwaarde met **werkelijk in het buitenland gedragen belastingen op het goed**, daarna **40 %-kostenforfait** voor gebouwen) + art. 156, 1° WIB 92 (vermindering tot de helft van de Belgische belasting op buitenlandse onroerende inkomsten, ongeacht het bestaan van een DBV). Voor AJ 2014: revalorisatiecoëfficiënt = **4,23** (art. 13, tweede lid). 📖",
+                "type": "grondslag",
+                "wetsref": "art. 7 § 1 1°, art. 13, art. 156 1° WIB 92"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr29"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4656,7 +4754,56 @@
       "vraag_id": "2015-1-vr29"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **a** is de **ONJUISTE** uitspraak. De belastingvermindering voor kinderoppas is een **gewone** (niet-terugbetaalbare) vermindering — het surplus boven de verschuldigde belasting wordt **niet** omgezet in een terugbetaalbaar belastingkrediet. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a — ONJUIST**. Het eerste deel klopt: sinds aanslagjaar 2013 zijn kinderoppaskosten geen aftrekbare besteding meer (art. 104, 7° opgeheven) en geven ze recht op een belastingvermindering (art. 14535 WIB92). 📖 Maar het tweede deel is fout: er bestaat **geen** wettelijke omzetting van het overschot van deze vermindering in een terugbetaalbaar belastingkrediet. De vermindering kan enkel de verschuldigde belasting verminderen tot nul — een eventueel niet-benut saldo gaat verloren. 🔗\n- **b — JUIST**. Letterlijke parafrase van art. 105, 2° WIB92: persoonlijk verschuldigde aftrekbare bestedingen (incl. onderhoudsuitkeringen, art. 104, 1°-2°) worden bij voorrang aangerekend op het netto-inkomen van de schuldenaar; het saldo gaat naar de andere echtgenoot. 📖\n- **c — JUIST** (voor aj. 2015). Vóór de aanpassing geldend in 2015 worden de werkelijk gedane giften van beide echtgenoten samengeteld en geeft het totaal recht op een belastingvermindering van 45%. De vermindering wordt omgedeeld in functie van het belastbaar inkomen van elk der echtgenoten (art. 14533 WIB92 in de versie 2015). 🔗\n- **d — JUIST**. Het pensioensparen (art. 1458 WIB92) en de vermindering voor verwerving van werkgeversaandelen (art. 1457 WIB92) zijn niet cumuleerbaar voor hetzelfde belastbaar tijdperk. 🔗\n- **e — JUIST**. Per echtgenoot afzonderlijk aangifte van betaalde dienstencheques; in een gemeenschappelijke aanslag wordt de vermindering evenredig omgedeeld in functie van het belaste inkomen van elk der echtgenoten — art. 14523 §1 WIB92. 📖",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Verwar de **belastingvermindering voor kinderoppas** (art. 14535, niet-terugbetaalbaar) niet met het **terugbetaalbaar belastingkrediet voor kinderen ten laste** (art. 134 §3 WIB92): wanneer de toeslagen op de belastingvrije som wegens kinderlast — incl. de bijkomende toeslag voor kinderen jonger dan 3 jaar (art. 132, 6°) — de belasting overstijgen, wordt het saldo van de daarmee corresponderende belastingvermindering wél omgezet in een terugbetaalbaar belastingkrediet (begrensd). Die regeling slaat dus op de **belastingvrije som**, niet op de aftrek/vermindering voor kinderoppas zelf. Wie kinderoppas claimt, verliest bovendien de bijkomende toeslag voor kinderen jonger dan 3 jaar (art. 132, 6° in fine). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "Art. 14535 WIB92 (belastingvermindering kinderoppas — voorwaarden); art. 132, 6° WIB92 (bijkomende toeslag kinderen <3 jaar, niet-cumuleerbaar met art. 14535); art. 134 §3 WIB92 (omzetting van het saldo van de belastingvermindering voor kinderlast in terugbetaalbaar belastingkrediet — geldt voor de belastingvrije som, niet voor art. 14535); art. 105 WIB92 (aanrekening aftrekbare bestedingen in gemeenschappelijke aanslag); art. 14523 §1 WIB92 (omdeling vermindering dienstencheques). 📖",
+                "type": "grondslag",
+                "wetsref": "WIB92 art. 14535, 105, 134 §3, 14523, 1457-1458"
+              }
+            ],
+            "gekozen_optie_id": "a",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr30"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],
@@ -4729,7 +4876,56 @@
       "vraag_id": "2015-1-vr30"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T16:19:34Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **d** is ONJUIST. De uitzondering op de uitsluiting van de investeringsaftrek bij overdracht van het recht van gebruik geldt blijkens art. 75, 3° WIB 92 zowel bij overdracht aan een **natuurlijke persoon** als aan een **vennootschap** die zelf aan de voorwaarden, criteria en grenzen voor investeringsaftrek voldoet tegen eenzelfde of hoger percentage. Optie d beperkt de uitzondering ten onrechte tot een natuurlijke persoon. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a** JUIST — De drie eerste vrijstellingen van economische aard (bijkomend personeel uitvoer/IKZ, ander bijkomend personeel, stage in de onderneming) zijn pure winstvrijstellingen: ze kunnen niet tot verlies leiden en het niet-afgetrokken gedeelte is bij gebrek aan winst **definitief verloren** — anders dan de investeringsaftrek die wél overdraagbaar is. 🔗\n- **b** JUIST — Art. 67ter §3 WIB 92 voorziet de terugname bij daling van het personeelsbestand in het volgende jaar (effectieve 2-jaar-vereiste), met de expliciete uitzondering dat geen terugname gebeurt wanneer de overschrijding van het maximumdagloon enkel het gevolg is van een loonsverhoging in het jaar na de toekenning. 🔗\n- **c** JUIST — De stagebonus-gerelateerde winstvrijstelling werd door art. 271 W. 27.12.2012 opgetrokken van 20 % naar **40 %** vanaf 01.01.2014 (aanslagjaar 2015), berekend op de als beroepskosten afgetrokken bezoldigingen van stagiairs waarvoor een stagebonus is bekomen. 🤖\n- **d** ONJUIST — Zie conclusie. Art. 75, 3° WIB 92 spreekt van overdracht aan \"een **natuurlijke persoon of aan een vennootschap**\" die zelf voldoet aan de IA-voorwaarden tegen een eenzelfde of hoger percentage en het gebruiksrecht niet doorgeeft aan een derde. Optie d laat \"of aan een vennootschap\" weg. 📖\n- **e** JUIST — Voor natuurlijke personen die op de eerste dag van het belastbaar tijdperk **minder dan 20 werknemers** tewerkstellen, kan geopteerd worden voor de gespreide investeringsaftrek (art. 70 WIB 92). Het toegepaste percentage wordt gefixeerd bij het investeringsjaar en blijft onveranderd over de hele afschrijvingsduur, ongeacht latere wijzigingen van het tarief. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "kop": "Valkuil",
+                "tekst": "Optie d herneemt op het eerste gezicht woordelijk de vier eerste IA-uitsluitingen van art. 75 WIB 92, maar laat één hoek van de uitzondering weg: de overdracht mag óók gebeuren aan een **vennootschap** die zelf aan de IA-voorwaarden voldoet (tegen eenzelfde of hoger percentage). Wie alleen leest \"behalve aan natuurlijke persoon\" mist de tweede arm van de uitzondering. Vergelijk met de gangbare leasingcasus: een holding die een onroerend goed verhuurt aan een werkmaatschappij van dezelfde groep verliest niet automatisch de IA als de werkmaatschappij zelf voor de IA in aanmerking komt. 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "geciteerd",
+                "tekst": "**Art. 67, 67ter, 70, 75 WIB 92** — gezamenlijk regime van de vrijstellingen van economische aard en de investeringsaftrek in de personenbelasting. Art. 67 (vrijstelling bijkomend personeel uitvoer/IKZ); art. 67ter §1-3 (vrijstelling ander bijkomend personeel + terugname bij personeelsdaling, met loonsverhoging-uitzondering); art. 70 (gespreide investeringsaftrek voor natuurlijke personen met minder dan 20 werknemers, percentage vast over afschrijvingsduur); **art. 75, 3°** (uitsluiting overdracht recht van gebruik — uitzondering voor overdracht aan natuurlijke persoon **of vennootschap** die zelf aan IA-voorwaarden voldoet). 📖",
+                "type": "grondslag",
+                "wetsref": "Art. 67, 67ter, 70, 75 WIB 92"
+              }
+            ],
+            "gekozen_optie_id": "d",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr31"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [
@@ -4805,7 +5001,54 @@
       "vraag_id": "2015-1-vr31"
     },
     {
-      "antwoord": null,
+      "antwoord": {
+        "antwoord_datum": "2026-05-26T00:00:00Z",
+        "antwoord_model": "claude-sonnet-4-6",
+        "examen_id": "2015-1",
+        "schema_versie": "1.1",
+        "vraag_antwoorden": [
+          {
+            "antwoord_status": "beantwoord",
+            "blokken": [
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Optie **b** is ONJUIST. De eerste schijf van inkomsten uit de cessie of concessie van auteursrechten en naburige rechten (in aanslagjaar 2015: € 56.450) die als roerende inkomsten worden gekwalificeerd, wordt belast aan **15 %** roerende voorheffing/afzonderlijk tarief — niet aan 25 %. 🔗",
+                "type": "conclusie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "**Per optie**:\n\n- **a** — JUIST. In aanslagjaar 2015 (inkomsten 2014) gold een algemeen RV-tarief van **25 %** op interesten. Bij een **niet-gereglementeerde** spaarrekening geldt geen vrijstelling: de volledige bruto-interest is onderworpen aan 25 % RV (art. 269 §1 WIB92; de vrijstelling van art. 21, 5° WIB92 geldt enkel voor gereglementeerde spaarrekeningen, en zelfs daar enkel boven de vrijgestelde schijf). 🔗\n- **b** — ONJUIST. Auteursrechten en naburige rechten worden — als roerend inkomen (art. 17 §1 5° WIB92) — onderworpen aan **15 %** RV en aan een afzonderlijk PB-tarief van 15 % op de eerste schijf van € 56.450 (geïndexeerd, aanslagjaar 2015), niet aan 25 %. Boven die schijf kan herkwalificatie als beroepsinkomen volgen (art. 37 WIB92). 🔗\n- **c** — JUIST. Aangegeven roerende inkomsten worden afzonderlijk belast tegen het tarief dat met de RV overeenstemt (art. 171 WIB92), tenzij globalisering met de andere inkomsten voordeliger uitvalt — dan past de fiscus die spontaan toe (art. 171 in fine WIB92, \"voordeligheidsregel\"). 🔗\n- **d** — JUIST. De ingehouden RV wordt **niet verrekend en niet teruggegeven** wanneer de belastingplichtige beroepsinkomsten verkrijgt die **bij overeenkomst** (DBV/internationaal verdrag) zijn vrijgesteld en die niet meetellen voor de berekening van de belasting op zijn andere inkomsten (art. 284 WIB92). 🔗\n- **e** — JUIST. Het aan te geven bedrag van roerende inkomsten is het **werkelijk geïnde of verkregen** bedrag, **vóór** aftrek van innings- en bewaringskosten en andere soortgelijke kosten, en — zoals het werkelijk geïnd is — **na** inhouding van de RV maar **vóór** inhouding van de eventuele woonstaatheffing (art. 22 §1 WIB92). 🔗",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [],
+                "confidence": "verondersteld",
+                "kop": "Valkuil",
+                "tekst": "Het tarief van **15 %** voor auteursrechten is in 2015 een uitzondering op het algemene 25 %-tarief van de roerende voorheffing — én staat los van het 15 %-regime voor (sommige) staatsbons of liquidatieboni. Verwar de **schijf** (€ 56.450, geïndexeerd) niet met een vrijstelling: het is het plafond waaronder het inkomen verplicht als roerend wordt gekwalificeerd en aan 15 % wordt belast; daarboven kan het worden geherkwalificeerd als beroepsinkomen aan progressief tarief. ❓",
+                "type": "motivatie"
+              },
+              {
+                "bron_refs": [
+                  "resources/bronnen/wetteksten/WIB92.md"
+                ],
+                "confidence": "afgeleid",
+                "tekst": "Auteursrechten als roerend inkomen: **art. 17 §1 5° WIB92** (kwalificatie) + **art. 37, tweede lid WIB92** (eerste schijf als roerend, geïndexeerd tot € 56.450 voor aanslagjaar 2015) + **art. 269 §1 WIB92** en **art. 171 2°bis WIB92** (tarief 15 %). RV-tarief op gewone interesten 2014: **25 %** (art. 269 §1, 1° WIB92, oude versie). Vrijstelling gereglementeerde spaarrekeningen: **art. 21, 5° WIB92**. Niet-verrekenbaarheid RV bij verdragsvrijgestelde beroepsinkomsten: **art. 284 WIB92**. Aan te geven roerend inkomen (bruto vóór innings-/bewaringskosten, na RV, vóór woonstaatheffing): **art. 22 §1 WIB92**. Voordeligheidsregel afzonderlijke belasting vs globalisering: **art. 171 WIB92** in fine. 🔗",
+                "type": "grondslag",
+                "wetsref": "Art. 17 §1 5°, 22, 37, 171, 269 §1, 284 WIB92"
+              }
+            ],
+            "gekozen_optie_id": "b",
+            "id": "a"
+          }
+        ],
+        "vraag_id": "2015-1-vr32"
+      },
       "interpretatie": {
         "antwoord_hint_in_vraag": null,
         "context_blokken": [],

@@ -1,0 +1,49 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr5D",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Beroepsinkomsten die niet aan het progressief tarief (art. 130 WIB) worden belast, zijn die welke vallen onder de **afzonderlijke aanslagvoeten van art. 171 WIB 92** — hoofdzakelijk: **stopzettingsmeerwaarden** (10 % / 15 % / 16,5 % / 33 %), **opzeggings- en stopzettingsvergoedingen**, **achterstallen** van bezoldigingen, pensioenen of werkloosheidsuitkeringen door schuld van de overheid of bij rechterlijke betwisting, **vervroegd vakantiegeld**, en **kapitalen/afkoopwaarden van aanvullende pensioenen** (groepsverzekering, IPT, VAPZ) — telkens belast aan de gemiddelde aanslagvoet van het laatste vorige jaar met 12 maanden beroepsinkomsten, of aan een vast tarief (10 %, 16,5 %, 18 %, 20 % of 33 %) naargelang de aard. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "tekst": "**Overzicht art. 171 WIB 92 — beroepsinkomsten aan afzonderlijk tarief**:\n\n- **Stopzettingsmeerwaarden** op materiële en financiële vaste activa, aandelen en andere bestanddelen van de beroepswerkzaamheid (art. 171, 1° c, 4° b, 5° b):\n  - 33 % op stopzettingsmeerwaarden op immateriële vaste activa boven de 4-jaar-regel en compensatievergoedingen voor vermindering van werkzaamheid 📖\n  - 16,5 % op meerwaarden op materiële/financiële vaste activa, aandelen en andere activa bij stopzetting na 5 jaar (of wegens overlijden, onteigening, ...) 📖\n  - 10 % op stopzettingsmeerwaarden vanaf 60 jaar / bij overlijden / bij gedwongen definitieve stopzetting (art. 171, 4° b) 📖\n- **Opzeggings- en stopzettingsvergoedingen** (art. 171, 5° a): vergoedingen, al of niet contractueel betaald, **ten gevolge van stopzetting van arbeid of beëindiging van een arbeidsovereenkomst** → belast aan de **gemiddelde aanslagvoet** van het laatste vorige jaar met 12 maanden beroepsinkomsten. 📖\n- **Vergoedingen tot herstel van tijdelijke derving van beroepsinkomsten** (art. 171, 5° b) — bv. verzekeringsuitkeringen wegens arbeidsongeschiktheid → gemiddelde aanslagvoet. 📖\n- **Achterstallen van bezoldigingen, pensioenen, renten of toelagen** waarvan de uitbetaling door **toedoen van de overheid of door een rechterlijke betwisting** later plaatsvond dan het jaar waarop ze betrekking hebben (art. 171, 5° b in fine, 6°) → gemiddelde aanslagvoet. 📖\n- **Vervroegd vakantiegeld** (uitbetaald bij uitdiensttreding van een werknemer) en **achterstallige commissies, premies, bonussen** met betrekking tot een vorig jaar (art. 171, 6°) → gemiddelde aanslagvoet. 🔗\n- **Kapitalen en afkoopwaarden van aanvullende pensioenen** — groepsverzekering, IPT, VAPZ, pensioenfondsen — uitgekeerd bij leven of overlijden (art. 171, 1° d, 2°, 2°quater, 4° f-g): vaste tarieven van **10 %, 16,5 %, 18 % of 20 %** naargelang leeftijd, oorsprong (werkgevers- vs. werknemersbijdragen) en al-dan-niet behoud van een effectieve activiteit tot de wettelijke pensioenleeftijd. 🔗\n- **Winst en baten uit een voorheen uitgeoefende werkzaamheid** die na de stopzetting nog worden geïnd (art. 171, 5° c) → gemiddelde aanslagvoet. 📖\n\n**Niet beoogd door deze vraag** (wel afzonderlijk belast, maar geen *beroepsinkomsten*): diverse inkomsten (art. 90 WIB → 33 % of 16,5 %), roerende inkomsten (art. 17 → 30 % standaard), meerwaarden op aandelen buiten beroepswerkzaamheid, liquidatiereserve-dividenden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "Art. 171 werkt als **plafond, niet als verplichting**: wanneer de globalisatie (samentelling met de andere inkomsten en progressieve belasting) **voordeliger** uitvalt voor de belastingplichtige, geldt automatisch het **gunstregime** (art. 171, laatste lid). Het afzonderlijk tarief wordt dus enkel toegepast als het effectief gunstiger is dan het progressief tarief — een mechanische beslissing van de administratie, geen keuze van de belastingplichtige. 🔗\n\n**Valkuil**: een **flexi-job-bezoldiging** boven het vrijstellingsplafond van art. 38, § 1, 29° WIB is **uitgesloten** van art. 171 (art. 171/1 WIB) — die wordt dus tegen het normale progressieve tarief belast, ondanks haar specifieke karakter. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 171 WIB 92** (Bijzondere stelsels van aanslag — Afzonderlijke aanslagen) somt limitatief op welke inkomsten aan afzonderlijke aanslagvoeten worden belast in plaats van aan het progressief tarief (art. 130). Voor beroepsinkomsten zijn dit voornamelijk: stopzettingsmeerwaarden (1° c, 4° b), kapitalen van aanvullende pensioenen (1° d, 2°quater, 4° f-g), opzeggings- en stopzettingsvergoedingen, achterstallen, vervroegd vakantiegeld en vergoedingen voor tijdelijke derving (5°, 6°). Uitzondering: flexi-jobs boven het vrijstellingsplafond (art. 171/1). Slotbepaling van art. 171: globalisatie geldt als ze gunstiger is. 📖",
+          "wetsref": "Art. 130, 171 en 171/1 WIB 92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

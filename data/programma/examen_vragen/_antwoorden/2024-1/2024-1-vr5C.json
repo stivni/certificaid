@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr5C",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "tabel",
+          "tekst": "| Aangifte | Vak | Code | Bedrag | Omschrijving |\n|---|---|---|---|---|\n| Onroerend inkomen | III — Inkomsten van onroerende goederen, rubriek 2 \"gebouwen die u niet verhuurt of verhuurt aan natuurlijke personen die ze niet voor hun beroep gebruiken\" | **1106** | **1.500 €** (niet-geïndexeerd KI) | Het KI wordt door de fiscus zelf geïndexeerd en met 40 % verhoogd; de belastingplichtige geeft enkel het niet-geïndexeerde KI aan. 📖 |\n| Roerend inkomen | VII.B — Inkomsten uit verhuring, verpachting, gebruik en concessie van roerende goederen, rubriek \"verhuring van meubilair\" | **1156** | **4.800 €** (= 40 % × 12.000 €) bruto | 60 / 40-forfait: bij gemeubeld verhuur zonder afzonderlijke vaststelling in een geregistreerd huurcontract wordt 40 % van de huurprijs als roerend inkomen uit het meubilair aangemerkt. 🔗 |",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Stap 1 — kwalificatie**. Verhuur van een gebouwd onroerend goed aan een natuurlijk persoon die het niet voor beroep gebruikt → art. 7 § 1 2° a WIB92: belastbaar onroerend inkomen = **geïndexeerd KI × 1,40**. De belastingplichtige vult enkel het **niet-geïndexeerde KI (1.500 €)** in; de indexatie en de verhoging met 40 % gebeuren automatisch door de fiscus. 🔗\n\n**Stap 2 — splitsing gemeubeld**. Het pand is **gemeubeld** verhuurd, maar in de huurovereenkomst is geen afzonderlijke prijs voor het onroerende en het roerende deel bepaald. Wettelijke forfaitaire splitsing (art. 4 KB/WIB92 + vaste administratieve praktijk): **60 % onroerend / 40 % roerend**. 🔗\n\n**Stap 3 — bedragen**. Jaarhuur = 3.000 € × 4 kwartalen = **12.000 €**. Roerend gedeelte = 40 % × 12.000 = **4.800 € bruto** → vak VII, code 1156. Het onroerende gedeelte (60 % × 12.000 = 7.200 €) wordt **niet** afzonderlijk aangegeven, want voor verhuur aan een privé-natuurlijke persoon geldt KI × 1,40 — niet de werkelijke huurprijs. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Geef **niet** de volledige 12.000 € huurprijs aan als onroerend inkomen. Voor verhuur aan een privé-natuurlijke persoon (art. 7 § 1 2° a WIB92) blijft het belastbaar onroerend inkomen forfaitair bepaald op KI × 1,40 — de werkelijk ontvangen huurprijs speelt geen rol voor het onroerende luik. Alleen het **roerend** gedeelte van 40 % wordt als brutohuurprijs (van het meubilair) aangegeven; daarop kan vervolgens 50 % kostenforfait worden toegepast voor de netto-belastbare grondslag (art. 22 § 3 WIB92 + art. 3 KB/WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 7 § 1 2° a WIB92** — voor een gebouwd onroerend goed dat verhuurd is aan een natuurlijk persoon die het niet voor beroep gebruikt, is het belastbaar onroerend inkomen het kadastraal inkomen verhoogd met 40 %. 📖  **Art. 8 WIB92** — afzonderlijke vaststelling in geregistreerde huurovereenkomst kan splitsen tussen beroeps- en privé-gedeelte (hier niet van toepassing — volledig privé). 📖  **Art. 17 § 1 3° WIB92** — inkomsten uit verhuring van roerende goederen (meubilair) zijn roerende inkomsten; bij gemeubeld verhuur zonder afzonderlijke prijsbepaling geldt het forfaitair vermoeden 60 / 40 (art. 4 KB/WIB92). 🔗  **Aangifte AJ 2025** — vak III code 1106 (gebouw verhuurd aan natuurlijk persoon, niet-beroep) voor het KI; vak VII.B code 1156 (verhuring van meubilair) voor het roerende gedeelte. 📖",
+          "wetsref": "Art. 7 § 1 2° a, art. 8, art. 17 § 1 3° WIB92; art. 4 KB/WIB92",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

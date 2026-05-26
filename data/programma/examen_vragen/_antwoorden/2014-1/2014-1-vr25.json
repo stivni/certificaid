@@ -1,0 +1,52 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr25",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — Erelonen voor advies verstrekt buiten het kader van een echt beroep zijn het schoolvoorbeeld van **occasionele baten** in de zin van art. 90, 1° WIB 1992: een prestatie/dienst aan derden, buiten een beroepswerkzaamheid en buiten het normaal beheer van een privévermogen. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 90, 1° viseert *\"winst of baten, hoe ook genaamd, die zelfs occasioneel of toevallig, buiten het uitoefenen van een beroepswerkzaamheid, voortkomen uit enige prestatie, verrichting of speculatie of uit diensten bewezen aan derden, daaronder niet begrepen normale verrichtingen van beheer van een privévermogen\"*. 📖\n\n**Per optie:**\n- **a) Erelonen voor advies buiten echt beroep** → **JUIST** — typische occasionele dienstverlening aan derden, valt rechtstreeks onder art. 90, 1°. 🔗\n- **b) Prijzen tombola's / toegelaten loterijen / Nationale Loterij** → FOUT — toegelaten loterijen en de Nationale Loterij zijn **vrijgesteld** van personenbelasting (afzonderlijke taks op de spelen en weddenschappen; vrijstelling toegelaten loterijen art. 2.12.6.0.1 VCF). Niet art. 90, 1°. 🔗\n- **c) Winsten van occasionele verrichtingen op de effecten- of termijnbeurs** → FOUT — louter occasionele beursverrichtingen vallen in de regel onder het **\"normaal beheer van een privévermogen\"** dat art. 90, 1° expliciet uitsluit; enkel duidelijk **speculatieve** verrichtingen (abnormaal frequent, met geleend geld, ...) worden belast. De optie stelt occasioneel = belastbaar, wat te ruim is. 🔗\n- **d) Interesten bij laattijdige betaling na volledige en definitieve stopzetting** → FOUT — dit zijn **inkomsten van een vorige beroepswerkzaamheid** in de zin van art. 28 WIB (verkregen na stopzetting maar voortkomend uit die vorige werkzaamheid), niet art. 90, 1°. 📖\n- **e) Prijzen uit publiciteitswedstrijden in pers/radio/tv** → FOUT — deze prijzen vallen onder een eigen categorie diverse inkomsten (loten/prijzen, art. 90, 6°-gerelateerd, met taks op spelen en weddenschappen), niet onder de occasionele winst-of-baten-categorie van **art. 90, 1°**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Optie **c** is de klassieke afleider: \"occasionele\" beursverrichtingen lijken te passen bij \"occasionele baten\", maar art. 90, 1° sluit *\"normale verrichtingen van beheer van een privévermogen bestaande uit ... portefeuillewaarden\"* uitdrukkelijk uit. Enkel **speculatieve** verrichtingen (abnormaal risicovol, met geleend geld, hoge frequentie) worden belast — een loutere occasionele aan- en verkoop op de effectenbeurs is dat niet. De rechtspraak hanteert hier het criterium \"goede huisvader\". 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 90, 1° WIB 1992 viseert winst of baten die — zelfs occasioneel of toevallig — voortkomen uit *enige prestatie, verrichting of speculatie of uit diensten bewezen aan derden*, buiten een beroepswerkzaamheid en buiten het normaal beheer van een privévermogen. Loterijprijzen vallen onder de taks op de spelen (vrijstelling toegelaten loterijen: art. 2.12.6.0.1 VCF). Inkomsten na stopzetting beroep: art. 28 WIB. 📖",
+          "wetsref": "Art. 90, 1° WIB 1992; art. 28 WIB 1992; art. 2.12.6.0.1 VCF",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/VCF.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

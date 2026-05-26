@@ -1,0 +1,41 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2003-bibf",
+  "vraag_id": "2003-bibf-vrJ1",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "i1",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Advies: laat de cliënt bij zijn sociaal verzekeringsfonds een **verzoek tot vermindering van de voorlopige sociale bijdragen** indienen, op basis van de fors gedaalde bezoldiging in 2003 ten opzichte van het refertejaar 2000. De voorlopige bijdragen worden dan herrekend; de **definitieve afrekening** volgt later op basis van het werkelijke inkomen van 2003 (regularisatie). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "tekst": "**Werking van het systeem (anno 2003)**:\n\n- Voorlopige sociale bijdragen van een zelfstandige (incl. zelfstandige bedrijfsleider) worden trimestrieel gevorderd op basis van het **netto belastbaar beroepsinkomen van het derde voorafgaande jaar** (refertejaar) — voor 2003 dus de bezoldiging van 2000. 🤖\n- Wanneer het lopende inkomen **aanzienlijk lager** ligt dan het refertejaar én de zelfstandige dit kan **aantonen** (bv. notulen AV/bestuursorgaan over de bezoldigingsverlaging, gewijzigde overeenkomst, gewijzigde fiches 281.20), kan hij bij het sociaal verzekeringsfonds een **verzoek tot vermindering van de voorlopige bijdragen** indienen. Het fonds kan de voorlopige bijdragen dan herleiden tot een lagere bijdragecategorie (drempels vastgesteld door de wet). 🤖\n- Na afsluiting van het inkomstenjaar volgt steeds een **definitieve regularisatie**: de fiscus deelt het effectieve netto belastbaar beroepsinkomen mee aan het sociaal verzekeringsfonds, dat de bijdragen herrekent. **Te veel betaalde bijdragen worden terugbetaald**; tekorten worden bijgevorderd. De vermindering vermijdt dus vooral een liquiditeitsprobleem; de definitieve uitkomst hangt af van het werkelijke inkomen 2003. 🔗\n- **Praktische actie**: gemotiveerd schriftelijk verzoek aan het sociaal verzekeringsfonds, gestaafd met bewijsstukken van de bezoldigingsdaling (bestuursbesluit, aangepaste loonfiches, voorlopige resultatenrekening van de vennootschap). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De vermindering van voorlopige bijdragen is **geen kwijtschelding**: als achteraf blijkt dat het werkelijke inkomen 2003 toch hoger ligt dan de drempel waarvoor de vermindering werd toegestaan, vordert het fonds bij de regularisatie **bijdrageverhogingen** (verwijlinteresten/sancties) op het deel dat ten onrechte te laag werd betaald. De cliënt moet zijn raming dus **realistisch onderbouwen** en bij gewijzigde vooruitzichten het fonds tijdig verwittigen. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Sociaal statuut der zelfstandigen — **KB nr. 38 van 27 juli 1967** houdende inrichting van het sociaal statuut der zelfstandigen + uitvoerings-KB van 19 december 1967, dat de berekeningswijze op het refertejaar (N-3) regelt en de procedure voor vermindering van voorlopige bijdragen en de definitieve regularisatie organiseert. ❓ *(geen letterlijke bron in RAG-corpus — zie lacune-signaal in rapport)*",
+          "wetsref": "KB nr. 38 van 27.07.1967 (sociaal statuut zelfstandigen) + uitvoerings-KB 19.12.1967",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        }
+      ]
+    }
+  ]
+}

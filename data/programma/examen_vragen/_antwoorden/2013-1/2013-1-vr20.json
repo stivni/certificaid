@@ -1,0 +1,74 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-1",
+  "vraag_id": "2013-1-vr20",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "PNG-segment pagina_02.png toont visueel vraag 1 (jaarrekening XYZ), niet vraag 20. Tekst-interpretatie en tekst.txt zijn intern consistent en bevatten alle benodigde cijfers; berekening is gebaseerd op de tekst. Afschrijvingsstatus van machines, bestelwagen en gebouw is niet gegeven — gangbare examen-conventie (volledig afgeschreven boekwaarde 0) is toegepast; alternatieve aannames zouden de meerwaarde-bedragen wijzigen maar niet de aanslagvoeten.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "André is 58 jaar en stopt vrijwillig (geen overlijden, geen gedwongen stopzetting) → tarief 10 % is uitgesloten. Toepasselijke regimes: **16,5 %** voor materiële vaste activa die > 5 jaar voor het beroep werden gebruikt (art. 171, 4°, b WIB92) en **33 % + progressief** voor cliënteel (art. 171, 1°, c + plafond \"4 × 4\"). Commissieloon bemiddelaar (10 %) is een werkelijke kost van overdracht en wordt pro rata in mindering gebracht (rubriek 1 vak XXI). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "kop": "Stopzettingsmeerwaarden per bestanddeel (na aftrek 10 % commissie)",
+          "tekst": "| Bestanddeel | Verkoopprijs (beroep) | Commissie 10 % | Boekwaarde (aanname) | Meerwaarde | Aanslagvoet |\n|---|---:|---:|---:|---:|---|\n| Machines | 50.000 | 5.000 | 0 | **45.000** | 16,5 % (art. 171, 4°, b) 🔗 |\n| Gebouw — constructie (50 % beroep) | 300.000 | 30.000 | 0 | **270.000** | 16,5 % (art. 171, 4°, b) 🔗 |\n| Gebouw — terrein (50 % beroep) | 100.000 | 10.000 | 50.000 | **40.000** | 16,5 % (art. 171, 4°, b) 🔗 |\n| Bestelwagen | 25.000 | 2.500 | 0 | **22.500** | 16,5 % (art. 171, 4°, b) 🔗 |\n| Cliënteel — schijf ≤ \"4 × 4\"-plafond | — | — | — | **112.241** | 33 % (art. 171, 1°, c) 🔗 |\n| Cliënteel — schijf > plafond | — | — | — | **157.759** | gezamenlijk / progressief 🔗 |\n| **Cliënteel totaal** | 300.000 | 30.000 | 0 (zelf opgebouwd) | **270.000** | gesplitst (zie boven) |\n| **Totaal aangifte vak XXI** | | | | **650.000** | |\n\nPrivégedeelte gebouw (50 %, verkoopprijs 400.000 − terrein 100.000 = 300.000 constructie + 100.000 terrein) valt **buiten** vak XXI — geen beroepsactivum. Aangekocht in 1985 → > 5 jaar in bezit, dus terrein-gedeelte ook niet belastbaar als divers inkomen (art. 90, 8° WIB92 geldt enkel < 5 of < 8 jaar). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "kop": "Toetsing \"4 × 4\"-plafond cliënteel (art. 171, 1°, c WIB92)",
+          "tekst": "Belastbare nettowinst van de **vier jaren voorafgaand** aan de stopzetting (2008-2011):\n\n- 2011: 35.242\n- 2010: 17.771\n- 2009: 28.861\n- 2008: 30.367\n- **Som = 112.241** 📖\n\nPlafond 33 %-tarief = **112.241 €**. Cliënteel-meerwaarde na commissie = 270.000 €. Schijf boven het plafond (270.000 − 112.241 = **157.759 €**) is **gezamenlijk belastbaar** aan het progressief tarief in de personenbelasting. Het winstjaar 2007 valt buiten het 4-jaren-venster en telt niet mee. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "kop": "Onderbouwing materiële vaste activa (16,5 %)",
+          "tekst": "Voorwaarde art. 171, 4°, b: vaste activa **meer dan 5 jaar** voor de beroepswerkzaamheid gebruikt, bij vrijwillige stopzetting vóór 60 jaar. 📖\n\n- **Gebouw**: aangekocht 1985, gebruikt tot 2012 → ruim > 5 jaar ✓\n- **Machines, bestelwagen**: ouderdom niet vermeld in de casus → klassieke examen-aanname: > 5 jaar in gebruik bij een 58-jarige loodgieter die zijn handelszaak overlaat. Indien ≤ 5 jaar → 33 % (art. 171, 1°, a/b). ❓\n\nBoekwaarde is in de casus niet gegeven; toegepaste examen-conventie = **volledig afgeschreven** (bw = 0). Voor het terrein (gebouw-onderdeel) geldt dat terreinen niet afschrijfbaar zijn → boekwaarde = aankoopprijs beroepsdeel = 50 % × 100.000 = **50.000**. 🤖\n\n**Verdeling commissie 10 %**: het commissieloon van 117.500 € bedraagt 10 % van de totale verkoopprijs (1.175.000). De aftrek gebeurt pro rata over elk bestanddeel — voor beroepsactiva komt dit overeen met 10 % van elke verkoopprijs (zie tabel). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Het tarief van **10 %** (art. 171, 2° WIB92) is hier **niet** van toepassing: dit vereist stopzetting **vanaf 60 jaar**, of gedwongen stopzetting (gezondheid, onteigening), of overlijden. André is 58 en stopt vrijwillig → 16,5 % blijft het laagste tarief voor MVA. Tweede valkuil: de \"4 × 4\"-regel geldt **enkel voor cliënteel en andere immateriële vaste activa** (art. 171, 1°, c) — niet voor MVA. Derde valkuil: het privégedeelte van het gebouw (50 %, 1ste verdieping) behoort niet tot de beroepswerkzaamheid en mag **niet** in vak XXI verschijnen; bij verkoop > 5 of > 8 jaar na aankoop is dit zelfs volledig vrijgesteld van diverse-inkomsten-belasting (art. 90, 8°). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 171, 1°, c WIB92**: 33 % op stopzettingsmeerwaarden op immateriële vaste activa, in zover zij niet meer bedragen dan de belastbare nettowinst van de **vier jaren voorafgaand** aan de stopzetting (\"4 × 4\"-plafond). Het meerdere is gezamenlijk belastbaar. 📖\n**Art. 171, 4°, b WIB92**: 16,5 % op stopzettingsmeerwaarden op materiële vaste activa die **meer dan 5 jaar** voor de beroepswerkzaamheid werden gebruikt. 📖\n**Art. 171, 2° WIB92**: 10 % uitsluitend bij stopzetting vanaf 60 jaar, gedwongen stopzetting of overlijden — niet van toepassing op André (58, vrijwillig). 📖\n**Vak XXI aangifte PB**: rubriek 1 \"Stopzettingsmeerwaarden **na aftrek van werkelijke kosten van overdracht**\" — codes 1690-56 (16,5 %), 1691-55 (33 %), 1692-54 (gezamenlijk). 📖",
+          "wetsref": "Art. 171, 1°, c + 4°, b + 2° WIB92; vak XXI aangifte PB",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

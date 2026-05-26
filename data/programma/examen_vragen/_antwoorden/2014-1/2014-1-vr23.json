@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr23",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "b",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **b** is de onjuiste stelling. Art. 87 WIB92 koppelt het huwelijksquotiënt enkel aan het feit dat **slechts één echtgenoot beroepsinkomsten** heeft — de toevoeging \"of onroerende inkomsten\" hoort niet bij de voorwaarde. Het percentage (30 %) en het geïndexeerde plafond (9.810 EUR voor AJ 2013, basisbedrag 6.700 EUR) zijn op zich correct, maar de voorwaarde zelf is fout geformuleerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** — JUIST. Het huwelijksquotiënt (art. 87-88 WIB92) veronderstelt een **gemeenschappelijke aanslag**; dat regime geldt voor gehuwden en (via art. 2, 2° WIB92) voor wettelijk samenwonenden, die verplicht een gezamenlijke aangifte indienen (art. 126 WIB92). 🔗\n- **b** — ONJUIST. Art. 87 WIB92 spreekt enkel over de situatie waarin slechts één echtgenoot **beroepsinkomsten** heeft verkregen. **Onroerende inkomsten** spelen geen rol in de toepassingsvoorwaarde — die worden in het kader van een gemeenschappelijke aanslag sowieso afzonderlijk per echtgenoot belast (art. 127 WIB92). Het bedrag 9.810 EUR (= 6.700 EUR basisbedrag, geïndexeerd voor AJ 2013) en 30 % zijn op zich juist, maar de stelling is fout door de toegevoegde voorwaarde. 📖\n- **c** — JUIST. Het doel is wel degelijk de belastingdruk te verlagen door virtuele toerekening van een deel van de inkomsten van de meest verdienende echtgenoot aan de andere, zodat het progressievoordeel benut wordt. 🔗\n- **d** — JUIST. Art. 87 en 88 WIB92 sluiten beide expliciet toepassing uit \"wanneer daardoor de belasting (...) wordt verhoogd\" — het huwelijksquotiënt is dus enkel van toepassing voor zover het gunstig is. 📖\n- **e** — JUIST. Wanneer de beroepsinkomsten uit meerdere categorieën komen (bezoldigingen, winst, baten, …), wordt het toegerekende quotiënt geacht prorata dezelfde samenstelling te hebben. 🤖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar het **huwelijksquotiënt** (art. 87 WIB92 — toerekening wanneer slechts één echtgenoot beroepsinkomsten heeft) niet met het **meewerkinkomen** (art. 86 WIB92 — toekenning aan de feitelijk meewerkende echtgenoot, ook 30 % maar plafond 8.700 EUR basisbedrag) of met de **toerekening bij gering beroepsinkomen** (art. 88 WIB92 — wanneer de inkomsten van één echtgenoot minder dan 30 % van het totaal bedragen). Alle drie staan onder dezelfde afdeling \"Toekenning en toerekening van een deel van de beroepsinkomsten aan de echtgenoot\", maar hebben verschillende toepassingsvoorwaarden. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 87 WIB92**: \"Wanneer een gemeenschappelijke aanslag wordt gevestigd en slechts één van de echtgenoten beroepsinkomsten heeft verkregen, wordt een deel daarvan toegerekend aan de andere echtgenoot (...). Dat deel bedraagt 30 pct. van die inkomsten, doch mag niet hoger zijn dan 6.700 EUR.\" 📖 — Basisbedrag is niet-geïndexeerd; voor aanslagjaar 2013 wordt dit geïndexeerd tot 9.810 EUR (Cijferzakboekje). **Art. 88 WIB92**: variant wanneer beide echtgenoten beroepsinkomsten hebben maar de ene minder dan 30 % van het totaal. **Art. 2, 2° WIB92**: gelijkstelling wettelijk samenwonenden met echtgenoten. Beide artikelen sluiten toepassing uit \"wanneer daardoor de belasting Staat (...) wordt verhoogd\".",
+          "wetsref": "Art. 87-88 WIB92; art. 2, 2° WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

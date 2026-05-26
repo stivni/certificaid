@@ -1,0 +1,167 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr23",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** Vergoedingen \"gewaarborgd inkomen\" tot herstel van een **tijdelijke** derving van beroepsinkomsten worden belast tegen de **gemiddelde aanslagvoet** van het laatste vorige jaar met 12 maanden beroepsinkomsten (art. 171, 5°, b WIB92), niet tegen 33%. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De stelling verwart twee verschillende afzonderlijke aanslagregimes:\n\n- **Art. 171, 5°, b WIB92** — vergoedingen tot volledig of gedeeltelijk herstel van een **tijdelijke** derving van beroepsinkomsten (typevoorbeeld: uitkering gewaarborgd inkomen tijdens ziekte) → belast tegen de **gemiddelde aanslagvoet** van het laatste vorige jaar met 12 maanden belastbare beroepsinkomsten. Géén plafond van \"nettobaten van de vier laatste jaren\". 📖\n- **Art. 171, 1°, c WIB92** — stopzettingsmeerwaarden op immateriële vaste activa en compensatievergoedingen wegens **vermindering van de werkzaamheid** → belast tegen 33%, beperkt tot de belastbare nettowinst of -baten van de vier voorafgaande jaren. 📖\n\nDe stelling beschrijft het 33%-regime van art. 171, 1°, c (vermindering werkzaamheid) en plakt het op een geval van tijdelijke derving (ziekte van 6 maanden) — wat onder art. 171, 5°, b valt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Klassieke verwarring: 33% komt wel voor in art. 171 WIB92, maar telkens bij andere situaties (stopzetting, vermindering werkzaamheid, diverse inkomsten art. 90 1°/9°/12°). Vergoedingen \"gewaarborgd inkomen\" tijdens een **tijdelijke** arbeidsongeschiktheid → gemiddelde aanslagvoet, niet 33%. Geheugensteun: \"gewaarborgd inkomen\" = ziekte/ongeval → komt terug aan het werk → gemiddelde aanslagvoet (anders zou belasting straffend zijn). 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 171, 5°, b WIB92 — gemiddelde aanslagvoet voor vergoedingen tot herstel van een tijdelijke derving van beroepsinkomsten (art. 25, 6°, b; 27, tweede lid, 4°, b; 32, tweede lid, 2°; 33, derde lid). Te onderscheiden van art. 171, 1°, c (33% met 4-jaar-plafond, stopzettingsmeerwaarden en compensatievergoedingen voor **vermindering** van werkzaamheid). 📖",
+          "wetsref": "Art. 171, 5°, b WIB92 (vs. art. 171, 1°, c)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** De stelling combineert twee elkaar uitsluitende regimes. **Bij herbelegging** (art. 47 WIB92) wordt de meerwaarde **gespreid belast tegen het progressieve tarief**, naar verhouding van de afschrijvingen op het herbeleggingsactief — **niet** tegen 16,5%. Het 16,5%-tarief (art. 171, 4°, b) geldt enkel als men **niet** voor de gespreide belasting kiest. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Voor meerwaarden op materiële vaste activa die sedert meer dan 5 jaar voor de beroepswerkzaamheid zijn gebruikt (machine aangekocht in 2004, verkocht in 2012 → 8 jaar, voldoet), heeft de zelfstandige een **keuze**:\n\n- **Optie 1 — afzonderlijke belasting tegen 16,5%** (art. 171, 4°, b WIB92): direct, geen herbeleggingsverplichting, maar onmiddellijk belastbaar in het jaar van verwezenlijking. 📖\n- **Optie 2 — gespreide belasting** (art. 47 WIB92): voorwaardelijke vrijstelling mits herbelegging binnen 3 jaar (of 5 jaar bij gebouwen) in afschrijfbare immateriële of materiële vaste activa. De meerwaarde wordt dan **progressief** belast (samen met de overige beroepsinkomsten), gespreid over de afschrijvingsperiode van het herbeleggingsactief. 📖\n\nDe stelling combineert de herbeleggingsvoorwaarde van art. 47 met het tarief van art. 171, 4°, b — dat kan niet samen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Klassieke examenval: \"gespreid + 16,5%\" klinkt mooi, maar is wettelijk onmogelijk. Onthoud: **16,5% = onmiddellijk afzonderlijk** ; **gespreid = progressief, prorata afschrijvingen**. Voor een zelfstandige zonder grote inkomsten kan gespreid belast tegen progressief tarief soms voordeliger zijn dan 16,5% direct; voor wie al hoog scoort op de progressieve schaal is 16,5% direct meestal interessanter. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 47 WIB92 — voorwaarden gespreide belasting (herbelegging in afschrijfbare vaste activa binnen 3 jaar, of 5 jaar voor gebouwen; meerwaarde wordt aangemerkt als winst/baten gespreid over de afschrijvingsperiode). Art. 171, 4°, b WIB92 — 16,5%-tarief voor meerwaarden op activa sedert meer dan 5 jaar voor de beroepswerkzaamheid gebruikt, **mits niet voor gespreide belasting werd gekozen**. 📖",
+          "wetsref": "Art. 47 WIB92; Art. 171, 4°, b WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** Art. 51 WIB92 voorziet **wél** een forfaitaire kostenaftrek voor baten van vrije beroepen, in degressieve schijven (28,7% / 10% / 5% / 3%). Forfaitaire beroepskosten zijn dus mogelijk voor zowel werknemers, bedrijfsleiders, meewerkende echtgenoten, **baten** als winst. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "tabel",
+          "tekst": "Forfaitaire kostenpercentages (art. 51, tweede lid WIB92):\n\n| Categorie | Forfait |\n|---|---|\n| Bezoldigingen werknemers | 30 % (sinds hervorming één enkel percentage; in 2012 nog degressieve schijven) |\n| Bezoldigingen bedrijfsleiders | 3 % |\n| Bezoldigingen meewerkende echtgenoten | 5 % |\n| **Baten (vrije beroepen)** | **28,7 % / 10 % / 5 % / 3 %** in opklimmende schijven |\n| Winst | 30 % |\n\nHet forfait wordt geplafonneerd door een absoluut maximumbedrag (cijferzakboekje). 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De stelling klopt **wel** als ze zou zeggen dat het forfait voor baten lager uitvalt dan voor werknemers — een vrij beroep met hoge baten heeft praktisch baat bij **werkelijke** beroepskosten te bewijzen. Maar het forfait bestaat juridisch voor élke beroepsinkomensoort behalve voor bepaalde uitgesloten vergoedingen (zie art. 51, eerste lid: aankoopprijs verkochte goederen en sociale bijdragen art. 52, 7°/8°). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 51 WIB92 — \"Met betrekking tot andere bezoldigingen, winst en baten ... worden de beroepskosten, bij gebrek aan bewijzen, forfaitair bepaald op percentages van het brutobedrag.\" De wet noemt expliciet **baten** in punt 4° (degressieve schijven 28,7% → 3%). Geen wettelijke uitzondering voor vrije beroepen. 📖",
+          "wetsref": "Art. 51 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "oordeel": false,
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Niet waar.** De stelling is veel te absoluut. Een buitenlands rustpensioen is in België **in beginsel belastbaar** als rijksinwoner-inkomen (art. 5 + art. 34 WIB92). Het is **enkel** vrijgesteld als een dubbelbelastingverdrag (DBV) de heffingsbevoegdheid aan de bronstaat toekent — en dan geldt vrijstelling met progressievoorbehoud (art. 155 WIB92). \"Nooit belastbaar\" klopt dus niet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het werkelijke regime:\n\n- **Belgisch rijksinwoner** wordt belast op zijn **wereldwijd inkomen** (art. 5 WIB92), inclusief buitenlandse pensioenen (art. 34 WIB92). 📖\n- **Met DBV en vrijstellingsclausule**: het pensioen is **vrijgesteld in België** maar komt in aanmerking voor **progressievoorbehoud** (art. 155 WIB92) — het bepaalt mee het tarief op de overige Belgische inkomsten. 📖\n- **Zonder DBV of bij verrekeningsstelsel**: het pensioen is gewoon belastbaar in België (eventueel met verrekening van de buitenlandse belasting indien voorzien). 🔗\n- **Specifiek voor pensioenen**: veel DBV's (bv. OESO-modelartikel 18) wijzen de heffingsbevoegdheid voor **privé**-rustpensioenen toe aan de **woonstaat** (= België voor de Belgische rijksinwoner) → dan is het pensioen gewoon in België belastbaar, geen vrijstelling, geen progressievoorbehoud-vraag. 🔗\n\nDe absoluutheid \"**nooit** belastbaar, **maar wel** progressievoorbehoud\" miskent al deze nuances. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Stagiairs verwarren \"buitenlands inkomen\" vaak automatisch met \"vrijgesteld in België\". Standaardregel: Belg = belast op wereldwijd inkomen. Vrijstelling is de **uitzondering** en hangt af van het concrete verdrag én van het type pensioen (publiek vs. privé, kasstaat vs. bronstaat). \"Nooit\" is in fiscaal recht zelden juist. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 5 WIB92 (wereldwijde belastbaarheid rijksinwoners) + art. 34 WIB92 (pensioenen als beroepsinkomen) + art. 155 WIB92 (vrijstelling met progressievoorbehoud krachtens DBV). De vrijstelling treedt **alleen** op als het toepasselijke DBV de heffingsbevoegdheid aan de bronstaat toekent met vrijstellingsclausule. 📖",
+          "wetsref": "Art. 5, 34, 155 WIB92 + toepasselijk DBV",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

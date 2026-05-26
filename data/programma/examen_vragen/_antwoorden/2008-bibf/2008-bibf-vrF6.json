@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF6",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "d",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **d** — een **wettelijke ziekte-uitkering** is geen vrijgesteld inkomen. Ze is een **vervangingsinkomen** dat als beroepsinkomen belastbaar blijft (wel met belastingvermindering art. 154 WIB92, maar niet vrijgesteld). De drie andere opties zijn wel uitdrukkelijk vrijgesteld in art. 38 WIB92. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a — Sociaal voordeel**: vrijgesteld bij de verkrijger op grond van **art. 38, §1, 11° WIB92** (sociale voordelen toegekend door de werkgever — geringe waarde, collectief karakter, geen individueel beloningselement). Keerzijde: bij de werkgever vaak verworpen uitgave (art. 53, 14° WIB92). 🔗\n- **b — Niet-recurrent resultaatgebonden voordeel (CAO 90) van € 2.000**: vrijgesteld op grond van **art. 38, §1, 24° WIB92** voor zover het wettelijk plafond niet wordt overschreden. In 2008 (jaar van het examen) lag het sociale grensbedrag op € 2.200 / fiscale grens iets hoger; € 2.000 ligt onder de grens → volledig vrijgesteld. 📖\n- **c — Fietsvergoeding € 0,15/km**: vrijgesteld op grond van **art. 38, §1, 14° WIB92** (kilometervergoeding voor woon-werkverplaatsingen per fiets) ten belope van het wettelijk forfait. In 2008 bedroeg het vrijgestelde forfait exact € 0,15/km — de optie zit dus op de bovengrens en is volledig vrijgesteld. 🔗\n- **d — Wettelijke ziekte-uitkering (RIZIV)**: **vervangingsinkomen**, belastbaar als beroepsinkomen (pensioenen/renten/uitkeringen, art. 34 WIB92, of als werkloosheidsachtige uitkering art. 31bis/32). Het komt niet voor in de vrijstellingscatalogus van art. 38 WIB92. De wetgever geeft enkel een belastingvermindering (art. 154 WIB92), wat niet hetzelfde is als een vrijstelling. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Een **belastingvermindering** (art. 154 WIB92, vermindering voor pensioenen en vervangingsinkomsten) is **niet** hetzelfde als een **vrijstelling** (art. 38 WIB92). De ziekte-uitkering blijft bruto belastbaar inkomen en wordt mee opgenomen in de aangifte; pas in de berekening van de belasting wordt een vermindering toegekend. Wie de twee verwart, kiest hier verkeerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 38, §1 WIB92** somt limitatief de van personenbelasting **vrijgestelde beroepsinkomsten** op: o.a. 11° sociale voordelen, 14° fietsvergoeding ten belope van het wettelijk forfait, 24° niet-recurrente resultaatsgebonden voordelen (CAO 90) ten belope van het jaarmaximum. Wettelijke ziekte-uitkeringen komen daar niet in voor — ze blijven belastbaar als vervangingsinkomen (art. 34 WIB92), met enkel een belastingvermindering op grond van art. 154 WIB92. 📖",
+          "wetsref": "Art. 38, §1, 11° / 14° / 24° WIB92 · Art. 34 WIB92 · Art. 154 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

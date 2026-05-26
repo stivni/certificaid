@@ -1,0 +1,90 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr8B",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Meerwaarde van 80** op de deelneming. Berekening: netto actief B (100) − fiscale waarde participatie in A (20) = **+80**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "Bij een moeder-dochter fusie verdwijnt de deelneming van A in B uit de boekhouding van A; in ruil neemt A de activa en passiva van B over voor hun netto-fiscale waarde (boekhoudkundige én fiscale continuïteit, art. 78 §8 KB W.Venn. / art. 3:77 KB WVV). Het verschil tussen wat \"binnenkomt\" (netto actief B = 100) en wat \"verdwijnt\" (fiscale waarde deelneming = 20) is een **fusiemeerwaarde van 80** (de zogenaamde *opwaardering* of *goodwill* op de deelneming). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Verwar het **netto actief** van B (= eigen vermogen, hier 100) niet met de marktwaarde of met de boekwaarde van de overgenomen activa los. Bij de M-D fusie is het altijd het *aandeel in het eigen vermogen van B dat A reeds bezit* (hier 100 % × 100 = 100) dat tegenover de fiscale waarde van de deelneming wordt geplaatst. 🤖",
+          "confidence": "verondersteld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 3:77 §5 KB WVV (voorheen art. 78 §8 KB W.Venn.) — boekhoudkundige verwerking bij verschil tussen boekwaarde aandelen en aandeel in eigen vermogen van de overgenomen vennootschap. CBN-advies 2021/10, hoofdstuk \"De boekwaarde van de aandelen in de overgenomen vennootschap stemt niet overeen met het aandeel in haar eigen vermogen\". 📖",
+          "wetsref": "art. 3:77 §5 KB WVV; CBN 2021/10",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De fusiemeerwaarde van 80 is bij A **volledig fiscaal vrijgesteld** (geen belasting), op voorwaarde dat de fusie belastingneutraal verloopt (art. 211 §1 WIB92). De vrijstelling van het deel dat overeenstemt met de opwaardering van overgenomen activa is wel onderworpen aan de **onaantastbaarheidsvoorwaarde** (boeking op een vrijgestelde reserve). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Drie luiken in de fiscale behandeling bij A:\n\n- **Fusiemeerwaarde op de deelneming (80)**: art. 211 §1, 1° WIB92 stelt dat de meerwaarden die naar aanleiding van een belastingneutrale fusie worden verwezenlijkt of vastgesteld **niet in aanmerking komen voor belastingheffing**. Het deel dat overeenstemt met de opwaardering van de overgenomen activa (\"goodwill\") moet worden geboekt onder de **belastingvrije reserves (rekening 132)** of via een geïncorporeerde vrijgestelde reserve in het kapitaal, om de onaantastbaarheidsvoorwaarde na te leven. 📖\n- **Overdraagbare verliezen van B (30)**: art. 206 §2 WIB92 — de verliezen van B worden **pro rata fiscaal netto-actief** overgenomen door A: aftrekbaar bij A in de verhouding *fiscaal netto-actief B vóór fusie / (fiscaal netto-actief A vóór fusie + fiscaal netto-actief B vóór fusie)*. Zonder de cijfers van A's eigen netto-actief is het exacte bedrag niet te becijferen — de **beperking treedt sowieso in werking**. 🔗\n- **Overdraagbare innovatie-aftrek van A (40)**: ondergaat **dezelfde beperking** (art. 206 §2 WIB92, uitgebreid tot DBI-overschotten, NIA, octrooi-/innovatie-aftrek): A's eigen overschotten worden eveneens pro rata beperkt na de fusie. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Vermeldenswaard",
+          "tekst": "De **onaantastbaarheidsvoorwaarde** voor de fusiemeerwaarde wordt in de praktijk vervuld door één van twee technieken (CBN 2021/10): ofwel een **overboeking naar belastingvrije reserves** (689 aan 132) via debet resultatenrekening, ofwel het simultaan boeken van een **vrijgestelde reserve én een negatieve belaste reserve** in het kapitaal/inbreng (beide voor hetzelfde bedrag). De tweede techniek vermijdt een kunstmatig boekhoudkundig verlies bij A. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 211 §1, 1° WIB92 — bij belastingneutrale fusie komen verwezenlijkte of vastgestelde meerwaarden niet in aanmerking voor belastingheffing (mits onaantastbaarheidsvoorwaarde voor het opwaarderingsgedeelte). Art. 206 §2 WIB92 — beperking van overdracht van verliezen én overige aftrekken (innovatie-aftrek, NIA, DBI-overschotten) pro rata fiscaal netto-actief. Art. 3:77 §5 KB WVV + CBN-advies 2021/10 voor de boekhoudkundige tegenboeking. 📖",
+          "wetsref": "art. 211 §1 WIB92; art. 206 §2 WIB92; art. 3:77 §5 KB WVV; CBN 2021/10",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/adviezen/CBN-2021-10-boekhoudkundige-verwerking-van-fusies-tussen-vennootschappen.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

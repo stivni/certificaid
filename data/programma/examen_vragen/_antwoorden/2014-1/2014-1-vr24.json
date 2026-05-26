@@ -1,0 +1,59 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr24",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "c",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **c** is onmogelijk. Bij gemeubileerde verhuur wordt de huurprijs forfaitair gesplitst in 60% onroerend inkomen en 40% roerend inkomen (art. 4 KB/WIB92), zodat \"100% van het KI onderworpen aan de PB\" als belastbare grondslag onjuist is — het belastbare onroerende inkomen wordt bovendien niet bepaald op het KI maar op de werkelijke (netto) huur wanneer aan een beroepsgebruiker of rechtspersoon wordt verhuurd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Doorlopen van elke optie tegen art. 7-13 WIB92 en art. 32, 3° WIB92:\n\n- **a — eigen woonhuis, niet aangegeven**: MOGELIJK. De eigen woning is sinds aj. 2006 vrijgesteld van PB (art. 12 §3 WIB92) en moet sinds aj. 2015 niet meer aangegeven worden in vak III. 🔗\n- **b — gedeeltelijk beroepsgebruik, vrijstelling op beroepsdeel KI**: MOGELIJK. Het deel van het KI dat overeenstemt met het beroepsgebruik wordt niet als onroerend inkomen belast (art. 7 §1, 1° i.s.m. art. 38), omdat het al via de beroepsinkomsten in aanmerking komt. 🔗\n- **c — gemeubileerd verhuurd, 100% KI in PB**: ONMOGELIJK. Bij gemeubileerde verhuur splitst art. 4 KB/WIB92 de huurprijs in 60% OI en 40% RI; bovendien is bij verhuur de belastbare basis ofwel KI × 1,40 (verhuur aan privé) ofwel de werkelijke netto-huur (verhuur aan beroep/rechtspersoon, geplafonneerd op KI × revalorisatiecoëfficiënt × 2/3) — niet \"100% van het KI\". 🔗\n- **d — verhuurd aan een vzw**: MOGELIJK. Een vzw is een rechtspersoon (geen natuurlijke persoon die het goed voor woondoeleinden gebruikt), dus art. 7 §1, 2°, c WIB92 is van toepassing: belasting op de werkelijke huur en huurlasten (verminderd met 40% kostenforfait, met plafond). 🔗\n- **e — verhuurd aan eigen vennootschap, geen herkwalificatie**: MOGELIJK. Drempel = 5/3 × KI × revalorisatiecoëfficiënt = 5/3 × 5.000 × 4,10 = **34.166,67 EUR**. Werkelijke jaarhuur = 500 × 12 = **6.000 EUR**. 6.000 < 34.167, dus geen herkwalificatie naar bezoldiging (art. 32, 3° WIB92). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "kop": "Toets herkwalificatie optie e",
+          "tekst": "| Grootheid | Waarde |\n|---|---|\n| Niet-geïndexeerd KI | 5.000 EUR |\n| Revalorisatiecoëfficiënt (aj. 2013) | 4,10 |\n| Drempel = 5/3 × KI × revalorisatie | 5/3 × 5.000 × 4,10 = **34.166,67 EUR** |\n| Werkelijke jaarhuur (500 × 12) | **6.000 EUR** |\n| Excedent boven drempel | 0 EUR — geen herkwalificatie 🔗 |\n\nDe huur blijft volledig onroerend inkomen; er wordt niets als bezoldiging geherkwalificeerd. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Vermijd verwarring tussen drie verschillende belastbare grondslagen voor onroerende inkomsten: (i) **niet verhuurd / verhuurd aan privé voor woongebruik** → geïndexeerd KI (× 1,40 voor gebouwen, art. 7 §1, 1°-2°a); (ii) **verhuurd aan beroep of rechtspersoon (niet-pacht)** → werkelijke netto-huur, geplafonneerd op KI × revalorisatiecoëfficiënt × 2/3 (art. 7 §1, 2°, c + art. 13); (iii) **gemeubileerd verhuurd** → boven op (i) of (ii) een opsplitsing 60% OI / 40% RI van de huurprijs (art. 4 KB/WIB92). De zinsnede \"100% van het KI in de PB\" in optie c slaat op geen enkele van die regimes. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 7 WIB92 (belastbare onroerende inkomsten — KI, geïndexeerd KI × 1,40, of werkelijke huur naargelang gebruik en huurder). 📖 Art. 8 WIB92 (gemengde verhuur — afzonderlijke vaststelling beroeps- vs. privégedeelte bij geregistreerde overeenkomst). 📖 Art. 13 WIB92 (netto-OI = brutohuur − 40% kostenforfait, geplafonneerd op 2/3 × KI × revalorisatiecoëfficiënt; revalorisatiecoëfficiënt = 4,10 voor aj. 2013). 📖 Art. 32, 3° WIB92 (herkwalificatie huurprijs tot bedrijfsleidersbezoldiging boven 5/3 × KI × revalorisatiecoëfficiënt bij verhuur aan eigen vennootschap). 📖 Art. 12 §3 WIB92 (vrijstelling eigen woning). 📖 Art. 4 KB/WIB92 (60/40-splitsing gemeubileerde verhuur). 🔗",
+          "wetsref": "WIB92 art. 7, 8, 12 §3, 13, 32, 3°; KB/WIB92 art. 4",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

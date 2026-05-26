@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2014-1",
+  "vraag_id": "2014-1-vr26",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "e",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **e** — stopzettingsmeerwaarden op immateriële vaste activa, met als plafond (\"fiscaal maximumbedrag\") de belastbare nettowinst of -baten van de vier voorafgaande jaren. Dit is letterlijk de hypothese van art. 171, 1°, c WIB92. 📖",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Per optie:\n\n- **a** — Activa die **niet** voor de beroepswerkzaamheid werden gebruikt → FOUT. Het gaat dan niet om beroepsmeerwaarden onder art. 171, 1°, c, maar om diverse inkomsten (art. 90 WIB92) met een eigen taxatieregeling. De omschrijving (\"immateriële of materiële vaste activa\" terwijl ze net níét voor het beroep werden gebruikt) is bovendien contradictoir — vaste activa veronderstellen beroepsgebruik. 🔗\n- **b** — Materiële vaste activa < 5 jaar in beroep gebruikt → FOUT. Het bijzondere tarief van **16,5 %** (art. 171, 4°, b WIB92) geldt enkel voor MVA die **méér dan 5 jaar** voor de beroepswerkzaamheid werden gebruikt. MVA die korter werden gebruikt, vallen onder het **progressieve** (gezamenlijke) tarief — niet 33 %. 🔗\n- **c** — IVA bij **gedwongen** vervreemding → FOUT op tarief. Gedwongen vervreemding (en stopzetting ≥ 60 jaar / overlijden) wordt aan **10 %** belast (art. 171, 4°, b → cross-ref art. 171, 2° voor stopzettingsmeerwaarden), niet aan 33 %. 🔗\n- **d** — IVA bij stopzetting door belastingplichtige **> 60 jaar** → FOUT op tarief. Net als bij gedwongen stopzetting: **10 %**, niet 33 % (art. 171, 4°, b WIB92). 🔗\n- **e** — IVA bij **vrijwillige stopzetting vóór 60 jaar**, met plafond gelijk aan de belastbare nettowinst of -baten van de **vier voorafgaande jaren** → JUIST. Exact de hypothese van art. 171, 1°, c WIB92: 33 %, tenzij globalisering voordeliger uitvalt. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md",
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Drie tarieven door elkaar: **10 %** voor stopzetting ≥ 60 jaar / gedwongen stopzetting / overlijden (art. 171, 4°, b), **16,5 %** voor meerwaarden op MVA die **> 5 jaar** voor het beroep zijn gebruikt bij vrijwillige stopzetting < 60 jaar (art. 171, 4°, b), en **33 %** voor stopzettingsmeerwaarden op **immateriële** vaste activa bij vrijwillige stopzetting vóór 60 jaar (art. 171, 1°, c). Opties c en d klinken plausibel maar zetten het verkeerde tarief naast de juiste hypothese. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/aangifte-PB-2025-stopzetting.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 171, 1°, c WIB92: \"stopzettingsmeerwaarden op immateriële vaste activa als vermeld in artikel 28, eerste lid, 1° ... in zover zij niet meer bedragen dan de belastbare nettowinst of -baten die in de vier jaren voorafgaand aan het jaar van de stopzetting of de vermindering van de werkzaamheid uit de niet meer uitgeoefende werkzaamheid zijn verkregen\" → 33 %, behoudens globalisering. Het meerdere boven dat plafond is progressief belast. 📖",
+          "wetsref": "Art. 171, 1°, c WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

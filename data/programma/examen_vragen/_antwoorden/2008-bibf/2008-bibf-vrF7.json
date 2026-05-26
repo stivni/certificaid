@@ -1,0 +1,50 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2008-bibf",
+  "vraag_id": "2008-bibf-vrF7",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "gekozen_optie_id": "a",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Optie **a** — uitgaven voor het **onderhoud en de restauratie van beschermde eigendommen** waren in 2008 een **aftrekbare besteding** (toen art. 104, 8° WIB92). De andere drie opties zijn **belastingverminderingen**, géén aftrekbare bestedingen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Het verschil dat de vraag toetst: **aftrekbare besteding** (van het totale netto-inkomen afgetrokken vóór de tariefberekening, art. 104 WIB92) versus **belastingvermindering** (vermindert de belasting zelf, art. 145/x WIB92).\n\nPer optie (wetgeving aanslagjaar 2008):\n\n- **a — onderhoud/restauratie beschermde eigendommen** → JUIST. Stond toen als **aftrekbare besteding** in art. 104, 8° WIB92 (50 % van de werkelijk gedragen uitgaven, voor niet-verhuurde, voor het publiek toegankelijke beschermde monumenten/landschappen). 🔗\n- **b — vernieuwing woning in zone positief grootstedelijk beleid** → FOUT. Is een **belastingvermindering** (art. 145/25, nu art. 14525 WIB92), geen aftrekbare besteding. 📖\n- **c — vernieuwing van woningen verhuurd tegen redelijke prijs** (sociaal verhuurkantoor) → FOUT. Is een **belastingvermindering** (art. 145/30, nu art. 14530 WIB92). 📖\n- **d — beveiliging privéwoning tegen diefstal en brand** → FOUT. Is een **belastingvermindering** (art. 145/31, nu art. 14531 WIB92, 30 % met plafond). 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Optie a is sinds aanslagjaar 2009 zelf óók omgezet naar een **belastingvermindering** (huidig art. 14536 WIB92, 30 % van de uitgaven). Voor het bouwjaar van dit examen (2008) was het echter nog steeds een **aftrekbare besteding** onder art. 104, 8° WIB92 — dat verklaart waarom de vraag-asser onderhoud/restauratie van beschermde eigendommen als enige juiste antwoord behandelt. Op een actueel examen zou geen van de vier opties nog een aftrekbare besteding zijn — dit is historische wetgeving. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 104 WIB92** somt limitatief de **aftrekbare bestedingen** op (onderhoudsuitkeringen, giften, kinderoppas, en — destijds — onderhoud/restauratie van beschermde monumenten en landschappen onder 8°). De **belastingverminderingen** voor woning-vernieuwing in een zone voor positief grootstedelijk beleid, vernieuwing via een sociaal verhuurkantoor en beveiliging tegen inbraak/brand staan in respectievelijk **art. 14525, 14530 en 14531 WIB92** (Hoofdstuk III — gewoon stelsel van aanslag, onderafdelingen septies/duodecies/terdecies). 📖",
+          "wetsref": "Art. 104 WIB92 (aftrekbare bestedingen); art. 14525, 14530, 14531 WIB92 (belastingverminderingen)",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

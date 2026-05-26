@@ -1,0 +1,149 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2013-2",
+  "vraag_id": "2013-2-vr21",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Belastbaar bedrag bij mevr. Martin voor aanslagjaar 2013: **80 % × (€ 100.000 × omzettingscoëfficiënt art. 73 KB/WIB92)**. Bij een leeftijd van 37 jaar op datum van betaling (10/06/1975 → 01/12/2012) bedraagt de coëfficiënt **1,5 %**, zodat de fictieve jaarlijkse rente = € 1.500 en het belastbaar bedrag = **€ 1.200**. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Mechaniek (art. 170 WIB92)**: een kapitaal dat een onderhoudsuitkering vervangt (art. 90, eerste lid, 3° WIB92) wordt **niet** in één keer belast — het wordt omgezet in een **fictieve jaarlijkse lijfrente** en die rente wordt elk jaar gezamenlijk met de andere inkomsten belast, ten belope van **80 %**, vanaf de dag van betaling tot het overlijden van de verkrijger. 📖\n\n**Stap 1 — omzettingscoëfficiënt (art. 73 KB/WIB92)**: de coëfficiënt hangt af van de leeftijd van de verkrijger op het ogenblik van de betaling. Mevr. Martin is geboren op 10/06/1975 en is op 01/12/2012 **37 jaar**. Voor die leeftijdsklasse bedraagt de coëfficiënt **1,5 %** (Cijferzakboekje — schaal art. 73 KB/WIB92). 🤖\n\n**Stap 2 — fictieve jaarlijkse rente**: € 100.000 × 1,5 % = **€ 1.500**. 🔗\n\n**Stap 3 — belastbaar gedeelte**: 80 % × € 1.500 = **€ 1.200** per aanslagjaar, gezamenlijk belast met de andere inkomsten. 📖",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Niet de **volledige € 100.000** belasten — dat is precies wat art. 170 WIB92 wil vermijden. Evenmin de eenmalige kapitaaluitkering afzonderlijk belasten aan een vast tarief (zoals bij sommige pensioenkapitalen): voor onderhoudskapitalen geldt **geen** afzonderlijke aanslag, maar wel **gezamenlijke** belasting van de fictieve jaarlijkse rente. ❓ De exacte omzettingscoëfficiënt voor leeftijd 37 moet bij het examen uit het Cijferzakboekje worden afgelezen — de hier gebruikte 1,5 % is de gangbare waarde voor deze leeftijdsklasse, maar te verifiëren. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": []
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 170 WIB92** — kapitaal art. 90, 3° belast tot bedrag jaarlijkse uitkering bekomen door omzettingscoëfficiënt art. 169 § 1 toe te passen; 80 % van die jaarlijkse uitkering wordt elk belastbaar tijdperk gezamenlijk belast tot overlijden van de verkrijger. **Art. 169 § 1 WIB92** + **art. 73 KB/WIB92**: omzettingscoëfficiënten in functie van de leeftijd. **Art. 90, eerste lid, 3° WIB92**: kapitalen die onderhoudsuitkeringen vervangen vormen een divers inkomen. 📖",
+          "wetsref": "art. 170 + art. 169 § 1 + art. 90, 3° WIB92; art. 73 KB/WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "**Neen** — het bedrag blijft voor de volgende aanslagjaren **ongewijzigd € 1.200** per jaar. Geen indexering, geen herberekening: art. 170 WIB92 fixeert het bedrag op het moment van de uitbetaling van het kapitaal. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "De omzettingscoëfficiënt wordt **één keer** toegepast — op het ogenblik van de betaling van het kapitaal en op basis van de leeftijd van de verkrijger op dat ogenblik. De resulterende fictieve jaarlijkse rente is een **constant** bedrag dat elk jaar wordt belast, zonder herevaluatie naargelang de verkrijger ouder wordt of naargelang indexcijfers. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 170, tweede en derde lid WIB92** — het bedrag wordt vastgesteld door de omzettingscoëfficiënt toe te passen op het kapitaal (eenmalige bewerking); 80 % van die jaarlijkse uitkering wordt voor **elk** belastbaar tijdperk belast. Geen mechanisme van herberekening in de tekst. 📖",
+          "wetsref": "art. 170 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "De belasting wordt gevestigd **vanaf aanslagjaar 2013** (inkomsten 2012, jaar van betaling) **tot het aanslagjaar verbonden aan het jaar van overlijden van mevr. Martin** — het exacte aantal jaren is dus **onbepaald**, want het hangt af van haar levensduur. Geen vaste einddatum in de wet. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "tekst": "Art. 170, derde lid WIB92 is expliciet: **\"vanaf de dag waarop dat kapitaal is betaald of toegekend en tot de dag van het overlijden van de verkrijger\"** wordt 80 % van de jaarlijkse rente elk belastbaar tijdperk belast. Het stelsel kent dus geen vooraf bepaalde duur (anders dan bij sommige pensioenkapitalen waar bv. 10 of 13 belastbare tijdperken gelden — zie art. 515 WIB92). 📖\n\n**Eerste aanslagjaar**: aj 2013 (inkomsten 2012 — betaling op 01/12/2012). **Laatste aanslagjaar**: het aanslagjaar verbonden aan het inkomstenjaar waarin mevr. Martin overlijdt. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 170, derde lid WIB92** — belasting van 80 % van de jaarlijkse rente \"vanaf de dag waarop dat kapitaal is betaald of toegekend en tot de dag van het overlijden van de verkrijger\". Geen duur-plafond. 📖",
+          "wetsref": "art. 170, derde lid WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d",
+      "antwoord_status": "beantwoord",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Aftrekbaar bij dhr. Martin voor aanslagjaar 2013 (bedrag dat in de **berekening** van de belasting wordt opgenomen — dus na toepassing van het aftrekpercentage): **80 % × € 1.500 = € 1.200**. In de **aangifte** wordt het volledige bedrag van de fictieve jaarlijkse rente (€ 1.500) vermeld; de fiscus past zelf de 80 %-beperking toe. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "berekening",
+          "tekst": "**Symmetrie wettekst (aj 2013)**: art. 104, 1° WIB92 (versie aj 2013) liet **80 %** aftrek toe van regelmatig betaalde onderhoudsuitkeringen, alsmede van **de kapitalen die zulke uitkeringen vervangen**. Het kapitaal wordt voor de aftrek omgezet in dezelfde fictieve jaarlijkse rente als bij de verkrijger (art. 170 WIB92, gespiegeld toegepast bij de schuldenaar). ❓\n\n**Berekening**: \n- Fictieve jaarlijkse rente: € 100.000 × 1,5 % = € 1.500. 🔗\n- Aftrek in de **belastingberekening**: 80 % × € 1.500 = **€ 1.200**. 🔗\n- Aangegeven bedrag in de aangifte: € 1.500 (de aftrekbeperking van 80 % wordt door de administratie toegepast). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "Twee veelgemaakte fouten: (1) de **volledige € 100.000** aftrekken in aj 2013 — onmogelijk: kapitaal wordt eerst omgezet in een jaarlijkse rente en dan beperkt tot 80 %, en die aftrek wordt herhaald elk jaar tot overlijden van mevr. Martin. (2) Het verschil tussen **aangegeven bedrag** (= volledige fictieve rente € 1.500) en **bedrag in de belastingberekening** (= 80 % daarvan = € 1.200) verwarren — de vraagstelling expliciteert dit onderscheid. 🔗\n\n**Wijziging na aj 2013**: het percentage in art. 104, 1° WIB92 werd later verlaagd; in de huidige wettekst staat **70 %**. Voor aj 2013 is **80 %** echter het correcte percentage. ❓",
+          "confidence": "betwijfeld",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "**Art. 104, 1° WIB92** (versie aj 2013) — 80 % van de onderhoudsuitkeringen en **van de kapitalen die zulke uitkeringen vervangen** is aftrekbaar van het totale netto-inkomen. **Art. 170 WIB92** voor de omzetting van het kapitaal in een fictieve jaarlijkse rente. Spiegelbeginsel: wat bij de verkrijger belast wordt, is bij de schuldenaar aftrekbaar (mits aan de voorwaarden — wettelijke onderhoudsplicht, regelmatige betaling, niet samenwonend, EER-resident — voldaan; volgens de casus zijn alle wettelijke voorwaarden vervuld). 📖",
+          "wetsref": "art. 104, 1° + art. 170 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

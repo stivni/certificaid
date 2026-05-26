@@ -1,0 +1,51 @@
+{
+  "schema_versie": "1.1",
+  "examen_id": "2024-1",
+  "vraag_id": "2024-1-vr8A",
+  "antwoord_datum": "2026-05-26T00:00:00Z",
+  "antwoord_model": "claude-sonnet-4-6",
+  "_poc_notitie": "Topic_only — herinnering-fragment zonder overgeleverde stellingen. Antwoord is een syntheseblok van de kernregels rond overdraagbare fiscale verliezen in de vennootschapsbelasting (PO 2.2), die de stagiair toelaat eender welke juist/fout-stelling op dit thema te beoordelen.",
+  "vraag_antwoorden": [
+    {
+      "id": "a",
+      "antwoord_status": "topic_only",
+      "blokken": [
+        {
+          "type": "conclusie",
+          "tekst": "Kernregels overdraagbare fiscale verliezen in de vennootschapsbelasting (art. 206-207 WIB92): (i) **onbeperkt in de tijd** overdraagbaar; (ii) achtereenvolgens van de winst van **elk volgend** belastbaar tijdperk afgetrokken; (iii) sinds aj. 2019 onderworpen aan een **korfbeperking** — boven 1 mio EUR resterende winst is de aftrek beperkt tot 70 % van het surplus; (iv) **achterwaartse aftrek (carry-back)** enkel uitzonderlijk toegestaan (art. 206 § 4, COVID-19-maatregel en de tijdelijke wederopbouwreserve); (v) verliesoverdracht kan **vervallen** bij belastingvrije reorganisatie zonder bedrijfseconomische rechtvaardiging of bij **wijziging van controle** zonder rechtmatige financiele/economische behoeften (art. 207, lid 7, en art. 206/3). 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "opsomming",
+          "kop": "Bouwstenen voor juist/fout-stellingen",
+          "tekst": "- **Definitie**: \"vorige beroepsverliezen\" = verliezen vastgesteld onder de wetgeving die gold in het verliesjaar, die niet eerder konden worden afgetrokken of onder vennoten verdeeld (art. 206 § 1). 📖\n- **Volgorde van aftrek**: de verliesaftrek volgt op de DBI-aftrek, de octrooi-/innovatie-aftrek en de aftrek voor risicokapitaal — pas daarna komen de overgedragen verliezen aan bod (art. 207, lid 2). 📖\n- **Korfbeperking (cap)**: voor het saldo *boven* 1.000.000 EUR is de combinatie van overgedragen DBI, overgedragen innovatie-aftrek, overgedragen aftrek voor risicokapitaal en overgedragen verliezen beperkt tot **70 %** — de resterende 30 % blijft *minimum belastbare basis* (art. 207, lid 5-6). Onder de 1 mio EUR geldt de cap niet. 🔗\n- **Onbeperkte termijn**: geen verjaringstermijn op de overdracht zelf — een verlies uit bv. 2010 blijft aanwendbaar in 2026, mits opeenvolgend door de aangiftes meegedragen. 🔗\n- **Buitenlandse inrichting** (verdragsland): verliezen uit een vaste inrichting in een land waarmee Belgie een dubbelbelastingverdrag sloot, zijn voor verliezen geleden vanaf belastbare tijdperken die aanvangen op of na 1.1.2020 **niet langer aftrekbaar** van de Belgische winst, behoudens definitieve verliezen bij definitieve stopzetting (art. 206 § 1, leden 3-4). 📖\n- **Wijziging van controle**: zonder rechtmatige financiele of economische behoeften vervallen de overgedragen verliezen (art. 207, lid 7 — anti-misbruik-bepaling). 🔗\n- **Reorganisatie (fusie/splitsing)**: bij belastingneutrale fusie/splitsing worden de verliezen van de overgenomen of overgenomende vennootschap **prorata netto fiscale waarde** beperkt overgedragen (art. 206 § 2). 🔗\n- **Carry-back (achterwaartse aftrek)**: uitzonderlijk via art. 206 § 4 — eerst de COVID-19-wet (eenmalig voor aj. 2019/2020 verliezen op aj. 2018/2019-winst), later de **wederopbouwreserve** (art. 194quater/1). Geen reguliere carry-back zoals in Frankrijk of Nederland. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "motivatie",
+          "kop": "Valkuil",
+          "tekst": "De **korf** (\"minimum belastbare basis\") raakt **uitsluitend het surplus boven 1 mio EUR**, niet de eerste schijf. Een veelgemaakte fout in stellingen is poneren dat de verliesaftrek altijd beperkt is tot 70 %, of dat de cap op de totale winst slaat. Correct: tot 1 mio EUR aftrek voor 100 %; **boven** 1 mio EUR slechts 70 % van het meerdere. Tweede klassieker: verwarring met **PB** — in de personenbelasting geldt art. 78 (carry-forward zonder cap, andere structuur) en voor diverse inkomsten een **vijf-jaar-limiet** (art. 103 WIB92). Carry-forward zonder beperking in tijd geldt enkel voor **beroeps**verliezen in VenB en PB-beroepsinkomen. 🔗",
+          "confidence": "afgeleid",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        },
+        {
+          "type": "grondslag",
+          "tekst": "Art. 206 WIB92 (vorige beroepsverliezen — definitie, onbeperkte overdracht, fusie-splitsing-prorata, carry-back § 4). Art. 207 WIB92 (volgorde van aftrekken, 70 %-korf boven 1 mio EUR, anti-misbruik bij controlewijziging). Art. 206/3 WIB92 (afzonderlijke aftrekbeperking bij controlewijziging). Geldt sinds de hervorming vennootschapsbelasting (Wet 25.12.2017) voor aanslagjaar 2019. 📖",
+          "wetsref": "Art. 206-207 + 206/3 WIB92",
+          "confidence": "geciteerd",
+          "bron_refs": [
+            "resources/bronnen/wetteksten/WIB92.md"
+          ]
+        }
+      ]
+    }
+  ]
+}
