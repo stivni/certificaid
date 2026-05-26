@@ -173,7 +173,20 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
-vennootschapsbelasting                   [Σ-sub-discipline-cluster fiscaliteit, 12 cluster-eigen + 13 cross — PO 2.3]
+btw                                      [Σ-sub-discipline-cluster fiscaliteit, ~26 cluster-eigen + 3 cross — PO 2.4]
+├── btw                                  [Σ — rename `btw-stelsel` + Σ-promotie]   #stelsel-overzicht · #BTW-keten · #EU-richtlijn-2006-112
+├── btw-belastingplichtige · btw-levering-goederen (NIEUW split) · btw-dienstverlening (NIEUW split) · plaats-van-handeling-btw · opeisbaarheid-btw · maatstaf-van-heffing-btw · btw-tarieven · factuur-btw   [basis-concepten I]
+├── btw-vrijstellingen · btw-eenheid · vrijstellingsregeling-kleine-onderneming · forfaitaire-regeling-btw   [statuut III]
+├── btw-aftrek · btw-herziening-bedrijfsmiddelen   [aftrek + herziening III-IV-VII]
+├── btw-bedrijfswagen (shared mobiliteit) · margeregeling-tweedehands · btw-bonnen-vouchers   [specifieke regimes IV]
+├── btw-vastgoed · optie-btw-verhuur-vastgoed · eigen-werkzaamheid-btw   [vastgoed V]
+├── btw-grensoverschrijdend             [Σ — gepromoveerd; keuze-kader 4 grensoverschrijdende regimes]
+│   ▸ oss-regeling · driehoeksverkeer-vereenvoudiging · fiscaal-vertegenwoordiger-btw · verleggingsregeling
+├── opstart-btw-formaliteiten · stopzetting-btw · overdracht-algemeenheid-btw (shared overdracht-onderneming)   [levensloop II + VII]
+├── btw-aangifte · btw-controle (rename `btw-controle-en-geschillen` + geschillen cross `fiscale-procedure`-Σ)   [aangifte + controle taken]
+└── accijnzen-basis · douaneprocedures-btw-invoer · douanewaarde   [douane & accijnzen-sub-blok VIII-XI]
+
+vennootschapsbelasting                   [Σ-sub-discipline-cluster fiscaliteit, 11 cluster-eigen + 13 cross — PO 2.3]
 ├── vennootschapsbelasting               [Σ — gepromoveerd]   #toepassingsgebied · #tarief (25%/20%) · #herstructurering-aandachtspunten · #aanslagjaar
 ├── fiscale-boekhoud-correcties          [K — rename `boekhoudkundig-fiscaal-attachment`]   primauteit boekhouding · permanente/tijdelijke verschillen
 ├── belastbare-grondslag-vennootschapsbelasting [procedure-Σ]   8 bewerkingen art 76-79 KB-WIB
@@ -260,6 +273,7 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 | personenbelasting | 22 cluster-eigen + 6 cross (1 NIEUW `beroepskosten` + 8 renames + 3 absorpties) | PO 2.2 (grootste sub-discipline fiscaliteit) | [§Personenbelasting-cluster](#personenbelasting-cluster) |
 | vennootschapsbelasting | 11 cluster-eigen + 13 cross (Σ-promotie + 1 rename + 5 schrappen-via-perspectief + 3 absorpties + 1 generiek `voorafbetalingen`) | PO 2.3 (tweede sub-discipline fiscaliteit) | [§Vennootschapsbelasting-cluster](#vennootschapsbelasting-cluster) |
+| btw | ~26 cluster-eigen + 3 cross (2 Σ-promoties + 2 renames + 1 split + 11 prefix-standaardisaties pending) | PO 2.4 (derde sub-discipline fiscaliteit + douane & accijnzen-sub-blok) | [§BTW-cluster](#btw-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -2327,6 +2341,154 @@ vennootschapsbelasting                    [Σ-sub-discipline-cluster fiscaliteit
 - **OP-VB.D** ⏳ `vennootschapsbelasting`-Σ-content na 3 absorpties: sub-secties #toepassingsgebied + #tarief + #herstructurering-aandachtspunten uitwerken. Werkpunt voor content-uitwerking.
 - **OP-VB.E** ⏳ `voorafbetalingen` generiek: bij content-uitwerking checken of de 4 kwartaal-percentages (PB · VenB · uitzondering 3e-jaar-zelfstandige) elegant in één tabel passen of 2 perspectief-tabellen vereisen.
 
+### BTW-cluster
+
+Thema: `btw`. *Diepe PO 2.4-uitwerking (2026-05-26). Derde grote sub-discipline-cluster van fiscaliteit (16 anchors · 34 records → ~26 cluster-eigen + 3 cross + 2 Σ-promoties + 1 rename + 1 split). `btw-stelsel` gepromoveerd tot `btw`-Σ-hoofdrecord (rename, analoog PB/VenB-Σ-patroon). `btw-grensoverschrijdend` gepromoveerd tot Σ-keuzekader voor 4-5 grensoverschrijdende regimes. 1 split (`levering-en-dienst-btw` → `btw-levering-goederen` + `btw-dienstverlening`, precedent vof-commv) wegens 2 fundamenteel verschillende handelingstypes. 1 rename + cross (`btw-controle-en-geschillen` → `btw-controle` + geschillen cross naar `fiscale-procedure`-Σ). Douane & accijnzen-blok (3 records) binnen BTW gehouden als sub-blok (examen-context PO 2.4).*
+
+```
+btw                                       [Σ-sub-discipline-cluster fiscaliteit, ~26 cluster-eigen + 3 cross — PO 2.4]
+│
+├── btw                                   [Σ-hoofdrecord — rename `btw-stelsel` + Σ-promotie]
+│   ▸ overkoepelend: 4 elementen (belastingplichtige · handeling · maatstaf · tarief) → opeisbaarheid → aftrek → aangifte
+│   ▸ #stelsel-overzicht · #BTW-keten (verzamelaarsbelasting) · #EU-richtlijn 2006/112 · #wetboek-BTW-KB-MB-circulaire-hiërarchie
+│
+├── --- I. BASIS-CONCEPTEN (I) ---
+├── btw-belastingplichtige                [K]   art 4 W.BTW · economische activiteit · ratione personae
+├── btw-levering-goederen                 [K — NIEUW, split van `levering-en-dienst-btw` + rename consistent met btw-prefix]   art 10 W.BTW · materieel · gelijkstellingen
+├── btw-dienstverlening                   [K — NIEUW, split van `levering-en-dienst-btw` + rename consistent met btw-prefix]   art 18 W.BTW · onderscheid met levering · gelijkstellingen
+├── plaats-van-handeling-btw              [K]   B2B-hoofdregel · B2C-uitzonderingen · diensten-uitzonderingen
+├── opeisbaarheid-btw                     [K]   tijdstip belasting verschuldigd · factuur-tijdstip · vooruitbetaling
+├── maatstaf-van-heffing-btw              [K]   waarop tarief · maatstaf-bestanddelen · inbegrepen/uitgesloten
+├── btw-tarieven                          [K]   0% · 6% · 12% · 21% · vrijgesteld
+├── factuur-btw                           [K]   factuurplicht art 53 W.BTW · vermeldingen · e-invoicing 2026
+│
+├── --- II. STATUUT + CATEGORIEËN (III) ---
+├── btw-vrijstellingen                    [K]   art 44 vrijstellingen · sociale + culturele + medische sector
+├── btw-eenheid                           [E+R]   art 4§2 W.BTW · groepsbtw · single-taxable-person
+├── vrijstellingsregeling-kleine-onderneming [R]   KO-regime art 56bis · <25.000€ jaaromzet
+├── forfaitaire-regeling-btw              [R]   forfait-regime art 56 W.BTW · stappenplan · uitdoofregime
+│
+├── --- III. AFTREK + HERZIENING (III-IV-VII) ---
+├── btw-aftrek                            [K-techniek]   verworven-recht-regels · pro-rata · directe toerekening · uitsluitingen art 45§3
+├── btw-herziening-bedrijfsmiddelen       [procedure]   15-jaar herzieningstermijn vastgoed · 5-jaar BM · gemengd gebruik
+│
+├── --- IV. SPECIFIEKE REGIMES (IV) ---
+├── btw-bedrijfswagen                     [R, shared mobiliteit]   gemengd gebruik · 50%-regel · methodes 1/2/3 · privé-gebruik-VAA
+├── margeregeling-tweedehands             [R]   art 58§4 · tweedehandsgoederen · kunst-antiek-verzamelobjecten
+├── btw-bonnen-vouchers                   [R]   voucher-richtlijn 2016 · single-purpose vs multi-purpose
+│
+├── --- V. VASTGOED (V) ---
+├── btw-vastgoed                          [K-overzicht]   nieuwbouw-onderscheid · BTW-eenheid · gewone btw-plichtige · oude/nieuwe gebouwen
+├── optie-btw-verhuur-vastgoed            [R]   optie B2B-verhuur · KB 14-10-1991 · onroerende leasing
+├── eigen-werkzaamheid-btw                [R]   art 19 W.BTW · werk in eigen onderneming · gelijkstellingen
+│
+├── --- VI. GRENSOVERSCHRIJDEND (VI) ---
+├── btw-grensoverschrijdend               [Σ — gepromoveerd]
+│   ▸ keuze-kader: welke regeling past bij deze grensoverschrijdende transactie?
+│   ▸ #IC-handelingen-overzicht · #verkopen-op-afstand-drempel-10000 · #B2B-vs-B2C-diensten · #plaats-van-handeling-tabel
+│
+├── oss-regeling                          [R]   One-Stop-Shop · IOSS · drempel 10.000€ B2C-EU
+├── driehoeksverkeer-vereenvoudiging      [R]   art 25ter · B-A-C-keten · vereenvoudiging
+├── fiscaal-vertegenwoordiger-btw         [R]   niet-EU-belastingplichtige · individuele/globale aansprakelijkheid
+├── verleggingsregeling                   [R]   reverse charge · binnenlands (cocontractant) + IC
+│
+├── --- VII. LEVENSLOOP BTW-PLICHTIGE (II + VII) ---
+├── opstart-btw-formaliteiten             [procedure]   604-aangifte · BTW-nummer · keuze-regime
+├── stopzetting-btw                       [procedure]   stop-aangifte · herziening · activa-overdracht
+├── overdracht-algemeenheid-btw           [R, shared overdracht-onderneming]   art 11 W.BTW · TOGC-regeling · neutraliteit
+│
+├── --- VIII. AANGIFTE + CONTROLE (taak.4-5) ---
+├── btw-aangifte                          [procedure]   maandelijks · kwartaal · jaarlijkse opgave · IC-listing
+├── btw-controle                          [procedure — rename `btw-controle-en-geschillen` (`-en-`-smell weg); geschillen-aspect cross naar `fiscale-procedure`-Σ]
+│   ▸ BTW-specifieke controle-procedures · regularisatie · vraag om inlichtingen · onderzoeksbevoegdheden art 60-63 W.BTW
+│   ▸ cross fiscale-procedure-Σ voor bezwaar · beroep · BTW-rechtbank
+│
+└── --- IX. DOUANE & ACCIJNZEN (VIII-XI) — sub-blok binnen BTW-cluster, geen eigen sub-Kader ---
+├── accijnzen-basis                       [K]   accijnsgoederen · vergunning · accijnstarieven
+├── douaneprocedures-btw-invoer           [K]   invoer-btw · enig document · BTW-stelsel bij invoer
+└── douanewaarde                          [K]   Unierecht UCC · transactionwaarde · maatstaf-bepaling
+```
+
+**Cross-cluster** (records primair elders, raken PO 2.4):
+- mobiliteit: `btw-bedrijfswagen` (50%-regel + methodes 1/2/3)
+- overdracht-onderneming: `overdracht-algemeenheid-btw` (TOGC art 11)
+- kapitaalstructuur: `inbreng-van-bedrijfstak-of-algemeenheid` (raakt 2.4.taak.2 via TOGC-mechanisme)
+- fiscale-procedure: cross naar `btw-controle` voor BTW-specifieke aspecten; geschillen-aspect (bezwaar/beroep/BTW-rechtbank) leeft daar primair
+
+**Renames + acties**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| `btw-stelsel` | **`btw`** — Σ-hoofdrecord rename, analoog `personenbelasting`/`vennootschapsbelasting`-Σ-patroon (vraag 1 keuze A) |
+| `levering-en-dienst-btw` | **split** in `btw-levering-goederen` + `btw-dienstverlening` (`-en-`-smell, precedent vof-commv) — 2 fundamenteel verschillende handelingstypes met eigen plaats-van-handeling-regels (vraag 5 keuze B) |
+| `btw-controle-en-geschillen` | **`btw-controle`** + geschillen-aspect cross naar `fiscale-procedure`-Σ (vraag 2 keuze C) — `-en-`-smell weg, controle-aspect blijft BTW-specifiek wegens eigen vragen-om-inlichtingen + regularisatie + BTW-rechtbank-procedure |
+| `btw-grensoverschrijdend` | **Σ-promotie** — keuze-kader "welke regeling bij deze grensoverschrijdende transactie?" (vraag 4 keuze A); dochters blijven aparte records (analoog `fiscale-voordelen-vennootschap`-Σ-patroon) |
+
+**Prefix/suffix-inconsistentie** (OP-BTW.B — naam-standaardisatie tijdens mapping-fase):
+
+Huidige situatie: `btw-` prefix (18×) · `-btw` suffix (5×) · géén marker (4×: verleggingsregeling, margeregeling-tweedehands, oss-regeling, driehoeksverkeer-vereenvoudiging). Te standaardiseren naar uniform `btw-` prefix:
+
+| Huidig | Voorstel (mapping-fase) |
+|---|---|
+| `factuur-btw` | `btw-factuur` |
+| `eigen-werkzaamheid-btw` | `btw-eigen-werkzaamheid` |
+| `fiscaal-vertegenwoordiger-btw` | `btw-fiscaal-vertegenwoordiger` |
+| `overdracht-algemeenheid-btw` | `btw-overdracht-algemeenheid` (let op: shared overdracht-onderneming — naam consistent met andere overdracht-pendants? `overdracht-algemeenheid` zonder marker?) |
+| `verleggingsregeling` | `btw-verleggingsregeling` |
+| `margeregeling-tweedehands` | `btw-margeregeling-tweedehands` |
+| `oss-regeling` | `btw-oss-regeling` (OSS = afkorting EU-context, behouden als technische term in synoniem[]) |
+| `driehoeksverkeer-vereenvoudiging` | `btw-driehoeksverkeer` (`-vereenvoudiging`-suffix kan weg) |
+| `opstart-btw-formaliteiten` | `btw-opstart-formaliteiten` |
+| `vrijstellingsregeling-kleine-onderneming` | `btw-vrijstellingsregeling-ko` of `btw-ko-regime` |
+| `forfaitaire-regeling-btw` | `btw-forfaitaire-regeling` |
+| `levering-en-dienst-btw` (na split) | `btw-levering-goederen` + `btw-dienstverlening` ✓ al voorzien |
+
+**Splits-rechtvaardiging-test toegepast** (rationale-log 2026-05-26):
+
+Records met substantiële eigen wettelijke regel + bevragingspatroon = behoud (voorwaarde 4): `btw-belastingplichtige` · `plaats-van-handeling-btw` · `opeisbaarheid-btw` · `maatstaf-van-heffing-btw` · `btw-tarieven` · `factuur-btw` · `btw-vrijstellingen` · `btw-eenheid` · `vrijstellingsregeling-kleine-onderneming` · `forfaitaire-regeling-btw` · `btw-aftrek` · `btw-herziening-bedrijfsmiddelen` · `btw-vastgoed` · `optie-btw-verhuur-vastgoed` · `margeregeling-tweedehands` · `btw-bonnen-vouchers` · `btw-aangifte` · `btw-controle` · alle 4 grensoverschrijdend-dochters · douane-en-accijnzen-blok-records.
+
+Records met cross/shared = behoud (voorwaarde 2): `btw-bedrijfswagen` (mobiliteit) · `overdracht-algemeenheid-btw` (overdracht-onderneming).
+
+Geen pure absorpties wegens splits-test in deze cluster — alle records voldoen aan minstens voorwaarde 4 (substantiële wettelijke regel + bevragingspatroon) of voorwaarde 2 (shared).
+
+**Schrappen / nieuwe records**:
+- 0 schrappen
+- 2 nieuwe records via split: `btw-levering-goederen` + `btw-dienstverlening`
+- 1 rename + Σ-promotie: `btw-stelsel` → `btw`
+- 1 rename + Σ-promotie: `btw-grensoverschrijdend` → Σ
+- 1 rename + cross-split: `btw-controle-en-geschillen` → `btw-controle` + cross `fiscale-procedure`
+- 11 prefix-standaardisaties pending in mapping-fase
+
+**Triangulatie 2026-05-26**:
+- 16 PO 2.4-anchors → 0 PO-only gaps
+- 34 records → ~26 cluster-eigen (na 2 splits, 0 absorpties, 0 schrappen) + 3 cross + 1 cross-record (`inbreng-van-bedrijfstak-of-algemeenheid` primair kapitaalstructuur)
+- 33 openstaande kandidaten in DB (sync-actie blijft pending — OP-PB.D)
+
+**Bronnen-pin**:
+- ✅ W.BTW + KB + MB BTW + circulaires
+- ✅ EU-richtlijn 2006/112 (BTW-systeemrichtlijn) + Uitvoeringsverordening 282/2011
+- ✅ Voucher-richtlijn 2016/1065 (bonnen)
+- ✅ UCC Unierecht (douane)
+- ✅ Accijnzenwet 22-12-2009 + KB
+- ⏳ BTW-rechtspraak (vooral plaats-van-handeling-arresten + vrijstellings-arresten)
+
+**Test-case-validatie** (2026-05-26): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| IC-levering B2B aan NL-klant | `btw-grensoverschrijdend`-Σ#IC-handelingen + cross `verleggingsregeling` (verleggen naar afnemer NL) + `btw-aangifte`#IC-listing | ✅ |
+| Verkoop nieuwbouw + tarief 21% vs grondaankoop | `btw-vastgoed` + `btw-tarieven` + cross `optie-btw-verhuur-vastgoed` | ✅ |
+| Gemengd-gebruik bedrijfswagen + BTW-aftrek-methode | `btw-bedrijfswagen` (shared mobiliteit) + `btw-aftrek`#methodes-1-2-3 + cross verworpen-uitgaven-cascade (VenB-perspectief) | ✅ |
+| Margeregeling tweedehandswagen aankoop particulier → verkoop | `margeregeling-tweedehands` + cross `btw-tarieven` + cross `btw-bedrijfswagen` | ✅ |
+
+**Open punten**:
+- **OP-BTW.A** ⏳ Split `levering-en-dienst-btw` → 2 nieuwe records. Content-impact: gedeelde aspecten (plaats-van-handeling-regels die voor beide gelden; verband levering ⇔ dienst bij combinaties) moeten in beide records OF in een sub-sectie van `btw`-Σ. Beslissen bij content-uitwerking.
+- **OP-BTW.B** ⏳ Prefix/suffix-standaardisatie: 11 renames naar uniform `btw-` prefix tijdens mapping-fase. Niet kritisch voor structuur, wel voor naam-consistentie.
+- **OP-BTW.C** ⏳ Douane & accijnzen-sub-blok scope: bij examen-content-groei eventueel hervormen tot eigen sub-Kader `douane-en-accijnzen` onder fiscaliteit (analoog `registratie-en-successierechten` + `lokale-en-regionale-belastingen`). Voorlopig binnen BTW omdat examen-context = PO 2.4.
+- **OP-BTW.D** ⏳ `btw`-Σ-content + `btw-grensoverschrijdend`-Σ-content uitwerken: keuze-kaders + vergelijkingsmatrices invullen tijdens content-fase.
+- **OP-BTW.E** ⏳ `btw-vastgoed` Σ-promotie-kandidaat bij 5+ vastgoed-aspecten? Voorlopig K-overzicht.
+- **OP-BTW.F** ⏳ `verleggingsregeling` woont in grensoverschrijdend-blok maar geldt ook binnenlands (cocontractant-regeling art 20 KB 1). Categorische positie te valideren bij content-uitwerking.
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
@@ -3065,3 +3227,7 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | **`-attachment`-Engels-suffix-smell** (op `boekhoudkundig-fiscaal-attachment`). Rename naar `fiscale-boekhoud-correcties` (focus op cascade-correcties: primauteit boekhouding + permanente vs tijdelijke verschillen + waarderingsregel-fiscale-correcties). | Behoud `boekhoudkundig-fiscaal-attachment` (mengelmoes Engels-Nederlands) of rename naar `primauteit-boekhouding-fiscaal` (optie A — alleen 1 aspect) of `boekhouding-fiscaal-verband` (optie B — té generiek) | Naam-smell scan-uitbreiding: vreemde-taal-suffixen (`-attachment`/`-cluster`/`-pendant`/etc.) zijn schema-artefacten of vertaalfouten, niet conceptnamen. Optie C `fiscale-boekhoud-correcties` dekt de cascade-functie (waarom dit record bestaat: correcties van boekhoudkundig resultaat → belastbare grondslag) en sluit aan bij accountant-vocabulaire. User-keuze 2026-05-26: "1.C". | Naam-smell-scan voor mapping-fase uitgebreid: vreemde-taal-suffixen (`-attachment`, `-link`, `-pendant`, `-overview`, etc.) toevoegen aan scan-lijst. Algemene regel: suffix in vreemde taal = smell (record-id moet Nederlands zijn voor consistentie met accountant-vocabulaire). |
 | 2026-05-26 | `geheime-commissielonen` **absorberen** als sub-sectie #geheime-commissielonen in `bijzondere-aanslagen-venb`-Σ (vraag 4 keuze B). Familie-overzichts-Σ wordt didactisch coherent met meest-getoetste sub-aanslag in detail uitgewerkt. | (a) 2 aparte records behouden — bijzondere-aanslagen-venb wordt skeleton met alleen 1 zwaar lid; (b) andersom: schrap bijzondere-aanslagen-venb-familie, behoud geheime-commissielonen apart — verliest categorisch overzicht andere bijzondere aanslagen (art 219ter onaftrekbare-aftrekken-aanslag · liquidatie-aanslag · andere) | Anti-preventieve-versnippering-principe (rationale-log 2026-05-26): familie-Σ-record met sub-secties per type heeft betere didactische cohesie dan losse leden zonder overkoepelend overzicht. Geheime-commissielonen blijft de zwaarste sub-sectie (art 219 WIB 100%-aanslag + cascade VU) maar leeft naast andere bijzondere aanslagen die als sub-secties uitgewerkt worden (OP-VB.C werkpunt). User-keuze 2026-05-26: "4.B voorlopig". | Patroon: andere familie-Σ-records met één dominante sub-categorie kunnen analoog absorberen (bv. `winstuitkering` met `dividend-uitkering` als dominante sub-sectie?). Te checken tijdens mapping-fase. |
 | 2026-05-26 | **Splits-rechtvaardiging-test** formeel ingevoerd (verfijning anti-versnippering): een record blijft apart als minstens één voorwaarde vervuld is: (1) keuze-alternatief in een Σ-context, OF (2) shared met ander cluster/thema, OF (3) pendant in andere belasting/discipline met fundamenteel andere wettelijke werking, OF (4) substantiële eigen wettelijke regel + plafonds + leerstof + bevragingspatroon. Anders → absorberen als sub-sectie in overkoepelend kader. | Eerder ad-hoc beslissingen ("eigen regeling = eigen record") zonder expliciet criterium | User-vraag 2026-05-26 over `overgedragen-verliezen`: "eigen regeling is op zich geen reden om te splitsen he... is het inherent deel van het kader?". Antwoord ja → absorberen als #overgedragen-verliezen sub-sectie in `belastbare-grondslag-vennootschapsbelasting`-procedure-Σ (geen keuze-as · niet shared · geen pendant · cascade-deel art 76-79 KB-WIB). Voorwaarde (4) voorkomt dat anti-versnippering doorslaat naar over-absorberen — records als `kinderen-ten-laste` of `belastingvrije-som` hebben substantiële plafonds + bevragingspatroon en blijven apart. | Toe te passen op alle volgende cluster-rondes (PO 2.4 BTW al onmiddellijk) en retrograde scan op eerdere clusters tijdens mapping-fase. Concreet pending: `voorheffingen-en-verrekeningen-venb` (OP-VB.A heroverwegen — voorwaarde 4 voldoende voldaan?), PO 2.2 gezinscontext-records check (kinderen-ten-laste · huwelijksquotient · belastingvrije-som — voorlopig apart wegens voorwaarde 4). |
+| 2026-05-26 | `btw-stelsel` rename naar **`btw`** + Σ-promotie. Σ-naam-conventie voor sub-discipline-clusters: id = sub-discipline-naam (`personenbelasting` · `vennootschapsbelasting` · `btw`). | (a) Behoud `btw-stelsel`-naam — verstopt Σ-rol achter `-stelsel`-suffix die niet bij PB/VenB voorkomt; (b) Nieuw record `btw` + `btw-stelsel` als sub-sectie — dubbele structuur zonder waarde | User-keuze 2026-05-26 vraag 1 A. Consistentie met PB/VenB-Σ-patroon: alle 3 sub-discipline-Σ-records hebben sub-discipline-naam als id (geen suffix). `btw`-afkorting is courante Nederlandstalige term (geen schending CLAUDE.md regel 8 — vergelijkbaar met `pb`/`venb`-courante praktijk). | Patroon voor toekomstige sub-discipline-Σ's: `registratie-en-successierechten`-Σ (al bestaand) · `lokale-en-regionale-belastingen` (al bestaand) · `algemene-beginselen-fiscaliteit` (al gevormd). |
+| 2026-05-26 | `levering-en-dienst-btw` **gesplitst** in `btw-levering-goederen` + `btw-dienstverlening` (precedent `vof-commv`-split). 2 fundamenteel verschillende handelingstypes met eigen plaats-van-handeling-regels, eigen gelijkstellingen, eigen tijdstip-van-opeisbaarheid. | (a) Behoud `levering-en-dienst-btw` als Σ-record met 2 sub-secties — verstopt onderscheid achter overkoepelende naam; (b) Behoud + rename naar `btw-handelingen` — onnodige abstractie boven concrete handelingstypes | `-en-`-smell-pattern (rationale-log 2026-05-24): naam met `-en-` wijst meestal op 2 fenomenen die geforceerd in 1 record zitten. Voor BTW-handelingen kritiek omdat plaats-van-handeling-regels fundamenteel verschillen (B2B-vs-B2C diensten · IC-levering-vs-IC-dienst · gelijkstellingen art 10+12 vs art 18+19). User-keuze 2026-05-26 vraag 5 B. | Pattern: bij examenstof waar 2 categorieën met verschillende regels expliciet getoetst worden, splitsen verkiesbaar boven overkoepelend record. Anti-preventieve-versnippering geldt voor sub-aspecten van 1 fenomeen, niet voor 2 distinct fenomenen. |
+| 2026-05-26 | Sub-cluster-strategie: **`btw-grensoverschrijdend`** gepromoveerd tot Σ-keuze-kader voor 4 dochters (oss-regeling · driehoeksverkeer · fiscaal-vertegenwoordiger · verleggingsregeling); dochters blijven aparte records. Analoog `fiscale-voordelen-vennootschap`-Σ-patroon. | (a) Σ + dochters absorberen — verliest didactische zelfstandigheid van substantiële regimes (OSS / driehoeksverkeer / verleggingsregeling zijn elk substantieel); (b) Geen Σ, alleen flat overzicht — verliest keuze-kader-houvast voor accountant ("welke regeling past hier?") | Σ-promotie-criterium: zinvolle vergelijkings-/keuze-as bestaat (keuze tussen IC-stelsel · OSS · driehoeksverkeer · fiscaal-vertegenwoordiger · verleggingsregeling afhankelijk van transactie-type) + overkoepelende stof (plaats-van-handeling-tabel · B2B-vs-B2C-onderscheid) die nergens anders thuishoort. User-keuze 2026-05-26 vraag 4 A. | Pattern: andere thema-K-records met substantiële dochters kunnen analoog Σ-promotie krijgen — `btw-vastgoed` (OP-BTW.E pending) · `internationaal-fiscaal` (al Σ in eerdere cluster) · `bijzondere-aanslagen-venb` (al Σ in PO 2.3). |
+| 2026-05-26 | `btw-controle-en-geschillen` rename naar **`btw-controle`** + geschillen-aspect cross naar `fiscale-procedure`-Σ. Controle-aspect heeft BTW-specifieke vereisten (vraag om inlichtingen art 60-63 W.BTW · onderzoeksbevoegdheden · regularisatie · BTW-rechtbank); geschillen (bezwaar · beroep · administratieve sanctie) volgt generieke fiscale-procedure. | (a) Behoud `btw-controle-en-geschillen` (`-en-`-smell + duplicatie geschillen met fiscale-procedure-Σ); (b) Volledig absorberen in fiscale-procedure-Σ als BTW-perspectief (verliest BTW-specifieke controle-procedures); (c) Splits in 2 records `btw-controle` + `btw-geschillen` (over-versnippering — geschillen heeft geen BTW-eigen content) | User-keuze 2026-05-26 vraag 2 C. `-en-`-smell + cross-link-strategie: behoud BTW-eigen aspect; deel cross-linkt naar generieke parent-procedure. Pattern uit `aanslag-cyclus`-precedent (al cross via fiscale-procedure-Σ vanuit PB/VenB-aangiftes). | Pattern: andere BTW-procedure-records (`btw-aangifte` · `btw-herziening-bedrijfsmiddelen` · `opstart-btw-formaliteiten`) blijven BTW-specifiek omdat ze fundamenteel anders zijn dan generieke fiscale-procedure (eigen aangifte-systeem · eigen herzieningsschema · eigen 604-aangifte). Test: heeft het record BTW-eigen wettelijke regels of volgt het generieke procedure-cascade? |
