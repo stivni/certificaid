@@ -147,6 +147,15 @@ bestuur-en-aansprakelijkheid             [thema-cluster vennootschapsrecht, 4 re
 vennootschapsgeschillen                  [thema-cluster vennootschapsrecht, 1 record — PO 3.0.VIII]
 └── vennootschapsgeschillen              [K]   ▸ types · contractuele preventie · bewijswaarde · minnelijke schikking · nietigheid besluiten · perspectief beroep-en-deontologie
 
+insolventie                              [thema-cluster, 7 records — PO 3.0.IX + X]
+├── insolventierecht-wer-boek-xx         [K]               WER boek XX framework · 3 procedures · Regsol · functionarissen
+├── kamers-voor-ondernemingen-in-moeilijkheden  [R]       vroegtijdige opsporing · meldingsplicht accountant
+├── ondernemingsbemiddelaar              [E-actor]         neutrale tussenpersoon · buitengerechtelijk
+├── gerechtelijke-reorganisatie          [R-procedure]     opschorting · 3 modaliteiten (individueel/collectief akkoord/overdracht)
+├── faillissement                        [R-procedure, NIEUW]   duurzame staking · curator · boedel · rangorde
+├── ontbinding-en-vereffening            [G+R]             vrijwillig (WVV) vs gerechtelijk (WER) · vereffenaar · #boekenstaat-bij-ontbinding (bijzonder mandaat) · #vereffenaarsaansprakelijkheid
+└── rehabilitatie-en-beroepsverbod       [R]               #rehabilitatie · #beroepsverbod (`-en-`-smell, split-overweging OP-INS.A)
+
 ondernemingsvormen                       [thema-cluster vennootschapsrecht, 9 records — PO 3.0.I + taak.1]
 ├── ondernemingsvormen                   [E-bundel + Σ]    overzicht + vergelijkingsmatrix + WVV-systematiek + fiscale-keuze (perspectief)
 ├── besloten-vennootschap                [E-instrument]    (BV/BVBA/SRL) — default WVV-vorm sinds 2019; flexibel statutair
@@ -208,7 +217,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | interne-controle | 7 + 3 shared | PO 1.7 | [§Interne-controle-cluster](#interne-controle-cluster) |
 | ondernemingsvormen | 9 | PO 3.0.I + taak.1 + cross PO 1.1 + 2.3 | [§Ondernemingsvormen-cluster](#ondernemingsvormen-cluster) |
 | bestuur-en-aansprakelijkheid | 4 | PO 3.0.II + VII | [§Bestuur-en-aansprakelijkheid-cluster](#bestuur-en-aansprakelijkheid-cluster) |
-| **vennootschapsgeschillen** | **1** | **PO 3.0.VIII** | [**§Vennootschapsgeschillen-cluster**](#vennootschapsgeschillen-cluster) |
+| vennootschapsgeschillen | 1 | PO 3.0.VIII | [§Vennootschapsgeschillen-cluster](#vennootschapsgeschillen-cluster) |
+| **insolventie** | **7** (incl. nieuwe `faillissement`) | **PO 3.0.IX + X** | [**§Insolventie-cluster**](#insolventie-cluster) |
 | beroepsbeoefening | 11 + 2 shared (`onafhankelijkheid` · `kwaliteitsmanagement-opdracht`) | PO 4.0.I + taken 1-3 | [§Beroepsbeoefening-cluster](#beroepsbeoefening-cluster) |
 | bijzondere-mandaten | 1 (klein record, detail bij Gebeurtenissen) | PO 3.0.taak.3 + 3.0.IV.A + cross PO 1.6.IV.C | [§Bijzondere-mandaten-cluster](#bijzondere-mandaten-cluster) |
 
@@ -1001,6 +1011,90 @@ vennootschapsgeschillen                   [thema-cluster vennootschapsrecht, 1 r
 **Open punten**:
 - **OP-VG.A** ⏳ Mediation/arbitrage als sub-sectie of als eigen procedure-records (cross naar `gerechtelijke-reorganisatie` voor pre-insolventie-bemiddeling)? Voorlopig sub-sectie.
 - **OP-VG.B** ⏳ Tantième-betwisting als specifiek geschil-type (cross naar `bestuurdersaansprakelijkheid#kwijting`)? Mogelijk sub-sectie indien examen-relevant.
+
+### Insolventie-cluster
+
+Thema: `insolventie`. *Thema-cluster vennootschapsrecht/economisch-recht (PO 3.0.IX + X, 2026-05-26). Combineert ontbinding-vereffening (WVV) + insolventiewetgeving (WER boek XX). Cluster-naam `insolventie` is iets enger dan inhoud (ontbinding kan ook gezonde-venn-context zijn — vrijwillige ontbinding), maar volgt PO-groepering + de top-level snapshot ⏳-marker.*
+
+```
+insolventie                              [thema-cluster, 7 records — PO 3.0.IX + X]
+│
+├── insolventierecht-wer-boek-xx         [K — overkoepelend kader]
+│   ▸ WER boek XX als framework — 3 hoofdprocedures: gerechtelijke-reorganisatie · faillissement · vereffening (gerechtelijk)
+│   ▸ #ondernemingsrechtbank — bevoegdheid · samenstelling
+│   ▸ #regsol — centraal digitaal platform voor insolventieprocedures
+│   ▸ #insolventiefunctionarissen — curator · gerechtelijke bewindvoerder · ondernemingsbemiddelaar
+│   ▸ #ondernemingen-in-moeilijkheden — knipperlichten + signalen (cross naar kamers-voor-ondernemingen-in-moeilijkheden)
+├── kamers-voor-ondernemingen-in-moeilijkheden  [R-procedure]
+│   ▸ vroegtijdige opsporing via signalen (CAW: ontoereikende continuïteit · niet-betaalde RSZ/BTW · ...)
+│   ▸ rol gecertificeerd-accountant: meldingsplicht bij vaststellingen — cross naar antiwitwaspreventie-systematiek
+│   ▸ confidentiële bemiddeling vóór formele procedure
+├── ondernemingsbemiddelaar              [E-actor]
+│   ▸ neutrale tussenpersoon door rechtbank aangesteld
+│   ▸ buitengerechtelijke fase · vertrouwelijkheid · doel: minnelijk akkoord
+│   ▸ onderscheid met curator/bewindvoerder
+├── gerechtelijke-reorganisatie          [R-procedure]
+│   ▸ adempauze + opschorting tegen schuldeisers
+│   ▸ 3 modaliteiten: individueel akkoord (afspraak met schuldeisers individueel) · collectief akkoord (plan goedgekeurd door meerderheid) · overdracht onder gerechtelijk gezag (verkoop ondernemings(deel))
+│   ▸ voorwaarden + procedure + gevolgen + termijnen
+│   ▸ cross naar bestuurdersaansprakelijkheid (verlatenheid → aansprakelijkheid)
+├── faillissement                        [R-procedure, NIEUW]
+│   ▸ voorwaarden: duurzame staking van betaling + geschokt krediet
+│   ▸ procedure: aangifte (door schuldenaar of dagvaarding door schuldeiser/openbaar ministerie) · vonnis · publicatie
+│   ▸ curator-aanstelling: beheer boedel · realisatie activa · uitkering schuldeisers volgens rangorde (voorrechten, hypotheken, ...)
+│   ▸ termijnen: aangifte schuldvorderingen · sluiting · doorhaling
+│   ▸ #faillissementsaansprakelijkheid (cross naar bestuurdersaansprakelijkheid#faillissementsaansprakelijkheid)
+│   ▸ verschoonbaarheid (natuurlijk persoon) → cross rehabilitatie
+├── ontbinding-en-vereffening            [G+R, breder dan alleen insolventie]
+│   ▸ vrijwillige ontbinding (AV-besluit, WVV) vs gerechtelijke vereffening (WER boek XX)
+│   ▸ vereffenaar-aanstelling (statutair of door AV; bij gerechtelijke vereffening door rechtbank)
+│   ▸ procedure: vereffeningsbesluit → staat van actief en passief → realisatie activa → betaling schuldeisers → saldo aan aandeelhouders → afsluiting + doorhaling
+│   ▸ #boekenstaat-bij-ontbinding (cross naar bijzondere-mandaten — staat A/P + continuïteits-evaluatie door accountant)
+│   ▸ #vereffenaarsaansprakelijkheid (PO 3.0.IX.B — plichten + sancties)
+│   ▸ context: bij gezonde venn (uitkering aandeelhouders) vs insolvente venn (overgang naar faillissement)
+└── rehabilitatie-en-beroepsverbod       [R — `-en-`-smell, behouden tot content-uitwerking]
+    ▸ #rehabilitatie — natuurlijke persoon na faillissement: rechten herwinnen na bepaalde periode + voorwaarden
+    ▸ #beroepsverbod — verbod uit te oefenen + procedure tot opheffing (cross naar tuchtprocedure-itaa)
+    ▸ Splits-overweging: 2 fenomenen onder 1 naam (rehabilitatie = positief, beroepsverbod = negatief); WVV-context wel verwant. Behouden tot content-uitwerking duidelijk maakt of split nodig.
+```
+
+**Cross-cluster**:
+- `bestuurdersaansprakelijkheid` (bestuur-en-aansprakelijkheid) — faillissementsaansprakelijkheid + verlatenheid
+- `alarmbel-procedure` + `kapitaalbescherming` (kapitaalstructuur) — pre-insolventie-signalen
+- `bijzondere-mandaten` (controle) — boekenstaat-bij-ontbinding als bijzonder mandaat (ITAA-norm-ontbinding-vereffening)
+- `algemene-vergadering` (kapitaalstructuur) — ontbindingsbesluit + vereffenaar-aanstelling
+- `antiwitwaspreventie` (beroepsbeoefening) — meldingsplicht-systematiek raakt kamers-voor-ondernemingen-in-moeilijkheden
+- `tuchtprocedure-itaa` (beroepsbeoefening) — beroepsverbod-mechaniek-parallel
+- `commissaris` (beroepsbeoefening ⏳) — continuïteits-attest bij alarmbel
+
+**Schrappen / nieuwe records**:
+- `faillissement` **nieuw record** te creëren (kandidaat in DB, nog niet gerealiseerd — daemon-blocker geldt voor uitvoering, mapping-fase werk)
+- Geen renames/splits in deze ronde — `rehabilitatie-en-beroepsverbod` blijft (split-overweging open)
+
+**Triangulatie 2026-05-26**:
+- 10 PO 3.0.IX + X anchors → 0 PO-only gaps
+- 6 bestaande records + 1 kandidaat → 7 cluster-eigen records
+- Geen herstructurering naast `faillissement`-creatie
+- Cross-relatie naar `bijzondere-mandaten` is kritisch (ontbinding-boekenstaat = expliciet voorbeeld bijzonder mandaat)
+
+**Bronnen-pin**:
+- ✅ WER boek XX (insolventie) — primair, te valideren in resources
+- ✅ ITAA-norm-ontbinding-vereffening (trusted) — voor accountant-rol bij ontbinding
+- ✅ WVV (boek 2 titel 8) — ontbinding-vereffening per vorm
+
+**Test-case-validatie** (2026-05-26):
+
+| Vraag | Concept | Tree-pad | Resultaat |
+|---|---|---|---|
+| 2013-1-vr16 | externe accountant bij ontbinding | `ontbinding-en-vereffening#boekenstaat-bij-ontbinding` + cross `bijzondere-mandaten` (categorisch) + cross `continuiteit-going-concern` | ✅ |
+| 2015-1-vr54 | Vereffening NV TRIAL + onafhankelijkheid + AWW | `ontbinding-en-vereffening` + cross `onafhankelijkheid` + `antiwitwaspreventie#cliëntenonderzoek` | ✅ |
+| (PO 3.0.X.D vragen) | GRP-procedure | `gerechtelijke-reorganisatie` (3 modaliteiten) + cross `faillissement` (alternatief uitkomst) | ✅ |
+
+**Open punten**:
+- **OP-INS.A** ⏳ `rehabilitatie-en-beroepsverbod`-split te beslissen bij content-uitwerking (rehabilitatie = positief; beroepsverbod = negatief; verwant in WVV-context maar conceptueel apart)
+- **OP-INS.B** ⏳ `faillissement` als nieuw record creëren — wacht op daemon-fix (Fase 1.0 BLOCKER)
+- **OP-INS.C** ⏳ `boekenstaat-bij-ontbinding` als sub-sectie van `ontbinding-en-vereffening` (huidig) vs eigen klein record? Voorlopig sub-sectie (anti-versnippering); split-overweging als verslag-format substantieel detail vereist
+- **OP-INS.D** ⏳ Verschoonbaarheid (faillissement natuurlijk persoon) als sub-sectie van `faillissement` vs cross-link naar `rehabilitatie-en-beroepsverbod#rehabilitatie`? Mogelijk dubbel-flag in beide records.
 
 ### Beroepsbeoefening-cluster
 
