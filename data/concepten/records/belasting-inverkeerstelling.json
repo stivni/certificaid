@@ -1,11 +1,25 @@
 {
   "id": "belasting-inverkeerstelling",
   "naam": {
-    "primair": "Belasting inverkeerstelling"
+    "primair": "Belasting op de inverkeerstelling",
+    "afkorting": "BIV",
+    "synoniemen": [
+      "belasting inverkeerstelling",
+      "inverkeersstellingsbelasting",
+      "registratiebelasting voertuigen"
+    ],
+    "vertaling": {
+      "fr": "Taxe de mise en circulation"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.7.I.B",
+      "2.7.taak.2"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,444 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.7.I.B",
-      "2.7.taak.2"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Belasting inverkeerstelling",
+        "tekst": "De **belasting op de inverkeerstelling (BIV)** is een Belgische gewestelijke belasting die verschuldigd is bij de eerste inschrijving van een motorvoertuig in het Belgische voertuigenregister. Ze is eenmalig verschuldigd — bij elke nieuwe eerste inschrijving in België — en wordt geheven door het gewest van de fiscale woonplaats (voor natuurlijke personen) of de exploitatiezetel (voor rechtspersonen) van de aanvrager.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De BIV is een **eenmalige transactiebelasting** — ze wordt niet jaarlijks geheven (dat is de verkeersbelasting) maar enkel bij de eerste registratie in België. Ze geldt voor zowel **nieuwe als tweedehands voertuigen** die voor het eerst in het Belgische register worden ingeschreven (bv. een tweedehands wagen ingevoerd uit het buitenland).\n\nHet belastingbedrag is afhankelijk van de **milieu-impact van het voertuig**: het gewest weegt in toenemende mate de CO₂-uitstoot, de Euro-norm en het motorvermogen. Elektrische voertuigen genieten doorgaans een **verlaagd tarief of vrijstelling** — een aspect dat recent door elk gewest anders is geregeld.\n\nVoor de accountant is de BIV relevant als **eenmalige kost** bij verwerving van een bedrijfsvoertuig, onderscheiden van de **jaarlijkse verkeersbelasting** (VKB). Beide belastingen zijn fiscaal aftrekbaar voor beroepsgebruik maar aan het aftrekpercentage voor autokosten onderworpen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De BIV is een **ingangsbelasting** op de deelname aan het wegennet: de wetgever laat de eigenaar van een voertuig eenmalig bijdragen bij de registratie, en koppelt die bijdrage steeds meer aan de milieu-impact. De ratio is tweeledig: opbrengst voor het gewest én gedragssturing richting milieuvriendelijkere voertuigen (lagere CO₂-uitstoot = lagere BIV). De bevoegdheid is gedecentraliseerd naar de gewesten, waardoor Vlaanderen, Wallonië en Brussel elk een eigen tariefstructuur kennen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Inschrijving van een **nieuw of tweedehands motorvoertuig** voor het eerst in het Belgische voertuigenregister — zowel voor particulieren als vennootschappen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Invoer van een **tweedehands voertuig uit het buitenland** dat nog niet eerder in België was ingeschreven — BIV is opnieuw verschuldigd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Verwerving van een bedrijfsvoertuig door een **vennootschap of eenmanszaak** — BIV is een eenmalige beroepskost bij de aankoop, aftrekbaar aan het geldende percentage voor autokosten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Voertuigen die **al eerder in België ingeschreven** waren en louter van eigenaar wisselen (verkoop binnenland) — geen nieuwe BIV verschuldigd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Jaarlijkse rijdende voertuigen** — de doorlopende jaarlijkse heffing op het gebruik van het wegennet is de verkeersbelasting (VKB), niet de BIV.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Het indienen van een **aanvraag tot inschrijving** van het voertuig bij de Dienst voor Inschrijving Voertuigen (DIV) — dit is het belastbaar feit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De BIV is eenmalig: er is geen jaarlijkse verlenging. Ze eindigt zodra ze betaald is en het voertuig ingeschreven staat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Verlaagd tarief of vrijstelling** voor elektrische en milieuvriendelijke voertuigen — in alle drie de gewesten (zij het in verschillende mate), wat de kosten bij beroepsmatige electrificatie van het wagenpark drukt.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Gewestelijke divergentie** — Vlaanderen, Wallonië en Brussel hanteren elk een andere tariefstructuur en vrijstellingsregeling; de verkeerde gewestelijke regels toepassen leidt tot een onjuiste boeking of aangifte.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verwarring BIV vs. VKB** — de belasting op de inverkeerstelling (eenmalig) en de verkeersbelasting (jaarlijks) zijn twee afzonderlijke gewestelijke belastingen; beide zijn verschuldigd maar moeten apart worden geboekt en aangegeven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "belastbaar-feit",
+        "naam": {
+          "primair": "Belastbaar feit",
+          "synoniemen": [
+            "aanleiding tot heffing"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het belastbaar feit is de **eerste inschrijving van een motorvoertuig in het Belgische voertuigenregister** bij de Dienst voor Inschrijving Voertuigen (DIV). Bij een loutere eigendomsoverdracht (binnenlandse verkoop van al eerder ingeschreven voertuig) is géén nieuwe BIV verschuldigd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bevoegd-gewest",
+        "naam": {
+          "primair": "Bevoegd gewest"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De BIV is een **gewestbelasting**. De heffingsbevoegdheid ligt bij het gewest waar de aanvrager zijn **fiscale woonplaats** heeft (voor natuurlijke personen) of zijn **exploitatiezetel of maatschappelijke zetel** heeft (voor rechtspersonen). De drie gewesten — Vlaanderen, Wallonië en Brussels Hoofdstedelijk Gewest — hebben elk hun eigen tarieven en vrijstellingen vastgesteld.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tariefparameters",
+        "naam": {
+          "primair": "Tariefparameters"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het bedrag van de BIV is afhankelijk van meerdere parameters die per gewest kunnen verschillen:\n- **CO₂-uitstoot** (g/km) — de voornaamste milieudrijver\n- **Euro-norm** (Euro 1 t.e.m. Euro 6 / Euro 6d) — emissienorm\n- **Motorvermogen** (pk of kW) — klassieke indicator\n- **Leeftijd van het voertuig** bij tweedehands-invoer — vermindert de heffing\n\nDe gewesten hanteren niet alle parameters even zwaar: Vlaanderen legt het sterkst de nadruk op CO₂ en Euro-norm; Wallonië en Brussel combineren anders.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vrijgestelde-voertuigen",
+        "naam": {
+          "primair": "Vrijgestelde voertuigen"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bepaalde voertuigcategorieën zijn van BIV vrijgesteld of genieten een verlaagd tarief. Doorgaans vrijgesteld of gunstig belast:\n- **Elektrische voertuigen** (nul-uitstoot) — in meerdere gewesten BIV = 0 of sterk verlaagd\n- **Voertuigen voor invaliden** en aangepaste voertuigen voor personen met een handicap\n- **Diplomatieke voertuigen** en voertuigen van internationale instellingen\n\nDe precieze vrijstellingslijst en drempelwaarden zijn gewestspecifiek en worden regelmatig aangepast.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toepassingsgebied-voertuigen",
+        "naam": {
+          "primair": "Toepassingsgebied voertuigen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De BIV is van toepassing op **motorvoertuigen** die in het Belgische voertuigenregister moeten worden ingeschreven. Dat omvat:\n- **Personenwagens** (categorie M1)\n- **Lichte bedrijfsvoertuigen** tot 3,5 ton (categorie N1)\n- **Motorfietsen** en driewielers\n\n**Voertuigen die géén BIV verschuldigd zijn**: zware vrachtwagens boven 3,5 ton, aanhangwagens, landbouwtractoren en voertuigen met een andere registratie-categorie. Ook zij betalen wel een verkeersbelasting, maar de BIV-regeling geldt niet of anders.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tweedehands-invoer",
+        "naam": {
+          "primair": "Tweedehands-invoer",
+          "synoniemen": [
+            "invoer tweedehands voertuig",
+            "parallelimport"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Een tweedehands voertuig **ingevoerd uit het buitenland** (bv. via parallelimport of aankoop op een Europese markt) en voor het eerst in België ingeschreven triggert een volledige BIV. De **leeftijd van het voertuig** verlaagt het belastingbedrag echter — hoe ouder het voertuig, hoe lager de BIV. Dit mechanisme voorkomt dat een twintig jaar oude auto evenveel BIV betaalt als een nieuwe wagen met gelijkaardige emissies.\n\nVoorbeeld: Rotex Roeselare NV koopt een tweedehands bedrijfswagen (bouwjaar 5 jaar geleden) in Duitsland voor € 28.000 — bij inschrijving in België is BIV verschuldigd, verminderd met de leeftijdsfactor.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "biv-versus-vkb",
+        "naam": {
+          "primair": "BIV vs. verkeersbelasting"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De twee gewestelijke belastingen op voertuigen zijn fundamenteel verschillend:\n\n| | BIV | Verkeersbelasting (VKB) |\n|---|---|---|\n| Tijdstip | Eenmalig bij inschrijving | Jaarlijks terugkerend |\n| Grondslag | Eerste registratie | Ingeschreven rijden op de weg |\n| Basis | CO₂, Euro-norm, pk | Motorinhoud of assen / gewicht |\n| Aftrekbaarheid | Eenmalige beroepskost | Jaarlijkse beroepskost |\n\nBeide zijn onderworpen aan het fiscale aftrekregime voor autokosten (beperkt aftrekbaar, percentage gebaseerd op CO₂-uitstoot voor VenB/PB).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-aftrekbaarheid-biv",
+        "naam": {
+          "primair": "Fiscale aftrekbaarheid van de BIV"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De BIV betaald bij de aankoop van een **beroepsvoertuig** is een aftrekbare beroepskost, maar onderworpen aan het **beperkte aftrekpercentage voor autokosten**. Dat percentage is afhankelijk van de CO₂-uitstoot van het voertuig en geldt zowel in de vennootschapsbelasting als de personenbelasting. Volledige aftrek is enkel mogelijk voor **100% beroepsmatig gebruikte voertuigen** zoals vrachtwagens buiten het BIV-toepassingsgebied.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "gewestelijke-en-lokale-fiscaliteit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "verkeersbelasting",
+      "toelichting": "Beide zijn gewestelijke belastingen op motorvoertuigen, maar de BIV is eenmalig bij inschrijving terwijl de verkeersbelasting jaarlijks verschuldigd is.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "gewestelijke-fiscale-autonomie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "gewestelijke-belastingverminderingen-pb",
+      "grondslag": {
+        "confidence": "betwijfeld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,8 +1,18 @@
 {
   "id": "bestuur-vennootschap",
   "naam": {
-    "primair": "Bestuur vennootschap"
+    "primair": "Bestuur vennootschap",
+    "synoniemen": [
+      "bestuursorgaan",
+      "zaakvoerder",
+      "raad van bestuur",
+      "college van bestuur"
+    ],
+    "vertaling": {
+      "fr": "Administration de la société"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +22,11 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "3.0.II",
+      "3.0.II.A",
+      "3.0.II.B"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +39,465 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data (aanvullende modus)."
       }
-    ],
-    "ankers": [
-      "3.0.II",
-      "3.0.II.A",
-      "3.0.II.B"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Bestuur vennootschap",
+        "tekst": "Het **bestuur van een vennootschap** is het normatief kader — vervat in het Wetboek van Vennootschappen en Verenigingen (WVV) — dat bepaalt wie de dagelijkse en strategische leiding voert, hoe bestuurders worden benoemd en ontslagen, welke bevoegdheden hen toekomen, en welke aansprakelijkheidsregels gelden. Het bestuursorgaan vertegenwoordigt de vennootschap tegenover derden en is intern verantwoording verschuldigd aan de algemene vergadering.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het WVV onderscheidt per rechtsvorm een specifiek bestuursmodel:\n\n- **BV**: één of meer zaakvoerders (statutair of niet-statutair); monistisch model standaard, meervoudig bestuur mogelijk\n- **NV**: keuze tussen **monistisch model** (raad van bestuur of bestuurder-rechtspersoon), **dualistisch model** (directieraad + raad van toezicht) of **één bestuurder** bij kleine NV\n- **CV**: soepeler regime, bestuurd door één of meer zaakvoerders\n- **VOF/CommV**: alle vennoten zijn van rechtswege zaakvoerder, tenzij statuten anders bepalen\n\nHet bestuursorgaan heeft **residuaire bevoegdheid**: alles wat niet uitdrukkelijk aan de algemene vergadering is voorbehouden, behoort toe aan het bestuur. De bevoegdheidsverdeling is dwingend: de AV kan bevoegdheden niet naar zich toetrekken, tenzij de wet dit toestaat.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De keuze van bestuursmodel heeft directe gevolgen voor de aansprakelijkheidsstructuur, de vertegenwoordigingsbevoegdheid naar buiten en de interne taakverdeling — drie aandachtspunten die bij elke begeleiding van vennootschapsverrichtingen terugkeren."
+      },
+      "rationale": {
+        "tekst": "De wetgever heeft bij het WVV (2019) bewust meer **structuurvrijheid** ingevoerd: de NV-bestuurder kan nu ook een rechtspersoon zijn, de BV kent geen verplichte meerderheidsstemming meer, en het dualistische model biedt een alternatief voor beursgenoteerde of complexere structuren. De keerzijde van deze vrijheid is grotere **aansprakelijkheidsrisico's**: het WVV codificeert zowel de bestuurdersaansprakelijkheid als de alarmbelprocedure die het bestuur verplicht tijdig te handelen bij continuïteitsproblemen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke vennootschap met rechtspersoonlijkheid: de bestuursregels zijn verplicht van toepassing zodra een rechtsvorm onder het WVV valt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **oprichting, omvorming of herstructurering** van een vennootschap: het bestuursmodel wordt vastgelegd in de statuten en heeft impact op aansprakelijkheid, vertegenwoordiging en intern overleg.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **continuïteitsproblemen**: het bestuur is verplicht tijdig de alarmbelprocedure in te roepen wanneer de nettoactiva onder een wettelijke drempel dalen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Entiteiten **zonder rechtspersoonlijkheid** (maatschap, tijdelijke handelsvennootschap): daar gelden de VOF/CommV-regels niet, en is er geen formeel bestuursorgaan in de WVV-zin.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het bestuursorgaan handelt **binnen de grenzen van zijn bevoegdheid**: handelingen die buiten de statutaire bevoegdheden vallen of die de vertegenwoordigingsbevoegdheid overschrijden, binden de vennootschap niet tegenover derden die te goeder trouw zijn — tenzij publicatie in het Belgisch Staatsblad uitsluitsel geeft.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Bestuurdersaansprakelijkheid**: bestuurders kunnen persoonlijk aansprakelijk worden gesteld voor fouten in de uitoefening van hun mandaat, zowel intern (tegenover de vennootschap) als extern (tegenover derden bij overtreding van het WVV of de statuten).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het WVV heeft de aansprakelijkheidsgrenzen geplafonneerd (proportioneel aan grootte vennootschap), maar de alarmbelprocedure en continuïteitsplicht blijven harde grondlagen voor onbeperkte aansprakelijkheid."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "residuaire-bevoegdheid",
+        "naam": {
+          "primair": "Residuaire bevoegdheid van het bestuursorgaan"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het bestuursorgaan is **bevoegd voor alles wat niet uitdrukkelijk aan de algemene vergadering is voorbehouden**. Dit principe — de residuaire bevoegdheid — maakt het bestuur het centrale operationele orgaan: het neemt alle beslissingen over dagelijks beleid, investeringen, contracten, personeel en strategie, voor zover de statuten of de wet geen andere toewijzing maken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De bevoegdheidsverdeling is dwingend: de AV kan geen taken naar zich toetrekken die de wet aan het bestuur heeft voorbehouden. Omgekeerd kan het bestuur bepaalde bevoegdheden delegeren (bv. dagelijks bestuur)."
+          }
+        }
+      },
+      {
+        "id": "bestuursmodellen-per-rechtsvorm",
+        "naam": {
+          "primair": "Bestuursmodellen per rechtsvorm"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het WVV legt per rechtsvorm een ander bestuursmodel op of laat keuze:\n\n- **BV**: één of meer zaakvoerders (individueel of college); geen verplicht alternatief\n- **NV**: standaard raad van bestuur (monistisch); alternatieven zijn de bestuurder-rechtspersoon, het dualistische model (directieraad + raad van toezicht) of één solo-bestuurder bij kleine NV\n- **CV**: één of meer zaakvoerders, soepel regime\n- **VOF/CommV**: alle vennoten zijn van rechtswege zaakvoerder, tenzij statuten dit beperken",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De keuze van rechtsvorm impliceert een keuze van bestuursstructuur. Bij BV-oprichting kiest men in de statuten of zaakvoerders al dan niet statutair zijn — wat de ontslagbaarheid bepaalt."
+          }
+        }
+      },
+      {
+        "id": "statutair-versus-niet-statutair-bestuurder",
+        "naam": {
+          "primair": "Statutaire versus niet-statutaire bestuurder"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **statutaire bestuurder** is aangesteld in de oprichtingsakte of in een akte die met unanimiteit van alle aandeelhouders is gewijzigd. Ontslag vereist dezelfde unanimiteitsvereiste (tenzij wettige reden). Een **niet-statutaire bestuurder** wordt aangesteld door de AV met gewone meerderheid en kan ook met gewone meerderheid worden ontslagen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit onderscheid is cruciaal bij vennootschapsgeschillen en successieplanning: de statutaire zaakvoerder biedt positiebescherming en is alleen verwijderbaar bij zware tekortkoming of unanimiteit — een sterk argument bij machtsbalans tussen aandeelhouders."
+          }
+        }
+      },
+      {
+        "id": "dagelijks-bestuur",
+        "naam": {
+          "primair": "Dagelijks bestuur",
+          "synoniemen": [
+            "gedelegeerd bestuurder",
+            "CEO",
+            "dagelijks bestuurder"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het bestuursorgaan kan de uitoefening van het **dagelijks bestuur** delegeren aan één of meer personen (dagelijks bestuurders), die dan intern bevoegd zijn voor handelingen die niet buiten de normale bedrijfsuitoefening vallen en geen bijzondere vergadering vereisen. De begrenzing is kwalitatief: **dagelijks** = routinematig + geen bijzondere beslissing.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De afgrenzing van dagelijks bestuur is niet kwantitatief maar kwalitatief — ook een grote transactie kan 'dagelijks' zijn als ze binnen de normale bedrijfsactiviteit past. Het bestuursorgaan blijft intern aansprakelijk voor de supervisie."
+          }
+        }
+      },
+      {
+        "id": "vertegenwoordigingsbevoegdheid",
+        "naam": {
+          "primair": "Vertegenwoordigingsbevoegdheid"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het bestuursorgaan vertegenwoordigt de vennootschap van rechtswege tegenover derden. **Intern**: het orgaan handelt in naam en voor rekening van de vennootschap. **Extern**: derden te goeder trouw kunnen vertrouwen op de publicatie in het Belgisch Staatsblad. Beperkingen van de vertegenwoordigingsbevoegdheid in de statuten zijn **niet tegenstelbaar aan derden**, ook al zijn ze gepubliceerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit beschermt het handelsverkeer: derden hoeven geen interne beslissingsquorums of statutaire beperkingen te kennen. De vennootschap is gebonden, ook al handelde het bestuur ultra vires — de verhaalsvordering loopt intern."
+          }
+        }
+      },
+      {
+        "id": "alarmbelprocedure-bestuur",
+        "naam": {
+          "primair": "Alarmbelprocedure (bestuursverplichting)",
+          "synoniemen": [
+            "art. 5:153 WVV",
+            "art. 7:228 WVV"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de **nettoactiva van de vennootschap dalen tot minder dan de helft van het eigen vermogen** (bij BV: het netto-actief onder nul dreigt te dalen), is het bestuursorgaan verplicht een **bijzondere algemene vergadering** bijeen te roepen. Die vergadering beslist over de ontbinding of over maatregelen om de situatie te saneren. Het niet-naleven van deze procedure leidt tot het weerlegbaar vermoeden van aansprakelijkheid van de bestuurders voor alle schade van derden.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De drempelwaarden voor de alarmbelprocedure verschillen licht per rechtsvorm (BV vs NV) en zijn technisch — betwijfeld-label omdat de precieze drempelbedragen en wetsartikelen verificatie vereisen."
+          }
+        }
+      },
+      {
+        "id": "dualistisch-bestuursmodel-nv",
+        "naam": {
+          "primair": "Dualistisch bestuursmodel (NV)",
+          "synoniemen": [
+            "directieraad",
+            "raad van toezicht"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de NV kan gekozen worden voor een **dualistisch model** met twee organen: de **directieraad** (uitvoerend, dagelijks bestuur en strategie-uitvoering) en de **raad van toezicht** (niet-uitvoerend, toezicht + strategie-vaststelling). De directieraad legt verantwoording af aan de raad van toezicht. Leden van de directieraad mogen geen lid zijn van de raad van toezicht en omgekeerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het dualistische model — geïnspireerd op het Duits/Nederlands two-tier-systeem — is in België beschikbaar gesteld door het WVV 2019. Het biedt een duidelijker functiescheiding bij grotere of beursgenoteerde vennootschappen maar is praktisch minder gangbaar dan de klassieke raad van bestuur."
+          }
+        }
+      },
+      {
+        "id": "aanstelling-en-ontslag-bestuurder",
+        "naam": {
+          "primair": "Aanstelling en ontslag van bestuurders"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Bestuurders worden in beginsel benoemd door de **algemene vergadering** (gewone meerderheid, tenzij statuten anders bepalen). Ontslag is te onderscheiden:\n\n- **Niet-statutaire bestuurder**: ontslagbaar door AV met gewone meerderheid, eventueel met schadevergoeding bij onregelmatig ontslag\n- **Statutaire bestuurder** (BV): ontslagbaar met unanimiteit van alle aandeelhouders, tenzij sprake van wettige reden\n- **Mandaatduur**: bij NV standaard 6 jaar hernieuwbaar; bij BV vrij in statuten bepaald; bij ontbreken van bepaling — herroepelijk op elk moment",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De ontslagregels bepalen de machtsverhoudingen bij aandeelhoudersconflicten. Een minderheidsaandeelhouder die ook zaakvoerder is, beschermt zijn positie door zijn benoeming als statutair zaakvoerder in de oprichtingsakte te laten vastleggen."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrechtelijk-kader-wvv",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "algemene-vergadering",
+      "toelichting": "Bestuur en algemene vergadering zijn de twee centrale organen van een vennootschap; de AV is het tegengewicht van het bestuursorgaan inzake bevoegdheidsverdeling.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "alarmbel",
+      "toelichting": "Het bestuursorgaan is de verplichtte partij voor de alarmbelprocedure bij kapitaalsaantasting.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aansprakelijkheid-oprichters-bestuurders",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "bijzondere-verslagen-vennootschapsverrichtingen",
+      "toelichting": "Bepaalde bestuurshandelingen (quasi-inbreng, kapitaalverhoging, uitgifte van aandelen) verplichten het bestuursorgaan tot een bijzonder verslag.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalbescherming-en-winstverdeling",
+      "toelichting": "Bestuur en kapitaalbescherming zijn verweven: de bestuursverplichtingen inzake alarmbel en uitkeringstest zijn onderdeel van het kapitaalbeschermingsregime.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschapsgeschillen",
+      "toelichting": "Bestuursconflicten (tussen bestuurders onderling of tegenover aandeelhouders) zijn een primaire bron van vennootschapsgeschillen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "belangenconflict-bestuur",
+      "toelichting": "Bestuurders moeten belangenconflicten melden en zich onthouden van stemming — dit is een intern bestuursproces.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

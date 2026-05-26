@@ -1,11 +1,24 @@
 {
   "id": "geldbeleggingen-en-liquide-middelen",
   "naam": {
-    "primair": "Geldbeleggingen en liquide middelen"
+    "primair": "Geldbeleggingen en liquide middelen",
+    "synoniemen": [
+      "kasmiddelen",
+      "geldmiddelen en kasequivalenten",
+      "rubriek VII",
+      "rubriek VIII"
+    ],
+    "vertaling": {
+      "fr": "Placements de trésorerie et valeurs disponibles"
+    }
   },
+  "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.1.II.G"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +37,451 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.1.II.G"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Geldbeleggingen en liquide middelen",
+        "tekst": "**Geldbeleggingen en liquide middelen** is de balanspost die alle **vrij beschikbare of snel beschikbare geldmiddelen** omvat die een onderneming bezit op balansdatum. De post bestaat uit twee rubrieken:\n\n- **Rubriek VII — Geldbeleggingen**: effecten en andere financiële waarden die de vennootschap aanhoudt als kortetermijn-plaatsing (eigen aandelen, andere aandelen en beleggingen, kortetermijn-termijndeposito's).\n- **Rubriek VIII — Liquide middelen**: kas, zichtrekeningen en andere direct opvraagbare deposito's.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De balanspost geeft in één oogopslag hoeveel **onmiddellijk inzetbaar kapitaal** de onderneming heeft. Ze heeft twee functies:\n\n1. **Liquiditeitsbuffer** — liquide middelen (rekening-courant, kas) dienen om dagelijkse betalingen te verrichten.\n2. **Tijdelijke surplus-plaatsing** — geldbeleggingen zijn kasequivalenten of kortetermijnbeleggingen waarbij de vennootschap tijdelijk overschotten parkeert in afwachting van een investeringsmoment of uitkering.\n\nHet onderscheid met **financiële vaste activa** en **vorderingen op meer dan één jaar** is de **intentie en liquiditeit**: geldbeleggingen zijn aangehouden voor de korte termijn (doorgaans ≤ 1 jaar) en direct realiseerbaar zonder wezenlijk waardeverliespunt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De opsplitsing in geldbeleggingen (VII) en liquide middelen (VIII) weerspiegelt de graad van **directheid**: liquide middelen zijn onmiddellijk beschikbaar zonder enige verkoopstap; geldbeleggingen vereisen een (snel maar niet automatisch) verkoopproces. Beide staan onderaan de actiefzijde van de balans, consistent met het liquiditeitsbeginsel (meest liquide activa onderaan). In de **cashflowanalyse** (IAS 7 / IFRS-terminologie: *cash and cash equivalents*) worden de twee rubrieken doorgaans samen gebruikt als referentiepunt voor het begin- en eindsaldo van kasstroomoverzichten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke onderneming die een volledige of verkorte jaarrekening opstelt naar Belgisch GAAP — de balanspost is een **verplichte rubriek** voor alle schema's.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschappen met **tijdelijk overtollige liquiditeiten** die kortetermijnbeleggingen (schatkistcertificaten, termijndeposito's, aandelen voor kortetermijnhandel) aanhouden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Kasstroomoverzichten** (ook informeel opgesteld): begin- en eindsaldo worden steeds ontleend aan de gecombineerde post geldbeleggingen + liquide middelen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Beleggingen die de vennootschap **strategisch** aanhoudt (langetermijnaandelen, participaties) — die horen onder **financiële vaste activa** (rubriek III), niet onder geldbeleggingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vorderingen op klanten of groepsvennootschappen met een looptijd van meer dan één jaar — die horen onder **vorderingen op meer dan één jaar** (rubriek IV/V), ook al zijn ze in theorie verkoopbaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verkeerde rubriekindeling**: financiële vaste activa (langetermijnaandelen) geboekt als geldbelegging verstoort de liquiditeitsratio's (current ratio, cash ratio) en misleidt de lezer van de jaarrekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Waardeverminderingen niet geboekt**: bij koersdaling van beleggingen (aandelen, obligaties) die als geldbelegging zijn geclassificeerd, kan de verplichte waardevermindering achterwege blijven — resulterend in een overstating van activa.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Stijgende cashpositie bij dalende investeringen → tekenen van **surplus-liquiditeit** die kortetermijnbeleggingen verantwoordigt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschap heeft **schatkistcertificaten, termijndeposito's of eigen aandelen** teruggekocht voor kortetermijn-handel — herclassificatie naar rubriek VII vereist.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "rubriek-vii-geldbeleggingen",
+        "naam": {
+          "primair": "Geldbeleggingen (rubriek VII)",
+          "synoniemen": [
+            "rubriek VII",
+            "kortetermijnbeleggingen"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Rubriek VII omvat de **effecten en andere financiële waarden** die de vennootschap als kortetermijnplaatsing aanhoudt. Drie sub-rubrieken:\n\n- **VII.A — Eigen aandelen**: ingekochte eigen aandelen die de vennootschap tijdelijk aanhoudt (inkoop eigen aandelen); worden gewaardeerd aan aanschaffingswaarde.\n- **VII.B — Overige geldbeleggingen**: aandelen van derden, obligaties, schatkistcertificaten, vastrentende effecten aangehouden als kortetermijnplaatsing.\n- **VII.C — Termijndeposito's**: bancaire deposito's met een looptijd van maximaal 1 jaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        },
+        "elementen": [
+          {
+            "id": "eigen-aandelen-geldbelegging",
+            "naam": {
+              "primair": "Eigen aandelen als geldbelegging (VII.A)"
+            },
+            "inhoud_type": "subconcept",
+            "kern": {
+              "substantie": {
+                "tekst": "Wanneer een vennootschap eigen aandelen inkoopt met de intentie ze **op korte termijn opnieuw over te dragen** (bv. voor personeelsopties of koerssteun), worden ze op rubriek VII.A geboekt — niet als minpost van eigen vermogen. Ze worden gewaardeerd aan aanschaffingswaarde; bij persistente koersdaling is een waardevermindering verplicht.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "rubriek-viii-liquide-middelen",
+        "naam": {
+          "primair": "Liquide middelen (rubriek VIII)",
+          "synoniemen": [
+            "rubriek VIII",
+            "kas en bankrekeningen"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Rubriek VIII omvat de **direct opvraagbare geldmiddelen**: kas (munten en bankbiljetten in het bezit van de vennootschap) en bancaire zichtrekeningen (dagelijks opvraagbaar). Postrekening, vrij opvraagbare spaarrekeningen en reisvaluta vallen ook hieronder. De **nominale waarde** is doorgaans de boekwaarde (geen waardevermindering van toepassing op eigen munt); vreemde valuta worden omgezet aan de slotkoers op balansdatum.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waardering-geldbeleggingen",
+        "naam": {
+          "primair": "Waardering van geldbeleggingen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Geldbeleggingen (rubriek VII) worden gewaardeerd aan **aanschaffingswaarde**. Bij duurzame waardevermindering beneden de aanschaffingswaarde is een **waardevermindering** verplicht te boeken (voorzichtigheidsbeginsel). Terugneming bij latere waardeherstel is toegestaan mits de waardevermindering niet langer verantwoord is. Liquide middelen in **vreemde valuta** worden omgezet aan de **slotkoers** op balansdatum; wisselkoersverschillen gaan naar het resultaat (financiële opbrengsten / financiële kosten).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "grens-geldbelegging-vs-financieel-vast-actief",
+        "naam": {
+          "primair": "Grens geldbelegging versus financieel vast actief"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "De classificatie van een belegging (VII vs. rubriek III Financiële vaste activa) hangt af van de **intentie** en de **looptijd**:\n\n- Intentie = **korte termijn**, instrument direct realiseerbaar (verkoop op markt mogelijk) en looptijd ≤ 1 jaar → **geldbelegging (VII)**\n- Intentie = **duurzame band** (bijdrage aan de activiteit van de andere entiteit, stemrecht, strategisch belang) of looptijd > 1 jaar → **financieel vast actief (III)**\n\nDe intentie op aanschaffingsdatum is bepalend; latere intentiewijziging vereist herclassificatie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cash-ratio",
+        "naam": {
+          "primair": "Verband met cash ratio",
+          "synoniemen": [
+            "absolute liquiditeitsratio"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De **cash ratio** (of absolute liquiditeitsratio) brengt de post geldbeleggingen + liquide middelen in verhouding tot de schulden op korte termijn:\n\n**Cash ratio = (Geldbeleggingen + Liquide middelen) / Schulden op korte termijn**\n\nEen ratio < 1 betekent dat de onderneming haar kortetermijnschulden niet kan aflossen met zuivere liquiditeiten — wat aanvaardbaar is als de vlottende activa (debiteuren, voorraden) tijdig realiseerbaar zijn. Benchmarks zijn sterk sector-afhankelijk.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kasstroomoverzicht-referentiepositie",
+        "naam": {
+          "primair": "Referentiepositie in het kasstroomoverzicht"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "In een kasstroomoverzicht (IAS 7 of informeel Belgisch model) vormt de gecombineerde post **geldbeleggingen + liquide middelen** het begin- en eindsaldo van het overzicht. Mutaties in geldbeleggingen zelf (aankoop/verkoop van kortetermijn-effecten) kunnen als **investeringsactiviteiten** of als onderdeel van de kaspositie worden geclassificeerd, afhankelijk van de looptijd (≤ 3 maanden = kasequivalent; > 3 maanden = investering).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wisselkoersomzetting-vreemde-valuta",
+        "naam": {
+          "primair": "Wisselkoersomzetting bij vreemde valuta"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Liquide middelen en geldbeleggingen in **vreemde valuta** worden op balansdatum omgezet aan de **slotkoers** (koers op balansdatum). Het wisselkoersverschil t.o.v. de aanschaffings- of vorige balansdatum-koers gaat integraal naar het resultaat:\n\n- Koersstijging vreemde valuta → **financiële opbrengst**\n- Koersdaling vreemde valuta → **financiële kost**\n\nVoor de balanspost zelf is de **nominale waarde in vreemde valuta** × **slotkoers** bepalend; geen waardevermindering-logica nodig voor het wisselkoersgedeelte (dat is een realisatie-kwestie, geen duurzaamheidskwestie).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "balanspost"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekening",
+      "toelichting": "Geldbeleggingen en liquide middelen zijn een verplichte rubriek (VII + VIII) van de Belgische GAAP-balans.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "deelneming-financieel-vast-actief",
+      "toelichting": "Beide betreffen het aanhouden van financiële instrumenten; het onderscheid zit in de intentie (korte termijn vs. duurzame band) en de looptijd.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "inkoop-eigen-aandelen",
+      "toelichting": "Eigen aandelen ingekocht met kortetermijnintentie (handel/opties) worden als geldbelegging (VII.A) geboekt en beïnvloeden de omvang van de post.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "cash-ratio",
+      "toelichting": "De cash ratio-berekening vereist de gecombineerde waarde van rubriek VII en VIII als teller.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "schulden-op-korte-termijn",
+      "toelichting": "Beide staan in de kortetermijnsectie van de balans; de verhouding tussen de twee is de basis van liquiditeitsratio's (current ratio, cash ratio).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

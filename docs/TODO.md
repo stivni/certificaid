@@ -2,7 +2,7 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-05-26 (Fase 4 examenvraag-antwoord-pipeline: 4.1 cluster-detectie + dedup-rendering, 4.2 prompt v2.0, 4.3 visuele-vraag-detectie — alle drie gerealiseerd; POC PO 1.4 succesvol; controle-opdracht + interne-controle + ondernemingsvormen-clusters afgewerkt; eerste PO 3.0-cluster; OP-EC.7 vennootschap-typologie opgelost; `-rechtsvorm`/`-cluster`-suffix-naam-smell formeel)
+**Laatste update**: 2026-05-26 (Fase 4 examenvraag-antwoord-pipeline: 4.1 cluster-detectie + dedup-rendering, 4.2 prompt v2.0, 4.3 visuele-vraag-detectie — alle drie gerealiseerd; POC PO 1.4 succesvol; merge origin/main na repo-verhuizing-voorbereiding)
 
 ---
 
@@ -225,6 +225,40 @@ Run `tools/worktree_status.sh` bij sessie-start om stale agent-worktrees te zien
 - **ADR-008 §18.7**: coordinator-pattern, sub-agent eigenaarschap voor verwijderingen, loop-limiet bij gap-events
 - **ADR-019**: `anchor_propagation_log` veld dat een 1.5.I-agent introduceerde — niet in schema 1.5 gedocumenteerd, te normaliseren. Plus: records-API resolve disk-pad tegen daemon-known repo-root (maakt worktree-veilig).
 - **ADR-022** (Vraag-herinterpretatie herinnering-stijl) — status Draft/experimenteel
+
+---
+
+## Doorlopend — Opkuis na repo-verhuizing (2026-05-25)
+
+Status bij verhuizing `~/Documents/ITAA/certificaid` → `~/Development/certificaid`: 5 commits gepusht (granulariteit-ADR-030, wave-2-prompts, wave-2-beschrijven-output 207 records, bronnen-uitbreiding PO 2.x/3.0/4.0, content-updates voorbeeldexamens). De volgende untracked-bestanden zijn **niet** mee gegaan in die commits — voor elk een open beslissing vóór ze landen of weg gaan:
+
+### Generated work-folders — gitignore of tracken?
+
+- `data/exam_focus/` — examenfocus-bootstrap-JSONs per voorbeeldexamen-vraag (vermoedelijk gegenereerd door `tools/examen/`). Tellen ze als input voor examenpatronen-laag (commit) of als per-run-output (gitignore)?
+- `data/extractie/_bundles/`, `data/extractie/wave-2/` — wave-2 werk-artefacten (bundle-rapporten, log-files). Gitignore-kandidaat.
+- `data/qa/` — onbekend, nieuw pad (let op: `data/etl/qa/` is wél gitignored — andere folder).
+
+Eerste actie volgende sessie: `ls -R data/exam_focus data/extractie/_bundles data/extractie/wave-2 data/qa | head -50`; per folder bepalen wat het is en `.gitignore` aanpassen of `git add` doen.
+
+### Losse docs — superseded of nog actief?
+
+Pre-cleanup sparring/design-docs (timestamp mei 17-19, predateert Fase 9 opkuis van 2026-05-23 die `roadmap.md → TODO.md` mergede). Geen daarvan is referenced vanuit CLAUDE.md of een ADR:
+
+- `docs/roadmap.md` — commit `d2d60a49` mergede dit document in TODO.md en verwijderde het. De huidige untracked-versie is een lokale resurrectie. **Actie**: vergelijk inhoud met huidige TODO.md; ofwel verwijderen (`git clean -f docs/roadmap.md`), ofwel als referentie naar `docs/adr/archive/` verplaatsen.
+- `docs/sessie-2026-05-19-bronnen-uitbreiding.md` — **schendt doc-discipline** (CLAUDE.md: "Handoff / sessie-md ... Bestaat niet"). Bevat substantieve bronnen-uitbreiding-info per PO. **Actie**: relevante info redistribueren naar Fase 2 hierboven en/of een nieuwe ADR-draft voor bronnen-strategie; dan verwijderen.
+- `docs/po-builder.md`, `docs/po-1.1-doorloop-prep.md`, `docs/bronnen-pipeline.md`, `docs/fisconet-mcp-strategie.md`, `docs/implementation-backlog.md`, `docs/examenpatronen-ontwerp.md` — pre-Fase-9 sparring-docs. Per doc beslissen: nog active werkdoc → committen + linken vanuit CLAUDE.md/TODO.md; superseded → verwijderen.
+
+### Wave-2 in vlucht — sync-status
+
+De 207 gecommitte records zijn schema-2.1-v1.5-output van rolling sub-agents (`beschrijven`-operatie, aanvullend-modus, confidence `verondersteld`/`betwijfeld`). Maar:
+
+- **records_api.py-bypass**: agents schreven direct naar disk i.p.v. via `save_record()`. Daardoor zijn RAG (`data/rag/main/`) en `content/concepten/` mogelijk out-of-sync met de huidige record-snapshots. Reindex/render verifiëren in nieuwe sessie.
+- **Wave-2 zelf**: niet 100% afgewerkt. De 396-records-queue is groter dan 207 gecommitte changes; 189 records nog niet aangeraakt of nog onderweg. Status bij hervatting: queue herbouwen via stap 4 uit `prompts/sessies/wave-2-launch.md` en doorgaan.
+- **Pass 2 (`accountant_perspectief`)** nog niet gestart.
+
+### Records-API integriteit-check
+
+Na de records-bypass: `python3 -m tools.lib.records_api --audit-parity` draaien om disk ↔ RAG ↔ content drift te kwantificeren, vóór render-laag-revisie (Fase 1.2) start.
 
 ---
 

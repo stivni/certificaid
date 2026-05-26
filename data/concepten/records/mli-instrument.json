@@ -1,17 +1,32 @@
 {
   "id": "mli-instrument",
   "naam": {
-    "primair": "Mli instrument"
+    "primair": "Multilateraal Instrument",
+    "afkorting": "MLI",
+    "synoniemen": [
+      "MLI",
+      "multilateraal verdrag",
+      "BEPS Actie 15-instrument",
+      "multilateral convention to implement tax treaty related measures"
+    ],
+    "vertaling": {
+      "en": "Multilateral Instrument",
+      "fr": "Instrument multilatéral"
+    }
   },
+  "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
     "provenance": {
-      "model": "skeleton-from-candidate",
-      "wave_id": "skeleton-dump",
-      "extract_prompt": "tools.extractie.skeleton_from_candidate",
-      "iteratie": "v0"
+      "model": "claude-sonnet-4-6",
+      "wave_id": "wave-2-beschrijven",
+      "extract_prompt": "prompts/operaties/beschrijven.md",
+      "iteratie": "01-beschrijven"
     },
+    "ankers": [
+      "2.8.IV"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,29 +39,420 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data. Naam gecorrigeerd naar 'Multilateraal Instrument'."
       }
-    ],
-    "ankers": [
-      "2.8.IV"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Mli instrument",
+        "tekst": "Het **Multilateraal Instrument** (MLI) is een multilateraal verdrag dat door de OESO is ontwikkeld in het kader van **BEPS Actie 15**. Het laat deelnemende staten toe hun bestaande bilaterale dubbelbelastingverdragen **gelijktijdig en zonder bilateraal heronderhandelen** aan te passen om verdragsmisbruik, hybride mismatches en kunstmatige constructies te bestrijden. De MLI werkt als een **overlay**: het past de matchende bepalingen in bestaande verdragen aan of vervangt ze, zonder de verdragen tekstueel te wijzigen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het fundamentele onderscheid met een **bilateraal verdrag**: een bilateraal dubbelbelastingverdrag wordt gesloten tussen **twee staten** en geldt uitsluitend voor die twee. Het MLI wordt ondertekend door **meerdere staten tegelijkertijd** en past automatisch de matchende bepalingen in hun onderlinge bilaterale verdragen aan.\n\nDrie structurele kenmerken van het MLI:\n- **Opt-in per bepaling**: elke staat verklaart per MLI-artikel of het van toepassing is op zijn verdragen (voorbehoud-systeem). Toepassing vereist wederzijds opt-in door beide verdragsstaten.\n- **Matching-mechanisme**: een MLI-bepaling treedt in werking voor een specifiek bilateraal verdrag alleen als **beide** verdragspartners voor dat artikel gekozen hebben (en dat verdrag als covered tax agreement aangemeld hebben).\n- **Geen tekstwijziging**: de verdragstekst blijft ongewijzigd; MLI-toepassing vereist dat rechter en adviseur beide documenten samenleest.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het matching-mechanisme en het opt-in/voorbehoud-systeem verklaren waarom MLI-toepassing technisch complex is: voor elk verdragspaar moet de adviseur afzonderlijk nagaan welke MLI-bepalingen wederzijds geactiveerd zijn."
+      },
+      "rationale": {
+        "tekst": "Bilaterale heronderhandeling van honderden dubbelbelastingverdragen zou decennia duren. Het MLI geeft de BEPS-hervormingen (verdragsmisbruikbestrijding, vaste-inrichtingsdefinitie, geschillenbeslechting) onmiddellijk werking bij de deelnemende staten, zonder dat elk verdrag individueel opnieuw onderhandeld moet worden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Grensoverschrijdende structuren waarbij een belastingplichtige (vennootschap of natuurlijk persoon) gebruikmaakt van een bestaand dubbelbelastingverdrag en waarbij de MLI-bepalingen van toepassing kunnen zijn via het opt-in van beide verdragsstaten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "MLI-bepalingen kunnen de verdragstoepassing beperken (anti-misbruik) of uitbreiden (vaste inrichting). De adviseur moet nagaan welke bepalingen wederzijds actief zijn."
+        },
+        {
+          "tekst": "Situaties waarbij **treaty shopping** of **kunstmatige vermijding van vaste-inrichtingstatus** mogelijk is — de MLI-bepalingen gericht op verdragsmisbruikbestrijding (principal purpose test, LOB-clausule) zijn dan rechtstreeks relevant.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Dit is het voornaamste toepassingsgebied van de MLI: verdragsmisbruik tegengaan door een anti-misbruikclausule toe te voegen aan bestaande verdragen."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Puur binnenlandse** situaties zonder grensoverschrijdend element — het MLI heeft geen invloed op de verhouding tussen het Belgisch interne recht en de belastingplichtige zonder buitenlandse component.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Verdragen tussen twee staten waarvan **minstens één het MLI niet geratificeerd heeft** of het betrokken verdrag niet als covered tax agreement aangemeld heeft — in dat geval blijft het bilaterale verdrag ongewijzigd van kracht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het matching-mechanisme vereist wederzijdige opt-in; ontbreekt die, dan heeft het MLI geen effect op dat specifieke verdrag."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Snelle implementatie** van BEPS-hervormingen voor alle deelnemende verdragsparen tegelijkertijd, zonder individuele heronderhandeling per verdrag.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Efficiëntie-voordeel op systeemniveau: honderden verdragen tegelijk aanpassen via één multilateraal instrument in plaats van individuele bilaterale heronderhandelingen."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Interpretatie-complexiteit**: de werkelijke inhoud van een verdrag is pas kenbaar na samenlezing van het originele bilaterale verdrag, de MLI-tekst, de voorbehouden van beide staten en de OESO-synthesetekst. Een fout in deze samenlezing leidt tot verkeerde verdragstoepassing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Voor de accountant-adviseur is dit de kernmoeilijkheid van het MLI: de tekst die je effectief moet toepassen staat niet in één document."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "covered-tax-agreement",
+        "naam": {
+          "primair": "Covered tax agreement",
+          "synoniemen": [
+            "gedekt verdrag",
+            "covered agreement"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **covered tax agreement** is een bestaand bilateraal dubbelbelastingverdrag dat een staat bij de ratificatie van het MLI heeft aangemeld als zijnde onderworpen aan de MLI-bepalingen. Alleen voor aangemelde verdragen kunnen de MLI-wijzigingen in werking treden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De keuze om een verdrag al dan niet aan te melden is soeverein — staten kunnen selectief bepalen welke van hun verdragen door het MLI worden geraakt."
+          }
+        }
+      },
+      {
+        "id": "opt-in-voorbehoud-systeem",
+        "naam": {
+          "primair": "Opt-in/voorbehoud-systeem",
+          "synoniemen": [
+            "voorbehoud",
+            "reservation",
+            "notification",
+            "opt-in"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het MLI bevat minimumnormen (verplicht) en optionele bepalingen:\n- **Minimumnormen** (o.a. principal purpose test, geschillenbeslechting): elke deelnemende staat moet deze implementeren — geen opt-out mogelijk.\n- **Optionele bepalingen**: elke staat kiest per artikel of het van toepassing is (opt-in via notification of uitsluiting via voorbehoud/reservation).\n- **Matching-vereiste**: een optionele bepaling treedt alleen in werking als **beide** verdragsstaten voor die bepaling geopteerd hebben voor dat specifieke verdrag.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het systeem van voorbehouden verklaart waarom de MLI-toepassing per verdragspaar verschilt: wat België heeft geopteerd kan afwijken van wat Nederland of Duitsland heeft geopteerd voor hetzelfde artikel."
+          }
+        }
+      },
+      {
+        "id": "principal-purpose-test",
+        "naam": {
+          "primair": "Principal purpose test",
+          "synoniemen": [
+            "PPT",
+            "hoofddoel-toets",
+            "anti-misbruikclausule MLI"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De **principal purpose test** (PPT) is de anti-misbruikclausule die het MLI invoert in gedekte verdragen. Een verdragsvoordeel wordt geweigerd als aannemelijk is dat het verkrijgen van dat voordeel **een van de voornaamste doelstellingen** was van de constructie, tenzij de toekenning van het voordeel in overeenstemming is met het doel en de strekking van het verdrag.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De PPT is een minimumnorm — elke MLI-deelstaat moet ze implementeren. Ze vervangt of vult de eventuele bestaande anti-misbruikbepaling in het bilaterale verdrag aan, afhankelijk van de keuze van de staten."
+          }
+        }
+      },
+      {
+        "id": "vaste-inrichting-mli-aanpassing",
+        "naam": {
+          "primair": "Vaste-inrichtingsdefinitie (MLI-aanpassing)",
+          "synoniemen": [
+            "commissarissen-vaste-inrichting",
+            "anti-fragmentatieregel",
+            "vaste inrichting BEPS Actie 7"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Het MLI past de **vaste-inrichtingsdefinitie** in verdragen aan op twee punten: (1) het sluit de kunstmatige fragmentatie van activiteiten als ontwijkingsstrategie, en (2) het breidt de vaste inrichting uit naar **commissarissen-vaste-inrichtingen** — agenten die contracten gewoonlijk tot stand brengen voor een onderneming worden nu als vaste inrichting beschouwd, ook als ze geen formele volmacht hebben.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Kunstmatig voorkomen van vaste-inrichtingstatus via het splitsen van activiteiten over meerdere entiteiten of via commissionaire-structuren was een veelgebruikte BEPS-techniek. De MLI-aanpassingen sluiten deze ontwijkingswegen."
+          }
+        }
+      },
+      {
+        "id": "geschillenbeslechting-map-en-arbitrage",
+        "naam": {
+          "primair": "Geschillenbeslechting (MAP en arbitrage)",
+          "synoniemen": [
+            "mutual agreement procedure",
+            "MAP",
+            "verdragsarbitrage",
+            "bindende arbitrage"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het MLI verbetert en versnelt de **Mutual Agreement Procedure** (MAP) voor internationale dubbele belasting: staten moeten MAP-verzoeken tijdig afhandelen. Optioneel voegt het MLI **bindende arbitrage** toe: als de bevoegde autoriteiten niet tot een akkoord komen binnen de vastgestelde termijn, kan de belastingplichtige verzoeken dat het geschil aan een arbitragepanel wordt voorgelegd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Effectieve geschillenbeslechting is de andere kant van de medaille: als MLI-bepalingen het toepassingsgebied van verdragen aanscherpen, moeten belastingplichtigen ook effectief beschermd worden tegen dubbele belasting. MAP + arbitrage zijn daarvoor het mechanisme."
+          }
+        }
+      },
+      {
+        "id": "synthesetekst",
+        "naam": {
+          "primair": "Synthesetekst",
+          "synoniemen": [
+            "geconsolideerde verdragstekst",
+            "OESO-synthesetekst",
+            "consolidated treaty text"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **synthesetekst** is een niet-officieel hulpdocument (gepubliceerd door de OESO en door sommige staten) dat het originele bilaterale verdrag en de toepasselijke MLI-wijzigingen integreert in één leesbare tekst. De synthesetekst heeft **geen bindende rechtskracht** — de officiële juridische bronnen zijn het bilaterale verdrag, de MLI-tekst en de deposited instruments van beide staten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "In de praktijk is de synthesetekst het werkinstrument van de adviseur, maar voor rechterlijke toetsing en technische analyse zijn de afzonderlijke officiële bronnen bepalend."
+          }
+        }
+      },
+      {
+        "id": "deposited-instruments",
+        "naam": {
+          "primair": "Deposited instruments",
+          "synoniemen": [
+            "ratificatie-instrumenten",
+            "neerleggingsdocumenten",
+            "voorbehoud-notificaties"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij ratificatie van het MLI legt elke staat bij de OESO-depositaris een pakket **deposited instruments** neer: de lijst van covered tax agreements, de gekozen opties en de ingediende voorbehouden per artikel. Dit document is de juridisch bindende verklaring van de staten over welke MLI-bepalingen zij toepassen en op welke verdragen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Voor de adviseur zijn de deposited instruments van beide verdragsstaten de enige betrouwbare bron om het matching-resultaat te bepalen — welke MLI-bepalingen zijn voor dit specifieke verdragspaar werkelijk actief?"
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "instrument"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "beps-actieplan",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het MLI is het uitvoeringsinstrument van BEPS Actie 15 — het operationaliseert de verdragsgerelateerde BEPS-aanbevelingen (met name Acties 2, 6, 7 en 14) via één multilateraal verdrag."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "dubbelbelastingverdrag",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide zijn internationale verdragen die de belastingheffing bij grensoverschrijdende situaties regelen.",
+        "Beide zijn van toepassing naast het interne recht van de betrokken staten."
+      ],
+      "verschillen": [
+        "Een dubbelbelastingverdrag wordt gesloten tussen twee staten; het MLI wordt gesloten door veel staten tegelijkertijd.",
+        "Het MLI wijzigt de inhoud van bestaande bilaterale verdragen via een overlay-mechanisme — het vervangt de verdragen niet.",
+        "Toepassing van het MLI vereist samenlezing van meerdere documenten (verdrag + MLI + voorbehouden), terwijl een bilateraal verdrag in principe zelfstandig leesbaar is."
+      ],
+      "verwarring_risico": "Het MLI is geen nieuw verdrag dat het bilaterale verdrag vervangt — het is een overlay die bepaalde clausules aanpast of aanvult. De verdragstekst zelf wijzigt niet."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "oeso-modelverdrag",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De MLI-bepalingen zijn inhoudelijk gebaseerd op de BEPS-wijzigingen aan het OESO-modelverdrag (2017-editie). Het modelverdrag en het MLI zijn complementair: het modelverdrag geldt voor nieuwe verdragen; het MLI past bestaande verdragen aan."
+    },
+    {
+      "type": "vereist",
+      "target": "map",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "MLI Actie 14 (minimumnorm) verplicht staten tot effectieve MAP-procedures. Geschillenbeslechting via MAP is een verplicht onderdeel van de MLI-implementatie."
+    }
+  ]
 }

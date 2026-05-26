@@ -11,9 +11,15 @@
       "en": "Liability of founders and directors"
     }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "3.0.VII",
+      "3.0.VII.A",
+      "3.0.VII.B"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -32,15 +38,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 16)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende pass (modus: aanvullend): gebruikscontext uitgebreid (niet_voor, voorwaarden, trigger_start), element bestuurder-de-facto toegevoegd, element-grondslagen bijgewerkt."
       }
-    ],
-    "ankers": [
-      "3.0.VII",
-      "3.0.VII.A",
-      "3.0.VII.B"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De aansprakelijkheid van oprichters en bestuurders omvat het geheel van wettelijke verplichtingen op grond waarvan oprichters en bestuurders van vennootschappen persoonlijk aansprakelijk kunnen worden gesteld voor schade die zij aan de vennootschap, de aandeelhouders of derden toebrengen door fouten bij de oprichting of in het bestuur. Het Wetboek van vennootschappen en verenigingen (WVV) onderscheidt daartoe enerzijds de oprichtersaansprakelijkheid en anderzijds de bestuurdersaansprakelijkheid.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Oprichters en bestuurders die tekort schieten in hun wettelijke verplichtingen of de vennootschap schade berokkenen riskeren persoonlijk en in solidum aansprakelijk gesteld te worden door de vennootschap, individuele aandeelhouders of benadeelde derden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Vennootschappen genieten rechtspersoonlijkheid, maar die bescherming is niet absoluut. Oprichters en bestuurders oefenen feitelijk de macht uit binnen de vennootschap en kunnen de belangen van aandeelhouders, crediteuren en derden schaden. Het WVV creëert daarom een genuanceerd aansprakelijkheidsstelsel dat enerzijds ondernemerschap niet te zwaar belast (mildere norm voor bestuurders: lichte interne en externe fout), maar anderzijds misbruik sanctioneert (manifeste grove schuld, bedrieglijk karakter, schending van WVV of statuten). Zo wordt het evenwicht bewaard tussen ondernemersvrijheid en bescherming van de betrokken partijen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "vennootschapsrechtelijk-kader-wvv",
@@ -58,99 +106,222 @@
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Beoordeling van risico's bij oprichting van een vennootschap (financieel plan, kapitaaltoereikendheid).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Beoordeling van risico's bij oprichting van een vennootschap (financieel plan, kapitaaltoereikendheid)."
+          }
         },
         {
+          "tekst": "Advisering aan cliënten over bestuurdersaansprakelijkheid en risico-beheer (D&O-verzekering, decharge).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Advisering aan cliënten over bestuurdersaansprakelijkheid en risico-beheer (D&O-verzekering, decharge)."
+          }
         },
         {
+          "tekst": "Audit-context: risico-inschatting bij going-concern twijfel en mogelijke alarmbel- of insolventieprocedures.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Audit-context: risico-inschatting bij going-concern twijfel en mogelijke alarmbel- of insolventieprocedures."
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Aansprakelijkheid van de vennootschap zélf als rechtspersoon jegens derden (contractuele of buitencontractuele aansprakelijkheid van de entiteit) — dat is een apart leerstuk van verbintenissenrecht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Aansprakelijkheid van de bedrijfsrevisor of commissaris — die volgt een eigen regime (deontologie ITAA/IBR, beroepsverzekering, ISA-normen) en is behandeld onder aansprakelijkheid-accountant-revisor.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Aansprakelijkheid van werknemers in loondienst voor schade veroorzaakt bij de uitvoering van hun arbeidsovereenkomst — dat valt onder de Wet betreffende de aansprakelijkheid van werknemers, niet onder het WVV.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Voor oprichtersaansprakelijkheid: (1) de betrokkene was oprichter van een BV, NV of CV; (2) het beginkapitaal was kennelijk ontoereikend voor de normale uitoefening van de geplande bedrijvigheid gedurende ten minste twee jaar; (3) de vennootschap is binnen drie jaar na oprichting failliet verklaard.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Voor interne bestuurdersaansprakelijkheid: (1) de betrokkene was bestuurder (of feitelijk bestuurder); (2) er is een fout (afwijking van de norm van de normaal voorzichtig bestuurder); (3) er is schade aan de vennootschap; (4) causaal verband tussen fout en schade.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Voor externe bestuurdersaansprakelijkheid (derden): de persoonlijke fout van de bestuurder moet een aquiliaanse fout zijn die hem los van de gewone bestuursfout persoonlijk toerekenbaar is — de drempel ligt hoger dan bij de interne aansprakelijkheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Faillietverklaring van de vennootschap — de curator roept de oprichters- of bestuurdersaansprakelijkheid in namens de failliete boedel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een derde (crediteur, leverancier, werknemer) lijdt schade door een persoonlijke fout van een bestuurder en stelt een buitencontractuele vordering in.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De algemene vergadering weigert décharge of herroept een eerder verleende décharge (bij later ontdekte fraude of onjuiste informatie).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "Onvoldoende kennis van de aansprakelijkheidsregels kan ertoe leiden dat bestuurders die cliënt zijn geen tijdige maatregelen nemen (decharge, D&O-verzekering, alarmbel), waardoor de gecertificeerd accountant zelf ook aansprakelijk gesteld kan worden voor gebrekkig advies.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Onvoldoende kennis van de aansprakelijkheidsregels kan ertoe leiden dat bestuurders die cliënt zijn geen tijdige maatregelen nemen (decharge, D&O-verzekering, alarmbel), waardoor de gecertificeerd accountant zelf ook aansprakelijk gesteld kan worden voor gebrekkig advies."
+          }
         }
       ],
       "indicaties": [
         {
+          "tekst": "De vennootschap heeft onvoldoende beginkapitaal of een ondeugdelijk financieel plan (oprichtersaansprakelijkheid).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "De vennootschap heeft onvoldoende beginkapitaal of een ondeugdelijk financieel plan (oprichtersaansprakelijkheid)."
+          }
         },
         {
+          "tekst": "Een bestuurder heeft de alarmbel-procedure niet nageleefd of heeft kennelijk grove schuld begaan.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Een bestuurder heeft de alarmbel-procedure niet nageleefd of heeft kennelijk grove schuld begaan."
+          }
         },
         {
+          "tekst": "De vennootschap wordt failliet verklaard en er zijn aanwijzingen van foutief bestuur.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "De vennootschap wordt failliet verklaard en er zijn aanwijzingen van foutief bestuur."
+          }
         }
       ]
     },
@@ -167,7 +338,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -180,7 +351,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -199,7 +370,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -212,7 +383,7 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -231,20 +402,20 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
         "kern": {
           "definitie": {
-            "tekst": "Bestuurders zijn tegenover de vennootschap aansprakelijk voor fouten begaan bij de uitoefening van hun opdracht (artikel 2:56 WVV). De maatstaf is de zorgvuldigheid van een normaal voorzichtig bestuurder die in dezelfde omstandigheden handelt. Enkel de vennootschap (of de curator bij faillissement) kan deze vordering instellen; individuele aandeelhouders kunnen een afgeleide vordering instellen namens de vennootschap.",
+            "tekst": "Bestuurders zijn tegenover de vennootschap aansprakelijk voor fouten begaan bij de uitoefening van hun opdracht. De maatstaf is de zorgvuldigheid van een normaal voorzichtig bestuurder die in dezelfde omstandigheden handelt. Enkel de vennootschap (of de curator bij faillissement) kan deze vordering instellen; individuele aandeelhouders kunnen een afgeleide vordering instellen namens de vennootschap.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -263,20 +434,20 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
         "kern": {
           "definitie": {
-            "tekst": "Derden (crediteuren, leveranciers, werknemers) kunnen bestuurders persoonlijk aanspreken voor een fout die zij begaan hebben in de uitoefening van hun mandaat, mits die fout een aquiliaanse fout is (artikel 1382 BW oud / artikel 6.1 nieuw BW) die hun persoonlijk wordt toegerekend en die buiten de gewone bestuursfout valt. Naast de gemeenrechtelijke aansprakelijkheid geldt ook de specifieke aansprakelijkheid voor schending van het WVV of de statuten.",
+            "tekst": "Derden (crediteuren, leveranciers, werknemers) kunnen bestuurders persoonlijk aanspreken voor een fout die zij begaan hebben in de uitoefening van hun mandaat, mits die fout een aquiliaanse fout is die hun persoonlijk wordt toegerekend en die buiten de gewone bestuursfout valt. Naast de gemeenrechtelijke aansprakelijkheid geldt ook de specifieke aansprakelijkheid voor schending van het WVV of de statuten.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -290,25 +461,25 @@
         },
         "inhoud_type": "drempel",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "betwijfeld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
         "kern": {
           "definitie": {
-            "tekst": "Het WVV heeft een maximumbedrag ingevoerd voor de aansprakelijkheid van bestuurders, afhankelijk van de omvang van de vennootschap (artikel 2:57 WVV). Voor micro-vennootschappen geldt een plafond van 125.000 euro; voor kleine vennootschappen 250.000 euro; voor grote vennootschappen 1.000.000 euro en hoger, naar rato van de omzet en het balanstotaal. Het plafond geldt niet bij bedrieglijk opzet, grove schuld, of schending van bepaalde specifieke verplichtingen (fiscale, sociale schulden na faillissement).",
+            "tekst": "Het WVV heeft een maximumbedrag ingevoerd voor de aansprakelijkheid van bestuurders, afhankelijk van de omvang van de vennootschap. Voor micro-vennootschappen geldt een plafond van € 125.000; voor kleine vennootschappen € 250.000; voor grote vennootschappen € 1.000.000 en hoger, naar rato van de omzet en het balanstotaal. Het plafond geldt niet bij bedrieglijk opzet, grove schuld, of schending van bepaalde specifieke verplichtingen (fiscale, sociale schulden na faillissement).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "betwijfeld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -327,20 +498,20 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
         "kern": {
           "definitie": {
-            "tekst": "Buiten de algemene bestuurdersaansprakelijkheid geldt een specifieke hoofdelijke aansprakelijkheid voor bestuurders die herhaaldelijk niet-betaling van btw of bedrijfsvoorheffing hebben laten voortduren (artikelen 51 en 53 WBTW en artikel 272 WIB 92 voor de bedrijfsvoorheffing, resp. artikel 1441-1 Gerechtelijk Wetboek voor RSZ). De oorzakelijkheidseis is minder streng: het volstaat dat de bestuurder wist of moest weten van de herhaalde niet-betaling.",
+            "tekst": "Buiten de algemene bestuurdersaansprakelijkheid geldt een specifieke hoofdelijke aansprakelijkheid voor bestuurders die herhaaldelijk niet-betaling van btw of bedrijfsvoorheffing hebben laten voortduren. De oorzakelijkheidseis is minder streng: het volstaat dat de bestuurder wist of moest weten van de herhaalde niet-betaling. Soortgelijke regels gelden voor RSZ-schulden.",
             "grondslag": {
               "confidence": "betwijfeld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -359,7 +530,7 @@
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
@@ -372,7 +543,91 @@
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bestuurder-de-facto",
+        "naam": {
+          "primair": "Bestuurder de facto",
+          "synoniemen": [
+            "feitelijk bestuurder",
+            "schaduwbestuurder"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Een persoon die niet formeel benoemd is als bestuurder maar feitelijk de bestuursbevoegdheid uitoefent (bestuurder de facto of schaduwbestuurder) kan onder het WVV gelijkgesteld worden met een wettelijk bestuurder voor de toepassing van de aansprakelijkheidsregels. Het loutere geven van aanwijzingen of raad is onvoldoende — er moet sprake zijn van effectieve beslissingsmacht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "In groepsstructuren (zoals bij Aurelia Holding NV die instructies geeft aan Brugse Brouwerij BV) bestaat het risico dat de moedervennootschap als schaduwbestuurder wordt aangesproken wanneer zij de dagelijkse bedrijfsbeslissingen van de dochter feitelijk aanstuurt, zonder formeel bestuurder te zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afgeleide-vordering-aandeelhouders",
+        "naam": {
+          "primair": "Afgeleide vordering aandeelhouders",
+          "synoniemen": [
+            "actio pro socio"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de vennootschap zelf nalaat een vordering in te stellen wegens bestuurdersaansprakelijkheid, kan een individuele aandeelhouder of een minderheidsgroep een afgeleide vordering instellen namens de vennootschap. De opbrengst komt toe aan de vennootschap, niet aan de eisende aandeelhouder. Het WVV stelt minimumdrempels voor de ontvankelijkheid (percentage van het aandeelhouderschap).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -380,50 +635,10 @@
         }
       }
     ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aansprakelijkheid van oprichters en bestuurders omvat het geheel van wettelijke verplichtingen op grond waarvan oprichters en bestuurders van vennootschappen persoonlijk aansprakelijk kunnen worden gesteld voor schade die zij aan de vennootschap, de aandeelhouders of derden toebrengen door fouten bij de oprichting of in het bestuur. Het Wetboek van vennootschappen en verenigingen (WVV) onderscheidt daartoe enerzijds de oprichtersaansprakelijkheid (artikelen 5:16 e.v., 6:9 e.v., 7:8 e.v. WVV) en anderzijds de bestuurdersaansprakelijkheid (artikelen 2:56–2:57 WVV en soortgelijke bepalingen per rechtsvorm)."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Oprichters en bestuurders die tekort schieten in hun wettelijke verplichtingen of de vennootschap schade berokkenen riskeren persoonlijk en in solidum aansprakelijk gesteld te worden door de vennootschap, individuele aandeelhouders of benadeelde derden."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Vennootschappen genieten rechtspersoonlijkheid, maar die bescherming is niet absoluut. Oprichters en bestuurders oefenen feitelijk de macht uit binnen de vennootschap en kunnen de belangen van aandeelhouders, crediteuren en derden schaden. Het WVV creëert daarom een genuanceerd aansprakelijkheidsstelsel dat enerzijds ondernemerschap niet te zwaar belast (mildere norm voor bestuurders: lichte interne en externe fout), maar anderzijds misbruik sanctioneert (manifeste grove schuld, bedrieglijk karakter, schending van WVV of statuten). Zo wordt het evenwicht bewaard tussen ondernemersvrijheid en bescherming van de betrokken partijen."
-      }
-    },
     "syntheses": [
       {
         "type": "keuzekader",
+        "intro": "Dit kader omvat twee grote regimes: oprichtersaansprakelijkheid en bestuurdersaansprakelijkheid. Gebruik onderstaande vragen om te bepalen welk subregeime van toepassing is.",
         "inhoud": {
           "assen": [
             {
@@ -449,6 +664,10 @@
                 {
                   "richting": "Een derde (crediteur, leverancier)",
                   "leidt_naar": "aansprakelijkheid-oprichters-bestuurders#externe-bestuurdersaansprakelijkheid"
+                },
+                {
+                  "richting": "Een aandeelhouder namens de vennootschap",
+                  "leidt_naar": "aansprakelijkheid-oprichters-bestuurders#afgeleide-vordering-aandeelhouders"
                 }
               ]
             },
@@ -484,13 +703,13 @@
                 "Interne bestuurdersaansprakelijkheid",
                 "Vennootschap / curator / aandeelhouders (afgeleide vordering)",
                 "Bestuursfout (normaal voorzichtig bestuurder)",
-                "Ja (art. 2:57 WVV)"
+                "Ja"
               ],
               [
                 "Externe bestuurdersaansprakelijkheid",
                 "Derden",
                 "Aquiliaanse fout buiten gewone bestuursfout",
-                "Ja (art. 2:57 WVV)"
+                "Ja"
               ],
               [
                 "Fiscale/sociale aansprakelijkheid",
@@ -500,8 +719,7 @@
               ]
             ]
           }
-        },
-        "intro": "Dit kader omvat twee grote regimes: oprichtersaansprakelijkheid en bestuurdersaansprakelijkheid. Gebruik onderstaande vragen om te bepalen welk subregeime van toepassing is."
+        }
       }
     ]
   },
@@ -549,7 +767,11 @@
       "type": "vereist",
       "target": "oprichting-vennootschap",
       "toelichting": "Oprichtersaansprakelijkheid veronderstelt een geldige oprichting met financieel plan; die procedure is onderdeel van het concept oprichting-vennootschap."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschapsgeschillen",
+      "toelichting": "Geschillen tussen aandeelhouders en bestuurders (exclusie, uittreding) kunnen aanleiding geven tot of samenlopen met bestuurdersaansprakelijkheidsvorderingen."
     }
-  ],
-  "concept_type": "kader"
+  ]
 }

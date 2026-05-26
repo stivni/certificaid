@@ -1,11 +1,24 @@
 {
   "id": "bijzondere-aanslagen-venb",
   "naam": {
-    "primair": "Bijzondere aanslagen venb"
+    "primair": "Bijzondere aanslagen VenB",
+    "afkorting": "BA-VenB",
+    "synoniemen": [
+      "afzonderlijke aanslagen vennootschapsbelasting",
+      "speciale aanslagen VenB",
+      "bijzondere tarieven vennootschapsbelasting"
+    ],
+    "vertaling": {
+      "fr": "cotisations distinctes ISoc"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.3.II.I"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +37,495 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7), gebruikscontext en relaties ingevuld vanuit training-data. Modus: aanvullend."
       }
-    ],
-    "ankers": [
-      "2.3.II.I"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Bijzondere aanslagen venb",
+        "tekst": "**Bijzondere aanslagen VenB** zijn een reeks afzonderlijke belastingen die naast of in plaats van de gewone vennootschapsbelasting worden geheven op specifieke uitgaven, voordelen of situaties die de wetgever fiscaal wil ontmoedigen of corrigeren. Ze worden berekend op een afzonderlijke grondslag en zijn in beginsel niet aftrekbaar als beroepskost, zodat ze een volledig additionele last vormen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De bijzondere aanslagen vormen het sanctie-instrument van de vennootschapsbelasting: waar de gewone VenB de winst belast, belasten de bijzondere aanslagen **gedragingen** — uitgaven die niet geboekt zijn, voordelen die niet worden verantwoord, of inkomsten die niet worden aangegeven.\n\nDe voornaamste categorieën zijn:\n- **Geheime commissielonen** — aanslag van 100% of 50% op voordelen die niet op fiscale fiches worden gerapporteerd (art. 219 WIB92)\n- **Niet-verantwoorde kosten** — aanslag van 100% of 50% op verworpen uitgaven zonder verantwoording\n- **Financiële voordelen aan belastingparadijzen** — aanslag van 100% op betalingen zonder economische verantwoording\n- **Te weinig betaalde voorafbetalingen** — geen aanslag maar een vermeerdering (art. 218 WIB92)\n- **Aanslag geheime reserves** — bij liquidatie of zetelverplaatsing op niet-eerder-belaste reserves\n\nHet mechanisme is consistent: de belasting raakt de vennootschap ongeacht of de ontvanger elders wordt belast.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De bijzondere aanslagen bestaan om twee redenen. Ten eerste dichten ze een **antimisbruikgat**: als een vennootschap een voordeel toekent maar niet rapporteert (geen fiche, geen correcte aangifte), ontglipt de begunstigde aan belasting. De bijzondere aanslag bij de vennootschap is de correctie. Ten tweede vervullen ze een **afschrikfunctie**: het tarief van 100% maakt geheimhouding duurder dan correcte rapportage, ook wanneer de begunstigde nadien alsnog belast wordt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "aanslag-geheime-commissielonen",
+        "naam": {
+          "primair": "Aanslag geheime commissielonen",
+          "synoniemen": [
+            "cotisation distincte sur commissions secrètes",
+            "art. 219-aanslag"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De aanslag geheime commissielonen treft vennootschappen die **bezoldigingen, commissies, voordelen van alle aard of andere vergoedingen** toekennen aan een derde zonder deze te vermelden op een correcte fiscale fiche (281.xx-formulieren).\n\nTarief:\n- **100%** op het bedrag wanneer de vennootschap niet kan aantonen dat de ontvanger de inkomsten heeft aangegeven\n- **50%** wanneer aangetoond is dat de begunstigde de inkomsten alsnog heeft aangegeven\n\nDe bijzondere aanslag is in beginsel **niet aftrekbaar** als beroepskost.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-219"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het 100%-tarief is geen straf maar een correctie: de voordelen waren al niet aftrekbaar als verworpen uitgave (geen verantwoording), en de bijzondere aanslag beoogt de belasting te heffen die de ontvanger ontloopt."
+          }
+        }
+      },
+      {
+        "id": "aanslag-niet-verantwoorde-kosten",
+        "naam": {
+          "primair": "Aanslag niet-verantwoorde kosten",
+          "synoniemen": [
+            "aanslag verworpen uitgaven zonder verantwoording"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Kosten die de vennootschap aftrekt maar **niet afdoende kan verantwoorden** met bewijsstukken (facturen, betalingsbewijzen, bonnen) worden geherkwalificeerd als verworpen uitgaven. Bovenop de niet-aftrekbaarheid kan een bijzondere aanslag van **100%** worden opgelegd wanneer de uitgaven duiden op verdachte of onverantwoorde betalingen aan derden zonder identificatie.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-219"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De grens tussen gewone verworpen uitgaven (enkel niet-aftrekbaar) en uitgaven waarop bijzondere aanslag rust, is in de praktijk een feitenkwestie — te verifiëren bij claims_checken."
+          }
+        }
+      },
+      {
+        "id": "aanslag-financiele-voordelen-belastingparadijzen",
+        "naam": {
+          "primair": "Aanslag financiële voordelen aan belastingparadijzen",
+          "synoniemen": [
+            "aanslag art. 307bis WIB92",
+            "betalingen aan belastingparadijzen"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Betalingen aan entiteiten gevestigd in **landen op de Europese of Belgische zwarte lijst** van niet-coöperatieve jurisdicties (belastingparadijzen) zijn in beginsel niet aftrekbaar, tenzij de vennootschap aantoont dat de transactie **economisch verantwoord** is en tegen marktprijs plaatsvond.\n\nBovenop de niet-aftrekbaarheid wordt een bijzondere aanslag van **100%** opgelegd wanneer de aangifteverplichting niet wordt nageleefd.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-307bis"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De maatregel is een BEPS-implementatie: betalingen aan laag-belastende jurisdicties worden extra bewakingsdruk opgelegd om uitholling van de belastinggrondslag via kunstmatige routes te ontmoedigen."
+          }
+        }
+      },
+      {
+        "id": "vermeerdering-wegens-onvoldoende-voorafbetalingen",
+        "naam": {
+          "primair": "Vermeerdering wegens onvoldoende voorafbetalingen",
+          "synoniemen": [
+            "art. 218-vermeerdering",
+            "belastingvermeerdering VenB"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een vennootschap **onvoldoende voorafbetalingen** heeft gedaan (kwartalen VA1 t.e.m. VA4) in verhouding tot de verschuldigde VenB, wordt een **vermeerdering** opgelegd. Dit is technisch geen afzonderlijke aanslag maar een toeslag op de basisbelasting.\n\nDe vermeerdering is gelijk aan het **basispercentage** (tariefkorf op basis van OLO-rentevoet) vermenigvuldigd met het tekort aan voorafbetalingen. Vroeg betalen geeft een hogere tegemoetkomingskrediet per kwartaal.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-218"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De vermeerdering is een financierings- en liquiditeitsincentive: de fiscus wil niet aan het einde van het jaar een groot bedrag ontvangen maar over het jaar gespreid bijdragen. De 'bijzondere aanslag'-kwalificatie is hier terminologisch ruimer dan de strikte juridische definitie."
+          }
+        }
+      },
+      {
+        "id": "aanslag-geheime-reserves-liquidatie",
+        "naam": {
+          "primair": "Aanslag op geheime reserves bij liquidatie of zetelverplaatsing",
+          "synoniemen": [
+            "exit-aanslag geheime reserves",
+            "aanslag fiscale geheime reserves"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij **vereffening** van een vennootschap of bij **zetelverplaatsing** naar het buitenland worden de fiscale geheime reserves — reserves die niet eerder aan belasting onderworpen zijn geweest — belast als belastbare winst. Ze worden toegevoegd aan de belastbare grondslag van het laatste aanslagjaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het mechanisme sluit de ontsnappingsroute waarbij een vennootschap haar activa onderwaardeert (geheime reserves opbouwt) en vervolgens liquideert of naar een laag-belastend land verhuist zonder op die stille winst te betalen."
+          }
+        }
+      },
+      {
+        "id": "tarief-structuur-bijzondere-aanslagen",
+        "naam": {
+          "primair": "Tariefstructuur bijzondere aanslagen"
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "substantie": {
+            "tekst": "De bijzondere aanslagen kennen doorgaans twee tarieven afhankelijk van de bewijs-situatie:\n\n| Situatie | Tarief |\n|---|---|\n| Begunstigde onbekend of heeft inkomsten niet aangegeven | **100%** op de grondslag |\n| Begunstigde heeft inkomsten alsnog aangegeven | **50%** op de grondslag |\n\nDe bijzondere aanslag wordt berekend **vóór** de gewone VenB-berekening en is niet aftrekbaar als beroepskost — wat betekent dat hij de effectieve belastingdruk cumulatief verhoogt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-219"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het 100%-tarief dekt in theorie de door de ontvanger ontlopen belasting, inclusief personenbelasting-last. De verlaagde 50% bij bewijs van aangifte erkent dat de fiscale schade beperkt was."
+          }
+        }
+      },
+      {
+        "id": "niet-aftrekbaarheid-bijzondere-aanslag",
+        "naam": {
+          "primair": "Niet-aftrekbaarheid van de bijzondere aanslag"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De bijzondere aanslagen zijn in beginsel **geen aftrekbare beroepskost** bij de vennootschap die ze draagt. Ze verhogen bijgevolg de belastbare basis voor de gewone VenB niet direct (ze worden niet toegevoegd aan de belastbare grondslag van de gewone VenB), maar de last ervan kan niet worden afgetrokken als kost.\n\nDe vennootschap draagt het bedrag van de bijzondere aanslag dus volledig netto — er is geen fiscale tegemoetkoming via aftrek.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-198"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De niet-aftrekbaarheid is een bewuste versterking van de sanctie: de vennootschap kan de bijzondere aanslag niet 'terugverdienen' via een lagere VenB-last."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Beoordeling van het fiscale risico verbonden aan **voordelen van alle aard** (maaltijdcheques, bedrijfswagens, opties, ...) die niet of onvolledig worden gerapporteerd op fiscale fiches.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Due diligence bij overname van een vennootschap — nalopen of lopende of potentiële bijzondere aanslagen als verborgen schuld de koopprijs beïnvloeden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Beoordeling van betalingen aan **gelieerde entiteiten in laag-belastende landen** — toets op economische verantwoording en aangifteplicht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Reguliere verworpen uitgaven die wél correct gerapporteerd zijn maar simpelweg niet aftrekbaar zijn (bv. autokosten boven fiscale limiet) — deze leiden tot belastbare grondslag-correctie, niet tot bijzondere aanslag.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De bijzondere aanslag wordt opgelegd wanneer (1) een voordeel of betaling is toegekend, (2) geen correcte fiche is opgesteld of geen verantwoording is geleverd, en (3) de vennootschap de ontvanger of het bedrag niet anderszins kan identificeren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Cumulatief risico: de bijzondere aanslag is niet aftrekbaar, de onderliggende kost was al verworpen uitgave, en de begunstigde kan naderhand alsnog belast worden — **drievoudige last** zonder fiscale tegemoetkoming.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Ontbreken van fiscale fiches (281-formulieren) triggert automatisch de bijzondere aanslag bij controle — een procedureel verzuim, zelfs bij economisch correcte transacties.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Vennootschap heeft voordelen van alle aard toegekend (gratis gebruik bedrijfswagen, goedkope lening, maaltijden, ...) maar de fiches ontbreken of zijn onjuist ingevuld.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Betalingen aan derden (consultancy, commissies, ...) die kasinformatisch onverklaard zijn en waarvoor geen bewijsstukken of fiches bestaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Bijzondere aanslagen zijn onderdeel van het VenB-stelsel — ze worden geheven via de VenB-aangifte en aanslag."
+    },
+    {
+      "type": "bevat",
+      "target": "geheime-commissielonen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "verworpen-uitgaven",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Niet-verantwoorde kosten leiden tot verworpen uitgaven én potentieel bijzondere aanslag."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aangifte-vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De bijzondere aanslagen komen tot uitdrukking in de VenB-aangifte en worden samen met de gewone belasting berekend."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "voordelen-alle-aard",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Voordelen van alle aard zijn de meest voorkomende trigger voor de aanslag geheime commissielonen.",
+      "gelijkenissen": [
+        "Beide betreffen vergoedingen/voordelen aan begunstigden buiten het normale loonregime."
+      ],
+      "verschillen": [
+        "Voordelen alle aard zijn het economisch fenomeen; de bijzondere aanslag is de fiscale sanctie bij niet-rapportering ervan."
+      ],
+      "verwarring_risico": "Studenten verwarren soms het voordeel zelf (VenB-verworpen uitgave) met de bijzondere aanslag op het niet-gerapporteerde voordeel."
+    },
+    {
+      "type": "vereist",
+      "target": "voorafbetalingen-vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De vermeerdering wegens onvoldoende voorafbetalingen is technisch verwant aan de bijzondere aanslagen — beide zijn correcties bovenop de basisbelasting."
+    }
+  ]
 }

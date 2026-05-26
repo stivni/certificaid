@@ -1,11 +1,21 @@
 {
   "id": "businessmodel-en-strategie-inzicht-accountant",
   "naam": {
-    "primair": "Businessmodel en strategie inzicht accountant"
+    "primair": "Businessmodel en strategie inzicht accountant",
+    "synoniemen": [
+      "strategische analyse onderneming",
+      "businessmodel-analyse",
+      "bedrijfsmodelanalyse",
+      "strategisch inzicht"
+    ]
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "4.0.taak.6"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +34,482 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7), gebruikscontext en relatie-suggesties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "4.0.taak.6"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Businessmodel en strategie inzicht accountant",
+        "tekst": "Het **businessmodel en strategie inzicht** van de accountant is het normatieve kader van competenties waarmee een gecertificeerd accountant een onderneming **begrijpt als economische entiteit**: hoe ze waarde creëert, voor wie, via welke activiteiten en middelen, en welke strategische keuzes haar positie in de markt bepalen. Dit inzicht vormt de verplichte context-basis voor alle advies-, audit- en rapportagetaken.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een accountant die de jaarrekening, de fiscale aangifte of een adviesrapport voorbereidt, moet de onderliggende economische logica van de onderneming kennen om:\n\n- **anomalieën te herkennen** — een brutomarge die afwijkt van de sector, een stijging van immateriële activa bij een productievennootschap;\n- **risico's correct in te schatten** — strategische kwetsbaarheid vertaalt zich in continuïteitsrisico;\n- **advies te contextualiseren** — het juiste fiscaal of juridisch instrument hangt af van de aard van de activiteit en de groeifase;\n- **verslag begrijpbaar te maken** — het jaarverslag en de toelichting moeten de strategische realiteit correct weerspiegelen.\n\nHet kader omvat drie lagen: **businessmodel** (hoe werkt de onderneming vandaag), **strategie** (waar wil ze naartoe), en **omgeving** (sectordynamieken, concurrentie, regulering). De accountant combineert kwantitatieve analyse (ratio's, trendanalyse) met kwalitatieve beoordeling (managementinterviews, sectorkennis).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Een accountant zonder businessmodel-inzicht werkt **blindelings met cijfers**: hij kan technisch correcte boekingen maken en een formeel correcte aangifte indienen, maar mist de context om te beoordelen of de cijfers de economische realiteit correct weergeven. Het ITAA-bekwaamheidsexamen vereist dit inzicht expliciet omdat gecertificeerde accountants autonome adviseurs zijn — geen administratieve uitvoerders.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Opdrachten waarbij de accountant een oordeel moet vormen over de **continuïteit** of de **economische realiteit** van de jaarrekening (going-concern-beoordeling, audit-planning).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zonder begrip van het businessmodel kan de accountant niet inschatten of de gerapporteerde winstgevendheid structureel of conjunctureel is."
+        },
+        {
+          "tekst": "**Adviesopdrachten** waarbij de keuze van rechtsvorm, financieringsstructuur of fiscaal regime afhangt van de aard en de groeifase van de activiteit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Een holdingstructuur is zinvol voor een winstgevende KMO met successieplanningsdoelstelling, maar onnodig complex voor een startende eenmanszaak."
+        },
+        {
+          "tekst": "**Jaarverslag-begeleiding** en opmaak van toelichting bij de jaarrekening, waarbij de strategische realiteit correct moet worden weergegeven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Due diligence** bij fusies, overnames en bedrijfsoverdrachten waarbij de accountant de economische waarde en de strategische risico's beoordeelt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Louter **mechanische boekhoudkundige verwerking** van individuele transacties waarbij de economische context van de onderneming irrelevant is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Voor routinematige verwerking van facturen, lonen of afschrijvingen is businessmodel-inzicht geen vereiste — het is relevant bij oordeelsvorming, niet bij uitvoering."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Gebrekkig businessmodel-inzicht** leidt tot technisch correcte maar economisch misleidende verslaggeving — bv. correct geboekte transacties die de strategie niet weerspiegelen in het jaarverslag.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verkeerde instrumentkeuze** bij advies — bv. een vennootschapsstructuur adviseren die fiscaal efficiënt is maar niet aansluit bij de exploitatievorm of groeistrategie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De **brutomarge of operationele marge** wijkt significant af van sectorgemiddelden — signaal dat businessmodel of koststructuur afwijkt van de norm.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De onderneming bevindt zich in een **groeifase of transformatiefase** (pivot, schaalvergroting, internationalisering) waarbij de financiële structuur en het fiscaal regime heroverwogen moeten worden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De klant vraagt advies over **financiering, rechtsvorm of governance** — keuzes die alleen zinvol te maken zijn in de context van het businessmodel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "businessmodel-definitie",
+        "naam": {
+          "primair": "Businessmodel",
+          "synoniemen": [
+            "bedrijfsmodel",
+            "verdienmodel"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **businessmodel** beschrijft hoe een onderneming **waarde creëert, levert en capteert**: welke activiteiten ze uitvoert, voor welke klantensegmenten, via welke kanalen en partners, met welke middelen, en met welk kostenstructuur en opbrengstmodel. Het beantwoordt de vraag: hoe verdient deze onderneming haar geld, en waarom zou dat in de toekomst blijven werken?",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het businessmodel is de economische basiseenheid die de accountant moet begrijpen — niet de juridische entiteit op zich, maar de activiteit die de entiteit uitoefent en de logica waarmee dat waarde genereert."
+          }
+        }
+      },
+      {
+        "id": "strategie-definitie",
+        "naam": {
+          "primair": "Strategie",
+          "synoniemen": [
+            "ondernemingsstrategie",
+            "bedrijfsstrategie"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **strategie** van een onderneming is haar plan om op middellange en lange termijn **concurrentieel voordeel** te behalen en te behouden. Ze omvat keuzes over marktsegmenten (voor wie), positionering (differentiatie vs. kostenleiderschap), groeipaden (organisch, overnames, internationalisering) en resource-allocatie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waardeketen-analyse",
+        "naam": {
+          "primair": "Waardeketen-analyse",
+          "synoniemen": [
+            "value chain analyse"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De waardeketen-analyse brengt in kaart **welke activiteiten** in de onderneming waarde toevoegen en welke kosten veroorzaken. Onderscheid:\n\n- **Primaire activiteiten** — inkoop, productie/operaties, distributie, verkoop en marketing, after-sales\n- **Ondersteunende activiteiten** — infrastructuur, HR, technologie, procurement\n\nVoor de accountant is dit relevant om te beoordelen waar de marge gecreëerd wordt, waar risico's op kostenexplosie of margeverlies liggen, en welke posten in de jaarrekening strategisch kritisch zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Een productiebedrijf met hoge voorraden heeft een fundamenteel ander risicoprofiel dan een platform-onderneming zonder eigen voorraad — de waardeketen-analyse maakt dit verschil zichtbaar."
+          }
+        }
+      },
+      {
+        "id": "sectoranalyse",
+        "naam": {
+          "primair": "Sectoranalyse",
+          "synoniemen": [
+            "brancheanalyse",
+            "omgevingsanalyse"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De sectoranalyse beoordeelt de **externe omgeving** van de onderneming: marktdynamieken, concurrentie-intensiteit, toetredingsbarrières, substituutdruk en onderhandelingsmacht van klanten en leveranciers. Klassieke kaders:\n\n- **SWOT** — sterke/zwakke punten (intern) vs. kansen/bedreigingen (extern)\n- **PESTEL** — politieke, economische, sociale, technologische, ecologische en juridische factoren\n- **Porters Five Forces** — concurrentiekrachten in een sector\n\nVoor de accountant is sectoranalyse een kalibratietool: sectorgemiddelden voor marges, rotatietijden en hefboomratio's geven referentiepunten voor anomaliedetectie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "groeifasen-onderneming",
+        "naam": {
+          "primair": "Groeifasen van de onderneming"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Een onderneming doorloopt typisch herkenbare fasen met elk een eigen **financieel profiel, risicoprofiel en adviesnood**:\n\n| Fase | Kenmerken | Adviesnood ||\n|---|---|---|\n| **Opstart** | Negatieve cashflow, hoge onzekerheid, behoefte aan startfinanciering | Rechtsvorm, financiering, sociale statut |\n| **Groei** | Stijgende omzet, cashflow-druk, schaalvoordelen | Herstructurering, holding, arbeidsrecht |\n| **Volwassenheid** | Stabiele marges, dividendbeleid, successieplanning | Optimalisatie, successie, overnames |\n| **Afbouw/exit** | Stopzetting, overdracht, vereffening | Due diligence, waardering, fiscaliteit exit |\n\nDe fase bepaalt mee welke fiscale regimes, financieringsstructuren en governance-modellen zinvol zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kritieke-succesfactoren",
+        "naam": {
+          "primair": "Kritieke succesfactoren",
+          "synoniemen": [
+            "KSF",
+            "kritische succesfactoren"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Kritieke succesfactoren** (KSF) zijn de elementen in het businessmodel die het concurrentieel voordeel van de onderneming verklaren en waarvan het wegvallen de levensvatbaarheid bedreigt. Voorbeelden: klantrelaties bij een dienstenbedrijf, patenten bij een technologiebedrijf, vestigingslocaties bij een retailketen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "KSF's zijn voor de accountant relevant bij continuïteitsbeoordeling (going concern), bij waardering van immateriële activa en bij due diligence — het zijn de activa die niet altijd op de balans staan maar wel de waarde dragen."
+          }
+        }
+      },
+      {
+        "id": "strategisch-risico",
+        "naam": {
+          "primair": "Strategisch risico"
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "**Strategisch risico** is het risico dat de strategie van de onderneming mislukt door externe veranderingen (technologische disruptie, reguleringswijziging, marktshift) of interne tekortkomingen (uitvoeringsfouten, sleutelpersoonsverlies, overgewaardeerde synergiën bij overname).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Voor de accountant materialiseert strategisch risico zich als:\n- **Continuïteitsrisico** — going-concern-veronderstelling in het gedrang\n- **Impairment-risico** — goodwill of immateriële activa moeten afgewaardeerd worden\n- **Representativiteitsrisico** — de jaarrekening weerspiegelt niet langer de economische realiteit door gewijzigde omstandigheden\n- **Aangifterisico** — fiscale structuur sluit niet meer aan bij gewijzigde activiteiten",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "beinvloed_door",
+      "target": "jaarrekeninganalyse",
+      "toelichting": "Businessmodel-inzicht is de context waarbinnen jaarrekeninganalyse en ratio-interpretatie zinvol worden — ratio's zijn pas anomalieën als je het businessmodel kent.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "continuiteit-going-concern",
+      "toelichting": "Going-concern-beoordeling vereist begrip van het businessmodel en de strategie om te beoordelen of de veronderstelling houdbaar is.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "auditrisicomodel",
+      "toelichting": "Risicogebaseerde auditplanning vertrekt vanuit begrip van de entiteit en haar omgeving — businessmodel-analyse is de basis voor inherent risico-inschatting.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "due-diligence",
+      "toelichting": "Due diligence is een gestructureerde operationalisering van businessmodel- en strategie-analyse in een overnamecontext.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "faillissementspredictie-modellen",
+      "toelichting": "Faillissementspredictie-modellen zijn kwantitatieve operationalisering van strategisch risico — businessmodel-inzicht geeft de kwalitatieve context voor de modeluitkomsten.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "cyclus-analyse",
+      "toelichting": "Cyclus-analyse (aankoop-, verkoop-, productiecyclus) is een operationele decompositie van het businessmodel die de accountant gebruikt om interne controle en audit te structureren.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

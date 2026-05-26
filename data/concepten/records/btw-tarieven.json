@@ -1,11 +1,26 @@
 {
   "id": "btw-tarieven",
   "naam": {
-    "primair": "Btw tarieven"
+    "primair": "Btw-tarieven",
+    "afkorting": "BTW-T",
+    "synoniemen": [
+      "btw-tarief",
+      "belastingtarief btw",
+      "btw-percentages"
+    ],
+    "vertaling": {
+      "fr": "Taux de TVA"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.4.I",
+      "2.4.V",
+      "2.4.taak.4"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +39,430 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data. MODUS aanvullend."
       }
-    ],
-    "ankers": [
-      "2.4.I",
-      "2.4.V",
-      "2.4.taak.4"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Btw tarieven",
+        "tekst": "Het Belgische btw-stelsel hanteert **vier tarieven** waartegen een belastingplichtige de verschuldigde btw berekent op zijn leveringen van goederen en diensten: het **standaardtarief van 21%**, het **tussentrief van 12%**, het **verlaagde tarief van 6%** en het **nultarief van 0%**. Het toepasselijke tarief wordt bepaald door de aard van het goed of de dienst, niet door wie levert of aan wie geleverd wordt.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De vier tarieven zijn geen vrije keuze — het tarief volgt dwingend uit de **classificatie van het goed of de dienst** in de btw-wetgeving en de bijlagen van het Btw-wetboek. Het standaardtarief van 21% geldt voor alles wat niet expliciet onder een lager tarief of vrijstelling valt. De verlaagde tarieven (12% en 6%) en het nultarief zijn positief opgesomd in bijlage bij het Btw-wetboek: wie meent dat een lager tarief geldt, moet de wettelijke grondslag kunnen aanwijzen.\n\nEen onderscheid met vrijstellingen is fundamenteel: bij vrijstellingen heeft de belastingplichtige **geen recht op aftrek** van voorbelasting; bij het nultarief wel. Een goed of dienst belast aan 0% is dus btw-technisch anders dan een vrijgestelde prestatie.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Dit onderscheid (lager tarief vs. vrijstelling vs. nultarief) is een kerntoetssteen in het examen: studenten moeten niet alleen het correcte tarief kennen, maar ook de aftrekbaarheid van voorbelasting correct koppelen aan het toepasselijk stelsel."
+      },
+      "rationale": {
+        "tekst": "De ratio van de tariefstructuur is **sociaaleconomisch**: basisbehoeften (voeding, geneesmiddelen, sociale woningbouw) worden fiscaal minder zwaar belast dan luxegoederen en diensten. De differentiatie reflecteert een beleidskeuze om de belastingdruk op lage inkomens te beperken — basisconsumptie neemt een groter deel van het inkomen in bij lagere-inkomensgroepen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Bepalen van het correct toepasselijke btw-tarief bij een concrete levering van goederen of dienst.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Facturatie-verificatie: nakijken of een leverancier het correcte tarief in rekening heeft gebracht als voorwaarde voor het recht op aftrek van voorbelasting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Beoordelen of een prestatie onderworpen is aan btw (= toepassingsgebied btw-belastingplichtige). Tarieven zijn pas relevant nadat is vastgesteld dat de handeling belastbaar en niet vrijgesteld is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De btw-logica volgt een vaste volgorde: (1) is de handeling belastbaar? → (2) is ze vrijgesteld? → (3) welk tarief geldt? Tarief-analyse begint pas bij stap 3."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het juiste tarief toepassen veronderstelt dat (1) de handeling belastbaar is, (2) de prestatie niet vrijgesteld is, (3) de aard van het goed of de dienst correct is geclassificeerd conform de bijlagen van het Btw-wetboek.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Foutieve tarief-toepassing (te laag tarief toegepast) leidt tot een **nagevorderd bedrag btw + belastingverhoging**, ook wanneer de fout te goeder trouw is gemaakt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "standaardtarief-21",
+        "naam": {
+          "primair": "Standaardtarief 21%",
+          "synoniemen": [
+            "normaal tarief",
+            "gewoon tarief"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **standaardtarief van 21%** is het resttarief: het geldt voor alle leveringen van goederen en diensten die niet expliciet onder een verlaagd tarief, nultarief of vrijstelling vallen. Het is het meest toegepaste tarief in de Belgische economie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het resttarief-principe betekent dat de belastingplichtige bij twijfel op 21% uitkomt, niet op een lager tarief. De bewijslast voor een lager tarief ligt bij wie dat tarief toepast."
+          }
+        }
+      },
+      {
+        "id": "tussentrief-12",
+        "naam": {
+          "primair": "Tussentarief 12%"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **tussentarief van 12%** geldt voor een beperkte lijst van goederen en diensten. Typische toepassingen: **restaurants- en cateringdiensten** (voor de component voeding, dranken uitgezonderd) en **sociale woningbouw** (levering en bouwen van woningen in het kader van sociaal beleid).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte lijst kan wettelijk gewijzigd zijn; te verifiëren via actuele bijlage bij het Btw-wetboek. Restaurantdiensten: enkel de voedingscomponent valt onder 12%, dranken blijven doorgaans 21%."
+          }
+        }
+      },
+      {
+        "id": "verlaagd-tarief-6",
+        "naam": {
+          "primair": "Verlaagd tarief 6%",
+          "synoniemen": [
+            "laag tarief"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **verlaagde tarief van 6%** geldt voor goederen en diensten die als basisbehoeften of sociaaleconomisch wenselijk worden beschouwd. Kerngebieden:\n- **Voedingsmiddelen** voor menselijke consumptie\n- **Geneesmiddelen en medische hulpmiddelen**\n- **Boeken, kranten en tijdschriften** (ook digitaal voor e-books)\n- **Personenvervoer**\n- **Renovatie en herstelling** van privéwoningen (onder voorwaarden)\n- **Levering en plaatsing van bepaalde energiebesparende materialen**",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De lijst is positief begrensd en onderhevig aan wijzigingen; de details (bv. welke renovatiewerken, welke leeftijdsdrempel voor woningen) vereisen verificatie via de actuele bijlage bij het Btw-wetboek."
+          }
+        },
+        "elementen": [
+          {
+            "id": "renovatie-6-procent-voorwaarden",
+            "naam": {
+              "primair": "Renovatie privéwoning — toepassingsvoorwaarden 6%"
+            },
+            "inhoud_type": "regel",
+            "kern": {
+              "definitie": {
+                "tekst": "Het verlaagde tarief van 6% voor renovatiewerken aan privéwoningen is onderworpen aan cumulatieve voorwaarden: (1) de woning moet **ouder zijn dan een bepaalde leeftijdsdrempel** (doorgaans 10 jaar, maar dit is gewijzigd), (2) de woning wordt **hoofdzakelijk voor privébewoning** gebruikt, (3) de werken worden **rechtstreeks aan de eindgebruiker-eigenaar** gefactureerd.",
+                "grondslag": {
+                  "confidence": "betwijfeld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                },
+                "rationale": "De leeftijdsdrempel is meermalen gewijzigd; te verifiëren via actuele wetgeving. Dit is een frequent examenpunt: onjuiste toepassing bij nieuwe of gemengde gebouwen."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "nultarief-0",
+        "naam": {
+          "primair": "Nultarief 0%",
+          "synoniemen": [
+            "tarief nul",
+            "tarief 0"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **nultarief (0%)** is een tarief waarbij de belastingplichtige **geen btw aanrekent** maar wel **recht heeft op aftrek van voorbelasting**. Dit onderscheidt het nultarief fundamenteel van btw-vrijstellingen. Klassieke toepassing: **uitvoer buiten de EU** en **intracommunautaire leveringen**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het nultarief garandeert neutraliteit bij grensoverschrijdend handelsverkeer: de exporteur kan zijn voorbelasting recupereren, maar de buitenlandse koper betaalt geen Belgische btw. Bij vrijstellingen is er wél aftrekbeperking, waardoor de vrijstelling economisch kan doorwegen in de kostprijs."
+          }
+        }
+      },
+      {
+        "id": "tarief-vs-vrijstelling-onderscheid",
+        "naam": {
+          "primair": "Onderscheid tarief 0% versus btw-vrijstelling"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **btw-vrijstelling** (bv. vrijgestelde financiële diensten, vrijgesteld onderwijs) en het **nultarief** leiden beide tot geen btw op de uitgestelde factuur, maar het fiscale gevolg verschilt fundamenteel:\n- **Nultarief**: belastingplichtige factureert 0%, maar heeft **volledig recht op aftrek** van voorbelasting op zijn aankopen.\n- **Vrijstelling**: belastingplichtige factureert geen btw, maar heeft **geen recht op aftrek** van voorbelasting. De onaftrekbare btw wordt een kost.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit onderscheid is een klassiek examenonderwerp. Een ondernemer die ten onrechte meent vrijgesteld te zijn maar eigenlijk het nultarief zou moeten toepassen, dreigt zijn aftrekrecht te verspelen."
+          }
+        }
+      },
+      {
+        "id": "gemengd-tarief-samengestelde-prestatie",
+        "naam": {
+          "primair": "Samengestelde prestaties — tarief-toewijzing"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een prestatie bestaat uit **meerdere componenten** (bv. restaurantdienst = bereiden voeding + bediening + drank), rijst de vraag of één tarief geldt voor de gehele prestatie of per component. Basisregel: **de hoofdprestatie trekt de bijkomende prestatie mee** (accessoire volgt het principale). Uitzondering: wanneer de deelprestaties duidelijk afzonderlijk zijn, wordt per component het eigen tarief toegepast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "In de praktijk zijn restaurantdiensten het standaardvoorbeeld: de voedingscomponent valt onder 12%, maar alcoholhoudende dranken blijven doorgaans belast aan 21%. Correcte opsplitsing of verhouding-inschatting is verplicht."
+          }
+        }
+      },
+      {
+        "id": "bewijslast-verlaagd-tarief",
+        "naam": {
+          "primair": "Bewijslast bij verlaagd tarief"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige die een **verlaagd tarief of nultarief** toepast, draagt de **bewijslast**. Bij controle moet hij kunnen aantonen dat de wettelijke voorwaarden voor het afwijkende tarief zijn vervuld. Kan hij dit niet, dan wordt het standaardtarief van 21% nagevorderd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tarief-bepaling-aard-goed-dienst",
+        "naam": {
+          "primair": "Tarief volgt aard van goed of dienst"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het btw-tarief wordt bepaald door de **objectieve aard van het goed of de dienst**, niet door de identiteit van de koper of verkoper, noch door het gebruik dat de koper maakt van het goed. Eenzelfde goed kan dus niet voor verschillende kopers een ander tarief dragen op grond van hun statuut.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Uitzondering op dit principe bestaat: de renovatie-6%-regel koppelt het tarief wél deels aan het gebruik (privébewoning) en aan wie factureert. Deze uitzonderingen zijn positief wettelijk opgesomd en moeten als zodanig herkend worden."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-stelsel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-vrijstellingen",
+      "toelichting": "Vrijstellingen sluiten de toepassing van tarieven uit; de relatie tussen tarief en vrijstelling is conceptueel complementair.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-aftrek",
+      "toelichting": "Het toepasselijke tarief (of het ontbreken ervan bij vrijstelling vs. nultarief) bepaalt rechtstreeks het recht op aftrek van voorbelasting.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "btw-grensoverschrijdend",
+      "toelichting": "Het nultarief vindt zijn voornaamste toepassing in grensoverschrijdende handelstransacties (uitvoer, intracommunautaire leveringen).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "maatstaf-van-heffing-btw",
+      "toelichting": "Het verschuldigde btw-bedrag = tarief × maatstaf van heffing; de twee concepten zijn onlosmakelijk verbonden.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

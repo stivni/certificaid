@@ -5,11 +5,20 @@
     "synoniemen": [
       "onderzoeks- en aanslagtermijnen",
       "aanslag-verjaringstermijnen"
-    ]
+    ],
+    "vertaling": {
+      "fr": "Délais d'enrôlement"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.5.I",
+      "2.5.IV",
+      "2.5.VI"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -28,15 +37,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 13)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende operatie: gebruikscontext uitgebreid (niet_voor, voorwaarden, voordeel), 7e element toegevoegd (aanvang-aanslagtermijn), naam.vertaling toegevoegd. Bestaande elementen en kern ongewijzigd."
       }
-    ],
-    "ankers": [
-      "2.5.I",
-      "2.5.IV",
-      "2.5.VI"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De aanslagtermijnen zijn de wettelijk vastgestelde periodes waarbinnen de fiscale administratie een aanslag kan vestigen of een eerder gevestigde aanslag kan wijzigen na onderzoek van de belastingplichtige. Na het verstrijken van de termijn vervalt het recht van de administratie om nog aan te slaan.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het kader begrenst de tijdspanne waarbinnen de overheid haar heffingsrecht kan uitoefenen en biedt de belastingplichtige rechtszekerheid dat oudere situaties onaantastbaar worden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het fiscaal recht kent geen algemene verjaring zoals het burgerlijk recht, maar stelt termijnen vast waarbinnen de administratie een aanslag kan vestigen. Dit evenwicht beschermt de rechtszekerheid van de belastingplichtige (hij weet wanneer een belastbaar tijdperk 'afgesloten' is) terwijl de administratie voldoende tijd krijgt om complexe dossiers te onderzoeken. Naarmate de complexiteit of de ernst van de overtreding toeneemt, voorziet de wet langere termijnen: een eenvoudige aangifte verdient snellere rechtszekerheid dan een fraudegeval waarbij de administratie internationaal onderzoek moet voeren.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "fiscale-procedure-belastingplichtige",
@@ -52,6 +103,7 @@
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Beoordelen of de administratie nog geldig een aanslag kan vestigen of corrigeren voor een specifiek aanslagjaar.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -61,10 +113,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Beoordelen of de administratie nog geldig een aanslag kan vestigen of corrigeren voor een specifiek aanslagjaar."
+          }
         },
         {
+          "tekst": "Adviseren of een bezwaarprocedure of rectificatie-aangifte nog zinvol is gelet op de resterende termijn.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -74,10 +126,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Adviseren of een bezwaarprocedure of rectificatie-aangifte nog zinvol is gelet op de resterende termijn."
+          }
         },
         {
+          "tekst": "Opvolgen of een fiscale controle tijdig wordt afgesloten en de aanslag tijdig wordt gevestigd.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -87,12 +139,83 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Opvolgen of een fiscale controle tijdig wordt afgesloten en de aanslag tijdig wordt gevestigd."
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "De termijn waarbinnen de belastingplichtige bezwaar kan indienen tegen een reeds gevestigde aanslag — dat is de bezwaartermijn, niet de aanslagtermijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Berekening van de invorderingstermijn nadat de aanslag opeisbaar is geworden — dat is een aparte vordering, los van de aanslagtermijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De aanslagtermijn geldt voor alle rijksbelastingen waarop WIB92 van toepassing is: personenbelasting, vennootschapsbelasting, rechtspersonenbelasting en belasting der niet-inwoners. De specifieke termijnen kunnen per belasting licht afwijken.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De termijn begint te lopen op 1 januari van het aanslagjaar, ongeacht wanneer de aangifte effectief wordt ingediend of onderzocht. Dit startpunt is wettelijk gefixeerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "De aanslagtermijn biedt de belastingplichtige rechtszekerheid: na het verstrijken ervan kan de administratie de situatie voor dat aanslagjaar niet meer aanvechten, ook niet bij latere controles.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "Wanneer de adviseur de toepasselijke termijn niet correct identificeert, kan hij een client onterecht adviseren dat een aanslag verjaard is (of omgekeerd: onnodig angst wekken voor een al verjaarde aanslag).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -102,12 +225,12 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Wanneer de adviseur de toepasselijke termijn niet correct identificeert, kan hij een client onterecht adviseren dat een aanslag verjaard is (of omgekeerd: onnodig angst wekken voor een al verjaarde aanslag)."
+          }
         }
       ],
       "indicaties": [
         {
+          "tekst": "Een belastingplichtige ontvangt een bericht van wijziging of een aanvullende aanslag voor een aanslagjaar ouder dan 3 jaar — check of de verlengde of bijzondere termijn van toepassing is.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -117,10 +240,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Een belastingplichtige ontvangt een bericht van wijziging of een aanvullende aanslag voor een aanslagjaar ouder dan 3 jaar — check of de verlengde of bijzondere termijn van toepassing is."
+          }
         },
         {
+          "tekst": "Onderzoeksverrichtingen (vraag om inlichtingen, boekhoudinspectie) worden geïnitieerd — ga na of dit de aanslagtermijn verlengd of stuit.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -130,8 +253,7 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Onderzoeksverrichtingen (vraag om inlichtingen, boekhoudinspectie) worden geïnitieerd — ga na of dit de aanslagtermijn verlengd of stuit."
+          }
         }
       ]
     },
@@ -154,6 +276,7 @@
         },
         "kern": {
           "definitie": {
+            "tekst": "De gewone aanslagtermijn bedraagt 3 jaar te rekenen vanaf 1 januari van het jaar waarnaar het aanslagjaar wordt benoemd. Bij tijdige aangifte loopt de termijn van rechtswege af op 31 december van het derde jaar na het aanslagjaar.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -163,8 +286,7 @@
                   "datum": "2026-05-22"
                 }
               ]
-            },
-            "tekst": "De gewone aanslagtermijn bedraagt 3 jaar te rekenen vanaf 1 januari van het jaar waarnaar het aanslagjaar wordt benoemd (art. 354 WIB92). Bij tijdige aangifte loopt de termijn van rechtswege af op 31 december van het derde jaar na het aanslagjaar."
+            }
           }
         }
       },
@@ -186,6 +308,7 @@
         },
         "kern": {
           "definitie": {
+            "tekst": "De verlengde aanslagtermijn van 4 jaar geldt bij niet-aangifte of laattijdige aangifte. De aanvangsdatum is dezelfde als bij de gewone termijn: 1 januari van het betrokken aanslagjaar.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -195,8 +318,7 @@
                   "datum": "2026-05-22"
                 }
               ]
-            },
-            "tekst": "De verlengde aanslagtermijn van 4 jaar geldt bij niet-aangifte of laattijdige aangifte (art. 354 lid 2 WIB92). De aanvangsdatum is dezelfde als bij de gewone termijn: 1 januari van het betrokken aanslagjaar."
+            }
           }
         }
       },
@@ -218,6 +340,7 @@
         },
         "kern": {
           "definitie": {
+            "tekst": "Ingeval van fraude of bij gebruik van constructies om belasting te ontwijken, bedraagt de aanslagtermijn 10 jaar te rekenen vanaf 1 januari van het betrokken aanslagjaar. Voorwaarde: voorafgaande kennisgeving aan de belastingplichtige met aanwijzingen van fraude.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -227,8 +350,7 @@
                   "datum": "2026-05-22"
                 }
               ]
-            },
-            "tekst": "Ingeval van fraude of bij gebruik van constructies om belasting te ontwijken, bedraagt de aanslagtermijn 10 jaar te rekenen vanaf 1 januari van het betrokken aanslagjaar (art. 354 lid 3 WIB92). Voorwaarde: voorafgaande kennisgeving aan de belastingplichtige met aanwijzingen van fraude."
+            }
           }
         }
       },
@@ -251,6 +373,7 @@
         },
         "kern": {
           "definitie": {
+            "tekst": "Een bijzondere termijn van 10 jaar geldt wanneer buitenlandse rekeningen, juridische constructies (Cayman Tax) of specifieke buitenlandse inkomsten niet correct werden aangegeven, ongeacht of er sprake is van fraude in de strafrechtelijke zin.",
             "grondslag": {
               "confidence": "betwijfeld",
               "bronnen": [
@@ -260,8 +383,7 @@
                   "datum": "2026-05-22"
                 }
               ]
-            },
-            "tekst": "Een bijzondere termijn van 10 jaar geldt wanneer buitenlandse rekeningen, juridische constructies (Cayman Tax) of specifieke buitenlandse inkomsten niet correct werden aangegeven, ongeacht of er sprake is van fraude in de strafrechtelijke zin."
+            }
           }
         }
       },
@@ -283,6 +405,7 @@
         },
         "kern": {
           "definitie": {
+            "tekst": "Stuiting houdt in dat de aanslagtermijn volledig herstart na een stuitingshandeling; schorsing pauzeert de termijn gedurende een bepaalde periode en laat de resterende termijn daarna doorlopen. Relevante schorsingsgronden zijn onder meer een gerechtelijke procedure of een vraag om inlichtingen op basis van een internationale gegevensuitwisseling.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -292,8 +415,7 @@
                   "datum": "2026-05-22"
                 }
               ]
-            },
-            "tekst": "Stuiting houdt in dat de aanslagtermijn volledig herstart na een stuittingshandeling; schorsing pauzeert de termijn gedurende een bepaalde periode en laat de resterende termijn daarna doorlopen. Relevante schorsingsgronden zijn onder meer een gerechtelijke procedure of een vraag om inlichtingen op basis van een internationale gegevensuitwisseling."
+            }
           }
         }
       },
@@ -315,6 +437,7 @@
         },
         "kern": {
           "definitie": {
+            "tekst": "De inkohieringstermijn is de uiterste datum waarop het kohier uitvoerbaar kan worden verklaard; de onderzoekstermijn betreft de periode waarbinnen de administratie onderzoekshandelingen (vraag om inlichtingen, boekinspectie, kennisgeving) geldig kan stellen. Beide termijnen lopen in de regel gelijk maar kunnen door schorsing uiteenlopen.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -324,56 +447,47 @@
                   "datum": "2026-05-22"
                 }
               ]
-            },
-            "tekst": "De inkohieringstermijn is de uiterste datum waarop het kohier uitvoerbaar kan worden verklaard; de onderzoekstermijn betreft de periode waarbinnen de administratie onderzoekshandelingen (vraag om inlichtingen, boekinspectie, kennisgeving) geldig kan stellen. Beide termijnen lopen in de regel gelijk maar kunnen door schorsing uiteenlopen."
+            }
+          }
+        }
+      },
+      {
+        "id": "aanvang-aanslagtermijn",
+        "naam": {
+          "primair": "Aanvang en berekening van de aanslagtermijn"
+        },
+        "inhoud_type": "drempel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "kern": {
+          "substantie": {
+            "tekst": "De aanslagtermijn start altijd op 1 januari van het aanslagjaar, niet op de datum van de aangifte of het einde van het belastbaar tijdperk. Het aanslagjaar is het jaar volgend op het belastbaar tijdperk (bv. belastbaar tijdperk 2023 → aanslagjaar 2024 → termijn start op 1 januari 2024).\n\nVoorbeeldberekening voor aanslagjaar 2024 met tijdige PB-aangifte:\n- Gewone termijn (3 jaar): verloopt op 31 december 2026\n- Verlengde termijn (4 jaar): verloopt op 31 december 2027\n- Bijzondere termijn (10 jaar): verloopt op 31 december 2033",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       }
     ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aanslagtermijnen zijn de wettelijk vastgestelde periodes waarbinnen de fiscale administratie een aanslag kan vestigen of een eerder gevestigde aanslag kan wijzigen na onderzoek van de belastingplichtige. Na het verstrijken van de termijn vervalt het recht van de administratie om nog aan te slaan."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Het kader begrenst de tijdspanne waarbinnen de overheid haar heffingsrecht kan uitoefenen en biedt de belastingplichtige rechtszekerheid dat oudere situaties onaantastbaar worden."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Het fiscaal recht kent geen algemene verjaring zoals het burgerlijk recht, maar stelt termijnen vast waarbinnen de administratie een aanslag kan vestigen. Dit evenwicht beschermt de rechtszekerheid van de belastingplichtige (hij weet wanneer een belastbaar tijdperk 'afgesloten' is) terwijl de administratie voldoende tijd krijgt om complexe dossiers te onderzoeken. Naarmate de complexiteit of de ernst van de overtreding toeneemt, voorziet de wet langere termijnen: een eenvoudige aangifte verdient snellere rechtszekerheid dan een fraudegeval waarbij de administratie internationaal onderzoek moet voeren."
-      }
-    },
     "syntheses": [
       {
         "type": "keuzekader",
+        "intro": "Welke aanslagtermijn is van toepassing? Doorloop de volgende vragen om de juiste termijn te bepalen.",
         "inhoud": {
           "assen": [
             {
@@ -437,8 +551,7 @@
               ]
             ]
           }
-        },
-        "intro": "Welke aanslagtermijn is van toepassing? Doorloop de volgende vragen om de juiste termijn te bepalen."
+        }
       }
     ]
   },
@@ -579,6 +692,5 @@
         ]
       }
     }
-  ],
-  "concept_type": "kader"
+  ]
 }

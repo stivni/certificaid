@@ -1,11 +1,25 @@
 {
   "id": "buitenlandse-winst-en-verlies",
   "naam": {
-    "primair": "Buitenlandse winst en verlies"
+    "primair": "Buitenlandse winst en verlies",
+    "synoniemen": [
+      "buitenlands inkomen vennootschap",
+      "winst uit buitenlandse inrichting",
+      "buitenlandse resultaten VenB"
+    ],
+    "vertaling": {
+      "fr": "Bénéfices et pertes étrangers",
+      "en": "Foreign profits and losses"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.8.XIII",
+      "2.8.XII"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,442 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.8.XIII",
-      "2.8.XII"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Buitenlandse winst en verlies",
+        "tekst": "De procedure **buitenlandse winst en verlies** beschrijft hoe een Belgische vennootschap in haar vennootschapsbelasting omgaat met resultaten (winst of verlies) die ze behaalt via een **buitenlandse inrichting** of activiteiten in het buitenland. De behandeling hangt primair af van het bestaan en de inhoud van een **dubbelbelastingverdrag (DBV)** tussen België en het betrokken land.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een Belgische vennootschap die winst maakt via een **vaste inrichting** in het buitenland staat voor twee vragen:\n1. **Mag België belasten?** → Bepaald door het toepasselijke DBV of, bij afwezigheid van DBV, het Belgische intern recht.\n2. **Hoe wordt de belasting vermeden of beperkt?** → Via de **vrijstellingsmethode** (meest gebruikelijk bij DBV's) of de **verrekeningsmethode**.\n\nVoor **buitenlandse verliezen** geldt een spiegelregel: verliezen die in België in aftrek worden gebracht, leiden tot een **terugname** wanneer de buitenlandse activiteit later winst maakt (compenserende heffing of recapture-mechanisme).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Zonder een expliciete procedure voor buitenlandse resultaten zou dezelfde winst zowel in het bronland als in België worden belast (**dubbele belasting**). DBV's lossen dit op door heffingsbevoegdheden te verdelen: het bronland heft op de aldaar gerealiseerde winst, België vrijstelt of verrekent. Voor verliezen is het omgekeerde probleem: zonder recapture-regel zou een Belgische vennootschap dubbel profiteren van een verlies (aftrek in België én compensatie in het bronland bij latere winst).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belgische vennootschappen met een **vaste inrichting** (bijkantoor, fabriek, bouwwerf) in het buitenland die daar winst of verlies realiseren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschappen die buitenlandse **activiteiten zonder vaste inrichting** hebben en nagaan of België toch belastingbevoegdheid heeft.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Dividenden** ontvangen uit buitenlandse deelnemingen — die vallen onder het regime van de **definitief belaste inkomsten (DBI-aftrek)**, niet onder de procedure buitenlandse winst en verlies.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Roerende inkomsten** (interest, royalty's) uit het buitenland — die kennen hun eigen DBV-artikels en verrekeningsmechanismen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De Belgische vennootschap is **belastingplichtig in de vennootschapsbelasting** (geen belasting niet-inwoners of rechtspersonenbelasting).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De resultaten zijn toe te rekenen aan een **buitenlandse activiteit** — hetzij via een vaste inrichting (VI), hetzij via regelgeving in het bronland.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De Belgische vennootschap realiseert **winst of verlies via een buitenlandse vaste inrichting** of via activiteiten in een land dat geen DBV heeft met België.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Niet-toepassen van de recapture-regel bij buitenlandse verliezen** leidt tot een onterechte dubbele aftrek van hetzelfde verlies (in België én in het bronland bij latere winst).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onjuiste classificatie als vaste inrichting** kan leiden tot een verkeerde behandeling: te veel vrijstellen (als er eigenlijk geen VI is) of te weinig vrijstellen (VI miskend).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "stap-1-aanwezigheid-dbv",
+        "naam": {
+          "primair": "Stap 1 — Is er een DBV met het bronland?"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De eerste vraag is altijd: **heeft België een dubbelbelastingverdrag met het land waar de winst of het verlies wordt gerealiseerd?**\n\n- **Ja, DBV aanwezig** → ga naar de verdragsbepalingen (typisch artikel over ondernemingswinst, vergelijkbaar met art. 7 OESO-Modelverdrag).\n- **Neen, geen DBV** → val terug op het **Belgisch intern recht** (WIB 1992 en besluiten), dat een eenzijdige vrijstellingsregeling of verrekeningsmethode kan bieden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-2-vaste-inrichting-test",
+        "naam": {
+          "primair": "Stap 2 — Vaste-inrichtingstest"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een DBV van toepassing is, heft het bronland enkel op winst die **toerekenbaar is aan een vaste inrichting (VI)** in dat land. Een VI vereist doorgaans:\n1. Een **vaste bedrijfsinrichting** (kantoor, fabriek, magazijn, bouwwerf ≥ 12 maanden)\n2. **Waardoor** de onderneming haar bedrijf geheel of gedeeltelijk uitoefent\n\nZonder VI in het bronland: winst is enkel in België belastbaar en geen vrijstelling of verrekening is vereist.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3-vrijstellingsmethode",
+        "naam": {
+          "primair": "Stap 3a — Vrijstellingsmethode (DBV-situatie)"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De **vrijstellingsmethode** is de standaardmethode in de meeste Belgische DBV's: de winst die toerekenbaar is aan de buitenlandse VI wordt **uit de Belgische belastbare basis gehaald** (vrijgesteld). In de Belgische VenB-aangifte leidt dit tot een negatieve correctie op het belastbaar resultaat.\n\nBelgische variant: **vrijstelling met progressievoorbehoud** — de vrijgestelde buitenlandse winst wordt niet belast, maar beïnvloedt wel het van toepassing zijnde belastingtarief in zover het om progressieve belasting gaat (minder relevant in VenB, dat een proportioneel tarief kent).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3b-verrekeningsmethode",
+        "naam": {
+          "primair": "Stap 3b — Verrekeningsmethode en FBB"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een DBV de **verrekeningsmethode** voorziet (of wanneer er geen DBV is maar intern recht verrekening toestaat), blijft de buitenlandse winst deel van de Belgische belastbare basis, maar wordt de **in het buitenland betaalde belasting** verrekend met de Belgische verschuldigde belasting.\n\n**Forfaitair Buitenlands Belastingkrediet (FBB)**: bij afwezigheid van een DBV voorziet het Belgische intern recht soms in een forfaitaire verrekening (beperkt percentage) voor bepaalde passieve inkomsten. Voor ondernemingswinst uit landen zonder DBV is de situatie ongunstiger — de buitenlandse belasting is principieel aftrekbaar als beroepskost maar niet verrekenbaar.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "behandeling-buitenlands-verlies",
+        "naam": {
+          "primair": "Behandeling buitenlands verlies"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Buitenlands verlies** (verlies van een buitenlandse VI) wordt in principe opgenomen in de Belgische VenB-aangifte en vermindert zo de Belgische belastbare basis. Dit is voordelig.\n\n**Recapture-regel (compenserende heffing)**: wanneer de buitenlandse VI in latere jaren **opnieuw winst** maakt, moet de eerder in België afgetrokken verliezen worden **teruggenomen** (gerecaptured) ten belope van die latere winst. Dit voorkomt dat de Belgische vennootschap tweemaal fiscaal voordeel haalt uit hetzelfde verlies.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toerekening-resultaat-aan-vi",
+        "naam": {
+          "primair": "Toerekening van resultaat aan de vaste inrichting"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Niet het volledige buitenlandse resultaat valt automatisch onder de procedure — enkel het deel **toerekenbaar aan de vaste inrichting**. Deze toerekening gebeurt op basis van het **arm's length-beginsel**: de VI wordt behandeld alsof zij een onafhankelijke onderneming is die transacties verricht met het hoofdhuis.\n\nInterne verrekenprijzen (transfers van goederen, diensten, financiering tussen hoofdhuis en VI) moeten marktconform zijn. Onjuiste toerekening wordt betwist door zowel de Belgische als de buitenlandse belastingadministratie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aangifte-verwerking-venb",
+        "naam": {
+          "primair": "Verwerking in de VenB-aangifte"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "In de Belgische VenB-aangifte (bewerking Wetboek 1992 / aangifte-formulier 275) worden buitenlandse resultaten op specifieke codes verwerkt:\n\n- **Buitenlandse winst (DBV-vrijstelling)**: opgenomen in het belastbare resultaat en vervolgens via een **vrijstellingsaftrek** (correctie) uit de belastbare basis gehaald.\n- **Buitenlands verlies**: opgenomen in het belastbare resultaat en vermindert de Belgische belastbare basis.\n- **Recapture**: in het jaar dat de buitenlandse VI opnieuw winst maakt, wordt de eerder afgetrokken verliesbijdrage terug in de belastbare basis opgenomen.\n\nDe exacte aangifte-codes zijn jaar-afhankelijk en terug te vinden in de jaarlijkse aangifte-toelichting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "dubbelbelastingverdrag",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "vaste-inrichting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "transfer-pricing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vrijstelling-met-progressievoorbehoud",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "overgedragen-verliezen",
+      "toelichting": "De recapture-regel bij buitenlandse verliezen doorbreekt de gewone verlies-overdrachtslogica: verlies is aftrekbaar maar moet later worden teruggenomen wanneer de buitenlandse activiteit winstgevend wordt.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

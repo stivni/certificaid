@@ -12,9 +12,15 @@
       "nl": "accijns"
     }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.4.VIII",
+      "2.4.IX",
+      "2.4.X"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -33,18 +39,61 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 17)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende beschrijven-operatie (modus aanvullend): kern.substantie toegevoegd; gebruikscontext.niet_voor, voorwaarden en uitsluitingen ingevuld; relatie douane-wetboek-uniegoederen toegevoegd."
       }
-    ],
-    "ankers": [
-      "2.4.VIII",
-      "2.4.IX",
-      "2.4.X"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Accijnzen zijn bijzondere verbruiksbelastingen die geheven worden op de productie, winning, invoer of uitslag van specifieke goederen — voornamelijk energieproducten, alcohol en tabak. Ze zijn verschuldigd op het moment van uitslag tot verbruik uit een belastingentrepot of bij invoer buiten een schorsingsregeling.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch gezien zijn accijnzen kosten die de eindverbruiker draagt, maar die in de praktijk door de producent, importeur of entrepothouder worden voorgeschoten en doorgerekend in de prijs. Drie structurele kenmerken bepalen hoe accijnzen in de praktijk werken:\n\n- **Entrepot als schorsingsmechanisme** — zolang goederen in een erkend belastingentrepot zitten, is de belasting niet verschuldigd. Pas bij 'uitslag tot verbruik' valt de schuld. Dit maakt grootschalige productie, opslag en intracommunautaire handel mogelijk zonder dat de belasting al vroeg in de keten vastloopt.\n- **Geen aftrekrecht** — accijns is nooit aftrekbaar zoals btw. De volledige last komt definitief terecht bij de schakel die de goederen uit het schorsingsregime haalt. Dit onderscheidt accijnzen fundamenteel van btw.\n- **EU-harmonisatie met nationale invulling** — de structuur (categorieën, schorsingsregime, EMCS) is Europees geharmoniseerd; de tarieven zijn grotendeels nationaal bepaald binnen EU-minimumtarieven.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Accijnzen bestaan omdat de overheid twee doelen tegelijk wil bereiken: inkomsten genereren én het verbruik van maatschappelijk schadelijke producten ontmoedigen (tabak, alcohol, fossiele brandstof). De techniek van het entrepot-stelsel — waarbij belasting pas verschuldigd is bij 'uitslag tot verbruik' — maakt grootschalige productie en handel mogelijk zonder dat de belasting al in de keten ingebakken zit. Pas op het moment dat goederen de gecontroleerde opslagomgeving verlaten richting eindverbruiker, valt de belastingschuld. Voor de accountant is dit cruciaal: accijns is een kostenpost die sterk de prijszetting en margebeheer van handelaars in accijnsgoederen beïnvloedt, en het entrepot-regime schept bijzondere balans- en liquiditeitsrisico's.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Cliënten die accijnsgoederen produceren, importeren, opslaan in entrepot, of handelen (groothandel drank/tabak/brandstof).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -54,10 +103,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Cliënten die accijnsgoederen produceren, importeren, opslaan in entrepot, of handelen (groothandel drank/tabak/brandstof)."
+          }
         },
         {
+          "tekst": "Opstellen of controleren van accijnsaangiften en entrepotadministratie.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -67,12 +116,96 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Opstellen of controleren van accijnsaangiften en entrepotadministratie."
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Ondernemingen die uitsluitend gewone consumptiegoederen (geen energie, alcohol of tabak) produceren of verhandelen — daar speelt accijns niet en is btw het relevante kader.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Detailhandelaren die accijnsgoederen kopen van een erkende entrepothouder en doorverkopen: zij zijn geen accijnsschuldenaar (de accijns is al voldaan bij uitslag door de entrepothouder). Relevant voor hen zijn de btw-regels en de handelsmarge, niet de accijnsaangifte zelf.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het product valt onder een van de drie hoofdcategorieën: energieproducten (benzine, diesel, aardgas, elektriciteit), alcoholhoudende producten (bier, wijn, tussenproducten, ethylalcohol) of tabaksproducten (sigaretten, sigaren, rooktabak). Buiten deze categorieën is er geen accijnsplicht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Er is een belastbaar feit: uitslag tot verbruik uit een erkend belastingentrepot, of invoer van accijnsgoederen buiten een schorsingsregeling. Zolang goederen in het schorsingsregime blijven, is geen accijns verschuldigd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Diplomatieke vertegenwoordigingen en internationale instellingen zijn vrijgesteld van accijns op basis van internationale verdragen en EU-regels — accijnsaangifte en entrepot-formaliteiten zijn voor hen niet relevant.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Goederen die als grondstof worden gebruikt in een industrieel productieproces (geen energetisch gebruik) en waarvoor een vrijstelling is aangevraagd en verleend, vallen buiten de normale accijnsplicht. De vrijstelling is niet automatisch — ze vereist een expliciete vergunning van de Algemene Administratie der Douane en Accijnzen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "Niet-naleving van entrepot-formaliteiten of het ontbreken van het EMCS-geleidedocument bij intracommunautair transport leidt tot onmiddellijke opeisbaarheid van de volledige accijnsschuld, mogelijke douanebeslagen en strafrechtelijke risico's.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -82,12 +215,12 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Niet-naleving van entrepot-formaliteiten of het ontbreken van het EMCS-geleidedocument bij intracommunautair transport leidt tot onmiddellijke opeisbaarheid van de volledige accijnsschuld, mogelijke douanebeslagen en strafrechtelijke risico's."
+          }
         }
       ],
       "indicaties": [
         {
+          "tekst": "Cliënt handelt in energieproducten (petroleum, diesel, aardgas), alcoholhoudende dranken, bier, wijn of tabaksproducten.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -97,10 +230,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Cliënt handelt in energieproducten (petroleum, diesel, aardgas), alcoholhoudende dranken, bier, wijn of tabaksproducten."
+          }
         },
         {
+          "tekst": "Balans vertoont grote voorraden goederen waarvoor accijns nog niet betaald is (entrepot-voorraad).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -110,10 +243,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Balans vertoont grote voorraden goederen waarvoor accijns nog niet betaald is (entrepot-voorraad)."
+          }
         },
         {
+          "tekst": "Cliënt vraagt advies over grensoverschrijdend transport van accijnsgoederen binnen de EU.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -123,8 +256,7 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Cliënt vraagt advies over grensoverschrijdend transport van accijnsgoederen binnen de EU."
+          }
         }
       ]
     },
@@ -386,34 +518,6 @@
         }
       }
     ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Accijnzen zijn bijzondere verbruiksbelastingen die geheven worden op de productie, winning, invoer of uitslag van specifieke goederen — voornamelijk energieproducten, alcohol en tabak. Ze zijn verschuldigd op het moment van uitslag tot verbruik uit een belastingentrepot of bij invoer buiten een schorsingsregeling."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Accijnzen bestaan omdat de overheid twee doelen tegelijk wil bereiken: inkomsten genereren én het verbruik van maatschappelijk schadelijke producten ontmoedigen (tabak, alcohol, fossiele brandstof). De techniek van het entrepot-stelsel — waarbij belasting pas verschuldigd is bij 'uitslag tot verbruik' — maakt grootschalige productie en handel mogelijk zonder dat de belasting al in de keten ingebakken zit. Pas op het moment dat goederen de gecontroleerde opslagomgeving verlaten richting eindverbruiker, valt de belastingschuld. Voor de accountant is dit cruciaal: accijns is een kostenpost die sterk de prijszetting en margebeheer van handelaars in accijnsgoederen beïnvloedt, en het entrepot-regime schept bijzondere balans- en liquiditeitsrisico's."
-      }
-    },
     "syntheses": [
       {
         "type": "keuzekader",
@@ -577,7 +681,21 @@
           }
         ]
       }
+    },
+    {
+      "type": "valt_onder",
+      "target": "eu-fiscale-richtlijnen",
+      "toelichting": "Het Belgisch accijnsstelsel is gebaseerd op EU-richtlijnen (o.a. Richtlijn 2020/262 betreffende de algemene regeling inzake accijns) die de structuur, categorieën en minimumtarieven harmoniseren.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "kader"
+  ]
 }

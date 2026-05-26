@@ -1,11 +1,22 @@
 {
   "id": "belangenconflict-bestuur",
   "naam": {
-    "primair": "Belangenconflict bestuur"
+    "primair": "Belangenconflict bestuur",
+    "synoniemen": [
+      "bestuurlijk belangenconflict",
+      "conflict d'intérêts de l'organe d'administration"
+    ],
+    "vertaling": {
+      "fr": "Conflit d'intérêts de l'organe d'administration"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "3.0.II.C"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +35,555 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "3.0.II.C"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Belangenconflict bestuur",
+        "tekst": "Een **belangenconflict bij het bestuur** treedt op wanneer een bestuurder bij een voorgenomen beslissing van het bestuursorgaan een **direct of indirect belang van vermogensrechtelijke aard** heeft dat strijdig is met het belang van de vennootschap. De betrokken bestuurder moet dit conflicterend belang melden aan de overige bestuurders en de commissaris, en mag in beginsel **niet deelnemen aan de beraadslaging en stemming** over de betrokken beslissing.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "wvv-art-7-96"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het belangenconflict-regime is een **transparantie- en verantwoordingsprocedure**: de bestuurder blijft bevoegd om zijn persoonlijk belang te behartigen, maar de vennootschap moet beschermd zijn doordat de beslissing niet door hem mee wordt genomen, én doordat de overige organen en aandeelhouders ervan op de hoogte zijn.\n\nDe drie structurele gevolgen van de procedure:\n- **Niet-deelname** — de betrokken bestuurder onthoudt zich van beraadslaging en stemming\n- **Verslag** — de overige bestuurders nemen de beslissing en beschrijven in het bestuursverslag de aard van het conflict + de verantwoording van de beslissing\n- **Publicatie** — het volledige verslag wordt opgenomen in de notulen en de toelichting bij de jaarrekening",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het regime is preventief (transparantie dwingt tot voorzichtigheid) en curatief (nietigheid als sanctie achteraf). Accountants-kandidaten moeten de driestapslogica kennen: melding → onthouding → verslag/publicatie."
+      },
+      "rationale": {
+        "tekst": "Het WVV kiest voor een **procedurele benadering**: niet elke transactie met een conflicterend belang is verboden, maar ze moet wel **merkbaar transparant zijn**. Door de beslissing in handen te leggen van niet-geconflicteerde bestuurders én er verplicht verslag over te doen aan de commissaris en de aandeelhouders, wordt de checks-and-balances-logica van het vennootschapsrecht gevrijwaard — zonder dat de vennootschap volledig verlamt bij iedere transactie met een bestuurder.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Situaties waarbij een **bestuurder partij is bij een transactie** met de vennootschap: koop van goederen, huur van pand, lening, dienstverlening door zijn eigen onderneming.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Dit zijn de meest typische gevallen: de bestuurder staat aan twee kanten van een contract, wat een direct vermogensrechtelijk belang oplevert."
+        },
+        {
+          "tekst": "Situaties waarbij een bestuurder een **belang heeft via een verbonden persoon of vennootschap** (bv. zijn partner, zijn holding, zijn meerderheidsdeelneming).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het is een indirect belang — de bestuurder verdient er zijdelings aan via zijn verbonden entiteiten. De wet spreekt van zowel directe als indirecte belangen."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Beslissingen over de **eigen bezoldiging van een bestuurder** voor lopende beheerstaken (dagelijks bestuur) — die vallen buiten de procedure zolang ze passen in de gewone overeenkomsten.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Te verifiëren: de grens dagelijks bestuur vs. uitzonderlijke transactie is relevant voor de toepasselijkheid van het regime. Gewone arbeidsovereenkomsten voor bestuurders worden apart geregeld."
+        },
+        {
+          "tekst": "Zuivere **beleidsbeslissingen** (strategie, marktpositionering) waarbij de bestuurder geen specifiek direct vermogensrechtelijk belang heeft dat afwijkt van het algemeen aandeelhoudersbelang.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het belang moet **vermogensrechtelijk van aard** zijn: louter morele of familiale belangen zonder patrimoniale waarde volstaan niet.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het belang moet **tegengesteld** zijn aan het belang van de vennootschap: wanneer de transactie slecht is voor de vennootschap maar goed voor de bestuurder persoonlijk, of andersom.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Nietigheid** van de beslissing en de erop gebaseerde rechtshandeling op vordering van de vennootschap, wanneer de procedure niet werd nageleefd en de vennootschap daardoor schade leed.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Nietigheid is de ultieme sanctie. Ze kan ook door de aandeelhouders worden ingeroepen als er schade is."
+        },
+        {
+          "tekst": "**Persoonlijke aansprakelijkheid** van de betrokken bestuurder voor de schade die de vennootschap lijdt als gevolg van de niet-naleving.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Een bestuurder **stelt vast** dat hij bij een geagendeerde beslissing een direct of indirect belang van vermogensrechtelijke aard heeft dat tegengesteld is aan het belang van de vennootschap.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De procedure is afgerond wanneer de **beslissing is genomen** door de niet-geconflicteerde bestuurders, het **verslag is opgesteld**, en de vereiste **publicatie** is voorzien in de notulen en toelichting bij de jaarrekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "meldingsplicht",
+        "naam": {
+          "primair": "Meldingsplicht",
+          "synoniemen": [
+            "spontane meldingsplicht"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De bestuurder met een conflicterend belang **informeert de overige bestuurders en de commissaris** vóór de beraadslaging over de aard van zijn belang. Deze melding is **spontaan** — de wet legt geen initiatief bij het bestuursorgaan of de commissaris.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "wvv-art-7-96"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De meldingsplicht is de eerste schakel: zonder melding komen ook de volgende stappen (onthouding, verslag) niet automatisch in gang."
+          }
+        }
+      },
+      {
+        "id": "onthoudingsverplichting",
+        "naam": {
+          "primair": "Onthoudingsverplichting",
+          "synoniemen": [
+            "verbod op deelname",
+            "abstentieplicht"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De geconflicteerde bestuurder **neemt niet deel aan de beraadslaging en de stemming** over de beslissing waarvoor hij een conflicterend belang heeft. Hij verlaat de vergadering voor dit agendapunt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "wvv-art-7-96"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "**Uitzonderingen op de onthouding** zijn mogelijk wanneer alle aandelen van de vennootschap in één hand zijn (eenpersoonsvennootschap) of wanneer de normale werking van het bestuursorgaan anders niet kan worden gewaarborgd. In die gevallen gelden specifieke alternatieve beschermingsmechanismen.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Te verifiëren: de uitzonderingsgevallen en de exacte alternatieve waarborgen variëren per rechtsvorm (NV, BV) en vereisen broncontrole."
+          }
+        }
+      },
+      {
+        "id": "verslagplicht-bestuursorgaan",
+        "naam": {
+          "primair": "Verslagplicht bestuursorgaan"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De **overige bestuurders** (die niet geconflicteerd zijn) nemen de beslissing en leggen in de **notulen** vast: (1) de aard van het conflict, (2) de genomen beslissing, en (3) de economische verantwoording van de beslissing voor de vennootschap. Dit verslag wordt ook opgenomen in de **toelichting bij de jaarrekening**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "wvv-art-7-96"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rol-commissaris",
+        "naam": {
+          "primair": "Rol van de commissaris"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De **commissaris** ontvangt de melding van het conflict en beoordeelt in zijn **verslag aan de aandeelhouders** of de procedure correct is gevolgd en of de beslissing de vennootschap geen onevenredige schade berokkent. De commissaris neemt geen actie die de beslissing verhindert, maar rapporteert.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "wvv-art-7-96"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De commissaris is een controleur van de procedure — zijn rol is niet om de transactie goed of af te keuren, maar om transparantie te verzekeren richting aandeelhouders."
+          }
+        }
+      },
+      {
+        "id": "sanctie-nietigheid",
+        "naam": {
+          "primair": "Sanctie: nietigheid",
+          "synoniemen": [
+            "nietigheidsvordering"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de procedure niet is nageleefd én de vennootschap daardoor schade heeft geleden, kan de rechter op vordering van de vennootschap (of de aandeelhouders) de **beslissing nietig verklaren**. De nietigheid treft ook de rechtshandeling die op basis van de beslissing werd gesteld.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "wvv-art-7-96"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Nietigheid is **geen automatische sanctie** — de rechter weegt of er schade is. Correcte naleving van de procedure (melding + onthouding + verslag) is de beste bescherming tegen nietigheidsvordering, ook als de transactie achteraf ongunstig blijkt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderscheid-rechtsvorm",
+        "naam": {
+          "primair": "Verschil tussen NV en BV"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De procedure verloopt **gelijkaardig bij NV en BV**, maar met belangrijke vormverschillen:\n- **NV** (meervoudig bestuursorgaan): de conflicterende bestuurder verlaat de raad van bestuur voor het betrokken punt; de overige bestuurders beslissen.\n- **BV** (eventueel enige bestuurder of enkele bestuurders): wanneer alle bestuurders geconflicteerd zijn, neemt de **algemene vergadering** de beslissing of beslist de enige bestuurder met verplichte publicatie in de toelichting.\n- **UEP (éénpersoonsvennootschap)**: specifieke regeling omdat er geen 'overige' bestuurders zijn.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Te verifiëren: de exacte regeling per rechtsvorm (art-nummers NV vs. BV vs. CV) vereist broncontrole. De basislogica is gelijkaardig."
+          }
+        }
+      },
+      {
+        "id": "quasi-inbreng-als-bijzonder-geval",
+        "naam": {
+          "primair": "Quasi-inbreng als bijzonder geval"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **quasi-inbreng** — de aankoop door de vennootschap van een actief van een oprichter of aandeelhouder na oprichting, boven een bepaalde drempel — activeert naast de quasi-inbreng-procedure ook de **procedure voor het belangenconflict** wanneer de verkoper tegelijk bestuurder is. Beide procedures lopen dan parallel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Quasi-inbreng en belangenconflict zijn aparte procedures maar activeren elkaar bij de typische casus waarbij een bestuurder-aandeelhouder een actief verkoopt aan zijn eigen vennootschap."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "bestuur-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De procedure voor het belangenconflict is een van de gedragsregels die het bestuursorgaan in acht moet nemen bij zijn werking."
+    },
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrechtelijk-kader-wvv",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aansprakelijkheid-oprichters-bestuurders",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Niet-naleving van de procedure activeert de aansprakelijkheid van de betrokken bestuurder voor schade aan de vennootschap."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "quasi-inbreng",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Quasi-inbreng en belangenconflict zijn afzonderlijke procedures maar overlappen sterk wanneer de verkoper van het actief tegelijk bestuurder is.",
+      "gelijkenissen": [
+        "Beide beschermen de vennootschap en haar aandeelhouders bij transacties met insiders",
+        "Beide vereisen verslag en transparantie richting aandeelhouders"
+      ],
+      "verschillen": [
+        "Quasi-inbreng draait om de waardering van het actief (onafhankelijk verslag vereist); belangenconflict draait om de zuiverheid van het beslissingsproces",
+        "Quasi-inbreng geldt voor aandeelhouders en oprichters in bredere zin; belangenconflict is specifiek voor bestuurders"
+      ],
+      "verwarring_risico": "De twee procedures overlappen bij de aankoop van een actief van een bestuurder-aandeelhouder. Kandidaten moeten weten dat dan beide procedures gelden."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "onafhankelijkheid",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beide concepten berusten op dezelfde grondregel: wie een persoonlijk belang heeft, mag niet zelfstandig beslissen of beoordelen. De procedure (vennootschapsrecht) en de deontologische norm (accountant) zijn parallelle uitwerkingen van hetzelfde beginsel.",
+      "gelijkenissen": [
+        "Beide vereisen transparantie over het conflicterend belang",
+        "Beide beogen de integriteit van een beslissings- of beoordelingsproces te beschermen"
+      ],
+      "verschillen": [
+        "Onafhankelijkheid (deontologie accountant) is een permanente professionele norm; het bestuurlijk belangenconflict is een procedure die per geval wordt getriggerd",
+        "Onafhankelijkheid verbiedt soms de opdracht zelf; het bestuurlijk belangenconflict verbiedt deelname aan die ene stemming, niet het mandaat"
+      ]
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "commissaris-mandaat-en-statuut",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De commissaris ontvangt de melding van het conflict en rapporteert over de naleving van de procedure in zijn verslag aan de aandeelhouders."
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "bijzondere-verslagen-vennootschapsverrichtingen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het verslag over het conflict en de verantwoording van de beslissing wordt opgenomen in de notulen en de toelichting bij de jaarrekening."
+    }
+  ]
 }

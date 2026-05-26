@@ -1,11 +1,25 @@
 {
   "id": "banklening-investeringskrediet",
   "naam": {
-    "primair": "Banklening investeringskrediet"
+    "primair": "Banklening investeringskrediet",
+    "synoniemen": [
+      "investeringskrediet",
+      "termijnlening",
+      "lening op afbetaling",
+      "krediet op lange termijn"
+    ],
+    "vertaling": {
+      "fr": "Crédit d'investissement bancaire"
+    }
   },
+  "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.1.II.J",
+      "1.1.II.K"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,568 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, gebruikscontext, elementen en relatie-suggesties ingevuld vanuit training-data. MODUS aanvullend: bestaand skelet bewaard."
       }
-    ],
-    "ankers": [
-      "1.1.II.J",
-      "1.1.II.K"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Banklening investeringskrediet",
+        "tekst": "Een **banklening investeringskrediet** is een middellange tot lange termijn schuldinstrument waarbij een bank aan een onderneming een bepaald bedrag ter beschikking stelt voor een welomschreven **investeringsdoel** (materiele of immateriële vaste activa), terugbetaalbaar via **periodieke aflossingen** (maandelijks, driemaandelijks of jaarlijks) gedurende een overeengekomen looptijd, met rente op het uitstaand saldo.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         }
+      },
+      "substantie": {
+        "tekst": "In tegenstelling tot een obligatielening (waarbij kapitaal bij meerdere beleggers wordt opgehaald) is een banklening investeringskrediet een **bilaterale overeenkomst** tussen één bank en één kredietnemer. Dit geeft de onderneming de mogelijkheid tot **individuele heronderhandeling** (looptijd, vervroegde aflossing, herfinanciering) als de omstandigheden wijzigen.\n\nDe kern-economie van het instrument:\n- **Financieringskost** = rente op uitstaand saldo, dalend naarmate de lening wordt afgelost\n- **Balansimpact**: schuld op meer dan één jaar bij aanvang; jaarlijkse aflossingen verschuiven naar schulden op korte termijn\n- **Activum in pand**: de bank vraagt doorgaans een hypotheek of pandrecht op het gefinancierde actief als zekerheid",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het bilaterale karakter is de sleutelreden waarom een investeringskrediet voor de meeste KMO's de standaardkeuze is voor activa-financiering: het laat ruimte voor aanpassing, terwijl een obligatielening rigide voorwaarden vastlegt voor alle houders tegelijk."
+      },
+      "rationale": {
+        "tekst": "De ratio van het investeringskrediet is het **matchen van de looptijd van de financiering met de economische levensduur van het gefinancierde actief**. Zo draagt het actief zijn eigen financieringskost via de exploitatieresultaten: de jaarlijkse afschrijving op het actief en de jaarlijkse aflossing op het krediet lopen in dezelfde richting.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Dit principe — looptijd-matching — is ook de reden waarom een bank weigert om een actief met levensduur van 10 jaar te financieren met een kaskrediets (korte termijn). Mismatch leidt tot liquiditeitsrisico bij de onderneming."
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Financiering van **materiële vaste activa** met een duidelijke economische levensduur: machines, voertuigen, gebouwen, productie-installaties.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De looptijd van het krediet wordt door de bank doorgaans afgestemd op de afschrijvingsperiode van het actief — het actief dient als onderpand en als zekerheidsbron voor terugbetaling."
+        },
+        {
+          "tekst": "Ondernemingen met **stabiele en voorspelbare cashflow** die periodieke aflossingen mogelijk maken over de hele looptijd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Aflossingen zijn contractueel vastgelegd; een inzinking in de cashflow leidt snel tot een betalingsachterstand en activering van de bank-covenanten."
+        },
+        {
+          "tekst": "KMO's en middelgrote ondernemingen waarvoor de **obligatiemarkt ontoegankelijk** is (te kleine bedragen, te weinig investeerders, te hoge emissieformaliteiten).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De banklening is voor KMO's het meest toegankelijke instrument voor externe financiering van vaste activa: geen marktintroductie, geen prospectus, geen verhandelbaarheid vereist."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Financiering van **vlottende activa** (handelsvorderingen, voorraden) of van werkkapitaaltekort — daarvoor dient een kaskrediets of debiteurenlijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Looptijd-mismatch: een investeringskrediet loopt jaren, maar een werkkapitaalbehoefte kan cyclisch of seizoengebonden zijn. Gebruik van termijnkrediet voor werkkapitaal is een structurele fout in de financieringsaanpak."
+        },
+        {
+          "tekst": "Situaties waarbij **extreme flexibiliteit** vereist is in terugbetalingsritme — investeringskredieten hebben vaste aflossingsschema's.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Hoewel renegotiatie bij een bank mogelijk is, brengt dit tijd, kosten en zekerheidseisen met zich mee. Voor projecten met onzeker cashflow-profiel kan een achtergestelde lening of leasing-formule meer geschikt zijn."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Rentekost volledig aftrekbaar** als beroepskost bij de vennootschap, in tegenstelling tot aflossingen die niet aftrekbaar zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Enkel de rentecomponent vermindert de belastbare basis; de kapitaalterugbetaling is een balansbeweging zonder fiscaal effect. Dit onderscheid is essentieel bij de analyse van de werkelijke financieringskost."
+        },
+        {
+          "tekst": "**Bilaterale flexibiliteit**: heronderhandeling over looptijd, vervroegde (gedeeltelijke) terugbetaling, of aanvullend krediet is contractueel mogelijk — in tegenstelling tot een obligatielening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De bank is één gesprekspartner die de onderneming en het actief kent. Dit verlaagt de drempel voor herstructurering in vergelijking met een obligatielening waarbij alle houders moeten vergaderen."
+        },
+        {
+          "tekst": "**Financiering op maat** van de investeringsomvang: geen minimum-emissiebedrag vereist, geen prospectuskosten, geen beursnotering.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Een bank verstrekt investeringskredieten vanaf relatief kleine bedragen (> € 25.000), terwijl een obligatie-uitgifte pas rendabel is boven circa € 2 à 5 miljoen."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Covenanten-risico**: bancaire leningen bevatten financiële verbintenissen (bv. minimale schuldgraad, EBITDA-dekkingsgraad). Schending activeert vervroegde opeisbaarheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Covenanten zijn contractuele beschermingsmechanismen van de bank. Ze worden zelden genegocieerd weg bij standaard-KMO-krediet — de onderneming moet haar financiële ratio's bewaken."
+        },
+        {
+          "tekst": "**Herfinancieringsrisico** bij ballonleningen: de aflossing van het kapitaal gebeurt niet gespreid maar in één groot bedrag op vervaldatum — de onderneming moet herfinancieren of de nodige liquiditeiten opbouwen.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Ballon- of bulletaflossing is een variante die in de praktijk voorkomt (bv. projectfinanciering). Verificatie of dit als apart element of hier in risico-sectie het best past is aanbevolen."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "hoofdsom",
+        "naam": {
+          "primair": "Hoofdsom",
+          "synoniemen": [
+            "kredietbedrag",
+            "nominale lening"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **hoofdsom** is het initieel door de bank ter beschikking gestelde bedrag dat de onderneming bij de start van het krediet ontvangt. Dit bedrag wordt opgenomen op de balans als **schuld op meer dan één jaar**. De terugbetaling van de hoofdsom — via periodieke aflossingen — heeft geen fiscaal effect (geen kost, geen opbrengst).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Enkel de rente is aftrekbaar als beroepskost; de terugbetaling van de hoofdsom is een balansbeweging (schuld daalt, kas daalt). Dit onderscheid is fundamenteel voor de boekhouding en de fiscale aangifte."
+          }
+        }
+      },
+      {
+        "id": "renteberekening",
+        "naam": {
+          "primair": "Renteberekening en rentesoorten",
+          "synoniemen": [
+            "interestberekening",
+            "rentevoet",
+            "EURIBOR"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De rente op een investeringskrediet wordt berekend op het **uitstaand kapitaalsaldo** na elke aflossing. Twee basisvormen:\n\n- **Vaste rentevoet** — beschermt de onderneming tegen rentestijgingen; de financieringskost is volledig voorspelbaar over de looptijd.\n- **Variabele rentevoet** (bv. gekoppeld aan EURIBOR + spread) — lager in aanvang, maar risico op rentestijging gedurende de looptijd. Spreidingen en herwaarderingsmomenten worden contractueel vastgelegd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Bij een vaste rentevoet is de totale financieringskost berekend vóór afsluiting van het krediet — ideaal voor cashflow-planning op lange termijn. Bij een variabele rentevoet speelt de adviseur een rol in het inschatten van het renterisico versus het voordeel bij lage rentes."
+          }
+        }
+      },
+      {
+        "id": "aflossingsstructuur",
+        "naam": {
+          "primair": "Aflossingsstructuur",
+          "synoniemen": [
+            "aflossingsschema",
+            "terugbetalingsmodaliteiten"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De wijze waarop het krediet wordt terugbetaald. Meest voorkomende vormen:\n\n- **Constante kapitaalaflossing** (annuïteit variabel) — elke periode wordt hetzelfde bedrag aan kapitaal afgelost; de rentelast daalt progressief naarmate het saldo krimpt.\n- **Constante annuïteit** — totale betaling (rente + kapitaal) per periode is constant; in het begin is de rentecomponent hoog en de aflossing laag — dit keert om naar het einde.\n- **Ballonlening** — gedurende de looptijd worden enkel intresten betaald; de hoofdsom wordt in één keer terugbetaald op vervaldag.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De aflossingsstructuur bepaalt direct het verloop van de rentelast (beroepskost) in de resultatenrekening en de verschuiving van schulden op lang naar kort termijn op de balans. Dit is cruciale informatie voor de boekhoudkundige presentatie."
+          }
+        }
+      },
+      {
+        "id": "looptijd",
+        "naam": {
+          "primair": "Looptijd",
+          "synoniemen": [
+            "kredietduur",
+            "terugbetalingstermijn"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De looptijd van een investeringskrediet is de periode van opname tot finale terugbetaling. **Gebruikelijke looptijden** per activatype:\n- Roerende vaste activa (machines, voertuigen): **3 tot 7 jaar**\n- Onroerende vaste activa (gebouwen): **10 tot 25 jaar**\n- Gemengde investeringen: naar economische levensduur van het voornaamste onderdeel",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Looptijd afstemmen op de economische levensduur van het actief is het basisprincipe van investeringsfinanciering. Een te korte looptijd creëert onnodige liquiditeitsdruk; een te lange looptijd betekent dat het actief al afgeschreven is vóór het krediet terugbetaald is."
+          }
+        }
+      },
+      {
+        "id": "zekerheden",
+        "naam": {
+          "primair": "Zekerheden",
+          "synoniemen": [
+            "onderpand",
+            "hypotheek",
+            "pandrecht",
+            "borgtocht"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij het verstrekken van een investeringskrediet eist de bank doorgaans **zakelijke of persoonlijke zekerheden** om het kredietrisico te beperken:\n\n- **Hypotheek** — op onroerende goederen (gebouwen, grond); eerste rang bij voorrang van betaling\n- **Pandrecht op roerende goederen** — op machines, voertuigvloot of handelszaak\n- **Borgtocht** — persoonlijke garantie van zaakvoerder of aandeelhouder (frequent bij KMO's)\n- **Inpandgeving van levensverzekering** — als extra zekerheid voor het resterende saldo bij overlijden van sleutelfiguur",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De zekerheden bepalen mede de risicoprijs (spread) van het krediet. Een volledig gehypotheceerd gebouw verlaagt de spread ten opzichte van een bloot krediet op basis van alleen de financiële analyse."
+          }
+        }
+      },
+      {
+        "id": "covenanten",
+        "naam": {
+          "primair": "Financiële covenanten",
+          "synoniemen": [
+            "verbintenissen",
+            "financiele verbintenissen"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Financiële covenanten** zijn contractuele verbintenissen die de kredietnemer opneemt in de kredietovereenkomst en die door de bank periodiek worden getoetst. Typische covenanten:\n\n- **Schuldgraad** (bv. netto financiële schuld / EBITDA ≤ 4): meting van de schuldcapaciteit\n- **DSCR** (Debt Service Coverage Ratio = beschikbare cashflow / jaarlijkse schuldlast ≥ 1,2): meting of kasstromen de aflossingen kunnen dragen\n- **Eigen vermogen minimum**: bescherming van de solvabiliteit\n\nSchending van een covenant geeft de bank het recht om het krediet **vervroegd opeisbaar te stellen** of nieuwe voorwaarden op te leggen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Covenanten zijn een risicobeheer-instrument van de bank maar creëren ook een informatieverplichting voor de onderneming. Schending hoeft niet te leiden tot onmiddellijke opzegging — banken geven doorgaans waiver als de onderneming haar plannen tijdig communiceert."
+          }
+        }
+      },
+      {
+        "id": "balansclassificatie",
+        "naam": {
+          "primair": "Balansclassificatie (lang vs. kort)",
+          "synoniemen": [
+            "herkwalificatie schulden",
+            "kortetermijn-deel lening"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een investeringskrediet staat initieel geboekt als **schulden op meer dan één jaar** (rubriek 17). Bij elke balansdatum moet het **binnen het jaar vervallend gedeelte** (de aflossing(en) van het komende boekjaar) worden overgeboekt naar **schulden op korte termijn** (rubriek 42/43).\n\nDeze herkwalificatie is verplicht op grond van het beginsel van de juiste indeling en heeft een significante impact op liquiditeitsratio's (current ratio, quick ratio).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De current ratio daalt bij deze herkwalificatie — een gegeven dat gebruikers van de jaarrekening (banken, leveranciers, investeerders) correct moeten interpreteren. Een lage current ratio door herkwalificatie van lange-termijn-schuld is structureel anders dan een liquiditeitsprobleem."
+          }
+        }
+      },
+      {
+        "id": "prorata-rente",
+        "naam": {
+          "primair": "Prorata-intrest op balansdatum",
+          "synoniemen": [
+            "gelopen rente",
+            "toe te rekenen intrest"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de **balansdatum niet samenvalt met een rentebetaaldatum**, moet de gelopen maar nog niet betaalde rente prorata worden geboekt als **toe te rekenen kost** (overlopende rekening, rubriek 492/3).\n\n**Formule**: prorata-intrest = uitstaand saldo × rentevoet × (aantal dagen sinds laatste renteafrekening / 365)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het **matching-beginsel** vereist dat rentekosten worden toegerekend aan het boekjaar waarvoor ze economisch gelden, ook als de betaling pas in het volgende boekjaar plaatsvindt."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "instrument"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "financiele-verrichtingen-categorie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "obligatielening",
+      "toelichting": "Beide zijn schuldinstrumenten voor externe financiering. Obligatielening: meerdere beleggers, verhandelbaar, niet-renegotieerbaar. Banklening: bilateraal, niet-verhandelbaar, heronderhandelbaar.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide zijn vreemd vermogen op de balans",
+        "Rente is aftrekbaar als beroepskost bij beide",
+        "Beide geven aanleiding tot prorata-renteboeking op balansdatum"
+      ],
+      "verschillen": [
+        "Bilateraal vs. meerdere schuldeisers",
+        "Heronderhandelbaar vs. vastgelegd in prospectus",
+        "Geen verhandelbaarheid vs. vrij verhandelbaar op markt",
+        "KMO-toegankelijk vs. vereist minimale emissieschaal"
+      ],
+      "verwarring_risico": "Studenten verwarren soms de balansindeling: obligatielening heeft aparte rubriek (163) in het Belgisch schema; banklening staat in rubriek 170 of 173. Beide vallen onder schulden op meer dan één jaar maar worden apart gepresenteerd.",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "financiele-leasing",
+      "toelichting": "Beide financieren vaste activa over meerdere jaren. Leasing: actief en schuld komen op de balans van de lessee; geen eigendomsoverdracht tijdens looptijd. Banklening: eigendomsoverdracht bij aankoop; actief staat bij de onderneming.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide leiden tot periodieke betalingen (aflossing + rente bij lening; leasecanon bij leasing)",
+        "Beide financieren vaste activa met economische looptijd van meerdere jaren"
+      ],
+      "verschillen": [
+        "Eigendomsrecht bij aankoop (lening) vs. eigendom bij leasinggever tot aankoopoptie gelicht wordt",
+        "Banklening vereist hogere eigen inbreng ('eigen inbreng'-vereiste van 20-30%)",
+        "Leasing is volledig schuld-gefinancierd zonder eigen inbreng"
+      ],
+      "verwarring_risico": "Financiële leasing en investeringskrediet leiden tot gelijkaardige balansposities (actief + schuld), maar de rubrieken verschillen en de fiscale behandeling van de canon vs. rente verschilt. De CBFA/NBB stelt regels voor de classificatie.",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "achtergestelde-lening",
+      "toelichting": "Beide zijn leningen aan de onderneming, maar een achtergestelde lening is subordinated: bij faillissement wordt de bank van het investeringskrediet eerst betaald vóór de achtergestelde schuldeiser.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide zijn vreemd vermogen",
+        "Rente aftrekbaar bij beide"
+      ],
+      "verschillen": [
+        "Prioriteit bij insolventie: banklening heeft voorrang",
+        "Achtergestelde lening heeft quasi-eigen-vermogen-karakter bij ratio-analyse door banken"
+      ],
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "schuldgraad",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De schuldgraad (netto financiële schuld / EBITDA of eigen vermogen) is een centrale input voor de kredietbeslissing van de bank en de covenant-monitoring tijdens de looptijd."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "interest-coverage-ratio",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De interest coverage ratio (EBIT / rentelasten) meet of de bedrijfswinst volstaat om de renteverplichtingen te dragen — een standaard covenant-criterium bij investeringskredieten."
+    },
+    {
+      "type": "vereist",
+      "target": "vaste-activa",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Een investeringskrediet is per definitie gekoppeld aan een investering in vaste activa; de aanwending voor werkkapitaal of andere doelen is buiten scope van dit instrument."
+    }
+  ]
 }

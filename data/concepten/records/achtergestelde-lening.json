@@ -2,6 +2,11 @@
   "id": "achtergestelde-lening",
   "naam": {
     "primair": "Achtergestelde lening",
+    "synoniemen": [
+      "aandeelhouderslening achtergesteld",
+      "subordinated loan",
+      "prêt subordonné"
+    ],
     "vertaling": {
       "fr": "Prêt subordonné",
       "en": "Subordinated loan"
@@ -17,6 +22,9 @@
       "iteratie": "v1",
       "mcp_calls": 0
     },
+    "ankers": [
+      "1.1.II.J"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -29,13 +37,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 12)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende beschrijven-operatie: synoniemen toegevoegd, 2 nieuwe elementen (rangorde-bij-faillissement, mezzanine-karakter), gebruikscontext uitgebreid (niet_voor, contra_indicaties)."
       }
-    ],
-    "ankers": [
-      "1.1.II.J"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Een achtergestelde lening is een lening waarbij de schuldeiser uitdrukkelijk bedingt dat zijn vordering in rang komt ná alle gewone schuldeisers van de kredietnemer, maar vóór de aandeelhouders, bij faillissement of vereffening. De achtergestelling wordt contractueel vastgelegd en heeft geen wettelijk minimumvorm, maar vereist een expliciete achterstelling-clausule."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De kredietgever stelt zijn terugbetalingsrecht bewust achter bij alle andere schuldeisers, waardoor hij een hoger kredietrisico loopt in ruil voor doorgaans een hogere rentevergoeding of andere voordelen (bv. aandelenopties, deelneming in winst); economisch gedraagt de achtergestelde lening zich als een hybride instrument tussen vreemd vermogen en eigen vermogen."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Banken en rating-agencies beschouwen een achtergestelde lening van aandeelhouders of verbonden partijen soms als quasi-eigen vermogen (mezzanine), omdat de schuldeiser pas wordt terugbetaald nadat alle senior schuldeisers volledig zijn voldaan. Dit maakt het instrument aantrekkelijk voor startende of herstructurerende vennootschappen die onvoldoende eigen vermogen kunnen opbouwen maar toch bancaire financiering wensen: door een achtergestelde lening van de aandeelhouder versterkt de vennootschap haar solvabiliteitsratio zonder formeel kapitaal te verhogen. Omgekeerd aanvaarden banken soms een achtergestelde lening als eigen-vermogen-substituut in hun kredietanalyse, waardoor de loan-to-value beter uitvalt. Voor de gecertificeerde accountant is de kwalificatie — vreemd vermogen versus quasi-eigen vermogen — cruciaal voor zowel de jaarrekening-presentatie (VIII of IX op de passiefzijde) als de fiscale behandeling van de interestbetaling."
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "eigen-vermogen",
@@ -95,6 +147,34 @@
           "tekst": "Mezzanine-financiering bij overnames of groeifase, waarbij de bancaire senior schuld wordt aangevuld met een achtergestelde tranche van investeerders of aandeelhouders."
         }
       ],
+      "niet_voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Vennootschappen waarbij het doel is eigen vermogen op te bouwen — een achtergestelde lening is vreemd vermogen en verbetert de solvabiliteitsratio enkel via de ranking, niet via eigendomsopbouw."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Situaties waarbij de kredietgever liquiditeitszekerheid nodig heeft op korte termijn — bij faillissement of vereffening ontvangt de achtergestelde schuldeiser pas na alle andere schuldeisers, wat het volledige-verlies-risico sterk vergroot."
+        }
+      ],
       "voorwaarden": [
         {
           "grondslag": {
@@ -151,6 +231,34 @@
             ]
           },
           "tekst": "Fiscale herkwalificatie van interest als verworpen uitgave bij overmatige schuldenlast tegenover eigen vermogen (thin capitalisation, artikel 198 §1 11° WIB92); bij faillissement draagt de achtergestelde schuldeiser het volledige verliesrisico na alle senior schuldeisers."
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "De vennootschap heeft reeds een debt-to-equity-verhouding die de thin capitalisation-grens nadert (5:1 voor intra-groepleningen): bijkomende achtergestelde schuld verhoogt het risico op renteaftrekbeperking zonder dat de solvabiliteitsratio merkbaar verbetert."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "De kredietgever is een externe partij zonder strategisch belang in de vennootschap en wenst prioritaire terugbetaling bij liquidatie — dan is een gewone of bevoorrechte schuld meer aangewezen."
         }
       ],
       "indicaties": [
@@ -215,6 +323,76 @@
               ]
             },
             "tekst": "Zonder deze clausule is een lening juridisch een gewone schuld en geniet ze geen bijzondere solvabiliteits-erkenning door banken of rating-agencies."
+          }
+        }
+      },
+      {
+        "id": "rangorde-bij-faillissement",
+        "naam": {
+          "primair": "Rangorde bij faillissement of vereffening"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Bij faillissement of vereffening worden schuldeisers uitbetaald in een wettelijke rangorde: (1) bevoorrechte schuldeisers (bv. fiscus, RSZ, hypothecaire schuldeisers), (2) gewone schuldeisers (leveranciers, bankiers zonder pand), (3) achtergestelde schuldeisers, en pas daarna (4) de aandeelhouders met het resterende actief. De achtergestelde kredietgever staat dus vlak boven de aandeelhouder."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "In de praktijk betekent dit dat wanneer de activa bij faillissement onvoldoende zijn om alle senior schuldeisers te betalen, de achtergestelde schuldeiser helemaal niets ontvangt. Hij draagt economisch een quasi-aandeelhoudersrisico maar heeft juridisch nog altijd een schuldvorderingsrecht (en geen eigendomsrecht). Dit verliesrisico verklaart waarom een achtergestelde lening doorgaans een hogere rentevoet heeft dan een gewone lening."
+          }
+        }
+      },
+      {
+        "id": "mezzanine-karakter",
+        "naam": {
+          "primair": "Mezzanine-karakter: hybride tussen schuld en eigen vermogen"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Een achtergestelde lening wordt 'mezzanine-financiering' genoemd omdat ze economisch een middenpositie inneemt: juridisch is ze vreemd vermogen (schuld), maar in de risicorangorde gedraagt ze zich als quasi-eigen vermogen. Banken en ratingbureaus behandelen haar soms als eigen vermogen in hun kredietanalyse."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Het mezzanine-karakter heeft concrete gevolgen: (a) de vennootschap kan de rente aftrekken als beroepskost (voordeel tegenover eigen vermogen), (b) de bank erkent de lening als solvabiliteitsbuffer (voordeel tegenover gewone schuld), maar (c) de lening verschijnt als vreemd vermogen op de balans (rekening 17x) — nooit als eigen vermogen. Het onderscheid is cruciaal voor de jaarrekening-presentatie en voor de berekening van de debt-to-equity-ratio."
           }
         }
       },
@@ -448,48 +626,7 @@
           }
         }
       }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Een achtergestelde lening is een lening waarbij de schuldeiser uitdrukkelijk bedingt dat zijn vordering in rang komt ná alle gewone schuldeisers van de kredietnemer, maar vóór de aandeelhouders, bij faillissement of vereffening. De achtergestelling wordt contractueel vastgelegd en heeft geen wettelijk minimumvorm, maar vereist een expliciete achterstelling-clausule."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De kredietgever stelt zijn terugbetalingsrecht bewust achter bij alle andere schuldeisers, waardoor hij een hoger kredietrisico loopt in ruil voor doorgaans een hogere rentevergoeding of andere voordelen (bv. aandelenopties, deelneming in winst); economisch gedraagt de achtergestelde lening zich als een hybride instrument tussen vreemd vermogen en eigen vermogen."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Banken en rating-agencies beschouwen een achtergestelde lening van aandeelhouders of verbonden partijen soms als quasi-eigen vermogen (mezzanine), omdat de schuldeiser pas wordt terugbetaald nadat alle senior schuldeisers volledig zijn voldaan. Dit maakt het instrument aantrekkelijk voor startende of herstructurerende vennootschappen die onvoldoende eigen vermogen kunnen opbouwen maar toch bancaire financiering wensen: door een achtergestelde lening van de aandeelhouder versterkt de vennootschap haar solvabiliteitsratio zonder formeel kapitaal te verhogen. Omgekeerd aanvaarden banken soms een achtergestelde lening als eigen-vermogen-substituut in hun kredietanalyse, waardoor de loan-to-value beter uitvalt. Voor de gecertificeerde accountant is de kwalificatie — vreemd vermogen versus quasi-eigen vermogen — cruciaal voor zowel de jaarrekening-presentatie (VIII of IX op de passiefzijde) als de fiscale behandeling van de interestbetaling."
-      }
-    }
+    ]
   },
   "relaties": [
     {
@@ -616,6 +753,31 @@
         ]
       },
       "toelichting": "Een achtergestelde aandeelhouderslening wordt soms ingezet om de alarm-bel-procedure te vermijden of op te lossen door de netto-actiefpositie te herstellen; omgekeerd kan de noodzaak ervan een signaal zijn dat de alarm-bel al of bijna aan de orde is."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalverhoging",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beide instrumenten versterken de financiële positie van een vennootschap, maar kapitaalverhoging is eigen vermogen (permanente inbreng, geen terugbetalingsverplichting) terwijl een achtergestelde lening vreemd vermogen is (terugbetaling + rente vereist).",
+      "gelijkenissen": [
+        "Beide kunnen worden gebruikt om de solvabiliteitsratio te verbeteren in het oog van banken",
+        "Beide aangewend bij alarmbel-situaties of herstructurering"
+      ],
+      "verschillen": [
+        "Kapitaalverhoging vereist notaris en statutenwijziging; achtergestelde lening enkel leningovereenkomst",
+        "Kapitaalverhoging is eigen vermogen op de balans (rekening 10-15); achtergestelde lening is vreemd vermogen (rekening 17x)",
+        "Interest op achtergestelde lening is fiscaal aftrekbaar; dividend op kapitaalverhoging niet"
+      ],
+      "verwarring_risico": "Student kan aannemen dat achtergestelde lening en kapitaalverhoging dezelfde boekhoudkundige impact hebben op het eigen vermogen — dat is niet zo."
     }
   ],
   "concept_type": "instrument"

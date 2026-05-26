@@ -1,11 +1,23 @@
 {
   "id": "digitalisering-accountantskantoor",
   "naam": {
-    "primair": "Digitalisering accountantskantoor"
+    "primair": "Digitalisering accountantskantoor",
+    "synoniemen": [
+      "kantoordigitalisering",
+      "digitale transformatie accountancy",
+      "automatisering boekhoudkantoor"
+    ],
+    "vertaling": {
+      "fr": "Numérisation du cabinet comptable"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "4.0.taak.5"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +36,506 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data (aanvullende modus)."
       }
-    ],
-    "ankers": [
-      "4.0.taak.5"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Digitalisering accountantskantoor",
+        "tekst": "**Digitalisering van het accountantskantoor** is het geheel van technologische en organisatorische keuzes waarmee een kantoor zijn processen — van cliënten-intake over boekhouding tot rapportering — vervangt of ondersteunt met digitale tools en geautomatiseerde workflows. Het is geen eenmalige vervanging van software maar een **structurele transformatie** van de manier waarop het kantoor zijn dienstverlening organiseert.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Digitalisering raakt alle lagen van het kantoor:\n\n- **Cliënt-interface** — hoe documenten binnenkomen (scan, e-mail, cloudplatform, API-koppeling met ERP)\n- **Verwerkingslaag** — automatische boekingsherkenning (OCR, machine learning), bankkoppeling, UBL-factuurverwerking\n- **Controle- en rapportagelaag** — dashboards, geautomatiseerde rapportage, afwijkingsdetectie\n- **Dossier- en communicatielaag** — e-signing, digitaal dossier, cliëntenportaal\n- **Compliance-laag** — elektronische indiening bij overheid (BIZTAX, Intervat, sociale secretariaten)\n\nDe praktische uitdaging is niet de technologie zelf, maar de **keuze van het juiste niveau** voor een bepaald kantoor en cliëntenbestand, de **omscholing van medewerkers**, en het bewaken van de **kwaliteitscontrole** wanneer automatisering foutieve patronen herhaalt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Digitalisering is voor het accountantskantoor een **structurele beroepsnecessiteit** geworden, niet een optionele upgrade. Drie drijfveren verklaren dit:\n\n1. **Cliëntverwachting** — ondernemers verwachten real-time zicht op hun financiële situatie en naadloze documentuitwisseling\n2. **Wettelijke druk** — verplichte elektronische indiening (e-facturatie B2B, BIZTAX, Intervat) maakt analoge processen onhoudbaar\n3. **Concurrentiepositie** — kantoren die digitaal efficiënter werken kunnen hogere waarde-toevoegende diensten aanbieden i.p.v. administratief volume te verwerken\n\nHet risico van niet-digitaliseren is niet alleen inefficiëntie maar ook **kwaliteitsverlies**: manuele processen zijn vatbaarder voor fouten bij groot volume.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "digitalisering-niveaus",
+        "naam": {
+          "primair": "Niveaus van digitalisering",
+          "synoniemen": [
+            "digitaliseringsvolwassenheid",
+            "digitaliseringsgraad"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Digitalisering is geen binaire keuze maar een spectrum. Gangbare niveaus in de accountancy:\n\n- **Niveau 0 — papier** — volledig manueel; documenten fysiek aangeleverd, manuele invoer\n- **Niveau 1 — scan-en-boek** — documenten gescand of gemaild, maar manueel verwerkt in boekhoudpakket\n- **Niveau 2 — OCR-ondersteund** — automatische herkenning van factuurvelden (leverancier, bedrag, BTW), maar menselijke validatie vereist\n- **Niveau 3 — geautomatiseerde workflow** — bankkoppeling + regelsysteem voor automatische boekingsvoorstel; accountant valideert uitzonderingen\n- **Niveau 4 — geïntegreerde ecosystemen** — ERP/CRM van cliënt koppelt rechtstreeks via API; boekhoudpakket als downstream-ontvanger\n\nElk niveau heeft specifieke eisen aan **opleiding**, **infrastructuur** en **interne controle**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ocr-en-documentherkenning",
+        "naam": {
+          "primair": "OCR en documentherkenning",
+          "synoniemen": [
+            "optische tekenherkenning",
+            "intelligente documentverwerking"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**OCR** (Optical Character Recognition) zet gescande of gefotografeerde documenten om in machine-leesbare tekst. **Intelligente documentherkenning** gaat verder: het herkent structuur (factuurnummer, datum, BTW-nummer, bedragen) en koppelt ze aan de juiste boekhoudvelden.\n\nModerne OCR-toepassingen in accountancysoftware (bv. Doccle, Billtobox, Exact Online, Yuki) halen een herkenningsgraad van **85–95%** op gestandaardiseerde facturen — bij vrije opmaak daalt dit significant.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "OCR reduceert manuele invoertijd maar elimineert het validatie-moment niet: foutieve herkenning die ongecontroleerd doorboekt, is moeilijker te detecteren dan manuele invoerfouten."
+          }
+        }
+      },
+      {
+        "id": "bankkoppeling-en-transactiematching",
+        "naam": {
+          "primair": "Bankkoppeling en transactiematching",
+          "synoniemen": [
+            "bankfeed",
+            "automatische bankimport",
+            "transactiematching"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Via een directe koppeling (PSD2-API of bestandsimport) importeert het boekhoudpakket dagelijks de banktransacties van de cliënt. Het systeem matcht elke transactie automatisch met een openstaand factuur of herhaalt de boeking van gelijkaardige historische transacties.\n\n**Werking**:\n1. Bank stuurt transacties via PSD2 of CODA-bestand\n2. Systeem zoekt match op bedrag + mededeling of IBAN + historiek\n3. Bij match: automatisch boekingsvoorstel\n4. Bij geen match: transactie in wachtrij voor manuele verwerking\n\n**Risico**: transacties die verkeerd gematcht worden en niet gesignaleerd zijn, leiden tot stelselmatige fouten in de boekhouding.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "e-facturatie-verplichting",
+        "naam": {
+          "primair": "E-facturatie verplichting",
+          "synoniemen": [
+            "verplichte elektronische factuur",
+            "gestructureerde e-factuur",
+            "UBL-factuur",
+            "Peppol"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Belgische wetgeving voert verplichte **gestructureerde e-facturatie** in voor B2B-transacties tussen Belgische BTW-plichtigen. Gestructureerde facturen (UBL/XML-formaat, verzonden via het Peppol-netwerk) vervangen de klassieke PDF-factuur als wettelijk geldige factuur.\n\nBelangrijkste tijdslijn:\n- Grote ondernemingen: verplicht vanaf 2026\n- KMO's: uitrol volgens Europese ViDA-richtlijn\n\nVoor het accountantskantoor betekent dit dat cliënten die B2B-facturen uitsturen of ontvangen **Peppol-compatibele software** nodig hebben — een concrete digitaliseringsdrijfveer.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Exacte data en fasering zijn onderhevig aan wetgeving die nog in beweging was op datum van extractie — te verifiëren via actuele ITAA-communicatie of FOD Financiën."
+          }
+        }
+      },
+      {
+        "id": "clientenportaal-en-digitale-intake",
+        "naam": {
+          "primair": "Cliëntenportaal en digitale intake",
+          "synoniemen": [
+            "digitaal dossier",
+            "document-sharing",
+            "veilige bestandsuitwisseling"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **cliëntenportaal** is een beveiligde digitale omgeving (cloud-based) waar cliënten documenten opladen, ondertekende stukken ontvangen, en rapporten raadplegen — als alternatief voor e-mail of fysieke overdracht.\n\nVoordelen:\n- Enkelvoudige verificeerbare versie van elk document (geen versieverwarring)\n- Audit trail van wie wat wanneer heeft opgeladen of geopend\n- Integratie met e-signing (digitale handtekening op jaarrekening, aangifte, mandaten)\n\nDe keuze van portaal-software raakt aan **GDPR-vereisten**: persoonlijke en financiële gegevens moeten verwerkt worden conform de AVG.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kwaliteitsrisico-automatisering",
+        "naam": {
+          "primair": "Kwaliteitsrisico bij automatisering",
+          "synoniemen": [
+            "automatiseringsrisico",
+            "stelselmatige fout door algoritme"
+          ]
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "Automatisering introduceert een specifiek **kwaliteitsrisico**: fouten die door het algoritme systematisch herhaald worden en die door de accountant niet worden onderschept bij gebrek aan manuele tussenkomst.\n\nTypische manifestaties:\n- OCR-fout op bedrag of BTW-code die in alle gelijkaardige facturen herhaald wordt\n- Banktransactie die structureel op foute tegenrekening geboekt wordt door een incorrecte matching-regel\n- Automatisch-geboekte periodieke kosten die door de leverancier gewijzigd zijn maar niet opnieuw gevalideerd worden\n\n**Mitigatie**: periodieke steekproefcontrole op automatisch-geboekte transacties + duidelijke drempel voor manuele validatie bij afwijkingen boven een bedragslimiet.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gdpr-en-databeveiliging-kantoor",
+        "naam": {
+          "primair": "GDPR en databeveiliging in het kantoor",
+          "synoniemen": [
+            "AVG-verplichtingen kantoor",
+            "gegevensbescherming accountant",
+            "privacywetgeving accountancy"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het accountantskantoor verwerkt als **verwerker** (en soms als verwerkingsverantwoordelijke) persoonsgegevens van cliënten, hun klanten en leveranciers. De AVG/GDPR legt verplichtingen op:\n\n- **Verwerkingsovereenkomst** met cliënt wanneer kantoor als verwerker optreedt\n- **Data minimalisatie** — geen gegevens bewaren die niet nodig zijn voor de opdracht\n- **Bewaartermijnen** — boekhoudkundige stukken bewaren conform wettelijke bewaartermijnen (7 jaar), daarna vernietigen\n- **Incidentenregister** — datalekken registreren en melden binnen 72 uur\n- **Bewerkersregister** — lijst van alle verwerkingen bijhouden\n\nDigitalisering vergroot het risico: cloudopslag, externe software-leveranciers en API-koppelingen introduceren nieuwe verwerkingspunten die gedekt moeten zijn door de verwerkingsovereenkomst.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "softwarekeuze-en-ecosysteem",
+        "naam": {
+          "primair": "Softwarekeuze en ecosysteem",
+          "synoniemen": [
+            "boekhoudpakketselectie",
+            "digitaal ecosysteem kantoor"
+          ]
+        },
+        "inhoud_type": "vuistregel",
+        "kern": {
+          "substantie": {
+            "tekst": "De keuze van boekhoudpakket bepaalt grotendeels welke koppelingen (bank, cliëntenportaal, aangifte-software) mogelijk zijn. In Belgische kantoorpraktijk domineren enkele pakketten (Winbooks, Bob50/Sage, Exact Online, Yuki, Digi-team) elk met een eigen ecosysteem van partnerintegraties.\n\nVuistregels bij softwarekeuze voor het kantoor:\n- **Standaardiseer over cliënten** — één pakket voor 80% van de cliënten verlaagt de opleidingslast drastisch\n- **Prioriteit aan integraties** — bank-API, BTW-aangifte, BIZTAX en e-facturatie zijn minimumvereisten\n- **Vermijd lock-in** — controleer exportmogelijkheden (UBL, CODA, BOB-formaat) voordat je kiest\n- **KMO-cliënten willen eenvoud** — een platform waarbij de cliënt zelf facturen kan scannen of invoeren verlaagt de instroombehoefte bij het kantoor",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Kantoren die hun capaciteit willen uitbreiden zonder evenredige toename van het personeelsbestand, door administratieve handelingen te automatiseren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Kantoren met cliënten die B2B-facturen uitsturen of ontvangen en die moeten voldoen aan de verplichte e-facturatie-wetgeving.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Kantoren die hun dienstverlening willen verschuiven van transactionele volume-verwerking naar advies en analyse (hogere marge, minder herhalend werk).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Volledige automatisering als vervanging van de accountant — voor kwaliteitscontrole, professionele oordeelsvorming en advies blijft menselijke tussenkomst vereist.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Automatisering herhaalt patronen; de accountant detecteert wanneer het patroon zelf onjuist is."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Medewerkers moeten opgeleid worden in de nieuwe workflows — technologie-implementatie zonder opleidingstraject leidt tot inefficiënt gebruik en verhoogd foutrisico.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "GDPR-compliancy: verwerkingsovereenkomsten met software-leveranciers (cloud-providers, portaal-leveranciers) moeten aanwezig zijn vóór ingebruikname.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Stelselmatige fout**: algoritmische herkenning die systematisch een verkeerde boeking genereert en niet tijdig opgemerkt wordt, produceert een foutieve boekhouding die veel moeilijker te corrigeren is dan een incidentele manuele fout.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Vendor lock-in**: keuze voor een gesloten ecosysteem maakt overstap duur (datamigratiekosten, heropleidingskosten, cliënten-overtuigen) — beoordeling van exportmogelijkheden is cruciaal bij aanvang.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Cybersecurity en datalekken**: cloudopslag van financiële gegevens van honderden cliënten is een aantrekkelijk doelwit — een inbreuk treft simultaan alle cliënten en genereert meld- en herstelplicht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Schaalbaarheid**: een gedigitaliseerd kantoor kan cliëntenbestand uitbreiden zonder lineaire toename van manueel werk — administratieve tijdswinst wordt ingezet voor advies.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Real-time inzicht voor cliënt**: automatische verwerking maakt het mogelijk om maandelijkse of zelfs wekelijkse financiële rapportage aan te bieden i.p.v. kwartaal- of jaarlijkse rapporten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "kantoor-organisatie-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Digitalisering is een deelthema van de bredere kantoor-organisatie."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "kwaliteitsmanagement-opdracht",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Kwaliteitsmanagement-vereisten bepalen mede welke controles bij geautomatiseerde verwerking aanwezig moeten zijn."
+    },
+    {
+      "type": "vereist",
+      "target": "deontologie-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Digitalisering verandert de uitvoering maar niet de deontologische verplichtingen (geheimhouding, onafhankelijkheid, zorg)."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "interne-controle-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De controle-laag bij digitalisering vertoont parallellen met het COSO-framework: automatisering van controles vervangt manuele controles maar vereist eigen monitoring."
+    },
+    {
+      "type": "vereist",
+      "target": "antiwitwas-verplichtingen-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Digitale cliënten-intake en automatische transactieverwerking ontslaan het kantoor niet van cliëntenonderzoek en UBO-verificatie."
+    }
+  ]
 }

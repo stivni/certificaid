@@ -1,17 +1,33 @@
 {
   "id": "eerste-consolidatie",
   "naam": {
-    "primair": "Eerste consolidatie"
+    "primair": "Eerste consolidatie",
+    "synoniemen": [
+      "initiële consolidatie",
+      "eerste opname in de consolidatiekring"
+    ],
+    "vertaling": {
+      "fr": "première consolidation"
+    }
   },
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
     "provenance": {
-      "model": "skeleton-from-candidate",
-      "wave_id": "skeleton-dump",
-      "extract_prompt": "tools.extractie.skeleton_from_candidate",
-      "iteratie": "v0"
+      "model": "claude-sonnet-4-6",
+      "wave_id": "wave-2-beschrijven",
+      "extract_prompt": "prompts/operaties/beschrijven.md",
+      "iteratie": "01-beschrijven"
     },
+    "ankers": [
+      "1.4.I.D",
+      "1.4.I.G",
+      "1.4.II.A",
+      "1.4.II.D",
+      "1.4.taak.1",
+      "1.9.taak.1"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,34 +40,472 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wave_id": "wave-2-beschrijven",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.4.I.D",
-      "1.4.I.G",
-      "1.4.II.A",
-      "1.4.II.D",
-      "1.4.taak.1",
-      "1.9.taak.1"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Eerste consolidatie",
+        "tekst": "De **eerste consolidatie** is de verrichting waarbij een entiteit voor de **eerste keer** in de geconsolideerde jaarrekening wordt opgenomen — op het moment dat ze onder de consolidatieverplichting valt. Het is het eenmalige instapmoment in de consolidatiekring.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bij de eerste consolidatie worden de activa, passiva, rechten en verplichtingen van de nieuw op te nemen entiteit voor het eerst volledig in de geconsolideerde balans verwerkt. De **overnamemethode** is de centrale techniek: de reële waarde van de verworven netto-activa wordt bepaald op de **overnamedatum**, en het verschil met de betaalde overnameprijs vormt **goodwill** (of negatieve goodwill bij een koopje).\n\nDe operatie is fundamenteel anders dan een gewone jaarlijkse consolidatie:\n- Het is een **eenmalige transactie** — bij latere sluitingen is de entiteit al opgenomen\n- De **overnamedatum** (datum van controle-overgang) bepaalt het meetmoment voor reële waarden\n- Retroactieve aanpassing van voorgaande geconsolideerde cijfers is in de regel vereist voor vergelijkingsdoeleinden",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De eerste consolidatie is de technische implementatie van het economische principe dat een groep als **één economische eenheid** wordt voorgesteld. Zolang een entiteit niet geconsolideerd is, zijn haar activa, schulden en resultaten voor buitenstaanders onzichtbaar in de enkelvoudige jaarrekening van de moeder — enkel de boekhoudkundige waarde van de deelneming verschijnt. De eerste consolidatie maakt die verborgen economische substantie zichtbaar.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "trigger_start": [
+        {
+          "tekst": "Een entiteit valt voor het eerst onder de **consolidatieverplichting**: de moeder verwerft controle (doorgaans meerderheid stemrechten of feitelijke controlemacht) of de groep overschrijdt de drempelwaarden voor de eerste keer.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Controle-overgang is het wettelijke triggermoment (WVV art. 1:14–1:18), niet het moment van betaling of contractondertekening."
+        },
+        {
+          "tekst": "Een bestaande deelneming overschrijdt de drempel waarbij de **methode** wijzigt: van vermogensmutatiemethode (geassocieerde onderneming) naar integrale consolidatie (dochtervennootschap) of vice versa.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voor": [
+        {
+          "tekst": "Geconsolideerde jaarrekening van een **moedervennootschap** die een nieuwe dochter verwerft of voor het eerst zelf onder de consolidatieplicht valt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Groepen die de consolidatiedrempels voor het eerst overschrijden** en dus voor het eerst een geconsolideerde jaarrekening moeten opmaken — elke entiteit in de kring doorloopt op dat moment een eerste consolidatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Jaarlijkse actualisering** van een al geconsolideerde entiteit — dat is een gewone consolidatiebewerking, geen eerste consolidatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Interne reorganisaties** waarbij een dochter van groepsstructuur verandert maar dezelfde groep gecontroleerd blijft — geen echte controle-overgang, dus geen echte eerste consolidatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Brengt de **volledige economische substantie** van de verworven entiteit zichtbaar in de geconsolideerde jaarrekening — activa, schulden, latente belastingen en minderheidsbelangen die in de enkelvoudige jaarrekening van de moeder verborgen bleven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Foutieve bepaling van de overnamedatum** leidt tot incorrecte reële-waardebepaling en een verkeerde goodwill-berekening — goodwill-fouten zijn persistent en beïnvloeden de groepsrekeningen voor de volledige resterende afschrijvingsperiode.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onvolledige identificatie van verworven activa en verplichtingen** — verborgen schulden (fiscale risico's, pensioenverplichtingen, milieuclaims) die niet in de due diligence zijn opgedoken, worden bij eerste consolidatie alsnog als groepschuld opgenomen.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Betwijfeld: de exacte behandeling van post-acquisitie ontdekte verplichtingen verschilt tussen BGAAP en IFRS 3 — claims_checken moet dit verfijnen."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "overnamedatum",
+        "naam": {
+          "primair": "Overnamedatum",
+          "synoniemen": [
+            "datum van controle-overgang",
+            "acquisitiemoment"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **overnamedatum** is het moment waarop de moedervennootschap de controle over de dochter verkrijgt. Dit is het meetmoment voor alle reële waarden bij de eerste consolidatie. De datum valt typisch samen met het moment van overdracht van de aandelen en de betaling van de overnameprijs, maar contractueel kan een andere datum worden overeengekomen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De overnamedatum bepaalt welke reële waarden worden ingeboekt — een dag verschil kan door marktschommelingen leiden tot significante goodwill-afwijkingen."
+          }
+        }
+      },
+      {
+        "id": "reele-waardebepaling-overgenomen-netto-activa",
+        "naam": {
+          "primair": "Reële-waardebepaling van de overgenomen netto-activa"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Op de overnamedatum worden alle identificeerbare activa en verplichtingen van de overgenomen entiteit gewaardeerd aan **reële waarde** — niet aan de boekwaarde in de enkelvoudige jaarrekening van de dochter. Dit kan leiden tot:\n- **Herwaardering van materiële vaste activa** (gebouwen, machines) boven of onder boekwaarde\n- **Erkenning van immateriële activa** die in de enkelvoudige jaarrekening niet als aparte post stonden (merknaam, klantrelaties, patenten)\n- **Aanpassing van voorzieningen** aan de reële verwachte last\n- **Latente belastingen** op het verschil tussen reële waarde en fiscale boekwaarde",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De reële-waardebepaling is de kern van de overnamemethode: de prijs die de koper betaalde is een marktprijs; de jaarrekening van de overgenomen entiteit weerspiegelt de historische kostprijzen, niet de actuele economische waarde."
+          }
+        }
+      },
+      {
+        "id": "consolidatieverschil-goodwill",
+        "naam": {
+          "primair": "Consolidatieverschil en goodwill",
+          "synoniemen": [
+            "eerste consolidatieverschil",
+            "negatieve goodwill"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **consolidatieverschil** is het verschil tussen de overnameprijs (aankoopprijs van de aandelen + overgenomen schulden) en het aandeel van de moeder in de reële waarde van de netto-activa van de dochter op de overnamedatum.\n\n- **Positief verschil (goodwill)**: overnameprijs > reële netto-activa → goodwill als immaterieel actief\n- **Negatief verschil (negatieve goodwill / badwill)**: overnameprijs < reële netto-activa → voordeel bij aankoop, verwerking via resultaat of reserves",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De goodwill vertegenwoordigt de toekomstige economische voordelen die de moeder niet aan individuele activa kan toerekenen: synergiën, marktpositie, management-know-how."
+          }
+        }
+      },
+      {
+        "id": "minderheidsbelangen-bij-eerste-consolidatie",
+        "naam": {
+          "primair": "Minderheidsbelangen bij eerste consolidatie",
+          "synoniemen": [
+            "belangen van derden",
+            "niet-controlerende belangen"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Als de moeder **minder dan 100%** van de dochter bezit, worden bij de eerste consolidatie de **minderheidsbelangen** (het aandeel van de overige aandeelhouders in het eigen vermogen van de dochter) apart in het geconsolideerde eigen vermogen opgenomen. Ze worden gewaardeerd aan hun aandeel in de reële waarde van de netto-activa.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "eliminatie-deelneming-versus-eigen-vermogen",
+        "naam": {
+          "primair": "Eliminatie: deelneming versus eigen vermogen"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De centrale boekhoudkundige stap bij de eerste consolidatie: de **boekhoudkundige waarde van de deelneming** in de enkelvoudige jaarrekening van de moeder wordt geëlimineerd tegenover het **aandeel in het reëel eigen vermogen** van de dochter. Het saldo van deze eliminatie is de goodwill (of negatieve goodwill).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder deze eliminatie zouden de aandelen én de onderliggende activa beide in de geconsolideerde balans verschijnen — dubbeltellig van dezelfde economische waarde."
+          }
+        }
+      },
+      {
+        "id": "retrospectieve-vergelijkingscijfers",
+        "naam": {
+          "primair": "Retrospectieve vergelijkingscijfers"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de overnamedatum **binnen het boekjaar** valt, worden de resultaten van de dochter pro rata temporis (vanaf overnamedatum) opgenomen. De **balans van vorige periode** bevat de dochter nog niet — de vergelijkbaarheid tussen jaren is hierdoor beperkt en vereist toelichting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Pro-rata-temporis-regel: alleen resultaten na de datum van controle-overgang behoren toe aan de groep — wat voor dat moment gerealiseerd is, behoort aan de vroegere eigenaars."
+          }
+        }
+      },
+      {
+        "id": "drempel-eerste-versus-latere-consolidatie",
+        "naam": {
+          "primair": "Drempel: eerste versus latere consolidatie"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het onderscheid tussen **eerste consolidatie** en **latere consolidatie** draait om het controlemoment:\n- Eerste jaar van controle → eerste consolidatie met reële-waardebepaling en goodwill-berekening\n- Volgend jaar → normale geconsolideerde jaarsluiting met de initieel bepaalde reële waarden als startbasis\n\nEen **extra verwerving** van aanvullende aandelen in een al gecontroleerde dochter is géén tweede eerste consolidatie — dat is een transactie in eigen vermogen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "verrichting"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "consolidatiemethoden",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "consolidatiekring",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "triggert",
+      "target": "consolidatieverschil-goodwill",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "integrale-consolidatie",
+      "toelichting": "Eerste consolidatie is het instapmoment; integrale consolidatie is de lopende jaarlijkse toepassing. Eerste consolidatie vereist reële-waardebepaling en goodwill-berekening; de jaarlijkse integrale consolidatie werkt verder op die initiële waardes.",
+      "gelijkenissen": [
+        "Beide brengen de volledige activa en passiva van de dochter in de geconsolideerde balans",
+        "Beide elimineren de intercompany-positie deelneming versus eigen vermogen"
+      ],
+      "verschillen": [
+        "Eerste consolidatie vereist reële-waardebepaling op overnamedatum; latere consolidaties niet",
+        "Goodwill ontstaat alleen bij eerste consolidatie",
+        "Eerste consolidatie is eenmalig; integrale consolidatie is jaarlijks"
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "wijziging-consolidatiekring",
+      "toelichting": "Eerste consolidatie is een specifiek geval van wijziging van de consolidatiekring (een entiteit komt erbij). Wijziging-consolidatiekring is het ruimere kader dat ook deconsolidatie en methodewijzigingen omvat.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "minderheidsbelangen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

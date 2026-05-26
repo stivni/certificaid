@@ -11,9 +11,14 @@
       "en": "Assessment cycle"
     }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.5.VI",
+      "2.5.taak.4"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -33,17 +38,61 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 27)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende operatie beschrijven: gebruikscontext uitgebreid (niet_voor, voorwaarden, contra_indicaties), art-nummers uit tekstvelden verplaatst naar grondslag.bronnen, 2 extra elementen (aanslagtermijn en aanslag-van-ambtswege)."
       }
-    ],
-    "ankers": [
-      "2.5.VI",
-      "2.5.taak.4"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De aanslag cyclus is het geheel van opeenvolgende stappen waarbij de belastingadministratie, na ontvangst van een aangifte of ambtshalve, de belastbare grondslag vaststelt, de verschuldigde belasting berekent en een aanslagbiljet uitreikt aan de belastingplichtige. De cyclus omvat zowel de gewone aanslagprocedure als de bijzondere taxatiemethoden (aanslag van ambtswege, indiciaire taxatie) en loopt van de aangifte tot het uitvoerbaar verklaarde kohier.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Elke aangifte mondt uit in een belastingbeslissing (aanslag): de administratie controleert de aangifte, kan ze aanvaarden of corrigeren, stelt de grondslag vast en maakt een kohier op dat uitvoerbaar wordt verklaard — waarna de belasting invorderbaar is.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De aanslag cyclus bestaat omdat belastingen niet automatisch vastgesteld worden door de loutere indiening van een aangifte: de wet draagt de fiscus op om de juistheid te controleren en een rechtsgeldig aanslagbiljet te sturen voordat de overheid de belasting kan invorderen. Termijnen (aanslagtermijn) begrenzen hoe lang de administratie dit mag doen, en ze beschermen de belastingplichtige tegen onbeperkte onzekerheid. De cyclus creëert een evenwicht: de fiscus krijgt voldoende tijd om fraude en fouten te detecteren, maar de belastingplichtige weet dat na het verstrijken van de aanslagtermijn zijn aangifte definitief is, tenzij bijzondere omstandigheden (fraude, ontbrekende aangifte) een verlengde termijn rechtvaardigen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "gebruikscontext": {
-      "trigger_start": [
+      "voor": [
         {
+          "tekst": "Alle in België belastingplichtige ondernemingen en particulieren die een aangifte moeten indienen in de personenbelasting, vennootschapsbelasting, belasting der niet-inwoners of rechtspersonenbelasting.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -53,12 +102,83 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "De aanslag cyclus start op het moment dat de belastingplichtige een aangifte indient (of de indieningstermijn verstreken is zonder aangifte), en loopt door tot het aanslagbiljet wordt uitgereikt of de aanslagtermijn verstreken is."
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Bronheffingen die automatisch worden ingehouden aan de bron (bedrijfsvoorheffing, roerende voorheffing) vereisen geen aanslag cyclus voor de inhouder — de procedure geldt voor de eindafrekening van de belasting op naam van de belastingplichtige, niet voor de inhouding zelf.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Indirecte belastingen zoals btw kennen een eigen aangifteregime en geen klassieke aanslag cyclus via kohier — de btw-administratie werkt via naheffing en bezwaar, maar de structuur wijkt fundamenteel af van de directe-belasting-cyclus.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De belastingplichtige moet belastingplichtig zijn in België (personenbelasting, vennootschapsbelasting, belasting der niet-inwoners of rechtspersonenbelasting) en een aangifte indienen of daartoe verplicht zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De aanslagtermijn mag niet verstreken zijn: na verloop van de geldende aanslagtermijn (gewone termijn 3 jaar of verlengde termijn) is de administratie niet meer bevoegd om een aanslag te vestigen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De aanslag cyclus start op het moment dat de belastingplichtige een aangifte indient (of de indieningstermijn verstreken is zonder aangifte), en loopt door tot het aanslagbiljet wordt uitgereikt of de aanslagtermijn verstreken is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          }
         }
       ],
       "trigger_einde": [
         {
+          "tekst": "De cyclus eindigt ofwel bij uitreiking van het aanslagbiljet (en begin van de betalingstermijn), ofwel bij verstrijken van de aanslagtermijn zonder aanslag (aangifte dan definitief aanvaard), ofwel — in geval van bezwaar — bij de uitspraak van de directeur of de rechter.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -68,27 +188,27 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "De cyclus eindigt ofwel bij uitreiking van het aanslagbiljet (en begin van de betalingstermijn), ofwel bij verstrijken van de aanslagtermijn zonder aanslag (aangifte dan definitief aanvaard), ofwel — in geval van bezwaar — bij de uitspraak van de directeur of de rechter."
+          }
         }
       ],
-      "voor": [
+      "contra_indicaties": [
         {
+          "tekst": "Wanneer de aanslagtermijn definitief verstreken is en geen fraude of bijzondere omstandigheid een verlengde termijn rechtvaardigt, is de aanslag cyclus afgesloten — verdere administratieve acties zijn zonder rechtsgrond.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {
                 "type": "ai_model",
                 "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
+                "datum": "2026-05-23"
               }
             ]
-          },
-          "tekst": "Alle in België belastingplichtige ondernemingen en particulieren die een aangifte moeten indienen in de personenbelasting, vennootschapsbelasting, belasting der niet-inwoners of rechtspersonenbelasting."
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "Het overschrijden van een bezwaartermijn of het missen van een kennisgeving van wijziging van aangifte leidt tot definitieve aanslag zonder verder rechtsmiddel in administratieve fase.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -98,12 +218,12 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Het overschrijden van een bezwaartermijn of het missen van een kennisgeving van wijziging van aangifte leidt tot definitieve aanslag zonder verder rechtsmiddel in administratieve fase."
+          }
         }
       ],
       "indicaties": [
         {
+          "tekst": "De accountant moet de aanslagtermijnen kennen om te beoordelen of een (her)aanslag nog mogelijk is en om cliënten te adviseren over het tijdig indienen van bezwaren.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -113,10 +233,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "De accountant moet de aanslagtermijnen kennen om te beoordelen of een (her)aanslag nog mogelijk is en om cliënten te adviseren over het tijdig indienen van bezwaren."
+          }
         },
         {
+          "tekst": "Bij een fiscale controle is kennis van de aanslag cyclus essentieel om te weten welke stappen de administratie mag doorlopen en welke termijnen gelden voor eventuele aanpassingen.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -126,8 +246,7 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Bij een fiscale controle is kennis van de aanslag cyclus essentieel om te weten welke stappen de administratie mag doorlopen en welke termijnen gelden voor eventuele aanpassingen."
+          }
         }
       ]
     },
@@ -182,7 +301,7 @@
         },
         "kern": {
           "definitie": {
-            "tekst": "De administratie beschikt over een onderzoekstermijn (doorgaans 3 jaar vanaf 1 januari van het aanslagjaar, verlengbaar tot 7 jaar bij fraude of ontbrekende aangifte, tot 10 jaar bij ernstige aanwijzingen van fraude of buitenlandse constructies) om de aangifte te onderzoeken via vraag om inlichtingen, boekenonderzoek of controle ter plaatse.",
+            "tekst": "De administratie beschikt over een onderzoekstermijn om de aangifte te onderzoeken via vraag om inlichtingen, boekenonderzoek of controle ter plaatse. De gewone aanslagtermijn bedraagt 3 jaar; bij afwezigheid van aangifte of fraude gelden verlengde termijnen.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -214,14 +333,18 @@
         },
         "kern": {
           "definitie": {
-            "tekst": "Wanneer de administratie de aangifte wil corrigeren, stuurt zij een kennisgeving van wijziging (art. 346 WIB92). De belastingplichtige heeft dan een termijn van minstens een maand om te reageren en zijn bezwaren mee te delen. Dit is een contradictoir onderdeel van de cyclus.",
+            "tekst": "Wanneer de administratie de aangifte wil corrigeren, stuurt zij een kennisgeving van wijziging. De belastingplichtige heeft dan een termijn van minstens een maand om te reageren en zijn bezwaren mee te delen. Dit is het contradictoire onderdeel van de cyclus dat het verdedigingsrecht van de belastingplichtige verzekert.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {
+                  "type": "wettekst",
+                  "ref": "WIB92 art. 346"
+                },
+                {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -310,14 +433,27 @@
         },
         "kern": {
           "definitie": {
-            "tekst": "Het aanslagbiljet (of kennisgeving van aanslag in VenB via MyMinfin) wordt verstuurd naar de belastingplichtige. Het vermeldt het aanslagjaar, belastingsoort, belastbare grondslag, berekende belasting en de vervaldag voor betaling. De datum van verzending is bepalend voor de start van de bezwaartermijn (doorgaans 6 maanden na derde werkdag na verzending).",
+            "tekst": "Het aanslagbiljet (of kennisgeving van aanslag in VenB via MyMinfin) wordt verstuurd naar de belastingplichtige. Het vermeldt het aanslagjaar, de belastingsoort, de belastbare grondslag, de berekende belasting en de vervaldag voor betaling. De datum van verzending is bepalend voor de start van de bezwaartermijn.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De bezwaartermijn bedraagt doorgaans 6 maanden, te rekenen vanaf de derde werkdag na verzending van het aanslagbiljet. Dit moment is kritiek: het starten van de termijn is afhankelijk van de effectieve verzending, niet van de ontvangst.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -342,7 +478,7 @@
         },
         "kern": {
           "definitie": {
-            "tekst": "Binnen 6 maanden na de derde werkdag na verzending van het aanslagbiljet kan de belastingplichtige een bezwaarschrift indienen bij de bevoegde fiscale adviseur (vroeger: gewestelijk directeur). Bij afwijzing volgt eventueel een gerechtelijke procedure. De aanslag cyclus in enge zin eindigt bij vestiging van de aanslag; in brede zin omvat ze ook de geschillenfase.",
+            "tekst": "Binnen 6 maanden na de derde werkdag na verzending van het aanslagbiljet kan de belastingplichtige een bezwaarschrift indienen bij de bevoegde fiscale adviseur. Bij afwijzing volgt eventueel een gerechtelijke procedure. De aanslag cyclus in enge zin eindigt bij vestiging van de aanslag; in brede zin omvat ze ook de geschillenfase.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -355,55 +491,111 @@
             }
           }
         }
-      }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aanslag cyclus is het geheel van opeenvolgende stappen waarbij de belastingadministratie, na ontvangst van een aangifte of ambtshalve, de belastbare grondslag vaststelt, de verschuldigde belasting berekent en een aanslagbiljet uitreikt aan de belastingplichtige. De cyclus omvat zowel de gewone aanslagprocedure als de bijzondere taxatiemethoden (aanslag van ambtswege, indiciaire taxatie) en loopt van de aangifte tot het uitvoerbaar verklaarde kohier."
       },
-      "substantie": {
+      {
+        "id": "aanslagtermijn",
+        "naam": {
+          "primair": "Aanslagtermijn",
+          "synoniemen": [
+            "onderzoekstermijn",
+            "verjaringstermijn aanslag"
+          ]
+        },
+        "inhoud_type": "regel",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
-        "tekst": "Elke aangifte mondt uit in een belastingbeslissing (aanslag): de administratie controleert de aangifte, kan ze aanvaarden of corrigeren, stelt de grondslag vast en maakt een kohier op dat uitvoerbaar wordt verklaard — waarna de belasting invorderbaar is."
+        "kern": {
+          "definitie": {
+            "tekst": "De aanslagtermijn bepaalt hoe lang de administratie beschikt om een aanslag te vestigen. Na verloop van de termijn is de aanslag verjaard en kan de administratie niet meer optreden. De gewone termijn bedraagt 3 jaar (te rekenen vanaf 1 januari van het aanslagjaar). Een verlengde termijn van 7 jaar geldt wanneer de belastingplichtige geen aangifte heeft ingediend of een aangifte die onvolledig, onjuist of frauduleus is. Een termijn van 10 jaar is toepasselijk bij ernstige aanwijzingen van fiscale fraude of buitenlandse constructies.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De aanslagtermijn is het instrument dat het evenwicht bewaakt tussen de controlebevoegdheid van de fiscus en de rechtszekerheid van de belastingplichtige. Na verloop van de termijn mag de belastingplichtige ervan uitgaan dat zijn belastingpositie definitief is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
       },
-      "rationale": {
+      {
+        "id": "aanslag-van-ambtswege",
+        "naam": {
+          "primair": "Aanslag van ambtswege",
+          "vertaling": {
+            "fr": "Taxation d'office"
+          }
+        },
+        "inhoud_type": "uitzondering",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
-        "tekst": "De aanslag cyclus bestaat omdat belastingen niet automatisch vastgesteld worden door de loutere indiening van een aangifte: de wet draagt de fiscus op om de juistheid te controleren en een rechtsgeldig aanslagbiljet te sturen voordat de overheid de belasting kan invorderen. Termijnen (aanslagtermijn) begrenzen hoe lang de administratie dit mag doen, en ze beschermen de belastingplichtige tegen onbeperkte onzekerheid. De cyclus creëert een evenwicht: de fiscus krijgt voldoende tijd om fraude en fouten te detecteren, maar de belastingplichtige weet dat na het verstrijken van de aanslagtermijn zijn aangifte definitief is, tenzij bijzondere omstandigheden (fraude, ontbrekende aangifte) een verlengde termijn rechtvaardigen."
+        "kern": {
+          "definitie": {
+            "tekst": "Bij niet-indiening van de aangifte, of bij niet-medewerking na aanmaning, beschikt de administratie over de bevoegdheid om eenzijdig een aanslag te vestigen op basis van vermoedens (indiciaire taxatie). De bewijslast wordt daarbij omgekeerd: de belastingplichtige moet aantonen dat de ambtshalve aanslag te hoog is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De omgekeerde bewijslast is de kern van de sanctie: de belastingplichtige verliest de bewijspositie die hij normaal heeft. Indiciaire taxatie is de methode waarbij de administratie het inkomen afleidt uit uiterlijke tekenen van welstand (uitgavenpatroon, vermogensaanwas) wanneer de aangifte ontbreekt of ongeloofwaardig is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
       }
-    }
+    ]
   },
   "relaties": [
     {
       "type": "valt_onder",
       "target": "taxatieprocedure",
-      "toelichting": "De aanslag cyclus is de operationele invulling van de bredere taxatieprocedure (WIB92 Titel VII).",
+      "toelichting": "De aanslag cyclus is de operationele invulling van de bredere taxatieprocedure.",
       "grondslag": {
         "confidence": "verondersteld",
         "bronnen": [
@@ -522,7 +714,21 @@
           }
         ]
       }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fiscale-bewijsmiddelen",
+      "toelichting": "De bewijsmiddelen die de administratie en de belastingplichtige kunnen inroepen, bepalen mee hoe de aanslag cyclus verloopt — met name bij betwisting van de aangifte of bij aanslag van ambtswege.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "procedure"
+  ]
 }

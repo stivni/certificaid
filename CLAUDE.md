@@ -35,6 +35,7 @@ Regel 9 ("geen leftovers") geldt voor docs evenzeer als voor code: superseded AD
 | Openstaand werk + fase-status + mindset | [`docs/TODO.md`](docs/TODO.md) |
 | Architectuurbeslissing opzoeken of toevoegen | [`docs/adr/INDEX.md`](docs/adr/INDEX.md) |
 | **Schema 2.1 v1.5 concept-record schrijven** | [ADR-029](docs/adr/ADR-029-schema-21-operaties-model.md) + canonieke spec [`docs/schema-v15-besluit.md`](docs/schema-v15-besluit.md) + schema [`data/concepten/schema-2.1.schema.json`](data/concepten/schema-2.1.schema.json) |
+| **Granulariteit — wanneer eigen record vs sub-sectie?** | [ADR-030](docs/adr/ADR-030-granulariteit-typologie.md) (rationale-meta + regels A-J) + **[`docs/granulariteit-skelet.md`](docs/granulariteit-skelet.md)** (concrete concept-tree voor hele corpus, in opbouw — sparring-document, wordt canonieke skelet-spec). Sparring-historiek typologie: [`docs/granulariteit-typologie-draft.md`](docs/granulariteit-typologie-draft.md). |
 | **Operatie toepassen op schema 2.1-record** (extractie v6) | ADR-029 §Operaties-model — 7 operaties: `beschrijven` · `claims_checken` · `relaties_aanvullen` · `accountant_perspectief` · `didactisch_verrijken` · `kandidaat_review` · `leespad_aanvullen`. Prompts: [`prompts/operaties/`](prompts/operaties/) |
 | **Render-laag schema 2.1 v1.5** | [`docs/render-laag.md`](docs/render-laag.md) — werkpakket-spec; werk-tracking in TODO.md §Fase 7 |
 | **Skeleton-voorstel (pre-extractie stap 0)** | [`prompts/skeleton-voorstel-v1.md`](prompts/skeleton-voorstel-v1.md) — Opus-subagent met MCP-tools |

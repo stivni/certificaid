@@ -1,8 +1,17 @@
 {
   "id": "beroepsinkomen-pb",
   "naam": {
-    "primair": "Beroepsinkomen pb"
+    "primair": "Beroepsinkomen",
+    "afkorting": "beroepsinkomsten",
+    "synoniemen": [
+      "beroepsinkomsten PB",
+      "inkomsten uit beroepswerkzaamheid"
+    ],
+    "vertaling": {
+      "fr": "Revenus professionnels"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +21,13 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.2.VI",
+      "2.2.VI.A",
+      "2.2.VI.B",
+      "2.2.taak.1",
+      "2.2.taak.2"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,33 +40,442 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.2.VI",
-      "2.2.VI.A",
-      "2.2.VI.B",
-      "2.2.taak.1",
-      "2.2.taak.2"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Beroepsinkomen pb",
+        "tekst": "**Beroepsinkomen** in de personenbelasting is de vierde en grootste categorie van belastbare inkomsten. Het omvat alle inkomsten die een rijksinwoner verkrijgt **uit of naar aanleiding van een beroepswerkzaamheid**: winsten en baten van zelfstandigen, bezoldigingen van werknemers en bedrijfsleiders, pensioenen en vervangingsinkomsten, en baten uit een bijkomende beroepswerkzaamheid.\n\nBeroepsinkomen is **niet keuzevrij**: de wet wijst elk inkomen dwingend toe aan de subcategorie die past bij de aard van de activiteit en de hoedanigheid van de verkrijger.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Beroepsinkomen is het sluitstuk van de PB-inkomstencategorieën: onroerend inkomen, roerend inkomen, diverse inkomsten en beroepsinkomen. Wat niet in een van de eerste drie past en verband houdt met een beroepsactiviteit, is per definitie beroepsinkomen.\n\nDe subcategorieën functioneren als **afzonderlijke regimes** met eigen aftrekregels, tarievenmechanismen en fiscale gevolgen:\n- **Winsten** (handelaars, industriëlen, landbouwers)\n- **Baten** (vrije beroepen, ambten zonder gezagsband)\n- **Bezoldigingen van werknemers** (lonen, voordelen, vergoedingen)\n- **Bezoldigingen van bedrijfsleiders** (mandatarissen, werkende vennoten)\n- **Pensioenen en vervangingsinkomsten** (brugpensioen, invaliditeits-, werkloosheidsuitkering)\n\nDe indeling is niet cosmetisch: ze bepaalt **welke beroepskosten aftrekbaar zijn**, of het **forfait** dan wel **werkelijke kosten** van toepassing zijn, en of er **bedrijfsvoorheffing** wordt ingehouden aan de bron.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het beroepsinkomen-regime is het instrument waarmee de wetgever **draagkracht uit arbeid** belast. De opsplitsing in subcategorieën weerspiegelt de economische werkelijkheid: een vrije beroeper heeft een andere kosten-structuur dan een werknemer of een bedrijfsleider. Door per subcategorie andere aftrekregels toe te staan, kan de wetgever de belastinglast kalibreren op de realiteit van de beroepsactiviteit.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke rijksinwoner die inkomsten verkrijgt **uit of naar aanleiding van een beroepswerkzaamheid** — ongeacht of het gaat om een hoofdberoep of een bijkomende activiteit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het begrip beroepsinkomen is ruim: ook incidentele of bijkomende beroepsactiviteiten vallen eronder als ze een zekere regelmaat vertonen."
+        },
+        {
+          "tekst": "Kwalificatie van inkomsten als beroepsinkomen is aan de orde wanneer men **twijfelt** of iets roerend inkomen, divers inkomen dan wel beroepsinkomen is — de residuaire aard van beroepsinkomen maakt de grensafbakening relevant.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Passief vermogensinkomen** zonder link naar beroepswerkzaamheid: huurgelden (onroerend inkomen), dividenden en intresten (roerend inkomen).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het beroepsinkomen-regime veronderstelt een activiteitsband. Passief vermogensinkomen valt onder de respectieve vermogenscategorieën, niet onder beroepsinkomen."
+        },
+        {
+          "tekst": "**Speculatieve of eenmalige transacties** die niet kaderen in een beroepsmatig geheel — die kwalificeren als diverse inkomsten.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De grens tussen beroepsinkomen en diverse inkomsten is feitelijk en wordt mee bepaald door regelmaat, organisatie en intentie van de activiteit — te verifiëren bij claims_checken."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het inkomen moet **voortkomen uit of verband houden met een beroepswerkzaamheid**: een activiteit die men regelmatig en duurzaam uitoefent met het oogmerk winst te maken of een bezoldiging te ontvangen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Herkwalificatie** door de belastingadministratie: wat de belastingplichtige als roerend inkomen of divers inkomen aangeeft, kan worden geherkwalificeerd als beroepsinkomen — met hogere progressieve belasting en verlies van het voordelig roerend-inkomen-regime als gevolg.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "vijf-subcategorieen",
+        "naam": {
+          "primair": "Vijf subcategorieën beroepsinkomen"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De wet onderscheidt vijf subcategorieën beroepsinkomen, elk met eigen aftrekregels en tarieven:\n\n1. **Winsten** — inkomsten van zelfstandigen die een handels-, nijverheids- of landbouwactiviteit uitoefenen (exploitanten, vennoten met actieve inbreng)\n2. **Baten** — inkomsten van vrije beroepen (advocaat, arts, architect, accountant), ambten en posten **zonder gezagsband**\n3. **Bezoldigingen van werknemers** — lonen, voordelen van alle aard, vergoedingen aan werknemers met arbeidsovereenkomst\n4. **Bezoldigingen van bedrijfsleiders** — vergoedingen aan mandatarissen (zaakvoerders, bestuurders) en werkende vennoten\n5. **Pensioenen en vervangingsinkomsten** — wettelijk pensioen, brugpensioen, invaliditeits- en werkloosheidsuitkeringen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De wettelijke indeling is exhaustief en exclusief: elk beroepsinkomen valt in precies één subcategorie. De keuze van subcategorie is in principe dwingende kwalificatie, geen vrije keuze van de belastingplichtige."
+          }
+        }
+      },
+      {
+        "id": "beroepskosten-aftrekbaarheid",
+        "naam": {
+          "primair": "Aftrekbaarheid beroepskosten",
+          "synoniemen": [
+            "werkelijke beroepskosten",
+            "forfaitaire beroepskosten"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Beroepskosten zijn aftrekbaar van het brutoberoepsinkomen om het **netto belastbaar beroepsinkomen** te bepalen. De aftrekwijze verschilt per subcategorie:\n\n- **Werknemers en bedrijfsleiders**: keuze tussen **wettelijk forfait** (percentage van het brutoloon, begrensd) of **werkelijke kosten** (bewijs vereist)\n- **Zelfstandigen (winsten/baten)**: alleen **werkelijke kosten** — geen forfait van toepassing; kosten moeten eigen zijn aan het beroep en in het belastbaar tijdperk gedragen zijn\n- **Pensioenen**: beperkt forfait (lager percentage dan voor werknemers)\n\nVoor alle subcategorieën gelden de **algemene aftrekbaarheidsvereisten**: kosten moeten verband houden met de beroepswerkzaamheid, gedragen zijn in het belastbaar tijdperk, en met bewijsstukken worden gestaafd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het verschil forfait/werkelijke kosten is de meest praktisch relevante keuze voor werknemers. Voor zelfstandigen is de aftrekbaarheidsvoorwaarde van hogere prioriteit dan de vraag forfait/werkelijk."
+          }
+        }
+      },
+      {
+        "id": "progressief-tarief",
+        "naam": {
+          "primair": "Progressief tarief op beroepsinkomen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Beroepsinkomen is onderworpen aan de **progressieve belastingschalen** van de PB. Het netto belastbaar beroepsinkomen wordt belast via de gezamenlijke belastingberekening, waarbij hogere schijven hogere tarieven dragen.\n\nBeroepsinkomen wordt **niet afzonderlijk belast** (in tegenstelling tot bepaalde roerende inkomsten en sommige diverse inkomsten), maar maakt deel uit van het globaal belastbaar inkomen dat progressief belast wordt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De progressiviteit is de kern van de draagkrachtgedachte: wie meer verdient uit beroep, betaalt proportioneel meer. Dit onderscheidt beroepsinkomen van roerend inkomen dat via bevrijdende roerende voorheffing op een vlak tarief kan worden belast."
+          }
+        }
+      },
+      {
+        "id": "winst-baten-onderscheid",
+        "naam": {
+          "primair": "Onderscheid winsten en baten"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Winsten** zijn inkomsten van zelfstandigen die een **handels-, nijverheids- of landbouwonderneming** exploiteren — typisch met een duurzame organisatie, klanten, en eigen kapitaalrisico.\n\n**Baten** zijn inkomsten van **vrije beroepen** (liberale beroepen: artsen, advocaten, architecten, accountants...) en van **ambten of posten** zonder gezagsband. Het onderscheid is praktisch relevant omdat vrije beroepers belast worden op **ontvangen** bedragen (kasstelsel), terwijl handelaars belast worden op **verworven** winsten (accrual).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het kasstelsel voor baten versus accrual voor winsten is een significante praktische bekommernis voor eindejaarsfacturatie en timing van inkomsten. Te verifiëren bij claims_checken."
+          }
+        }
+      },
+      {
+        "id": "bedrijfsvoorheffing-mechanisme",
+        "naam": {
+          "primair": "Bedrijfsvoorheffing als voorafbetaling"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Bedrijfsvoorheffing** (BV) is een bronheffing die de werkgever of uitbetalende schuldenaer inhoudt op bezoldigingen van werknemers en bedrijfsleiders, en die als **voorafbetaling op de PB** wordt verrekend.\n\nVoor zelfstandigen (winsten/baten) bestaat geen bronheffing. Zij moeten via het systeem van **voorafbetalingen** zelf een equivalent bedrag betalen om de vermeerdering wegens onvoldoende voorafbetaling te vermijden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het verschil in inningtechniek (bronheffing bij bezoldigden vs. voorafbetalingen bij zelfstandigen) heeft gevolgen voor de liquiditeitspositie van de belastingplichtige en voor het moment waarop belasting effectief verschuldigd is."
+          }
+        }
+      },
+      {
+        "id": "niet-opsplitsbaar-principe",
+        "naam": {
+          "primair": "Opsplitsingsprincipe: één activiteit, één categorie"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een rijksinwoner kan tegelijkertijd inkomsten hebben uit **meerdere subcategorieën** — bv. bezoldiging als werknemer én baten als zelfstandige in bijberoep. De inkomsten worden per subcategorie afzonderlijk berekend (eigen aftrekregels), maar worden **samengevoegd** in de globale PB-berekening.\n\nWanneer een activiteit **gemengde kenmerken** vertoont (bv. bestuurder + actieve medewerker), primeert de **economische realiteit** over de benaming. De rechtbank kan een kwalificatie corrigeren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kwalificatiegrenzen",
+        "naam": {
+          "primair": "Kwalificatiegrenzen met andere inkomstencategorieën"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De grens tussen beroepsinkomen en andere categorieën is feitelijk en wordt betwist:\n\n- **Beroepsinkomen vs. divers inkomen**: regelmaat en organisatie zijn doorslaggevend. Wie systematisch goederen verkoopt met winst, kan geherkwalificeerd worden van divers naar beroepsinkomen.\n- **Beroepsinkomen vs. roerend inkomen**: managementvergoedingen aan vennoten kunnen in bepaalde gevallen als roerend inkomen worden beschouwd, maar worden in de praktijk vaak als bedrijfsleidersbezoldiging belast.\n- **Restcategorie-regel**: twijfelgevallen die niet in een andere categorie passen en verband houden met een beroepsactiviteit zijn beroepsinkomen.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De kwalificatiegrenzen zijn examenrelevant: candidates moeten de feiten kunnen analyseren en de juiste categorie bepalen. Te verifiëren bij claims_checken."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Beroepsinkomen is één van de vier inkomstencategorieën in de personenbelasting en wordt belast via de progressieve schalen."
+    },
+    {
+      "type": "valt_onder",
+      "target": "inkomstencategorieen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "winst-baten-zelfstandige-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Winsten en baten van zelfstandigen zijn subcategorieën van beroepsinkomen."
+    },
+    {
+      "type": "bevat",
+      "target": "werknemersbezoldiging-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Bezoldigingen van werknemers zijn een subcategorie van beroepsinkomen."
+    },
+    {
+      "type": "bevat",
+      "target": "bedrijfsleidersbezoldiging-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Bezoldigingen van bedrijfsleiders zijn een subcategorie van beroepsinkomen."
+    },
+    {
+      "type": "vereist",
+      "target": "beroepskosten-regime-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Berekening van het netto belastbaar beroepsinkomen vereist kennis van de aftrekbaarheidsregels voor beroepskosten."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "bedrijfsvoorheffing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Voor bezoldigingen wordt de PB op beroepsinkomen vooraf ingehouden via de bedrijfsvoorheffing."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "diverse-inkomsten-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De grens beroepsinkomen/diverse inkomsten is een klassieke kwalificatievraag: regelmaat en organisatie zijn doorslaggevend.",
+      "gelijkenissen": [
+        "Beide zijn belastbaar inkomen voor rijksinwoners in de PB"
+      ],
+      "verschillen": [
+        "Beroepsinkomen is progressief belast via de globale berekening; diverse inkomsten kunnen afzonderlijk tegen een vlak tarief worden belast",
+        "Beroepsinkomen vereist een beroepsactiviteit; diverse inkomsten zijn residuair voor al het overige"
+      ],
+      "verwarring_risico": "Herkwalificatie van diverse naar beroepsinkomen leidt tot hogere progressieve belasting en aftrekbaarheid van beroepskosten in plaats van de beperkte aftrekken voor diverse inkomsten."
+    }
+  ]
 }

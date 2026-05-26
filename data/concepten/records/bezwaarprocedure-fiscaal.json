@@ -1,11 +1,24 @@
 {
   "id": "bezwaarprocedure-fiscaal",
   "naam": {
-    "primair": "Bezwaarprocedure fiscaal"
+    "primair": "Bezwaarprocedure fiscaal",
+    "synoniemen": [
+      "administratief beroep fiscaal",
+      "bezwaarschrift",
+      "fiscaal bezwaar"
+    ],
+    "vertaling": {
+      "fr": "Procédure de réclamation fiscale"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.5.VI",
+      "2.5.taak.4"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +37,532 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.5.VI",
-      "2.5.taak.4"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Bezwaarprocedure fiscaal",
+        "tekst": "De **bezwaarprocedure fiscaal** is de eerste fase van het administratief verhaal waarbij een belastingplichtige een ingekohierde aanslag betwist bij de bevoegde gewestelijk directeur. Het bezwaar moet schriftelijk worden ingediend binnen een wettelijke termijn en bevat een gemotiveerde betwisting van de aanslag — in feite of in rechte.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De bezwaarprocedure is het **verplichte administratieve tussenstation** tussen de ontvangst van een aanslagbiljet en een eventuele gang naar de rechtbank. Ze vervult een dubbele functie: enerzijds biedt ze de belastingplichtige een laagdrempelig kanaal om een onjuiste aanslag te corrigeren; anderzijds filtert ze zaken uit die zonder rechterlijke tussenkomst kunnen worden opgelost.\n\nDrie sleutelkenmerken onderscheiden haar van de latere gerechtelijke fase:\n- **Administratieve beslissing** — de gewestelijk directeur of zijn gemachtigde beslist, niet een rechter\n- **Verplicht voortraject** — men kan niet rechtstreeks naar de rechter zonder eerst bezwaar te hebben ingediend\n- **Geen schorsende werking** — de aanslag blijft invorderbaar tijdens de procedure, tenzij vrijstelling van zekerheidstelling of uitstel van betaling wordt verkregen",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De bezwaarprocedure bestaat als verplicht administratief filter om de hoven en rechtbanken te ontlasten van fiscale geschillen die administratief oplosbaar zijn. Door de overheid zelf eerst een herstelkans te geven — voor fouten in feite of in rechte — wordt onnodig procederen vermeden. De regel dat de aanslag invorderbaar blijft tijdens het bezwaar plaatst de financiële druk bij de belastingplichtige, wat enerzijds misbruik ontmoedigt maar anderzijds liquiditeitsproblemen kan veroorzaken bij onterechte aanslagen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "trigger_start": [
+        {
+          "tekst": "Ontvangst van een aanslagbiljet met een aanslag waarmee de belastingplichtige het niet eens is — wegens een fout in feite (verkeerd bedrag, niet-erkende aftrek) of een fout in rechte (verkeerde wetstoepassing).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De termijn begint te lopen op de derde werkdag na verzending van het aanslagbiljet.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De gewestelijk directeur neemt een **directeursbeslissing** (ook: beslissing inzake bezwaar): gehele of gedeeltelijke ontheffing, of afwijzing. Hiermee eindigt de administratieve fase en opent de weg naar de rechtbank.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De procedure eindigt ook wanneer de belastingplichtige zijn bezwaar intrekt, of wanneer de termijn voor de directeursbeslissing verstreken is zonder beslissing — wat de weg naar de rechter opent (stilzwijgende weigering).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voor": [
+        {
+          "tekst": "Elke belastingplichtige die een ingekohierde aanslag (PB, VenB, BNI, rechtspersonenbelasting) betwist — zowel voor materiële fouten (onjuiste bedragen, vergeten aftrekken) als voor rechtsvragen (verkeerde kwalificatie, onjuiste wetstoepassing).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "BTW-geschillen — die kennen een eigen administratieve beroepsprocedure bij de BTW-administratie en volgen andere termijnen en regels.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Lokale en gewestelijke belastingen (gemeentebelastingen, onroerende voorheffing, schenkbelasting) — die kennen aparte bezwaarprocedures bij de respectieve overheden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het bezwaar moet worden ingediend **binnen 6 maanden** (betwijfeld: na codificatie WIB92; vroeger 3 maanden) na de derde werkdag volgend op de verzending van het aanslagbiljet. De termijn is op straffe van verval.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het bezwaar moet **schriftelijk** worden ingediend bij de bevoegde gewestelijk directeur — per post, elektronisch (via MyMinfin) of per afgifte tegen ontvangstbewijs.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het bezwaar moet **gemotiveerd** zijn: de belastingplichtige moet de bezwaren voldoende nauwkeurig aanduiden, zodat de administratie weet waartegen ze zich moet verdedigen. Een louter algemene betwisting volstaat niet.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Termijn op straffe van verval** — een te laat ingediend bezwaar is onontvankelijk, ook bij materieel gegronde bezwaren. De belastingplichtige verliest zijn recht op administratief verhaal.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Aanslag blijft invorderbaar** — geen schorsende werking, waardoor een belastingplichtige die later gelijk krijgt toch voorlopig betaald heeft (eventueel met liquiditeitsproblemen tot gevolg).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "bezwaartermijn",
+        "naam": {
+          "primair": "Bezwaartermijn",
+          "synoniemen": [
+            "indieningstermijn bezwaar"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De bezwaartermijn is de wettelijke indieningstermijn voor een bezwaarschrift. Ze bedraagt **6 maanden** (betwijfeld: exacte termijn afhankelijk van huidig wetboek WIB92 en eventuele recente wijzigingen) vanaf de derde werkdag na de verzending van het aanslagbiljet. De termijn is van openbare orde en geldt op straffe van verval — een laattijdig bezwaar is onontvankelijk.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De termijn is op straffe van **verval** (niet van nietigheid) — ze kan niet worden verlengd door de rechter en haar overschrijding wordt ambtshalve opgeworpen. Dit onderscheidt het fiscaal bezwaar van gewone burgerrechtelijke vorderingen waar termijnen soms stuiten of verlengbaar zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gewestelijk-directeur",
+        "naam": {
+          "primair": "Gewestelijk directeur",
+          "synoniemen": [
+            "directeur belastingen",
+            "directeur bevoegd inzake bezwaar"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De gewestelijk directeur (of zijn gemachtigde) is de bevoegde ambtenaar van de FOD Financiën die bevoegd is om bezwaarschriften te behandelen en de directeursbeslissing te nemen. De bevoegde directeur is die van het ambtsgebied waar de aanslag gevestigd is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "motivering-bezwaarschrift",
+        "naam": {
+          "primair": "Motivering van het bezwaarschrift"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een bezwaarschrift moet de bezwaren **voldoende nauwkeurig** omschrijven: welke posten worden betwist, op welke gronden (fout in feite of in rechte), en welk bedrag of welke correctie wordt gevraagd. Een louter algemene betwisting ('ik betwist de aanslag') volstaat niet en kan leiden tot onontvankelijkheid.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Het motiveringsvereiste heeft een dubbel doel: de administratie weet waartegen ze zich moet verdedigen, en de belastingplichtige bakent af welke punten hij later voor de rechtbank kan brengen. In beginsel kan de belastingplichtige zijn bezwaar vóór de beslissing aanvullen met nieuwe gronden, maar na de beslissing is enkel beroep op reeds aangevoerde gronden mogelijk.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "geen-schorsende-werking",
+        "naam": {
+          "primair": "Geen schorsende werking",
+          "synoniemen": [
+            "aanslag blijft invorderbaar tijdens bezwaar"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het indienen van een bezwaar heeft **geen schorsende werking** op de invordering van de aanslag. De belastingplichtige moet de betwiste aanslag betalen — of uitstel van betaling aanvragen — ook al loopt de bezwaarprocedure nog.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Dit principe plaatst de financiële druk bij de belastingplichtige en voorkomt dat bezwaar louter als betalingsuitstel wordt misbruikt. De belastingplichtige kan wel **uitstel van betaling** vragen aan de ontvanger, of **vrijstelling van zekerheidstelling** aanvragen. Bij gehele of gedeeltelijke ontheffing wordt het te veel betaalde teruggestort met moratoire interest.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "directeursbeslissing",
+        "naam": {
+          "primair": "Directeursbeslissing",
+          "synoniemen": [
+            "beslissing inzake bezwaar",
+            "administratieve beslissing bezwaar"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De directeursbeslissing is de formele beslissing waarmee de gewestelijk directeur het bezwaar behandelt. Ze kan bestaan uit:\n- **Volledige ontheffing** — aanslag volledig vernietigd of teruggebracht\n- **Gedeeltelijke ontheffing** — aanslag verminderd voor sommige punten\n- **Afwijzing** — bezwaar ongegrond verklaard\n\nDe directeur moet in principe beslissen binnen **6 maanden** (betwijfeld: termijn eventueel verlengbaar) na het bezwaar. Na die termijn kan de belastingplichtige naar de rechter zonder beslissing af te wachten (stilzwijgende weigering).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hooringsrecht",
+        "naam": {
+          "primair": "Hooringsrecht",
+          "synoniemen": [
+            "recht om gehoord te worden",
+            "hoorzitting bezwaar"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige heeft het recht om **gehoord te worden** vóórdat een negatieve beslissing wordt genomen over zijn bezwaar. Hij kan dit recht inroepen, of de directeur kan hem ambtshalve oproepen. Bij de hoorzitting kan de belastingplichtige zijn argumenten mondeling toelichten en aanvullen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ambtshalve-ontheffing",
+        "naam": {
+          "primair": "Ambtshalve ontheffing",
+          "synoniemen": [
+            "ontheffing van ambtswege"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de bezwaartermijn verstreken is maar de aanslag materieel onjuist is, kan de administratie in bepaalde gevallen **ambtshalve ontheffing** verlenen — zonder dat de belastingplichtige een geldig bezwaar heeft ingediend. Dit is een gunstmaatregel: de belastingplichtige heeft er geen recht op maar kan erom verzoeken. De termijn voor ambtshalve ontheffing is doorgaans **5 jaar** (betwijfeld) na het aanslagjaar.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De ambtshalve ontheffing bestaat als veiligheidsventiel voor situaties waar een manifest onjuiste aanslag niet meer via de gewone bezwaarprocedure aanvechtbaar is (termijn verstreken). Ze toont dat de procedure niet louter pro-fisco is, maar ook rechtsherstel kan bieden buiten de formele termijnen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure-belastingplichtige",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De bezwaarprocedure is de eerste fase van het fiscaal verhaal en valt onder het bredere kader van de fiscale procedureregels voor de belastingplichtige."
+    },
+    {
+      "type": "vereist",
+      "target": "taxatieprocedure",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Een bezwaarprocedure veronderstelt een voorafgaande inkohiering — er moet een aanslag zijn waartegen bezwaar mogelijk is."
+    },
+    {
+      "type": "triggert",
+      "target": "gerechtelijke-fase-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Een negatieve directeursbeslissing (of stilzwijgende weigering na termijn) opent de weg naar de gerechtelijke fase — beroep bij de rechtbank van eerste aanleg."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-bemiddelingsprocedure",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De fiscale bemiddelingsprocedure (bij de Fiscale Bemiddelingsdienst) is een alternatief of aanvulling bij de bezwaarprocedure — ze beoogt een minnelijke oplossing, terwijl bezwaar een formeel-administratief verhaal is."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aanslagtermijnen-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De correctheid van de aanslag — en dus de grondslag voor bezwaar — hangt samen met de vraag of de administratie binnen de wettelijke aanslagtermijnen heeft gehandeld."
+    }
+  ]
 }

@@ -12,9 +12,14 @@
       "nl": "Aanvullende gemeentebelasting op de personenbelasting"
     }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.7.II.B",
+      "2.7.taak.2"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -33,14 +38,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 12)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende modus: gebruikscontext uitgebreid (niet_voor, voordeel, risico), formule-element toegevoegd."
       }
-    ],
-    "ankers": [
-      "2.7.II.B",
-      "2.7.taak.2"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De aanvullende gemeentebelasting (AGB) is een belasting die gemeenten heffen als procentueel opslag op de verschuldigde personenbelasting (staat), berekend op basis van de gereduceerde personenbelasting na verrekening van bepaalde voorheffingen en kredieten. Ze is geregeld in artikel 465 tot 470 van het Wetboek van de Inkomstenbelastingen 1992 (WIB 92)."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De gemeente legt een tarief vast (uitgedrukt in procent van de verschuldigde personenbelasting staat) dat via de federale aangifte personenbelasting ingehouden wordt en doorgestort naar de betrokken gemeente."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Gemeenten financieren hun lokale beleidstaken (openbaar vervoer, infrastructuur, sociale diensten) via eigen belastinginkomsten. De AGB is voor gemeenten een efficiënte heffingstechniek: de federale overheid int de belasting mee via de reguliere aangifte, zodat de gemeente geen eigen inningapparaat nodig heeft. Voor de belastingplichtige is de AGB onzichtbaar in het dagelijks leven maar merkbaar op het aanslagbiljet: het verhoogt de totale belastingdruk op beroeps- en andere inkomsten. Gemeenten met hogere tarieven zijn fiscaal minder aantrekkelijk als woonplaats — een relevant element bij vestigingsadvies."
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "personenbelasting",
@@ -95,6 +143,34 @@
           "tekst": "Advisering van zelfstandigen of bedrijfsleiders over de invloed van woonplaats op totale belastingkost."
         }
       ],
+      "niet_voor": [
+        {
+          "tekst": "Belastingplichtigen onderworpen aan de belasting van niet-inwoners (BNI) — zij zijn vrijgesteld van de AGB.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Onroerende inkomsten die reeds via onroerende voorheffing met gemeentelijke opcentiemen belast worden — de AGB slaat niet op de afzonderlijk belaste kadastraalinkomstencomponent.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
       "voorwaarden": [
         {
           "grondslag": {
@@ -121,6 +197,62 @@
             ]
           },
           "tekst": "Niet verschuldigd door niet-inwoners (belasting niet-inwoners) of door belastingplichtigen ingeschreven in een gemeente die geen AGB heft (zeldzaam)."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Eenvoudige inning via de bestaande federale aangifte personenbelasting — de belastingplichtige hoeft geen aparte aangifte te doen bij de gemeente.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Voor gemeenten: stabiele en voorspelbare belastingopbrengst die automatisch meegroeit met de belastbare inkomsten van de inwoners.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Onderschatting van de totale belastingdruk wanneer de AGB niet meegeteld wordt bij een belastingsimulatie — leidt tot te rooskleurig advies over nettoloon of nettokost.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een verhuis naar een gemeente met hogere AGB na de peildatum (1 januari) heeft geen effect voor het lopende aanslagjaar, maar kan in het jaar na de verhuis leiden tot een onverwacht saldo op het aanslagbiljet als de bedrijfsvoorheffing nog op het oude tarief is berekend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ]
     },
@@ -151,6 +283,38 @@
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
                   "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "berekeningsformule",
+        "naam": {
+          "primair": "Berekeningsformule AGB"
+        },
+        "inhoud_type": "formule",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "AGB = gereduceerde PB staat × gemeentelijk AGB-tarief (%).\n\nWaar de gereduceerde PB staat = de personenbelasting staat vóór belastingverminderingen, na aftrek van de forfaitaire buitenlandse belasting en de verrekenbare roerende voorheffing.\n\nVoorbeeldberekening: gereduceerde PB staat € 10.000 × 7% AGB-tarief = € 700 verschuldigde gemeentebelasting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -349,48 +513,7 @@
           }
         }
       }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aanvullende gemeentebelasting (AGB) is een belasting die gemeenten heffen als procentueel opslag op de verschuldigde personenbelasting (staat), berekend op basis van de gereduceerde personenbelasting na verrekening van bepaalde voorheffingen en kredieten. Ze is geregeld in artikel 465 tot 470 van het Wetboek van de Inkomstenbelastingen 1992 (WIB 92)."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De gemeente legt een tarief vast (uitgedrukt in procent van de verschuldigde personenbelasting staat) dat via de federale aangifte personenbelasting ingehouden wordt en doorgestort naar de betrokken gemeente."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Gemeenten financieren hun lokale beleidstaken (openbaar vervoer, infrastructuur, sociale diensten) via eigen belastinginkomsten. De AGB is voor gemeenten een efficiënte heffingstechniek: de federale overheid int de belasting mee via de reguliere aangifte, zodat de gemeente geen eigen inningapparaat nodig heeft. Voor de belastingplichtige is de AGB onzichtbaar in het dagelijks leven maar merkbaar op het aanslagbiljet: het verhoogt de totale belastingdruk op beroeps- en andere inkomsten. Gemeenten met hogere tarieven zijn fiscaal minder aantrekkelijk als woonplaats — een relevant element bij vestigingsadvies."
-      }
-    }
+    ]
   },
   "relaties": [
     {
@@ -500,7 +623,21 @@
           }
         ]
       }
+    },
+    {
+      "type": "valt_onder",
+      "target": "lokale-fiscale-autonomie",
+      "toelichting": "De bevoegdheid van gemeenten om het AGB-tarief vrij vast te stellen illustreert de lokale fiscale autonomie binnen de door de federale wet gestelde grenzen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "regime"
+  ]
 }

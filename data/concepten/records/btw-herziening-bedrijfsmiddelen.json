@@ -1,8 +1,16 @@
 {
   "id": "btw-herziening-bedrijfsmiddelen",
   "naam": {
-    "primair": "Btw herziening bedrijfsmiddelen"
+    "primair": "Btw herziening bedrijfsmiddelen",
+    "synoniemen": [
+      "herzieningsregeling bedrijfsmiddelen",
+      "herziening aftrek bedrijfsmiddelen"
+    ],
+    "vertaling": {
+      "fr": "Révision de la TVA sur les biens d'investissement"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +32,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -34,20 +48,416 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Btw herziening bedrijfsmiddelen",
+        "tekst": "De **btw-herziening bedrijfsmiddelen** is de procedure waarbij de initieel in aftrek gebrachte btw op een bedrijfsmiddel gedeeltelijk wordt teruggestort aan de Staat — of omgekeerd, extra teruggevorderd — wanneer de **werkelijke gebruiksverhouding** van dat bedrijfsmiddel afwijkt van de gebruiksverhouding die gold op het moment van aftrek. De herziening corrigeert de aftrek jaar per jaar over een vaste herzieningsperiode.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bij aankoop van een bedrijfsmiddel trekt de belastingplichtige de btw af op basis van het **verwachte gebruik** voor belaste handelingen. De wet gaat er echter vanuit dat dit gebruik over een langere periode kan wijzigen. Om vertekening te vermijden, worden de eerste aftrek en de latere werkelijke gebruiksverhouding jaarlijks vergeleken.\n\nAls de belaste-gebruiksverhouding **daalt** (bv. meer vrijgestelde activiteiten), moet een deel van de oorspronkelijk genoten aftrek worden teruggestort. Als de verhouding **stijgt** (bv. meer belaste activiteiten), kan een bijkomend stuk worden teruggevorderd dat eerder niet werd afgetrokken.\n\nDe herziening wordt berekend als een vijfde (of een twintigste voor onroerende goederen) van het totale aftrekbare btw-bedrag per jaar, vermenigvuldigd met het verschil in aftrekpercentage.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De herzieningsregeling is gebaseerd op het principe dat de btw-aftrek de **werkelijke economische bestemming** van het bedrijfsmiddel moet volgen. Een eenmalige aftrekbeslissing bij aankoop zou onvoldoende zijn als het gebruik daarna ingrijpend wijzigt. De gespreide correctie over meerdere jaren is een compromis: bij te korte periodes wordt elke wijziging onmiddellijk belast; bij te lange periodes verliest de correctie haar betekenis.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "trigger_start": [
+        {
+          "tekst": "Een belastingplichtige koopt, bouwt of verkrijgt een **bedrijfsmiddel** waarvoor btw in aftrek werd genomen — geheel of gedeeltelijk.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De **gebruiksverhouding** van het bedrijfsmiddel (belast vs. vrijgesteld gebruik) wijzigt ten opzichte van de verhouding die gold bij de eerste aftrekbeslissing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het bedrijfsmiddel wordt **vervreemd**, overgedragen of buiten gebruik gesteld tijdens de herzieningsperiode — dan volgt een eenmalige eindscore-herziening voor de resterende jaren.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De **herzieningsperiode verstrijkt**: 5 jaar voor roerende bedrijfsmiddelen, 15 jaar voor onroerende bedrijfsmiddelen (te rekenen vanaf het eerste gebruik).",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Diensten** en verbruiksgoederen (grondstoffen, kantoorverbruik): die vallen niet onder de herzieningsregeling — alleen goederen die als bedrijfsmiddel worden geclassificeerd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Handelsgoederen** (voor wederverkoop bestemde stock): die zijn geen bedrijfsmiddelen in de zin van de herzieningsregeling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Belastingplichtigen die **uitsluitend vrijgestelde handelingen** verrichten (en nooit recht hadden op aftrek): voor hen is er niets te herzien.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Vergeten van de herzieningstermijn**: wanneer de activiteit van de belastingplichtige wijzigt (bv. uitbreiding met vrijgestelde prestaties), wordt de herzieningsverplichting dikwijls over het hoofd gezien, met btw-boetes en nalatigheidsintresten tot gevolg.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Foutieve classificatie van een goed als niet-bedrijfsmiddel**: wanneer een investering ten onrechte buiten de herzieningsregeling valt, kan de administratie achteraf de volledige initiële aftrek betwisten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "bedrijfsmiddel-definitie",
+        "naam": {
+          "primair": "Bedrijfsmiddel",
+          "synoniemen": [
+            "investeringsgoed",
+            "bien d'investissement"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **bedrijfsmiddel** is een goed dat duurzaam wordt gebruikt in de onderneming en dat niet bij eerste gebruik verloren gaat. Het onderscheid met verbruiksgoederen ligt in de **meervoudige gebruikslevensduur**: machines, voertuigen, gebouwen en inrichtingswerken zijn typische bedrijfsmiddelen. De drempelwaarde voor kwalificatie als bedrijfsmiddel (en dus voor herzieningsplicht) is wettelijk niet gedefinieerd in absolute bedragen maar afgebakend door de duurzaamheidscriteria.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "herzieningsperiode",
+        "naam": {
+          "primair": "Herzieningsperiode",
+          "synoniemen": [
+            "herzieningstermijn"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De herzieningsperiode bepaalt over hoeveel jaar de initiële aftrek jaarlijks kan worden gecorrigeerd:\n- **Roerende bedrijfsmiddelen**: 5 jaar (elk jaar = 1/5 van de totale btw)\n- **Onroerende bedrijfsmiddelen** (gebouwen, verbouwingen): 15 jaar (elk jaar = 1/15 van de totale btw)\n\nDe periode begint te lopen vanaf het **eerste gebruik** van het bedrijfsmiddel.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "herzieningsjaarschijf",
+        "naam": {
+          "primair": "Herzieningsjaarschijf",
+          "synoniemen": [
+            "jaarlijkse herzieningsfractie"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Per herzieningsjaar wordt één schijf van de totale btw gecorrigeerd.\n\n**Formule roerend**: herzieningsbedrag = (oorspronkelijke btw × 1/5) × (initieel aftrekpercentage − werkelijk aftrekpercentage jaar N)\n\n**Formule onroerend**: herzieningsbedrag = (oorspronkelijke btw × 1/15) × (initieel aftrekpercentage − werkelijk aftrekpercentage jaar N)\n\nEen **negatief** resultaat (werkelijk aftrekpercentage > initieel) betekent een **terugvordering** ten gunste van de belastingplichtige. Een **positief** resultaat betekent een **bijbetaling** aan de Staat.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tolerantiegrens-herziening",
+        "naam": {
+          "primair": "Tolerantiegrens",
+          "synoniemen": [
+            "drempel voor herziening"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Herziening is **niet verplicht** wanneer het verschil tussen het initiële en het werkelijke aftrekpercentage kleiner is dan een bepaalde tolerantiedrempel. Hierdoor worden kleine schommelingen in de gebruiksverhouding niet jaarlijks gecorrigeerd. De exacte tolerantiedrempel (doorgaans vermeld als een procentuele afwijking) is te verifiëren in de wettekst.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "herziening-bij-vervreemding",
+        "naam": {
+          "primair": "Herziening bij vervreemding of onttrekking"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een bedrijfsmiddel **verkocht**, overgedragen of definitief onttrokken wordt aan de economische activiteit **vóór het einde van de herzieningsperiode**, is een **eenmalige eindscore-herziening** verschuldigd voor alle resterende jaren. De overdracht wordt dan behandeld alsof het bedrijfsmiddel de rest van de herzieningsperiode uitsluitend belast (bij verkoop met btw) of uitsluitend vrijgesteld (bij verkoop zonder btw of onttrekking voor privégebruik) zou zijn gebruikt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gemengd-gebruik-en-aftrekpercentage",
+        "naam": {
+          "primair": "Gemengd gebruik en aftrekpercentage"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De herzieningsregeling is bijzonder relevant voor **gemengde belastingplichtigen** — ondernemingen die zowel belaste als vrijgestelde handelingen verrichten (bv. banken met gemengde portefeuille, vastgoedontwikkelaars, ziekenhuizen met belaste activiteiten).\n\nHet **initiële aftrekpercentage** wordt bepaald op basis van de verwachte bestemming bij aankoop (pro-rataregel of werkelijk gebruik). Het **werkelijke aftrekpercentage per jaar** wordt bepaald op basis van de daadwerkelijke gebruiksverhouding. Het verschil triggert de herzieningsberekening.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tijdstip-rapportering",
+        "naam": {
+          "primair": "Tijdstip van rapportering en betaling"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De jaarlijkse herziening wordt gerapporteerd in de **btw-aangifte van het eerste kwartaal** (of de eerste maand voor maandaangevers) van het **volgende kalenderjaar**. Het herzieningsbedrag wordt verrekend als verschuldigde btw (bijbetaling) of als aftrekbare btw (terugvordering) in die aangifte.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-aftrek",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De herzieningsregeling is een correctiemechanisme op de initieel toegepaste btw-aftrek."
+    },
+    {
+      "type": "valt_onder",
+      "target": "btw-stelsel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-vrijstellingen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Wanneer activiteiten verschuiven naar vrijgestelde handelingen daalt het werkelijke aftrekpercentage en triggert de herzieningsplicht."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-vastgoed",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Onroerende goederen kennen een langere herzieningsperiode (15 jaar) en bijzondere regels bij optie voor btw-verhuur."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "btw-aangifte",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De herzieningsbedragen worden verwerkt via de reguliere btw-aangifte."
+    }
+  ]
 }

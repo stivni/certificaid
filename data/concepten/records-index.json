@@ -1,0 +1,2822 @@
+{
+  "schema_version": "2.1",
+  "totaal": 396,
+  "samenstelling": {
+    "per_concept_type": {
+      "balanspost": 10,
+      "instrument": 24,
+      "kader": 165,
+      "procedure": 87,
+      "ratio": 15,
+      "regime": 78,
+      "verrichting": 17
+    },
+    "per_status": {
+      "seed": 396
+    }
+  },
+  "records": [
+    {
+      "id": "aangifte-nalatenschap",
+      "naam": "Aangifte nalatenschap",
+      "concept_type": "procedure",
+      "primary_po": "2.6",
+      "status": "seed",
+      "definitie": "De aangifte van nalatenschap is de verplichte fiscale aangifte waarmee de erfgenamen, legatarissen of begiftigden aan d…"
+    },
+    {
+      "id": "aangifte-pb",
+      "naam": "Aangifte personenbelasting",
+      "concept_type": "procedure",
+      "primary_po": "2.2",
+      "status": "seed",
+      "definitie": "De aangifte personenbelasting is het wettelijk verplichte document waarmee een rijksinwoner jaarlijks zijn wereldwijd i…",
+      "afkorting": "Aangifte PB"
+    },
+    {
+      "id": "aangifte-vennootschapsbelasting",
+      "naam": "Aangifte vennootschapsbelasting",
+      "concept_type": "procedure",
+      "primary_po": "2.3",
+      "status": "seed",
+      "definitie": "De aangifte vennootschapsbelasting is de jaarlijkse verplichte fiscale opgave waarmee een aan vennootschapsbelasting on…",
+      "afkorting": "aangifte VenB"
+    },
+    {
+      "id": "aangifteplicht-fiscaal",
+      "naam": "Aangifteplicht fiscaal",
+      "concept_type": "kader",
+      "primary_po": "2.5",
+      "status": "seed",
+      "definitie": "De aangifteplicht is de wettelijke verplichting voor iedere belastingplichtige om tijdig en volledig een belastingaangi…"
+    },
+    {
+      "id": "aankoopcyclus-ic",
+      "naam": "Aankoopcyclus interne controle",
+      "concept_type": "procedure",
+      "primary_po": "1.7",
+      "status": "seed",
+      "definitie": "De aankoopcyclus is het geheel van bedrijfsprocessen en interne controlemaatregelen dat de volledige levenscyclus van e…"
+    },
+    {
+      "id": "aanslag-cyclus",
+      "naam": "Aanslag cyclus",
+      "concept_type": "procedure",
+      "primary_po": "2.5",
+      "status": "seed",
+      "definitie": "De aanslag cyclus is het geheel van opeenvolgende stappen waarbij de belastingadministratie, na ontvangst van een aangi…"
+    },
+    {
+      "id": "aanslagbiljet-pb",
+      "naam": "Aanslagbiljet pb",
+      "concept_type": "procedure",
+      "primary_po": "2.2",
+      "status": "seed",
+      "definitie": "Het aanslagbiljet voor de personenbelasting (ook: avertissement-extrait de rôle) is het officieel document waarmee de F…"
+    },
+    {
+      "id": "aanslagtermijnen-fiscaal",
+      "naam": "Aanslagtermijnen fiscaal",
+      "concept_type": "kader",
+      "primary_po": "2.5",
+      "status": "seed",
+      "definitie": "De aanslagtermijnen zijn de wettelijk vastgestelde periodes waarbinnen de fiscale administratie een aanslag kan vestige…"
+    },
+    {
+      "id": "aansprakelijkheid-accountant-revisor",
+      "naam": "Aansprakelijkheid accountant revisor",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed",
+      "definitie": "De aansprakelijkheid van de accountant en de bedrijfsrevisor omvat de contractuele, buitencontractuele en tuchtrechteli…"
+    },
+    {
+      "id": "aansprakelijkheid-oprichters-bestuurders",
+      "naam": "Aansprakelijkheid oprichters en bestuurders",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed",
+      "definitie": "De aansprakelijkheid van oprichters en bestuurders omvat het geheel van wettelijke verplichtingen op grond waarvan opri…"
+    },
+    {
+      "id": "aanvullende-gemeentebelasting-pb",
+      "naam": "Aanvullende gemeentebelasting pb",
+      "concept_type": "regime",
+      "primary_po": "2.7",
+      "status": "seed",
+      "definitie": "De aanvullende gemeentebelasting (AGB) is een belasting die gemeenten heffen als procentueel opslag op de verschuldigde…",
+      "afkorting": "AGB"
+    },
+    {
+      "id": "abc-methode",
+      "naam": "Abc methode",
+      "concept_type": "procedure",
+      "primary_po": "1.8",
+      "status": "seed",
+      "definitie": "De abc-methode (Activity-Based Costing) is een kostprijsberekeningsmethode waarbij indirecte kosten niet via een algeme…"
+    },
+    {
+      "id": "abnormale-goedgunstige-voordelen",
+      "naam": "Abnormale of goedgunstige voordelen",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed",
+      "definitie": "Abnormale of goedgunstige voordelen zijn voordelen die een Belgische vennootschap toekent aan een verbonden onderneming…"
+    },
+    {
+      "id": "accijnzen-basis",
+      "naam": "Accijnzen basis",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed",
+      "definitie": "Accijnzen zijn bijzondere verbruiksbelastingen die geheven worden op de productie, winning, invoer of uitslag van speci…"
+    },
+    {
+      "id": "achtergestelde-lening",
+      "naam": "Achtergestelde lening",
+      "concept_type": "instrument",
+      "primary_po": "1.1",
+      "status": "seed",
+      "definitie": "Een achtergestelde lening is een lening waarbij de schuldeiser uitdrukkelijk bedingt dat zijn vordering in rang komt ná…"
+    },
+    {
+      "id": "administratieve-boete-fiscaal",
+      "naam": "Administratieve boete fiscaal",
+      "concept_type": "regime",
+      "primary_po": "2.5",
+      "status": "seed",
+      "definitie": "Een administratieve boete fiscaal is een door de belastingadministratie opgelegde geldstraf wegens overtreding van wett…"
+    },
+    {
+      "id": "aftrekbare-beroepskosten-venb",
+      "naam": "Aftrekbare beroepskosten vennootschapsbelasting",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed",
+      "definitie": "Aftrekbare beroepskosten in de vennootschapsbelasting zijn kosten die een vennootschap van haar belastbare winst mag af…"
+    },
+    {
+      "id": "aftrekbare-bestedingen-pb",
+      "naam": "Aftrekbare bestedingen pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed",
+      "definitie": "Aftrekbare bestedingen zijn een limitatieve categorie van particuliere uitgaven die in de personenbelasting in minderin…"
+    },
+    {
+      "id": "alarmbel",
+      "naam": "Alarmbel",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed",
+      "definitie": "De alarmbelprocedure is een wettelijk verplichte procedure in het Wetboek van vennootschappen en verenigingen (WVV) die…"
+    },
+    {
+      "id": "algemene-anti-misbruik-bepaling",
+      "naam": "Algemene anti misbruik bepaling",
+      "concept_type": "regime",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "algemene-vergadering",
+      "naam": "Algemene vergadering",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed",
+      "definitie": "De algemene vergadering is het hoogste beslissingsorgaan van een vennootschap, samengesteld uit alle aandeelhouders of…",
+      "afkorting": "AV"
+    },
+    {
+      "id": "analytische-boekhouding",
+      "naam": "Analytische boekhouding",
+      "concept_type": "kader",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "antiwitwas-verplichtingen-accountant",
+      "naam": "Antiwitwas verplichtingen accountant",
+      "concept_type": "regime",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "assurance-opdracht-types",
+      "naam": "Assurance opdracht types",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "atad-richtlijn",
+      "naam": "Atad richtlijn",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "audit-afronding",
+      "naam": "Audit afronding",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "audit-bewijs-verzamelen",
+      "naam": "Audit bewijs verzamelen",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "audit-it-omgeving",
+      "naam": "Audit it omgeving",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "auditcomite",
+      "naam": "Auditcomite",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "auditrisicomodel",
+      "naam": "Auditrisicomodel",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "autoriteiten-boekhoudrecht",
+      "naam": "Autoriteiten boekhoudrecht",
+      "concept_type": "kader",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "banklening-investeringskrediet",
+      "naam": "Banklening investeringskrediet",
+      "concept_type": "instrument",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "be-gaap-vs-ifrs-verschillen",
+      "naam": "Be gaap vs ifrs verschillen",
+      "concept_type": "kader",
+      "primary_po": "1.5",
+      "status": "seed"
+    },
+    {
+      "id": "bedrijfskosten-en-bedrijfsopbrengsten",
+      "naam": "Bedrijfskosten en bedrijfsopbrengsten",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "bedrijfsleidersbezoldiging-pb",
+      "naam": "Bedrijfsleidersbezoldiging pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "bedrijfsvoorheffing",
+      "naam": "Bedrijfsvoorheffing",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "begeleiding-vestigingsplaats-en-regionale-heffingen-bij-opstart",
+      "naam": "Begeleiding vestigingsplaats en regionale heffingen bij opstart",
+      "concept_type": "procedure",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "beginselen-behoorlijk-bestuur-fiscaal",
+      "naam": "Beginselen behoorlijk bestuur fiscaal",
+      "concept_type": "kader",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "belangenconflict-bestuur",
+      "naam": "Belangenconflict bestuur",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "belastbare-grondslag-vennootschapsbelasting",
+      "naam": "Belastbare grondslag vennootschapsbelasting",
+      "concept_type": "procedure",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "belasting-definitie-en-functies",
+      "naam": "Belasting definitie en functies",
+      "concept_type": "kader",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "belasting-inverkeerstelling",
+      "naam": "Belasting inverkeerstelling",
+      "concept_type": "regime",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "belasting-niet-inwoners",
+      "naam": "Belasting niet inwoners",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "belastingberekening-pb",
+      "naam": "Belastingberekening pb",
+      "concept_type": "procedure",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "belastingverhoging-fiscaal",
+      "naam": "Belastingverhoging fiscaal",
+      "concept_type": "regime",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "belastingvrije-som",
+      "naam": "Belastingvrije som",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "beps-actieplan",
+      "naam": "Beps actieplan",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "beroepsgeheim-accountant",
+      "naam": "Beroepsgeheim accountant",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "beroepsinkomen-pb",
+      "naam": "Beroepsinkomen pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "beroepskosten-regime-pb",
+      "naam": "Beroepskosten regime pb",
+      "concept_type": "kader",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "bestuur-vennootschap",
+      "naam": "Bestuur vennootschap",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "bezwaarprocedure-fiscaal",
+      "naam": "Bezwaarprocedure fiscaal",
+      "concept_type": "procedure",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "bgaap",
+      "naam": "Bgaap",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "bijzonder-regime-buitenlandse-kaderleden",
+      "naam": "Bijzonder regime buitenlandse kaderleden",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "bijzondere-aanslagen-venb",
+      "naam": "Bijzondere aanslagen venb",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "bijzondere-verslagen-vennootschapsverrichtingen",
+      "naam": "Bijzondere verslagen vennootschapsverrichtingen",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "boekhoudbeginselen",
+      "naam": "Boekhoudbeginselen",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "boekhoudkundig-fiscaal-attachment",
+      "naam": "Boekhoudkundig fiscaal attachment",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "boekhoudkundige-schattingen",
+      "naam": "Boekhoudkundige schattingen",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "boekhoudplichtige-onderneming",
+      "naam": "Boekhoudplichtige onderneming",
+      "concept_type": "kader",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "break-even-analyse",
+      "naam": "Break even analyse",
+      "concept_type": "procedure",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "brutomarge",
+      "naam": "Brutomarge",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "btw-aangifte",
+      "naam": "Btw aangifte",
+      "concept_type": "procedure",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-aftrek",
+      "naam": "Btw aftrek",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-bedrijfswagen",
+      "naam": "Btw bedrijfswagen",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-belastingplichtige",
+      "naam": "Btw belastingplichtige",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-bonnen-vouchers",
+      "naam": "Btw bonnen vouchers",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-controle-en-geschillen",
+      "naam": "Btw controle en geschillen",
+      "concept_type": "procedure",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-eenheid",
+      "naam": "Btw eenheid",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-grensoverschrijdend",
+      "naam": "Btw grensoverschrijdend",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-herziening-bedrijfsmiddelen",
+      "naam": "Btw herziening bedrijfsmiddelen",
+      "concept_type": "procedure",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-stelsel",
+      "naam": "Btw stelsel",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-tarieven",
+      "naam": "Btw tarieven",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-vastgoed",
+      "naam": "Btw vastgoed",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "btw-vrijstellingen",
+      "naam": "Btw vrijstellingen",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "budgetbeheer",
+      "naam": "Budgetbeheer",
+      "concept_type": "kader",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "buitenlandse-winst-en-verlies",
+      "naam": "Buitenlandse winst en verlies",
+      "concept_type": "procedure",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "businessmodel-en-strategie-inzicht-accountant",
+      "naam": "Businessmodel en strategie inzicht accountant",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "bv-rechtsvorm",
+      "naam": "Bv rechtsvorm",
+      "concept_type": "instrument",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "cash-conversion-cycle",
+      "naam": "Cash conversion cycle",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "cash-ratio",
+      "naam": "Cash ratio",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "cijferanalyse",
+      "naam": "Cijferanalyse",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "clientenonderzoek-aww",
+      "naam": "Clientenonderzoek aww",
+      "concept_type": "procedure",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "commissaris-mandaat-en-statuut",
+      "naam": "Commissaris mandaat en statuut",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "communicatie-met-governance",
+      "naam": "Communicatie met governance",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "communicatie-met-stakeholders",
+      "naam": "Communicatie met stakeholders",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "consolidatiekring",
+      "naam": "Consolidatiekring",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "consolidatiemethoden",
+      "naam": "Consolidatiemethoden",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "consolidatieverplichting-bgaap",
+      "naam": "Consolidatieverplichting bgaap",
+      "concept_type": "regime",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "consolidatieverschil-goodwill",
+      "naam": "Consolidatieverschil goodwill",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "continuiteit-going-concern",
+      "naam": "Continuiteit going concern",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "controle-activiteiten-coso",
+      "naam": "Controle activiteiten coso",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "controle-omgeving-coso",
+      "naam": "Controle omgeving coso",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "controle-test-deelneming",
+      "naam": "Controle test deelneming",
+      "concept_type": "procedure",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "controle-vennootschapsrecht",
+      "naam": "Controle vennootschapsrecht",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "controlemaatregelen",
+      "naam": "Controlemaatregelen",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "controleopdracht-cyclus",
+      "naam": "Controleopdracht cyclus",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "controleplanning",
+      "naam": "Controleplanning",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "controleverklaring",
+      "naam": "Controleverklaring",
+      "concept_type": "instrument",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "country-by-country-reporting",
+      "naam": "Country by country reporting",
+      "concept_type": "procedure",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "current-ratio",
+      "naam": "Current ratio",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed",
+      "definitie": "De current ratio is een liquiditeitsratio die de verhouding weergeeft tussen de vlottende activa van een onderneming en…",
+      "afkorting": "CR"
+    },
+    {
+      "id": "cv-rechtsvorm",
+      "naam": "Cv rechtsvorm",
+      "concept_type": "instrument",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "cyclus-analyse",
+      "naam": "Cyclus analyse",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "deelneming-financieel-vast-actief",
+      "naam": "Deelneming financieel vast actief",
+      "concept_type": "instrument",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "delegatie-en-supervisie-audit",
+      "naam": "Delegatie en supervisie audit",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "deontologie-accountant",
+      "naam": "Deontologie accountant",
+      "concept_type": "kader",
+      "primary_po": "1.0",
+      "status": "seed"
+    },
+    {
+      "id": "digitalisering-accountantskantoor",
+      "naam": "Digitalisering accountantskantoor",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "direct-costing",
+      "naam": "Direct costing",
+      "concept_type": "procedure",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "diverse-inkomsten-pb",
+      "naam": "Diverse inkomsten pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "douaneprocedures-btw-invoer",
+      "naam": "Douaneprocedures btw invoer",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "douanewaarde",
+      "naam": "Douanewaarde",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "driehoeksverkeer-vereenvoudiging",
+      "naam": "Driehoeksverkeer vereenvoudiging",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "dubbelbelastingverdrag",
+      "naam": "Dubbelbelastingverdrag",
+      "concept_type": "instrument",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "dubbele-boekhouding",
+      "naam": "Dubbele boekhouding",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "due-diligence",
+      "naam": "Due diligence",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "ebitda-aftrekbeperking",
+      "naam": "Ebitda aftrekbeperking",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "ebitda-marge",
+      "naam": "Ebitda marge",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "eerste-consolidatie",
+      "naam": "Eerste consolidatie",
+      "concept_type": "verrichting",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "eigen-aandelen",
+      "naam": "Eigen aandelen",
+      "concept_type": "instrument",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "eigen-vermogen",
+      "naam": "Eigen vermogen",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "eigen-werkzaamheid-btw",
+      "naam": "Eigen werkzaamheid btw",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "eigen-woning-fiscaal",
+      "naam": "Eigen woning fiscaal",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "eindejaarsverrichtingen",
+      "naam": "Eindejaarsverrichtingen",
+      "concept_type": "procedure",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "eliminatie-intercompany",
+      "naam": "Eliminatie intercompany",
+      "concept_type": "verrichting",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "erfbelasting",
+      "naam": "Erfbelasting",
+      "concept_type": "kader",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "erfbelasting-tarieven-en-vrijstellingen",
+      "naam": "Erfbelasting tarieven en vrijstellingen",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "erfpacht-en-opstal",
+      "naam": "Erfpacht en opstal",
+      "concept_type": "instrument",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "erfrecht",
+      "naam": "Erfrecht",
+      "concept_type": "kader",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "eu-fiscale-richtlijnen",
+      "naam": "Eu fiscale richtlijnen",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "evaluatie-interne-controle",
+      "naam": "Evaluatie interne controle",
+      "concept_type": "procedure",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "evenredige-consolidatie",
+      "naam": "Evenredige consolidatie",
+      "concept_type": "verrichting",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "exit-belasting",
+      "naam": "Exit belasting",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "exit-planning-vennootschap",
+      "naam": "Exit planning vennootschap",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "externe-audit-commissaris",
+      "naam": "Externe audit commissaris",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "externe-bevestiging",
+      "naam": "Externe bevestiging",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "factuur-btw",
+      "naam": "Factuur btw",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "faillissementspredictie-modellen",
+      "naam": "Faillissementspredictie modellen",
+      "concept_type": "kader",
+      "primary_po": "1.9",
+      "status": "seed"
+    },
+    {
+      "id": "federale-belastingverminderingen-pb",
+      "naam": "Federale belastingverminderingen pb",
+      "concept_type": "kader",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "fictiebepalingen-erfbelasting",
+      "naam": "Fictiebepalingen erfbelasting",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "financiele-analyse-software",
+      "naam": "Financiele analyse software",
+      "concept_type": "procedure",
+      "primary_po": "1.9",
+      "status": "seed"
+    },
+    {
+      "id": "financiele-diagnose",
+      "naam": "Financiele diagnose",
+      "concept_type": "procedure",
+      "primary_po": "1.9",
+      "status": "seed"
+    },
+    {
+      "id": "financiele-leasing",
+      "naam": "Financiele leasing",
+      "concept_type": "instrument",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "financiele-verrichtingen-categorie",
+      "naam": "Financiele verrichtingen categorie",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "fiscaal-rechtelijk",
+      "naam": "Fiscaal rechtelijk",
+      "concept_type": "kader",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "fiscaal-vertegenwoordiger-btw",
+      "naam": "Fiscaal vertegenwoordiger btw",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-aandachtspunten-herstructurering",
+      "naam": "Fiscale aandachtspunten herstructurering",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-actoren",
+      "naam": "Fiscale actoren",
+      "concept_type": "kader",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-beginselen",
+      "naam": "Fiscale beginselen",
+      "concept_type": "kader",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-bemiddelingsprocedure",
+      "naam": "Fiscale bemiddelingsprocedure",
+      "concept_type": "procedure",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-bewijsmiddelen",
+      "naam": "Fiscale bewijsmiddelen",
+      "concept_type": "kader",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-controle",
+      "naam": "Fiscale controle",
+      "concept_type": "procedure",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-fusie-splitsing",
+      "naam": "Fiscale fusie splitsing",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-fusierichtlijn",
+      "naam": "Fiscale fusierichtlijn",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-procedure-belastingplichtige",
+      "naam": "Fiscale procedure belastingplichtige",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-procedure-pb",
+      "naam": "Fiscale procedure pb",
+      "concept_type": "procedure",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-regularisatie-en-buitenlandse-goederen",
+      "naam": "Fiscale regularisatie en buitenlandse goederen",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-residentie",
+      "naam": "Fiscale residentie",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-sancties",
+      "naam": "Fiscale sancties",
+      "concept_type": "kader",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "fiscale-strafrechtelijke-sanctie",
+      "naam": "Fiscale strafrechtelijke sanctie",
+      "concept_type": "regime",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "forfaitair-gedeelte-buitenlandse-belasting",
+      "naam": "Forfaitair gedeelte buitenlandse belasting",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "forfaitaire-regeling-btw",
+      "naam": "Forfaitaire regeling btw",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "fouten-en-fraude-cluster",
+      "naam": "Fouten en fraude cluster",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "fraude",
+      "naam": "Fraude",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "free-cash-flow",
+      "naam": "Free cash flow",
+      "concept_type": "kader",
+      "primary_po": "1.9",
+      "status": "seed"
+    },
+    {
+      "id": "full-costing",
+      "naam": "Full costing",
+      "concept_type": "procedure",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "functiescheiding",
+      "naam": "Functiescheiding",
+      "concept_type": "procedure",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "fusie",
+      "naam": "Fusie",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "geactiveerde-rente",
+      "naam": "Geactiveerde rente",
+      "concept_type": "regime",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "geconsolideerd-jaarverslag",
+      "naam": "Geconsolideerd jaarverslag",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "geconsolideerde-jaarrekening",
+      "naam": "Geconsolideerde jaarrekening",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "geheime-commissielonen",
+      "naam": "Geheime commissielonen",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "geldbeleggingen-en-liquide-middelen",
+      "naam": "Geldbeleggingen en liquide middelen",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "gemeentebelastingen-sui-generis",
+      "naam": "Gemeentebelastingen sui generis",
+      "concept_type": "kader",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "gemeentelijke-opcentiemen-onroerende-voorheffing",
+      "naam": "Gemeentelijke opcentiemen onroerende voorheffing",
+      "concept_type": "regime",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "gerechtelijke-fase-fiscaal",
+      "naam": "Gerechtelijke fase fiscaal",
+      "concept_type": "procedure",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "gerechtelijke-reorganisatie",
+      "naam": "Gerechtelijke reorganisatie",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "gewest-fiscaliteit-registratie-en-successie",
+      "naam": "Gewest fiscaliteit registratie en successie",
+      "concept_type": "kader",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "gewestelijke-belastingverminderingen-pb",
+      "naam": "Gewestelijke belastingverminderingen pb",
+      "concept_type": "kader",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "gewestelijke-en-lokale-fiscaliteit",
+      "naam": "Gewestelijke en lokale fiscaliteit",
+      "concept_type": "kader",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "gewestelijke-fiscale-autonomie",
+      "naam": "Gewestelijke fiscale autonomie",
+      "concept_type": "kader",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "gewestelijke-fiscale-procedure",
+      "naam": "Gewestelijke fiscale procedure",
+      "concept_type": "procedure",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "gezamenlijke-regelingen",
+      "naam": "Gezamenlijke regelingen",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "gezinssituatie-pb",
+      "naam": "Gezinssituatie pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "governance-actoren-ic",
+      "naam": "Governance actoren ic",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "groottecategorie-vennootschap",
+      "naam": "Groottecategorie vennootschap",
+      "concept_type": "kader",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "groottecategorie-vereniging",
+      "naam": "Groottecategorie vereniging",
+      "concept_type": "kader",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "gunstregime-familiale-onderneming",
+      "naam": "Gunstregime familiale onderneming",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "handelsvorderingen",
+      "naam": "Handelsvorderingen",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "herwaardering-vast-actief",
+      "naam": "Herwaardering vast actief",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "holding-successieplanning",
+      "naam": "Holding successieplanning",
+      "concept_type": "instrument",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "hr-cyclus-ic",
+      "naam": "Hr cyclus ic",
+      "concept_type": "procedure",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "huwelijksquotient",
+      "naam": "Huwelijksquotient",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "huwelijksvermogensrecht",
+      "naam": "Huwelijksvermogensrecht",
+      "concept_type": "kader",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "hypotheekrecht",
+      "naam": "Hypotheekrecht",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "ifrs",
+      "naam": "Ifrs",
+      "concept_type": "kader",
+      "primary_po": "1.5",
+      "status": "seed"
+    },
+    {
+      "id": "immateriele-vaste-activa",
+      "naam": "Immateriele vaste activa",
+      "concept_type": "kader",
+      "primary_po": "1.5",
+      "status": "seed"
+    },
+    {
+      "id": "inbreng-onroerend-in-vennootschap",
+      "naam": "Inbreng onroerend in vennootschap",
+      "concept_type": "verrichting",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "inbreng-van-bedrijfstak-of-algemeenheid",
+      "naam": "Inbreng van bedrijfstak of algemeenheid",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "indeling-belastingen",
+      "naam": "Indeling belastingen",
+      "concept_type": "kader",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "informatie-communicatie-coso",
+      "naam": "Informatie communicatie coso",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "inkomstencategorieen-pb",
+      "naam": "Inkomstencategorieen pb",
+      "concept_type": "kader",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "inkoop-eigen-aandelen",
+      "naam": "Inkoop eigen aandelen",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "insolventierecht-wer-boek-xx",
+      "naam": "Insolventierecht wer boek xx",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "integrale-consolidatie",
+      "naam": "Integrale consolidatie",
+      "concept_type": "verrichting",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "intentieverklaring-letter-of-intent",
+      "naam": "Intentieverklaring letter of intent",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "interest-coverage-ratio",
+      "naam": "Interest coverage ratio",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "interest-royalty-richtlijn",
+      "naam": "Interest royalty richtlijn",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "internationaal-fiscaal",
+      "naam": "Internationaal fiscaal",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "internationaal-onroerend-goed",
+      "naam": "Internationaal onroerend goed",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "internationale-structurering-vennootschap",
+      "naam": "Internationale structurering vennootschap",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "internationale-tewerkstelling",
+      "naam": "Internationale tewerkstelling",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "interne-audit",
+      "naam": "Interne audit",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "interne-controle-coso",
+      "naam": "Interne controle coso",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "interpretatie-fiscale-wet",
+      "naam": "Interpretatie fiscale wet",
+      "concept_type": "kader",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "investeringsaftrek",
+      "naam": "Investeringsaftrek",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "invorderingsprocedure-fiscaal",
+      "naam": "Invorderingsprocedure fiscaal",
+      "concept_type": "procedure",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "it-controles-cluster",
+      "naam": "It controles cluster",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "itaa-beroepsorganisatie",
+      "naam": "Itaa beroepsorganisatie",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "jaarlijkse-inventaris",
+      "naam": "Jaarlijkse inventaris",
+      "concept_type": "procedure",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "jaarrekening",
+      "naam": "Jaarrekening",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "jaarrekeninganalyse",
+      "naam": "Jaarrekeninganalyse",
+      "concept_type": "kader",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "jaarverslag",
+      "naam": "Jaarverslag",
+      "concept_type": "kader",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "jaarverslag-bestuursorgaan",
+      "naam": "Jaarverslag bestuursorgaan",
+      "concept_type": "kader",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "juridische-constructie-cayman",
+      "naam": "Juridische constructie cayman",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "kadastraal-inkomen",
+      "naam": "Kadastraal inkomen",
+      "concept_type": "kader",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "kamers-voor-ondernemingen-in-moeilijkheden",
+      "naam": "Kamers voor ondernemingen in moeilijkheden",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "kantoor-organisatie-accountant",
+      "naam": "Kantoor organisatie accountant",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "kapitaalbescherming-en-winstverdeling",
+      "naam": "Kapitaalbescherming en winstverdeling",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "kapitaalverhoging",
+      "naam": "Kapitaalverhoging",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "kapitaalvermindering",
+      "naam": "Kapitaalvermindering",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed",
+      "definitie": "Een kapitaalvermindering is een vennootschapsrechtelijke verrichting waarbij het geplaatst kapitaal van een vennootscha…"
+    },
+    {
+      "id": "kasstroom-analyse",
+      "naam": "Kasstroom analyse",
+      "concept_type": "kader",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "keuze-rechtsvorm-fiscaal",
+      "naam": "Keuze rechtsvorm fiscaal",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "kinderen-ten-laste",
+      "naam": "Kinderen ten laste",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "kostencomponenten",
+      "naam": "Kostencomponenten",
+      "concept_type": "kader",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "kostentypologie",
+      "naam": "Kostentypologie",
+      "concept_type": "kader",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "kostprijsmethoden",
+      "naam": "Kostprijsmethoden",
+      "concept_type": "kader",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "kwalificatie-controle-deelneming",
+      "naam": "Kwalificatie controle deelneming",
+      "concept_type": "procedure",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "kwaliteitsmanagement-opdracht",
+      "naam": "Kwaliteitsmanagement opdracht",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "kwaliteitstoetsing-itaa",
+      "naam": "Kwaliteitstoetsing itaa",
+      "concept_type": "procedure",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "leasing",
+      "naam": "Leasing",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "leegstandsheffing-bedrijfsruimten",
+      "naam": "Leegstandsheffing bedrijfsruimten",
+      "concept_type": "regime",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "levensverzekering-successieplanning",
+      "naam": "Levensverzekering successieplanning",
+      "concept_type": "instrument",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "levering-en-dienst-btw",
+      "naam": "Levering en dienst btw",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "liquidatiereserve",
+      "naam": "Liquidatiereserve",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed",
+      "definitie": "De liquidatiereserve is een fiscaal regime waarmee een kleine vennootschap een deel van haar netto-boekhoudkundige wins…"
+    },
+    {
+      "id": "lokale-belasting-reglement",
+      "naam": "Lokale belasting reglement",
+      "concept_type": "procedure",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "lokale-fiscale-autonomie",
+      "naam": "Lokale fiscale autonomie",
+      "concept_type": "kader",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "maatschap-rechtsvorm",
+      "naam": "Maatschap rechtsvorm",
+      "concept_type": "instrument",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "maatschap-successieplanning",
+      "naam": "Maatschap successieplanning",
+      "concept_type": "instrument",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "maatstaf-van-heffing-btw",
+      "naam": "Maatstaf van heffing btw",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "managementcontrole-fiche",
+      "naam": "Managementcontrole fiche",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "mandaat-accountant-fiscus",
+      "naam": "Mandaat accountant fiscus",
+      "concept_type": "procedure",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "map",
+      "naam": "Map",
+      "concept_type": "procedure",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "margeregeling-tweedehands",
+      "naam": "Margeregeling tweedehands",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "marginale-analyse",
+      "naam": "Marginale analyse",
+      "concept_type": "procedure",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "masterbudget",
+      "naam": "Masterbudget",
+      "concept_type": "procedure",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "materialiteit-audit",
+      "naam": "Materialiteit audit",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "materiele-vaste-activa",
+      "naam": "Materiele vaste activa",
+      "concept_type": "kader",
+      "primary_po": "1.5",
+      "status": "seed"
+    },
+    {
+      "id": "meerwaarde-aandelen-venb",
+      "naam": "Meerwaarde aandelen venb",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "melding-verdachte-transactie-cfi",
+      "naam": "Melding verdachte transactie cfi",
+      "concept_type": "procedure",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "minderheidsbelangen",
+      "naam": "Minderheidsbelangen",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "mli-instrument",
+      "naam": "Mli instrument",
+      "concept_type": "instrument",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "moeder-dochterrichtlijn",
+      "naam": "Moeder dochterrichtlijn",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "monitoring-coso",
+      "naam": "Monitoring coso",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "nettomarge",
+      "naam": "Nettomarge",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "niet-concurrentiebeding",
+      "naam": "Niet concurrentiebeding",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "niet-in-balans-rechten-en-verplichtingen",
+      "naam": "Niet in balans rechten en verplichtingen",
+      "concept_type": "kader",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "niet-naleving-wet-regelgeving-audit",
+      "naam": "Niet naleving wet regelgeving audit",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "niet-recurrente-verrichtingen-categorie",
+      "naam": "Niet recurrente verrichtingen categorie",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "normenkader-audit",
+      "naam": "Normenkader audit",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "notionele-interestaftrek",
+      "naam": "Notionele interestaftrek",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "nv-rechtsvorm",
+      "naam": "Nv rechtsvorm",
+      "concept_type": "instrument",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "oeso-modelverdrag",
+      "naam": "Oeso modelverdrag",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "omloopsnelheid-klanten",
+      "naam": "Omloopsnelheid klanten",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "omloopsnelheid-leveranciers",
+      "naam": "Omloopsnelheid leveranciers",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "omloopsnelheid-voorraad",
+      "naam": "Omloopsnelheid voorraad",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "omrekening-buitenlandse-dochter",
+      "naam": "Omrekening buitenlandse dochter",
+      "concept_type": "verrichting",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "omzetting-vennootschap",
+      "naam": "Omzetting vennootschap",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "onafhankelijkheid",
+      "naam": "Onafhankelijkheid",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "onderhoudsuitkering-cluster",
+      "naam": "Onderhoudsuitkering cluster",
+      "concept_type": "kader",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "ondernemingsbemiddelaar",
+      "naam": "Ondernemingsbemiddelaar",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "onroerend-inkomen-pb",
+      "naam": "Onroerend inkomen pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "onroerende-voorheffing",
+      "naam": "Onroerende voorheffing",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "ontbinding-en-vereffening",
+      "naam": "Ontbinding en vereffening",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "ontwerp-interne-controle",
+      "naam": "Ontwerp interne controle",
+      "concept_type": "procedure",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "opbrengstverantwoording",
+      "naam": "Opbrengstverantwoording",
+      "concept_type": "kader",
+      "primary_po": "1.5",
+      "status": "seed"
+    },
+    {
+      "id": "opdrachtaanvaarding-en-opdrachtbrief",
+      "naam": "Opdrachtaanvaarding en opdrachtbrief",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "opeisbaarheid-btw",
+      "naam": "Opeisbaarheid btw",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "openbaarmaking-jaarrekening",
+      "naam": "Openbaarmaking jaarrekening",
+      "concept_type": "procedure",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "operationele-leasing",
+      "naam": "Operationele leasing",
+      "concept_type": "instrument",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "opmaak-geconsolideerde-jaarrekening",
+      "naam": "Opmaak geconsolideerde jaarrekening",
+      "concept_type": "procedure",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "oprichting-vennootschap",
+      "naam": "Oprichting vennootschap",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed",
+      "definitie": "De oprichting van een vennootschap is de juridische procedure waarbij één of meer oprichters een nieuwe rechtspersoon t…"
+    },
+    {
+      "id": "oprichtingskosten",
+      "naam": "Oprichtingskosten",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "opsplitsing-eigendom",
+      "naam": "Opsplitsing eigendom",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "opstart-btw-formaliteiten",
+      "naam": "Opstart btw formaliteiten",
+      "concept_type": "procedure",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "optie-btw-verhuur-vastgoed",
+      "naam": "Optie btw verhuur vastgoed",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "oss-regeling",
+      "naam": "Oss regeling",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "overdracht-algemeenheid-btw",
+      "naam": "Overdracht algemeenheid btw",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "overgedragen-verliezen",
+      "naam": "Overgedragen verliezen",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "overlopende-rekeningen",
+      "naam": "Overlopende rekeningen",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "overnameovereenkomst-spa",
+      "naam": "Overnameovereenkomst spa",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "patrimoniumvennootschap",
+      "naam": "Patrimoniumvennootschap",
+      "concept_type": "instrument",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "permanente-vorming-accountant",
+      "naam": "Permanente vorming accountant",
+      "concept_type": "procedure",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "personeelskosten",
+      "naam": "Personeelskosten",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "personenbelasting",
+      "naam": "Personenbelasting",
+      "concept_type": "kader",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "plaats-van-handeling-btw",
+      "naam": "Plaats van handeling btw",
+      "concept_type": "kader",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "planbatenheffing",
+      "naam": "Planbatenheffing",
+      "concept_type": "regime",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "productiecyclus-ic",
+      "naam": "Productiecyclus ic",
+      "concept_type": "procedure",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "professionele-oordeelsvorming-en-skepticism",
+      "naam": "Professionele oordeelsvorming en skepticism",
+      "concept_type": "kader",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "provinciale-belastingen",
+      "naam": "Provinciale belastingen",
+      "concept_type": "regime",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "quasi-inbreng",
+      "naam": "Quasi inbreng",
+      "concept_type": "procedure",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "quick-ratio",
+      "naam": "Quick ratio",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "rechtsvormen-belgie",
+      "naam": "Rechtsvormen belgie",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "referentiestelsels-ic",
+      "naam": "Referentiestelsels ic",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "registratiebelasting",
+      "naam": "Registratiebelasting",
+      "concept_type": "kader",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "registratieformaliteit-akten",
+      "naam": "Registratieformaliteit akten",
+      "concept_type": "procedure",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "rehabilitatie-en-beroepsverbod",
+      "naam": "Rehabilitatie en beroepsverbod",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "rentabiliteit-eigen-vermogen",
+      "naam": "Rentabiliteit eigen vermogen",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "rentabiliteit-totaal-activa",
+      "naam": "Rentabiliteit totaal activa",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "resultaatverwerking",
+      "naam": "Resultaatverwerking",
+      "concept_type": "procedure",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "revisiedossier",
+      "naam": "Revisiedossier",
+      "concept_type": "instrument",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "risico-inschatting-coso",
+      "naam": "Risico inschatting coso",
+      "concept_type": "kader",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "risicoanalyse-audit",
+      "naam": "Risicoanalyse audit",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "risicogebaseerde-benadering-aww",
+      "naam": "Risicogebaseerde benadering aww",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "roerend-inkomen-internationaal",
+      "naam": "Roerend inkomen internationaal",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "roerend-inkomen-pb",
+      "naam": "Roerend inkomen pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "roerende-voorheffing",
+      "naam": "Roerende voorheffing",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "schadeloosstellingsbeding",
+      "naam": "Schadeloosstellingsbeding",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "schenkbelasting",
+      "naam": "Schenkbelasting",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "schenking-met-voorbehoud-vruchtgebruik",
+      "naam": "Schenking met voorbehoud vruchtgebruik",
+      "concept_type": "instrument",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "schriftelijke-bevestiging-management",
+      "naam": "Schriftelijke bevestiging management",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "schulden-op-korte-termijn",
+      "naam": "Schulden op korte termijn",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "schuldgraad",
+      "naam": "Schuldgraad",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "sociale-balans",
+      "naam": "Sociale balans",
+      "concept_type": "kader",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "splitsing",
+      "naam": "Splitsing",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed",
+      "definitie": "Een splitsing is een vennootschapsrechtelijke herstructurering waarbij het vermogen van een bestaande vennootschap (de…"
+    },
+    {
+      "id": "standaardkostenmethode",
+      "naam": "Standaardkostenmethode",
+      "concept_type": "procedure",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "starterscoaching-pb",
+      "naam": "Starterscoaching pb",
+      "concept_type": "procedure",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "steekproef-audit",
+      "naam": "Steekproef audit",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "stopzetting-btw",
+      "naam": "Stopzetting btw",
+      "concept_type": "procedure",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "stopzettingsmeerwaarde-pb",
+      "naam": "Stopzettingsmeerwaarde pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "successieplanning",
+      "naam": "Successieplanning",
+      "concept_type": "kader",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "taxatieprocedure",
+      "naam": "Taxatieprocedure",
+      "concept_type": "kader",
+      "primary_po": "2.5",
+      "status": "seed"
+    },
+    {
+      "id": "testament-instrument",
+      "naam": "Testament instrument",
+      "concept_type": "instrument",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "toegevoegde-waarde",
+      "naam": "Toegevoegde waarde",
+      "concept_type": "kader",
+      "primary_po": "1.9",
+      "status": "seed"
+    },
+    {
+      "id": "toelichting-belangen-in-andere-entiteiten",
+      "naam": "Toelichting belangen in andere entiteiten",
+      "concept_type": "kader",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "toepassingsgebied-belasting",
+      "naam": "Toepassingsgebied belasting",
+      "concept_type": "kader",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "toepassingsgebied-vennootschapsbelasting",
+      "naam": "Toepassingsgebied vennootschapsbelasting",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "transfer-pricing",
+      "naam": "Transfer pricing",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "tuchtprocedure-itaa",
+      "naam": "Tuchtprocedure itaa",
+      "concept_type": "procedure",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "ubo-register",
+      "naam": "Ubo register",
+      "concept_type": "kader",
+      "primary_po": "4.0",
+      "status": "seed"
+    },
+    {
+      "id": "uitkering-aan-aandeelhouders",
+      "naam": "Uitkering aan aandeelhouders",
+      "concept_type": "verrichting",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "uniforme-waarderingsregels-consolidatie",
+      "naam": "Uniforme waarderingsregels consolidatie",
+      "concept_type": "regime",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "variantieanalyse",
+      "naam": "Variantieanalyse",
+      "concept_type": "procedure",
+      "primary_po": "1.8",
+      "status": "seed"
+    },
+    {
+      "id": "vaste-activa",
+      "naam": "Vaste activa",
+      "concept_type": "kader",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "vaste-inrichting",
+      "naam": "Vaste inrichting",
+      "concept_type": "kader",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "vennootschapsbelasting",
+      "naam": "Vennootschapsbelasting",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "vennootschapsgeschillen",
+      "naam": "Vennootschapsgeschillen",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "vennootschapsrechtelijk-kader-wvv",
+      "naam": "Vennootschapsrechtelijk kader wvv",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "verdeelrecht",
+      "naam": "Verdeelrecht",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "vereenvoudigde-boekhouding-regime",
+      "naam": "Vereenvoudigde boekhouding regime",
+      "concept_type": "regime",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "vereffening-fiscaal",
+      "naam": "Vereffening fiscaal",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "verkeersbelasting",
+      "naam": "Verkeersbelasting",
+      "concept_type": "regime",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "verklaringen-en-garanties-rw",
+      "naam": "Verklaringen en garanties rw",
+      "concept_type": "kader",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "verkoopcyclus-ic",
+      "naam": "Verkoopcyclus ic",
+      "concept_type": "procedure",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "verkooprecht",
+      "naam": "Verkooprecht",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "verlaagd-tarief-kleine-vennootschap",
+      "naam": "Verlaagd tarief kleine vennootschap",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "verleggingsregeling",
+      "naam": "Verleggingsregeling",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "vermogensmutatiemethode",
+      "naam": "Vermogensmutatiemethode",
+      "concept_type": "verrichting",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "vertegenwoordiging-belastingadministratie",
+      "naam": "Vertegenwoordiging belastingadministratie",
+      "concept_type": "procedure",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "vertegenwoordiging-bij-gewestelijke-en-lokale-fiscus",
+      "naam": "Vertegenwoordiging bij gewestelijke en lokale fiscus",
+      "concept_type": "procedure",
+      "primary_po": "2.7",
+      "status": "seed"
+    },
+    {
+      "id": "verworpen-uitgaven",
+      "naam": "Verworpen uitgaven",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "verworpen-uitgaven-autokosten",
+      "naam": "Verworpen uitgaven autokosten",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "vof-commv-rechtsvorm",
+      "naam": "Vof commv rechtsvorm",
+      "concept_type": "instrument",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "voorafbetalingen-pb",
+      "naam": "Voorafbetalingen pb",
+      "concept_type": "procedure",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "voorafbetalingen-vennootschapsbelasting",
+      "naam": "Voorafbetalingen vennootschapsbelasting",
+      "concept_type": "procedure",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "voorafgaande-beslissing-dvb",
+      "naam": "Voorafgaande beslissing dvb",
+      "concept_type": "procedure",
+      "primary_po": "2.1",
+      "status": "seed"
+    },
+    {
+      "id": "voordelen-alle-aard",
+      "naam": "Voordelen alle aard",
+      "concept_type": "kader",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "voorheffingen-en-verrekeningen-venb",
+      "naam": "Voorheffingen en verrekeningen venb",
+      "concept_type": "kader",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "voorraadcyclus-ic",
+      "naam": "Voorraadcyclus ic",
+      "concept_type": "procedure",
+      "primary_po": "1.7",
+      "status": "seed"
+    },
+    {
+      "id": "voorraden",
+      "naam": "Voorraden",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "voorzieningen-en-uitgestelde-belastingen",
+      "naam": "Voorzieningen en uitgestelde belastingen",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "vorderingen-op-meer-dan-een-jaar",
+      "naam": "Vorderingen op meer dan een jaar",
+      "concept_type": "balanspost",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "vrijstelling-gezinswoning",
+      "naam": "Vrijstelling gezinswoning",
+      "concept_type": "regime",
+      "primary_po": "2.6",
+      "status": "seed"
+    },
+    {
+      "id": "vrijstelling-met-progressievoorbehoud",
+      "naam": "Vrijstelling met progressievoorbehoud",
+      "concept_type": "regime",
+      "primary_po": "2.8",
+      "status": "seed"
+    },
+    {
+      "id": "vrijstellingsregeling-kleine-onderneming",
+      "naam": "Vrijstellingsregeling kleine onderneming",
+      "concept_type": "regime",
+      "primary_po": "2.4",
+      "status": "seed"
+    },
+    {
+      "id": "vruchtgebruik-en-blote-eigendom",
+      "naam": "Vruchtgebruik en blote eigendom",
+      "concept_type": "instrument",
+      "primary_po": "1.1",
+      "status": "seed"
+    },
+    {
+      "id": "vvprbis",
+      "naam": "Vvprbis",
+      "concept_type": "regime",
+      "primary_po": "2.3",
+      "status": "seed"
+    },
+    {
+      "id": "vzw-rechtsvorm",
+      "naam": "Vzw rechtsvorm",
+      "concept_type": "instrument",
+      "primary_po": "3.0",
+      "status": "seed"
+    },
+    {
+      "id": "vzw-stichting-boekhoudregime",
+      "naam": "Vzw stichting boekhoudregime",
+      "concept_type": "regime",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "waarderingsregels-vastlegging",
+      "naam": "Waarderingsregels vastlegging",
+      "concept_type": "procedure",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "werkkapitaalbehoefte",
+      "naam": "Werkkapitaalbehoefte",
+      "concept_type": "ratio",
+      "primary_po": "1.3",
+      "status": "seed"
+    },
+    {
+      "id": "werknemersbezoldiging-pb",
+      "naam": "Werknemersbezoldiging pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "werkprogramma-audit",
+      "naam": "Werkprogramma audit",
+      "concept_type": "procedure",
+      "primary_po": "1.6",
+      "status": "seed"
+    },
+    {
+      "id": "wettelijke-controle-jaarrekening",
+      "naam": "Wettelijke controle jaarrekening",
+      "concept_type": "procedure",
+      "primary_po": "1.2",
+      "status": "seed"
+    },
+    {
+      "id": "wijziging-consolidatiekring",
+      "naam": "Wijziging consolidatiekring",
+      "concept_type": "verrichting",
+      "primary_po": "1.4",
+      "status": "seed"
+    },
+    {
+      "id": "winst-baten-zelfstandige-pb",
+      "naam": "Winst baten zelfstandige pb",
+      "concept_type": "regime",
+      "primary_po": "2.2",
+      "status": "seed"
+    },
+    {
+      "id": "winst-naar-herkomst",
+      "naam": "Winst naar herkomst",
+      "concept_type": "procedure",
+      "primary_po": "2.3",
+      "status": "seed"
+    }
+  ]
+}

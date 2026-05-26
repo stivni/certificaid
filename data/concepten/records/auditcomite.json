@@ -1,7 +1,15 @@
 {
   "id": "auditcomite",
   "naam": {
-    "primair": "Auditcomite"
+    "primair": "Auditcomité",
+    "afkorting": "AC",
+    "synoniemen": [
+      "audit committee"
+    ],
+    "vertaling": {
+      "fr": "Comité d'audit",
+      "en": "Audit committee"
+    }
   },
   "metadata": {
     "schema_version": "2.1",
@@ -24,6 +32,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:59:27Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, gebruikscontext en elementen ingevuld vanuit training-data. Relatie-suggesties toegevoegd."
       }
     ],
     "ankers": [
@@ -33,20 +47,429 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Auditcomite",
+        "tekst": "Een **auditcomité** is een gespecialiseerd adviescomité van het bestuursorgaan dat verantwoordelijk is voor het toezicht op de **financiële verslaggeving**, de **interne controle en het risicobeheer**, en de **externe en interne audit** van de organisatie. Het auditcomité rapporteert aan de raad van bestuur en heeft geen uitvoerende bevoegdheid.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het auditcomité fungeert als **waakhond** tussen de raad van bestuur enerzijds en de externe auditor, de interne auditor en het management anderzijds. Het heeft een **drievoudige toezichtsfunctie**:\n\n1. **Financiële verslaggeving** — beoordelen of de jaarrekening een getrouw beeld geeft en of de gehanteerde boekhoudkundige principes aanvaardbaar zijn.\n2. **Interne controle en risicobeheer** — toezien op de adequaatheid van de systemen en de opvolging van aanbevelingen.\n3. **Externe en interne audit** — voorstellen wie de commissaris wordt, beoordelen diens onafhankelijkheid, bewaken de taakvervulling van de interne auditfunctie.\n\nHet auditcomité heeft géén bestuursbevoegdheid — het adviseert en rapporteert aan de voltallige raad van bestuur.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis van het verplichte auditcomité ligt in het herstel van **vertrouwen na grote boekhoudschandalen** (Enron, Worldcom) en de Belgische implementatie van de **EU-richtlijn inzake wettelijke controle (2006/43/EG, gewijzigd door 2014/56/EU)**. Door toezicht op auditors en verslaggeving te delegeren aan een gespecialiseerd subcomité — met minstens één onafhankelijk lid met relevante financiële expertise — beoogt de wetgever dat bestuurders effectiever waken over de kwaliteit van de financiële informatie, zonder dit te verwarren met het dagelijks bestuur.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "**Grote vennootschappen van openbaar belang** (VOB's) zoals beursgenoteerde vennootschappen, kredietinstellingen en verzekeringsondernemingen, waarvoor een auditcomité wettelijk verplicht is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "VOB's hebben een verhoogde maatschappelijke verwachting qua transparantie en toezicht, vandaar de wettelijke verplichting."
+        },
+        {
+          "tekst": "Elke organisatie — ook buiten de wettelijke verplichting — die behoefte heeft aan **gestructureerd toezicht op financiële betrouwbaarheid en risicobeheer**, bv. grote vzw's, overheidsgebonden entiteiten of beursgenoteerde holdings.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Een vrijwillig auditcomité kan de kwaliteit van governance aantonen aan investeerders, financiers en regulatoren."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Kleine en micro-vennootschappen** waarvan de grootte noch de publieke impact de overhead van een auditcomité rechtvaardigt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De kosten en formaliteiten van een auditcomité zijn disproportioneel voor organisaties met beperkte complexiteit en geen beursnotering of publiek belang."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Bij wettelijk verplicht auditcomité: minstens **één onafhankelijk lid** van het bestuursorgaan dat over **aantoonbare deskundigheid op het gebied van boekhouding en/of audit** beschikt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zonder onafhankelijkheid en financiële expertise kan het comité zijn waakhond-functie niet vervullen."
+        },
+        {
+          "tekst": "De **meerderheid van de leden** is niet-uitvoerend (niet-werkend bestuurder) zodat objectiviteit ten aanzien van het management gewaarborgd is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Schijnzelfstandigheid van het comité**: als de voorzitter van de raad van bestuur tevens actief is in het auditcomité, of als leden te nauw verbonden zijn met het management, verliest het comité zijn onafhankelijke waakhond-functie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Formele onafhankelijkheid zonder feitelijke onafhankelijkheid maakt het auditcomité tot een rubber stamp — juist het scenario dat de wetgever wil vermijden."
+        },
+        {
+          "tekst": "**Informatieachterstand**: het auditcomité is afhankelijk van de informatie die het management en de auditors aanleveren. Gebrek aan actieve doorvraging of directe toegang tot medewerkers vergroot het risico dat problemen verborgen blijven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "samenstelling-auditcomite",
+        "naam": {
+          "primair": "Samenstelling van het auditcomité"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een auditcomité bestaat uitsluitend uit **niet-uitvoerende leden** van het bestuursorgaan. De meerderheid is onafhankelijk. Minstens één lid beschikt over **deskundigheid op het gebied van boekhouding en/of audit**. Bij een VOB telt het comité minimaal **drie leden**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De drempel van drie leden en de onafhankelijkheidsvereiste zijn bedoeld om de kwaliteit van beraadslaging en de onpartijdigheid ten aanzien van het management te waarborgen."
+          }
+        }
+      },
+      {
+        "id": "toezicht-financiele-verslaggeving",
+        "naam": {
+          "primair": "Toezicht op financiële verslaggeving"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het auditcomité bewaakt de **integriteit van de financiële informatie** die de vennootschap publiceert. Concreet: bespreken van significante boekhoudkundige keuzes, controleren of de jaarrekening een getrouw beeld geeft, en beoordelen van het gebruik van alternatieve prestatiemaatstaven.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toezicht-interne-controle-risicobeheer",
+        "naam": {
+          "primair": "Toezicht op interne controle en risicobeheer"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het auditcomité beoordeelt de **adequaatheid van de interne-controlesystemen en risicobeheer** die het management heeft ingevoerd. Dit omvat: toetsing van het systeem van interne controle, opvolging van geïdentificeerde zwakheden en aanbevelingen van de interne auditor.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rol-tav-commissaris",
+        "naam": {
+          "primair": "Rol ten aanzien van de commissaris (externe auditor)"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het auditcomité:\n- **Stelt de commissaris voor** aan de algemene vergadering (na selectieprocedure)\n- Bewaakt diens **onafhankelijkheid** (o.a. beoordeling nevendiensten)\n- Bespreekt de **controleverklaring** en eventuele bezorgdheden die de commissaris aan de leiding wil melden\n- Heeft **directe toegang** tot de commissaris buiten aanwezigheid van het management",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De directe communicatielijn tussen commissaris en auditcomité — buiten management om — is de kern van de onafhankelijkheidswaarborg: de auditor kan ongemakkelijke bevindingen melden zonder vrees voor een negatieve reactie van het management."
+          }
+        }
+      },
+      {
+        "id": "rol-tav-interne-audit",
+        "naam": {
+          "primair": "Rol ten aanzien van de interne auditfunctie"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het auditcomité bewaakt de **organisatie, middelen en onafhankelijkheid van de interne auditfunctie**. Het keurt het jaarlijkse auditplan goed, bespreekt de bevindingen van interne audits en toetst of de interne auditor voldoende middelen en directe toegang tot het comité heeft.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Een interne auditfunctie die rapporteert aan het management verliest haar onafhankelijkheid. Door de functionele rapporteringslijn te leggen bij het auditcomité wordt de neutrale positie gewaarborgd."
+          }
+        }
+      },
+      {
+        "id": "verplichting-vob",
+        "naam": {
+          "primair": "Wettelijke verplichting voor VOB's"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vennootschappen van openbaar belang (VOB's) zijn wettelijk verplicht een auditcomité op te richten. Hieronder vallen onder meer **beursgenoteerde vennootschappen**, **kredietinstellingen** en **verzekeringsondernemingen**. Kleine VOB's kunnen onder bepaalde voorwaarden van de verplichting worden vrijgesteld, waarbij de voltallige raad van bestuur de taken van het auditcomité overneemt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De vrijstelling voor kleine VOB's geldt wanneer de vennootschap voldoet aan **groottecriteria**: een kleine VOB mag de taken van het auditcomité toebedelen aan de voltallige raad van bestuur op voorwaarde dat minstens één lid voldoet aan de onafhankelijkheid- en deskundigheidsvereisten.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "werkwijze-en-rapportering",
+        "naam": {
+          "primair": "Werkwijze en rapportering aan de raad van bestuur"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Het auditcomité vergadert **minstens vier keer per jaar** (typisch vóór of na elke kwartaalrapportering). Na elke vergadering rapporteert de voorzitter aan de raad van bestuur. Het comité stelt een **jaarlijkse activiteitenrapport** op dat in het jaarverslag of in het corporate-governance-rapport wordt opgenomen.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De minimale vergaderfrequentie van vier keer per jaar is een marktstandaard, niet steeds wettelijk vastgelegd; concrete vereisten hangen af van de corporate-governance-code die de vennootschap volgt."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "governance-actoren-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "interne-controle-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het auditcomité is een essentieel element in de controleomgeving (COSO-component 1): het vertegenwoordigt het toezichthoudend deel van de governance-structuur."
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "externe-audit-commissaris",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De commissaris rapporteert rechtstreeks aan het auditcomité en legt aan het comité zijn bevindingen voor — de toezichtsrelatie loopt van commissaris naar auditcomité (niet omgekeerd)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "interne-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De interne auditfunctie rapporteert functioneel aan het auditcomité — het comité keurt het auditplan goed en ontvangt de bevindingen."
+    },
+    {
+      "type": "valt_onder",
+      "target": "algemene-vergadering",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het auditcomité is een subcomité van de raad van bestuur; de raad legt verantwoording af aan de algemene vergadering."
+    },
+    {
+      "type": "valt_onder",
+      "target": "bestuur-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "onafhankelijkheid",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De onafhankelijkheid van de leden is de kritische succesfactor voor de effectiviteit van het auditcomité."
+    }
+  ],
   "concept_type": "kader"
 }

@@ -1,8 +1,18 @@
 {
   "id": "internationale-structurering-vennootschap",
   "naam": {
-    "primair": "Internationale structurering vennootschap"
+    "primair": "Internationale structurering vennootschap",
+    "synoniemen": [
+      "internationale holdingstructuur",
+      "grensoverschrijdende vennootschapsstructuur",
+      "internationale groepsstructuur"
+    ],
+    "vertaling": {
+      "fr": "Structuration internationale de société",
+      "en": "International corporate structuring"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +22,11 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.8.taak.1",
+      "2.8.XII",
+      "2.8.XVII"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +39,624 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T10:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.8.taak.1",
-      "2.8.XII",
-      "2.8.XVII"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Internationale structurering vennootschap",
+        "tekst": "**Internationale structurering van een vennootschap** is het geheel van juridische, fiscale en financiële keuzes waarmee een ondernemer of groep zijn activiteiten over meerdere landen organiseert via een bewuste toewijzing van entiteiten, functies, risico's en activa. Het kader bepaalt in welk land winsten belast worden, hoe intra-groepsstromen worden geprijsd en welke beschermingsregimes (verdragen, EU-richtlijnen) van toepassing zijn.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Internationale structurering gaat verder dan louter belastingoptimalisatie. De drie kerndimensies zijn:\n\n- **Juridische entiteitskeuze** — welke rechtsvorm in welk land (NV, BV, partnership, trust), en hoe verhouden entiteiten zich tot elkaar (moeder–dochter, zustervennootschappen, PE).\n- **Functionele allocatie** — welke entiteit oefent welke functies uit (productie, R&D, verkoop, IP-houder), draagt welke risico's en bezit welke activa. Dit is de ruggengraat van de verrekenprijzenanalyse.\n- **Financieringsstructuur** — hoe worden entiteiten gefinancierd (eigen vermogen, intra-groepsleningen, hybride instrumenten) en waar wordt rente ontvangen/betaald.\n\nDeze drie dimensies samen bepalen de effectieve belastingdruk van de groep en de kwetsbaarheid voor antimisbruik-regelgeving (ATAD, BEPS, MLI).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Landen hanteren soevereine belastingstelsels die overlappen, waardoor dezelfde winst in principe door meerdere landen tegelijk belast kan worden (**dubbele belasting**) of — via planning — nergens belast wordt (**dubbele niet-belasting**). Internationale structurering navigeert deze complexiteit via drie mechanismen: **verdragennetwerk** (OESO-modelverdrag, dubbelbelastingverdragen), **EU-harmonisatie** (Moeder-dochterrichtlijn, Interest- en Royaltyrichtlijn, ATAD 1 & 2) en **unilaterale antimisbruik** (Belgische algemene antimisbruikbepaling, CFC-regels, hybride-mismatch-regels). Het BEPS-actieplan (OESO, 2013-2015) en het MLI hebben de structureringsruimte significant ingeperkt door substance-vereisten en principal purpose test.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belgische vennootschappen die actief zijn in meerdere landen, een dochtervennootschap oprichten of verwerven in het buitenland, of die IP, financieringsactiviteiten of distributie internationaal willen organiseren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Grensoverschrijdende reorganisaties, fusies of overnames waarbij de groepsstructuur of het vestigingsland van functies/risico's wijzigt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Successieplanning met internationale dimensie waarbij activa of vennootschappen in meerdere landen betrokken zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Zuiver Belgische KMO's zonder buitenlandse activiteiten, entiteiten of aandeelhouders — voor hen zijn de nationale fiscale regime-fiches relevanter.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waarbij de internationale component louter toevallig is (bv. éénmalige buitenlandse klant) en geen structurele entiteits- of allocatiebeslissing vereist.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Vermijding van **dubbele belasting** via verdragen (vrijstelling met progressievoorbehoud of verrekening), waardoor de groep niet méér belast wordt dan bij zuiver binnenlandse activiteit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Optimalisatie van de effectieve belastingdruk** via bewuste locatiekeuze van functies, risico's en activa binnen de grenzen van het arm's length-beginsel en substancevereisten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Bescherming via **stabiel verdragennetwerk** dat heffingsrechten vastlegt en niet unilateraal door één staat kan worden gewijzigd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Antimisbruik-herkwalificatie** via de principal purpose test (MLI, art. 7) of de Belgische algemene antimisbruikbepaling: structuren zonder voldoende economische substance kunnen worden genegeerd door belastingdiensten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verrekenprijzensancties**: intra-groepstransacties die niet arm's length geprijsd zijn, leiden tot winstaanpassingen in meerdere landen tegelijk — met potentieel cumulerende boetes.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Exit-belasting** bij verplaatsing van zetel, functies of activa naar een ander land: latente meerwaarden kunnen op dat moment belastbaar worden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Aanwezigheid van buitenlandse groepsvennootschappen, IP-rechten in het buitenland, intra-groepsleningen of managementfees — signalen dat structureringsanalyse nodig is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "heffingsrecht-verdeling",
+        "naam": {
+          "primair": "Heffingsrechtsverdeling via dubbelbelastingverdrag"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **dubbelbelastingverdrag** (DBV) verdeelt de heffingsrechten tussen twee landen door voor elke inkomenscategorie te bepalen welk land mag heffen (bronstaat, woonstaat of beide). België past het OESO-modelverdrag toe als referentiestelsel bij onderhandelingen en interpretatie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De twee hoofdmethoden om dubbele belasting te vermijden:\n- **Vrijstellingsmethode** (met progressievoorbehoud): bronstaat-inkomen is vrijgesteld in woonstaat maar telt mee voor het bepalen van het tarief op de overige inkomsten.\n- **Verrekeningsmethode**: buitenlandse belasting wordt verrekend met de woonstaat-belasting, tot het bedrag dat de woonstaat op dat inkomen zou heffen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vaste-inrichting-criterium",
+        "naam": {
+          "primair": "Vaste inrichting als heffingsdrempel"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **vaste inrichting** (VI) is de minimale aanwezigheid die een bronstaat nodig heeft om bedrijfswinsten van een buitenlandse vennootschap te mogen belasten. Zonder VI mag de bronstaat de bedrijfswinsten niet belasten. Zodra een VI bestaat, mag de bronstaat de winsten toerekenbaar aan die VI belasten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De VI-drempel is cruciaal bij internationale structurering: een verkoper die regelmatig in een ander land activiteiten uitoefent via een afhankelijke agent, een bouwwerf die langer duurt dan de verdragsdrempel (doorgaans 6 of 12 maanden), of een vaste bedrijfsinrichting kan onbedoeld een VI creëren. Dit heeft directe gevolgen: registratieplicht, winstattributie en belastingplicht in de bronstaat.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "arm-s-length-beginsel",
+        "naam": {
+          "primair": "Arm's length-beginsel",
+          "synoniemen": [
+            "zakelijkheidsnorm",
+            "principe de pleine concurrence"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **arm's length-beginsel** vereist dat transacties tussen verbonden vennootschappen geprijsd worden alsof ze plaatsvinden tussen onafhankelijke partijen in vergelijkbare omstandigheden. Het is de hoeksteen van het internationale verrekenprijzenstelsel en verankerd in artikel 9 van het OESO-modelverdrag.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Praktische toepassing vereist een **vergelijkbaarheidsanalyse**: zijn er vergelijkbare ongecontroleerde transacties? Zo niet, dan wordt een passende verrekenprijsmethode gekozen (CUP, resale price, cost plus, transactionele nettomarge, profit split). De OESO Transfer Pricing Guidelines zijn het interpretatiemiddel; in België zijn ze wettelijk verankerd via artikel 185 §2 WIB 92.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "substance-vereiste",
+        "naam": {
+          "primair": "Substance-vereiste",
+          "synoniemen": [
+            "economische substance",
+            "real economic activity"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vennootschap in een internationale structuur moet **voldoende economische substanz** hebben in haar vestigingsland: eigen personeel, beslissingsbevoegdheid, fysieke aanwezigheid en actieve uitoefening van de toegewezen functies en risico's. Zonder substance kunnen belastingdiensten de entiteit negeren of als doorstroomvennootschap herkwalificeren.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Post-BEPS is substance het centrale test-criterium. De **principal purpose test** (MLI, art. 7) ontzegt verdragsvoordelen wanneer het verkrijgen van die voordelen één van de voornaamste doelen van een arrangement is, tenzij de belastingplichtige aantoont dat het verlenen van die voordelen in overeenstemming is met het doel en het voorwerp van de verdragsbepaling.\n\nBij een holdingstructuur betekent substance concreet: eigen personeel dat investeringsbeslissingen neemt, een raad van bestuur die effectief vergadert in het vestigingsland, en eigen kantoorruimte — niet louter een geregistreerd adres.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cfc-regelgeving",
+        "naam": {
+          "primair": "CFC-regelgeving",
+          "afkorting": "CFC",
+          "synoniemen": [
+            "Controlled Foreign Company-regels",
+            "regels gecontroleerde buitenlandse vennootschappen"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**CFC-regels** (Gecontroleerde Buitenlandse Vennootschappen) verplichten een Belgische moedervennootschap om niet-uitgekeerde winsten van een laagbelaste buitenlandse dochter mee te nemen in haar Belgische belastbare grondslag. België implementeerde dit via ATAD 1 (Richtlijn 2016/1164). De CFC-maatregel geldt wanneer de buitenlandse vennootschap effectief laagbelast is én de winsten voornamelijk uit passieve inkomsten bestaan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hybride-mismatches",
+        "naam": {
+          "primair": "Hybride mismatches",
+          "synoniemen": [
+            "hybride mismatch-arrangementen"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Hybride mismatches** ontstaan wanneer twee landen een entiteit of instrument fiscaal anders kwalificeren, zodat een betaling bij de ene partij aftrekbaar is maar bij de andere niet belast wordt (dubbele niet-belasting). ATAD 2 en BEPS-actie 2 verplichten lidstaten deze arrangementen te neutraliseren via aftrekweigering of bijheffing.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Klassieke voorbeelden:\n- **Hybride entiteit**: een vennootschap die in land A als transparant wordt beschouwd (inkomsten belast bij aandeelhouder) maar in land B als ondoorzichtig (inkomsten belast bij de entiteit zelf). Een dividenduitkering is in land A aftrekbaar maar in land B vrijgesteld → dubbele aftrek of dubbele niet-belasting.\n- **Hybride instrument**: een lening die in land A als eigen vermogen wordt behandeld (rente = dividend, niet aftrekbaar) maar in land B als schuld (rente aftrekbaar).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "mli-impact",
+        "naam": {
+          "primair": "MLI-impact op bestaande verdragen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **Multilateraal Instrument** (MLI, 2016) wijzigt bilaterale dubbelbelastingverdragen zonder ze volledig te heronderhandelen. Via een opt-in systeem kunnen staten BEPS-minimumstandaarden en andere maatregelen in hun bestaande verdragen invoegen. Voor België is de MLI in werking getreden en wijzigt het de meeste van zijn verdragen, afhankelijk van welke opties beide verdragspartners gekozen hebben.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "De MLI-maatregelen met grootste impact op structurering:\n- **Principal Purpose Test** (art. 7): verdragsvoordelen worden geweigerd als het verkrijgen ervan één van de voornaamste doelen was.\n- **Vaste inrichting — bouwwerfdrempel** (art. 14): aanscherping van de tijdsdrempel bij projectsplitsing.\n- **Tiebreaker voor dual-residence** (art. 4): mutual agreement procedure i.p.v. automatische rule-of-thumb voor vennootschappen die in twee landen als inwoner worden beschouwd.\n\nBij analyse van een specifiek verdrag moet steeds worden nagegaan welke MLI-opties beide partijen hebben gekozen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "transfer-pricing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Verrekenprijzen zijn een kernonderdeel van elke internationale groepsstructuur: de functionele allocatie vertaalt zich in intra-groepstransacties die arm's length geprijsd moeten worden."
+    },
+    {
+      "type": "bevat",
+      "target": "vaste-inrichting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "dubbelbelastingverdrag",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Verdragennetwerk is de eerste analyselaag: welk verdrag geldt, wat staat erin, en wat wijzigt het MLI eraan?"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "mli-instrument",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "MLI wijzigt bestaande verdragen via opt-in; structuren die vóór MLI geldig waren kunnen nu de principal purpose test niet doorstaan."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "atad-richtlijn",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "ATAD 1 & 2 introduceren CFC-regels, hybride-mismatch-neutralisatie en EBITDA-aftrekbeperking op EU-niveau."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beps-actieplan",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "BEPS-actieplan heeft het internationale fiscale landschap fundamenteel gewijzigd: substance-vereisten, country-by-country reporting en hybride-neutralisatie zijn er de concrete uitkomsten van."
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-residentie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Fiscale residentie bepaalt het land van onbeperkte belastingplicht — de startplaats van elke structureringsanalyse."
+    },
+    {
+      "type": "triggert",
+      "target": "exit-belasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Herstructurering van een internationale groep waarbij zetel of functies worden verlegd, kan exit-belasting triggeren op latente meerwaarden."
+    },
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "holding-successieplanning",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Holdingstructuren voor successieplanning overlappen met internationale structurering wanneer het gezin of de begunstigden in meerdere landen wonen."
+    }
+  ]
 }

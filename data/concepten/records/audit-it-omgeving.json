@@ -1,11 +1,24 @@
 {
   "id": "audit-it-omgeving",
   "naam": {
-    "primair": "Audit it omgeving"
+    "primair": "Audit van de IT-omgeving",
+    "synoniemen": [
+      "IT-audit",
+      "geautomatiseerde boekhoudomgeving",
+      "IT-controls audit"
+    ],
+    "vertaling": {
+      "fr": "Audit de l'environnement informatique",
+      "en": "IT environment audit"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.6.II.D"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +37,491 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data. Anker 1.6.II.D: geautomatiseerde boekhoudomgevingen, IT-controls, audit trail, toegangsbeheer, gegevensintegriteit."
       }
-    ],
-    "ankers": [
-      "1.6.II.D"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Audit it omgeving",
+        "tekst": "De **audit van de IT-omgeving** is het geheel van aandachtspunten en aanpassingen die de accountant doorvoert in zijn werkprogramma wanneer de te controleren entiteit haar boekhouding en bedrijfsprocessen geautomatiseerd verwerkt. De accountant beoordeelt de **IT-controls** (algemene en applicatiecontroles), de **audit trail**, het **toegangsbeheer** en de **gegevensintegriteit** om te bepalen in hoeverre hij op de output van het IT-systeem kan steunen bij zijn controle.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In een geautomatiseerde boekhoudomgeving verwerkt software — niet de mens — dagelijks grote aantallen transacties. Dit verandert de aard van de controleprocedures fundamenteel:\n\n- **Fouten zijn systematisch**: een programmeerfout of verkeerde parameterinstelling repliceert zichzelf in elke transactie. Eén enkele fout in een berekenings- of boekingsregel kan honderden lijnen aantasten.\n- **Manuele sporen vervagen**: wanneer een inkoopfactuur automatisch geboekt, gematcht en betaald wordt, zijn er weinig handtekeningen of papieren bewijsstukken. De audit trail zit in de logs van het systeem.\n- **Toegangsrechten zijn de nieuwe scheiding van functies**: wie rechten heeft om leveranciers aan te maken én betalingsopdrachten goed te keuren, kan fraude plegen zonder enig papier.\n\nDit maakt de beoordeling van IT-controls tot een **voorwaardelijke stap**: als de accountant niet voldoende zekerheid heeft over de betrouwbaarheid van het systeem, mag hij niet blindelings steunen op de uitgedraaide lijsten en saldi.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De logica is: IT-systemen automatiseren niet alleen verwerking, maar ook fouten en fraude. De accountant moet eerst de betrouwbaarheid van het verwerkingskanaal beoordelen voordat hij conclusies trekt uit de output."
+      },
+      "rationale": {
+        "tekst": "Het ITAA-examenprogramma stelt dat de accountant zijn **werkprogramma moet aanpassen** aan de IT-infrastructuur van de gecontroleerde entiteit. Dit is geen vrijblijvende aanbeveling maar een fundamentele aanpak: de ISA's (ISA 315, ISA 330) vereisen dat de auditor inzicht verwerft in de relevante IT-controls als onderdeel van het begrip van de interne beheersing. Wie IT-controls overslaat en puur op substantieve toetsing steunt, mist de systematische fouten die juist karakteristiek zijn voor geautomatiseerde omgevingen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "norm",
+              "naam": "ISA 315",
+              "ref": "isa-315-herzien-2019"
+            },
+            {
+              "type": "norm",
+              "naam": "ISA 330",
+              "ref": "isa-330"
+            },
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke controleopdracht waarbij de gecontroleerde entiteit haar boekhouding geheel of gedeeltelijk **geautomatiseerd verwerkt** — wat in de praktijk voor vrijwel alle entiteiten geldt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Zodra transacties door software worden verwerkt (ook standaard boekhoud­software zoals Exact, Sage, SAP) is een beoordeling van IT-controls relevant."
+        },
+        {
+          "tekst": "Situaties met **hoge volumestromen** (meer dan enkele honderden transacties per periode) waarbij manuele detail­controle niet meer haalbaar is en de accountant wil steunen op geautomatiseerde controles.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Jaarrekening­controles waarbij **geautomatiseerde applicatiecontroles** (bv. matching van bestelbon / leveranciersfactuur / betaling) tot de relevante interne beheersing behoren en de accountant hierop wil steunen om zijn werkprogramma te beperken.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Een volledig **handmatige omgeving** (zeldzaam in de praktijk) waarbij alle transacties op papier worden vastgelegd en verwerkt — hier gelden de klassieke interne controle-evaluaties zonder IT-component.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Systematische verwerkingsfouten** — een fout in een berekeningsregel (bv. btw-tarief, valuta-omrekening, afschrijvings­formule) repliceert zich in elke verwerkte transactie en is bij een manuele audit niet-detecteerbaar zonder de software-logica te testen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onvoldoende audit trail** — als het systeem geen herleidbare logs bijhoudt van wijzigingen en boekingen, kan de accountant achteraf niet reconstrueren wie wat wanneer geboekt heeft. Dit is een inherente beperking die de controleerbaarheid aantast.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De entiteit gebruikt een **ERP-systeem** (SAP, Oracle, Microsoft Dynamics, Exact Globe) of een gespecialiseerd boekhoud­pakket voor geïntegreerde verwerking van meerdere processen (inkoop, verkoop, voorraad, boekhouding).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De entiteit heeft **automatische bankimport** (CODA) en verwerkt betalingen via gekoppelde betaal­modules — toegangsrechten tot betalingsopdrachten zijn dan een bijzonder risico.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De entiteit heeft veel **gebruikers met uiteenlopende rechten** en verschillende afdelingen die in hetzelfde systeem werken — scheiding van functies via toegangsbeheer is dan het voornaamste controle­mechanisme.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "itgc-algemene-controls",
+        "naam": {
+          "primair": "Algemene IT-controls (ITGC)",
+          "synoniemen": [
+            "IT General Controls",
+            "ITGC"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**Algemene IT-controls** (IT General Controls, ITGC) zijn de basismaatregelen die de betrouwbaarheid van het hele IT-systeem bewaken, ongeacht de specifieke applicatie. Ze omvatten vier domeinen:\n\n- **Toegangsbeheer** — wie heeft welke rechten in welk systeem? Zijn rechten beperkt tot wat nodig is (principe van minste privilege)?\n- **Wijzigingsbeheer** — hoe worden software-updates en parameterwijzigingen doorgevoerd, getest en goedgekeurd?\n- **Operationeel beheer** — back-ups, beschikbaarheid, incidentopvolging.\n- **Beveiliging** — encryptie, netwerk-segmentatie, toegang tot infrastructuur.\n\nAls de ITGC zwak zijn, zijn de applicatiecontroles ook onbetrouwbaar — want elk programma draait op de onderliggende infrastructuur.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "ITGC zijn een prerequisiet: als beheerders ongecontroleerd software kunnen aanpassen, zijn alle applicatiecontroles nutteloos — de controles zelf kunnen immers gewijzigd zijn."
+          }
+        }
+      },
+      {
+        "id": "applicatiecontroles",
+        "naam": {
+          "primair": "Applicatiecontroles",
+          "synoniemen": [
+            "geautomatiseerde applicatiecontroles",
+            "application controls"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**Applicatiecontroles** zijn ingebouwde controles in de boekhoud- of bedrijfssoftware die specifieke transacties valideren. Voorbeelden:\n\n- **Invoervalidatie** — weigert een factuur zonder geldig leveranciers­nummer\n- **Drie-weg-matching** — betalingsopdracht pas vrij­gegeven als bestelbon + ontvangst­bon + factuur overeenstemmen\n- **Saldo­bewaking** — systeem blokkeert boeking die een rekening in rood trekt zonder toestemming\n- **Berekening** — automatische btw-berekening, afschrijvings­berekening, valuta-omrekening\n\nDe accountant die steunt op applicatiecontroles vermindert de omvang van zijn detail­controles — maar alleen als hij eerst heeft vastgesteld dat de ITGC die het systeem bewaken voldoende zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "audit-trail",
+        "naam": {
+          "primair": "Audit trail",
+          "synoniemen": [
+            "auditspoor",
+            "logbestanden",
+            "wijzigingshistoriek"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **audit trail** is een automatisch bijgehouden, onveranderbare registratie van alle boekingen en wijzigingen in het systeem: welke gebruiker, wanneer, welke handeling, welk bedrag. De Belgische wetgeving vereist dat geautomatiseerde boekhoud­systemen de **onveranderbaarheid van geboekte verrichtingen** waarborgen.\n\nEen goede audit trail maakt het mogelijk om achteraf te reconstrueren:\n- Wie een boeking aangemaakt of gewijzigd heeft\n- Wanneer precies de handeling plaatsvond\n- Welke waarden voor en na de wijziging golden",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WER Boek III art. III.85",
+                  "ref": "wer-boek-iii-art-iii-85"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder audit trail kan de accountant niet vaststellen of een boeking achteraf is aangepast — de getrouwheid van de jaarrekening is dan niet verifieerbaar."
+          }
+        }
+      },
+      {
+        "id": "toegangsbeheer",
+        "naam": {
+          "primair": "Toegangsbeheer",
+          "synoniemen": [
+            "access management",
+            "gebruikersrechten",
+            "autorisatiebeheer"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Toegangsbeheer** regelt welke gebruikers welke functies in het IT-systeem mogen uitvoeren. In een geautomatiseerde omgeving is dit de primaire implementatie van het principe van **scheiding van functies**:\n\n- Wie facturen kan aanmaken, mag niet ook betalingen goedkeuren\n- Wie leveranciers kan aanmaken, mag niet ook betalingsopdrachten initiëren\n- Super-user-rechten (onbeperkte toegang) mogen alleen aan beheerders gegeven worden voor welomschreven taken\n\nDe accountant beoordeelt of de toegangsrechten consistent zijn met de organisatiestructuur en of er onverenigbare rechten-combinaties bestaan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gegevensintegriteit",
+        "naam": {
+          "primair": "Gegevensintegriteit",
+          "synoniemen": [
+            "data integrity",
+            "betrouwbaarheid van gegevens"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Gegevensintegriteit** is de mate waarin de gegevens in het systeem volledig, nauwkeurig en ongewijzigd zijn ten opzichte van de oorspronkelijke invoer en verwerking. Drie dimensies:\n\n- **Volledigheid** — zijn alle transacties ingevoerd? Geen verloren facturen of betalingen.\n- **Nauwkeurigheid** — zijn bedragen, btw-codes en rekening­nummers correct overgenomen?\n- **Consistentie** — zijn verbonden tabellen (leveranciers, artikelen, rekeningen) coherent? Geen boekingen naar niet-bestaande rekeningen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "doorlopende-verwerking",
+        "naam": {
+          "primair": "Doorlopende verwerking",
+          "synoniemen": [
+            "real-time verwerking",
+            "continue verwerking"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "In moderne boekhoud­systemen worden transacties **onmiddellijk** na invoer of import verwerkt en geboekt — er is geen handmatige batchverwerking meer waarbij een medewerker het dagboek bekijkt voor het afdrukken. Dit heeft twee gevolgen:\n\n1. **Snelheid en efficiëntie**: bank­afschriften worden via CODA automatisch geïmporteerd en voorlopig geboekt; facturen worden gematcht bij ontvangst.\n2. **Verlies van manueel controlepunt**: de medewerker die vroeger het dagboek nazag vóór het afdrukken, is weggevallen. De controle moet nu ingebouwd zijn in de software (applicatiecontroles) of door de accountant getest worden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanpassing-werkprogramma",
+        "naam": {
+          "primair": "Aanpassing van het werkprogramma aan de IT-omgeving"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De accountant **past zijn werkprogramma aan** aan de IT-infrastructuur van de gecontroleerde entiteit. Concreet betekent dit:\n\n- **Fase 1 — Begripsvorming**: de accountant verwerft inzicht in de relevante IT-controls (ISA 315). Welk systeem? Welke modules? Welke integraties?\n- **Fase 2 — Beoordeling ITGC**: zijn de algemene IT-controls voldoende robuust om de applicatiecontroles betrouwbaar te maken?\n- **Fase 3 — Testen applicatiecontroles**: als de accountant wil steunen op applicatiecontroles, test hij of ze daadwerkelijk werken gedurende het hele boekjaar.\n- **Fase 4 — Substantieve aanpassing**: naargelang de ITGC en applicatiecontroles betrouwbaar zijn, past hij de omvang van zijn detail­controles aan (kleiner bij betrouwbare IT-controls, groter bij zwakke).\n\nBij zwakke of ontbrekende IT-controls valt de accountant terug op **pure substantieve controle** — hij kan dan niet steunen op de geautomatiseerde verwerking.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "norm",
+                  "naam": "ISA 315",
+                  "ref": "isa-315-herzien-2019"
+                },
+                {
+                  "type": "norm",
+                  "naam": "ISA 330",
+                  "ref": "isa-330"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "normenkader-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "interne-controle-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "IT-controls zijn een onderdeel van de interne beheersing in de COSO-taxonomie (controle-activiteiten)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "auditrisicomodel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De kwaliteit van de IT-controls beïnvloedt het controlerisico in het auditrisicomodel: sterke IT-controls verlagen het controlerisico en laten een beperktere substantieve toetsing toe."
+    },
+    {
+      "type": "bevat",
+      "target": "it-controles-cluster",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "audit-bewijs-verzamelen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De beoordeling van de IT-omgeving is een stap in het verzamelen van audit-bewijs over de betrouwbaarheid van de verwerkte gegevens."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "controle-activiteiten-coso",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide richten zich op beheersingsmaatregelen die fouten en fraude moeten voorkomen of detecteren.",
+        "IT-controls zijn een subcategorie van controle-activiteiten in COSO."
+      ],
+      "verschillen": [
+        "Controle-activiteiten COSO omvatten ook manuele controles; audit IT-omgeving focust specifiek op geautomatiseerde verwerking.",
+        "Audit IT-omgeving heeft een specifieke methodologie (ITGC + applicatiecontroles) die breder is dan de COSO-component alleen."
+      ]
+    }
+  ]
 }

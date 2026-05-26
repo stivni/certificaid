@@ -1,8 +1,20 @@
 {
   "id": "fiscale-actoren",
   "naam": {
-    "primair": "Fiscale actoren"
+    "primair": "Fiscale actoren",
+    "synoniemen": [
+      "partijen in een belastingrelatie",
+      "belastingplichtige en belastingschuldige",
+      "betrokkenen bij belastingheffing",
+      "fiscale rechtsverhouding",
+      "schuldenaar van de belasting",
+      "rolverdeling in fiscaliteit"
+    ],
+    "vertaling": {
+      "fr": "Acteurs fiscaux"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +24,11 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.1.IV",
+      "2.1.taak.2",
+      "2.1.taak.3"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +41,555 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern (definitie/substantie/rationale), 7 elementen, gebruikscontext en 7 basis-relaties ingevuld vanuit training-data. Naam-synoniemen aangevuld met ITAA-programma-terminologie."
       }
-    ],
-    "ankers": [
-      "2.1.IV",
-      "2.1.taak.2",
-      "2.1.taak.3"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Fiscale actoren",
+        "tekst": "Het Belgische belastingstelsel kent een vaste cast van **actoren** met elk een eigen bevoegdheid, verantwoordelijkheid en procedureel gewicht: de **belastingplichtige** die aangifte doet, de **belastingadministratie** die heft en controleert, de **adviseur/accountant** die begeleidt en vertegenwoordigt, en de **rechterlijke macht** die toetst en beslist bij geschillen. Inzicht in de rol en de bevoegdheid van elke actor is de noodzakelijke basis voor het correct navigeren van elke fiscale procedure.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De fiscale procedure is een **meersporen-verhouding** tussen actoren met ongelijke bevoegdheden:\n\n- De **belastingplichtige** (natuurlijke of rechtspersoon) heeft de plicht om aangifte te doen, de rechten om bezwaar in te dienen en correcties te betwisten.\n- De **belastingadministratie** (FOD Financiën) heeft het monopolie op het vestigen van de aanslag, het voeren van een belastingcontrole en het invorderen van belastingschulden. Ze is intern georganiseerd in bevoegdheidskringen (controle, bezwaar, invordering) die strikt gescheiden zijn.\n- De **fiscale adviseur / accountant** treedt op als vertegenwoordiger, als technische tegenspeler van de administratie en als bewaker van de belangen van de belastingplichtige — zonder eigen procedurele rechten op eigen naam (geen partijbevoegdheid).\n- De **rechter** (fiscale kamers van de rechtbank van eerste aanleg, Hof van Beroep, Hof van Cassatie) toetst de aanslag en de procedure op rechtmatigheid, maar heft niet zelf.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het onderscheid tussen actoren en hun bevoegdheden is **geen academisch onderscheid**: een bezwaarschrift ingediend door de verkeerde instantie is niet-ontvankelijk, een aanslag gevestigd buiten de aanslagtermijn is nietig, een rechter die buiten zijn bevoegdheidssfeer treedt handelt ultra vires. Voor de accountant als procesvertegenwoordiger is het kennen van de bevoegdheidsgrenzen van elk orgaan een dagelijkse operationele vereiste.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "belastingplichtige",
+        "naam": {
+          "primair": "Belastingplichtige",
+          "synoniemen": [
+            "belastingschuldige",
+            "contribuable"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **belastingplichtige** is de natuurlijke of rechtspersoon op wie de belastingwet van toepassing is en die gehouden is tot het betalen van de belasting. In de personenbelasting is dat de rijksinwoner; in de vennootschapsbelasting de in België gevestigde vennootschap; in de btw de belastingplichtige die economische activiteiten uitoefent.\n\nDe belastingplichtige heeft procedurele **plichten** (aangifte, bewaring van stukken, medewerking aan controle) én procedurele **rechten** (bezwaar, geraadpleegde dossiers, regularisatie, rechtsbijstand).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belastingadministratie",
+        "naam": {
+          "primair": "Belastingadministratie",
+          "synoniemen": [
+            "FOD Financiën",
+            "AAFISC",
+            "fiscus",
+            "administratie"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **belastingadministratie** (FOD Financiën) is de federale instelling die belast is met het heffen, controleren en invorderen van de directe belastingen en de btw. Ze is intern opgedeeld in afzonderlijke entiteiten met strikte bevoegdheidsafbakening:\n\n- **Administratie van Fiscale Zaken** (normatief: circulaires, standpunten)\n- **Administratie Direkte Belastingen / AAFISC** (controlekantoren, aanslagkantoren)\n- **Dienst Voorafgaande Beslissingen (DVB)** — geeft bindende rulings\n- **Gewestelijke directies** — bevoegd voor bezwaar (eerste administratieve instantie)\n- **Inningscentra / Ontvangkantoren** — invordering na aanslag",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        },
+        "elementen": [
+          {
+            "id": "controleur",
+            "naam": {
+              "primair": "Belastingcontroleur",
+              "synoniemen": [
+                "ambtenaar-controleur",
+                "taxateur"
+              ]
+            },
+            "inhoud_type": "begrip",
+            "kern": {
+              "definitie": {
+                "tekst": "De **belastingcontroleur** is de ambtenaar die de aangifte van de belastingplichtige beoordeelt, kan verbeteren en een aanslag vestigt. Hij kan ook een belastingcontrole (onderzoek ter plaatse of via vragenlijst) voeren. Zijn beslissingen kunnen worden betwist via bezwaar bij de gewestelijk directeur.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "gewestelijk-directeur",
+            "naam": {
+              "primair": "Gewestelijk directeur",
+              "synoniemen": [
+                "directeur der directe belastingen",
+                "gewestelijke directie"
+              ]
+            },
+            "inhoud_type": "begrip",
+            "kern": {
+              "definitie": {
+                "tekst": "De **gewestelijk directeur** is de administratieve instantie die bevoegd is om bezwaarschriften te behandelen en een beslissing te nemen (directeursbeslissing). Dit is het administratieve rechtsmiddel — een verplichte stap vóór de gerechtelijke fase. De directeur is niet dezelfde entiteit als de controleur die de aanslag heeft gevestigd.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "dienst-voorafgaande-beslissingen",
+            "naam": {
+              "primair": "Dienst Voorafgaande Beslissingen",
+              "afkorting": "DVB",
+              "synoniemen": [
+                "ruling-dienst",
+                "voorafgaande beslissing",
+                "ruling"
+              ]
+            },
+            "inhoud_type": "begrip",
+            "kern": {
+              "definitie": {
+                "tekst": "De **Dienst Voorafgaande Beslissingen (DVB)** is de administratieve instantie die bindende beslissingen geeft over de fiscale behandeling van een **geplande maar nog niet voltooide** transactie. Een ruling bindt de belastingadministratie voor de duur van de geldigheidsperiode (doorgaans 5 jaar), mits de feiten overeenkomen met de beschrijving in het verzoek.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "fiscale-adviseur-accountant",
+        "naam": {
+          "primair": "Fiscale adviseur / accountant",
+          "synoniemen": [
+            "vertegenwoordiger",
+            "mandataris",
+            "belastingconsulent"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **fiscale adviseur** (of accountant als fiscale raadgever) heeft geen eigen procesrechten maar treedt op als **mandataris** van de belastingplichtige. Hij vertegenwoordigt diens belangen bij controles, dient bezwaar in namens de cliënt, onderhandelt informeel met de controleur en adviseert over aangiftestrategie en planning.\n\nIn België worden specifieke bevoegdheden (bv. optreden in fiscale bemiddeling, technische vertegenwoordiging bij de fiscus) verbonden aan het ITAA-lidmaatschap of erkende beroepshoedanigheid.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rechterlijke-macht-fiscaal",
+        "naam": {
+          "primair": "Rechterlijke macht (fiscale kamers)",
+          "synoniemen": [
+            "fiscale rechter",
+            "rechtbank van eerste aanleg fiscale kamer",
+            "hof van beroep fiscale kamer"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Na de administratieve fase (bezwaar → directeursbeslissing) kan de belastingplichtige de zaak aanhangig maken bij de **rechtbank van eerste aanleg** (fiscale kamer). Daarboven liggen het **Hof van Beroep** (feitelijk) en het **Hof van Cassatie** (rechtspunten). De rechter vernietigt een onrechtmatige aanslag of bevestigt de administatieve beslissing — hij kan zelf geen nieuwe aanslag vestigen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-bemiddelingsdienst",
+        "naam": {
+          "primair": "Fiscale bemiddelingsdienst",
+          "synoniemen": [
+            "fiscale ombudsman",
+            "bemiddelaar fiscaal"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **Fiscale Bemiddelingsdienst** is een onafhankelijke federale instelling die tussenkomt in geschillen tussen een belastingplichtige en de belastingadministratie — buiten de gerechtelijke weg. Ze kan een procedure voeren parallel met of vóór de bezwaartermijn, maar haar beslissing is niet bindend. Ze is een **alternatief kanaal**, niet een beroepsmiddel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "college-voor-de-strijd-tegen-de-fiscale-fraude",
+        "naam": {
+          "primair": "College voor de strijd tegen de fiscale fraude",
+          "synoniemen": [
+            "anti-fraudecel",
+            "strijd tegen fiscale fraude"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **College voor de strijd tegen de fiscale fraude** coördineert de samenwerking tussen de fiscale administratie, de gerechtelijke instanties en de politiediensten bij ernstige fiscale fraude-dossiers. Het maakt de brug tussen de administratieve en de gerechtelijke sfeer wanneer fraude ook een strafrechtelijke dimensie heeft.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bevoegdheidsafbakening",
+        "naam": {
+          "primair": "Bevoegdheidsafbakening tussen actoren"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke actor in het fiscale stelsel heeft een **strikt afgebakende bevoegdheidssfeer**. Kerncombinaties:\n\n| Actor | Bevoegdheid | Niet bevoegd voor |\n|---|---|---|\n| Controleur | Aanslag vestigen, controle voeren | Bezwaar behandelen (eigen aanslag) |\n| Gewestelijk directeur | Bezwaar behandelen | Nieuwe aanslag vestigen |\n| DVB | Bindende ruling geven | Reeds voltooide transacties |\n| Rechtbank | Aanslag toetsen op rechtmatigheid | Zelf aanslag vestigen |\n| Bemiddelingsdienst | Informeel bemiddelen | Bindende beslissing nemen |\n\nVerwisseling van bevoegdheden leidt tot procedurele nietigheid of niet-ontvankelijkheid.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Navigeren van een **fiscale procedure** van aangifte over controle, bezwaar en gerechtelijke fase: elk stadium heeft een specifieke bevoegde actor.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Adviseren over de **keuze van het rechtsmiddel**: administratief bezwaar (gewestelijk directeur) versus gerechtelijke vordering (rechtbank), met of zonder bemiddeling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Optreden als **vertegenwoordiger** van een cliënt bij een belastingcontrole: kennen van de rechten van de belastingplichtige tegenover de controleur.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Gewestelijke en lokale belastingen (onroerende voorheffing, gemeentebelastingen): die kennen grotendeels andere actoren en bevoegdheden — zie het conceptencluster gewestelijke en lokale fiscaliteit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Btw-procedures: de administratieve structuur voor btw (AOIF, btw-eenheden) heeft deels andere bevoegde diensten dan bij de directe belastingen.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verwarring controleur ↔ gewestelijk directeur**: een bezwaarschrift per abuis gestuurd aan het controlekantoor i.p.v. de gewestelijke directie riskeert niet-ontvankelijkheid als de bezwaartermijn inmiddels verstreken is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**DVB voor reeds voltooide transactie**: een ruling aanvragen voor een transactie die al is doorgevoerd, is niet-ontvankelijk — de DVB is enkel bevoegd voor toekomstige situaties.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De vraag luidt 'wie is bevoegd om ...?' of 'bij welke instantie moet de belastingplichtige ...?' — dat signaleert een actor-identificatieoefening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De casus vermeldt een **aanslagtermijn-overschrijding**, een **procedurele fout** of een **onjuist geadresseerd bezwaarschrift** — dit zijn steeds actor-bevoegdheidsvragen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "fiscale-procedure-belastingplichtige",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De fiscale actoren zijn de dramatis personae van de fiscale procedure — het actorenkader is de voorwaarde om de procedure te begrijpen."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fiscale-beginselen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De bevoegdheden en plichten van elk actor worden begrensd door fiscaalrechtelijke beginselen zoals het legaliteitsbeginsel, rechtszekerheid en hoorrecht."
+    },
+    {
+      "type": "vereist",
+      "target": "aanslagtermijnen-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Wie bevoegd is, hangt af van het stadium in de procedure — aanslagtermijnen bepalen de bevoegdheidsramen van de controleur en gewestelijk directeur."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gewestelijke-en-lokale-fiscaliteit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Gewestelijke en lokale belastingen kennen een analoge actoren-structuur maar met andere bevoegde instanties."
+    },
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-rechtelijk",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "itaa-beroepsorganisatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De bevoegdheid van de accountant als fiscale vertegenwoordiger is verbonden aan zijn erkende hoedanigheid — ITAA reguleert dit beroepsmatig kader."
+    },
+    {
+      "type": "vereist",
+      "target": "voorafgaande-beslissing-dvb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De DVB als actor vereist begrip van de ruling-procedure als zelfstandig concept."
+    }
+  ]
 }

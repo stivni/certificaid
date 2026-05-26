@@ -1,11 +1,26 @@
 {
   "id": "gewestelijke-belastingverminderingen-pb",
   "naam": {
-    "primair": "Gewestelijke belastingverminderingen pb"
+    "primair": "Gewestelijke belastingverminderingen in de personenbelasting",
+    "afkorting": "GBV",
+    "synoniemen": [
+      "gewestelijke belastingverminderingen",
+      "gewestelijke belastingvoordelen pb",
+      "regionale belastingverminderingen"
+    ],
+    "vertaling": {
+      "fr": "réductions d'impôt régionales à l'impôt des personnes physiques"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.2.XII",
+      "2.2.XVI",
+      "2.2.XVII"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +39,470 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel beschrijven: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.2.XII",
-      "2.2.XVI",
-      "2.2.XVII"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Gewestelijke belastingverminderingen pb",
+        "tekst": "**Gewestelijke belastingverminderingen** zijn belastingvoordelen in de personenbelasting die niet door de federale overheid maar door de **gewesten** (Vlaams Gewest, Brussels Hoofdstedelijk Gewest, Waals Gewest) worden bepaald en beheerd, op grond van de bijzondere financieringswet (BFW). Ze worden berekend als een percentage van bepaalde uitgaven en in mindering gebracht op de verschuldigde belasting — niet op het belastbare inkomen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De PB kent twee niveaus van belastingvoordelen: **federale** (uniform voor alle rijksinwoners) en **gewestelijke** (verschillen per gewest). De gewestelijke verminderingen vloeien voort uit de **fiscale autonomie** die de gewesten via de bijzondere financieringswet verkregen hebben.\n\nIn de praktijk gaat het om welbepaalde categorieën uitgaven — woning, energie, renovatie — waarbij het bedrag en de voorwaarden per gewest kunnen verschillen. Meest bekend zijn:\n- **Woonbonus / geïntegreerde woonbonus** (Vlaanderen, historisch; afgeschaft voor nieuwe contracten na 2019)\n- **Chèque-habitat** (Wallonië, ter vervanging van woonbonus)\n- **Energiebesparende investeringen** (zonnepanelen, warmtepompen, isolatie — per gewest met eigen tarieven)\n- **Renovatiepremies omgezet in belastingvoordeel**\n\nVanuit het standpunt van de aangifte: gewestelijke verminderingen staan in een **apart vak** in de aangifte PB en worden verrekend tegen de **gewestelijke belasting**, niet de federale belasting.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De splitsing tussen federale en gewestelijke belastingvoordelen vloeit voort uit de **staatshervorming** waarbij de gewesten via de bijzondere financieringswet bevoegdheid kregen over bepaalde aspecten van de PB, met name inzake wonen en energie. Dit mechanisme staat toe dat Vlaanderen, Wallonië en Brussel elk een eigen woon- en energiefiscaliteit uitbouwen — met als keerzijde dat belastingplichtigen en hun adviseurs de regels per gewest correct moeten kennen en toepassen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belastingplichtigen die **in België wonen** (rijksinwoners) en uitgaven deden die door hun gewest fiscaal worden gestimuleerd — woningkrediet, energiebesparende investeringen, renovatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Gewestelijke verminderingen zijn enkel van toepassing op rijksinwoners. Niet-inwoners vallen onder BNI en genieten principieel geen gewestelijke voordelen."
+        },
+        {
+          "tekst": "Aangifte PB waarbij het **woongewest** op 1 januari van het aanslagjaar bepalend is voor welk gewest de regels toepast — niet het gewest waar men werkt of eigendom bezit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De woonplaats op 1 januari van het aanslagjaar (= het inkomstenjaar + 1) is bepalend voor het toepasselijke gewest. Verhuis tijdens het jaar wijzigt het toepasselijke gewest pas het volgende aanslagjaar."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Niet-rijksinwoners** (BNI-belastingplichtigen) genieten principieel geen gewestelijke belastingverminderingen, tenzij zij voldoen aan de 75%-regel (ten minste 75% van beroepsinkomsten in België).",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Exacte voorwaarden voor BNI-75%-regel dienen bevestigd via WIB92 en BFW — te verifiëren bij claims_checken."
+        },
+        {
+          "tekst": "**Vennootschappen** en rechtspersonen — de gewestelijke belastingverminderingen bestaan enkel in de sfeer van de PB (rijksinwoners, natuurlijke personen).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De belastingplichtige moet **rijksinwoner** zijn (woonplaats of zetel van fortuin in België).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De uitgave moet kaderen binnen de **specifieke gewestelijke regeling** die het voordeel toekent — elke vermindering heeft eigen toepassingsvoorwaarden (type investering, woning, tijdstippen, plafonds).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "Belastingplichtige woont **in het buitenland** (BNI) zonder aan de 75%-regel te voldoen — gewestelijke verminderingen zijn dan niet van toepassing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Regionale divergentie**: de gewestelijke regelingen wijzigen frequent — wat in Vlaanderen geldt, kan fundamenteel anders zijn in Wallonië of Brussel. Een adviseur die de regels van het ene gewest toepast op een belastingplichtige van een ander gewest riskeert een materiële aangifte-fout.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Belastingplichtige heeft in het inkomstenjaar een **energiebesparende investering** gedaan (isolatie, warmtepomp, zonnepanelen) of een **hypothecair krediet** aangegaan voor de enige eigen woning.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De aangifte bevat inkomsten uit **onroerende goederen** of **woonkredieten** — dit zijn typische aanknopingspunten voor gewestelijke fiscale optimalisatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "gewestelijke-fiscale-autonomie",
+        "naam": {
+          "primair": "Gewestelijke fiscale autonomie in de PB",
+          "synoniemen": [
+            "fiscale autonomie gewesten"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Via de **bijzondere financieringswet (BFW)** kregen de drie gewesten de bevoegdheid om bepaalde belastingvoordelen in de PB autonoom te regelen. Ze kunnen bestaande federale voordelen **verhogen, verlagen of afschaffen**, en **nieuwe gewestelijke voordelen** invoeren voor materies waarvoor ze bevoegd zijn (wonen, energie, leefmilieu). Deze autonomie impliceert dat de aanslagbasis en de tarieven federaal blijven, maar de verminderingen per gewest verschillen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit is de grondslag voor het bestaan van gewestelijke belastingverminderingen als aparte categorie. Zonder BFW-autonomie zouden alle PB-voordelen uniform federaal zijn."
+          }
+        }
+      },
+      {
+        "id": "woonbonus-vlaanderen",
+        "naam": {
+          "primair": "Geïntegreerde woonbonus Vlaanderen",
+          "synoniemen": [
+            "woonbonus",
+            "Vlaamse woonbonus"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **geïntegreerde woonbonus** was de Vlaamse belastingvermindering voor het hypothecaire krediet op de enige eigen woning. Ze verving de federale woonbonus nadat Vlaanderen de bevoegdheid overnam via de BFW. Voor contracten afgesloten **vóór 1 januari 2020** blijft de woonbonus van toepassing; contracten **vanaf 2020** genieten geen Vlaamse woonbonus meer (afgeschaft door Vlaamse Codex Fiscaliteit — vervangen door het verlaagde verkooprecht).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Exacte afschaffingsdatum en overgangsmaatregelen dienen bevestigd via Vlaamse Codex Fiscaliteit en ITAA-LEX — te verifiëren bij claims_checken."
+          }
+        }
+      },
+      {
+        "id": "energiebesparende-investering-gewestelijk",
+        "naam": {
+          "primair": "Gewestelijke vermindering voor energiebesparende investeringen",
+          "synoniemen": [
+            "energiepremie fiscaal",
+            "belastingvermindering renovatie energie"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "De drie gewesten kennen elk belastingverminderingen voor **energiebesparende investeringen** aan de woning: dakisolatie, muurisolatie, hoogrendementsbeglazing, warmtepompen, zonneboilers. De exacte lijst van werken, de **percentages** en de **plafonds** per investering verschillen per gewest en worden regelmatig bijgewerkt.\n\nCommon mechanisme: de belastingplichtige heeft de factuur van een erkende aannemer betaald → de vermindering wordt berekend als een percentage (bijv. 30% of 45%) van de betaalde kosten, begrensd door een jaarlijks plafond per type ingreep.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bepalend-gewest",
+        "naam": {
+          "primair": "Bepalend gewest (woonplaats op 1 januari)",
+          "synoniemen": [
+            "woongewest",
+            "toepasselijk gewest"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **gewest waar de belastingplichtige zijn woonplaats had op 1 januari van het aanslagjaar** (= 1 jaar na het inkomstenjaar) bepaalt welke gewestelijke regels van toepassing zijn. Wie op 1 januari 2025 in Gent woont, valt voor het aanslagjaar 2025 (inkomsten 2024) onder de Vlaamse regels — ook als hij in 2024 een gedeelte van het jaar in Brussel woonde.\n\nBij gehuwden/wettelijk samenwonenden is de **gezamenlijke woonplaats** bepalend.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit is de basisregel voor toewijzing van de gewestelijke belasting en gewestelijke belastingvoordelen. Verhuis tijdens het inkomstenjaar heeft geen onmiddellijk effect — het toepasselijk gewest wisselt pas het volgende aanslagjaar."
+          }
+        }
+      },
+      {
+        "id": "aangifte-vak-gewestelijk",
+        "naam": {
+          "primair": "Aangifte-vak gewestelijke verminderingen",
+          "synoniemen": [
+            "gewestelijk deel aangifte PB"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "In de aangifte PB zijn gewestelijke verminderingen opgenomen in een **afzonderlijk vak** (Vak IX of specifieke gewestelijke rubrieken, afhankelijk van het inkomstenjaar en het gewest). De codes in dit vak verschillen per gewest — Vlaamse, Brusselse en Waalse codes zijn niet onderling uitwisselbaar.\n\nDe **berekening** verloopt als volgt:\n1. Belastbare inkomsten en tarieven: federaal bepaald\n2. Federale belasting: berekend\n3. Gewestelijke belasting (belastingschijf): percentage van de federale belasting\n4. Gewestelijke verminderingen: in mindering gebracht op de gewestelijke belasting\n\nDe vermindering is begrensd tot het bedrag van de verschuldigde gewestelijke belasting — ze is **niet terugbetaalbaar** tenzij de wet dit uitdrukkelijk voorziet.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cheque-habitat-wallonie",
+        "naam": {
+          "primair": "Chèque-habitat (Wallonië)",
+          "synoniemen": [
+            "chèque-habitat wallon"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **chèque-habitat** is de Waalse vervanging van de federale woonbonus voor hypothecaire kredieten op de eigen woning. Kenmerkend verschil met de vroegere federale woonbonus: het voordeel is **degressief naar inkomen** — lagere inkomens genieten een hoger percentage, waardoor het sociaal progressiever werkt dan een percentage op het bedrag.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Exacte parameters (inkomensgrenzen, percentages, plafonds) zijn te verifiëren via Waalse wetgeving (Code wallon de la fiscalité) — aangeduid als betwijfeld."
+          }
+        }
+      },
+      {
+        "id": "samenloop-federaal-gewestelijk",
+        "naam": {
+          "primair": "Samenloop federale en gewestelijke verminderingen",
+          "synoniemen": [
+            "volgorde belastingverminderingen PB"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "In de PB-berekening worden federale en gewestelijke belastingverminderingen **in een bepaalde volgorde** verrekend:\n1. Federale belastingverminderingen (op de federale belasting)\n2. Gewestelijke belastingverminderingen (op de gewestelijke belasting)\n\nDeze volgorde is relevant omdat niet-terugbetaalbare verminderingen verloren gaan als de belasting al op nul staat. Een adviseur die de volgorde niet kent, kan het voordeel foutief becijferen of de optimale volgorde mislopen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "federale-belastingverminderingen-pb",
+      "toelichting": "Federale verminderingen gelden uniform voor alle rijksinwoners; gewestelijke verminderingen variëren per gewest. Beide verminderen de verschuldigde belasting maar op verschillende grondslag (federale vs. gewestelijke belasting).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beiden zijn belastingverminderingen (geen aftrekken van het belastbare inkomen)",
+        "Beiden kennen plafonds en specifieke toepassingsvoorwaarden"
+      ],
+      "verschillen": [
+        "Federale verminderingen zijn uniform voor alle rijksinwoners; gewestelijke zijn per gewest verschillend",
+        "Gewestelijke verminderingen worden verrekend op de gewestelijke (niet de federale) belasting"
+      ],
+      "verwarring_risico": "Adviseurs verwarren soms de regels van het ene gewest met het andere, of passen federale regels toe op materies die overgeheveld zijn naar de gewesten."
+    },
+    {
+      "type": "valt_onder",
+      "target": "gewestelijke-fiscale-autonomie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "gewestelijke-en-lokale-fiscaliteit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "aangifte-pb",
+      "toelichting": "Gewestelijke verminderingen worden geclaimd via het gewestelijke vak in de aangifte PB — ze worden niet automatisch toegekend.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

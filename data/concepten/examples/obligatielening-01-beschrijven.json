@@ -2,10 +2,7 @@
   "id": "obligatielening",
   "naam": {
     "primair": "Obligatielening",
-    "synoniemen": ["obligatie-uitgifte", "obligatielening op naam", "publieke obligatielening"],
-    "vertaling": {
-      "fr": "Emprunt obligataire"
-    }
+    "synoniemen": ["obligatie-uitgifte", "obligatielening op naam", "publieke obligatielening"]
   },
   "concept_type": "instrument",
   "metadata": {
@@ -31,7 +28,7 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Een obligatielening is een schuldfinanciering waarbij een vennootschap verhandelbare schuldbewijzen (obligaties) uitgeeft aan meerdere beleggers. De vennootschap ontvangt het kapitaal bij uitgifte, betaalt periodieke coupons (rente) tijdens de looptijd, en betaalt het nominale bedrag terug op vervaldag.",
+        "tekst": "Een **obligatielening** is een schuldfinanciering waarbij een vennootschap **verhandelbare schuldbewijzen** (obligaties) uitgeeft aan meerdere beleggers — in plaats van te lenen bij één bank. De vennootschap ontvangt het kapitaal bij **uitgifte**, betaalt periodieke **coupons** (rente) tijdens de looptijd, en betaalt het **nominale bedrag** terug op vervaldag.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
@@ -40,120 +37,141 @@
         }
       },
       "substantie": {
-        "tekst": "De vennootschap leent geld van veel kleine investeerders in plaats van één bank. Beleggers krijgen een verhandelbaar schuldbewijs dat ze kunnen verkopen aan derden zonder dat de vennootschap iets merkt. Voor de vennootschap blijft het pure schuld — de obligatiehouder wordt geen mede-eigenaar, krijgt een vaste of variabele rente, en moet op vervaldag worden terugbetaald ongeacht de winstgevendheid.",
+        "tekst": "De vennootschap leent geld van **veel kleine investeerders** in plaats van één bank. Beleggers krijgen een **verhandelbaar schuldbewijs** dat ze kunnen verkopen aan derden zonder dat de vennootschap iets merkt. Voor de vennootschap blijft het pure schuld — de obligatiehouder wordt geen mede-eigenaar, krijgt een vaste of variabele rente, en moet op vervaldag worden terugbetaald ongeacht de winstgevendheid.\n\nDe drie kenmerken die dit instrument fundamenteel anders maken dan een banklening:\n- **Verhandelbaarheid** — de schuldeiser kan veranderen tijdens de looptijd\n- **Versplintering** — geen vaste tegenpartij om mee te onderhandelen\n- **Niet-renegotieerbaarheid** — voorwaarden liggen vast in het prospectus",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
           ]
-        }
+        },
+        "rationale": "Deze drie kenmerken verklaren waarom de advies-logica, risico's en boekhoudkundige regels voor een obligatielening systematisch anders liggen dan voor een klassieke banklening."
       },
       "rationale": {
-        "tekst": "Een obligatielening onderscheidt zich van een banklening door drie eigenschappen: verhandelbaarheid (schuldeiser kan veranderen tijdens looptijd), versplintering (geen vaste tegenpartij om mee te onderhandelen) en niet-renegotieerbaarheid (voorwaarden liggen vast in het prospectus). Deze eigenschappen verklaren waarom de regels en risico's anders liggen dan bij een klassieke banklening.",
+        "tekst": "Een obligatielening onderscheidt zich van een banklening door drie structurele eigenschappen: **verhandelbaarheid** (schuldeiser kan veranderen tijdens looptijd), **versplintering** (geen vaste tegenpartij om mee te onderhandelen) en **niet-renegotieerbaarheid** (voorwaarden liggen vast in het prospectus; wijzigingen vereisen vergadering van obligatiehouders).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
           ]
-        }
+        },
+        "rationale": "Deze drie eigenschappen zijn geen toevallige kenmerken maar determineren de hele advisering: verhandelbaarheid maakt secundaire marktwerking mogelijk, versplintering elimineert individuele renegotiatie, niet-renegotieerbaarheid verschuift het flexibiliteitsrisico volledig naar de uitgever."
       }
     },
     "gebruikscontext": {
       "voor": [
         {
-          "tekst": "Middelgrote tot grote vennootschappen met voldoende reputatie of investeerderskring en voorspelbare cashflow over de hele looptijd.",
+          "tekst": "Middelgrote tot grote vennootschappen met voldoende reputatie of investeerderskring en **voorspelbare cashflow** over de hele looptijd.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
             ]
-          }
+          },
+          "rationale": "Zonder reputatie of investeerderskring vinden ze geen beleggers; zonder cashflow-zekerheid kunnen ze de coupons niet garanderen."
         },
         {
-          "tekst": "Vennootschappen waarbij bankfinanciering verzadigd of strategisch ongewenst is — obligatieleningen werken op een andere markt dan bankkrediet en spreiden tegenpartij-risico.",
+          "tekst": "Vennootschappen waarbij **bankfinanciering verzadigd of strategisch ongewenst** is.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
             ]
-          }
+          },
+          "rationale": "Obligatieleningen werken op een andere markt dan bankkrediet en spreiden tegenpartij-risico — geen enkele schuldeiser kan de onderneming klemzetten."
         },
         {
-          "tekst": "Investeringen met lange horizon (5-15 jaar) zoals vastgoed, infrastructuur, R&D-portefeuille — banken bieden zelden looptijden boven 7-10 jaar zonder zware zekerheidseisen.",
+          "tekst": "Investeringen met **lange horizon (5–15 jaar)** zoals vastgoed, infrastructuur, R&D-portefeuille.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
             ]
-          }
+          },
+          "rationale": "Banken bieden zelden looptijden boven 7–10 jaar zonder zware zekerheidseisen; de obligatiemarkt wel."
         }
       ],
       "niet_voor": [
         {
-          "tekst": "KMO's — uitgifte-overhead (notariskosten, prospectus, bankcommissies) maakt het onrendabel onder circa 5 miljoen euro; de vaste kosten wegen te zwaar t.o.v. de opbrengst.",
+          "tekst": "**KMO's** met financieringsbehoefte onder circa € 5 miljoen.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
             ]
-          }
+          },
+          "rationale": "Uitgifte-overhead (notariskosten, prospectus, bankcommissies) maakt het onrendabel — de vaste kosten wegen te zwaar t.o.v. de opbrengst."
         },
         {
-          "tekst": "Vennootschappen met volatiele of seizoengebonden cashflow — de coupon is vast en niet renegotieerbaar zoals bij een bank. Eén misser op een coupondatum kan leiden tot opeisbaarheid van de hele lening.",
+          "tekst": "Vennootschappen met **volatiele of seizoengebonden cashflow**.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
             ]
-          }
+          },
+          "rationale": "De coupon is vast en niet renegotieerbaar zoals bij een bank. Één misser op een coupondatum kan leiden tot opeisbaarheid van de hele lening."
         },
         {
-          "tekst": "Behoefte onder circa 5 miljoen euro of looptijd onder 3 jaar — uitgiftekosten en administratieve overhead per houder maken het onrendabel.",
+          "tekst": "Vennootschappen met **behoefte aan vervroegde-aflossings-flexibiliteit** (tenzij call-clausule wordt ingebouwd).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
             ]
-          }
+          },
+          "rationale": "Zonder call-clausule zit de vennootschap vast aan de looptijd; herstructurering vereist vergadering van obligatiehouders."
         }
       ],
       "voordeel": [
         {
-          "tekst": "Vaste financieringskost over lange periode en volledig aftrekbare rentelast bij de vennootschap, in tegenstelling tot dividend dat uit beschikbare winst moet en niet aftrekbaar is.",
+          "tekst": "**Vaste financieringskost** over lange periode — coupon en spreiding liggen vast in het prospectus.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
             ]
-          }
+          },
+          "rationale": "Financieringskost is planbaar over de hele looptijd, anders dan bij variabele bankkredieten die bij hernieuwen opnieuw geprijsd worden."
+        },
+        {
+          "tekst": "**Volledig aftrekbare rentelast** bij de vennootschap, in tegenstelling tot dividend dat niet aftrekbaar is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
+            ]
+          },
+          "rationale": "Rente is een beroepskost (WIB92 art. 49); dividend komt uit beschikbare winst na belasting. Het fiscale voordeel van schuldfinanciering ten opzichte van eigen vermogen."
         }
       ],
       "risico": [
         {
-          "tekst": "Liquiditeitsklem op een coupondatum — anders dan bij een banklening kan de vennootschap niet onderhandelen over uitstel. Bij wanbetaling (missed coupon of hoofdsom) treedt de vergadering van obligatiehouders bijeen en kan versnelde opeisbaarheid van de hele lening worden ingeroepen.",
+          "tekst": "**Liquiditeitsklem op coupondatum** — de vennootschap kan niet onderhandelen over uitstel zoals bij een banklening.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
               {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
             ]
-          }
+          },
+          "rationale": "Bij wanbetaling (missed coupon of hoofdsom) treedt de vergadering van obligatiehouders bijeen en kan versnelde opeisbaarheid van de hele lening worden ingeroepen — geen bilaterale renegotiatie mogelijk."
         }
       ]
     },
     "elementen": [
       {
         "id": "nominale-waarde",
-        "naam": {"primair": "Nominale waarde"},
+        "naam": {"primair": "Nominale waarde", "synoniemen": ["pari"]},
         "inhoud_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "De nominale waarde (pari) is het bedrag dat op het obligatiebewijs staat en dat de vennootschap op vervaldag terugbetaalt — typisch 1.000 euro per obligatie of een veelvoud daarvan.",
+            "tekst": "De **nominale waarde** (pari) is het bedrag dat op het obligatiebewijs staat en dat de vennootschap op vervaldag terugbetaalt — typisch **€ 1.000 per obligatie** of een veelvoud daarvan.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
               ]
-            }
+            },
+            "rationale": "Marktconventie, geen wettelijke verplichting. Kleine nominale waardes (€ 100) maken brede retail-distributie mogelijk maar verhogen administratie per houder; grote (€ 100.000) beperkt het publiek tot professionele beleggers."
           }
         }
       },
@@ -163,7 +181,7 @@
         "inhoud_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "De coupon is de jaarlijkse vergoeding aan de belegger, uitgedrukt als percentage van het nominale bedrag. Kan vast of variabel zijn, en wordt jaarlijks of semi-jaarlijks betaald.",
+            "tekst": "De **coupon** is de jaarlijkse vergoeding aan de belegger, uitgedrukt als percentage van het nominale bedrag. Kan **vast** of **variabel** zijn, en wordt jaarlijks of semi-jaarlijks betaald.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -172,13 +190,14 @@
             }
           },
           "substantie": {
-            "tekst": "De couponrente is het rapporteringsgezicht van de financieringskost — bij uitgifte buiten pari is de couponrente niet gelijk aan het werkelijk rendement (yield-to-maturity). Bij een vaste coupon is de last voorspelbaar; bij een variabele coupon (typisch Euribor plus spread) verschuift het renterisico van de belegger naar de vennootschap.",
+            "tekst": "De couponrente is het **rapporteringsgezicht** van de financieringskost — bij uitgifte buiten pari is de couponrente niet gelijk aan het werkelijk rendement (**yield-to-maturity**).\n\n- **Vaste coupon** — voorspelbare last bij de vennootschap, voorspelbaar rendement bij de belegger\n- **Variabele coupon** (typisch Euribor + spread) — renterisico verschuift van belegger naar vennootschap\n- **Stapcoupon** (oplopend) — verlaagt last in beginjaren\n- **Nulcoupon** — geen tussentijdse betaling; rendement via disagio bij aankoop",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
               ]
-            }
+            },
+            "rationale": "De coupon is niet de werkelijke financieringskost — bij agio of disagio wijkt de effective interest rate (YTM) af. De adviseur stuurt op de combinatie van coupon + uitgifteprijs, niet op de coupon alleen."
           }
         }
       },
@@ -188,7 +207,7 @@
         "inhoud_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "De looptijd van een obligatielening is de periode van uitgifte tot vervaldag, typisch 5 tot 15 jaar, met mogelijkheid tot 30 jaar bij infrastructuurfinanciering.",
+            "tekst": "De looptijd van een obligatielening is de periode van uitgifte tot vervaldag, typisch **5 tot 15 jaar**, met mogelijkheid tot 30 jaar bij infrastructuurfinanciering.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -197,13 +216,14 @@
             }
           },
           "substantie": {
-            "tekst": "Kortere looptijd verlaagt het renterisico voor de belegger maar creëert herfinancieringsrisico voor de vennootschap op vervaldag. Langere looptijd vereist een hogere coupon (compensatie voor belegger) maar geeft financiële zekerheid voor de vennootschap.",
+            "tekst": "Looptijd-keuze is een trade-off:\n- **Kortere looptijd** → lager renterisico voor de belegger, maar **herfinancieringsrisico** voor de vennootschap op vervaldag\n- **Langere looptijd** → hogere coupon vereist (compensatie voor belegger), maar **financiële zekerheid** voor de vennootschap",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
               ]
-            }
+            },
+            "rationale": "Langere looptijd biedt de uitgever zekerheid maar verhoogt de coupon-last (belegger vraagt premie voor onzekerheid over lange termijn). De adviseur weegt dit af tegen de cashflow-planning."
           }
         }
       },
@@ -213,13 +233,14 @@
         "inhoud_type": "mechanisme",
         "kern": {
           "substantie": {
-            "tekst": "De uitgifteprijs is wat beleggers daadwerkelijk betalen bij uitgifte en kan afwijken van de nominale waarde. Uitgifte aan pari (gelijk aan nominaal), boven pari (agio) of beneden pari (disagio) bepaalt het verschil tussen couponrente en werkelijke financieringskost. Bij disagio ontvangt de vennootschap minder dan ze terugbetaalt; bij agio meer.",
+            "tekst": "De uitgifteprijs is wat beleggers daadwerkelijk betalen bij uitgifte en kan afwijken van de nominale waarde:\n- **Aan pari** (= nominaal) — couponrente = effectief rendement\n- **Disagio** (beneden pari) — vennootschap ontvangt minder dan ze terugbetaalt → werkelijke kost hoger dan coupon\n- **Agio** (boven pari) — vennootschap ontvangt meer → werkelijke kost lager dan coupon",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
               ]
-            }
+            },
+            "rationale": "De couponrente is het rapporteringsgezicht; de uitgifteprijs is de correctie naar de marktwaarde. Wat de markt eist als rendement bepaalt welke combinatie van coupon + uitgifteprijs nodig is om de obligatie geplaatst te krijgen."
           }
         },
         "elementen": [
@@ -229,13 +250,14 @@
             "inhoud_type": "mechanisme",
             "kern": {
               "definitie": {
-                "tekst": "Disagio is het verschil wanneer de belegger minder dan de nominale waarde betaalt bij uitgifte. De vennootschap betaalt op vervaldag het volle nominale bedrag terug. Het verschil is een uitgestelde financieringskost die de vennootschap spreidt over de looptijd.",
+                "tekst": "**Disagio** is het verschil wanneer de belegger minder dan de nominale waarde betaalt bij uitgifte. De vennootschap betaalt op vervaldag het volle nominale bedrag terug. Het verschil is een **uitgestelde financieringskost** die over de looptijd wordt gespreid.",
                 "grondslag": {
                   "confidence": "verondersteld",
                   "bronnen": [
                     {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
                   ]
-                }
+                },
+                "rationale": "Het disagio verhoogt de werkelijke financieringskost boven de couponrente. Bij disagio van € 50 op een 5-jarige lening is de extra kost € 10/jaar (lineair), bovenop de couponbetaling."
               }
             }
           },
@@ -245,13 +267,14 @@
             "inhoud_type": "mechanisme",
             "kern": {
               "definitie": {
-                "tekst": "Agio is het verschil wanneer de belegger meer dan de nominale waarde betaalt bij uitgifte. Het verschil is een uitgestelde opbrengst die de vennootschap spreidt en die de werkelijke couponlast verlaagt.",
+                "tekst": "**Agio** is het verschil wanneer de belegger meer dan de nominale waarde betaalt bij uitgifte. Het verschil is een **uitgestelde opbrengst** die over de looptijd wordt gespreid en die de werkelijke couponlast verlaagt.",
                 "grondslag": {
                   "confidence": "verondersteld",
                   "bronnen": [
                     {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
                   ]
-                }
+                },
+                "rationale": "Het agio verlaagt de werkelijke financieringskost onder de couponrente. Bij agio van € 50 op een 5-jarige lening is de besparing € 10/jaar — de effectieve kost is coupon minus agio-amortisatie."
               }
             }
           }
@@ -263,14 +286,15 @@
         "inhoud_type": "uitzondering",
         "kern": {
           "definitie": {
-            "tekst": "Kosten verbonden aan de uitgifte van een obligatielening (notariskosten, publicatie in Belgisch Staatsblad, bankcommissies, prospectuskosten). De algemene regel voor oprichtingskosten is afschrijving over maximaal 5 jaar. Voor kosten van uitgifte van een obligatielening geldt een uitzondering: ze mogen worden gespreid over de hele looptijd van de obligatielening, ook wanneer die langer is dan 5 jaar.",
+            "tekst": "Kosten verbonden aan de uitgifte van een obligatielening: **notariskosten**, publicatie in Belgisch Staatsblad, **bankcommissies** voor de plaatsing, en eventueel kosten van het prospectus.\n\n**Bijzondere afschrijvingsregel**: de algemene regel voor oprichtingskosten is afschrijving over maximaal 5 jaar. Voor uitgiftekosten van een obligatielening geldt een **uitzondering** — ze mogen worden gespreid over de hele looptijd, ook wanneer die langer is dan 5 jaar.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {"type": "kb", "naam": "KB W.Venn. art. 3:37", "ref": "kb-wvenn-art-3-37"},
                 {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
               ]
-            }
+            },
+            "rationale": "De keuze voor spreiding over de looptijd (i.p.v. de standaard 5-jaarsregel) moet expliciet vermeld worden in de waarderingsregels en toelichting bij de jaarrekening."
           }
         }
       },
@@ -280,7 +304,7 @@
         "inhoud_type": "formule",
         "kern": {
           "definitie": {
-            "tekst": "De gelopen-maar-nog-niet-vervallen rente die prorata moet worden geboekt wanneer de balansdatum niet samenvalt met een coupondatum. Berekening: coupon maal (dagen sinds laatste couponbetaling gedeeld door 365).",
+            "tekst": "De gelopen-maar-nog-niet-vervallen rente die prorata geboekt moet worden wanneer de **balansdatum niet samenvalt met een coupondatum**.\n\n**Formule**: prorata-intrest = coupon × (dagen sinds laatste couponbetaling / 365)",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -289,7 +313,7 @@
             }
           },
           "rationale": {
-            "tekst": "Het matching-beginsel vereist dat de rentelast in het juiste boekjaar staat, ook als ze pas later cash wordt betaald. Cashstromen volgen het contract; boekhoudkundige kost volgt het gebruik van de financiering in de tijd.",
+            "tekst": "Het **matching-beginsel** vereist dat de rentelast in het juiste boekjaar staat, ook als ze pas later cash wordt betaald. Cashstromen volgen het contract; boekhoudkundige kost volgt het gebruik van de financiering in de tijd.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -305,14 +329,15 @@
         "inhoud_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "Wanneer de voorwaarden van een obligatielening worden gewijzigd (uitstel, restructuring) of wanneer een obligatiehouder wanbetaling inroept, is de vergadering van obligatiehouders verplicht. Aanpassingen zijn niet onderhandelbaar per individuele houder.",
+            "tekst": "Wanneer de voorwaarden van een obligatielening worden gewijzigd (uitstel, restructuring) of wanneer een obligatiehouder **wanbetaling** inroept, is een vergadering van obligatiehouders verplicht. Aanpassingen zijn **niet onderhandelbaar per individuele houder**.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {"type": "wettekst", "naam": "WVV art. 7:62", "ref": "wvv-art-7-62"},
                 {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
               ]
-            }
+            },
+            "rationale": "Dit is een directe consequentie van de versplintering: er is geen enkele schuldeiser die namens alle houders kan onderhandelen — de vergadering is het enige kanaal voor collectieve beslissing."
           }
         }
       },
@@ -322,13 +347,14 @@
         "inhoud_type": "mechanisme",
         "kern": {
           "substantie": {
-            "tekst": "Op vervaldag betaalt de vennootschap het nominale bedrag terug. Alternatieven: sinking fund (periodieke uitloting en aflossing), call-clausule (uitgever heeft recht op vervroegde aflossing, vaak met premie boven pari) of put-clausule (belegger heeft recht op vervroegde verkoop terug aan de uitgever).",
+            "tekst": "Op vervaldag betaalt de vennootschap het nominale bedrag terug. Alternatieven:\n- **Sinking fund** — periodieke uitloting en aflossing, spreidt cashflow-pieken\n- **Call-clausule** — uitgever heeft recht op vervroegde aflossing, vaak met premie boven pari\n- **Put-clausule** — belegger heeft recht op vervroegde verkoop terug aan de uitgever",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {"type": "ai_model", "naam": "claude-sonnet-4-6", "datum": "2026-05-23"}
               ]
-            }
+            },
+            "rationale": "De keuze van aflossingsstructuur beïnvloedt de aantrekkelijkheid voor beleggers (call vermindert looptijd-zekerheid → hogere coupon vereist) en de cashflow-planning van de vennootschap (sinking fund spreidt het terugbetaling-risico)."
           }
         }
       }
@@ -337,7 +363,7 @@
       {
         "id": "ukkel-nv-basis",
         "titel": "Uitgeverij Ukkel NV — basisparameters",
-        "context": "Uitgeverij Ukkel NV geeft 1.000 obligaties uit van € 1.000 nominaal = € 1.000.000 totaal. Couponrente 4% vast per jaar = € 40.000 jaarlijkse intrestlast. Looptijd 8 jaar.",
+        "context": "Uitgeverij Ukkel NV geeft 1.000 obligaties uit van **€ 1.000 nominaal** = € 1.000.000 totaal. **Couponrente 4% vast** per jaar = € 40.000 jaarlijkse intrestlast. **Looptijd 8 jaar.**",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
@@ -348,7 +374,7 @@
       {
         "id": "ukkel-nv-drie-varianten",
         "titel": "Uitgeverij Ukkel NV — pari vs disagio vs agio",
-        "context": "Uitgeverij Ukkel NV geeft 1.000 obligaties uit van € 1.000 nominaal = € 1.000.000. Coupon 3% vast, jaarlijks betaalbaar op 1 juli. Looptijd 5 jaar. Uitgiftekosten € 12.000. Drie varianten: pari (€ 1.000), disagio (€ 950), agio (€ 1.050).",
+        "context": "Uitgeverij Ukkel NV geeft 1.000 obligaties uit van **€ 1.000 nominaal** = € 1.000.000. **Coupon 3% vast**, jaarlijks betaalbaar op 1 juli. **Looptijd 5 jaar.** Uitgiftekosten € 12.000. Drie varianten van uitgifteprijs: pari (€ 1.000) · disagio (€ 950, ontvangen € 950.000) · agio (€ 1.050, ontvangen € 1.050.000).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [

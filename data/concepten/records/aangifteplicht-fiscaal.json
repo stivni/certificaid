@@ -12,9 +12,14 @@
       "en": "tax filing obligation"
     }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.5.III",
+      "2.5.taak.3"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -34,14 +39,58 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 33)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende beschrijving (modus: aanvullend): niet_voor, voordeel, uitsluitingen, trigger_start/einde, contra_indicaties, rationale bij elementen, grondslag bij relaties."
       }
-    ],
-    "ankers": [
-      "2.5.III",
-      "2.5.taak.3"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De aangifteplicht is de wettelijke verplichting voor iedere belastingplichtige om tijdig en volledig een belastingaangifte in te dienen bij de bevoegde belastingadministratie, zodat de verschuldigde belasting kan worden berekend of gecontroleerd. Voor rechtspersonen betreft dit de aangifte in de vennootschapsbelasting of de rechtspersonenbelasting; voor natuurlijke personen de aangifte in de personenbelasting of de belasting der niet-inwoners.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Wie aangifte moet doen, ontvangt normaal een aangifteformulier (of uitnodiging via MyMinfin/Biztax) van de administratie; wie geen uitnodiging ontvangt maar wel belastbare inkomsten heeft, is verplicht **zelf aangifte te vragen en in te dienen**.\n\nDe aangifteplicht werkt via een **zelfaangiftestelsel**: de belastingplichtige berekent of laat berekenen wat hij verschuldigd is — de administratie verifieert achteraf en slaat aan. Dit onderscheidt het Belgische belastingstelsel van een stelsel waarbij de overheid zelf de belasting berekent en de belastingplichtige enkel betaalt.\n\nDe plicht heeft drie dimensies:\n- **Tijdigheid** — indienen binnen de wettelijke termijn (per belastingsoort verschillend)\n- **Volledigheid** — alle inkomsten en belastbare elementen vermelden\n- **Juistheid** — correcte bedragen en codes invullen",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "rationale": "De drie dimensies (tijdigheid, volledigheid, juistheid) zijn niet louter formaliteiten — elke dimensie heeft eigen rechtsgevolgen: laattijdigheid triggert de verlengde aanslagtermijn, onvolledigheid triggert ambtshalve aanslag, onjuistheid triggert belastingverhogingen. Een accountant die een mandaat aanvaardt, neemt verantwoordelijkheid voor alle drie."
+      },
+      "rationale": {
+        "tekst": "De aangifteplicht is de fundamentele schakel die het zelfaangiftestelsel van het Belgische belastingrecht draaiende houdt: de belastingplichtige berekent of laat berekenen wat hij verschuldigd is, de administratie verifieert en slaat aan. Zonder aangifte kan de fiscus enkel aanslaan op basis van tekenen en indiciën (ambtshalve aanslag), wat voor de belastingplichtige veel minder gunstig is. Voor een accountant is de aangifteplicht tegelijk een advies- en een uitvoeringsverantwoordelijkheid: hij moet de cliënt tijdig informeren over deadlines, de juiste belastingsoort kiezen, en controleren of alle rubrieken correct en volledig zijn ingevuld.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "fiscale-beginselen",
@@ -101,6 +150,35 @@
           "tekst": "Niet-inwoners met Belgische beroepsinkomsten of onroerende inkomsten zijn onderworpen aan de belasting der niet-inwoners en dienen aangifte te doen."
         }
       ],
+      "niet_voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Inkomsten die **volledig bevrijdend worden ingehouden** via roerende voorheffing (bv. dividenden en interesten voor particulieren) vereisen in principe geen aangifte van die inkomsten — de schuldenaar heeft al ingehouden. Tenzij de belastingplichtige toch aangifte wil doen om overschot terug te vorderen.",
+          "rationale": "Bevrijdende voorheffing is een mechanisme waarbij de inhouding de aangifte-verplichting voor dat inkomen vervangt. Dit geldt enkel voor de roerende inkomsten-rubriek en is geen volledige ontheffing van de PB-aangifte als geheel."
+        },
+        {
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Buitenlandse entiteiten **zonder enige Belgische bron** (geen vaste inrichting, geen Belgisch onroerend goed, geen Belgische beroepsinkomsten) hebben geen aangifteplicht in België."
+        }
+      ],
       "voorwaarden": [
         {
           "grondslag": {
@@ -129,6 +207,95 @@
           "tekst": "Ook bij verlies of nul-resultaat blijft de verplichting bestaan voor vennootschappen en zelfstandigen."
         }
       ],
+      "uitsluitingen": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Buitenlandse **diplomatieke en consulaire vertegenwoordigingen** en internationale organisaties genieten fiscale immuniteit en zijn vrijgesteld van de Belgische aangifteplicht op hun officiële activiteiten.",
+          "rationale": "Fiscale immuniteit vloeit voort uit het internationaal recht (Verdrag van Wenen); zij is een persoonlijke vrijstelling voor de entiteit/persoon, niet voor de inkomenssoort."
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Een belastingplichtige die **uitsluitend van roerende inkomsten met bevrijdende voorheffing** leeft (en geen andere belastbare inkomsten heeft), hoeft geen PB-aangifte in te dienen voor die inkomsten — de bevrijdende roerende voorheffing is definitief.",
+          "rationale": "Bevrijdende werking is een uitzondering op het principe dat alle inkomsten in de aangifte verschijnen. In de praktijk dient de meeste mensen toch een PB-aangifte in omdat ze naast roerende inkomsten ook andere inkomsten hebben (beroep, onroerend, ...)."
+        }
+      ],
+      "trigger_start": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "De **opening van een nieuw belastbaar tijdperk** (boekjaar voor vennootschappen; inkomstenjaar voor natuurlijke personen) triggert de aangifte-cyclus voor dat tijdperk."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Het **ontvangen van een uitnodiging tot aangifte** (of een aanmaning bij niet-reageren) van de belastingadministratie is het praktische startpunt."
+        }
+      ],
+      "trigger_einde": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "De aangifte-cyclus sluit af bij **indienen van de definitieve aangifte** (of bij het verstrijken van de indieningstermijn). Daarna begint de controle- en aanslagcyclus van de administratie."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Het **verstrijken van de aanslagtermijn** zonder aanslag van de administratie sluit de hele aangiftecyclus definitief af — de aangifte als grondslag voor aanslag is dan verouderd.",
+          "rationale": "Dit is relevant voor de accountant: na het verstrijken van de aanslagtermijn heeft een rechtzetting van de aangifte geen zin meer."
+        }
+      ],
       "risico": [
         {
           "grondslag": {
@@ -142,6 +309,50 @@
             ]
           },
           "tekst": "Laattijdige of onvolledige indiening leidt tot een ambtshalve aanslag, belastingverhogingen en nalatigheidsintresten; de accountant kan aansprakelijk worden gesteld indien hij het mandaat had."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "**Verlengde aanslagtermijn**: bij niet-aangifte of laattijdige aangifte beschikt de administratie over een verlengde aanslagtermijn (van 3 naar 7 jaar, en bij fraude naar 10 jaar) — het risico op navordering vergroot sterk.",
+          "rationale": "De verlengde termijn is een asymmetrisch risico: de belastingplichtige die aangifte doet heeft zekerheid na 3 jaar; wie niet aangeeft blijft tot 7 of 10 jaar kwetsbaar voor navordering."
+        }
+      ],
+      "voordeel": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "**Rechtszekerheid via aangifte**: een correcte en tijdige aangifte beperkt de aanslagtermijn tot de gewone 3-jaar-termijn — de belastingplichtige heeft na die termijn zekerheid dat er geen aanslag meer kan volgen.",
+          "rationale": "Dit is het spiegelvoordeel van het verlengde-aanslagtermijn-risico bij niet-aangifte: conformiteit levert een sterke tijdsbescherming op."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "**Terugvordering van voorheffingen**: via de aangifte kunnen te veel ingehouden roerende voorheffing, bedrijfsvoorheffing en voorafbetalingen worden teruggevorderd. Zonder aangifte geen teruggave.",
+          "rationale": "Veel belastingplichtigen denken dat aangifte enkel leidt tot bijbetaling, maar voor wie te veel ingehouden heeft (te hoge bedrijfsvoorheffing, te veel voorafbetalingen), levert de aangifte juist terugbetalingen op."
         }
       ],
       "indicaties": [
@@ -177,6 +388,21 @@
             }
           ]
         },
+        "kern": {
+          "definitie": {
+            "tekst": "Overzicht van de vier voornaamste Belgische belastingaangiften en hun toepassingsgebied.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            }
+          }
+        },
         "elementen": [
           {
             "id": "aangifte-pb",
@@ -207,7 +433,8 @@
                       "datum": "2026-05-22"
                     }
                   ]
-                }
+                },
+                "rationale": "De PB omvat het wereldwijd inkomen van rijksinwoners en is de meest complexe aangifte: meerdere inkomenscategorieën (beroep, onroerend, roerend, divers), belastingverminderingen, gemeentelijke opcentiemen."
               }
             }
           },
@@ -240,7 +467,8 @@
                       "datum": "2026-05-22"
                     }
                   ]
-                }
+                },
+                "rationale": "De VenB-aangifte start vanuit het boekhoudkundig resultaat en past een reeks fiscale correcties toe (verworpen uitgaven, aftrekken, ...). De link met de jaarrekening is bijzonder sterk: de VenB-aangifte kan pas worden ingediend nadat de jaarrekening is goedgekeurd."
               }
             }
           },
@@ -273,7 +501,8 @@
                       "datum": "2026-05-22"
                     }
                   ]
-                }
+                },
+                "rationale": "RPB geldt voor rechtspersonen die geen winstoogmerk hebben en niet aan VenB zijn onderworpen. De grondslag omvat hoofdzakelijk onroerende inkomsten, bepaalde roerende inkomsten en specifieke dividenden — geen aftrek van beroepskosten."
               }
             }
           },
@@ -306,7 +535,8 @@
                       "datum": "2026-05-22"
                     }
                   ]
-                }
+                },
+                "rationale": "Dubbelbelastingverdragen kunnen de heffingsbevoegdheid van België beperken of de Belgische belasting elimineren via vrijstelling of verrekening."
               }
             }
           },
@@ -339,26 +569,12 @@
                       "datum": "2026-05-22"
                     }
                   ]
-                }
+                },
+                "rationale": "Het begrip 'vaste inrichting' is cruciaal: enkel als een buitenlandse vennootschap een vaste inrichting in België heeft, kan België de beroepsinkomsten van die inrichting belasten. Zonder vaste inrichting geldt slechts bronbelasting op bepaalde Belgische inkomsten."
               }
             }
           }
-        ],
-        "kern": {
-          "definitie": {
-            "tekst": "Overzicht van de vier voornaamste Belgische belastingaangiften en hun toepassingsgebied.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
-                }
-              ]
-            }
-          }
-        }
+        ]
       },
       {
         "id": "indieningstermijnen",
@@ -375,6 +591,22 @@
               "datum": "2026-05-22"
             }
           ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "De termijnen zijn wettelijk vastgelegd maar worden jaarlijks gepreciseerd via KB of circulaire. Overschrijding leidt tot ambtshalve aanslag.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-22"
+                }
+              ]
+            },
+            "rationale": "De termijnen zijn fataal: er is geen automatisch uitstel. Een accountant die meerdere cliënten bedient, moet een systeem hebben voor terminbewaking — een gemiste termijn kan niet worden hersteld via loutere verklaring van de reden."
+          }
         },
         "weergaven": [
           {
@@ -418,22 +650,7 @@
               ]
             ]
           }
-        ],
-        "kern": {
-          "definitie": {
-            "tekst": "De termijnen zijn wettelijk vastgelegd maar worden jaarlijks gepreciseerd via KB of circulaire. Overschrijding leidt tot ambtshalve aanslag.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
-                }
-              ]
-            }
-          }
-        }
+        ]
       },
       {
         "id": "ambtshalve-aanslag",
@@ -463,7 +680,8 @@
                   "datum": "2026-05-22"
                 }
               ]
-            }
+            },
+            "rationale": "De omgekeerde bewijslast (belastingplichtige moet zijn werkelijk inkomen bewijzen i.p.v. de administratie die aantoont dat de aangifte fout is) is een fundamentele verzwaring van de positie van de belastingplichtige die niet aangeeft."
           }
         }
       },
@@ -495,7 +713,8 @@
                   "datum": "2026-05-22"
                 }
               ]
-            }
+            },
+            "rationale": "Het mandaat is meer dan een technische toegang: het geeft de accountant de rechtspositie van lastgever t.o.v. de fiscus. Bij het aanvaarden van het mandaat neemt de accountant ook de deadlines en aansprakelijkheidspositie over."
           }
         }
       },
@@ -527,7 +746,8 @@
                   "datum": "2026-05-22"
                 }
               ]
-            }
+            },
+            "rationale": "Goede trouw verlaagt de sancties maar elimineert ze niet: ook bij een vergissing te goeder trouw kunnen nalatigheidsintresten verschuldigd zijn. Het onderscheid tussen fout te goeder trouw en fraude is cruciaal voor de hoogte van de boete."
           }
         }
       },
@@ -559,7 +779,8 @@
                   "datum": "2026-05-22"
                 }
               ]
-            }
+            },
+            "rationale": "Vooraf ingevulde gegevens zijn een administratieve vereenvoudiging, maar de belastingplichtige blijft verantwoordelijk voor correctheid — als een werkgever een fout maakt op de loonfiche, is het de belastingplichtige (of zijn mandataris) die dit moet opmerken en corrigeren."
           }
         }
       },
@@ -591,7 +812,8 @@
                   "datum": "2026-05-22"
                 }
               ]
-            }
+            },
+            "rationale": "Een aanvullende aangifte is enkel mogelijk vóór de aanslag; na de aanslag moet de belastingplichtige een bezwaarschrift indienen. De aanslagtermijn vormt de harde grens voor rechtzetting."
           }
         }
       },
@@ -623,52 +845,45 @@
                   "datum": "2026-05-22"
                 }
               ]
+            },
+            "rationale": "De fiche-verplichting van derden is de basis voor de vooraf ingevulde aangifte. Voor de belastingplichtige is het een controlemiddel: ontbreekt een fiche, dan mist de administratie informatie — maar de belastingplichtige mag niet weglaten wat de fiche had moeten vermelden."
+          }
+        }
+      },
+      {
+        "id": "spontane-aangifteplicht",
+        "naam": {
+          "primair": "Spontane aangifteplicht bij geen uitnodiging"
+        },
+        "inhoud_type": "regel",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
+          ]
+        },
+        "kern": {
+          "definitie": {
+            "tekst": "Wie geen aangifte-uitnodiging ontvangt maar wel belastbare inkomsten heeft, is verplicht **spontaan** aangifte te vragen aan de administratie. Het niet-ontvangen van een uitnodiging schort de aangifteplicht niet op.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit is een veelvoorkomend misverstand: 'Ik heb geen formulier gekregen, dus ik moet niet aangeven.' Het niet ontvangen van een uitnodiging is geen ontheffing — de plicht is actief en spontaan, niet louter reactief."
           }
         }
       }
     ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aangifteplicht is de wettelijke verplichting voor iedere belastingplichtige om tijdig en volledig een belastingaangifte in te dienen bij de bevoegde belastingadministratie, zodat de verschuldigde belasting kan worden berekend of gecontroleerd. Voor rechtspersonen betreft dit de aangifte in de vennootschapsbelasting of de rechtspersonenbelasting; voor natuurlijke personen de aangifte in de personenbelasting of de belasting der niet-inwoners."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Wie aangifte moet doen, ontvangt normaal een aangifteformulier (of uitnodiging via MyMinfin/Biztax) van de administratie; wie geen uitnodiging ontvangt maar wel belastbare inkomsten heeft, is verplicht zelf aangifte te vragen en in te dienen."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aangifteplicht is de fundamentele schakel die het zelfaangiftestelsel van het Belgische belastingrecht draaiende houdt: de belastingplichtige berekent of laat berekenen wat hij verschuldigd is, de administratie verifieert en slaat aan. Zonder aangifte kan de fiscus enkel aanslaan op basis van tekenen en indiciën (ambtshalve aanslag), wat voor de belastingplichtige veel minder gunstig is. Voor een accountant is de aangifteplicht tegelijk een advies- en een uitvoeringsverantwoordelijkheid: hij moet de cliënt tijdig informeren over deadlines, de juiste belastingsoort kiezen, en controleren of alle rubrieken correct en volledig zijn ingevuld."
-      }
-    },
     "syntheses": [
       {
         "type": "keuzekader",
@@ -773,37 +988,107 @@
     {
       "type": "bevat",
       "target": "aangifte-pb",
-      "toelichting": "Personenbelasting-aangifte is het uitvoeringsinstrument van de aangifteplicht voor rijksinwoners (nat. personen)."
+      "toelichting": "Personenbelasting-aangifte is het uitvoeringsinstrument van de aangifteplicht voor rijksinwoners (nat. personen).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     },
     {
       "type": "bevat",
       "target": "aangifte-vennootschapsbelasting",
-      "toelichting": "VenB-aangifte is het uitvoeringsinstrument voor vennootschappen."
+      "toelichting": "VenB-aangifte is het uitvoeringsinstrument voor vennootschappen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     },
     {
       "type": "bevat",
       "target": "belasting-niet-inwoners",
-      "toelichting": "BNI is het regime voor niet-rijksinwoners; de aangifteplicht geldt ook hier."
+      "toelichting": "BNI is het regime voor niet-rijksinwoners; de aangifteplicht geldt ook hier.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     },
     {
       "type": "vereist",
       "target": "fiscale-actoren",
-      "toelichting": "Kennis van wie belastingplichtige is en wie de administratie is, is voorwaarde voor toepassing."
+      "toelichting": "Kennis van wie belastingplichtige is en wie de administratie is, is voorwaarde voor toepassing.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     },
     {
       "type": "beinvloed_door",
       "target": "aanslagtermijnen-fiscaal",
-      "toelichting": "De aanslagtermijn bepaalt hoe lang na de aangifte de administratie nog kan aanslaan of rechtzetten."
+      "toelichting": "De aanslagtermijn bepaalt hoe lang na de aangifte de administratie nog kan aanslaan of rechtzetten.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     },
     {
       "type": "triggert",
       "target": "taxatieprocedure",
-      "toelichting": "Niet-indiening of onvolledige aangifte triggert de ambtshalve aanslagprocedure."
+      "toelichting": "Niet-indiening of onvolledige aangifte triggert de ambtshalve aanslagprocedure.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     },
     {
       "type": "vereist",
       "target": "fiscale-beginselen",
-      "toelichting": "Beginselen zoals legaliteitsbeginsel en rechtszekerheid vormen de grondslag van de aangifteplicht."
+      "toelichting": "Beginselen zoals legaliteitsbeginsel en rechtszekerheid vormen de grondslag van de aangifteplicht.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     },
     {
       "type": "vergelijkbaar_met",
@@ -816,8 +1101,47 @@
       "verschillen": [
         "Aangifteplicht is het indienen van gegevens; fiscale procedure omvat ook bezwaar, beroep, invordering",
         "Aangifteplicht is een actieve plicht; procedurerechten zijn reactief"
-      ]
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "toepassingsgebied-belasting",
+      "toelichting": "De aangifteplicht is de operationele uitwerking van de belastingplicht die volgt uit het toepassingsgebied van elke belastingsoort.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "dubbelbelastingverdrag",
+      "toelichting": "Dubbelbelastingverdragen kunnen de Belgische aangifteplicht beperken of de belastbaarheid van bepaalde inkomsten elimineren (vrijstelling of verrekening).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "kader"
+  ]
 }

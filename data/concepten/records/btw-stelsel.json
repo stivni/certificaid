@@ -1,11 +1,25 @@
 {
   "id": "btw-stelsel",
   "naam": {
-    "primair": "Btw stelsel"
+    "primair": "Btw stelsel",
+    "afkorting": "BTW",
+    "synoniemen": [
+      "belasting over de toegevoegde waarde",
+      "omzetbelasting"
+    ],
+    "vertaling": {
+      "fr": "Système TVA",
+      "en": "VAT system"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.4.I",
+      "2.4.taak.3"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,538 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.4.I",
-      "2.4.taak.3"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Btw stelsel",
+        "tekst": "Het **btw-stelsel** is het normatieve kader van de belasting over de toegevoegde waarde (btw) — een **indirecte, verbruiksbelasting** die op elke schakel van de economische keten geheven wordt maar uiteindelijk volledig wordt gedragen door de **eindverbruiker**. Elke belastingplichtige int btw op zijn uitvoer (verkopen/diensten), trekt de btw op zijn invoer (aankopen) af, en stort het nettoverschil aan de Belgische Staat.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Btw is geen kostprijs voor de ondernemer maar een **doorlooppost**: de ondernemer fungeert als **onbezoldigd belastingontvanger** die de btw int van zijn klanten, de betaalde btw op aankopen recupereert via aftrek, en het verschil doorstort. Alleen de **eindverbruiker** — die geen recht op aftrek heeft — draagt de btw definitief.\n\nDit mechanisme heeft drie structurele gevolgen:\n- **Neutraliteit voor ondernemers** — goed functionerende aftrek neutraliseert de btw-last in de keten volledig\n- **Cumulatief effect bij onderbrekingen** — vrijstellingen of beperkt aftrekrecht doorbreken de keten en maken de btw wél een kost\n- **Brede belastingbasis** — elke levering van goederen en dienst is in principe belastbaar tenzij expliciet vrijgesteld",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het btw-stelsel is opgezet als **multi-stage tax** met aftrekmechanisme om cumulatief effect (cascadebelasting) te vermijden. Elke belastingplichtige betaalt btw op de toegevoegde waarde die hij zelf creëert — niet op de volledige omzet. De EU heeft de btw geharmoniseerd via de **BTW-richtlijn 2006/112/EG** om de interne markt te vrijwaren: zonder harmonisatie zouden lidstaten via btw-regels handelsstromen beïnvloeden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Alle economische handelingen van **btw-belastingplichtigen** — elke levering van goederen of dienst verricht onder bezwarende titel valt in principe binnen het btw-stelsel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Grensoverschrijdende transacties tussen EU-lidstaten en met derde landen — het stelsel bepaalt of en hoe btw van toepassing is via de regels over **intracommunautaire leveringen, diensten en invoer**.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Handelingen verricht **buiten de hoedanigheid** van belastingplichtige — bijv. een particulier die een tweedehandse auto verkoopt of een vzw die enkel vrijgestelde activiteiten uitoefent zonder economische activiteit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Zuivere overdrachten van algemeenheden van goederen** wanneer de BTW-vrijstelling van artikel 11/25 WBTW van toepassing is — geen btw verschuldigd maar ook geen aftrekrecht op specifieke kosten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Vrijgestelde activiteiten** doorbreken de aftrekketen — een belastingplichtige die zowel vrijgestelde als belastbare handelingen verricht heeft een beperkt aftrekrecht en moet een **pro-rata** toepassen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De betrokken partij handelt **zelfstandig, regelmatig en met economisch doel** — de drie basiskenmerken van een btw-belastingplichtige.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Er is sprake van een **levering van goederen of dienst** onder **bezwarende titel** (tegenprestatie) — niet van een schenking of een louter interne overdracht zonder vergoeding.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "vier-toepassingsvoorwaarden",
+        "naam": {
+          "primair": "Vier toepassingsvoorwaarden btw"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een handeling valt in het btw-stelsel als **cumulatief** voldaan is aan vier voorwaarden:\n1. **Belastingplichtige** — de handeling wordt verricht door iemand die zelfstandig, regelmatig en met economisch doel goederen levert of diensten verstrekt\n2. **Levering van goederen of diensten** — de handeling kwalificeert als een levering of dienst in de zin van het WBTW\n3. **Bezwarende titel** — er is een rechtstreeks verband tussen de prestatie en een tegenprestatie\n4. **Plaatsing in België** — de plaats van handeling situeert zich in België (voor intern belastbaar recht)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aftrekmechanisme",
+        "naam": {
+          "primair": "Aftrekmechanisme",
+          "synoniemen": [
+            "recht op aftrek",
+            "btw-aftrek"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het aftrekmechanisme is de **kern van de btw-neutraliteit**: de belastingplichtige trekt de btw die hij betaald heeft op zijn aankopen (voorbelasting) af van de btw die hij geïnd heeft op zijn verkopen (verschuldigde btw). Alleen het **nettoverschil** wordt doorgestort.\n\nSchematisch voor Meubelzaak Mertens BV:\n- Aankoop hout: € 10.000 + € 2.100 btw (21%) → **voorbelasting € 2.100**\n- Verkoop meubels: € 16.000 + € 3.360 btw (21%) → **verschuldigde btw € 3.360**\n- **Netto te storten: € 3.360 − € 2.100 = € 1.260**\n\nDe btw-druk valt dus op de **toegevoegde waarde** (€ 6.000 × 21% = € 1.260) — niet op de volledige omzet.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-als-doorlooppost",
+        "naam": {
+          "primair": "Btw als doorlooppost"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor de **btw-belastingplichtige** is btw een **neutrale doorlooppost**: betaalde btw (op aankopen) en geïnde btw (op verkopen) wegen niet op het resultaat — ze worden verrekend via de periodieke btw-aangifte. Btw wordt **wél een kost** wanneer het aftrekrecht ontbreekt: bij vrijgestelde handelingen, gemengd gebruik of niet-aftrekbare uitgaven (bv. restaurantkosten).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belastbare-feiten-btw",
+        "naam": {
+          "primair": "Belastbare feiten btw"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het btw-stelsel kent vier **belastbare feiten** die elk een eigen set regels hebben:\n- **Interne leveringen** — levering van goederen of diensten door een in België gevestigde belastingplichtige\n- **Intracommunautaire verwervingen** — goederen gekocht bij een EU-leverancier en getransporteerd naar België\n- **Invoer** — goederen binnengebracht vanuit een derde land (niet-EU)\n- **Diensten met verleggingsregeling** — B2B-diensten waarbij de ontvanger de btw zelf aanzuivering",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-keten-en-eindverbruiker",
+        "naam": {
+          "primair": "Btw-keten en eindverbruiker"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "In een **volledige keten** (alle partijen btw-belastingplichtig, geen vrijstellingen) draagt elke schakel btw op zijn toegevoegde waarde, en recupereert hij de btw op zijn aankopen. De **eindverbruiker** — die geen recht op aftrek heeft — draagt de volledige btw-last, gelijk aan het tarief toegepast op de eindprijs.\n\nWanneer een schakel **vrijgesteld** is, wordt die schakel een eindverbruiker voor de btw op zijn aankopen: die btw kan hij niet aftrekken en wordt een **echte kost** die hij in zijn prijs moet verrekenen. Zo worden vrijstellingen — die bedoeld zijn om de consument te ontlasten — soms nadelig voor de vrijgestelde ondernemer.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "eu-harmonisatie-btw",
+        "naam": {
+          "primair": "EU-harmonisatie btw"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het Belgische btw-recht is volledig gebaseerd op de **BTW-richtlijn 2006/112/EG** (herschikking van de Zesde Richtlijn). Alle lidstaten zijn verplicht hun nationaal btw-recht hieraan te conformeren. De richtlijn bepaalt:\n- Structuur van de belastingbasis en tarieven (minimumtarieven, niet-maximumtarieven)\n- Lijst van verplichte vrijstellingen\n- Regels voor plaats van handeling, maatstaf van heffing, opeisbaarheid\n- Uniforme regels voor intracommunautaire transacties",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-tarieven-belgie",
+        "naam": {
+          "primair": "Btw-tarieven in België"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "België kent vier btw-tarieven:\n- **21%** — standaardtarief, van toepassing tenzij expliciet anders bepaald\n- **12%** — o.a. margarine, fytofarmaceutische producten, sociaal woningbouw (restaurantdiensten zijn overgestapt naar 12% per 2010)\n- **6%** — o.a. voedingsmiddelen (basiscategorie), geneesmiddelen, boeken, personenvervoer, renovatiewerken (≥ 10 jaar oud gebouw), water\n- **0%** — beperkte lijst, o.a. weekbladen/dagbladen en bepaalde gerecycleerde goederen\n\nHet standaardtarief van minimaal 15% is EU-rechtelijk verplicht; verlaagde tarieven zijn onderworpen aan de EU-positieflijst.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vrijgestelde-vs-belastbare-handelingen",
+        "naam": {
+          "primair": "Vrijgestelde vs belastbare handelingen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het btw-stelsel kent twee soorten vrijstellingen die fundamenteel verschillen:\n\n**Vrijstellingen met behoud van aftrekrecht** (nultarief of vrijstelling met recht op aftrek — o.a. intracommunautaire leveringen, uitvoer naar derde landen): de leverancier factureert zonder btw maar behoudt het recht om de btw op zijn aankopen te recupereren.\n\n**Vrijstellingen zonder recht op aftrek** (bv. bancaire en verzekeringsdiensten, medische zorg, onderwijs, verhuur onroerend goed): de vrijgestelde ondernemer mag geen btw op zijn aankopen aftrekken. Btw wordt een definitieve kost voor hem.\n\nDit onderscheid is cruciaal: een sector die denkt bevoordeeld te zijn door een vrijstelling (bv. zorgverleners) draagt in werkelijkheid verborgen btw-kost die niet aftrekbaar is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "btw-belastingplichtige",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "btw-aftrek",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "btw-vrijstellingen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "btw-tarieven",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "levering-en-dienst-btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "maatstaf-van-heffing-btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "opeisbaarheid-btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "plaats-van-handeling-btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "factuur-btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "btw-grensoverschrijdend",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "btw-vastgoed",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "toepassingsgebied-belasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "eu-fiscale-richtlijnen",
+      "toelichting": "Het Belgisch btw-recht is volledig gebaseerd op BTW-richtlijn 2006/112/EG — nationale afwijkingen zijn niet mogelijk tenzij expliciet toegestaan door de richtlijn.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "toegevoegde-waarde",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

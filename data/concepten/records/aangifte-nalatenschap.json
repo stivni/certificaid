@@ -11,6 +11,7 @@
       "nl": "Aangifte nalatenschap"
     }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -22,6 +23,9 @@
       "mcp_calls": 0,
       "rerank_calls": 0
     },
+    "ankers": [
+      "2.6.taak.4"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -34,13 +38,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 18)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende pass: niet_voor + indicaties toegevoegd aan gebruikscontext; 3 nieuwe elementen (belastbare-grondslag-mechanisme, indieningstermijnen, fictiebepalingen-in-aangifte); volgkennis aangevuld in voorkennis_leespad."
       }
-    ],
-    "ankers": [
-      "2.6.taak.4"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De aangifte van nalatenschap is de verplichte fiscale aangifte waarmee de erfgenamen, legatarissen of begiftigden aan de bevoegde gewestelijke belastingadministratie de samenstelling van de nalatenschap (activa en passiva) bekend maken, zodat de erfbelasting kan worden berekend en geheven. Zij dient te worden ingediend binnen de wettelijk bepaalde termijn na het overlijden van de erflater."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De erfgenamen inventariseren alle activa (onroerende en roerende goederen, financiële tegoeden, bedrijfswaarden) en passiva (schulden, begrafeniskosten) van de overledene, en rapporteren deze aan het bevoegde gewestelijk kantoor zodat de heffingsgrondslag voor de erfbelasting wordt vastgesteld."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Erfbelasting is een gewestelijke belasting op de overdracht van vermogen door overlijden. De aangifte is het instrument waarmee de staat inzicht krijgt in wat er te belasten valt: zonder aangifte geen heffing. De procedure dwingt erfgenamen tot een volledige inventarisatie — activa én passiva — en biedt tegelijk de gelegenheid om gebruik te maken van vrijstellingen, gunstregimes (zoals het gunstregime familiale onderneming) en heffingsgrondslagverminderingen. Voor de gecertificeerd accountant is dit een advies- en begeleidingsmoment: hij stelt de aangifte niet op als notaris, maar hij kan de cliënt begeleiden bij de waardering van bedrijfsactiva, de toepassing van het gunstregime, en de planning van liquiditeiten om de erfbelasting te betalen."
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "erfrecht",
@@ -52,6 +100,11 @@
         "fictiebepalingen-erfbelasting",
         "gunstregime-familiale-onderneming",
         "successieplanning"
+      ],
+      "volgkennis": [
+        "bezwaarprocedure-fiscaal",
+        "gunstregime-familiale-onderneming",
+        "erfbelasting-tarieven-en-vrijstellingen"
       ]
     },
     "gebruikscontext": {
@@ -113,6 +166,34 @@
           "tekst": "Niet-rijksinwoners die onroerende goederen in België bezaten (beperkte aangifte voor de in België gelegen onroerende goederen)."
         }
       ],
+      "niet_voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Nalatenschappen van personen die fiscaal inwoner waren van een ander land en geen onroerende goederen in België bezitten — daar is geen Belgische aangifte vereist."
+        },
+        {
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Nalatenschappen waarbij de belastbare grondslag nul of negatief is (meer passiva dan activa) — in principe is er toch een aangifte verplicht, maar er resulteert geen belastingschuld. De verplichting tot indiening vervalt niet automatisch bij een ontoereikende nalatenschap."
+        }
+      ],
       "voorwaarden": [
         {
           "grondslag": {
@@ -154,6 +235,47 @@
             ]
           },
           "tekst": "Laattijdige indiening leidt tot ambtshalve aanslag en belastingverhogingen; onjuiste waardering van bedrijfsactiva kan leiden tot navordering en boetes; niet-toepassing van beschikbare vrijstellingen of het gunstregime familiale onderneming resulteert in onnodige belastingdruk."
+        }
+      ],
+      "indicaties": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "De nalatenschap bevat bedrijfsaandelen of een familiale onderneming — signaal dat het gunstregime en een gedetailleerde waardering vereist zijn."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "De overledene had goederen in meerdere landen of bij buitenlandse financiële instellingen — signaal dat de aangifte complex wordt en mogelijk extra termijn nodig is."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "De erflater had een samengesteld huwelijksvermogensstelsel of was ongehuwd samenwonend — signaal dat de afbakening van de nalatenschap (welke goederen zijn eigen?) een juridische analyse vergt vóór de aangifte kan worden opgesteld."
         }
       ]
     },
@@ -402,49 +524,116 @@
             "tekst": "Nalatenschappen zijn zelden eenvoudig: effecten op buitenlandse rekeningen worden soms ontdekt na de eerste aangifte, de uitbetaling van een verzekeringscontract kan later verwerkt worden, of een fiscale controle bij de overledene brengt een onbekende schuldvordering aan het licht. Door spontaan een aanvullende aangifte in te dienen vóór dat de administratie dit ontdekt, kan een boete wegens frauduleuze onderschatting in veel gevallen worden vermeden."
           }
         }
-      }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aangifte van nalatenschap is de verplichte fiscale aangifte waarmee de erfgenamen, legatarissen of begiftigden aan de bevoegde gewestelijke belastingadministratie de samenstelling van de nalatenschap (activa en passiva) bekend maken, zodat de erfbelasting kan worden berekend en geheven. Zij dient te worden ingediend binnen de wettelijk bepaalde termijn na het overlijden van de erflater."
       },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
+      {
+        "id": "belastbare-grondslag-mechanisme",
+        "naam": {
+          "primair": "Belastbare grondslag: netto-actief per verkrijger"
         },
-        "tekst": "De erfgenamen inventariseren alle activa (onroerende en roerende goederen, financiële tegoeden, bedrijfswaarden) en passiva (schulden, begrafeniskosten) van de overledene, en rapporteren deze aan het bevoegde gewestelijk kantoor zodat de heffingsgrondslag voor de erfbelasting wordt vastgesteld."
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De erfbelasting wordt berekend op het netto-aandeel van elke verkrijger afzonderlijk: bruto-actief (reëel + fictief nagelaten goederen) minus aftrekbare passiva = netto-nalatenschap; dat netto-bedrag wordt verdeeld over de erfgenamen naar hun erfdeel. Op het netto-erfdeel per verkrijger wordt het progressief tarief toegepast, afhankelijk van de verwantschapsgraad."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Het onderscheid tussen de totale nalatenschap en het aandeel per verkrijger is essentieel: twee erfgenamen elk met een erfdeel van € 200.000 betalen samen minder erfbelasting dan één erfgenaam met een erfdeel van € 400.000, doordat de progressieve tarieven per verkrijger worden toegepast (niet op de totale nalatenschap). Dit maakt splitsing van een erfdeel via legaten of familiepactovereenkomsten fiscaal interessant."
+          }
+        }
       },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
+      {
+        "id": "indieningstermijnen",
+        "naam": {
+          "primair": "Indieningstermijnen naar overlijdensplaats",
+          "synoniemen": [
+            "aangifte-termijn nalatenschap"
           ]
         },
-        "tekst": "Erfbelasting is een gewestelijke belasting op de overdracht van vermogen door overlijden. De aangifte is het instrument waarmee de staat inzicht krijgt in wat er te belasten valt: zonder aangifte geen heffing. De procedure dwingt erfgenamen tot een volledige inventarisatie — activa én passiva — en biedt tegelijk de gelegenheid om gebruik te maken van vrijstellingen, gunstregimes (zoals het gunstregime familiale onderneming) en heffingsgrondslagverminderingen. Voor de gecertificeerd accountant is dit een advies- en begeleidingsmoment: hij stelt de aangifte niet op als notaris, maar hij kan de cliënt begeleiden bij de waardering van bedrijfsactiva, de toepassing van het gunstregime, en de planning van liquiditeiten om de erfbelasting te betalen."
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De wettelijke indieningstermijn van de aangifte nalatenschap varieert naargelang de overlijdensplaats:\n- **4 maanden** — overlijden in België\n- **5 maanden** — overlijden in een ander land van de Europese Economische Ruimte\n- **6 maanden** — overlijden buiten de EER\n\nDe termijn begint te lopen op de dag van overlijden."
+          },
+          "rationale": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De langere termijn bij overlijden in het buitenland weerspiegelt de praktische moeilijkheid om buitenlandse activa tijdig te inventariseren. Na het verstrijken van de termijn zonder indiening of uitstelverlening volgt ambtshalve taxatie op basis van geschatte waarden, aangevuld met belastingverhogingen. De termijn is van openbare orde en kan niet contractueel worden verlengd — enkel de bevoegde ontvanger kan uitstel verlenen."
+          }
+        }
+      },
+      {
+        "id": "fictiebepalingen-in-aangifte",
+        "naam": {
+          "primair": "Fictief nagelaten goederen in de aangifte"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "Bepaalde goederen die de overledene vóór zijn overlijden heeft weggeschonken of overgedragen worden voor de erfbelasting geacht alsnog deel uit te maken van de nalatenschap (fictiebepalingen). De erfgenamen zijn verplicht deze fictief nagelaten goederen op te nemen in de aangifte, ook al werden zij niet werkelijk nagelaten."
+          },
+          "substantie": {
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "tekst": "De belangrijkste fictiebepalingen betreffen:\n- Schenkingen gedaan binnen een bepaalde periode vóór overlijden die niet aan schenkbelasting onderworpen werden (de periode varieert per gewest en per type goed)\n- Levensverzekeringen waarvan de overledene begunstigde heeft aangeduid maar waarbij hij de premies betaalde: de uitkering kan in de nalatenschap worden betrokken\n- Goederen waarover de overledene bij leven vruchtgebruik had voorbehouden\n\nHet niet opnemen van fictief nagelaten goederen is een frequent frauderisico dat de fiscus actief controleert, ook via kruiscontroles met schenkingsregisters en verzekeringsgegevens."
+          }
+        }
       }
-    }
+    ]
   },
   "relaties": [
     {
@@ -561,7 +750,21 @@
           }
         ]
       }
+    },
+    {
+      "type": "triggert",
+      "target": "bezwaarprocedure-fiscaal",
+      "toelichting": "Na de erfbelasting-aanslag op basis van de aangifte staat een bezwaarprocedure open indien de erfgenamen de aanslag betwisten (bv. onjuiste waardering door de administratie).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "procedure"
+  ]
 }

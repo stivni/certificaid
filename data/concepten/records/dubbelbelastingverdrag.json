@@ -1,8 +1,20 @@
 {
   "id": "dubbelbelastingverdrag",
   "naam": {
-    "primair": "Dubbelbelastingverdrag"
+    "primair": "Dubbelbelastingverdrag",
+    "afkorting": "DBV",
+    "synoniemen": [
+      "verdrag ter vermijding van dubbele belasting",
+      "belastingverdrag",
+      "tax treaty",
+      "convention fiscale"
+    ],
+    "vertaling": {
+      "fr": "Convention préventive de la double imposition",
+      "en": "Double Tax Convention"
+    }
   },
+  "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +36,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -37,20 +55,544 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Dubbelbelastingverdrag",
+        "tekst": "Een **dubbelbelastingverdrag** (DBV) is een bilateraal verdrag tussen twee staten waarbij beide staten afspreken hoe zij hun heffingsbevoegdheid verdelen over grensoverschrijdende inkomsten. Het verdrag wijst per inkomenscategorie het exclusieve of gedeelde heffingsrecht toe aan de **woonstaat** of de **bronstaat**, en bepaalt welke methode de andere staat moet hanteren om resterende dubbele belasting te vermijden (vrijstelling met progressievoorbehoud of verrekening).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Zonder DBV zou hetzelfde inkomen tweemaal belast worden: de bronstaat heft omdat het inkomen daar ontstaat, de woonstaat heft omdat de belastingplichtige er woont. Het DBV lost dit op via twee mechanismen:\n\n- **Heffingstoewijzing**: per inkomenscategorie (lonen, dividenden, interest, royalty's, bedrijfswinst, onroerend goed, ...) bepaalt het verdrag welke staat heft — exclusief of gedeeld.\n- **Verlichtingsmethode**: de staat die het heffingsrecht *niet* of slechts *gedeeld* krijgt, moet de resterende dubbele belasting oplossen via vrijstelling of verrekening.\n\nDe praktische werking: een Belgisch rijksinwoner die loon verdient in Nederland betaalt op dat loon belasting in Nederland (bronstaat); België vrijstelt dat loon van personenbelasting maar telt het mee voor het progressievoorbehoud (tariefbepaling).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het onderscheid woonstaat/bronstaat en de verlichtingsmethode bepalen de hele advisering: ze verklaren wanneer buitenlandse belasting verrekenbaar is, wanneer Belgian tax is residual en wanneer het inkomen vrijgesteld maar progressief doorwerkt."
+      },
+      "rationale": {
+        "tekst": "DBV's zijn noodzakelijk omdat soevereine staten eenzijdig heffingsrecht claimen op grond van twee legitieme aanknopingspunten (woonplaats en bron), die bij grensoverschrijdende inkomsten cumuleren. Zonder coördinatie via verdrag zou dubbele belasting de internationale handel en arbeidsmobiliteit onredelijk belemmeren. Het OESO-Modelverdrag biedt een gestandaardiseerd raamwerk dat bilateral onderhandelingen vereenvoudigt en een gemeenschappelijke interpretatietaal schept.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Belastingplichtigen die **grensoverschrijdende inkomsten** ontvangen: loon uit het buitenland, dividenden van buitenlandse vennootschappen, interest of royalty's met buitenlandse bron, winst van buitenlandse vaste inrichtingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "DBV-regels treden per definitie alleen in werking wanneer er een grensoverschrijdend element is; puur binnenlandse inkomsten vallen volledig onder intern recht."
+        },
+        {
+          "tekst": "Bepaling van **belastingresidentie** wanneer een persoon of vennootschap potentieel inwoner is van twee verdragsstaten (tie-breaker-regels in art. 4 OESO-Modelverdrag).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Structurering van internationale activiteiten**: bepalen of een buitenlandse activiteit een vaste inrichting vormt en welke heffingsgevolgen dat heeft.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Puur interne situaties** zonder grensoverschrijdend element — DBV-regels zijn dan niet activeerbaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Transacties met **landen waarmee geen DBV bestaat** — daar gelden uitsluitend de eenzijdige verlichtingsmaatregelen van het intern Belgisch recht (forfaitair gedeelte buitenlandse belasting, verrekenbare roerende voorheffing).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Vermijding van juridische dubbele belasting**: hetzelfde inkomen van dezelfde belastingplichtige wordt niet tweemaal volledig belast.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Rechtszekerheid**: verdragspartijen en belastingplichtigen kennen op voorhand welke staat heft en welke methode geldt — geen administratieve willekeur per geval.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verlaagde bronheffingen**: verdragen begrenzen doorgaans de maximale bronheffing op dividenden, interest en royalty's (bv. 15% op dividenden voor portfolio-aandeelhouders, 5% of 0% voor deelnemende aandeelhouders).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verdragsmisbruik en treaty shopping**: belastingplichtigen die via kunstmatige structuren (doorstroomvennootschappen) verdragsvoordelen claimen waarvoor ze niet bedoeld zijn — BEPS-actieplan (OESO) en het MLI pogen dit te beperken via een PPT (principal purpose test).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Interpretatieverchillen**: landen interpreteren dezelfde verdragstekst soms anders, wat leidt tot dubbele belasting die het verdrag net wil voorkomen — de MAP (Mutual Agreement Procedure) biedt verhaal maar is tijdrovend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "heffingstoewijzing",
+        "naam": {
+          "primair": "Heffingstoewijzing",
+          "synoniemen": [
+            "allocatie van heffingsrecht",
+            "taxing right allocation"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het DBV wijst per **inkomenscategorie** het heffingsrecht toe aan de woonstaat, de bronstaat, of beide staten gezamenlijk:\n\n- **Exclusief aan de woonstaat**: typisch voor loon van overheidspersoneel (eigen staat), pensioenen, vermogenswinsten op roerende goederen\n- **Primair bij de bronstaat** (met begrensd tarief voor de andere staat): dividenden, interest, royalty's — OESO-model legt maximumtarieven op (bv. 15% dividenden portfolio)\n- **Exclusief bij de bronstaat** voor onroerend goed en bedrijfswinst van vaste inrichting\n\nDe toewijzingsregel bepaalt welke staat de **verlichtingsmethode** moet toepassen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Heffingstoewijzing is het hart van het verdrag: alle andere elementen (verlichtingsmethode, vaste inrichting, tie-breaker) zijn derivaten van de toewijzingsbeslissing per inkomenscategorie."
+          }
+        }
+      },
+      {
+        "id": "woonstaat-vs-bronstaat",
+        "naam": {
+          "primair": "Woonstaat versus bronstaat",
+          "synoniemen": [
+            "residence state vs source state"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Woonstaat** (residence state): de staat waar de belastingplichtige fiscaal inwoner is (woonplaats, gewone verblijfplaats of voor vennootschappen: statutaire zetel of werkelijke leiding).\n\n**Bronstaat** (source state): de staat waar het inkomen economisch zijn oorsprong heeft (werkstaat voor loon, vestigingsstaat voor vaste inrichting, uitkeringsstaat voor dividenden).\n\nBij conflict over residentie bepalen de **tie-breaker-regels** (art. 4 OESO-Modelverdrag) welke staat als woonstaat geldt: volgorde is vaste woning → gewone verblijfplaats → middelpunt levensbelangen → nationaliteit → onderling overleg.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De kwalificatie woonstaat/bronstaat is de eerste stap in elke DBV-analyse: ze bepaalt welk artikel van toepassing is en welke staat de verlichtingsverplichting draagt."
+          }
+        }
+      },
+      {
+        "id": "vrijstelling-met-progressievoorbehoud",
+        "naam": {
+          "primair": "Vrijstelling met progressievoorbehoud",
+          "synoniemen": [
+            "vrijstellingsmethode",
+            "exemption with progression",
+            "méthode d'exemption avec réserve de progressivité"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De **vrijstelling met progressievoorbehoud** is de primaire verlichtingsmethode die België hanteert voor inkomen dat krachtens een DBV aan de bronstaat wordt toegewezen:\n\n1. Het buitenlandse inkomen wordt **vrijgesteld** van Belgische belasting (niet opgenomen in de belastbare basis).\n2. Het buitenlandse inkomen wordt **wél meegeteld** om het Belgische belastingtarief te bepalen dat van toepassing is op de overige (Belgische) inkomsten.\n\nGevolg: het buitenlandse inkomen verhoogt het marginale tarief op de Belgische inkomsten, ook al wordt het zelf niet belast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het progressievoorbehoud beschermt de belastingprogressiviteit van de woonstaat: zonder voorbehoud zou een belastingplichtige met hoog buitenlands inkomen + laag Belgisch inkomen tegen een laag gemiddeld tarief belast worden op zijn Belgisch inkomen."
+          }
+        }
+      },
+      {
+        "id": "verrekeningsmethode",
+        "naam": {
+          "primair": "Verrekeningsmethode",
+          "synoniemen": [
+            "credit method",
+            "belastingverrekening",
+            "ordinary credit"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de **verrekeningsmethode** belast de woonstaat het buitenlandse inkomen normaal, maar verrekent de in de bronstaat betaalde belasting met de eigen belasting. Twee varianten:\n\n- **Gewone verrekening (ordinary credit)**: verrekening beperkt tot de Belgische belasting op dat inkomen — overschot niet teruggegeven.\n- **Volledige verrekening (full credit)**: overschot van buitenlandse belasting wordt wél teruggegeven — zelden toegepast.\n\nBelgië past de verrekeningsmethode toe voor inkomen waarop de bronstaat een **beperkte** bronheffing mag inhouden (bv. dividenden, interest, royalty's): de ingehouden bronheffing is verrekenbaar met de Belgische belasting op dat inkomen, tot het Belgische belastingbedrag op dat inkomen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vaste-inrichting-dbv",
+        "naam": {
+          "primair": "Vaste inrichting (DBV-definitie)",
+          "synoniemen": [
+            "permanent establishment",
+            "PE"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **vaste inrichting** (VI) is een vaste bedrijfsinrichting via welke de werkzaamheden van een onderneming geheel of gedeeltelijk worden uitgeoefend. De aanwezigheid van een VI in de bronstaat geeft die staat het recht om de winst van de VI te belasten (art. 7 OESO-Modelverdrag).\n\nKernvoorwaarden: (1) **vaste** inrichting (geografische continuïteit), (2) **bedrijfsinrichting** (lokalen, uitrusting, ...), (3) **bedrijfswerkzaamheden** via die inrichting.\n\nTypische voorbeelden: filiaal, fabriek, kantoor, werkplaats, bouwwerf (indien > 12 maanden), afhankelijke vertegenwoordiger met volmacht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het VI-begrip is de drempel voor belastingheffing door de bronstaat op bedrijfswinst: zonder VI mag de bronstaat de winst van de buitenlandse vennootschap niet belasten. De kwalificatie als VI of niet is daarmee een van de meest strategische vragen bij internationale structurering."
+          }
+        }
+      },
+      {
+        "id": "oeso-modelverdrag-structuur",
+        "naam": {
+          "primair": "OESO-Modelverdrag als structuurkader",
+          "synoniemen": [
+            "OESO-Modelverdrag",
+            "Model Tax Convention"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "substantie": {
+            "tekst": "Het **OESO-Modelverdrag** (regelmatig bijgewerkt, meest recent 2017 + MLI-aanpassingen) biedt de modelstructuur die de meeste Belgische DBV's volgen. Belangrijke artikelen:\n\n- **Art. 4** — definitie inwoner + tie-breaker\n- **Art. 5** — definitie vaste inrichting\n- **Art. 6** — onroerend goed (bronstaat heft)\n- **Art. 7** — bedrijfswinst (woonstaat heft, tenzij VI)\n- **Art. 10/11/12** — dividenden / interest / royalty's (gedeeld heffingsrecht, begrensd bronheffingstroep)\n- **Art. 15** — loon uit dienstbetrekking (werkstaat-regel + 183-dagenregel)\n- **Art. 23A/23B** — vrijstellings- vs verrekeningsmethode\n- **Art. 25** — Mutual Agreement Procedure (MAP)\n\nBelgische DBV's wijken soms af van het OESO-model — altijd de specifieke verdragstekst raadplegen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "modelverdrag",
+                  "naam": "OESO-Modelverdrag",
+                  "ref": "oeso-modelverdrag-2017"
+                }
+              ]
+            },
+            "rationale": "Het OESO-model is geen bindend recht maar de gemeenschappelijke interpretatietaal: het commentaar bij het modelverdrag is gezaghebbend bij de uitlegging van Belgische DBV's die ervan zijn afgeleid."
+          }
+        }
+      },
+      {
+        "id": "183-dagenregel",
+        "naam": {
+          "primair": "183-dagenregel",
+          "synoniemen": [
+            "183-days rule",
+            "werkstaatregel loon"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor loon uit dienstbetrekking (art. 15 OESO-Modelverdrag) geldt als hoofdregel dat de **werkstaat** heft. Uitzondering: de **woonstaat** behoudt het heffingsrecht als aan de drie cumulatieve voorwaarden is voldaan:\n\n1. De werknemer verblijft in de werkstaat **niet meer dan 183 dagen** in een (twaalfmaands-)periode;\n2. De bezoldiging wordt betaald door (of namens) een **werkgever die geen inwoner** is van de werkstaat;\n3. De bezoldiging drukt **niet op een vaste inrichting** van de werkgever in de werkstaat.\n\nAls ook maar één voorwaarde niet is voldaan, heft de werkstaat.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "modelverdrag",
+                  "naam": "OESO-Modelverdrag",
+                  "ref": "oeso-modelverdrag-art-15"
+                }
+              ]
+            },
+            "rationale": "De 183-dagenregel is de meest frequente DBV-bepaling in de praktijk van Belgische accountants: internationale tewerkstelling, detachering en thuiswerk voor buitenlandse werkgevers raken allen aan deze regel."
+          }
+        }
+      },
+      {
+        "id": "mli-aanpassing",
+        "naam": {
+          "primair": "Multilateraal Instrument (MLI)",
+          "synoniemen": [
+            "MLI",
+            "Multilateral Convention to Implement Tax Treaty Related Measures to Prevent BEPS"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het **MLI** (2016, kracht van wet in België per 2019) wijzigt bestaande DBV's door anti-misbruikbepalingen in te lassen zonder elk verdrag afzonderlijk te heronderhandelen. Kernmechanismen:\n\n- **PPT (principal purpose test)**: verdragsvoordelen worden geweigerd indien het verkrijgen van dat voordeel een van de voornaamste doelen van een arrangement was — ongeacht of aan de formele verdragsvoorwaarden is voldaan.\n- **Tie-breaker voor rechtspersonen** (art. 4 MLI): dubbele residentie van vennootschappen wordt voortaan opgelost via onderling overleg (MAP), niet automatisch op basis van de werkelijke-leiding-regel.\n- **Vaste-inrichtings-antimisbruik**: beperkt kunstmatige vermijding van VI-status.\n\nNiet alle Belgische DBV's zijn door het MLI gewijzigd: afhankelijk van de gedane voorbehouden door beide verdragspartijen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "modelverdrag",
+                  "naam": "MLI-2016",
+                  "ref": "mli-2016"
+                }
+              ]
+            },
+            "rationale": "Het MLI heeft de Belgische DBV-praktijk ingrijpend gewijzigd: de PPT vormt nu een extra drempel voor structuren die op verdragsvoordelen steunen, en de tie-breaker voor vennootschappen is minder automatisch dan voorheen."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "instrument"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-residentie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "mli-instrument",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beps-actieplan",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "oeso-modelverdrag",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Belgische DBV's zijn structureel gebaseerd op het OESO-Modelverdrag en gebruiken zijn commentaar als interpretatiegids."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "forfaitair-gedeelte-buitenlandse-belasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide vermijden of verlichten dubbele belasting op grensoverschrijdende inkomsten"
+      ],
+      "verschillen": [
+        "DBV is bilateraal verdragsrecht; forfaitair gedeelte buitenlandse belasting is eenzijdige Belgische interne maatregel voor landen zonder DBV",
+        "DBV wijst heffingsrecht toe; forfaitair gedeelte verleent slechts een vaste aftrek ongeacht werkelijk betaalde buitenlandse belasting"
+      ],
+      "verwarring_risico": "Studenten vergissen zich in welke regeling van toepassing is: DBV geldt enkel bij een verdrag met het betrokken land; anders gelden de eenzijdige Belgische maatregelen."
+    },
+    {
+      "type": "vereist",
+      "target": "vaste-inrichting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Toepassing van DBV-regels voor bedrijfswinst (art. 7) vereist inzicht in het VI-begrip als drempel voor bronstaat-heffing."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "transfer-pricing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "DBV's bevatten veelal een winsttoerekeningsbepaling (art. 9 OESO-model) die transfer-pricing-correcties door de bronstaat sanctioneert; de andere verdragsstaat is verplicht tot corresponderende aanpassing."
+    },
+    {
+      "type": "vereist",
+      "target": "map",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Wanneer interpretatieverschillen of dubbele heffing persisteren, biedt het DBV (art. 25 OESO-model) de Mutual Agreement Procedure als geschillenoplossingsinstrument."
+    }
+  ]
 }

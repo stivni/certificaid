@@ -1,11 +1,25 @@
 {
   "id": "douaneprocedures-btw-invoer",
   "naam": {
-    "primair": "Douaneprocedures btw invoer"
+    "primair": "Douaneprocedures btw invoer",
+    "synoniemen": [
+      "invoer-btw",
+      "btw bij invoer",
+      "douane-btw"
+    ],
+    "vertaling": {
+      "fr": "Procédures douanières TVA à l'importation"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.4.VIII",
+      "2.4.IX",
+      "2.4.XI"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +38,467 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7 stuks), gebruikscontext en relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.4.VIII",
-      "2.4.IX",
-      "2.4.XI"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Douaneprocedures btw invoer",
+        "tekst": "Het **normatief kader van douaneprocedures bij btw-invoer** bepaalt wanneer en hoe **btw verschuldigd is bij het invoeren van goederen** vanuit derde landen (niet-EU) in België. Bij invoer is de btw in beginsel verschuldigd op het moment dat de goederen het vrije verkeer binnenkomen, en moet worden aangegeven en betaald via de douaneaangifte — tenzij een bijzonder regime (zoals vergunning ET 14.000) de heffing verlegt naar de periodieke btw-aangifte.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de praktijk stelt dit kader twee fundamenteel verschillende betalingssituaties tegenover elkaar:\n\n- **Standaard douane-heffing**: btw is verschuldigd bij het in het vrije verkeer brengen van goederen. De douaneaangever (of zijn douane-agent) betaalt de btw onmiddellijk (of via rekening-courant) aan de Douane & Accijnzen. De onderneming heeft nadien het recht op aftrek via de btw-aangifte.\n\n- **Verleggingsregeling via ET 14.000**: goedgekeurde importeurs kunnen de betaling van invoer-btw *verleggen* naar hun periodieke btw-aangifte (rooster 87 aangifte + rooster 55 tegelijk aftrekbaar). Dit vermijdt de cashflow-belasting van onmiddellijke betaling.\n\nDe aangifte bij invoer volgt het **Unionaal Douanewetboek (UDW/UCC)** en omvat de douaneaangifte (DV1 voor douanewaardeopgave, EN voor enig document), de douanewaardebepaling (CIF-basis: kostprijs + verzekering + vracht) en de berekening van eventuele invoerrechten die mee de btw-grondslag bepalen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio van dit kader is dat goederen die vanuit derde landen de EU binnenkomen **dezelfde btw-last** moeten dragen als goederen die binnen de EU worden geproduceerd — anders zouden importeurs een concurrentievoordeel hebben. De douane fungeert daarbij als incasso-agent voor de btw-administratie. De verleggingsregeling werd ingevoerd om **competitiviteit van Belgische importhavens** te bewaren: ondernemingen hoeven geen btw voor te financieren als ze de aftrek toch snel kunnen genieten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "invoer-btw-belastbaar-feit",
+        "naam": {
+          "primair": "Belastbaar feit bij invoer",
+          "synoniemen": [
+            "invoer",
+            "in het vrije verkeer brengen"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Btw is verschuldigd bij **invoer van goederen** wanneer goederen vanuit een derde land (buiten de EU) fysiek en douanerechtelijk het vrije verkeer in de EU worden binnengebracht. Het belastbaar feit doet zich voor op het moment van aanvaarding van de douaneaangifte voor het in het vrije verkeer brengen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Vrij verkeer (niet louter fysieke aankomst) is het aanknopingspunt: goederen die enkel in transit zijn of onder een schorsingsregeling verblijven, zijn nog geen belastbaar feit."
+          }
+        }
+      },
+      {
+        "id": "btw-grondslag-invoer",
+        "naam": {
+          "primair": "Btw-grondslag bij invoer",
+          "synoniemen": [
+            "maatstaf van heffing invoer",
+            "douanewaarde plus kosten"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "De btw-grondslag bij invoer is de **douanewaarde** (CIF: Cost + Insurance + Freight tot Belgische grens) vermeerderd met:\n- Invoerrechten en andere heffingen (accijnzen indien van toepassing)\n- Bijkomende kosten (verpakking, commissies, vervoer) voor zover niet in de douanewaarde begrepen en tot de eerste bestemming in België\n\n**Formule**: btw-grondslag = douanewaarde + invoerrechten + bijkomende kosten\n\nDe btw-grondslag is dus ruimer dan de aankoopprijs van het goed.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het CIF-principe zorgt ervoor dat de btw ook de internationale transportkost omvat — zodat een lokaal geproduceerd goed en een equivalent geïmporteerd goed op een vergelijkbare btw-grondslag worden belast."
+          }
+        }
+      },
+      {
+        "id": "schorsingsregelingen",
+        "naam": {
+          "primair": "Schorsingsregelingen",
+          "synoniemen": [
+            "douane-schorsing",
+            "opschorting invoerrechten en btw",
+            "entrepot-regeling"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Schorsingsregelingen zijn douaneprocedures waarbij de btw (en de eventuele invoerrechten) **tijdelijk niet verschuldigd** worden bij het binnenbrengen van goederen. De belasting wordt opgeschort zolang de goederen onder de schorsing verblijven. Belangrijkste Belgische vormen:\n\n- **Douane-entrepot**: opslag van niet-EU-goederen zonder heffing\n- **Actieve veredeling** (inward processing): goederen worden bewerkt en daarna opnieuw uitgevoerd — bij uitvoer geen btw verschuldigd\n- **Tijdelijke invoer**: goederen voor tijdelijk gebruik (beurs, demonstratie) met volledige of gedeeltelijke vrijstelling\n- **Douanevervoer (T1/T2)**: transport onder schorsing naar de definitieve bestemming",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Schorsingsregelingen vermijden een cashflow-nadeel voor ondernemingen die goederen invoeren maar direct opnieuw uitvoeren of bewerken voor export. De btw-schuld verdwijnt bij correct gebruik van de regeling."
+          }
+        }
+      },
+      {
+        "id": "et-14000-vergunning",
+        "naam": {
+          "primair": "ET 14.000-vergunning",
+          "synoniemen": [
+            "verlegging invoer-btw",
+            "btw-verlegging invoer",
+            "ET 14000"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **ET 14.000-vergunning** is een Belgisch bijzonder stelsel waarbij btw-plichtige importeurs de invoer-btw **niet onmiddellijk betalen aan de Douane**, maar de btw verlegd wordt naar de periodieke btw-aangifte. De importeur:\n\n1. Geeft de goederen aan bij de Douane zonder btw-betaling\n2. Neemt de invoer-btw op in rooster **87** van de btw-aangifte (verschuldigde btw)\n3. Trekt dezelfde btw tegelijk af via rooster **55** (aftrekbare btw)\n\nHet netto-effect is **nul cashflow-impact** voor de fully aftrekgerechtigde importeur, en elimineert de financiering van invoer-btw.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "België heeft dit stelsel ingevoerd om Belgische havens (Antwerpen, Zeebrugge) competitief te houden t.o.v. Nederlandse en andere Europese havens. Zonder ET 14.000 zouden importeurs tijdelijk btw moeten voorfinancieren voordat zij terugbetaling via aangifte kunnen krijgen."
+          }
+        }
+      },
+      {
+        "id": "douaneaangifte-formaliteiten",
+        "naam": {
+          "primair": "Douaneaangifte-formaliteiten",
+          "synoniemen": [
+            "enig document",
+            "DV1",
+            "douane-agenten"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij invoer vanuit derde landen moet een **douaneaangifte** worden ingediend. In België verloopt dit via het elektronisch systeem **PLDA** (Paperless Douane en Accijnzen). De aangifte bevat:\n\n- De **tariefindeling** van het goed (GN-code / TARIC)\n- De **douanewaarde** (evt. met DV1-formulier voor complexe waardering)\n- Informatie over de herkomst en oorsprong\n- De gevraagde **douaneprocedure** (code: 40 = in het vrije verkeer brengen)\n\nDe aangifte wordt ingediend door de importeur of via een erkend **douane-agent** (expediteur) die als directe of indirecte vertegenwoordiger optreedt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "invoer-btw-vrijstellingen",
+        "naam": {
+          "primair": "Vrijstellingen bij invoer",
+          "synoniemen": [
+            "invoervrijstelling btw",
+            "kleine zendingen vrijstelling"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bepaalde invoer is vrijgesteld van btw. Belangrijkste categorieën:\n\n- **Kleine zendingen** (e-commerce): goederen met een intrinsieke waarde tot **€ 150** die door een particulier worden besteld van buiten de EU zijn vrijgesteld van douanerechten (maar niet noodzakelijk van btw — zie OSS/IOSS-regeling)\n- **Definitieve uitvoer gevolgd door wederinvoer**: goederen die tijdelijk werden uitgevoerd en terugkeren in ongewijzigde staat\n- **Diplomatic goods**: invoer door diplomatieke vertegenwoordigingen\n- **Lucht- en zeevaartuigen**: onderdelen en uitrusting bestemd voor internationale vaart\n\nDe vrijstelling voor kleine zendingen is per 1 juli 2021 ingrijpend hervormd: verkopers van buiten de EU zijn nu verplicht btw te heffen via het IOSS-stelsel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "douane-vertegenwoordiging",
+        "naam": {
+          "primair": "Douane-vertegenwoordiging",
+          "synoniemen": [
+            "directe vertegenwoordiging",
+            "indirecte vertegenwoordiging",
+            "expediteur"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de douaneaangifte kan een importeur zich laten vertegenwoordigen door een **douane-agent** (expediteur). Twee vormen bestaan naast elkaar:\n\n- **Directe vertegenwoordiging**: de agent handelt *namens* de importeur; de douane-schuld ligt uitsluitend bij de importeur. De agent is slechts instrumenteel aansprakelijk.\n- **Indirecte vertegenwoordiging**: de agent handelt *op naam van zichzelf* maar voor rekening van de importeur; de agent is **hoofdelijk aansprakelijk** voor de douaneschuld (rechten + btw) samen met de importeur.\n\nVoor de btw-aangifte via ET 14.000 blijft de importeur zelf steeds de aangifteplichtige, ongeacht de vertegenwoordigingsvorm bij de Douane.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De keuze directe vs. indirecte vertegenwoordiging heeft grote impact op de aansprakelijkheid van de expediteur — dit is een contractueel en risico-punt bij het inschakelen van douane-agenten."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Ondernemingen die **goederen invoeren vanuit derde landen** (niet-EU) naar België — zowel eindverbruikers als handelsondernemingen en producenten die grondstoffen of halffabricaten importeren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Logistieke dienstverleners, **expediteurs en douane-agenten** die namens importeurs douaneaangiften indienen en btw-schulden beheren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Ondernemingen die de **ET 14.000-vergunning** willen aanvragen om invoer-btw te verlegen naar de periodieke btw-aangifte en zo cashflow te optimaliseren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Intracommunautaire aankopen** (goederen die vanuit een andere EU-lidstaat aankomen): die vallen niet onder douaneprocedures maar onder de ICA-regeling (intracommunautaire verwerving) in de btw-aangifte.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Dienstprestaties** vanuit het buitenland (niet-EU): diensten kennen geen douaneprocedure; btw-heffing verloopt via de verleggingsregeling op basis van de plaats-van-dienst-regels.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Het **fysiek binnenbrengen van goederen vanuit een derde land** via een Belgische grenspost, luchthaven (Zaventem) of haven (Antwerpen, Zeebrugge) triggert de douane-aangifte en de btw-schuld bij invoer.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De douane-procedure eindigt bij **aanvaarding van de vrijgave** door de Douane: de goederen mogen het vrije verkeer in, de btw is verschuldigd (of verlegd via ET 14.000). Voor schorsingsregelingen eindigt de schorsing bij **plaatsing onder een andere douanebestemming**.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Onjuiste tariefindeling** (verkeerde GN-code): leidt tot te weinig invoerrechten en/of btw — achteraf corrigeerbaar maar met boetes en nalatigheidsintresten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verlies van ET 14.000-vergunning** bij herhaalde schendingen: de importeur valt terug op onmiddellijke betaling aan de Douane — tijdelijke cashflow-impact.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-grensoverschrijdend",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "douanewaarde",
+      "toelichting": "De btw-grondslag bij invoer bouwt direct voort op de douanewaarde (CIF-basis).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "btw-grensoverschrijdend",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "maatstaf-van-heffing-btw",
+      "toelichting": "De berekening van de invoer-btw vereist toepassing van de algemene maatstaf-van-heffing-regels, aangevuld met de douanewaarde als specifiek aanknopingspunt.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "accijnzen-basis",
+      "toelichting": "Voor accijnsplichtige goederen (brandstof, alcohol, tabak) worden de accijnzen mee opgenomen in de btw-grondslag bij invoer.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "verleggingsregeling",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

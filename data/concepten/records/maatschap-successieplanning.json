@@ -1,11 +1,23 @@
 {
   "id": "maatschap-successieplanning",
   "naam": {
-    "primair": "Maatschap successieplanning"
+    "primair": "Maatschap (successieplanning)",
+    "synoniemen": [
+      "burgerlijke maatschap",
+      "stille maatschap",
+      "maatschap vermogensbeheer"
+    ],
+    "vertaling": {
+      "fr": "société de droit commun (planification successorale)"
+    }
   },
+  "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.8.XVII"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +36,484 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T09:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relatie-suggesties ingevuld vanuit training-data (geen RAG)."
       }
-    ],
-    "ankers": [
-      "2.8.XVII"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Maatschap successieplanning",
+        "tekst": "Een **maatschap** is een overeenkomst waarbij twee of meer personen (maten) overeenkomen om bepaalde goederen of hun kennis, nijverheid of beider goederen in gemeenschap te brengen en de voordelen die er uit voortvloeien te verdelen. De maatschap heeft **geen rechtspersoonlijkheid** — ze is juridisch transparant en wordt enkel door de maten gedragen. In het kader van **successieplanning** wordt een maatschap gebruikt om een vermogen (aandelen, vastgoed, effectenportefeuille) onder te brengen in een gemeenschappelijke structuur, waarbij de stichter-maat de **controle behoudt** via bestuursmandaat terwijl de economische waarde al bij leven kan worden overgedragen aan de volgende generatie.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De maatschap als successie-instrument werkt op basis van twee assen:\n\n**As 1 — Scheiding van controle en waarde**: De stichter (ouder) brengt zijn vermogen in de maatschap in en behoudt als zaakvoerder de volledige bestuursmacht. De kinderen worden maat maar hebben geen bestuursbevoegdheid. De ouder behoudt dus feitelijk de controle over het vermogen zolang hij leeft.\n\n**As 2 — Fiscaal efficiënte overdracht**: Maatschapsaandelen zijn roerend goed. Overdracht via schenking van maatschapsaandelen onderworpen aan **0% in het Brusselse Gewest** (en vlak tarief in Vlaanderen en Wallonië voor roerende goederen), wat aanzienlijk gunstiger is dan de progressieve tarieven bij erfbelasting op onroerend goed of aandelen die rechtstreeks worden nagelaten.\n\nDe combinatie maakt de maatschap tot een van de meest gebruikte instrumenten voor **vroegtijdige overdracht** van familievermogen bij leven.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De maatschap werkt als successie-instrument omdat ze drie doelstellingen tegelijk combineert: (1) **controle-behoud** van de stichter via een zaakvoerdersmandaat, (2) **vermogensbescherming** doordat maatschapsaandelen moeilijk uitwinbaar zijn door individuele schuldeisers van de maten, en (3) **fiscale optimalisatie** via goedkope overdracht van roerend goed bij leven in plaats van progressieve erfbelasting. Geen enkel ander instrument combineert deze drie voordelen tegelijk, wat de populariteit verklaart.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vermogende families die een **onroerend of roerend vermogen gestructureerd willen overdragen** aan de volgende generatie, terwijl de stichter de controle behoudt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De combinatie van bestuursmacht voor de ouder en voordelige schenking van aandelen aan de kinderen is de kernmechaniek van successie met een maatschap."
+        },
+        {
+          "tekst": "Situaties waarbij **vennootschapsaandelen** als familievermogen worden gehouden — de maatschap wordt dan het voertuig dat de vennootschapsaandelen bezit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Door vennootschapsaandelen in een maatschap in te brengen wordt de overdracht van de indirecte participatie (maatschapsaandelen) fiscaal interessanter dan rechtstreekse overdracht van de vennootschapsaandelen."
+        },
+        {
+          "tekst": "Families die **vermogensbescherming** beogen voor roerende activa — maatschapsaandelen zijn persoonlijk en niet overdraagbaar zonder toestemming van de andere maten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Situaties waarbij de stichter **inkomsten direct nodig heeft** uit het ingebrachte vermogen zonder te hoeven wachten op beslissing van de zaakvoerder — de maatschapsstructuur vergt een intermediaire laag.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Kleine vermogens waarbij de **oprichtingskosten** (notarisakte aanbevolen, al is de maatschap niet notarieel verplicht) niet opwegen tegen het fiscaal voordeel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Gevallen waarbij **derden-zekerheid** vereist is — de maatschap heeft geen rechtspersoonlijkheid en kan als dusdanig geen hypothecaire of andere zakelijke zekerheden vestigen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Controle-behoud** voor de stichter: als zaakvoerder behoudt de ouder bestuursmacht over het ingebrachte vermogen, ook na schenking van maatschapsaandelen aan de kinderen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Fiscaal voordeel bij schenking**: maatschapsaandelen zijn roerend goed — in Vlaanderen geldt een vlak schenkbelasting-tarief (3% of 7%), aanzienlijk lager dan de progressieve erfbelasting die bij overlijden van toepassing zou zijn.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Exacte tarieven dienen geverifieerd in de actuele Vlaamse Codex Fiscaliteit — vermoedelijk correct maar betwijfeld omdat gewestelijke tarieven regelmatig wijzigen."
+        },
+        {
+          "tekst": "**Transparantie-fiscaliteit**: de maatschap is fiscaal transparant — inkomsten worden rechtstreeks belast bij de maten in hun eigen inkomstencategorie (roerend, onroerend), zonder dubbele belasting op vennootschapsniveau.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Fiscale herkwalificatie als belastingontwijking** (algemene anti-misbruikbepaling): wanneer de maatschapsstructuur uitsluitend fiscaal gemotiveerd is en geen economische realiteit heeft, kan de fiscus de constructie aanvechten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Overlijden van de zaakvoerder** kan de structuur verstoren als de statuten geen duidelijke opvolgingsregel bepalen voor het zaakvoerdersmandaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "geen-rechtspersoonlijkheid",
+        "naam": {
+          "primair": "Geen rechtspersoonlijkheid"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De maatschap is de meest elementaire samenwerkingsvorm in het Belgisch recht en heeft **geen rechtspersoonlijkheid**. Ze kan geen goederen op eigen naam bezitten, geen vorderingen instellen, geen contracten sluiten — dit alles gebeurt via de maten of de zaakvoerder in naam van de maten. De maatschap is bijgevolg ook **niet ingeschreven in de Kruispuntbank van Ondernemingen** als een rechtspersoon.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit is het fundamentele juridische verschil met een vennootschap (BV, NV) en bepaalt waarom de maatschap fiscaal transparant is: er is geen afzonderlijk belastingsubject."
+          }
+        }
+      },
+      {
+        "id": "inbreng-van-activa",
+        "naam": {
+          "primair": "Inbreng van activa"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De oprichters brengen goederen in de maatschap in. Typisch in een successieplanning-context:\n- **Vennootschapsaandelen** (de ouder houdt aandelen in een operationele BV of NV → brengt ze in de maatschap in)\n- **Onroerend goed** (vastgoed-portefeuille)\n- **Beleggingsportefeuille** (effecten, fondsen)\n\nDe inbreng hoeft **niet notarieel** te worden vastgelegd tenzij onroerend goed wordt ingebracht (dan is authentieke akte verplicht). Voor roerend goed volstaat een onderhandse akte.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "zaakvoerder-bevoegdheden",
+        "naam": {
+          "primair": "Zaakvoerdersbevoegdheid"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De maten kunnen één of meer **zaakvoerders** aanstellen die de maatschap in naam van de maten beheren. De bevoegdheden van de zaakvoerder worden in de maatschapsakte bepaald en kunnen breed zijn (inclusief het recht om te vervreemden, bezwaren, dividenden te innen) of beperkt. In successieplanning is de stichter (ouder) typisch de **zaakvoerder-voor-het-leven**, waardoor de kinderen die maat worden, geen bestuursmacht krijgen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De contractuele vrijheid over de zaakvoerdersbevoegdheid is de sleutel tot het controle-behoud van de stichter — de bevoegdheid wordt in de akte afgesproken, niet van rechtswege bepaald."
+          }
+        }
+      },
+      {
+        "id": "overdracht-maatschapsaandelen",
+        "naam": {
+          "primair": "Overdracht van maatschapsaandelen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Maatschapsaandelen zijn **roerend goed** en kunnen worden overgedragen door schenking of verkoop. In successieplanning schenkt de stichter de maatschapsaandelen aan de kinderen (de toekomstige erfgenamen) terwijl hij de zaakvoedersbevoegdheid behoudt.\n\nBelangrijke nuances:\n- Overdracht van maatschapsaandelen is in principe **vrij** tenzij de statuten een lock-up of goedkeuringsclausule bevatten\n- Overdracht vereist **geen notarisakte** (roerend goed), maar voor bewijs en fiscale dossiervorming is een onderhandse akte aangewezen\n- Bij **schenking** zijn de schenkbelasting-tarieven op roerende goederen van toepassing (gewestelijk bepaald)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-transparantie",
+        "naam": {
+          "primair": "Fiscale transparantie"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De maatschap is **fiscaal transparant**: ze is zelf geen belastingsubject. Inkomsten die via de maatschap worden gerealiseerd (huurinkomsten, dividenden van ingebrachte aandelen, meerwaarden) worden **rechtstreeks belast bij de maten** in verhouding tot hun aandeel, in de voor hen toepasselijke inkomstencategorie (roerend inkomen, onroerend inkomen, beroepsinkomen).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De fiscale transparantie is een direct gevolg van het ontbreken van rechtspersoonlijkheid. Ze vermijdt dubbele belasting (geen vennootschapsbelasting op maatschapsniveau) maar maakt het ook onmogelijk om winsten in de maatschap te reserveren."
+          }
+        }
+      },
+      {
+        "id": "drie-gewestelijke-belastingregimes",
+        "naam": {
+          "primair": "Gewestelijk schenkbelasting-tarief (roerende goederen)"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "De schenking van maatschapsaandelen valt onder de **schenkbelasting op roerende goederen** — het tarief varieert per gewest:\n- **Vlaanderen**: 3% in rechte lijn (ouder → kind) en tussen echtgenoten/samenwonenden; 7% voor anderen\n- **Brussel en Wallonië**: vergelijkbare tarieven voor roerende schenkingen, doch te verifiëren in actuele wetgeving\n\nDit vlakke tarief staat in schril contrast met de **progressieve erfbelasting** die bij overlijden van toepassing zou zijn op hetzelfde vermogen, wat de fiscale motivatie voor successieplanning via maatschap verklaart.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Tarief-percentages zijn betwijfeld — gewestelijke tarieven kunnen gewijzigd zijn. Te verifiëren in actuele Vlaamse Codex Fiscaliteit en equivalente gewestelijke wetgeving."
+          }
+        }
+      },
+      {
+        "id": "drie-jaar-wachttermijn",
+        "naam": {
+          "primair": "Driejarige wachttermijn (Vlaanderen)"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "In **Vlaanderen** geldt dat schenkingen binnen de drie jaar vóór overlijden van de schenker in principe worden **bijegeteld bij de nalatenschap** voor berekening van de erfbelasting (fictiebepaling). Wanneer de schenking geregistreerd wordt en schenkbelasting betaald wordt, vervalt deze terugval. Bij maatschapsaandelen is registratie van de schenking als roerend goed de geëigende weg om de driejarige wachttermijn te omzeilen.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Betwijfeld omdat de exacte fictiebepalingen gewestelijk zijn geregeld en regelmatig worden aangepast. Te verifiëren in de Vlaamse Codex Fiscaliteit (VCF)."
+          }
+        }
+      },
+      {
+        "id": "civielrechtelijk-kader-wvv",
+        "naam": {
+          "primair": "Civielrechtelijk kader (WVV)"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De maatschap is geregeld in het **Wetboek van vennootschappen en verenigingen (WVV)** — ze valt onder de categorie 'vennootschappen zonder rechtspersoonlijkheid'. De regels zijn minimaal: de maten sluiten een overeenkomst (maatschapsakte) met grote contractuele vrijheid. De maatschapsakte bepaalt: de inbreng van elke maat, de verdeling van winst en verlies, de aanstelling van de zaakvoerder(s), de regels voor in- en uittreding van maten, en de duur.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "instrument"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "successieplanning",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "holding-successieplanning",
+      "toelichting": "Beide structureren familievermogen voor successie; het verschil is dat de holding rechtspersoonlijkheid heeft en onderworpen is aan vennootschapsbelasting, terwijl de maatschap transparant is.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "maatschap-rechtsvorm",
+      "toelichting": "Zelfde juridisch instrument, maar dit record focust op het successieplanning-gebruik terwijl maatschap-rechtsvorm de algemene rechtsvormkenmerken beschrijft.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "schenkbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "schenking-met-voorbehoud-vruchtgebruik",
+      "toelichting": "Alternatief successie-instrument waarbij de stichter ook waarde overdraagt maar gebruik/inkomsten behoudt; maatschap is complexer maar biedt meer bestuursmacht.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "algemene-anti-misbruik-bepaling",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

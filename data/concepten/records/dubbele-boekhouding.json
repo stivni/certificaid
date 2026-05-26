@@ -1,8 +1,17 @@
 {
   "id": "dubbele-boekhouding",
   "naam": {
-    "primair": "Dubbele boekhouding"
+    "primair": "Dubbele boekhouding",
+    "synoniemen": [
+      "dubbel boekhouden",
+      "systeem van dubbele boekhouding"
+    ],
+    "vertaling": {
+      "fr": "comptabilité en partie double",
+      "en": "double-entry bookkeeping"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +21,13 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "1.1.I",
+      "1.1.I.A",
+      "1.1.taak.1",
+      "1.2.III.C",
+      "1.2.III.D"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,33 +40,401 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7), gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.1.I",
-      "1.1.I.A",
-      "1.1.taak.1",
-      "1.2.III.C",
-      "1.2.III.D"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Dubbele boekhouding",
+        "tekst": "**Dubbele boekhouding** is een boekhoudkundig systeem waarbij **elke financiële transactie op twee plaatsen tegelijk** wordt geregistreerd: eenmaal als **debet** (links, gebruik van middelen of daling van verplichtingen) en eenmaal als **credit** (rechts, herkomst van middelen of toename van verplichtingen). Het totaal van alle debet-boekingen is altijd gelijk aan het totaal van alle credit-boekingen — **de boekhouding is in evenwicht**.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Elke transactie heeft minstens twee tegengestelde effecten op de balans of resultatenrekening. Wanneer een vennootschap een machine koopt en contant betaalt, stijgt het materieel vast actief (debet) terwijl de bank daalt (credit). Het systeem zorgt er automatisch voor dat de balans altijd in evenwicht blijft: activa = vreemde middelen + eigen vermogen.\n\nDit onderscheidt dubbele boekhouding fundamenteel van **vereenvoudigde (enkelvoudige) boekhouding**, waarbij alleen ontvangsten en uitgaven worden bijgehouden zonder het volledige vermogenseffect zichtbaar te maken.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het dubbel-boekhoudprincipe is geen administratieve gril maar een fundamentele bewakingsmethode: elke fout in de registratie verstoort het evenwicht en wordt onmiddellijk zichtbaar. Het systeem maakt ook **periodieke afsluiting** mogelijk — elk rekening-saldo geeft de toestand op een bepaald moment, en de optelsom van alle saldi vormt de balans en resultatenrekening van de jaarrekening.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Alle **boekhoudplichtige ondernemingen** waarvoor de wet een volledige (dubbele) boekhouding verplicht — dit zijn in principe alle ondernemingen behalve die welke bij wet mogen kiezen voor de vereenvoudigde boekhouding.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Dubbele boekhouding is de default-verplichting; de vereenvoudigde boekhouding is de uitzondering die enkel geldt bij het bereiken van specifieke drempelwaarden."
+        },
+        {
+          "tekst": "Vennootschappen die een **jaarrekening moeten neerleggen** bij de Nationale Bank van België — de jaarrekening is immers een directe output van de dubbele boekhouding.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Kleine ondernemingen** (eenmanszaken en vennootschappen zonder rechtspersoonlijkheid) die de drempelwaarden voor de vereenvoudigde boekhouding niet overschrijden, mogen kiezen voor het enkelvoudige systeem.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De wet laat vereenvoudigde boekhouding toe als uitzondering voor kleine ondernemingen; voor vennootschappen met rechtspersoonlijkheid is dit echter niet toegestaan."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Een **coherent rekeningenstelsel** (minimaal aansluiting bij het Belgisch rekeningenstelsel) is vereist om de dubbele boekhouding correct te kunnen voeren. Elke boeking verwijst naar een specifieke rekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Compenserende fouten** kunnen het evenwicht bewaren terwijl de inhoud toch fout is — een verkeerd bedrag dat debet én credit geboekt wordt, verstoort het saldo-evenwicht niet maar geeft een verkeerd beeld van de financiële toestand.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het evenwicht is een noodzakelijke maar niet voldoende voorwaarde voor correctheid: systematische compenserende fouten of fraude zijn niet uitsluitend met de balanscontrole detecteerbaar."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "debet-credit-regel",
+        "naam": {
+          "primair": "Debet-credit-regel",
+          "synoniemen": [
+            "T-rekening",
+            "tegenboekingsregel"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke boeking bestaat uit een **debet-component** (links van de T-rekening) en een even groot **credit-component** (rechts). Debet verhoogt activa en kosten; credit verhoogt passiva, eigen vermogen en opbrengsten. Voor elk rekening-type is de normale saldozijde tegengesteld: activa staan normaal debet; passiva en eigen vermogen staan normaal credit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit principe is de bouwsteen van elk boekhoudkundig systeem: begrijpen welke rekening debet en welke credit gaat is de eerste competentie die een stagiair moet beheersen."
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundig-evenwicht",
+        "naam": {
+          "primair": "Boekhoudkundig evenwicht",
+          "synoniemen": [
+            "balansevenwicht",
+            "activa = passiva"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Op elk moment geldt: **totaal activa = totaal vreemde middelen + eigen vermogen**. Dit evenwicht is een rechtstreeks gevolg van de dubbele boekhoudmethodiek: elke transactie heeft een even groot debet- als credit-effect, zodat het totaal altijd in balans blijft.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rekeningenstelsel",
+        "naam": {
+          "primair": "Rekeningenstelsel",
+          "synoniemen": [
+            "MAR",
+            "minimum algemeen rekeningenstelsel"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **minimum algemeen rekeningenstelsel (MAR)** is het genormaliseerd kader van rekeningen waaraan de Belgische dubbele boekhouding moet aansluiten. Rekeningen zijn gegroepeerd in klassen (1 t/m 7 voor balans- en resultatenrekeningen; klasse 0 voor rechten en verplichtingen buiten balans). Elke boekhoudplichtige onderneming kan een intern rekeningenstelsel gebruiken mits dit minimaal aansluit bij het MAR.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "dagboeken",
+        "naam": {
+          "primair": "Dagboeken",
+          "synoniemen": [
+            "journaalboek",
+            "aankoopdagboek",
+            "verkoopdagboek",
+            "financieel dagboek",
+            "memoriaal"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **dagboeken** zijn de registers waarin elke boeking chronologisch wordt ingeschreven. De belangrijkste dagboeken zijn: het **aankoopdagboek** (leveranciersfacturen), het **verkoopdagboek** (klantenfacturen), het **financieel dagboek** (banktransacties en kas) en het **memoriaal** (overige boekingen, correcties, eindejaarsbewerkingen). Elke inschrijving in een dagboek wordt overgebracht naar het **grootboek**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "grootboek",
+        "naam": {
+          "primair": "Grootboek"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **grootboek** groepeert alle boekingen per rekening. Door alle debet- en credit-mutaties per rekening samen te tellen, bekomt men het **saldo** van die rekening op een bepaald tijdstip. De verzameling van alle saldi in het grootboek vormt de basis voor de **proefbalans** en vervolgens de jaarrekening.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "proefbalans",
+        "naam": {
+          "primair": "Proefbalans",
+          "synoniemen": [
+            "saldibalans",
+            "balans der saldi"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **proefbalans** is een tussentijdse opstelling van alle rekening-saldi uit het grootboek. De som van alle debet-saldi moet gelijk zijn aan de som van alle credit-saldi — dit is de mechanische controle op de correctheid van de boekhouding vóór de eindejaarsbewerkingen. Een proefbalans waarbij debet ≠ credit signaleert een boekhoudkundige fout.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "dubbele-boekhouding-vs-vereenvoudigde-boekhouding",
+        "naam": {
+          "primair": "Dubbele versus vereenvoudigde boekhouding"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**Vereenvoudigde (enkelvoudige) boekhouding** registreert uitsluitend ontvangsten en uitgaven (kasstromen) zonder systematische weergave van activa, passiva en eigen vermogen. Ze geeft geen volledig beeld van het vermogen en de resultaten.\n\n**Dubbele boekhouding** registreert elke transactie in zijn volledig vermogenseffect en maakt periodieke jaarrekening-opmaak (balans + resultatenrekening) mogelijk. Vennootschappen met rechtspersoonlijkheid zijn steeds verplicht tot de volledige (dubbele) boekhouding.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit onderscheid is examenstof: de wettelijke grens tussen vereenvoudigde en dubbele boekhouding hangt af van de rechtsvorm (altijd dubbel voor vennootschappen met rechtspersoonlijkheid) en de groottecriteria (omzet, balanstotaal) voor eenmanszaken en vennootschappen zonder rechtspersoonlijkheid."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhoudbeginselen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Dubbele boekhouding is de operationele invulling van de boekhoudkundige grondbeginselen (getrouw beeld, continuïteit, voorzichtigheid) in een systeem van geregistreerde transacties."
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudplichtige-onderneming",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De boekhoudplichtige onderneming is de drager van de verplichting; dubbele boekhouding is de uitvoering van die verplichting voor ondernemingen zonder uitzondering."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vereenvoudigde-boekhouding-regime",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide registreren financiële transacties chronologisch.",
+        "Beide resulteren in een overzicht van ontvangsten en uitgaven."
+      ],
+      "verschillen": [
+        "Dubbele boekhouding registreert het volledige vermogenseffect (activa/passiva/eigen vermogen); vereenvoudigde boekhouding registreert alleen kasstromen.",
+        "Dubbele boekhouding laat periodieke balans- en resultatenrekening-opmaak toe; vereenvoudigde boekhouding geeft alleen een kas- en financieel overzicht.",
+        "Dubbele boekhouding is verplicht voor alle vennootschappen met rechtspersoonlijkheid; vereenvoudigde boekhouding is enkel een optie voor kleine ondernemingen zonder rechtspersoonlijkheid."
+      ],
+      "verwarring_risico": "Studenten denken soms dat 'vereenvoudigde boekhouding' gewoon een vereenvoudigde vorm van dubbele boekhouding is — het is in werkelijkheid een fundamenteel ander registratiesysteem (enkelvoudig vs. dubbel)."
+    },
+    {
+      "type": "bevat",
+      "target": "jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening (balans, resultatenrekening, toelichting) is de periodieke output van de dubbele boekhouding."
+    },
+    {
+      "type": "vereist",
+      "target": "bgaap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De dubbele boekhouding in België wordt gevoerd conform de Belgische boekhoudnormen (BE GAAP), die de concrete verwerkingsregels per transactietype vastleggen."
+    }
+  ]
 }

@@ -32,6 +32,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 17)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "MODUS aanvullend: gebruikscontext uitgebreid (niet_voor + uitsluitingen + indicaties), substantie toegevoegd aan element drie-voorwaarden-art49, risico-tekst-veldnaam gecorrigeerd."
       }
     ],
     "ankers": [
@@ -60,6 +66,7 @@
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Beoordelen of een specifieke kost van de vennootschap fiscaal aftrekbaar is bij de aangifte vennootschapsbelasting.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -69,8 +76,7 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Beoordelen of een specifieke kost van de vennootschap fiscaal aftrekbaar is bij de aangifte vennootschapsbelasting."
+          }
         },
         {
           "grondslag": {
@@ -153,8 +159,65 @@
           "tekst": "Geen wettelijke uitsluitingsbepaling: sommige kosten zijn wettelijk verworpen (autokosten forfaitair begrensd, fijn-/corruptieboetes, bepaalde belastingen, ...) — zie concept 'verworpen-uitgaven'."
         }
       ],
+      "niet_voor": [
+        {
+          "tekst": "Kosten met uitsluitend privékarakter — zelfs als ze via de vennootschapsrekening lopen — zijn nooit aftrekbaar. Het boekhoudkundig verwerkt zijn van een kost volstaat niet; het causaal verband met de beroepswerkzaamheid is bepalend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Kosten die worden gedragen ten bate van aandeelhouders of verbonden personen zonder economische tegenwaarde voor de vennootschap — dit valt onder abnormale of goedgunstige voordelen en wordt verworpen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Wettelijk verworpen uitgaven (bv. fines/boetes van strafrechtelijke aard, bepaalde belastingen zoals de vennootschapsbelasting zelf en de afzonderlijke aanslagen) zijn bij wet uitgesloten van aftrek, ook al is aan de drie art. 49-voorwaarden voldaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Kosten gemaakt in het kader van activiteiten waarvan de inkomsten vrijgesteld zijn op grond van een dubbelbelastingverdrag of specifieke vrijstellingsbepaling worden mee beperkt proportioneel aan de vrijgestelde inkomstenstroom.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
       "risico": [
         {
+          "tekst": "Kosten die niet strikt aan de vennootschapsactiviteit kunnen worden gekoppeld (bv. privé-gebruik van bedrijfswagen, restaurantkosten met beperkt beroepskarakter) worden bij controle geheel of gedeeltelijk verworpen, met fiscale boete en nalatigheidsinterest als gevolg.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -164,8 +227,35 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Kosten die niet strikt aan de vennootschapsactiviteit kunnen worden gekoppeld (bv. privé-gebruik van bedrijfswagen, restaurantkosten met beperkt beroepskarakter) worden bij controle geheel of gedeeltelijk verworpen, met fiscale boete en nalatigheidsinterest als gevolg."
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De kost is vermeld op een factuur gericht aan de vennootschap, heeft betrekking op de activiteitsperiode en hangt samen met de bedrijfsactiviteit — dit zijn de drie praktische positieve signalen voor aftrekbaarheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij een gemengd gebruik (beroep/privé) wijst een gedocumenteerde, zakelijk verdedigbare verdeelsleutel op gedeeltelijke aftrekbaarheid — de bewijslast rust op de vennootschap.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ]
     },
@@ -196,6 +286,19 @@
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
                   "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Elk van de drie voorwaarden heeft een eigen praktische invulling:\n\n**1. Causaal verband** — de kost moet zijn gedaan om belastbare inkomsten te verkrijgen of te behouden. 'Om' impliceert een finaliteits-link: de intentie bij het maken van de kost is beslissend, niet het resultaat. Een kost gemaakt in het kader van een mislukt project blijft in principe aftrekbaar als de initiële zakelijke bedoeling vaststaat.\n\n**2. Tijdstip** — de kost is gedaan of gedragen in het boekjaar. 'Gedragen' omvat ook kosten die nog niet cash zijn betaald maar als zekere schuld vaststaan (overlopende passiva, provisies met voldoende onderbouwing). Kosten die betrekking hebben op een later boekjaar worden geactiveerd als overlopend actief.\n\n**3. Zekerheid en bedrag** — het bedrag staat vast of kan met zekerheid worden vastgesteld. Ramingen of schattingen zijn toegestaan indien ze economisch onderbouwd zijn; willekeurige provisies worden verworpen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }

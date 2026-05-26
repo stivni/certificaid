@@ -1,8 +1,18 @@
 {
   "id": "huwelijksquotient",
   "naam": {
-    "primair": "Huwelijksquotient"
+    "primair": "Huwelijksquotient",
+    "afkorting": "HQ",
+    "synoniemen": [
+      "huwelijksquotiënt",
+      "quotient-toerekening",
+      "50 %-toerekening"
+    ],
+    "vertaling": {
+      "fr": "Quotient conjugal"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +22,11 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.2.IV",
+      "2.2.VI",
+      "2.2.XVI"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +39,505 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data (beschrijven-operatie, MODUS aanvullend)."
       }
-    ],
-    "ankers": [
-      "2.2.IV",
-      "2.2.VI",
-      "2.2.XVI"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Huwelijksquotient",
+        "tekst": "Het **huwelijksquotient** is een mechanisme in de personenbelasting waarbij een deel van het beroepsinkomen van de meest verdienende echtgenoot fictief wordt toegerekend aan de minst verdienende echtgenoot (die geen of laag eigen beroepsinkomen heeft), zodat het herverdeelde deel wordt belast in de progressieve schijven van die partner. Dit verlaagt de globale belastingdruk op het gezinsinkomen door de stijle progressiviteit van de tarieven af te vlakken.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de praktijk worden gehuwden en wettelijk samenwonenden samen aangeslagen (gemeenschappelijke aanslag). Het huwelijksquotient zorgt ervoor dat de meest verdienende partner niet op zijn volledige inkomen de hoogste tarieven betaalt. In plaats daarvan wordt een deel — maximaal 30 % van het netto-inkomen van de hoogste verdiener — overgeheveld naar de andere partner, tot een absoluut plafond. De ontvanger wordt op dat deel belast in zijn eigen lagere schijven.\n\nEr geldt een **dubbele begrenzing**:\n1. Het overgehevelde bedrag mag niet meer zijn dan 30 % van het netto-beroepsinkomen van de hoogsst verdienende partner.\n2. Het overgehevelde bedrag mag een wettelijk vastgelegd **absoluut maximumbedrag** niet overschrijden (jaarlijks geïndexeerd).\n\nHet huwelijksquotient wordt automatisch door de administratie berekend en toegepast wanneer het voordelig is. Er is geen aparte keuze vereist.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het huwelijksquotient is ingevoerd om het nadeel van de afzonderlijke aanslag weg te werken voor koppels waarbij slechts één partner actief werkt. Zonder dit mechanisme zou de meest verdienende partner belast worden op het volledige inkomen in de hoogste progressieve schijven, terwijl het gezin economisch functioneert als één eenheid. Het mechanisme benadert fiscaal het resultaat van een volledige splitsing van het belastbaar inkomen — maar dan begrensd tot 30 %/plafond om te vermijden dat het systeem te ver afwijkt van individueel belasten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "toepassingsgebied",
+        "naam": {
+          "primair": "Toepassingsgebied: wie komt in aanmerking"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het huwelijksquotient geldt voor **gehuwden** en **wettelijk samenwonenden** (niet voor feitelijk samenwonenden) die gezamenlijk worden aangeslagen. De andere partner moet een eigen beroepsinkomen hebben dat **lager is dan 30 % van het netto-beroepsinkomen** van de hoogsst verdienende partner.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Feitelijk samenwonenden worden afzonderlijk aangeslagen en komen dus nooit in aanmerking. Wettelijk samenwonenden zijn fiscaal grotendeels gelijkgesteld met gehuwden voor de gemeenschappelijke aanslag en het huwelijksquotient."
+          }
+        }
+      },
+      {
+        "id": "berekeningsmechanisme",
+        "naam": {
+          "primair": "Berekeningsmechanisme: de dubbele begrenzing"
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Het overgehevelde bedrag (quotient) is het **laagste van twee grenzen**:\n- 30 % van het netto-beroepsinkomen van de meest verdienende partner\n- Het wettelijk vastgelegd absoluut maximumbedrag (jaarlijks geïndexeerd)\n\nFormeel: **quotient = min(30 % × netto-beroepsinkomen-A, maximumbedrag)**\n\nHet aldus berekende quotient wordt in mindering gebracht op het belastbaar inkomen van A en bijgeteld bij het belastbaar inkomen van B.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "rijen": [
+              {
+                "label": "Netto-beroepsinkomen partner A (meest verdienende)",
+                "waarde": "€ 50.000"
+              },
+              {
+                "label": "30 % van netto-beroepsinkomen A",
+                "waarde": "€ 15.000"
+              },
+              {
+                "label": "Wettelijk maximumbedrag (betwijfeld — te verifiëren in aanslagjaar)",
+                "waarde": "± € 13.230 (geïndexeerd)"
+              },
+              {
+                "label": "Toe te rekenen quotient = min(15.000, 13.230)",
+                "waarde": "€ 13.230"
+              },
+              {
+                "label": "Belastbaar bij partner A na toerekening",
+                "waarde": "€ 50.000 − € 13.230 = € 36.770"
+              },
+              {
+                "label": "Belastbaar bij partner B na toerekening",
+                "waarde": "Eigen inkomen B + € 13.230"
+              }
+            ],
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "automatische-toepassing",
+        "naam": {
+          "primair": "Automatische toepassing"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het huwelijksquotient wordt **automatisch** door de belastingadministratie berekend en toegepast wanneer het voordelig is voor het koppel. Er is geen expliciete aanvraag of keuze vereist in de aangifte. Als het quotient nadelig zou zijn (zeldzaam), wordt het niet toegepast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De automaticiteit onderscheidt het huwelijksquotient van optionele fiscale keuzes waarbij de belastingplichtige zelf de keuze moet uitoefenen in de aangifte."
+          }
+        }
+      },
+      {
+        "id": "geen-eigen-inkomen-partner-b",
+        "naam": {
+          "primair": "Geen eigen beroepsinkomen bij partner B"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer partner B **geen eigen beroepsinkomen** heeft, is de 30 %-grens altijd maatgevend (want dan is eigen inkomen B = 0, dus altijd kleiner dan 30 % van A). Het quotient bedraagt dan maximaal 30 % van netto-inkomen A, maar begrensd door het absoluut maximumbedrag.\n\nHet aldus toegerekende bedrag wordt bij partner B belast. Partner B kan dan ook aanspraak maken op de **belastingvrije som** op het ontvangen quotient, wat het voordeel verder vergroot.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "samenspel-belastingvrije-som",
+        "naam": {
+          "primair": "Samenspel met de belastingvrije som"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het huwelijksquotient werkt **synergetisch** met de belastingvrije som. Partner B krijgt een eigen belastingvrije som die in de meeste gevallen niet volledig benut kan worden als B geen eigen inkomen heeft. Dankzij het huwelijksquotient ontvangt B voldoende inkomen om zijn belastingvrije som volledig te benutten — wat de totale belastingdruk voor het koppel verder verlaagt.\n\nZonder huwelijksquotient gaat de belastingvrije som van de niet-werkende partner verloren als er geen inkomen is om die tegen te verrekenen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afschaffing-huwelijksquotient-feitelijk-samenwonenden",
+        "naam": {
+          "primair": "Uitsluiting feitelijk samenwonenden"
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "**Feitelijk samenwonenden** worden afzonderlijk aangeslagen en kunnen geen beroep doen op het huwelijksquotient. Dit is een structurele beperking van het regime: koppels die bewust of noodgedwongen niet huwen en niet wettelijk samenwonen, missen dit voordeel. Zij kunnen eventueel compenseren via andere mechanismen (bv. alimentatieaftrek, pensioensparen op naam van beide partners).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De uitsluiting van feitelijk samenwonenden is politiek bewust — de wetgever wenst het voordeel te reserveren voor de juridisch erkende samenlevingsvormen."
+          }
+        }
+      },
+      {
+        "id": "echtscheiding-of-scheiding-van-tafel-en-bed",
+        "naam": {
+          "primair": "Einde van het huwelijksquotient bij echtscheiding of feitelijke scheiding"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij **echtscheiding** of **feitelijke scheiding** (meer dan drie maanden geen gemeenschappelijke huishouding) valt het huwelijksquotient weg. Beide partners worden afzonderlijk aangeslagen. Alimentatiebetalingen kunnen dan een alternatief bieden (aftrekbaar bij betaler, belastbaar bij ontvanger).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte termijn van de feitelijke scheiding die aanleiding geeft tot afzonderlijke aanslag (3 maanden is gangbare referentie) dient geverifieerd te worden via WIB92."
+          }
+        }
+      },
+      {
+        "id": "maximumbedrag-indexering",
+        "naam": {
+          "primair": "Maximumbedrag en jaarlijkse indexering"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het absoluut maximumbedrag van het huwelijksquotient is een vast wettelijk bedrag dat jaarlijks wordt geïndexeerd. Het concrete bedrag varieert per aanslagjaar en dient te worden opgezocht in het Cijferzakboekje of de administratieve tabellen. Het bedrag ligt doorgaans in de orde van grootte van **€ 13.000 – € 14.000** (te verifiëren voor het relevante aanslagjaar).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Koppels (gehuwd of wettelijk samenwonend) waarbij **één partner geen of aanzienlijk lager beroepsinkomen** heeft dan de andere.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Hoe groter de inkomenskloof, hoe groter het belastingvoordeel door de stijle progressiviteit."
+        },
+        {
+          "tekst": "Situaties waarbij de minst verdienende partner **thuisblijft, zorgtaken opneemt of deeltijds werkt** — waardoor het inkomen van de andere partner de progressieve schijven zwaar bereikt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Feitelijk samenwonenden** — zij worden altijd afzonderlijk aangeslagen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Koppels waarbij het eigen beroepsinkomen van partner B **al minstens 30 % bedraagt** van het netto-beroepsinkomen van partner A — in dat geval is er geen ruimte meer voor toerekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Als eigen inkomen B ≥ 30 % van netto-inkomen A, dan is er niets om toe te rekenen — de drempel voor toerekening is niet bereikt."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Verlaging van de globale belastingdruk op het gezinsinkomen door de **progressiviteitsval** te doorbreken: het deel dat wordt overgeheveld wordt belast in de lagere schijven van de andere partner.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Benutting van de **belastingvrije som** van de niet-werkende partner, die anders verloren gaat bij gebrek aan eigen inkomen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij wijziging van de gezinssituatie (scheiding, hertrouwen, toetreding wettelijk samenwonen) verandert de toepasselijkheid van het huwelijksquotient van jaar tot jaar — **foute aangifte** als de situatie niet correct wordt bijgehouden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Het huwelijksquotient geldt **niet** voor feitelijk samenwonenden, noch voor afzonderlijk aangeslagen personen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "gezinssituatie-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Huwelijksquotient is één van de gezinsgerelateerde mechanismen in de personenbelasting samen met belastingvrije som, kinderen ten laste en verminderingen."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "belastingvrije-som",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het voordeel van het huwelijksquotient wordt versterkt doordat de ontvanger (partner B) zijn belastingvrije som kan benutten op het toegerekende deel."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kinderen-ten-laste",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide reduceren de belastingdruk op basis van de gezinssituatie",
+        "Beide zijn automatisch verwerkt in de aangifte PB"
+      ],
+      "verschillen": [
+        "Kinderen ten laste verhoogt de belastingvrije som; huwelijksquotient verschuift inkomen",
+        "Kinderen ten laste geldt ook voor alleenstaanden; huwelijksquotient enkel bij gemeenschappelijke aanslag"
+      ],
+      "verwarring_risico": "Beide zijn gezinsfactoren in PB maar werken via totaal verschillende mechanismen",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "onderhoudsuitkering-cluster",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide verdelen inkomen fiscaal tussen partners (betaler/ontvanger)"
+      ],
+      "verschillen": [
+        "Huwelijksquotient: fictieve toerekening bij gemeenschappelijke aanslag (geen cash-transfer)",
+        "Alimentatie: echte cash-betaling, aftrekbaar bij betaler, belastbaar bij ontvanger bij afzonderlijke aanslag na scheiding"
+      ],
+      "verwarring_risico": "Na scheiding valt HQ weg en wordt alimentatie de relevante regeling — overgang is een veelgemaakt denkfout",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "huwelijksvermogensrecht",
+      "grondslag": {
+        "confidence": "betwijfeld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Huwelijksvermogensrecht bepaalt de eigendomsverdeling van vermogen; huwelijksquotient is een puur fiscaal mechanisme. De twee lopen los van elkaar (gemeenschap vs. scheiding van goederen heeft geen invloed op toepasselijkheid van het huwelijksquotient), maar in de advisering worden ze samen bekeken."
+    }
+  ]
 }

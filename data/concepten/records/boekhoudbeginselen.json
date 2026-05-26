@@ -1,11 +1,27 @@
 {
   "id": "boekhoudbeginselen",
   "naam": {
-    "primair": "Boekhoudbeginselen"
+    "primair": "Boekhoudbeginselen",
+    "synoniemen": [
+      "boekhoudkundige beginselen",
+      "algemene boekhoudprincipes",
+      "grondbeginselen van de boekhouding"
+    ],
+    "vertaling": {
+      "fr": "Principes comptables"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.1.I",
+      "1.1.I.A",
+      "1.1.I.B",
+      "1.2.III.B",
+      "1.2.V.A"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,33 +40,521 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.1.I",
-      "1.1.I.A",
-      "1.1.I.B",
-      "1.2.III.B",
-      "1.2.V.A"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Boekhoudbeginselen",
+        "tekst": "**Boekhoudbeginselen** zijn de normatieve grondslagen waarop het Belgische dubbele boekhoudrecht steunt. Ze leggen vast hoe transacties en feiten worden herkend, gemeten en gerapporteerd in de jaarrekening. De beginselen zijn vastgelegd in het Wetboek van Vennootschappen en Verenigingen (WVV) en uitgewerkt in de besluiten van de Koninklijke Commissie voor de Boekhouding (thans: Autoriteit voor Financiële Diensten en Markten in het kader van Belgacom/FSMA — maar in de Belgische context: in de vroeger geldende KB's en de huidige normen van de CBN).\n\nDe centrale beginselen zijn: **continuïteit**, **voorzichtigheid**, **matching** (of: periodisering), **getrouw beeld**, **consequente toepassing** en **afzonderlijke waardering**.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De boekhoudbeginselen zijn geen vrijblijvende richtlijnen maar **dwingende normen** waarbinnen de boekhoudplichtige vennootschap haar waarderingsregels kiest. Ze vormen een gelaagd systeem:\n\n1. De **wetgever** legt de basisbeginselen vast.\n2. De **CBN** werkt ze uit via adviezen en normen.\n3. De **vennootschap** concretiseert ze in haar waarderingsregels (toelichting bij de jaarrekening).\n\nVoor de examendeelnemer zijn de beginselen relevant op twee niveaus:\n- **Begrijpen**: welk beginsel ligt aan de basis van een boekhoudkundige behandeling?\n- **Toepassen**: welke waarderingskeuze past binnen de beginselen, en welke niet?",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De beginselen bestaan omdat **discretie in boekhoudkundige keuzes onvermijdelijk is** — schattingen, verdeelsleutels en het timing van verantwoording zijn nooit puur mechanisch. Zonder normatieve beginselen zouden jaarrekeningen niet vergelijkbaar zijn tussen entiteiten of boekjaren, en zouden bestuurders te vrij kunnen kiezen om winst of verlies te sturen. De beginselen dwingen **consistente, voorzichtige en economisch realistische rapportering** af.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke boekhoudplichtige vennootschap die een dubbele boekhouding voert: de beginselen gelden zonder uitzondering voor de opmaak van de jaarrekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De accountant gebruikt de beginselen als referentiekader wanneer hij beoordeelt of een door de cliënt gekozen waarderingsregel aanvaardbaar is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "IFRS-verslaggeving: de beginselen in hun Belgische wettelijke formulering zijn niet van toepassing op entiteiten die IFRS toepassen. IFRS heeft een eigen conceptueel raamwerk.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Windowdressing**: een vennootschap kiest waarderingsregels die winst optisch verhogen — dit schendt het voorzichtigheidsbeginsel en het beginsel van getrouw beeld.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Willekeurige wijziging van waarderingsregels**: jaarlijks wijzigen van de afschrijvingsmethode zonder economische reden schendt het consequentiebeginsel en maakt de jaarrekening onvergelijkbaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Een boekhoudkundige behandeling lijkt ongebruikelijk of afwijkend → beginsel-toets: voldoet ze aan continuïteit, voorzichtigheid en matching?",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Wijziging van waarderingsregels door de vennootschap → consequentiebeginsel vereist verantwoording in de toelichting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "continuiteitsbeginsel",
+        "naam": {
+          "primair": "Continuïteitsbeginsel",
+          "synoniemen": [
+            "going-concern-beginsel"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De jaarrekening wordt opgemaakt in de **veronderstelling dat de vennootschap haar activiteiten zal voortzetten**. Dit betekent dat activa en passiva worden gewaardeerd tegen gebruikswaarde, niet tegen liquidatiewaarde — tenzij de continuïteit ernstig in gevaar is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Wanneer de continuïteit **niet meer vaststaat** (bv. alarmbelprocedure, verlies van meer dan de helft van het netto-actief), wijzigt het waarderingsreferentiekader fundamenteel: activa moeten dan worden gewaardeerd tegen **realisatiewaarde** (lagere liquidatiewaarde). Dit is een van de meest kritische schakelmomenten in de jaarrekening-opmaak.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het continuïteitsbeginsel is de basisveronderstelling die alle andere waarderingsregels mogelijk maakt. Vervalt de continuïteit, dan vervalt ook de basis voor lineaire afschrijvingen, uitgestelde belastingen en toekomstige opbrengstveronderstellingen."
+          }
+        }
+      },
+      {
+        "id": "voorzichtigheidsbeginsel",
+        "naam": {
+          "primair": "Voorzichtigheidsbeginsel"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Verliezen en risico's worden **zo vroeg mogelijk verantwoord**, winsten pas wanneer ze **gerealiseerd** zijn. Twijfelachtige vorderingen worden afgewaardeerd; latente verplichtingen worden als voorziening opgenomen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Het voorzichtigheidsbeginsel is **asymmetrisch**: verliezen worden anticipatief geboekt (nog niet gerealiseerd maar voorzienbaar), winsten pas na realisatie. Dit verklaart waarom:\n- **Waardeverminderingen op vorderingen** worden geboekt zodra er twijfel is over inbaarheid\n- **Voorzieningen voor risico's** worden opgenomen voor geschatte toekomstige lasten\n- **Ongerealiseerde meerwaarden** op materiële vaste activa worden *niet* verantwoord (uitzondering: herwaardering onder strikte voorwaarden)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het voorzichtigheidsbeginsel beschermt schuldeisers en aandeelhouders tegen overschatting van de vermogenspositie. Het is de boekhoudkundige vertaling van het principe dat men niet mag uitkeren wat men nog niet heeft verdiend."
+          }
+        }
+      },
+      {
+        "id": "matchingbeginsel",
+        "naam": {
+          "primair": "Matchingbeginsel",
+          "synoniemen": [
+            "periodiseringsbeginsel",
+            "toerekeningsbeginsel"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Kosten worden verantwoord in het boekjaar waaraan ze **economisch toebehoren**, ongeacht wanneer ze cash worden betaald. Hetzelfde geldt voor opbrengsten: ze worden toegerekend aan het boekjaar van **realisatie**, niet van ontvangst.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Het matchingbeginsel is de basis voor de **overlopende rekeningen**: kosten of opbrengsten die kasgeldmatig in boekjaar N liggen maar economisch toebehoren aan N+1 (of N−1), worden uitgesteld (of toegerekend) via rekening 49 (over te dragen kosten/opbrengsten). Concrete toepassingen:\n- Vooruitbetaalde verzekeringspremies → over te dragen kost\n- Gelopen intresten → toe te rekenen kost\n- Reeds gefactureerde dienstprestaties voor volgend jaar → over te dragen opbrengst",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder matchingbeginsel zou de jaarrekening de economische prestatie van het boekjaar niet correct weergeven — ze zou afhangen van toevallige betaalmomenten. Het beginsel maakt de resultatenrekening informatief en vergelijkbaar."
+          }
+        }
+      },
+      {
+        "id": "getrouw-beeld",
+        "naam": {
+          "primair": "Getrouw beeld",
+          "synoniemen": [
+            "true and fair view"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De jaarrekening moet een **getrouw beeld** geven van het vermogen, de financiële positie en het resultaat van de vennootschap. Dit is het overkoepelende doel dat alle andere beginselen dienen. Wanneer toepassing van een specifieke regel tot een misleidend beeld zou leiden, moet de regel worden verlaten ten voordele van het getrouwe beeld.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "**Getrouw beeld** is zowel een **norm** (wat de jaarrekening moet bereiken) als een **corrigerende bepaling** (mag afwijking van een regel rechtvaardigen). In de Belgische context is de verplichting tot toelichting cruciaal: als de strikt letterlijke toepassing van een boekhoudkundige regel het beeld vertekent, moet de vennootschap afwijken én de reden vermelden in de toelichting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Getrouw beeld fungeert als 'catch-all': het belet dat formele regelnaleving wordt gebruikt om de economische realiteit te verbloemen. Het is de materiële norm achter de formele beginselen."
+          }
+        }
+      },
+      {
+        "id": "consequentiebeginsel",
+        "naam": {
+          "primair": "Consequentiebeginsel",
+          "synoniemen": [
+            "consistentiebeginsel",
+            "bestendigheidsbeginsel"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Eenmaal gekozen **waarderingsregels worden consequent toegepast** over boekjaren heen. Wijziging is alleen toegestaan wanneer ze een getrouwer beeld oplevert. De wijziging en haar invloed op het vermogen en resultaat moeten worden vermeld in de toelichting bij de jaarrekening.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Het consequentiebeginsel maakt de jaarrekening **intertemporeel vergelijkbaar**: gebruikers kunnen de evolutie van vermogen en resultaat over meerdere jaren zinvol analyseren. Typische valkuil: een vennootschap wijzigt haar afschrijvingsmethode (bv. van lineair naar degressief) om de winst van een slecht jaar te verhogen — dit schendt het beginsel als de wijziging niet gemotiveerd is door getrouw beeld.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder consequentie zouden vennootschappen jaarlijks kunnen kiezen welke methode het gewenste resultaat oplevert. De informatiefunctie van de jaarrekening zou worden uitgehold."
+          }
+        }
+      },
+      {
+        "id": "afzonderlijke-waardering",
+        "naam": {
+          "primair": "Afzonderlijke waardering",
+          "synoniemen": [
+            "individuele waardering"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elk actief en elke verplichting wordt **individueel** gewaardeerd. Het is verboden om een positief saldo van een activapost te compenseren met een negatief saldo van een andere post, of omgekeerd (**verbod op compensatie**).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          },
+          "substantie": {
+            "tekst": "Praktische gevolgen:\n- Een **dubieuze vordering** van € 10.000 en een andere **goede vordering** van € 10.000 moeten elk afzonderlijk worden gewaardeerd — de waardevermindering op de eerste mag niet worden gesaldeerd tegen de tweede.\n- Bij een **portefeuille van voorraden** mag in beginsel niet worden gecompenseerd: een latente meerwaarde op product A mag niet worden gebruikt om de boekwaarde van product B boven zijn realisatiewaarde te houden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Afzonderlijke waardering bewaakt dat latente verliezen niet worden gemaskeerd door latente winsten. Het is een operationalisering van het voorzichtigheidsbeginsel op post-niveau."
+          }
+        }
+      },
+      {
+        "id": "bedrijfszekerheidsprincipe",
+        "naam": {
+          "primair": "Gevestigde gebruiken en boekhoudkundige schattingen"
+        },
+        "inhoud_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Waar de wet en de CBN-adviezen geen uitputtende regels geven, mag de vennootschap steunen op **gevestigde boekhoudkundige gebruiken** en **professionele schattingen** — mits zij consistent worden toegepast en het getrouwe beeld niet schaden. Dit beginsel geeft de accountant ruimte voor **professioneel oordeel** bij waarderingen die inherent onzeker zijn (bv. levensduur van activa, inbaarbaarheid van vorderingen, omvang van risico-voorzieningen).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "continuiteit-going-concern",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het continuïteitsbeginsel is een van de centrale boekhoudbeginselen en werkt door in de alarmbelprocedure en boekhoudkundige schattingen."
+    },
+    {
+      "type": "bevat",
+      "target": "boekhoudkundige-schattingen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Boekhoudkundige schattingen zijn de operationalisering van het voorzichtigheidsbeginsel en het matchingbeginsel bij onzekere bedragen."
+    },
+    {
+      "type": "vereist",
+      "target": "waarderingsregels-vastlegging",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De boekhoudbeginselen verplichten de vennootschap haar concrete keuzes vast te leggen in de waarderingsregels (toelichting bij de jaarrekening)."
+    },
+    {
+      "type": "valt_onder",
+      "target": "bgaap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De boekhoudbeginselen zijn de normatieve kern van het BE GAAP-stelsel."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "be-gaap-vs-ifrs-verschillen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "IFRS heeft een eigen conceptueel raamwerk met deels overlappende, deels afwijkende beginselen (bv. IFRS kent geen voorzichtigheidsbeginsel in dezelfde vorm; fair value-waardering is veel ruimer toegestaan)."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "autoriteiten-boekhoudrecht",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De uitwerking en interpretatie van de boekhoudbeginselen is mede bepaald door de CBN-adviezen en de vroegere Commissie voor Boekhoudkundige Normen."
+    },
+    {
+      "type": "vereist",
+      "target": "dubbele-boekhouding",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De boekhoudbeginselen zijn specifiek geformuleerd voor de dubbele boekhouding — ze veronderstellen een volledig stelsel van rekeningen en periodeafsluiting."
+    }
+  ]
 }

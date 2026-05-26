@@ -1,8 +1,18 @@
 {
   "id": "marginale-analyse",
   "naam": {
-    "primair": "Marginale analyse"
+    "primair": "Marginale analyse",
+    "synoniemen": [
+      "contributiemarge-analyse",
+      "dekkingsbijdrage-analyse",
+      "direct-costing-analyse"
+    ],
+    "vertaling": {
+      "fr": "Analyse marginale",
+      "en": "Marginal analysis / Contribution margin analysis"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +22,9 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "1.8.III.E"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,29 +37,436 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern (definitie/substantie/rationale), elementen (6 stuks), gebruikscontext en relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.8.III.E"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Marginale analyse",
+        "tekst": "**Marginale analyse** is een analytische techniek binnen de managementcontrole waarbij de koststructuur wordt opgesplitst in **variabele kosten** (evenredig met het volume) en **vaste kosten** (ongeacht het volume), om per product, dienst of klant de **contributiemarge** (dekkingsbijdrage) te berekenen: verkoopprijs minus variabele kost per eenheid.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De marginale analyse beantwoordt de vraag: **hoeveel draagt elke extra verkochte eenheid bij aan de dekking van de vaste kosten en aan de winst?**\n\nDrieledige structuur:\n- **Verkoopprijs** − **variabele kosten per eenheid** = **contributiemarge per eenheid** (ook: dekkingsbijdrage, marge op variabele kosten)\n- **Totale contributiemarge** = contributiemarge per eenheid × aantal verkochte eenheden\n- **Bedrijfsresultaat** = totale contributiemarge − vaste kosten\n\nHet kenmerkende inzicht: vaste kosten zijn **irrelevant voor de marginale beslissing** — ze bestaan ongeacht de beslissing. Alleen de contributiemarge bepaalt of een extra order, een extra klant of een extra product financieel zinvol is.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De marginale analyse is het tegenwicht voor de **full-costing-logica**: bij full-costing worden vaste overheadkosten verdeeld over producten via verdeelsleutels, wat leidt tot schijnbaar hogere eenheidskost bij lage volumes. Marginale analyse toont dat een order boven de variabele kost altijd een positieve bijdrage levert aan de globale kostendekking, ook als de volledige kostprijs per eenheid niet bereikt wordt. Dit maakt haar bijzonder geschikt voor **kortetermijn-beslissingen** (aanvullende orders, tijdelijke prijszetting, make-or-buy) waar vaste kosten niet wijzigen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "variabele-kost",
+        "naam": {
+          "primair": "Variabele kost",
+          "synoniemen": [
+            "proportionele kost",
+            "volume-afhankelijke kost"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Kosten die **evenredig meebewegen met het productievolume of de omzet**: grondstoffen, directe lonen per stuk, variabele energiekost, verkoopscommissies. Bij nulproductie zijn variabele kosten nul.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De zuivere proportionaliteit is een modelmatige aanname — in de praktijk bestaan semi-variabele kosten (gedeeltelijk vast, gedeeltelijk variabel). De marginale analyse vereist dat de analist de kostensplitsing correct maakt alvorens te rekenen."
+          }
+        }
+      },
+      {
+        "id": "vaste-kost",
+        "naam": {
+          "primair": "Vaste kost",
+          "synoniemen": [
+            "structuurkost",
+            "periodekost"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Kosten die **niet wijzigen bij een volume-aanpassing** binnen de relevante range: huur, afschrijvingen, verzekeringspremies, management-salarissen. Vaste kosten bestaan ongeacht of er geproduceerd wordt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De relevante range is cruciaal: bij grote volume-uitbreiding kunnen 'vaste' kosten sprongsgewijs toenemen (extra machinepark, extra gebouw). Binnen die range is de aanname van constantheid echter operationeel geldig."
+          }
+        }
+      },
+      {
+        "id": "contributiemarge",
+        "naam": {
+          "primair": "Contributiemarge",
+          "synoniemen": [
+            "dekkingsbijdrage",
+            "marge op variabele kosten",
+            "brutomargeoperationeel"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "**Per eenheid**: contributiemarge = verkoopprijs − variabele kost per eenheid\n**In percentage**: contributiemarge-ratio (CMR) = contributiemarge per eenheid / verkoopprijs × 100\n**Totaal**: totale contributiemarge = contributiemarge per eenheid × volume\n\nDe contributiemarge geeft aan hoeveel elke verkochte eenheid bijdraagt aan dekking van vaste kosten en aan de winst.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kostensplitsing-methoden",
+        "naam": {
+          "primair": "Kostensplitsing — methoden",
+          "synoniemen": [
+            "variabel-vast-opdeling"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Vóór de marginale analyse moeten kosten opgesplitst worden in variabel en vast. Drie courante methoden:\n- **Technische analyse** — per kost technisch bepalen welk aandeel variabel is (grondstoffen = 100% variabel; huur = 100% vast)\n- **Statistische methode (regressie)** — historische kostgegevens correleren met volume om variabel aandeel te schatten\n- **Hoogste-laagste-methode (high-low)** — twee extreme volumepunten gebruiken om vaste en variabele component te berekenen (minst nauwkeurig maar eenvoudigst)\n\nDe keuze van methode beïnvloedt de uitkomst en daarmee de managementbeslissing.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "marginale-beslissingsregel",
+        "naam": {
+          "primair": "Marginale beslissingsregel",
+          "synoniemen": [
+            "aanvaard-order-boven-variabele-kost"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Op **korte termijn**, wanneer vaste kosten niet wijzigen: aanvaard een bijkomende order of klant als de verkoopprijs de **variabele kosten** overtreft — ook als de volledige kostprijs (inclusief vast aandeel) niet bereikt wordt. De order levert dan een positieve contributiemarge en verbetert het bedrijfsresultaat.\n\nUitzondering: de regel geldt niet wanneer de bijkomende order capaciteitsbeperkingen triggert (dan stijgen de 'vaste' kosten sprongsgewijs), of wanneer de lagere prijs de bestaande klantenmarkt ondermijnt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit is de kernlogica die marginale analyse onderscheidt van full-costing: bij full-costing zou men de order weigeren als de prijs de volledig-toegerekende kostprijs niet dekt, maar marginaal gezien is ze altijd beter dan niets — mits vaste kosten werkelijk vast blijven."
+          }
+        }
+      },
+      {
+        "id": "beperking-korte-termijn",
+        "naam": {
+          "primair": "Beperking: enkel geldig op korte termijn"
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "substantie": {
+            "tekst": "Marginale analyse is een **kortetermijn-instrument**: ze abstraheert van vaste kosten als irrelevant, maar op lange termijn moeten alle kosten — inclusief vaste — gedekt worden om de continuïteit van de onderneming te garanderen. Consequent onder-de-volledigekostprijs-verkopen leidt op termijn tot kapitaalerosie.\n\nTweede beperking: de methode veronderstelt **lineaire kostengedrag** — in werkelijkheid bestaan trapsgewijze vaste kosten en niet-lineaire variabele kosten. Buiten de relevante volume-range zijn de berekeningen niet meer geldig.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "**Kortetermijn-beslissingen** waarbij de capaciteit en vaste kostenstructuur vaststaan: bijkomende orders aanvaarden of weigeren, tijdelijke prijsverlagingen doorvoeren, speciale acties beoordelen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Break-even-analyse en doelwinst-berekeningen** — de contributiemarge is de bouwsteen voor break-even-volume (vaste kosten / contributiemarge per eenheid).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Product-mix-beslissingen** bij schaarste: welk product levert de hoogste contributiemarge per schaarse eenheid (bv. per machine-uur of per m² magazijnruimte)?",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Make-or-buy-beslissingen**: een activiteit intern uitvoeren als de interne variabele kost lager is dan de externe inkoopprijs, op voorwaarde dat de vrijgekomen vaste capaciteit niet elders rendabel ingezet kan worden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Langetermijn-prijszetting** — op lange termijn moeten alle kosten inclusief vaste overhead gedekt zijn. Marginale analyse als enige grondslag voor de standaardprijs leidt tot kapitaalerosie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Volledige kostprijsberekening voor externe rapportering** (jaarrekening, voorraadbewaardering) — Belgische boekhoudwetgeving vereist full-costing voor voorraadwaardering.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De kostenstructuur is betrouwbaar gesplitst in variabele en vaste component — zonder correcte splitsing zijn de contributiemarges misleidend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het volume bevindt zich binnen de **relevante range** — de range waarbinnen de vaste-kost-aanname geldig is (geen sprong in capaciteitskosten).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verwaarlozing van langetermijn-dekkingsbehoefte**: als de organisatie structureel op basis van contributiemarge-logica prijst zonder aandacht voor de volledige kost, worden vaste kosten chronisch onderdekt en dreigt verlieslatendheid.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onjuiste kostensplitsing** — semi-variabele kosten die foutief als volledig vast geclassificeerd worden, overschatten de contributiemarge en leiden tot te optimistische beslissingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "direct-costing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Marginale analyse is de analytische toepassing van de direct-costing-filosofie: variabele en vaste kosten apart houden."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "full-costing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide meten de kostprijsstructuur van producten of diensten"
+      ],
+      "verschillen": [
+        "Full-costing verdeelt vaste overheadkosten over producten via verdeelsleutels; marginale analyse beschouwt vaste kosten als periode-kost die niet aan producten toegerekend wordt",
+        "Marginale analyse geeft een hogere kortetermijn-dekkingsbijdrage dan full-costing; full-costing geeft de volledige langetermijn-kost"
+      ],
+      "verwarring_risico": "Studenten kennen soms de contributiemarge als 'bruto marge' — maar de boekhoudkundige bruto marge (omzet minus kostprijs verkopen in full-costing) is een ander begrip"
+    },
+    {
+      "type": "vereist",
+      "target": "kostentypologie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Marginale analyse veronderstelt een betrouwbare classificatie van kosten als variabel of vast."
+    },
+    {
+      "type": "triggert",
+      "target": "break-even-analyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De contributiemarge-berekening uit de marginale analyse is de directe input voor de break-even-berekening."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "variantieanalyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Afwijkingen in de werkelijke contributiemarge t.o.v. de begroting worden geanalyseerd via variantieanalyse (volume-, prijs- en kostenvariantie)."
+    }
+  ]
 }

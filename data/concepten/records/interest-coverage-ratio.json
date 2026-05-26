@@ -1,11 +1,25 @@
 {
   "id": "interest-coverage-ratio",
   "naam": {
-    "primair": "Interest coverage ratio"
+    "primair": "Interest coverage ratio",
+    "afkorting": "ICR",
+    "synoniemen": [
+      "rentedekkingsratio",
+      "rentedekking",
+      "times interest earned"
+    ],
+    "vertaling": {
+      "fr": "Ratio de couverture des intérêts",
+      "en": "Interest coverage ratio"
+    }
   },
+  "concept_type": "ratio",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.3.II.C"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +38,507 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.3.II.C"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Interest coverage ratio",
+        "tekst": "De **interest coverage ratio** (ICR) meet hoeveel keer een onderneming haar financiële kosten (interesten) kan betalen vanuit haar bedrijfsresultaat. De basisformule luidt:\n\n**ICR = EBIT / financiële kosten (interesten)**\n\nEen ICR van 3 betekent dat het bedrijfsresultaat driemaal hoger is dan de intrestenlas — de vennootschap kan haar rente driemaal over betalen vanuit de exploitatie-opbrengst. Hoe hoger de ratio, hoe comfortabeler de schuldpositie.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De ICR kwantificeert de **marge tussen bedrijfsresultaat en rentelast**: in welke mate daalt het resultaat nog verder vooraleer de onderneming haar renteverplichtingen niet meer kan nakomen?\n\nDe ratio drukt **solvabiliteitsrisico** uit — niet de absolute schuldhoogte (die meet de schuldgraad), maar de **draagbaarheid van de rentelast** gegeven de winstgevendheid. Een hoog geleende maar sterk renderende vennootschap kan een hogere ICR hebben dan een licht geleende maar verlieslatende.\n\nToepasselijke varianten:\n- **EBIT-versie** (meest gebruikte) — meet dekking vanuit puur bedrijfsresultaat\n- **EBITDA-versie** — corrigeert voor afschrijvingen (nuttig bij kapitaalintensieve sectoren)\n- **Kasstroom-versie** (operationele kasstroom / interestlasten) — meest voorzichtig: enkel werkelijke kasstromen tellen",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het onderscheid tussen de drie varianten is didactisch belangrijk: EBIT meet boekhoudkundige dekking, EBITDA is sector-robuuster maar kan schulddekking overschatten, en de kasstroom-versie is het meest conservatief voor kredietverstrekkers."
+      },
+      "rationale": {
+        "tekst": "Banken en kredietverstrekkers hanteren de ICR als **covenant-drempel** in kredietovereenkomsten: daalt de ICR onder een contractueel minimum (bv. 1,5 of 2,0), dan wordt de lening opeisbaar of moeten verzwarende voorwaarden aanvaard worden. De ratio is de brug tussen de resultatenrekening (winstgevendheid) en de financieringsstructuur (schuld): ze toont of de exploitatiedynamica de schuldopbouw kan ondersteunen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Beoordeling van de **schuldcapaciteit** van een vennootschap bij aanvraag van nieuwe financiering of bij herziening van bestaande kredieten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Kredietverstrekkers willen weten of het bedrijfsresultaat de nieuwe rentelast duurzaam aankan, ook na verslechtering van de omstandigheden."
+        },
+        {
+          "tekst": "**Covenant-monitoring** bij vennootschappen met bestaande bankleningen die een minimale ICR-drempel voorschrijven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Overschrijding van de covenant-drempel is een event of default; proactief monitoren voorkomt verrassingen tegenover de bank."
+        },
+        {
+          "tekst": "**Sectorvergelijking** en trend-analyse over meerdere boekjaren om structurele verslechtering van de rentelastcapaciteit te signaleren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Eén jaarscijfer is weinig informatief; de evolutie over 3–5 jaar en vergelijking met sectorgenoten geeft het echte risicosignaal."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Meting van liquiditeit** op korte termijn — daarvoor zijn current ratio, quick ratio en cash conversion cycle beter geschikt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De ICR meet of het bedrijfsresultaat de rente dekt, niet of er genoeg vlottende activa zijn om kortetermijnverplichtingen te betalen."
+        },
+        {
+          "tekst": "Beoordeling van de **totale schuldgraad** — daarvoor is de schuldgraad (debt-to-equity of debt-to-assets) het aangewezen instrument.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Een lage ICR kan het gevolg zijn van een hoge schuld (structureel) of van een tijdelijk laag resultaat; de ratio alleen onderscheidt deze oorzaken niet."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Vertekening door niet-kaskosten**: EBIT bevat afschrijvingen en voorzieningen die geen kasuitstroom veroorzaken. Een lage EBIT met hoge afschrijvingen overschat het reële risico bij de EBIT-versie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Daarvoor wordt in kapitaalintensieve sectoren (productie, nutsbedrijven) de EBITDA-versie of de kasstroom-versie verkozen."
+        },
+        {
+          "tekst": "**Punt-in-tijd-zwakte**: de ICR is een momentopname van één boekjaar. Een eenmalig uitzonderlijk resultaat (bv. meerwaarde op verkoop gebouw) flattert de ratio zonder structurele verbetering.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Niet-recurrente items moeten in de analyse gecorrigeerd worden om de structurele dekkingscapaciteit te meten."
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "ICR < 1,5: de vennootschap genereert nauwelijks voldoende bedrijfsresultaat om de interestlast te dekken — **alarmsignaal** voor kredietverstrekkers.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij een ICR onder 1,0 wordt de interestlast niet meer door het bedrijfsresultaat gedekt; de zone 1,0–1,5 is kritisch en leidt doorgaans tot covenant-breach."
+        },
+        {
+          "tekst": "ICR ≥ 3: ruime dekkingscapaciteit — de vennootschap heeft **bufferruimte** voor resultaatschommelingen zonder haar renteverplichtingen in gevaar te brengen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De drempelwaarden (1,5 / 2 / 3) zijn vuistregels, geen wettelijke normen; ze variëren per sector en per bancaire instelling."
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "basisformule-ebit",
+        "naam": {
+          "primair": "Basisformule (EBIT-versie)",
+          "synoniemen": [
+            "times interest earned"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "**ICR = EBIT / Financiële kosten (interesten)**\n\nwaarbij:\n- **EBIT** = Earnings Before Interest and Taxes = bedrijfsresultaat vóór interesten en belastingen. In Belgische jaarrekening: resultaat uit bedrijfsactiviteiten (rubriek IX of XIV, afhankelijk van stelsel)\n- **Financiële kosten** = rentelasten op schulden aan kredietinstellingen, obligatieleningen en andere rentedragende schulden\n\n**Voorbeeld** — Productiecentrum Ukkel NV:\n- EBIT: € 1.500.000\n- Financiële kosten (interesten): € 400.000\n- ICR = 1.500.000 / 400.000 = **3,75**\n→ Het bedrijfsresultaat dekt de interestlast 3,75 maal.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ebitda-variant",
+        "naam": {
+          "primair": "EBITDA-variant",
+          "synoniemen": [
+            "EBITDA coverage ratio"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "**ICR (EBITDA) = EBITDA / Financiële kosten (interesten)**\n\nwaar EBITDA = EBIT + afschrijvingen en waardeverminderingen op materiële en immateriële vaste activa.\n\nDeze variant geeft een hogere ratio dan de EBIT-versie en is **minder conservatief** — afschrijvingen zijn geen kasuitstroom, dus het kasgenererend vermogen is hoger dan EBIT suggereert.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De EBITDA-variant wordt gebruikt in kapitaalintensieve sectoren (vastgoed, productie, nutsbedrijven) waar afschrijvingen een groot deel van de kosten uitmaken en de EBIT-versie de dekkingscapaciteit onderschat."
+          }
+        }
+      },
+      {
+        "id": "kasstroom-variant",
+        "naam": {
+          "primair": "Kasstroom-variant",
+          "synoniemen": [
+            "cash interest coverage",
+            "operationele kasstroom-versie"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "**ICR (kasstroom) = Operationele kasstroom / Financiële kosten (interesten)**\n\nDeze versie is het **meest conservatief**: enkel werkelijke kasinstroom telt, gecorrigeerd voor werkkapitaalwijzigingen. Wordt gebruikt door kredietverstrekkers bij due diligence en bij beoordeling van zwak presterende vennootschappen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Een bedrijf kan een positieve EBIT hebben maar negatieve operationele kasstroom door werkkapitaalopbouw. De kasstroom-variant dekt dit risico af en sluit beter aan bij de werkelijkheid van rentebetalingen (die cash moeten zijn)."
+          }
+        }
+      },
+      {
+        "id": "covenant-drempel",
+        "naam": {
+          "primair": "Covenant-drempel",
+          "synoniemen": [
+            "minimum ICR-covenant",
+            "financial covenant"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **covenant-drempel** is een contractueel minimum voor de ICR, opgenomen in de kredietovereenkomst met de bank. Typische drempelwaarden:\n- Conservatief (lage-risicosectoren): **ICR ≥ 2,0 tot 3,0**\n- Standaard: **ICR ≥ 1,5**\n- Tolerant (groeibedrijven, startups): **ICR ≥ 1,0**\n\nDaalt de ICR onder de drempel, dan is er sprake van een **event of default** — de bank kan de lening opeisen of verzwarende voorwaarden opleggen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De drempelwaarden zijn geen wettelijke normen maar bancaire gebruiken. Ze variëren per sector, type lening en risicoprofiel van de kredietnemer."
+          }
+        }
+      },
+      {
+        "id": "interpretatieschaal",
+        "naam": {
+          "primair": "Interpretatieschaal"
+        },
+        "inhoud_type": "vuistregel",
+        "kern": {
+          "substantie": {
+            "tekst": "Vuistregels voor interpretatie van de ICR (sectorafhankelijk — raadpleeg sectorgemiddelden voor correcte benchmark):\n\n| ICR | Signaal |\n|---|---|\n| < 1,0 | Kritisch: bedrijfsresultaat dekt interestlast NIET — structureel probleem |\n| 1,0 – 1,5 | Zwak: minimale buffer — licht resultaatdaling brengt covenant-breach |\n| 1,5 – 2,5 | Aanvaardbaar: standaard bankbereik voor KMO-kredietverstrekking |\n| 2,5 – 4,0 | Goed: comfortabele marge, aanvaardbaar voor bijkomende financiering |\n| > 4,0 | Uitstekend: ruime schuldcapaciteit, mogelijkheid tot verdere hefboomwerking |",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Deze schaal is een startpunt; kapitaalintensieve sectoren (utiliteiten, vastgoed) functioneren normaal met lagere ICR dan servicebedrijven door hoge afschrijvingslast."
+          }
+        }
+      },
+      {
+        "id": "teller-ebit-component",
+        "naam": {
+          "primair": "Teller: EBIT",
+          "synoniemen": [
+            "bedrijfsresultaat",
+            "earnings before interest and taxes"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **teller** van de ICR is het **bedrijfsresultaat vóór interesten en belastingen** (EBIT). In de Belgische enkelvoudige jaarrekening: rubriek IX (Winst/verlies uit de gewone bedrijfsuitoefening vóór belastingen) minus de financiële resultaten, of direct de bedrijfsopbrengsten minus bedrijfskosten.\n\n**Correctie voor niet-recurrente items**: een eenmalige meerwaarde of uitzonderlijk verlies moet gecorrigeerd worden voor een structurele analyse. Gecorrigeerde EBIT geeft een beter beeld van de duurzame dekkingscapaciteit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "noemer-financiele-kosten",
+        "naam": {
+          "primair": "Noemer: financiële kosten",
+          "synoniemen": [
+            "interestlasten",
+            "rentelasten"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **noemer** van de ICR zijn de **financiële kosten** — in de Belgische jaarrekening: rentelasten op schulden aan kredietinstellingen (rubriek XIII.A), rentelasten op obligatieleningen en andere rentedragende schulden.\n\n**Niet opnemen in de noemer**: kosten van niet-rentedragende schulden (leveranciers), wisselkoersverliezen, waardeverminderingen op financiële activa — tenzij de covenant-definitie dit expliciet vereist.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte definitie van 'financiële kosten' in de noemer is contractueel bepaald in de kredietovereenkomst. Afwijkingen van de boekhoudkundige definitie zijn mogelijk en moeten per overeenkomst gecontroleerd worden."
+          }
+        }
+      },
+      {
+        "id": "beperking-boekhoudkundige-basis",
+        "naam": {
+          "primair": "Beperking: boekhoudkundige grondslag"
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "De ICR is gebaseerd op **boekhoudkundige resultaten**, niet op kasstromen. Dit creëert een structurele beperking:\n\n1. **Accrual-vertekening** — omzet is geboekt maar nog niet geïnd; kosten zijn uitgesteld via afschrijvingen. De EBIT weerspiegelt niet de cash die beschikbaar is voor rentebetaling.\n2. **Agio/disagio-vertekening** — bij obligatieleningen met disagio is de boekhoudkundige intrestkost lager dan de effectieve financieringskost (EIR). De ICR overschat daardoor de dekkingscapaciteit.\n3. **Historisch karakter** — gebaseerd op afgelopen boekjaar, niet op toekomstige cashflows die de schuld moet dekken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Voor een volledig beeld combineert een financieel analist de ICR altijd met de kasstroom-analyse (kasstroom-ICR) en de schuldgraad."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "ratio"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De ICR is een solvabiliteitsratio die standaard deel uitmaakt van de jaarrekeninganalyse."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "schuldgraad",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide meten de schuldlast van een vennootschap",
+        "Beide worden als covenant gebruikt in kredietovereenkomsten"
+      ],
+      "verschillen": [
+        "Schuldgraad meet de omvang van de schuld t.o.v. eigen vermogen of totale activa; ICR meet de draagbaarheid van de rentelast t.o.v. het resultaat",
+        "Schuldgraad is een balansratio; ICR is een resultaatsratio"
+      ],
+      "verwarring_risico": "Een hoge schuldgraad impliceert niet altijd een lage ICR: een sterk renderende vennootschap kan hoog geleend zijn maar comfortabel de rente dekken."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "ebitda-marge",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide gebruiken EBIT(DA) als teller",
+        "Beide zijn winstgevendheidsindicatoren die gebruikt worden bij financiële analyse"
+      ],
+      "verschillen": [
+        "EBITDA-marge deelt door omzet (winstgevendheidsmarge); ICR deelt door interestlasten (schulddekkingsvermogen)",
+        "EBITDA-marge is sectorvergelijkend; ICR is schuldrisico-gericht"
+      ],
+      "verwarring_risico": "Een hoge EBITDA-marge garandeert geen hoge ICR als de schulden en bijbehorende interestlast zeer hoog zijn."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "free-cash-flow",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De kasstroom-variant van de ICR is rechtstreeks gebaseerd op de operationele kasstroom. Een sterke vrije kasstroom verbetert de ICR-kasstroom-versie."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "obligatielening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Een obligatielening verhoogt de noemer van de ICR (hogere interestlasten); de ICR daalt tenzij de investering evenredig het bedrijfsresultaat verhoogt."
+    },
+    {
+      "type": "vereist",
+      "target": "financiele-diagnose",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "ICR-berekening vereist financiële diagnose als breder analyseframework — de ratio heeft pas betekenis in combinatie met andere liquiditeits- en solvabiliteitsratio's."
+    }
+  ]
 }

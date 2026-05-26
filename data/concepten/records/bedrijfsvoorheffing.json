@@ -1,8 +1,17 @@
 {
   "id": "bedrijfsvoorheffing",
   "naam": {
-    "primair": "Bedrijfsvoorheffing"
+    "primair": "Bedrijfsvoorheffing",
+    "afkorting": "BV",
+    "synoniemen": [
+      "voorheffing op beroepsinkomsten",
+      "loonbelasting"
+    ],
+    "vertaling": {
+      "fr": "Précompte professionnel"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +33,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data (beschrijven-operatie)."
       }
     ],
     "ankers": [
@@ -34,20 +49,435 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Bedrijfsvoorheffing",
+        "tekst": "De **bedrijfsvoorheffing** is een voorheffing die de **schuldenaar van de inkomsten** (werkgever, uitbetalende instelling of vennootschap) verplicht inhoudt op bepaalde beroepsinkomsten en doorstort aan de Schatkist, vóórdat de belastingplichtige zijn aangifte indient. Ze is een **vervroegde inning** van de personenbelasting — geen afzonderlijke belasting.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De bedrijfsvoorheffing fungeert als een **betalingsmechanisme**: de schatkist ontvangt de belasting al tijdens het inkomstenjaar in plaats van pas na de aangifte. Voor de meeste loontrekkenden dekt de bedrijfsvoorheffing de uiteindelijke belastingschuld nagenoeg volledig — zij ontvangen bij de eindafrekening (aanslagbiljet) een geringe teruggave of bijbetaling.\n\nDe werkgever is de **technische schuldenaar** tegenover de fiscus: hij int, berekent en betaalt de bedrijfsvoorheffing — ook als de werknemer in gebreke blijft. Betaalt de werkgever niet, dan kan hij als schuldenaar worden aangesproken.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het systeem van bedrijfsvoorheffing lost een liquiditeits- en inningsprobleem op: de schatkist kan niet wachten op de jaarlijkse aangifte om belastinginkomsten te ontvangen. Door de inhouding te verschuiven naar de bron (werkgever of uitbetalende instelling) wordt de belasting geïnd op het moment van inkomensuitkering, wordt ontwijking moeilijker en wordt het inningsrisico gedragen door een professionele partij in plaats van door duizenden individuele belastingplichtigen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke **werkgever of uitbetalende instelling** die beroepsinkomsten uitkeert waarop bedrijfsvoorheffing van toepassing is: lonen, wedden, pensioenen, vervangingsinkomsten, bepaalde commissies en vergoedingen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Vennootschappen** die bedrijfsleidersbezoldigingen of andere vergoedingen aan bedrijfsleiders-natuurlijke-personen uitbetalen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Zelfstandigen** in hoofdberoep die winsten of baten ontvangen: zij betalen geen bedrijfsvoorheffing maar zijn onderworpen aan het stelsel van **voorafbetalingen**.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Er is geen werkgever of uitbetalende instelling die als schuldenaar van de voorheffing kan optreden bij zelfstandigen — vandaar het separate voorafbetalingsstelsel."
+        },
+        {
+          "tekst": "Inkomsten van **onroerende of roerende aard**: die vallen onder de onroerende voorheffing respectievelijk de roerende voorheffing, niet onder de bedrijfsvoorheffing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "**Uitkering** van een belastbaar beroepsinkomen door de schuldenaar van de inkomsten — de verplichting tot inhouding en doorstorting ontstaat op het moment van betaling of toekenning.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De bedrijfsvoorheffing-verplichting eindigt wanneer de uitbetaler geen bedrijfsvoorheffingsplichtige inkomsten meer uitkeert (bv. einde dienstverband met alle werknemers, stopzetting activiteit).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Werkgeversaansprakelijkheid**: de werkgever die de bedrijfsvoorheffing niet of te laat doorstort, wordt als schuldenaar aangesproken — ook al heeft hij ze wel ingehouden op het loon.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onjuiste toewijzing van het gezinsprofiel**: een verkeerd ingevoerde gezinssamenstelling (kinderen ten laste, huwelijkssituatie) leidt tot een te lage inhouding en een bijbetaling voor de werknemer bij de eindafrekening — met mogelijke boeterente.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "schuldenaar-voorheffing",
+        "naam": {
+          "primair": "Schuldenaar van de bedrijfsvoorheffing",
+          "synoniemen": [
+            "inhoudingsplichtige"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **schuldenaar van de bedrijfsvoorheffing** is diegene die de inkomsten uitbetaalt of toekent: de werkgever bij lonen en wedden, een pensioeninstelling bij pensioenen, een vennootschap bij bedrijfsleidersbezoldigingen. De schuldenaar is wettelijk verplicht te **berekenen**, **in te houden** op de uitkering en **door te storten** aan de Belgische Schatkist.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "berekeningsbasis",
+        "naam": {
+          "primair": "Berekeningsbasis en barema",
+          "synoniemen": [
+            "BV-barema",
+            "tarieven bedrijfsvoorheffing"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De bedrijfsvoorheffing wordt berekend op basis van **fiscale barema's** die de overheid jaarlijks publiceert (als bijlage bij het KB tot uitvoering van het WIB92). De barema's zijn inkomenstabellen die rekening houden met:\n- Het **bruto belastbaar inkomen** (verminderd met forfaitaire beroepskosten)\n- De **gezinssamenstelling** (gezinshoofd, alleenstaande, echtgenote zonder inkomen — huwelijksquotiënt)\n- **Kinderen ten laste** (vermindering per kind)\n- **Andere verminderingen** (invaliditeit, andere personen ten laste)\n\nDe werkgever past het barema toe dat overeenstemt met de persoonlijke situatie van de werknemer, zoals meegedeeld via de **fiscale fiche** of het inlichtingenformulier.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vrijstellingen-bv",
+        "naam": {
+          "primair": "Vrijstellingen van doorstorting",
+          "synoniemen": [
+            "gedeeltelijke vrijstelling bedrijfsvoorheffing",
+            "GPBV"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bepaalde werkgevers hoeven een deel van de ingehouden bedrijfsvoorheffing **niet door te storten** aan de Schatkist — dat bedrag mogen zij zelf behouden als maatregel ter ondersteuning van bepaalde activiteiten of doelgroepen. De inhouding op het loon van de werknemer blijft volledig — de vrijstelling geldt enkel voor de doorstortingsplicht.\n\nVoornaamste categorieën (betwijfeld wegens wetswijzigingen):\n- **Ploegen- en nachtarbeid**: 22,8 % van de BV niet door te storten\n- **Overwerk**: vrijstelling op eerste 130 (of 180) uren overwerk\n- **Wetenschappelijk onderzoek**: 80 % van de BV voor kwalificerend O&O-personeel\n- **Startende kleine vennootschappen**: verhoogde vrijstelling\n- **Zeevarenden en baggeraars**: specifieke vrijstelling",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Percentages en drempels wijzigen regelmatig via programmawet of begrotingswet — altijd verifiëren aan de hand van het meest recente KB of de meest recente BV-tabel vóór toepassing."
+          }
+        }
+      },
+      {
+        "id": "betalingstermijnen",
+        "naam": {
+          "primair": "Betalingstermijnen en aangifte",
+          "synoniemen": [
+            "doorstortingstermijn BV"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De schuldenaar van de bedrijfsvoorheffing moet de ingehouden bedragen aangeven en doorstorten binnen **15 dagen na het verstrijken van de maand** waarin de inkomsten zijn betaald of toegekend. Voor **kleine werkgevers** (minder dan 10 werknemers en een jaarlijks BV-bedrag onder een bepaalde drempel) geldt een **kwartaalregeling** — doorstorting binnen 15 dagen na het kwartaal.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De drempel voor de kwartaalregeling wordt periodiek geïndexeerd — steeds verifiëren in de actuele regelgeving."
+          }
+        }
+      },
+      {
+        "id": "verrekening-pb",
+        "naam": {
+          "primair": "Verrekening met de personenbelasting",
+          "synoniemen": [
+            "verrekenbare voorheffing"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De bedrijfsvoorheffing is **verrekenbaar** met de uiteindelijk verschuldigde personenbelasting: zij vermindert de belastingschuld die voortvloeit uit de aangifte. Als de ingehouden bedrijfsvoorheffing de definitieve belastingschuld **overschrijdt**, wordt het saldo **terugbetaald** aan de belastingplichtige. Is zij **onvoldoende**, dan volgt een bijbetaling.\n\nVoor loontrekkenden is de bedrijfsvoorheffing doorgaans afgestemd op een nagenoeg volledige dekking van de belastingschuld.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-fiches",
+        "naam": {
+          "primair": "Fiscale fiches (281.10 / 281.20)",
+          "synoniemen": [
+            "loonfiche",
+            "fiche 281"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De schuldenaar van de bedrijfsvoorheffing is verplicht jaarlijks **fiscale fiches** op te maken voor elke uitkering waarvoor bedrijfsvoorheffing is ingehouden (of had moeten worden ingehouden):\n- **Fiche 281.10** — bezoldigingen van werknemers\n- **Fiche 281.20** — bezoldigingen van bedrijfsleiders\n\nDeze fiches worden bezorgd aan de belastingplichtige (voor zijn aangifte) én aan de administratie (vooraf ingevuld). Ze zijn de basis voor het **aangifteformulier PB** en het **Tax-on-Web**-systeem.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bv-nihil-beding",
+        "naam": {
+          "primair": "Nul-tarief en bijzondere situaties",
+          "synoniemen": [
+            "BV = 0",
+            "nihil-BV"
+          ]
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "In bepaalde gevallen bedraagt de bedrijfsvoorheffing **nul** hoewel er wél een belastbaar beroepsinkomen wordt uitbetaald:\n- Het bruto belastbaar inkomen valt **beneden de belastingvrije som** na aftrek van forfaitaire beroepskosten en persoonlijke verminderingen\n- **Niet-inwoners** met een belastingverdrag dat heffingsbevoegdheid exclusief toewijst aan de woonstaat\n\nEen nul-tarief bevrijdt de schuldenaar niet van zijn fiche-verplichting: hij moet nog steeds de fiche 281 opmaken en indienen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "voorheffingen-en-verrekeningen-venb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Bedrijfsvoorheffing is één van de drie Belgische voorheffingen (naast onroerende en roerende voorheffing) en verrekenbaar met de uiteindelijke belastingschuld."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "gezinssituatie-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De gezinssamenstelling (kinderen ten laste, huwelijkssituatie) bepaalt welk BV-barema de werkgever toepast en bepaalt de hoogte van de inhouding."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "werknemersbezoldiging-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Werknemersbezoldigingen zijn de hoofdcategorie beroepsinkomsten waarop bedrijfsvoorheffing wordt ingehouden."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "roerende-voorheffing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "bedrijfsleidersbezoldiging-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Bedrijfsleidersbezoldigingen (fiche 281.20) zijn een aparte categorie waarbij de vennootschap als schuldenaar van de bedrijfsvoorheffing optreedt."
+    },
+    {
+      "type": "vereist",
+      "target": "aangifte-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De bedrijfsvoorheffing is een voorlopige betaling; de definitieve afrekening gebeurt via de aangifte personenbelasting."
+    }
+  ]
 }

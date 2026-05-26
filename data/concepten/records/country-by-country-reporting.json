@@ -1,11 +1,27 @@
 {
   "id": "country-by-country-reporting",
   "naam": {
-    "primair": "Country by country reporting"
+    "primair": "Country-by-country reporting",
+    "afkorting": "CbCR",
+    "synoniemen": [
+      "land-per-land-rapportage",
+      "country-by-country report",
+      "CbC-rapport",
+      "groepsrapportage per jurisdictie"
+    ],
+    "vertaling": {
+      "en": "Country-by-country reporting",
+      "fr": "Déclaration pays par pays"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.8.XVII",
+      "2.8.taak.4"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +40,452 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.8.XVII",
-      "2.8.taak.4"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Country by country reporting",
+        "tekst": "**Country-by-country reporting (CbCR)** is een documentatieverplichting uit het BEPS-actieplan (Actiepunt 13) waarbij multinationale ondernemingen jaarlijks een **gestandaardiseerd rapport** moeten indienen dat per jurisdictie de verdeling van inkomsten, belastingen en economische activiteit weergeeft. Het rapport laat belastingautoriteiten toe om een risicobeoordeling uit te voeren van de intercompany-prijszetting en winstalllocatie binnen een groep.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "CbCR is één van de drie verplichte rapportagedocumenten binnen het BEPS Actiepunt 13-kader (naast het **master file** en het **local file**). Het rapport bevat per land — niet per entiteit — geaggregeerde data: omzet (intern en extern), winst vóór belastingen, betaalde en verschuldigde belastingen, gestort kapitaal, ingehouden winsten, aantal werknemers en materiële activa.\n\nHet rapport is **niet openbaar** — het wordt uitsluitend gedeeld tussen belastingdiensten via automatische uitwisseling (**CbCR-uitwisseling**). Belastingautoriteiten gebruiken het als **risicoselectietool** om te beoordelen of de winstallocatie van een multinationale groep in lijn is met de economische activiteit per land.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Vóór BEPS konden multinationale ondernemingen door complexe intercompany-structuren winsten verschuiven naar laagbelaste jurisdicties zonder dat enige belastingdienst het volledige plaatje had. CbCR geeft voor het eerst aan elke betrokken belastingdienst een **geaggregeerd overzicht per land** van de winstgevendheid en belastingdruk van de hele groep. De ratio legis is transparantie als instrument voor risicoselectie — niet als bewijs van misbruik.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "omzetdrempel",
+        "naam": {
+          "primair": "Omzetdrempel",
+          "synoniemen": [
+            "groepsomzetdrempel",
+            "750-miljoengrens"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De CbCR-verplichting geldt voor multinationale groepen met een **geconsolideerde jaaromzet van ten minste € 750 miljoen** in het voorgaande boekjaar. Groepen onder deze drempel zijn vrijgesteld.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De drempel van € 750 miljoen is internationaal gecoördineerd via OESO. Ze dekt een beperkt aantal grote multinationale groepen (circa 10–15% van de winsten wereldwijd) maar houdt de administratieve last voor KMO's en middelgrote groepen buiten schot."
+          }
+        }
+      },
+      {
+        "id": "indienende-entiteit",
+        "naam": {
+          "primair": "Indienende entiteit",
+          "synoniemen": [
+            "reporting entity",
+            "filing entity",
+            "aangewezen entiteit"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In principe dient de **uiteindelijke moederentiteit** van de groep het CbCR-rapport in bij de belastingdienst van haar woonland. Wanneer de moederentiteit in een land is gevestigd dat geen CbCR-uitwisseling heeft met België, kan een **aangewezen surrogaat-moederentiteit** of een Belgische dochtervennootschap worden aangewezen als indienende entiteit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De cascade-regel (moeder → surrogaat → dochter) vermijdt dat Belgische fiscale belangen onbeschermd blijven wanneer het buitenland de rapportageverplichting niet afdwingt."
+          }
+        }
+      },
+      {
+        "id": "inhoud-cbcr-rapport",
+        "naam": {
+          "primair": "Inhoud van het CbCR-rapport",
+          "synoniemen": [
+            "CbCR-tabel",
+            "Table 1 CbCR",
+            "Table 2 CbCR"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "substantie": {
+            "tekst": "Het gestandaardiseerde rapport bevat per jurisdictie de volgende elementen:\n\n**Tabel 1 — financiële data per land**:\n- Omzet aan gelieerde partijen en aan derden\n- Winst (verlies) vóór winstbelasting\n- Betaalde winstbelasting (cashbasis)\n- Verschuldigde winstbelasting (accrual)\n- Gestort kapitaal en ingehouden winsten\n- Aantal werknemers (voltijdequivalenten)\n- Materiële activa (exclusief liquide middelen)\n\n**Tabel 2 — lijst van entiteiten per land** met de belastingidentificatie en voornaamste bedrijfsactiviteit per entiteit.\n\n**Tabel 3 — aanvullende informatie** optioneel voor verduidelijking.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "indieningstermijn",
+        "naam": {
+          "primair": "Indieningstermijn",
+          "synoniemen": [
+            "deadline CbCR",
+            "aangifte-deadline"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Het CbCR-rapport moet worden ingediend binnen **12 maanden na het einde van het betrokken boekjaar**. Voor een groep met boekjaar dat eindigt op 31 december is de deadline 31 december van het volgende jaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitwisseling-belastingdiensten",
+        "naam": {
+          "primair": "Automatische uitwisseling tussen belastingdiensten",
+          "synoniemen": [
+            "CbCR-uitwisseling",
+            "BEPS CbCR exchange"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Eenmaal ingediend bij de belastingdienst van de indienende entiteit, wordt het CbCR-rapport automatisch uitgewisseld met de belastingdiensten van alle landen waar de groep actief is, via het **Common Reporting Standard (CRS)-kader** en multilaterale verdragen. Het rapport is **niet openbaar** — de vertrouwelijkheidsregels vereisen dat de belastingdiensten de informatie alleen gebruiken voor risicobeoordeling en niet voor automatische belastingcorrecties.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De vertrouwelijkheid is een voorwaarde voor de internationale samenwerking: landen stemden in met uitwisseling op voorwaarde dat het rapport alleen als risicoselectietool dient en niet als definitief bewijs van foutieve verrekenprijzen."
+          }
+        }
+      },
+      {
+        "id": "drie-lagen-documentatie",
+        "naam": {
+          "primair": "Drie-lagen-documentatiestructuur",
+          "synoniemen": [
+            "master file, local file en CbCR",
+            "BEPS AP13 documentatie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "CbCR maakt deel uit van een drieluik:\n\n1. **Master file** — groepsoverzicht: organisatiestructuur, beschrijving van activiteiten, immateriële activa, intercompany-financiering en financiële en fiscale positie van de groep\n2. **Local file** — entiteitspecifiek: beschrijving van de intercompany-transacties van de lokale entiteit en bewijs dat deze arm's length zijn geprijsd\n3. **CbCR** — geaggregeerd per land: kwantitatieve data om te beoordelen of winstallocatie in lijn is met economische activiteit\n\nDe drie documenten zijn complementair: het master file geeft context, het local file geeft bewijs per transactie, het CbCR geeft het geaggregeerde groepsperspectief.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "sancties-niet-naleving",
+        "naam": {
+          "primair": "Sancties bij niet-naleving",
+          "synoniemen": [
+            "boetes CbCR",
+            "administratieve sancties"
+          ]
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij niet of laattijdig indienen van het CbCR-rapport riskeert de Belgische entiteit **administratieve boetes**. Bovendien kan de niet-naleving de aandacht van de belastingdienst trekken en leiden tot een verhoogde kans op een transfer-pricing-controle.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Multinationale groepen met een **geconsolideerde jaaromzet van ten minste € 750 miljoen** die in meerdere landen actief zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Belgische dochtervennootschappen van een buitenlandse multinationale groep wanneer de moederentiteit in een land is gevestigd dat geen CbCR-uitwisseling heeft met België — de Belgische dochter moet dan zelf indienen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Groepen met een geconsolideerde jaaromzet **onder € 750 miljoen** — geen CbCR-verplichting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Zuiver **nationale ondernemingen** zonder buitenlandse deelnemingen of moedermaatschappij.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De groep overschrijdt in het voorgaande boekjaar voor het eerst de **€ 750 miljoen-omzetdrempel** — de verplichting geldt vanaf het volgende boekjaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De geconsolideerde jaaromzet daalt **duurzaam onder € 750 miljoen** — de verplichting vervalt voor het daaropvolgende boekjaar.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**CbCR als risicoselectietool**: een hoge effectieve belastingdruk in landen met hoge winsten in combinatie met lage belastingen in landen met weinig economische activiteit trekt automatisch de aandacht van belastingdiensten, ook al zijn de verrekenprijzen arm's length.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Aggregatiebias**: CbCR aggregeert data per jurisdictie, niet per entiteit. Entiteiten met tegengestelde profielen binnen hetzelfde land neutraliseren elkaar — het rapport kan zowel misleidend gunstig als misleidend ongunstig zijn voor specifieke entiteiten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "beps-actieplan",
+      "toelichting": "CbCR is de implementatie van BEPS Actiepunt 13 (documentatieverplichtingen).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "transfer-pricing",
+      "toelichting": "CbCR is onderdeel van het transfer-pricing-documentatiekader (master file, local file, CbCR).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "geconsolideerde-jaarrekening",
+      "toelichting": "De geconsolideerde omzet is het criterium voor de € 750 miljoen-drempel.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "oeso-modelverdrag",
+      "toelichting": "De OESO heeft CbCR ontwikkeld als onderdeel van het BEPS-pakket; het format is gestandaardiseerd via OESO-richtlijnen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "winst-naar-herkomst",
+      "toelichting": "Beide gaan over de geografische verdeling van winst, maar 'winst naar herkomst' is een intern analyseconcept terwijl CbCR een externe rapportageverplichting is.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

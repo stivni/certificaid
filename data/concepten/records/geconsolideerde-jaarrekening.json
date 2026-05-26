@@ -1,11 +1,35 @@
 {
   "id": "geconsolideerde-jaarrekening",
   "naam": {
-    "primair": "Geconsolideerde jaarrekening"
+    "primair": "Geconsolideerde jaarrekening",
+    "afkorting": "GJR",
+    "synoniemen": [
+      "consolidatie",
+      "groepsjaarrekening"
+    ],
+    "vertaling": {
+      "fr": "Comptes consolidés",
+      "en": "Consolidated financial statements"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.2.IV.F",
+      "1.4.I",
+      "1.4.I.A",
+      "1.4.I.F",
+      "1.4.taak.1",
+      "1.5.taak.1",
+      "1.4.II",
+      "1.4.II.A",
+      "1.4.II.B",
+      "1.4.II.C",
+      "1.4.II.D",
+      "1.6.I.C"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,40 +48,556 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T10:30:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.2.IV.F",
-      "1.4.I",
-      "1.4.I.A",
-      "1.4.I.F",
-      "1.4.taak.1",
-      "1.5.taak.1",
-      "1.4.II",
-      "1.4.II.A",
-      "1.4.II.B",
-      "1.4.II.C",
-      "1.4.II.D",
-      "1.6.I.C"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Geconsolideerde jaarrekening",
+        "tekst": "De **geconsolideerde jaarrekening** is een jaarrekening die de financiële positie en resultaten van een **groep van vennootschappen** weergeeft alsof zij één economische eenheid vormen. De moedervennootschap (consoliderende vennootschap) stelt deze op door de enkelvoudige jaarrekeningen van alle entiteiten binnen de consolidatiekring samen te voegen, interne transacties te elimineren en minderheidsbelangen afzonderlijk te tonen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De geconsolideerde jaarrekening is het **economisch spiegelveld** van een groep: het toont in één document wat de afzonderlijke enkelvoudige jaarrekeningen verbergen door onderlinge verkopen, leningen en deelnemingen. \n\nDrie centrale principes:\n- **Eliminatie**: interne vorderingen, schulden, opbrengsten en kosten worden weggewerkt zodat enkel transacties met derden zichtbaar zijn.\n- **Economisch eigendom boven juridische vorm**: een vennootschap die feitelijk controle uitoefent (ook zonder 100% eigendom) consolideert de volledige dochter — inclusief het deel dat toebehoort aan externe aandeelhouders (minderheidsbelangen).\n- **Uniforme grondslagen**: alle entiteiten in de groep worden hergewaardeerd naar de grondslagen van de moeder vóór de optelling.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Zonder consolidatie kunnen gebruikers van financiële informatie — banken, investeerders, toezichthouders — de werkelijke schuldenlast, winstgevendheid en risico's van een groep niet beoordelen. Een moedervennootschap kan verliezen en schulden 'verbergen' in dochters als er geen geconsolideerd beeld bestaat. De verplichting tot consolidatie is de tegenhanger van de beperkte aansprakelijkheid van vennootschappen: omdat de moeder beschermd is, moet zij transparantie bieden over de groep als geheel.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Moedervennootschappen die controle uitoefenen over één of meer dochterondernemingen en die de wettelijke drempelwaarden voor consolidatieplicht overschrijden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Enkel vennootschappen met controlerende deelnemingen én voldoende omvang zijn verplicht — kleine groepen zijn vrijgesteld."
+        },
+        {
+          "tekst": "Beursgenoteerde vennootschappen in de EU, die verplicht zijn de geconsolideerde jaarrekening op te stellen onder **IFRS** (in plaats van BGAAP).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "EU IAS-verordening 1606/2002 schrijft IFRS voor voor geconsolideerde rekeningen van beursgenoteerde entiteiten."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Zelfstandige vennootschappen zonder dochterondernemingen of deelnemingen met controlerend karakter.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Kleine groepen die onder de vrijstellingsdrempels van het WVV vallen — zij zijn niet verplicht te consolideren, ook al oefenen zij controle uit.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De precieze drempelwaarden (twee van drie: omzet, balanstotaal, gemiddeld personeelsbestand) dienen geverifieerd te worden in het WVV en BGAAP-KB."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De consoliderende vennootschap moet **controle** uitoefenen over de te consolideren entiteit — dat wil zeggen: de meerderheid van de stemrechten bezitten of anderszins de financiële en operationele beslissingen kunnen beheersen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De groep moet de **omvangsdrempels** overschrijden: kleine groepen (twee van drie criteria: netto-omzet, balanstotaal, personeelsaantal) zijn vrijgesteld van de consolidatieplicht.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Exacte drempelwaarden te verifiëren via WVV en jaarlijkse indexering."
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Dochterondernemingen die tijdelijk gehouden worden met het oog op verkoop op korte termijn kunnen **uitgesloten** worden van de consolidatiekring.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Dochterondernemingen waarover de controle ernstig en duurzaam beperkt is (bv. in het buitenland door overheidsmaatregelen), kunnen uit de consolidatiekring worden gehouden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Onjuiste afbakening van de consolidatiekring** — een entiteit die feitelijk onder controle staat wordt niet meegeconsolideerd, wat leidt tot een onvolledig of misleidend groepsbeeld.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onvolledige eliminatie van intercompany-transacties** — ongerealiseerde winsten, onderlinge leningen of dividenden die niet worden geëlimineerd vertekenen winst en vermogen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "consolidatiekring-begrip",
+        "naam": {
+          "primair": "Consolidatiekring",
+          "synoniemen": [
+            "consolidation scope",
+            "perimeter van consolidatie"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **consolidatiekring** is het geheel van entiteiten waarvan de financiële gegevens worden samengevoegd in de geconsolideerde jaarrekening. De consoliderende vennootschap (moeder) en alle entiteiten waarover zij controle uitoefent (dochters) vormen de minimumkern. Gezamenlijke dochters en geassocieerde deelnemingen worden via andere methoden verwerkt (evenredige consolidatie of vermogensmutatiemethode).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "controlebegrip",
+        "naam": {
+          "primair": "Controle (consolidatie)",
+          "synoniemen": [
+            "beheersende invloed",
+            "doorslaggevende invloed"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Controle** in consolidatiecontext is de bevoegdheid om het financiële en operationele beleid van een entiteit te bepalen om er voordelen uit te halen. Controle bestaat in de regel wanneer de moeder de **meerderheid van de stemrechten** bezit, maar kan ook via overeenkomst, statuten of feitelijke omstandigheden bestaan (bv. bij een groot verspreid aandelenkapitaal).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "consolidatiemethoden-overzicht",
+        "naam": {
+          "primair": "Consolidatiemethoden",
+          "synoniemen": [
+            "methoden van consolidatie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De toe te passen consolidatiemethode hangt af van de aard van de invloed:\n- **Integrale consolidatie** — bij controle (doorgaans >50% stemrechten): volledig samentellen, minderheidsbelangen afzonderlijk tonen.\n- **Evenredige consolidatie** (BGAAP) of **equity-methode** (IFRS) — bij gezamenlijke controle (joint ventures): proportioneel aandeel of enkel nettovermogenswaarde.\n- **Vermogensmutatiemethode** — bij significante invloed (doorgaans 20–50%): deelneming gewaardeerd aan nettovermogenswaarde, niet lijn-voor-lijn geconsolideerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De methode-keuze bepaalt hoe schulden, opbrengsten en activa in het groepsbeeld verschijnen — integrale consolidatie maakt alle activa en schulden van de dochter zichtbaar, ook die buiten het eigendomsaandeel van de moeder vallen."
+          }
+        }
+      },
+      {
+        "id": "eliminatie-intercompany",
+        "naam": {
+          "primair": "Eliminatie van intercompany-transacties",
+          "synoniemen": [
+            "intercompany-eliminatie"
+          ]
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de opmaak van de geconsolideerde jaarrekening worden alle **onderlinge transacties** tussen entiteiten in de consolidatiekring geëlimineerd: \n- Intercompany-vorderingen en -schulden netten uit tegen nul.\n- Intercompany-opbrengsten en -kosten netten uit tegen nul.\n- **Ongerealiseerde winsten** op intercompany-verkopen van activa (voorraden, vaste activa) worden geëlimineerd totdat het activum aan een derde wordt verkocht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "consolidatieverschil-goodwill-begrip",
+        "naam": {
+          "primair": "Consolidatieverschil en goodwill",
+          "synoniemen": [
+            "eerste-consolidatieverschil",
+            "goodwill bij consolidatie"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **consolidatieverschil** is het verschil tussen de aanschaffingsprijs van de deelneming en de reële waarde van het aandeel in het nettovermogen van de dochter op overnamedatum. Een positief verschil = **goodwill** (betaald voor toekomstige winstgevendheid of synergiën); een negatief verschil = **badwill** (bv. bij een noodverkoop).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "minderheidsbelangen-begrip",
+        "naam": {
+          "primair": "Minderheidsbelangen",
+          "synoniemen": [
+            "belangen van derden",
+            "non-controlling interests"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "**Minderheidsbelangen** zijn het aandeel van externe aandeelhouders in het nettovermogen en het resultaat van integraal geconsolideerde dochters. Bij integrale consolidatie wordt 100% van de activa, passiva, opbrengsten en kosten van de dochter opgenomen, maar het deel dat niet toebehoort aan de moeder wordt afzonderlijk gepresenteerd — in het eigen vermogen (IFRS) of als tussencategorie (BGAAP).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uniforme-waarderingsregels",
+        "naam": {
+          "primair": "Uniforme waarderingsregels bij consolidatie"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Alle entiteiten in de consolidatiekring moeten worden geherwaardeerd naar de **waarderingsregels van de consoliderende vennootschap** (de moeder) vóór de cijfers worden opgeteld. Dit vereist dat enkelvoudige jaarrekeningen die onder een ander stelsel zijn opgesteld (bv. buitenlandse dochters, andere BGAAP-keuzes) worden aangepast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder uniforme grondslagen zouden gelijkaardige activa of verplichtingen op verschillende wijzen worden gewaardeerd, wat het geconsolideerde beeld vertekent."
+          }
+        }
+      },
+      {
+        "id": "omrekeningsverschil-buitenlandse-dochter",
+        "naam": {
+          "primair": "Omrekeningsverschil bij buitenlandse dochters",
+          "synoniemen": [
+            "translation difference",
+            "koersverschil consolidatie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een buitenlandse dochter haar jaarrekening opstelt in een andere munt dan de presentatiemunt van de groep, worden activa en passiva omgerekend aan de **slotkoers** en resultaten aan de **gemiddelde koers** van het boekjaar. Het verschil dat hieruit ontstaat (het **omrekeningsverschil**) wordt niet door de winst- en verliesrekening geboekt maar rechtstreeks in het **eigen vermogen** opgenomen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "consolidatiekring",
+      "toelichting": "De afbakening van de consolidatiekring is een centrale component van het kader.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "consolidatiemethoden",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "consolidatieverschil-goodwill",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "minderheidsbelangen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "uniforme-waarderingsregels-consolidatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "opmaak-geconsolideerde-jaarrekening",
+      "toelichting": "Het kader geconsolideerde jaarrekening wordt geproduceerd via de procedure opmaak-geconsolideerde-jaarrekening.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "jaarrekening",
+      "toelichting": "De geconsolideerde jaarrekening volgt structureel dezelfde indeling als de enkelvoudige jaarrekening (balans, resultatenrekening, toelichting), maar omvat de volledige groep in plaats van één rechtspersoon.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "be-gaap-vs-ifrs-verschillen",
+      "toelichting": "BGAAP en IFRS hanteren verschillende consolidatiemethoden (bv. evenredige consolidatie vs equity-methode voor joint ventures) en waarderingsregels.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "geconsolideerd-jaarverslag",
+      "toelichting": "Het geconsolideerde jaarverslag is een apart document dat het bestuur toevoegt aan de geconsolideerde jaarrekening — niet te verwarren met de jaarrekening zelf.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "consolidatieverplichting-bgaap",
+      "toelichting": "De verplichting tot en vrijstelling van consolidatie onder BGAAP bepaalt welke groepen dit kader moeten toepassen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

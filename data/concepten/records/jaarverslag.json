@@ -1,11 +1,23 @@
 {
   "id": "jaarverslag",
   "naam": {
-    "primair": "Jaarverslag"
+    "primair": "Jaarverslag",
+    "synoniemen": [
+      "bestuursverslag",
+      "jaarlijks verslag"
+    ],
+    "vertaling": {
+      "fr": "rapport annuel"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.3.I.E",
+      "1.3.I.D"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +36,401 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, gebruikscontext, elementen en relatie-suggesties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.3.I.E",
-      "1.3.I.D"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Jaarverslag",
+        "tekst": "Het **jaarverslag** (ook: bestuursverslag) is het document dat het bestuursorgaan van een vennootschap jaarlijks opmaakt en dat de jaarrekening **verbaal en kwalitatief** omkaart. Het geeft een getrouw overzicht van de ontwikkeling, resultaten en toestand van de vennootschap, aangevuld met een beschrijving van de voornaamste risico's en onzekerheden. Het jaarverslag wordt samen met de jaarrekening neergelegd bij de Nationale Bank van België.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het jaarverslag is het **verhaal achter de cijfers**: de jaarrekening geeft de financiële toestand in cijfers, het jaarverslag legt uit waarom de vennootschap die toestand heeft bereikt en hoe ze de toekomst inschat. Drie functies:\n\n- **Informatief** — stakeholders (aandeelhouders, banken, leveranciers) begrijpen de context van de cijfers\n- **Verantwoordend** — het bestuursorgaan legt rekenschap af over zijn beleid\n- **Vooruitblikkend** — verplichte vermelding van verwachte ontwikkelingen en risico's\n\nWat het jaarverslag **niet** is: een marketingdocument of een samenvatting van de jaarrekening. Het moet negatieve evoluties en wezenlijke risico's even eerlijk benoemen als positieve.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het jaarverslag bestaat omdat financiële staten **niet zelfverklarend** zijn. Getallen zonder context zijn onvoldoende voor een geïnformeerde beslissing door aandeelhouders, schuldeisers en andere stakeholders. De wetgever verplicht het bestuursorgaan expliciet om de gebruiker van de jaarrekening te begeleiden met kwalitatieve informatie — van oorsprong van winst/verlies tot toekomstige strategische risico's.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "**Grote vennootschappen** in de zin van het WVV zijn verplicht een jaarverslag op te stellen en neer te leggen samen met de jaarrekening.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De omvang-drempel bepaalt de verplichting; kleine en micro-vennootschappen zijn vrijgesteld of genieten een vereenvoudigd regime."
+        },
+        {
+          "tekst": "Beursgenoteerde vennootschappen (genoteerd op een gereglementeerde markt) zijn onderworpen aan een **uitgebreider jaarverslag** met bijkomende verplichte rubrieken (o.a. corporate governance-verklaring, niet-financiële informatie voor grote PIE-entiteiten).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Kleine vennootschappen** zijn vrijgesteld van de verplichting tot opstelling van een jaarverslag. Zij mogen volstaan met de neerlegging van de jaarrekening alleen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Proportionaliteitsbeginsel: de rapporteringslast mag niet onevenredig zwaar zijn voor kleinere entiteiten."
+        },
+        {
+          "tekst": "**Micro-vennootschappen** zijn eveneens vrijgesteld. Zij mogen een ultraverkort schema indienen en zijn niet verplicht een jaarverslag op te stellen.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het jaarverslag moet **vóór de algemene vergadering** ter beschikking worden gesteld van de aandeelhouders; de precieze termijn hangt af van het vennootschapstype.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Een **onvolledig of misleidend jaarverslag** kan aanleiding geven tot burgerrechtelijke aansprakelijkheid van de bestuurders tegenover aandeelhouders en derden die op basis van de onjuiste informatie beslissingen namen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "verplichte-inhoud-jaarverslag",
+        "naam": {
+          "primair": "Verplichte inhoud"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Het WVV somt de minimale inhoud op die in elk jaarverslag van een grote vennootschap aanwezig moet zijn:\n\n1. **Getrouwe weergave** van de ontwikkeling, resultaten en toestand van de vennootschap\n2. **Voornaamste risico's en onzekerheden** waarmee de vennootschap wordt geconfronteerd\n3. **Verwachte ontwikkelingen** in activiteiten en resultaten (toekomstgericht)\n4. **Bijzondere gebeurtenissen na balansdatum** die van betekenis zijn\n5. **Onderzoek en ontwikkeling** (als de vennootschap O&O-activiteiten heeft)\n6. **Gebruik van financiële instrumenten** (als materieel voor resultaat/risico)\n7. **Ingekochte eigen aandelen** (aantal, waarde, motivering) als dat het geval is",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "groeischaal-nv-mv-criterion",
+        "naam": {
+          "primair": "Groottecriteria en vrijstellingen"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "substantie": {
+            "tekst": "De verplichting tot het opstellen van een jaarverslag hangt af van de groottecategorie:\n\n| Categorie | Jaarverslag verplicht? |\n|---|---|\n| Micro-vennootschap | Nee |\n| Kleine vennootschap | Nee (vrijstelling) |\n| Grote vennootschap | Ja |\n| Beursgenoteerd (PIE) | Ja, uitgebreid (inclusief niet-financiële info) |\n\nDe categoriegrenzen (balanstotaal, omzet, personeel) zijn vastgelegd in het WVV en worden periodiek geïndexeerd.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Claims_checken moet de exacte grensbedragen en indexatiestatus verifiëren — de categorienamen zijn stabiel, de drempelbedragen kunnen gewijzigd zijn."
+          }
+        }
+      },
+      {
+        "id": "niet-financiele-informatie",
+        "naam": {
+          "primair": "Niet-financiële informatie",
+          "synoniemen": [
+            "ESG-rapportering",
+            "CSRD",
+            "duurzaamheidsverslag"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Grote vennootschappen van openbaar belang (PIE) met meer dan 500 werknemers zijn verplicht in hun jaarverslag een **niet-financiële verklaring** op te nemen over milieu, sociale aspecten, mensenrechten, anticorruptie en bestuursaspecten (ESG). Dit is een afzonderlijk onderdeel van of bijlage bij het jaarverslag.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De EU Corporate Sustainability Reporting Directive (CSRD) heeft het toepassingsgebied aanzienlijk uitgebreid; de precieze grenzen en inwerkingtredingsdata zijn aan te checken."
+          }
+        }
+      },
+      {
+        "id": "neerlegging-en-openbaarmaking",
+        "naam": {
+          "primair": "Neerlegging en openbaarmaking"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Het jaarverslag wordt samen met de **jaarrekening** neergelegd bij de Nationale Bank van België (NBB) binnen de wettelijke termijn na goedkeuring door de algemene vergadering. Na neerlegging is het openbaar toegankelijk via de Balanscentrale.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "relatie-tot-jaarrekening",
+        "naam": {
+          "primair": "Verhouding tot de jaarrekening"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het jaarverslag en de jaarrekening zijn **complementaire** documenten die samen de volledige rapportering vormen:\n\n- **Jaarrekening** = kwantitatief (balans, resultatenrekening, toelichting) — onderworpen aan de controle van de commissaris\n- **Jaarverslag** = kwalitatief (toelichting, context, toekomst) — de commissaris gaat na of het jaarverslag **consistent is** met de jaarrekening, maar controleert de inhoud van het jaarverslag niet met dezelfde diepgang\n\nDe commissaris vermeldt in zijn controleverklaring of het jaarverslag kennelijke inconsistenties vertoont ten opzichte van de jaarrekening.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "geconsolideerd-jaarverslag",
+        "naam": {
+          "primair": "Geconsolideerd jaarverslag"
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Moedervennootschappen die verplicht zijn een geconsolideerde jaarrekening op te stellen, moeten ook een **geconsolideerd jaarverslag** opmaken. Dit jaarverslag heeft betrekking op de gehele groep en vervangt het enkelvoudig jaarverslag voor de rapportering op groepsniveau.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verantwoordelijkheid-bestuursorgaan",
+        "naam": {
+          "primair": "Verantwoordelijkheid van het bestuursorgaan"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het opstellen van het jaarverslag is een **exclusieve verantwoordelijkheid van het bestuursorgaan** — niet van de commissaris of een externe accountant. De commissaris toetst de consistentie maar is geen co-auteur van het jaarverslag. Bestuurders die een onjuist of onvolledig jaarverslag goedkeuren, kunnen aansprakelijk gesteld worden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekening",
+      "toelichting": "Het jaarverslag wordt samen met de jaarrekening neergelegd en vormt de kwalitatieve omkadering van de financiële staten.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "jaarverslag-bestuursorgaan",
+      "toelichting": "Beide termen worden soms door elkaar gebruikt; records-index toont twee aparte fiches — verhouding nader te bepalen in relaties_aanvullen.",
+      "grondslag": {
+        "confidence": "betwijfeld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "groottecategorie-vennootschap",
+      "toelichting": "De verplichting tot opstelling van een jaarverslag hangt af van de groottecategorie.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerd-jaarverslag",
+      "toelichting": "Enkelvoudig jaarverslag valt onder het bredere kader van geconsolideerd jaarverslag voor groepen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "commissaris-mandaat-en-statuut",
+      "toelichting": "De commissaris gaat na of het jaarverslag kennelijke inconsistenties vertoont ten opzichte van de jaarrekening.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "gepubliceerd_via",
+      "target": "openbaarmaking-jaarrekening",
+      "toelichting": "Het jaarverslag wordt via dezelfde neerleggingsprocedure als de jaarrekening openbaar gemaakt bij de NBB.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,11 +1,25 @@
 {
   "id": "cijferanalyse",
   "naam": {
-    "primair": "Cijferanalyse"
+    "primair": "Cijferanalyse",
+    "synoniemen": [
+      "analytische procedure",
+      "financiële analyse",
+      "cijfermatige analyse"
+    ],
+    "vertaling": {
+      "fr": "Analyse chiffrée"
+    }
   },
+  "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.6.II.C",
+      "1.6.III.A",
+      "1.6.IV.A"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +38,419 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.6.II.C",
-      "1.6.III.A",
-      "1.6.IV.A"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Cijferanalyse",
+        "tekst": "**Cijferanalyse** (analytische procedure) is een audit-techniek waarbij de auditor **plausibiliteitscontroles** uitvoert door financiële en niet-financiële gegevens met elkaar te vergelijken — binnen het boekjaar, over meerdere jaren of tegenover externe referenties. Het doel is significante fluctuaties, trends of relaties te detecteren die afwijken van de verwachtingen van de auditor, om zo risico's op materiële fouten in te schatten of aanvullend bewijs te verzamelen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Cijferanalyse is meer dan rekenen: de auditor bouwt een **verwachting** op basis van kennis van de onderneming, de sector en het economisch klimaat, en toetst vervolgens of de werkelijke cijfers binnen die verwachting vallen. Significante **onverwachte afwijkingen** zijn een signaal van potentieel onjuiste verwerking, een boekhoudkundige fout of — in het slechtste geval — fraude.\n\nDe techniek werkt op drie niveaus in de auditcyclus:\n1. **Risico-inschatting** (planningsfase) — breed aftasten van risicozones\n2. **Inhoudelijke toetsing** (uitvoering) — als substantiële test van saldi of transacties\n3. **Eindreview** (afronding) — globale consistentiecheck op de definitieve jaarrekening",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Auditors gebruiken cijferanalyse omdat veel fouten en fraudes een **spoor nalaten in verhoudingen** (ratio's, trends, verbanden) voordat ze zichtbaar worden in individuele posten. Een omzetgroei van 40% terwijl de brutomargepercentage stabiel blijft is plausibel; een gelijkblijvende omzet met een plotse brutomarge-stijging van 5 procentpunten is dat veel minder — dat vraagt verklaring. Cijferanalyse maakt deze afwijking systematisch zichtbaar zonder elke transactie individueel te controleren.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "**Risico-inschatting in de planningsfase** — brede verkenning van financiële trends om risicozones te identificeren vóór gedetailleerde controletesten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "ISA 315 vereist dat de auditor analytische procedures inzet als onderdeel van de risico-inschatting."
+        },
+        {
+          "tekst": "**Inhoudelijke toetsing van saldi** bij posten waarbij patronen of verhoudingen betrouwbaarder zijn dan detailcontroles — bv. personeelskosten (vast personeelsbestand × gemiddeld loon), interestkosten (gemiddeld uitstaand saldo × marktrente).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Analytische procedures als inhoudelijke test zijn bijzonder efficiënt wanneer de auditeur een betrouwbare verwachting kan opbouwen en het risico op materiële fout niet te hoog is."
+        },
+        {
+          "tekst": "**Eindreview** — globale consistentiecheck op de definitieve jaarrekening om te bevestigen dat de jaarrekening als geheel strookt met de kennis van de onderneming die tijdens de audit is opgebouwd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "ISA 520 verplicht analytische procedures als eindreview. Ze vormen een vangnet voor onopgemerkte fouten die individuele deelcontroles zijn ontglipt."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Volledig ongestructureerde of unieke transacties** zonder historisch patroon — bij eenmalige gebeurtenissen (bv. eerste jaar na fusie, verkoop van een bedrijfstak) is er geen betrouwbare verwachting te bouwen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Als enige inhoudelijke test** wanneer het risico op materiële fout hoog is — bij hoog risico vereist ISA 330 ook detailcontroles; cijferanalyse alleen volstaat dan niet.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De auditor moet een **betrouwbare verwachting** kunnen formuleren — dat vereist voldoende begrip van de onderneming, de sector en de causale verbanden achter de cijfers.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De **gegevens die als basis dienen** (niet-financiële data, vorig jaar, sectorgemiddelden) moeten betrouwbaar zijn — anders is de verwachting zelf niet valide.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Ruis door incidentele gebeurtenissen** — eenmalige transacties (verkoop van een gebouw, schadeloosstelling) vertekenen ratioanalyse en kunnen vals-positieve afwijkingen veroorzaken als de auditor ze niet herkent.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Te brede drempelwaarde** — als de drempel voor 'significante afwijking' te hoog ligt, worden echte fouten niet opgevolgd; als hij te laag ligt, verzandt de audit in nutteloze follow-up.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "types-vergelijking",
+        "naam": {
+          "primair": "Types van vergelijking"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Vijf veelgebruikte vergelijkingsbases in cijferanalyse:\n1. **Horizontale analyse** — vergelijking van hetzelfde gegeven over meerdere boekjaren (trend)\n2. **Verticale analyse** — verhoudingen binnen hetzelfde boekjaar (bv. % van omzet)\n3. **Ratio-analyse** — berekende verhoudingsgetallen (liquiditeit, solvabiliteit, rentabiliteit)\n4. **Vergelijking met budget/prognose** — werkelijk vs. verwacht (intern)\n5. **Vergelijking met sectordata** — werkelijk vs. sector- of branchegemiddelden (extern)\n\nElk type heeft een andere kracht: horizontale analyse detecteert verschuivingen in de tijd; verticale analyse detecteert structuurwijzigingen; ratio-analyse brengt economische verhoudingen in beeld; budget-vergelijking toetst planningsrealisme; sectorvergelijking plaatst de onderneming in context.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-significante-afwijking",
+        "naam": {
+          "primair": "Drempel voor significante afwijking"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "substantie": {
+            "tekst": "De auditor stelt vóór de uitvoering een **drempelwaarde** vast (absoluut bedrag en/of procentuele afwijking) waarboven een geconstateerde afwijking van de verwachting **opgevolgd** moet worden. Afwijkingen boven de drempel vereisen een verklaring — hetzij via aanvullende informatie van het management, hetzij via aanvullende controletesten.\n\nDe keuze van de drempel hangt af van:\n- De **materialiteitsdrempel** voor de opdracht\n- Het **inherente risico** van de te testen post\n- De **betrouwbaarheid van de verwachting** (hoe preciezer de verwachting, hoe lager de drempel kan zijn)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verwachting-opbouwen",
+        "naam": {
+          "primair": "Verwachting opbouwen"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Vóór de vergelijking formuleert de auditor een **onafhankelijke verwachting** van wat het te toetsen cijfer zou moeten zijn — gebaseerd op kennis van de onderneming, economische context, contracten, niet-financiële informatie en vorige auditervaringen. De verwachting wordt **vóór het raadplegen van de werkelijke cijfers** opgesteld, zodat ze niet wordt beïnvloed door de te toetsen data.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afwijkingen-opvolgen",
+        "naam": {
+          "primair": "Afwijkingen opvolgen"
+        },
+        "inhoud_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de werkelijke cijfers significant afwijken van de verwachting, volgt de auditor een gestructureerd opvolgingsproces:\n1. **Uitleg vragen aan management** — verklaring voor de afwijking\n2. **Verklaring corroboreren** — bevestigen dat de opgegeven reden ook echt de oorzaak is (bv. hogere verkoopprijzen → aanvullende prijslijsten raadplegen)\n3. **Bijkomende controletesten** — als de verklaring niet volstaat of niet corroboreerbaar is",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "niet-financiele-gegevens",
+        "naam": {
+          "primair": "Niet-financiële gegevens als ankerpunt"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Cijferanalyse is het sterkst wanneer de verwachting gebouwd wordt op **niet-financiële gegevens** die moeilijk te manipuleren zijn (productie-volumes, personeelsaantallen, vierkante meters, afgeleverde eenheden). De relatie tussen de financiële post en het niet-financieel gegeven creëert een **onafhankelijke toets** die management niet eenvoudig kan neutraliseren door enkel de financiële boekingen aan te passen.\n\nVoorbeelden:\n- Energieverbruik (kWh) × eenheidsprijs → verwachte energiekost\n- Aantal VTE × gemiddeld jaarloon → verwachte personeelskost\n- Aantal bezette kamers × gemiddelde kamerprijs → verwachte hotelomzet",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "betrouwbaarheid-verwachting",
+        "naam": {
+          "primair": "Betrouwbaarheid van de verwachting"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De **bewijskracht** van een analytische procedure is recht evenredig met de **betrouwbaarheid van de verwachting**. Een verwachting gebaseerd op gedetailleerde niet-financiële data (bv. productievolumes per maand × verkoopprijs per eenheid) levert sterkere bewijs op dan een ruwe schatting op basis van omzetgroei van het vorige jaar.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "documentatie",
+        "naam": {
+          "primair": "Documentatie van analytische procedures"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De auditor documenteert voor elke toegepaste analytische procedure:\n- De **gebruikte gegevens en bronnen** (welke periodes, welke vergelijkingsbasis)\n- De **opgebouwde verwachting** en hoe ze is afgeleid\n- De vastgestelde **afwijkingen** en de drempel voor opvolging\n- De **conclusie** (geen significante afwijking / verklaard / aanvullende tests nodig)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "procedure"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "auditrisicomodel",
+      "toelichting": "Cijferanalyse is een instrument binnen het auditrisicomodel — het helpt het detectierisico beheersen door gerichte plausibiliteitscontroles.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "audit-bewijs-verzamelen",
+      "toelichting": "Analytische procedures zijn één van de methoden om audit-bewijs te verzamelen naast detailcontroles en observaties.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "materialiteit-audit",
+      "toelichting": "De drempel voor significante afwijking in analytische procedures is gekoppeld aan de materialiteitsdrempel van de opdracht.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "risicoanalyse-audit",
+      "toelichting": "De inzet en intensiteit van analytische procedures wordt bepaald door de risico-inschatting per financiële statement-bewering.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "jaarrekeninganalyse",
+      "toelichting": "Jaarrekeninganalyse (PO 1.3/1.9) gebruikt dezelfde technieken maar vanuit een financieel-diagnostisch perspectief; cijferanalyse in audit is gericht op het detecteren van misstatements, niet op financiële diagnose.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -12,9 +12,14 @@
       "en": "Liability of accountant and auditor"
     }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.6.I.B",
+      "4.0.I.D"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
@@ -33,14 +38,57 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 13)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T09:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende modus: concept_type naar top-level verplaatst, kern.substantie verrijkt, gebruikscontext uitgebreid (niet_voor, voorwaarden, voordeel, extra risico), alle elementen aangevuld met substantie, inspanningsverbintenis inhoud_type gecorrigeerd naar mechanisme."
       }
-    ],
-    "ankers": [
-      "1.6.I.B",
-      "4.0.I.D"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De aansprakelijkheid van de accountant en de bedrijfsrevisor omvat de contractuele, buitencontractuele en tuchtrechtelijke aansprakelijkheid die ontstaat wanneer zij bij de uitoefening van hun opdracht schade veroorzaken aan cliënten, derden of de vennootschap. Het kader wordt bepaald door het Wetboek van Vennootschappen en Verenigingen (WVV), de wet van 7 december 2016 (IBR-wet), de ITAA-wet van 17 maart 2019 en het gemeen recht.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Accountants en revisoren kunnen persoonlijk aansprakelijk worden gesteld voor fouten bij de uitvoering van hun opdracht. De kernvraag bij elk schadegeval is drievoudig: (1) welk aansprakelijkheidsregime geldt — contractueel (tekortkoming opdracht), buitencontractueel (schade aan derde) of tuchtrechtelijk (schending beroepsregels); (2) geldt een wettelijk plafond voor civiele aansprakelijkheid; en (3) is er sprake van opzet of grove nalatigheid die het plafond opheft en leidt tot onbeperkte aansprakelijkheid. De drie sporen lopen onafhankelijk en kunnen voor eenzelfde fout tegelijk spelen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Accountants en revisoren oefenen een publieke functie uit: derden (banken, aandeelhouders, overheid) vertrouwen op hun verklaringen en adviezen. Omdat dit vertrouwen een essentieel goed is voor de marktwerking, legt de wet strengere aansprakelijkheidsregels op dan voor gewone dienstverrichters — maar begrenst het aansprakelijkheidsrisico tegelijkertijd via een wettelijk plafond, zodat de beroepsgroep verzekerbaar blijft. De gecertificeerd accountant moet dit kader kennen om zijn eigen risicoblootstelling te beheersen en cliënten correct te adviseren over de gevolgen van fouten door hun externe accountant of commissaris.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "deontologie-accountant",
@@ -57,6 +105,7 @@
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Inschatten van het persoonlijk risico bij een foutieve controleverklaring of foutief advies.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -66,10 +115,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Inschatten van het persoonlijk risico bij een foutieve controleverklaring of foutief advies."
+          }
         },
         {
+          "tekst": "Beoordelen of een beroepsaansprakelijkheidsverzekering volstaat voor de omvang van de opdracht.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -79,10 +128,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Beoordelen of een beroepsaansprakelijkheidsverzekering volstaat voor de omvang van de opdracht."
+          }
         },
         {
+          "tekst": "Adviseren van cliënten over verhaalsmogelijkheden bij schade veroorzaakt door hun externe accountant of commissaris.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -92,12 +141,96 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Adviseren van cliënten over verhaalsmogelijkheden bij schade veroorzaakt door hun externe accountant of commissaris."
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Aansprakelijkheid van bestuurders of oprichters voor fouten in het bestuur van de vennootschap — dat is een apart regime (zie aansprakelijkheid-oprichters-bestuurders).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Strafrechtelijke vervolging wegens valsheid in geschriften of fiscale fraude — dat valt buiten dit civiele en tuchtrechtelijke kader.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Er moet een **fout** zijn: een handeling of nalaten die afwijkt van wat een normaal zorgvuldig beroepsbeoefenaar in dezelfde omstandigheden zou doen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Er moet **schade** zijn: een nadeel dat de benadeelde effectief heeft geleden (vermogensschade of morele schade).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Er moet een **oorzakelijk verband** zijn tussen de fout en de schade (conditio sine qua non-test).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Het **wettelijk aansprakelijkheidsplafond** maakt de beroepsaansprakelijkheidsverzekering verzekerbaar en laat beroepsbeoefenaars toe grote opdrachten te aanvaarden zonder onbegrensd persoonlijk risico.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "Onbeperkte solidaire aansprakelijkheid treedt op bij opzettelijke fout of grove nalatigheid; het wettelijk plafond geldt dan niet.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -107,12 +240,25 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Onbeperkte solidaire aansprakelijkheid treedt op bij opzettelijke fout of grove nalatigheid; het wettelijk plafond geldt dan niet."
+          }
+        },
+        {
+          "tekst": "De **vaste vertegenwoordiger-fysieke persoon** en het auditkantoor kunnen naast elkaar persoonlijk worden aangesproken — het rechtspersoon-scherm biedt geen volledige bescherming bij wettelijke controle-opdrachten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "indicaties": [
         {
+          "tekst": "Een foutieve of misleidende controleverklaring die schade veroorzaakt aan aandeelhouders of derden.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -122,10 +268,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Een foutieve of misleidende controleverklaring die schade veroorzaakt aan aandeelhouders of derden."
+          }
         },
         {
+          "tekst": "Een accountant die nalaat fraude te melden of een incorrect fiscaal advies geeft.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -135,10 +281,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Een accountant die nalaat fraude te melden of een incorrect fiscaal advies geeft."
+          }
         },
         {
+          "tekst": "Schending van beroepsregels die leidt tot een tuchtprocedure bij ITAA of IBR.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -148,8 +294,7 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Schending van beroepsregels die leidt tot een tuchtprocedure bij ITAA of IBR."
+          }
         }
       ]
     },
@@ -183,6 +328,19 @@
                 }
               ]
             }
+          },
+          "substantie": {
+            "tekst": "De drie sporen kunnen voor eenzelfde feit tegelijk lopen: een foutieve controleverklaring kan leiden tot contractuele aansprakelijkheid jegens de vennootschap, buitencontractuele aansprakelijkheid jegens gedupeerde aandeelhouders of banken, én een tuchtprocedure bij het IBR. De tuchtprocedure leidt niet tot schadevergoeding maar tot beroepssancties (berisping, schorsing, schrapping uit het register).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       },
@@ -194,6 +352,7 @@
         "inhoud_type": "regel",
         "kern": {
           "definitie": {
+            "tekst": "De wetgever heeft voor de wettelijke opdrachten van accountants en revisoren een maximumbedrag voor civiele aansprakelijkheid ingevoerd, dat varieert naargelang de grootte van de gecontroleerde entiteit. Voor gewone wettelijke controles van niet-OOB-entiteiten bedraagt het plafond doorgaans 3 à 5 miljoen euro; voor organisaties van openbaar belang (OOB) geldt een hoger plafond.",
             "grondslag": {
               "confidence": "betwijfeld",
               "bronnen": [
@@ -204,21 +363,20 @@
                   "flag": "concrete-bedragen-te-verifiëren-in-ibr-wet-of-kb"
                 }
               ]
-            },
-            "tekst": "De wetgever heeft voor de wettelijke opdrachten van accountants en revisoren een maximumbedrag voor civiele aansprakelijkheid ingevoerd, dat varieert naargelang de grootte van de gecontroleerde entiteit. Voor gewone wettelijke controles van niet-OOB-entiteiten bedraagt het plafond doorgaans 3 à 5 miljoen euro; voor organisaties van openbaar belang (OOB) geldt een hoger plafond."
+            }
           },
           "substantie": {
+            "tekst": "Het plafond geldt enkel voor **wettelijke** opdrachten (commissaris-mandaat). Voor vrije opdrachten (fiscaal advies, boekhoudkundige bijstand, opstellen jaarrekening) bestaat geen wettelijk plafond — enkel contractuele aansprakelijkheidsbeperkingen via de opdrachtbrief zijn mogelijk. Het plafond maakt de beroepsaansprakelijkheidsverzekering verzekerbaar en beperkt het persoonlijk risico bij niet-opzettelijke fouten.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
-            },
-            "tekst": "Het plafond maakt de beroepsaansprakelijkheidsverzekering verzekerbaar en beperkt het persoonlijk risico van de revisor bij niet-opzettelijke fouten."
+            }
           }
         }
       },
@@ -251,6 +409,19 @@
                 }
               ]
             }
+          },
+          "substantie": {
+            "tekst": "**Grove nalatigheid** onderscheidt zich van lichte nalatigheid door de ernst: een fout die een normaal voorzichtig beroepsbeoefenaar zelfs bij minimale aandacht niet zou begaan. De grens is feitelijk en wordt door de rechter beoordeeld. Dit is het centrale risicogebied: wat als lichte fout begint, kan — bij groot verlies en hoge advocaatkosten aan de kant van de benadeelde — door de rechter als grove nalatigheid worden gekwalificeerd, waardoor het plafond wegvalt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       },
@@ -262,6 +433,7 @@
         "inhoud_type": "regel",
         "kern": {
           "definitie": {
+            "tekst": "De commissaris is aansprakelijk ten opzichte van de vennootschap en derden voor alle schade die het gevolg is van zijn fouten of nalatigheden bij de uitoefening van zijn mandaat. De commissaris is solidair aansprakelijk met alle personen die een fout hebben begaan waaraan de commissaris deelnam.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -271,21 +443,20 @@
                   "datum": "2026-05-22"
                 }
               ]
-            },
-            "tekst": "De commissaris is aansprakelijk ten opzichte van de vennootschap en derden voor alle schade die het gevolg is van zijn fouten of nalatigheden bij de uitoefening van zijn mandaat. De commissaris is solidair aansprakelijk met alle personen die een fout hebben begaan waaraan de commissaris deelnam."
+            }
           },
           "substantie": {
+            "tekst": "Zowel de rechtspersoon (auditkantoor) als de vaste vertegenwoordiger-fysieke persoon kunnen persoonlijk aangesproken worden. De solidaire aansprakelijkheid met derden die een fout begingen (bv. frauderende bestuurders waarbij de commissaris onvoldoende waakzaam was) maakt dit een bijzonder ingrijpend regime: de commissaris kan voor de volledige schade aangesproken worden, ook al was zijn eigen aandeel in de fout beperkt. Regresrecht op de medeaansprakelijken is mogelijk maar praktisch moeilijk.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
-            },
-            "tekst": "Zowel de rechtspersoon (auditkantoor) als de vaste vertegenwoordiger-fysieke persoon kunnen persoonlijk aangesproken worden."
+            }
           }
         }
       },
@@ -318,6 +489,19 @@
                 }
               ]
             }
+          },
+          "substantie": {
+            "tekst": "Contractuele aansprakelijkheidsbeperkingen (via opdrachtbrief) zijn geldig voor zover ze niet in strijd zijn met de openbare orde of de beroepsregels. De gecertificeerd accountant kan het maximumbedrag van de aansprakelijkheid contractueel begrenzen (bv. beperkt tot het honorarium of tot een bepaald bedrag), maar kan grove nalatigheid of bedrog nooit contractueel uitsluiten — zulke clausules zijn nietig.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       },
@@ -326,9 +510,10 @@
         "naam": {
           "primair": "Inspanningsverbintenis versus resultaatsverbintenis"
         },
-        "inhoud_type": "begrip",
+        "inhoud_type": "mechanisme",
         "kern": {
           "definitie": {
+            "tekst": "De accountant en revisor zijn in principe gehouden tot een inspanningsverbintenis: zij verbinden zich ertoe professionele zorg te betrachten, niet tot het bereiken van een bepaald resultaat. Uitzonderingen bestaan waar de wet een specifieke verklaring vereist (bv. geen materiële onjuistheid in jaarrekening), die dichter bij een resultaatsverbintenis leunt.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
@@ -338,21 +523,20 @@
                   "datum": "2026-05-22"
                 }
               ]
-            },
-            "tekst": "De accountant en revisor zijn in principe gehouden tot een inspanningsverbintenis: zij verbinden zich ertoe professionele zorg te betrachten, niet tot het bereiken van een bepaald resultaat. Uitzonderingen bestaan waar de wet een specifieke verklaring vereist (bv. geen materiële onjuistheid in jaarrekening), die dichter bij een resultaatsverbintenis leunt."
+            }
           },
           "substantie": {
+            "tekst": "Dit onderscheid bepaalt de **bewijslast**: bij een inspanningsverbintenis moet de benadeelde partij bewijzen dat de beroepsbeoefenaar niet heeft gehandeld als een normaal zorgvuldig vakgenoot in dezelfde omstandigheden. Bij een resultaatsverbintenis volstaat het aantonen dat het resultaat uitbleef — de schuldenaar moet dan overmacht bewijzen. In geschillen is de kwalificatie van de verbintenis dus bepalend voor wie het moeilijkste bewijs draagt.",
             "grondslag": {
               "confidence": "verondersteld",
               "bronnen": [
                 {
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
-                  "datum": "2026-05-22"
+                  "datum": "2026-05-23"
                 }
               ]
-            },
-            "tekst": "Bij een inspanningsverbintenis moet de benadeelde partij bewijzen dat de beroepsbeoefenaar niet heeft gehandeld als een normaal zorgvuldig vakgenoot in dezelfde omstandigheden."
+            }
           }
         }
       },
@@ -387,54 +571,27 @@
                 }
               ]
             }
+          },
+          "substantie": {
+            "tekst": "De verjaring is praktisch relevant omdat boekhoudkundige of fiscale fouten soms pas jaren later aan het licht komen (bv. tijdens een belastingcontrole 3 jaar na aanslagjaar). De verjaringstermijn begint te lopen op de dag waarop de benadeelde weet had van zowel de schade als de identiteit van de aansprakelijke — niet op de dag van de fout zelf. Dit kan de verjaringstermijn aanzienlijk opschuiven ten opzichte van de datum van de foutieve handeling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       }
     ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De aansprakelijkheid van de accountant en de bedrijfsrevisor omvat de contractuele, buitencontractuele en tuchtrechtelijke aansprakelijkheid die ontstaat wanneer zij bij de uitoefening van hun opdracht schade veroorzaken aan cliënten, derden of de vennootschap. Het kader wordt bepaald door het Wetboek van Vennootschappen en Verenigingen (WVV), de wet van 7 december 2016 (IBR-wet), de ITAA-wet van 17 maart 2019 en het gemeen recht."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Accountants en revisoren kunnen persoonlijk aansprakelijk worden gesteld voor fouten bij de uitvoering van hun opdracht, met een wettelijk beperkt maximumbedrag dat varieert naargelang de aard van de opdracht."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Accountants en revisoren oefenen een publieke functie uit: derden (banken, aandeelhouders, overheid) vertrouwen op hun verklaringen en adviezen. Omdat dit vertrouwen een essentieel goed is voor de marktwerking, legt de wet strengere aansprakelijkheidsregels op dan voor gewone dienstverrichters — maar begrenst het aansprakelijkheidsrisico tegelijkertijd via een wettelijk plafond, zodat de beroepsgroep verzekerbaar blijft. De gecertificeerd accountant moet dit kader kennen om zijn eigen risicoblootstelling te beheersen en cliënten correct te adviseren over de gevolgen van fouten door hun externe accountant of commissaris."
-      }
-    },
     "syntheses": [
       {
         "type": "keuzekader",
+        "intro": "Wanneer schade optreedt door een fout van de accountant of revisor, bepaalt de aard van de fout en de hoedanigheid van de benadeelde welk aansprakelijkheidsregime van toepassing is.",
         "inhoud": {
           "assen": [
             {
@@ -477,8 +634,7 @@
               ]
             }
           ]
-        },
-        "intro": "Wanneer schade optreedt door een fout van de accountant of revisor, bepaalt de aard van de fout en de hoedanigheid van de benadeelde welk aansprakelijkheidsregime van toepassing is."
+        }
       }
     ]
   },
@@ -599,6 +755,5 @@
         ]
       }
     }
-  ],
-  "concept_type": "kader"
+  ]
 }

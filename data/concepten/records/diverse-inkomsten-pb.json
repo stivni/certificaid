@@ -1,8 +1,18 @@
 {
   "id": "diverse-inkomsten-pb",
   "naam": {
-    "primair": "Diverse inkomsten pb"
+    "primair": "Diverse inkomsten",
+    "afkorting": "DI",
+    "synoniemen": [
+      "diverse inkomsten PB",
+      "art. 90 WIB92-inkomsten",
+      "vierde categorie PB"
+    ],
+    "vertaling": {
+      "fr": "revenus divers"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +34,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, gebruikscontext, elementen en relaties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -35,20 +51,505 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Diverse inkomsten pb",
+        "tekst": "**Diverse inkomsten** zijn een restcategorie binnen de Belgische personenbelasting: inkomsten die niet als beroepsinkomen, onroerend inkomen of roerend inkomen kwalificeren, maar toch expliciet door de wet als belastbaar worden aangemerkt. De categorie is limitatief opgesomd — alleen wat de wet noemt, valt eronder.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De limitatieve opsomming is het structurele verschil met de andere PB-categorieën: wat niet in de opsomming staat én niet onder de drie andere categorieën valt, is in beginsel onbelast (bv. louter speculatieve meerwaarden buiten het normaal beheer van het privé-vermogen zijn in bepaalde gevallen niet belast, of vallen onder een specifieke categorie)."
+      },
+      "substantie": {
+        "tekst": "De categorie 'diverse inkomsten' bundelt uiteenlopende inkomsten die de wetgever afzonderlijk belastbaar heeft willen stellen zonder ze onder beroepsinkomen te plaatsen. Praktisch meest relevant voor de GA-stagiair zijn:\n\n- **Meerwaarden op ongebouwde onroerende goederen** (korte termijn) — belast bij vervreemding binnen 5 jaar na verwerving of bij bebouwing\n- **Meerwaarden op gebouwde onroerende goederen** — belast bij vervreemding binnen 5 jaar na verwerving (privébezit)\n- **Meerwaarden op aandelen** buiten de uitoefening van een beroepsactiviteit — belast wanneer ze het normale beheer van een privévermogen overstijgen ('speculatief karakter')\n- **Occasionele prestaties, verrichtingen of speculaties** — eenmalige vergoeding voor een dienst buiten beroepsverband\n- **Onderhoudsgelden** die de belastingplichtige ontvangt (voor zover aftrekbaar bij de betaler)\n- **Prijzen, subsidies en renten** in het kader van een wetenschappelijke erkenning of artistieke activiteit (deels belast)\n\nBelangrijkste praktijkvragen: (1) normaal beheer vs. speculatie bij aandelen/vastgoed, (2) onderscheid met beroepsinkomen wanneer de activiteit een zekere regelmaat krijgt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De categorie bestaat om een **fiscaal vacuüm** te vermijden: zonder een restcategorie zouden eenmalige, niet-beroepsmatige vergoedingen of meerwaarden op privébezit belastingvrij blijven, ook wanneer de wetgever die belastbaarheid maatschappelijk wenselijk acht. Door de limitatieve opsomming behoudt de wetgever controle: alleen de gevallen die hij met name noemt zijn belastbaar.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Particulieren die een **onroerend goed** (gebouwd of ongebouwd) vervreemden met een meerwaarde binnen de wettelijke termijnen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De meerwaarde valt niet onder beroepsinkomen zolang de vervreemding geen beroepskarakter heeft, maar is door de wet expliciet belastbaar gemaakt als divers inkomen."
+        },
+        {
+          "tekst": "Particulieren die **aandelen** buiten beroepsverband vervreemden waarbij de verrichting een speculatief karakter heeft of de normale grenzen van privévermogensbeheer overstijgt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Belastingplichtigen die **occasionele vergoedingen** ontvangen voor prestaties buiten elke beroepsactiviteit (bv. eenmalig advies aan een vriend, incidentele bemiddeling).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Begunstigden van **onderhoudsgelden** die de betaler in PB-aangifte als beroepskost aftrekt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De symmetrie van aftrek bij betaler en belasting bij ontvanger is een fundamenteel principe van het onderhoudsgeld-regime."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Beroepsmatige vervreemdingen** van onroerend goed of aandelen die de drempel van normaal privévermogensbeheer structureel overschrijden — die kwalificeren als beroepsinkomen (winst of baten).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Roerende inkomsten** die al als roerend inkomen kwalificeren (dividenden, interesten, royalty's) — die vallen onder de eigen PB-categorie roerende inkomsten, niet onder diverse inkomsten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Zuivere speculatieve meerwaarden op aandelen** die het normale beheer van een privévermogen **niet** overstijgen — deze zijn in beginsel onbelast.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De grens 'normaal beheer vs. speculatie' is een feitenkwestie die de administratie betwist. Claim te verifiëren via claims_checken-operatie."
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De belastbaarheid vereist dat het inkomen **expliciet in de limitatieve wettelijke opsomming** staat. Inkomsten die niet vermeld zijn én niet onder de drie andere PB-categorieën vallen, zijn onbelast.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Herkwalificatie naar beroepsinkomen**: wanneer occasionele prestaties of vastgoedtransacties een zeker patroon of organisatie aannemen, kan de fiscus ze als beroepsbaten belasten — met een hoger tarief (progressief) en sociale bijdragen als gevolg.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "limitatief-karakter",
+        "naam": {
+          "primair": "Limitatief karakter van de opsomming"
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De diverse inkomsten zijn **limitatief** door de wet opgesomd. Enkel de inkomsten die de wet met name noemt vallen in deze categorie. Een inkomst die niet in de opsomming staat én niet onder de drie andere PB-categorieën valt, is in beginsel **onbelastbaar**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit principe geldt voor de volledige PB-structuur: belastbaarheid vereist een wettelijke grondslag — het legaliteitsbeginsel in de fiscaliteit. Diverse inkomsten zijn hiervan een duidelijke illustratie."
+          }
+        }
+      },
+      {
+        "id": "meerwaarden-ongebouwd-oog",
+        "naam": {
+          "primair": "Meerwaarden op ongebouwde onroerende goederen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Meerwaarden op **ongebouwde** onroerende goederen (grond) zijn belastbaar als divers inkomen wanneer het goed wordt vervreemd:\n- **Binnen 5 jaar** na de datum van verwerving (notariële akte), OF\n- **Binnen 5 jaar** na een **bebouwing** van het goed.\n\nDe meerwaarde = verkoopprijs − aankoopprijs (eventueel geïndexeerd en verhoogd met kosten).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-90-al-1-8"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De 5-jaarsgrens is een wettelijke drempel die speculatief korte-termijn-grondhandel onderscheidt van langdurig vastgoedbezit in het kader van normaal vermogensbeheer."
+          }
+        }
+      },
+      {
+        "id": "meerwaarden-gebouwd-oog",
+        "naam": {
+          "primair": "Meerwaarden op gebouwde onroerende goederen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Meerwaarden op **gebouwde** onroerende goederen (woning, appartement, kantoor) in het **privébezit** zijn belastbaar als divers inkomen wanneer het goed wordt vervreemd binnen **5 jaar** na de datum van verwerving.\n\nBelangrjike uitzondering: de **eigen woning** (woning die de belastingplichtige zelf bewoond heeft en die zijn enige woning is) is doorgaans vrijgesteld.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-90-al-1-10"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De precieze vrijstellingsvoorwaarden voor de eigen woning (gewestelijk recht vs. federaal WIB92) zijn onderhevig aan wijzigingen en bevoegdheidsoverdrachten. Te verifiëren bij claims_checken."
+          }
+        }
+      },
+      {
+        "id": "meerwaarden-aandelen",
+        "naam": {
+          "primair": "Meerwaarden op aandelen buiten beroepsverband"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Meerwaarden op aandelen door een particulier zijn **in beginsel onbelast** als ze kaderen in het **normale beheer van een privévermogen**. Ze worden belastbaar als divers inkomen wanneer de verrichting een **speculatief karakter** heeft.\n\nDe beoordeling is een feitenkwestie: hoe frequent worden aandelen verhandeld, welk deel van het vermogen is erin belegd, is er gebruik van geleend geld, worden risicohefbomen ingezet? Geen van deze factoren is op zichzelf doorslaggevend.\n\nBijzonder geval: meerwaarden op aandelen in het kader van een **verkoop van een wezenlijk deel van een vennootschap aan een buitenlandse koper** vallen onder een specifieke bepaling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-90-al-1-1"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De 'normaal beheer'-toets is het meest betwiste terrein in de diverse inkomsten. Rechtspraak en administratieve standpunten divergeren; de accountant moet het risico analyseren op basis van alle omstandigheden."
+          }
+        }
+      },
+      {
+        "id": "occasionele-prestaties",
+        "naam": {
+          "primair": "Occasionele prestaties, verrichtingen en speculaties"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Eenmalige of toevallige vergoedingen voor een prestatie of dienst die **buiten elke beroepsactiviteit** worden geleverd, zijn belastbaar als divers inkomen. De activiteit mag geen organisatie of herhaling vertonen die haar beroepsmatig maakt.\n\nVoorbeelden: eenmalige presentatie waarvoor een vergoeding wordt ontvangen, incidentele consultancy voor een familielid, loutere toevalstreffer bij speculatieve verrichting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-90-al-1-1"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderhoudsgelden-ontvangen",
+        "naam": {
+          "primair": "Ontvangen onderhoudsgelden"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Onderhoudsgelden die een belastingplichtige **ontvangt** zijn belastbaar als divers inkomen, maar **slechts voor 80%** van het ontvangen bedrag. De vrijstelling van 20% compenseert het feit dat de ontvanger de gelden niet integraal vrij kan besteden.\n\nVoorwaarde voor belastbaarheid bij de ontvanger: de betaler trekt het onderhoudsgeld **daadwerkelijk af** als beroepskost of persoonlijke aftrek in zijn eigen aangifte.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-90-al-1-3-en-art-104"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De 80%-belastbaarheid en de symmetrie met de aftrek bij de betaler zijn te verifiëren via de wettekst. Precieze wetsverwijzingen bij claims_checken controleren."
+          }
+        }
+      },
+      {
+        "id": "tarief-diverse-inkomsten",
+        "naam": {
+          "primair": "Belastingtarief diverse inkomsten"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Diverse inkomsten worden **niet samen met de andere belastbare inkomsten** belast aan het progressief tarief, maar in beginsel aan een **afzonderlijk tarief**. De tarieven variëren naargelang de subcategorie:\n\n- Meerwaarden ongebouwde OG (< 5 jaar): doorgaans **33%**\n- Meerwaarden gebouwde OG (< 5 jaar): doorgaans **16,5%**\n- Meerwaarden aandelen (speculatief): doorgaans **33%**\n- Occasionele prestaties: doorgaans **33%**\n- Onderhoudsgelden: progressief tarief (globalisatie)\n\nReserve: wanneer het **globaal gemiddeld belastingtarief** op de andere inkomsten lager is dan het afzonderlijk tarief, wordt de **meer voordelige belasting** toegepast (globalisatieregel ten voordele van de belastingplichtige).",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WIB92",
+                  "ref": "art-171"
+                },
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De precieze tarieven (33% / 16,5%) en de globalisatieregel zijn wettelijk verankerd maar de precieze subcategorieën per tarief vereisen verificatie bij claims_checken."
+          }
+        }
+      },
+      {
+        "id": "normaal-beheer-grens",
+        "naam": {
+          "primair": "Grens normaal privévermogensbeheer"
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De **norm 'normaal beheer van een privévermogen'** is de centrale toets om te beoordelen of een verrichting belastbaar is als divers inkomen of onbelast blijft. Het gaat om een **feitelijke beoordeling** op basis van meerdere indicatoren:\n\n- Frequentie en herhaling van de verrichtingen\n- Organisatie en professionalisme (gebruik van marktanalyse, risicobeheer)\n- Gebruik van geleend geld of financieel hefboomeffect\n- Omvang van de positie in verhouding tot het totale vermogen\n- Kennis en ervaring van de belastingplichtige\n\nGeen van deze factoren is op zichzelf doorslaggevend — het is een totaalbeoordeling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De administratie past deze toets streng toe bij crypto, aandelenhandel via apps en vastgoedflipping. Rechtspraak is versnipperd; de adviseur moet altijd alle feiten in kaart brengen."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "inkomstencategorieen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Diverse inkomsten zijn de vierde en residuele inkomstencategorie in de PB-structuur, naast onroerende, roerende en beroepsinkomsten."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "beroepsinkomen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide zijn belastbaar in de personenbelasting",
+        "Beide kunnen betrekking hebben op prestaties of meerwaarden"
+      ],
+      "verschillen": [
+        "Beroepsinkomen vereist regelmaat en organisatie; diverse inkomsten zijn occasioneel of limitatief omschreven",
+        "Beroepsinkomen belast aan progressief tarief; diverse inkomsten doorgaans aan afzonderlijk tarief (33% of 16,5%)",
+        "Sociale bijdragen verschuldigd op beroepsinkomen, niet op diverse inkomsten"
+      ],
+      "verwarring_risico": "De grens tussen occasionele prestatie (divers) en beroepsbaat is een frequent discussiepunt bij zijactiviteiten en platforminkomsten"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "roerend-inkomen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide categorieën kunnen meerwaarden op financiële activa bevatten"
+      ],
+      "verschillen": [
+        "Roerende inkomsten (dividenden, interesten) zijn in de meeste gevallen bevrijdend voorgeheven via RV; diverse inkomsten worden via de aangifte belast",
+        "Meerwaarden op aandelen buiten beroepsverband vallen onder diverse inkomsten, niet onder roerende inkomsten"
+      ],
+      "verwarring_risico": "Belastingplichtigen verwarren meerwaarden op aandelen (diverse inkomsten of onbelast) met dividenden (roerend inkomen)"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "onroerend-inkomen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide categorieën hebben betrekking op onroerende goederen in het privébezit"
+      ],
+      "verschillen": [
+        "Onroerend inkomen slaat op de jaarlijkse opbrengst (huur of KI); diverse inkomsten slaan op de meerwaarde bij vervreemding",
+        "Onroerend inkomen wordt belast via globalisatie of forfait; meerwaarden via afzonderlijk tarief"
+      ],
+      "verwarring_risico": "Vastgoedtransacties raken beide categorieën; de accountant moet letten op huur vs. meerwaarde bij dezelfde belastingplichtige"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "personenbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De categorisering, tarieven en vrijstellingen voor diverse inkomsten worden bepaald door de PB-regels in het WIB92."
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "inkomstencategorieen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Diverse inkomsten zijn de residuele categorie: ze vatten inkomsten die niet in de drie hoofdcategorieën passen maar toch expliciet belastbaar zijn gemaakt — een structurele uitzondering op het principe dat enkel in de wet genoemde inkomsten belastbaar zijn."
+    }
+  ]
 }

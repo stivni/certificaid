@@ -1,11 +1,24 @@
 {
   "id": "managementcontrole-fiche",
   "naam": {
-    "primair": "Managementcontrole fiche"
+    "primair": "Managementcontrole",
+    "synoniemen": [
+      "managementcontrolesysteem",
+      "management control system",
+      "interne beheersing"
+    ],
+    "vertaling": {
+      "fr": "contrôle de gestion",
+      "en": "management control"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.7.I.C"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +37,483 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "1.7.I.C"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Managementcontrole fiche",
+        "tekst": "**Managementcontrole** is het geheel van processen, instrumenten en mechanismen waarmee het management van een organisatie ervoor zorgt dat de activiteiten in lijn blijven met de strategische doelstellingen. Het omvat het stellen van doelen, het meten van prestaties, het analyseren van afwijkingen en het bijsturen van het gedrag van medewerkers en afdelingen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Managementcontrole verbindt de **strategie** van de organisatie met de **operationele uitvoering**. Het is het antwoord op de vraag: hoe weet het management dat de organisatie doet wat ze zou moeten doen? De kern bestaat uit drie samenhangende cycli:\n\n1. **Doelen stellen** — vertaling van strategie naar meetbare operationele en financiële targets (budget, KPI's)\n2. **Meten en rapporteren** — systematisch opvolgen van werkelijke prestaties t.o.v. die targets\n3. **Bijsturen** — op basis van analyse van afwijkingen corrigerende maatregelen nemen\n\nManagementcontrole onderscheidt zich van **interne controle (COSO)** door focus: COSO-interne controle richt zich op betrouwbaarheid van financiële rapportering en compliance; managementcontrole richt zich op de realisatie van strategische en operationele doelstellingen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het onderscheid met COSO-interne controle is cruciaal voor het examen: beide betreffen 'beheersing' maar vanuit verschillende oriëntaties — managementcontrole is doelgericht (strategisch), interne controle is procedureel (compliance en betrouwbaarheid)."
+      },
+      "rationale": {
+        "tekst": "Het bestaansrecht van managementcontrole is het **principal-agent-probleem**: de doelstellingen van medewerkers en afdelingen wijken af van die van de organisatie tenzij er mechanismen zijn die de belangen aligneren. Managementcontrole creëert die mechanismen — via budgetten (vooraf), rapportering (tijdens) en evaluatie (achteraf) — zodat gedecentraliseerde beslissingen toch consistent zijn met de centrale strategie.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Organisaties met **gedecentraliseerde beslissingsstructuur** waarbij afdelingen of business units een zekere autonomie hebben.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Hoe groter de gedecentraliseerde beslissingsbevoegdheid, hoe groter de nood aan coördinatie-mechanismen die de individuele beslissingen in lijn houden met de organisatiedoelstellingen."
+        },
+        {
+          "tekst": "Complexe organisaties met **meerdere productlijnen, afdelingen of geografische eenheden** die elk afzonderlijk resultaten moeten realiseren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waarbij de **strategische doelstellingen vertaald moeten worden naar operationele en financiële targets** per afdeling, manager of project.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Zuivere compliance-controle** op het vlak van financiële rapportering — daarvoor is het COSO-interne-controlekader de juiste referentie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "COSO is gericht op betrouwbaarheid van financiële informatie en naleving van regelgeving; managementcontrole richt zich op het realiseren van doelstellingen."
+        },
+        {
+          "tekst": "**Eenmansbedrijven of kleine vennootschappen** waarbij eigenaar en manager samenvallen — het principal-agent-probleem stelt zich dan nauwelijks.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Vroegtijdige signalering** van afwijkingen t.o.v. de strategie, zodat bijsturing mogelijk is vóór problemen escaleren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Gedragsbeïnvloeding**: medewerkers sturen hun gedrag bij wanneer ze weten dat prestaties worden gemeten en geëvalueerd — dit is de basis van de motiverende werking van budgetten en KPI's.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Suboptimalisatie**: managers optimaliseren de maatstaf waarop ze worden beoordeeld ten koste van de globale doelstelling — een dysfunctioneel neveneffect van een te eng gekozen prestatiemaatstaf.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Klassiek voorbeeld: manager knipt R&D-kosten om kwartaalbudget te halen, maar schaadt de langetermijninnovatie."
+        },
+        {
+          "tekst": "**Budget slack**: managers bouwen bewust slack (ruimte) in hun budget in om eenvoudig targets te halen — vertekent de planningsbasis en ondermijnt de sturingsfunctie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "managementcontrole-cyclus",
+        "naam": {
+          "primair": "Managementcontrolecyclus"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De managementcontrolecyclus is de iteratieve kringloop van vier fasen die het beheersingssysteem in beweging houdt:\n1. **Plannen** — doelstellingen en budgetten opstellen\n2. **Uitvoeren** — activiteiten realiseren\n3. **Meten** — werkelijke prestaties registreren\n4. **Analyseren en bijsturen** — afwijkingen duiden en corrigerende maatregelen nemen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "controlehefbomen-simons",
+        "naam": {
+          "primair": "Vier controlehefbomen (Simons)",
+          "synoniemen": [
+            "levers of control",
+            "LOC-model"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Het Simons-model onderscheidt vier complementaire hefbomen waarmee management de strategie-implementatie stuurt:\n- **Beliefs systems** — missie en waarden die gedrag oriënteren\n- **Boundary systems** — expliciete grenzen (verboden zones) die risico inperken\n- **Diagnostic control systems** — feedback-systemen die vergelijken met targets (budget, KPI's)\n- **Interactive control systems** — dialoog over strategische onzekerheden, agenda voor top-management",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Diagnostische systemen zijn de meest zichtbare hefboom (budgetten, variantieanalyse), maar interactieve systemen zijn strategisch belangrijker voor het anticiperen op onzekerheden."
+          }
+        }
+      },
+      {
+        "id": "verantwoordelijkheidscentrum",
+        "naam": {
+          "primair": "Verantwoordelijkheidscentrum",
+          "synoniemen": [
+            "responsibility center",
+            "resultaatcentrum"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een verantwoordelijkheidscentrum is een organisatorische eenheid waarvan het hoofd verantwoordelijk is voor een **afgebakende set van prestatiemaatstaven**. Er zijn vier types:\n- **Kostencentrum** — verantwoordelijk voor kosten, niet voor opbrengsten (bv. productieatelier)\n- **Opbrengstencentrum** — verantwoordelijk voor omzet (bv. verkoopteam)\n- **Winstcentrum** — verantwoordelijk voor resultaat = opbrengsten minus kosten (bv. business unit)\n- **Investeringscentrum** — verantwoordelijk voor resultaat én ingezet kapitaal (bv. dochtermaatschappij)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het type verantwoordelijkheidscentrum bepaalt welke maatstaven worden gebruikt en welke sturingslogica van toepassing is: een kostencentrum wordt gestuurd op efficiency, een investeringscentrum op rendement op vermogen."
+          }
+        }
+      },
+      {
+        "id": "prestatiemaatstaven-financieel-niet-financieel",
+        "naam": {
+          "primair": "Financiële en niet-financiële prestatiemaatstaven",
+          "synoniemen": [
+            "KPI",
+            "key performance indicators",
+            "balanced scorecard"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Managementcontrole gebruikt twee categorieën maatstaven in combinatie:\n\n**Financiële maatstaven** — omzet, EBITDA, winstmarge, rendement op eigen vermogen — zijn objectief en vergelijkbaar maar kijken achteruit (lagging indicators).\n\n**Niet-financiële maatstaven** — klanttevredenheid, defectpercentage, leveringstermijn, personeelsverloop — zijn voorspellender (leading indicators) maar subjectiever.\n\nDe **Balanced Scorecard** (Kaplan & Norton) integreert beide categorieën in vier perspectieven: financieel, klant, interne processen, leren en groeien.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Puur financiële sturing creëert risico op suboptimalisatie op korte termijn (bv. R&D knippen om kwartaalbudget te halen). Niet-financiële maatstaven signaleren toekomstige financiële problemen eerder."
+          }
+        }
+      },
+      {
+        "id": "budget-als-sturingsinstrument",
+        "naam": {
+          "primair": "Budget als sturingsinstrument"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het budget vervult drie functies in de managementcontrolecyclus:\n1. **Planningsfunctie** — dwingt managers om doelstellingen expliciet te maken en activiteiten te coördineren\n2. **Motivatiefunctie** — targets activeren inspanning en fungeren als benchmark voor evaluatie\n3. **Controlefunctie** — afwijkingen t.o.v. budget triggeren analyse en bijsturing (variantieanalyse)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "variantieanalyse-managementcontrole",
+        "naam": {
+          "primair": "Variantieanalyse in managementcontrole"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Variantieanalyse is het systematisch ontleden van afwijkingen tussen werkelijke prestaties en budget (of standaard) om de oorzaken te identificeren:\n- **Volumevariantie** — meer of minder activiteit dan gepland\n- **Prijsvariantie** — hogere of lagere prijs/tarief dan gepland\n- **Efficiëntievariantie** — meer of minder input per outputeenheid dan gepland\n\nDe analyse antwoordt op de vraag: is de afwijking structureel (nood aan strategische bijsturing) of toevallig (geen actie vereist)?",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "transfer-pricing-intern",
+        "naam": {
+          "primair": "Interne verrekenprijs",
+          "synoniemen": [
+            "interne transferprijs",
+            "intercompany-prijs intern"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De **interne verrekenprijs** is de prijs waartegen goederen of diensten worden overgedragen tussen verantwoordelijkheidscentra van dezelfde organisatie. Ze vervult twee functies:\n1. **Prestatiemeting** — de prijs bepaalt hoeveel winst elk centrum rapporteert; een verkeerde prijs vervormt de evaluatie\n2. **Gedragssturing** — te lage interne prijs ontmoedigt het leverende centrum; te hoge prijs ontmoedigt het ontvangende centrum",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Onderscheid met fiscale transfer pricing: de interne verrekenprijs heeft een managementcontrole-functie (intern gedrag sturen); de fiscale verrekenprijs (transfer-pricing-fiche) heeft een belastingsoptimalisatie- en compliance-functie (fiscale grondslag toewijzen)."
+          }
+        }
+      },
+      {
+        "id": "strategische-vs-operationele-controle",
+        "naam": {
+          "primair": "Strategische versus operationele controle"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Managementcontrole werkt op twee niveaus:\n\n**Strategisch niveau** — verificatie of de strategie zelf nog geldig is in het licht van veranderende omgeving (markt, concurrentie, technologie). Instrument: interactieve controlesystemen (Simons), scenario-analyse.\n\n**Operationeel niveau** — verificatie of activiteiten efficiënt en effectief worden uitgevoerd binnen de gekozen strategie. Instrument: diagnostische controlesystemen (budget, KPI-rapportering, variantieanalyse).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "budgetbeheer",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "masterbudget",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "variantieanalyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "analytische-boekhouding",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "interne-controle-coso",
+      "toelichting": "Managementcontrole richt zich op het realiseren van strategische doelstellingen; COSO-interne controle richt zich op betrouwbaarheid van financiële rapportering en compliance. Overlappend in de controlemaatregelen-laag maar fundamenteel verschillend in doeloriëntatie.",
+      "gelijkenissen": [
+        "Beide werken met doelstellingen en meetpunten",
+        "Beide zijn organisatie-brede kaderconcepten",
+        "Beide gebruiken procedures en rapportering als beheersingsmechanismen"
+      ],
+      "verschillen": [
+        "COSO: betrouwbaarheid + compliance; managementcontrole: strategische effectiviteit",
+        "COSO: gericht op risico's die doelstellingen bedreigen; managementcontrole: gericht op prestaties t.o.v. doelstellingen",
+        "COSO: primair voor auditors en bestuur; managementcontrole: primair voor operationeel management"
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "businessmodel-en-strategie-inzicht-accountant",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

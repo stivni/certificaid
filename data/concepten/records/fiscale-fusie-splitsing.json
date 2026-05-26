@@ -1,8 +1,20 @@
 {
   "id": "fiscale-fusie-splitsing",
   "naam": {
-    "primair": "Fiscale fusie splitsing"
+    "primair": "Fiscale fusie splitsing",
+    "afkorting": "FFR",
+    "synoniemen": [
+      "fiscale fusie",
+      "fiscale splitsing",
+      "belastingneutrale fusie",
+      "belastingneutrale splitsing",
+      "fusie-splitsingsregime"
+    ],
+    "vertaling": {
+      "fr": "Régime fiscal des fusions et scissions"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +24,11 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.3.III.B",
+      "2.3.taak.2",
+      "2.8.XVI"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,31 +41,536 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.3.III.B",
-      "2.3.taak.2",
-      "2.8.XVI"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Fiscale fusie splitsing",
+        "tekst": "Het **fiscale fusie-splitsingsregime** is een bijzonder belastingregime waarbinnen een fusie of splitsing van vennootschappen kan plaatsvinden **zonder onmiddellijke belastingheffing** bij de inbrengende vennootschap of haar aandeelhouders. De meerwaarden op de overgedragen bestanddelen worden **niet gerealiseerd** maar overgenomen door de verkrijgende vennootschap aan de fiscale boekwaarden — de belastingheffing wordt uitgesteld, niet definitief kwijtgescholden.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De kern van het regime is **fiscale continuïteit**: de verkrijgende vennootschap treedt voor fiscale doeleinden volledig in de voetsporen van de inbrengende vennootschap. Ze neemt niet alleen de activa en passiva over, maar ook de **fiscale kenmerken** (aanschaffingswaarden, resterende afschrijftermijnen, overgedragen verliezen onder voorwaarden) en de **latente belastingschulden** op nog niet belaste meerwaarden.\n\nDit verschilt fundamenteel van een gewone overdracht van activa of aandelen:\n- **Gewone overdracht** — meerwaarden zijn onmiddellijk belastbaar bij de verkoper\n- **Fiscaal neutraal regime** — meerwaarden worden overgenomen aan boekwaarde; belastingmoment verschuift naar latere realisatie door de verkrijger\n\nHet regime geldt zowel voor de **vennootschapsbelasting** als — via afzonderlijke maar gecoördineerde regeling — voor de **btw** (overdracht van algemeenheid of tak van werkzaamheid), de **registratiebelasting** en de **meerwaardebelasting bij aandeelhouders**.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het regime is ingevoerd om economisch zinvolle herstructureringen niet te belemmeren door een onmiddellijke belastingdruk op boekhoudkundige meerwaarden die de ondernemer niet heeft gecasht. Zonder het regime zou elke fusie of splitsing dezelfde belastingdruk uitlokken als een gewone verkoop, ook wanneer de herstructurering louter een interne reorganisatie is zonder enige liquiditeitsopbrengst.\n\nDe EU-**Fusierichtlijn** (90/434/EEG, gecodificeerd in 2009/133/EG) verplicht de lidstaten tot het invoeren van een dergelijk regime voor grensoverschrijdende herstructureringen; België heeft het regime ook voor puur interne herstructureringen overgenomen. De antimisbruikbepaling (echte economische motieven) moet garanderen dat het regime niet gebruikt wordt voor pure fiscale sluipwegen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Fusies en splitsingen die **economisch gemotiveerd** zijn (herstructurering, synergie, focus op kernactiviteiten) en waarbij de verkrijgende vennootschap een **binnenlandse vennootschap** is of een in België gevestigde inrichting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het regime is ontworpen voor reële economische herstructureringen, niet voor fiscale constructies. De aanwezigheid van echte economische motieven is de juridische toetsingsdrempel voor het behoud van het regime."
+        },
+        {
+          "tekst": "Grensoverschrijdende fusies en splitsingen binnen de EU waarbij de Belgische entiteit de **inbrengende** of **verkrijgende** partij is, mits de Fusierichtlijn van toepassing is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De Fusierichtlijn creëert een geharmoniseerd kader voor grensoverschrijdende EU-herstructureringen; het Belgische regime implementeert deze verplichte minimumstandaard."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Herstructureringen waarbij het **hoofddoel of een van de voornaamste doelen** belastingontwijking of -ontduiking is — de antimisbruikbepaling sluit het regime dan uit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Art. 183bis WIB92 (antimisbruik) laat de administratie toe het regime te weigeren wanneer geen geldige economische motieven aanwezig zijn. De bewijslast verschuift dan naar de belastingplichtige."
+        },
+        {
+          "tekst": "Overdrachten aan een **buitenlandse vennootschap buiten de EU** die geen Belgische inrichting heeft — het regime geldt niet voor zuiver extraterritoriale overdrachten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De herstructurering moet plaatsvinden **conform de vennootschapsrechtelijke bepalingen** van het WVV (fusie, splitsing, partiële splitsing, inbreng van bedrijfstak of algemeenheid) — een losse activa-overdracht valt niet onder het regime.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De **aandeelhouders** van de inbrengende vennootschap moeten als tegenprestatie uitsluitend of hoofdzakelijk **aandelen** ontvangen in de verkrijgende vennootschap — een cash-tegenprestatie boven de grens maakt het regime niet van toepassing op het cash-deel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het regime berust op de gedachte dat de aandeelhouder zijn participatie gewoon omruilt in een andere vorm; zodra er een nettokasuitkering is, heeft hij iets gecasht en is belastingheffing gerechtvaardigd."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Belastingneutraliteit op moment van herstructurering** — meerwaarden op overgedragen activa worden niet onmiddellijk belast bij de inbrengende vennootschap.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Overdracht van overgedragen verliezen** van de inbrengende vennootschap naar de verkrijgende vennootschap (mits proportionaliteitstoets en aanwezigheid van economische activiteit).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "De verliesoverdracht is beperkt en proportioneel aan de omvang van de overgedragen tak — niet onbeperkt. Dit verhindert constructies waarbij een verlieslatende entiteit wordt gefusioneerd uitsluitend om de verliezen te benutten."
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Intrekking van het regime** bij latere vaststelling dat de herstructurering fiscaal misbruik was — dit leidt tot aanslag op de meerwaarden alsof de fusie/splitsing nooit fiscaal neutraal was, inclusief belastingverhogingen en moratoriumintresten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Latente belastingschuld bij de verkrijgende vennootschap** — de fiscale neutraliteit bij fusie creëert een verborgen belastingrisico op de overgedragen activa dat pas zichtbaar wordt bij latere realisatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "fiscale-continuiteit",
+        "naam": {
+          "primair": "Fiscale continuïteit",
+          "synoniemen": [
+            "fiscale doorschuiving",
+            "step-in-the-shoes-principe"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De verkrijgende vennootschap treedt voor fiscale doeleinden volledig in de **fiscale positie** van de inbrengende vennootschap: overgedragen activa worden geboekt aan hun **fiscale boekwaarde** (aanschaffingswaarde minus fiscale afschrijvingen), niet aan marktwaarde. De latente meerwaarde blijft belastbaar bij de verkrijger wanneer die de activa later realiseert.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit is de kern van de fiscale neutraliteit: de belasting wordt niet kwijtgescholden maar uitgesteld tot de economische realisatie plaatsvindt bij de verkrijger."
+          }
+        }
+      },
+      {
+        "id": "gedekte-verrichtingen",
+        "naam": {
+          "primair": "Gedekte verrichtingen",
+          "synoniemen": [
+            "in aanmerking komende verrichtingen"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het regime dekt vijf categorieën van herstructureringsverrichtingen:\n\n1. **Fusie** — volledige overdracht van het vermogen van de inbrengende aan de verkrijgende vennootschap; inbrengende wordt ontbonden zonder vereffening\n2. **Splitsing** — volledige opdeling van het vermogen over twee of meer verkrijgende vennootschappen\n3. **Partiële splitsing** — overdracht van één of meer bedrijfstakken, terwijl de inbrengende vennootschap blijft bestaan\n4. **Inbreng van bedrijfstak of algemeenheid** — overdracht van een geheel van activa en passiva die een economisch geheel vormen, zonder ontbinding van de inbrengende vennootschap\n5. **Aandelenruil** — overdracht van een deelneming in ruil voor aandelen van de verkrijgende vennootschap",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "echte-economische-motieven",
+        "naam": {
+          "primair": "Echte economische motieven",
+          "synoniemen": [
+            "zakelijke motieven",
+            "valid business reasons",
+            "non-fiscale motieven"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De **echte-economische-motiventoets** is de antimisbruikdrempel voor het regime. Wanneer de belastingadministratie aantoont dat de herstructurering in hoofdzaak of mede als doel heeft belasting te ontwijken of te ontduiken, wordt de fiscale neutraliteit geweigerd.\n\nVoorbeelden van aanvaarde motieven: operationele synergiën, fusie van zuster-entiteiten binnen groep, focus op kernactiviteiten, schaalvoordelen, overdracht aan opvolgers.\n\nVoorbeelden van niet-aanvaarde motieven: aanzuigen van verliezen zonder reële activiteitstransfer, creëren van kunstmatige structuur uitsluitend voor tarief-arbitrage.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De toets is doelgebonden, niet formalistisch: een herstructurering die vennootschapsrechtelijk correct verloopt maar fiscaal niet gemotiveerd is, valt niet onder het regime. De administratie draagt de bewijslast, maar in de praktijk worden belastingplichtigen gevraagd hun motieven vooraf te documenteren."
+          }
+        }
+      },
+      {
+        "id": "overdracht-overgedragen-verliezen",
+        "naam": {
+          "primair": "Overdracht van overgedragen verliezen",
+          "synoniemen": [
+            "verliesoverdracht bij fusie"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een fiscaal neutrale fusie of splitsing gaan de **fiscale overgedragen verliezen** van de inbrengende vennootschap over naar de verkrijgende vennootschap, maar slechts **proportioneel** aan het aandeel van het fiscale nettovermogen van de inbrengende vennootschap in het totale fiscale nettovermogen na de herstructurering.\n\nBovendien moeten de activiteiten die de verliezen genereerden **voortzetting vinden** bij de verkrijgende vennootschap — verliezen van een stopgezette tak kunnen niet worden overgedragen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De proportionaliteitsregel verhindert dat verlieslatende entiteiten worden gefusioneerd uitsluitend om de belastbare basis van de winstgevende entiteit te verlagen met verliezen die niet bij haar thuishoren."
+          }
+        }
+      },
+      {
+        "id": "aandelen-als-tegenprestatie",
+        "naam": {
+          "primair": "Aandelen als tegenprestatie",
+          "synoniemen": [
+            "share-for-share",
+            "aandelenruil als vereiste"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De aandeelhouders van de inbrengende vennootschap moeten als tegenprestatie **uitsluitend of hoofdzakelijk nieuwe aandelen** ontvangen in de verkrijgende vennootschap. Een **opleg in geld** (bijbetaling) is toegestaan tot maximaal **10% van de nominale waarde** van de toegekende aandelen — daarboven komt het regime gedeeltelijk te vervallen.\n\nBij een **zuivere fusie** waarbij de inbrengende vennootschap een dochter is van de verkrijgende, worden geen nieuwe aandelen uitgegeven (er zijn geen externe aandeelhouders van de inbrengende); het regime is toch van toepassing.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De 10%-grens is ontleend aan de Fusierichtlijn. Het exacte percentage en de berekeningsbasis dienen geverifieerd te worden in art. 211 en volgende WIB92."
+          }
+        }
+      },
+      {
+        "id": "belastingvrije-meerwaarden-inbrengende",
+        "naam": {
+          "primair": "Belastingvrije meerwaarden bij de inbrengende vennootschap",
+          "synoniemen": [
+            "uitgestelde meerwaarden fusie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De inbrengende vennootschap realiseert geen belastbare meerwaarden op de overgedragen activa en passiva. Het verschil tussen de **werkelijke waarde** (marktwaarde) en de **fiscale boekwaarde** (aanschaffingswaarde minus afschrijvingen) is weliswaar een economische meerwaarde, maar wordt **niet gerealiseerd** voor fiscale doeleinden.\n\nVoor de aandeelhouders van de inbrengende vennootschap geldt een analoog principe: de ruil van hun aandelen in de inbrengende vennootschap voor aandelen in de verkrijgende is geen belastbare verrichting — de meerwaarden op de geruild aandelen worden overgedragen aan de ontvangen aandelen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het principe werkt bilateraal: zowel de vennootschap als haar aandeelhouders genieten de belastingneutraliteit bij de ruil. Dit is noodzakelijk voor de volledige neutralisering van de verrichting."
+          }
+        }
+      },
+      {
+        "id": "verband-met-fusierichtlijn",
+        "naam": {
+          "primair": "EU-Fusierichtlijn",
+          "synoniemen": [
+            "Richtlijn 2009/133/EG",
+            "Merger Directive"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De EU-Fusierichtlijn (2009/133/EG, gecodificeerd uit de oorspronkelijke richtlijn 90/434/EEG) verplicht de lidstaten tot het invoeren van een belastingneutraal regime voor **grensoverschrijdende fusies, splitsingen, partiële splitsingen, inbrengen van bedrijfstakken en aandelenruiloperaties** waarbij entiteiten uit verschillende EU-lidstaten betrokken zijn.\n\nBelgië heeft het regime voor intern-Belgische herstructureringen naar hetzelfde model ingericht, zodat de belastingbehandeling van interne en EU-grensoverschrijdende herstructureringen grotendeels parallel loopt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-overdracht-algemeenheid",
+        "naam": {
+          "primair": "Btw-neutraliteit bij overdracht van algemeenheid",
+          "synoniemen": [
+            "artikel 11 btw-wetboek"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Parallel aan het VenB-regime geldt voor btw-doeleinden een afzonderlijk neutraliteitsregime: de **overdracht van een algemeenheid van goederen of een bedrijfstak** is niet onderworpen aan btw. De verkrijger treedt voor btw-doeleinden in de rechten en plichten van de overdrager (herzieningsverplichting, recht op aftrek).\n\nDit regime loopt doorgaans samen met de fiscale fusie of splitsing maar heeft een eigen toepassingsgebied en eigen formaliteiten (notificatie aan de btw-administratie).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-aandachtspunten-herstructurering",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fusie",
+      "toelichting": "Fusie is de vennootschapsrechtelijke verrichting; fiscale-fusie-splitsing is het fiscale regime dat op die verrichting van toepassing kan zijn. Beide concepten samen bepalen de volledig juridische en fiscale uitkomst van een fusie.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide betreffen de overdracht van het vermogen van een inbrengende naar een verkrijgende vennootschap",
+        "Beide vereisen naleving van het WVV"
+      ],
+      "verschillen": [
+        "Fusie is het vennootschapsrechtelijke kader; fiscale-fusie-splitsing is het fiscale regime dat de belastinggevolgen neutraliseert",
+        "Fusie kan ook plaatsvinden zonder belastingneutraliteit (dan worden meerwaarden belast)"
+      ],
+      "verwarring_risico": "Studenten verwarren de vennootschapsrechtelijke fusie (WVV) met het fiscale regime — ze zijn complementair maar niet identiek"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "splitsing",
+      "toelichting": "Splitsing is de vennootschapsrechtelijke verrichting; fiscale-fusie-splitsing is het fiscale regime dat ook op splitsingen van toepassing is.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide betreffen de opsplitsing van een vennootschap in meerdere entiteiten"
+      ],
+      "verschillen": [
+        "Splitsing is het WVV-kader; de fiscale neutraliteit is enkel van toepassing wanneer aan de regime-voorwaarden voldaan is"
+      ],
+      "verwarring_risico": "De vennootschapsrechtelijke splitsing activeert het fiscale regime niet automatisch — de echte-economische-motiventoets kan het regime uitsluiten"
+    },
+    {
+      "type": "valt_onder",
+      "target": "fiscale-fusierichtlijn",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "inbreng-van-bedrijfstak-of-algemeenheid",
+      "toelichting": "De partiële splitsing en bedrijfstakkenoverdrachtsvorm van het regime vereisen dat de overgedragen bestanddelen een economisch geheel vormen (bedrijfstak of algemeenheid) conform de definitie in het WVV en WIB92.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "algemene-anti-misbruik-bepaling",
+      "toelichting": "De echte-economische-motiventoets is een sectorspecifieke invulling van het algemene anti-misbruikbeginsel; wanneer de GAAR van toepassing is, wordt het regime evenzeer geweigerd.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "overgedragen-verliezen",
+      "toelichting": "De omvang van overdraagbare verliezen bij fusie wordt bepaald door de algemene regels voor overgedragen verliezen, aangevuld met de proportionaliteitsregel die specifiek voor het fusie-regime geldt.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

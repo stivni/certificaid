@@ -1,11 +1,20 @@
 {
   "id": "fiscale-aandachtspunten-herstructurering",
   "naam": {
-    "primair": "Fiscale aandachtspunten herstructurering"
+    "primair": "Fiscale aandachtspunten herstructurering",
+    "synoniemen": [
+      "herstructureringsaandachtspunten",
+      "restructuring attention points",
+      "fiscale valkuilen herstructurering"
+    ]
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.3.III.C"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +33,520 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen (7 stuks), gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.3.III.C"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Fiscale aandachtspunten herstructurering",
+        "tekst": "Het kader **fiscale aandachtspunten bij herstructurering** bundelt de fiscale risico's, voorwaarden en mechanismen die spelen bij ingrijpende wijzigingen aan de vennootschapsstructuur: fiscaal neutrale fusies en splitsingen, de omvorming van een vzw naar een coöperatieve vennootschap (cv), en de situatie van dreigende insolventie. De kern van het kader is dat elke herstructurering een **belastbare realisatie** vormt tenzij uitdrukkelijk aan de wettelijke continuïteitsvoorwaarden is voldaan.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Herstructureringen raken drie fiscale assen tegelijk:\n\n1. **Latente meerwaarden** — bij overdracht of stopzetting worden stille reserves belastbaar tenzij het regime van belastingneutraliteit (fiscale fusie/splitsing) of inbreng van bedrijfstak van toepassing is.\n2. **Overgedragen verliezen en aftrekken** — de overnemer kan de verliezen van de overgenomen entiteit slechts in beperkte mate voorttzetten; de regelgeving begrenst dit streng om misbruik (verlieshandel) te voorkomen.\n3. **Rechtsvormswijziging en omzetting** — de overgang van vzw naar cv is een sui-generis operatie met eigen fiscale gevolgen (patrimoniumbelasting bij vzw-omvorming, opbouw van belastbaar vermogen in de nieuwe cv).\n\nDe examenrelevantie ligt in het herkennen welke operatie aan welk regime is onderworpen, welke voorwaarden cumulatief vereist zijn voor neutraliteit, en welke aandachtspunten bij financiële moeilijkheden (dreigende insolventie) spelen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het Belgische recht kiest als basisregel dat elke overdracht van activa in principe een belastbare realisatie is. Herstructureringen worden alleen fiscaal neutraal behandeld als de wet dit uitdrukkelijk toestaat — en dan enkel als aan strikte voorwaarden is voldaan. De rationale is **continuïteit van belastingheffing**: de latente meerwaarden zijn niet voor altijd vrijgesteld maar worden slechts uitgesteld naar het moment waarop de verkrijgende vennootschap de activa verkoopt of stopt.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Vennootschappen die een fusie, splitsing, inbreng van bedrijfstak of algemeenheid overwegen en willen nagaan of de operatie fiscaal neutraal kan verlopen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vzw's die overwegen hun activiteiten om te vormen naar een coöperatieve vennootschap en de fiscale consequenties willen kennen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschappen in financiële moeilijkheden waarbij een herstructurering (overdracht van activiteiten, kapitaalvermindering, schuldsanering) fiscale risico's met zich meebrengt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Gewone transacties tussen ondernemingen (koop-verkoop van activa) die geen herstructurering vormen — hiervoor gelden de gewone VenB-regels voor meerwaarden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Interne reorganisaties die geen wijziging van rechtspersoon of verplaatsing van activa inhouden (bv. louter aanpassing van statuten zonder vermogensoverdracht).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verlies van fiscale neutraliteit** bij niet-vervulling van de wettelijke voorwaarden: de volledige operatie wordt dan belastbaar als een gewone realisatie van activa.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Belastingontwijking als motief** — de belastingadministratie kan de neutraliteit weigeren als de herstructurering hoofdzakelijk door belastingmotieven is ingegeven zonder economische grond.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Een fusie, splitsing, partiële splitsing of inbreng van bedrijfstak staat op de agenda van de algemene vergadering.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een vzw wenst haar economische activiteiten onder te brengen in een vennootschapsvorm (cv, bv) — omvorming of inbreng.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De netto-actieftest of liquiditeitstest slaagt niet, of de alarmbeldrempel is bereikt — herstructurering als alternatief voor faillissement.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "belastingneutraliteit-principe",
+        "naam": {
+          "primair": "Belastingneutraliteit bij herstructurering",
+          "synoniemen": [
+            "fiscale continuïteit",
+            "tax-free reorganisation"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Herstructureringen zijn **in principe belastbare realisaties**: de overgedragen activa worden geacht te zijn gerealiseerd aan hun marktwaarde. **Uitzondering**: de wet voorziet in een regime van belastingneutraliteit waarbij de latente meerwaarden niet onmiddellijk worden belast, maar worden **doorgeschoven** naar de verkrijgende vennootschap. De verkrijgende vennootschap treedt fiscaal in de voetsporen van de overdrager (boekwaarden en afschrijvingstermijnen worden overgenomen).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het uitstel (niet de vrijstelling) van belasting maakt fiscaal neutrale herstructurering mogelijk — de overheid geeft geen belasting kwijt, ze stelt de heffing uit tot de volgende realisatie."
+          }
+        }
+      },
+      {
+        "id": "voorwaarden-neutrale-fusie-splitsing",
+        "naam": {
+          "primair": "Voorwaarden voor fiscaal neutrale fusie of splitsing",
+          "synoniemen": [
+            "continuïteitsvoorwaarden fusie",
+            "belastingneutraliteit voorwaarden"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscale wetgeving stelt **cumulatieve voorwaarden** voor neutraliteit van een fusie of splitsing:\n\n1. **Juridische conformiteit** — de operatie verloopt via de WVV-procedures (fusie door overneming, fusie door oprichting, volledige of partiële splitsing).\n2. **Economische grond** — de herstructurering wordt niet hoofdzakelijk door belastingontwijking ingegeven (anti-misbruikmotief).\n3. **Continuïteit van boekwaarden** — de verkrijgende vennootschap neemt de fiscale boekwaarden van de overgedragen activa over.\n4. **Belgisch toepassingsgebied** — de betrokken vennootschappen zijn in principe aan Belgische VenB onderworpen (bij grensoverschrijdende operaties: Europese fusierichtlijn).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De anti-misbruiktoets (economische grond) is de meest kwetsbare voorwaarde in de praktijk: herstructureringen met louter belastingmotief worden gekwalificeerd als misbruik en verliezen de neutraliteit."
+          }
+        }
+      },
+      {
+        "id": "overdracht-verliezen-bij-herstructurering",
+        "naam": {
+          "primair": "Overdracht van overgedragen verliezen bij herstructurering",
+          "synoniemen": [
+            "verliesoverdracht fusie",
+            "tax losses transfer merger"
+          ]
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een fiscaal neutrale fusie of splitsing kan de verkrijgende vennootschap de **fiscale verliezen van de overgenomen vennootschap slechts gedeeltelijk** voortzetten. De verliezen die overkomen zijn begrensd in functie van de **fiscale nettowaarde** van de overgenomen vennootschap op het moment van de fusie. De regeling beoogt **verlieshandel** (overneming van een vennootschap puur om haar verliesreserve te benutten) te vermijden.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "⚠️ te verifiëren: de exacte berekeningsmethode voor de beperking van verliesoverdracht bij fusie (verhouding fiscale nettowaarden) moet worden geverifieerd aan de hand van de actuele WIB92-bepalingen."
+          }
+        }
+      },
+      {
+        "id": "omvorming-vzw-naar-cv",
+        "naam": {
+          "primair": "Omvorming vzw naar coöperatieve vennootschap",
+          "synoniemen": [
+            "vzw naar cv omzetting",
+            "transformation ASBL en SC"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een vzw kan haar activiteiten fiscaal overdragen aan een nieuw opgerichte of bestaande coöperatieve vennootschap (cv) via twee paden:\n\n1. **Inbreng van activiteiten** — de vzw brengt haar economische activiteiten in als inbreng van bedrijfstak in de cv (indien aan de voorwaarden voor belastingneutraliteit voldaan).\n2. **Omvorming/omzetting** — rechtstreekse omzetting van vzw in cv overeenkomstig WVV-procedure.\n\nFiscale aandachtspunten:\n- Bij de vzw: patrimoniumbelasting van **0,17%** op het totale bezit is niet langer verschuldigd na omvorming; maar de **latente reserves** van de vzw kunnen bij uitkering als dividend belastbaar worden bij de cv.\n- Bij de cv: het aanvangskapitaal en de ingebrachte activa worden gewaardeerd aan marktwaarde tenzij neutraliteitsregime van toepassing.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "⚠️ te verifiëren: het percentage van de patrimoniumbelasting (0,17%) en de exacte fiscale behandeling van reserves bij vzw-omvorming moeten worden geverifieerd in WIB92 en geldende CBN-adviezen."
+          }
+        }
+      },
+      {
+        "id": "herstructurering-bij-dreigende-insolventie",
+        "naam": {
+          "primair": "Herstructurering bij dreigende insolventie",
+          "synoniemen": [
+            "fiscal issues insolvency restructuring",
+            "fiscale gevolgen gerechtelijke reorganisatie"
+          ]
+        },
+        "inhoud_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een vennootschap in financiële moeilijkheden verkeert en herstructureert via gerechtelijke reorganisatie (WER Boek XX), of wanneer schulden worden kwijtgescholden, spelen bijzondere fiscale risico's:\n\n1. **Kwijtschelding van schulden** — de vermindering van schulden leidt tot een **voordeel van alle aard** of **belastbaar inkomen** tenzij de kwijtschelding kadert in een erkend reorganisatieplan. Schulden kwijtschelden aan een vennootschap in moeilijkheden zonder dat het WER-kader wordt gevolgd, kan belastbaar zijn.\n2. **Stopzettingsmeerwaarden** — bij overdracht van activiteiten worden latente meerwaarden gerealiseerd; bij insolventieprocedures zijn deze soms belastbaar op een ogenblik dat de vennootschap ze niet kan betalen.\n3. **Verlies van overdraagbare aftrekken** — fiscale verliezen gaan definitief verloren bij faillissement of stopzetting; bij een tijdige gerechtelijke reorganisatie kunnen ze behouden blijven.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De combinatie van belastbare stopzettingsmeerwaarden en een vennootschap die geen liquide middelen heeft, is een klassieke insolventieval: de fiscus is preferente schuldeiser bij stopzetting en versterkt de financiële druk net op het kwetsbaarste moment."
+          }
+        }
+      },
+      {
+        "id": "anti-misbruik-herstructurering",
+        "naam": {
+          "primair": "Anti-misbruiktoets bij herstructurering",
+          "synoniemen": [
+            "economische grond test",
+            "zakelijke motieven fusie"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscale neutraliteit van een fusie, splitsing of inbreng van bedrijfstak kan worden geweigerd als de **belastingadministratie kan aantonen** dat de operatie hoofdzakelijk of een van de doelstellingen voornamelijk **belastingontwijking** is. Het bewijs valt bij de belastingplichtige als hij geen **geldige zakelijke motieven** kan aanvoeren die het economische karakter van de operatie aantonen.\n\nExamples van geldige zakelijke motieven:\n- Vereenvoudiging van de structuur\n- Schaalvoordelen of synergie\n- Overdracht van activiteiten aan een geschikte opvolger\n- Losstaande financieringsdoelstellingen\n\nMissende zakelijke grond (rode vlag): de enige reden is gebruik van verliesreserves van de overgenomen entiteit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De bewijslast-verdeling is asymmetrisch: de wet stelt een vermoeden van misbruik wanneer geldige zakelijke motieven ontbreken. De belastingplichtige moet proactief documenteren — niet wachten tot de belastingadministratie vraagt."
+          }
+        }
+      },
+      {
+        "id": "voorafgaande-beslissing-herstructurering",
+        "naam": {
+          "primair": "Voorafgaande beslissing bij herstructurering",
+          "synoniemen": [
+            "ruling herstructurering",
+            "DVB fiscale zekerheid herstructurering"
+          ]
+        },
+        "inhoud_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Complexe herstructureringen worden in de praktijk doorgaans **vooraf afgetoetst bij de Dienst Voorafgaande Beslissingen (DVB)**. Een ruling geeft fiscale zekerheid over de behandeling voordat de operatie wordt doorgevoerd. Dit is bijzonder relevant:\n\n- Als er twijfel is over de zakelijke motieven (anti-misbruiktoets)\n- Bij grensoverschrijdende herstructureringen (afstemming met buitenlandse fiscus)\n- Bij omvorming vzw naar cv (geen gestandaardiseerde praktijk)\n- Bij overdracht van verliezen (limieten en plafonds)\n\nEen ruling bindt de administratie maar niet de belastingplichtige; ze kan worden gewijzigd als de feiten wijzigen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "In de accountancy-praktijk is de vuistregel: bij materiële herstructureringen altijd een ruling overwegen — de kostprijs van de ruling weegt bijna nooit op tegen het risico van een belastingclaim na het feit."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "fiscale-fusie-splitsing",
+      "toelichting": "Fiscale fusie en splitsing zijn de centrale operaties waarop dit kader de fiscale aandachtspunten uitwerkt.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "fusie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "splitsing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "inbreng-van-bedrijfstak-of-algemeenheid",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fiscale-fusierichtlijn",
+      "toelichting": "Bij grensoverschrijdende herstructureringen is de Europese fiscale fusierichtlijn (2009/133/EG) de relevante rechtsbron voor belastingneutraliteit.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "algemene-anti-misbruik-bepaling",
+      "toelichting": "De anti-misbruiktoets op de economische grond van herstructureringen is een toepassing van de algemene anti-misbruikbepaling.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "exit-belasting",
+      "toelichting": "Exit-belasting is het parallel mechanisme voor zetelverplaatsing of overdracht van activa naar het buitenland; dezelfde logica van belastingcontinuïteit op latente meerwaarden.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "voorafgaande-beslissing-dvb",
+      "toelichting": "Bij twijfelachtige zakelijke grond of complexe situatie is een DVB-ruling sterk aangewezen als risicobeheersinstrument.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

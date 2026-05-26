@@ -1,8 +1,19 @@
 {
   "id": "assurance-opdracht-types",
   "naam": {
-    "primair": "Assurance opdracht types"
+    "primair": "Assurance opdracht types",
+    "synoniemen": [
+      "assurance engagement types",
+      "soorten assurance-opdrachten",
+      "opdrachtclassificatie accountant",
+      "engagement classification"
+    ],
+    "vertaling": {
+      "fr": "Types de missions d'assurance",
+      "en": "Assurance engagement types"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +35,11 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6"
       }
     ],
     "ankers": [
@@ -34,20 +50,558 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Assurance opdracht types",
+        "tekst": "Een **assurance-opdracht** is een opdracht waarbij de gecertificeerd accountant een **conclusie** formuleert over een bewering van een verantwoordelijke partij, gericht op het vergroten van het vertrouwen van de beoogde gebruikers in die bewering. De internationale raamwerken onderscheiden vier grote opdrachttypen naargelang de aard van de zekerheid die wordt verstrekt en de van toepassing zijnde standaard: **(1) controleopdrachten** (ISA — redelijke zekerheid), **(2) beoordelingsopdrachten** (ISRE — beperkte zekerheid), **(3) andere assurance-opdrachten** (ISAE — redelijke of beperkte zekerheid over niet-historische informatie) en **(4) opdrachten tot het verrichten van overeengekomen specifieke werkzaamheden** (ISRS — geen zekerheidsconclussie, enkel feitenvaststellingen).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De **aard van de zekerheid** (redelijk vs. beperkt) en het **type bewering** (historische financiële informatie vs. andere onderwerpen) zijn de twee assen die de opdrachtclassificatie bepalen.\n\n- **Redelijke zekerheid** → positieve conclusieformulering: «De jaarrekening geeft een getrouw beeld.» — hoge maar niet absolute zekerheid.\n- **Beperkte zekerheid** → negatieve conclusieformulering: «Ons is niets gebleken dat doet vermoeden dat de jaarrekening niet getrouw is.» — minder bewijs vereist, kleinere opdrachtsomvang.\n- **Geen assurance** (overeengekomen werkzaamheden) → enkel feitenvaststellingen; de gebruiker trekt zijn eigen conclusies.\n\nDe **compilatie-opdracht** (opstellen van financiële informatie) valt buiten het assurance-raamwerk — de accountant geeft geen zekerheid, enkel een vakkundige presentatie van door de cliënt aangeleverde informatie.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het onderscheid redelijk/beperkt bepaalt de omvang van het bewijs dat de accountant moet verzamelen en de formulering van zijn conclusie — en heeft directe impact op de prijs, doorlooptijd en aansprakelijkheid van de opdracht."
+      },
+      "rationale": {
+        "tekst": "Het assurance-raamwerk bestaat omdat **gebruikers van financiële of niet-financiële informatie** (investeerders, banken, overheid, aandeelhouders) een onafhankelijke beoordeling nodig hebben om beslissingen te kunnen nemen. Zonder assurance bestaat het risico dat de informatie die door een verantwoordelijke partij wordt aangeleverd onbetrouwbaar is — bewust of onbewust. De classificatie in opdrachttypen laat toe de **mate van zekerheid** af te stemmen op de specifieke behoeften van de gebruikers en de proportioneel de kosten te spreiden.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "controleopdracht-isa",
+        "naam": {
+          "primair": "Controleopdracht (ISA)",
+          "synoniemen": [
+            "audit",
+            "wettelijke controle",
+            "statutory audit",
+            "audit engagement"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **controleopdracht** is een assurance-opdracht waarbij de gecertificeerd accountant of bedrijfsrevisor een **redelijke mate van zekerheid** beoogt over de vraag of de jaarrekening als geheel vrij is van materiële afwijkingen — ongeacht of deze afwijkingen het gevolg zijn van fraude of fouten. De conclusie wordt in **positieve bewoordingen** uitgedrukt: «De jaarrekening geeft een getrouw beeld...». De van toepassing zijnde standaarden zijn de **ISA's** (International Standards on Auditing), in België van toepassing verklaard door het IBR en het ITAA.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De ISA's sturen de volledige opdrachts-cyclus: opdrachtaanvaarding (ISA 210), planning (ISA 300), risicoanalyse (ISA 315), materialiteit (ISA 320), uitvoering, bewijsverzameling (ISA 500-599), afronding (ISA 700-720)."
+          }
+        }
+      },
+      {
+        "id": "beoordelingsopdracht-isre",
+        "naam": {
+          "primair": "Beoordelingsopdracht (ISRE)",
+          "synoniemen": [
+            "review",
+            "beperkt nazicht",
+            "limited assurance engagement",
+            "contractuele beoordeling"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **beoordelingsopdracht** is een assurance-opdracht waarbij de accountant een **beperkte mate van zekerheid** beoogt — voornamelijk via navraag en analytische werkzaamheden, zonder diepgaande controle van transacties en saldi. De conclusie wordt in **negatieve bewoordingen** uitgedrukt: «Ons is niets gebleken dat doet vermoeden dat de jaarrekening niet in alle materiële opzichten getrouw is.» De van toepassing zijnde standaard is **ISRE 2400** (beoordelingen van historische financiële overzichten) of ISRE 2410 (tussentijdse informatie).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De beoordelingsopdracht biedt een middenweg: meer zekerheid dan geen assurance, minder kost dan een volledige audit. Typisch gebruikt voor tussentijdse rapportering, kleinere entiteiten of als contractuele vereiste van een bank."
+          }
+        }
+      },
+      {
+        "id": "andere-assurance-isae",
+        "naam": {
+          "primair": "Andere assurance-opdrachten (ISAE)",
+          "synoniemen": [
+            "ISAE 3000",
+            "non-historical assurance",
+            "duurzaamheidsassurance",
+            "ESG-assurance"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "**ISAE-opdrachten** zijn assurance-opdrachten over **andere onderwerpen dan historische financiële informatie** — bv. duurzaamheidsverslagen (ESG), interne-controle-evaluaties, belastingposities of operationele processen. De opdracht kan **redelijke of beperkte zekerheid** beogen. De van toepassing zijnde standaard is **ISAE 3000** (algemeen) of een meer specifieke ISAE (bv. ISAE 3402 voor uitbestedingsdiensten). In de Belgische context zijn CSRD-gerelateerde duurzaamheidsassurance-opdrachten een groeiend toepassingsgebied.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De opkomst van niet-financiële rapportering (duurzaamheid, ESG, sociale balans) drijft de vraag naar ISAE-assurance — een trend die het ITAA-examenprogramma expliciet opneemt."
+          }
+        }
+      },
+      {
+        "id": "overeengekomen-werkzaamheden-isrs",
+        "naam": {
+          "primair": "Opdracht tot overeengekomen specifieke werkzaamheden (ISRS)",
+          "synoniemen": [
+            "agreed-upon procedures",
+            "AUP",
+            "ISRS 4400",
+            "specifieke werkzaamheden"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een **opdracht tot overeengekomen specifieke werkzaamheden** voert de accountant procedures uit die **uitsluitend door de opdrachtgever worden bepaald** en rapporteert hij feitelijk over zijn bevindingen — zonder een conclusie of zekerheid te verstrekken. De beoogde gebruikers trekken zelf hun conclusies. De van toepassing zijnde standaard is **ISRS 4400**. Voorbeelden: controle van een subsidiedossier, verificatie van verkoopstatistieken, gerichte controle van één rubriek van de balans.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Doordat er geen assurance-conclusie is, zijn de onafhankelijkheidsvereisten minder streng dan bij echte assurance-opdrachten — maar beroepsethiek en objectiviteit blijven onverkort van toepassing."
+          }
+        }
+      },
+      {
+        "id": "compilatieopdracht-isrs",
+        "naam": {
+          "primair": "Compilatieopdracht (ISRS 4410)",
+          "synoniemen": [
+            "compilatie",
+            "samenstelling jaarrekening",
+            "compilation engagement"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **compilatieopdracht** valt buiten het assurance-raamwerk: de accountant stelt financiële informatie **samen op basis van door de cliënt aangeleverde gegevens**, zonder enige zekerheid te verstrekken over de juistheid van die gegevens. De standaard is **ISRS 4410**. In de compilatieverklaring vermeldt de accountant expliciet dat hij geen assurance verstrekt. Dit is de meest voorkomende opdracht voor kleine vennootschappen waarbij geen wettelijke controle vereist is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid compilatie vs. assurance is examenkritisch: studenten verwarren de compilatie-accountant soms met de auditor. De compilatieopdracht levert vakkundige presentatie, geen oordeel."
+          }
+        }
+      },
+      {
+        "id": "redelijke-vs-beperkte-zekerheid",
+        "naam": {
+          "primair": "Redelijke zekerheid vs. beperkte zekerheid",
+          "synoniemen": [
+            "reasonable assurance",
+            "limited assurance",
+            "positieve vs. negatieve conclusie"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De twee assurance-niveaus verschillen in drie dimensies:\n\n| Dimensie | Redelijke zekerheid | Beperkte zekerheid |\n|---|---|---|\n| Bewijs-drempel | Hoog — voldoende en geschikt bewijs via uitgebreide procedures | Matig — navraag + analytische werkzaamheden volstaan |\n| Conclusie-formulering | Positief: «geeft een getrouw beeld» | Negatief: «ons is niets gebleken dat doet vermoeden» |\n| Standaard | ISA (controle) of ISAE (andere) | ISRE (beoordeling) of ISAE (beperkte zekerheid) |\n\n**Redelijke zekerheid ≠ absolute zekerheid** — de accountant geeft nooit een garantie; inherente beperkingen (steekproeven, management-inschattingen, frauderisico) blijven bestaan.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De keuze van het assurance-niveau is medebepalend voor de opdrachtomvang, het bewijs dat verzameld moet worden, en de formulering van het eindverslag — en dus voor de prijs en aansprakelijkheid van de opdracht."
+          }
+        }
+      },
+      {
+        "id": "wettelijke-vs-contractuele-opdracht",
+        "naam": {
+          "primair": "Wettelijke vs. contractuele opdracht",
+          "synoniemen": [
+            "monopolieopdracht",
+            "voorbehouden opdracht",
+            "vrijwillige opdracht"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Wettelijke (voorbehouden) opdrachten** zijn exclusief voorbehouden aan de gecertificeerd accountant of de bedrijfsrevisor — anderen mogen ze niet uitvoeren. Voorbeelden: wettelijke jaarrekeningcontrole bij grote vennootschappen (commissarismandat bedrijfsrevisor), verslagen bij bepaalde vennootschapsverrichtingen (alarmbel, quasi-inbreng, fusie).\n\n**Contractuele opdrachten** zijn opdrachten die niet wettelijk verplicht zijn maar op verzoek van de cliënt worden uitgevoerd — bv. een beperkt nazicht voor een bank, een due-diligence, een ISAE 3000-opdracht. Hier geldt vrije concurrentie maar ook de gangbare beroepsplichten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Anker 1.6.I.A onderscheidt expliciet wettelijke monopolieopdrachten van andere opdrachten als basis voor de reikwijdte van de opdrachten van de gecertificeerd accountant."
+          }
+        }
+      },
+      {
+        "id": "internationale-normenarchitectuur",
+        "naam": {
+          "primair": "Internationale normenarchitectuur",
+          "synoniemen": [
+            "IAASB-standaarden",
+            "ISA ISRE ISAE ISRS",
+            "beroepsnormen audit"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De **IAASB** (International Auditing and Assurance Standards Board) publiceert vier sets standaarden die de opdrachttypes dekken:\n- **ISA** (International Standards on Auditing) — controleopdrachten\n- **ISRE** (International Standards on Review Engagements) — beoordelingsopdrachten\n- **ISAE** (International Standards on Assurance Engagements) — andere assurance-opdrachten\n- **ISRS** (International Standards on Related Services) — overeengekomen werkzaamheden + compilatie\n\nIn België worden deze standaarden van toepassing verklaard door het **IBR** (voor bedrijfsrevisoren) en het **ITAA** (voor gecertificeerde accountants), eventueel aangevuld met Belgische ITAA-normen voor specifieke opdrachten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Anker 1.6.I.C vereist kennis van de toepasselijke normen per opdrachttype — de IAASB-architectuur is het organiserend principe voor die kennis."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Situaties waarbij een **externe gebruiker** (bank, investeerder, aandeelhouder, overheid) een onafhankelijke beoordeling van financiële of niet-financiële informatie nodig heeft om een beslissing te nemen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschappen die **wettelijk verplicht** zijn een commissaris aan te stellen (grote vennootschappen) of vrijwillig een audit laten uitvoeren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Opdrachtgevers die nood hebben aan een **tussenoplossing** qua zekerheid en kost — bv. een bank die een beperkt nazicht vraagt in plaats van een volledige audit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Opdrachten over **niet-financiële informatie** zoals duurzaamheidsverslagen (CSRD), sociale verslagen of compliance-rapporten waarbij zekerheid gewenst is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Compilatieopdrachten**: de accountant stelt financiële informatie samen maar verstrekt geen zekerheid — de assurance-types zijn hier niet van toepassing.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Zuivere adviesopdrachten** (fiscaal, organisatorisch, strategisch) waarbij de accountant geen conclusie over een bewering van een derde formuleert.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "De opdrachtgever verwacht enkel **feitenvaststellingen** zonder zekerheidsconclussie — dan is een ISRS 4400-opdracht (overeengekomen werkzaamheden) passend, geen assurance-opdracht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De accountant **mist de vereiste onafhankelijkheid** t.a.v. de cliënt of het onderwerp — dan kan hij geen assurance-opdracht aanvaarden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De opdracht vereist een **onafhankelijke conclusie** over een bewering van een verantwoordelijke partij gericht op externe gebruikers.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Er is een **wettelijke verplichting** (commissarismandat, bijzonder verslag bij vennootschapsverrichting) of een contractuele vereiste van een derde.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De gebruiker vraagt expliciet om een **zekerheidsgraad** (redelijk of beperkt) over de informatie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "controleopdracht-cyclus",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De controleopdracht (ISA) is het meest uitgewerkte opdrachttype en wordt verder uitgewerkt in de cyclus-records."
+    },
+    {
+      "type": "bevat",
+      "target": "normenkader-audit",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het normenkader (ISA, ISRE, ISAE, ISRS) is het regelgevende fundament van alle assurance-opdrachttypen."
+    },
+    {
+      "type": "vereist",
+      "target": "onafhankelijkheid",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Elke assurance-opdracht vereist onafhankelijkheid van de accountant t.a.v. de cliënt en het onderwerp van de opdracht."
+    },
+    {
+      "type": "vereist",
+      "target": "opdrachtaanvaarding-en-opdrachtbrief",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Elk opdrachttype veronderstelt een aanvaardingsprocedure en een opdrachtbrief die de reikwijdte en het zekerheidsni niveau vastlegt."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "wettelijke-controle-jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide resulteren in een verslag met een conclusie over financiële informatie",
+        "Beide vereisen onafhankelijkheid en vakbekwaamheid"
+      ],
+      "verschillen": [
+        "Wettelijke controle is exclusief voorbehouden aan de commissaris (bedrijfsrevisor); andere assurance-opdrachten kunnen ook door gecertificeerde accountant worden uitgevoerd",
+        "Wettelijke controle volgt steeds ISA met redelijke zekerheid; andere assurance-opdrachten kiezen het zekerheids niveau naargelang de nood"
+      ],
+      "verwarring_risico": "Studenten verwarren soms de wettelijke controle met elke vorm van assurance — wettelijke controle is slechts één specifiek assurance-type."
+    },
+    {
+      "type": "valt_onder",
+      "target": "itaa-beroepsorganisatie",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het ITAA verklaart de IAASB-standaarden van toepassing en publiceert eigen normen voor specifieke opdrachten van gecertificeerde accountants."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "groottecategorie-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De groottecategorie van een vennootschap bepaalt welk opdrachttype wettelijk verplicht is — grote vennootschappen hebben een commissaris nodig; kleine kunnen volstaan met een compilatie."
+    },
+    {
+      "type": "vereist",
+      "target": "kwaliteitsmanagement-opdracht",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Alle assurance-opdrachten vereisen kwaliteitsbeheersing op opdrachtniveau conform ISQM 2 en de toepasselijke opdrachtstandaard."
+    }
+  ]
 }

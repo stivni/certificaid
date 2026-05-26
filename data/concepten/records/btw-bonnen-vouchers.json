@@ -1,11 +1,24 @@
 {
   "id": "btw-bonnen-vouchers",
   "naam": {
-    "primair": "Btw bonnen vouchers"
+    "primair": "BTW-regime bonnen en vouchers",
+    "synoniemen": [
+      "voucher-regime btw",
+      "tegoedbonnen btw",
+      "bonnen en vouchers",
+      "btw bonnen vouchers"
+    ],
+    "vertaling": {
+      "fr": "Régime TVA des bons et vouchers"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.4.IV"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +37,449 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.4.IV"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Btw bonnen vouchers",
+        "tekst": "Het **BTW-regime voor bonnen en vouchers** bepaalt op welk moment BTW verschuldigd is bij de uitgifte en inwisseling van bonnen (kortingsbonnen, cadeaubonnen, tegoedbonnen) en vouchers. Het centrale onderscheid is dat van **enkelvoudig gebruik** (single-purpose voucher, SPV) versus **meervoudig gebruik** (multi-purpose voucher, MPV): bij een SPV is het BTW-tarief en de plaats van dienst op het moment van uitgifte al gekend, zodat BTW verschuldigd is bij uitgifte. Bij een MPV zijn die elementen bij uitgifte nog onbekend: BTW is pas verschuldigd op het moment van de werkelijke inwisseling.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Vóór de harmonisering bestond grote rechtsonzekerheid over wanneer BTW op tegoedbonnen en vouchers verschuldigd werd. De EU heeft dit geharmoniseerd via Richtlijn 2016/1065, omgezet in de Belgische BTW-wetgeving.\n\nDe praktische kern:\n- **Cadeaubon van een warenhuis** die alleen in dat warenhuis inwisselbaar is voor goederen tegen het normale tarief = SPV → BTW bij uitgifte.\n- **Cadeaubon van een warenhuis** die zowel voor voedingswaren (6%) als kleding (21%) inwisselbaar is = MPV → BTW bij inwisseling, pas als duidelijk is wat de klant koopt.\n- **Kortingsbon** die een prijskorting geeft (bv. '€ 10 korting op uw volgende aankoop') verlaagt de maatstaf van heffing bij de aankoop — dit is géén voucher in de zin van het voucher-regime.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "Het onderscheid SPV/MPV heeft grote praktische gevolgen: bij SPV draagt de uitgevende instelling BTW af bij uitgifte — ook als de voucher nooit wordt ingewisseld (niet-ingelost voucher: toch al BTW betaald bij uitgifte)."
+      },
+      "rationale": {
+        "tekst": "Het voucher-regime voorkomt dubbele heffing (BTW bij uitgifte én bij inwisseling) en zorgt voor uniformiteit binnen de EU. Zonder specifiek regime dreigde BTW tweemaal te worden toegepast: eenmaal bij de verkoop van de voucher (als 'dienstverlening') en eenmaal bij de inwisseling (als levering van goederen/dienst). Het regime legt vast dat BTW precies één keer verschuldigd is — op het 'juiste' moment, afhankelijk van of het tarief en de plaats van dienst al vaststaan.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Handelaars, platformen en dienstverleners die **tegoedbonnen, cadeaukaarten of vouchers verkopen** aan consumenten of bedrijven.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Situaties waarbij vouchers via **distributeurs of tussenpersonen** worden doorverkocht — de doorverkoop tussen BTW-plichtigen verandert de SPV/MPV-kwalificatie niet, maar verschuift wie de BTW moet afdragen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Kortingsbonnen en -codes** die uitsluitend een prijsvermindering geven bij een concrete aankoop: dit zijn geen 'vouchers' in de zin van het regime — zij verlagen de maatstaf van heffing op het moment van de aankoop zelf.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Postzegels en andere recht-gevende instrumenten** die al onderworpen zijn aan een specifieke wettelijke regeling — deze vallen buiten het voucher-regime.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Een instrument kwalificeert als **voucher** wanneer het (1) een recht geeft op goederen of diensten of een korting daarop, (2) er een verplichting bestaat om het als tegenprestatie te aanvaarden, én (3) het instrument of de bijbehorende documentatie de in te wisselen goederen of diensten of de identiteit van de leverancier vermeldt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Foutieve kwalificatie SPV vs. MPV**: een handelaar die een MPV ten onrechte als SPV behandelt, draagt BTW af bij uitgifte — maar nog een tweede keer bij inwisseling als dit pas later ontdekt wordt. Of omgekeerd: een SPV die als MPV wordt behandeld, zorgt voor een laattijdige BTW-afdracht.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Niet-ingelost voucher bij SPV**: de BTW is al voldaan bij uitgifte en wordt **niet teruggestort** als de voucher nooit wordt ingewisseld. Dit heeft een cashflow-impact voor de uitgevende handelaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Een voucher is een **enkelvoudig-gebruik-voucher (SPV)** wanneer op het moment van uitgifte zowel (a) de **BTW-tarief** van de in te wisselen goederen/diensten als (b) de **lidstaat** waar de BTW verschuldigd zal zijn, vaststaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een voucher is een **meervoudig-gebruik-voucher (MPV)** wanneer bij uitgifte het tarief of de lidstaat van heffing **nog niet vaststaat** — omdat de houder kan kiezen uit goederen/diensten met verschillende tarieven of uit verschillende landen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "voucher-definitie",
+        "naam": {
+          "primair": "Voucher (BTW-definitie)"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **voucher** is in BTW-zin een instrument dat (1) een recht geeft op goederen of diensten of op een prijskorting, (2) dat als tegenprestatie moet worden aanvaard, én (3) dat goederen, diensten of de identiteit van de leverancier vermeldt. Louter **betaalinstrumenten** (zoals een bankoverschrijving of een betaalkaart) vallen buiten deze definitie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "enkelvoudig-gebruik-voucher",
+        "naam": {
+          "primair": "Enkelvoudig-gebruik-voucher (SPV)",
+          "afkorting": "SPV",
+          "synoniemen": [
+            "single-purpose voucher"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **enkelvoudig-gebruik-voucher (SPV)** is een voucher waarbij op het moment van uitgifte vaststaat: (a) het **BTW-tarief** dat op de in te wisselen goederen of diensten van toepassing is, én (b) de **lidstaat** waar de BTW verschuldigd is.\n\n**BTW-moment**: bij de **uitgifte** van de SPV (of bij elke doorverkoop ervan). De inwisseling zelf is geen belastbaar feit meer.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Omdat tarief en heffingslidstaat vaststaan, is er geen reden om te wachten tot inwisseling: alle BTW-elementen zijn bekend bij uitgifte."
+          }
+        }
+      },
+      {
+        "id": "meervoudig-gebruik-voucher",
+        "naam": {
+          "primair": "Meervoudig-gebruik-voucher (MPV)",
+          "afkorting": "MPV",
+          "synoniemen": [
+            "multi-purpose voucher"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **meervoudig-gebruik-voucher (MPV)** is elke voucher die geen SPV is — d.w.z. bij uitgifte is het BTW-tarief of de heffings-lidstaat nog niet definitief bepaald.\n\n**BTW-moment**: bij de **inwisseling** van de MPV (= bij de werkelijke levering van goederen of diensten). Doorverkopen van een MPV vóór inwisseling zijn niet belast met BTW.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Omdat bij uitgifte nog niet vaststaat welk tarief van toepassing is (bv. de houder kan kiezen tussen goederen aan 6% of 21%), kan de BTW pas worden berekend op het moment van de concrete inwisseling."
+          }
+        }
+      },
+      {
+        "id": "btw-moment-spv-mpv",
+        "naam": {
+          "primair": "BTW-opeisbaarheid bij uitgifte versus inwisseling"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het kernonderscheid in het voucher-regime:\n\n| | SPV | MPV |\n|---|---|---|\n| **Tarief bij uitgifte gekend?** | Ja | Nee (of deels) |\n| **Lidstaat bij uitgifte gekend?** | Ja | Nee (of deels) |\n| **BTW verschuldigd bij** | Uitgifte | Inwisseling |\n| **Doorverkoop BTW-plichtig?** | Ja (elke overgang = belastbaar feit) | Nee (enkel inwisseling telt) |\n| **Niet-ingewisselde voucher** | BTW blijft verschuldigd (niet terugvorderbaar) | Geen BTW-impact (noch verschuldigd, noch verlies) |",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "doorverkoop-voucher",
+        "naam": {
+          "primair": "Doorverkoop van vouchers via distributeurs"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een **SPV** door tussenpersonen/distributeurs wordt doorverkocht vóór inwisseling, is elke overdracht van de voucher een belastbaar feit. De BTW is verschuldigd over de vergoeding die de distributeur ontvangt.\n\nWanneer een **MPV** door een tussenpersoon wordt doorverkocht (maar niet ingewisseld), is er **geen BTW** verschuldigd op de doorverkoop zelf — de tussenpersoon levert een 'distributiedienst' waarop apart BTW van toepassing kan zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kortingsbon-onderscheid",
+        "naam": {
+          "primair": "Kortingsbon versus voucher"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **kortingsbon** (bv. '€ 10 korting op uw volgende aankoop') is **geen voucher** in de BTW-zin: ze geeft niet het recht op goederen of diensten, maar verlaagt alleen de prijs bij een concrete aankoop. Effect: de **maatstaf van heffing** (de belastbare grondslag) wordt verlaagd met de kortingswaarde op het moment van de aankoop — er is geen aparte BTW-opeisbaarheid bij uitgifte van de kortingsbon.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid is relevant voor de administratieve verwerking: een kortingsbon verlaagt de factuurgrondslag; een voucher triggert een apart BTW-moment en vereist een eigen administratieve opvolging (uitgifte vs. inwisseling)."
+          }
+        }
+      },
+      {
+        "id": "niet-ingewisselde-voucher",
+        "naam": {
+          "primair": "Niet-ingewisselde voucher (breakage)"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een SPV **nooit wordt ingewisseld** (breakage), blijft de BTW verschuldigd die bij de uitgifte al werd voldaan. Er bestaat geen recht op teruggave van de BTW, ook niet wanneer zeker is dat de klant de voucher niet zal inlossen.\n\nBij een MPV die niet wordt ingewisseld, is de situatie omgekeerd: er was nooit BTW verschuldigd bij uitgifte, en er is ook geen BTW-schuld bij het verlopen van de voucher.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit is een specifiek risico voor uitgevers van SPV-vouchers: BTW-kost wordt gedragen zelfs bij niet-inwisseling, in tegenstelling tot de MPV-structuur."
+          }
+        }
+      },
+      {
+        "id": "maatstaf-van-heffing-vouchers",
+        "naam": {
+          "primair": "Maatstaf van heffing bij vouchers"
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "**Bij SPV**: maatstaf van heffing bij uitgifte = de vergoeding betaald voor de voucher (of, bij ontbreken, de geldelijke waarde van de voucher), exclusief BTW.\n\n**Bij MPV**: maatstaf van heffing bij inwisseling = de vergoeding betaald voor de goederen of diensten verkregen bij inwisseling, of bij gedeeltelijke inwisseling de pro-rata-waarde. Als de goederen/diensten worden verkregen zonder bijbetaling, is de maatstaf gelijk aan de geldelijke waarde van de voucher, verminderd met de BTW.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-stelsel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "opeisbaarheid-btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "maatstaf-van-heffing-btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "btw-tarieven",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "btw-belastingplichtige",
+      "toelichting": "Enkel BTW-plichtigen die vouchers uitgeven of inwisselen, vallen onder dit regime.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,8 +1,18 @@
 {
   "id": "jaarrekening",
   "naam": {
-    "primair": "Jaarrekening"
+    "primair": "Jaarrekening",
+    "afkorting": "JR",
+    "synoniemen": [
+      "jaarrekening enkelvoudig",
+      "statutaire jaarrekening"
+    ],
+    "vertaling": {
+      "fr": "comptes annuels",
+      "en": "annual accounts"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -24,6 +34,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en basis-relaties ingevuld vanuit training-data."
       }
     ],
     "ankers": [
@@ -46,20 +62,481 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Jaarrekening",
+        "tekst": "De **jaarrekening** is het geheel van gestandaardiseerde financiële documenten dat een onderneming jaarlijks moet opstellen en neerleggen om een getrouw beeld te geven van haar vermogen, financiële toestand en resultaten. Voor een enkelvoudige vennootschap bestaat de jaarrekening minimaal uit de **balans**, de **resultatenrekening** en de **toelichting**. Grotere vennootschappen voegen een **sociale balans** toe. De jaarrekening is het einddocument van de boekhoudcyclus en tevens het vertrekpunt voor fiscale aangifte, analyse en toezicht.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De jaarrekening vervult drie rollen tegelijk:\n\n1. **Informatieverstrekking** — aandeelhouders, schuldeisers, werknemers en de overheid krijgen een gestandaardiseerd beeld van de financiële toestand;\n2. **Rechtsbescherming** — de jaarrekening is de basis voor de bestemming van het resultaat, de uitkeerbare winst en het behoud van het kapitaal;\n3. **Fiscale grondslag** — de vennootschapsbelasting start vanuit het boekhoudkundig resultaat (artikel 24 WIB92 en het boekhoudkundig-fiscaal attachment).\n\nDit maakt de jaarrekening tot het centrale knooppunt in het Belgische boekhoud- en belastingrecht: wat hier staat, heeft rechtstreekse gevolgen voor uitkeringsrechten, bestuurdersaansprakelijkheid en belastinggrondslag.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De jaarrekening is wettelijk verplicht omdat de economische werkelijkheid van een onderneming periodiek en op gestandaardiseerde wijze gecommuniceerd moet worden naar derden die er rechten op laten gelden — en die niet dagelijks toegang hebben tot de boekhouding. Zonder standaardisering zijn balansen van verschillende ondernemingen niet vergelijkbaar; zonder openbaarheid kunnen schuldeisers hun risico niet inschatten. Het systeem berust dus op twee pijlers: **standaardisering** (normen: KB/W.Venn., BGAAP) en **openbaarmaking** (neerlegging bij de Nationale Bank van België).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "balans",
+        "naam": {
+          "primair": "Balans",
+          "synoniemen": [
+            "vermogensoverzicht",
+            "balansopstelling"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **balans** is de momentopname op de afsluitdatum van de bezittingen (**activa**) en de financieringswijze (**passiva** = eigen vermogen + schulden). Activa en passiva zijn in evenwicht: activa = passiva. De balans volgt een vaste rubrieksindeling die in aflopende liquiditeitsgraad (activa) respectievelijk opeisbaarheid (passiva) is geordend.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "resultatenrekening",
+        "naam": {
+          "primair": "Resultatenrekening",
+          "synoniemen": [
+            "winst-en-verliesrekening"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **resultatenrekening** toont alle **opbrengsten en kosten** van het boekjaar en leidt zo af tot het resultaat van het boekjaar (winst of verlies). Ze volgt een vaste structuur die onderscheid maakt tussen **bedrijfsresultaat**, **financieel resultaat** en **uitzonderlijk resultaat**, met als eindpunt het resultaat vóór en na belasting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "toelichting",
+        "naam": {
+          "primair": "Toelichting",
+          "synoniemen": [
+            "annexe",
+            "notes"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **toelichting** bevat kwantitatieve en kwalitatieve informatie die de balans en resultatenrekening verduidelijkt maar er niet in past: **waarderingsregels**, staat van de vaste activa, aandelenkapitaal en structuur, rechten en verplichtingen niet in de balans, verbonden partijen, en andere wettelijk verplichte staten. De toelichting maakt integraal deel uit van de jaarrekening en is even bindend als de cijfers.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schema-keuze",
+        "naam": {
+          "primair": "Schemamodel",
+          "synoniemen": [
+            "volledig schema",
+            "verkort schema"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "Belgische vennootschappen kiezen het model op basis van **groottecriteria** (WVV):\n\n- **Volledig schema** — grote en zeer grote vennootschappen; meest gedetailleerde rubricering;\n- **Verkort schema** — kleine vennootschappen; minder rubrieken, minder toelichting verplicht;\n- **Micro-schema** — microscopische ondernemingen; minimale informatievereisten.\n\nHet gekozen schema bepaalt welke rubrieken, staten en toelichtingsitems verplicht zijn. Een grotere onderneming mag nooit een kleiner schema gebruiken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "getrouwe-weergave",
+        "naam": {
+          "primair": "Getrouwe weergave",
+          "synoniemen": [
+            "true and fair view",
+            "getrouw beeld"
+          ]
+        },
+        "inhoud_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De jaarrekening moet een **getrouw beeld** geven van het vermogen, de financiële toestand en het resultaat. Wanneer strikte toepassing van een boekhoudkundige regel tot een niet-getrouw beeld zou leiden, moet van die regel worden afgeweken — maar enkel met vermelding in de toelichting. Dit principe is de **suprema lex** van het boekhoudrecht: het overrulet alle technische regels wanneer die een misleidend beeld zouden geven.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "neerleggingsplicht",
+        "naam": {
+          "primair": "Neerleggingsplicht",
+          "synoniemen": [
+            "openbaarmaking",
+            "publicatieplicht"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De **neerlegging** bij de Nationale Bank van België (NBB) maakt de jaarrekening openbaar toegankelijk. De termijn is **zeven maanden** na de afsluitdatum voor neerlegging via de NBB-portal. Niet-tijdige neerlegging leidt tot een automatische boete die oploopt per maand vertraging. Neerlegging is een **vennootschapsrechtelijke verplichting** — niet een fiscale — maar is ook praktisch vereist voor de fiscale aangifte.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "resultaatverwerking-in-jr",
+        "naam": {
+          "primair": "Resultaatverwerking in de jaarrekening"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De resultaatverwerking is het laatste onderdeel van de jaarrekening en toont hoe het resultaat van het boekjaar wordt **bestemd**: naar reserves, over te dragen winst, of als dividend aan aandeelhouders. De resultaatverwerking is geen afzonderlijk onderdeel van de balans maar maakt deel uit van de **toelichting** of wordt als bijlage gepresenteerd. Het bepaalt het uitkeerbare bedrag en is gebonden aan de kapitaalbeschermingsregels (alarmbel, nettoactieftest).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afsluiting-en-opmaak-termijn",
+        "naam": {
+          "primair": "Afsluiting en opmaakverplichting"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **boekjaar** eindigt op de statutaire afsluitdatum (typisch 31 december, maar vrij te kiezen). Na de afsluitdatum moet het bestuursorgaan de jaarrekening **opmaken** (intern: inventaris + journaalboek volledig bijhouden) en ter goedkeuring aan de **algemene vergadering** voorleggen. De AV heeft **zes maanden** na de afsluitdatum om de jaarrekening goed te keuren. Na goedkeuring volgt neerlegging binnen **30 dagen**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke **boekhoudplichtige rechtspersoon** naar Belgisch recht — NV, BV, CV, maatschap met rechtspersoonlijkheid, vzw boven drempel — is verplicht een jaarrekening op te stellen en neer te leggen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De jaarrekening is het **vertrekpunt voor de fiscale aangifte**: het boekhoudkundig resultaat wordt via het attachment gecorrigeerd tot de belastbare grondslag. Geen correcte jaarrekening = geen correcte VenB-aangifte.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De jaarrekening is **verplichte input** voor de commissariscontrole (grote vennootschappen), de wettelijke controle door een bedrijfsrevisor, en de jaarrekeninganalyse door schuldeisers, banken en investeerders.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Eenmanszaken en vrije beroepers** zonder rechtspersoonlijkheid hebben geen verplichting tot neerlegging — wel een boekhoudplicht, maar geen gestandaardiseerde jaarrekening in de NBB-zin.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De jaarrekening is **niet het juiste document** om lopende financiële toestand real-time op te volgen — daarvoor dienen analytische boekhouding, budgetten en managementrapportage.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De jaarrekening is geldig opgemaakt wanneer ze: (1) **alle wettelijk vereiste onderdelen** bevat voor het toepasselijke schema; (2) **ondertekend** is door alle leden van het bestuursorgaan; (3) **goedgekeurd** is door de algemene vergadering; en (4) **neergelegd** is bij de NBB binnen de wettelijke termijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Laattijdige neerlegging** — automatische boetes opgelopen per maand vertraging; de boete loopt voor elk jaar dat de jaarrekening niet is neergelegd, ook voor eerdere boekjaren.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onjuiste schematoepassing** — een kleine vennootschap die een verkort schema toepast terwijl zij groot is, heeft een ongeldige jaarrekening; dit kan aanleiding geven tot bestuurdersaansprakelijkheid.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "bgaap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening wordt opgesteld conform BGAAP (Belgisch Generally Accepted Accounting Principles), dat het referentienormenkader vormt."
+    },
+    {
+      "type": "valt_onder",
+      "target": "boekhoudplichtige-onderneming",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De neerleggingsplicht voor de jaarrekening geldt voor alle boekhoudplichtige rechtspersonen in de zin van het WVV."
+    },
+    {
+      "type": "bevat",
+      "target": "jaarrekeninganalyse",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening is de primaire inputbron voor jaarrekeninganalyse via ratio's en kasstroomanalyse."
+    },
+    {
+      "type": "triggert",
+      "target": "resultaatverwerking",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het resultaat van de jaarrekening is de basis voor de resultaatverwerking (dividenden, reserves, overdracht)."
+    },
+    {
+      "type": "triggert",
+      "target": "aangifte-vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Het boekhoudkundig resultaat van de jaarrekening is het vertrekpunt (attachment) voor de vennootschapsbelasting-aangifte."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "geconsolideerde-jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening (enkelvoudig) en de geconsolideerde jaarrekening zijn verwante maar aparte documenten; de geconsolideerde JR vat meerdere entiteiten samen."
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "wettelijke-controle-jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Grote vennootschappen zijn onderworpen aan de wettelijke controle van de jaarrekening door een commissaris-revisor."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "groottecategorie-vennootschap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De groottecategorie (micro/klein/groot/zeer groot) bepaalt welk schemamodel en welke verplichte staten van toepassing zijn."
+    }
+  ]
 }

@@ -34,6 +34,12 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 24)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende modus: inhoud_type-correcties (mechanisme → beperking voor 2 elementen), gebruikscontext.niet_voor toegevoegd, kern.rationale aangescherpt."
       }
     ],
     "ankers": [
@@ -41,6 +47,47 @@
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De current ratio is een liquiditeitsratio die de verhouding weergeeft tussen de vlottende activa van een onderneming en haar schulden op korte termijn. De ratio meet in welke mate de onderneming haar verplichtingen op korte termijn kan nakomen met haar kortetermijnactiva."
+      },
+      "substantie": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "De current ratio berekent men door de vlottende activa (voorraden + handelsvorderingen + geldbeleggingen en liquide middelen + overige kortetermijnactiva) te delen door de schulden op korte termijn; een waarde hoger dan 1 betekent dat de onderneming meer kortetermijnactiva heeft dan kortlopende schulden."
+      },
+      "rationale": {
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        },
+        "tekst": "Een onderneming kan winstgevend zijn en toch failliet gaan als ze haar kortlopende schulden niet tijdig kan betalen — de current ratio legt dit structurele liquiditeitsrisico bloot. Door vlottende activa tegenover kortlopende schulden te plaatsen geeft de ratio een momentopname van de betalingscapaciteit op korte termijn. De drempelwaarde van 1,0 is de absolute ondergrens: beneden 1 dekken de vlottende activa de kortlopende schulden niet volledig. In de praktijk wordt een waarde van 1,5 tot 2,0 als gezond beschouwd, maar dit is sterk sectorafhankelijk: een supermarkt kan bewust met een lage current ratio opereren omdat de voorraad snel omslaat en klanten contant betalen, terwijl een productiebedrijf met lange productiecycli een hogere buffer nodig heeft."
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "voorraden",
@@ -71,20 +118,7 @@
               }
             ]
           },
-          "tekst": "Beoordeling van de kortetermijnliquiditeit van een cliënt bij financiële diagnose of due diligence."
-        },
-        {
-          "grondslag": {
-            "confidence": "verondersteld",
-            "bronnen": [
-              {
-                "type": "ai_model",
-                "naam": "claude-sonnet-4-6",
-                "datum": "2026-05-22"
-              }
-            ]
-          },
-          "tekst": "Screening of een onderneming in de gevarenzone zit voor alarmbeltoepassing (netto-actief gedaald onder helft maatschappelijk kapitaal)."
+          "tekst": "Beoordeling van de kortetermijnliquiditeit van een onderneming bij financiële analyse of due diligence."
         },
         {
           "grondslag": {
@@ -111,6 +145,60 @@
             ]
           },
           "tekst": "Vergelijking met sectorgemiddelden om te beoordelen of de liquiditeitspositie structureel zwak of sterk is."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-22"
+              }
+            ]
+          },
+          "tekst": "Evolutieanalyse over meerdere boekjaren als onderdeel van een cijferanalyse — een dalende trend signaleert verslechterende liquiditeit ook als de absolute waarde nog boven 1 ligt."
+        }
+      ],
+      "niet_voor": [
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Beoordeling van de onmiddellijke betalingscapaciteit — daarvoor is de cash ratio of quick ratio geschikter, omdat de current ratio ook illiquide voorraden meerekent."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Beoordeling van de solvabiliteit op lange termijn — de current ratio meet alleen kortetermijndekking, niet de structurele financiering. Daarvoor zijn de schuldgraad of rentabiliteitsratios de juiste indicatoren."
+        },
+        {
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "tekst": "Sectorvergelijking zonder contextaanpassing — een current ratio van 1,2 is kritisch in de ene sector en gezond in de andere. Ruwe cross-sectorvergelijkingen leiden tot verkeerde conclusies."
         }
       ],
       "indicaties": [
@@ -309,7 +397,7 @@
         "naam": {
           "primair": "Beperking — voorraden zijn niet altijd liquide"
         },
-        "inhoud_type": "mechanisme",
+        "inhoud_type": "beperking",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
@@ -405,7 +493,7 @@
         "naam": {
           "primair": "Beperking — momentopname op balansdatum"
         },
-        "inhoud_type": "mechanisme",
+        "inhoud_type": "beperking",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
@@ -432,48 +520,7 @@
           }
         }
       }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De current ratio is een liquiditeitsratio die de verhouding weergeeft tussen de vlottende activa van een onderneming en haar kortlopende schulden. De ratio meet in welke mate de onderneming haar verplichtingen op korte termijn kan nakomen met haar kortetermijnactiva."
-      },
-      "substantie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "De current ratio berekent men door de vlottende activa (voorraden + handelsvorderingen + geldbeleggingen en liquide middelen + overige kortetermijnactiva) te delen door de schulden op korte termijn; een waarde hoger dan 1 betekent dat de onderneming meer kortetermijnactiva heeft dan kortlopende schulden."
-      },
-      "rationale": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Een onderneming kan winstgevend zijn en toch failliet gaan als ze haar kortlopende schulden niet tijdig kan betalen — de current ratio legt dit structurele liquiditeitsrisico bloot. Door vlottende activa tegenover kortlopende schulden te plaatsen geeft de ratio een momentopname van de betalingscapaciteit op korte termijn. De drempelwaarde van 1,0 is de absolute ondergrens: beneden 1 dekken de vlottende activa de kortlopende schulden niet volledig. In de praktijk wordt een waarde van 1,5 tot 2,0 als gezond beschouwd, hoewel dit sterk sectorafhankelijk is: een supermarkt draait bewust met een lage current ratio omdat de voorraad snel omslaat en klanten contant betalen, terwijl een productiebedrijf met lange productiecycli een hogere buffer nodig heeft."
-      }
-    }
+    ]
   },
   "relaties": [
     {
@@ -508,7 +555,7 @@
     {
       "type": "beinvloed_door",
       "target": "werkkapitaalbehoefte",
-      "toelichting": "Een stijgende werkkapitaalbehoefte druk de current ratio omlaag als de financiering niet mee groeit.",
+      "toelichting": "Een stijgende werkkapitaalbehoefte drukt de current ratio omlaag als de financiering niet mee groeit.",
       "grondslag": {
         "confidence": "verondersteld",
         "bronnen": [

@@ -1,8 +1,14 @@
 {
   "id": "forfaitaire-regeling-btw",
   "naam": {
-    "primair": "Forfaitaire regeling btw"
+    "primair": "Forfaitaire regeling btw",
+    "synoniemen": [
+      "forfaitair btw-stelsel",
+      "forfaitaire btw",
+      "landbouwforfait"
+    ]
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
@@ -12,6 +18,10 @@
       "extract_prompt": "tools.extractie.skeleton_from_candidate",
       "iteratie": "v0"
     },
+    "ankers": [
+      "2.4.II",
+      "2.4.III"
+    ],
     "changelog": [
       {
         "operatie": "skeleton",
@@ -24,30 +34,519 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.4.II",
-      "2.4.III"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Forfaitaire regeling btw",
+        "tekst": "De **forfaitaire regeling** is een bijzonder btw-stelsel waarbij de verschuldigde btw niet per individuele handeling wordt berekend, maar via **forfaitaire coëfficiënten per sector** die door de fiscus worden vastgesteld. De belastingplichtige geeft geen btw aan op basis van zijn werkelijke uitgaande facturatie, maar op basis van een forfaitaire raming van zijn omzet en marge, afgeleid van zijn inkopen of ontvangsten.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de normale btw-regeling berekent elke belastingplichtige zijn btw op elke uitgaande handeling en trekt zijn btw op inkomende handelingen af. De forfaitaire regeling vervangt dit door een **vereenvoudigd berekeningssysteem**: de administratie bepaalt per sector een forfaitaire verhouding (bv. 'slagers: aankopen × factor X = verschuldigde btw'). De belastingplichtige registreert zijn inkopen nauwkeurig, past de forfaitaire coëfficiënt toe, en draagt dat bedrag af — zonder te moeten factureren of zijn marge per verkoop bij te houden.\n\nDit systeem is **niet optioneel als men eraan voldoet**: eens toegelaten tot het forfait past men het verplicht toe, tenzij men uitdrukkelijk kiest voor de normale regeling.\n\nDe drie kenmerken die dit regime fundamenteel anders maken dan de normale btw:\n- **Vereenvoudiging** — geen btw-aanrekening per handeling, geen verkoopfacturen vereist bij kleine consumenten-verkopen\n- **Sectorgebondenheid** — coëfficiënten zijn per sector, niet individueel onderhandeld\n- **Beperkte aftrek** — de forfaitaire berekening absorbeert de aftrek; aparte berekening van aftrekbare btw is beperkt tot bedrijfsmiddelen en bepaalde algemene kosten",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De forfaitaire regeling bestaat omdat een deel van de economische actoren — hoofdzakelijk kleine detailhandelaars en ambachtslieden die veel aan particulieren verkopen — in de praktijk niet in staat is de normale btw-administratie correct bij te houden. Zij hebben geen kassasysteem dat per handeling btw aanrekent, en het verplichten van facturen aan particulieren per verkoop is economisch onhaalbaar. Door forfaits per sector in te voeren bereikt de fiscus twee doelen: **eenvoud voor kleine actoren** en **voldoende belastingopbrengst** via objectief bepaalde coëfficiënten — ook zonder individuele controle per handeling.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "toelatingsdrempel",
+        "naam": {
+          "primair": "Toelatingsdrempel",
+          "synoniemen": [
+            "omzetgrens forfait"
+          ]
+        },
+        "inhoud_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Om te worden toegelaten tot de forfaitaire regeling moet de belastingplichtige een **jaaromzet onder een bepaald plafond** hebben. De drempel wordt door de Belgische btw-administratie per ministerieel besluit vastgesteld en is sectorgebonden. Overschrijding van de drempel leidt tot automatische uitsluiting uit het forfait en terugval op de normale btw-regeling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De drempel beschermt de regeling voor haar doelgroep: kleine actoren voor wie de normale btw een onevenredige administratieve last zou zijn. Grotere spelers in dezelfde sector moeten de normale regeling toepassen."
+          }
+        }
+      },
+      {
+        "id": "forfaitaire-coefficient",
+        "naam": {
+          "primair": "Forfaitaire coëfficiënt",
+          "synoniemen": [
+            "sectorcoëfficiënt",
+            "forfaitaire verhouding"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De **forfaitaire coëfficiënt** is de sector-specifieke vermenigvuldigingsfactor die de administratie toepast op de inkopen (of ontvangsten) van de belastingplichtige om de verschuldigde btw te ramen. De coëfficiënt weerspiegelt de gemiddelde marge in de sector en het toepasselijk btw-tarief.\n\n**Werkingsmechanisme**: verschuldigde btw = (inkopen × coëfficiënt) − aftrekbare btw op bedrijfsmiddelen en andere directe kosten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Door uit te gaan van inkopen (die makkelijker te controleren zijn dan verkopen aan particulieren zonder factuur) maakt de forfaitaire methode controle door de administratie eenvoudiger en minder fraudegevoelig dan een systeem op basis van aangegeven omzet."
+          }
+        }
+      },
+      {
+        "id": "toegelaten-sectoren",
+        "naam": {
+          "primair": "Toegelaten sectoren",
+          "synoniemen": [
+            "forfait-sectoren"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De forfaitaire regeling is **niet voor alle belastingplichtigen beschikbaar** — ze geldt enkel voor sectoren die de minister van Financiën uitdrukkelijk heeft opgenomen in een Koninklijk Besluit of ministerieel besluit. Typische sectoren zijn:\n- Klein-detailhandel (slagers, bakkers, vishandelaars, groente- en fruithandelaars)\n- Kappers en schoonheidssalons\n- Kleine horeca (bepaalde categorieën)\n- Landbouwsector (bijzonder landbouwforfait)\n\nSectoren die niet zijn opgenomen kunnen de normale regeling of de vrijstellingsregeling kleine onderneming toepassen — niet het forfait.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "beperkte-aftrek-in-forfait",
+        "naam": {
+          "primair": "Beperkte btw-aftrek in het forfait",
+          "synoniemen": [
+            "aftrekbeperking forfait"
+          ]
+        },
+        "inhoud_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "In de forfaitaire regeling is de aftrek van voorbelasting **slechts mogelijk voor een beperkte categorie van inkomende handelingen**, hoofdzakelijk:\n- Btw op aankoop of verbetering van bedrijfsmiddelen\n- Btw op bepaalde diensten die rechtstreeks verband houden met de beroepsactiviteit\n\nDe btw op de handelsgoederen zelf wordt **verrekend via de forfaitaire coëfficiënt** en kan niet bovenop afzonderlijk worden afgetrokken. Dit verschilt fundamenteel van de normale regeling, waarbij alle beroepsmatige voorbelasting aftrekbaar is.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dubbele aftrek zou het forfait uitkleden: de coëfficiënt is al berekend rekening houdend met de gemiddelde aftrekbare btw op inkopen in de sector. Afzonderlijk aftrekken zou leiden tot een structurele onderbetaling."
+          }
+        }
+      },
+      {
+        "id": "aangifte-periodiciteit-forfait",
+        "naam": {
+          "primair": "Aangifte-periodiciteit in het forfait",
+          "synoniemen": [
+            "kwartaalaangifte forfait"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Belastingplichtigen onder de forfaitaire regeling dienen hun btw-aangifte **per kwartaal** in. Dit is een wettelijke afwijking van de maandelijkse aangifte die voor normale belastingplichtigen boven bepaalde drempels geldt. De kwartaalaangifte sluit aan bij de vereenvoudigingsgedachte van het forfait: minder frequent verantwoording, eenvoudiger administratie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitstap-naar-normale-regeling",
+        "naam": {
+          "primair": "Uitstap naar de normale regeling",
+          "synoniemen": [
+            "keuze normale regeling",
+            "verlaten forfait"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een forfait-belastingplichtige kan **vrijwillig kiezen voor de normale btw-regeling** door dat te melden aan de btw-administratie. Dit is onomkeerbaar voor een minimum periode (doorgaans drie jaar). Redenen voor vrijwillige uitstap:\n- Hogere aftrekbare btw bij grote investeringen\n- Uitbreiden van activiteiten naar b2b-klanten die een factuur met btw eisen\n- Overschrijding van de sectordrempel\n\nBij overschrijding van de drempel is de uitstap **verplicht en automatisch** — de belastingplichtige verliest het forfait.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De minimumperiode van drie jaar bij vrijwillige keuze voor de normale regeling voorkomt opportunistisch heen-en-weer-schakelen op basis van het al dan niet hebben van grote investeringen in een bepaald jaar."
+          }
+        }
+      },
+      {
+        "id": "landbouwregeling-onderscheid",
+        "naam": {
+          "primair": "Onderscheid met de bijzondere landbouwregeling",
+          "synoniemen": [
+            "landbouwforfait",
+            "bijzondere landbouwregeling"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "De **bijzondere landbouwregeling** (ook 'landbouwforfait' of 'flat-rate scheme') is een afzonderlijke btw-regeling die specifiek op landbouwers, bosbouwers en vissers is gericht. Zij onderscheidt zich van de algemene forfaitaire regeling doordat:\n- De landbouwer **geen btw aanrekent** aan zijn klanten\n- De klant (normaal belastingplichtig) betaalt een **forfaitaire compensatie** die hij zelf als aftrekbare btw beschouwt\n- De landbouwer hoeft **geen btw-aangifte** in te dienen\n\nDe bijzondere landbouwregeling is daarmee een stap verder in vereenvoudiging dan de gewone forfaitaire regeling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid is examens-relevant: studenten verwarren de twee regelingen. De algemene forfaitaire regeling = er is wél btw-aangifte en wél btw-aanrekening, maar forfaitair berekend. De landbouwregeling = geen aanrekening, geen aangifte, compensatiesysteem via de afnemer."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Kleine **detailhandelaars of ambachtslieden** in een door de fiscus erkende forfait-sector (bv. slagers, bakkers, kappers), hoofdzakelijk verkopend aan particulieren zonder factuurverplichting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Wanneer het overgrote deel van de omzet bestaat uit contante verkopen aan particulieren zonder facturatieplicht, is de normale btw moeilijk bij te houden. Het forfait is voor net deze situatie ontworpen."
+        },
+        {
+          "tekst": "Belastingplichtigen met een **stabiele, seizoensgebonden of goed voorspelbare omzet-inkoopverhouding** die nauw aansluit bij de sectorcoëfficiënten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Wanneer de werkelijke marge sterk afwijkt van de forfaitaire coëfficiënt, kan de belastingplichtige ofwel te veel ofwel te weinig btw betalen in vergelijking met de normale regeling."
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Belastingplichtigen die overwegend aan **andere btw-plichtige ondernemingen** (b2b) leveren — die klanten eisen een factuur met uitgesplitste btw die aftrekbaar is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het forfait is gericht op b2c-transacties zonder facturatieplicht. Bij b2b-leveringen verwacht de klant aftrekbare btw op een formele factuur — wat niet mogelijk is in het forfait-systeem."
+        },
+        {
+          "tekst": "Sectoren die **niet zijn opgenomen** in de lijst van erkende forfait-sectoren per KB of ministerieel besluit.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Belastingplichtigen die de **vrijstellingsregeling kleine onderneming** genieten — zij vallen buiten de btw-sfeer en hoeven het forfait niet te kiezen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De belastingplichtige oefent een activiteit uit in een **erkende forfait-sector** zoals vastgesteld door de minister van Financiën.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De **jaaromzet** blijft onder het voor de sector vastgestelde plafond.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het exacte bedrag van de drempel is sectorgebonden en kan worden gewijzigd bij ministerieel besluit. Te verifiëren bij claims_checken."
+        },
+        {
+          "tekst": "De belastingplichtige **verkoopt hoofdzakelijk aan particulieren** zonder systematische facturatieplicht per handeling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "**Gemengde belastingplichtigen** met zowel forfait-activiteiten als activiteiten buiten de forfait-sector zijn in principe uitgesloten van de forfaitaire regeling voor het geheel van hun activiteit, tenzij bijzondere regels van toepassing zijn.",
+          "grondslag": {
+            "confidence": "betwijfeld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Grens tussen gemengde-activiteitsregels en forfait is complex en te verifiëren bij claims_checken."
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Sterk vereenvoudigde administratie**: geen btw-aanrekening per verkoop aan particulieren, geen kassasysteem nodig voor btw-berekening per handeling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Voorspelbare btw-kost**: de verschuldigde btw is proportioneel aan de inkopen — geen surprises door onverwacht hoge marges.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Structurele overbetaling** wanneer de werkelijke marge consequent lager is dan de forfaitaire coëfficiënt aanneemt — de belastingplichtige betaalt meer btw dan bij de normale regeling het geval zou zijn.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verlies van aftrekrecht** bij grote investeringen: in het forfait is de btw op handelsgoederen niet separaat aftrekbaar, waardoor de voordelen van aftrekrecht bij grote aankopen verloren gaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "regime"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-stelsel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "btw-belastingplichtige",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vrijstellingsregeling-kleine-onderneming",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide gericht op kleine belastingplichtigen",
+        "Beide vereenvoudigen de btw-administratie"
+      ],
+      "verschillen": [
+        "Vrijstellingsregeling: geen btw aanrekenen en geen aangifte; forfait: wél btw en aangifte, maar forfaitair berekend",
+        "Vrijstellingsregeling: geen aftrekrecht; forfait: beperkt aftrekrecht voor bedrijfsmiddelen"
+      ],
+      "verwarring_risico": "Studenten verwarren de twee regelingen: bij de vrijstellingsregeling valt men buiten de btw-sfeer; bij het forfait is men wél btw-plichtige maar met een vereenvoudigde berekeningswijze."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "margeregeling-tweedehands",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide zijn bijzondere btw-stelsels met afwijkende berekeningsgrondslag"
+      ],
+      "verschillen": [
+        "Margeregeling: btw enkel op de wederverkoopsmarge van tweedehands goederen; forfait: sectorbrede coëfficiënt ongeacht marge per handeling",
+        "Margeregeling gericht op specifiek soort goederen (tweedehands); forfait gericht op specifieke sectoren"
+      ],
+      "verwarring_risico": "Beide zijn 'alternatieve berekeningsstelsels' maar met een geheel verschillende logica en doelgroep."
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "btw-aftrek",
+      "toelichting": "In de forfaitaire regeling is de btw-aftrek op handelsgoederen uitgeschakeld; de coëfficiënt absorbeert de aftrek. Dit is een uitzondering op het algemene aftrekrecht van btw-belastingplichtigen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

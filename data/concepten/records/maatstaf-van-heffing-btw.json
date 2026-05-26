@@ -1,16 +1,30 @@
 {
   "id": "maatstaf-van-heffing-btw",
   "naam": {
-    "primair": "Maatstaf van heffing btw"
+    "primair": "Maatstaf van heffing btw",
+    "synoniemen": [
+      "belastinggrondslag btw",
+      "heffingsgrondslag btw",
+      "base d'imposition TVA"
+    ],
+    "vertaling": {
+      "fr": "Base d'imposition de la TVA"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.4.I",
+      "2.4.V",
+      "2.4.VIII"
+    ],
     "provenance": {
-      "model": "skeleton-from-candidate",
-      "wave_id": "skeleton-dump",
-      "extract_prompt": "tools.extractie.skeleton_from_candidate",
-      "iteratie": "v0"
+      "model": "claude-sonnet-4-6",
+      "wave_id": "wave-2",
+      "extract_prompt": "prompts/operaties/beschrijven.md",
+      "iteratie": "01-beschrijven"
     },
     "changelog": [
       {
@@ -24,31 +38,480 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T00:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.4.I",
-      "2.4.V",
-      "2.4.VIII"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Maatstaf van heffing btw",
+        "tekst": "De **maatstaf van heffing** is het bedrag waarop het BTW-tarief wordt toegepast om de verschuldigde BTW te berekenen. In de regel is dat alles wat de leverancier of dienstverrichter als **vergoeding ontvangt of zal ontvangen** van de afnemer of een derde — inclusief alle kosten en belastingen, maar exclusief de BTW zelf.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De maatstaf van heffing is het ankerpunt van de volledige BTW-berekening: het verbindt het tarief aan een concreet bedrag. Wie de maatstaf fout bepaalt, berekent ook het verschuldigde BTW-bedrag verkeerd — met aansprakelijkheidsrisico's en correcties als gevolg."
+      },
+      "substantie": {
+        "tekst": "De vergoeding omvat **alles wat de afnemer betaalt**: de prijs zelf, supplementen (transport, verpakking, verzekering), bijkomende kosten die worden doorgerekend, en subsidies die rechtstreeks de prijs beïnvloeden. Er gelden **correcties naar boven** (bv. abnormale prijzen bij verbonden partijen) en **correcties naar beneden** (kortingen, rabatten, terugbetalingen).\n\nBijzondere situaties die afwijken van de basisregel:\n- **Ruil** — maatstaf = normale waarde van elk uitgewisseld goed/dienst\n- **Gebruik voor eigen doeleinden** — maatstaf = aankoopprijs of kostprijs\n- **Invoer** — maatstaf = douanewaarde + invoerrechten + bijkomende kosten\n- **Intracommunautaire verwerving** — maatstaf = tegenprestatie zoals bij levering in België",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De substantie legt bloot dat 'vergoeding' breed gelezen wordt en dat correctiemechanismen symmetrisch werken: zowel opwaarts (voorkomen van onderwaardering bij verbonden partijen) als neerwaarts (kortingen verminderen de grondslag)."
+      },
+      "rationale": {
+        "tekst": "De maatstaf van heffing is op EU-niveau geharmoniseerd via de BTW-richtlijn (2006/112/EG) om belastingconcurrentie binnen de interne markt te vermijden. België heeft geen autonomie om de grondslag eigenstandig te definiëren — nationale wetgeving (WBTW art. 26–38) transponeert de richtlijn. Correctiemechanismen (marktwaarde bij verbonden partijen, bijzondere grondslagen voor eigen gebruik en invoer) bewaken het neutraliteitsbeginsel: BTW mag economisch gedrag niet verstoren door prijsmanipulatie te belonen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Elke BTW-belastingplichtige handeling — levering van goederen, dienstverrichting, intracommunautaire verwerving en invoer — waarbij de verschuldigde BTW berekend moet worden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Geen belastbare handeling zonder grondslag-bepaling — de twee zijn onlosmakelijk verbonden."
+        },
+        {
+          "tekst": "Transacties tussen **verbonden partijen** waarbij de marktconformiteit van de prijs getoetst moet worden (gevaar voor te lage of te hoge maatstaf).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Bij niet-marktconforme prijzen kan de fiscus de maatstaf corrigeren naar de normale waarde."
+        },
+        {
+          "tekst": "Situaties van **gebruik voor eigen doeleinden** — bv. bedrijfsmiddelen die de belastingplichtige aan zijn privésfeer ontrekt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**BTW-vrijgestelde handelingen** — bij vrijstelling is er geen maatstaf van heffing nodig (er is geen verschuldigde BTW).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Handelingen buiten de **toepassingssfeer** van de BTW (bv. handelingen door een niet-belastingplichtige, subsidies zonder directe tegenprestatie).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Er moet sprake zijn van een **belastbare handeling** (levering, dienst, ICV, invoer) door een BTW-belastingplichtige.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Er moet een **tegenprestatie** bestaan (bezwarende titel). Bij kosteloze handelingen gelden bijzondere grondslagregels (normale waarde).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Vergeten van doorgefactureerde kosten** in de maatstaf — transportkosten, verpakkingskosten en verzekeringskosten die worden doorgerekend aan de klant zijn deel van de vergoeding en dus belastbaar.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Subsidie-kwalificatie** — een subsidie die rechtstreeks de prijs verlaagt (= prijs-subsidie) verhoogt de maatstaf van heffing; een exploitatiesubsidie zonder prijsband niet. Foutieve kwalificatie leidt tot te lage BTW-aangifte.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "basisregel-vergoeding",
+        "naam": {
+          "primair": "Basisregel: alles wat de afnemer betaalt",
+          "synoniemen": [
+            "tegenprestatie",
+            "vergoeding"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De maatstaf van heffing bij levering van goederen en dienstverrichting is **alles wat de leverancier of dienstverrichter voor die handelingen als tegenprestatie verkrijgt of zal verkrijgen** van de afnemer of van een derde, met inbegrip van subsidies die rechtstreeks de prijs van de handeling beïnvloeden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De basisregel is bewust ruim: 'alles' voorkomt dat partijen betalingen buiten de BTW-grondslag houden via slimme contractuele opdeling."
+          }
+        }
+      },
+      {
+        "id": "elementen-die-de-maatstaf-verhogen",
+        "naam": {
+          "primair": "Elementen die de maatstaf verhogen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "De volgende elementen zijn **altijd inbegrepen** in de maatstaf, ook als ze afzonderlijk worden gefactureerd:\n- Belastingen, rechten en heffingen (andere dan de BTW zelf)\n- Bijkomende kosten: transport, verpakking, verzekering, commissielonen\n- Subsidies die rechtstreeks de prijs beïnvloeden\n\n**Uitzondering**: kosten die als **doorstorting** kwalificeren (inningskosten voor rekening van de afnemer, bv. notariskosten die rechtstreeks op naam van de klant staan) zijn géén deel van de maatstaf.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Bijkomende kosten maken deel uit van de economische waarde-uitwisseling en worden mee belast om neutraliteit te bewaren. De doorstorting-uitzondering bestaat omdat de leverancier in dat geval niet de echte schuldenaar is van de kosten."
+          }
+        }
+      },
+      {
+        "id": "elementen-die-de-maatstaf-verlagen",
+        "naam": {
+          "primair": "Elementen die de maatstaf verlagen"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "substantie": {
+            "tekst": "De maatstaf mag worden **verminderd** met:\n- **Kortingen en rabatten** die op het tijdstip van de handeling worden toegestaan (of naderhand, mits creditnota)\n- **Niet-inbare vorderingen** (credit oninbaar) — maatstaf-herziening toegelaten na formele vaststelling\n- **Teruggestuurde goederen en annulaties** — maatstaf-herziening via creditnota\n\nBelangrijke beperking: de korting moet **werkelijk worden verleend**. Conditionele kortingen (bv. bij tijdige betaling) verlagen de maatstaf pas als ze effectief worden toegepast.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Verlaging van de maatstaf is een correctiemechanisme dat de BTW-schuld aanpast wanneer de economische realiteit wijzigt — de BTW volgt de werkelijke vergoeding, niet een fictieve."
+          }
+        }
+      },
+      {
+        "id": "maatstaf-gebruik-eigen-doeleinden",
+        "naam": {
+          "primair": "Maatstaf bij gebruik voor eigen doeleinden"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een belastingplichtige goederen of diensten **aan zijn eigen privésfeer of niet-economische activiteit ontrekt**, wordt de maatstaf bepaald op:\n- **Aankoopprijs** of inkoopprijs van gelijkaardige goederen op het moment van gebruik (voor goederen)\n- **Kostprijs** van de dienst (voor diensten)\n\nDit voorkomt dat de belastingplichtige BTW-aftrek geniet op aankoop maar geen BTW betaalt bij eigen gebruik.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De fictieve grondslag op kostprijs/aankoopprijs dient het neutraliteitsbeginsel: een BTW-belastingplichtige mag niet beter af zijn dan een particulier die hetzelfde consumeert."
+          }
+        }
+      },
+      {
+        "id": "maatstaf-invoer",
+        "naam": {
+          "primair": "Maatstaf bij invoer"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij **invoer van goederen** uit een niet-EU-land is de maatstaf van heffing de **douanewaarde** verhoogd met:\n- Invoerrechten, accijnzen en andere heffingen die bij invoer worden geheven\n- Bijkomende kosten (transport, verzekering, lossing) tot de eerste bestemming in de EU\n\nDe douanewaarde wordt vastgesteld overeenkomstig de douanewetgeving (EU Douanewetboek).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Door uit te gaan van de douanewaarde (die zelf al op 'transactiewaarde' gebaseerd is) sluit de BTW-grondslag bij invoer aan op de douane-logica. Zo wordt invoer belast op dezelfde economische waarde als gelijkaardige binnenlandse transacties."
+          }
+        }
+      },
+      {
+        "id": "normale-waarde-verbonden-partijen",
+        "naam": {
+          "primair": "Normale waarde bij verbonden partijen",
+          "synoniemen": [
+            "marktwaarde",
+            "normale marktprijs"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de tegenprestatie **niet-marktconform** is (te laag of te hoog) én er een **bijzondere band** bestaat tussen leverancier en afnemer (bv. aandeelhouder, bestuurder, familielid, verbonden vennootschap), kan de fiscus de maatstaf corrigeren naar de **normale waarde** — de prijs die onafhankelijke partijen zouden overeenkomen.\n\nDe correctie is slechts mogelijk als cumulatief aan beide voorwaarden is voldaan: (1) niet-marktconforme prijs én (2) bijzondere relatie.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Zonder deze correctiemogelijkheid konden verbonden partijen de BTW-grondslag manipuleren door onderling kunstmatig lage of hoge prijzen te hanteren — wat de belastingontvangsten schaadt of onterechte aftrek creëert."
+          }
+        }
+      },
+      {
+        "id": "subsidie-kwalificatie",
+        "naam": {
+          "primair": "Subsidies in de maatstaf"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Alleen **prijssubsidies** — subsidies die rechtstreeks de prijs van de geleverde goederen of diensten beïnvloeden — zijn belastbaar en verhogen de maatstaf van heffing.\n\n**Exploitatiesubsidies** (algemene steun die niet rechtstreeks de prijs compenseert) zijn géén onderdeel van de maatstaf.\n\nEen subsidie is een prijs-subsidie wanneer: (1) de subsidiegever het recht heeft op de gesubsidieerde goede­ren/diensten óf (2) de subsidie wordt toegekend per eenheid van de handeling.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De subsidie-kwalificatie vloeit voort uit Europese rechtspraak (HvJ). Foutieve kwalificatie is een frequent punt in BTW-controles van non-profitorganisaties en overheidsbedrijven die subsidies ontvangen."
+          }
+        }
+      },
+      {
+        "id": "maatstaf-intracommunautaire-verwerving",
+        "naam": {
+          "primair": "Maatstaf bij intracommunautaire verwerving"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een **intracommunautaire verwerving** (ICV) is de maatstaf gelijk aan de tegenprestatie zoals die bij een levering in België zou worden bepaald — dus dezelfde basisregel als bij een binnenlandse levering. Bijkomend zijn belastingen en heffingen van het land van vertrek inbegrepen in de maatstaf.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De gelijkstelling met de binnenlandse grondslag zorgt ervoor dat goederen die van buiten België worden aangekocht fiscaal neutraal behandeld worden t.o.v. goederen die in België worden gekocht."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-stelsel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "btw-belastingplichtige",
+      "toelichting": "De maatstaf van heffing is alleen relevant voor handelingen door een BTW-belastingplichtige.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-tarieven",
+      "toelichting": "De maatstaf bepaalt de grondslag waarop het BTW-tarief wordt toegepast — grondslag en tarief samen bepalen de verschuldigde BTW.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "douanewaarde",
+      "toelichting": "Bij invoer bouwt de BTW-maatstaf voort op de douanewaarde.",
+      "gelijkenissen": [
+        "Beide meten de economische waarde van een transactie op basis van de betaalde prijs",
+        "Beide zijn gebaseerd op EU-geharmoniseerde regels"
+      ],
+      "verschillen": [
+        "Douanewaarde is beperkt tot invoer; BTW-maatstaf geldt voor alle belastbare handelingen",
+        "Douanewaarde is strikt transactiewaarde-gebaseerd; BTW-maatstaf omvat ook bijkomende kosten en subsidies"
+      ],
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-grensoverschrijdend",
+      "toelichting": "Bij grensoverschrijdende handelingen (ICV, invoer) gelden bijzondere grondslag-regels die afwijken van de basisregel.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "factuur-btw",
+      "toelichting": "De factuur is het document waarop de maatstaf en de berekende BTW worden vermeld — correcties van de maatstaf (creditnota) lopen via de factuurregels.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

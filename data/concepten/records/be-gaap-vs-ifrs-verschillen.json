@@ -1,11 +1,25 @@
 {
   "id": "be-gaap-vs-ifrs-verschillen",
   "naam": {
-    "primair": "Be gaap vs ifrs verschillen"
+    "primair": "BE GAAP vs. IFRS: verschillen",
+    "afkorting": "BE GAAP vs IFRS",
+    "synoniemen": [
+      "Belgische boekhoudstandaarden vs. internationale standaarden",
+      "lokale GAAP vs. IFRS",
+      "nationale rekening­regels vs. IAS/IFRS"
+    ],
+    "vertaling": {
+      "fr": "Différences Belgian GAAP / IFRS",
+      "en": "Belgian GAAP vs. IFRS differences"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "1.5.IV.C"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,29 +38,447 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Kern, elementen, gebruikscontext en relaties ingevuld vanuit training-data (beschrijven-operatie, aanvullende modus)."
       }
-    ],
-    "ankers": [
-      "1.5.IV.C"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Be gaap vs ifrs verschillen",
+        "tekst": "**BE GAAP vs. IFRS: verschillen** is het vergelijkende kader dat uiteenzet op welke punten de Belgische boekhoudregels (BE GAAP — gebaseerd op het Wetboek van economisch recht, het KB van 29 april 2019 en de CBN-adviezen) fundamenteel afwijken van de internationale financiële verslaggevingsstandaarden (IFRS — IAS/IFRS, zoals goedgekeurd door de EU).\n\nHet kader is relevant voor drie situaties: (1) een Belgische vennootschap die overstapt van BE GAAP naar IFRS, (2) een accountant die een BE GAAP-jaarrekening vergelijkt met een IFRS-geconsolideerde jaarrekening van de moeder, en (3) een stagiair die het verschil in filosofie en uitwerking moet begrijpen voor het ITAA-bekwaamheidsexamen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De kern van het verschil zit in de **fundamentele filosofie**: BE GAAP is een **prudentieel, historische-kostenprijsgeoriënteerd** stelsel met sterke fiscale aansluiting en crediteurenbescherming als leidraad. IFRS is een **decision-useful**, marktwaardegericht stelsel gericht op de behoeften van kapitaalverschaffers op een efficiënte kapitaalmarkt.\n\nDit filosofisch verschil werkt door in drie dimensies:\n- **Waardering** — BE GAAP: hoofdregel is kostprijs; IFRS: fair value is voor veel categorieën de norm of de maatstaf waartegen kostprijs wordt getoetst.\n- **Presentatie** — BE GAAP: vaste jaarrekeningschema's (schema A / schema B); IFRS: meer flexibiliteit maar strengere vereisten voor de toelichting.\n- **Resultaatbepaling** — BE GAAP: voorzichtigheidsbeginsel domineert (niet-gerealiseerde winsten niet nemen; verliezen meteen); IFRS: accrual-basis en fair-value-veranderingen kunnen resultaat beïnvloeden vóór kasuitstroom.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het begrijpen van dit kader is examen-relevant omdat:\n1. Belgische genoteerde vennootschappen hun **geconsolideerde jaarrekening** verplicht onder **IFRS** opstellen (EU IAS-verordening 1606/2002), maar hun **enkelvoudige jaarrekening** onder BE GAAP.\n2. De accountant-adviseur moet weten welk stelsel van toepassing is en wat de overgang impliceert voor waardering, belastbare grondslag en boekhoudkundige verwerking.\n3. Examenopgaven peilen naar het herkennen van stelselverschillen aan concrete posten (goodwill, financiële instrumenten, leasing, opbrengstverantwoording).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "toepassingsgebied-stelsels",
+        "naam": {
+          "primair": "Toepassingsgebied: wie past welk stelsel toe?"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In België geldt een **dubbel stelsel**:\n- **BE GAAP** (KB 29 april 2019 + CBN-adviezen): verplicht voor de **enkelvoudige jaarrekening** van alle boekhoudplichtige ondernemingen — ongeacht grootte of beursnotering.\n- **IFRS** (EU-verordening 1606/2002): verplicht voor de **geconsolideerde jaarrekening** van vennootschappen waarvan effecten tot de handel op een gereglementeerde markt in de EU zijn toegelaten (beursgenoteerd). Voor niet-genoteerde vennootschappen: optioneel voor de geconsolideerde jaarrekening.\n\nGevolg: een Belgische beursgenoteerde groep stelt twee soorten jaarrekeningen op — de moeder enkelvoudig in BE GAAP, de groep geconsolideerd in IFRS.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "filosofisch-verschil",
+        "naam": {
+          "primair": "Filosofisch verschil: prudentie vs. decision-usefulness"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**BE GAAP**: het **voorzichtigheidsbeginsel** is de dominante leidraad. Niet-gerealiseerde winsten worden niet opgenomen; verliezen worden onmiddellijk verwerkt. De jaarrekening dient primair als basis voor **winstuitkering** (crediteurenbescherming) en **belastingheffing** (fiscale aansluiting).\n\n**IFRS**: de jaarrekening dient primair de **informatiebehoefte van beleggers en kapitaalverschaffers** op een efficiënte markt (*decision-usefulness*). **Fair value** is voor veel categorieën de maatstaf. Niet-gerealiseerde waardestijgingen kunnen in het resultaat of in het eigen vermogen verschijnen.\n\nDit heeft directe gevolgen voor wanneer en hoeveel winst een vennootschap kan uitkeren: IFRS-winst ≠ uitkeerbare winst in de zin van het Belgisch vennootschapsrecht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "goodwill-vergelijking",
+        "naam": {
+          "primair": "Goodwill: afschrijving vs. impairment-only"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**BE GAAP**: goodwill wordt **lineair afgeschreven** over de economische gebruiksduur, maximaal 20 jaar (CBN-advies 2012/13). Jaarlijks een vaste kost op de resultatenrekening.\n\n**IFRS (IFRS 3 + IAS 36)**: goodwill wordt **niet afgeschreven** maar jaarlijks onderworpen aan een **impairment-test** (waardeverminderingstest). Slechts een boeking wanneer de realiseerbare waarde daalt onder de boekwaarde.\n\nGevolg voor vergelijking: bij een BE GAAP-onderneming met stabiele acquisities zal de resultatenrekening structureel goodwill-afschrijving tonen; bij IFRS is die lijn afwezig maar kan een eenmalige, omvangrijke impairment opduiken.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit is een van de meest examen-relevante concrete verschillen: het beïnvloedt EBITDA, EBIT en nettowinst op structureel verschillende wijze."
+          }
+        }
+      },
+      {
+        "id": "financiele-leasing-vergelijking",
+        "naam": {
+          "primair": "Leasing: financiële leasing BE GAAP vs. IFRS 16"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**BE GAAP**: onderscheid **financiële leasing** (op balans bij lessee: activum + schuld) vs. **operationele leasing** (off-balance, kosten in resultaat). Classificatie op basis van risico-overdracht.\n\n**IFRS 16** (van kracht sinds 2019): **alle leasecontracten** met een looptijd boven 12 maanden worden **op balans** gebracht als gebruiksrecht (*right-of-use asset*) + leasingverplichting — ongeacht economische risico-overdracht. Geen operationeel/financieel onderscheid meer voor de lessee.\n\nGevolg: IFRS 16-balansen tonen hogere vaste activa en hogere schulden dan vergelijkbare BE GAAP-jaarrekeningen. EBITDA stijgt (leasingkosten worden omgezet in afschrijving + rentekost), nettoresultaat daalt licht in vroege jaren van een leasecontract.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "opbrengstverantwoording-vergelijking",
+        "naam": {
+          "primair": "Opbrengstverantwoording: realisatiebeginsel vs. IFRS 15"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**BE GAAP**: opbrengsten worden verantwoord op het ogenblik van **realisatie** — typisch op het moment van overdracht van risico en eigendom (levering). Relatief eenvoudig realisatiebeginsel.\n\n**IFRS 15** (Opbrengsten uit contracten met klanten): vijf-stappenmodel:\n1. Identificeer het contract met de klant.\n2. Identificeer de afzonderlijke *performance obligations*.\n3. Bepaal de transactieprijs.\n4. Alloceer de prijs over de performance obligations.\n5. Verantwoord opbrengst wanneer (of naarmate) een performance obligation voldaan is.\n\nGevolg: complexe contracten (bundels van producten + diensten, langetermijncontracten, variabele vergoedingen) worden onder IFRS anders gesplitst en getimed dan onder BE GAAP.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "financiele-instrumenten-vergelijking",
+        "naam": {
+          "primair": "Financiële instrumenten: kostprijs vs. fair value (IFRS 9)"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "**BE GAAP**: financiële vaste activa (deelnemingen, vorderingen) worden gewaardeerd aan **kostprijs** met waardevermindering bij duurzame ontwaarding. Aandelen in de handelsportefeuille aan de lagere van kostprijs of marktwaarde (voorzichtigheidsbeginsel).\n\n**IFRS 9** (Financiële instrumenten): classificatie op basis van **businessmodel + contractuele kasstroomkenmerken**:\n- *FVTPL* (fair value through profit or loss) — fair-valuewijzigingen in resultaat.\n- *FVTOCI* (fair value through other comprehensive income) — fair-valuewijzigingen in OCI (niet rechtstreeks in nettoresultaat).\n- *Geamortiseerde kostprijs* — voor schuldinstrumenten gehouden om kasstromen te ontvangen.\n\nGevolg: niet-gerealiseerde winsten op aandelen kunnen bij IFRS 9 zowel in resultaat als in eigen vermogen verschijnen, terwijl BE GAAP ze volledig buiten de resultatenrekening houdt totdat ze gerealiseerd zijn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "jaarrekeningstructuur-vergelijking",
+        "naam": {
+          "primair": "Jaarrekeningstructuur en presentatie"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**BE GAAP**: verplicht gebruik van **vaste schema's** (schema A voor grote ondernemingen, verkort schema B voor kleine). Balans- en resultatenrekeningformaat is wettelijk vastgelegd. Toelichting bestaat uit vaste rubrieken.\n\n**IFRS (IAS 1)**: het formaat is **vrij** (geen dwingend schema), mits minimale informatievereisten voor balans, resultatenrekening, overzicht van andere elementen van het totaalresultaat (*OCI*), mutatieoverzicht eigen vermogen en kasstroomoverzicht worden gerespecteerd. IFRS vereist een *statement of comprehensive income* (met OCI-sectie) die in BE GAAP niet bestaat.\n\nSleutelverschil: BE GAAP kent **geen OCI** — alle resultaten gaan rechtstreeks in de nettoresultatenrekening of worden buiten resultaat gehouden (herwaarderingsmeerwaarden in eigen vermogen, zonder passage door resultaat).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Accountant die een BE GAAP-enkelvoudige jaarrekening vergelijkt met de IFRS-geconsolideerde jaarrekening van de moeder (bijv. voor een dochter van een beursgenoteerde groep).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschap die overweegt om van BE GAAP over te stappen op IFRS voor haar geconsolideerde jaarrekening (eerste toepassingsjaar vereist IFRS 1-conversie).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "ITAA-examen: herkennen aan welk stelsel een concrete waarderingsregel toebehoort en wat de impact is op balans, resultaat en uitkeerbare winst.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Kleine Belgische vennootschappen zonder beursnotering en zonder buitenlandse moeder: voor hen is IFRS niet van toepassing (noch verplicht, noch zinvol als kader).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Vergelijkingen met andere nationale GAAP (US GAAP, UK GAAP, ...) — dit kader beperkt zich tot de BE GAAP / IFRS-as.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "IFRS-nettowinst verwarren met **uitkeerbare winst** onder Belgisch vennootschapsrecht: de WVV-nettoactieftest en beschikbare reserve-test worden uitgevoerd op de **BE GAAP-enkelvoudige jaarrekening**, niet op de IFRS-geconsolideerde. Hogere IFRS-winst (bijv. door fair-value-stijgingen) biedt geen ruimte voor extra dividend.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Fiscale grondslag op basis van IFRS berekenen: de Belgische vennootschapsbelasting sluit aan op de **BE GAAP-enkelvoudige jaarrekening**. IFRS-winst is geen startpunt voor de aangifte VenB.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Een opgave vermeldt dat een vennootschap beursgenoteerd is of deel uitmaakt van een internationale groep — dan is de vraag naar het toepasselijke stelsel voor de geconsolideerde jaarrekening altijd relevant.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Een opgave gebruikt termen als 'impairment', 'right-of-use asset', 'OCI', 'fair value through profit or loss' of 'performance obligation' — dit zijn IFRS-specifieke begrippen die niet in BE GAAP voorkomen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "bgaap",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "BE GAAP is het referentiestelsel; dit kader bestudeert de afwijkingen van BE GAAP ten opzichte van IFRS."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "ifrs",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "IFRS is het vergelijkingsstelsel; dit kader legt de concrete punten van verschil bloot."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "consolidatiemethoden",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De keuze van het verslaggevingsstelsel (BE GAAP of IFRS) beïnvloedt de consolidatiemethoden en de presentatie van de geconsolideerde jaarrekening."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "geconsolideerde-jaarrekening",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "De geconsolideerde jaarrekening is het primaire toepassingsdomein van IFRS in België; dit kader is daar direct op van toepassing."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "kapitaalbescherming-en-winstverdeling",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Kapitaalbescherming en de uitkeerbare winst worden bepaald op basis van de BE GAAP-enkelvoudige jaarrekening, niet op basis van IFRS — een cruciaal aandachtspunt bij gemengde stelselgroepen."
+    },
+    {
+      "type": "valt_onder",
+      "target": "referentiestelsels-ic",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "BE GAAP en IFRS zijn beide referentiestelsels voor interne controle en financiële verslaggeving."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "leasing",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "toelichting": "Leasing is een van de meest concrete illustraties van het stelsel-verschil: financiële vs. operationele leasing in BE GAAP versus de IFRS 16-benadering waarbij alle leases op balans komen."
+    }
+  ]
 }

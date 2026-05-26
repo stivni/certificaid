@@ -1,11 +1,26 @@
 {
   "id": "btw-vrijstellingen",
   "naam": {
-    "primair": "Btw vrijstellingen"
+    "primair": "Btw-vrijstellingen",
+    "afkorting": "BTW-vrijst.",
+    "synoniemen": [
+      "vrijstellingen van btw",
+      "btw-vrijstelling",
+      "exemptions btw"
+    ],
+    "vertaling": {
+      "fr": "Exemptions de TVA"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.4.III",
+      "2.4.V",
+      "2.4.VI"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,31 +39,647 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 4)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Initieel record: kern, gebruikscontext, elementen en basis-relaties ingevuld vanuit training-data."
       }
-    ],
-    "ankers": [
-      "2.4.III",
-      "2.4.V",
-      "2.4.VI"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Btw vrijstellingen",
+        "tekst": "**Btw-vrijstellingen** zijn wettelijke categorieën waarbij een belastingplichtige bepaalde handelingen verricht zonder btw aan te rekenen aan de afnemer — en zonder (of met beperkt) recht op aftrek van voorbelasting. De Belgische btw-wet (WBTW) onderscheidt twee fundamenteel verschillende vrijstellingsregimes: **vrijstellingen met recht op aftrek** (ook wel 'zero-rated' of 'nulheffing' genoemd — typisch bij uitvoer en intracommunautaire leveringen) en **vrijstellingen zonder recht op aftrek** (echte vrijstellingen — typisch bij maatschappelijke of financiële diensten).",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het onderscheid tussen de twee vrijstellingsregimes is economisch cruciaal:\n\n- **Vrijstelling met recht op aftrek** ('zero-rated'): de levering zelf draagt geen btw, maar de leverancier recupereert wél de btw op zijn inputs. Netto-effect: de btw-keten loopt gewoon door, maar de handeling zelf is onbelast. Typisch: uitvoer buiten de EU, intracommunautaire leveringen.\n\n- **Vrijstelling zonder recht op aftrek** ('echte vrijstelling'): de handeling draagt geen btw én de vrijgestelde ondernemer recupereert geen btw op zijn aankopen voor die handelingen. Netto-effect: de btw-keten breekt — de vrijgestelde ondernemer draagt de btw op zijn inputs zelf. Typisch: medische zorg, onderwijs, verzekeringen, bancaire diensten, verhuur.\n\nDit verschil verklaart waarom vrijgestelde ondernemers (bv. artsen, verzekeraars) strategisch nadenken over gemengd gebruik en de draagwijdte van hun vrijstelling.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De btw-vrijstellingen bestaan om twee redenen: (1) **neutraliteitsmotief** — bij grensoverschrijdende handel (uitvoer) wordt de btw-last van het land van oorsprong geneutraliseerd zodat Belgische goederen niet duurder zijn dan buitenlandse; (2) **beleidsmotief** — bepaalde sectoren (gezondheid, onderwijs, sociale sector) worden ontzien omdat hun activiteiten een publiek belang dienen en betaalbaarheid vereist is. De prijs die de samenleving hiervoor betaalt is de gebroken btw-keten: de vrijgestelde ondernemer draagt zijn input-btw zelf, wat hem duurder maakt als toeleverancier.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
+    },
+    "elementen": [
+      {
+        "id": "vrijstelling-met-recht-op-aftrek",
+        "naam": {
+          "primair": "Vrijstelling met recht op aftrek",
+          "synoniemen": [
+            "zero-rated",
+            "nulheffing",
+            "vrijstelling met aftrekrecht"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een vrijstelling met recht op aftrek rekent de leverancier geen btw aan op de handeling, maar behoudt hij het volledige recht om de btw op zijn inputs (aankopen, investeringen) in aftrek te brengen. De btw-keten wordt dus niet onderbroken — de last verdwijnt uit de keten, maar de aftrekmogelijkheid blijft.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Deze vrijstelling wordt doorgaans voorzien voor handelingen waarbij de btw-heffing de internationale concurrentiepositie zou schaden (uitvoer) of waarbij de btw in de bestemmingsstaat wordt geheven (intracommunautaire levering)."
+          }
+        },
+        "elementen": [
+          {
+            "id": "uitvoer",
+            "naam": {
+              "primair": "Uitvoer buiten de EU"
+            },
+            "inhoud_type": "regel",
+            "kern": {
+              "definitie": {
+                "tekst": "Leveringen van goederen die fysiek de EU verlaten zijn vrijgesteld met recht op aftrek. De exporteur rekent geen btw aan maar kan de btw op zijn aankopen volledig recupereren. Voorwaarde: bewijs van uitvoer (douanedocument).",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "intracommunautaire-levering",
+            "naam": {
+              "primair": "Intracommunautaire levering (ICL)"
+            },
+            "inhoud_type": "regel",
+            "kern": {
+              "definitie": {
+                "tekst": "Een levering van goederen van België naar een andere EU-lidstaat aan een btw-plichtige koper is vrijgesteld met recht op aftrek. De btw wordt geheven in de lidstaat van bestemming via de intracommunautaire verwerving (ICV) bij de koper. Voorwaarden: koper heeft btw-nummer, goederen zijn fysiek vervoerd.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "vrijstelling-zonder-recht-op-aftrek",
+        "naam": {
+          "primair": "Vrijstelling zonder recht op aftrek",
+          "synoniemen": [
+            "echte vrijstelling",
+            "btw-vrijstelling art. 44 WBTW"
+          ]
+        },
+        "inhoud_type": "subconcept",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een vrijstelling zonder recht op aftrek rekent de leverancier geen btw aan én kan hij de btw op zijn inputs voor die handelingen niet recupereren. De btw-keten breekt ter hoogte van de vrijgestelde ondernemer — hij draagt de input-btw zelf als kost.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De vrijgestelde ondernemer is voor zijn afnemers goedkoper (geen btw op de factuur) maar draagt intern een verborgen btw-kost op zijn eigen aankopen. Dit maakt hem een minder aantrekkelijke toeleverancier voor btw-plichtige bedrijven, die die input-btw zelf niet kunnen recupereren."
+          }
+        },
+        "elementen": [
+          {
+            "id": "vrijstelling-medisch",
+            "naam": {
+              "primair": "Medische en paramedische vrijstelling"
+            },
+            "inhoud_type": "regel",
+            "kern": {
+              "definitie": {
+                "tekst": "Handelingen van artsen, tandartsen, kinesisten, verpleegkundigen en andere erkende beroepen die tot doel hebben de diagnose, behandeling of genezing van ziekte zijn vrijgesteld. Niet vrijgesteld: esthetische handelingen zonder therapeutisch doel.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "vrijstelling-onderwijs",
+            "naam": {
+              "primair": "Onderwijsvrijstelling"
+            },
+            "inhoud_type": "regel",
+            "kern": {
+              "definitie": {
+                "tekst": "Door de overheid erkend of gesubsidieerd onderwijs en nauw ermee samenhangende diensten zijn vrijgesteld. Commercieel onderwijs zonder erkenning valt in principe onder het normale tarief, tenzij bijzondere voorwaarden vervuld zijn.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "vrijstelling-financieel",
+            "naam": {
+              "primair": "Financiële en verzekeringsdiensten"
+            },
+            "inhoud_type": "regel",
+            "kern": {
+              "definitie": {
+                "tekst": "Diensten inzake kredietverlening, bancaire deposito's, betalingsverkeer, effecten en verzekeringen zijn vrijgesteld zonder recht op aftrek. Dit maakt banken en verzekeraars gedeeltelijk niet-aftrekgerechtigd op hun professionele inputs.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "id": "vrijstelling-verhuur-onroerend",
+            "naam": {
+              "primair": "Verhuur van onroerende goederen"
+            },
+            "inhoud_type": "uitzondering",
+            "kern": {
+              "definitie": {
+                "tekst": "De verhuur van onroerende goederen is in principe vrijgesteld van btw zonder recht op aftrek. Uitzonderingen: verhuur van parkeerplaatsen, opslagruimten, het verlenen van hotelaccommodatie. Optionele btw-heffing op verhuur van professioneel vastgoed is mogelijk onder strikte voorwaarden.",
+                "grondslag": {
+                  "confidence": "verondersteld",
+                  "bronnen": [
+                    {
+                      "type": "ai_model",
+                      "naam": "claude-sonnet-4-6",
+                      "datum": "2026-05-23"
+                    }
+                  ]
+                },
+                "rationale": "De optionele btw-heffing op professioneel vastgoed laat verhuurders toe hun input-btw te recupereren wanneer huurder ook btw-plichtig is. Dit vermijdt de verborgen btw-kost voor professionele vastgoedketens."
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "gemengde-belastingplichtige",
+        "naam": {
+          "primair": "Gemengde belastingplichtige",
+          "synoniemen": [
+            "gedeeltelijk belastingplichtige",
+            "assujetti mixte"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een ondernemer die zowel aan btw onderworpen handelingen als vrijgestelde handelingen verricht is een **gemengde belastingplichtige**. Hij kan de btw op zijn inputs slechts gedeeltelijk recupereren — naar rato van het aandeel van zijn belaste omzet in zijn totale omzet. Dit aandeel heet het **pro-rata**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De gemengde belastingplichtige staat centraal in de btw-planning bij organisaties die zowel vrijgestelde als belaste activiteiten combineren — bv. een ziekenhuis met café, of een instelling met zowel gesubsidieerd als commercieel onderwijs."
+          }
+        }
+      },
+      {
+        "id": "pro-rata",
+        "naam": {
+          "primair": "Pro-rata aftrekrecht",
+          "synoniemen": [
+            "aftrekbreuk",
+            "verhouding btw-aftrek"
+          ]
+        },
+        "inhoud_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Het pro-rata bepaalt welk percentage van de gemengde input-btw een gemengde belastingplichtige kan aftrekken.\n\n**Formule**: Pro-rata = (omzet belaste handelingen / totale omzet) × 100 %\n\nHet pro-rata wordt jaarlijks definitief vastgesteld op basis van de werkelijke omzetcijfers van het voorgaande jaar. Gedurende het jaar wordt gewerkt met een **voorlopig pro-rata** (gebaseerd op inschatting of vorig jaar).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het pro-rata is een vereenvoudiging: goederen en diensten die uitsluitend voor belaste activiteiten worden gebruikt, mogen volledig worden afgetrokken (werkelijk gebruik). Gemeenschappelijke kosten volgen het pro-rata."
+          }
+        }
+      },
+      {
+        "id": "vrijstellingsregeling-kleine-onderneming",
+        "naam": {
+          "primair": "Vrijstellingsregeling kleine onderneming",
+          "synoniemen": [
+            "kleine onderneming btw",
+            "vrijstellingsregime jaardrempel"
+          ]
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Ondernemers met een jaarlijkse omzet onder een bepaalde drempel kunnen opteren voor de **vrijstellingsregeling** — zij rekenen geen btw aan maar kunnen ook geen btw in aftrek brengen. Dit is een facultatief regime: de ondernemer kan ook kiezen voor normale btw-heffing.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De exacte drempelbedragen zijn wettelijk vastgesteld en kunnen wijzigen. Open vraag voor claims_checken: wat is de geldende drempel in 2025?"
+          }
+        }
+      },
+      {
+        "id": "geen-aftrek-vrijgesteld",
+        "naam": {
+          "primair": "Geen aftrek bij vrijgestelde handelingen",
+          "synoniemen": [
+            "aftrekuitsluiting vrijgesteld"
+          ]
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Btw op goederen en diensten die uitsluitend gebruikt worden voor vrijgestelde handelingen (zonder recht op aftrek) is **volledig niet aftrekbaar**. Deze btw wordt een kost voor de vrijgestelde ondernemer — hij verwerkt ze in zijn kosten en dus in zijn prijszetting.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Dit mechanisme maakt vrijgestelde ondernemers duurder als toeleverancier voor volledig belaste afnemers: de verborgen btw-kost is niet zichtbaar op de factuur maar zit wel in de prijs verrekend."
+          }
+        }
+      },
+      {
+        "id": "herziening-investeringsgoed-vrijstelling",
+        "naam": {
+          "primair": "Btw-herziening bij wijziging vrijstelling",
+          "synoniemen": [
+            "revisie aftrek onroerend",
+            "btw-herziening investeringsgoederen"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een ondernemer de bestemming van een investeringsgoed wijzigt — van belaste naar vrijgestelde activiteit of omgekeerd — moet hij de initieel in aftrek gebrachte btw gedeeltelijk **terugstorten** (herziening). De herzieningsperiode bedraagt **5 jaar** voor roerende investeringsgoederen en **15 jaar** voor onroerende goederen. Elk jaar van gewijzigd gebruik leidt tot herziening van 1/5 of 1/15 van de oorspronkelijk afgetrokken btw.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De herzieningsmechanisme voorkomt dat een ondernemer btw volledig recupereert op een goed en het daarna voor vrijgestelde activiteiten gebruikt. De herziening herstelt de neutraliteit over de economische levensduur van het goed."
+          }
+        }
+      }
+    ],
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Ondernemers die uitsluitend of gedeeltelijk activiteiten verrichten die in de WBTW als vrijgesteld zijn opgesomd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Het kader is relevant zodra een handeling in aanmerking kan komen voor vrijstelling — de kwalificatie bepaalt de btw-behandeling van de volledige transactieketen."
+        },
+        {
+          "tekst": "Grensoverschrijdende leveringen van goederen (uitvoer, intracommunautaire levering) waarbij de nulheffing van toepassing is.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Organisaties met gemengde activiteiten die zowel belaste als vrijgestelde handelingen verrichten en de aftrekbreuk moeten berekenen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Ondernemers die uitsluitend volledig belaste handelingen verrichten — voor hen geldt gewone btw-aftrek zonder beperking.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Niet-btw-plichtigen (particulieren, overheidsinstanties buiten economische activiteit) — zij vallen buiten het btw-stelsel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De vrijstelling geldt alleen voor handelingen die uitdrukkelijk in de wet zijn opgesomd. Vrijstellingen worden **strikt geïnterpreteerd** — analogie is niet toegestaan.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          },
+          "rationale": "Fiscale vrijstellingen zijn een uitzondering op de regel en worden door het Hof van Justitie van de EU consistent strikt geïnterpreteerd."
+        },
+        {
+          "tekst": "Voor vrijstellingen met recht op aftrek (uitvoer, ICL) zijn bewijsstukken vereist: douanedocumenten, vervoersbewijzen, btw-nummer van de koper.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Onterecht toegepaste vrijstelling** — de ondernemer rekent geen btw aan maar de handeling was niet vrijgesteld. De fiscus legt de btw op plus boetes en interesten.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Verlies van aftrekrecht** — bij gemengd gebruik te hoog ingeschat pro-rata dat bij definitieve vaststelling gecorrigeerd moet worden.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De activiteit betreft medische zorg, onderwijs, sociale diensten, financiële diensten of verzekeringen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Goederen worden fysiek geëxporteerd of geleverd aan een btw-plichtige koper in een andere EU-lidstaat.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
     }
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-stelsel",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-aftrek",
+      "toelichting": "De vrijstelling zonder recht op aftrek sluit het aftrekrecht voor de betreffende inputs uit — het aftrek-kader bepaalt hoe ver de uitsluiting reikt.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-belastingplichtige",
+      "toelichting": "Alleen een btw-belastingplichtige kan vrijstellingen toepassen — de hoedanigheid van de ondernemer is een voorwaarde.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "bevat",
+      "target": "vrijstellingsregeling-kleine-onderneming",
+      "toelichting": "De vrijstellingsregeling voor kleine ondernemingen is een deelregime binnen het bredere kader van btw-vrijstellingen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "btw-tarieven",
+      "toelichting": "Tarieven (0%, 6%, 12%, 21%) en vrijstellingen zijn beide instrumenten die de btw-last verminderen, maar via een ander mechanisme: tarief reduceert de heffing, vrijstelling schakelt ze volledig uit (met of zonder aftrekrecht).",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-vastgoed",
+      "toelichting": "Verhuur van onroerend goed is in principe vrijgesteld — het btw-vastgoed-kader specificeert de uitzonderingen en de optionele btw-heffing.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "btw-grensoverschrijdend",
+      "toelichting": "Vrijstellingen met recht op aftrek (uitvoer, ICL) zijn onlosmakelijk verbonden met het grensoverschrijdend kader.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }

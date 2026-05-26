@@ -6,16 +6,24 @@
       "fiscale administratieve sanctie",
       "proportionele boete",
       "niet-proportionele boete"
-    ]
+    ],
+    "vertaling": {
+      "fr": "Amende administrative fiscale"
+    }
   },
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.5.III"
+    ],
     "provenance": {
       "model": "claude-sonnet-4-6",
       "wave_id": "quick-pass-run1-20260522",
       "extract_prompt": "prompts/multipass/run-1-draft.md",
-      "iteratie": "v1"
+      "iteratie": "v1",
+      "mcp_calls": 0
     },
     "changelog": [
       {
@@ -29,29 +37,76 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 18)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T12:00:00Z",
+        "model": "claude-sonnet-4-6",
+        "wijziging": "Aanvullende beschrijving: gebruikscontext uitgebreid (niet_voor, voorwaarden, trigger_start, trigger_einde, contra_indicaties), 2 nieuwe elementen (bezwaar-en-beroep, verjaring-boete), voorkennis_leespad.kader ingevuld, naam.vertaling toegevoegd."
       }
-    ],
-    "ankers": [
-      "2.5.III"
     ]
   },
   "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "Een administratieve boete fiscaal is een door de belastingadministratie opgelegde geldstraf wegens overtreding van wettelijke verplichtingen inzake aangifte, betaling of medewerking, zonder tussenkomst van de strafrechter. Ze onderscheidt zich van een belastingverhoging doordat ze een forfaitair of proportioneel bedrag oplegt los van de ontdoken belasting zelf.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De administratie legt een geldstraf op bovenop de verschuldigde belasting en eventuele belastingverhogingen, wat de totale fiscale kost voor de belastingplichtige verhoogt. Er zijn twee hoofdcategorieën: (1) **vaste (niet-proportionele) boetes** voor procedurele overtredingen zoals laattijdige aangifte, en (2) **proportionele boetes** voor materiele overtredingen zoals onjuiste aangifte of fraude. Beide kunnen tegelijk worden opgelegd naast een belastingverhoging.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De administratieve boete functioneert als afschrikmiddel buiten het strafrecht: de overheid wil fiscale verplichtingen afdwingen zonder voor elke overtreding een strafrechtelijke procedure te moeten opstarten. Door boetes te staffelen naar ernst en herhaaldelijkheid — van een symbolisch vast bedrag bij een eerste kleine vergissing tot een volledig proportionele boete bij kwade wil — wordt het sanctiestelsel proportioneel gehouden. Dat evenwicht is ook grondwettelijk verankerd via het legaliteits- en het proportionaliteitsbeginsel.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-22"
+            }
+          ]
+        }
+      }
+    },
     "voorkennis_leespad": {
       "voorvereisten": [
         "fiscale-beginselen",
         "fiscale-procedure-belastingplichtige",
         "belastingverhoging-fiscaal"
       ],
+      "kader": "fiscale-sancties",
       "naast_relevant": [
         "fiscale-sancties",
         "belastingverhoging-fiscaal",
         "aanslagtermijnen-fiscaal",
-        "taxatieprocedure"
+        "taxatieprocedure",
+        "fiscale-strafrechtelijke-sanctie"
       ]
     },
     "gebruikscontext": {
       "voor": [
         {
+          "tekst": "Het regime van de administratieve boete is van toepassing in alle takken van de Belgische inkomstenbelastingen (personenbelasting, vennootschapsbelasting, belasting niet-inwoners) en in de btw. De concrete regels verschillen per tak maar volgen hetzelfde staffelsysteem.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -61,12 +116,139 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Het regime van de administratieve boete is van toepassing in alle takken van de Belgische inkomstenbelastingen (personenbelasting, vennootschapsbelasting, belasting niet-inwoners) en in de btw. De concrete regels verschillen per tak maar volgen hetzelfde staffelsysteem."
+          }
+        },
+        {
+          "tekst": "Elke belastingplichtige die een fiscale verplichting niet of onjuist naleeft, ongeacht of het gaat om een vennootschap, zelfstandige of particulier, kan geconfronteerd worden met een administratieve boete.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Strafrechtelijke sancties: wanneer de administratie beslist de zaak over te dragen aan het parket voor vervolging, zijn het de strafrechter en de strafsancties die van toepassing zijn — niet de administratieve boete. De administratieve weg en de strafrechtelijke weg sluiten elkaar niet altijd uit (beperkte non-bis-in-idem).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Belastingverhogingen: de belastingverhoging is een afzonderlijk mechanisme (procentuele opslag op de ontdoken belasting) en valt niet onder het begrip 'administratieve boete' — hoewel beide tegelijk kunnen worden opgelegd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Er moet een concrete overtreding zijn van een wettelijke verplichting inzake aangifte, medewerking, bewaring van stukken of betaling. Loutere twijfel over de interpretatie van de wet is onvoldoende grondslag voor een boete.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De boete moet door de wet worden voorzien (legaliteitsbeginsel) en staat in verhouding tot de ernst van de overtreding (proportionaliteitsbeginsel). De administratie beschikt over beoordelingsvrijheid bij de toepassing van de staffel.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "Spontane regularisatie vóór enige aankondiging van een controle: wie fouten uit eigen beweging rechtzet voordat de administratie inlichting vraagt, ontloopt doorgaans de boete of krijgt een aanzienlijk verminderde boete.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Aantoonbare overmacht of te goeder trouw gemaakte fout zonder enig voordeel: wanneer de belastingplichtige aantoont dat een vergissing te wijten is aan overmacht of pure onachtzaamheid zonder belastingontduikingsoogmerk, is kwijtschelding of vermindering mogelijk.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De administratieve boete wordt getriggerd op het moment dat de overtreding wordt vastgesteld door de belastingadministratie, hetzij bij een controle, hetzij ambtshalve bij de verwerking van de aangifte (bv. te late indiening).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De boete vervalt wanneer ze wordt kwijtgescholden door de bevoegde directeur, wanneer ze verjaard is (termijn afhankelijk van de belastingtak), of wanneer ze definitief door een rechtbank wordt vernietigd op bezwaar of beroep.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "risico": [
         {
+          "tekst": "De boete is fiscaal niet aftrekbaar als beroepskost (verworpen uitgave), waardoor de netto-kost voor de vennootschap hoger is dan het bedrag van de boete zelf.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -76,12 +258,25 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "De boete is fiscaal niet aftrekbaar als beroepskost (verworpen uitgave), waardoor de netto-kost voor de vennootschap hoger is dan het bedrag van de boete zelf."
+          }
+        },
+        {
+          "tekst": "Cumulatie van boetes en belastingverhogingen: bij kwade wil of fraude kunnen beide mechanismen tegelijk worden ingezet, wat de totale sanctielast sterk verhoogt. Bij ernstige fraude kan bovendien strafrechtelijke vervolging volgen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
         }
       ],
       "indicaties": [
         {
+          "tekst": "Laattijdige of niet-indiening van een aangifte (aangifte niet ingediend binnen de wettelijke termijn).",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -91,10 +286,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Laattijdige of niet-indiening van een aangifte (aangifte niet ingediend binnen de wettelijke termijn)."
+          }
         },
         {
+          "tekst": "Onvolledige, onjuiste of onnauwkeurige aangifte waarbij te weinig belasting werd aangegeven.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -104,10 +299,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Onvolledige, onjuiste of onnauwkeurige aangifte waarbij te weinig belasting werd aangegeven."
+          }
         },
         {
+          "tekst": "Niet-medewerking aan een fiscale controle: weigering inzage te verlenen, documenten niet voorleggen of valse inlichtingen verstrekken.",
           "grondslag": {
             "confidence": "verondersteld",
             "bronnen": [
@@ -117,10 +312,10 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Niet-medewerking aan een fiscale controle: weigering inzage te verlenen, documenten niet voorleggen of valse inlichtingen verstrekken."
+          }
         },
         {
+          "tekst": "Niet-tijdige betaling van de verschuldigde belasting (leidt soms tot specifieke forfaitaire boetes, afhankelijk van de belastingtak).",
           "grondslag": {
             "confidence": "betwijfeld",
             "bronnen": [
@@ -130,8 +325,7 @@
                 "datum": "2026-05-22"
               }
             ]
-          },
-          "tekst": "Niet-tijdige betaling van de verschuldigde belasting (leidt soms tot specifieke forfaitaire boetes, afhankelijk van de belastingtak)."
+          }
         }
       ]
     },
@@ -197,6 +391,19 @@
                 }
               ]
             }
+          },
+          "substantie": {
+            "tekst": "Vaste boetes worden opgelegd ongeacht de ontdoken belasting — ook als er geen belasting werd ontdoken (bv. aangifte te laat ingediend maar met nul verschuldigde belasting). Het bedrag is wettelijk vastgelegd in tabellen per belastingtak en per soort overtreding, met een hoger tarief bij recidive.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       },
@@ -229,6 +436,19 @@
                 }
               ]
             }
+          },
+          "substantie": {
+            "tekst": "Proportionele boetes veronderstellen een te geringe aangifte (ontdoken belasting als grondslag). Het percentage hangt af van de schuldgraad: lichte nalatigheid leidt tot een lager percentage, kwade wil of fraude tot het maximumtarief van 200 %. Bij herhaling kan het percentage verder worden verhoogd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
           }
         }
       },
@@ -258,6 +478,19 @@
                   "type": "ai_model",
                   "naam": "claude-sonnet-4-6",
                   "datum": "2026-05-22"
+                }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "De staffeling dient twee doelen: (1) proportionaliteit — de sanctie staat in verhouding tot de fout, (2) afschrikking — bij herhaalde overtreding wordt de drempel voor verdere overtreding hoger gelegd. Dit is een bewuste beleidskeuze die ook in internationale fiscale sanctiestelsels terugkomt.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
                 }
               ]
             }
@@ -333,7 +566,7 @@
         "naam": {
           "primair": "Btw-specifieke administratieve boetes"
         },
-        "inhoud_type": "begrip",
+        "inhoud_type": "subconcept",
         "grondslag": {
           "confidence": "betwijfeld",
           "bronnen": [
@@ -346,7 +579,7 @@
         },
         "kern": {
           "definitie": {
-            "tekst": "In de btw gelden eigen vaste en proportionele boetes (Koninklijk Besluit nr. 41): zo wordt het niet-indienen van een btw-aangifte bestraft met een vaste boete, terwijl het aftrekken van niet-aftrekbare btw of het onjuist toepassen van een vrijstelling aanleiding geeft tot proportionele boetes.",
+            "tekst": "In de btw gelden eigen vaste en proportionele boetes geregeld via een Koninklijk Besluit: zo wordt het niet-indienen van een btw-aangifte bestraft met een vaste boete, terwijl het aftrekken van niet-aftrekbare btw of het onjuist toepassen van een vrijstelling aanleiding geeft tot proportionele boetes.",
             "grondslag": {
               "confidence": "betwijfeld",
               "bronnen": [
@@ -359,49 +592,72 @@
             }
           }
         }
-      }
-    ],
-    "kern": {
-      "definitie": {
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
-            }
-          ]
-        },
-        "tekst": "Een administratieve boete fiscaal is een door de belastingadministratie opgelegde geldstraf wegens overtreding van wettelijke verplichtingen inzake aangifte, betaling of medewerking, zonder tussenkomst van de strafrechter. Ze onderscheidt zich van een belastingverhoging doordat ze een forfaitair of proportioneel bedrag oplegt los van de ontdoken belasting zelf."
       },
-      "substantie": {
+      {
+        "id": "bezwaar-en-beroep-boete",
+        "naam": {
+          "primair": "Bezwaar en beroep tegen een administratieve boete"
+        },
+        "inhoud_type": "regel",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
-        "tekst": "De administratie legt een geldstraf op bovenop de verschuldigde belasting en eventuele belastingverhogingen, wat de totale fiscale kost voor de belastingplichtige verhoogt."
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige kan een administratieve boete aanvechten via de gewone bezwaarprocedure bij de bevoegde gewestelijk directeur. Wordt het bezwaar verworpen, dan staat de weg open naar de rechtbank van eerste aanleg. De rechter toetst de boete ook op proportionaliteit (EHRM-rechtspraak — art. 6 EVRM is van toepassing op fiscale sancties die een strafrechtelijk karakter hebben).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
       },
-      "rationale": {
+      {
+        "id": "verjaring-boete",
+        "naam": {
+          "primair": "Verjaring van de administratieve boete"
+        },
+        "inhoud_type": "regel",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "betwijfeld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
             }
           ]
         },
-        "tekst": "De administratieve boete functioneert als afschrikmiddel buiten het strafrecht: de overheid wil fiscale verplichtingen afdwingen zonder voor elke overtreding een strafrechtelijke procedure te moeten opstarten. Door boetes te staffelen naar ernst en herhaaldelijkheid — van een symbolisch vast bedrag bij een eerste kleine vergissing tot een volledig proportionele boete bij kwade wil — wordt het sanctiestelsel proportioneel gehouden. Dat evenwicht is ook grondwettelijk verankerd via het legaliteits- en het proportionaliteitsbeginsel."
+        "kern": {
+          "definitie": {
+            "tekst": "De verjaring van een administratieve boete volgt in principe dezelfde termijn als de aanslagtermijn voor de onderliggende belasting. Bij gewone aanslagtermijn is dat 3 jaar; bij bijzondere aanslagtermijn (fraude of buitenlandse inkomsten) loopt de termijn op tot 10 jaar. Na verjaring kan de boete niet meer worden ingevorderd.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            }
+          }
+        }
       }
-    }
+    ]
   },
   "relaties": [
     {
@@ -498,7 +754,36 @@
           }
         ]
       }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "bezwaarprocedure-fiscaal",
+      "toelichting": "Een administratieve boete kan worden aangevochten via de bezwaarprocedure; de uitkomst ervan bepaalt of de boete wordt verminderd of kwijtgescholden.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aanslagtermijnen-fiscaal",
+      "toelichting": "De verjaringstermijn voor het opleggen en invorderen van de boete sluit aan bij de aanslagtermijnen van de onderliggende belasting.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
     }
-  ],
-  "concept_type": "regime"
+  ]
 }

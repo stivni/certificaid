@@ -1,11 +1,25 @@
 {
   "id": "kadastraal-inkomen",
   "naam": {
-    "primair": "Kadastraal inkomen"
+    "primair": "Kadastraal inkomen",
+    "afkorting": "KI",
+    "synoniemen": [
+      "kadastraal inkomen geïndexeerd",
+      "KI geïndexeerd",
+      "cadastraal inkomen"
+    ],
+    "vertaling": {
+      "fr": "Revenu cadastral"
+    }
   },
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.1",
     "status": "seed",
+    "ankers": [
+      "2.2.V",
+      "2.2.V.B"
+    ],
     "provenance": {
       "model": "skeleton-from-candidate",
       "wave_id": "skeleton-dump",
@@ -24,30 +38,461 @@
         "timestamp": "2026-05-22T22:17:56Z",
         "model": "migration-script",
         "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "beschrijven",
+        "timestamp": "2026-05-23T11:00:00Z",
+        "model": "claude-sonnet-4-6"
       }
-    ],
-    "ankers": [
-      "2.2.V",
-      "2.2.V.B"
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "Kadastraal inkomen",
+        "tekst": "Het **kadastraal inkomen (KI)** is een forfaitair gemiddeld jaarlijks netto-inkomen dat door de overheid wordt toegekend aan elk in België gelegen onroerend goed. Het is geen werkelijk ontvangen inkomen, maar een **wettelijk vermoeden** van het normaal netto-huurinkomen dat het goed zou opbrengen op de referentiedatum (momenteel 1975). Het KI wordt periodiek geschat door de Administratie van het Kadaster en vormt de **aanknopingswaarde** voor de berekening van het belastbaar onroerend inkomen in de personenbelasting én de grondslag voor de onroerende voorheffing.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
             {
               "type": "ai_model",
               "naam": "claude-sonnet-4-6",
-              "datum": "2026-05-22"
+              "datum": "2026-05-23"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het KI fungeert als **fiscale ankerwaarde** voor onroerende goederen: het is bevroren op huurwaarden van het referentiejaar 1975 en wordt via een jaarlijkse **indexatiecoëfficiënt** bijgewerkt om rekening te houden met de koopkrachtontwikkeling. Voor de PB-aangifte wordt het geïndexeerde KI als vertrekpunt gebruikt, waarna aanvullende opslagen worden toegepast afhankelijk van het gebruik van het goed:\n\n- **Eigen bewoning** — doorgaans vrijgesteld van PB (maar KI blijft relevant voor de berekening van andere posten)\n- **Verhuur aan particulier** — geïndexeerd KI × 1,4 als belastbaar onroerend inkomen (als de werkelijke huur lager is of het goed niet verhuurd is)\n- **Verhuur voor beroepsdoeleinden** — werkelijk ontvangen nettohuur (werkelijke huur minus aftrekbare kosten), wat doorgaans hoger uitkomt dan het KI-regime\n\nHet KI is **niet gelijk** aan de onroerende voorheffing: de onroerende voorheffing is een gewestelijke belasting die berekend wordt op basis van het geïndexeerde KI, terwijl het PB-onroerend inkomen een federale heffing is.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
+            }
+          ]
+        },
+        "rationale": "De keuze voor een forfaitair systeem op basis van een verouderde referentiedatum (1975) heeft historische oorzaken: een algehele herschatting van alle kadastrale inkomens is technisch en administratief enorm complex. De jaarlijkse indexatie is een compromis tussen eenvoud (forfait) en actualiteit (marktwaarden)."
+      },
+      "rationale": {
+        "tekst": "De ratio achter het kadastraal inkomen is **eenvoud en rechtszekerheid**: de belastingplichtige moet niet elk jaar het werkelijk netto-huurinkomen bewijzen als het goed niet voor beroepsdoeleinden wordt verhuurd. Door het KI als forfait vast te stellen, vermijdt de wet discussies over huurprijs, onderhoudskosten en leegstand — tenzij de werkelijke beroepshuur hoger is dan het KI-regime, in welk geval de werkelijke huur prevaleert.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-6",
+              "datum": "2026-05-23"
             }
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Bepalen van het **belastbaar onroerend inkomen** in de personenbelasting voor in België gelegen onroerende goederen die niet voor beroepsdoeleinden worden verhuurd.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Berekening van de **onroerende voorheffing** (gewestelijke belasting op het geïndexeerde KI).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Als toetssteen voor de **vrijstelling eigen woning** — de vrijstellingsregeling voor de gezinswoning verwijst naar het KI als afbakeningscriterium.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Onroerende goederen **buiten België** — buitenlandse vastgoedinkomsten volgen eigen regels (verdragsrecht of interne recht met vrijstelling met progressievoorbehoud of verrekening).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Goederen **voor beroepsdoeleinden verhuurd** — hier wordt het werkelijk netto-huurinkomen aangegeven, niet het KI-regime.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het goed moet in het **Belgisch Kadaster** zijn opgenomen en een officieel kadastraal inkomen hebben (toegekend door de Algemene Administratie van de Patrimoniumdocumentatie).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Het KI moet **actueel** zijn: bij nieuwbouw, verbouwing of splitsing van een perceel moet een nieuw of herzien KI worden aangevraagd. Tot het definitief wordt, geldt een voorlopig KI.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "De belastingplichtige bezit een **onroerend goed** in België dat niet volledig voor eigen beroepsdoeleinden wordt gebruikt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-6",
+                "datum": "2026-05-23"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "elementen": [
+      {
+        "id": "referentiedatum-1975",
+        "naam": {
+          "primair": "Referentiedatum 1975"
+        },
+        "inhoud_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het KI is vastgesteld op basis van de **gemiddelde normale netto-huurwaarde van het goed op 1 januari 1975**. Dit is de wettelijke referentiedatum die bij de laatste algemene kadastrale opneming werd gehanteerd. Sindsdien is er geen nieuwe algemene herschatting doorgevoerd.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De verstarring op 1975-waarden maakt het KI structureel lager dan de actuele marktwaarde. De jaarlijkse indexatiecoëfficiënt compenseert dit gedeeltelijk maar niet volledig, zodat de forfaitaire belastingdruk op onroerende goederen in de praktijk relatief laag blijft t.o.v. de actuele huurmarkt."
+          }
+        }
+      },
+      {
+        "id": "indexatiecoefficient-ki",
+        "naam": {
+          "primair": "Indexatiecoëfficiënt KI",
+          "synoniemen": [
+            "indexeringscoëfficiënt kadastraal inkomen"
+          ]
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Om de koopkrachtontwikkeling te verdisconteren, wordt het niet-geïndexeerde KI jaarlijks vermenigvuldigd met een **indexatiecoëfficiënt** die door de overheid per aanslagjaar wordt vastgesteld. Het resultaat is het **geïndexeerde KI**, dat als basis dient voor de berekening van het belastbaar onroerend inkomen en de onroerende voorheffing.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De indexatiecoëfficiënt evolueert elk jaar. De belastingplichtige (of adviseur) moet steeds de coëfficiënt voor het juiste aanslagjaar raadplegen — de waarde op het aanslagbiljet onroerende voorheffing of via de Patrimoniumdienst."
+          }
+        }
+      },
+      {
+        "id": "opslag-140-particulier",
+        "naam": {
+          "primair": "Opslag van 40% bij verhuur aan particulier"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een onroerend goed wordt **verhuurd aan een particulier** (voor privégebruik), bedraagt het belastbaar onroerend inkomen in de PB het **geïndexeerde KI verhoogd met 40%**. Dit geldt ook voor goederen die niet worden verhuurd (leegstand, eigen gebruik tenzij vrijgesteld).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De opslag van 40% compenseert forfaitair het feit dat het geïndexeerde KI nog steeds lager ligt dan de actuele marktwaarde. Ze is geen kostenaftrek maar een bruto-verhoging van het belastbaar inkomen."
+          }
+        }
+      },
+      {
+        "id": "verhuur-beroepsdoeleinden",
+        "naam": {
+          "primair": "Regime werkelijke huur bij beroepsverhuur"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een onroerend goed wordt **verhuurd aan een huurder die het aanwendt voor beroepsdoeleinden**, is het belastbaar onroerend inkomen niet het geïndexeerde KI × 1,4 maar de **werkelijk ontvangen nettohuur**: bruto-huur minus forfaitaire kostenaftrek (40% voor gebouwen, 10% voor gronden — maar de aftrek is begrensd).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De overheid wil vermijden dat belastingplichtigen via een laag KI de werkelijk ontvangen beroepshuur — die aftrekbaar is bij de huurder — buiten de belastingbasis houden. De werkelijke huur prevaleert hier boven het forfait."
+          }
+        }
+      },
+      {
+        "id": "vrijstelling-eigen-woning",
+        "naam": {
+          "primair": "Vrijstelling gezinswoning in PB"
+        },
+        "inhoud_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "De **eigen en enige woning** (gezinswoning) van de belastingplichtige is in de personenbelasting **vrijgesteld van belasting op het onroerend inkomen**: het KI van de woning wordt niet meegeteld in het belastbaar inkomen voor PB-doeleinden. De woning blijft echter belastbaar voor de **onroerende voorheffing**.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De vrijstelling geldt alleen voor de eigen bewoning: zodra de woning (gedeeltelijk) wordt verhuurd of leegstaat, vervalt de vrijstelling geheel of gedeeltelijk pro rata. De PB-vrijstelling neemt de woning uit het belastbaar inkomen, maar de onroerende voorheffing (gewestelijk) blijft verschuldigd."
+          }
+        }
+      },
+      {
+        "id": "herschatting-ki",
+        "naam": {
+          "primair": "Herschatting van het kadastraal inkomen"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij **bouw, verbouwing, splitsing of samenvoeging** van een onroerend goed is de eigenaar verplicht dit te melden aan de Administratie Patrimoniumdocumentatie (binnen 30 dagen na voltooiing). De administratie kent dan een nieuw of herzien KI toe, eventueel vooraf als voorlopig KI. Bij niet-aangifte riskeert de belastingplichtige een **ambtshalve aanslag op het werkelijk inkomen**.",
+            "grondslag": {
+              "confidence": "betwijfeld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De aanmeldingsplicht bij verbouwing is een kritiek punt: veel belastingplichtigen kennen dit niet. De sanctie (ambtshalve aanslag op werkelijke huurwaarde) kan aanzienlijk zwaarder uitvallen dan het geïndexeerde KI-regime. Termijn van 30 dagen te verifiëren bij claims_checken."
+          }
+        }
+      },
+      {
+        "id": "onroerende-voorheffing-link",
+        "naam": {
+          "primair": "Verband met onroerende voorheffing"
+        },
+        "inhoud_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De **onroerende voorheffing** (OV) is een **gewestelijke belasting** die berekend wordt op het geïndexeerde KI, verhoogd met gewestelijke opcentiemen en gemeentelijke opcentiemen. De OV is een afzonderlijke belasting die losstaat van de PB — ze is verschuldigd ongeacht de PB-vrijstelling voor de eigen woning. De OV die door een particuliere eigenaar-verhuurder wordt betaald, is **niet aftrekbaar** als kost in de PB (wel bij beroepsverhuur als beroepskost van de huurder).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "Het onderscheid PB-vrijstelling versus OV-verschuldigdheid is een klassiek verwarringspunt: een belastingplichtige die weet dat zijn woning 'vrijgesteld' is in de PB, verwacht soms ook geen onroerende voorheffing te moeten betalen — wat onjuist is."
+          }
+        }
+      },
+      {
+        "id": "mede-eigendom-ki",
+        "naam": {
+          "primair": "KI bij mede-eigendom en vruchtgebruik"
+        },
+        "inhoud_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij **mede-eigendom** wordt het KI verdeeld in verhouding tot het eigendomsaandeel van elke mede-eigenaar. Bij **opsplitsing in vruchtgebruik en blote eigendom** draagt uitsluitend de **vruchtgebruiker** het KI aan als onroerend inkomen — de blote eigenaar geeft niets aan (hij ontvangt geen gebruik of huurinkomsten).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-6",
+                  "datum": "2026-05-23"
+                }
+              ]
+            },
+            "rationale": "De opsplitsing vruchtgebruik/blote eigendom is cruciaal voor successieplanning (inbreng onroerend goed met voorbehoud vruchtgebruik). De blote eigenaar heeft geen belastbaar onroerend inkomen zolang het vruchtgebruik duurt."
+          }
+        }
+      }
+    ]
   },
-  "relaties": [],
-  "concept_type": "kader"
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "onroerend-inkomen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "valt_onder",
+      "target": "inkomstencategorieen-pb",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "onroerende-voorheffing",
+      "toelichting": "Het geïndexeerde KI is de grondslag voor de berekening van de onroerende voorheffing (gewestelijk). De twee belastingen zijn apart maar gebruik dezelfde aanknopingswaarde.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vrijstelling-gezinswoning",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide betrekking hebben op de eigen woning in de PB"
+      ],
+      "verschillen": [
+        "Vrijstelling-gezinswoning is de PB-vrijstelling; KI is de forfaitaire grondslag die voor andere goederen wél geldt"
+      ],
+      "verwarring_risico": "Belastingplichtigen denken soms dat de PB-vrijstelling ook de onroerende voorheffing opheft — dat klopt niet."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vruchtgebruik-en-blote-eigendom",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      },
+      "gelijkenissen": [
+        "Beide spelen mee bij de toewijzing van het belastbaar onroerend inkomen"
+      ],
+      "verschillen": [
+        "Vruchtgebruik/blote eigendom is een eigendomsregime; KI is de forfaitaire grondslag — beide interageren bij de aangifte"
+      ],
+      "verwarring_risico": "Bij opsplitsing vruchtgebruik/blote eigendom geeft alleen de vruchtgebruiker het KI aan — niet de blote eigenaar."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "internationaal-onroerend-goed",
+      "toelichting": "Buitenlandse onroerende goederen vallen buiten het Belgisch KI-systeem; het onroerend inkomen hieruit volgt het verdragsrecht of een intern vervangingsinkomen.",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-6",
+            "datum": "2026-05-23"
+          }
+        ]
+      }
+    }
+  ]
 }
