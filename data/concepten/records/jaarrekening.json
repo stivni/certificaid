@@ -37,7 +37,7 @@
     "changelog": [
       {
         "operatie": "skeleton",
-        "timestamp": "2026-05-27T20:57:45Z",
+        "timestamp": "2026-05-27T21:08:58Z",
         "model": "skeleton-generator",
         "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"

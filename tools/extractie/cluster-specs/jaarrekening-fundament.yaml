@@ -76,7 +76,7 @@ records:
     naam:
       primair: "Boekhoudbeginselen"
       synoniemen: ["boekhoudkundige beginselen", "GAAP-beginselen B-GAAP"]
-    concept_type: principe
+    concept_type: kader
     categorieen: [kader]
     ankers: ["1.1.I", "1.1.I.A", "1.1.I.B", "1.2.III.B", "1.2.V.A"]
     scope_in:
@@ -111,7 +111,7 @@ records:
     naam:
       primair: "Dubbele boekhouding"
       synoniemen: ["double-entry bookkeeping", "dagboek-grootboek-systematiek"]
-    concept_type: methode
+    concept_type: kader
     categorieen: [kader]
     ankers: ["1.1.I.A", "1.1.taak.1", "1.2.III.C", "1.2.III.D"]
     scope_in:

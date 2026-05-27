@@ -51,12 +51,11 @@
         "balanspost",
         "ratio",
         "regime",
-        "methode",
         "kader",
         "principe",
         "actor"
       ],
-      "$comment": "Discriminator voor render-labels en operaties. Kies het type dat het didactisch karakter van het concept best vat: instrument (concreet contract/document/middel), verrichting (eenmalige handeling/transactie), procedure (gestructureerde meerstaps-flow met wettelijke volgorde), balanspost (boekhoudkundige rubriek), ratio (afgeleide indicator/verhoudingsgetal), regime (fiscaal/juridisch keuze-stelsel), methode (analytische techniek/aanpak), kader (normatief geheel van regels), principe (abstract beginsel met normatieve kracht), actor (persoon/orgaan/instelling)."
+      "$comment": "Discriminator voor render-labels en operaties. Schema 2.2: 'methode' gedropt (overlap met 'procedure' voor stappen-flows en 'kader' voor raamwerken/verzamelingen). Per-waarde uitleg:\n• 'instrument' — concreet contract/document/middel (bv. banklening, leasing-overeenkomst, opdrachtbrief).\n• 'verrichting' — juridisch event met begin/eind, vaak eenmalig (bv. kapitaalverhoging, fusie, ontslag).\n• 'procedure' — gestructureerde stappen-flow over tijd, wettelijke of methodologische volgorde (bv. eindejaarsverrichtingen, aanslag-cyclus, audit-opdracht, DCF-berekening, NPV-evaluatie).\n• 'balanspost' — boekhoudkundige rubriek (bv. eigen-vermogen, voorraden, handelsvorderingen).\n• 'ratio' — afgeleide indicator/verhoudingsgetal met formule (bv. current-ratio, schuldgraad).\n• 'regime' — fiscaal/juridisch keuze-stelsel of alternatief-statuut (bv. KMO-tarief, vereenvoudigde-boekhouding, vrijstellingsregeling).\n• 'kader' — normatief raamwerk OF verzameling van principes/regels (bv. dubbele-boekhouding, boekhoudbeginselen, consolidatiemethoden, ondernemingsvormen, kostprijsmethoden).\n• 'principe' — individueel abstract beginsel met normatieve kracht (bv. voorzichtigheidsbeginsel, arms-length-principe, alarmbel-principe).\n• 'actor' — persoon/orgaan/instelling als rechts-/handelings-subject (bv. commissaris, ITAA, NBB, gecertificeerd-accountant)."
     },
 
     "naam_blok": {
