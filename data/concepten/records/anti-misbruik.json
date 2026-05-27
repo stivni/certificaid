@@ -1,0 +1,125 @@
+{
+  "id": "anti-misbruik",
+  "naam": {
+    "primair": "Anti-misbruik",
+    "afkorting": "ABM"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.1.IX",
+      "2.1.IX.B",
+      "2.8.XVI",
+      "2.8.XVII",
+      "2.8.taak.3"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht: fiscale anti-misbruik-toolbox van overheid + EU",
+        "Vergelijkingsmatrix instrumenten: AAMB · simulatie-leer · TP-correcties · thin-cap · CFC-regels · GAAR (EU)",
+        "Onderscheid: simulatie (rechtshandeling niet wat ze lijkt) vs ABM-fiscaal (rechtshandeling echt maar fiscaal misbruik) vs verboden constructies",
+        "Bewijslast: fiscus toont gebrek aan niet-fiscale motieven",
+        "Keuze-criteria toepassings-instrument: aard transactie · grensoverschrijdend · grootte · context"
+      ],
+      "out": [
+        {
+          "topic": "AAMB detail",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-anti-misbruik-bepaling"
+        },
+        {
+          "topic": "Simulatie-leer detail",
+          "richting": "moet-verwijzen",
+          "ref": "simulatie-leer"
+        },
+        {
+          "topic": "Transfer pricing detail",
+          "richting": "moet-verwijzen",
+          "ref": "transfer-pricing"
+        },
+        {
+          "topic": "Thin-cap regime detail",
+          "richting": "moet-verwijzen",
+          "ref": "thin-cap-regime"
+        },
+        {
+          "topic": "ATAD-richtlijn detail",
+          "richting": "moet-verwijzen",
+          "ref": "atad-richtlijn"
+        },
+        {
+          "topic": "Verboden constructies detail",
+          "richting": "moet-verwijzen",
+          "ref": "verboden-constructies"
+        },
+        {
+          "topic": "Reorganisatie-neutraliteit (cross — bedrijfsmatige redenen)",
+          "richting": "mag-verwijzen",
+          "ref": "reorganisatie"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "bevat",
+      "target": "algemene-anti-misbruik-bepaling"
+    },
+    {
+      "type": "bevat",
+      "target": "simulatie-leer"
+    },
+    {
+      "type": "bevat",
+      "target": "transfer-pricing"
+    },
+    {
+      "type": "bevat",
+      "target": "thin-cap-regime"
+    },
+    {
+      "type": "bevat",
+      "target": "atad-richtlijn"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "fiscale-controle",
+  "naam": {
+    "primair": "Fiscale controle"
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.5.II",
+      "2.5.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Soorten controles: bureel-onderzoek · taxatie-controle · zoeking · BBI-onderzoek",
+        "Bevoegdheden van de administratie (boekenonderzoek · derdenonderzoek · bankgegevens)",
+        "Verloop van een controle (kennisgeving · onderzoekstermijn · slot-vergadering · bericht van wijziging)",
+        "Rechten van de belastingplichtige (bijstand · stilzwijgen · weigering inzage)",
+        "Accountant-perspectief: vertegenwoordiging bij controle (absorbeert oude mandaat-accountant-fiscus)"
+      ],
+      "out": [
+        {
+          "topic": "Bewijsmiddelen detail",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-bewijsmiddelen"
+        },
+        {
+          "topic": "Bezwaar na controle-uitkomst",
+          "richting": "moet-verwijzen",
+          "ref": "bezwaarprocedure"
+        },
+        {
+          "topic": "Gewestelijke controle",
+          "richting": "mag-verwijzen",
+          "ref": "gewestelijke-fiscale-procedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    },
+    {
+      "type": "triggert",
+      "target": "aanslag-cyclus"
+    }
+  ]
+}

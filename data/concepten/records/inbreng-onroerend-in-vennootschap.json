@@ -1,0 +1,79 @@
+{
+  "id": "inbreng-onroerend-in-vennootschap",
+  "naam": {
+    "primair": "Inbreng onroerend goed in vennootschap"
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "2.6.I.D"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Inbreng van onroerend goed bij oprichting of kapitaalverhoging",
+        "Vrijstelling registratierecht art 115bis Wb Reg (onder voorwaarden)",
+        "Toepassings-voorwaarden: type vennootschap · type goed · gebruik",
+        "Cross naar kapitaalverhoging-in-natura (vennootschapsrecht)"
+      ],
+      "out": [
+        {
+          "topic": "Kapitaalverhoging-in-natura (vennootschapsrecht)",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging-in-natura"
+        },
+        {
+          "topic": "Verkooprecht (zonder vrijstelling)",
+          "richting": "mag-verwijzen",
+          "ref": "verkooprecht"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "registratie-en-successierechten"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalverhoging-in-natura"
+    }
+  ]
+}

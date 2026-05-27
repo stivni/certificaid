@@ -1,0 +1,81 @@
+{
+  "id": "meerwaarde-aandelen-venb",
+  "naam": {
+    "primair": "Meerwaarde aandelen (VenB)"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.I",
+      "2.3.II.J"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Vrijstelling van meerwaarden op aandelen onder voorwaarden",
+        "3 voorwaarden cumulatief: taxatie-voorwaarde · houdperiode (1 jaar) · permanentie",
+        "Sanctie bij niet-naleving: belasting aan 25% (kort) of 40% (zeer kort)",
+        "Verschil met PB-regime (privé-meerwaarde aandelen)",
+        "Cross naar aandeel-concept (fiscale dimensie)"
+      ],
+      "out": [
+        {
+          "topic": "Aandeel-concept (kapitaalstructuur)",
+          "richting": "moet-verwijzen",
+          "ref": "aandeel"
+        },
+        {
+          "topic": "Σ-keuzekader VenB-voordelen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-voordelen-vennootschap"
+        },
+        {
+          "topic": "Reorganisatie / fiscale-fusie-splitsing",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-fusie-splitsing"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-voordelen-vennootschap"
+    }
+  ]
+}

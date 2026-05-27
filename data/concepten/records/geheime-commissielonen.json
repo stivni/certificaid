@@ -1,0 +1,79 @@
+{
+  "id": "geheime-commissielonen",
+  "naam": {
+    "primair": "Geheime commissielonen"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.5.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Bijzondere aanslag in VenB op niet-verantwoorde uitgaven (niet via fiches gerapporteerd)",
+        "Tarieven: 100% (basis) · 50% (mits identificatie verkrijger als rechtspersoon)",
+        "Voorwaarden voor toepassing + ontheffings-mogelijkheden",
+        "Verhouding tot beroepskosten-aftrek",
+        "Cross naar VenB (taxatie-tarief modulering)"
+      ],
+      "out": [
+        {
+          "topic": "VenB-aangifte-context",
+          "richting": "mag-verwijzen",
+          "ref": "aangifte-vennootschapsbelasting"
+        },
+        {
+          "topic": "Bedrijfsleidersbezoldiging (fiches)",
+          "richting": "mag-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschapsbelasting"
+    }
+  ]
+}

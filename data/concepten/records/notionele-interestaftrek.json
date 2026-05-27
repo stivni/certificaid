@@ -1,0 +1,83 @@
+{
+  "id": "notionele-interestaftrek",
+  "naam": {
+    "primair": "Notionele interestaftrek (NIA)",
+    "afkorting": "NIA"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Historisch regime: fictieve interestaftrek berekend op risicokapitaal (gecorrigeerd eigen vermogen)",
+        "AFGESCHAFT vanaf aanslagjaar 2024 (Wet 22-12-2023 art 80)",
+        "Nog relevant voor: examen-historiek + overgangsregeling restanten",
+        "Geen nieuwe gevallen meer (status: afgeschaft)"
+      ],
+      "out": [
+        {
+          "topic": "Σ-keuzekader VenB-voordelen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-voordelen-vennootschap"
+        },
+        {
+          "topic": "Eigen-vermogen (historische grondslag)",
+          "richting": "mag-verwijzen",
+          "ref": "eigen-vermogen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "afgeschaft",
+        "sinds": "AJ 2024",
+        "wettelijke_basis": "Wet 22-12-2023 art. 80",
+        "toelichting": "Volledig afgeschaft vanaf aanslagjaar 2024. Behoud voor examen-historiek + overgangsregeling restant-aftrek."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-voordelen-vennootschap"
+    }
+  ]
+}

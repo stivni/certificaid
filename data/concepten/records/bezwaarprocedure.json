@@ -1,0 +1,106 @@
+{
+  "id": "bezwaarprocedure",
+  "naam": {
+    "primair": "Bezwaarprocedure",
+    "synoniemen": [
+      "bezwaarprocedure-fiscaal"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.5.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Bezwaarschrift indienen: termijn (6 maanden) · vorm · inhoud",
+        "Behandeling door directeur (gewestelijke directie)",
+        "Beslissing op bezwaar + rechtsmiddelen",
+        "Accountant-perspectief: opstellen bezwaarschrift + advisering",
+        "Rename uit: bezwaarprocedure-fiscaal (PO 2.5)"
+      ],
+      "out": [
+        {
+          "topic": "Gerechtelijke fase na afwijzing bezwaar",
+          "richting": "moet-verwijzen",
+          "ref": "gerechtelijke-fase-belasting"
+        },
+        {
+          "topic": "Bemiddeling als parallelle weg",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-bemiddelingsprocedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "bezwaartermijn-6m",
+        "naam": {
+          "primair": "Bezwaartermijn 6 maanden"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: vanaf verzending aanslagbiljet",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    },
+    {
+      "type": "triggert",
+      "target": "gerechtelijke-fase-belasting"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "registratie-en-successierechten",
+  "naam": {
+    "primair": "Registratie- en successierechten"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.6.I",
+      "2.6.II",
+      "2.6.III",
+      "2.6.IV",
+      "2.6.V",
+      "2.6.VI",
+      "2.6.taak.1",
+      "2.6.taak.2",
+      "2.6.taak.3",
+      "2.6.taak.4",
+      "2.6.taak.5"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht: 2 hoofdtakken (registratie + successie) — verschillen + verbanden",
+        "Gewestelijke bevoegdheid sinds 6e Staatshervorming (Vlaanderen/Wallonië/Brussel)",
+        "Aanknopingspunten: registratie = ligging onroerend goed / aard akte; successie = fiscale woonplaats overledene",
+        "Vertegenwoordiging-aspect overzicht (perspectief op individuele records; absorbeert oude vertegenwoordiging-belastingadministratie)"
+      ],
+      "out": [
+        {
+          "topic": "Verkooprecht detail",
+          "richting": "moet-verwijzen",
+          "ref": "verkooprecht"
+        },
+        {
+          "topic": "Erfbelasting detail",
+          "richting": "moet-verwijzen",
+          "ref": "erfbelasting"
+        },
+        {
+          "topic": "Successieplanning detail",
+          "richting": "moet-verwijzen",
+          "ref": "successieplanning"
+        },
+        {
+          "topic": "Familiale-onderneming-gunstregime",
+          "richting": "moet-verwijzen",
+          "ref": "gunstregime-familiale-onderneming"
+        },
+        {
+          "topic": "Inbreng-onroerend in vennootschap (kapitaalstructuur-cross)",
+          "richting": "mag-verwijzen",
+          "ref": "inbreng-onroerend-in-vennootschap"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "bevat",
+      "target": "erfbelasting"
+    },
+    {
+      "type": "bevat",
+      "target": "successieplanning"
+    }
+  ]
+}

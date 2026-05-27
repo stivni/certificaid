@@ -1,0 +1,176 @@
+{
+  "id": "atad-richtlijn",
+  "naam": {
+    "primair": "ATAD-richtlijn",
+    "afkorting": "ATAD"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.8.XVI",
+      "2.8.XVII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "EU Anti-Tax-Avoidance Directive (ATAD I 2016 + ATAD II 2017)",
+        "5 maatregelen: GAAR · interest limitation (thin-cap) · CFC-regels · exit-tax · hybride mismatches",
+        "Implementatie in Belgisch recht (verschillende artikelen WIB)",
+        "Cross naar BEPS-actieplan OESO"
+      ],
+      "out": [
+        {
+          "topic": "Thin-cap regime (BE-implementatie)",
+          "richting": "moet-verwijzen",
+          "ref": "thin-cap-regime"
+        },
+        {
+          "topic": "Σ-keuzekader anti-misbruik",
+          "richting": "moet-verwijzen",
+          "ref": "anti-misbruik"
+        },
+        {
+          "topic": "Internationaal fiscaal cluster",
+          "richting": "mag-verwijzen",
+          "ref": "internationaal-fiscaal"
+        },
+        {
+          "topic": "Transfer pricing (verwant)",
+          "richting": "mag-verwijzen",
+          "ref": "transfer-pricing"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "gaar",
+        "naam": {
+          "primair": "GAAR — algemene anti-misbruik (EU)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: EU-versie van algemene anti-misbruik",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cfc-regels",
+        "naam": {
+          "primair": "CFC-regels"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: Controlled Foreign Companies — belasting passief inkomen laag-belaste dochters",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "exit-tax",
+        "naam": {
+          "primair": "Exit-tax"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: belasting bij vertrek vermogensbestanddelen uit EU",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hybride-mismatches",
+        "naam": {
+          "primair": "Hybride mismatches"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: tegengaan dubbele aftrek of niet-belasting via kwalificatie-verschillen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "anti-misbruik"
+    }
+  ]
+}

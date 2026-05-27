@@ -1,0 +1,94 @@
+{
+  "id": "aangifteplicht",
+  "naam": {
+    "primair": "Aangifteplicht",
+    "synoniemen": [
+      "aangifteplicht-fiscaal"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.5.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Wie moet aangifte indienen (per belasting-soort)",
+        "Wat moet aangegeven worden (inkomsten · vermogen · handelingen)",
+        "Wanneer indienen (termijnen per belasting · uitstel-regeling)",
+        "Vorm (papier · MyMinFin · Tax-on-Web · Biztax · Intervat)",
+        "Gevolgen niet-naleving: aanslag van ambtswege · belastingverhoging · sancties",
+        "Rename uit: aangifteplicht-fiscaal (PO 2.5)"
+      ],
+      "out": [
+        {
+          "topic": "Sancties bij niet-naleving",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-sancties"
+        },
+        {
+          "topic": "Aanslag-cyclus na aangifte",
+          "richting": "moet-verwijzen",
+          "ref": "aanslag-cyclus"
+        },
+        {
+          "topic": "PB-specifieke aangifte",
+          "richting": "mag-verwijzen",
+          "ref": "aangifte-pb"
+        },
+        {
+          "topic": "VenB-specifieke aangifte",
+          "richting": "mag-verwijzen",
+          "ref": "aangifte-vennootschapsbelasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    },
+    {
+      "type": "triggert",
+      "target": "aanslag-cyclus"
+    }
+  ]
+}

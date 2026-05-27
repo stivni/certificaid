@@ -1,0 +1,89 @@
+{
+  "id": "taxatieprocedure",
+  "naam": {
+    "primair": "Taxatieprocedure"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.5.I",
+      "2.5.II"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Taxatieprocedure overzicht: aangifte → vestiging aanslag → kennisgeving",
+        "Aangifte-onderzoek door administratie",
+        "Vraag om inlichtingen (VOI) · bericht van wijziging (BvW) · aanslag van ambtswege",
+        "Termijnen + vormvereisten per stap"
+      ],
+      "out": [
+        {
+          "topic": "Termijnen detail",
+          "richting": "moet-verwijzen",
+          "ref": "aanslagtermijnen"
+        },
+        {
+          "topic": "Cyclus-overzicht per aanslagjaar",
+          "richting": "moet-verwijzen",
+          "ref": "aanslag-cyclus"
+        },
+        {
+          "topic": "Bewijsmiddelen",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-bewijsmiddelen"
+        },
+        {
+          "topic": "Behoorlijk bestuur als waarborg",
+          "richting": "mag-verwijzen",
+          "ref": "beginselen-behoorlijk-bestuur"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    },
+    {
+      "type": "vereist",
+      "target": "aanslagtermijnen"
+    }
+  ]
+}

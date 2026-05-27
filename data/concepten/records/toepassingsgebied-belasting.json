@@ -1,0 +1,86 @@
+{
+  "id": "toepassingsgebied-belasting",
+  "naam": {
+    "primair": "Toepassingsgebied van belasting"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.1.VIII",
+      "2.1.VIII.A",
+      "2.1.VIII.B",
+      "2.1.VIII.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Persoonlijk toepassingsgebied: wie is belastingplichtig (rijksinwoners · niet-rijksinwoners · vennootschap met zetel in België)",
+        "Materieel toepassingsgebied: wat wordt belast (welke inkomsten/handelingen)",
+        "Territoriaal toepassingsgebied: waar (België · buitenland · DBV-toewijzing)",
+        "Temporeel toepassingsgebied: wanneer (aanslagjaar · belastbaar tijdperk · annaliteit)"
+      ],
+      "out": [
+        {
+          "topic": "Annaliteit als beginsel",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-beginselen"
+        },
+        {
+          "topic": "Territorialiteit + internationale aspecten",
+          "richting": "moet-verwijzen",
+          "ref": "internationaal-fiscaal"
+        },
+        {
+          "topic": "Fiscale woonplaats voor PB",
+          "richting": "mag-verwijzen",
+          "ref": "personenbelasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-beginselen"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "id": "verboden-constructies",
+  "naam": {
+    "primair": "Verboden constructies"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.1.IX.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Verzamelconcept van specifieke anti-misbruik-bepalingen",
+        "Voorbeelden: 3-jaar-vermoeden art 18 WIB · effecten-omzeiling WIB 90 5° · verkapte dividenden",
+        "Onderscheid met AAMB (specifiek vs algemeen)",
+        "Per bepaling: voorwaarden + gevolg bij toepassing"
+      ],
+      "out": [
+        {
+          "topic": "AAMB (algemeen instrument)",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-anti-misbruik-bepaling"
+        },
+        {
+          "topic": "Σ-keuzekader anti-misbruik",
+          "richting": "moet-verwijzen",
+          "ref": "anti-misbruik"
+        },
+        {
+          "topic": "Dividend-uitkering (verkapte dividenden)",
+          "richting": "mag-verwijzen",
+          "ref": "dividend-uitkering"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "anti-misbruik"
+    }
+  ]
+}

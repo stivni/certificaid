@@ -1,0 +1,147 @@
+{
+  "id": "aanslagtermijnen",
+  "naam": {
+    "primair": "Aanslagtermijnen",
+    "synoniemen": [
+      "aanslagtermijnen-fiscaal",
+      "termijnen aanslag"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.5.II"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Gewone aanslagtermijn: 3 jaar (vanaf 1 januari van aanslagjaar)",
+        "Verlengde termijn: 5 jaar (vroeger 7) bij niet-aangifte / laattijdige aangifte",
+        "Bijzondere termijn: 10 jaar bij fraude (was 7)",
+        "Schorsings- en stuitings-mechanismen",
+        "Rename uit: aanslagtermijnen-fiscaal (PO 2.5)"
+      ],
+      "out": [
+        {
+          "topic": "Aanslagcyclus context",
+          "richting": "moet-verwijzen",
+          "ref": "aanslag-cyclus"
+        },
+        {
+          "topic": "Sancties + boetes",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-sancties"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "gewone-termijn-3j",
+        "naam": {
+          "primair": "Gewone termijn 3 jaar"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: vanaf 1 januari aanslagjaar",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verlengde-termijn-5j",
+        "naam": {
+          "primair": "Verlengde termijn 5 jaar"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: bij niet-aangifte/laattijdig",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bijzondere-termijn-10j",
+        "naam": {
+          "primair": "Bijzondere termijn 10 jaar"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: bij fiscale fraude",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    }
+  ]
+}

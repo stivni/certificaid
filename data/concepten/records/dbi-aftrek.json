@@ -1,0 +1,79 @@
+{
+  "id": "dbi-aftrek",
+  "naam": {
+    "primair": "DBI-aftrek (Definitief Belaste Inkomsten)",
+    "afkorting": "DBI"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "100% vrijstelling van ontvangen dividenden uit gekwalificeerde deelnemingen",
+        "Voorwaarden: minimum-deelneming (10% of 2.500.000€) · houdperiode (1 jaar) · taxatie-voorwaarde",
+        "Doel: voorkomen dubbele belasting in keten van vennootschappen",
+        "Uitsluitingen: bv. dividenden uit landen met afwijkend belastingstelsel"
+      ],
+      "out": [
+        {
+          "topic": "Dividend-uitkering (winstuitkering)",
+          "richting": "moet-verwijzen",
+          "ref": "dividend-uitkering"
+        },
+        {
+          "topic": "Σ-keuzekader VenB-voordelen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-voordelen-vennootschap"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-voordelen-vennootschap"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "dividend-uitkering"
+    }
+  ]
+}

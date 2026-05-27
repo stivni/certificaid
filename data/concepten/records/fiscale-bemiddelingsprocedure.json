@@ -1,0 +1,76 @@
+{
+  "id": "fiscale-bemiddelingsprocedure",
+  "naam": {
+    "primair": "Fiscale bemiddelingsprocedure",
+    "afkorting": "FBD"
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.5.VI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "FBD (Fiscale Bemiddelingsdienst) — vrijwillig · vertrouwelijk · gratis",
+        "Wanneer mogelijk: tijdens bezwaar of geschil over administratieve handeling",
+        "Verloop: aanvraag · bemiddeling · advies/voorstel",
+        "Schorsende werking op termijnen",
+        "Accountant-perspectief: voorbereiding bemiddeling + vertegenwoordiging"
+      ],
+      "out": [
+        {
+          "topic": "Bezwaar als parallel pad",
+          "richting": "mag-verwijzen",
+          "ref": "bezwaarprocedure"
+        },
+        {
+          "topic": "Gerechtelijke fase indien geen oplossing",
+          "richting": "mag-verwijzen",
+          "ref": "gerechtelijke-fase-belasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    }
+  ]
+}

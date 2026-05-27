@@ -1,0 +1,88 @@
+{
+  "id": "verlaagd-tarief-kleine-vennootschap",
+  "naam": {
+    "primair": "Verlaagd tarief kleine vennootschap (KMO-tarief)",
+    "synoniemen": [
+      "verlaagd vennootschapstarief",
+      "20%-tarief"
+    ],
+    "afkorting": "KMO-tarief"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.A"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "KMO-tarief 20% op eerste schijf van 100.000€ belastbaar inkomen",
+        "Voorwaarde 1: kwalificatie als 'kleine vennootschap' (art 1:24 WVV)",
+        "Voorwaarde 2: 45.000€ minimum-bezoldiging aan bedrijfsleider (of 100% winst-bezoldiging-vereiste)",
+        "Standaard-tarief 25% boven 100.000€ (én voor niet-kwalificerende vennootschappen)"
+      ],
+      "out": [
+        {
+          "topic": "Groottecategorie als trigger",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        },
+        {
+          "topic": "Bedrijfsleidersbezoldiging-context",
+          "richting": "mag-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Σ-keuzekader VenB-voordelen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-voordelen-vennootschap"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-voordelen-vennootschap"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschap-groottecategorieen"
+    }
+  ]
+}

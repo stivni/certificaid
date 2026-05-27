@@ -1,0 +1,116 @@
+{
+  "id": "fiscale-procedure",
+  "naam": {
+    "primair": "Fiscale procedure"
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.5.I",
+      "2.5.II",
+      "2.5.III",
+      "2.5.IV",
+      "2.5.V",
+      "2.5.VI",
+      "2.5.VII",
+      "2.5.VIII",
+      "2.5.taak.1",
+      "2.5.taak.2",
+      "2.5.taak.3",
+      "2.5.taak.4"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht: end-to-end fiscale procedure-flow (aangifte → controle → taxatie → aanslag → bezwaar → bemiddeling/rechter → invordering)",
+        "Bewijslast-verdeling per fase",
+        "Accountant-rol-overzicht (vertegenwoordiging · advies) — detail in perspectieven per fase",
+        "Absorbeert oude: fiscale-procedure-pb + fiscale-procedure-belastingplichtige (PO 2.5-uitwerking)"
+      ],
+      "out": [
+        {
+          "topic": "Aanslagcyclus-detail",
+          "richting": "moet-verwijzen",
+          "ref": "aanslag-cyclus"
+        },
+        {
+          "topic": "Bezwaar-stappen-detail",
+          "richting": "moet-verwijzen",
+          "ref": "bezwaarprocedure"
+        },
+        {
+          "topic": "Sancties bij niet-naleving",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-sancties"
+        },
+        {
+          "topic": "Gewestelijke procedure (Vlaamse Codex Fiscaliteit)",
+          "richting": "moet-verwijzen",
+          "ref": "gewestelijke-fiscale-procedure"
+        },
+        {
+          "topic": "Algemene fiscale beginselen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-beginselen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "bevat",
+      "target": "taxatieprocedure"
+    },
+    {
+      "type": "bevat",
+      "target": "aanslag-cyclus"
+    },
+    {
+      "type": "bevat",
+      "target": "bezwaarprocedure"
+    },
+    {
+      "type": "bevat",
+      "target": "invorderingsprocedure"
+    }
+  ]
+}

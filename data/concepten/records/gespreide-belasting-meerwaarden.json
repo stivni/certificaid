@@ -1,0 +1,74 @@
+{
+  "id": "gespreide-belasting-meerwaarden",
+  "naam": {
+    "primair": "Gespreide belasting meerwaarden"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.F"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Art 47 WIB — gespreide belasting van meerwaarden bij herinvestering",
+        "Voorwaarde: herinvesteringsverplichting binnen termijn (3-5 jaar)",
+        "Kwalificerende investeringen + voorwaarden",
+        "Niet-naleving = onmiddellijke belasting + nalatigheidsinteresten"
+      ],
+      "out": [
+        {
+          "topic": "Σ-keuzekader VenB-voordelen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-voordelen-vennootschap"
+        },
+        {
+          "topic": "Meerwaarde-aandelen-venb (specifieker regime)",
+          "richting": "mag-verwijzen",
+          "ref": "meerwaarde-aandelen-venb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-voordelen-vennootschap"
+    }
+  ]
+}

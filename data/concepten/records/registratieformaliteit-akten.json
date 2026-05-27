@@ -1,0 +1,77 @@
+{
+  "id": "registratieformaliteit-akten",
+  "naam": {
+    "primair": "Registratieformaliteit van akten"
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "2.6.I.A",
+      "2.6.I.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Welke akten zijn registratie-plichtig (notarieel · onderhands · gerechtelijk)",
+        "Termijnen voor aanbieding ter registratie",
+        "Vormvereisten + repertorium",
+        "Sancties bij niet-naleving (boete · fiscale gevolgen)",
+        "Accountant-perspectief: vertegenwoordiging bij registratie (absorbeert oude vertegenwoordiging-belastingadministratie)"
+      ],
+      "out": [
+        {
+          "topic": "Concrete rechten (verkoop/verdeel/hypotheek)",
+          "richting": "moet-verwijzen",
+          "ref": "verkooprecht"
+        },
+        {
+          "topic": "Schenkbelasting bij schenking",
+          "richting": "moet-verwijzen",
+          "ref": "schenkbelasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "registratie-en-successierechten"
+    }
+  ]
+}

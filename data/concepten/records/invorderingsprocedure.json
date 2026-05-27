@@ -1,0 +1,78 @@
+{
+  "id": "invorderingsprocedure",
+  "naam": {
+    "primair": "Invorderingsprocedure",
+    "synoniemen": [
+      "invorderingsprocedure-fiscaal"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.5.VII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Stappen: betalingsherinnering · dwangbevel · beslag · uitwinning",
+        "Schorsing van invordering bij bezwaar (regels en uitzonderingen)",
+        "Solidariteit + hoofdelijkheid bij bestuurders/vennoten",
+        "Verjarings-termijnen + stuitings-handelingen",
+        "Rename uit: invorderingsprocedure-fiscaal (PO 2.5)"
+      ],
+      "out": [
+        {
+          "topic": "Aanslag-cyclus als grondslag (inkohiering)",
+          "richting": "moet-verwijzen",
+          "ref": "aanslag-cyclus"
+        },
+        {
+          "topic": "Sancties bij niet-betaling",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-sancties"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    }
+  ]
+}

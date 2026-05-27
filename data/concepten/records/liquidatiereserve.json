@@ -1,0 +1,85 @@
+{
+  "id": "liquidatiereserve",
+  "naam": {
+    "primair": "Liquidatiereserve"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.G",
+      "2.3.III.A"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Anti-liquidatie-tarief uitwijking: 10% afzonderlijke heffing nu",
+        "Bij uitkering ≥ 5 jaar wachtperiode: enkel 5% RV (in plaats van 30%)",
+        "Bij uitkering < 5 jaar: hogere RV",
+        "Boekhoudkundige isolering vereist (afzonderlijke reserve)",
+        "Doel: alternatief voor liquidatie-uitkering met progressief tarief"
+      ],
+      "out": [
+        {
+          "topic": "VVPR-bis (alternatief voor nieuw kapitaal)",
+          "richting": "moet-verwijzen",
+          "ref": "vvprbis"
+        },
+        {
+          "topic": "Dividend-uitkering (winstuitkering)",
+          "richting": "mag-verwijzen",
+          "ref": "dividend-uitkering"
+        },
+        {
+          "topic": "Σ-keuzekader VenB-voordelen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-voordelen-vennootschap"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-voordelen-vennootschap"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vvprbis"
+    }
+  ]
+}

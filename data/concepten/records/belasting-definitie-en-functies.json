@@ -1,0 +1,87 @@
+{
+  "id": "belasting-definitie-en-functies",
+  "naam": {
+    "primair": "Belasting-definitie en functies",
+    "synoniemen": [
+      "belasting",
+      "wat is een belasting"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.1.I",
+      "2.1.II"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Wat IS een belasting (juridisch + economisch onderscheid t.o.v. retributie/heffing)",
+        "3 functies: financieel (overheidsfinanciering) · regulerend (sturing gedrag) · herverdelend (sociale rechtvaardigheid)",
+        "Onderscheid belasting / retributie / sociale bijdrage / forfaitair bedrag"
+      ],
+      "out": [
+        {
+          "topic": "Indeling van belastingen (directe/indirecte, ...)",
+          "richting": "moet-verwijzen",
+          "ref": "indeling-belastingen"
+        },
+        {
+          "topic": "Toepassingsgebied-criteria per belasting",
+          "richting": "mag-verwijzen",
+          "ref": "toepassingsgebied-belasting"
+        },
+        {
+          "topic": "Fiscale beginselen (legaliteit · gelijkheid · ...)",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-beginselen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "indeling-belastingen"
+    }
+  ]
+}

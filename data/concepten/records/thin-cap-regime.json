@@ -1,0 +1,88 @@
+{
+  "id": "thin-cap-regime",
+  "naam": {
+    "primair": "Thin-cap regime",
+    "synoniemen": [
+      "interest limitation rule",
+      "thin capitalization"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.XVI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "ATAD-implementatie via art 198/1 WIB",
+        "Beperking interestaftrekbaarheid: 30% EBITDA / 3M€ drempel (hoogste van beide)",
+        "Doel: tegengaan financiering via interne schulden (debt push-down)",
+        "Overdracht van niet-aftrekbare overschotten naar volgende jaren",
+        "Uitzonderingen + groep-bepalingen"
+      ],
+      "out": [
+        {
+          "topic": "ATAD-richtlijn (grondslag)",
+          "richting": "moet-verwijzen",
+          "ref": "atad-richtlijn"
+        },
+        {
+          "topic": "Σ-keuzekader anti-misbruik",
+          "richting": "moet-verwijzen",
+          "ref": "anti-misbruik"
+        },
+        {
+          "topic": "Schuldfinanciering (cross-cluster)",
+          "richting": "mag-verwijzen",
+          "ref": "schuldfinanciering"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "anti-misbruik"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "atad-richtlijn"
+    }
+  ]
+}

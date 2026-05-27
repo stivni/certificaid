@@ -1,0 +1,190 @@
+{
+  "id": "beginselen-behoorlijk-bestuur",
+  "naam": {
+    "primair": "Beginselen van behoorlijk bestuur",
+    "synoniemen": [
+      "beginselen-behoorlijk-bestuur-fiscaal"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.5.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Toepassing van bestuursrechtelijke beginselen op fiscale administratie",
+        "5 kern-beginselen: rechtszekerheid · zorgvuldigheid · redelijkheid · vertrouwen · motivering",
+        "Materiële motiveringsplicht (Wet 29-07-1991)",
+        "Praktische gevolgen: gemotiveerde beslissingen · hoorrecht · proportionaliteit van sancties",
+        "Rename uit: beginselen-behoorlijk-bestuur-fiscaal (PO 2.5)"
+      ],
+      "out": [
+        {
+          "topic": "Algemene fiscale beginselen (legaliteit · annaliteit · ...)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-beginselen"
+        },
+        {
+          "topic": "Bezwaarprocedure als toetsingsmoment",
+          "richting": "mag-verwijzen",
+          "ref": "bezwaarprocedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "rechtszekerheid",
+        "naam": {
+          "primair": "Rechtszekerheid"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: voorzienbaarheid van rechtsregels",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "zorgvuldigheid",
+        "naam": {
+          "primair": "Zorgvuldigheid"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: gedegen feitenonderzoek",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "redelijkheid",
+        "naam": {
+          "primair": "Redelijkheid"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: geen onevenredige beslissingen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vertrouwen",
+        "naam": {
+          "primair": "Vertrouwensbeginsel"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: bescherming opgewekt vertrouwen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "motivering",
+        "naam": {
+          "primair": "Motiveringsplicht"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: Wet 29-07-1991",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    }
+  ]
+}

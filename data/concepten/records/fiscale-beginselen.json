@@ -1,0 +1,265 @@
+{
+  "id": "fiscale-beginselen",
+  "naam": {
+    "primair": "Fiscale beginselen"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.1.III",
+      "2.1.IV",
+      "2.1.VII.A",
+      "2.1.VII.B",
+      "2.1.VIII.A",
+      "2.1.VIII.B",
+      "2.1.VIII.C",
+      "2.1.IX.A",
+      "2.1.IX.B",
+      "2.1.IX.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht van 8 fiscale grondbeginselen die heel fiscaliteit-discipline schragen",
+        "Per beginsel: definitie · grondslag (Grondwet/wet) · concrete toepassing · examen-toepassing",
+        "Onderscheid + verbanden tussen beginselen (waar conflicteren ze)"
+      ],
+      "out": [
+        {
+          "topic": "Beginselen behoorlijk bestuur (procedurele beginselen)",
+          "richting": "moet-verwijzen",
+          "ref": "beginselen-behoorlijk-bestuur"
+        },
+        {
+          "topic": "AAMB als specifieke toepassing van realiteit + interpretatie",
+          "richting": "mag-verwijzen",
+          "ref": "algemene-anti-misbruik-bepaling"
+        },
+        {
+          "topic": "Interpretatie-methodes",
+          "richting": "mag-verwijzen",
+          "ref": "interpretatie-fiscale-wet"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "legaliteit",
+        "naam": {
+          "primair": "Legaliteitsbeginsel"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: art 170 GW — geen belasting zonder wet",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "annaliteit",
+        "naam": {
+          "primair": "Annaliteit"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: jaarlijkse stemming begroting · belasting per aanslagjaar",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gelijkheid",
+        "naam": {
+          "primair": "Gelijkheidsbeginsel"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: art 172 GW — gelijke behandeling gelijke gevallen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "non-retroactiviteit",
+        "naam": {
+          "primair": "Non-retroactiviteit"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: wet geen terugwerkende kracht behoudens uitzonderingen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "territorialiteit",
+        "naam": {
+          "primair": "Territorialiteit"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: België belast inwoners + Belgische bron",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "non-bis-in-idem",
+        "naam": {
+          "primair": "Non-bis-in-idem"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: geen dubbele bestraffing voor zelfde feit",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "realiteitsbeginsel",
+        "naam": {
+          "primair": "Realiteitsbeginsel"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: fiscaal volgt economische werkelijkheid",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "moraliteit-vs-neutraliteit",
+        "naam": {
+          "primair": "Moraliteit vs neutraliteit"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: fiscaal recht is amoreel; belast ook illegale inkomsten",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "id": "fiscale-voordelen-vennootschap",
+  "naam": {
+    "primair": "Fiscale voordelen vennootschap"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.3.II",
+      "2.3.III",
+      "2.3.taak.3"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht keuzekader: VenB-tarief-modulerende aftrekken + regimes",
+        "Vergelijkingsmatrix: KMO-tarief · DBI · NIA · innovatie · investering · gespreide-belasting · liquidatiereserve · VVPR-bis · meerwaarde-aandelen",
+        "Aftrek-volgorde art 207 WIB (fiscaal vastgelegde sequentie)",
+        "Korf-regime sinds 2018 (aftrek-beperking boven 1.000.000€)",
+        "Keuze-criteria per aftrek: voorwaarden · plafonds · termijnen · combineerbaarheid"
+      ],
+      "out": [
+        {
+          "topic": "KMO-tarief detail",
+          "richting": "moet-verwijzen",
+          "ref": "verlaagd-tarief-kleine-vennootschap"
+        },
+        {
+          "topic": "DBI-aftrek detail",
+          "richting": "moet-verwijzen",
+          "ref": "dbi-aftrek"
+        },
+        {
+          "topic": "Notionele interestaftrek (afgeschaft)",
+          "richting": "moet-verwijzen",
+          "ref": "notionele-interestaftrek"
+        },
+        {
+          "topic": "Innovatie-aftrek detail",
+          "richting": "moet-verwijzen",
+          "ref": "innovatie-aftrek"
+        },
+        {
+          "topic": "Investeringsaftrek detail",
+          "richting": "moet-verwijzen",
+          "ref": "investeringsaftrek"
+        },
+        {
+          "topic": "Anti-misbruik bij aftrekken",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-anti-misbruik-bepaling"
+        },
+        {
+          "topic": "Aangifte VenB (uitvoerings-context)",
+          "richting": "mag-verwijzen",
+          "ref": "aangifte-vennootschapsbelasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "aftrek-volgorde-207",
+        "naam": {
+          "primair": "Aftrek-volgorde art 207 WIB"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: DBI → innovatie → investering → overgedragen verliezen → NIA → gespreide belastingen → ...",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "korf-regime",
+        "naam": {
+          "primair": "Korf-regime aftrek-beperking"
+        },
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: beperking aftrekken boven 1.000.000€ (sinds 2018)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "bevat",
+      "target": "dbi-aftrek"
+    },
+    {
+      "type": "bevat",
+      "target": "innovatie-aftrek"
+    },
+    {
+      "type": "bevat",
+      "target": "investeringsaftrek"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "indeling-belastingen",
+  "naam": {
+    "primair": "Indeling van belastingen"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.1.III",
+      "2.1.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Indeling: directe vs indirecte belastingen",
+        "Indeling: personele (subjectief) vs zakelijke (objectief) belastingen",
+        "Indeling: federaal vs gewestelijk vs lokaal (niveau-bevoegdheden)",
+        "Concrete voorbeelden per categorie (PB·VenB·BTW·registratie·successie·OV·BIV)"
+      ],
+      "out": [
+        {
+          "topic": "Definitie + functies van belasting",
+          "richting": "moet-verwijzen",
+          "ref": "belasting-definitie-en-functies"
+        },
+        {
+          "topic": "Gewestelijke + lokale belastingen detail",
+          "richting": "mag-verwijzen",
+          "ref": "lokale-en-regionale-belastingen"
+        },
+        {
+          "topic": "Personenbelasting-cluster detail",
+          "richting": "mag-verwijzen",
+          "ref": "personenbelasting"
+        },
+        {
+          "topic": "BTW-cluster detail",
+          "richting": "mag-verwijzen",
+          "ref": "btw"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "directe-vs-indirecte",
+        "naam": {
+          "primair": "Directe vs indirecte belastingen"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: criteria onderscheid (overhevelbaarheid · economisch incidence)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "personele-vs-zakelijke",
+        "naam": {
+          "primair": "Personele vs zakelijke belastingen"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: subjectieve vs objectieve aanknopingspunten",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "belasting-definitie-en-functies"
+    }
+  ]
+}

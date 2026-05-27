@@ -1,0 +1,79 @@
+{
+  "id": "schenkbelasting",
+  "naam": {
+    "primair": "Schenkbelasting"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.6.II"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Belasting op schenking (onroerend + roerend)",
+        "Gewestelijke tarieven (Vl/Wal/Br — wezenlijk verschillend)",
+        "3-jaar-vermoeden: schenking < 3j vóór overlijden → fictiebepaling erfbelasting",
+        "Vlaamse gunstregimes: vlakke tarieven · familiale onderneming"
+      ],
+      "out": [
+        {
+          "topic": "Fictiebepaling 3j-vermoeden in erfbelasting",
+          "richting": "moet-verwijzen",
+          "ref": "erfbelasting"
+        },
+        {
+          "topic": "Successieplanning context",
+          "richting": "moet-verwijzen",
+          "ref": "successieplanning"
+        },
+        {
+          "topic": "Gunstregime familiale onderneming",
+          "richting": "moet-verwijzen",
+          "ref": "gunstregime-familiale-onderneming"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "registratie-en-successierechten"
+    }
+  ]
+}

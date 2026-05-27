@@ -1,0 +1,79 @@
+{
+  "id": "erfrecht",
+  "naam": {
+    "primair": "Erfrecht"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.6.VI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Burgerlijk recht: wie erft wat (cross naar burgerlijk recht — boek 4 BW)",
+        "Wettelijke (intestate) devolutie + testamentaire devolutie",
+        "Reservatair erfdeel + beschikbaar deel",
+        "Aanvaarding · verwerping · onder voorrecht van boedelbeschrijving"
+      ],
+      "out": [
+        {
+          "topic": "Erfbelasting fiscaal",
+          "richting": "moet-verwijzen",
+          "ref": "erfbelasting"
+        },
+        {
+          "topic": "Huwelijksvermogensrecht (interactie)",
+          "richting": "moet-verwijzen",
+          "ref": "huwelijksvermogensrecht"
+        },
+        {
+          "topic": "Testament als instrument",
+          "richting": "moet-verwijzen",
+          "ref": "testament-instrument"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "registratie-en-successierechten"
+    }
+  ]
+}

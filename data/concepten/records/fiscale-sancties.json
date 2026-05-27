@@ -1,0 +1,154 @@
+{
+  "id": "fiscale-sancties",
+  "naam": {
+    "primair": "Fiscale sancties"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.5.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-bundel van fiscale sancties: administratieve boete + belastingverhoging + strafrechtelijke sancties",
+        "Onderscheid en proportionaliteit per soort",
+        "Cumulatie-regels (non-bis-in-idem)",
+        "Absorbeert 3 oude records (PO 2.5): administratieve-boete-fiscaal + belastingverhoging-fiscaal + fiscale-strafrechtelijke-sanctie"
+      ],
+      "out": [
+        {
+          "topic": "Beginselen behoorlijk bestuur (proportionaliteit)",
+          "richting": "moet-verwijzen",
+          "ref": "beginselen-behoorlijk-bestuur"
+        },
+        {
+          "topic": "Non-bis-in-idem",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-beginselen"
+        },
+        {
+          "topic": "Bezwaar tegen sanctie",
+          "richting": "mag-verwijzen",
+          "ref": "bezwaarprocedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "administratieve-boete",
+        "naam": {
+          "primair": "Administratieve boete"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven: vaste of variabele boete per inbreuk (forfaitair)",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "belastingverhoging",
+        "naam": {
+          "primair": "Belastingverhoging"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven: 10-200% bij niet-aangifte / onjuiste aangifte (KB 1992)",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "strafrechtelijke-sancties",
+        "naam": {
+          "primair": "Strafrechtelijke sancties"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven: gevangenisstraf + boete bij fraude · cross OM",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    }
+  ]
+}

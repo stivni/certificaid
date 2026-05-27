@@ -1,0 +1,82 @@
+{
+  "id": "aanslag-cyclus",
+  "naam": {
+    "primair": "Aanslagcyclus"
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.5.II"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Cyclus per aanslagjaar: aangifte → onderzoek → eventuele wijziging → vestiging aanslag → inkohiering → kennisgeving",
+        "Verschillende soorten aanslagen: gewone · ambtshalve · supplementaire",
+        "Inkohiering = grondslag voor invordering"
+      ],
+      "out": [
+        {
+          "topic": "Termijnen voor vestiging",
+          "richting": "moet-verwijzen",
+          "ref": "aanslagtermijnen"
+        },
+        {
+          "topic": "Invordering na inkohiering",
+          "richting": "moet-verwijzen",
+          "ref": "invorderingsprocedure"
+        },
+        {
+          "topic": "Bezwaar tegen aanslag",
+          "richting": "moet-verwijzen",
+          "ref": "bezwaarprocedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    },
+    {
+      "type": "triggert",
+      "target": "invorderingsprocedure"
+    }
+  ]
+}

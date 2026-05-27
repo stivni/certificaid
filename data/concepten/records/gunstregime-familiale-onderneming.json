@@ -1,0 +1,86 @@
+{
+  "id": "gunstregime-familiale-onderneming",
+  "naam": {
+    "primair": "Gunstregime familiale onderneming"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.6.II",
+      "2.6.VI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Cross-cutting gunstregime: raakt registratie (schenking) + successie (erfbelasting)",
+        "Schenking familiale onderneming: 0% schenkbelasting onder voorwaarden",
+        "Erfbelasting familiale onderneming: verlaagd tarief 3-7% (gewestelijk)",
+        "Voorwaarden: economische activiteit · houdperiode · bedrijfsleidersrol · familiale samenstelling",
+        "Aandeel-overdracht vs activa-overdracht (verschillende werking)"
+      ],
+      "out": [
+        {
+          "topic": "Schenkbelasting algemeen",
+          "richting": "moet-verwijzen",
+          "ref": "schenkbelasting"
+        },
+        {
+          "topic": "Erfbelasting algemeen",
+          "richting": "moet-verwijzen",
+          "ref": "erfbelasting"
+        },
+        {
+          "topic": "Overdracht onderneming (kapitaalstructuur-cross)",
+          "richting": "mag-verwijzen",
+          "ref": "overdracht-onderneming"
+        },
+        {
+          "topic": "Ondernemingsvormen (KMO-context)",
+          "richting": "mag-verwijzen",
+          "ref": "ondernemingsvormen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "registratie-en-successierechten"
+    }
+  ]
+}

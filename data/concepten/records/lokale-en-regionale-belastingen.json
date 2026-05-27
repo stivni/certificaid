@@ -1,0 +1,96 @@
+{
+  "id": "lokale-en-regionale-belastingen",
+  "naam": {
+    "primair": "Lokale en regionale belastingen"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.7.I",
+      "2.7.II",
+      "2.7.taak.1",
+      "2.7.taak.2",
+      "2.7.taak.3"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht: 2 niveaus (gewestelijk + lokaal) met eigen fiscale autonomie",
+        "Bevoegdheids-grenzen sinds Bijzondere Financieringswet + art 170 GW",
+        "Vertegenwoordiging-aspect — perspectief-overzicht (absorbeert oude vertegenwoordiging-bij-gewestelijke-en-lokale-fiscus)",
+        "Advies-bij-opstart — perspectief-overzicht (absorbeert oude begeleiding-vestigingsplaats-en-regionale-heffingen-bij-opstart) → cross naar oprichting-vennootschap"
+      ],
+      "out": [
+        {
+          "topic": "Federale fiscale procedure",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-procedure"
+        },
+        {
+          "topic": "Gewestelijke fiscale procedure detail",
+          "richting": "moet-verwijzen",
+          "ref": "gewestelijke-fiscale-procedure"
+        },
+        {
+          "topic": "Oprichting-vennootschap (advies-cross)",
+          "richting": "mag-verwijzen",
+          "ref": "oprichting-vennootschap"
+        },
+        {
+          "topic": "Registratie + successie (apart gewestelijk cluster)",
+          "richting": "moet-verwijzen",
+          "ref": "registratie-en-successierechten"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "bevat",
+      "target": "gewestelijke-fiscale-autonomie"
+    },
+    {
+      "type": "bevat",
+      "target": "lokale-fiscale-autonomie"
+    }
+  ]
+}

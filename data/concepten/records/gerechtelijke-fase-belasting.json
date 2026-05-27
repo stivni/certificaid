@@ -1,0 +1,83 @@
+{
+  "id": "gerechtelijke-fase-belasting",
+  "naam": {
+    "primair": "Gerechtelijke fase belasting",
+    "synoniemen": [
+      "gerechtelijke-fase-fiscaal"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.5.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Rechtbank van Eerste Aanleg (fiscale kamer) als 1e niveau",
+        "Hoger beroep bij hof van beroep",
+        "Cassatieberoep bij Hof van Cassatie",
+        "Termijnen + vormvereisten per niveau",
+        "Accountant-perspectief: voorbereiding dossier (daarna advocaat)",
+        "Rename uit: gerechtelijke-fase-fiscaal (disambiguatie met gerechtelijke-reorganisatie)"
+      ],
+      "out": [
+        {
+          "topic": "Bezwaar als voorportaal",
+          "richting": "moet-verwijzen",
+          "ref": "bezwaarprocedure"
+        },
+        {
+          "topic": "Bemiddeling als alternatief",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-bemiddelingsprocedure"
+        },
+        {
+          "topic": "Gerechtelijke reorganisatie (totaal andere materie)",
+          "richting": "niet-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    }
+  ]
+}

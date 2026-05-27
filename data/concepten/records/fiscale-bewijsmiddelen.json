@@ -1,0 +1,74 @@
+{
+  "id": "fiscale-bewijsmiddelen",
+  "naam": {
+    "primair": "Fiscale bewijsmiddelen"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.5.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Klassieke bewijsmiddelen: geschriften · getuigen · vermoedens · bekentenis · eed",
+        "Specifiek fiscaal: tekenen en indiciën (art 341 WIB)",
+        "Bewijswaarde van boekhouding (regelmatige boekhouding = vermoeden van juistheid)",
+        "Bewijslast-verdeling tussen administratie en belastingplichtige per fase"
+      ],
+      "out": [
+        {
+          "topic": "Boekhouding-bewijswaarde",
+          "richting": "mag-verwijzen",
+          "ref": "boekhouding"
+        },
+        {
+          "topic": "Interpretatie + bewijslast in dubio",
+          "richting": "mag-verwijzen",
+          "ref": "interpretatie-fiscale-wet"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-procedure"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "schenking-met-voorbehoud-vruchtgebruik",
+  "naam": {
+    "primair": "Schenking met voorbehoud van vruchtgebruik"
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.6.VI.D"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Klassiek planningsinstrument: schenker behoudt vruchtgebruik · ontvanger krijgt blote eigendom",
+        "Fiscale werking: schenkbelasting nu (lagere basis) + opbouw bij overlijden (vrijstelling vruchtgebruik)",
+        "Voorwaarden: notariële akte verplicht (in regel)",
+        "Cross naar opsplitsing-eigendom (boekhouding-mechaniek)"
+      ],
+      "out": [
+        {
+          "topic": "Schenkbelasting fiscaal",
+          "richting": "moet-verwijzen",
+          "ref": "schenkbelasting"
+        },
+        {
+          "topic": "Successieplanning kader",
+          "richting": "moet-verwijzen",
+          "ref": "successieplanning"
+        },
+        {
+          "topic": "Opsplitsing-eigendom (boekhoudkundig)",
+          "richting": "mag-verwijzen",
+          "ref": "opsplitsing-eigendom"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "successieplanning"
+    }
+  ]
+}

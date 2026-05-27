@@ -1,0 +1,90 @@
+{
+  "id": "transfer-pricing",
+  "naam": {
+    "primair": "Transfer pricing",
+    "synoniemen": [
+      "verrekenprijzen",
+      "arm's length"
+    ],
+    "afkorting": "TP"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.8.XVI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Arm's length-beginsel: verbonden partijen handelen alsof onafhankelijk",
+        "Verrekenprijsmethoden (CUP · cost-plus · resale-price · TNMM · profit-split)",
+        "Documentatie-verplichting: masterfile · lokaal dossier · CbCR (Country-by-Country Report)",
+        "OESO Transfer Pricing Guidelines",
+        "Correcties bij niet-naleving (primaire + secundaire aanpassingen)"
+      ],
+      "out": [
+        {
+          "topic": "Σ-keuzekader anti-misbruik",
+          "richting": "moet-verwijzen",
+          "ref": "anti-misbruik"
+        },
+        {
+          "topic": "Internationaal fiscaal kader",
+          "richting": "mag-verwijzen",
+          "ref": "internationaal-fiscaal"
+        },
+        {
+          "topic": "Verbonden partijen (cross-cutting)",
+          "richting": "mag-verwijzen",
+          "ref": "verbonden-vennootschap"
+        },
+        {
+          "topic": "ATAD-richtlijn",
+          "richting": "mag-verwijzen",
+          "ref": "atad-richtlijn"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "anti-misbruik"
+    }
+  ]
+}

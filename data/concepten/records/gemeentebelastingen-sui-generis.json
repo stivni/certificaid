@@ -1,0 +1,75 @@
+{
+  "id": "gemeentebelastingen-sui-generis",
+  "naam": {
+    "primair": "Gemeentebelastingen sui generis"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.7.II.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Eigen lokale belastingen: afval · honden · standgelden · 2e verblijven · drijfkracht · ...",
+        "Variëteit per gemeente",
+        "Bezwaarprocedures + grenzen aan creativiteit",
+        "Toepassing op ondernemingen (drijfkracht · economische heffingen)"
+      ],
+      "out": [
+        {
+          "topic": "Lokale belasting-reglement-procedure",
+          "richting": "moet-verwijzen",
+          "ref": "lokale-belasting-reglement"
+        },
+        {
+          "topic": "Aanvullende gemeentebelasting PB",
+          "richting": "mag-verwijzen",
+          "ref": "aanvullende-gemeentebelasting-pb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "lokale-en-regionale-belastingen"
+    }
+  ]
+}

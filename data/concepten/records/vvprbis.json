@@ -1,0 +1,88 @@
+{
+  "id": "vvprbis",
+  "naam": {
+    "primair": "VVPR-bis",
+    "synoniemen": [
+      "VVPR bis",
+      "verminderde roerende voorheffing nieuw kapitaal"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.H",
+      "2.3.III.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Verminderd tarief roerende voorheffing (15%) op dividenden uit nieuw kapitaal",
+        "Voorwaarden: kleine vennootschap · inbreng vanaf 01-07-2013 · 3-jaar wachtperiode",
+        "Tarief stappen: 30% → 20% (jaar 2) → 15% (jaar 3+)",
+        "Boekhoudkundige isolering van nieuw kapitaal"
+      ],
+      "out": [
+        {
+          "topic": "Liquidatiereserve (alternatief voor bestaande reserves)",
+          "richting": "moet-verwijzen",
+          "ref": "liquidatiereserve"
+        },
+        {
+          "topic": "Kapitaalverhoging (instrument-cross)",
+          "richting": "mag-verwijzen",
+          "ref": "kapitaalverhoging"
+        },
+        {
+          "topic": "Σ-keuzekader VenB-voordelen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-voordelen-vennootschap"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscale-voordelen-vennootschap"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "liquidatiereserve"
+    }
+  ]
+}

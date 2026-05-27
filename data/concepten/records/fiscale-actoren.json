@@ -1,0 +1,83 @@
+{
+  "id": "fiscale-actoren",
+  "naam": {
+    "primair": "Fiscale actoren"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "entiteit"
+    ],
+    "ankers": [
+      "2.1.VII",
+      "2.1.taak.1",
+      "2.1.taak.2"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Belastingplichtige: natuurlijke persoon / vennootschap / VZW / vereniging zonder rechtspersoonlijkheid",
+        "Administratie: FOD Financiën (AAFisc · AABBI · ...)",
+        "Openbaar Ministerie: bij fiscale strafvervolging",
+        "Rechter: fiscaal rechter (Rb 1e aanleg · hof v. beroep · Cassatie · Grondwettelijk Hof)",
+        "Adviseur: cijferberoeper (cross naar beroepsbeoefening) — rol bij vertegenwoordiging + advies"
+      ],
+      "out": [
+        {
+          "topic": "Accountant-rol als adviseur",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsbeoefening"
+        },
+        {
+          "topic": "Fiscale-procedure als procedure-stappen",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-procedure"
+        },
+        {
+          "topic": "Vertegenwoordiging bij administratie",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-controle"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    }
+  ]
+}

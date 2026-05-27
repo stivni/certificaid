@@ -1,0 +1,81 @@
+{
+  "id": "verkooprecht",
+  "naam": {
+    "primair": "Verkooprecht"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.6.I.C",
+      "2.6.I.D"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Evenredig recht bij verkoop onroerend goed",
+        "Gewestelijke tarieven: Vlaanderen ~3% (gezinswoning) / 12% (rest); Wallonië 12.5%; Brussel 12.5% (regels variëren)",
+        "Berekeningsbasis (verkoopprijs · marktwaarde · minimum)",
+        "Verminderingen + gunstregimes (klein beschrijf · meeneembaarheid · ...)",
+        "Termijn voor registratie + sancties"
+      ],
+      "out": [
+        {
+          "topic": "Verdeelrecht bij scheiding",
+          "richting": "mag-verwijzen",
+          "ref": "verdeelrecht"
+        },
+        {
+          "topic": "Hypotheekrecht (separate vestiging)",
+          "richting": "mag-verwijzen",
+          "ref": "hypotheekrecht"
+        },
+        {
+          "topic": "Inbreng-onroerend in venn. (vrijstelling)",
+          "richting": "moet-verwijzen",
+          "ref": "inbreng-onroerend-in-vennootschap"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "registratie-en-successierechten"
+    }
+  ]
+}

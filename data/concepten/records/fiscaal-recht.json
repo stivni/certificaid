@@ -1,0 +1,113 @@
+{
+  "id": "fiscaal-recht",
+  "naam": {
+    "primair": "Fiscaal recht",
+    "synoniemen": [
+      "fiscaal rechtelijk",
+      "belastingrecht"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.1.I",
+      "2.1.III",
+      "2.1.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Fiscaal recht als rechtsdiscipline: wettelijk + reglementair + administratief kader",
+        "Hiërarchie van bronnen: Grondwet → wet (WIB/WBTW/Wbk Reg) → KB → MB → circulaires → administratieve commentaar",
+        "Verhouding fiscaal recht ↔ ander recht (boekhoudrecht · vennootschapsrecht · burgerlijk recht · EU-recht)",
+        "Plaats van rechtspraak (Cassatie · Grondwettelijk Hof · HvJ EU)"
+      ],
+      "out": [
+        {
+          "topic": "Interpretatie van fiscale wet",
+          "richting": "moet-verwijzen",
+          "ref": "interpretatie-fiscale-wet"
+        },
+        {
+          "topic": "Fiscale beginselen (legaliteit · annaliteit · ...)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-beginselen"
+        },
+        {
+          "topic": "Belasting-definitie + functies",
+          "richting": "mag-verwijzen",
+          "ref": "belasting-definitie-en-functies"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "hierarchie-bronnen",
+        "naam": {
+          "primair": "Hiërarchie fiscale bronnen"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: Grondwet → wet → KB → MB → circulaires → administratieve commentaar",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "fiscale-beginselen"
+    },
+    {
+      "type": "bevat",
+      "target": "interpretatie-fiscale-wet"
+    }
+  ]
+}

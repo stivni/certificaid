@@ -1,0 +1,193 @@
+{
+  "id": "erfbelasting",
+  "naam": {
+    "primair": "Erfbelasting",
+    "synoniemen": [
+      "successierecht"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.6.VI",
+      "2.6.VI.A",
+      "2.6.VI.B",
+      "2.6.VI.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Erfbelasting (= successierecht) bij overlijden",
+        "Absorbeert 3 oude records (PO 2.6): tarieven · vrijstellingen · fictiebepalingen",
+        "Aanknopingspunt: fiscale woonplaats overledene (5-jaarsregel)",
+        "Aangifte van nalatenschap + termijnen",
+        "Accountant-perspectief: aangifte-bijstand + planning-advies"
+      ],
+      "out": [
+        {
+          "topic": "Aangifte-nalatenschap-procedure",
+          "richting": "moet-verwijzen",
+          "ref": "aangifte-nalatenschap"
+        },
+        {
+          "topic": "Erfrecht-grondslag (burgerlijk recht)",
+          "richting": "moet-verwijzen",
+          "ref": "erfrecht"
+        },
+        {
+          "topic": "Successieplanning instrumenten",
+          "richting": "moet-verwijzen",
+          "ref": "successieplanning"
+        },
+        {
+          "topic": "Gunstregime familiale onderneming",
+          "richting": "moet-verwijzen",
+          "ref": "gunstregime-familiale-onderneming"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "tarieven",
+        "naam": {
+          "primair": "Tarieven erfbelasting"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven: progressieve gewestelijke schalen per verwantschap (was: erfbelasting-tarieven-en-vrijstellingen)",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "vrijstellingen",
+        "naam": {
+          "primair": "Vrijstellingen erfbelasting"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven: gezinswoning · familiale onderneming · drempels (was: vrijstelling-gezinswoning + andere)",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "gezinswoning-vrijstelling",
+              "naam": {
+                "primair": "Gezinswoning-vrijstelling"
+              },
+              "bouwsteen_type": "uitzondering",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven: Vl: volledig vrijgesteld voor langstlevende echtgenoot/wettelijk samenwoner",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "fictiebepalingen",
+        "naam": {
+          "primair": "Fictiebepalingen erfbelasting"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven: schenkingen <3j vóór overlijden · levensverzekering · gesplitste aankopen (was: fictiebepalingen-erfbelasting)",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "registratie-en-successierechten"
+    },
+    {
+      "type": "triggert",
+      "target": "aangifte-nalatenschap"
+    }
+  ]
+}

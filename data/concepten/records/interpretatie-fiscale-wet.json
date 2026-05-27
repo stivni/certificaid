@@ -1,0 +1,132 @@
+{
+  "id": "interpretatie-fiscale-wet",
+  "naam": {
+    "primair": "Interpretatie van de fiscale wet"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.1.V",
+      "2.1.VI",
+      "2.1.IX.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Interpretatie-methodes: letterlijk · restrictief · teleologisch · systematisch",
+        "Specifieke fiscale interpretatie-regels: in dubio contra fiscum (twijfel begunstigt belastingplichtige bij heffende wet)",
+        "Realiteitsbeginsel: fiscaal volgt economische realiteit, niet juridische vorm",
+        "Bewijslast-verdeling: wie moet wat bewijzen (administratie vs belastingplichtige)",
+        "Verhouding met AAMB en simulatie-leer"
+      ],
+      "out": [
+        {
+          "topic": "Algemene anti-misbruik-bepaling (AAMB)",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-anti-misbruik-bepaling"
+        },
+        {
+          "topic": "Simulatie-leer",
+          "richting": "moet-verwijzen",
+          "ref": "simulatie-leer"
+        },
+        {
+          "topic": "Fiscale beginselen",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-beginselen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "in-dubio-contra-fiscum",
+        "naam": {
+          "primair": "In dubio contra fiscum"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: twijfel in heffende wet begunstigt belastingplichtige",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "realiteitsbeginsel-interpretatie",
+        "naam": {
+          "primair": "Realiteitsbeginsel"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven: fiscaal volgt economische realiteit",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fiscale-beginselen"
+    }
+  ]
+}
