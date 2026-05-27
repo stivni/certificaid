@@ -1,0 +1,87 @@
+{
+  "id": "quasi-inbreng",
+  "naam": {
+    "primair": "Quasi-inbreng"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IV.A"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~851)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Anti-misbruik-regel tegen ontwijken van inbreng-revisor-controle",
+        "Aankoop binnen 2 jaar na oprichting van een actief > 10% kapitaal van oprichter/zaakvoerder/bestuurder",
+        "Behandeld als verkapte inbreng-in-natura: revisor-verslag + AV-toestemming verplicht (BV/NV)",
+        "Toepassingscriteria: tijdsvenster · drempel · personenkring"
+      ],
+      "out": [
+        {
+          "topic": "Oprichting van een vennootschap als trigger-context",
+          "richting": "moet-verwijzen",
+          "ref": "oprichting-vennootschap"
+        },
+        {
+          "topic": "Kapitaalverhoging-in-natura — analoge revisor-procedure",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging-in-natura"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV (BV + NV)"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "kapitaalverhoging-in-natura"
+    },
+    {
+      "type": "triggert",
+      "target": "oprichting-vennootschap"
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "id": "bestuur-vennootschap",
+  "naam": {
+    "primair": "Bestuur van de vennootschap",
+    "synoniemen": [
+      "bestuursorgaan",
+      "raad van bestuur",
+      "zaakvoerderschap",
+      "company governance"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.II",
+      "3.0.II.A",
+      "3.0.II.B",
+      "3.0.II.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit bestuur-en-aansprakelijkheid-cluster (skelet-doc regel ~1061)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Bestuursorganisatie: enige bestuurder · raad van bestuur · dualistisch · college zaakvoerders",
+        "Bevoegdheidsgrenzen — individueel vs collegiaal (3.0.II.A)",
+        "Binding bij bevoegdheidsoverschrijding — bescherming derden te goeder trouw (3.0.II.B)",
+        "Dagelijks bestuur — afgeleide bevoegdheid",
+        "Statutaire flexibiliteit per vorm (BV vs NV vs CV)"
+      ],
+      "out": [
+        {
+          "topic": "Belangenconflict-procedure",
+          "richting": "moet-verwijzen",
+          "ref": "belangenconflict-bestuur"
+        },
+        {
+          "topic": "Bestuurdersaansprakelijkheid",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        },
+        {
+          "topic": "Algemene vergadering — orgaan-relatie",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-vergadering"
+        },
+        {
+          "topic": "Specifieke regels per ondernemingsvorm",
+          "richting": "moet-verwijzen",
+          "ref": "ondernemingsvormen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "bevoegdheidsgrenzen-bestuur",
+        "naam": {
+          "primair": "Bevoegdheidsgrenzen bestuur"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — individueel vs collegiaal · statutaire beperking · interne vs externe werking.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "binding-bevoegdheidsoverschrijding",
+        "naam": {
+          "primair": "Binding bij bevoegdheidsoverschrijding"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — bescherming van derden te goeder trouw bij ultra-vires-handelingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "dagelijks-bestuur",
+        "naam": {
+          "primair": "Dagelijks bestuur"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — afgeleide bevoegdheid voor courante handelingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "triggert",
+      "target": "belangenconflict-bestuur"
+    },
+    {
+      "type": "triggert",
+      "target": "bestuurdersaansprakelijkheid"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "algemene-vergadering"
+    }
+  ]
+}

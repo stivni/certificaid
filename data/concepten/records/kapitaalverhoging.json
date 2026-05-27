@@ -1,0 +1,145 @@
+{
+  "id": "kapitaalverhoging",
+  "naam": {
+    "primair": "Kapitaalverhoging",
+    "synoniemen": [
+      "kapitaalsuitbreiding",
+      "share capital increase",
+      "capital raise"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IV.A",
+      "3.0.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~828)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Latere verhoging van het maatschappelijk kapitaal — AV-besluit + statutenwijziging + notariële akte",
+        "Modaliteiten: in geld · in natura (child-record) · incorporatie reserves · capitalisatie schuldvordering",
+        "Toegestaan kapitaal (machtiging aan bestuursorgaan)",
+        "Meerderheidsregels: gewone vs versterkte meerderheid afhankelijk van vorm",
+        "Boekhoudkundige verwerking (rekeningen 10/11/12 · uitgiftepremie)",
+        "Impact op fiscaal gestort kapitaal"
+      ],
+      "out": [
+        {
+          "topic": "Kapitaalverhoging in natura — revisorverslag + evaluatie + onroerend-inbreng",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging-in-natura"
+        },
+        {
+          "topic": "Voorkeurrecht bestaande aandeelhouders bij verhoging in geld",
+          "richting": "moet-verwijzen",
+          "ref": "voorkeurrecht"
+        },
+        {
+          "topic": "Volstortingsplicht bij niet-volledig gestort kapitaal",
+          "richting": "moet-verwijzen",
+          "ref": "volstortingsplicht"
+        },
+        {
+          "topic": "Quasi-inbreng als anti-misbruik bij verkapte natura-inbreng",
+          "richting": "moet-verwijzen",
+          "ref": "quasi-inbreng"
+        },
+        {
+          "topic": "Tegenhanger: kapitaalvermindering",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalvermindering"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "toegestaan-kapitaal",
+        "naam": {
+          "primair": "Toegestaan kapitaal"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — statutaire machtiging aan bestuur om kapitaal te verhogen tot een grensbedrag zonder telkens AV-besluit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "bevat",
+      "target": "kapitaalverhoging-in-natura"
+    },
+    {
+      "type": "vereist",
+      "target": "voorkeurrecht"
+    },
+    {
+      "type": "vereist",
+      "target": "volstortingsplicht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalvermindering"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "quasi-inbreng"
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "algemene-vergadering"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "id": "maatschap",
+  "naam": {
+    "primair": "Maatschap",
+    "synoniemen": [
+      "société simple",
+      "simple partnership",
+      "vennootschap van gemeen recht"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.I",
+      "3.0.I.A",
+      "3.0.I.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~1012, hernoemd van maatschap-rechtsvorm)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Vennootschap zonder rechtspersoonlijkheid — meest fundamentele afwijking",
+        "Geen RPR-inschrijving, geen jaarrekening-publicatieplicht (wel KBO + UBO sinds 2019)",
+        "Fiscaal-transparant — geen VenB; inkomsten rechtstreeks belast bij vennoten (PB) volgens inbreng-aandeel",
+        "Aansprakelijkheid: vennoten persoonlijk aansprakelijk voor maatschappelijke verbintenissen (mate afhankelijk statuten)",
+        "Bestuur: vennoten besturen samen tenzij statutair anders",
+        "Populair bij vermogensplanning + estate planning"
+      ],
+      "out": [
+        {
+          "topic": "Vergelijking met andere vormen",
+          "richting": "moet-verwijzen",
+          "ref": "ondernemingsvormen"
+        },
+        {
+          "topic": "Aansprakelijkheid vennoten",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV boek 4"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "ondernemingsvormen"
+    }
+  ]
+}

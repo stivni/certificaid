@@ -1,0 +1,175 @@
+{
+  "id": "gerechtelijke-reorganisatie",
+  "naam": {
+    "primair": "Gerechtelijke reorganisatie",
+    "afkorting": "GRP",
+    "synoniemen": [
+      "GRP",
+      "réorganisation judiciaire",
+      "judicial reorganization"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.X",
+      "3.0.X.B",
+      "3.0.X.C",
+      "3.0.X.D"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1187)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Adempauze + opschorting tegen schuldeisers",
+        "3 modaliteiten: individueel akkoord · collectief akkoord · overdracht onder gerechtelijk gezag",
+        "Voorwaarden + procedure + gevolgen + termijnen",
+        "Trigger bij dreigende continuïteits-bedreiging",
+        "Cross naar bestuurdersaansprakelijkheid (verlatenheid → aansprakelijkheid)"
+      ],
+      "out": [
+        {
+          "topic": "Parent kader — WER boek XX",
+          "richting": "moet-verwijzen",
+          "ref": "insolventierecht-wer-boek-xx"
+        },
+        {
+          "topic": "Faillissement als alternatieve uitkomst",
+          "richting": "moet-verwijzen",
+          "ref": "faillissement"
+        },
+        {
+          "topic": "Bestuurdersaansprakelijkheid bij verlatenheid",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        },
+        {
+          "topic": "Reorganisatie (WVV boek 12) — verwante naam maar conceptueel verschillend (vrijwillig vs insolventie-context)",
+          "richting": "niet-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WER boek XX"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "modaliteit-individueel-akkoord",
+        "naam": {
+          "primair": "Individueel akkoord"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — afspraak met schuldeisers individueel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "modaliteit-collectief-akkoord",
+        "naam": {
+          "primair": "Collectief akkoord"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — plan goedgekeurd door meerderheid schuldeisers.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "modaliteit-overdracht-gerechtelijk-gezag",
+        "naam": {
+          "primair": "Overdracht onder gerechtelijk gezag"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — verkoop ondernemings(deel) onder controle van rechter.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "insolventierecht-wer-boek-xx"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "faillissement"
+    },
+    {
+      "type": "triggert",
+      "target": "bestuurdersaansprakelijkheid"
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "id": "kapitaalbescherming",
+  "naam": {
+    "primair": "Kapitaalbescherming",
+    "synoniemen": [
+      "vermogensbescherming",
+      "netto-actief-test",
+      "dubbele-test",
+      "uitkeringsbeperking",
+      "capital protection"
+    ]
+  },
+  "concept_type": "principe",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IV.B",
+      "3.0.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~902, OP-K.5)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Systeem-concept dat alle vermogensonttrekkings-mechanismen beheerst",
+        "Netto-actief-test (art 5:142 BV / 7:212 NV): netto-actief na uitkering >= kapitaal + onbeschikbare reserves",
+        "Uitkeringstest (BV alleen): liquiditeit min 12 maanden",
+        "Schuldeiserbescherming: wachttermijn 2 maanden bij kapitaalvermindering + verzetsrecht",
+        "Alarmbel-koppeling bij netto-actief < helft kapitaal"
+      ],
+      "out": [
+        {
+          "topic": "Kapitaalvermindering — toepassing test",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalvermindering"
+        },
+        {
+          "topic": "Inkoop eigen aandelen — toepassing test",
+          "richting": "moet-verwijzen",
+          "ref": "inkoop-eigen-aandelen"
+        },
+        {
+          "topic": "Winstuitkering — netto-actief-test als grens",
+          "richting": "moet-verwijzen",
+          "ref": "winstuitkering"
+        },
+        {
+          "topic": "Alarmbel-procedure",
+          "richting": "moet-verwijzen",
+          "ref": "alarmbel-procedure"
+        },
+        {
+          "topic": "Quasi-inbreng — anti-misbruik tegen verkapte natura-inbreng",
+          "richting": "mag-verwijzen",
+          "ref": "quasi-inbreng"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV (art 5:142 BV · art 7:212 NV)"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "netto-actief-test",
+        "naam": {
+          "primair": "Netto-actief-test"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — netto-actief na uitkering >= som van kapitaal + niet-uitkeerbare reserves (statutaire + wettelijke).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitkeringstest-bv",
+        "naam": {
+          "primair": "Uitkeringstest (BV)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — bestuursorgaan moet bij BV-uitkering een liquiditeitsprognose 12 maanden vooruit positief vinden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schuldeisersbescherming-2maand",
+        "naam": {
+          "primair": "Schuldeiserbescherming bij kapitaalvermindering"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — wachttermijn 2 maanden + verzetsrecht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "triggert",
+      "target": "alarmbel-procedure"
+    },
+    {
+      "type": "vereist",
+      "target": "kapitaalvermindering"
+    },
+    {
+      "type": "vereist",
+      "target": "winstuitkering"
+    },
+    {
+      "type": "vereist",
+      "target": "inkoop-eigen-aandelen"
+    }
+  ]
+}

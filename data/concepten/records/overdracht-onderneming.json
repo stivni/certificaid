@@ -1,0 +1,249 @@
+{
+  "id": "overdracht-onderneming",
+  "naam": {
+    "primair": "Overdracht van een onderneming",
+    "synoniemen": [
+      "bedrijfsoverdracht",
+      "M&A-transactie",
+      "exit-transactie",
+      "share deal vs asset deal"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.V",
+      "3.0.V.A",
+      "3.0.V.B",
+      "3.0.V.C",
+      "3.0.V.D",
+      "3.0.V.E",
+      "3.0.V.F",
+      "3.0.V.G",
+      "3.0.taak.2"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit overdracht-onderneming-cluster (skelet-doc regel ~570)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Overkoepelend keuzekader: hoe wordt een onderneming overgedragen?",
+        "Vergelijkingsmatrix: fiscale impact (meerwaarde verkoper vs goodwill-afschrijving koper) · btw-impact (overdracht algemeenheid art 11/18 Wbtw vs btw op activa) · registratierechten · overdracht van passiva · garanties · due diligence · personeels-overdracht (CAO 32bis)",
+        "Share-deal-aandelenovername (sub-sectie)",
+        "Asset-deal-handelsfonds-overname (sub-sectie)",
+        "Gedeelde aspecten: waardering · due-diligence · garanties + vrijwaring (R&W, escrow, MAC)"
+      ],
+      "out": [
+        {
+          "topic": "Overnameovereenkomst-SPA als contractueel instrument",
+          "richting": "moet-verwijzen",
+          "ref": "overnameovereenkomst-spa"
+        },
+        {
+          "topic": "Aandeel — object share-deal",
+          "richting": "moet-verwijzen",
+          "ref": "aandeel"
+        },
+        {
+          "topic": "Inbreng-bedrijfstak-of-algemeenheid — alternatieve structurering",
+          "richting": "moet-verwijzen",
+          "ref": "inbreng-bedrijfstak-of-algemeenheid"
+        },
+        {
+          "topic": "Aandeelhoudersovereenkomsten — pre-overdracht-context",
+          "richting": "moet-verwijzen",
+          "ref": "aandeelhoudersovereenkomsten"
+        },
+        {
+          "topic": "Reorganisatie-Σ — alternatieve herstructurerings-route",
+          "richting": "moet-verwijzen",
+          "ref": "reorganisatie"
+        },
+        {
+          "topic": "Meerwaarde aandelen VenB — verkoperskant",
+          "richting": "mag-verwijzen",
+          "ref": "meerwaarde-aandelen-venb"
+        },
+        {
+          "topic": "BTW-perspectief: overdracht algemeenheid",
+          "richting": "mag-verwijzen",
+          "ref": "overdracht-algemeenheid-btw"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "share-deal-aandelenovername",
+        "naam": {
+          "primair": "Share-deal (aandelenovername)"
+        },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — verwerving aandelen; koper verkrijgt vennootschap met al haar activa/passiva/contracten; verkoper realiseert meerwaarde aandelen.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "asset-deal-handelsfonds-overname",
+        "naam": {
+          "primair": "Asset-deal (handelsfonds-overname)"
+        },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — verwerving handelsfonds; koper kiest activa cherry-pick; verkoper realiseert meerwaarde op activa, vennootschap blijft bestaan.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "waardering-onderneming",
+        "naam": {
+          "primair": "Waardering van de onderneming"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — DCF · EBITDA-multiple · NAV · vergelijkbare transacties.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "due-diligence",
+        "naam": {
+          "primair": "Due diligence"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — financieel/fiscaal/juridisch/operationeel onderzoek.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "garanties-en-vrijwaring",
+        "naam": {
+          "primair": "Garanties en vrijwaring (R&W)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — representations & warranties, escrow, MAC-clausule.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "vereist",
+      "target": "overnameovereenkomst-spa"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "reorganisatie"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-bedrijfstak-of-algemeenheid"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aandeelhoudersovereenkomsten"
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "id": "belangenconflict-bestuur",
+  "naam": {
+    "primair": "Belangenconflict bestuur",
+    "synoniemen": [
+      "belangenconflict-procedure",
+      "conflict of interest"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.II",
+      "3.0.II.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit bestuur-en-aansprakelijkheid-cluster (skelet-doc regel ~1067)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "WVV-procedure: kennisgeving · onthouding · bijzondere verslaggeving",
+        "Toepassingen: persoonlijk strijdig belang · groepscontext · enige bestuurder (kennisgeving aan AV)",
+        "Sancties: nietigheid besluit + persoonlijke aansprakelijkheid"
+      ],
+      "out": [
+        {
+          "topic": "Bestuur — context-orgaan",
+          "richting": "moet-verwijzen",
+          "ref": "bestuur-vennootschap"
+        },
+        {
+          "topic": "Bestuurdersaansprakelijkheid bij niet-naleving",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "stap-kennisgeving",
+        "naam": {
+          "primair": "Stap 1: kennisgeving"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — bestuurder meldt belangenconflict aan medebestuurders.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-onthouding",
+        "naam": {
+          "primair": "Stap 2: onthouding"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — bestuurder met conflict mag niet deelnemen aan beraadslaging en besluit.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-bijzondere-verslaggeving",
+        "naam": {
+          "primair": "Stap 3: bijzondere verslaggeving"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — opname in notulen + jaarverslag van conflict en motivering.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "bestuur-vennootschap"
+    },
+    {
+      "type": "triggert",
+      "target": "bestuurdersaansprakelijkheid"
+    }
+  ]
+}

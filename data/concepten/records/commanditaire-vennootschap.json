@@ -1,0 +1,97 @@
+{
+  "id": "commanditaire-vennootschap",
+  "naam": {
+    "primair": "Commanditaire vennootschap",
+    "afkorting": "CommV",
+    "synoniemen": [
+      "SComm",
+      "société en commandite",
+      "limited partnership"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.I",
+      "3.0.I.A",
+      "3.0.I.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~1006, split van vof-commv-rechtsvorm — OP-VOV.F)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Personenvennootschap met 2 typen vennoten",
+        "Gecommanditeerden (beherende vennoten): volle aansprakelijkheid + actief bestuur",
+        "Commandités (stille vennoten): aansprakelijkheid beperkt tot inbreng + mogen niet besturen",
+        "Geen minimumkapitaal",
+        "Gebruikt bij familie-vermogensplanning en investeringsfondsen-structuren"
+      ],
+      "out": [
+        {
+          "topic": "Vergelijking met andere vormen",
+          "richting": "moet-verwijzen",
+          "ref": "ondernemingsvormen"
+        },
+        {
+          "topic": "Verwante vorm: VOF",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-onder-firma"
+        },
+        {
+          "topic": "Aansprakelijkheid bestuurders",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV boek 4"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "ondernemingsvormen"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vennootschap-onder-firma"
+    }
+  ]
+}

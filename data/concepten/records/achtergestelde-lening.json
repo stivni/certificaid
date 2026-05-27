@@ -1,0 +1,88 @@
+{
+  "id": "achtergestelde-lening",
+  "naam": {
+    "primair": "Achtergestelde lening",
+    "synoniemen": [
+      "subordinated loan",
+      "subordinated debt",
+      "junior debt"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "1.1.II.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit schuldfinanciering-cluster (skelet-doc regel ~595)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Lening die in rang achterstaat op andere schuldeisers bij vereffening/faillissement",
+        "Quasi-eigen vermogen — versterkt solvabiliteit zonder formele aandelen",
+        "Vaak van zaakvoerders of moedervennootschap",
+        "Interest-aftrekbaarheid + thin-cap-context"
+      ],
+      "out": [
+        {
+          "topic": "Banklening — primaire vergelijking",
+          "richting": "moet-verwijzen",
+          "ref": "banklening-investeringskrediet"
+        },
+        {
+          "topic": "Obligatielening — alternatief instrument",
+          "richting": "moet-verwijzen",
+          "ref": "obligatielening"
+        },
+        {
+          "topic": "Eigen vermogen — afbakening",
+          "richting": "moet-verwijzen",
+          "ref": "eigen-vermogen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "banklening-investeringskrediet"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "obligatielening"
+    }
+  ]
+}

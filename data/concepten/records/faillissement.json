@@ -1,0 +1,192 @@
+{
+  "id": "faillissement",
+  "naam": {
+    "primair": "Faillissement",
+    "synoniemen": [
+      "faillite",
+      "bankruptcy"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.X",
+      "3.0.X.E",
+      "3.0.X.F"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1192, NIEUW)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Voorwaarden: duurzame staking van betaling + geschokt krediet",
+        "Procedure: aangifte (door schuldenaar of dagvaarding) · vonnis · publicatie",
+        "Curator-aanstelling: beheer boedel · realisatie activa · uitkering schuldeisers volgens rangorde",
+        "Termijnen: aangifte schuldvorderingen · sluiting · doorhaling",
+        "Faillissementsaansprakelijkheid van bestuurders",
+        "Verschoonbaarheid (natuurlijk persoon)"
+      ],
+      "out": [
+        {
+          "topic": "Parent kader — WER boek XX",
+          "richting": "moet-verwijzen",
+          "ref": "insolventierecht-wer-boek-xx"
+        },
+        {
+          "topic": "Gerechtelijke-reorganisatie als alternatieve route",
+          "richting": "moet-verwijzen",
+          "ref": "gerechtelijke-reorganisatie"
+        },
+        {
+          "topic": "Bestuurdersaansprakelijkheid bij faillissement (WER XX:225)",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        },
+        {
+          "topic": "Oprichtersaansprakelijkheid bij faillissement binnen 3 jaar",
+          "richting": "moet-verwijzen",
+          "ref": "oprichtersaansprakelijkheid"
+        },
+        {
+          "topic": "Ontbinding-vereffening als gerechtelijke afhandeling",
+          "richting": "moet-verwijzen",
+          "ref": "ontbinding-en-vereffening"
+        },
+        {
+          "topic": "Rehabilitatie + verschoonbaarheid",
+          "richting": "moet-verwijzen",
+          "ref": "rehabilitatie-en-beroepsverbod"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WER boek XX"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "voorwaarde-duurzame-staking",
+        "naam": {
+          "primair": "Voorwaarde: duurzame staking van betaling + geschokt krediet"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — cumulatieve toepassingsvoorwaarden voor faillietverklaring.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "curator",
+        "naam": {
+          "primair": "Curator"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — door rechtbank aangesteld; beheert boedel · realiseert activa · keert schuldeisers uit volgens rangorde.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rangorde-schuldeisers",
+        "naam": {
+          "primair": "Rangorde schuldeisers"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — voorrechten · hypotheken · gewone schuldeisers · achtergestelden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "insolventierecht-wer-boek-xx"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gerechtelijke-reorganisatie"
+    },
+    {
+      "type": "triggert",
+      "target": "bestuurdersaansprakelijkheid"
+    },
+    {
+      "type": "triggert",
+      "target": "oprichtersaansprakelijkheid"
+    },
+    {
+      "type": "triggert",
+      "target": "ontbinding-en-vereffening"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "id": "rehabilitatie-en-beroepsverbod",
+  "naam": {
+    "primair": "Rehabilitatie en beroepsverbod",
+    "synoniemen": [
+      "rehabilitation",
+      "professional ban"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.X"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1206, -en--smell behouden tot content-uitwerking — OP-INS.A)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Rehabilitatie — natuurlijke persoon na faillissement: rechten herwinnen na bepaalde periode + voorwaarden",
+        "Beroepsverbod — verbod uit te oefenen + procedure tot opheffing"
+      ],
+      "out": [
+        {
+          "topic": "Faillissement — context-trigger (natuurlijke persoon)",
+          "richting": "moet-verwijzen",
+          "ref": "faillissement"
+        },
+        {
+          "topic": "Tuchtprocedure ITAA — beroepsverbod-mechaniek-parallel",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WER boek XX"
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "rehabilitatie",
+        "naam": {
+          "primair": "Rehabilitatie"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — natuurlijke persoon na faillissement: rechten herwinnen na termijn + voorwaarden (verschoonbaarheid).",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "beroepsverbod",
+        "naam": {
+          "primair": "Beroepsverbod"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — verbod uit te oefenen + procedure tot opheffing.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "insolventierecht-wer-boek-xx"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "faillissement"
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "id": "eigen-vermogen",
+  "naam": {
+    "primair": "Eigen vermogen",
+    "synoniemen": [
+      "equity",
+      "EV",
+      "shareholders equity"
+    ]
+  },
+  "concept_type": "balanspost",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.IV",
+      "1.1.II.J"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~891)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Balans-zijde van de financiering — som van componenten op rekeningen 10-15",
+        "Componenten: kapitaal · uitgiftepremies · herwaarderingsmeerwaarden · reserves · overgedragen-resultaat · kapitaalsubsidies",
+        "Toename via inbreng + winstreservering · afname via vermindering + uitkering + verlies",
+        "Solvabiliteit-context — verhouding eigen vermogen / vreemd vermogen",
+        "Fiscaal eigen vermogen vs boekhoudkundig eigen vermogen"
+      ],
+      "out": [
+        {
+          "topic": "Kapitaalverhoging — toename via inbreng",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging"
+        },
+        {
+          "topic": "Kapitaalvermindering — afname",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalvermindering"
+        },
+        {
+          "topic": "Winstuitkering — afname via dividend",
+          "richting": "moet-verwijzen",
+          "ref": "winstuitkering"
+        },
+        {
+          "topic": "Alarmbel bij netto-actief < helft kapitaal",
+          "richting": "moet-verwijzen",
+          "ref": "alarmbel-procedure"
+        },
+        {
+          "topic": "Winstbestemming — reserveringsstroom",
+          "richting": "moet-verwijzen",
+          "ref": "winstbestemming"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "kapitaal",
+        "naam": {
+          "primair": "Kapitaal"
+        },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 10; geplaatst vs onbeschikbaar; gestort vs niet-opgevraagd; fiscaal vs boekhoudkundig.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "uitgiftepremies",
+        "naam": {
+          "primair": "Uitgiftepremies"
+        },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 11; meerwaarde boven nominale waarde bij emissie.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "herwaarderingsmeerwaarden",
+        "naam": {
+          "primair": "Herwaarderingsmeerwaarden"
+        },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 12; onbeschikbaar tot realisatie.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "reserves",
+        "naam": {
+          "primair": "Reserves"
+        },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 13; wettelijke reserve · onbeschikbare reserve · beschikbare reserve · belastingvrije reserve.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "overgedragen-resultaat",
+        "naam": {
+          "primair": "Overgedragen resultaat"
+        },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 14; kan positief of negatief zijn.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "kapitaalsubsidies",
+        "naam": {
+          "primair": "Kapitaalsubsidies"
+        },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 15; opname winstresultaat over tijd parallel aan afschrijving subsidie-object (OP-K.3: mogelijke split naar apart Regeling-record).",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekening"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "kapitaalverhoging"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "kapitaalvermindering"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "winstuitkering"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "winstbestemming"
+    }
+  ]
+}

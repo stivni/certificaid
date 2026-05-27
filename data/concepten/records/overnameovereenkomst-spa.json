@@ -1,0 +1,89 @@
+{
+  "id": "overnameovereenkomst-spa",
+  "naam": {
+    "primair": "Overnameovereenkomst (SPA)",
+    "afkorting": "SPA",
+    "synoniemen": [
+      "share purchase agreement",
+      "asset purchase agreement",
+      "APA",
+      "koop-verkoop-overeenkomst onderneming"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.V",
+      "3.0.V.A",
+      "3.0.V.B",
+      "3.0.V.D"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit overdracht-onderneming-cluster (skelet-doc regel ~578)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Contractueel instrument dat de overdracht regelt",
+        "Partijen · voorwerp (aandelen of activa) · prijs + prijsaanpassingsmechanisme",
+        "R&W-catalogus (representations & warranties)",
+        "Voorwaarden opschortend/ontbindend · garanties · MAC-clausule",
+        "Post-closing-verplichtingen",
+        "Geschillenbeslechting"
+      ],
+      "out": [
+        {
+          "topic": "Overdracht onderneming — Σ-context",
+          "richting": "moet-verwijzen",
+          "ref": "overdracht-onderneming"
+        },
+        {
+          "topic": "Aandeelhoudersovereenkomsten — raakvlak",
+          "richting": "moet-verwijzen",
+          "ref": "aandeelhoudersovereenkomsten"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "overdracht-onderneming"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "aandeelhoudersovereenkomsten"
+    }
+  ]
+}

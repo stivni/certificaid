@@ -1,0 +1,218 @@
+{
+  "id": "aandeelhoudersovereenkomsten",
+  "naam": {
+    "primair": "Aandeelhoudersovereenkomsten",
+    "afkorting": "SHA",
+    "synoniemen": [
+      "shareholders agreement",
+      "syndicaatsovereenkomst",
+      "aandeelhouderspact"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.VI",
+      "3.0.VI.A",
+      "3.0.VI.B",
+      "3.0.VI.C",
+      "3.0.VI.D"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~868)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Contractuele overeenkomsten tussen aandeelhouders (niet statutair) over uitoefening van hun rechten",
+        "Thema's: controle · exit · beslissingsstructuur · transferbeperkingen",
+        "Vrij van vormvereisten maar onderworpen aan WVV-bepalingen + gemeenrecht",
+        "Bindingskracht: alleen ondertekenaars (niet de vennootschap, tenzij statutair verankerd)",
+        "Sub-secties: stand-stillclausule · voorkooprecht · exit-clausule · board-vertegenwoordiging · controle-verwerving"
+      ],
+      "out": [
+        {
+          "topic": "Aandeel als onderliggend object",
+          "richting": "moet-verwijzen",
+          "ref": "aandeel"
+        },
+        {
+          "topic": "Algemene vergadering — formeel orgaan",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-vergadering"
+        },
+        {
+          "topic": "Overdracht onderneming — share-deal-context",
+          "richting": "moet-verwijzen",
+          "ref": "overdracht-onderneming"
+        },
+        {
+          "topic": "Vennootschapsgeschillen — afdwingbaarheid + sancties bij schending",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschapsgeschillen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "stand-stillclausule",
+        "naam": {
+          "primair": "Stand-stillclausule"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — overdrachtbeperking gedurende een bepaalde termijn (lock-up).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorkooprecht-sha",
+        "naam": {
+          "primair": "Voorkooprecht (SHA)",
+          "synoniemen": [
+            "right of first refusal",
+            "ROFR"
+          ]
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — contractueel voorrang bij verkoop aan derden; niet hetzelfde als wettelijk voorkeurrecht bij kapitaalverhoging.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "exit-clausule",
+        "naam": {
+          "primair": "Exit-clausule"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — drag-along / tag-along / put-call-opties bij uittreding van aandeelhouder.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "board-vertegenwoordiging",
+        "naam": {
+          "primair": "Board-vertegenwoordiging"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — waarborg op zetels in de raad van bestuur via SHA.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "controle-verwerving",
+        "naam": {
+          "primair": "Controle-verwerving (stemcoördinatie)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — stemgedrag-coördinatie / syndicaatsovereenkomst.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "vereist",
+      "target": "aandeel"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "overnameovereenkomst-spa"
+    }
+  ]
+}

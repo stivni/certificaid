@@ -1,0 +1,172 @@
+{
+  "id": "inbreng-bedrijfstak-of-algemeenheid",
+  "naam": {
+    "primair": "Inbreng van bedrijfstak of algemeenheid",
+    "synoniemen": [
+      "transfer of going concern",
+      "TOGC",
+      "TOGS",
+      "partial demerger by contribution",
+      "inbreng-bedrijfstak",
+      "inbreng-algemeenheid"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IV.A",
+      "3.0.taak.2",
+      "2.3.III.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~844, primair-thema reorganisatie)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Twee verwante modaliteiten in 1 record: inbreng-bedrijfstak (zelfstandig functionerend onderdeel) vs inbreng-algemeenheid (volledig vermogen)",
+        "Inbreng tegen uitgifte van aandelen in de ontvangende vennootschap",
+        "Fiscaal-neutraliteits-regime VenB — voorwaarden vrijstelling realisatie meerwaarden",
+        "BTW-vrijstelling overdracht algemeenheid (art 11/18 Wbtw)",
+        "Registratierechten-vrijstelling",
+        "Revisor-verslag op de inbreng"
+      ],
+      "out": [
+        {
+          "topic": "Algemene kapitaalverhoging-procedure als modaliteit",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging"
+        },
+        {
+          "topic": "Fiscale neutraliteit bij fusie/splitsing — verwante regimes",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-fusie-splitsing"
+        },
+        {
+          "topic": "BTW-perspectief overdracht algemeenheid",
+          "richting": "moet-verwijzen",
+          "ref": "overdracht-algemeenheid-btw"
+        },
+        {
+          "topic": "Fusie als alternatieve reorganisatie",
+          "richting": "moet-verwijzen",
+          "ref": "fusie"
+        },
+        {
+          "topic": "Splitsing — partiële splitsing als verwant",
+          "richting": "moet-verwijzen",
+          "ref": "splitsing"
+        },
+        {
+          "topic": "Overdracht-onderneming als alternatieve route (share-deal/asset-deal)",
+          "richting": "moet-verwijzen",
+          "ref": "overdracht-onderneming"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "inbreng-bedrijfstak",
+        "naam": {
+          "primair": "Inbreng van bedrijfstak"
+        },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — zelfstandig functionerend onderdeel van een vennootschap wordt ingebracht in een andere vennootschap tegen uitgifte van aandelen.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "inbreng-algemeenheid",
+        "naam": {
+          "primair": "Inbreng van algemeenheid"
+        },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — volledig vermogen van een vennootschap wordt ingebracht in een andere vennootschap (volledig ipv onderdeel).",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "kapitaalverhoging"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fusie"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "splitsing"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "overdracht-onderneming"
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-fusie-splitsing"
+    }
+  ]
+}

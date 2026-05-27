@@ -1,0 +1,240 @@
+{
+  "id": "bestuurdersaansprakelijkheid",
+  "naam": {
+    "primair": "Bestuurdersaansprakelijkheid",
+    "synoniemen": [
+      "director liability",
+      "aansprakelijkheid bestuurders"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "3.0.VII",
+      "3.0.VII.A",
+      "3.0.VII.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit bestuur-en-aansprakelijkheid-cluster (skelet-doc regel ~1077, split van aansprakelijkheid-oprichters-bestuurders — OP-BA.A)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "3 sporen: contractueel (vennootschap) · buitencontractueel (derden) · strafrechtelijk",
+        "Kennelijk grove fout · kennelijk onbehoorlijk bestuur · schending wet/statuten",
+        "Faillissementsaansprakelijkheid (WER XX:225) — kennelijk onbehoorlijk bestuur dat bijdroeg aan faillissement",
+        "Wettelijke cap (aansprakelijkheidsbeperking sinds WVV — bedragen volgens omzet/balanstotaal)",
+        "Kwijting (3.0.VII.B) — reikwijdte: alleen bekende feiten",
+        "Ontslag + bekendmaking — bestuurder blijft aansprakelijk tot publicatie ontslag"
+      ],
+      "out": [
+        {
+          "topic": "Oprichtersaansprakelijkheid — verwant maar onderscheiden",
+          "richting": "moet-verwijzen",
+          "ref": "oprichtersaansprakelijkheid"
+        },
+        {
+          "topic": "Bestuur — context-orgaan",
+          "richting": "moet-verwijzen",
+          "ref": "bestuur-vennootschap"
+        },
+        {
+          "topic": "Algemene vergadering — kwijting-besluit",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-vergadering"
+        },
+        {
+          "topic": "Faillissement als context voor faillissementsaansprakelijkheid",
+          "richting": "moet-verwijzen",
+          "ref": "faillissement"
+        },
+        {
+          "topic": "Alarmbel-procedure — niet-naleving als aansprakelijkheidsgrond",
+          "richting": "moet-verwijzen",
+          "ref": "alarmbel-procedure"
+        },
+        {
+          "topic": "Beroepsaansprakelijkheid accountant — parallel 3-sporen-concept",
+          "richting": "mag-verwijzen",
+          "ref": "beroepsaansprakelijkheid"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV + WER boek XX"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "drie-sporen-aansprakelijkheid",
+        "naam": {
+          "primair": "3 sporen van aansprakelijkheid"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — contractueel (jegens vennootschap) · buitencontractueel (jegens derden) · strafrechtelijk.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "faillissementsaansprakelijkheid",
+        "naam": {
+          "primair": "Faillissementsaansprakelijkheid (WER XX:225)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — kennelijk onbehoorlijk bestuur dat bijdroeg aan faillissement → schadevergoeding aan boedel.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wettelijke-cap",
+        "naam": {
+          "primair": "Wettelijke cap op aansprakelijkheid"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — bedragen volgens omzet/balanstotaal · sinds WVV.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kwijting",
+        "naam": {
+          "primair": "Kwijting"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — reikwijdte: alleen bekende feiten; geen wisselgeld voor toekomstige claims (3.0.VII.B).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ontslag-bekendmaking",
+        "naam": {
+          "primair": "Ontslag-bekendmaking"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — bestuurder blijft aansprakelijk tot publicatie ontslag.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "oprichtersaansprakelijkheid"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "bestuur-vennootschap"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "faillissement"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "algemene-vergadering"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "beroepsaansprakelijkheid"
+    }
+  ]
+}

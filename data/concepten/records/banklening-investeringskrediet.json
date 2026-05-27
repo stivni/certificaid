@@ -1,0 +1,97 @@
+{
+  "id": "banklening-investeringskrediet",
+  "naam": {
+    "primair": "Banklening (investeringskrediet)",
+    "synoniemen": [
+      "bank loan",
+      "investment credit",
+      "ondernemingskrediet"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "1.1.II.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit schuldfinanciering-cluster (skelet-doc regel ~594)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Schuld-instrument: kredietovereenkomst met bank voor investerings-financiering",
+        "Aflossingsschema (bullet vs amortizing) + intrestvoet (vast vs variabel)",
+        "Waarborgen + convenanten",
+        "Boekhoudkundige verwerking (rekening 17 langlopend / 43 kortlopend deel)",
+        "Fiscale aftrekbaarheid van interest"
+      ],
+      "out": [
+        {
+          "topic": "Eigen vermogen — afbakening vreemd vs eigen vermogen",
+          "richting": "moet-verwijzen",
+          "ref": "eigen-vermogen"
+        },
+        {
+          "topic": "Obligatielening — alternatief financieringsinstrument",
+          "richting": "moet-verwijzen",
+          "ref": "obligatielening"
+        },
+        {
+          "topic": "Achtergestelde lening — variant met lagere rang",
+          "richting": "moet-verwijzen",
+          "ref": "achtergestelde-lening"
+        },
+        {
+          "topic": "Leasing — alternatieve route voor activa-financiering",
+          "richting": "mag-verwijzen",
+          "ref": "leasing"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "obligatielening"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "achtergestelde-lening"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "leasing"
+    }
+  ]
+}

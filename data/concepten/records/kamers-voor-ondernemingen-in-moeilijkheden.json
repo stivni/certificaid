@@ -1,0 +1,96 @@
+{
+  "id": "kamers-voor-ondernemingen-in-moeilijkheden",
+  "naam": {
+    "primair": "Kamers voor ondernemingen in moeilijkheden",
+    "afkorting": "KOM",
+    "synoniemen": [
+      "chambres des entreprises en difficulté",
+      "KOM",
+      "CED"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling",
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.IX",
+      "3.0.X",
+      "3.0.X.A"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1179)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Vroegtijdige opsporing via signalen (CAW: ontoereikende continuïteit · niet-betaalde RSZ/BTW · ...)",
+        "Rol gecertificeerd-accountant: meldingsplicht bij vaststellingen",
+        "Confidentiële bemiddeling vóór formele procedure"
+      ],
+      "out": [
+        {
+          "topic": "Parent kader — WER boek XX",
+          "richting": "moet-verwijzen",
+          "ref": "insolventierecht-wer-boek-xx"
+        },
+        {
+          "topic": "Ondernemingsbemiddelaar — opvolg-instrument",
+          "richting": "moet-verwijzen",
+          "ref": "ondernemingsbemiddelaar"
+        },
+        {
+          "topic": "AML-meldingssystematiek — vergelijking voor accountant-meldingsplicht",
+          "richting": "mag-verwijzen",
+          "ref": "antiwitwaspreventie"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WER boek XX"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "insolventierecht-wer-boek-xx"
+    },
+    {
+      "type": "triggert",
+      "target": "ondernemingsbemiddelaar"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "kapitaalverhoging-in-natura",
+  "naam": {
+    "primair": "Kapitaalverhoging in natura",
+    "synoniemen": [
+      "inbreng in natura",
+      "non-cash capital increase",
+      "contribution in kind"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IV.A"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~833)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Kapitaalverhoging waarbij de inbreng niet uit geld bestaat — goederen · vorderingen · aandelen",
+        "Revisorverslag-verplichting bij BV/NV — evaluatie-methodes + waarderingsplafond",
+        "Risico van overwaardering — revisor-controle als anti-misbruik",
+        "Latente meerwaarden — fiscaal realisatiemoment bij inbreng vanuit eigen patrimonium",
+        "Inbreng-onroerend (sub-sectie) — registratierechten-vrijstelling art 115bis Wb Reg · gemengde betaling · btw-impact nieuw gebouw"
+      ],
+      "out": [
+        {
+          "topic": "Algemene kapitaalverhoging-procedure",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging"
+        },
+        {
+          "topic": "Quasi-inbreng als anti-misbruik tegen verkapte natura-inbreng kort na oprichting",
+          "richting": "moet-verwijzen",
+          "ref": "quasi-inbreng"
+        },
+        {
+          "topic": "Inbreng-bedrijfstak-of-algemeenheid als alternatieve structurering",
+          "richting": "moet-verwijzen",
+          "ref": "inbreng-bedrijfstak-of-algemeenheid"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "inbreng-onroerend",
+        "naam": {
+          "primair": "Inbreng van onroerend goed"
+        },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — registratierechten 0% bij inbreng tegen aandelen (art 115bis Wb Reg) · natuurlijke persoon naar vennootschap · gemengde betaling pro-rata · btw-impact bij nieuw gebouw · revisor-evaluatie methodologisch zwaarder.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "kapitaalverhoging"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "quasi-inbreng"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-bedrijfstak-of-algemeenheid"
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "bedrijfsrevisor"
+    }
+  ]
+}

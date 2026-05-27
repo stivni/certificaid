@@ -1,0 +1,222 @@
+{
+  "id": "vennootschapsgeschillen",
+  "naam": {
+    "primair": "Vennootschapsgeschillen",
+    "synoniemen": [
+      "corporate disputes",
+      "vennootschapsconflicten"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "3.0.VIII",
+      "3.0.VIII.A",
+      "3.0.VIII.B",
+      "3.0.VIII.C",
+      "3.0.VIII.D"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit vennootschapsgeschillen-cluster (skelet-doc regel ~1129)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Types geschillen: deadlocks aandeelhouders · bestuurder-conflicten · besluit-betwistingen (3.0.VIII)",
+        "Contractuele preventie: geschillenbedingen · mediation-clausules · arbitrage (3.0.VIII.A)",
+        "Bewijswaarde moderne communicatie: e-mails · online vergaderingen · opnames; authenticiteit + integriteit + verkrijging (3.0.VIII.B)",
+        "Minnelijke schikking: duidelijkheid aanspraken · fiscale gevolgen · vertrouwelijkheid · rechtsgeldigheid partijen (3.0.VIII.C)",
+        "Nietigheid besluiten: gronden (procedurefouten · machtsmisbruik · strijd statuten/wet) + gevolgen (3.0.VIII.D)"
+      ],
+      "out": [
+        {
+          "topic": "AV-besluiten — nietigheid (VIII.D)",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-vergadering"
+        },
+        {
+          "topic": "RvB-besluiten + bestuurder-conflicten",
+          "richting": "moet-verwijzen",
+          "ref": "bestuur-vennootschap"
+        },
+        {
+          "topic": "Aandeelhoudersovereenkomsten — geschillenbedingen",
+          "richting": "moet-verwijzen",
+          "ref": "aandeelhoudersovereenkomsten"
+        },
+        {
+          "topic": "Beroepsgeheim bij geschillen",
+          "richting": "mag-verwijzen",
+          "ref": "beroepsgeheim"
+        },
+        {
+          "topic": "Onafhankelijkheid + conflict-of-interest accountant",
+          "richting": "mag-verwijzen",
+          "ref": "onafhankelijkheid"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "types-geschillen",
+        "naam": {
+          "primair": "Types vennootschapsgeschillen"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — deadlocks aandeelhouders · bestuurder-conflicten · besluit-betwistingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "contractuele-preventie",
+        "naam": {
+          "primair": "Contractuele preventie van geschillen"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — geschillenbedingen · mediation-clausules · arbitrage in SHA + statuten.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijswaarde-moderne-communicatie",
+        "naam": {
+          "primair": "Bewijswaarde moderne communicatie"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — e-mails · online vergaderingen · opnames; authenticiteit + integriteit + verkrijging.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "minnelijke-schikking",
+        "naam": {
+          "primair": "Minnelijke schikking"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — duidelijkheid aanspraken · fiscale gevolgen · vertrouwelijkheid · rechtsgeldigheid partijen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "nietigheid-besluiten",
+        "naam": {
+          "primair": "Nietigheid van besluiten"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — gronden (procedurefouten · machtsmisbruik · strijd statuten/wet) + gevolgen (retroactief vs ex-nunc).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "algemene-vergadering"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "bestuur-vennootschap"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "aandeelhoudersovereenkomsten"
+    }
+  ]
+}

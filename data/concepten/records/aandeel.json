@@ -1,0 +1,135 @@
+{
+  "id": "aandeel",
+  "naam": {
+    "primair": "Aandeel",
+    "synoniemen": [
+      "deelbewijs",
+      "share",
+      "equity instrument"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.IV",
+      "3.0.IV.A",
+      "3.0.IV.D"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~885)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Deelbewijs in het kapitaal van een vennootschap",
+        "Categorieën: gewone · preferente · met meervoudig stemrecht · zonder stemrecht",
+        "Overdraagbaarheid (vrij vs beperkt afhankelijk vorm)",
+        "Aandeelhoudersregister",
+        "Aandeelhouders-rechten en -plichten (sub-sectie): voorkeurrecht · volstortingsplicht · stemrecht · dividend-recht",
+        "Waarde-aspecten: nominale waarde · fractiewaarde · marktwaarde",
+        "Opbrengsten: dividend · meerwaarden bij overdracht"
+      ],
+      "out": [
+        {
+          "topic": "Eigen-vermogen — aandeel als component van kapitaal",
+          "richting": "moet-verwijzen",
+          "ref": "eigen-vermogen"
+        },
+        {
+          "topic": "Dividend-uitkering",
+          "richting": "moet-verwijzen",
+          "ref": "winstuitkering"
+        },
+        {
+          "topic": "Voorkeurrecht bij nieuwe uitgifte",
+          "richting": "moet-verwijzen",
+          "ref": "voorkeurrecht"
+        },
+        {
+          "topic": "Volstortingsplicht aandeelhouder",
+          "richting": "moet-verwijzen",
+          "ref": "volstortingsplicht"
+        },
+        {
+          "topic": "Kapitaalverhoging als emissie-moment",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging"
+        },
+        {
+          "topic": "Fiscale meerwaarde aandelen — VenB-perspectief vrijstellingsregime",
+          "richting": "mag-verwijzen",
+          "ref": "meerwaarde-aandelen-venb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "aandeelhouders-rechten-en-plichten",
+        "naam": {
+          "primair": "Aandeelhouders-rechten en -plichten"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — overzicht: stemrecht · dividendrecht · voorkeurrecht (cross) · volstortingsplicht (cross) · informatierecht · uittreding (CV).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "eigen-vermogen"
+    },
+    {
+      "type": "triggert",
+      "target": "winstuitkering"
+    },
+    {
+      "type": "vereist",
+      "target": "volstortingsplicht"
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "inkoop-eigen-aandelen",
+  "naam": {
+    "primair": "Inkoop van eigen aandelen",
+    "synoniemen": [
+      "terugkoop eigen aandelen",
+      "share buyback",
+      "share repurchase"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IV.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~856)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Vennootschap koopt haar eigen aandelen terug van aandeelhouders",
+        "AV-toestemming (versterkte meerderheid)",
+        "Max-grens (20% uitstaand kapitaal NV; BV anders)",
+        "Netto-actief-test + uitkeringstest (BV)",
+        "Ingekochte aandelen → onbeschikbare reserve of vernietiging",
+        "Fiscale herkwalificatie als dividend bij niet-naleving voorwaarden",
+        "Gebruik als exit-mechanisme aandeelhouders + alternatief voor dividend"
+      ],
+      "out": [
+        {
+          "topic": "Kapitaalbescherming — netto-actief-test + uitkeringstest",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalbescherming"
+        },
+        {
+          "topic": "Winstuitkering — alternatief vorm + RV-herkwalificatie",
+          "richting": "moet-verwijzen",
+          "ref": "winstuitkering"
+        },
+        {
+          "topic": "Aandeel als onderliggend object",
+          "richting": "moet-verwijzen",
+          "ref": "aandeel"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "kapitaalstructuur"
+    },
+    {
+      "type": "vereist",
+      "target": "kapitaalbescherming"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "winstuitkering"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "algemene-vergadering"
+    }
+  ]
+}

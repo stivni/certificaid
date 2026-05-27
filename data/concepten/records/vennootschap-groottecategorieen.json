@@ -1,0 +1,153 @@
+{
+  "id": "vennootschap-groottecategorieen",
+  "naam": {
+    "primair": "Grootte-categorieën van vennootschappen",
+    "synoniemen": [
+      "KMO-criteria",
+      "grootte-criteria vennootschap",
+      "art 1:24 WVV-drempels",
+      "klein vs middelgroot vs groot",
+      "micro-onderneming"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.I",
+      "1.1.II.A"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~1024, hernoemd van groottecategorie-vennootschap, OP-VOV.B)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "4 grootte-categorieën onder WVV: micro · klein · middelgroot · groot",
+        "Drempels balans/omzet/personeel (art 1:24-1:27 WVV) met 2-jaar-overschrijdingsregel",
+        "Bij groepen: drempels op geconsolideerd niveau",
+        "Cascade van gevolgen: jaarrekening-schema · commissaris-verplicht · consolidatieplicht · publicatieformaliteiten · KMO-controlenorm-toepasselijkheid",
+        "Onderscheid met fiscale KMO-criteria (art 1:24-1:25 WIB) — niet identiek"
+      ],
+      "out": [
+        {
+          "topic": "Parent — ondernemingsvormen",
+          "richting": "moet-verwijzen",
+          "ref": "ondernemingsvormen"
+        },
+        {
+          "topic": "Jaarrekening-schema-keuze (volledig · verkort · micro)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekening"
+        },
+        {
+          "topic": "KMO-tarief vennootschapsbelasting — aparte fiscale criteria",
+          "richting": "moet-verwijzen",
+          "ref": "kmo-tarief-vennootschapsbelasting"
+        },
+        {
+          "topic": "Wettelijke controle door commissaris (trigger via grootte)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV art 1:24-1:27"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "drempels-art-1-24",
+        "naam": {
+          "primair": "Drempels art 1:24-1:27 WVV"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — kwantitatieve drempels op balanstotaal · omzet · personeelsbestand voor micro · klein · middelgroot · groot.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "twee-jaar-overschrijdingsregel",
+        "naam": {
+          "primair": "Twee-jaar-overschrijdingsregel"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — wijziging van categorie pas na 2 opeenvolgende boekjaren waarin drempel wordt overschreden/onderschreden.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "ondernemingsvormen"
+    },
+    {
+      "type": "triggert",
+      "target": "jaarrekening"
+    },
+    {
+      "type": "triggert",
+      "target": "controleopdracht"
+    }
+  ]
+}

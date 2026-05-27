@@ -1,0 +1,96 @@
+{
+  "id": "vereniging-zonder-winstoogmerk",
+  "naam": {
+    "primair": "Vereniging zonder winstoogmerk",
+    "afkorting": "VZW",
+    "synoniemen": [
+      "ASBL",
+      "association sans but lucratif",
+      "non-profit organization",
+      "NPO"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.I",
+      "3.0.I.A",
+      "3.0.I.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~1018, hernoemd van vzw-rechtsvorm)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Rechtspersoon zonder winstoogmerk — winst mag bestaan maar niet uitkeren aan leden",
+        "WVV boek 9-11 (sinds 2019; vroeger wet 27 juni 1921)",
+        "Bestuur: AV van leden + bestuursorgaan (min 3 bestuurders, of 2 indien max 3 leden)",
+        "Doelstelling: niet-economisch of belangeloos; secundaire economische activiteiten mogen mits ondergeschikt",
+        "Aansprakelijkheid: leden in principe niet persoonlijk; bestuurders bij fout-aansprakelijkheid",
+        "Jaarrekening: vereenvoudigd of dubbel naargelang grootte (eigen drempels art 3:47 WVV)"
+      ],
+      "out": [
+        {
+          "topic": "Vergelijking met andere vormen",
+          "richting": "moet-verwijzen",
+          "ref": "ondernemingsvormen"
+        },
+        {
+          "topic": "Grootte-categorieën VZW",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        },
+        {
+          "topic": "Aansprakelijkheid bestuurders VZW",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019",
+        "wettelijke_basis": "WVV boek 9-11"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "ondernemingsvormen"
+    }
+  ]
+}

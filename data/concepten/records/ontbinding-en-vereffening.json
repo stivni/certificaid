@@ -1,0 +1,162 @@
+{
+  "id": "ontbinding-en-vereffening",
+  "naam": {
+    "primair": "Ontbinding en vereffening",
+    "synoniemen": [
+      "dissolution and liquidation",
+      "vereffeningsprocedure"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IX",
+      "3.0.IX.A",
+      "3.0.IX.B",
+      "3.0.taak.3"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1199, breder dan alleen insolventie)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Vrijwillige ontbinding (AV-besluit, WVV) vs gerechtelijke vereffening (WER boek XX)",
+        "Vereffenaar-aanstelling (statutair of door AV; bij gerechtelijke vereffening door rechtbank)",
+        "Procedure: vereffeningsbesluit → staat van actief en passief → realisatie activa → betaling schuldeisers → saldo aan aandeelhouders → afsluiting + doorhaling",
+        "Boekenstaat bij ontbinding (sub-sectie · cross bijzondere-mandaten — staat A/P + continuïteits-evaluatie door accountant)",
+        "Vereffenaarsaansprakelijkheid (3.0.IX.B — plichten + sancties)",
+        "Context: bij gezonde venn (uitkering aandeelhouders) vs insolvente venn (overgang naar faillissement)"
+      ],
+      "out": [
+        {
+          "topic": "Parent kader — WER boek XX (voor gerechtelijke vereffening)",
+          "richting": "moet-verwijzen",
+          "ref": "insolventierecht-wer-boek-xx"
+        },
+        {
+          "topic": "Faillissement als alternatieve route bij insolventie",
+          "richting": "moet-verwijzen",
+          "ref": "faillissement"
+        },
+        {
+          "topic": "AV-besluit als trigger-mechanisme",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-vergadering"
+        },
+        {
+          "topic": "Bijzondere mandaten — boekenstaat bij ontbinding als type",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-mandaten"
+        },
+        {
+          "topic": "Rehabilitatie + beroepsverbod (cross natuurlijk persoon)",
+          "richting": "mag-verwijzen",
+          "ref": "rehabilitatie-en-beroepsverbod"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV boek 2 titel 8 + WER boek XX"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "boekenstaat-bij-ontbinding",
+        "naam": {
+          "primair": "Boekenstaat bij ontbinding"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — staat van actief en passief + continuïteits-evaluatie door accountant; categorisch bijzonder mandaat (ITAA-norm).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vereffenaarsaansprakelijkheid",
+        "naam": {
+          "primair": "Vereffenaarsaansprakelijkheid"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — plichten + sancties (3.0.IX.B).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "faillissement"
+    },
+    {
+      "type": "vereist",
+      "target": "algemene-vergadering"
+    },
+    {
+      "type": "triggert",
+      "target": "bijzondere-mandaten"
+    }
+  ]
+}

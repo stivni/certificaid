@@ -1,0 +1,94 @@
+{
+  "id": "volstortingsplicht",
+  "naam": {
+    "primair": "Volstortingsplicht",
+    "synoniemen": [
+      "volstortingsverplichting",
+      "paying-up obligation"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IV.A",
+      "3.0.I.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~880)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Verplichting aandeelhouder om toegezegde inbreng effectief te volstorten",
+        "Timing per vorm: BV (vrij door statuten) · NV (min 25% bij inschrijving)",
+        "Opvraagbaarheid door bestuur",
+        "Sancties bij niet-volstorting: intrest · verlies stemrecht · gedwongen verkoop aandelen",
+        "Opvraagbaar-kapitaal-positie (rekening 101)"
+      ],
+      "out": [
+        {
+          "topic": "Aandeel als onderliggend object",
+          "richting": "moet-verwijzen",
+          "ref": "aandeel"
+        },
+        {
+          "topic": "Kapitaalverhoging als trigger-moment",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging"
+        },
+        {
+          "topic": "Oprichting van een vennootschap als initieel trigger-moment",
+          "richting": "moet-verwijzen",
+          "ref": "oprichting-vennootschap"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "vereist",
+      "target": "aandeel"
+    }
+  ]
+}

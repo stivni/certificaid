@@ -1,0 +1,166 @@
+{
+  "id": "oprichting-vennootschap",
+  "naam": {
+    "primair": "Oprichting van een vennootschap",
+    "synoniemen": [
+      "vennootschapsoprichting",
+      "incorporation",
+      "start-up vennootschap"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.I.C",
+      "3.0.taak.1"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~822)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Tot-stand-komen van een vennootschap als rechtspersoon — keuze vorm + statuten + notariële akte",
+        "Initiële inbreng (in geld of in natura) — modaliteiten · revisorverslag bij natura · min-storting per vorm · volstortingseisen (sub-sectie #initiele-inbreng)",
+        "RPR-inschrijving + bestuursorgaan-aanstelling + btw-identificatie",
+        "Financieel-plan-verplichting bij BV/NV/CV",
+        "Oprichtingskosten — activering vs direct ten laste · CBN-advies · afschrijving (sub-sectie #oprichtingskosten)"
+      ],
+      "out": [
+        {
+          "topic": "Keuze rechtsvorm + vergelijking vormen (BV/NV/CV/VOF/CommV/maatschap/VZW)",
+          "richting": "moet-verwijzen",
+          "ref": "ondernemingsvormen"
+        },
+        {
+          "topic": "Financieel-plan inhoud + opmaak",
+          "richting": "moet-verwijzen",
+          "ref": "financieel-plan"
+        },
+        {
+          "topic": "Latere kapitaalverhoging — modaliteiten",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalverhoging"
+        },
+        {
+          "topic": "Oprichtersaansprakelijkheid bij faillissement binnen 3 jaar",
+          "richting": "moet-verwijzen",
+          "ref": "oprichtersaansprakelijkheid"
+        },
+        {
+          "topic": "Anti-misbruik bij latere transacties met oprichters (quasi-inbreng)",
+          "richting": "moet-verwijzen",
+          "ref": "quasi-inbreng"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "oprichtingskosten",
+        "naam": {
+          "primair": "Oprichtingskosten"
+        },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — notariskosten · RPR · publicatiekosten · activering (rekening 20) vs direct ten laste · CBN-advies 2011/9 · afschrijving max 5 jaar.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "initiele-inbreng",
+        "naam": {
+          "primair": "Initiële inbreng bij oprichting"
+        },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — modaliteiten (geld/natura) · revisorverslag bij natura · min-storting bij authentieke akte (BV/NV) · volstortings-eisen · cross-relatie naar kapitaalverhoging-in-natura.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "vereist",
+      "target": "ondernemingsvormen"
+    },
+    {
+      "type": "vereist",
+      "target": "financieel-plan"
+    },
+    {
+      "type": "triggert",
+      "target": "oprichtersaansprakelijkheid"
+    },
+    {
+      "type": "triggert",
+      "target": "quasi-inbreng"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalverhoging"
+    }
+  ]
+}

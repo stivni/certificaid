@@ -1,0 +1,98 @@
+{
+  "id": "leasing",
+  "naam": {
+    "primair": "Leasing",
+    "synoniemen": [
+      "lease",
+      "huur-koop",
+      "lease arrangement"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "1.1.II.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit schuldfinanciering-cluster (skelet-doc regel ~597, primair-thema-keuze schuldfinanciering)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Financiering van vast actief via huur-koop-structuur",
+        "Kwalificatie-Regeling BE-GAAP: lease > 50% looptijd actief + koopoptie + ...",
+        "Kwalificatie IFRS 16: alle lease op balans behalve short-term/low-value",
+        "Twee modaliteiten: financiële leasing vs operationele leasing (zie sub-concepten)",
+        "Bedrijfswagen-context: cross naar autokosten (mobiliteit-thema)"
+      ],
+      "out": [
+        {
+          "topic": "Financiële leasing (specifieke modaliteit)",
+          "richting": "moet-verwijzen",
+          "ref": "financiele-leasing"
+        },
+        {
+          "topic": "Operationele leasing (specifieke modaliteit)",
+          "richting": "moet-verwijzen",
+          "ref": "operationele-leasing"
+        },
+        {
+          "topic": "Banklening — primaire vergelijking (eigendoms-financiering)",
+          "richting": "moet-verwijzen",
+          "ref": "banklening-investeringskrediet"
+        },
+        {
+          "topic": "Autokosten — mobiliteit-perspectief op leasing-wagen",
+          "richting": "mag-verwijzen",
+          "ref": "autokosten"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "financiele-leasing"
+    },
+    {
+      "type": "bevat",
+      "target": "operationele-leasing"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "banklening-investeringskrediet"
+    }
+  ]
+}

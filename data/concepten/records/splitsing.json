@@ -1,0 +1,185 @@
+{
+  "id": "splitsing",
+  "naam": {
+    "primair": "Splitsing",
+    "synoniemen": [
+      "demerger",
+      "split-up",
+      "partiële splitsing"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.taak.2",
+      "3.0.taak.3",
+      "2.3.III.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit reorganisatie-cluster (skelet-doc regel ~1351)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "3 modaliteiten: zuivere splitsing (oude venn verdwijnt → 2 nieuwe) · door overneming · partiële splitsing (deel-vermogen naar bestaande/nieuwe venn)",
+        "Partiële splitsing onderscheid met inbreng-bedrijfstak: rechts-opvolging vs contractuele inbreng",
+        "Revisor-verslag op de splitsing (bijzonder mandaat)"
+      ],
+      "out": [
+        {
+          "topic": "Reorganisatie-Σ als parent",
+          "richting": "moet-verwijzen",
+          "ref": "reorganisatie"
+        },
+        {
+          "topic": "Fusie als spiegel-verrichting",
+          "richting": "moet-verwijzen",
+          "ref": "fusie"
+        },
+        {
+          "topic": "Fiscale-fusie-splitsing-regime",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-fusie-splitsing"
+        },
+        {
+          "topic": "Inbreng-bedrijfstak vs partiële splitsing — onderscheid",
+          "richting": "moet-verwijzen",
+          "ref": "inbreng-bedrijfstak-of-algemeenheid"
+        },
+        {
+          "topic": "Bijzondere mandaten — revisor-verslag",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-mandaten"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV boek 12"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "zuivere-splitsing",
+        "naam": {
+          "primair": "Zuivere splitsing"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — oude venn verdwijnt → vermogen naar 2 of meer nieuwe venn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "splitsing-door-overneming",
+        "naam": {
+          "primair": "Splitsing door overneming"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — vermogen naar bestaande venn.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "partiele-splitsing",
+        "naam": {
+          "primair": "Partiële splitsing"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — splitsende venn blijft bestaan; alleen deel-vermogen wordt overgedragen aan bestaande of nieuwe venn. OP-RE.A: mogelijk eigen record bij content-zwaarte (cross naar inbreng-bedrijfstak).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "reorganisatie"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fusie"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-bedrijfstak-of-algemeenheid"
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-fusie-splitsing"
+    },
+    {
+      "type": "vereist",
+      "target": "bijzondere-mandaten"
+    }
+  ]
+}

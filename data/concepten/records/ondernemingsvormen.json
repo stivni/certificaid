@@ -1,0 +1,212 @@
+{
+  "id": "ondernemingsvormen",
+  "naam": {
+    "primair": "Ondernemingsvormen",
+    "synoniemen": [
+      "vennootschapsvormen",
+      "rechtsvormen",
+      "juridische ondernemingsvormen",
+      "business entity types",
+      "company forms"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.I",
+      "3.0.I.A",
+      "3.0.I.B",
+      "3.0.I.C",
+      "3.0.taak.1"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~976, Σ-hoofdrecord, absorbeert vennootschapsrechtelijk-kader-wvv + keuze-rechtsvorm-fiscaal)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Overkoepelend record voor keuze + vergelijking van rechtsvormen",
+        "Vergelijkingsmatrix 5 dimensies: kapitaal · aansprakelijkheid · beheer · winstdeling · fiscale-aanknoping",
+        "Sub-sectie #wanneer-welke-vorm (3.0.I.C) — keuze-criteria stagiair",
+        "Sub-sectie #wvv-systematiek — WVV boekstructuur (boek 1 algemeen · 2-7 vennootschappen · 9-11 verenigingen) + relatie met vroegere wetboeken",
+        "Sub-sectie #fiscale-keuze — eenmanszaak/PB vs vennootschap/VenB · KMO-tarief-context"
+      ],
+      "out": [
+        {
+          "topic": "Specifieke vorm: BV — default WVV-vorm sinds 2019",
+          "richting": "moet-verwijzen",
+          "ref": "besloten-vennootschap"
+        },
+        {
+          "topic": "Specifieke vorm: NV",
+          "richting": "moet-verwijzen",
+          "ref": "naamloze-vennootschap"
+        },
+        {
+          "topic": "Specifieke vorm: CV — coöperatief doel",
+          "richting": "moet-verwijzen",
+          "ref": "cooperatieve-vennootschap"
+        },
+        {
+          "topic": "Specifieke vorm: VOF — volle aansprakelijkheid",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-onder-firma"
+        },
+        {
+          "topic": "Specifieke vorm: CommV",
+          "richting": "moet-verwijzen",
+          "ref": "commanditaire-vennootschap"
+        },
+        {
+          "topic": "Specifieke vorm: maatschap — geen rechtspersoonlijkheid · fiscaal-transparant",
+          "richting": "moet-verwijzen",
+          "ref": "maatschap"
+        },
+        {
+          "topic": "Specifieke vorm: VZW",
+          "richting": "moet-verwijzen",
+          "ref": "vereniging-zonder-winstoogmerk"
+        },
+        {
+          "topic": "Grootte-categorieën cascade (jaarrekening-schema · commissaris · consolidatie)",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        },
+        {
+          "topic": "Oprichting van een vennootschap — keten-vervolg",
+          "richting": "moet-verwijzen",
+          "ref": "oprichting-vennootschap"
+        },
+        {
+          "topic": "Aansprakelijkheid bestuurders + oprichters per vorm",
+          "richting": "moet-verwijzen",
+          "ref": "bestuurdersaansprakelijkheid"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "wvv-systematiek",
+        "naam": {
+          "primair": "WVV-systematiek"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — WVV boek 1 (algemeen) · 2-7 (vennootschappen) · 9-11 (verenigingen) + relatie met vroegere W.Venn. en wet 27 juni 1921 (VZW).",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-keuze-rechtsvorm",
+        "naam": {
+          "primair": "Fiscale keuze rechtsvorm"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — vergelijking eenmanszaak/PB vs vennootschap/VenB; KMO-tarief 20%; afschrijvingsregimes; sociale bijdragen; uittredings-fiscaliteit; wanneer kantelen?",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsrecht"
+    },
+    {
+      "type": "bevat",
+      "target": "besloten-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "naamloze-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "cooperatieve-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "vennootschap-onder-firma"
+    },
+    {
+      "type": "bevat",
+      "target": "commanditaire-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "maatschap"
+    },
+    {
+      "type": "bevat",
+      "target": "vereniging-zonder-winstoogmerk"
+    },
+    {
+      "type": "bevat",
+      "target": "vennootschap-groottecategorieen"
+    },
+    {
+      "type": "triggert",
+      "target": "oprichting-vennootschap"
+    }
+  ]
+}

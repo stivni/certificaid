@@ -1,0 +1,122 @@
+{
+  "id": "besloten-vennootschap",
+  "naam": {
+    "primair": "Besloten vennootschap",
+    "afkorting": "BV",
+    "synoniemen": [
+      "BVBA",
+      "besloten vennootschap met beperkte aansprakelijkheid",
+      "SRL",
+      "société à responsabilité limitée",
+      "private limited company"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "3.0.I",
+      "3.0.I.A",
+      "3.0.I.B",
+      "3.0.I.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~982, hernoemd van bv-rechtsvorm)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Meest gebruikte vennootschapsvorm sinds WVV (2019)",
+        "Geen minimumkapitaal meer — toereikend aanvangsvermogen vereist (financieel-plan-toets)",
+        "Aandelen: vrij overdraagbaar (kan statutair beperkt) · geen nominale waarde verplicht",
+        "Bestuur: één of meerdere zaakvoerders · college mogelijk",
+        "AV: gewone meerderheid standaardbeslissingen · 3/4 voor statutenwijziging",
+        "Kapitaalbescherming: dubbele test (netto-actief + uitkeringstest 12 maand)",
+        "Statutaire vrijheid (aanvullend recht)",
+        "Alarmbel aangepast aan kapitaal-loos systeem (netto-actief-criterium)"
+      ],
+      "out": [
+        {
+          "topic": "Vergelijking met andere vormen + keuze-criteria",
+          "richting": "moet-verwijzen",
+          "ref": "ondernemingsvormen"
+        },
+        {
+          "topic": "Oprichtingsprocedure",
+          "richting": "moet-verwijzen",
+          "ref": "oprichting-vennootschap"
+        },
+        {
+          "topic": "Kapitaalbescherming + alarmbel",
+          "richting": "moet-verwijzen",
+          "ref": "kapitaalbescherming"
+        },
+        {
+          "topic": "Oprichtersaansprakelijkheid bij kennelijk ontoereikend financieel plan",
+          "richting": "moet-verwijzen",
+          "ref": "oprichtersaansprakelijkheid"
+        },
+        {
+          "topic": "Grootte-categorieën — schema · controle",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019",
+        "wettelijke_basis": "WVV boek 5"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "ondernemingsvormen"
+    },
+    {
+      "type": "vereist",
+      "target": "financieel-plan"
+    },
+    {
+      "type": "vereist",
+      "target": "kapitaalbescherming"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "naamloze-vennootschap"
+    }
+  ]
+}

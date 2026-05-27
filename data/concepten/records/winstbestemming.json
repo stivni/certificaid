@@ -1,0 +1,151 @@
+{
+  "id": "winstbestemming",
+  "naam": {
+    "primair": "Winstbestemming",
+    "synoniemen": [
+      "profit appropriation",
+      "winstverdeling"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "3.0.IV.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T00:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit winstuitkering-cluster (skelet-doc regel ~1272, NIEUW — opent OP-K.4)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "AV-besluit jaarrekening + winstbestemming (na goedkeuring jaarrekening)",
+        "Wettelijke reserve — 5% tot 10% van kapitaal/eigen-vermogen bereikt (verplichte aanleg)",
+        "Vrije reserves — statutair vrij + AV-besluit",
+        "Overgedragen resultaat — naar volgend boekjaar",
+        "Tantième-toekenning — winstgebonden bestuurdersvergoeding",
+        "Dividend-toewijzing — saldo naar dividend (regulier of interim)",
+        "Wettelijke volgorde: wettelijke reserve eerst · dan andere · dan dividend/overdracht"
+      ],
+      "out": [
+        {
+          "topic": "Winstuitkering-Σ als parent-keuzekader",
+          "richting": "moet-verwijzen",
+          "ref": "winstuitkering"
+        },
+        {
+          "topic": "Tantième als afzonderlijk record",
+          "richting": "moet-verwijzen",
+          "ref": "tantieme"
+        },
+        {
+          "topic": "Eigen vermogen — reserves als component",
+          "richting": "moet-verwijzen",
+          "ref": "eigen-vermogen"
+        },
+        {
+          "topic": "Algemene vergadering — besluit",
+          "richting": "moet-verwijzen",
+          "ref": "algemene-vergadering"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "wettelijke-reserve",
+        "naam": {
+          "primair": "Wettelijke reserve"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — 5% van nettowinst tot reserve 10% van kapitaal bereikt (verplichte aanleg).",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wettelijke-volgorde-winstbestemming",
+        "naam": {
+          "primair": "Wettelijke volgorde van bestemmingen"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — wettelijke reserve eerst · dan andere reserves · dan dividend/overdracht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "winstuitkering"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "algemene-vergadering"
+    },
+    {
+      "type": "triggert",
+      "target": "eigen-vermogen"
+    }
+  ]
+}
