@@ -173,6 +173,15 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
+financiele-analyse                       [Σ-cluster, ~13 cluster-eigen + ~5 cross — PO 1.3 + PO 1.9 (excl. consolidatie naar PO 1.4)]
+├── jaarrekeninganalyse                  [Σ — hoofdrecord]   #horizontale-analyse · #verticale-analyse · #herstructurering-balans+ROW
+├── continuiteit (rename `-going-concern`) · toegevoegde-waarde   [context-K]
+├── liquiditeits-ratios [Σ NIEUW absorbeert 4] · solvabiliteits-ratios [Σ NIEUW absorbeert 2] · rentabiliteits-ratios [Σ NIEUW absorbeert 5] · activiteits-ratios [Σ NIEUW absorbeert 4]   [ratio-families]
+├── kasstroom-analyse · free-cash-flow   [kasstroom]
+├── financiele-diagnose · faillissementspredictie-modellen   [diagnose + falen]
+└── financiele-analyse-software   [IT-tools]
+   (7 consolidatie-records uit PO 1.9.taak.1 parkeren voor PO 1.4 consolidatie-cluster)
+
 boekhouding                              [Σ-discipline-cluster, ~28 cluster-eigen + ~15 cross — PO 1.1 + PO 1.2 fundament]
 ├── boekhouding                          [Σ — NIEUW discipline-hoofdrecord]   #boekhoudplicht · #MAR · #organisatie · #handel-vs-niet-handel-vs-micro
 ├── belgisch-boekhoudrecht               [K — rename `bgaap` + Σ-sub-element]   WER Boek III · KB 29-04-2019 · NBB · CBN
@@ -291,6 +300,7 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | vennootschapsbelasting | 11 cluster-eigen + 13 cross (Σ-promotie + 1 rename + 5 schrappen-via-perspectief + 3 absorpties + 1 generiek `voorafbetalingen`) | PO 2.3 (tweede sub-discipline fiscaliteit) | [§Vennootschapsbelasting-cluster](#vennootschapsbelasting-cluster) |
 | btw | ~26 cluster-eigen + 3 cross (2 Σ-promoties + 2 renames + 1 split + 11 prefix-standaardisaties pending) | PO 2.4 (derde sub-discipline fiscaliteit + douane & accijnzen-sub-blok) | [§BTW-cluster](#btw-cluster) |
 | boekhouding | ~28 cluster-eigen + ~15 cross (1 NIEUW Σ + 2 renames + 3 splits + 2 `-en-`-renames + 2 `-categorie`-renames + 7 PO 1.2-absorpties) | PO 1.1 (boekhouden-doen) + PO 1.2 (boekhoudrecht + jaarrekeningrecht) | [§Boekhouding-cluster](#boekhouding-cluster) |
+| financiele-analyse | ~13 cluster-eigen + ~5 cross (4 NIEUW ratio-Σ's + 13 ratio-absorpties + 1 rename + 7 verhuizingen naar PO 1.4) | PO 1.3 (analyse jaarrekening) + PO 1.9 (financiële analyse + diagnose + faillissement) | [§Financiele-analyse-cluster](#financiele-analyse-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -2660,6 +2670,123 @@ Splits gerechtvaardigd door:
 - **OP-BH.E** ⏳ `personeelskosten`-content vs `loon-en-payroll`-K-techniek overlap: boekhoud-record bevat MAR-klasse-62 presentatie + sociale-balans; payroll-K-techniek bevat cascade bruto→netto. Grens scherp houden tijdens content-uitwerking.
 - **OP-BH.F** ⏳ `vruchtgebruik`-record na rename: zorgen dat blote-eigendom-perspectief expliciet aanwezig blijft (eigenaar-rol + waardering blote-eigendom-actief).
 
+### Financiele-analyse-cluster
+
+Thema: `financiele-analyse`. *Diepe PO 1.3 + PO 1.9-uitwerking (2026-05-27). PO 1.3 (analyse + kritische beoordeling jaarrekening) en PO 1.9 (financiële analyse + fundamentele financieel bedrijfsbeheer) overlappen substantieel — samen gebracht in één cluster. PO 1.9 bevat ook 7 consolidatie-records die naar PO 1.4 consolidatie-cluster verhuizen (parkeren). 13 ratio-records geabsorbeerd in 4 categorie-Σ's per user-keuze (gemeenschappelijke interpretatie + nooit-in-isolement-principe). Cluster voorlopig onder `bedrijfseconomie-en-management`-discipline.*
+
+```
+financiele-analyse                       [Σ-cluster, ~13 cluster-eigen + ~5 cross — PO 1.3 + PO 1.9 (excl. consolidatie)]
+│
+├── jaarrekeninganalyse                   [Σ-hoofdrecord]
+│   ▸ doelstellingen (PO 1.3.I.A) · betrokken partijen (I.B) · instrumenten + schema's (I.C) · toezichtsorganen (I.D)
+│   ▸ #horizontale-analyse (PO 1.9.III.D): chronologische trend-analyse · bases-jaar · groei-ratio's
+│   ▸ #verticale-analyse (PO 1.9.III.E): structuur-analyse · common-size · % van balanstotaal/omzet
+│   ▸ #herstructurering-balans (PO 1.9.III.A): herklassificering · operationeel vs niet-operationeel · LT vs KT
+│   ▸ #herstructurering-resultatenrekening (PO 1.9.III.B-C): bedrijfsresultaat-isolatie · niet-recurrent-eliminatie
+│   ▸ cross `jaarrekening`-Σ (boekhouding-cluster) voor input-structuur
+│
+├── --- I. CONTEXT-CONCEPTEN ---
+├── continuiteit                          [K — rename `continuiteit-going-concern`, going-concern in synoniemen[]]
+│   ▸ going-concern-principe · trigger-indicatoren (negatief EV · negatief werkkapitaal · ...) · CBN-2010-14 · audit-perspectief NBE
+│   ▸ cross `controleopdracht` voor commissaris-aandacht
+├── toegevoegde-waarde                    [K — uit PO 1.9.V.A]
+│   ▸ TW = output-input · maatstaf-bestanddelen · verdeling over stakeholders
+│
+├── --- II. RATIO-FAMILIES (4 Σ per categorie, absorbeert 13 individuele ratio's) ---
+├── liquiditeits-ratios                   [Σ — NIEUW, absorbeert 4 ratio-records]
+│   ▸ #current-ratio · #quick-ratio · #cash-ratio · #cash-conversion-cycle
+│   ▸ gemeenschappelijke interpretatie: korte-termijn-vermogen om verplichtingen te dekken · benchmark-bandbreedtes · valkuilen (voorraad-overschatting · betalingsgewoonten-verschillen)
+├── solvabiliteits-ratios                 [Σ — NIEUW, absorbeert 2 ratio-records]
+│   ▸ #schuldgraad · #interest-coverage-ratio
+│   ▸ gemeenschappelijke interpretatie: lange-termijn-stabiliteit · WVV art 7:228 alarmbel-link · DSO-cross
+├── rentabiliteits-ratios                 [Σ — NIEUW, absorbeert 5 ratio-records]
+│   ▸ #brutomarge · #nettomarge · #ebitda-marge · #rentabiliteit-eigen-vermogen · #rentabiliteit-totaal-activa
+│   ▸ gemeenschappelijke interpretatie: winstgevendheid op verschillende niveaus · DuPont-decomposition · sector-benchmarking
+├── activiteits-ratios                    [Σ — NIEUW, absorbeert 4 ratio-records]
+│   ▸ #omloopsnelheid-klanten · #omloopsnelheid-leveranciers · #omloopsnelheid-voorraad · #werkkapitaalbehoefte
+│   ▸ gemeenschappelijke interpretatie: operationele efficiëntie · cash-conversion-cycle-link · trade-credit-implicaties
+│
+├── --- III. KASSTROOM ---
+├── kasstroom-analyse                     [procedure — behoud apart wegens IAS 7-context + methodologisch verschillend van ratio's]
+│   ▸ IAS 7 (geconsolideerde JR) · indirecte vs directe methode · 3 categorieën (bedrijfsvoering · investering · financiering)
+│   ▸ #behoefte-bedrijfskapitaal-mutatie (PO 1.9.IV.D) · #tabel-waardemutaties (PO 1.9.IV.B)
+├── free-cash-flow                        [K — uit PO 1.9.IV.C]
+│   ▸ FCF · FCFE (Free Cash Flow to Equity) · FCFF (to Firm) · waarderings-input voor DCF
+│
+├── --- IV. DIAGNOSE + ONDERNEMINGSFALEN ---
+├── financiele-diagnose                    [procedure — uit PO 1.9.VI.A]
+│   ▸ integrale beoordeling · ratio's + trend-analyse + benchmark + kwalitatieve signalen · expert-oordeel
+│   ▸ cross `continuiteit` voor trigger-indicatoren · cross `kamers-voor-ondernemingen-in-moeilijkheden` (insolventie-cluster)
+├── faillissementspredictie-modellen      [K — uit PO 1.9.VI.B]
+│   ▸ Altman Z-score · Ooghe-Camerlynck · CNH-modellen Belgische context · cut-off-punten · accuracy-discussie
+│
+└── --- V. IT-TOOLS ---
+└── financiele-analyse-software            [procedure — uit PO 1.9.VII]
+    ▸ Belfius Companyweb · Trends Top · NBB-API · spreadsheet-modelling · interpretatie-output
+```
+
+**Cross-cluster** (records primair elders, raken PO 1.3 + PO 1.9):
+- boekhouding: `jaarrekening` (Σ — input-structuur) · `memorierekeningen` (PO 1.3.II.D rechten-verplichtingen-analyse)
+- boekhouding: `jaarverslag` (geabsorbeerd in jaarrekening-Σ#jaarverslag — PO 1.2 al)
+- consolidatie (PO 1.4 ⏳): `consolidatiekring` · `eerste-consolidatie` · `evenredige-consolidatie` · `integrale-consolidatie` · `vermogensmutatiemethode` · `opmaak-geconsolideerde-jaarrekening` · `uniforme-waarderingsregels-consolidatie` (7 records van PO 1.9.taak.1 verhuizen naar PO 1.4-cluster)
+- insolventie: `kamers-voor-ondernemingen-in-moeilijkheden` (cross naar `financiele-diagnose`#trigger-meldingsplicht-accountant)
+
+**Renames + acties**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| `continuiteit-going-concern` | **`continuiteit`** — Engels-suffix weg; going-concern als synoniem |
+| `current-ratio`, `quick-ratio`, `cash-ratio`, `cash-conversion-cycle` (4 records) | **absorbed** in nieuw `liquiditeits-ratios`-Σ als sub-secties |
+| `schuldgraad`, `interest-coverage-ratio` (2 records) | **absorbed** in nieuw `solvabiliteits-ratios`-Σ |
+| `brutomarge`, `nettomarge`, `ebitda-marge`, `rentabiliteit-eigen-vermogen`, `rentabiliteit-totaal-activa` (5 records) | **absorbed** in nieuw `rentabiliteits-ratios`-Σ |
+| `omloopsnelheid-klanten`, `omloopsnelheid-leveranciers`, `omloopsnelheid-voorraad`, `werkkapitaalbehoefte` (4 records) | **absorbed** in nieuw `activiteits-ratios`-Σ |
+| (NIEUW) | **4 ratio-Σ-records**: liquiditeits-ratios · solvabiliteits-ratios · rentabiliteits-ratios · activiteits-ratios |
+| `consolidatiekring`, `eerste-consolidatie`, `evenredige-consolidatie`, `integrale-consolidatie`, `vermogensmutatiemethode`, `opmaak-geconsolideerde-jaarrekening`, `uniforme-waarderingsregels-consolidatie` | **parkeren voor PO 1.4 consolidatie-cluster** (primair daar) |
+
+**Splits-rechtvaardiging-test toegepast op ratio's**:
+
+Test op een individueel ratio (bv. `current-ratio`):
+- Keuze-as? Ja (kies welke ratios voor welk doel — user-correctie) — maar binnen categorie nooit in isolement
+- Shared? Geen
+- Pendant fundamenteel anders? Geen
+- Substantiële wettelijke regel + plafonds + bevragingspatroon? **Nee** (geen wet · korte formule + interpretatie)
+
+→ Voldoet niet aan voorwaarde 4 op record-niveau, maar Σ-categorie-pattern past beter (gemeenschappelijke interpretatie + benchmarking + valkuilen op categorie-niveau, niet per ratio). User-keuze 1B (groepeer per categorie).
+
+**Schrappen / nieuwe records**:
+- 4 NIEUW Σ-records (4 ratio-categorieën)
+- 13 absorpties (alle individuele ratio-records → Σ-sub-secties)
+- 1 rename (`continuiteit-going-concern` → `continuiteit`)
+- 7 verhuizingen naar PO 1.4-cluster (consolidatie-records)
+- 0 schrappen (alle records leven verder als sub-sectie of in andere cluster)
+
+**Triangulatie 2026-05-27**:
+- PO 1.3: 12 anchors → 0 gaps · 21 records → 13 cluster-eigen na ratio-absorpties + 4 cross
+- PO 1.9: 31 anchors → 0 gaps · 17 records → 5 nieuwe analyse-records + 7 cross-naar-PO 1.4 + 5 al-cluster-eigen-via-PO 1.3
+- Gecombineerd: 13 cluster-eigen + cross
+
+**Bronnen-pin**:
+- ✅ KB 29-04-2019 (uitvoering boekhoudwet — voor jaarrekening-input)
+- ✅ IAS 7 (kasstroomoverzicht voor geconsolideerde JR)
+- ✅ CBN-advies 2010-14 (continuïteit + waarschuwingsindicatoren)
+- ✅ NBB-statistieken (sector-benchmarks)
+- ⏳ Altman 1968-paper + Ooghe-Camerlynck-modellen voor faillissementspredictie
+
+**Test-case-validatie** (2026-05-27): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Liquiditeitsdiagnose: bedrijf met current-ratio 1.2 maar quick-ratio 0.6 | `liquiditeits-ratios`-Σ#current-ratio + #quick-ratio + gemeenschappelijke interpretatie | ✅ |
+| Solvabiliteit + alarmbel-trigger WVV | `solvabiliteits-ratios`#schuldgraad + cross `kapitaalvermindering`#alarmbel | ✅ |
+| Going-concern-twijfel bij commissaris | `continuiteit` + cross `controleopdracht`#NBE + `kamers-voor-ondernemingen-in-moeilijkheden` | ✅ |
+| Altman Z-score bij faillissementspredictie | `faillissementspredictie-modellen` + cross `financiele-diagnose` | ✅ |
+
+**Open punten**:
+- **OP-AN.A** ⏳ Cluster-positionering: `financiele-analyse` voorlopig onder `bedrijfseconomie-en-management`-discipline (advies-context van PO 1.9). Mogelijk laag-1 sub-Kader-status bij content-uitwerking. Of laag-2 cross-cutting cluster (raakt boekhouding-input + bedrijfseconomie-advies + audit-context).
+- **OP-AN.B** ⏳ `kasstroom-analyse` ook Σ-promotie? PO 1.9.IV heeft 7 sub-anchors (bedrijfscyclus · waardemutaties · cash flow · behoefte-bedrijfskapitaal · derdenkapitaal · eigen vermogen · 3-categorieën · toepassing). Bij content-uitwerking herzien of Σ-pattern nodig is.
+- **OP-AN.C** ⏳ `financiele-diagnose` overlap met `controleopdracht`#NBE-procedure (PO 1.6) — twee perspectieven (consultant vs commissaris). Cross-link expliciet maken.
+- **OP-AN.D** ⏳ Ratio-Σ-content: gemeenschappelijke interpretatie + benchmarking + valkuilen per categorie uitwerken. Vooral DuPont-decomposition (rentabiliteits-ratios-Σ) en cash-conversion-cycle-koppeling (activiteits-ratios-Σ ↔ liquiditeits-ratios-Σ#cash-conversion-cycle) zijn cross-categorie-content.
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
@@ -3408,3 +3535,4 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-27 | **PO 1.2 boekhoudrecht + jaarrekeningrecht** integreert in `boekhouding`-cluster i.p.v. eigen sub-cluster. 7 absorpties (`vereenvoudigde-boekhouding-regime` → `boekhoudplicht`#vereenvoudigde-boekhouding; `vzw-stichting-boekhoudregime` → `groottecategorie-vereniging`#vzw-stichting-regime; `jaarlijkse-inventaris` → `eindejaarsverrichtingen`#wettelijke-inventaris-art-III-89; `openbaarmaking-jaarrekening` + `wettelijke-controle-jaarrekening` + `waarderingsregels-vastlegging` + `jaarverslag-bestuursorgaan` + `sociale-balans` → `jaarrekening`-Σ-sub-secties). 1 rename `boekhoudplichtige-onderneming` → `boekhoudplicht`. Principe: **content hoort waar het in de praktijk leeft, niet in een specifiek PO**. | (a) PO 1.2 als eigen sub-cluster `jaarrekeningrecht` onder boekhouding-discipline (analoog fiscaliteit-sub-disciplines); (b) PO 1.2 als zelfstandige cluster naast boekhouding | User-keuze 2026-05-27 1.A + user-principe expliciet geformuleerd: "ik steek geen content/concept in programmaonderdelen, ik steek ze waar ze in de praktijk horen en link ze eventueel aan meerdere programmaonderdelen". Verfijnt eerder cross-records-pattern: PO-aanknoping is metadata (welke anchors raakt het), niet primair-cluster-bepaler. Alle PO 1.2-jaarrekening-procedure-records (openbaarmaking · wettelijke controle · waarderingsregels · jaarverslag · sociale balans) leven natuurlijker als sub-secties van `jaarrekening`-Σ dan als losse records. | Patroon te volgen voor PO 1.3-1.5: records primair daar plaatsen waar ze inhoudelijk horen (`geconsolideerde-jaarrekening` → consolidatie-cluster PO 1.4; `ratio-analyse` → bedrijfseconomie-discipline PO 1.9; IFRS-standaarden → eigen IFRS-cluster PO 1.5). |
 | 2026-05-27 | `boekhoudplichtige-onderneming` rename naar **`boekhoudplicht`** + cross-link expliciteren naar `ondernemingsvormen`. Beide records voldoen aan splits-test voorwaarde 4 (substantiële wettelijke regel + bevragingspatroon) maar overlappen rond "welke entiteiten bestaan". Verschil: `boekhoudplicht` test op WER-scope (handelaar/onderneming/niet-handelaar + drempel); `ondernemingsvormen` test op WVV-vormkeuze (BV/NV/CV/.../VZW). | (a) Behoud `boekhoudplichtige-onderneming`-naam (te langwoord); (b) Mergen met `ondernemingsvormen` (verliest scope-test-as) | User-vraag 2026-05-27: "waarom hebben wij boekhoudplichtige-onderneming en ondernemingsvormen apart?". Antwoord: andere wettelijke basis (WER vs WVV) + andere test-as. Rename naar `boekhoudplicht` versterkt scope-focus (de verplichting + wie + welk regime) en vermijdt naam-overlap. Cross-link expliciet maakt relatie zichtbaar. | Pattern voor andere records die conceptueel overlappen maar verschillende test-assen hebben: rename naar focus-naam ipv entiteit-naam ("welke plicht/regel" ipv "welke entiteit"). Toekomst: scan op andere mogelijke overlap-paren. |
 | 2026-05-27 | **OP-META.A** open punt: subconcept-structuur als renderbeslissing. User-inzicht 2026-05-27: "als een subconcept gestructureerd zou zijn zoals een concept, kan het er in theorie snel uitgetrokken worden... het zou zelfs een renderbeslissing kunnen zijn". Implicatie: schema 2.1 v1.5 `inhoud.elementen[]` zou recursief concept-shape mogen dragen (`metadata.scope` + `accountant_perspectieven[]` + `relaties[]`) zodat granulariteit-beslissingen render-tijd-keuze worden. | (a) Strikt schema-niveau granulariteit (huidige situatie — elementen zijn platte sub-secties); (b) Promoteren tot eigen record bij content-uitwerking (huidig pattern — handmatig) | User-meta-inzicht raakt ADR-029 (operaties-model) + ADR-030 (granulariteit-typologie) fundamenteel. Granulariteit verschuift van **schema-keuze** (record vs sub-sectie) naar **render-keuze** (inline vs aparte fiche). Sub-concepten dragen al hun toepassingscontext + perspectieven + relaties in schema; render kiest presentatie. Voor PO 1.2-absorpties: sub-secties zoals `jaarrekening`-Σ#wettelijke-controle of `boekhoudplicht`#vereenvoudigde-boekhouding zijn kandidaat-subconcepten met eigen toepassingscontext. | Werkpunt: ADR-030 + ADR-029 update — schema-uitbreiding voor recursieve sub-concept-structuur OF expliciet render-pattern voor inline-vs-fiche-keuze. Voor nu: skelet-werk blijft op record-niveau; sub-secties markeren met "kandidaat-subconcept-met-toepassingscontext" waar relevant. Beslissen na PO 1.x-blok-afwerking. |
+| 2026-05-27 | **PO 1.3 + PO 1.9 samen** als `financiele-analyse`-cluster (substantiële overlap: jaarrekeninganalyse · kasstroom · ratio's · continuiteit). Plus 13 ratio-records geabsorbeerd in 4 categorie-Σ's (`liquiditeits-ratios` · `solvabiliteits-ratios` · `rentabiliteits-ratios` · `activiteits-ratios`). 7 consolidatie-records uit PO 1.9.taak.1 parkeren voor PO 1.4 consolidatie-cluster. 5 nieuwe analyse-records uit PO 1.9 (toegevoegde-waarde · free-cash-flow · financiele-diagnose · faillissementspredictie-modellen · financiele-analyse-software). | (a) PO 1.3 en PO 1.9 als 2 aparte clusters (verstopt natuurlijke overlap); (b) Individuele ratio-records behouden (over-versnippering) of merge alle 13 in 1 Σ (verliest categorie-structuur); (c) Consolidatie-records primair in PO 1.9-cluster (verstopt natuurlijke thuis in PO 1.4) | User-keuze 2026-05-27: vraag 1 B (groepeer per categorie wegens gemeenschappelijke interpretatie + "nooit in isolement, altijd in vergelijking met andere ratios"); vraag 2 A (kasstroom-analyse apart); vraag 3 A (continuiteit-rename); vraag 4 C (wacht op PO 1.9 → resulteerde in merge). User-principe geformuleerd 2026-05-27 (PO 1.2 sessie): "content hoort waar het in de praktijk leeft, niet in een specifiek PO" — toegepast op consolidatie-verhuizing en cluster-merge. | Pattern: andere PO's met substantiële overlap (PO 1.4 consolidatie + PO 1.5 IFRS?) kunnen analoog samen vormen. Ratio-Σ-pattern (categorie-Σ + sub-secties per item) toepasbaar voor andere domeinen met vergelijkbare structuur (cumulatieve interpretatie op categorie-niveau, geen wettelijke regel per item — bv. KPI's bij management accounting PO 1.8). |
