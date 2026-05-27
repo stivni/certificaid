@@ -1,0 +1,96 @@
+{
+  "id": "eindejaarsverrichtingen",
+  "naam": {
+    "primair": "Eindejaarsverrichtingen",
+    "synoniemen": [
+      "jaarafsluit-cyclus",
+      "year-end closing",
+      "balansafsluiting"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "1.1.taak.1",
+      "1.1.II.L",
+      "1.1.II.Q",
+      "1.2.III.E"
+    ],
+    "provenance": {
+      "model": "skeleton-generator",
+      "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-27T20:57:45Z",
+        "model": "skeleton-generator",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Wettelijke jaarlijkse inventaris (art III.89 WER — volledige waarderingsoefening op balansdatum)",
+        "Waarderings-correcties (afschrijvingen + waardeverminderingen + voorzieningen)",
+        "Overlopende rekeningen (matching-principe: over te dragen + vooruit te betalen kosten/opbrengsten)",
+        "Resultaatverwerking (klasse 79 — winstbestemming + reservevorming + dividend-voorstel)",
+        "Jaarafsluit-boekingen + heropening-cyclus voor volgend boekjaar"
+      ],
+      "out": [
+        {
+          "topic": "Specifieke waarderingsregels per balanspost",
+          "richting": "mag-verwijzen",
+          "ref": "jaarrekening"
+        },
+        {
+          "topic": "Resultaatverwerking + dividend (uitkering aan aandeelhouders)",
+          "richting": "moet-verwijzen",
+          "ref": "uitkering-aan-aandeelhouders"
+        },
+        {
+          "topic": "Audit-procedures bij jaarafsluit (commissaris)",
+          "richting": "moet-verwijzen",
+          "ref": "controle-opdracht"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "skeleton-generator",
+              "datum": "2026-05-27"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "vereist",
+      "target": "dubbele-boekhouding"
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudbeginselen"
+    },
+    {
+      "type": "triggert",
+      "target": "jaarrekening"
+    }
+  ]
+}

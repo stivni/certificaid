@@ -1,0 +1,144 @@
+{
+  "id": "jaarrekening",
+  "naam": {
+    "primair": "Jaarrekening",
+    "afkorting": "JR",
+    "synoniemen": [
+      "financial statements",
+      "annual accounts",
+      "synthesedocumenten"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "entiteit"
+    ],
+    "ankers": [
+      "1.1.II.S",
+      "1.1.taak.1",
+      "1.2.III.E",
+      "1.2.IV.C",
+      "1.2.IV.D",
+      "1.2.IV.E",
+      "1.2.IV.F",
+      "1.2.V.A",
+      "1.2.V.B",
+      "1.2.taak.1"
+    ],
+    "provenance": {
+      "model": "skeleton-generator",
+      "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-27T20:57:45Z",
+        "model": "skeleton-generator",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Synthesedocumenten-overzicht: balans + resultatenrekening (ROW) + toelichting + sociale balans",
+        "3 balansschema's: volledig · verkort · microschema (per groottecategorie)",
+        "Waarderingsregels vastleggen in toelichting (rubrieken art 145 KB)",
+        "Jaarverslag bestuursorgaan (art 3:6 WVV — KAM + niet-financiële info)",
+        "Sociale balans als bijlage (personeels-cijfers)",
+        "Openbaarmaking-procedure NBB (neerlegging binnen 30 dagen na AV-goedkeuring + taksen)",
+        "Wettelijke controle door commissaris (trigger via groottecategorie)"
+      ],
+      "out": [
+        {
+          "topic": "Geconsolideerde jaarrekening (groep-rapportering)",
+          "richting": "moet-verwijzen",
+          "ref": "geconsolideerde-jaarrekening"
+        },
+        {
+          "topic": "IFRS-rapportering individuele JR",
+          "richting": "moet-verwijzen",
+          "ref": "ifrs"
+        },
+        {
+          "topic": "Boekhoudbeginselen die jaarrekening fundeerden",
+          "richting": "moet-verwijzen",
+          "ref": "boekhoudbeginselen"
+        },
+        {
+          "topic": "Eindejaarsverrichtingen (inventaris + waarderings-correcties)",
+          "richting": "moet-verwijzen",
+          "ref": "eindejaarsverrichtingen"
+        },
+        {
+          "topic": "Groottecategorie-cascade (drempels → schema + controle)",
+          "richting": "moet-verwijzen",
+          "ref": "groottecategorie-vennootschap"
+        },
+        {
+          "topic": "Jaarrekeninganalyse (ratio's + diagnose)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekeninganalyse"
+        },
+        {
+          "topic": "Specifieke balansposten (vaste-activa, voorraden, EV, ...)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "skeleton-generator",
+              "datum": "2026-05-27"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "1976",
+        "wettelijke_basis": "Boekhoudwet 17-07-1975 + KB 29-04-2019 + WVV Boek 3"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "belgisch-boekhoudrecht"
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudbeginselen"
+    },
+    {
+      "type": "vereist",
+      "target": "dubbele-boekhouding"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "groottecategorie-vennootschap"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "geconsolideerde-jaarrekening"
+    },
+    {
+      "type": "triggert",
+      "target": "jaarrekeninganalyse"
+    }
+  ]
+}

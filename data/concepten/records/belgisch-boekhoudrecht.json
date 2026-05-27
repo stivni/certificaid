@@ -1,0 +1,98 @@
+{
+  "id": "belgisch-boekhoudrecht",
+  "naam": {
+    "primair": "Belgisch boekhoudrecht",
+    "afkorting": "B-GAAP",
+    "synoniemen": [
+      "bgaap",
+      "Belgian GAAP",
+      "Belgisch boekhoudkundig referentiestelsel"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.1.I",
+      "1.1.I.A",
+      "1.1.I.B",
+      "1.2.I",
+      "1.2.I.C",
+      "1.2.I.D",
+      "1.2.I.E",
+      "1.2.I.F",
+      "1.2.II"
+    ],
+    "provenance": {
+      "model": "skeleton-generator",
+      "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-27T20:57:45Z",
+        "model": "skeleton-generator",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Wettelijk kader: WER Boek III + Boekhoudwet 17-07-1975",
+        "KB 29-04-2019 als uitvoeringsbesluit (waarderingsregels + MAR + balansschema's)",
+        "Bronhiërarchie: wet → KB → MB → circulaire → CBN-advies",
+        "Rol NBB + CBN + griffies + ITAA + IBR + FSMA + CRB",
+        "EU-richtlijn 2013/34/EU als upstream-basis"
+      ],
+      "out": [
+        {
+          "topic": "IFRS internationaal referentiestelsel",
+          "richting": "moet-verwijzen",
+          "ref": "ifrs"
+        },
+        {
+          "topic": "Boekhoudbeginselen-detail",
+          "richting": "moet-verwijzen",
+          "ref": "boekhoudbeginselen"
+        },
+        {
+          "topic": "WVV-vennootschapsrechtelijke aspecten (rechtsvormen)",
+          "richting": "mag-verwijzen",
+          "ref": "ondernemingsvormen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "skeleton-generator",
+              "datum": "2026-05-27"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "ifrs"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "id": "dubbele-boekhouding",
+  "naam": {
+    "primair": "Dubbele boekhouding",
+    "synoniemen": [
+      "double-entry bookkeeping",
+      "dagboek-grootboek-systematiek"
+    ]
+  },
+  "concept_type": "methode",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.1.I.A",
+      "1.1.taak.1",
+      "1.2.III.C",
+      "1.2.III.D"
+    ],
+    "provenance": {
+      "model": "skeleton-generator",
+      "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-27T20:57:45Z",
+        "model": "skeleton-generator",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Mechaniek dagboek → grootboek → proefbalans → balans/ROW (registratie-cyclus)",
+        "MAR-rekeningstelsel (klasse 0-9) als classificatie-frame",
+        "Boekingsregel: elke verrichting raakt minstens 2 rekeningen (debet/credit-symmetrie)",
+        "Periodieke afsluitingen (maand / kwartaal / jaar)",
+        "Onderscheid memorierekeningen (klasse 0) vs balansrekeningen (klasse 1-5) vs resultatenrekeningen (klasse 6-7)"
+      ],
+      "out": [
+        {
+          "topic": "Vereenvoudigde boekhouding (eenpartig)",
+          "richting": "moet-verwijzen",
+          "ref": "boekhoudplicht"
+        },
+        {
+          "topic": "Analytische boekhouding (kostprijs + budgetbeheer)",
+          "richting": "moet-verwijzen",
+          "ref": "analytische-boekhouding"
+        },
+        {
+          "topic": "Concrete waarderingsregels per balanspost",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekening"
+        },
+        {
+          "topic": "Inventarisatie-procedure (eindejaarscyclus)",
+          "richting": "moet-verwijzen",
+          "ref": "eindejaarsverrichtingen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "skeleton-generator",
+              "datum": "2026-05-27"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudbeginselen"
+    },
+    {
+      "type": "triggert",
+      "target": "jaarrekening"
+    }
+  ]
+}

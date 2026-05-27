@@ -1,0 +1,95 @@
+{
+  "id": "boekhoudbeginselen",
+  "naam": {
+    "primair": "Boekhoudbeginselen",
+    "synoniemen": [
+      "boekhoudkundige beginselen",
+      "GAAP-beginselen B-GAAP"
+    ]
+  },
+  "concept_type": "principe",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.1.I",
+      "1.1.I.A",
+      "1.1.I.B",
+      "1.2.III.B",
+      "1.2.V.A"
+    ],
+    "provenance": {
+      "model": "skeleton-generator",
+      "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-27T20:57:45Z",
+        "model": "skeleton-generator",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Voorzichtigheid (asymmetrische waardering: verliezen anticiperen, winsten niet)",
+        "Continuïteit / going concern als waarderings-aanname",
+        "Consistentie / bestendigheid (methodes consequent)",
+        "Matching-beginsel (kosten en opbrengsten in juiste periode)",
+        "Realisatie-beginsel (opbrengst pas bij prestatie geleverd)",
+        "Materialiteit / wezenlijkheid",
+        "Trouw beeld (overall result: getrouw weergeven van vermogen, resultaat en evolutie)",
+        "Niet-compensatie (activa en passiva apart, kosten en opbrengsten apart)"
+      ],
+      "out": [
+        {
+          "topic": "Concrete waarderingsregels per balanspost",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekening"
+        },
+        {
+          "topic": "Continuïteit als financiële-diagnose-trigger",
+          "richting": "moet-verwijzen",
+          "ref": "continuiteit"
+        },
+        {
+          "topic": "IFRS-conceptueel-kader (parallel)",
+          "richting": "mag-verwijzen",
+          "ref": "ifrs"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "skeleton-generator",
+              "datum": "2026-05-27"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "belgisch-boekhoudrecht"
+    },
+    {
+      "type": "vereist",
+      "target": "jaarrekening"
+    }
+  ]
+}

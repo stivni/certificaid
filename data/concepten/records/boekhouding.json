@@ -1,0 +1,105 @@
+{
+  "id": "boekhouding",
+  "naam": {
+    "primair": "Boekhouding",
+    "synoniemen": [
+      "accountancy",
+      "boekhoudkunde"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.1.taak.1",
+      "1.1.I",
+      "1.1.I.A",
+      "1.1.I.B",
+      "1.2.III"
+    ],
+    "provenance": {
+      "model": "skeleton-generator",
+      "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-27T20:57:45Z",
+        "model": "skeleton-generator",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Overzicht boekhouding-discipline (boekhoudplicht · MAR · jaarcyclus · synthesedocumenten)",
+        "Boekhoudkundige organisatie (rolverdeling cliënt ↔ accountant)",
+        "Onderscheid handel vs niet-handel vs micro (boekhoudplicht-scope)",
+        "Interface met andere disciplines (fiscaliteit · controle · bedrijfseconomie)"
+      ],
+      "out": [
+        {
+          "topic": "Wettelijk kader-detail (WER + KB + CBN)",
+          "richting": "moet-verwijzen",
+          "ref": "belgisch-boekhoudrecht"
+        },
+        {
+          "topic": "Boekhoudbeginselen (voorzichtigheid · matching · continuïteit · ...)",
+          "richting": "moet-verwijzen",
+          "ref": "boekhoudbeginselen"
+        },
+        {
+          "topic": "Dubbele-boekhouding-mechaniek (dagboek · grootboek · MAR · proefbalans)",
+          "richting": "moet-verwijzen",
+          "ref": "dubbele-boekhouding"
+        },
+        {
+          "topic": "Jaarrekening-opmaak + presentatie",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekening"
+        },
+        {
+          "topic": "Wie moet boekhouden? (scope)",
+          "richting": "moet-verwijzen",
+          "ref": "boekhoudplicht"
+        },
+        {
+          "topic": "Boekhoud-perspectief van VAA / autokosten / werknemers",
+          "richting": "niet-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "skeleton-generator",
+              "datum": "2026-05-27"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "belgisch-boekhoudrecht"
+    },
+    {
+      "type": "bevat",
+      "target": "jaarrekening"
+    }
+  ]
+}
