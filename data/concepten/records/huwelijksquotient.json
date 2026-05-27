@@ -5,12 +5,15 @@
     "synoniemen": [
       "huwelijksquotiënt",
       "quotient conjugal"
-    ]
+    ],
+    "vertaling": {
+      "fr": "quotient conjugal"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -20,9 +23,22 @@
       "2.2.XVI"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/huwelijksquotient.json",
+      "primary_bronnen": [
+        "WIB92 art. 86",
+        "WIB92 art. 87",
+        "WIB92 art. 88",
+        "WIB92 art. 89",
+        "WIB92 art. 126",
+        "WIB92 art. 2 — 2°",
+        "WIB92 art. 2 — 3°"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -31,6 +47,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 86-89, 126, 2). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
@@ -58,26 +81,422 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het huwelijksquotient is een fiscale techniek van inkomenstoerekening tussen echtgenoten of wettelijk samenwonenden die een gemeenschappelijke aanslag krijgen. Wanneer één echtgenoot geen of slechts beperkte beroepsinkomsten heeft, wordt automatisch een deel van de beroepsinkomsten van de andere echtgenoot aan hem/haar toegerekend voor de belastingberekening. Dat toegerekende deel bedraagt 30 % van die beroepsinkomsten, maar mag een wettelijk geïndexeerd plafond niet overschrijden (niet-geïndexeerd: 6.700 EUR per echtgenoot in WIB92).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch effect: door een deel van de inkomsten van de hoogstverdiener te 'verschuiven' naar de minst-verdienende echtgenoot, worden de lagere belastingschijven van die laatste benut. De progressie van de personenbelasting maakt dat samen genomen minder belasting wordt betaald dan zonder toerekening. Het regime corrigeert dus voor de fiscale ongelijkheid tussen één-verdieners-gezinnen en twee-verdieners-gezinnen. Het is een automatische berekening van de fiscus — geen optie of keuze — die enkel wordt toegepast als ze gunstig is (of niet leidt tot een verhoging van bepaalde afzonderlijk belaste inkomsten).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 87", "context": "Toerekening 'behalve wanneer daardoor de belasting Staat verhoogd' — gunstigheidstoets" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van progressie-effect uit art. 87+88+126" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is dubbel: (1) fiscale neutralisatie tussen één- en tweeverdieners-gezinnen — een gezin waar één partner thuis blijft of slechts beperkt verdient, zou anders onevenredig zwaar belast worden ten opzichte van een gezin met twee evenredig verdienende partners (gelijk gezinsinkomen, hogere aanslag wegens steilere progressie op één hoofd); (2) erkenning van de feitelijke gezinssolidariteit zonder volledige cumulatie van inkomens — elke echtgenoot blijft afzonderlijk belastbaar (art. 126 §1), maar de berekening houdt rekening met de gezinscontext.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 126", "context": "Gemeenschappelijke aanslag met afzonderlijke vaststelling per echtgenoot" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — niet expliciet in wettekst maar standaardleer in fiscaal handboek" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "gezinssituatie",
+        "personenbelasting"
+      ],
+      "kader": "belastingberekening-pb"
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 87-89"
+        "wettelijke_basis": "WIB92 art. 87-89 (toerekening) + art. 126 (gemeenschappelijke aanslag)",
+        "toelichting": "Stabiel regime sinds invoering WIB92. Wettelijk samenwonenden worden sinds AJ 2005 gelijkgesteld met echtgenoten (art. 2, 2° WIB92)."
+      },
+      "voor": [
+        {
+          "tekst": "Gehuwden of wettelijk samenwonenden met een gemeenschappelijke aanslag waarbij één echtgenoot geen of slechts beperkte beroepsinkomsten heeft (minder dan 30 % van het totaal).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 2°", "context": "Gelijkstelling wettelijk samenwonenden = gehuwden" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Jaar van huwelijk of verklaring van wettelijke samenwoning · jaar na feitelijke scheiding · jaar van ontbinding huwelijk/samenwoning. In die jaren wordt geen gemeenschappelijke aanslag gevestigd en geldt het huwelijksquotient dus niet.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 126 §2", "context": "Uitsluitingsgevallen gemeenschappelijke aanslag" }
+            ]
+          }
+        },
+        {
+          "tekst": "Wanneer één echtgenoot beroepsinkomsten heeft van meer dan (niet-geïndexeerd) 6.700 EUR die bij internationaal verdrag zijn vrijgesteld en niet meetellen voor de belasting op zijn andere inkomsten — geen gemeenschappelijke aanslag, dus geen huwelijksquotient.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 126 §2 4°" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) er wordt een gemeenschappelijke aanslag gevestigd (art. 126 WIB92); (2) de minst-verdienende echtgenoot heeft eigen beroepsinkomsten van minder dan 30 % van het totaal van de beroepsinkomsten van beide echtgenoten; (3) de toerekening leidt niet tot een verhoging van de belasting op bepaalde afzonderlijk belaste inkomsten (gunstigheidstoets art. 87/88 in fine).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 126" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Beroepsinkomsten die afzonderlijk worden belast (bv. achterstallen, opzeggingsvergoedingen) worden buiten beschouwing gelaten voor de toekenning en toerekening — het quotient grijpt enkel op gezamenlijk belaste beroepsinkomsten.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 89, eerste lid" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Belastingbesparing door benutting van de lagere belastingschijven en belastingvrije som van de minst-verdienende echtgenoot, zonder dat die laatste effectief inkomsten ontvangt — louter een fiscale toerekening voor de berekening van de aanslag.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardeffect progressieve belasting" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Wanneer beide echtgenoten gelijkaardige inkomens hebben (elk meer dan 30 % van het totaal) is er geen huwelijksquotient — een misverstand bij stagiairs die denken dat élk gezin er recht op heeft. Het quotient is een 'asymmetrie-correctie', geen algemeen gezinsvoordeel.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 88", "context": "Toerekening pas indien <30%-drempel" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drempel-30-procent",
+        "naam": {
+          "primair": "30 %-drempel"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het huwelijksquotient wordt slechts toegepast wanneer de eigen beroepsinkomsten van de minst-verdienende echtgenoot minder dan 30 % bedragen van het totaal van de beroepsinkomsten van beide echtgenoten. De toerekening vult dan aan tot net 30 % (begrensd door het plafond).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-plafond",
+        "naam": {
+          "primair": "Plafondbedrag (geïndexeerd)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het toegerekende bedrag mag het geïndexeerde plafond niet overschrijden. Niet-geïndexeerd basisbedrag in WIB92 = 6.700 EUR (art. 87 en 88). Het effectief toepasselijk plafond voor het lopende aanslagjaar wordt jaarlijks geïndexeerd — de exacte indexering opzoeken in het Cijferzakboekje (bij het examen beschikbaar).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 87", "context": "'doch mag niet hoger zijn dan 6.700 EUR' (niet-geïndexeerd)" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "formule-toerekening",
+        "naam": {
+          "primair": "Formule berekening huwelijksquotient"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Toegerekend deel = min( 30 % × totaal beroepsinkomsten beide echtgenoten − eigen beroepsinkomsten minst-verdienende echtgenoot ; geïndexeerd plafond ). Indien minst-verdienende echtgenoot géén eigen beroepsinkomsten heeft (art. 87): toegerekend deel = min( 30 % × beroepsinkomsten van de andere echtgenoot ; geïndexeerd plafond ).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Wiskundige expressie van art. 87+88" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "Toerekening = min( 30 % × Σ beroepsinkomsten − eigen inkomsten minst-verdienende ; plafond_geïndexeerd )"
+          }
+        ]
+      },
+      {
+        "id": "gunstigheidstoets",
+        "naam": {
+          "primair": "Gunstigheidstoets"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Toerekening blijft achterwege wanneer ze tot een hogere belasting zou leiden op bepaalde afzonderlijk belastbare inkomsten (interesten/dividenden uit art. 17 §1 1°-3° en 6°, diverse inkomsten uit art. 90 1°, 6° en 9°, en meerwaarden op roerende waarden). De fiscus past het quotient dus enkel toe als het netto-gunstig is voor de belastingplichtige.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 87", "context": "'behalve wanneer daardoor de belasting Staat verhoogd ...'" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 88, tweede lid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "evenredige-samenstelling",
+        "naam": {
+          "primair": "Evenredige samenstelling per categorie"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de beroepsinkomsten van de hoogstverdiener uit meerdere categorieën komen (bv. bezoldigingen + winst), wordt het toegerekende deel evenredig samengesteld uit de verschillende categorieën. De aard van het toegerekende inkomen weerspiegelt dus de mix van de bronnen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 89, tweede lid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afbakening-meewerkinkomen",
+        "naam": {
+          "primair": "Afbakening tegenover meewerkinkomen (art. 86)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het huwelijksquotient (art. 87-88) verschilt van het meewerkinkomen (art. 86). Meewerkinkomen veronderstelt dat de andere echtgenoot effectief meewerkt in de beroepsactiviteit van zijn partner (zelfstandige); het maximum is dan 30 % van die activiteitsinkomsten, en de meewerkende echtgenoot mag uit eigen activiteit niet meer dan (niet-geïndexeerd) 8.700 EUR verdienen. Het huwelijksquotient daarentegen is automatisch, vereist géén werkelijke medewerking en geldt voor alle soorten beroepsinkomsten — vooral bezoldigingen. Beide regimes kunnen niet voor dezelfde euro samengaan: art. 86 vraagt een toekenning van inkomen (echte allocatie), art. 87-88 betreft een toerekening voor de aanslagberekening.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 86" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-eenverdiener",
+        "titel": "Eénverdiener — bediende met huisvrouw/-man (art. 87)",
+        "context": "Echtgenoot A heeft 40.000 EUR netto-beroepsinkomsten (bezoldigingen). Echtgenoot B heeft géén eigen beroepsinkomsten. Gemeenschappelijke aanslag is van toepassing.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Uitgewerkt cijfervoorbeeld op basis van wettekst — geïndexeerd plafond opzoeken in Cijferzakboekje" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — bereken 30 % van A's beroepsinkomsten: 30 % × 40.000 = 12.000 EUR.",
+              "Stap 2 — vergelijk met geïndexeerd plafond (AJ 2026: ca. 13.050 EUR — exact bedrag in Cijferzakboekje opzoeken).",
+              "Stap 3 — toegerekend deel = min(12.000 ; plafond) = 12.000 EUR (plafond niet bindend).",
+              "Stap 4 — voor de aanslagberekening wordt 12.000 EUR fictief toegerekend aan B; A behoudt 28.000 EUR belastbaar.",
+              "Stap 5 — belasting wordt afzonderlijk berekend op 28.000 EUR (A) + 12.000 EUR (B), elk met eigen belastingvrije som en lagere schijven; daarna samengevoegd in de gemeenschappelijke aanslag."
+            ],
+            "resultaat": "Effectief lagere totaalbelasting dan zonder quotient (waar 40.000 EUR volledig in de hogere schijven van A zou belast worden). Het cijferzakboekje is nodig voor het exacte plafond én voor de schijven om het netto-voordeel te becijferen."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-asymmetrisch",
+        "titel": "Asymmetrische tweeverdiener (art. 88)",
+        "context": "Echtgenoot A: 50.000 EUR beroepsinkomsten. Echtgenoot B: 6.000 EUR beroepsinkomsten. Totaal = 56.000 EUR. B's aandeel = 6.000 / 56.000 ≈ 10,7 % — minder dan 30 %, dus art. 88 grijpt in.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — totaal beroepsinkomsten = 50.000 + 6.000 = 56.000 EUR.",
+              "Stap 2 — 30 % × 56.000 = 16.800 EUR (= doel-niveau voor B na toerekening).",
+              "Stap 3 — aanvullingsbedrag = 16.800 − 6.000 = 10.800 EUR.",
+              "Stap 4 — toets aan plafond: min(10.800 ; geïndexeerd plafond ≈ 13.050 EUR voor AJ 2026) = 10.800 EUR.",
+              "Stap 5 — A behoudt 50.000 − 10.800 = 39.200 EUR belastbaar; B wordt belast op 6.000 + 10.800 = 16.800 EUR."
+            ],
+            "resultaat": "Door 10.800 EUR fictief naar B te schuiven, valt dit deel in B's eigen lagere schijven en wordt totaal minder belasting betaald. Het exacte plafond moet uit het Cijferzakboekje gehaald worden."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Huwelijksquotient verwarren met meewerkinkomen",
+        "verkeerde_assumptie": "Studenten denken vaak dat art. 86 (meewerkinkomen) en art. 87-88 (huwelijksquotient) hetzelfde regime zijn omdat beide met '30 %' werken.",
+        "kernpunt": "Meewerkinkomen vereist effectieve medewerking in de beroepswerkzaamheid van de zelfstandige partner en is een toekenning van inkomen (allocatie); het huwelijksquotient is automatisch, vereist géén medewerking en is een louter fiscale toerekening. Andere drempel (8.700 vs 6.700 EUR niet-geïndexeerd) en andere voorwaarden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 86" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" }
+          ]
+        }
+      },
+      {
+        "titel": "Niet-geïndexeerd vs geïndexeerd bedrag uit het hoofd 'kennen'",
+        "verkeerde_assumptie": "Studenten leren 6.700 EUR uit het hoofd als 'het plafond' en zetten dat in een berekening.",
+        "kernpunt": "6.700 EUR is het niet-geïndexeerde basisbedrag in WIB92. Het effectief toepasselijke plafond is jaarlijks geïndexeerd (voor recente AJ aanzienlijk hoger — orde van grootte 13.000 EUR). Bij het examen: altijd het Cijferzakboekje raadplegen voor het actuele bedrag, nooit het wettekst-basisbedrag gebruiken in een berekening.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk: WIB92-bedragen zijn niet-geïndexeerd; Cijferzakboekje geeft AJ-specifieke geïndexeerde bedragen" }
+          ]
+        }
+      },
+      {
+        "titel": "Quotient toepassen wanneer er géén gemeenschappelijke aanslag is",
+        "verkeerde_assumptie": "Voor het jaar van huwelijk, scheiding of overlijden 'gewoon' huwelijksquotient toepassen.",
+        "kernpunt": "Art. 126 §2 sluit gemeenschappelijke aanslag uit in die jaren — geen gemeenschappelijke aanslag betekent géén huwelijksquotient. Twee afzonderlijke aanslagen zonder toerekening tussen partners.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 126 §2" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "particulier-client",
+      "naam": {
+        "primair": "Particuliere cliënt (PB-aangifte gezin)"
+      },
+      "intro": "De accountant die de PB-aangifte voor een gezin voorbereidt of nakijkt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "controle-asymmetrie",
+              "naam": {
+                "primair": "Asymmetrie-check in de aangifte"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elk gezin met gemeenschappelijke aanslag eerst de verhouding eigen beroepsinkomsten van beide echtgenoten vergelijken. Indien één echtgenoot < 30 % heeft van het totaal: huwelijksquotient zal automatisch worden toegepast door de fiscus — controleer dat de aangifte-rubrieken correct ingevuld zijn zodat de berekeningsmodule het quotient kan toepassen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 88" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard PB-controlepraktijk" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "afweging-meewerkinkomen-vs-quotient",
+              "naam": {
+                "primair": "Afweging meewerkinkomen ↔ huwelijksquotient"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij een zelfstandige cliënt waarvan de echtgenoot beperkt of niet werkt: nagaan of een formele toekenning van meewerkinkomen (art. 86) voordeliger is dan het automatisch huwelijksquotient (art. 87-88). Meewerkinkomen geeft eigen sociale rechten aan de meewerkende echtgenoot (pensioenrechten, ziekteverzekering) — een niet-fiscaal voordeel dat zwaarder kan doorwegen dan een kleine fiscale optimalisatie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 33", "context": "Definitie meewerkende echtgenoot en sociale-rechten-voorwaarde" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 86" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk-synthese" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "uitleg-aan-client",
+              "naam": {
+                "primair": "Uitleg aan cliënt — geen optie, wel automatisch"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Cliënten denken vaak dat ze 'het huwelijksquotient moeten vragen' of 'kunnen kiezen'. Het is automatisch en wordt door de fiscus toegepast als de voorwaarden vervuld zijn (en als het gunstig is). De adviseur licht toe waarom de aanslag van het gezin lager uitvalt dan op basis van een eenvoudige optelling van beide aanslagen zou worden verwacht.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 87" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -85,11 +504,29 @@
     },
     {
       "type": "vereist",
-      "target": "gezinssituatie"
+      "target": "gezinssituatie",
+      "toelichting": "Veronderstelt een gemeenschappelijke aanslag (art. 126 WIB92) — gehuwden of wettelijk samenwonenden zonder feitelijke scheiding."
     },
     {
       "type": "triggert",
-      "target": "belastingberekening-pb"
+      "target": "belastingberekening-pb",
+      "toelichting": "Toegerekend deel beïnvloedt de afzonderlijke vaststelling van het belastbaar inkomen per echtgenoot in de gemeenschappelijke aanslag."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "meewerkinkomen",
+      "gelijkenissen": [
+        "Beide werken met een 30 %-grens op het beroepsinkomen van de partner",
+        "Beide gelden enkel bij gemeenschappelijke aanslag (echtgenoten / wettelijk samenwonenden)",
+        "Beide reduceren de fiscale last van de hoogstverdiener door inkomen 'naar de andere echtgenoot te schuiven'"
+      ],
+      "verschillen": [
+        "Meewerkinkomen (art. 86): vereist effectieve medewerking in de beroepswerkzaamheid; toekenning (echte inkomensallocatie); plafond per activiteit; meewerkende echtgenoot mag max 8.700 EUR eigen inkomen hebben (niet-geïndexeerd)",
+        "Huwelijksquotient (art. 87-88): geen medewerking vereist; loutere fiscale toerekening (geen werkelijke inkomensbeweging); plafond 6.700 EUR niet-geïndexeerd; automatisch door fiscus toegepast",
+        "Meewerkinkomen geeft eigen sociale rechten aan de meewerkende echtgenoot; huwelijksquotient niet"
+      ],
+      "verwarring_risico": "Beide art-blokken (86 vs 87-88) staan onder dezelfde WIB92-rubriek 'Toekenning en toerekening van een deel van de beroepsinkomsten aan de echtgenoot' en gebruiken hetzelfde '30 %'-getal — examenstudenten halen ze regelmatig door elkaar.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
