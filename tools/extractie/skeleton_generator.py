@@ -45,10 +45,10 @@ Cluster-spec YAML-shape:
         elementen:
           - id: balansschema
             naam_primair: "Balansschema"
-            inhoud_type: subconcept
+            bouwsteen_type: subconcept
           - id: openbaarmaking
             naam_primair: "Openbaarmaking jaarrekening"
-            inhoud_type: stap
+            bouwsteen_type: stap
             scope_in: ["NBB-neerlegging 30-dagen + taksen"]
         cross_relaties:
           - target: belgisch-boekhoudrecht
@@ -129,11 +129,11 @@ def _build_subconcept(sub_spec: dict) -> dict:
 
 
 def _build_bouwsteen(b_spec: dict) -> dict:
-    """Bouwsteen = platte content-item (begrip/stap/regel/formule/...). Geen subconcept als inhoud_type."""
+    """Bouwsteen = platte content-item (begrip/stap/regel/formule/...). Geen subconcept als bouwsteen_type."""
     bs = {
         "id": b_spec["id"],
         "naam": _build_naam(b_spec.get("naam_primair") or b_spec.get("naam") or b_spec["id"]),
-        "inhoud_type": b_spec.get("inhoud_type", "begrip"),
+        "bouwsteen_type": b_spec.get("bouwsteen_type", "begrip"),
         "kern": {
             "definitie": {
                 "tekst": b_spec.get("definitie_placeholder", f"⏳ Bouwsteen te beschrijven: {b_spec['id']}"),

@@ -414,11 +414,11 @@
       "$comment": "Platte content-item (niet-recursief concept-shape). Eén van de inhoud_type-categorieën: begrip, stap, drempel, regel, uitzondering, vuistregel, mechanisme, risico, formule, principe, beperking. Een bouwsteen KAN inhoud hebben (sub-bouwstenen + sub-subconcepten) voor structurele decompositie — bv. een formule met component-formules, of een stap met sub-stappen. Anders dan v2.1-'element': 'subconcept' is geen inhoud_type meer (sub-concepten hebben eigen array).",
       "type": "object",
       "additionalProperties": false,
-      "required": ["id", "naam", "inhoud_type", "kern"],
+      "required": ["id", "naam", "bouwsteen_type", "kern"],
       "properties": {
         "id":            { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
         "naam":          { "$ref": "#/$defs/naam_blok" },
-        "inhoud_type":   { "$ref": "#/$defs/inhoud_type" },
+        "bouwsteen_type":   { "$ref": "#/$defs/bouwsteen_type" },
         "kern":          { "$ref": "#/$defs/kern" },
         "grondslag":     { "$ref": "#/$defs/grondslag", "description": "Optionele grondslag voor het bestaan van deze bouwsteen zelf (los van zijn kern.definitie/substantie/rationale)." },
         "weergaven":     { "type": "array", "items": { "$ref": "#/$defs/weergave" }, "description": "Concrete presentaties: boeking, balans_snapshot, tabel, proza, etc. Vooral nuttig voor inhoud_type=formule/stap/regel waar concrete cases passen." },
@@ -426,7 +426,7 @@
       }
     },
 
-    "inhoud_type": {
+    "bouwsteen_type": {
       "type": "string",
       "enum": [
         "begrip",
