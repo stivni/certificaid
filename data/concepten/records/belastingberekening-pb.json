@@ -1,0 +1,111 @@
+{
+  "id": "belastingberekening-pb",
+  "naam": {
+    "primair": "Belastingberekening personenbelasting",
+    "synoniemen": [
+      "calcul de l'impôt IPP"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.XVI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (-pb behouden: PB-specifieke berekening, ≠ VenB)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Tariefschijven progressief (5 schijven van 25% tot 50% — geïndexeerd jaarlijks)",
+        "Cascade: belastbaar inkomen → schijven → basisbelasting → vermindering BVS → federale verminderingen → gewest-verminderingen → afzonderlijke tarieven (bonus · stopzetting · roerend) → aanvullende gemeentebelasting → netto-aanslag",
+        "Samenvoeging echtgenoten / wettelijk-samenwonenden",
+        "Gewest-decimes-impact op berekening (gewestelijke fiscale autonomie)",
+        "Specifieke berekening voor afzonderlijke tarieven (16,5% · 25% · 33%)",
+        "Voorheffingen-aanrekening: BV · RV (indien aangegeven) · voorafbetalingen"
+      ],
+      "out": [
+        {
+          "topic": "Aangifte als input (vakken/codes)",
+          "richting": "moet-verwijzen",
+          "ref": "aangifte-pb"
+        },
+        {
+          "topic": "Aanslagbiljet als output",
+          "richting": "moet-verwijzen",
+          "ref": "aanslagbiljet-pb"
+        },
+        {
+          "topic": "Belastingvrije som-mechaniek",
+          "richting": "moet-verwijzen",
+          "ref": "belastingvrije-som"
+        },
+        {
+          "topic": "Aanvullende gemeentebelasting + gewest-decimes",
+          "richting": "moet-verwijzen",
+          "ref": "aanvullende-gemeentebelasting-pb"
+        },
+        {
+          "topic": "Concrete schijfbedragen (Cijferzakboekje)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 130-178"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "aangifte-pb"
+    },
+    {
+      "type": "triggert",
+      "target": "aanslagbiljet-pb"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "belastbare-grondslag-vennootschapsbelasting"
+    }
+  ]
+}

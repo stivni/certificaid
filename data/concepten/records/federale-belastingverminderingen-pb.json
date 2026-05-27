@@ -1,0 +1,102 @@
+{
+  "id": "federale-belastingverminderingen-pb",
+  "naam": {
+    "primair": "Federale belastingverminderingen (PB)",
+    "synoniemen": [
+      "réductions d'impôt fédérales"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.XII",
+      "2.2.XIII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (-pb behouden: PB-specifiek)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Belastingverminderingen op federaal niveau (niet overgedragen aan gewesten)",
+        "Pensioensparen (3e pijler) — plafond geïndexeerd · 30%-vermindering",
+        "Langetermijnsparen — 30%-vermindering · plafond gerelateerd aan beroepsinkomen",
+        "Giften aan erkende federale instellingen (40%-vermindering · plafond)",
+        "Dienstencheques (federale luik — afgebouwd) · titres-services",
+        "Auteursrecht-regime (deels federaal · deels divers inkomen)",
+        "Onderzoek-en-ontwikkeling-bedrijven (specifieke verminderingen)",
+        "Mechaniek: vermindering op belasting (niet inkomen) — federaal deel cascade"
+      ],
+      "out": [
+        {
+          "topic": "Gewestelijke belastingverminderingen (parallelle cascade)",
+          "richting": "moet-verwijzen",
+          "ref": "gewestelijke-belastingverminderingen-pb"
+        },
+        {
+          "topic": "Belastingberekening-procedure (volgorde in cascade)",
+          "richting": "moet-verwijzen",
+          "ref": "belastingberekening-pb"
+        },
+        {
+          "topic": "Aftrekbare bestedingen (eerdere stap = aftrek van inkomen)",
+          "richting": "moet-verwijzen",
+          "ref": "aftrekbare-bestedingen-pb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 145/1 e.v."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gewestelijke-belastingverminderingen-pb"
+    },
+    {
+      "type": "triggert",
+      "target": "belastingberekening-pb"
+    }
+  ]
+}

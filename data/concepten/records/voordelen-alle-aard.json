@@ -1,0 +1,124 @@
+{
+  "id": "voordelen-alle-aard",
+  "naam": {
+    "primair": "Voordelen alle aard",
+    "afkorting": "VAA",
+    "synoniemen": [
+      "avantages de toute nature",
+      "ATN",
+      "voordelen in natura"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.VI.A"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-filter-record: overzicht VAA-fenomenen; details in eigen records per VAA-type"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Filter-categorie: overzicht alle VAA-fenomenen (geen inhoudelijke details — die wonen in eigen records)",
+        "Formule-overzicht: forfaitaire ramingen vs werkelijke waarde",
+        "VAA als component beroepsinkomen (toegevoegd aan bruto-loon werknemer/bedrijfsleider)",
+        "Aansprakelijkheid werkgever voor BV inhouding op VAA",
+        "RSZ-onderwerping van VAA (deels gelijklopend met fiscaal, maar niet identiek)"
+      ],
+      "out": [
+        {
+          "topic": "VAA bedrijfswagen + brandstofkaart",
+          "richting": "moet-verwijzen",
+          "ref": "autokosten"
+        },
+        {
+          "topic": "VAA woning (gratis bewoning of huurkorting)",
+          "richting": "moet-verwijzen",
+          "ref": "vaa-woning"
+        },
+        {
+          "topic": "VAA PC + smartphone + tablet + internet",
+          "richting": "moet-verwijzen",
+          "ref": "vaa-pc-en-communicatie"
+        },
+        {
+          "topic": "VAA renteloze lening / lening aan voordelig tarief",
+          "richting": "moet-verwijzen",
+          "ref": "vaa-renteloze-lening"
+        },
+        {
+          "topic": "VAA verwarming + elektriciteit",
+          "richting": "moet-verwijzen",
+          "ref": "vaa-verwarming-en-elektriciteit"
+        },
+        {
+          "topic": "Werknemers-vergoedingen-overzicht (Σ alle vergoedingsvormen)",
+          "richting": "moet-verwijzen",
+          "ref": "werknemers-vergoedingen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 36 + KB/WIB art 18"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "beroepsinkomen-pb"
+    },
+    {
+      "type": "bevat",
+      "target": "vaa-woning"
+    },
+    {
+      "type": "bevat",
+      "target": "vaa-pc-en-communicatie"
+    },
+    {
+      "type": "bevat",
+      "target": "vaa-renteloze-lening"
+    },
+    {
+      "type": "bevat",
+      "target": "vaa-verwarming-en-elektriciteit"
+    }
+  ]
+}

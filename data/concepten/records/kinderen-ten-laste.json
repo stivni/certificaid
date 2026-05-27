@@ -1,0 +1,93 @@
+{
+  "id": "kinderen-ten-laste",
+  "naam": {
+    "primair": "Kinderen ten laste"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.III",
+      "2.2.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Voorwaarden om kind fiscaal ten laste te nemen (deel uitmaken gezin · netto-bestaansmiddelen-plafond · leeftijd)",
+        "Verhoging belastingvrije som per kind (oplopend voor 1 → 4+ kinderen + zwaar gehandicapt kind)",
+        "Co-ouderschap-toerekening: 50-50-verdeling fiscale voordelen",
+        "Bijzondere categorieën: pleegkinderen · grootouders · ouders ten laste"
+      ],
+      "out": [
+        {
+          "topic": "Belastingvrije som basis + andere verhogingen (handicap belastingplichtige · leeftijd)",
+          "richting": "moet-verwijzen",
+          "ref": "belastingvrije-som"
+        },
+        {
+          "topic": "Gezinssituatie burgerlijke staat",
+          "richting": "moet-verwijzen",
+          "ref": "gezinssituatie"
+        },
+        {
+          "topic": "Kinderbijslag (sociaalrechtelijk, geen fiscaal)",
+          "richting": "niet-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 132-136"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "gezinssituatie"
+    },
+    {
+      "type": "triggert",
+      "target": "belastingvrije-som"
+    }
+  ]
+}

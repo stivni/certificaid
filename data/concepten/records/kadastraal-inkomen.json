@@ -1,0 +1,97 @@
+{
+  "id": "kadastraal-inkomen",
+  "naam": {
+    "primair": "Kadastraal inkomen",
+    "afkorting": "KI",
+    "synoniemen": [
+      "revenu cadastral"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.V",
+      "2.2.V.A",
+      "2.7.II.A",
+      "2.7.II.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (shared met lokale-en-regionale-belastingen)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Wettelijke vaststelling KI door AAPD/Kadaster: geraamd jaarlijks netto-huur 1975",
+        "Revaluatie: KI bij verbouwingen / nieuwbouw / nieuwe perceelsindeling",
+        "Perequatie-historiek: algemene KI-herziening (laatste 1980, telkens uitgesteld)",
+        "Indexeringscoëfficiënt KI (jaarlijks via KB)",
+        "Bezwaar tegen KI bij AAPD",
+        "Basis voor: onroerend-inkomen PB + onroerende voorheffing + lokale heffingen"
+      ],
+      "out": [
+        {
+          "topic": "Toepassing in PB-onroerend-inkomen (brutering)",
+          "richting": "moet-verwijzen",
+          "ref": "onroerend-inkomen-pb"
+        },
+        {
+          "topic": "Onroerende voorheffing als gewest-belasting op KI",
+          "richting": "moet-verwijzen",
+          "ref": "onroerende-voorheffing"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 471-504 + KB Kadaster"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "triggert",
+      "target": "onroerende-voorheffing"
+    },
+    {
+      "type": "triggert",
+      "target": "onroerend-inkomen-pb"
+    }
+  ]
+}

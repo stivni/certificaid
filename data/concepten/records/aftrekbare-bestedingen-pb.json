@@ -1,0 +1,101 @@
+{
+  "id": "aftrekbare-bestedingen-pb",
+  "naam": {
+    "primair": "Aftrekbare bestedingen (PB)",
+    "synoniemen": [
+      "dépenses déductibles"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.XI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (-pb behouden: PB-specifieke categorie, art 104 WIB)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Aftrekken van totaal-inkomen (art 104 WIB) — niet te verwarren met belastingverminderingen (latere stap)",
+        "Categorieën: onderhoudsuitkeringen betaald (80%) · giften erkende instellingen · andere wettelijk voorziene aftrekken",
+        "Mechaniek: vermindert belastbaar inkomen (= belastingbesparing aan marginaal tarief)",
+        "Voorwaarden: bewijsstukken · plafond per categorie · gemeenschappelijke aanslag-uitsplitsing"
+      ],
+      "out": [
+        {
+          "topic": "Onderhoudsuitkering symmetrisch fenomeen",
+          "richting": "moet-verwijzen",
+          "ref": "onderhoudsuitkering"
+        },
+        {
+          "topic": "Gewest-belastingverminderingen (latere stap in berekening)",
+          "richting": "moet-verwijzen",
+          "ref": "gewestelijke-belastingverminderingen-pb"
+        },
+        {
+          "topic": "Federale belastingverminderingen",
+          "richting": "moet-verwijzen",
+          "ref": "federale-belastingverminderingen-pb"
+        },
+        {
+          "topic": "Belastingberekening-procedure (waar deze aftrek in cascade past)",
+          "richting": "moet-verwijzen",
+          "ref": "belastingberekening-pb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 104"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "bevat",
+      "target": "onderhoudsuitkering"
+    },
+    {
+      "type": "triggert",
+      "target": "belastingberekening-pb"
+    }
+  ]
+}

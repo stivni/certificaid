@@ -1,0 +1,102 @@
+{
+  "id": "voorheffingen-en-verrekeningen-venb",
+  "naam": {
+    "primair": "Voorheffingen en verrekeningen (VenB)",
+    "synoniemen": [
+      "précomptes et imputations ISoc"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.J"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (-venb behouden voorlopig, OP-VB.A pending: mogelijke rename of split)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "FBB (forfaitair gedeelte buitenlandse belasting): verrekening buitenlandse bronheffing tegen Belgische VenB",
+        "RV-verrekening: roerende voorheffing op binnenkomende dividenden/interesten verrekenbaar tegen VenB",
+        "BV-verrekening: bedrijfsvoorheffing op uitgekeerde bezoldigingen → niet relevant voor VenB-aftrek (wel voor PB-aanrekening werknemer)",
+        "Voorafbetalingen-verrekening (cross naar voorafbetalingen)",
+        "Wetgevings-logica fundamenteel anders dan PB-aftrek-cascade → géén generieke samenvoeging mogelijk"
+      ],
+      "out": [
+        {
+          "topic": "Voorafbetalingen (generiek + VenB-perspectief)",
+          "richting": "moet-verwijzen",
+          "ref": "voorafbetalingen"
+        },
+        {
+          "topic": "Roerende voorheffing (instrument)",
+          "richting": "moet-verwijzen",
+          "ref": "roerende-voorheffing"
+        },
+        {
+          "topic": "Bedrijfsvoorheffing (instrument)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsvoorheffing"
+        },
+        {
+          "topic": "DBI-aftrek (vrijstelling vs FBB-verrekening)",
+          "richting": "mag-verwijzen",
+          "ref": "dbi-aftrek"
+        },
+        {
+          "topic": "Internationaal-fiscaal kader",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 276-296"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "voorafbetalingen"
+    }
+  ]
+}

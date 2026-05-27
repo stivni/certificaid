@@ -1,0 +1,175 @@
+{
+  "id": "bijzondere-aanslagen-venb",
+  "naam": {
+    "primair": "Bijzondere aanslagen (VenB)",
+    "synoniemen": [
+      "afzonderlijke aanslagen VenB",
+      "cotisations distinctes ISoc"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.H"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-familie-Σ aangemaakt (absorbeert geheime-commissielonen als sub-sectie)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-familie-overzicht: 4 hoofdtypen afzonderlijke aanslagen VenB",
+        "Sub-sectie #geheime-commissielonen: art 219 WIB — 100%-aanslag (50% verhoogd bij verbonden persoon) · cascade verworpen-uitgaven · 'voldoende bekend gemaakt'-uitzondering",
+        "Sub-sectie #onaftrekbare-aftrekken-aanslag: art 219ter WIB",
+        "Sub-sectie #liquidatie-aanslag",
+        "Sub-sectie #andere bijzondere aanslagen (mobiliseringsbedrag · verbeurdverklaarde aandelen · ...)",
+        "Gemeenschappelijk kenmerk: niet via gewone tarief maar afzonderlijk tarief op specifieke categorie"
+      ],
+      "out": [
+        {
+          "topic": "Beroepskosten en bezoldigingen die geheime-commissielonen kunnen vormen",
+          "richting": "mag-verwijzen",
+          "ref": "beroepskosten"
+        },
+        {
+          "topic": "Bedrijfsleidersbezoldiging (45.000-EUR-regel + art 219ter)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Verworpen uitgaven (cascade-aspect)",
+          "richting": "moet-verwijzen",
+          "ref": "verworpen-uitgaven"
+        },
+        {
+          "topic": "Geheime-commissielonen (bestaand apart record — beslissing: absorberen of behouden, mens-review)",
+          "richting": "mag-verwijzen",
+          "ref": "geheime-commissielonen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 219-219ter"
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "geheime-commissielonen-sub",
+        "naam": {
+          "primair": "Geheime commissielonen"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — art 219 WIB · 100%-aanslag (50% verhoogd bij verbonden persoon) · 'voldoende bekend gemaakt'-uitzondering",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "onaftrekbare-aftrekken-aanslag",
+        "naam": {
+          "primair": "Onaftrekbare aftrekken-aanslag"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — art 219ter WIB · bezoldigingsregel KMO-tarief verbonden",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "liquidatie-aanslag",
+        "naam": {
+          "primair": "Liquidatie-aanslag"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2 — afzonderlijk tarief bij vereffening van vennootschap",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "verworpen-uitgaven"
+    }
+  ]
+}

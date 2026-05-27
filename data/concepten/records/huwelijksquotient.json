@@ -1,0 +1,95 @@
+{
+  "id": "huwelijksquotient",
+  "naam": {
+    "primair": "Huwelijksquotient",
+    "synoniemen": [
+      "huwelijksquotiënt",
+      "quotient conjugal"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.III",
+      "2.2.IV",
+      "2.2.XVI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Inkomenstoerekening tussen echtgenoten / wettelijk-samenwonenden bij grote inkomensongelijkheid",
+        "30%-regel: 30% van beroepsinkomen hoogstverdiener wordt toegerekend aan andere echtgenoot",
+        "Plafond (geïndexeerd jaarlijks)",
+        "Voorwaarden: gemeenschappelijke aanslag · andere echtgenoot heeft beperkt eigen beroepsinkomen",
+        "Effect op belastingberekening: verlaagt totale aanslag door benutting lagere schijven van minst-verdienende partner"
+      ],
+      "out": [
+        {
+          "topic": "Belastingberekening-procedure",
+          "richting": "moet-verwijzen",
+          "ref": "belastingberekening-pb"
+        },
+        {
+          "topic": "Gezinssituatie + voorwaarden gemeenschappelijke aanslag",
+          "richting": "moet-verwijzen",
+          "ref": "gezinssituatie"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 87-89"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "gezinssituatie"
+    },
+    {
+      "type": "triggert",
+      "target": "belastingberekening-pb"
+    }
+  ]
+}

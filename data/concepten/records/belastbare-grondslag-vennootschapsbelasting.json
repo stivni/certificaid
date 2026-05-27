@@ -1,0 +1,167 @@
+{
+  "id": "belastbare-grondslag-vennootschapsbelasting",
+  "naam": {
+    "primair": "Belastbare grondslag vennootschapsbelasting",
+    "synoniemen": [
+      "8 bewerkingen VenB",
+      "VenB-grondslagberekening"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II",
+      "2.3.II.B",
+      "2.3.II.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-procedure-Σ aangemaakt (absorbeert overgedragen-verliezen als sub-sectie; -vennootschapsbelasting-suffix behouden: unieke procedure)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Procedure 8 bewerkingen art 76-79 KB-WIB",
+        "Sequentie: boekhoudkundig resultaat → bewerking 1 (uiteenzetting reserves) → ... → 8 (belastbare grondslag)",
+        "Correctie-cascade voor belastbaar resultaat → grondslag → tarief",
+        "Sub-sectie #correctie-cascade: vrijgestelde reserves · verworpen uitgaven · DBI-aftrek · innovatie-aftrek · investeringsaftrek",
+        "Sub-sectie #overgedragen-verliezen (absorbed): art 206/207 WIB · 1M€-korf · 30%-aftrekbeperking >1M · anti-misbruik 207§7 · controle-wijziging cross fiscale-fusie-splitsing",
+        "Sub-sectie #specifieke-winstbestanddelen (II.C): meerwaarden · onderwaarderingen · liquidatie-aandelen"
+      ],
+      "out": [
+        {
+          "topic": "Verworpen uitgaven (familie-overzicht)",
+          "richting": "moet-verwijzen",
+          "ref": "verworpen-uitgaven"
+        },
+        {
+          "topic": "DBI-aftrek (concreet voordeel)",
+          "richting": "moet-verwijzen",
+          "ref": "dbi-aftrek"
+        },
+        {
+          "topic": "Investeringsaftrek",
+          "richting": "moet-verwijzen",
+          "ref": "investeringsaftrek"
+        },
+        {
+          "topic": "Innovatieaftrek",
+          "richting": "moet-verwijzen",
+          "ref": "innovatie-aftrek"
+        },
+        {
+          "topic": "Boekhouding-fiscaal correcties (input)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-boekhoud-correcties"
+        },
+        {
+          "topic": "Fiscale fusie/splitsing (impact controle-wijziging op overgedragen verliezen)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-fusie-splitsing"
+        },
+        {
+          "topic": "Abnormale of goedgunstige voordelen (correctie)",
+          "richting": "moet-verwijzen",
+          "ref": "abnormale-goedgunstige-voordelen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB-WIB art 76-79 + WIB art 183-207"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "overgedragen-verliezen",
+        "naam": {
+          "primair": "Overgedragen verliezen"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — art 206/207 WIB · 1M€-korf · 30%-aftrekbeperking >1M · anti-misbruik 207§7 · controle-wijziging-impact",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "specifieke-winstbestanddelen",
+        "naam": {
+          "primair": "Specifieke winstbestanddelen"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — meerwaarden · onderwaarderingen · liquidatie-aandelen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "fiscale-boekhoud-correcties"
+    },
+    {
+      "type": "triggert",
+      "target": "aangifte-vennootschapsbelasting"
+    }
+  ]
+}

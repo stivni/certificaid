@@ -1,0 +1,203 @@
+{
+  "id": "beroepskosten",
+  "naam": {
+    "primair": "Beroepskosten",
+    "synoniemen": [
+      "aftrekbare beroepskosten",
+      "frais professionnels"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.VI.B",
+      "2.2.taak.3",
+      "2.3.II.D",
+      "2.3.II.E"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "NIEUW generiek record (OP-PV.A toepassing): vervangt beroepskosten-regime-pb + aftrekbare-beroepskosten-venb. PB + VenB worden accountant_perspectieven."
+      }
+    ],
+    "scope": {
+      "in": [
+        "Generieke aftrekbaarheidstest art 49 WIB: (1) causaal verband met beroep · (2) werkelijk gedragen · (3) bewezen met documenten · (4) gedaan om belastbare inkomsten te verwerven/behouden",
+        "Forfait vs werkelijke kosten — keuze per categorie inkomen",
+        "Aftrekbaarheidspercentages: 50%-regel autokosten · 30%-restaurant · 100%-publiciteit · 100%-sociale-voordelen · 0%-boetes",
+        "Sociale + culturele voordelen aan personeel (geschenken, sport-cultuur-cheques)",
+        "Bewijslast en bewijsstukken (facturen + onkostennota's)",
+        "Verworpen uitgaven art 53 WIB (verzamelnaam niet-aftrekbare uitgaven — VenB-cascade)",
+        "PB-perspectief: keuze forfait (gestaffeld) vs werkelijk per categorie",
+        "VenB-perspectief: cascade verworpen-uitgaven binnen belastbare grondslag"
+      ],
+      "out": [
+        {
+          "topic": "Werknemersbezoldiging als beroepsinkomen waarop kosten aftrekbaar",
+          "richting": "moet-verwijzen",
+          "ref": "werknemersbezoldiging"
+        },
+        {
+          "topic": "Verworpen uitgaven cascade VenB",
+          "richting": "moet-verwijzen",
+          "ref": "verworpen-uitgaven"
+        },
+        {
+          "topic": "Autokosten + CO2-aftrekbeperking (mobiliteit-cluster)",
+          "richting": "moet-verwijzen",
+          "ref": "autokosten"
+        },
+        {
+          "topic": "Beroepsinkomen-overzicht",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsinkomen-pb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 — nieuw generiek record dat zowel PB- als VenB-perspectief draagt (OP-PV.A toepassing)",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 49-66"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "art49-aftrekbaarheidstest",
+        "naam": {
+          "primair": "Vier-voorwaarden-test art 49 WIB"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — 4 cumulatieve voorwaarden: causaal verband · werkelijk gedragen · bewezen · gedaan voor verwerving/behoud belastbaar inkomen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "50-regel-autokosten",
+        "naam": {
+          "primair": "50%-aftrekbaarheidsregel autokosten"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — autokosten basis 50%-aftrekbaar in PB, CO2-gemoduleerd in VenB",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "30-restaurant-aftrek",
+        "naam": {
+          "primair": "30%-aftrek restaurantkosten"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "forfait-werknemer",
+        "naam": {
+          "primair": "Forfaitaire beroepskosten werknemer/bedrijfsleider"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — gestaffeld forfait per inkomensbracket (art 51 WIB)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "triggert",
+      "target": "verworpen-uitgaven"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "verworpen-uitgaven"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "beroepsinkomen-pb",
+  "naam": {
+    "primair": "Beroepsinkomen (PB)",
+    "synoniemen": [
+      "revenu professionnel"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.VI",
+      "2.2.VI.A",
+      "2.2.VI.B",
+      "2.2.X"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-Σ-record voor inkomstencategorie III beroepsinkomen — kaderoverzicht 5 sub-categorieën"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht beroepsinkomen-categorie (art 23-89 WIB)",
+        "5 sub-categorieën: bezoldigingen werknemers · bezoldigingen bedrijfsleiders · winst (handelaar) · baten (vrije beroepen) · vervangingsinkomsten (pensioenen · werkloosheid)",
+        "Brutering → aftrek beroepskosten (forfait of werkelijk) → netto beroepsinkomen",
+        "Indexatie barema's + plafonds (jaarlijks)",
+        "Bezoldigingsregel KMO-VenB cross (bedrijfsleider-loon minimum)",
+        "Voordelen-alle-aard als component (cross-categorie)"
+      ],
+      "out": [
+        {
+          "topic": "Werknemersbezoldiging detail (loon · vakantiegeld · eindejaarspremie · opzegvergoeding)",
+          "richting": "moet-verwijzen",
+          "ref": "werknemersbezoldiging"
+        },
+        {
+          "topic": "Bedrijfsleidersbezoldiging detail (45.000-EUR-regel · bezoldigingstheorie)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Winst/baten zelfstandige",
+          "richting": "moet-verwijzen",
+          "ref": "winst-baten-zelfstandige"
+        },
+        {
+          "topic": "Beroepskosten aftrekbaarheid (forfait vs werkelijk)",
+          "richting": "moet-verwijzen",
+          "ref": "beroepskosten"
+        },
+        {
+          "topic": "Stopzettingsmeerwaarde bij cessatie",
+          "richting": "moet-verwijzen",
+          "ref": "stopzettingsmeerwaarde"
+        },
+        {
+          "topic": "Voordelen-alle-aard (filter-overzicht)",
+          "richting": "moet-verwijzen",
+          "ref": "voordelen-alle-aard"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 23-89"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "bevat",
+      "target": "werknemersbezoldiging"
+    },
+    {
+      "type": "bevat",
+      "target": "bedrijfsleidersbezoldiging"
+    },
+    {
+      "type": "bevat",
+      "target": "winst-baten-zelfstandige"
+    },
+    {
+      "type": "vereist",
+      "target": "beroepskosten"
+    }
+  ]
+}

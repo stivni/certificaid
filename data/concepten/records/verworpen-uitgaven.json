@@ -1,0 +1,108 @@
+{
+  "id": "verworpen-uitgaven",
+  "naam": {
+    "primair": "Verworpen uitgaven",
+    "afkorting": "VU",
+    "synoniemen": [
+      "dépenses non admises",
+      "DNA",
+      "niet-aftrekbare uitgaven VenB"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.D",
+      "2.3.II.E"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-familie-Σ aangemaakt (overzicht niet-aftrekbare uitgaven; autokosten-VU als VenB-perspectief op autokosten, niet sub-sectie)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Familie-overzicht: 11 categorieën niet-aftrekbare uitgaven art 53-66 WIB",
+        "Keuze-categorie binnen belastbare-grondslag-cascade (bewerking 2 art 76 KB-WIB)",
+        "Categorieën: VU-autokosten (cross via perspectief autokosten) · VU-restaurant · VU-receptie-geschenken · VU-boetes art 198 · VU-abnormale voordelen · VU-niet-bewezen kosten · VU-eigen-loonkosten · VU-vrijwillige aanvullende pensioenen · ...",
+        "Bewijslast: belastingplichtige toont aftrekbaarheid + bedrag",
+        "Cascade-effect: VU verhoogt belastbare grondslag → meer VenB",
+        "Cross-link met beroepskosten (PB-perspectief op zelfde uitgaven)"
+      ],
+      "out": [
+        {
+          "topic": "Beroepskosten (generieke aftrekbaarheidstest art 49 WIB)",
+          "richting": "moet-verwijzen",
+          "ref": "beroepskosten"
+        },
+        {
+          "topic": "Autokosten-CO2-aftrekbeperking (VenB-perspectief op autokosten)",
+          "richting": "moet-verwijzen",
+          "ref": "autokosten"
+        },
+        {
+          "topic": "Bijzondere aanslagen (cross: VU-onaftrekbare-aftrekken)",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-aanslagen-venb"
+        },
+        {
+          "topic": "Belastbare grondslag (cascade)",
+          "richting": "moet-verwijzen",
+          "ref": "belastbare-grondslag-vennootschapsbelasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 53-66 + art 198"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "valt_onder",
+      "target": "belastbare-grondslag-vennootschapsbelasting"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "beroepskosten"
+    }
+  ]
+}

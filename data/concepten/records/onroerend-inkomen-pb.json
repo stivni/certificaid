@@ -1,0 +1,110 @@
+{
+  "id": "onroerend-inkomen-pb",
+  "naam": {
+    "primair": "Onroerend inkomen (PB)",
+    "synoniemen": [
+      "vastgoed-inkomen PB",
+      "huurinkomen PB"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.V",
+      "2.2.V.A",
+      "2.2.V.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Eerste inkomstencategorie PB (art 7-16 WIB)",
+        "Onderscheid eigen woning (vrijgesteld of gewestelijk geregeld) vs verhuurde woning vs beroepsmatig gebruik",
+        "Brutering KI bij verhuur aan particulier: KI x indexering x 1,40",
+        "Verhuur aan beroepsmatige huurder: bruto-huur min forfait/werkelijk",
+        "Indexeringscoëfficiënt KI (jaarlijks)",
+        "Bouwgrond en niet-bebouwde percelen: KI-basis"
+      ],
+      "out": [
+        {
+          "topic": "Kadastraal inkomen als basis-grootheid",
+          "richting": "moet-verwijzen",
+          "ref": "kadastraal-inkomen"
+        },
+        {
+          "topic": "Onroerende voorheffing als gewest-belasting met PB-verrekening",
+          "richting": "moet-verwijzen",
+          "ref": "onroerende-voorheffing"
+        },
+        {
+          "topic": "Eigen-woning vrijstelling + woonbonus + overgangsregimes",
+          "richting": "moet-verwijzen",
+          "ref": "eigen-woning-fiscaal"
+        },
+        {
+          "topic": "Aankoop/verkoop onroerend goed (registratierechten)",
+          "richting": "mag-verwijzen",
+          "ref": "registratie-en-successierechten"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 7-16"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "kadastraal-inkomen"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "onroerende-voorheffing"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "roerend-inkomen-pb"
+    }
+  ]
+}

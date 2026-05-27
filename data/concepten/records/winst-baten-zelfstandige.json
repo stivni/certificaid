@@ -1,0 +1,107 @@
+{
+  "id": "winst-baten-zelfstandige",
+  "naam": {
+    "primair": "Winst en baten zelfstandige",
+    "synoniemen": [
+      "winst handelaar",
+      "baten vrij beroep",
+      "zelfstandigen-inkomen"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.VI",
+      "2.2.VI.A",
+      "2.2.X"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (rename van winst-baten-zelfstandige-pb: fenomeen leeft ook in BNI, suffix weg)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Onderscheid winst (handelaar, art 24-25 WIB) vs baten (vrije beroepen, art 27-28 WIB)",
+        "Bepaling netto-beroepsinkomen: bruto → aftrek beroepskosten (forfait of werkelijk) → netto",
+        "Forfaitaire grondslagen voor specifieke beroepen (verlaagd of opgeheven sinds 2018)",
+        "Aftrek sociale bijdragen zelfstandige (VAPZ + sociale-zekerheidsbijdragen)",
+        "Bepaling beroepsinkomen bij gemengde activiteit (privé/beroep)",
+        "Inventarisatie + balans bij dubbele boekhouding (cross handelaars)"
+      ],
+      "out": [
+        {
+          "topic": "Beroepskosten-aftrekbaarheidstest",
+          "richting": "moet-verwijzen",
+          "ref": "beroepskosten"
+        },
+        {
+          "topic": "Stopzettingsmeerwaarde bij cessatie eenmanszaak",
+          "richting": "moet-verwijzen",
+          "ref": "stopzettingsmeerwaarde"
+        },
+        {
+          "topic": "Voorafbetalingen-regeling zelfstandigen (3e-jaar-verplicht)",
+          "richting": "moet-verwijzen",
+          "ref": "voorafbetalingen"
+        },
+        {
+          "topic": "VenB-toepassing voor vennootschap-vorm",
+          "richting": "mag-verwijzen",
+          "ref": "vennootschapsbelasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 23-28"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "beroepsinkomen-pb"
+    },
+    {
+      "type": "vereist",
+      "target": "beroepskosten"
+    },
+    {
+      "type": "triggert",
+      "target": "stopzettingsmeerwaarde"
+    }
+  ]
+}

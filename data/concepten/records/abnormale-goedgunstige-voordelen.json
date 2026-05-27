@@ -1,0 +1,100 @@
+{
+  "id": "abnormale-goedgunstige-voordelen",
+  "naam": {
+    "primair": "Abnormale of goedgunstige voordelen",
+    "synoniemen": [
+      "AGV",
+      "avantages anormaux ou bénévoles"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.II.B",
+      "2.3.II.C"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (shared anti-misbruik + internationaal-fiscaal)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Art 26 WIB: abnormale of goedgunstige voordelen verleend → toegevoegd aan eigen winst (correctie naar boven)",
+        "Art 79 WIB: abnormale of goedgunstige voordelen ontvangen → niet aftrekbaar van eigen verlies",
+        "Toetssteen: arm's length-principe (zoals tussen onafhankelijke partijen)",
+        "Toepassingsgebied: verbonden vennootschappen (binnenland + grensoverschrijdend)",
+        "Bewijslast: administratie moet aantonen abnormaliteit (afwijking marktconforme)",
+        "Cross-link transfer pricing (internationale dimensie)"
+      ],
+      "out": [
+        {
+          "topic": "Transfer pricing als breder kader",
+          "richting": "moet-verwijzen",
+          "ref": "transfer-pricing"
+        },
+        {
+          "topic": "Algemene anti-misbruik bepaling",
+          "richting": "mag-verwijzen",
+          "ref": "algemene-anti-misbruik-bepaling"
+        },
+        {
+          "topic": "Belastbare grondslag (correctie-cascade)",
+          "richting": "moet-verwijzen",
+          "ref": "belastbare-grondslag-vennootschapsbelasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 26 + 79"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "transfer-pricing"
+    },
+    {
+      "type": "triggert",
+      "target": "belastbare-grondslag-vennootschapsbelasting"
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "id": "personenbelasting",
+  "naam": {
+    "primair": "Personenbelasting",
+    "afkorting": "PB",
+    "synoniemen": [
+      "impôt des personnes physiques",
+      "IPP"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.I",
+      "2.2.II",
+      "2.2.III",
+      "2.2.IV",
+      "2.2.taak.1",
+      "2.2.taak.2",
+      "2.2.taak.4"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt als Σ-hoofdrecord PO 2.2 (absorbeert inkomstencategorieen-pb als sub-sectie)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht sub-discipline personenbelasting (PO 2.2)",
+        "Belastingplichtige PB (rijksinwoner art 3-3bis WIB · aanknopingspunt · woonplaats vs zetel fortuin)",
+        "Gezinslast + inkomenstoerekening (huwelijksquotient · echtgenoten-samenvoeging)",
+        "4 inkomenscategorieën-overzicht: onroerend · roerend · beroepsinkomen · diverse inkomsten",
+        "Aanslagjaar vs inkomstenjaar (AJ=IJ+1)",
+        "Aangifteplicht (algemeen)",
+        "Aanvullende gemeentebelasting + gewest-decimes (impact op tarief)",
+        "Cascade aftrekken-en-verminderingen (federaal + gewestelijk) → tarief → belastingberekening"
+      ],
+      "out": [
+        {
+          "topic": "Detail-uitwerking inkomstencategorieën",
+          "richting": "moet-verwijzen",
+          "ref": "onroerend-inkomen-pb"
+        },
+        {
+          "topic": "Beroepsinkomen-overzicht (5 categorieën)",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsinkomen-pb"
+        },
+        {
+          "topic": "Roerend inkomen (dividenden · interesten · royalty's)",
+          "richting": "moet-verwijzen",
+          "ref": "roerend-inkomen-pb"
+        },
+        {
+          "topic": "Diverse inkomsten art 90 WIB",
+          "richting": "moet-verwijzen",
+          "ref": "diverse-inkomsten-pb"
+        },
+        {
+          "topic": "Aangifte-proces deel 1 + 2 (vakken/codes/termijnen)",
+          "richting": "moet-verwijzen",
+          "ref": "aangifte-pb"
+        },
+        {
+          "topic": "Belastingberekening-procedure (schijven · samenvoeging · verminderingen)",
+          "richting": "moet-verwijzen",
+          "ref": "belastingberekening-pb"
+        },
+        {
+          "topic": "Aanslagbiljet + invordering",
+          "richting": "moet-verwijzen",
+          "ref": "aanslagbiljet-pb"
+        },
+        {
+          "topic": "Vennootschapsbelasting (paralllele sub-discipline)",
+          "richting": "mag-verwijzen",
+          "ref": "vennootschapsbelasting"
+        },
+        {
+          "topic": "Algemene fiscale procedure (bezwaar · controle · sancties)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-procedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 1-178 + KB-WIB"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "inkomstencategorieen-overzicht",
+        "naam": {
+          "primair": "Vier inkomenscategorieën PB"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — 4-categorieën-matrix (onroerend · roerend · beroeps · diverse) + brutering/netto-bepaling/tarifering per categorie",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanslagjaar-vs-inkomstenjaar",
+        "naam": {
+          "primair": "Aanslagjaar vs inkomstenjaar"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — AJ = IJ+1 voor natuurlijke personen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aangifteplicht-pb",
+        "naam": {
+          "primair": "Aangifteplicht PB"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — wie moet aangifte indienen, vrijstellingen",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanvullende-gemeentebelasting-mechaniek",
+        "naam": {
+          "primair": "Aanvullende gemeentebelasting + gewest-decimes"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — opslag op federale PB door gemeente + gewest-impact",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rijksinwoner-aanknopingspunt",
+        "naam": {
+          "primair": "Rijksinwoner / belastingplichtige PB"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — woonplaats vs zetel-fortuin, art 3-3bis WIB",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "bevat",
+      "target": "onroerend-inkomen-pb"
+    },
+    {
+      "type": "bevat",
+      "target": "roerend-inkomen-pb"
+    },
+    {
+      "type": "bevat",
+      "target": "beroepsinkomen-pb"
+    },
+    {
+      "type": "bevat",
+      "target": "diverse-inkomsten-pb"
+    },
+    {
+      "type": "triggert",
+      "target": "aangifte-pb"
+    },
+    {
+      "type": "triggert",
+      "target": "belastingberekening-pb"
+    }
+  ]
+}

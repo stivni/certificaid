@@ -1,0 +1,167 @@
+{
+  "id": "voorafbetalingen",
+  "naam": {
+    "primair": "Voorafbetalingen",
+    "synoniemen": [
+      "VA",
+      "versements anticipés"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.XV",
+      "2.3.II.J"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (NIEUW generiek + 2 perspectieven PB/VenB — OP-PB.B resolutie: rename voorafbetalingen-vennootschapsbelasting + absorbeert voorafbetalingen-pb)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Generieke 4-kwartalen-structuur: VA1 (10 april) · VA2 (10 juli) · VA3 (10 oktober) · VA4 (20 december)",
+        "Vermeerderings-regel bij niet of onvoldoende voorafbetaling: percentage vermeerdering toegepast op verschuldigde belasting",
+        "Kwartaal-percentages voor vermeerderings-bonificatie (decreschdo: 9% · 7,5% · 6% · 4,5% — illustratief, indexeerbaar)",
+        "PB-perspectief: zelfstandigen-verplicht vanaf 3e jaar activiteit · 3%-bonificatie · forfaitaire plafonds",
+        "VenB-perspectief: verplicht voor alle vennootschappen · bezoldigingsregel (20% van bezoldiging bedrijfsleider als VA toepassen) · geen 3%-bonificatie",
+        "Wettelijke logica (4 kwartalen + vermeerdering) identiek tussen PB/VenB; percentages + uitzonderingen verschillen via perspectief"
+      ],
+      "out": [
+        {
+          "topic": "Voorheffingen-en-verrekeningen-VenB (bredere context VenB)",
+          "richting": "moet-verwijzen",
+          "ref": "voorheffingen-en-verrekeningen-venb"
+        },
+        {
+          "topic": "Belastingberekening-PB (PB-aanrekening)",
+          "richting": "moet-verwijzen",
+          "ref": "belastingberekening-pb"
+        },
+        {
+          "topic": "Concrete kwartaal-percentages (Cijferzakboekje)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 — generiek voorafbetalingen-record met PB- en VenB-perspectieven (OP-PB.B resolutie)",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 157-168 + 218"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "4-kwartalen-vermeerdering",
+        "naam": {
+          "primair": "4-kwartalen-vermeerderingsregel"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — vermeerdering toegepast op verschuldigde belasting indien geen of onvoldoende VA; bonificatie per kwartaal-VA neemt af",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "zelfstandigen-3e-jaar-verplicht",
+        "naam": {
+          "primair": "Zelfstandigen-verplicht-3e-jaar (PB)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — zelfstandigen verplicht VA te doen vanaf 3e jaar activiteit (PB-specifiek)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bezoldigingsregel-venb",
+        "naam": {
+          "primair": "Bezoldigingsregel VA (VenB)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — VenB-vermeerdering kan vermeden via VA = % van bezoldiging bedrijfsleider",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "belastingberekening-pb"
+    }
+  ]
+}

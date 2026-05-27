@@ -1,0 +1,111 @@
+{
+  "id": "aangifte-vennootschapsbelasting",
+  "naam": {
+    "primair": "Aangifte vennootschapsbelasting",
+    "synoniemen": [
+      "VenB-aangifte",
+      "Biztax",
+      "déclaration ISoc"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling",
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.3.taak.4",
+      "2.3.II"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (-vennootschapsbelasting-suffix behouden: PB-pendant heet aangifte-pb)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Biztax-platform (online — verplicht voor vennootschappen) — verplicht elektronisch",
+        "Forms: 275.1 (VenB) · 275.2 (BNI/ven) · bijhorende bijlagen",
+        "Termijn: indiening binnen 7 maanden na afsluiting boekjaar (rekening houdend met AV-goedkeuring jaarrekening)",
+        "Vakken-structuur: belastbaar resultaat · 8 bewerkingen · aftrekken · tarief-toepassing · voorheffingen-aanrekening",
+        "Bijlagen: jaarrekening · verklaring transfer pricing (TP-form 275 MF/LF) bij multinationals · DBI-tabel · investeringsaftrek-tabel · ...",
+        "Sancties bij laattijdige indiening of niet-indiening: ambtshalve aanslag + boetes"
+      ],
+      "out": [
+        {
+          "topic": "Belastbare grondslag (input voor aangifte)",
+          "richting": "moet-verwijzen",
+          "ref": "belastbare-grondslag-vennootschapsbelasting"
+        },
+        {
+          "topic": "Aanslag-cyclus (generiek)",
+          "richting": "moet-verwijzen",
+          "ref": "aanslag-cyclus"
+        },
+        {
+          "topic": "Algemene fiscale procedure",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-procedure"
+        },
+        {
+          "topic": "Aangifte personenbelasting (PB-pendant)",
+          "richting": "mag-verwijzen",
+          "ref": "aangifte-pb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 305 + KB-Biztax"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "belastbare-grondslag-vennootschapsbelasting"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "aangifte-pb"
+    },
+    {
+      "type": "triggert",
+      "target": "aanslag-cyclus"
+    }
+  ]
+}

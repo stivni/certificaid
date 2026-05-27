@@ -1,0 +1,105 @@
+{
+  "id": "fiscale-boekhoud-correcties",
+  "naam": {
+    "primair": "Fiscale boekhoud-correcties",
+    "synoniemen": [
+      "correcties boekhouding-fiscaal",
+      "boekhoudkundig-fiscaal verband"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (rename van boekhoudkundig-fiscaal-attachment: -attachment-Engels-suffix-smell weg)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Primauteit boekhouding: fiscaal volgt boekhouding tenzij wettelijk anders bepaald",
+        "Permanente vs tijdelijke verschillen: definitie + voorbeelden + impact op uitgestelde belastingen",
+        "Waarderingsregel-correcties: afschrijvingen · voorzieningen · waardeverminderingen → fiscaal aftrekbaar of niet?",
+        "Correctie-cascade: van boekhoudkundig resultaat → bewerkingen → belastbare grondslag",
+        "Cross naar belastbare-grondslag-vennootschapsbelasting (concrete 8 bewerkingen)",
+        "Cross naar uitgestelde-belastingen (boekhoudkundige impact tijdelijke verschillen)"
+      ],
+      "out": [
+        {
+          "topic": "Concrete cascade-stappen 8 bewerkingen",
+          "richting": "moet-verwijzen",
+          "ref": "belastbare-grondslag-vennootschapsbelasting"
+        },
+        {
+          "topic": "Verworpen uitgaven als primaire correctie-categorie",
+          "richting": "moet-verwijzen",
+          "ref": "verworpen-uitgaven"
+        },
+        {
+          "topic": "Uitgestelde belastingen (boekhoudkundig)",
+          "richting": "moet-verwijzen",
+          "ref": "uitgestelde-belastingen"
+        },
+        {
+          "topic": "Boekhoudbeginselen als fundament",
+          "richting": "mag-verwijzen",
+          "ref": "boekhoudbeginselen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 24 + jurisprudentie primauteit-boekhouding"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vennootschapsbelasting"
+    },
+    {
+      "type": "triggert",
+      "target": "belastbare-grondslag-vennootschapsbelasting"
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudbeginselen"
+    }
+  ]
+}

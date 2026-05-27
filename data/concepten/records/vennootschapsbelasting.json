@@ -1,0 +1,272 @@
+{
+  "id": "vennootschapsbelasting",
+  "naam": {
+    "primair": "Vennootschapsbelasting",
+    "afkorting": "VenB",
+    "synoniemen": [
+      "impôt des sociétés",
+      "ISoc"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.3.I",
+      "2.3.II",
+      "2.3.II.A",
+      "2.3.II.H",
+      "2.3.III",
+      "2.3.III.C",
+      "2.3.taak.1",
+      "2.3.taak.2",
+      "2.3.taak.4"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-Σ-hoofdrecord PO 2.3 (absorbeert toepassingsgebied-vennootschapsbelasting + fiscale-aandachtspunten-herstructurering als sub-secties; #tarief als nieuwe sub-sectie)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht sub-discipline vennootschapsbelasting (PO 2.3)",
+        "Toepassingsgebied: binnenlandse vs buitenlandse vennootschap · resident vs niet-resident · zetel + werkelijke leiding (art 179 WIB)",
+        "Grondslag-mechaniek: boekhoudkundig resultaat → 8 bewerkingen → belastbare grondslag",
+        "Correctie-cascade: vrijgestelde reserves · verworpen uitgaven · DBI-aftrek · innovatie-aftrek · investeringsaftrek",
+        "Tariefstructuur: 25% basistarief sinds AJ 2021 · 20% KMO-tarief (cross verlaagd-tarief-kleine-vennootschap) · historiek crisisbijdrage afgeschaft AJ 2021",
+        "Bijzondere aanslagen: geheime commissielonen · onaftrekbare aftrekken · liquidatie",
+        "Voorheffingen + verrekeningen + voorafbetalingen",
+        "Aangifte (Biztax)",
+        "Herstructurering-aandachtspunten: omvorming vzw→cv · pre-faillissement · cross naar reorganisatie",
+        "Aanslagjaar vs boekjaar · boekhoud-conformiteit-eis"
+      ],
+      "out": [
+        {
+          "topic": "Boekhouding-fiscaal correctie-cascade",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-boekhoud-correcties"
+        },
+        {
+          "topic": "Belastbare grondslag bewerkingen (8 stappen)",
+          "richting": "moet-verwijzen",
+          "ref": "belastbare-grondslag-vennootschapsbelasting"
+        },
+        {
+          "topic": "Verworpen uitgaven (familie)",
+          "richting": "moet-verwijzen",
+          "ref": "verworpen-uitgaven"
+        },
+        {
+          "topic": "KMO-tarief 20%",
+          "richting": "moet-verwijzen",
+          "ref": "verlaagd-tarief-kleine-vennootschap"
+        },
+        {
+          "topic": "Bijzondere aanslagen VenB",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-aanslagen-venb"
+        },
+        {
+          "topic": "Aangifte VenB (Biztax)",
+          "richting": "moet-verwijzen",
+          "ref": "aangifte-vennootschapsbelasting"
+        },
+        {
+          "topic": "Voorafbetalingen (generiek + VenB-perspectief)",
+          "richting": "moet-verwijzen",
+          "ref": "voorafbetalingen"
+        },
+        {
+          "topic": "Fiscale-voordelen-vennootschap (cluster: DBI · investeringsaftrek · innovatie · ...)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-voordelen-vennootschap"
+        },
+        {
+          "topic": "Personenbelasting (parallelle sub-discipline)",
+          "richting": "mag-verwijzen",
+          "ref": "personenbelasting"
+        },
+        {
+          "topic": "Fusie/splitsing fiscaal",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-fusie-splitsing"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 179-219ter + KB-WIB art 76-79"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "toepassingsgebied-venb",
+        "naam": {
+          "primair": "Toepassingsgebied vennootschapsbelasting"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — binnenlandse vs buitenlandse vennootschap (art 179 WIB) · zetel + werkelijke leiding · cross internationaal-fiscaal voor zetelbepaling",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tarief-venb",
+        "naam": {
+          "primair": "Tarief vennootschapsbelasting"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — 25% basistarief sinds AJ 2021 · 20% KMO-tarief op eerste schijf · historiek (33,99% met crisisbijdrage tot AJ 2020)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "herstructurering-aandachtspunten",
+        "naam": {
+          "primair": "Fiscale aandachtspunten herstructurering"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — omvorming vzw→cv · pre-faillissement-fiscale-aandachtspunten · cross naar concrete regimes in reorganisatie-cluster",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanslagjaar-vs-boekjaar",
+        "naam": {
+          "primair": "Aanslagjaar vs boekjaar"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — boekjaar afsluiting bepaalt aanslagjaar (vs PB waar AJ=IJ+1)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoud-conformiteit-eis",
+        "naam": {
+          "primair": "Boekhoud-conformiteit-eis"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2 — fiscaal volgt boekhouding tenzij uitdrukkelijk anders bepaald (primauteit boekhouding)",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "bevat",
+      "target": "belastbare-grondslag-vennootschapsbelasting"
+    },
+    {
+      "type": "bevat",
+      "target": "fiscale-boekhoud-correcties"
+    },
+    {
+      "type": "bevat",
+      "target": "verworpen-uitgaven"
+    },
+    {
+      "type": "triggert",
+      "target": "aangifte-vennootschapsbelasting"
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "id": "onderhoudsuitkering",
+  "naam": {
+    "primair": "Onderhoudsuitkering",
+    "synoniemen": [
+      "alimentatie",
+      "pension alimentaire"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.IX",
+      "2.2.IX.A",
+      "2.2.IX.B",
+      "2.2.XI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (rename van onderhoudsuitkering-cluster: -cluster-suffix-smell weg, precedent PO 1.7)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Symmetrisch fenomeen: ontvanger (80% belast als divers inkomen, art 90.3 WIB) ↔ betaler (80% aftrekbaar als aftrekbare besteding, art 104 WIB)",
+        "80%-regel reden: 20% geacht eigen-gebruik / bewijslast",
+        "Wettelijk vereist: op grond van WK / vonnis / overeenkomst notarieel",
+        "Achterstallen-regeling: gespreide belasting/aftrek (vermijden progressie-effect)",
+        "Bewijslast: betalingsbewijzen + onderliggende titel",
+        "Belastingaspect minderjarig kind: 80% bij hem belastbaar als divers inkomen",
+        "Ex-echtgenoten · ouder-kind · grootouder · ascendenten/descendenten"
+      ],
+      "out": [
+        {
+          "topic": "Aftrekbare bestedingen (XI-categorie) — betalingskant",
+          "richting": "moet-verwijzen",
+          "ref": "aftrekbare-bestedingen-pb"
+        },
+        {
+          "topic": "Diverse inkomsten — ontvangstkant",
+          "richting": "moet-verwijzen",
+          "ref": "diverse-inkomsten-pb"
+        },
+        {
+          "topic": "Huwelijksvermogensrecht + scheidings-procedure (burgerrechtelijk)",
+          "richting": "mag-verwijzen",
+          "ref": "huwelijksvermogensrecht"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 90.3 + art 104.1"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "valt_onder",
+      "target": "diverse-inkomsten-pb"
+    },
+    {
+      "type": "valt_onder",
+      "target": "aftrekbare-bestedingen-pb"
+    }
+  ]
+}

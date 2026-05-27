@@ -1,0 +1,101 @@
+{
+  "id": "eigen-woning-fiscaal",
+  "naam": {
+    "primair": "Eigen woning (fiscaal)",
+    "synoniemen": [
+      "fiscale behandeling eigen woning",
+      "woonbonus-regime"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.V",
+      "2.2.V.A"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt — naam-rename open (OP-PB.A: eigen-woning-vrijstelling of gunstregime-eigen-woning)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Vrijstelling KI eigen woning (gewestelijke bevoegdheid sinds 6e staatshervorming)",
+        "Woonbonus-regimes per gewest (Vlaanderen vs Wallonië vs Brussel — verschillende drempels + afbouw)",
+        "Geïntegreerde woonbonus afgeschaft Vlaanderen sinds 2020 — overgangsregeling lopende leningen",
+        "Federale interest-aftrek voor niet-eigen woning (tweede verblijf · verhuurd onroerend)",
+        "Kapitaal- en interestaflossingen hypothecaire lening: gewestelijke vermindering of federale aftrek"
+      ],
+      "out": [
+        {
+          "topic": "Onroerend inkomen-categorie (eigen vs niet-eigen)",
+          "richting": "moet-verwijzen",
+          "ref": "onroerend-inkomen-pb"
+        },
+        {
+          "topic": "Kadastraal inkomen als basis",
+          "richting": "moet-verwijzen",
+          "ref": "kadastraal-inkomen"
+        },
+        {
+          "topic": "Gewestelijke belastingverminderingen (woonbonus)",
+          "richting": "moet-verwijzen",
+          "ref": "gewestelijke-belastingverminderingen-pb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "uitdovend",
+        "sinds": "2020-01-01",
+        "wettelijke_basis": "Diverse gewestdecreten (Vlaams woonbonus afbouw + Waalse 'chèque habitat' + Brussels-Hoofdstedelijk)",
+        "toelichting": "Vlaamse woonbonus afgeschaft voor nieuwe leningen vanaf 2020; bestaande leningen behouden tot einde looptijd. Wallonië/Brussel hebben eigen regelingen."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "onroerend-inkomen-pb"
+    },
+    {
+      "type": "vereist",
+      "target": "kadastraal-inkomen"
+    }
+  ]
+}

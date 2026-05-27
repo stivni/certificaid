@@ -1,0 +1,109 @@
+{
+  "id": "aangifte-pb",
+  "naam": {
+    "primair": "Aangifte personenbelasting",
+    "synoniemen": [
+      "PB-aangifte",
+      "déclaration IPP"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling",
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.2.XVI",
+      "2.2.taak.4"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (-pb behouden: PB-specifieke aangifte, ≠ aangifte-vennootschapsbelasting)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Deel 1 — alle particulieren: persoonlijke gegevens · gezinslast · onroerende inkomsten · pensioenen · roerend (optioneel) · diverse · aftrekken/verminderingen · voorheffingen",
+        "Deel 2 — winsten · baten · bedrijfsleidersbezoldigingen: voor zelfstandigen + bedrijfsleiders",
+        "Vakken + codes-structuur (cijferzakboekje + aangifte-walkthrough als bron)",
+        "Indieningskanalen: TaxOnWeb (online + voorinvulling) vs papier",
+        "Termijnen: papier ~ juni · TaxOnWeb ~ juli · mandataris ~ oktober",
+        "Voorstel van vereenvoudigde aangifte (VVA — uniek voor PB) bij eenvoudige situaties"
+      ],
+      "out": [
+        {
+          "topic": "Belastingberekening na aangifte",
+          "richting": "moet-verwijzen",
+          "ref": "belastingberekening-pb"
+        },
+        {
+          "topic": "Aanslagbiljet (output van aanslag)",
+          "richting": "moet-verwijzen",
+          "ref": "aanslagbiljet-pb"
+        },
+        {
+          "topic": "Algemene aangifteplicht-fiscaal",
+          "richting": "mag-verwijzen",
+          "ref": "aangifteplicht"
+        },
+        {
+          "topic": "Concrete vakken/codes (Cijferzakboekje + aangifte-PB-walkthrough)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 305 e.v."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "triggert",
+      "target": "belastingberekening-pb"
+    },
+    {
+      "type": "triggert",
+      "target": "aanslagbiljet-pb"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "aangifte-vennootschapsbelasting"
+    }
+  ]
+}

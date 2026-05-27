@@ -1,0 +1,107 @@
+{
+  "id": "stopzettingsmeerwaarde",
+  "naam": {
+    "primair": "Stopzettingsmeerwaarde",
+    "synoniemen": [
+      "cessatiemeerwaarde",
+      "plus-value de cessation"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling",
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "2.2.VI.B",
+      "2.2.X"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (rename van stopzettingsmeerwaarde-pb: -pb gestript, fenomeen ook in VenB-context)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Meerwaarde bij stopzetting eenmanszaak / vrij beroep (cessatie)",
+        "Tariefstructuur: 16,5%-tarief (vrijwillige stopzetting + bepaalde activa) · 33% · progressief tarief",
+        "Onderscheid materiële vaste activa · klantenbestand/goodwill · voorraden",
+        "Verschillende behandeling: ingebrekestelling (overlijden · pensioen) vs vrijwillig",
+        "Spreiding-mogelijkheid: gespreide belasting bij wederbelegging",
+        "Gespreide belasting bij overlijden (forfait)",
+        "Voortzetting door erfgenaam: vrijstelling onder voorwaarden"
+      ],
+      "out": [
+        {
+          "topic": "Winst-baten-zelfstandige als context",
+          "richting": "moet-verwijzen",
+          "ref": "winst-baten-zelfstandige"
+        },
+        {
+          "topic": "Gespreide belasting meerwaarden (algemeen mechanisme)",
+          "richting": "moet-verwijzen",
+          "ref": "gespreide-belasting-meerwaarden"
+        },
+        {
+          "topic": "Gunstregime familiale onderneming (vrijstelling bij voortzetting)",
+          "richting": "mag-verwijzen",
+          "ref": "gunstregime-familiale-onderneming"
+        },
+        {
+          "topic": "Belastingberekening (afzonderlijke tarieven)",
+          "richting": "moet-verwijzen",
+          "ref": "belastingberekening-pb"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 28 + 171"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "winst-baten-zelfstandige"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gespreide-belasting-meerwaarden"
+    },
+    {
+      "type": "triggert",
+      "target": "belastingberekening-pb"
+    }
+  ]
+}

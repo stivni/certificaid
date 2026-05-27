@@ -1,0 +1,101 @@
+{
+  "id": "belastingvrije-som",
+  "naam": {
+    "primair": "Belastingvrije som",
+    "afkorting": "BVS",
+    "synoniemen": [
+      "vrijgesteld minimum"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.III",
+      "2.2.XVI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Basis-BVS: minimum-inkomen vrijgesteld van PB (geïndexeerd jaarlijks)",
+        "Verhogingen: kinderen ten laste · zwaar gehandicapt kind · ouders/grootouders ten laste · handicap belastingplichtige · leeftijd (65+)",
+        "Mechaniek: BVS wordt afgetrokken aan onderkant tarief-schijven (= belastingvermindering op laagste schijf)",
+        "Gewest-variatie: verschillen per gewest mogelijk via additionele gewestelijke decimes-impact"
+      ],
+      "out": [
+        {
+          "topic": "Kinderen-ten-laste voorwaarden + bedragen",
+          "richting": "moet-verwijzen",
+          "ref": "kinderen-ten-laste"
+        },
+        {
+          "topic": "Belastingberekening-procedure waarop BVS wordt toegepast",
+          "richting": "moet-verwijzen",
+          "ref": "belastingberekening-pb"
+        },
+        {
+          "topic": "Concrete bedragen (Cijferzakboekje)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 131-145"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "kinderen-ten-laste"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "gezinssituatie"
+    },
+    {
+      "type": "triggert",
+      "target": "belastingberekening-pb"
+    }
+  ]
+}

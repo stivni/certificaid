@@ -1,0 +1,109 @@
+{
+  "id": "gezinssituatie",
+  "naam": {
+    "primair": "Gezinssituatie",
+    "synoniemen": [
+      "burgerlijke staat fiscaal",
+      "gezinscontext"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.III",
+      "2.2.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (rename van gezinssituatie-pb: -pb-suffix gestript, concept blijft PB-context)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "4 burgerlijke-staat-categorieën fiscaal: gehuwd · wettelijk-samenwonend · feitelijk-samenwonend · alleenstaand",
+        "Inkomenstoerekening tussen echtgenoten / wettelijk-samenwonenden (gemeenschappelijke aanslag)",
+        "Feitelijk-samenwonenden = elk aparte aangifte (geen samenvoeging)",
+        "Jaar van huwelijk · echtscheiding · overlijden — overgangsregels",
+        "Onderscheid fiscaal-relevante gezinssituatie versus burgerrechtelijk huwelijksvermogensrecht"
+      ],
+      "out": [
+        {
+          "topic": "Burgerrechtelijke aspecten huwelijk + huwelijksvermogensstelsels",
+          "richting": "moet-verwijzen",
+          "ref": "huwelijksvermogensrecht"
+        },
+        {
+          "topic": "Kinderen-ten-laste verhogingen BVS",
+          "richting": "moet-verwijzen",
+          "ref": "kinderen-ten-laste"
+        },
+        {
+          "topic": "Huwelijksquotient (inkomenstoerekening 30%-regel)",
+          "richting": "moet-verwijzen",
+          "ref": "huwelijksquotient"
+        },
+        {
+          "topic": "Belastingvrije som basis + verhogingen",
+          "richting": "moet-verwijzen",
+          "ref": "belastingvrije-som"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 126-129"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "huwelijksvermogensrecht"
+    },
+    {
+      "type": "triggert",
+      "target": "huwelijksquotient"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "kinderen-ten-laste"
+    }
+  ]
+}

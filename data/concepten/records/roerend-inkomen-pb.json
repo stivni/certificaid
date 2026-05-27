@@ -1,0 +1,109 @@
+{
+  "id": "roerend-inkomen-pb",
+  "naam": {
+    "primair": "Roerend inkomen (PB)",
+    "synoniemen": [
+      "revenus mobiliers"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.VII",
+      "2.2.VII.A",
+      "2.2.VII.B"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt (-pb-suffix behouden: 3-context-pattern met roerend-inkomen-internationaal)"
+      }
+    ],
+    "scope": {
+      "in": [
+        "4e inkomstencategorie PB (art 17-22 WIB)",
+        "Sub-categorieën: dividenden · interesten obligaties/deposito's · royalty's · auteursrechten (specifiek regime)",
+        "Liquidatiebonus (gelijkgesteld met dividend)",
+        "Tariefstructuur: standaard 30% bevrijdende RV · 15% VVPRbis · 10% liquidatiereserve · 25% auteursrechten",
+        "Vrijstellingen: spaarboekje (drempel) · staatsbon · groene leningen",
+        "Bevrijdend karakter RV → geen aangifteplicht voor particulieren (tenzij keuze gemeenschappelijke aanslag)"
+      ],
+      "out": [
+        {
+          "topic": "Roerende voorheffing als instrument",
+          "richting": "moet-verwijzen",
+          "ref": "roerende-voorheffing"
+        },
+        {
+          "topic": "Internationale roerend-inkomen (DBV-impact + buitenlandse RV)",
+          "richting": "mag-verwijzen"
+        },
+        {
+          "topic": "VVPRbis 15%-tarief op KMO-dividenden",
+          "richting": "moet-verwijzen",
+          "ref": "vvprbis"
+        },
+        {
+          "topic": "Liquidatiereserve 10%-tarief",
+          "richting": "moet-verwijzen",
+          "ref": "liquidatiereserve"
+        },
+        {
+          "topic": "DBI-aftrek (vennootschapsperspectief op zelfde dividend)",
+          "richting": "mag-verwijzen",
+          "ref": "dbi-aftrek"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB art 17-22"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "personenbelasting"
+    },
+    {
+      "type": "triggert",
+      "target": "roerende-voorheffing"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "onroerend-inkomen-pb"
+    }
+  ]
+}
