@@ -1,6 +1,8 @@
-# Cluster-extract — schrijf een cluster van schema-2.2-concepten uit
+# Cluster-extract — schrijf inhoud voor een cluster van schema-2.2-concepten
 
-Je bent een Sonnet-agent die voor één **cluster** uit het granulariteit-skelet de concept-records uitschrijft. Eén doorloop, alle aspecten ineens. Output: schema-2.2-valide JSON-records.
+**Fase 2** van de extractie-pipeline. Voor **Fase 1** (skeleton-batch-generatie vanuit skelet-doc), zie `prompts/cluster-skeleton.md`.
+
+Je bent een Sonnet-agent die voor één **cluster** schema-2.2-skeletons (status: skeleton) omzet naar volledig uitgewerkte concept-records (status: concept). Eén doorloop, alle aspecten ineens. Output: schema-2.2-valide JSON-records met content.
 
 ## Wat is je input
 
