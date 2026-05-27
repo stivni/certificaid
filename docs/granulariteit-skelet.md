@@ -173,6 +173,12 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
+management-accounting                    [Σ-cluster onder bedrijfseconomie-en-management — PO 1.8, 9 cluster-eigen]
+├── analytische-boekhouding              [Σ — gepromoveerd, absorbeert kostentypologie + kostencomponenten + IV-anchors]
+├── kostprijsmethoden [Σ] · full-costing · direct-costing · standaardkostenmethode · activity-based-costing (rename `abc-methode`)   [methodes III]
+├── break-even-analyse · marginale-analyse   [analyse-procedures III.D-E]
+└── budgetbeheer [Σ] · masterbudget · variantieanalyse   [budget V-VI]
+
 consolidatie                             [Σ-cluster, ~16 cluster-eigen + 2 cross — PO 1.4]
 ├── geconsolideerde-jaarrekening         [Σ-hoofdrecord — B-GAAP + IFRS-perspectieven]
 ├── consolidatieverplichting (rename `-bgaap` weg + 2 perspectieven) · consolidatiekring · controle-bij-consolidatie (rename + merge 3→1) · gezamenlijke-regelingen   [scope I.C + II.B]
@@ -317,6 +323,7 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | financiele-analyse | ~14 cluster-eigen + ~7 cross (4 NIEUW ratio-Σ's + 1 NIEUW ratio-interpretatie + 1 Σ-promotie kasstroom-analyse + 13 ratio-absorpties + 1 rename + 7 verhuizingen naar PO 1.4) | PO 1.3 (analyse jaarrekening) + PO 1.9 (financiële analyse + diagnose + faillissement) | [§Financiele-analyse-cluster](#financiele-analyse-cluster) |
 | consolidatie | ~16 cluster-eigen + 2 cross (Σ-hoofd + 3 renames + 1 controle-merge 3→1) | PO 1.4 (geconsolideerde jaarrekening + B-GAAP/IFRS) | [§Consolidatie-cluster](#consolidatie-cluster) |
 | ifrs-rapportering | 4 cluster-eigen + 4 cross (Σ-promotie ifrs + be-gaap-vs-ifrs-verschillen absorbed voorlopig) | PO 1.5 (EU-richtlijn + IAS-Verordening + IAS 1/2/16/17/18/38 + IFRS 15) | [§IFRS-rapportering-cluster](#ifrs-rapportering-cluster) |
+| management-accounting | 9 cluster-eigen (3 Σ-promoties + 2 absorpties + 1 rename `activity-based-costing`) | PO 1.8 (analytische boekhouding + budgetbeheer) — onder bedrijfseconomie-en-management-discipline | [§Management-accounting-cluster](#management-accounting-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -2975,6 +2982,92 @@ ifrs-rapportering                         [Σ-mini-cluster, 4 cluster-eigen + 4 
 - **OP-IFRS.B** ⏳ `be-gaap-vs-ifrs-verschillen` synthese-record-overweging (zie OP-META.B): bij content-uitwerking beslissen of dit terug eigen record wordt (didactische waarde van vergelijkings-tabel).
 - **OP-IFRS.C** ⏳ Cross-perspectieven uitwerken: `voorraden`#IAS-2 · `leasing`#IFRS-16 · `bedrijfsopbrengsten`#IFRS-15 · `jaarrekening`#IAS-1 — content-werk per primair-cluster-record.
 
+### Management-accounting-cluster
+
+Thema: `management-accounting`. *Diepe PO 1.8-uitwerking (2026-05-27). Sub-cluster onder `bedrijfseconomie-en-management`-discipline (laag-1, abstract zonder hoofdrecord — analoog `vennootschapsrecht`). 26 anchors · 13 records → 9 cluster-eigen na 2 absorpties (`kostentypologie` + `kostencomponenten` in Σ) + 1 rename (`abc-methode` → `activity-based-costing`) + 3 Σ-promoties.*
+
+```
+management-accounting                     [Σ-cluster onder bedrijfseconomie-en-management — PO 1.8]
+│
+├── analytische-boekhouding              [Σ-hoofdrecord — gepromoveerd]
+│   ▸ overkoepelend: doelstellingen + belang (PO 1.8.I.A) · interface boekhouding ↔ management-accounting
+│   ▸ #kostentypologie (absorbed `kostentypologie` — PO 1.8.I.B + II.A): vast/variabel · direct/indirect · controleerbaar/oncontroleerbaar · sunk · opportunity · differentieel
+│   ▸ #kostencomponenten (absorbed `kostencomponenten` — PO 1.8.II.B-D): materialen · arbeid · overige kosten · cost-driver-aanduiding
+│   ▸ #rekeningenstelsel-toe-eigening (PO 1.8.IV.A) · #registratiesystemen (PO 1.8.IV.C) · #specifieke-problemen-registratiesystemen (PO 1.8.IV.B)
+│
+├── --- I. KOSTPRIJSMETHODEN (Σ-keuze) ---
+├── kostprijsmethoden                     [Σ — gepromoveerd, keuze-kader]
+│   ▸ welke methode wanneer? (productie vs service vs project-context · accuratesse vs eenvoud · doel: prijszetting/winstgevendheid/efficiency)
+│   ▸ #vergelijkings-matrix: 4 methodes × kenmerken (volledig vs partieel · vastgesteld vs voorafbepaald · accuracy-niveau)
+├── full-costing                          [procedure — III.A]   absorptie-methode · alle fixed + variabele kosten toegerekend · jaarrekening-conforme stockwaardering
+├── direct-costing                        [procedure — III.B]   variabele kosten + dekkingsbijdrage · ondersteunt break-even-analyse · niet-jaarrekening-conform
+├── standaardkostenmethode                [procedure — III.C]   voorafbepaalde standaarden + variantieanalyse · efficiency-meting · cross variantieanalyse
+├── activity-based-costing                [procedure — rename `abc-methode`, afkorting weg uit record-id; titel toont "Activity-Based Costing (ABC)"]
+│   ▸ III.F · activity-pools + cost-drivers · accuratere overhead-toerekening · 4-stappen-model · time-driven-ABC-variant
+│
+├── --- II. ANALYSE-PROCEDURES ---
+├── break-even-analyse                    [procedure]   PO 1.8.III.D · contributiemarge · break-even-punt · veiligheidsmarge · cross `direct-costing`
+├── marginale-analyse                     [procedure]   PO 1.8.III.E · marginale kosten · marginale opbrengsten · incremental-decision-making · make-or-buy
+│
+└── --- III. BUDGETBEHEER (Σ) ---
+├── budgetbeheer                          [Σ — gepromoveerd]
+│   ▸ overkoepelend: definitie (V + VI.A) · belangrijkste begrippen (VI.B) · budgetprocedure-cyclus (VI.C)
+│   ▸ #budget-types-overzicht · #planning-vs-besluitvorming · #motivatie-functie · #controle-functie
+│   ▸ #budgetprocedure-cyclus: voorbereiding → opstelling → goedkeuring → uitvoering → controle → herziening
+├── masterbudget                          [procedure]   PO 1.8.VI.D · integrale budget: operationeel + financieel + investerings + cash · top-down vs bottom-up · scenario-modellen
+└── variantieanalyse                      [procedure]   PO 1.8.VI · afwijking budget vs werkelijk · prijs- + hoeveelheids-varianties · oorzaak-analyse · management-by-exception · cross `standaardkostenmethode`
+```
+
+**Cross-cluster** (records primair elders, raken PO 1.8):
+- boekhouding (al diep): `bedrijfskosten` (klasse 60-65 — analytische verwerking) · `bedrijfsopbrengsten` (klasse 70-74) · `personeelskosten` (klasse 62 = arbeids-component)
+- financiele-analyse (al diep): `kasstroom-analyse`-Σ (budget-context cash) · `ratio-interpretatie` (cross-discipline-skill)
+- controle-opdracht: `cyclus-analyse` (operating cycle = link kostprijscalculatie ↔ cyclus)
+
+**Renames + acties**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| `abc-methode` | **`activity-based-costing`** — afkorting weg uit record-id (CLAUDE.md regel 8); titel-display "Activity-Based Costing (ABC)" + "abc-methode" + "ABC" in synoniemen[] |
+| `kostentypologie` | **absorbed** in `analytische-boekhouding`-Σ#kostentypologie (geen zelfstandig werkveld-fenomeen) |
+| `kostencomponenten` | **absorbed** in `analytische-boekhouding`-Σ#kostencomponenten (idem) |
+| `analytische-boekhouding` | **Σ-promotie** tot cluster-hoofdrecord |
+| `kostprijsmethoden` | **Σ-promotie** (was family) tot expliciet keuze-Σ |
+| `budgetbeheer` | **Σ-promotie** tot Σ met 3-4 sub-secties (definitie · begrippen · procedure-cyclus) |
+
+**Splits-rechtvaardiging-test op kostentypologie + kostencomponenten**:
+- Keuze-as? Geen (beide leven binnen analytische-boekhouding-context)
+- Shared? Geen
+- Pendant fundamenteel anders? Geen
+- Substantiële eigen wettelijke regel + bevragingspatroon? **Nee** — analytische modellen zonder wet, bevragingspatroon binnen kostprijs-context, niet als zelfstandige begrippen.
+
+→ Voldoet niet aan voorwaarde 4. Absorberen rechtvaardigd.
+
+**Triangulatie 2026-05-27**:
+- 26 PO 1.8-anchors → 0 gaps (alle anchors gedekt cluster-eigen of via Σ-sub-secties)
+- 13 records → 9 cluster-eigen na 2 absorpties + 1 rename + 3 Σ-promoties
+- Reductie: 13 → 9 (-31%)
+
+**Bronnen-pin**:
+- ✅ Algemene cost-accounting-handboeken (Drury · Horngren · Kaplan)
+- ✅ ABC-methodologie (Kaplan-Cooper)
+- ✅ Belgische praktijk: management-accounting heeft geen Belgische wettelijke kader (interne boekhouding); cross naar `analytische-boekhouding` voor link met externe boekhouding
+- ⏳ Examen-typische cases (kostencalculatie + budget-variantie)
+
+**Test-case-validatie** (2026-05-27): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Productie-keuze: full-costing vs direct-costing | `kostprijsmethoden`-Σ + `full-costing` + `direct-costing` + cross `break-even-analyse` | ✅ |
+| Activity-based costing overhead-toerekening | `activity-based-costing` (rename) + cross `analytische-boekhouding`#kostentypologie (direct/indirect) | ✅ |
+| Break-even-punt + veiligheidsmarge berekening | `break-even-analyse` + cross `direct-costing` (contributiemarge) | ✅ |
+| Budget-prijsvariantie + hoeveelheidsvariantie | `variantieanalyse` + cross `standaardkostenmethode` | ✅ |
+
+**Open punten**:
+- **OP-MA.A** ⏳ `analytische-boekhouding`-Σ-content: 5 sub-secties uitwerken (#kostentypologie + #kostencomponenten + #rekeningenstelsel-toe-eigening + #registratiesystemen + #specifieke-problemen). Substantieel content-werk.
+- **OP-MA.B** ⏳ `budgetbeheer`-Σ-content: 3-4 sub-secties uitwerken (definitie + begrippen + procedure-cyclus). Substantiële stof.
+- **OP-MA.C** ⏳ Discipline-laag-1 `bedrijfseconomie-en-management` blijft abstract (geen hoofdrecord, user-keuze vraag 4). Cluster `management-accounting` + `financiele-analyse` leven onder; mogelijk later `corporate-finance` of `strategie-en-businessmodel`-clusters toevoegen.
+- **OP-MA.D** ⏳ Afkortingen in display-titel (NIEUW principe): andere records waar dit ook nuttig is — `btw` → "Belasting over de toegevoegde waarde (BTW)", `voordelen-alle-aard` → "Voordelen alle aard (VAA)", `belgisch-boekhoudrecht` → "Belgisch boekhoudrecht (B-GAAP)", `dbi-aftrek` → "DBI-aftrek (Definitief Belaste Inkomsten)", `gecertificeerd-accountant` → "Gecertificeerd Accountant (GA)". Te formaliseren bij content-uitwerking.
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
@@ -3728,3 +3821,5 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-27 | **PO 1.9-fix-pass**: na user-opmerking "samen door 1.9 gaan" grondige doorloop opgeleverd: (1) `kasstroom-analyse` Σ-promotie met 8 sub-secties (PO 1.9.IV.A-H — OP-AN.B opgelost); (2) NIEUW `ratio-interpretatie` K-techniek-record (PO 1.9.V.E bekwaamheid-niveau, cross-categorie-methodologie); (3) Cross-links naar `cyclus-analyse` (controle), `schuldfinanciering`, `kapitaalstructuur`-clusters vanuit `kasstroom-analyse`-Σ. | (a) Behoud `kasstroom-analyse` als platte procedure (verliest 8 sub-anchor-detail); (b) `ratio-interpretatie` als sub-sectie van `jaarrekeninganalyse`-Σ (verliest cross-categorie-context van V.E bekwaamheid-niveau) | User-keuze 2026-05-27 PO 1.9-fix: punt 1 akkoord (Σ-promotie), punt 2 B (apart `ratio-interpretatie`-record), punt 3 C (cross naar cyclus-analyse via shared thema). `ratio-interpretatie` voldoet aan voorwaarde 4 (substantiële cross-categorie-skill: DuPont-decomposition · benchmarking-methodologie · valkuilen) ondanks single-anchor-aanduiding — werkveld-eerst-principe toegepast. | Pattern: bekwaamheid-niveau-anchors (V.E + VI + VII in PO 1.9) wijzen vaak op methodologische skills met cross-record-context — eerder eigen records dan sub-secties van Σ. Te bevestigen bij PO 1.8 management accounting (bekwaamheid-niveau-anchors). |
 | 2026-05-27 | **PO 1.4 + PO 1.5** apart als 2 clusters (`consolidatie` + `ifrs-rapportering`). PO 1.4 = consolidatie-specifiek (B-GAAP KB 30-01-2001 + IFRS 10/3/11/12); PO 1.5 = algemene IFRS-rapportering (IAS 1 + selectieve IAS/IFRS-standaarden + EU-richtlijn-kader). Geen substantiële overlap — apart cluster-toewijzing rechtvaardigd. PO 1.4: 22 records → 16 (3 renames + 1 controle-merge 3→1). PO 1.5: 9 records → 4 cluster-eigen + 4 cross (ifrs-Σ + 3 IFRS-standaard-records). | (a) PO 1.4 + PO 1.5 mergen in `consolidatie-en-ifrs`-cluster (`-en-`-smell); (b) Individuele controle-records (`controle-vennootschapsrecht` + `controle-test-deelneming` + `kwalificatie-controle-deelneming`) behouden (3 records voor zelfde werkveld-fenomeen); (c) `consolidatieverplichting-bgaap` apart + IFRS-pendant aanmaken (verstopt werkveld-vraag-eenheid) | Werkveld-test: "moet ik consolideren?" en "wat is controle?" zijn elk één werkveld-vraag met meerdere regimes — 1 record + perspectieven. PO 1.4-vs-1.5-grens werd duidelijk via inventarisatie: consolidatie-specifieke standaarden (IFRS 10/3/11/12) vs algemene IFRS (IAS 1/2/16/17/18/38). User-keuze 2026-05-27 vraag 4 (PO 1.4 sparring): "ik denk ook dat er veel overlap is met 1.5... even mee analyseren?" → na analyse bevestigd: apart maar wel verwant via cross-links. | Pattern: andere paren-PO's met thematische verwantschap maar verschillende focus (bv. PO 1.6 audit + PO 1.7 IC — al apart) volgen zelfde patroon: apart clusteren met cross-links via `accountant_perspectieven[]`. |
 | 2026-05-27 | **OP-META.B** open punt: **synthese-/overzichts-records-pattern** als "bovenop"-concept-laag. User-inzicht 2026-05-27 bij PO 1.5: "overzichten/syntheses met flow & stappen · verschillen en gelijkenissen · keuzes · ... daar zit didactische waarde — we zouden die nog 'bovenop' de concepten proberen leggen". Concrete kandidaat: `be-gaap-vs-ifrs-verschillen` (voorlopig absorbed in `ifrs`-Σ#afwijkingen-tov-be-gaap). | (a) Strikt absorberen alle synthese-aspecten in primaire records (huidige aanpak — verliest didactische vergelijkings-tabel-waarde); (b) Synthese-records als eigen Σ-pattern markeren met `-vs-` of `-versus-` of `-overzicht`-suffix (mogelijk schema-naam-conventie) | Synthese-records dragen vooral pedagogische waarde (vergelijking + keuze-flow + samenhang-overzicht) los van fundament-records. Voorbeelden: be-gaap-vs-ifrs · jaarrekening-schema-volledig-vs-verkort-vs-micro · consolidatiemethoden-vergelijking (al Σ-pattern) · controle-opdracht-typen-Σ (al Σ-pattern) · loon-en-payroll-cascade (al K-techniek). Sommige patronen al voorzien (Σ + K-techniek); andere ontbreken (zuivere vergelijkings-tabellen zonder eigen wettelijke regel). User-suggestie: "we kunnen die beslissing uitstellen als het moet" — beslissen bij content-uitwerking welke synthese-records gerechtvaardigd zijn. | Werkpunt: ADR-030 + ADR-029 update — synthese-record-pattern als formele schema-categorie naast Σ + K-techniek + ...? Of als render-laag-pattern (vergelijkings-tabellen render-tijd genereren uit cross-links tussen primaire records)? Beslissen na PO 1.x-blok-afwerking. Voor nu: synthese-aspecten absorberen in Σ-records (default); kandidaten markeren met OP-META.B-flag voor latere review. |
+| 2026-05-27 | **PO 1.8 management-accounting-cluster** onder `bedrijfseconomie-en-management`-discipline (laag-1 blijft abstract zonder hoofdrecord — user-keuze 2026-05-27 vraag 4). 26 anchors · 13 records → 9 cluster-eigen na 2 absorpties (`kostentypologie` + `kostencomponenten` in `analytische-boekhouding`-Σ) + 1 rename (`abc-methode` → `activity-based-costing`) + 3 Σ-promoties (`analytische-boekhouding` + `kostprijsmethoden` + `budgetbeheer`). | (a) `kostentypologie` + `kostencomponenten` apart behouden (over-versnippering — geen zelfstandige werkveld-fenomenen); (b) `abc-methode` afkorting-id behouden (regel-8-schending CLAUDE.md); (c) Geen Σ-promoties (verliest cluster-structuur) | User-vraag 2026-05-27: "kostentypologie & kostencomponenten — redelijk gelijkaardig?" → splits-test toegepast: beide voldoen niet aan voorwaarde 4 (geen wet, geen zelfstandig werkveld-bevragingspatroon), absorberen rechtvaardigd. Cluster-positionering onder bedrijfseconomie-discipline (samen met `financiele-analyse`) sluit laag-1 abstract-houden af conform user-keuze. | Sluit PO 1.x-blok-afwerking af. Resterend skelet-werk: retroscan + meta-ADR-updates (OP-META.A/B + ADR-030/029-revisie). |
+| 2026-05-27 | **Afkortingen in display-titel-principe** (nieuw — user-vraag 2026-05-27): record-id blijft volledig (CLAUDE.md regel 8 — geen afkortingen in code/schema/filename), maar `naam.primair` (= display-titel) mag afkorting tonen tussen haakjes: `"Activity-Based Costing (ABC)"` voor record-id `activity-based-costing`. Afkortingen ook in `synoniemen[]` voor RAG/zoek. | (a) Afkorting volledig vermijden (verbergt courant gebruikte term in praktijk); (b) Afkorting in record-id toelaten (regel-8-schending CLAUDE.md) | Stagiair zoekt op courante afkorting + accountant-vocabulaire bevat veel afkortingen (ABC · BTW · VAA · DBI · IFRS · GA). Schema-niveau strikt (regel 8 behouden), display-niveau accommoderend. `naam.primair`-veld bestaat al in schema 2.1; geen schema-uitbreiding nodig. User-keuze 2026-05-27 vraag 1: "akkoord -> zouden we bij de titel van die dingen (dus niet noodzakelijk filename) de afkorting meenemen?" | Kandidaten voor toepassing (mapping-fase-werk, OP-MA.D): `btw` → "Belasting over de toegevoegde waarde (BTW)"; `voordelen-alle-aard` → "Voordelen alle aard (VAA)"; `belgisch-boekhoudrecht` → "Belgisch boekhoudrecht (B-GAAP)"; `dbi-aftrek` → "DBI-aftrek (Definitief Belaste Inkomsten)"; `gecertificeerd-accountant` → "Gecertificeerd Accountant (GA)"; `ifrs` → "International Financial Reporting Standards (IFRS)"; `coso-framework` → "COSO-framework (Committee of Sponsoring Organizations)". Niet alle records — alleen waar afkorting praktijk-courant is. |
