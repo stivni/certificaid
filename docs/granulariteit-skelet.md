@@ -173,7 +173,21 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
-financiele-analyse                       [Σ-cluster, ~13 cluster-eigen + ~5 cross — PO 1.3 + PO 1.9 (excl. consolidatie naar PO 1.4)]
+consolidatie                             [Σ-cluster, ~16 cluster-eigen + 2 cross — PO 1.4]
+├── geconsolideerde-jaarrekening         [Σ-hoofdrecord — B-GAAP + IFRS-perspectieven]
+├── consolidatieverplichting (rename `-bgaap` weg + 2 perspectieven) · consolidatiekring · controle-bij-consolidatie (rename + merge 3→1) · gezamenlijke-regelingen   [scope I.C + II.B]
+├── consolidatiemethoden [Σ] · integrale-consolidatie · evenredige-consolidatie · vermogensmutatiemethode · minderheidsbelangen   [methodes I.D-E + II.C]
+├── eerste-consolidatie · eliminatie-intercompany · omrekening-buitenlandse-dochter · wijziging-consolidatiekring   [verrichtingen I.G + taak.1]
+├── consolidatieverschil (rename `-goodwill` weg) · uniforme-waarderingsregels-consolidatie   [specifieke begrippen]
+├── opmaak-geconsolideerde-jaarrekening · geconsolideerd-jaarverslag · toelichting-belangen-in-andere-entiteiten   [opmaak I.F]
+└── (fusie → reorganisatie-cluster)
+
+ifrs-rapportering                        [Σ-mini-cluster, 4 cluster-eigen + 4 cross — PO 1.5]
+├── ifrs [Σ — gepromoveerd, absorbeert be-gaap-vs-ifrs-verschillen voorlopig]   #afwijkingen · #eerste-toepassing-IFRS-1 · #conceptueel-kader · #ias-verordening
+├── materiele-vaste-activa (IAS 16) · immateriele-vaste-activa (IAS 38) · opbrengstverantwoording (IFRS 15)   [geselecteerde standaarden]
+└── (cross: voorraden IAS 2 · leasing IFRS 16 · jaarrekening IAS 1 · geconsolideerde-jaarrekening IFRS 10/3/11/12)
+
+financiele-analyse                       [Σ-cluster, ~14 cluster-eigen + ~7 cross — PO 1.3 + PO 1.9 (excl. consolidatie naar PO 1.4)]
 ├── jaarrekeninganalyse                  [Σ — hoofdrecord]   #horizontale-analyse · #verticale-analyse · #herstructurering-balans+ROW
 ├── continuiteit (rename `-going-concern`) · toegevoegde-waarde   [context-K]
 ├── liquiditeits-ratios [Σ NIEUW absorbeert 4] · solvabiliteits-ratios [Σ NIEUW absorbeert 2] · rentabiliteits-ratios [Σ NIEUW absorbeert 5] · activiteits-ratios [Σ NIEUW absorbeert 4] · ratio-interpretatie [K-techniek NIEUW — cross-categorie]   [ratio-families]
@@ -301,6 +315,8 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | btw | ~26 cluster-eigen + 3 cross (2 Σ-promoties + 2 renames + 1 split + 11 prefix-standaardisaties pending) | PO 2.4 (derde sub-discipline fiscaliteit + douane & accijnzen-sub-blok) | [§BTW-cluster](#btw-cluster) |
 | boekhouding | ~28 cluster-eigen + ~15 cross (1 NIEUW Σ + 2 renames + 3 splits + 2 `-en-`-renames + 2 `-categorie`-renames + 7 PO 1.2-absorpties) | PO 1.1 (boekhouden-doen) + PO 1.2 (boekhoudrecht + jaarrekeningrecht) | [§Boekhouding-cluster](#boekhouding-cluster) |
 | financiele-analyse | ~14 cluster-eigen + ~7 cross (4 NIEUW ratio-Σ's + 1 NIEUW ratio-interpretatie + 1 Σ-promotie kasstroom-analyse + 13 ratio-absorpties + 1 rename + 7 verhuizingen naar PO 1.4) | PO 1.3 (analyse jaarrekening) + PO 1.9 (financiële analyse + diagnose + faillissement) | [§Financiele-analyse-cluster](#financiele-analyse-cluster) |
+| consolidatie | ~16 cluster-eigen + 2 cross (Σ-hoofd + 3 renames + 1 controle-merge 3→1) | PO 1.4 (geconsolideerde jaarrekening + B-GAAP/IFRS) | [§Consolidatie-cluster](#consolidatie-cluster) |
+| ifrs-rapportering | 4 cluster-eigen + 4 cross (Σ-promotie ifrs + be-gaap-vs-ifrs-verschillen absorbed voorlopig) | PO 1.5 (EU-richtlijn + IAS-Verordening + IAS 1/2/16/17/18/38 + IFRS 15) | [§IFRS-rapportering-cluster](#ifrs-rapportering-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -2803,6 +2819,162 @@ Test op een individueel ratio (bv. `current-ratio`):
 - **OP-AN.D** ⏳ Ratio-Σ-content: gemeenschappelijke interpretatie + benchmarking + valkuilen per categorie uitwerken. Vooral DuPont-decomposition (rentabiliteits-ratios-Σ) en cash-conversion-cycle-koppeling (activiteits-ratios-Σ ↔ liquiditeits-ratios-Σ#cash-conversion-cycle) zijn cross-categorie-content — sommige hiervan migreren naar nieuw `ratio-interpretatie`-record.
 - **OP-AN.E** ⏳ `ratio-interpretatie` vs `financiele-diagnose` afbakening: ratio-interpretatie = methodologisch hoe-doe-ik-het (cross-categorie); financiele-diagnose = geheel-oordeel inclusief kwalitatief + sector-context. Bij content-uitwerking grens scherp houden.
 
+### Consolidatie-cluster
+
+Thema: `consolidatie`. *Diepe PO 1.4-uitwerking (2026-05-27). 7 records uit PO 1.9.taak.1-verhuizing (rationale-log vorige sessie) + 15 PO 1.4-eigen records → ~16 cluster-eigen na 3 renames + 1 controle-merge + Σ-promotie. Veel records waren niet-overlappend met PO 1.9 (PO 1.9.taak.1 dekte alleen taak-niveau, PO 1.4 dekt alle anchors).*
+
+```
+consolidatie                              [Σ-cluster, ~16 cluster-eigen + 2 cross — PO 1.4]
+│
+├── geconsolideerde-jaarrekening          [Σ-hoofdrecord]
+│   ▸ overkoepelend: B-GAAP (KB 30-01-2001) + IFRS (IFRS 10 + IFRS 3 + IFRS 11 + IFRS 12)
+│   ▸ #wettelijk-kader · #welke-groep · #methode-keuze · #praktische-opmaak
+│   ▸ accountant_perspectieven: B-GAAP (Belgische consolidatie-regels) · IFRS (internationale consolidatie-standaarden)
+│
+├── --- I. CONSOLIDATIEVERPLICHTING + SCOPE (I.C + II.B) ---
+├── consolidatieverplichting              [R — rename `consolidatieverplichting-bgaap`, `-bgaap`-suffix weg + 2 perspectieven]
+│   ▸ werkveld-vraag: "moet ik consolideren?" — 2 verschillende test-assen met dezelfde uitkomst
+│   ▸ accountant_perspectieven: B-GAAP (Boekhoudwet + WVV-drempels groot/klein + vrijstellingen) · IFRS (IFRS 10 control-test + uitzonderingen + horizontale groepen)
+├── consolidatiekring                     [K]   wie zit erin · hoogste moeder · weglatingen · consortium · proportionele opname
+├── controle-bij-consolidatie             [K — rename `controle-vennootschapsrecht` + absorbeert `controle-test-deelneming` + `kwalificatie-controle-deelneming` als sub-secties]
+│   ▸ controle-definitie B-GAAP (art 1:14 WVV) + IFRS 10 control-model
+│   ▸ #stemrechten-meerderheid · #benoeming-bestuursorgaan · #potentiële-stemrechten · #de-facto-controle · #invloed-van-betekenis (< 50%, vermogensmutatie-trigger)
+├── gezamenlijke-regelingen               [K — IFRS 11]   joint operation vs joint venture · keuze-as
+│
+├── --- II. CONSOLIDATIEMETHODEN (I.D-E + II.C) ---
+├── consolidatiemethoden                  [Σ-keuze-record]
+│   ▸ keuze-as: controle-niveau → methode (volledige controle → integraal · gezamenlijke controle → evenredig of vermogensmutatie · invloed van betekenis → vermogensmutatie)
+│   ▸ vergelijkings-matrix: 3 methodes × kenmerken (% opname · presentatie · minderheidsbelangen)
+├── integrale-consolidatie                [verrichting/methode]   100% activa + passiva + resultaten · minderheidsbelangen-detectie
+├── evenredige-consolidatie               [verrichting/methode]   pro-rata aandeel · gezamenlijke regelingen (B-GAAP-keuze)
+├── vermogensmutatiemethode               [verrichting/methode]   één-regel-consolidatie · equity method · IFRS-default voor joint ventures
+├── minderheidsbelangen                   [K]   bij integrale consolidatie · in EV + resultaat-presentatie
+│
+├── --- III. CONSOLIDATIE-VERRICHTINGEN (I.G + II.D + taak.1) ---
+├── eerste-consolidatie                   [verrichting]   acquisitie · openings-balans · consolidatieverschil-bepaling op acquisitie-datum
+├── eliminatie-intercompany               [verrichting]   intercompany-vorderingen/schulden · intercompany-winst/verlies · intra-groep-transactie-aanpassingen
+├── omrekening-buitenlandse-dochter       [verrichting]   functionele vs presentatie-munt · current-rate / temporal · CTA-reserve in EV
+├── wijziging-consolidatiekring           [verrichting]   acquisitie/desinvestering tijdens jaar · pro-rata-temporis · verkrijgings/afstotings-datum
+│
+├── --- IV. SPECIFIEKE BEGRIPPEN ---
+├── consolidatieverschil                  [K — rename `consolidatieverschil-goodwill` (omvat positief = goodwill + negatief = badwill)]
+│   ▸ #goodwill-allocatie (CGU's) · #impairment-test-IAS-36 (IFRS verplichte jaarlijkse test) · #afschrijving-bgaap (vs IFRS-vrijstelling) · #badwill-direct-resultaat
+├── uniforme-waarderingsregels-consolidatie [regime]   art 145 KB · waarderingsverschillen tussen entiteiten → herwaardering naar groeps-regels
+│
+├── --- V. PRAKTISCHE OPMAAK (I.F + taak.1) ---
+├── opmaak-geconsolideerde-jaarrekening   [procedure]   stap-voor-stap-flow · consolidatiebureau-rol · audit-traceability · matchingsregels intercompany
+├── geconsolideerd-jaarverslag            [K]   art 3:32 WVV · KAM-onderscheid met statutair jaarverslag · niet-financiële info (NFRD/CSRD-link)
+├── toelichting-belangen-in-andere-entiteiten [K — IFRS 12]   disclosure-vereisten · NFTI · risk-disclosures · structured entities
+│
+└── (fusie)                                [→ primair `reorganisatie`-cluster, raakt 1.4 via consolidatiekring-wijziging]
+```
+
+**Cross-cluster**:
+- reorganisatie (al diep): `fusie` (raakt II.A + II.D via business combination-aspect)
+- financiele-analyse (al diep): `continuiteit` (raakt 1.4.II indirect via going-concern-assumpties bij groeps-rapportering)
+- ifrs-rapportering (PO 1.5 ⏳ landen direct hierna): `ifrs`-Σ (IFRS 10/3/11/12-standaarden)
+
+**Renames + acties**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| `consolidatieverplichting-bgaap` | **`consolidatieverplichting`** + 2 perspectieven (B-GAAP · IFRS); analoog `beroepskosten`-pattern (PO 2.2/2.3) — werkveld-vraag is dezelfde, regimes verschillen |
+| `controle-vennootschapsrecht` + `controle-test-deelneming` + `kwalificatie-controle-deelneming` | **1 generiek `controle-bij-consolidatie`** + 4 sub-secties (stemrechten · benoeming · potentiële · de-facto · invloed-van-betekenis); 3 procedure/begripscluster-records → 1 K-record met sub-secties |
+| `consolidatieverschil-goodwill` | **`consolidatieverschil`** — omvat positief (goodwill IFRS 3) + negatief (badwill) als sub-secties; `-goodwill`-suffix weg (was misleidend) |
+| `ifrs`-records | parkeren voor `ifrs-rapportering`-cluster (PO 1.5 — landen direct hierna) |
+
+**Triangulatie 2026-05-27**:
+- 13 PO 1.4-anchors → 0 gaps
+- 22 records → ~16 cluster-eigen na 3 renames + 1 merge (3→1) + 0 absorpties naar Σ
+- Reductie: 22 → 16 (-27%)
+
+**Bronnen-pin**:
+- ✅ Belgische Boekhoudwet + KB 30-01-2001 (consolidatie-uitvoering)
+- ✅ KB 29-04-2019 (boekhouding-uitvoering) + WVV Boek 3 (consolidatie-link)
+- ✅ IFRS 10 + IFRS 3 + IFRS 11 + IFRS 12 + IAS 28 + IAS 36 (impairment)
+- ✅ CBN-adviezen consolidatie (CBN 2020-1 t/m 2020-6 voor controle-test + consolidatieverschil)
+
+**Test-case-validatie** (2026-05-27): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| BV met 30% deelneming + benoemingsrecht: consolidatie? | `controle-bij-consolidatie`#de-facto-controle + `consolidatiemethoden`-Σ (vermogensmutatie) | ✅ |
+| Groep van 5 venn → drempels groot/klein voor consolidatieplicht | `consolidatieverplichting` (B-GAAP-perspectief) + cross `groottecategorie-vennootschap` | ✅ |
+| Goodwill bij acquisitie B-GAAP vs IFRS | `consolidatieverschil`#goodwill-allocatie + #impairment-test-IAS-36 vs #afschrijving-bgaap | ✅ |
+| Eliminatie intercompany-voorraad-verkoop | `eliminatie-intercompany` + cross `voorraden` (boekhouding) | ✅ |
+
+**Open punten**:
+- **OP-CO.A** ⏳ `consolidatieverplichting`-content: B-GAAP-perspectief (Boekhoudwet + WVV-drempels groot/klein + vrijstellingen) + IFRS-perspectief (IFRS 10 control-test + uitzonderingen + horizontale groepen). Werkveld-vraag identiek; regimes verschillen.
+- **OP-CO.B** ⏳ `controle-bij-consolidatie`-content: 4 sub-secties uitwerken (stemrechten · benoeming · potentiële · de-facto · invloed-van-betekenis). Wettelijke basis: art 1:14 WVV + IFRS 10 control-model + IFRS 11 joint control. Met IAS 28 voor invloed-van-betekenis.
+- **OP-CO.C** ⏳ `consolidatieverschil`-rename + content: positief vs negatief sub-secties + IFRS-impairment-test-IAS-36 + B-GAAP-afschrijving-vs-IFRS-vrijstelling.
+- **OP-CO.D** ⏳ `consolidatiemethoden`-Σ-content: keuze-matrix als kern (controle-niveau → methode). Cross naar `controle-bij-consolidatie` voor input.
+- **OP-CO.E** ⏳ IFRS-perspectief op `voorraden` · `leasing` · `vaste-activa` (boekhouding-cluster records) — toevoegen via accountant_perspectieven[].ifrs bij content-uitwerking.
+
+### IFRS-rapportering-cluster
+
+Thema: `ifrs-rapportering`. *Diepe PO 1.5-uitwerking (2026-05-27). Klein mini-cluster (14 anchors · 9 records → 4 cluster-eigen + 4 cross). PO 1.5 dekt algemene IFRS-stof (IAS 1 + selectieve IFRS-standaarden); consolidatie-IFRS-aspecten leven in PO 1.4-cluster. `ifrs` Σ-gepromoveerd (absorbeert `be-gaap-vs-ifrs-verschillen` als sub-sectie). 4 cross-records via IFRS-perspectief op bestaande boekhouding/schuldfinanciering/consolidatie-cluster-records.*
+
+```
+ifrs-rapportering                         [Σ-mini-cluster, 4 cluster-eigen + 4 cross — PO 1.5]
+│
+├── ifrs                                  [Σ-hoofdrecord — gepromoveerd]
+│   ▸ overkoepelend: IASB-rol · IAS-Verordening EU 1606/2002 · directe toepassing genoteerde + groep · Belgische toepassings-context
+│   ▸ #afwijkingen-tov-be-gaap (absorbed `be-gaap-vs-ifrs-verschillen` — `-vs-`-smell weg via Σ-sub-sectie, voorlopig; mogelijk later eigen synthese-record OP-META.B)
+│   ▸ #eerste-toepassing-ifrs (IFRS 1) · #conceptueel-kader-IASB · #ias-1-presentatie (jaarrekening-vorm)
+│   ▸ #ias-verordening-1606-2002 (rechtsbasis) · #eu-richtlijn-2013-34-link (cross `belgisch-boekhoudrecht`)
+│
+├── --- II. GESELECTEERDE IFRS-STANDAARDEN ---
+├── materiele-vaste-activa                [K — IAS 16]   waardering · afschrijving · herwaarderings-model · component-aanpak
+│   ▸ cross `vaste-activa` (boekhouding-cluster) voor B-GAAP-perspectief
+├── immateriele-vaste-activa              [K — IAS 38]   herkenning · waardering · onderzoek-vs-ontwikkeling · interne vs gekochte IMA · webtools-IAS-38-criteria
+│   ▸ cross `vaste-activa` voor B-GAAP-perspectief
+├── opbrengstverantwoording               [K — IFRS 15 (vroeger IAS 18)]   5-stappen-model · contract-identificatie · prestatieverplichting · transactieprijs-verdeling · opbrengst-erkenning over-time vs point-in-time
+│   ▸ cross `bedrijfsopbrengsten` (boekhouding-cluster) voor B-GAAP-perspectief
+│
+└── --- III. CROSS-PERSPECTIEVEN ---
+├── (voorraden)                            [→ primair `boekhouding`-cluster + IFRS-perspectief (IAS 2 + IAS 11 onderhanden projecten)]
+├── (leasing)                              [→ primair `schuldfinanciering`-cluster + IFRS-perspectief (IFRS 16 — vroeger IAS 17; right-of-use-asset + lease-verplichting on-balance)]
+├── (jaarrekening)                         [→ primair `boekhouding`-cluster + IFRS-perspectief (IAS 1 + comprehensive income)]
+└── (geconsolideerde-jaarrekening)         [→ primair `consolidatie`-cluster + IFRS-perspectief (IFRS 10/3/11/12 al daar uitgewerkt)]
+```
+
+**Cross-cluster**:
+- boekhouding: `vaste-activa` · `voorraden` · `bedrijfsopbrengsten` · `jaarrekening` · `belgisch-boekhoudrecht` (IFRS-perspectief / EU-richtlijn-grondslag-cross)
+- schuldfinanciering: `leasing` · `financiele-leasing` · `operationele-leasing` (IFRS 16-perspectief)
+- consolidatie (PO 1.4): `geconsolideerde-jaarrekening` (IFRS 10/3/11/12-context al daar)
+
+**Renames + acties**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| `ifrs` | **Σ-promotie** — mini-cluster-Σ-hoofdrecord |
+| `be-gaap-vs-ifrs-verschillen` | **absorbed voorlopig** als sub-sectie #afwijkingen-tov-be-gaap in `ifrs`-Σ; **mogelijk later eigen synthese-record** (OP-META.B) — `-vs-`-naam past natuurlijk bij synthese-/vergelijkings-records-pattern |
+
+**Triangulatie 2026-05-27**:
+- 14 PO 1.5-anchors → 0 gaps (alle anchors gedekt door cluster-eigen of cross via perspectieven)
+- 9 records → 4 cluster-eigen + 4 cross + 1 absorbed (voorlopig)
+- Reductie: 9 → 4 (effectief, want 4 cross blijven primair elders)
+
+**Bronnen-pin**:
+- ✅ IAS-Verordening EU 1606/2002 + alle EU-aanvullingen
+- ✅ EU-richtlijn 2013/34 (basis B-GAAP + IFRS-toepassings-kader)
+- ✅ Alle IAS/IFRS-standaarden (IFRS Foundation publicaties + IASB-website)
+- ✅ CBN-adviezen over IFRS-toepassing in B-GAAP-context (CBN 2020-7 t/m 2020-13 voor selectieve standaarden)
+
+**Test-case-validatie** (2026-05-27): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Eerste IFRS-toepassing: openings-balans + retrospectieve aanpassingen | `ifrs`-Σ#eerste-toepassing-ifrs (IFRS 1) | ✅ |
+| Operationele vs financiële leasing onder IFRS 16 | cross `leasing`-cluster (schuldfinanciering) + IFRS 16-perspectief (right-of-use-asset) | ✅ |
+| Goodwill-impairment volgens IAS 36 | cross `consolidatieverschil` (PO 1.4) + IFRS-perspectief | ✅ |
+| Voorraad-waardering IFRS (LIFO niet toegestaan onder IAS 2) | cross `voorraden` (boekhouding) + IAS 2-perspectief | ✅ |
+
+**Open punten**:
+- **OP-IFRS.A** ⏳ Σ-promotie `vaste-activa` (boekhouding-cluster) met sub-records `materiele-vaste-activa` + `immateriele-vaste-activa` + `financiele-vaste-activa` (huidig: `deelneming-financieel-vast-actief`) — toekomstige revisie boekhouding-cluster met B-GAAP + IFRS-perspectieven per sub-record. Voorlopig 2 IFRS-records standalone in deze cluster.
+- **OP-IFRS.B** ⏳ `be-gaap-vs-ifrs-verschillen` synthese-record-overweging (zie OP-META.B): bij content-uitwerking beslissen of dit terug eigen record wordt (didactische waarde van vergelijkings-tabel).
+- **OP-IFRS.C** ⏳ Cross-perspectieven uitwerken: `voorraden`#IAS-2 · `leasing`#IFRS-16 · `bedrijfsopbrengsten`#IFRS-15 · `jaarrekening`#IAS-1 — content-werk per primair-cluster-record.
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
@@ -3554,3 +3726,5 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-27 | **PO 1.3 + PO 1.9 samen** als `financiele-analyse`-cluster (substantiële overlap: jaarrekeninganalyse · kasstroom · ratio's · continuiteit). Plus 13 ratio-records geabsorbeerd in 4 categorie-Σ's (`liquiditeits-ratios` · `solvabiliteits-ratios` · `rentabiliteits-ratios` · `activiteits-ratios`). 7 consolidatie-records uit PO 1.9.taak.1 parkeren voor PO 1.4 consolidatie-cluster. 5 nieuwe analyse-records uit PO 1.9 (toegevoegde-waarde · free-cash-flow · financiele-diagnose · faillissementspredictie-modellen · financiele-analyse-software). | (a) PO 1.3 en PO 1.9 als 2 aparte clusters (verstopt natuurlijke overlap); (b) Individuele ratio-records behouden (over-versnippering) of merge alle 13 in 1 Σ (verliest categorie-structuur); (c) Consolidatie-records primair in PO 1.9-cluster (verstopt natuurlijke thuis in PO 1.4) | User-keuze 2026-05-27: vraag 1 B (groepeer per categorie wegens gemeenschappelijke interpretatie + "nooit in isolement, altijd in vergelijking met andere ratios"); vraag 2 A (kasstroom-analyse apart); vraag 3 A (continuiteit-rename); vraag 4 C (wacht op PO 1.9 → resulteerde in merge). User-principe geformuleerd 2026-05-27 (PO 1.2 sessie): "content hoort waar het in de praktijk leeft, niet in een specifiek PO" — toegepast op consolidatie-verhuizing en cluster-merge. | Pattern: andere PO's met substantiële overlap (PO 1.4 consolidatie + PO 1.5 IFRS?) kunnen analoog samen vormen. Ratio-Σ-pattern (categorie-Σ + sub-secties per item) toepasbaar voor andere domeinen met vergelijkbare structuur (cumulatieve interpretatie op categorie-niveau, geen wettelijke regel per item — bv. KPI's bij management accounting PO 1.8). |
 | 2026-05-27 | **Werkveld-eerst-principe** formeel ingevoerd: bij triangulatie + cluster-bouw, denk vanuit het werkveld (welke concepten leven in accountant-praktijk?) i.p.v. vanuit PO-anchors (welke anchors moet ik dekken?). Anchors zijn examenstof-aanduidingen, niet conceptuele fenomenen. Sommige anchors verwijzen naar presentationele vormen (PO 1.9.IV.B "Tabel van waardemutaties"), naar examen-niveau-aanduidingen (V.E "Interpretatie en evaluatie" = bekwaamheid), of naar cross-cluster-content (IV.E/F "Financiering met derden/eigen kapitaal" = al gedekt door schuldfinanciering + kapitaalstructuur). | Anchor-eerst-aanpak: elk anchor → record (over-versnippering); of elk anchor → sub-sectie (verliest werkveld-coherentie) | User-meta-opmerking 2026-05-27 na grondige PO 1.9-doorloop: "minder aan de ankers koppelen, meer vanuit het werkveld denken". Verfijnt eerder principe "content hoort waar het in de praktijk leeft": anchor-mapping wordt achteraf-toets, niet voorstel-basis. Concept-bestaan-vraag wordt vanuit werkveld bepaald. Voorbeeld: IV.B = presentatie-vorm geen fenomeen → sub-sectie; IV.E/F = al gedekt elders → cross-link, geen nieuw record; V.E = methodologisch overkoepelende skill → eigen `ratio-interpretatie`-K-techniek-record (substantieel werkveld-fenomeen ondanks "alleen één anchor"). | Toepasbaar op alle resterende PO-rondes (1.4 · 1.5 · 1.8): triangulatie blijft (welke anchors raakt het cluster?), maar concept-structuur volgt werkveld-coherentie. ADR-030 + ADR-029 te updaten met dit principe. Mogelijk in skelet-doc-werkwijze sectie expliciet vermelden bij voltooiing PO 1.x-blok. |
 | 2026-05-27 | **PO 1.9-fix-pass**: na user-opmerking "samen door 1.9 gaan" grondige doorloop opgeleverd: (1) `kasstroom-analyse` Σ-promotie met 8 sub-secties (PO 1.9.IV.A-H — OP-AN.B opgelost); (2) NIEUW `ratio-interpretatie` K-techniek-record (PO 1.9.V.E bekwaamheid-niveau, cross-categorie-methodologie); (3) Cross-links naar `cyclus-analyse` (controle), `schuldfinanciering`, `kapitaalstructuur`-clusters vanuit `kasstroom-analyse`-Σ. | (a) Behoud `kasstroom-analyse` als platte procedure (verliest 8 sub-anchor-detail); (b) `ratio-interpretatie` als sub-sectie van `jaarrekeninganalyse`-Σ (verliest cross-categorie-context van V.E bekwaamheid-niveau) | User-keuze 2026-05-27 PO 1.9-fix: punt 1 akkoord (Σ-promotie), punt 2 B (apart `ratio-interpretatie`-record), punt 3 C (cross naar cyclus-analyse via shared thema). `ratio-interpretatie` voldoet aan voorwaarde 4 (substantiële cross-categorie-skill: DuPont-decomposition · benchmarking-methodologie · valkuilen) ondanks single-anchor-aanduiding — werkveld-eerst-principe toegepast. | Pattern: bekwaamheid-niveau-anchors (V.E + VI + VII in PO 1.9) wijzen vaak op methodologische skills met cross-record-context — eerder eigen records dan sub-secties van Σ. Te bevestigen bij PO 1.8 management accounting (bekwaamheid-niveau-anchors). |
+| 2026-05-27 | **PO 1.4 + PO 1.5** apart als 2 clusters (`consolidatie` + `ifrs-rapportering`). PO 1.4 = consolidatie-specifiek (B-GAAP KB 30-01-2001 + IFRS 10/3/11/12); PO 1.5 = algemene IFRS-rapportering (IAS 1 + selectieve IAS/IFRS-standaarden + EU-richtlijn-kader). Geen substantiële overlap — apart cluster-toewijzing rechtvaardigd. PO 1.4: 22 records → 16 (3 renames + 1 controle-merge 3→1). PO 1.5: 9 records → 4 cluster-eigen + 4 cross (ifrs-Σ + 3 IFRS-standaard-records). | (a) PO 1.4 + PO 1.5 mergen in `consolidatie-en-ifrs`-cluster (`-en-`-smell); (b) Individuele controle-records (`controle-vennootschapsrecht` + `controle-test-deelneming` + `kwalificatie-controle-deelneming`) behouden (3 records voor zelfde werkveld-fenomeen); (c) `consolidatieverplichting-bgaap` apart + IFRS-pendant aanmaken (verstopt werkveld-vraag-eenheid) | Werkveld-test: "moet ik consolideren?" en "wat is controle?" zijn elk één werkveld-vraag met meerdere regimes — 1 record + perspectieven. PO 1.4-vs-1.5-grens werd duidelijk via inventarisatie: consolidatie-specifieke standaarden (IFRS 10/3/11/12) vs algemene IFRS (IAS 1/2/16/17/18/38). User-keuze 2026-05-27 vraag 4 (PO 1.4 sparring): "ik denk ook dat er veel overlap is met 1.5... even mee analyseren?" → na analyse bevestigd: apart maar wel verwant via cross-links. | Pattern: andere paren-PO's met thematische verwantschap maar verschillende focus (bv. PO 1.6 audit + PO 1.7 IC — al apart) volgen zelfde patroon: apart clusteren met cross-links via `accountant_perspectieven[]`. |
+| 2026-05-27 | **OP-META.B** open punt: **synthese-/overzichts-records-pattern** als "bovenop"-concept-laag. User-inzicht 2026-05-27 bij PO 1.5: "overzichten/syntheses met flow & stappen · verschillen en gelijkenissen · keuzes · ... daar zit didactische waarde — we zouden die nog 'bovenop' de concepten proberen leggen". Concrete kandidaat: `be-gaap-vs-ifrs-verschillen` (voorlopig absorbed in `ifrs`-Σ#afwijkingen-tov-be-gaap). | (a) Strikt absorberen alle synthese-aspecten in primaire records (huidige aanpak — verliest didactische vergelijkings-tabel-waarde); (b) Synthese-records als eigen Σ-pattern markeren met `-vs-` of `-versus-` of `-overzicht`-suffix (mogelijk schema-naam-conventie) | Synthese-records dragen vooral pedagogische waarde (vergelijking + keuze-flow + samenhang-overzicht) los van fundament-records. Voorbeelden: be-gaap-vs-ifrs · jaarrekening-schema-volledig-vs-verkort-vs-micro · consolidatiemethoden-vergelijking (al Σ-pattern) · controle-opdracht-typen-Σ (al Σ-pattern) · loon-en-payroll-cascade (al K-techniek). Sommige patronen al voorzien (Σ + K-techniek); andere ontbreken (zuivere vergelijkings-tabellen zonder eigen wettelijke regel). User-suggestie: "we kunnen die beslissing uitstellen als het moet" — beslissen bij content-uitwerking welke synthese-records gerechtvaardigd zijn. | Werkpunt: ADR-030 + ADR-029 update — synthese-record-pattern als formele schema-categorie naast Σ + K-techniek + ...? Of als render-laag-pattern (vergelijkings-tabellen render-tijd genereren uit cross-links tussen primaire records)? Beslissen na PO 1.x-blok-afwerking. Voor nu: synthese-aspecten absorberen in Σ-records (default); kandidaten markeren met OP-META.B-flag voor latere review. |
