@@ -101,7 +101,7 @@ Nu: gedropt. Content-progress enkel via `changelog` (mechanisch beheerd door ope
 
 **Breaking**. Records met `schema_version: "2.1"` zijn ongeldig onder schema 2.2.
 
-**Migratie-pad**: bestaande 396 records worden in fase B (mapping-fase) opnieuw gegenereerd vanuit tree-skelet (skeleton-JSON-generator). Oude content fungeert als input voor agent, niet als 1-op-1 migratie. Geen automatische `migrate-v21-v22.py`-script — herschrijven via agent is doel.
+**Migratie-pad**: bestaande 396 records worden in fase B (mapping-fase) opnieuw gegenereerd. Skeleton-records (status=skeleton) worden direct in schema-2.2-JSON geschreven door agent of mens, vanuit het tree-skelet. Oude content (v21) fungeert als draft-input voor agent, niet als 1-op-1 migratie. Geen automatische `migrate-v21-v22.py`-script — herschrijven via agent is doel.
 
 Oude records bewaard in `data/concepten/records-v21/` voor referentie (read-only).
 
@@ -149,6 +149,6 @@ User-principes verankerd:
 
 1. **Folder migratie**: `data/concepten/records/` → `records-v21/` (read-only archief)
 2. **records_api.py update** voor schema 2.2 + bewaar oude als `records_api_v21.py`
-3. **Skeleton-JSON-generator**: tree-spec → N JSON-skeletons met scope.in/out + elementen + geldigheid (regimes)
+3. **Skeleton-JSON's direct schrijven**: per cluster genereert agent (of mens) schema-2.2-valide skeleton-records rechtstreeks in `data/concepten/records/`. Geen tussenformaat — JSON is bron-van-waarheid en schema-leidend.
 4. **Prompt-renumbering** + `cluster-extract.md` (overkoepelend, 5 operaties in 1 doorloop)
 5. **Test op boekhouding-cluster** (eerste batch, jaarrekening-fundament voor vrouw)
