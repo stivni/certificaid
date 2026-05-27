@@ -93,15 +93,50 @@ def _build_naam(spec_naam: dict | str) -> dict:
     return blok
 
 
-def _build_element(elem_spec: dict) -> dict:
-    """Element-skeleton uit cluster-spec. Schema 2.2: scope niet op element (alleen record); geldigheid via gebruikscontext."""
-    el = {
-        "id": elem_spec["id"],
-        "naam": _build_naam(elem_spec.get("naam_primair") or elem_spec.get("naam") or elem_spec["id"]),
-        "inhoud_type": elem_spec.get("inhoud_type", "subconcept"),
+def _build_inhoud(spec: dict, default_definitie: str) -> dict:
+    """Bouw inhoud-blok uit spec (kern + subconcepten + bouwstenen + gebruikscontext). Schema 2.2."""
+    inhoud = {
         "kern": {
             "definitie": {
-                "tekst": elem_spec.get("definitie_placeholder", f"⏳ Te beschrijven door agent: {elem_spec['id']}"),
+                "tekst": spec.get("definitie_placeholder", default_definitie),
+                "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [{"type": "ai_model", "naam": "skeleton-generator", "datum": _now_iso()[:10]}],
+                },
+            }
+        }
+    }
+    if "geldigheid" in spec or "gebruikscontext" in spec:
+        gc = dict(spec.get("gebruikscontext") or {})
+        if "geldigheid" in spec:
+            gc["geldigheid"] = dict(spec["geldigheid"])
+        inhoud["gebruikscontext"] = gc
+    if "subconcepten" in spec:
+        inhoud["subconcepten"] = [_build_subconcept(sub) for sub in spec["subconcepten"]]
+    if "bouwstenen" in spec:
+        inhoud["bouwstenen"] = [_build_bouwsteen(b) for b in spec["bouwstenen"]]
+    return inhoud
+
+
+def _build_subconcept(sub_spec: dict) -> dict:
+    """Sub-concept = mini-concept met inhoud-shape (recursief). Schema 2.2: geen perspectieven/scope/metadata."""
+    return {
+        "id": sub_spec["id"],
+        "naam": _build_naam(sub_spec.get("naam_primair") or sub_spec.get("naam") or sub_spec["id"]),
+        "concept_type": sub_spec.get("concept_type", "kader"),
+        "inhoud": _build_inhoud(sub_spec, f"⏳ Subconcept te beschrijven: {sub_spec['id']}"),
+    }
+
+
+def _build_bouwsteen(b_spec: dict) -> dict:
+    """Bouwsteen = platte content-item (begrip/stap/regel/formule/...). Geen subconcept als inhoud_type."""
+    bs = {
+        "id": b_spec["id"],
+        "naam": _build_naam(b_spec.get("naam_primair") or b_spec.get("naam") or b_spec["id"]),
+        "inhoud_type": b_spec.get("inhoud_type", "begrip"),
+        "kern": {
+            "definitie": {
+                "tekst": b_spec.get("definitie_placeholder", f"⏳ Bouwsteen te beschrijven: {b_spec['id']}"),
                 "grondslag": {
                     "confidence": "verondersteld",
                     "bronnen": [{"type": "ai_model", "naam": "skeleton-generator", "datum": _now_iso()[:10]}],
@@ -109,14 +144,11 @@ def _build_element(elem_spec: dict) -> dict:
             }
         },
     }
-    if "geldigheid" in elem_spec or "gebruikscontext" in elem_spec:
-        gc = dict(elem_spec.get("gebruikscontext") or {})
-        if "geldigheid" in elem_spec:
-            gc["geldigheid"] = dict(elem_spec["geldigheid"])
-        el["gebruikscontext"] = gc
-    if "elementen" in elem_spec:
-        el["elementen"] = [_build_element(sub) for sub in elem_spec["elementen"]]
-    return el
+    if "subconcepten" in b_spec or "bouwstenen" in b_spec or "gebruikscontext" in b_spec or "geldigheid" in b_spec:
+        bs["inhoud"] = _build_inhoud(b_spec, "")
+        # Verwijder dubbele kern (al in bouwsteen-niveau)
+        bs["inhoud"].pop("kern", None)
+    return bs
 
 
 def _build_scope_out(out_spec: list) -> list:
@@ -178,24 +210,11 @@ def _build_record(rec_spec: dict, cluster_spec: dict) -> dict:
                 }
             ],
         },
-        "inhoud": {
-            "kern": {
-                "definitie": {
-                    "tekst": rec_spec.get(
-                        "definitie_placeholder",
-                        f"⏳ Te beschrijven door agent in cluster-extractie van {cluster_name}.",
-                    ),
-                    "grondslag": {
-                    "confidence": "verondersteld",
-                    "bronnen": [{"type": "ai_model", "naam": "skeleton-generator", "datum": _now_iso()[:10]}],
-                },
-                }
-            }
-        },
+        "inhoud": _build_inhoud(rec_spec, f"⏳ Te beschrijven door agent in cluster-extractie van {cluster_name}."),
         "relaties": [],
     }
 
-    # scope op record-niveau
+    # scope op record-niveau (alleen top — niet recursief op sub-concepten)
     if "scope_in" in rec_spec or "scope_out" in rec_spec:
         record["metadata"]["scope"] = {}
         if "scope_in" in rec_spec:
@@ -203,26 +222,18 @@ def _build_record(rec_spec: dict, cluster_spec: dict) -> dict:
         if "scope_out" in rec_spec:
             record["metadata"]["scope"]["out"] = _build_scope_out(rec_spec["scope_out"])
 
-    # elementen
-    if "elementen" in rec_spec:
-        record["inhoud"]["elementen"] = [_build_element(e) for e in rec_spec["elementen"]]
-
-    # geldigheid + gebruikscontext (schema 2.2: geldigheid in gebruikscontext)
-    if "geldigheid" in rec_spec or "gebruikscontext" in rec_spec:
-        gc = dict(rec_spec.get("gebruikscontext") or {})
-        if "geldigheid" in rec_spec:
-            gc["geldigheid"] = dict(rec_spec["geldigheid"])
-        record["inhoud"]["gebruikscontext"] = gc
-
-    # accountant_perspectieven placeholders
+    # accountant_perspectieven TOP-only (record-niveau) — schema 2.2 refactor
     if "accountant_perspectieven" in rec_spec:
-        record["inhoud"]["accountant_perspectieven"] = []
-        for persp_spec in rec_spec["accountant_perspectieven"]:
+        record["accountant_perspectieven"] = []
+        for idx, persp_spec in enumerate(rec_spec["accountant_perspectieven"]):
+            positie = persp_spec.get("positie", "eigen-kantoor")
             persp = {
-                "positie": persp_spec.get("positie", "eigen-kantoor"),
-                "context": persp_spec.get("context", ""),
+                "id": persp_spec.get("id", f"perspectief-{idx+1}-{positie}"),
+                "naam": _build_naam(persp_spec.get("naam") or positie.replace("-", " ").title()),
                 "rollen": [],
             }
+            if "context" in persp_spec:
+                persp["intro"] = persp_spec["context"]
             for rol_spec in persp_spec.get("rollen", []):
                 if isinstance(rol_spec, str):
                     persp["rollen"].append({"rol": rol_spec, "elementen": []})
@@ -230,10 +241,10 @@ def _build_record(rec_spec: dict, cluster_spec: dict) -> dict:
                     persp["rollen"].append(
                         {
                             "rol": rol_spec["rol"],
-                            "elementen": [_build_element(e) for e in rol_spec.get("elementen", [])],
+                            "elementen": [_build_bouwsteen(e) for e in rol_spec.get("elementen", [])],
                         }
                     )
-            record["inhoud"]["accountant_perspectieven"].append(persp)
+            record["accountant_perspectieven"].append(persp)
 
     # relaties (cross-cluster + binnen-cluster hints)
     for rel_spec in rec_spec.get("cross_relaties") or []:

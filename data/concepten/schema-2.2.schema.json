@@ -7,6 +7,7 @@
   "type": "object",
   "additionalProperties": false,
   "required": ["id", "naam", "concept_type", "metadata", "inhoud", "relaties"],
+  "$comment": "Top-level concept-record (file-niveau). Heeft 'accountant_perspectieven' top-only — sub-concepten (recursief in inhoud.subconcepten[]) hebben dit NIET. Reden: vermijdt versplintering binnen fiche; sub-concept dat eigen perspectieven nodig heeft = split-trigger naar apart record.",
 
   "properties": {
     "id":           { "$ref": "#/$defs/concept_id" },
@@ -15,6 +16,11 @@
 
     "metadata":     { "$ref": "#/$defs/metadata" },
     "inhoud":       { "$ref": "#/$defs/inhoud" },
+    "accountant_perspectieven": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/perspectief" },
+      "description": "TOP-only veld (record-niveau alleen). Wat-doet-de-accountant per positie (uitgever, aandeelhouder, eigen-kantoor, ...) en rol (boekhouder, auditor, fiscaal, adviseur, begeleider). Sub-concepten erven deze perspectieven via parent — sub-concept met eigen perspectief-context = split-trigger naar apart record."
+    },
     "relaties":     {
       "type": "array",
       "items": { "$ref": "#/$defs/relatie" },
@@ -186,23 +192,28 @@
     "inhoud": {
       "type": "object",
       "additionalProperties": false,
-      "description": "Hoofdinhoud van het concept. 'kern' verplicht (≥1 van definitie/substantie/rationale). Andere blokken optioneel — agent vult wat zinvol is voor dit concept.",
+      "description": "Inhoudelijke shape — gedeeld door concept (record), subconcept (recursief geneste mini-concepten) en bouwsteen (platte content-items zoals begrip/stap/regel/formule). Schema 2.2 refactor: DRY via $ref naar inhoud-shape; sub-concepten apart van bouwstenen voor scherper onderscheid. Plaatsingsregel: 'wat-is-het' hoort hier; 'wat-doet-de-accountant' hoort onder accountant_perspectieven (TOP-only op concept-niveau).",
       "required": ["kern"],
       "properties": {
         "kern":                      { "$ref": "#/$defs/kern" },
         "voorkennis_leespad":        { "$ref": "#/$defs/voorkennis_leespad" },
         "gebruikscontext":           { "$ref": "#/$defs/gebruikscontext" },
-        "elementen": {
+        "subconcepten": {
           "type": "array",
-          "items": { "$ref": "#/$defs/element" },
-          "$comment": "PLAATSINGSREGEL — 'wat-is-het' hoort hier; 'wat-doet-de-accountant' hoort onder accountant_perspectieven. Elementen beschrijven het concept zelf: mechanisme, sub-concepten, wettelijke voorwaarden, formules, stappen die intrinsiek zijn aan het concept (bv. schuldeisersbeschermingsprocedure bij kapitaalvermindering — geldt ongeacht wie kijkt). NIET hier: boekhoudkundige verwerking (= rol=boekhouder), audit-procedures (= rol=auditor), aangifte-stappen (= rol=fiscaal), advies-checklist (= rol=adviseur), begeleidings-stappen (= rol=begeleider). Litmus: 'gebeurt dit ongeacht of er een accountant bij betrokken is?' → ja → element; → nee/alleen-als-accountant-handelt → accountant_perspectieven."
+          "items": { "$ref": "#/$defs/subconcept" },
+          "description": "Sub-concepten = mini-concepten met dezelfde shape als parent-concept (recursief identiek via $ref). Wanneer een sub-concept eigen accountant_perspectieven of scope nodig heeft = split-trigger naar apart top-level record. Anders: blijft hier als geneste structuur."
+        },
+        "bouwstenen": {
+          "type": "array",
+          "items": { "$ref": "#/$defs/bouwsteen" },
+          "description": "Platte content-items: begrip, stap, drempel, regel, uitzondering, vuistregel, mechanisme, risico, formule, principe, beperking. Geen volledig-concept-status, geen recursieve sub-concepten. Voor recursieve concept-shape: gebruik 'subconcepten[]'."
         },
         "voorbeelden":               { "type": "array", "items": { "$ref": "#/$defs/voorbeeld" } },
         "valkuilen":                 { "type": "array", "items": { "$ref": "#/$defs/valkuil" } },
         "speelruimtes":              { "type": "array", "items": { "$ref": "#/$defs/speelruimte" } },
-        "accountant_perspectieven":  { "type": "array", "items": { "$ref": "#/$defs/perspectief" } },
         "syntheses":                 { "type": "array", "items": { "$ref": "#/$defs/synthese" } }
-      }
+      },
+      "$comment": "Schema 2.2 refactor (2026-05-27, ADR-035): 'elementen[]' uit schema 2.1 gesplitst in 'subconcepten[]' (recursief concept-shape via $ref:subconcept) + 'bouwstenen[]' (platte content-items via $ref:bouwsteen). Reden: scherper conceptueel onderscheid + DRY-recursie zonder drift. 'accountant_perspectieven' verhuisd naar concept-niveau (top-only) om versplintering binnen fiche te vermijden — sub-concept met eigen perspectief-context = split-trigger naar apart top-level record (consistent met scope-regel)."
     },
 
     "geldigheid": {
@@ -386,8 +397,21 @@
       }
     },
 
-    "element": {
-      "$comment": "Recursief bouwblok. Fractale shape: gelijke 'kern'-wrapper als top-level inhoud. Geen 'beschrijving' meer (v1.4-veld) — gebruik kern.definitie of kern.substantie. Geen 'verwijst_naar' meer — gebruik relaties[] via tekst-blokken.",
+    "subconcept": {
+      "$comment": "Recursief sub-concept. Zelfde inhoud-shape als top-level concept via $ref:inhoud. Heeft GEEN accountant_perspectieven (= TOP-only op concept-niveau) en GEEN scope/metadata/relaties (= record-niveau alleen). Sub-concept dat zulke velden nodig heeft = split-trigger naar apart top-level record. Naamgeving consistent met user-mental-model: 'het IS een concept maar dan geneset'.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "naam", "concept_type", "inhoud"],
+      "properties": {
+        "id":           { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*[a-z0-9]$" },
+        "naam":         { "$ref": "#/$defs/naam_blok" },
+        "concept_type": { "$ref": "#/$defs/concept_type" },
+        "inhoud":       { "$ref": "#/$defs/inhoud", "description": "Recursief: heeft alle inhoud-shape-velden inclusief subconcepten[] (recursie) en bouwstenen[]." }
+      }
+    },
+
+    "bouwsteen": {
+      "$comment": "Platte content-item (niet-recursief concept-shape). Eén van de inhoud_type-categorieën: begrip, stap, drempel, regel, uitzondering, vuistregel, mechanisme, risico, formule, principe, beperking. Een bouwsteen KAN inhoud hebben (sub-bouwstenen + sub-subconcepten) voor structurele decompositie — bv. een formule met component-formules, of een stap met sub-stappen. Anders dan v2.1-'element': 'subconcept' is geen inhoud_type meer (sub-concepten hebben eigen array).",
       "type": "object",
       "additionalProperties": false,
       "required": ["id", "naam", "inhoud_type", "kern"],
@@ -396,15 +420,9 @@
         "naam":          { "$ref": "#/$defs/naam_blok" },
         "inhoud_type":   { "$ref": "#/$defs/inhoud_type" },
         "kern":          { "$ref": "#/$defs/kern" },
-        "grondslag":               { "$ref": "#/$defs/grondslag", "description": "Optionele grondslag voor het bestaan van dit element zelf (los van zijn kern.definitie/substantie/rationale)." },
-        "weergaven":               { "type": "array", "items": { "$ref": "#/$defs/weergave" } },
-        "elementen":               { "type": "array", "items": { "$ref": "#/$defs/element" }, "description": "Recursieve sub-elementen. Geadviseerd max 3 niveaus diepte." },
-        "voorbeelden":             { "type": "array", "items": { "$ref": "#/$defs/voorbeeld" } },
-        "valkuilen":               { "type": "array", "items": { "$ref": "#/$defs/valkuil" } },
-        "speelruimtes":            { "type": "array", "items": { "$ref": "#/$defs/speelruimte" } },
-        "gebruikscontext":         { "$ref": "#/$defs/gebruikscontext", "description": "Schema 2.2: elementen kunnen eigen gebruikscontext (incl. geldigheid) hebben — sub-regimes met eigen uitdoof-status of toepassings-voorwaarden." },
-        "accountant_perspectieven":{ "type": "array", "items": { "$ref": "#/$defs/perspectief" }, "description": "Schema 2.2: elementen kunnen eigen accountant_perspectieven hebben — sub-concept-specifieke werk-rol-context." },
-        "syntheses":               { "type": "array", "items": { "$ref": "#/$defs/synthese" }, "description": "Schema 2.2: elementen kunnen eigen syntheses hebben — vergelijkings-overzichten binnen sub-concept-context." }
+        "grondslag":     { "$ref": "#/$defs/grondslag", "description": "Optionele grondslag voor het bestaan van deze bouwsteen zelf (los van zijn kern.definitie/substantie/rationale)." },
+        "weergaven":     { "type": "array", "items": { "$ref": "#/$defs/weergave" }, "description": "Concrete presentaties: boeking, balans_snapshot, tabel, proza, etc. Vooral nuttig voor inhoud_type=formule/stap/regel waar concrete cases passen." },
+        "inhoud":        { "$ref": "#/$defs/inhoud", "description": "Optionele sub-inhoud — bouwstenen kunnen zelf sub-bouwstenen + sub-subconcepten dragen voor structurele decompositie. Geadviseerd max 3 niveaus diepte." }
       }
     },
 
@@ -421,10 +439,9 @@
         "risico",
         "formule",
         "principe",
-        "subconcept",
         "beperking"
       ],
-      "$comment": "v1.5: 12 types (was 19). Per-waarde uitleg (agent kiest type per element):\n• 'begrip' — definiërende term, focus op WAT het is (bv. 'verbonden vennootschap').\n• 'stap' — stap in een sequentie (wet-gedreven OF aanpak-cyclus, samengevoegd v1.5).\n• 'drempel' — kwantitatieve grens (% / bedrag / aantal jaren) die regime-overgang triggert.\n• 'regel' — algemene normstelling met juridische kracht. INCLUDE: cumulatieve voorwaarden (v1.4 'voorwaarde'-type).\n• 'uitzondering' — afwijking van algemene regel voor specifiek geval.\n• 'vuistregel' — beroepswijsheid zonder formele bron, expert-rule-of-thumb.\n• 'mechanisme' — hoe iets economisch/juridisch werkt. INCLUDE: naast-elkaar-zettingen van varianten (v1.4 'vergelijking'-type).\n• 'risico' — wat kan misgaan + voor wie.\n• 'formule' — wiskundige uitdrukking of berekenings-recept. INCLUDE: uitgewerkte berekeningen (v1.4 'berekening'-type).\n• 'principe' — abstract beginsel met normatieve kracht.\n• 'subconcept' — sub-onderdeel van het concept (was v1.4 'component').\n• 'beperking' — inherente zwakte/beperking van een indicator, methode of concept (NIEUW v1.5).\n\nGedropt v1.5 met mapping:\nprocedure_stap + stap_in_cyclus → stap\ncomponent → subconcept\nberekening → formule\nvoorwaarde → regel\nvergelijking → mechanisme\neigenschap → begrip\nvalkuil → mechanisme (concept-niveau 'valkuilen[]' is de juiste plek voor didactische valkuilen)\nmoment_in_tijd → geen mapping (niet in gebruik)\nkeuze → vuistregel of mechanisme (niet in gebruik)"
+      "$comment": "Schema 2.2: 11 types (was 12 in 2.1 — 'subconcept' verwijderd want sub-concepten hebben eigen array inhoud.subconcepten[] ipv inhoud_type-marker). Per-waarde uitleg (agent kiest type per bouwsteen):\n• 'begrip' — definiërende term, focus op WAT het is (bv. 'verbonden vennootschap').\n• 'stap' — stap in een sequentie (wet-gedreven OF aanpak-cyclus).\n• 'drempel' — kwantitatieve grens (% / bedrag / aantal jaren) die regime-overgang triggert.\n• 'regel' — algemene normstelling met juridische kracht. INCLUDE: cumulatieve voorwaarden.\n• 'uitzondering' — afwijking van algemene regel voor specifiek geval.\n• 'vuistregel' — beroepswijsheid zonder formele bron, expert-rule-of-thumb.\n• 'mechanisme' — hoe iets economisch/juridisch werkt. INCLUDE: naast-elkaar-zettingen van varianten.\n• 'risico' — wat kan misgaan + voor wie.\n• 'formule' — wiskundige uitdrukking of berekenings-recept. INCLUDE: uitgewerkte berekeningen.\n• 'principe' — abstract beginsel met normatieve kracht.\n• 'beperking' — inherente zwakte/beperking van een indicator, methode of concept.\n\nVoor sub-concepten met eigen concept-shape (eigen kern + sub-subconcepten + ...): gebruik inhoud.subconcepten[] ipv bouwstenen[]."
     },
 
     "weergave": {
@@ -467,7 +484,7 @@
         "context":    { "type": "string", "description": "Optioneel intro ('NV ABC heeft 3 aandeelhouders...')." },
         "grondslag":  { "$ref": "#/$defs/grondslag" },
         "weergaven":  { "type": "array", "items": { "$ref": "#/$defs/weergave" } },
-        "elementen":  { "type": "array", "items": { "$ref": "#/$defs/element" } }
+        "elementen":  { "type": "array", "items": { "$ref": "#/$defs/bouwsteen" } }
       }
     },
 
@@ -545,7 +562,7 @@
       "required": ["rol", "elementen"],
       "properties": {
         "rol":       { "$ref": "#/$defs/rol_enum" },
-        "elementen": { "type": "array", "items": { "$ref": "#/$defs/element" } }
+        "elementen": { "type": "array", "items": { "$ref": "#/$defs/bouwsteen" } }
       }
     },
 
