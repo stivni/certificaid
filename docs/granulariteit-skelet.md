@@ -173,6 +173,11 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
+bedrijfsadvies                           [mini-cluster onder bedrijfseconomie-en-management — 3 NIEUW ⏳ records, vult 4.0.II.B + 4.0.II.E + 4.0.taak.6 + 3.0.taak.2 lacune]
+├── bedrijfsstrategie-inzicht            [K ⏳ — 4.0.II.B + 4.0.taak.6]   businessmodel-canvas · waardeketen · marktdynamiek
+├── bedrijfswaardering                   [K-techniek ⏳ — 4.0.II.E + 3.0.taak.2]   DCF · multiples · NAV
+└── investeringsevaluatie                [K-techniek ⏳ — 4.0.II.E]   NPV · IRR · WACC · payback
+
 management-accounting                    [Σ-cluster onder bedrijfseconomie-en-management — PO 1.8, 9 cluster-eigen]
 ├── analytische-boekhouding              [Σ — gepromoveerd, absorbeert kostentypologie + kostencomponenten + IV-anchors]
 ├── kostprijsmethoden [Σ] · full-costing · direct-costing · standaardkostenmethode · activity-based-costing (rename `abc-methode`)   [methodes III]
@@ -324,6 +329,7 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | consolidatie | ~16 cluster-eigen + 2 cross (Σ-hoofd + 3 renames + 1 controle-merge 3→1) | PO 1.4 (geconsolideerde jaarrekening + B-GAAP/IFRS) | [§Consolidatie-cluster](#consolidatie-cluster) |
 | ifrs-rapportering | 4 cluster-eigen + 4 cross (Σ-promotie ifrs + be-gaap-vs-ifrs-verschillen absorbed voorlopig) | PO 1.5 (EU-richtlijn + IAS-Verordening + IAS 1/2/16/17/18/38 + IFRS 15) | [§IFRS-rapportering-cluster](#ifrs-rapportering-cluster) |
 | management-accounting | 9 cluster-eigen (3 Σ-promoties + 2 absorpties + 1 rename `activity-based-costing`) | PO 1.8 (analytische boekhouding + budgetbeheer) — onder bedrijfseconomie-en-management-discipline | [§Management-accounting-cluster](#management-accounting-cluster) |
+| bedrijfsadvies | 3 ⏳ NIEUW (bedrijfsstrategie-inzicht · bedrijfswaardering · investeringsevaluatie) | PO 4.0.II.B + 4.0.II.E + 4.0.taak.6 + 3.0.taak.2 + 3.0.VI.D — werkveld-lacune-vulling onder bedrijfseconomie-en-management | [§Bedrijfsadvies-cluster](#bedrijfsadvies-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -3068,6 +3074,77 @@ management-accounting                     [Σ-cluster onder bedrijfseconomie-en-
 - **OP-MA.C** ⏳ Discipline-laag-1 `bedrijfseconomie-en-management` blijft abstract (geen hoofdrecord, user-keuze vraag 4). Cluster `management-accounting` + `financiele-analyse` leven onder; mogelijk later `corporate-finance` of `strategie-en-businessmodel`-clusters toevoegen.
 - **OP-MA.D** ⏳ Afkortingen in display-titel (NIEUW principe): andere records waar dit ook nuttig is — `btw` → "Belasting over de toegevoegde waarde (BTW)", `voordelen-alle-aard` → "Voordelen alle aard (VAA)", `belgisch-boekhoudrecht` → "Belgisch boekhoudrecht (B-GAAP)", `dbi-aftrek` → "DBI-aftrek (Definitief Belaste Inkomsten)", `gecertificeerd-accountant` → "Gecertificeerd Accountant (GA)". Te formaliseren bij content-uitwerking.
 
+### Bedrijfsadvies-cluster
+
+Thema: `bedrijfsadvies`. *Mini-cluster onder `bedrijfseconomie-en-management`-discipline (2026-05-27). Vult lacune ontdekt bij werkveld-vs-programma-validatie: 4.0.II.B STRATEGIE EN BESTUUR + 4.0.II.E FINANCIËN + 4.0.taak.6 (bedrijfsstrategie-inzicht) + 3.0.taak.2 (overdracht/ontbinding advies) + 3.0.VI.D (exit organiseren) hadden geen expliciete records-toewijzing. 3 nieuwe ⏳ records.*
+
+```
+bedrijfsadvies                            [Σ-cluster onder bedrijfseconomie-en-management — 3 NIEUW records]
+│
+├── bedrijfsstrategie-inzicht             [K, ⏳ NIEUW — 4.0.II.B + 4.0.taak.6]
+│   ▸ businessmodel-canvas · waardeketen (Porter) · strategische keuzes · marktdynamiek
+│   ▸ governance-link (cross `bestuur-vennootschap`) · risico-strategie (cross `coso-framework` ERM)
+│   ▸ accountant-rol: gesprekspartner voor cliënt-leiding · strategische lens op cijferwerk
+│   ▸ niveau: kennis-opbouw (geleidelijk verwerven volgens 4.0.taak.6 — niet diepe strategische theorie)
+│
+├── bedrijfswaardering                    [K-techniek, ⏳ NIEUW — 4.0.II.E + 3.0.taak.2 + 3.0.VI.D]
+│   ▸ methodes: DCF (Discounted Cash Flow) · multiples (P/E · EV/EBITDA) · NAV (Net Asset Value) · gemengde methodes
+│   ▸ context: overdracht (share-deal · asset-deal) · exit-planning · familiale opvolging · earn-out-modellen
+│   ▸ cross `free-cash-flow` (financiele-analyse) als DCF-input
+│   ▸ cross `overdracht-onderneming`-Σ voor toepassings-context
+│   ▸ cross `fiscale-aandachtspunten` (vennootschapsbelasting + registratie) voor waardering-fiscaal-impact
+│
+└── investeringsevaluatie                 [K-techniek, ⏳ NIEUW — 4.0.II.E]
+    ▸ methodes: NPV (Net Present Value) · IRR (Internal Rate of Return) · payback-periode · gediscontineerde payback · profitability index
+    ▸ kapitaalkost / WACC (Weighted Average Cost of Capital) als input
+    ▸ scenario-analyse + sensitiviteits-analyse
+    ▸ make-or-buy-beslissing (cross `marginale-analyse` in management-accounting)
+    ▸ cross `kasstroom-analyse`-Σ voor kasstroom-input
+```
+
+**Cross-cluster** (records primair elders, raken bedrijfsadvies):
+- financiele-analyse: `free-cash-flow` (DCF-input) · `kasstroom-analyse`-Σ (investerings-evaluatie-input) · `ratio-interpretatie`
+- management-accounting: `marginale-analyse` (make-or-buy) · `break-even-analyse`
+- overdracht-onderneming: `overdracht-onderneming`-Σ + `overnameovereenkomst-spa`
+- kapitaalstructuur: `aandeel` + `eigen-vermogen` (waarderings-context)
+- vennootschapsrecht: `bestuur-vennootschap` (strategie-governance-link) · `vennootschap-groottecategorieen`
+- controle-opdracht: `coso-framework` ERM (risico-strategie-link)
+
+**Schrappen / nieuwe records**:
+- 3 NIEUWE records (allemaal ⏳ kandidaten voor content-uitwerking):
+  - `bedrijfsstrategie-inzicht` (K)
+  - `bedrijfswaardering` (K-techniek)
+  - `investeringsevaluatie` (K-techniek)
+- 0 schrappen / 0 absorpties
+
+**Triangulatie 2026-05-27** (programma-aanwezigheid):
+- 4.0.II.B STRATEGIE EN BESTUUR — gedekt door `bedrijfsstrategie-inzicht`
+- 4.0.II.E FINANCIËN — gedekt door `bedrijfswaardering` + `investeringsevaluatie` (samen met al-bestaande financiele-analyse + schuldfinanciering)
+- 4.0.taak.6 bedrijfsstrategie-kennis-verwerving — gedekt door `bedrijfsstrategie-inzicht`
+- 3.0.taak.2 advies overdracht/ontbinding — gedekt door `bedrijfswaardering` (cross overdracht-onderneming)
+- 3.0.VI.D exit organiseren — gedekt door `bedrijfswaardering`
+
+**Bronnen-pin** (⏳ bij content-uitwerking):
+- ✅ Algemene strategie-handboeken (Porter · Kim+Mauborgne · Osterwalder voor businessmodel-canvas)
+- ✅ Corporate finance-handboeken (Brealey-Myers-Allen · Damodaran voor waardering)
+- ⏳ Belgische context: ITAA-handleiding voor accountant-advies-rol bij overdracht
+- ⏳ CBN-adviezen 2017-13 (waardering aandelen niet-genoteerd) en gelijkaardige
+
+**Test-case-validatie** (2026-05-27): 4 vragen-archetypes:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Bedrijfswaardering bij overdracht KMO via DCF | `bedrijfswaardering`#DCF + cross `free-cash-flow` + cross `overdracht-onderneming`-Σ | ✅ |
+| NPV-berekening investering machine + WACC-toepassing | `investeringsevaluatie`#NPV + #WACC | ✅ |
+| Strategisch advies bij familiale opvolging | `bedrijfsstrategie-inzicht` + cross `bedrijfswaardering` + cross `gunstregime-familiale-onderneming` (reg-succ) | ✅ |
+| Exit-strategie voor zaakvoerder | `bedrijfsstrategie-inzicht` + `bedrijfswaardering` + cross `overdracht-onderneming` + cross `exit-planning-vennootschap` (internationaal-fiscaal) | ✅ |
+
+**Open punten**:
+- **OP-BA.A** ⏳ Cluster-grootte: 3 records is dun. Mogelijk uitbreiden met `cash-management` (#cash-positie-optimalisatie) of `kredietverlening-advies`? Voorlopig 3 records — content-uitwerking moet uitwijzen of meer records nodig zijn.
+- **OP-BA.B** ⏳ Cluster-positionering: voorlopig onder `bedrijfseconomie-en-management`-discipline (laag-1) samen met `management-accounting` + `financiele-analyse`. Bij content-groei mogelijk eigen sub-Kader-status.
+- **OP-BA.C** ⏳ `bedrijfsstrategie-inzicht`-content scope: examenprogramma zegt "geleidelijk kennis verwerven" — geen diepe strategische theorie nodig. Beperken tot accountant-context (gesprekspartner-rol, strategische lens op cijferwerk).
+- **OP-BA.D** ⏳ Mogelijk later `corporate-finance`-Σ promoteren als cluster-overkoepelend record als content-omvang dit rechtvaardigt — voor nu geen Σ-hoofdrecord (3 records leven naast elkaar).
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
@@ -3823,3 +3900,4 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-27 | **OP-META.B** open punt: **synthese-/overzichts-records-pattern** als "bovenop"-concept-laag. User-inzicht 2026-05-27 bij PO 1.5: "overzichten/syntheses met flow & stappen · verschillen en gelijkenissen · keuzes · ... daar zit didactische waarde — we zouden die nog 'bovenop' de concepten proberen leggen". Concrete kandidaat: `be-gaap-vs-ifrs-verschillen` (voorlopig absorbed in `ifrs`-Σ#afwijkingen-tov-be-gaap). | (a) Strikt absorberen alle synthese-aspecten in primaire records (huidige aanpak — verliest didactische vergelijkings-tabel-waarde); (b) Synthese-records als eigen Σ-pattern markeren met `-vs-` of `-versus-` of `-overzicht`-suffix (mogelijk schema-naam-conventie) | Synthese-records dragen vooral pedagogische waarde (vergelijking + keuze-flow + samenhang-overzicht) los van fundament-records. Voorbeelden: be-gaap-vs-ifrs · jaarrekening-schema-volledig-vs-verkort-vs-micro · consolidatiemethoden-vergelijking (al Σ-pattern) · controle-opdracht-typen-Σ (al Σ-pattern) · loon-en-payroll-cascade (al K-techniek). Sommige patronen al voorzien (Σ + K-techniek); andere ontbreken (zuivere vergelijkings-tabellen zonder eigen wettelijke regel). User-suggestie: "we kunnen die beslissing uitstellen als het moet" — beslissen bij content-uitwerking welke synthese-records gerechtvaardigd zijn. | Werkpunt: ADR-030 + ADR-029 update — synthese-record-pattern als formele schema-categorie naast Σ + K-techniek + ...? Of als render-laag-pattern (vergelijkings-tabellen render-tijd genereren uit cross-links tussen primaire records)? Beslissen na PO 1.x-blok-afwerking. Voor nu: synthese-aspecten absorberen in Σ-records (default); kandidaten markeren met OP-META.B-flag voor latere review. |
 | 2026-05-27 | **PO 1.8 management-accounting-cluster** onder `bedrijfseconomie-en-management`-discipline (laag-1 blijft abstract zonder hoofdrecord — user-keuze 2026-05-27 vraag 4). 26 anchors · 13 records → 9 cluster-eigen na 2 absorpties (`kostentypologie` + `kostencomponenten` in `analytische-boekhouding`-Σ) + 1 rename (`abc-methode` → `activity-based-costing`) + 3 Σ-promoties (`analytische-boekhouding` + `kostprijsmethoden` + `budgetbeheer`). | (a) `kostentypologie` + `kostencomponenten` apart behouden (over-versnippering — geen zelfstandige werkveld-fenomenen); (b) `abc-methode` afkorting-id behouden (regel-8-schending CLAUDE.md); (c) Geen Σ-promoties (verliest cluster-structuur) | User-vraag 2026-05-27: "kostentypologie & kostencomponenten — redelijk gelijkaardig?" → splits-test toegepast: beide voldoen niet aan voorwaarde 4 (geen wet, geen zelfstandig werkveld-bevragingspatroon), absorberen rechtvaardigd. Cluster-positionering onder bedrijfseconomie-discipline (samen met `financiele-analyse`) sluit laag-1 abstract-houden af conform user-keuze. | Sluit PO 1.x-blok-afwerking af. Resterend skelet-werk: retroscan + meta-ADR-updates (OP-META.A/B + ADR-030/029-revisie). |
 | 2026-05-27 | **Afkortingen in display-titel-principe** (nieuw — user-vraag 2026-05-27): record-id blijft volledig (CLAUDE.md regel 8 — geen afkortingen in code/schema/filename), maar `naam.primair` (= display-titel) mag afkorting tonen tussen haakjes: `"Activity-Based Costing (ABC)"` voor record-id `activity-based-costing`. Afkortingen ook in `synoniemen[]` voor RAG/zoek. | (a) Afkorting volledig vermijden (verbergt courant gebruikte term in praktijk); (b) Afkorting in record-id toelaten (regel-8-schending CLAUDE.md) | Stagiair zoekt op courante afkorting + accountant-vocabulaire bevat veel afkortingen (ABC · BTW · VAA · DBI · IFRS · GA). Schema-niveau strikt (regel 8 behouden), display-niveau accommoderend. `naam.primair`-veld bestaat al in schema 2.1; geen schema-uitbreiding nodig. User-keuze 2026-05-27 vraag 1: "akkoord -> zouden we bij de titel van die dingen (dus niet noodzakelijk filename) de afkorting meenemen?" | Kandidaten voor toepassing (mapping-fase-werk, OP-MA.D): `btw` → "Belasting over de toegevoegde waarde (BTW)"; `voordelen-alle-aard` → "Voordelen alle aard (VAA)"; `belgisch-boekhoudrecht` → "Belgisch boekhoudrecht (B-GAAP)"; `dbi-aftrek` → "DBI-aftrek (Definitief Belaste Inkomsten)"; `gecertificeerd-accountant` → "Gecertificeerd Accountant (GA)"; `ifrs` → "International Financial Reporting Standards (IFRS)"; `coso-framework` → "COSO-framework (Committee of Sponsoring Organizations)". Niet alle records — alleen waar afkorting praktijk-courant is. |
+| 2026-05-27 | **Werkveld-vs-programma-validatie** post-PO-1.x-afwerking: tree afgetoetst tegen werkveld gecertificeerd accountant + examenprogramma-anchors. Resultaat: 1 lacune-cluster `bedrijfsadvies` (3 ⏳ NIEUW records) toegevoegd onder bedrijfseconomie-en-management-discipline. Lacune-records dekken: 4.0.II.B STRATEGIE EN BESTUUR (`bedrijfsstrategie-inzicht`) + 4.0.II.E FINANCIËN (`bedrijfswaardering` + `investeringsevaluatie`) + 4.0.taak.6 strategie-kennis-verwerving + 3.0.taak.2 overdracht-advies + 3.0.VI.D exit-organisatie. | (a) Geen actie (laat lacunes onbedekt — examen-niet-volledig); (b) Records spreiden over bestaande clusters (verstopt 4.0.II.B/E kennis-overzicht-structuur); (c) Eigen cluster — gekozen | User-vraag 2026-05-27: "is alles gecommit en gepusht intussen?" → review-vraag "kan je dat eens verifiëren? zijn er gaten?". Programma-validatie via grep op anchors-tekst + verbose-beschrijvingen leverde 3 echte lacunes op (na uitsluiting: sociale-zekerheid-zelfstandige is fragment binnen 2.2.VI/2.3.III.A, geen apart record nodig · CSRD niet in programma · crypto niet meenemen). Andere mogelijke gaten (4 e-invoicing · 5 GDPR · 6 crypto) buiten programma. User-akkoord met `bedrijfsadvies`-cluster-aanpak. | Pattern: bij latere uitwerking-rondes (ADR-revisies + mapping-fase) periodieke werkveld-vs-programma-validatie. Lacune-criterium: anker bestaat + werkveld-realiteit + geen huidige record-toewijzing. Bij twijfel: programma-aanker dwingt opname (examen-doel boven werkveld-praktijk). |
