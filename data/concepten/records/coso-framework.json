@@ -1,0 +1,117 @@
+{
+  "id": "coso-framework",
+  "naam": {
+    "primair": "COSO-framework",
+    "synoniemen": [
+      "COSO IC-IF",
+      "COSO 2013",
+      "vijf componenten van interne controle",
+      "COSO-kubus",
+      "COSO-piramide",
+      "Internal Control Integrated Framework"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.7.II",
+      "1.7.II.B",
+      "1.7.II.D",
+      "1.7.II.G",
+      "1.7.IV",
+      "1.7.VIII",
+      "1.7.VIII.A",
+      "1.7.VIII.C",
+      "1.7.VIII.D",
+      "1.7.VIII.F",
+      "1.7.XI",
+      "1.7.XII.E",
+      "1.7.XII.F"
+    ],
+    "scope": {
+      "in": [
+        "Committee of Sponsoring Organizations-raamwerk — wereldwijd dominante referentie voor IC-design + evaluatie",
+        "5 geïntegreerde componenten (COSO IC-IF 2013):",
+        "#controle-omgeving — tone at the top · integriteit + ethische waarden · competence · board governance · structuur · accountability",
+        "#risico-inschatting — risico-identificatie · analyse · fraude-risico-overweging · change mgmt",
+        "#controle-activiteiten — preventief/detectief/correctief · manueel/geautomatiseerd · sleutel/aanvullend",
+        "#informatie-en-communicatie — kwaliteit info · interne + externe communicatie",
+        "#monitoring — ongoing monitoring + separate evaluations",
+        "#coso-erm-variant — COSO ERM 2017 (strategie + performance · risk appetite · risico-portefeuille)",
+        "#andere-frameworks — COBIT (IT-governance) · ISO 31000 (risico-only)"
+      ],
+      "out": [
+        {
+          "topic": "IC als toepassings-context (intern)",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "Controle-risico-inschatting via COSO-lens (externe audit)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-planning"
+        },
+        {
+          "topic": "Cyclus-toepassing van controle-activiteiten (shared)",
+          "richting": "moet-verwijzen",
+          "ref": "cyclus-analyse"
+        },
+        {
+          "topic": "Evaluatie = monitoring-component",
+          "richting": "moet-verwijzen",
+          "ref": "evaluatie-interne-controle"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "interne-controle"
+    },
+    {
+      "type": "vereist",
+      "target": "cyclus-analyse"
+    },
+    {
+      "type": "triggert",
+      "target": "audit-planning"
+    }
+  ]
+}

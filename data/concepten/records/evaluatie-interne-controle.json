@@ -1,0 +1,113 @@
+{
+  "id": "evaluatie-interne-controle",
+  "naam": {
+    "primair": "Evaluatie interne controle",
+    "synoniemen": [
+      "internal control evaluation",
+      "control assessment",
+      "control self-assessment",
+      "operating effectiveness testing",
+      "design effectiveness review",
+      "IC-doeltreffendheidstoets"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.7.VIII.F",
+      "1.7.XI",
+      "1.7.XIII"
+    ],
+    "scope": {
+      "in": [
+        "Periodieke beoordeling van IC-opzet + IC-bestaan + IC-werking",
+        "#walkthrough — één transactie door cyclus volgen om procedures te verifiëren",
+        "#test-of-controls — sleutel-controle effectief over periode (sample)",
+        "#self-assessment — process owners beoordelen eigen controles",
+        "2 dimensies (ISA 315 + ITAA-KMO): #design-effectiveness + #operating-effectiveness",
+        "Output: input voor bestuur (remediërings-acties) + voor externe auditor (controle-risico-inschatting)"
+      ],
+      "out": [
+        {
+          "topic": "IC als object",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "Externe auditor doet zelfde activiteit (cross-cluster)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-planning"
+        },
+        {
+          "topic": "Interne audit als uitvoerder",
+          "richting": "moet-verwijzen",
+          "ref": "interne-audit"
+        },
+        {
+          "topic": "Auditcomité-rapportering",
+          "richting": "moet-verwijzen",
+          "ref": "auditcomite"
+        },
+        {
+          "topic": "COSO-monitoring-component (shared)",
+          "richting": "mag-verwijzen",
+          "ref": "coso-framework"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle"
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "interne-audit"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "audit-planning"
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "auditcomite"
+    }
+  ]
+}

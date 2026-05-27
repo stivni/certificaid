@@ -1,0 +1,100 @@
+{
+  "id": "beroepsgeheim",
+  "naam": {
+    "primair": "Beroepsgeheim",
+    "synoniemen": [
+      "professional confidentiality",
+      "vertrouwelijkheidsplicht accountant"
+    ]
+  },
+  "concept_type": "principe",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.B",
+      "4.0.taak.2"
+    ],
+    "scope": {
+      "in": [
+        "Wettelijke verankering: art 458 Strafwetboek + ITAA-deontologische code",
+        "Reikwijdte: alles wat in opdrachtuitvoering wordt gekend",
+        "Uitzonderingen: wettelijke verplichting · rechterlijke vordering · AML-melding aan CFI",
+        "Samenloop met AML: tipping-off-verbod",
+        "Anti-collision-regel met antiwitwaspreventie",
+        "Cross-toepassing belastingadvies-context"
+      ],
+      "out": [
+        {
+          "topic": "Antiwitwas-melding-discipline + tipping-off-verbod als regime",
+          "richting": "moet-verwijzen",
+          "ref": "antiwitwaspreventie"
+        },
+        {
+          "topic": "Vertrouwelijkheid als deontologisch beginsel",
+          "richting": "moet-verwijzen",
+          "ref": "deontologie"
+        },
+        {
+          "topic": "Strafrechtelijke sanctie bij schending",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsaansprakelijkheid"
+        },
+        {
+          "topic": "Tuchtsancties bij schending",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "deontologie"
+    },
+    {
+      "type": "niet_combineerbaar_met",
+      "target": "antiwitwaspreventie"
+    },
+    {
+      "type": "triggert",
+      "target": "beroepsaansprakelijkheid"
+    }
+  ]
+}

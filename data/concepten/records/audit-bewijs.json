@@ -1,0 +1,136 @@
+{
+  "id": "audit-bewijs",
+  "naam": {
+    "primair": "Audit-bewijs",
+    "synoniemen": [
+      "controle-informatie",
+      "audit evidence",
+      "controlebewijs",
+      "audit procedures",
+      "audit techniques"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.6.III",
+      "1.6.III.A",
+      "1.6.III.B",
+      "1.6.III.C",
+      "1.6.III.D",
+      "1.6.III.E"
+    ],
+    "scope": {
+      "in": [
+        "Bewijsverzamelings-fase — wat onderbouwt het audit-oordeel",
+        "#audit-beweringen (assertions ISA 315): balans-saldi (bestaan/volledigheid/waardering/rechten) · transacties (occurrence/volledigheid/juistheid/cut-off/classificatie) · toelichtingen",
+        "7 procedures ISA 500/505/520: #inspectie · #observatie · #navraag · #externe-bevestiging (banken/klanten/leveranciers ISA 505) · #herrekening · #herperformance · #analytische-procedures",
+        "#steekproef (ISA 530 statistisch vs niet-statistisch)",
+        "#schriftelijke-bevestiging-management (LOR ISA 580)",
+        "#it-bewijs (audittrail · IT-controls · CAATs · ISA 315/330)",
+        "#boekhoudkundige-schattingen (ISA 540 — voorzieningen · fair value · going concern)",
+        "#noclar (niet-naleving wet+regelgeving · ISA 250)"
+      ],
+      "out": [
+        {
+          "topic": "Cyclus-context (fase 3)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Planning stuurt bewijswerk (input)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-planning"
+        },
+        {
+          "topic": "Afronding gebruikt bewijs voor oordeel (output)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-afronding"
+        },
+        {
+          "topic": "Dossier-documentatie",
+          "richting": "moet-verwijzen",
+          "ref": "revisiedossier"
+        },
+        {
+          "topic": "IT-controles als bewijs in IT-omgeving (cross IC)",
+          "richting": "moet-verwijzen",
+          "ref": "it-controles"
+        },
+        {
+          "topic": "Cyclus-substantive-testing",
+          "richting": "moet-verwijzen",
+          "ref": "cyclus-analyse"
+        },
+        {
+          "topic": "Verbonden-partijen-procedures",
+          "richting": "mag-verwijzen",
+          "ref": "verbonden-partijen"
+        },
+        {
+          "topic": "Fraude-procedures (ISA 240)",
+          "richting": "moet-verwijzen",
+          "ref": "fraude"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "audit-planning"
+    },
+    {
+      "type": "triggert",
+      "target": "audit-afronding"
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "revisiedossier"
+    },
+    {
+      "type": "vereist",
+      "target": "it-controles"
+    }
+  ]
+}

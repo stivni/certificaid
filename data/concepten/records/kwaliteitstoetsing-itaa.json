@@ -1,0 +1,95 @@
+{
+  "id": "kwaliteitstoetsing-itaa",
+  "naam": {
+    "primair": "Kwaliteitstoetsing ITAA",
+    "synoniemen": [
+      "peer review ITAA",
+      "externe kwaliteitscontrole",
+      "quality monitoring"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.B",
+      "4.0.taak.4"
+    ],
+    "scope": {
+      "in": [
+        "Periodieke externe peer review door ITAA (verplicht alle gecertificeerde leden)",
+        "Frequentie typisch 5-6 jaar",
+        "Scope: organisatie-niveau (kantoor) + opdracht-niveau (steekproef)",
+        "3 resultaten: conform / met opmerkingen / niet-conform",
+        "Niet-conform-gevolgen: actieplan + heronderzoek + eventueel tucht",
+        "ITAA-norm-intern-kwaliteitsmanagement als kader"
+      ],
+      "out": [
+        {
+          "topic": "ISQM-kwaliteitsmanagement op kantoor + opdracht-niveau",
+          "richting": "moet-verwijzen",
+          "ref": "kwaliteitsmanagement-opdracht"
+        },
+        {
+          "topic": "Tuchtprocedure bij niet-conform",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        },
+        {
+          "topic": "ITAA als uitvoerder",
+          "richting": "moet-verwijzen",
+          "ref": "itaa-beroepsorganisatie"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "uitgevoerd_door",
+      "target": "itaa-beroepsorganisatie"
+    },
+    {
+      "type": "vereist",
+      "target": "kwaliteitsmanagement-opdracht"
+    },
+    {
+      "type": "triggert",
+      "target": "tuchtprocedure-itaa"
+    }
+  ]
+}

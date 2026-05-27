@@ -1,0 +1,104 @@
+{
+  "id": "itaa-beroepsorganisatie",
+  "naam": {
+    "primair": "ITAA-beroepsorganisatie",
+    "afkorting": "ITAA",
+    "synoniemen": [
+      "Instituut van de Belastingadviseurs en de Accountants",
+      "Institut des Experts-comptables et des Conseils fiscaux"
+    ]
+  },
+  "concept_type": "actor",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "4.0.I.A",
+      "4.0.I.B",
+      "4.0.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "Structuur ITAA: raden + voorzitters",
+        "Publiek toezicht door FOD Economie",
+        "Openbaar register (online raadpleegbaar)",
+        "Samenwerking met IBR (bedrijfsrevisoren)",
+        "Wet 17 maart 2019 als oprichtingswet"
+      ],
+      "out": [
+        {
+          "topic": "Tuchtorganen + procedure",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        },
+        {
+          "topic": "Kwaliteitstoetsing als ITAA-toezichtsmechanisme",
+          "richting": "moet-verwijzen",
+          "ref": "kwaliteitstoetsing-itaa"
+        },
+        {
+          "topic": "Gecertificeerd-accountant als beroep onder ITAA-register",
+          "richting": "moet-verwijzen",
+          "ref": "gecertificeerd-accountant"
+        },
+        {
+          "topic": "Normbronnen-hiërarchie + ITAA-normen",
+          "richting": "moet-verwijzen",
+          "ref": "normbronnen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "gecertificeerd-accountant"
+    },
+    {
+      "type": "bevat",
+      "target": "tuchtprocedure-itaa"
+    },
+    {
+      "type": "bevat",
+      "target": "kwaliteitstoetsing-itaa"
+    },
+    {
+      "type": "gepubliceerd_via",
+      "target": "normbronnen"
+    }
+  ]
+}

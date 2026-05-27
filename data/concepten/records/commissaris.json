@@ -1,0 +1,127 @@
+{
+  "id": "commissaris",
+  "naam": {
+    "primair": "Commissaris",
+    "synoniemen": [
+      "bedrijfsrevisor-commissaris",
+      "wettelijke auditor",
+      "statutory auditor"
+    ]
+  },
+  "concept_type": "actor",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "1.6.I.A",
+      "1.6.I.B",
+      "4.0.I.A"
+    ],
+    "scope": {
+      "in": [
+        "Commissaris = bijzondere hoedanigheid van gecertificeerd-accountant of bedrijfsrevisor — uitgeoefend bij wettelijke controle",
+        "Wettelijk regime: WVV + Wet 7 december 2016 (bedrijfsrevisoren)",
+        "Mandaat-modaliteit: 3 jaar verlengbaar · onafzetbaarheid behoudens wettige reden",
+        "Benoeming via AV (na advies ondernemingsraad)",
+        "KMO-controlenorm-toepasselijkheid + algemene controlenorm",
+        "Bezoldiging in jaarrekening-toelichting + transparantie-discipline",
+        "Bijzondere aansprakelijkheid (3 sporen) bij wettelijke controle",
+        "Bijzondere mandaten uitgevoerd door commissaris als die aangesteld is"
+      ],
+      "out": [
+        {
+          "topic": "Generieke beroepsstatuut (parent-concept)",
+          "richting": "moet-verwijzen",
+          "ref": "gecertificeerd-accountant"
+        },
+        {
+          "topic": "Grootte-trigger voor commissaris-verplichting",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        },
+        {
+          "topic": "Controle-opdracht-uitvoering (4-fase-cyclus)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Onafhankelijkheid als regime",
+          "richting": "moet-verwijzen",
+          "ref": "onafhankelijkheid"
+        },
+        {
+          "topic": "Bijzondere mandaten als parallelle uitvoeringsroute",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-mandaten"
+        },
+        {
+          "topic": "Beroepsaansprakelijkheid",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsaansprakelijkheid"
+        },
+        {
+          "topic": "Communicatie met auditcomité (ISA 260)",
+          "richting": "moet-verwijzen",
+          "ref": "auditcomite"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "gecertificeerd-accountant"
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "vereist",
+      "target": "onafhankelijkheid"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschap-groottecategorieen"
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "bijzondere-mandaten"
+    }
+  ]
+}

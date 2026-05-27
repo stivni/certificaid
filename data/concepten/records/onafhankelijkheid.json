@@ -1,0 +1,117 @@
+{
+  "id": "onafhankelijkheid",
+  "naam": {
+    "primair": "Onafhankelijkheid",
+    "synoniemen": [
+      "independence",
+      "indépendance",
+      "auditor independence",
+      "professional independence"
+    ]
+  },
+  "concept_type": "principe",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.A",
+      "4.0.I.B",
+      "1.6.I.B"
+    ],
+    "scope": {
+      "in": [
+        "Specifiek geval van objectiviteits-beginsel — kritische deontologische eis voor assurance-opdrachten",
+        "Twee dimensies: independence-of-mind (geesteshouding) + independence-in-appearance (naar buiten toe)",
+        "Threats-and-safeguards: self-interest · self-review · advocacy · familiarity · intimidation",
+        "Specifieke onverenigbaarheden (financiële belangen · familiebanden · niet-audit-diensten)",
+        "Cooling-off-periode (rotatie partner + kantoor bij PIE)",
+        "Onafhankelijkheidsverklaring bij opdrachtaanvaarding"
+      ],
+      "out": [
+        {
+          "topic": "Generiek objectiviteits-beginsel (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "deontologie"
+        },
+        {
+          "topic": "Onafhankelijkheidsverklaring bij opdrachtaanvaarding",
+          "richting": "moet-verwijzen",
+          "ref": "opdrachtaanvaarding-en-opdrachtbrief"
+        },
+        {
+          "topic": "Commissaris-specifieke onafhankelijkheidsregels",
+          "richting": "moet-verwijzen",
+          "ref": "commissaris"
+        },
+        {
+          "topic": "Auditcomité-toezicht op onafhankelijkheid",
+          "richting": "moet-verwijzen",
+          "ref": "auditcomite"
+        },
+        {
+          "topic": "Tuchtsanctie bij schending",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        },
+        {
+          "topic": "ISQM-kwaliteitsmanagement borgt onafhankelijkheid op kantoor-niveau",
+          "richting": "moet-verwijzen",
+          "ref": "kwaliteitsmanagement-opdracht"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "deontologie"
+    },
+    {
+      "type": "vereist",
+      "target": "opdrachtaanvaarding-en-opdrachtbrief"
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "auditcomite"
+    },
+    {
+      "type": "triggert",
+      "target": "tuchtprocedure-itaa"
+    }
+  ]
+}

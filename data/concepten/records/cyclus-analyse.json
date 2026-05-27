@@ -1,0 +1,119 @@
+{
+  "id": "cyclus-analyse",
+  "naam": {
+    "primair": "Cyclus-analyse",
+    "synoniemen": [
+      "business cycle analysis",
+      "cyclusbenadering",
+      "transaction cycles",
+      "P2P",
+      "O2C",
+      "H2R",
+      "process cycles",
+      "cyclus-aanpak"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.7.IX",
+      "1.7.IX.A",
+      "1.7.IX.B",
+      "1.7.IX.C",
+      "1.7.IX.D",
+      "1.7.IX.E"
+    ],
+    "scope": {
+      "in": [
+        "Methodische opsplitsing bedrijfsvoering in 5 typische cycli met eigen risico's + sleutel-controles",
+        "Vergelijkingsmatrix per cyclus: processtappen · risico's · sleutelcontroles · IT-systemen · KPI's",
+        "#aankoopcyclus (P2P, procure-to-pay) — behoefte→bestelling→ontvangst→factuur→betaling; three-way matching; risico's: ongeoorloofde aankopen · dubbele betalingen · fictieve leveranciers (1.7.IX.A)",
+        "#productiecyclus — grondstoffen→WIP→afgewerkt product; kostprijsallocatie + voorraad-mutaties; risico's: rendementsverlies · schroot · foute kostenverdeling (1.7.IX.B)",
+        "#verkoopcyclus (O2C, order-to-cash) — order→kredietcheck→levering→facturatie→inning; risico's: fictieve verkopen · cut-off · oneigenlijke kortingen (1.7.IX.C)",
+        "#hr-cyclus (hire-to-retire) — aanwerving→contract→loonberekening→uitbetaling→uitdiensttreding; risico's: fictieve werknemers · foute loonparameters (1.7.IX.D)",
+        "#voorraadcyclus — perpetual inventory + periodieke fysieke tellingen; cut-off rond balansdatum; magazijnbeveiliging (1.7.IX.E)"
+      ],
+      "out": [
+        {
+          "topic": "IC als toepassings-kader (intern)",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "COSO-controle-activiteiten worden per cyclus toegepast (shared)",
+          "richting": "moet-verwijzen",
+          "ref": "coso-framework"
+        },
+        {
+          "topic": "Functiescheiding concreet per cyclus",
+          "richting": "moet-verwijzen",
+          "ref": "functiescheiding"
+        },
+        {
+          "topic": "Substantive testing per cyclus (externe audit)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-bewijs"
+        },
+        {
+          "topic": "Cyclus-specifieke applicatiecontroles",
+          "richting": "moet-verwijzen",
+          "ref": "it-controles"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle"
+    },
+    {
+      "type": "vereist",
+      "target": "functiescheiding"
+    },
+    {
+      "type": "vereist",
+      "target": "it-controles"
+    },
+    {
+      "type": "triggert",
+      "target": "audit-bewijs"
+    }
+  ]
+}

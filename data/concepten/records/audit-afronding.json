@@ -1,0 +1,122 @@
+{
+  "id": "audit-afronding",
+  "naam": {
+    "primair": "Audit-afronding",
+    "synoniemen": [
+      "afronding van de opdracht",
+      "audit completion",
+      "opdrachtafronding",
+      "eindfase audit",
+      "audit closing"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.6.IV",
+      "1.6.IV.A",
+      "1.6.IV.B"
+    ],
+    "scope": {
+      "in": [
+        "Laatste fase vóór ondertekening verslag",
+        "#subsequent-events (ISA 560) — adjusting vs disclosing events",
+        "#misstatements-evaluatie — clearing memo · materialiteit-vergelijking · geaccumuleerde fouten",
+        "#overall-analytical-review — laatste plausibiliteits-check op jaarrekening als geheel",
+        "#communicatie-governance (ISA 260) — significante bevindingen → bestuur",
+        "#management-letter (ISA 265) — interne-controle-deficiencies → management",
+        "Going-concern-evaluatie hoort hier"
+      ],
+      "out": [
+        {
+          "topic": "Cyclus-context (fase 4)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Bewijs als input",
+          "richting": "moet-verwijzen",
+          "ref": "audit-bewijs"
+        },
+        {
+          "topic": "Eindverslag als output",
+          "richting": "moet-verwijzen",
+          "ref": "controleverklaring"
+        },
+        {
+          "topic": "Going-concern-principe + diepe inhoud",
+          "richting": "moet-verwijzen",
+          "ref": "continuiteit-going-concern"
+        },
+        {
+          "topic": "Auditcomité-communicatie",
+          "richting": "moet-verwijzen",
+          "ref": "auditcomite"
+        },
+        {
+          "topic": "IC-deficiencies bron",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "audit-bewijs"
+    },
+    {
+      "type": "triggert",
+      "target": "controleverklaring"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "continuiteit-going-concern"
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "auditcomite"
+    }
+  ]
+}

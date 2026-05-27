@@ -1,0 +1,120 @@
+{
+  "id": "gecertificeerd-accountant",
+  "naam": {
+    "primair": "Gecertificeerd accountant"
+  },
+  "concept_type": "actor",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.A",
+      "4.0.I.B",
+      "4.0.taak.1",
+      "4.0.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Beroepsstatuut: gereglementeerd beroep met toelatingsvereisten (universitair diploma + 3j stage + bekwaamheidsexamen)",
+        "Inschrijving openbaar register ITAA",
+        "Monopolieopdrachten (wettelijk voorbehouden: opdrachtbrief, fiscale aangiften namens cliënt, attestopdrachten)",
+        "Onverenigbaarheden (handelszaak in eigen naam, bestuursfunctie cliënt, ...)",
+        "Stagiair-statuut (proefperiode, beperkt opdrachtenpakket, supervisor-vereiste)",
+        "Cross-link sub-sectie #monopolieopdrachten naar bijzondere-mandaten"
+      ],
+      "out": [
+        {
+          "topic": "Bijzondere hoedanigheid als commissaris (wettelijke + statutaire context)",
+          "richting": "moet-verwijzen",
+          "ref": "commissaris"
+        },
+        {
+          "topic": "Bijzondere mandaten als monopolieopdracht-categorie",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-mandaten"
+        },
+        {
+          "topic": "Tuchtprocedure bij overtreding deontologie",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        },
+        {
+          "topic": "ITAA als beroepsorganisatie + register",
+          "richting": "moet-verwijzen",
+          "ref": "itaa-beroepsorganisatie"
+        },
+        {
+          "topic": "5 deontologische beginselen",
+          "richting": "moet-verwijzen",
+          "ref": "deontologie"
+        },
+        {
+          "topic": "Permanente vorming-verplichting (puntenstelsel)",
+          "richting": "moet-verwijzen",
+          "ref": "permanente-vorming"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "itaa-beroepsorganisatie"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "commissaris"
+    },
+    {
+      "type": "vereist",
+      "target": "permanente-vorming"
+    },
+    {
+      "type": "vereist",
+      "target": "deontologie"
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "tuchtprocedure-itaa"
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "bijzondere-mandaten"
+    }
+  ]
+}

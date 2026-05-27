@@ -1,0 +1,99 @@
+{
+  "id": "it-controles",
+  "naam": {
+    "primair": "IT-controles",
+    "afkorting": "ITGC",
+    "synoniemen": [
+      "ITGC",
+      "IT general controls",
+      "application controls",
+      "geautomatiseerde controles",
+      "cyber internal control"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.7.X",
+      "1.7.X.A",
+      "1.7.X.B",
+      "1.7.X.C",
+      "1.7.X.D",
+      "1.7.VIII.E"
+    ],
+    "scope": {
+      "in": [
+        "Digitale controle-architectuur in geautomatiseerde omgevingen",
+        "#itgc — toegangsbeheer (user mgmt · password · MFA) · change mgmt (dev→test→prod) · backup+recovery · operations monitoring",
+        "#application-controls — input (validaties · mandatory · dropdowns) · processing (totalen · herrekening · edit checks) · output (rapportering · distributie)",
+        "#fysieke-beveiliging (1.7.X.B): datacenters · toegangscontrole · milieubeheer",
+        "#it-functiescheiding (cross naar functiescheiding)",
+        "#audittrail-en-logmonitoring (1.7.VIII.E): wie deed wat wanneer · anomalie-detectie · SIEM",
+        "Specifieke risico's (1.7.X.A): cyberaanvallen · datalekken · systeemuitval · manipulatie geautomatiseerde verwerking"
+      ],
+      "out": [
+        {
+          "topic": "IC-kader (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "IT-RBAC-aspect (cross naar functiescheiding)",
+          "richting": "moet-verwijzen",
+          "ref": "functiescheiding"
+        },
+        {
+          "topic": "IT-bewijs verzamelen (audit-kant)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-bewijs"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle"
+    },
+    {
+      "type": "vereist",
+      "target": "functiescheiding"
+    }
+  ]
+}

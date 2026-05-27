@@ -1,0 +1,117 @@
+{
+  "id": "opdrachtaanvaarding-en-opdrachtbrief",
+  "naam": {
+    "primair": "Opdrachtaanvaarding en opdrachtbrief",
+    "synoniemen": [
+      "engagement letter",
+      "opdrachtbrief",
+      "engagement acceptance",
+      "opdracht-acceptatie"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.B",
+      "4.0.taak.1",
+      "4.0.taak.2"
+    ],
+    "scope": {
+      "in": [
+        "Opdrachtbrief = contractueel + deontologisch begin van élke opdracht (geldt voor alle opdrachttypes)",
+        "Aanvaardingsproces: (a) cliëntenonderzoek + integriteits-check (AML-KYC-overlap)",
+        "(b) competentie-check (kan kantoor de opdracht aan?)",
+        "(c) onafhankelijkheidsverklaring",
+        "(d) opdrachtbrief-opmaak: scope · honoraria · termijnen · verantwoordelijkheden · vertrouwelijkheid · klachten",
+        "ITAA-norm-opdrachtbrief als kader"
+      ],
+      "out": [
+        {
+          "topic": "AML-KYC-procedure (overlap)",
+          "richting": "moet-verwijzen",
+          "ref": "antiwitwaspreventie"
+        },
+        {
+          "topic": "Onafhankelijkheidsverklaring + regime",
+          "richting": "moet-verwijzen",
+          "ref": "onafhankelijkheid"
+        },
+        {
+          "topic": "Specifieke opdrachtbrief bij wettelijke controle",
+          "richting": "moet-verwijzen",
+          "ref": "commissaris"
+        },
+        {
+          "topic": "Beroep-uitvoerder",
+          "richting": "moet-verwijzen",
+          "ref": "gecertificeerd-accountant"
+        },
+        {
+          "topic": "Aanvaardingsproces voor bijzondere mandaten (overlap)",
+          "richting": "mag-verwijzen",
+          "ref": "bijzondere-mandaten"
+        },
+        {
+          "topic": "Opdracht-types waarvoor opdrachtbrief geldt",
+          "richting": "mag-verwijzen",
+          "ref": "opdracht-types"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "triggert",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "vereist",
+      "target": "antiwitwaspreventie"
+    },
+    {
+      "type": "vereist",
+      "target": "onafhankelijkheid"
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "gecertificeerd-accountant"
+    }
+  ]
+}

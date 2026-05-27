@@ -1,0 +1,131 @@
+{
+  "id": "audit-planning",
+  "naam": {
+    "primair": "Audit-planning",
+    "synoniemen": [
+      "controleplanning",
+      "engagement planning",
+      "planningsfase",
+      "audit planning"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.6.II",
+      "1.6.II.A",
+      "1.6.II.B",
+      "1.6.II.C",
+      "1.6.II.D"
+    ],
+    "scope": {
+      "in": [
+        "Planningsfase controle — wat doet de auditor vóór bewijsverzameling",
+        "#kennis-entiteit-en-omgeving (ISA 315) — sector · governance · IT · regelgeving",
+        "#auditrisicomodel — RMM (inherent × controle-risico) + sturing detectie-risico via aard/omvang/timing procedures",
+        "#materialiteit — overall · performance · specific · kwalitatief (5% pre-tax profit / 1% omzet als startpunten)",
+        "#audit-strategie-en-werkprogramma — vertaalt risico-inschatting naar concrete procedures per cyclus/post"
+      ],
+      "out": [
+        {
+          "topic": "Cyclus-context (fase 2 in 4-fase-flow)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Bewijsverzameling (planning stuurt bewijswerk)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-bewijs"
+        },
+        {
+          "topic": "Start: opdrachtbrief",
+          "richting": "moet-verwijzen",
+          "ref": "opdrachtaanvaarding-en-opdrachtbrief"
+        },
+        {
+          "topic": "Verbonden-partijen-risico-aspect",
+          "richting": "mag-verwijzen",
+          "ref": "verbonden-partijen"
+        },
+        {
+          "topic": "Fraude-risico-inschatting",
+          "richting": "moet-verwijzen",
+          "ref": "fraude"
+        },
+        {
+          "topic": "Interne-controle-evaluatie als input controle-risico",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "COSO-componenten als lens voor IC-begrip",
+          "richting": "moet-verwijzen",
+          "ref": "coso-framework"
+        },
+        {
+          "topic": "IC-evaluatie-methodes (intern uitvoeren)",
+          "richting": "mag-verwijzen",
+          "ref": "evaluatie-interne-controle"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "triggert",
+      "target": "audit-bewijs"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "interne-controle"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fraude"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "coso-framework"
+    }
+  ]
+}

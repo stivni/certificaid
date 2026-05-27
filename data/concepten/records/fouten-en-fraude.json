@@ -1,0 +1,107 @@
+{
+  "id": "fouten-en-fraude",
+  "naam": {
+    "primair": "Fouten en fraude (IC-context)",
+    "synoniemen": [
+      "errors and fraud",
+      "anomalies",
+      "irregularities",
+      "intentional vs unintentional misstatements",
+      "fouten en verspilling"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.7.VI",
+      "1.7.VI.A",
+      "1.7.VI.B",
+      "1.7.VI.C"
+    ],
+    "scope": {
+      "in": [
+        "Drievoudige afbakening van afwijkingen in IC-context",
+        "(a) fouten (1.7.VI.A): onbedoelde afwijkingen — vergissing · onachtzaamheid · kennistekort; mitigatie via opleiding + procedures + IC-validaties",
+        "(b) fraude (1.7.VI.B): bewust handelen voor financieel voordeel; fraudedriehoek Cressey (druk + gelegenheid + rationalisatie); mitigatie via functiescheiding + onafhankelijke controles + ethisch klimaat",
+        "(c) verspilling (1.7.VI.C): onnodig of inefficiënt gebruik van middelen; mitigatie via budgetdiscipline + efficiency-KPI's"
+      ],
+      "out": [
+        {
+          "topic": "Fraude-mechaniek (ISA 240, fraud risk factors) als Gebeurtenis-record",
+          "richting": "moet-verwijzen",
+          "ref": "fraude"
+        },
+        {
+          "topic": "IC als mitigatie-context",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "Functiescheiding als preventieve mitigatie",
+          "richting": "moet-verwijzen",
+          "ref": "functiescheiding"
+        },
+        {
+          "topic": "Detectie via IC-evaluatie",
+          "richting": "moet-verwijzen",
+          "ref": "evaluatie-interne-controle"
+        },
+        {
+          "topic": "AML-cross (fraude raakt witwas)",
+          "richting": "moet-verwijzen",
+          "ref": "antiwitwaspreventie"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle"
+    },
+    {
+      "type": "vereist",
+      "target": "functiescheiding"
+    },
+    {
+      "type": "triggert",
+      "target": "fraude"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "id": "ontwerp-interne-controle",
+  "naam": {
+    "primair": "Ontwerp van interne controle",
+    "synoniemen": [
+      "control design",
+      "IC-implementatie",
+      "control framework design",
+      "uitwerking interne controle"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.7.VIII",
+      "1.7.VIII.A"
+    ],
+    "scope": {
+      "in": [
+        "Methodologie voor opzetten van IC-systeem in 5 stappen",
+        "(1) proces-mapping per cyclus + as-is-analyse",
+        "(2) risico-identificatie per processtap",
+        "(3) controle-selectie per risico (preventief/detectief, manueel/geautomatiseerd, sleutel/aanvullend)",
+        "(4) documentatie in procedures + rolbeschrijvingen + autorisatiematrix",
+        "(5) implementatie + training + monitoring",
+        "Verwijzing naar COSO-componenten als design-input"
+      ],
+      "out": [
+        {
+          "topic": "IC-kader (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "COSO-componenten als input",
+          "richting": "moet-verwijzen",
+          "ref": "coso-framework"
+        },
+        {
+          "topic": "Cyclus-toepassing",
+          "richting": "moet-verwijzen",
+          "ref": "cyclus-analyse"
+        },
+        {
+          "topic": "Functiescheiding als kerntechniek",
+          "richting": "moet-verwijzen",
+          "ref": "functiescheiding"
+        },
+        {
+          "topic": "Design-effectiveness-evaluatie (audit-kant)",
+          "richting": "moet-verwijzen",
+          "ref": "evaluatie-interne-controle"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle"
+    },
+    {
+      "type": "vereist",
+      "target": "coso-framework"
+    },
+    {
+      "type": "vereist",
+      "target": "functiescheiding"
+    },
+    {
+      "type": "triggert",
+      "target": "evaluatie-interne-controle"
+    }
+  ]
+}

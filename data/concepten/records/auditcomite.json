@@ -1,0 +1,120 @@
+{
+  "id": "auditcomite",
+  "naam": {
+    "primair": "Auditcomité",
+    "synoniemen": [
+      "audit committee",
+      "audit commissie",
+      "toezichtscomité audit",
+      "raadcomité financiële verslaggeving",
+      "comité voor audit en risico"
+    ]
+  },
+  "concept_type": "actor",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "1.7.V.D",
+      "1.6.IV.B",
+      "3.0.II.A"
+    ],
+    "scope": {
+      "in": [
+        "Gespecialiseerd raadcomité binnen bestuursorgaan — toezicht op financiële verslaggeving + IC + externe audit + interne audit",
+        "(a) financiële verslaggeving: jaarrekening-kwaliteit · accounting policies · schattingen",
+        "(b) interne controle + risicobeheer: IC-effectiviteit · deficiency-remediëring",
+        "(c) externe audit: commissaris-benoeming-voorstel · onafhankelijkheid-bewaking · fee-bespreking · KAM-discussie",
+        "(d) interne audit: charter · plan · key findings",
+        "Samenstelling: minimum aantal niet-uitvoerende bestuurders met financiële expertise; voorzitter onafhankelijk (1.7.V.D)",
+        "Schakel bestuur ↔ interne auditor ↔ commissaris (driehoek-overleg)",
+        "Verplichting in België: beursgenoteerde + bepaalde grote/middelgrote vennootschappen (WVV)"
+      ],
+      "out": [
+        {
+          "topic": "Interne audit als rapporteringslijn",
+          "richting": "moet-verwijzen",
+          "ref": "interne-audit"
+        },
+        {
+          "topic": "Commissaris als externe-communicatielijn",
+          "richting": "moet-verwijzen",
+          "ref": "commissaris"
+        },
+        {
+          "topic": "IC als toezichts-object",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "Communicatie governance (ISA 260) gaat hierheen",
+          "richting": "moet-verwijzen",
+          "ref": "audit-afronding"
+        },
+        {
+          "topic": "Grootte-trigger voor verplicht auditcomité",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschap-groottecategorieen"
+        },
+        {
+          "topic": "Onafhankelijkheid-bewaking commissaris",
+          "richting": "moet-verwijzen",
+          "ref": "onafhankelijkheid"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "gecontroleerd_door",
+      "target": "interne-audit"
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "commissaris"
+    },
+    {
+      "type": "bevat",
+      "target": "interne-controle"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vennootschap-groottecategorieen"
+    }
+  ]
+}

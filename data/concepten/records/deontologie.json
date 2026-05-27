@@ -1,0 +1,103 @@
+{
+  "id": "deontologie",
+  "naam": {
+    "primair": "Deontologie",
+    "synoniemen": [
+      "beroepsethiek",
+      "deontologische beginselen",
+      "code of ethics"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "4.0.I",
+      "4.0.I.A",
+      "4.0.I.B",
+      "4.0.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "5 fundamentele beginselen (IFAC + ITAA): integriteit · objectiviteit · vakbekwaamheid + zorgvuldigheid · vertrouwelijkheid · professioneel gedrag",
+        "Threats-and-safeguards-model: self-interest · self-review · advocacy · familiarity · intimidation",
+        "Mitigerende maatregelen per dreigingstype"
+      ],
+      "out": [
+        {
+          "topic": "Onafhankelijkheid als specifiek geval van objectiviteit",
+          "richting": "moet-verwijzen",
+          "ref": "onafhankelijkheid"
+        },
+        {
+          "topic": "Beroepsgeheim als wettelijk-verankerd vertrouwelijkheidsbeginsel",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsgeheim"
+        },
+        {
+          "topic": "Beroepsaansprakelijkheid bij overtreding",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsaansprakelijkheid"
+        },
+        {
+          "topic": "Tuchtprocedure bij overtreding",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "onafhankelijkheid"
+    },
+    {
+      "type": "bevat",
+      "target": "beroepsgeheim"
+    },
+    {
+      "type": "triggert",
+      "target": "tuchtprocedure-itaa"
+    },
+    {
+      "type": "valt_onder",
+      "target": "normbronnen"
+    }
+  ]
+}

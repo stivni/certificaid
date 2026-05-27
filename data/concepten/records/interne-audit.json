@@ -1,0 +1,103 @@
+{
+  "id": "interne-audit",
+  "naam": {
+    "primair": "Interne audit",
+    "synoniemen": [
+      "internal audit",
+      "3rd line of defense",
+      "interne auditfunctie",
+      "interne controleurs"
+    ]
+  },
+  "concept_type": "actor",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "kader"
+    ],
+    "ankers": [
+      "1.7.I.D",
+      "1.7.V",
+      "1.7.V.A",
+      "1.7.V.B"
+    ],
+    "scope": {
+      "in": [
+        "Onafhankelijke + objectieve beoordelingsfunctie binnen organisatie — 3rd line of defense",
+        "Toetst of IC + risicobeheer + governance behoorlijk werken",
+        "Mandaat: audit charter goedgekeurd door auditcomité; rapporteert aan auditcomité",
+        "Functie auditor (1.7.V.B): plant audits op risicobasis · IIA-standards · bevindingen + aanbevelingen · bewaakt objectiviteit",
+        "Afbakening: ≠ externe audit (geen wettelijke assurance) · ≠ compliance · ≠ IC zelf"
+      ],
+      "out": [
+        {
+          "topic": "IC als toetsings-object",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "Auditcomité als rapporteringslijn (shared)",
+          "richting": "moet-verwijzen",
+          "ref": "auditcomite"
+        },
+        {
+          "topic": "Externe accountant kan steunen via ISA 610",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "ISQM als parallel kwaliteits-concept voor externe-audit-firms",
+          "richting": "mag-verwijzen",
+          "ref": "kwaliteitsmanagement-opdracht"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle"
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "auditcomite"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "controleopdracht"
+    }
+  ]
+}

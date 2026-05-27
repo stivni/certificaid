@@ -1,0 +1,115 @@
+{
+  "id": "kwaliteitsmanagement-opdracht",
+  "naam": {
+    "primair": "Kwaliteitsmanagement van de opdracht",
+    "afkorting": "ISQM",
+    "synoniemen": [
+      "ISQM",
+      "ISQM 1",
+      "ISQM 2",
+      "EQR",
+      "engagement quality review",
+      "kwaliteitsbeheersing audit",
+      "quality management"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.B",
+      "1.6.I.B",
+      "4.0.taak.4"
+    ],
+    "scope": {
+      "in": [
+        "Dubbele schaal: ISQM 1 = kantoor-niveau-systeem + ISQM 2 = engagement-quality-review op opdracht-niveau",
+        "ISQM 1 — 8 componenten: risk assessment · governance · ethics · acceptance/continuance · engagement performance · resources · information+communication · monitoring/remediation",
+        "ISQM 2 — EQR-trigger criteria (PIE, hoge risico-opdrachten) · reviewer-onafhankelijkheid · documentatie EQR-conclusies",
+        "ITAA-norm-intern-kwaliteitsmanagement als Belgische vertaling",
+        "Cross-link kwaliteitstoetsing-ITAA (extern toezicht op systeem)"
+      ],
+      "out": [
+        {
+          "topic": "Kwaliteitstoetsing ITAA als extern toezichtsmechanisme",
+          "richting": "moet-verwijzen",
+          "ref": "kwaliteitstoetsing-itaa"
+        },
+        {
+          "topic": "Kantoor-organisatie als toepassings-context",
+          "richting": "moet-verwijzen",
+          "ref": "kantoor-organisatie"
+        },
+        {
+          "topic": "Onafhankelijkheid als borg-onderwerp",
+          "richting": "moet-verwijzen",
+          "ref": "onafhankelijkheid"
+        },
+        {
+          "topic": "Dossier-discipline als ISQM-vereiste",
+          "richting": "moet-verwijzen",
+          "ref": "revisiedossier"
+        },
+        {
+          "topic": "Controle-opdracht-cyclus als toepassings-context",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "gecontroleerd_door",
+      "target": "kwaliteitstoetsing-itaa"
+    },
+    {
+      "type": "vereist",
+      "target": "onafhankelijkheid"
+    },
+    {
+      "type": "vereist",
+      "target": "kantoor-organisatie"
+    },
+    {
+      "type": "triggert",
+      "target": "revisiedossier"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "revisiedossier",
+  "naam": {
+    "primair": "Revisiedossier",
+    "synoniemen": [
+      "audit working papers",
+      "auditdossier",
+      "werkdocumenten",
+      "audit file",
+      "controledossier",
+      "werkdossier"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "1.6.III.D",
+      "1.6.IV"
+    ],
+    "scope": {
+      "in": [
+        "Gestructureerde verzameling werkdocumenten + controlebewijzen + conclusies opgebouwd tijdens de opdracht",
+        "#permanent-dossier — statuten · contracten · governance-structuur · IT-architectuur (multi-jaar relevant)",
+        "#lopend-dossier — planning + werkpapieren + conclusies van het lopende boekjaar",
+        "Bewaartermijn-discipline",
+        "ITAA-norm-intern-kwaliteitsmanagement bevat dossiervorming-eisen"
+      ],
+      "out": [
+        {
+          "topic": "Cyclus-context (output van bewijswerk)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Bewijs dat in dossier wordt opgenomen",
+          "richting": "moet-verwijzen",
+          "ref": "audit-bewijs"
+        },
+        {
+          "topic": "Planning-documentatie",
+          "richting": "moet-verwijzen",
+          "ref": "audit-planning"
+        },
+        {
+          "topic": "ISQM-dossiervorming-eisen",
+          "richting": "moet-verwijzen",
+          "ref": "kwaliteitsmanagement-opdracht"
+        },
+        {
+          "topic": "Vertrouwelijkheid + beroepsgeheim-aspect",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsgeheim"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "vereist",
+      "target": "kwaliteitsmanagement-opdracht"
+    },
+    {
+      "type": "vereist",
+      "target": "beroepsgeheim"
+    }
+  ]
+}

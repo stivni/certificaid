@@ -1,0 +1,115 @@
+{
+  "id": "controleverklaring",
+  "naam": {
+    "primair": "Controleverklaring",
+    "synoniemen": [
+      "auditverslag",
+      "controleverslag",
+      "audit report",
+      "rapport du commissaire",
+      "audit opinion"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "1.6.IV.A",
+      "1.6.IV.B",
+      "1.6.IV.C"
+    ],
+    "scope": {
+      "in": [
+        "Schriftelijk eindproduct controle-opdracht — communiceert oordeel aan stakeholders",
+        "Σ — 4 oordelen geordend op assurance-niveau:",
+        "#zonder-voorbehoud (unqualified) — getrouw beeld in alle materiële opzichten",
+        "#met-voorbehoud (qualified) — getrouw beeld behalve voor specifiek probleem",
+        "#afkeurend (adverse) — géén getrouw beeld",
+        "#onthouding (disclaimer) — onvoldoende bewijs om oordeel te vormen",
+        "#verslag-componenten — titel · ontvanger · verantwoordelijkheden bestuur+auditor · basis oordeel · oordeel · paragrafen ter benadrukking/andere zaak",
+        "#KAM (key audit matters) — verplicht bij beursgenoteerde + grote onderneming sinds 2016",
+        "#andere-verslagstypes — overzicht bijzondere revisor-verslagen (cross naar Gebeurtenis-records via bijzondere-mandaten)"
+      ],
+      "out": [
+        {
+          "topic": "Cyclus-context (fase 4 output)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Afronding als input",
+          "richting": "moet-verwijzen",
+          "ref": "audit-afronding"
+        },
+        {
+          "topic": "Bijzondere-mandaat-verslagen (categorisch begrip)",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-mandaten"
+        },
+        {
+          "topic": "Verslag-stijl per opdracht-type",
+          "richting": "moet-verwijzen",
+          "ref": "opdracht-types"
+        },
+        {
+          "topic": "Uitvoerder bij wettelijke controle",
+          "richting": "moet-verwijzen",
+          "ref": "commissaris"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "audit-afronding"
+    },
+    {
+      "type": "gedocumenteerd_in",
+      "target": "bijzondere-mandaten"
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "commissaris"
+    }
+  ]
+}

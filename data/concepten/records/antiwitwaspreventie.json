@@ -1,0 +1,120 @@
+{
+  "id": "antiwitwaspreventie",
+  "naam": {
+    "primair": "Antiwitwaspreventie",
+    "afkorting": "AML",
+    "synoniemen": [
+      "AML",
+      "anti-money-laundering",
+      "witwasplicht accountant",
+      "AWW-discipline",
+      "lutte contre le blanchiment"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.D",
+      "4.0.taak.2",
+      "4.0.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "AML-regime accountants — Wet 18 september 2017 + WER boek XI + EU 5e/6e AML-richtlijn",
+        "#cliëntenonderzoek (KYC) — identificatie + UBO + doel zakenrelatie + monitoring; vereenvoudigd/standaard/verscherpt onderzoek",
+        "#ubo-register (wet 26 juni 2020) — KBO-link · cliënt registreert · accountant raadpleegt + valideert",
+        "#risicogebaseerde-benadering — risico-categorisering cliënt + transactie (drempels)",
+        "#melding-verdachte-transactie-cfi — wanneer melden · tipping-off-verbod · bescherming melder",
+        "#intern-beleid-en-procedures — risk officer · intern protocol · opleiding · gegevensbewaring 10j"
+      ],
+      "out": [
+        {
+          "topic": "Beroepsgeheim-samenloop (tipping-off-anti-collision)",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsgeheim"
+        },
+        {
+          "topic": "Fraude als cross-cutting Gebeurtenis",
+          "richting": "moet-verwijzen",
+          "ref": "fraude"
+        },
+        {
+          "topic": "Aanvaardingsproces (KYC-overlap)",
+          "richting": "moet-verwijzen",
+          "ref": "opdrachtaanvaarding-en-opdrachtbrief"
+        },
+        {
+          "topic": "Strafrechtelijke aansprakelijkheid bij niet-naleving",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsaansprakelijkheid"
+        },
+        {
+          "topic": "Cliëntonderzoek bij specifiek bijzonder mandaat",
+          "richting": "mag-verwijzen",
+          "ref": "bijzondere-mandaten"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2017-09-18",
+        "wettelijke_basis": "Wet 18 september 2017 (witwaspreventie + financiering terrorisme) + EU 5e/6e AML-richtlijn"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "niet_combineerbaar_met",
+      "target": "beroepsgeheim"
+    },
+    {
+      "type": "vereist",
+      "target": "gecertificeerd-accountant"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "fraude"
+    },
+    {
+      "type": "valt_onder",
+      "target": "normbronnen"
+    }
+  ]
+}

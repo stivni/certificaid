@@ -1,0 +1,161 @@
+{
+  "id": "interne-controle",
+  "naam": {
+    "primair": "Interne controle",
+    "synoniemen": [
+      "internal control",
+      "interne beheersing",
+      "controleomgeving",
+      "beheersingssysteem",
+      "système de contrôle interne"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.7.I",
+      "1.7.I.A",
+      "1.7.I.B",
+      "1.7.I.C",
+      "1.7.I.D",
+      "1.7.II",
+      "1.7.III",
+      "1.7.III.A",
+      "1.7.III.B",
+      "1.7.IV",
+      "1.7.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "Definitie (1.7.I.A): geheel van procedures · gedragsregels · organisatorische maatregelen voor redelijke zekerheid over...",
+        "4 doelstellingen: informatie betrouwbaar · middelen beschermd · werking doeltreffend · wet/regelgeving nageleefd",
+        "Dubbele dimensie: preventief + detectief + correctief (1.7.III.A)",
+        "Inherente beperkingen: samenspanning · management override · kosten-baten · menselijke factor (1.7.III.B)",
+        "Actoren: 3 lines of defense (1.7.IV) — 1e operationeel · 2e risk+compliance=IC · 3e interne audit",
+        "#afbakening met externe controle / managementcontrole / interne audit (1.7.I.B-D)",
+        "#referentiekaders — overzicht (COSO dominant → cross naar coso-framework; COBIT; ISO 31000)"
+      ],
+      "out": [
+        {
+          "topic": "COSO-framework als primair referentiekader (shared)",
+          "richting": "moet-verwijzen",
+          "ref": "coso-framework"
+        },
+        {
+          "topic": "Cyclus-analyse als operationele invulling (shared)",
+          "richting": "moet-verwijzen",
+          "ref": "cyclus-analyse"
+        },
+        {
+          "topic": "Externe controle bouwt op IC",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Controle-risico-inschatting via IC-begrip",
+          "richting": "moet-verwijzen",
+          "ref": "audit-planning"
+        },
+        {
+          "topic": "Interne audit als 3e lijn",
+          "richting": "moet-verwijzen",
+          "ref": "interne-audit"
+        },
+        {
+          "topic": "Auditcomité als governance-toezicht (shared)",
+          "richting": "moet-verwijzen",
+          "ref": "auditcomite"
+        },
+        {
+          "topic": "Functiescheiding als kerntechniek",
+          "richting": "moet-verwijzen",
+          "ref": "functiescheiding"
+        },
+        {
+          "topic": "IT-controles als component",
+          "richting": "moet-verwijzen",
+          "ref": "it-controles"
+        },
+        {
+          "topic": "Evaluatie IC-effectiviteit",
+          "richting": "moet-verwijzen",
+          "ref": "evaluatie-interne-controle"
+        },
+        {
+          "topic": "Managementcontrole (verwant maar verschillend — bedrijfseconomie)",
+          "richting": "niet-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "functiescheiding"
+    },
+    {
+      "type": "bevat",
+      "target": "it-controles"
+    },
+    {
+      "type": "bevat",
+      "target": "interne-audit"
+    },
+    {
+      "type": "bevat",
+      "target": "evaluatie-interne-controle"
+    },
+    {
+      "type": "bevat",
+      "target": "fouten-en-fraude"
+    },
+    {
+      "type": "vereist",
+      "target": "coso-framework"
+    },
+    {
+      "type": "triggert",
+      "target": "cyclus-analyse"
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "auditcomite"
+    }
+  ]
+}

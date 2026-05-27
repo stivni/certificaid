@@ -1,0 +1,130 @@
+{
+  "id": "opdracht-types",
+  "naam": {
+    "primair": "Opdracht-types (assurance + niet-assurance)",
+    "synoniemen": [
+      "opdrachttypes",
+      "assurance-opdrachten",
+      "types audit-opdracht",
+      "scope of engagement"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.6.I.A",
+      "1.6.I.B",
+      "1.6.I.C"
+    ],
+    "scope": {
+      "in": [
+        "4 fundamentele opdrachttypes geordend op zekerheidsniveau",
+        "(a) controle (reasonable assurance, positief oordeel — ISA + ITAA-KMO-controlenorm)",
+        "(b) beoordeling (limited assurance, negatief oordeel — ISRE 2400/2410)",
+        "(c) samenstelling (no assurance, geen oordeel — ISRS 4410 + ITAA-samenstellingsnorm)",
+        "(d) overeengekomen procedures (no assurance, feitelijke bevindingen — ISRS 4400)",
+        "Vergelijkingsmatrix: zekerheidsniveau · oordeelsstijl · verslag-type · toepasselijke norm · typische cliëntcontext",
+        "#normenkader-piramide — ISA/ISRE/ISAE/ISRS-internationaal + ITAA-normen-Belgische-overlay"
+      ],
+      "out": [
+        {
+          "topic": "Cyclus-uitvoering per opdracht (gedeeld)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        },
+        {
+          "topic": "Beoordeling-specifieke methodologie",
+          "richting": "moet-verwijzen",
+          "ref": "beoordeling-cyclus"
+        },
+        {
+          "topic": "ISAE-engagement-specifieke methodologie",
+          "richting": "moet-verwijzen",
+          "ref": "isae-opdracht"
+        },
+        {
+          "topic": "AUP-engagement-specifieke methodologie",
+          "richting": "moet-verwijzen",
+          "ref": "overeengekomen-procedures-opdracht"
+        },
+        {
+          "topic": "Start: opdrachtbrief + aanvaarding",
+          "richting": "moet-verwijzen",
+          "ref": "opdrachtaanvaarding-en-opdrachtbrief"
+        },
+        {
+          "topic": "Eindverslag-stijl per type",
+          "richting": "moet-verwijzen",
+          "ref": "controleverklaring"
+        },
+        {
+          "topic": "Wettelijke-controle-context",
+          "richting": "moet-verwijzen",
+          "ref": "commissaris"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "controleopdracht"
+    },
+    {
+      "type": "bevat",
+      "target": "beoordeling-cyclus"
+    },
+    {
+      "type": "bevat",
+      "target": "isae-opdracht"
+    },
+    {
+      "type": "bevat",
+      "target": "overeengekomen-procedures-opdracht"
+    },
+    {
+      "type": "vereist",
+      "target": "opdrachtaanvaarding-en-opdrachtbrief"
+    },
+    {
+      "type": "triggert",
+      "target": "controleverklaring"
+    }
+  ]
+}

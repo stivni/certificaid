@@ -1,0 +1,101 @@
+{
+  "id": "beroepsaansprakelijkheid",
+  "naam": {
+    "primair": "Beroepsaansprakelijkheid accountant + bedrijfsrevisor",
+    "synoniemen": [
+      "aansprakelijkheid accountant",
+      "aansprakelijkheid revisor",
+      "professional liability"
+    ]
+  },
+  "concept_type": "principe",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.B",
+      "4.0.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "3 sporen aansprakelijkheid: burgerlijk · strafrechtelijk · tuchtrechtelijk",
+        "Burgerlijk: contractueel t.o.v. cliënt + buitencontractueel t.o.v. derden; schade + fout + causaal verband",
+        "Verzekering beroepsaansprakelijkheid verplicht via ITAA-reglement",
+        "Strafrechtelijk: medeplichtigheid valsheid, witwassen, oplichting; specifieke fiscale strafmisdrijven",
+        "Tuchtrechtelijk: deontologische overtreding → tuchtkamer → sancties",
+        "Dekt accountant + bedrijfsrevisor (analoog regime)"
+      ],
+      "out": [
+        {
+          "topic": "Tuchtsancties + procedure",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        },
+        {
+          "topic": "Onderliggende deontologische beginselen",
+          "richting": "moet-verwijzen",
+          "ref": "deontologie"
+        },
+        {
+          "topic": "Bijzondere aansprakelijkheid bij wettelijke controle (commissaris)",
+          "richting": "moet-verwijzen",
+          "ref": "commissaris"
+        },
+        {
+          "topic": "Schending beroepsgeheim als strafrechtelijke grond",
+          "richting": "moet-verwijzen",
+          "ref": "beroepsgeheim"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "deontologie"
+    },
+    {
+      "type": "triggert",
+      "target": "tuchtprocedure-itaa"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "commissaris"
+    }
+  ]
+}

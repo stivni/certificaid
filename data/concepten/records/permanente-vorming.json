@@ -1,0 +1,85 @@
+{
+  "id": "permanente-vorming",
+  "naam": {
+    "primair": "Permanente vorming",
+    "synoniemen": [
+      "continuing professional development",
+      "CPD",
+      "verplichte vorming accountant"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "4.0.I.B",
+      "4.0.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "ITAA-norm permanente vorming (verplicht voor inschrijving)",
+        "Puntenstelsel: 120u/3j of 40u/jaar",
+        "Types: erkende vorming · zelfstudie · lesgeven",
+        "Jaarlijkse aangifte aan ITAA",
+        "Sancties bij niet-naleving → tucht"
+      ],
+      "out": [
+        {
+          "topic": "Statuut gecertificeerd-accountant (inschrijving vereist PV)",
+          "richting": "moet-verwijzen",
+          "ref": "gecertificeerd-accountant"
+        },
+        {
+          "topic": "Tuchtsancties bij niet-naleving",
+          "richting": "moet-verwijzen",
+          "ref": "tuchtprocedure-itaa"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "vereist",
+      "target": "gecertificeerd-accountant"
+    },
+    {
+      "type": "triggert",
+      "target": "tuchtprocedure-itaa"
+    }
+  ]
+}

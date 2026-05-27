@@ -1,0 +1,105 @@
+{
+  "id": "functiescheiding",
+  "naam": {
+    "primair": "Functiescheiding",
+    "synoniemen": [
+      "segregation of duties",
+      "SoD",
+      "separation of duties",
+      "functie-onverenigbaarheid",
+      "rolscheiding",
+      "taakverdeling"
+    ]
+  },
+  "concept_type": "principe",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.7.VII",
+      "1.7.VIII.B",
+      "1.7.X.C"
+    ],
+    "scope": {
+      "in": [
+        "Organisatorisch principe: onverenigbare functies door verschillende personen om fraude + fouten te beperken",
+        "4 functies (ACR-IH-leer): Autoriseren · Uitvoeren · Registreren · Bewaren",
+        "Eén persoon mag max 2 niet-aangrenzende functies hebben",
+        "Toepassingen: aankoopcyclus (besteller≠ontvanger≠betaler) · HR (administratie≠uitbetaling) · kassa (registratie≠controle)",
+        "IT-functiescheiding (1.7.X.C): RBAC = Role-Based Access Control",
+        "Voorkomt dat één gebruiker complete transactie kan afwerken zonder externe controle"
+      ],
+      "out": [
+        {
+          "topic": "IC-kader (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "interne-controle"
+        },
+        {
+          "topic": "Ontwerp-aanpak",
+          "richting": "moet-verwijzen",
+          "ref": "ontwerp-interne-controle"
+        },
+        {
+          "topic": "Concrete toepassing per cyclus (shared)",
+          "richting": "moet-verwijzen",
+          "ref": "cyclus-analyse"
+        },
+        {
+          "topic": "RBAC-detail in IT-controles",
+          "richting": "moet-verwijzen",
+          "ref": "it-controles"
+        },
+        {
+          "topic": "Sleutelcontrole testen (audit)",
+          "richting": "mag-verwijzen",
+          "ref": "audit-bewijs"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "interne-controle"
+    },
+    {
+      "type": "vereist",
+      "target": "it-controles"
+    }
+  ]
+}

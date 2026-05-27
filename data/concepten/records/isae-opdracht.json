@@ -1,0 +1,94 @@
+{
+  "id": "isae-opdracht",
+  "naam": {
+    "primair": "ISAE-opdracht",
+    "synoniemen": [
+      "ISAE-engagement",
+      "assurance-engagement andere dan jaarrekening",
+      "ISAE 3000-opdracht"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.6.I.A",
+      "1.6.I.C"
+    ],
+    "scope": {
+      "in": [
+        "Assurance ANDERS DAN jaarrekening-audit",
+        "Voorbeelden: EBITDA-certificatie · prospectus-attest · service-organisatie-rapport (SOC) · duurzaamheidsrapport-assurance",
+        "ISAE 3000-serie (algemeen 3000 + specifiek 3400-3402)",
+        "Contractuele basis · scope + criteria per opdracht",
+        "Assurance-niveau: redelijke OF beperkte zekerheid (per opdracht)"
+      ],
+      "out": [
+        {
+          "topic": "Parent-Σ opdracht-types",
+          "richting": "moet-verwijzen",
+          "ref": "opdracht-types"
+        },
+        {
+          "topic": "Bijzondere mandaten als overlappend categorisch begrip (sommige zijn ISAE)",
+          "richting": "moet-verwijzen",
+          "ref": "bijzondere-mandaten"
+        },
+        {
+          "topic": "Cyclus-aanpak (gedeeld)",
+          "richting": "moet-verwijzen",
+          "ref": "controleopdracht"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "opdracht-types"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "bijzondere-mandaten"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "controleopdracht"
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "id": "controleopdracht",
+  "naam": {
+    "primair": "Controleopdracht",
+    "synoniemen": [
+      "assurance-opdracht",
+      "audit-cyclus",
+      "audit-aanpak",
+      "opdracht-uitvoering",
+      "engagement lifecycle"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.6.I",
+      "1.6.I.A",
+      "1.6.I.B",
+      "1.6.II",
+      "1.6.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "Dwingende 4-fase-flow van een assurance-opdracht — pedagogische ruggengraat",
+        "Fase 1: aanvaarden (cross opdrachtaanvaarding-en-opdrachtbrief)",
+        "Fase 2: plannen (cross audit-planning)",
+        "Fase 3: bewijswerk (cross audit-bewijs)",
+        "Fase 4: afronden + oordeel (cross audit-afronding + controleverklaring)",
+        "#prof-skepticism als basisattitude-sectie die alle fases doordringt",
+        "#delegatie-en-supervisie als teamorganisatie-sectie (engagement partner eindverantwoordelijk · review-piramide)"
+      ],
+      "out": [
+        {
+          "topic": "Opdracht-types (controle/beoordeling/samenstelling/AUP) bepaalt verslag-stijl in fase 4",
+          "richting": "moet-verwijzen",
+          "ref": "opdracht-types"
+        },
+        {
+          "topic": "Planning-detail (kennis-entiteit · risicomodel · materialiteit)",
+          "richting": "moet-verwijzen",
+          "ref": "audit-planning"
+        },
+        {
+          "topic": "Bewijs-procedures + assertions",
+          "richting": "moet-verwijzen",
+          "ref": "audit-bewijs"
+        },
+        {
+          "topic": "Afronding + governance-communicatie",
+          "richting": "moet-verwijzen",
+          "ref": "audit-afronding"
+        },
+        {
+          "topic": "Eindverslag-vormen + oordelen",
+          "richting": "moet-verwijzen",
+          "ref": "controleverklaring"
+        },
+        {
+          "topic": "Dossier-discipline",
+          "richting": "moet-verwijzen",
+          "ref": "revisiedossier"
+        },
+        {
+          "topic": "Start: aanvaardingsproces + opdrachtbrief",
+          "richting": "moet-verwijzen",
+          "ref": "opdrachtaanvaarding-en-opdrachtbrief"
+        },
+        {
+          "topic": "Uitvoerder bij wettelijke controle",
+          "richting": "moet-verwijzen",
+          "ref": "commissaris"
+        },
+        {
+          "topic": "Kantoor-niveau-overlay (ISQM)",
+          "richting": "moet-verwijzen",
+          "ref": "kwaliteitsmanagement-opdracht"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-controle-beroep-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T08:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "audit-planning"
+    },
+    {
+      "type": "bevat",
+      "target": "audit-bewijs"
+    },
+    {
+      "type": "bevat",
+      "target": "audit-afronding"
+    },
+    {
+      "type": "bevat",
+      "target": "controleverklaring"
+    },
+    {
+      "type": "bevat",
+      "target": "revisiedossier"
+    },
+    {
+      "type": "vereist",
+      "target": "opdrachtaanvaarding-en-opdrachtbrief"
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "commissaris"
+    },
+    {
+      "type": "vereist",
+      "target": "kwaliteitsmanagement-opdracht"
+    },
+    {
+      "type": "valt_onder",
+      "target": "opdracht-types"
+    }
+  ]
+}
