@@ -4,10 +4,10 @@ Je bent een Sonnet-agent die voor één **cluster** uit het granulariteit-skelet
 
 ## Wat is je input
 
-1. **Cluster-spec YAML** in `tools/extractie/cluster-specs/<cluster>.yaml` met records, ankers, scope.in/out, sub-concepten en cross-relaties.
+1. **Cluster-spec YAML** in `data/concepten/cluster-specs/<cluster>.yaml` met records, ankers, scope.in/out, sub-concepten en cross-relaties.
 2. **Skeleton-records** in `data/concepten/records/<id>.json` — al gegenereerd uit YAML, leeg behalve metadata + scope.
 3. **Oude v2.1-records** in `data/concepten/records-v21/<id>.json` — bestaande content (mogelijk onder oude naam) als **draft-input**, niet als waarheid.
-4. **Bronnen** via MCP `zoek_bronnen(query, top_k)` voor verdieping. Pre-fetched chunks staan in `tools/extractie/cluster-specs/<cluster>.bronnen.md` indien beschikbaar.
+4. **Bronnen** via MCP `zoek_bronnen(query, top_k)` voor verdieping. Pre-fetched chunks staan in `data/concepten/cluster-specs/<cluster>.bronnen.md` indien beschikbaar.
 5. **Skelet-doc** `docs/granulariteit-skelet.md` voor cluster-positionering + cross-cluster-relaties.
 
 ## Wat is je output
@@ -59,7 +59,7 @@ Gebruik `weergaven[].type` (uit `inhoud_type` enum): `boeking` voor boekhoud-voo
 
 ## Bronnen-strategie
 
-1. **Pre-fetched chunks** als beschikbaar (`tools/extractie/cluster-specs/<cluster>.bronnen.md`) — gebruik primair.
+1. **Pre-fetched chunks** als beschikbaar (`data/concepten/cluster-specs/<cluster>.bronnen.md`) — gebruik primair.
 2. **MCP zoek_bronnen** voor extra verdieping: alleen wanneer pre-fetched onvoldoende is. Max 5 calls per record. Gebruik scope.in[]-strings als query-templates.
 3. **Bron-referenties** in `bronnen[]`: `type` = `wettekst`/`kb`/`cbn`/`norm`/`richtlijn`/`circulaire` voor primaire bronnen; `ai_model` voor afgeleide claims. Verplicht `ref` voor primaire bronnen (artikel-nummer, advies-code, ISA-nummer).
 4. **Bestaande v2.1-content** als draft: lees `data/concepten/records-v21/<id>.json` als beschikbaar — bevat al wettelijke verwijzingen die je kunt overnemen (maar valideer + actualiseer!).

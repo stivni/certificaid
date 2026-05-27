@@ -17,7 +17,7 @@ Per record:
 
 Gebruik:
     python3 -m tools.extractie.skeleton_generator <cluster-spec.yaml>
-    python3 -m tools.extractie.skeleton_generator --all  # alle clusters in tools/extractie/cluster-specs/
+    python3 -m tools.extractie.skeleton_generator --all  # alle clusters in data/concepten/cluster-specs/
     python3 -m tools.extractie.skeleton_generator --validate  # check 2.2-conformiteit
 
 Cluster-spec YAML-shape:
@@ -71,7 +71,7 @@ logger = logging.getLogger(__name__)
 ROOT = Path(__file__).resolve().parents[2]
 RECORDS_DIR = ROOT / "data" / "concepten" / "records"
 RECORDS_V21_DIR = ROOT / "data" / "concepten" / "records-v21"
-SPECS_DIR = ROOT / "tools" / "extractie" / "cluster-specs"
+SPECS_DIR = ROOT / "data" / "concepten" / "cluster-specs"
 SCHEMA_PATH = ROOT / "data" / "concepten" / "schema-2.2.schema.json"
 
 
@@ -294,7 +294,7 @@ def generate_cluster(spec_path: Path, output_dir: Path = RECORDS_DIR, dry_run: b
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("spec", nargs="?", help="Cluster-spec YAML pad")
-    parser.add_argument("--all", action="store_true", help="Alle YAMLs in tools/extractie/cluster-specs/")
+    parser.add_argument("--all", action="store_true", help="Alle YAMLs in data/concepten/cluster-specs/")
     parser.add_argument("--dry-run", action="store_true", help="Toon output, schrijf niet")
     parser.add_argument("--force", action="store_true", help="Overschrijf bestaande records")
     args = parser.parse_args()
