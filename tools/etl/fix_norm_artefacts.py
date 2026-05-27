@@ -400,6 +400,36 @@ def dedent_indented_headings(body: str) -> tuple[str, FixResult]:
     )
 
 
+def separate_paragraph_markers(body: str, pattern: str) -> tuple[str, FixResult]:
+    """
+    Voeg een blanco regel toe vóór regels die matchen op `pattern` (bv. `§N.`),
+    zodat ze als aparte paragrafen renderen.
+
+    Zonder deze fix worden opeenvolgende `§11. ... § 12. ...`-regels door de
+    markdown-parser tot één <p> samengevoegd (ze zijn niet door blank lines
+    gescheiden). Met deze fix krijgt elk genummerd paragraaf-marker zijn eigen
+    blok.
+
+    `pattern`: regex die op een regel-start matcht (zonder ^-anker; wordt
+              automatisch met `(?m)^` voorgevoegd).
+    """
+    pat = re.compile(rf"(?m)^{pattern}")
+    lines = body.split("\n")
+    out: list[str] = []
+    n = 0
+    for i, line in enumerate(lines):
+        if pat.match(line) and i > 0 and lines[i - 1].strip() != "":
+            out.append("")
+            n += 1
+        out.append(line)
+    return "\n".join(out), FixResult(
+        name="separate_paragraph_markers",
+        applied=n > 0,
+        changes=n,
+        note=f"{n} paragraaf-marker(s) met blanco regel afgescheiden",
+    )
+
+
 def normalize_heading_levels(body: str) -> tuple[str, FixResult]:
     """
     KMO-controlenorm-patroon: hoofdstukken op H1, subsecties op H2 met
@@ -508,6 +538,31 @@ FIX_PIPELINE_PER_FILE: dict[str, list[tuple[Callable, dict]]] = {
         (remove_html_entities, {}),
         (dedent_indented_headings, {}),
         (normalize_heading_levels, {}),
+        # TOC-blok (`## 1. INLEIDING` ... `## Bijlage 4.`) staat vóór de echte
+        # body (`# 1. INLEIDING`). Strippen want anders krijgen we dubbele
+        # entries in de zijbalk-inhoudsopgave en kromme heading-hiërarchie.
+        (strip_toc_block, {
+            "toc_start_re": r"^## 1\. INLEIDING\s*$",
+            # Newline-prefix nodig: `## 1. INLEIDING` (TOC-regel) bevat
+            # `# 1. INLEIDING` als substring, dus zonder `\n` ervoor matcht
+            # body.find() de TOC-regel ipv de echte H1.
+            "first_section_marker": "\n# 1. INLEIDING\n",
+        }),
+        # Ontbrekende `## 3.1`-heading invoegen: tussen `# 3. CONTROLE ...` en
+        # `### 3.1.1. Planning` zat in de bron geen sectie-titel — wordt nu
+        # ook in de heading-hiërarchie gerepareerd.
+        (fix_specific_ocr, {
+            "pairs": [
+                (
+                    "# 3. CONTROLE VAN DE HISTORISCHE FINANCIËLE INFORMATIE (REDELIJKE ZEKERHEID)\n\n### 3.1.1. Planning",
+                    "# 3. CONTROLE VAN DE HISTORISCHE FINANCIËLE INFORMATIE (REDELIJKE ZEKERHEID)\n\n## 3.1. Risico’s op een afwijking van materieel belang identificeren en inschatten & planning\n\n### 3.1.1. Planning",
+                ),
+            ],
+        }),
+        # Elke `§N.`-regel als aparte paragraaf renderen (anders plakken §11-§15
+        # in één <p>).
+        (separate_paragraph_markers, {"pattern": r"§\d+\."}),
+        (collapse_blank_runs, {"max_blanks": 2}),
     ],
 
     # Pas geëxtraheerd via extract_norm_twocolumn.py: TOC-stippels resterend
