@@ -1,0 +1,88 @@
+{
+  "id": "winst-naar-herkomst",
+  "naam": {
+    "primair": "Winst naar herkomst",
+    "synoniemen": [
+      "winst-toerekening VI",
+      "profit attribution"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Toerekening winst aan vaste inrichting vs hoofdhuis (art 7 OESO-MV)",
+        "Authorized OECD Approach (AOA): VI als afzonderlijke en onafhankelijke onderneming",
+        "Functional analysis: functies · risico's · activa toegerekend aan VI",
+        "Interne dealings vaste inrichting ↔ hoofdhuis · arms-length-prijzen",
+        "Cross transfer pricing (art 185 §2 WIB)"
+      ],
+      "out": [
+        {
+          "topic": "Vaste inrichting (basis)",
+          "richting": "moet-verwijzen",
+          "ref": "vaste-inrichting"
+        },
+        {
+          "topic": "Transfer pricing (analoge methodologie)",
+          "richting": "moet-verwijzen",
+          "ref": "transfer-pricing"
+        },
+        {
+          "topic": "Buitenlandse winst-en-verlies",
+          "richting": "moet-verwijzen",
+          "ref": "buitenlandse-winst-en-verlies"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (winst-naar-herkomst).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "transfer-pricing"
+    }
+  ]
+}

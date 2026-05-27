@@ -1,0 +1,84 @@
+{
+  "id": "buitenlandse-winst-en-verlies",
+  "naam": {
+    "primair": "Buitenlandse winst en verlies",
+    "synoniemen": [
+      "BVL",
+      "foreign losses"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Verrekening buitenlandse winst/verlies bij Belgische binnenlandse vennootschap",
+        "Vrijgesteld via DBV indien VI in verdragsland (vrijstellingsmethode)",
+        "Grensoverschrijdende verliesverrekening: Marks & Spencer-arrest · finale verliezen",
+        "Recapture: doorgeschoven buitenlandse verliezen die later in buitenland aftrekbaar worden",
+        "Doorschuifregeling binnen EU (groepsverliesverrekening)"
+      ],
+      "out": [
+        {
+          "topic": "Vaste inrichting (basis voor BVL-toerekening)",
+          "richting": "moet-verwijzen",
+          "ref": "vaste-inrichting"
+        },
+        {
+          "topic": "Winst-naar-herkomst (toerekenings-methode)",
+          "richting": "moet-verwijzen",
+          "ref": "winst-naar-herkomst"
+        },
+        {
+          "topic": "Vrijstelling met progressievoorbehoud (methode)",
+          "richting": "mag-verwijzen",
+          "ref": "vrijstelling-met-progressievoorbehoud"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (buitenlandse-winst-en-verlies).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

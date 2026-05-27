@@ -1,0 +1,89 @@
+{
+  "id": "interest-royalty-richtlijn",
+  "naam": {
+    "primair": "Interest-royaltyrichtlijn",
+    "synoniemen": [
+      "interest-royalty directive",
+      "IRD"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Richtlijn 2003/49/EG: vrijstelling RV op interest + royalty's tussen verbonden EU-vennootschappen",
+        "Voorwaarden: deelneming ≥25% · houdperiode 2 jaar · directe of indirecte band",
+        "Begrip 'beneficial owner' essentieel (anti-conduit-misbruik)",
+        "Belgische omzetting: art 107 KB-WIB voor uitgaande betalingen"
+      ],
+      "out": [
+        {
+          "topic": "Roerend inkomen internationaal",
+          "richting": "moet-verwijzen",
+          "ref": "roerend-inkomen-internationaal"
+        },
+        {
+          "topic": "Moeder-dochterrichtlijn (analoog)",
+          "richting": "mag-verwijzen",
+          "ref": "moeder-dochterrichtlijn"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (interest-royalty-richtlijn).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2003",
+        "wettelijke_basis": "Richtlijn 2003/49/EG"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "eu-fiscale-richtlijnen"
+    },
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

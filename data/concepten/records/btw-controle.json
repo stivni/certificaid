@@ -1,0 +1,87 @@
+{
+  "id": "btw-controle",
+  "naam": {
+    "primair": "BTW-controle",
+    "synoniemen": [
+      "BTW-controle-en-geschillen (oude naam)"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.taak.5"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "BTW-specifieke controle-procedures: ter plaatse · vraag om inlichtingen · onderzoek bij derden",
+        "Onderzoeksbevoegdheden art 60-63 W.BTW (inzage boekhouding · meelopen)",
+        "Regularisatie: spontane aangifte · verminderde boete bij snelle correctie",
+        "BTW-rechtbank-procedure (cross fiscale-procedure-Σ voor bezwaar/beroep)",
+        "Vraag om inlichtingen art 62 W.BTW · sancties bij niet-antwoord"
+      ],
+      "out": [
+        {
+          "topic": "Fiscale procedure-Σ (bezwaar · beroep · BTW-rechtbank)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-procedure"
+        },
+        {
+          "topic": "BTW-aangifte (controle-basis)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aangifte"
+        },
+        {
+          "topic": "Fiscale controle generiek",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-controle"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-controle).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-controle"
+    }
+  ]
+}

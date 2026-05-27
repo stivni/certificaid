@@ -1,0 +1,95 @@
+{
+  "id": "vrijstellingsregeling-kleine-onderneming",
+  "naam": {
+    "primair": "Vrijstellingsregeling kleine onderneming (BTW)",
+    "afkorting": "KO-regime",
+    "synoniemen": [
+      "kleine-ondernemingen-regeling",
+      "franchise-regime"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "KO-regime art 56bis W.BTW: omzet < 25.000 EUR per jaar (excl. BTW)",
+        "Vrijgesteld van BTW-aanrekening + geen recht op aftrek voorbelasting",
+        "Vrijwillige keuze · drempel-monitoring · overschakeling bij overschrijding",
+        "Administratieve vereenvoudiging (geen BTW-aangifte) maar wel jaarlijkse klantenlisting"
+      ],
+      "out": [
+        {
+          "topic": "BTW-belastingplichtige (regime is een vorm van)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-belastingplichtige"
+        },
+        {
+          "topic": "Forfaitaire regeling (alternatief regime)",
+          "richting": "moet-verwijzen",
+          "ref": "forfaitaire-regeling-btw"
+        },
+        {
+          "topic": "BTW-aangifte (vrijgesteld onder KO)",
+          "richting": "mag-verwijzen",
+          "ref": "btw-aangifte"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (vrijstellingsregeling-kleine-onderneming).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2014",
+        "wettelijke_basis": "Art 56bis W.BTW"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "btw"
+    }
+  ]
+}

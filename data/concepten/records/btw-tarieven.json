@@ -1,0 +1,79 @@
+{
+  "id": "btw-tarieven",
+  "naam": {
+    "primair": "BTW-tarieven",
+    "synoniemen": [
+      "BTW-tarief",
+      "VAT rates"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "4 tarieven: 0% · 6% · 12% · 21% (standaard)",
+        "Tabel A KB nr 20: 6%-tarief (voeding · boeken · medicatie · vervoer personen · ...)",
+        "Tabel B: 12%-tarief (sociale huisvesting · cafés · margaringe · ...)",
+        "Verlaagd tarief 6% renovatie woningen >10 jaar",
+        "Vrijgesteld vs nultarief (recht op aftrek-onderscheid)"
+      ],
+      "out": [
+        {
+          "topic": "Vrijstellingen art 44 (zonder aftrek-recht)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-vrijstellingen"
+        },
+        {
+          "topic": "Tariefkeuze BTW-vastgoed nieuwbouw",
+          "richting": "mag-verwijzen",
+          "ref": "btw-vastgoed"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-tarieven).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    }
+  ]
+}

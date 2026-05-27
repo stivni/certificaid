@@ -1,0 +1,88 @@
+{
+  "id": "bijzonder-regime-buitenlandse-kaderleden",
+  "naam": {
+    "primair": "Bijzonder regime voor buitenlandse kaderleden",
+    "afkorting": "BBIK",
+    "synoniemen": [
+      "expat-regime",
+      "incoming-expat-regime",
+      "kaderleden-regime"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.VI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Belgisch inkomend expat-regime (Wet 27-12-2021) — vervangt oud regime circ 1983",
+        "30%-vrijstelling op brutoloon (specifieke vergoedingen — onbelast)",
+        "Voorwaarden: nieuwe aanwerving · minimum brutoloon 75.000 EUR · niet-resident voorbije 5j",
+        "Duur: 5 jaar + verlenging 3 jaar",
+        "Onderscheid: BBIK (kaderleden) + BBIN (onderzoekers)"
+      ],
+      "out": [
+        {
+          "topic": "Internationale tewerkstelling (context)",
+          "richting": "moet-verwijzen",
+          "ref": "internationale-tewerkstelling"
+        },
+        {
+          "topic": "Werknemersbezoldiging (PB-perspectief)",
+          "richting": "mag-verwijzen",
+          "ref": "werknemersbezoldiging"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (bijzonder-regime-buitenlandse-kaderleden).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2022-01-01",
+        "wettelijke_basis": "Wet 27-12-2021 (vervangt circulaire 8-08-1983)"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

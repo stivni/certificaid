@@ -1,0 +1,75 @@
+{
+  "id": "fiscaal-vertegenwoordiger-btw",
+  "naam": {
+    "primair": "Fiscaal vertegenwoordiger (BTW)"
+  },
+  "concept_type": "actor",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.VI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Fiscaal vertegenwoordiger voor niet-EU-belastingplichtigen die in België BTW-handelingen verrichten",
+        "Aanstelling verplicht (art 55 §1 W.BTW): hoofdelijk aansprakelijk voor BTW-schulden",
+        "Individuele aansprakelijkheid (per cliënt) vs globale (vergunning voor meerdere)",
+        "Verplichtingen: BTW-aangiftes namens vertegenwoordigde · documentenbewaring · waarborg"
+      ],
+      "out": [
+        {
+          "topic": "Σ-keuzekader grensoverschrijdend",
+          "richting": "moet-verwijzen",
+          "ref": "btw-grensoverschrijdend"
+        },
+        {
+          "topic": "BTW-belastingplichtige niet-resident",
+          "richting": "moet-verwijzen",
+          "ref": "btw-belastingplichtige"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (fiscaal-vertegenwoordiger-btw).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-grensoverschrijdend"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "id": "btw",
+  "naam": {
+    "primair": "Belasting over de toegevoegde waarde",
+    "afkorting": "BTW",
+    "synoniemen": [
+      "BTW-stelsel",
+      "value-added tax",
+      "VAT",
+      "TVA"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.I",
+      "2.4.II",
+      "2.4.III",
+      "2.4.IV",
+      "2.4.V",
+      "2.4.VI",
+      "2.4.VII",
+      "2.4.VIII",
+      "2.4.taak.1"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht BTW-stelsel: 4 elementen (belastingplichtige · handeling · maatstaf · tarief) → opeisbaarheid → aftrek → aangifte",
+        "BTW-keten als verzamelaarsbelasting (overdraagbaar tot eindverbruiker)",
+        "EU-richtlijn 2006/112 als systeemrichtlijn + Uitvoeringsverordening 282/2011",
+        "Hiërarchie wettekst: W.BTW · KB · MB · circulaire",
+        "Vergelijkingsmatrix BTW-stelsels (gewoon · KO · forfait · BTW-eenheid)"
+      ],
+      "out": [
+        {
+          "topic": "BTW-belastingplichtige in detail",
+          "richting": "moet-verwijzen",
+          "ref": "btw-belastingplichtige"
+        },
+        {
+          "topic": "Levering goederen + dienstverlening",
+          "richting": "moet-verwijzen",
+          "ref": "btw-levering-goederen"
+        },
+        {
+          "topic": "Plaats-van-handeling regels",
+          "richting": "moet-verwijzen",
+          "ref": "plaats-van-handeling-btw"
+        },
+        {
+          "topic": "Grensoverschrijdende BTW-regimes",
+          "richting": "moet-verwijzen",
+          "ref": "btw-grensoverschrijdend"
+        },
+        {
+          "topic": "Aftrek + herziening",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aftrek"
+        },
+        {
+          "topic": "Aangifte + controle",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aangifte"
+        },
+        {
+          "topic": "Fiscale procedure-Σ (bezwaar/beroep/geschillen)",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-procedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "1971",
+        "wettelijke_basis": "W.BTW 03-07-1969 + EU-richtlijn 2006/112"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "bevat",
+      "target": "btw-belastingplichtige"
+    },
+    {
+      "type": "bevat",
+      "target": "btw-levering-goederen"
+    },
+    {
+      "type": "bevat",
+      "target": "btw-dienstverlening"
+    },
+    {
+      "type": "bevat",
+      "target": "btw-aftrek"
+    },
+    {
+      "type": "bevat",
+      "target": "btw-aangifte"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "personenbelasting"
+    }
+  ]
+}

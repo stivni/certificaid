@@ -1,0 +1,83 @@
+{
+  "id": "btw-herziening-bedrijfsmiddelen",
+  "naam": {
+    "primair": "BTW-herziening bedrijfsmiddelen"
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Herzieningstermijn bedrijfsmiddelen: 15 jaar voor onroerend · 5 jaar voor roerend BM",
+        "Trigger-events herziening: bestemmingswijziging · verkoop · stopzetting · gemengd gebruik",
+        "Berekening herziening: pro-rata-jaren resterend × initiële aftrek",
+        "Aangifte herziening via reguliere BTW-aangifte"
+      ],
+      "out": [
+        {
+          "topic": "BTW-aftrek (initiële)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aftrek"
+        },
+        {
+          "topic": "BTW-vastgoed (15-jaar herzieningsregime)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-vastgoed"
+        },
+        {
+          "topic": "Stopzetting BTW-activiteit (trigger herziening)",
+          "richting": "moet-verwijzen",
+          "ref": "stopzetting-btw"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-herziening-bedrijfsmiddelen).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "vereist",
+      "target": "btw-aftrek"
+    }
+  ]
+}

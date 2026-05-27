@@ -1,0 +1,89 @@
+{
+  "id": "douaneprocedures-btw-invoer",
+  "naam": {
+    "primair": "Douaneprocedures BTW-invoer",
+    "synoniemen": [
+      "invoer-BTW",
+      "DAU-aangifte"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.IX",
+      "2.4.X"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Invoer-BTW: BTW verschuldigd bij invoer goederen uit derde landen",
+        "Enig document (DAU) — aangifte douane en BTW bij invoer",
+        "BTW-stelsel bij invoer: uitstel betaling via vergunning ET 14.000 (boeken in maandaangifte)",
+        "Vrijstellingen bij invoer (kleine zendingen · monsters · doorvoer)",
+        "Douanevertegenwoordiger: direct vs indirect"
+      ],
+      "out": [
+        {
+          "topic": "Douanewaarde (maatstaf)",
+          "richting": "moet-verwijzen",
+          "ref": "douanewaarde"
+        },
+        {
+          "topic": "Accijnzen bij invoer accijnsgoederen",
+          "richting": "moet-verwijzen",
+          "ref": "accijnzen-basis"
+        },
+        {
+          "topic": "BTW-grensoverschrijdend Σ",
+          "richting": "moet-verwijzen",
+          "ref": "btw-grensoverschrijdend"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (douaneprocedures-btw-invoer).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "vereist",
+      "target": "douanewaarde"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "fiscale-regularisatie-en-buitenlandse-goederen",
+  "naam": {
+    "primair": "Fiscale regularisatie en buitenlandse goederen",
+    "synoniemen": [
+      "DLU",
+      "EBA-quater",
+      "regularisatieprocedure"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.XVII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Permanente regularisatieprocedure (Wet 21-07-2016): vrijwillige aangifte niet-aangegeven inkomsten/vermogen",
+        "Toepassing: buitenlandse rekeningen · vermogensverzekeringen · juridische constructies · zwart kapitaal",
+        "Boete-staffel: 25% (verjaarde) · normaal tarief + boete (niet-verjaarde)",
+        "Aangifte bij Contactpunt Regularisaties (FOD Financiën)",
+        "Onderscheid fiscaal · sociaal · BTW · douane-regularisatie"
+      ],
+      "out": [
+        {
+          "topic": "Juridische constructie Caymantaks (samenloop)",
+          "richting": "moet-verwijzen",
+          "ref": "juridische-constructie-cayman"
+        },
+        {
+          "topic": "Fiscale procedure (sancties bij niet-regularisatie)",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-procedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (fiscale-regularisatie-en-buitenlandse-goederen).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2016",
+        "wettelijke_basis": "Wet 21-07-2016"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

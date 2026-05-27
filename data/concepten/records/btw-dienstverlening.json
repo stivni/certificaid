@@ -1,0 +1,88 @@
+{
+  "id": "btw-dienstverlening",
+  "naam": {
+    "primair": "BTW — Dienstverlening",
+    "synoniemen": [
+      "dienstprestatie",
+      "supply of services"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Begrip dienst (art 18 W.BTW): elke handeling die geen levering is",
+        "Onderscheid met levering goederen — bij combinaties: hoofdprestatie-regel",
+        "Gelijkstellingen met dienst (privégebruik bedrijfsgoed · gratis dienst)",
+        "Specifieke diensten: telecom · elektronisch · vervoer · cultureel · vastgoed-gerelateerd"
+      ],
+      "out": [
+        {
+          "topic": "Levering goederen (afbakening)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-levering-goederen"
+        },
+        {
+          "topic": "Plaats-van-handeling diensten (B2B-hoofdregel · B2C-uitzonderingen)",
+          "richting": "moet-verwijzen",
+          "ref": "plaats-van-handeling-btw"
+        },
+        {
+          "topic": "Opeisbaarheid bij dienstverlening",
+          "richting": "moet-verwijzen",
+          "ref": "opeisbaarheid-btw"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-dienstverlening).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "btw-levering-goederen"
+    }
+  ]
+}

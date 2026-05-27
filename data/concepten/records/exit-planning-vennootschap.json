@@ -1,0 +1,90 @@
+{
+  "id": "exit-planning-vennootschap",
+  "naam": {
+    "primair": "Exit-planning vennootschap (internationaal)",
+    "synoniemen": [
+      "zetelverplaatsing",
+      "cross-border seat transfer"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.IX"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Zetelverplaatsing vennootschap naar buitenland (uit BE)",
+        "Exit-taxatie: latente meerwaarden + reserves aanrekening bij vertrek (art 210bis WIB)",
+        "EU-vrijheid van vestiging vs exit-belasting (Hof Justitie-arresten: National Grid Indus · DMC)",
+        "ATAD art 5 exit-tax-regel + 5-jaar-spreiding bij EU-vertrek",
+        "Advies-context bij internationale herstructurering"
+      ],
+      "out": [
+        {
+          "topic": "Exit-belasting (regeling detail)",
+          "richting": "moet-verwijzen",
+          "ref": "exit-belasting"
+        },
+        {
+          "topic": "ATAD-richtlijn art 5",
+          "richting": "moet-verwijzen",
+          "ref": "atad-richtlijn"
+        },
+        {
+          "topic": "Internationale structurering vennootschap",
+          "richting": "moet-verwijzen",
+          "ref": "internationale-structurering-vennootschap"
+        },
+        {
+          "topic": "Reorganisatie-cluster (Belgische fusies)",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-fusie-splitsing"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (exit-planning-vennootschap).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

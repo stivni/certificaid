@@ -1,0 +1,97 @@
+{
+  "id": "dubbelbelastingverdrag",
+  "naam": {
+    "primair": "Dubbelbelastingverdrag",
+    "afkorting": "DBV",
+    "synoniemen": [
+      "double tax treaty",
+      "bilateraal belastingverdrag",
+      "verdrag tot voorkoming dubbele belasting"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.I",
+      "2.8.taak.2"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Bilateraal verdrag tussen twee staten ter voorkoming dubbele belasting",
+        "Structuur DBV: woonplaats · vaste inrichting · inkomenstoewijzing per categorie · methodes voorkoming · informatie-uitwisseling",
+        "Interpretatie: art 31 Verdrag van Wenen · commentaar OESO · circulaires",
+        "Hiërarchie: DBV gaat voor op intern recht (art 168 Grondwet)",
+        "België heeft ~90 DBV's afgesloten"
+      ],
+      "out": [
+        {
+          "topic": "OESO-modelverdrag (model voor DBV)",
+          "richting": "moet-verwijzen",
+          "ref": "oeso-modelverdrag"
+        },
+        {
+          "topic": "MLI-instrument (wijziging DBV's)",
+          "richting": "moet-verwijzen",
+          "ref": "mli-instrument"
+        },
+        {
+          "topic": "MAP-procedure (geschillen)",
+          "richting": "moet-verwijzen",
+          "ref": "map"
+        },
+        {
+          "topic": "Methodes voorkoming",
+          "richting": "moet-verwijzen",
+          "ref": "vrijstelling-met-progressievoorbehoud"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (dubbelbelastingverdrag).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "vereist",
+      "target": "oeso-modelverdrag"
+    }
+  ]
+}

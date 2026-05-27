@@ -1,0 +1,84 @@
+{
+  "id": "map",
+  "naam": {
+    "primair": "Mutual Agreement Procedure (MAP)",
+    "afkorting": "MAP",
+    "synoniemen": [
+      "Mutual Agreement Procedure",
+      "overleg-procedure",
+      "CFR"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "MAP-procedure (art 25 OESO-MV): bevoegde-autoriteit-overleg bij DBV-geschillen",
+        "Verzoek door belastingplichtige bij residentiestaat — termijn 3 jaar",
+        "Arbitrage als sluitstuk (EU-arbitragerichtlijn 2017/1852 binnen EU)",
+        "Cross-Frontier Resolution (CFR) — interpretatie/toepassings-geschillen"
+      ],
+      "out": [
+        {
+          "topic": "Dubbelbelastingverdrag (basis MAP)",
+          "richting": "moet-verwijzen",
+          "ref": "dubbelbelastingverdrag"
+        },
+        {
+          "topic": "Fiscale procedure (intern bezwaar/beroep)",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-procedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (map).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "fiscale-procedure"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "oss-regeling",
+  "naam": {
+    "primair": "One-Stop-Shop (OSS) regeling",
+    "afkorting": "OSS",
+    "synoniemen": [
+      "One-Stop-Shop",
+      "IOSS",
+      "mini-one-stop-shop"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.VI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "One-Stop-Shop OSS: vereenvoudigde BTW-aangifte voor B2C-EU verkopen-op-afstand",
+        "Import One-Stop-Shop IOSS: voor invoer goederen ≤ 150 EUR",
+        "Drempel 10.000 EUR B2C-EU (onder drempel: BTW-tarief land vertrekker)",
+        "Registratie OSS-systeem · driemaandelijkse aangifte · betaling via één lidstaat"
+      ],
+      "out": [
+        {
+          "topic": "Σ-keuzekader grensoverschrijdend",
+          "richting": "moet-verwijzen",
+          "ref": "btw-grensoverschrijdend"
+        },
+        {
+          "topic": "Plaats-van-handeling B2C",
+          "richting": "moet-verwijzen",
+          "ref": "plaats-van-handeling-btw"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (oss-regeling).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2021-07-01",
+        "wettelijke_basis": "EU-richtlijn 2017/2455 + omzetting W.BTW"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-grensoverschrijdend"
+    }
+  ]
+}

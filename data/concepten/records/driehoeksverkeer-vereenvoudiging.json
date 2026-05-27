@@ -1,0 +1,78 @@
+{
+  "id": "driehoeksverkeer-vereenvoudiging",
+  "naam": {
+    "primair": "Driehoeksverkeer-vereenvoudiging",
+    "synoniemen": [
+      "triangulaire verrichting",
+      "vereenvoudigd driehoeksverkeer"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.VI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Driehoeksverkeer (art 25ter W.BTW): vereenvoudiging bij B-A-C-keten over 3 EU-lidstaten",
+        "A levert aan B die doorlevert aan C — beweging goederen rechtstreeks van A naar C",
+        "Vereenvoudiging: B hoeft geen BTW-registratie in lidstaat C (verleggen naar C)",
+        "Voorwaarden: 3 verschillende EU-lidstaten · B in andere lidstaat dan A en C · facturatie-formaliteiten"
+      ],
+      "out": [
+        {
+          "topic": "Σ-keuzekader grensoverschrijdend",
+          "richting": "moet-verwijzen",
+          "ref": "btw-grensoverschrijdend"
+        },
+        {
+          "topic": "Verleggingsregeling (mechanisme)",
+          "richting": "moet-verwijzen",
+          "ref": "verleggingsregeling"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (driehoeksverkeer-vereenvoudiging).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-grensoverschrijdend"
+    }
+  ]
+}

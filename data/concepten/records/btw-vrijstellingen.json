@@ -1,0 +1,84 @@
+{
+  "id": "btw-vrijstellingen",
+  "naam": {
+    "primair": "BTW-vrijstellingen (art 44)"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Vrijstellingen art 44 W.BTW: sociale sector · medische sector · onderwijs · cultureel · financieel · verzekering",
+        "Sociale + culturele + medische vrijstellingen: doel-criteria + niet-winstgevend criterium",
+        "Financiële + verzekeringsvrijstellingen: beleggingsfondsen · bank · krediet",
+        "Vrijstelling onroerend zonder optie (cross btw-vastgoed)",
+        "Geen recht op aftrek voorbelasting (versus nultarief)"
+      ],
+      "out": [
+        {
+          "topic": "Vrijstellingsregeling kleine onderneming (afzonderlijk regime)",
+          "richting": "moet-verwijzen",
+          "ref": "vrijstellingsregeling-kleine-onderneming"
+        },
+        {
+          "topic": "Optie BTW-verhuur vastgoed (uitzondering)",
+          "richting": "moet-verwijzen",
+          "ref": "optie-btw-verhuur-vastgoed"
+        },
+        {
+          "topic": "BTW-aftrek (vrijstelling = geen aftrek)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aftrek"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-vrijstellingen).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "btw"
+    }
+  ]
+}

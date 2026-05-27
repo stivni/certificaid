@@ -1,0 +1,87 @@
+{
+  "id": "eu-fiscale-richtlijnen",
+  "naam": {
+    "primair": "EU-fiscale richtlijnen"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.III",
+      "2.8.XVI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Overzicht alle EU-fiscale richtlijnen: directe belastingen + BTW",
+        "Moeder-dochterrichtlijn 2011/96 · Interest-royaltyrichtlijn 2003/49 · Fusierichtlijn 2009/133",
+        "ATAD 2016/1164 + ATAD2 (anti-tax-avoidance)",
+        "DAC-richtlijnen (DAC1-7): informatie-uitwisseling · DAC6 reportable arrangements",
+        "Omzettings-status in Belgisch recht per richtlijn"
+      ],
+      "out": [
+        {
+          "topic": "Moeder-dochterrichtlijn (detail)",
+          "richting": "moet-verwijzen",
+          "ref": "moeder-dochterrichtlijn"
+        },
+        {
+          "topic": "Interest-royaltyrichtlijn (detail)",
+          "richting": "moet-verwijzen",
+          "ref": "interest-royalty-richtlijn"
+        },
+        {
+          "topic": "ATAD-richtlijn (anti-misbruik)",
+          "richting": "moet-verwijzen",
+          "ref": "atad-richtlijn"
+        },
+        {
+          "topic": "Fiscale fusierichtlijn (reorganisaties)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-fusierichtlijn"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (eu-fiscale-richtlijnen).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

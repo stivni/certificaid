@@ -1,0 +1,92 @@
+{
+  "id": "mli-instrument",
+  "naam": {
+    "primair": "Multilateraal instrument (MLI)",
+    "afkorting": "MLI",
+    "synoniemen": [
+      "Multilateral Convention",
+      "BEPS Action 15"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Multilateraal Verdrag (BEPS Action 15): wijzigt simultaan vele DBV's",
+        "Implementeert BEPS-minimumstandaarden (Action 6 PPT · Action 14 MAP)",
+        "Werking: positieve match-clausules tussen verdragspartijen + reserves",
+        "België: bekrachtigd 2019 · in werking 2020 voor specifieke DBV's",
+        "PPT (Principal Purpose Test) als anti-misbruik-clausule"
+      ],
+      "out": [
+        {
+          "topic": "BEPS-actieplan",
+          "richting": "moet-verwijzen",
+          "ref": "beps-actieplan"
+        },
+        {
+          "topic": "Dubbelbelastingverdrag (gewijzigd door MLI)",
+          "richting": "moet-verwijzen",
+          "ref": "dubbelbelastingverdrag"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (mli-instrument).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2020",
+        "wettelijke_basis": "OESO-MLI + Wet bekrachtiging 2019"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beps-actieplan"
+    }
+  ]
+}

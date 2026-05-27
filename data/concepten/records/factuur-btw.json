@@ -1,0 +1,91 @@
+{
+  "id": "factuur-btw",
+  "naam": {
+    "primair": "Factuur (BTW)",
+    "synoniemen": [
+      "BTW-factuur",
+      "e-invoice"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Factuurplicht (art 53 W.BTW): wanneer + aan wie",
+        "Verplichte factuurvermeldingen (datum · nummer · partijen · BTW-nummers · maatstaf · tarief · bedrag · regime)",
+        "Elektronische facturatie (e-invoicing verplicht 2026)",
+        "Creditnota's + correcties · factuur-corrigeren-versus-nieuwe-factuur",
+        "Bewaarplicht en formele voorwaarden voor BTW-aftrek bij ontvanger"
+      ],
+      "out": [
+        {
+          "topic": "BTW-aftrek vereist correcte factuur",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aftrek"
+        },
+        {
+          "topic": "Opeisbaarheid getriggerd door factuurdatum",
+          "richting": "moet-verwijzen",
+          "ref": "opeisbaarheid-btw"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (factuur-btw).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "1969",
+        "wettelijke_basis": "Art 53 W.BTW + KB nr 1"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "vereist",
+      "target": "btw"
+    }
+  ]
+}

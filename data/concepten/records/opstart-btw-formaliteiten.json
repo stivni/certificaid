@@ -1,0 +1,82 @@
+{
+  "id": "opstart-btw-formaliteiten",
+  "naam": {
+    "primair": "Opstart BTW-formaliteiten"
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.II",
+      "2.4.taak.1"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "604A-aangifte aanvang BTW-activiteit (voor start activiteiten indienen)",
+        "Toekenning BTW-nummer + identificatie",
+        "Keuze BTW-regime: gewoon · KO · forfait · BTW-eenheid",
+        "Optie maandelijks vs kwartaalaangifte",
+        "Aanmelden bij OSS indien grensoverschrijdend"
+      ],
+      "out": [
+        {
+          "topic": "BTW-belastingplichtige (begrip)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-belastingplichtige"
+        },
+        {
+          "topic": "Stopzetting BTW (spiegel)",
+          "richting": "moet-verwijzen",
+          "ref": "stopzetting-btw"
+        },
+        {
+          "topic": "Regime-keuze (KO/forfait)",
+          "richting": "moet-verwijzen",
+          "ref": "vrijstellingsregeling-kleine-onderneming"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (opstart-btw-formaliteiten).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    }
+  ]
+}

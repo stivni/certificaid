@@ -1,0 +1,83 @@
+{
+  "id": "vrijstelling-met-progressievoorbehoud",
+  "naam": {
+    "primair": "Vrijstelling met progressievoorbehoud",
+    "synoniemen": [
+      "exemption with progression"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.I",
+      "2.8.II"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Methode voorkoming dubbele belasting (België-PB-resident): buitenlandse inkomsten vrijgesteld",
+        "Maar buitenlandse inkomsten verhogen wel progressievoet voor Belgische belasting",
+        "Berekening: virtuele belasting op wereldinkomen · ratio buitenlands/totaal · proportioneel kwijtschelden",
+        "Toepassing op buitenlandse onroerende inkomsten + buitenlandse beroepsinkomsten"
+      ],
+      "out": [
+        {
+          "topic": "FBB-methode (verrekening — alternatieve methode)",
+          "richting": "moet-verwijzen",
+          "ref": "forfaitair-gedeelte-buitenlandse-belasting"
+        },
+        {
+          "topic": "Internationaal onroerend goed (toepassing)",
+          "richting": "moet-verwijzen",
+          "ref": "internationaal-onroerend-goed"
+        },
+        {
+          "topic": "Personenbelasting context",
+          "richting": "mag-verwijzen",
+          "ref": "personenbelasting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (vrijstelling-met-progressievoorbehoud).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

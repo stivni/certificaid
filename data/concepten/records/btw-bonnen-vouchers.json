@@ -1,0 +1,86 @@
+{
+  "id": "btw-bonnen-vouchers",
+  "naam": {
+    "primair": "BTW-bonnen en vouchers",
+    "synoniemen": [
+      "vouchers BTW",
+      "cadeaubon BTW"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Voucher-richtlijn 2016/1065 (omgezet in W.BTW): definitie + BTW-behandeling",
+        "Single-purpose voucher (SPV): BTW verschuldigd bij uitgifte (plaats + tarief gekend)",
+        "Multi-purpose voucher (MPV): BTW verschuldigd bij inwisseling",
+        "Onderscheid voucher vs betalingsinstrument · onderscheid voucher vs prijsvermindering"
+      ],
+      "out": [
+        {
+          "topic": "Opeisbaarheid bij voucher-handeling",
+          "richting": "moet-verwijzen",
+          "ref": "opeisbaarheid-btw"
+        },
+        {
+          "topic": "Plaats van handeling voucher",
+          "richting": "mag-verwijzen",
+          "ref": "plaats-van-handeling-btw"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-bonnen-vouchers).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019",
+        "wettelijke_basis": "EU-richtlijn 2016/1065 + omzetting W.BTW"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    }
+  ]
+}

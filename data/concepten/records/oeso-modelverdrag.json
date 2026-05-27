@@ -1,0 +1,85 @@
+{
+  "id": "oeso-modelverdrag",
+  "naam": {
+    "primair": "OESO-modelverdrag",
+    "afkorting": "OESO-MV",
+    "synoniemen": [
+      "OECD Model Tax Convention",
+      "Modelverdrag"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "OESO Model Tax Convention + commentaar (standaard-template voor DBV's)",
+        "Standaard-artikelen: art 4 woonplaats · art 5 vaste inrichting · art 7 ondernemingswinst",
+        "Inkomenscategorie-toewijzing (art 6-21): vastgoed · winst · scheepvaart · interest · dividend · royalty · andere",
+        "Methodes voorkoming (art 23A vrijstelling / 23B verrekening)",
+        "Anti-misbruik (PPT — Principal Purpose Test) na BEPS"
+      ],
+      "out": [
+        {
+          "topic": "Dubbelbelastingverdrag (DBV)",
+          "richting": "moet-verwijzen",
+          "ref": "dubbelbelastingverdrag"
+        },
+        {
+          "topic": "BEPS-actieplan (OESO-context)",
+          "richting": "moet-verwijzen",
+          "ref": "beps-actieplan"
+        },
+        {
+          "topic": "VN-modelverdrag (alternatief voor ontwikkelingslanden)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (oeso-modelverdrag).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

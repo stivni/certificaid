@@ -1,0 +1,91 @@
+{
+  "id": "btw-eenheid",
+  "naam": {
+    "primair": "BTW-eenheid",
+    "afkorting": "BTW-E",
+    "synoniemen": [
+      "groepsbtw",
+      "VAT group"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "BTW-eenheid (art 4 §2 W.BTW): groepsbtw — meerdere belastingplichtigen behandeld als één",
+        "Voorwaarden: financiële · organisatorische · economische verbondenheid",
+        "Single-taxable-person: één BTW-nummer · onderlinge prestaties buiten BTW-toepassingsgebied",
+        "Aanmelding · in/uittreding · hoofdelijke aansprakelijkheid leden"
+      ],
+      "out": [
+        {
+          "topic": "Aftrek-pro-rata binnen BTW-eenheid",
+          "richting": "mag-verwijzen",
+          "ref": "btw-aftrek"
+        },
+        {
+          "topic": "BTW-vastgoed binnen BTW-eenheid",
+          "richting": "mag-verwijzen",
+          "ref": "btw-vastgoed"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-eenheid).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2007",
+        "wettelijke_basis": "Art 4 §2 W.BTW + KB nr 55"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "btw"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "belasting-niet-inwoners",
+  "naam": {
+    "primair": "Belasting niet-inwoners (BNI)",
+    "afkorting": "BNI",
+    "synoniemen": [
+      "non-resident tax",
+      "belasting niet-rijksinwoners"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.IV"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "BNI-PB: niet-rijksinwoners die Belgische inkomsten verkrijgen (art 227 WIB)",
+        "BNI-VenB: buitenlandse vennootschappen met Belgische bron-inkomsten (art 227)",
+        "Categorieën: met/zonder tehuis · zelfstandige · werknemers · kaderleden",
+        "Beperkte aanslagbasis: enkel Belgische inkomsten (territorialiteit)",
+        "BNI-aangifte (form 276.1 of 276.5) · termijnen"
+      ],
+      "out": [
+        {
+          "topic": "Fiscale residentie (afbakening rijksinwoner)",
+          "richting": "moet-verwijzen",
+          "ref": "fiscale-residentie"
+        },
+        {
+          "topic": "Bijzonder regime buitenlandse kaderleden",
+          "richting": "moet-verwijzen",
+          "ref": "bijzonder-regime-buitenlandse-kaderleden"
+        },
+        {
+          "topic": "Vaste inrichting (BNI-VenB-context)",
+          "richting": "moet-verwijzen",
+          "ref": "vaste-inrichting"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (belasting-niet-inwoners).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "personenbelasting"
+    }
+  ]
+}

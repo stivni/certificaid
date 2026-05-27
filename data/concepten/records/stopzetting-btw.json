@@ -1,0 +1,81 @@
+{
+  "id": "stopzetting-btw",
+  "naam": {
+    "primair": "Stopzetting BTW"
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.II",
+      "2.4.taak.1"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "604C-aangifte stopzetting BTW-activiteit (binnen maand na stop)",
+        "Eindafrekening: BTW-positie · niet-verkochte voorraad · activa-overdracht",
+        "Herziening bedrijfsmiddelen-aftrek (resterende jaren)",
+        "Cross overdracht-algemeenheid-btw bij continuïteit (TOGC art 11)"
+      ],
+      "out": [
+        {
+          "topic": "BTW-herziening bij stopzetting",
+          "richting": "moet-verwijzen",
+          "ref": "btw-herziening-bedrijfsmiddelen"
+        },
+        {
+          "topic": "Overdracht algemeenheid (TOGC art 11)",
+          "richting": "moet-verwijzen",
+          "ref": "overdracht-algemeenheid-btw"
+        },
+        {
+          "topic": "Opstart-formaliteiten (spiegel)",
+          "richting": "mag-verwijzen",
+          "ref": "opstart-btw-formaliteiten"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (stopzetting-btw).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    }
+  ]
+}

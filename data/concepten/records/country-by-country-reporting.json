@@ -1,0 +1,91 @@
+{
+  "id": "country-by-country-reporting",
+  "naam": {
+    "primair": "Country-by-country reporting (CbCR)",
+    "afkorting": "CbCR",
+    "synoniemen": [
+      "country-by-country",
+      "transfer pricing reporting"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.XVI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "BEPS Action 13: 3-laagse documentatie transfer pricing",
+        "Master file (group-niveau) · local file (entity-niveau) · CbCR (rapportering per land)",
+        "Drempel: geconsolideerde groepsomzet ≥ 750 miljoen EUR",
+        "Belgisch: art 321/1-7 WIB + KB 28-10-2016 — termijnen + sancties",
+        "Public CbCR (EU-richtlijn 2021/2101 vanaf 2024) — openbaarmaking"
+      ],
+      "out": [
+        {
+          "topic": "Transfer pricing (basis voor CbCR)",
+          "richting": "moet-verwijzen",
+          "ref": "transfer-pricing"
+        },
+        {
+          "topic": "BEPS-actieplan (Action 13)",
+          "richting": "moet-verwijzen",
+          "ref": "beps-actieplan"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (country-by-country-reporting).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2016",
+        "wettelijke_basis": "Art 321/1-7 WIB + KB 28-10-2016 + EU 2021/2101"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "vereist",
+      "target": "transfer-pricing"
+    }
+  ]
+}

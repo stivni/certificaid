@@ -1,0 +1,74 @@
+{
+  "id": "maatstaf-van-heffing-btw",
+  "naam": {
+    "primair": "Maatstaf van heffing (BTW)"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Maatstaf-bestanddelen (art 26 W.BTW): tegenprestatie · subsidie rechtstreeks gelinkt · bijkomende kosten",
+        "Inbegrepen: belastingen · rechten · vervoerkosten · verpakking",
+        "Uitgesloten: kortingen · prijsverminderingen · doorgerekende kosten in naam-en-voor-rekening",
+        "Specifieke maatstaven: invoer · IC-verwerving · gelijkstellingen · eigen-werkzaamheid"
+      ],
+      "out": [
+        {
+          "topic": "Tarief toepassen op maatstaf",
+          "richting": "moet-verwijzen",
+          "ref": "btw-tarieven"
+        },
+        {
+          "topic": "Douanewaarde bij invoer",
+          "richting": "mag-verwijzen",
+          "ref": "douanewaarde"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (maatstaf-van-heffing-btw).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    }
+  ]
+}

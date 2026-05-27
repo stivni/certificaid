@@ -1,0 +1,94 @@
+{
+  "id": "juridische-constructie-cayman",
+  "naam": {
+    "primair": "Juridische constructie (Caymantaks)",
+    "afkorting": "JC",
+    "synoniemen": [
+      "Caymantaks",
+      "doorkijktaxatie",
+      "transparantietaks JC"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.XVII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Caymantaks (art 5/1 + 220/1 WIB): doorkijktaxatie op buitenlandse juridische constructies",
+        "Toepassing: trust · stichting · soort holding zonder belasting in vestigingsland",
+        "Jaarlijkse melding-verplichting (aangifte PB rubriek XIII bis)",
+        "Inkomsten van JC worden belast bij oprichter/begunstigde (transparantie)",
+        "Lijst landen-targeted via KB · uitbreiding sinds 2024 (private privacy stiftungen)"
+      ],
+      "out": [
+        {
+          "topic": "Belasting niet-inwoners (JC-niet-Belgische oprichter)",
+          "richting": "moet-verwijzen",
+          "ref": "belasting-niet-inwoners"
+        },
+        {
+          "topic": "Fiscale regularisatie (regularisatie JC-historiek)",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-regularisatie-en-buitenlandse-goederen"
+        },
+        {
+          "topic": "Successieplanning (cross vermogen + JC)",
+          "richting": "mag-verwijzen",
+          "ref": "successieplanning"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (juridische-constructie-cayman).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2015",
+        "wettelijke_basis": "Art 5/1 + 220/1 WIB (Programmawet 10-08-2015)"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

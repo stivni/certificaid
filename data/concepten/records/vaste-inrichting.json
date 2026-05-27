@@ -1,0 +1,93 @@
+{
+  "id": "vaste-inrichting",
+  "naam": {
+    "primair": "Vaste inrichting",
+    "afkorting": "VI",
+    "synoniemen": [
+      "permanent establishment",
+      "PE",
+      "permanente vestiging"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Vaste inrichting (art 5 OESO-MV): vaste plaats van bedrijfsuitoefening",
+        "Klassieke VI: kantoor · fabriek · werkplaats · mijn",
+        "Bouwwerf-VI: constructie/installatie > 12 maanden",
+        "Agent-VI (dependent agent): personen die contracten afsluiten",
+        "Geen-VI uitzonderingen: opslag · vertoning · aankoop · voorbereidend/hulpkarakter",
+        "BEPS Action 7: anti-fragmentatie + commissionair-arrangements"
+      ],
+      "out": [
+        {
+          "topic": "Winst-naar-herkomst (toerekening winst aan VI)",
+          "richting": "moet-verwijzen",
+          "ref": "winst-naar-herkomst"
+        },
+        {
+          "topic": "Buitenlandse winst-en-verlies",
+          "richting": "moet-verwijzen",
+          "ref": "buitenlandse-winst-en-verlies"
+        },
+        {
+          "topic": "BEPS Action 7 (VI-uitbreiding)",
+          "richting": "mag-verwijzen",
+          "ref": "beps-actieplan"
+        },
+        {
+          "topic": "Dubbelbelastingverdrag (DBV bepaalt VI-begrip)",
+          "richting": "moet-verwijzen",
+          "ref": "dubbelbelastingverdrag"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (vaste-inrichting).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

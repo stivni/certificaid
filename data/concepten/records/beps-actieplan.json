@@ -1,0 +1,93 @@
+{
+  "id": "beps-actieplan",
+  "naam": {
+    "primair": "BEPS-actieplan",
+    "afkorting": "BEPS",
+    "synoniemen": [
+      "Base Erosion and Profit Shifting",
+      "BEPS 2.0",
+      "Pillar 1+2"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.XVI",
+      "2.8.XVII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "OESO BEPS-project (Base Erosion and Profit Shifting): 15 actiepunten",
+        "Minimumstandaarden (4 actiepunten): Action 5 harmful tax · Action 6 treaty abuse · Action 13 CbCR · Action 14 MAP",
+        "Pijler 1 (Amount A/B) + Pijler 2 (Global Minimum Tax 15%)",
+        "Status implementatie BE: MLI · CbCR · GMT (vanaf 2024 EU-richtlijn omzetting)",
+        "Cross EU-richtlijnen: ATAD · DAC6 als BEPS-implementatie"
+      ],
+      "out": [
+        {
+          "topic": "MLI-instrument (Action 15)",
+          "richting": "moet-verwijzen",
+          "ref": "mli-instrument"
+        },
+        {
+          "topic": "Country-by-country reporting (Action 13)",
+          "richting": "moet-verwijzen",
+          "ref": "country-by-country-reporting"
+        },
+        {
+          "topic": "ATAD-richtlijn (EU-implementatie BEPS)",
+          "richting": "moet-verwijzen",
+          "ref": "atad-richtlijn"
+        },
+        {
+          "topic": "Transfer pricing (Actions 8-10)",
+          "richting": "mag-verwijzen",
+          "ref": "transfer-pricing"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (beps-actieplan).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "douanewaarde",
+  "naam": {
+    "primair": "Douanewaarde",
+    "synoniemen": [
+      "customs value"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.IX"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Douanewaarde-bepaling onder Unierecht (UCC — Verordening 952/2013)",
+        "Hoofdmethode: transactiewaarde (werkelijk betaalde prijs)",
+        "Subsidiaire methoden: vergelijkbare goederen · deductieve · computed · fall-back",
+        "Aanpassingen: vervoerkosten · verzekering · royalty's · commissies",
+        "Maatstaf voor invoerrechten + invoer-BTW"
+      ],
+      "out": [
+        {
+          "topic": "Douaneprocedures BTW-invoer",
+          "richting": "moet-verwijzen",
+          "ref": "douaneprocedures-btw-invoer"
+        },
+        {
+          "topic": "Maatstaf van heffing BTW",
+          "richting": "mag-verwijzen",
+          "ref": "maatstaf-van-heffing-btw"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (douanewaarde).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2016-05-01",
+        "wettelijke_basis": "Verordening (EU) 952/2013 (UCC)"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    }
+  ]
+}

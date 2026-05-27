@@ -1,0 +1,88 @@
+{
+  "id": "forfaitaire-regeling-btw",
+  "naam": {
+    "primair": "Forfaitaire regeling (BTW)",
+    "synoniemen": [
+      "forfait-regime BTW"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Forfait-regime art 56 W.BTW: voor specifieke sectoren met moeilijke omzetregistratie",
+        "Stappenplan: identificatie sector · forfaitair grondslag · BTW-berekening",
+        "Sectoren: kappers · bakkers · slagers · cafés · ...",
+        "Uitdoofregime: afgeschaft per 1 januari 2028 (overgangsregeling lopende)"
+      ],
+      "out": [
+        {
+          "topic": "Vrijstellingsregeling KO (alternatief)",
+          "richting": "moet-verwijzen",
+          "ref": "vrijstellingsregeling-kleine-onderneming"
+        },
+        {
+          "topic": "BTW-aangifte voor forfait-belastingplichtige",
+          "richting": "mag-verwijzen",
+          "ref": "btw-aangifte"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (forfaitaire-regeling-btw).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "uitdovend",
+        "tot": "2028-01-01",
+        "wettelijke_basis": "Art 56 W.BTW + afschaffingswet 2025"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "btw"
+    }
+  ]
+}

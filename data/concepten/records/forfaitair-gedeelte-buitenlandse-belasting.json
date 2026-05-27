@@ -1,0 +1,84 @@
+{
+  "id": "forfaitair-gedeelte-buitenlandse-belasting",
+  "naam": {
+    "primair": "Forfaitair gedeelte van buitenlandse belasting (FBB)",
+    "afkorting": "FBB",
+    "synoniemen": [
+      "foreign tax credit forfait"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.I",
+      "2.8.VII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "FBB: methode voorkoming dubbele belasting bij VenB (verrekening buitenlandse belasting)",
+        "Tarief: 15/85 op netto roerend inkomen uit buitenland (formule W.WIB)",
+        "Voorwaarden: roerend inkomen · feitelijke belasting in buitenland · DBV met FBB-clausule",
+        "Verrekening tegen Belgische VenB · niet-terugbetaalbaar overschot"
+      ],
+      "out": [
+        {
+          "topic": "Vrijstelling met progressievoorbehoud (alternatieve methode)",
+          "richting": "moet-verwijzen",
+          "ref": "vrijstelling-met-progressievoorbehoud"
+        },
+        {
+          "topic": "Roerend inkomen internationaal",
+          "richting": "moet-verwijzen",
+          "ref": "roerend-inkomen-internationaal"
+        },
+        {
+          "topic": "DBI-aftrek (samenloop voor dividend)",
+          "richting": "mag-verwijzen",
+          "ref": "dbi-aftrek"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (forfaitair-gedeelte-buitenlandse-belasting).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

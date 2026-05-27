@@ -1,0 +1,91 @@
+{
+  "id": "internationale-tewerkstelling",
+  "naam": {
+    "primair": "Internationale tewerkstelling",
+    "synoniemen": [
+      "cross-border employment",
+      "grensarbeider",
+      "detachering"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.VI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Grensoverschrijdend werk: detachering · expat-inkomende · uitgaande tewerkstelling",
+        "Sociale-zekerheid: A1-formulier (Verordening 883/2004) · land bevoegd",
+        "Fiscaal: DBV art 15 — werkstaat-principe + 183-dagen-uitzondering",
+        "Salary split: deel inkomen toegewezen aan andere staat (verdragstoewijzing)",
+        "Telewerk grensoverschrijdend (sinds COVID — fiscale + RSZ-accomodaties)"
+      ],
+      "out": [
+        {
+          "topic": "Bijzonder regime buitenlandse kaderleden (inbound BE)",
+          "richting": "moet-verwijzen",
+          "ref": "bijzonder-regime-buitenlandse-kaderleden"
+        },
+        {
+          "topic": "Dubbelbelastingverdrag art 15 (loon)",
+          "richting": "moet-verwijzen",
+          "ref": "dubbelbelastingverdrag"
+        },
+        {
+          "topic": "Belasting niet-inwoners (inbound NL/FR/DE-werknemer)",
+          "richting": "moet-verwijzen",
+          "ref": "belasting-niet-inwoners"
+        },
+        {
+          "topic": "Werknemersbezoldiging (PB-kader)",
+          "richting": "mag-verwijzen",
+          "ref": "werknemersbezoldiging"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (internationale-tewerkstelling).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

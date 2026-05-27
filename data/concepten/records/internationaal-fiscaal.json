@@ -1,0 +1,131 @@
+{
+  "id": "internationaal-fiscaal",
+  "naam": {
+    "primair": "Internationaal fiscaal recht",
+    "synoniemen": [
+      "international tax law",
+      "fiscaliteit internationaal"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.I",
+      "2.8.II",
+      "2.8.III",
+      "2.8.IV",
+      "2.8.taak.1",
+      "2.8.XVI",
+      "2.8.XVII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-overzicht: oorzaken + vormen + voorkoming dubbele belasting",
+        "Verdragen-systeem: bilateraal vs multilateraal · OESO vs VN-modellen",
+        "Methodes voorkoming: vrijstelling met progressievoorbehoud vs verrekening (FBB)",
+        "EU-fiscaliteit + ATAD + anti-misbruik internationaal",
+        "Vergelijkingsmatrix verdrag-methodes per inkomenscategorie"
+      ],
+      "out": [
+        {
+          "topic": "Dubbelbelastingverdrag (instrument)",
+          "richting": "moet-verwijzen",
+          "ref": "dubbelbelastingverdrag"
+        },
+        {
+          "topic": "OESO-modelverdrag",
+          "richting": "moet-verwijzen",
+          "ref": "oeso-modelverdrag"
+        },
+        {
+          "topic": "EU-fiscale richtlijnen",
+          "richting": "moet-verwijzen",
+          "ref": "eu-fiscale-richtlijnen"
+        },
+        {
+          "topic": "Vaste inrichting",
+          "richting": "moet-verwijzen",
+          "ref": "vaste-inrichting"
+        },
+        {
+          "topic": "ATAD-richtlijn (anti-misbruik)",
+          "richting": "moet-verwijzen",
+          "ref": "atad-richtlijn"
+        },
+        {
+          "topic": "Transfer pricing",
+          "richting": "moet-verwijzen",
+          "ref": "transfer-pricing"
+        },
+        {
+          "topic": "Algemene anti-misbruik bepaling",
+          "richting": "mag-verwijzen",
+          "ref": "algemene-anti-misbruik-bepaling"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (internationaal-fiscaal).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "bevat",
+      "target": "dubbelbelastingverdrag"
+    },
+    {
+      "type": "bevat",
+      "target": "oeso-modelverdrag"
+    },
+    {
+      "type": "bevat",
+      "target": "vaste-inrichting"
+    },
+    {
+      "type": "bevat",
+      "target": "fiscale-residentie"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "personenbelasting"
+    }
+  ]
+}

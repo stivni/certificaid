@@ -1,0 +1,90 @@
+{
+  "id": "optie-btw-verhuur-vastgoed",
+  "naam": {
+    "primair": "Optie BTW-verhuur vastgoed"
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.V"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Optie voor BTW-verhuur professioneel onroerend (KB 14-10-1991 + W.BTW 44 §3 2°)",
+        "Voorwaarden optie: B2B-verhuur · nieuwbouw of vernieuwbouw · gemeenschappelijke verklaring",
+        "Onroerende leasing als bijzondere variant",
+        "Gevolgen optie: BTW-aanrekening + recht op aftrek voorbelasting + 25-jaar herziening"
+      ],
+      "out": [
+        {
+          "topic": "BTW-vrijstellingen art 44 (de regel die geopteerd wordt)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-vrijstellingen"
+        },
+        {
+          "topic": "BTW-vastgoed kader",
+          "richting": "moet-verwijzen",
+          "ref": "btw-vastgoed"
+        },
+        {
+          "topic": "Herziening vastgoed 25-jaar",
+          "richting": "moet-verwijzen",
+          "ref": "btw-herziening-bedrijfsmiddelen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (optie-btw-verhuur-vastgoed).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019",
+        "wettelijke_basis": "Art 44 §3 2° W.BTW (Wet 14-10-2018)"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-vastgoed"
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "btw-vrijstellingen"
+    }
+  ]
+}

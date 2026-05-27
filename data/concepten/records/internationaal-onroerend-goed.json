@@ -1,0 +1,83 @@
+{
+  "id": "internationaal-onroerend-goed",
+  "naam": {
+    "primair": "Internationaal onroerend goed",
+    "synoniemen": [
+      "foreign real estate tax"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.VII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Belasting Belgische rijksinwoner-eigenaar van buitenlands onroerend goed",
+        "DBV art 6: heffingsbevoegdheid in liggings-staat",
+        "Vrijstelling met progressievoorbehoud (België-PB)",
+        "Aangifte: bruto-huurwaarde of huur · cassatie-arrest 2020 + nieuwe regeling (KI-vaststelling buitenland)",
+        "Verwerving + eigendom + realisatie · gewestelijke registratierechten internationaal"
+      ],
+      "out": [
+        {
+          "topic": "Vrijstelling met progressievoorbehoud (methode)",
+          "richting": "moet-verwijzen",
+          "ref": "vrijstelling-met-progressievoorbehoud"
+        },
+        {
+          "topic": "Onroerend inkomen PB",
+          "richting": "mag-verwijzen",
+          "ref": "onroerend-inkomen-pb"
+        },
+        {
+          "topic": "Dubbelbelastingverdrag art 6",
+          "richting": "moet-verwijzen",
+          "ref": "dubbelbelastingverdrag"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (internationaal-onroerend-goed).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

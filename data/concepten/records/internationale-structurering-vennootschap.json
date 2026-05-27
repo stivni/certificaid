@@ -1,0 +1,90 @@
+{
+  "id": "internationale-structurering-vennootschap",
+  "naam": {
+    "primair": "Internationale structurering vennootschap",
+    "synoniemen": [
+      "international tax structuring",
+      "holdingstructurering"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.IX",
+      "2.8.taak.4"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Holding-structuren (Belgisch holding + buitenlandse dochters)",
+        "IP-box-regimes (innovatie-aftrek-pendant) in andere landen",
+        "Finance-vehikels: tax-treaty-shopping risico · economic substance",
+        "Substance-vereisten: kantoor · personeel · besluitvorming lokaal",
+        "Cross BEPS Action 5 (harmful tax practices) + ATAD CFC-rules"
+      ],
+      "out": [
+        {
+          "topic": "Exit-planning vennootschap (zetelverplaatsing)",
+          "richting": "moet-verwijzen",
+          "ref": "exit-planning-vennootschap"
+        },
+        {
+          "topic": "Transfer pricing (intra-group arrangements)",
+          "richting": "moet-verwijzen",
+          "ref": "transfer-pricing"
+        },
+        {
+          "topic": "Holding-successieplanning (vermogensplanning-cross)",
+          "richting": "mag-verwijzen",
+          "ref": "holding-successieplanning"
+        },
+        {
+          "topic": "ATAD CFC-rules",
+          "richting": "moet-verwijzen",
+          "ref": "atad-richtlijn"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (internationale-structurering-vennootschap).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

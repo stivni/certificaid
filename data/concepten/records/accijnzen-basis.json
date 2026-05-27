@@ -1,0 +1,92 @@
+{
+  "id": "accijnzen-basis",
+  "naam": {
+    "primair": "Accijnzen — basis",
+    "synoniemen": [
+      "accijns",
+      "excises"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.IX",
+      "2.4.X",
+      "2.4.XI"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Accijnsgoederen: alcohol · tabak · energie (minerale olie · elektriciteit · aardgas) · koffie · niet-alcoholhoudende dranken",
+        "Accijnsbeginsel: heffing bij uitslag tot verbruik · douane-entrepot · accijnsschorsing",
+        "Vergunningssysteem: belastingentrepot · geregistreerde geadresseerde · accijnsvertegenwoordiger",
+        "Accijnstarieven per goederengroep · indexatie",
+        "Belgische bijzondere accijns + Europese gemeenschappelijke accijns"
+      ],
+      "out": [
+        {
+          "topic": "Douaneprocedures bij invoer",
+          "richting": "moet-verwijzen",
+          "ref": "douaneprocedures-btw-invoer"
+        },
+        {
+          "topic": "BTW bij invoer (accijnzen + BTW samen)",
+          "richting": "mag-verwijzen",
+          "ref": "btw-grensoverschrijdend"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (accijnzen-basis).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2009",
+        "wettelijke_basis": "Accijnzenwet 22-12-2009 + KB-uitvoering"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "fiscaal-recht"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "btw"
+    }
+  ]
+}

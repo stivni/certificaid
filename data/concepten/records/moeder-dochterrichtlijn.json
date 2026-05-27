@@ -1,0 +1,94 @@
+{
+  "id": "moeder-dochterrichtlijn",
+  "naam": {
+    "primair": "Moeder-dochterrichtlijn",
+    "synoniemen": [
+      "parent-subsidiary directive",
+      "MDR"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.8.III"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Richtlijn 2011/96/EU: vrijstelling RV bij dochter→moeder dividenduitkering binnen EU",
+        "Voorwaarden: deelneming ≥10% · houdperiode ≥1 jaar · beide EU-vennootschappen",
+        "Anti-misbruik-clausule (PPT) sinds 2015 (GAAR-uitbreiding)",
+        "Belgische omzetting: art 106 KB-WIB (RV-vrijstelling) + dbi-aftrek niveau moeder"
+      ],
+      "out": [
+        {
+          "topic": "DBI-aftrek (Belgische uitwerking moederzijde)",
+          "richting": "moet-verwijzen",
+          "ref": "dbi-aftrek"
+        },
+        {
+          "topic": "Roerend inkomen internationaal (RV-context)",
+          "richting": "moet-verwijzen",
+          "ref": "roerend-inkomen-internationaal"
+        },
+        {
+          "topic": "Interest-royaltyrichtlijn (verwante richtlijn)",
+          "richting": "mag-verwijzen",
+          "ref": "interest-royalty-richtlijn"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (moeder-dochterrichtlijn).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "1990 (oorspronkelijk) — 2011 (herziening)",
+        "wettelijke_basis": "Richtlijn 2011/96/EU"
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "eu-fiscale-richtlijnen"
+    },
+    {
+      "type": "valt_onder",
+      "target": "internationaal-fiscaal"
+    }
+  ]
+}

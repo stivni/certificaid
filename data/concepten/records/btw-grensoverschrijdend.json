@@ -1,0 +1,122 @@
+{
+  "id": "btw-grensoverschrijdend",
+  "naam": {
+    "primair": "Grensoverschrijdende BTW",
+    "synoniemen": [
+      "cross-border VAT",
+      "IC-handelingen-cluster"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.VI",
+      "2.4.taak.3"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Σ-keuzekader: welke regeling past bij deze grensoverschrijdende transactie?",
+        "IC-handelingen-overzicht (intra-communautaire levering · verwerving · diensten)",
+        "Verkopen-op-afstand drempel 10.000 EUR (B2C-EU)",
+        "B2B vs B2C diensten — plaats-van-handeling-tabel",
+        "Invoer + uitvoer (extra-EU)",
+        "Vergelijkingsmatrix: OSS · IOSS · driehoeksverkeer · verlegging · fiscaal vertegenwoordiger"
+      ],
+      "out": [
+        {
+          "topic": "OSS / IOSS regeling",
+          "richting": "moet-verwijzen",
+          "ref": "oss-regeling"
+        },
+        {
+          "topic": "Driehoeksverkeer-vereenvoudiging",
+          "richting": "moet-verwijzen",
+          "ref": "driehoeksverkeer-vereenvoudiging"
+        },
+        {
+          "topic": "Fiscaal vertegenwoordiger BTW",
+          "richting": "moet-verwijzen",
+          "ref": "fiscaal-vertegenwoordiger-btw"
+        },
+        {
+          "topic": "Verleggingsregeling (reverse charge)",
+          "richting": "moet-verwijzen",
+          "ref": "verleggingsregeling"
+        },
+        {
+          "topic": "Plaats van handeling regels",
+          "richting": "moet-verwijzen",
+          "ref": "plaats-van-handeling-btw"
+        },
+        {
+          "topic": "Douaneprocedures BTW-invoer",
+          "richting": "moet-verwijzen",
+          "ref": "douaneprocedures-btw-invoer"
+        },
+        {
+          "topic": "Internationaal-fiscaal (DBV-context)",
+          "richting": "mag-verwijzen",
+          "ref": "internationaal-fiscaal"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-grensoverschrijdend).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "bevat",
+      "target": "oss-regeling"
+    },
+    {
+      "type": "bevat",
+      "target": "driehoeksverkeer-vereenvoudiging"
+    },
+    {
+      "type": "bevat",
+      "target": "verleggingsregeling"
+    },
+    {
+      "type": "bevat",
+      "target": "fiscaal-vertegenwoordiger-btw"
+    }
+  ]
+}

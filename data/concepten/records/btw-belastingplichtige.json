@@ -1,0 +1,84 @@
+{
+  "id": "btw-belastingplichtige",
+  "naam": {
+    "primair": "BTW-belastingplichtige"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.I"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Definitie belastingplichtige (art 4 W.BTW): economische activiteit geregeld + zelfstandig",
+        "Ratione personae: natuurlijke persoon · vennootschap · vereniging · overheid",
+        "Onderscheid gewone belastingplichtige · vrijgestelde · gemengde · gedeeltelijke",
+        "Aanvang + einde belastingplicht (604-aangifte)"
+      ],
+      "out": [
+        {
+          "topic": "BTW-eenheid (groepsregime)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-eenheid"
+        },
+        {
+          "topic": "Vrijstellingsregeling kleine onderneming",
+          "richting": "moet-verwijzen",
+          "ref": "vrijstellingsregeling-kleine-onderneming"
+        },
+        {
+          "topic": "Opstart-formaliteiten + 604-aangifte",
+          "richting": "moet-verwijzen",
+          "ref": "opstart-btw-formaliteiten"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-belastingplichtige).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "vereist",
+      "target": "btw"
+    }
+  ]
+}

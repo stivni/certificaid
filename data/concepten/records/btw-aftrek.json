@@ -1,0 +1,86 @@
+{
+  "id": "btw-aftrek",
+  "naam": {
+    "primair": "BTW-aftrek"
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.III",
+      "2.4.IV",
+      "2.4.VII"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Recht op aftrek voorbelasting: principe + voorwaarden (art 45 W.BTW)",
+        "Verworven-recht-regels: directe + onmiddellijke band met belaste handelingen",
+        "Pro-rata berekening bij gemengde belastingplichtige (algemeen + bijzonder)",
+        "Directe toerekening (werkelijk gebruik) vs algemeen-verhoudingsgetal",
+        "Uitsluitingen art 45 §3 (autokosten 50% · onthaal · receptie · ...)"
+      ],
+      "out": [
+        {
+          "topic": "Herziening bedrijfsmiddelen (15j vastgoed · 5j BM)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-herziening-bedrijfsmiddelen"
+        },
+        {
+          "topic": "BTW-bedrijfswagen 50%-regel + methodes",
+          "richting": "moet-verwijzen",
+          "ref": "btw-bedrijfswagen"
+        },
+        {
+          "topic": "Vrijstellingen art 44 (geen aftrek)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-vrijstellingen"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-aftrek).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    },
+    {
+      "type": "vereist",
+      "target": "factuur-btw"
+    }
+  ]
+}

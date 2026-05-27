@@ -1,0 +1,84 @@
+{
+  "id": "btw-aangifte",
+  "naam": {
+    "primair": "BTW-aangifte",
+    "synoniemen": [
+      "BTW-listing",
+      "INTERVAT-aangifte"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.taak.4"
+    ],
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ],
+    "scope": {
+      "in": [
+        "Periodieke BTW-aangifte: maandelijks (omzet > drempel) of kwartaal",
+        "Voorblad + bijzondere roosters · IC-listing · jaarlijkse klantenlisting",
+        "Betaling BTW-saldo · teruggaaf · overboeking BTW-rekening-courant",
+        "Termijnen indiening (20ste van maand na tijdvak) + sancties laattijdig",
+        "Elektronische aangifte via INTERVAT"
+      ],
+      "out": [
+        {
+          "topic": "BTW-controle + regularisatie",
+          "richting": "moet-verwijzen",
+          "ref": "btw-controle"
+        },
+        {
+          "topic": "BTW-aftrek wordt verrekend in aangifte",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aftrek"
+        },
+        {
+          "topic": "Fiscale procedure (bezwaar/beroep)",
+          "richting": "mag-verwijzen",
+          "ref": "fiscale-procedure"
+        }
+      ]
+    }
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-aangifte).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw"
+    }
+  ]
+}
