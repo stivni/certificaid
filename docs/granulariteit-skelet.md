@@ -173,6 +173,19 @@ interne-controle                         [sub-Kader `controle`, 7 records + 3 sh
 ├── evaluatie-interne-controle           [K-techniek]      walkthroughs · tests of controls · self-assessment; design vs operating effectiveness
 └── fouten-en-fraude                     [K]               afbakening fouten/fraude/verspilling + fraudedriehoek
 
+boekhouding                              [Σ-discipline-cluster, ~25 cluster-eigen + ~15 cross — PO 1.1 fundament]
+├── boekhouding                          [Σ — NIEUW discipline-hoofdrecord]   #boekhoudplicht · #MAR · #organisatie · #handel-vs-niet-handel-vs-micro
+├── belgisch-boekhoudrecht               [K — rename `bgaap` + Σ-sub-element]   WER Boek III · KB 29-04-2019 · NBB · CBN
+├── boekhoudbeginselen · dubbele-boekhouding   [K/K-techniek]   8 beginselen · dagboek-grootboek-MAR-proefbalans
+├── vaste-activa · deelneming-financieel-vast-actief · voorraden · handelsvorderingen · vorderingen-op-meer-dan-een-jaar · geldbeleggingen-en-liquide-middelen   [activa II.B-G]
+├── voorzieningen (NIEUW split) · uitgestelde-belastingen (NIEUW split + cross VenB) · schulden-op-korte-termijn · overlopende-rekeningen   [passiva II.H-L]
+├── bedrijfskosten (NIEUW split) · bedrijfsopbrengsten (NIEUW split) · personeelskosten (shared werknemers-vergoedingen + loon-en-payroll) · financiele-verrichtingen (rename `-categorie`) · niet-recurrente-verrichtingen (rename `-categorie`)   [resultaten II.M-P]
+├── resultaatverwerking   [winstbestemming II.Q]
+├── memorierekeningen (rename `niet-in-balans-rechten-en-verplichtingen`)   [niet-balans II.R]
+├── jaarrekening [Σ] · eindejaarsverrichtingen   [jaarcyclus II.S + taak.1]
+├── geactiveerde-rente · herwaardering-vast-actief · opsplitsing-eigendom · erfpacht (NIEUW split) · opstal (NIEUW split) · vruchtgebruik (rename, blote eigendom als perspectief)   [specifieke regimes II.V-X]
+└── (cross naar kapitaalstructuur · schuldfinanciering · reorganisatie · insolventie · winstuitkering · werknemers-vergoedingen voor kapitaal/financierings/reorganisatie/personeel-operaties)
+
 btw                                      [Σ-sub-discipline-cluster fiscaliteit, ~26 cluster-eigen + 3 cross — PO 2.4]
 ├── btw                                  [Σ — rename `btw-stelsel` + Σ-promotie]   #stelsel-overzicht · #BTW-keten · #EU-richtlijn-2006-112
 ├── btw-belastingplichtige · btw-levering-goederen (NIEUW split) · btw-dienstverlening (NIEUW split) · plaats-van-handeling-btw · opeisbaarheid-btw · maatstaf-van-heffing-btw · btw-tarieven · factuur-btw   [basis-concepten I]
@@ -274,6 +287,7 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 | personenbelasting | 22 cluster-eigen + 6 cross (1 NIEUW `beroepskosten` + 8 renames + 3 absorpties) | PO 2.2 (grootste sub-discipline fiscaliteit) | [§Personenbelasting-cluster](#personenbelasting-cluster) |
 | vennootschapsbelasting | 11 cluster-eigen + 13 cross (Σ-promotie + 1 rename + 5 schrappen-via-perspectief + 3 absorpties + 1 generiek `voorafbetalingen`) | PO 2.3 (tweede sub-discipline fiscaliteit) | [§Vennootschapsbelasting-cluster](#vennootschapsbelasting-cluster) |
 | btw | ~26 cluster-eigen + 3 cross (2 Σ-promoties + 2 renames + 1 split + 11 prefix-standaardisaties pending) | PO 2.4 (derde sub-discipline fiscaliteit + douane & accijnzen-sub-blok) | [§BTW-cluster](#btw-cluster) |
+| boekhouding | ~25 cluster-eigen + ~15 cross (1 NIEUW Σ + 1 rename + 3 splits + 2 `-en-`-renames + 2 `-categorie`-renames) | PO 1.1 (fundament boekhouding-discipline) | [§Boekhouding-cluster](#boekhouding-cluster) |
 
 *PO-aanknoping = welk(e) examenonderdeel/-onderdelen het cluster primair raakt. Het onderscheid "cross-cutting" vs "discipline-cluster" uit eerdere sparring is geschrapt 2026-05-26 — alle clusters zijn clusters; verschil zit alleen in PO-mapping-breedte (1 PO vs meerdere), niet in structuur-type. Zie rationale-log.*
 
@@ -2489,6 +2503,141 @@ Geen pure absorpties wegens splits-test in deze cluster — alle records voldoen
 - **OP-BTW.E** ⏳ `btw-vastgoed` Σ-promotie-kandidaat bij 5+ vastgoed-aspecten? Voorlopig K-overzicht.
 - **OP-BTW.F** ⏳ `verleggingsregeling` woont in grensoverschrijdend-blok maar geldt ook binnenlands (cocontractant-regeling art 20 KB 1). Categorische positie te valideren bij content-uitwerking.
 
+### Boekhouding-cluster
+
+Thema: `boekhouding`. *Diepe PO 1.1-uitwerking (2026-05-27). Fundament-cluster voor de hele boekhouding-discipline (29 anchors · 41 records → ~25 cluster-eigen + ~15 cross). MAR-volgorde-structuur: basis (I) → activa-passiva (II.B-L) → resultaten (II.M-P) → winstbestemming (II.Q) → niet-balans (II.R) → synthesedocumenten (II.S) → specifieke regimes (II.U-X). Veel cross-records (kapitaalstructuur · schuldfinanciering · reorganisatie · insolventie · winstuitkering al diep uitgewerkt). NIEUW `boekhouding`-Σ-hoofdrecord. 1 rename + Σ-promotie (`bgaap` → `belgisch-boekhoudrecht` als sub-element van Σ). 3 splits (`voorzieningen-en-uitgestelde-belastingen` · `bedrijfskosten-en-bedrijfsopbrengsten` · `erfpacht-en-opstal`). 2 renames `-en-` smells (`niet-in-balans-rechten-en-verplichtingen` → `memorierekeningen` · `vruchtgebruik-en-blote-eigendom` → `vruchtgebruik`). 2 renames `-categorie`-suffix.*
+
+```
+boekhouding                              [Σ-discipline-cluster, ~25 cluster-eigen + ~15 cross — PO 1.1 fundament]
+│
+├── boekhouding                          [Σ-hoofdrecord — NIEUW]
+│   ▸ overkoepelend: basisregels · MAR-rekeningstelsel · jaarcyclus · synthesedocumenten · boekhoudplicht
+│   ▸ #boekhoudplicht-onderneming (art III.82-III.95 WER) · #MAR-overzicht (klasse 0-9) · #boekhoudkundige-organisatie · #handel-vs-niet-handel-vs-micro
+│
+├── --- I. BASIS (I.A-B) ---
+├── belgisch-boekhoudrecht                [K — rename `bgaap`, afkorting weg + sub-element van Σ]
+│   ▸ wettelijk kader: WER Boek III · KB 29-04-2019 · NBB-richtlijnen · CBN-adviezen
+│   ▸ context-sub-element van Σ (Σ = discipline-overzicht; belgisch-boekhoudrecht = wettelijk kader-detail)
+├── boekhoudbeginselen                    [K]   ~8 beginselen (voorzichtigheid · materialiteit · continuïteit · consistentie · trouw beeld · matching · realisatie · bestendigheid)
+├── dubbele-boekhouding                   [K-techniek]   mechaniek: dagboek → grootboek → MAR-rekeningstelsel → proefbalans · jaarcyclus
+│
+├── --- II. ACTIVA (II.B-G) ---
+├── vaste-activa                          [K]   klasse 20-28 · IMA + MVA + FVA + LT-vorderingen · afschrijving-cascade · waardeverminderingen
+├── deelneming-financieel-vast-actief     [instrument]   klasse 28 · equity-method vs at-cost · IFRS 9-link
+├── voorraden                             [balanspost, shared PO 1.5 IAS 2]   klasse 30-39 · FIFO/LIFO/GMP · waardeverminderingen · onderhanden werk
+├── handelsvorderingen                    [balanspost]   klasse 40-41 · dubieuze vorderingen · forfaitaire/individuele waardevermindering · ouderdoms-staat
+├── vorderingen-op-meer-dan-een-jaar      [balanspost]   klasse 29 · LT-vorderingen · disconteringsvraag
+├── geldbeleggingen-en-liquide-middelen   [balanspost]   klasse 5 · NBB-paraplu-naam-behouden · genoteerd vs niet-genoteerd · termijndeposito's · kas + bank
+│
+├── --- III. PASSIVA (II.H-L) ---
+├── (eigen-vermogen)                       [→ primair `kapitaalstructuur`-cluster; boekhoudkundig in klasse 10-15]
+├── voorzieningen                          [balanspost — NIEUW, split van `voorzieningen-en-uitgestelde-belastingen`]   klasse 160-163 · pensioenen + grote herstellingen + waarborgen · zekere bedrag/onzekere termijn
+├── uitgestelde-belastingen                [balanspost — NIEUW, split + cross VenB-perspectief]   klasse 168 · timing-verschillen · fiscale latenties · IAS 12-link (PO 1.5)
+├── schulden-op-korte-termijn              [balanspost]   klasse 42-49 · LT-aflossingen · handelsschulden · sociale schulden · belastingschulden
+├── (schulden-op-meer-dan-een-jaar)        [→ primair `schuldfinanciering`-cluster — banklening + achtergestelde-lening + obligatielening leven daar]
+├── overlopende-rekeningen                 [balanspost]   klasse 49 + 89 · matching-principe · over-te-dragen + vooruit-te-betalen kosten/opbrengsten
+│
+├── --- IV. RESULTATEN (II.M-P) ---
+├── bedrijfskosten                         [balanspost — NIEUW, split van `bedrijfskosten-en-bedrijfsopbrengsten`]   klasse 60-65 · 60 handelsgoederen + 61 diensten/diverse goederen + 62 personeelskosten + 630/631 afschrijvingen + 634 waardeverminderingen + 635-638 andere
+├── bedrijfsopbrengsten                    [balanspost — NIEUW, split]   klasse 70-74 + 76 · 70 omzet + 71 voorraad-mutatie + 72 geproduceerde vaste activa + 74 andere bedrijfsopbrengsten
+├── personeelskosten                       [balanspost, **shared `werknemers-vergoedingen` + `loon-en-payroll`** via thema-tag + perspectief]   klasse 62 · 620 wedden + 621-624 sociale lasten · sociale-balans-bijlage · kostenallocatie productie vs administratie
+│   ▸ accountant_perspectieven: boekhouding (klasse 62-presentatie + sociale-balans) · werknemers-vergoedingen (advies-keuze cf. cluster-Σ) · loon-en-payroll (K-techniek-output: cascade bruto→netto)
+├── financiele-verrichtingen                [begripscluster — rename `financiele-verrichtingen-categorie` (`-categorie`-suffix weg)]   klasse 65 + 75 · interest + DAB + valuta-verschillen + waardevermindering financiële vaste activa
+├── niet-recurrente-verrichtingen           [begripscluster — rename `niet-recurrente-verrichtingen-categorie` (`-categorie`-suffix weg)]   klasse 66 + 76 · uitzonderlijke kosten/opbrengsten · realisatie-meerwaarden materiële + financiële vaste activa
+│
+├── --- V. WINSTBESTEMMING (II.Q) ---
+├── resultaatverwerking                    [procedure]   klasse 79 · te bestemmen winst + onttrekkingen + reservevorming + dividend-voorstel · cross `winstuitkering`-cluster
+│
+├── --- VI. NIET-BALANS (II.R) ---
+├── memorierekeningen                      [K — rename `niet-in-balans-rechten-en-verplichtingen` (`-en-`-smell → 1 paraplu-naam)]   klasse 0 · gestelde zekerheden + ontvangen garanties + gegeven verbintenissen + langlopende leases-informatief · #rechten vs #verplichtingen als sub-secties
+│
+├── --- VII. JAARCYCLUS + SYNTHESEDOCUMENTEN (II.S + taak.1) ---
+├── jaarrekening                           [Σ]   synthesedocumenten-overzicht + balanspresentatie + ROW + WBA-bijlage
+│   ▸ #balansschema (volledig · verkort · micro) · #ROW-volledig-verkort · #toelichting · #sociale-balans · #openbaarmaking-NBB · #consolidatie-link PO 1.4
+├── eindejaarsverrichtingen                [procedure]   inventaris · waarderings-correcties · afschrijvingen + waardeverminderingen + voorzieningen · jaarafsluit-cyclus + heropening-cyclus
+│
+├── --- VIII. SPECIFIEKE REGIMES (II.V-X) ---
+├── geactiveerde-rente                     [R]   art 38 KB 29-04-2019 · interest tijdens constructie · waarderings-aspect van vaste activa
+├── herwaardering-vast-actief              [verrichting]   art 57 KB · herwaarderingsmeerwaarde · klasse 12 + CBN-advies 2019-9 · IAS 16-link
+├── opsplitsing-eigendom                   [familie]   3 splits: erfpacht · opstal · vruchtgebruik (overzichts-vergelijking + cross fiscaliteit registratierechten)
+├── erfpacht                               [instrument — NIEUW, split van `erfpacht-en-opstal`]   art 1722 BW · 27-99 jaar · canon · boekhoudkundige cascade
+├── opstal                                 [instrument — NIEUW, split van `erfpacht-en-opstal`]   art 1735 BW · 0-99 jaar · accessoir recht · boekhoud-keuze
+├── vruchtgebruik                          [instrument — rename `vruchtgebruik-en-blote-eigendom`]   art 745 BW · 30-99 jaar · blote eigendom als perspectief binnen 1 record (instituut-naam dekt beide partijen)
+│
+└── --- IX. KAPITAAL- + REORGANISATIE-OPERATIES (II.T-U) — boekhoudkundig perspectief in primaire records ---
+├── (oprichtingskosten · eigen-vermogen · eigen-aandelen · kapitaalverhoging · kapitaalvermindering · inkoop-eigen-aandelen · inbreng-bedrijfstak-of-algemeenheid) [→ primair `kapitaalstructuur`-cluster]
+├── (fusie · splitsing) [→ primair `reorganisatie`-cluster]
+├── (ontbinding-en-vereffening) [→ primair `insolventie`-cluster]
+├── (uitkering-aan-aandeelhouders) [→ primair `winstuitkering`-cluster]
+└── (banklening-investeringskrediet · achtergestelde-lening · obligatielening · leasing · financiele-leasing · operationele-leasing) [→ primair `schuldfinanciering`-cluster]
+```
+
+**Cross-cluster** (records primair elders, raken PO 1.1):
+- kapitaalstructuur (al diep): oprichtingskosten · eigen-vermogen · eigen-aandelen · kapitaalverhoging · kapitaalvermindering · inkoop-eigen-aandelen · inbreng-van-bedrijfstak-of-algemeenheid
+- schuldfinanciering (al diep): banklening-investeringskrediet · achtergestelde-lening · obligatielening · leasing · financiele-leasing · operationele-leasing
+- reorganisatie (al diep): fusie · splitsing
+- insolventie (al diep): ontbinding-en-vereffening
+- winstuitkering (al diep): uitkering-aan-aandeelhouders
+- werknemers-vergoedingen + loon-en-payroll: personeelskosten (shared, primair boekhouding wegens MAR-klasse 62-context)
+
+**Renames + acties**:
+
+| Oud | Nieuw / actie |
+|---|---|
+| (NIEUW) | **`boekhouding`** — Σ-discipline-hoofdrecord (analoog `personenbelasting`/`vennootschapsbelasting`/`btw`-Σ-patroon) |
+| `bgaap` | **`belgisch-boekhoudrecht`** — afkorting weg (CLAUDE.md regel 8) + sub-element van Σ (wettelijk kader-detail naast discipline-overzicht) |
+| `voorzieningen-en-uitgestelde-belastingen` | **split** → `voorzieningen` + `uitgestelde-belastingen` (verschillende fenomenen onder klasse 16; uitgestelde-belastingen cross VenB-perspectief) |
+| `bedrijfskosten-en-bedrijfsopbrengsten` | **split** → `bedrijfskosten` + `bedrijfsopbrengsten` (klasse 6 ≠ klasse 7, eigen content per kost-type/opbrengst-type) |
+| `erfpacht-en-opstal` | **split** → `erfpacht` + `opstal` (2 zakelijke rechten met verschillende wettelijke regimes — precedent vof-commv) |
+| `niet-in-balans-rechten-en-verplichtingen` | **`memorierekeningen`** (accountant-term, klasse 0 MAR dekt rechten + verplichtingen via context-sub-secties) |
+| `vruchtgebruik-en-blote-eigendom` | **`vruchtgebruik`** (instituut-naam, blote eigendom als perspectief binnen 1 record) |
+| `financiele-verrichtingen-categorie` | **`financiele-verrichtingen`** — `-categorie`-suffix-smell weg |
+| `niet-recurrente-verrichtingen-categorie` | **`niet-recurrente-verrichtingen`** — idem |
+
+**Schrappen / nieuwe records**:
+- 1 NIEUW Σ-hoofdrecord: `boekhouding`
+- 4 nieuwe records via split: `voorzieningen` · `uitgestelde-belastingen` · `bedrijfskosten` · `bedrijfsopbrengsten` · `erfpacht` · `opstal` (6 nieuw uit 3 splits)
+- 5 renames (incl. 2 `-categorie`-suffix-strips + `bgaap` + 2 `-en-`-paraplu-renames)
+- 0 schrappen — alle records overleven (cluster heeft veel cross-records die elders al primair leven)
+
+**Triangulatie 2026-05-27**:
+- 29 PO 1.1-anchors → 0 PO-only gaps
+- 41 records → ~25 cluster-eigen (na 3 splits → 6 records ipv 3 splitsbare records) + ~15 cross-records (al primair elders)
+- 43 openstaande kandidaten in DB; 2 nieuwe kandidaten (`boekhoudkundige-schattingen` + `verbonden-partijen`) parkeren voor PO 1.5/1.6-uitwerking (OP-BH.C)
+
+**Splits-rechtvaardiging-test toegepast**:
+
+Cluster-eigen records die voorwaarde 4 voldoen (substantiële wettelijke regel + bevragingspatroon): alle balansposten + dubbele-boekhouding + boekhoudbeginselen + jaarrekening + eindejaarsverrichtingen + memorierekeningen. Geen pure absorpties.
+
+Splits gerechtvaardigd door:
+- `voorzieningen-en-uitgestelde-belastingen` → 2 fundamenteel verschillende fenomenen onder MAR-klasse 16, eigen waarderingsregels (voorzichtigheidsbeginsel vs timing-verschillen)
+- `bedrijfskosten-en-bedrijfsopbrengsten` → 2 categorieën (klasse 6 vs klasse 7) met eigen content + presentatie + bevraging
+- `erfpacht-en-opstal` → 2 zakelijke rechten met verschillende termijnen + canon-regelingen (precedent vof-commv split)
+
+**Bronnen-pin**:
+- ✅ WER Boek III (boekhoudkundige verplichtingen) + Boekhoudwet 17-07-1975
+- ✅ KB 29-04-2019 (uitvoeringsbesluit boekhouding + MAR + waarderingsregels)
+- ✅ Belgian GAAP (NBB-richtlijnen + alle CBN-adviezen via `resources/bronnen/adviezen/`)
+- ✅ MAR-rekeningstelsel (volledig schema)
+- ⏳ IFRS-link (geactiveerd in PO 1.5-cluster — IAS 1/2/16/12/36/37)
+
+**Test-case-validatie** (2026-05-27): 4 vragen:
+
+| Vraag | Tree-pad | Resultaat |
+|---|---|---|
+| Boekingen bij oprichting + activering oprichtingskosten | cross `oprichtingskosten` (kapitaalstructuur) + boekhoud-perspectief klasse 20 | ✅ |
+| Voorraad-waardering FIFO/GMP + waardevermindering | `voorraden` + cross PO 1.5 IAS 2 | ✅ |
+| Resultaatverwerking + dividend-voorstel | `resultaatverwerking` + cross `winstuitkering`-cluster + `jaarrekening`-Σ#sociale-balans | ✅ |
+| Memorierekening bij gestelde zekerheden | `memorierekeningen`#rechten + #verplichtingen-sub-secties | ✅ |
+
+**Open punten**:
+- **OP-BH.A** ⏳ `boekhouding`-Σ-content uitwerken: #boekhoudplicht + #MAR-overzicht + #boekhoudkundige-organisatie + #handel-vs-niet-handel-vs-micro. Werkpunt content-uitwerking.
+- **OP-BH.B** ⏳ Content-verdeling tussen 3 splits: per nieuw record onafhankelijke content (geen duplicatie tussen `voorzieningen` ↔ `uitgestelde-belastingen` qua waarderings-mechaniek; tussen `bedrijfskosten` ↔ `bedrijfsopbrengsten` qua resultaten-presentatie). Werkpunt mapping-fase + content.
+- **OP-BH.C** ⏳ Twee parkeer-kandidaten voor PO 1.5/1.6-uitwerking: `boekhoudkundige-schattingen` (cross 1.5 IFRS + 1.6 audit-bewijs) + `verbonden-partijen` (cross 1.6 + 2.3 transfer-pricing + 2.8 OESO).
+- **OP-BH.D** ⏳ Afbakening `boekhouding`-Σ vs `belgisch-boekhoudrecht`: Σ = discipline-overzicht + MAR + organisatie; belgisch-boekhoudrecht = wettelijk kader (WER + KB). Bij content-uitwerking scherper trekken om dubbel content te vermijden.
+- **OP-BH.E** ⏳ `personeelskosten`-content vs `loon-en-payroll`-K-techniek overlap: boekhoud-record bevat MAR-klasse-62 presentatie + sociale-balans; payroll-K-techniek bevat cascade bruto→netto. Grens scherp houden tijdens content-uitwerking.
+- **OP-BH.F** ⏳ `vruchtgebruik`-record na rename: zorgen dat blote-eigendom-perspectief expliciet aanwezig blijft (eigenaar-rol + waardering blote-eigendom-actief).
+
 ### Overige PO 1.x-blokken (1.2 · 1.3 · 1.4 · 1.5 · 1.8 · 1.9) — compact
 
 *Resterende PO 1.x-onderwerpen die conceptueel onder `boekhouding`-discipline of `bedrijfseconomie-en-management`-discipline vallen. Veel records al cross-uitgewerkt of in zicht via boekhouding-compact-mapping.*
@@ -3231,3 +3380,6 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-26 | `levering-en-dienst-btw` **gesplitst** in `btw-levering-goederen` + `btw-dienstverlening` (precedent `vof-commv`-split). 2 fundamenteel verschillende handelingstypes met eigen plaats-van-handeling-regels, eigen gelijkstellingen, eigen tijdstip-van-opeisbaarheid. | (a) Behoud `levering-en-dienst-btw` als Σ-record met 2 sub-secties — verstopt onderscheid achter overkoepelende naam; (b) Behoud + rename naar `btw-handelingen` — onnodige abstractie boven concrete handelingstypes | `-en-`-smell-pattern (rationale-log 2026-05-24): naam met `-en-` wijst meestal op 2 fenomenen die geforceerd in 1 record zitten. Voor BTW-handelingen kritiek omdat plaats-van-handeling-regels fundamenteel verschillen (B2B-vs-B2C diensten · IC-levering-vs-IC-dienst · gelijkstellingen art 10+12 vs art 18+19). User-keuze 2026-05-26 vraag 5 B. | Pattern: bij examenstof waar 2 categorieën met verschillende regels expliciet getoetst worden, splitsen verkiesbaar boven overkoepelend record. Anti-preventieve-versnippering geldt voor sub-aspecten van 1 fenomeen, niet voor 2 distinct fenomenen. |
 | 2026-05-26 | Sub-cluster-strategie: **`btw-grensoverschrijdend`** gepromoveerd tot Σ-keuze-kader voor 4 dochters (oss-regeling · driehoeksverkeer · fiscaal-vertegenwoordiger · verleggingsregeling); dochters blijven aparte records. Analoog `fiscale-voordelen-vennootschap`-Σ-patroon. | (a) Σ + dochters absorberen — verliest didactische zelfstandigheid van substantiële regimes (OSS / driehoeksverkeer / verleggingsregeling zijn elk substantieel); (b) Geen Σ, alleen flat overzicht — verliest keuze-kader-houvast voor accountant ("welke regeling past hier?") | Σ-promotie-criterium: zinvolle vergelijkings-/keuze-as bestaat (keuze tussen IC-stelsel · OSS · driehoeksverkeer · fiscaal-vertegenwoordiger · verleggingsregeling afhankelijk van transactie-type) + overkoepelende stof (plaats-van-handeling-tabel · B2B-vs-B2C-onderscheid) die nergens anders thuishoort. User-keuze 2026-05-26 vraag 4 A. | Pattern: andere thema-K-records met substantiële dochters kunnen analoog Σ-promotie krijgen — `btw-vastgoed` (OP-BTW.E pending) · `internationaal-fiscaal` (al Σ in eerdere cluster) · `bijzondere-aanslagen-venb` (al Σ in PO 2.3). |
 | 2026-05-26 | `btw-controle-en-geschillen` rename naar **`btw-controle`** + geschillen-aspect cross naar `fiscale-procedure`-Σ. Controle-aspect heeft BTW-specifieke vereisten (vraag om inlichtingen art 60-63 W.BTW · onderzoeksbevoegdheden · regularisatie · BTW-rechtbank); geschillen (bezwaar · beroep · administratieve sanctie) volgt generieke fiscale-procedure. | (a) Behoud `btw-controle-en-geschillen` (`-en-`-smell + duplicatie geschillen met fiscale-procedure-Σ); (b) Volledig absorberen in fiscale-procedure-Σ als BTW-perspectief (verliest BTW-specifieke controle-procedures); (c) Splits in 2 records `btw-controle` + `btw-geschillen` (over-versnippering — geschillen heeft geen BTW-eigen content) | User-keuze 2026-05-26 vraag 2 C. `-en-`-smell + cross-link-strategie: behoud BTW-eigen aspect; deel cross-linkt naar generieke parent-procedure. Pattern uit `aanslag-cyclus`-precedent (al cross via fiscale-procedure-Σ vanuit PB/VenB-aangiftes). | Pattern: andere BTW-procedure-records (`btw-aangifte` · `btw-herziening-bedrijfsmiddelen` · `opstart-btw-formaliteiten`) blijven BTW-specifiek omdat ze fundamenteel anders zijn dan generieke fiscale-procedure (eigen aangifte-systeem · eigen herzieningsschema · eigen 604-aangifte). Test: heeft het record BTW-eigen wettelijke regels of volgt het generieke procedure-cascade? |
+| 2026-05-27 | NIEUW **`boekhouding`-Σ-discipline-hoofdrecord** + rename `bgaap` → `belgisch-boekhoudrecht` (afkorting weg) als sub-element van Σ. Discipline-Σ-conventie consolideerd: `personenbelasting` · `vennootschapsbelasting` · `btw` · `boekhouding` allemaal Σ-hoofdrecord van eigen discipline/sub-discipline. | (a) Behoud `bgaap`-afkorting (regel-8-schending CLAUDE.md); (b) Σ-promotie van `bgaap` zonder rename — verstopt afkorting in centrale rol; (c) Geen Σ-promotie — discipline blijft zonder hoofdrecord (inconsistent met PB/VenB/btw) | User-keuze 2026-05-27 vraag 1 C. Twee niveaus: Σ = discipline-overzicht (MAR · organisatie · synthesedocumenten); `belgisch-boekhoudrecht` = wettelijk kader-detail (WER + KB). Afbakening scherp houden (OP-BH.D) om dubbel content te vermijden. | Patroon voor laatste 2 disciplines: `controle` (al Σ-via-`opdracht-types`?) · `vennootschapsrecht` (Σ-via-`ondernemingsvormen`?) · `beroep-en-deontologie` (Σ-via-`beroepsbeoefening`?) · `bedrijfseconomie-en-management` (nog ⏳). Discipline-Σ-positionering bij laatste-PO-uitwerkingen herbevestigen. |
+| 2026-05-27 | **3 splits in PO 1.1-cluster** (`-en-`-smell-pattern toegepast): `voorzieningen-en-uitgestelde-belastingen` → `voorzieningen` + `uitgestelde-belastingen`; `bedrijfskosten-en-bedrijfsopbrengsten` → `bedrijfskosten` + `bedrijfsopbrengsten`; `erfpacht-en-opstal` → `erfpacht` + `opstal`. Plus 2 renames: `niet-in-balans-rechten-en-verplichtingen` → `memorierekeningen`; `vruchtgebruik-en-blote-eigendom` → `vruchtgebruik` (blote eigendom als perspectief in 1 record). | (a) Behoud alle `-en-` records (verstopt 2 fenomenen onder 1 naam); (b) Splits allemaal naar 2 records (over-versnippering voor `vruchtgebruik`/`geldbeleggingen-en-liquide-middelen` waar wettelijk 1 instituut bestaat) | Case-by-case-test uit splits-rechtvaardiging-test (rationale-log 2026-05-26): splitsen als 2 fundamenteel verschillende fenomenen met eigen wettelijke regels; behouden + rename naar betere accountant-term als 1 instituut met meerdere partijen of paraplu-naam-conventie. User-keuze 2026-05-27 vraag 2: case-by-case + "als vraag ik me af of er bij de X-en-Y concepten dan geen betere naam is" — antwoord: ja, voor `memorierekeningen` (klasse 0) + `vruchtgebruik` (instituut-naam). | Pattern voor andere `-en-`-records bij latere PO's: zelfde test. Reeds toegepast: vof-commv-split (3.0), levering-en-dienst-btw-split (2.4), bedrijfsleidersbezoldiging-en-werknemersbezoldiging (al 2 records — geen smell). Nog te checken: PO 1.2 (jaarrekening-en-bedrijfsverslag?), PO 1.7 (interne-en-externe-controle?), PO 4.0 (aml-en-beroepsgeheim?). |
+| 2026-05-27 | `-categorie`-suffix-smell (op `financiele-verrichtingen-categorie` · `niet-recurrente-verrichtingen-categorie`). Strippen → `financiele-verrichtingen` + `niet-recurrente-verrichtingen`. | Behoud `-categorie`-suffix (schema-categorisatie-marker) | Naam-smell-scan-uitbreiding: suffixen die schema-functie/categorie aanduiden zonder conceptuele waarde (cluster-uitbreiding van `-cluster`/`-rechtsvorm`/`-ic`/`-fiscaal`/`-accountant`/`-attachment`/`-aww` patroon). `-categorie` voegt geen info toe — het record IS de categorie. User-keuze 2026-05-27 vraag 3 A. | Naam-smell-scan-lijst (cumulatief): `-cluster` · `-rechtsvorm` · `-ic` · `-fiscaal` · `-accountant` · `-attachment` · `-aww` · `-pb` (selectief, zie PB-suffix-regel) · `-venb` (selectief) · `-categorie`. Algemene regel: suffix dupliceert schema-categorie/cluster-context/beroeps-marker = smell. |
