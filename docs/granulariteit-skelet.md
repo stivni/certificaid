@@ -342,6 +342,48 @@ Shared records (thema's `controle-opdracht` + `interne-controle` + `beroepsbeoef
 
 ---
 
+## Geldigheid-conventie voor regelingen/regimes
+
+*Toegevoegd 2026-05-27 na werkveld-vs-programma-validatie. User-principe: "ik zou sowieso bij alle regelingen / regimes aangeven als ze niet meer in voege zijn... dan mag alles bewaard worden". User-verfijning: **geldigheid is inhoud, geen metadata** — een afgeschaft regime is conceptueel anders dan een actief regime. Plek: `inhoud.geldigheid` (nieuw kern-aspect) of als verplicht element binnen `inhoud.elementen[]`.*
+
+**Vocabulaire** (kandidaat-enum voor `inhoud.geldigheid.status`):
+
+| Status | Wanneer | Voorbeelden |
+|---|---|---|
+| `in-voege` | Huidig actief regime (default) | meeste records · DBI-aftrek · VVPRbis · liquidatiereserve |
+| `uitdovend` | Geen nieuwe gevallen meer, bestaande blijven van toepassing | `cash-for-car` (sinds 2026 geen nieuwe contracten) |
+| `afgeschaft` | Volledig geschrapt door wetgever; behoud voor historiek + overgang | `notionele-interestaftrek` (afgeschaft AJ 2024 — Wet 22-12-2023) |
+| `historisch` | Lang afgeschaft, alleen examen-historiek-context | (geen huidige kandidaten — bij content-uitwerking te identificeren) |
+| `ontwerp` | Aangekondigd maar nog niet in werking | (toekomstige wetswijzigingen) |
+
+**Aanvullende inhoud-velden** (kandidaat-structuur):
+- `inhoud.geldigheid.sinds`: ISO-datum of AJ-aanduiding (bv. "AJ 2024" of "2026-01-01")
+- `inhoud.geldigheid.tot`: ISO-datum of AJ-aanduiding bij `uitdovend`/`afgeschaft`
+- `inhoud.geldigheid.wettelijke_basis`: bv. "Wet 22-12-2023 art. X" voor de wijzigingswet
+- `inhoud.geldigheid.opvolger`: relatie naar opvolger-record indien van toepassing
+
+**Waarom inhoud en geen metadata**:
+- Een afgeschaft regime IS inhoudelijk anders dan een in-voege regime (toepassings-context, advies-rol, examen-vraag-type verschillen fundamenteel)
+- Stagiair moet weten "geldt dit nog?" als eerste content-vraag, niet als technische metadata
+- Inhoud kan rijk zijn (overgangsregeling · vervanger · grandfathering-bepalingen) — past niet in metadata-tag
+
+**Render-implicatie**:
+- `in-voege`: geen badge
+- `uitdovend`: badge "⏳ uitdovend sinds <datum>"
+- `afgeschaft`: badge "⛔ afgeschaft sinds <datum>"
+- `historisch`: badge "📜 historisch"
+- `ontwerp`: badge "🔜 ontwerp"
+
+**Schema-status**: nog niet in `schema-2.1.schema.json` (OP-META.C). Voor nu in skelet-doc-tree als tag-annotatie `[..., uitdovend]` of `[..., afgeschaft AJ 2024]`.
+
+**Reeds gemarkeerde records**:
+- `cash-for-car` [R, uitdovend] (snapshot)
+- `notionele-interestaftrek` [R, afgeschaft AJ 2024] (fiscale-voordelen-vennootschap-cluster)
+
+**Te identificeren tijdens content-uitwerking**: gewest-afhankelijke PB-aftrekken (woonbonus uitdovend per gewest), VAA-formules (regelmatig aanpassingen), tarief-historiek (VenB 25% sinds AJ 2021).
+
+**Principe**: niets schrappen wegens "niet meer in voege" — alle regelingen blijven didactisch nuttig (examen-vragen kunnen overgang/historiek toetsen). Geldigheid-inhoud maakt actualiteit zichtbaar als deel van het concept zelf.
+
 ## Verzamelconcept-pattern (`[Σ]`)
 
 Sommige records zijn primair een **lijst + keuzekader/vergelijking** voor een familie van alternatieven. Ze dragen overkoepelende stof die nergens anders thuishoort, en linken naar de individuele leden.
@@ -3901,3 +3943,4 @@ Concrete fenomenen die de structuur moeten kunnen dragen zonder geforceerd te wo
 | 2026-05-27 | **PO 1.8 management-accounting-cluster** onder `bedrijfseconomie-en-management`-discipline (laag-1 blijft abstract zonder hoofdrecord — user-keuze 2026-05-27 vraag 4). 26 anchors · 13 records → 9 cluster-eigen na 2 absorpties (`kostentypologie` + `kostencomponenten` in `analytische-boekhouding`-Σ) + 1 rename (`abc-methode` → `activity-based-costing`) + 3 Σ-promoties (`analytische-boekhouding` + `kostprijsmethoden` + `budgetbeheer`). | (a) `kostentypologie` + `kostencomponenten` apart behouden (over-versnippering — geen zelfstandige werkveld-fenomenen); (b) `abc-methode` afkorting-id behouden (regel-8-schending CLAUDE.md); (c) Geen Σ-promoties (verliest cluster-structuur) | User-vraag 2026-05-27: "kostentypologie & kostencomponenten — redelijk gelijkaardig?" → splits-test toegepast: beide voldoen niet aan voorwaarde 4 (geen wet, geen zelfstandig werkveld-bevragingspatroon), absorberen rechtvaardigd. Cluster-positionering onder bedrijfseconomie-discipline (samen met `financiele-analyse`) sluit laag-1 abstract-houden af conform user-keuze. | Sluit PO 1.x-blok-afwerking af. Resterend skelet-werk: retroscan + meta-ADR-updates (OP-META.A/B + ADR-030/029-revisie). |
 | 2026-05-27 | **Afkortingen in display-titel-principe** (nieuw — user-vraag 2026-05-27): record-id blijft volledig (CLAUDE.md regel 8 — geen afkortingen in code/schema/filename), maar `naam.primair` (= display-titel) mag afkorting tonen tussen haakjes: `"Activity-Based Costing (ABC)"` voor record-id `activity-based-costing`. Afkortingen ook in `synoniemen[]` voor RAG/zoek. | (a) Afkorting volledig vermijden (verbergt courant gebruikte term in praktijk); (b) Afkorting in record-id toelaten (regel-8-schending CLAUDE.md) | Stagiair zoekt op courante afkorting + accountant-vocabulaire bevat veel afkortingen (ABC · BTW · VAA · DBI · IFRS · GA). Schema-niveau strikt (regel 8 behouden), display-niveau accommoderend. `naam.primair`-veld bestaat al in schema 2.1; geen schema-uitbreiding nodig. User-keuze 2026-05-27 vraag 1: "akkoord -> zouden we bij de titel van die dingen (dus niet noodzakelijk filename) de afkorting meenemen?" | Kandidaten voor toepassing (mapping-fase-werk, OP-MA.D): `btw` → "Belasting over de toegevoegde waarde (BTW)"; `voordelen-alle-aard` → "Voordelen alle aard (VAA)"; `belgisch-boekhoudrecht` → "Belgisch boekhoudrecht (B-GAAP)"; `dbi-aftrek` → "DBI-aftrek (Definitief Belaste Inkomsten)"; `gecertificeerd-accountant` → "Gecertificeerd Accountant (GA)"; `ifrs` → "International Financial Reporting Standards (IFRS)"; `coso-framework` → "COSO-framework (Committee of Sponsoring Organizations)". Niet alle records — alleen waar afkorting praktijk-courant is. |
 | 2026-05-27 | **Werkveld-vs-programma-validatie** post-PO-1.x-afwerking: tree afgetoetst tegen werkveld gecertificeerd accountant + examenprogramma-anchors. Resultaat: 1 lacune-cluster `bedrijfsadvies` (3 ⏳ NIEUW records) toegevoegd onder bedrijfseconomie-en-management-discipline. Lacune-records dekken: 4.0.II.B STRATEGIE EN BESTUUR (`bedrijfsstrategie-inzicht`) + 4.0.II.E FINANCIËN (`bedrijfswaardering` + `investeringsevaluatie`) + 4.0.taak.6 strategie-kennis-verwerving + 3.0.taak.2 overdracht-advies + 3.0.VI.D exit-organisatie. | (a) Geen actie (laat lacunes onbedekt — examen-niet-volledig); (b) Records spreiden over bestaande clusters (verstopt 4.0.II.B/E kennis-overzicht-structuur); (c) Eigen cluster — gekozen | User-vraag 2026-05-27: "is alles gecommit en gepusht intussen?" → review-vraag "kan je dat eens verifiëren? zijn er gaten?". Programma-validatie via grep op anchors-tekst + verbose-beschrijvingen leverde 3 echte lacunes op (na uitsluiting: sociale-zekerheid-zelfstandige is fragment binnen 2.2.VI/2.3.III.A, geen apart record nodig · CSRD niet in programma · crypto niet meenemen). Andere mogelijke gaten (4 e-invoicing · 5 GDPR · 6 crypto) buiten programma. User-akkoord met `bedrijfsadvies`-cluster-aanpak. | Pattern: bij latere uitwerking-rondes (ADR-revisies + mapping-fase) periodieke werkveld-vs-programma-validatie. Lacune-criterium: anker bestaat + werkveld-realiteit + geen huidige record-toewijzing. Bij twijfel: programma-aanker dwingt opname (examen-doel boven werkveld-praktijk). |
+| 2026-05-27 | **Geldigheid-conventie** voor regelingen/regimes (user-principe 2026-05-27): "ik zou sowieso bij alle regelingen / regimes aangeven als ze niet meer in voege zijn... dan mag alles bewaard worden". Plek: `inhoud.geldigheid` (= INHOUD, geen metadata — user-verfijning: "dat moet gene metadata zijn, maar dat heeft een plaats nodig in de inhoud"). Status-enum: `in-voege` · `uitdovend` · `afgeschaft` · `historisch` · `ontwerp` + sub-velden `sinds`/`tot`/`wettelijke_basis`/`opvolger`. | (a) Schrappen van uitdovende/afgeschafte regelingen (verliest examen-historiek + overgang); (b) Status als `metadata.geldigheid` (verstopt inhoudelijke betekenis — afgeschaft regime is conceptueel anders dan actief regime); (c) Status enkel in `definitie`-tekst (verliest queryability + render-mogelijkheid voor badges) | User-redenering: een afgeschaft regime IS inhoudelijk anders dan een in-voege regime (toepassings-context, advies-rol, examen-vraag-type verschillen). Stagiair stelt "geldt dit nog?" als eerste content-vraag, niet als metadata-vraag. Inhoud kan rijk zijn (overgangsregeling · vervanger · grandfathering — past niet in metadata-tag). | OP-META.C werkpunt: schema-uitbreiding `inhoud.geldigheid` als nieuw kern-aspect (object met status-enum + sub-velden). ADR-update voor schema 2.1 v1.5. Reeds gemarkeerde records: `cash-for-car` (uitdovend) + `notionele-interestaftrek` (afgeschaft AJ 2024). Tijdens content-uitwerking systematisch toepassen op alle regelingen/regimes — voor nu in skelet-doc als tag-annotatie. |
