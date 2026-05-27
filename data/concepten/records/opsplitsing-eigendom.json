@@ -1,0 +1,94 @@
+{
+  "id": "opsplitsing-eigendom",
+  "naam": {
+    "primair": "Opsplitsing van eigendom",
+    "synoniemen": [
+      "zakelijke rechten op onroerend goed"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.1.II.X"
+    ],
+    "scope": {
+      "in": [
+        "Overzichts-vergelijking 3 zakelijke rechten: erfpacht · opstal · vruchtgebruik",
+        "Onderscheid op basis van termijn + canon + onderliggende-eigenaar-positie",
+        "Boekhoudkundige cascade per recht",
+        "Cross fiscaliteit — registratierechten + successierechten per recht"
+      ],
+      "out": [
+        {
+          "topic": "Erfpacht-specifiek (27-99 jaar)",
+          "richting": "moet-verwijzen",
+          "ref": "erfpacht"
+        },
+        {
+          "topic": "Opstal-specifiek (accessoir recht)",
+          "richting": "moet-verwijzen",
+          "ref": "opstal"
+        },
+        {
+          "topic": "Vruchtgebruik (incl. blote-eigendom-perspectief)",
+          "richting": "moet-verwijzen",
+          "ref": "vruchtgebruik"
+        },
+        {
+          "topic": "Registratierechten",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "erfpacht"
+    },
+    {
+      "type": "bevat",
+      "target": "opstal"
+    },
+    {
+      "type": "bevat",
+      "target": "vruchtgebruik"
+    }
+  ]
+}

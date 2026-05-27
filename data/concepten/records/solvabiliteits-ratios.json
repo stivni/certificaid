@@ -1,0 +1,179 @@
+{
+  "id": "solvabiliteits-ratios",
+  "naam": {
+    "primair": "Solvabiliteitsratio's"
+  },
+  "concept_type": "ratio",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.3.II.C",
+      "1.9.V.C"
+    ],
+    "scope": {
+      "in": [
+        "Σ-categorie voor 2 ratio's: schuldgraad · interest-coverage-ratio",
+        "Gemeenschappelijke interpretatie: Lange-termijn-stabiliteit · WVV art 7:228 alarmbel-link · DSO-cross",
+        "Benchmark-bandbreedtes per sector",
+        "Valkuilen + signaalwaarde",
+        "Nooit-in-isolement-principe (combineer met andere categorieën + kwalitatieve signalen)"
+      ],
+      "out": [
+        {
+          "topic": "Ratio-interpretatie cross-categorie (DuPont · cash-conversion-cycle)",
+          "richting": "moet-verwijzen",
+          "ref": "ratio-interpretatie"
+        },
+        {
+          "topic": "Jaarrekeninganalyse Σ (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekeninganalyse"
+        },
+        {
+          "topic": "Financiële diagnose (geheel-oordeel)",
+          "richting": "mag-verwijzen",
+          "ref": "financiele-diagnose"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "schuldgraad",
+        "naam": {
+          "primair": "Schuldgraad"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "schuldgraad-formule",
+              "naam": {
+                "primair": "Formule schuldgraad"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "interest-coverage-ratio",
+        "naam": {
+          "primair": "Interest coverage ratio"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "interest-coverage-ratio-formule",
+              "naam": {
+                "primair": "Formule interest-coverage-ratio"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse"
+    }
+  ]
+}

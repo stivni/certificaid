@@ -1,0 +1,97 @@
+{
+  "id": "budgetbeheer",
+  "naam": {
+    "primair": "Budgetbeheer",
+    "synoniemen": [
+      "budgetting",
+      "budgetary control"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.8.V",
+      "1.8.VI",
+      "1.8.VI.A",
+      "1.8.VI.B",
+      "1.8.VI.C"
+    ],
+    "scope": {
+      "in": [
+        "Σ-record budgetbeheer",
+        "Definitie + belangrijkste begrippen",
+        "Budgetprocedure-cyclus: voorbereiding → opstelling → goedkeuring → uitvoering → controle → herziening",
+        "Budget-types-overzicht (operationeel · financieel · investerings · cash)",
+        "Planning-vs-besluitvorming",
+        "Motivatie-functie + controle-functie"
+      ],
+      "out": [
+        {
+          "topic": "Masterbudget (integrale opbouw)",
+          "richting": "moet-verwijzen",
+          "ref": "masterbudget"
+        },
+        {
+          "topic": "Variantieanalyse (controle-functie-uitvoering)",
+          "richting": "moet-verwijzen",
+          "ref": "variantieanalyse"
+        },
+        {
+          "topic": "Analytische boekhouding (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "analytische-boekhouding"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "analytische-boekhouding"
+    },
+    {
+      "type": "bevat",
+      "target": "masterbudget"
+    },
+    {
+      "type": "bevat",
+      "target": "variantieanalyse"
+    }
+  ]
+}

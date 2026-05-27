@@ -1,0 +1,78 @@
+{
+  "id": "toegevoegde-waarde",
+  "naam": {
+    "primair": "Toegevoegde waarde",
+    "synoniemen": [
+      "TW",
+      "value added"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.9.V.A"
+    ],
+    "scope": {
+      "in": [
+        "TW = output - input (operationele waardetoevoeging)",
+        "Maatstaf-bestanddelen (omzet · voorraad-mutatie · grondstoffen)",
+        "Verdeling over stakeholders (personeel · overheid · kapitaalverschaffers · zelf-financiering)",
+        "Vergelijking sector-niveau en trend-analyse"
+      ],
+      "out": [
+        {
+          "topic": "Jaarrekening-analyse Σ",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekeninganalyse"
+        },
+        {
+          "topic": "Rentabiliteits-ratios (winstgevendheid)",
+          "richting": "mag-verwijzen",
+          "ref": "rentabiliteits-ratios"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse"
+    }
+  ]
+}

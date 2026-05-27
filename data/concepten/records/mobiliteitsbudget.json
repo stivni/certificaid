@@ -1,0 +1,161 @@
+{
+  "id": "mobiliteitsbudget",
+  "naam": {
+    "primair": "Mobiliteitsbudget",
+    "synoniemen": [
+      "federaal mobiliteitsbudget"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3",
+      "2.3.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Federaal mobiliteitsbudget (wet 17 maart 2019)",
+        "Werknemer geeft bedrijfswagen-recht op → jaarlijks budget = TCO van die wagen",
+        "Bestedingsmodel in 3 pijlers (milieuvriendelijke wagen · duurzame mobiliteit · cash-saldo)",
+        "Toegangs-voorwaarden: anciënniteit werknemer + werkgever-toekenning"
+      ],
+      "out": [
+        {
+          "topic": "Reguliere bedrijfswagen + autokosten",
+          "richting": "moet-verwijzen",
+          "ref": "autokosten"
+        },
+        {
+          "topic": "Cash-for-car (alternatief, uitdovend)",
+          "richting": "moet-verwijzen",
+          "ref": "cash-for-car"
+        },
+        {
+          "topic": "Woon-werkverkeer + km-vergoeding (overlap pijler 2)",
+          "richting": "mag-verwijzen",
+          "ref": "woon-werkverkeer-en-km-vergoeding"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "pijler-1-milieuvriendelijke-wagen",
+        "naam": {
+          "primair": "Pijler 1 — milieuvriendelijke wagen"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "pijler-2-duurzame-mobiliteit",
+        "naam": {
+          "primair": "Pijler 2 — duurzame mobiliteit"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "pijler-3-cash-saldo",
+        "naam": {
+          "primair": "Pijler 3 — cash-saldo"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "autokosten"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "cash-for-car"
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "id": "consolidatieverschil",
+  "naam": {
+    "primair": "Consolidatieverschil (goodwill / badwill)",
+    "synoniemen": [
+      "consolidatieverschil-goodwill",
+      "goodwill",
+      "badwill"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "entiteit"
+    ],
+    "ankers": [
+      "1.4.I.D",
+      "1.4.II.C"
+    ],
+    "scope": {
+      "in": [
+        "Positief consolidatieverschil = goodwill (IFRS 3)",
+        "Negatief consolidatieverschil = badwill → direct in resultaat (IFRS 3)",
+        "Allocatie aan CGU's (cash-generating units)",
+        "Impairment-test IAS 36 (IFRS — jaarlijks verplicht)",
+        "Afschrijving B-GAAP vs IFRS-vrijstelling",
+        "Badwill direct in resultaat"
+      ],
+      "out": [
+        {
+          "topic": "Eerste consolidatie (ontstaans-moment)",
+          "richting": "moet-verwijzen",
+          "ref": "eerste-consolidatie"
+        },
+        {
+          "topic": "Minderheidsbelangen (full-goodwill vs partial-goodwill)",
+          "richting": "moet-verwijzen",
+          "ref": "minderheidsbelangen"
+        },
+        {
+          "topic": "IFRS-IAS 36 impairment context",
+          "richting": "mag-verwijzen",
+          "ref": "ifrs"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "goodwill-allocatie-cgu",
+        "naam": {
+          "primair": "Goodwill-allocatie aan CGU's"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "impairment-test-ias-36",
+        "naam": {
+          "primair": "Impairment-test IAS 36 (jaarlijks)"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afschrijving-goodwill-bgaap",
+        "naam": {
+          "primair": "Afschrijving goodwill B-GAAP (vs IFRS-vrijstelling)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "badwill-direct-resultaat",
+        "naam": {
+          "primair": "Badwill direct in resultaat"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening"
+    }
+  ]
+}

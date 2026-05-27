@@ -1,0 +1,81 @@
+{
+  "id": "vaa-verwarming-en-elektriciteit",
+  "naam": {
+    "primair": "VAA — verwarming en elektriciteit",
+    "synoniemen": [
+      "VAA nutsvoorzieningen"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Forfait per jaar: verwarming ~€2.090/€990 (leidinggevend of niet) · elektriciteit ~€1.040/€470",
+        "Naast VAA-woning toepasbaar als nutsvoorzieningen mee zijn",
+        "PB-forfait-berekening werknemer/bedrijfsleider"
+      ],
+      "out": [
+        {
+          "topic": "Bedrijfsleider-bezoldigingsmix (overkoepelende advies-context)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Werknemer-loon",
+          "richting": "mag-verwijzen",
+          "ref": "loon-en-payroll"
+        },
+        {
+          "topic": "VAA-woning (vaak samen)",
+          "richting": "mag-verwijzen",
+          "ref": "vaa-woning"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "werknemers-vergoedingen"
+    }
+  ]
+}

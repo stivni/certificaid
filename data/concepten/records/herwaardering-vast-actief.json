@@ -1,0 +1,86 @@
+{
+  "id": "herwaardering-vast-actief",
+  "naam": {
+    "primair": "Herwaardering van vast actief",
+    "synoniemen": [
+      "revalorisatie vast actief",
+      "herwaarderingsmeerwaarde"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis",
+      "regeling"
+    ],
+    "ankers": [
+      "1.1.II.B"
+    ],
+    "scope": {
+      "in": [
+        "Art 57 KB 29-04-2019",
+        "Herwaarderingsmeerwaarde — boekwaarde verhogen naar (hogere) actuele waarde",
+        "Boeking in klasse 12 (herwaarderingsmeerwaarden onder EV)",
+        "CBN-advies 2019-9",
+        "IAS 16 revaluation model-link",
+        "Behoud-vereisten + duurzaamheid-criteria"
+      ],
+      "out": [
+        {
+          "topic": "Vaste activa generiek",
+          "richting": "moet-verwijzen",
+          "ref": "vaste-activa"
+        },
+        {
+          "topic": "Eigen vermogen (klasse 12 herwaarderings-meerwaarden)",
+          "richting": "moet-verwijzen",
+          "ref": "eigen-vermogen"
+        },
+        {
+          "topic": "IFRS — IAS 16 revaluation model",
+          "richting": "mag-verwijzen",
+          "ref": "ifrs"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "vaste-activa"
+    }
+  ]
+}

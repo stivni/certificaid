@@ -1,0 +1,127 @@
+{
+  "id": "memorierekeningen",
+  "naam": {
+    "primair": "Memorierekeningen (rechten en verplichtingen buiten balans)",
+    "synoniemen": [
+      "niet-in-balans-rechten-en-verplichtingen",
+      "klasse 0",
+      "rechten en verplichtingen buiten balans"
+    ]
+  },
+  "concept_type": "balanspost",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "1.1.II.R"
+    ],
+    "scope": {
+      "in": [
+        "MAR-klasse 0 (memorial accounts)",
+        "Gestelde zekerheden (door entiteit aan derden gegeven)",
+        "Ontvangen garanties (door derden aan entiteit gegeven)",
+        "Gegeven verbintenissen (out-of-balance commitments)",
+        "Langlopende leases-informatief (B-GAAP klasse 0)",
+        "Sub-secties: rechten vs verplichtingen"
+      ],
+      "out": [
+        {
+          "topic": "Schulden op balans (klasse 17 + 42-48)",
+          "richting": "moet-verwijzen",
+          "ref": "schulden-op-korte-termijn"
+        },
+        {
+          "topic": "IFRS-leasing — on-balance presentatie (IFRS 16)",
+          "richting": "mag-verwijzen",
+          "ref": "ifrs"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "rechten-memoriaal",
+        "naam": {
+          "primair": "Rechten (ontvangen garanties + verkregen verbintenissen)"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verplichtingen-memoriaal",
+        "naam": {
+          "primair": "Verplichtingen (gestelde zekerheden + gegeven verbintenissen)"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    }
+  ]
+}

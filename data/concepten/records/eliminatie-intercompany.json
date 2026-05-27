@@ -1,0 +1,79 @@
+{
+  "id": "eliminatie-intercompany",
+  "naam": {
+    "primair": "Eliminatie van intercompany-verrichtingen",
+    "synoniemen": [
+      "intercompany elimination",
+      "intra-group elimination"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "1.4.I.D"
+    ],
+    "scope": {
+      "in": [
+        "Intercompany-vorderingen / schulden eliminatie",
+        "Intercompany-winst / verlies (tussen groepsentiteiten)",
+        "Intra-groep-transactie-aanpassingen (verkopen · diensten)",
+        "Latente belasting-aanpassingen bij eliminatie unrealised gains",
+        "Procedure in opmaak-flow"
+      ],
+      "out": [
+        {
+          "topic": "Opmaak-geconsolideerde-jaarrekening (procedure)",
+          "richting": "moet-verwijzen",
+          "ref": "opmaak-geconsolideerde-jaarrekening"
+        },
+        {
+          "topic": "Voorraden-context (bij intercompany-voorraadverkoop)",
+          "richting": "mag-verwijzen",
+          "ref": "voorraden"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening"
+    }
+  ]
+}

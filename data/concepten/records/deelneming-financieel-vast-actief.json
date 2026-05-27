@@ -1,0 +1,86 @@
+{
+  "id": "deelneming-financieel-vast-actief",
+  "naam": {
+    "primair": "Deelneming als financieel vast actief",
+    "synoniemen": [
+      "FVA-deelneming"
+    ]
+  },
+  "concept_type": "instrument",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "1.1.II.C"
+    ],
+    "scope": {
+      "in": [
+        "MAR-klasse 28 — duurzame deelnemingen + LT-vorderingen verbonden partijen",
+        "Equity-method vs at-cost-keuze",
+        "IFRS 9-link (financial assets-classificatie)",
+        "Onderscheid speculatieve geldbeleggingen (klasse 50-53)"
+      ],
+      "out": [
+        {
+          "topic": "Eindejaarsverrichtingen (waardering + correcties)",
+          "richting": "moet-verwijzen",
+          "ref": "eindejaarsverrichtingen"
+        },
+        {
+          "topic": "Jaarrekening (presentatie balans)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekening"
+        },
+        {
+          "topic": "IFRS-perspectief",
+          "richting": "mag-verwijzen",
+          "ref": "ifrs"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    },
+    {
+      "type": "triggert",
+      "target": "eindejaarsverrichtingen"
+    }
+  ]
+}

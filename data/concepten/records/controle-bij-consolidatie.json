@@ -1,0 +1,200 @@
+{
+  "id": "controle-bij-consolidatie",
+  "naam": {
+    "primair": "Controle bij consolidatie",
+    "synoniemen": [
+      "controle-vennootschapsrecht",
+      "controle-test-deelneming",
+      "kwalificatie-controle-deelneming"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.4.I.C",
+      "1.4.II.B"
+    ],
+    "scope": {
+      "in": [
+        "Controle-definitie B-GAAP (art 1:14 WVV) + IFRS 10 control-model",
+        "Stemrechten-meerderheid",
+        "Benoeming bestuursorgaan",
+        "Potentiële stemrechten",
+        "De-facto-controle",
+        "Invloed van betekenis (< 50% — vermogensmutatie-trigger)",
+        "IAS 28 voor invloed-van-betekenis"
+      ],
+      "out": [
+        {
+          "topic": "Consolidatieverplichting",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatieverplichting"
+        },
+        {
+          "topic": "Consolidatiemethoden Σ",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatiemethoden"
+        },
+        {
+          "topic": "Gezamenlijke regelingen (IFRS 11)",
+          "richting": "moet-verwijzen",
+          "ref": "gezamenlijke-regelingen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "stemrechten-meerderheid",
+        "naam": {
+          "primair": "Stemrechten-meerderheid"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "benoeming-bestuursorgaan",
+        "naam": {
+          "primair": "Benoeming bestuursorgaan-test"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "potentiele-stemrechten",
+        "naam": {
+          "primair": "Potentiële stemrechten"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "de-facto-controle",
+        "naam": {
+          "primair": "De-facto-controle"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "invloed-van-betekenis",
+        "naam": {
+          "primair": "Invloed van betekenis (< 50%)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening"
+    }
+  ]
+}

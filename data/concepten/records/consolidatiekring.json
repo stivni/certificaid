@@ -1,0 +1,85 @@
+{
+  "id": "consolidatiekring",
+  "naam": {
+    "primair": "Consolidatiekring",
+    "synoniemen": [
+      "scope of consolidation",
+      "groep-perimeter"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.4.I.C",
+      "1.4.II.B"
+    ],
+    "scope": {
+      "in": [
+        "Wie zit in de consolidatiekring?",
+        "Hoogste moedermaatschappij-definitie",
+        "Weglatingen (vrijstellingen + immaterialiteit + onevenredige kosten)",
+        "Consortium-bepaling (horizontale groepen)",
+        "Proportionele opname (gezamenlijke regelingen)"
+      ],
+      "out": [
+        {
+          "topic": "Wijziging consolidatiekring (acquisitie · desinvestering)",
+          "richting": "moet-verwijzen",
+          "ref": "wijziging-consolidatiekring"
+        },
+        {
+          "topic": "Consolidatieverplichting (wanneer)",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatieverplichting"
+        },
+        {
+          "topic": "Controle-test",
+          "richting": "moet-verwijzen",
+          "ref": "controle-bij-consolidatie"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening"
+    }
+  ]
+}

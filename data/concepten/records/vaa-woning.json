@@ -1,0 +1,79 @@
+{
+  "id": "vaa-woning",
+  "naam": {
+    "primair": "VAA — terbeschikkingstelling onroerend goed",
+    "synoniemen": [
+      "VAA woning",
+      "woon-VAA"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Forfait = kadastraal-inkomen × 100/60 × 2 (geïndexeerd) — sinds wet 2018",
+        "Verhoging bij gemeubileerd (5/3)",
+        "Bezoldigingstheorie voor aftrekbaarheid vennootschapskosten",
+        "Cross alternatief huurconstructie",
+        "PB-forfait-berekening werknemer/bedrijfsleider"
+      ],
+      "out": [
+        {
+          "topic": "Bedrijfsleider-bezoldigingsmix (overkoepelende advies-context)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Werknemer-loon",
+          "richting": "mag-verwijzen",
+          "ref": "loon-en-payroll"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "werknemers-vergoedingen"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "bedrijfsstrategie-inzicht",
+  "naam": {
+    "primair": "Bedrijfsstrategie-inzicht",
+    "synoniemen": [
+      "bedrijfsstrategie",
+      "strategisch advies"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "4.0.taak.6"
+    ],
+    "scope": {
+      "in": [
+        "Businessmodel-canvas (Osterwalder)",
+        "Waardeketen Porter",
+        "Strategische keuzes (cost-leadership · differentiation · focus)",
+        "Marktdynamiek (5 forces)",
+        "Governance-link (bestuur-vennootschap)",
+        "Risico-strategie (cross COSO ERM)",
+        "Accountant-rol: gesprekspartner cliënt-leiding + strategische lens op cijferwerk",
+        "Niveau: geleidelijk verwerven (geen diepe strategische theorie)"
+      ],
+      "out": [
+        {
+          "topic": "Bedrijfswaardering (waarderings-context)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfswaardering"
+        },
+        {
+          "topic": "Investeringsevaluatie (cijfer-context)",
+          "richting": "mag-verwijzen",
+          "ref": "investeringsevaluatie"
+        },
+        {
+          "topic": "Bestuur-vennootschap (governance)",
+          "richting": "mag-verwijzen",
+          "ref": "bestuur-vennootschap"
+        },
+        {
+          "topic": "COSO ERM (risico-strategie)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": []
+}

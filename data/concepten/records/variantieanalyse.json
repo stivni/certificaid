@@ -1,0 +1,80 @@
+{
+  "id": "variantieanalyse",
+  "naam": {
+    "primair": "Variantieanalyse",
+    "synoniemen": [
+      "variance analysis",
+      "verschillen-boekhouding"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.8.VI",
+      "1.8.VI.C"
+    ],
+    "scope": {
+      "in": [
+        "Afwijking budget vs werkelijk",
+        "Prijs-variantie + hoeveelheids-variantie",
+        "Oorzaak-analyse (operationeel · markt · efficiency)",
+        "Management-by-exception (focus op materiële afwijkingen)",
+        "Cross standaardkostenmethode"
+      ],
+      "out": [
+        {
+          "topic": "Standaardkostenmethode (input-normen)",
+          "richting": "moet-verwijzen",
+          "ref": "standaardkostenmethode"
+        },
+        {
+          "topic": "Budgetbeheer Σ (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "budgetbeheer"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "budgetbeheer"
+    }
+  ]
+}

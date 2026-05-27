@@ -1,0 +1,172 @@
+{
+  "id": "autokosten",
+  "naam": {
+    "primair": "Autokosten",
+    "synoniemen": [
+      "wagenkost",
+      "voertuigkost",
+      "bedrijfswagen-kosten"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3",
+      "2.3.taak.3",
+      "2.4.taak.4"
+    ],
+    "scope": {
+      "in": [
+        "Kosten van voertuig in beroeps-/vennootschapscontext (gekocht · geleased · eigen wagen + km-vergoeding)",
+        "Boekhoudkundige verwerking (klasse 61x · afschrijving · brandstof · onderhoud · verzekering · BIV · verkeersbelasting)",
+        "VenB verworpen uitgaven via CO2-formule (40-100%) — personenwagen + lichte vracht onderscheid",
+        "PB VAA-auto-formule (catalogusprijs × CO2-coëfficiënt × leeftijdscoëfficiënt × 6/7)",
+        "BTW-aftrek max 50% — drie methodes (semi-forfaitair · forfaitair · werkelijk via km-administratie)"
+      ],
+      "out": [
+        {
+          "topic": "Mobiliteitsbudget als alternatief",
+          "richting": "moet-verwijzen",
+          "ref": "mobiliteitsbudget"
+        },
+        {
+          "topic": "Cash-for-car (mobiliteitsvergoeding)",
+          "richting": "moet-verwijzen",
+          "ref": "cash-for-car"
+        },
+        {
+          "topic": "Woon-werkverkeer + km-vergoeding zonder bedrijfswagen",
+          "richting": "moet-verwijzen",
+          "ref": "woon-werkverkeer-en-km-vergoeding"
+        },
+        {
+          "topic": "Vaste-activa-presentatie generiek",
+          "richting": "mag-verwijzen",
+          "ref": "vaste-activa"
+        },
+        {
+          "topic": "Verworpen-uitgaven-filter-categorie (algemeen)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "co2-formule-venb",
+        "naam": {
+          "primair": "CO2-aftrek-formule VenB"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vaa-auto-formule",
+        "naam": {
+          "primair": "VAA-auto-formule (catalogusprijs × CO2 × leeftijd × 6/7)"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-50-procent-aftrek",
+        "naam": {
+          "primair": "BTW-aftrek max 50% personenwagen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "mobiliteitsbudget"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "cash-for-car"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "vaste-activa"
+    }
+  ]
+}

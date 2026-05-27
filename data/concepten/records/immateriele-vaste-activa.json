@@ -1,0 +1,92 @@
+{
+  "id": "immateriele-vaste-activa",
+  "naam": {
+    "primair": "Immateriële vaste activa (IAS 38)",
+    "afkorting": "IMA",
+    "synoniemen": [
+      "IAS 38",
+      "intangible assets"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.5.V.A",
+      "1.5.V.B"
+    ],
+    "scope": {
+      "in": [
+        "IAS 38 — intangible assets",
+        "Herkenningscriteria (identifiability · control · future economic benefits)",
+        "Waardering: cost model · (zelden) revaluation model voor active markets",
+        "Onderzoek-vs-ontwikkeling — research-fase nooit kapitalisatie · development-fase onder voorwaarden",
+        "Interne vs gekochte immateriële vaste activa",
+        "Webtools-IAS-38-criteria (capitalisatie websites · software)",
+        "Indefinite-life vs finite-life IMA"
+      ],
+      "out": [
+        {
+          "topic": "Vaste activa B-GAAP-perspectief",
+          "richting": "moet-verwijzen",
+          "ref": "vaste-activa"
+        },
+        {
+          "topic": "IFRS Σ overkoepelend",
+          "richting": "moet-verwijzen",
+          "ref": "ifrs"
+        },
+        {
+          "topic": "Consolidatieverschil/goodwill (apart, IFRS 3)",
+          "richting": "mag-verwijzen",
+          "ref": "consolidatieverschil"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "ifrs"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "vaste-activa"
+    }
+  ]
+}

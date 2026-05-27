@@ -1,0 +1,80 @@
+{
+  "id": "minderheidsbelangen",
+  "naam": {
+    "primair": "Minderheidsbelangen",
+    "synoniemen": [
+      "non-controlling interests",
+      "NCI",
+      "minority interests"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.4.I.D"
+    ],
+    "scope": {
+      "in": [
+        "Minority interests / non-controlling interests (NCI)",
+        "Ontstaan bij integrale consolidatie van niet-100%-dochter",
+        "EV-presentatie (apart van groeps-EV)",
+        "Resultaat-presentatie (aandeel in winst toewijsbaar aan minderheden)",
+        "IFRS 3 keuze-as: full-goodwill vs partial-goodwill"
+      ],
+      "out": [
+        {
+          "topic": "Integrale consolidatie (ontstaans-context)",
+          "richting": "moet-verwijzen",
+          "ref": "integrale-consolidatie"
+        },
+        {
+          "topic": "Consolidatieverschil (goodwill-context)",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatieverschil"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "consolidatiemethoden"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "id": "liquiditeits-ratios",
+  "naam": {
+    "primair": "Liquiditeitsratio's"
+  },
+  "concept_type": "ratio",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.3.II.C",
+      "1.9.V.D"
+    ],
+    "scope": {
+      "in": [
+        "Σ-categorie voor 4 ratio's: current-ratio · quick-ratio · cash-ratio · cash-conversion-cycle",
+        "Gemeenschappelijke interpretatie: Korte-termijn-vermogen om verplichtingen te dekken · benchmark-bandbreedtes · valkuilen (voorraad-overschatting · betalingsgewoonten-verschillen)",
+        "Benchmark-bandbreedtes per sector",
+        "Valkuilen + signaalwaarde",
+        "Nooit-in-isolement-principe (combineer met andere categorieën + kwalitatieve signalen)"
+      ],
+      "out": [
+        {
+          "topic": "Ratio-interpretatie cross-categorie (DuPont · cash-conversion-cycle)",
+          "richting": "moet-verwijzen",
+          "ref": "ratio-interpretatie"
+        },
+        {
+          "topic": "Jaarrekeninganalyse Σ (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekeninganalyse"
+        },
+        {
+          "topic": "Financiële diagnose (geheel-oordeel)",
+          "richting": "mag-verwijzen",
+          "ref": "financiele-diagnose"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "current-ratio",
+        "naam": {
+          "primair": "Current ratio"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "current-ratio-formule",
+              "naam": {
+                "primair": "Formule current-ratio"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "quick-ratio",
+        "naam": {
+          "primair": "Quick ratio"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "quick-ratio-formule",
+              "naam": {
+                "primair": "Formule quick-ratio"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "cash-ratio",
+        "naam": {
+          "primair": "Cash ratio"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "cash-ratio-formule",
+              "naam": {
+                "primair": "Formule cash-ratio"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "cash-conversion-cycle",
+        "naam": {
+          "primair": "Cash conversion cycle"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "cash-conversion-cycle-formule",
+              "naam": {
+                "primair": "Formule cash-conversion-cycle"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "id": "financiele-analyse-software",
+  "naam": {
+    "primair": "Financiële-analyse-software (IT-tools)",
+    "synoniemen": [
+      "financiële-analyse-tools",
+      "Companyweb"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.9.VII",
+      "1.9.VII.A",
+      "1.9.VII.B",
+      "1.9.VII.C"
+    ],
+    "scope": {
+      "in": [
+        "Belfius Companyweb · Trends Top · NBB-API",
+        "Spreadsheet-modelling (Excel · Google Sheets)",
+        "Gegevens-implementatie + import",
+        "Functionaliteit: ratio-bibliotheek · trend-rapporten · sector-benchmark",
+        "Output-interpretatie (geen blind-vertrouwen op tool)"
+      ],
+      "out": [
+        {
+          "topic": "Ratio-interpretatie (methodologie)",
+          "richting": "moet-verwijzen",
+          "ref": "ratio-interpretatie"
+        },
+        {
+          "topic": "Jaarrekeninganalyse Σ (overkoepelend)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekeninganalyse"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse"
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "id": "kostprijsmethoden",
+  "naam": {
+    "primair": "Kostprijsmethoden",
+    "synoniemen": [
+      "costing methods"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.8.III",
+      "1.8.III.A",
+      "1.8.III.B",
+      "1.8.III.C",
+      "1.8.III.F"
+    ],
+    "scope": {
+      "in": [
+        "Σ-keuze-record: welke methode wanneer?",
+        "Productie vs service vs project-context",
+        "Accuratesse vs eenvoud trade-off",
+        "Doel-as: prijszetting · winstgevendheid · efficiency",
+        "Vergelijkings-matrix: 4 methodes × kenmerken",
+        "Volledig vs partieel · vastgesteld vs voorafbepaald"
+      ],
+      "out": [
+        {
+          "topic": "Full-costing (volledige kostencalculatie)",
+          "richting": "moet-verwijzen",
+          "ref": "full-costing"
+        },
+        {
+          "topic": "Direct-costing (variabele-kost-aanpak)",
+          "richting": "moet-verwijzen",
+          "ref": "direct-costing"
+        },
+        {
+          "topic": "Standaardkostenmethode (voorafbepaald)",
+          "richting": "moet-verwijzen",
+          "ref": "standaardkostenmethode"
+        },
+        {
+          "topic": "Activity-Based Costing",
+          "richting": "moet-verwijzen",
+          "ref": "activity-based-costing"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "analytische-boekhouding"
+    },
+    {
+      "type": "bevat",
+      "target": "full-costing"
+    },
+    {
+      "type": "bevat",
+      "target": "direct-costing"
+    },
+    {
+      "type": "bevat",
+      "target": "standaardkostenmethode"
+    },
+    {
+      "type": "bevat",
+      "target": "activity-based-costing"
+    }
+  ]
+}

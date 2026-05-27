@@ -1,0 +1,125 @@
+{
+  "id": "break-even-analyse",
+  "naam": {
+    "primair": "Break-even-analyse",
+    "synoniemen": [
+      "break-even-point",
+      "BEP",
+      "kostenstructuur-analyse"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.8.III.D"
+    ],
+    "scope": {
+      "in": [
+        "Contributiemarge = omzet - variabele kosten",
+        "Break-even-punt (BEP) = vaste kosten / contributiemarge per eenheid",
+        "Veiligheidsmarge = (huidige omzet - BEP-omzet) / huidige omzet",
+        "Sensitiviteit voor prijs- en kostenwijzigingen"
+      ],
+      "out": [
+        {
+          "topic": "Direct costing (contributiemarge-context)",
+          "richting": "moet-verwijzen",
+          "ref": "direct-costing"
+        },
+        {
+          "topic": "Kostprijsmethoden Σ",
+          "richting": "mag-verwijzen",
+          "ref": "kostprijsmethoden"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "bep-formule",
+        "naam": {
+          "primair": "Break-even-punt-formule"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "veiligheidsmarge-formule",
+        "naam": {
+          "primair": "Veiligheidsmarge-formule"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "analytische-boekhouding"
+    }
+  ]
+}

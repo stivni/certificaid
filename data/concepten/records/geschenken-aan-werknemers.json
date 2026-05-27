@@ -1,0 +1,80 @@
+{
+  "id": "geschenken-aan-werknemers",
+  "naam": {
+    "primair": "Geschenken aan werknemers",
+    "synoniemen": [
+      "gelegenheidsgeschenken",
+      "jaarlijkse geschenken",
+      "geschenkcheques"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Gelegenheidsgeschenken vrijgesteld onder grenzen — Sinterklaas/Kerst/Nieuwjaar max €40/werknemer + €40/kind",
+        "Eervolle onderscheiding: €120",
+        "Pensionering: €40/dienstjaar (min €120 · max €1.000)",
+        "Boven grens: belastbaar loon",
+        "Werkgever aftrekbaar mits binnen grenzen + collectief karakter"
+      ],
+      "out": [
+        {
+          "topic": "Verworpen uitgaven (filter — receptiekosten)",
+          "richting": "mag-verwijzen",
+          "ref": "receptiekosten"
+        },
+        {
+          "topic": "Andere cheques (vergelijking)",
+          "richting": "mag-verwijzen",
+          "ref": "ecocheques"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "werknemers-vergoedingen"
+    }
+  ]
+}

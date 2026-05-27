@@ -1,0 +1,85 @@
+{
+  "id": "opmaak-geconsolideerde-jaarrekening",
+  "naam": {
+    "primair": "Opmaak van geconsolideerde jaarrekening",
+    "synoniemen": [
+      "consolidatie-opmaak"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "1.4.I.F",
+      "1.4.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "Stap-voor-stap-flow opmaak",
+        "Consolidatiebureau-rol (centrale eenheid)",
+        "Audit-traceability + werkdocumenten",
+        "Matchingsregels intercompany",
+        "Tijdspad: balansdatum + 6 maanden voor publicatie",
+        "Output: geconsolideerde balans + RR + toelichting + jaarverslag"
+      ],
+      "out": [
+        {
+          "topic": "Geconsolideerd jaarverslag (apart document)",
+          "richting": "moet-verwijzen",
+          "ref": "geconsolideerd-jaarverslag"
+        },
+        {
+          "topic": "Eliminatie-intercompany (sub-stap)",
+          "richting": "moet-verwijzen",
+          "ref": "eliminatie-intercompany"
+        },
+        {
+          "topic": "Uniforme waarderingsregels (input-stap)",
+          "richting": "moet-verwijzen",
+          "ref": "uniforme-waarderingsregels-consolidatie"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening"
+    }
+  ]
+}

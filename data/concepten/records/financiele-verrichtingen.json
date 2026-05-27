@@ -1,0 +1,78 @@
+{
+  "id": "financiele-verrichtingen",
+  "naam": {
+    "primair": "Financiële verrichtingen",
+    "synoniemen": [
+      "financiële kosten en opbrengsten"
+    ]
+  },
+  "concept_type": "balanspost",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "1.1.II.O"
+    ],
+    "scope": {
+      "in": [
+        "MAR-klasse 65 (kosten) + 75 (opbrengsten)",
+        "Interest-lasten + interest-opbrengsten",
+        "Disconto + agio + bankkosten",
+        "Valutaverschillen op handels- en financiële operaties",
+        "Waardeverminderingen op financiële vaste activa"
+      ],
+      "out": [
+        {
+          "topic": "Niet-recurrente verrichtingen (klasse 66/76)",
+          "richting": "moet-verwijzen",
+          "ref": "niet-recurrente-verrichtingen"
+        },
+        {
+          "topic": "Schuldfinanciering (rente-context)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    }
+  ]
+}

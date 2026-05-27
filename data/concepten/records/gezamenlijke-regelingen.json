@@ -1,0 +1,78 @@
+{
+  "id": "gezamenlijke-regelingen",
+  "naam": {
+    "primair": "Gezamenlijke regelingen (IFRS 11)",
+    "synoniemen": [
+      "joint arrangements",
+      "joint operations en joint ventures"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.4.II.A"
+    ],
+    "scope": {
+      "in": [
+        "IFRS 11 — joint arrangements",
+        "Onderscheid joint operation vs joint venture",
+        "Keuze-as: rechten op activa + verplichtingen schulden vs rechten op netto-activa",
+        "Boekhoudkundige verwerking per type"
+      ],
+      "out": [
+        {
+          "topic": "Consolidatiemethoden Σ (vermogensmutatie voor joint ventures)",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatiemethoden"
+        },
+        {
+          "topic": "Evenredige consolidatie (B-GAAP-equivalent)",
+          "richting": "moet-verwijzen",
+          "ref": "evenredige-consolidatie"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening"
+    }
+  ]
+}

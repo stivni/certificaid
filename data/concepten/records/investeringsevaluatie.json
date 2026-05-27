@@ -1,0 +1,169 @@
+{
+  "id": "investeringsevaluatie",
+  "naam": {
+    "primair": "Investeringsevaluatie",
+    "synoniemen": [
+      "investment appraisal",
+      "capital budgeting"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "4.0.taak.6"
+    ],
+    "scope": {
+      "in": [
+        "Methodes: NPV (Net Present Value) · IRR (Internal Rate of Return) · payback-periode · gediscontineerde payback · profitability index",
+        "Kapitaalkost / WACC (Weighted Average Cost of Capital) als input",
+        "Scenario-analyse + sensitiviteits-analyse",
+        "Make-or-buy-beslissing (cross marginale-analyse)",
+        "Cross kasstroomanalyse voor kasstroom-input"
+      ],
+      "out": [
+        {
+          "topic": "Marginale analyse (make-or-buy-input)",
+          "richting": "moet-verwijzen",
+          "ref": "marginale-analyse"
+        },
+        {
+          "topic": "Kasstroomanalyse (kasstroom-input)",
+          "richting": "moet-verwijzen",
+          "ref": "kasstroom-analyse"
+        },
+        {
+          "topic": "Bedrijfswaardering (DCF-verwante techniek)",
+          "richting": "mag-verwijzen",
+          "ref": "bedrijfswaardering"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "npv-formule",
+        "naam": {
+          "primair": "Net Present Value-formule"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "irr-formule",
+        "naam": {
+          "primair": "Internal Rate of Return"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "payback-periode",
+        "naam": {
+          "primair": "Payback-periode"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wacc-formule",
+        "naam": {
+          "primair": "WACC-formule"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": []
+}

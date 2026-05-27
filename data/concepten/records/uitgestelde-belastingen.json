@@ -1,0 +1,85 @@
+{
+  "id": "uitgestelde-belastingen",
+  "naam": {
+    "primair": "Uitgestelde belastingen",
+    "synoniemen": [
+      "deferred tax",
+      "latente belastingen"
+    ]
+  },
+  "concept_type": "balanspost",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit",
+      "regeling"
+    ],
+    "ankers": [
+      "1.1.II.I"
+    ],
+    "scope": {
+      "in": [
+        "MAR-klasse 168 — timing-verschillen tussen boekhoudkundig en fiscaal resultaat",
+        "Fiscale latenties (deferred tax)",
+        "Cross VenB-perspectief (waar latentie ontstaat)",
+        "Cross IFRS-IAS 12 (PO 1.5)",
+        "Belgisch-GAAP-conventie vs IFRS-volledige-erkenning"
+      ],
+      "out": [
+        {
+          "topic": "Voorzieningen (zelfde klasse 16 ander fenomeen)",
+          "richting": "moet-verwijzen",
+          "ref": "voorzieningen"
+        },
+        {
+          "topic": "IFRS-IAS 12 perspectief",
+          "richting": "mag-verwijzen",
+          "ref": "ifrs"
+        },
+        {
+          "topic": "Vennootschapsbelasting-context",
+          "richting": "mag-verwijzen",
+          "ref": "vennootschapsbelasting"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    }
+  ]
+}

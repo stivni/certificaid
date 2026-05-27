@@ -1,0 +1,81 @@
+{
+  "id": "niet-recurrente-resultaatsgebonden-bonus",
+  "naam": {
+    "primair": "Niet-recurrente resultaatsgebonden bonus (CAO 90)",
+    "synoniemen": [
+      "CAO 90-bonus",
+      "salary-bonus-plan",
+      "bonusplan",
+      "NRRB"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Collectief bonus-systeem op basis van objectief meetbare doelstellingen (CAO 90)",
+        "Vrijgesteld van PB tot max €4.020 (geïndexeerd)",
+        "RSZ-werkgever 33% + RSZ-solidariteitsbijdrage werknemer 13,07%",
+        "Werkgever aftrekbaar",
+        "Toetreding via toetredingsakte (geen bestaande werknemers) of CAO"
+      ],
+      "out": [
+        {
+          "topic": "Tantième als alternatief (andere logica)",
+          "richting": "mag-verwijzen",
+          "ref": "tantieme"
+        },
+        {
+          "topic": "Werknemer-loon (basis)",
+          "richting": "mag-verwijzen",
+          "ref": "loon-en-payroll"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "werknemers-vergoedingen"
+    }
+  ]
+}

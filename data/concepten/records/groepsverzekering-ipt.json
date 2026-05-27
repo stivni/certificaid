@@ -1,0 +1,111 @@
+{
+  "id": "groepsverzekering-ipt",
+  "naam": {
+    "primair": "Groepsverzekering en Individuele Pensioentoezegging (IPT)",
+    "afkorting": "IPT",
+    "synoniemen": [
+      "tweede pijler",
+      "aanvullend pensioen",
+      "EIP",
+      "groepsverzekering"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Extra-legaal pensioen-spaar-vehikel: groepsverzekering werknemers + IPT bedrijfsleider",
+        "80%-regel: premies + wettelijk pensioen ≤ 80% laatste normale brutoloon (begrenst aftrek werkgeverspremies)",
+        "Kapitaaluitkering belast aan 10%/16,5%/18%/20% bij pensionering",
+        "Bijzondere 4,4%-premie taks",
+        "Backservice-mogelijkheid"
+      ],
+      "out": [
+        {
+          "topic": "Bedrijfsleider-bezoldigingsmix",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Dividend-route als alternatieve uitkering",
+          "richting": "mag-verwijzen",
+          "ref": "dividend-uitkering"
+        },
+        {
+          "topic": "Werknemer-loon",
+          "richting": "mag-verwijzen",
+          "ref": "loon-en-payroll"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "80-procent-regel-pensioen",
+        "naam": {
+          "primair": "80%-regel premie-aftrek"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "werknemers-vergoedingen"
+    }
+  ]
+}

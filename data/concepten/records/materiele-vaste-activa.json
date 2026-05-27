@@ -1,0 +1,92 @@
+{
+  "id": "materiele-vaste-activa",
+  "naam": {
+    "primair": "Materiële vaste activa (IAS 16)",
+    "afkorting": "MVA",
+    "synoniemen": [
+      "IAS 16",
+      "PPE",
+      "property plant and equipment"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.5.V.A",
+      "1.5.V.B"
+    ],
+    "scope": {
+      "in": [
+        "IAS 16 — property, plant and equipment",
+        "Initiële waardering (kostprijs · directly attributable costs)",
+        "Latere waardering: cost model vs revaluation model",
+        "Afschrijving (depreciation) — systematic basis + component-aanpak",
+        "Impairment-link IAS 36",
+        "De-recognition + meerwaarden"
+      ],
+      "out": [
+        {
+          "topic": "Vaste activa B-GAAP-perspectief",
+          "richting": "moet-verwijzen",
+          "ref": "vaste-activa"
+        },
+        {
+          "topic": "IFRS Σ overkoepelend",
+          "richting": "moet-verwijzen",
+          "ref": "ifrs"
+        },
+        {
+          "topic": "Herwaardering vast actief (B-GAAP-revaluation)",
+          "richting": "mag-verwijzen",
+          "ref": "herwaardering-vast-actief"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "ifrs"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "vaste-activa"
+    }
+  ]
+}

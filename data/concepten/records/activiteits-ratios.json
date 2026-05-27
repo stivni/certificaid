@@ -1,0 +1,275 @@
+{
+  "id": "activiteits-ratios",
+  "naam": {
+    "primair": "Activiteitsratio's"
+  },
+  "concept_type": "ratio",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.3.II.C",
+      "1.9.V.D"
+    ],
+    "scope": {
+      "in": [
+        "Σ-categorie voor 4 ratio's: omloopsnelheid-klanten · omloopsnelheid-leveranciers · omloopsnelheid-voorraad · werkkapitaalbehoefte",
+        "Gemeenschappelijke interpretatie: Operationele efficiëntie · cash-conversion-cycle-link · trade-credit-implicaties",
+        "Benchmark-bandbreedtes per sector",
+        "Valkuilen + signaalwaarde",
+        "Nooit-in-isolement-principe (combineer met andere categorieën + kwalitatieve signalen)"
+      ],
+      "out": [
+        {
+          "topic": "Ratio-interpretatie cross-categorie (DuPont · cash-conversion-cycle)",
+          "richting": "moet-verwijzen",
+          "ref": "ratio-interpretatie"
+        },
+        {
+          "topic": "Jaarrekeninganalyse Σ (parent)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekeninganalyse"
+        },
+        {
+          "topic": "Financiële diagnose (geheel-oordeel)",
+          "richting": "mag-verwijzen",
+          "ref": "financiele-diagnose"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "omloopsnelheid-klanten",
+        "naam": {
+          "primair": "Omloopsnelheid klanten"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "omloopsnelheid-klanten-formule",
+              "naam": {
+                "primair": "Formule omloopsnelheid-klanten"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "omloopsnelheid-leveranciers",
+        "naam": {
+          "primair": "Omloopsnelheid leveranciers"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "omloopsnelheid-leveranciers-formule",
+              "naam": {
+                "primair": "Formule omloopsnelheid-leveranciers"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "omloopsnelheid-voorraad",
+        "naam": {
+          "primair": "Omloopsnelheid voorraad"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "omloopsnelheid-voorraad-formule",
+              "naam": {
+                "primair": "Formule omloopsnelheid-voorraad"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "werkkapitaalbehoefte",
+        "naam": {
+          "primair": "Werkkapitaalbehoefte"
+        },
+        "concept_type": "ratio",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "⏳ Te beschrijven in Fase 2",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  {
+                    "type": "ai_model",
+                    "naam": "cluster-skeleton-agent",
+                    "datum": "2026-05-28"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "werkkapitaalbehoefte-formule",
+              "naam": {
+                "primair": "Formule werkkapitaalbehoefte"
+              },
+              "bouwsteen_type": "formule",
+              "kern": {
+                "definitie": {
+                  "tekst": "⏳ Te beschrijven in Fase 2",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "cluster-skeleton-agent",
+                        "datum": "2026-05-28"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "jaarrekeninganalyse"
+    }
+  ]
+}

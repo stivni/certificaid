@@ -1,0 +1,88 @@
+{
+  "id": "resultaatverwerking",
+  "naam": {
+    "primair": "Resultaatverwerking",
+    "synoniemen": [
+      "winstbestemming",
+      "resultaatbestemming"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "1.1.II.Q"
+    ],
+    "scope": {
+      "in": [
+        "MAR-klasse 79 — winstbestemming + onttrekkingen",
+        "Te bestemmen winst van het boekjaar",
+        "Reservevorming (wettelijk + statutair + beschikbaar)",
+        "Dividend-voorstel + uitkering aan aandeelhouders",
+        "Cross winstuitkering-cluster voor uitkeringsvormen"
+      ],
+      "out": [
+        {
+          "topic": "Winstuitkering Σ (keuze-kader uitkeringsvormen)",
+          "richting": "moet-verwijzen",
+          "ref": "winstuitkering"
+        },
+        {
+          "topic": "Eindejaarsverrichtingen (afsluit-cyclus)",
+          "richting": "moet-verwijzen",
+          "ref": "eindejaarsverrichtingen"
+        },
+        {
+          "topic": "Jaarrekening-presentatie",
+          "richting": "mag-verwijzen",
+          "ref": "jaarrekening"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    },
+    {
+      "type": "triggert",
+      "target": "winstuitkering"
+    }
+  ]
+}

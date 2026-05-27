@@ -1,0 +1,158 @@
+{
+  "id": "bedrijfswaardering",
+  "naam": {
+    "primair": "Bedrijfswaardering",
+    "synoniemen": [
+      "business valuation",
+      "waardering onderneming"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "4.0.taak.6",
+      "3.0.taak.2"
+    ],
+    "scope": {
+      "in": [
+        "Waarderings-methodes: DCF (Discounted Cash Flow) · multiples (P/E · EV/EBITDA) · NAV (Net Asset Value) · gemengde methodes",
+        "Context: overdracht (share-deal · asset-deal) · exit-planning · familiale opvolging · earn-out-modellen",
+        "DCF-input: free cash flow + discount rate (WACC)",
+        "Multiples: vergelijkbare transacties + beurs-vergelijkbare",
+        "Fiscale-aandachtspunten bij waardering (VenB + registratie-impact)"
+      ],
+      "out": [
+        {
+          "topic": "Free cash flow (DCF-input)",
+          "richting": "moet-verwijzen",
+          "ref": "free-cash-flow"
+        },
+        {
+          "topic": "Overdracht-onderneming (toepassings-context)",
+          "richting": "moet-verwijzen",
+          "ref": "overdracht-onderneming"
+        },
+        {
+          "topic": "Investeringsevaluatie (verwante DCF-techniek)",
+          "richting": "moet-verwijzen",
+          "ref": "investeringsevaluatie"
+        },
+        {
+          "topic": "Bedrijfsstrategie-inzicht (context)",
+          "richting": "mag-verwijzen",
+          "ref": "bedrijfsstrategie-inzicht"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "dcf-methode",
+        "naam": {
+          "primair": "DCF-methode (Discounted Cash Flow)"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "multiples-methode",
+        "naam": {
+          "primair": "Multiples-methode (P/E · EV/EBITDA)"
+        },
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "nav-methode",
+        "naam": {
+          "primair": "Net Asset Value (NAV)"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "vereist",
+      "target": "free-cash-flow"
+    }
+  ]
+}

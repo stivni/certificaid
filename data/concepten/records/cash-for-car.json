@@ -1,0 +1,91 @@
+{
+  "id": "cash-for-car",
+  "naam": {
+    "primair": "Mobiliteitsvergoeding (cash-for-car)",
+    "synoniemen": [
+      "cash for car",
+      "CfC",
+      "mobiliteitsvergoeding"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Mobiliteitsvergoeding (wet 30 maart 2018) — werknemer levert bedrijfswagen in voor vast maandelijks cash-bedrag",
+        "Formule: cash-bedrag ~ VAA-equivalent",
+        "Status uitdovend — Grondwettelijk Hof arrest 23/2023 (januari 2023) vernietigde regeling",
+        "Overgangsregime voor lopende mobiliteitsvergoedingen"
+      ],
+      "out": [
+        {
+          "topic": "Mobiliteitsbudget als alternatief",
+          "richting": "moet-verwijzen",
+          "ref": "mobiliteitsbudget"
+        },
+        {
+          "topic": "Reguliere autokosten + bedrijfswagen",
+          "richting": "moet-verwijzen",
+          "ref": "autokosten"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "uitdovend",
+        "sinds": "2023-01",
+        "wettelijke_basis": "Grondwettelijk Hof arrest 23/2023 (vernietigde wet 30 maart 2018)",
+        "toelichting": "Geen nieuwe mobiliteitsvergoedingen mogelijk; lopende vergoedingen onder overgangsregime."
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "autokosten"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "mobiliteitsbudget"
+    }
+  ]
+}

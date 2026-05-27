@@ -1,0 +1,83 @@
+{
+  "id": "opbrengstverantwoording",
+  "naam": {
+    "primair": "Opbrengstverantwoording (IFRS 15)",
+    "synoniemen": [
+      "IFRS 15",
+      "Revenue from Contracts with Customers"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.5.V.D"
+    ],
+    "scope": {
+      "in": [
+        "IFRS 15 — Revenue from Contracts with Customers (vroeger IAS 18)",
+        "5-stappen-model: identify contract · identify performance obligations · determine transaction price · allocate · recognize",
+        "Over-time vs point-in-time recognition",
+        "Variable consideration + significant financing component",
+        "Cross PO 1.5 + boekhouding klasse 70 (B-GAAP-perspectief)"
+      ],
+      "out": [
+        {
+          "topic": "Bedrijfsopbrengsten B-GAAP (klasse 70-74)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsopbrengsten"
+        },
+        {
+          "topic": "IFRS Σ overkoepelend",
+          "richting": "moet-verwijzen",
+          "ref": "ifrs"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "ifrs"
+    },
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "bedrijfsopbrengsten"
+    }
+  ]
+}

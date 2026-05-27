@@ -1,0 +1,79 @@
+{
+  "id": "activity-based-costing",
+  "naam": {
+    "primair": "Activity-Based Costing (ABC)",
+    "synoniemen": [
+      "abc-methode",
+      "ABC",
+      "activity-based-costing"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "1.8.III.F"
+    ],
+    "scope": {
+      "in": [
+        "Activity-pools + cost-drivers",
+        "Accuratere overhead-toerekening dan traditionele machine-uren-basis",
+        "4-stappen-model: identify activities · assign costs to activities · identify drivers · assign costs to products",
+        "Time-Driven ABC-variant (TDABC)"
+      ],
+      "out": [
+        {
+          "topic": "Kostprijsmethoden Σ-keuze-kader",
+          "richting": "moet-verwijzen",
+          "ref": "kostprijsmethoden"
+        },
+        {
+          "topic": "Analytische boekhouding (parent)",
+          "richting": "mag-verwijzen",
+          "ref": "analytische-boekhouding"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "kostprijsmethoden"
+    }
+  ]
+}

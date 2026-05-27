@@ -1,0 +1,181 @@
+{
+  "id": "analytische-boekhouding",
+  "naam": {
+    "primair": "Analytische boekhouding (management accounting)",
+    "synoniemen": [
+      "analytische boekhouding",
+      "kostenboekhouding",
+      "management accounting",
+      "cost accounting"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.8.I",
+      "1.8.I.A",
+      "1.8.I.B",
+      "1.8.II",
+      "1.8.II.A",
+      "1.8.II.B",
+      "1.8.II.C",
+      "1.8.II.D",
+      "1.8.IV.A",
+      "1.8.IV.B",
+      "1.8.IV.C",
+      "1.8.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "Σ-hoofdrecord management-accounting-cluster",
+        "Doelstellingen en belang analytische boekhouding",
+        "Interface boekhouding ↔ management-accounting",
+        "Kostentypologie: vast/variabel · direct/indirect · controleerbaar/oncontroleerbaar · sunk · opportunity · differentieel",
+        "Kostencomponenten: materialen · arbeid · overige kosten · cost-driver-aanduiding",
+        "Rekeningenstelsel-toe-eigening",
+        "Registratiesystemen (autonoom · geïntegreerd · interface)",
+        "Specifieke problemen registratiesystemen"
+      ],
+      "out": [
+        {
+          "topic": "Kostprijsmethoden Σ-keuze",
+          "richting": "moet-verwijzen",
+          "ref": "kostprijsmethoden"
+        },
+        {
+          "topic": "Budgetbeheer Σ",
+          "richting": "moet-verwijzen",
+          "ref": "budgetbeheer"
+        },
+        {
+          "topic": "Algemene boekhouding (klasse 60-65)",
+          "richting": "moet-verwijzen",
+          "ref": "boekhouding"
+        },
+        {
+          "topic": "Bedrijfskosten (MAR-context)",
+          "richting": "mag-verwijzen",
+          "ref": "bedrijfskosten"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "kostentypologie-vast-variabel",
+        "naam": {
+          "primair": "Vast vs variabel"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kostentypologie-direct-indirect",
+        "naam": {
+          "primair": "Direct vs indirect"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kostentypologie-sunk-opportunity",
+        "naam": {
+          "primair": "Sunk · opportunity · differentieel"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    },
+    {
+      "type": "bevat",
+      "target": "kostprijsmethoden"
+    },
+    {
+      "type": "bevat",
+      "target": "budgetbeheer"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "boekhoudplicht",
+  "naam": {
+    "primair": "Boekhoudplicht",
+    "synoniemen": [
+      "boekhoudkundige verplichting"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "1.2.III",
+      "1.2.III.B",
+      "1.2.III.C",
+      "1.2.III.D"
+    ],
+    "scope": {
+      "in": [
+        "Wie moet boekhouden? — art III.82-III.95 WER",
+        "Onderscheid handelaar vs onderneming vs niet-handelaar",
+        "Vereenvoudigde boekhouding (art III.85): natuurlijke personen + bep. vennootschappen onder drempel — alternatief voor dubbele",
+        "VZW/stichting-regime: vereenvoudigd vs dubbel-boekhouden per groottecategorie",
+        "Wettelijke vereisten (chronologische dagboeken · grootboek · MAR · inventaris · jaarafsluit)"
+      ],
+      "out": [
+        {
+          "topic": "Dubbele-boekhouding-mechaniek",
+          "richting": "moet-verwijzen",
+          "ref": "dubbele-boekhouding"
+        },
+        {
+          "topic": "Groottecategorie-vennootschap (drempels)",
+          "richting": "moet-verwijzen",
+          "ref": "groottecategorie-vennootschap"
+        },
+        {
+          "topic": "Groottecategorie-vereniging",
+          "richting": "moet-verwijzen",
+          "ref": "groottecategorie-vereniging"
+        },
+        {
+          "topic": "Belgisch boekhoudrecht (algemeen kader)",
+          "richting": "moet-verwijzen",
+          "ref": "belgisch-boekhoudrecht"
+        },
+        {
+          "topic": "Ondernemingsvormen (juridische-vormkeuze)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "vereenvoudigde-boekhouding-drempel",
+        "naam": {
+          "primair": "Vereenvoudigde boekhouding — drempel + voorwaarden (art III.85)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "belgisch-boekhoudrecht"
+    },
+    {
+      "type": "vereist",
+      "target": "dubbele-boekhouding"
+    }
+  ]
+}

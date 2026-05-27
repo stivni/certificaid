@@ -1,0 +1,103 @@
+{
+  "id": "consolidatiemethoden",
+  "naam": {
+    "primair": "Consolidatiemethoden",
+    "synoniemen": [
+      "consolidatietechnieken"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.4.I.D",
+      "1.4.I.E",
+      "1.4.II.C"
+    ],
+    "scope": {
+      "in": [
+        "Σ-keuze-record: welke methode wanneer?",
+        "Keuze-as: controle-niveau → methode",
+        "Volledige controle → integrale consolidatie",
+        "Gezamenlijke controle → evenredige consolidatie of vermogensmutatie",
+        "Invloed van betekenis → vermogensmutatie",
+        "Vergelijkings-matrix: 3 methodes × kenmerken (% opname · presentatie · minderheidsbelangen)"
+      ],
+      "out": [
+        {
+          "topic": "Integrale consolidatie (detail)",
+          "richting": "moet-verwijzen",
+          "ref": "integrale-consolidatie"
+        },
+        {
+          "topic": "Evenredige consolidatie (detail)",
+          "richting": "moet-verwijzen",
+          "ref": "evenredige-consolidatie"
+        },
+        {
+          "topic": "Vermogensmutatiemethode (detail)",
+          "richting": "moet-verwijzen",
+          "ref": "vermogensmutatiemethode"
+        },
+        {
+          "topic": "Controle-bij-consolidatie (input controle-niveau)",
+          "richting": "moet-verwijzen",
+          "ref": "controle-bij-consolidatie"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "geconsolideerde-jaarrekening"
+    },
+    {
+      "type": "bevat",
+      "target": "integrale-consolidatie"
+    },
+    {
+      "type": "bevat",
+      "target": "evenredige-consolidatie"
+    },
+    {
+      "type": "bevat",
+      "target": "vermogensmutatiemethode"
+    }
+  ]
+}

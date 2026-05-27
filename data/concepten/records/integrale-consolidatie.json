@@ -1,0 +1,80 @@
+{
+  "id": "integrale-consolidatie",
+  "naam": {
+    "primair": "Integrale consolidatie",
+    "synoniemen": [
+      "full consolidation"
+    ]
+  },
+  "concept_type": "verrichting",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling",
+      "gebeurtenis"
+    ],
+    "ankers": [
+      "1.4.I.D",
+      "1.4.I.E",
+      "1.4.II.C"
+    ],
+    "scope": {
+      "in": [
+        "100% activa + passiva + resultaten opname",
+        "Minderheidsbelangen-detectie + presentatie in EV en resultaat",
+        "Toepassing bij volledige controle (>50% stemrechten of de-facto-controle)",
+        "Intercompany-eliminaties verplicht"
+      ],
+      "out": [
+        {
+          "topic": "Consolidatiemethoden Σ-keuze-kader",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatiemethoden"
+        },
+        {
+          "topic": "Minderheidsbelangen (alleen relevant bij integraal)",
+          "richting": "mag-verwijzen",
+          "ref": "minderheidsbelangen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "consolidatiemethoden"
+    }
+  ]
+}

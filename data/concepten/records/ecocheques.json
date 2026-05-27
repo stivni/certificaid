@@ -1,0 +1,86 @@
+{
+  "id": "ecocheques",
+  "naam": {
+    "primair": "Ecocheques",
+    "synoniemen": [
+      "groene cheques"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Cheque-stelsel werkgever → werknemer (max €250/jaar — vrijgesteld RSZ + PB · NIET aftrekbaar werkgever)",
+        "CAO 98 lijst toegelaten producten/diensten",
+        "Verworpen uitgave (niet aftrekbaar)",
+        "PB-vrijstelling onder voorwaarden",
+        "Boekhoudkundige verwerking (klasse 61/62)"
+      ],
+      "out": [
+        {
+          "topic": "Werknemer-loon (alternatief)",
+          "richting": "moet-verwijzen",
+          "ref": "loon-en-payroll"
+        },
+        {
+          "topic": "Andere cheques (vergelijking)",
+          "richting": "mag-verwijzen",
+          "ref": "maaltijdcheques"
+        },
+        {
+          "topic": "Verworpen uitgaven (filter)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "werknemers-vergoedingen"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "maaltijdcheques"
+    }
+  ]
+}

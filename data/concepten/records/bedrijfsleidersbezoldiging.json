@@ -1,0 +1,153 @@
+{
+  "id": "bedrijfsleidersbezoldiging",
+  "naam": {
+    "primair": "Bedrijfsleidersbezoldiging",
+    "synoniemen": [
+      "bedrijfsleidersloon",
+      "zaakvoerdersbezoldiging"
+    ]
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3",
+      "2.3.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Overkoepelend advies-regime bezoldigingsmix bedrijfsleider categorie 1 (bestuurder/zaakvoerder)",
+        "4 bouwblokken: (1) maandelijks loon + BV · (2) tantième na AV-winstbestemming · (3) voordelen-alle-aard · (4) onrechtstreekse vergoeding via huur · groepsverzekering · dividend",
+        "45.000-EUR-bezoldigingsregel voor KMO-tarief VenB (minstens één bedrijfsleider)",
+        "Bezoldigingstheorie (aftrekbaarheid kosten woning/auto in vennootschap)"
+      ],
+      "out": [
+        {
+          "topic": "Werknemer-loon en payroll-cascade",
+          "richting": "moet-verwijzen",
+          "ref": "loon-en-payroll"
+        },
+        {
+          "topic": "Tantième-details",
+          "richting": "moet-verwijzen",
+          "ref": "tantieme"
+        },
+        {
+          "topic": "VAA-componenten (woning · auto · lening · ...)",
+          "richting": "moet-verwijzen",
+          "ref": "vaa-woning"
+        },
+        {
+          "topic": "Groepsverzekering / IPT als pensioencomponent",
+          "richting": "moet-verwijzen",
+          "ref": "groepsverzekering-ipt"
+        },
+        {
+          "topic": "KMO-tarief 20% (verlaagd-tarief)",
+          "richting": "moet-verwijzen",
+          "ref": "verlaagd-tarief-kleine-vennootschap"
+        },
+        {
+          "topic": "Dividend-uitkering als alternatieve route",
+          "richting": "mag-verwijzen",
+          "ref": "dividend-uitkering"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "45000-bezoldigingsregel",
+        "naam": {
+          "primair": "45.000-EUR-bezoldigingsregel (KMO-tarief)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bezoldigingstheorie",
+        "naam": {
+          "primair": "Bezoldigingstheorie (aftrekbaarheid kosten woning/auto)"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "vereist",
+      "target": "verlaagd-tarief-kleine-vennootschap"
+    },
+    {
+      "type": "bevat",
+      "target": "tantieme"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "dividend-uitkering"
+    }
+  ]
+}

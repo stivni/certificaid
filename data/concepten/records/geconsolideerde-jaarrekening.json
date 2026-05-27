@@ -1,0 +1,114 @@
+{
+  "id": "geconsolideerde-jaarrekening",
+  "naam": {
+    "primair": "Geconsolideerde jaarrekening",
+    "synoniemen": [
+      "geconsolideerde JR",
+      "groepsrapportering"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.4.I",
+      "1.4.I.B",
+      "1.4.I.C",
+      "1.4.I.F",
+      "1.4.II",
+      "1.4.II.A",
+      "1.4.II.C",
+      "1.4.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "Σ-hoofdrecord consolidatie",
+        "B-GAAP-kader (KB 30-01-2001 + Boekhoudwet)",
+        "IFRS-kader (IFRS 10 · IFRS 3 · IFRS 11 · IFRS 12)",
+        "Wettelijk kader + welke groep + methode-keuze + praktische opmaak",
+        "Onderscheid statutaire JR (individueel) vs geconsolideerde JR (groep)"
+      ],
+      "out": [
+        {
+          "topic": "Consolidatieverplichting (wanneer moet?)",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatieverplichting"
+        },
+        {
+          "topic": "Consolidatiekring (wie zit erin?)",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatiekring"
+        },
+        {
+          "topic": "Consolidatiemethoden Σ-keuze",
+          "richting": "moet-verwijzen",
+          "ref": "consolidatiemethoden"
+        },
+        {
+          "topic": "Opmaak-procedure (stap-voor-stap)",
+          "richting": "moet-verwijzen",
+          "ref": "opmaak-geconsolideerde-jaarrekening"
+        },
+        {
+          "topic": "Individuele jaarrekening (statutair)",
+          "richting": "moet-verwijzen",
+          "ref": "jaarrekening"
+        },
+        {
+          "topic": "IFRS Σ overkoepelend",
+          "richting": "mag-verwijzen",
+          "ref": "ifrs"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "vergelijkbaar_met",
+      "target": "jaarrekening"
+    },
+    {
+      "type": "vereist",
+      "target": "consolidatieverplichting"
+    },
+    {
+      "type": "bevat",
+      "target": "consolidatiemethoden"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "werknemers-vergoedingen",
+  "naam": {
+    "primair": "Werknemers-vergoedingen",
+    "synoniemen": [
+      "loonpakket",
+      "vergoedingspakket",
+      "alternatieve verloning",
+      "salary package"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader",
+      "regeling"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Σ-keuzekader voor alle vergoedingsvormen werkgever → werknemer/bedrijfsleider",
+        "Afbakening 'wanneer is iets loon (BV + RSZ + 100% aftrekbaar) vs vrijgesteld/bevoordeeld?'",
+        "7 vormen: cash-loon · cheques (MC/ECO/SC/geschenken) · VAA · extra-legaal pensioen (groepsverzekering/IPT) · aandelenoptie/warrant · bonus (CAO 90) · onkostenvergoeding",
+        "Vergelijkings-matrix per vorm: PB-behandeling werknemer · RSZ-werknemer · RSZ-werkgever · VenB-aftrekbaarheid · plafonds · administratieve discipline (fiche/CAO/toetreding)"
+      ],
+      "out": [
+        {
+          "topic": "Bedrijfsleider-bezoldigingsmix (4 bouwblokken)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Payroll-techniek (bruto→netto cascade)",
+          "richting": "moet-verwijzen",
+          "ref": "loon-en-payroll"
+        },
+        {
+          "topic": "Tantième (primair winstuitkering)",
+          "richting": "moet-verwijzen",
+          "ref": "tantieme"
+        },
+        {
+          "topic": "Auto-VAA + mobiliteit",
+          "richting": "moet-verwijzen",
+          "ref": "autokosten"
+        },
+        {
+          "topic": "Verworpen-uitgaven-filter (algemeen)",
+          "richting": "niet-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "bevat",
+      "target": "bedrijfsleidersbezoldiging"
+    },
+    {
+      "type": "bevat",
+      "target": "loon-en-payroll"
+    },
+    {
+      "type": "bevat",
+      "target": "maaltijdcheques"
+    },
+    {
+      "type": "bevat",
+      "target": "ecocheques"
+    },
+    {
+      "type": "bevat",
+      "target": "vaa-woning"
+    },
+    {
+      "type": "bevat",
+      "target": "groepsverzekering-ipt"
+    },
+    {
+      "type": "bevat",
+      "target": "warrants-en-aandelenopties"
+    },
+    {
+      "type": "bevat",
+      "target": "niet-recurrente-resultaatsgebonden-bonus"
+    }
+  ]
+}

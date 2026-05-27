@@ -1,0 +1,77 @@
+{
+  "id": "standaardkostenmethode",
+  "naam": {
+    "primair": "Standaardkostenmethode",
+    "synoniemen": [
+      "standard costing"
+    ]
+  },
+  "concept_type": "procedure",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "1.8.III.C"
+    ],
+    "scope": {
+      "in": [
+        "Voorafbepaalde standaarden (norm-kosten) per kostencategorie",
+        "Variantieanalyse — afwijking standaard vs werkelijk",
+        "Efficiency-meting",
+        "Cross variantieanalyse (apart record)"
+      ],
+      "out": [
+        {
+          "topic": "Kostprijsmethoden Σ-keuze-kader",
+          "richting": "moet-verwijzen",
+          "ref": "kostprijsmethoden"
+        },
+        {
+          "topic": "Variantieanalyse (toepassings-cross)",
+          "richting": "mag-verwijzen",
+          "ref": "variantieanalyse"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "kostprijsmethoden"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "id": "voorzieningen",
+  "naam": {
+    "primair": "Voorzieningen",
+    "synoniemen": [
+      "provisies"
+    ]
+  },
+  "concept_type": "balanspost",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "1.1.II.I"
+    ],
+    "scope": {
+      "in": [
+        "MAR-klasse 160-163 — pensioenen + grote herstellingen + waarborgen + andere risico's",
+        "Voorzichtigheidsbeginsel: zeker bedrag · onzekere termijn",
+        "Waarderingsregels (best estimate + actualisatie indien LT)",
+        "Onderscheid met schulden (zeker bedrag + termijn) vs uitgestelde belastingen"
+      ],
+      "out": [
+        {
+          "topic": "Uitgestelde belastingen (zelfde klasse 16 ander fenomeen)",
+          "richting": "moet-verwijzen",
+          "ref": "uitgestelde-belastingen"
+        },
+        {
+          "topic": "IFRS-IAS 37 (provisions)",
+          "richting": "mag-verwijzen",
+          "ref": "ifrs"
+        },
+        {
+          "topic": "Schulden op korte termijn",
+          "richting": "mag-verwijzen",
+          "ref": "schulden-op-korte-termijn"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    },
+    {
+      "type": "vereist",
+      "target": "boekhoudbeginselen"
+    }
+  ]
+}

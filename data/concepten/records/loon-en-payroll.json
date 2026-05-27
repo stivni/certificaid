@@ -1,0 +1,163 @@
+{
+  "id": "loon-en-payroll",
+  "naam": {
+    "primair": "Loon en payroll",
+    "synoniemen": [
+      "payroll",
+      "loonberekening",
+      "loonadministratie"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "2.2.taak.3"
+    ],
+    "scope": {
+      "in": [
+        "Deterministische bruto-naar-netto-flow (geen keuze, methodologie)",
+        "Werknemer-zijde: bruto-loon → BV → RSZ-werknemer → netto-loon",
+        "Werkgever-zijde: bruto-loon + RSZ-werkgever → totale loonkost",
+        "Referentie-tabellen (RSZ-percentages + BV-schalen — Cijferzakboekje)",
+        "Correcties: werkbonus + fiscale aftrekken",
+        "ITAA permanente vorming-onderwerp"
+      ],
+      "out": [
+        {
+          "topic": "Werknemers-vergoedingen Σ (alternatieven vs loon)",
+          "richting": "moet-verwijzen",
+          "ref": "werknemers-vergoedingen"
+        },
+        {
+          "topic": "Bedrijfsleider-bezoldigingsmix (geen RSZ-werknemer)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Componenten — bruto-loon",
+          "richting": "moet-verwijzen",
+          "ref": "bruto-loon"
+        },
+        {
+          "topic": "Componenten — bedrijfsvoorheffing",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsvoorheffing"
+        },
+        {
+          "topic": "RSZ-werknemer",
+          "richting": "moet-verwijzen",
+          "ref": "rsz-werknemer"
+        },
+        {
+          "topic": "RSZ-werkgever",
+          "richting": "moet-verwijzen",
+          "ref": "rsz-werkgever"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "bruto-naar-netto-flow",
+        "naam": {
+          "primair": "Bruto → BV → RSZ → netto cascade"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "totale-loonkost-flow",
+        "naam": {
+          "primair": "Bruto + RSZ-werkgever → totale loonkost"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "⏳ Te beschrijven in Fase 2",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "cluster-skeleton-agent",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "werknemers-vergoedingen"
+    },
+    {
+      "type": "bevat",
+      "target": "bruto-loon"
+    },
+    {
+      "type": "bevat",
+      "target": "bedrijfsvoorheffing"
+    },
+    {
+      "type": "bevat",
+      "target": "rsz-werknemer"
+    },
+    {
+      "type": "bevat",
+      "target": "rsz-werkgever"
+    }
+  ]
+}

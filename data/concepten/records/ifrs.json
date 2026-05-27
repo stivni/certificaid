@@ -1,0 +1,127 @@
+{
+  "id": "ifrs",
+  "naam": {
+    "primair": "International Financial Reporting Standards (IFRS)",
+    "afkorting": "IFRS",
+    "synoniemen": [
+      "International Financial Reporting Standards",
+      "IAS"
+    ]
+  },
+  "concept_type": "kader",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "kader"
+    ],
+    "ankers": [
+      "1.5.I",
+      "1.5.II",
+      "1.5.III",
+      "1.5.IV",
+      "1.5.IV.A",
+      "1.5.IV.B",
+      "1.5.IV.C",
+      "1.5.taak.1"
+    ],
+    "scope": {
+      "in": [
+        "Σ-hoofdrecord IFRS-rapportering",
+        "IASB-rol + IAS-Verordening EU 1606/2002 (rechtsbasis)",
+        "Directe toepassing op genoteerde groepen + optie voor niet-genoteerde",
+        "Belgische toepassings-context",
+        "IFRS 1 — eerste toepassing (openings-balans + retrospectieve aanpassingen)",
+        "Conceptueel kader IASB",
+        "IAS 1 — presentatie jaarrekening (comprehensive income + classification)",
+        "Afwijkingen t.o.v. Belgisch-GAAP",
+        "EU-richtlijn 2013/34 link"
+      ],
+      "out": [
+        {
+          "topic": "Belgisch boekhoudrecht (B-GAAP-kader)",
+          "richting": "moet-verwijzen",
+          "ref": "belgisch-boekhoudrecht"
+        },
+        {
+          "topic": "Materiële vaste activa IAS 16",
+          "richting": "moet-verwijzen",
+          "ref": "materiele-vaste-activa"
+        },
+        {
+          "topic": "Immateriële vaste activa IAS 38",
+          "richting": "moet-verwijzen",
+          "ref": "immateriele-vaste-activa"
+        },
+        {
+          "topic": "Opbrengstverantwoording IFRS 15",
+          "richting": "moet-verwijzen",
+          "ref": "opbrengstverantwoording"
+        },
+        {
+          "topic": "Consolidatie IFRS 10/3/11/12",
+          "richting": "moet-verwijzen",
+          "ref": "geconsolideerde-jaarrekening"
+        },
+        {
+          "topic": "Voorraden IAS 2 (B-GAAP-perspectief primair)",
+          "richting": "mag-verwijzen",
+          "ref": "voorraden"
+        },
+        {
+          "topic": "Leasing IFRS 16 (B-GAAP-perspectief primair)",
+          "richting": "mag-verwijzen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "alternatief_referentiestelsel",
+      "target": "belgisch-boekhoudrecht"
+    },
+    {
+      "type": "bevat",
+      "target": "materiele-vaste-activa"
+    },
+    {
+      "type": "bevat",
+      "target": "immateriele-vaste-activa"
+    },
+    {
+      "type": "bevat",
+      "target": "opbrengstverantwoording"
+    }
+  ]
+}

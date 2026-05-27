@@ -1,0 +1,82 @@
+{
+  "id": "bedrijfskosten",
+  "naam": {
+    "primair": "Bedrijfskosten",
+    "synoniemen": [
+      "operationele kosten"
+    ]
+  },
+  "concept_type": "balanspost",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "skeleton",
+    "categorieen": [
+      "entiteit"
+    ],
+    "ankers": [
+      "1.1.II.M"
+    ],
+    "scope": {
+      "in": [
+        "MAR-klasse 60-65",
+        "60 handelsgoederen + 61 diensten/diverse goederen + 62 personeelskosten + 630/631 afschrijvingen + 634 waardeverminderingen + 635-638 andere",
+        "Onderscheid productie- vs distributie- vs administratie-kosten",
+        "Cross naar resultatenrekening-presentatie"
+      ],
+      "out": [
+        {
+          "topic": "Bedrijfsopbrengsten (klasse 7)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsopbrengsten"
+        },
+        {
+          "topic": "Personeelskosten (klasse 62 specifiek)",
+          "richting": "moet-verwijzen",
+          "ref": "personeelskosten"
+        },
+        {
+          "topic": "Resultatenverwerking (jaarafsluit)",
+          "richting": "mag-verwijzen",
+          "ref": "resultaatverwerking"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "cluster-skeleton-agent",
+      "wave_id": "skeleton-cross-cutting-2026-05-28",
+      "iteratie": "skeleton-v1"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "⏳ Te beschrijven in Fase 2",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "cluster-skeleton-agent",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "boekhouding"
+    }
+  ]
+}
