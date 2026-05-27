@@ -4,15 +4,19 @@
     "primair": "Jaarrekening",
     "afkorting": "JR",
     "synoniemen": [
-      "financial statements",
-      "annual accounts",
-      "synthesedocumenten"
-    ]
+      "synthesedocumenten",
+      "statutaire jaarrekening",
+      "enkelvoudige jaarrekening"
+    ],
+    "vertaling": {
+      "fr": "comptes annuels",
+      "en": "annual accounts"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "entiteit"
@@ -30,9 +34,16 @@
       "1.2.taak.1"
     ],
     "provenance": {
-      "model": "skeleton-generator",
-      "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-test-2026-05-28",
+      "iteratie": "concept-v1",
+      "mcp_calls": 6,
+      "primary_bronnen": [
+        "KB-WVV-2019 art 3:1, 3:3, 3:6, 3:8, 3:59, 3:61, 3:81, 3:84, 3:163, 3:166",
+        "WVV art 3:1, 3:6, 3:10, 3:12, 3:70, 3:72",
+        "WER art III.82, III.83, III.89",
+        "CBN-2019/09, CBN-2020/05, CBN-2020/12, CBN-2022/03, CBN-2024/07"
+      ]
     },
     "changelog": [
       {
@@ -41,6 +52,13 @@
         "model": "skeleton-generator",
         "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-test-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — kern + perspectieven + voorbeelden + valkuilen + claims-check tegen WVV/KB/CBN primaire bronnen"
       }
     ],
     "scope": {
@@ -94,14 +112,61 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "tekst": "De **jaarrekening** is het gestandaardiseerde geheel van synthesedocumenten dat het bestuursorgaan van een vennootschap, VZW, IVZW of stichting jaarlijks moet opmaken en dat een **getrouw beeld** geeft van het vermogen, de financiële positie en het resultaat. De jaarrekening bestaat verplicht uit **drie onderdelen die één geheel vormen**: de **balans**, de **resultatenrekening** en de **toelichting**. Voor grote vennootschappen wordt daar een **sociale balans** als bijlage aan toegevoegd. Het bestuursorgaan moet de jaarrekening binnen **zes maanden** na de afsluitdatum ter goedkeuring voorleggen aan de algemene vergadering.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
-              "type": "ai_model",
-              "naam": "skeleton-generator",
-              "datum": "2026-05-27"
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:1, § 1",
+              "context": "Jaarrekening bestaat uit balans + resultatenrekening + toelichting en vormt een geheel; voor te leggen aan AV binnen zes maanden na afsluitdatum"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:1",
+              "context": "Getrouw-beeld-voorschrift + aanvullende inlichtingen in toelichting"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De jaarrekening vervult **drie rollen tegelijk** in het Belgische rechts- en boekhoudsysteem:\n\n1. **Informatieverstrekking** — aandeelhouders, schuldeisers, werknemers en de overheid krijgen via NBB-neerlegging een gestandaardiseerd en publiek toegankelijk beeld van de financiële toestand;\n2. **Rechtsbescherming + bestuursverantwoording** — de jaarrekening is de basis voor de resultaatbestemming (dividenden vs. reserves), de kapitaalbeschermingstests (nettoactieftest), de bestuurdersaansprakelijkheid bij niet-neerlegging (art. 3:10 WVV: geleden schade wordt vermoed voort te vloeien uit het verzuim);\n3. **Fiscale grondslag** — het boekhoudkundig resultaat van de resultatenrekening is het **vertrekpunt** voor de vennootschapsbelasting-aangifte (attachment-mechanisme).\n\nDe jaarrekening werkt op het **na-toewijzing**-principe: de balans wordt opgesteld rekening houdend met de beslissingen tot resultaatsbestemming, niet vóór toewijzing.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:10",
+              "context": "Schade door derden geleden wordt geacht voort te vloeien uit niet-tijdige neerlegging"
+            },
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:3",
+              "context": "Balans opgesteld na toewijzing — rekening houdend met bestemming van saldo resultatenrekening"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De jaarrekening is wettelijk verplicht omdat de economische werkelijkheid van een onderneming **periodiek en op gestandaardiseerde wijze** gecommuniceerd moet worden naar derden die er rechten op laten gelden — schuldeisers, aandeelhouders, fiscus, sociale-zekerheidsinstellingen — en die geen dagelijkse toegang hebben tot de boekhouding. Het systeem berust op **twee pijlers**: **standaardisering** (vaste schema's voor balans, ROW en toelichting in KB 29-04-2019) en **openbaarmaking** (neerlegging bij de NBB binnen 30 dagen na goedkeuring, en ten laatste 7 maanden na afsluitdatum). De getrouw-beeld-norm (art. 3:1 KB) is de **suprema lex**: wanneer strikte toepassing van een regel een misleidend beeld geeft, moet daarvan worden afgeweken met vermelding in de toelichting.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:1",
+              "context": "Getrouw-beeld-overrule + aanvullende inlichtingen toelichting"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:10",
+              "context": "Neerlegging binnen 30 dagen na goedkeuring, ten laatste 7 maanden na afsluitdatum"
             }
           ]
         }
@@ -111,34 +176,1317 @@
       "geldigheid": {
         "status": "in-voege",
         "sinds": "1976",
-        "wettelijke_basis": "Boekhoudwet 17-07-1975 + KB 29-04-2019 + WVV Boek 3"
+        "wettelijke_basis": "Boekhoudwet 17-07-1975 + KB 29-04-2019 ter uitvoering van WVV + WVV Boek 3",
+        "toelichting": "Boekhoudplicht en jaarrekeningverplichting gaan terug op de Boekhoudwet van 17 juli 1975; de huidige vormvereisten staan in het KB van 29 april 2019 ter uitvoering van het WVV (in werking sinds boekjaren startend op 1 januari 2020)."
+      },
+      "voor": [
+        {
+          "tekst": "Elke **vennootschap, VZW, IVZW of stichting met rechtspersoonlijkheid** naar Belgisch recht — NV, BV, CV, maatschap met rechtspersoonlijkheid, vzw boven groottedrempel — is verplicht een jaarrekening op te stellen volgens een dubbele boekhouding en neer te leggen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WER",
+                "ref": "art. III.82, § 1",
+                "context": "Boekhoudplichtige ondernemingen — opsomming"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:1, § 1",
+                "context": "Bestuursorgaan stelt jaarrekening op"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De jaarrekening is het **vertrekpunt voor de fiscale aangifte VenB**: het boekhoudkundig resultaat wordt via het attachment gecorrigeerd tot de belastbare grondslag. Geen correcte jaarrekening = geen correcte VenB-aangifte.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-28",
+                "context": "Algemene fiscaal-juridische context: boekhoudkundig resultaat als basis VenB-aangifte"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De jaarrekening is **verplichte input** voor de wettelijke controle door de commissaris bij grote vennootschappen (art. 3:70 WVV) en voor jaarrekeninganalyse door schuldeisers, banken en investeerders.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:70",
+                "context": "Controle op financiële toestand, jaarrekening en regelmatigheid opgedragen aan commissaris"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Natuurlijke personen die een vereenvoudigde boekhouding voeren** (art. III.85 WER) en bepaalde kleine vennootschappen onder drempel — zij houden geen volledige jaarrekening in de NBB-zin, alleen een dagboek van ontvangsten en uitgaven + jaarlijkse inventaris.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WER",
+                "ref": "art. III.85",
+                "context": "Vereenvoudigde-boekhouding-regime — alternatief voor dubbele boekhouding"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "De jaarrekening is **niet het juiste document** om de lopende financiële toestand real-time op te volgen — daarvoor dienen analytische boekhouding, budgetten en managementrapportage (cf. PO 1.8 management-accounting).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-28",
+                "context": "Onderscheid externe vs interne rapportering"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Boekhoudplichtige onderneming** in de zin van art. III.82 WER — anders geen jaarrekening-verplichting, eventueel wel vereenvoudigde boekhouding.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WER",
+                "ref": "art. III.82",
+                "context": "Boekhoudplicht-scope"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Groottecategorie bepaald** (art. 1:24-1:25 WVV) op basis van werknemers · jaaromzet excl. btw · balanstotaal, na twee opeenvolgende boekjaren onder/boven de drempels (art. 1:24, § 2 WVV). De categorie stuurt het toepasselijke schema (vol/verkort/micro) en de commissaris-trigger.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 1:24",
+                "context": "Klein = niet meer dan één drempel overschreden: 50 VTE · €11.250.000 omzet · €6.000.000 balanstotaal (drempels verhoogd door Wet 28-03-2024)"
+              },
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 1:25",
+                "context": "Micro = klein + geen dochter/moeder + niet meer dan één drempel: 10 VTE · €900.000 omzet · €450.000 balanstotaal"
+              },
+              {
+                "type": "cbn",
+                "naam": "CBN-advies 2024/07",
+                "ref": "CBN-2024/07",
+                "context": "Gevolgen verhoging groottecriteria — drempels per 28-03-2024"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Waarderingsregels vastgelegd** door het bestuursorgaan en samengevat in de toelichting — voldoende nauwkeurig om de toegepaste waarderingsmethoden te kunnen beoordelen. Stelselmatig toepassen van boekjaar tot boekjaar (bestendigheid).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "kb",
+                "naam": "KB 29-04-2019 WVV",
+                "ref": "art. 3:6, § 1",
+                "context": "Bestuursorgaan bepaalt waarderingsregels; samenvatting in toelichting"
+              },
+              {
+                "type": "kb",
+                "naam": "KB 29-04-2019 WVV",
+                "ref": "art. 3:8",
+                "context": "Waarderingsregels stelselmatig toepassen — bestendigheid"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "**Stakeholder-transparantie** — schuldeisers, banken en handelspartners kunnen het risico inschatten via publiek toegankelijke neergelegde jaarrekeningen bij de NBB.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:10-3:12",
+                "context": "Neerleggings- en openbaarmakingsplicht"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Krediettoegang** — banken eisen tijdig neergelegde jaarrekeningen voor kredietbeoordeling; een blank XBRL-dossier bij de NBB is een vereiste voor kredietfaciliteiten.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-28",
+                "context": "Bancaire praktijk — kredietdossier vereist neergelegde JR"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Niet-tijdige neerlegging** (na 7 maanden post-afsluitdatum) — automatische **NBB-toeslag** die oploopt met de vertraging (bv. €120 na max. 8 maanden, oplopend tot €1.200 bij meer dan 9 maanden voor grote vennootschappen). Bovendien: art. 3:10 WVV vermoedt dat door derden geleden schade voortvloeit uit het verzuim — bestuurdersaansprakelijkheid kan worden ingeroepen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "WVV",
+                "ref": "art. 3:10",
+                "context": "Schadevermoeden door derden bij niet-neerlegging"
+              },
+              {
+                "type": "ai_model",
+                "naam": "claude-opus-4-7",
+                "datum": "2026-05-28",
+                "context": "NBB-tarieven late neerlegging — verwijzing naar Cijferzakboekje voor actuele bedragen"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Onjuiste schema-toepassing** — een vennootschap die ten onrechte verkort/micro toepast terwijl ze groot is, kan een rechtzetting krijgen via CBN-advies en heeft een **niet-conforme** jaarrekening. Dit kan tot bestuurdersaansprakelijkheid leiden en tot weigering door de fiscus.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "cbn",
+                "naam": "CBN-advies 2020/12",
+                "ref": "CBN-2020/12",
+                "context": "Correctie van de jaarrekening — procedure bij onjuistheid"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "**Waarderingsregels niet vastgelegd** in toelichting → schending van art. 3:6 KB → jaarrekening is materieel ongeldig en kan door commissaris worden afgekeurd.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "kb",
+                "naam": "KB 29-04-2019 WVV",
+                "ref": "art. 3:6, § 1",
+                "context": "Waarderingsregels samengevat in toelichting verplicht"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "balans",
+        "naam": {
+          "primair": "Balans",
+          "synoniemen": [
+            "vermogensoverzicht",
+            "balansstaat"
+          ]
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De **balans** is de momentopname op de afsluitdatum van de **bezittingen (activa)** en de **financieringswijze (passiva = eigen vermogen + schulden)**. Activa en passiva zijn in evenwicht: activa = passiva. De balans wordt **na toewijzing** opgesteld (art. 3:3 KB) — d.w.z. rekening houdend met de beslissingen tot bestemming van het resultaat. De **beginbalans** van een boekjaar moet overeenstemmen met de eindbalans van het voorafgaande boekjaar (continuiteit).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "kb",
+                    "naam": "KB 29-04-2019 WVV",
+                    "ref": "art. 3:3",
+                    "context": "Balans opgesteld na toewijzing; beginbalans = eindbalans voorgaand boekjaar"
+                  }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "De balans is geordend volgens **aflopende liquiditeitsgraad** (activa: van vaste activa naar liquide middelen) en **aflopende termijn van opeisbaarheid** (passiva: van eigen vermogen naar korte-termijn-schulden). Het schema is wettelijk vastgelegd in de bijlagen van het KB 29-04-2019 (bijlage 2 = volledig schema; bijlage 3 = verkort; bijlage 4 = micro). Vergelijkende cijfers met het voorafgaande boekjaar zijn verplicht (art. 3:59 KB).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "kb",
+                    "naam": "KB 29-04-2019 WVV",
+                    "ref": "art. 3:59",
+                    "context": "Vergelijkende cijfers voorafgaand boekjaar verplicht bij elke rubriek"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "resultatenrekening",
+        "naam": {
+          "primair": "Resultatenrekening",
+          "afkorting": "ROW",
+          "synoniemen": [
+            "winst-en-verliesrekening"
+          ]
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De **resultatenrekening** (ROW) toont alle **opbrengsten en kosten** van het boekjaar en leidt af tot het resultaat van het boekjaar (winst of verlies). Ze volgt een vaste structuur die onderscheid maakt tussen **bedrijfsresultaat** (klasse 60-65 vs. 70-74), **financieel resultaat** (klasse 65 vs. 75) en **niet-recurrent resultaat** (klasse 66 vs. 76), met als eindpunt het resultaat vóór en na belastingen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "kb",
+                    "naam": "KB 29-04-2019 WVV",
+                    "ref": "art. 3:81, 3:163, 3:166",
+                    "context": "Resultatenrekening volgens bijlage 3 (volledig), bijlage 6 (verkort), bijlage 7 (micro)"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "toelichting",
+        "naam": {
+          "primair": "Toelichting",
+          "synoniemen": [
+            "annexe",
+            "notes"
+          ]
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De **toelichting** bevat kwantitatieve en kwalitatieve informatie die de balans en resultatenrekening verduidelijkt maar er niet in past: (1) een **samenvatting van de waarderingsregels** (art. 3:6 + 3:61 KB); (2) aanvullende vermeldingen voor specifieke rubrieken (vaste activa-staat, kapitaal-structuur, niet-in-balans rechten/verplichtingen, verbonden partijen); (3) bij ontoereikende toepassing van de regels: aanvullende inlichtingen om aan het getrouw-beeld-voorschrift te voldoen (art. 3:1 KB). De toelichting maakt **integraal deel** uit van de jaarrekening en is even bindend als de cijfers.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "kb",
+                    "naam": "KB 29-04-2019 WVV",
+                    "ref": "art. 3:61",
+                    "context": "Inhoud van de toelichting — opsomming verplichte elementen"
+                  },
+                  {
+                    "type": "kb",
+                    "naam": "KB 29-04-2019 WVV",
+                    "ref": "art. 3:6, § 1",
+                    "context": "Waarderingsregels samengevat in toelichting"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "sociale-balans",
+        "naam": {
+          "primair": "Sociale balans",
+          "synoniemen": [
+            "bilan social"
+          ]
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De **sociale balans** is een **bijlage** bij de jaarrekening met personeels-gerelateerde gegevens: gemiddeld aantal werknemers (VTE), aantal gepresteerde uren, personeelskosten (klasse 62), opleidingsuitgaven en gebruik van werkgelegenheidsmaatregelen. Kleine vennootschappen die hun JR volgens verkort schema opmaken, mogen ook de sociale balans in verkort schema opstellen (KB sociale balans).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "cbn",
+                    "naam": "CBN-advies S100",
+                    "ref": "CBN-S100",
+                    "context": "Vragen en antwoorden over de sociale balans — inhoud + verkort schema voor kleine vennootschappen"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "jaarverslag-bestuursorgaan",
+        "naam": {
+          "primair": "Jaarverslag van het bestuursorgaan",
+          "synoniemen": [
+            "bestuursverslag"
+          ]
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het **jaarverslag** is een afzonderlijk document opgesteld door het bestuursorgaan (verplicht voor grote vennootschappen, art. 3:6 WVV) dat bij de jaarrekening wordt gevoegd. Het bevat ten minste: (1) een **getrouw overzicht** van de ontwikkeling, resultaten en positie van de vennootschap, met financiële én niet-financiële prestatie-indicatoren (milieu, personeel); (2) een beschrijving van de **voornaamste risico's en onzekerheden** (KAM-vereiste); (3) belangrijke gebeurtenissen na balansdatum; (4) verklaring inzake corporate governance (voor genoteerde vennootschappen). Voor zeer grote vennootschappen geldt bovendien een **niet-financiële verklaring** (art. 3:6, § 3 WVV) over diversiteit, mensenrechten en anti-corruptie.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "WVV",
+                    "ref": "art. 3:6",
+                    "context": "Inhoud jaarverslag — KAM + niet-financiële informatie"
+                  }
+                ]
+              }
+            }
+          }
+        }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "openbaarmaking-procedure",
+        "naam": {
+          "primair": "Openbaarmaking via NBB",
+          "synoniemen": [
+            "neerleggingsplicht",
+            "publicatieplicht"
+          ]
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**Openbaarmaking** = neerlegging van de jaarrekening (en bijhorende documenten) bij de **Nationale Bank van België** door toedoen van het bestuursorgaan. **Termijnen**: (1) **binnen 30 dagen** nadat de jaarrekening is goedgekeurd door de AV; én (2) **ten laatste 7 maanden** na de afsluitdatum van het boekjaar. De NBB registreert de datum van ontvangst (art. 3:189 KB) en aanvaardt de neerlegging pas wanneer alle documenten compleet zijn en de neerleggingskosten betaald.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 3:10",
+                  "context": "Neerlegging binnen 30 dagen na goedkeuring, ten laatste 7 maanden na afsluitdatum"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 3:12",
+                  "context": "Lijst documenten die samen met de JR worden neergelegd"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wettelijke-controle-trigger",
+        "naam": {
+          "primair": "Wettelijke controle door commissaris"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vennootschappen die **niet als klein** kwalificeren in de zin van art. 1:24 WVV (d.w.z. **grote vennootschappen**) zijn verplicht een **commissaris** te benoemen die de wettelijke controle uitvoert op de financiële toestand, de jaarrekening en de regelmatigheid van de in de jaarrekening weergegeven verrichtingen (art. 3:70 WVV). De commissaris levert een **controleverklaring** met de wettelijk vereiste elementen (art. 3:72 WVV: inleiding, reikwijdte, oordeel, kernpunten van de controle — KAM).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 3:70",
+                  "context": "Wettelijke controle toevertrouwd aan commissaris(sen)"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 3:72",
+                  "context": "Inhoud commissarisverklaring — 12 verplichte elementen"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waarderingsregels-vastlegging",
+        "naam": {
+          "primair": "Waarderingsregels — vastleggings-procedure"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **bestuursorgaan** bepaalt de waarderingsregels (voor de inventaris bedoeld in art. III.89 WER), rekening houdend met de kenmerken van de onderneming. Deze regels worden: (1) **vastgelegd in het inventarisboek** (art. III.89 WER); (2) **samengevat in de toelichting** bij de jaarrekening (art. 3:6, § 1 + art. 3:61, 1° KB); (3) **stelselmatig toegepast** van boekjaar tot boekjaar — wijziging alleen mogelijk bij belangrijke veranderingen in activiteit, vermogen of omstandigheden (art. 3:8 KB), met verantwoording in de toelichting.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:6, § 1",
+                  "context": "Bestuursorgaan bepaalt waarderingsregels + samenvat in toelichting"
+                },
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:8",
+                  "context": "Stelselmatige toepassing — bestendigheid"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "balansschema-volledig",
+        "naam": {
+          "primair": "Volledig schema (grote vennootschappen)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **volledig schema** is verplicht voor **grote** en zeer grote vennootschappen (die meer dan één van de art. 1:24 § 1-drempels overschrijden gedurende twee opeenvolgende boekjaren). Het bevat de meest gedetailleerde rubricering van balans (bijlage 2 KB), resultatenrekening (bijlage 3) en toelichting. Een sociale balans is verplicht; het jaarverslag van het bestuursorgaan idem.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:58 — bijlagen 2-3",
+                  "context": "Volledig schema = bijlagen 2 (balans) + 3 (ROW)"
+                },
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 1:24",
+                  "context": "Klein → niet meer dan één drempel; groot = geen klein"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "balansschema-verkort",
+        "naam": {
+          "primair": "Verkort schema (kleine vennootschappen)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **verkort schema** mag worden gebruikt door **kleine vennootschappen** (art. 1:24 WVV: niet meer dan één van: 50 VTE, €11.250.000 omzet, €6.000.000 balanstotaal). Balans volgens **bijlage 5 KB**, resultatenrekening volgens **bijlage 6 KB**. Minder rubrieken, minder toelichtingsitems verplicht. **Geen commissaris-verplichting** en geen jaarverslag (tenzij specifieke trigger).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:163",
+                  "context": "Resultatenrekening verkort schema = bijlage 6"
+                },
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2022/03",
+                  "ref": "CBN-2022/03",
+                  "context": "Beoordeling groottecriteria art. 1:24 + 1:25 WVV"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "balansschema-micro",
+        "naam": {
+          "primair": "Microschema"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het **microschema** mag worden gebruikt door **microvennootschappen** (art. 1:25 WVV: klein + geen dochter/moeder + niet meer dan één van: 10 VTE, €900.000 omzet, €450.000 balanstotaal). Balans volgens **bijlage 7 KB**, resultatenrekening idem. Minimale informatievereisten — bedoeld voor zeer kleine entiteiten met beperkte stakeholders.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 1:25",
+                  "context": "Definitie microvennootschap — drempels + geen dochter/moeder"
+                },
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "art. 3:166",
+                  "context": "Resultatenrekening microschema = bijlage 7"
+                },
+                {
+                  "type": "cbn",
+                  "naam": "CBN-advies 2024/07",
+                  "ref": "CBN-2024/07",
+                  "context": "Drempels verhoogd door Wet 28-03-2024"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "consolidatie-verwijzing",
+        "naam": {
+          "primair": "Verwijzing naar geconsolideerde jaarrekening"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de vennootschap aan het hoofd staat van een **groep** (moedervennootschap in de zin van art. 1:15 WVV) en de uitzonderingen van art. 3:25-3:26 WVV niet van toepassing zijn, moet zij naast de **enkelvoudige (statutaire) jaarrekening** ook een **geconsolideerde jaarrekening** opstellen — de twee documenten staan naast elkaar, niet in plaats van elkaar. Voor uitwerking: zie record `geconsolideerde-jaarrekening` (cluster consolidatie, PO 1.4).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 3:23 e.v.",
+                  "context": "Verplichting geconsolideerde JR voor moedervennootschappen"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-kmo-verkort-schema",
+        "titel": "BV TopSlot — kleine KMO, verkort schema",
+        "context": "BV TopSlot heeft op 31-12-2025 als balansdatum: 5 VTE werknemers · jaaromzet €500.000 (excl. btw) · balanstotaal €380.000. Geen dochter, geen moeder. Twee opeenvolgende boekjaren onder de drempels.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:24, 1:25",
+              "context": "Toepassing groottecriteria"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Groottecategorie-bepaling BV TopSlot",
+            "kolommen": [
+              "Criterium",
+              "Drempel klein (art 1:24)",
+              "Drempel micro (art 1:25)",
+              "BV TopSlot",
+              "Overschreden?"
+            ],
+            "rijen": [
+              ["Jaargemiddelde werknemers", "50", "10", "5", "Nee"],
+              ["Jaaromzet excl. btw", "€11.250.000", "€900.000", "€500.000", "Nee"],
+              ["Balanstotaal", "€6.000.000", "€450.000", "€380.000", "Nee"]
+            ],
+            "conclusie": "0 drempels overschreden voor klein én micro → micro-vennootschap → mag microschema (bijlage 7 KB) toepassen, OF verkort schema (bijlage 5-6 KB) als TopSlot dat wenst. Geen commissaris-verplichting."
+          },
+          {
+            "type": "balans_snapshot",
+            "titel": "Vereenvoudigde balans BV TopSlot op 31-12-2025 (verkort schema)",
+            "activa": {
+              "vaste_activa_klasse_20_28": 120000,
+              "voorraden_klasse_30_39": 45000,
+              "handelsvorderingen_klasse_40": 95000,
+              "liquide_middelen_klasse_5": 120000,
+              "totaal_activa": 380000
+            },
+            "passiva": {
+              "eigen_vermogen_klasse_10_15": 180000,
+              "voorzieningen_klasse_16": 0,
+              "schulden_op_meer_dan_1_jaar_klasse_17": 50000,
+              "schulden_op_ten_hoogste_1_jaar_klasse_42_49": 150000,
+              "totaal_passiva": 380000
+            },
+            "toelichting": "Balans na toewijzing (art 3:3 KB) — rekening houdend met te bestemmen winst (in EV verwerkt na AV-beslissing)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-openbaarmaking-termijn",
+        "titel": "Termijn-berekening openbaarmaking — boekjaar 01-01-2025 / 31-12-2025",
+        "context": "BV TopSlot sluit haar boekjaar af op 31-12-2025. Bestuursorgaan maakt JR op, AV wordt gehouden op 15-05-2026 en keurt JR goed.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:1, § 1 + 3:10",
+              "context": "Termijnen AV (6 maanden) en neerlegging (30 dagen + max 7 maanden)"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tijdslijn",
+            "titel": "Termijn-cascade",
+            "stappen": [
+              {"datum": "31-12-2025", "gebeurtenis": "Afsluiting boekjaar"},
+              {"datum": "Vóór 30-06-2026", "gebeurtenis": "Uiterste datum AV voor goedkeuring (= 6 maanden na afsluitdatum, art. 3:1 WVV)"},
+              {"datum": "15-05-2026", "gebeurtenis": "AV keurt JR goed (binnen termijn)"},
+              {"datum": "Vóór 14-06-2026", "gebeurtenis": "Uiterste datum NBB-neerlegging (= 30 dagen na goedkeuring, art. 3:10 WVV)"},
+              {"datum": "Vóór 31-07-2026", "gebeurtenis": "Absolute uiterste datum (= 7 maanden na afsluitdatum, art. 3:10 WVV) — dit is een tweede limiet die ook geldt"}
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "**Beide termijnen gelden cumulatief**: de neerlegging moet binnen 30 dagen na goedkeuring én ten laatste 7 maanden na afsluitdatum gebeuren. Als de AV plaatsvindt op 15-05-2026, is de neerlegging tijdig wanneer ze plaatsvindt vóór 14-06-2026 (= 30 dagen later). Als de AV pas op 28-06-2026 zou gehouden worden, dan zou de 30-dagen-termijn op 28-07-2026 vallen, maar zou de absolute 7-maanden-grens (31-07-2026) eerst worden bereikt — niet relevant hier, maar in lange-AV-procedures cruciaal."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-grote-vennootschap-commissaris",
+        "titel": "NV MidCorp — grote vennootschap, volledig schema + commissaris",
+        "context": "NV MidCorp heeft op 31-12-2025: 75 VTE · jaaromzet €15.000.000 · balanstotaal €8.500.000. Twee opeenvolgende boekjaren boven 2 drempels (omzet + balanstotaal én VTE).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:24, 3:70, 3:72",
+              "context": "Klein-test + commissaris-verplichting + controleverklaring"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Groottecategorie + cascade NV MidCorp",
+            "kolommen": ["Criterium", "Drempel klein", "MidCorp", "Overschreden?"],
+            "rijen": [
+              ["Werknemers (VTE)", "50", "75", "Ja"],
+              ["Jaaromzet excl. btw", "€11.250.000", "€15.000.000", "Ja"],
+              ["Balanstotaal", "€6.000.000", "€8.500.000", "Ja"]
+            ],
+            "conclusie": "3 drempels overschreden gedurende 2 opeenvolgende boekjaren → groot → (1) volledig schema verplicht (bijlagen 2-3 KB); (2) jaarverslag bestuursorgaan verplicht (art. 3:6 WVV); (3) sociale balans volledig schema; (4) commissaris verplicht (art. 3:70 WVV) — benoeming voor 3 jaar (art. 3:58 WVV)."
+          },
+          {
+            "type": "proza",
+            "tekst": "Praktijkgevolgen: NV MidCorp moet (a) de drie schema's volledig invullen (bijlage 2 balans + bijlage 3 ROW + uitgebreide toelichting + sociale balans volledig); (b) een commissaris benoemen via AV-beslissing, voor 3 jaar; (c) een jaarverslag opstellen dat KAM-elementen bevat (kernpunten van de controle, risico's, niet-financiële prestatie-indicatoren); (d) extra publicatietaks bij NBB-neerlegging."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Sociale balans vergeten als verplichte bijlage",
+        "verkeerde_assumptie": "De sociale balans is een 'optioneel' personeels-document dat alleen grote bedrijven invullen.",
+        "kernpunt": "De sociale balans is een **verplicht onderdeel van de jaarrekening-bijlagen** voor alle vennootschappen met personeel (KB sociale balans). Kleine vennootschappen mogen het **verkort schema** sociale balans gebruiken; dat is geen vrijstelling. Niet-neerlegging = onvolledige jaarrekening.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "cbn",
+              "naam": "CBN-advies S100",
+              "ref": "CBN-S100",
+              "context": "Sociale balans is integraal onderdeel JR-neerlegging; verkort schema voor kleine vennootschappen"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Niet-tijdige neerlegging beschouwen als 'administratieve boete'",
+        "verkeerde_assumptie": "Wanneer de jaarrekening te laat wordt neergelegd is enkel een NBB-toeslag verschuldigd; de gevolgen zijn beperkt tot die boete.",
+        "kernpunt": "Art. 3:10 WVV bepaalt dat schade door derden geleden **vermoed wordt voort te vloeien uit het verzuim** van niet-tijdige neerlegging. Dat is een wettelijk schadevermoeden — bestuurders kunnen burgerlijk **persoonlijk aansprakelijk** worden gesteld voor schade aan schuldeisers, los van de administratieve NBB-toeslag.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:10, lid 3",
+              "context": "Schade door derden geleden, behoudens tegenbewijs, geacht voort te vloeien uit verzuim"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Waarderingsregels niet vastleggen in toelichting",
+        "verkeerde_assumptie": "Waarderingsregels mogen impliciet blijven; ze volgen toch uit het MAR-rekeningstelsel + de wettelijke voorschriften.",
+        "kernpunt": "Het bestuursorgaan **moet expliciet** waarderingsregels bepalen (art. III.89 WER + art. 3:6 KB), vastleggen in het inventarisboek én samenvatten in de toelichting — voldoende nauwkeurig om de toegepaste methoden te beoordelen. Ontbreken = formeel gebrek dat door commissaris afgekeurd kan worden en door fiscus betwist.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:6, § 1",
+              "context": "Verplichting samenvatting waarderingsregels in toelichting"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2020/05",
+              "ref": "CBN-2020/05",
+              "context": "Waarderingsregels — algemene beginselen + verplichte vermelding in toelichting"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Getrouw beeld verwarren met detail-overload",
+        "verkeerde_assumptie": "Hoe meer informatie in de toelichting, hoe getrouwer het beeld — bij twijfel alles vermelden.",
+        "kernpunt": "Het getrouw-beeld-voorschrift (art. 3:1 KB) eist **adequate** informatie, niet maximale informatie. Aanvullende inlichtingen zijn nodig **wanneer de gewone schema's niet volstaan**; onnodige detail-rapportering kan zelfs het inzicht **belemmeren** (materialiteit-criterium, art. 3:58, § 5 KB). De toelichting moet selectief zijn rond wat materieel is.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:1 + 3:58, § 5",
+              "context": "Aanvullende inlichtingen wanneer schema's niet volstaan + materialiteitsbegrip"
+            }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Schema-keuze op basis van groottecategorie",
+        "opties": [
+          {
+            "keuze": "Microschema (bijlage 7 KB)",
+            "voordeel": "Minimale rapporterings-eisen; minder werk voor boekhouder; minimale publicatietaks NBB",
+            "nadeel": "Beperktere informatie voor banken/kredietgevers; minder 'vertrouwen-signaal' richting stakeholders"
+          },
+          {
+            "keuze": "Verkort schema (bijlagen 5-6 KB)",
+            "voordeel": "Geen commissaris-verplichting; redelijke detailgraad voor bankrelatie; geen jaarverslag verplicht",
+            "nadeel": "Meer toelichtingsitems dan micro; vereist meer rigueur in waarderingsregels-documentatie"
+          },
+          {
+            "keuze": "Volledig schema (bijlagen 2-3 KB)",
+            "voordeel": "Maximale transparantie; vereiste voor grote vennootschappen; kan vrijwillig gekozen worden door kleinere (signaal-effect richting investeerders)",
+            "nadeel": "Verplicht commissaris + jaarverslag + sociale balans volledig schema; significantere kostprijs"
+          }
+        ],
+        "vuistregel": "Een grotere onderneming mag **nooit een kleiner schema** gebruiken (afdaling-verbod). Een kleinere onderneming **mag** vrijwillig opwaarderen naar een groter schema (signaal-effect). De groottecategorie wordt na **twee opeenvolgende boekjaren** boven of onder de drempels gewijzigd (art. 1:24, § 2 WVV).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 1:24, § 2",
+              "context": "Tweetijdsregel — twee opeenvolgende boekjaren"
+            },
+            {
+              "type": "cbn",
+              "naam": "CBN-advies 2022/03",
+              "ref": "CBN-2022/03",
+              "context": "Toepassing groottecriteria"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Waarderingsregels-keuze (binnen KB-grenzen)",
+        "opties": [
+          {
+            "keuze": "Voorraad-waardering: FIFO",
+            "voordeel": "Sluit aan bij fysieke goederenstroom voor veel handelsondernemingen; balansvoorraad weerspiegelt recentste prijzen",
+            "nadeel": "Hogere voorraad-waarde bij stijgende prijzen → hogere belastbare winst"
+          },
+          {
+            "keuze": "Voorraad-waardering: gewogen gemiddelde prijs (GMP)",
+            "voordeel": "Stabiele kosten-prijs; minder schommeling bij prijsvolatiliteit",
+            "nadeel": "Minder aansluiting bij fysieke flow; complexere berekening"
+          },
+          {
+            "keuze": "Afschrijvingsmethode: lineair",
+            "voordeel": "Eenvoudig; voorspelbare kost per jaar",
+            "nadeel": "Geen aansluiting bij economisch gebruiksprofiel als activum sneller veroudert"
+          },
+          {
+            "keuze": "Afschrijvingsmethode: degressief (alleen MVA, geen IMA)",
+            "voordeel": "Sluit aan bij snellere economische slijtage in eerste jaren; fiscaal interessant in start-jaar (KMO-incentive)",
+            "nadeel": "Niet toegelaten voor IMA (vaste afschrijving); CBN-advies vereist motivering in toelichting"
+          }
+        ],
+        "vuistregel": "Eenmaal gekozen waarderingsregels worden **stelselmatig toegepast** (art. 3:8 KB). Wijziging vereist een belangrijke verandering in activiteit, vermogen of omstandigheden + **motivering in de toelichting**. Bestendigheid is de regel; afwijking de uitzondering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:8",
+              "context": "Bestendigheid waarderingsregels + uitzonderingsregime"
+            }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "eigen-kantoor",
+      "naam": {
+        "primair": "Eigen kantoor — accountant als opsteller/controleur"
+      },
+      "intro": "Vanuit het eigen kantoor heeft de gecertificeerd accountant het opstellings- en/of controlemandaat over de jaarrekening van cliënten. De rollen lopen van zuiver boekhoudkundig (opmaak + presentatie) tot adviserend (schema-keuze, waarderingsregels) en — bij wettelijke controle-mandaat — auditing.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "jaarafsluit-cyclus",
+              "naam": {"primair": "Jaarafsluit-cyclus uitvoeren"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De accountant voert in december-februari: (1) eindejaarsverrichtingen (inventaris, afschrijvingen, waardeverminderingen, voorzieningen); (2) reclassificatie van LT-schulden die binnen het jaar opeisbaar worden naar klasse 42-49; (3) opstellen proefbalans na correcties; (4) overzetten naar bijlage-schema (volledig/verkort/micro) volgens groottecategorie van de cliënt; (5) ondertekenen door bestuursorgaan + voorlegging aan AV.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WER",
+                        "ref": "art. III.89",
+                        "context": "Jaarlijkse inventaris"
+                      },
+                      {
+                        "type": "kb",
+                        "naam": "KB 29-04-2019 WVV",
+                        "ref": "art. 3:1 e.v.",
+                        "context": "Vormvereisten JR per schema"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "balanspresentatie-correct-schema",
+              "naam": {"primair": "Balanspresentatie volgens correct schema"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij het opstellen kiest de accountant het toepasselijke bijlage-schema gebaseerd op de groottecategorie (vol/verkort/micro). De accountant verifieert dat: (1) de rubrieken correct gemapt zijn vanuit het MAR-rekeningstelsel; (2) vergelijkende cijfers van het vorige boekjaar ingevuld zijn (art. 3:59 KB); (3) de balans na-toewijzing is opgesteld; (4) de toelichting volledig is.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "kb",
+                        "naam": "KB 29-04-2019 WVV",
+                        "ref": "art. 3:3 + 3:59",
+                        "context": "Balans na toewijzing + vergelijkende cijfers"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "controleverklaring-jaarrekening",
+              "naam": {"primair": "Wettelijke controleverklaring (commissarisrol)"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer een bedrijfsrevisor als commissaris fungeert (grote vennootschap), levert hij een **controleverklaring** met de 12 elementen van art. 3:72 WVV: inleiding · reikwijdte · oordeel · KAM (kernpunten van de controle) · onafhankelijkheidsverklaring · kantoor + revisor-identificatie + lidmaatschapsnummer · enz. Het oordeel is goedkeurend, met voorbehoud, afkeurend of onthouden. De gecertificeerd accountant heeft géén wettelijk controlemandaat (alleen IBR-revisoren), maar kan wel bevestigingsprocedures uitvoeren voor cliënten.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 3:72",
+                        "context": "Inhoud controleverklaring — 12 elementen"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "aansluit-werk-fiscale-aangiften",
+              "naam": {"primair": "Aansluiting boekhoudkundig resultaat → VenB-aangifte"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Na de opmaak van de jaarrekening voert de accountant het aansluit-werk uit: (1) boekhoudkundig resultaat na belastingen (klasse 70-77) als startpunt nemen; (2) verworpen uitgaven optellen (klasse 64 specifieke posten); (3) DBI-aftrek + andere bijzondere aftrekken in mindering; (4) overdracht naar VenB-aangifte (vakken 1880-1890); (5) PB-bezoldigingsaangiftes voor bestuurders + werknemers via dezelfde personeelskosten-rubriek (klasse 62) vertrekken. Het boekhoudkundig getal in de JR moet aansluiten op de fiscaal aangegeven omzet/winst — discrepanties zijn een rode vlag.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-28",
+                        "context": "Praktijk-aansluiting JR → aangifte VenB (attachment-mechanisme cf. WIB92)"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "schema-keuze-advies",
+              "naam": {"primair": "Schema-keuze begeleiden"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "De accountant adviseert cliënten over schema-keuze: vrijwillig opwaarderen (klein → volledig) als signaal naar banken/investeerders, of bij verwachte groei tijdig voorbereiden op het strengere regime. De accountant houdt de twee-jaars-test (art. 1:24, § 2 WVV) bij — bij benadering van een drempel: pro-actief plannen (commissaris-benoeming voorbereiden voor de AV die volgt op het tweede overschrijdings-boekjaar).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 1:24, § 2",
+                        "context": "Twee-opeenvolgende-boekjaren-regel"
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "waarderingsregels-advies",
+              "naam": {"primair": "Waarderingsregels-keuze adviseren"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "De accountant helpt het bestuursorgaan de waarderingsregels concretiseren binnen de KB-grenzen: afschrijvingsmethode (lineair/degressief) per activum-klasse, voorraadwaardering (FIFO/GMP), waarderingsdrempels voor handelsvorderingen (forfaitair vs. individueel), spreiding disagio/agio. De keuze wordt gemotiveerd in de toelichting en consistent gehouden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "kb",
+                        "naam": "KB 29-04-2019 WVV",
+                        "ref": "art. 3:6 + 3:8",
+                        "context": "Bestuursorgaan bepaalt + bestendigheid"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "kmo-stagiair-begeleiding",
+              "naam": {"primair": "KMO-stagiair-begeleiding bij jaarrekening-opmaak"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Als gecertificeerd accountant begeleidt de stagiair de cliënt door: (1) tijdige inzameling van afsluit-documenten (voorraad-inventaris, bankafschriften, leasing-overzichten); (2) opmaak van het ontwerp-jaarrekening volgens correct schema; (3) ondertekening door bestuursorgaan + bijeenroeping AV; (4) NBB-neerlegging via Filing-platform binnen 30 dagen na AV; (5) bewaring van het inventarisboek + waarderingsregels-document gedurende 7 jaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {
+                        "type": "ai_model",
+                        "naam": "claude-opus-4-7",
+                        "datum": "2026-05-28",
+                        "context": "Praktijk begeleiding KMO bij jaarrekening-cyclus"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "client-bestuursorgaan",
+      "naam": {
+        "primair": "Cliënt-zijde — bestuursorgaan als opmaak-verantwoordelijke"
+      },
+      "intro": "Bij de cliënt rust de wettelijke verantwoordelijkheid voor opmaak en neerlegging op het bestuursorgaan zelf (art. 3:1 + 3:10 WVV). De accountant ondersteunt — niet vervangt — die verantwoordelijkheid. Personae binnen de cliënt: zaakvoerder/bestuurder die ondertekent; AV die goedkeurt; eventueel interne controller die het auditdossier voorbereidt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "interne-boekhouding-aanleveren",
+              "naam": {"primair": "Aanleveren van een correcte boekhouding voor afsluit"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Cliënt-zijde levert: (1) volledige MAR-boekhouding tot afsluitdatum (alle aankoop-, verkoop-, kas-, bank-, diverse-journalen geboekt); (2) voorraad-inventaris (fysieke telling + waardering); (3) overzicht openstaande vorderingen + schulden; (4) leasing- en lopende-contractenoverzicht. Zonder deze input kan de accountant geen JR opmaken.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WER",
+                        "ref": "art. III.83 + III.89",
+                        "context": "Volledige boekhouding + jaarlijkse inventaris"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "av-procedure-organiseren",
+              "naam": {"primair": "AV-procedure organiseren binnen wettelijke termijnen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Het bestuursorgaan moet: (1) de JR opmaken en ondertekenen vóór de AV; (2) de AV bijeenroepen binnen 6 maanden na afsluitdatum (art. 3:1 WVV); (3) de notulen van de goedkeuring opmaken; (4) zorgen voor neerlegging bij NBB binnen 30 dagen na goedkeuring én ten laatste 7 maanden na afsluitdatum; (5) overige documenten meeleveren (jaarverslag, commissarisverslag, lijst bestuurders — art. 3:12 WVV).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "WVV",
+                        "ref": "art. 3:1 + 3:10 + 3:12",
+                        "context": "Volledige termijn- en documenten-cascade"
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
-      "target": "belgisch-boekhoudrecht"
+      "target": "belgisch-boekhoudrecht",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WVV",
+            "ref": "Boek 3",
+            "context": "Jaarrekening is een instituut van het Belgisch boekhoudrecht (WVV Boek 3 + KB 29-04-2019)"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening wordt opgesteld conform het Belgisch boekhoudrecht (BGAAP): WVV Boek 3 + KB 29-04-2019 + CBN-adviezen."
     },
     {
       "type": "vereist",
-      "target": "boekhoudbeginselen"
+      "target": "boekhoudbeginselen",
+      "grondslag": {
+        "confidence": "afgeleid",
+        "bronnen": [
+          {
+            "type": "kb",
+            "naam": "KB 29-04-2019 WVV",
+            "ref": "art. 3:1 + 3:6 + 3:8",
+            "context": "Getrouw beeld + voorzichtigheid + bestendigheid zijn beginselen die JR funderen"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening is de toepassing van de boekhoudbeginselen (voorzichtigheid · materialiteit · continuïteit · consistentie · trouw beeld · matching · realisatie · bestendigheid)."
     },
     {
       "type": "vereist",
-      "target": "dubbele-boekhouding"
+      "target": "dubbele-boekhouding",
+      "grondslag": {
+        "confidence": "afgeleid",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WER",
+            "ref": "art. III.83-III.89",
+            "context": "Boekhoudplichtige onderneming voert dubbele boekhouding (tenzij vereenvoudigd regime art. III.85)"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening is het output-document van de dubbele-boekhouding-cyclus: dagboek → grootboek → proefbalans → JR."
+    },
+    {
+      "type": "vereist",
+      "target": "eindejaarsverrichtingen",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WER",
+            "ref": "art. III.89",
+            "context": "Jaarlijkse inventaris als basis voor de jaarrekening"
+          }
+        ]
+      },
+      "toelichting": "De eindejaarsverrichtingen (inventaris + waarderings-correcties + afschrijvingen + voorzieningen) gaan logisch en wettelijk vooraf aan de jaarrekening."
     },
     {
       "type": "beinvloed_door",
-      "target": "groottecategorie-vennootschap"
+      "target": "groottecategorie-vennootschap",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WVV",
+            "ref": "art. 1:24 + 1:25 + 1:26",
+            "context": "Drempels micro/klein/groot bepalen schema + commissaris-trigger"
+          }
+        ]
+      },
+      "toelichting": "De groottecategorie (micro/klein/groot/zeer groot) bepaalt welk schemamodel (bijlagen KB) en welke verplichte staten (sociale balans, jaarverslag, commissaris) van toepassing zijn."
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "geconsolideerde-jaarrekening"
+      "target": "geconsolideerde-jaarrekening",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WVV",
+            "ref": "art. 3:23 e.v.",
+            "context": "Geconsolideerde jaarrekening voor moedervennootschappen"
+          }
+        ]
+      },
+      "toelichting": "De enkelvoudige jaarrekening en de geconsolideerde jaarrekening zijn beide synthesedocumenten, maar dekken een andere scope.",
+      "gelijkenissen": [
+        "Beide volgen WVV Boek 3 + KB 29-04-2019",
+        "Beide bestaan uit balans + ROW + toelichting",
+        "Beide worden bij de NBB neergelegd (art. 3:35 e.v. WVV)",
+        "Beide eisen getrouw beeld + vergelijkende cijfers"
+      ],
+      "verschillen": [
+        "Enkelvoudige JR = één rechtspersoon; geconsolideerde JR = groep van entiteiten als één economisch geheel (consolidatiekring art. 1:15 WVV)",
+        "Enkelvoudige JR is verplicht voor élke boekhoudplichtige onderneming; geconsolideerde JR alleen voor moedervennootschappen boven groep-drempels (art. 1:26 WVV)",
+        "Enkelvoudige JR is fiscale aanknoping (attachment VenB); geconsolideerde JR niet — alleen informatief",
+        "Eliminatie van intra-groep-transacties is een specifieke techniek van consolidatie, niet van de enkelvoudige JR"
+      ],
+      "verwarring_risico": "Stagiairs verwarren beide documenten vaak: 'we leggen de jaarrekening neer' kan slaan op de enkelvoudige (altijd verplicht) of de geconsolideerde (extra document voor moeders). Bij groepen moeten **beide** worden neergelegd — de geconsolideerde vervangt de enkelvoudige niet."
     },
     {
       "type": "triggert",
-      "target": "jaarrekeninganalyse"
+      "target": "jaarrekeninganalyse",
+      "grondslag": {
+        "confidence": "afgeleid",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-opus-4-7",
+            "datum": "2026-05-28",
+            "context": "Functionele relatie: JR is input voor analyse"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening is de primaire inputbron voor jaarrekeninganalyse (ratio's, kasstroomanalyse, financieel diagnostiek)."
+    },
+    {
+      "type": "triggert",
+      "target": "resultaatverwerking",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "kb",
+            "naam": "KB 29-04-2019 WVV",
+            "ref": "art. 3:3",
+            "context": "Balans na toewijzing → resultaatverwerking als voorafgaande beslissing"
+          }
+        ]
+      },
+      "toelichting": "Het resultaat van de jaarrekening wordt bestemd via resultaatverwerking (dividend, reserve, overdracht); de balans wordt vervolgens na-toewijzing opgesteld."
+    },
+    {
+      "type": "triggert",
+      "target": "aangifte-vennootschapsbelasting",
+      "grondslag": {
+        "confidence": "afgeleid",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-opus-4-7",
+            "datum": "2026-05-28",
+            "context": "Attachment-mechanisme: boekhoudkundig resultaat → VenB-grondslag (algemene fiscaal-juridische context)"
+          }
+        ]
+      },
+      "toelichting": "Het boekhoudkundig resultaat van de jaarrekening is het vertrekpunt voor de vennootschapsbelasting-aangifte (attachment)."
+    },
+    {
+      "type": "gecontroleerd_door",
+      "target": "commissaris",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WVV",
+            "ref": "art. 3:70",
+            "context": "Wettelijke controle van de jaarrekening opgedragen aan commissaris"
+          }
+        ]
+      },
+      "toelichting": "Grote vennootschappen zijn onderworpen aan de wettelijke controle van de jaarrekening door een commissaris-revisor (IBR)."
+    },
+    {
+      "type": "gepubliceerd_via",
+      "target": "nationale-bank-van-belgie",
+      "grondslag": {
+        "confidence": "geciteerd",
+        "bronnen": [
+          {
+            "type": "wettekst",
+            "naam": "WVV",
+            "ref": "art. 3:10",
+            "context": "Neerlegging bij Nationale Bank van België"
+          }
+        ]
+      },
+      "toelichting": "De jaarrekening wordt openbaar gemaakt via neerlegging bij de NBB; binnen elf werkdagen na aanvaarding bevestigt de NBB de neerlegging aan de rechtspersoon."
     }
   ]
 }
