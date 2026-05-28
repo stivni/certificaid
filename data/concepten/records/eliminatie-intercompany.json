@@ -5,12 +5,16 @@
     "synoniemen": [
       "intercompany elimination",
       "intra-group elimination"
-    ]
+    ],
+    "vertaling": {
+      "fr": "élimination des opérations intra-groupe",
+      "en": "intercompany elimination"
+    }
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis"
     ],
@@ -26,54 +30,326 @@
         "Procedure in opmaak-flow"
       ],
       "out": [
-        {
-          "topic": "Opmaak-geconsolideerde-jaarrekening (procedure)",
-          "richting": "moet-verwijzen",
-          "ref": "opmaak-geconsolideerde-jaarrekening"
-        },
-        {
-          "topic": "Voorraden-context (bij intercompany-voorraadverkoop)",
-          "richting": "mag-verwijzen",
-          "ref": "voorraden"
-        }
+        { "topic": "Opmaak-geconsolideerde-jaarrekening (procedure)", "richting": "moet-verwijzen", "ref": "opmaak-geconsolideerde-jaarrekening" },
+        { "topic": "Voorraden-context (bij intercompany-voorraadverkoop)", "richting": "mag-verwijzen", "ref": "voorraden" }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/eliminatie-intercompany.json",
+      "primary_bronnen": [
+        "KB-WVV art. 3:123",
+        "KB-WVV art. 3:127",
+        "KB-WVV art. 3:128",
+        "KB-WVV art. 3:134",
+        "IFRS 10 — §B86",
+        "IAS 12 — §39"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:30:00Z", "model": "claude-sonnet-4-5", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Pass 1 content gevuld — eliminatie intra-groep met cijfervoorbeeld." }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Eliminatie van intercompany-verrichtingen is de boekhoudkundige stap waarmee in de consolidatie alle onderlinge transacties, vorderingen, schulden en niet-gerealiseerde winsten/verliezen tussen groepsentiteiten worden weggewerkt. Een groep mag niet 'aan zichzelf verkopen' — alle intra-groep-effecten verdwijnen zodat de geconsolideerde cijfers enkel transacties met derden tonen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:123" },
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:127" },
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:128", "context": "Eliminatie wederzijdse vorderingen en schulden" },
+            { "type": "norm", "naam": "IFRS 10", "ref": "§B86(c)" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De groep wordt als één enkele economische entiteit gepresenteerd. Wanneer Aurelia een product aan haar dochter Zelena verkoopt, gebeurt er economisch niets buiten de groep — toch zou zonder eliminatie de geconsolideerde omzet en kostprijs allebei stijgen. Eliminatie zet beide bewegingen terug op nul. Hetzelfde geldt voor leningen tussen moeder en dochter, voor dividenden binnen de groep, en — moeilijker — voor winsten op intercompany-voorraad die nog niet aan derden zijn verkocht ('unrealised gains'). Op die laatste worden ook latente belastingen geboekt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:127" },
+            { "type": "norm", "naam": "IAS 12", "ref": "§39", "context": "Latente belasting op unrealised intercompany gains" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Synthese 'groep als één entiteit'-principe" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Zonder eliminatie zou de geconsolideerde jaarrekening de groep groter en winstgevender doen lijken dan ze werkelijk is. Bedrijven zouden via interne verkoop met opslag fictieve winsten kunnen creëren. De ratio legis van eliminatie is dezelfde als die van de geconsolideerde jaarrekening zelf: 'substance over form' — toon enkel wat de groep daadwerkelijk uit transacties met derden haalt. Het eliminatie-principe is universeel: B-GAAP (art. 3:123 KB-WVV: 'volledige eliminatie') en IFRS (IFRS 10 §B86c) zijn hier inhoudelijk identiek.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:123" },
+            { "type": "norm", "naam": "IFRS 10", "ref": "§B86" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["consolidatiemethoden"],
+      "kader": "opmaak-geconsolideerde-jaarrekening"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB-WVV art. 3:123 + art. 3:127 + art. 3:128 (B-GAAP) + IFRS 10 §B86 (IFRS)"
+      },
+      "voor": [
+        {
+          "tekst": "Elke groep die integraal of evenredig consolideert. Bij evenredige consolidatie gebeurt eliminatie proportioneel; bij vermogensmutatie is eliminatie beperkter (enkel resultaten van transacties met de geassocieerde onderneming, voor zover informatie beschikbaar is — art. 3:142 § 2 KB-WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:127" },
+              { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:139", "context": "Evenredig" },
+              { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:142 § 2" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "vier-categorieen-eliminatie",
+        "naam": { "primair": "Vier categorieën intercompany-eliminaties" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "(1) Wederzijdse vorderingen en schulden tussen groepsentiteiten; (2) wederzijdse opbrengsten en kosten (omzet ↔ aankopen); (3) niet-gerealiseerde winsten/verliezen op intercompany-verkopen waarvan de goederen nog in voorraad zijn bij de groep; (4) intra-groep-dividenden en aandelen-deelnemingen. Latente belastingen worden bij (3) bijgeboekt omdat het 'wegnemen' van winst een tijdelijk verschil creëert tussen geconsolideerde en fiscale waarde.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:127" },
+                  { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:128" },
+                  { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:129", "context": "Eliminatie deelnemingen" },
+                  { "type": "norm", "naam": "IAS 12", "ref": "§39" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "elim-vorderingen-schulden",
+              "naam": { "primair": "Wederzijdse vorderingen en schulden" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer Aurelia 100 EUR vordert van Zelena, staat dezelfde 100 EUR als schuld op de balans van Zelena. In de geconsolideerde balans verdwijnen beide bedragen — netto-effect op groepsbalans = nul. Aandachtspunt: rekening-houden met cut-off-verschillen (vordering al geboekt, schuld nog niet) — vereist reconciliatie vóór eliminatie.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:128" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "elim-omzet-kosten",
+              "naam": { "primair": "Intercompany-omzet en -kosten" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer Aurelia een dienst voor 50 EUR factureert aan Zelena, staat 50 EUR omzet bij Aurelia en 50 EUR kost bij Zelena. Geconsolideerd: beide worden geëlimineerd. Wanneer Zelena de dienst zelf doorrekent aan een externe klant, blijft enkel de eindverkoop in de geconsolideerde resultatenrekening.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:127" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "elim-unrealised-gains",
+              "naam": { "primair": "Niet-gerealiseerde winsten op intercompany-voorraad" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer Aurelia goederen met een kostprijs van 80 verkoopt aan Zelena voor 100, en Zelena heeft die op balansdatum nog in voorraad, dan zit er 20 EUR 'winst' in de groepsvoorraad die economisch niet gerealiseerd is. Eliminatie: voorraad verminderen met 20 + omzet en kostprijs (elk 100 + 80) verwijderen. Latente belasting (IAS 12 §39): de aftrekbare tijdelijk verschil creëert een latente belastingvordering = 20 × tarief vennootschapsbelasting.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:127" },
+                      { "type": "norm", "naam": "IAS 12", "ref": "§39" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "elim-deelnemingen-dividenden",
+              "naam": { "primair": "Deelnemingen en intra-groep-dividenden" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "De deelnemingsrekening van de moeder (klasse 28) wordt geëlimineerd tegen het aandeel in het eigen vermogen van de dochter (art. 3:129 KB-WVV). Dividenden die de dochter aan de moeder uitkeert, verdwijnen uit het geconsolideerd resultaat — anders zou dezelfde winst dubbel verschijnen (eens als winst bij dochter, eens als financieel resultaat bij moeder).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:129" },
+                      { "type": "cbn", "naam": "CBN-advies 2022/11", "ref": "Intra-groepsdividenden" }
+                    ]
+                  }
+                }
+              }
             }
           ]
         }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-intercompany-voorraadverkoop",
+        "titel": "Aurelia verkoopt voorraad met opslag aan Zelena",
+        "context": "Aurelia (moeder, 100 % deelneming in Zelena) heeft een product met kostprijs 800 EUR verkocht aan Zelena voor 1.000 EUR. Op balansdatum heeft Zelena het product nog in voorraad (niet doorverkocht aan derde). Vennootschapsbelasting Aurelia = 25 %.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:127" },
+            { "type": "norm", "naam": "IAS 12", "ref": "§39" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — opslag: 1.000 − 800 = 200 EUR ongerealiseerde intercompany-winst.",
+              "Stap 2 — voorraad Zelena op groepsbalans verminderen met 200 EUR (terug naar groepskostprijs 800).",
+              "Stap 3 — omzet Aurelia 1.000 elimineren tegen aankoop Zelena 1.000.",
+              "Stap 4 — kostprijs verkopen Aurelia 800 elimineren (geen externe verkoop voorgevallen).",
+              "Stap 5 — latente belastingvordering: 200 × 25 % = 50 EUR (op groepsbalans) + uitgestelde belastingbaat 50 EUR in geconsolideerd resultaat."
+            ],
+            "resultaat": "Geconsolideerd resultaat van deze transactie = nul (correcte voorstelling: economisch nog niets gerealiseerd). Voorraad verlaagd met 150 (200 − 50 latente belasting). Wanneer Zelena het product later aan een derde verkoopt voor 1.200 EUR: groepsomzet 1.200, kostprijs 800, brutowinst 400 — dat is het correcte beeld."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Eliminatieboekingen op consolidatie-werkblad:\n- D Omzet Aurelia 1.000 / C Aankopen Zelena 1.000\n- D Aankopen Zelena 200 / C Voorraad (groep) 200  [winst uit voorraad halen]\n- D Latente belastingvordering 50 / C Uitgestelde belastingbaat 50  [op de geëlimineerde winst]"
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-intercompany-lening",
+        "titel": "Intercompany-lening met interest",
+        "context": "Aurelia leent 500.000 EUR aan Zelena tegen 4 % per jaar. Op balansdatum: vordering Aurelia 500.000, schuld Zelena 500.000, ontvangen interest Aurelia 20.000, betaalde interest Zelena 20.000.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:127" },
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:128" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Eliminatie:\n- Vordering 500.000 (Aurelia) ↔ schuld 500.000 (Zelena) → geconsolideerd 0.\n- Interestopbrengst 20.000 (Aurelia) ↔ interestkost 20.000 (Zelena) → geconsolideerd 0.\n\nNetto-effect op groepscijfers: balans krimpt met 500.000 (verdwijnt aan beide kanten); resultaat onveranderd. De groep heeft economisch enkel zichzelf geld geleend — geen vermogensbeweging buiten de groep."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Cut-off-verschillen negeren",
+        "verkeerde_assumptie": "Wederzijdse vorderingen en schulden zijn altijd in balans en kunnen zonder reconciliatie geëlimineerd worden.",
+        "kernpunt": "In de praktijk zijn intercompany-saldi vaak NIET in balans op balansdatum: facturen onderweg, kosten geboekt vóór factuur, valuta-omzetting. Vóór eliminatie altijd een intercompany-reconciliatie uitvoeren, met identificatie van het verschil (cut-off, valuta, discussie). Onbalanseringen zonder verklaring leiden tot fouten in geconsolideerde balans.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:128" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Consolidatie-praktijk" }
+          ]
+        }
+      },
+      {
+        "titel": "Latente belasting op unrealised gains vergeten",
+        "verkeerde_assumptie": "Bij eliminatie van intercompany-voorraadwinst hoeft enkel de winst zelf weggenomen te worden — latente belastingen zijn niet relevant.",
+        "kernpunt": "De geëlimineerde winst is fiscaal al belast (in hoofde van de verkopende entiteit), maar boekhoudkundig in de groep nog niet erkend. Dit creëert een aftrekbare tijdelijk verschil → latente belastingvordering (IAS 12 §39). Vergeten leidt tot overdreven impact op groepsresultaat.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "IAS 12", "ref": "§39" }
+          ]
+        }
+      },
+      {
+        "titel": "Bij vermogensmutatie volledig elimineren",
+        "verkeerde_assumptie": "Net als bij integrale consolidatie worden intercompany-transacties met een geassocieerde onderneming volledig geëlimineerd.",
+        "kernpunt": "Bij vermogensmutatie wordt enkel het aandeel van de groep in unrealised gains/losses geëlimineerd, en dan nog 'voor zover informatie beschikbaar is' (art. 3:142 § 2 KB-WVV + IAS 28 §28). De geassocieerde onderneming staat niet integraal in de groep; eliminatie is dus beperkter.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:142 § 2" },
+            { "type": "norm", "naam": "IAS 28", "ref": "§28" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "groep-consolidator",
+      "naam": { "primair": "Groep — consolidator" },
+      "intro": "Accountant die de eliminatie-stap uitvoert op het consolidatie-werkblad.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "reconciliatie-voor-eliminatie",
+              "naam": { "primair": "Intercompany-reconciliatie vóór eliminatie" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Op consolidatiedatum: (1) lijst alle intercompany-saldi op uit hoofd-grootboeken van elke dochter; (2) match per tegenpartij (Aurelia vs Zelena, Aurelia vs Vermeer, ...); (3) onderzoek verschillen > materialiteit; (4) corrigeer cut-off-fouten op niveau van dochter (niet via eliminatie); (5) bekom een gestabiliseerde lijst van saldi voor eliminatie. Aandachtspunt: valuta-verschillen bij buitenlandse dochters apart afhandelen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "KB-WVV", "ref": "art. 3:128" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-eliminaties",
+              "naam": { "primair": "Audit van eliminatieboekingen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De commissaris controleert de volledigheid en juistheid van eliminaties: (1) zijn alle materiële intercompany-relaties geïdentificeerd? (2) zijn cut-off-verschillen verklaard? (3) zijn unrealised gains correct berekend (vooral bij intercompany-voorraad)? (4) is latente belasting geboekt? Bij grote groepen vaak een 'intercompany-audit'-module met steekproef op grootste tegenpartijen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 600", "ref": "§22, §A22-A24" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "opmaak-geconsolideerde-jaarrekening" }
   ]
 }
