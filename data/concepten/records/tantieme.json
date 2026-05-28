@@ -3,26 +3,31 @@
   "naam": {
     "primair": "Tantième",
     "synoniemen": [
-      "bestuurderstantième",
-      "winstbonus bestuurder",
-      "director's bonus"
+      "winstaandeel bestuurder",
+      "variabele bestuurdersvergoeding op winst",
+      "veranderlijk tantième"
     ]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.IV.B",
-      "2.3.II"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["3.0.IV.B", "2.3.II"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/tantieme.json",
+      "primary_bronnen": [
+        "WIB92 art. 32 (bedrijfsleidersbezoldiging)",
+        "WIB92 art. 195 (aftrekbaarheid)",
+        "CBN-advies 2016/15 (vergoedingen bestuurders en werkende vennoten)",
+        "WVV (kapitaalbescherming uitkeringen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,58 +35,64 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit winstuitkering-cluster (skelet-doc regel ~1281, NIEUW — primair-thema-keuze winstuitkering)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle (WIB92 art. 32, CBN-2016/15, MvT-WVV)."
       }
     ],
     "scope": {
       "in": [
-        "Winstgebonden vergoeding toegekend door AV bij winstbestemming aan bestuurder(s)",
-        "Aftrekbaarheidsregel: aftrekbaar in het boekjaar waarop het betrekking heeft (mits AV-besluit en boeking binnen termijn) — speciale aftrekbaarheidsregel",
-        "Belastbaar als bedrijfsleidersbezoldiging in PB (categorie bedrijfsleider)",
-        "Afbakening met CAO 90-bonus (geen tantième) en regulier dividend",
-        "Cross-thema: werknemers-vergoedingen (bouwblok bedrijfsleidersbezoldiging)"
+        "Winstgebonden vergoeding toegekend door de algemene vergadering bij winstbestemming aan bestuurder(s)",
+        "Aftrekbaarheidsregel: aftrekbaar in het boekjaar waarop het tantième betrekking heeft (mits AV-besluit en boeking binnen termijn) — speciale aftrekbaarheidsregel afwijkend van de algemene matching-regel",
+        "Belastbaar als bedrijfsleidersbezoldiging in PB (categorie bedrijfsleider, art. 32 WIB92)",
+        "Afbakening met CAO-90-bonus (geen tantième) en regulier dividend",
+        "Boekhoudkundige verwerking via rekening 695 'Bestuurders of zaakvoerders' (CBN 2016/15)",
+        "Cross-thema: werknemers-vergoedingen versus bedrijfsleidersvergoedingen (bouwblok bedrijfsleidersbezoldiging)"
       ],
       "out": [
-        {
-          "topic": "Winstuitkering-Σ als parent",
-          "richting": "moet-verwijzen",
-          "ref": "winstuitkering"
-        },
-        {
-          "topic": "Winstbestemming — toekenningsmoment",
-          "richting": "moet-verwijzen",
-          "ref": "winstbestemming"
-        },
-        {
-          "topic": "Bedrijfsleidersbezoldiging — Σ-context als bouwblok",
-          "richting": "moet-verwijzen",
-          "ref": "bedrijfsleidersbezoldiging"
-        },
-        {
-          "topic": "KMO-tarief VenB-context (45.000 EUR bezoldigingsregel)",
-          "richting": "mag-verwijzen",
-          "ref": "kmo-tarief-vennootschapsbelasting"
-        },
-        {
-          "topic": "Algemene vergadering — besluit",
-          "richting": "moet-verwijzen",
-          "ref": "algemene-vergadering"
-        }
+        { "topic": "Winstuitkering-Sigma als parent", "richting": "moet-verwijzen", "ref": "winstuitkering" },
+        { "topic": "Winstbestemming — toekenningsmoment", "richting": "moet-verwijzen", "ref": "winstbestemming" },
+        { "topic": "Bedrijfsleidersbezoldiging — Sigma-context als bouwblok", "richting": "moet-verwijzen", "ref": "bedrijfsleidersbezoldiging" },
+        { "topic": "KMO-tarief VenB-context (45.000 EUR bezoldigingsregel)", "richting": "mag-verwijzen", "ref": "kmo-tarief-vennootschapsbelasting" },
+        { "topic": "Algemene vergadering — besluit", "richting": "moet-verwijzen", "ref": "algemene-vergadering" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een tantième is een veranderlijke vergoeding toegekend aan een bestuurder of zaakvoerder, berekend in functie van de nettowinst van het boekjaar, en goedgekeurd door de algemene vergadering bij de winstbestemming. Wettelijk gekwalificeerd als 'bezoldiging van een bedrijfsleider' (art. 32 WIB92), niet als dividend. Boekhoudkundig geboekt op rekening 695 'Bestuurders of zaakvoerders' als onderdeel van de winstverdeling (niet als gewone bedrijfskost).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 32" },
+            { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "rekening 695 — bestuurders of zaakvoerders" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het tantième is een hybride concept: vennootschapsrechtelijk een winstuitkering (en dus onderworpen aan de kapitaalbescherming — netto-actief-test bij NV, dubbele test bij BV), maar fiscaal een bezoldiging. Dit dubbele karakter geeft een speciale fiscale eigenschap: een tantième beslist door de algemene vergadering tijdens jaar Y+1 (bij de behandeling van de jaarrekening van Y) is bij de vennootschap aftrekbaar in jaar Y — niet in Y+1. Dat is een uitzondering op het matching-principe en is fiscaal interessant: men kan na boekjaareinde nog beslissen om winst van Y te 'verlagen' door een tantième toe te kennen, dat dan in Y belast wordt bij de bestuurder en aftrek wordt bij de vennootschap voor datzelfde jaar Y.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 195 + art. 49 (aftrekbaarheid beroepskosten)" },
+            { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "tantieme als winstverdeling" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese fiscale eigenschap" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom een tantième? Twee redenen. Eerste: prestatiekoppeling — bestuurders die meer winst genereren krijgen meer; verliesjaren leveren geen tantième. Tweede: fiscale optimalisatie van het KMO-tarief in VenB. Een kleine vennootschap betaalt 20% VenB op de eerste 100.000 EUR winst, op voorwaarde dat een bestuurder minstens 45.000 EUR bezoldiging krijgt (bezoldigingsregel art. 215 WIB92). Het tantième kan na boekjaareinde worden ingezet om die drempel alsnog te bereiken — flexibeler dan een vast maandloon.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 215 (bezoldigingsregel KMO-tarief)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis praktijk" }
           ]
         }
       }
@@ -89,26 +100,321 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV + WIB"
+        "wettelijke_basis": "WIB92 art. 32 + 195; WVV (kapitaalbescherming uitkeringen); CBN-advies 2016/15"
+      },
+      "voor": [
+        {
+          "tekst": "Beloning van bestuurders in functie van bedrijfsprestaties — vooral in kleine vennootschappen waar bestuurder ook aandeelhouder is.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "tantieme als winstverdeling" }
+            ]
+          }
+        },
+        {
+          "tekst": "Halen van de 45.000 EUR-bezoldigingsdrempel voor het KMO-tarief in VenB als de vaste bezoldiging niet volstaat.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 215" }]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Beslissing door de algemene vergadering bij de behandeling van de jaarrekening — als onderdeel van het winstbestemmings-besluit.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "AV-besluit winstverdeling" }
+            ]
+          }
+        },
+        {
+          "tekst": "Respect voor de kapitaalbescherming: het tantième mag niet leiden tot uitkering boven de uitkeerbare winsten (WVV art. 5:142 voor BV, art. 7:212 voor NV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "kapitaalbescherming" }
+            ]
+          }
+        },
+        {
+          "tekst": "Tijdige boeking en bedrijfsvoorheffing: bij toekenning wordt op de bruto-tantieme bedrijfsvoorheffing ingehouden en aangegeven via fiche 281.20.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk fiscale aangifte" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Aftrekbaar in het jaar waarop het betrekking heeft (jaar Y), ook al wordt het toegekend in jaar Y+1 — laat fiscale planning toe na boekjaareinde.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 195 + 49" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Algemeen aanvaarde fiscale praktijk" }
+            ]
+          }
+        },
+        {
+          "tekst": "Lager belast dan dividend in veel scenario's: tantième is beroepsinkomen (progressieve PB-tarieven na sociale bijdragen-aftrek) versus dividend (RV 30%, of VVPRbis 15%, of liquidatiereserve 10%).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vergelijking tarief structuren" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Herkwalificatie als verkapte dividend-uitkering bij gebrek aan reele tegenprestatie (CBN 2016/15): de bezoldiging moet in redelijk verband staan tot de geleverde prestaties.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "redelijk verband tot prestaties" }
+            ]
+          }
+        },
+        {
+          "tekst": "Sociale bijdragen: tantième valt onder de sociale bijdragen-grondslag van zelfstandige bedrijfsleiders — kan tot 21,5% kostprijs opdrijven boven de PB-belasting.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sociale-bijdragen-structuur" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "aftrekbaarheid-jaar-y",
+        "naam": { "primair": "Aftrekbaarheid in jaar Y bij toekenning in jaar Y+1" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het tantième beslist door de AV in jaar Y+1 (bij de behandeling van de jaarrekening van Y) is bij de vennootschap aftrekbaar in jaar Y. Dit is een afwijking van het matching-principe en de jaarlijkheidsregel: normaliter zijn kosten aftrekbaar in het jaar waarin ze worden toegekend. Voor tantièmes geldt de bijzondere regel dat ze aansluiten bij het boekjaar waarop ze betrekking hebben, mits boeking als schuld (rekening 489 of vergelijkbaar) en effectieve toekenning binnen redelijke termijn na boekjaareinde.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 195 + 49" },
+                  { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "boeking tantieme" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Praktisch verloop: 31/12/Y is balansdatum. De jaarrekening wordt opgesteld in jaar Y+1. De gewone algemene vergadering (binnen 6 maanden) keurt de jaarrekening goed en beslist de winstbestemming, inclusief eventueel tantième. Het tantième-bedrag wordt geboekt op 31/12/Y als schuld jegens bestuurder (rekening 489) en als last (resultaatbestemming, rekening 695). Belastbaar bij de bestuurder in jaar Y+1 (jaar van toekenning), aftrekbaar bij de vennootschap in jaar Y.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "tijdslijn boeking" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactische uitwerking" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "tantieme-versus-dividend",
+        "naam": { "primair": "Tantième versus dividend" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Beide zijn winstbestemmingen, maar fundamenteel verschillend.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 32 versus art. 18" }]
+              },
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "titel": "Tantième versus dividend",
+                  "kolommen": ["Aspect", "Tantième", "Dividend"],
+                  "rijen": [
+                    ["Ontvanger", "Bestuurder", "Aandeelhouder"],
+                    ["Fiscale categorie", "Bedrijfsleidersbezoldiging (art. 32 WIB92)", "Roerend inkomen (art. 18 WIB92)"],
+                    ["Belasting bij ontvanger", "Progressieve PB-tarieven (na aftrek sociale bijdragen)", "RV 30% (of VVPRbis 15%, liquidatiereserve 10%)"],
+                    ["Aftrekbaar bij vennootschap?", "Ja — als beroepskost (rekening 695)", "Nee — winstuitkering, niet aftrekbaar"],
+                    ["Aftrek in welk jaar?", "Jaar waarop het betrekking heeft (Y, ook al beslist in Y+1)", "Niet aftrekbaar"],
+                    ["Sociale bijdragen?", "Ja — zelfstandige bedrijfsleider", "Nee"],
+                    ["Bezoldigingsregel KMO?", "Telt mee voor 45.000 EUR-drempel", "Telt niet mee"]
+                  ]
+                }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "tantieme-cijfervoorbeeld",
+        "titel": "Tantième om KMO-tarief te halen",
+        "context": "BV Optima sluit 2025 af met een winst voor tantième en VenB van 120.000 EUR. De zaakvoerder ontving in 2025 een vaste bezoldiging van 30.000 EUR — te weinig voor de bezoldigingsregel (45.000 EUR) van het KMO-tarief. De AV in mei 2026 beslist een tantième van 15.000 EUR toe te kennen voor boekjaar 2025.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch cijfervoorbeeld" }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "berekening-tantieme",
+            "naam": { "primair": "Effect op belastbare basis 2025" },
+            "bouwsteen_type": "formule",
+            "kern": {
+              "definitie": {
+                "tekst": "Winst voor tantième en VenB: 120.000 EUR. Tantième 15.000 EUR aftrekbaar in 2025. Belastbare winst na tantième: 105.000 EUR. Totale bezoldiging zaakvoerder 2025: 30.000 (vast) + 15.000 (tantième) = 45.000 EUR — drempel KMO-tarief gehaald. VenB tegen 20% op eerste 100.000 EUR + 25% op 5.000 EUR = 20.000 + 1.250 = 21.250 EUR. Vergelijking zonder tantième: 120.000 EUR x 25% = 30.000 EUR VenB. Besparing VenB: 8.750 EUR. Bij de zaakvoerder: 15.000 EUR extra belast in PB (na sociale bijdragen).",
+                "grondslag": {
+                  "confidence": "afgeleid",
+                  "bronnen": [
+                    { "type": "wettekst", "naam": "WIB92", "ref": "art. 215" },
+                    { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijfervoorbeeld" }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Tantième als gewone bedrijfskost boeken",
+        "verkeerde_assumptie": "Tantième is een vergoeding, dus boeking onder rekening 618 'Bezoldigingen, premies' of 600-reeks.",
+        "kernpunt": "Tantième is winstverdeling, geen bedrijfskost. Boeking op rekening 695 'Bestuurders of zaakvoerders' onder de resultaatverwerking (CBN 2016/15). Dat is niet alleen rubricering — boeking als bedrijfskost zou het bedrijfsresultaat verlagen en de bestemmings-volgorde verstoren.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{ "type": "advies", "naam": "CBN-advies 2016/15", "ref": "rekening 695" }]
+        }
+      },
+      {
+        "titel": "Aftrek in verkeerde jaar",
+        "verkeerde_assumptie": "Tantième beslist in mei 2026 = aftrekbaar in 2026.",
+        "kernpunt": "Tantième is aftrekbaar in het jaar waarop het betrekking heeft (jaar Y), niet in het jaar van toekenning (Y+1). Mits correcte boeking op 31/12/Y als schuld en effectieve toekenning binnen redelijke termijn. Vergeet niet: voor de bestuurder is het wel belastbaar in Y+1 (jaar van toekenning).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 195 + 49" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bijzondere aftrekbaarheidsregel" }
+          ]
+        }
+      },
+      {
+        "titel": "Tantième bij verlies of onvoldoende uitkeerbare winsten",
+        "verkeerde_assumptie": "Een tantième kan altijd worden toegekend om belasting te verlagen.",
+        "kernpunt": "Tantième is een winstuitkering en valt onder de kapitaalbescherming. Bij verlies of onvoldoende uitkeerbare winsten (cf. netto-actief-test in NV, dubbele test in BV) is toekenning verboden — overtreding kan leiden tot terugvordering en aansprakelijkheid van de bestuurder.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "kapitaalbescherming" }
+          ]
+        }
+      },
+      {
+        "titel": "Niet-redelijke tantième als verkapte dividend",
+        "verkeerde_assumptie": "Het tantième kan vrij worden gekozen om fiscale optimalisatie te maximaliseren.",
+        "kernpunt": "Het tantième moet in redelijk verband staan tot de geleverde prestaties. Bij excessieve tantièmes — vooral wanneer bestuurder en aandeelhouder dezelfde persoon zijn — kan de fiscus het herkwalificeren als verkapt dividend, met weigering van aftrek en RV-toepassing.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{ "type": "advies", "naam": "CBN-advies 2016/15", "ref": "herkwalificatie verkapte uitkering" }]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Tantième versus bonus versus dividend",
+        "opties": [
+          {
+            "keuze": "Tantième",
+            "voordeel": "Aftrekbaar bij vennootschap, telt mee voor bezoldigingsregel KMO-tarief, flexibel na boekjaareinde, lager dan dividend bij kleine bedragen.",
+            "nadeel": "Sociale bijdragen verschuldigd, progressief belast in PB."
+          },
+          {
+            "keuze": "Vaste maandbezoldiging",
+            "voordeel": "Voorspelbaar, sociale zekerheid opbouw, geen winstvolatiliteit.",
+            "nadeel": "Moet vooraf worden bepaald — geen flexibiliteit na boekjaareinde."
+          },
+          {
+            "keuze": "Dividend (regulier of VVPRbis/liquidatiereserve)",
+            "voordeel": "Fixed RV-tarief (30%, 15% bij VVPRbis, 10% liquidatiereserve), geen sociale bijdragen, eenvoudige administratie.",
+            "nadeel": "Niet aftrekbaar bij vennootschap, telt niet mee voor bezoldigingsregel KMO."
+          }
+        ],
+        "vuistregel": "Bij kleine winsten en KMO-tarief: tantième om drempel 45.000 EUR te halen. Bij grote winsten: dividend met VVPRbis (3 jaar oude vennootschap) of liquidatiereserve (5 jaar wachttijd) is meestal fiscaal optimaal.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 32 + 215" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "winstuitkering"
-    },
-    {
-      "type": "valt_onder",
-      "target": "bedrijfsleidersbezoldiging"
-    },
-    {
-      "type": "triggert",
-      "target": "winstbestemming"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "algemene-vergadering"
+      "id": "fiscaal-tantieme",
+      "naam": { "primair": "Accountant als fiscaal adviseur — tantième-optimalisatie" },
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "tantieme-advies",
+              "naam": { "primair": "Tantième-advies bij jaarafsluiting" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Stap 1: Bepaal voorlopige belastbare winst voor tantième. Stap 2: Controleer de gerealiseerde bezoldiging (vast + voordelen van alle aard) versus de 45.000 EUR-drempel voor KMO-tarief. Stap 3: Indien onder drempel: bereken het tantieme nodig om drempel te halen. Stap 4: Vergelijk gecombineerde belastingdruk (VenB + sociale bijdragen + PB) voor verschillende tantième-niveaus. Stap 5: Adviseer optimum + documenteer redelijkheid (in verband met prestaties) ter beveiliging tegen herkwalificatie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 215 + 32" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkadvies" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "tantieme-boeken",
+              "naam": { "primair": "Boekingen tantième" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Op 31/12/Y (na AV-besluit van Y+1): boeking 695 'Bestuurders of zaakvoerders' tegen 489 'Andere schulden — bestuurders'. Bij betaling in Y+1: 489 tegen bank, inhouding bedrijfsvoorheffing en aangifte via fiche 281.20. Vermelding in toelichting jaarrekening Y onder winstverdeling.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "boeking tantieme" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "winstuitkering" },
+    { "type": "valt_onder", "target": "bedrijfsleidersbezoldiging" },
+    { "type": "triggert", "target": "winstbestemming" },
+    { "type": "beinvloed_door", "target": "algemene-vergadering" }
   ]
 }
