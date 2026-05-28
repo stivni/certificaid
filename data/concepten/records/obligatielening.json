@@ -4,23 +4,43 @@
     "primair": "Obligatielening",
     "synoniemen": [
       "bond issue",
-      "schuldbewijs",
-      "obligatie-uitgifte"
-    ]
+      "bondloan",
+      "uitgifte van obligaties"
+    ],
+    "vertaling": {
+      "fr": "emprunt obligataire",
+      "en": "bond issue"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "entiteit"
+      "regeling"
     ],
     "ankers": [
-      "1.1.II.V"
+      "3.0.IV.D"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/obligatielening.json",
+      "primary_bronnen": [
+        "WVV art. 5:32 (BV - uitgifte obligaties)",
+        "WVV art. 7:54 (NV - uitgifte obligaties)",
+        "WVV art. 7:64-65 (NV - converteerbare obligaties + warrant-obligaties)",
+        "WVV art. 7:155 e.v. (NV - bevoegdheid bestuursorgaan vs algemene vergadering)",
+        "KB WVV art. 3:51 (waardering obligaties op uitgifteprijs)",
+        "CBN-advies 2019/07 (Boekhoudkundige verwerking uitgifte obligatielening)",
+        "CBN-advies 139/5 (Obligaties met warrant)",
+        "CBN-advies 2018/14 (Roerende voorheffing - boekingsschema)",
+        "WIB92 art. 269 (RV-tarief 30%)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -28,36 +48,44 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit schuldfinanciering-cluster (skelet-doc regel ~605, NIEUW)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle-chunks (WVV art. 5:32 + 7:54 + MvT, CBN 2019/07 + 139/5 + 2018/14)"
       }
     ],
     "scope": {
       "in": [
-        "Schuldinstrument waarbij vennootschap obligaties uitgeeft aan beleggers tegen vooraf bepaalde rente + terugbetalingstermijn",
+        "Schuldinstrument: vennootschap geeft verhandelbare obligaties uit aan beleggers tegen vooraf bepaalde rente + terugbetalingstermijn",
         "Modaliteiten: gewone vs converteerbare vs achtergestelde vs warrant-obligatie",
-        "Uitgifte vereist (NV) bestuursbesluit + soms AV; prospectus-plicht boven drempel (FSMA)",
-        "Boekhoudkundig op rekening 17",
-        "RV op interest (30% standaard)",
-        "Aflossing volgens schema (bullet vs amortizing)"
+        "Uitgifte vereist (NV) bestuursbesluit + soms algemene vergadering; prospectusplicht boven drempel (FSMA - prospectusverordening)",
+        "Nominale waarde minimum 25 EUR (BV)",
+        "Boekhoudkundige verwerking: rekening 17 (obligatielening) + actuariële behandeling agio/disagio",
+        "Roerende voorheffing op interest (30% standaardtarief)",
+        "Aflossingsschema (bullet typisch, soms amortizing of perpetueel)"
       ],
       "out": [
         {
-          "topic": "Eigen vermogen — afbakening vreemd vs eigen",
+          "topic": "Eigen vermogen - afbakening vreemd vs eigen",
           "richting": "moet-verwijzen",
           "ref": "eigen-vermogen"
         },
         {
-          "topic": "Kapitaalverhoging — alternatief financieringsbron",
+          "topic": "Kapitaalverhoging - alternatief als financieringsbron",
           "richting": "moet-verwijzen",
           "ref": "kapitaalverhoging"
         },
         {
-          "topic": "Banklening — primaire vergelijking",
+          "topic": "Banklening - primaire vergelijking als bilaterale schuld",
           "richting": "moet-verwijzen",
           "ref": "banklening-investeringskrediet"
         },
         {
-          "topic": "Achtergestelde lening — variant",
+          "topic": "Achtergestelde lening - variant in rangorde",
           "richting": "moet-verwijzen",
           "ref": "achtergestelde-lening"
         }
@@ -67,32 +95,412 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een obligatielening is een lening die door een vennootschap wordt aangegaan in de vorm van uitgifte van obligaties: meerdere verhandelbare effecten die elk eenzelfde schuldvordering vertegenwoordigen tegen eenzelfde nominale waarde. Elke obligatie is voor de houder het equivalent van een lening aan de uitgever; in ruil verbindt de uitgever zich tot terugbetaling van het kapitaal (nominale waarde) op een vastgelegde vervaldag en tot periodieke rentebetalingen ('coupons'). Naast de gewone obligatie bestaan varianten: converteerbare obligaties (conversierecht in aandelen), warrant-obligaties (obligatie + losse warrant), achtergestelde obligaties (lagere rang) en eeuwigdurende obligaties (geen vaste vervaldag).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "cbn", "naam": "CBN-advies 2019/07", "ref": "Inleiding - definitie obligatielening" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:54" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:32" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het sleutelverschil met een banklening is dat een obligatielening wordt opgesplitst in stukken die elk verkocht worden aan een groep beleggers - de uitgevende vennootschap krijgt dus financiering van velen tegelijk, niet van één bank. Daardoor heeft de uitgever meer onderhandelingsruimte over rentevoet en voorwaarden (geen één bank die zijn convenanten oplegt), maar krijgt hij wel de complexiteit van een effecten-procedure: prospectus boven bepaalde drempels (FSMA, EU-prospectusverordening), notarisbetrokkenheid voor de uitgifte, en effectenpublicatie. Voor grote vennootschappen is dit een courante financieringsweg; voor KMO's blijft de banklening dominant. Voor de belegger is een obligatie een vastrentend instrument: lager risicoprofiel dan aandeel, maar wel kredietrisico op de uitgever.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Memorie van toelichting WVV (Parl. St. Kamer 54-3119/001)", "ref": "Art. 5:32 + 7:54 - effecten-statuut" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer corporate finance obligaties" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De obligatielening combineert twee functies: financiering voor de vennootschap, beleggings-instrument voor de markt. Door de schuld in verhandelbare effecten te 'tokeniseren' kan ze opgedeeld worden over veel houders, en kan ieder van hen op elk moment verkopen op de markt zonder dat de vennootschap zelf moet herfinancieren. Dat verhoogt de liquiditeit voor de beleggers en daardoor wordt de gevraagde rente lager. De juridische bescherming van de obligatiehouder gebeurt typisch via een 'algemene vergadering van obligatiehouders' (analoog aan de aandeelhoudersvergadering) en eventueel via een trustee of bewaarder.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese functie obligatie + tokenisatie-effect op liquiditeit" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "vreemd-vermogen",
+        "lening"
+      ],
+      "naast_relevant": [
+        "banklening-investeringskrediet",
+        "achtergestelde-lening",
+        "kapitaalverhoging"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV art. 5:32-37 (BV) + 7:54-78 (NV) + EU-Prospectusverordening 2017/1129 + Belgische Prospectuswet 11-07-2018"
+      },
+      "voor": [
+        {
+          "tekst": "Financiering van grote bedragen (typisch boven 10-20 miljoen EUR) waar één bank te grote risicoconcentratie zou krijgen, of waar de uitgever onafhankelijkheid wil van een specifieke bankrelatie. Ook strategisch instrument voor groei-vennootschappen die hun investeerdersbasis willen verbreden.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk corporate finance" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Bevoegd orgaan: voor de NV beslist het bestuursorgaan over de uitgifte van gewone obligaties (art. 7:54 WVV) - de algemene vergadering enkel voor converteerbare obligaties en warrant-obligaties (omdat die de aandeelhoudersstructuur kunnen wijzigen). Voor de BV: bestuursorgaan of algemene vergadering volgens de statuten. Notariele akte vereist voor converteerbare obligaties en warrant-obligaties. Boven de prospectus-drempel (typisch 5 mio EUR over 12 maanden, met uitzonderingen): goedgekeurde prospectus door de FSMA.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:54" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:32" },
+              { "type": "wettekst", "naam": "Wet 11-07-2018 betreffende de aanbieding van beleggingsinstrumenten", "ref": "art. 10 - prospectusplicht" }
+            ]
+          }
+        },
+        {
+          "tekst": "Nominale waarde minimum 25 EUR (BV); voor de NV is er geen wettelijke minimum-nominale, maar marktpraktijk legt typisch hogere drempels op.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:32" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Financiering van zeer grote bedragen zonder afhankelijkheid van één bankrelatie. Doorgaans soepelere covenants dan bij een banklening. Aftrekbare rentekosten binnen de grenzen van art. 198/1 WIB92. Bij converteerbare en warrant-obligaties: lagere coupon dan bij gewone obligaties (de equity-kicker compenseert).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer obligatie-financiering" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Hoge transactiekosten bij uitgifte (prospectus, juristen, notariskosten, banking fee) - rendabel pas vanaf bepaalde uitgifte-omvang. Reputatierisico bij niet-betaling van een coupon: het wordt onmiddellijk publiek bekend, en de marktwaarde van de obligaties keldert. Bij genoteerde obligaties: doorlopende informatieverplichtingen onder de transparantiewet.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "varianten-obligaties",
+        "naam": {
+          "primair": "Varianten: gewone, converteerbare, warrant, achtergestelde, eeuwigdurende"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "(1) Gewone obligatie - klassiek schuldinstrument, terugbetaling op vervaldag tegen nominale waarde, periodieke coupons. (2) Converteerbare obligatie - geeft houder recht (of plicht) om in aandelen te converteren op vooraf bepaalde modaliteiten; conversie kan aan de obligatiehouder, de vennootschap of automatisch toebehoren. (3) Warrant-obligatie - obligatie + losse warrant die recht geeft op inschrijving op nieuwe aandelen; obligatie en warrant kunnen na uitgifte apart verhandeld worden. (4) Achtergestelde obligatie - klassieke obligatie maar in rang achter andere schuldeisers. (5) Eeuwigdurende obligatie - geen vaste vervaldag, wel rente; aflossing op initiatief van de uitgever (call) of houder (put). Convertibles en warrant-obligaties hebben hybride karakter en raken aan het aandelenkapitaal - daarom is bij hun uitgifte de algemene vergadering bevoegd.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:54 + 7:64-65" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:32" },
+                { "type": "cbn", "naam": "CBN-advies 139/5", "ref": "Obligaties met warrant" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waardering-uitgiftewaarde",
+        "naam": {
+          "primair": "Waardering op uitgiftewaarde + actuariële behandeling van agio/disagio"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de uitgevende vennootschap worden obligatieleningen geboekt aan hun uitgiftewaarde (art. 3:51 KB WVV). Wanneer het actuariële rendement (berekend bij uitgifte met inachtneming van de terugbetalingswaarde op vervaldag) verschilt van het nominale rendement, wordt het verschil tussen uitgifteprijs en terugbetalingswaarde pro rata temporis over de resterende looptijd in resultaat genomen als bestanddeel van de rentekost. Dat gebeurt in beginsel op geactualiseerde basis (effectieve-rente-methode); de vennootschap kan kiezen voor lineaire spreiding of - bij geringe weerslag - de obligatielening voor haar uitgifteprijs in de balans behouden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 2019/07", "ref": "Obligatielening - waardering en behandeling agio/disagio" },
+                { "type": "kb", "naam": "KB WVV", "ref": "art. 3:51" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "roerende-voorheffing",
+        "naam": {
+          "primair": "Roerende voorheffing op coupons"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Op de rentebetalingen aan obligatiehouders is roerende voorheffing verschuldigd. Standaardtarief: 30% (art. 269 WIB92, sinds 2017). Bevrijdend bij particuliere belastingplichtigen voor wie het inkomen tot het privé-vermogen behoort. De uitgever houdt de RV in bij betaling van de coupon, stort ze door aan de fiscus en bezorgt aan de houder een fiscaal attest. Voor gebrachte coupons over een boekjaargrens: pro rata RV-boeking via rekening 491 ('verkregen opbrengsten') of 492 ('toe te rekenen kosten') op de actiefzijde.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 269" },
+                { "type": "cbn", "naam": "CBN-advies 2018/14", "ref": "Roerende voorheffing - boekingsschema" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bevoegdheid-orgaan",
+        "naam": {
+          "primair": "Bevoegdheid: bestuursorgaan vs algemene vergadering"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor de NV beslist het bestuursorgaan over de uitgifte van gewone obligaties (art. 7:54 WVV). Voor converteerbare obligaties en warrant-obligaties is een besluit van de algemene vergadering vereist - ze raken aan de aandeelhoudersstructuur. De AV moet beslissen volgens de regels voor een statutenwijziging (3/4-meerderheid, aanwezigheidsquorum, verslag bestuursorgaan + commissaris). Voor de BV: de statuten bepalen de bevoegde organen; default is de algemene vergadering.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:54" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:64-65" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "prospectusplicht",
+        "naam": {
+          "primair": "Prospectusplicht (FSMA / EU-verordening)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor een publieke aanbieding van obligaties is in beginsel een door de FSMA goedgekeurde prospectus vereist (EU-Prospectusverordening 2017/1129 + Belgische uitvoeringswet 11-07-2018). Drempels en vrijstellingen: aanbiedingen onder 5 miljoen EUR per 12 maanden zijn vrijgesteld (eventueel met informatienota vereist boven 500.000 EUR); aanbiedingen uitsluitend aan gekwalificeerde beleggers of aan minder dan 150 niet-gekwalificeerde beleggers per lidstaat zijn vrijgesteld. Voor niet-publieke uitgiftes (private placement) is geen prospectus nodig, maar wel een schriftelijke informatie aan de beleggers.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "EU-Prospectusverordening 2017/1129", "ref": "art. 1 + 3 - prospectusplicht en vrijstellingen" },
+                { "type": "wettekst", "naam": "Wet 11-07-2018 aanbieding beleggingsinstrumenten", "ref": "art. 10 + 11" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "obligatie-met-warrant-splitsing",
+        "naam": {
+          "primair": "Obligatie met warrant - boekhoudkundige splitsing"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij obligaties met warrant moet de aanschafprijs (bij koper) en de uitgifteprijs (bij uitgever) gesplitst worden over twee componenten: het schuldgedeelte (de obligatie) en het optie-gedeelte (de warrant). CBN 139/5 reikt verschillende methoden aan: (1) latere noteringssplitsing (waarde = totaalprijs * koers warrant / (koers obligatie + koers warrant)); (2) actuariële methode op basis van marktrente voor gewone obligaties met vergelijkbare kenmerken - het verschil tussen uitgifteprijs en actuariële waarde van de obligatie geldt als waarde van de warrant. Bij uitoefening van de warrant: betaling van de uitoefenprijs + uitgifte van nieuwe aandelen; de warrant-balanswaarde wordt afgeboekt naar het eigen vermogen (kapitaalverhoging).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 139/5", "ref": "Obligaties met warrant - splitsingsmethoden" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-gewone-obligatielening",
+        "titel": "Gewone obligatielening met disagio (uitgifte onder pari)",
+        "context": "NV Aurelia geeft 1.000 obligaties uit met nominale waarde 1.000 EUR, coupon 3%, looptijd 5 jaar, bullet-aflossing. Uitgifteprijs: 980 EUR per obligatie (disagio van 20 EUR). Totaal uitgegeven: 980.000 EUR; totale terugbetalingswaarde op vervaldag: 1.000.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2019/07", "ref": "Behandeling agio/disagio" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Geconstrueerd cijfervoorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking bij uitgifte",
+            "rijen": [
+              { "rekening": "55 - Bank", "debet": 980000, "credit": null },
+              { "rekening": "170 - Obligatieleningen", "debet": null, "credit": 980000 }
+            ]
+          },
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 - disagio = 1.000.000 - 980.000 = 20.000 EUR; te spreiden over 5 jaar.",
+              "Stap 2 - lineaire spreiding (toegelaten optie volgens CBN 2019/07): 20.000 / 5 = 4.000 EUR per jaar bijkomende rentekost.",
+              "Stap 3 - jaarlijkse coupon: 1.000 obligaties x 1.000 EUR nominaal x 3% = 30.000 EUR. RV 30%: 9.000 EUR in te houden; 21.000 EUR uitbetaald aan houders.",
+              "Stap 4 - totale jaarlijkse rentekost in de resultatenrekening: 30.000 (coupon) + 4.000 (disagio-spreiding) = 34.000 EUR. Effectief rendement voor de obligatiehouder is daardoor hoger dan de nominale 3%.",
+              "Stap 5 - bij vervaldag: D 170 1.000.000 | C 55 1.000.000 (terugbetaling tegen nominale waarde); 170 was na 5 jaar bijgeschreven tot 1.000.000 via de disagio-toevoegingen."
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking jaarlijkse coupon",
+            "rijen": [
+              { "rekening": "650 - Rentelasten", "debet": 30000, "credit": null },
+              { "rekening": "453 - Ingehouden voorheffingen (RV)", "debet": null, "credit": 9000 },
+              { "rekening": "55 - Bank", "debet": null, "credit": 21000 }
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Obligatielening verwarren met aandelenuitgifte",
+        "verkeerde_assumptie": "Een obligatielening verhoogt het eigen vermogen van de vennootschap.",
+        "kernpunt": "Een gewone obligatielening is vreemd vermogen - schuldverbintenis met terugbetalingsplicht. Het eigen vermogen blijft ongewijzigd. Pas bij conversie van een converteerbare obligatie naar aandelen (of uitoefening van een warrant) wordt een deel omgezet in eigen vermogen. Vergelijk de balansrubriek: obligaties = VIII.A.1 (rekening 170-171); aandelen = I.A (rekening 100/111).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2019/07", "ref": "Definitie obligatielening - schuldinstrument" }
+          ]
+        }
+      },
+      {
+        "titel": "Disagio of agio in één keer als rentekost nemen",
+        "verkeerde_assumptie": "Bij uitgifte onder pari (disagio) komt het verschil ineens in de rentekost van het uitgiftejaar.",
+        "kernpunt": "Het verschil tussen uitgifteprijs en terugbetalingswaarde wordt pro rata temporis gespreid over de looptijd - in beginsel actuarieel (effectieve-rente), bij wijze van uitzondering lineair (CBN 2019/07 optie 1) of niet wanneer de weerslag verwaarloosbaar is (optie 2). In één keer in resultaat nemen vertekent zowel het resultaat van het uitgiftejaar als de rentekost in latere jaren.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2019/07", "ref": "Spreiding disagio/agio" }
+          ]
+        }
+      },
+      {
+        "titel": "Roerende voorheffing op bruto-coupon vergeten",
+        "verkeerde_assumptie": "De rentekost in de boekhouding van de uitgever is gelijk aan het bedrag dat effectief naar de houders gaat.",
+        "kernpunt": "De brutocoupon (rentekost) wordt geboekt op rekening 650; de RV (30%) wordt apart ingehouden en doorgestort aan de fiscus via rekening 453. De uitgever moet zorgen voor tijdige aangifte 273 en doorstortingen. Bij gemiste RV-aangiftes: boete + nalatigheidsinterest, ook indien het gaat om eigen vergissingen van de uitgever (RV is een persoonlijke schuld van de uitkerende vennootschap).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2018/14", "ref": "Roerende voorheffing - boekingstabel" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "uitgevende-vennootschap",
+      "naam": {
+        "primair": "Uitgevende vennootschap"
+      },
+      "intro": "De accountant of bedrijfsrevisor die de uitgifte begeleidt en de daaropvolgende boekhoudkundige verwerking opvolgt.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "voorbereiding-uitgifte",
+              "naam": {
+                "primair": "Voorbereiding van een obligatie-uitgifte"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bepaal de modaliteit (gewone / converteerbaar / met warrant / achtergesteld). Stel met juridisch adviseur het uitgiftecontract op. Controleer of bovendrempelse prospectusplicht ontstaat - zo ja, doorloop FSMA-procedure (kostbaar en tijdrovend). Bij converteerbare of warrant-obligaties: bereid het besluit van de algemene vergadering voor met verslag bestuursorgaan + verslag commissaris. Maak een financieringsplan dat de coupon-betalingen en de eindterugbetaling realistisch positioneert tegenover de verwachte kasstromen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:54 + 7:64" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk corporate finance" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "verwerking-uitgifte-en-coupon",
+              "naam": {
+                "primair": "Verwerking uitgifte, coupons en eindaflossing"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij uitgifte: D 55 (uitgifteprijs ontvangen) | C 170-171 obligatieleningen (uitgifteprijs). Disagio/agio: spreiden via correctie op 170/171 + rentelast op 650. Bij elke coupon: D 650 brutocoupon | C 453 RV + C 55 nettocoupon. Bij eindaflossing: D 170 | C 55. Indien obligatie converteerbaar: bij conversie D 170 | C 100/111 (kapitaal/inbreng) + eventueel C 1100 uitgiftepremie - geen kasbeweging. Bij warrant-obligatie: aparte boekingen voor obligatie en warrant volgens splitsingsmethode CBN 139/5.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 2019/07", "ref": "Boekhoudkundige verwerking obligatielening" },
+                      { "type": "cbn", "naam": "CBN-advies 139/5", "ref": "Obligaties met warrant" },
+                      { "type": "cbn", "naam": "CBN-advies 2018/14", "ref": "Roerende voorheffing" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
-      "type": "vergelijkbaar_met",
-      "target": "banklening-investeringskrediet"
+      "type": "valt_onder",
+      "target": "lening"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "achtergestelde-lening"
+      "target": "banklening-investeringskrediet",
+      "gelijkenissen": [
+        "Beide zijn vreemd vermogen op meer dan een jaar",
+        "Beide genereren rentekost aftrekbaar binnen art. 198/1 WIB92"
+      ],
+      "verschillen": [
+        "Obligatielening: effecten-instrument, verhandelbaar, uitgegeven aan veelheid van investeerders, prospectusplicht boven drempels",
+        "Banklening: bilaterale overeenkomst met één kredietinstelling, geen effecten, geen prospectus",
+        "Obligatielening: vaste coupon, vaste vervaldag, bullet typisch",
+        "Banklening: amortizing of annuïtair typisch, individuele waarborgen + covenants"
+      ],
+      "verwarring_risico": "Beide eindigen in rubriek VIII.A van het passief, maar op verschillende subrekeningen: 170-171 voor obligaties, 173-174 voor bankleningen.",
+      "render_hint": "als_glossarium"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "kapitaalverhoging"
+      "target": "achtergestelde-lening",
+      "gelijkenissen": [
+        "Beide zijn vreemd vermogen",
+        "Beide kunnen achtergesteld zijn (achtergestelde obligaties bestaan)"
+      ],
+      "verschillen": [
+        "Obligatielening is per definitie effecten-instrument; achtergestelde lening is meestal bilaterale schuld",
+        "Achtergestelde lening = rangorde-keuze; obligatie = vorm van het instrument"
+      ],
+      "verwarring_risico": "Achtergestelde obligaties combineren beide concepten - dan geldt het regime van de obligatielening + achterstellingsclausule.",
+      "render_hint": "als_glossarium"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalverhoging",
+      "gelijkenissen": [
+        "Beide zijn financieringsbronnen die op de kapitaalmarkt worden opgehaald",
+        "Beide bouwen op aanbod en vraag van investeerders"
+      ],
+      "verschillen": [
+        "Kapitaalverhoging = eigen vermogen (aandelen, geen terugbetalingsplicht, dividenduitkering afhankelijk van winst en kapitaalbescherming)",
+        "Obligatielening = vreemd vermogen (terugbetaling verplicht, rente niet afhankelijk van winst, geen stemrecht)",
+        "Aandeelhouders dragen ondernemingsrisico volledig; obligatiehouders krijgen voorrang bij vereffening"
+      ],
+      "verwarring_risico": "Bij een converteerbare obligatie of een warrant-obligatie loopt het onderscheid niet meer scherp - het instrument start als schuld en kan in eigen vermogen omgezet worden. Boekhoudkundige verwerking moet de twee componenten splitsen.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
