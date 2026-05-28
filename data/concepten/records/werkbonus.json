@@ -3,13 +3,18 @@
   "naam": {
     "primair": "Werkbonus",
     "synoniemen": [
-      "fiscale werkbonus"
-    ]
+      "fiscale werkbonus",
+      "sociale werkbonus",
+      "bonus à l'emploi"
+    ],
+    "vertaling": {
+      "fr": "bonus à l'emploi"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -37,9 +42,18 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/werkbonus.json",
+      "primary_bronnen": [
+        "Wet 20 december 1999 betreffende de werkbonus",
+        "WIB92 art. 289ter/1 (fiscale werkbonus)",
+        "Cijferzakboekje 2026 — drempels en bedragen"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -48,30 +62,349 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit basis kennis sociale werkbonus (wet 1999) + fiscale werkbonus (art. 289ter/1 WIB92)."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De werkbonus is een tweelagig stelsel dat het netto-loon van laaggekwalificeerde en laagverdiende werknemers verhoogt. (1) Sociale werkbonus: een vermindering op de RSZ-werknemersbijdrage (13,07 %) volgens een degressieve schaal — onder een onderste loongrens een maximumforfait, dan lineair afgebouwd tot een bovenste grens waar de bonus nul wordt. Wetgevingsbasis: programmawet 24 december 1999 + uitvoerende KB's. (2) Fiscale werkbonus: een belastingvermindering in de personenbelasting (art. 289ter/1 WIB92) gelijk aan een percentage van de sociale werkbonus — verlaagt de bedrijfsvoorheffing en dus de finale PB. Beide werken samen om de werkloosheidsval bij lage lonen te neutraliseren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Programmawet 24 december 1999", "ref": "art. 2 e.v.", "context": "Sociale werkbonus" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 289ter/1", "context": "Fiscale werkbonus" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026 — drempels en max-bedragen" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor een werknemer met laag refertekwartaalloon (bv. brutoloon < ~2.100 EUR/maand voltijds — exact drempel via Cijferzakboekje 2026) kan de sociale werkbonus per maand oplopen tot ongeveer 150–200 EUR vermindering RSZ-werknemer. De fiscale werkbonus voegt typisch nog 50–75 EUR per maand toe via lagere bedrijfsvoorheffing. Voor de werkgever is er géén extra kost — het systeem werkt zuiver via een lagere inhouding. Beleidsmatig: zonder de werkbonus zou een werkloze met laag-loon-vooruitzicht financieel weinig voordeel halen uit werken in plaats van werkloosheid; het stelsel maakt de netto-overgang van werkloosheid naar werk duidelijk gunstiger.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026 + standaard payroll-uitleg" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De werkloosheidsval (in het Engels 'unemployment trap') is een fenomeen waarbij het netto-inkomen van een werkloze (uitkering + voordelen) dicht ligt bij wat hij netto zou verdienen bij werk aan een laag bruto-loon. De werkbonus corrigeert dit door bij laag-loon-werk de netto-vergoeding op te trekken: lagere RSZ-inhouding + lagere PB. Het is gericht op behoud van werkprikkel zonder de minimumlonen of werkloosheidsuitkeringen aan te passen — politiek en economisch een soepelere ingreep.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese arbeidsmarkteconomie" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "rsz-werknemer",
+        "loon-en-payroll"
+      ],
+      "kader": "loon-en-payroll",
+      "naast_relevant": [
+        "rsz-werkgever",
+        "bedrijfsvoorheffing"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2000-01-01",
+        "wettelijke_basis": "Programmawet 24 december 1999 (sociale werkbonus) + Wet houdende fiscale werkbonus 2007 → art. 289ter/1 WIB92",
+        "toelichting": "Stelsel structureel sinds 2000 (sociale werkbonus); fiscale werkbonus toegevoegd in 2007. Loongrenzen en maxbedragen worden regelmatig geïndexeerd of bij programmawet aangepast — Cijferzakboekje 2026 voor exacte cijfers."
+      },
+      "voor": [
+        {
+          "tekst": "Werknemers (geen bedrijfsleiders) met een refertekwartaalloon onder de bovenste loongrens (orde van grootte voor 2026 ~3.000 EUR/maand voltijds — Cijferzakboekje voor exact). De vermindering is gradueel: maximaal voor wie onder de onderste grens valt, nul bij de bovenste grens.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Programmawet 24 december 1999", "ref": "art. 2" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Bedrijfsleiders en zelfstandigen — andere stelsel, geen werkbonus. Werknemers met loon boven de bovenste loongrens — geen vermindering.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Stijging netto-loon voor de werknemer zonder kostprijs-impact voor de werkgever. Voor een werknemer met loon vlak onder de bovenste grens: enkele tientallen EUR/maand; voor loon onder de onderste grens: ruim 200 EUR/maand (sociaal + fiscaal samen).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "sociale-werkbonus-schaal",
+        "naam": {
+          "primair": "Sociale werkbonus — degressieve schaal"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De sociale werkbonus = vermindering van de RSZ-werknemersbijdrage (13,07 % op brutoloon). Schaal (cijfer 2026, illustratief — Cijferzakboekje): brutoloon ≤ S_inf (~2.100 EUR/maand) → maximum forfait (~200 EUR/maand vermindering); S_inf < brutoloon < S_sup → degressief afgebouwd via formule; brutoloon ≥ S_sup (~3.000 EUR) → geen vermindering. Verschillende bedragen voor handarbeiders vs hoofdarbeiders (kleinverschil).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Programmawet 24 december 1999", "ref": "art. 2" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026 voor exacte drempels en maxbedragen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-werkbonus-formule",
+        "naam": {
+          "primair": "Fiscale werkbonus — % op sociale werkbonus"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscale werkbonus = % × werkelijk genoten sociale werkbonus. Het percentage werd geleidelijk verhoogd (was ~14 % in 2007, opgelopen tot ~33 % vandaag — exact via Cijferzakboekje). De fiscale werkbonus wordt onmiddellijk verrekend in de bedrijfsvoorheffing op het maandloon — geen aparte aanvraag, geen aparte regularisatie achteraf. Resultaat: een werknemer met de maximum sociale werkbonus van ~200 EUR/maand kan nog eens ~60–75 EUR/maand extra netto-loon krijgen via de fiscale werkbonus.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 289ter/1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026 voor exact %" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "Fiscale werkbonus = % × sociale werkbonus → verrekend in BV"
+          }
+        ]
+      },
+      {
+        "id": "automatische-toepassing",
+        "naam": {
+          "primair": "Automatische toepassing via payroll-software"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Werkbonus wordt automatisch berekend door de payroll-software op basis van het brutoloon en de prestaties (deeltijders krijgen een pro rata-bonus). Op de loonfiche staat de sociale werkbonus expliciet als 'werkbonus' of 'WB' op het luik vermindering RSZ. De fiscale werkbonus zit verwerkt in een lagere bedrijfsvoorheffing. De werknemer ziet enkel een hoger nettoloon — geen aanvraag of formaliteit nodig.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-techniek" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "deeltijds-prorata",
+        "naam": {
+          "primair": "Deeltijd-pro rata"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor deeltijders wordt het kwartaalloon eerst herrekend naar een refertevoltijds-loon (= kwartaalloon × 13 / aantal gewerkte dagen × herrekening). De werkbonus wordt op die referte berekend en daarna pro rata teruggebracht naar het werkelijke deeltijdpercentage. Resultaat: een halftijdse werknemer krijgt ongeveer de helft van de werkbonus van een voltijdse op hetzelfde uurloon.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "RSZ-techniek deeltijds-herrekening" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "combinatie-pb-verminderingen",
+        "naam": {
+          "primair": "Combinatie met andere PB-verminderingen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscale werkbonus is combineerbaar met andere PB-verminderingen (vervangingsinkomsten, pensioenen). Beperking: de fiscale werkbonus kan niet leiden tot een negatieve aanslag — als de PB op het werknemer-loon al volledig is uitgewist door andere verminderingen (bv. zeer laag inkomen met hoge belastingvrije som), wordt het surplus van de fiscale werkbonus niet uitbetaald.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 289ter/1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-werkbonus-laag-loon",
+        "titel": "Sara, voltijds bediende met 2.000 EUR brutoloon",
+        "context": "Sara werkt voltijds bij Zelena Bio NV. Brutoloon: 2.000 EUR/maand (refertekwartaalloon ~6.000 EUR). Onder de onderste grens werkbonus 2026.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Programmawet 24 december 1999", "ref": "art. 2" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 289ter/1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Illustratieve bedragen — Cijferzakboekje raadplegen" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Brutoloon = 2.000 EUR",
+              "Stap 2 — RSZ-werknemer zonder werkbonus = 2.000 × 13,07 % = 261,40 EUR",
+              "Stap 3 — Sociale werkbonus 2026 (illustratief, max forfait < S_inf) = ~200 EUR vermindering",
+              "Stap 4 — Effectieve RSZ-inhouding = 261,40 − 200 = 61,40 EUR",
+              "Stap 5 — Belastbaar inkomen (vóór BV) = 2.000 − 61,40 = 1.938,60 EUR (hoger dan zonder werkbonus)",
+              "Stap 6 — Fiscale werkbonus = ~33 % × 200 = 66 EUR vermindering BV/maand",
+              "Stap 7 — BV op 1.938,60 EUR via barema's = ~250 EUR; min fiscale werkbonus 66 EUR → effectieve BV = 184 EUR",
+              "Stap 8 — Netto-loon = 2.000 − 61,40 − 184 = 1.754,60 EUR (vs ~1.500 EUR zonder werkbonus)"
+            ],
+            "resultaat": "Sara krijgt ~250 EUR extra netto-loon per maand dankzij de werkbonus (sociale + fiscale samen). De werkgever betaalt evenveel als zonder werkbonus."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Sociale en fiscale werkbonus verwarren",
+        "verkeerde_assumptie": "Studenten denken dat er één 'werkbonus' is — vergeten dat het stelsel uit twee lagen bestaat (RSZ-vermindering + PB-vermindering).",
+        "kernpunt": "Sociale werkbonus = vermindering RSZ-werknemersbijdrage 13,07 % (sinds 2000); fiscale werkbonus = belastingvermindering PB die in de bedrijfsvoorheffing verrekend wordt (art. 289ter/1 WIB92, sinds 2007). Beide samen geven hetterminus-bedrag voor laagverdieners.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Programmawet 24 december 1999", "ref": "art. 2" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 289ter/1" }
+          ]
+        }
+      },
+      {
+        "titel": "Werkbonus toepassen bij bedrijfsleider",
+        "verkeerde_assumptie": "Een bedrijfsleider met laag bezoldigingsloon krijgt werkbonus.",
+        "kernpunt": "Werkbonus geldt ENKEL voor werknemers (met arbeidsovereenkomst). Bedrijfsleiders zonder dienstverband (zelfstandigen) komen niet in aanmerking. Ook bestuurders met een gewoon bestuurdersmandaat (= zelfstandig) krijgen geen werkbonus.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Werkbonus claim achteraf via PB-aangifte",
+        "verkeerde_assumptie": "Studenten denken dat de fiscale werkbonus apart aangevraagd moet worden in de PB-aangifte.",
+        "kernpunt": "De fiscale werkbonus wordt automatisch verrekend in de maandelijkse bedrijfsvoorheffing via de payroll-software. Geen aanvraag, geen aparte vermelding in de PB-aangifte. Het komt wel mee in de jaarberekening — de fiche 281.10 vermeldt het bedrag aan ingehouden BV inclusief de werkbonus-vermindering.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "loon-laaginkomen-audit",
+      "naam": {
+        "primair": "Loonfiche-controle bij laaginkomen-werknemer"
+      },
+      "intro": "De accountant die de payroll-verwerking bij een KMO controleert of de PB-aangifte van een laaginkomen-werknemer voorbereidt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "werkbonus-aanwezigheid-check",
+              "naam": {
+                "primair": "Aanwezigheid werkbonus checken op loonfiche"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke werknemer met brutoloon onder ~3.000 EUR/maand voltijds: controleer of de payroll-software de werkbonus correct heeft toegepast. Op loonfiche 281.10 staat de sociale werkbonus expliciet vermeld; de fiscale werkbonus zit verwerkt in de lagere BV. Bij ontbreken: payroll-bureau aanspreken — gemiste werkbonus is een directe nettoloon-schade voor de werknemer.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "uitleg-aan-client",
+              "naam": {
+                "primair": "Uitleg netto-loon-voordeel aan cliënt"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij KMO-cliënten met laaggekwalificeerd personeel: leg uit hoe werkbonus het effectief loonvoordeel groter maakt dan op de eerste blik. Een werknemer met brutoloon dat 50 EUR hoger is dan de bovenste grens kan netto MINDER overhouden dan een werknemer net onder die grens — een 'cliff-effect'. Bij loonsverhoging-besprekingen zinvol om de werkbonus-cijfers ernaast te leggen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk loon-optimalisatie laag-inkomen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "loon-en-payroll"
+    },
+    {
+      "type": "vereist",
+      "target": "rsz-werknemer",
+      "toelichting": "De sociale werkbonus opereert direct op de RSZ-werknemersbijdrage van 13,07 % — vooraf begrip van RSZ-werknemer-mechanisme nodig."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "rsz-werkgever",
+      "gelijkenissen": [
+        "Beide stelsel-vermindering op sociale-zekerheidsbijdragen voor laag-loon-werknemers",
+        "Beide automatisch via DMFA-aangifte"
+      ],
+      "verschillen": [
+        "Werkbonus = vermindering WERKNEMER-bijdrage (verhoogt netto van werknemer)",
+        "Structurele vermindering RSZ-werkgever = vermindering WERKGEVER-bijdrage (verlaagt loonkost werkgever)",
+        "Werkbonus heeft fiscaal luik (PB-vermindering); RSZ-werkgever-vermindering niet"
+      ],
+      "verwarring_risico": "Beide systemen mikken op laaggekwalificeerd werk maar werken aan tegenovergestelde kant van de loonfiche — niet door elkaar halen."
     }
   ]
 }
