@@ -3,23 +3,46 @@
   "naam": {
     "primair": "Aanslagbiljet personenbelasting",
     "synoniemen": [
-      "avertissement-extrait de rôle IPP"
-    ]
+      "avertissement-extrait de rôle IPP",
+      "AB PB"
+    ],
+    "vertaling": {
+      "fr": "avertissement-extrait de rôle"
+    }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "regeling"
+      "regeling",
+      "gebeurtenis"
     ],
     "ankers": [
-      "2.2.XVII"
+      "2.2.IV",
+      "2.2.taak.2",
+      "2.2.taak.4"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/aanslagbiljet-pb.json",
+      "primary_bronnen": [
+        "WIB92 art. 298",
+        "WIB92 art. 304",
+        "WIB92 art. 351",
+        "WIB92 art. 353",
+        "WIB92 art. 359",
+        "WIB92 art. 366",
+        "WIB92 art. 371",
+        "WIB92 art. 410",
+        "WIB92 art. 419",
+        "WIB92 art. 468"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -27,17 +50,26 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt (-pb behouden: PB-specifiek aanslagbiljet)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks + WIB92-kennisbasis (art. 298-468). Inkohiering, betaaltermijn, terugbetaling, bezwaar-startpunt."
       }
     ],
     "scope": {
       "in": [
-        "Output van aanslagprocedure: officieel document met netto-aanslag",
-        "Inkohiering / enrôlement (formele aanslag-akte)",
-        "Betaaltermijn (twee maanden vanaf verzending)",
-        "Bermening / herziening: rechtzettingsbericht ambtshalve",
+        "Output van aanslagprocedure: officieel aanslagbiljet met netto-aanslag",
+        "Inkohiering: formele aanslag-akte via opname op kohier (art. 298 WIB92)",
+        "Inhoud aanslagbiljet: berekening, voorheffingen, voorafbetalingen, saldo te betalen of terug",
+        "Verzending: per post of via eBox (digitaal) — verzendingsdatum start termijnen",
+        "Betaaltermijn: twee maanden vanaf verzending (art. 304 §2 WIB92)",
         "Verschil saldo: terugbetaling (FOD-storting) of bijbetaling",
-        "Termijnen voor bezwaar (algemene cross fiscale-procedure)"
+        "Termijn voor bezwaar: één jaar vanaf 3de werkdag volgend op verzending (art. 371 WIB92)",
+        "Ambtshalve aanslag + rechtzettings-bericht bij niet/onjuiste aangifte"
       ],
       "out": [
         {
@@ -51,7 +83,7 @@
           "ref": "aanslag-cyclus"
         },
         {
-          "topic": "Bezwaarprocedure",
+          "topic": "Bezwaarprocedure (administratief verhaal)",
           "richting": "moet-verwijzen",
           "ref": "bezwaarprocedure"
         },
@@ -59,6 +91,11 @@
           "topic": "Invorderingsprocedure bij niet-betaling",
           "richting": "moet-verwijzen",
           "ref": "invorderingsprocedure"
+        },
+        {
+          "topic": "Aangifte PB (input van procedure)",
+          "richting": "moet-verwijzen",
+          "ref": "aangifte-pb"
         }
       ]
     }
@@ -66,26 +103,461 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het aanslagbiljet personenbelasting (Frans: 'avertissement-extrait de rôle') is het officiële document dat de FOD Financiën aan de belastingplichtige verzendt na inkohiering van de aanslag. Het bevat: de berekende belasting per AJ, de inkohieringsgegevens (kohiernummer, datum), de verrekening van voorheffingen en voorafbetalingen, het uiteindelijk saldo (te betalen of terug te krijgen), de betaaltermijn van twee maanden, en de wettelijke vermelding van de bezwaartermijn. Het aanslagbiljet is geen op zich titel voor uitvoering — die rol heeft het kohier (art. 297-298 WIB92) — maar wel het instrument waarmee de aanslag aan de belastingplichtige ter kennis wordt gebracht.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 298", "context": "Kohier als uitvoerbare titel" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 304 §2", "context": "Aanslagbiljet ter kennis brengen + betaaltermijn 2 maanden" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 353", "context": "Vestiging van de aanslag" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het aanslagbiljet sluit de fiscale jaar-cyclus voor de belastingplichtige: na aangifte → verwerking door fiscus → berekening → inkohiering → verzending aanslagbiljet. Praktisch heeft het 4 functies: (1) **informatieve functie** — de belastingplichtige krijgt overzicht van de berekening met alle componenten (belastbaar inkomen per categorie, schijven-toepassing, verminderingen, opcentiemen, voorheffingen-verrekening); (2) **vervaltermijn-start** — verzendingsdatum start de bezwaartermijn (1 jaar, art. 371) en de betaaltermijn (2 maanden, art. 304 §2); (3) **executoriale werking** — bij niet-betaling kan de fiscus dwangbevel uitvaardigen op basis van het onderliggende kohier; (4) **fiscaal bewijsstuk** voor latere referenties (kredietaanvraag, regularisatie, kwijtschelding). Het wordt verzonden per post (klassiek) of via eBox (digitaal, voor wie eBox geactiveerd heeft).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 298" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 304 §2" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Functie-synthese aanslagbiljet — standaardleer fiscaal handboek" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis van het aanslagbiljet is rechtsbescherming + transparantie: de belastingplichtige krijgt zwart-op-wit hoe de fiscus zijn aangifte heeft verwerkt en welke schuld is gevestigd. Dit activeert het recht op bezwaar (art. 366 WIB92 — directeur-administratie) — zonder formele kennisgeving zou de bezwaartermijn niet eerlijk kunnen lopen. De inkohiering zelf (art. 298) is de juridische act die de schuld doet ontstaan en uitvoerbaar maakt; het aanslagbiljet maakt die act zichtbaar voor de belastingplichtige. De twee-maanden-betaaltermijn (art. 304 §2) geeft tijd voor controle + eventuele financiering, terwijl de fiscus toch op kort termijn liquiditeit krijgt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 298" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 304" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 366", "context": "Bezwaarrecht" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese aanslagbiljet" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "personenbelasting",
+        "aangifte-pb",
+        "belastingberekening-pb"
+      ],
+      "kader": "personenbelasting",
+      "volgkennis": [
+        "bezwaarprocedure",
+        "invorderingsprocedure",
+        "aanslagtermijnen"
+      ],
+      "naast_relevant": [
+        "aanslag-cyclus",
+        "fiscale-procedure"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 297-300 + art 366 e.v."
+        "wettelijke_basis": "WIB92 art. 297-310 (inkohiering + kennisgeving) + art. 304 §2 (betaaltermijn) + art. 366-377 (bezwaar) + art. 410-419 (invordering)",
+        "toelichting": "Stabiel kader. Wijzigingen recent: digitalisatie via eBox (2018+) voor automatische digitale aflevering aanslagbiljet wanneer de belastingplichtige hiervoor opteerde."
+      },
+      "voor": [
+        {
+          "tekst": "Elke PB-belastingplichtige nadat de fiscus zijn aangifte heeft verwerkt en de aanslag heeft gevestigd via inkohiering. Ook bij ambtshalve aanslag (niet-aangifte) ontvangt de belastingplichtige een aanslagbiljet — typisch dan met belastingverhoging.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 304" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 351", "context": "Ambtshalve aanslag" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Inkohiering van de aanslag (art. 298 WIB92): de directeur (of zijn gedelegeerde) ondertekent het kohier, dat een lijst is van alle belastingschulden gevestigd voor een gegeven aanslagjaar. Vanaf dat ogenblik bestaat de schuld in rechte. De FOD verzendt dan het aanslagbiljet aan de belastingplichtige — typisch enkele weken na inkohiering.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 298", "context": "Inkohiering" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 304", "context": "Kennisgeving aanslagbiljet" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Aanslagbiljet 'sluit' bij effectieve betaling van het saldo of bij terugbetaling van het terug-te-krijgen-bedrag door de FOD. Bij niet-betaling binnen 2 maanden: nalatigheidsinteresten (art. 414 WIB92, ECB-referentievoet + 4 % marge) + mogelijke dwangbevel-procedure. Bij bezwaar: aanslagbiljet blijft uitvoerbaar (geen schorsende werking), tenzij directeur opschorting verleent (art. 410 §2).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 414", "context": "Nalatigheidsinteresten" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 410", "context": "Niet-schorsende werking bezwaar" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Voor de belastingplichtige: het aanslagbiljet is een betrouwbaar bewijsstuk van de definitief vastgestelde belasting voor een AJ. Banken (kredietaanvraag), notarissen (vermogensoverzicht), pensioenfondsen (inkomenscontrole) erkennen het aanslagbiljet als gestandaardiseerd document.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-toepassing aanslagbiljet als bewijsstuk" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-betaling binnen 2 maanden = nalatigheidsinteresten + dwangbevel-procedure (deurwaarder kan optreden). De fiscus heeft sterke invorderingsbevoegdheden: beslag op loon, op bankrekening, op onroerend goed (hypotheek-inschrijving). Een aanslag-schuld die langer onbetaald blijft escaleert snel.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 414", "context": "Nalatigheidsinteresten" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 419-422", "context": "Invorderings-instrumenten" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bezwaartermijn (1 jaar vanaf 3de werkdag volgend op verzending) is een vervaltermijn — strikt. Bij missen van de termijn: bezwaar onontvankelijk, aanslag definitief, enkel ambtshalve ontheffing voor specifieke gronden mogelijk (art. 376 — beperkt). Stagiair moet de termijn altijd onmiddellijk noteren bij ontvangst.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 371", "context": "Bezwaartermijn 1 jaar" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 376", "context": "Ambtshalve ontheffing — limitatieve gevallen" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "inkohiering",
+        "naam": {
+          "primair": "Inkohiering (enrôlement)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De inkohiering is de juridische act waarbij de fiscus de berekende belasting opneemt in het kohier — een door de bevoegde directeur ondertekende lijst van alle belastingschulden voor een AJ (art. 298 WIB92). Het kohier is een uitvoerbare titel: het maakt de belastingschuld in rechte gevestigd en uitvoerbaar (de fiscus kan zonder verdere gerechtelijke tussenkomst dwangmaatregelen uitvaardigen bij niet-betaling). Inkohiering moet gebeuren binnen wettelijke termijnen (art. 359 — uiterlijk 30 juni van het jaar volgend op het AJ, met verlengingen tot 30 juni AJ+3 bij eerlijke aangifte, AJ+5 bij niet-aangifte, AJ+7 bij fraude).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 298", "context": "Inkohiering door directeur, uitvoerbare titel" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 359", "context": "Aanslag-termijnen 30 juni AJ+1 / AJ+3 / AJ+5 / AJ+7" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "inhoud-aanslagbiljet",
+        "naam": {
+          "primair": "Inhoud van het aanslagbiljet"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Het aanslagbiljet bevat verplicht: (a) identificatie belastingplichtige (naam, nationaal nummer, adres); (b) aanslagjaar + kohierjaar + artikelnummer (kohier-identifier); (c) datum van inkohiering + datum van verzending; (d) detail van de berekening per inkomenscategorie (onroerend, roerend, beroeps, divers — bedragen netto per categorie); (e) belastbaar inkomen + schijven-toepassing (art. 130); (f) verminderingen (belastingvrije som, kinderen, giften, pensioensparen, dienstencheques); (g) federale belasting Staat na vermindering; (h) aanvullende gemeentebelasting (% × federale Staat); (i) totaal verschuldigd; (j) verrekening: bedrijfsvoorheffing, voorafbetalingen, roerende voorheffing, dienstcheque-attesten; (k) saldo te betalen of terug te krijgen; (l) betaal-instructies + uiterste datum; (m) wettelijke vermelding bezwaartermijn (1 jaar) + adres directeur.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 304", "context": "Kennisgeving aanslag + inhoud" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardinhoud aanslagbiljet — praktijk FOD Financiën" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "betaaltermijn",
+        "naam": {
+          "primair": "Betaaltermijn: 2 maanden vanaf verzending"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De verschuldigde belasting moet betaald worden binnen twee maanden vanaf de datum van verzending van het aanslagbiljet (art. 304 §2 WIB92). Bij overschrijding: nalatigheidsinteresten verschuldigd vanaf de eerste dag na de termijn (art. 414 — ECB-referentievoet aangevuld met 4 % marge; bv. ~7-9 % per jaar in recente jaren). Betalingsfaciliteit kan aangevraagd worden bij ontvanger (art. 413/1) — spreiding tot 12 maanden vaak toegekend bij bewezen tijdelijke moeilijkheden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 304 §2", "context": "Betaaltermijn 2 maanden" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 414", "context": "Nalatigheidsinteresten" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 413/1", "context": "Betalingsfaciliteit" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "terugbetaling-saldo",
+        "naam": {
+          "primair": "Terugbetaling bij teruggave-saldo"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Wanneer voorheffingen + voorafbetalingen > totaal verschuldigde belasting: saldo wordt teruggestort door FOD Financiën op de bankrekening die de belastingplichtige in vak I van zijn aangifte heeft opgegeven (of in MyMinfin geregistreerd). Standaardtermijn: 2 maanden vanaf datum aanslagbiljet (parallel aan betaaltermijn — maar voor terug-richting). FOD betaalt geen interest op terugbetalingen kleiner dan een wettelijk plafond of bij te late aangifte. Bij andere openstaande fiscale schulden: compensatie (art. 334 — terugbetaling wordt eerst aangerekend op openstaande aanslagen).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 304", "context": "Terugbetaling saldo" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 334", "context": "Compensatie openstaande fiscale schulden" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-flow terugbetaling" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ambtshalve-aanslag-rechtzetting",
+        "naam": {
+          "primair": "Ambtshalve aanslag + rechtzettings-bericht"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de fiscus afwijkt van de ingediende aangifte (correctie wegens fout, verzwegen inkomen, niet-aftrekbare uitgave), wordt EERST een rechtzettings-bericht (art. 346 WIB92) gestuurd. De belastingplichtige heeft 1 maand om te reageren met opmerkingen. Pas DAN wordt de gewijzigde aanslag ingekohierd en het aanslagbiljet verzonden. Bij niet-aangifte: ambtshalve aanslag (art. 351) op basis van schatting + belastingverhoging 10-200 % (art. 444). Het ambtshalve aanslagbiljet vermeldt expliciet dat het op deze grondslag is gevestigd — relevant voor verdere bezwaarmotivering.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 346", "context": "Rechtzettings-bericht + 1 maand antwoordtermijn" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 351", "context": "Ambtshalve aanslag" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 444", "context": "Belastingverhoging 10-200 %" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bezwaartermijn-start",
+        "naam": {
+          "primair": "Bezwaartermijn: 1 jaar vanaf 3de werkdag na verzending"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De bezwaartermijn is één jaar te rekenen vanaf de 3de werkdag volgend op de verzending van het aanslagbiljet (art. 371 WIB92). Bezwaar moet schriftelijk ingediend worden bij de directeur van de bevoegde controle (of via MyMinfin online); gemotiveerd; eenvoudige aangetekende brief volstaat (post-zegel datum = datum bezwaar). Niet-schorsende werking: betaaltermijn 2 maanden loopt door — de belastingplichtige moet betalen om interesten te vermijden, of expliciet opschorting aanvragen (art. 410 §2).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 366", "context": "Recht op bezwaar bij directeur" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 371", "context": "Termijn 1 jaar + 3 werkdagen na verzending" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 410", "context": "Niet-schorsende werking" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-typische-aanslag",
+        "titel": "Typisch aanslagbiljet werknemer — saldo terug te krijgen",
+        "context": "Dhr. Vermeulen, alleenstaande werknemer, brutoloon 42.000 EUR (BV ingehouden 8.500 EUR). Aangifte ingediend juli AJ 2026. Aanslagbiljet ontvangen begin november AJ 2026.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 304" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Rubriek", "Bedrag (EUR)"],
+            "rijen": [
+              ["Beroepsinkomen netto (na forfait)", "36.480"],
+              ["Belastbaar inkomen", "36.480"],
+              ["Belasting volgens schijven art. 130", "8.900"],
+              ["− Belastingvrije som vermindering", "−2.660"],
+              ["Federale basisbelasting na vermindering", "6.240"],
+              ["+ Aanvullende gemeentebelasting 7 %", "+437"],
+              ["= Totaal verschuldigd", "6.677"],
+              ["− Bedrijfsvoorheffing", "−8.500"],
+              ["= Saldo terug te krijgen", "1.823"]
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Aanslagbiljet-flow:\n\n```mermaid\nflowchart TD\n  A[31 dec 2025 boekjaar einde IJ] --> B[15 jul 2026 aangifte ingediend via TaxOnWeb]\n  B --> C[Augustus-oktober 2026 fiscus verwerkt + berekent]\n  C --> D[Inkohiering oktober 2026 art. 298]\n  D --> E[Verzending aanslagbiljet begin november 2026 art. 304]\n  E --> F{Saldo?}\n  F -->|Terugbetaling 1823 EUR| G[FOD stort binnen 2 maanden]\n  F -->|Geen actie| H[Bezwaartermijn loopt 1 jaar art. 371]\n  E --> I[Aanslag wordt definitief na 1 jaar zonder bezwaar]\n```\n\nDhr. Vermeulen krijgt 1.823 EUR teruggestort omdat de bedrijfsvoorheffing aan bron meer was dan zijn werkelijke aanslag. Hij heeft 1 jaar tijd om bezwaar te maken indien hij meent dat de berekening fout is (bv. verminderingen niet correct toegepast)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-zelfstandige-bijbetaling",
+        "titel": "Zelfstandige met bijbetaling — termijn + facilitatie",
+        "context": "Mevr. Janssens, zelfstandige consultant. Aangifte ingediend oktober AJ 2026 (mandataris-termijn). Geen voorafbetalingen verricht. Berekende PB 18.500 EUR, gemeentebelasting 1.300 EUR, belastingvermeerdering wegens geen VA: 1.480 EUR. Geen bedrijfsvoorheffing (zelfstandige). Aanslagbiljet ontvangen januari AJ+1.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 304 §2" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 157", "context": "Vermeerdering geen VA" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 414" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — totaal verschuldigd op aanslagbiljet: 18.500 + 1.300 + 1.480 = 21.280 EUR",
+              "Stap 2 — verrekening voorheffingen: 0 EUR (zelfstandige, geen BV) + voorafbetalingen 0 EUR = 0",
+              "Stap 3 — saldo bij te betalen: 21.280 EUR",
+              "Stap 4 — verzending aanslagbiljet 15 januari AJ+1 → betaaltermijn 2 maanden = uiterste betaaldatum 15 maart AJ+1",
+              "Stap 5 — Mevr. Janssens kan niet meteen 21.280 EUR betalen → aanvraagt betalingsfaciliteit (art. 413/1) bij ontvanger via MyMinfin: 'gespreid 6 maandtermijnen'",
+              "Stap 6 — ontvanger keurt goed: 6 × 3.547 EUR (gespreid maart-augustus AJ+1)",
+              "Stap 7 — nalatigheidsinteresten lopen WEL door op het saldo (art. 414) — orde van grootte 8 %/jaar"
+            ],
+            "resultaat": "Bijbetaling van 21.280 EUR met 1.480 EUR vermeerdering wegens geen VA — een typische 'wake-up call' voor zelfstandigen die geen voorafbetalingen plannen. Volgend jaar adviseert de accountant zeker VA-planning om vermeerdering te vermijden."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-rechtzetting",
+        "titel": "Ambtshalve correctie + rechtzettings-bericht",
+        "context": "Dhr. Peeters dient aangifte in waarin hij vergeet een buitenlandse pensioen-uitkering van 4.500 EUR (Frankrijk) aan te geven. Fiscus detecteert via CRS-uitwisseling met Franse fiscus. Stuurt rechtzettings-bericht in oktober AJ 2026.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 346", "context": "Rechtzettings-bericht" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 444", "context": "Belastingverhoging" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Procedure-flow rechtzetting:\n\n```mermaid\nflowchart TD\n  A[Aangifte ingediend juli AJ 2026 zonder NL-pensioen] --> B[Fiscus detecteert via CRS]\n  B --> C[Oktober 2026 rechtzettings-bericht art. 346 verzonden]\n  C --> D{Reactie binnen 1 maand?}\n  D -->|Akkoord met correctie| E[Aanslag op gecorrigeerde basis + verhoging 10 percent vergetelijkheid]\n  D -->|Geen reactie| E\n  D -->|Niet akkoord met argumenten| F[Discussie met controleur]\n  F --> G[Beslissing fiscus over correctie]\n  E --> H[Inkohiering met gecorrigeerde grondslag]\n  H --> I[Aanslagbiljet met verhoging]\n  I --> J{Bezwaartermijn 1 jaar}\n  J -->|Bezwaar mogelijk| K[Directeur beslist art. 366]\n  J -->|Geen bezwaar| L[Aanslag definitief]\n```\n\nDhr. Peeters reageert in november: erkent vergetelheid, vraagt om gematigde verhoging. Aanslagbiljet komt eind december: gecorrigeerde belasting + verhoging 10 % (eerste overtreding, geen opzet). Betaaltermijn 2 maanden. Bezwaartermijn 1 jaar — geen bezwaar mogelijk hier want feit erkend."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bezwaartermijn vanaf 'datum aanslagbiljet' verkeerd berekenen",
+        "verkeerde_assumptie": "Bezwaartermijn = 1 jaar vanaf de datum die op het aanslagbiljet staat als 'datum aanslagbiljet'.",
+        "kernpunt": "De wettelijke termijn (art. 371 WIB92) is 1 jaar vanaf de 3DE WERKDAG VOLGEND OP DE VERZENDING. Dat is technisch niet altijd hetzelfde als de 'datum aanslagbiljet' (= datum inkohiering). Vraag bij twijfel het 'datum verzending' op via MyMinfin of via vraag aan ontvanger. Bij digitale verzending via eBox: datum eBox-aflevering geldt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" }
+          ]
+        }
+      },
+      {
+        "titel": "Aanslagbiljet zien als 'voorstel'",
+        "verkeerde_assumptie": "Het aanslagbiljet is een voorstel waar de belastingplichtige tegen kan inbrengen, vergelijkbaar met een offerte.",
+        "kernpunt": "Het aanslagbiljet maakt een DEFINITIEVE belastingschuld zichtbaar (al gevestigd door inkohiering). Niet-schorsende werking van bezwaar: zelfs als de belastingplichtige bezwaar indient, blijft de schuld uitvoerbaar — moet betaald worden binnen 2 maanden om nalatigheidsinteresten te vermijden. Pas na succesvol bezwaar wordt het teveel betaald terugbetaald.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 410", "context": "Niet-schorsende werking" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 304 §2" }
+          ]
+        }
+      },
+      {
+        "titel": "Termijn 30 juni AJ+1 verwarren met aanslagbiljet-termijn",
+        "verkeerde_assumptie": "Aanslagbiljet moet uiterlijk 30 juni AJ+1 worden VERZONDEN.",
+        "kernpunt": "Art. 359 WIB92 zegt dat de INKOHIERING uiterlijk 30 juni AJ+1 moet plaatsvinden (gewone aanslagtermijn — verlengingen mogelijk). Het AANSLAGBILJET wordt typisch enkele weken na inkohiering verzonden — kan dus ook in juli-augustus AJ+1 nog landen. Bij verlengde termijnen (AJ+3, AJ+5, AJ+7 — fraude): aanslagbiljet kan veel later komen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 359", "context": "Inkohieringstermijn ≠ verzendingstermijn aanslagbiljet" }
+          ]
+        }
+      },
+      {
+        "titel": "Terugbetaling = automatisch op dezelfde rekening",
+        "verkeerde_assumptie": "FOD stort terug op de bankrekening waarop de belastingplichtige zijn loon ontvangt, of op de meest recent gebruikte rekening.",
+        "kernpunt": "De terugbetaling gaat naar de bankrekening die EXPLICIET in vak I van de aangifte is opgegeven (of geregistreerd in MyMinfin). Wijzigingen in rekening tussen aangifte en aanslag worden NIET automatisch opgepikt. Bij verkeerd nummer: terugbetaling 'wacht' op aanslagbiljet-rekening, kan via MyMinfin geactualiseerd worden, maar elke wijziging vraagt actie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-detail terugbetalingen FOD" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "kantoor-aanslagbiljet-opvolgen",
+      "naam": {
+        "primair": "Eigen kantoor — aanslagbiljetten opvolgen voor cliënten"
+      },
+      "intro": "De accountant die voor cliënten de ontvangen aanslagbiljetten controleert, betaling coordineert, en bezwaartermijnen bewaakt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "controle-aanslagbiljet",
+              "naam": {
+                "primair": "Controle aanslagbiljet ↔ aangifte"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij ontvangst van het aanslagbiljet (per post of via MyMinfin volmacht): systematisch vergelijken met de ingediende aangifte + de werkpapieren van de aangifte-voorbereiding. Controleer per rubriek: (a) belastbaar inkomen per categorie correct overgenomen?; (b) verminderingen (pensioensparen, giften, dienstencheques) volledig toegepast?; (c) voorheffingen volledig verrekend (BV, RV, dienstencheque-attesten)?; (d) gemeentebelasting-tarief klopt (per gemeente verschillend); (e) eventuele belastingverhoging bij correctie — gemotiveerd? Documenteer afwijkingen in dossier-notitie + beslis: aanvaarden of bezwaar voorbereiden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk aanslagbiljet-controle" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "bezwaartermijn-bewaken",
+              "naam": {
+                "primair": "Bezwaartermijn bewaken (1 jaar)"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij ontvangst van het aanslagbiljet: noteer onmiddellijk in agenda/dossier-systeem de bezwaartermijn (1 jaar + 3 werkdagen na verzending — typisch dus rond ~10-15 dagen na 'datum aanslagbiljet'). Stel reminder 30 + 60 + 90 dagen vóór de eindtermijn. Reden: bezwaargronden moeten tijdig geargumenteerd worden, eventueel met aanvullende stukken (bv. ontbrekende attesten) — laatste-minuut bezwaar is foutgevoelig. Bij twijfel: bezwaar instellen ('beschermend bezwaar') en daarna intrekken indien niet meer nodig.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk termijn-bewaking" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "communicatie-met-client",
+              "naam": {
+                "primair": "Communicatie naar cliënt — vermijd verrassingen"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Cliënten zijn vaak verrast bij aanslagbiljet — vooral bij bijbetaling. Beste praktijk: na aangifte een schatting van het verwachte saldo communiceren aan cliënt (vooral bij zelfstandigen, met opmerking over vermeerdering geen VA). Bij ontvangst aanslagbiljet: korte note 'controle uitgevoerd, akkoord, x EUR te betalen vóór dd-mm of x EUR terug binnen 2 maanden'. Bij correctie of verhoging: bel cliënt direct + leg uit waarom + plan bezwaar of aanvaarden. Een cliënt die geïnformeerd is, gaat geen paniek-mailen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Advies-praktijk klant-communicatie" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -93,15 +565,37 @@
     },
     {
       "type": "vereist",
-      "target": "belastingberekening-pb"
+      "target": "belastingberekening-pb",
+      "toelichting": "Berekening moet voltooid zijn vooraleer kan worden ingekohierd + aanslagbiljet verzonden."
+    },
+    {
+      "type": "vereist",
+      "target": "aangifte-pb",
+      "toelichting": "Aangifte (of ambtshalve aanslag bij niet-aangifte) is procesmatige voorwaarde."
     },
     {
       "type": "triggert",
-      "target": "bezwaarprocedure"
+      "target": "bezwaarprocedure",
+      "toelichting": "Verzending aanslagbiljet start de bezwaartermijn van 1 jaar (art. 371 WIB92)."
+    },
+    {
+      "type": "triggert",
+      "target": "invorderingsprocedure",
+      "toelichting": "Bij niet-betaling binnen 2 maanden: invorderingsprocedure (nalatigheidsinteresten, dwangbevel, beslag)."
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "aanslag-cyclus"
+      "target": "aanslag-cyclus",
+      "gelijkenissen": [
+        "Beide concepten beschrijven de fiscale aanslag-flow",
+        "Beide bevatten inkohiering + kennisgeving + bezwaar-fase"
+      ],
+      "verschillen": [
+        "Aanslagbiljet PB is specifiek voor de natuurlijke persoon (PB-vorm); aanslag-cyclus is generiek over alle inkomstenbelastingen",
+        "Aanslagbiljet PB heeft eigenheden zoals gemeentebelasting-opslag + VVA-aanslag-flow; aanslag-cyclus dekt PB + VenB + RPB + BNI"
+      ],
+      "verwarring_risico": "Aanslagbiljet PB is het concrete document; aanslag-cyclus is het abstract proces. Stagiair moet weten welke van de twee in een examenvraag wordt bedoeld.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
