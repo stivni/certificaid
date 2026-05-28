@@ -5,13 +5,17 @@
     "synoniemen": [
       "winst handelaar",
       "baten vrij beroep",
-      "zelfstandigen-inkomen"
-    ]
+      "zelfstandigen-inkomen",
+      "bénéfices et profits"
+    ],
+    "vertaling": {
+      "fr": "bénéfices et profits"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -19,20 +23,6 @@
       "2.2.VI",
       "2.2.VI.A",
       "2.2.X"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt (rename van winst-baten-zelfstandige-pb: fenomeen leeft ook in BNI, suffix weg)"
-      }
     ],
     "scope": {
       "in": [
@@ -65,20 +55,70 @@
           "ref": "vennootschapsbelasting"
         }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/winst-baten-zelfstandige.json",
+      "primary_bronnen": [
+        "WIB92 art. 23",
+        "WIB92 art. 24",
+        "WIB92 art. 25",
+        "WIB92 art. 27",
+        "WIB92 art. 28",
+        "WIB92 art. 29",
+        "WIB92 art. 49",
+        "WIB92 art. 51",
+        "WIB92 art. 68"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:40:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WIB92 art. 23-29, 49, 51). Winst-vs-baten-onderscheid + forfait + sociale-bijdragen-aftrek uitgewerkt."
+      }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Winst en baten van een zelfstandige zijn de twee inkomensspecies binnen het beroepsinkomen die ontstaan bij beroepswerkzaamheid buiten een arbeidsovereenkomst of vennootschap-mandaat. (1) **Winst** (art. 23 § 1, 1° + art. 24-25 WIB92) is het inkomen van handelaars, nijveraars en landbouwers — handelsondernemingen, ambacht, productie, landbouw, kort: alle commercieel-economische exploitatie als eenmanszaak. (2) **Baten** (art. 23 § 1, 2° + art. 27-28 WIB92) is het inkomen uit een vrij beroep, ambt of post of elke andere niet als loontrekkende uitgeoefende winstgevende bezigheid (arts, advocaat, architect, accountant, consulent in persoon).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 23, 24, 27" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het onderscheid winst/baten heeft drie praktische gevolgen: (1) **boekhoudplicht** — handelaars (winst) zijn boekhoudplichtig (WER Boek III, KB 21.10.2018 of vereenvoudigde boekhouding bij KMO-natuurlijke-personen); vrije beroepers (baten) houden een 'ontvangsten- en uitgavenstaat' bij. (2) **forfaitkosten-percentage** (art. 51 WIB) — winst 30 % (max € 2.950 niet-geïnd.), baten dégressief 28,7 %/10 %/5 %/3 % (max € 2.592,50). (3) **aangiftevak** — vak XVII PB voor winst, vak XVIII PB voor baten. In de praktijk volgt iedere zelfstandige hetzelfde brutoschema: ontvangsten/omzet − beroepskosten − sociale bijdragen zelfstandige = netto belastbaar. De fiscale strategie is identiek: optimale aftrekken (auto, ICT, VAPZ, sociale bijdragen), voorafbetalingen plannen, en finale keuze tussen eenmanszaak en vennootschap-vorming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 24-28, 51" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het juridisch-historisch onderscheid (winst = handel, baten = vrije beroep) stamt uit het Code Civil (handelaar/non-handelaar). Fiscaal blijft het onderscheid relevant voor boekhoudverplichtingen, forfait en sommige aftrekregimes. Met de invoering van de 'onderneming' in het Wetboek economisch recht (2018) — die ook vrije beroepers omvat — vervagen de civielrechtelijke verschillen, maar in WIB92 blijven art. 24 (winst) en art. 27 (baten) afzonderlijk staan.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Historiek civielrechtelijk handelaar-statuut + WER-2018-eenmaking" }
           ]
         }
       }
@@ -86,22 +126,312 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 23-28"
+        "wettelijke_basis": "WIB92 art. 23-29; KB/WIB 92 + WER Boek III voor boekhoudplicht; KB nr. 38 voor sociale-zekerheid zelfstandigen"
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke zelfstandige in hoofd- of bijberoep die nog niet via een vennootschap-vorm werkt.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 1, 1°-2°" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Stopzetting / cessatie beroepsactiviteit → kwalificatie wordt 'winst of baten vorige beroepswerkzaamheid' (art. 23 § 1, 3° + 28) — meerwaarden afzonderlijk belast.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 28" }
+            ]
+          },
+          "relaties": [
+            { "type": "triggert", "target": "stopzettingsmeerwaarde" }
+          ]
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "winst-art24",
+        "naam": { "primair": "Winst (art. 24 WIB)" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Inkomen uit een handelsonderneming, een nijverheidsonderneming of een landbouwexploitatie. Omvat: opbrengsten alle verrichtingen door die onderneming, meerwaarden gerealiseerd op activa van de onderneming, en onderwaarderingen/overwaarderingen. Vereist commercieel-economisch karakter (regelmaat, winstoogmerk, exploitatie als beroep). Aangifte vak XVII PB.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 1-1°, 24" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "baten-art27",
+        "naam": { "primair": "Baten (art. 27 WIB)" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Inkomen uit een vrij beroep, ambt of post en alle andere winstgevende bezigheid die niet als loontrekkende wordt uitgeoefend en niet onder winst (art. 24) valt. Klassieke voorbeelden: arts, advocaat, architect, accountant, notaris, fiscaal consulent, bedrijfsrevisor (in persoonlijke naam — niet via vennootschap), gerechtsdeurwaarder. Inkomsten omvatten ook in artikel 25, 7° en 27 al. 2 7° vermelde nevenuitkeringen. Aangifte vak XVIII PB.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 1-2°, 27" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderscheid-praktisch",
+        "naam": { "primair": "Praktisch onderscheid winst vs baten" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Onderscheid op vier assen:",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 24-28, 51" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "Onderscheid winst vs baten:\n\n| Aspect | Winst (handelaar) | Baten (vrij beroep) |\n|---|---|---|\n| WIB-grondslag | art. 23-1° + 24-25 | art. 23-2° + 27-28 |\n| Aangiftevak PB | Vak XVII | Vak XVIII |\n| Typische actoren | Bakker, restauranthouder, KMO-eenmanszaak, vastgoed-handelaar | Arts, advocaat, accountant, architect, consulent |\n| Boekhoudplicht | Volledig of vereenvoudigd (art. III.85 WER + KB 21.10.2018) | Vereenvoudigd (ontvangsten- en uitgavenstaat) |\n| Forfaitkosten art. 51 WIB | 30 % (max € 2.950 niet-geïnd.) | Dégressief 28,7 %/10 %/5 %/3 % (max € 2.592,50) |\n| BTW | Volledig BTW-plichtig (tenzij vrijstelling art. 44 WBTW) | Vaak vrijgesteld (medisch: art. 44 § 1, 1°) of belastingplichtig |\n| Sociale bijdragen | Zelfstandige (KB nr. 38) | Zelfstandige (KB nr. 38) — identiek |"
+          }
+        ]
+      },
+      {
+        "id": "netto-bewerking-zelfstandige",
+        "naam": { "primair": "Bruto → netto-beroepsinkomen zelfstandige" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "Voor zelfstandige: (1) Bruto-ontvangsten (winst: omzet excl. BTW; baten: ereloon ontvangen incl. doorgerekende kosten); (2) − Aankoopprijs verkochte handelsgoederen + grondstoffen (alleen winst); (3) − Beroepskosten werkelijk (art. 49) OF forfait (art. 51); (4) − Sociale bijdragen zelfstandige (art. 52-7° — kosten van de werkzaamheid); (5) − VAPZ-bijdrage (Vrij Aanvullend Pensioen Zelfstandigen, art. 52-7°bis); (6) − POZ (Pensioenovereenkomst Zelfstandigen) zo nodig; (7) = netto-beroepsinkomen → progressieve PB.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 23 § 2, 49, 51, 52" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "sociale-bijdragen-aftrek",
+        "naam": { "primair": "Sociale bijdragen zelfstandige + VAPZ als beroepskost" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sociale bijdragen verschuldigd krachtens KB nr. 38 (verzekeringen bij ziekte/invaliditeit, pensioenen, kinderbijslag) zijn integraal aftrekbaar als beroepskost (art. 52-7°). Het zijn voorlopige bijdragen (3 jaar terug geherzien) berekend op het netto-belastbaar beroepsinkomen van het derde jaar voorafgaand (art. 11 KB nr. 38). VAPZ-premie (Vrij Aanvullend Pensioen) is bovendien aftrekbaar binnen wettelijke grenzen (art. 52-7°bis + KB/WIB).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 52-7°, 52-7°bis" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "forfait-grondslagen-aanslag",
+        "naam": { "primair": "Forfaitaire grondslagen van aanslag (art. 342 WIB)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor bepaalde beroepscategorieën (frituuruitbaters, caféhouders, taxichauffeurs, landbouwers) bestaan forfaitaire grondslagen van aanslag (art. 342 § 1 WIB + uitvoeringsbesluiten). De fiscus berekent het belastbaar inkomen op gestandaardiseerde criteria (zitplaatsen, m², omzet-schatting). Vanaf 2018 geleidelijk uitgedoofd — vanaf AJ 2028 worden de forfaitaire grondslagen volledig opgeheven volgens beleid. Belastingplichtige mag steeds bewijzen dat zijn werkelijke inkomen lager is.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 342 § 1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorafbetalingen-verplicht",
+        "naam": { "primair": "Voorafbetalingen voor zelfstandigen" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vanaf het derde belastbaar tijdperk vanaf eerste vestiging is een zelfstandige verplicht voorafbetalingen te doen (4 vervaltermijnen per jaar: 10 april, 10 juli, 10 oktober, 20 december — art. 157-175 WIB92). Bij gebrek: belasting-vermeerdering (% × te-betalen-PB). Bonus-percentages voor vroege betaling.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 157-175" }
+              ]
+            },
+            "relaties": [
+              { "type": "vereist", "target": "voorafbetalingen" }
+            ]
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "vb-handelaar-eenmanszaak",
+        "titel": "Bakker (eenmanszaak) — winst € 50.000 + aftrekken",
+        "context": "Bakker in eenmanszaak, omzet € 250.000, aankoop grondstoffen € 100.000, andere bedrijfskosten € 80.000, sociale bijdragen € 12.000.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Bepaling netto-beroepsinkomen:\n\n| Stap | Bedrag |\n|---|---|\n| Omzet exclusief BTW | € 250.000 |\n| − Aankoop handelsgoederen + grondstoffen | − € 100.000 |\n| Bruto-marge | € 150.000 |\n| − Werkelijke beroepskosten (art. 49) — huur, energie, personeel | − € 80.000 |\n| Winst vóór sociale bijdragen | € 70.000 |\n| − Sociale bijdragen zelfstandige (art. 52-7°) | − € 12.000 |\n| − VAPZ-premie (max ± € 3.965 niet-geïnd.) | − € 3.000 |\n| **Netto belastbaar winst (vak XVII)** | **€ 55.000** |\n\nAangifte PB code 1600 (winst) + bijbehorende codes voor sociale bijdragen/VAPZ."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Boekingen in eenmanszaak (volledige boekhouding KB 21.10.2018):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 60 | Handelsgoederen + grondstoffen | 100.000 | |\n| 61 | Diensten en diverse goederen | 30.000 | |\n| 62 | Bezoldigingen personeel + RSZ | 50.000 | |\n| | aan 70 Omzet | | 250.000 |\n| | aan 440 Leveranciers | | (timing) |\n| 6230 | Sociale bijdragen zaakvoerder | 12.000 | |\n| | aan 4540 Sociaal verzekeringsfonds | | 12.000 |"
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 24, 49, 52-7°" },
+            { "type": "kb", "naam": "MAR (KB 21.10.2018)", "ref": "klasse 6 + 4540" }
+          ]
+        }
+      },
+      {
+        "id": "vb-vrijberoep-baten",
+        "titel": "Advocaat (vrij beroep) — baten € 80.000 + sociale bijdragen",
+        "context": "Advocaat in persoon (geen vennootschap), erelonen € 100.000, kabinet-uitgaven + medewerker € 30.000, sociale bijdragen € 14.000, VAPZ € 3.000.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Bepaling netto-baten:\n\n| Stap | Bedrag |\n|---|---|\n| Bruto-erelonen ontvangen | € 100.000 |\n| − Werkelijke beroepskosten (huur kantoor, secretaresse, ICT, opleiding) | − € 30.000 |\n| Baten vóór sociale bijdragen | € 70.000 |\n| − Sociale bijdragen zelfstandige | − € 14.000 |\n| − VAPZ-premie (max sociale-VAPZ ± 8,17 % netto) | − € 3.000 |\n| **Netto belastbaar baten (vak XVIII)** | **€ 53.000** |\n\nAangifte PB code 1650 (baten). Forfait alternatief = max € 2.592,50 → werkelijke kosten gunstiger."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Boeking ontvangst ereloon + RSZ-bijdrage (vereenvoudigde boekhouding voor vrij beroep — ontvangsten-uitgavenstaat):\n\n| Datum | Verrichting | Inkomst | Uitgave |\n|---|---|---|---|\n| 15/03 | Ereloon klant A (faktuur 2024-01) | 5.000 | |\n| 31/03 | RSZ-zelfstandigen Q1 | | 3.500 |\n| 30/06 | Huur kantoor Q2 | | 1.800 |\n\nGeen klasse-6-boekingen — vrije beroeper houdt eenvoudige kasboek + uitgavenboek. Bij vennootschap-vorming (na keuze) wordt volledige dubbele boekhouding (klasse 6) toegepast."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 27, 49, 52-7°" }
+          ]
+        }
+      },
+      {
+        "id": "vb-gemengd-gebruik",
+        "titel": "Gemengd gebruik privé/beroep — fotografe met thuiskantoor",
+        "context": "Fotografe met thuiskantoor 1 kamer (15 % woning), wagen 60 % beroep / 40 % privé.",
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "Verdeling kosten:\n\n| Kost | Totaal | Beroepsdeel % | Aftrekbaar |\n|---|---|---|---|\n| Energie + onderhoud woning | € 4.000 | 15 % | € 600 |\n| Hypothecaire interest woning | € 3.000 | 15 % | € 450 |\n| Wagen-totaal (jaarkost € 8.000) | € 8.000 | 60 % | € 4.800 (vóór CO2-aftrekbeperking) |\n| Wagen na CO2-formule 165 g (± 50 %) | | | € 2.400 |\n\nVerdeling moet onderbouwd zijn (m², kilometerstaat). Anders ambtshalve raming + risico verwerping (art. 49 WIB)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 66, 198bis" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vrij beroep = vereenvoudigde boekhouding (mis)",
+        "verkeerde_assumptie": "Vrije beroepers houden alleen een ontvangsten-uitgavenstaat en hoeven geen verdere documentatie te maken.",
+        "kernpunt": "Sinds WER Boek III (2018) is ook de vrije beroeper een 'onderneming' met boekhoudplicht. Bij omzet ≤ € 500.000 mag de vereenvoudigde boekhouding (kasboek + aankopen + verkopen + inventaris), maar bewijsstukken voor alle uitgaven blijven verplicht (art. 49 WIB + III.85 WER). Boven de drempel: volledige dubbele boekhouding.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 49" }
+          ]
+        }
+      },
+      {
+        "titel": "Sociale bijdragen op voorlopige basis = definitieve afrekening volgt",
+        "verkeerde_assumptie": "Wat de zelfstandige in jaar X betaalt aan sociale bijdragen is wat hij definitief verschuldigd is.",
+        "kernpunt": "Sociale bijdragen zelfstandige zijn 3 jaar later definitief herzien op basis van het werkelijke netto-belastbaar beroepsinkomen van jaar X (KB nr. 38). De voorlopige bijdrage in jaar X kan dus stijgen of dalen via een aanvullende afrekening drie jaar later. Bij sterke inkomsten-evolutie: vrijwillige correctie aangevraagd via sociaal verzekeringsfonds.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 52-7°" }
+          ]
+        }
+      },
+      {
+        "titel": "Eenmanszaak vs vennootschap — niet enkel fiscaal argument",
+        "verkeerde_assumptie": "Een vennootschap is altijd fiscaal gunstiger vanaf een bepaald inkomen-niveau (vaak gerefereerd als 'break-even ± € 50.000').",
+        "kernpunt": "Het 'break-even' hangt af van: marginaal PB-tarief eigenaar, beschikbaarheid 20 %-KMO-tarief, RV-niveau op dividend (15 % VVPR-bis of 30 %), oprichtingskosten, jaarlijkse vennootschapskosten (NBB-publicatie, accountantsfees), aansprakelijkheid, en strategische aspecten (overdraagbaarheid, opvolging). Pure cijferanalyse geeft vaak een ondoelmatig advies — context van cliënt is doorslaggevend.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-rationale break-even-analyse" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "beroepsinkomen-pb"
-    },
-    {
-      "type": "vereist",
-      "target": "beroepskosten"
-    },
-    {
-      "type": "triggert",
-      "target": "stopzettingsmeerwaarde"
+      "id": "stagiair-eenmanszaak",
+      "naam": { "primair": "Stagiair die eenmanszaak begeleidt" },
+      "intro": "Boekhouding voor zelfstandige eenmanszaak (vereenvoudigd of dubbel) + PB-aangifte vak XVII/XVIII.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "stap-jaarafsluiting-eenmanszaak",
+              "naam": { "primair": "Jaarafsluiting eenmanszaak" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Inventaris voorraden, vorderingen, schulden op 31 december. (2) Afschrijvingsstaat investeringen (lineair of degressief art. 64). (3) Resultaat berekenen: omzet − aankoop − werkelijke kosten. (4) Sociale bijdragen + VAPZ + POZ bijwerken op rekening 4540. (5) Privé/beroep-verdeling onderbouwen (km-staat, m²-verdeling thuiskantoor). (6) Resultaat naar aangifte PB vak XVII (winst) of XVIII (baten).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 23-28, 49" },
+                      { "type": "kb", "naam": "MAR (KB 21.10.2018)", "ref": "Bijlage 1" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-vennootschap-vorming",
+              "naam": { "primair": "Advies eenmanszaak → vennootschap" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Simulatie progressieve PB op huidige cijfers (eenmanszaak). (2) Simulatie VenB op vennootschap-scenario: € 100k × 20 % KMO + rest × 25 % + bezoldiging zaakvoerder (45.000-regel) + RV op dividend. (3) Niet-fiscale criteria: aansprakelijkheid, overdraagbaarheid, kost vennootschap-structuur (± € 2.500-3.500/jaar). (4) Inbreng-mogelijkheid via art. 46 WIB (fiscale neutraliteit) of cessatie + nieuwe vennootschap (stopzettingsmeerwaarde).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 46, 215" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "beroepsinkomen-pb" },
+    { "type": "vereist", "target": "beroepskosten" },
+    { "type": "triggert", "target": "stopzettingsmeerwaarde" },
+    { "type": "triggert", "target": "voorafbetalingen" },
+    { "type": "vergelijkbaar_met", "target": "bedrijfsleidersbezoldiging", "gelijkenissen": ["beide zelfstandige-statuut met sociale bijdragen KB nr. 38", "beide buiten arbeidsovereenkomst"], "verschillen": ["winst/baten = directe eenmanszaak-activiteit, geen tussenkomst vennootschap; bedrijfsleidersbezoldiging = vergoeding mandaat in vennootschap (klasse 6 → 618)", "winst/baten = volle progressieve PB op netto-inkomen; bedrijfsleider = loonschema in PB + verlies KMO-tarief vennootschap mogelijk"], "verwarring_risico": "Bij omzetting eenmanszaak → BV verschuift species (winst → bezoldiging bedrijfsleider) maar economisch is de activiteit identiek." }
   ]
 }
