@@ -1,27 +1,41 @@
 {
   "id": "financiele-leasing",
   "naam": {
-    "primair": "Financiële leasing",
+    "primair": "Financiele leasing",
     "synoniemen": [
-      "finance lease",
+      "financial lease",
       "capital lease",
-      "BE-GAAP financiële leasing"
-    ]
+      "on-balance lease"
+    ],
+    "vertaling": {
+      "fr": "location-financement",
+      "en": "finance lease"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "entiteit",
       "regeling"
     ],
     "ankers": [
-      "1.1.II.V"
+      "3.0.IV.D"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/financiele-leasing.json",
+      "primary_bronnen": [
+        "KB WVV art. 3:89 (kwalificatie financiele leasing - BE-GAAP)",
+        "CBN-advies 2015/4 (Leasing - kwalificatie + 15%-regel)",
+        "IFRS 16 (Verordening (EU) 2023/1803) - alinea 22-49 (lessee opname + waardering)",
+        "CBN-advies 2021/05 (Boekhoudrechtelijke behandeling kwijtschelding leasevergoedingen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,24 +43,32 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit schuldfinanciering-cluster (skelet-doc regel ~598)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle-chunks (CBN 2015/4, IFRS 16)"
       }
     ],
     "scope": {
       "in": [
-        "Leasing met substantiële economisch-eigendomsoverdracht naar lessee",
-        "Op balans bij lessee (vast actief + leasingschuld)",
-        "Kwalificatie via BE-GAAP-criteria (looptijd · koopoptie · gebruiksgraad)",
-        "Afschrijving + interest-kost"
+        "Leasing met substantiele economisch-eigendomsoverdracht naar de leasingnemer",
+        "Boekhoudkundig on-balance bij leasingnemer: actief op rekening 22-24 (afhankelijk van aard) + leasingschuld op rekening 172",
+        "Kwalificatie BE-GAAP (CBN 2015/4): wedersamenstelling van geinvesteerd kapitaal + koopoptie <= 15% van kapitaal",
+        "Afschrijving van het actief over economische levensduur + interest-kost over de leasingperiode",
+        "IFRS 16-perspectief: voor de lessee is dit dezelfde verwerking als operationele lease - alle leases on-balance (uitgezonderd short-term en low-value)"
       ],
       "out": [
         {
-          "topic": "Leasing-parent — algemeen kader",
+          "topic": "Leasing-parent - algemeen kader",
           "richting": "moet-verwijzen",
           "ref": "leasing"
         },
         {
-          "topic": "Operationele leasing — tegenpool",
+          "topic": "Operationele leasing - tegenpool met off-balance-verwerking",
           "richting": "moet-verwijzen",
           "ref": "operationele-leasing"
         }
@@ -56,20 +78,263 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Financiele leasing is een leasingvorm waarbij economisch gezien bijna alle risico's en voordelen van de eigendom van het actief overgaan op de leasingnemer, ook al blijft de leasinggever juridisch eigenaar tijdens de looptijd. Boekhoudkundig boekt de leasingnemer het actief op als eigen vast actief en de tegenwaarde van de leaseverplichtingen als schuld - 'on-balance verwerking'. Het actief wordt afgeschreven over zijn economische levensduur; de jaarlijkse leasevergoeding wordt gesplitst in een kapitaalaflossing (afboeking van de leasingschuld) en een rente-element (financiële kost). Onder BE-GAAP wordt de kwalificatie gestuurd door de wedersamenstelling-van-kapitaal-test en de 15%-koopoptieregel (CBN-advies 2015/4).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "kb", "naam": "KB WVV", "ref": "art. 3:89" },
+            { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Kwalificatiecriteria" },
+            { "type": "wettekst", "naam": "IFRS 16 (Verordening (EU) 2023/1803)", "ref": "Definitie financiele lease - alinea 62" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de leasingnemer voelt een financiele leasing economisch aan als een banklening voor een investering: hij gebruikt het actief als ware hij eigenaar (afschrijft het, betaalt de financieringskost), maar moet pas op het einde via de koopoptie de formele eigendom verwerven. Op de balans zijn de gevolgen dezelfde als een gekochte machine met banklening: actief in vaste activa, schuld in passief. De winst-en-verliesrekening toont afschrijving + rentekost - geen 'huurpenning' meer. Het verschil met een banklening zit in de waarborgenstructuur: bij financiele leasing is het actief zelf de waarborg (de leasinggever blijft eigenaar), wat soepelere kredietvoorwaarden mogelijk maakt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactische synthese - vergelijking met banklening" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De rationale van de on-balance-verwerking is substantie-over-vorm: wanneer de economische realiteit (de leasingnemer draagt het ondernemingsrisico, geniet de voordelen, betaalt alles terug) overeenstemt met eigendom, mag de juridische vorm van een huurcontract dat niet verbergen. Anders zou een onderneming makkelijk schulden buiten balans kunnen schuiven via een leasingstructuur en de solvabiliteitsratio's verbeteren. CBN-advies 2015/4 (BE-GAAP) en IFRS 16 (internationaal) volgen beide dit principe, zij het met andere drempels: BE-GAAP via wedersamenstelling + 15%-regel, IFRS 16 sinds 2019 via een eenvoudige regel 'bijna alle leases on-balance bij lessee'.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Economische realiteit primeert" },
+            { "type": "wettekst", "naam": "IFRS 16 (Verordening (EU) 2023/1803)", "ref": "alinea 63" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "leasing",
+        "vast-actief"
+      ],
+      "kader": "leasing",
+      "naast_relevant": [
+        "operationele-leasing",
+        "banklening-investeringskrediet"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "BE-GAAP: KB WVV art. 3:89 + CBN-advies 2015/4. IFRS: IFRS 16 (Verordening (EU) 2023/1803)."
+      },
+      "voor": [
+        {
+          "tekst": "Lange-termijn-financiering van een duurzaam actief waarbij de leasingnemer het actief tot het einde van zijn economische levensduur (of significant deel daarvan) wil gebruiken en uiteindelijk eigenaar wil worden. Typische voorbeelden: industriële machines, vrachtwagens, gebouwen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardtoepassing financiele leasing" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Volledige financiering zonder eigen inbreng. Aftrekbaarheid via afschrijving + rente (volledig aftrekbaar binnen art. 198/1 WIB92). Actief zelf dient als waarborg - vaak soepelere kredietvoorwaarden dan een banklening. Bij koopoptie <=15%: eigenaarschap op het einde tegen lage uitoefenprijs.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardvoordelen leasing" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "On-balance-verwerking verzwaart de balans (hoger balanstotaal) en kan de solvabiliteitsratio verlagen. Vroegtijdige beëindiging is vaak duur (vergoedingsclausules in het contract). Bij faillissement van de leasingnemer kan de leasinggever het actief terugnemen - de leasingnemer verliest zowel het gebruik als de reeds betaalde bedragen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardrisicos" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "kwalificatie-be-gaap-detail",
+        "naam": {
+          "primair": "Kwalificatie BE-GAAP - wedersamenstelling en 15%-regel"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een leasing wordt onder BE-GAAP gekwalificeerd als financiele leasing wanneer de som van (a) de contractuele leasevergoedingen + (b) de uitoefenprijs van de koopoptie (alleen indien <=15% van het door de leasinggever geinvesteerde kapitaal in het goed) het volledig geinvesteerde kapitaal van de leasinggever wedersamentelt. De wedersamenstelling betekent: terugbetaling van het kapitaal + rentevergoeding. Wanneer deze cumulatie inclusief koopoptie het geinvesteerde kapitaal niet bereikt (typisch wanneer koopoptie boven 15% ligt), of wanneer de wedersamenstelling onvolledig is, kwalificeert de leasing als operationele leasing.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Aankoopoptie + wedersamenstelling kapitaal" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-verwerking-on-balance",
+        "naam": {
+          "primair": "On-balance verwerking - boekingsschema"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij aanvang: D actief (22 gebouwen / 23 machines / 24 voertuigen, ...) | C 172 'Leasingschulden en soortgelijke' voor de actuele waarde van de leaseverplichtingen (= geinvesteerd kapitaal van de leasinggever). Bij elke leasevergoeding: split kapitaalaflossing en rente. Boeking: D 172 (kapitaaldeel) + D 650 (rentedeel) | C 55 Bank (totale vergoeding). Bij elke afsluiting: afschrijving van het actief - D 6302 | C 23X (geboekte afschrijvingen). Het deel van de leasingschuld dat binnen het jaar opeisbaar wordt, wordt overgeheveld van 172 naar 423 (kortlopend deel).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Boekhoudkundige verwerking financiele leasing" },
+                { "type": "kb", "naam": "KB 29-04-2019 jaarrekening", "ref": "MAR rekeningen 172 / 423 / 6302 / 650" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afschrijving-keuze-levensduur",
+        "naam": {
+          "primair": "Afschrijving - keuze tussen economische levensduur en leasingperiode"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Als de leasingnemer redelijke zekerheid heeft dat hij op het einde de eigendom zal verwerven (lage koopoptie of automatische overdracht), wordt het actief afgeschreven over zijn volledige economische levensduur. Heeft hij die zekerheid niet, dan wordt afgeschreven over de korter looptijd van leasingperiode of economische levensduur. Belangrijk voor afschrijvingsplan en fiscale optimalisatie.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Afschrijving leasing-actief" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk afschrijving" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verwerking-koopoptie",
+        "naam": {
+          "primair": "Verwerking koopoptie aan einde van het contract"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij lichting van de koopoptie: D 22-24 (actief, tegen uitoefenprijs) | C 55 Bank. Bij niet-lichting en teruggave van het actief: afboeking netto-boekwaarde - D 6302 (afschrijving versneld) | C 23X (geboekte afschrijvingen) tot netto-boekwaarde = 0, dan D 23X | C 22-24 om het actief volledig af te boeken. Eventueel verschil met de uitoefenprijs in resultaat. Belangrijk: de boeking moet kloppen met de werkelijke transactie - er is geen volledige standaardroute.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard boekingsschema einde lease" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-financiele-leasing",
+        "titel": "Financiele leasing voor een productiemachine",
+        "context": "BV Optima least een productiemachine van 100.000 EUR. Looptijd 5 jaar, jaarlijkse leasingvergoeding 22.000 EUR (waarvan ~20.000 EUR kapitaal + ~2.000 EUR rente in jaar 1), koopoptie 1.000 EUR (= 1% van kapitaal, ruim onder 15%). Machine afgeschreven over 10 jaar economische levensduur.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Geconstrueerd cijfervoorbeeld" },
+            { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Methodologie" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Aanvang - opname actief en leasingschuld",
+            "rijen": [
+              { "rekening": "23 - Installaties, machines, uitrusting", "debet": 100000, "credit": null },
+              { "rekening": "172 - Leasingschulden en soortgelijke", "debet": null, "credit": 100000 }
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Jaarlijkse leasingvergoeding (jaar 1)",
+            "rijen": [
+              { "rekening": "172 - Leasingschulden (kapitaalaflossing)", "debet": 20000, "credit": null },
+              { "rekening": "650 - Rentelasten", "debet": 2000, "credit": null },
+              { "rekening": "55 - Bank", "debet": null, "credit": 22000 }
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Jaarlijkse afschrijving (10% lineair over 10 jaar)",
+            "rijen": [
+              { "rekening": "6302 - Afschrijvingen op materiele vaste activa", "debet": 10000, "credit": null },
+              { "rekening": "239 - Geboekte afschrijvingen", "debet": null, "credit": 10000 }
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Kapitaal en rente samen als 'leasingkost' boeken",
+        "verkeerde_assumptie": "Bij financiele leasing boek je de leasingvergoeding gewoon als kost in resultaat.",
+        "kernpunt": "Bij financiele leasing wordt de leasingvergoeding gesplitst: het kapitaalgedeelte gaat af van de leasingschuld (172), het rentegedeelte komt in resultaat (650). Het volledige bedrag als kost boeken is fout - daarmee zou je de financiering ineens als kost erkennen en het actief op de balans dubbel afschrijven. De rentecomponent wordt typisch via een actuariële berekening bepaald op basis van het uitstaande saldo en de impliciete interestvoet van de lease.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Boekhoudkundige verwerking - splitsing kapitaal/rente" }
+          ]
+        }
+      },
+      {
+        "titel": "Het actief afschrijven over de leasingperiode in plaats van de economische levensduur",
+        "verkeerde_assumptie": "Het leasing-actief wordt afgeschreven over de looptijd van het contract.",
+        "kernpunt": "Wanneer de leasingnemer redelijke zekerheid heeft van eigendomsoverdracht aan het einde (lage koopoptie, automatische overdracht), wordt afgeschreven over de volledige economische levensduur. Een 5-jaars-leasing op een machine met 10 jaar economische levensduur en lage koopoptie wordt afgeschreven over 10 jaar - niet over 5. Wel afschrijven over de leasingperiode als die korter is en eigendomsoverdracht onzeker.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Afschrijving" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardregel" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "leasingnemer-vennootschap",
+      "naam": {
+        "primair": "Leasingnemer (cliëntvennootschap)"
+      },
+      "intro": "De accountant die de financiele leasing bij de cliënt-vennootschap boekhoudkundig verwerkt en de jaarlijkse afsluiting opvolgt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "stappenplan-verwerking",
+              "naam": {
+                "primair": "Stappenplan boekhoudkundige verwerking"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Kwalificeer eerst de leasing als financieel (CBN 2015/4). (2) Bij aanvang: boek het actief tegen de waarde van de leaseverplichtingen (= geinvesteerd kapitaal leasinggever). (3) Bouw een leasingschema op met per jaar: leasingvergoeding, kapitaaldeel, rentedeel, uitstaand saldo. (4) Bij elke periodieke betaling: gebruik dat schema voor de boeking. (5) Bij elke boekjaarafsluiting: afschrijving op het actief + overheveling van het binnen het jaar opeisbare deel van 172 naar 423. (6) Bij eindtermijn: koopoptie lichten of teruggave - boek conform de werkelijke transactie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 2015/4", "ref": "Boekhoudkundige verwerking" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -77,7 +342,19 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "operationele-leasing"
+      "target": "operationele-leasing",
+      "gelijkenissen": [
+        "Beide vallen onder hetzelfde fiscale en juridische leasingkader (BE-GAAP + IFRS 16)",
+        "Beide hebben dezelfde driepartijenstructuur (leasinggever - leasingnemer - actief)"
+      ],
+      "verschillen": [
+        "Financiele leasing: on-balance bij lessee onder BE-GAAP (actief + leasingschuld); operationele: off-balance (huurkost in resultaat)",
+        "Financiele leasing: substantie van eigendomsoverdracht (lage koopoptie, lange looptijd); operationele: gebruiksrecht zonder eigendomsoverdracht",
+        "Financiele leasing: aftrek via afschrijving + rente; operationele: volledige huurpenning aftrekbaar",
+        "IFRS 16: voor lessee is dit onderscheid verdwenen - alles on-balance behalve short-term en low-value"
+      ],
+      "verwarring_risico": "Kwalificatie hangt af van details (koopoptieprijs, contractduur, gebruiksgraad). Zelfde economische situatie kan onder BE-GAAP operationeel en onder IFRS financieel zijn.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
