@@ -7,12 +7,15 @@
       "VAA gsm",
       "VAA laptop",
       "ICT-VAA"
-    ]
+    ],
+    "vertaling": {
+      "fr": "ATN PC, GSM, internet"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -40,9 +43,18 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/vaa-pc-en-communicatie.json",
+      "primary_bronnen": [
+        "KB/WIB92 art. 18 §3 (forfaits VAA)",
+        "WIB92 art. 36 (algemene VAA-regel)",
+        "Cijferzakboekje 2026"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -51,30 +63,377 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:10:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit basis VAA-kennis + Cijferzakboekje-bedragen 2026. Bundle-flow."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Wanneer een werkgever of vennootschap een werknemer of bedrijfsleider gratis (of tegen voorkeurtarief) ICT-middelen ter beschikking stelt — een PC of laptop, een tablet of smartphone, een internetverbinding thuis, of een telefoonabonnement — wordt het privégebruik fiscaal als belastbaar voordeel van alle aard (VAA) beschouwd. De wetgever heeft hiervoor forfaitaire jaarbedragen vastgelegd (KB/WIB92 art. 18 §3): voor 2026 — PC/laptop €72/jaar, tablet of gsm €36/jaar, internetverbinding €60/jaar (één forfait per gezin), telefoonabonnement €48/jaar. De forfaits zijn cumulatief: elk ter beschikking gesteld element telt apart.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3", "context": "Forfaitaire bepaling voordeel ICT-middelen — bedragen 2026" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 36", "context": "Algemene VAA-regel: waardering aan werkelijke waarde of forfait" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026 — concrete bedragen" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Door het forfaitair karakter is het voordeel klein in verhouding tot de werkelijke waarde van het toestel — een laptop van 1.500 EUR genereert slechts 72 EUR VAA per jaar, dus ongeveer 30 EUR netto-belasting voor de werknemer. Dat maakt ICT-middelen een fiscaal aantrekkelijke beloningsvorm. De forfaits gelden ENKEL wanneer er privégebruik mogelijk is. Indien een werkgever overtuigend kan aantonen dat het toestel uitsluitend professioneel wordt gebruikt (bv. desktop op kantoor zonder thuiswerk), is er geen VAA. De forfaits gelden ongeacht het werkelijk privégebruik — een werknemer die zijn werk-gsm zelden privé gebruikt, betaalt evenveel als wie hem intensief privé gebruikt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard fiscale praktijk + adviespraktijk" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het forfaitair stelsel vereenvoudigt enorm: zonder forfait zou voor élk toestel een werkelijk privégebruik-percentage moeten worden geschat. Door de fiscaal gunstige niveaus (veel lager dan werkelijke waarde) heeft de overheid bewust ICT-uitrusting voor werknemers willen stimuleren — beleidsmatig in lijn met digitaliseringsbeleid. Eén internet-forfait per gezin vermijdt dubbeltelling wanneer beide partners een werkgevers-internet hebben.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "werknemers-vergoedingen"
+      ],
+      "kader": "werknemers-vergoedingen",
+      "naast_relevant": [
+        "vaa-woning",
+        "vaa-verwarming-en-elektriciteit",
+        "vaa-renteloze-lening"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2026-01-01",
+        "wettelijke_basis": "KB/WIB92 art. 18 §3, periodiek aangepast bij KB",
+        "toelichting": "Forfaits voor 2026: PC €72, tablet/gsm €36, internet €60, telefoonabonnement €48. Indexering: bedragen zijn niet gekoppeld aan een index, maar worden bij KB periodiek herzien. Cijferzakboekje voor exacte AJ-bedragen."
+      },
+      "voor": [
+        {
+          "tekst": "Werknemers en bedrijfsleiders aan wie de werkgever of vennootschap gratis (of tegen verlaagd tarief) een PC, laptop, tablet, gsm, smartphone, internetverbinding of telefoonabonnement ter beschikking stelt voor privégebruik.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Toestellen die enkel professioneel worden gebruikt en geen privégebruik toelaten (bv. desktop op kantoor, gespecialiseerde meetapparatuur). Wegnemen van privégebruik moet wel concreet aantoonbaar zijn — een loutere bewering volstaat niet.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 36" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard fiscale praktijk — bewijslast bij belastingplichtige" }
+            ]
+          }
+        },
+        {
+          "tekst": "Eigen toestel van de werknemer waarvoor de werkgever een vergoeding betaalt (BYOD-vergoeding) — die loopt onder andere regels (forfaitaire kostenvergoeding, dossier-onderbouwd).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Door de lage forfaits is een laptop of gsm-pakket een fiscaal zeer voordelige extralegale beloning voor de werknemer — de belastingdruk is een fractie van de reële waarde van het voordeel.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk loonpakket" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "forfait-pc",
+        "naam": {
+          "primair": "Forfait PC of laptop — €72/jaar"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor elke gratis ter beschikking gestelde PC of laptop bedraagt het belastbaar VAA €72 per jaar (6 EUR/maand) — geldend voor 2026 conform KB/WIB92 art. 18 §3. Het bedrag dekt het privégebruik in zijn geheel — werkelijk privégebruik wordt niet meer gemeten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "forfait-tablet-gsm",
+        "naam": {
+          "primair": "Forfait tablet of gsm — €36/jaar"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor elk gratis ter beschikking gesteld mobiel toestel (tablet, gsm, smartphone) bedraagt het VAA €36 per jaar (3 EUR/maand). Twee toestellen → twee forfaits.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "forfait-internet",
+        "naam": {
+          "primair": "Forfait internetverbinding — €60/jaar (één per gezin)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor gratis internetverbinding thuis (of voor mobile data via abonnement) wordt VAA €60/jaar (5 EUR/maand) aangerekend. Belangrijk: één forfait per gezin — als beide partners van hun werkgever internet krijgen, blijft het op één forfait. Het abonnement zelf (telefoon) wordt apart gemeten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3", "context": "Internet-forfait per gezin, niet per toestel" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "forfait-telefoonabonnement",
+        "naam": {
+          "primair": "Forfait telefoonabonnement — €48/jaar"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor een gratis telefoonabonnement (los van het toestel) bedraagt het VAA €48 per jaar (4 EUR/maand). Het toestel zelf (gsm) wordt apart belast onder het tablet/gsm-forfait van €36/jaar.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cumulatie-forfait",
+        "naam": {
+          "primair": "Cumulatie-regel"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De forfaits zijn cumulatief per element. Een werknemer met laptop + smartphone + internet + telefoonabonnement: VAA = 72 + 36 + 60 + 48 = 216 EUR/jaar. Wordt twee laptops ter beschikking gesteld? Twee maal 72 EUR. Uitzondering: internet blijft één forfait per gezin.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boeking-vaa-ict",
+        "naam": {
+          "primair": "Boekhoudkundige verwerking VAA ICT"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De vennootschap boekt de werkelijke kosten van ICT-middelen op klasse 61 (diensten en diverse goederen) of 21 (immateriële/materiële vaste activa via afschrijving). Het VAA-forfait wordt NIET als extra kost geboekt — het is een toerekening voor de PB van de begunstigde. Wel verschijnt het op de fiche 281.10 (werknemer) of 281.20 (bedrijfsleider) onder de bezoldigingen die de begunstigde aangeeft.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard MAR + aangiftepraktijk" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-bedrijfsleider-full-pack",
+        "titel": "Bedrijfsleider met laptop + smartphone + internet + telefoon-abonnement",
+        "context": "Pieter is zaakvoerder van Aurelia Holding NV. De vennootschap stelt hem ter beschikking: een laptop (1.800 EUR), een iPhone (1.200 EUR), thuis-internet (60 EUR/maand abonnement), telefoonabonnement (40 EUR/maand). Pieter mag alles privé gebruiken.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Laptop: VAA = 72 EUR/jaar",
+              "Stap 2 — Smartphone: VAA = 36 EUR/jaar",
+              "Stap 3 — Internet thuis: VAA = 60 EUR/jaar (één per gezin)",
+              "Stap 4 — Telefoon-abonnement: VAA = 48 EUR/jaar",
+              "Stap 5 — Totaal VAA = 72 + 36 + 60 + 48 = 216 EUR/jaar",
+              "Stap 6 — Belastingdruk bij marginaal tarief 50 % ≈ 108 EUR/jaar netto-belasting",
+              "Stap 7 — Vergelijk met werkelijke waarde voordelen: laptop 1.800 EUR + iPhone 1.200 EUR (af te schrijven) + internet 720 EUR + telefoon 480 EUR — fiscaal zeer voordelig"
+            ],
+            "resultaat": "216 EUR jaarlijks VAA voor een volwaardige ICT-uitrusting — verwaarloosbaar t.o.v. werkelijke kost; ideale extralegale beloning."
+          },
+          {
+            "type": "boeking",
+            "titel": "Verwerving laptop door Aurelia Holding NV (vereenvoudigd)",
+            "rijen": [
+              { "rekening": "241 — Installaties, machines en uitrusting", "debet": 1800, "credit": null },
+              { "rekening": "411 — Aftrekbare btw", "debet": 378, "credit": null },
+              { "rekening": "440 — Leveranciers", "debet": null, "credit": 2178 }
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "VAA berekenen op de werkelijke kost van het toestel",
+        "verkeerde_assumptie": "Studenten denken soms dat het VAA = aankoopprijs × privégebruik-% (zoals bij autokosten).",
+        "kernpunt": "Voor ICT-middelen geldt een FORFAITAIR bedrag per element, ongeacht de werkelijke waarde of het werkelijk privégebruik. Een laptop van 500 EUR en een laptop van 3.000 EUR genereren beide 72 EUR VAA per jaar. De forfaits staan in KB/WIB92 art. 18 §3 — bij examen Cijferzakboekje raadplegen voor het exacte bedrag.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Dubbel internet-forfait in een gezin met twee werkende partners",
+        "verkeerde_assumptie": "Beide partners krijgen elk een internet-vergoeding van werkgever → twee maal €60 VAA aangeven.",
+        "kernpunt": "Het internet-forfait geldt PER GEZIN, niet per persoon. Zelfs als beide partners van hun werkgever internet vergoed krijgen, wordt slechts één keer 60 EUR VAA aangegeven — bij de partner met het hoogste belastbare inkomen meestal. De andere partner geeft niets aan voor internet (wel voor zijn eventuele telefoon-abonnement of toestellen).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3", "context": "Internet-forfait per gezin" }
+          ]
+        }
+      },
+      {
+        "titel": "Telefoon-abonnement = gsm-toestel — slechts één forfait?",
+        "verkeerde_assumptie": "De smartphone en het bijhorende abonnement zijn 'samen' — dus 36 EUR of 48 EUR (één van beide).",
+        "kernpunt": "Toestel en abonnement zijn ELK een apart forfait: gsm/smartphone 36 EUR + abonnement 48 EUR = 84 EUR samen. Een student die enkel een toestel krijgt zonder abonnement geeft 36 EUR aan; een werknemer die enkel een abonnement krijgt (gebruikt voor eigen toestel) 48 EUR.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "kb", "naam": "KB/WIB92", "ref": "art. 18 §3" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "loonpakket-adviseur",
+      "naam": {
+        "primair": "Loonpakket-adviseur (KMO + bedrijfsleider)"
+      },
+      "intro": "De accountant die het loon- en voordelenpakket van een bedrijfsleider of werknemer mee samenstelt en in de aangifte verwerkt.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "ict-pakket-aanbeveling",
+              "naam": {
+                "primair": "ICT-pakket als loonoptimalisatie"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij loonoptimalisatie voor een bedrijfsleider of medewerker: stel het 'volledig ICT-pakket' (laptop + smartphone + internet + telefoonabonnement) voor — 216 EUR VAA voor enkele duizenden EUR werkelijke kost. Volledig aftrekbaar in VenB, lage PB-impact bij begunstigde. Zorg dat de toestellen op naam van de vennootschap staan (vermijd 'eigen-toestel-vergoeding' constructies tenzij dat fiscaal-administratief geneutraliseerd kan worden).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk loonoptimalisatie 2026" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiche-281-vaa-ict",
+              "naam": {
+                "primair": "Vermelding VAA op fiche 281"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Op het einde van het jaar: VAA-bedragen ICT toevoegen aan de bruto-bezoldigingen op fiche 281.10 (werknemer) of 281.20 (bedrijfsleider). Zonder die vermelding kan de fiscus bij controle de werkelijke kost van de toestellen volledig als verworpen kost (geheime commissie 100 %, art. 219 WIB92) belasten in de vennootschap.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 57", "context": "Verplichte fiche-vermelding" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 219", "context": "Aanslag geheime commissielonen 100 %" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "werknemers-vergoedingen"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "vaa-woning",
+      "gelijkenissen": [
+        "Beide zijn forfaitaire VAA's voor ter beschikking gestelde middelen",
+        "Beide gebaseerd op KB/WIB92 art. 18 §3"
+      ],
+      "verschillen": [
+        "ICT-VAA: vaste bedragen per element, ongeacht waarde",
+        "VAA-woning: formule op basis van kadastraal inkomen, sterk hogere bedragen"
+      ]
+    },
+    {
+      "type": "vereist",
+      "target": "bedrijfsleidersbezoldiging",
+      "toelichting": "Vooral relevant in de loonmix voor bedrijfsleiders (mengvorm cash-bezoldiging + VAA)."
     }
   ]
 }
