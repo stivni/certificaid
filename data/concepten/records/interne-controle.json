@@ -5,15 +5,18 @@
     "synoniemen": [
       "internal control",
       "interne beheersing",
+      "systeem van interne beheersing",
       "controleomgeving",
-      "beheersingssysteem",
-      "système de contrôle interne"
-    ]
+      "beheersingssysteem"
+    ],
+    "vertaling": {
+      "fr": "contrôle interne"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -32,42 +35,41 @@
     ],
     "scope": {
       "in": [
-        "Definitie (1.7.I.A): geheel van procedures · gedragsregels · organisatorische maatregelen voor redelijke zekerheid over...",
-        "4 doelstellingen: informatie betrouwbaar · middelen beschermd · werking doeltreffend · wet/regelgeving nageleefd",
-        "Dubbele dimensie: preventief + detectief + correctief (1.7.III.A)",
-        "Inherente beperkingen: samenspanning · management override · kosten-baten · menselijke factor (1.7.III.B)",
-        "Actoren: 3 lines of defense (1.7.IV) — 1e operationeel · 2e risk+compliance=IC · 3e interne audit",
-        "#afbakening met externe controle / managementcontrole / interne audit (1.7.I.B-D)",
-        "#referentiekaders — overzicht (COSO dominant → cross naar coso-framework; COBIT; ISO 31000)"
+        "Definitie (1.7.I.A): geheel van procedures, gedragsregels en organisatorische maatregelen voor redelijke zekerheid",
+        "Vier doelstellingen: betrouwbare informatie, beschermde middelen, doeltreffende werking, naleving wet/regelgeving",
+        "Drie types maatregelen: preventief, detectief, correctief (1.7.III.A)",
+        "Inherente beperkingen (1.7.III.B): samenspanning, management override, kosten-baten, menselijke factor",
+        "Three Lines of Defense (1.7.IV): operationeel management - risk/compliance - interne audit",
+        "Afbakening met externe controle, managementcontrole en interne audit (1.7.I.B-D)"
       ],
       "out": [
         {
-          "topic": "COSO-framework als primair referentiekader (shared)",
+          "topic": "COSO-framework als primair referentiekader",
           "richting": "moet-verwijzen",
           "ref": "coso-framework"
         },
         {
-          "topic": "Cyclus-analyse als operationele invulling (shared)",
+          "topic": "Cyclus-analyse als operationele invulling",
           "richting": "moet-verwijzen",
           "ref": "cyclus-analyse"
         },
         {
-          "topic": "Externe controle bouwt op IC",
+          "topic": "Externe controle bouwt op interne controle",
           "richting": "moet-verwijzen",
           "ref": "controleopdracht"
         },
         {
-          "topic": "Controle-risico-inschatting via IC-begrip",
+          "topic": "Controle-risico-inschatting via interne-controle-begrip",
           "richting": "moet-verwijzen",
           "ref": "audit-planning"
         },
         {
-          "topic": "Interne audit als 3e lijn",
+          "topic": "Interne audit als derde verdedigingslijn",
           "richting": "moet-verwijzen",
           "ref": "interne-audit"
         },
         {
-          "topic": "Auditcomité als governance-toezicht (shared)",
+          "topic": "Auditcomite als governance-toezicht",
           "richting": "moet-verwijzen",
           "ref": "auditcomite"
         },
@@ -82,20 +84,32 @@
           "ref": "it-controles"
         },
         {
-          "topic": "Evaluatie IC-effectiviteit",
+          "topic": "Evaluatie interne-controle-effectiviteit",
           "richting": "moet-verwijzen",
           "ref": "evaluatie-interne-controle"
         },
         {
-          "topic": "Managementcontrole (verwant maar verschillend — bedrijfseconomie)",
+          "topic": "Managementcontrole (verwant maar verschillend - bedrijfseconomie)",
           "richting": "niet-verwijzen"
         }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-controle-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/interne-controle.json",
+      "primary_bronnen": [
+        "ISA 315 (herzien-2019)",
+        "ISA 330",
+        "ISA 265",
+        "ISA 240",
+        "ITAA-norm-kmo-controlenorm",
+        "ITAA-norm-intern-kwaliteitsmanagement"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -104,26 +118,605 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-controle-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ISA 315/330/265/240, ITAA-KMO-controlenorm). Bundle-flow zonder extra MCP-calls."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Interne controle is het geheel van procedures, gedragsregels en organisatorische maatregelen dat door het management van een onderneming wordt opgezet en in stand gehouden om een redelijke mate van zekerheid te verkrijgen dat de doelstellingen van de onderneming worden bereikt. Het is geen eenmalige procedure, maar een doorlopend systeem (in ISA-terminologie: 'systeem van interne beheersing') dat verweven zit met de dagelijkse werking. De Engelse term internal control system en het Nederlandse interne beheersing worden door de ITAA en ISA-standaarden door elkaar gebruikt voor hetzelfde concept.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3" },
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "Toetsingen van interne beheersingsmaatregelen, par. 97-98" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Interne controle is wat een organisatie zelf doet om zekerheid te krijgen over haar eigen werking - voor de externe auditor binnenkomt. Concreet: dubbele handtekeningen op betalingen, vier-ogen-principe bij belangrijke beslissingen, voorraadtellingen, aansluitingen tussen subadministraties en grootboek, geautomatiseerde tolerantietests op inkoopfacturen, periodieke kasopnames. De accountant zelf bouwt zijn eigen kantoor-interne-controle (clientenacceptatie-procedure, onafhankelijkheidstoets, archief) op net dezelfde principes. Voor de externe auditor is de interne controle een hefboom: hoe sterker de interne controle, hoe meer hij erop kan steunen en hoe minder eigen gegevensgerichte controles nodig zijn (ISA 330 par. 8).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 - interne beheersingsactiviteiten" },
+            { "type": "norm", "naam": "ISA 330", "ref": "par. 8-15 toetsingen van interne beheersingsmaatregelen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijksynthese voor stagiair-niveau" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio van interne controle is drievoudig: (1) bescherming van de onderneming en haar belanghebbenden tegen verlies door fouten en fraude; (2) waarborg dat de financiele rapportering een getrouw beeld geeft - cruciaal voor crediteuren, aandeelhouders en fiscus; (3) compliance met de groeiende last aan wet- en regelgeving (boekhoudrecht, antiwitwaswet, fiscaal, sociaal). Interne controle is bovendien het fundament waarop externe controle steunt: zonder geloofwaardige interne controle moet de externe auditor extreem veel detailcontroles uitvoeren - duur en vaak praktisch onhaalbaar. Daarom is interne controle ook een commercieel-economische investering, geen pure compliance-kost.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Inleiding" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer beroepsuitoefening accountant" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "controleopdracht"
+      ],
+      "naast_relevant": [
+        "coso-framework",
+        "functiescheiding",
+        "it-controles"
+      ],
+      "volgkennis": [
+        "cyclus-analyse",
+        "evaluatie-interne-controle",
+        "interne-audit",
+        "fouten-en-fraude"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Interne-controle-verplichting is structureel verankerd in WVV (zorgvuldigheidsplicht bestuurders), boekhoudrecht (art. III.84 e.v. WER) en in alle ISA's. ITAA-norm-intern-kwaliteitsmanagement verplicht elke ITAA-beroepsbeoefenaar tot een eigen kantoor-interne-controle-systeem."
+      },
+      "voor": [
+        {
+          "tekst": "Elke onderneming - groot of klein - bouwt interne controle naar verhouding van haar omvang en risicoprofiel. Een kmo met enkele werknemers heeft een veel informeler systeem dan een beursgenoteerde onderneming, maar de basiscomponenten (autorisatie, aansluiting, fysieke beveiliging, functiescheiding waar mogelijk) gelden overal. Ook het kantoor van de gecertificeerd accountant zelf moet interne controle hebben (ITAA-norm intern kwaliteitsmanagement).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 265", "ref": "par. A3-A4 kleinere entiteiten" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Bescherming tegen verlies en fraude, betrouwbaardere financiele rapportering, kortere en goedkopere externe controle (auditor kan steunen op interne controle), hogere efficientie van bedrijfsprocessen, en een betrouwbare basis voor managementbeslissingen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer COSO + ISA" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Zwakke of ontbrekende interne controle leidt tot een verhoogde kans op fouten en fraude in de financiele overzichten, en tot een verhoogde controlerisico-inschatting door de externe auditor - die dan veel meer gegevensgerichte werkzaamheden zal moeten plannen (ISA 330) en uiteindelijk tot een oordeel met beperking of zelfs oordeelonthouding kan komen indien onvoldoende controle-informatie te verkrijgen valt.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 330", "ref": "par. 27 - oordeel met beperking bij onvoldoende controle-informatie" },
+              { "type": "norm", "naam": "ISA 265", "ref": "par. 7-9 communicatie tekortkomingen" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "vier-doelstellingen-interne-controle",
+        "naam": {
+          "primair": "De vier doelstellingen van interne controle"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Interne controle dient vier doelstellingen die in alle referentiekaders (COSO Internal Control, ISA 315, ITAA-norm) terugkomen: (1) Betrouwbaarheid van de financiele en niet-financiele informatie; (2) Bescherming van het patrimonium - voorkomen van verlies, diefstal of vernietiging van activa; (3) Doeltreffendheid en doelmatigheid van de operationele werking; (4) Naleving van wetten, reglementen en interne richtlijnen (compliance).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A91 doelstellingen interne beheersing" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "doel-betrouwbaarheid",
+              "naam": { "primair": "Betrouwbaarheid van de informatie" },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "De boekhouding en de financiele overzichten geven een getrouw beeld zonder afwijkingen van materieel belang - zowel intentioneel (fraude) als onbedoeld (fouten). Dit is de doelstelling waarop de externe auditor het sterkst inzoomt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 19 informatiesysteem" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "doel-bescherming-patrimonium",
+              "naam": { "primair": "Bescherming van het patrimonium" },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "Materiele en immateriele activa worden beschermd tegen verlies, diefstal, vernietiging of misbruik. Concreet: kluis voor liquide middelen, toegangscontrole tot het magazijn, logische toegangsbeveiliging tot informatica-systemen, periodieke voorraadtellingen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 fysieke of logische interne beheersingsmaatregelen" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "doel-doeltreffendheid",
+              "naam": { "primair": "Doeltreffendheid en doelmatigheid" },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "De operationele processen werken zoals bedoeld, efficient en zonder verspilling. Dit overlapt met managementcontrole maar verschilt: managementcontrole stuurt op KPI's en strategie, interne controle waarborgt dat de processen zelf gedisciplineerd verlopen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardonderscheid IC vs managementcontrole" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "doel-compliance",
+              "naam": { "primair": "Naleving van wet- en regelgeving" },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "De onderneming respecteert de toepasselijke wetten, koninklijke besluiten, normen en interne richtlijnen. ISA 250 (herzien) vereist dat de auditor de naleving van financieel-rapporteringsrelevante wet- en regelgeving controleert; interne controle moet deze naleving operationeel afdwingen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 250 (herzien)", "ref": "Doelstellingen, par. 11" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "drie-types-maatregelen",
+        "naam": {
+          "primair": "Preventief, detectief en correctief"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Interne-controle-maatregelen worden onderverdeeld op basis van hun rol in de tijd ten opzichte van een mogelijk incident: preventief (voorkomt incidenten), detectief (signaleert incidenten die toch gebeuren) en correctief (herstelt incidenten en past het systeem aan). Een goed interne-controle-systeem combineert de drie types - preventief alleen volstaat nooit omdat geen enkel systeem perfect is.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 330", "ref": "par. 4(b) interne beheersingsmaatregelen voorkomen of detecteren en corrigeren" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke COSO/ITAA-trichotomie" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "preventieve-maatregel",
+              "naam": { "primair": "Preventieve maatregelen" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bedoeld om fouten of fraude te voorkomen vooraleer ze gebeuren. Voorbeelden: functiescheiding tussen wie bestelt, ontvangt en betaalt; tweehandtekeningsregel voor betalingen boven een grens; voorafgaande goedkeuring van inkoopfacturen door een hierarchisch hogere; verplichte tweefactor-authenticatie op het boekhoudsysteem.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 autorisatie en goedkeuringen" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "detectieve-maatregel",
+              "naam": { "primair": "Detectieve maatregelen" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bedoeld om reeds opgetreden afwijkingen achteraf te signaleren. Voorbeelden: maandelijkse bankreconciliatie, periodieke voorraadtelling, vergelijking tussen subadministratie en grootboek, geautomatiseerde uitzonderingsrapporten voor transacties boven een tolerantieniveau, monitoring-rapportering aan het management.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 aansluitingen en verificaties" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "correctieve-maatregel",
+              "naam": { "primair": "Correctieve maatregelen" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bedoeld om gedetecteerde afwijkingen te herstellen en het systeem aan te passen zodat ze niet meer terugkeren. Voorbeelden: correctieboekingen, terugvorderen van onterechte betalingen, herziening van procedures na een fraude-incident, aanpassing van toegangsrechten na een audit-bevinding.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 265", "ref": "par. 9 communicatie tekortkomingen met oog op corrigerende maatregelen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "three-lines-of-defense",
+        "naam": {
+          "primair": "Three Lines of Defense (drie verdedigingslijnen)"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het Three-Lines-of-Defense-model verdeelt de verantwoordelijkheid voor interne controle over drie organisatie-niveaus: (1) eerste lijn = operationeel management dat de processen zelf uitvoert en de inherente interne-controle-maatregelen toepast (controleert zichzelf); (2) tweede lijn = risk management en compliance-functies die toezien op de eerste lijn en het systeem ondersteunen; (3) derde lijn = interne audit die onafhankelijk de werking van de eerste en tweede lijn toetst en rapporteert aan het bestuur of het auditcomite. Het model komt uit het Institute of Internal Auditors (IIA, 2013) en wordt in ISA 610 over het gebruik van werkzaamheden van interne auditors expliciet erkend.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A72 ISA 610 en Bijlage 4" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Three Lines of Defense - IIA-model 2013, internationaal aanvaarde governance-structuur" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "eerste-lijn",
+              "naam": { "primair": "Eerste lijn: operationeel management" },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "De operationele lijnmanagers zijn primair verantwoordelijk voor de inrichting en werking van de interne controle in hun eigen processen - de aankoopverantwoordelijke voor inkoopcontroles, de boekhoudverantwoordelijke voor de juistheid van boekingen, de informatica-verantwoordelijke voor toegangsbeheer.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IIA-Three-Lines-of-Defense-model" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "tweede-lijn",
+              "naam": { "primair": "Tweede lijn: risk management en compliance" },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "Functies die het interne-controle-systeem definieren, ondersteunen en monitoren maar niet zelf de operaties uitvoeren: risk-officer, compliance-officer, controller, security-officer, AML-compliance-officer in financiele sector. Zij rapporteren typisch aan het uitvoerend management.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IIA-Three-Lines-of-Defense-model" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "derde-lijn",
+              "naam": { "primair": "Derde lijn: interne audit" },
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "Onafhankelijke functie die de werking van eerste en tweede lijn objectief toetst, met rapportering rechtstreeks aan het bestuursorgaan of (bij beursgenoteerde of grote ondernemingen) aan het auditcomite. Cruciale onafhankelijkheidseis: interne audit mag geen operationele verantwoordelijkheid hebben in de processen die ze controleert.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 4 - interne audit als monitoringactiviteit" }
+                    ]
+                  }
+                }
+              }
             }
           ]
         }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "inherente-beperkingen",
+        "naam": {
+          "primair": "Inherente beperkingen van interne controle"
+        },
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "Geen enkel interne-controle-systeem geeft absolute zekerheid - alleen redelijke zekerheid. Vier structurele beperkingen: (1) Samenspanning (collusie) tussen twee of meer personen kan elke functiescheiding doorbreken; (2) Management override - het management staat boven het systeem en kan controles omzeilen; (3) Kosten-baten-afweging - sommige controles zijn duurder dan het risico dat ze afdekken en worden bewust niet ingevoerd; (4) Menselijke factor - fouten, vermoeidheid, verkeerde inschatting; geen procedure is feilloos uitvoerbaar door mensen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1 - frauderisicofactoren waaronder management override en collusie" },
+                { "type": "norm", "naam": "ISA 265", "ref": "par. A4 - kleinere entiteiten: management override mogelijk" },
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A91" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afbakening-externe-controle",
+        "naam": {
+          "primair": "Afbakening tegenover externe controle"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Interne controle is wat de onderneming zelf doet; externe controle is wat een onafhankelijke buitenstaander (commissaris, gecertificeerd accountant) doet om een oordeel te geven aan de buitenwereld. Beide kijken naar dezelfde realiteit maar vanuit een andere positie en met andere verantwoordelijkheden. De externe auditor steunt waar mogelijk op de interne controle van de cliente (ISA 315/330) maar blijft zelf verantwoordelijk voor zijn oordeel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 330", "ref": "par. 8-15 toetsingen van interne beheersingsmaatregelen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afbakening-managementcontrole",
+        "naam": {
+          "primair": "Afbakening tegenover managementcontrole"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Managementcontrole stuurt op het bereiken van strategische en operationele doelstellingen - KPI's, budgetten, balanced scorecards, rapportering aan het management voor sturingsbeslissingen. Interne controle daarentegen waarborgt de discipline en betrouwbaarheid van de onderliggende processen. Overlap bestaat (een goede managementrapportering vereist betrouwbare cijfers), maar het zwaartepunt verschilt: managementcontrole kijkt naar 'doen we de goede dingen', interne controle naar 'doen we de dingen goed en zonder fouten'.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardonderscheid in bedrijfseconomische literatuur en in COSO Internal Control - Integrated Framework 2013" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afbakening-interne-audit",
+        "naam": {
+          "primair": "Afbakening tegenover interne audit"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Interne audit is een specifieke functie binnen het bredere systeem van interne controle - namelijk de derde lijn. Interne audit toetst de werking van het interne-controle-systeem; interne controle is het hele systeem zelf. Beeldspraak: interne controle is het immuunsysteem van de organisatie, interne audit is de jaarlijkse medische check-up van dat immuunsysteem.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 4 - interne audit als onderdeel van monitoring" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "referentiekaders",
+        "naam": {
+          "primair": "Referentiekaders voor interne controle"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie internationale referentiekaders worden in de Belgische praktijk gebruikt: (1) COSO Internal Control - Integrated Framework (2013) - dominant kader voor de financiele rapportering; uitgebreid in COSO Enterprise Risk Management (ERM) voor risicomanagement; (2) Control Objectives for Information and related Technology (COBIT, ISACA) - specifiek voor informatica-governance en informatica-controles; (3) ISO 31000 - generiek risicomanagement-kader. COSO is veruit het meest gebruikt in audit-context en wordt door ISA 315 als impliciete basis gehanteerd voor de vijf componenten (controleomgeving, risico-inschatting, beheersingsactiviteiten, informatie en communicatie, monitoring).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 21-26 vijf componenten - aligned met COSO" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer beroepsopleiding" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Interne controle gelijkstellen aan interne audit",
+        "verkeerde_assumptie": "Studenten denken dat 'interne controle' en 'interne audit' synoniemen zijn omdat beide intern zijn en met controle te maken hebben.",
+        "kernpunt": "Interne controle is het hele systeem van procedures, beheersingsmaatregelen en organisatorische voorzieningen. Interne audit is een specifieke onafhankelijke toetsingsfunctie binnen dat systeem (de derde lijn). Een kmo zonder formele interne-audit-afdeling heeft nog altijd interne controle.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 4" }
+          ]
+        }
+      },
+      {
+        "titel": "Verwarring interne controle met externe (commissaris-)controle",
+        "verkeerde_assumptie": "Studenten gebruiken 'controle' los voor zowel wat de onderneming zelf doet als wat de commissaris of accountant doet.",
+        "kernpunt": "Vraag altijd: wie voert de controle uit en aan wie rapporteert hij? Intern (lijnmanagement, controllers, interne auditors) versus extern onafhankelijk (commissaris, gecertificeerd accountant). Twee verschillende werelden met verschillende normenkaders (intern: COSO; extern: ISA's en ITAA-normen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Pedagogische valkuil bij stagiairs - standaardpraktijk" }
+          ]
+        }
+      },
+      {
+        "titel": "Denken dat interne controle absolute zekerheid geeft",
+        "verkeerde_assumptie": "Een goed interne-controle-systeem voorkomt fouten en fraude.",
+        "kernpunt": "Interne controle geeft enkel een redelijke - geen absolute - zekerheid. De vier inherente beperkingen (collusie, management override, kosten-baten, menselijke factor) maken dat zelfs een perfect ontworpen systeem kan falen. Dat is ook waarom externe controle nooit volledig overbodig wordt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 1" }
+          ]
+        }
+      },
+      {
+        "titel": "Three Lines of Defense letterlijk nemen in een kmo",
+        "verkeerde_assumptie": "Elke onderneming moet drie aparte afdelingen hebben voor de drie lijnen.",
+        "kernpunt": "Het Three-Lines-model is een conceptueel kader, geen organisatie-schema. In een kmo met tien werknemers vervult de zaakvoerder feitelijk de tweede lijn en wordt er geen aparte interne audit opgezet - de externe accountant of een periodieke review door een externe partij vervangt dan de derde lijn. Belangrijk is dat de functies onderscheiden zijn, niet dat ze in afzonderlijke organigrammen leven.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 265", "ref": "par. A3-A4 schaalbaarheid in kleinere entiteiten" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "extern-auditor",
+      "naam": {
+        "primair": "Externe controle van de cliente"
+      },
+      "intro": "De accountant of commissaris die de jaarrekening van een cliente controleert.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "ic-begrijpen-en-evalueren",
+              "naam": { "primair": "Inzicht verwerven in en evalueren van de interne controle" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "ISA 315 verplicht de auditor om in de planningsfase inzicht te verwerven in het interne-controle-systeem van de cliente over de vijf componenten (controleomgeving, risico-inschatting, controle-activiteiten, informatie en communicatie, monitoring). Hij documenteert dit inzicht in werkpapieren en gebruikt het om risico's op een afwijking van materieel belang in te schatten op niveau financiele overzichten en op niveau beweringen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 21-26" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "beslissing-steunen-op-ic",
+              "naam": { "primair": "Beslissing om te steunen op interne beheersingsmaatregelen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Indien de auditor van plan is op interne controle te steunen voor een bewering, voert hij toetsingen van interne beheersingsmaatregelen uit (ISA 330 par. 8). Bij significante risico's of bij verwacht steunen op interne controle tijdens meerdere periodes gelden bijkomende vereisten (ten minste een keer per drie jaar toetsen - ISA 330 par. 14). Zonder steunen op interne controle: enkel gegevensgerichte werkzaamheden, vaak onhaalbaar in volume.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 330", "ref": "par. 8-15" },
+                      { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "par. 97-98" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "tekortkomingen-rapporteren",
+              "naam": { "primair": "Tekortkomingen in interne controle rapporteren" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer de auditor tijdens de controle tekortkomingen in de interne controle vaststelt, beoordeelt hij of het om significante tekortkomingen gaat (ISA 265 par. 8). Significante tekortkomingen worden schriftelijk gerapporteerd aan de met governance belaste personen (auditcomite of bestuursorgaan); andere tekortkomingen aan het management. De management letter is het typische instrument.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 265", "ref": "par. 7-9" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eigen-kantoor",
+      "naam": {
+        "primair": "Eigen accountantskantoor"
+      },
+      "intro": "Het kantoor van de gecertificeerd accountant zelf - dat ook intern moet beheerst worden.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "kantoor-ic-opzetten",
+              "naam": { "primair": "Eigen kantoor-interne-controle opzetten conform ITAA-norm" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Elke ITAA-beroepsbeoefenaar zet een interne-controle-systeem op voor zijn eigen kantoor: clientenacceptatie- en continueringsprocedure, onafhankelijkheidstoets per opdracht, archivering, dossierreview, beroepsgeheim-bescherming, antiwitwas-procedures. Dit valt onder de ITAA-norm intern kwaliteitsmanagement (gebaseerd op International Standard on Quality Management 1, ISQM 1) - een directe toepassing van het interne-controle-concept op het eigen beroepskantoor.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm-intern-kwaliteitsmanagement", "ref": "ISQM 1 - intern kwaliteitsmanagement op kantoorniveau" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk ITAA-kantoor" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adviseur-client",
+      "naam": {
+        "primair": "Advies aan kmo-cliente"
+      },
+      "intro": "De accountant die zijn kmo-cliente adviseert over de opzet van haar interne controle.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "ic-light-kmo",
+              "naam": { "primair": "Pragmatische interne controle voor een kmo" },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij een kmo-zaakvoerder met enkele werknemers is volledige formele functiescheiding meestal onhaalbaar. Pragmatische aanpak: (1) maximale eigenaar-betrokkenheid bij autorisatie van significante uitgaven (compenseert beperkte functiescheiding); (2) tweehandtekeningsregel boven een grens; (3) externe boekhouder of accountant als detectie-laag (review boekingen); (4) jaarlijkse fysieke voorraad- en kastelling. Documenteer voor jezelf in het auditdossier waarom een bepaalde controle ontbreekt en welke compenserende maatregel ervoor in de plaats komt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 265", "ref": "par. A3-A4 schaalbaarheid kleinere entiteiten" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardadvies kmo-praktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "bevat",
@@ -147,15 +740,18 @@
     },
     {
       "type": "vereist",
-      "target": "coso-framework"
+      "target": "coso-framework",
+      "toelichting": "COSO Internal Control - Integrated Framework is het de-facto-referentiekader; ISA 315 is met de vijf componenten op COSO gealigneerd."
     },
     {
       "type": "triggert",
-      "target": "cyclus-analyse"
+      "target": "cyclus-analyse",
+      "toelichting": "Operationele invulling van interne controle gebeurt via cyclus-analyse (verkoop, aankoop, voorraad, personeel, treasury)."
     },
     {
       "type": "gecontroleerd_door",
-      "target": "auditcomite"
+      "target": "auditcomite",
+      "toelichting": "In beursgenoteerde en grote ondernemingen oefent het auditcomite governance-toezicht uit op het interne-controle-systeem (art. 7:99 WVV)."
     }
   ]
 }
