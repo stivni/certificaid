@@ -1,23 +1,29 @@
 {
   "id": "indeling-belastingen",
   "naam": {
-    "primair": "Indeling van belastingen"
+    "primair": "Indeling van belastingen",
+    "synoniemen": ["classificatie belastingen", "soorten belastingen"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.1.III",
-      "2.1.IV"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["2.1.III", "2.1.IV"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/indeling-belastingen.json",
+      "primary_bronnen": [
+        "WIB92",
+        "WBTW",
+        "Bijzondere Financieringswet 16 januari 1989",
+        "Vlaamse Codex Fiscaliteit"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -26,6 +32,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld met 3 indelings-assen + concrete Belgische belastingen-mapping."
       }
     ],
     "scope": {
@@ -33,6 +46,7 @@
         "Indeling: directe vs indirecte belastingen",
         "Indeling: personele (subjectief) vs zakelijke (objectief) belastingen",
         "Indeling: federaal vs gewestelijk vs lokaal (niveau-bevoegdheden)",
+        "Indeling: schedulair vs globaal",
         "Concrete voorbeelden per categorie (PB·VenB·BTW·registratie·successie·OV·BIV)"
       ],
       "out": [
@@ -62,37 +76,48 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "tekst": "De Belgische belastingen worden langs verschillende assen geordend: (1) directe versus indirecte belastingen — wie draagt de last juridisch en economisch?; (2) personele versus zakelijke belastingen — wordt de persoonlijke situatie van de belastingplichtige in aanmerking genomen of niet?; (3) federaal versus gewestelijk versus lokaal — welk bestuursniveau int?; (4) schedulair versus globaal — wordt elk inkomenstype apart of samen belast? Een belasting kan op meerdere assen tegelijk worden geplaatst (bv. PB = direct + personeel + federaal-met-gewestelijke-opcentiemen + globaal).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer fiscaal recht — indelingsassen" }
           ]
         }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair zijn deze indelingen geen theoretische oefening — ze bepalen welk wetboek geraadpleegd moet worden, welke administratie bevoegd is en welke procedures gelden. Een gewestelijke belasting volgt de Vlaamse Codex Fiscaliteit en wordt door VLABEL geheven; een federale belasting volgt het WIB92 en wordt door de FOD Financiën geheven. Bij geschillen: ander wetboek, andere termijnen, andere rechter.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["belasting-definitie-en-functies"],
+      "kader": "fiscaal-recht"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Indelingsassen zijn doctrinair — stabiel. De concrete bevoegdheidsverdeling federaal/gewest wijzigt wel met staatshervormingen (laatste grote: 6e staatshervorming 2014)."
       }
     },
     "bouwstenen": [
       {
         "id": "directe-vs-indirecte",
-        "naam": {
-          "primair": "Directe vs indirecte belastingen"
-        },
+        "naam": { "primair": "Directe versus indirecte belastingen" },
         "bouwsteen_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: criteria onderscheid (overhevelbaarheid · economisch incidence)",
+            "tekst": "Een directe belasting wordt geheven op een duurzame toestand (inkomen, vermogen) en de last komt rechtstreeks bij de belastingplichtige. Voorbeelden: PB, VenB, belasting van niet-inwoners (BNI), onroerende voorheffing, gemeente-opcentiemen op de PB. Een indirecte belasting daarentegen treft een vluchtig feit (een transactie, een verbruik) en de fiscaal-juridische belastingplichtige (bv. de verkoper bij btw) draagt de last meestal niet zelf — die wordt afgewenteld op de eindconsument. Voorbeelden: btw, accijnzen, registratierechten, successierechten.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 1", "context": "Inkomstenbelastingen = directe belastingen" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 2", "context": "Btw als indirecte verbruiksbelasting" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
               ]
             }
           }
@@ -100,36 +125,125 @@
       },
       {
         "id": "personele-vs-zakelijke",
-        "naam": {
-          "primair": "Personele vs zakelijke belastingen"
-        },
+        "naam": { "primair": "Personele versus zakelijke belastingen" },
         "bouwsteen_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: subjectieve vs objectieve aanknopingspunten",
+            "tekst": "Een personele (subjectieve) belasting houdt rekening met de persoonlijke situatie van de belastingplichtige: gezinslast, gehandicapte personen, leeftijd, inkomensniveau. Typevoorbeeld: PB — met belastingvrije som, verhoogde som per kind, gezinsquotient. Een zakelijke (objectieve) belasting kijkt enkel naar het belastbare feit of object zonder de persoonlijke toestand van de eigenaar: onroerende voorheffing (op kadastraal inkomen), btw (op transactie), accijns (op product). Het verschil is fundamenteel voor de berekening: bij personele belasting beïnvloeden gezinsfactoren het verschuldigde bedrag, bij zakelijke niet.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 131-134", "context": "Belastingvrije som + verhogingen" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
               ]
             }
           }
+        }
+      },
+      {
+        "id": "federaal-gewest-lokaal",
+        "naam": { "primair": "Federaal / gewestelijk / lokaal" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds de staatshervormingen heffen drie bestuursniveaus in België belastingen. Federaal: PB (basis), VenB, btw, accijnzen, douanerechten, vennootschapsrechtelijke heffingen. Gewest (Vlaanderen, Wallonië, Brussel): onroerende voorheffing, schenkings- en successierechten, registratierechten op onroerende verkopen, verkeersbelasting, belasting op de inverkeerstelling. Lokaal (gemeente, provincie): aanvullende personenbelasting (gemeente-opcentiemen op de PB, gemiddeld 7-8%), opcentiemen onroerende voorheffing (provincie + gemeente), gemeentebelastingen (tweede verblijven, leegstand, ...). Voor de stagiair: bij elk fiscaal probleem eerst de bevoegde overheid identificeren — dat bepaalt wet, administratie en procedure.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "16 januari 1989", "context": "Gewestelijke fiscale bevoegdheden" },
+                { "type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "13 december 2013" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schedulair-vs-globaal",
+        "naam": { "primair": "Schedulair versus globaal" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een schedulaire belasting belast elk inkomenstype apart met eigen regels (kostenaftrek, vrijstellingen, tarief). Een globale belasting telt alle inkomsten samen en past één progressief tarief toe op het totaal. De Belgische PB is gemengd: vier categorieën worden eerst schedulair berekend (onroerend, roerend, beroeps, divers) maar daarna geglobaliseerd voor de progressieve schijven — met uitzondering van inkomsten die afzonderlijk belast blijven (sommige roerende inkomsten aan 30 %, meerwaarden, afkoopsommen).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 6", "context": "Globalisatie inkomsten" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 171", "context": "Afzonderlijke aanslag" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "concrete-belastingen-overzicht",
+        "naam": { "primair": "Concrete Belgische belastingen — overzicht" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Hoofdcategorieën: (1) Inkomstenbelastingen (federaal): PB (rijksinwoners), VenB (vennootschappen), RPB (rechtspersonen niet-onderworpen aan VenB), BNI (niet-inwoners). (2) Btw (federaal, indirecte verbruiksbelasting). (3) Successierechten + schenkingsrechten (gewest sinds 2002). (4) Registratierechten (gewest voor onroerende verkopen; federaal voor andere). (5) Onroerende voorheffing (gewest, met opcentiemen provincie/gemeente). (6) Verkeersbelasting + BIV (gewest). (7) Accijnzen (federaal: tabak, alcohol, energie). (8) Lokale belastingen: aanvullende PB-opcentiemen + diverse gemeentebelastingen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 1" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 1" },
+                { "type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7-2.10" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Belasting", "Direct/Indirect", "Personeel/Zakelijk", "Niveau"],
+            "rijen": [
+              ["PB", "Direct", "Personeel", "Federaal (+ gemeente-opcentiemen)"],
+              ["VenB", "Direct", "Zakelijk (wel met DBI/aftrekken)", "Federaal"],
+              ["BNI", "Direct", "Beperkt personeel", "Federaal"],
+              ["Btw", "Indirect", "Zakelijk", "Federaal (geharmoniseerd EU)"],
+              ["Accijnzen", "Indirect", "Zakelijk", "Federaal (geharmoniseerd EU)"],
+              ["Onroerende voorheffing", "Direct", "Zakelijk", "Gewest + opcentiemen"],
+              ["Successierechten", "Indirect (registratie-achtig)", "Personeel (verwantschap)", "Gewest"],
+              ["Schenkingsrechten", "Indirect", "Personeel", "Gewest"],
+              ["Registratierechten onroerend", "Indirect", "Zakelijk (deels personeel: enige woning)", "Gewest"],
+              ["Verkeersbelasting/BIV", "Direct/indirect mix", "Zakelijk", "Gewest"],
+              ["Gemeentebelastingen divers", "Direct/indirect", "Variabel", "Lokaal"]
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "PB zien als pure federale belasting",
+        "verkeerde_assumptie": "De personenbelasting is volledig federaal.",
+        "kernpunt": "Sinds de 6e staatshervorming (2014) is een gewestelijke component (gewestelijke opcentiemen + gewestelijke kortingen) ingebouwd in de PB. Daarbovenop komen gemeente-opcentiemen. De PB is dus drielagig: federale basis + gewestelijke component + gemeentelijke opcentiemen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "16 januari 1989 (zoals gewijzigd 2014)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Successierechten = belasting op de overledene",
+        "verkeerde_assumptie": "Studenten denken dat de overledene successierechten betaalt.",
+        "kernpunt": "Successierechten worden geheven bij de erfgenamen op wat zij verkrijgen — niet bij de overledene of de nalatenschap als zodanig. Het tarief hangt af van de verwantschapsgraad. Het is een personele belasting in de zin dat de relatie erflater-erfgenaam het tarief bepaalt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.1.0.1", "context": "Belastingplichtige erfbelasting = erfgenamen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
         }
       }
     ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscaal-recht"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "belasting-definitie-en-functies"
-    }
+    { "type": "valt_onder", "target": "fiscaal-recht" },
+    { "type": "vergelijkbaar_met", "target": "belasting-definitie-en-functies", "gelijkenissen": ["Beide structureren het belastinglandschap"], "verschillen": ["Definitie-en-functies = wat is een belasting in essentie. Indeling-belastingen = hoe groeperen we de bestaande Belgische belastingen."] }
   ]
 }

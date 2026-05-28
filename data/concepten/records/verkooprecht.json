@@ -1,81 +1,301 @@
 {
   "id": "verkooprecht",
   "naam": {
-    "primair": "Verkooprecht"
+    "primair": "Verkooprecht",
+    "synoniemen": ["registratierecht bij verkoop", "evenredig registratierecht onroerend"],
+    "vertaling": { "fr": "droit de vente" }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.6.I.C",
-      "2.6.I.D"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.6.I.C", "2.6.I.D"],
     "scope": {
       "in": [
         "Evenredig recht bij verkoop onroerend goed",
-        "Gewestelijke tarieven: Vlaanderen ~3% (gezinswoning) / 12% (rest); Wallonië 12.5%; Brussel 12.5% (regels variëren)",
+        "Gewestelijke tarieven: Vlaanderen 12 % algemeen / 3 % gezinswoning (eenmalig); Brussel 12,5 % (klein beschrijf 6 % onder voorwaarden); Wallonië 12,5 %",
         "Berekeningsbasis (verkoopprijs · marktwaarde · minimum)",
-        "Verminderingen + gunstregimes (klein beschrijf · meeneembaarheid · ...)",
+        "Verminderingen + gunstregimes (klein beschrijf · meeneembaarheid)",
         "Termijn voor registratie + sancties"
       ],
       "out": [
-        {
-          "topic": "Verdeelrecht bij scheiding",
-          "richting": "mag-verwijzen",
-          "ref": "verdeelrecht"
-        },
-        {
-          "topic": "Hypotheekrecht (separate vestiging)",
-          "richting": "mag-verwijzen",
-          "ref": "hypotheekrecht"
-        },
-        {
-          "topic": "Inbreng-onroerend in venn. (vrijstelling)",
-          "richting": "moet-verwijzen",
-          "ref": "inbreng-onroerend-in-vennootschap"
-        }
+        { "topic": "Verdeelrecht bij scheiding", "richting": "mag-verwijzen", "ref": "verdeelrecht" },
+        { "topic": "Hypotheekrecht (separate vestiging)", "richting": "mag-verwijzen", "ref": "hypotheekrecht" },
+        { "topic": "Inbreng-onroerend in venn. (vrijstelling)", "richting": "moet-verwijzen", "ref": "inbreng-onroerend-in-vennootschap" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/verkooprecht.json",
+      "primary_bronnen": [
+        "VCF art. 2.9.1.0.5",
+        "VCF art. 2.9.3.0.1",
+        "VCF art. 2.9.4.2.15",
+        "VCF art. 2.9.7.0.1",
+        "VCF art. 2.9.7.0.4",
+        "W.Reg. Brussel art. 41bis",
+        "W.Reg. Brussel art. 206",
+        "W.Reg. Brussel art. 209",
+        "W.Reg. Brussel art. 231"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:15:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (VCF art. 2.9 + W.Reg. Brussel + W.Reg. federaal)." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "Het verkooprecht is het evenredig registratierecht dat geheven wordt bij elke overdracht onder bezwarende titel van eigendom of vruchtgebruik op een in België gelegen onroerend goed (klassiek: verkoop, maar ook ruil, dading, gerechtelijke toewijzing). Het is een gewestelijke belasting (sinds de bijzondere financieringswet 2014). Het algemene tarief is in Vlaanderen 12 % (sinds 2022; daarvoor 10 %); in Brussel en Wallonië 12,5 %. Een fors verlaagd gunsttarief van 3 % (Vl) / 6 % (Br, klein beschrijf onder voorwaarden) geldt voor de aankoop van de enige eigen gezinswoning.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.1.0.5", "context": "Belastbaar voorwerp verkooprecht" },
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.4.2.15", "context": "Tarief 12 % algemeen / 3 % gezinswoning" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het verkooprecht is fiscaal-economisch een transactiebelasting die elk eigendomsoverdrachts-moment bezwaart. Voor de koper is het een aanzienlijke bijkomende kost: bij een woning van 350.000 EUR in Vlaanderen aan algemeen tarief: 42.000 EUR registratierechten. De gewesten gebruiken het tarief actief als sturend instrument voor woonmarkt-beleid (verlaging gezinswoning, klein beschrijf, abattement voor jongeren, meeneembaarheid bij vervangkoop). De aankoop wordt geregistreerd binnen 4 maanden na verlijden van de notariële akte (W.Reg. art. 32-33); de notaris is hoofdelijk gehouden tot betaling en doet de aangifte.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.4.2.15" },
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.7.0.1", "context": "Voldoening van het verkooprecht" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vastgoed-praktijk" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio is dubbel: (1) klassiek budgettair — registratierechten op vastgoed zijn een belangrijke en stabiele bron van gewestelijke inkomsten; (2) sturend — verlaging voor gezinswoning erkent dat de eerste eigen woning een fundamentele woonkeuze is en wordt aangemoedigd (subsidiair beleid in plaats van rechtstreekse subsidie). De keuze tussen verkooprecht (klassiek vastgoed) en BTW (nieuwbouw, max 2 jaar oud) reflecteert de fiscale grens tussen 'tweedehands' en 'nieuw' vastgoed.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke leer regionale fiscaliteit" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "registratie-en-successierechten",
+      "naast_relevant": ["verdeelrecht", "btw-vastgoed", "hypotheekrecht"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "VCF Boek 2, Titel 9 (Vl) — Wetboek Registratie BHG/Wallonië",
+        "toelichting": "Vlaams tarief gezinswoning verlaagd van 6 % naar 3 % per 1 januari 2022; algemeen tarief verhoogd van 10 % naar 12 % per 1 januari 2022. Klein beschrijf Brussel: gewestelijke variant. Volledige actuele tarieven en abattementen in Cijferzakboekje."
+      },
+      "voor": [
+        {
+          "tekst": "Elke verkoop onder bezwarende titel van eigendom of vruchtgebruik op in België gelegen onroerend goed: typische woningaankoop tussen particulieren, aankoop bouwgrond, aankoop tweedehands appartement, gerechtelijke openbare verkoop, ruil onroerend tegen onroerend.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.1.0.5" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Verkoop van een NIEUW gebouw (max 2 jaar na eerste ingebruikname): valt onder BTW-regime (21 %), niet onder verkooprecht. Inbreng van onroerend goed in een vennootschap door een natuurlijke persoon zonder daadwerkelijke tegenwaarde in aandelen: vrijgesteld of bijzondere regels (W.Reg. art. 115bis). Schenking: schenkbelasting (apart regime). Verdeling tussen mede-eigenaars: verdeelrecht (1-2,5 %), niet 12 %.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Afgrenzing tegenover BTW + andere regimes" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Gunsttarief gezinswoning (Vl 3 %): zeer aanzienlijke besparing voor eerste-koper (van 12 % naar 3 % = factor 4). Klein beschrijf Brussel: 6 % onder voorwaarden (woningwaarde-drempel). Vlaamse abattement: eerste schijf tot 25.000 EUR vrijgesteld bij voorwaarde 'enige + eigen woning'.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.4.2.15" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Verlies van gunsttarief gezinswoning als koper het goed niet effectief bewoont binnen 3 jaar of binnen 5 jaar verkoopt (verbintenisclausule). Aanvullende rechten (12 % − 3 % = 9 % aanvullend) zijn dan verschuldigd, plus boetes (W.Reg. art. 206). Tijdige registratie (4 maanden) is verplicht — boete bij overschrijding.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.Reg. Brussel", "ref": "art. 206", "context": "Boetes verkeerde aangifte" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Verbintenisclausules gunsttarief" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "tarief-algemeen-vlaanderen",
+        "naam": { "primair": "Algemeen tarief 12 % (Vlaanderen, sinds 2022)" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het algemene Vlaamse verkooprechttarief bedraagt 12 % sinds 1 januari 2022 (daarvoor 10 %) — VCF art. 2.9.4.2.15. Wordt toegepast op verkoop van een 'tweede' woning, beleggingsvastgoed, bedrijfsvastgoed, bouwgrond niet bestemd voor enige eigen woning.",
+            "grondslag": { "confidence": "geciteerd", "bronnen": [{ "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.4.2.15" }] }
+          }
+        }
+      },
+      {
+        "id": "gunsttarief-gezinswoning",
+        "naam": { "primair": "Gunsttarief 3 % gezinswoning (Vlaanderen)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Vlaams gunsttarief 3 % voor de aankoop van de 'enige eigen woning' (sinds 2022, daarvoor 6 %). Cumulatieve voorwaarden: (1) koper is een natuurlijke persoon; (2) het is zijn enige eigendom (gelijktijdig met vorige verkocht of geen ander); (3) hij vestigt er domicilie binnen 3 jaar; (4) het is hoofdverblijfplaats. Bij niet-naleving: aanvullend recht verschuldigd. Bovendien Vlaamse abattement op eerste schijf bij koop voor renovatie (energetische voorwaarden). Brussel-variant: 'klein beschrijf' tot bepaalde KI-drempel.",
+            "grondslag": { "confidence": "geciteerd", "bronnen": [{ "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.4.2.15" }] }
+          }
+        }
+      },
+      {
+        "id": "belastbare-grondslag",
+        "naam": { "primair": "Belastbare grondslag = verkoopprijs of marktwaarde (hoogste)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het verkooprecht slaat op de overeengekomen prijs OF, indien hoger, op de werkelijke marktwaarde van het goed (VCF art. 2.9.3.0.1). Doel: vermijden dat partijen de prijs kunstmatig laag opgeven om de fiscale basis te verlagen. De fiscus heeft expertiserecht — bij twijfel wordt de venale waarde geschat (zwarte handel: bijbetaling onder tafel + sancties).",
+            "grondslag": { "confidence": "geciteerd", "bronnen": [{ "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.3.0.1" }] }
+          }
+        }
+      },
+      {
+        "id": "registratie-termijn",
+        "naam": { "primair": "Registratietermijn en sancties" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De akte moet ter registratie aangeboden worden binnen 4 maanden (W.Reg. art. 32-33 voor BHG/W; analoge regel Vl). De notaris is hoofdelijk aansprakelijk voor de betaling en doet de aangifte. Bij laattijdige aangifte: boete + nalatigheidsintresten (W.Reg. Brussel art. 41bis, 206, 209, 231).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.Reg. Brussel", "ref": "art. 41bis" },
+                { "type": "wettekst", "naam": "W.Reg. Brussel", "ref": "art. 206" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "meeneembaarheid",
+        "naam": { "primair": "Meeneembaarheid (Vlaanderen)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Vlaamse koper die zijn vorige enige eigen woning verkoopt en een nieuwe koopt kan onder voorwaarden reeds betaalde registratierechten op de vorige aankoop (tot max ca. 13.000 EUR) in mindering brengen op de rechten van de nieuwe aankoop ('meeneembaarheid' — VCF). Vermijdt dubbele heffing voor verhuizers in dezelfde 'koop-eigendom-keten'. Brussel/Wallonië hebben hun eigen analoge regelingen (abattement, korting).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.7.0.4", "context": "Vermindering / verrekening" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardregeling Vlaams woonbeleid" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-gezinswoning-vl",
+        "titel": "Aankoop gezinswoning Vlaanderen aan gunsttarief 3 %",
+        "context": "Koper Aurelius (35 j) koopt een gezinswoning in Gent voor 350.000 EUR. Het is zijn enige eigendom; hij vestigt er zijn domicilie binnen 6 maanden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.4.2.15" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — voorwaarden gunsttarief getoetst: natuurlijke persoon ✓, enige eigendom ✓, domicilie ✓, hoofdverblijfplaats ✓ → 3 %.",
+              "Stap 2 — belastbare grondslag = verkoopprijs 350.000 EUR (geen herwaardering nodig — markt-conforme prijs).",
+              "Stap 3 — Vlaamse abattement (eerste schijf 25.000 EUR vrij): basis = 325.000 EUR.",
+              "Stap 4 — verkooprecht = 325.000 × 3 % = 9.750 EUR (tegenover 12 % × 350.000 = 42.000 EUR aan algemeen tarief: besparing ≈ 32.250 EUR)."
+            ],
+            "resultaat": "Aanzienlijke besparing van factor 4. Bijkomende kosten (notariskosten, hypotheekrecht) komen daarbovenop. Exact abattement-bedrag in Cijferzakboekje."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Verkooprecht toepassen op nieuwbouw",
+        "verkeerde_assumptie": "Elk vastgoed wordt belast met 12 %/3 % verkooprecht.",
+        "kernpunt": "Een NIEUW gebouw (binnen 2 jaar na ingebruikname) valt onder BTW (21 %) — niet onder verkooprecht. De koper kan onder voorwaarden ook nog opteren voor BTW bij grondaankoop bij nieuwbouw. Verkooprecht en BTW sluiten elkaar uit op hetzelfde goed.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BTW-vastgoed-regime" }
+          ]
+        }
+      },
+      {
+        "titel": "Veronderstellen dat het Vlaamse tarief nog 10 %/6 % is",
+        "verkeerde_assumptie": "Algemeen tarief = 10 %, gezinswoning = 6 % (op basis van oudere cursussen).",
+        "kernpunt": "Sinds 1 januari 2022: algemeen 12 %, gezinswoning 3 %. Altijd het actuele Cijferzakboekje of VCF raadplegen — gewestelijke tarieven wijzigen regelmatig.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{ "type": "wettekst", "naam": "VCF", "ref": "art. 2.9.4.2.15" }]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "registratie-en-successierechten"
+      "id": "vastgoed-koper",
+      "naam": { "primair": "Cliënt-koper van onroerend goed" },
+      "intro": "De accountant die de fiscale kost van een aankoop becijfert.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "kost-vooraf",
+              "naam": { "primair": "Becijferen totale aankoopkost vooraf" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bereken alle kosten naast de aankoopprijs: verkooprecht (12 % / 3 %), notariskosten (ca. 1-1,5 %), hypotheekrecht (1 % bij hypothecair krediet), administratiekosten. Voor een gezinswoning Vl 350.000 EUR: koopprijs + ca. 11-14 % bijkomende kosten = totaal 388-400.000 EUR. Cliënt moet dit budgetteren bij financieringsaanvraag.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vastgoed-adviespraktijk" }]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "registratie-en-successierechten" },
+    { "type": "vergelijkbaar_met", "target": "verdeelrecht",
+      "gelijkenissen": ["Beide zijn evenredige registratierechten op onroerend goed transfert"],
+      "verschillen": ["Verkooprecht: aan derde, 12 % (Vl algemeen)", "Verdeelrecht: tussen mede-eigenaars, 2,5 % (Vl)"],
+      "verwarring_risico": "Bij ingewikkelde familiale verrichtingen (uitkoop tijdens scheiding) kan twijfel ontstaan welk regime geldt."
+    },
+    { "type": "vergelijkbaar_met", "target": "btw-vastgoed",
+      "gelijkenissen": ["Beide zijn fiscaal regime bij vastgoedoverdracht"],
+      "verschillen": ["Verkooprecht: tweedehands vastgoed, gewestelijk, 12 %/3 %", "BTW-vastgoed: nieuw gebouw (< 2 jaar), federaal, 21 %"],
+      "verwarring_risico": "Bij koop nieuwbouw moet correct regime gekozen worden — sluiten elkaar uit."
     }
   ]
 }
