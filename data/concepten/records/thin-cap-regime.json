@@ -1,88 +1,334 @@
 {
   "id": "thin-cap-regime",
   "naam": {
-    "primair": "Thin-cap regime",
-    "synoniemen": [
-      "interest limitation rule",
-      "thin capitalization"
-    ]
+    "primair": "Thin-cap-regime (interestaftrekbeperking)",
+    "synoniemen": ["ATAD-interestbeperking", "art. 198/1 WIB92", "EBITDA-rule"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.8.XVI"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.8.XVI"],
     "scope": {
       "in": [
-        "ATAD-implementatie via art 198/1 WIB",
-        "Beperking interestaftrekbaarheid: 30% EBITDA / 3M€ drempel (hoogste van beide)",
+        "ATAD-implementatie via art. 198/1 WIB92",
+        "Beperking interestaftrekbaarheid: 30 % EBITDA / 3 mio EUR drempel (hoogste van beide)",
         "Doel: tegengaan financiering via interne schulden (debt push-down)",
         "Overdracht van niet-aftrekbare overschotten naar volgende jaren",
         "Uitzonderingen + groep-bepalingen"
       ],
       "out": [
-        {
-          "topic": "ATAD-richtlijn (grondslag)",
-          "richting": "moet-verwijzen",
-          "ref": "atad-richtlijn"
-        },
-        {
-          "topic": "Σ-keuzekader anti-misbruik",
-          "richting": "moet-verwijzen",
-          "ref": "anti-misbruik"
-        },
-        {
-          "topic": "Schuldfinanciering (cross-cluster)",
-          "richting": "mag-verwijzen",
-          "ref": "schuldfinanciering"
-        }
+        {"topic": "ATAD-richtlijn (grondslag)", "richting": "moet-verwijzen", "ref": "atad-richtlijn"},
+        {"topic": "Σ-keuzekader anti-misbruik", "richting": "moet-verwijzen", "ref": "anti-misbruik"},
+        {"topic": "Schuldfinanciering (cross-cluster)", "richting": "mag-verwijzen", "ref": "schuldfinanciering"}
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fiscale-voordelen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/thin-cap-regime.json",
+      "primary_bronnen": ["WIB92 art. 198/1", "WIB92 art. 194sexies", "CBN-advies 2020/06"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:40:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "fiscale-voordelen-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle — art. 198/1 WIB92, ATAD-implementatie, EBITDA-30%-regel + 3 mio safe harbour."}
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "tekst": "Het thin-cap-regime of EBITDA-regel (art. 198/1 WIB92) beperkt de aftrekbaarheid van het financieringskostensurplus van vennootschappen — d.i. interestlasten min interestopbrengsten — tot het hoogste van twee drempels: (a) 30 % van de fiscale EBITDA, of (b) 3.000.000 EUR (safe-harbour-drempel). Het regime implementeert artikel 4 van de EU-anti-belastingontwijkingsrichtlijn (ATAD, richtlijn 2016/1164/EU) en geldt sinds aanslagjaar 2020 voor boekjaren die op of na 1-1-2019 starten. Doel: tegengaan van excessieve schuldfinanciering en winstverschuiving binnen multinationale groepen via interne leningen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1"},
+            {"type": "richtlijn", "naam": "ATAD (richtlijn 2016/1164/EU)", "ref": "art. 4"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Concreet: een vennootschap berekent het financieringskostensurplus = aftrekbare interesten betaald MIN belastbare interesten ontvangen. Daarna berekent ze de fiscale EBITDA = belastbaar resultaat + interestlasten + afschrijvingen − interestopbrengsten − niet-belastbare bestanddelen. Indien financieringskostensurplus ≤ max(30 % × EBITDA ; 3 mio): alles aftrekbaar. Indien hoger: het overschot wordt VERWORPEN UITGAVE in het lopende jaar, maar onbeperkt overdraagbaar naar volgende jaren (waar het opnieuw aan de toets onderworpen wordt). Het regime heeft geen impact op KMO's (de 3 mio-drempel beschermt ze de facto) en op puur eigen-vermogen-gefinancierde vennootschappen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §1"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 194sexies"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2020/06 — Financieringskostensurplus art. 194sexies"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis: multinationals kunnen winst verschuiven naar laag-belaste jurisdicties door binnen een groep een schuldconstructie op te zetten — de Belgische vennootschap leent van een groepsmaatschappij in een belastingparadijs, betaalt aftrekbare intrest, en de groepsmaatschappij ontvangt deze intrest aan een laag tarief. EBITDA-regel doorbreekt dit door interestaftrek te plafonneren ongeacht aan wie de intrest betaald wordt. ATAD-richtlijn wil unilateraal misbruik tegengaan binnen de EU; België implementeerde minimum-standaard. De 3 mio safe-harbour beschermt KMO's en niet-systemische schulden — alleen substantiële financieringsstromen worden geraakt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "ATAD", "ref": "art. 4 + considerans 6-12"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BEPS Action 4-context"}
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "anti-misbruik"
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vennootschapsbelasting", "schuldfinanciering"],
+      "kader": "anti-misbruik"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-01-01",
+        "wettelijke_basis": "WIB92 art. 198/1 + KB/WIB92 art. 73/4/2 (uitvoeringsmaatregelen)",
+        "toelichting": "Geldt voor boekjaren die op of na 1-1-2019 aanvangen (AJ 2020 en volgende). Standstill-clausule voor leningen aangegaan vóór 17-6-2016 verviel op 31-12-2024 — sindsdien gelden ALLE leningen onder dit regime."
+      },
+      "voor": [
+        {
+          "tekst": "Vennootschappen met aanzienlijk financieringskostensurplus, typisch: multinationale groepen met interne leningen, kapitaalintensieve sectoren (vastgoed, infrastructuur, private equity), vennootschappen met externe schuldfinanciering > 3 mio interest/jaar. De facto geldt het regime hoofdzakelijk voor middelgrote tot grote vennootschappen — KMO's blijven onder de 3 mio drempel.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §1"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Het regime is NIET van toepassing op: (a) zelfstandige vennootschappen (geen onderdeel van groep én geen vaste inrichting buitenland — strikt gedefinieerd); (b) financiële ondernemingen (banken, verzekeraars, AICB's met afwijkende regels); (c) leningen voor lange-termijn-openbare-infrastructuur-projecten (specifieke EU-uitzondering).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §3"}]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij overschrijden drempel: het overschot wordt VERWORPEN UITGAVE in het lopende boekjaar — dus geen aftrek tegen 25 % VenB-tarief, effectieve kost = 25 % × niet-aftrekbaar bedrag. Niet-aftrekbaar saldo onbeperkt overdraagbaar, maar moet elk jaar opnieuw de toets ondergaan. Bij groep met interestaftrekovereenkomst (CBN-advies 2020/06): mogelijkheid om overschotten van een vennootschap met EBITDA-marge over te dragen naar een groepslid met overschot — boekhoudkundige verwerking vereist regularisatie van geraamde belastingen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §2"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2020/06"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drempel-30-ebitda",
+        "naam": {"primair": "30 %-EBITDA-drempel"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het financieringskostensurplus is aftrekbaar tot 30 % van de fiscale EBITDA. EBITDA = belastbaar resultaat (vóór art. 198/1) + financieringskostensurplus + afschrijvingen − niet-belastbare opbrengsten − bij verdrag vrijgestelde winst. Bij negatieve EBITDA: het deel boven 0 telt, anders 30 % × 0 = 0 (geen EBITDA-aftrekruimte — alleen safe-harbour 3 mio).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §1"}]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-safe-harbour",
+        "naam": {"primair": "Safe-harbour 3 mio EUR"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Naast 30 % EBITDA: vennootschap mag steeds tot 3.000.000 EUR financieringskostensurplus aftrekken, ongeacht EBITDA. De vennootschap kiest het HOOGSTE van beide drempels (max(30 % EBITDA ; 3 mio)). Dit beschermt KMO's en vennootschappen met tijdelijk lage EBITDA. Drempel per BELASTINGGROEP toegepast (niet per individuele vennootschap) wanneer Belgische groep — verdeling over groepsleden volgens art. 73/4/2 KB/WIB92.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §1 tweede lid"}]
+            }
+          }
+        }
+      },
+      {
+        "id": "financieringskostensurplus",
+        "naam": {"primair": "Financieringskostensurplus — definitie"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Financieringskostensurplus = bruto-interestlasten van het belastbaar tijdperk (aftrekbaar van de belastbare basis) MIN bruto-interestopbrengsten van het belastbaar tijdperk (belastbaar). Begrip 'interest' is ruim: nominale interest + economisch equivalent (discount/agio op leningen, bepaalde derivaten, gekapitaliseerde interest, ...). Niet inbegrepen: kosten van eigen aandelen (zoals dividenden — die zijn niet aftrekbaar én niet interest).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §1 tweede lid"}]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "FKS = aftrekbare interestlasten − belastbare interestopbrengsten; aftrekbaar = min(FKS, max(30 % × EBITDA, 3.000.000))"
+          }
+        ]
+      },
+      {
+        "id": "overdracht-overschot",
+        "naam": {"primair": "Overdracht niet-aftrekbaar overschot"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Niet-aftrekbaar surplus van het lopende boekjaar is onbeperkt overdraagbaar naar volgende belastbare tijdperken (art. 198/1 §2 WIB92). In volgend jaar telt het overschot mee in het financieringskostensurplus, samen met het nieuwe surplus van dat jaar — opnieuw onderworpen aan de toets. Belang: vennootschappen kunnen jaren van hoge interest 'uitsmeren' over jaren van hoge EBITDA. Geen vervaltermijn.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §2"}]
+            }
+          }
+        }
+      },
+      {
+        "id": "groep-interestaftrekovereenkomst",
+        "naam": {"primair": "Groeps-interestaftrekovereenkomst (art. 194sexies)"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Belgische vennootschappen die deel uitmaken van eenzelfde groep kunnen via formele overeenkomst niet-gebruikte aftrekruimte 'overdragen': vennootschap A met EBITDA-overschot draagt aftrekruimte over aan vennootschap B met financieringskostensurplus boven haar eigen drempel. Vergoeding tussen partijen mogelijk (CBN-advies 2020/06 geeft boekhoudkundig kader). Voorwaarden: schriftelijke overeenkomst, beide vennootschappen Belgisch, deel van zelfde groep, ondertekening vóór indiening aangifte VenB.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 194sexies"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2020/06"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-grote-vennootschap",
+        "titel": "Grote vennootschap met substantiële financiering",
+        "context": "Vastgoed Holding NV heeft in jaar N: interestlasten 8 mio EUR, interestopbrengsten 1 mio EUR (op cash-deposito's); belastbaar resultaat vóór art. 198/1: 15 mio EUR; afschrijvingen: 4 mio EUR; geen bij-verdrag-vrijgestelde winst.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — financieringskostensurplus = 8.000.000 − 1.000.000 = 7.000.000 EUR.",
+              "Stap 2 — EBITDA = 15.000.000 (belastbaar resultaat) + 7.000.000 (FKS) + 4.000.000 (afschrijvingen) − 0 = 26.000.000 EUR.",
+              "Stap 3 — drempels: 30 % × 26.000.000 = 7.800.000 EUR  ;  safe-harbour = 3.000.000 EUR. Max = 7.800.000 EUR.",
+              "Stap 4 — aftrekbaar surplus = min(7.000.000 ; 7.800.000) = 7.000.000 EUR → alles aftrekbaar.",
+              "Stap 5 — geen verworpen uitgave, geen overdracht. Vennootschap blijft binnen drempel."
+            ],
+            "resultaat": "Geen impact art. 198/1 dit jaar. Maar: bij toename interestlasten naar 12 mio in volgend jaar zou FKS = 11 mio en drempel 7,8 mio (constante EBITDA) overschreden worden → 3,2 mio verworpen uitgave."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Drempels optellen i.p.v. maximum nemen",
+        "verkeerde_assumptie": "Aftrekruimte = 30 % EBITDA + 3 mio safe-harbour.",
+        "kernpunt": "De wet schrijft het HOOGSTE van beide voor (max-functie, niet som). Concreet: een vennootschap met EBITDA 20 mio heeft aftrekruimte max(30 % × 20 mio = 6 mio ; 3 mio) = 6 mio. NIET 9 mio. Klassieke berekenfout bij studenten.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §1 tweede lid"}]
+        }
+      },
+      {
+        "titel": "Boekhoudkundige EBITDA i.p.v. fiscale EBITDA",
+        "verkeerde_assumptie": "EBITDA uit jaarrekening = EBITDA voor art. 198/1.",
+        "kernpunt": "Fiscale EBITDA vertrekt van het belastbaar resultaat (na alle verwerping uitgaven, na DBI-aftrek-buiten-volgorde aanpassingen, ...), niet van het boekhoudkundig resultaat. Specifiek: bij-verdrag-vrijgestelde winst wordt UITGESLOTEN — een vennootschap met grote buitenlandse vaste inrichting kan dus lager EBITDA hebben dan boekhoudkundig verwacht.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 §1 tweede lid"}]
+        }
+      },
+      {
+        "titel": "Standstill-uitzondering voor pre-2016-leningen blijven gebruiken",
+        "verkeerde_assumptie": "Leningen aangegaan vóór 17-6-2016 vallen buiten het regime.",
+        "kernpunt": "De standstill-clausule voor pre-17-6-2016-leningen verviel op 31-12-2024. Vanaf AJ 2025 (boekjaren in 2024) gelden ALLE leningen onder het regime, ongeacht aanvangsdatum. Belangrijk voor langlopende vastgoedfinanciering of inter-company-leningen die vóór 2016 werden aangegaan.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1 (overgangsregeling vervallen)"}]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "beinvloed_door",
-      "target": "atad-richtlijn"
+      "id": "vennootschap-met-interestlasten",
+      "naam": {"primair": "Vennootschap met substantiële interestlasten"},
+      "intro": "Accountant van een vennootschap die jaarlijks de art. 198/1-toets moet doen.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "jaarlijkse-toets",
+              "naam": {"primair": "Jaarlijkse 198/1-toets"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per boekjaar: (1) bereken financieringskostensurplus uit grootboek (interestkosten 65x − interestopbrengsten 75x, met aandacht voor economische equivalenten); (2) bereken fiscale EBITDA vertrekkend van belastbaar resultaat vóór art. 198/1, optellen FKS + afschrijvingen 6300/6301, aftrekken niet-belastbare opbrengsten en bij-verdrag-vrijgestelde winst; (3) bereken max(30 % EBITDA ; 3 mio); (4) bepaal niet-aftrekbaar surplus; (5) opname verworpen uitgave in aangifte + overdracht in tabel niet-aftrekbaar surplus.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk thin-cap-toets"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "groep-overeenkomst-overweging",
+              "naam": {"primair": "Overweging groeps-interestaftrekovereenkomst"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij Belgische vennootschap-groep: indien één vennootschap aftrekruimte over heeft en andere boven drempel zit, formele overeenkomst sluiten (art. 194sexies). Voordeel: ongebruikte ruimte in groep wordt benut. Vergoeding tussen partijen mogelijk (arms-length-prijs). Boekhoudkundige verwerking volgens CBN-advies 2020/06: vennootschap met overschot ontvangt vergoeding, vennootschap met tekort betaalt — geraamde belastingen worden geregulariseerd.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 194sexies"},
+                      {"type": "cbn", "naam": "CBN-advies", "ref": "2020/06"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "controle-fks-berekening",
+              "naam": {"primair": "Controle berekening FKS + EBITDA"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij audit: nagaan dat alle interestlasten en -opbrengsten correct geïdentificeerd zijn (inclusief economische equivalenten zoals embedded interest in leasing-overeenkomsten, factoring, ...). Reconciliatie tussen boekhoudkundige interestposten en fiscale FKS. Cross-check met aangifte: drempels correct toegepast, overgedragen overschot uit vorig jaar correct meegenomen, groeps-overeenkomst documentatie consistent.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 198/1"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Audit-procedures fiscale due diligence"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "anti-misbruik"},
+    {"type": "beinvloed_door", "target": "atad-richtlijn", "toelichting": "Implementatie van art. 4 ATAD-richtlijn 2016/1164/EU."},
+    {"type": "triggert", "target": "aangifte-vennootschapsbelasting", "toelichting": "Verworpen uitgave + tabel overdracht overschot in aangifte VenB."}
   ]
 }
