@@ -27,7 +27,6 @@ Kennisbank voor het ITAA-bekwaamheidsexamen Gecertificeerd Accountant.
 ## Catalogi
 
 - [[concepten/index|Alle concepten]]
-- [[competenties/index|Alle competenties]]
 
 ## Bronnen
 
