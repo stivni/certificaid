@@ -4,15 +4,18 @@
     "primair": "Algemene vergadering",
     "afkorting": "AV",
     "synoniemen": [
-      "algemene vergadering van aandeelhouders",
-      "AVA",
-      "shareholders meeting"
-    ]
+      "general meeting",
+      "jaarvergadering",
+      "vergadering van aandeelhouders"
+    ],
+    "vertaling": {
+      "fr": "assemblée générale"
+    }
   },
   "concept_type": "actor",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit"
     ],
@@ -23,8 +26,28 @@
       "3.0.III.C"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/algemene-vergadering.json",
+      "primary_bronnen": [
+        "WVV art. 5:75",
+        "WVV art. 5:81",
+        "WVV art. 5:83",
+        "WVV art. 5:84",
+        "WVV art. 5:96",
+        "WVV art. 5:100",
+        "WVV art. 7:128",
+        "WVV art. 7:130",
+        "WVV art. 7:131",
+        "WVV art. 7:134",
+        "WVV art. 7:153",
+        "WVV art. 2:31",
+        "WVV art. 2:32"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,7 +55,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~862)"
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (MvT WVV art. 5:75, 7:134, 5:96, 9:12). Geen extra MCP-calls."
       }
     ],
     "scope": {
@@ -82,32 +112,523 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De algemene vergadering (AV) is het wettelijke orgaan van een vennootschap dat is samengesteld uit alle aandeelhouders (in BV/NV/CV) of werkende vennoten (in maatschap/VOF/CommV). Het is het 'eigenaars-orgaan' met wettelijk exclusieve bevoegdheden voor fundamentele beslissingen: statutenwijziging (incl. kapitaalbeweging), goedkeuring jaarrekening, winstbestemming, benoeming en ontslag van bestuurders en commissaris, kwijting, en ontbinding. De AV vergadert minstens éénmaal per jaar in haar 'jaarvergadering' (gewone AV) op de in de statuten vermelde datum en plaats (art. 5:81 BV / 7:128 NV WVV). Daarnaast kan ze als 'bijzondere' of 'buitengewone' AV bijeengeroepen worden voor specifieke punten (statutenwijziging vereist altijd buitengewone AV met notaris).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:75" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:81" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:128" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:134" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De AV is de manifestatie van het eigendomsrecht over de vennootschap. Aandeelhouders 'beslissen' niet over operationeel beheer (= bestuur), maar over hoogwaardige eigendoms-beslissingen: wie bestuurt (benoeming/ontslag), hoe winsten verdeeld worden, wat de juridische ruggengraat van de vennootschap is (statuten). De stemkracht hangt af van het aantal aandelen en hun stemrechten (gewone aandelen = 1 stem; meervoudig stemrecht WVV-mogelijk in BV/CV en niet-genoteerde NV; aandelen zonder stemrecht ook mogelijk art. 5:43 / 7:62). Aanwezigheidsquorum en meerderheidsregels variëren: gewone besluiten = 50%+1; statutenwijziging = 75% (of 80% voor doelwijziging); ontbinding = 80%; uitsluiting aandeelhouder = unanimiteit (art. 5:155). Schriftelijke besluitvorming is mogelijk indien unaniem (art. 5:85 BV / 7:133 NV).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:85" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese eigenaars-orgaan vs bestuur" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever wil twee belangen verzoenen: (1) machtsverdeling — risicodragend kapitaal (aandeelhouders) krijgt finale controle over fundamentele beslissingen, terwijl bestuur de operationele speelruimte krijgt voor het dagelijks management; (2) bescherming minderheidsaandeelhouder — versterkte meerderheid voor statutenwijziging, minderheidsvordering art. 2:60 (1% of 1,25 mio EUR), recht op informatie/vragen vóór en tijdens AV (art. 5:88 BV / 7:139 NV), schriftelijke vragen aan commissaris en bestuur. Deze 'governance-balans' is essentieel voor het beperkt-aansprakelijkheids-stelsel: aandeelhouders die niet besturen moeten toch effectief kunnen ingrijpen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:88" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:139" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio governance-balans" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "ondernemingsvormen",
+        "aandeel"
+      ],
+      "kader": "ondernemingsvormen",
+      "naast_relevant": [
+        "bestuur-vennootschap",
+        "aandeelhoudersovereenkomsten"
+      ],
+      "volgkennis": [
+        "winstbestemming",
+        "kapitaalverhoging"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV (Wet 23 maart 2019). BV: art. 5:75-5:115; NV: art. 7:128-7:165."
+      },
+      "voor": [
+        {
+          "tekst": "Elke vennootschap met rechtspersoonlijkheid (BV, NV, CV) en elke vereniging (VZW, stichting met algemene vergadering optioneel) moet een AV inrichten. In maatschap, VOF, CommV: vergadering van vennoten — bijzondere regels onder boek 4 WVV. Eenmans-BV/NV: er is wel een 'algemene vergadering' bestaande uit de enige aandeelhouder; besluiten worden in een register opgenomen (geen mondelinge vergadering nodig).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:75" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:128" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Geldigheidsvoorwaarden voor besluit AV: (1) regelmatige bijeenroeping met agenda — termijn min. 15 dagen vóór de vergadering voor genoteerde NV (art. 7:128); voor niet-genoteerde NV en BV: minstens 15 dagen vóór (art. 5:83/7:128); (2) respect van aanwezigheidsquorum (waar vereist — typisch 50% bij statutenwijziging in NV: art. 7:153); (3) besluit met voorgeschreven meerderheid; (4) geen ongeldige uitsluiting van aandeelhouders (zonder gegronde reden geen toegang ontzeggen); (5) correcte volmachten indien stemming bij volmacht; (6) opmaak notulen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:83" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:128" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Onregelmatige besluiten kunnen nietig of opschort worden verklaard op vordering (art. 2:42-2:46 WVV): door aandeelhouder, bestuurder, commissaris, derde met legitiem belang. Veelvoorkomende fouten: (a) statutenwijziging buiten buitengewone AV met notaris; (b) ontbreken voldoende meerderheid (75% / 80% niet bereikt); (c) ongeldige uitsluiting van een aandeelhouder; (d) gebrek aan correcte oproepingstermijn; (e) geen schriftelijk antwoord op vooraf gestelde vragen door commissaris of aandeelhouder.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:42" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:46" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "jaarvergadering",
+        "naam": {
+          "primair": "Jaarvergadering (gewone AV)"
+        },
+        "concept_type": "actor",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Verplichte jaarlijkse vergadering op de in de statuten vermelde datum (art. 5:81 BV / 7:128 NV WVV). Vaste agenda: bespreking en goedkeuring jaarrekening; bestemming resultaat; kwijting bestuurders en commissaris; benoemingen/ontslagen. Geen specifieke meerderheid vereist (gewone meerderheid 50%+1, geen aanwezigheidsquorum). Het besluit tot goedkeuring jaarrekening triggert de neerleggingsverplichting binnen 30 dagen bij de NBB (art. 3:10 WVV).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:81" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:128" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:10" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "bijzondere-buitengewone-av",
+        "naam": {
+          "primair": "Bijzondere en buitengewone AV"
+        },
+        "concept_type": "actor",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Bijzondere AV**: vergadering buiten de jaarvergadering, voor een specifiek punt dat GEEN statutenwijziging vereist (bv. ontslag bestuurder, kapitaalverhoging binnen toegestaan kapitaal indien bestuur bevoegd). Onderhands, geen notaris vereist.\n\n**Buitengewone AV**: vergadering voor besluiten die een STATUTENWIJZIGING vereisen. Verplichte tussenkomst notaris (akteverplichting, art. 2:7 §1 WVV). Verzwaarde meerderheid: 75% van uitgebrachte stemmen (art. 5:100 / 7:153) voor gewone statutenwijziging; 80% voor doelwijziging; 100% (unanimiteit) voor enkele bijzondere wijzigingen (bv. uitsluiting aandeelhouder, sommige aansprakelijkheidsbeperkingen).\n\n**Aanwezigheidsquorum NV** (art. 7:153 §1): minstens helft van het kapitaal moet aanwezig of vertegenwoordigd zijn. Bij ontoereikend quorum: tweede oproeping ongeacht aanwezig kapitaal.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:7" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:100" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "bevoegdheden-av",
+        "naam": {
+          "primair": "Exclusieve bevoegdheden van de AV"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De wet behoudt aan de AV exclusief voor:\n\n1. **Goedkeuring jaarrekening + bestemming resultaat** (art. 3:1 BV / 7:128 NV).\n2. **Kwijting** bestuurders en commissaris (art. 5:98 / 7:149).\n3. **Benoeming en ontslag** bestuurders (art. 5:50 / 7:73) en commissaris (art. 3:58).\n4. **Bezoldiging** bestuurders en commissaris (art. 5:50 §3 / 7:73 §6).\n5. **Statutenwijziging** (art. 5:100 / 7:153) — incl. zetelwijziging, doelwijziging, naamwijziging.\n6. **Kapitaalbeweging** in NV (verhoging, vermindering); in BV: 'inbreng-buiten-kapitaal-beweging' (art. 5:120 e.v.).\n7. **Winstuitkering** (binnen rechtenkader, BV ook 'liquiditeitstest' nodig art. 5:143).\n8. **Ontbinding en vereffening** (art. 2:71 / 5:118).\n9. **Fusie, splitsing, omzetting** (boek 12 + 14 WVV).\n10. **Uitsluiting van een aandeelhouder** in BV (art. 5:155 — unanimiteit overige aandeelhouders).\n\nBesluiten BUITEN deze materies komen toe aan het bestuur (residuaire bestuursbevoegdheid).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:50" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:98" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:100" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:128" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:149" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "meerderheidsregels",
+        "naam": {
+          "primair": "Meerderheidsregels en aanwezigheidsquorums"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Overzicht meerderheden en quorums (vergelijkingstabel in weergave).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:100" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Type besluit", "BV meerderheid", "NV aanwezigheidsquorum (1e oproeping)", "NV meerderheid", "Vorm"],
+            "rijen": [
+              ["Gewone besluiten (jaarvergadering)", "50%+1 uitgebrachte stemmen", "Geen quorum", "50%+1 uitgebrachte stemmen", "Onderhands"],
+              ["Statutenwijziging (gewoon)", "75% uitgebrachte stemmen", "50% kapitaal aanwezig/vertegenwoordigd", "75% uitgebrachte stemmen", "Notariële akte"],
+              ["Doelwijziging", "80% uitgebrachte stemmen", "50% kapitaal", "80% uitgebrachte stemmen", "Notariële akte + bijzonder verslag bestuur + commissaris"],
+              ["Ontbinding", "80% uitgebrachte stemmen", "50% kapitaal", "80% uitgebrachte stemmen", "Notariële akte"],
+              ["Uitsluiting aandeelhouder (BV)", "Unanimiteit overige (art. 5:155)", "—", "n.v.t. (alleen in BV)", "Notariële akte"],
+              ["Schriftelijk besluit (zonder vergadering)", "Unanimiteit", "—", "Unanimiteit", "Onderhands (notarieel bij statutenwijziging)"]
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Bij ontoereikend aanwezigheidsquorum 1e oproeping: tweede AV uitgeschreven met dezelfde agenda, **ongeacht aanwezig kapitaal** (art. 7:153 §2). De meerderheidsregel zelf (75/80%) blijft wel onverkort gelden.\n\nGewone meerderheid = meerderheid van de uitgebrachte stemmen (onthoudingen en blanco's tellen NIET mee). Verzwaarde meerderheid 75/80% = van de uitgebrachte stemmen, tenzij de statuten strenger zijn."
+          }
+        ]
+      },
+      {
+        "id": "bijeenroeping-agenda",
+        "naam": {
+          "primair": "Bijeenroeping en agenda"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**Wie roept bijeen?** Het bestuursorgaan (art. 5:83 BV / 7:127 NV). Op verzoek van aandeelhouders met 10% van het kapitaal (NV) of 10% van de stemrechten (BV): plicht tot bijeenroeping binnen 3 weken (art. 5:83 §1 / 7:127 §3). Commissaris kan eveneens bijeenroepen indien nodig (art. 3:69).\n\n**Termijn**: minstens 15 dagen vóór de vergadering (genoteerde NV: 30 dagen, art. 7:128 §1). Oproeping per aangetekende brief of via gepubliceerde berichten (BS + erkende dagbladen voor genoteerde NV).\n\n**Agenda**: moet uitdrukkelijk in oproeping vermeld zijn. AV mag NIET beraadslagen over punten niet op agenda — tenzij alle aandeelhouders aanwezig zijn en eensgezind toevoeging accepteren (art. 5:84 §3 / 7:131 §3). Aandeelhouders met 10%-drempel kunnen vooraf punten toevoegen aan de agenda van bestaande oproeping.\n\n**Vragenrecht** (art. 5:88 / 7:139): aandeelhouder kan schriftelijk vragen stellen vóór de AV — bestuur EN commissaris moeten ter zitting antwoorden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:83" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:84" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:88" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:128" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:139" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "volmachten",
+        "naam": {
+          "primair": "Stemmen bij volmacht (anker 3.0.III.C)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke aandeelhouder mag zich op de AV laten vertegenwoordigen door een gevolmachtigde, al dan niet aandeelhouder zelf (art. 5:96 BV / 7:142 NV). Voorwaarden:\n\n- **Vorm**: schriftelijke volmacht, gedateerd, ondertekend, met vermelding van de gemandateerde + agenda waarvoor de volmacht geldt.\n- **Indiening**: vóór de in de oproeping bepaalde uiterste datum (typisch enkele dagen vóór AV — art. 5:96 §2 / 7:142 §2).\n- **Stemming-instructies**: kunnen in volmacht worden meegegeven; bij ontbreken instructies volgt gevolmachtigde de aanbeveling van het bestuur, tenzij anders bepaald.\n- **Limiet**: één persoon kan onbeperkt aandeelhouders vertegenwoordigen (geen plafond), behoudens statutaire limiet.\n- **Genoteerde NV**: elektronische volmachten via portaal van de vennootschap (KB-regeling).\n- **Belangenconflict gevolmachtigde**: indien gevolmachtigde een belangenconflict heeft met de volmachtgever, mag hij enkel stemmen volgens uitdrukkelijke instructies (art. 5:96 §3).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:96" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:142" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bijstand-accountant",
+        "naam": {
+          "primair": "Bijstand door advocaat of accountant op AV (anker 3.0.III.B)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke aandeelhouder heeft het recht zich op de AV te laten bijstaan door een advocaat of accountant. Dit is een algemeen erkend recht (rechtspraak Cassatie, codificatie via art. 2:32 WVV — toegang voor 'derden met legitieme reden'). De vennootschap kan dit niet weigeren tenzij grove redenen (bv. geheimhouding van technische informatie tegen concurrent, dan kan men weigeren of bewijzen vragen). De bijstander mag adviseren, vragen formuleren, het stemgedrag van de aandeelhouder ondersteunen — maar mag niet zelf stemmen (tenzij volmacht). Voor de gecertificeerd accountant is dit een typische opdracht: cliënt-aandeelhouder begeleiden op jaarvergadering van een vennootschap waarvan hij minderheidsaandeelhouder is.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:32" },
+                { "type": "rechtspraak", "naam": "Cassatie (algemene erkenning bijstandsrecht)", "ref": "constante leer", "datum": "2020-01-01" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard-uitleg recht op bijstand" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schriftelijke-besluiten",
+        "naam": {
+          "primair": "Schriftelijke besluiten (zonder vergadering)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "De aandeelhouders kunnen schriftelijk en bij eenparigheid besluiten nemen die anders door de AV moeten worden genomen — zonder fysieke vergadering (art. 5:85 BV / 7:133 NV). Voorwaarden:\n\n- **Unanimiteit** vereist (geen onthoudingen, geen tegenstem).\n- **Geen statutenwijziging mogelijk via deze weg** indien notariële akte vereist is — tenzij gelijktijdig met de schriftelijke uitwisseling de notariële akte wordt verleden.\n- Document moet alle besluiten bevatten, gedateerd en ondertekend door alle aandeelhouders.\n- Wordt opgenomen in het register van aandeelhouders / besluitenregister.\n\nPraktisch handig in eenmans-BV en kleine-familievennootschappen — vermijdt formaliteiten zonder afbreuk te doen aan rechtsgeldigheid.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:85" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:133" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-statutenwijziging-meerderheid",
+        "titel": "Statutenwijziging NV — quorum + 75%-meerderheid",
+        "context": "NV Sigma heeft 1.000 aandelen verdeeld over 4 aandeelhouders: A 500, B 200, C 200, D 100. Buitengewone AV op 15 mei 2026 voor statutenwijziging (doelwijziging — vereist 80%).",
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Scenario", "Aanwezigheid 1e oproeping", "Aanwezigheidsquorum 50% bereikt?", "Aanwezig kapitaal aandelen", "Stemmen voor", "% van uitgebrachte stemmen", "Besluit geldig?"],
+            "rijen": [
+              ["S1: A+B aanwezig", "70% kapitaal", "Ja (70% > 50%)", "700 stemrechten", "A+B = 700", "100% van uitgebracht", "Ja (>80% behaald)"],
+              ["S2: B+C+D aanwezig", "50% kapitaal", "Ja (precies 50%)", "500 stemrechten", "B+D = 300", "60%", "Nee (<80%)"],
+              ["S3: A alleen aanwezig", "50% kapitaal", "Ja (50%)", "500", "A = 500", "100%", "Ja (100% > 80%)"],
+              ["S4: C+D alleen aanwezig", "30% kapitaal", "Nee (<50%)", "—", "—", "—", "Tweede oproeping nodig"]
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "**S4 vervolgcasus**: tweede AV uitgeschreven 5 juni 2026 met dezelfde agenda. Op tweede oproeping: aanwezig C+D (300 stemmen), beide stemmen voor doelwijziging. **Besluit geldig** want art. 7:153 §2 schaft het aanwezigheidsquorum af bij tweede oproeping. 300/300 = 100% > 80% drempel. NB: A en B hebben dus, door hun afwezigheid op 2e oproeping, hun blokkering-macht verloren — politieke realiteit dwingt typisch het bestuur tot informeel overleg vóór tweede oproeping.\n\n**Notariële akte**: voor doelwijziging notaris verplicht — neemt het besluit op in akte, voegt de bijzonder verslagen bestuur (motivering) en commissaris (financiële beoordeling) bij. Bekendmaking in Bijlagen BS binnen 30 dagen via KBO."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek cijfervoorbeeld quorum + meerderheid + 2e oproeping" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-schriftelijk-besluit",
+        "titel": "Eenmans-BV — schriftelijk besluit jaarrekening",
+        "context": "Mevrouw V is enige aandeelhouder en enige bestuurder van BV Vega. Jaarrekening 2025 moet worden goedgekeurd. Boekjaar = kalenderjaar; statuten voorzien jaarvergadering op derde maandag van juni.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "**Optie A — fysieke vergadering**: V roept zichzelf bijeen op 15 juni 2026, beraadslaagt en stemt 'voor' op alle agendapunten, notuleert.\n\n**Optie B — schriftelijk besluit** (art. 5:85 WVV): omdat V enige aandeelhouder is, geldt automatisch unanimiteit. V stelt een document op:\n\n```\nSchriftelijk besluit van de algemene vergadering van BV Vega\nDatum: 15 juni 2026\nDe ondergetekende V, enige aandeelhouder houdster van 100% van de aandelen, neemt de volgende besluiten:\n1. Goedkeuring jaarrekening boekjaar 2025 zoals voorgelegd.\n2. Bestemming resultaat: overdracht naar volgend boekjaar (geen dividenduitkering).\n3. Kwijting aan V als bestuurder voor uitoefening mandaat boekjaar 2025.\nGedaan te ..., op 15 juni 2026.\n[handtekening V]\n```\n\nDit document gaat in het besluitenregister; jaarrekening + winstbestemming gaan binnen 30 dagen naar de NBB.\n\n**Voordeel Optie B**: vermijdt formaliteiten + vergaderkost. **Beperkingen**: niet beschikbaar voor statutenwijzigingen waar notariële akte vereist is."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:85" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:10" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard praktijk eenmans-BV" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-volmacht",
+        "titel": "Stemmen bij volmacht — minderheidsaandeelhouder via accountant",
+        "context": "Bestuurder Z is 35%-aandeelhouder in NV Delta, samen met meerderheidsaandeelhouders A (40%) en B (25%). AV op 20 mei 2026: agendapunt over wijziging dividendenbeleid. Z kan zelf niet aanwezig (operatie). Z wil zich laten vertegenwoordigen door zijn gecertificeerd accountant K, met instructie 'TEGEN' het wijzigingsvoorstel.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "**Volmacht opstellen**:\n\n```\nVolmacht algemene vergadering NV Delta — 20 mei 2026\nOndergetekende Z, aandeelhouder van NV Delta voor 350 aandelen,\nverleent hierbij volmacht aan dhr. K (gecertificeerd accountant ITAA-lidmaatschapsnummer 12345)\nom mij op de algemene vergadering van 20 mei 2026 te vertegenwoordigen voor de agenda zoals meegedeeld.\nStemming-instructies:\n- Punt 1 (goedkeuring jaarrekening): VOOR\n- Punt 2 (kwijting bestuurders): VOOR\n- Punt 3 (wijziging dividendenbeleid): TEGEN\n- Punt 4 (allerlei): vrije stem volgens beoordeling K\nDatum 18 mei 2026 — handtekening Z\n```\n\n**Indiening**: volmacht uiterlijk 2 werkdagen vóór AV bij zetel NV Delta (zoals statutair voorgeschreven of in oproeping bepaald). K verschijnt op AV, identificeert zich + volmacht. Stemt volgens instructies — 350 stemmen TEGEN bij punt 3.\n\n**Resultaat punt 3**: A 400 voor, B 250 voor of tegen?, Z (via K) 350 tegen. Indien B mee tegen → 350+250 = 600 tegen vs 400 voor → afgewezen. Indien B voor → 650 voor vs 350 tegen → aangenomen.\n\n**Belangenconflict K**: indien K ook accountant is van de vennootschap NV Delta zelf, conflict van belangen — moet hij weigeren OF zich strikt aan instructies houden (art. 5:96 §3 / 7:142 §3 WVV). Geen vrije stem onder agendapunt 4 in dat geval."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:142" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard volmacht-praktijk" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "50% aanwezig = besluit ok",
+        "verkeerde_assumptie": "Aanwezigheidsquorum van 50% en gewone meerderheid van aanwezige aandeelhouders volstaat altijd voor statutenwijziging.",
+        "kernpunt": "Voor statutenwijziging in NV is er een GETRAPTE eis: 50% aanwezigheidsquorum (1e oproeping) + 75% van uitgebrachte stemmen. Voor doelwijziging of ontbinding: 80%. Aanwezig zijn = niet hetzelfde als stemmen voor. Een 'gewone meerderheid' van aanwezigen volstaat nooit voor statutenwijziging. Bij tweede oproeping vervalt het aanwezigheidsquorum maar NIET de 75/80%-meerderheid.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153" }
+          ]
+        }
+      },
+      {
+        "titel": "AV mag alles beslissen",
+        "verkeerde_assumptie": "De algemene vergadering is het 'hoogste orgaan' en kan over om het even welke materie beslissen.",
+        "kernpunt": "De AV heeft EXCLUSIEVE bevoegdheden (zie bouwsteen 'bevoegdheden-av') — een gesloten lijst van wettelijk voorbehouden materies. Voor operationele beslissingen (dagelijks bestuur, contractsluiting, investeringen onder bestuursbevoegdheid) is het BESTUUR exclusief bevoegd. AV-besluiten over bestuurszaken zijn niet bindend voor het bestuur en kunnen aangevochten worden als bevoegdheidsoverschrijding.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:73" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:93" }
+          ]
+        }
+      },
+      {
+        "titel": "Punten buiten agenda kunnen toegevoegd worden door meerderheid",
+        "verkeerde_assumptie": "Met meerderheidsstemming kunnen punten worden toegevoegd aan de agenda van een lopende AV.",
+        "kernpunt": "Art. 5:84 §3 / 7:131 §3 WVV: punten buiten agenda kunnen alleen worden behandeld indien ALLE aandeelhouders aanwezig zijn EN unaniem toestemmen. Eén afwezige aandeelhouder of één tegenstem blokkeert toevoeging. Punten waarover toch beraadslaagd wordt zonder die unanimiteit = nietig besluit.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:84" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:131" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "client-aandeelhouder",
+      "naam": {
+        "primair": "Cliënt-aandeelhouder (minderheid of meerderheid)"
+      },
+      "intro": "De accountant begeleidt zijn cliënt-aandeelhouder bij AV-voorbereiding, volmacht-mandatering, en bijstand ter zitting.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "av-checklist",
+              "naam": {
+                "primair": "AV-checklist voor cliënt-aandeelhouder"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vóór elke AV waaraan cliënt-aandeelhouder deelneemt (zelf of via volmacht):\n\n1. **Oproeping nakijken**: termijn (≥15d, ≥30d voor genoteerde), agenda volledigheid, bijhorende documenten (jaarrekening, jaarverslag, commissarisverslag).\n2. **Stemkracht berekenen**: aantal aandelen × stemrechten per aandeel; effect van eventuele meervoudige stemrechten of stemrechtloze aandelen.\n3. **Bevoegdheidstoets**: valt elk agendapunt onder AV-bevoegdheid? Indien punt buiten lijst → mogelijk nietigheidsrisico.\n4. **Quorum + meerderheidsanalyse**: kan blokkering vanuit minderheidsbelang? Met 25% kan men 75%-meerderheid blokkeren; met 20% de 80%-meerderheid.\n5. **Vragenrecht voorbereiden**: schriftelijke vragen aan bestuur + commissaris vóór AV (art. 5:88 / 7:139) — verplicht antwoord ter zitting.\n6. **Volmacht of fysieke aanwezigheid?** Bij volmacht: instructies vastleggen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:83-5:88" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:128-7:142" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard begeleidingschecklist" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-minderheidsbescherming",
+              "naam": {
+                "primair": "Advies minderheidsbescherming via AV"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor minderheidsaandeelhouder zijn de AV-rechten essentieel:\n\n- **10%-drempel** (kapitaal NV / stemrechten BV): plicht tot bijeenroeping bij verzoek, toevoegen agendapunten, voorhand vragen + verplicht antwoord.\n- **1%-of-1,25-mio-drempel** (art. 2:60 WVV): minderheidsvordering tegen bestuurders namens vennootschap.\n- **Vetorecht 25%+1 / 20%+1** voor statutenwijziging / doelwijziging — de 'blokkeringsminderheid' is een sleutelpositie in onderhandelingen.\n- **Bijstandsrecht** door advocaat of GA op AV.\n\nVoor cliënt-aandeelhouder die net onder 10% zit: overweeg syndicaatsovereenkomst met andere kleine aandeelhouders om gezamenlijk drempel te halen (zie aandeelhoudersovereenkomsten).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 2:60" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:83" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:127" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commissaris-perspectief",
+      "naam": {
+        "primair": "Commissaris-rol op AV"
+      },
+      "intro": "De gecertificeerd accountant-bedrijfsrevisor als commissaris is verplicht aanwezig op AV en heeft een aparte rapporterings- en antwoordplicht.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "commissarisverslag-av",
+              "naam": {
+                "primair": "Commissarisverslag + antwoordplicht ter zitting"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Op de jaarvergadering legt de commissaris zijn verslag voor (art. 3:74 WVV — opinie + bevindingen + verklaring). Verplichte aanwezigheid op AV waarop jaarrekening behandeld wordt (art. 3:71 §1). Op ter zitting vooraf gestelde vragen van aandeelhouders moet de commissaris schriftelijk en mondeling antwoorden — schending = aansprakelijkheidsrisico jegens vragend aandeelhouder. Bij ernstige vaststelling (bv. onregelmatige belangenconflict-procedure, going concern-twijfel, fraude-indicatie): aparte sectie of voorbehoud in het verslag.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 3:71" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 3:74" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 3:75" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "goedgekeurd_door",
-      "target": "aandeel"
+      "target": "ondernemingsvormen"
     },
     {
       "type": "triggert",
-      "target": "winstbestemming"
+      "target": "winstbestemming",
+      "toelichting": "AV-besluit bestemming resultaat is voorwaarde voor uitkeerbaar dividend (BV: ook liquiditeitstest)."
+    },
+    {
+      "type": "triggert",
+      "target": "kapitaalverhoging",
+      "toelichting": "Buitengewone AV met 75%-meerderheid + notariële akte vereist voor statutaire kapitaalverhoging (art. 5:120 / 7:177)."
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "gecertificeerd-accountant",
+      "toelichting": "GA als commissaris (verplichte aanwezigheid op jaarvergadering) of als bijstander van cliënt-aandeelhouder."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "bestuur-vennootschap",
+      "gelijkenissen": [
+        "Beide zijn wettelijke vennootschapsorganen met gedefinieerde bevoegdheden",
+        "Beide nemen besluiten bij meerderheid",
+        "Beide vertegenwoordigen kapitaal-belangen (eigenaars vs uitvoerend)"
+      ],
+      "verschillen": [
+        "AV: eigenaars-orgaan, beperkt tot wettelijk voorbehouden materies, vergadert in principe 1x/jaar",
+        "Bestuur: uitvoerend orgaan met residuaire bevoegdheid, vergadert vrij volgens behoefte",
+        "AV-leden = aandeelhouders van rechtswege; bestuurders worden benoemd",
+        "AV-besluit met versterkte meerderheid (75/80%); bestuur in principe gewone meerderheid"
+      ],
+      "verwarring_risico": "In KMO valt alleenaandeelhouder-bestuurder samen — twee aparte 'hoedanigheden' met afzonderlijke besluiten en notulen. Verwarring 'bestuur beslist' vs 'AV beslist' leidt tot ongeldige besluiten (bv. statutenwijziging niet via bestuur, dividenduitkering niet zonder AV-besluit).",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
