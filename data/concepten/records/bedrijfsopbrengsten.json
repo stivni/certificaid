@@ -2,82 +2,271 @@
   "id": "bedrijfsopbrengsten",
   "naam": {
     "primair": "Bedrijfsopbrengsten",
-    "synoniemen": [
-      "operationele opbrengsten",
-      "omzet"
-    ]
+    "synoniemen": ["operationele opbrengsten"],
+    "vertaling": {"en": "operating income", "fr": "produits d'exploitation"}
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "1.1.II.N"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["1.1.II.M"],
     "scope": {
       "in": [
-        "MAR-klasse 70-74 + 76",
+        "MAR-klasse 70-74 + (vóór 2020 ook 76)",
         "70 omzet + 71 voorraadmutatie + 72 geproduceerde vaste activa + 74 andere bedrijfsopbrengsten",
-        "Omzet-definitie + realisatie-moment",
+        "Omzet-definitie (art. 3:90, I.A KB WVV) + realisatie-moment",
         "Cross IFRS 15 (5-stappen-model opbrengstverantwoording)"
       ],
       "out": [
-        {
-          "topic": "Bedrijfskosten (klasse 6)",
-          "richting": "moet-verwijzen",
-          "ref": "bedrijfskosten"
-        },
-        {
-          "topic": "IFRS 15 — opbrengstverantwoording",
-          "richting": "moet-verwijzen",
-          "ref": "opbrengstverantwoording"
-        },
-        {
-          "topic": "Niet-recurrente verrichtingen (uitzonderlijke opbrengsten)",
-          "richting": "moet-verwijzen",
-          "ref": "niet-recurrente-verrichtingen"
-        }
+        {"topic": "Bedrijfskosten (klasse 60-65)", "richting": "moet-verwijzen", "ref": "bedrijfskosten"},
+        {"topic": "IFRS 15 — opbrengstverantwoording", "richting": "moet-verwijzen", "ref": "opbrengstverantwoording"},
+        {"topic": "Niet-recurrente verrichtingen (uitzonderlijke opbrengsten)", "richting": "moet-verwijzen", "ref": "niet-recurrente-verrichtingen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/bedrijfsopbrengsten.json",
+      "primary_bronnen": ["MAR-KB 21.10.2018 Bijlage 1 — klasse 7", "KB 29.04.2019 art. 3:90", "CBN-advies 100 (omzetbegrip)", "CBN-advies 2013/11 (doorrekening belastingen)", "Verordening (EU) 2023/1803 — IFRS 15"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Bedrijfsopbrengsten uitgewerkt: MAR-klasse 70-74, omzet-definitie art. 3:90 KB WVV, IFRS 15 5-stappen-model, voorbeelden + valkuilen."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Bedrijfsopbrengsten zijn opbrengsten uit de gewone bedrijfsuitoefening — geboekt in MAR-klasse 70 t/m 74: 70 omzet (verkopen + dienstprestaties − toegekende kortingen 708) · 71 wijzigingen in voorraad goederen in bewerking, gereed product en bestellingen in uitvoering · 72 geproduceerde vaste activa · 74 andere bedrijfsopbrengsten (subsidies, terugneming voorzieningen, meerwaarde courante realisatie). Samen met bedrijfskosten (klasse 60-65) vormen ze het bedrijfsresultaat. De kern-rubriek is 70 'omzet' — art. 3:90, I.A KB WVV definieert dit als 'het bedrag van de verkoop van goederen en de levering van diensten aan derden in het kader van de gewone bedrijfsuitoefening, na aftrek van kortingen op verkoop, en exclusief btw en andere rechtstreeks op de omzet bezwarende belastingen'.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "kb", "naam": "KB 29.04.2019 (uitvoering WVV)", "ref": "art. 3:90, I.A"},
+            {"type": "kb", "naam": "MAR-KB 21.10.2018", "ref": "Bijlage 1 klasse 7"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bedrijfsopbrengsten meten 'wat de kernactiviteit oplevert'. De stagiair moet drie zaken vasthouden: (1) omzet ≠ cash-inning — bij factuur boek je 400 (klant, debet) tegenover 700 (omzet, credit); cash beweegt later. (2) Realisatie-moment: opbrengst wordt verantwoord wanneer goed geleverd of dienst gepresteerd, niet bij bestelling of betaling (matching, voorzichtigheid, accrual). (3) Omzet ≠ totale bedrijfsopbrengsten — 70 is enkel kerncommerciële omzet; subsidies (740-743), recuperaties (744-746), terugnemingen waardeverminderingen (749) en geproduceerde-vaste-activa (72) zijn ook bedrijfsopbrengsten maar staan apart. Het groottecriterium 'omzet ≤ 9 mio EUR voor kleine vennootschap' (art. 1:24 WVV) kijkt naar rubriek 70 alleen — niet naar totaal bedrijfsopbrengsten (zie CBN 2022/03 voor afwijkende regeling indien rubriek 74 > 50%).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Beoordeling groottecriteria — afwijkende regeling"},
+            {"type": "cbn", "naam": "CBN-advies 100", "ref": "Omzet — begrip"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het MAR-onderscheid tussen omzet (70) en andere bedrijfsopbrengsten (74) bestaat omdat omzet de primaire economische maatstaf is: zij meet de schaal van de kernactiviteit, drijft groottecriteria, vennootschapsbelasting-tarieven, en bank-rapportering. Andere bedrijfsopbrengsten zijn vaak niet-recurrent of niet-commercieel (subsidie, recuperatie verzekering, terugneming waardevermindering vorderingen). Voor analyse: omzetgroei jaar-op-jaar = bedrijfsmatige indicator; andere bedrijfsopbrengsten kunnen het bedrijfsresultaat tijdelijk flatteren — vandaar de afwijkende regeling van CBN 2022/03.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["dubbele-boekhouding", "rekeningstelsel-mar"],
+      "kader": "resultatenrekening",
+      "naast_relevant": ["bedrijfskosten", "groottecriteria-vennootschap"],
+      "volgkennis": ["opbrengstverantwoording", "resultaatverwerking"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Boeken van uitgaande facturen + dienstprestaties — bij elke verkoop/levering boekt de boekhouder 400 (klant) D / 700 (omzet) C + 451 (te betalen btw) C.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "rubriek 70/400/451"}]}},
+        {"tekst": "Beoordeling groottecriteria voor jaarrekeningvorm (volledig/verkort/microschema) — omzet rubriek 70 als drempel naast balanstotaal en personeelsbestand (art. 1:24 WVV).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WVV", "ref": "art. 1:24"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "klasse-70-omzet",
+        "naam": {"primair": "70 — Omzet"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Omzet (art. 3:90, I.A KB WVV) = bedrag verkoop goederen + levering diensten aan derden in het kader van de gewone bedrijfsuitoefening, na aftrek kortingen op verkoop, exclusief btw en andere rechtstreeks op de omzet bezwarende belastingen (accijnzen, verbruiksbelasting — CBN 2013/11). Sub-rubrieken 700-707 = verkopen en dienstprestaties · 708 = toegekende kortingen, ristorno's en rabatten (debet — verminderen omzet).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 3:90, I.A"}, {"type": "cbn", "naam": "CBN-advies 2013/11", "ref": "Begrip omzet — doorrekening belastingen"}]}
+            }
+          },
+          "voorbeelden": [
+            {
+              "id": "voorbeeld-verkoop-handelsgoederen",
+              "titel": "Verkoop handelsgoederen 5.000 EUR + 21% btw aan klant",
+              "context": "Zelena Bio NV verkoopt aan klant Aurelia Holding NV.",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "Boeking uitgaande factuur",
+                  "rijen": [
+                    {"rekening": "400 — Handelsdebiteuren", "debet": 6050, "credit": null},
+                    {"rekening": "700 — Verkopen", "debet": null, "credit": 5000},
+                    {"rekening": "451 — Te betalen btw", "debet": null, "credit": 1050}
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "voorbeeld-korting-omzet",
+              "titel": "Korting 10% achteraf via creditnota — 500 EUR",
+              "context": "Aurelia krijgt 10% korting op de factuur (500 EUR).",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "Boeking creditnota — korting",
+                  "rijen": [
+                    {"rekening": "708 — Toegekende kortingen op verkoop (-)", "debet": 500, "credit": null},
+                    {"rekening": "451 — Te betalen btw", "debet": 105, "credit": null},
+                    {"rekening": "400 — Handelsdebiteuren", "debet": null, "credit": 605}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "klasse-71-voorraadmutatie",
+        "naam": {"primair": "71 — Wijzigingen in voorraad goederen in bewerking, gereed product en bestellingen in uitvoering"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Klasse 71 boekt het verschil tussen eindvoorraad en beginvoorraad voor goederen in bewerking (32), gereed product (33) en bestellingen in uitvoering (37). Sub-rubrieken: 712 wijziging voorraad goederen in bewerking · 713 gereed product · 717 bestellingen in uitvoering. Bij toename voorraad: 71 credit (= bedrijfsopbrengst — verbruik nog niet gerealiseerd); bij afname: 71 debet (kost). Doel: matching tussen productiekost (klasse 60-62) en opbrengst (klasse 70).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 71"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-72-geproduceerde-vaste-activa",
+        "naam": {"primair": "72 — Geproduceerde vaste activa"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Wanneer de onderneming zelf vaste activa produceert (intern ontwikkelde software, eigen bouw gebouw), worden de productiekosten in klasse 6 geboekt en gecompenseerd via 72 (credit) — gelijktijdig met activering in klasse 21/22 (debet). Resultatenrekening blijft neutraal; geactiveerd actief verschijnt op balans.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 72"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-74-andere-bedrijfsopbrengsten",
+        "naam": {"primair": "74 — Andere bedrijfsopbrengsten"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Niet-omzet bedrijfsopbrengsten: 740 exploitatiesubsidies en compensatiebedragen + 741 meerwaarden op realisatie courante vaste activa + 742 meerwaarden op realisatie handelsvorderingen + 743/748 diverse + 749 als bedrijfsopbrengst op te nemen terugneming waardeverminderingen. Belangrijk: subsidies tellen niet mee voor omzet-groottecriterium (zie rubriek 70 / art. 1:24 WVV).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 74"}, {"type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Afwijkende regeling — rubriek 74"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "realisatie-moment",
+        "naam": {"primair": "Realisatie-moment — wanneer omzet boeken?"},
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Be-GAAP (KB WVV): omzet wordt verantwoord wanneer goed geleverd / dienst gepresteerd en factuur uitgereikt (of uitreikbaar). Voor langlopende projecten (bouw, advies, software-implementatie): 'percentage of completion' (voortgangsmethode — rubriek 717 bestellingen in uitvoering) of 'completed contract' (afgewerkte opdracht). IFRS 15: 5-stappen-model — (1) identificeer contract met klant; (2) identificeer prestatieverplichtingen; (3) bepaal transactieprijs; (4) wijs prijs toe aan prestatieverplichtingen; (5) verantwoord omzet bij voldoening prestatieverplichting (point-in-time of over-time).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 15 — Opbrengsten van contracten met klanten"}]}
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Omzet ≈ totale bedrijfsopbrengsten verwarren",
+        "verkeerde_assumptie": "Voor het groottecriterium telt het totaal van klasse 70-74.",
+        "kernpunt": "Art. 1:24 WVV en art. 1:25 WVV gebruiken 'omzet' in de strikte zin — rubriek 70 alleen (verkopen + dienstprestaties). Subsidies, recuperaties en meerwaarden uit klasse 74 tellen niet. Uitzondering: CBN 2022/03 afwijkende regeling bij vennootschappen waar opbrengsten uit gewoon bedrijf voor > 50% niet onder omzet-definitie vallen (bv. holdings).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Afwijkende regeling"}, {"type": "wettekst", "naam": "WVV", "ref": "art. 1:24-1:25"}]}
+      },
+      {
+        "titel": "Btw incl. boeken op 70",
+        "verkeerde_assumptie": "De totale factuurwaarde inclusief btw belandt op 700.",
+        "kernpunt": "Omzet 70 is exclusief btw. Btw (21%, 12%, 6%, 0%) gaat naar 451 'te betalen btw'. Verkoopprijs bruto 605 EUR = 500 omzet (700) + 105 btw (451). Examen-valkuil: bij vrijgestelde activiteit (medisch, onderwijs, financieel) is er geen btw maar nog steeds 70 voor verkoopprijs.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 3:90 I.A — exclusief btw"}]}
+      },
+      {
+        "titel": "Realisatie versus inning verwarren",
+        "verkeerde_assumptie": "Omzet wordt geboekt wanneer de klant betaalt.",
+        "kernpunt": "Omzet wordt verantwoord bij levering/prestatie (accrual-principe), niet bij betaling. Een verkoop in december 20X4 met betaling in maart 20X5 is omzet van 20X4. Cash-basis is alleen toegelaten voor vereenvoudigde boekhouding (eenmanszaken ≤ omzet-drempel). Dit verklaart waarom omzet > cash-inning bij groeiende ondernemingen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhouding"
+      "id": "perspectief-onderneming-zelf",
+      "naam": {"primair": "Onderneming zelf — operationele boekhouding"},
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekh-omzet-vs-andere",
+              "naam": {"primair": "Onderscheid omzet (70) vs andere bedrijfsopbrengsten (74)"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per binnenkomende opbrengst: (1) is dit een verkoop van goederen of dienst aan derden in het kader van de gewone bedrijfsuitoefening → 70. (2) Is dit een subsidie van overheid → 740. (3) Is dit een terugneming van een eerdere waardevermindering → 749. (4) Is dit een meerwaarde op verkoop courante vaste activa → 741. Onderscheid is belangrijk voor groottecriteria-toets en voor management-rapportage.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 70-74"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-cutoff-omzet",
+              "naam": {"primair": "Omzet-cutoff rond balansdatum"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Belangrijkste audit-risico bij omzet: 'pulled-forward' omzet = verzendingsdatum manipuleren om vóór balansdatum te zijn. Procedures: (1) toets laatste 10-20 verkoopfacturen vóór balansdatum tegen verzendbon/leverbon; (2) toets eerste 10-20 facturen na balansdatum; (3) reconciliëer omzet-saldo met btw-aangifte Q4; (4) toets pro rata van langlopende projecten (rubriek 717). ISA 240: presumptie van risico op fraude in omzeterkenning.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 240", "ref": "paragraaf 26"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fisc-omzet-aangifte",
+              "naam": {"primair": "Omzet naar aangifte VenB / PB"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "VenB: omzet wordt opgenomen in vak 'Belastbare opbrengsten' van aangifte 275.1. Tarief 25% (of verlaagd 20% op eerste 100.000 EUR voor kleine vennootschappen — art. 215 WIB92). PB (eenmanszaak): bruto-omzet naar vak XVII rubriek 'baten' of 'winst'. Controleer aansluiting met btw-aangifte rooster 00-03 + 44 + 45 + 46 (uitgaande handelingen).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 215 (verlaagd tarief KMO)"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "resultatenrekening", "toelichting": "Bedrijfsopbrengsten = creditzijde bedrijfsresultaat-deel."},
+    {"type": "vergelijkbaar_met", "target": "bedrijfskosten", "gelijkenissen": ["Beide vormen het bedrijfsresultaat"], "verschillen": ["Klasse 70-74 (credit) versus klasse 60-65 (debet)"]},
+    {"type": "vereist", "target": "rekeningstelsel-mar"},
+    {"type": "alternatief_referentiestelsel", "target": "opbrengstverantwoording", "toelichting": "IFRS 15-aanpak vs Be-GAAP — verschillende erkennings-momenten bij langlopende contracten."}
   ]
 }
