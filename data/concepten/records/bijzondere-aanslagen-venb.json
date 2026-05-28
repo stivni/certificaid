@@ -5,12 +5,15 @@
     "synoniemen": [
       "afzonderlijke aanslagen VenB",
       "cotisations distinctes ISoc"
-    ]
+    ],
+    "vertaling": {
+      "fr": "cotisations distinctes (ISoc)"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -19,9 +22,22 @@
       "2.3.II.H"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/bijzondere-aanslagen-venb.json",
+      "primary_bronnen": [
+        "WIB92 art. 219",
+        "WIB92 art. 219bis",
+        "WIB92 art. 219ter",
+        "WIB92 art. 219quinquies",
+        "WIB92 art. 219sexies",
+        "WIB92 art. 541 (liquidatiereserve)",
+        "aangifte-VenB-2025-afzonderlijke-aanslagen"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,36 +45,45 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-familie-Σ aangemaakt (absorbeert geheime-commissielonen als sub-sectie)"
+        "wijziging": "Skeleton-record aangemaakt (familie-Σ met sub-concepten)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:45:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 219 e.v. + aangifte-VenB-2025). Sub-concepten geheime-commissielonen + onaftrekbare-aftrekken-aanslag + liquidatiereserve-aanslag uitgewerkt."
       }
     ],
     "scope": {
       "in": [
-        "Σ-familie-overzicht: 4 hoofdtypen afzonderlijke aanslagen VenB",
-        "Sub-sectie #geheime-commissielonen: art 219 WIB — 100%-aanslag (50% verhoogd bij verbonden persoon) · cascade verworpen-uitgaven · 'voldoende bekend gemaakt'-uitzondering",
-        "Sub-sectie #onaftrekbare-aftrekken-aanslag: art 219ter WIB",
-        "Sub-sectie #liquidatie-aanslag",
-        "Sub-sectie #andere bijzondere aanslagen (mobiliseringsbedrag · verbeurdverklaarde aandelen · ...)",
-        "Gemeenschappelijk kenmerk: niet via gewone tarief maar afzonderlijk tarief op specifieke categorie"
+        "Familie-overzicht van afzonderlijke aanslagen in de vennootschapsbelasting — uitzondering op het normale-tarief-regime",
+        "Art. 219: 100%-aanslag op niet-verantwoorde kosten, voordelen van alle aard (incl. auteursrechten), verdoken meerwinsten, financiële voordelen (art. 53,24°) — verlaagd tot 50% indien begunstigde rechtspersoon",
+        "Art. 219bis: 13%-aanslag op tantième niet uitgekeerd binnen 2½ maand (vervangt geheime commissieloon-aanslag in bepaalde gevallen — uitfasering)",
+        "Art. 219ter: 'onaftrekbare-aftrekken-aanslag' op gebrek aan minimum-bedrijfsleidersbezoldiging — voor KMO-verlaagd tarief 20%",
+        "Art. 219quinquies: 10%-aanslag bij gespecialiseerd vastgoedbeleggingsfonds (FBI) — voortijdige uittreding",
+        "Art. 219sexies: 5%-aanslag op vrijgestelde meerwaarden op aandelen van bepaalde beleggingsvennootschappen",
+        "Liquidatiereserve-aanslag (art. 541): 10% bij aanleg liquidatiereserve",
+        "Aangifte-codes 1505-1545 in vak 'Afzonderlijke aanslagen'"
       ],
       "out": [
         {
-          "topic": "Beroepskosten en bezoldigingen die geheime-commissielonen kunnen vormen",
-          "richting": "mag-verwijzen",
-          "ref": "beroepskosten"
-        },
-        {
-          "topic": "Bedrijfsleidersbezoldiging (45.000-EUR-regel + art 219ter)",
-          "richting": "moet-verwijzen",
-          "ref": "bedrijfsleidersbezoldiging"
-        },
-        {
-          "topic": "Verworpen uitgaven (cascade-aspect)",
+          "topic": "Verworpen uitgaven (cascade-effect — sommige VU triggeren ook afzonderlijke aanslag)",
           "richting": "moet-verwijzen",
           "ref": "verworpen-uitgaven"
         },
         {
-          "topic": "Geheime-commissielonen (bestaand apart record — beslissing: absorberen of behouden, mens-review)",
+          "topic": "Bedrijfsleidersbezoldiging (45.000-EUR-regel + art. 219ter)",
+          "richting": "moet-verwijzen",
+          "ref": "bedrijfsleidersbezoldiging"
+        },
+        {
+          "topic": "Vennootschapsbelasting (algemeen kader)",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschapsbelasting"
+        },
+        {
+          "topic": "Geheime-commissielonen (bestaand record — mogelijk te absorberen of cross-link)",
           "richting": "mag-verwijzen",
           "ref": "geheime-commissielonen"
         }
@@ -68,68 +93,158 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Bijzondere (afzonderlijke) aanslagen zijn fiscale heffingen in de vennootschapsbelasting die NIET volgens het gewone tarief (basis 25%, KMO 20%) worden berekend, maar tegen een eigen — typisch hoger, sanctionerend — tarief op een welbepaalde grondslag. Ze functioneren PARALLEL aan en bovenop de gewone VenB. De belangrijkste is art. 219 (geheime commissielonen-aanslag): 100% op niet-verantwoorde kosten, voordelen van alle aard, verdoken meerwinsten — verlaagd tot 50% wanneer de verkrijger een rechtspersoon is. Daarnaast bestaan specifieke afzonderlijke aanslagen voor liquidatiereserve (art. 541 — 10%), gespecialiseerde vastgoedbeleggingsfondsen (art. 219quinquies — 10%), bepaalde meerwaarden op beleggingsfondsen-aandelen (art. 219sexies — 5%) en de 'onaftrekbare-aftrekken-aanslag' (art. 219ter) op gebrek aan minimum-bedrijfsleidersbezoldiging in KMO-context.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219ter" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219quinquies" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-afzonderlijke-aanslagen" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch effect: de afzonderlijke aanslag is een SANCTIONERENDE belasting die bovenop de gewone VenB komt. Bij art. 219 (100%-aanslag): voor een niet-verantwoorde kost van 10.000 EUR betaalt de vennootschap (a) gewone VenB op 10.000 EUR als toegevoegde VU = 25% × 10.000 = 2.500 EUR, plus (b) afzonderlijke aanslag = 100% × 10.000 = 10.000 EUR. Totaal belasting = 12.500 EUR voor 10.000 EUR uitgave (125% effectief). Wanneer de verkrijger een rechtspersoon is en geïdentificeerd binnen termijn: tarief verlaagd tot 50%, totaal effect ≈ 75%. Belangrijk: de afzonderlijke aanslag is ZELF aftrekbaar als beroepskost (art. 198 §1, 1° expliciet uitgesloten van VU — was vroeger anders, gewijzigd in 2014). Liquidatiereserve-aanslag (10%) is een vooruitbetaalde aanslag die later het tarief op uitkering vermindert.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219", "context": "100% / 50% tarieven" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 541", "context": "Liquidatiereserve 10%" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis (per type): (1) art. 219 sanctioneert het ontwijken van fiscale verplichtingen door niet-verantwoorde betalingen (geen fiches 281.50, zwart geld, verdoken meerwinsten) — doel: forceer transparantie via fiches; verlaging 50% bij rechtspersoon-begunstigde reflecteert dat die elders belast wordt; (2) art. 219ter sanctioneert KMO's die het minimum-bezoldigingscriterium (45.000 EUR/jaar) niet halen — doel: pensioenrechten van bedrijfsleider stimuleren; (3) art. 541 (liquidatiereserve) biedt een gunstige uitstap-route uit de vennootschap (10% nu + 5% bij uitkering na 5 jaar = effectief 15% versus normale 30% RV op gewone dividend) — fiscaal gunstregime voor KMO's. Algemeen: 'afzonderlijke aanslagen' parkeert tarief-uitzonderingen buiten het gewone-tarief-regime om ze beleidsmatig te kunnen sturen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 541" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "vennootschapsbelasting",
+        "verworpen-uitgaven"
+      ],
+      "kader": "vennootschapsbelasting",
+      "naast_relevant": [
+        "bedrijfsleidersbezoldiging",
+        "verworpen-uitgaven"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 219-219ter"
-      }
+        "wettelijke_basis": "WIB92 art. 219-219sexies + art. 541",
+        "toelichting": "Stabiel kader; periodieke uitbreidingen (art. 219quinquies vastgoedbeleggingsfondsen ingevoegd 2018; art. 219sexies meerwaarden beleggingsvennootschappen 2018). Voor art. 219: uitbreiding 'auteursrechten' sinds 2023 + dividenden bedoeld in art. 18, 2°quater vanaf 29/7/2025."
+      },
+      "voor": [
+        {
+          "tekst": "Vennootschappen die: (1) niet-verantwoorde kosten/voordelen/auteursrechten/verdoken meerwinsten/financiële voordelen hebben (art. 219); (2) tantièmes te laat uitkeren (art. 219bis); (3) als KMO geen minimum-bedrijfsleidersbezoldiging uitkeren (art. 219ter); (4) gebruik maken van gespecialiseerde vastgoedbeleggingsfondsen (art. 219quinquies); (5) een liquidatiereserve aanleggen (art. 541).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 219ter" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 541" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Afzonderlijke aanslag art. 219 zeer zwaar bij niet-verantwoorde kosten — 125% effectief belasting. Vermijdbaar door tijdige fiches 281.50. · Art. 219ter triggert automatisch bij KMO's met onvoldoende bezoldiging — bezoldigingsbeleid jaarlijks afstemmen op KMO-tarief-voorwaarden. · Liquidatiereserve aanleggen zonder 5-jaar-wachten leidt tot extra RV bij uitkering — strategische planning vereist.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 541" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkrisico afzonderlijke aanslagen" }
+            ]
+          }
+        }
+      ]
     },
     "subconcepten": [
       {
-        "id": "geheime-commissielonen-sub",
+        "id": "geheime-commissielonen-aanslag",
         "naam": {
-          "primair": "Geheime commissielonen"
+          "primair": "Geheime commissielonen-aanslag (art. 219)"
         },
         "concept_type": "regime",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — art 219 WIB · 100%-aanslag (50% verhoogd bij verbonden persoon) · 'voldoende bekend gemaakt'-uitzondering",
+              "tekst": "Afzonderlijke aanslag van 100% (verhoogd) of 50% (verminderd indien begunstigde een rechtspersoon is) op: (a) niet-verantwoorde kosten — commissies, makelaarslonen, restorno's, vacatiegelden, gratificaties, vergoedingen of voordelen die voor verkrijger beroepsinkomsten zijn (art. 57 WIB92); (b) niet-verantwoorde bezoldigingen, pensioenen, renten betaald aan personeel/bedrijfsleiders; (c) voordelen van alle aard (art. 31, lid 2, 2° + art. 32, lid 2, 2°); (d) auteursrechten + naburige rechten (art. 17 §1, 3°) — uitbreiding sinds 2023; (e) inkomsten art. 17 §1, 5°; (f) verdoken meerwinsten (vermogensaanwas zonder corresponderend reserve-element); (g) financiële voordelen art. 53, 24°. Verlaging naar 50%: wanneer de belastingplichtige aantoont dat de verkrijger een rechtspersoon is — verondersteld wordt dat die rechtspersoon zelf zal worden belast op die inkomst.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+                  { "type": "aangifte", "naam": "aangifte-VenB-2025-afzonderlijke-aanslagen", "ref": "Codes 1509 + 1510" }
                 ]
               }
             }
-          }
+          },
+          "bouwstenen": [
+            {
+              "id": "uitzondering-fiches-tijdig",
+              "naam": {
+                "primair": "Uitzondering 'voldoende bekend gemaakt' (fiches binnen 2 jaar)"
+              },
+              "bouwsteen_type": "uitzondering",
+              "kern": {
+                "definitie": {
+                  "tekst": "De aanslag is NIET van toepassing indien de belastingplichtige uiterlijk bij het indienen van het bezwaarschrift (of binnen 2 jaar na het belastbaar tijdperk) kan aantonen dat de uitgave is verantwoord door een individuele fiche 281.50 voor de begunstigde, EN dat de begunstigde de inkomsten heeft aangegeven in zijn eigen aangifte (of dat hij in regel was met zijn fiscale verplichtingen). Dit 'voldoende bekend gemaakt'-mechanisme moedigt vennootschappen aan om alsnog te regulariseren.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 219", "context": "Vrijstellingsregeling tweede alinea" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "code-1509-1510",
+              "naam": {
+                "primair": "Aangifte-codes 1509 (50%) + 1510 (100%)"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Code 1509 — basis voor 50%-aanslag: kosten/voordelen/inkomsten waarvan de belastingplichtige aantoont dat de uiteindelijke verkrijger een rechtspersoon is. Code 1510 — basis voor 100%-aanslag: andere niet-verantwoorde kosten + verdoken meerwinsten + financiële voordelen art. 53, 24°. De afzonderlijke aanslag zelf wordt apart geboekt en is in principe aftrekbaar als beroepskost (sinds 2014 — was vroeger niet).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "aangifte", "naam": "aangifte-VenB-2025-afzonderlijke-aanslagen", "ref": "Codes 1509 + 1510" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
         }
       },
       {
         "id": "onaftrekbare-aftrekken-aanslag",
         "naam": {
-          "primair": "Onaftrekbare aftrekken-aanslag"
+          "primair": "Onaftrekbare-aftrekken-aanslag (art. 219ter)"
         },
         "concept_type": "regime",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — art 219ter WIB · bezoldigingsregel KMO-tarief verbonden",
+              "tekst": "Afzonderlijke aanslag van 5,1% (tot 31/12/2020) — afgeschaft sinds 1/1/2021. Was een sanctie op KMO's die niet voldoende minimumbedrijfsleidersbezoldiging (≥45.000 EUR/jaar of gelijk aan belastbaar resultaat indien lager) uitkeerden, waardoor ze niet kwalificeerden voor het verlaagd KMO-tarief van 20%. De aanslag werd berekend op het verschil tussen vereiste en effectief uitgekeerde bezoldiging. Sinds 1/1/2021 vervangen door een striktere voorwaarde voor KMO-tarief: indien geen voldoende bezoldiging, dan basis-tarief 25% in plaats van 20% — eenvoudiger maar even sanctionerend.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "afgeleid",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 219ter", "context": "Historische versie + Wet 25/12/2017 afschaffing" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Historiek art. 219ter" }
                 ]
               }
             }
@@ -137,31 +252,313 @@
         }
       },
       {
-        "id": "liquidatie-aanslag",
+        "id": "liquidatiereserve-aanslag",
         "naam": {
-          "primair": "Liquidatie-aanslag"
+          "primair": "Liquidatiereserve-aanslag (art. 541)"
         },
         "concept_type": "regime",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — afzonderlijk tarief bij vereffening van vennootschap",
+              "tekst": "Afzonderlijke aanslag van 10% bij het AANLEGGEN van een liquidatiereserve (een reserve gespijsd uit de boekhoudkundige winst van het belastbaar tijdperk, na VenB). De vennootschap kan zo elk jaar een deel van de winst 'verzekeren' tegen latere uitkering. Effect bij UITKERING: (a) bij vereffening = 0% RV (vandaar 'liquidatiereserve' — bedoeling werd gestreven naar 10%-aanslag als enige belasting); (b) bij gewone dividenduitkering na ≥5 jaar = 5% RV; (c) bij uitkering vóór 5 jaar = 17% RV (= 30% RV verminderd met 13% credit). Cumulatief effect 5 jaar: 10% + 5% = 15% effectieve belasting op uitkering versus 30% RV op niet-liquidatiereserve-dividend.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 541" },
+                  { "type": "cbn", "naam": "CBN-advies 2015/2", "ref": "Boekhoudkundige verwerking", "context": "Bijkomende boeking afzonderlijke aanslag" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "boeking-liquidatiereserve",
+              "naam": {
+                "primair": "Boekhoudkundige verwerking liquidatiereserve"
+              },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per CBN-advies 2015/2: (1) Aanleg liquidatiereserve uit te bestemmen winst (klasse 133 — speciale onbeschikbare reserve); (2) Boeking afzonderlijke aanslag 10%: debet 6701 Belastingen op het resultaat / credit 4530 Te betalen belastingen op resultaat; (3) De liquidatiereserve op klasse 133 is een ONBESCHIKBARE reserve — kan alleen worden uitgekeerd na de 10% al betaald is, en met RV-tarief afhankelijk van wachttijd.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 2015/2", "ref": "Bijkomende boeking" },
+                      { "type": "cbn", "naam": "CBN-advies 2015/6", "ref": "Boeking bijzondere aanslag" }
+                    ]
                   }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "vastgoedbeleggingsfonds-aanslag",
+        "naam": {
+          "primair": "Vastgoedbeleggingsfondsen — voortijdige uittreding (art. 219quinquies)"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Afzonderlijke aanslag van 10% op belastbare bedragen bij verrichtingen rond gespecialiseerde vastgoedbeleggingsfondsen (FBI's, art. 210 §1, 6° en art. 211 §1, lid 6) of bij inbreng van onroerend goed exclusief vergoed met nieuwe aandelen (art. 46 §1, lid 2). De aanslag is enkel verschuldigd als het FBI niet ten minste 5 jaar ononderbroken op de FOD Financiën-lijst staat, OF als de inbrenger zijn aandelen niet ten minste 5 jaar onafgebroken aanhoudt. Mechanisme: 'clawback' van het fiscaal gunstregime indien de bedoelde langetermijn-betrokkenheid niet wordt gerespecteerd.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 219quinquies" }
                 ]
               }
             }
           }
         }
       }
+    ],
+    "bouwstenen": [
+      {
+        "id": "cumulatie-met-gewone-venb",
+        "naam": {
+          "primair": "Cumulatie met gewone VenB"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Afzonderlijke aanslagen komen BOVENOP de gewone VenB (basis-tarief 25% of KMO-tarief 20%). Sinds 2014 zijn ze zelf aftrekbaar als beroepskost (uitzondering op art. 198 §1, 1° — niet-aftrekbaarheid eigen VenB). Effect: voor 10.000 EUR niet-verantwoorde kost: (a) gewone VenB 25% × 10.000 = 2.500 EUR; (b) afzonderlijke aanslag 100% = 10.000 EUR; (c) afzonderlijke aanslag is aftrekbare beroepskost → effect op belastbare grondslag voor latere jaren = -10.000 × 25% = -2.500 EUR netto-voordeel terug. Effectief netto-effect: 2.500 + 10.000 − 2.500 = 10.000 EUR sanctie (= 100% van bedrag). De aftrekbaarheid van de aanslag verzacht dus de sanctie deels.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198", "context": "§1, 1° — aftrekbaarheid afzonderlijke aanslagen" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cumulatie-mechaniek" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "samenvatting-tarieven",
+        "naam": {
+          "primair": "Samenvatting tarieven afzonderlijke aanslagen"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Overzicht tarieven:\n• art. 219 — niet-verantwoorde kosten + verdoken meerwinsten: 100% (verhoogd) of 50% (verkrijger rechtspersoon)\n• art. 219bis — tantième te laat: 13% (uitfasering — historisch context)\n• art. 219ter — onaftrekbare-aftrekken-aanslag KMO-bezoldiging: 5,1% (AFGESCHAFT sinds 1/1/2021)\n• art. 219quater — bezoldigingen aan zaakvoerder/bestuurder bij verzaken aan KMO-tarief: 5%\n• art. 219quinquies — vastgoedbeleggingsfondsen voortijdige uittreding: 10%\n• art. 219sexies — vrijgestelde meerwaarden op aandelen specifieke beleggingsvennootschappen: 5%\n• art. 541 — liquidatiereserve bij aanleg: 10% (+ extra 5% bij uitkering >5 jaar)",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 219quinquies" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 219sexies" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 541" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-art-219-100-vs-50",
+        "titel": "Afzonderlijke aanslag art. 219 — 100% vs 50% bij rechtspersoon-begunstigde",
+        "context": "Vennootschap X betaalt 20.000 EUR aan een marketing-bureau zonder factuur of fiche 281.50. Geen identificatie binnen 2 jaar. Vergelijking met scenario waar het bureau een rechtspersoon zou zijn én geïdentificeerd binnen 2 jaar.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-afzonderlijke-aanslagen", "ref": "Codes 1509 + 1510" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Scenario A — Geen verantwoording (code 1510, 100%):",
+              "  • Gewone VU: 20.000 EUR (toegevoegd aan belastbare grondslag, VenB 25% = 5.000 EUR).",
+              "  • Afzonderlijke aanslag art. 219 (100%): 20.000 EUR.",
+              "  • Cumulatief: 5.000 + 20.000 = 25.000 EUR belasting voor 20.000 EUR uitgave (= 125%).",
+              "Scenario B — Verkrijger rechtspersoon, geïdentificeerd binnen 2 jaar (code 1509, 50%):",
+              "  • Indien binnen 2 jaar fiche 281.50 + identificatie + verkrijger fiscaal in regel: ART. 219 NIET VAN TOEPASSING (uitzondering 'voldoende bekend gemaakt').",
+              "  • Maar als de kost zelf niet-aftrekbaar is wegens andere reden (bv. art. 49): wel VU = 20.000 × 25% = 5.000 EUR.",
+              "  • Indien rechtspersoon geïdentificeerd maar zonder fiche tijdig: code 1509 (50%): aanslag = 10.000 EUR + gewone VU = 5.000 EUR = totaal 15.000 EUR (75%).",
+              "Verschil ca. 10.000 EUR — financieel substantieel om fiches in orde te krijgen."
+            ],
+            "resultaat": "Voor 20.000 EUR niet-verantwoorde betaling: tijdige verantwoording (fiche + identificatie + ontvanger in regel) bespaart 25.000 EUR sanctie. Voor accountant: ALTIJD het 2-jaar-venster benutten om alsnog regulariseren."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-liquidatiereserve-optimum",
+        "titel": "Liquidatiereserve — 5-jaar-strategie",
+        "context": "KMO met overgedragen winst 100.000 EUR. Bedrijfsleider plant uitkering binnen 5-10 jaar. Vergelijking van liquidatiereserve-strategie versus directe dividenduitkering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 541" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Optie A — Direct dividend nu (geen liquidatiereserve):",
+              "  • Bruto-dividend: 100.000 EUR.",
+              "  • RV 30%: -30.000 EUR.",
+              "  • Netto bij bedrijfsleider: 70.000 EUR.",
+              "Optie B — Liquidatiereserve aanleggen nu, uitkeren na 5 jaar:",
+              "  • Aanleg reserve 100.000 EUR.",
+              "  • Afzonderlijke aanslag art. 541 (10%): 10.000 EUR betaald NU.",
+              "  • Netto reserve na aanslag: 90.000 EUR.",
+              "  • Na 5 jaar uitkering: RV 5% × 90.000 = 4.500 EUR.",
+              "  • Netto bij bedrijfsleider: 90.000 − 4.500 = 85.500 EUR.",
+              "  • Effectieve belasting: 10.000 + 4.500 = 14.500 EUR (= 14,5% op 100.000) versus 30% in Optie A.",
+              "Verschil voordeel Optie B: 85.500 − 70.000 = 15.500 EUR.",
+              "Optie C — Liquidatiereserve uitkeren bij vereffening (niet via dividend):",
+              "  • Bij vereffening: 0% RV op liquidatiereserve.",
+              "  • Effectieve belasting: enkel 10% bij aanleg = 10.000 EUR.",
+              "  • Netto bij bedrijfsleider: 90.000 EUR — beste optie."
+            ],
+            "resultaat": "Liquidatiereserve is fiscaal zeer aantrekkelijk: 15-20% effectieve belasting versus 30% RV bij directe uitkering. Strategie: vroeg aanleggen (compound effect), 5-jaar-wachten respecteren, ideaal vereffening na pensioenleeftijd."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-fbi-clawback",
+        "titel": "Art. 219quinquies — voortijdige uittreding FBI",
+        "context": "Vastgoedvennootschap A heeft via art. 211 (belastingvrij regime) onroerend goed ingebracht in een gespecialiseerd vastgoedbeleggingsfonds (FBI) in 2023. Belastbaar bedrag indien geen vrijstelling: 5.000.000 EUR. In 2025 (jaar 2 van 5-jaar-vereiste) trekt vennootschap A zich terug uit het FBI (verkoop aandelen).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219quinquies" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Toepassingsvoorwaarde art. 219quinquies: 5-jaar-ononderbroken-aanhouding van aandelen → NIET VERVULD (uittreding na 2 jaar).",
+              "Stap 2 — Afzonderlijke aanslag 10% × 5.000.000 = 500.000 EUR.",
+              "Stap 3 — Verschil met scenario zonder uittreding: 0 EUR aanslag (volledige vrijstelling behouden).",
+              "Stap 4 — 'Clawback' beweegreden: de wetgever stimuleert lange-termijn-betrokkenheid in FBI's; voortijdige uittreding wordt gestraft met 10% van het vermijde-bedrag."
+            ],
+            "resultaat": "Voor het terugtrekken uit een FBI binnen 5 jaar: 500.000 EUR extra belasting. Bij vastgoedplanning: 5-jaar-horizon respecteren of vrijstelling vermijden vanaf de inbreng."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Afzonderlijke aanslag art. 219 verwarren met gewone VU",
+        "verkeerde_assumptie": "Niet-verantwoorde kosten 'gewoon' als VU boeken — geen extra effect.",
+        "kernpunt": "Niet-verantwoorde kosten triggeren TWEE belastingen: (a) toevoeging aan belastbare grondslag (VU code 1225); (b) afzonderlijke aanslag art. 219 (code 1509 of 1510). Cumulatief effect ca. 125% van het bedrag bij 100%-aanslag. Vermijden door tijdige fiches 281.50 en/of identificatie binnen 2-jaar-termijn ('voldoende bekend gemaakt'-uitzondering).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 219" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-afzonderlijke-aanslagen", "ref": "Codes 1509 + 1510" }
+          ]
+        }
+      },
+      {
+        "titel": "Liquidatiereserve aanleggen zonder 5-jaar-strategie",
+        "verkeerde_assumptie": "Liquidatiereserve betaal je 10% op nu, en je kunt altijd voordeel halen bij uitkering.",
+        "kernpunt": "Bij uitkering vóór 5 jaar wachttijd: RV op het uitgekeerd bedrag is 17% (= verminderd RV 30% met credit 13%) — effectief nog 27% totale belasting (10% + 17%). Pas na 5 jaar zakt het uitkeringstarief naar 5% RV. Bij liquidatie/vereffening: 0% RV. Strategische planning vereist: jaarlijks bouwen aan reserve, jong beginnen, wachten op 5-jaar-cyclus.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 541" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Liquidatiereserve-strategie" }
+          ]
+        }
+      },
+      {
+        "titel": "Vergeten dat art. 219ter is afgeschaft sinds 2021",
+        "verkeerde_assumptie": "KMO's zonder minimum-bezoldiging betalen 5,1% extra aanslag.",
+        "kernpunt": "Art. 219ter is afgeschaft sinds 1/1/2021. Vervangende sanctie: indien KMO geen voldoende bedrijfsleidersbezoldiging (≥45.000 EUR of belastbaar resultaat indien lager) uitkeert, dan vervalt de toegang tot het verlaagd KMO-tarief 20%. De vennootschap wordt dan belast aan basis-tarief 25%. Eenvoudiger maar equivalent sanctionerend.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 215", "context": "Voorwaarden verlaagd KMO-tarief" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Hervorming 2021" }
+          ]
+        }
+      },
+      {
+        "titel": "Vergeten dat afzonderlijke aanslag zelf aftrekbaar is",
+        "verkeerde_assumptie": "Afzonderlijke aanslagen zijn niet-aftrekbare belastingen (zoals gewone VenB).",
+        "kernpunt": "Sinds 2014 zijn de meeste afzonderlijke aanslagen (incl. art. 219) AFTREKBAAR als beroepskost. Dit zachtigt de sanctie — voor 10.000 EUR afzonderlijke aanslag is netto-effect ca. 7.500 EUR na fiscale recuperatie van -2.500 EUR (25% × 10.000). Uitzondering: art. 219bis was historisch niet aftrekbaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198", "context": "§1, 1° + uitzonderingen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Aftrekbaarheid afzonderlijke aanslagen sinds 2014" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "vennootschap-aangifte",
+      "naam": {
+        "primair": "Vennootschap — VenB-aangifte + planning"
+      },
+      "intro": "De accountant bij VenB-aangifte-voorbereiding én bij strategische planning van uitkeringen.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiches-281-50-systematiek",
+              "naam": {
+                "primair": "Fiches 281.50-systematiek tegen art. 219"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vóór 30/6 van het jaar volgend op betaling: voor ELKE BEGUNSTIGDE boven 250 EUR/jaar (commissies, makelaarslonen, voordelen van alle aard) fiscale fiche 281.50 indienen. Lijst maken vanaf januari: identificatie (naam + adres + KBO/RSZ), bedrag, datum. Bij vergeten: tot 2 jaar na belastbaar tijdperk regulariseren via 'voldoende bekend gemaakt'-procedure (bezwaarschrift + fiches + verklaring fiscale regularisatie verkrijger). Beste praktijk: maandelijkse review om geen vergetelheden te hebben.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 57" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 219", "context": "Uitzondering tweede alinea" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sanctie-preventiepraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "liquidatiereserve-planning",
+              "naam": {
+                "primair": "Liquidatiereserve-planning"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor KMO-cliënten met overschot-winst: (1) jaarlijks aanleggen van liquidatiereserve, mits voldoende cash; (2) 10%-aanslag betalen bij aanleg = bij voorbaat 'gunstig tarief' verkocht; (3) wachttijd 5 jaar respecteren vóór uitkering om 5% RV te genieten; (4) ideale uitkering bij vereffening (0% RV) — bedrijfsleider plant met pensioneringsmoment. Risico: cash-druk bij aanleg (extra 10% nu te betalen). Alternatief: gewoon dividend nu (30% RV) — vergelijking maken per individuele situatie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 541" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "KMO-uitkerings-optimalisatie" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -169,7 +566,28 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "verworpen-uitgaven"
+      "target": "verworpen-uitgaven",
+      "gelijkenissen": [
+        "Beide vergroten de fiscale druk op vennootschap voor 'oneigenlijke' kosten/voordelen",
+        "Beide worden behandeld in vak 'Verworpen uitgaven + Afzonderlijke aanslagen' van VenB-aangifte"
+      ],
+      "verschillen": [
+        "VU = add-back op belastbare grondslag → gewone VenB 25% of 20% op het verworpen bedrag",
+        "Afzonderlijke aanslag = eigen tarief (100% / 50% / 10% / 5%) BOVENOP gewone VenB",
+        "Cumulatie: niet-verantwoorde kosten triggeren BEIDE (VU code 1225 + afzonderlijke aanslag code 1509/1510)"
+      ],
+      "verwarring_risico": "Studenten denken dat VU en afzonderlijke aanslag synoniem zijn — terwijl ze parallel werken. Bij niet-verantwoorde kosten: dubbel-effect.",
+      "render_hint": "als_waarschuwing"
+    },
+    {
+      "type": "triggert",
+      "target": "verworpen-uitgaven",
+      "toelichting": "Code 1225 (niet-verantwoorde kosten) zit in VU én triggert tegelijk afzonderlijke aanslag art. 219."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "bedrijfsleidersbezoldiging",
+      "toelichting": "Minimum-bedrijfsleidersbezoldiging-regeling beïnvloedt KMO-tarief-toegang (art. 215 — historisch art. 219ter)."
     }
   ]
 }
