@@ -1,30 +1,36 @@
 {
   "id": "vennootschap-groottecategorieen",
   "naam": {
-    "primair": "Grootte-categorieën van vennootschappen",
-    "synoniemen": [
-      "KMO-criteria",
-      "grootte-criteria vennootschap",
-      "art 1:24 WVV-drempels",
-      "klein vs middelgroot vs groot",
-      "micro-onderneming"
-    ]
+    "primair": "Groottecategorieën van vennootschappen",
+    "synoniemen": ["groottecriteria", "size categories companies"]
   },
-  "concept_type": "regime",
+  "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.I",
-      "1.1.II.A"
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "regeling"],
+    "ankers": ["3.0.III", "3.0.III.A"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/vennootschap-groottecategorieen.json",
+      "primary_bronnen": [
+        "WVV art. 1:24",
+        "WVV art. 1:25",
+        "WVV art. 1:26",
+        "WVV art. 1:27",
+        "WVV art. 3:4",
+        "WVV art. 3:22",
+        "WVV art. 3:62",
+        "CBN-advies 2022/03 (beoordeling groottecriteria)",
+        "CBN-advies 2019/12 (vzw + grootte)",
+        "CBN-advies 2024/08 (verhoging groottecriteria)",
+        "WIB92 art. 2 — 5°/1 (groep van vennootschappen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,7 +38,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit ondernemingsvormen-cluster (skelet-doc regel ~1024, hernoemd van groottecategorie-vennootschap, OP-VOV.B)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:40:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit WVV art. 1:24-1:27 + CBN-adviezen 2022/03 + 2024/08 + aangifte-VenB-2025 didactische opmerkingen. Drempel-verhoging KB 21-03-2024 verwerkt."
       }
     ],
     "scope": {
@@ -44,41 +57,43 @@
         "Onderscheid met fiscale KMO-criteria (art 1:24-1:25 WIB) — niet identiek"
       ],
       "out": [
-        {
-          "topic": "Parent — ondernemingsvormen",
-          "richting": "moet-verwijzen",
-          "ref": "ondernemingsvormen"
-        },
-        {
-          "topic": "Jaarrekening-schema-keuze (volledig · verkort · micro)",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "KMO-tarief vennootschapsbelasting — aparte fiscale criteria",
-          "richting": "moet-verwijzen",
-          "ref": "kmo-tarief-vennootschapsbelasting"
-        },
-        {
-          "topic": "Wettelijke controle door commissaris (trigger via grootte)",
-          "richting": "moet-verwijzen",
-          "ref": "controleopdracht"
-        }
+        { "topic": "Parent — ondernemingsvormen", "richting": "moet-verwijzen", "ref": "ondernemingsvormen" },
+        { "topic": "Jaarrekening-schema-keuze (volledig · verkort · micro)", "richting": "moet-verwijzen", "ref": "jaarrekening" },
+        { "topic": "KMO-tarief vennootschapsbelasting — aparte fiscale criteria", "richting": "moet-verwijzen", "ref": "kmo-tarief-vennootschapsbelasting" },
+        { "topic": "Wettelijke controle door commissaris (trigger via grootte)", "richting": "moet-verwijzen", "ref": "controleopdracht" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het Wetboek van vennootschappen en verenigingen (WVV) deelt vennootschappen in op basis van hun grootte. Voor jaarrekeningrechtelijke en controlerechtelijke doeleinden onderscheidt art. 1:24-1:27 drie hoofdcategorieën: **microvennootschap** (art. 1:25), **kleine vennootschap** (art. 1:24) en — impliciet, als restcategorie — de **grote vennootschap**. Naast deze WVV-categorieën gebruikt de fiscale wet eigen criteria (WIB92 art. 2 + art. 15) voor het KMO-tarief vennootschapsbelasting. De grootte wordt bepaald aan de hand van drie criteria — balanstotaal, jaaromzet (excl. btw) en gemiddelde aantal werknemers — telkens beoordeeld op balansdatum van het laatst afgesloten boekjaar.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 (klein) + art. 1:25 (micro)" },
+            { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Definitie van kleine vennootschappen en microvennootschappen" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de accountant is de groottecategorie hét vertrekpunt van bijna elk dossier: ze bepaalt welk jaarrekening-schema (micro · verkort · volledig) wordt gebruikt, of een commissaris moet worden aangesteld, of er moet worden geconsolideerd, welke publicatieverplichtingen gelden, en welke controlenormen (ISA versus ITAA-KMO-norm) van toepassing zijn. De categorie wordt jaarlijks her-getoetst — en wijzigt pas (omhoog of omlaag) na een **twee-jaar-overschrijdingsregel** (twee opeenvolgende boekjaren boven of onder de drempels). Bij de allereerste boekjaren van een nieuwe vennootschap geldt: schatten op basis van te goeder trouw schattingen (de eerste boekjaar-cijfers zijn nog niet 'historiek').",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 2 (twee-jaarsregel)" },
+            { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Voorbeeld 1-2 (toepassings-cascade)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkimpact" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De groottecategorieën vertalen het EU-principe 'think small first' (richtlijn 2013/34/EU): kleinere ondernemingen moeten verlost worden van administratieve overlast die voor grote bedrijven gerechtvaardigd is. Hoe kleiner de vennootschap, hoe lichter de informatieplicht (kleinere schema's), hoe minder controle (geen commissaris), en hoe minder publicatie (alleen verkort schema bij NBB). Dit beleid balanceert tussen transparantie naar derden (schuldeisers, fiscus, beleggers) en redelijke kosten voor de onderneming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "EU-richtlijn 2013/34/EU (Accounting Directive)", "ref": "Considerans + art. 3 (grootteklassen)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beleidsrationale 'think small first'" }
           ]
         }
       }
@@ -86,68 +101,360 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV art 1:24-1:27"
+        "sinds": "2024-01-01",
+        "wettelijke_basis": "WVV art. 1:24-1:27 (W 23-03-2019); drempels herzien door KB 21 maart 2024 (substantiële verhoging na EU-aanpassing voor inflatie)",
+        "toelichting": "De drempelwaarden werden bij KB van 21 maart 2024 substantieel verhoogd om EU-richtlijn 2023/2775 om te zetten. Boekjaren startend vanaf 1 januari 2024 vallen onder de nieuwe drempels. Voor boekjaren daarvóór gelden de oude drempels — CBN-advies 2024/08 bespreekt de overgangs-perikelen voor v(z)w's."
       }
     },
+    "subconcepten": [
+      {
+        "id": "categorie-microvennootschap",
+        "naam": { "primair": "Microvennootschap (art. 1:25 WVV)" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Microvennootschap is een **kleine vennootschap** die geen dochter- of moedervennootschap is en die op balansdatum **niet meer dan één** van de volgende criteria overschrijdt (drempels vanaf BJ 2024, na verhoging KB 21-03-2024):\n• Balanstotaal: 450.000 EUR\n• Jaaromzet (excl. btw): 900.000 EUR\n• Gemiddeld aantal werknemers (jaargemiddelde): 10\n\nGevolg: mag de **micro-schema-jaarrekening** gebruiken (kortste schema), met sterk vereenvoudigde toelichting. Geen commissaris vereist. Lichte publicatieplicht (alleen micro-schema bij NBB).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:25" },
+                  { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Definitie microvennootschappen" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-kleine-vennootschap",
+        "naam": { "primair": "Kleine vennootschap (art. 1:24 WVV)" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een vennootschap is **klein** als ze op balansdatum **niet meer dan één** van de volgende criteria overschrijdt (drempels vanaf BJ 2024):\n• Balanstotaal: 6.000.000 EUR (vroeger 4.500.000)\n• Jaaromzet (excl. btw): 11.250.000 EUR (vroeger 9.000.000)\n• Gemiddeld aantal werknemers: 50\n\nDochters en moedervennootschappen worden voor deze test beoordeeld op **geconsolideerd niveau**. Een vennootschap die deel uitmaakt van een groep én meer dan 50 werknemers heeft, kan nooit klein zijn — ongeacht balans en omzet (art. 1:24 § 3).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 1 + § 3" },
+                  { "type": "aangifte", "naam": "Aangifte VenB 2025", "ref": "Blz. 14 — Vak grootte van de vennootschap" },
+                  { "type": "kb", "naam": "KB 21 maart 2024", "ref": "art. 1 (drempel-verhoging)" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Een kleine vennootschap mag het **verkort schema** gebruiken (of micro-schema indien zij ook micro is). Geen commissaris vereist. Geen geconsolideerde jaarrekening (vrijstelling). Genieten van fiscale gunstregimes (KMO-tarief VenB 20% op eerste 100.000 EUR, investeringsaftrek, taxshelter, ...).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:4-3:23" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 215 (KMO-tarief)" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese gevolgen kleine venn" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-grote-vennootschap",
+        "naam": { "primair": "Grote vennootschap" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een vennootschap is **groot** zodra ze niet klein is — d.w.z. ze overschrijdt meer dan één van de kleine-drempels, of ze hoort tot een groep met >50 werknemers. Verplichtingen voor grote vennootschappen: **volledig jaarrekening-schema**, **aanstelling commissaris** (art. 3:72 WVV) tenzij uitzonderingen, **geconsolideerde jaarrekening** indien moedervennootschap (art. 3:22 e.v.), **volledige publicatie** bij NBB. De ISA-controlenormen (Internationale Standaarden voor Audit) zijn integraal van toepassing bij wettelijke controle.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22 (consolidatie)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:62 + 3:72 (commissaris)" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "twee-jaars-regel",
+        "naam": { "primair": "Twee-jaar-overschrijdingsregel" },
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een vennootschap wisselt van categorie pas wanneer de drempels gedurende **twee opeenvolgende boekjaren** worden overschreden — niet bij een eenmalige piek (art. 1:24 § 2). Dit voorkomt jojo-effect bij conjuncturele schommelingen. Bijgevolg: een vennootschap die in BJ 2024 voor het eerst de kleine-drempels overschrijdt blijft 'klein' tot het einde van BJ 2025; pas vanaf BJ 2026 wordt zij 'groot' (mits ook BJ 2025 boven drempel was).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 2 (mutatis mutandis art. 1:25 § 2)" },
+                  { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Voorbeelden van toepassing tweejaars-regel" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Belangrijke uitzondering: **bij eerste boekjaar** van een nieuwe vennootschap geldt de tweejaars-regel niet — daar werkt men met te goeder trouw schattingen op basis van budget en plan. Bij **wijziging boekjaar-duur** worden de drempels pro rata aangepast (omzet en personeel worden geannualiseerd).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Eerste boekjaar + wijziging boekjaar-duur" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "groepsniveau-beoordeling",
+        "naam": { "primair": "Groepsniveau-beoordeling (geconsolideerde drempels)" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een vennootschap die een dochteronderneming of moedermaatschappij is, of die deel uitmaakt van een **consortium**, moet de groottedrempels **op geconsolideerd niveau** beoordelen (art. 1:24 § 3 + § 6 + art. 1:26). Met andere woorden: de jaaromzet, het balanstotaal en het personeelsbestand van alle groepsvennootschappen worden samen geteld, na eliminatie van interne stromen, en daarop wordt de drempel-toets gedaan. Doel: voorkomen dat een grote groep zich verkleed in kleine dochtervennootschappen om aan controle-en consolidatieplicht te ontsnappen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 3 + § 6" },
+                  { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Voorbeeld 1 — consortium" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°/1 (definitie groep)" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "cascade-gevolgen",
+        "naam": { "primair": "Cascade van gevolgen per categorie" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De groottecategorie triggert vijf wezenlijke gevolgen: (1) **Jaarrekening-schema** — micro/verkort/volledig (art. 3:4-3:6); (2) **Wettelijke controle** — commissaris verplicht bij grote (art. 3:72) — bij kleine niet (uitzonderingen: openbaar belang, beursgenoteerd); (3) **Consolidatieplicht** — alleen grote moederv. moeten geconsolideerde jaarrekening opmaken (art. 3:22) — kleine zijn vrijgesteld als 'kleine groep'; (4) **Publicatieformaliteiten** — micro publiceert micro-schema, klein publiceert verkort, groot volledig + jaarverslag + commissarisverslag; (5) **Controlenorm-toepasselijkheid** — voor wettelijke controle op grote: ISA (volledige internationale standaarden); voor vrijwillige opdrachten KMO: ITAA-KMO-controlenorm (lichter).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:4 (schemakeuze)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22 (consolidatie)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:72 (commissaris)" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "verschil-met-fiscale-kmo",
+        "naam": { "primair": "Verschil met fiscale KMO-criteria (WIB92)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Voor het KMO-tarief vennootschapsbelasting (20% op eerste 100.000 EUR) hanteert de fiscale wet **eigen criteria** (WIB92 art. 2 + art. 15). Niet alle WVV-kleine vennootschappen kwalificeren fiscaal. Bijkomende fiscale voorwaarden o.a.: bedrijfsleidersbezoldiging ≥ 45.000 EUR (of ≥ belastbaar resultaat indien lager), geen 'financiële vennootschap', niet meer dan 50% beleggingen, geen onderdeel van groep met grote venn. Verwarring tussen WVV-klein en fiscaal-KMO is een klassieke val.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 215 (KMO-tarief)" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 1:24-1:25" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
     "bouwstenen": [
       {
-        "id": "drempels-art-1-24",
-        "naam": {
-          "primair": "Drempels art 1:24-1:27 WVV"
-        },
+        "id": "drempels-kleine-venn-bj-2024",
+        "naam": { "primair": "Drempels kleine vennootschap (vanaf BJ 2024)" },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — kwantitatieve drempels op balanstotaal · omzet · personeelsbestand voor micro · klein · middelgroot · groot.",
+            "tekst": "Drempels art. 1:24 § 1 WVV (geldig vanaf boekjaren startend vanaf 1-1-2024 ingevolge KB 21-03-2024):\n• Balanstotaal: **6.000.000 EUR** (was 4.500.000)\n• Jaaromzet excl. btw: **11.250.000 EUR** (was 9.000.000)\n• Gemiddelde aantal werknemers (jaargemiddelde): **50**\n\nEén overschrijden is OK; twee of drie overschrijden = niet meer klein (na tweejaars-regel).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 1" },
+                { "type": "kb", "naam": "KB 21 maart 2024", "ref": "art. 1" }
               ]
             }
           }
         }
       },
       {
-        "id": "twee-jaar-overschrijdingsregel",
-        "naam": {
-          "primair": "Twee-jaar-overschrijdingsregel"
-        },
+        "id": "drempels-micro-bj-2024",
+        "naam": { "primair": "Drempels microvennootschap (vanaf BJ 2024)" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Drempels art. 1:25 § 1 WVV (geldig vanaf BJ 2024):\n• Balanstotaal: **450.000 EUR** (was 350.000)\n• Jaaromzet excl. btw: **900.000 EUR** (was 700.000)\n• Gemiddelde aantal werknemers: **10**\n\nBijkomende voorwaarde: GEEN dochter- of moedervennootschap zijn — micro = strikt 'stand-alone' kleine venn.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 1:25 § 1" },
+                { "type": "kb", "naam": "KB 21 maart 2024", "ref": "art. 2" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "een-overschrijding-toegestaan",
+        "naam": { "primair": "'Niet meer dan één'-regel" },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — wijziging van categorie pas na 2 opeenvolgende boekjaren waarin drempel wordt overschreden/onderschreden.",
+            "tekst": "Een vennootschap is klein/micro als ze **niet meer dan één** van de drie drempels overschrijdt. Dat betekent: overschrijden van twee of drie drempels = niet meer klein. Het is dus geen 'alle drie'-test maar een 'maximum één'-test. Verwarring hierover is wijdverbreid bij studenten.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 1" },
+                { "type": "aangifte", "naam": "Aangifte VenB 2025", "ref": "Didactische opmerkingen" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Categorisering Aurelia Industrie BV — BJ 2024",
+        "context": "Aurelia Industrie BV behaalt in BJ 2024: balanstotaal 5.500.000 EUR · jaaromzet excl. btw 12.000.000 EUR · 45 werknemers gemiddeld. Geen dochter, geen moeder. In BJ 2023: balans 4.200.000 · omzet 10.500.000 · 42 werknemers.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Voorbeeld 1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld toegepast op nieuwe drempels" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Toets aan kleine-drempels BJ 2024",
+            "tekst": "Criterium | Drempel | Aurelia BJ 2024 | Aurelia BJ 2023 | Overschreden?\n---|---|---|---|---\nBalanstotaal | 6.000.000 | 5.500.000 | 4.200.000 | Nee\nJaaromzet | 11.250.000 | 12.000.000 | 10.500.000 | **2024 ja, 2023 nee**\nWerknemers | 50 | 45 | 42 | Nee\n\nBesluit BJ 2024: 1 drempel overschreden → nog klein.\nMaar in BJ 2025 indien omzet opnieuw > 11.250.000: dan twee opeenvolgende jaren overschrijding van één drempel — alsnog klein (slechts één criterium). Pas wanneer twee criteria gedurende twee jaar overschreden zijn, kantelt de categorie naar groot."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "'Alle drie de drempels' vs 'meer dan één'",
+        "verkeerde_assumptie": "Een vennootschap is klein zolang ze niet alle drie de drempels overschrijdt.",
+        "kernpunt": "Onjuist. De test is **'meer dan één'** — twee drempels overschrijden is al genoeg om uit de 'klein'-categorie te vallen. Een vennootschap met 60 werknemers en 13 miljoen omzet is dus groot, ook al is haar balans nog onder de 6 miljoen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 1" }
+          ]
+        }
+      },
+      {
+        "titel": "WVV-klein = fiscaal-KMO",
+        "verkeerde_assumptie": "Een vennootschap die WVV-klein is, geniet automatisch het KMO-tarief vennootschapsbelasting.",
+        "kernpunt": "De fiscale wet heeft extra voorwaarden (WIB92 art. 215 § 2-3): bedrijfsleidersbezoldiging-minimum, geen 'financiële vennootschap', geen groepsdochter. Een WVV-kleine venn kan dus alsnog buiten het KMO-tarief vallen. Cijferzakboekje raadplegen voor de actuele bedragen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 215 § 2-3" }
+          ]
+        }
+      },
+      {
+        "titel": "Eenmalige overschrijding = onmiddellijke wijziging",
+        "verkeerde_assumptie": "Zodra de drempels in één boekjaar worden overschreden, wisselt de categorie van klein naar groot.",
+        "kernpunt": "Toepassing van de twee-jaarsregel (art. 1:24 § 2): pas wanneer twee opeenvolgende boekjaren de drempels worden overschreden, wijzigt de categorie. Een eenmalige conjuncturele piek heeft geen onmiddellijk gevolg.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 2" }
+          ]
+        }
+      },
+      {
+        "titel": "Groottedrempels op stand-alone-basis voor groep-venn",
+        "verkeerde_assumptie": "Bij een dochtervennootschap kijken we naar de eigen cijfers, niet naar de groep.",
+        "kernpunt": "Voor moeder- en dochtervennootschappen worden de drempels **geconsolideerd** beoordeeld (art. 1:24 § 3). Een kleine dochter binnen een grote groep is voor jaarrekeningrechtelijke doeleinden dus 'groot'. Dit voorkomt fragmentatie van een grote groep in kleine dochters om aan administratieve verplichtingen te ontsnappen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 3 + § 6" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "ondernemingsvormen"
-    },
-    {
-      "type": "triggert",
-      "target": "jaarrekening"
-    },
-    {
-      "type": "triggert",
-      "target": "controleopdracht"
+      "id": "jaarafsluiting-categorisering",
+      "naam": { "primair": "Bij jaarafsluiting: bepaal de groottecategorie" },
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "stap-toetsen-drempels",
+              "naam": { "primair": "Drempels toetsen aan einde boekjaar" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stap 1: Verzamel cijfers boekjaar — balanstotaal (na waardering), jaaromzet excl. btw, jaargemiddelde werknemers (via DmfA-aangiftes). Stap 2: Toets aan kleine-drempels (1:24) — meer dan één overschreden? Stap 3: Indien klein, toets ook aan micro-drempels (1:25) + check 'geen dochter/moeder'. Stap 4: Apply twee-jaarsregel (kijk ook BJ-1). Stap 5: Bij groep — herhaal op geconsolideerd niveau.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24-1:25" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Procedurele werkstap" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "schema-keuze",
+              "naam": { "primair": "Jaarrekening-schema kiezen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Micro → micro-schema (bijlage 8 KB WVV); klein → verkort schema (bijlage 7); groot → volledig schema (bijlage 6) + jaarverslag + (in voorkomend geval) commissarisverslag. Schema-keuze beïnvloedt sterk de complexiteit en bijgevolg de kosten van de jaarrekening-opdracht.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 3:4-3:6" },
+                      { "type": "wettekst", "naam": "KB WVV", "ref": "Bijlage 6-7-8" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscaal-kmo-check-apart",
+              "naam": { "primair": "Fiscaal-KMO-check apart uitvoeren" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Doe een aparte test op de fiscale KMO-voorwaarden (WIB92 art. 215 § 2-3): bedrijfsleidersbezoldiging, financiële-vennootschap-test, groepsverbod. Een WVV-klein die niet fiscaal-KMO is, mist het 20%-tarief — een aanzienlijk fiscaal nadeel. Documenteer de toets in het belastingsdossier.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 215 § 2-3" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "ondernemingsvormen" },
+    { "type": "triggert", "target": "jaarrekening" },
+    { "type": "triggert", "target": "controleopdracht" }
   ]
 }
