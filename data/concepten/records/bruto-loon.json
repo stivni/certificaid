@@ -2,20 +2,14 @@
   "id": "bruto-loon",
   "naam": {
     "primair": "Bruto-loon",
-    "synoniemen": [
-      "bruto bezoldiging"
-    ]
+    "synoniemen": ["bruto bezoldiging", "brutoloon"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.2.taak.3"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.2.taak.3"],
     "scope": {
       "in": [
         "Sectorale barema's",
@@ -24,54 +18,336 @@
         "Basis voor BV + RSZ-berekeningen"
       ],
       "out": [
-        {
-          "topic": "Loon-en-payroll K-techniek (cascade-context)",
-          "richting": "moet-verwijzen",
-          "ref": "loon-en-payroll"
-        },
-        {
-          "topic": "Werknemers-vergoedingen Σ (alternatieven)",
-          "richting": "mag-verwijzen",
-          "ref": "werknemers-vergoedingen"
-        }
+        {"topic": "Loon-en-payroll K-techniek (cascade-context)", "richting": "moet-verwijzen", "ref": "loon-en-payroll"},
+        {"topic": "Werknemers-vergoedingen Σ (alternatieven)", "richting": "mag-verwijzen", "ref": "werknemers-vergoedingen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/bruto-loon.json",
+      "primary_bronnen": [
+        "Wet 3 juli 1978 arbeidsovereenkomsten",
+        "Loonbeschermingswet 12 april 1965",
+        "WIB92 art. 31",
+        "CBN-advies 2016/15"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (Wet 3 juli 1978, WIB92 art. 31, CBN 2016/15) + payroll-kennis"}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het bruto-loon is het volledige bedrag dat de werkgever contractueel verschuldigd is aan de werknemer voor zijn arbeidsprestaties, vóór inhouding van RSZ-werknemersbijdragen en bedrijfsvoorheffing. Het omvat het basisloon (uurloon × prestaties of vast maandloon), eventuele variabele componenten (commissies, premies, overuren) en voordelen in geld. Het bruto-loon is de berekeningsbasis voor zowel de sociale-zekerheidsbijdragen als voor de bedrijfsvoorheffing in de bruto-naar-netto-cascade.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Wet 3 juli 1978 betreffende de arbeidsovereenkomsten", "ref": "art. 20"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 31", "context": "Bezoldigingen werknemers — alle beloningen die voor de werknemer de opbrengst zijn van arbeid"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de werknemer is het bruto-loon de bovenkant van de loonstrook — het 'beloofde' loon volgens de arbeidsovereenkomst. Wat de werknemer effectief op zijn rekening krijgt (netto-loon) is significant lager: typisch 50-65 % van het bruto, afhankelijk van het loonniveau en de gezinssituatie. Voor de werkgever is het bruto-loon slechts een tussenstap: de totale loonkost ligt 25-30 % hoger door de werkgevers-RSZ. Het bruto-loon is dus de scharnier tussen werknemer-perspectief (loonstrook) en werkgever-perspectief (loonkost).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-cascade kennis"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het bruto-loon bestaat als afzonderlijk concept omdat de loonkost in België gespreid wordt over drie betalers: de werknemer betaalt RSZ-werknemer en BV uit zijn bruto; de werkgever betaalt het bruto plus RSZ-werkgever; de overheid (RSZ + fiscus) int de bijdragen en voorheffingen. Het bruto-loon is het contractuele aanknopingspunt — wat in de arbeidsovereenkomst staat — en de wettelijke basis voor alle daaropvolgende berekeningen (BV, RSZ, vakantiegeld, opzegvergoeding, pensioen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["arbeidsovereenkomst"],
+      "kader": "loon-en-payroll",
+      "volgkennis": ["bedrijfsvoorheffing", "rsz-werknemer", "rsz-werkgever"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Wet 3 juli 1978 (arbeidsovereenkomsten) + Loonbeschermingswet 12 april 1965 + WIB92 art. 31"
+      },
+      "voor": [
+        {
+          "tekst": "Elke werknemer met een arbeidsovereenkomst (arbeider, bediende, handelsvertegenwoordiger). Het bruto-loon is steeds de berekeningsbasis voor RSZ en BV, ongeacht het statuut of de sector.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wet 3 juli 1978 betreffende de arbeidsovereenkomsten", "ref": "art. 1-3"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Bedrijfsleidersbezoldigingen (zelfstandige bedrijfsleiders, art. 32 WIB92) — die volgen een ander regime zonder werknemers-RSZ. Voor bedrijfsleiders gelden enkel sociale-zekerheidsbijdragen voor zelfstandigen en BV op de bezoldiging.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 32", "context": "Bezoldigingen bedrijfsleiders — afzonderlijke categorie"}
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Het bruto-loon mag niet lager liggen dan (a) het sectorale baremaloon vastgesteld door CAO van het bevoegde paritair comité, (b) het gewaarborgd gemiddeld minimum maandinkomen (GGMMI) bij ontstentenis van een lagere sectorale CAO.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard arbeidsrechtelijke regel — CAO-bindende werking + GGMMI als ondergrens"}
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De verplichting tot uitbetaling ontstaat door de arbeidsprestatie — voor maandlonen typisch maandelijks ten laatste de 4e werkdag na de maand waarop het loon betrekking heeft (art. 9 Loonbeschermingswet).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Loonbeschermingswet 12-04-1965 art. 9"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "componenten-bruto-loon",
+        "naam": {"primair": "Componenten van het bruto-loon"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het bruto-loon omvat: (1) basisloon (uurloon of maandloon vastgelegd in de arbeidsovereenkomst, minimaal het sectorale barema); (2) variabele componenten — commissies, productiviteits-premies, overuren-toeslagen; (3) voordelen in geld — eindejaarspremie, dertiende maand, vakantiegeld (enkel + dubbel); (4) voordelen alle aard (bedrijfswagen, GSM) voor het deel dat als loon kwalificeert. Niet inbegrepen: terugbetaling van onkosten 'eigen aan de werkgever'.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 31", "context": "Definitie bezoldigingen werknemers"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-decompositie"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "sectoraal-barema",
+        "naam": {"primair": "Sectoraal barema (CAO PC)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke werknemer valt onder een paritair comité (PC) — de sectorale CAO van dat PC bepaalt het minimum baremaloon per functieklasse en anciënniteits-trap. De werkgever mag een hoger loon toekennen, maar nooit lager dan het barema. Bij wijziging van functieklasse of bij overschrijding van een anciënniteits-trap moet het loon mechanisch worden aangepast.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard CAO-bindingsregel"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "indexering",
+        "naam": {"primair": "Automatische indexering"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "België kent een automatische loonindexering: wanneer de gezondheidsindex (afgevlakte gezondheidsindex) een spilindex overschrijdt, worden de lonen sectoraal verhoogd. De timing en formule verschilt per sector: sommige PC's hanteren maandelijkse indexering (bv. PC 200 — bedienden), andere jaarlijks (bv. PC 124 — bouw). De werkgever past de indexatie automatisch toe — de werknemer hoeft niets te doen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 3 juli 1978 betreffende de arbeidsovereenkomsten", "ref": "art. 131", "context": "Indexering wettelijke loonbedragen via index conventionele lonen bedienden"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sector-specifieke indexering"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "basis-voor-rsz-bv",
+        "naam": {"primair": "Basis voor RSZ en BV"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het bruto-loon dient als grondslag voor twee parallelle inhoudingen: (1) RSZ-werknemer (13,07 % van het bruto, met enkele uitzonderingen); (2) bedrijfsvoorheffing (BV) — progressief berekend volgens de schalen in het Cijferzakboekje, op basis van het belastbaar maandloon (bruto − RSZ-werknemer) en de gezinssituatie. De werkgever houdt beide bedragen in en stort ze door aan de RSZ respectievelijk de fiscus.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-cascade — exact percentage in Cijferzakboekje"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-bediende-bruto-3500",
+        "titel": "Bediende — bruto-loon € 3.500/maand",
+        "context": "Sven, bediende bij Aurelia Holding NV, PC 200, alleenstaand zonder kinderen. Maandloon volgens arbeidsovereenkomst: 3.500 EUR bruto.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Indicatieve berekening — exacte percentages/schalen Cijferzakboekje raadplegen"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — bruto-loon: 3.500,00 EUR",
+              "Stap 2 — RSZ-werknemer (13,07 %): 3.500 × 13,07 % = 457,45 EUR",
+              "Stap 3 — belastbaar loon: 3.500 − 457,45 = 3.042,55 EUR",
+              "Stap 4 — bedrijfsvoorheffing (BV-schaal alleenstaande, indicatief): ≈ 725 EUR — exact bedrag in Cijferzakboekje opzoeken",
+              "Stap 5 — netto-loon: 3.042,55 − ≈725 = ≈ 2.317 EUR",
+              "Stap 6 — werkgevers-RSZ (≈ 25 %): 3.500 × 25 % = 875 EUR",
+              "Stap 7 — totale loonkost werkgever: 3.500 + 875 = 4.375 EUR"
+            ],
+            "resultaat": "Werknemer ontvangt ≈ 2.317 EUR netto; werkgever betaalt ≈ 4.375 EUR loonkost. Het bruto-loon van 3.500 EUR is het scharnierbedrag — exacte BV-bedragen via Cijferzakboekje."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking bruto-loon en sociale lasten (klasse 62)",
+            "rijen": [
+              {"rekening": "620 — Bezoldigingen en rechtstreekse sociale voordelen", "debet": 3500.00, "credit": null, "omschrijving": "Bruto-loon Sven"},
+              {"rekening": "621 — Werkgeversbijdragen voor sociale verzekeringen", "debet": 875.00, "credit": null, "omschrijving": "RSZ-werkgever 25 %"},
+              {"rekening": "453 — Ingehouden voorheffingen (BV)", "debet": null, "credit": 725.00, "omschrijving": "BV ingehouden — door te storten aan fiscus"},
+              {"rekening": "454 — Rijksdienst voor Sociale Zekerheid", "debet": null, "credit": 1332.45, "omschrijving": "RSZ werknemer (457,45) + werkgever (875)"},
+              {"rekening": "455 — Bezoldigingen", "debet": null, "credit": 2317.55, "omschrijving": "Netto-loon — door te storten aan werknemer"}
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bruto-loon verwarren met loonkost werkgever",
+        "verkeerde_assumptie": "Studenten denken dat 'het bruto-loon' het totale bedrag is dat de werkgever betaalt voor één werknemer.",
+        "kernpunt": "De loonkost werkgever ligt ≈ 25-30 % hoger dan het bruto-loon door de werkgevers-RSZ-bijdrage. Het bruto-loon is wat in de arbeidsovereenkomst staat én de berekeningsbasis voor RSZ + BV — niet de totale kost van de werkgever.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "Sectoraal barema vergeten te checken",
+        "verkeerde_assumptie": "Het loon dat in de arbeidsovereenkomst staat is automatisch geldig zolang beide partijen ermee instemmen.",
+        "kernpunt": "De CAO van het paritair comité (sectoraal barema) is bindend — een lager loon overeenkomen dan het barema is nietig en de werknemer kan het verschil terugvorderen. Eerst PC bepalen, dan barema-loon checken, dan pas effectief loon afspreken.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "RSZ-percentage uit het hoofd kennen vs Cijferzakboekje gebruiken",
+        "verkeerde_assumptie": "13,07 % en 25 % zijn exact in elke situatie.",
+        "kernpunt": "13,07 % is de standaard werknemers-RSZ; werkgevers-RSZ varieert per sector en ondernemingsgrootte (basis ≈ 25 %, met sectorale toeslagen en eventuele structurele verminderingen — bv. doelgroepvermindering, lage-lonen-bonus). Bij het examen altijd het Cijferzakboekje raadplegen voor het exacte percentage.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "loon-en-payroll"
+      "id": "werkgever-client",
+      "naam": {"primair": "Werkgever-cliënt (KMO met personeel)"},
+      "intro": "De accountant die de loonboekhouding van een KMO-cliënt voert of erop toeziet.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-loon-klasse-62",
+              "naam": {"primair": "Boeking bruto-loon in klasse 62"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij verwerking van de loonjournaal: het bruto-loon wordt geboekt op 620 (Bezoldigingen) of een sub-rekening per categorie (bv. 6201 directiepersoneel, 6202 administratief personeel). De werkgevers-RSZ komt op 621. Tegen-boekingen: 453 (ingehouden voorheffing BV), 454 (RSZ — totaal werknemer + werkgever), 455 (te betalen netto-loon). De maandelijkse loonjournaal wordt typisch door het sociaal secretariaat aangeleverd; de boekhouder controleert de splitsing en boekt.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "advies", "naam": "CBN-advies 2016/15 — Vergoedingen aan bestuurders en werkende vennoten", "ref": "Boekingen tijdens het boekjaar", "context": "Rekening-codes 620, 621, 453, 454, 455"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-loonpakket-vs-alternatieven",
+              "naam": {"primair": "Loonsverhoging vs alternatieve voordelen"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij vraag van werknemer of werkgever om het loon te verhogen: wijs op de hoge wig (≈ 50 % van elke euro bruto-loon gaat naar RSZ + BV). Alternatieven met lagere kost-naar-netto-verhouding: maaltijdcheques, ecocheques, groepsverzekering (2e-pijler pensioen), bedrijfsfiets, mobiliteitsbudget, warrants/aandelenopties. Elk alternatief heeft eigen voorwaarden en plafonds.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-adviespraktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-payroll-completeness",
+              "naam": {"primair": "Volledigheids- en cut-off-controle payroll"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Controleren of klasse 62 alle bezoldigingen omvat (volledigheid): aansluiting tussen sociaal-secretariaat-rapportering en grootboek, voldoende werknemers in loonlijst, geen ontbrekende maand. Cut-off: bezoldigingen december geboekt in december (provisie eindejaarspremie + provisie dubbel vakantiegeld voor het komende jaar). Substantief: steekproef arbeidsovereenkomsten + loonfiches 281.10 vs grootboek.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard audit-werkprogramma payroll"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "loon-en-payroll"},
+    {"type": "triggert", "target": "rsz-werknemer", "toelichting": "Bruto-loon is grondslag voor RSZ-werknemer inhouding (13,07 %)."},
+    {"type": "triggert", "target": "rsz-werkgever", "toelichting": "Bruto-loon is grondslag voor RSZ-werkgever bijdrage (≈ 25 %)."},
+    {"type": "triggert", "target": "bedrijfsvoorheffing", "toelichting": "Belastbaar loon (bruto − RSZ-werknemer) is grondslag voor BV-berekening."},
+    {"type": "vergelijkbaar_met", "target": "bedrijfsleidersbezoldiging", "gelijkenissen": ["Beide vormen beroepsinkomsten van een natuurlijke persoon", "Beide worden onderworpen aan bedrijfsvoorheffing en personenbelasting"], "verschillen": ["Bruto-loon: werknemer met arbeidsovereenkomst — RSZ-werknemer 13,07 % + RSZ-werkgever 25 %", "Bedrijfsleidersbezoldiging: zelfstandige bedrijfsleider — sociale bijdragen zelfstandigen (lager, afhankelijk van inkomen), geen werkgevers-RSZ", "Boekhoudkundig: bruto-loon op 620; bedrijfsleidersbezoldiging op 618"], "verwarring_risico": "Bij familiale vennootschappen is het soms onduidelijk of de bedrijfsleider ook 'als werknemer' werkt — fiscale en sociale herclassificatie mogelijk."}
   ]
 }
