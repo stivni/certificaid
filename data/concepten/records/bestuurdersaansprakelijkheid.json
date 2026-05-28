@@ -5,12 +5,15 @@
     "synoniemen": [
       "director liability",
       "aansprakelijkheid bestuurders"
-    ]
+    ],
+    "vertaling": {
+      "fr": "responsabilité des administrateurs"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "gebeurtenis"
@@ -21,8 +24,24 @@
       "3.0.VII.B"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/bestuurdersaansprakelijkheid.json",
+      "primary_bronnen": [
+        "WVV art. 2:55",
+        "WVV art. 2:56",
+        "WVV art. 2:57",
+        "WVV art. 2:58",
+        "WER XX.225",
+        "WER XX.226",
+        "WER XX.227",
+        "WVV art. 5:90",
+        "WVV art. 7:149"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,21 +49,28 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit bestuur-en-aansprakelijkheid-cluster (skelet-doc regel ~1077, split van aansprakelijkheid-oprichters-bestuurders — OP-BA.A)"
+        "wijziging": "Skeleton-record aangemaakt uit bestuur-en-aansprakelijkheid-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (MvT WVV art. 2:52/53/56/57 — moderne nummering 2:55-2:58; WER XX.225-227). Geen extra MCP-calls."
       }
     ],
     "scope": {
       "in": [
         "3 sporen: contractueel (vennootschap) · buitencontractueel (derden) · strafrechtelijk",
         "Kennelijk grove fout · kennelijk onbehoorlijk bestuur · schending wet/statuten",
-        "Faillissementsaansprakelijkheid (WER XX:225) — kennelijk onbehoorlijk bestuur dat bijdroeg aan faillissement",
+        "Faillissementsaansprakelijkheid (WER XX.225) — kennelijk grove fout die bijdroeg aan faillissement",
         "Wettelijke cap (aansprakelijkheidsbeperking sinds WVV — bedragen volgens omzet/balanstotaal)",
         "Kwijting (3.0.VII.B) — reikwijdte: alleen bekende feiten",
         "Ontslag + bekendmaking — bestuurder blijft aansprakelijk tot publicatie ontslag"
       ],
       "out": [
         {
-          "topic": "Oprichtersaansprakelijkheid — verwant maar onderscheiden",
+          "topic": "Oprichtersaansprakelijkheid — verwant maar onderscheiden (art. 5:16 / 7:18)",
           "richting": "moet-verwijzen",
           "ref": "oprichtersaansprakelijkheid"
         },
@@ -54,7 +80,7 @@
           "ref": "bestuur-vennootschap"
         },
         {
-          "topic": "Algemene vergadering — kwijting-besluit",
+          "topic": "Algemene vergadering — kwijting-besluit (art. 5:98 / 7:149)",
           "richting": "moet-verwijzen",
           "ref": "algemene-vergadering"
         },
@@ -62,11 +88,6 @@
           "topic": "Faillissement als context voor faillissementsaansprakelijkheid",
           "richting": "moet-verwijzen",
           "ref": "faillissement"
-        },
-        {
-          "topic": "Alarmbel-procedure — niet-naleving als aansprakelijkheidsgrond",
-          "richting": "moet-verwijzen",
-          "ref": "alarmbel-procedure"
         },
         {
           "topic": "Beroepsaansprakelijkheid accountant — parallel 3-sporen-concept",
@@ -79,24 +100,104 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Bestuurdersaansprakelijkheid is de persoonlijke aansprakelijkheid van bestuurders, zaakvoerders, dagelijks bestuurders, leden van de directieraad of raad van toezicht — én van iedere persoon die ten aanzien van de rechtspersoon werkelijke bestuursbevoegdheid heeft of heeft gehad (feitelijke bestuurder) — voor fouten begaan in de uitoefening van hun opdracht (art. 2:55 + 2:56 WVV). De WVV brengt drie sporen samen: contractueel (jegens de vennootschap zelf wegens gebrekkige opdrachtuitvoering), buitencontractueel (jegens derden voor onrechtmatige daad) en strafrechtelijk. Sinds 2019 geldt een wettelijke aansprakelijkheidscap per feit of feitenset (art. 2:57 WVV), in vier schijven die meebewegen met de omvang van de vennootschap.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:55" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De aansprakelijkheidsstandaard is een marginale toetsing: een bestuurder is enkel aansprakelijk voor 'beslissingen, daden of gedragingen die zich kennelijk buiten de marge bevinden waarbinnen normaal voorzichtige en zorgvuldige bestuurders, geplaatst in dezelfde omstandigheden, redelijkerwijze van mening kunnen verschillen' (art. 2:56 §2 WVV — codificatie van de business judgement rule). De rechter kijkt dus naar wat 'redelijke' bestuurders in dezelfde omstandigheden zouden hebben beslist; commerciële tegenslag is geen fout. Voor schending van het Wetboek of de statuten geldt geen marginale toetsing — elke schending is een fout en de aansprakelijkheid is hoofdelijk (art. 2:56 §3). De cap (125k → 12 mio EUR) geldt per 'feit of geheel van feiten' en wordt niet vermenigvuldigd bij meerdere eisers of meerdere kwalificaties.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" },
+            { "type": "wettekst", "naam": "MvT WVV", "ref": "art. 2:57", "context": "Toelichting cap per feitenset, geen vermenigvuldiging per eiser of kwalificatie" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever wil drie belangen verzoenen: (1) bestuurders aanmoedigen om weloverwogen risico's te nemen (zonder vrees voor onbeperkte persoonlijke ruïne) — vandaar marginale toets en cap; (2) toch persoonlijke verantwoordelijkheid blijven afdwingen voor échte fouten (kennelijk grove fout, schending wet, faillissementsbijdrage); (3) ongerechtvaardigd verschil wegnemen tussen bestuurders en (top)managers — die laatsten genoten al feitelijk aansprakelijkheidsbeperking via werknemersstatuut (art. 18 Arbeidsovereenkomstenwet) of via professionele BV. Vandaar de cap (art. 2:57) gecombineerd met een verbod op verdere contractuele of statutaire exoneratie of vrijwaring door de vennootschap (art. 2:58).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "MvT WVV", "ref": "art. 2:57", "context": "Eerste vaststelling: ongerechtvaardigd verschil bestuurder vs werknemer/zelfstandige" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:58" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "bestuur-vennootschap",
+        "ondernemingsvormen"
+      ],
+      "kader": "bestuur-vennootschap",
+      "naast_relevant": [
+        "oprichtersaansprakelijkheid",
+        "beroepsaansprakelijkheid"
+      ],
+      "volgkennis": [
+        "faillissement"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV + WER boek XX"
-      }
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV art. 2:55-2:58 (Wet 23 maart 2019); WER boek XX.225-XX.227",
+        "toelichting": "Cap (art. 2:57) en exoneratieverbod (art. 2:58) zijn vernieuwingen van het WVV t.o.v. oud W.Venn. — onder oude wet was bestuurdersaansprakelijkheid onbeperkt."
+      },
+      "voor": [
+        {
+          "tekst": "Iedere bestuurder, zaakvoerder, dagelijks bestuurder, lid van directieraad of raad van toezicht — én iedere feitelijke bestuurder (persoon die werkelijke bestuursbevoegdheid uitoefent zonder formeel mandaat). Aanvangt bij aanvaarding van het mandaat (of bij feitelijk bestuurshandelen); blijft doorlopen tot bekendmaking van het ontslag in het Belgisch Staatsblad / KBO (art. 2:18 — tegenwerpelijkheid).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:55" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:18" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Klassieke driehoek voor aansprakelijkheidsvordering: (1) fout — beslissing/daad/nalatigheid die kennelijk buiten de marge van redelijke bestuurders ligt OF schending van wet/statuten; (2) schade — bewezen schade van de vennootschap, van derden of van de boedel; (3) oorzakelijk verband tussen fout en schade. De bewijslast rust op de eiser (vennootschap, curator, derde).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Een bestuurder is ontheven van aansprakelijkheid voor fouten waaraan hij geen deel heeft gehad, indien hij de beweerde fout heeft gemeld aan alle andere bestuurders (of, in collegiaal orgaan, aan het college + raad van toezicht). De melding moet worden opgenomen in de notulen (art. 2:56 §4 WVV). Dit is de zogeheten 'klokkenluiders-of-protest-clausule' — passief instemmen volstaat niet.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56 §4", "context": "Ontheffingsregel met meldings- en notuleringsverplichting" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Naast de civielrechtelijke aansprakelijkheid is er een strafrechtelijk spoor (specifieke WVV-misdrijven zoals valsheid in jaarrekening, onverantwoorde voortzetting van een verlieslatende activiteit, niet-naleving van de alarmbel-procedure) en het sociaal-rechtelijk spoor (art. XX.226 WER — hoofdelijke aansprakelijkheid voor onbetaalde sociale bijdragen indien betrokken bij minstens twee faillissementen in de voorbije 5 jaar).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WER", "ref": "art. XX.226" }
+            ]
+          }
+        }
+      ]
     },
     "bouwstenen": [
       {
@@ -107,37 +208,32 @@
         "bouwsteen_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — contractueel (jegens vennootschap) · buitencontractueel (jegens derden) · strafrechtelijk.",
+            "tekst": "De bestuurdersaansprakelijkheid loopt langs drie sporen die naast elkaar kunnen worden ingesteld:\n\n**Spoor 1 — Contractueel (jegens de vennootschap)**: art. 2:56 §2 WVV — fouten in de uitoefening van het mandaat. Vordering door de vennootschap (typisch na ontslag bestuurder of bij faillissement door de curator namens de boedel) of door minderheidsaandeelhouders via de minderheidsvordering (art. 2:60 WVV — 1 % aandelen of 1,25 mio EUR).\n\n**Spoor 2 — Buitencontractueel (jegens derden)**: art. 2:56 §3 WVV + art. 1382 oud BW / 6.4 nieuw BW — onrechtmatige daad jegens leveranciers, klanten, financiers. Bv. wrongful trading (verder werken terwijl insolventie onafwendbaar is) leidt tot persoonlijke aansprakelijkheid jegens de teleurgestelde derde.\n\n**Spoor 3 — Strafrechtelijk**: specifieke WVV-misdrijven (valsheid in oprichtingsakte, valsheid in jaarrekening, vermomde winstuitkering) en commune misdrijven (misbruik van vennootschapsgoederen, bedrieglijke bankbreuk). Strafrechtelijke veroordeling kan civielrechtelijke aansprakelijkheid genereren via burgerlijke partijstelling.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:60" },
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.225" }
               ]
             }
           }
         }
       },
       {
-        "id": "faillissementsaansprakelijkheid",
+        "id": "marginale-toets",
         "naam": {
-          "primair": "Faillissementsaansprakelijkheid (WER XX:225)"
+          "primair": "Marginale toetsing / business judgement rule"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — kennelijk onbehoorlijk bestuur dat bijdroeg aan faillissement → schadevergoeding aan boedel.",
+            "tekst": "Voor algemene bestuursfouten (niet voor wets-/statutenschending): de bestuurder is enkel aansprakelijk voor beslissingen die zich 'kennelijk buiten de marge bevinden waarbinnen normaal voorzichtige en zorgvuldige bestuurders, geplaatst in dezelfde omstandigheden, redelijkerwijze van mening kunnen verschillen' (art. 2:56 §2 WVV). Dit is een codificatie van de Amerikaanse business judgement rule: tegenslag of zelfs grote verliezen wijzen niet automatisch op een fout. De rechter beoordeelt ex ante (wat wist de bestuurder op het beslissingsmoment), niet ex post (achteraf gezien). Bij wets- of statutenschending geldt deze marginale toets NIET — elke schending is een fout en in collegiaal bestuur is de aansprakelijkheid hoofdelijk (art. 2:56 §3).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56 §2" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56 §3" }
               ]
             }
           }
@@ -146,20 +242,68 @@
       {
         "id": "wettelijke-cap",
         "naam": {
-          "primair": "Wettelijke cap op aansprakelijkheid"
+          "primair": "Wettelijke cap op aansprakelijkheid (art. 2:57 WVV)"
         },
         "bouwsteen_type": "drempel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — bedragen volgens omzet/balanstotaal · sinds WVV.",
+            "tekst": "Sinds WVV is de aansprakelijkheid van bestuurders begrensd per feit of geheel van feiten. Vier schijven volgens gemiddelde omzet en balanstotaal over 3 boekjaren:\n\n- **Schijf 1 — 125.000 EUR**: omzet < 350.000 EUR en balanstotaal ≤ 175.000 EUR.\n- **Schijf 2 — 250.000 EUR**: omzet < 700.000 EUR en balanstotaal ≤ 350.000 EUR.\n- **Schijf 3 — 1.000.000 EUR**: omzet ≤ 9 mio EUR en balanstotaal ≤ 4,5 mio EUR.\n- **Schijf 4 — 3.000.000 EUR**: andere vennootschappen, behalve grote/PIE.\n- **Schijf 5 — 12.000.000 EUR**: grote vennootschappen en organisaties van openbaar belang.\n\nDe cap geldt PER FEIT of geheel van feiten, niet per eiser en niet per kwalificatie (MvT). Géén cap voor: bedrog/fraude/zwaar opzet, fiscale schulden (BV/BTW art. 442quater + art. 93undeciesC WBTW), socialezekerheidsschulden (art. XX.226 WER), of niet-betaling bedrijfsvoorheffing.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" },
+                { "type": "wettekst", "naam": "MvT WVV", "ref": "art. 2:57", "context": "Cap geldt per feit/feitenset; geen vermenigvuldiging per eiser of kwalificatie; uitsluitingen voor bedrog, fiscale en sociale schulden" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Schijf", "Cap-bedrag", "Omzet (3-j gem.)", "Balanstotaal (3-j gem.)"],
+            "rijen": [
+              ["1 (micro-mini)", "125.000 EUR", "< 350.000 EUR", "≤ 175.000 EUR"],
+              ["2 (klein)", "250.000 EUR", "< 700.000 EUR", "≤ 350.000 EUR"],
+              ["3 (KMO)", "1.000.000 EUR", "≤ 9 mio EUR", "≤ 4,5 mio EUR"],
+              ["4 (middelgroot)", "3.000.000 EUR", "andere (niet groot/PIE)", "andere"],
+              ["5 (groot/PIE)", "12.000.000 EUR", "groot of organisatie openbaar belang", "groot of organisatie openbaar belang"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "exoneratie-verbod",
+        "naam": {
+          "primair": "Verbod op contractuele/statutaire uitbreiding aansprakelijkheidsbeperking (art. 2:58)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Onlosmakelijk verbonden met de cap: art. 2:58 WVV verbiedt elke contractuele of statutaire aansprakelijkheidsbeperking die verder gaat dan art. 2:57 (= lagere cap zou onmogelijk zijn, want de wet biedt al de maximum-bescherming). Bovendien zijn exoneratie- en vrijwaringsbedingen door de vennootschap ten voordele van haar bestuurders verboden — de vennootschap kan niet vooraf 'verklaren' haar bestuurder niet aan te spreken. D&O-verzekering (Directors and Officers liability insurance) blijft wel toegelaten en is vrijwel altijd raadzaam.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:58" },
+                { "type": "wettekst", "naam": "MvT WVV", "ref": "art. 2:57", "context": "Verbod op contractuele/statutaire verdergaande beperking + exoneratie/vrijwaringsbedingen door vennootschap" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "faillissementsaansprakelijkheid",
+        "naam": {
+          "primair": "Faillissementsaansprakelijkheid (WER art. XX.225 — kennelijk grove fout)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij faillissement kan de curator (of een benadeelde schuldeiser) de huidige of gewezen bestuurders persoonlijk en hoofdelijk aansprakelijk stellen voor het geheel of een deel van het netto-passief, indien een **kennelijk grove fout** van die personen heeft bijgedragen tot het faillissement (art. XX.225 WER — voorheen 'bijzondere faillissementsaansprakelijkheid', oud art. 530 W.Venn.). Toepassingsvoorwaarden:\n\n1. **Kennelijk grove fout** — zwaarder dan gewone fout; vereist objectief duidelijke onzorgvuldigheid (typische voorbeelden: voortzetting van duidelijk verlieslatende activiteit zonder uitzicht, gebruik vennootschapsmiddelen voor privé, niet-betaling sociale of fiscale schulden, niet-naleving van de alarmbel-procedure).\n2. **Causaal verband** met het faillissement — fout moet hebben bijgedragen tot het ontstaan van het netto-passief.\n3. **Vordering door curator** namens de boedel; benadeelde individuele schuldeiser na curator-machtiging.\n\nDe vordering geldt zowel voor formele als feitelijke bestuurders. Aparte regel art. XX.226 WER: hoofdelijke aansprakelijkheid voor onbetaalde sociale bijdragen indien bestuurder betrokken was bij minstens twee andere faillissementen of vereffeningen in de afgelopen 5 jaar (presumptie van onzorgvuldigheid).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.225" },
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.226" }
               ]
             }
           }
@@ -168,20 +312,17 @@
       {
         "id": "kwijting",
         "naam": {
-          "primair": "Kwijting"
+          "primair": "Kwijting door algemene vergadering"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — reikwijdte: alleen bekende feiten; geen wisselgeld voor toekomstige claims (3.0.VII.B).",
+            "tekst": "De algemene vergadering verleent jaarlijks (na bespreking van de jaarrekening) kwijting aan de bestuurders en aan de commissaris (art. 5:98 BV / 7:149 NV WVV). Kwijting is een eenzijdige verklaring van de vennootschap dat zij geen vordering meer instelt jegens de bestuurder voor de tijdens het boekjaar gestelde handelingen. Belangrijke beperkingen:\n\n- **Alleen bekende feiten** — kwijting dekt enkel handelingen die effectief uit de jaarrekening of uit andere stukken aan de AV blijken (art. 5:98 §2 / 7:149 §2). Verborgen of latere ontdekte fraude valt nooit onder kwijting.\n- **Alleen vennootschap, niet derden** — kwijting bindt enkel de vennootschap zelf. Derden (curator namens boedel, schuldeisers, fiscus, RSZ) kunnen ondanks kwijting blijven vorderen.\n- **Geldigheid** — kwijting is slechts geldig indien de jaarrekening geen onjuistheden of weglatingen bevat die de werkelijke toestand van de vennootschap verbergen, en indien voor zover de handelingen die zich buiten de jaarrekening situeren, daarvan in de oproeping uitdrukkelijk melding is gemaakt.\n\nKwijting is dus eerder een 'vrijwaring tegen de eigen vennootschap binnen bekende perimeter', geen volledige absolutie.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:98" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:149" }
               ]
             }
           }
@@ -190,51 +331,377 @@
       {
         "id": "ontslag-bekendmaking",
         "naam": {
-          "primair": "Ontslag-bekendmaking"
+          "primair": "Ontslag-bekendmaking — moment einde aansprakelijkheid"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — bestuurder blijft aansprakelijk tot publicatie ontslag.",
+            "tekst": "Een ontslag van bestuurder werkt intern onmiddellijk (vanaf datum AV-besluit of vanaf datum kennisgeving voor vrijwillig ontslag), maar is pas tegenwerpelijk aan derden vanaf bekendmaking in de Bijlagen bij het Belgisch Staatsblad / inschrijving in KBO (art. 2:8 + 2:18 WVV). Tot dat ogenblik blijft de gewezen bestuurder voor derden 'in functie' en dus blootgesteld aan aansprakelijkheid voor handelingen van zijn opvolger en voor blijvende verplichtingen (bv. niet-naleving alarmbel die nog niet werd opgestart). Praktijk-advies: actief erop toezien dat het ontslag binnen de week wordt neergelegd door de vennootschap; eventueel zelf het ontslag laten neerleggen (art. 2:17 vermelding 'op verzoek van de gewezen bestuurder').",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:8" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:18" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:73 §5", "context": "Vermelding 'op verzoek van de vennootschap blijft hij in functie totdat...'" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-cap-toepassing",
+        "titel": "Toepassing cap art. 2:57 — BV 'Trans-Logistics' faillissement < 3j",
+        "context": "BV Trans-Logistics werd opgericht op 1 juli 2023 en ging failliet op 1 maart 2026 — bestaansduur 2 jaar 8 maanden. Twee laatste boekjaren (2024, 2025): gemiddelde omzet 850.000 EUR; gemiddeld balanstotaal 480.000 EUR. Bestuurder B (enige bestuurder) heeft duidelijk verder gewerkt terwijl insolventie onafwendbaar was (alarmbel niet geactiveerd; geen budgetcontroles; persoonlijke onkosten op vennootschap geboekt). Curator stelt aansprakelijkheidsvordering in voor 4,2 miljoen EUR netto-passief.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — bepaal de cap-schijf op basis van 3-jaar gemiddelden (art. 2:57 §1 WVV). Bij vennootschap jonger dan 3 jaar: gemiddelden over beschikbare boekjaren (MvT). Hier: gemiddelde over 2024-2025: omzet 850.000 EUR, balans 480.000 EUR.",
+              "Stap 2 — vergelijk met schijven: omzet > 700.000 maar < 9 mio EUR; balans > 350.000 maar < 4,5 mio EUR → valt in schijf 3 (KMO). Cap = 1.000.000 EUR per feitenset.",
+              "Stap 3 — analyseer de aansprakelijkheidsgronden: (a) wrongful trading + niet-naleving alarmbel (= grove fout XX.225 WER); (b) persoonlijke onkosten = misbruik vennootschapsgoederen (strafrechtelijk + bestuurdersfout); (c) verzuim van wettelijke administratieve verplichtingen.",
+              "Stap 4 — MvT: cap geldt per 'feit of geheel van feiten'. (a) en (c) hangen samen (onbehoorlijke bedrijfsvoering die tot faillissement leidde) → één geheel = 1 cap. (b) is een afzonderlijk feitencomplex (afgewende middelen) → tweede cap mogelijk.",
+              "Stap 5 — uitsluitingen check: bedrog/zwaar opzet = GEEN cap (art. 2:57 §3 WVV). Indien rechter oordeelt dat (b) frauduleus opzet is → geen cap voor dat luik. Voor (a)+(c) wel cap 1.000.000 EUR."
+            ],
+            "resultaat": "Maximaal: 1.000.000 EUR (kennelijk onbehoorlijk bestuur → art. XX.225) + integraal voor frauduleuze elementen. Indien rechter het netto-passief toewijst op grond XX.225 zou bestuurder zonder cap 4,2 mio betalen — door cap nu beperkt tot 1.000.000 EUR. Maar de fraude-aansprakelijkheid voor de privé-onkosten blijft uncapped."
+          },
+          {
+            "type": "proza",
+            "tekst": "**Belangrijk voor het examen**: de cap is GEEN wijziging van de fout-toets of de schade-vaststelling — die berekeningen blijven gelijk. De cap werkt aan het *eind* van de berekening: pas nadat schade + causaal verband + fout zijn vastgesteld wordt het toegekende bedrag tot het cap-niveau begrensd."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" },
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.225" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek cijfervoorbeeld toepassing cap (faillissement < 3j, kennelijk grove fout, 3 sporen)" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-marginale-toets",
+        "titel": "Mislukte productlancering — marginale toets vs fout",
+        "context": "NV Innovatech (raad van bestuur 5 leden) lanceert in 2025 een nieuw productplatform met investering 2,5 mio EUR. Marktonderzoek was uitbesteed aan extern bureau, business case grondig in bestuursvergadering besproken (notulen + presentatie), beslissing 4 vs 1 (één bestuurder stemde tegen). Lancering mislukt door onverwachte concurrentie uit Azië. Schade voor vennootschap: 2,1 mio EUR afschrijving. Aandeelhouders willen bestuurders aansprakelijk stellen.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Analyse via marginale toets (art. 2:56 §2 WVV):\n\n1. **Beslissingsproces** — extern marktonderzoek, grondige discussie in raad, gedocumenteerd in notulen, meerderheidsbesluit. Dit zijn allemaal indicatoren van behoorlijk bestuursproces.\n2. **Ex ante toets** — op het beslissingsmoment was de business case verdedigbaar. Rechter mag niet ex post oordelen op basis van wat we nu weten (Aziatische concurrentie).\n3. **Marginale toets** — vraag is niet 'was dit de beste beslissing?' maar 'lag deze beslissing kennelijk buiten de marge waarbinnen redelijke bestuurders konden verschillen?'. Hier: nee — andere ondernemingen lanceerden gelijkaardige platforms in dezelfde periode.\n4. **Tegenstemmer (bestuurder X)** — heeft hij zijn voorbehoud genotuleerd? Indien ja → automatisch ontheven van aansprakelijkheid (art. 2:56 §4 — passieve onthouding volstaat niet, ACTIEVE melding en notulering wel).\n\n**Resultaat**: geen bestuurdersaansprakelijkheid. Commerciële mislukking is geen 'fout' — de business judgement rule beschermt bestuurders tegen aansprakelijkheid voor weloverwogen risicovolle keuzes die achteraf verkeerd uitpakken."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke business judgement rule-illustratie" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-kwijting-beperking",
+        "titel": "Kwijting dekt geen verborgen fraude — casus verborgen privé-bestedingen",
+        "context": "Bestuurder Y van NV Beta heeft gedurende 2023 voor 180.000 EUR persoonlijke uitgaven (luxe-reizen, privé-renovatie) op rekening van NV Beta geboekt onder 'algemene onkosten'. In de jaarrekening 2023 staat de 180.000 EUR onzichtbaar verwerkt in rekening 614 'Algemene onkosten'. De AV van mei 2024 verleent kwijting aan Y voor het boekjaar 2023. In 2026 ontdekt de nieuwe accountant de fraude.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Analyse — werking kwijting (art. 7:149 WVV):\n\n1. **Bekende feiten** — kwijting dekt enkel feiten die uit de jaarrekening of meegedeelde stukken konden blijken. Hier: de 180.000 EUR was verborgen in een verzamelpost; AV kon dit niet 'kennen'.\n2. **Verzwegen feit** — de kwijting is voor dit onderdeel ongeldig: ontbreekt het noodzakelijke informatie-aspect (geen transparantie van het te kwijten feit).\n3. **Derden niet gebonden** — los daarvan: ook al was de kwijting geldig, ze bindt alleen de vennootschap, niet derden. Curator (bij faillissement), fiscus, RSZ blijven onverlet.\n4. **Strafrechtelijk** — misbruik van vennootschapsgoederen (art. 492bis Strafwetboek) — kwijting heeft GEEN invloed op strafvordering.\n\n**Resultaat**: vennootschap kan jegens Y een vordering instellen tot terugbetaling 180.000 EUR + schadevergoeding. Kwijting 2023 vormt geen verweer. Strafklacht ook mogelijk."
+          },
+          {
+            "type": "boeking",
+            "scenario": "Correctie 2026 — terugvordering verkeerde boekingen 2023",
+            "lijnen": [
+              { "rekening": "416", "naam": "Diverse vorderingen — bestuurder Y", "debet": 180000.00 },
+              { "rekening": "76", "naam": "Niet-recurrente opbrengsten", "credit": 180000.00, "toelichting": "Correctie ten onrechte als kost geboekte privé-uitgaven 2023" }
+            ]
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:149" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke kwijting-beperking" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Kwijting = volledige absolutie",
+        "verkeerde_assumptie": "Eens de algemene vergadering kwijting heeft verleend, kan de bestuurder voor dat boekjaar nooit meer worden aangesproken.",
+        "kernpunt": "Kwijting bindt enkel de vennootschap en alleen voor bekende feiten die uit de jaarrekening of toelichtingen blijken. Verborgen fraude, verzwegen verrichtingen, en alle vorderingen van derden (curator, RSZ, fiscus, individuele schuldeisers) blijven onverlet. Bovendien is kwijting ongeldig indien de jaarrekening onjuist is of essentiële informatie weglaat.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:98" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:149" }
+          ]
+        }
+      },
+      {
+        "titel": "Cap = alle vorderingen samen begrensd",
+        "verkeerde_assumptie": "De cap van art. 2:57 begrenst alle vorderingen tegen een bestuurder voor zijn hele bestuursperiode tot het maximumbedrag.",
+        "kernpunt": "De cap geldt PER FEIT of GEHEEL VAN FEITEN, niet per bestuurder en niet voor de hele mandaatperiode. Drie aparte feitencomplexen leiden tot drie aparte caps (telkens schijf-bedrag). Maar binnen één feitencomplex wordt de cap niet vermenigvuldigd met het aantal eisers of het aantal juridische kwalificaties. En géén cap voor bedrog/zwaar opzet, fiscale schulden (BV/BTW), socialezekerheidsschulden, niet-betaling bedrijfsvoorheffing.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" },
+            { "type": "wettekst", "naam": "MvT WVV", "ref": "art. 2:57" }
+          ]
+        }
+      },
+      {
+        "titel": "Tegenstemmen volstaat als bewijs van onschuld",
+        "verkeerde_assumptie": "Bestuurder die tegen een beslissing stemde of zich onthield is automatisch vrijgesteld van aansprakelijkheid.",
+        "kernpunt": "Art. 2:56 §4 WVV vereist (a) MELDING van de beweerde fout aan alle andere bestuurders (in collegiaal bestuur: aan college + raad van toezicht), én (b) OPNAME van die melding in de notulen. Stilzwijgende tegenstem zonder gemotiveerd voorbehoud in de notulen volstaat niet. Praktisch: 'X stemt tegen en motiveert' moet expliciet in de notulen staan, anders blijft hoofdelijke aansprakelijkheid in collegiaal bestuur gelden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56 §4" }
+          ]
+        }
+      },
+      {
+        "titel": "Verkoop / overdracht aandelen = stop aansprakelijkheid",
+        "verkeerde_assumptie": "Wie zijn aandelen + bestuursfunctie afstoot is direct vrij van alle voorbije aansprakelijkheid.",
+        "kernpunt": "Ontslag is pas tegenwerpelijk aan derden na bekendmaking in Belgisch Staatsblad / KBO (art. 2:18 WVV). Tot dan kan de gewezen bestuurder voor handelingen tijdens de bekendmakings-vertraging worden aangesproken. Bovendien: aansprakelijkheid voor handelingen tijdens de mandaatperiode (faillissement, fraude, schending wet/statuten) blijft doorlopen — geen verjaring binnen 5 jaar na de feiten (art. 2:143 WVV).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:18" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:143" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "D&O-verzekering — wel of geen polis?",
+        "opties": [
+          {
+            "keuze": "D&O-verzekering door de vennootschap voor haar bestuurders",
+            "voordeel": "Toegelaten ondanks exoneratieverbod (art. 2:58 verbiedt enkel exoneratie/vrijwaring DOOR de vennootschap zelf, niet via verzekering). Premie aftrekbaar als beroepskost (rekening 615). Dekt civielrechtelijke aanspraken tot cap + bovenop cap voor onverhoopte uitsluitingen.",
+            "nadeel": "Premie afhankelijk van omvang vennootschap en sector — typische premies tussen 2.000 EUR (KMO) en 50.000 EUR (PIE). Uitsluitingen: bedrog, opzettelijke fouten, strafrechtelijke boetes."
+          },
+          {
+            "keuze": "Geen verzekering — vertrouwen op cap",
+            "voordeel": "Bespaart premie. Bestuurder draagt bewust zijn deel risico.",
+            "nadeel": "Bij grote claim: bestuurder draait persoonlijk op tot cap. Bij fraude- of fiscale uitzonderingen: geen cap, geen verzekering — onbeperkt persoonlijk vermogen blootgesteld."
+          }
+        ],
+        "vuistregel": "Altijd D&O-polis adviseren voor NV en BV vanaf schijf 3 (KMO). Voor schijf 1-2 micro-vennootschappen kan polis disproportioneel duur zijn; dan minstens jaarlijkse 'risk review' met cliënt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:58", "context": "Exoneratieverbod door vennootschap; D&O-polis blijft toegelaten" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk D&O-verzekering" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "tijdslijn",
+        "intro": "Levenscyclus van bestuurdersaansprakelijkheid — van mandaataanvaarding tot verjaring",
+        "inhoud": {
+          "fasen": [
+            { "moment": "T0 — Mandaataanvaarding", "trigger": "Benoeming AV of oprichtingsakte", "gevolg": "Persoonlijke aansprakelijkheidsblootstelling start" },
+            { "moment": "Tijdens mandaat", "trigger": "Beslissingen en handelingen", "gevolg": "Voortdurende aansprakelijkheid voor fouten (art. 2:56); marginale toets vrije keuzes" },
+            { "moment": "Einde boekjaar", "trigger": "AV-jaarvergadering", "gevolg": "Mogelijke kwijting voor bekende feiten van dat boekjaar (art. 5:98 / 7:149)" },
+            { "moment": "T-Ontslag", "trigger": "Beslissing AV of vrijwillig ontslag", "gevolg": "Intern: stopzetting; extern: aansprakelijk tot bekendmaking" },
+            { "moment": "T-Bekendmaking", "trigger": "Publicatie KBO/Staatsblad", "gevolg": "Tegenwerpbaar aan derden (art. 2:18). Aansprakelijkheid voor lopende handelingen stopt." },
+            { "moment": "T+5 jaar na feit", "trigger": "Verjaringstermijn", "gevolg": "Civielrechtelijke vordering verjaart in principe na 5 jaar (art. 2:143 WVV; bij verzwijging: latere ontdekking)" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "client-vennootschap",
+      "naam": {
+        "primair": "Cliënt-vennootschap (advies aan bestuurders)"
+      },
+      "intro": "De accountant adviseert bestuurders over hun aansprakelijkheidspositie — bij aanvaarding mandaat, lopend, bij ontslag, en bij faillissementsrisico.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-aanvaarding-mandaat",
+              "naam": {
+                "primair": "Checklist bij aanvaarding bestuursmandaat"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor aanvaarding bestuursmandaat (zeker buiten KMO-context van eigenaar-bestuurder):\n\n1. Doorlichten financiële toestand vennootschap (recente jaarrekening + tussentijdse cijfers + cashflow) — vermijd 'erfenis' van bestaande problemen.\n2. Statuten lezen — bevoegdheidsverdeling, vertegenwoordigingsclausule, mandaatduur, voorwaarden ontslag.\n3. D&O-polis controleren — bestaat er een geldige polis voor de huidige raad? Premiehoogte, uitsluitingen, retroactieve dekking voor gewezen mandaten.\n4. Schijf-bepaling cap (art. 2:57) — laat de cliënt-vennootschap berekenen welke cap toepasselijk is (3-jaar gemiddelden omzet/balans).\n5. Bij collegiaal bestuur: vraag intern reglement met bevoegdheidsverdeling en notulering-procedure.\n6. Documenteer eigen positie schriftelijk (bv. 'ik aanvaard mandaat onder voorwaarde X').",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 2:55" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk aanvaarding bestuursmandaat" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "advies-alarmbel",
+              "naam": {
+                "primair": "Alarmbel-detectie en -procedure"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke kwartaalcijfer / interim-balans: controle alarmbelvoorwaarden (art. 5:153 BV / 7:228 NV). Bij BV: liquiditeitstest negatief (=schuldeisers kunnen niet meer betaald worden in 12 maanden) OF nettoactief negatief OF gedaald onder helft. Bij NV: nettoactief gedaald onder 50% kapitaal (alarmbel-1) of onder kwart (alarmbel-2) of onder minimum (1.000 EUR/61.500 EUR). Procedure: bestuursorgaan moet binnen 2 maanden buitengewone AV bijeenroepen met voorstel maatregelen, gemotiveerd verslag. Niet-naleving = vermoeden van fout bij latere insolventie (art. XX.225 WER) — extreem belangrijk te documenteren!",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:153" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:228" },
+                      { "type": "wettekst", "naam": "WER", "ref": "art. XX.225" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-bestuurdersaansprakelijkheid-go-concern",
+              "naam": {
+                "primair": "Going concern + bestuurdersaansprakelijkheidsrisico (ISA 570)"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij ISA-570-going-concern-onzekerheid: de commissaris moet niet alleen oordelen over de jaarrekening, maar ook checken of het bestuur de alarmbel-procedure heeft opgevolgd. Bij niet-opvolging: rapporteren in zijn verslag aan de AV, eventueel met voorbehoud. Documenteer in werkpapieren: data van interne cijfers waar going concern in vraag kwam, bestuurs-acties (notulen), eventuele alarmbel-bijeenroeping. Bij faillissement: de commissaris is doelwit van curator-vordering indien hij hier laks was — eigen beroepsaansprakelijkheid loopt parallel.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 570 (herzien)", "ref": "Going concern" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:153" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:228" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard commissarispraktijk going concern" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-do-premie",
+              "naam": {
+                "primair": "Boeking D&O-verzekeringspremie"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Premie D&O-verzekering door vennootschap betaald voor haar bestuurders: rekening 615 'Verzekeringspremies en -bijdragen — niet sociale' (klasse 6). Tegenboeking 440 'Leveranciers' (verzekeraar) of 550 'Bank'. Aftrekbaar als beroepskost voor de vennootschap (art. 49 WIB92 — gebruikelijke en noodzakelijke kost voor mandaat). Geen voordeel alle aard voor bestuurder: D&O dekt de vennootschap-belang in zekere mate, en is een courante praktijk. Indien polis exclusief privé-voordeel voor bestuurder (bv. 'tail coverage' na ontslag betaald door vennootschap zonder reden): risico op VAA.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "kb", "naam": "KB MAR", "ref": "Rekening 615" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 49" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eigen-kantoor",
+      "naam": {
+        "primair": "Eigen accountantskantoor — parallel risico"
+      },
+      "intro": "De accountant die zelf bestuurder/vennoot is in zijn kantoor: zelfde aansprakelijkheidsregime — plus beroepsaansprakelijkheid.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "parallel-beroep-bestuur",
+              "naam": {
+                "primair": "Cumul beroepsaansprakelijkheid + bestuurdersaansprakelijkheid"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Een gecertificeerd accountant die ook bestuurder is in zijn kantoor-BV/NV cumuleert twee aansprakelijkheidsregimes: (a) beroepsaansprakelijkheid (ITAA-deontologie + civielrechtelijk t.o.v. cliënten — buiten cap art. 2:57!) en (b) bestuurdersaansprakelijkheid van zijn vennootschap (binnen cap). De cap dekt NIET de beroepsfouten zelf — die lopen onder beroepsaansprakelijkheid (verplichte beroepsverzekering ITAA). Heldere D&O + beroepspolis-coördinatie is essentieel.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" },
+                      { "type": "norm", "naam": "ITAA-deontologie", "ref": "Beroepsaansprakelijkheid en verzekeringsplicht" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "oprichtersaansprakelijkheid"
-    },
-    {
-      "type": "beinvloed_door",
       "target": "bestuur-vennootschap"
     },
     {
-      "type": "beinvloed_door",
-      "target": "faillissement"
+      "type": "vergelijkbaar_met",
+      "target": "oprichtersaansprakelijkheid",
+      "gelijkenissen": [
+        "Beide zijn persoonlijke aansprakelijkheidsregimes voor bestuurders/oprichters van de vennootschap",
+        "Beide vallen onder de cap van art. 2:57 WVV (geldt ook voor oprichters bij oprichtersaansprakelijkheid)",
+        "Beide kennen marginale toets en uitsluiting voor schending wet/statuten"
+      ],
+      "verschillen": [
+        "Bestuurdersaansprakelijkheid: voortdurend tijdens mandaat, gefocust op bestuursfouten",
+        "Oprichtersaansprakelijkheid: beperkt tot oprichting + 3 jaar na (art. 5:16 BV / 7:18 NV), gefocust op onvoldoende aanvangsmiddelen (alarmbel-aanvang) en gebreken in financieel plan"
+      ],
+      "verwarring_risico": "Stagiairs verwarren beide regimes wanneer oprichter ook bestuurder is — terwijl ze cumuleerbaar zijn voor verschillende fouten. De 3-jarige oprichterstermijn dekt enkel de start-fout (onvoldoende kapitalisatie), niet later bestuursgedrag.",
+      "render_hint": "als_waarschuwing"
+    },
+    {
+      "type": "vereist",
+      "target": "algemene-vergadering",
+      "toelichting": "AV verleent (of weigert) kwijting (art. 5:98 / 7:149) en beslist over minderheidsvordering. Ontslag van bestuurder is exclusieve AV-bevoegdheid."
     },
     {
       "type": "beinvloed_door",
-      "target": "algemene-vergadering"
+      "target": "faillissement",
+      "toelichting": "Bij faillissement opent zich het extra spoor art. XX.225 WER (faillissementsaansprakelijkheid) — typisch het zwaarste risico voor een KMO-bestuurder."
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "beroepsaansprakelijkheid"
+      "target": "beroepsaansprakelijkheid",
+      "gelijkenissen": [
+        "Beide volgen 3-sporen-structuur: contractueel (cliënt/vennootschap), buitencontractueel (derden), strafrechtelijk",
+        "Beide kennen marginale toetsing voor algemene professionele/bestuurs-fout",
+        "Beide hebben verplichte of aangewezen verzekering (beroepspolis ITAA / D&O)"
+      ],
+      "verschillen": [
+        "Beroepsaansprakelijkheid GA: GEEN wettelijke cap; dekking volledig door beroepspolis (ITAA min. 2,5 mio EUR)",
+        "Bestuurdersaansprakelijkheid: wettelijke cap art. 2:57 (125k tot 12 mio); dekking via D&O-polis (vrijwillig)",
+        "GA's beroepsaansprakelijkheid loopt t.o.v. cliënt en derden; bestuurder loopt jegens vennootschap, derden en boedel"
+      ],
+      "verwarring_risico": "Voor de accountant-bestuurder: belangrijk om bij elke fout te onderscheiden welk regime grijpt. Boekhoudkundige fout in eigen kantoor = beroepsfout (geen cap); foute investeringsbeslissing als bestuurder = bestuurdersfout (wel cap, art. 2:57).",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
