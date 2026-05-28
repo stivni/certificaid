@@ -1,76 +1,260 @@
 {
   "id": "lokale-belasting-reglement",
   "naam": {
-    "primair": "Lokaal belastingreglement"
+    "primair": "Lokaal belastingreglement",
+    "synoniemen": ["gemeentelijk belastingreglement", "provinciaal belastingreglement"]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "2.7.II.A",
-      "2.7.II.B"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["2.7.II.A", "2.7.II.B"],
     "scope": {
       "in": [
         "Procedure opmaak: gemeenteraad-besluit · publicatie · inwerkingtreding",
+        "Toezichthoudende rol gouverneur (indeplaatsstelling)",
+        "NL/FR-taalgrenscriteria voor publicatie en aangifte",
         "Bezwaarprocedure tegen het reglement zelf (Raad van State)",
-        "Bezwaarprocedure tegen individuele aanslag (gemeenteraad / college)",
+        "Bezwaarprocedure tegen individuele aanslag (college van burgemeester en schepenen, daarna rechtbank)",
         "Accountant-perspectief: bezwaar tegen lokaal reglement"
       ],
       "out": [
-        {
-          "topic": "Lokale fiscale autonomie",
-          "richting": "moet-verwijzen",
-          "ref": "lokale-fiscale-autonomie"
-        },
-        {
-          "topic": "Gemeentebelastingen-sui-generis concrete voorbeelden",
-          "richting": "mag-verwijzen",
-          "ref": "gemeentebelastingen-sui-generis"
-        }
+        { "topic": "Lokale fiscale autonomie", "richting": "moet-verwijzen", "ref": "lokale-fiscale-autonomie" },
+        { "topic": "Gemeentebelastingen-sui-generis concrete voorbeelden", "richting": "mag-verwijzen", "ref": "gemeentebelastingen-sui-generis" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/lokale-belasting-reglement.json",
+      "primary_bronnen": [
+        "Grondwet art. 170 §4",
+        "Algemene Wet Lokale Belastingen 24-12-1996",
+        "Decreet over het Lokaal Bestuur (Vl)",
+        "Decreet Vlaamse provincies",
+        "Bestuurstaalwet 18-07-1966"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:55:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Inhoud-velden gevuld op basis van Algemene Wet Lokale Belastingen + Vlaams Decreet Lokaal Bestuur + standaard procedure-doctrine." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "tekst": "Het lokaal belastingreglement is de juridische grondslag waarmee een gemeente, provincie of agglomeratie een specifieke lokale belasting vestigt. Het wordt aangenomen door de gemeenteraad (of provincieraad), beschrijft het belastbaar feit, de belastingplichtige, de heffingsbasis, het tarief, de betalings- en bezwaarprocedure, en de geldigheidsduur. Het reglement moet voldoen aan de algemene wettelijke beginselen (legaliteit, gelijkheid, proportionaliteit) en aan de formele procedureregels uit het Decreet over het Lokaal Bestuur en de Algemene Wet Lokale Belastingen van 24 december 1996.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170 §4", "context": "Lokale fiscale autonomie" },
+            { "type": "wettekst", "naam": "Algemene Wet Lokale Belastingen 24-12-1996", "ref": "art. 4", "context": "Inhoud reglement" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch verloopt de procedure in vier stappen: (1) ontwerp door college van burgemeester en schepenen (of provinciecollege); (2) goedkeuring door gemeenteraad bij meerderheid van stemmen, in openbare zitting; (3) toezicht door de gouverneur (Algemeen Toezicht — kan reglement schorsen of vernietigen indien strijdig met wet of algemeen belang); (4) bekendmaking via aanplakking + digitale publicatie (e-besluitvorming Vl) + inschrijving in het officieel publicatieblad. Inwerkingtreding na 5 dagen volgend op publicatie (tenzij anders bepaald in het reglement zelf, met respect voor het verbod op terugwerkende kracht). De belastingplichtige kan binnen 60 dagen na publicatie naar de Raad van State stappen indien hij meent dat het reglement onwettig is.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard lokale procedure-doctrine" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio is institutioneel-democratisch: belastingen mogen alleen geheven worden mits wettelijke grondslag (legaliteitsbeginsel — art. 170 Grondwet). Voor lokale belastingen vertaalt dit zich in een formeel reglement aangenomen door de democratisch verkozen raad, onder gouvernementeel toezicht. Het belastingreglement is dus zowel een fiscale norm (wat is verschuldigd?) als een procedurele waarborg (de burger kent vooraf de regels en kan ze betwisten).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek constitutioneel fiscaal recht" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "lokale-en-regionale-belastingen",
+      "voorvereisten": ["lokale-fiscale-autonomie"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Grondwet art. 170 §4 + Algemene Wet Lokale Belastingen 24-12-1996 + Decreet Lokaal Bestuur (Vl) + Bestuurstaalwet 18-07-1966",
+        "toelichting": "Algemeen procedureel kader. Reglementen worden typisch jaarlijks vernieuwd of bij majeure wijziging."
+      },
+      "voor": [
+        {
+          "tekst": "Iedere gemeente, provincie of agglomeratie die een lokale belasting wil heffen — verplicht voor elk individueel belastingobject (huisvuilbelasting, hondenbelasting, leegstandsheffing, ...). Eén reglement kan meerdere belastingen omvatten of er bestaan aparte reglementen per belasting.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatieve formele vereisten: (1) gemeenteraadsbeslissing in openbare zitting met meerderheid; (2) inhoudelijke vereisten — heffingsfeit, belastingplichtige, basis, tarief, betaling, bezwaar; (3) bekendmaking en toezichtsperiode; (4) taalvereisten — in het Nederlandstalig gebied in NL, in faciliteitengemeenten dubbeltalig op verzoek (Bestuurstaalwet); (5) respect voor het gelijkheids- en evenredigheidsbeginsel.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Algemene Wet Lokale Belastingen 24-12-1996", "ref": "art. 4-5" },
+              { "type": "wettekst", "naam": "Bestuurstaalwet 18-07-1966", "ref": "art. 12 e.v.", "context": "Taalvereisten reglementen" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Vernietigingsrisico via Raad van State of bezwaarprocedure: het reglement schendt de Grondwet (bv. dubbele belasting met federale/gewestelijke materie), het gelijkheidsbeginsel (onverantwoorde categorieën), of de proportionaliteit (tarief te hoog tegenover doel). Klassiek voorbeeld: Raad van State vernietigde meermaals belastingreglementen op telefoonpalen, antennes of bordelen wegens disproportionaliteit of indirect verbod.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Empirische Raad van State-rechtspraak" }]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "bezwaar-tegen-reglement",
+        "naam": { "primair": "Bezwaar tegen het reglement zelf (Raad van State)" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Iedereen met een rechtstreeks belang kan binnen 60 dagen na publicatie van het reglement een vernietigingsberoep instellen bij de Afdeling Bestuursrechtspraak van de Raad van State. Procedure: schriftelijk verzoekschrift + memorie + advies advocaat. De Raad oordeelt over de wettelijkheid (niet de opportuniteit) — schending van Grondwet, decreet, algemene rechtsbeginselen.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard RvSt-procedure" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "bezwaar-tegen-aanslag",
+        "naam": { "primair": "Bezwaar tegen individuele aanslag" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Belastingplichtige die een individuele aanslag betwist: bezwaarschrift bij het college van burgemeester en schepenen (of provinciecollege) binnen 3 maanden vanaf de derde werkdag na verzending van het aanslagbiljet (art. 9 Algemene Wet Lokale Belastingen). Het college beslist; bij niet-beslissing binnen 6 maanden = stilzwijgende afwijzing. Beroep daarna: rechtbank van eerste aanleg (fiscale kamer) — eventueel beroep en cassatie.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "Algemene Wet Lokale Belastingen 24-12-1996", "ref": "art. 9" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "indeplaatsstelling-gouverneur",
+        "naam": { "primair": "Indeplaatsstelling door de gouverneur" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien een gemeente nalaat een wettelijk verplichte belasting te heffen (typisch: gemeenten in moeilijkheden die hun budget niet sluitend krijgen), kan de gouverneur in haar plaats een belastingreglement aannemen ('indeplaatsstelling' of 'tutelle de substitution'). Vrij uitzonderlijk maar relevant in financieel-precaire gemeenten. Het reglement aangenomen door de gouverneur heeft dezelfde rechtskracht als een gemeentereglement.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaams + Waals administratief recht" }]
+            }
+          }
+        }
+      },
+      {
+        "id": "taalcriteria-publicatie",
+        "naam": { "primair": "Taalcriteria publicatie + aangifte" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bestuurstaalwet 1966: in het Nederlandstalig gebied geldt enkel Nederlands voor het reglement, aangifte en aanslagbiljet (uitzondering: faciliteitengemeenten, waar de belastingplichtige op verzoek een Franstalige versie kan krijgen). In Wallonië en Brussel analoge regels. Bij overtreding van de taalvereisten: nietigheid van de procedure — een aanslagbiljet in de verkeerde taal verstuurd is onwettig.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Bestuurstaalwet 18-07-1966", "ref": "art. 12-23" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "termijn-publicatie",
+        "naam": { "primair": "Termijn publicatie en inwerkingtreding" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Na gemeenteraadsbeslissing: (1) toezicht-termijn gouverneur (30 dagen voor goedkeuring of vernietiging); (2) bekendmaking via aanplakking (gewoon nog steeds verplicht in beperkte vorm) + via digitaal platform e-besluitvorming + inschrijving in het bestuursdocumentenregister; (3) inwerkingtreding op de 5e dag volgend op de publicatie, tenzij het reglement een latere datum bepaalt. Geen terugwerkende kracht in fiscaal recht (Grondwet + algemene rechtsbeginselen).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaams Decreet Lokaal Bestuur" }]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Termijn bezwaar verwarren (3 maanden vs 60 dagen)",
+        "verkeerde_assumptie": "De termijn voor bezwaar tegen een lokale belasting is altijd 60 dagen.",
+        "kernpunt": "Twee verschillende termijnen voor twee verschillende beroepen: (1) tegen het reglement zelf: 60 dagen na publicatie, bij Raad van State; (2) tegen een individuele aanslag: 3 maanden na verzending, bij het college van burgemeester en schepenen. Verwarring is fataal — verkeerde instantie of verstreken termijn betekent niet-ontvankelijkheid.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Algemene Wet Lokale Belastingen 24-12-1996", "ref": "art. 9" }
+          ]
+        }
+      },
+      {
+        "titel": "Veronderstellen dat reglement onmiddellijk geldt",
+        "verkeerde_assumptie": "Na de gemeenteraadsbeslissing is het reglement direct van kracht.",
+        "kernpunt": "Pas in werking na bekendmaking + 5 dagen (tenzij anders bepaald, maar nooit met terugwerkende kracht). Vóór die datum afgegeven aanslagen zijn nietig. De accountant kan dit gebruiken om een aanslag aan te vechten die op een nog niet-gepubliceerd reglement steunt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "lokale-en-regionale-belastingen"
+      "id": "client-bezwaar",
+      "naam": { "primair": "Cliënt met betwistbare lokale aanslag" },
+      "intro": "De accountant die een cliënt begeleidt in een bezwaarprocedure tegen een gemeentelijke belasting.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "strategie-bezwaar",
+              "naam": { "primair": "Bezwaarstrategie kiezen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij betwistbare aanslag: kies tussen (1) bezwaar tegen het reglement zelf — geschikt bij structureel onwettig reglement (effect: nietigverklaring voor iedereen), maar termijn (60 dagen na publicatie) is meestal verstreken op het moment dat cliënt de aanslag ontvangt; (2) bezwaar tegen de individuele aanslag — bijna altijd het toepasselijke pad. Voor de accountant: stel het bezwaarschrift formeel op (feiten, juridische gronden, bewijsstukken, formele vereisten), stuur het aangetekend of via digitaal platform binnen 3 maanden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk" }]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "lokale-en-regionale-belastingen" },
+    { "type": "vereist", "target": "lokale-fiscale-autonomie", "toelichting": "Het reglement is de uitoefening van de grondwettelijke lokale fiscale autonomie (art. 170 §4)." }
   ]
 }
