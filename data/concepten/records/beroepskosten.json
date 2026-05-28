@@ -5,12 +5,15 @@
     "synoniemen": [
       "aftrekbare beroepskosten",
       "frais professionnels"
-    ]
+    ],
+    "vertaling": {
+      "fr": "frais professionnels"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -20,25 +23,11 @@
       "2.3.II.D",
       "2.3.II.E"
     ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "NIEUW generiek record (OP-PV.A toepassing): vervangt beroepskosten-regime-pb + aftrekbare-beroepskosten-venb. PB + VenB worden accountant_perspectieven."
-      }
-    ],
     "scope": {
       "in": [
         "Generieke aftrekbaarheidstest art 49 WIB: (1) causaal verband met beroep · (2) werkelijk gedragen · (3) bewezen met documenten · (4) gedaan om belastbare inkomsten te verwerven/behouden",
         "Forfait vs werkelijke kosten — keuze per categorie inkomen",
-        "Aftrekbaarheidspercentages: 50%-regel autokosten · 30%-restaurant · 100%-publiciteit · 100%-sociale-voordelen · 0%-boetes",
+        "Aftrekbaarheidspercentages: 50%-regel autokosten · 30%/50%-restaurant · 100%-publiciteit · 100%-sociale-voordelen · 0%-boetes",
         "Sociale + culturele voordelen aan personeel (geschenken, sport-cultuur-cheques)",
         "Bewijslast en bewijsstukken (facturen + onkostennota's)",
         "Verworpen uitgaven art 53 WIB (verzamelnaam niet-aftrekbare uitgaven — VenB-cascade)",
@@ -67,20 +56,73 @@
           "ref": "beroepsinkomen-pb"
         }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-pb-venb-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/beroepskosten.json",
+      "primary_bronnen": [
+        "WIB92 art. 49",
+        "WIB92 art. 51",
+        "WIB92 art. 52",
+        "WIB92 art. 53",
+        "WIB92 art. 57",
+        "WIB92 art. 59",
+        "WIB92 art. 61",
+        "WIB92 art. 66",
+        "WIB92 art. 195/1",
+        "WIB92 art. 198",
+        "MAR (KB 21.10.2018) klasse 6"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "NIEUW generiek record (OP-PV.A toepassing): vervangt beroepskosten-regime-pb + aftrekbare-beroepskosten-venb. PB + VenB worden accountant_perspectieven."
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:10:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Vier-voorwaarden-test + percentage-cascade + werkelijk-vs-forfait uitgewerkt. Bundle-flow zonder extra MCP."
+      }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 — nieuw generiek record dat zowel PB- als VenB-perspectief draagt (OP-PV.A toepassing)",
+        "tekst": "Beroepskosten zijn de uitgaven die de belastingplichtige in het belastbare tijdperk werkelijk heeft gedaan of gedragen om belastbare beroepsinkomsten te verkrijgen of te behouden, en waarvan hij de echtheid en het bedrag verantwoordt door bewijsstukken (art. 49 WIB92). Ze worden afgetrokken van het brutobedrag van het beroepsinkomen om het belastbaar netto-beroepsinkomen te bepalen. De wet kent zowel werkelijk-bewezen aftrek (art. 49-52 WIB) als forfaitaire aftrek (art. 51 WIB voor sommige PB-categorieën). Aftrekbeperkingen (art. 53, 65-66, 198) gelden gelijktijdig.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 49" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Beroepskosten zijn één van de drie hefbomen in de PB- én VenB-grondslag (naast vrijstellingen en aftrekken). De vier voorwaarden van art. 49 vormen één toets, maar de wetgever heeft daarboven een 'opsommend' systeem gebouwd: art. 52 noemt voorbeelden van wat zeker aftrekbaar is, art. 53 verbiedt categorieën uitgaven (persoonlijke uitgaven, geldboeten, niet-bewezen autokosten...), en art. 65-66 + 198 leggen kwantitatieve aftrekbeperkingen op. In PB kiest de belastingplichtige per categorie tussen forfait (art. 51) en werkelijke kosten. In VenB bestaat geen forfait — alleen werkelijke kosten, en niet-aftrekbare gedeelten worden via de Eerste Bewerking 'verworpen uitgaven' (code 1200-reeks aangifte) bij de boekhoudkundige winst opgeteld.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 51, 52, 53, 66, 198" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "codes 1200-1240" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het principe is symmetrie: alleen netto-arbeidsinkomen wordt belast. De vier-voorwaarden-test van art. 49 voorkomt dat private uitgaven verkapt als beroepsuitgaven worden afgetrokken. De aftrekbeperkingen (50 % auto, 30 % restaurant) zijn beleidsinstrumenten: ze ontmoedigen luxe-uitgaven, verzachten privé/beroep-vermenging, en compenseren BTW-aftrekbeperkingen die niet integraal het beroepsmatig karakter weerspiegelen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis van de aftrekbeperkingen + symmetrie-argument" }
           ]
         }
       }
@@ -88,116 +130,330 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 49-66"
-      }
+        "wettelijke_basis": "WIB92 art. 49-66bis (PB); art. 183 + 195-198bis (VenB-koppeling)"
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke berekening netto belastbaar beroepsinkomen (PB) of belastbare winst (VenB).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 183" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij gebrek aan bewijsstukken: forfait of administratieve raming (ambtshalve aanslag art. 342 WIB). Bij gemengd gebruik zonder onderbouwing: verwerping deelaftrek + boetes.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 342" }
+            ]
+          }
+        }
+      ]
     },
     "bouwstenen": [
       {
-        "id": "art49-aftrekbaarheidstest",
-        "naam": {
-          "primair": "Vier-voorwaarden-test art 49 WIB"
-        },
+        "id": "vier-voorwaarden-test",
+        "naam": { "primair": "Vier-voorwaarden-test art. 49 WIB" },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — 4 cumulatieve voorwaarden: causaal verband · werkelijk gedragen · bewezen · gedaan voor verwerving/behoud belastbaar inkomen",
+            "tekst": "Een uitgave is aftrekbaar als beroepskost als cumulatief: (1) causaal verband — gedaan in functie van de beroepsactiviteit; (2) tijdperk — werkelijk betaald of gedragen in het belastbare tijdperk (of als zekere en vaststaande schuld geboekt); (3) bewijs — echtheid én bedrag verantwoord door bewijsstukken (factuur, contract, fiche) of subsidiair door andere bewijsmiddelen behalve de eed; (4) finaliteit — gedaan om belastbare inkomsten te verkrijgen of te behouden.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 49" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Beslisboom aftrekbaarheid:\n\n```mermaid\nflowchart TD\n  A[Uitgave] --> B{Causaal verband beroep?}\n  B -->|nee| Z[Niet aftrekbaar - art. 53-1°]\n  B -->|ja| C{Werkelijk gedragen in tijdperk?}\n  C -->|nee| Z\n  C -->|ja| D{Bewijsstukken aanwezig?}\n  D -->|nee| Z\n  D -->|ja| E{Doel: belastbaar inkomen verwerven/behouden?}\n  E -->|nee| Z\n  E -->|ja| F{Aftrekbeperking art. 53/66/198?}\n  F -->|ja| G[Aftrekbaar binnen %-limiet]\n  F -->|nee| H[100% aftrekbaar]\n```"
+          }
+        ]
+      },
+      {
+        "id": "uitsluiting-art-53",
+        "naam": { "primair": "Niet-aftrekbare uitgaven art. 53 WIB" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 53 sluit uitdrukkelijk uit (catalogus van 23+ rubrieken): persoonlijke uitgaven (huur woning, onderwijs gezin), personenbelasting + voorheffingen, aanvullende gemeentebelasting, geldboeten van alle aard (transactioneel, administratief, strafrechtelijk), kledij die niet specifiek beroepskledij is, kosten jacht/visvangst/pleziervaartuigen, kosten 'op onredelijke wijze' boven beroepsbehoeften, ten-laste-genomen verliezen van vennootschappen (behoudens bedrijfsleidersuitzondering).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 53" }
               ]
             }
           }
         }
       },
       {
-        "id": "50-regel-autokosten",
-        "naam": {
-          "primair": "50%-aftrekbaarheidsregel autokosten"
-        },
+        "id": "percentage-cascade",
+        "naam": { "primair": "Aftrekbaarheidspercentages — cascade" },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — autokosten basis 50%-aftrekbaar in PB, CO2-gemoduleerd in VenB",
+            "tekst": "Wettelijke aftrek-percentages voor specifieke uitgaven (gemeenschappelijk PB + VenB):",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 53-8°, 53-8°bis, 53-9°, 66" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "tekst": "Percentage-cascade:\n\n| Categorie | Aftrekbaar | WIB | Niet-aftrekbaar |\n|---|---|---|---|\n| Restaurantkosten | 69 % | art. 53-8°bis | 31 % |\n| Receptiekosten + relatiegeschenken | 50 % | art. 53-8° | 50 % (uitz. opvallende reclameartikelen 100 %) |\n| Reclame- en publiciteitskosten | 100 % | art. 49 | 0 % |\n| Sociale voordelen personeel | 100 % | art. 38-11° + 38/1 | 0 % indien art. 38/1-voorwaarden vervuld |\n| Maaltijdcheques (werkgever-tussenkomst ≤ € 2 per cheque tot 30/12/2025, ≤ € 4 vanaf 31/12/2025) | aftrekbaar | art. 53-14° + 38/1 | tussenkomst > grens niet aftrekbaar |\n| Sport-/cultuur-/ecocheques | binnen WIB-grenzen aftrekbaar | art. 38-25° + 38/1 | overschot niet aftrekbaar |\n| Geldboeten + transactionele boeten | 0 % | art. 53-6° | 100 % |\n| Autokosten personenwagens (gewone PB-zelfstandige) | 75 % vóór 2018, sinds 2020 CO2-gemoduleerd | art. 66 + 198bis | rest |\n| Autokosten VenB (CO2-formule) | 50–100 % min., elektrisch 100 % uitdovend | art. 198bis | per CO2 |\n| Jacht / pleziervaartuigen / lusthuizen | 0 % (tenzij beroepsnoodzaak bewezen) | art. 53-9° | 100 % |"
+          }
+        ]
+      },
+      {
+        "id": "forfait-vs-werkelijk",
+        "naam": { "primair": "Keuze forfait vs werkelijke kosten (PB)" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "In de PB kiest de belastingplichtige per categorie inkomsten (werknemer, bedrijfsleider, baten, winst) tussen forfait (automatisch, art. 51) en werkelijke kosten (verantwoorde uitgaven, art. 49). De keuze gebeurt impliciet: vermeldt de belastingplichtige werkelijke kosten in de aangifte (rubriek 'eigen werkelijke beroepskosten') én is het bedrag hoger dan het forfait, dan worden de werkelijke kosten toegepast. Anders: forfait. Per categorie kan onafhankelijk worden gekozen. In VenB bestaat geen forfait.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 51" },
+                { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen", "ref": "code 1258, 1271" }
               ]
             }
           }
         }
       },
       {
-        "id": "30-restaurant-aftrek",
-        "naam": {
-          "primair": "30%-aftrek restaurantkosten"
-        },
-        "bouwsteen_type": "regel",
+        "id": "boekhoudkundige-verwerking-venb",
+        "naam": { "primair": "Boekhoudkundige verwerking — klasse 6 + verworpen uitgaven (VenB)" },
+        "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "In een vennootschap worden alle uitgaven boekhoudkundig geboekt op klasse 6 (Kosten) — de boekhouding bepaalt het commerciële resultaat. Fiscaal worden niet-aftrekbare gedeelten via de Eerste Bewerking op de aangifte VenB als 'verworpen uitgaven' (code 1200-reeks) bij de winst toegevoegd. Voorbeelden: niet-aftrekbaar deel autokosten (code 1205), niet-aftrekbaar deel VAA-autokosten gelijk aan VAA (code 1206), niet-aftrekbare restaurantkosten 31 % (code 1208), niet-aftrekbare receptiekosten 50 % (code 1209), boeten (code 1207).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "codes 1205-1209, 1215" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198" }
               ]
-            }
+            },
+            "relaties": [
+              { "type": "triggert", "target": "verworpen-uitgaven" }
+            ]
           }
         }
       },
       {
-        "id": "forfait-werknemer",
-        "naam": {
-          "primair": "Forfaitaire beroepskosten werknemer/bedrijfsleider"
-        },
+        "id": "afschrijvingen-art-61",
+        "naam": { "primair": "Afschrijvingen (art. 61 WIB)" },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — gestaffeld forfait per inkomensbracket (art 51 WIB)",
+            "tekst": "Afschrijvingen zijn beroepskosten naargelang ze gegrond zijn op de aanschaffings- of beleggingswaarde, noodzakelijk zijn en samengaan met een waardevermindering die zich werkelijk heeft voorgedaan in het belastbare tijdperk. Aanschaffingswaarde = aanschaffingsprijs, vervaardigingsprijs of inbrengwaarde (volgens boekhoudwetgeving). Afschrijvingsritme: lineair, degressief (art. 64), of versneld bij KMO (art. 196/197 WIB).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 61" }
               ]
             }
           }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "vb-restaurant-receptie-pb",
+        "titel": "Zelfstandige arts — restaurant- en receptiekosten in jaaraangifte",
+        "context": "Vrijberoeper besteedt in jaar X: € 4.000 restaurant met klanten + € 1.500 receptie (productlancering) + € 500 reclamepennen met logo. Werkt in PB-baten.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Aftrekbaarheid per uitgave:\n\n| Uitgave | Bedrag | Aftrekbaar | Berekening |\n|---|---|---|---|\n| Restaurantkosten | € 4.000 | 69 % | 4.000 × 0,69 = **€ 2.760** |\n| Receptiekosten | € 1.500 | 50 % | 1.500 × 0,50 = **€ 750** |\n| Reclamepennen (opvallend + logo) | € 500 | 100 % | 500 × 1,00 = **€ 500** |\n| **Totaal aftrekbaar** | € 6.000 bruto | | **€ 4.010** |\n| Niet-aftrekbaar gedeelte | | | € 1.240 + € 750 = **€ 1.990** |\n\nIn de aangifte PB worden alleen de aftrekbare bedragen meegenomen in 'werkelijke beroepskosten'. Bij keuze forfait (28,7 % / 10 % / 5 % / 3 % op schijven) vervalt deze detaillering."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 53-8°, 53-8°bis" }
+          ]
+        }
+      },
+      {
+        "id": "vb-boekingen-venb",
+        "titel": "BV — boekingen klasse 6 + verworpen uitgaven aangifte",
+        "context": "Een BV heeft in jaar X: € 10.000 restaurantkosten + € 5.000 boetes (verkeer) + € 60.000 brutobezoldiging zaakvoerder + € 8.000 autokosten op een wagen 165 g CO2/km.",
+        "weergaven": [
+          {
+            "type": "boeking",
+            "tekst": "Boekhoudkundige boekingen (klasse 6 — alle uitgaven 100 % geboekt):\n\n| Rekening | Omschrijving | Debet | Credit |\n|---|---|---|---|\n| 6131 | Restaurantkosten | 10.000 | |\n| 64 | Andere bedrijfskosten — geldboeten | 5.000 | |\n| 618 | Bezoldigingen bestuurders | 60.000 | |\n| 6402 | Brandstof + onderhoud voertuig | 8.000 | |\n| | aan 5500 Bank / 440 Lev. | | 83.000 |"
+          },
+          {
+            "type": "berekening",
+            "tekst": "Fiscale correctie via verworpen uitgaven (Eerste Bewerking VenB):\n\n| Uitgave | Boekhoudkundig | Aftrekbaar | Verworpen uitgave | Aangifte VenB code |\n|---|---|---|---|---|\n| Restaurantkosten 10.000 | 10.000 | 6.900 (69 %) | **3.100** | 1208 |\n| Geldboeten 5.000 | 5.000 | 0 | **5.000** | 1207 |\n| Autokosten 8.000 (CO2 165 → ca. 50 % aftrek art. 198bis) | 8.000 | 4.000 | **4.000** | 1205 |\n| Bezoldiging bestuurder 60.000 | 60.000 | 60.000 | 0 | — |\n| **Totaal verworpen uitgaven** | | | **€ 12.100** | |\n\nGevolg: belastbare winst VenB = boekhoudkundige winst + € 12.100 (vóór andere bewerkingen)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 53-6°, 53-8°bis, 198, 198bis" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "codes 1205, 1207, 1208" }
+          ]
+        }
+      },
+      {
+        "id": "vb-forfait-keuze",
+        "titel": "Loontrekkende — forfait vs werkelijke kosten",
+        "context": "Werknemer bruto € 50.000, woont 40 km van werk (10.000 km woon-werk/jr in personenauto), kantoor aan huis 1 dag/week (€ 1.200 jaar), IT/telefoon € 400/jr.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "tekst": "Vergelijking:\n\n| Optie | Berekening | Bedrag |\n|---|---|---|\n| Forfait art. 51-1° | 50.000 × 30 % = 15.000, begrensd op € 2.950 (niet-geïnd.) | **€ 2.950** |\n| Werkelijke kosten | woon-werk 10.000 km × € 0,15 = 1.500 + kantoor 1.200 + IT 400 | **€ 3.100** |\n\n→ Werkelijke kosten gunstig (€ 150 meer aftrek). Aangifte: code 1258-03 (werkelijke kosten — sociale bijdr. niet ingehouden) en code 1271-87 (rubriek A.21 andere beroepskosten). Cliënt moet alle bewijsstukken (kilometerstaten, facturen, energieafrekening kantoor) bewaren minstens 7 jaar."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 51-1°, 66-2° (woon-werk forfait 0,15 €/km)" },
+            { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen", "ref": "codes 1258, 1271" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Boekhoudkundig 100 % geboekt = fiscaal 100 % aftrekbaar (mis)",
+        "verkeerde_assumptie": "Wat op klasse 6 staat, is automatisch aftrekbaar in de aangifte VenB.",
+        "kernpunt": "De boekhouding boekt àlle uitgaven 100 % in klasse 6 — fiscaal moet je via de Eerste Bewerking de niet-aftrekbare gedeelten als 'verworpen uitgaven' (codes 1200-reeks) bij de winst optellen. Het commerciële resultaat is niet hetzelfde als de belastbare winst.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 183, 198" }
+          ]
+        }
+      },
+      {
+        "titel": "VAA-autokosten dubbele correctie",
+        "verkeerde_assumptie": "Wanneer een wagen met VAA wordt verstrekt, hoeven enkel de gewone autokosten te worden gecorrigeerd via art. 198bis.",
+        "kernpunt": "Bij een wagen met VAA moet een vennootschap dubbel corrigeren: (1) niet-aftrekbaar deel autokosten op basis van CO2-formule (code 1205); (2) bovendien 17 % (of 40 % bij brandstofkostvergoeding) van het VAA-bedrag als verworpen uitgave (code 1206 — art. 198 § 1, 9° WIB).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198 § 1, 9°, 198bis" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1206" }
+          ]
+        }
+      },
+      {
+        "titel": "Forfait + werkelijke kosten cumulatie",
+        "verkeerde_assumptie": "Je kunt het forfait toepassen én daarbovenop nog specifieke werkelijke uitgaven (bv. autokosten woon-werk) claimen.",
+        "kernpunt": "De keuze is exclusief per inkomenscategorie: óf het forfait (art. 51) dat alle beroepskosten dekt, óf werkelijke kosten waarin je àlles afzonderlijk verantwoordt. Uitzondering: het woon-werk-forfait van € 0,15/km onder art. 66-2° kan ook bij forfaitkeuze worden geclaimd voor specifieke beroepsverplaatsingen — niet voor woon-werk zelf.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 51, 66" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Forfait of werkelijke kosten (PB)",
+        "opties": [
+          {
+            "keuze": "Forfait (art. 51)",
+            "voordeel": "Geen bewijsstukken nodig, eenvoud, automatisch op aangifte",
+            "nadeel": "Plafond laag (€ 2.950 werknemer, € 1.555,50 bedrijfsleider, niet-geïndexeerd) → vaak ondermaats voor wie kantooronkosten of veel verplaatsingen heeft"
+          },
+          {
+            "keuze": "Werkelijke kosten",
+            "voordeel": "Geen plafond — alle echte uitgaven aftrekbaar mits art. 49-test",
+            "nadeel": "Administratieve last (bewijsstukken bewaren 7 jaar, gemengd gebruik onderbouwen, controle-gevoelig)"
+          }
+        ],
+        "vuistregel": "Voor werknemers met < 25 km woon-werk en geen kantoorkosten: forfait. Boven 40 km woon-werk of met thuiswerkplek + IT: werkelijke kosten. Voor bedrijfsleiders altijd werkelijke kosten — plafond te laag.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 51, 66" }
+          ]
         }
       }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "personenbelasting"
+      "id": "venb-aangifte",
+      "naam": { "primair": "Boekhouder/fiscaal — VenB-aangifte" },
+      "intro": "De stagiair moet 100 % geboekte kosten splitsen naar aftrekbaar deel + verworpen uitgaven via codes 1200-reeks.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "stap-cascade-venb",
+              "naam": { "primair": "Cascade verworpen uitgaven (Eerste Bewerking)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Neem boekhoudkundige winst vóór belastingen. (2) Loop klasse 6-uitgaven door en filter beperkt-aftrekbare items (restaurant 31 % verwerpen, recepties 50 %, autokosten CO2-formule, VAA-autokosten 17 % of 40 %, geldboeten 100 %, jacht/pleziervaart 100 %). (3) Tel deze gedeelten op tot 'verworpen uitgaven' (totaal codes 1200-reeks). (4) Voeg bij belastbare winst-Eerste-Bewerking. (5) Documenteer in werkdossier met factuur-verwijzingen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 198, 198bis" },
+                      { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "type": "valt_onder",
-      "target": "vennootschapsbelasting"
-    },
-    {
-      "type": "triggert",
-      "target": "verworpen-uitgaven"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "verworpen-uitgaven"
+      "id": "pb-aangifte-loon",
+      "naam": { "primair": "Fiscaal — PB-aangifte werknemer/bedrijfsleider" },
+      "intro": "Beslissing forfait of werkelijk per cliënt — pro forma berekening van beide om gunstigste te kiezen.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "stap-forfait-vs-werkelijk",
+              "naam": { "primair": "Pro forma beide opties berekenen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "(1) Bereken theoretisch werkelijke kosten: woon-werk (km × € 0,15 of bewezen werkelijke autokosten), thuiswerkruimte, IT, opleiding. (2) Bereken forfait (% × bruto na RSZ, begrensd). (3) Kies hogere. (4) Bij werkelijke kosten: verzamel alle bewijsstukken in dossier. (5) Vul codes 1258 + 1271 (werknemer) of overeenkomstige codes vak XVI (bedrijfsleider) in.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 49, 51, 66" },
+                      { "type": "aangifte", "naam": "aangifte-PB-2025-bezoldigingen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "personenbelasting" },
+    { "type": "valt_onder", "target": "vennootschapsbelasting" },
+    { "type": "triggert", "target": "verworpen-uitgaven" },
+    { "type": "vergelijkbaar_met", "target": "verworpen-uitgaven", "gelijkenissen": ["beide bewerkingen op fiscale grondslag", "beide in WIB art. 53/198 verankerd"], "verschillen": ["beroepskosten = aftrek toegestaan, optimalisatie via volledige verantwoording", "verworpen uitgaven = corrigerende toevoeging bij VenB-grondslag, gericht op niet-aftrekbare gedeelten"], "verwarring_risico": "Bij vennootschap zijn beide kanten van dezelfde medaille — boeking 100 % in klasse 6 leidt tot zowel aftrek (deel) als verworpen uitgave (rest)." }
   ]
 }
