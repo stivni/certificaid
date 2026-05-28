@@ -1,12 +1,15 @@
 {
   "id": "testament-instrument",
   "naam": {
-    "primair": "Testament"
+    "primair": "Testament",
+    "vertaling": {
+      "fr": "testament"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "regeling"
@@ -14,23 +17,9 @@
     "ankers": [
       "2.6.VI.D"
     ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
     "scope": {
       "in": [
-        "Soorten: olografisch · authentiek · internationaal testament",
+        "Soorten: eigenhandig · notarieel (authentiek) · internationaal testament",
         "Vormvereisten per soort",
         "Herroeping + wijziging",
         "Beschikbare deel + reservatair deel"
@@ -47,29 +36,404 @@
           "ref": "erfrecht"
         }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/testament-instrument.json",
+      "primary_bronnen": [
+        "BW Boek 4 art. 4.180",
+        "BW Boek 4 art. 4.181",
+        "BW Boek 4 art. 4.183",
+        "BW Boek 4 art. 4.184",
+        "BW Boek 4 art. 4.185",
+        "BW Boek 4 art. 4.189",
+        "BW Boek 4 art. 4.191"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:05:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (BW Boek 4 art. 4.180-4.191)."
+      }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "Een testament is een eenzijdige, herroepbare rechtshandeling waarbij een persoon (de erflater of testator) beschikkingen treft over zijn vermogen voor na zijn overlijden. Het is het belangrijkste instrument om af te wijken van de wettelijke devolutie (versterferfrecht): zonder testament wordt de nalatenschap verdeeld volgens de wettelijke orde van erfgenamen; met testament kan de testator binnen de grenzen van het beschikbaar deel zelf bepalen wie wat krijgt. Het Belgisch burgerlijk wetboek (Boek 4) onderscheidt drie hoofdvormen (art. 4.180): eigenhandig, notarieel (authentiek) en internationaal testament.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.180", "context": "Toegelaten vormen" },
+            { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.181" },
+            { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.183" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het testament organiseert beschikkingsvrijheid binnen wettelijke grenzen. De testator kan legaten toekennen (algemeen, ten algemenen titel of ten bijzonderen titel), een testamentuitvoerder aanduiden, voogdij regelen, lasten opleggen of giften herroepen. Maar hij blijft gebonden door de reservatair erfrechtelijke bescherming: kinderen (en in beperkte mate de langstlevende echtgenoot) hebben recht op een minimumdeel van de nalatenschap (de 'reserve'). De testator beschikt vrij over het 'beschikbaar deel'. Een testament treedt pas in werking bij overlijden en is tot dan altijd herroepbaar — een fundamenteel verschil met schenkingen (in beginsel onherroepelijk).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.180" },
+            { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.146", "context": "Reserve van de kinderen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer erfrecht" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio is dubbel: (1) eerbiediging van de wil van de testator om buiten of bovenop de wettelijke devolutie te beschikken — autonomie van de persoon over zijn vermogen tot het einde van zijn leven; (2) bescherming van de familiale solidariteit via de reserve — de wet beperkt de testator om te beletten dat hij naasten zonder middelen achterlaat. De drie testamentvormen (eigenhandig, notarieel, internationaal) bieden een afweging tussen toegankelijkheid (eigenhandig: gratis, geheim) en rechtszekerheid (notarieel: bewijswaarde, advies, bewaring).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.180" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke erfrecht-doctrine" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "successieplanning",
+      "naast_relevant": [
+        "erfrecht",
+        "successieplanning",
+        "erfbelasting"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "BW Boek 4, Titel 3 — Schenkingen, testamenten en erfovereenkomsten (art. 4.180 e.v.)",
+        "toelichting": "Vormvereisten hervormd in nieuwe BW Boek 4 (in werking 1 juli 2022). Internationaal testament: Verdrag van Washington 26-10-1973, geïncorporeerd in art. 4.184 BW."
+      },
+      "voor": [
+        {
+          "tekst": "Iedere meerderjarige (of ontvoogde minderjarige) met beschikkingsbekwaamheid die zijn nalatenschap wil regelen anders dan via de wettelijke devolutie — typisch: niet-evenredige verdeling tussen kinderen, legaten aan derden of goede doelen, beschermen van een feitelijk samenwonende partner.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.180" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) wilsbekwaamheid bij opmaak (geen tijdelijke verwarring, geen onbehoorlijke beïnvloeding); (2) respecteren van de vormvereisten van één van de drie toegelaten vormen (art. 4.180 BW); (3) respecteren van de reservataire rechten van kinderen — beschikkingen die de reserve aantasten kunnen worden ingekort.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.180" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Vermogensplanning op maat: niet-evenredige verdeling, legaten aan derden, bescherming feitelijk samenwonende partner, optimalisatie erfbelasting via duo-legaat of gunsttarieven. Volledig herroepbaar tot overlijden — flexibel bij gewijzigde gezinssituatie.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk successieplanning" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Nietigheid bij vormgebrek (eigenhandig zonder eigen handschrift = nietig). Conflict met reservataire kinderen → inkortingsvorderingen. Onduidelijke formuleringen die tot betwistingen leiden tussen erfgenamen. Eigenhandig testament: risico van verlies of vernietiging — bewaring aanbevolen bij notaris of CRT (Centraal Register van Testamenten).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.181" },
+              { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.183" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-risico's" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "eigenhandig-testament",
+        "naam": { "primair": "Eigenhandig testament (olografisch)" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een eigenhandig testament moet volledig met de hand door de testator zelf geschreven, gedateerd en ondertekend zijn (art. 4.181 BW). Geen getuigen, geen notaris — gratis en geheim. Bij niet-naleving van één van de drie formele vereisten (handschrift, datum, handtekening) is het testament absoluut nietig.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.181" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "De goedkoopste en meest toegankelijke vorm. Praktisch advies: na opmaak het origineel laten bewaren bij een notaris die het inschrijft in het Centraal Register van Testamenten (CRT) — dat voorkomt verlies en zorgt dat de erfgenamen het kunnen terugvinden. Het CRT-systeem bevat alleen de bewaarplaats, niet de inhoud.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Notariële praktijk" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "notarieel-testament",
+        "naam": { "primair": "Notarieel testament (authentiek)" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het notarieel testament wordt verleden voor een notaris (art. 4.183 BW). Het wordt opgemaakt op papier volgens art. 13 Notariswet, voorgelezen aan de testator die zijn laatste wil bevestigt, en ondertekend door de testator (of vermelding van onmogelijkheid om te tekenen + reden). De notaris bewaart de minute en zorgt voor inschrijving in het CRT.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.183" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Maximale rechtszekerheid: notariële advies vermindert vormrisico's en interpretatiebetwistingen; authenticiteit van de akte staat vast; bewaring bij notaris elimineert verliesrisico. Kost: notariskosten + registratierechten. Geadviseerd voor complexe planningen (legaten aan stichtingen, duo-legaten, internationale situaties).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "internationaal-testament",
+        "naam": { "primair": "Internationaal testament" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het internationaal testament (art. 4.184 BW, gebaseerd op het Verdrag van Washington van 26 oktober 1973) is een specifieke vorm bestemd om in alle verdragstaten erkend te worden, ongeacht de plaats van opmaak of de nationaliteit van de testator. Het wordt voor een 'bevoegd persoon' (in België: een notaris) opgemaakt in aanwezigheid van twee getuigen, vergezeld van een verklaring (art. 4.185) en attest. Formaliteiten: art. 4.191 BW.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.184" },
+                  { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.185" },
+                  { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.191" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Nuttig voor erflaters met vermogen in meerdere landen of meervoudige nationaliteit: het testament wordt in elke verdragstaat aanvaard volgens de internationale vorm, zonder dat de lokale vormvereisten van elk land moeten worden vervuld. In de praktijk minder gebruikt dan het gewone notariële testament; meestal volstaat een notarieel testament + verwijzing naar EU-Erfverordening (EU 650/2012) voor de rechtskeuze.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Internationale planningspraktijk" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "beschikkingsvrijheid",
+        "naam": { "primair": "Beschikkingsvrijheid en beschikbaar deel" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De testator beschikt vrij over het beschikbaar deel van zijn nalatenschap. Het reservatair deel is voorbehouden voor de kinderen (BW art. 4.145 e.v.): bij 1 kind = 1/2; bij 2 of meer kinderen = 1/2 globaal (verdeeld pro rata). De langstlevende echtgenoot heeft een beperkte concrete reserve (vruchtgebruik op het gezinsgoed + huisraad, art. 4.146-4.147). Beschikkingen die de reserve aantasten zijn niet nietig maar 'inkortbaar' — de gereserveerde erfgenaam moet inkorting vorderen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.146" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer reserve" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "herroeping",
+        "naam": { "primair": "Herroeping en wijziging" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een testament is altijd herroepbaar tot het overlijden. Herroeping kan uitdrukkelijk (een nieuw testament dat het oude vermeldt en herroept, of een vernietigend testament) of impliciet (een later testament dat onverenigbaar is met het eerdere) zijn. Een testament kan ook materieel vernietigd worden (eigenhandig testament verscheurd). Een schenking is daarentegen in beginsel onherroepelijk — dat is hét onderscheidende kenmerk.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.189", "context": "Bepaling gemeen aan alle bijzondere testamentsvormen" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Algemene erfrechtsdoctrine" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "soorten-legaten",
+        "naam": { "primair": "Soorten legaten" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie soorten beschikkingen in een testament: (1) algemeen legaat = gehele nalatenschap of het beschikbaar deel ervan (algemeen legataris erft als erfgenaam-totaal); (2) legaat ten algemenen titel = een breuk of categorie van goederen (bv. 'al mijn onroerende goederen'); (3) legaat ten bijzonderen titel = één of enkele specifieke goederen (bv. 'mijn schilderij X aan A'). De vorm bepaalt rang in de erfopvolging en aansprakelijkheid voor schulden.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke erfrecht-doctrine" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Eigenhandig testament op typemachine of computer schrijven",
+        "verkeerde_assumptie": "Een 'eigenhandig' testament is geldig als het door de testator zelf ondertekend en gedateerd is, ongeacht of de tekst is getypt of geschreven.",
+        "kernpunt": "Art. 4.181 BW vereist dat het testament VOLLEDIG met de hand geschreven is — eigen handschrift is een wezenlijk vormvereiste. Een getypt testament met handgeschreven datum en handtekening is NIETIG. Wie de hand niet kan voeren: notarieel testament gebruiken.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.181" }
+          ]
+        }
+      },
+      {
+        "titel": "Denken dat testament onevenwichtige verdeling tussen kinderen volledig kan opleggen",
+        "verkeerde_assumptie": "Met een testament kan de testator één kind volledig onterven of de gehele nalatenschap aan een derde nalaten.",
+        "kernpunt": "De reservataire bescherming (art. 4.145 e.v. BW) beperkt de beschikkingsvrijheid: bij kinderen blijft de globale reserve 1/2 van de nalatenschap voor de kinderen samen. Een gehele onterving van een kind is wel mogelijk via specifieke procedures (ondankbaarheidsverklaring) maar uitzonderlijk. Standaard: testator beschikt over het beschikbaar deel, kinderen behouden hun reserve.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.146" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Keuze tussen testament-vormen",
+        "opties": [
+          {
+            "keuze": "Eigenhandig testament",
+            "voordeel": "Gratis · geheim · snel op te maken · volledige flexibiliteit",
+            "nadeel": "Risico van vormnietigheid · verlies/vernietiging · interpretatiebetwistingen achteraf"
+          },
+          {
+            "keuze": "Notarieel testament",
+            "voordeel": "Maximale rechtszekerheid · advies notaris · automatische bewaring + CRT · authenticiteit",
+            "nadeel": "Kost (notariskosten + registratie) · geen geheimhouding tegenover notaris"
+          },
+          {
+            "keuze": "Internationaal testament",
+            "voordeel": "Erkenning in alle verdragstaten zonder lokale vormvereisten",
+            "nadeel": "Zelden nodig — gewone notariële testament + EU-Erfverordening volstaat meestal voor planning"
+          }
+        ],
+        "vuistregel": "Standaard: notarieel testament voor elke planning met legaten aan derden, gunsttarieven-strategie of complexe gezinssituaties. Eigenhandig voor eenvoudige toevoegingen — maar laat het inschrijven bij een notaris (CRT).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk successieplanning" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "particuliere-client",
+      "naam": { "primair": "Particuliere cliënt (vermogensplanning)" },
+      "intro": "De accountant die meedenkt over een successieplan, in samenwerking met de notaris.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "doorverwijzing-notaris",
+              "naam": { "primair": "Wanneer doorverwijzen naar de notaris" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De accountant is geen notaris en stelt geen testamenten op. Maar hij identificeert wel de planningsbehoefte (samengesteld gezin, complexe gezinsstructuur, vermogen in meerdere landen, familiebedrijf) en verwijst tijdig door naar de notaris met een document waarin de fiscale impact (schenkbelasting vs erfbelasting) is becijferd, zodat de notaris kan werken met een ingekleurde planning.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscale-impact-testament",
+              "naam": { "primair": "Fiscale impact van het testament becijferen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bepaal per scenario de te verwachten erfbelasting: tarieven naargelang verwantschap (rechte lijn / echtgenoot / broers-zussen / derden) en gewest van de woonplaats van de overledene. Vergelijk effecten van legaten aan goede doelen (duo-legaat — Vlaanderen tot 2024 attractief, daarna afgeschaft per 1 juli 2026 — controleer huidige regeling), legaten aan stichtingen (gunsttarief), en testamentaire bedingen die familieleden bevoordelen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard PB/erfbelasting-praktijk + status duo-legaat" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "successieplanning"
+    },
+    {
+      "type": "triggert",
+      "target": "erfbelasting",
+      "toelichting": "Het testament bepaalt wie de erfgenamen/legatarissen zijn en dus aan welk tarief de erfbelasting wordt geheven."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "schenking-met-voorbehoud-vruchtgebruik",
+      "gelijkenissen": [
+        "Beide zijn instrumenten van successieplanning",
+        "Beide laten de overdragende persoon de verdeling van zijn vermogen bepalen"
+      ],
+      "verschillen": [
+        "Testament: treedt pas in werking bij overlijden, altijd herroepbaar tot dan; geen onmiddellijke overdracht",
+        "Schenking: onmiddellijke overdracht bij leven, in beginsel onherroepelijk; lagere fiscale kost door schenkbelasting < erfbelasting",
+        "Testament: erfbelasting bij overlijden op volle waarde; schenking met voorbehoud VG: schenkbelasting op blote eigendom + uitdoving VG"
+      ],
+      "verwarring_risico": "Cliënten vragen vaak 'moet ik een testament of een schenking doen?' — niet exclusief: meestal combineren in een totale planning."
     }
   ]
 }

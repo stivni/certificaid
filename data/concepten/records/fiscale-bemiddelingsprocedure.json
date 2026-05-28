@@ -2,22 +2,29 @@
   "id": "fiscale-bemiddelingsprocedure",
   "naam": {
     "primair": "Fiscale bemiddelingsprocedure",
-    "afkorting": "FBD"
+    "afkorting": "FBD",
+    "synoniemen": ["fiscale bemiddeling", "bemiddeling door FBD"],
+    "vertaling": { "fr": "procédure de conciliation fiscale" }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "2.5.VI"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis"],
+    "ankers": ["2.5.VI"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fiscale-bemiddelingsprocedure.json",
+      "primary_bronnen": [
+        "WIB92 art. 376quinquies",
+        "Wet 25 april 2007 houdende diverse bepalingen (IV), art. 116 — oprichting FBD",
+        "WIB92 art. 501bis (kadastraal inkomen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -26,6 +33,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WIB92 art. 376quinquies + Wet FBD 2007)."
       }
     ],
     "scope": {
@@ -37,40 +51,167 @@
         "Accountant-perspectief: voorbereiding bemiddeling + vertegenwoordiging"
       ],
       "out": [
-        {
-          "topic": "Bezwaar als parallel pad",
-          "richting": "mag-verwijzen",
-          "ref": "bezwaarprocedure"
-        },
-        {
-          "topic": "Gerechtelijke fase indien geen oplossing",
-          "richting": "mag-verwijzen",
-          "ref": "gerechtelijke-fase-belasting"
-        }
+        { "topic": "Bezwaar als parallel pad", "richting": "moet-verwijzen", "ref": "bezwaarprocedure" },
+        { "topic": "Gerechtelijke fase indien geen oplossing", "richting": "moet-verwijzen", "ref": "gerechtelijke-fase-belasting" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "De fiscale bemiddelingsprocedure is een vrijwillige, gratis en vertrouwelijke procedure waarbij de federale Fiscale Bemiddelingsdienst (FBD) — een onafhankelijke dienst opgericht bij wet van 25 april 2007 — probeert een akkoord tot stand te brengen tussen de belastingplichtige en de fiscus tijdens een lopend bezwaar (of geschil over een administratieve handeling). De FBD heeft geen beslissingsbevoegdheid: ze bemiddelt en formuleert een advies of voorstel. De aanvraag schorst de beroepstermijn naar de rechtbank.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 376quinquies" },
+            { "type": "wettekst", "naam": "Wet 25 april 2007 houdende diverse bepalingen (IV)", "ref": "art. 116" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch is de FBD een 'derde stem' tussen belastingplichtige en taxatiedienst, vooral nuttig bij feitelijke geschillen (waardering, kostenaftrek, gemengd privé/professioneel-gebruik) waar de standpunten vastliggen. De bemiddelaar is geen rechter — hij faciliteert. De FBD is ook bevoegd voor BTW, registratie- en successierechten, en sinds 2019 voor federale invorderingsgeschillen. Voor gewest-belastingen bestaan eigen bemiddelingsdiensten (Vlabel, ...).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 376quinquies" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk + scope FBD" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio is praktisch en menselijk: door een bemiddeling te organiseren kunnen procedures vermeden worden die voor beide partijen tijdrovend en duur zijn (vooral kosten voor de belastingplichtige). De vrijwilligheid + vertrouwelijkheid + schorsende werking maakt drempel laag. De FBD ontlast tegelijk de rechtbanken en de gewestelijke directies.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["bezwaarprocedure"],
+      "kader": "fiscale-procedure",
+      "naast_relevant": ["gerechtelijke-fase-belasting"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Wet 25 april 2007 art. 116 + WIB92 art. 376quinquies",
+        "toelichting": "FBD operationeel sinds 2010. Bevoegdheid uitgebreid in 2019 tot invorderingsgeschillen."
+      },
+      "voor": [
+        {
+          "tekst": "Lopende bezwaarprocedure waar onderhandeling vastloopt of waar feitelijke discussie domineert (waardering, gemengd gebruik, ramingen).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 376quinquies §1" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Wanneer de belastingplichtige reeds een vordering bij de rechtbank van eerste aanleg heeft ingesteld of wanneer de directeur al uitspraak heeft gedaan op het bezwaar — dan is de FBD onbevoegd (art. 376quinquies §2).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 376quinquies §2" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Vrijwillig, gratis, vertrouwelijk. Schorst de beroepstermijn naar de rechtbank — geen verlies van rechten. Vaak snellere oplossing dan een lange directeurs-procedure.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 376quinquies" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "kenmerk-vrijwillig",
+        "naam": { "primair": "Vrijwillig + vertrouwelijk + gratis" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie kernkenmerken: (1) vrijwillig — beide partijen moeten meewerken, niemand kan gedwongen worden; (2) vertrouwelijk — wat gezegd wordt tijdens bemiddeling kan niet later tegen een partij gebruikt worden voor de rechter; (3) gratis — geen kosten voor de aanvrager.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 25 april 2007", "ref": "art. 116 §3" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard FBD-kenmerken" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schorsende-werking",
+        "naam": { "primair": "Schorsende werking op beroepstermijn" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien een aanvraag tot bemiddeling wordt ingediend tijdens de bezwaarbehandeling, wordt de beroepstermijn naar de rechtbank van eerste aanleg geschorst tot de FBD haar bemiddelingsverslag heeft afgeleverd. Dit beschermt de belastingplichtige tegen termijnverlies tijdens de bemiddeling.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 376quinquies §2" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verloop",
+        "naam": { "primair": "Verloop van de bemiddeling" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "(1) Aanvraag bij de FBD (per brief, e-mail of via fiscaalbemiddelaar.be). (2) Onderzoek ontvankelijkheid. (3) Bemiddeling: gesprek of schriftelijke uitwisseling tussen FBD, belastingplichtige (of accountant) en taxatiedienst/directeur. (4) Bemiddelingsverslag met advies of voorstel. (5) Directeur beslist over het bezwaar — de FBD-bemiddeling bindt hem niet, maar zijn advies weegt meestal zwaar door.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 376quinquies" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard FBD-flow" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bemiddeling vervangt geen bezwaar",
+        "verkeerde_assumptie": "Door de FBD in te schakelen, hoef ik geen bezwaar in te dienen.",
+        "kernpunt": "De FBD-bemiddeling werkt enkel naast een lopend bezwaar (of administratieve geschil). Je moet dus eerst bezwaar indienen binnen de termijn van 6 maanden, en pas dan kun je bemiddeling vragen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 376quinquies §1" }
+          ]
+        }
+      },
+      {
+        "titel": "FBD = federaal, niet voor gewestbelastingen",
+        "verkeerde_assumptie": "De FBD bemiddelt voor élk fiscaal geschil, ook over erfbelasting of verkeersbelasting.",
+        "kernpunt": "De FBD is federaal (PB, VenB, BTW, registratie- en successierechten federaal, douane, accijnzen). Voor Vlaamse heffingen (erfbelasting, registratie-Vlaams, onroerende voorheffing) is Vlabel-bemiddeling bevoegd. Brussel en Wallonië hebben eigen procedures.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bevoegdheidsverdeling FBD vs gewest-bemiddelingsdiensten" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
-    }
+    { "type": "valt_onder", "target": "fiscale-procedure" },
+    { "type": "vergelijkbaar_met", "target": "bezwaarprocedure" }
   ]
 }
