@@ -5,12 +5,15 @@
     "synoniemen": [
       "founder liability",
       "aansprakelijkheid oprichters"
-    ]
+    ],
+    "vertaling": {
+      "fr": "responsabilité des fondateurs"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "gebeurtenis"
@@ -20,8 +23,26 @@
       "3.0.VII.A"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/oprichtersaansprakelijkheid.json",
+      "primary_bronnen": [
+        "WVV art. 5:4",
+        "WVV art. 5:11",
+        "WVV art. 5:15",
+        "WVV art. 5:16",
+        "WVV art. 7:3",
+        "WVV art. 7:13",
+        "WVV art. 7:16",
+        "WVV art. 7:17",
+        "WVV art. 7:19",
+        "WVV art. 2:57",
+        "WVV art. 14:41"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,7 +50,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit bestuur-en-aansprakelijkheid-cluster (skelet-doc regel ~1073, split van aansprakelijkheid-oprichters-bestuurders — OP-BA.A)"
+        "wijziging": "Skeleton-record aangemaakt uit bestuur-en-aansprakelijkheid-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:45:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (MvT WVV art. 5:15, 7:16-19; financieel plan art. 5:4 / 7:3). Geen extra MCP-calls."
       }
     ],
     "scope": {
@@ -71,46 +99,422 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Oprichtersaansprakelijkheid is een specifieke, in de tijd beperkte hoofdelijke aansprakelijkheid van de oprichters van een BV, NV of CV (art. 5:15 / 7:17 / 6:14 WVV) jegens alle belanghebbenden (vennootschap, derden, curator) voor:\n\n(1) Schade ten gevolge van nietigheid van de vennootschap, ontbreken/onjuistheid van wettelijk voorgeschreven vermeldingen in de oprichtingsakte, of kennelijke overwaardering van inbrengen in natura;\n\n(2) **De verbintenissen van de vennootschap, in de mate die de rechter bepaalt, indien faillissement wordt uitgesproken binnen 3 jaar na oprichting EN het aanvangsvermogen kennelijk ontoereikend was voor de normale uitoefening van de voorgenomen bedrijvigheid over ten minste twee jaar.**\n\nHet financieel plan (art. 5:4 BV / 7:3 NV) speelt bewijs-rol: bij faillissement < 3j vraagt de rechter-commissaris of procureur des Konings de notaris het neergelegde financieel plan over te maken aan de rechtbank. Een ontoereikend plan = bewijsmiddel voor 'kennelijk ontoereikend aanvangsvermogen'.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:3" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Sinds WVV is het minimumkapitaal in de BV afgeschaft (was 18.550 EUR voor BVBA). Het financieel plan is daardoor *cruciaal* als enige objectieve bewijsbron voor de aanvangskapitalisatie. De wetgever heeft dus de schroef strakker aangedraaid: art. 5:4 lijst de verplichte inhoud van het financieel plan (omschrijving activiteit, raming kosten 24m, omzet, financiële stromen, openings-balans, financieringsbronnen). Een 'op-een-namiddag-ingevuld'-plan voldoet niet meer. De drempel 'kennelijk ontoereikend' wordt door de rechter beoordeeld in concreto (sector, ervaring, marktomstandigheden) — niet aan absolute bedragen. Belangrijk: de hoofdelijkheid geldt jegens 'belanghebbenden' (vennootschap, derden, curator) en het kunnen worden veroordeeld 'naar een verhouding die de rechter vaststelt' (geen automatische full liability).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15 2°" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese rationale wegvallen min-kapitaal BV ↔ verzwaarde financieel-plan-toets" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever wil voorkomen dat oprichters een vennootschap met onvoldoende middelen opstarten en de risico's volledig afwentelen op derden via het beperkt-aansprakelijkheidsstatuut. De combinatie minimumkapitaal-afschaffing (BV) + verplicht financieel plan + 3-jaar-toets is een soort 'wisselgeld': je krijgt vrijheid om met €1 inbreng te starten, maar je moet bewijzen dat je serieus hebt nagedacht over de financierbaarheid van je business plan. De 3-jaars-grens en de schadebeoordeling 'naar verhouding die de rechter vaststelt' zorgen ervoor dat de last evenredig blijft met de schuld.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "MvT WVV", "ref": "art. 5:4", "context": "Toelichting verzwaarde inhoudsvereisten financieel plan na afschaffing min-kapitaal BV" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "oprichting-vennootschap",
+        "financieel-plan"
+      ],
+      "kader": "oprichting-vennootschap",
+      "naast_relevant": [
+        "bestuurdersaansprakelijkheid"
+      ],
+      "volgkennis": [
+        "faillissement"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV"
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV art. 5:4 + 5:15 (BV) · 7:3 + 7:16-17-19 (NV) · 6:13-14 (CV)",
+        "toelichting": "Substantieel verzwaard sinds WVV: BV-minimumkapitaal afgeschaft, financieel plan verplicht-inhoud uitgebreid (art. 5:4 §2)."
+      },
+      "voor": [
+        {
+          "tekst": "Alle oprichters van een BV, NV, CV — natuurlijke personen of rechtspersonen die de oprichtingsakte ondertekenen. Ook 'feitelijke oprichters' die de oprichting in de praktijk hebben aangestuurd (terwijl een strofiguur de akte tekent) kunnen worden aangesproken (rechtspraak — feitelijk-bestuurder-leer).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Latere aandeelhouders die aandelen kopen na de oprichting (in tegenstelling tot oprichters) zijn NIET onderworpen aan oprichtersaansprakelijkheid voor de aanvangsvermogen-toets. Zij dragen alleen het normale risico op niet-volstorting (art. 7:16 NV — restplicht volstorting).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:16" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij omzetting van een vereniging naar een vennootschap (art. 14:41 WVV — MvT): de regels van oprichtersaansprakelijkheid worden UITGESLOTEN omdat de 'nieuwe' vennootschap de rechtspersoonlijkheid van de omgezette vereniging voortzet — geen daadwerkelijke 'oprichting' in de zin van art. 5:15 / 7:17.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 14:41" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatieve voorwaarden voor toepassing van het 'aanvangsvermogen-spoor' (art. 5:15 2° / 7:17 2° WVV): (1) faillissement van de vennootschap; (2) faillissement uitgesproken **binnen 3 jaar na de oprichting**; (3) aanvangsvermogen was **kennelijk ontoereikend** voor de normale uitoefening van de voorgenomen bedrijvigheid; (4) over een termijn van **ten minste 2 jaar** — dit is dus een TWEE-JAREN-toets uitgevoerd op aanvangsmoment, niet op faillissementsmoment.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Na 3 jaar zonder faillissement: het 'aanvangsvermogen-spoor' van oprichtersaansprakelijkheid (5:15 2° / 7:17 2°) vervalt definitief. Andere oprichtersaansprakelijkheidsgrond (nietigheid, foutieve vermeldingen, kennelijke overwaardering inbreng natura) blijft toepasbaar (geen tijdsbeperking).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Het 'volle kapitaal'-spoor (art. 7:16 NV): oprichters zijn van rechtswege als inschrijvers beschouwd voor het gedeelte van het kapitaal waarvoor niet geldig is ingeschreven, EN voor het verschil tussen het minimumkapitaal (61.500 EUR voor NV) en het feitelijk ingeschreven bedrag. Geen tijdslimiet voor deze aansprakelijkheid; hoofdelijk + werkelijke storting.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:16" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drie-jaren-toets",
+        "naam": {
+          "primair": "3-jaars-faillissementstoets + 2-jaars-aanvangsvermogen-toets"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Cumulatieve sleutelnummers van art. 5:15 2° / 7:17 2° WVV:\n\n- **3 jaar** = uiterste termijn vanaf oprichting waarin het faillissement moet zijn uitgesproken. Geen progressieve schaal — strikte ja/nee-grens.\n- **2 jaar** = de termijn waarvoor het aanvangsvermogen voldoende moest zijn om de normale uitoefening van de voorgenomen bedrijvigheid te dragen. Dit wordt PROSPECTIEF beoordeeld vanuit het oprichtingsmoment — kon men toen redelijkerwijs geloven dat de middelen 2 jaar zouden volstaan?\n- 'Kennelijk' ontoereikend = niet 'iets te krap' maar duidelijk en evident; lege drempel voor de rechter, in concreto beoordeeld in functie van sector, voorzien volume, marktomstandigheden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "financieel-plan-bewijs",
+        "naam": {
+          "primair": "Financieel plan als bewijs-instrument (art. 5:4 / 7:3)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het bij oprichting verplicht aan de notaris afgegeven financieel plan (art. 5:4 BV / 7:3 NV) wordt door de notaris bewaard. Bij faillissement < 3j vraagt de rechter-commissaris of de procureur des Konings dat plan op aan de notaris — die is verplicht het over te maken aan de rechtbank (art. 5:15 in fine).\n\nVerplichte inhoud financieel plan (art. 5:4 §2 BV — verzwaard sinds WVV):\n1. Nauwkeurige beschrijving voorgenomen bedrijvigheid;\n2. Overzicht financieringsbronnen oprichting (inbreng, leningen, subsidies);\n3. Openingsbalans + geprojecteerde balansen na 12m en 24m;\n4. Geprojecteerde resultatenrekeningen na 12m en 24m;\n5. Begroting verwachte inkomsten en uitgaven over min. 2 jaar;\n6. Beschrijving van de hypotheses bij het schatten van omzet en winstgevendheid.\n\nFunctie als bewijsmateriaal: een grondig, gedocumenteerd, realistisch financieel plan is de **beste verdediging** van de oprichter tegen aansprakelijkheidsvordering. Omgekeerd: een copy-paste of leeg plan = vrijwel automatisch bewijs van 'kennelijk ontoereikend'.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:3" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15", "context": "Notaris-overmaking aan rechtbank bij faillissement < 3j" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hoofdelijke-aansprakelijkheid",
+        "naam": {
+          "primair": "Hoofdelijke aansprakelijkheid jegens belanghebbenden"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 5:15 / 7:17 spreken van 'hoofdelijke aansprakelijkheid jegens belanghebbenden' — dat is alle eisers: vennootschap, derden, curator. Specificiteiten:\n\n- **Niet-derogeerbaar** — 'niettegenstaande elk hiermee strijdig beding' = geen statutaire of contractuele beperking mogelijk.\n- **Hoofdelijkheid intern** — elke oprichter kan voor het geheel worden aangesproken, met regresvordering tegen de andere oprichters naar gelang van hun deelname.\n- **'Naar verhouding die de rechter vaststelt'** — voor het aanvangsvermogen-spoor (5:15 2° / 7:17 2°) bepaalt de rechter welk *bedrag* (welk deel van het netto-passief van de boedel) wordt veroordeeld in functie van de bijdrage van de fout aan het faillissement. Geen automatische volle veroordeling.\n- **Cap art. 2:57** — geldt ook voor oprichtersaansprakelijkheid (oprichter = formeel binnen 'personen bedoeld in art. 2:55' via MvT en doctrine; cap-schijf bepaald door omvang vennootschap op moment van vordering).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "andere-gronden",
+        "naam": {
+          "primair": "Andere oprichtersaansprakelijkheidsgronden (1°)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Naast het '3-jaar / aanvangsvermogen'-spoor (2°), bestaat het '1°-spoor' voor:\n\n(a) **Schade ten gevolge van nietigheid** van de vennootschap (art. 5:12 / 7:14 WVV) — bv. ontbreken constitutieve elementen.\n(b) **Ontbreken of onjuistheid van vermeldingen** in de oprichtingsakte (art. 5:11 / 7:13) — bv. verkeerde aanduiding aandeelhouders, kapitaal, statutair doel.\n(c) **Kennelijke overwaardering inbrengen in natura** — taxatie van een ingebracht goed boven werkelijke waarde. Voor NV: ook expliciete bestuurdersaansprakelijkheid jegens belanghebbenden voor kennelijke overwaardering van quasi-inbreng (art. 7:19 — vermogensbestanddelen verkregen in eerste 2 jaar onder voorwaarden art. 7:8).\n\nGeen tijdsbeperking voor het 1°-spoor (anders dan het 3-jaars-spoor van 2°). Schadeberekening op basis van klassiek bewijsschema (fout-schade-causaal verband).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:19" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-bv-onvoldoende-kapitaal",
+        "titel": "BV 'Crea-Studio' — faillissement na 18 maanden, ontoereikend plan",
+        "context": "Mevrouw Y richt op 1 juni 2024 BV Crea-Studio op (grafisch design). Inbreng: 5.000 EUR liquide middelen. Financieel plan: 1 pagina, generiek, geen begrote uitgaven, geen omzetprojectie ('verwachte omzet jaar 1: 50.000 EUR' zonder onderbouwing). De BV gaat failliet op 15 december 2025 met netto-passief 78.000 EUR (vooral onbetaalde freelancers + leveranciers). Curator stelt aansprakelijkheidsvordering oprichters in.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Analyse cumulatieve voorwaarden art. 5:15 2°:\n\n1. **Faillissement uitgesproken**: ja, 15 december 2025.\n2. **Binnen 3 jaar na oprichting**: 1 juni 2024 → 15 dec 2025 = 1,5 jaar. ✅ Binnen 3 jaar.\n3. **Aanvangsvermogen kennelijk ontoereikend voor normale uitoefening over min. 2 jaar**:\n   - Inbreng: 5.000 EUR.\n   - Beroepssector grafisch design: minimaal software-licentie (Adobe Creative Cloud ~700 EUR/j), professionele computer (~3.000 EUR), website + marketing (~2.000 EUR), kantoorhuur (~6.000 EUR/j), sociale bijdragen (~3.500 EUR/j), eigen onttrekking bedrijfsleider (~24.000 EUR/j minimum).\n   - Becijferd over 2 jaar: minimaal 65.000-80.000 EUR nodig, of voldoende voorziene omzet vanaf maand 1.\n   - Plan voorzag niet in fase voor klantenwerving, geen onderbouwing van 50.000 EUR omzet jaar 1.\n   - **Conclusie**: aanvangsvermogen 5.000 EUR is *kennelijk* ontoereikend (factor 13+).\n4. **Financieel plan**: door notaris op verzoek rechter-commissaris overgemaakt aan de rechtbank → blijkt 1-pagina-versie zonder onderbouwing.\n\n**Resultaat**: voorwaarden art. 5:15 2° vervuld. Mevrouw Y veroordeeld 'naar de verhouding die de rechter vaststelt'. Stel de rechter oordeelt dat de fout 60% van het netto-passief veroorzaakte: 60% × 78.000 = 46.800 EUR. Cap art. 2:57: BV met omzet < 350.000 EUR en balans ≤ 175.000 EUR = schijf 1 = 125.000 EUR. Veroordeling 46.800 EUR < cap → volledig opeisbaar.\n\nGeen D&O-polis dekt typisch oprichtersaansprakelijkheid (vooral pre-oprichting-fouten) → privé-vermogen Y blootgesteld."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijfervoorbeeld typisch 'BV met te weinig opstartkapitaal'" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-verdediging-grondig-plan",
+        "titel": "BV 'TechStart' — faillissement na 20 maanden, plan houdt stand",
+        "context": "Drie oprichters richten BV TechStart op (SaaS-platform) met inbreng 80.000 EUR + bankkrediet 150.000 EUR (gewaarborgd door persoonlijke borgstelling). Financieel plan: 12 pagina's, marktanalyse, voorzichtige omzetscenario's, sensitiviteits-analyse. Beoogde omzet jaar 1: 90.000 EUR; jaar 2: 240.000 EUR; break-even maand 18. Cashflow-prognose toont buffer van 6m bij worst case. BV gaat failliet 20 maanden na oprichting wegens onverwachte concurrent met disruptieve technologie.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Analyse:\n\n1. Faillissement binnen 3 jaar: ja.\n2. Aanvangsvermogen ontoereikend? Plan vertoont:\n   - Adequate inbreng + reservelening = 230.000 EUR totaal voor SaaS-context.\n   - Onderbouwde omzetschattingen met sensitiviteits-analyse.\n   - Cashflow-buffer voor 6 maanden worst case.\n   - Marktanalyse + concurrentie-analyse aanwezig.\n3. **Oorzaak faillissement**: onverwachte concurrent met disruptieve technologie (extern shocking event).\n\n**Conclusie**: aanvangsvermogen NIET kennelijk ontoereikend op oprichtingsmoment. De latere markt-disruptie is een ondernemersrisico, geen oprichters-fout. Geen veroordeling op grond art. 5:15 2°. Curator probeert spoor bestuurdersaansprakelijkheid (art. 2:56 / XX.225) — maar daar geldt marginale toets: behoorlijk plan + tijdige reactie → wellicht ook geen fout.\n\n**Les**: een grondig financieel plan is dé verdediging tegen oprichtersaansprakelijkheid. Tijd geïnvesteerd in plan-kwaliteit bij oprichting = directe vermindering van persoonlijk aansprakelijkheidsrisico over 3 jaar."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Contrast-voorbeeld: grondig plan beschermt oprichters" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-omzetting-vzw-vof",
+        "titel": "Omzetting VZW → BV — geen oprichtersaansprakelijkheid",
+        "context": "VZW Kunsthuis bestaat sinds 2010 en wordt op 1 september 2024 omgezet in BV Kunsthuis (art. 14:38 e.v. WVV). De BV gaat failliet op 1 september 2026 (binnen 'theoretische' 3-jaars-grens na omzetting).",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Analyse: art. 14:41 WVV (zie MvT) sluit oprichtersaansprakelijkheid UIT bij omzetting van een vereniging naar vennootschap, omdat de 'nieuwe' vennootschap de rechtspersoonlijkheid van de omgezette vereniging voortzet. Er is geen nieuwe 'oprichting' in de zin van art. 5:15 / 7:17. De bestuurdersaansprakelijkheid (art. 2:55+ WVV) blijft uiteraard wél lopen voor handelingen tijdens en na de omzetting.\n\n**Resultaat**: geen art. 5:15 2°-vordering tegen de omzettings-aandeelhouders. Wel mogelijk: art. XX.225 WER (faillissementsaansprakelijkheid voor kennelijke grove fout) tegen de bestuurders van de omgezette BV."
+          }
+        ],
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 14:41" },
+            { "type": "wettekst", "naam": "MvT WVV", "ref": "art. 14:41" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Financieel plan = formaliteit",
+        "verkeerde_assumptie": "Het financieel plan is een notariële formaliteit; een korte versie volstaat.",
+        "kernpunt": "Sinds WVV: het financieel plan is hét centrale bewijsdocument voor oprichtersaansprakelijkheid (art. 5:15 / 7:17). Bij faillissement < 3j wordt het door de notaris aan de rechtbank overgemaakt. Een gebrekkige versie = quasi-bewijs van 'kennelijk ontoereikend aanvangsvermogen'. Verplichte inhoud art. 5:4 §2: bedrijvigheid, financieringsbronnen, openings + 12m + 24m-balansen + resultatenrekeningen, begroting 24m, hypotheses-onderbouwing. Investeer er dus serieus tijd in.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" }
+          ]
+        }
+      },
+      {
+        "titel": "Drie jaar = 3 jaar van faillissementsrisico",
+        "verkeerde_assumptie": "Na 3 jaar zonder faillissement is de oprichter helemaal vrij van aansprakelijkheid.",
+        "kernpunt": "De 3-jaar-grens geldt ALLEEN voor het aanvangsvermogen-spoor (5:15 2° / 7:17 2°). De andere gronden — nietigheid, foutieve vermeldingen oprichtingsakte, kennelijke overwaardering inbreng natura (5:15 1° / 7:17 1°) — kennen GEEN tijdsbeperking. Een ingebracht goed dat 10 jaar later blijkt overgewaardeerd → oprichters nog steeds aansprakelijk (binnen verjaringstermijn art. 2:143).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17" }
+          ]
+        }
+      },
+      {
+        "titel": "Oprichtersaansprakelijkheid = onbeperkt persoonlijk",
+        "verkeerde_assumptie": "De oprichtersaansprakelijkheid van art. 5:15 2° / 7:17 2° staat los van de bestuurderscap art. 2:57 — oprichter draait persoonlijk op voor het hele netto-passief.",
+        "kernpunt": "De cap van art. 2:57 WVV is van toepassing op oprichtersaansprakelijkheid: de oprichter valt onder 'personen bedoeld in artikel 2:55' (cap-bedragen 125k tot 12 mio EUR volgens omvang). Maar de cap geldt PER FEIT/feitenset, en niet voor bedrog/zwaar opzet. In de praktijk: bij een kleine BV in schijf 1 = veroordeling beperkt tot 125.000 EUR ondanks netto-passief van bijvoorbeeld 250.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:57" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrine-opinie: oprichters vallen onder art. 2:55-57-cap" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "client-oprichter",
+      "naam": {
+        "primair": "Cliënt-oprichter (BV/NV-startup)"
+      },
+      "intro": "De accountant die de oprichting van een vennootschap begeleidt — typisch verantwoordelijk voor de inhoudelijke kwaliteit van het financieel plan.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "begeleiding-financieel-plan",
+              "naam": {
+                "primair": "Opstellen financieel plan — kwaliteits-checklist"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De accountant is meestal de feitelijke opsteller van het financieel plan (de notaris archiveert het maar maakt het niet inhoudelijk op). Checklist die voldoet aan art. 5:4 §2 (BV) / 7:3 §2 (NV) WVV:\n\n1. **Bedrijvigheid** — duidelijke omschrijving sector, business model, klantenprofiel.\n2. **Inbrengen** — alle inbrengen (geld + natura) gewaardeerd; voor natura: aparte revisor-verslag-link (art. 5:7).\n3. **Financieringsbronnen** — eigen middelen, bankkrediet (met intentie-brief bank), leningen aandeelhouders, subsidies.\n4. **Openings-balans** — passieven (eigen vermogen, leningen) = activa (cash + materieel + immaterieel).\n5. **Geprojecteerde balans + resultatenrekening** — na 12m én 24m, met realistische hypotheses.\n6. **Maandelijkse cashflow-prognose** voor de eerste 24 maanden — kritisch element.\n7. **Hypotheses** — expliciet vermelden: groeicijfer omzet, marge, betalingstermijnen, kostprijs personeel, ...\n8. **Sensitiviteit** — minstens base case + pessimistisch scenario.\n\nDocumenteer in werkpapier eigen kantoor: bronnen van cijfers (marktstudies, branchecijfers, peer-vergelijking).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:3" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "advies-pre-faillissement",
+              "naam": {
+                "primair": "Pre-faillissement-advies in jaar 1-3"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor cliënt-oprichters in jaar 1-3 (kritieke periode oprichtersaansprakelijkheid): bij elk kwartaal nakijken of de werkelijkheid afwijkt van het financieel plan. Bij belangrijke afwijking (negatief): cliënt waarschuwen voor 3-jaars-risico, formele opdracht herzien financieel plan + onderbouwde maatregelen documenteren in notulen. Dit beperkt de aansprakelijkheid: een oprichter die proactief reageerde toont aan dat het plan op oprichtingsmoment redelijk was en dat de afwijking door externe factoren komt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beste praktijk monitoring jaar 1-3" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-bij-oprichting",
+              "naam": {
+                "primair": "Boeking bij oprichting + activering oprichtingskosten"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Boekhoudkundige verwerking inbreng bij oprichting:\n\n- Eigen-vermogen credit: rekening 11 'Inbrengen buiten kapitaal' (BV, sinds WVV-afschaffing kapitaal) of 10 'Kapitaal' (NV).\n- Tegenboeking debet: 550 'Bank' voor inbreng in geld, 22-25 'Materiële vaste activa' voor inbreng in natura.\n- Notariskosten, KBO-registratie, eerste publicatie BS: rekening 200 'Kosten van oprichting en kapitaalverhoging' — optioneel activeerbaar, af te schrijven over max 5 jaar (KB MAR art. 3:34); anders 619 'Kosten van oprichting'.\n\nVoorzichtigheid: oprichtingskosten activeren maakt de openings-balans positiever maar maskeert minder beschikbare cash — bij financieel-plan-toets moet de werkelijke liquiditeit beoordeeld worden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "kb", "naam": "KB MAR", "ref": "Rekening 200 + 619" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "vereist",
-      "target": "financieel-plan"
-    },
-    {
-      "type": "beinvloed_door",
       "target": "oprichting-vennootschap"
     },
     {
+      "type": "vereist",
+      "target": "financieel-plan",
+      "toelichting": "Verplicht op te stellen bij oprichting BV/NV/CV (art. 5:4 / 7:3 / 6:5). Centrale bewijsbron bij vordering oprichtersaansprakelijkheid."
+    },
+    {
       "type": "beinvloed_door",
-      "target": "faillissement"
+      "target": "faillissement",
+      "toelichting": "Triggervoorwaarde voor het '3-jaar/aanvangsvermogen'-spoor (art. 5:15 2° / 7:17 2°)."
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "gecertificeerd-accountant",
+      "toelichting": "GA stelt typisch het financieel plan op voor de cliënt-oprichter — directe link met aansprakelijkheids-risico (eigen beroepsaansprakelijkheid indien plan ondermaats)."
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "bestuurdersaansprakelijkheid"
+      "target": "bestuurdersaansprakelijkheid",
+      "gelijkenissen": [
+        "Beide zijn persoonlijke aansprakelijkheidsregimes",
+        "Beide vallen onder de cap van art. 2:57 WVV",
+        "Beide kennen hoofdelijke aansprakelijkheid",
+        "Beide hebben uitsluitingen voor bedrog en zware opzet"
+      ],
+      "verschillen": [
+        "Oprichtersaansprakelijkheid: beperkt tot 3 jaar na oprichting (voor 5:15 2° / 7:17 2°), focus op aanvangsvermogen",
+        "Bestuurdersaansprakelijkheid: gehele mandaatperiode, focus op bestuursfouten",
+        "Oprichters: dragen het 'startfout-risico'; bestuurders het 'lopend-bestuur-risico'",
+        "Beide cumuleerbaar: een persoon die oprichter+bestuurder is kan voor beide aansprakelijkheidsgronden worden aangesproken voor onderscheiden feiten"
+      ],
+      "verwarring_risico": "In KMO valt oprichter en bestuurder vaak samen in één persoon. Belangrijk te onderscheiden: oprichtersfout = onvoldoende kapitalisatie/foutief plan bij start; bestuursfout = latere wanbeheer. Verschillende caps mogelijk per feitencomplex.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
