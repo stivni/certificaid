@@ -2,29 +2,15 @@
   "id": "kasstroom-analyse",
   "naam": {
     "primair": "Kasstroomanalyse",
-    "synoniemen": [
-      "kasstroomoverzicht",
-      "cash flow statement"
-    ]
+    "synoniemen": ["kasstroomoverzicht", "cash flow statement", "kasstroomstaat"],
+    "vertaling": {"en": "cash flow statement", "fr": "tableau de flux de trésorerie"}
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.9.IV",
-      "1.9.IV.A",
-      "1.9.IV.B",
-      "1.9.IV.C",
-      "1.9.IV.D",
-      "1.9.IV.E",
-      "1.9.IV.F",
-      "1.9.IV.G",
-      "1.9.IV.H"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.9.IV", "1.9.IV.A", "1.9.IV.B", "1.9.IV.C", "1.9.IV.D", "1.9.IV.E", "1.9.IV.F", "1.9.IV.G", "1.9.IV.H"],
     "scope": {
       "in": [
         "Σ-record kasstroomoverzicht",
@@ -39,66 +25,131 @@
         "Praktische toepassing (case-study)"
       ],
       "out": [
-        {
-          "topic": "Free cash flow (DCF-context apart)",
-          "richting": "moet-verwijzen",
-          "ref": "free-cash-flow"
-        },
-        {
-          "topic": "Activiteits-ratios#werkkapitaalbehoefte",
-          "richting": "moet-verwijzen",
-          "ref": "activiteits-ratios"
-        },
-        {
-          "topic": "Schuldfinanciering (kasstroom-impact)",
-          "richting": "mag-verwijzen"
-        },
-        {
-          "topic": "Kapitaalstructuur (EV-financiering kasstroom-impact)",
-          "richting": "mag-verwijzen"
-        },
-        {
-          "topic": "Cyclus-analyse (controleopdracht — operating cycle)",
-          "richting": "mag-verwijzen"
-        }
+        {"topic": "Free cash flow (DCF-context apart)", "richting": "moet-verwijzen", "ref": "free-cash-flow"},
+        {"topic": "Activiteits-ratios#werkkapitaalbehoefte", "richting": "moet-verwijzen", "ref": "activiteits-ratios"},
+        {"topic": "Schuldfinanciering (kasstroom-impact)", "richting": "mag-verwijzen"},
+        {"topic": "Kapitaalstructuur (EV-financiering kasstroom-impact)", "richting": "mag-verwijzen"},
+        {"topic": "Cyclus-analyse (controleopdracht — operating cycle)", "richting": "mag-verwijzen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/kasstroom-analyse.json",
+      "primary_bronnen": ["IAS 7 (Verordening (EU) 2023/1803)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:30:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "Σ-record kasstroomanalyse uitgewerkt: IAS 7 3-categorie structuur, indirecte vs directe methode, conciliatie boekhoudkundige winst ↔ operationele kasstroom, voorbeeld + valkuilen."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+        "tekst": "Een kasstroomanalyse maakt zichtbaar hoeveel cash een onderneming in een periode genereerde en aanwendde — verdeeld over drie categorieën die de bron én bestemming van cash tonen. IAS 7 (verplicht voor IFRS-rapporterende ondernemingen + voor de geconsolideerde jaarrekening in België) onderscheidt: (1) kasstromen uit bedrijfsvoering — operationele kern (cash van klanten min cash naar leveranciers en personeel); (2) kasstromen uit investeringen — aankoop/verkoop materiële, immateriële en financiële vaste activa; (3) kasstromen uit financiering — bewegingen in eigen vermogen en lange schuld. De som verklaart de stand-mutatie van liquide middelen tussen openings- en slotbalans.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7 — Cash Flow Statements", "ref": "paragraaf 6 (definities) en 10 (3 categorieën)"}]}
+      },
+      "substantie": {
+        "tekst": "De resultatenrekening vertelt 'hoeveel verdiende je?' op accrual-basis (toerekening). De kasstroomanalyse vertelt 'hoeveel cash kwam binnen en ging buiten?'. Beide horen je samen te lezen — winst zonder cash is gevaarlijk (lopende factoring, kapitalisatie van kosten, agressieve omzeterkenning kunnen winst tonen zonder kasinstroom). Klassiek diagnose-patroon: structureel hoge winst maar lage operationele kasstroom → controle van werkkapitaal (DSO, DIO stijgend?), accrual-componenten (voorzieningen, afschrijvings-keuzes) en mogelijke earnings management. Voor banken is operationele kasstroom de echte interestcoverage-bron — niet de winst.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Waarom een afzonderlijk overzicht naast resultatenrekening + balans? Omdat winst en cash structureel uiteenlopen door (a) niet-kas-kosten (afschrijvingen, waardeverminderingen, voorzieningen), (b) werkkapitaal-bewegingen (omzet komt vóór de cash), (c) investeringen (capex passeert balans, niet resultatenrekening) en (d) financierings-bewegingen (lening opnemen ≠ winst). Pas een kasstroomanalyse maakt de werkelijke cash-cyclus zichtbaar en toetst de continuïteit. ISA 570 stelt 'negative cash flows from operating activities' expliciet als trigger-indicator voor going-concern-risico.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien) — Going Concern", "ref": "paragraaf A3 (events or conditions)"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["jaarrekening", "jaarrekeninganalyse"],
+      "kader": "jaarrekeninganalyse",
+      "naast_relevant": ["liquiditeits-ratios", "activiteits-ratios", "free-cash-flow"],
+      "volgkennis": ["financiele-diagnose", "continuiteit"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Geconsolideerde jaarrekening — IAS 7 verplicht kasstroomoverzicht; in België voor genoteerde ondernemingen + grote groepen. KMO-statutaire JR: niet verplicht maar sterk aanbevolen.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7", "ref": "paragraaf 1 (scope)"}]}},
+        {"tekst": "Continuïteits-toets — ISA 570 + CBN-advies 2010/14 vragen om kasstroomprognose 12 maanden vooruit bij twijfel. Historische kasstroomanalyse vormt de basis voor de prognose.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570", "ref": "paragrafen 16-17"}]}},
+        {"tekst": "Bedrijfswaardering — Discounted Cash Flow (DCF) methode bouwt op vrije kasstroom (FCF), die afgeleid wordt uit het kasstroomoverzicht.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ],
+      "risico": [
+        {"tekst": "Classificatie-fouten — IAS 7 laat keuze voor interest paid en dividend received (bedrijfsvoering of financiering); inconsequente keuze over jaren maakt vergelijking onmogelijk. Documenteer in waarderingsregels.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7", "ref": "paragrafen 31-34"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "drie-categorieen-ias-7",
+        "naam": {"primair": "Drie kasstroom-categorieën (IAS 7)"},
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "IAS 7 paragrafen 13-17 verdelen cash-bewegingen verplicht in drie categorieën. Beslissingscriterium: de aard van de onderliggende activiteit, niet het balansrubriek waaruit ze komt. Voorbeeld: aflossing leasing-schuld → financiering; betaling huur operationele lease → bedrijfsvoering.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7", "ref": "paragrafen 13-17"}]}}
+          },
+          "bouwstenen": [
+            {"id": "bedrijfsvoering", "naam": {"primair": "Kasstromen uit bedrijfsvoering"}, "bouwsteen_type": "begrip", "kern": {"definitie": {"tekst": "Operationele cash van/naar klanten, leveranciers, personeel, fiscus (bedrijfsbelastingen, btw saldo). Indicator van vermogen om operationeel cash te genereren — gewenst structureel positief. Sluit interest en dividend in OF uit afhankelijk van consequente keuze (IAS 7 par. 31-34).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7", "ref": "paragraaf 14"}]}}}},
+            {"id": "investering", "naam": {"primair": "Kasstromen uit investering"}, "bouwsteen_type": "begrip", "kern": {"definitie": {"tekst": "Aankoop/verkoop van vaste activa (materieel, immaterieel, financieel). Capex = aankoop materieel + immaterieel; desinvestering = verkoop. Typisch netto negatief bij groeiende onderneming; positief bij desinvesterende of inkrimpende onderneming.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7", "ref": "paragraaf 16"}]}}}},
+            {"id": "financiering", "naam": {"primair": "Kasstromen uit financiering"}, "bouwsteen_type": "begrip", "kern": {"definitie": {"tekst": "Bewegingen in lange-termijn-financiering: opnemen/aflossen leningen, kapitaalverhogingen/-verminderingen, dividenduitkeringen, terugkoop eigen aandelen. Saldo toont financierings-strategie: positief = aantrekken externe middelen, negatief = teruggeven aan kapitaalverschaffers.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7", "ref": "paragraaf 17"}]}}}}
+          ]
+        }
+      },
+      {
+        "id": "indirecte-vs-directe-methode",
+        "naam": {"primair": "Indirecte vs directe methode"},
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "Twee methoden voor bedrijfsvoering-kasstroom — beide leveren hetzelfde totaal. Directe methode toont rechtstreeks de operationele cash-stromen (ontvangsten klanten, betalingen leveranciers, lonen, ...). Indirecte methode start van nettowinst en corrigeert voor (a) niet-kas-items (afschrijvingen, voorzieningen, waardeverminderingen), (b) werkkapitaal-bewegingen (Δ vorderingen, Δ voorraden, Δ handelsschulden), (c) reclassificatie naar investering/financiering. IAS 7 staat beide toe (par. 18); in praktijk gebruikt 90+ % de indirecte methode wegens lager aanlevervolume.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7", "ref": "paragrafen 18-20"}]}}
+          },
+          "bouwstenen": [
+            {"id": "indirecte-conciliatie", "naam": {"primair": "Indirecte methode — conciliatie-stappen"}, "bouwsteen_type": "stap", "kern": {"definitie": {"tekst": "Vertrekpunt: nettoresultaat (rubriek 9904). Stap 1: tel niet-kas-kosten op (afschrijvingen 630, waardeverminderingen 631-634, voorzieningen 635-637). Stap 2: tel niet-kas-opbrengsten af (terugnames waardeverminderingen, vrijgevallen voorzieningen). Stap 3: corrigeer voor werkkapitaal-Δ — daling vorderingen = +cash, stijging voorraden = −cash, stijging handelsschulden = +cash. Stap 4: reclassificeer winst/verlies op verkoop activa naar 'investering'. Resultaat: operationele kasstroom.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
           ]
         }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-kasstroom-zelena",
+        "titel": "Kasstroomoverzicht — Zelena Bio NV (20X4)",
+        "context": "Zelena Bio NV: nettowinst 285, afschrijvingen 320, Δ vorderingen +400, Δ voorraden +250, Δ handelsschulden +150, capex 800, opname LT-lening 500, dividenduitkering 100 (1.000 EUR).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Kasstroomoverzicht 20X4 — indirecte methode (1.000 EUR)",
+            "rijen": [
+              ["Nettoresultaat boekjaar", "+285"],
+              ["+ Afschrijvingen en waardeverminderingen", "+320"],
+              ["+ / − Δ werkkapitaal:", ""],
+              ["  − Toename handelsvorderingen (-400)", "−400"],
+              ["  − Toename voorraden (-250)", "−250"],
+              ["  + Toename handelsschulden (+150)", "+150"],
+              ["= Operationele kasstroom", "+105"],
+              ["− Capex (aankoop vaste activa)", "−800"],
+              ["= Kasstromen uit investering", "−800"],
+              ["+ Opname LT-lening", "+500"],
+              ["− Dividenduitkering", "−100"],
+              ["= Kasstromen uit financiering", "+400"],
+              ["NETTO MUTATIE LIQUIDE MIDDELEN", "−295"]
+            ],
+            "interpretatie": "Operationele kasstroom (+105) is veel lager dan nettowinst (+285) door werkkapitaal-stijging van 500 (vorderingen + voorraden stijgen sneller dan schulden). Capex 800 wordt gedeeltelijk gefinancierd met operationele cash (105) en LT-lening (500); resterende 295 komt uit kas-buffer = liquiditeits-erosie. Alarm-patroon: het bedrijf groeit, maar werkkapitaal slokt operationele winst op. Aanbeveling: DSO terugbrengen + voorraadrotatie verhogen voordat verdere capex."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {"titel": "Winst gelijkstellen aan cash", "verkeerde_assumptie": "Hoge nettowinst betekent dat er voldoende cash is.", "kernpunt": "Nettowinst is accrual-gebaseerd. Werkkapitaal-stijging, capex en afschrijvings-keuzes maken het verschil. Klassiek alarm: winst stijgt 30 %, operationele kasstroom daalt 50 % — verbergt agressieve omzeterkenning of vorderingen-explosie.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Capex vergeten in cash-vrijheid", "verkeerde_assumptie": "Operationele kasstroom = beschikbare cash voor dividenden + schuldafbouw.", "kernpunt": "Onderhoudscapex (vervanging versleten activa) MOET uit operationele kasstroom komen — anders verwatert het productieve apparaat. Vrije kasstroom (FCF) = operationele kasstroom − onderhoudscapex. Pas FCF is echt 'beschikbaar' voor aandeelhouders/schuldeisers.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Classificatie-keuzes negeren", "verkeerde_assumptie": "Alle bedrijven classificeren interest paid identiek.", "kernpunt": "IAS 7 par. 31-34 staat keuze toe: interest paid in bedrijfsvoering OF financiering. Inconsequente keuze over jaren of tussen bedrijven maakt vergelijking onmogelijk. Lees de waarderingsregels in de toelichting; corrigeer voor vergelijking.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "IAS 7", "ref": "paragrafen 31-34"}]}},
+      {"titel": "Een jaar als representatief zien", "verkeerde_assumptie": "Operationele kasstroom dit jaar +200 → bedrijf is gezond.", "kernpunt": "Werkkapitaal-bewegingen oscilleren sterk: een jaar van voorraad-afbouw kan operationele kasstroom kunstmatig boosten zonder duurzame verbetering. Analyseer 3-5 jaar evolutie en spreid investeringen + werkkapitaal-effecten over meerdere perioden.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "jaarrekeninganalyse"
-    }
+    {"type": "valt_onder", "target": "jaarrekeninganalyse"},
+    {"type": "vereist", "target": "jaarrekening"},
+    {"type": "bevat", "target": "free-cash-flow", "toelichting": "Free cash flow wordt afgeleid uit het kasstroomoverzicht (operationele kasstroom − onderhoudscapex)."},
+    {"type": "beinvloed_door", "target": "activiteits-ratios", "toelichting": "Werkkapitaal-bewegingen (Δ vorderingen, Δ voorraden, Δ handelsschulden) zijn een grote driver van operationele kasstroom."},
+    {"type": "triggert", "target": "continuiteit", "toelichting": "Negatieve operationele kasstroom is een ISA 570-indicator voor going-concern-risico."}
   ]
 }
