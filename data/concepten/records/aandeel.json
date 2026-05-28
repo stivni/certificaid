@@ -3,15 +3,18 @@
   "naam": {
     "primair": "Aandeel",
     "synoniemen": [
-      "deelbewijs",
       "share",
-      "equity instrument"
-    ]
+      "effect",
+      "participatie"
+    ],
+    "vertaling": {
+      "fr": "action / part sociale"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit"
     ],
@@ -21,8 +24,30 @@
       "3.0.IV.D"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/aandeel.json",
+      "primary_bronnen": [
+        "WVV art. 5:18",
+        "WVV art. 5:25",
+        "WVV art. 5:40",
+        "WVV art. 5:42",
+        "WVV art. 5:43",
+        "WVV art. 5:62-64",
+        "WVV art. 5:127",
+        "WVV art. 5:143",
+        "WVV art. 7:50-7:53",
+        "WVV art. 7:62",
+        "WVV art. 7:78",
+        "WVV art. 7:212",
+        "WIB92 art. 90",
+        "WIB92 art. 192",
+        "WIB92 art. 269"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,7 +55,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~885)"
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WVV BV art. 5:18-5:64; NV art. 7:50 e.v.; fiscaal art. 90/192/269 WIB92). Geen extra MCP-calls."
       }
     ],
     "scope": {
@@ -80,44 +112,475 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een aandeel is een deelbewijs dat een fractie van het eigen vermogen van een vennootschap vertegenwoordigt en de houder ervan ('aandeelhouder') rechten verleent jegens die vennootschap. Onder WVV zijn de kernrechten: (1) stemrecht in de algemene vergadering — proportioneel of meervoudig, behoudens stemrechtloze aandelen; (2) dividendrecht — aandeel in uitgekeerde winst; (3) liquidatie-aandeel — deel in eindrest bij ontbinding; (4) voorkeurrecht bij kapitaalverhoging (art. 5:128 / 7:188); (5) informatierecht. Sinds WVV (2019) is de figuur grondig hervormd: in de BV en CV is er GEEN kapitaal meer (vervangen door 'inbreng zonder kapitaal'-concept, art. 5:1-5:9); aandelen daar zijn fractiewaarden in het eigen vermogen zonder nominaal bedrag. In de NV blijft het klassieke 'kapitaal + nominale of fractie-aandelen'-model (minimumkapitaal 61.500 EUR).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:18" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:40" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:50" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch: een aandeel is een 'residueel' instrument — pas na voldoening van schuldeisers krijgt de aandeelhouder zijn deel. Het is risicodragend kapitaal (hoogste yield-verwachting, hoogste verlies-risico bij faillissement). Juridisch onderscheidt het zich van obligaties (vreemd vermogen, vast rendement, voorrang in vereffening). De WVV-flexibilisering laat veel statutaire creativiteit toe: meervoudig stemrecht (BV onbeperkt; niet-genoteerde NV ja; genoteerde NV max factor 2 — Wet 28 april 2020), aandelen zonder stemrecht (typisch in combinatie met preferent dividend), winstgerechtigdheid-categorieën (preferent dividend, cumulatief preferent, ...). Het aandeelhoudersregister (art. 5:25 BV / 7:34 NV) is het wettelijk bewijs van eigendom; aandelen zijn typisch op naam (BV) of op naam/gedematerialiseerd bij genoteerde NV.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:25" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:42" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:62" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het aandelenconcept maakt risicokapitaal-verzameling mogelijk: meerdere personen kunnen samen een vennootschap kapitaliseren met verschillende inbrengvolumes, en hun belang wordt evenredig vertegenwoordigd. De flexibilisering door WVV (verschillende categorieën stem- en winstrechten) laat toe complexe structureringen voor familievennootschappen (controle behouden bij oudere generatie via meervoudig stemrecht) en investeerders-deals (preferent dividend voor venture capital). Tegelijkertijd worden minderheden beschermd via dwingende rechten (voorkeurrecht, informatierecht, minderheidsvordering).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio kapitaalverzameling + flexibele structurering" }
           ]
         }
       }
     },
-    "bouwstenen": [
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "ondernemingsvormen",
+        "eigen-vermogen"
+      ],
+      "kader": "eigen-vermogen",
+      "naast_relevant": [
+        "algemene-vergadering",
+        "aandeelhoudersovereenkomsten"
+      ],
+      "volgkennis": [
+        "winstuitkering",
+        "voorkeurrecht",
+        "kapitaalverhoging"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV (Wet 23 maart 2019); meervoudig stemrecht NV-genoteerd: Wet 28 april 2020.",
+        "toelichting": "Grondige hervorming sinds WVV. BV en CV: geen kapitaal meer, enkel 'inbreng + eigen-vermogen-fractie' (art. 5:1-5:9). NV: kapitaalconcept behouden. Meervoudig stemrecht in alle vennootschapsvormen toegelaten (genoteerde NV: max factor 2)."
+      },
+      "voor": [
+        {
+          "tekst": "Aandelen kunnen worden uitgegeven in BV, NV, CV, CommV (statutair) en omgevormde vennootschappen. In maatschap/VOF: niet 'aandelen' maar 'aandeel in vennootschap' als persoonsgebonden recht (geen verhandelbaar instrument). VZW/stichting: geen aandelen (geen kapitaal).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:18" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:50" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Belang voor de aandeelhouder: (a) participatie in de winsten (dividend); (b) waardestijging bij goede prestatie (potentiële meerwaarde bij verkoop — voor private personen art. 90 1° WIB92 = geen belasting indien normaal beheer privé-vermogen); (c) stem- en beslissingsmacht over fundamentele besluiten via AV; (d) liquidatie-deel; (e) participatie zonder onbeperkte aansprakelijkheid (beperkt tot inbreng).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 90 1°" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:1" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Risico's voor aandeelhouder: (a) verlies van inbreng bij vereffening met onvoldoende vermogen; (b) volstortingsplicht bij niet-volstorte aandelen — kan worden opgevraagd door bestuur of curator (NV art. 7:65); (c) verwatering bij kapitaalverhoging zonder voorkeurrecht-uitoefening; (d) belastingdienstige gevolgen bij bedrijfsmatig houden (meerwaarde voor vennootschap = belastbaar tenzij art. 192 WIB92-vrijstelling).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:65" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 192" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
       {
         "id": "aandeelhouders-rechten-en-plichten",
         "naam": {
           "primair": "Aandeelhouders-rechten en -plichten"
         },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De aandeelhouder beschikt over een set wettelijke en statutaire rechten en draagt enkele beperkte plichten.\n\n**Rechten**:\n1. **Stemrecht** (art. 5:42 BV / 7:50 NV) — proportioneel aan kapitaalfractie, behoudens statutair meervoudig stemrecht of stemrechtloos aandeel.\n2. **Dividendrecht** — aandeel in uitgekeerde winst (art. 5:46 BV / 7:55 NV); kan preferent zijn.\n3. **Voorkeurrecht** bij kapitaalverhoging in geld (art. 5:128 BV / 7:188 NV) — beschermt tegen verwatering.\n4. **Informatierecht** (art. 5:88 / 7:139): jaarrekening, jaarverslag, commissarisverslag, vragen aan bestuur.\n5. **Uittredingsrecht** in CV (art. 6:120) en in BV onder statutaire voorwaarden (art. 5:154).\n6. **Liquidatie-aandeel** bij ontbinding (rest na voldoening schuldeisers).\n7. **Minderheidsrechten** (art. 2:60 — minderheidsvordering 1% of 1,25 mio EUR; art. 5:155 — gerechtelijke uitsluiting/uittreding).\n\n**Plichten**:\n1. **Volstortingsplicht** — bij niet-volstorte aandelen plicht om bij oproep door bestuur het resterende bedrag te storten (NV: art. 7:65).\n2. **Goede trouw** in uitoefening van zijn rechten — geen rechtsmisbruik.\n3. **Geen onbeperkte aansprakelijkheid** in BV/NV (beperkt tot inbreng); WEL onbeperkt in VOF en CommV-beherende.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:42" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:88" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:50" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:65" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:60" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "categorieen-aandelen",
+        "naam": {
+          "primair": "Categorieën van aandelen"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "WVV laat een grote diversiteit aan aandelencategorieën toe (statutair te definiëren):\n\n**Gewone aandelen** — standaardstemrecht (1 stem per aandeel) + standaarddividendrecht (pro rata).\n\n**Aandelen met meervoudig stemrecht** — meer dan één stem per aandeel; in BV/CV onbeperkt mogelijk; in niet-genoteerde NV ja; in genoteerde NV max factor 2 (loyaliteitsstemrecht na 2 jaar houden, Wet 28 april 2020). Typisch instrument voor familievennootschap waarin oudere generatie controle behoudt na overdracht aandelen.\n\n**Stemrechtloze aandelen** — geen stemrecht in AV; meestal in combinatie met preferent dividend. In BV: art. 5:43; in NV: art. 7:62. Maximum 1/3 van uitgegeven aandelen in NV (art. 7:62 §1).\n\n**Preferente aandelen** — voorrang in dividenduitkering en/of liquidatie-aandeel. Kan cumulatief (gemiste dividenden inhalen) of niet-cumulatief.\n\n**Aandelen op naam vs gedematerialiseerd**:\n- BV: ALLEEN aandelen op naam (art. 5:24 §1).\n- NV: aandelen op naam OF gedematerialiseerde aandelen (giraal in clearing-systeem). Aandelen aan toonder zijn afgeschaft sinds 2014 (Wet 14 dec 2005).\n\n**Soort-veranderingen** vereisen statutenwijziging via buitengewone AV.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:42" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:43" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:24" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:62" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:50" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "overdraagbaarheid",
+        "naam": {
+          "primair": "Overdraagbaarheid"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**BV**: principe = besloten karakter — aandelen zijn slechts overdraagbaar mits goedkeuring door minstens helft van de andere aandeelhouders met minstens 75% van de stemrechten (art. 5:62 WVV), tenzij statuten anders bepalen. Belangrijke uitzonderingen automatisch toegestaan (geen goedkeuring nodig): overdracht aan een andere aandeelhouder, aan echtgenoot/wettelijk samenwonende, aan bloedverwanten in rechte lijn (art. 5:63). Statuten kunnen het besloten karakter versoepelen (open BV) of verstrengen (extra-restrictief).\n\n**NV**: principe = vrije overdraagbaarheid (art. 7:78). Statuten kunnen overdrachtsbeperkingen invoeren — typisch voorkooprechten, goedkeuringsclausule — maar mogen niet het aandeel principieel onverhandelbaar maken. Beperkingen moeten redelijk zijn (rechterlijke toets).\n\n**CV**: zeer flexibel — uittreding en intreding via statuten (art. 6:120 e.v.).\n\n**Vorm overdracht**: voor aandelen op naam volstaat inschrijving in aandeelhoudersregister als bewijs (art. 5:25 / 7:34). Geen notariële akte vereist voor de overdracht zelf (wel voor schenking of overlijden-overdracht via erfrecht).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:62" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:63" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:78" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:25" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aandeelhoudersregister",
+        "naam": {
+          "primair": "Aandeelhoudersregister"
+        },
         "bouwsteen_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — overzicht: stemrecht · dividendrecht · voorkeurrecht (cross) · volstortingsplicht (cross) · informatierecht · uittreding (CV).",
+            "tekst": "Verplicht register dat de vennootschap bijhoudt op haar zetel met identificatie van elke aandeelhouder (naam, adres, aantal aandelen, soort, datum van inschrijving en eventuele beperkingen). Wettelijk bewijs van eigendom — overschrijving in het register is constitutief voor overdracht (art. 5:25 §3 / 7:34). Vorm: papier of elektronisch (sinds 2019 ook digitaal register via online platforms zoals eRegistry van NBB).\n\nVerplichte inhoud (art. 5:25 §2):\n1. Identiteit aandeelhouder + aandelen per soort;\n2. Inbrengen en het deel van de inbreng dat eventueel nog niet is volstort;\n3. Wijze van overdracht;\n4. Statutaire of conventionele overdrachtsbeperkingen.\n\nIedere aandeelhouder mag het register inzien (art. 5:25 §4) — niet-aandeelhouders niet (privacy).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:25" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:34" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waarden-aandeel",
+        "naam": {
+          "primair": "Waarde-aspecten — nominale waarde · fractiewaarde · marktwaarde"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie waardebegrippen die op een aandeel toepasbaar zijn:\n\n**Nominale waarde** — alleen in NV met aandelen-met-nominale-waarde (= bedrag waarvoor aandeel in het kapitaal vertegenwoordigd is, bv. 61,50 EUR per aandeel bij 1.000 aandelen + minimumkapitaal 61.500 EUR). Onveranderlijk tenzij statutenwijziging. NV kan ook aandelen ZONDER nominale waarde uitgeven; dan geldt 'fractiewaarde'.\n\n**Fractiewaarde** — kapitaal / aantal aandelen — variabele waarde die mee evolueert bij kapitaalverhogingen of -verminderingen. In NV: enkel administratief. In BV/CV: GEEN kapitaal meer, dus geen nominale waarde of fractiewaarde in klassieke zin; wel een 'fractie in het eigen vermogen' — boekhoudkundige eigen-vermogenswaarde / aantal aandelen.\n\n**Marktwaarde / handelswaarde** — economische realiteit. Berekenbaar via diverse methodes:\n- *Discounted cash flow* (DCF) — voor groei-bedrijven;\n- *Multiplemethode* (vermenigvuldiger × EBITDA, of × omzet, of × winst);\n- *Vermogenswaarde* (eigen vermogen + correcties);\n- *Mixed*: gemiddelde van rendements- en vermogenswaarde.\n\nVoor genoteerde NV: marktprijs = beurskoers. Voor niet-genoteerde: waardering door deskundige (vaak GA + bedrijfsrevisor).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:50" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:5", "context": "BV-eigen-vermogen-fractie ipv kapitaal" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Waarderingsmethodes klassiek" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "opbrengsten-aandeel",
+        "naam": {
+          "primair": "Opbrengsten — dividend + meerwaarde"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Dividend** — periodieke uitkering van winst aan aandeelhouder na AV-besluit:\n- BV: liquiditeitstest art. 5:143 vóór elke uitkering (kan vennootschap de schulden 12 maanden lang nog betalen?).\n- NV: nettoactief-test art. 7:212 (uitkeerbaar bedrag = nettoactief minus niet-uitkeerbare reserves).\n- Roerende voorheffing 30% bij uitkering (verlaging 15% onder VVPRbis-regime art. 269 §2 WIB92).\n- Boekhoudkundig in vennootschap: rekening 694 'Vergoeding aandelen' debet, 471 'Te betalen dividenden' credit; betaling: 471 debet, 453 'Ingehouden voorheffingen' credit (RV) + 550 'Bank' credit. In aandeelhouder-natuurlijke persoon: PB-RV is bevrijdend (geen verdere aangifte tenzij vrijwillige aangifte). In aandeelhouder-vennootschap: DBI-vrijstelling (art. 202-205 WIB92) indien deelneming ≥ 10% of ≥ 2,5 mio EUR en houdperiode 1 jaar.\n\n**Meerwaarde bij overdracht** — verschil tussen verkoopprijs en boekwaarde/aanschafprijs:\n- Privé-houder (NP): in beginsel onbelast als 'normaal beheer privé-vermogen' (art. 90 1° WIB92). Belastbaar in art. 90 9° (33%) bij 'speculatieve verrichting' of ≥ 25% controlerend belang verkocht aan rechtspersoon buiten EER (16,5%, art. 171 4°bis).\n- Vennootschap-houder: principe = belastbaar in VenB (gewoon tarief), MAAR vrijstelling art. 192 WIB92 indien aan voorwaarden voldaan (taxatie-voorwaarde + 1-jaar houdperiode + deelneming-eis ≥ 10% of ≥ 2,5 mio EUR — voor 'kleine vennootschap' vereenvoudigd).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:143" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:212" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 90" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 192" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 269" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-categorieen-bv-familie",
+        "titel": "Familie-BV met meervoudig stemrecht voor ouders",
+        "context": "BV Familia: 1.000 aandelen, EV 500.000 EUR. Vader V wil zijn 60% (600 aandelen) schenken aan zijn drie kinderen (200 aandelen elk), maar wenst zelf controle te behouden. Oplossing: statutenwijziging — V's resterende 400 aandelen worden 'aandelen met meervoudig stemrecht (factor 5)'.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — uitgangssituatie: V = 600 aandelen × 1 stem = 600 stemmen (60%). Andere aandeelhouder M = 400 × 1 = 400 (40%).",
+              "Stap 2 — na schenking V → 3 kinderen + statutenwijziging meervoudig stemrecht V: V houdt 400 aandelen × 5 stemmen = 2.000 stemmen. M = 400 × 1 = 400. Kinderen = 600 × 1 = 600. Totaal stemmen: 3.000.",
+              "Stap 3 — V's stemkracht: 2.000 / 3.000 = 66,7%. V heeft nog steeds blokkering > 25% en zelfs versterkte meerderheid > 75% binnen handbereik (door M te overtuigen).",
+              "Stap 4 — fiscaal voordeel: schenking aandelen aan kinderen onder gunsttarief familiale onderneming (0% of 3% afhankelijk van regio en voorwaarden) → erfbelasting later vermeden voor 600 aandelen.",
+              "Stap 5 — boekhoudkundig: schenking heeft GEEN impact op BV (interne wijziging aandeelhoudersregister). Notariële schenkingsakte voor kinderen, aandeelhoudersregister bijgewerkt."
+            ],
+            "resultaat": "Resultaat: V heeft de successieplanning gerealiseerd (3 × 200 = 600 aandelen overgedragen) zonder zeggenschap te verliezen (door meervoudig stemrecht). Risico: kinderen kunnen later met M alliëren — V's 66,7% nog steeds bedreigd indien meervoudig stemrecht statutair wordt teruggedraaid (vereist 75%-statutenwijziging waar V nu wel zelf 66,7% heeft — beveiligd zolang statuten niet wijzigen)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:42" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke successieplanning-casus" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-overdracht-bv",
+        "titel": "Overdracht BV-aandelen — goedkeuringsregime art. 5:62",
+        "context": "BV Sigma heeft 5 aandeelhouders A (40%), B (25%), C (15%), D (12%), E (8%). E wil zijn 80 aandelen verkopen aan derde X. Statuten verwijzen naar wettelijk regime (geen versoepeling).",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "**Procedure art. 5:62 WVV**:\n\n1. E informeert het bestuur van zijn voornemen aandeel-overdracht aan X (naam, prijs, eventueel voorwaarden).\n2. Bestuur agendaert dit punt op AV of vraagt schriftelijke instemming aandeelhouders.\n3. Goedkeuring vereist: minstens **helft van de andere aandeelhouders** (= minstens 2 van A,B,C,D) met **minstens 75% van hun gezamenlijke stemrechten**.\n   - Stemrechten andere aandeelhouders = 100% − 8% (E) = 92%. 75% van 92% = 69%.\n   - Voorbeeld: A + B = 40+25 = 65% — onvoldoende.\n   - A + B + C = 40+25+15 = 80% — ja, voldoende.\n4. Indien geen goedkeuring: andere aandeelhouders moeten zelf overnemen aan dezelfde prijs (art. 5:64) OF E mag verkopen aan X.\n\n**Vrijgesteld** van goedkeuring (art. 5:63): overdracht aan andere aandeelhouder, echtgenoot, kinderen — automatisch toegelaten.\n\n**Vorm overdracht**: notariële akte niet nodig (privé-onderhandse akte volstaat); inschrijving in aandeelhoudersregister door bestuur op dag van overdracht."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:62" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:63" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:64" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-dividend-boeking",
+        "titel": "Dividenduitkering 50.000 EUR — boekhoudkundige en fiscale verwerking",
+        "context": "BV Tau (klein) keert dividend uit 50.000 EUR aan haar 2 aandeelhouders A (60%) en B (40%) na AV-besluit jaarrekening 2025. VVPRbis-regime toepasselijk (kleine vennootschap, drie volledige boekjaren) → roerende voorheffing 15% in plaats van 30%.",
+        "weergaven": [
+          {
+            "type": "boeking",
+            "scenario": "Bij AV-besluit toekenning dividend",
+            "lijnen": [
+              { "rekening": "694", "naam": "Vergoeding van het kapitaal (dividenden)", "debet": 50000.00 },
+              { "rekening": "471", "naam": "Te betalen dividenden", "credit": 50000.00 }
+            ]
+          },
+          {
+            "type": "boeking",
+            "scenario": "Bij inhouding RV 15% (VVPRbis) en betaling",
+            "lijnen": [
+              { "rekening": "471", "naam": "Te betalen dividenden", "debet": 50000.00 },
+              { "rekening": "453", "naam": "Ingehouden voorheffingen", "credit": 7500.00, "toelichting": "15% × 50.000 = 7.500 RV" },
+              { "rekening": "550", "naam": "Bank — uitkering aandeelhouders", "credit": 42500.00 }
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "**Per aandeelhouder**: A ontvangt netto 30.000 × 85% = 25.500 EUR; B 20.000 × 85% = 17.000 EUR.\n\n**Fiscaal voor aandeelhouder NP**: 15% RV is een definitieve belasting (geen verdere aangifte nodig); voor aandeelhouder-vennootschap: DBI-vrijstelling mogelijk indien aan voorwaarden voldaan.\n\n**Doorstorting RV**: BV moet 7.500 EUR doorstorten aan FOD Financiën binnen 15 dagen na betaling/toekenning (art. 412 WIB92)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 269 §2" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+            { "type": "kb", "naam": "KB MAR", "ref": "Rekening 694 + 471 + 453" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "BV-aandeel heeft nominale waarde",
+        "verkeerde_assumptie": "Een BV-aandeel heeft een nominale waarde van 1 EUR of meer.",
+        "kernpunt": "Sinds WVV (2019) is er in BV en CV GEEN kapitaal meer; daardoor is er ook geen nominale waarde of fractie-waarde in klassieke zin. Het aandeel vertegenwoordigt een 'fractie in het eigen vermogen' — een variabele economische waarde. In de NV blijft kapitaal bestaan en hebben aandelen wel een nominale of fractie-waarde (kapitaal/aantal aandelen).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:1" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:5" }
+          ]
+        }
+      },
+      {
+        "titel": "Meervoudig stemrecht = onbeperkt in alle vennootschapsvormen",
+        "verkeerde_assumptie": "Sinds WVV mag elk aandeel meervoudig stemrecht hebben zonder beperking.",
+        "kernpunt": "BV/CV: meervoudig stemrecht onbeperkt mogelijk (geen factor-limiet). Niet-genoteerde NV: ook onbeperkt. Genoteerde NV: max factor 2 (loyaliteitsstemrecht na 2 jaar houden, Wet 28 april 2020). Daarboven niet toegestaan om markt-integriteit te bewaren.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:42" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:53" }
+          ]
+        }
+      },
+      {
+        "titel": "Aandelen op naam vereisen geen notaris",
+        "verkeerde_assumptie": "Elke overdracht van aandelen vereist een notariële akte voor geldigheid.",
+        "kernpunt": "Voor aandelen op naam volstaat een onderhandse overdrachtsakte + inschrijving in aandeelhoudersregister door bestuur (art. 5:25 §3 / 7:34). Notariële akte ALLEEN nodig bij: (a) schenking (art. 931 oud BW); (b) overlijden-overdracht via successie (notaris voor aangifte nalatenschap); (c) statutenwijziging (bv. opname overdrachtsbeperking).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:25" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "client-aandeelhouder-vennootschap",
+      "naam": {
+        "primair": "Cliënt-vennootschap + aandeelhouder"
+      },
+      "intro": "Twee perspectieven: (1) de vennootschap die aandelen uitgeeft of het register bijhoudt; (2) de aandeelhouder die fiscaal en boekhoudkundig de aandelen verwerkt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-aandelen-emissie",
+              "naam": {
+                "primair": "Boeking emissie + agio bij kapitaalverhoging"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij uitgifte van nieuwe aandelen tegen prijs hoger dan nominale waarde (NV) of dan eigen-vermogen-fractie (BV):\n- Verschil aandeelprijs vs nominale (of inbreng-cijfer in BV) = uitgiftepremie (agio).\n- NV: rekening 100 'Kapitaal' credit voor nominale waarde × aantal; rekening 11 'Uitgiftepremies' credit voor verschil.\n- BV: rekening 110 'Inbreng' credit voor het volledig bedrag (uitgiftepremie geen aparte rekening — alles is 'inbreng' sinds WVV).\n\nTegenboeking: 550 'Bank' debet (geld-inbreng) of vast actief-rekening (natura-inbreng).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "kb", "naam": "KB MAR", "ref": "Rekening 10-11-110" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:5" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "register-bijhouden",
+              "naam": {
+                "primair": "Aandeelhoudersregister actueel houden"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Routinematig: bij elke overdracht, elke nieuwe uitgifte, elke statutenwijziging het register actualiseren — papier of digitaal (eRegistry van NBB sinds 2019). Datum, identiteit, aantal aandelen, eventuele beperkingen registreren. Niet-actueel register = aansprakelijkheidsrisico bestuur.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:25" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:34" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscaal-dividend-rv",
+              "naam": {
+                "primair": "Roerende voorheffing op dividend"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij dividenduitkering: vennootschap moet RV inhouden en doorstorten binnen 15 dagen (art. 412 WIB92). Standaardtarief 30%. Verlaagde tarieven mogelijk:\n- VVPRbis 15% (art. 269 §2 WIB92) — kleine vennootschap + aandelen uitgegeven sinds 1 juli 2013 + houden vanaf 3 boekjaren na uitgifte.\n- 5% — uitkering uit liquidatiereserve (na 5 jaar houden).\n- 0% — DBI-bevrijde dividenden tussen vennootschappen.\n\nAangifte 273A binnen 15d. Aandeelhouder-NP: RV is bevrijdend; aandeelhouder-vennootschap: DBI-aftrek + verrekening RV mogelijk.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 269" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "fiscaal-meerwaarde-aandelen",
+              "naam": {
+                "primair": "Meerwaarde bij overdracht — 4 regimes"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Voor aandeelhouder-NP** (privé-belegger):\n1. Normaal beheer privé-vermogen → onbelast (art. 90 1° WIB92).\n2. Speculatieve verrichting → 33% (art. 90 1° in fine).\n3. ≥ 25% controlerend belang verkocht aan rechtspersoon buiten EER → 16,5% (art. 90 9° + 171 4° bis).\n\n**Voor aandeelhouder-vennootschap**:\n1. Belastbaar in VenB tenzij art. 192 WIB92-vrijstelling:\n   - Taxatie-voorwaarde: dividenden van die aandelen voldoen aan DBI-voorwaarden.\n   - Houdperiode: ≥ 1 jaar in volle eigendom.\n   - Deelneming-eis: ≥ 10% kapitaal OF aanschafwaarde ≥ 2,5 mio EUR.\n2. Voor kleine vennootschap: vereenvoudigd — alleen taxatie-voorwaarde + 1-jaar-houden.\n3. Bij vrijstelling: meerwaarde vrijgesteld op aangifte VenB; minwaarden alleen aftrekbaar bij liquidatie tot beloop werkelijk verlies.\n\nBoekhoudkundig: bij verkoop rekening 76 'Niet-recurrente opbrengsten' credit; bij verlies 66 'Niet-recurrente kosten' debet.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 90 1°" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 192" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 171" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-statutaire-categorieen",
+              "naam": {
+                "primair": "Advies statutaire aandelen-categorieën"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij oprichting of statutenwijziging: bespreek met cliënt de behoefte aan verschillende aandelencategorieën. Typische scenario's:\n- Familie-overdracht zonder controle-verlies → meervoudig stemrecht voor ouders.\n- Investeerder-deal → preferent dividend voor investeerder (eerst x% return, dan pas gewone aandeelhouders).\n- Werknemersparticipatie → stemrechtloze aandelen met dividend-rechten.\n- Joint-venture → A- en B-categorieën met spiegelende rechten (50/50 deadlock-protection).\n\nDocumenteer statutair zeer precies: wat het stemrecht is per categorie, wat het dividendrecht is, wat de liquidatie-volgorde is, hoe omzettingen tussen categorieën verlopen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:42" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:43" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk structurering aandelen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -125,11 +588,35 @@
     },
     {
       "type": "triggert",
-      "target": "winstuitkering"
+      "target": "winstuitkering",
+      "toelichting": "Dividendrecht aandeel = causaal voor winstuitkering-procedure."
     },
     {
       "type": "vereist",
-      "target": "volstortingsplicht"
+      "target": "algemene-vergadering",
+      "toelichting": "AV beslist over uitgifte, categorie-wijziging, dividenden, kapitaalverhoging — aandeel-leven loopt via AV."
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "gecertificeerd-accountant",
+      "toelichting": "GA voor boeking emissie/dividend, advies categorisering, waardering bij overdracht, fiscale verwerking."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "obligatielening",
+      "gelijkenissen": [
+        "Beide zijn financieringsinstrumenten uitgegeven door een vennootschap",
+        "Beide kunnen worden verhandeld of overgedragen",
+        "Beide hebben houders-rechten en periodieke opbrengsten"
+      ],
+      "verschillen": [
+        "Aandeel = eigen vermogen, residueel, risicodragend, in principe geen vaste opbrengst (dividend afhankelijk van winst + AV-besluit)",
+        "Obligatie = vreemd vermogen, vooraf gekend rendement (rente), terugbetaling op vervaldag, voorrang in vereffening",
+        "Aandeelhouder heeft stemrecht in AV; obligatiehouder geen (wel apart in vergadering obligatiehouders bij bepaalde besluiten)",
+        "Aandeel geeft eigendom van fractie eigen vermogen; obligatie geeft schuldvordering"
+      ],
+      "verwarring_risico": "Stagiairs verwarren soms 'aandeelhouder' (eigenaar-residueel) met 'obligatiehouder' (schuldeiser). In faillissement is dit cruciaal — aandeelhouders krijgen pas iets nadat alle obligatiehouders en andere schuldeisers betaald zijn (residueel karakter).",
+      "render_hint": "als_glossarium"
     }
   ]
 }
