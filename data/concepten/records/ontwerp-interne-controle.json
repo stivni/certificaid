@@ -4,15 +4,18 @@
     "primair": "Ontwerp van interne controle",
     "synoniemen": [
       "control design",
-      "IC-implementatie",
+      "interne-controle-implementatie",
       "control framework design",
       "uitwerking interne controle"
-    ]
+    ],
+    "vertaling": {
+      "fr": "conception du contrôle interne"
+    }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -22,17 +25,17 @@
     ],
     "scope": {
       "in": [
-        "Methodologie voor opzetten van IC-systeem in 5 stappen",
+        "Methodologie voor het opzetten van een interne-controle-systeem in vijf stappen",
         "(1) proces-mapping per cyclus + as-is-analyse",
         "(2) risico-identificatie per processtap",
-        "(3) controle-selectie per risico (preventief/detectief, manueel/geautomatiseerd, sleutel/aanvullend)",
-        "(4) documentatie in procedures + rolbeschrijvingen + autorisatiematrix",
+        "(3) controle-selectie per risico (preventief of detectief, manueel of geautomatiseerd, sleutel of aanvullend)",
+        "(4) documentatie in procedures, rolbeschrijvingen en autorisatiematrix",
         "(5) implementatie + training + monitoring",
-        "Verwijzing naar COSO-componenten als design-input"
+        "COSO-componenten als ontwerp-input"
       ],
       "out": [
         {
-          "topic": "IC-kader (parent)",
+          "topic": "Interne-controle-kader (parent)",
           "richting": "moet-verwijzen",
           "ref": "interne-controle"
         },
@@ -52,16 +55,25 @@
           "ref": "functiescheiding"
         },
         {
-          "topic": "Design-effectiveness-evaluatie (audit-kant)",
+          "topic": "Evaluatie van interne controle (audit-kant - design vs operating effectiveness)",
           "richting": "moet-verwijzen",
           "ref": "evaluatie-interne-controle"
         }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-controle-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/ontwerp-interne-controle.json",
+      "primary_bronnen": [
+        "ISA 315 (herzien-2019)",
+        "ISA 330",
+        "ITAA-norm-kmo-controlenorm"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -69,27 +81,337 @@
         "timestamp": "2026-05-28T08:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:05:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-controle-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks en COSO/ISA-standaardleer. Bundle-flow zonder extra MCP-calls."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Het ontwerp van interne controle is de methodologische stappen-flow waarmee een onderneming haar interne-controle-systeem opzet, herziet of uitbreidt. Het is een procedurele toepassing van de COSO-componenten op de feitelijke processen van de onderneming, doorgaans in vijf stappen: proces-mapping, risico-identificatie, controle-selectie, documentatie en implementatie. Wordt gebruikt bij het opstarten van een nieuwe onderneming, na een fusie of overname, na een ingrijpende organisatiewijziging, of als remediering na vastgestelde tekortkomingen door interne of externe audit.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 21-26 vijf componenten" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese standaardmethodologie COSO + ISA voor ontwerp interne controle" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Ontwerp van interne controle is een design-discipline, geen audit-discipline. De accountant is hier in de rol van adviseur of begeleider, niet van controleur. Hij vertrekt van de feitelijke processen van de cliente (vaak nog niet of slechts informeel beschreven), brengt ze in kaart, identificeert de risicopunten en stelt geschikte controles voor. De kwaliteit van het ontwerp wordt door externe auditors later getoetst via design effectiveness (is de controle theoretisch geschikt) en operating effectiveness (werkt de controle ook in de praktijk).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 330", "ref": "par. 8 verschil design effectiveness vs operating effectiveness" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardonderscheid uit praktijk audit + advies" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Een goed ontworpen interne controle is veel goedkoper en doeltreffender dan een ad-hoc-stelsel dat groeit door reactieve fixes na incidenten. Voor de cliente: lagere kans op verliezen door fouten of fraude, snellere en goedkopere externe controle. Voor de externe auditor: een controleerbare basis. Voor de wetgever: een vereiste van zorgvuldig bestuur (bestuurdersaansprakelijkheid art. 2:56 WVV).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer corporate governance + WVV-bestuurdersaansprakelijkheid" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "interne-controle",
+        "coso-framework"
+      ],
+      "naast_relevant": [
+        "functiescheiding",
+        "it-controles",
+        "cyclus-analyse"
+      ],
+      "volgkennis": [
+        "evaluatie-interne-controle"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Ontwerpmethodologie is geen wettelijke procedure maar een professionele praktijk, gebaseerd op COSO en ISA 315. Steeds toepasbaar."
+      },
+      "voor": [
+        {
+          "tekst": "Opstart van een nieuwe onderneming, na fusie of overname, na ingrijpende organisatiewijziging (nieuwe IT-systemen, nieuwe bedrijfslijn), of als remediering na auditbevindingen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardtriggers voor ontwerp-project" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Significante tekortkomingen gerapporteerd door de externe auditor (management letter, ISA 265), opening nieuwe vestiging of dochter, implementatie nieuw ERP-systeem, antiwitwas-verplichting voor onderworpen entiteiten, eerste keer commissaris aanstellen bij overschrijden van groottecriteria.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 265", "ref": "par. 9" },
+              { "type": "norm", "naam": "ITAA-norm-aww-richtlijn-bibf", "ref": "par. 4 - clientacceptatiebeleid" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "stap-1-proces-mapping",
+        "naam": { "primair": "Stap 1 - Proces-mapping en as-is-analyse" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Per cyclus (verkoop, aankoop, voorraad, personeel, treasury, vaste activa) worden de actuele processen in kaart gebracht: wie doet wat, in welke volgorde, met welke documenten en welke IT-systemen. Resultaat: flowcharts, narratives of process descriptions per cyclus. Eventueel walk-through-tests om de mapping te valideren. Hiermee wordt de as-is-toestand vastgelegd vooraleer over remediering wordt nagedacht.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 25 informatiesysteem en bedrijfsprocessen" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Per cyclus de hoofd-procesflow tekenen (start - tussenstappen - eindpunt)",
+              "Per processtap: input, output, betrokken personen, gebruikte IT-systeem, documenten",
+              "Walk-through: een transactie van begin tot einde volgen om de mapping te valideren",
+              "Resultaat: flowchart en narrative per cyclus, klaar voor risico-analyse"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stap-2-risico-identificatie",
+        "naam": { "primair": "Stap 2 - Risico-identificatie per processtap" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Per processtap worden de risico's geinventariseerd: wat kan er fout gaan? Veelgebruikte categorieen: foutieve invoer, ontbrekende boeking, dubbele boeking, ongeautoriseerde transactie, fraude, IT-storing, niet-naleving van wet- en regelgeving. Voor de financiele rapportering wordt teruggekoppeld naar de assertions (volledigheid, juistheid, bestaan, waardering, toerekening, presentatie). De methodologie volgt ISA 315 (risico-identificatie op niveau beweringen) - ook al gebeurt het ontwerp niet door de auditor.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "par. 74 - risico-identificatie op niveau financiele overzichten en beweringen" },
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 28 - risico's identificeren via beweringen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3-controle-selectie",
+        "naam": { "primair": "Stap 3 - Controle-selectie per risico" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Per geidentificeerd risico wordt een geschikte controle gekozen langs drie assen: (a) preventief versus detectief versus correctief; (b) manueel versus geautomatiseerd (geprefereerd waar mogelijk - reproduceerbaar, audit-trail); (c) sleutelcontrole (key control - dekt majeur risico) versus aanvullende controle (compensating - secundair). Voor majeure risico's gelden vaak meerdere lagen (defense in depth).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "Bijlage 3 - interne beheersingsactiviteiten en general IT controls" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "rijen": [
+              ["Preventief", "Voorkomen", "Tweehandtekeningsregel boven 5.000 EUR"],
+              ["Detectief", "Signaleren", "Maandelijkse bankreconciliatie"],
+              ["Correctief", "Herstellen", "Correctieboeking + procedure-aanpassing"],
+              ["Geautomatiseerd", "Systeem-afgedwongen", "ERP weigert factuur > inkooporder-tolerantie"],
+              ["Manueel", "Persoon-uitgevoerd", "Magazijnier telt voorraad tegen lijst"]
+            ],
+            "kolommen": ["Type", "Rol", "Voorbeeld"]
+          }
+        ]
+      },
+      {
+        "id": "stap-4-documentatie",
+        "naam": { "primair": "Stap 4 - Documentatie in procedures, rolbeschrijvingen en autorisatiematrix" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De geselecteerde controles worden geformaliseerd in drie complementaire documenten: (1) procedures - wat moet er stap voor stap gebeuren; (2) rolbeschrijvingen - wie is verantwoordelijk voor welke stap; (3) autorisatiematrix - welke functie mag welke transactie tot welk bedrag goedkeuren. Documentatie is essentieel: zonder geschreven procedures kan een externe auditor geen design effectiveness toetsen en kan de onderneming de werking niet bewijzen bij een fiscale of regelgevende controle.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "par. 43 - documentatie aangepast aan omvang en aard" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-5-implementatie",
+        "naam": { "primair": "Stap 5 - Implementatie, training en monitoring" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De gedocumenteerde procedures worden uitgerold: kick-off-training, integratie in IT-systemen (workflow, autorisatie-instellingen), aanpassing van handtekenmandaten bij de bank, periodieke awareness-sessies. Monitoring sluit de cirkel: een interne audit of accountant toetst periodiek of de controles ook effectief werken (operating effectiveness). Resultaat van de monitoring voedt een nieuwe ontwerpiteratie - interne controle is doorlopend, niet eenmalig.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 24 monitoring-component" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "design-vs-operating-effectiveness",
+        "naam": { "primair": "Design effectiveness versus operating effectiveness" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Design effectiveness antwoordt op de vraag: zou de controle, indien correct uitgevoerd, het beoogde risico afdekken? Operating effectiveness antwoordt op: wordt de controle ook effectief uitgevoerd zoals ontworpen? Bij ontwerp van interne controle gaat het vooral over design; bij evaluatie door de externe auditor (ISA 330) komt operating effectiveness erbij. Een controle kan design-effectief maar operating-ineffectief zijn (procedure is goed maar wordt niet gevolgd) - en omgekeerd kan operating-ineffectiviteit een design-tekortkoming verbergen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 330", "ref": "par. 8" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schaalbaarheid-ontwerp",
+        "naam": { "primair": "Schaalbaarheid naar kmo-context" },
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor een kmo wordt de methodologie schaalbaar toegepast: minder formele flowcharts (eenvoudige narratives volstaan), minder controles maar wel de sleutelcontroles, autorisatiematrix in een eenvoudige tabel. ISA 315 par. A156 erkent expliciet dat de inhoud van de componenten vergelijkbaar is met grotere entiteiten, alleen de mate van formaliteit verschilt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A156 schaalbaarheid" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Ontwerp door auditor in plaats van door management",
+        "verkeerde_assumptie": "De externe auditor mag de interne controle van zijn cliente ontwerpen en achteraf controleren.",
+        "kernpunt": "De verantwoordelijkheid voor opzet en werking van interne controle ligt bij het management (ISA 200). De auditor mag adviseren bij ontwerp, maar nooit beslissingen nemen voor het management - anders ontstaat een onafhankelijkheidsprobleem (self-review threat in IESBA-Code). Splitsing taken in het kantoor is dan vereist.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 200", "ref": "Algemene doelstellingen - verantwoordelijkheidsverdeling auditor/management" }
+          ]
+        }
+      },
+      {
+        "titel": "Eenmalig ontwerp zonder updates",
+        "verkeerde_assumptie": "Eens de procedures opgeschreven zijn is het werk gedaan.",
+        "kernpunt": "Interne controle is doorlopend, niet eenmalig. Bij elke ingrijpende wijziging (nieuw ERP, fusie, nieuwe bedrijfsactiviteit, wetswijziging) moet het ontwerp opnieuw geevalueerd worden. Een procedure-handboek dat drie jaar niet aangepast is verliest snel zijn relevantie - en zijn audit-waarde.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 24 monitoring" }
+          ]
+        }
+      },
+      {
+        "titel": "Geen prioritering: alle risico's evenwaardig behandelen",
+        "verkeerde_assumptie": "Elk geidentificeerd risico krijgt zijn eigen controle.",
+        "kernpunt": "Risico-prioritering is essentieel: niet elk risico verdient een eigen controle (kosten-baten). Focus op de significante risico's (ISA 315) en op de risico's met grootste impact x grootste waarschijnlijkheid. Voor lage risico's volstaat soms een algemene oversight-controle.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 32 significante risico's" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "adviseur-ontwerp",
+      "naam": {
+        "primair": "Adviesopdracht ontwerp interne controle bij cliente"
+      },
+      "intro": "De accountant in een adviesopdracht voor het opzetten of herzien van het interne-controle-systeem van een cliente.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "vijfstappenproject-leiden",
+              "naam": { "primair": "Het vijfstappenproject leiden" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De accountant begeleidt het management door de vijf stappen: workshops voor proces-mapping met afdelingshoofden, risico-brainstorm met sleutelfiguren, voorstellen voor controles (incl. quick wins en lange-termijn-investeringen), opstellen van templates voor procedures en autorisatiematrix, begeleiding bij implementatie en eerste interne reviews.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardadviespraktijk" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "onafhankelijkheid-bewaken",
+              "naam": { "primair": "Onafhankelijkheid bewaken indien ook auditor" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Indien hetzelfde kantoor de externe controle uitvoert: ontwerpadvies geven kan een self-review threat creeren. Mitigatie: andere ploeg, kwaliteits-review, in extreme gevallen weigering van de adviesopdracht. Bij audit van publieke entiteiten of beursgenoteerde ondernemingen is ontwerp van interne controle door de commissaris meestal niet toegestaan.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm-intern-kwaliteitsmanagement", "ref": "ISQM 1 - onafhankelijkheid bij niet-controle-opdrachten" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IESBA-Code-toepassing in BE-context" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "training-personeel",
+              "naam": { "primair": "Training en awareness bij personeel" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Procedures op papier hebben pas effect als ze gekend en aanvaard zijn. De accountant begeleidt kick-off-sessies per afdeling, levert e-learning-content voor nieuwe medewerkers en organiseert opfrissessies. Tone at the top is cruciaal: visible support van zaakvoerder of CEO bepaalt of medewerkers de procedures ernstig nemen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 21 controleomgeving en tone at the top" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -97,15 +419,18 @@
     },
     {
       "type": "vereist",
-      "target": "coso-framework"
+      "target": "coso-framework",
+      "toelichting": "De vijf COSO-componenten leveren de ontwerp-input voor elke stap."
     },
     {
       "type": "vereist",
-      "target": "functiescheiding"
+      "target": "functiescheiding",
+      "toelichting": "Functiescheiding is doorgaans de eerste en belangrijkste sleutelcontrole bij ontwerp."
     },
     {
       "type": "triggert",
-      "target": "evaluatie-interne-controle"
+      "target": "evaluatie-interne-controle",
+      "toelichting": "Elk ontwerp wordt achteraf getoetst op design effectiveness en operating effectiveness."
     }
   ]
 }
