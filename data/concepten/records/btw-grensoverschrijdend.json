@@ -1,27 +1,48 @@
 {
   "id": "btw-grensoverschrijdend",
   "naam": {
-    "primair": "Grensoverschrijdende BTW",
+    "primair": "Grensoverschrijdende btw",
     "synoniemen": [
-      "cross-border VAT",
-      "IC-handelingen-cluster"
+      "cross-border BTW",
+      "intracommunautaire BTW-handelingen",
+      "IC-handelingen"
     ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "regeling"
+      "regeling",
+      "kader"
     ],
     "ankers": [
       "2.4.VI",
       "2.4.taak.3"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/btw-grensoverschrijdend.json",
+      "primary_bronnen": [
+        "WBTW art. 14",
+        "WBTW art. 15",
+        "WBTW art. 21",
+        "WBTW art. 21bis",
+        "WBTW art. 25bis",
+        "WBTW art. 25ter",
+        "WBTW art. 39bis",
+        "WBTW art. 50",
+        "WBTW art. 53quater",
+        "Richtlijn 2006/112/EG art. 23",
+        "Richtlijn 2006/112/EG art. 44",
+        "Richtlijn 2006/112/EG art. 138",
+        "Richtlijn 2006/112/EG art. 265"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,6 +51,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Σ-keuzekader gevuld vanuit bundle-chunks (WBTW art. 14, 15, 21, 21bis, 25bis, 25ter, 50, 53quater; Richtlijn 2006/112/EG art. 23, 44, 138, 265). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
@@ -37,8 +65,8 @@
         "Σ-keuzekader: welke regeling past bij deze grensoverschrijdende transactie?",
         "IC-handelingen-overzicht (intra-communautaire levering · verwerving · diensten)",
         "Verkopen-op-afstand drempel 10.000 EUR (B2C-EU)",
-        "B2B vs B2C diensten — plaats-van-handeling-tabel",
-        "Invoer + uitvoer (extra-EU)",
+        "B2B vs B2C diensten — plaats-van-handeling-hoofdregels",
+        "Invoer + uitvoer (extra-EU) — vrijstelling en aangifte",
         "Vergelijkingsmatrix: OSS · IOSS · driehoeksverkeer · verlegging · fiscaal vertegenwoordiger"
       ],
       "out": [
@@ -63,7 +91,7 @@
           "ref": "verleggingsregeling"
         },
         {
-          "topic": "Plaats van handeling regels",
+          "topic": "Plaats van handeling regels (volledige tabel B2B/B2C + uitzonderingen)",
           "richting": "moet-verwijzen",
           "ref": "plaats-van-handeling-btw"
         },
@@ -83,20 +111,583 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-grensoverschrijdend).",
+        "tekst": "Grensoverschrijdende btw is het deel van het btw-stelsel dat regelt waar en door wie btw verschuldigd is wanneer goederen of diensten een landsgrens overschrijden. Voor verkeer tussen EU-lidstaten gelden de specifieke regels van intra-communautaire (IC) leveringen en verwervingen (WBTW art. 25bis, 25ter en 39bis); voor verkeer van of naar derde landen gelden de regels van invoer en uitvoer. De plaats van handeling — de lidstaat die mag heffen — wordt bepaald door art. 14-15 (goederen) en art. 21 / 21bis (diensten) van het WBTW, gestoeld op de overeenkomstige bepalingen van Richtlijn 2006/112/EG.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 25bis" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 25ter" },
+            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 23" },
+            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 138" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het basisprincipe is bestemmingsland-heffing: btw is verschuldigd in de lidstaat waar het goed of de dienst eindigt, niet waar het vertrekt. Dat principe wordt geoperationaliseerd via drie mechanismen: (1) vrijstelling-met-recht-op-aftrek aan de vertrekzijde (IC-levering, uitvoer), (2) verwerving of invoer aan de aankomstzijde die btw doet ontstaan bij de afnemer, en (3) de verleggingsregeling die de schuldenaar verlegt van de leverancier naar de afnemer. Voor consumentenstromen (B2C) is de hoofdregel sinds 2021 ook bestemmingsland-heffing — daarom werd de One-Stop-Shop (OSS) ingevoerd om te vermijden dat een verkoper zich in elke afzetlidstaat moet registreren. Voor extra-EU goederenverkeer komt er douane bij: btw wordt geheven bij invoer en goederen verlaten de EU btw-vrij bij uitvoer.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 15" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 39bis" },
+            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 138" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese bestemmingsland-principe op basis van art. 138 Richtlijn + WBTW art. 25ter en 39bis" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is dubbel: (1) fiscale neutraliteit tussen lidstaten — elk lid-staat heft btw op de eigen consumptie zonder dat de plaats van vestiging van de verkoper de heffing scheeftrekt; (2) vermijden van dubbele of niet-heffing op grensoverschrijdende stromen, doordat de vrijstelling aan de vertrekzijde gekoppeld wordt aan een verwerving aan de ontvangstzijde. Het systeem is een tijdelijk regime ingevoerd in 1993 bij de afschaffing van de binnengrenzen — het 'definitieve' bestemmingsland-regime is nog in ontwerp. Voor B2C werd het bestemmingsland-principe afgemaakt via de e-commerce-hervorming van 1 juli 2021 (Richtlijn EU 2017/2455), die de drempel voor verkopen-op-afstand op 10.000 EUR EU-wijd zette en de OSS-aangifte invoerde.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 138" },
+            { "type": "richtlijn", "naam": "Richtlijn EU 2017/2455", "ref": "e-commerce-hervorming 1 juli 2021" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer EU-btw — bestemmingsland-principe en historiek IC-stelsel sinds 1993" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "btw",
+        "btw-belastingplichtige",
+        "plaats-van-handeling-btw"
+      ],
+      "kader": "btw",
+      "volgkennis": [
+        "oss-regeling",
+        "driehoeksverkeer-vereenvoudiging",
+        "verleggingsregeling",
+        "fiscaal-vertegenwoordiger-btw"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "1993-01-01",
+        "wettelijke_basis": "WBTW + Richtlijn 2006/112/EG (algemeen IC-stelsel sinds 1993) + Richtlijn EU 2017/2455 (e-commerce-pakket vanaf 1 juli 2021)",
+        "toelichting": "Het IC-stelsel is een tijdelijk regime ingevoerd bij de afschaffing van de fysieke EU-binnengrenzen op 1 januari 1993. Het 'definitieve regime' (heffing bij de verkoper voor rekening van het bestemmingsland) is door de Europese Commissie meermaals voorgesteld maar nog niet aangenomen. Het tijdelijke regime functioneert dus als blijvend regime."
+      },
+      "voor": [
+        {
+          "tekst": "Elke btw-belastingplichtige die goederen levert aan, verwerft van, of diensten verricht voor of ontvangt van een tegenpartij buiten België — zowel binnen de EU (IC-handeling) als met derde landen (invoer/uitvoer).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WBTW", "ref": "art. 25bis" },
+              { "type": "wettekst", "naam": "WBTW", "ref": "art. 25ter" }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Op de inkoopfactuur staat een buitenlands btw-nummer of helemaal geen btw aangerekend met de vermelding 'btw verlegd' / 'reverse charge' / 'art. 138 Dir. 2006/112'. Op de verkoopfactuur naar een EU-klant staat 'BTW vrijgesteld — IC-levering art. 39bis WBTW'. Bij vervoer-documenten (CMR, vrachtbrief) wordt het goed fysiek over een EU-grens vervoerd.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WBTW", "ref": "art. 39bis" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijksignalen op een factuur — accountant-checklist" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "principe-bestemmingsland",
+        "naam": { "primair": "Bestemmingsland-principe" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Btw wordt geheven in de lidstaat van consumptie — niet in de lidstaat van oorsprong. Voor grensoverschrijdende stromen vertaalt dit zich in: vrijstelling (met behoud van recht op aftrek) aan vertrekzijde + heffing aan aankomstzijde. Het beschermt de neutraliteit tussen lidstaten: een Belgische klant betaalt 21 % Belgische btw, of het goed nu uit Aalst komt of uit Aachen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 138", "context": "Vrijstelling IC-levering aan vertrekzijde" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 25ter", "context": "IC-verwerving belastbaar in lidstaat van aankomst" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kwadrant-goederen-vs-diensten",
+        "naam": { "primair": "Eerste vraag: goederen of diensten?" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De keuze-cascade begint bij de aard van de prestatie. Goederen volgen art. 14 (algemene plaats = waar de verzending begint) gecorrigeerd door art. 15 (verkopen-op-afstand) en art. 25bis/25ter (IC-verwerving). Diensten volgen art. 21 (B2B = woonplaats afnemer) en art. 21bis (B2C = woonplaats dienstverrichter, behoudens lange lijst uitzonderingen). Een verkeerde categorisering (bv. software-as-a-service als 'goed' ipv 'dienst') leidt tot de verkeerde plaats-van-handeling en dus tot foute heffing.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 14" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 21" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 21bis" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kwadrant-b2b-vs-b2c",
+        "naam": { "primair": "Tweede vraag: B2B of B2C?" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De status van de afnemer bepaalt de heffingsregel. B2B = afnemer is btw-belastingplichtige (controleerbaar via VIES-database voor zijn btw-nummer). B2C = afnemer is particulier of niet-belastingplichtige. De accountant noteert het btw-nummer van de afnemer in het dossier vóór elke grensoverschrijdende prestatie — geen btw-nummer = vermoeden B2C tenzij tegenbewijs.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 21", "context": "B2B-hoofdregel: plaats = afnemer" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 21bis", "context": "B2C-hoofdregel: plaats = dienstverrichter" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "VIES-controle is standaard-due-diligence in dossier" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kwadrant-intra-vs-extra-eu",
+        "naam": { "primair": "Derde vraag: intra-EU of extra-EU?" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Intra-EU goederen: IC-levering (vrijgesteld art. 39bis WBTW) bij verkoper + IC-verwerving (belastbaar art. 25ter WBTW) bij koper. Extra-EU goederen: uitvoer (vrijgesteld art. 39 §1 WBTW) of invoer (belastbaar art. 23 WBTW + douaneformaliteiten, vaak met verlegging via vergunning ET 14.000). De grens EU/niet-EU bepaalt of er een douaneformaliteit nodig is — voor diensten is er geen vergelijkbare douane-hindernis.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 39bis", "context": "Vrijstelling IC-levering" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 25ter", "context": "Belastbare IC-verwerving" },
+                { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 23" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-10000-b2c-eu",
+        "naam": { "primair": "10.000 EUR-drempel voor B2C-EU-afstandsverkopen" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor intra-communautaire afstandsverkopen aan consumenten (B2C-EU) en voor elektronische / telecommunicatiediensten aan consumenten in andere lidstaten geldt sinds 1 juli 2021 één EU-wijde drempel van 10.000 EUR (excl. btw) per kalenderjaar. Onder de drempel: btw van de lidstaat van vertrek (België) — boven de drempel of bij optie: btw van de lidstaat van bestemming, ofwel via lokale btw-registratie ofwel via OSS-aangifte in België. De drempel is een totaal voor alle lidstaten samen, niet per lidstaat zoals vóór 2021.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 15 §1 tweede lid 3°", "context": "Drempel 10.000 EUR niet overschreden in lopend of voorgaand kalenderjaar" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-11200-ic-verwerving-vrijgestelde",
+        "naam": { "primair": "11.200 EUR-drempel IC-verwerving voor niet-aftrekgerechtigden" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Belastingplichtigen zonder recht op aftrek (vrijgestelde belastingplichtigen art. 44, kleine ondernemingen art. 56bis) en niet-belastingplichtige rechtspersonen die IC-verwervingen verrichten zijn pas btw-plichtig op die verwervingen vanaf 11.200 EUR (geïndexeerd opzoeken in het Cijferzakboekje — niet-geïndexeerd basisbedrag in WBTW). Onder die drempel: btw van vertrekland blijft van toepassing tenzij ze opteren voor IC-belasting (art. 25ter §1 tweede lid 2°). Een gemeente, ziekenhuis of huisarts die voor 8.000 EUR meubels uit Duitsland bestelt betaalt dus Duitse btw, geen Belgische verwervings-btw.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 25ter §1 tweede lid 2°", "context": "Drempel 11.200 EUR voor IC-verwerving" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 50 §1 eerste lid 2°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorwaarden-ic-levering-vrijstelling",
+        "naam": { "primair": "Vrijstellingsvoorwaarden IC-levering (art. 39bis WBTW)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Cumulatief: (1) levering aan een belastingplichtige of een niet-belastingplichtige rechtspersoon die voor btw-doeleinden is geïdentificeerd in een andere lidstaat; (2) goederen worden door of voor rekening van verkoper of koper fysiek vervoerd naar die andere lidstaat; (3) de koper deelt zijn buitenlands btw-nummer mee en de verkoper vermeldt de levering in zijn IC-opgave (art. 53sexies). Sinds 2020 (quick fixes) zijn voorwaarden (1) en (3) materieel-substantieel — geen geldig btw-nummer of geen opname in IC-opgave = vrijstelling vervalt. Documenteer met buitenlands btw-nummer + VIES-print + CMR / vrachtbrief / leveringsbon.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 39bis" },
+                { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 138" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "plaats-van-handeling-diensten-hoofdregel",
+        "naam": { "primair": "Plaats van diensten: B2B vs B2C-hoofdregel" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "B2B (art. 21 §2 WBTW / art. 44 Richtlijn): plaats van de dienst = waar de afnemer zijn zetel van economische activiteit (of vaste inrichting) heeft. Gevolg: bij grensoverschrijdende B2B-dienst tussen EU-belastingplichtigen is de Belgische dienstverrichter geen btw verschuldigd; de buitenlandse afnemer past de verleggingsregeling toe. B2C (art. 21bis §1 WBTW / art. 45 Richtlijn): plaats = waar de dienstverrichter is gevestigd. Op deze twee hoofdregels staan tientallen uitzonderingen (onroerend goed = situs · vervoer · restaurant · evenementen · elektronische diensten = afnemer · ...) — voor het volledige overzicht: zie record plaats-van-handeling-btw.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 21" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 21bis" },
+                { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 44" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "ic-opgave",
+        "naam": { "primair": "IC-opgave (listing intracommunautaire handelingen)" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Periodieke (maandelijkse of kwartaal-) aangifte naast de gewone btw-aangifte waarin de Belgische leverancier per buitenlandse afnemer (btw-nummer) het totaalbedrag van zijn IC-leveringen en B2B-diensten naar die afnemer aangeeft (art. 53sexies WBTW). De lidstaten wisselen die gegevens uit via het VIES-systeem: het bedrag dat verkoper in lidstaat A opgeeft, moet matchen met de aangegeven verwerving van koper in lidstaat B. Mismatch = automatische controle-trigger.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 265", "context": "Inhoud listing" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 53sexies" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vergelijking-regelingen",
+        "naam": { "primair": "Σ-vergelijking: welke regeling kies ik?" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Vijf hoofdregelingen worden vaak met elkaar verward maar lossen elk een ander probleem op: (1) IC-levering/verwerving (art. 25ter, 39bis): standaard B2B-EU-goederenstroom. (2) Verleggingsregeling (art. 51 §2): schuldenaar wordt de afnemer ipv leverancier — werkt voor B2B-diensten EU en voor specifieke binnenlandse stromen (bouw, onderaanneming). (3) OSS / IOSS (art. 58ter-quater): B2C-EU-afstandsverkopen en e-commerce — vermijdt registratie in elke lidstaat. (4) Driehoeksverkeer-vereenvoudiging (art. 25quinquies): A-B-C-stroom over drie lidstaten waarbij B niet hoeft te registreren in lidstaat A of C. (5) Fiscaal vertegenwoordiger (art. 55, KB 31): voor niet-EU-belastingplichtigen die in België belastbare handelingen verrichten — verplichte vertegenwoordiging.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 25ter" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 25quinquies" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 51 §2" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 55" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 58ter" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cluster-synthese van vijf parallelle regelingen" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "titel": "Vijf grensoverschrijdende regelingen vergeleken",
+            "kolommen": ["Regeling", "Probleem dat het oplost", "Typische situatie", "Detail-record"],
+            "rijen": [
+              ["IC-levering + IC-verwerving", "B2B-EU-goederenhandel zonder dubbele heffing", "Belgische groothandelaar levert aan Duitse winkel", "btw-grensoverschrijdend (dit record)"],
+              ["Verleggingsregeling", "Vermijden dat buitenlandse leverancier zich in elke lidstaat moet registreren voor B2B-diensten", "Franse consultant factureert aan Belgische klant — Belgische klant verlegt 21 %", "verleggingsregeling"],
+              ["OSS (Union scheme)", "B2C-EU-afstandsverkopen + diensten — éen aangifte ipv 27 registraties", "Belgische webshop verkoopt voor 50.000 EUR aan Nederlandse consumenten", "oss-regeling"],
+              ["IOSS (Import scheme)", "E-commerce-zendingen ≤ 150 EUR uit derde landen — éen btw-betaling bij invoer", "Belgische dropshipper laat goederen rechtstreeks uit China naar EU-klant zenden", "oss-regeling"],
+              ["Driehoeksverkeer-vereenvoudiging", "Vermijden dat tussenpersoon B zich registreert in lidstaat A of C", "Belgische B koopt bij Duitse A en laat rechtstreeks leveren aan Franse C", "driehoeksverkeer-vereenvoudiging"],
+              ["Fiscaal vertegenwoordiger", "Niet-EU-belastingplichtige toegang geven tot Belgisch btw-stelsel", "Amerikaanse fabrikant met opslagplaats in Antwerpen", "fiscaal-vertegenwoordiger-btw"]
+            ]
+          }
+        ]
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-ic-levering-be-de",
+        "titel": "IC-levering — Belgische groothandelaar aan Duitse winkel",
+        "context": "Zelena Bio NV (België, btw-nr. BE 0123.456.789) verkoopt biologische voedingsmiddelen aan SonnenMarkt GmbH (Duitsland, btw-nr. DE 123456789) voor 10.000 EUR. Goederen worden per vrachtwagen vanuit Aalst naar Düsseldorf vervoerd. SonnenMarkt deelt haar Duits btw-nummer mee, Zelena controleert de geldigheid via VIES.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 39bis" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 25ter" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard-IC-levering cijfervoorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Zelena factureert 10.000 EUR zonder btw, met vermelding 'Btw vrijgesteld — IC-levering art. 39bis WBTW / art. 138 Richtlijn 2006/112/EG'.",
+              "Stap 2 — Zelena geeft de levering aan in rooster 46 van haar Belgische btw-aangifte én op de IC-opgave (listing) van die periode — afnemer DE 123456789 voor 10.000 EUR.",
+              "Stap 3 — SonnenMarkt doet in Duitsland een IC-verwerving: zelf 19 % Duitse btw aanrekenen (= 1.900 EUR) én diezelfde 1.900 EUR onmiddellijk aftrekken indien volledig recht op aftrek — netto-effect = nul, maar wel administratie + IC-controle.",
+              "Stap 4 — Documentatie in dossier Zelena: VIES-controle Duits btw-nummer, factuur, CMR-vrachtbrief, leveringsbevestiging klant. Bij ontbreken van bewijs van fysiek vervoer = vrijstelling vervalt en Belgische 6 % / 21 % btw verschuldigd."
+            ],
+            "resultaat": "Netto-btw bij Zelena = 0 EUR (vrijgestelde levering met recht op aftrek). Bij SonnenMarkt = 0 EUR netto (verwerving + aftrek). Bestemmingsland-principe gerealiseerd: Duitsland zou heffen als de eindafnemer een particulier was."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-b2b-dienst-fr-be",
+        "titel": "B2B-dienst — Franse consultant aan Belgische cliënt (verlegging)",
+        "context": "Aurelia Holding NV (België) krijgt een strategie-rapport van een Franse consultant (Cabinet Étoile SARL, FR-btw-nummer) voor 5.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 21" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 51 §2" },
+            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 44" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — plaats van handeling = afnemer (B2B-hoofdregel art. 21): België.",
+              "Stap 2 — Franse consultant factureert 5.000 EUR zonder Franse btw met vermelding 'Autoliquidation — TVA due par le preneur art. 196 Dir. 2006/112'.",
+              "Stap 3 — Aurelia past de verleggingsregeling toe (art. 51 §2 WBTW): boekt 21 % Belgische btw = 1.050 EUR als verschuldigd in rooster 56 en 1.050 EUR als aftrekbaar in rooster 59 — netto-effect = 0 EUR mits volledig recht op aftrek.",
+              "Stap 4 — IC-opgave: NIET door Aurelia (zij is afnemer); WEL door Cabinet Étoile in zijn Franse IC-opgave-diensten (art. 53sexies-equivalent in Frankrijk)."
+            ],
+            "resultaat": "Cash-neutraal voor Aurelia bij volledig recht op aftrek. Bij gemengde btw-belastingplichtige (bv. arts met bijberoep) blijft er per definitie een netto-kost over: 1.050 EUR Belgische btw, deels niet aftrekbaar volgens algemeen verhoudingsgetal."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-keuze-cascade",
+        "titel": "Keuze-cascade: welk regime past?",
+        "context": "Toepassing van de Σ-keuze-flow via beslisboom op de meest voorkomende cases.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthetische beslisboom die de vijf regelingen tegenover elkaar zet" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "beslisboom",
+            "titel": "Σ-keuze-cascade grensoverschrijdende BTW",
+            "code": "flowchart TD\n  A[Grensoverschrijdende handeling] --> B{Goederen of diensten?}\n  B -->|Goederen| C{Intra-EU of extra-EU?}\n  B -->|Diensten| D{B2B of B2C?}\n  C -->|Intra-EU| E{B2B of B2C?}\n  C -->|Extra-EU| F[Uitvoer art. 39 §1 / Invoer art. 23 — douaneformaliteit]\n  E -->|B2B| G[IC-levering art. 39bis + IC-verwerving art. 25ter]\n  E -->|B2C| H{Drempel 10.000 EUR overschreden?}\n  H -->|Nee| I[Btw vertrekland — standaard]\n  H -->|Ja of optie| J[OSS Union scheme of lokale registratie]\n  D -->|B2B| K[Plaats = afnemer art. 21 → verleggingsregeling]\n  D -->|B2C| L[Plaats = dienstverrichter art. 21bis — uitzonderingen vaak]\n  G --> M{Driehoek A-B-C?}\n  M -->|Ja| N[Driehoeksverkeer-vereenvoudiging art. 25quinquies]\n  M -->|Nee| O[Gewone IC-stroom]\n  F --> P{Niet-EU verkoper met BE-activiteit?}\n  P -->|Ja| Q[Fiscaal vertegenwoordiger verplicht]"
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Verlegging is geen vrijstelling",
+        "verkeerde_assumptie": "Studenten denken dat 'btw verlegd' = 'geen btw verschuldigd, geen aangifte nodig'.",
+        "kernpunt": "Verleggingsregeling betekent dat de schuldenaar verschuift van leverancier naar afnemer — de btw blijft volledig verschuldigd en moet door de afnemer worden aangegeven in rooster 55-56 (en bij recht op aftrek in rooster 59 om netto = 0 te halen). Vergeten aan te geven = btw-tekort + boete, zelfs als er materieel geen cash-impact zou zijn.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 51 §2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard-fout in stagiair-dossiers" }
+          ]
+        }
+      },
+      {
+        "titel": "Drempel 10.000 EUR is EU-wijd, niet per lidstaat",
+        "verkeerde_assumptie": "Studenten leren de oude drempels (35.000 / 100.000 EUR per lidstaat) van vóór 1 juli 2021 of denken dat de 10.000 EUR-drempel per bestemmingsland geldt.",
+        "kernpunt": "Sinds 1 juli 2021 (EU 2017/2455): één drempel van 10.000 EUR voor alle B2C-EU-afstandsverkopen en TBE-diensten samen — bv. 4.000 EUR naar Nederland + 5.000 EUR naar Frankrijk + 2.000 EUR naar Duitsland = boven drempel, met btw van élk bestemmingsland verschuldigd vanaf de overschrijdings-levering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 15 §1 tweede lid 3°" },
+            { "type": "richtlijn", "naam": "Richtlijn EU 2017/2455", "ref": "art. 1 — drempel 10.000 EUR" }
+          ]
+        }
+      },
+      {
+        "titel": "Btw-nummer afnemer 'wel of niet meegedeeld' is conditioneel voor de vrijstelling",
+        "verkeerde_assumptie": "Het buitenlands btw-nummer 'controleren' is een formaliteit die later kan ingehaald worden — als de levering reëel is, blijft de vrijstelling overeind.",
+        "kernpunt": "Sinds de quick fixes van 1 januari 2020 (Richtlijn EU 2018/1910 → WBTW art. 39bis) is het meedelen + VIES-correctheid van het buitenlands btw-nummer + de opname in de IC-opgave een materieel-substantiële voorwaarde voor de vrijstelling. Geen geldig nummer = vrijstelling vervalt = Belgische btw (6 % of 21 %) verschuldigd door verkoper, plus boete.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 39bis", "context": "Quick fixes 2020 — voorwaarden materieel" },
+            { "type": "richtlijn", "naam": "Richtlijn EU 2018/1910", "ref": "quick fixes" }
+          ]
+        }
+      },
+      {
+        "titel": "Diensten verwarren met goederen voor de plaats-van-handeling",
+        "verkeerde_assumptie": "Software-licenties, e-books, streaming worden behandeld als goederen omdat ze 'iets verkopen'.",
+        "kernpunt": "Elektronische diensten zijn diensten (art. 18 §2 WBTW) en volgen art. 21/21bis. B2C-elektronische diensten naar EU-consumenten = plaats = afnemer (uitzondering op de B2C-hoofdregel), met OSS-aangifte mogelijk. Goederen vereisen fysiek vervoer — kan een digitaal product per definitie niet hebben.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 18 §2" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 21bis §2 9°" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Optie om B2C-afstandsverkopen onder drempel toch in bestemmingsland te belasten",
+        "opties": [
+          {
+            "keuze": "Onder drempel blijven en Belgische btw aanrekenen",
+            "voordeel": "Geen extra aangifte (geen OSS), eenvoudige administratie",
+            "nadeel": "Belgisch tarief (21 % standaard) is vaak hoger dan tarief bestemmingsland — verlies van concurrentievoordeel"
+          },
+          {
+            "keuze": "Opteren voor heffing in bestemmingsland (via OSS-aangifte) hoewel onder drempel",
+            "voordeel": "Buitenlands tarief vaak lager (bv. Luxemburg 17 %, Hongarije bepaalde categorieën); strategisch interessant voor webshops met lange-termijngroei",
+            "nadeel": "OSS-aangifte verplicht, optie geldig voor minimum twee kalenderjaren (art. 15 §2 vierde lid WBTW)"
+          }
+        ],
+        "vuistregel": "Voor webshops met sterke groeiverwachting > 10.000 EUR EU-omzet binnen 1-2 jaar: meteen OSS aanvragen vermijdt de overgangsadministratie wanneer drempel midden-kwartaal overschreden wordt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 15 §2 vierde lid", "context": "Optie minimum twee kalenderjaren bindend" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "beslisboom",
+        "intro": "Kompas voor de stagiair: doorloop deze vier vragen bij elke grensoverschrijdende factuur.",
+        "inhoud": {
+          "vragen": [
+            "1. Goederen of diensten? (bepaalt of art. 14/15/25 of art. 21/21bis geldt)",
+            "2. B2B of B2C? (controleer btw-nummer afnemer via VIES — geen nummer = B2C-vermoeden)",
+            "3. Intra-EU of extra-EU? (intra = IC-stelsel + listing; extra = invoer/uitvoer + douane)",
+            "4. Past een bijzondere regeling (OSS, IOSS, driehoek, verlegging, fiscaal vertegenwoordiger)?"
+          ],
+          "antwoord_per_pad": [
+            "Goederen + B2B + intra-EU = IC-levering art. 39bis (verkoper) + IC-verwerving art. 25ter (koper)",
+            "Goederen + B2C + intra-EU + onder 10.000 EUR = Belgische btw",
+            "Goederen + B2C + intra-EU + boven drempel = OSS of lokale registratie in bestemmingsland",
+            "Goederen + extra-EU + uitvoer = vrijstelling art. 39 §1 WBTW + douane-uitvoeraangifte",
+            "Goederen + extra-EU + invoer = btw bij invoer art. 23 + douaneformaliteit + eventueel ET 14.000-vergunning voor verlegging",
+            "Diensten + B2B = plaats afnemer (art. 21) → verleggingsregeling bij afnemer",
+            "Diensten + B2C = plaats dienstverrichter (art. 21bis) — vele uitzonderingen (onroerend goed, vervoer, evenement, elektronische diensten = afnemer)"
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "exporterende-onderneming",
+      "naam": { "primair": "Belgische onderneming met grensoverschrijdende verkoop" },
+      "intro": "De accountant die het btw-dossier voert voor een KMO die levert aan of dienstverleent voor buitenlandse afnemers.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekingsschema-ic-levering",
+              "naam": { "primair": "Boekingsschema IC-levering" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor een IC-levering: debet 400 Handelsvorderingen / credit 700 Verkopen (excl. btw) — geen btw-rekening, want vrijgesteld. Vermelding op factuur: 'BTW vrijgesteld — IC-levering art. 39bis WBTW'. Aangifte: rooster 46 (IC-leveringen) + IC-opgave (listing) per afnemer-btw-nummer.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 39bis" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard MAR-boeking" }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "IC-levering 10.000 EUR — Zelena Bio aan SonnenMarkt GmbH",
+                  "rijen": [
+                    { "rekening": "400 — Handelsvorderingen SonnenMarkt", "debet": 10000, "credit": null },
+                    { "rekening": "700 — Verkopen handelsgoederen (rooster 46)", "debet": null, "credit": 10000 }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "boekingsschema-ic-verwerving-met-verlegging",
+              "naam": { "primair": "Boekingsschema IC-verwerving (afnemerszijde, België)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor een IC-verwerving van 10.000 EUR uit Duitsland: debet 604 Aankopen / debet 411 Aftrekbare btw (rooster 59) / credit 440 Handelsschulden + credit 451 Verschuldigde btw (rooster 55-56). Bij volledig recht op aftrek = cash-neutraal — alleen de twee btw-roosters compenseren elkaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 25ter" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard MAR-boeking IC-verwerving met aftrek" }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "IC-verwerving 10.000 EUR uit Duitsland — 21 % verleggings-btw",
+                  "rijen": [
+                    { "rekening": "604 — Aankopen handelsgoederen", "debet": 10000, "credit": null },
+                    { "rekening": "411 — Aftrekbare btw (rooster 59)", "debet": 2100, "credit": null },
+                    { "rekening": "440 — Handelsschulden DE-leverancier", "debet": null, "credit": 10000 },
+                    { "rekening": "451 — Verschuldigde btw IC-verwerving (rooster 55-56)", "debet": null, "credit": 2100 }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "vies-due-diligence",
+              "naam": { "primair": "VIES-controle als verplichte due-diligence" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke nieuwe EU-afnemer: btw-nummer controleren via VIES (https://ec.europa.eu/taxation_customs/vies), screenshot of bevestigings-ID bewaren in het klantendossier. Hercontrole minstens jaarlijks voor recurring klanten — een btw-nummer kan worden ingetrokken zonder dat de afnemer dat meldt. Bij intrekking: vrijstelling vervalt = Belgische btw moet aangerekend worden vanaf de eerstvolgende factuur.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 39bis", "context": "Quick fixes 2020 — substantiële voorwaarde" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard-due-diligence bij ITAA-leden" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "ic-opgave-deadline",
+              "naam": { "primair": "IC-opgave (listing) — deadline en aansluiting" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "De IC-opgave (listing) wordt ingediend in dezelfde periodiciteit als de btw-aangifte (maand of kwartaal), uiterlijk de 20e van de maand volgend op de aangifteperiode. Per buitenlandse afnemer wordt het totaalbedrag van IC-leveringen (code L) en B2B-diensten (code S) opgegeven. Controle in dossier: som van de listing = som van rooster 46 (leveringen) + rooster 44 (diensten) van de overeenstemmende btw-aangifte(s) van dezelfde periode.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 53sexies" },
+                      { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 265" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard-aansluitcontrole tussen listing en aangifte" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-regime-keuze",
+              "naam": { "primair": "Strategisch advies: welk regime past bij welke ambitie?" },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij een KMO met EU-expansie-ambitie: vroeg OSS aanvragen vermijdt overgang midden-jaar wanneer drempel 10.000 EUR wordt overschreden. Bij een tussenhandelaar in een goederenketen (Belg koopt bij A, verkoopt aan C, beide in andere lidstaat dan B): driehoeksverkeer-vereenvoudiging onderzoeken — vermijdt verplichte btw-registratie in lidstaat A of C. Bij niet-EU-onderneming die opslag in België wil: fiscaal vertegenwoordiger is wettelijk vereist (art. 55 WBTW).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 25quinquies" },
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 55" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk grensoverschrijdende BTW" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -117,6 +708,21 @@
     {
       "type": "bevat",
       "target": "fiscaal-vertegenwoordiger-btw"
+    },
+    {
+      "type": "vereist",
+      "target": "plaats-van-handeling-btw",
+      "toelichting": "De volledige tabel van plaats-van-handeling-regels (B2B/B2C + uitzonderingen onroerend goed/vervoer/restaurant/evenement/elektronische diensten) is een aparte voorvereiste."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-aangifte",
+      "toelichting": "Aangifte-roosters 44 (IC-diensten), 46 (IC-leveringen), 55-56 (IC-verwervingen + verlegging), 59 (aftrek verlegging) zijn de operationele neerslag van dit kader."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "factuur-btw",
+      "toelichting": "Factuur-vermeldingen 'BTW vrijgesteld art. 39bis' / 'Reverse charge art. 196 Dir.' zijn bewijslast voor de vrijstellingsregelingen."
     }
   ]
 }
