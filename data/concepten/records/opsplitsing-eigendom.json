@@ -1,21 +1,16 @@
 {
   "id": "opsplitsing-eigendom",
   "naam": {
-    "primair": "Opsplitsing van eigendom",
-    "synoniemen": [
-      "zakelijke rechten op onroerend goed"
-    ]
+    "primair": "Opsplitsing van eigendom (zakelijke rechten)",
+    "synoniemen": ["zakelijke rechten op onroerend goed", "splitsing eigendom"],
+    "vertaling": {"en": "split ownership / real rights", "fr": "démembrement de la propriété"}
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.1.II.X"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.1.II.X"],
     "scope": {
       "in": [
         "Overzichts-vergelijking 3 zakelijke rechten: erfpacht · opstal · vruchtgebruik",
@@ -24,71 +19,168 @@
         "Cross fiscaliteit — registratierechten + successierechten per recht"
       ],
       "out": [
-        {
-          "topic": "Erfpacht-specifiek (27-99 jaar)",
-          "richting": "moet-verwijzen",
-          "ref": "erfpacht"
-        },
-        {
-          "topic": "Opstal-specifiek (accessoir recht)",
-          "richting": "moet-verwijzen",
-          "ref": "opstal"
-        },
-        {
-          "topic": "Vruchtgebruik (incl. blote-eigendom-perspectief)",
-          "richting": "moet-verwijzen",
-          "ref": "vruchtgebruik"
-        },
-        {
-          "topic": "Registratierechten",
-          "richting": "mag-verwijzen"
-        }
+        {"topic": "Erfpacht-specifiek (15-99 jaar)", "richting": "moet-verwijzen", "ref": "erfpacht"},
+        {"topic": "Opstal-specifiek (accessoir recht)", "richting": "moet-verwijzen", "ref": "opstal"},
+        {"topic": "Vruchtgebruik (incl. blote-eigendom-perspectief)", "richting": "moet-verwijzen", "ref": "vruchtgebruik"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/opsplitsing-eigendom.json",
+      "primary_bronnen": ["CBN-advies 2015/5 (zakelijke rechten)", "Nieuw BW Boek 3 (zakelijke rechten 2021)", "Wetboek Registratierechten"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Σ-record 3 zakelijke rechten uitgewerkt: vergelijkingsmatrix + boekhoudkundige cascade per recht."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Opsplitsing van eigendom = juridische techniek waarbij verschillende gebruiks- of genotsrechten op één goed worden verdeeld tussen meerdere personen. Drie hoofdvormen onder Belgisch recht: (1) erfpacht (Boek 3 BW, vroeger Wet 10/01/1824) = vol genot van een onroerend goed van een ander, tegen periodieke canon, looptijd 15-99 jaar; (2) opstalrecht (Wet 10/01/1824 hervormd door Boek 3 BW) = recht om te bouwen op grond van een ander, looptijd 0-99 jaar; (3) vruchtgebruik (art. 3.138 e.v. BW, vroeger art. 745 BW oud) = recht op genot + vruchten van een goed van een ander, levenslang of max. 30 jaar voor rechtspersonen, max. 99 jaar voor specifieke gevallen. Tegenover de gebruiks-genotsrechten staat de 'blote eigendom' van de oorspronkelijke eigenaar.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "BW Boek 3 (zakelijke rechten — 2021)", "ref": "Titel 5-8"}, {"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Zakelijke rechten op onroerende goederen"}]}
+      },
+      "substantie": {
+        "tekst": "Waarom drie? Elk recht beantwoordt aan een specifieke economische behoefte: erfpacht voor langdurig gebruik tegen vergoeding (commercieel onroerend, vroeger landbouw); opstal voor 'bouwen op andermans grond' (windturbines, opslagloodsen, joint-venture-vastgoed); vruchtgebruik voor familiale planning (ouders geven blote eigendom aan kinderen + behouden vruchtgebruik tot overlijden — successieoptimalisatie). Boekhoudkundig (CBN 2015/5): in de regel boekt de houder van het zakelijk recht het actief op klasse 22 (gebouw) of 23 (installaties) met afschrijving over de looptijd van het recht. De blote eigenaar boekt geen actief tijdens looptijd — pas bij einde recht heropleving in klasse 22. Periodieke canon = kost (klasse 612 huur of 6602 erfpachtvergoeding).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Boekhoudkundige verwerking"}]}
+      },
+      "rationale": {
+        "tekst": "Het systeem van zakelijke rechten verzoent twee belangen: (a) eigendomszekerheid voor langetermijn-eigenaar (familie, gemeente, religieuze instelling) en (b) gebruiks-flexibiliteit voor de exploitant. Fiscaal differentieert de wetgever: registratierechten op erfpacht/opstal slechts 5% (vroeger 2%, verhoogd in 2024 in Vlaanderen) tegenover 12% op gewone overdracht — gunsttarief stimuleert deze rechtsfiguren. Successierecht weegt op de waarde van het overgebrachte recht — vruchtgebruik dat eindigt bij overlijden van vader doet geen successie ontstaan bij kinderen die de blote eigendom hadden (waardevolle planningstool).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vaste-activa"],
+      "kader": "boekhouding",
+      "naast_relevant": ["erfpacht", "opstal", "vruchtgebruik"],
+      "volgkennis": ["registratie-en-successierechten"]
+    },
+    "subconcepten": [
+      {
+        "id": "vergelijkingsmatrix-zakelijke-rechten",
+        "naam": {"primair": "Vergelijkingsmatrix: erfpacht vs opstal vs vruchtgebruik"},
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Drie zakelijke rechten naast elkaar — termijn + tegenprestatie + objecten + boekhouding. Erfpacht: 15-99 jaar, jaarlijkse canon, onroerend goed, klasse 22 bij erfpachter. Opstal: 0-99 jaar, eenmalige of periodieke prijs, recht om te bouwen op onroerend goed van ander, klasse 23 bouw bij opstalhouder. Vruchtgebruik: levenslang of max 30 jaar rechtspersonen, eenmalige of periodieke prijs, vruchten + genot van een goed, klasse 21 (immaterieel) of 22 (materieel) bij vruchtgebruiker.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Vergelijking 3 zakelijke rechten"}]},
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "titel": "Erfpacht vs opstal vs vruchtgebruik",
+                  "kolommen": ["Aspect", "Erfpacht", "Opstal", "Vruchtgebruik"],
+                  "rijen": [
+                    ["Looptijd", "15-99 jaar", "0-99 jaar", "Levenslang of max 30 j (rechtspersoon)"],
+                    ["Object", "Onroerend goed", "Recht om te bouwen op grond ander", "Roerend of onroerend goed"],
+                    ["Tegenprestatie", "Canon (jaarlijks)", "Eenmalige of periodieke prijs", "Eenmalige of periodieke vergoeding"],
+                    ["Eind van het recht", "Looptijd OF opzegging", "Looptijd OF natrekking", "Overlijden / vermenging"],
+                    ["Boekhouding houder zakelijk recht", "Actief klasse 22 — afschrijven over looptijd", "Bouwwerk klasse 22-23 — afschrijven over looptijd", "Recht klasse 22 — afschrijven over looptijd"],
+                    ["Boekhouding blote eigenaar", "Eigendom blijft op balans (vroeger); CBN 2015/5: niet meer", "Eigendom grond blijft", "Eigendom blijft (zonder afschrijving)"],
+                    ["Registratierechten Vlaanderen 2024", "5%", "5%", "5%"]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhouding-cascade-zakelijk-recht",
+        "naam": {"primair": "Boekhoudkundige cascade per zakelijk recht"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Bij vestiging: houder van zakelijk recht betaalt prijs + registratierechten + notaris → activeert totaalbedrag op klasse 22 (of 21 bij vruchtgebruik op roerend goed). Afschrijving lineair over looptijd. Eind recht: actief naar 0 (volledig afgeschreven) OF resterende boekwaarde uitboeken als minderwaarde. Periodieke canon: kost 6602 'erfpachtvergoeding' of 612 'huur'.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Boekhoudkundige verwerking"}, {"type": "cbn", "naam": "CBN-advies 158/1", "ref": "Periodieke vergoeding"}]}
+            }
+          },
+          "voorbeelden": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "voorbeeld-vestiging-erfpacht",
+              "titel": "Vestiging erfpacht 50 jaar — eenmalige prijs 500.000 EUR + canon 10.000/jaar",
+              "context": "Zelena Bio NV neemt erfpacht op terrein van familie Janssens.",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "(1) Vestiging — activering 500.000",
+                  "rijen": [
+                    {"rekening": "22 — Erfpachtrecht (terrein)", "debet": 500000, "credit": null},
+                    {"rekening": "550 — Bank", "debet": null, "credit": 500000}
+                  ]
+                },
+                {
+                  "type": "boeking",
+                  "titel": "(2) Jaarlijkse afschrijving 500.000 / 50 = 10.000",
+                  "rijen": [
+                    {"rekening": "6302 — Afschrijving MVA", "debet": 10000, "credit": null},
+                    {"rekening": "229 — Geboekte afschrijvingen (-)", "debet": null, "credit": 10000}
+                  ]
+                },
+                {
+                  "type": "boeking",
+                  "titel": "(3) Jaarlijkse canon",
+                  "rijen": [
+                    {"rekening": "6602 — Erfpachtvergoedingen (kost)", "debet": 10000, "credit": null},
+                    {"rekening": "550 — Bank", "debet": null, "credit": 10000}
+                  ]
+                }
+              ]
             }
           ]
         }
       }
-    }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Zakelijk recht ≠ leasing",
+        "verkeerde_assumptie": "Een 30-jarige erfpacht is een vorm van leasing.",
+        "kernpunt": "Erfpacht/opstal/vruchtgebruik zijn ZAKELIJKE rechten (volgen het goed) — eigendomstitel geregistreerd in kadaster. Leasing is een PERSOONLIJK recht (volgt persoon). Boekhoudkundig: zakelijk recht ALTIJD geactiveerd; leasing is afhankelijk van klassificatie financieel vs operationeel.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Levensduur recht vs gebruiksduur actief verwarren",
+        "verkeerde_assumptie": "Bij opstal 99 jaar voor gebouw afschrijving over 33 jaar (technische levensduur gebouw).",
+        "kernpunt": "Bij ZAKELIJK recht: afschrijving over de juridische looptijd van het recht (de kortste van juridisch + technisch). Opstal 50 jaar voor gebouw met 33-jarige levensduur → afschrijven over 33 jaar. Maar opstal 20 jaar voor zelfde gebouw → afschrijven over 20 jaar (verlies recht doet boekwaarde verdwijnen).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Afschrijving zakelijke rechten"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "bevat",
-      "target": "erfpacht"
-    },
-    {
-      "type": "bevat",
-      "target": "opstal"
-    },
-    {
-      "type": "bevat",
-      "target": "vruchtgebruik"
+      "id": "perspectief-onderneming-zelf",
+      "naam": {"primair": "Onderneming als houder OF blote eigenaar van zakelijk recht"},
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "adv-keuze-zakelijk-recht",
+              "naam": {"primair": "Welk zakelijk recht kiezen?"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Klant wil langdurig gebruik onroerend goed zonder volle aankoop: vergelijk erfpacht (jaarlijkse canon, max 99 jaar, einde teruggave) ↔ opstal (vooral als zelf bouwen op andermans grond) ↔ vruchtgebruik (familiale planning, levenslang). Argumenten: cash flow (canon vs eenmalige prijs), looptijd-zekerheid, fiscale optimalisatie successie (vruchtgebruik > opstal > erfpacht voor planning), btw-implicaties (vruchtgebruik op nieuw gebouw = btw met aftrekrecht).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "bevat", "target": "erfpacht"},
+    {"type": "bevat", "target": "opstal"},
+    {"type": "bevat", "target": "vruchtgebruik"},
+    {"type": "valt_onder", "target": "vaste-activa", "toelichting": "Drie sub-vormen worden ondergebracht in klasse 22-23 (MVA)."}
   ]
 }

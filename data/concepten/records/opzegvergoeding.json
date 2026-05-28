@@ -2,20 +2,14 @@
   "id": "opzegvergoeding",
   "naam": {
     "primair": "Opzegvergoeding",
-    "synoniemen": [
-      "ontslagvergoeding"
-    ]
+    "synoniemen": ["ontslagvergoeding", "verbrekingsvergoeding"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.2.taak.3"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.2.taak.3"],
     "scope": {
       "in": [
         "Eenheidsstatuut sinds 2014 — gemeenschappelijke termijnen arbeider/bediende",
@@ -24,54 +18,313 @@
         "Fiscale gunstige regimes (afzonderlijke aanslagvoet bij voldoende ancienniteit)"
       ],
       "out": [
-        {
-          "topic": "Loon-en-payroll K-techniek (cascade-context)",
-          "richting": "moet-verwijzen",
-          "ref": "loon-en-payroll"
-        },
-        {
-          "topic": "Werknemers-vergoedingen Σ (alternatieven)",
-          "richting": "mag-verwijzen",
-          "ref": "werknemers-vergoedingen"
-        }
+        {"topic": "Loon-en-payroll K-techniek (cascade-context)", "richting": "moet-verwijzen", "ref": "loon-en-payroll"},
+        {"topic": "Werknemers-vergoedingen Σ (alternatieven)", "richting": "mag-verwijzen", "ref": "werknemers-vergoedingen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/opzegvergoeding.json",
+      "primary_bronnen": [
+        "Wet Eenheidsstatuut 26 december 2013",
+        "Wet 3 juli 1978 arbeidsovereenkomsten art. 37-39",
+        "WIB92 art. 171"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T15:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit Wet Eenheidsstatuut 2014 + WIB92 art. 171 + payroll-kennis"}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De opzegvergoeding is de vergoeding die de werkgever verschuldigd is aan de werknemer wanneer de arbeidsovereenkomst eenzijdig wordt beëindigd zonder de wettelijke opzegtermijn te respecteren (of slechts gedeeltelijk te respecteren). Het bedrag = bruto-loon (inclusief alle voordelen in geld en VAA) × wettelijke opzegtermijn die overbleef. Sinds de Wet Eenheidsstatuut van 26 december 2013 gelden voor alle werknemers (arbeiders en bedienden) dezelfde, op anciënniteit gebaseerde opzegtermijnen die volgen uit een gestaffelde tabel (art. 37/2 Wet 3 juli 1978).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Wet 3 juli 1978 betreffende de arbeidsovereenkomsten", "ref": "art. 39", "context": "Opzegvergoeding bij verbreking zonder opzegtermijn"},
+            {"type": "wettekst", "naam": "Wet 26 december 2013 (Eenheidsstatuut)", "ref": "art. 37-39", "context": "Gelijkschakeling arbeider/bediende"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Vóór 2014 verschilden opzegtermijnen voor arbeiders (kort, vaak weken) en bedienden (lang, vaak maanden of jaren). Het Eenheidsstatuut bracht dit gelijk: alle werknemers hebben nu dezelfde anciënniteit-gebaseerde termijn (1 week per gepresteerd anciënniteitsjaar in eerste jaren, geleidelijk langer). Een opzegvergoeding wordt verschuldigd wanneer de werkgever de werknemer onmiddellijk wil laten vertrekken zonder dat hij de termijn (effectief presteren) wil opleggen. Voor de werknemer is dit fiscaal vaak gunstig: bij voldoende anciënniteit valt het bedrag onder de afzonderlijke aanslagvoet (gemiddelde aanslagvoet van vorig jaar) in plaats van de gewone progressieve schijven — wat tot een lagere effectieve belasting leidt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 171", "context": "Afzonderlijke aanslagvoet voor 'bepaalde inkomsten'"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard ontslag-fiscale praktijk"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het concept opzegvergoeding bestaat omdat de wet bij ontslag twee opties biedt aan de werkgever: (1) de werknemer effectief laten presteren tijdens de opzegtermijn (loon doorbetalen + werknemer werkt door), of (2) de werknemer onmiddellijk laten vertrekken mits het volledige bedrag van die termijn forfaitair uit te keren. Deze tweede optie beschermt de werknemer: hij krijgt onmiddellijk financiële zekerheid om een nieuwe job te zoeken, in plaats van afhankelijk te zijn van zijn aanwezigheid in een toxische werksfeer. Het Eenheidsstatuut van 2014 heeft daarbij een grondwettelijk gelijkheidsprincipe geoperationaliseerd (Grondwettelijk Hof had het oude onderscheid arbeider/bediende ongrondwettelijk verklaard in 2011).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Grondwettelijk Hof 7-7-2011 arrest Eenheidsstatuut + ratio legis"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["bruto-loon", "arbeidsovereenkomst"],
+      "kader": "loon-en-payroll"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2014-01-01",
+        "wettelijke_basis": "Wet 26 december 2013 (Eenheidsstatuut) — wijzigt art. 37-39 Wet 3 juli 1978",
+        "toelichting": "Voor werknemers in dienst vóór 1-1-2014 geldt een gesplitste berekening (anciënniteit vóór 2014 volgt oude regels — 'kliksysteem' — , anciënniteit vanaf 2014 volgt nieuwe regels). Voor nieuwe werknemers vanaf 2014: enkel de nieuwe regels."
+      },
+      "voor": [
+        {
+          "tekst": "Iedere werknemer wiens arbeidsovereenkomst van onbepaalde duur eenzijdig wordt verbroken door de werkgever zonder dat de wettelijke opzegtermijn (volledig) wordt gerespecteerd. Ook van toepassing wanneer de werknemer zelf opzegt zonder termijn te respecteren — dan is hij de opzegvergoeding verschuldigd aan de werkgever (omgekeerd verband).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wet 3 juli 1978", "ref": "art. 39"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Ontslag om dringende reden (art. 35 Wet 3 juli 1978) — geen opzegtermijn, geen opzegvergoeding. Wel risico op procedure bij arbeidsrechtbank als de dringende reden wordt aangevochten.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wet 3 juli 1978", "ref": "art. 35"}
+            ]
+          }
+        },
+        {
+          "tekst": "Bepaalde-duur-contracten of duidelijk omschreven werk: bij voortijdige verbreking is de verschuldigde vergoeding het loon dat resteert tot het einde van het contract (max 2 × wettelijke opzegtermijn die zou gelden bij onbepaalde duur).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wet 3 juli 1978", "ref": "art. 40"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "opzegtermijntabel",
+        "naam": {"primair": "Opzegtermijntabel Eenheidsstatuut"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Gestaffelde tabel (art. 37/2 Wet 3 juli 1978): in eerste 3 maanden anciënniteit = 1 week opzeg per begonnen kwartaal anciënniteit; van 3 maanden tot 4 jaar = 3 weken/jaar; van 5 tot 20 jaar = geleidelijk oplopend tot 62 weken; daarna 1 week per anciënniteitsjaar erbij. Exacte tabel staat in art. 37/2. Voor wie in dienst was vóór 1-1-2014: gesplitste berekening met 'klikbedrag' (oude regels voor pre-2014-anciënniteit + nieuwe regels voor post-2014). De exacte tabel ALTIJD raadplegen — uit het hoofd kennen is onmogelijk.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 3 juli 1978", "ref": "art. 37/2", "context": "Tabel opzegtermijnen"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "berekeningsbasis",
+        "naam": {"primair": "Berekeningsbasis — lopend loon + voordelen"},
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Opzegvergoeding = (lopend loon + alle voordelen verworven krachtens overeenkomst) × wettelijke opzegtermijn die werd 'genegeerd'. 'Lopend loon' omvat: maandloon + variabel loon (commissies, gemiddelde van laatste 12 maanden) + 13e maand + dubbel vakantiegeld + VAA bedrijfswagen (forfaitaire jaarwaarde / 12) + andere periodieke voordelen. Niet inbegrepen: occasionele bonussen, terugbetaling onkosten, premies einde-loopbaan. De berekening kan complex worden — typisch door sociaal secretariaat of arbeidsrechter-specialist uitgevoerd.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 3 juli 1978", "ref": "art. 39", "context": "Lopend loon inclusief voordelen"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afzonderlijke-aanslagvoet",
+        "naam": {"primair": "Fiscaal gunstig regime — afzonderlijke aanslagvoet (art. 171 WIB92)"},
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Onder bepaalde voorwaarden valt de opzegvergoeding onder afzonderlijke aanslag (art. 171 WIB92): belast tegen de gemiddelde aanslagvoet van het laatste vorige jaar waarin de werknemer een normaal jaarinkomen had. Dit voorkomt dat een grote eenmalige uitkering volledig in de hoogste progressieve schijf valt. Voorwaarde: het moet gaan om een betaling die haar oorsprong vindt in vroegere prestaties (= cumul van toekomstige loon die ineens wordt betaald). De afzonderlijke aanslagvoet komt typisch neer op ≈ 30-45 %, veel lager dan de marginale progressieve schijf van 50 % + gemeentebelasting. BV: voorlopig wordt 33 % BV ingehouden, definitieve afrekening in personenbelasting jaar N+1.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 171, 5° a", "context": "Afzonderlijke aanslag voor opzegvergoedingen"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rsz-behandeling",
+        "naam": {"primair": "RSZ-behandeling opzegvergoeding"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De opzegvergoeding is volledig onderworpen aan RSZ-werknemer (13,07 %) en RSZ-werkgever (≈ 25 %), net als gewoon loon. Geen vrijstelling, geen plafond. Dit verklaart waarom de loonkost voor de werkgever bij ontslag aanzienlijk is — ≈ 25 % bovenop het al hoge brutobedrag.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard RSZ-praktijk — opzegvergoeding is bezoldiging"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-bediende-5-jaar",
+        "titel": "Bediende met 5 jaar anciënniteit — onmiddellijk ontslag",
+        "context": "Sven (bediende, Aurelia Holding NV) heeft 5 jaar anciënniteit, bruto-maandloon 3.500 EUR. De werkgever beslist hem onmiddellijk te ontslaan zonder opzegtermijn te laten presteren. Wettelijke opzegtermijn volgens art. 37/2 Wet 3 juli 1978: ≈ 18 weken bij 5 jaar anciënniteit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 3 juli 1978", "ref": "art. 37/2", "context": "Exacte tabel raadplegen"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Indicatief — exacte termijn Cijferzakboekje"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — wettelijke opzegtermijn 5 jaar anciënniteit: 18 weken (≈ 4,15 maanden) — exacte termijn uit art. 37/2-tabel",
+              "Stap 2 — berekeningsbasis: 3.500 (maandloon) + 292 (1/12 dubbel vakantiegeld 92 %) + 292 (1/12 13e maand) + ... ≈ 4.085 EUR per maand bruto-equivalent",
+              "Stap 3 — opzegvergoeding bruto: 4.085 × 4,15 = ≈ 16.952 EUR",
+              "Stap 4 — RSZ-werknemer 13,07 %: 2.216 EUR",
+              "Stap 5 — belastbaar: 16.952 − 2.216 = 14.736 EUR",
+              "Stap 6 — voorlopige BV 33 % (afzonderlijke aanslag): 4.863 EUR",
+              "Stap 7 — netto opzegvergoeding: ≈ 9.873 EUR (vóór afrekening jaar N+1)",
+              "Stap 8 — werkgevers-RSZ 25 %: 4.238 EUR — totale werkgeverskost ≈ 21.190 EUR"
+            ],
+            "resultaat": "Sven ontvangt onmiddellijk ≈ 9.873 EUR netto; de werkgever betaalt ≈ 21.190 EUR loonkost. De definitieve aanslagvoet wordt in jaar N+1 herrekend bij de personenbelasting (afzonderlijke aanslagvoet — gemiddelde van vorig jaar)."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Opzegtermijn uit het hoofd toepassen",
+        "verkeerde_assumptie": "1 week per anciënniteitsjaar — eenvoudige vuistregel.",
+        "kernpunt": "De tabel in art. 37/2 is gestaffeld, niet lineair. In de eerste 3 maanden: 1 week/kwartaal; van 3 maanden tot 4 jaar: 3 weken/jaar; daarna geleidelijk oplopend. Voor werknemers vóór 2014: gesplitste berekening (klikbedrag). Altijd de exacte tabel of een online calculator (RSZ-tool) raadplegen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 3 juli 1978", "ref": "art. 37/2"}
+          ]
+        }
+      },
+      {
+        "titel": "VAA bedrijfswagen vergeten in berekeningsbasis",
+        "verkeerde_assumptie": "Opzegvergoeding berekenen op bruto-maandloon alleen — VAA's en andere voordelen niet meerekenen.",
+        "kernpunt": "Art. 39 Wet 3 juli 1978 spreekt over 'lopend loon én alle voordelen verworven krachtens overeenkomst'. VAA bedrijfswagen, GSM, groepsverzekering, hospitalisatieverzekering — allemaal in de berekeningsbasis. Dat verhoogt de opzegvergoeding aanzienlijk (bv. VAA wagen ≈ 5.000 EUR/jaar = 416 EUR/maand extra).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 3 juli 1978", "ref": "art. 39"}
+          ]
+        }
+      },
+      {
+        "titel": "Afzonderlijke aanslagvoet als 33 % beschouwen",
+        "verkeerde_assumptie": "Bedrijfsvoorheffing 33 % = definitieve fiscaal regime.",
+        "kernpunt": "33 % BV is een voorlopige inhouding (KB/WIB92 Bijlage III). De definitieve aanslag gebeurt in de personenbelasting jaar N+1: gemiddelde aanslagvoet van vorige jaar wordt toegepast (typisch ≈ 30-45 %, afhankelijk van eerder inkomen). De werknemer moet dit verwerken in zijn PB-aangifte (vak IV — exceptionele vergoedingen). Eventueel terugkrijgen van te veel BV ingehouden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 171"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "loon-en-payroll"
+      "id": "werkgever-bij-ontslag",
+      "naam": {"primair": "Werkgever bij ontslag"},
+      "intro": "De accountant adviseert bij ontslagbeslissingen en boekt de opzegvergoeding.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "timing-en-optimalisatie",
+              "naam": {"primair": "Timing van ontslag — fiscaal-sociaal advies"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Twee timing-overwegingen: (1) anciënniteit-trap-effect: ontslag net vóór een nieuwe anciënniteits-trap kan duizenden EUR opzegvergoeding besparen (controleer art. 37/2-tabel); (2) jaargrens: ontslag in januari N+1 kan gunstiger zijn dan in december N als de gemiddelde aanslagvoet van het 'laatste vorige jaar' (jaar N) lager was dan jaar N-1. Daarnaast: outplacement is verplicht in bepaalde gevallen — zie outplacementkost-record.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-opzegvergoeding",
+              "naam": {"primair": "Boeking opzegvergoeding op 620 + 642/643"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij betaling van een opzegvergoeding: het bruto-bedrag wordt geboekt op 620 (bezoldigingen) of een sub-rekening 6206 (opzegvergoedingen) voor heldere reporting. Werkgevers-RSZ op 621. Tegen-boekingen identiek aan gewone loonbetaling: 453 (BV 33 %), 454 (RSZ totaal), 455 (netto te betalen). Sommige ondernemingen reserveren een afzonderlijke 'andere bedrijfskosten' (klasse 64) voor ontslagvergoedingen — boekhoudkundig ook aanvaardbaar, maar 620 sub-rekening geeft betere zichtbaarheid in financiële analyse.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "advies", "naam": "CBN-advies 2016/15", "ref": "Boekingen bezoldigingen"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-ontslagprovisies",
+              "naam": {"primair": "Audit-controle ontslagprovisies"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij sluitelement jaarrekening: zijn er aangekondigde maar niet-betaalde opzegvergoedingen? Volgens IAS 37 / CBN restructuring-advies moet er een provisie worden aangelegd zodra een gedetailleerd plan is opgesteld en formeel aan werknemers gecommuniceerd. Audit: bestuursnotulen + arbeidsrechtbank-procedures + brieven aan vakbonden checken. Risico: onderschatting passiva = overschatting eigen vermogen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IAS 37 + standaard audit-praktijk herstructurering"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "loon-en-payroll"},
+    {"type": "vereist", "target": "arbeidsovereenkomst", "toelichting": "Verbreking van een arbeidsovereenkomst van onbepaalde duur is de trigger; de berekening hangt af van de contractdatum (vóór/na 1-1-2014)."},
+    {"type": "beinvloed_door", "target": "ontslag", "toelichting": "Onmiddellijk ontslag zonder opzegtermijn (of partial-presteren) genereert een opzegvergoeding."},
+    {"type": "vergelijkbaar_met", "target": "outplacementkost", "gelijkenissen": ["Beide ontstaan bij ontslag", "Beide zijn werkgeverskosten gerelateerd aan einde arbeidsrelatie"], "verschillen": ["Opzegvergoeding: cash-uitkering aan werknemer, RSZ + BV onderworpen", "Outplacementkost: dienst (begeleiding) — voor werknemer NIET-belastbaar voordeel, voor werkgever VenB-aftrekbaar", "Opzegvergoeding: bedrag = wettelijke termijn × lopend loon", "Outplacementkost: forfait per programma (door erkende outplacement-bureau)"], "verwarring_risico": "Beide bij ontslag, maar fiscaal-sociaal volledig verschillende behandeling."}
   ]
 }
