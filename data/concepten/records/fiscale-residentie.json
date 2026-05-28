@@ -4,23 +4,39 @@
     "primair": "Fiscale residentie",
     "synoniemen": [
       "fiscale woonplaats",
-      "tax residence"
-    ]
+      "tax residence",
+      "rijksinwonerschap"
+    ],
+    "vertaling": {
+      "fr": "résidence fiscale",
+      "en": "tax residence"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "regeling"
+      "regeling",
+      "kader"
     ],
     "ankers": [
       "2.8.IV"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fiscale-residentie.json",
+      "primary_bronnen": [
+        "WIB92 art. 2 — 1°",
+        "WIB92 art. 2 — 5°",
+        "WIB92 art. 2 — 3°",
+        "OESO-modelverdrag art. 4"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,6 +45,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:45:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 2 — 1°/3°/5° + OESO-MV art. 4). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
@@ -61,24 +84,519 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (fiscale-residentie).",
+        "tekst": "Fiscale residentie is het kernaanknopingspunt dat bepaalt of een persoon of vennootschap in België onderworpen is aan de onbeperkte belastingplicht (= belasting op het wereldwijde inkomen via personenbelasting of vennootschapsbelasting) dan wel aan de beperkte belastingplicht voor niet-inwoners (BNI — enkel Belgische bron-inkomsten). Voor natuurlijke personen: rijksinwoner is wie zijn woonplaats OF de zetel van zijn fortuin in België heeft gevestigd (art. 2, 1° WIB92). Voor vennootschappen: Belgisch ingezetene is de vennootschap met maatschappelijke zetel, voornaamste inrichting of zetel van bestuur of beheer in België (art. 2, 5° WIB92). Bij conflicterende residentie in twee staten lossen de tie-breaker rules van het bilaterale dubbelbelastingverdrag (DBV) het conflict op (typisch art. 4 OESO-modelverdrag).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" },
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 4" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Fiscale residentie is dé poortwachter van het internationaal fiscaal recht. Stel: een Belgisch ICT-consultant verhuist naar Dubai. Zolang hij Belgisch rijksinwoner blijft (vrouw + kinderen blijven in Gent, hij keert wekelijks terug, fortuin staat op Belgische bank), wordt hij in België belast op zijn wereldwijde loon — ook op het loon dat hij verdient in Dubai. Pas wanneer de zetel van zijn fortuin én zijn woonplaats effectief naar Dubai verhuizen, wordt hij niet-inwoner en betaalt hij in België enkel BNI op zijn eventuele Belgische bronnen (huurinkomsten uit Belgische woning, etc.). Voor vennootschappen werkt het identiek: een NV met statutaire zetel in Luxemburg maar werkelijke leiding (bestuursvergaderingen, dagelijks beleid) in Antwerpen wordt fiscaal als Belgische vennootschap behandeld — onderworpen aan VenB op het wereldwijde resultaat (art. 179 WIB92).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Tegenbewijs-mogelijkheid Rijksregister-vermoeden" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardvoorbeelden uit fiscaal-internationaal handboek" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het residentie-beginsel is de fundering van het 'wereldwijde-inkomen-beginsel': een staat heeft het recht om zijn inwoners op hun TOTALE inkomen te belasten, omdat ze de baten van de Belgische samenleving genieten (rechtsbescherming, infrastructuur, sociale zekerheid). Niet-inwoners worden enkel belast op inkomsten die effectief uit Belgische bron komen (BNI — bron-beginsel). Wanneer beide criteria leiden tot dubbele residentie (twee staten beschouwen dezelfde persoon als inwoner), zou dat tot dubbele belasting leiden. Daarom voorzien DBVs in tie-breaker-cascades (art. 4 OESO-MV voor natuurlijke personen: permanente woning → centrum vitale belangen → gewone verblijfplaats → nationaliteit → overleg tussen staten; voor vennootschappen: 'place of effective management' of mutual agreement). De residentie-vaststelling is fact-intensive — geen mechanische test maar een weging van objectieve omstandigheden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 4 — commentaar" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese residentie- vs bron-beginsel — standaardleer internationaal belastingrecht" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "internationaal-fiscaal",
+      "naast_relevant": [
+        "belasting-niet-inwoners",
+        "toepassingsgebied-vennootschapsbelasting",
+        "dubbelbelastingverdrag"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 2 (definities rijksinwoner en vennootschap-residentie)",
+        "toelichting": "Stabiel regime sinds invoering WIB92. Aanpassing voor vennootschappen in 2020 (Wet 25 december 2017): de 'voornaamste inrichting' en 'zetel van bestuur of beheer' werden verduidelijkt in lijn met het WVV-statutaire-zetel-leerstuk."
+      },
+      "voor": [
+        {
+          "tekst": "Elke vraag 'wie betaalt welke belasting in België?': natuurlijke persoon → personenbelasting (rijksinwoner) of BNI/nat (niet-rijksinwoner); vennootschap → vennootschapsbelasting (Belgisch ingezetene) of BNI/ven (buitenlandse vennootschap). De residentie-vaststelling is altijd de eerste stap.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard stap-1 bij elke internationale belastingsituatie" }
+            ]
+          }
+        },
+        {
+          "tekst": "Beoordelen of een verhuizing naar het buitenland (of vanuit het buitenland) fiscale gevolgen heeft (exit-tax, BNI-overgang, einde wereldwijd-inkomen-belasting).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Exit-toepassingen residentie" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Natuurlijke persoon — rijksinwoner indien aan minstens één van twee criteria voldaan: (1) WOONPLAATS in België = hoofdverblijf, plaats waar gezin is gevestigd, sociale en familiale binding; (2) ZETEL VAN FORTUIN = plaats van waaruit het vermogen wordt beheerd. Deze criteria worden 'naar de omstandigheden beoordeeld' (art. 2 — 1° in fine). Wettelijk vermoeden: wie ingeschreven is in het Rijksregister wordt geacht zijn woonplaats in België te hebben — behoudens tegenbewijs.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Letterlijk: 'De vestiging van de woonplaats of van de zetel van het fortuin in België wordt naar de omstandigheden beoordeeld. Evenwel worden, behoudens tegenbewijs, geacht hun woonplaats in België te hebben gevestigd de natuurlijke personen die in het Rijksregister van de natuurlijke personen zijn ingeschreven.'" }
+            ]
+          }
+        },
+        {
+          "tekst": "Voor gehuwden / wettelijk samenwonenden (niet feitelijk gescheiden): de belastingwoonplaats wordt bepaald door de plaats waar HET GEZIN is gevestigd — niet individueel. Beide partners hebben dezelfde fiscale woonplaats zolang het gezin samenleeft (art. 2 — 1° laatste lid).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "'Voor gehuwden die zich niet in één van de in artikel 126, § 2, eerste lid, vermelde gevallen bevinden, wordt de belastingwoonplaats bepaald door de plaats waar het gezin is gevestigd.'" }
+            ]
+          }
+        },
+        {
+          "tekst": "Vennootschap — Belgisch ingezetene indien EEN VAN: (1) maatschappelijke zetel in België (statutair); (2) voornaamste inrichting in België; (3) zetel van bestuur of beheer in België. Het belangrijkste materiële criterium is de WERKELIJKE LEIDING (place of effective management): waar nemen de bestuurders de strategische beslissingen, waar vinden de raadsvergaderingen plaats. Een statutaire zetel in het buitenland weegt niet door als de leiding feitelijk vanuit België gebeurt.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Indicatoren voor Belgisch rijksinwonerschap natuurlijke persoon: inschrijving Rijksregister, gezinswoning in België, kinderen op Belgische school, hoofdbankrekening en kredieten in België, beroepsactiviteit hoofdzakelijk in België, sociale binding (clubs, vrienden, huisarts).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Concretisering 'beoordeeld naar omstandigheden'" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard fact-pattern uit rechtspraak" }
+            ]
+          }
+        },
+        {
+          "tekst": "Indicatoren werkelijke leiding vennootschap in België: bestuursvergaderingen in België; voornaamste bestuurders wonen in België; strategische beslissingen worden in België genomen; centrale boekhouding en bankrekening in België; correspondentie en archieven in België.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Place of effective management — standaard test" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-erkende residentie-overdracht: emigratie zonder voldoende substantie-verlies in België (cliënt houdt huis aan, gezin blijft, fortuin op Belgische bank) — fiscus weigert het verlies van rijksinwonerschap en blijft belasting heffen op het wereldwijde inkomen. Tegenbewijs van Rijksregister-vermoeden vergt sterke feitelijke onderbouwing.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkrisico emigratie zonder volledige breuk" }
+            ]
+          }
+        },
+        {
+          "tekst": "Dubbele residentie zonder DBV: wanneer cliënt verhuist naar een land waar België geen dubbelbelastingverdrag mee heeft (bv. niet-EU + geen DBV), bestaat het risico van dubbele belasting op hetzelfde inkomen — beide staten passen onbeperkte belastingplicht toe en er is geen tie-breaker.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardrisico zonder DBV-bescherming" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "fiscale-residentie-natuurlijke-personen",
+        "naam": {
+          "primair": "Rijksinwoner — natuurlijke personen (art. 2 — 1° WIB92)"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een natuurlijke persoon is Belgisch rijksinwoner wanneer hij OFWEL zijn woonplaats OFWEL de zetel van zijn fortuin in België heeft gevestigd. De twee criteria zijn alternatief, niet cumulatief — voldoen aan één criterium volstaat. Bijzondere categorieën worden eveneens als rijksinwoner aangemerkt: Belgische diplomaten in het buitenland, andere Belgische ambtenaren in het buitenland (mits niet duurzaam verblijfhoudend), en hun inwonende gezinsleden.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1° a-d" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Woonplaats verwijst naar de plaats waar de persoon werkelijk leeft, waar zijn gezin gevestigd is, zijn sociale en persoonlijke bindingen liggen. Zetel van fortuin verwijst naar de plaats van waaruit hij zijn vermogen beheert — typisch waar hij zijn beleggingsbeslissingen neemt, zijn bankrekening houdt, zijn fiscale planning doet. Een Belgische gepensioneerde die in Frankrijk woont maar zijn vermogen volledig via een Belgische private banker beheert kan op grond van 'zetel van fortuin' toch rijksinwoner zijn — al wordt dit door een DBV (België-Frankrijk) typisch ten gunste van Frankrijk opgelost.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese woonplaats vs zetel van fortuin — standaardleer" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "vermoeden-rijksregister",
+              "naam": {
+                "primair": "Wettelijk vermoeden Rijksregister-inschrijving"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wie ingeschreven is in het Rijksregister wordt geacht zijn woonplaats in België te hebben gevestigd — behoudens tegenbewijs. Dit is een weerlegbaar vermoeden: de belastingplichtige moet aantonen dat zijn werkelijke woonplaats elders ligt. Tegenbewijs gebeurt door feitelijke elementen (huurcontract buitenland, schoolgaande kinderen elders, dagelijkse aanwezigheid op andere plaats, etc.).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "'Evenwel worden, behoudens tegenbewijs, geacht hun woonplaats in België te hebben gevestigd de natuurlijke personen die in het Rijksregister van de natuurlijke personen zijn ingeschreven.'" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "regel-gezin-bepaalt-woonplaats",
+              "naam": {
+                "primair": "Gezin bepaalt de woonplaats (gehuwden / samenwonenden)"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor gehuwden of wettelijk samenwonenden die een gemeenschappelijke aanslag krijgen, wordt de belastingwoonplaats bepaald door de plaats waar het gezin is gevestigd. Dit voorkomt dat partners afzonderlijke residenties kunnen hebben binnen één gezin. Uitzonderingen: feitelijke scheiding, jaar van huwelijk/scheiding/overlijden (art. 126 §2 WIB92 — geen gemeenschappelijke aanslag in die jaren).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1° in fine" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "fiscale-residentie-vennootschappen",
+        "naam": {
+          "primair": "Belgisch ingezetene — vennootschappen (art. 2 — 5° WIB92)"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een vennootschap is fiscaal Belgisch ingezetene wanneer zij rechtspersoonlijkheid bezit (Belgisch of buitenlands recht) en haar maatschappelijke zetel, voornaamste inrichting OF zetel van bestuur of beheer in België heeft. De drie criteria zijn alternatief. Het belangrijkste materiële criterium is de werkelijke leiding (place of effective management) — waar nemen de bestuurders de strategische beslissingen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Het criterium 'zetel van bestuur of beheer' is een feitelijke test. Een vennootschap die statutair in Cyprus is opgericht maar waarvan de twee Belgische bestuurders alle vergaderingen in Brussel houden, alle contracten in België tekenen en alle strategische beslissingen vanuit hun Belgische kantoor nemen, wordt fiscaal als Belgische vennootschap behandeld (onderworpen aan VenB op het wereldwijde resultaat). Dit blokkeert pure offshore-constructies waar de statutaire zetel artificieel naar een laagbelaste jurisdictie verschoven wordt.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Place of effective management — standaard anti-offshore-leerstuk" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "begrip-onbeperkte-vs-beperkte-belastingplicht",
+        "naam": {
+          "primair": "Onbeperkte versus beperkte belastingplicht"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Residentie bepaalt de OMVANG van de belastingplicht. ONBEPERKT (wereldwijd inkomen): geldt voor Belgische rijksinwoners (PB op wereldwijd loon en vermogen) en Belgische vennootschappen (VenB op wereldwijde winst). BEPERKT (enkel Belgische bron): geldt voor niet-inwoners — natuurlijke personen (BNI/nat op art. 228 §2 WIB92-inkomsten) en buitenlandse vennootschappen (BNI/ven op art. 233 WIB92-inkomsten zoals Belgische vaste inrichting, Belgische onroerende inkomsten). DBVs verminderen de daadwerkelijke belasting maar wijzigen het residentie-aanknopingspunt zelf niet.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 5 + art. 227-248" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Wereldwijd vs bron-beginsel — kernonderscheid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-183-dagen",
+        "naam": {
+          "primair": "183-dagen-indicatie (geen wettelijk criterium)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Anders dan bv. in Nederland of Frankrijk, kent het WIB92 GÉÉN wettelijke 183-dagen-test voor rijksinwonerschap. De Belgische test is volledig FEITELIJK (woonplaats + zetel van fortuin). De 183-dagen-grens komt wél voor in DBV-tie-breaker-cascades (art. 4 OESO-MV — 'gewone verblijfplaats' wordt vaak feitelijk afgemeten aan dagen-aanwezigheid in een staat) en in sommige bronstaat-regels voor expats (art. 15 OESO-MV — bezoldigingen). Een Belgische rijksinwoner die minder dan 183 dagen in België verblijft maar wiens gezin in België blijft, BLIJFT rijksinwoner.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 4 + art. 15", "context": "183-dagen wel in DBV-context, niet in WIB92-residentie-test" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard examen-aandachtspunt: BE heeft geen 183-dagen-residentie-test" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tie-breaker-cascade-natuurlijke-persoon",
+        "naam": {
+          "primair": "Tie-breaker cascade natuurlijke personen (art. 4 OESO-MV)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer twee verdragstaten beide een persoon als inwoner kwalificeren (dubbele residentie), past het DBV de tie-breaker-cascade toe, in volgorde: (1) PERMANENTE WONING — de staat waar de persoon over een duurzaam beschikbare woning beschikt; (2) CENTRUM VAN VITALE BELANGEN — als beide staten een permanente woning bieden: waar liggen de persoonlijke en economische bindingen het sterkst (gezin, beroep, sociale relaties); (3) GEWONE VERBLIJFPLAATS — als de banden in beide staten gelijkwaardig zijn: waar verblijft de persoon gewoonlijk (feitelijke aanwezigheid); (4) NATIONALITEIT — als de gewone verblijfplaats in beide staten of in geen van beide ligt; (5) ONDERLING OVERLEG tussen bevoegde autoriteiten van de verdragstaten — als nationaliteit geen oplossing biedt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 4 lid 2 a-d" }
+              ]
+            }
+          },
+          "weergaven": [
+            {
+              "type": "beslisboom",
+              "stappen": [
+                "Stap 1: dubbele residentie? Ja → ga verder.",
+                "Stap 2: permanente woning in slechts één staat? Ja → die staat is residentie. Beide staten? → stap 3.",
+                "Stap 3: centrum vitale belangen onmiskenbaar in één staat? Ja → die staat. Onduidelijk? → stap 4.",
+                "Stap 4: gewone verblijfplaats in één staat? Ja → die staat. Beide of geen? → stap 5.",
+                "Stap 5: nationaliteit van één van beide staten? Ja → die staat. Beide of geen? → stap 6.",
+                "Stap 6: bevoegde autoriteiten lossen op in onderling overleg (Mutual Agreement Procedure — MAP)."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "tie-breaker-vennootschap",
+        "naam": {
+          "primair": "Tie-breaker vennootschappen (art. 4 lid 3 OESO-MV)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor vennootschappen met dubbele residentie hanteert het OESO-modelverdrag (versie 2017) een MAP-regel: de bevoegde autoriteiten van de verdragstaten lossen de residentie op in onderling overleg, met als criteria typisch de plaats van werkelijke leiding (place of effective management), de plaats van oprichting, en eventuele andere relevante factoren. Oudere versies van het MV (pre-2017) gebruikten 'place of effective management' als hoofdcriterium. Veel bestaande Belgische DBVs werken nog met de oude formulering.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 4 lid 3 (versie 2017)" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "MV-versie-verschil 2017: van place-of-effective-management naar MAP" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-expat-dubai",
+        "titel": "Belgische consultant verhuist naar Dubai",
+        "context": "Jonas Verdonck is consultant gespecialiseerd in IT-infrastructuur. Hij tekent in 2026 een 2-jarig contract met een Emirati-bedrijf in Dubai. Hij huurt daar een appartement, schrijft zich uit het Rijksregister uit. Zijn echtgenote en twee kinderen blijven in Gent (school, woonst). Hij keert om de zes weken een week terug naar Gent.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek expat-scenario" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Analyse:\n\n1. **Uitschrijving Rijksregister** — het wettelijke vermoeden van Belgische woonplaats valt weg. Maar de feitelijke beoordeling 'naar de omstandigheden' blijft.\n\n2. **Gezin in België** — art. 2 §1 1° in fine: 'Voor gehuwden (...) wordt de belastingwoonplaats bepaald door de plaats waar het gezin is gevestigd.' Het gezin blijft in Gent → Jonas blijft Belgisch rijksinwoner ondanks zijn fysieke verhuis.\n\n3. **Resultaat** — Jonas wordt in 2026 nog steeds in België belast op zijn wereldwijde loon, inclusief zijn Dubai-bezoldiging. Mogelijk verlaging via een dubbelbelastingverdrag België-VAE (indien van toepassing) of vrijstelling onder progressievoorbehoud.\n\n4. **Wat moest er anders** — om effectief niet-inwoner te worden moet Jonas zijn gezin meenemen, of een feitelijke scheiding documenteren. Pure inschrijvingsverandering volstaat niet."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-werkelijke-leiding",
+        "titel": "Cypriotische NV met werkelijke leiding in Brussel",
+        "context": "TechHolding Ltd is statutair gevestigd in Limassol (Cyprus). Twee bestuurders, beide Belgische rijksinwoners wonend in Brussel. Alle bestuursvergaderingen worden in een Brussels kantoor gehouden. De boekhouding wordt gevoerd in Antwerpen. Cypriotische 'directeur' is enkel een nominee.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek place-of-effective-management-scenario" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Analyse: art. 2 — 5° WIB92 vereist één van drie criteria. Statutair: Cyprus (criterium 1 niet vervuld voor België). Voornaamste inrichting: te onderzoeken, maar boekhouding en kantoor in BE wijzen op BE. Zetel van bestuur of beheer: BE (alle besluiten genomen in Brussel). Conclusie: TechHolding Ltd is fiscaal Belgisch ingezetene → onderworpen aan Belgische VenB op het WERELDWIJDE resultaat, ondanks de Cypriotische rechtsvorm. DBV België-Cyprus past tie-breaker toe (typisch place of effective management → BE) → bevestiging Belgische residentie. Cypriotische winstbelasting eventueel verrekenbaar via DBV."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Uitschrijving Rijksregister = einde rijksinwonerschap",
+        "verkeerde_assumptie": "Studenten denken dat zich uitschrijven uit het Rijksregister automatisch leidt tot verlies van Belgisch rijksinwonerschap.",
+        "kernpunt": "Het Rijksregister-vermoeden valt weg, maar de feitelijke test ('beoordeling naar omstandigheden') blijft. Een persoon zonder Rijksregister-inschrijving kan nog steeds rijksinwoner zijn als zijn woonplaats of zetel van fortuin in België ligt. Uitschrijving is een NOODZAKELIJKE maar niet voldoende voorwaarde voor niet-rijksinwoner-status.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Rijksregister-vermoeden is weerlegbaar — maar weerlegging vereist feitelijke onderbouwing van een werkelijk andere woonplaats" }
+          ]
+        }
+      },
+      {
+        "titel": "183-dagen-regel als residentie-test toepassen",
+        "verkeerde_assumptie": "Een Belg die minder dan 183 dagen in België is, is geen rijksinwoner.",
+        "kernpunt": "België kent géén 183-dagen-test in zijn intern fiscaal recht. De residentie-test is volledig feitelijk (woonplaats + zetel van fortuin). De 183-dagen-grens komt enkel terug in DBVs (gewone verblijfplaats — tie-breaker stap 3) en in bron-staat-regels voor expats (art. 15 OESO-MV — bezoldigingen). Een Belgische CEO die het hele jaar zaken doet in het buitenland maar wiens gezin in België blijft, BLIJFT rijksinwoner.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Geen verwijzing naar 183-dagen-test" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard misconceptie — examen-aandachtspunt" }
+          ]
+        }
+      },
+      {
+        "titel": "Maatschappelijke zetel = vennootschap-residentie",
+        "verkeerde_assumptie": "De maatschappelijke zetel (statutair) volstaat om de vennootschap-residentie vast te leggen.",
+        "kernpunt": "Art. 2 — 5° biedt drie ALTERNATIEVE criteria — voldoen aan één volstaat voor Belgische residentie. Een vennootschap met statutaire zetel in Cyprus maar werkelijke leiding in Brussel is Belgisch ingezetene (criterium 3). Statutaire zetel verplaatsen blokkeert het criterium maatschappelijke zetel, maar de feitelijke leiding-test blijft over en kan leiden tot dubbele residentie of Belgische residentie.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "expat-client",
+      "naam": {
+        "primair": "Expat-cliënt of emigratie-planning"
+      },
+      "intro": "De accountant die een natuurlijke persoon adviseert over een internationale carrière- of pensioenverhuizing.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "residentie-breuk-checklist",
+              "naam": {
+                "primair": "Checklist effectieve residentie-breuk"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Om verlies van Belgisch rijksinwonerschap te bewerkstelligen: (1) gezin meeverhuizen (echtgenoot + minderjarige kinderen); (2) Belgische woning verkopen, schenken of leegtrek-verhuren met objectieve dossier-onderbouwing; (3) Belgische bankrekeningen herleiden tot minimum (eventueel afsluiten); (4) Belgische schoolinschrijvingen, clubs, abonnementen beëindigen; (5) hoofdvermogen verplaatsen naar nieuwe land; (6) uitschrijven Rijksregister; (7) inschrijven bevolkingsregister van het nieuwe land. Dossier opbouwen vóór de verhuizing voor het geval de fiscus de breuk betwist.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard emigratie-checklist" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "internationale-groepsstructuur",
+      "naam": {
+        "primair": "Internationale groepsstructuur — vennootschap-residentie-vraag"
+      },
+      "intro": "De accountant die advies geeft bij een offshore- of internationale groepsstructuur.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "stap-bestuurssamenstelling",
+              "naam": {
+                "primair": "Bestuurssamenstelling en vergaderingen onderzoeken"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke buitenlandse vennootschap met Belgische bestuurders: onderzoek waar de strategische beslissingen werkelijk genomen worden. Concreet: (1) waar wonen de bestuurders; (2) waar vinden de raden van bestuur plaats (notulen!); (3) wie tekent de contracten en waar; (4) waar wordt de boekhouding gevoerd; (5) waar zit de bank van de vennootschap. Een 'nominee director' in het buitenland zonder reële beslissingsmacht beschermt NIET tegen de Belgische werkelijke-leiding-test.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 5°" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Place-of-effective-management substantie-test" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "triggert",
+      "target": "personenbelasting",
+      "toelichting": "Rijksinwonerschap (art. 2 — 1°) triggert onderwerping aan PB op het wereldwijde inkomen (art. 5 WIB92)."
+    },
+    {
+      "type": "triggert",
+      "target": "toepassingsgebied-vennootschapsbelasting",
+      "toelichting": "Belgische vennootschap-residentie (art. 2 — 5°) triggert onderwerping aan VenB op het wereldwijde resultaat (art. 179 WIB92)."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "belasting-niet-inwoners",
+      "gelijkenissen": [
+        "Beide systemen samen vormen het complete toepassingsgebied van de Belgische inkomstenbelastingen",
+        "Beide bouwen op de residentie-vaststelling als trigger"
+      ],
+      "verschillen": [
+        "Rijksinwoner: onbeperkte belastingplicht (wereldwijd inkomen)",
+        "Niet-inwoner: beperkte belastingplicht (enkel Belgische bron-inkomsten)",
+        "Rijksinwoner: PB of VenB (art. 5 / 179 WIB92)",
+        "Niet-inwoner: BNI/nat of BNI/ven (art. 227-248 WIB92)"
+      ],
+      "verwarring_risico": "Studenten kwalificeren expats als 'niet-inwoners' op basis van het feit dat ze in het buitenland werken. De woonplaats- + gezin-criteria primeren: een expat met gezin in BE blijft rijksinwoner.",
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "dubbelbelastingverdrag",
+      "toelichting": "Bij dubbele residentie lossen tie-breaker rules in het DBV (art. 4 OESO-MV) het conflict op — eerst permanente woning, dan centrum vitale belangen, dan gewone verblijfplaats, dan nationaliteit, dan MAP."
+    },
+    {
+      "type": "vereist",
+      "target": "wereldwijd-inkomen-beginsel",
+      "toelichting": "Het wereldwijd-inkomen-beginsel is de logische gevolgtrekking uit residentie: een staat belast haar inwoners op hun globale inkomen."
     }
   ]
 }
