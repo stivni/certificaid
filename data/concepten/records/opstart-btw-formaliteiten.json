@@ -1,34 +1,15 @@
 {
   "id": "opstart-btw-formaliteiten",
   "naam": {
-    "primair": "Opstart BTW-formaliteiten"
+    "primair": "Opstart BTW-formaliteiten",
+    "synoniemen": ["aanvangsaangifte btw", "604A-procedure", "btw-identificatie"]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.II",
-      "2.4.taak.1"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["2.4.II", "2.4.taak.1"],
     "scope": {
       "in": [
         "604A-aangifte aanvang BTW-activiteit (voor start activiteiten indienen)",
@@ -38,45 +19,412 @@
         "Aanmelden bij OSS indien grensoverschrijdend"
       ],
       "out": [
-        {
-          "topic": "BTW-belastingplichtige (begrip)",
-          "richting": "moet-verwijzen",
-          "ref": "btw-belastingplichtige"
-        },
-        {
-          "topic": "Stopzetting BTW (spiegel)",
-          "richting": "moet-verwijzen",
-          "ref": "stopzetting-btw"
-        },
-        {
-          "topic": "Regime-keuze (KO/forfait)",
-          "richting": "moet-verwijzen",
-          "ref": "vrijstellingsregeling-kleine-onderneming"
-        }
+        { "topic": "BTW-belastingplichtige (begrip)", "richting": "moet-verwijzen", "ref": "btw-belastingplichtige" },
+        { "topic": "Stopzetting BTW (spiegel)", "richting": "moet-verwijzen", "ref": "stopzetting-btw" },
+        { "topic": "Regime-keuze (KO/forfait)", "richting": "moet-verwijzen", "ref": "vrijstellingsregeling-kleine-onderneming" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/opstart-btw-formaliteiten.json",
+      "primary_bronnen": [
+        "W.BTW art. 50 §1",
+        "W.BTW art. 53 §1 1°",
+        "W.BTW art. 56bis",
+        "K.B. nr. 10 art. 1",
+        "K.B. nr. 1 van 29-12-1992"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T14:30:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (W.BTW art. 50 + art. 53)." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (opstart-btw-formaliteiten).",
+        "tekst": "Opstart BTW-formaliteiten is de procedure die elke nieuwe btw-belastingplichtige moet doorlopen vóór hij belastbare handelingen verricht: (1) indienen van de aanvangsaangifte 604A (art. 53 §1 1° W.BTW) bij het bevoegd btw-kantoor; (2) toekenning van een uniek btw-identificatienummer (BE + ondernemingsnummer, art. 50 W.BTW); (3) keuze van btw-regime — gewoon regime, vrijstellingsregeling voor kleine ondernemingen (KO, art. 56bis), forfaitaire regeling (afgeschaft sinds 2028, uitdovend), of toetreding tot een btw-eenheid; (4) keuze van aangiftefrequentie (kwartaal- of maandaangifte); (5) optioneel: aanmelden bij OSS voor grensoverschrijdende handelingen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 50" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°", "context": "Aanvangsaangifte" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56bis", "context": "KO-vrijstellingsregeling" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch is de aanvangsaangifte het beslismoment waarop de meeste keuzes voor de levensduur van de onderneming worden vastgelegd. Het btw-regime is niet vrijblijvend: een verkeerd gekozen regime kost geld (KO kan voordeliger zijn voor B2C-spelers met lage omzet; gewoon regime is voordeliger voor B2B met veel input-btw). De aangiftefrequentie heeft direct cashflow-impact: kwartaalaangifte = btw-schuld 1-3 maanden later betalen, maar wel voorschotten in december voor 4e kw; maandaangifte = sneller btw-teruggave (gunstig bij investeringen of negatieve marge). Voor digitaal-aanwezige ondernemers is de OSS-keuze (One Stop Shop) bepalend voor grensoverschrijdende afstandsverkopen. Het 604A-formulier wordt sinds 2003 digitaal ingediend via MyMinFin.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard accountancy-praktijk btw-opstart" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De vooraf-identificatie dient drie doelen: (1) controle — de fiscus weet wie zich op de markt begeeft en kan compliance opvolgen; (2) keten-integriteit — een geldig btw-nummer is voorwaarde voor B2B-aftrek bij de afnemer (klant kan btw maar aftrekken als leverancier een geldig nummer heeft, art. 45 W.BTW); (3) economisch — keuze van regime laat aanpassing toe aan profiel (klein vs groot, B2B vs B2C). De richtlijn 2006/112/EG (art. 213) verplicht lidstaten een dergelijk identificatiesysteem op te zetten — België implementeert dit via art. 50 W.BTW.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "BTW-richtlijn 2006/112/EG", "ref": "art. 213-214", "context": "Verplichting btw-identificatie" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio legis" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["btw", "btw-belastingplichtige"],
+      "kader": "btw",
+      "naast_relevant": ["vrijstellingsregeling-kleine-onderneming", "btw-eenheid"],
+      "volgkennis": ["stopzetting-btw"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "W.BTW art. 50, 53 §1 1°, 56bis + K.B. nr. 10",
+        "toelichting": "Procedure stabiel sinds 1969 W.BTW. Belangrijke wijzigingen: forfaitaire regeling uitdovend (afschaffing nieuwe inschrijvingen sinds 2028); KO-drempel sinds 1-1-2025 op 25.000 EUR omzet (was 25.000 EUR sinds 2016, eerder 15.000 EUR); OSS sinds 1-7-2021 voor e-commerce."
+      },
+      "voor": [
+        {
+          "tekst": "Elke nieuwe onderneming die btw-belastbare handelingen zal verrichten in België — natuurlijke persoon, vennootschap, vzw met economische activiteit, vereniging. Ook wijziging van bestaande activiteit (uitbreiding naar btw-belastbare tak) triggert een 604B-aanpassingsaangifte.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Loutere particulieren zonder economische activiteit. Verenigingen met uitsluitend vrijgestelde activiteiten (art. 44 W.BTW — onderwijs, gezondheidszorg, sociale dienstverlening) — die hoeven geen btw-nummer aan te vragen, tenzij ze intracommunautaire verwervingen >11.200 EUR doen (art. 50 §1 2°).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 50 §1 2°" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) belastingplichtige in de zin van art. 4 W.BTW (geregelde + zelfstandige economische activiteit, ongeacht winstoogmerk); (2) intentie om belastbare handelingen te verrichten in België; (3) ondernemingsnummer via KBO eerst aangevraagd; (4) 604A ingediend vóór de eerste belastbare handeling, idealiter 1-2 weken op voorhand om het btw-nummer tijdig te ontvangen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 4" },
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Eerste voorgenomen belastbare handeling in België — verkoop van goederen, dienstverlening tegen vergoeding, eerste aankoop met voornemen tot doorverkoop. Bij twijfel over begindatum: 604A indienen op de datum van de eerste investerings- of voorbereidingskost (want al dan recht op aftrek inputs).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk btw-administratie" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Laattijdige 604A leidt tot weigering van aftrek voor de pré-identificatie-periode (geen aftrek op aankopen vóór de aanvangsaangifte, art. 45 §1 W.BTW). Strafrechtelijk: art. 70 W.BTW boete 250-25.000 EUR per niet-tijdige aangifte. Pragmatische oplossing: 604A indienen vanaf het moment dat de eerste investering of huur wordt afgesloten — desnoods met activiteitstart in de toekomst.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 45" },
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 70" }
+            ]
+          }
+        },
+        {
+          "tekst": "Verkeerde regime-keuze kan jaren niet-corrigeerbaar zijn. KO-regime kan niet zomaar verlaten worden tijdens het lopende jaar (overgang naar gewoon regime kan op 1 januari of bij overschrijden drempel). Forfaitaire regeling: nieuwe inschrijvingen sinds 1-1-2028 niet meer mogelijk (uitdovend regime — bestaande mogen blijven tot 31-12-2027).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56bis" },
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56", "context": "Forfaitaire regeling uitdovend" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "stap-1-kbo-inschrijving",
+        "naam": { "primair": "Stap 1 — KBO-inschrijving" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Vóór elke btw-aanvraag: ondernemingsnummer aanvragen bij Kruispuntbank van Ondernemingen (KBO) via ondernemingsloket (Liantis, Acerta, ...) of via de griffie (vennootschap). Kosten: ca. 100 EUR. Het BE-nummer wordt later de basis van het btw-nummer (BE + 10 cijfers).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 16-01-2003", "ref": "art. III.16 WER", "context": "KBO" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-2-604a",
+        "naam": { "primair": "Stap 2 — 604A indienen (aanvangsaangifte)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Aanvangsaangifte 604A indienen elektronisch via MyMinFin (formulier via 'mijn dossier btw') of via een geaccrediteerde dienstverrichter. Verplichte gegevens: identiteit, ondernemingsnummer, aard activiteit (NACE-code), startdatum, vermoedelijke jaaromzet, gewenst btw-regime (gewoon / KO / forfait), gewenste aangiftefrequentie (maand/kwartaal), bankrekening voor terugbetalingen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" },
+                { "type": "kb", "naam": "K.B. nr. 10 van 29-12-1992", "ref": "art. 1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3-btw-nummer",
+        "naam": { "primair": "Stap 3 — Toekenning btw-nummer (binnen 14 dagen)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscus kent meestal binnen 5-14 werkdagen het btw-identificatienummer toe. Vorm: BE + 10 cijfers (zelfde als KBO + voorvoegsel BE). Vanaf dat moment is de belastingplichtige verplicht facturen op te maken met btw, btw-aangiften in te dienen volgens gekozen frequentie, en de boekhouding btw-conform te voeren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 50 §1 1°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-ko-25000",
+        "naam": { "primair": "KO-drempel 25.000 EUR" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vrijstellingsregeling voor kleine ondernemingen (KO, art. 56bis W.BTW): jaaromzet ≤ 25.000 EUR (excl. btw, alleen handelingen in België) → mogelijke vrijstelling. Voordelen: geen btw factureren, geen periodieke aangifte (wel jaarlijkse klantenlisting). Nadelen: geen btw-aftrek op inputs. Drempel-overschrijding tijdens het jaar → automatische overgang naar gewoon regime vanaf het kwartaal volgend op overschrijding.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56bis" },
+                { "type": "kb", "naam": "K.B. nr. 19 van 29-06-2014", "ref": "art. 2-5" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "keuze-frequentie",
+        "naam": { "primair": "Keuze aangiftefrequentie maand vs kwartaal" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Default: kwartaalaangifte (jaaromzet ≤ 2.500.000 EUR, vanaf 2025). Indien hoger of bepaalde activiteiten (telecom, energie, accijnsgoederen, AB-handelingen): maandaangifte verplicht. Optioneel: maandaangifte op verzoek voor wie systematisch btw-tegoed heeft (versnelde terugbetaling, gunstig bij investeringen). Voor kwartaalaangevers: voorschotten in vak 91 in december (1/3 vorige aangifte) — anti-cashflow-voordeel-correctie.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 + art. 53octies §1" },
+                { "type": "kb", "naam": "K.B. nr. 1", "ref": "art. 18"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-startup-saas",
+        "titel": "Startup SaaS — BV-oprichting + btw-opstart",
+        "context": "Oprichter Tom richt op 1 september een BV op (SaaS-product voor B2B-klanten in Belgium + EU). Hij investeert direct 50.000 EUR in software-ontwikkeling (btw 10.500 EUR) en huurt een kantoor (huur excl. btw 1.500 EUR/maand). Verwachte jaaromzet jaar 1: 80.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "1. Notaris richt BV op (10 dagen voor 1 sept) — KBO-nummer toegekend.",
+              "2. Boekhouder dient 604A in op 25 augustus, met startdatum 1 september. Keuze: gewoon regime (niet KO, want B2B), kwartaalaangifte (omzet < 2,5 mio), bankrekening voor terugbetalingen.",
+              "3. 1 september: btw-nummer toegekend (BE 0123.456.789).",
+              "4. Eerste investeringsfacturen (software-ontwikkeling): 10.500 EUR input-btw aftrekbaar — eerste kwartaalaangifte (oktober) genereert btw-tegoed.",
+              "5. Vraag versnelde terugbetaling (vak 72 = ja). Cashflow-voordeel: 10.500 EUR teruggekregen ~6 weken na kwartaalaangifte i.p.v. wachten tot saldo positief wordt."
+            ],
+            "resultaat": "Keuze gewoon regime is correct want B2B-klanten kunnen btw aftrekken — geen prijs-nadeel voor klant. KO had bouw-btw 10.500 EUR definitief verloren laten gaan. Maandaangifte zou nog sneller terugbetalingen geven maar meer admin."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-yoga-coach-ko",
+        "titel": "Yoga-coach particulier — KO-regime",
+        "context": "Sarah start als zelfstandige yoga-coach, B2C-cliënteel (particulieren). Verwachte jaaromzet 18.000 EUR. Inkopen: yoga-mats, boeken, marketing — ca. 2.000 EUR/jaar (btw 420 EUR).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "1. KBO-inschrijving + ondernemingsnummer.",
+              "2. 604A indienen — keuze KO-regime (omzet ≤ 25.000 EUR + B2C).",
+              "3. Btw-nummer toegekend maar geen periodieke aangiften.",
+              "4. Sarah factureert zonder btw aan klanten (verplichte vermelding 'Vrijgesteld van btw — bijzondere regeling kleine ondernemingen, art. 56bis W.BTW').",
+              "5. Op 31 maart elk jaar: jaarlijkse klantenlisting indienen (jaaromzet boven 250 EUR per btw-plichtige klant)."
+            ],
+            "resultaat": "KO is voordelig: 420 EUR input-btw is verloren maar Sarah factureert ook 0 % btw aan klanten — bij B2C particulieren is dat prijsvoordeel groter dan het verlies. Bij overschrijden 25.000 EUR (bv. 28.000 EUR jaaromzet) → overgang naar gewoon regime vanaf volgend kwartaal, met vereiste maandaangifte indien grensbedragen overschreden."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "604A indienen na de eerste aankoop",
+        "verkeerde_assumptie": "Studenten denken dat de 604A pas hoeft te worden ingediend wanneer de eerste verkoop plaatsvindt.",
+        "kernpunt": "Art. 53 §1 1° W.BTW zegt 'voor de aanvang van de activiteit'. Inputs (huur, investering, software) die vóór de identificatie zijn aangekocht zijn niet-aftrekbaar (de fiscus weigert pre-identificatie-aftrek). Vuistregel: 604A indienen op het moment dat eerste contractuele verbintenissen worden aangegaan (huurovereenkomst, oprichting BV), zelfs als operationele start later komt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 45 §1" }
+          ]
+        }
+      },
+      {
+        "titel": "KO blindelings kiezen omdat omzet laag is",
+        "verkeerde_assumptie": "Studenten + starters kiezen KO omdat omzet < 25.000 EUR.",
+        "kernpunt": "KO is voordelig voor B2C met lage input-btw. Voor B2B (klant trekt btw af) is gewoon regime altijd voordeliger want: (a) klanten zijn niet gehinderd door de btw (aftrekken); (b) de starter recupereert de eigen input-btw. KO 'kost' dan netto de niet-aftrekbare input. Beslisregel: B2B = gewoon; B2C met lage marge en lage input = KO.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56bis" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk regime-keuze" }
+          ]
+        }
+      },
+      {
+        "titel": "Forfaitaire regeling kiezen voor nieuwe inschrijvingen",
+        "verkeerde_assumptie": "Studenten denken dat forfait nog beschikbaar is voor bakkers, slagers, kappers, ...",
+        "kernpunt": "De forfaitaire regeling (art. 56 W.BTW) is sinds 1-1-2022 niet meer toegankelijk voor nieuwe inschrijvingen; bestaande forfaitairen mogen het regime hanteren tot 31-12-2027 — daarna volledig afgeschaft. Bij elke nieuwe opstart: enkel KO of gewoon regime.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56", "context": "Uitdovend regime, W. 27-12-2021" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Maandaangifte vs kwartaalaangifte (binnen omzet ≤ 2,5 mio)",
+        "opties": [
+          { "keuze": "Kwartaalaangifte (default)", "voordeel": "Minder admin (4x/jaar), btw-schuld 1-3 maand later betaald", "nadeel": "Voorschot december (1/3 vorige aangifte); langere wachttijd op terugbetaling" },
+          { "keuze": "Maandaangifte (op verzoek)", "voordeel": "Snellere terugbetaling btw-tegoed (gunstig bij investeringen)", "nadeel": "12x/jaar admin; geen voorschotten" }
+        ],
+        "vuistregel": "Maandaangifte vragen wanneer de onderneming structureel btw-tegoed heeft (export, B2B met grote investeringen, intracommunautaire leveringen). Kwartaal voor klassieke B2C of stabiele B2B met lage input-btw.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53octies" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk frequentie-keuze" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "btw"
+      "id": "starter-begeleiding",
+      "naam": { "primair": "Begeleiding van starters" },
+      "intro": "De accountant die een nieuwe ondernemer begeleidt vanaf oprichting tot eerste aangifte.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "checklist-opstart",
+              "naam": { "primair": "Btw-opstart-checklist 6 weken vóór startdatum" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vier weken vóór de geplande activiteitstart: regime-analyse (B2B vs B2C, omzet-projectie, input-volume); twee weken vóór start: 604A indienen + frequentie kiezen + bankrekening doorgeven; week 1 startdatum: btw-nummer ontvangen, eerste factuur opmaken volgens btw-vormvereisten (art. 5 K.B. nr. 1). Risico: btw-vermelding op factuur zonder geldig nummer = ongeldige factuur, klant kan niet aftrekken.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1" },
+                      { "type": "kb", "naam": "K.B. nr. 1 van 29-12-1992", "ref": "art. 5" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard begeleidingspraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "regime-keuze-advies",
+              "naam": { "primair": "Regime-keuze-advies vóór 604A" },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Beslis-as: (1) klant-profiel B2B → gewoon regime always (klant trekt btw af, geen prijs-nadeel); (2) B2C + omzet ≤ 25.000 EUR → KO als input laag (≤ 2.000 EUR), gewoon regime als input hoog; (3) B2C + omzet > 25.000 EUR → gewoon regime verplicht. Documenteer keuze in cliëntdossier voor latere audit-traceability.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 56bis" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk regime-keuze" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "btw" },
+    { "type": "vereist", "target": "btw-belastingplichtige", "toelichting": "Aanvangsaangifte 604A onderstelt belastingplichtig-statuut volgens art. 4." },
+    { "type": "triggert", "target": "btw-aftrek", "toelichting": "Toekenning btw-nummer activeert recht op aftrek input-btw vanaf identificatiedatum." },
+    { "type": "vergelijkbaar_met", "target": "stopzetting-btw",
+      "gelijkenissen": [
+        "Beide procedures handelen over identificatie/de-identificatie van btw-statuut",
+        "Beide vereisen een specifieke aangifte (604A vs 604C) binnen een termijn",
+        "Beide bevatten herzieningen van btw-positie"
+      ],
+      "verschillen": [
+        "604A vóór aanvang activiteit; 604C binnen één maand na stopzetting",
+        "Opstart genereert aftrekrechten; stopzetting kan herzieningsschulden genereren",
+        "Opstart: regime-keuze; stopzetting: eindafrekening + voorraadbehandeling"
+      ],
+      "verwarring_risico": "Studenten verwarren de twee formulieren — 604A start, 604B wijziging, 604C einde.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
