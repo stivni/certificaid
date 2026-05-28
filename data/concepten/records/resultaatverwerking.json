@@ -4,13 +4,14 @@
     "primair": "Resultaatverwerking",
     "synoniemen": [
       "winstbestemming",
-      "resultaatbestemming"
+      "resultaatbestemming",
+      "klasse 79"
     ]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis"
     ],
@@ -44,9 +45,15 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/resultaatverwerking.json",
+      "primary_bronnen": [
+        "WVV art 7:97, 7:212 (winstverdeling)",
+        "KB 29-04-2019 WVV art 3:3 (balans na toewijzing)",
+        "MAR klasse 79 (KB 21-10-2018)"
+      ]
     },
     "changelog": [
       {
@@ -54,26 +61,156 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — bestemmingsschema + klasse 79 + dividend-mechanisme"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Resultaatverwerking** is de procedure waarbij het **te bestemmen resultaat** van het boekjaar (winst of verlies) wordt **toegewezen** aan verschillende bestemmingen: opbouw van wettelijke reserve, statutaire reserves, beschikbare reserves, overgedragen resultaat naar het volgende boekjaar, en uitkering aan aandeelhouders (dividend). Dit gebeurt formeel door de **algemene vergadering** op voorstel van het bestuursorgaan, ten laatste **zes maanden** na de afsluitdatum van het boekjaar. Het resulterende **bestemmingsschema** wordt boekhoudkundig vastgelegd via **MAR-klasse 79 — Resultaatverwerking** en bepaalt mee de presentatie van de **balans na toewijzing** (art. 3:3 KB).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "art. 3:3",
+              "context": "Balans opgesteld na toewijzing — rekening houdend met bestemming"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 3:1",
+              "context": "Jaarrekening voor te leggen aan AV binnen 6 maanden"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "**Bestemmingsschema** (verplicht onderdeel van de toelichting bij de jaarrekening):\n\n```\nTe bestemmen resultaat (= winst/verlies van het boekjaar + overgedragen resultaat vorige periode)\n├── Onttrekking aan eigen vermogen (bv. terugneming kapitaal-meerwaarden) (793)\n├── Toevoeging aan eigen vermogen:\n│   ├── 791 Toevoeging wettelijke reserve (5% winst tot 10% kapitaal)\n│   ├── 792 Toevoeging onbeschikbare reserves (statutair of decisie AV)\n│   └── 793 Toevoeging beschikbare reserves\n├── Over te dragen resultaat naar volgend boekjaar (794)\n├── Tussenkomst vennoten in verlies (795)\n└── Vergoeding op kapitaal — dividend aan aandeelhouders (796)\n```\n\n**Verplichte volgorde**:\n1. **Wettelijke reserve** — 5 % van de nettowinst (na verliezen vorige jaren) moet jaarlijks worden afgehouden zolang de wettelijke reserve minder dan **10 % van het kapitaal** bedraagt (WVV art. 7:211 voor NV, art. 5:153 voor BV);\n2. **Statutaire reserves** — indien voorzien in de statuten;\n3. Overige bestemmingen (dividend, beschikbare reserves, overgedragen winst) — vrij te beslissen door de AV mits naleving van uitkeringstests.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — MAR",
+              "ref": "Klasse 79",
+              "context": "Sub-rubricering resultaatverwerking"
+            },
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 7:211",
+              "context": "Wettelijke reserve NV: 5%/10%"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De resultaatverwerking is het scharniermoment tussen **economisch resultaat** (winst van het boekjaar) en **juridische realisatie** (uitkering vs. interne aanhouding). De wettelijke reserve dient de **kapitaalbescherming**: ze creëert een groei-buffer die niet uitkeerbaar is — schuldeisers hebben hierdoor een grotere zekerheidsmarge. De statutaire reserves laten aandeelhouders toe contractueel afspraken te maken over winstinhouding (bv. voor groei-investeringen). Het dividend tenslotte realiseert het **vergoeding-voor-risicokapitaal**-principe. Onder het WVV is dit alles onderworpen aan de **dubbele uitkeringstest** voor BV en CV (nettoactieftest + liquiditeitstest) om kapitaalbescherming te garanderen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 5:142 (BV), 7:212 (NV)",
+              "context": "Uitkeringstests + winstverdeling"
             }
           ]
         }
       }
-    }
+    },
+    "bouwstenen": [
+      {
+        "id": "boeking-resultaat-naar-bestemming",
+        "naam": {
+          "primair": "Boeking van te bestemmen winst"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**Scenario**: Een BV met kapitaal 100.000 EUR sluit het boekjaar af met een winst van **50.000 EUR**. De wettelijke reserve bedraagt momenteel 8.000 EUR. De AV besluit:\n- 5 % naar wettelijke reserve (2.500 EUR — totaal wordt 10.500 EUR < 10.000 EUR... eigenlijk volledig 2.000 EUR want max bereikt bij 10.000 EUR, dan stoppen)\n- 10.000 EUR dividend\n- saldo naar overgedragen winst\n\n**Stap 1 — afsluit resultaat** (boekjaar einde):\nDe resultaten 60-66/70-76 saldo gaat naar **rekening 690 Te bestemmen winst** (debet voor verlies, credit voor winst).\n\n**Stap 2 — bestemming via klasse 79**:\n```\n691 Te bestemmen winst (debet, beschikbaar) D 50.000\n   791 Toevoeging wettelijke reserve         C 2.000\n   796 Dividenden                            C 10.000\n   794 Over te dragen winst                  C 38.000\n```\n\n**Stap 3 — uitbetaling dividend** (na AV-goedkeuring):\n```\n796 Dividenden (al gedebiteerd)              D 10.000\n   471 Schuld dividend                        C 10.000\n```\nBij effectieve betaling: rekening 471 D | 55 Bank C.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 21-10-2018 — MAR",
+                  "ref": "Klasse 79 + Klasse 47",
+                  "context": "Bestemmingsboeking + dividend-schuld"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wettelijke-reserve-mechanisme",
+        "naam": {
+          "primair": "Wettelijke reserve — 5%/10%-regel"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor de NV (WVV art. 7:211) en BV (art. 5:153): **5 %** van de jaarlijkse nettowinst moet worden toegevoegd aan de wettelijke reserve, totdat deze reserve **10 %** van het kapitaal/inbreng bereikt. Daarna kan toevoeging stoppen. Bij vermindering van het kapitaal door verliezen kan de wettelijke reserve eveneens worden aangetast — en moet weer worden opgebouwd.\n\nFunctioneel: de wettelijke reserve is een **niet-uitkeerbare buffer** boven het kapitaal die alleen kan worden aangewend voor verlies-compensatie of kapitaalverhoging.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "wettekst",
+                  "naam": "WVV",
+                  "ref": "art. 7:211 (NV) + art. 5:153 (BV)",
+                  "context": "Wettelijke reserve — opbouwregel"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Wettelijke reserve overslaan bij dividend-voorstel",
+        "verkeerde_assumptie": "Een vennootschap met 10 % kapitaal in wettelijke reserve hoeft nooit meer iets toe te voegen, ook niet na een tussentijds verlies.",
+        "kernpunt": "Wanneer de wettelijke reserve **onder de 10 %**-drempel zakt (bv. door aanwending tegen verlies), moet ze opnieuw worden aangevuld via de 5%-regel op latere winsten. De drempel is **dynamisch**, niet een eenmalige verworvenheid.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 7:211 + 5:153",
+              "context": "Dynamische opbouwregel"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Dividend uitkeren zonder uitkeringstests (BV)",
+        "verkeerde_assumptie": "De BV mag eenmaal de wettelijke reserve gevuld is vrij dividenden uitkeren.",
+        "kernpunt": "Voor BV en CV is sinds het WVV de **dubbele uitkeringstest** verplicht (art. 5:142-143): (1) **nettoactieftest** — eigen vermogen na uitkering ≥ 0; (2) **liquiditeitstest** — de vennootschap kan haar opeisbare schulden van de komende 12 maanden afbetalen. Zonder positief uitslag van beide tests is uitkering een **onwettige onttrekking** met aansprakelijkheid van het bestuursorgaan tot gevolg.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "WVV",
+              "ref": "art. 5:142, 5:143",
+              "context": "BV — nettoactieftest + liquiditeitstest"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
