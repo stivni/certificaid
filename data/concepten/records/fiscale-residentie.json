@@ -378,21 +378,21 @@
                 { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 4 lid 2 a-d" }
               ]
             }
-          },
-          "weergaven": [
-            {
-              "type": "beslisboom",
-              "stappen": [
-                "Stap 1: dubbele residentie? Ja → ga verder.",
-                "Stap 2: permanente woning in slechts één staat? Ja → die staat is residentie. Beide staten? → stap 3.",
-                "Stap 3: centrum vitale belangen onmiskenbaar in één staat? Ja → die staat. Onduidelijk? → stap 4.",
-                "Stap 4: gewone verblijfplaats in één staat? Ja → die staat. Beide of geen? → stap 5.",
-                "Stap 5: nationaliteit van één van beide staten? Ja → die staat. Beide of geen? → stap 6.",
-                "Stap 6: bevoegde autoriteiten lossen op in onderling overleg (Mutual Agreement Procedure — MAP)."
-              ]
-            }
-          ]
-        }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "beslisboom",
+            "stappen": [
+              "Stap 1: dubbele residentie? Ja → ga verder.",
+              "Stap 2: permanente woning in slechts één staat? Ja → die staat is residentie. Beide staten? → stap 3.",
+              "Stap 3: centrum vitale belangen onmiskenbaar in één staat? Ja → die staat. Onduidelijk? → stap 4.",
+              "Stap 4: gewone verblijfplaats in één staat? Ja → die staat. Beide of geen? → stap 5.",
+              "Stap 5: nationaliteit van één van beide staten? Ja → die staat. Beide of geen? → stap 6.",
+              "Stap 6: bevoegde autoriteiten lossen op in onderling overleg (Mutual Agreement Procedure — MAP)."
+            ]
+          }
+        ]
       },
       {
         "id": "tie-breaker-vennootschap",
