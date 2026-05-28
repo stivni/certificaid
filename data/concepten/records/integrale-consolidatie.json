@@ -2,23 +2,14 @@
   "id": "integrale-consolidatie",
   "naam": {
     "primair": "Integrale consolidatie",
-    "synoniemen": [
-      "full consolidation"
-    ]
+    "synoniemen": ["volledige consolidatie", "full consolidation"]
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling",
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "1.4.I.D",
-      "1.4.I.E",
-      "1.4.II.C"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling", "gebeurtenis"],
+    "ankers": ["1.4.I.D", "1.4.I.E", "1.4.II.C"],
     "scope": {
       "in": [
         "100% activa + passiva + resultaten opname",
@@ -27,54 +18,242 @@
         "Intercompany-eliminaties verplicht"
       ],
       "out": [
-        {
-          "topic": "Consolidatiemethoden Σ-keuze-kader",
-          "richting": "moet-verwijzen",
-          "ref": "consolidatiemethoden"
-        },
-        {
-          "topic": "Minderheidsbelangen (alleen relevant bij integraal)",
-          "richting": "mag-verwijzen",
-          "ref": "minderheidsbelangen"
-        }
+        {"topic": "Consolidatiemethoden Σ-keuze-kader", "richting": "moet-verwijzen", "ref": "consolidatiemethoden"},
+        {"topic": "Minderheidsbelangen (alleen relevant bij integraal)", "richting": "mag-verwijzen", "ref": "minderheidsbelangen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-consolidatie-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/integrale-consolidatie.json",
+      "primary_bronnen": [
+        "KB WVV art. 3:131",
+        "KB WVV art. 3:132",
+        "KB WVV art. 3:138",
+        "CBN-advies 2022/09",
+        "CBN-advies 3/3",
+        "IFRS 10",
+        "ISA 600"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-consolidatie-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle: KB WVV art. 3:131-3:138 + CBN 2022/09 + IFRS 10 + ISA 600. Bundle-flow extract."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Integrale consolidatie (volledige consolidatie, art. 3:131 KB WVV) is de consolidatiemethode waarbij de moedervennootschap 100 % van de activa, passiva, kosten en opbrengsten van de dochtervennootschap regel-per-regel opneemt in de geconsolideerde jaarrekening — onafhankelijk van haar effectieve deelnemingspercentage. Het aandeel dat niet aan de moeder toebehoort (minderheidsbelang of belang van derden) wordt afzonderlijk gepresenteerd binnen het eigen vermogen én binnen het resultaat. De methode wordt toegepast wanneer de moeder de exclusieve controle (art. 1:14 §1 WVV) over de dochter uitoefent.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:131"},
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 1:14"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2022/09"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het economisch idee: de geconsolideerde jaarrekening behandelt de groep als één economische eenheid. Omdat de moeder de dochter volledig controleert, neemt zij alle activa en passiva van de dochter op alsof het haar eigen activa en passiva waren — niet pro rata, maar volledig (100 %). De minderheidsaandeelhouders krijgen wel een afzonderlijke vermelding (rubriek IX 'Belangen van derden' in het geconsolideerde EV) zodat de lezer ziet welk deel van de groepsvermogensgroei en groepswinst toekomt aan partijen buiten de moeder. Intercompany-transacties (verkopen tussen groepsentiteiten, intercompany-vorderingen en -schulden, intercompany-winsten in voorraden of vaste activa) worden geëlimineerd — anders zou de groepsbalans transacties met zichzelf toonen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:131"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2022/09"},
+            {"type": "norm", "naam": "ISA 600", "ref": "Bijlage 2"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese groepsvermogen-eenheid-principe"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis: bij exclusieve controle beschikt de moeder feitelijk over alle middelen van de dochter — voor de gebruikers van de jaarrekening (schuldeisers, investeerders) is het relevant om dat volledig zicht te krijgen, niet alleen het aandeel dat de moeder bezit. Het 'getrouw beeld' van de groep vereist dan ook integrale opname. De afzonderlijke aanduiding van minderheidsbelangen verzoent dit met de realiteit dat een deel van het vermogen niet aan de moeder-aandeelhouders toekomt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:131"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer consolidatie — getrouw-beeld-vereiste"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["consolidatiekring", "controle-vennootschap"],
+      "kader": "consolidatiemethoden",
+      "naast_relevant": ["vermogensmutatiemethode", "evenredige-consolidatie"],
+      "volgkennis": ["minderheidsbelangen", "consolidatieverschil", "eliminatie-intercompany"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB 29-04-2019 ter uitvoering WVV, Boek 3, Titel 2, Hoofdstuk II (art. 3:117 e.v.)",
+        "toelichting": "Belgische consolidatie-regeling sinds het KB van 30 januari 2001, hercodificeerd in het KB WVV 29-04-2019. Voor beursgenoteerde groepen: IFRS 10 (verplicht volgens Verordening 1606/2002)."
+      },
+      "voor": [
+        {"tekst": "Toepasselijk wanneer de moedervennootschap een exclusieve controle (art. 1:14 §1 WVV) uitoefent op de dochter. Dat is onweerlegbaar vermoed bij meerderheid van stemrechten, statutair benoemingsrecht, of stemmenmeerderheid op de laatste twee algemene vergaderingen (de-facto-controle, art. 1:14 §3 WVV).",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 1:14"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:131"}]}}
+      ],
+      "niet_voor": [
+        {"tekst": "Niet toepasselijk bij gezamenlijke controle (twee partners delen controle) — dan evenredige consolidatie of vermogensmutatiemethode. Niet toepasselijk bij notabele invloed zonder controle (associates, typisch 20-50 % stemrechten) — dan vermogensmutatiemethode (art. 3:139 KB WVV).",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:139"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:140"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "regel-100-procent-opname",
+        "naam": {"primair": "100 %-opname regel-per-regel"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De activa, passiva, kosten en opbrengsten van de dochter worden volledig (100 %) opgenomen — ongeacht of de moeder 51 %, 80 % of 100 % bezit. De deelneming in de moederbalans (rubriek 28) wordt geëlimineerd tegen het aandeel van de moeder in het eigen vermogen van de dochter op de verkrijgingsdatum; het verschil wordt geboekt als consolidatieverschil (rubriek 9920 actief of 9910 passief).",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:131"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:138"}]}
+          }
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Eliminatie deelneming + ontstaan consolidatieverschil (moeder M, dochter D, 80% belang)",
+            "context": "M koopt 80% van D voor 1.500. EV van D op verkrijgingsdatum = 1.200 (kapitaal 800 + reserves 400). Aandeel M in EV = 80% × 1.200 = 960. Consolidatieverschil = 1.500 - 960 = 540 (positief — goodwill).",
+            "rijen": [
+              {"rekening": "28 — Deelneming D (in moederbalans)", "debet": null, "credit": 1500, "omschrijving": "Eliminatie deelneming"},
+              {"rekening": "100 — Kapitaal D", "debet": 800, "credit": null, "omschrijving": "Opname EV-componenten D"},
+              {"rekening": "13X — Reserves D", "debet": 400, "credit": null, "omschrijving": ""},
+              {"rekening": "9920 — Positief consolidatieverschil", "debet": 540, "credit": null, "omschrijving": "Goodwill = excedent prijs t.o.v. EV-aandeel"},
+              {"rekening": "IX — Belangen van derden (20% × 1.200)", "debet": null, "credit": 240, "omschrijving": "Minderheidsbelang in EV op verkrijgingsdatum"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "regel-intercompany-eliminatie",
+        "naam": {"primair": "Eliminatie intercompany-transacties"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vorderingen en schulden tussen groepsentiteiten worden volledig geëlimineerd (kruislings wegstrepen): een vordering van M op D wordt weggestreept tegen de schuld van D aan M. Intercompany-omzet (verkopen tussen groepsentiteiten) wordt eveneens volledig geëlimineerd. Niet-gerealiseerde winsten in voorraden of vaste activa (intercompany-winst op nog niet aan derden doorverkochte goederen) worden geëlimineerd uit voorraden/activa én uit het resultaat van de verkopende entiteit. Gerealiseerde winsten (door derden doorverkochte goederen) blijven staan.",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:135"}, {"type": "norm", "naam": "ISA 600", "ref": "par. A23 + Bijlage 2"}]}
+          }
+        }
+      },
+      {
+        "id": "regel-minderheidsbelang-detectie",
+        "naam": {"primair": "Detectie en presentatie van minderheidsbelangen"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de moeder minder dan 100 % bezit, ontstaat een minderheidsbelang. Dat belang bestaat uit (1) het aandeel van derden in het EV van de dochter — gepresenteerd in rubriek IX 'Belangen van derden' van het geconsolideerde EV, apart van het groeps-EV (kapitaal, reserves moeder); en (2) het aandeel van derden in het resultaat van de dochter — gepresenteerd als afzonderlijke regel onder het geconsolideerde resultaat ('aandeel derden in het resultaat'). Zie verder het record minderheidsbelangen voor diepgang.",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:132"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:145"}]}
+          }
+        }
+      },
+      {
+        "id": "stap-uniforme-waarderingsregels",
+        "naam": {"primair": "Toepassing uniforme waarderingsregels"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Vóór de integrale opname moeten de waarderingsregels van de dochter aangepast worden aan de groepswaarderingsregels (art. 3:117 KB WVV). Verschillen in afschrijvingsmethoden, voorraadwaardering, voorzieningen-beleid, ... worden weggewerkt door pre-consolidatie-aanpassingen op de dochterbalans. Zonder uniformisering is de groepsbalans niet vergelijkbaar en geeft geen getrouw beeld.",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}]}
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-cbn-2022-09-80-procent",
+        "titel": "Integrale consolidatie 80%-dochter (CBN 2022/09 — voorbeeld 10)",
+        "context": "Vennootschap X bezit 80 % van X1, met aanschaffingswaarde 200. EV X1 = 250 + 200 = 450 (kapitaal + reserves). Aandeel X in EV X1 = 80 % × 450 = 360. Consolidatieverschil = 200 - 360 = -160 (negatief — passief).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies", "ref": "2022/09 — voorbeeld 10"}]},
+        "weergaven": [
+          {
+            "type": "balans_snapshot",
+            "titel": "Geconsolideerde balans X+X1 na integrale consolidatie",
+            "tekst": "Immateriële vaste activa: 400 — Materiële vaste activa: 500 — Geldbeleggingen: 90 — Totaal activa: 990. Kapitaal: 100 — Reserves: 300 — Consolidatieverschil (passief): 160 — Belangen van derden (20% × 450 = 90): 90 — Schulden: 340 — Totaal passiva: 990."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Integraal opnemen ≠ 100% bezitten",
+        "verkeerde_assumptie": "Studenten denken dat integrale consolidatie 100 % deelneming vereist.",
+        "kernpunt": "Integraal opnemen betekent 100 % van activa/passiva opnemen — niet 100 % bezitten. Een 51%-dochter wordt ook integraal geconsolideerd; het verschil komt tot uiting in de minderheidsbelangen-rubriek (49 % belang van derden), niet in een gewijzigde opname-graad.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:131"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Intercompany-vorderingen vergeten te elimineren",
+        "verkeerde_assumptie": "Bij optellen van balans M + D blijft de vordering M op D + de schuld D aan M staan.",
+        "kernpunt": "Dat zou de groepsbalans 'opblazen' met een transactie van de groep met zichzelf. Verplichte eliminatie: vordering en schuld worden weggestreept (resultaat-neutraal). Idem voor intercompany-omzet — die wordt 100 % geëlimineerd uit omzet en aankopen.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:135"}]}
+      },
+      {
+        "titel": "De-facto-controle missen",
+        "verkeerde_assumptie": "Geen meerderheid stemrechten → geen integrale consolidatie.",
+        "kernpunt": "Art. 1:14 §3 WVV: ook zonder formele meerderheid kan controle bestaan (bv. dispersed shareholder base waar de moeder de facto stemmenmeerderheid haalt op de laatste twee AV's). Dan toch integrale consolidatie.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 1:14 §3"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "consolidatiemethoden"
+      "id": "groepsmoeder",
+      "naam": {"primair": "Groepsmoedervennootschap (consolidatieverantwoordelijke)"},
+      "intro": "De accountant of consolidatieverantwoordelijke die de geconsolideerde jaarrekening van de moeder opstelt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "stap-mapping-rekeningenstelsel",
+              "naam": {"primair": "Mapping individueel naar groeps-rekeningenstelsel"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Eerst alle dochter-balansen en -resultatenrekeningen converteren naar het groeps-rekeningenstelsel. Vervolgens uniforme waarderingsregels toepassen (art. 3:117 KB WVV). Daarna integraal optellen, deelneming elimineren tegen EV-aandeel, consolidatieverschil boeken, intercompany-eliminaties uitvoeren, minderheidsbelang berekenen.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "kb", "naam": "KB WVV", "ref": "art. 3:131"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard consolidatie-werkproces"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "isa-600-groepscontrole",
+              "naam": {"primair": "ISA 600 — groepscontrole-bewijs"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De groepsauditor verkrijgt inzicht in het consolidatieproces (handmatige + geautomatiseerde stappen), de uniforme waarderingsregels en de matching/eliminatie van intercompany-transacties (ISA 600 Bijlage 2). Hij beoordeelt de werkzaamheden van auditors van significante groepsonderdelen en hercontroleert kritieke consolidatie-aanpassingen.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 600", "ref": "par. A23 + Bijlage 2"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "consolidatiemethoden"},
+    {"type": "vereist", "target": "controle-vennootschap", "toelichting": "Vereist exclusieve controle (art. 1:14 §1 WVV) — onweerlegbaar bij meerderheid stemrechten of statutair benoemingsrecht; weerlegbaar bij de-facto-controle (art. 1:14 §3)."},
+    {"type": "triggert", "target": "minderheidsbelangen", "toelichting": "Bij <100 % belang ontstaat een minderheidsbelang dat afzonderlijk in EV en resultaat gepresenteerd wordt."},
+    {"type": "triggert", "target": "consolidatieverschil", "toelichting": "Verschil tussen aanschaffingsprijs deelneming en aandeel in EV op verkrijgingsdatum → goodwill (positief) of badwill (negatief)."},
+    {"type": "vergelijkbaar_met", "target": "vermogensmutatiemethode",
+      "gelijkenissen": ["Beide consolideren een deelneming in de geconsolideerde jaarrekening", "Beide elimineren de deelneming uit de moederbalans"],
+      "verschillen": ["Integraal: 100 % van activa/passiva regel-per-regel + minderheidsbelang afzonderlijk", "Vermogensmutatie: één balanslijn 'deelneming geconsolideerd via VMM', geen minderheidsbelang", "Integraal bij exclusieve controle; vermogensmutatie bij notabele invloed (geen controle)"],
+      "verwarring_risico": "Studenten denken dat 'consolidatie' altijd integraal is — terwijl associates (notabele invloed zonder controle) verplicht vermogensmutatie krijgen (art. 3:139 KB WVV).",
+      "render_hint": "als_keuze"
+    },
+    {"type": "vergelijkbaar_met", "target": "evenredige-consolidatie",
+      "gelijkenissen": ["Beide nemen activa/passiva regel-per-regel op (geen één-regel-presentatie)"],
+      "verschillen": ["Integraal: 100 % opname + minderheidsbelang voor derden", "Evenredig: pro rata (aandeel in JV-vermogen) — typisch 50 % bij 50/50-JV", "Integraal bij exclusieve controle; evenredig bij gezamenlijke controle (joint operation onder BE-GAAP)"],
+      "render_hint": "als_keuze"
     }
   ]
 }
