@@ -4,16 +4,15 @@
     "primair": "Dubbele boekhouding",
     "synoniemen": [
       "double-entry bookkeeping",
-      "dagboek-grootboek-systematiek"
+      "dagboek-grootboek-systematiek",
+      "volledige boekhouding"
     ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
     "ankers": [
       "1.1.I.A",
       "1.1.taak.1",
@@ -21,9 +20,23 @@
       "1.2.III.D"
     ],
     "provenance": {
-      "model": "skeleton-generator",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/dubbele-boekhouding.json",
+      "primary_bronnen": [
+        "WER Boek III art. III.84-III.89",
+        "KB 21-10-2018 Bijlage 1 (MAR)",
+        "CBN-advies 174/1",
+        "CBN-advies 2010/20",
+        "CBN-advies 2017/07",
+        "CBN-advies 2019/10",
+        "CBN-advies 2014/5",
+        "MAR VZW (Bijlage MAR vzw)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,6 +45,13 @@
         "model": "skeleton-generator",
         "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T07:15:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WER + KB 21-10-2018 MAR + CBN-adviezen 174/1, 2010/20, 2017/07, 2019/10, 2014/5)."
       }
     ],
     "scope": {
@@ -43,58 +63,466 @@
         "Onderscheid memorierekeningen (klasse 0) vs balansrekeningen (klasse 1-5) vs resultatenrekeningen (klasse 6-7)"
       ],
       "out": [
-        {
-          "topic": "Vereenvoudigde boekhouding (eenpartig)",
-          "richting": "moet-verwijzen",
-          "ref": "boekhoudplicht"
-        },
-        {
-          "topic": "Analytische boekhouding (kostprijs + budgetbeheer)",
-          "richting": "moet-verwijzen",
-          "ref": "analytische-boekhouding"
-        },
-        {
-          "topic": "Concrete waarderingsregels per balanspost",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "Inventarisatie-procedure (eindejaarscyclus)",
-          "richting": "moet-verwijzen",
-          "ref": "eindejaarsverrichtingen"
-        }
+        {"topic": "Vereenvoudigde boekhouding (eenpartig)", "richting": "moet-verwijzen", "ref": "boekhoudplicht"},
+        {"topic": "Analytische boekhouding (kostprijs + budgetbeheer)", "richting": "moet-verwijzen", "ref": "analytische-boekhouding"},
+        {"topic": "Concrete waarderingsregels per balanspost", "richting": "moet-verwijzen", "ref": "jaarrekening"},
+        {"topic": "Inventarisatie-procedure (eindejaarscyclus)", "richting": "moet-verwijzen", "ref": "eindejaarsverrichtingen"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "tekst": "De dubbele boekhouding (of 'volledige boekhouding') is het registratiestelsel waarin elke economische verrichting van een onderneming gelijktijdig wordt geboekt op minstens twee rekeningen: één debet en één credit, met gelijke totalen. De boekingen verlopen langs een vast traject: brondocument → dagboek (chronologisch journaal) → grootboek (per-rekening totalisatie) → proefbalans → balans + resultatenrekening + toelichting. Het stelsel is wettelijk verplicht voor alle vennootschappen en grotere vzw's (boven de drempels van CBN 2019/12) en gebruikt het Minimum Algemeen Rekeningenstelsel (MAR) als gestandaardiseerd rekeningenkader.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "skeleton-generator",
-              "datum": "2026-05-27"
-            }
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.84", "context": "Elke boekhouding wordt door middel van een stelsel van boeken en rekeningen gevoerd"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Beginselen van een regelmatige boekhouding — dagboek + getrouwheid"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2019/10", "context": "Dubbele boekhouding of vereenvoudigde boekhouding (optie) in functie van omzetcijfer"},
+            {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 (MAR)"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De dubbele boekhouding maakt 'self-checking' mogelijk: omdat elke boeking aan beide kanten gelijk moet zijn, kan een fout altijd worden opgespoord via de proefbalans (som debet = som credit). Daarnaast verschaft het systeem twee perspectieven op dezelfde verrichting: een 'wat-is-er-gebeurd'-zijde (klasse 6 kost / klasse 7 opbrengst — resultatenrekening) en een 'wat-heeft-dit-veranderd-aan-vermogen'-zijde (klasse 1-5 — balans). Dit dubbel perspectief is wat een 'volledige' jaarrekening mogelijk maakt: een resultaat én een balans tegelijk uit dezelfde primaire boekingen. Het MAR-rekeningenstelsel verdeelt rekeningen over 10 klassen (0-9), waarbij klasse 0 niet-balans-rechten/verplichtingen omvat, klassen 1-5 de balans (passief: 1-eigen vermogen + voorzieningen + LT-schulden; 4-KT-schulden+vorderingen-passief; actief: 2-vaste activa, 3-voorraden, 4-vorderingen-actief, 5-liquide middelen) en klassen 6-7 de resultatenrekening (kosten respectievelijk opbrengsten).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 — MAR klasse 0: Niet in de balans opgenomen rechten en verplichtingen"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20", "context": "Minimumindeling algemeen rekeningenstelsel (MAR) — verplichte structuur"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2017/07", "context": "Klasse 0 — niet in de balans opgenomen rechten en verplichtingen"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese MAR-klassen-functie"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het systeem is uitgevonden door Italiaanse koopmanschap in de 15e eeuw (Luca Pacioli, 1494) en daarna wereldwijd aangenomen omdat het drie problemen tegelijk oplost: (1) foutendetectie via self-checking (debet = credit); (2) volledigheidsgarantie — een transactie kan niet 'verdwijnen' want ze raakt minstens 2 rekeningen; (3) gelijktijdige opbouw van balans + resultatenrekening zonder duplicatie van werk. Voor het Belgisch boekhoudrecht is dubbele boekhouding de norm voor alle ondernemingen met een minimum aan complexiteit (vennootschappen, grotere vzw's). De vereenvoudigde boekhouding is een uitzondering voor zeer kleine eenmanszaken en kleine vzw's onder de drempels.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Historische + functionele ratio van dubbele boekhouding — standaardleer"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["boekhouding", "belgisch-boekhoudrecht"],
+      "kader": "boekhouding",
+      "naast_relevant": ["boekhoudbeginselen"],
+      "volgkennis": ["jaarrekening", "eindejaarsverrichtingen", "analytische-boekhouding"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WER Boek III art. III.84-III.89 + KB 21-10-2018 (Bijlage 1 MAR)",
+        "toelichting": "Het stelsel zelf is materieel onveranderd in de Belgische wetgeving sinds Boekhoudwet 1975. Het MAR werd verfijnd in opeenvolgende KB's; de huidige versie staat in KB 21-10-2018 Bijlage 1 (ondernemingen) en de afzonderlijke MAR VZW (verenigingen)."
+      },
+      "voor": [
+        {
+          "tekst": "Verplicht voor alle vennootschappen (BV, NV, VOF, CV, ...) en voor middelgrote/grote vzw's + stichtingen (boven de drempels CBN 2019/12). Optioneel maar aanbevolen voor kleine eenmanszaken die ambitieus willen groeien.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.84-III.85"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2019/10", "context": "Dubbele vs vereenvoudigde in functie van omzet"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Eenmanszaken zonder vennootschapsvorm met omzet < 500.000 EUR mogen kiezen voor een vereenvoudigde 'eenpartige' boekhouding (drie boeken: aankoop, verkoop, financieel). Micro-vzw's onder de CBN 2019/12-drempels eveneens.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.85"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2019/12"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Self-checking via proefbalans (foutendetectie); gelijktijdige productie van balans + RR uit dezelfde primaire boekingen; volledige audit-trail (elke euro is traceerbaar van brondocument → boeking → jaarrekening); robuust voor controle, audit en geschillen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Hogere initiële complexiteit + opleidingsvereiste — eenmanszaken zonder boekhoudkundige opleiding hebben externe ondersteuning nodig. Foutgevoeligheid bij manuele invoer (gelukkig grotendeels geautomatiseerd in moderne software).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "boekingsregel",
+        "naam": {"primair": "Boekingsregel — elke verrichting raakt minstens 2 rekeningen"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij elke verrichting worden minstens twee rekeningen geraakt: minstens één in debet en minstens één in credit, met gelijke totalen. De som debet = som credit per boeking én cumulatief over alle boekingen. Deze regel is geen formaliteit maar het hart van de self-checking. CBN 174/1 benadrukt 'getrouwheid': de inschrijving moet de substantie van de verrichting weergeven, en elke verrichting wordt individueel genomen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Regels die voor elke bedrijfsboekhouding gelden + getrouw"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "mar-structuur",
+        "naam": {"primair": "MAR — Minimum Algemeen Rekeningenstelsel (klassen 0-9)"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het MAR is de verplichte minimum-classificatiestructuur voor alle rekeningen. De 10 klassen zijn: 0 — Niet in de balans opgenomen rechten en verplichtingen (memorierekeningen, bv. zekerheden, ontvangen waarborgen); 1 — Eigen vermogen + voorzieningen + LT-schulden (passief LT); 2 — Vaste activa (immaterieel, materieel, financieel); 3 — Voorraden + bestellingen in uitvoering; 4 — Vorderingen (actief) + KT-schulden (passief); 5 — Geldbeleggingen + liquide middelen; 6 — Kosten van het boekjaar; 7 — Opbrengsten van het boekjaar; 8 — (intern gebruik, sluitrekeningen); 9 — (intern gebruik). Klassen 1-5 vormen de balans, klassen 6-7 de resultatenrekening, klasse 0 is informatief.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 (MAR)"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20", "context": "MAR — verplichte minimumindeling + uniforme boekhoudsoftware"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2017/07", "context": "Klasse 0 — boeking van rechten en verplichtingen"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Klasse", "Inhoud", "Plaats in jaarrekening"],
+            "rijen": [
+              {"Klasse": "0", "Inhoud": "Niet-balans rechten + verplichtingen (zekerheden, waarborgen)", "Plaats in jaarrekening": "Toelichting (memo)"},
+              {"Klasse": "1", "Inhoud": "Eigen vermogen, voorzieningen, LT-schulden", "Plaats in jaarrekening": "Passief"},
+              {"Klasse": "2", "Inhoud": "Vaste activa (immat, mat, financ)", "Plaats in jaarrekening": "Actief"},
+              {"Klasse": "3", "Inhoud": "Voorraden + bestellingen in uitvoering", "Plaats in jaarrekening": "Actief"},
+              {"Klasse": "4", "Inhoud": "Vorderingen (D) + KT-schulden (C)", "Plaats in jaarrekening": "Actief + Passief"},
+              {"Klasse": "5", "Inhoud": "Geldbeleggingen + liquide middelen", "Plaats in jaarrekening": "Actief"},
+              {"Klasse": "6", "Inhoud": "Kosten boekjaar", "Plaats in jaarrekening": "RR — debetkant"},
+              {"Klasse": "7", "Inhoud": "Opbrengsten boekjaar", "Plaats in jaarrekening": "RR — creditkant"},
+              {"Klasse": "8/9", "Inhoud": "Sluit- en analytische rekeningen", "Plaats in jaarrekening": "Intern"}
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dagboek",
+        "naam": {"primair": "Dagboek (journal)"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het dagboek is de chronologische optekening van alle verrichtingen. Voor ondernemingen die een volledige boekhouding voeren (WER art. III.84) is dit ofwel een ongesplitst dagboek waarin alle verrichtingen achter elkaar worden geboekt, ofwel een gesplitst stelsel met hulpdagboeken (aankoopdagboek, verkoopdagboek, financieel dagboek, diversen) + één centralisatie-dagboek. CBN 174/1 benoemt expliciet de twee opties.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "In een dagboek — ongesplitst of gesplitste hulpdagboeken"},
+                {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.84"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "grootboek",
+        "naam": {"primair": "Grootboek (ledger)"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het grootboek bundelt per MAR-rekening alle dagboek-boekingen die die rekening raakten, in chronologische volgorde. Resultaat: per rekening een lopend overzicht (debet, credit, saldo). Het grootboek is de basis voor de proefbalans (overzicht van saldi per rekening) en uiteindelijk voor de balans + resultatenrekening.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaarddefinitie grootboek"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "proefbalans",
+        "naam": {"primair": "Proefbalans"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Periodiek (typisch maandelijks of bij elke afsluiting) wordt een proefbalans opgemaakt: lijst van alle MAR-rekeningen met hun debet-totaal, credit-totaal en saldo. De kern-controle: ∑ debet = ∑ credit (en ∑ saldo's debet = ∑ saldo's credit). Indien niet → boekingsfout aanwezig — terugzoeken via dagboek. De proefbalans is ook de basis voor BTW-aangifte, periodieke rapportering aan management en uiteindelijk de jaarafsluit.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaarddefinitie proefbalans + self-checking"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "afsluitcyclus",
+        "naam": {"primair": "Periodieke afsluitingen"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Vier soorten afsluitingen: (1) maand — proefbalans + BTW-aangifte (indien maandaangifte) + interne reporting; (2) kwartaal — proefbalans + BTW-aangifte (indien kwartaalaangifte) + verkort dashboard; (3) jaar — eindejaarsverrichtingen + jaarrekening (CBN 2014/5 wijst op de wettelijke verplichting om de jaarrekening één keer per jaar neer te leggen); (4) sluiting van het boekjaar via klasse 89 ('saldo te bestemmen') — overdracht van resultaat naar balans, hernemen in volgend boekjaar via klasse 89.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2014/5", "context": "Afsluitingsdatum van het boekjaar — verplicht jaarlijks"},
+                {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "memorierekeningen",
+        "naam": {"primair": "Memorierekeningen (klasse 0)"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Klasse 0 bevat rechten en verplichtingen die niet op de balans verschijnen (en het vermogen dus niet beïnvloeden) maar wel belangrijke informatie geven aan derden: zekerheden door derden gesteld voor rekening van de onderneming (00), persoonlijke zekerheden gesteld voor rekening van derden (01), zakelijke zekerheden op eigen activa (02), goederen + waarden van derden in bewaring, enzovoort. Boeking gebeurt 'kruis' op twee klasse-0-rekeningen (bv. 010 ↔ 011 voor borgstellingen) — geen impact op balans of resultatenrekening. CBN 2017/07 geeft de volledige systematiek.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2017/07", "context": "Niet in de balans opgenomen rechten en verplichtingen — klasse 0"},
+                {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 — Klasse 0"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-aankoop-met-btw",
+        "titel": "Eenvoudige aankoopboeking — handelsgoederen met 21% BTW",
+        "context": "BV ABC koopt handelsgoederen bij een Belgische leverancier. Factuurbedrag: 1.000 EUR + 21% BTW = 210 EUR → totaal 1.210 EUR (betaling op 30 dagen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch standaardvoorbeeld debet/credit-symmetrie"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Bij ontvangst aankoopfactuur",
+            "stappen": [
+              {"rekening": "604", "omschrijving": "Aankopen handelsgoederen (klasse 6 — kost)", "debet": 1000, "credit": 0},
+              {"rekening": "411", "omschrijving": "Aftrekbare BTW (klasse 4 — vordering op FOD Financiën)", "debet": 210, "credit": 0},
+              {"rekening": "4400", "omschrijving": "Leveranciers (klasse 4 — KT-schuld)", "debet": 0, "credit": 1210}
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Drie rekeningen geraakt — twee klasse-6/4 in debet, één klasse-4 in credit. ∑ debet = 1.000 + 210 = 1.210 EUR = ∑ credit. Balans en resultatenrekening worden tegelijk geraakt: kost 1.000 EUR (RR-debet) + vordering BTW 210 EUR (balans-actief) + schuld leverancier 1.210 EUR (balans-passief). Bij betaling 30 dagen later: 4400 Leveranciers 1.210 D / 5500 Bank 1.210 C — alleen balansposten, geen impact op RR."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-verkoop-met-btw",
+        "titel": "Verkoopboeking — handelsgoederen met 21% BTW",
+        "context": "BV ABC verkoopt aan een Belgische klant. Factuur: 3.000 EUR + 21% BTW = 630 EUR → 3.630 EUR (betaling 30 dagen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Bij verzending verkoopfactuur",
+            "stappen": [
+              {"rekening": "4000", "omschrijving": "Handelsvorderingen (klasse 4 — actief)", "debet": 3630, "credit": 0},
+              {"rekening": "70", "omschrijving": "Verkopen handelsgoederen (klasse 7 — opbrengst)", "debet": 0, "credit": 3000},
+              {"rekening": "451", "omschrijving": "Verschuldigde BTW (klasse 4 — passief)", "debet": 0, "credit": 630}
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "∑ debet = 3.630 = ∑ credit (3.000 + 630). Vordering op klant: 3.630 EUR (balans-actief); opbrengst van het boekjaar: 3.000 EUR (RR-credit); te betalen BTW aan FOD: 630 EUR (balans-passief). De boekhouding registreert tegelijkertijd het effect op vermogen (vordering + schuld BTW) en het effect op resultaat (opbrengst exclusief BTW)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-proefbalans",
+        "titel": "Proefbalans na enkele boekingen — self-checking",
+        "context": "Na 4 boekingen in jaar N (aankoop + verkoop + bankbetaling leverancier + bankontvangst klant) opmaak proefbalans.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Proefbalans-fragment",
+            "kolommen": ["Rekening", "Omschrijving", "Debet totaal", "Credit totaal", "Saldo D", "Saldo C"],
+            "rijen": [
+              {"Rekening": "5500", "Omschrijving": "Bank", "Debet totaal": "3.630", "Credit totaal": "1.210", "Saldo D": "2.420", "Saldo C": "—"},
+              {"Rekening": "4000", "Omschrijving": "Handelsvorderingen", "Debet totaal": "3.630", "Credit totaal": "3.630", "Saldo D": "—", "Saldo C": "—"},
+              {"Rekening": "4400", "Omschrijving": "Leveranciers", "Debet totaal": "1.210", "Credit totaal": "1.210", "Saldo D": "—", "Saldo C": "—"},
+              {"Rekening": "411", "Omschrijving": "Aftrekbare BTW", "Debet totaal": "210", "Credit totaal": "—", "Saldo D": "210", "Saldo C": "—"},
+              {"Rekening": "451", "Omschrijving": "Verschuldigde BTW", "Debet totaal": "—", "Credit totaal": "630", "Saldo D": "—", "Saldo C": "630"},
+              {"Rekening": "604", "Omschrijving": "Aankopen", "Debet totaal": "1.000", "Credit totaal": "—", "Saldo D": "1.000", "Saldo C": "—"},
+              {"Rekening": "70", "Omschrijving": "Verkopen", "Debet totaal": "—", "Credit totaal": "3.000", "Saldo D": "—", "Saldo C": "3.000"},
+              {"Rekening": "TOTAAL", "Omschrijving": "", "Debet totaal": "9.680", "Credit totaal": "9.680", "Saldo D": "3.630", "Saldo C": "3.630"}
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Self-check: ∑ Debet totaal = ∑ Credit totaal = 9.680 EUR ✓. ∑ Saldo D = ∑ Saldo C = 3.630 EUR ✓. Beide kanten balanceren — geen technische fout. Interpretatie: voorlopig resultaat = 3.000 opbrengst − 1.000 kost = 2.000 EUR winst (klasse 7 saldo − klasse 6 saldo); de BTW-positie netto: 630 − 210 = 420 EUR te betalen aan FOD."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-klasse-0",
+        "titel": "Memorierekening (klasse 0) — borgstelling door zaakvoerder",
+        "context": "De zaakvoerder van BV XYZ stelt zich persoonlijk borg voor een banklening van 50.000 EUR die de vennootschap is aangegaan. De borgstelling raakt niet het vermogen van BV XYZ (de zaakvoerder staat in voor de schuld bij wanbetaling) maar is een waardevol gegeven voor derden — het wordt boekhoudkundig vastgelegd in klasse 0.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2017/07", "context": "Klasse 0 — niet in de balans opgenomen rechten en verplichtingen"},
+            {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 (MAR) — klasse 00 'Zekerheden door derden gesteld voor rekening van de onderneming'"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Bij toekenning persoonlijke borg",
+            "stappen": [
+              {"rekening": "000", "omschrijving": "Persoonlijke borg ontvangen van zaakvoerder", "debet": 50000, "credit": 0},
+              {"rekening": "001", "omschrijving": "Crediteuren van borgstellingen", "debet": 0, "credit": 50000}
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Twee klasse-0-rekeningen tegen elkaar — geen impact op balans of resultatenrekening. De informatie verschijnt wel in de toelichting bij de jaarrekening ('Niet in de balans opgenomen rechten en verplichtingen'). Bij beëindiging borg (lening volledig terugbetaald): tegenboeking 001 D / 000 C voor 50.000 EUR."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Klasse 0 als 'vergeten' klasse behandelen",
+        "verkeerde_assumptie": "Klasse 0 raakt het vermogen niet, dus mag ik die boekingen overslaan.",
+        "kernpunt": "Klasse 0 is verplicht en heeft een echte functie: derden (banken, fiscus, kopers bij M&A) leren via de toelichting welke niet-balansvérplichtingen er bestaan. Een 'vergeten' borgstelling of leasingverplichting buiten de balans is een serieuze tekortkoming in het getrouw beeld. CBN 2017/07 geeft de systematiek expliciet.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2017/07"}
+          ]
+        }
+      },
+      {
+        "titel": "Proefbalans balanceren = boekhouding correct",
+        "verkeerde_assumptie": "Mijn proefbalans balanceert (∑D = ∑C), dus mijn boekhouding klopt.",
+        "kernpunt": "De proefbalans detecteert UITSLUITEND arithmetische asymmetrieën (debet ≠ credit). Andere fouten — boeking op verkeerde rekening, vergeten verrichting, verkeerd bedrag op beide kanten gelijk geboekt — passeren onopgemerkt. De proefbalans is een NOODZAKELIJKE maar niet voldoende controle. Aanvullend nodig: substantieve controles (klantenstaat tegenover saldo 4000, voorraadtelling tegenover saldo 3401, bankafstemming, ...).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard self-check-beperking"}
+          ]
+        }
+      },
+      {
+        "titel": "Rekening-codes uit ander schema gebruiken",
+        "verkeerde_assumptie": "Mijn boekhouder gebruikt een ander rekeningnummer (bv. uit een buitenlandse standaard of zelf bedachte codering) — dat is OK zolang de inhoud klopt.",
+        "kernpunt": "Het MAR is een MINIMUM-rekeningenstelsel — verplicht voor alle Belgische ondernemingen (KB 21-10-2018). De onderneming mag verder verfijnen (subrekeningen toevoegen, analytische codes naast MAR), maar mag NIET afwijken van de MAR-klassenstructuur of de basisnummers. CBN 2010/20 wijst op het belang van uniformiteit voor vergelijkbaarheid en NBB-rapportering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20", "context": "Uniforme boekhoudsoftware — MAR-conformiteit"}
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "tijdslijn",
+        "intro": "De boekingsketen van brondocument tot jaarrekening.",
+        "inhoud": {
+          "stappen": [
+            {"stap": "1. Brondocument", "beschrijving": "Factuur, bankafschrift, salarisbriefje, contract"},
+            {"stap": "2. Boekingsanalyse", "beschrijving": "Welke MAR-rekeningen? Welk bedrag debet / credit?"},
+            {"stap": "3. Dagboek", "beschrijving": "Chronologische registratie in (hulp)dagboek"},
+            {"stap": "4. Grootboek", "beschrijving": "Per MAR-rekening bundeling van alle boekingen"},
+            {"stap": "5. Proefbalans", "beschrijving": "Periodiek overzicht saldi + self-check"},
+            {"stap": "6. Eindejaarsverrichtingen", "beschrijving": "Inventaris, afschrijvingen, voorzieningen, overlopende rekeningen"},
+            {"stap": "7. Jaarafsluiting (klasse 89)", "beschrijving": "Sluiten klasse 6/7 → resultaat naar balans; balansposten worden hernomen via klasse 89"},
+            {"stap": "8. Jaarrekening", "beschrijving": "Balans + RR + toelichting (+ sociale balans + jaarverslag indien grote)"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhouding"
-    },
-    {
-      "type": "vereist",
-      "target": "boekhoudbeginselen"
-    },
-    {
-      "type": "triggert",
-      "target": "jaarrekening"
+      "id": "kantoor-bij-boekingsdiscipline",
+      "naam": {"primair": "Kantoor bij de boekingsdiscipline"},
+      "intro": "De accountant bewaakt de boekings-, MAR- en self-check-discipline bij elke cliënt. Vaak via gespecialiseerde software, maar het denkwerk blijft mensenwerk.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "mar-discipline",
+              "naam": {"primair": "MAR-discipline — juiste klasse + subrekening kiezen"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij twijfel over rekeningkeuze: vertrek altijd van de klasse (0-7) en werk dan naar subrekening. Vraag bij elke boeking: (1) heeft dit invloed op het vermogen (klasse 1-5) of op het resultaat (klasse 6-7)? (2) Is het een memorie (klasse 0)? (3) Welk MAR-detailniveau is voldoende voor stuurinformatie + fiscale aangifte? Hou subrekeningen consistent over boekjaren heen (bestendigheid).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "periodieke-self-check",
+              "naam": {"primair": "Periodieke self-check — meer dan proefbalans"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Maandelijks na proefbalans: (a) bankafstemming (saldo 5500 = bankafschrift?); (b) klantenstaat (saldo 4000 = klantopendienst?); (c) leveranciersstaat (saldo 4400 = openstaande facturen?); (d) BTW-aangifte-rooster gecontroleerd (411 → 451 → saldo te betalen / terug te vorderen); (e) voorraadbeweging plausibel? Self-check is een gedragsregel, geen software-eigenschap.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard maandelijkse-control-checklist"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "boekhouding"},
+    {"type": "vereist", "target": "boekhoudbeginselen", "toelichting": "De dubbele boekhouding past technisch de boekhoudbeginselen toe (vooral matching, voorzichtigheid en niet-compensatie verklaren waarom debet/credit-symmetrie verplicht is met aparte rekeningen)."},
+    {"type": "triggert", "target": "jaarrekening", "toelichting": "De dubbele-boekhouding-cyclus eindigt steeds in de jaarrekening (balans + RR + toelichting)."},
+    {"type": "vergelijkbaar_met", "target": "boekhoudplicht", "gelijkenissen": ["Beide kaderen WAT en HOE de boekhouding wordt gevoerd"], "verschillen": ["Boekhoudplicht = WIE moet boekhouden + groottecriteria + vereenvoudigde vs dubbele keuze", "Dubbele-boekhouding = HET MECHANIEK zelf (dagboek + grootboek + MAR + proefbalans)"], "verwarring_risico": "Studenten verwarren 'boekhoudplicht' met 'dubbele boekhouding' — boekhoudplicht is de wettelijke verplichting, dubbele boekhouding is één van de twee technische vormen waarin die plicht concreet wordt ingevuld.", "render_hint": "als_glossarium"}
   ]
 }
