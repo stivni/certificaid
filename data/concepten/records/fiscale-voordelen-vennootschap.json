@@ -1,12 +1,16 @@
 {
   "id": "fiscale-voordelen-vennootschap",
   "naam": {
-    "primair": "Fiscale voordelen vennootschap"
+    "primair": "Fiscale voordelen vennootschap",
+    "synoniemen": [
+      "aftrekken vennootschapsbelasting",
+      "fiscale regimes vennootschap"
+    ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -15,10 +19,39 @@
       "2.3.III",
       "2.3.taak.3"
     ],
+    "scope": {
+      "in": [
+        "Σ-overzicht keuzekader: VenB-tarief-modulerende aftrekken + regimes",
+        "Vergelijkingsmatrix: KMO-tarief · DBI · NIA · innovatie · investering · gespreide-belasting · liquidatiereserve · VVPR-bis · meerwaarde-aandelen",
+        "Aftrek-volgorde art. 207 WIB92 (fiscaal vastgelegde sequentie)",
+        "Korf-regime sinds 2018 (aftrek-beperking boven 1.000.000 EUR)",
+        "Keuze-criteria per aftrek: voorwaarden · plafonds · termijnen · combineerbaarheid"
+      ],
+      "out": [
+        {"topic": "KMO-tarief detail", "richting": "moet-verwijzen", "ref": "verlaagd-tarief-kleine-vennootschap"},
+        {"topic": "DBI-aftrek detail", "richting": "moet-verwijzen", "ref": "dbi-aftrek"},
+        {"topic": "Notionele interestaftrek (afgeschaft AJ 2024)", "richting": "moet-verwijzen", "ref": "notionele-interestaftrek"},
+        {"topic": "Innovatie-aftrek detail", "richting": "moet-verwijzen", "ref": "innovatie-aftrek"},
+        {"topic": "Investeringsaftrek detail", "richting": "moet-verwijzen", "ref": "investeringsaftrek"},
+        {"topic": "Anti-misbruik bij aftrekken", "richting": "moet-verwijzen", "ref": "algemene-anti-misbruik-bepaling"},
+        {"topic": "Aangifte VenB (uitvoerings-context)", "richting": "mag-verwijzen", "ref": "aangifte-vennootschapsbelasting"}
+      ]
+    },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fiscale-voordelen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fiscale-voordelen-vennootschap.json",
+      "primary_bronnen": [
+        "WIB92 art. 207",
+        "WIB92 art. 207/1",
+        "WIB92 art. 207/2",
+        "WIB92 art. 206/3",
+        "WIB92 art. 215"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -27,89 +60,112 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fiscale-voordelen-2026-05-28",
+        "wijziging": "Σ-record gevuld uit bundle (WIB92 art. 207-volgorde, korf-regime, aangifte-VenB-2025-codes 1432-1450). Bundle-flow zonder extra MCP-calls."
       }
-    ],
-    "scope": {
-      "in": [
-        "Σ-overzicht keuzekader: VenB-tarief-modulerende aftrekken + regimes",
-        "Vergelijkingsmatrix: KMO-tarief · DBI · NIA · innovatie · investering · gespreide-belasting · liquidatiereserve · VVPR-bis · meerwaarde-aandelen",
-        "Aftrek-volgorde art 207 WIB (fiscaal vastgelegde sequentie)",
-        "Korf-regime sinds 2018 (aftrek-beperking boven 1.000.000€)",
-        "Keuze-criteria per aftrek: voorwaarden · plafonds · termijnen · combineerbaarheid"
-      ],
-      "out": [
-        {
-          "topic": "KMO-tarief detail",
-          "richting": "moet-verwijzen",
-          "ref": "verlaagd-tarief-kleine-vennootschap"
-        },
-        {
-          "topic": "DBI-aftrek detail",
-          "richting": "moet-verwijzen",
-          "ref": "dbi-aftrek"
-        },
-        {
-          "topic": "Notionele interestaftrek (afgeschaft)",
-          "richting": "moet-verwijzen",
-          "ref": "notionele-interestaftrek"
-        },
-        {
-          "topic": "Innovatie-aftrek detail",
-          "richting": "moet-verwijzen",
-          "ref": "innovatie-aftrek"
-        },
-        {
-          "topic": "Investeringsaftrek detail",
-          "richting": "moet-verwijzen",
-          "ref": "investeringsaftrek"
-        },
-        {
-          "topic": "Anti-misbruik bij aftrekken",
-          "richting": "moet-verwijzen",
-          "ref": "algemene-anti-misbruik-bepaling"
-        },
-        {
-          "topic": "Aangifte VenB (uitvoerings-context)",
-          "richting": "mag-verwijzen",
-          "ref": "aangifte-vennootschapsbelasting"
-        }
-      ]
-    }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "tekst": "De vennootschapsbelasting kent een reeks aftrekken en regimes die het belastbaar inkomen of het tarief verlagen. Ze worden in een wettelijk vastgelegde volgorde toegepast (art. 207 WIB92) op de Belgische resterende winst en de niet bij verdrag vrijgestelde resterende winst. Dit Σ-record is het overzicht: definitief belaste inkomsten (DBI), innovatie-aftrek, investeringsaftrek, groepsbijdrage, overgedragen verliezen, gespreide belasting van meerwaarden, liquidatiereserve, KMO-tarief en verlaagde roerende voorheffing (VVPR-bis). De individuele regimes hebben elk een eigen record.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 207"},
+            {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "Tabel aftrekken in volgorde — blz. 8"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch gezien is dit het 'menu' van fiscale optimalisatie voor een vennootschap. Bij elk boekjaar moet de accountant nagaan welke aftrekken combineerbaar zijn, welke voorwaarden vervuld zijn (bv. KMO-statuut, bezoldigingstoets, R&D-activiteit, herinvesteringsverplichting) en in welke volgorde ze gebruikt moeten worden. De volgorde is niet onschuldig: aftrekken met onbeperkte overdracht (DBI, innovatie) komen vóór aftrekken zonder of met beperkte overdracht (groepsbijdrage), zodat de minst-flexibele eerst opgaat. Boven de drempel van 1.000.000 EUR (korf-regime art. 207 §5 WIB92) is slechts 70 % van de overgedragen aftrekken bruikbaar op de winst boven 1 mio.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 207"},
+            {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "code 1440 — grondslag korf"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van aftrek-volgorde + korf-effect op planning"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis: het Belgisch VenB-stelsel kent een nominaal tarief van 25 % (20 % voor de eerste schijf KMO), maar daalt door aftrekken vaak naar een effectief lager tarief. De wetgever beheerst dit op twee manieren: (1) elke aftrek heeft eigen voorwaarden (bv. taxatie- en deelnemingsvoorwaarden voor DBI, KMO-statuut voor VVPR-bis); (2) sinds AJ 2019 garandeert het korf-regime dat winsten boven 1.000.000 EUR steeds een minimumbasis houden waarop het tarief loopt — dit beschermt de begrotingsopbrengst tegen volledige uitholling door overgedragen aftrekken. Pijler-2 (15 % wereldwijde minimumbelasting) voegt sinds 2024 een tweede vloer toe voor grote multinationals.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 215"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 207 §5"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese stelsel-niveau"}
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vennootschapsbelasting", "belastbare-grondslag-vennootschapsbelasting"],
+      "kader": "vennootschapsbelasting"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 207 (volgorde) + art. 215 (tarief) + art. 205/1-205/4 (innovatie) + art. 184quater (liquidatiereserve)",
+        "toelichting": "Stelsel sinds VenB-hervorming 2017 (wet 25-12-2017) ingrijpend gewijzigd: tarief van 33,99 % naar 25 % (20 % KMO eerste schijf), korf-regime ingevoerd, notionele interestaftrek hervormd (alleen incrementeel) en uiteindelijk afgeschaft AJ 2024. Pijler-2-minimum-belasting voor MNE-groepen vanaf AJ 2025."
+      },
+      "voor": [
+        {
+          "tekst": "Elke Belgische vennootschap of vaste inrichting onderworpen aan de VenB — bij de jaarlijkse aangifte moet de aftrek-volgorde correct toegepast worden. Vooral relevant bij vennootschappen met aanzienlijke overgedragen aftrekken, investeringen, R&D-activiteit of dividend-stromen uit deelnemingen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 207"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Verlaging van de effectieve belastingdruk via legitiem gebruik van aftrekken. Sommige aftrekken (DBI, innovatie) zijn onbeperkt overdraagbaar — niet-gebruikte aftrek dit jaar blijft beschikbaar volgende jaren. Andere (investeringsaftrek) hebben beperkte overdracht maar geven onmiddellijk fiscaal effect.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 207"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Verkeerde volgorde of dubbel gebruik leidt tot aanslagcorrecties en eventuele administratieve boetes. Voorwaarden voor aftrek (bv. bezoldigingstoets KMO-tarief, herinvesteringsverplichting gespreide meerwaarde) worden niet altijd door de aangifte-software gevalideerd — controle is mensen-werk.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 215 §2"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ]
+    },
     "bouwstenen": [
       {
         "id": "aftrek-volgorde-207",
-        "naam": {
-          "primair": "Aftrek-volgorde art 207 WIB"
-        },
+        "naam": {"primair": "Aftrek-volgorde art. 207 WIB92"},
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: DBI → innovatie → investering → overgedragen verliezen → NIA → gespreide belastingen → ...",
+            "tekst": "Art. 207 WIB92 legt de exacte volgorde vast waarin aftrekken op de resterende winst worden toegepast (Belgische en niet bij verdrag vrijgestelde resterende winst). In de aangifte (codes 1432-1450) komen ze als volgt: (1) niet-belastbare bestanddelen 1432, (2) DBI van het belastbare tijdperk 1433, (3) innovatie-aftrek van het belastbare tijdperk 1439, (4) correctie innovatie-aftrek omgezet in belastingkrediet 1446, (5) investeringsaftrek enkel kolom Belgisch resultaat 1437, (6) aftrek groepsbijdrage 1445, (7) berekening korf 1440, (8a-e) overgedragen aftrekken: overgedragen DBI 1441, overgedragen innovatie 1442, vorige verliezen 1436, overgedragen NIA 1443. Elke aftrek is beperkt tot wat overblijft na de voorafgaande.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 207"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 206/5"},
+                {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "Tabel aftrekken in volgorde — blz. 8"}
               ]
             }
           }
@@ -117,44 +173,199 @@
       },
       {
         "id": "korf-regime",
-        "naam": {
-          "primair": "Korf-regime aftrek-beperking"
-        },
+        "naam": {"primair": "Korf-regime — minimum belastbare basis"},
         "bouwsteen_type": "beperking",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: beperking aftrekken boven 1.000.000€ (sinds 2018)",
+            "tekst": "Sinds AJ 2019 (wet 25-12-2017) beperkt het korf-regime de aftrek van bepaalde overgedragen aftrekken (overgedragen DBI, overgedragen innovatie-aftrek, vorige verliezen, overgedragen NIA-onbeperkt-deel) tot 1.000.000 EUR + 70 % van de winst boven 1.000.000 EUR. Concreet: van de winst boven 1 mio kan slechts 70 % weggewerkt worden door deze overgedragen aftrekken — 30 % wordt steeds belast als minimum-grondslag. De korf geldt niet voor aftrekken van het belastbare tijdperk zelf (huidig DBI, huidig innovatie, investeringsaftrek).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 207 §5"},
+                {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "code 1440 — grondslag korf"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aftrekverbod-206-3",
+        "naam": {"primair": "Aftrekverbod art. 206/3 WIB92"},
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "Op bepaalde bestanddelen van de winst is GEEN ENKELE aftrek toegestaan, ook geen verliescompensatie. Dit zijn de 'sanctie-bestanddelen' uit art. 206/3 §1 WIB92: abnormale of goedgunstige voordelen (art. 79), verkregen voordelen van alle aard (art. 53,24°), grondslag afzonderlijke aanslag op geheime commissielonen (art. 219), niet-naleving onaantastbaarheidsvoorwaarde investeringsreserve (art. 194quater), grondslag exit-tax (art. 519ter). Deze bestanddelen blijven altijd belastbaar, zelfs als de vennootschap globaal verlies maakt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 206/3 §1"},
+                {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "Rubriek B blz. 7 — code 1420"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "overzicht-aftrekken",
+        "naam": {"primair": "Overzicht beschikbare aftrekken + regimes"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het VenB-stelsel kent grosso modo twee soorten voordelen. (A) Aftrekken op de belastbare basis (verlagen de grondslag waarop het tarief loopt): definitief belaste inkomsten (DBI — art. 202-205, voor dividend-inkomen), innovatie-aftrek (art. 205/1-205/4, 85 % vrijstelling netto-octrooi-inkomen), investeringsaftrek (art. 68-77, % van investering), gespreide belasting meerwaarden (art. 47, herinvesteringsregime), groepsbijdrage (art. 205/5, overdracht winst/verlies binnen groep). (B) Tarief-modulerende of uitkeer-modulerende regimes: verlaagd KMO-tarief 20 % (art. 215, eerste schijf 100.000 EUR), liquidatiereserve (art. 184quater, 10 % nu + 0 %/5 % roerende voorheffing later i.p.v. 30 %), VVPR-bis (art. 269 §2, verlaagde roerende voorheffing 15 % bij dividenduitkering KMO), meerwaarde-aandelen 0 % (art. 192 mits DBI-voorwaarden vervuld).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 202-205"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 205/1-205/4"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 184quater"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 215"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 269 §2"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese stelsel-overzicht"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "pijler-2-vloer",
+        "naam": {"primair": "Pijler-2-minimum-belasting (vanaf AJ 2025)"},
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor multinationale groepen (MNE) of grote binnenlandse groepen met geconsolideerde omzet ≥ 750 mio EUR geldt sinds AJ 2025 een wereldwijde minimumbelasting van 15 % (OESO-Pijler-2). Indien het effectieve VenB-tarief in België na alle aftrekken daalt onder 15 %, wordt een aanvullende heffing (top-up tax) ingehouden. In de aangifte VenB 2025 staan codes 1815-1820 voor Pijler-2-identificatie en overdracht van overschotten voorafbetalingen. Voor KMO's en niet-groep-vennootschappen heeft Pijler-2 geen impact.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "aangifte", "naam": "aangifte-VenB-2025-tarief-voorafbetalingen", "ref": "codes 1815-1820 Pijler-2"}
               ]
             }
           }
         }
       }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Aftrek-volgorde negeren in planning",
+        "verkeerde_assumptie": "Studenten denken dat de vennootschap zelf de aftrek-volgorde kan kiezen om optimaal te zijn.",
+        "kernpunt": "De volgorde is wettelijk vastgelegd in art. 207 WIB92 — geen vrije keuze. Wel keuze bij sommige regimes: bv. afzien van investeringsaftrek (om hogere onmiddellijke winst te tonen) of innovatie-aftrek omzetten in belastingkrediet (art. 289decies). Maar binnen de aftrek-toepassing zelf: geen keuzevrijheid.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 207"}
+          ]
+        }
+      },
+      {
+        "titel": "Korf-regime verwarren met aftrekverbod",
+        "verkeerde_assumptie": "De korf en het aftrekverbod (art. 206/3) zijn hetzelfde — beide beperken aftrek.",
+        "kernpunt": "Aftrekverbod 206/3: bepaalde bestanddelen (abnormale voordelen, geheime commissielonen, ...) zijn NOOIT vatbaar voor aftrek — ze blijven altijd belastbaar. Korf 207 §5: aftrekken zijn TOEGESTAAN maar BEPERKT tot 1 mio + 70 % van de meerwinst; alleen voor overgedragen aftrekken. Verschillende doelen: 206/3 is sanctie-bestanddeel; korf is begrotingsbescherming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 206/3"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 207 §5"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "Notionele interestaftrek nog actief denken",
+        "verkeerde_assumptie": "Notionele interestaftrek is een van de courante aftrekken die je in elke planning moet meenemen.",
+        "kernpunt": "Notionele interestaftrek is sinds AJ 2024 volledig afgeschaft (wet 22-12-2023). Alleen overgedragen saldi uit vóór-2024-tijdperken kunnen nog worden uitgeput — voor lopende boekjaren geen nieuwe creatie meer. Geen rol meer in toekomstige planning.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 536 (overgangsregeling NIA)"}
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "vennootschapsbelasting"
-    },
-    {
-      "type": "bevat",
-      "target": "dbi-aftrek"
-    },
-    {
-      "type": "bevat",
-      "target": "innovatie-aftrek"
-    },
-    {
-      "type": "bevat",
-      "target": "investeringsaftrek"
+      "id": "vennootschap-zelf",
+      "naam": {"primair": "Vennootschap (eigen aangifte/planning)"},
+      "intro": "De accountant die de VenB-aangifte voorbereidt of fiscale planning doet.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "checklist-aftrekken-aj",
+              "naam": {"primair": "Checklist aftrekken per aanslagjaar"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per aanslagjaar systematisch nakijken: (1) KMO-statuut (art. 1:24 WVV) → KMO-tarief mogelijk? Bezoldigingstoets vervuld? (2) Dividend-inkomen → DBI-voorwaarden vervuld (taxatie + 10 %/2,5 mio + 1 jaar bezit)? (3) R&D-activiteit → innovatie-aftrek opgave 275 INNO? (4) Investeringen → investeringsaftrek (basis 8 % of verhoogd voor energie/R&D)? (5) Meerwaarden gerealiseerd → keuze gespreide belasting art. 47? (6) Liquidatiereserve aanleggen voor uitkering toekomst? (7) Aftrek-volgorde correct: codes 1432-1450 in juiste sequentie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 207"},
+                      {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "blz. 8"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardchecklist VenB-aangifte"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "korf-impact-check",
+              "naam": {"primair": "Korf-impact bij hoge winst"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij winst > 1.000.000 EUR: bereken de korf-grondslag (code 1440). Niet-overdraagbare aftrekken (DBI-tijdperk, innovatie-tijdperk, investeringsaftrek) eerst toepassen — die zitten vóór de korf. Daarna kijken hoeveel ruimte voor overgedragen aftrekken (max 1 mio + 70 % van meerwinst). Belangrijk: investeringsaftrek mag enkel op het Belgisch resultaat (code 1437) — niet op het buitenlandse deel.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 207 §5"},
+                      {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "code 1437 + 1440"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "stapeling-keuzes",
+              "naam": {"primair": "Stapeling-keuzes uitleggen aan cliënt"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Toon cliënt het effectieve tarief na alle aftrekken — niet alleen het nominale 25 %. Bv. een kmo met 200.000 EUR winst, eerste schijf KMO-tarief, plus investeringsaftrek 8 % op 50.000 EUR investeringen, plus innovatie-aftrek op licentie-inkomen: effectief tarief kan dalen tot 15-18 %. Maar altijd voorwaarden checken (bezoldigingstoets, herinvesterings-verplichting, taxatie-voorwaarde DBI). Geen voorwaarde = aanslagcorrectie achteraf.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 215"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk-synthese"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "vennootschapsbelasting"},
+    {"type": "bevat", "target": "dbi-aftrek"},
+    {"type": "bevat", "target": "innovatie-aftrek"},
+    {"type": "bevat", "target": "investeringsaftrek"},
+    {"type": "bevat", "target": "gespreide-belasting-meerwaarden"},
+    {"type": "bevat", "target": "liquidatiereserve"},
+    {"type": "bevat", "target": "verlaagd-tarief-kleine-vennootschap"},
+    {"type": "bevat", "target": "vvprbis"},
+    {"type": "bevat", "target": "meerwaarde-aandelen-venb"},
+    {"type": "bevat", "target": "notionele-interestaftrek"},
+    {"type": "bevat", "target": "thin-cap-regime"},
+    {"type": "triggert", "target": "aangifte-vennootschapsbelasting", "toelichting": "Aftrekken worden via codes 1432-1450 in de aangifte uitgevoerd."},
+    {"type": "beinvloed_door", "target": "algemene-anti-misbruik-bepaling", "toelichting": "Art. 344 §1 WIB92 kan onbedoeld gebruik van aftrekken corrigeren."}
   ]
 }

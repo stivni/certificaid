@@ -1,22 +1,33 @@
 {
   "id": "aangifte-nalatenschap",
   "naam": {
-    "primair": "Aangifte van nalatenschap"
+    "primair": "Aangifte van nalatenschap",
+    "synoniemen": ["successieaangifte"],
+    "vertaling": {"fr": "déclaration de succession"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "2.6.VI"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["2.6.VI"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/aangifte-nalatenschap.json",
+      "primary_bronnen": [
+        "W.Succ. art. 38",
+        "W.Succ. art. 40",
+        "W.Succ. art. 41",
+        "W.Succ. art. 42",
+        "VCF art. 3.3.1.0.5",
+        "VCF art. 3.3.1.0.6",
+        "VCF art. 3.3.1.0.8"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -25,6 +36,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (W.Succ. art. 38-42 + VCF aangifte-art.)."
       }
     ],
     "scope": {
@@ -37,40 +55,410 @@
         "Accountant-perspectief: aangifte opstellen · termijnverlenging · aanvullende aangifte"
       ],
       "out": [
-        {
-          "topic": "Erfbelasting als materie",
-          "richting": "moet-verwijzen",
-          "ref": "erfbelasting"
-        },
-        {
-          "topic": "Aangifteplicht algemeen",
-          "richting": "mag-verwijzen",
-          "ref": "aangifteplicht"
-        }
+        {"topic": "Erfbelasting als materie", "richting": "moet-verwijzen", "ref": "erfbelasting"},
+        {"topic": "Aangifteplicht algemeen", "richting": "mag-verwijzen", "ref": "aangifteplicht"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "De aangifte van nalatenschap is de wettelijk verplichte verklaring waarmee de erfgenamen, algemene legatarissen en algemene begiftigden bij de fiscus de samenstelling en waarde van de nalatenschap melden. Op basis van die aangifte heft de fiscus de erfbelasting (Vlaanderen) of het successierecht (Brussel/Wallonië/federaal kader). De aangifte wordt ingediend op het bevoegde kantoor van de fiscale woonplaats van de overledene (in Vlaanderen: VLABEL; in Brussel en Wallonië: het federale registratiekantoor van de Algemene Administratie van de Patrimoniumdocumentatie).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 38"},
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 42"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.5"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch is de aangifte het document waarop alle belastingen-bij-overlijden steunen: zonder ingediende aangifte kan de fiscus de aanslag ambtshalve vestigen op een geschatte basis (met boete). De aangifte vermeldt aan de actiefkant alle goederen van de overledene op de dag van overlijden (onroerend goed, bankrekeningen, beleggingen, aandelen, levensverzekeringen die als fictie tot de nalatenschap behoren) en aan de passiefkant de aftrekbare schulden (begrafeniskosten, openstaande facturen, hypothecaire leningen). Voor onroerend goed gebeurt de waardering tegen verkoopwaarde op de dag van overlijden. De aangifte is geen optie of fiscale keuze — ze is een wettelijke aangifteplicht waarvan de niet-naleving fiscale en administratieve sancties triggert.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 42", "context": "Inhoud aangifte: alle goederen + waardering"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.8", "context": "Vlaamse evenknie inhoudsregels"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese werkpraktijk"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De aangifte-verplichting bestaat omdat een nalatenschap, anders dan een levende belastingplichtige, geen eigen handelingsvermogen meer heeft: er is dus een procedurele schakel nodig om de fiscus in staat te stellen het belastbaar voorwerp (de overgang van vermogen ten gevolge van het overlijden) vast te stellen. De aangifte verschuift die last naar de erfgenamen, die als enige toegang hebben tot de samenstelling van het patrimonium. Tegelijk dient de aangifte als juridisch sluitstuk voor banken en notarissen die geen tegoeden mogen vrijgeven zonder bewijs van aangifte/betaling van de erfbelasting.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 38"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["erfbelasting", "erfrecht"],
+      "kader": "registratie-en-successierechten",
+      "naast_relevant": ["successieplanning"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "W.Succ. art. 38-42 (Brussel/Wallonië/federaal) + VCF art. 3.3.1.0.5-8 (Vlaanderen)",
+        "toelichting": "Stabiel regime. Vlaanderen heeft sinds 2015 een eigen procedurele wettekst in VCF; Brussel en Wallonië blijven werken met het oude W.Succ. (regionaal). Een hervorming naar elektronische indiening is gefaseerd in voege getreden; uiterlijk 01-01-2028 verplicht voor alle aangiftes (federaal art. 38 W.Succ. zoals gewijzigd door wet 12-05-2024)."
+      },
+      "voor": [
+        {
+          "tekst": "Verplicht bij elk overlijden van een Rijksinwoner (= persoon met laatste fiscale woonplaats in België) en bij elk overlijden van een niet-Rijksinwoner met onroerend goed in België.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 38"}
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Het overlijden van de erflater. De termijn loopt vanaf de datum van overlijden, niet vanaf de kennisname van het overlijden.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 40"}
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Geldige indiening van de (volledige) aangifte op het bevoegde kantoor binnen de wettelijke termijn — of een aanvullende aangifte indien later nieuwe activa worden ontdekt.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 42"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij niet-indiening of laattijdige indiening kan de fiscus de aanslag ambtshalve vestigen en wordt een belastingverhoging (boete) opgelegd. De erfgenamen blijven hoofdelijk aansprakelijk voor de erfbelasting.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.7.0.1", "context": "Ambtshalve vestiging bij niet-indiening"},
+              {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 70", "context": "Belastingverhoging laattijdige aangifte"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "termijn-aangifte",
+        "naam": {"primair": "Aangiftetermijn (4 / 5 / 6 maanden)"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De aangifte moet ingediend worden binnen vier maanden vanaf het overlijden indien dit in België plaatsvond, binnen vijf maanden indien het overlijden in een ander Europees land plaatsvond, en binnen zes maanden indien buiten Europa. De termijnen lopen ook door tijdens vakantieperiodes; in welomschreven gevallen kan een verlenging worden gevraagd bij de bevoegde dienst (VLABEL voor Vlaanderen; ontvanger van het registratiekantoor in Brussel/Wallonië).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 40"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.6"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Plaats van overlijden", "Termijn"],
+            "rijen": [
+              ["België", "4 maanden vanaf overlijden"],
+              ["Ander land binnen Europa", "5 maanden vanaf overlijden"],
+              ["Buiten Europa", "6 maanden vanaf overlijden"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "aangifteplichtigen",
+        "naam": {"primair": "Personen verplicht tot aangifte"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Aangifteplichtig zijn: (a) bij overlijden van een Rijksinwoner: de erfgenamen, de algemene legatarissen en de algemene begiftigden — bijzondere legatarissen zijn niet aangifteplichtig; (b) bij overlijden van een niet-Rijksinwoner met goederen in België: idem; (c) testamentuitvoerders en curators dienen aangifte in als zij belast zijn met de uitvoering van het testament; (d) een ouder of voogd treedt op voor minderjarige erfgenamen. Erfgenamen die de nalatenschap onder voorrecht van boedelbeschrijving aanvaarden of verwerpen, blijven aangifteplichtig tot het ogenblik van die keuze.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 38"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.5"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bevoegd-kantoor",
+        "naam": {"primair": "Bevoegd kantoor"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het bevoegde kantoor is het kantoor van de Algemene Administratie van de Patrimoniumdocumentatie (federaal — Brussel/Wallonië) of VLABEL (Vlaanderen) van de plaats waar de overledene zijn laatste fiscale woonplaats had. Als de fiscale woonplaats van de overledene in de loop van de vijf jaar vóór het overlijden in meerdere gewesten lag, geldt de gewestelijke bevoegdheid van het gewest waar de overledene het langst gewoond heeft in die vijfjarige referentieperiode (5-jaarsregel — gewestaanknopingspunt).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 38"},
+                {"type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "art. 5", "context": "Lokalisatieregel erfbelasting"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "inhoud-aangifte",
+        "naam": {"primair": "Verplichte inhoud van de aangifte"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De aangifte vermeldt: (I) identificatie van aangever en overledene (naam, beroep, adres, geboorte, datum en plaats overlijden); (II) datum en plaats van het overlijden; (III) volledige identificatie van alle erfgenamen, legatarissen en begiftigden met aanduiding van de graad van verwantschap en hun aandeel; (IV) een gedetailleerd overzicht van het actief (alle roerende en onroerende goederen op datum overlijden, met waardering) en passief (aftrekbare schulden, begrafeniskosten, hypothecaire schulden); (V) verklaring betreffende fictiebepalingen (schenkingen <3 jaar vóór overlijden, levensverzekering, gesplitste aankopen) en eventuele vrijstellingen die ingeroepen worden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 42"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.8"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "termijnverlenging",
+        "naam": {"primair": "Verlenging van de aangiftetermijn"},
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "De bevoegde dienst (VLABEL of de gewestelijke ontvanger) kan op gemotiveerd verzoek vóór het verstrijken van de wettelijke termijn een verlenging toestaan. Typische motieven: nog niet volledige inventaris (effectenrekeningen in afwachting van bevestiging), complexe waardering, ontbrekende stukken uit het buitenland. De verlenging is geen recht — ze wordt discretionair verleend en stopt de looptijd van een eventuele nalatigheidsboete pas vanaf de toekenning.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 41"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.6", "context": "Vlaamse evenknie"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanvullende-aangifte",
+        "naam": {"primair": "Aanvullende aangifte"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer na de eerste aangifte nieuwe activa worden ontdekt (vergeten effectenportefeuille, buitenlandse rekening, schuldvordering), dienen de aangifteplichtigen een aanvullende aangifte in binnen vier maanden na de ontdekking. De erfbelasting op de aanvullende massa wordt berekend met aanrekening van de reeds geheven belasting op de oorspronkelijke aangifte; de progressie wordt opnieuw doorlopen alsof de aangiftes samen zouden zijn ingediend. Niet-spontane aanvullende aangifte na controle leidt tot belastingverhoging.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 37", "context": "Recht op aanvullende aangifte"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.8"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Werkpraktijk-synthese"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "elektronische-indiening",
+        "naam": {"primair": "Verzending vs aanlevering — elektronische indiening"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Vlaanderen: aangifte verloopt sinds 2015 via de VLABEL-formulieren (papier of digitaal portaal). Federaal (Brussel/Wallonië): hervorming van wet 12-05-2024 voert verplichte elektronische verzending in voor alle categorieën van aangifteplichtigen, met definitieve veralgemening uiterlijk 01-01-2028. Tot dan kunnen erfgenamen nog op papier 'inleveren' op het kantoor; vanaf de inwerkingtreding wordt 'verzenden' (elektronisch) de norm.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 38", "context": "Gewijzigd door wet 12-05-2024 art. 89"},
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 40", "context": "Gewijzigd door wet 12-05-2024 art. 90"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "waardering-actief",
+        "naam": {"primair": "Waardering van het actief"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Goederen worden gewaardeerd tegen verkoopwaarde op de dag van het overlijden. Onroerend goed: schattingen door beëdigde landmeter-expert of via het gemiddelde van drie vergelijkbare verkooptransacties; aandelen genoteerd op de beurs: slotkoers op de dag voor het overlijden; niet-genoteerde aandelen: substantiële waarde of opbrengstwaarde; bankrekeningen: saldo op datum overlijden. Te lage opgave triggert hertaxatie + belastingverhoging.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 19"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.3.3.2", "context": "Waarderingsregels Vlaams"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-standaard-aangifte",
+        "titel": "Standaard-aangifte na overlijden Rijksinwoner",
+        "context": "Pierre Dewinter overlijdt op 15 maart 2026 in Leuven (Vlaamse fiscale woonplaats). Hij laat een echtgenote en twee kinderen na. Het patrimonium: gezinswoning (450.000 EUR), effectenportefeuille (180.000 EUR), bankrekening (35.000 EUR), uitstaande hypothecaire schuld (75.000 EUR), begrafeniskosten 8.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.5"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.8"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Werkpraktijk-illustratie"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — identificeer aangifteplichtigen: echtgenote + 2 kinderen (allen erfgenamen).",
+              "Stap 2 — bepaal bevoegd kantoor: VLABEL — overlijden in Vlaanderen, fiscale woonplaats laatste 5 jaar Vlaanderen.",
+              "Stap 3 — bereken aangiftetermijn: 4 maanden vanaf 15-03-2026 = uiterlijk 15-07-2026.",
+              "Stap 4 — stel aangifte op met actief (665.000 EUR brutowaarde) en passief (83.000 EUR aftrekbare schulden) — nettonalatenschap = 582.000 EUR.",
+              "Stap 5 — vermeld de vrijstelling voor de gezinswoning voor de langstlevende echtgenote (Vl: 100% vrijgesteld; art. 2.7.4.1.1 §2 VCF).",
+              "Stap 6 — dien in via VLABEL-portaal vóór 15-07-2026."
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Termijn telt vanaf overlijden, niet vanaf kennisname",
+        "verkeerde_assumptie": "Stagiairs denken vaak dat de termijn pas loopt vanaf het ogenblik dat de erfgenamen op de hoogte zijn van het overlijden of vanaf de notariële akte van erfopvolging.",
+        "kernpunt": "Art. 40 W.Succ. (en VCF art. 3.3.1.0.6) is duidelijk: 'te rekenen van de datum van het overlijden'. Voor een Rijksinwoner is dat steeds 4 maanden — los van praktische problemen om de erfopvolging op te starten. Verlenging moet uitdrukkelijk vóór het verstrijken van de termijn worden aangevraagd.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 40"}
+          ]
+        }
+      },
+      {
+        "titel": "Bijzondere legataris denkt dat hij aangifte moet doen",
+        "verkeerde_assumptie": "Een bijzondere legataris (iemand die een welbepaald goed via testament krijgt — bv. een schilderij) gelooft dat hij ook aangifteplichtig is.",
+        "kernpunt": "Art. 38 W.Succ. sluit bijzondere legatarissen uitdrukkelijk uit: alleen de erfgenamen, algemene legatarissen en algemene begiftigden (= zij die het saldo of een breukdeel van de nalatenschap krijgen) zijn aangifteplichtig. Bijzondere legatarissen worden in de aangifte vermeld door de aangifteplichtigen en betalen wel hun aandeel in de erfbelasting.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 38"}
+          ]
+        }
+      },
+      {
+        "titel": "Fictie-aangiften vergeten",
+        "verkeerde_assumptie": "Studenten focussen op het 'gewone' actief en vergeten dat fictiebepalingen (schenkingen <3 jaar, levensverzekering, gesplitste aankopen) ook in de aangifte moeten — niet alleen in de fiscale berekening.",
+        "kernpunt": "Fictiebepalingen worden voor de heffing van de erfbelasting toegevoegd aan het belastbaar actief en moeten in de aangifte uitdrukkelijk vermeld worden. Vergeten = aanvullende aangifte na controle + belastingverhoging.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 42"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "registratie-en-successierechten"
+      "id": "erfgenamen-bijstand",
+      "naam": {"primair": "Bijstand erfgenamen bij aangifte"},
+      "intro": "De accountant of fiscalist die als externe adviseur de erfgenamen begeleidt bij het opstellen en indienen van de aangifte (naast of in samenwerking met de notaris).",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "inventaris-opstellen",
+              "naam": {"primair": "Inventaris opstellen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Coördineer met de erfgenamen + notaris om een volledig inventaris op te stellen: alle bankrekeningen (vraag rekeninguittreksels op via VLABEL-portaal of bankcontactpunten), effectenrekeningen, onroerend goed (kadasterextracten), aandelen niet-genoteerd (waardering op basis van laatste jaarrekening + EBITDA-multiple), schulden en facturen openstaand op datum overlijden, begrafenisfactuur.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 42"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard fiscaal-praktijk"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "fictie-check",
+              "naam": {"primair": "Fictiebepalingen identificeren"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vraag de erfgenamen uitdrukkelijk naar: (a) schenkingen door de overledene in de drie jaar vóór overlijden (registratierechtelijk geregistreerd of niet); (b) levensverzekeringen waarbij de overledene verzekeringnemer was en een derde begunstigde; (c) gesplitste aankopen vruchtgebruik/blote eigendom waar de overledene het vruchtgebruik kocht. Deze fictiebepalingen zijn aangifteplichtig en worden door de fiscus systematisch gecontroleerd via banken (centraal aanspreekpunt) en notariële databanken.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 7", "context": "Schenking <3 jaar"},
+                      {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8", "context": "Levensverzekering"},
+                      {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 9", "context": "Gesplitste aankoop"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "termijnbeheer",
+              "naam": {"primair": "Termijnbeheer + verlenging"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bewaak de 4 / 5 / 6-maands-termijn vanaf overlijden. Als de aangifte niet volledig kan zijn (bv. buitenlandse rekening of niet-genoteerde aandelen wachtend op waarderingsverslag), dien dan een gemotiveerde verlengingsaanvraag in vóór het verstrijken. Beter een aanvullende aangifte indienen met een lage incrementele boete dan een ambtshalve aanslag met zware verhoging riskeren.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 41"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Werkpraktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "vrijstellingen-claimen",
+              "naam": {"primair": "Vrijstellingen en gunstregimes claimen"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Controleer expliciet of de aangifte aanspraak maakt op alle beschikbare vrijstellingen: gezinswoning voor langstlevende echtgenoot/wettelijk samenwonende (Vlaanderen: 100% vrijgesteld), gunstregime familiale onderneming (verlaagd tarief 3-7% Vl), verminderingen voor kinderen <21 jaar, abattement voor partners. Een gemiste vrijstelling = onnodig verschuldigde erfbelasting.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.4.1.1", "context": "Gezinswoning + tarieven"},
+                      {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.4.2.2", "context": "Gunstregime familiale onderneming"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "registratie-en-successierechten"},
+    {"type": "triggert", "target": "erfbelasting", "toelichting": "De aangifte is de operationele schakel die de heffing van erfbelasting in gang zet."},
+    {"type": "vereist", "target": "erfrecht", "toelichting": "Identificatie van erfgenamen en hun aandeel volgt uit de burgerrechtelijke erfopvolging."}
   ]
 }
