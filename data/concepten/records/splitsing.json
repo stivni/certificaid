@@ -2,28 +2,33 @@
   "id": "splitsing",
   "naam": {
     "primair": "Splitsing",
-    "synoniemen": [
-      "demerger",
-      "split-up",
-      "partiële splitsing"
-    ]
+    "synoniemen": ["demerger", "splitsing van vennootschappen"],
+    "vertaling": { "fr": "scission" }
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.taak.2",
-      "3.0.taak.3",
-      "2.3.III.B"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["3.0.taak.2", "3.0.taak.3", "2.3.III.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/splitsing.json",
+      "primary_bronnen": [
+        "WVV art. 12:4",
+        "WVV art. 12:5",
+        "WVV art. 12:8 (partiele splitsing)",
+        "WIB92 art. 2 — 6°/1 d), e), f), g)",
+        "WIB92 art. 210, 211",
+        "ITAA-norm fusie-splitsing",
+        "CBN-advies 2022/12",
+        "CBN-advies 2009/11 (partiele splitsing)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -31,56 +36,65 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit reorganisatie-cluster (skelet-doc regel ~1351)"
+        "wijziging": "Skeleton-record aangemaakt uit splitsing-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle (WVV art. 12:4-12:8, WIB92, ITAA-norm, CBN 2022/12 + 2009/11)."
       }
     ],
     "scope": {
       "in": [
-        "3 modaliteiten: zuivere splitsing (oude venn verdwijnt → 2 nieuwe) · door overneming · partiële splitsing (deel-vermogen naar bestaande/nieuwe venn)",
-        "Partiële splitsing onderscheid met inbreng-bedrijfstak: rechts-opvolging vs contractuele inbreng",
-        "Revisor-verslag op de splitsing (bijzonder mandaat)"
+        "3 modaliteiten: zuivere splitsing door oprichting (een vennootschap verdwijnt, twee of meer nieuwe ontstaan), splitsing door overneming, partiele splitsing (deelvermogen naar bestaande of nieuwe vennootschap)",
+        "Partiele splitsing en haar onderscheid met inbreng-bedrijfstak (rechtsopvolging versus contractuele inbreng)",
+        "Revisor-verslag op de splitsing (bijzonder mandaat, ITAA-norm fusie-splitsing)",
+        "Procedurele stappen (analogie met fusie via WVV boek 12)",
+        "Boekhoudkundige verwerking — CBN-advies 2022/12"
       ],
       "out": [
-        {
-          "topic": "Reorganisatie-Σ als parent",
-          "richting": "moet-verwijzen",
-          "ref": "reorganisatie"
-        },
-        {
-          "topic": "Fusie als spiegel-verrichting",
-          "richting": "moet-verwijzen",
-          "ref": "fusie"
-        },
-        {
-          "topic": "Fiscale-fusie-splitsing-regime",
-          "richting": "moet-verwijzen",
-          "ref": "fiscale-fusie-splitsing"
-        },
-        {
-          "topic": "Inbreng-bedrijfstak vs partiële splitsing — onderscheid",
-          "richting": "moet-verwijzen",
-          "ref": "inbreng-bedrijfstak-of-algemeenheid"
-        },
-        {
-          "topic": "Bijzondere mandaten — revisor-verslag",
-          "richting": "moet-verwijzen",
-          "ref": "bijzondere-mandaten"
-        }
+        { "topic": "Reorganisatie-Sigma als parent", "richting": "moet-verwijzen", "ref": "reorganisatie" },
+        { "topic": "Fusie als spiegel-verrichting", "richting": "moet-verwijzen", "ref": "fusie" },
+        { "topic": "Fiscale-fusie-splitsing-regime", "richting": "moet-verwijzen", "ref": "fiscale-fusie-splitsing" },
+        { "topic": "Inbreng-bedrijfstak versus partiele splitsing — onderscheid", "richting": "moet-verwijzen", "ref": "inbreng-bedrijfstak-of-algemeenheid" },
+        { "topic": "Bijzondere mandaten — revisor-verslag", "richting": "moet-verwijzen", "ref": "bijzondere-mandaten" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een splitsing is de vennootschapsrechtelijke verrichting waarbij het gehele vermogen — of een deel ervan — van een vennootschap overgaat op meerdere andere vennootschappen, tegen uitreiking van aandelen van die verkrijgende vennootschappen aan de aandeelhouders van de oorspronkelijke vennootschap. Het WVV onderscheidt drie hoofdtypes: splitsing door overneming naar bestaande vennootschappen (art. 12:4 WVV), splitsing door oprichting van nieuwe vennootschappen (art. 12:5 WVV), en partiele splitsing (art. 12:8 WVV) — waarbij de gesplitste vennootschap blijft bestaan en slechts een deel van haar vermogen overdraagt. Net als bij fusie geldt een 10%-grens voor een eventuele opleg in geld.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:4" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:5" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 6°/1 d), e), f), g)" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De splitsing is de spiegel van de fusie: waar fusie consolideert, verdeelt splitsing. Economisch zijn de redenen divers — een familie splitst de holding tussen de drie kinderen, een groep verzelfstandigt een loss-making activiteit om die te verkopen, een onderneming wil de vastgoedactiviteiten scheiden van de operationele om financierings- of estate-planning-doelen. De aandeelhouders van de splitsende vennootschap krijgen aandelen van alle verkrijgende vennootschappen (al dan niet pro rata). Boekhoudkundig geldt continuiteit: de verkrijgende vennootschappen nemen activa en passiva over tegen boekwaarde (CBN-advies 2022/12). Fiscaal geldt — analoog aan fusie — de neutraliteit van art. 211 WIB92.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2022/12 (boekhoudkundige verwerking splitsing)", "ref": "boekhoudkundige continuiteit" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 211" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese economische rationale" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom splitsen? Bedrijfsactiviteiten kunnen om operationele, strategische of familiale redenen beter apart functioneren. Het splitsingsregime laat dat toe zonder dat individuele schuldeisers moeten worden bevraagd — universele rechtsopvolging garandeert dat contracten en personeel mee overgaan. De prijs is de splitsing van de oorspronkelijke aandeelhouders-stem: wie aandelen krijgt van twee nieuwe vennootschappen, kan in beide afzonderlijk besluiten nemen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:13 (continuiteit)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese rationale" }
           ]
         }
       }
@@ -88,98 +102,365 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV boek 12"
-      }
-    },
-    "bouwstenen": [
-      {
-        "id": "zuivere-splitsing",
-        "naam": {
-          "primair": "Zuivere splitsing"
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV boek 12 + WIB92 art. 210-214"
+      },
+      "voor": [
+        {
+          "tekst": "Familiale opvolging: een holdingsvennootschap wordt gesplitst tussen broers en zussen, waarbij elk een aparte takvennootschap krijgt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke estate-planning use case" }]
+          }
         },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — oude venn verdwijnt → vermogen naar 2 of meer nieuwe venn.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        {
+          "tekst": "Voorbereiding van verkoop: een gediversifieerde groep zondert de te verkopen activiteit af via partiele splitsing, zodat de koper een 'schone' vennootschap krijgt.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Pre-acquisitie-structurering" }]
+          }
+        },
+        {
+          "tekst": "Scheiding van vastgoed en exploitatie: een operationele vennootschap brengt haar vastgoed onder in een aparte vastgoedvennootschap voor risico-isolatie en estate-planning.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke structurering" }]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Bestuursorgaan stelt voorstel tot splitsing op (analoog aan fusie, art. 12:24 WVV) met opgave van de verdelingsregel — welke activa en passiva naar welke verkrijgende vennootschap gaan.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:62 + 12:78" }]
+          }
+        },
+        {
+          "tekst": "Revisor of externe accountant maakt verslag over de ruilverhouding en de verdelingsmethode (art. 12:62/12:78 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 12:62 + 12:78" },
+              { "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 1 toepassingsgebied" }
+            ]
+          }
+        },
+        {
+          "tekst": "Algemene vergaderingen van alle betrokken vennootschappen besluiten met gekwalificeerde meerderheid in authentieke akte.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:69 + 12:84 (analoog 12:31)" }]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Universele rechtsopvolging — activa, passiva en contracten gaan van rechtswege mee.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:13" }]
+          }
+        },
+        {
+          "tekst": "Fiscale neutraliteit — geen realisatie van latente meerwaarden mits art. 211 WIB92 nageleefd.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1" }]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Onevenwichtige verdeling: een verkrijgende vennootschap krijgt te veel passiva of risico's, met benadeling van bepaalde aandeelhouders.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 5 (analyse ruilverhouding)" }]
+          }
+        },
+        {
+          "tekst": "Hoofdelijke aansprakelijkheid van de verkrijgende vennootschappen voor schulden van de gesplitste vennootschap die niet correct werden toegewezen (art. 12:18 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:18 (hoofdelijke aansprakelijkheid)" }]
+          }
+        },
+        {
+          "tekst": "Fiscale herkwalificatie als verdeelde liquidatie (art. 209-210 WIB92) als de verrichting niet aan de voorwaarden voldoet, met realisatiebelasting.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 209 + 210" }]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "splitsing-door-overneming",
+        "naam": { "primair": "Splitsing door overneming" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het gehele vermogen van een vennootschap gaat als gevolg van ontbinding zonder vereffening over op verscheidene bestaande vennootschappen, tegen uitreiking aan de aandeelhouders van de ontbonden vennootschap van aandelen van de verkrijgende vennootschappen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:4" }]
+              }
             }
           }
         }
       },
       {
-        "id": "splitsing-door-overneming",
-        "naam": {
-          "primair": "Splitsing door overneming"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — vermogen naar bestaande venn.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "splitsing-door-oprichting",
+        "naam": { "primair": "Splitsing door oprichting van nieuwe vennootschappen" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het gehele vermogen van een vennootschap gaat over op verscheidene nieuw opgerichte vennootschappen, eveneens met ontbinding zonder vereffening en aandelenuitgifte aan de oorspronkelijke aandeelhouders.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [{ "type": "wettekst", "naam": "WVV", "ref": "art. 12:5" }]
+              }
             }
           }
         }
       },
       {
         "id": "partiele-splitsing",
-        "naam": {
-          "primair": "Partiële splitsing"
-        },
-        "bouwsteen_type": "mechanisme",
+        "naam": { "primair": "Partiele splitsing", "synoniemen": ["gedeeltelijke splitsing"] },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een deel van het vermogen van vennootschap A gaat over op een andere vennootschap B (bestaand of nieuw opgericht), terwijl A blijft voortbestaan met een verminderd vermogen. De aandeelhouders van A behouden hun A-aandelen en ontvangen daarnaast nieuwe B-aandelen. Wettelijk gekwalificeerd als 'met splitsing gelijkgestelde verrichting' (art. 12:8 WVV; art. 2 — 6°/1 g WIB92).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8" },
+                  { "type": "advies", "naam": "CBN-advies 2009/11", "ref": "definitie partiele splitsing" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 6°/1 g)" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "Partiele splitsing combineert eigenschappen van zowel fusie als inbreng: een tak gaat over (zoals bij inbreng bedrijfstak), maar de aandelen gaan naar de oorspronkelijke aandeelhouders (zoals bij splitsing), niet naar de inbrengende vennootschap zelf. Resultaat: na de verrichting hebben de aandeelhouders rechtstreeks aandelen in twee zustervennootschappen — A (verkleind) en B (de afgesplitste tak).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "advies", "naam": "CBN-advies 2009/11", "ref": "inleiding" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vergelijkende synthese" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "verdelingsregel",
+        "naam": { "primair": "Verdelingsregel — welke activa naar welke verkrijger" },
+        "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — splitsende venn blijft bestaan; alleen deel-vermogen wordt overgedragen aan bestaande of nieuwe venn. OP-RE.A: mogelijk eigen record bij content-zwaarte (cross naar inbreng-bedrijfstak).",
+            "tekst": "Het splitsingsvoorstel moet exact aangeven welke activa, passiva, contracten en risico's naar welke verkrijgende vennootschap overgaan. Restbestanddelen (die per ongeluk niet werden toegewezen) gaan naar alle verkrijgers naar evenredigheid van het netto-actief. Onbekende of vergeten passiva blijven hoofdelijk gedeeld tussen alle verkrijgers (art. 12:18 WVV).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 12:18" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-continuiteit-splitsing",
+        "naam": { "primair": "Boekhoudkundige continuiteit bij splitsing" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De verkrijgende vennootschappen nemen de toegewezen activa en passiva over tegen hun boekwaarde op het moment van splitsing. Vrijgestelde reserves en kapitaalsubsidies worden mee overgenomen, om de onaantastbaarheidsvoorwaarde (fiscaal) te respecteren. CBN-advies 2022/12 beschrijft de boekingen in detail.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "advies", "naam": "CBN-advies 2022/12", "ref": "boekhoudkundige verwerking splitsing" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hoofdelijke-aansprakelijkheid",
+        "naam": { "primair": "Hoofdelijke aansprakelijkheid verkrijgers" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor schulden van de gesplitste vennootschap die in het splitsingsvoorstel werden toegewezen, is alleen de aangewezen verkrijger aansprakelijk — maar de andere verkrijgers blijven hoofdelijk aansprakelijk voor netto-actief dat zij ontvangen. Voor niet-toegewezen schulden zijn alle verkrijgers hoofdelijk aansprakelijk. Bedoeling: schuldeisers van de oorspronkelijke vennootschap mogen niet slechter af zijn door de splitsing.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 12:18" }
               ]
             }
           }
         }
       }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Partiele splitsing verwarren met inbreng-bedrijfstak",
+        "verkeerde_assumptie": "Beide laten een tak overgaan zonder ontbinding — dus blijkbaar hetzelfde.",
+        "kernpunt": "Bij partiele splitsing krijgen de aandeelhouders van A rechtstreeks aandelen van B (zusterstructuur ontstaat). Bij inbreng bedrijfstak krijgt vennootschap A zelf de aandelen van B (moeder-dochter-relatie). Dit raakt de eigendomsstructuur. Boekhoudkundig en fiscaal volgen ze ook verschillende regimes: partiele splitsing valt onder art. 211 WIB92, inbreng bedrijfstak onder art. 46 WIB92.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:8 versus art. 12:10" },
+            { "type": "advies", "naam": "CBN-advies 2009/11", "ref": "afbakening" }
+          ]
+        }
+      },
+      {
+        "titel": "Pro-rata-verdeling ten onrechte verplicht achten",
+        "verkeerde_assumptie": "Bij splitsing moet elke aandeelhouder van A precies eenzelfde percentage van B en C krijgen.",
+        "kernpunt": "Pro-rata-verdeling is de standaard maar niet verplicht. Niet-pro-rata-verdeling (asymmetrische splitsing) is mogelijk en typisch gebruikt bij familiale opvolging (kind A krijgt vooral het vastgoed, kind B vooral de operationele activiteit). Voorwaarde: alle aandeelhouders moeten ermee instemmen, of de verdeling is statutair voorzien.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:4 + 12:5 ('al dan niet volgens pro-rataregeling')" }
+          ]
+        }
+      },
+      {
+        "titel": "Hoofdelijke aansprakelijkheid van verkrijgers vergeten",
+        "verkeerde_assumptie": "Na de splitsing is elke verkrijger alleen aansprakelijk voor de schulden die haar werden toegewezen.",
+        "kernpunt": "Schuldeisers kunnen zich keren tot elke verkrijgende vennootschap (binnen de grens van het ontvangen netto-actief) voor toegewezen schulden, en hoofdelijk tot alle verkrijgers voor niet-toegewezen schulden (art. 12:18 WVV). Bescherming van schuldeisers staat boven de verdelingsregel van het voorstel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:18" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Pro-rata versus asymmetrische verdeling",
+        "opties": [
+          {
+            "keuze": "Pro-rata-verdeling (elke aandeelhouder krijgt evenredig aandelen in beide verkrijgers)",
+            "voordeel": "Standaardregel, geen instemming van afzonderlijke aandeelhouders nodig — eenvoudige procedure.",
+            "nadeel": "Niet bruikbaar als de splitsing precies bedoeld is om aandeelhouders te scheiden (familiale ontvlechting)."
+          },
+          {
+            "keuze": "Asymmetrische verdeling (sommige aandeelhouders krijgen alleen aandelen in een verkrijger, andere in een andere)",
+            "voordeel": "Maakt familiale ontvlechting mogelijk; elke aandeelhouder kan zijn eigen tak verder uitbouwen.",
+            "nadeel": "Vereist eenparige instemming van alle aandeelhouders; complexere documentatie."
+          }
+        ],
+        "vuistregel": "Pro-rata bij operationele herstructurering met dezelfde aandeelhouders; asymmetrisch alleen bij familiale ontvlechting met eenparige instemming.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 12:4 + 12:5" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-onderscheid" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "reorganisatie"
+      "id": "revisor-controle-splitsing",
+      "naam": { "primair": "Bedrijfsrevisor / externe accountant — controle splitsing" },
+      "intro": "De revisor controleert bij splitsing zowel de ruilverhouding als de verdelingsmethode.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "verslag-splitsing-revisor",
+              "naam": { "primair": "Opstellen revisorverslag bij splitsing" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Stap 1: identificeer de splitsing en haar modaliteit (zuiver, door overneming, partieel). Stap 2: controleer de waardering van de vennootschap A en van elke afzonderlijke tak die wordt overgedragen. Stap 3: controleer de verdelingsmethode — krijgt elke verkrijger een evenwichtig pakket activa en passiva? Stap 4: controleer of de ruilverhouding aan elke aandeelhouder een evenredig aandeel garandeert in zowel A (indien blijft bestaan) als in de verkrijgende vennootschappen. Stap 5: formuleer oordeel.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "par. 4 + par. 5" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "type": "vergelijkbaar_met",
-      "target": "fusie"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "inbreng-bedrijfstak-of-algemeenheid"
-    },
-    {
-      "type": "vereist",
-      "target": "fiscale-fusie-splitsing"
-    },
-    {
-      "type": "vereist",
-      "target": "bijzondere-mandaten"
+      "id": "boekhouder-splitsing",
+      "naam": { "primair": "Accountant als boekhouder bij splitsing" },
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-splitsing",
+              "naam": { "primair": "Boekingen splitsing" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij de splitsende vennootschap: afboeking van de toegewezen activa en passiva tegen boekwaarde; vermindering eigen vermogen met het netto-overgedragen actief. Bij de verkrijgende vennootschap: inboeking van de ontvangen activa en passiva tegen dezelfde boekwaarde; verhoging eigen vermogen. Vrijgestelde reserves en kapitaalsubsidies worden mee overgenomen (CBN 2022/12). Bij partiele splitsing: de splitsende vennootschap blijft bestaan, dus het eigen vermogen wordt slechts verminderd in plaats van afgeboekt.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies 2022/12", "ref": "boekhoudkundige verwerking" },
+                      { "type": "advies", "naam": "CBN-advies 2009/11", "ref": "partiele splitsing" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "reorganisatie" },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fusie",
+      "toelichting": "Spiegel-verrichtingen: fusie consolideert, splitsing verdeelt. Zelfde procedure en zelfde fiscaal regime.",
+      "gelijkenissen": [
+        "Zelfde procedure WVV boek 12",
+        "Zelfde fiscale neutraliteit (art. 211 WIB92)",
+        "Boekhoudkundige continuiteit",
+        "Verplicht revisorverslag (behoudens eenparigheid)"
+      ],
+      "verschillen": [
+        "Fusie: van veel naar een; splitsing: van een naar veel",
+        "Splitsing kent een verdelingsregel + hoofdelijke aansprakelijkheid die fusie niet kent"
+      ]
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-bedrijfstak-of-algemeenheid",
+      "toelichting": "Beide laten een tak overgaan, maar bij partiele splitsing krijgen de aandeelhouders van A direct aandelen B; bij inbreng krijgt A zelf de aandelen B.",
+      "gelijkenissen": [
+        "Beide laten een tak overgaan zonder ontbinding van de inbrenger",
+        "Beide gebruiken universele rechtsopvolging voor de overgedragen tak"
+      ],
+      "verschillen": [
+        "Wie krijgt de B-aandelen: aandeelhouders van A (partiele splitsing) versus A zelf (inbreng)",
+        "Resulterende structuur: zusterstructuur versus moeder-dochterstructuur",
+        "Fiscaal regime: art. 211 WIB92 (partiele splitsing) versus art. 46 WIB92 (inbreng)"
+      ],
+      "render_hint": "als_keuze"
+    },
+    { "type": "vereist", "target": "fiscale-fusie-splitsing" },
+    { "type": "vereist", "target": "bijzondere-mandaten" }
   ]
 }
