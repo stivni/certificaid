@@ -6,12 +6,15 @@
       "kapitaalsuitbreiding",
       "share capital increase",
       "capital raise"
-    ]
+    ],
+    "vertaling": {
+      "fr": "augmentation de capital"
+    }
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis",
       "regeling"
@@ -21,8 +24,28 @@
       "3.0.IV"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/kapitaalverhoging.json",
+      "primary_bronnen": [
+        "WVV art. 7:165",
+        "WVV art. 7:168",
+        "WVV art. 7:172",
+        "WVV art. 7:173",
+        "WVV art. 7:184",
+        "WVV art. 7:186",
+        "WVV art. 7:187",
+        "WVV art. 7:188",
+        "WVV art. 7:190",
+        "WVV art. 5:120",
+        "WVV art. 5:130",
+        "CBN-advies 2021/01",
+        "CBN-advies 2021/07"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,21 +53,27 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~828)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WVV boek 7 hoofdstuk kapitaalverhoging, CBN 2021/01 + 2021/07). Bundle-flow extract."
       }
     ],
     "scope": {
       "in": [
-        "Latere verhoging van het maatschappelijk kapitaal — AV-besluit + statutenwijziging + notariële akte",
-        "Modaliteiten: in geld · in natura (child-record) · incorporatie reserves · capitalisatie schuldvordering",
-        "Toegestaan kapitaal (machtiging aan bestuursorgaan)",
-        "Meerderheidsregels: gewone vs versterkte meerderheid afhankelijk van vorm",
-        "Boekhoudkundige verwerking (rekeningen 10/11/12 · uitgiftepremie)",
-        "Impact op fiscaal gestort kapitaal"
+        "Latere verhoging van het kapitaal (NV) of de inbreng (BV/CV) — AV-besluit + statutenwijziging + notariële akte",
+        "Modaliteiten: in geld · incorporatie reserves · capitalisatie schuldvordering",
+        "Toegestaan kapitaal — statutaire machtiging aan bestuursorgaan",
+        "Meerderheidsregels en uitgiftepremie (rekening 1100/1110)",
+        "Boekhoudkundige verwerking (rekening 10/11/110)"
       ],
       "out": [
         {
-          "topic": "Kapitaalverhoging in natura — revisorverslag + evaluatie + onroerend-inbreng",
+          "topic": "Kapitaalverhoging in natura — revisorverslag + waardering",
           "richting": "moet-verwijzen",
           "ref": "kapitaalverhoging-in-natura"
         },
@@ -74,72 +103,466 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Kapitaalverhoging** is de verrichting waarbij een bestaande vennootschap haar maatschappelijk kapitaal (NV) of haar onbeschikbare inbreng (BV/CV) uitbreidt door uitgifte van nieuwe aandelen tegen inbreng (geld, natura of incorporatie van reserves) of door verhoging van de fractiewaarde van bestaande aandelen. Bij NV vereist de verhoging een statutenwijziging (art. 7:165 WVV), te besluiten door de algemene vergadering in de vorm van een notariële akte of, binnen de grenzen van het **toegestaan kapitaal**, door het bestuursorgaan (art. 7:184 WVV).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:165", "context": "Verhoging vereist statutenwijziging" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:184", "context": "Toegestaan kapitaal: machtiging bestuur" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch is een kapitaalverhoging een vorm van **eigen-vermogen-financiering**: de vennootschap haalt nieuwe middelen op zonder schulden aan te gaan. Het bestaand **voorkeurrecht** (art. 7:188 NV / 5:130 BV) beschermt zittende aandeelhouders tegen verwatering. Boekhoudkundig komt de inbreng terecht op rekening **100 Geplaatst kapitaal** (NV) of **11 Onbeschikbare inbreng** (BV); het deel boven de fractiewaarde wordt geboekt als **uitgiftepremie (rekening 1100 beschikbaar of 1110 onbeschikbaar)**. Sinds WVV 2019 is de uitgiftepremie geen 'reserve' meer maar 'inbreng buiten kapitaal' (CBN 2021/01).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:188", "context": "Voorkeurrecht NV" },
+            { "type": "advies", "naam": "CBN-advies 2021/01", "ref": "Uitgiftepremie is geen reserve", "datum": "2021-01-20" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Kapitaalverhoging dient drie hoofddoelen: (1) **groei-financiering** (uitbreiding activiteit, overname, R&D); (2) **balansversterking** (terugbrengen schuldgraad; herstellen na verliezen — typisch bij alarmbel-procedure); (3) **strategische participatie** (binnenhalen van nieuwe aandeelhouder, joint venture). Het wettelijk kader balanceert flexibiliteit voor de vennootschap (toegestaan kapitaal) en bescherming van bestaande aandeelhouders (voorkeurrecht, 75%-meerderheid) en derden (publiciteit, revisorverslag bij natura).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese economische ratio" }
           ]
         }
       }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV (Wet 23-03-2019)",
+        "toelichting": "Sinds WVV 2019: BV en CV zijn kapitaalloos → 'kapitaalverhoging' bij BV/CV is technisch een 'verhoging van de inbreng' (art. 5:120 WVV). Bij NV blijft 'kapitaalverhoging' de juiste term met behoud van €61.500 minimum."
+      },
+      "voor": [
+        {
+          "tekst": "Bij **uitbreiding van activiteit** waarvoor externe financiering nodig is en bank-financiering ongewenst of niet beschikbaar is.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **alarmbel-procedure** (eigen vermogen onder wettelijke drempel — art. 7:228 NV / 5:153 BV WVV): kapitaalverhoging als herstelmaatregel om continuïteit te verzekeren.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:228", "context": "Alarmbel NV" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij **incorporatie van reserves** (vrije reserves → kapitaal) om de uitkeerbaarheid van die reserves te neutraliseren en de vennootschap solider te presenteren naar bank/derden.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:186, 3°", "context": "Incorporatie reserves: niet via toegestaan kapitaal tenzij statutair voorzien" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Versterkte meerderheid** vereist: 75% van de stemmen op de AV bij NV (art. 7:153 WVV — statutenwijziging) en 75% bij BV (art. 5:100). Aanwezigheidsquorum: helft van het kapitaal (NV) bij eerste oproeping.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:153", "context": "75% meerderheid statutenwijziging NV" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:100", "context": "75% meerderheid BV-statutenwijziging" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Notariële akte** verplicht: de beslissing wordt vastgelegd in een notariële akte en het uittreksel wordt neergelegd ter griffie (art. 2:7 + 2:13 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:7" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Voorkeurrecht** bij verhoging in geld: bestaande aandeelhouders hebben minstens 15 dagen om hun voorkeurrecht uit te oefenen (art. 7:188 NV / 5:130 BV). Beperking/opheffing van voorkeurrecht vereist verslag bestuur + commissaris + bijzondere AV-meerderheid (art. 7:191 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:188", "context": "Voorkeurrecht 15 dagen NV" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "**Beslissing van de AV** of van het bestuursorgaan (binnen toegestaan kapitaal) tot kapitaalverhoging — de verrichting is voltrokken bij verlijden van de notariële akte en neerlegging.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:165" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Verwatering** voor bestaande aandeelhouders die niet meedoen — beperking voorkeurrecht zonder gepaste bescherming kan leiden tot nietigheid AV-besluit + aansprakelijkheid bestuurders.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:191", "context": "Beperking voorkeurrecht — voorwaarden" }
+            ]
+          }
+        }
+      ]
     },
     "bouwstenen": [
       {
         "id": "toegestaan-kapitaal",
         "naam": {
-          "primair": "Toegestaan kapitaal"
+          "primair": "Toegestaan kapitaal",
+          "synoniemen": ["machtigingskapitaal", "authorized capital"]
         },
         "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — statutaire machtiging aan bestuur om kapitaal te verhogen tot een grensbedrag zonder telkens AV-besluit.",
+            "tekst": "Het **toegestaan kapitaal** is een **statutaire machtiging** aan de raad van bestuur (NV) om het geplaatste kapitaal in één of meer malen te verhogen tot een bepaald bedrag, zonder telkens een AV-besluit + statutenwijziging te moeten organiseren (art. 7:184 WVV). Bij **genoteerde vennootschappen** mag het toegestane bedrag niet hoger zijn dan het bestaande geplaatst kapitaal. De machtiging geldt voor **maximaal 5 jaar** (art. 7:185 WVV — hernieuwbaar) en moet de doeleinden vermelden waarvoor het bestuur ze mag gebruiken.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:184", "context": "Toegestaan kapitaal — machtiging bestuur" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:185", "context": "Maximaal 5 jaar" }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Het toegestane kapitaal geeft het bestuur flexibiliteit om snel op marktopportuniteiten in te spelen (overname-financiering, anti-OBO-bescherming). Art. 7:186 WVV verbiedt het bestuur dit instrument te gebruiken voor (1) verhogingen met beperking voorkeurrecht, (2) verhogingen ten gunste van specifieke personen (niet-personeel), (3) verhogingen door incorporatie reserves — tenzij de statuten dit uitdrukkelijk toelaten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:186" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "modaliteiten-verhoging",
+        "naam": {
+          "primair": "Drie modaliteiten van kapitaalverhoging"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Drie modaliteiten** waarop een kapitaalverhoging kan plaatsvinden:\n\n1. **In geld** — aandeelhouders (bestaande met voorkeurrecht, of derden bij beperking) brengen geld in. NV: minstens 1/4 te volstorten bij beslissing (art. 7:172 WVV). Boeking: D 550 Bank / C 100 + 1100 Uitgiftepremie.\n\n2. **In natura** — inbreng van een goed (machine, vastgoed, schuldvordering, aandelen ...). Vereist revisorverslag (art. 7:183 WVV). Zie afzonderlijk record `kapitaalverhoging-in-natura`.\n\n3. **Incorporatie van reserves / overgedragen winst** — boekhoudkundige overdracht van klasse 13 (reserves) of 14 (overgedragen resultaat) naar klasse 10 (kapitaal). Geen externe inbreng, geen volstortingsplicht. Niet binnen toegestaan kapitaal mogelijk (art. 7:186, 3° WVV).\n\nVariant van (2): **capitalisatie van schuldvordering** (CBN 2021/07) — een schuldvordering op de vennootschap wordt omgezet in kapitaal; technisch is dit een inbreng in natura.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:172", "context": "Volstortingsplicht 1/4" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:183", "context": "Revisorverslag natura" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:186", "context": "Beperkingen toegestaan kapitaal" },
+                { "type": "advies", "naam": "CBN-advies 2021/07", "ref": "Boekhoudkundige verwerking schuldvordering in kapitaal", "datum": "2021-05-05" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitgiftepremie-boeking",
+        "naam": {
+          "primair": "Uitgiftepremie — boekhoudkundige verwerking"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De **uitgiftepremie** is het deel van de inbreng dat **boven** de fractiewaarde van het aandeel ligt. Voorbeeld: aandelen met fractiewaarde €100 worden uitgegeven aan €150 → €50 = uitgiftepremie per aandeel. Volgens CBN-advies 2021/01 is de uitgiftepremie **geen reserve** maar een **inbreng buiten kapitaal** — geboekt op rekening **1100 Uitgiftepremie (beschikbaar)** of **1110 Uitgiftepremie (onbeschikbaar)**, naargelang de statutaire bepaling. Sinds WVV 2019 is de uitgiftepremie in BV/CV minder relevant (kapitaalloos) — alle inbreng komt in rubriek 11 Onbeschikbare inbreng terecht; eventuele 'historische' uitgiftepremie van vóór 2019 blijft op haar oude rekening tot eventuele afname.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "advies", "naam": "CBN-advies 2021/01", "ref": "Uitgiftepremie is geen reserve", "datum": "2021-01-20" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "personeelsaandelen",
+        "naam": {
+          "primair": "Kapitaalverhoging ten gunste van personeel"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een NV die in de **laatste drie boekjaren ten minste twee dividenden** heeft uitgekeerd, kan een kapitaalverhoging doen via uitgifte van **aandelen met stemrecht voor het personeel** (art. 7:190 WVV). Maximum: **20% van het kapitaal** over de huidige + 4 voorgaande boekjaren. De aandelen zijn op naam en **niet overdraagbaar gedurende 5 jaar**. Vereist overleg met centrale ondernemingsraad.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:190", "context": "Personeelsaandelen — voorwaarden + 20%-plafond + 5j-lock" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-nv-verhoging-geld",
+        "titel": "NV BetaTech — kapitaalverhoging in geld met uitgiftepremie",
+        "context": "NV BetaTech (bestaand kapitaal: €100.000 verdeeld in 1.000 aandelen × fractiewaarde €100) wil €200.000 ophalen. AV beslist op 15-04-2026 een verhoging via uitgifte van 1.000 nieuwe aandelen tegen prijs €200 (waarvan fractiewaarde €100 + uitgiftepremie €100). Bestaande aandeelhouders oefenen hun voorkeurrecht voor 100% uit. Volstorting: bij verlijden 25% volstort (art. 7:172 WVV).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:165" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:172" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:188" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "balans_snapshot",
+            "titel": "Balans NV BetaTech — VOOR kapitaalverhoging",
+            "activa": {
+              "vaste_activa": 250000,
+              "liquide_middelen_klasse_5": 50000,
+              "totaal_activa": 300000
+            },
+            "passiva": {
+              "geplaatst_kapitaal_klasse_100": 100000,
+              "reserves_klasse_13": 50000,
+              "overgedragen_winst_klasse_14": 30000,
+              "schulden": 120000,
+              "totaal_passiva": 300000
+            }
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking — Inbreng nieuwe aandeelhouders (25% volstort)",
+            "boekingen": [
+              { "datum": "2026-04-15", "debet": [{"rekening": "550", "label": "Bank — volstort 25%", "bedrag": 50000}, {"rekening": "101", "label": "Niet-opgevraagd kapitaal", "bedrag": 75000}, {"rekening": "1101", "label": "Niet-opgevraagde uitgiftepremie", "bedrag": 75000}], "credit": [{"rekening": "100", "label": "Geplaatst kapitaal (1.000 × €100)", "bedrag": 100000}, {"rekening": "1100", "label": "Uitgiftepremie (1.000 × €100)", "bedrag": 100000}] }
+            ],
+            "toelichting": "Totale inbreng €200.000 geplaatst, waarvan 25% (€50.000) volstort. €150.000 nog op te roepen (kapitaal €75.000 + premie €75.000)."
+          },
+          {
+            "type": "balans_snapshot",
+            "titel": "Balans NV BetaTech — NA kapitaalverhoging (op datum akte)",
+            "activa": {
+              "vaste_activa": 250000,
+              "liquide_middelen_klasse_5": 100000,
+              "totaal_activa_geboekt": 350000
+            },
+            "passiva": {
+              "geplaatst_kapitaal_klasse_100": 200000,
+              "niet_opgevraagd_kapitaal_klasse_101_negatief": -75000,
+              "uitgiftepremie_klasse_1100": 100000,
+              "niet_opgevraagde_uitgiftepremie_klasse_1101_negatief": -75000,
+              "reserves_klasse_13": 50000,
+              "overgedragen_winst_klasse_14": 30000,
+              "schulden": 120000,
+              "totaal_passiva_netto": 350000
+            },
+            "toelichting": "Geplaatst kapitaal verdubbeld naar €200.000. Uitgiftepremie €100.000 separaat. Niet-volstort deel als mindering op kapitaal/premie. Eigen vermogen netto = 200+100+50+30-75-75 = €230.000 (was €180.000 → +€50.000 = effectieve cash-toevoer)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-incorporatie-reserves",
+        "titel": "NV Stabilis — kapitaalverhoging door incorporatie van reserves",
+        "context": "NV Stabilis heeft kapitaal €61.500, beschikbare reserves €100.000, overgedragen winst €40.000. De AV besluit op 30-06-2026 om €80.000 reserves om te zetten in kapitaal (zonder uitgifte van nieuwe aandelen — door verhoging fractiewaarde van bestaande aandelen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:165" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:186, 3°" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking — Incorporatie reserves in kapitaal",
+            "boekingen": [
+              { "datum": "2026-06-30", "debet": [{"rekening": "133", "label": "Beschikbare reserves", "bedrag": 80000}], "credit": [{"rekening": "100", "label": "Geplaatst kapitaal", "bedrag": 80000}] }
+            ],
+            "toelichting": "Geen kasstroom — pure boekhoudkundige verschuiving binnen eigen vermogen. Geen volstortingsplicht (reserves zijn al volstort)."
+          },
+          {
+            "type": "vergelijkingstabel",
+            "titel": "Eigen vermogen NV Stabilis — VOOR vs NA",
+            "kolommen": ["Rubriek", "VOOR (€)", "NA (€)"],
+            "rijen": [
+              ["Geplaatst kapitaal (klasse 100)", "61.500", "141.500"],
+              ["Beschikbare reserves (klasse 133)", "100.000", "20.000"],
+              ["Overgedragen winst (klasse 14)", "40.000", "40.000"],
+              ["TOTAAL EIGEN VERMOGEN", "201.500", "201.500"]
+            ],
+            "conclusie": "Totaal EV onveranderd. Maar €80.000 verschuift van uitkeerbare (reserves) naar onbeschikbare (kapitaal) zone → reduceert toekomstige dividendcapaciteit; sterker signaal naar bank/leveranciers."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-capitalisatie-schuldvordering",
+        "titel": "BV Renova — capitalisatie schuldvordering aandeelhouder",
+        "context": "BV Renova heeft een rekening-courant-schuld van €75.000 aan haar enige aandeelhouder Jan. Om de schuldgraad te verlagen voor een nieuwe bankfinanciering, beslist de AV op 1-10-2026 deze schuldvordering om te zetten in onbeschikbare inbreng (incorporatie schuldvordering = inbreng in natura → revisorverslag vereist; revisor bevestigt nominale waarde).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2021/07", "ref": "Hypothese 1: schuldvordering ingebracht voor nominale waarde", "datum": "2021-05-05" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:120", "context": "BV: verhoging inbreng" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking — Capitalisatie schuldvordering (nominale waarde)",
+            "boekingen": [
+              { "datum": "2026-10-01", "debet": [{"rekening": "489", "label": "Rekening-courant aandeelhouder Jan (schuld)", "bedrag": 75000}], "credit": [{"rekening": "11", "label": "Onbeschikbare inbreng (BV)", "bedrag": 75000}] }
+            ],
+            "toelichting": "Geen kasstroom. Schuld verdwijnt; eigen vermogen stijgt met €75.000. Schuldgraad verbetert direct — debt-to-equity daalt. Bij inbreng aan lagere dan nominale waarde (schuld 'onder pari') ontstaat opbrengst voor de vennootschap (CBN 2021/07 hypothese 2)."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Uitgiftepremie is een reserve",
+        "verkeerde_assumptie": "De uitgiftepremie wordt geboekt op een reserve-rekening (klasse 13).",
+        "kernpunt": "CBN-advies 2021/01: de uitgiftepremie is geen reserve maar een inbreng buiten kapitaal. Ze komt op rekening 1100 (beschikbaar) of 1110 (onbeschikbaar) — niet op klasse 13. Onderscheid: reserves komen uit gerealiseerde winsten; uitgiftepremie komt uit externe inbreng aandeelhouders.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2021/01", "ref": "Uitgiftepremie is geen reserve", "datum": "2021-01-20" }
+          ]
+        }
+      },
+      {
+        "titel": "Bestuur kan alles binnen toegestaan kapitaal",
+        "verkeerde_assumptie": "Eens de AV het toegestaan kapitaal heeft gemachtigd, kan het bestuur zelf alle modaliteiten beslissen (incl. opheffing voorkeurrecht, incorporatie reserves).",
+        "kernpunt": "Art. 7:186 WVV beperkt het toegestaan kapitaal: bestuur kan het NIET gebruiken voor (1) beperking/opheffing voorkeurrecht, (2) uitgifte t.g.v. specifieke personen (niet-personeel), (3) incorporatie reserves — TENZIJ de statuten dit uitdrukkelijk toelaten.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:186" }
+          ]
+        }
+      },
+      {
+        "titel": "BV-'kapitaalverhoging' is technisch incorrect",
+        "verkeerde_assumptie": "Bij een BV spreekt men van 'kapitaalverhoging' net zoals bij NV.",
+        "kernpunt": "Sinds WVV 2019 is de BV kapitaalloos (art. 5:3). Wat boekhoudkundig op dezelfde manier werkt, heet juridisch een 'verhoging van de inbreng' (art. 5:120 WVV) — de term 'kapitaalverhoging' is technisch fout maar wordt in de praktijk frequent gebruikt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:3" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:120" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Statutair toegestaan kapitaal — wel of niet voorzien?",
+        "opties": [
+          {
+            "keuze": "Statutair toegestaan kapitaal voorzien (max. 5 jaar, hernieuwbaar)",
+            "voordeel": "Snelle reactie op markt (overname, anti-OBO); vermijdt herhaalde AV's + notariskosten.",
+            "nadeel": "Vermindert controle aandeelhouders op kapitaalstructuur; kans op verwatering bij beperking voorkeurrecht (mits statuten dat toelaten)."
+          },
+          {
+            "keuze": "Geen toegestaan kapitaal — elke verhoging via AV-besluit",
+            "voordeel": "Maximale aandeelhouderscontrole; geen verrassingen.",
+            "nadeel": "Trager + duurder (notariskosten per verhoging, AV-organisatie); minder flexibel bij snelle kansen."
+          }
+        ],
+        "vuistregel": "Genoteerde NV's voorzien quasi altijd toegestaan kapitaal (markt-flexibiliteit). Familiale niet-genoteerde NV/BV met sterke aandeelhouderscontrole: vaak niet of beperkt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:184" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-vennootschap",
+      "naam": { "primair": "Vanuit de uitgevende vennootschap" },
+      "intro": "De accountant begeleidt de bestuurders + adviseert AV bij de keuze van modaliteit + verzorgt boekhoudkundige verwerking.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekhouding-kapitaalverhoging",
+              "naam": { "primair": "Boekhoudkundige verwerking" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Boekingsschema** kapitaalverhoging (NV-perspectief):\n\n1. **Inbreng in geld, deels volstort** (NV-minimum 25%):\n```\nD 550 Bank (volstort deel)\nD 101 Niet-opgevraagd kapitaal (geplaatst maar niet volstort)\nD 1101 Niet-opgevraagde uitgiftepremie\n  C 100 Geplaatst kapitaal (fractiewaarde × aantal)\n  C 1100 Uitgiftepremie (premie × aantal)\n```\n\n2. **Incorporatie reserves**:\n```\nD 133 Beschikbare reserves (of 14 Overgedragen winst)\n  C 100 Geplaatst kapitaal\n```\n\n3. **Capitalisatie schuldvordering**:\n```\nD 489 (of 17/42) Schuld aan aandeelhouder\n  C 100 Geplaatst kapitaal (+ 1100 Uitgiftepremie indien hoger)\n```\n\nNiet vergeten: oprichtingskosten van de verhoging (notaris, registratie) → klasse 200 of 61/64 (zelfde keuze als bij oprichting).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies 2021/01", "ref": "Voorbeeldboekingen", "datum": "2021-01-20" },
+                      { "type": "advies", "naam": "CBN-advies 2021/07", "ref": "Voorbeeld 1 + Voorbeeld 2", "datum": "2021-05-05" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese boekhoudkundige verwerking" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscaal-gestort-kapitaal",
+              "naam": { "primair": "Impact op fiscaal gestort kapitaal" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor de **vennootschapsbelasting** is het concept **'fiscaal gestort kapitaal'** essentieel (art. 184 WIB92). Verhoging in geld of via inbreng in natura verhoogt het fiscaal gestort kapitaal volledig. Verhoging door **incorporatie van reserves** verhoogt het fiscaal gestort kapitaal NIET automatisch — het deel uit belaste reserves wel, maar het deel uit belastingvrije reserves of liquidatiereserve volgt eigen regels (cascade-bepalingen). Belang: latere terugbetaling van fiscaal gestort kapitaal is belastingvrij; terugbetaling van reserves is een dividend (RV verschuldigd).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 184", "context": "Fiscaal gestort kapitaal" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese impact op fiscaal kapitaal — relevant voor latere kapitaalvermindering" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "bevat",
-      "target": "kapitaalverhoging-in-natura"
-    },
-    {
-      "type": "vereist",
-      "target": "voorkeurrecht"
-    },
-    {
-      "type": "vereist",
-      "target": "volstortingsplicht"
-    },
+    { "type": "valt_onder", "target": "vennootschapsrecht" },
+    { "type": "bevat", "target": "kapitaalverhoging-in-natura" },
+    { "type": "vereist", "target": "voorkeurrecht" },
+    { "type": "vereist", "target": "volstortingsplicht" },
+    { "type": "beinvloed_door", "target": "quasi-inbreng" },
+    { "type": "gecontroleerd_door", "target": "algemene-vergadering" },
     {
       "type": "vergelijkbaar_met",
-      "target": "kapitaalvermindering"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "quasi-inbreng"
-    },
-    {
-      "type": "gecontroleerd_door",
-      "target": "algemene-vergadering"
+      "target": "kapitaalvermindering",
+      "gelijkenissen": [
+        "Beide vereisen statutenwijziging + notariële akte + 75% AV-meerderheid",
+        "Beide zijn een keuze voor het bestuur/AV om de kapitaalstructuur aan te passen"
+      ],
+      "verschillen": [
+        "Verhoging = EV stijgt, externe inbreng of incorporatie; vermindering = EV daalt, uitkering aan aandeelhouders of verlies-aanzuivering",
+        "Verhoging vereist geen schuldeisersbescherming; vermindering wél (3-maandenwachttermijn art. 7:208 WVV)",
+        "Verhoging heeft voorkeurrecht; vermindering niet"
+      ],
+      "verwarring_risico": "Boekingen zijn spiegels — kapitaal D bij vermindering, C bij verhoging — maar de juridische procedures zijn fundamenteel verschillend (vooral schuldeisersbescherming).",
+      "render_hint": "als_keuze"
     }
   ]
 }
