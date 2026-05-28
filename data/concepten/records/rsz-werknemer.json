@@ -3,13 +3,18 @@
   "naam": {
     "primair": "RSZ-werknemer",
     "synoniemen": [
-      "sociale zekerheidsbijdragen werknemer"
-    ]
+      "persoonlijke RSZ-bijdrage",
+      "sociale zekerheidsbijdragen werknemer",
+      "ingehouden RSZ"
+    ],
+    "vertaling": {
+      "fr": "cotisations personnelles ONSS"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -37,9 +42,18 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/rsz-werknemer.json",
+      "primary_bronnen": [
+        "WIB92 art. 52, 7° (aftrek persoonlijke sociale bijdragen)",
+        "Cijferzakboekje 2026 — bijdragepercentages en BBSZ-tabel",
+        "RSZ Algemene onderrichtingen werkgevers"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -48,30 +62,360 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:05:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks + basis sociale-zekerheidskennis. Bundle-flow zonder extra MCP-calls."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De RSZ-werknemersbijdrage is de persoonlijke sociale-zekerheidsbijdrage die op het brutoloon van de werknemer wordt ingehouden door de werkgever en doorgestort aan de Rijksdienst voor Sociale Zekerheid (RSZ). Het standaardpercentage bedraagt 13,07 % en is sinds decennia stabiel (Belgisch hoofdtarief). De bijdrage is een bevrijdende inhouding-aan-bron — wat ingehouden is, hoeft de werknemer niet meer apart te betalen. Daarbovenop komt nog de bijzondere bijdrage voor de sociale zekerheid (BBSZ), een aanvullende heffing die gezinsinkomensafhankelijk is. Voor lage lonen wordt de RSZ-werknemersbijdrage verminderd via de werkbonus.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026 + RSZ-onderrichtingen — 13,07 % standaardtarief" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het inhoudingsmechanisme maakt dat de werknemer de RSZ-bijdrage nooit zelf op zijn rekening krijgt — zij verlaat het brutoloon vóór bedrijfsvoorheffing wordt afgehouden. De berekeningsvolgorde op een loonfiche is: (1) brutoloon → (2) min RSZ-werknemer 13,07 % = belastbaar inkomen → (3) min bedrijfsvoorheffing → (4) netto. De ingehouden RSZ is fiscaal aftrekbaar als beroepskost (art. 52, 7° WIB92), wat de belastinglast op het brutoloon verlaagt — een dubbel voordeel dat de bruto-netto-spreiding niet zo groot maakt als naïef gerekend. De werkgever boekt de inhouding NIET als kost (kost zit al in 620 — bezoldigingen): de inhouding leidt tot een schuld op rekening 454 (RSZ) en een lagere netto-schuld op 455 (lonen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-rekenstroom + MAR-toepassing" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De werknemersbijdrage maakt de werknemer mede-financier van de sociale zekerheid die hem beschermt: pensioen, ziekteverzekering, werkloosheid. Het bronafhouding-systeem garandeert volledige inning — niemand kan ontsnappen, anders dan bij een fiscale aanslag. De vaste 13,07 % is bewust simpel: één tarief voor alle inkomens, geen schijven. De gezinsmodulatie zit dan elders — in de bijzondere bijdrage (BBSZ) die naar inkomensschijven kijkt, en in de werkbonus voor de laagste lonen.",
         "grondslag": {
           "confidence": "verondersteld",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese standaard sociaal-zekerheidsdoctrine" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "loon-en-payroll"
+      ],
+      "kader": "loon-en-payroll",
+      "naast_relevant": [
+        "rsz-werkgever",
+        "werkbonus",
+        "bedrijfsvoorheffing"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2026-01-01",
+        "toelichting": "13,07 % is een structureel stabiel percentage. De werkbonus en de BBSZ-tabel worden wel regelmatig geïndexeerd — exacte bedragen via Cijferzakboekje."
+      },
+      "voor": [
+        {
+          "tekst": "Elke werknemer met een arbeidsovereenkomst onderworpen aan de Belgische sociale zekerheid (DIMONA-aangifte). Geldt voor arbeiders, bedienden, kaderleden, leerlingen — verschillen zitten in bijkomende sectorbijdragen en verminderingen, niet in het hoofdpercentage.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Bedrijfsleiders zonder dienstverband (zelfstandigen — eigen sociaal statuut zelfstandigen via sociaal verzekeringsfonds). Buitenlandse detachering naar België met A1-formulier (bijdragen in herkomstland). Studenten met studentenovereenkomst tot 600 uur per jaar (gunstige solidariteitsbijdrage van 5,42 % gezamenlijk in plaats van 13,07 %).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard uitzonderingen RSZ-aansluiting" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "De ingehouden RSZ-werknemer is aftrekbaar als beroepskost in de PB (art. 52, 7° WIB92) — verlaagt het belastbaar inkomen. Voor de werknemer betekent dit dat 13,07 % bruto al wordt opgevangen door een lagere PB-belastinggrondslag — netto blijft de pijn van de inhouding kleiner.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 52, 7°", "context": "Aftrekbare persoonlijke sociale bijdragen — niet expliciet in bundle maar standaard" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "tarief-13-07",
+        "naam": {
+          "primair": "Standaardtarief 13,07 %"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het basistarief van de RSZ-werknemersbijdrage bedraagt 13,07 % op het brutoloon. Het tarief is uniform — geen schijven, geen leeftijdsdifferentiatie. Sectorbijdragen (bv. solidariteitsbijdrage zware beroepen) kunnen erbij komen voor specifieke groepen, maar 13,07 % is voor het overgrote deel van de Belgische werknemers het werkbare percentage.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijferzakboekje 2026 — stabiel sinds decennia" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bronafhouding-mechanisme",
+        "naam": {
+          "primair": "Bronafhouding-mechanisme"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De werkgever houdt de RSZ-bijdrage in op het brutoloon van de werknemer en stort die door aan de RSZ. De werknemer hoeft zelf niets te doen — geen aangifte, geen betaling. Per kwartaal voert de werkgever een DMFA-aangifte uit waarin per werknemer brutoloon, inhoudingen en verminderingen worden gerapporteerd.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "werkbonus-koppeling",
+        "naam": {
+          "primair": "Werkbonus — vermindering voor lage lonen"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor werknemers met een laag refertekwartaalloon wordt een vermindering op de RSZ-werknemersbijdrage toegepast: de werkbonus. Onder een onderste loongrens: maximale vermindering (forfait). Tussen onderste en bovenste grens: degressief afgebouwd. Boven de bovenste grens: geen vermindering. De werkbonus verhoogt het netto-loon zonder dat de werkgever extra kost draagt — een gericht middel om werkloosheidsval te vermijden. De fiscale werkbonus (PB-vermindering art. 289ter/1 WIB92) komt bovenop de RSZ-vermindering.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synergie sociale + fiscale werkbonus" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bbsz",
+        "naam": {
+          "primair": "Bijzondere bijdrage sociale zekerheid (BBSZ)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bovenop de 13,07 % betaalt de werknemer een bijzondere bijdrage voor de sociale zekerheid (BBSZ) — geheven via inhouding door de werkgever, maar berekend op gezinsinkomensbasis (referentie-inkomen vorig jaar). De heffing is sterk degressief: lage gezinsinkomens betalen vrijwel niets, hogere gezinsinkomens een vast bedrag per maand met een plafond. Het exacte rooster (drempels + bedragen) zit in het Cijferzakboekje.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard payroll-uitleg BBSZ" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-aftrekbaarheid",
+        "naam": {
+          "primair": "Fiscale aftrekbaarheid (art. 52, 7° WIB92)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De persoonlijke sociale-zekerheidsbijdragen (RSZ-werknemer + BBSZ) zijn aftrekbaar als beroepskost in de personenbelasting (art. 52, 7° WIB92). Concreet betekent dit dat het belastbaar beroepsinkomen wordt berekend als brutoloon − RSZ-werknemer − BBSZ. Daarna pas worden forfaitaire of werkelijke beroepskosten van toepassing en wordt de bedrijfsvoorheffing geheven.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 52, 7°", "context": "Persoonlijke sociale bijdragen aftrekbaar" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boeking-rsz-werknemer",
+        "naam": {
+          "primair": "Boekhoudkundige verwerking inhouding"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De RSZ-inhouding op het loon is GEEN bijkomende kost voor de werkgever — zij is een doorgeefluik. Boekhoudkundig: 620 (D, brutoloon) tegenover 454 (C, RSZ-schuld werknemer-deel) + 453 (C, BV-schuld) + 455 (C, netto-loon-schuld). De werkgeverskost zit op 621 (apart). De werknemer ziet enkel het netto-loon (455 → 55 bij betaling).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard MAR-payroll-boeking" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-rsz-3000",
+        "titel": "Inhouding RSZ-werknemer op brutoloon 3.000 EUR",
+        "context": "Jonas werkt bij Zelena Bio NV als bediende. Brutoloon: 3.000 EUR/maand. Geen werkbonus (loon > grens).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Brutoloon = 3.000 EUR",
+              "Stap 2 — RSZ-werknemer = 3.000 × 13,07 % = 392,10 EUR",
+              "Stap 3 — Belastbaar inkomen (vóór BV) = 3.000 − 392,10 = 2.607,90 EUR",
+              "Stap 4 — BBSZ: gezinsinkomensafhankelijk — uit Cijferzakboekje opzoeken (orde van grootte 10–60 EUR/maand)",
+              "Stap 5 — Bedrijfsvoorheffing op 2.607,90 EUR via barema's (typisch ~400–600 EUR voor een alleenstaande)",
+              "Stap 6 — Netto-loon = brutoloon − RSZ − BBSZ − BV ≈ 2.000 EUR (afhankelijk van gezinssituatie)"
+            ],
+            "resultaat": "De RSZ-inhouding kost de werknemer 392 EUR; door de fiscale aftrekbaarheid zit dat reeds verrekend in een lager belastbaar bedrag, wat de netto-pijn verzacht."
+          },
+          {
+            "type": "boeking",
+            "titel": "Vereenvoudigde loonboeking — werknemers-kant (focus inhouding)",
+            "rijen": [
+              { "rekening": "620 — Bezoldigingen", "debet": 3000, "credit": null },
+              { "rekening": "454 — RSZ (werknemer-deel)", "debet": null, "credit": 392 },
+              { "rekening": "453 — Ingehouden BV", "debet": null, "credit": 500 },
+              { "rekening": "455 — Bezoldigingen", "debet": null, "credit": 2108 }
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "RSZ-werknemer dubbel opnemen — als kost én als inhouding",
+        "verkeerde_assumptie": "Studenten boeken de werknemers-RSZ soms als extra kost op 621 (naast 620).",
+        "kernpunt": "De werknemers-RSZ is GÉÉN werkgeverskost — het is een inhouding op het brutoloon. De brutokost zit al volledig op 620. De inhouding leidt tot een schuld op 454 (deel werknemer) zonder een aanvullende kost. Enkel de patronale bijdrage (~25 %) zit op 621.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Werkbonus vergeten bij lage lonen",
+        "verkeerde_assumptie": "Voor een werknemer met laag refertekwartaalloon wordt toch 13,07 % vol ingehouden.",
+        "kernpunt": "De werkbonus vermindert de RSZ-werknemerbijdrage substantieel voor lage lonen (kan tot ~200 EUR/maand schelen aan netto-loon). De RSZ-applicatie en payroll-software berekenen dit automatisch via de DMFA — maar bij manuele berekeningen of bij verificatie van de loonfiche moet dit expliciet meegenomen worden. Niet vergeten dat de fiscale werkbonus daarbovenop nog een PB-vermindering geeft.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "BBSZ op kwartaal- in plaats van gezinsbasis berekenen",
+        "verkeerde_assumptie": "De BBSZ is een gewone werknemersbijdrage op het maandloon — net als 13,07 %.",
+        "kernpunt": "De BBSZ wordt wél ingehouden door de werkgever, maar berekend op gezinsinkomens-basis (referentie-inkomen vorig jaar) — niet op het maandloon zelf. De werkgever weet dit via een attest van de RSZ. Voor een fiscale optimalisatie-advies kan de adviseur het effect van gezinsinkomensveranderingen op de BBSZ inschatten.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "loonfiche-verifier",
+      "naam": {
+        "primair": "Loonfiche-verifier (werknemer-perspectief)"
+      },
+      "intro": "De accountant die een loonfiche van een PB-cliënt nakijkt of de PB-aangifte voorbereidt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "controle-rsz-13-07",
+              "naam": {
+                "primair": "Controle inhoudingspercentage"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Op de loonfiche: brutoloon × 13,07 % moet (bij benadering) overeenkomen met de afgehouden RSZ. Afwijking wijst op (1) werkbonus die actief is — netto-RSZ wordt lager dan 13,07 %; (2) sectorbijdrage extra (zwaar beroep, ploegen) — netto-RSZ wordt iets hoger; (3) fout. Bij twijfel: payroll-software-detail opvragen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "aangifte-rsz-aftrekbaar",
+              "naam": {
+                "primair": "PB-aangifte — RSZ als aftrekbare kost"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "In de PB-aangifte wordt op de fiche 281.10 het brutoloon én de ingehouden persoonlijke RSZ + BBSZ getoond. Het belastbaar bedrag dat in vak IV bezoldigingen komt = brutoloon − persoonlijke sociale bijdragen (art. 52, 7° WIB92). Tax-on-Web doet dit automatisch via de fiche-data; manuele aangiften vereisen aandacht voor het juiste vak.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 52, 7°" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard PB-aangiftepraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "loon-en-payroll"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "rsz-werkgever",
+      "gelijkenissen": [
+        "Beide zijn sociale-zekerheidsbijdragen op het brutoloon",
+        "Beide via dezelfde DMFA-aangifte gerapporteerd",
+        "Beide financieren de Belgische sociale zekerheid"
+      ],
+      "verschillen": [
+        "Werknemer-bijdrage (13,07 %) ingehouden op brutoloon — niet zichtbaar voor werknemer als 'kost'",
+        "Werkgever-bijdrage (~25 %) bovenop brutoloon — werkgeverskost",
+        "Werknemer-bijdrage stabiel uniform tarief; werkgever-bijdrage sectorvariatie + verminderingen",
+        "Werknemer-bijdrage is fiscaal aftrekbaar in PB (art. 52, 7°); werkgever-bijdrage is aftrekbaar in VenB/PB als bedrijfskost (klasse 621)"
+      ],
+      "verwarring_risico": "Op loonfiches en in cijfers verschijnt 'RSZ' vaak zonder verduidelijking welk deel bedoeld is. Op de fiche 281.10 staan beide afzonderlijk — let op de juiste regel.",
+      "render_hint": "als_waarschuwing"
+    },
+    {
+      "type": "triggert",
+      "target": "werkbonus",
+      "toelichting": "Lage refertekwartaallonen activeren werkbonus die de werknemerinhouding vermindert."
     }
   ]
 }
