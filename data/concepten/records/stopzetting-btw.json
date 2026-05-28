@@ -1,34 +1,15 @@
 {
   "id": "stopzetting-btw",
   "naam": {
-    "primair": "Stopzetting BTW"
+    "primair": "Stopzetting BTW",
+    "synoniemen": ["beëindiging btw-activiteit", "604C-procedure", "deregistratie btw"]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.II",
-      "2.4.taak.1"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["2.4.II", "2.4.taak.1"],
     "scope": {
       "in": [
         "604C-aangifte stopzetting BTW-activiteit (binnen maand na stop)",
@@ -37,45 +18,404 @@
         "Cross overdracht-algemeenheid-btw bij continuïteit (TOGC art 11)"
       ],
       "out": [
-        {
-          "topic": "BTW-herziening bij stopzetting",
-          "richting": "moet-verwijzen",
-          "ref": "btw-herziening-bedrijfsmiddelen"
-        },
-        {
-          "topic": "Overdracht algemeenheid (TOGC art 11)",
-          "richting": "moet-verwijzen",
-          "ref": "overdracht-algemeenheid-btw"
-        },
-        {
-          "topic": "Opstart-formaliteiten (spiegel)",
-          "richting": "mag-verwijzen",
-          "ref": "opstart-btw-formaliteiten"
-        }
+        { "topic": "BTW-herziening bij stopzetting", "richting": "moet-verwijzen", "ref": "btw-herziening-bedrijfsmiddelen" },
+        { "topic": "Overdracht algemeenheid (TOGC art 11)", "richting": "moet-verwijzen", "ref": "overdracht-algemeenheid-btw" },
+        { "topic": "Opstart-formaliteiten (spiegel)", "richting": "moet-verwijzen", "ref": "opstart-btw-formaliteiten" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/stopzetting-btw.json",
+      "primary_bronnen": [
+        "W.BTW art. 11",
+        "W.BTW art. 12 §1 5°",
+        "W.BTW art. 48 §2",
+        "W.BTW art. 53 §1 1°",
+        "K.B. nr. 3 art. 10-11"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T14:40:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (W.BTW art. 11, 12, 48)." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (stopzetting-btw).",
+        "tekst": "Stopzetting BTW is de procedure waarbij een belastingplichtige zijn btw-activiteit beëindigt en zijn btw-identificatie laat doorhalen via de 604C-aangifte (binnen één maand na effectieve stopzetting, art. 53 §1 1° W.BTW). De procedure omvat drie luiken: (1) eindafrekening van lopende btw-positie (laatste aangifte met openstaande verschuldigde btw en aftrekken); (2) onttrekking van overblijvende activa — voorraad waarvoor recht op aftrek bestond wordt belastbaar onder art. 12 §1 5° (gelijkgesteld met levering tegen kostprijs); (3) herziening van btw-aftrek op nog-niet-uitgeputte bedrijfsmiddelen volgens art. 48 §2 + K.B. nr. 3 (resterende jaren in herzieningstermijn × 1/5 of 1/15 of 1/25). Bijzondere route: bij overdracht van een algemeenheid van goederen (art. 11) wordt geen btw aangerekend en geen herziening uitgevoerd — overnemer neemt over.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°", "context": "604C-aangifte stopzetting" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°", "context": "Onttrekking voorraad bij stopzetting" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2", "context": "Herziening bedrijfsmiddelen" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11", "context": "Vrijstelling bij overdracht algemeenheid" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch is de stopzetting het btw-spiegelmoment: alle aftrek die de belastingplichtige tijdens zijn levensduur heeft genoten op activa die nog niet volledig zijn 'verbruikt' (verkocht aan eindconsument met btw-output), moet worden afgewikkeld. Voor voorraad: er was een aftrek bij aankoop, dus bij stopzetting moet er een output-btw worden gegenereerd — anders zit er btw-vrije voorraad in het systeem die mogelijk privé wordt geconsumeerd. Voor bedrijfsmiddelen (machines, gebouwen): de aftrek werd toegekend op basis van een verwacht btw-belast gebruik gedurende 5/15/25 jaar; stopzetting voor het einde van die termijn = niet alle jaren zijn 'verdiend', dus pro rata terugbetaling. De TOGC-route (art. 11) is een fiscaal-vriendelijke uitzondering: bij continuïteit (overname van een lopende business door een nieuwe btw-plichtige) wordt de keten niet onderbroken — geen output-btw bij stopper, geen herziening, overnemer neemt restant termijn over.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese economisch effect" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Spiegelbeginsel + neutralisatie van privé-consumptie. De btw is een verbruiksbelasting die de aftrekketen sluit bij de eindconsument; wie ophoudt belastingplichtige te zijn met activa in handen die nog niet via de markt zijn verbruikt, moet die activa 'liquideren' onder btw — anders ontsnapt het verbruik. Het is ook een corrigerend mechanisme: aftrek tijdens activiteit is voorlopig in zoverre ze door btw-output moet worden gedekt — als die output niet komt (stopzetting voor einde van termijn), moet de oorspronkelijke aftrek herzien worden. BTW-richtlijn 2006/112/EG art. 18 c) (goederen behouden bij stopzetting = belastbare handeling) en art. 184-188 (herziening) zijn de juridische basis.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "BTW-richtlijn 2006/112/EG", "ref": "art. 18 c + art. 184-188" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["btw", "opstart-btw-formaliteiten"],
+      "kader": "btw",
+      "naast_relevant": ["btw-herziening-bedrijfsmiddelen", "overdracht-algemeenheid-btw"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "W.BTW art. 11, 12 §1 5°, 48 §2, 53 §1 1° + K.B. nr. 3 art. 10-11 + K.B. nr. 10",
+        "toelichting": "Stabiel regime sinds W.BTW 1969. Herzieningstermijn bedrijfsmiddelen verlengd in 1996 (5j → 5j roerend / 15j onroerend) en 2019 (25j voor opted-in vastgoed)."
+      },
+      "voor": [
+        {
+          "tekst": "Elke btw-belastingplichtige die definitief stopt: vrijwillige stopzetting (pensioen, overstap loondienst, faillietverklaring), opheffing vennootschap, overdracht aan derde (al dan niet onder art. 11), overlijden zelfstandige zonder voortzetting door erfgenamen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Tijdelijke onderbreking zonder definitieve stop (ziekte, sabbatical) — daar volstaat een 604B-wijzigingsaangifte met opschorting. Wijziging van rechtsvorm (eenmanszaak → BV) zonder activiteitswijziging — kan onder art. 11 verlopen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) definitieve beëindiging van alle btw-belastbare handelingen; (2) 604C-aangifte binnen één maand na stopzettingsdatum; (3) laatste periodieke btw-aangifte ingediend over de periode tot stopzetting; (4) eindafrekening voorraad + bedrijfsmiddelen + lopende vorderingen/schulden btw verwerkt; (5) klantenlisting + intracommunautaire opgave tot stopzettingsdatum ingediend.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1" },
+              { "type": "kb", "naam": "K.B. nr. 10", "ref": "art. 2" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Stopzettingsdatum = datum laatste belastbare handeling (laatste factuur of laatste levering). Niet de datum van vrijwillige doorhaling — die kan later vallen, maar telt fiscaal alleen administratief.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-aangeven onttrekking voorraad bij stopzetting → naheffing van btw op kostprijs voorraad + boete 10-200 % (art. 70 W.BTW). Bijkomende verzwarende factor: indien geen 604C is ingediend, blijft het btw-nummer 'actief' in de fiscale databank — boetes voor niet-ingediende aangiften kunnen jaren doorlopen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°" },
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 70" }
+            ]
+          }
+        },
+        {
+          "tekst": "Vergeten herziening bedrijfsmiddelen: een gebouw 5 jaar geleden onder btw aangekocht (15-j termijn) → bij stopzetting moet 10/15 van afgetrokken btw worden terugbetaald aan de fiscus. Kan flink oplopen (honderdduizenden EUR voor onroerend bedrijfsmiddel).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2" },
+              { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 10-11" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "stap-1-laatste-aangifte",
+        "naam": { "primair": "Stap 1 — Laatste periodieke aangifte" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De aangifte over de periode tot en met stopzettingsdatum (kwartaal of maand) wordt ingediend volgens de gewone termijn. Hierin worden alle uitgaande facturen + onttrekkingen (art. 12 §1 5°) + ontvangen facturen opgenomen. Eventuele btw-tegoed: aanvraag tot terugbetaling kan in deze laatste aangifte (vak 72).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 2°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-2-onttrekking-voorraad",
+        "naam": { "primair": "Stap 2 — Onttrekking voorraad (art. 12 §1 5°)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor op de stopzettingsdatum nog aanwezige goederen waarvoor het recht op aftrek (geheel of gedeeltelijk) is uitgeoefend: gelijkgesteld met een levering onder bezwarende titel. Maatstaf = aankoopprijs of, bij gebrek daaraan, kostprijs op het tijdstip van onttrekking (art. 33 §1 1°). Btw wordt aangegeven in de laatste periodieke aangifte (vak 03 + 54). Uitzondering: handelsgoederen die in art. 11-overdracht meegaan.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°" },
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 33 §1 1°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3-herziening-bedrijfsmiddelen",
+        "naam": { "primair": "Stap 3 — Herziening bedrijfsmiddelen (art. 48 §2)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor bedrijfsmiddelen aangekocht binnen herzieningstermijn (5j roerend / 15j onroerend / 25j onroerend onder optie-verhuur): herziening van de oorspronkelijke aftrek pro rata resterende jaren. Formule: terug-te-betalen = oorspronkelijke aftrek × (resterende jaren / totale termijn). Toegepast in laatste aangifte (vak 61 negatief saldo). Geldt niet wanneer het bedrijfsmiddel onder art. 11-overdracht meegaat.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2" },
+                { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 10" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "Terug-te-betalen herziening = Oorspronkelijke btw-aftrek × (Resterende jaren in termijn / Totale termijn 5/15/25)"
+          }
+        ]
+      },
+      {
+        "id": "stap-4-604c",
+        "naam": { "primair": "Stap 4 — 604C indienen + nummerdoorhaling" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "604C-aangifte indienen elektronisch binnen één maand na stopzettingsdatum. Verplichte gegevens: stopzettingsdatum, reden (overlijden / pensioen / overdracht / faillissement / ander), eventueel overnemer-identificatie bij art. 11-overdracht. Btw-administratie haalt het identificatienummer door — vanaf doorhaling kan de gewezen belastingplichtige geen geldige btw-facturen meer uitschrijven. KBO-mutatie volgt automatisch via Crossroads Bank Enterprises.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" },
+                { "type": "kb", "naam": "K.B. nr. 10", "ref": "art. 2" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitzondering-art-11",
+        "naam": { "primair": "Uitzondering art. 11 — overdracht algemeenheid" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij overdracht van een 'algemeenheid van goederen of bedrijfstak' aan een nieuwe btw-belastingplichtige die de activiteit voortzet: geen btw op de overdracht (vrijgesteld art. 11), geen onttrekking voorraad (art. 12 §1 5° vervalt), geen herziening bedrijfsmiddelen (overnemer neemt resterende termijn over via K.B. nr. 3 art. 11 §1). Voorwaarde: overnemer is/wordt btw-plichtig en zet activiteit voort. Belangrijk: dit moet uitdrukkelijk worden vermeld in de overdrachtsakte + 604C; anders verliest de stopper de fiscale gunst.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
+                { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 11 §1" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-stopzetting-met-voorraad-en-machine",
+        "titel": "Stopzetting kleinhandel — voorraad + machine binnen herziening",
+        "context": "Bakker Joris (eenmanszaak, kwartaalaangever) stopt op pensioen per 30 juni. Voorraad bij stop: meel, grondstoffen, bakmaterialen aankoopwaarde 8.000 EUR (excl. btw, btw 6 % = 480 EUR ooit afgetrokken). Bedrijfsmiddel: oven aangekocht 2 jaar geleden voor 25.000 EUR + 5.250 EUR btw (volledig afgetrokken; herzieningstermijn 5j).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §1 5°" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2" },
+            { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 10" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Onttrekking voorraad (art. 12 §1 5°): aankoopwaarde 8.000 × 6 % = 480 EUR btw aan te geven in laatste Q2-aangifte (vak 02 + 54).",
+              "Stap 2 — Herziening oven: oorspronkelijke aftrek 5.250 EUR; gebruikt 2 jaar van de 5-jarige termijn; resterende termijn 3/5; terug-te-betalen = 5.250 × 3/5 = 3.150 EUR (vak 61).",
+              "Stap 3 — Laatste Q2-aangifte saldo: + 480 (voorraad) + 3.150 (oven herziening) − eventuele input-btw juni = totaal te betalen.",
+              "Stap 4 — 604C indienen vóór 31 juli."
+            ],
+            "resultaat": "Totale btw-eindafrekening: 3.630 EUR te betalen aan Schatkist (naast normale Q2-saldo). Joris hield voorraad + oven privé — economisch heeft hij die btw nu op zijn balans als 'consumptie-kost'. Indien hij voorraad + oven aan een opvolger (art. 11) had overgedragen: 0 EUR extra te betalen."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-art-11-bv-overdracht",
+        "titel": "Art. 11-overdracht — verkoop handelszaak aan opvolger",
+        "context": "Slager Vandekerckhove BV verkoopt zijn handelszaak (handelsfonds + voorraad + winkel-inrichting) aan opvolger Slager Mertens BV voor 200.000 EUR. Voorraad waarde 30.000 EUR, winkelinrichting (4 jaar oud, 5j-termijn) oorspronkelijk 50.000 EUR + 10.500 EUR btw afgetrokken. Beide partijen zijn btw-plichtig en Mertens zet de slagerij voort.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
+            { "type": "kb", "naam": "K.B. nr. 3", "ref": "art. 11 §1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "1. Overdrachtsakte vermeldt uitdrukkelijk 'overdracht algemeenheid art. 11 W.BTW'.",
+              "2. Geen btw op de 200.000 EUR overdrachtprijs.",
+              "3. Geen onttrekking voorraad — Mertens neemt over met behoud van btw-aftrek-recht.",
+              "4. Geen herziening winkelinrichting — Mertens neemt de resterende 1/5 termijn over.",
+              "5. Vandekerckhove BV dient 604C in + vermeldt opvolger Mertens BV-btw-nummer."
+            ],
+            "resultaat": "Btw-neutraal voor beide partijen. Zonder art. 11: Vandekerckhove had voorraad-onttrekking 6.300 EUR + winkelinrichting-herziening 2.100 EUR = 8.400 EUR extra moeten betalen; Mertens had ook geen aftrek meer (want geen factuur met btw). Art. 11 maakt de overname economisch identiek aan een doorlopende activiteit."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "604C 'wanneer ik tijd heb' indienen",
+        "verkeerde_assumptie": "Studenten denken dat er voldoende tijd is om de eindafrekening rustig te maken.",
+        "kernpunt": "Termijn is ÉÉN maand na stopzettingsdatum (art. 53 §1 1° W.BTW). Laattijdig = boete + verlies van mogelijke art. 11-gunst (overnemer moet weten dat overdracht onder art. 11 valt — duidelijkheid vereist).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1 1°" }
+          ]
+        }
+      },
+      {
+        "titel": "Voorraad onttrekken aan 'aankoopwaarde' min slijtage",
+        "verkeerde_assumptie": "Studenten passen 'marktwaarde' of een afschrijving toe op de voorraad bij onttrekking.",
+        "kernpunt": "Art. 33 §1 1° W.BTW: maatstaf = aankoopprijs of bij gebrek daaraan kostprijs op het ogenblik van de onttrekking. Bij voorraad in goede staat ≈ aankoopprijs. Lagere waardering enkel mogelijk bij bewezen waardevermindering (bv. bederfbare goederen).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 33 §1 1°" }
+          ]
+        }
+      },
+      {
+        "titel": "Vergeten dat art. 11 expliciet moet vermeld worden",
+        "verkeerde_assumptie": "Bij overdracht handelszaak past art. 11 automatisch toe.",
+        "kernpunt": "De fiscus aanvaardt art. 11 enkel als (a) de overdracht inderdaad een algemeenheid of bedrijfstak betreft, niet enkel losse activa; (b) de overnemer een btw-plichtige is die voortzet; (c) dit uitdrukkelijk wordt gedocumenteerd in de akte. Zonder die elementen → gewone btw-handeling met onttrekking + herziening.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "btw"
+      "id": "stopper-zelfstandige",
+      "naam": { "primair": "Stoppende zelfstandige (pensioen, overdracht)" },
+      "intro": "Accountant van een zelfstandige of vennootschap die de activiteit beëindigt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "scenario-analyse-art-11",
+              "naam": { "primair": "Scenario-analyse art. 11 vs gewone stopzetting" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij overdracht aan opvolger: altijd eerst beoordelen of art. 11 haalbaar is (handelsfonds, voorraad, inventaris samen overgedragen + opvolger btw-plichtig). Berekening 'kostprijs vergeten art. 11' = onttrekking voorraad + herziening bedrijfsmiddelen; vaak veel hoger dan partijen verwachten. Documenteer beslissing en motivering in cliëntdossier.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard stopzettings-praktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "inventarisatie-eindstand",
+              "naam": { "primair": "Inventarisatie + bedrijfsmiddelenlijst per stopzettingsdatum" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per stopzettingsdatum: fysieke voorraadtelling met aankoopwaarde + datum; bedrijfsmiddelenlijst met aankoopdatum + oorspronkelijke btw-aftrek + herzieningstermijn (5/15/25j) + resterende jaren. Dit is de basis voor de eindafrekening. Bewaartermijn 7 jaar voor btw-doeleinden + 10 jaar boekhouding.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 60", "context": "Bewaartermijn btw-stukken" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "btw" },
+    { "type": "triggert", "target": "btw-herziening-bedrijfsmiddelen", "toelichting": "Stopzetting binnen herzieningstermijn activeert pro-rata herziening." },
+    { "type": "vergelijkbaar_met", "target": "overdracht-algemeenheid-btw",
+      "gelijkenissen": [
+        "Beide handelen over beëindiging activiteit en activa-overgang",
+        "Beide vereisen 604C-aangifte"
+      ],
+      "verschillen": [
+        "Stopzetting zonder opvolger = onttrekking + herziening (btw verschuldigd); art. 11-overdracht = continuïteit (geen btw)",
+        "Stopzetting heeft definitief karakter; overdracht behoudt aftrekketen via overnemer"
+      ],
+      "verwarring_risico": "Studenten passen art. 11 toe waar geen algemeenheid wordt overgedragen — enkele activa volstaan niet.",
+      "render_hint": "als_keuze"
+    },
+    { "type": "vergelijkbaar_met", "target": "opstart-btw-formaliteiten",
+      "gelijkenissen": ["Spiegelprocedure — registratie/de-registratie via 604-formulieren"],
+      "verschillen": ["604A vóór aanvang; 604C binnen één maand na stopzetting", "Opstart genereert aftrek; stopzetting kan herziening triggeren"],
+      "verwarring_risico": "Formulier 604A/B/C verwisselen — A = aanvang, B = wijziging, C = stopzetting.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
