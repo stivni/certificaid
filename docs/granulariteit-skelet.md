@@ -274,6 +274,7 @@ beroepsbeoefening                        [thema-cluster onder beroep-en-deontolo
 ├── --- I. STATUUT VAN HET BEROEP ---
 ├── gecertificeerd-accountant            [E-actor, NIEUW]  beroep · toelatingsvereisten · monopolieopdrachten · stagiair → gecertificeerd
 ├── itaa-beroepsorganisatie              [E-orgaan]        structuur · raden · publiek toezicht · openbaar register
+├── commissaris                          [E-actor]         wettelijke controle-opdracht (cross: bestuur · audit · jaarrekening · groottecategorie-vennootschap)
 ├── normbronnen                          [K-overzicht]     wet → KB → reglement → norm → deontologische code → ITAA-normen + ISA
 ├── --- II. DEONTOLOGISCHE BEGINSELEN ---
 ├── deontologie                          [K]               5 beginselen: integriteit · objectiviteit · vakbekwaamheid · vertrouwelijkheid · professioneel gedrag
@@ -626,7 +627,7 @@ Thema: `werknemers-vergoedingen`. *(Auto-gerelateerde VAA leeft in mobiliteit-cl
 ```
 werknemers-vergoedingen
 ├── bedrijfsleidersbezoldiging                       [R]     (overkoepelend advies-regime — zie OP-W.4)
-├── tantième                                         [G+R]   (ook thema: winstuitkering)
+├── tantieme                                         [G+R]   (ook thema: winstuitkering — naam met è schreef tantième)
 ├── forfaitaire-onkostenvergoeding                   [R]
 ├── maaltijdcheques                                  [R]
 ├── ecocheques                                       [R]

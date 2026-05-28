@@ -1223,6 +1223,19 @@
                   "is_virtual": false
                 },
                 {
+                  "id": "voorafbetalingen-pb",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "procedure — `-pb`-suffix behouden; pendant `voorafbetalingen-vennootschapsbelasting` cross PO 2.3; OP-PB.B beslissing pending"
+                  ],
+                  "children": [],
+                  "is_record": false,
+                  "is_virtual": true
+                },
+                {
                   "id": "belastingberekening-pb",
                   "categorieen": [],
                   "is_sigma": false,
@@ -1486,6 +1499,19 @@
                   "children": [],
                   "is_record": true,
                   "is_virtual": false
+                },
+                {
+                  "id": "btw-bedrijfswagen",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "(shared mobiliteit) · margeregeling-tweedehands · btw-bonnen-vouchers",
+                  "extra_flags": [
+                    "specifieke regimes IV"
+                  ],
+                  "children": [],
+                  "is_record": false,
+                  "is_virtual": true
                 },
                 {
                   "id": "btw-vastgoed",
@@ -2709,6 +2735,20 @@
               "is_sigma": false,
               "is_kandidaat": true,
               "annotatie": "werkgever-verplichting bij collectief ontslag + 45+",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "tantieme",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(ook thema: winstuitkering — naam met è schreef tantième)",
               "extra_flags": [],
               "children": [],
               "is_record": true,
@@ -4788,20 +4828,6 @@
               "children": [],
               "is_record": true,
               "is_virtual": false
-            },
-            {
-              "id": "tantieme",
-              "categorieen": [
-                "G",
-                "R"
-              ],
-              "is_sigma": false,
-              "is_kandidaat": false,
-              "annotatie": "(ook thema: werknemers-vergoedingen)",
-              "extra_flags": [],
-              "children": [],
-              "is_record": true,
-              "is_virtual": false
             }
           ]
         }
@@ -4844,6 +4870,19 @@
               "is_sigma": false,
               "is_kandidaat": false,
               "annotatie": "structuur · raden · publiek toezicht · openbaar register",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "commissaris",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wettelijke controle-opdracht (cross: bestuur · audit · jaarrekening · groottecategorie-vennootschap)",
               "extra_flags": [],
               "children": [],
               "is_record": true,
@@ -4976,19 +5015,6 @@
               "is_sigma": false,
               "is_kandidaat": false,
               "annotatie": "▸ team-coordinatie + supervisie ▸ communicatie-met-stakeholders ▸ digitale werkomgeving",
-              "extra_flags": [],
-              "children": [],
-              "is_record": true,
-              "is_virtual": false
-            },
-            {
-              "id": "commissaris",
-              "categorieen": [
-                "E"
-              ],
-              "is_sigma": false,
-              "is_kandidaat": false,
-              "annotatie": "(cross: bestuur · audit · jaarrekening)",
               "extra_flags": [],
               "children": [],
               "is_record": true,

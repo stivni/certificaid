@@ -43,6 +43,13 @@ GELDIGHEID_SUFFIX = {
     "ontwerp": " 📌ontwerp",
 }
 
+# Virtual-nodes uit skelet die bewust GEEN eigen record kregen (cross-vermeld als perspectief
+# of geabsorbeerd in bredere record). Render deze niet als losse tree-knoop.
+DROPPED_VIRTUAL_SLUGS = {
+    "voorafbetalingen-pb",   # geabsorbeerd als perspectief in `voorafbetalingen` (OP-PB.B)
+    "btw-bedrijfswagen",     # cross-vermeld in BTW-cluster, behandeld via `autokosten` + `btw-aftrek`
+}
+
 
 def load_records() -> dict[str, dict]:
     out = {}
@@ -173,10 +180,12 @@ def render_cat_buckets(nodes: list[dict], records: dict[str, dict], heading_dept
 
 def collect_discipline_nodes(disc_or_sub: dict) -> list[dict]:
     """Verzamel alle top-level nodes uit alle clusters onder een (sub-)discipline.
-    Behoudt de children-genest in elke node."""
+    Behoudt de children-genest in elke node. Filtert bewust gedropte virtual-slugs."""
     out = []
     for cluster in disc_or_sub.get("clusters") or []:
         for node in cluster.get("nodes") or []:
+            if node.get("id") in DROPPED_VIRTUAL_SLUGS:
+                continue
             out.append(node)
     return out
 

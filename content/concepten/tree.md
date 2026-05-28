@@ -143,6 +143,7 @@ Bekijk ook: [[_index-po|per programmaonderdeel]] · [[_index-type|per type]] · 
 - 📋 [[fiscale-controle|Fiscale controle]] _accountant_perspectieven[].advies: vertegenwoordigt cliënt (was `mandaat-accountant-fiscus`)_
 - 📋 [[gerechtelijke-fase-belasting|Gerechtelijke fase belasting]] _accountant_perspectieven[].advies: voorbereiding (daarna advocaat)_
 - 📋 [[invorderingsprocedure|Invorderingsprocedure]] _betalingsherinnering · dwangbevel · beslag_
+- 📜 [[tantieme|Tantième]] `[G/R]` _(ook thema: winstuitkering — naam met è schreef tantième)_
 - 📋 [[voorafgaande-beslissing-dvb|Voorafgaande beslissing (DVB)]] _DVB-rulings (cross PO 2.1)_
 
 ### 📋 Regelingen & regimes
@@ -446,7 +447,6 @@ Bekijk ook: [[_index-po|per programmaonderdeel]] · [[_index-type|per type]] · 
 - 📋 [[ontbinding-en-vereffening|Ontbinding en vereffening]] `[G/R]` _vrijwillig (WVV) vs gerechtelijk (WER) · vereffenaar · #boekenstaat-bij-ontbinding (bijzonder mandaat) · #vereffenaarsaansprakelijkheid_
 - ⚙️ [[oprichting-vennootschap|Oprichting van een vennootschap]] `[G/R]` _▸ oprichtingskosten (boekhouding-aspect)_
 - ⚙️ [[splitsing|Splitsing]] `[G/R]` _3 modaliteiten incl. partiële splitsing_
-- 📜 [[tantieme|Tantième]] `[G/R]` _(ook thema: werknemers-vergoedingen)_
 - ⚙️ [[winstbestemming|Winstbestemming]] `[G/R]`
 
 ### 📋 Regelingen & regimes
@@ -476,7 +476,7 @@ Bekijk ook: [[_index-po|per programmaonderdeel]] · [[_index-type|per type]] · 
 
 ### 🏢 Entiteiten & balansposten
 
-- 👤 [[commissaris|Commissaris]] `[E]` _(cross: bestuur · audit · jaarrekening)_
+- 👤 [[commissaris|Commissaris]] `[E]` _wettelijke controle-opdracht (cross: bestuur · audit · jaarrekening · groottecategorie-vennootschap)_
 - 👤 [[gecertificeerd-accountant|Gecertificeerd accountant]] `[E]` _beroep · toelatingsvereisten · monopolieopdrachten · stagiair → gecertificeerd_
 - 👤 [[itaa-beroepsorganisatie|Instituut van de Belastingadviseurs en de Accountants (ITAA)]] `[E]` _structuur · raden · publiek toezicht · openbaar register_
 - 🔧 [[opdrachtaanvaarding-en-opdrachtbrief|Opdrachtaanvaarding en opdrachtbrief]] `[E/R]` _(verhuisd uit controle-opdracht, OP-EC.A) — ITAA-norm-opdrachtbrief_
