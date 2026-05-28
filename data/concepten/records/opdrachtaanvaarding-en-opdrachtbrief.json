@@ -7,12 +7,16 @@
       "opdrachtbrief",
       "engagement acceptance",
       "opdracht-acceptatie"
-    ]
+    ],
+    "vertaling": {
+      "fr": "acceptation de la mission et lettre de mission",
+      "en": "engagement acceptance and engagement letter"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "regeling"
@@ -32,86 +36,357 @@
         "ITAA-norm-opdrachtbrief als kader"
       ],
       "out": [
-        {
-          "topic": "AML-KYC-procedure (overlap)",
-          "richting": "moet-verwijzen",
-          "ref": "antiwitwaspreventie"
-        },
-        {
-          "topic": "Onafhankelijkheidsverklaring + regime",
-          "richting": "moet-verwijzen",
-          "ref": "onafhankelijkheid"
-        },
-        {
-          "topic": "Specifieke opdrachtbrief bij wettelijke controle",
-          "richting": "moet-verwijzen",
-          "ref": "commissaris"
-        },
-        {
-          "topic": "Beroep-uitvoerder",
-          "richting": "moet-verwijzen",
-          "ref": "gecertificeerd-accountant"
-        },
-        {
-          "topic": "Aanvaardingsproces voor bijzondere mandaten (overlap)",
-          "richting": "mag-verwijzen",
-          "ref": "bijzondere-mandaten"
-        },
-        {
-          "topic": "Opdracht-types waarvoor opdrachtbrief geldt",
-          "richting": "mag-verwijzen",
-          "ref": "opdracht-types"
-        }
+        { "topic": "AML-KYC-procedure (overlap)", "richting": "moet-verwijzen", "ref": "antiwitwaspreventie" },
+        { "topic": "Onafhankelijkheidsverklaring + regime", "richting": "moet-verwijzen", "ref": "onafhankelijkheid" },
+        { "topic": "Specifieke opdrachtbrief bij wettelijke controle", "richting": "moet-verwijzen", "ref": "commissaris" },
+        { "topic": "Beroep-uitvoerder", "richting": "moet-verwijzen", "ref": "gecertificeerd-accountant" },
+        { "topic": "Aanvaardingsproces voor bijzondere mandaten (overlap)", "richting": "mag-verwijzen", "ref": "bijzondere-mandaten" },
+        { "topic": "Opdracht-types waarvoor opdrachtbrief geldt", "richting": "mag-verwijzen", "ref": "opdracht-types" }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "cluster-extract-v1",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/opdrachtaanvaarding-en-opdrachtbrief.json",
+      "primary_bronnen": [
+        "ITAA-norm-opdrachtbrief",
+        "ITAA-norm-kmo-controlenorm § 2.2.1 + § 2.2.2",
+        "ITAA-norm-intern-kwaliteitsmanagement",
+        "ISA 210",
+        "ISA 220 (herzien)",
+        "Wet 17 maart 2019 art. 42 + 44",
+        "IESBA-code Section 320"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T08:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T08:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T12:40:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ITAA-norm-opdrachtbrief + ITAA-KMO § 2.2.1-2.2.2 + ITAA-intern-kwaliteitsmanagement + ISA 210/220). Sub-concepten: aanvaardingsproces (4 stappen) + opdrachtbrief-inhoud." }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "‘Opdrachtaanvaarding en opdrachtbrief’ omvat het proces waarmee de gecertificeerd accountant of bedrijfsrevisor (a) **vóór** uitvoering van een opdracht beoordeelt of hij die mag en wil aanvaarden — bekwaamheid, middelen, tijd, onafhankelijkheid, cliënt-integriteit, antiwitwas — en (b) de voorwaarden van de opdracht **schriftelijk vastlegt** in een opdrachtbrief die door beide partijen wordt ondertekend. De wet (art. 42 Wet 17 maart 2019) en de ITAA-norm-opdrachtbrief vereisen dit voor **élke opdracht** — controle, beoordeling, samenstelling, AUP, advies — geen uitzonderingen. De opdrachtbrief is zowel het contractuele beginpunt (wat doen we voor welk bedrag) als het deontologische beginpunt (vanaf welke datum draagt de beroepsbeoefenaar zijn verantwoordelijkheid).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "Inleiding + § 2 Begindatum" },
+            { "type": "wettekst", "naam": "Wet 17 maart 2019", "ref": "art. 42" },
+            { "type": "norm", "naam": "ITAA-norm-intern-kwaliteitsmanagement", "ref": "par. 11" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De opdrachtbrief is geen formaliteit maar een **risico-management-instrument** voor de beroepsbeoefenaar:\n\n- **Defensief**: scope-afbakening voorkomt scope creep en latere ‘we dachten dat u dat ook deed’-discussies; aansprakelijkheidsclausules (binnen wettelijke grenzen) beperken risico; opzegmodaliteiten regelen uitstap.\n- **Offensief**: tijdige overhandiging cliënt-documenten in clausule afdwingbaar; betalingsvoorwaarden en opschortingsrecht bij wanbetaling geregeld.\n- **Deontologisch**: vermelding type opdracht (controle vs samenstelling vs review) voorkomt verwarring over zekerheidsniveau; vermelding onafhankelijkheid; verwijzing naar toepasselijke normen.\n\nAanvaardingsproces is op zich al een **eerste audit-stap**: wie te snel een opdracht aanvaardt zonder integriteits-, capaciteits- en onafhankelijkheids-check, sleept zich vier fases lang door problemen — of moet de opdracht terug geven met reputatie-impact.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "§ 4-7" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom verplicht schriftelijk? (1) **Misverstanden voorkomen**: zonder opdrachtbrief verschilt het verwachtingsbeeld tussen cliënt (‘u doet toch ook fiscale optimalisatie?’) en beroepsbeoefenaar (‘ik doe alleen de samenstelling’) — dat veroorzaakt tucht- en aansprakelijkheidsproblemen. (2) **Aansprakelijkheidsverdeling**: wettelijke afbakening van wie wat moet aanleveren (cliënt) vs wie wat moet uitvoeren (beroepsbeoefenaar). (3) **Tuchtrechtelijk bewijs**: bij latere geschillen is de opdrachtbrief het hoofdbewijsstuk. (4) **Kwaliteitsfilter**: het verplichte aanvaardingsproces dwingt het kantoor om vooraf na te denken — voorkomt impulsieve overname van opdrachten die fout zullen lopen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["gecertificeerd-accountant"],
+      "naast_relevant": ["antiwitwaspreventie", "onafhankelijkheid"],
+      "volgkennis": ["controleopdracht", "opdracht-types"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Wet 17 maart 2019 art. 42-44 · ITAA-norm-opdrachtbrief · ITAA-norm-intern-kwaliteitsmanagement (3/9/2025) · ITAA-norm-kmo-controlenorm § 2.2 · ISA 210 + ISA 220 (herzien) · Antiwitwaswet 18/9/2017 (KYC-luik)",
+        "toelichting": "Verplichting geldt voor élke opdracht uitgevoerd door (gecertificeerd) accountant, belastingadviseur of bedrijfsrevisor — ongeacht type opdracht."
+      },
+      "voor": [
+        {
+          "tekst": "Toepassing: alle opdrachten ongeacht type. Voor wettelijke controle (commissaris): ISA 210-conform; voor KMO-controle/beoordeling: ITAA-KMO-controlenorm § 2.2.2-conform; voor samenstelling: ISRS 4410-conform; voor advies: vrije inhoud maar wel verplichte vorm (ITAA-norm-opdrachtbrief).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "" },
+              { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.2" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Trigger: cliënt benadert kantoor met vraag (of vorige beroepsbeoefenaar stelt mandaatwissel voor). Vanaf dat moment start aanvaardingsproces — opdrachtbrief moet **vóór** uitvoering ondertekend zijn (ITAA-norm-opdrachtbrief § 5). Bij dringende prestaties die niet kunnen wachten op ondertekening: opdrachtbrief retroactief van toepassing maken + redelijke rechtvaardiging documenteren.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "§ 5 Moment van ondertekening" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Aanvaarding mag alleen indien (cumulatief): (a) het kantoor over de nodige bekwaamheid, medewerking, middelen en tijd beschikt; (b) geen voorwaarden die objectieve uitvoering in gedrang brengen of belangenconflict creëren; (c) onafhankelijkheid verzekerd of via safeguards naar aanvaardbaar niveau gebracht; (d) cliënt-integriteit voldoende (KYC); (e) verzekering burgerlijke beroepsaansprakelijkheid in orde; (f) bij rechtspersoon: vertegenwoordiger-natuurlijke-persoon aangeduid met juiste hoedanigheid.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm-intern-kwaliteitsmanagement", "ref": "par. 11 + 13" },
+              { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.1 §32-§35" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Zonder opdrachtbrief: (a) tuchtfout direct vaststelbaar bij inspectie ITAA; (b) civielrechtelijk geen afbakening — cliënt kan claim leggen voor alles wat ‘redelijkerwijs verwacht had mogen worden’; (c) onmogelijkheid om aansprakelijkheid contractueel te beperken (artikel 44 Wet 17/3/2019 verbiedt dat bij voorbehouden opdrachten überhaupt; voor andere opdrachten is contractbeperking de enige hefboom).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "§ 5 Draagwijdte aansprakelijkheid" },
+              { "type": "wettekst", "naam": "Wet 17 maart 2019", "ref": "art. 44" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "aanvaardingsproces",
+        "naam": { "primair": "Aanvaardingsproces (4 stappen)" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Sequentiële stappen vóór ondertekening opdrachtbrief:\n\n**(a) Cliëntenonderzoek + integriteits-check (AML-KYC)** — antiwitwaswet vereist identificatie + verificatie cliënt, lasthebbers, uiteindelijke begunstigden (UBO); bewaring kopie of verwijzing bewijsstukken. Bovendien algemene integriteitsbeoordeling: lopende strafprocedures, reputatiesignalen in markt, weigerings-redenen vorige accountants.\n\n**(b) Competentie- en capaciteits-check** — kan dit kantoor de opdracht aan? Bekwaamheid (sector-kennis, complexiteit), beschikbare uren in geplande periode, hoedanigheid vertegenwoordiger-natuurlijke-persoon, juiste hoedanigheid bij voorbehouden opdrachten.\n\n**(c) Onafhankelijkheids- en ethiek-evaluatie** — IESBA-bedreigingen identificeren (zelf-interest, zelf-review, advocacy, familiariteit, intimidatie), safeguards opzetten of opdracht weigeren. Voor commissaris-opdrachten: extra strenge regels (geen non-audit-services boven materialiteitsdrempel; afkoelperiode bij overstap personeel).\n\n**(d) Overdrachtsgesprek vorige accountant** (indien wisseling) — vraag aan vorige beroepsbeoefenaar of er deontologische bezwaren zijn; voor wettelijke commissaris-opdrachten: zelfs gesprek met aftredende commissaris vereist (WVV).\n\nPas bij groen licht op alle vier: opstellen opdrachtbrief + ondertekening.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.1 §32-§38" },
+                  { "type": "norm", "naam": "ITAA-norm-intern-kwaliteitsmanagement", "ref": "par. 11" },
+                  { "type": "norm", "naam": "ISA 220 (herzien)", "ref": "Cliëntaanvaarding en -continuering" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "opdrachtbrief-inhoud",
+        "naam": { "primair": "Opdrachtbrief — verplichte inhoud" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Vaste inhoud-onderdelen (ITAA-norm-opdrachtbrief + ISA 210 + ITAA-KMO-controlenorm § 2.2.2):\n\n1. **Identificatie partijen** — kantoor (vennootschap + vertegenwoordiger-natuurlijke-persoon) + cliënt\n2. **Begindatum opdracht** — moment vanaf wanneer verantwoordelijkheid beroepsbeoefenaar start\n3. **Type opdracht** — controle / beoordeling / samenstelling / AUP / advies — expliciet met verwijzing naar toepasselijke norm (ISA / ISRE / ISRS / ITAA-norm)\n4. **Scope** — welke financiële overzichten (jaarrekening; tussentijdse cijfers Q-…) of welke specifieke procedures\n5. **Verantwoordelijkheden management** — opstellen jaarrekening, interne beheersing, toegang verschaffen tot info\n6. **Verantwoordelijkheden beroepsbeoefenaar** — uitvoeren volgens norm, beroepsgeheim, professioneel oordeel\n7. **Honoraria** — bedrag of methode (forfaitair, maandelijks, uurloon), betalingsvoorwaarden, opschortingsclausule bij wanbetaling\n8. **Termijnen** — wanneer documenten aanleveren, wanneer rapport afleveren\n9. **Vertrouwelijkheid** — beroepsgeheim-clausule + privacy/GDPR\n10. **Aansprakelijkheid** — eventuele contractuele beperking (binnen wettelijke grenzen — art. 44 Wet 17/3/2019)\n11. **Duurtijd + beëindiging** — onbepaalde duur of bepaalde duur, opzegtermijn (redelijk), onmiddellijke beëindigingsgronden\n12. **Klachtenprocedure** — interne klacht + ITAA-mediator-verwijzing\n13. **Algemene voorwaarden** als bijlage (ondertekenend te bevestigen)\n\nOndertekening in tweevoud — één voor cliënt, één voor revisiedossier.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "§ 2-8" },
+                  { "type": "norm", "naam": "ISA 210", "ref": "Bijlage 1 modelbrief" },
+                  { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.2 §39" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "onafhankelijkheids-bedreigingen",
+        "naam": { "primair": "5 onafhankelijkheidsbedreigingen (IESBA conceptual framework)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "IESBA-code Section 120 onderscheidt vijf bedreigingen die in aanvaardingsfase moeten worden geïdentificeerd:\n\n1. **Zelf-interest threat** — financieel of ander persoonlijk belang in de cliënt (aandelenbezit, lening van/aan cliënt, contingency fee)\n2. **Zelf-review threat** — beoordelen van eigen werk (vorig jaar boekhouder, nu auditor)\n3. **Advocacy threat** — promoten van cliënt-standpunt zodat objectiviteit in gedrang komt (representatie in geschil)\n4. **Familiariteit threat** — te lange of te nauwe relatie (familie in management, lang mandaat met dezelfde teamleden)\n5. **Intimidation threat** — druk door cliënt (dreigen met opzegging, agressief management, materiële afhankelijkheid)\n\nAanpak: identificeren → evalueren significantie → safeguards toepassen (team-rotatie, EQR, scope-aanpassing) → indien onaanvaardbaar: opdracht weigeren of beëindigen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "IESBA-code-of-ethics", "ref": "Section 120 + Section 320" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wisseling-beroepsbeoefenaar",
+        "naam": { "primair": "Overdrachtsgesprek bij wisseling beroepsbeoefenaar" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij wisseling moet de beoogde nieuwe beroepsbeoefenaar vóór aanvaarding contact opnemen met de aftredende beroepsbeoefenaar (IESBA Section 320 + ITAA-deontologie): (a) vragen of er deontologische bezwaren zijn tegen overname; (b) bij commissaris-opdrachten: kennisname laatste verslag + werkdocumenten waar relevant (toestemming cliënt nodig); (c) zelf integriteit cliënt evalueren — vorige opzegging is rode vlag. Vorige beroepsbeoefenaar moet beroepsgeheim respecteren maar mag in algemene termen bezwaren signaleren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "IESBA-code-of-ethics", "ref": "Section 320 Professional Appointments" },
+                { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 37 (kopie verslag opvragen)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aansprakelijkheidsclausule",
+        "naam": { "primair": "Aansprakelijkheidsclausule — grenzen" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Contractuele beperking aansprakelijkheid via opdrachtbrief is mogelijk **behalve**:\n\n- (a) fouten gepleegd met bedrieglijk opzet of oogmerk te schaden (algemeen contractenrecht: niet beperkbaar);\n- (b) **opdrachten voorbehouden aan gecertificeerd accountants** (art. 44 Wet 17 maart 2019 — wettelijk verbod om aansprakelijkheid te beperken).\n\nVoor andere opdrachten: beperking tot bv. 5× of 10× honoraria is gebruikelijk en geldig. Verzekering burgerlijke beroepsaansprakelijkheid is verplicht (ITAA-norm-intern-kwaliteitsmanagement par. 13).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 17 maart 2019", "ref": "art. 44" },
+                { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "§ 5 Draagwijdte aansprakelijkheid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorafgaande-ondertekening",
+        "naam": { "primair": "Voorafgaande ondertekening — uitzonderingen + retroactiviteit" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Hoofdregel: opdrachtbrief **vóór** uitvoering ondertekend. Uitzondering: dringende prestaties ter vrijwaring rechten cliënt (bv. fiscaal bezwaarschrift met deadline). Dan: (a) prestaties uitvoeren, (b) opdrachtbrief zo snel mogelijk opstellen met **retroactiviteitsclausule** voor de uitgevoerde prestaties, (c) bij eventueel deontologisch onderzoek redelijke rechtvaardiging documenteren (waarom geen tijd voor vooraf-ondertekening?). Mag niet door beroepsbeoefenaar zelf veroorzaakt zijn — bijv. lui uitstellen telt niet als reden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "§ 5 Moment van ondertekening" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vertegenwoordiger-natuurlijke-persoon",
+        "naam": { "primair": "Vertegenwoordiger-natuurlijke-persoon" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien opdracht wordt verleend aan kantoor als rechtspersoon: één natuurlijke persoon wordt aangeduid die in naam en voor rekening van de rechtspersoon de opdracht uitvoert. Voor die persoon gelden dezelfde voorwaarden + tuchtaansprakelijkheid als bij eigen-naam-uitvoering. Praktisch belangrijk: vertegenwoordiger moet zelf de juiste hoedanigheid hebben (bv. gecertificeerd accountant voor voorbehouden opdrachten, bedrijfsrevisor voor commissaris-opdracht). Vermelding in opdrachtbrief.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 17 maart 2019", "ref": "art. 42" },
+                { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "Uitvoering § 1" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Opdrachtbrief = standaard-template invullen",
+        "verkeerde_assumptie": "Een opdrachtbrief is een standaard sjabloon waar je naam en bedrag invult.",
+        "kernpunt": "De opdrachtbrief moet de **specifieke opdracht** beschrijven: scope, deliverables, timing, beperkingen, betalingsregeling. Een KMO-jaarafsluiting-template plakken op een commissaris-opdracht is tuchtrechtelijk fout én juridisch gevaarlijk (geen passende afbakening).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Mondelinge afspraak volstaat bij vertrouwde cliënt",
+        "verkeerde_assumptie": "Bij een vaste cliënt van 15 jaar is een nieuwe opdrachtbrief overbodig — alles is bekend.",
+        "kernpunt": "ITAA-norm-opdrachtbrief én ITAA-norm-intern-kwaliteitsmanagement vereisen schriftelijke opdrachtbrief voor **elke** opdracht. Bij doorlopende mandaten: ofwel jaarlijks nieuwe brief, ofwel raamovereenkomst met jaarlijkse bevestiging. ‘We doen dat altijd zo’ is geen verdediging bij tucht.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-intern-kwaliteitsmanagement", "ref": "par. 11" }
+          ]
+        }
+      },
+      {
+        "titel": "Aanvaarden eerst, daarna pas KYC",
+        "verkeerde_assumptie": "We tekenen de opdrachtbrief en daarna doen we het KYC-werk.",
+        "kernpunt": "Antiwitwaswet eist KYC **vóór** aanvang dienstverlening. Bij gebrek: tuchtrechtelijke én strafrechtelijke gevolgen voor de beroepsbeoefenaar. Sequentie is: KYC + integriteits-check → competentie + onafhankelijkheid → opdrachtbrief → uitvoering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.1 §34" }
+          ]
+        }
+      },
+      {
+        "titel": "Aansprakelijkheid kan altijd beperkt worden",
+        "verkeerde_assumptie": "Met de opdrachtbrief beperk ik mijn aansprakelijkheid tot 1× honorarium — overal.",
+        "kernpunt": "Art. 44 Wet 17/3/2019: voor opdrachten voorbehouden aan gecertificeerd accountants is contractuele beperking **niet toegestaan**. Bovendien geldt: zelfs bij niet-voorbehouden opdrachten is beperking nietig bij bedrieglijk opzet of oogmerk te schaden. Onredelijk lage limieten kunnen ook nietig zijn (algemeen contractenrecht).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 17 maart 2019", "ref": "art. 44" },
+            { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "§ 5" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Opzegtermijn in opdrachtbrief",
+        "opties": [
+          { "keuze": "Onbepaalde duur + opzegtermijn 3 maanden", "voordeel": "Korte exit voor beide partijen; vlot bij wijzigende noden", "nadeel": "Kantoor moet snel reorganiseren bij plotse opzegging" },
+          { "keuze": "Onbepaalde duur + opzegtermijn 6 maanden", "voordeel": "Stabiliteit + tijd voor overdracht", "nadeel": "ITAA Commissie van beroep heeft 6m al als ‘plicht van waardigheid en eerlijkheid’-schending beoordeeld in oudere zaak — voorzichtig" },
+          { "keuze": "Bepaalde duur (typisch 3 jaar voor commissaris)", "voordeel": "Wettelijk voorzien voor commissaris-mandaat (WVV art. 3:58)", "nadeel": "Geen flexibiliteit voor cliënt tenzij gerechtelijke beëindiging" }
+        ],
+        "vuistregel": "Voor courante opdrachten: opzegtermijn 1-3 maanden is redelijk. Lange opzegtermijnen (>6m) kunnen tuchtrechtelijk worden gecontesteerd als ‘waardigheid-schending’.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm-opdrachtbrief", "ref": "§ 6 Einde overeenkomst" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "triggert",
-      "target": "controleopdracht"
-    },
-    {
-      "type": "vereist",
-      "target": "antiwitwaspreventie"
-    },
-    {
-      "type": "vereist",
-      "target": "onafhankelijkheid"
-    },
-    {
-      "type": "uitgevoerd_door",
-      "target": "gecertificeerd-accountant"
+      "id": "perspectief-aanvaarder",
+      "naam": { "primair": "De accountant als aanvaarder van een nieuwe opdracht" },
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "aanvaardings-checklist",
+              "naam": { "primair": "Aanvaardings-checklist (voor elke nieuwe opdracht)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) KYC: identificatie cliënt + lasthebbers + UBO; bewaring bewijsstukken (10j). (2) Integriteits-check: open bronnen, gerechtelijke databanken, eventueel referenties. (3) Bij wisseling: contact vorige beroepsbeoefenaar — bezwaren? (4) Competentie-check: heeft kantoor relevante sector-kennis en beschikbare uren? (5) Onafhankelijkheids-evaluatie volgens IESBA-framework; safeguards uitwerken indien nodig. (6) Engagement-acceptance-memo opstellen en intern laten reviewen door tweede partner. (7) Opdrachtbrief opstellen met alle 13 inhoudspunten; ondertekenen in tweevoud. (8) Documentatie aanvaarding archiveren in permanent dossier.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.1 §38 (documentatie aanvaarding)" },
+                      { "type": "norm", "naam": "ITAA-norm-intern-kwaliteitsmanagement", "ref": "par. 11" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "triggert", "target": "controleopdracht" },
+    { "type": "vereist", "target": "antiwitwaspreventie" },
+    { "type": "vereist", "target": "onafhankelijkheid" },
+    { "type": "uitgevoerd_door", "target": "gecertificeerd-accountant" }
   ]
 }
