@@ -4,25 +4,33 @@
     "primair": "Fiscale fusie-splitsing",
     "synoniemen": [
       "fiscale neutraliteit fusie/splitsing",
-      "tax-neutral merger",
-      "fusierichtlijn-regime"
+      "fiscaal-neutraal regime herstructurering",
+      "rollover-regime"
     ]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.3.III.B",
-      "3.0.taak.2",
-      "2.4.taak.3"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["3.0.taak.2", "3.0.taak.3", "2.3.III.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fiscale-fusie-splitsing.json",
+      "primary_bronnen": [
+        "WIB92 art. 211 (vrijstelling meerwaarden)",
+        "WIB92 art. 212 (continuiteit waardering)",
+        "WIB92 art. 213 (verliesoverdracht)",
+        "WIB92 art. 214 (gevolgen aandeelhouders)",
+        "WIB92 art. 183bis (anti-misbruik)",
+        "WIB92 art. 95 + 96 (vrijstelling aandeelhouder PB)",
+        "EU-Richtlijn 2009/133/EG art. 1, 4, 8"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,53 +38,65 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit reorganisatie-cluster (skelet-doc regel ~1356)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:45:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle (WIB92 art. 211-214 + 183bis, EU-Richtlijn 2009/133)."
       }
     ],
     "scope": {
       "in": [
-        "Fiscale-neutraliteits-regime VenB — vrijstelling realisatie meerwaarden mits voorwaarden",
-        "Voorwaarden: continuïteit · bedrijfsmatige redenen (anti-misbruik) · binnen-EU",
-        "EU fusierichtlijn 2009/133/EG (voor grensoverschrijdend)",
-        "Latente belasting-overdracht — overgenomen venn neemt fiscale schoenen over",
-        "Cross-thema: anti-misbruik (motivering-toets)"
+        "Fiscale-neutraliteits-regime in vennootschapsbelasting — vrijstelling realisatie meerwaarden mits voorwaarden",
+        "Voorwaarden: continuiteit waardering, bedrijfsmatige redenen (anti-misbruik), binnen-EU verkrijger",
+        "EU fusierichtlijn 2009/133/EG (voor grensoverschrijdende herstructurering)",
+        "Latente belasting-overdracht — overgenomen vennootschap geeft fiscale 'schoenen' door aan verkrijger",
+        "Verliesoverdracht (beperkt naar pro-rata fiscaal netto-actief)",
+        "Behandeling aandeelhouder: vrijstelling onder voorwaarden art. 95 + 96 WIB92 in PB",
+        "Anti-misbruik-bepaling art. 183bis WIB92 (motivering-toets: zakelijke overwegingen)"
       ],
       "out": [
-        {
-          "topic": "Reorganisatie-Σ als parent-keuzekader",
-          "richting": "moet-verwijzen",
-          "ref": "reorganisatie"
-        },
-        {
-          "topic": "Fusie — vennootschapsrechtelijke modaliteit",
-          "richting": "moet-verwijzen",
-          "ref": "fusie"
-        },
-        {
-          "topic": "Splitsing — vennootschapsrechtelijke modaliteit",
-          "richting": "moet-verwijzen",
-          "ref": "splitsing"
-        },
-        {
-          "topic": "Inbreng-bedrijfstak-of-algemeenheid — verwant fiscaal regime",
-          "richting": "moet-verwijzen",
-          "ref": "inbreng-bedrijfstak-of-algemeenheid"
-        }
+        { "topic": "Reorganisatie-Sigma als parent-keuzekader", "richting": "moet-verwijzen", "ref": "reorganisatie" },
+        { "topic": "Fusie als vennootschapsrechtelijke modaliteit", "richting": "moet-verwijzen", "ref": "fusie" },
+        { "topic": "Splitsing als vennootschapsrechtelijke modaliteit", "richting": "moet-verwijzen", "ref": "splitsing" },
+        { "topic": "Inbreng-bedrijfstak — verwant fiscaal regime (art. 46 WIB92)", "richting": "moet-verwijzen", "ref": "inbreng-bedrijfstak-of-algemeenheid" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het regime van de fiscale fusie-splitsing is het fiscaal-neutrale regime in de vennootschapsbelasting voor fusies, splitsingen en met fusie of splitsing gelijkgestelde verrichtingen. De kern: latente meerwaarden die in de overgedragen activa schuilen worden niet onmiddellijk belast, op voorwaarde dat de verkrijgende vennootschap de waarderingen en fiscale historiek van de overdrager voortzet. Het regime is verankerd in artikelen 211 tot 214 WIB92, ondersteund door artikel 183bis (anti-misbruik) en — voor grensoverschrijdende verrichtingen — door de EU-Richtlijn 2009/133/EG.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 212" },
+            { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG (fusierichtlijn)", "ref": "considerans 2 + art. 4" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Zonder dit regime zou elke herstructurering economisch onmogelijk worden gemaakt door belasting. Stel: een vennootschap heeft een gebouw met boekwaarde 1.000.000 EUR en marktwaarde 3.000.000 EUR (latente meerwaarde 2.000.000 EUR). Bij een gewone verkoop wordt die meerwaarde belast tegen 25% VenB — een afrekening van 500.000 EUR. Bij een fiscaal-neutrale fusie wordt die belasting niet onmiddellijk geheven: de overnemer neemt het gebouw over tegen dezelfde boekwaarde 1.000.000 EUR en zet daar de latente meerwaarde voort. Pas wanneer de overnemer het gebouw later effectief verkoopt, wordt belast. Het is een 'uitstel' — niet een 'kwijtschelding'. Dat is het rollover-mechanisme.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1 + art. 212" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld om mechanisme uit te leggen" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het regime balanceert twee belangen. Enerzijds wil de wetgever herstructureringen niet bestraffen — dat is economisch nuttig en typisch belastingneutraal in werkelijkheid (geen geld stroomt naar buiten). Anderzijds wil de wetgever vermijden dat fusies en splitsingen worden gebruikt om meerwaarden zonder belasting te verzilveren, of om verliezen op te kopen die buiten de groep nooit fiscaal nuttig zouden zijn. Vandaar de voorwaarden: continuiteit (geen step-up in waardering) plus zakelijke motivering (geen kunstmatige constructie). De EU-richtlijn dwingt deze logica op alle lidstaten af om de Europese interne markt voor herstructurering open te houden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 + 183bis" },
+            { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "considerans 2-5" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
           ]
         }
       }
@@ -84,22 +104,412 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 211 ev + EU Fusierichtlijn 2009/133/EG"
+        "sinds": "1992-01-01",
+        "wettelijke_basis": "WIB92 art. 211-214 + 183bis; EU-Richtlijn 2009/133/EG (gecodificeerde versie)"
+      },
+      "voor": [
+        {
+          "tekst": "Binnenlandse fusies, splitsingen en gelijkgestelde verrichtingen tussen Belgische vennootschappen onderworpen aan VenB.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1" }]
+          }
+        },
+        {
+          "tekst": "Grensoverschrijdende verrichtingen binnen de EU: een Belgische vennootschap wordt overgenomen door of fuseert met een intra-Europese vennootschap.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "art. 1" },
+              { "type": "advies", "naam": "CBN-advies 2009/16", "ref": "grensoverschrijdende fusie" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Verrichtingen met derde landen buiten de EU: deze vallen niet automatisch onder het neutraliteitsregime — er kunnen nationale verschillen of bilateraal verdrag spelen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "art. 1 (toepassingsgebied)" }
+            ]
+          }
+        },
+        {
+          "tekst": "Verrichtingen die kwalificeren als belastingontwijking onder art. 183bis WIB92 — neutraliteit wordt geweigerd of teruggedraaid.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 183bis" }]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "De verkrijgende vennootschap is een binnenlandse of intra-Europese vennootschap onderworpen aan een belasting gelijkaardig aan de VenB.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1" },
+              { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "art. 3 + bijlage" }
+            ]
+          }
+        },
+        {
+          "tekst": "Boekhoudkundige en fiscale continuiteit: de verkrijger zet de waarderingen, afschrijvingen, voorzieningen en vrijgestelde reserves voort op dezelfde basis als bij de overdrager (art. 212 WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 212" }]
+          }
+        },
+        {
+          "tekst": "De verrichting moet gebaseerd zijn op zakelijke overwegingen, niet op belastingfraude of -ontwijking als hoofddoel (art. 183bis WIB92 — omzetting van art. 15 EU-fusierichtlijn).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 183bis" },
+              { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "art. 15" }
+            ]
+          }
+        },
+        {
+          "tekst": "De opleg in geld blijft binnen de 10%-grens (art. 2 — 6°/1 WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 6°/1" }]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Geen onmiddellijke belasting van latente meerwaarden bij de overgedragen activa.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 211 par. 1" }]
+          }
+        },
+        {
+          "tekst": "Vrijgestelde reserves, kapitaalsubsidies en herwaarderingsmeerwaarden blijven onaangetast (overgenomen onder dezelfde voorwaarden).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 212" }]
+          }
+        },
+        {
+          "tekst": "Fiscaal overgedragen verliezen, DBI-overschotten en niet-benutte aftrekken kunnen worden overgenomen (beperkt naar pro-rata fiscaal netto-actief, art. 206 par. 2 WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 206 par. 2" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 213" }
+            ]
+          }
+        },
+        {
+          "tekst": "Voor de aandeelhouder-natuurlijke persoon: vrijstelling van belasting op de aandelenruil onder art. 95 + 96 WIB92.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 95" },
+              { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "art. 8" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Herkwalificatie als belastingontwijking (art. 183bis): de fiscus weigert de neutraliteit en belast de meerwaarden, mogelijks met belastingverhoging.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 183bis" }]
+          }
+        },
+        {
+          "tekst": "Doorbreking van de continuiteit (bv. door step-up in boekwaarde bij de overnemer): realisatie van meerwaarden wordt alsnog belast.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 212" }]
+          }
+        },
+        {
+          "tekst": "Verlies van fiscale neutraliteit bij niet-naleving van de onaantastbaarheidsvoorwaarde voor vrijgestelde reserves: heffing op die reserves bij latere uitkering.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 190 (onaantastbaarheidsvoorwaarde)" },
+              { "type": "advies", "naam": "CBN-advies 2021/10", "ref": "vrijgestelde reserves" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "continuiteit-waardering",
+        "naam": { "primair": "Continuiteit van waardering" },
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De verkrijgende vennootschap neemt elk overgedragen actief over tegen de boekwaarde en fiscale waarde die het op het moment van de fusie/splitsing had in de boeken van de overdrager. Afschrijvingen lopen verder op de oorspronkelijke aanschaffingswaarde; vrijgestelde reserves blijven hun status behouden; voorzieningen worden in dezelfde context voortgezet. Voor latere meerwaarden geldt steeds de oorspronkelijke historische waarde als referentie (art. 212 WIB92).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 212" }]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "anti-misbruik-test",
+        "naam": { "primair": "Anti-misbruik-test (art. 183bis WIB92)" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een fusie of splitsing valt niet onder het neutraliteitsregime als belastingfraude of -ontwijking het hoofddoel of een van de hoofddoelen is. Een verrichting wordt vermoed door fraude/ontwijking gemotiveerd te zijn als ze niet plaatsvindt op grond van zakelijke overwegingen, zoals herstructurering of rationalisering van de activiteiten. Het bewijs van zakelijke overwegingen ligt bij de belastingplichtige.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 183bis" },
+                  { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "art. 15" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De wetgever wil voorkomen dat het neutraliteitsregime wordt misbruikt voor zuiver fiscale doeleinden — bv. een fusie die alleen bedoeld is om verliezen op te kopen, of een splitsing die in feite een verkapte liquidatie is. Het bestuursverslag dat aan de AV wordt voorgelegd, moet de zakelijke motivering documenteren — vandaar het belang van een goed onderbouwd bestuursverslag.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktische gevolgtrekking" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "verliesoverdracht",
+        "naam": { "primair": "Verliesoverdracht bij fusie/splitsing" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Fiscaal overgedragen verliezen van de overgenomen vennootschap kunnen door de verkrijger worden voortgezet, maar slechts beperkt. De verkrijger mag verliezen aftrekken in verhouding tot het fiscaal netto-actief van de overgenomen vennootschap ten opzichte van het totale fiscaal netto-actief na fusie (art. 206 par. 2 WIB92). Dit voorkomt 'verliesopkoop'.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 206 par. 2" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 213" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Voorbeeld: vennootschap A (overdrager) heeft 500.000 EUR overgedragen verliezen en een fiscaal netto-actief van 1.000.000 EUR. Vennootschap B (verkrijger) heeft eveneens 1.000.000 EUR fiscaal netto-actief. Na de fusie is het gecombineerd netto-actief 2.000.000 EUR. De overgedragen verliezen van A kunnen worden gebruikt door B, beperkt tot 500.000 EUR × (1.000.000 / 2.000.000) = 250.000 EUR. De helft van de verliezen wordt fiscaal 'verloren'.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 206 par. 2" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "aandeelhouder-vrijstelling",
+        "naam": { "primair": "Vrijstelling aandeelhouder bij aandelenruil" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Voor de aandeelhouder-natuurlijke persoon (PB) en de aandeelhouder-vennootschap geldt een tijdelijke vrijstelling voor de meerwaarde gerealiseerd bij de aandelenruil. De ontvangen nieuwe aandelen vervangen fiscaal de oude — de aanschaffingswaarde wordt overgedragen (art. 95 + 96 WIB92, omzetting van art. 8 EU-fusierichtlijn). Effect: belasting wordt uitgesteld tot de uiteindelijke verkoop van de nieuwe aandelen door de aandeelhouder.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 95" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 96" },
+                  { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "art. 8" }
+                ]
+              }
+            }
+          }
+        }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "rollover-mechanisme",
+        "naam": { "primair": "Rollover-mechanisme — uitstel, geen kwijtschelding" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Latente meerwaarden worden niet belast bij de fusie/splitsing zelf, maar de fiscale claim 'rolt' mee naar de verkrijger. Bij latere verkoop of realisatie door de verkrijger wordt alsnog belast — met als referentie de oorspronkelijke aanschaffingswaarde. Dat is uitstel, geen kwijtschelding.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 212" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactische benoeming van het mechanisme" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "zakelijke-overwegingen-bewijs",
+        "naam": { "primair": "Bewijs van zakelijke overwegingen" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige moet aantonen dat de verrichting plaatsvindt op grond van zakelijke overwegingen. Aanvaardbare motieven: schaalvoordelen, herstructurering van activiteiten, vereenvoudiging van de groepsstructuur, financierings- of marktoverwegingen, opvolgingsplanning. Niet-aanvaardbare motieven: enkel verlies-opkoop, uitkering van reserves vermomd als kapitaalvermindering.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 183bis" },
+                { "type": "richtlijn", "naam": "EU-Richtlijn 2009/133/EG", "ref": "art. 15" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-rollover",
+        "titel": "Latente meerwaarde op gebouw bij fusie Aurelia-Zelena",
+        "context": "Aurelia Holding NV neemt Zelena Bio NV over. Zelena bezit een gebouw met boekwaarde 1.000.000 EUR, marktwaarde 3.000.000 EUR, latente meerwaarde 2.000.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld rollover" }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "scenario-uitkomst",
+            "naam": { "primair": "Vergelijking met en zonder fiscale neutraliteit" },
+            "bouwsteen_type": "mechanisme",
+            "kern": {
+              "definitie": {
+                "tekst": "Zonder neutraliteit (gewone verkoop): Zelena realiseert meerwaarde 2.000.000 EUR, belast tegen 25% VenB = 500.000 EUR onmiddellijke belastingafrekening. Met neutraliteit (fiscale fusie): Aurelia neemt het gebouw over tegen boekwaarde 1.000.000 EUR. Geen onmiddellijke belasting. Indien Aurelia het gebouw 5 jaar later verkoopt voor 3.500.000 EUR, wordt de meerwaarde 2.500.000 EUR (3.500.000 - 1.000.000) op dat moment belast. De latente meerwaarde 'rolt' dus mee tot effectieve realisatie.",
+                "grondslag": {
+                  "confidence": "afgeleid",
+                  "bronnen": [
+                    { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 + 212" },
+                    { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cijfervoorbeeld" }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Neutraliteit verwarren met definitieve vrijstelling",
+        "verkeerde_assumptie": "De fiscale fusie elimineert de belastingclaim op latente meerwaarden.",
+        "kernpunt": "Het regime is een uitstel, geen kwijtschelding. De fiscale claim 'rolt' mee naar de verkrijger. Bij latere verkoop door de verkrijger wordt alsnog belast op basis van de oorspronkelijke aanschaffingswaarde van de overdrager. Wat je vandaag niet betaalt, betaal je later.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 212" }]
+        }
+      },
+      {
+        "titel": "Verliesoverdracht volledig achten",
+        "verkeerde_assumptie": "Alle overgedragen verliezen van de overgenomen vennootschap kunnen volledig worden gebruikt door de verkrijger.",
+        "kernpunt": "De verliesoverdracht is beperkt naar verhouding van het fiscaal netto-actief van de overgenomen vennootschap ten opzichte van het gecombineerd fiscaal netto-actief na fusie (art. 206 par. 2 WIB92). Een deel van de verliezen kan dus fiscaal 'verloren' gaan — een belangrijke kost van fusie die in de pre-merger-due-diligence moet worden begroot.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 206 par. 2" }]
+        }
+      },
+      {
+        "titel": "Anti-misbruik onderschatten",
+        "verkeerde_assumptie": "Als de verrichting WVV-rechtelijk klopt, accepteert de fiscus de neutraliteit automatisch.",
+        "kernpunt": "De fiscus toetst zelfstandig of er zakelijke overwegingen zijn (art. 183bis WIB92). Een vennootschapsrechtelijk geldige fusie kan fiscaal worden afgekeurd als bv. de hoofdmotivering verliesopkoop of dividend-vermijding is. Het bestuursverslag moet de zakelijke motivering documenteren — een ruling-aanvraag bij de Dienst Voorafgaande Beslissingen kan voor rechtszekerheid zorgen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{ "type": "wettekst", "naam": "WIB92", "ref": "art. 183bis" }]
+        }
+      },
+      {
+        "titel": "Onaantastbaarheidsvoorwaarde vergeten bij vrijgestelde reserves",
+        "verkeerde_assumptie": "Vrijgestelde reserves blijven na de fusie zonder voorbehoud vrijgesteld.",
+        "kernpunt": "De vrijgestelde reserves (bv. spreidings-meerwaarden, herinvesteringsmeerwaarden) moeten in de boeken van de verkrijger geboekt blijven op een onbeschikbare reserverekening, mits de onaantastbaarheidsvoorwaarde van art. 190 WIB92 (geen uitkering, geen vermindering eigen vermogen). Bij niet-naleving worden ze alsnog belast. CBN 2021/10 beschrijft de juiste boekhoudkundige verwerking.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 190 + 212" },
+            { "type": "advies", "naam": "CBN-advies 2021/10", "ref": "wedersamenstelling vrijgestelde reserves" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "reorganisatie"
+      "id": "fiscaal-adviseur",
+      "naam": { "primair": "Accountant als fiscaal adviseur" },
+      "intro": "De gecertificeerd accountant is het natuurlijke aanspreekpunt voor de fiscale neutraliteit-toets bij elke geplande herstructurering.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "neutraliteit-checklist",
+              "naam": { "primair": "Pre-fusie-checklist" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Stap 1: Verifieer of beide vennootschappen binnen- of intra-Europees zijn (art. 211 par. 1). Stap 2: Verifieer dat de continuiteitsregels haalbaar zijn — de verkrijger mag geen waarderingsbreuk doorvoeren. Stap 3: Documenteer zakelijke motivering in een bestuursverslag (art. 183bis). Stap 4: Begroot het verlies aan overdraagbare verliezen (art. 206 par. 2). Stap 5: Bewaar vrijgestelde reserves op de gepaste eigen-vermogensrekeningen. Stap 6: Overweeg ruling-aanvraag bij DVB voor zekerheid over art. 183bis-toets bij twijfelgevallen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 211 + 183bis + 206 par. 2" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktische checklist" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "type": "vereist",
-      "target": "fusie"
-    },
-    {
-      "type": "vereist",
-      "target": "splitsing"
+      "id": "boekhouder-rollover",
+      "naam": { "primair": "Accountant als boekhouder — rollover-boekingen" },
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-continuiteit",
+              "naam": { "primair": "Boeken volgens continuiteitsbeginsel" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij de verkrijger: neem activa en passiva over tegen boekwaarde van de overdrager. Boek vrijgestelde reserves op de juiste vrijgestelde reserverekening (geen winst, geen kapitaal). Verwerk de oorspronkelijke aanschaffingswaarden en afschrijvingsgrondslagen voort. Vermeld in de toelichting bij de jaarrekening van het fusiejaar de toepassing van het neutraliteitsregime + naam van de overdrager (art. 78 par. 6 KB WVV).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies 2021/10", "ref": "boekhoudkundige verwerking" },
+                      { "type": "kb", "naam": "KB WVV", "ref": "art. 3:77 par. 5-6" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "reorganisatie" },
+    { "type": "vereist", "target": "fusie" },
+    { "type": "vereist", "target": "splitsing" }
   ]
 }
