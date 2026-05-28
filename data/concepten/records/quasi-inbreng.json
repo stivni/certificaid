@@ -1,21 +1,40 @@
 {
   "id": "quasi-inbreng",
   "naam": {
-    "primair": "Quasi-inbreng"
+    "primair": "Quasi-inbreng",
+    "synoniemen": [
+      "verkapte inbreng-in-natura",
+      "quasi-apport"
+    ],
+    "vertaling": {
+      "fr": "quasi-apport"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
     "ankers": [
-      "3.0.IV.A"
+      "3.0.IV.B",
+      "3.0.I.E"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/quasi-inbreng.json",
+      "primary_bronnen": [
+        "WVV art. 7:8",
+        "WVV art. 7:9",
+        "WVV art. 7:10",
+        "WVV art. 5:9 (BV — voor 2019 W.Venn. art. 220)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -23,15 +42,23 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~851)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WVV art. 7:8-7:10 — quasi-inbreng NV; BV-regime gewijzigd door WVV 2019 — alleen behouden voor NV)."
       }
     ],
     "scope": {
       "in": [
-        "Anti-misbruik-regel tegen ontwijken van inbreng-revisor-controle",
-        "Aankoop binnen 2 jaar na oprichting van een actief > 10% kapitaal van oprichter/zaakvoerder/bestuurder",
-        "Behandeld als verkapte inbreng-in-natura: revisor-verslag + AV-toestemming verplicht (BV/NV)",
-        "Toepassingscriteria: tijdsvenster · drempel · personenkring"
+        "Anti-misbruik-regel tegen ontwijken van inbreng-revisor-controle (NV)",
+        "Aankoop binnen 2 jaar na oprichting van een actief ≥ 10% van geplaatst kapitaal van oprichter/bestuurder/aandeelhouder",
+        "Behandeld als verkapte inbreng-in-natura: revisor-verslag + AV-toestemming verplicht",
+        "Toepassingscriteria: tijdsvenster · drempel · personenkring",
+        "Uitzonderingen (genoteerde effecten op gewogen koers, courante handelingen, gerechtelijke verkoop)"
       ],
       "out": [
         {
@@ -50,15 +77,30 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Quasi-inbreng** is een anti-misbruik-regel in het WVV (art. 7:8 NV) die geldt wanneer een NV binnen **twee jaar na haar oprichting** een **vermogensbestanddeel verwerft** dat toebehoort aan een **oprichter, bestuurder of aandeelhouder**, tegen een **vergoeding van ten minste 10% van het geplaatst kapitaal**. In dat geval moet de transactie behandeld worden als een verkapte inbreng in natura: verplicht **revisorverslag** + **bestuurdersverslag** + **voorafgaande AV-toestemming**. Het ontbreken van het bestuurdersverslag leidt tot **nietigheid van het AV-besluit** (art. 7:10 § 1 WVV).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8", "context": "Quasi-inbreng NV — toepassingsregel" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:10", "context": "Procedure + verslagen + nietigheid" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het quasi-inbreng-regime sluit een **omzeil-route** af: zonder deze regel zou een oprichter (die door inbreng in geld aan revisor-controle ontsnapt) korte tijd na de oprichting zijn eigen activum aan de vennootschap kunnen **verkopen** tegen een potentieel overdreven prijs — economisch hetzelfde resultaat als een natura-inbreng, maar zonder de revisor-bescherming. De drie cumulatieve voorwaarden — (1) tijd: binnen 2 jaar; (2) prijs: ≥ 10% geplaatst kapitaal; (3) persoon: oprichter/bestuurder/aandeelhouder — vormen samen het toepassingsgebied. Het regime geldt **enkel voor NV** sinds WVV 2019 — voor BV is het opgeheven (kapitaalloos → geen 10%-drempel mogelijk).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio van quasi-inbreng is **consistente kapitaalbescherming**: aandelen tegen geld inbrengen (geen revisor) gevolgd door een transactie aan dezelfde 'inbrenger' aan een opgeklopte prijs zou de wettelijke garanties — revisorverslag, AV-toestemming, publiciteit — neutraliseren. Door dit 'samengestelde gedrag' alsnog onder de natura-procedure te plaatsen, blijft de **derden-bescherming** intact. De **2-jaar-termijn** komt van de Europese richtlijn (Tweede Richtlijn vennootschapsrecht 77/91/EEG); de **10%-drempel** wordt geacht het minimum-economisch-significante kapitaalsdeel te zijn.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio + Europese context" }
           ]
         }
       }
@@ -66,22 +108,346 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV (BV + NV)"
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV (Wet 23-03-2019) art. 7:8-7:10",
+        "toelichting": "Sinds WVV 2019 enkel toepasselijk op NV. Voor BV (W.Venn. art. 220 — voorheen €18.550 kapitaal-criterium) is het regime **opgeheven** wegens kapitaalafschaffing. Voor BV's opgericht vóór 1-5-2019 die nog onder het oude regime vielen: overgangsregeling vervallen op 1-1-2020.",
+        "opvolger": "kapitaalbescherming"
+      },
+      "voor": [
+        {
+          "tekst": "**Trigger**: een NV koopt binnen 2 jaar na oprichting een actief (vastgoed, machine, intellectueel eigendom, schuldvordering, ...) van een **oprichter, bestuurder, aandeelhouder** of een persoon die voor hun rekening handelt, tegen een prijs ≥ 10% van het geplaatst kapitaal.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, § 1", "context": "Toepassingscriteria 3 cumulatief" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "**Uitzonderingen** (art. 7:8 § 2 WVV) — quasi-inbreng-procedure NIET vereist bij:\n- **Effecten of geldmarktinstrumenten** verkregen tegen de gewogen gemiddelde marktprijs (genoteerd op gereglementeerde markt);\n- **Vermogensbestanddelen** die binnen de 6 maanden vooraf reeds door een onafhankelijke deskundige werden gewaardeerd op zijn marktwaarde;\n- **Vermogensbestanddelen** waarvan de waarde rechtstreeks blijkt uit de jaarrekening (op datum vóór datum verkrijging) gecontroleerd door commissaris;\n- **Verkrijgingen ter gewone bedrijfsuitoefening** van de vennootschap (courante handelingen);\n- **Verkrijgingen via beurs** of via **gerechtelijke verkoop**.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, § 2", "context": "5 uitzonderingen quasi-inbreng" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Drie cumulatieve criteria** (art. 7:8 § 1 WVV): (1) **NV** (geen BV/CV); (2) **binnen 2 jaar** na oprichting; (3) verkrijging van **vermogensbestanddeel** van oprichter/bestuurder/aandeelhouder; (4) **vergoeding ≥ 10% geplaatst kapitaal** (bv. NV met kapitaal €100.000 → 10% = €10.000-drempel).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, § 1" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Procedurele vereisten** (art. 7:10 WVV): (a) **bestuurdersverslag** dat de verkrijging motiveert; (b) **revisor- (of commissaris-) verslag** met waardering + verklaring dat tegenprestatie niet kennelijk hoger is dan de waardering; (c) beide verslagen worden **neergelegd en bekendgemaakt** (art. 2:7 + 2:13); (d) **voorafgaande AV-goedkeuring** — agenda vermeldt verslagen; (e) **ontbreken bestuurdersverslag = nietigheid AV-besluit**.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:10, § 1" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "**Tijdsvenster start** bij de oprichting (= neerlegging uittreksel, art. 2:6 WVV) en eindigt na **24 maanden**. Berekend per dag — niet per kalenderjaar.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, § 1" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Na 24 maanden vanaf oprichting verdwijnt de quasi-inbreng-toepassing. Latere transacties met oprichters/bestuurders vallen alleen onder algemene **belangenconflict-regeling** (art. 7:96 WVV).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:96", "context": "Belangenconflict bestuurder" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese post-2j-regime" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Nietigheid AV-besluit** bij ontbreken bestuurdersverslag (art. 7:10 § 1 lid 4 WVV) — de transactie kan worden teruggedraaid.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:10, § 1, lid 4" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Bestuurders-aansprakelijkheid** bij benadeling van de vennootschap door overprijs (art. 2:56 WVV — bestuurdersaansprakelijkheid wegens kennelijk grove fout).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:56" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drie-criteria",
+        "naam": {
+          "primair": "Drie cumulatieve criteria — quasi-inbreng-toepassing"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Toepassing quasi-inbreng** vereist **alle drie** voldaan:\n\n1. **Tijd** — verkrijging binnen 2 jaar (24 maanden) na **oprichting** van de NV.\n2. **Persoon** — wederpartij is oprichter, bestuurder of aandeelhouder van de NV (of een persoon handelend in eigen naam maar voor rekening van zo iemand — art. 7:8 § 1 lid 2).\n3. **Prijs** — vergoeding ≥ 10% van het **geplaatst kapitaal** op het ogenblik van de verkrijging.\n\n**Voorbeeld-berekening**: NV met geplaatst kapitaal €200.000 → 10%-drempel = €20.000. Verkrijging van een wagen aan oprichter Jan voor €25.000 binnen 24 mnd na oprichting → quasi-inbreng-regime VAN TOEPASSING.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, § 1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "procedure-stappen",
+        "naam": {
+          "primair": "Procedure quasi-inbreng — stappenflow"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**Procedure-stappen** bij vastgestelde quasi-inbreng:\n\n```mermaid\nflowchart TD\n  A[Detectie: NV koopt > 10% kapitaal van oprichter binnen 2 jaar] --> B[Aanwijzing revisor of commissaris]\n  B --> C[Revisor stelt waardering-verslag op]\n  C --> D[Bestuursorgaan stelt motiverend verslag op]\n  D --> E[Beide verslagen neergelegd + bekendgemaakt]\n  E --> F[Voorafgaande AV-bijeenroeping]\n  F --> G[AV beslist - verslagen op agenda]\n  G --> H{Goedkeuring AV?}\n  H -->|Ja| I[Transactie kan worden uitgevoerd]\n  H -->|Nee| J[Transactie geblokkeerd]\n  K[Indien procedure niet gevolgd] --> L[Nietigheid AV-besluit + mogelijke bestuurdersaansprakelijkheid]\n```\n\n**Kosten**: revisorereloon (€1.500-€5.000 afhankelijk van complexiteit) + notariskosten AV + advieskosten. Praktijk: vaak duur — daarom wordt de aankoop soms uitgesteld tot na 24 mnd-termijn (legitiem) of geherstructureerd als courante handeling.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:10" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bv-afgeschaft",
+        "naam": {
+          "primair": "BV — quasi-inbreng afgeschaft sinds WVV 2019"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor de **BV** (en CV) is het quasi-inbreng-regime opgeheven door WVV 2019. Reden: de BV heeft geen kapitaal meer → geen '10%-van-kapitaal'-drempel mogelijk. Anti-misbruik wordt voor BV opgevangen door (a) de **algemene belangenconflict-regeling** (art. 5:76-77 WVV — bestuurder met tegenstrijdig belang moet melden, niet stemmen, bestuursorgaan motiveert besluit); en (b) de **kapitaalbescherming-mechaniek** (uitkeringen alleen volgens netto-actief + liquiditeitstest, art. 5:142-144). Voor NV blijft het quasi-inbreng-regime onverkort van kracht.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:76-77", "context": "BV-belangenconflict bestuurder" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese BV-afschaffing quasi-inbreng" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-quasi-inbreng-vastgoed",
+        "titel": "NV ImmoStart — quasi-inbreng aankoop pand van oprichter binnen 18 mnd",
+        "context": "NV ImmoStart opgericht 1-03-2025 met kapitaal €100.000. Oprichter Lucas (50% aandeelhouder) verkoopt op 15-09-2026 (= 18 mnd later) een commercieel pand aan NV ImmoStart voor €350.000. 10%-drempel = €10.000 → ruim overschreden → quasi-inbreng-regime VAN TOEPASSING.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, 7:10" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Toepassingscheck quasi-inbreng",
+            "kolommen": ["Criterium", "Casus", "Voldaan?"],
+            "rijen": [
+              ["NV-vennootschap", "NV ImmoStart", "✓"],
+              ["Binnen 2 jaar na oprichting", "18 mnd na 1-3-2025", "✓"],
+              ["Wederpartij = oprichter/bestuurder/aandeelhouder", "Lucas: oprichter + 50%-aandeelhouder", "✓"],
+              ["Vergoeding ≥ 10% geplaatst kapitaal", "€350.000 vs 10% × €100.000 = €10.000", "✓ Ruim"],
+              ["Uitzondering (art. 7:8 § 2) van toepassing?", "Geen — vastgoed, geen recente waardering, geen courante handeling", "Nee"]
+            ],
+            "conclusie": "Quasi-inbreng-procedure verplicht: revisorverslag + bestuursverslag + AV-toestemming vóór akte."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking na voltrokken quasi-inbreng-procedure",
+            "boekingen": [
+              { "datum": "2026-09-15", "debet": [{"rekening": "221", "label": "Gebouwen", "bedrag": 350000}], "credit": [{"rekening": "550", "label": "Bank", "bedrag": 350000}] }
+            ],
+            "toelichting": "Normale aankoop-boeking — eigen vermogen blijft onaangetast (Lucas ontvangt cash, niet aandelen). De quasi-inbreng-procedure controleert alleen de waardering — eens correct, is het een gewone aankoop."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-uitzondering",
+        "titel": "NV BeursCo — uitzondering voor genoteerde effecten",
+        "context": "NV BeursCo (opgericht jan 2026, kapitaal €500.000) koopt op 1-05-2026 een pakket genoteerde aandelen van oprichter Sara voor €80.000. Aandelen worden gewaardeerd tegen gewogen gemiddelde beurskoers laatste 30 dagen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, § 2, 1°", "context": "Uitzondering effecten op gewogen marktprijs" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Uitzondering-check",
+            "kolommen": ["Criterium", "Casus", "Voldaan voor uitzondering?"],
+            "rijen": [
+              ["Effecten of geldmarktinstrumenten", "Genoteerde aandelen", "✓"],
+              ["Gewogen gemiddelde marktprijs", "30-dagen gemiddelde beurskoers", "✓"],
+              ["Geen uitzonderlijke omstandigheden (markt liquide, geen koersverstoring)", "Geen koerssprongen", "✓"]
+            ],
+            "conclusie": "Uitzondering art. 7:8 § 2, 1° van toepassing → geen revisor-procedure vereist. Wel: minderheid > 5% kan in een termijn vóór effectieve verkrijging een revisorwaardering eisen (art. 7:8 § 3 lid 3-4 WVV)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-omzeiling",
+        "titel": "Case: Schijn-uitzondering 'courante handeling'",
+        "context": "NV BeautyCo (opgericht 6-01-2026, kapitaal €100.000) koopt op 1-06-2026 (5 mnd later) een wagen van bestuurder Eva voor €45.000. De vennootschap argumenteert: 'we kopen voortdurend bedrijfswagens — courante handeling'.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, § 2, 4°", "context": "Uitzondering courante handelingen" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Toepassings-analyse",
+            "kolommen": ["Argument vennootschap", "Tegenargument", "Conclusie"],
+            "rijen": [
+              ["'Courante handeling' (art. 7:8 § 2, 4°)", "Aankoop van EEN wagen van bestuurder is geen 'ter gewone bedrijfsuitoefening' — courante handelingen = vaste leveranciers, repetitieve aankopen aan marktprijzen", "Uitzondering niet van toepassing"],
+              ["Wagen aan marktprijs?", "Marktprijs gemeenschappelijke wagen ~€45.000 → niet kennelijk overprijsd, MAAR vorm-vereiste blijft", "Procedure quasi-inbreng vereist (revisor + AV)"],
+              ["Drempel €100.000 × 10% = €10.000", "€45.000 > €10.000", "Voldaan"]
+            ],
+            "conclusie": "Quasi-inbreng-procedure verplicht. 'Courante handeling'-uitzondering is restrictief: bedoeld voor courante leverancierskeuzes binnen reguliere business-cycle, niet voor unieke aankopen van bestuurders. Aanbeveling: revisor-rapport (€1.500-€2.000) is goedmaak-kost voor rechtszekerheid."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Quasi-inbreng geldt ook voor BV",
+        "verkeerde_assumptie": "Quasi-inbreng-regime is ook van toepassing op BV-vennootschappen die binnen 2 jaar van oprichting transacties doen met oprichters.",
+        "kernpunt": "Sinds WVV 2019 is het quasi-inbreng-regime **afgeschaft voor BV** (wegens kapitaalafschaffing — geen 10%-drempel mogelijk). BV-bescherming verloopt via algemene belangenconflict-regeling (art. 5:76-77 WVV) + kapitaalbescherming (5:142-144). Voor NV blijft het regime onverkort.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:76", "context": "BV-vervangende regeling" }
+          ]
+        }
+      },
+      {
+        "titel": "10% van inbreng-waarde",
+        "verkeerde_assumptie": "De 10%-drempel slaat op de inbreng-waarde of het EV.",
+        "kernpunt": "De drempel is **10% van het geplaatst kapitaal** (rekening 100) — niet van het totaal EV, niet van de waardering van het ingebracht goed, niet van de uitgiftepremie. Voor een NV met kapitaal €61.500 (minimum WVV) → drempel = €6.150.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8, § 1" }
+          ]
+        }
+      },
+      {
+        "titel": "Na 2 jaar = volledige vrijheid",
+        "verkeerde_assumptie": "Na de 2-jaar-termijn vervalt elke controle op transacties tussen vennootschap en oprichter.",
+        "kernpunt": "Na 2 jaar verdwijnt quasi-inbreng, maar de **algemene belangenconflict-regeling** (art. 7:96 NV / 5:76 BV WVV) blijft permanent gelden: bestuurder met tegenstrijdig vermogensbelang moet dat melden vóór het bestuursorgaan beraadslaagt, mag niet meestemmen, bestuursorgaan motiveert vermogenseffect in notulen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:96" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:76" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-nv-quasi",
+      "naam": { "primair": "Vanuit de NV (na oprichting, < 2 jaar)" },
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-quasi-inbreng",
+              "naam": { "primair": "Detectie + advies quasi-inbreng-toepassing" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Quasi-inbreng-screening-checklist** voor accountant van een jonge NV:\n\n1. **Datum oprichting** noteren → 24-maanden-deadline berekenen.\n2. Bij elke voorgestelde aankoop **binnen 24 mnd**: vraag (a) wie is de verkoper? (oprichter/bestuurder/aandeelhouder?); (b) wat is de prijs vs 10%-drempel kapitaal?\n3. Indien alle 3 criteria voldaan: signaleer aan bestuur dat quasi-inbreng-procedure vereist is (revisor + AV).\n4. **Check uitzonderingen** — past één van de 5 uitzonderingen art. 7:8 § 2 (genoteerde effecten, recente expertisewaardering, JR-gecontroleerd, courante handeling, gerechtelijke verkoop)?\n5. Indien geen uitzondering: voorstel **uitstel-strategie** (transactie na 24 mnd indien commercieel verantwoord) OF **procedure-voltrekken** (revisor aanwijzen, ondersteunen bestuursverslag, AV organiseren).\n6. **Documentatie** archiveren — voor eventuele audit/inspectie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-screening-checklist" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-quasi-inbreng",
+              "naam": { "primair": "Audit-controle bestaande quasi-inbreng-transacties" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Audit-checklist** voor controle op naleving:\n\n1. Identificeer NV's < 2 jaar oud in cliëntenportefeuille.\n2. Onderzoek **grootboeken klasse 20-28** (vaste activa) op aankopen > 10% kapitaal.\n3. Match met **balanswijzigingen rekening-courant aandeelhouder/bestuurder**.\n4. Verzeker dat voor elke quasi-inbreng-transactie verslagen aanwezig zijn + neergelegd bij griffie.\n5. **Risico-rapport** in commissarisverslag (KAM-vermelding) indien onregelmatigheden gedetecteerd.\n6. Bij vermoeden van overprijs: bijkomende substantieve procedures (waardering, vergelijking marktprijzen).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8-7:10" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Audit-checklist" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
+    { "type": "valt_onder", "target": "oprichting-vennootschap" },
     {
-      "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "is_uitzondering_op",
-      "target": "kapitaalverhoging-in-natura"
-    },
-    {
-      "type": "triggert",
-      "target": "oprichting-vennootschap"
+      "type": "vergelijkbaar_met",
+      "target": "kapitaalverhoging-in-natura",
+      "gelijkenissen": [
+        "Beide vereisen revisor- + bestuursverslag",
+        "Beide beschermen tegen overwaardering bij transacties met oprichters/aandeelhouders",
+        "Beide hebben identieke verslag-vereisten (art. 7:8 verwijst naar 7:7-7:10)"
+      ],
+      "verschillen": [
+        "Quasi-inbreng = verkoop voor cash (na oprichting); kapitaalverhoging in natura = inbreng tegen aandelen",
+        "Quasi-inbreng heeft 2-jaar-tijdsvenster + 10%-drempel; kapitaalverhoging in natura heeft geen tijdsvenster",
+        "Quasi-inbreng is een anti-misbruik-regime; kapitaalverhoging is een proactieve verrichting"
+      ],
+      "verwarring_risico": "Beide gebruiken dezelfde revisor-procedure (art. 7:7), wat doet vergeten dat het regimes met verschillende trigger zijn.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
