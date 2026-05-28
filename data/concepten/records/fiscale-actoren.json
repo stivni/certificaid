@@ -1,25 +1,28 @@
 {
   "id": "fiscale-actoren",
   "naam": {
-    "primair": "Fiscale actoren"
+    "primair": "Fiscale actoren",
+    "synoniemen": ["actoren in het fiscaal recht", "partijen fiscale procedure"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader",
-      "entiteit"
-    ],
-    "ankers": [
-      "2.1.VII",
-      "2.1.taak.1",
-      "2.1.taak.2"
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "entiteit"],
+    "ankers": ["2.1.VII", "2.1.taak.1", "2.1.taak.2"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fiscale-actoren.json",
+      "primary_bronnen": [
+        "WIB92",
+        "Gerechtelijk Wetboek art. 632",
+        "Bijzondere Financieringswet 16 januari 1989"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -28,14 +31,23 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld: belastingplichtige, FOD Financiën (AAFisc/AABBI/AAII/AAGO), gewest-fiscale administraties, rechters, OM, adviseurs."
       }
     ],
     "scope": {
       "in": [
         "Belastingplichtige: natuurlijke persoon / vennootschap / VZW / vereniging zonder rechtspersoonlijkheid",
-        "Administratie: FOD Financiën (AAFisc · AABBI · ...)",
+        "Administratie: FOD Financiën (AAFisc · AABBI · AAII · AAGO · AAII-douane)",
+        "Gewest-administraties: VLABEL · DGO7 (Wallonië) · Brussel Fiscaliteit",
+        "Lokaal: gemeente + provincie",
         "Openbaar Ministerie: bij fiscale strafvervolging",
-        "Rechter: fiscaal rechter (Rb 1e aanleg · hof v. beroep · Cassatie · Grondwettelijk Hof)",
+        "Rechter: fiscaal rechter (Rb 1e aanleg · hof v. beroep · Cassatie · Grondwettelijk Hof · HvJ EU)",
         "Adviseur: cijferberoeper (cross naar beroepsbeoefening) — rol bij vertegenwoordiging + advies"
       ],
       "out": [
@@ -60,24 +72,184 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "tekst": "De fiscale actoren zijn de partijen die in het fiscaal recht een rol vervullen: de belastingplichtige (wie betaalt), de fiscale administratie (wie heft en controleert), het openbaar ministerie (bij strafvervolging fiscale fraude), de rechter (geschilbeslechting) en de adviseur (accountant, belastingadviseur, advocaat — die de belastingplichtige bijstaat).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard actor-classificatie fiscaal recht" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair-accountant is dit actoren-landschap praktisch essentieel: bij een fiscaal probleem moet je weten wie de bevoegde gesprekspartner is. Federale inkomstenbelasting → FOD Financiën AAFisc. Mogelijk fraude → AABBI (Bijzondere Belastinginspectie). Btw → AAFisc btw-controle. Gewestbelasting Vlaanderen → VLABEL. Lokale belastingen → gemeentelijke financiële dienst. Geschil → Rechtbank van Eerste Aanleg, fiscale kamer. Internationale dimensie EU-recht → HvJ EU. Wie de juiste deur vindt, bespaart maanden tijd.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "fiscaal-recht",
+      "naast_relevant": ["fiscale-procedure"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Organisatiestructuur FOD Financiën wordt periodiek hervormd (laatste grote reorganisaties: COPERFIN 2010s, modernisering 2020s). Algemene actor-categorieën blijven stabiel."
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "belastingplichtige",
+        "naam": { "primair": "Belastingplichtige" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige is de persoon op wie de belasting juridisch drukt. Hij is degene die de wet aanwijst als schuldenaar — niet noodzakelijk wie de economische last draagt (vooral bij indirecte belastingen). Categorieën: (1) natuurlijke persoon (PB, BNI-natuurlijke persoon, registratie- en successierechten); (2) vennootschap (VenB, BNI-vennootschappen); (3) rechtspersoon onderworpen aan rechtspersonenbelasting (vzw, openbare instellingen — RPB); (4) belastingplichtige zonder rechtspersoonlijkheid (sommige feitelijke verenigingen, btw-eenheden via art. 4 §2 WBTW); (5) erfgenaam (successierechten); (6) verkrijger (registratierechten op onroerende verkopen).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 2 — 1°", "context": "Definitie belastingplichtigen inkomstenbelasting" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 4", "context": "Btw-belastingplichtige" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fod-financien",
+        "naam": { "primair": "FOD Financiën — Algemene Administraties" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De Federale Overheidsdienst Financiën heft en int de federale belastingen via vier Algemene Administraties met elk een eigen werkveld: (1) AAFisc — Algemene Administratie van de Fiscaliteit: heffing en controle PB/VenB/btw/RV/BV; (2) AABBI — Algemene Administratie van de Bijzondere Belastinginspectie: bestrijding ernstige fiscale fraude; (3) AAII — Algemene Administratie van de Inning en Invordering: invordering openstaande schulden; (4) AAII-douane (Douane en Accijnzen): douanerechten en accijnzen; (5) AAGO — Algemene Administratie van de Patrimoniumdocumentatie (vroeger): kadaster en hypotheekkantoren. Daarnaast: AAPD (Patrimoniumdiensten — schenkingsrechten waar federaal bevoegd).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Organisatiestructuur FOD Financiën — publiek bekend" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gewest-administraties",
+        "naam": { "primair": "Gewestelijke fiscale administraties" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds de overdracht van fiscale bevoegdheden naar de gewesten hebben de gewesten eigen administraties opgericht: (1) Vlaanderen — VLABEL (Vlaamse Belastingdienst): heft en int onroerende voorheffing, schenkings- en erfbelasting, verkeersbelasting/BIV, registratiebelasting onroerende verkopen, leegstandsheffing; (2) Wallonië — DGO7 / SPW Fiscalité: zelfde categorieën voor Waalse rechtspersonen/onroerende goederen; (3) Brussel — Brussel Fiscaliteit. Sommige bevoegdheden worden nog door de federale FOD Financiën uitgeoefend in opdracht van de gewesten (overgangsregeling).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "16 januari 1989", "context": "Gewestelijke fiscale bevoegdheden" },
+                { "type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.1 e.v.", "context": "Bevoegdheid VLABEL" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "lokale-overheden",
+        "naam": { "primair": "Lokale overheden — gemeente + provincie" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Gemeenten en provincies kunnen aanvullende belastingen heffen (opcentiemen op PB, opcentiemen op onroerende voorheffing) en eigen gemeentebelastingen invoeren (tweede verblijven, leegstand, terrasvergoedingen, ...). De fiscale dienst van de gemeente vestigt en int deze belastingen volgens een belastingreglement van de gemeenteraad. Geschillen lopen via een eigen bezwaarprocedure naar het college van burgemeester en schepenen, daarna naar de Rechtbank van Eerste Aanleg.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Decreet Lokaal Bestuur", "ref": "Vlaamse versie 22-12-2017", "context": "Belastingbevoegdheid gemeenten" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-rechter",
+        "naam": { "primair": "Fiscale rechter" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Geschillen tussen belastingplichtige en fiscus worden behandeld door de gewone hoven en rechtbanken — er bestaat geen aparte 'fiscale rechtbank' in België. (1) Rechtbank van Eerste Aanleg, fiscale kamer — bevoegd voor beroepen tegen beslissingen over bezwaar (federaal én gewest); (2) Hof van Beroep — hoger beroep; (3) Hof van Cassatie — cassatie (controle op de wetstoepassing, niet de feiten); (4) Grondwettelijk Hof — toetst fiscale wetten aan de Grondwet (vooral art. 10-11, 170-172); (5) Hof van Justitie EU — prejudiciële vragen over EU-recht (btw-richtlijn, vrij verkeer). De territoriale bevoegdheid is geregeld in art. 632 Gerechtelijk Wetboek (rechtbank van de plaats waar de belasting is gevestigd).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Gerechtelijk Wetboek", "ref": "art. 632", "context": "Territoriale bevoegdheid fiscale geschillen" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 1385decies", "context": "Beroep bij rechtbank" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "openbaar-ministerie",
+        "naam": { "primair": "Openbaar Ministerie + fiscale strafvervolging" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij ernstige fiscale fraude (valsheid in geschrifte, witwas, gebruik valse stukken) kan het Openbaar Ministerie een strafvervolging instellen, naast of in plaats van de administratieve sanctie. De keuze tussen administratieve en strafrechtelijke afhandeling gebeurt via het 'una-via-overleg' tussen fiscus en parket — sinds een Cassatie-arrest (2014) en wijzigingen aan de Charter-procedure (Wet 5 mei 2019) gestructureerd om dubbele bestraffing (non-bis-in-idem) te vermijden.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 449-459", "context": "Strafrechtelijke fiscale misdrijven" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Una-via-doctrine" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "adviseur",
+        "naam": { "primair": "Adviseur — cijferberoeper, belastingadviseur, advocaat" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige laat zich vaak bijstaan door een adviseur. (1) Cijferberoeper — gecertificeerd accountant of belastingadviseur lid van het ITAA: adviseert, stelt aangiften op, vertegenwoordigt cliënt bij controle en bezwaar. (2) Advocaat: vertegenwoordigt in gerechtelijke procedures (vanaf bezwaar of beroep voor de rechtbank). De accountant heeft een eigen wettelijke vertegenwoordigingsbevoegdheid in administratieve fiscale procedures; voor de rechtbank wordt meestal een advocaat ingeschakeld. Het beroepsgeheim van de cijferberoeper (art. 53 Wet 17-03-2019) speelt een belangrijke rol in de relatie met de fiscus.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 17 maart 2019", "ref": "art. 53", "context": "Beroepsgeheim cijferberoeper" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "AABBI verwarren met gewone AAFisc-controle",
+        "verkeerde_assumptie": "Een controle door de AABBI loopt zoals een gewone fiscale controle.",
+        "kernpunt": "De Bijzondere Belastinginspectie (AABBI) treedt enkel op bij ernstige fraude-indicaties (georganiseerde fraude, internationale constructies, witwas). Procedureel beschikt ze over verruimde onderzoeksmiddelen (verlengde aanslagtermijn, doorzoekingen) en speelt het strafrechtelijk perspectief mee. Krijgt een cliënt een AABBI-bericht: onmiddellijk doorverwijzen naar gespecialiseerd advocaat fiscaal strafrecht — andere strategie dan een gewone controle.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkadvies fiscale advisering" }
+          ]
+        }
+      },
+      {
+        "titel": "Geschil voor verkeerde rechter",
+        "verkeerde_assumptie": "Studenten denken aan de Raad van State of een aparte fiscale rechtbank voor fiscale geschillen.",
+        "kernpunt": "Fiscale geschillen lopen via de gewone burgerlijke rechtbanken (Rechtbank van Eerste Aanleg → Hof van Beroep → Cassatie). De Raad van State is niet bevoegd voor individuele aanslagen — wel uitzonderlijk voor de annulatie van algemene fiscale reglementen of administratieve handelingen (bv. een gemeentelijk belastingreglement).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 1385decies" },
+            { "type": "wettekst", "naam": "Gerechtelijk Wetboek", "ref": "art. 632" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscaal-recht"
-    }
+    { "type": "valt_onder", "target": "fiscaal-recht" }
   ]
 }
