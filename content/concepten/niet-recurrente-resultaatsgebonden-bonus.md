@@ -1,0 +1,214 @@
+---
+title: "Niet-recurrente resultaatsgebonden bonus (CAO 90)"
+concept_type: "regime"
+schema_version: "2.2"
+status: "concept"
+categorieen:
+  - regeling
+ankers:
+  - 2.2.taak.3
+tags:
+  - concept
+  - schema-2.2
+  - type-regime
+  - cat-regeling
+  - status-concept
+gegenereerd_uit: "data/concepten/records/niet-recurrente-resultaatsgebonden-bonus.json"
+---
+
+# Niet-recurrente resultaatsgebonden bonus (CAO 90)
+
+_Regime_
+
+📋 Regeling · Anchors: `2.2.taak.3` · Wave: `cluster-extract-werknemers-vergoedingen-2026-05-28`
+
+> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
+
+**Afk.**: NRRB — **Synoniemen**: loonbonus · CAO 90-bonus · niet-recurrente resultaatsgebonden voordelen · bonusplan CAO 90
+
+## Definitie
+
+📖 De niet-recurrente resultaatsgebonden bonus (NRRB), in de praktijk 'CAO 90-bonus' genoemd, is een collectieve variabele beloning die een werkgever aan al zijn werknemers of een welbepaalde categorie toekent op basis van vooraf bepaalde, objectief meetbare doelstellingen die het normale bedrijfsverloop overstijgen. Het regime werd ingevoerd door Hoofdstuk II van de Wet 21 december 2007 (uitvoering interprofessioneel akkoord 2007-2008) en operationeel uitgewerkt in CAO 90 van de Nationale Arbeidsraad. Specifiek voordelig: tot een geïndexeerd plafond is de bonus vrijgesteld van personenbelasting (WIB92 art. 38 — 24°) en onderworpen aan een gunstig sociaal regime (bijzondere werkgeversbijdrage RSZ 33 % + solidariteitsbijdrage werknemer 13,07 %, in plaats van de gewone RSZ-bijdragen van samen ca. 38 %).
+
+<small>📚 WIB92 — art. 38 — 24° — _wettekst_ · Wet 21 december 2007 — Hoofdstuk II — niet-recurrente resultaatsgebonden voordelen — _wettekst_ · CAO 90 — Nationale Arbeidsraad — niet-recurrente resultaatsgebonden voordelen — uitvoering — _norm_</small>
+
+## Substantie
+
+📖 Economisch: het meest aantrekkelijke prestatie-koppelings-instrument voor werknemers tot ca. 4.020 EUR/jaar (geïndexeerd plafond). Voor de werknemer: volledig PB-vrij — alleen 13,07 % solidariteitsbijdrage; netto ca. 87 % van de bruto-bonus. Voor de werkgever: 100 % aftrekbaar in VenB + 33 % bijzondere RSZ-werkgeversbijdrage (lager dan reguliere RSZ-werkgever van ca. 25 % + werknemersbijdrage van 13,07 % zou samen 38 % zijn). Effectief netto-rendement per euro werkgeverskost: hoger dan reguliere bezoldiging. De voorwaarde: het moet écht 'collectief' zijn (alle werknemers of welbepaalde categorie) en gekoppeld aan 'objectief meetbare' doelstellingen (omzet, productiviteit, kwaliteit, klanttevredenheid, ziekteverzuim — niet 'individuele prestatie').
+
+<small>📚 WIB92 — art. 38 — 24° — _wettekst_ · CAO 90 — NAR — art. 4-7 — voorwaarden objectief meetbare doelstellingen — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Rationale
+
+🔗 Ratio legis: prestatie-koppeling stimuleren zonder de loon-progressie en automatische verworvenheden te verstoren. 'Niet-recurrent' = de bonus moet jaarlijks opnieuw verdiend worden door het halen van de doelstellingen — geen acquired right. 'Resultaatsgebonden' = gekoppeld aan ondernemingsresultaten of objectieve indicatoren, niet aan individuele prestatie (om sociaal-rechtelijk geen 'loon' te zijn in de zin van de Loonbeschermingswet). Door deze afbakening van het loonbegrip ontstaat de fiscale en sociale gunsten — de bonus is conceptueel iets anders dan loon, ook al wordt hij vanuit de portemonnee van de werkgever betaald.
+
+<small>📚 CAO 90 — NAR — Preambule + art. 4 — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Gebruikscontext
+
+**Status**: `in-voege` · basis: Wet 21 december 2007 Hoofdstuk II + CAO 90 NAR + WIB92 art. 38 — 24° + Wet 29 juni 1981 art. 38 §3novies (bijzondere bijdrage RSZ)
+
+Regime in voege sinds 2008. Het PB-plafond (WIB92 art. 38 — 24°: 2.756 EUR niet-geïndexeerd) en het RSZ-plafond (sociaalrechtelijk afzonderlijk vastgelegd, ca. 4.020 EUR voor AJ 2026) worden afzonderlijk jaarlijks geïndexeerd — exacte bedragen via Cijferzakboekje of Rijksdienst voor Sociale Zekerheid (RSZ-instructies).
+
+**✅ Voor**
+- 📖 Werkgevers (privé én bepaalde overheidsondernemingen) die hun werknemers prestatie-gekoppeld willen belonen via een collectief regime — typisch KMO's én grote ondernemingen die jaarlijks 'team-bonus' willen uitkeren bij behalen van bedrijfsdoelstellingen (omzet, productiviteit, klanttevredenheid, ziekteverzuim, kwaliteit).
+
+**📋 Voorwaarden**
+- 📖 Cumulatief (CAO 90 + Wet 21-12-2007): (1) collectief karakter — alle werknemers van de onderneming OF een welbepaalde categorie (op basis van objectieve criteria); (2) gekoppeld aan vooraf bepaalde, objectief meetbare doelstellingen die het normale bedrijfsverloop overstijgen (omzetstijging, productiviteit, kwaliteit, klanttevredenheid, ziekteverzuim); (3) doelstellingen onzeker bij invoering — moet écht onzekerheid zijn (niet 'omzet > 0'); (4) toetreding via CAO ondernemingsvlak indien werknemersvertegenwoordiging bestaat, anders via toetredingsakte (act of accession) gehomologeerd door de FOD WASO; (5) bonusplan neergelegd voor referentieperiode begint én vóór 1/3 van de referentieperiode verstreken is; (6) bonusbedrag onder de geïndexeerde plafonds (PB + RSZ afzonderlijk).
+
+**👍 Voordeel**
+- 📖 Voor werknemer: volledig PB-vrij (binnen plafond — WIB92 art. 38 — 24°); enkel 13,07 % solidariteitsbijdrage werknemer; netto-rendement ca. 87 % van bruto. Voor werkgever: 100 % aftrekbaar als bedrijfskost; bijzondere RSZ 33 % i.p.v. gewone werkgeverstk. (lagere loonwig); 'niet-recurrent' karakter → geen automatisch acquired right voor latere jaren. Sterke incentive-werking via koppeling aan collectieve doelstellingen.
+
+**⚠️ Risico**
+- 📖 (1) Bij overschrijding van het plafond (RSZ of PB): het excedent valt onder gewoon loonregime (PB marginaal + RSZ ca. 38 %) — alleen het excedent, niet het volledige bedrag (verschil met cheques!). (2) Bij niet-naleving van CAO 90-voorwaarden (subjectieve doelstellingen, geen collectief karakter, te late neerlegging): herkwalificatie naar gewoon loon voor het VOLLEDIGE bedrag, met retroactieve RSZ + PB. (3) Bij FOD WASO-weigering van de toetredingsakte: het plan kan niet onder het gunstige regime worden uitgevoerd. (4) Acquired-right-risico: jaarlijkse herhaling van dezelfde bonus voor dezelfde doelstellingen kan na 3-5 jaar worden gezien als 'verworven loonbestanddeel' door de sociaalrechtelijke rechtspraak.
+
+## Bouwstenen
+
+### 📏 PB-vrijstellingsplafond (geïndexeerd)  
+_`drempel`_
+
+📖 Het basisbedrag in WIB92 art. 38 — 24° bedraagt 2.756 EUR per kalenderjaar — niet geïndexeerd. Voor recente aanslagjaren is het geïndexeerde plafond ca. 4.020 EUR (exact bedrag in Cijferzakboekje opzoeken). Het PB-plafond geldt per werknemer per jaar. Bovenop dit bedrag is het excedent belastbaar loon (PB marginaal + gewone RSZ). Let op: PB-plafond en RSZ-plafond worden afzonderlijk vastgelegd en kunnen lichtjes verschillen.
+
+<small>📚 WIB92 — art. 38 — 24° — _wettekst_</small>
+
+### 📏 RSZ-tarief: bijzondere werkgevers 33 % + solidariteit werknemer 13,07 %  
+_`drempel`_
+
+📖 Sociaalrechtelijk is de NRRB onderworpen aan een specifiek RSZ-regime (Wet 29 juni 1981 art. 38 §3novies): (a) bijzondere bijdrage werkgever 33 % van het brutobonusbedrag; (b) solidariteitsbijdrage werknemer 13,07 % van het brutobonusbedrag. Samen: ca. 46,07 % wig — lager dan reguliere RSZ-werkgever 25 % + reguliere RSZ-werknemer 13,07 % + marginale PB 50 % wat samen ca. 88 % zou bedragen. Het bedrag van de bijdragen wordt door de werkgever bij de RSZ aangegeven en betaald.
+
+<small>📚 Wet 29 juni 1981 — art. 38 §3novies — _wettekst_ · WIB92 — art. 38 — 24° — _wettekst_</small>
+
+### 📜 Objectief meetbare doelstellingen (CAO 90 art. 9)  
+_`regel`_
+
+📖 De doelstellingen moeten objectief meetbaar zijn — kwantificeerbaar via cijfers of feiten, niet via subjectief oordeel. Toegelaten voorbeelden: omzetstijging (bv. +5 %), productiviteit (output/uur), klanttevredenheid (NPS-score), kwaliteit (defect-rate), absenteïsme (ziekteverzuim < X %), ongevallen-frequentie, leveringstermijn-respect. Niet-toegelaten: individuele beoordelingen, 'goede sfeer op het werk', 'inzet', persoonlijke evaluatie door manager — die maken het tot gewone variabele beloning (loon).
+
+<small>📚 CAO 90 — NAR — art. 9 — voorwaarden doelstellingen — _norm_</small>
+
+### 📜 Collectief karakter — alle werknemers of welbepaalde categorie  
+_`regel`_
+
+📖 Het plan moet alle werknemers van de onderneming OF een welbepaalde categorie omvatten (CAO 90 art. 7). 'Welbepaalde categorie' = identificeerbaar via objectieve criteria (functie, departement, contractsoort), niet via individuele selectie. Een 'team-bonus' voor een specifiek project-team kan onder voorwaarden, mits de afbakening objectief is. Individuele bonussen voor één persoon vallen onder gewoon loon (geen NRRB-regime). Bedrijfsleiders zijn UITGESLOTEN — NRRB is voor werknemers (met arbeidsovereenkomst), niet voor zelfstandige bedrijfsleiders met mandaatrelatie.
+
+<small>📚 CAO 90 — NAR — art. 7 — collectief karakter — _norm_</small>
+
+### 👣 Toetredingsprocedure (CAO ondernemingsvlak of toetredingsakte)  
+_`stap`_
+
+📖 Twee paden om een NRRB-plan in te voeren: (1) CAO ondernemingsvlak — als de onderneming een werknemersvertegenwoordiging heeft (ondernemingsraad of vakbondsafvaardiging), via collectieve onderhandeling; (2) Toetredingsakte (act of accession) — als er géén werknemersvertegenwoordiging bestaat, via een formeel document opgesteld door de werkgever, voorgelegd aan alle werknemers met opmerkingenregister, en gehomologeerd door de FOD WASO. De FOD controleert of de doelstellingen objectief meetbaar zijn, het collectief karakter respecteert en de procedure correct verliep. Het plan moet worden neergelegd vóór het begin van de referentieperiode én vóór 1/3 van die periode is verstreken.
+
+<small>📚 CAO 90 — NAR — art. 10-13 — toetredingsprocedure — _norm_</small>
+
+## Voorbeelden
+
+### 💡 NRRB-plan Zelena Bio NV — omzetstijgingsdoelstelling 🔗
+
+_Zelena Bio NV (50 werknemers, geen vakbondsafvaardiging) wil voor 2026 een NRRB-plan invoeren: bonus van 4.020 EUR per voltijdse werknemer indien omzet 2026 ≥ omzet 2025 × 1,05 (5 % stijging). Toetredingsakte neergelegd bij FOD WASO op 15 december 2025._
+
+**Berekening:**
+- Stap 1 — Toetredingsakte op 15 december 2025 neergelegd: vóór referentieperiode begint (1 januari 2026) ✓.
+- Stap 2 — Omzet 2025: 5.000.000 EUR. Doelstelling 2026: 5.250.000 EUR. Bonus bij behalen: 4.020 EUR/voltijdse werknemer.
+- Stap 3 — Bonus 2026 wordt uitbetaald in 2027 nadat omzet 2026 vaststaat. Stel omzet 2026 = 5.300.000 EUR → doelstelling behaald.
+- Stap 4 — Per voltijdse werknemer (50 in dienst gans 2026): 4.020 EUR bruto bonus.
+- Stap 5 — Werknemersinhouding: 4.020 × 13,07 % = 525,42 EUR solidariteitsbijdrage. Netto: 3.494,58 EUR. Geen PB (volledig vrij — binnen plafond art. 38 — 24°).
+- Stap 6 — Werkgever: bijzondere RSZ-bijdrage 33 %: 4.020 × 33 % = 1.326,60 EUR. Totale werkgeverskost per werknemer: 4.020 + 1.326,60 = 5.346,60 EUR. Volledig aftrekbaar in VenB.
+- Stap 7 — Vergelijking met gewone bonus: 4.020 EUR bruto via gewone bezoldiging zou werknemer netto ca. 1.900 EUR opleveren (na PB marginaal 50 % + RSZ 13,07 %) en de werkgever ca. 5.000 EUR kosten. NRRB levert ca. 1.600 EUR meer netto voor een vergelijkbare werkgeverskost.
+
+→ **Resultaat**: NRRB levert ca. 84 % netto-rendement per euro werkgeverskost (3.494 / 5.347 × 100 ≈ 65 % netto/totale-kost). Gewone bonus: ca. 38 %. NRRB is fiscaal-sociaal ca. 70 % efficiënter dan gewone bonus.
+
+<small>📚 WIB92 — art. 38 — 24° — _wettekst_ · CAO 90 — NAR — art. 9-13 — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Valkuilen
+
+### ⚠️ Individuele beoordeling als 'objectief meetbare doelstelling' presenteren
+
+**Verkeerde assumptie**: Een werkgever wil een NRRB-bonus toekennen op basis van 'persoonlijke prestatie-evaluatie door de directe leidinggevende'.
+
+**Kernpunt**: CAO 90 vereist OBJECTIEF meetbare doelstellingen — kwantificeerbaar via cijfers, niet via subjectief oordeel. Individuele evaluaties maken het tot gewone variabele beloning (loon) — geen NRRB. De FOD WASO weigert toetredingsakten met subjectieve criteria. Goede praktijk: omzet, productiviteit, kwaliteit, klanttevredenheid (NPS), ziekteverzuim — meetbaar via verifieerbare data.
+
+<small>📚 CAO 90 — NAR — art. 9 — _norm_</small>
+
+### ⚠️ NRRB voor bedrijfsleider gebruiken
+
+**Verkeerde assumptie**: Een vennootschap wil de zaakvoerder (bedrijfsleider met mandaatrelatie) belonen via een NRRB-plan.
+
+**Kernpunt**: NRRB is bedoeld voor werknemers (arbeidsovereenkomst). Bedrijfsleiders zonder arbeidsovereenkomst (mandaatrelatie) vallen NIET onder CAO 90. Voor bedrijfsleiders: tantième (winstuitkering door AV) of klassieke variable bezoldiging zijn de alternatieven — beide met andere fiscale en sociale behandeling.
+
+<small>📚 CAO 90 — NAR — art. 2 — toepassingsgebied beperkt tot werknemers — _norm_</small>
+
+### ⚠️ Plafondoverschrijding leidt tot volledige herkwalificatie
+
+**Verkeerde assumptie**: Studenten denken dat bij overschrijding van het plafond (bv. 5.000 EUR bonus i.p.v. 4.020 EUR plafond) het volledige bedrag belastbaar loon wordt — zoals bij cheques (art. 38/1).
+
+**Kernpunt**: Bij NRRB is enkel het EXCEDENT belastbaar loon — niet het volledige bedrag. De vrijstelling tot het plafond wordt behouden voor het deel onder de drempel. Voorbeeld: 5.000 EUR bonus = 4.020 EUR vrijgesteld + 980 EUR gewoon loon (PB marginaal + reguliere RSZ). Belangrijk verschil met cheques onder art. 38/1 (waar plafondoverschrijding alles belastbaar maakt).
+
+<small>📚 WIB92 — art. 38 — 24° — _wettekst_</small>
+
+### ⚠️ Jaarlijks dezelfde doelstellingen herhalen — acquired-right-risico
+
+**Verkeerde assumptie**: Een werkgever installeert een NRRB-plan in 2026 met 5 %-omzetstijgingsdoelstelling, en blijft datzelfde plan ongewijzigd jaar na jaar hernieuwen.
+
+**Kernpunt**: Het 'niet-recurrent' karakter is essentieel. Wanneer dezelfde bonus voor dezelfde doelstellingen jaarlijks herhaald wordt, kan de sociaalrechtelijke rechtspraak na enkele jaren beslissen dat de bonus een 'verworven loonbestanddeel' is — onverklaard maakt deel uit van het normale loon en valt onder gewoon RSZ + PB. Vermijd dit door (a) doelstellingen jaarlijks aan te passen aan de omstandigheden, (b) sommige jaren géén plan in te voeren als de verwachte omstandigheden geen zinvolle 'overstijgende' doelstelling toelaten.
+
+<small>📚 CAO 90 — NAR — Preambule — niet-recurrent karakter — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Accountant-perspectieven
+
+### Werkgever-vennootschap
+
+#### 🧭 Adviseur
+
+##### 👣 NRRB-plan ontwerpen + toetredingsakte voorbereiden  
+_`stap`_
+
+📖 (1) Identificeer collectieve doelstellingen die objectief meetbaar zijn en het normale bedrijfsverloop overstijgen (omzet, productiviteit, kwaliteit, klanttevredenheid, ziekteverzuim); (2) Bepaal referentieperiode (typisch 1 kalenderjaar) + uitbetalingsmoment (jaarrekening-afsluiting); (3) Bepaal bonusbedrag per werknemer ≤ geïndexeerd plafond (ca. 4.020 EUR voor recente AJ); (4) Schrijf toetredingsakte of CAO-tekst — duidelijk omschreven doelstellingen, meetmethode, bonusbedrag, betalingstermijn; (5) Bij geen werknemersvertegenwoordiging: leg toetredingsakte voor aan alle werknemers met opmerkingen-register (15 dagen); (6) Dien in bij FOD WASO vóór referentieperiode begint én vóór 1/3 is verstreken. Wachten op homologatie kan tot 60 dagen duren.
+
+<small>📚 CAO 90 — NAR — art. 10-13 — _norm_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+#### 📒 Boekhouder
+
+##### 👣 Boeking NRRB  
+_`stap`_
+
+📖 Bij toekenning (typisch na vaststelling jaarresultaat): debet 620 Bezoldigingen voor brutobonus (4.020 EUR × aantal werknemers); debet 621 RSZ-werkgever voor bijzondere bijdrage 33 %; credit 454 RSZ-schulden voor (bijzondere bijdrage + solidariteitsbijdrage werknemer 13,07 %); credit 455 Bezoldigingen schuldig voor de netto-bonus. Geen bedrijfsvoorheffing op vrijgesteld deel (binnen PB-plafond). Bonusvermelding op fiche 281.10 vak IV: code 418 (niet-recurrente resultaatgebonden voordelen — rubriek 6) — apart vermeld om vrijstelling te claimen.
+
+<small>📚 aangifte-PB-2025-bezoldigingen — vak IV — code 418 niet-recurrente resultaatgebonden voordelen — _aangifte_ · KB 21.10.2018 — Minimum Algemeen Rekeningstelsel — Klasse 6 — 620 + 621 — _kb_</small>
+
+#### 💰 Fiscaal adviseur
+
+##### 👣 Fiche 281.10 code 418 — niet-recurrente resultaatsgebonden voordelen  
+_`stap`_
+
+📖 De NRRB wordt op fiche 281.10 vermeld onder code 418 (niet-recurrente resultaatsgebonden voordelen) — APART van het gewone loon. Op de PB-aangifte komt het bedrag in vak IV, rubriek 6 (code 1418-37 voor belastingplichtige, 2418-07 voor partner). Dit zorgt ervoor dat de fiscus de vrijstelling van WIB92 art. 38 — 24° automatisch kan toepassen. Bij excedent boven het plafond: het excedent vermeldt op de gewone loon-code 250 (niet code 418). Bij niet-vermelding op fiche: bijzondere aanslag geheime commissielonen (art. 219 WIB92, 100 %).
+
+<small>📚 aangifte-PB-2025-bezoldigingen — vak IV rubriek 6 — fiche-code 418 — _aangifte_ · WIB92 — art. 38 — 24° — _wettekst_ · WIB92 — art. 219 — _wettekst_</small>
+
+### Werknemer (begunstigde)
+
+#### 💰 Fiscaal adviseur
+
+##### 👣 Controle code 1418-37 in PB-aangifte  
+_`stap`_
+
+📖 In de PB-aangifte verifiëren: bedrag van fiche 281.10 code 418 wordt overgenomen onder code 1418-37 (belastingplichtige) of 2418-07 (partner) — niet onder code 1250 (gewoon loon). De fiscus past dan automatisch de vrijstelling van WIB92 art. 38 — 24° toe tot het plafond. Bij overschrijding van het PB-plafond: excedent verschijnt onder code 250 (gewoon loon). Controle: solidariteitsbijdrage 13,07 % is reeds ingehouden via netto-loon — moet niet apart worden afgetrokken in PB-aangifte (al verrekend in bruto-bedrag voor PB-doeleinden).
+
+<small>📚 aangifte-PB-2025-bezoldigingen — vak IV — code 1418-37 — _aangifte_</small>
+
+## Verder lezen (scope-out)
+
+- ↪ Tantième als alternatief (andere logica) → [[tantieme]] _(mag-verwijzen)_
+- ↪ Werknemer-loon (basis) → [[loon-en-payroll]] _(mag-verwijzen)_
+
+## Relaties
+
+### `valt_onder`
+- [[werknemers-vergoedingen]]
+### `vergelijkbaar_met`
+- [[tantieme]]
+    - **Gelijkenissen**:
+        - Beide zijn variabele beloning gekoppeld aan ondernemingsresultaat
+        - Beide kennen een gunstiger fiscaal regime dan gewoon loon
+    - **Verschillen**:
+        - NRRB: voor werknemers (arbeidsovereenkomst) · collectief · op basis van objectief meetbare doelstellingen · CAO 90-procedure · plafond ca. 4.020 EUR PB-vrij
+        - Tantième: voor bedrijfsleiders (mandaatrelatie) · individueel toegekend door algemene vergadering · winstuitkering uit netto-resultaat · belastbaar als bezoldiging bedrijfsleider · geen plafond
+    - ⚠️ **Verwarringsrisico**: Beide worden 'bonus' genoemd maar zijn juridisch fundamenteel verschillend (werknemer vs bedrijfsleider; collectief vs individueel; resultaat-gebonden via doelstellingen vs winstuitkering).

@@ -1,20 +1,286 @@
 ---
-title: "Btw vrijstellingen"
+title: "BTW-vrijstellingen (art. 44 W.BTW)"
 concept_type: "kader"
-schema_version: "2.1"
-status: "seed"
+schema_version: "2.2"
+status: "concept"
+categorieen:
+  - regeling
+ankers:
+  - 2.4.III
 tags:
   - concept
-  - schema-2.1
-  - ongeverifieerd
+  - schema-2.2
+  - type-kader
+  - cat-regeling
+  - status-concept
 gegenereerd_uit: "data/concepten/records/btw-vrijstellingen.json"
 ---
 
-# Btw vrijstellingen
+# BTW-vrijstellingen (art. 44 W.BTW)
 
 _Kader_
 
-Model: `skeleton-from-candidate` · Wave: `skeleton-dump`
+📋 Regeling · Anchors: `2.4.III` · Wave: `skeleton-btw-internationaal-2026-05-28`
 
-> [!warning] ⚠️ Seed-fiche — claims niet gevalideerd
-> Deze fiche is automatisch gegenereerd uit één extractie-pas (`beschrijven`) zonder bron-validatie. Claims zijn overwegend `🤖 verondersteld` en kunnen hallucinaties bevatten. Gebruik **niet** voor examenvoorbereiding zolang `claims_checken` niet is uitgevoerd.
+> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
+
+**Synoniemen**: vrijstellingen zonder recht op aftrek · objectieve btw-vrijstellingen — **Vertalingen**: fr: exemptions de TVA (art. 44 C.TVA)
+
+## Definitie
+
+📖 Artikel 44 van het btw-wetboek (W.BTW) somt handelingen op die binnen het toepassingsgebied van de btw vallen maar er objectief van vrijgesteld zijn. Het gaat om drie hoofdgroepen: (1) medische en sociale sector (§ 1 + § 2, 1°-3°) — gezondheidszorg, ziekenhuizen, maatschappelijk werk, ouderenzorg, sport, (2) culturele en onderwijssector (§ 2, 4°-12°) — school- en universitair onderwijs, bibliotheken, musea, voorstellingen, en (3) financiële en verzekeringssector + onroerend goed zonder optie (§ 3) — bank, krediet, verzekering, verhuur en verkoop van bestaand vastgoed. Kenmerkend: de vrijgestelde belastingplichtige rekent géén btw aan zijn klant, maar verliest in ruil daarvoor het recht op aftrek van de btw die hij zelf betaalde op zijn aankopen.
+
+<small>📚 W.BTW — art. 44 § 1 — _wettekst_ · W.BTW — art. 44 § 2 — _wettekst_ · W.BTW — art. 44 § 3 — _wettekst_</small>
+
+## Substantie
+
+🔗 Economisch effect: een vrijgestelde handeling oogt voor de eindklant goedkoper dan een belaste handeling (geen btw bovenop), maar de leverancier draagt zélf een verborgen btw-last omdat hij zijn voorbelasting niet kan recupereren. Die niet-aftrekbare btw wordt typisch doorgerekend in de prijs (rest-btw). Voor een ziekenhuis dat 21 % btw betaalt op verbouwingen en medische apparatuur, betekent dat een definitieve kostenpost — wat een fundamenteel verschil is met een handeling tegen nultarief (zoals export, art. 39 W.BTW) waar wél aftrek mogelijk blijft. De vrijstelling is dus géén fiscaal cadeau; ze is een keuze van de wetgever om bepaalde sectoren (zorg, onderwijs, cultuur) buiten de consumptiebelasting te houden, ten koste van een gedeeltelijke cumulatie van btw in de keten.
+
+<small>📚 W.BTW — art. 44 § 1-3 — _wettekst_ · BTW-richtlijn 2006/112/EG — art. 168 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Rationale
+
+🔗 De ratio legis van art. 44 is dubbel: (1) sociaal-politiek — handelingen van algemeen belang (zorg, onderwijs, cultuur, sociale bijstand) moeten betaalbaar blijven voor de eindverbruiker en mogen geen consumptiebelasting dragen; (2) technisch — financiële diensten (interest, kredietverlening, beleggingen) en verzekeringen kennen geen 'toegevoegde waarde' in btw-zin die zich gemakkelijk laat berekenen; vrijstelling vermijdt onoplosbare grondslagdiscussies. De Europese btw-richtlijn (art. 131-137) laat de lidstaten weinig vrijheid: ze móéten deze vrijstellingen toepassen, met telkens de voorwaarde 'geen winstoogmerk' of 'erkenning door de overheid' om concurrentieverstoring met commerciële spelers te vermijden.
+
+<small>📚 BTW-richtlijn 2006/112/EG — art. 131 — _wettekst_ · BTW-richtlijn 2006/112/EG — art. 132 — _wettekst_ · BTW-richtlijn 2006/112/EG — art. 135 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Gebruikscontext
+
+**Status**: `in-voege` · basis: W.BTW art. 44 (omzetting BTW-richtlijn 2006/112/EG art. 131-137)
+
+Stabiele structuur sinds de invoering van het btw-wetboek (1969); periodieke aanpassingen aan EU-richtlijn en grondwettelijke arresten (o.a. Grondwettelijk Hof nr. 194/2019 over esthetische ingrepen en chiropraxie). Sinds 2019 is bovendien een optie tot btw-heffing mogelijk voor verhuur van nieuw vastgoed (art. 44 § 3, 2°, d) — apart record.
+
+**✅ Voor**
+- 📖 Toegepast op handelingen verricht door belastingplichtigen in de medische, sociale, onderwijs-, culturele, financiële, verzekerings- en onroerendgoedsector. De vrijstelling werkt automatisch zodra de voorwaarden vervuld zijn — geen optie, geen keuze van de belastingplichtige (uitzondering: optie belasting verhuur, art. 44 § 3, 2°, d).
+
+**🚫 Niet voor**
+- 📖 Handelingen met therapeutisch karakter staan vrijgesteld; ingrepen en behandelingen zónder therapeutisch doel (zuiver esthetisch) zijn uitdrukkelijk uitgesloten en blijven aan btw onderworpen — gevolg van Grondwettelijk-Hof-arrest nr. 194/2019.
+- 📖 Wanneer nevenactiviteiten van een ziekenhuis of sociale instelling 'niet onontbeerlijk zijn' of 'ertoe strekken extra opbrengsten te verschaffen in concurrentie met commerciële ondernemingen', vervalt de vrijstelling voor die nevenactiviteit (bv. cafetaria, parking).
+
+**📋 Voorwaarden**
+- 📖 Drie typische cumulatieve voorwaarden voor culturele/sociale/sport-vrijstellingen: (1) de dienstverrichter is een instelling 'zonder winstoogmerk' (vzw, publiekrechtelijk lichaam of erkende instelling), (2) eventuele winst wordt niet uitgekeerd maar herinvesteerd in de werking, (3) de ontvangsten dekken enkel de kosten — geen prijsbeleid gericht op commerciële winst. Verlies van één van deze voorwaarden = verlies van vrijstelling.
+
+**⛔ Uitsluitingen**
+- 📖 Cosmetische en esthetische ingrepen zonder therapeutisch doel (Grondwettelijk Hof nr. 194/2019). Ook chiropraxie en osteopathie zijn enkel vrijgesteld als de beoefenaar voldoende kwalificaties heeft (zelfde arrest).
+
+**👍 Voordeel**
+- 🔗 Voor de eindverbruiker (patiënt, leerling, museumbezoeker): geen 21 % bovenop de prijs. Voor de sector: geen complexiteit van btw-aangifte op de vrijgestelde activiteiten, geen periodieke controle door btw-administratie op die output.
+
+**⚠️ Risico**
+- 🔗 Cumulatie van rest-btw: alle btw op aankopen wordt definitieve kost. Bij investeringen (gebouw, apparatuur) leidt dit tot aanzienlijke meerkost in vergelijking met een belaste sector waar de btw volledig recupereerbaar zou zijn. Bij gemengde activiteiten (deels vrijgesteld, deels belast) ontstaat de complexe regel van 'gemengde belastingplichtige' met algemeen of werkelijk verhoudingsgetal (zie btw-aftrek).
+- 🔗 Concurrentievervalsing: een commerciële speler die met een vrijgestelde sector concurreert (bv. private fitnessclub naast sportclub-vzw) ondervindt een 21 %-handicap aan de outputzijde, gecompenseerd door zijn aftrekrecht aan de inputzijde. Het niet-winstoogmerk-criterium probeert dit te neutraliseren, maar in de praktijk blijft de spanning.
+
+## Sub-concepten
+
+### 📦 Medische en sociale vrijstelling (§ 1 + § 2, 1°-3°)  
+_`regime` (subconcept)_
+
+#### Definitie
+
+📖 De medische vrijstelling (§ 1) geldt voor de medische verzorging door beoefenaars van een erkend gezondheidszorgberoep (art. wet 10 mei 2015) en voor andere beoefenaars met gelijkwaardige kwalificaties die een kennisgeving deden bij de btw-administratie. De ziekenhuisvrijstelling (§ 2, 1°) geldt voor ziekenhuizen, klinieken en dispensaria. De sociale vrijstelling (§ 2, 2°) geldt voor maatschappelijk werk, kinderopvang, ouderenzorg, gehandicaptenzorg, ziekenfondsen en preventiediensten. De sportvrijstelling (§ 2, 3°) geldt voor sportclubs zonder winstoogmerk. Voorwaarde voor alle: therapeutisch doel + niet-commerciële context.
+
+<small>📚 W.BTW — art. 44 § 1 — _wettekst_ · W.BTW — art. 44 § 2, 1°-3° — _wettekst_</small>
+
+### 📦 Culturele en onderwijsvrijstelling (§ 2, 4°-12°)  
+_`regime` (subconcept)_
+
+#### Definitie
+
+📖 Vrijstelling voor school- en universitair onderwijs en beroepsopleiding (§ 2, 4°, a), inclusief nauw samenhangende leveringen zoals logies en didactisch materiaal. Voorwaarde: instelling 'niet systematisch winst beogend' en winst herinvesterend. Lessen door particuliere leerkrachten over schoolstof (§ 2, 4°, b) zijn ook vrijgesteld. Daarnaast: bibliotheken (6°), musea/monumenten/dierentuinen (7°), prestaties van artiesten aan organisatoren (8°), organisatie van voorstellingen door erkende instellingen (9°), terbeschikkingstelling van geestelijken (10°), bezoldigingen aan auteursrechten (11°-12°).
+
+<small>📚 W.BTW — art. 44 § 2, 4°-12° — _wettekst_</small>
+
+### 📦 Financiële en verzekeringsvrijstelling (§ 3, 4°-11°)  
+_`regime` (subconcept)_
+
+#### Definitie
+
+📖 Vrijstelling voor (1) verzekering en herverzekering (§ 3, 4°), (2) verlening en bemiddeling van krediet (§ 3, 5°), (3) betalingsverkeer en deposito's (§ 3, 6°), (4) handelingen met betrekking tot effecten (§ 3, 7°-10°), (5) beheer van instellingen voor collectieve belegging (§ 3, 11°). Typisch werkterrein: banken, verzekeraars, kredietmakelaars, beleggingsfondsen. De vrijstelling stopt bij de bewaring/beheer van effecten voor klanten en bij safe-deposit-diensten — die blijven belast.
+
+<small>📚 W.BTW — art. 44 § 3, 4°-11° — _wettekst_ · BTW-richtlijn 2006/112/EG — art. 135 § 1, a)-g) — _wettekst_</small>
+
+### 📦 Onroerend zonder optie (§ 3, 1°-2°)  
+_`regime` (subconcept)_
+
+#### Definitie
+
+📖 Vrijstelling voor (1) de levering (verkoop) van bestaand onroerend goed — d.w.z. een gebouw dat ouder is dan 'nieuw' in de zin van art. 44 § 3, 1° (na het tweede jaar volgend op eerste ingebruikneming) — en (2) de verhuur van onroerend goed (§ 3, 2°). Op die laatste vrijstelling bestaat een belangrijke optie: sinds 2019 kan de verhuurder samen met een btw-plichtige huurder kiezen voor btw-heffing op de verhuur van nieuw vastgoed (art. 44 § 3, 2°, d + KB nr. 10 art. 7quater). Een aparte record (optie-btw-verhuur-vastgoed) behandelt die optie. Sommige verhuringen blijven verplicht belast: hotellogies, parking, opslag van goederen.
+
+<small>📚 W.BTW — art. 44 § 3, 1°-2° — _wettekst_ · KB nr. 10 — art. 7quater — _kb_</small>
+
+## Bouwstenen
+
+### ⚙️ Geen recht op aftrek voorbelasting  
+_`mechanisme`_
+
+📖 Het sleutel-mechanisme van een art. 44-vrijstelling: omdat de output vrijgesteld is, kan de belastingplichtige géén btw recupereren op zijn aankopen die aan die output toe te schrijven zijn (art. 45 § 1 W.BTW — aftrek alleen 'voor zover gebruikt voor belaste handelingen'). De rest-btw wordt definitieve kost en typisch doorgerekend in de prijs. Dit onderscheidt een vrijstelling fundamenteel van een nultarief (art. 39 W.BTW — export, intracommunautaire levering): bij nultarief blijft aftrek behouden.
+
+<small>📚 W.BTW — art. 45 § 1 — _wettekst_ · BTW-richtlijn 2006/112/EG — art. 168 — _wettekst_</small>
+
+### ⚙️ Verschil tussen vrijstelling en nultarief  
+_`mechanisme`_
+
+🔗 Een 'vrijgestelde' handeling (art. 44) en een handeling 'tegen nultarief' (art. 39 — export, art. 39bis — intracommunautaire levering, art. 42 — schepen en vliegtuigen) lijken voor de klant identiek: geen btw op de factuur. Maar voor de leverancier is het verschil cruciaal. Vrijgestelde leveraar = géén aftrek → rest-btw = verborgen kost. Leveraar tegen nultarief = wél aftrek → schone btw-keten, vaak terugbetaling. Stagiairs verwarren dit regelmatig — de wetgever heeft bewust gekozen om handelingen van algemeen belang vrij te stellen (zonder aftrek) en exporten op nul te zetten (mét aftrek) zodat de Belgische btw-druk op uitvoer netto nul blijft.
+
+<small>📚 W.BTW — art. 39 — _wettekst_ · W.BTW — art. 44 — _wettekst_ · W.BTW — art. 45 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+### 📜 Niet-winstoogmerk-voorwaarde  
+_`regel`_
+
+📖 Voor de sociale, culturele, sport- en onderwijsvrijstellingen vereist de wet (art. 44 § 2) cumulatief: (1) de instelling beoogt 'niet systematisch winst', (2) eventuele winst wordt 'niet uitgekeerd maar aangewend voor instandhouding of verbetering' van de dienst, (3) de prijzen dekken de kosten zonder beleid van commerciële marge. De rechtsvorm (vzw, publiekrechtelijk lichaam) is een sterke indicatie, maar geen automatische garantie — ook een commerciële NV kan vrijgesteld zijn als ze de feitelijke voorwaarden vervult, en omgekeerd kan een vzw onderworpen zijn als ze winstgericht handelt.
+
+<small>📚 W.BTW — art. 44 § 2, 3°-9° — _wettekst_ · BTW-richtlijn 2006/112/EG — art. 132 § 1, l-n — _wettekst_</small>
+
+### ⚙️ Gemengde belastingplichtige  
+_`mechanisme`_
+
+📖 Wanneer een belastingplichtige zowel art. 44-vrijgestelde handelingen verricht als belaste handelingen, wordt hij 'gemengd belastingplichtige' (art. 46 W.BTW). Hij kan zijn voorbelasting maar gedeeltelijk aftrekken. Twee methodes: (1) algemeen verhoudingsgetal (prorata van belaste omzet over totale omzet), (2) werkelijk gebruik (toewijzing per aankoop, met eventueel restkost via verhoudingsgetal — voorafgaande aanvraag nodig). Voorbeeld: een vzw die zowel sportlessen geeft (vrijgesteld) als sportartikelen verkoopt (belast).
+
+<small>📚 W.BTW — art. 46 — _wettekst_</small>
+
+### 📜 Geen btw-aangifte voor zuiver-vrijgestelde belastingplichtige  
+_`regel`_
+
+🔗 Een belastingplichtige die uitsluitend art. 44-vrijgestelde handelingen verricht (bv. een arts, een ziekenhuis, een muziekschool-vzw) is btw-plichtig maar moet géén periodieke btw-aangifte indienen, géén btw aanrekenen, en heeft géén btw-nummer nodig voor de aangifteplicht. Hij dient wél een btw-nummer aan te vragen voor sommige aankopen (bv. intracommunautaire verwervingen, diensten van buitenland — verleggingsregeling).
+
+<small>📚 W.BTW — art. 50 — _wettekst_ · W.BTW — art. 53 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Voorbeelden
+
+### 💡 Tandartspraktijk Aurelia — vrijgesteld voor zorg, btw-plichtig voor whitening 🔗
+
+_Dr. Aurelia exploiteert een tandartspraktijk. Tarief omzet: 90 % therapeutische tandzorg (controle, vullingen, kronen), 10 % zuiver esthetische whitening en facings._
+
+**Berekening:**
+- Stap 1 — kwalificeer per dienst: therapeutische tandzorg = vrijgesteld (art. 44 § 1, beoefenaar van erkend gezondheidsberoep); whitening en facings = belast aan 21 % (geen therapeutisch doel, arrest GwH 194/2019).
+- Stap 2 — Aurelia is gemengd belastingplichtige (art. 46 W.BTW). Zij moet btw aanrekenen + aangifte indienen voor het esthetische deel, en kan haar voorbelasting deels aftrekken.
+- Stap 3 — bepaal aftrekmethode. Bij algemeen verhoudingsgetal: aftrek = 10 % (belast / totaal). Bij werkelijk gebruik: behandelstoel die uitsluitend voor whitening dient -> 100 % aftrek; röntgenapparaat dat uitsluitend voor diagnostiek dient -> 0 % aftrek; receptie + boekhoudkost -> 10 % via restcategorie.
+- Stap 4 — werkelijk gebruik vereist voorafgaande aanvraag (KB nr. 3 art. 18bis) maar geeft typisch een gunstiger resultaat als de mix-aankopen duidelijk toewijsbaar zijn.
+
+→ **Resultaat**: Een tandarts is dus géén 'pure' vrijgestelde belastingplichtige: zodra hij esthetische ingrepen aanbiedt, valt hij in gemengd regime met periodieke btw-aangifte voor dat deel.
+
+<small>📚 W.BTW — art. 44 § 1 — _wettekst_ · Grondwettelijk Hof — arrest nr. 194/2019 — _rechtspraak_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+### 💡 Sportclub Zelena VZW — sportlessen vrijgesteld, cafetaria belast 🔗
+
+_VZW Zelena baat een tennisclub uit. Inkomsten: 70.000 EUR lidgelden voor toegang tot terreinen en lessen, 20.000 EUR cafetaria-omzet (drank en snacks)._
+
+**Berekening:**
+- Stap 1 — kwalificeer omzet: lidgelden = vrijgesteld (art. 44 § 2, 3°, sport door instelling zonder winstoogmerk); cafetaria = belast aan 21 % (handelt in 'rechtstreekse mededinging met commerciële ondernemingen' — uitsluiting in art. 44 § 2, 1° voor ziekenhuizen geldt analoog hier).
+- Stap 2 — kwalificeer rechtsvorm + voorwaarden: VZW, geen winstuitkering — voldoet aan niet-winstoogmerk voor de lidgelden.
+- Stap 3 — bereken algemeen verhoudingsgetal: belaste omzet / totale omzet = 20.000 / 90.000 ~ 22,2 %. Zelena kan dus 22 % (afgerond naar boven, art. 47 W.BTW) van de voorbelasting op gemengde aankopen aftrekken.
+- Stap 4 — overweeg werkelijk gebruik: cafetaria-koelkast = 100 % aftrek; tennisvloeren = 0 %; clubhuis-elektriciteit = restcategorie.
+
+→ **Resultaat**: Lidgelden blijven btw-vrij voor de leden — concurrentievoordeel tegenover commerciële tennisclubs (die 21 % aanrekenen op lessen). De cafetaria daarentegen heeft géén voordeel, zelfs een nadeel: de vzw moet boekhoudkundig de twee circuits scheiden.
+
+<small>📚 W.BTW — art. 44 § 2, 3° — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+### 💡 Bank — kredietverlening vrijgesteld, bewaring effecten belast 📖
+
+_Een kredietinstelling biedt aan een KMO-klant: (a) een investeringskrediet (interestopbrengst 12.000 EUR/jaar), (b) een effectenbewaringsdienst (jaarlijkse vergoeding 1.500 EUR)._
+
+
+
+<small>📚 W.BTW — art. 44 § 3, 5° — _wettekst_ · W.BTW — art. 44 § 3, 10° — _wettekst_</small>
+
+## Valkuilen
+
+### ⚠️ Vrijstelling verwarren met nultarief
+
+**Verkeerde assumptie**: Stagiairs denken dat 'geen btw op de factuur' = geen verschil tussen art. 44-vrijstelling en art. 39-nultarief. Ze concluderen dat een arts en een exporteur in dezelfde btw-positie zitten.
+
+**Kernpunt**: Het verschil zit aan de aftrek-kant, niet aan de output-kant. Vrijgesteld (art. 44) = géén aftrek voorbelasting -> rest-btw = definitieve kost in de prijs. Nultarief (art. 39, 39bis, 42) = wél volledige aftrek -> propere btw-keten, vaak teruggave. Praktisch geheugensteun: 'vrij = vast'; 'nul = recupereerbaar'.
+
+<small>📚 W.BTW — art. 39 — _wettekst_ · W.BTW — art. 44 — _wettekst_ · W.BTW — art. 45 — _wettekst_</small>
+
+### ⚠️ Rechtsvorm verwarren met niet-winstoogmerk-voorwaarde
+
+**Verkeerde assumptie**: 'Als de instelling een vzw is, is ze automatisch vrijgesteld'. Of omgekeerd: 'als het een NV is, kan ze nooit vrijgesteld zijn'.
+
+**Kernpunt**: De voorwaarde is feitelijk, niet juridisch-formeel. Een vzw kan onderworpen zijn als ze winstgericht handelt (sport-vzw die hoge consumptieprijzen rekent en winst opbouwt voor expansie). Een NV kan vrijgesteld zijn als ze feitelijk niet winstgericht is (zeldzaam, maar mogelijk bij door overheid erkende instellingen). Bekijk: prijszetting, herinvestering, statuten én feitelijke werking.
+
+<small>📚 W.BTW — art. 44 § 2 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+### ⚠️ Vergeten dat de vrijgestelde belastingplichtige nog steeds belastingplichtige is
+
+**Verkeerde assumptie**: Een arts is 'geen btw-plichtige' omdat hij geen btw aanrekent.
+
+**Kernpunt**: De vrijgestelde art. 44-belastingplichtige IS btw-plichtige in de zin van art. 4 W.BTW — alleen zijn output is vrijgesteld. Gevolgen: (1) bij intracommunautaire verwervingen >11.200 EUR/jaar moet hij een btw-nummer aanvragen en verleggingsregeling toepassen; (2) bij diensten van buitenlandse leveranciers (cloud, software) idem verleggingsregeling; (3) hij kan géén btw aanrekenen, ook niet 'per ongeluk'. Dit verschilt van een 'niet-belastingplichtige' particulier.
+
+<small>📚 W.BTW — art. 4 — _wettekst_ · W.BTW — art. 25ter — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+### ⚠️ Vrijstelling kleine onderneming verwarren met art. 44-vrijstelling
+
+**Verkeerde assumptie**: 'De art. 44-vrijstelling en de KO-vrijstellingsregeling (art. 56bis, omzet <25.000 EUR) zijn beide vrijstellingen, dus hetzelfde regime.'
+
+**Kernpunt**: Verschillende mechanismen. Art. 44 = objectieve vrijstelling per type handeling (medisch, sociaal, financieel ...) ongeacht omzet. Art. 56bis = subjectieve vrijstellingsregeling per belastingplichtige op basis van omzet, optioneel, voor élke economische activiteit. Een arts >25.000 EUR omzet blijft vrijgesteld onder art. 44. Een loodgieter <25.000 EUR omzet kan kiezen voor art. 56bis. Beide leiden tot 'geen btw aanrekenen + geen aftrek', maar de toets verschilt fundamenteel.
+
+<small>📚 W.BTW — art. 44 — _wettekst_ · W.BTW — art. 56bis — _wettekst_</small>
+
+## Accountant-perspectieven
+
+### Vrijgestelde cliënt (zorg, onderwijs, vzw)
+
+_De accountant die de boekhouding en btw-positie van een vrijgestelde belastingplichtige (arts, ziekenhuis, school, sport-vzw) verzorgt._
+
+#### 💰 Fiscaal adviseur
+
+##### 👣 Kwalificeren van de output  
+_`stap`_
+
+🔗 Eerste stap bij elke nieuwe activiteit van de cliënt: doorloop art. 44 § 1-2-3 en bepaal of de handeling daaronder valt. Bij twijfel: ruling-aanvraag bij DVB. Bij gemengd profiel: maak een matrix per activiteit met btw-regime + boekhoudkundige scheiding. Verwacht bij elke nieuwe dienst (esthetische ingreep door arts, cafetaria-uitbreiding door sportclub, e-commerce door museum) dat de kwalificatie heroverwogen moet worden.
+
+<small>📚 W.BTW — art. 44 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+##### 📜 IC-verwervingen en buitenlandse diensten — verleggingsregeling  
+_`regel`_
+
+📖 Een art. 44-vrijgestelde belastingplichtige die intracommunautair voor meer dan de drempel (11.200 EUR/jaar, art. 25ter § 1 lid 2) aankoopt, moet btw-nummer aanvragen + verleggingsregeling toepassen + speciale btw-aangifte (formulier 629) indienen. Idem voor diensten van buitenlandse dienstverleners (B2B-regel, art. 21 § 2). Veel kleine vrijgestelde belastingplichtigen worden hier verrast — een fitnesszaal die machines uit Duitsland importeert ontdekt plots btw-verplichtingen.
+
+<small>📚 W.BTW — art. 25ter — _wettekst_ · W.BTW — art. 21 § 2 — _wettekst_ · W.BTW — art. 53ter — _wettekst_</small>
+
+#### 📒 Boekhouder
+
+##### 👣 Boekhoudkundige scheiding gemengde activiteit  
+_`stap`_
+
+🔗 Bij gemengde belastingplicht: aparte omzetrekeningen per regime (vrijgesteld vs 21 %) en aparte inkoop-/kostenrekeningen waar mogelijk. Dat maakt zowel de berekening van het algemeen verhoudingsgetal als de overgang naar 'werkelijk gebruik' veel eenvoudiger. Bewaar bovendien een spreadsheet 'aftrek-matrix' per aankoopcategorie zodat de jaarlijkse btw-listing kan onderbouwd worden bij controle.
+
+<small>📚 W.BTW — art. 46 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+#### 🧭 Adviseur
+
+##### 🧭 Algemeen verhoudingsgetal vs werkelijk gebruik  
+_`vuistregel`_
+
+🔗 Als de cliënt duidelijke toewijsbare aankopen heeft (machine voor belaste activiteit, ruimte voor vrijgestelde activiteit), levert 'werkelijk gebruik' meestal een gunstiger aftrek dan het algemeen verhoudingsgetal. Voorafgaande aanvraag bij btw-administratie nodig (KB nr. 3 art. 18bis). Becijfer beide methodes vóór de keuze — soms is het verhoudingsgetal eenvoudiger en niet veel slechter.
+
+<small>📚 KB nr. 3 — art. 18bis — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Verder lezen (scope-out)
+
+- → Vrijstellingsregeling kleine onderneming (afzonderlijk regime art. 56bis) → [[vrijstellingsregeling-kleine-onderneming]] _(moet-verwijzen)_
+- → Optie BTW-verhuur vastgoed (uitzondering op art. 44 § 3, 2°) → [[optie-btw-verhuur-vastgoed]] _(moet-verwijzen)_
+- → BTW-aftrek mechanisme (vrijstelling = geen aftrek voorbelasting) → [[btw-aftrek]] _(moet-verwijzen)_
+
+## Relaties
+
+### `valt_onder`
+- [[btw]]
+### `is_uitzondering_op`
+- [[btw]] — Vrijgestelde handelingen vallen wel onder het btw-toepassingsgebied (art. 2 W.BTW — een leverancier in art. 44 is belastingplichtige) maar zijn objectief vrijgesteld van de heffing.
+### `vergelijkbaar_met`
+- [[vrijstellingsregeling-kleine-onderneming]]
+    - **Gelijkenissen**:
+        - Beide regimes leiden tot 'geen btw op de factuur' voor de klant
+        - Beide ontnemen het recht op aftrek voorbelasting
+        - Beide vermijden de noodzaak van periodieke btw-aangifte voor de output
+    - **Verschillen**:
+        - Art. 44 = objectieve vrijstelling per type handeling (medisch, sociaal, cultureel, financieel) ongeacht omzet — automatisch en verplicht
+        - Art. 56bis (KO) = subjectieve vrijstellingsregeling op basis van omzet (<25.000 EUR/jaar) — optioneel, voor élke economische activiteit
+        - Een belastingplichtige kan beide regimes combineren of niet — een arts met 100.000 EUR omzet blijft onder art. 44; een loodgieter met 20.000 EUR omzet kan art. 56bis kiezen
+    - ⚠️ **Verwarringsrisico**: Stagiairs noemen beide simpelweg 'vrijgesteld' en gebruiken de termen door elkaar. Verkeerde diagnose leidt tot fout advies over btw-nummer, aangifteplicht en aftrek.
+### `triggert`
+- [[btw-aftrek]] — Vrijgestelde output blokkeert (geheel of gedeeltelijk) het aftrekrecht van voorbelasting. Bij gemengde belastingplichtige genereert dit het algemeen verhoudingsgetal of werkelijk-gebruik-mechanisme.
+### `bevat`
+- [[optie-btw-verhuur-vastgoed]] — De vrijstelling voor onroerend goed (art. 44 § 3, 2°) kent sinds 2019 een belangrijke optie voor btw-heffing van professionele verhuur — apart record.

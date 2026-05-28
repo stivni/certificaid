@@ -79,6 +79,7 @@ data/programma/examen_vragen/_segmenten/**/*.png
 .student-feedback*.md
 data/extractie/matches/
 data/extractie/matches.sqlite3
+data/extractie/candidates.sqlite3*
 
 # Tarief-records vision-extractie staging (ADR-026)
 data/tarieven/_poc/

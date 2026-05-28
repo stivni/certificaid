@@ -1,20 +1,223 @@
 ---
-title: "Forfaitaire regeling btw"
+title: "Forfaitaire regeling (BTW)"
 concept_type: "regime"
-schema_version: "2.1"
-status: "seed"
+schema_version: "2.2"
+status: "concept"
+categorieen:
+  - regeling
+ankers:
+  - 2.4.III
 tags:
   - concept
-  - schema-2.1
-  - ongeverifieerd
+  - schema-2.2
+  - type-regime
+  - cat-regeling
+  - status-concept
 gegenereerd_uit: "data/concepten/records/forfaitaire-regeling-btw.json"
 ---
 
-# Forfaitaire regeling btw
+# Forfaitaire regeling (BTW)
 
 _Regime_
 
-Model: `skeleton-from-candidate` · Wave: `skeleton-dump`
+📋 Regeling · Anchors: `2.4.III` · Wave: `skeleton-btw-internationaal-2026-05-28`
 
-> [!warning] ⚠️ Seed-fiche — claims niet gevalideerd
-> Deze fiche is automatisch gegenereerd uit één extractie-pas (`beschrijven`) zonder bron-validatie. Claims zijn overwegend `🤖 verondersteld` en kunnen hallucinaties bevatten. Gebruik **niet** voor examenvoorbereiding zolang `claims_checken` niet is uitgevoerd.
+> [!info] 📝 **Concept** — content gevuld door cluster-extract; niet door mens-verify gegaan.
+
+> [!warning] **Uitdovend regime** — wordt afgebouwd; check sinds-/tot-data.
+
+**Synoniemen**: forfait-regime btw · btw-forfait — **Vertalingen**: fr: régime forfaitaire (TVA)
+
+## Definitie
+
+📖 De forfaitaire regeling btw (art. 56 W.BTW + KB nr. 2 van 19 december 2018) is een vereenvoudigd regime voor belastingplichtigen in bepaalde sectoren waar de omzet moeilijk dagelijks per handeling kan worden geregistreerd (kleinhandel zonder kasregister, ambachten, horeca). In plaats van de werkelijke omzet aan te geven, gebruikt de belastingplichtige forfaitaire grondslagen die jaarlijks per sector worden vastgesteld na overleg met beroepsorganisaties (art. 56 § 1 W.BTW). Btw wordt aangerekend en afgedragen op die forfaitaire grondslag; aftrek voorbelasting blijft mogelijk. Dertien sectoren komen in aanmerking (bijlage KB nr. 2): apothekers, bakkers, caféhouders, ijsbereiders, frietkramen, foornijveraars, kappers, kleine caféhouders, kleinhandelaars textiel/leder, kleinhandelaars kranten, kleinhandelaars levensmiddelen, kleinhandelaars zuivel, schoenherstellers, slagers. Het regime is uitdovend: per 31 december 2027 treedt KB nr. 2 buiten werking (art. 11).
+
+<small>📚 W.BTW — art. 56 § 1 — _wettekst_ · KB nr. 2 — bijlage — _kb_ · KB nr. 2 — art. 11 — _kb_</small>
+
+## Substantie
+
+🔗 Het forfait dient als een macro-economische omzetschatting per sector — bedacht voor handelszaken waar dagelijkse kassaregistratie onhaalbaar of disproportioneel zou zijn. De fiscus en de beroepsfederatie spreken jaarlijks de 'omzetparameters' af: bv. voor een kapper een omzet per beurt × geschat aantal beurten, voor een bakker een omzet per kilo bloem, voor een caféhouder een omzet per verkocht vat bier. De belastingplichtige hoeft niet elke individuele verkoop in te schrijven; hij houdt enkel zijn aankopen bij en de fiscale omzet wordt uit die aankopen afgeleid via de coëfficiënten. Btw-aangifte is wel verplicht (kwartaal of maand) maar gebaseerd op de forfaitaire omzet, niet de werkelijke. Het regime werd in de jaren '70 ingevoerd voor administratieve eenvoud; door de digitalisering (verplichte kasregisters in horeca sinds 2015, e-commerce, kassasystemen overal) is de noodzaak verdwenen. Uitdovend per 2028.
+
+<small>📚 KB nr. 2 — art. 7 — _kb_ · KB nr. 2 — art. 8 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Rationale
+
+🔗 Ratio legis: administratieve vereenvoudiging voor sectoren waar handelsboekhouding-per-verkoop onhaalbaar is (kleinhandel met veel kleine kassatransacties zonder bonnetjes, ambacht met diversiteit). Bovendien voorkomt het black-market-economie: door op aankopen te belasten en daaruit omzet af te leiden, wordt onderaangifte technisch moeilijk. De keerzijde: het forfait kan voordelig zijn voor efficiënte ondernemers (werkelijke omzet > forfaitaire) en nadelig voor minder-presterende (omgekeerd). De afschaffing per 2028 weerspiegelt de overweging dat moderne kassasystemen het forfait obsoleet maken én dat het systeem soms gebruikt werd als 'verkapte vermindering'.
+
+<small>📚 W.BTW — art. 56 § 1 — _wettekst_ · KB nr. 2 — art. 11 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Gebruikscontext
+
+**Status**: `uitdovend` · tot **2027-12-31** · basis: W.BTW art. 56 + KB nr. 2 (19 december 2018), buitenwerkingtreding bij art. 11 KB nr. 2
+
+KB nr. 2 treedt buiten werking op 31 december 2027 (art. 11). Vanaf 1 januari 2028 schakelen forfait-belastingplichtigen verplicht over naar het normaal regime of (indien ze aan de voorwaarden voldoen) naar het KO-regime <25.000 EUR. Voor de caféhouders en kleine caféhouders is bij KB van 2 maart 2025 nog een specifieke regeling getroffen voor de jaren 2020-2024 (laattijdige vaststelling forfaitaire grondslagen).
+
+**✅ Voor**
+- 📖 Belastingplichtigen actief in één van de 13 sectoren in bijlage KB nr. 2 (apothekers, bakkers, caféhouders, ijsbereiders, frietkramen, foornijveraars, kappers, kleine caféhouders, kleinhandelaars textiel/leder, kleinhandelaars kranten/tijdschriften, kleinhandelaars levensmiddelen, kleinhandelaars zuivel/melk, schoenherstellers, slagers/spekslagers) die aan de voorwaarden van art. 56 § 1 W.BTW voldoen.
+
+**📋 Voorwaarden**
+- 📖 Activiteit in een sector waarvoor forfaitaire grondslagen zijn vastgesteld; jaaromzet (typisch) ≤ een sectorspecifieke drempel; ondernemingsstructuur die de voorwaarden van art. 56 § 1 W.BTW vervult (typisch: natuurlijke persoon of zeer kleine onderneming). De Koning bepaalt voor elke sector exacte modaliteiten na overleg met beroepsgroeperingen.
+- 📖 Overgang naar normaal regime is mogelijk op uitdrukkelijke optie (art. 56 § 4 W.BTW + art. 3 § 2 KB nr. 2): kennisgeving vóór 15 maart, effect vanaf 1 april van hetzelfde jaar. Overgang naar KO-regime: per 1 januari, april, juli of oktober mits voorgaand kalenderjaar < 25.000 EUR forfaitaire omzet (art. 4 § 1 KB nr. 2).
+
+**👍 Voordeel**
+- 🔗 Administratieve eenvoud: geen individuele verkoopboekhouding (geen kassa-tickets dagelijks bijhouden). Btw-aangifte op basis van aankopen × forfait-coëfficiënt. Bij efficiënte werking: werkelijke omzet kan hoger zijn dan forfaitaire — extra winst niet belast in btw.
+
+**⚠️ Risico**
+- 📖 Verdwijning per 1 januari 2028: alle forfait-belastingplichtigen moeten dan overschakelen naar normaal regime of KO. Vereist herstructurering van boekhouding, eventueel installatie van kasregister, en mogelijk een grote initiële herziening op voorraad en bedrijfsmiddelen (KB nr. 3 art. 21bis). Accountants moeten cliënten tijdig waarschuwen.
+- 🔗 Bij minder dan forfaitaire werkelijke omzet (bv. krimpende sector, ziekte van zaakvoerder, lockdown): de belastingplichtige betaalt btw op een omzet die hij niet werkelijk haalde. Voor caféhouders tijdens COVID-19 leidde dit tot specifieke uitvoeringsbesluiten (KB 2025-03-02 over 2020-2024).
+
+## Bouwstenen
+
+### 💡 Dertien forfait-sectoren (bijlage KB nr. 2)  
+_`begrip`_
+
+📖 De bijlage van KB nr. 2 somt de 13 sectoren op waarvoor forfaitaire grondslagen bestaan: apothekers; bakkers, brood- en banketbakkers; caféhouders; consumptie-ijsbereiders; exploitanten van frietkramen; foornijveraars; kappers; kleine caféhouders; kleinhandelaars in textiel- en lederwaren; kleinhandelaars in kranten en tijdschriften; kleinhandelaars in levensmiddelen; kleinhandelaars in zuivelproducten en melkventers; schoenherstellers; slagers-spekslagers. Andere sectoren (vrije beroepen, bouw, ICT) komen niet in aanmerking.
+
+<small>📚 KB nr. 2 — bijlage (artikel 1) — _kb_</small>
+
+### ⚙️ Forfaitaire grondslagen — jaarlijks vastgesteld  
+_`mechanisme`_
+
+📖 Voor elke sector worden coëfficiënten vastgesteld die uit de aankopen de omzet afleiden. Voorbeeld kapper: omzet = (aantal beurten × prijs/beurt) waarbij aantal beurten geraamd wordt op basis van aangekochte producten (shampoo, kleurstoffen). Voorbeeld bakker: omzet = aankoop bloem × verkoopprijs/kilo × verlies-coëfficiënt. De grondslagen worden jaarlijks 'voorlopig' vastgesteld (art. 7 KB nr. 2) en kunnen tussentijds aangepast worden bij wijzigingen >2 %. Beroepsgroeperingen die wensen deel te nemen aan het overleg moeten vóór 1 februari de cijferelementen verschaffen (art. 8).
+
+<small>📚 KB nr. 2 — art. 7 — _kb_ · KB nr. 2 — art. 8 — _kb_</small>
+
+### ⚙️ Aftrek voorbelasting blijft mogelijk  
+_`mechanisme`_
+
+🔗 Belangrijk verschil met de KO-vrijstelling: een forfait-belastingplichtige rekent wél btw aan (op forfaitair vastgestelde omzet, niet de werkelijke) en behoudt zijn recht op aftrek voorbelasting op zijn aankopen. Hij dient periodieke btw-aangiften in (kwartaal, eventueel maand). De forfait is dus geen 'vrijstelling' maar een 'vereenvoudigde omzetbepaling'.
+
+<small>📚 W.BTW — art. 56 — _wettekst_ · W.BTW — art. 45 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+### 📏 Uitdoofregime — afschaffing per 1 januari 2028  
+_`drempel`_
+
+📖 KB nr. 2 (art. 11) bepaalt dat het besluit buiten werking treedt op 31 december 2027. Vanaf 1 januari 2028 zijn er dus geen forfaitaire grondslagen meer. Alle huidige forfait-belastingplichtigen moeten dan: (a) overschakelen naar normaal regime met dubbele boekhouding + kasregister waar nodig, of (b) overschakelen naar het KO-regime indien hun omzet <25.000 EUR. Geadviseerd: in 2026-2027 al de overgang voorbereiden, niet wachten tot eindjaar.
+
+<small>📚 KB nr. 2 — art. 11 — _kb_</small>
+
+### 👣 Overgangsprocedure naar normaal regime of KO  
+_`stap`_
+
+📖 Naar normaal regime: optie uitoefenen vóór 15 maart, effect vanaf 1 april (art. 3 § 2 KB nr. 2). Naar KO-regime: kennisgeving per 1 januari/april/juli/oktober mits voorgaand kalenderjaar onder 25.000 EUR forfaitaire omzet (art. 4 § 1 KB nr. 2). Bij elke overgang: initiële herziening — recuperatie/terugstorting van btw op voorraad en bedrijfsmiddelen die nog in herzieningsperiode zitten (art. 56 § 4 W.BTW + KB nr. 3 art. 21bis). Inventaris in twee exemplaren binnen één maand na overgang indienen.
+
+<small>📚 KB nr. 2 — art. 3 § 2 — _kb_ · KB nr. 2 — art. 3 § 3 — _kb_ · KB nr. 2 — art. 4 § 1 — _kb_</small>
+
+## Voorbeelden
+
+### 💡 Kapsalon Zelena — forfait-berekening 🔗
+
+_Zelena baat een kapsalon uit (sector kappers, bijlage KB nr. 2). Aankopen in 2025: 8.000 EUR producten (kleur, shampoo, styling). De forfaitaire grondslag voor kappers in 2025 bedraagt (illustratief) omzet = aankopen × 4 = 32.000 EUR._
+
+**Berekening:**
+- Stap 1 — bepaal forfaitaire grondslag: aankopen 8.000 EUR × coëfficiënt 4 = 32.000 EUR omzet.
+- Stap 2 — bereken verschuldigde btw: 32.000 × 21 % = 6.720 EUR (kapperdienst valt onder 21 %; uitzondering: 6 % voor sommige diensten in horeca-context).
+- Stap 3 — bereken aftrek voorbelasting op aankopen: 8.000 × 21 % = 1.680 EUR.
+- Stap 4 — netto te storten: 6.720 − 1.680 = 5.040 EUR btw over heel 2025, verspreid over 4 kwartaalaangiftes.
+- Stap 5 — administratie: enkel aankopen registreren, geen kassaregistratie per beurt vereist (klantkaart of kassa wel aanbevolen voor controle).
+
+→ **Resultaat**: Indien Zelena werkelijk 35.000 EUR omzet realiseerde maar het forfait 32.000 oplegt: extra 3.000 EUR niet-belast in btw — economisch voordeel. Omgekeerd, bij krimp tot 28.000 werkelijke omzet: btw op 32.000 forfait blijft verschuldigd — administratief eenvoud maar fiscaal nadeel.
+
+<small>📚 W.BTW — art. 56 § 1 — _wettekst_ · KB nr. 2 — bijlage — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+### 💡 Bakkerij Aurelia — overgang naar normaal regime in 2028 🔗
+
+_Aurelia heeft sinds 2018 een bakkerij onder forfait-regime. In oktober 2027 begint ze de overgang naar 2028 voor te bereiden — KB nr. 2 verdwijnt per 31 december 2027._
+
+**Berekening:**
+- Stap 1 — keuzeanalyse: jaaromzet Aurelia 2026 = ~60.000 EUR. > 25.000 EUR drempel KO — KO-regime niet mogelijk. Verplichte overgang naar normaal regime.
+- Stap 2 — kasregister aankopen: vanaf 1 januari 2028 dagelijkse omzetregistratie. Bakkerijen vallen onder horeca-kassasysteem mits horeca-component; pure broodverkoop typisch met POS-kassa (advies: 2027 installeren + testen).
+- Stap 3 — voorraadinventaris per 31 december 2027 opstellen + waarderen. Btw op voorraad die nu definitief afgetrokken kon worden = 0 onder forfait; onder normaal regime kan Aurelia voor de aankoop-btw van 2027 die nu in voorraad zit, herziening doen.
+- Stap 4 — boekhouding aanpassen: van enkel aankopenboek naar volledige boekhouding (verkoopboek, kasboek, btw-grootboek). Inschakelen boekhouder voor 2028.
+- Stap 5 — eerste kwartaalaangifte 2028: deadline 20 april 2028 voor Q1. Inclusief eventuele herziening voorraad/bedrijfsmiddelen (KB nr. 3 art. 21bis).
+
+→ **Resultaat**: Geen panieksituatie als tijdig voorbereid. Voor stagiair-accountants: cliëntenlijst doorlopen begin 2027, forfait-cliënten identificeren, transitie-roadmap opmaken.
+
+<small>📚 KB nr. 2 — art. 11 — _kb_ · KB nr. 3 — art. 21bis — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Valkuilen
+
+### ⚠️ Forfait verwarren met KO-vrijstelling
+
+**Verkeerde assumptie**: 'Forfait en KO zijn beide vereenvoudigde btw-regimes — hetzelfde dus.'
+
+**Kernpunt**: Twee compleet andere mechanismen. Forfait (art. 56) = wel btw aanrekenen + wel aftrek + periodieke aangifte op forfaitaire omzet. KO (art. 56bis/ter) = geen btw aanrekenen + geen aftrek + geen periodieke aangifte. Forfait werkt enkel in 13 specifieke sectoren; KO werkt in élke activiteit met omzet <25.000 EUR. Een kapper >25.000 EUR omzet kan forfait kiezen; een ICT-consultant <25.000 EUR kan enkel KO kiezen.
+
+<small>📚 W.BTW — art. 56 — _wettekst_ · W.BTW — art. 56bis — _wettekst_</small>
+
+### ⚠️ Afschaffingsdatum 2028 onderschatten
+
+**Verkeerde assumptie**: 'KB nr. 2 verdwijnt einde 2027 — ik bekijk dat wel als het zover is.'
+
+**Kernpunt**: De overgang vereist meerdere maanden voorbereiding: kasregister kiezen + installeren, boekhouding omschakelen, eventueel KO-vs-normaal evaluatie, initiële herziening voorraad/bedrijfsmiddelen. Wachten tot december 2027 = paniek + fouten. Begin 2026-2027 al starten met overgangsplanning.
+
+<small>📚 KB nr. 2 — art. 11 — _kb_</small>
+
+### ⚠️ Werkelijke omzet > forfait niet meten
+
+**Verkeerde assumptie**: 'Onder forfait moet ik mijn werkelijke omzet niet kennen.'
+
+**Kernpunt**: Strikt juridisch geldt de forfaitaire omzet voor btw, maar voor inkomstenbelasting (PB-bezoldiging, vennootschapsbelasting) telt wél de werkelijke winst — die hangt af van werkelijke omzet en werkelijke kosten. Bovendien: bij fiscale controle of cliëntklacht moet de werkelijke omzet documenteerbaar zijn (anders presumptie van fraude). Kassaregistratie of dagomzetboek is dus aan te raden, ook onder forfait.
+
+<small>📚 WIB92 — art. 22 — _wettekst_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+## Accountant-perspectieven
+
+### Forfait-cliënt (kapper, bakker, caféhouder, ...)
+
+_De accountant die kleine handelszaken in forfait-sectoren begeleidt — periodieke aangifte + tijdige voorbereiding op de afschaffing._
+
+#### 💰 Fiscaal adviseur
+
+##### 👣 Jaarlijkse check van forfaitaire grondslagen  
+_`stap`_
+
+🔗 Elk voorjaar verschijnen de circulaires met de nieuwe forfaitaire coëfficiënten per sector (na overleg beroepsgroepering — art. 7-8 KB nr. 2). Download + apply per cliënt: bereken voorlopige btw-aangifte op basis van vorig-jaars aankopen × nieuwe coëfficiënt. Identificeer dossiers met sterke afwijking voorgaande jaren -> mogelijk overschakeling naar normaal regime overwegen.
+
+<small>📚 KB nr. 2 — art. 7-8 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+##### 👣 Transitie 2028 — cliëntenoverzicht + roadmap  
+_`stap`_
+
+🔗 Begin 2026: maak een lijst van alle forfait-cliënten. Per cliënt: bepaal of na 2027 (a) KO mogelijk (omzet < 25.000), (b) normaal regime nodig. Communicatie + planningsbrief naar elke cliënt. In 2027: implementatie (kasregister, boekhouding, eventueel registratie KO-keuze tegen 15 maart 2028). Vermijd last-minute paniek in december 2027.
+
+<small>📚 KB nr. 2 — art. 11 — _kb_ · cluster-extract-agent (opus-4.7-1M) — _ai_model_ — (2026-05-28)</small>
+
+#### 📒 Boekhouder
+
+##### 👣 Vereenvoudigde boekhouding onder forfait  
+_`stap`_
+
+🔗 Forfait-belastingplichtige natuurlijke persoon valt vaak onder vereenvoudigde boekhouding (CBN 2019/11). Houd voor btw-doeleinden bij: aankoopboek per leverancier (= basis forfaitaire omzetberekening), bonnetjes van kleine kosten (10 EUR-regel), inventarisboek einde jaar. Btw-aangifte: kwartaal of maand op basis van aankopen × coëfficiënt. Bewaar werkdocument met forfait-berekening voor controle.
+
+<small>📚 CBN-advies — 2019/11 — _cbn_ · KB nr. 2 — art. 1-2 — _kb_</small>
+
+#### 🧭 Adviseur
+
+##### 📜 Caféhouders 2020-2024 — speciale grondslagregeling  
+_`regel`_
+
+📖 Voor caféhouders en kleine caféhouders zijn de forfaitaire grondslagen voor 2020-2024 pas in 2025 vastgesteld (KB 2025-03-02, art. 8 KB nr. 2). Cliënten die in die jaren met covid-lockdowns te maken hadden, kunnen herziening van eerder ingediende btw-aangiftes overwegen. Concrete circulaire raadplegen voor de exacte coëfficiënten.
+
+<small>📚 KB nr. 2 — art. 8, tweede lid (gewijzigd door KB 2025-03-02) — _kb_</small>
+
+## Verder lezen (scope-out)
+
+- → Vrijstellingsregeling KO (alternatief) → [[vrijstellingsregeling-kleine-onderneming]] _(moet-verwijzen)_
+- ↪ BTW-aangifte voor forfait-belastingplichtige → [[btw-aangifte]] _(mag-verwijzen)_
+
+## Relaties
+
+### `valt_onder`
+- [[btw]]
+### `vergelijkbaar_met`
+- [[vrijstellingsregeling-kleine-onderneming]]
+    - **Gelijkenissen**:
+        - Beide zijn alternatieve regimes voor kleine belastingplichtigen
+        - Beide bieden administratieve vereenvoudiging tegenover normaal regime
+        - Overgang tussen beide regimes is mogelijk per kwartaalwissel
+    - **Verschillen**:
+        - Forfait: wel btw aanrekenen op forfaitaire omzet + wel aftrek + wel periodieke aangifte; enkel voor 13 sectoren; uitdovend per 2028
+        - KO: geen btw aanrekenen + geen aftrek + enkel jaarlijkse klantenlisting; voor élke activiteit met omzet <25.000 EUR; permanent regime
+### `vereist`
+- [[btw-belastingplichtige]] — Forfait-regime is een werkwijze voor btw-belastingplichtigen — geen ontsnapping aan de hoedanigheid.
