@@ -222,7 +222,7 @@
               "confidence": "afgeleid",
               "bronnen": [
                 { "type": "kb", "naam": "KB WVV", "ref": "art. 3:89 + boekhoudreglementering enkelvoudig" },
-                { "type": "wettekst", "naam": "IFRS 16 (Verordening (EU) 2023/1803)" },
+                { "type": "wettekst", "naam": "IFRS 16 (Verordening (EU) 2023/1803)", "ref": "Algemeen referentiestelsel - lessee on-balance" },
                 { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Dubbele rapporterings-context" }
               ]
             }
