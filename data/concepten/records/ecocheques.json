@@ -3,26 +3,59 @@
   "naam": {
     "primair": "Ecocheques",
     "synoniemen": [
-      "groene cheques"
+      "eco-cheques",
+      "ecologische cheques"
     ]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
     "ankers": [
       "2.2.taak.3"
     ],
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-werknemers-vergoedingen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/ecocheques.json",
+      "primary_bronnen": [
+        "WIB92 art. 38 — 25°",
+        "WIB92 art. 38/1 §4",
+        "WIB92 art. 198 (verworpen uitgaven)",
+        "CAO 98 (Nationale Arbeidsraad) — lijst toegelaten producten/diensten",
+        "aangifte-VenB-2025-verworpen-uitgaven code 1215"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-cross-cutting-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:08:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-werknemers-vergoedingen-2026-05-28",
+        "wijziging": "Inhoud gevuld uit bundle-chunks (WIB92 art. 38/1 §4 + art. 38 — 25° + aangifte-VenB-2025 code 1215)."
+      }
+    ],
     "scope": {
       "in": [
-        "Cheque-stelsel werkgever → werknemer (max €250/jaar — vrijgesteld RSZ + PB · NIET aftrekbaar werkgever)",
-        "CAO 98 lijst toegelaten producten/diensten",
-        "Verworpen uitgave (niet aftrekbaar)",
-        "PB-vrijstelling onder voorwaarden",
-        "Boekhoudkundige verwerking (klasse 61/62)"
+        "Cheque-stelsel werkgever → werknemer/bedrijfsleider (max 250 EUR/jaar — PB- en RSZ-vrij · NIET aftrekbaar werkgever)",
+        "CAO 98 (NAR) lijst toegelaten producten/diensten met ecologisch karakter",
+        "Volledig verworpen uitgave werkgever (code 1215 VenB-aangifte)",
+        "PB-vrijstelling onder voorwaarden art. 38/1 §4",
+        "Boekhoudkundige verwerking via 623 Andere personeelskosten + verworpen-uitgave-aanpassing"
       ],
       "out": [
         {
@@ -40,39 +73,325 @@
           "richting": "mag-verwijzen"
         }
       ]
-    },
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ]
+    }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Ecocheques zijn elektronische cheques die een werkgever uitkeert aan werknemers of bedrijfsleiders en die uitsluitend besteed mogen worden aan producten en diensten met een ecologisch karakter, zoals vastgesteld in CAO 98 van de Nationale Arbeidsraad (energiezuinige toestellen, duurzame mobiliteit, bio-voeding, ...). Mits cumulatieve voorwaarden van WIB92 art. 38/1 §4 zijn vervuld (CAO of individuele overeenkomst, op naam, max 10 EUR/cheque, geldigheidsduur 24 maanden, jaarplafond 250 EUR per werknemer), is de tussenkomst vrijgesteld van personenbelasting (art. 38 — 25°) en van Rijksdienst voor Sociale Zekerheid (RSZ).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4", "context": "Cumulatieve voorwaarden ecocheques" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38 — 25°", "context": "PB-vrijstelling" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch: een kleinere extra-legale verloning dan maaltijdcheques (max 250 EUR per jaar vs ca. 1.520 EUR). Volledig vrij van PB en RSZ voor de werknemer — dus 250 EUR netto in handen. Voor de werkgever zijn ecocheques echter een verworpen uitgave (code 1215 VenB-aangifte) — geen enkele euro is fiscaal aftrekbaar. Dit verschil met maaltijdcheques (waar 2 EUR per cheque wel aftrekbaar is) wordt vaak gemist. Effectieve werkgeverskost voor 250 EUR ecocheques bij 25 % VenB-tarief: ca. 333 EUR (250 + 0,25 × 250 / (1 − 0,25) verlies fiscale aftrek = 250 + 83,33).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4" },
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215", "context": "Volledige werkgevers-tussenkomst verworpen uitgave (uitzondering 2 EUR maaltijdcheques)" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is milieubeleid via fiscaal-aantrekkelijke koopkracht: stimuleer werknemers om hun bestedingen te richten op ecologisch verantwoorde producten en diensten. De CAO 98-lijst (NAR) bepaalt limitatief welke uitgaven kwalificeren — energiezuinige witgoed, fietsen, regenwatertanks, bio-voeding, gerecycleerd papier, ... Het regime is bewust beperkter dan maaltijdcheques (lager jaarplafond, geen aftrekbaarheid werkgever) om misbruik als algemene loonsverhoging te beperken.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — milieu-stimulerende verloning" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "loon-en-payroll"
+      ],
+      "kader": "werknemers-vergoedingen",
+      "naast_relevant": [
+        "maaltijdcheques",
+        "sport-cultuur-cheques"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 38 — 25° + art. 38/1 §4 + CAO 98 NAR (lijst toegelaten bestedingen)",
+        "toelichting": "Elektronische vorm verplicht. Plafonds (10 EUR/cheque, 250 EUR/jaar) zijn nominaal in art. 38/1 §4 — niet jaarlijks geïndexeerd."
+      },
+      "voor": [
+        {
+          "tekst": "Elke werkgever die werknemers of bedrijfsleiders een aanvullende ecologisch-gerichte vergoeding wil bieden — vaak als jaarlijkse 'extra' bovenop loon en maaltijdcheques (bijvoorbeeld als signaal duurzaamheidsbeleid van het bedrijf).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4 — 1°", "context": "CAO of individuele overeenkomst vereist" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief (art. 38/1 §4): (1) toekenning in CAO sectoraal/ondernemingsvlak OF in een geschreven individuele overeenkomst (gelijke regeling werknemers en bedrijfsleiders); (2) de CAO/overeenkomst bepaalt de hoogste nominale waarde van de cheque (max 10 EUR) + de frequentie van toekenning per kalenderjaar; (3) cheque op naam; (4) geldigheidsduur max 24 maanden + enkel besteedbaar voor producten/diensten met ecologisch karakter (CAO 98-lijst NAR); (5) niet omruilbaar voor geld; (6) jaartotaal per werknemer max 250 EUR.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4", "context": "Cumulatieve voorwaarden 1° t/m 6°" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Volledig PB-vrij en RSZ-vrij voor de werknemer — 250 EUR netto extra in handen. Voor de werkgever: geen RSZ-werkgeverskost. Eenvoudig systeem zonder prestatie-koppeling.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 38 — 25°" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij overschrijding van één voorwaarde (te hoog jaarplafond, ontbrekende CAO, omruil voor geld) vervalt de PB-vrijstelling voor het VOLLEDIGE bedrag — niet enkel het excedent. Voor de werkgever: ecocheques zijn ALTIJD volledig verworpen uitgave — vergeten in te vullen in code 1215 leidt tot een onjuiste VenB-aangifte.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4" },
+              { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drempel-nominaal",
+        "naam": {
+          "primair": "Plafond nominale waarde: max 10 EUR per cheque"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke ecocheque heeft een nominale waarde van maximum 10 EUR (art. 38/1 §4 — 2°). Een werkgever kan dus 25 cheques × 10 EUR uitkeren om het jaarplafond van 250 EUR te bereiken (of bijvoorbeeld 50 cheques × 5 EUR). De CAO of individuele overeenkomst bepaalt deze nominale waarde en de frequentie.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4 — 2°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drempel-jaarplafond",
+        "naam": {
+          "primair": "Jaarplafond: max 250 EUR per werknemer per jaar"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het totale bedrag aan ecocheques toegekend door de werkgever per werknemer of bedrijfsleider mag per kalenderjaar niet meer dan 250 EUR bedragen (art. 38/1 §4 — 6°). Bij overschrijding vervalt de vrijstelling voor het volledige bedrag — niet enkel het excedent.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4 — 6°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-bestedingsdomein",
+        "naam": {
+          "primair": "Bestedingsdomein: CAO 98-lijst NAR"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Ecocheques mogen alleen worden besteed aan 'producten en diensten met een ecologisch karakter' zoals omschreven in CAO 98 van de Nationale Arbeidsraad. De lijst omvat o.a. energiezuinig witgoed (energieklasse A++ of hoger), fietsen + accessoires, gerecycleerd papier, bio-voeding, openbaar vervoer, regenwaterputten en zonneboilers, herstelling huishoudtoestellen, milieuvriendelijke verf. De NAR-lijst wordt periodiek herzien. Een uitgever (Edenred, Pluxee, Sodexo) blokkeert betalingen die niet aan een toegelaten verkoper kunnen worden toegewezen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4 — 4°", "context": "Verwijzing naar CAO NAR ecologisch karakter" },
+                { "type": "norm", "naam": "CAO 98 NAR — ecocheques", "ref": "lijst toegelaten producten/diensten" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-geldigheid",
+        "naam": {
+          "primair": "Geldigheidsduur 24 maanden + reactivering"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke ecocheque heeft een geldigheidsduur van maximaal 24 maanden vanaf terbeschikkingstelling (art. 38/1 §4 — 4°). Niet-bestede cheques verlopen daarna. De werknemer/bedrijfsleider kan binnen 3 maanden na vervaldatum een eenmalige reactivering vragen voor 3 extra maanden geldigheid.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4 — 4°" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4", "context": "Reactiveringsmogelijkheid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-verworpen-uitgave",
+        "naam": {
+          "primair": "Volledige verworpen uitgave werkgever (code 1215)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "In tegenstelling tot maaltijdcheques (waar 2 EUR per cheque aftrekbaar is — art. 53 — 14° WIB92), zijn ecocheques voor de werkgever VOLLEDIG een verworpen uitgave (rubriek 13, code 1215 in de VenB-aangifte 2025). Geen enkele euro werkgevers-tussenkomst is aftrekbaar in vennootschapsbelasting. Dit verkleint het werkgeversvoordeel maar maakt het regime nog steeds goedkoper dan equivalente bruto-loonsverhoging (geen RSZ-werkgever).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215", "context": "Voordelen uit maaltijd-, sport-, cultuur- of ecocheques, met uitzondering 2 EUR per maaltijdcheque" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "ecocheque-aurelia",
+        "titel": "Jaarlijkse 250 EUR ecocheque bij Aurelia Holding NV",
+        "context": "Aurelia Holding NV beslist in CAO ondernemingsvlak om elke werknemer in oktober een ecocheque-pakket van 250 EUR te geven (25 cheques × 10 EUR). De boekhouder verwerkt de uitkering.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard boekingstechniek" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Uitkering 250 EUR ecocheques aan één werknemer",
+            "rijen": [
+              { "rekening": "623 Andere personeelskosten — ecocheques", "debet": 250, "credit": null, "omschrijving": "Werkgevers-tussenkomst ecocheques (volledig verworpen uitgave)" },
+              { "rekening": "440 Leveranciers (Edenred / Pluxee / Sodexo)", "debet": null, "credit": 250, "omschrijving": "Factuur uitgever cheques" }
+            ]
+          },
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Werknemerszijde: 250 EUR netto in handen, vrij van PB + vrij van RSZ.",
+              "Stap 2 — Werkgeverszijde — boekhoudkundig: 250 EUR personeelskost (rekening 623).",
+              "Stap 3 — Werkgeverszijde — fiscaal: 250 EUR volledig verworpen uitgave → toevoegen in code 1215 VenB-aangifte. Belastbaar resultaat stijgt met 250 EUR.",
+              "Stap 4 — Netto-kost na VenB: bij 25 % VenB-tarief = 250 + (250 × 0,25 / (1 − 0,25))? Eenvoudige berekening: zonder verworpen uitgave zou 250 EUR loon de winst met 250 verlagen en VenB met 62,5 verlagen; nu blijft de VenB-impact 0 → netto-kost 250 + 62,5 'gemiste' aftrek = 312,5 EUR netto."
+            ],
+            "resultaat": "Werknemer krijgt 250 EUR netto. Aurelia betaalt netto-na-VenB ca. 312,5 EUR (bij 25 % tarief). Vergelijking: equivalente bruto-loonsverhoging om 250 EUR netto op te leveren zou ca. 750 EUR bruto kosten + 187 EUR RSZ-werkgever ≈ 937 EUR — drie keer duurder."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Aftrekbaarheid 2 EUR per cheque uit maaltijdcheques 'projecteren' op ecocheques",
+        "verkeerde_assumptie": "Studenten denken dat de 2 EUR-per-cheque-aftrek (art. 53 — 14°) ook geldt voor ecocheques.",
+        "kernpunt": "Art. 53 — 14° WIB92 spreekt EXPLICIET enkel over elektronische maaltijdcheques. Voor ecocheques (en sport-cultuur-cheques) is de werkgevers-tussenkomst VOLLEDIG verworpen uitgave (code 1215 VenB-aangifte). Dit verschil is fiscaal materieel en wordt regelmatig getoetst.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215" }
+          ]
+        }
+      },
+      {
+        "titel": "250 EUR plafond als 'maandbedrag' lezen",
+        "verkeerde_assumptie": "Een werkgever wil elke maand 250 EUR ecocheques uitkeren (= 3.000 EUR/jaar).",
+        "kernpunt": "250 EUR is het JAARplafond per werknemer (art. 38/1 §4 — 6°). Bij overschrijding vervalt de PB-vrijstelling voor het volledige bedrag — alle ecocheques van dat jaar worden belastbaar loon. De cumulatieve maandbedragen kunnen vrij worden ingedeeld (bv. 250 EUR in oktober, of 4 × 62,5 EUR per kwartaal), maar het jaartotaal mag 250 EUR niet overschrijden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4 — 6°" }
+          ]
+        }
+      },
+      {
+        "titel": "Cheques laten omruilen voor cash",
+        "verkeerde_assumptie": "Een werknemer geeft zijn ecocheques terug aan de werkgever in ruil voor netto-cash.",
+        "kernpunt": "Art. 38/1 §4 — 5° verbiedt elke omruil voor geld, geheel of gedeeltelijk. Bij niet-naleving (ook bij stilzwijgende gedoogtole van de werkgever) vervalt de vrijstelling voor het volledige bedrag.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4 — 5°" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "werkgever",
+      "naam": {
+        "primair": "Werkgever-vennootschap"
+      },
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "verworpen-uitgave-code-1215",
+              "naam": {
+                "primair": "Verworpen uitgave volledig (code 1215)"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "In de VenB-aangifte rubriek 13 (code 1215): het volledige bedrag van de ecocheques-werkgevers-tussenkomst toevoegen. Geen aftrekbaar deel (verschil met maaltijdcheques!). Bij meerdere cheque-types in één onderneming: de aangifte vermeldt het TOTAAL van maaltijdcheques-excedent (max 4,91 EUR/cheque) + ecocheques (volledig) + sport-cultuur-cheques (volledig) onder code 1215.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "aangifte", "naam": "aangifte-VenB-2025-verworpen-uitgaven", "ref": "code 1215" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "afweging-vs-cash",
+              "naam": {
+                "primair": "Afweging ecocheques vs bruto-loonsverhoging"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vuistregel: 250 EUR ecocheques kost de werkgever ca. 312,5 EUR netto-na-VenB (bij 25 % tarief), terwijl 250 EUR netto-equivalent via bruto-loonsverhoging ca. 937 EUR zou kosten (RSZ + PB). Voordeel: ca. 1/3 van de cash-route. Nadeel: gebonden besteding aan ecologische producten + jaarplafond 250 EUR. Ecocheques zijn geschikt als kleine top-up bovenop ander pakket, niet als hoofdbestanddeel.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 38/1 §4" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk + benchmark loonwig" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -80,7 +399,18 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "maaltijdcheques"
+      "target": "maaltijdcheques",
+      "gelijkenissen": [
+        "Beide cheques onder art. 38/1 WIB92 — voorwaarden CAO of individuele overeenkomst, op naam, geldigheidsduur",
+        "Beide PB-vrij + RSZ-vrij voor werknemer onder voorwaarden",
+        "Beide elektronisch (geen papier meer)"
+      ],
+      "verschillen": [
+        "Ecocheques: max 10 EUR nominaal · max 250 EUR/jaar · 24 maanden geldig · alleen CAO 98-lijst ecologische producten/diensten · VOLLEDIG verworpen uitgave werkgever",
+        "Maaltijdcheques: max 8 EUR nominaal · max 6,91 EUR werkgevers-tussenkomst + min 1,09 EUR werknemersbijdrage · alleen voor eetmaal/voeding · 12 maanden geldig · 2 EUR/cheque aftrekbaar werkgever"
+      ],
+      "verwarring_risico": "Aftrekbaarheid (2 EUR maaltijdcheque-aftrek wordt ten onrechte 'overgedragen' naar ecocheques). Plafond (jaarlijks 250 EUR ecocheques vs maandelijks variabel maaltijdcheques per werkdag).",
+      "render_hint": "als_glossarium"
     }
   ]
 }
