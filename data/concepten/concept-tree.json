@@ -1,0 +1,5396 @@
+{
+  "$schema": "concept-tree-v1",
+  "bron": "docs/granulariteit-skelet.md",
+  "gegenereerd_op": "2026-05-28",
+  "disciplines": [
+    {
+      "id": "boekhouding",
+      "categorieen": [
+        "K"
+      ],
+      "is_record": true,
+      "is_virtual": false,
+      "subdisciplines": [],
+      "clusters": [
+        {
+          "naam": "schuldfinanciering",
+          "skelet_sectie": "schuldfinanciering-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "banklening-investeringskrediet",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(bestaand)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "achtergestelde-lening",
+              "categorieen": [
+                "E",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(bestaand)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "obligatielening",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(nieuw; PO 1.1.II.V)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "leasing",
+              "categorieen": [
+                "E",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(bestaand — ook in mobiliteit-perspectief)",
+              "extra_flags": [],
+              "children": [
+                {
+                  "id": "financiele-leasing",
+                  "categorieen": [
+                    "E",
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "(bestaand)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "operationele-leasing",
+                  "categorieen": [
+                    "E",
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "(bestaand)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                }
+              ],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "consolidatie",
+          "skelet_sectie": "consolidatie-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "geconsolideerde-jaarrekening",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ-hoofdrecord — B-GAAP",
+                "IFRS-perspectieven"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "consolidatieverplichting",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(rename `-bgaap` weg + 2 perspectieven) · consolidatiekring · controle-bij-consolidatie (rename + merge 3→1) · gezamenlijke-regelingen",
+              "extra_flags": [
+                "scope I.C",
+                "II.B"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "consolidatiemethoden",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "· integrale-consolidatie · evenredige-consolidatie · vermogensmutatiemethode · minderheidsbelangen",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "eerste-consolidatie",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "· eliminatie-intercompany · omrekening-buitenlandse-dochter · wijziging-consolidatiekring",
+              "extra_flags": [
+                "verrichtingen I.G",
+                "taak.1"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "consolidatieverschil",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(rename `-goodwill` weg) · uniforme-waarderingsregels-consolidatie",
+              "extra_flags": [
+                "specifieke begrippen"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "opmaak-geconsolideerde-jaarrekening",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "· geconsolideerd-jaarverslag · toelichting-belangen-in-andere-entiteiten",
+              "extra_flags": [
+                "opmaak I.F"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "consolidatiekring",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wie zit erin · hoogste moeder · weglatingen · consortium · proportionele opname",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "controle-bij-consolidatie",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "absorbeert `controle-test-deelneming`",
+                "`kwalificatie-controle-deelneming` als sub-secties"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "gezamenlijke-regelingen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "joint operation vs joint venture · keuze-as",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "integrale-consolidatie",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "100% activa + passiva + resultaten · minderheidsbelangen-detectie",
+              "extra_flags": [
+                "verrichting/methode"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "evenredige-consolidatie",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "pro-rata aandeel · gezamenlijke regelingen (B-GAAP-keuze)",
+              "extra_flags": [
+                "verrichting/methode"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vermogensmutatiemethode",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "één-regel-consolidatie · equity method · IFRS-default voor joint ventures",
+              "extra_flags": [
+                "verrichting/methode"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "minderheidsbelangen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "bij integrale consolidatie · in EV + resultaat-presentatie",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "eliminatie-intercompany",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "intercompany-vorderingen/schulden · intercompany-winst/verlies · intra-groep-transactie-aanpassingen",
+              "extra_flags": [
+                "verrichting"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "omrekening-buitenlandse-dochter",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "functionele vs presentatie-munt · current-rate / temporal · CTA-reserve in EV",
+              "extra_flags": [
+                "verrichting"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "wijziging-consolidatiekring",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "acquisitie/desinvestering tijdens jaar · pro-rata-temporis · verkrijgings/afstotings-datum",
+              "extra_flags": [
+                "verrichting"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "uniforme-waarderingsregels-consolidatie",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art 145 KB · waarderingsverschillen tussen entiteiten → herwaardering naar groeps-regels",
+              "extra_flags": [
+                "regime"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "geconsolideerd-jaarverslag",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art 3:32 WVV · KAM-onderscheid met statutair jaarverslag · niet-financiële info (NFRD/CSRD-link)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "toelichting-belangen-in-andere-entiteiten",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "disclosure-vereisten · NFTI · risk-disclosures · structured entities",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "ifrs-rapportering",
+          "skelet_sectie": "ifrs-rapportering-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "ifrs",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "#afwijkingen · #eerste-toepassing-IFRS-1 · #conceptueel-kader · #ias-verordening",
+              "extra_flags": [
+                "Σ — gepromoveerd",
+                "absorbeert be-gaap-vs-ifrs-verschillen voorlopig"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "materiele-vaste-activa",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(IAS 16) · immateriele-vaste-activa (IAS 38) · opbrengstverantwoording (IFRS 15)",
+              "extra_flags": [
+                "geselecteerde standaarden"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "immateriele-vaste-activa",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "herkenning · waardering · onderzoek-vs-ontwikkeling · interne vs gekochte IMA · webtools-IAS-38-criteria",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "opbrengstverantwoording",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "5-stappen-model · contract-identificatie · prestatieverplichting · transactieprijs-verdeling · opbrengst-erkenning over-time vs point-in-time",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "boekhouding",
+          "skelet_sectie": "boekhouding-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "boekhouding",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "#boekhoudplicht · #MAR · #organisatie · #handel-vs-niet-handel-vs-micro",
+              "extra_flags": [
+                "Σ — NIEUW discipline-hoofdrecord"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "belgisch-boekhoudrecht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "WER Boek III · KB 29-04-2019 · NBB · CBN",
+              "extra_flags": [
+                "Σ-sub-element"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "autoriteiten-boekhoudrecht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "FSMA · NBB · CBN · ITAA · IBR · CRB · griffies",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "boekhoudplicht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art III.82-95 WER · #vereenvoudigde-boekhouding",
+              "extra_flags": [
+                "absorbeert vereenvoudigde-boekhouding"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "groottecategorie-vereniging",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art 1:28-29 WVV-VZW · #vzw-stichting-regime",
+              "extra_flags": [
+                "absorbeert vzw-stichting-boekhoudregime"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "boekhoudbeginselen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "· dubbele-boekhouding 8 beginselen · dagboek-grootboek-MAR-proefbalans",
+              "extra_flags": [
+                "K/K-techniek"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vaste-activa",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "· deelneming-financieel-vast-actief · voorraden · handelsvorderingen · vorderingen-op-meer-dan-een-jaar · geldbeleggingen-en-liquide-middelen",
+              "extra_flags": [
+                "activa II.B-G"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "voorzieningen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(NIEUW split) · uitgestelde-belastingen (NIEUW split + cross VenB) · schulden-op-korte-termijn · overlopende-rekeningen",
+              "extra_flags": [
+                "passiva II.H-L"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bedrijfskosten",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(NIEUW split) · bedrijfsopbrengsten (NIEUW split) · personeelskosten (shared werknemers-vergoedingen + loon-en-payroll) · financiele-verrichtingen (rename `-categorie`) · niet-recurrente-verrichtingen (rename `-categorie`)",
+              "extra_flags": [
+                "resultaten II.M-P"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "resultaatverwerking",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "winstbestemming II.Q"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "memorierekeningen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(rename `niet-in-balans-rechten-en-verplichtingen`)",
+              "extra_flags": [
+                "niet-balans II.R"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "jaarrekening",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "· eindejaarsverrichtingen",
+              "extra_flags": [
+                "Σ — absorbeert 6 PO 1.2-records als sub-secties: #waarderingsregels-vastlegging · #jaarverslag · #sociale-balans · #openbaarmaking · #wettelijke-controle · #consolidatie-verwijzing"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "geactiveerde-rente",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "· herwaardering-vast-actief · opsplitsing-eigendom · erfpacht (NIEUW split) · opstal (NIEUW split) · vruchtgebruik (rename, blote eigendom als perspectief)",
+              "extra_flags": [
+                "specifieke regimes II.V-X"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "dubbele-boekhouding",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "mechaniek: dagboek → grootboek → MAR-rekeningstelsel → proefbalans · jaarcyclus",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "deelneming-financieel-vast-actief",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 28 · equity-method vs at-cost · IFRS 9-link",
+              "extra_flags": [
+                "instrument"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "voorraden",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 30-39 · FIFO/LIFO/GMP · waardeverminderingen · onderhanden werk",
+              "extra_flags": [
+                "balanspost",
+                "shared PO 1.5 IAS 2"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "handelsvorderingen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 40-41 · dubieuze vorderingen · forfaitaire/individuele waardevermindering · ouderdoms-staat",
+              "extra_flags": [
+                "balanspost"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vorderingen-op-meer-dan-een-jaar",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 29 · LT-vorderingen · disconteringsvraag",
+              "extra_flags": [
+                "balanspost"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "geldbeleggingen-en-liquide-middelen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 5 · NBB-paraplu-naam-behouden · genoteerd vs niet-genoteerd · termijndeposito's · kas + bank",
+              "extra_flags": [
+                "balanspost"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "uitgestelde-belastingen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 168 · timing-verschillen · fiscale latenties · IAS 12-link (PO 1.5)",
+              "extra_flags": [
+                "balanspost — NIEUW",
+                "split",
+                "cross VenB-perspectief"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "schulden-op-korte-termijn",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 42-49 · LT-aflossingen · handelsschulden · sociale schulden · belastingschulden",
+              "extra_flags": [
+                "balanspost"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "overlopende-rekeningen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 49 + 89 · matching-principe · over-te-dragen + vooruit-te-betalen kosten/opbrengsten",
+              "extra_flags": [
+                "balanspost"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bedrijfsopbrengsten",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 70-74 + 76 · 70 omzet + 71 voorraad-mutatie + 72 geproduceerde vaste activa + 74 andere bedrijfsopbrengsten",
+              "extra_flags": [
+                "balanspost — NIEUW",
+                "split"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "personeelskosten",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 62 · 620 wedden + 621-624 sociale lasten · sociale-balans-bijlage · kostenallocatie productie vs administratie",
+              "extra_flags": [
+                "balanspost",
+                "**shared `werknemers-vergoedingen`",
+                "`loon-en-payroll`** via thema-tag",
+                "perspectief"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "financiele-verrichtingen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 65 + 75 · interest + DAB + valuta-verschillen + waardevermindering financiële vaste activa",
+              "extra_flags": [
+                "begripscluster — rename `financiele-verrichtingen-categorie` (`-categorie`-suffix weg)"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "niet-recurrente-verrichtingen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "klasse 66 + 76 · uitzonderlijke kosten/opbrengsten · realisatie-meerwaarden materiële + financiële vaste activa",
+              "extra_flags": [
+                "begripscluster — rename `niet-recurrente-verrichtingen-categorie` (`-categorie`-suffix weg)"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "eindejaarsverrichtingen",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "inventaris · waarderings-correcties · afschrijvingen + waardeverminderingen + voorzieningen · jaarafsluit-cyclus + heropening-cyclus",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "herwaardering-vast-actief",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art 57 KB · herwaarderingsmeerwaarde · klasse 12 + CBN-advies 2019-9 · IAS 16-link",
+              "extra_flags": [
+                "verrichting"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "opsplitsing-eigendom",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "3 splits: erfpacht · opstal · vruchtgebruik (overzichts-vergelijking + cross fiscaliteit registratierechten)",
+              "extra_flags": [
+                "familie"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "erfpacht",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art 1722 BW · 27-99 jaar · canon · boekhoudkundige cascade",
+              "extra_flags": [
+                "instrument — NIEUW",
+                "split van `erfpacht-en-opstal`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "opstal",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art 1735 BW · 0-99 jaar · accessoir recht · boekhoud-keuze",
+              "extra_flags": [
+                "instrument — NIEUW",
+                "split van `erfpacht-en-opstal`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vruchtgebruik",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art 745 BW · 30-99 jaar · blote eigendom als perspectief binnen 1 record (instituut-naam dekt beide partijen)",
+              "extra_flags": [
+                "instrument — rename `vruchtgebruik-en-blote-eigendom`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiscaliteit",
+      "categorieen": [
+        "K"
+      ],
+      "is_record": false,
+      "is_virtual": true,
+      "subdisciplines": [
+        {
+          "id": "personenbelasting",
+          "categorieen": [
+            "K"
+          ],
+          "is_record": true,
+          "is_virtual": false,
+          "clusters": [
+            {
+              "naam": "personenbelasting",
+              "skelet_sectie": "personenbelasting-cluster",
+              "annotatie": "",
+              "nodes": [
+                {
+                  "id": "personenbelasting",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "#inkomstencategorieën · #aanslagjaar · #aanvullende-gemeentebelasting",
+                  "extra_flags": [
+                    "Σ — gepromoveerd"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "gezinssituatie",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "gehuwd/wettsam/feitelijk/alleenstaand · inkomenstoerekening",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "kinderen-ten-laste",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· huwelijksquotient · belastingvrije-som gezinscontext-luik",
+                  "extra_flags": [
+                    "R/R/R"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "onroerend-inkomen-pb",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "eigen vs verhuurd · privé vs beroep · indexering KI",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "kadastraal-inkomen",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· onroerende-voorheffing · eigen-woning-fiscaal (OP-PB.A)",
+                  "extra_flags": [
+                    "K/R/R",
+                    "shared lokaal-en-regionaal"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "beroepsinkomen-pb",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "5 categorieën beroepsinkomen",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "werknemersbezoldiging",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "shared werknemers-vergoedingen",
+                  "extra_flags": [
+                    "perspectief PB"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "bedrijfsleidersbezoldiging",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "shared werknemers-vergoedingen",
+                    "perspectief PB"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "winst-baten-zelfstandige",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "forfait vs werkelijk · sociale bijdragen",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "beroepskosten",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 49 WIB · 2 perspectieven (PB · VenB)",
+                  "extra_flags": [
+                    "NIEUW generiek"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "stopzettingsmeerwaarde",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "16,5%/33%/progressief",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "voordelen-alle-aard",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "filter",
+                    "shared werknemers-vergoedingen"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "roerend-inkomen-pb",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· roerende-voorheffing",
+                  "extra_flags": [
+                    "R/R",
+                    "perspectief-pendant `roerend-inkomen-internationaal`"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "diverse-inkomsten-pb",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 90 WIB",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "onderhoudsuitkering",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "symmetrisch (ontvangen + betaald)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "aftrekbare-bestedingen-pb",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· gewestelijke-belastingverminderingen-pb · federale-belastingverminderingen-pb",
+                  "extra_flags": [
+                    "R/K/K"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "bedrijfsvoorheffing",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· voorafbetalingen-pb (OP-PB.B)",
+                  "extra_flags": [
+                    "R/procedure",
+                    "shared loon-en-payroll"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "aangifte-pb",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· belastingberekening-pb · aanslagbiljet-pb",
+                  "extra_flags": [
+                    "3× procedure — PB-aanslagcyclus"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "huwelijksquotient",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "inkomenstoerekening tussen echtgenoten · 30%-regel · plafond",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "belastingvrije-som",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "basis-BVS + verhogingen (kinderen/handicap/leeftijd) · gewest-variatie",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "onroerende-voorheffing",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "gewest-tarieven · opcentiemen · verrekening met PB",
+                  "extra_flags": [
+                    "shared `lokale-en-regionale-belastingen`"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "eigen-woning-fiscaal",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "gewestelijke vrijstelling eigen woning + woonbonus + overgangsregimes",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "roerende-voorheffing",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "bevrijdend vs verrekenbaar · vrijstellingen · VVPRbis 15%",
+                  "extra_flags": [
+                    "shared `werknemers-vergoedingen`",
+                    "`fiscale-voordelen-vennootschap`"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "gewestelijke-belastingverminderingen-pb",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "per gewest verschillend (Vlaams · Waals · Brussels) · woonbonus · isolatie · dakwerken · winwinlening · ...",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "federale-belastingverminderingen-pb",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "pensioensparen · langetermijnsparen · giften (federaal) · dienstencheques (federaal) · auteursrecht-regime · ...",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "voorafbetalingen-pb",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "procedure — `-pb`-suffix behouden; pendant `voorafbetalingen-vennootschapsbelasting` cross PO 2.3; OP-PB.B beslissing pending"
+                  ],
+                  "children": [],
+                  "is_record": false,
+                  "is_virtual": true
+                },
+                {
+                  "id": "belastingberekening-pb",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "tarief-schijven · samenvoeging echtgenoten · verminderingen · aanvullende gemeentebelasting · gewest-decimes",
+                  "extra_flags": [
+                    "procedure — `-pb` behouden"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "aanslagbiljet-pb",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "kohier · enrôlement · betaaltermijn · betermening · cross `aanslag-cyclus` (generiek) in `fiscale-procedure`",
+                  "extra_flags": [
+                    "procedure — `-pb` behouden"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "vennootschapsbelasting",
+          "categorieen": [
+            "K"
+          ],
+          "is_record": true,
+          "is_virtual": false,
+          "clusters": [
+            {
+              "naam": "vennootschapsbelasting",
+              "skelet_sectie": "vennootschapsbelasting-cluster",
+              "annotatie": "",
+              "nodes": [
+                {
+                  "id": "vennootschapsbelasting",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "#toepassingsgebied · #tarief (25%/20%) · #herstructurering-aandachtspunten · #aanslagjaar",
+                  "extra_flags": [
+                    "Σ — gepromoveerd"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "fiscale-boekhoud-correcties",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "primauteit boekhouding · permanente/tijdelijke verschillen",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "belastbare-grondslag-vennootschapsbelasting",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "8 bewerkingen art 76-79 KB-WIB",
+                  "extra_flags": [
+                    "procedure-Σ"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "abnormale-goedgunstige-voordelen",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "shared anti-misbruik",
+                    "internationaal-fiscaal"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "verworpen-uitgaven",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "11 categorieën art 53-66 WIB",
+                  "extra_flags": [
+                    "familie-Σ"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "bijzondere-aanslagen-venb",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "familie-Σ — absorbeert `geheime-commissielonen` als #geheime-commissielonen"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "voorheffingen-en-verrekeningen-venb",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "(OP-VB.A) FBB · RV/BV-verrekening",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "voorafbetalingen",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "OP-PB.B resolutie",
+                  "extra_flags": [
+                    "procedure — rename",
+                    "absorbeert `voorafbetalingen-pb` als perspectief PB"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "aangifte-vennootschapsbelasting",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "Biztax + termijnen",
+                  "extra_flags": [
+                    "procedure"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "meerwaarde-aandelen-venb",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "shared fiscale-voordelen-vennootschap"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "ebitda-aftrekbeperking",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "ATAD 30%-EBITDA / 3M€",
+                  "extra_flags": [
+                    "shared anti-misbruik"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "btw",
+          "categorieen": [
+            "K"
+          ],
+          "is_record": true,
+          "is_virtual": false,
+          "clusters": [
+            {
+              "naam": "btw",
+              "skelet_sectie": "btw-cluster",
+              "annotatie": "",
+              "nodes": [
+                {
+                  "id": "btw",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "#stelsel-overzicht · #BTW-keten · #EU-richtlijn-2006-112",
+                  "extra_flags": [
+                    "Σ — rename `btw-stelsel`",
+                    "Σ-promotie"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-belastingplichtige",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· btw-levering-goederen (NIEUW split) · btw-dienstverlening (NIEUW split) · plaats-van-handeling-btw · opeisbaarheid-btw · maatstaf-van-heffing-btw · btw-tarieven · factuur-btw",
+                  "extra_flags": [
+                    "basis-concepten I"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-vrijstellingen",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· btw-eenheid · vrijstellingsregeling-kleine-onderneming · forfaitaire-regeling-btw",
+                  "extra_flags": [
+                    "statuut III"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-aftrek",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· btw-herziening-bedrijfsmiddelen",
+                  "extra_flags": [
+                    "aftrek",
+                    "herziening III-IV-VII"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-bedrijfswagen",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "(shared mobiliteit) · margeregeling-tweedehands · btw-bonnen-vouchers",
+                  "extra_flags": [
+                    "specifieke regimes IV"
+                  ],
+                  "children": [],
+                  "is_record": false,
+                  "is_virtual": true
+                },
+                {
+                  "id": "btw-vastgoed",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· optie-btw-verhuur-vastgoed · eigen-werkzaamheid-btw",
+                  "extra_flags": [
+                    "vastgoed V"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-grensoverschrijdend",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "Σ — gepromoveerd; keuze-kader 4 grensoverschrijdende regimes"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "opstart-btw-formaliteiten",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· stopzetting-btw · overdracht-algemeenheid-btw (shared overdracht-onderneming)",
+                  "extra_flags": [
+                    "levensloop II",
+                    "VII"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-aangifte",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· btw-controle (rename `btw-controle-en-geschillen` + geschillen cross `fiscale-procedure`-Σ)",
+                  "extra_flags": [
+                    "aangifte",
+                    "controle taken"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "accijnzen-basis",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "· douaneprocedures-btw-invoer · douanewaarde",
+                  "extra_flags": [
+                    "douane & accijnzen-sub-blok VIII-XI"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-levering-goederen",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 10 W.BTW · materieel · gelijkstellingen",
+                  "extra_flags": [
+                    "split van `levering-en-dienst-btw`",
+                    "rename consistent met btw-prefix"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-dienstverlening",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 18 W.BTW · onderscheid met levering · gelijkstellingen",
+                  "extra_flags": [
+                    "split van `levering-en-dienst-btw`",
+                    "rename consistent met btw-prefix"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "plaats-van-handeling-btw",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "B2B-hoofdregel · B2C-uitzonderingen · diensten-uitzonderingen",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "opeisbaarheid-btw",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "tijdstip belasting verschuldigd · factuur-tijdstip · vooruitbetaling",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "maatstaf-van-heffing-btw",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "waarop tarief · maatstaf-bestanddelen · inbegrepen/uitgesloten",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-tarieven",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "0% · 6% · 12% · 21% · vrijgesteld",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "factuur-btw",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "factuurplicht art 53 W.BTW · vermeldingen · e-invoicing 2026",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-eenheid",
+                  "categorieen": [
+                    "E",
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 4§2 W.BTW · groepsbtw · single-taxable-person",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "vrijstellingsregeling-kleine-onderneming",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "KO-regime art 56bis · <25.000€ jaaromzet",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "forfaitaire-regeling-btw",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "forfait-regime art 56 W.BTW · stappenplan · uitdoofregime",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-herziening-bedrijfsmiddelen",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "15-jaar herzieningstermijn vastgoed · 5-jaar BM · gemengd gebruik",
+                  "extra_flags": [
+                    "procedure"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "margeregeling-tweedehands",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 58§4 · tweedehandsgoederen · kunst-antiek-verzamelobjecten",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "btw-bonnen-vouchers",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "voucher-richtlijn 2016 · single-purpose vs multi-purpose",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "optie-btw-verhuur-vastgoed",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "optie B2B-verhuur · KB 14-10-1991 · onroerende leasing",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "eigen-werkzaamheid-btw",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 19 W.BTW · werk in eigen onderneming · gelijkstellingen",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "oss-regeling",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "One-Stop-Shop · IOSS · drempel 10.000€ B2C-EU",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "driehoeksverkeer-vereenvoudiging",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 25ter · B-A-C-keten · vereenvoudiging",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "fiscaal-vertegenwoordiger-btw",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "niet-EU-belastingplichtige · individuele/globale aansprakelijkheid",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "verleggingsregeling",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "reverse charge · binnenlands (cocontractant) + IC",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "stopzetting-btw",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "stop-aangifte · herziening · activa-overdracht",
+                  "extra_flags": [
+                    "procedure"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "overdracht-algemeenheid-btw",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "art 11 W.BTW · TOGC-regeling · neutraliteit",
+                  "extra_flags": [
+                    "shared overdracht-onderneming"
+                  ],
+                  "children": [],
+                  "is_record": false,
+                  "is_virtual": true
+                },
+                {
+                  "id": "btw-controle",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "procedure — rename `btw-controle-en-geschillen` (`-en-`-smell weg); geschillen-aspect cross naar `fiscale-procedure`-Σ"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "douaneprocedures-btw-invoer",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "invoer-btw · enig document · BTW-stelsel bij invoer",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "douanewaarde",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "Unierecht UCC · transactionwaarde · maatstaf-bepaling",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "registratie-en-successierechten",
+          "categorieen": [
+            "K"
+          ],
+          "is_record": true,
+          "is_virtual": false,
+          "clusters": [
+            {
+              "naam": "registratie-en-successierechten",
+              "skelet_sectie": "registratie-en-successierechten-cluster",
+              "annotatie": "",
+              "nodes": [
+                {
+                  "id": "registratie-en-successierechten",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "Σ-hoofdrecord — NIEUW"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "registratieformaliteit-akten",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "verplichte aktes · termijnen · sancties bij niet-naleving",
+                  "extra_flags": [
+                    "procedure"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "verkooprecht",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "evenredig recht bij verkoop onroerend goed (10-12% Vl/Br/W ⚠️)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "verdeelrecht",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "bij scheiding / onverdeeldheidsstop (~2.5% ⚠️)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "hypotheekrecht",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "bij vestiging hypotheek (~1% ⚠️)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "schenkbelasting",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "schenking onroerend/roerend · gewestelijke tarieven · 3j-vermoeden bij overlijden",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "inbreng-onroerend-in-vennootschap",
+                  "categorieen": [
+                    "G"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "vrijstelling art 115bis Wb Reg (cross naar `kapitaalverhoging-in-natura`)",
+                  "extra_flags": [
+                    "cross kapitaalstructuur"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "erfbelasting",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "erfrecht",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "wie erft wat · wettelijke (intestate) + testamentaire devolutie · reserves",
+                  "extra_flags": [
+                    "cross burgerlijk recht"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "huwelijksvermogensrecht",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "gemeenschap · zuivere scheiding · interactie met erfrecht",
+                  "extra_flags": [
+                    "cross burgerlijk recht"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "aangifte-nalatenschap",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "indieningstermijnen · gewestelijke verschillen · vermenigvuldiging-correctie",
+                  "extra_flags": [
+                    "procedure"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "successieplanning",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "Σ-overzicht — VI.D",
+                    "VI.E"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "testament-instrument",
+                  "categorieen": [
+                    "E"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "olografisch · authentiek · internationaal · vormvereisten · herroeping",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "schenking-met-voorbehoud-vruchtgebruik",
+                  "categorieen": [
+                    "E"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "klassiek planningsinstrument; cross naar `opsplitsing-eigendom`",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "levensverzekering-successieplanning",
+                  "categorieen": [
+                    "E"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "levensverzekering als planningsinstrument; samenloop met fictiebepaling-erfbelasting (gunstregime overhevelen)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "gunstregime-familiale-onderneming",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "0% schenkbelasting + verlaagd erfbelasting onder voorwaarden (activiteit · houdperiode · bedrijfsleidersrol)",
+                  "extra_flags": [
+                    "raakt registratie IV",
+                    "successie VI"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lokale-en-regionale-belastingen",
+          "categorieen": [
+            "K"
+          ],
+          "is_record": true,
+          "is_virtual": false,
+          "clusters": [
+            {
+              "naam": "lokale-en-regionale-belastingen",
+              "skelet_sectie": "lokale-en-regionale-belastingen-cluster",
+              "annotatie": "",
+              "nodes": [
+                {
+                  "id": "lokale-en-regionale-belastingen",
+                  "categorieen": [],
+                  "is_sigma": true,
+                  "is_kandidaat": false,
+                  "annotatie": "",
+                  "extra_flags": [
+                    "Σ-hoofdrecord — NIEUW"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "gewestelijke-fiscale-autonomie",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "bevoegdheids-grenzen · interactie federale belastingen",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "gewestelijke-fiscale-procedure",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "Vlaamse Codex Fiscaliteit + analoog · onderscheid met federale procedure (PO 2.5)",
+                  "extra_flags": [
+                    "procedure"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "onroerende-voorheffing",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "gewestelijk (Vl/Wal/Br) · KI-basis · vrijstellingen",
+                  "extra_flags": [
+                    "cross PB 2.2"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "verkeersbelasting",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "gewestelijk · CO2-modulering Vl",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "belasting-inverkeerstelling",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "BIV — gewestelijk · eenmalig",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "planbatenheffing",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "Vlaams · meerwaarde door bestemmingswijziging",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "leegstandsheffing-bedrijfsruimten",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "Vlaams · bestrijden leegstand",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "lokale-fiscale-autonomie",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "gemeenteraad · gemeentelijk reglement · art 170 GW",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "lokale-belasting-reglement",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "opmaak + publicatie + bezwaarprocedure tegen reglement",
+                  "extra_flags": [
+                    "procedure"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "aanvullende-gemeentebelasting-pb",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "opcentiemen op PB · gemeentelijk tarief 0-9%",
+                  "extra_flags": [
+                    "cross PB"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "gemeentelijke-opcentiemen-onroerende-voorheffing",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "gemeentelijk + provinciaal opcentiem",
+                  "extra_flags": [
+                    "cross OV"
+                  ],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "gemeentebelastingen-sui-generis",
+                  "categorieen": [
+                    "K"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "eigen lokale belastingen (afval · honden · standgelden · ...)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                },
+                {
+                  "id": "provinciale-belastingen",
+                  "categorieen": [
+                    "R"
+                  ],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "provinciale opcentiemen + eigen belastingen",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "clusters": [
+        {
+          "naam": "mobiliteit",
+          "skelet_sectie": "mobiliteit-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "autokosten",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "mobiliteitsbudget",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ pijler-1-milieuvriendelijke-wagen ▸ pijler-2-duurzame-mobiliteit ▸ pijler-3-cash-saldo",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "cash-for-car",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "uitdovend"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "woon-werkverkeer-en-km-vergoeding",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "werknemers-vergoedingen",
+          "skelet_sectie": "werknemers-vergoedingen-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "werknemers-vergoedingen",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ — cluster-record"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bedrijfsleidersbezoldiging",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "forfaitaire-onkostenvergoeding",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "maaltijdcheques",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "ecocheques",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "sport-cultuur-cheques",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "geschenken-aan-werknemers",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "groepsverzekering-ipt",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "warrants-en-aandelenopties",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "niet-recurrente-resultaatsgebonden-bonus",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(CAO 90)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vaa-woning",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vaa-pc-en-communicatie",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vaa-renteloze-lening",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vaa-verwarming-en-elektriciteit",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "loon-en-payroll",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "berekenings-flow, geen keuze-Σ",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bruto-loon",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bedrijfsvoorheffing",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "rsz-werknemer",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "rsz-werkgever",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "werkbonus",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "eindejaarspremie",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "enkel-en-dubbel-vakantiegeld",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "dertiende-maand",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "opzegvergoeding",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "outplacementkost",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "werkgever-verplichting bij collectief ontslag + 45+",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "fiscale-voordelen-vennootschap",
+          "skelet_sectie": "fiscale-voordelen-vennootschap-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "fiscale-voordelen-vennootschap",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "keuzekader · aftrek-volgorde art 207 WIB · korf-regime",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "verlaagd-tarief-kleine-vennootschap",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "KMO-tarief 20% + bezoldigingsregel",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "dbi-aftrek",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "100% vrijstelling deelnemings-dividenden",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "notionele-interestaftrek",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "afgeschaft 2024 (overgang + historiek)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "innovatie-aftrek",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "85% octrooi-inkomsten",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "investeringsaftrek",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "eenmalig vs gespreid per categorie",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "gespreide-belasting-meerwaarden",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "art 47 WIB herinvestering",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "liquidatiereserve",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "10%/5%-anti-liquidatie-tarief (cross winstuitkering)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vvprbis",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "15% RV kleine venn nieuw kapitaal (cross winstuitkering)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "meerwaarde-aandelen-venb",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(OP-K.6 opgelost) vrijstellings-voorwaarden",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "anti-misbruik",
+          "skelet_sectie": "anti-misbruik-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "anti-misbruik",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "keuzekader · onderscheid simulatie/AAMB/verboden · bewijslast",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "algemene-anti-misbruik-bepaling",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "AAMB art 344§1 WIB",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "simulatie-leer",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "herkwalificatie werkelijke bedoeling",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "transfer-pricing",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "arm's length · TP-doc · OESO",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "thin-cap-regime",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "ATAD interest-aftrekbaarheid 30% EBITDA / 3M€",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "atad-richtlijn",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "EU GAAR + CFC + thin-cap + exit-tax + hybride",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "verboden-constructies",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "specifieke anti-misbruik-bepalingen (art 18 etc.)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "loon-en-payroll",
+          "skelet_sectie": "loon-en-payroll-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "loon-en-payroll",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bruto-loon",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "barema's · maandloon · loonsverhogingen",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bedrijfsvoorheffing",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "schalen + categorieën + verminderingen — afhouding bij werkgever",
+              "extra_flags": [
+                "bestaand?"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "rsz-werknemer",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "13,07% standaard · maandelijkse afhouding",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "rsz-werkgever",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "~25% (sector-afhankelijk) · structurele verminderingen + doelgroep-verminderingen",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "werkbonus",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "RSZ-vermindering werknemer + fiscale werkbonus (lage lonen)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "eindejaarspremie",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "sectorale CAO · 1/12 of vast bedrag",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "enkel-en-dubbel-vakantiegeld",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "bedienden (jaarlijks) vs arbeiders (RJV)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "dertiende-maand",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "sectoraal · onderscheid eindejaarspremie",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "opzegvergoeding",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "eenheidsstatuut · termijnen Wet Eenheidsstatuut 2014 · forfait",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "outplacementkost",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "werkgever-verplichting bij collectief ontslag + 45+",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "fiscale-procedure",
+          "skelet_sectie": "fiscale-procedure-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "fiscale-procedure",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ-hoofdrecord — NIEUW"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "taxatieprocedure",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "aanslag-cyclus",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "aanslagtermijnen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "gewone (3j) · verlengde (5j) · 10j-fraude",
+              "extra_flags": [
+                "was `-fiscaal`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "beginselen-behoorlijk-bestuur",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "rechtszekerheid · zorgvuldigheid · redelijkheid · vertrouwen · motivering",
+              "extra_flags": [
+                "was `-fiscaal`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-beginselen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "legaliteit · annaliteit · territorialiteit",
+              "extra_flags": [
+                "cross PO 2.1"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "aangifteplicht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wie · wat · wanneer · gevolgen niet-indiening",
+              "extra_flags": [
+                "was `-fiscaal`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-sancties",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ-bundel",
+                "absorbeert 3 records: administratieve-boete",
+                "belastingverhoging",
+                "strafrechtelijke-sancties"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-controle",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "accountant_perspectieven[].advies: vertegenwoordigt cliënt (was `mandaat-accountant-fiscus`)",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-bewijsmiddelen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "geschriften · getuigen · vermoedens · bekentenis · tekenen+indiciën",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bezwaarprocedure",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "accountant_perspectieven[].advies: bezwaarschrift + advisering",
+              "extra_flags": [
+                "procedure",
+                "was `-fiscaal`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "gerechtelijke-fase-belasting",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "accountant_perspectieven[].advies: voorbereiding (daarna advocaat)",
+              "extra_flags": [
+                "procedure",
+                "was `gerechtelijke-fase-fiscaal` — disambiguatie met `gerechtelijke-reorganisatie`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-bemiddelingsprocedure",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "FBD · vrijwillig · vertrouwelijk accountant_perspectieven[].advies: bemiddeling-voorbereiding",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "invorderingsprocedure",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "betalingsherinnering · dwangbevel · beslag",
+              "extra_flags": [
+                "procedure",
+                "was `-fiscaal`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "voorafgaande-beslissing-dvb",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "DVB-rulings (cross PO 2.1)",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "geheime-commissielonen",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "bijzondere aanslag 100/50% bij niet-fichering",
+              "extra_flags": [
+                "cross VenB"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "algemene-fiscale-beginselen",
+          "skelet_sectie": "algemene-fiscale-beginselen-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "belasting-definitie-en-functies",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wat is een belasting · 3 functies (financieel · regulerend · herverdelend)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "indeling-belastingen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "directe/indirecte · personele/zakelijke · federaal/gewestelijk/lokaal",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscaal-recht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wettelijk + reglementair + administratief kader · hiërarchie · KB-WIB · circulaires · administratieve commentaar",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "interpretatie-fiscale-wet",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "restrictief/teleologisch · in dubio contra fiscum · realiteitsbeginsel · bewijslast-verdeling",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-actoren",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "belastingplichtige · administratie · OM · rechter · adviseur (cross naar beroepsbeoefening voor accountant-rol)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "toepassingsgebied-belasting",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wie/wat/wanneer/waar — criteria",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-beginselen",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "legaliteit · annualiteit (VII.A-B) · gelijkheid · non-retroactiviteit · territorialiteit (VIII.A-C) · non-bis-in-idem · realiteitsbeginsel · moraliteit-vs-neutraliteit (IX.A-C)",
+              "extra_flags": [
+                "Σ — 8 beginselen"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "internationaal-fiscaal",
+          "skelet_sectie": "internationaal-fiscaal-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "internationaal-fiscaal",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ-hoofdrecord — gepromoveerd"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "dubbelbelastingverdrag",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "bilateraal verdrag · structuur · interpretatie",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "oeso-modelverdrag",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "model + commentaar · standaard-artikelen (4 woonplaats · 5 vaste inrichting · 7 ondernemingswinst · ...)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "mli-instrument",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "Multilateraal Verdrag · BEPS-uitvoering · PPT",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "map",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "Mutual Agreement Procedure · arbitrage · CFR",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vrijstelling-met-progressievoorbehoud",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "methode voorkoming dubbele belasting (PB-resident)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "forfaitair-gedeelte-buitenlandse-belasting",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "FBB · verrekening bij VenB",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "eu-fiscale-richtlijnen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "alle EU-fiscale richtlijnen + omzettings-status",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "moeder-dochterrichtlijn",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "vrijstelling RV bij dochter→moeder dividenden",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "interest-royalty-richtlijn",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "vrijstelling RV interest+royalty's tussen verbonden EU-venn",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-residentie",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "aanknopingspunt · 183-dagen-regel · woonplaats vs verblijfplaats",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "belasting-niet-inwoners",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "BNI-PB + BNI-VenB · categorieën · regels",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "toepassingsgebied-vennootschapsbelasting",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "resident vs niet-resident · zetel + werkelijke leiding",
+              "extra_flags": [
+                "cross VenB"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vaste-inrichting",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "art 5 OESO-MV · vaste plaats · dependent agent · constructie+installatie",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "buitenlandse-winst-en-verlies",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "verrekening · doorschuif · grensoverschrijdende verliesverrekening",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "winst-naar-herkomst",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "toerekening winst aan VI vs hoofdhuis",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "internationale-tewerkstelling",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "detachering · A1-formulier · grensoverschrijdend werk · DBV art 15",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bijzonder-regime-buitenlandse-kaderleden",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "incoming-expat-regime (Wet 2022) · 30%-vrijstelling vs onkostenvergoedingen",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "internationaal-onroerend-goed",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "verwerving · eigendom · realisatie · DBV art 6 · gewestelijke heffingen",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "roerend-inkomen-internationaal",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "RV-modaliteiten · EU-richtlijnen-impact · DBV art 10/11/12",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "internationale-structurering-vennootschap",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "holding-structuren · IP-box · finance-vehikels",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "exit-planning-vennootschap",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "advies-context bij zetelverplaatsing/herstructurering",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "beps-actieplan",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "15 actiepunten OESO · status-implementatie",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "country-by-country-reporting",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "CbCR · drempel 750M€ · master-/lokaal-/CbCR-driedeling",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "juridische-constructie-cayman",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "Caymantaks · doorkijktaxatie · jaarlijkse melding-verplichting",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-regularisatie-en-buitenlandse-goederen",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "regularisatieprocedure · vrijwillige aangifte · boete-staffel",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "controle",
+      "categorieen": [
+        "K"
+      ],
+      "is_record": false,
+      "is_virtual": true,
+      "subdisciplines": [],
+      "clusters": [
+        {
+          "naam": "controle-opdracht",
+          "skelet_sectie": "controle-opdracht-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "controleopdracht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ 4 fases (aanvaarden→plannen→bewijswerk→afronden+oordeel) ▸ prof skepticism ▸ delegatie-en-supervisie",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "opdracht-types",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "4 types: controle · beoordeling · samenstelling · AUP ▸ normenkader-piramide",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "audit-planning",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ kennis-entiteit (ISA 315) ▸ auditrisicomodel (IR×CR×DR) ▸ materialiteit ▸ strategie+werkprogramma",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "audit-bewijs",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ beweringen ▸ 7 procedures ▸ steekproef ▸ LOR ▸ IT-bewijs ▸ schattingen ▸ NOCLAR",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "revisiedossier",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ permanent dossier ▸ lopend dossier",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "audit-afronding",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ subsequent events ▸ misstatements ▸ analytical review ▸ communicatie governance + management letter",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "controleverklaring",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "4 oordelen (zonder voorbehoud · met voorbehoud · afkeurend · onthouding) ▸ verslag-componenten ▸ KAM ▸ andere-verslagstypes",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "interne-controle",
+          "skelet_sectie": "interne-controle-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "interne-controle",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ definitie ▸ 4 doelstellingen ▸ dubbele dimensie ▸ 3 lines of defense ▸ referentiekaders ▸ afbakening",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "ontwerp-interne-controle",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "proces-mapping → risico-identificatie → controle-selectie → documentatie → uitrol",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "functiescheiding",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "4 onverenigbare functies (autoriseren/uitvoeren/registreren/bewaren) + IT-RBAC",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "it-controles",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "ITGC + application controls + fysieke beveiliging + audittrail",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "interne-audit",
+              "categorieen": [
+                "E",
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "3rd line of defense — mandaat + functie + auditcharter",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "evaluatie-interne-controle",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "walkthroughs · tests of controls · self-assessment; design vs operating effectiveness",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fouten-en-fraude",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "afbakening fouten/fraude/verspilling + fraudedriehoek",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "controle-shared",
+          "skelet_sectie": "shared-records",
+          "annotatie": "Shared records — controle-opdracht ↔ interne-controle ↔ beroepsbeoefening",
+          "nodes": [
+            {
+              "id": "coso-framework",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "5 componenten: controle-omgeving · risico-inschatting · controle-activiteiten · informatie-en-communicatie · monitoring + ERM-variant",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "cyclus-analyse",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "5 cycli: aankoop(P2P) · productie · verkoop(O2C) · HR(H2R) · voorraad",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "auditcomite",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "schakel bestuur ↔ interne auditor ↔ commissaris (ook thema beroepsbeoefening)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "onafhankelijkheid",
+              "categorieen": [
+                "K",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(shared beroepsbeoefening + controle-opdracht) — geesteshouding + naar-buiten-toe + cooling-off",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kwaliteitsmanagement-opdracht",
+              "categorieen": [
+                "K",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(shared beroepsbeoefening + controle-opdracht) — ISQM kantoor + EQR opdracht",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "beoordelings-opdracht",
+          "skelet_sectie": "beoordelings-opdracht-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "beoordeling-cyclus",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "isae-opdrachten",
+          "skelet_sectie": "isae-opdrachten-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "isae-opdracht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "overeengekomen-procedures",
+          "skelet_sectie": "overeengekomen-procedures-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "overeengekomen-procedures-opdracht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": true,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "bijzondere-mandaten",
+          "skelet_sectie": "bijzondere-mandaten-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "bijzondere-mandaten",
+              "categorieen": [
+                "R",
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "hoofdrecord — klein",
+                "categorisch"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vennootschapsrecht",
+      "categorieen": [
+        "K"
+      ],
+      "is_record": false,
+      "is_virtual": true,
+      "subdisciplines": [],
+      "clusters": [
+        {
+          "naam": "kapitaalstructuur",
+          "skelet_sectie": "kapitaalstructuur-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "oprichting-vennootschap",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ oprichtingskosten (boekhouding-aspect)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kapitaalverhoging",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ inbreng-onroerend",
+              "extra_flags": [],
+              "children": [
+                {
+                  "id": "kapitaalverhoging-in-natura",
+                  "categorieen": [],
+                  "is_sigma": false,
+                  "is_kandidaat": false,
+                  "annotatie": "(inline sub-record)",
+                  "extra_flags": [],
+                  "children": [],
+                  "is_record": true,
+                  "is_virtual": false
+                }
+              ],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kapitaalvermindering",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "inbreng-bedrijfstak-of-algemeenheid",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(1 record — bevestigd door bestaand record; ook thema: reorganisatie)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "quasi-inbreng",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "inkoop-eigen-aandelen",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(bestaand record; PO 3.0.IV.C)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "voorkeurrecht",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "volstortingsplicht",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "aandeel",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ aandeelhouders-rechten-en-plichten",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "algemene-vergadering",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(bestaand record; PO 3.0.III)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "aandeelhoudersovereenkomsten",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ stand-stillclausule ▸ voorkooprecht ▸ exit-clausule ▸ board-vertegenwoordiging ▸ controle-verwerving (PO 3.0.VI)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "eigen-vermogen",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ kapitaal ▸ uitgiftepremies ▸ herwaarderingsmeerwaarden ▸ reserves ▸ overgedragen-resultaat ▸ kapitaalsubsidies(?)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "financieel-plan",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kapitaalbescherming",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "positionering TBD — OP-K.5",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "overdracht-onderneming",
+          "skelet_sectie": "overdracht-onderneming-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "overdracht-onderneming",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "share-deal-aandelenovername · asset-deal-handelsfonds-overname; gedeelde aspecten: waardering · due-diligence · garanties",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "overnameovereenkomst-spa",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(bestaand record; PO 3.0.V)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "reorganisatie",
+          "skelet_sectie": "reorganisatie-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "reorganisatie",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "keuzekader · vergelijkingsmatrix · WVV boek 12 + fiscale-neutraliteit",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fusie",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "3 modaliteiten · ruilverhouding · revisor-verslag (bijzonder mandaat)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "splitsing",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "3 modaliteiten incl. partiële splitsing",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "fiscale-fusie-splitsing",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "fiscale neutraliteit-regime · voorwaarden · EU-context",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "bestuur-en-aansprakelijkheid",
+          "skelet_sectie": "bestuur-en-aansprakelijkheid-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "bestuur-vennootschap",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "organisatie · bevoegdheidsgrenzen · binding · dagelijks bestuur",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "belangenconflict-bestuur",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "kennisgeving · onthouding · bijzondere verslaggeving · sancties",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "oprichtersaansprakelijkheid",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "financieel-plan-toets bij faillissement < 3j",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bestuurdersaansprakelijkheid",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "3 sporen · kennelijk onbehoorlijk bestuur · cap · #kwijting · #ontslag-bekendmaking",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "vennootschapsgeschillen",
+          "skelet_sectie": "vennootschapsgeschillen-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "vennootschapsgeschillen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ types · contractuele preventie · bewijswaarde · minnelijke schikking · nietigheid besluiten · perspectief beroep-en-deontologie",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "insolventie",
+          "skelet_sectie": "insolventie-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "insolventierecht-wer-boek-xx",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "WER boek XX framework · 3 procedures · Regsol · functionarissen",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kamers-voor-ondernemingen-in-moeilijkheden",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "vroegtijdige opsporing · meldingsplicht accountant",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "ondernemingsbemiddelaar",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "neutrale tussenpersoon · buitengerechtelijk",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "gerechtelijke-reorganisatie",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "opschorting · 3 modaliteiten (individueel/collectief akkoord/overdracht)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "faillissement",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "duurzame staking · curator · boedel · rangorde",
+              "extra_flags": [
+                "NIEUW"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "ontbinding-en-vereffening",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "vrijwillig (WVV) vs gerechtelijk (WER) · vereffenaar · #boekenstaat-bij-ontbinding (bijzonder mandaat) · #vereffenaarsaansprakelijkheid",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "rehabilitatie-en-beroepsverbod",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "#rehabilitatie · #beroepsverbod (`-en-`-smell, split-overweging OP-INS.A)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "ondernemingsvormen",
+          "skelet_sectie": "ondernemingsvormen-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "ondernemingsvormen",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "overzicht + vergelijkingsmatrix + WVV-systematiek + fiscale-keuze (perspectief)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "besloten-vennootschap",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(BV/BVBA/SRL) — default WVV-vorm sinds 2019; flexibel statutair",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "naamloze-vennootschap",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(NV/SA) — beursgenoteerd-vriendelijk; rigide bestuur",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "cooperatieve-vennootschap",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(CV/SC) — coöperatief-doel; uittredingsregime",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vennootschap-onder-firma",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(VOF/SNC) — volle aansprakelijkheid alle vennoten",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "commanditaire-vennootschap",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(CommV/SComm) — gecommanditeerden + commandités",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "maatschap",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "geen rechtspersoonlijkheid; fiscaal-transparant",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vereniging-zonder-winstoogmerk",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(VZW/ASBL) — zonder winstoogmerk; WVV boek 9-11",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "vennootschap-groottecategorieen",
+              "categorieen": [
+                "E",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "drempels art 1:24-1:27 WVV + cascade van gevolgen",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "winstuitkering",
+          "skelet_sectie": "winstuitkering-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "winstuitkering",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ-hoofdrecord — NIEUW; absorbeert winstverdeling-deel van `kapitaalbescherming-en-winstverdeling`"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "winstbestemming",
+              "categorieen": [
+                "G",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "NIEUW — opent OP-K.4"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "beroep-en-deontologie",
+      "categorieen": [
+        "K"
+      ],
+      "is_record": false,
+      "is_virtual": true,
+      "subdisciplines": [],
+      "clusters": [
+        {
+          "naam": "beroepsbeoefening",
+          "skelet_sectie": "beroepsbeoefening-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "gecertificeerd-accountant",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "beroep · toelatingsvereisten · monopolieopdrachten · stagiair → gecertificeerd",
+              "extra_flags": [
+                "NIEUW"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "itaa-beroepsorganisatie",
+              "categorieen": [
+                "E"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "structuur · raden · publiek toezicht · openbaar register",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "normbronnen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wet → KB → reglement → norm → deontologische code → ITAA-normen + ISA",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "deontologie",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "5 beginselen: integriteit · objectiviteit · vakbekwaamheid · vertrouwelijkheid · professioneel gedrag",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "beroepsgeheim",
+              "categorieen": [
+                "K",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wat valt onder · uitzonderingen · samenloop met AML-melding",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "beroepsaansprakelijkheid",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "3 sporen (burgerlijk · strafrechtelijk · tuchtrechtelijk) — dekt accountant + bedrijfsrevisor",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "tuchtprocedure-itaa",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "wie · sancties (waarschuwing/schorsing/schrapping) · beroep",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kwaliteitstoetsing-itaa",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "externe peer review · frequentie · scope",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "permanente-vorming",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "puntenstelsel · ITAA-norm · sancties",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "antiwitwaspreventie",
+              "categorieen": [
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "AML-wet 18-09-2017 + WER + ITAA-norm-aww ▸ cliëntenonderzoek (KYC) ▸ ubo-register ▸ risicogebaseerde benadering ▸ melding-cfi (tipping-off-verbod) ▸ intern beleid",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "opdrachtaanvaarding-en-opdrachtbrief",
+              "categorieen": [
+                "E",
+                "R"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(verhuisd uit controle-opdracht, OP-EC.A) — ITAA-norm-opdrachtbrief",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kantoor-organisatie",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "▸ team-coordinatie + supervisie ▸ communicatie-met-stakeholders ▸ digitale werkomgeving",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bedrijfseconomie-en-management",
+      "categorieen": [
+        "K"
+      ],
+      "is_record": false,
+      "is_virtual": true,
+      "subdisciplines": [],
+      "clusters": [
+        {
+          "naam": "bedrijfsadvies",
+          "skelet_sectie": "bedrijfsadvies-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "bedrijfsstrategie-inzicht",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "businessmodel-canvas · waardeketen · marktdynamiek",
+              "extra_flags": [
+                "4.0.taak.6"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "bedrijfswaardering",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "DCF · multiples · NAV",
+              "extra_flags": [
+                "3.0.taak.2"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "investeringsevaluatie",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "NPV · IRR · WACC · payback",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "management-accounting",
+          "skelet_sectie": "management-accounting-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "analytische-boekhouding",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ — gepromoveerd",
+                "absorbeert kostentypologie",
+                "kostencomponenten",
+                "IV-anchors"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kostprijsmethoden",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "· full-costing · direct-costing · standaardkostenmethode · activity-based-costing (rename `abc-methode`)",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "break-even-analyse",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "· marginale-analyse",
+              "extra_flags": [
+                "analyse-procedures III.D-E"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "budgetbeheer",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "· masterbudget · variantieanalyse",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "full-costing",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "absorptie-methode · alle fixed + variabele kosten toegerekend · jaarrekening-conforme stockwaardering",
+              "extra_flags": [
+                "procedure — III.A"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "direct-costing",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "variabele kosten + dekkingsbijdrage · ondersteunt break-even-analyse · niet-jaarrekening-conform",
+              "extra_flags": [
+                "procedure — III.B"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "standaardkostenmethode",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "voorafbepaalde standaarden + variantieanalyse · efficiency-meting · cross variantieanalyse",
+              "extra_flags": [
+                "procedure — III.C"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "activity-based-costing",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "procedure — rename `abc-methode`",
+                "afkorting weg uit record-id; titel toont \"Activity-Based Costing (ABC)\""
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "marginale-analyse",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "PO 1.8.III.E · marginale kosten · marginale opbrengsten · incremental-decision-making · make-or-buy",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "masterbudget",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "PO 1.8.VI.D · integrale budget: operationeel + financieel + investerings + cash · top-down vs bottom-up · scenario-modellen",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "variantieanalyse",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "PO 1.8.VI · afwijking budget vs werkelijk · prijs- + hoeveelheids-varianties · oorzaak-analyse · management-by-exception · cross `standaardkostenmethode`",
+              "extra_flags": [
+                "procedure"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        },
+        {
+          "naam": "financiele-analyse",
+          "skelet_sectie": "financiele-analyse-cluster",
+          "annotatie": "",
+          "nodes": [
+            {
+              "id": "jaarrekeninganalyse",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "#horizontale-analyse · #verticale-analyse · #herstructurering-balans+ROW",
+              "extra_flags": [
+                "Σ — hoofdrecord"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "continuiteit",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "(rename `-going-concern`) · toegevoegde-waarde",
+              "extra_flags": [
+                "context-K"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "liquiditeits-ratios",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "· solvabiliteits-ratios · rentabiliteits-ratios · activiteits-ratios · ratio-interpretatie",
+              "extra_flags": [
+                "Σ NIEUW absorbeert 4"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "kasstroom-analyse",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "· free-cash-flow",
+              "extra_flags": [
+                "Σ — 8 sub-secties cross cyclus-analyse",
+                "schuldfinanciering",
+                "kapitaalstructuur"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "financiele-diagnose",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "· faillissementspredictie-modellen",
+              "extra_flags": [
+                "diagnose",
+                "falen"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "financiele-analyse-software",
+              "categorieen": [],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "IT-tools"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "toegevoegde-waarde",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "solvabiliteits-ratios",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ — NIEUW",
+                "absorbeert 2 ratio-records"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "rentabiliteits-ratios",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ — NIEUW",
+                "absorbeert 5 ratio-records"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "activiteits-ratios",
+              "categorieen": [],
+              "is_sigma": true,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "Σ — NIEUW",
+                "absorbeert 4 ratio-records"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "ratio-interpretatie",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [
+                "PO 1.9.V.E bekwaamheid-niveau"
+              ],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "free-cash-flow",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            },
+            {
+              "id": "faillissementspredictie-modellen",
+              "categorieen": [
+                "K"
+              ],
+              "is_sigma": false,
+              "is_kandidaat": false,
+              "annotatie": "",
+              "extra_flags": [],
+              "children": [],
+              "is_record": true,
+              "is_virtual": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
