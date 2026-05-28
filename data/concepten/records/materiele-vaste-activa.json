@@ -1,92 +1,181 @@
 {
   "id": "materiele-vaste-activa",
   "naam": {
-    "primair": "Materiële vaste activa (IAS 16)",
-    "afkorting": "MVA",
-    "synoniemen": [
-      "IAS 16",
-      "PPE",
-      "property plant and equipment"
-    ]
+    "primair": "Materiële vaste activa (IFRS — IAS 16)",
+    "synoniemen": ["property, plant and equipment", "PP&E"],
+    "vertaling": {"en": "property, plant and equipment", "fr": "immobilisations corporelles"}
   },
-  "concept_type": "kader",
+  "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.5.V.A",
-      "1.5.V.B"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["1.5.V.A", "1.5.V.B"],
     "scope": {
       "in": [
         "IAS 16 — property, plant and equipment",
-        "Initiële waardering (kostprijs · directly attributable costs)",
+        "Initiële waardering (kostprijs + directly attributable costs)",
         "Latere waardering: cost model vs revaluation model",
         "Afschrijving (depreciation) — systematic basis + component-aanpak",
         "Impairment-link IAS 36",
         "De-recognition + meerwaarden"
       ],
       "out": [
-        {
-          "topic": "Vaste activa B-GAAP-perspectief",
-          "richting": "moet-verwijzen",
-          "ref": "vaste-activa"
-        },
-        {
-          "topic": "IFRS Σ overkoepelend",
-          "richting": "moet-verwijzen",
-          "ref": "ifrs"
-        },
-        {
-          "topic": "Herwaardering vast actief (B-GAAP-revaluation)",
-          "richting": "mag-verwijzen",
-          "ref": "herwaardering-vast-actief"
-        }
+        {"topic": "Vaste activa B-GAAP-perspectief", "richting": "moet-verwijzen", "ref": "vaste-activa"},
+        {"topic": "IFRS Σ overkoepelend", "richting": "moet-verwijzen", "ref": "ifrs"},
+        {"topic": "Herwaardering vast actief (B-GAAP-revaluation)", "richting": "mag-verwijzen", "ref": "herwaardering-vast-actief"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/materiele-vaste-activa.json",
+      "primary_bronnen": ["Verordening (EU) 2023/1803 — IAS 16", "CBN-advies 2010/15 (afschrijvingsmethoden)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "IAS 16 Σ uitgewerkt: kostprijsmodel vs herwaarderingsmodel, component-afschrijving, IAS 36-link."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "IAS 16 'Materiële vaste activa' definieert deze als materiële activa die (a) door een entiteit worden aangehouden voor gebruik in de productie of de levering van goederen of diensten, voor verhuur aan derden of voor administratieve doeleinden, én (b) naar verwachting langer dan één boekjaar zullen worden gebruikt. Opname bij eerste opname (alinea 15): tegen de kostprijs — aankoopprijs + invoerrechten + niet-restituurbare aankoopbelastingen, na aftrek handelskortingen, plus directly attributable costs (transport, installatie, testkosten, deconstructie-verplichting). Latere waardering (alinea 29): keuze tussen het kostprijsmodel (alinea 30) of het herwaarderingsmodel (alinea 31), gemaakt op het niveau van een 'klasse' van MVA.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 16", "ref": "alinea 6, 15-16, 29-31"}]}
+      },
+      "substantie": {
+        "tekst": "IAS 16 zit dichter bij Belgische Be-GAAP dan IFRS 16 (lease) of IAS 38 (IMA) — maar drie verschillen blijven cruciaal: (1) Component-aanpak (alinea 43-44): een MVA-onderdeel met afzonderlijke levensduur (vliegtuigmotor, dak gebouw) moet apart afgeschreven worden. Be-GAAP staat dit toe maar verplicht het niet. (2) Herwaarderingsmodel (alinea 31-42): periodieke fair-value-toets met meerwaarde naar OCI (herwaarderingsreserve in EV) of resultaat. Be-GAAP kent herwaardering ook maar met striktere voorwaarden (art. 57 KB WVV). (3) Impairment (kruisverwijzing IAS 36): jaarlijkse test indien indicatoren — afboeking direct naar resultaat. Be-GAAP gebruikt 'waardevermindering' (rubriek 631) bij duurzame waardedaling.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 16", "ref": "alinea 31-44, IAS 36"}]}
+      },
+      "rationale": {
+        "tekst": "IAS 16 streeft naar economische realiteit: een gebouw van 100 jaar bestaat uit verschillende sub-componenten (structuur, dak, technische installaties, interieur) met verschillende slijtage-snelheden. Component-aanpak voorkomt dat een MVA met gemiddelde afschrijvingsduur de werkelijkheid maskeert. Het herwaarderingsmodel laat ondernemingen toe om aanzienlijke prijsstijging (gebouwen) te tonen — wat Be-GAAP nog steeds beperkt. Voor de stagiair die later in een IFRS-omgeving werkt (beursgenoteerd of dochter van internationale groep): leer de drie verschillen + de impact op de jaarrekening (hogere boekwaarde + hogere afschrijving onder herwaardering).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vaste-activa"],
+      "kader": "ifrs",
+      "naast_relevant": ["immateriele-vaste-activa", "herwaardering-vast-actief"],
+      "volgkennis": ["bijzondere-waardevermindering-ias-36"]
+    },
+    "subconcepten": [
+      {
+        "id": "initiele-waardering-ias16",
+        "naam": {"primair": "Initiële waardering — kostprijs + directly attributable costs"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "IAS 16 alinea 16: kostprijs MVA omvat (a) aankoopprijs incl. invoerrechten + niet-restituurbare belastingen, na aftrek kortingen; (b) directly attributable costs om actief op de huidige locatie en in de huidige staat te brengen (transport, installatie, montage, testkosten); (c) initiële schatting van kosten voor ontmanteling/verwijdering/herstel locatie (asset retirement obligation — voorziening volgens IAS 37). Niet meeneembaar (alinea 19): training personeel, advertising-kosten voor lancering, administratie en algemene overhead.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 16", "ref": "alinea 16-19"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "kostprijsmodel-vs-herwaardering",
+        "naam": {"primair": "Kostprijsmodel vs herwaarderingsmodel"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "IAS 16 alinea 29-42: per MVA-klasse kiezen. Kostprijsmodel (alinea 30): boekwaarde = kostprijs − geaccumuleerde afschrijvingen − geaccumuleerde impairment-verliezen. Herwaarderingsmodel (alinea 31): boekwaarde = reële waarde op herwaarderings-datum − latere afschrijvingen − latere impairment. Reële waarde kan worden bepaald via marktbenadering, kostprijsbenadering of inkomstenbenadering (IFRS 13). Herwaardering moet regelmatig genoeg gebeuren om afwijking van reële waarde materieel klein te houden — jaarlijks voor volatiele activa, om de 3-5 jaar voor andere.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 16", "ref": "alinea 29-42"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "afschrijving-ias16",
+        "naam": {"primair": "Afschrijving — systematic basis + component-aanpak"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "IAS 16 alinea 43-62: afschrijfbaar bedrag (kostprijs − restwaarde) wordt systematisch toegewezen over de gebruiksduur. Methode (alinea 60-62): lineair OF degressief OF productie-eenhedenmethode — moet de wijze weerspiegelen waarop de toekomstige economische voordelen worden verbruikt. Component-aanpak (alinea 43): elk onderdeel van significante kostprijs ten opzichte van totaal MVA moet afzonderlijk worden afgeschreven (vliegtuigmotor 8 jaar, vliegtuigcasco 20 jaar). Restwaarde (alinea 50-53) jaarlijks herzien.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 16", "ref": "alinea 43-62"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "derecognition-ias16",
+        "naam": {"primair": "De-recognition + meer-/minderwaarden"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "IAS 16 alinea 67-72: actief uitboeken bij vervreemding of wanneer geen toekomstige economische voordelen meer verwacht. Meer-/minderwaarde = netto-opbrengst − boekwaarde, geboekt in resultaat (geen omclassificatie van herwaarderingsreserve via resultaat — alleen via OCI naar overgedragen resultaat).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 16", "ref": "alinea 67-72"}]}
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Component-aanpak negeren",
+        "verkeerde_assumptie": "Een MVA met meerdere onderdelen kan altijd als één geheel afgeschreven worden.",
+        "kernpunt": "IAS 16 alinea 43-44 vereist component-aanpak voor onderdelen met significante kostprijs ten opzichte van totaal en afwijkende gebruiksduur. Klassieke voorbeelden: vliegtuig (motor vs casco), gebouw (structuur vs dak vs technische installaties), schip (romp vs motor vs interieur). Belangrijk voor groot-equipment audit-cliënten.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 16", "ref": "alinea 43-44"}]}
+      },
+      {
+        "titel": "Herwaardering-meerwaarde direct in resultaat",
+        "verkeerde_assumptie": "Herwaarderings-meerwaarde gaat naar resultaat zoals reële-waarde-mutaties van financiële instrumenten.",
+        "kernpunt": "IAS 16 alinea 39-40: meerwaarde uit herwaardering MVA wordt rechtstreeks in OCI (other comprehensive income) opgenomen onder 'herwaarderingsreserve'. Pas bij desinvestering of via afschrijvings-allocatie kan dit naar de overgedragen resultaten verschuiven — NOOIT via P&L. Uitzondering: herstel van eerdere herwaardering-vermindering die in P&L was geboekt (alinea 39).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 16", "ref": "alinea 39-40"}]}
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-ifrs-rapportering",
+      "naam": {"primair": "IFRS-rapportering (beursgenoteerd of dochter van internationale groep)"},
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "boekh-ias16-mapping",
+              "naam": {"primair": "Mapping Be-GAAP MVA naar IAS 16-rapportering"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij IFRS-conversie: (1) heridentificeer componenten — splits MVA-eenheden op basis van afwijkende levensduur; (2) controleer kostprijs-componenten (geactiveerde directly attributable costs in lijn met alinea 16); (3) kies model per klasse (kostprijs of herwaardering); (4) toets impairment-indicatoren (IAS 36); (5) journal-entry voor cumulatieve verschillen via 'retained earnings adjustment' (eerste IFRS-toepassing IFRS 1).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IFRS 1", "ref": "Eerste toepassing"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-ias16-impairment",
+              "naam": {"primair": "Impairment-toets (IAS 36) op MVA"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Jaarlijks: identificeer impairment-indicatoren (extern: marktdaling, technologische obsoletie; intern: fysieke schade, plan tot afstoting). Bij indicator: bepaal recoverable amount = max(fair value − sale costs; value in use via DCF). Vergelijk met boekwaarde — verschil boeken in P&L (geen OCI behalve voor herwaardeerde activa, alinea 39 omkering). Cash Generating Unit (CGU) als geen losse cash flows.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 36", "ref": "alinea 9-17, 22"}]}
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "ifrs"
-    },
-    {
-      "type": "alternatief_referentiestelsel",
-      "target": "vaste-activa"
-    }
+    {"type": "valt_onder", "target": "ifrs"},
+    {"type": "alternatief_referentiestelsel", "target": "vaste-activa", "toelichting": "IAS 16 voor materiële vaste activa onder IFRS; klasse 22-27 Be-GAAP-equivalent."},
+    {"type": "vereist", "target": "vaste-activa", "toelichting": "Be-GAAP-basis als prerequisite."},
+    {"type": "vergelijkbaar_met", "target": "immateriele-vaste-activa", "gelijkenissen": ["Beide IFRS-MVA-/IMA-categorieën", "Beide kennen kostprijs- en herwaarderingsmodel"], "verschillen": ["MVA = fysiek; IMA = niet-fysiek", "IMA strenger op herwaardering (alleen actieve markt — zeldzaam)"]},
+    {"type": "beinvloed_door", "target": "bijzondere-waardevermindering-ias-36", "toelichting": "IAS 36 levert recoverable amount + impairment-test."}
   ]
 }

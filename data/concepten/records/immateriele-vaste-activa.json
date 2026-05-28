@@ -1,24 +1,16 @@
 {
   "id": "immateriele-vaste-activa",
   "naam": {
-    "primair": "Immateriële vaste activa (IAS 38)",
-    "afkorting": "IMA",
-    "synoniemen": [
-      "IAS 38",
-      "intangible assets"
-    ]
+    "primair": "Immateriële vaste activa (IFRS — IAS 38)",
+    "synoniemen": ["intangible assets", "IMA"],
+    "vertaling": {"en": "intangible assets", "fr": "immobilisations incorporelles"}
   },
-  "concept_type": "kader",
+  "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.5.V.A",
-      "1.5.V.B"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["1.5.V.A", "1.5.V.B"],
     "scope": {
       "in": [
         "IAS 38 — intangible assets",
@@ -26,67 +18,157 @@
         "Waardering: cost model · (zelden) revaluation model voor active markets",
         "Onderzoek-vs-ontwikkeling — research-fase nooit kapitalisatie · development-fase onder voorwaarden",
         "Interne vs gekochte immateriële vaste activa",
-        "Webtools-IAS-38-criteria (capitalisatie websites · software)",
         "Indefinite-life vs finite-life IMA"
       ],
       "out": [
-        {
-          "topic": "Vaste activa B-GAAP-perspectief",
-          "richting": "moet-verwijzen",
-          "ref": "vaste-activa"
-        },
-        {
-          "topic": "IFRS Σ overkoepelend",
-          "richting": "moet-verwijzen",
-          "ref": "ifrs"
-        },
-        {
-          "topic": "Consolidatieverschil/goodwill (apart, IFRS 3)",
-          "richting": "mag-verwijzen",
-          "ref": "consolidatieverschil"
-        }
+        {"topic": "Vaste activa B-GAAP-perspectief", "richting": "moet-verwijzen", "ref": "vaste-activa"},
+        {"topic": "IFRS Σ overkoepelend", "richting": "moet-verwijzen", "ref": "ifrs"},
+        {"topic": "Consolidatieverschil/goodwill (apart, IFRS 3)", "richting": "mag-verwijzen", "ref": "consolidatieverschil"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/immateriele-vaste-activa.json",
+      "primary_bronnen": ["Verordening (EU) 2023/1803 — IAS 38", "CBN-advies 2012/13", "CBN-advies 2016/27 (R&D)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "IAS 38 Σ uitgewerkt: herkenningscriteria, R&D-onderscheid, indefinite-life-impairment."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "IAS 38 definieert een immaterieel actief als een identificeerbaar niet-monetair actief zonder fysieke vorm. Drie cumulatieve voorwaarden voor opname: (1) identificeerbaar — afscheidbaar van entiteit OF voortvloeiend uit contractueel/wettelijk recht; (2) gecontroleerd door entiteit; (3) toekomstige economische voordelen waarschijnlijk + kostprijs betrouwbaar meetbaar. Typische voorbeelden: aangekochte software-licentie, octrooi, merk, klantenlijst, geactiveerde ontwikkelingskosten. Goodwill uit bedrijfscombinatie valt onder IFRS 3 — niet IAS 38 (afzonderlijk vanaf alinea 11).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 38", "ref": "alinea 8-17"}, {"type": "cbn", "naam": "CBN-advies 2012/13", "ref": "Boekhoudkundige verwerking IMA"}]}
+      },
+      "substantie": {
+        "tekst": "IAS 38 is restrictiever dan IAS 16 — om twee redenen: (1) Identificeerbaarheid moeilijker — een onderneming heeft veel waarde-creërende elementen (medewerkers, merk, klantenbasis) die NIET als IMA mogen worden opgenomen omdat ze niet voldoen aan de cumulatieve criteria. Internally generated goodwill is uitgesloten (alinea 48). (2) R&D-onderscheid (alinea 54-67): research-fase kosten worden altijd direct in resultaat opgenomen; alleen development-fase mag worden gekapitaliseerd mits zes voorwaarden cumulatief vervuld (technische haalbaarheid, intentie + capaciteit om af te werken, beschikbaarheid middelen, manier waarop voordelen worden gegenereerd, betrouwbare meting kosten). Levensduur (alinea 88): indefinite (geen voorzienbare grens — bv. bekend merknaam) of finite — indefinite worden niet afgeschreven maar jaarlijks getest op impairment.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 38", "ref": "alinea 48, 54-67, 88-91"}, {"type": "cbn", "naam": "CBN-advies 2016/27", "ref": "R&D-onderscheid"}]}
+      },
+      "rationale": {
+        "tekst": "De strikte identificeerbaarheids- en R&D-regels reflecteren de voorzichtigheidseis: IMA is moeilijker objectief te waarderen dan MVA. De wetgever wil voorkomen dat ondernemingen hun balans 'opblazen' met subjectief geschatte immateriële posten. Tegelijk laat IAS 38 wél development-kapitalisatie toe — omdat doel-georiënteerde uitgaven (met technische haalbaarheid en intentie) een legitiem actief vertegenwoordigen. Het herwaarderingsmodel is alleen toegelaten als er een actieve markt bestaat (alinea 72-75) — wat zelden voorkomt voor IMA (uitzondering: bepaalde vergunningen, productie-quota's).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["vaste-activa"],
+      "kader": "ifrs",
+      "naast_relevant": ["materiele-vaste-activa", "consolidatieverschil"],
+      "volgkennis": ["bijzondere-waardevermindering-ias-36"]
+    },
+    "subconcepten": [
+      {
+        "id": "herkenningscriteria-ias38",
+        "naam": {"primair": "Herkenningscriteria — identifiability + control + future economic benefits"},
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "(1) Identifiability (alinea 12): actief is afscheidbaar (kan apart verkocht/overgedragen worden) OF voortvloeit uit contractueel/wettelijk recht (bv. licentie). (2) Control (alinea 13): macht om voordelen te verkrijgen + anderen toegang weigeren. Klantenbasis: zelden 'gecontroleerd' (klanten kunnen vrij weggaan), dus niet kapitaliseerbaar tenzij door contract. (3) Future economic benefits (alinea 17): omzet, kostenbesparing, andere voordelen. Beoordeling op basis van redelijke en onderbouwde aannames.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 38", "ref": "alinea 11-17"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "research-vs-development",
+        "naam": {"primair": "Research-fase vs development-fase"},
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "IAS 38 alinea 54-67. Research-fase (alinea 54-56): nieuwe kennis verkrijgen — alle kosten in resultaat. Voorbeelden: literatuurstudie, formulering ideeën, evaluatie alternatieven. Development-fase (alinea 57-67): toepassen onderzoek voor specifiek productontwerp. Activering verplicht mits alle zes voorwaarden vervuld: (a) technische haalbaarheid afronding; (b) intentie afronden + gebruiken/verkopen; (c) capaciteit om te gebruiken/verkopen; (d) manier waarop toekomstige voordelen worden gegenereerd; (e) beschikbaarheid technische/financiële/andere middelen; (f) betrouwbare meting van toerekenbare kosten.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 38", "ref": "alinea 54-67"}, {"type": "cbn", "naam": "CBN-advies 2016/27", "ref": "Onderzoek vs ontwikkeling"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "finite-vs-indefinite-life",
+        "naam": {"primair": "Finite-life vs indefinite-life IMA"},
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "IAS 38 alinea 88-110. Finite-life (alinea 97-106): bekende of geschatte einddatum (license met einddatum, octrooi). Afschrijving systematisch over gebruiksduur — restwaarde meestal nul. Indefinite-life (alinea 88-91): geen voorzienbare grens aan periode waarin toekomstige voordelen verwacht worden (bv. wereldwijd erkend merk Coca-Cola, eeuwig hernieuwbare licentie). NIET afschrijven; jaarlijks impairment-test (IAS 36) + herziening 'indefinite' classification.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 38", "ref": "alinea 88-110"}, {"type": "cbn", "naam": "CBN-advies 2012/13", "ref": "Beperkte vs onbeperkte levensduur"}]}
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Internally generated goodwill kapitaliseren",
+        "verkeerde_assumptie": "Sterke merknaam of klantenbasis intern opgebouwd = IMA op de balans.",
+        "kernpunt": "IAS 38 alinea 48-50 verbiedt expliciet kapitalisatie van interne goodwill, merken, mastheads, publishing titles, klantenlijsten die intern werden opgebouwd. Reden: niet identificeerbaar EN niet betrouwbaar te waarderen. Alleen via overname (IFRS 3) komt goodwill op de balans.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 38", "ref": "alinea 48-50"}]}
+      },
+      {
+        "titel": "R&D-uitgaven volledig activeren",
+        "verkeerde_assumptie": "Alle R&D-uitgaven worden gekapitaliseerd als 'investering in toekomst'.",
+        "kernpunt": "Research-fase ALTIJD direct in P&L. Alleen development-fase MAG (verplicht) worden gekapitaliseerd mits alle zes voorwaarden vervuld. Twijfel = niet activeren. Documenteer per project waar de overgang research → development plaatsvindt — typische auditor-vraag.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 38", "ref": "alinea 54-67"}]}
+      },
+      {
+        "titel": "Indefinite-life automatisch toekennen",
+        "verkeerde_assumptie": "Een merknaam of vergunning krijgt 'indefinite life' om afschrijving te vermijden.",
+        "kernpunt": "Indefinite-life vereist objectieve onderbouwing: geen voorzienbare grens. Een 20-jarige licentie zonder hernieuwbaarheidsclausule = finite. Een patent (max 20 jaar) = finite. Toekenning indefinite-life impliceert verplichte jaarlijkse impairment-test — extra audit-werk.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-ifrs-rapportering",
+      "naam": {"primair": "IFRS-rapportering"},
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "audit-rd-classificatie",
+              "naam": {"primair": "R&D-classificatie research vs development"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per R&D-project: vraag projectdocumentatie (feasibility study, business plan), bekijk overgangsmoment naar development-fase. Toets de zes voorwaarden mits onderbouwing. Steekproef geactiveerde kosten — direct toerekenbare lonen + materialen + (gedeeltelijk) indirecte kosten. Toets begin-afschrijvings-moment (= start commerciële gebruik). Risico: management kan moment ergsubjectief naar voren of achteren schuiven afhankelijk van winstdoel.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 38", "ref": "alinea 54-67"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fisc-rd-aftrek-vs-activering",
+              "naam": {"primair": "R&D — fiscaal aftrek vs boekhoudkundige activering"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Fiscaal: belastingkrediet O&O (art. 289quater WIB92) + investeringsaftrek + verhoogde aftrek loonkosten onderzoekers (art. 275/3 WIB92). Onder Be-GAAP/IFRS gekapitaliseerde development-kosten worden fiscaal IFRS-gevolgd voor consolidaties; maar boekhoudkundige timing impact (kost in jaar X vs afschrijving spread over 5-10 jaar) creëert tijdelijke verschillen — deferred tax-positie.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 289quater + 275/3"}]}
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "ifrs"
-    },
-    {
-      "type": "alternatief_referentiestelsel",
-      "target": "vaste-activa"
-    }
+    {"type": "valt_onder", "target": "ifrs"},
+    {"type": "alternatief_referentiestelsel", "target": "vaste-activa", "toelichting": "IAS 38 voor IMA onder IFRS; klasse 21 Be-GAAP-equivalent."},
+    {"type": "vereist", "target": "vaste-activa"},
+    {"type": "vergelijkbaar_met", "target": "materiele-vaste-activa", "gelijkenissen": ["Beide IFRS-vaste-activa-categorieën"], "verschillen": ["IMA = niet-fysiek + strenger op herkenning + R&D-onderscheid", "MVA = fysiek, component-aanpak verplicht"]},
+    {"type": "beinvloed_door", "target": "consolidatieverschil", "toelichting": "Goodwill uit bedrijfscombinatie valt onder IFRS 3, gerelateerd domein."}
   ]
 }
