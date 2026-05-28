@@ -1,22 +1,30 @@
 {
   "id": "fiscale-bewijsmiddelen",
   "naam": {
-    "primair": "Fiscale bewijsmiddelen"
+    "primair": "Fiscale bewijsmiddelen",
+    "synoniemen": ["bewijsmiddelen in fiscale procedure", "bewijsregels fiscaal recht"],
+    "vertaling": { "fr": "moyens de preuve en matière fiscale" }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.5.III"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["2.5.III"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fiscale-bewijsmiddelen.json",
+      "primary_bronnen": [
+        "WIB92 art. 339-340 (algemene bewijsmiddelen)",
+        "WIB92 art. 341 (tekenen en indiciën)",
+        "WIB92 art. 342 (vergelijking + ramen)",
+        "WIB92 art. 344 (anti-misbruikbepaling)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -25,6 +33,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WIB92 art. 339-344)."
       }
     ],
     "scope": {
@@ -35,40 +50,179 @@
         "Bewijslast-verdeling tussen administratie en belastingplichtige per fase"
       ],
       "out": [
-        {
-          "topic": "Boekhouding-bewijswaarde",
-          "richting": "mag-verwijzen",
-          "ref": "boekhouding"
-        },
-        {
-          "topic": "Interpretatie + bewijslast in dubio",
-          "richting": "mag-verwijzen",
-          "ref": "interpretatie-fiscale-wet"
-        }
+        { "topic": "Boekhouding-bewijswaarde", "richting": "mag-verwijzen", "ref": "belgisch-boekhoudrecht" },
+        { "topic": "Interpretatie + bewijslast in dubio", "richting": "mag-verwijzen", "ref": "fiscale-beginselen" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "Fiscale bewijsmiddelen zijn de wettelijk toegelaten middelen waarmee de fiscus en de belastingplichtige hun beweringen ondersteunen. WIB92 art. 339-344 laat de fiscus toe gebruik te maken van 'alle door het gemeen recht toegelaten bewijsmiddelen' (geschriften, getuigen, vermoedens, bekentenis, eed) PLUS twee fiscaal-specifieke middelen: tekenen en indiciën (art. 341) en vergelijking met soortgelijke belastingplichtigen (art. 342). De anti-misbruikbepaling van art. 344 §1 is geen bewijsmiddel maar een herkwalificatie-norm.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 339-344" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de praktijk vallen drie middelen het meest op: (1) de boekhouding zelf — een regelmatige, sluitende boekhouding geldt als bewijs tegen de fiscus tot het tegendeel bewezen is; (2) tekenen-en-indiciën (art. 341) — wanneer de aangegeven inkomsten niet stroken met de levensstandaard, mag de fiscus het verschil ramen en belasten; (3) vergelijking (art. 342) — bij gebrekkige boekhouding mag de fiscus de winst ramen door vergelijking met soortgelijke ondernemingen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 341 + art. 342" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-synthese drie sleutelinstrumenten" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De brede toelating tot bewijsmiddelen + de fiscaal-specifieke middelen weerspiegelen het asymmetrische karakter van de fiscale verhouding: de fiscus kent de werkelijke transacties niet, dus moet hij ruime onderzoekspaden hebben. Tegelijk waarborgt het systeem dat een goed-gevoerde boekhouding bescherming biedt — wie correct boekt, wordt vermoeden-van-juistheid gegund.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese asymmetrie + waarborg" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["boekhoudplicht"],
+      "kader": "fiscale-procedure",
+      "naast_relevant": ["fiscale-controle", "anti-misbruik"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 339-344"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "klassieke-bewijsmiddelen",
+        "naam": { "primair": "Klassieke bewijsmiddelen (art. 339 WIB92)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscus kan zich beroepen op 'alle door het gemeen recht toegelaten bewijsmiddelen, met uitzondering van de eed': schriftelijk bewijs (boekhouding, contracten, facturen), getuigenis, feitelijke vermoedens (samenhangende elementen die tot een conclusie leiden), bekentenis, en — sinds het nieuwe Burgerlijk Wetboek — alle bewijsmiddelen die het BW toelaat tussen partijen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 339-340" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tekenen-en-indicien",
+        "naam": { "primair": "Tekenen en indiciën (art. 341 WIB92)" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de fiscus vaststelt dat de levensstijl, uitgaven of bezit van de belastingplichtige niet stroken met de aangegeven inkomsten, mag hij de niet-verklaarde inkomsten ramen en belasten. Voorbeelden: aankoop van een villa terwijl het aangegeven inkomen 30.000 EUR is; jaarlijkse luxereizen; meerdere onroerende goederen. De belastingplichtige kan tegenbewijs leveren door de oorsprong van de middelen aan te tonen (erfenis, schenking, lening, niet-belastbare bron).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 341" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vergelijking",
+        "naam": { "primair": "Vergelijking (art. 342 WIB92)" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij gebrek aan boekhouding of bij onbruikbare boekhouding mag de fiscus de winst ramen door vergelijking met soortgelijke belastingplichtigen (zelfde sector, omvang, regio). Forfaitaire minimumwinst-tabellen voor enkele beroepen (bakkers, slagers, restaurants) bestaan administratief. De belastingplichtige kan tegenbewijs leveren door concrete cijfers.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 342" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "anti-misbruik",
+        "naam": { "primair": "Anti-misbruikbepaling (art. 344 §1 WIB92)" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Geen klassiek bewijsmiddel, wel een herkwalificatie-instrument: de fiscus mag een rechtshandeling fiscaal hér-kwalificeren wanneer ze (1) een fiscaal voordeel oplevert dat (2) strijdig is met de doelstelling van de wet en (3) de belastingplichtige niet aantoont dat ze andere motieven heeft dan fiscale. Wijdverbreid gebruikt sinds aanpassing 2012. Detail → anti-misbruik / algemene-anti-misbruik-bepaling.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijswaarde-boekhouding",
+        "naam": { "primair": "Bewijswaarde van een regelmatige boekhouding" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een boekhouding die voldoet aan de wettelijke vereisten (CBN-conform, ondertekend, ononderbroken, voldoende detail) heeft bewijskracht: de aangifte gebouwd op die boekhouding wordt vermoed correct te zijn. De fiscus moet concrete elementen aanvoeren om dit vermoeden te doorbreken. Een gebrekkige boekhouding daarentegen verliest deze beschermde positie en opent de deur voor raming (art. 342) of ambtshalve aanslag (art. 351).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 340 + art. 342" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer + Cassatie-rechtspraak boekhouding" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijslast-verdeling",
+        "naam": { "primair": "Bewijslast-verdeling" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Algemene regel (art. 8.4 BW): wie iets beweert, bewijst. Toegepast op fiscaal recht: (1) fiscus bewijst belastbaarheid en bedrag van de inkomst; (2) belastingplichtige bewijst aftrek van kosten, vrijstelling, en gunstig regime; (3) bij ambtshalve aanslag (art. 351) keert bewijslast om: belastingplichtige bewijst dat aanslag overdreven is; (4) bij tekenen-en-indiciën (art. 341) bewijst belastingplichtige de oorsprong van de middelen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Oud BW", "ref": "art. 8.4" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 341 + art. 352" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Boekhouding 'op orde' ≠ automatisch beschermd",
+        "verkeerde_assumptie": "Zolang er een boekhouding bestaat, mag de fiscus geen raming gebruiken.",
+        "kernpunt": "De boekhouding moet REGELMATIG zijn (CBN-conform, sluitend, met onderliggende stukken). Een formeel bestaande maar onsluitende boekhouding (ontbrekende kassastaten, niet-geboekte verkopen, ...) verliest haar bewijskracht en opent de weg voor vergelijking (art. 342).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 342" }
+          ]
+        }
+      },
+      {
+        "titel": "Tekenen-en-indiciën omkeert de bewijslast",
+        "verkeerde_assumptie": "Als de fiscus mijn levensstijl ter sprake brengt, moet ze bewijzen waar de geheime inkomsten zitten.",
+        "kernpunt": "Bij art. 341 moet de fiscus enkel het onevenwicht tussen levensstijl en aangegeven inkomsten aantonen. Daarna is het aan de belastingplichtige om aan te tonen dat het verschil uit een niet-belastbare bron komt (erfenis, schenking, gespaarde middelen). Geen tegenbewijs = belastbaar inkomen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 341" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
-    }
+    { "type": "valt_onder", "target": "fiscale-procedure" }
   ]
 }
