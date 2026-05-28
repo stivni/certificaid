@@ -2,22 +2,14 @@
   "id": "omrekening-buitenlandse-dochter",
   "naam": {
     "primair": "Omrekening buitenlandse dochter",
-    "synoniemen": [
-      "foreign currency translation",
-      "valuta-omrekening"
-    ]
+    "synoniemen": ["foreign currency translation", "valuta-omrekening", "currency translation"]
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "1.4.I.D",
-      "1.4.II.C"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis"],
+    "ankers": ["1.4.I.D", "1.4.II.C"],
     "scope": {
       "in": [
         "Functionele munt vs presentatie-munt onderscheid",
@@ -27,54 +19,247 @@
         "Verkoop dochter → CTA-recyclage naar resultaat"
       ],
       "out": [
-        {
-          "topic": "Opmaak-procedure",
-          "richting": "moet-verwijzen",
-          "ref": "opmaak-geconsolideerde-jaarrekening"
-        },
-        {
-          "topic": "IFRS Σ (IAS 21-context)",
-          "richting": "mag-verwijzen",
-          "ref": "ifrs"
-        }
+        {"topic": "Opmaak-procedure", "richting": "moet-verwijzen", "ref": "opmaak-geconsolideerde-jaarrekening"},
+        {"topic": "IFRS Σ (IAS 21-context)", "richting": "mag-verwijzen", "ref": "ifrs"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-consolidatie-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/omrekening-buitenlandse-dochter.json",
+      "primary_bronnen": ["IAS 21", "CBN-advies 152/1", "CBN-advies 172/1", "CBN-advies 2022/15", "CBN-advies 2024/02"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-consolidatie-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle: IAS 21 + CBN 152/1 + 172/1 (Belgische standaardpraktijk)."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Omrekening van een buitenlandse dochter is het proces waarbij de jaarrekening van een dochter die wordt gevoerd in een andere munt dan de presentatie-munt van de groep, wordt omgerekend naar die presentatie-munt vóór ze in de consolidatie wordt opgenomen. IAS 21 schrijft daarbij twee methodes voor, afhankelijk van de functionele munt: (1) de current-rate-methode (alle activa en passiva tegen slotkoers, opbrengsten en kosten tegen gemiddelde koers van de periode); (2) de temporal-methode (monetaire posten tegen slotkoers; niet-monetaire posten gewaardeerd tegen historische kostprijs blijven tegen historische koers). Het omrekeningsverschil wordt afhankelijk van de methode in eigen vermogen (CTA) of in de resultatenrekening geboekt.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "152/1"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "172/1"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Twee koersen worden onderscheiden: de slotkoers (closing rate, koers op balansdatum) en de historische koers (koers op transactiedatum). Het kernidee: een buitenlandse dochter die economisch onafhankelijk opereert (eigen valuta is haar 'functionele munt') wordt vertaald via current-rate-methode — alsof de hele balans als één pakket wordt geconverteerd op balansdatum. Een dochter die feitelijk een verlengstuk van de moeder is (operaties zo geïntegreerd dat de moedermunt de facto haar werkmunt is) wordt vertaald via temporal-methode — niet-monetaire activa (vaste activa, voorraden) blijven tegen de historische koers omdat ze 'eigenlijk' al in moedermunt waren aangekocht. Het verschil tussen oude en nieuwe slotkoers genereert omrekeningsverschillen: bij current-rate-methode komen die in een aparte EV-rubriek (Cumulative Translation Adjustment — CTA), niet in resultaat. Bij temporal-methode komen ze direct in de RR.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 39-46"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "152/1"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio: koerswijzigingen kunnen het geconsolideerde resultaat sterk vertekenen als ze rechtstreeks in de RR vallen. Voor zelfstandige dochters is het netto-investering-concept toepasselijk: de moeder houdt een EV-belang in een buitenlandse entiteit; de koerswijziging is een 'translation effect' op die investering, geen operationeel resultaat. Daarom wordt CTA in EV geparkeerd — pas bij verkoop of vereffening van de dochter wordt het cumulatief saldo via recycling naar resultaat overgeboekt (IAS 21 alinea 48-49). Voor temporal-methode geldt het inverse: niet-monetaire activa zijn 'als waren ze al in moedermunt aangekocht' → koersverschillen op monetaire posten zijn echte 'transactional' winsten/verliezen → direct in RR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 32, 48-49"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer IAS 21 — netto-investering-concept"}
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["integrale-consolidatie", "consolidatiekring"],
+      "kader": "geconsolideerde-jaarrekening",
+      "naast_relevant": ["opmaak-geconsolideerde-jaarrekening", "uniforme-waarderingsregels-consolidatie"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "IAS 21 (Verordening (EU) 2023/1803) — IFRS-context. Onder BE-GAAP: CBN-adviezen 152/1, 172/1 + nieuwere adviezen 2022/15 en 2024/02 voor bijkantoren."
+      },
+      "voor": [
+        {"tekst": "Toepasselijk telkens wanneer een geconsolideerde groep een dochter of buitenlands bijkantoor heeft met een functionele munt die verschilt van de presentatie-munt van de geconsolideerde jaarrekening. Typisch: Belgische groep met dochters in USD, GBP, CHF, of buiten de eurozone.",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 38"}]}}
+      ],
+      "voorwaarden": [
+        {"tekst": "Eerste stap: bepaling van de functionele munt van de dochter (IAS 21 alinea 9-12). Criteria: in welke munt worden verkoopprijzen, materiaal/arbeid betaald, financiering aangetrokken, kasstromen aangehouden? Vaak is dat de lokale munt; soms (bv. integrale buitenlandse bijkantoor met intercompany-financiering) is dat de munt van de moeder.",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 9-12"}, {"type": "cbn", "naam": "CBN-advies", "ref": "2022/15"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "current-rate-methode",
+        "naam": {"primair": "Current-rate-methode (slotkoers-methode)"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Alle activa en passiva van de buitenlandse dochter worden omgerekend tegen de slotkoers op balansdatum. Opbrengsten en kosten worden omgerekend tegen de wisselkoers op de transactiedatum — in de praktijk vaak benaderd door de gemiddelde koers van de periode. EV-posten blijven tegen historische koers (koers op transactiedatum — typisch koers bij verkrijging dochter of bij latere kapitaalverhoging). Het ontstane verschil komt in een EV-rubriek 'Omrekeningsverschillen' (CTA).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 39"}]}
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "wanneer-current-rate",
+              "naam": {"primair": "Wanneer current-rate?"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Toepasselijk wanneer de functionele munt van de buitenlandse activiteit verschilt van de presentatie-munt van de moeder/groep. Dat is de standaard voor economisch zelfstandige dochters in het buitenland (eigen klantenkring, eigen financiering, eigen prijsbeleid).",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 38-39"}]}
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "temporal-methode",
+        "naam": {"primair": "Temporal-methode (historische-koers-methode)"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Monetaire posten (kas, vorderingen, schulden) worden omgerekend tegen de slotkoers. Niet-monetaire posten gewaardeerd tegen historische kostprijs (vaste activa, voorraden in kostprijs) blijven tegen de historische koers van de aanschaffingsdatum. Niet-monetaire posten op reële-waarde-basis worden omgerekend tegen de koers op de waarderingsdatum. Opbrengsten en kosten tegen transactiekoers (gemiddeld). Omrekeningsverschillen lopen door de resultatenrekening, niet via EV.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 21-26"}]}
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "wanneer-temporal",
+              "naam": {"primair": "Wanneer temporal?"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Toepasselijk wanneer de functionele munt van de buitenlandse activiteit dezelfde is als die van de moeder — bv. een bijkantoor dat exclusief in de presentatiemunt verkoopt, materialen aankoopt en gefinancierd wordt. De buitenlandse boekhouding wordt dan vertaald 'alsof' de transacties altijd al in moedermunt waren.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 9-12, 21"}, {"type": "cbn", "naam": "CBN-advies", "ref": "172/1"}]}
+                }
+              }
             }
           ]
         }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "cta-cumulatief-omrekeningsverschil",
+        "naam": {"primair": "Cumulative Translation Adjustment (CTA)"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "CTA = cumulatieve som van omrekeningsverschillen die ontstaan bij de current-rate-methode, samengebracht in een aparte EV-rubriek (typisch 'Cumulatieve omrekeningsreserve' of 'Foreign currency translation reserve'). Wordt jaarlijks bewogen met de translation gain/loss van het lopende jaar. Komt niet door de RR — wel via Other Comprehensive Income (OCI) onder IFRS. Bij geheel of gedeeltelijke verkoop, vereffening of verlies-van-controle van de buitenlandse dochter wordt het cumulatief saldo gerecycleerd naar de RR (IAS 21 alinea 48).",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 32, 48"}]}
+          }
+        }
+      },
+      {
+        "id": "recyclage-bij-verkoop",
+        "naam": {"primair": "Recyclage CTA bij verkoop dochter"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij volledige verkoop of vereffening van een buitenlandse dochter wordt het volledige cumulatieve saldo van de CTA toegerekend aan die dochter overgeboekt naar de winst-en-verliesrekening, als deel van de gerealiseerde meerwaarde of minderwaarde. Bij gedeeltelijke verkoop zonder verlies van controle: geen recyclage (alleen herallocatie binnen NCI in EV). Bij gedeeltelijke verkoop mét verlies van controle: volledige recyclage van CTA, en het overblijvend belang wordt geherwaardeerd tegen reële waarde (IFRS 10 + IAS 21 alinea 48A-B).",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 48-48B"}]}
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-cbn-172",
+        "titel": "Bijkantoor in vreemde valuta — CBN-advies 172/1",
+        "context": "Een Belgische zetel heeft een bijkantoor in de UK. Eind periode x+1: balans bijkantoor in GBP wordt omgerekend naar EUR. Vaste activa: omrekening tegen historische koers; voorraden: historische koers per aanschaffing; vorderingen/schulden: slotkoers.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies", "ref": "172/1"}]},
+        "weergaven": [
+          {
+            "type": "balans_snapshot",
+            "titel": "Balans zetel na opneming bijkantoor in EUR (periode x+1) — temporal-methode",
+            "tekst": "Activa: Vaste activa 6.600.000 (historische koers) - Afschrijvingen (110.000) - Voorraden 550.000 (historische) - Handelsvorderingen 4.440.000 (slotkoers). Passiva: Kapitaal 7.720.000 - Overgedragen resultaat 55.000 - Financiële schulden 2.065.000 - Handelsschulden 600.000 - Overige + overlopend 1.040.000. Resultaat zetel beïnvloed door verschillende koersen op afschrijvingen + onttrekkingen voorraad."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Niet-monetair zien als monetair (omgekeerd ook)",
+        "verkeerde_assumptie": "Studenten zien een 'voorraad' als geld → behandelen tegen slotkoers.",
+        "kernpunt": "Voorraden zijn niet-monetair. Bij temporal-methode worden ze tegen de historische koers van de aankoop omgerekend. Verwarrend punt: 'monetair' betekent 'in geld of vaste contractbedragen' (kas, vorderingen, schulden, leningen). Voorraden/vaste activa/IVA = niet-monetair.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 8 (definitie monetaire posten)"}]}
+      },
+      {
+        "titel": "CTA niet recycleren bij verkoop",
+        "verkeerde_assumptie": "CTA blijft in EV staan ook na verkoop dochter.",
+        "kernpunt": "Bij volledige verkoop of verlies van controle moet het cumulatief saldo CTA via een EV-naar-RR-boeking gerecycleerd worden (IAS 21 alinea 48). Vergeten → onjuiste meerwaarde/minderwaarde, controlepunt bij audit.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 48"}]}
+      },
+      {
+        "titel": "Functionele munt = lokale munt (automatisch)",
+        "verkeerde_assumptie": "Dochter zit in Zwitserland → functionele munt CHF.",
+        "kernpunt": "Niet automatisch. De functionele munt = de munt van de primaire economische omgeving (alinea 9 IAS 21). Een Zwitserse vehicle die exclusief in EUR verkoopt aan Belgische groepsklanten, in EUR financiert en in EUR rapporteert → functionele munt EUR, niet CHF. Bepaling vereist analyse — geen reflex.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 9-12"}, {"type": "cbn", "naam": "CBN-advies", "ref": "2022/15"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "groepsmoeder-omrekening",
+      "naam": {"primair": "Groepsmoedervennootschap met buitenlandse dochters"},
+      "intro": "De consolidatieverantwoordelijke die jaarlijks buitenlandse dochterbalansen omrekent.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "stap-bepalen-functionele-munt",
+              "naam": {"primair": "Bepalen functionele munt per dochter"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor elke buitenlandse dochter: analyse van (1) munt waarin verkoopprijzen voornamelijk worden uitgedrukt en betaald, (2) munt van het land dat verkoopprijzen + kosten reguleert, (3) munt waarin operationele financiering wordt aangetrokken, (4) munt waarin verkopen-ontvangsten worden aangehouden. Documenteer de keuze — wijziging van functionele munt heeft prospectieve effecten (alinea 36 IAS 21).",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 9-12, 36"}]}
+                }
+              }
+            },
+            {
+              "id": "stap-toepassen-koersen",
+              "naam": {"primair": "Toepassen koersen per balansrubriek"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij current-rate: alle activa + passiva tegen slotkoers; opbrengsten + kosten tegen periode-gemiddelde; EV-componenten tegen historische koers. Reconcilieer het omrekeningsverschil tot CTA. Bij temporal: monetair tegen slotkoers, niet-monetair tegen historische koers; resultatenverschil direct in RR. Bewaar koers-archief: historische koersen per aanschaffing van vaste activa zijn na 20 jaar nog relevant voor temporal-methode.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21 alinea 21-26, 39"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk consolidatie"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-omrekening",
+              "naam": {"primair": "Audit-werkzaamheden omrekening"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Toets (1) functionele-munt-bepaling per dochter (geschikt vermogen + documentatie); (2) gebruikte koersen (slotkoers ECB of NBB; gemiddelde koers consistent toegepast); (3) CTA-saldo-aansluiting met vorige periode + huidige translation gain/loss; (4) bij verkoop dochter: correcte recyclage CTA naar RR. ISA 600: groepsauditor controleert consolidatie-aanpassingen (waaronder omrekening) als kritisch onderdeel van het consolidatieproces.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 600", "ref": "Bijlage 2"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 21"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "geconsolideerde-jaarrekening"},
+    {"type": "vereist", "target": "integrale-consolidatie", "toelichting": "Omrekening is enkel een issue bij integrale of evenredige consolidatie van een buitenlandse dochter."},
+    {"type": "vergelijkbaar_met", "target": "uniforme-waarderingsregels-consolidatie", "toelichting": "Beide zijn pre-consolidatie-aanpassingen op de dochter-jaarrekening vóór integrale opname."}
   ]
 }
