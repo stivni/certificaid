@@ -1,7 +1,7 @@
 {
   "id": "itaa-beroepsorganisatie",
   "naam": {
-    "primair": "ITAA-beroepsorganisatie",
+    "primair": "Instituut van de Belastingadviseurs en de Accountants (ITAA)",
     "afkorting": "ITAA",
     "synoniemen": [
       "Instituut van de Belastingadviseurs en de Accountants",
@@ -11,50 +11,37 @@
   "concept_type": "actor",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "4.0.I.A",
-      "4.0.I.B",
-      "4.0.taak.1"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["4.0.I.A", "4.0.I.B", "4.0.taak.1"],
     "scope": {
       "in": [
-        "Structuur ITAA: raden + voorzitters",
-        "Publiek toezicht door FOD Economie",
+        "Structuur ITAA: algemene vergadering + Raad + uitvoerend comité + commissies (stagecommissie, cel permanente vorming)",
+        "Publiek toezicht via FOD Economie + Hoge Raad voor de Economische Beroepen",
         "Openbaar register (online raadpleegbaar)",
-        "Samenwerking met IBR (bedrijfsrevisoren)",
+        "Samenwerking met IBR (bedrijfsrevisoren) en historische rol BIBF (boekhouders)",
         "Wet 17 maart 2019 als oprichtingswet"
       ],
       "out": [
-        {
-          "topic": "Tuchtorganen + procedure",
-          "richting": "moet-verwijzen",
-          "ref": "tuchtprocedure-itaa"
-        },
-        {
-          "topic": "Kwaliteitstoetsing als ITAA-toezichtsmechanisme",
-          "richting": "moet-verwijzen",
-          "ref": "kwaliteitstoetsing-itaa"
-        },
-        {
-          "topic": "Gecertificeerd-accountant als beroep onder ITAA-register",
-          "richting": "moet-verwijzen",
-          "ref": "gecertificeerd-accountant"
-        },
-        {
-          "topic": "Normbronnen-hiërarchie + ITAA-normen",
-          "richting": "moet-verwijzen",
-          "ref": "normbronnen"
-        }
+        {"topic": "Tuchtorganen + procedure", "richting": "moet-verwijzen", "ref": "tuchtprocedure-itaa"},
+        {"topic": "Kwaliteitstoetsing als ITAA-toezichtsmechanisme", "richting": "moet-verwijzen", "ref": "kwaliteitstoetsing-itaa"},
+        {"topic": "Gecertificeerd-accountant als beroep onder ITAA-register", "richting": "moet-verwijzen", "ref": "gecertificeerd-accountant"},
+        {"topic": "Normbronnen-hiërarchie + ITAA-normen", "richting": "moet-verwijzen", "ref": "normbronnen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7-1m",
+      "wave_id": "cluster-extract-beroep-2026-05-28",
+      "iteratie": "concept-v1",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/itaa-beroepsorganisatie.json",
+      "primary_bronnen": [
+        "Wet 17 maart 2019 (Beroepenwet ITAA) art. 29, 32, 65, 69, 70, 80",
+        "ITAA-norm permanente vorming art. 13",
+        "ITAA-norm gedragslijnen relaties IBR"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -62,43 +49,287 @@
         "timestamp": "2026-05-28T08:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:30:00Z",
+        "model": "claude-opus-4-7-1m",
+        "wave_id": "cluster-extract-beroep-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (Wet ITAA 17-03-2019 + ITAA-normen)."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Het Instituut van de Belastingadviseurs en de Accountants (ITAA) is een Belgisch publiekrechtelijk beroepsinstituut opgericht door de Wet van 17 maart 2019. Het is rechtsopvolger van het Instituut van de Accountants en de Belastingconsulenten (IAB, opgericht in 1953) en het Beroepsinstituut van Erkende Boekhouders en Fiscalisten (BIBF, 1985). Het ITAA verenigt alle gecertificeerd accountants en gecertificeerd belastingadviseurs in België. Zijn opdracht is drievoudig: (1) het openbaar register van beroepsbeoefenaars bijhouden, (2) toezicht houden op de beroepsuitoefening via deontologie, tucht en kwaliteitstoetsing, en (3) de beroepsbeoefenaars vertegenwoordigen en hen ondersteunen via normen, vorming en advies.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 29"},
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 65"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het ITAA werkt als een 'rechter in eigen huis': het reguleert toegang tot het beroep (stagecommissie + bekwaamheidsexamen), houdt het register bij, vaardigt normen uit, organiseert kwaliteitstoetsing en disciplineert via tuchtorganen. Tegelijk is het een belangenvereniging die de beroepsstand vertegenwoordigt bij wetgever, fiscus en Europese instanties. Voor de stagiair gecertificeerd accountant is het ITAA dus tegelijk poort (toegang via stage + examens), referentie (normen + vorming) en toezichthouder (tucht + kwaliteit). De institutionele structuur is paritair: gecertificeerd accountants en gecertificeerd belastingadviseurs zetelen in elke commissie, en taalrol-evenwicht (NL/FR) is wettelijk verankerd.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 69"},
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 70"},
+            {"type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 13"},
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Synthese institutionele rol"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De Wet van 17 maart 2019 fuseerde het IAB (accountants + belastingconsulenten) en het BIBF (erkende boekhouders) tot één ITAA. De ratio legis: vereenvoudiging van het Belgisch beroepenlandschap dat te versnipperd was, harmonisering met de Europese Dienstenrichtlijn, en versterking van het publiek toezicht door één instituut met één titel en één tuchtregime. De cumul-uitsluiting met het Instituut van de Bedrijfsrevisoren (IBR) — een aparte structuur voor de wettelijke jaarrekeningcontrole — blijft echter behouden: een bedrijfsrevisor mag geen gecertificeerd belastingadviseur worden (art. 10 §5 Beroepenwet).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 125"},
+            {"type": "norm", "naam": "ITAA-norm gedragslijnen relaties IBR", "ref": "intro"},
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Ratio legis beroepenhervorming 2019"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "naast_relevant": ["gecertificeerd-accountant", "normbronnen", "tuchtprocedure-itaa", "kwaliteitstoetsing-itaa"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-08-21",
+        "wettelijke_basis": "Wet 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants",
+        "toelichting": "Het ITAA volgt het IAB op (Wet 22 april 1999) + integreert BIBF-leden via overgangsbepalingen."
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "algemene-vergadering",
+        "naam": {"primair": "Algemene vergadering"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De algemene vergadering is het hoogste orgaan van het ITAA en bestaat uit alle ingeschreven leden (uitgezonderd stagiairs). Haar bevoegdheden (art. 65) zijn: verkiezing van voorzitter, ondervoorzitter en zestien leden van de Raad; verkiezing van de commissarissen van het ITAA; goedkeuring van jaarrekening en begroting; kwijting van de Raad en de commissarissen; vaststelling van de jaarlijkse bijdragen (binnen de door de Koning bepaalde grenzen); vaststelling van de procedurekosten bij tuchtprocedures.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 65"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "raad-instituut",
+        "naam": {"primair": "Raad van het Instituut"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De Raad bestaat uit een voorzitter, een ondervoorzitter en zestien leden, telkens voor drie jaar verkozen bij geheime stemming door de algemene vergadering. Wettelijke evenwichten (art. 69): voorzitter en ondervoorzitter alterneren tussen taalrollen NL/FR; per taalgroep moet ten minste één gecertificeerd accountant, één gecertificeerd belastingadviseur en één extern lid (art. 9) verkozen zijn. Drie aparte kieslijsten waarborgen die paritaire vertegenwoordiging. De Raad benoemt uit zijn midden een secretaris en penningmeester (verschillende taalgroep) en vormt het uitvoerend comité — voorzitter, ondervoorzitter, secretaris, penningmeester + max 2 extra leden — voor het dagelijks bestuur (art. 70).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 69"},
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 70"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "openbaar-register",
+        "naam": {"primair": "Openbaar register"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het openbaar register (art. 29) is de officiële lijst van personen die het beroep mogen uitoefenen of de beroepstitel mogen dragen. Elke beroepsbeoefenaar (natuurlijk persoon en rechtspersoon) wordt ingeschreven met vermelding van zijn hoedanigheid (gecertificeerd accountant, gecertificeerd belastingadviseur, gecertificeerd fiscaal accountant, intern-variant, of stagiair). Sinds 2020 houdt het ITAA ook een aparte lijst bij van personen die de beroepsactiviteit van art. 6, §1 uitoefenen zonder de titel te dragen. Aanvullend (art. 32): personen die het beroep tijdelijk en occasioneel mogen uitoefenen, en personen uit derde landen met een vergunning. Het register is publiek online raadpleegbaar — een cliënt kan dus altijd de hoedanigheid van zijn dienstverlener verifiëren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 29"},
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 32"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stagecommissie",
+        "naam": {"primair": "Stagecommissie"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De stagecommissie (art. 17) is verantwoordelijk voor de toegang tot het beroep: organisatie van het toelatingsexamen, vrijstellingen voor opleidingsonderdelen, goedkeuring van stageovereenkomsten, toezicht op de stage, organisatie van het bekwaamheidsexamen en de bekwaamheidsproef voor EU-onderdanen, selectie van examenstellers, opstelling van een examenreglement. Ze staat onder toezicht van de Raad en brengt elk jaar een jaarverslag uit. De Koning stelt na advies van de Raad het stagereglement vast — dat omvat de samenstelling van de commissie, examenmodaliteiten, stageovereenkomst-bepalingen en de procedure voor stagevrijstelling na zeven jaar relevante beroepservaring.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 17"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cel-permanente-vorming",
+        "naam": {"primair": "Cel Permanente Vorming"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De Cel Permanente Vorming is paritair samengesteld (een voorzitter + ondervoorzitter van verschillende taalrollen, plus twee extra leden). Telkens één gecertificeerd accountant of belastingadviseur en één (fiscaal) accountant. Leden van tuchtorganen, commissarissen van het ITAA en niet-verkiesbare leden van de Raad mogen niet zetelen. De cel adviseert de Raad (en voor stagiairs: de stagecommissie) over de permanente vorming, en organiseert de controle erop. Doel: borgen dat de beroepskennis, -bekwaamheid en -ethiek van elke beroepsbeoefenaar 'op voldoende peil' blijft (art. 39 Beroepenwet + ITAA-norm permanente vorming).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 13"},
+                {"type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 2"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "publiek-toezicht",
+        "naam": {"primair": "Publiek toezicht — Hoge Raad voor de Economische Beroepen + FOD Economie"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het ITAA staat niet alleen toezicht uit, het ondergaat ook toezicht. (1) De Hoge Raad voor de Economische Beroepen (een interinstituut-adviesorgaan dat ook IBR en BIBF dekte) geeft advies over nieuwe ITAA-normen — komt zijn advies er niet binnen 3 maanden, dan wordt het advies geacht gunstig te zijn (art. 80 Beroepenwet). (2) De FOD Economie houdt algemeen toezicht op de gereglementeerde economische beroepen, en de Koning stelt — na ITAA-advies — KB's vast over stagereglement, examenmodaliteiten en bijkomende registergegevens. (3) De rechterlijke macht houdt toezicht via de tuchtorganen (Tuchtcommissie + Commissie van Beroep) waarvan de samenstelling magistraten + beroepsbeoefenaars combineert.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 80"},
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 17"},
+                {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Synthese publiek-toezicht-architectuur"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "samenwerking-ibr",
+        "naam": {"primair": "Samenwerking met het IBR (bedrijfsrevisoren)"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het IBR is een aparte beroepsorganisatie (Wet 22 juli 1953) voor de bedrijfsrevisoren — de Belgische auditors die exclusief de wettelijke jaarrekeningcontrole uitvoeren. Tussen het ITAA (vroeger IAB) en het IBR bestaat een formele samenwerking via 'Gedragslijnen inzake beroepsrelaties' (in werking sinds 1 juni 2008): wederzijdse erkenning, confraterniteitsprincipes bij dossieroverdracht, en gezamenlijke normen voor opdrachten waar beide instituten interventiebevoegdheid hebben (fusie- en splitsingsverrichtingen, opdrachten via inbreng in natura, ...). Cumul tussen de hoedanigheden is uitgesloten: een bedrijfsrevisor mag niet om de hoedanigheid van gecertificeerd belastingadviseur verzoeken (art. 10 §5 Beroepenwet).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "norm", "naam": "ITAA-norm gedragslijnen relaties IBR", "ref": "intro"},
+                {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 10 §5"},
+                {"type": "norm", "naam": "ITAA-norm fusie-splitsing", "ref": "overwegingen"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-orgaanstructuur",
+        "titel": "Orgaanstructuur ITAA — wie doet wat?",
+        "context": "Schematisch overzicht van de bevoegdheidsverdeling binnen het ITAA.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 17, 65, 69-70, 80"},
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Didactische synthese-tabel"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Orgaan", "Samenstelling", "Hoofdbevoegdheid"],
+            "rijen": [
+              ["Algemene vergadering", "alle ingeschreven leden (geen stagiairs)", "Verkiezing Raad + commissarissen; goedkeuring rekening + begroting; bijdragen + procedurekosten vaststellen"],
+              ["Raad van het Instituut", "voorzitter + ondervoorzitter + 16 leden (3 jaar mandaat)", "Algemeen bestuur; normen voorbereiden; vrijstellingen toekennen; deontologisch beleid"],
+              ["Uitvoerend comité", "voorzitter + ondervoorzitter + secretaris + penningmeester + max 2", "Dagelijks bestuur"],
+              ["Stagecommissie", "leden + voorzitter aangeduid door de Raad", "Toelatingsexamen + stagereglement + bekwaamheidsexamen + stage-opvolging"],
+              ["Cel Permanente Vorming", "paritair: 2 voorzitters + 2 leden (verschillende taalrollen + hoedanigheden)", "Permanente vorming organiseren + controleren"],
+              ["Tuchtorganen", "magistraten + beroepsbeoefenaars (effectief + plaatsvervangend)", "Tuchtonderzoek + -sancties bij inbreuk Beroepenwet of normen"]
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "ITAA verwarren met IBR",
+        "verkeerde_assumptie": "Studenten denken dat 'ITAA' en 'IBR' twee namen zijn voor hetzelfde instituut, of dat een gecertificeerd accountant tegelijk bedrijfsrevisor kan zijn.",
+        "kernpunt": "ITAA en IBR zijn twee aparte publiekrechtelijke beroepsinstituten met elk eigen wetten, leden, registers, normen en tuchtorganen. ITAA = gecertificeerd accountants + belastingadviseurs (Wet 17-03-2019). IBR = bedrijfsrevisoren (Wet 22 juli 1953). Cumul tussen de hoedanigheden is wettelijk uitgesloten: een bedrijfsrevisor mag geen gecertificeerd belastingadviseur worden (art. 10 §5 Beroepenwet).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 10 §5"},
+            {"type": "norm", "naam": "ITAA-norm gedragslijnen relaties IBR", "ref": "intro"}
+          ]
+        }
+      },
+      {
+        "titel": "Het IAB en het ITAA als verschillende instituten zien",
+        "verkeerde_assumptie": "In examenmateriaal van vóór 2019 wordt 'IAB' (Instituut van de Accountants en de Belastingconsulenten) genoemd — studenten denken dat dit nog een afzonderlijk instituut is.",
+        "kernpunt": "Het IAB werd door de Wet van 17 maart 2019 hernoemd en uitgebreid tot het ITAA. Bestaande IAB-leden werden via art. 125 automatisch overgeschreven naar het ITAA-register met de nieuwe hoedanigheid 'gecertificeerd accountant' of 'gecertificeerd belastingadviseur'. Oud examenmateriaal dat 'IAB' noemt, moet als 'ITAA' worden gelezen voor actuele toepassing.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 125"}
+          ]
+        }
+      },
+      {
+        "titel": "Stagiairs als 'volwaardige leden' beschouwen",
+        "verkeerde_assumptie": "Stagiairs worden als gewone ITAA-leden behandeld voor stemrechten en organen.",
+        "kernpunt": "Stagiairs zijn weliswaar ingeschreven in het openbaar register (met de vermelding 'stagiair'), maar ze hebben geen stemrecht in de algemene vergadering en zijn niet verkiesbaar (art. 69 Beroepenwet). Het toezicht op hun permanente vorming valt onder de stagecommissie — niet onder de Cel Permanente Vorming die voor de gewone leden bevoegd is.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 69"},
+            {"type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 2"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "bevat",
-      "target": "gecertificeerd-accountant"
-    },
-    {
-      "type": "bevat",
-      "target": "tuchtprocedure-itaa"
-    },
-    {
-      "type": "bevat",
-      "target": "kwaliteitstoetsing-itaa"
-    },
-    {
-      "type": "gepubliceerd_via",
-      "target": "normbronnen"
+      "id": "stagiair-perspectief",
+      "naam": {"primair": "Stagiair gecertificeerd accountant"},
+      "intro": "Hoe ervaart een stagiair de ITAA-structuur in zijn traject?",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "navigeren-itaa",
+              "naam": {"primair": "Met welk ITAA-orgaan moet ik contact opnemen?"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Praktische gids voor de stagiair: (1) Voor stage-administratie, examens en stagereglement → stagecommissie. (2) Voor permanente vorming-aanvragen (na stage) → cel permanente vorming. (3) Voor deontologische klachten of tuchtprocedures → tuchtorganen via het ondersteunend secretariaat van het ITAA. (4) Voor algemene vragen over hoedanigheid, register-inschrijving of bijdragen → algemeen secretariaat. (5) Voor normwijzigingen en vakinhoudelijke discussies → de Raad van het Instituut via consultatierondes.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wet 17 maart 2019 (Beroepenwet ITAA)", "ref": "art. 17, 29, 69"},
+                      {"type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 13"},
+                      {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Praktische navigatiegids ITAA-organen"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "bevat", "target": "gecertificeerd-accountant"},
+    {"type": "bevat", "target": "tuchtprocedure-itaa"},
+    {"type": "bevat", "target": "kwaliteitstoetsing-itaa"},
+    {"type": "gepubliceerd_via", "target": "normbronnen"}
   ]
 }
