@@ -1,12 +1,19 @@
 {
   "id": "plaats-van-handeling-btw",
   "naam": {
-    "primair": "Plaats van handeling (BTW)"
+    "primair": "Plaats van handeling — BTW",
+    "synoniemen": [
+      "plaats-van-handeling-regels",
+      "lieu de la prestation"
+    ],
+    "vertaling": {
+      "fr": "lieu de la livraison / prestation"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -14,9 +21,22 @@
       "2.4.I"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/plaats-van-handeling-btw.json",
+      "primary_bronnen": [
+        "W.BTW art. 14",
+        "W.BTW art. 14bis",
+        "W.BTW art. 15",
+        "W.BTW art. 21",
+        "W.BTW art. 21bis",
+        "W.BTW art. 22",
+        "Richtlijn 2006/112/EG art. 31-59"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -24,7 +44,14 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Plaats van handeling gevuld vanuit W.BTW art. 14-15, 21-22."
       }
     ],
     "scope": {
@@ -51,19 +78,418 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (plaats-van-handeling-btw).",
+        "tekst": "De 'plaats van handeling' is de wettelijk bepaalde plek waar een levering van goederen of een dienstverrichting voor btw-doeleinden geacht wordt te hebben plaatsgevonden — en bepaalt welk land heffingsbevoegd is. Voor goederen volgt de plaats het fysieke goed (art. 14-15 W.BTW: vertrek bij vervoer, ligging bij niet-vervoer); voor diensten geldt sinds 2010 een algemene B2B/B2C-tweedeling (art. 21 W.BTW): B2B = plaats van de afnemer; B2C = plaats van de dienstverrichter. Op deze hoofdregels bestaat een gedetailleerde lijst van uitzonderingen voor onroerende, vervoer-, restaurant-, evenement-, telecom- en elektronische diensten (art. 21bis).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 14 + art. 15 + art. 21 + art. 21bis"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 31-59"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De plaats-van-handelingsregels zijn de scharnier van het btw-stelsel bij grensoverschrijdende handel: zij beslissen welk land btw int en tegen welk tarief. Foutieve toepassing leidt tot ofwel dubbele heffing (België én lidstaat-afnemer) ofwel niet-heffing (geen enkel land). De accountant moet voor elke factuur drie vragen beantwoorden: (1) goed of dienst? (2) B2B of B2C? (3) valt onder de algemene regel of onder een specifieke uitzondering? Wanneer de plaats van handeling buiten België ligt, factureert de Belgische belastingplichtige zonder Belgische btw — vaak met vermelding 'btw verlegd' (B2B-dienst) of 'vrijgestelde intracommunautaire levering' (goed).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 14-22 + art. 39bis + art. 51, §2, 1°"
+            },
+            {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
               "datum": "2026-05-28"
             }
           ]
         }
+      },
+      "rationale": {
+        "tekst": "Het beginsel is verbruikslocalisatie: btw drukt op het land waar het verbruik plaatsvindt — niet waar de productie of dienstverlening haar zetel heeft. Vandaar voor goederen het 'land van bestemming' (bij vervoer) en voor B2B-diensten het 'afnemer-land'. Bij B2C-diensten gold lange tijd het 'oorsprongslandbeginsel' (plaats van dienstverrichter — administratief eenvoudiger), maar voor digitale diensten en e-commerce werd dat sinds 2015 vervangen door het bestemmingslandbeginsel via OSS (One-Stop Shop). De talrijke uitzonderingen — onroerend goed waar het goed ligt, evenement waar het plaatsvindt — volgen telkens een feitelijk-verbruikscriterium.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "preambule + art. 31-59"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Beginsel verbruikslocalisatie — standaardleer"
+            }
+          ]
+        }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "btw",
+        "btw-levering-goederen",
+        "btw-dienstverlening"
+      ],
+      "kader": "btw",
+      "volgkennis": [
+        "btw-grensoverschrijdend",
+        "btw-tarieven"
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "plaats-goederen",
+        "naam": {
+          "primair": "Plaats van levering — goederen"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Goederen volgen de fysieke verplaatsing. Hoofdregels: (a) bij vervoer of verzending: plaats waar de verzending of het vervoer begint (art. 14, §2 W.BTW); (b) bij goederen die niet worden verzonden of vervoerd: plaats waar het goed zich bevindt op het tijdstip van de levering (art. 14, §1); (c) bij installatie of montage: plaats waar het goed wordt geïnstalleerd of gemonteerd (art. 14, §3); (d) bij goederen aan boord van schip, vliegtuig of trein binnen de EU: plaats van vertrek van het personenvervoer (art. 14, §4).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 14"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "goederen-tabel",
+              "naam": {
+                "primair": "Plaats van levering — goederen-scenario's"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Scenario-overzicht voor goederen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 14 + art. 15"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": [
+                    "Scenario",
+                    "Plaats van handeling",
+                    "Wet"
+                  ],
+                  "rijen": [
+                    [
+                      "Verkoop met levering vanuit België naar Belgische klant",
+                      "België",
+                      "art. 14, §1"
+                    ],
+                    [
+                      "Verkoop met vervoer vanuit België naar Frans bedrijf (B2B)",
+                      "België (vertrek) — vrijgestelde intracommunautaire levering art. 39bis",
+                      "art. 14, §2 + art. 39bis"
+                    ],
+                    [
+                      "Verkoop met vervoer vanuit België naar Franse particulier",
+                      "België (tot drempel 10 000 EUR) of Frankrijk (vanaf drempel — OSS)",
+                      "art. 15 + OSS-regime"
+                    ],
+                    [
+                      "Aankoop met levering uit Duitsland aan Belgisch bedrijf",
+                      "België (intracommunautaire verwerving, art. 25bis)",
+                      "art. 25bis"
+                    ],
+                    [
+                      "Invoer uit China in haven Antwerpen",
+                      "België (invoer, art. 23)",
+                      "art. 23"
+                    ],
+                    [
+                      "Industriële installatie geleverd + geïnstalleerd in Nederland",
+                      "Nederland (plaats installatie)",
+                      "art. 14, §3"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "plaats-diensten",
+        "naam": {
+          "primair": "Plaats van dienst — algemene B2B/B2C-regel"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Sinds 01-01-2010 (BTW-pakket): hoofdregel voor diensten verschilt naargelang de afnemer. B2B (afnemer is belastingplichtige of voor btw geïdentificeerde rechtspersoon): plaats waar de afnemer de zetel van zijn economische activiteit heeft (art. 21, §2 W.BTW). B2C (afnemer is particulier): plaats waar de dienstverrichter de zetel van zijn economische activiteit heeft (art. 21, §1).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 21, §1 + §2"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "diensten-b2b-b2c",
+              "naam": {
+                "primair": "B2B versus B2C — beslismatrix"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Hoofdregel diensten — afhankelijk van afnemer-status.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 21"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": [
+                    "Scenario",
+                    "Plaats van handeling",
+                    "Btw door",
+                    "Aanvullende plicht"
+                  ],
+                  "rijen": [
+                    [
+                      "BE-accountant → BE-bedrijf (advies)",
+                      "België",
+                      "BE-accountant (21 %)",
+                      "Gewone factuur met btw"
+                    ],
+                    [
+                      "BE-accountant → DE-bedrijf (advies, B2B)",
+                      "Duitsland",
+                      "DE-afnemer (verlegging)",
+                      "Factuur zonder btw + 'btw verlegd' + IC-listing"
+                    ],
+                    [
+                      "BE-accountant → DE-particulier (advies, B2C)",
+                      "België",
+                      "BE-accountant (21 %)",
+                      "Gewone factuur met BE-btw"
+                    ],
+                    [
+                      "BE-software-bedrijf → DE-particulier (elektronische dienst)",
+                      "Duitsland (afnemer-land)",
+                      "BE-bedrijf (DE-tarief)",
+                      "OSS-aangifte"
+                    ],
+                    [
+                      "BE-aannemer → DE-bedrijf (renovatie gebouw in Antwerpen)",
+                      "België (vastgoed-uitzondering art. 21bis)",
+                      "BE-aannemer (21 %)",
+                      "Gewone factuur of verlegging medecontractant"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "uitzonderingen-art-21bis",
+        "naam": {
+          "primair": "Uitzonderingen op B2B/B2C-hoofdregel"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Art. 21bis W.BTW somt categorieën diensten op waar de algemene regel wordt overschreven door een specifiek criterium (vaak 'plaats van werkelijk gebruik').",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 21bis"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "art-21bis-tabel",
+              "naam": {
+                "primair": "Tabel uitzonderingen art. 21bis"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Zes categorieën diensten met specifieke plaatsbepaling — geldt zowel B2B als B2C tenzij anders aangegeven.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 21bis"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": [
+                    "Dienst-categorie",
+                    "Plaats van handeling",
+                    "B2B/B2C"
+                  ],
+                  "rijen": [
+                    [
+                      "Onroerende dienst (verhuur, makelaarij, expertise, werk in onroerende staat, hotelovernachting)",
+                      "Plaats waar het onroerend goed gelegen is",
+                      "Beide"
+                    ],
+                    [
+                      "Personenvervoer",
+                      "Plaats waar het vervoer fysiek plaatsvindt (pro rata afstand)",
+                      "Beide"
+                    ],
+                    [
+                      "Restaurant en catering (niet aan boord)",
+                      "Plaats waar de dienst materieel wordt verricht",
+                      "Beide"
+                    ],
+                    [
+                      "Restaurant en catering aan boord van schip/vliegtuig/trein binnen EU",
+                      "Plaats vertrek van personenvervoer",
+                      "Beide"
+                    ],
+                    [
+                      "Korte termijn verhuur vervoermiddel (≤ 30 dagen, ≤ 90 voor schepen)",
+                      "Plaats waar het vervoermiddel ter beschikking wordt gesteld",
+                      "Beide"
+                    ],
+                    [
+                      "Toegang tot cultureel, sportief, wetenschappelijk evenement",
+                      "Plaats waar het evenement plaatsvindt",
+                      "Beide (B2B = toegang; B2C = ook randdiensten)"
+                    ],
+                    [
+                      "Telecom, radio, TV en elektronische diensten",
+                      "B2C: plaats afnemer (OSS); B2B: hoofdregel (afnemer-land)",
+                      "Onderscheid B2B/B2C"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "B2B-toets = btw-nummer afnemer",
+        "verkeerde_assumptie": "Een afnemer in het buitenland kwalificeert automatisch als B2B-bedrijf.",
+        "kernpunt": "Voor B2B-kwalificatie moet de dienstverrichter het btw-identificatienummer van de afnemer verifiëren via het VIES-systeem (EU). Wanneer de afnemer geen geldig btw-nummer heeft, wordt hij voor de plaats-van-handelingsregels behandeld als B2C — dan is de dienst belastbaar in België (B2C-hoofdregel) met Belgische btw. Bij verlegging zonder VIES-verificatie loopt de Belgische dienstverrichter het risico zelf de btw te moeten dragen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 21, §2"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Uitvoeringsverordening (EU) 282/2011",
+              "ref": "art. 18",
+              "context": "Bewijslast B2B-status afnemer"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Vastgoed-uitzondering trumpt hoofdregel",
+        "verkeerde_assumptie": "Bij een Belgische makelaar die een Duits gebouw verkoopt voor een Duitse klant: B2B → plaats afnemer = Duitsland.",
+        "kernpunt": "Onroerende diensten (makelaarij, expertise, werk in onroerende staat, verhuur, hotel) worden altijd belast in het land waar het gebouw ligt (art. 21bis, §2, 1°) — ongeacht B2B of B2C, ongeacht waar leverancier of afnemer gevestigd is. In bovenstaand voorbeeld: Duitse btw, geen Belgische.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 21bis, §2, 1°"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Niet-vergeten: drempel B2C-afstandsverkopen 10 000 EUR",
+        "verkeerde_assumptie": "Webshop in België die naar particulieren in andere EU-landen verkoopt, mag altijd Belgische btw aanrekenen.",
+        "kernpunt": "Sinds 01-07-2021 geldt voor B2C-afstandsverkopen binnen de EU een uniforme drempel van 10 000 EUR (totale grensoverschrijdende omzet alle lidstaten samen). Onder drempel: Belgische btw. Boven drempel: btw van het bestemmingsland — aangifte via OSS (One-Stop Shop). De drempel geldt cumulatief over alle bestemmingslanden samen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 15, §2 + art. 58quater (OSS)"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 33 + art. 59quater"
+            }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "beslisboom",
+        "intro": "Beslisboom om de plaats van handeling voor btw-doeleinden vast te leggen.",
+        "inhoud": {
+          "mermaid": "flowchart TD\n  A[Handeling] --> B{Goed of dienst?}\n  B -->|Goed| C{Wordt vervoerd of verzonden?}\n  C -->|Ja| C1[Plaats van vertrek<br/>art. 14, §2]\n  C -->|Nee| C2[Plaats waar goed ligt<br/>art. 14, §1]\n  B -->|Dienst| D{Onroerend goed, vervoer<br/>restaurant, evenement,<br/>elektronisch B2C?}\n  D -->|Ja| D1[Specifieke regel<br/>art. 21bis]\n  D -->|Nee — algemene regel| E{Afnemer is bedrijf B2B?}\n  E -->|Ja| E1[Plaats afnemer<br/>art. 21, §2<br/>verlegging]\n  E -->|Nee — B2C| E2[Plaats dienstverrichter<br/>art. 21, §1]"
+        }
+      }
+    ]
   },
   "relaties": [
     {
@@ -73,6 +499,10 @@
     {
       "type": "vereist",
       "target": "btw-levering-goederen"
+    },
+    {
+      "type": "vereist",
+      "target": "btw-dienstverlening"
     }
   ]
 }
