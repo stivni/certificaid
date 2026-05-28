@@ -1,12 +1,19 @@
 {
   "id": "maatstaf-van-heffing-btw",
   "naam": {
-    "primair": "Maatstaf van heffing (BTW)"
+    "primair": "Maatstaf van heffing — BTW",
+    "synoniemen": [
+      "btw-grondslag",
+      "base d'imposition TVA"
+    ],
+    "vertaling": {
+      "fr": "base d'imposition TVA"
+    }
   },
-  "concept_type": "kader",
+  "concept_type": "principe",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -14,18 +21,24 @@
       "2.4.I"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/maatstaf-van-heffing-btw.json",
+      "primary_bronnen": [
+        "W.BTW art. 26 (algemene maatstaf)",
+        "W.BTW art. 28 (inbegrepen elementen)",
+        "W.BTW art. 33 (gelijkstellingen)",
+        "W.BTW art. 34 (invoer)",
+        "Richtlijn 2006/112/EG art. 73-92"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton aangemaakt" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T16:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Maatstaf van heffing gevuld vanuit W.BTW art. 26-34 + Richtlijn 2006/112 art. 73-92." }
     ],
     "scope": {
       "in": [
@@ -35,40 +48,224 @@
         "Specifieke maatstaven: invoer · IC-verwerving · gelijkstellingen · eigen-werkzaamheid"
       ],
       "out": [
-        {
-          "topic": "Tarief toepassen op maatstaf",
-          "richting": "moet-verwijzen",
-          "ref": "btw-tarieven"
-        },
-        {
-          "topic": "Douanewaarde bij invoer",
-          "richting": "mag-verwijzen",
-          "ref": "douanewaarde"
-        }
+        { "topic": "Tarief toepassen op maatstaf", "richting": "moet-verwijzen", "ref": "btw-tarieven" },
+        { "topic": "Douanewaarde bij invoer", "richting": "mag-verwijzen", "ref": "douanewaarde" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (maatstaf-van-heffing-btw).",
+        "tekst": "De maatstaf van heffing is het bedrag waarop het btw-tarief wordt toegepast om de verschuldigde btw te berekenen. Algemene regel (art. 26, §1 W.BTW): de maatstaf bestaat uit alles wat de leverancier of dienstverrichter als tegenprestatie ontvangt of moet ontvangen van wie ook — koper, afnemer of derde — inclusief subsidies die rechtstreeks met de prijs zijn verbonden, en met inbegrip van bijkomende kosten zoals commissie, verpakking, vervoer en verzekering. Niét inbegrepen: de btw zelf, prijsverminderingen en kortingen die op het tijdstip van de handeling worden toegestaan, en bedragen die de leverancier in naam en voor rekening van zijn klant heeft voorgeschoten (doorrekening van uitschot).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 26 + art. 28" },
+            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 73 + art. 78 + art. 79" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De maatstaf is geen 'verkoopprijs' zonder meer — het is de breedst-mogelijke economische waarde van wat de leverancier krijgt. Vandaar dat ook ruil in natura, kwijtschelding van schulden, en subsidies die de prijs verlagen voor de eindverbruiker (vb. milieusubsidie op zonnepanelen) tot de maatstaf behoren. Voor de accountant zijn drie typische valstrikken: (1) commerciële kortingen verminderen de maatstaf maar enkel als ze op factuurdatum toegestaan worden — latere kwantumkortingen vereisen een creditnota; (2) doorrekening in naam-en-voor-rekening blijft btw-vrij maar vereist strikt papierwerk (voorschotnota's, originele bewijsstukken); (3) bij ruil moet de marktwaarde van het ontvangen goed of de ontvangen dienst worden gebruikt als maatstaf — niet de boekwaarde.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 26 + art. 28 + art. 32 + art. 33" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ruime definitie van 'tegenprestatie' verzekert dat de btw daadwerkelijk drukt op de volledige economische waarde die wordt overgedragen — zonder dat partijen door slimme prijssplitsing (lage hoofdprijs + hoge 'vervoerkosten' bv.) het effectieve tarief kunnen drukken. De uitsluiting van btw zelf vermijdt dubbele heffing. De uitsluiting van kortingen volgt het werkelijk-betaalde-prijs-beginsel. De gelijkstellingen (art. 33) voor onttrekkingen en gratis afgiften zorgen voor neutraliteit: zonder maatstaf zou een onttrekking belastingvrij zijn ondanks de gelijkstelling met levering.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 73 + art. 79" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["btw", "btw-levering-goederen", "btw-dienstverlening"],
+      "kader": "btw",
+      "volgkennis": ["btw-tarieven", "btw-aangifte"]
+    },
+    "subconcepten": [
+      {
+        "id": "wat-zit-in-maatstaf",
+        "naam": { "primair": "Wat ZIT in de maatstaf — art. 26 + 28 W.BTW" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Inbegrepen in de maatstaf: (1) de bedongen prijs (cash, op rekening of in natura — marktwaarde); (2) subsidies rechtstreeks verbonden met de prijs (= per geleverd stuk of per dienstverrichting); (3) belastingen, rechten en heffingen (douanerechten, accijnzen, ecotaks, BIV) — behalve de btw zelf; (4) bijkomende kosten die de leverancier aan de afnemer aanrekent: commissie, verpakking, vervoer, verzekering, montagekosten.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 26 + art. 28" },
+                  { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 78" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "wat-zit-er-niet-in",
+        "naam": { "primair": "Wat zit er NIET in de maatstaf — art. 28 W.BTW" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Uitgesloten van de maatstaf: (1) de btw zelf; (2) prijsverminderingen en kortingen toegestaan op het tijdstip van de handeling (cash discount, kwantumkorting, getrouwheidskorting bij factuur); (3) verpakkingsmateriaal en kosten die de leverancier in naam-en-voor-rekening van de klant voorschiet (= 'sommes payées au nom et pour compte') — strikt bewijsbaar; (4) interesten voor uitgestelde betaling indien apart aangerekend.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 28" },
+                  { "type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 79" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "voorbeeld-doorrekening",
+              "naam": { "primair": "Doorrekening in naam-en-voor-rekening" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Voorbeeld: een accountantskantoor schiet 50 EUR neerleggingskosten van de jaarrekening voor bij de NBB. Dat bedrag mag uit de btw-maatstaf gehouden worden mits het origineel bewijsstuk op naam van de cliënt staat en het exact wordt doorgerekend (geen marge). Zonder strikt bewijs: belastbaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 28, 5°" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard praktijkvoorbeeld" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "specifieke-maatstaven",
+        "naam": { "primair": "Specifieke maatstaven — gelijkstellingen + invoer + IC-verwerving" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Voor handelingen zonder marktprijs of zonder normale tegenprestatie gelden afgeleide maatstaven.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 32 + art. 33 + art. 34" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "specifieke-tabel",
+              "naam": { "primair": "Maatstaf per bijzonder geval" },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Vijf bijzondere maatstaven.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 32-34" }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": ["Geval", "Maatstaf", "Wettelijke basis"],
+                  "rijen": [
+                    ["Levering in natura (ruil)", "Normale waarde (markt) van het ontvangen goed", "art. 32 W.BTW"],
+                    ["Onttrekking voor privégebruik (art. 12, §1, 1°)", "Aankoopprijs goed of vergelijkbare goederen op moment onttrekking", "art. 33, §1, 1°"],
+                    ["Gratis afgifte (art. 12, §1, 3°)", "Aankoopprijs of kostprijs op moment afgifte", "art. 33, §1, 1°"],
+                    ["Gratis dienst (art. 19, §2)", "Gemaakte kosten voor verrichten dienst", "art. 33, §2"],
+                    ["Invoer goederen", "Douanewaarde + invoerrechten + accijnzen + bijkomende kosten tot bestemming", "art. 34 + Verordening 2913/92"],
+                    ["Intracommunautaire verwerving", "Gewone maatstaf van de levering in lidstaat van vertrek", "art. 26 (analogie)"]
+                  ]
+                }
+              ]
             }
           ]
         }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Bouw maatstaf van heffing op — vier praktijkvoorbeelden",
+        "context": "Telkens: bepaal de maatstaf en het te factureren btw-bedrag (21 %).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 26 + art. 28" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Casus", "Maatstaf", "Btw 21 %", "Toelichting"],
+            "rijen": [
+              ["Verkoop machine 10 000 EUR + vervoerkosten 500 EUR (door leverancier georganiseerd)", "10 500 EUR", "2 205 EUR", "Vervoerkosten = bijkomende kost art. 28"],
+              ["Verkoop 10 000 EUR met 2 % cash discount bij betaling binnen 8 dagen", "9 800 EUR (= 10 000 - 200)", "2 058 EUR", "Korting op factuur → buiten maatstaf art. 28, 2°"],
+              ["Aannemer factureert 8 000 EUR + 200 EUR doorgerekend brandstof op eigen naam + 50 EUR NBB-neerleggingskosten in naam-en-voor-rekening cliënt", "8 200 EUR (50 EUR uit maatstaf)", "1 722 EUR", "NBB-doorrekening = naam-en-voor-rekening art. 28, 5° — brandstof = bijkomende kost"],
+              ["Ruil: garage levert auto 25 000 EUR, klant geeft oude auto in inbouw (markt 8 000 EUR) + 17 000 EUR cash", "25 000 EUR", "5 250 EUR", "Maatstaf = normale waarde geleverd goed (art. 32) = volle prijs"]
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bijkomende kosten ZITTEN in de maatstaf",
+        "verkeerde_assumptie": "Vervoerkosten of verpakkingskosten worden apart gefactureerd, dus apart belast (of niet belast).",
+        "kernpunt": "Art. 28, 1° W.BTW: bijkomende kosten (vervoer, verpakking, commissie, verzekering) die de leverancier aan de afnemer aanrekent in het kader van dezelfde levering zijn ALTIJD onderdeel van de maatstaf — tegen hetzelfde tarief als het hoofdgoed. Een verpakkingskost op een 6 %-levering wordt dus belast aan 6 %, niet aan 21 %. Vermelding op factuur als 'extra' wijzigt daar niets aan.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 28, 1°" }
+          ]
+        }
+      },
+      {
+        "titel": "Korting moet op factuur staan",
+        "verkeerde_assumptie": "Wanneer je achteraf een kwantumkorting toekent, mag je gewoon minder btw afdragen.",
+        "kernpunt": "Alleen kortingen die op het tijdstip van de handeling worden toegestaan (= op de oorspronkelijke factuur staan) verminderen direct de maatstaf. Latere kortingen (achteraf-bonus, jaarlijkse retro) vereisen een creditnota (KB nr. 1 art. 11) die de maatstaf en de btw retro-actief aanpast. Zonder creditnota = onverminderde btw verschuldigd op de oorspronkelijke maatstaf.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 28, 2° + art. 77" },
+            { "type": "kb", "naam": "K.B. nr. 1 van 29-12-1992", "ref": "art. 11" }
+          ]
+        }
+      },
+      {
+        "titel": "Subsidie ≠ altijd buiten maatstaf",
+        "verkeerde_assumptie": "Overheidssubsidies zijn buiten btw-scope.",
+        "kernpunt": "Subsidies zijn buiten btw-maatstaf wanneer ze niet rechtstreeks aan de prijs gekoppeld zijn (algemene werkingssubsidie). Maar wanneer ze gekoppeld zijn aan een welbepaald aantal geleverde goederen of diensten — zoals een prijsverlaging per zonnepaneel die de overheid betaalt — dan zijn ze WEL maatstaf (art. 26, §1). De toets: krijgt de leverancier de subsidie 'in plaats van' een deel van de prijs die de eindverbruiker anders zou betalen?",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 26, §1" },
+            { "type": "rechtspraak", "naam": "HvJ-EU Office des Produits Wallons (C-184/00)", "ref": "22-11-2001" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "btw"
-    }
+    { "type": "valt_onder", "target": "btw" },
+    { "type": "vereist", "target": "btw-levering-goederen" },
+    { "type": "vereist", "target": "btw-dienstverlening" }
   ]
 }
