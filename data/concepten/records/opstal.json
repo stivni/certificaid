@@ -1,80 +1,140 @@
 {
   "id": "opstal",
   "naam": {
-    "primair": "Opstal"
+    "primair": "Opstalrecht",
+    "synoniemen": ["opstal", "recht van opstal"],
+    "vertaling": {"en": "right of superficies", "fr": "droit de superficie"}
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit",
-      "regeling"
-    ],
-    "ankers": [
-      "1.1.II.X"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["1.1.II.X"],
     "scope": {
       "in": [
-        "Art 1735 BW",
+        "Boek 3 BW (zakelijke rechten, hervorming 2021)",
         "Looptijd 0-99 jaar",
         "Accessoir recht (recht om te bouwen op grond van een ander)",
         "Boekhoudkundige keuze — apart actief of in vaste activa",
-        "Fiscaal: registratierechten 2%"
+        "Fiscaal: registratierechten 5% (Vlaanderen 2024)"
       ],
       "out": [
-        {
-          "topic": "Opsplitsing-eigendom — overkoepelende vergelijking",
-          "richting": "moet-verwijzen",
-          "ref": "opsplitsing-eigendom"
-        },
-        {
-          "topic": "Vaste-activa-context (boekhouding)",
-          "richting": "mag-verwijzen",
-          "ref": "vaste-activa"
-        },
-        {
-          "topic": "Registratierechten (fiscaal)",
-          "richting": "mag-verwijzen"
-        }
+        {"topic": "Opsplitsing-eigendom — overkoepelende vergelijking", "richting": "moet-verwijzen", "ref": "opsplitsing-eigendom"},
+        {"topic": "Vaste-activa-context (boekhouding)", "richting": "mag-verwijzen", "ref": "vaste-activa"},
+        {"topic": "Registratierechten (fiscaal)", "richting": "mag-verwijzen", "ref": "registratie-en-successierechten"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/opstal.json",
+      "primary_bronnen": ["BW Boek 3 (zakelijke rechten 2021)", "CBN-advies 2015/5"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Opstal uitgewerkt: definitie + 99 jaar + boekingen."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Opstalrecht (Boek 3 BW, hervorming 2021 — daarvoor Wet 10/01/1824) is een zakelijk recht om gebouwen, werken of beplantingen te hebben (of op te richten, te bezitten, te wijzigen) op, boven of onder een onroerend goed van een andere persoon. Karakteristieken: (1) zakelijk recht ingeschreven in kadaster; (2) looptijd tot 99 jaar (kan ook korter, geen wettelijk minimum); (3) tegenprestatie meestal eenmalige prijs + soms periodieke vergoeding; (4) opstalhouder heeft eigendomsrecht op de werken die hij oprichten op de grond — gescheiden van de grondeigenaar (uitzondering op natrekkingsprincipe art. 3.50 BW). Bij einde: werken worden eigendom grondeigenaar (natrekking) — eventueel mits vergoeding.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "BW Boek 3", "ref": "art. 3.177 e.v. (opstal)"}, {"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Opstalrecht"}]}
+      },
+      "substantie": {
+        "tekst": "Opstal wordt vooral gebruikt voor 'bouwen op andermans grond': (a) windturbines op landbouwgrond — exploitant heeft opstalrecht voor 25-50 jaar op grond van landbouwer; (b) opslagloodsen op haventerrein — havenautoriteit blijft eigenaar grond; (c) joint-venture-vastgoed waarbij grondeigenaar inbrengt via opstal i.p.v. eigendom. Belangrijk onderscheid met erfpacht: bij erfpacht heb je het VOL genot van een BESTAAND goed; bij opstal heb je het RECHT om TE BOUWEN op andermans grond (en de eigendom van wat je bouwt). Boekhoudkundig (CBN 2015/5): bij opstalhouder activering van bouwwerk op klasse 22-23 (afschrijving over kortste van technische levensduur OF opstaltermijn).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Opstalrecht en onzelfstandig opstalrecht"}]}
+      },
+      "rationale": {
+        "tekst": "Het bestaan van opstal als afzonderlijk zakelijk recht doorbreekt het Romeinse natrekkings-principe ('superficies solo cedit': wat op grond staat is van grondeigenaar). De wetgever liet dit toe omdat moderne vastgoed-projecten eigendom-splitsing eisen: grondeigenaar wil grond behouden, exploitant wil zekerheid op bouwwerk. Opstal lost dit op. De maximumduur 99 jaar verzoent de drie belangen (natrekking grondeigenaar, eigendomszekerheid opstalhouder, voorkomen 'eeuwig' recht).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["opsplitsing-eigendom"],
+      "kader": "opsplitsing-eigendom",
+      "naast_relevant": ["erfpacht", "vruchtgebruik"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2021-09-01",
+        "wettelijke_basis": "Boek 3 BW",
+        "toelichting": "Boek 3 BW (Wet 04.02.2020) heeft opstal uit Wet 10.01.1824 hervormd. Geen wettelijk minimum-termijn meer (vroeger 0-50 j); max 99 jaar."
+      },
+      "voor": [
+        {"tekst": "Windturbines + zonnepanelen op landbouwgrond.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Joint-venture-vastgoed met grondeigenaar-inbreng via opstal.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "zelfstandig-vs-onzelfstandig-opstal",
+        "naam": {"primair": "Zelfstandig vs onzelfstandig opstalrecht"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "ZELFSTANDIG opstalrecht: apart zakelijk recht, ingeschreven in kadaster, opposable aan derden. Max 99 j. ONZELFSTANDIG opstal (CBN 2015/5): vervat in een ander recht (vruchtgebruik, erfpacht). Zelden apart geactiveerd — onderdeel van het hoofdrecht.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Opstalrecht en onzelfstandig opstalrecht"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "boeking-opstal",
+        "naam": {"primair": "Boekhoudkundige cascade bij opstalhouder"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Bij vestiging opstal + bouw: eenmalige prijs + notaris + registratierechten + bouwkosten activeren op klasse 22 (gebouwen) of 23 (installaties). Afschrijving over kortste van technische levensduur OF opstaltermijn. Bij einde: indien volledig afgeschreven → boekwaarde 0; bij vergoeding voor natrekking → opbrengst 763 (meerwaarde realisatie).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Boekingen opstal"}]}
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Opstal = recht op grond",
+        "verkeerde_assumptie": "Bij opstalrecht word je eigenaar van de grond.",
+        "kernpunt": "Opstal geeft eigendom van het BOUWWERK (gebouw, installatie) — NIET van de grond. Grondeigenaar blijft eigenaar grond. Belangrijk verschil met erfpacht (vol genot bestaand goed) en gewone aankoop (volle eigendom grond + werk).",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "BW Boek 3", "ref": "art. 3.50 e.v. natrekking + 3.177 opstal"}]}
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-opstalhouder",
+      "naam": {"primair": "Opstalhouder"},
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "boekh-opstal-activering",
+              "naam": {"primair": "Activering bouwwerk + afschrijving"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per opstal-contract: documenteer opstaltermijn (X jaar) + technische levensduur bouwwerk (Y jaar). Afschrijven op klasse 22 over min(X, Y). Bij verlenging opstal: herziening afschrijvingsplan.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2015/5", "ref": "Afschrijving"}]}
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "opsplitsing-eigendom"
-    }
+    {"type": "valt_onder", "target": "opsplitsing-eigendom"},
+    {"type": "vergelijkbaar_met", "target": "erfpacht", "gelijkenissen": ["Beide tot 99 jaar zakelijk recht"], "verschillen": ["Opstal: recht TE BOUWEN op andermans grond + eigendom werk", "Erfpacht: vol genot bestaand goed"]}
   ]
 }
