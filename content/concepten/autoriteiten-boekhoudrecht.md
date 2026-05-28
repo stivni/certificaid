@@ -149,7 +149,7 @@ _`vuistregel`_
 ## Verder lezen (scope-out)
 
 - → Wettelijk kader-detail → [[belgisch-boekhoudrecht]] _(moet-verwijzen)_
-- ↪ ITAA-deontologie-rol → [[itaa]] _(mag-verwijzen)_
+- ↪ ITAA-deontologie-rol → ⏳ itaa _(mag-verwijzen)_
 
 ## Relaties
 

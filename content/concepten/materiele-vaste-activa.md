@@ -146,4 +146,4 @@ _`stap`_
         - MVA = fysiek; IMA = niet-fysiek
         - IMA strenger op herwaardering (alleen actieve markt — zeldzaam)
 ### `beinvloed_door`
-- [[bijzondere-waardevermindering-ias-36]] — IAS 36 levert recoverable amount + impairment-test.
+- ⏳ bijzondere-waardevermindering-ias-36 — IAS 36 levert recoverable amount + impairment-test.

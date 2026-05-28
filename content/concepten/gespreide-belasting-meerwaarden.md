@@ -176,6 +176,6 @@ _`stap`_
 ### `valt_onder`
 - [[fiscale-voordelen-vennootschap]]
 ### `vereist`
-- [[meerwaarde-mva]] — Veronderstelt een gerealiseerde meerwaarde op materiële of immateriële vaste activa.
+- ⏳ meerwaarde-mva — Veronderstelt een gerealiseerde meerwaarde op materiële of immateriële vaste activa.
 ### `triggert`
 - [[aangifte-vennootschapsbelasting]] — Keuze gespreide belasting wordt in de aangifte uitgedrukt.

@@ -278,16 +278,16 @@ _`stap`_
 - → Kapitaalvermindering - concrete verrichting en boekingsschema → [[kapitaalvermindering]] _(moet-verwijzen)_
 - → Winstuitkering - toepassing van de netto-actief-test als grens → [[winstuitkering]] _(moet-verwijzen)_
 - → Inkoop eigen aandelen - toepassing van de uitkeringsregels → [[inkoop-eigen-aandelen]] _(moet-verwijzen)_
-- → Alarmbelprocedure - concrete stappen en jaarrekeningverwerking → [[alarmbel-procedure]] _(moet-verwijzen)_
+- → Alarmbelprocedure - concrete stappen en jaarrekeningverwerking → ⏳ alarmbel-procedure _(moet-verwijzen)_
 - ↪ Quasi-inbreng - anti-misbruik tegen verkapte natura-inbreng → [[quasi-inbreng]] _(mag-verwijzen)_
 - ↪ Volstortingsplicht - initiele kapitaalvorming → [[volstortingsplicht]] _(mag-verwijzen)_
 
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `triggert`
-- [[alarmbel-procedure]] — Wanneer het netto-actief onder de drempels zakt (helft/vierde kapitaal voor NV; negatief of liquiditeitstekort voor BV), wordt de alarmbel verplicht ingeschakeld.
+- ⏳ alarmbel-procedure — Wanneer het netto-actief onder de drempels zakt (helft/vierde kapitaal voor NV; negatief of liquiditeitstekort voor BV), wordt de alarmbel verplicht ingeschakeld.
 ### `vereist`
 - [[kapitaalvermindering]] — Elke kapitaalvermindering moet voldoen aan de netto-actief-test (en bij BV ook aan de liquiditeitstest); bij NV bovendien de tweemaanden-wachttermijn voor schuldeisers.
 - [[winstuitkering]] — Dividenden, tantièmes en gelijkgestelde uitkeringen kunnen slechts plaatsvinden binnen de grenzen van de netto-actief-test (en de liquiditeitstest in de BV).

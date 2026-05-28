@@ -253,7 +253,7 @@ _`regel`_
 - → Optie BTW-verhuur vastgoed (B2B) → [[optie-btw-verhuur-vastgoed]] _(moet-verwijzen)_
 - → Eigen werkzaamheid (art 19) → [[eigen-werkzaamheid-btw]] _(moet-verwijzen)_
 - → Herziening vastgoed-BM (15j) → [[btw-herziening-bedrijfsmiddelen]] _(moet-verwijzen)_
-- ↪ Registratierechten oude gebouwen → [[registratierechten]] _(mag-verwijzen)_
+- ↪ Registratierechten oude gebouwen → ⏳ registratierechten _(mag-verwijzen)_
 
 ## Relaties
 
@@ -265,7 +265,7 @@ _`regel`_
 ### `triggert`
 - [[btw-herziening-bedrijfsmiddelen]] — Bij wijziging bestemming onroerend bedrijfsmiddel binnen 15 jaar wordt eerder afgetrokken btw herzien.
 ### `vergelijkbaar_met`
-- [[registratierechten]]
+- ⏳ registratierechten
     - **Gelijkenissen**:
         - Beide treffen vastgoedtransacties
         - Beide worden geheven naar aanleiding van een akte

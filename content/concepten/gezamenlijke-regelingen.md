@@ -158,7 +158,7 @@ _`stap`_
 ### `valt_onder`
 - [[geconsolideerde-jaarrekening]]
 ### `vereist`
-- [[controle-vennootschap]] — Vereist gezamenlijke controle (joint control) — geen unilaterale controle (anders dochter) en geen pure invloed (anders associate).
+- ⏳ controle-vennootschap — Vereist gezamenlijke controle (joint control) — geen unilaterale controle (anders dochter) en geen pure invloed (anders associate).
 ### `triggert`
 - [[vermogensmutatiemethode]] — Joint ventures onder IFRS 11 → verplicht VMM (IAS 28).
 ### `vergelijkbaar_met`

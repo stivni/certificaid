@@ -176,9 +176,9 @@ _`stap`_
 ### `valt_onder`
 - [[loon-en-payroll]]
 ### `vereist`
-- [[arbeidsovereenkomst]] — Verbreking van een arbeidsovereenkomst van onbepaalde duur is de trigger; de berekening hangt af van de contractdatum (vóór/na 1-1-2014).
+- ⏳ arbeidsovereenkomst — Verbreking van een arbeidsovereenkomst van onbepaalde duur is de trigger; de berekening hangt af van de contractdatum (vóór/na 1-1-2014).
 ### `beinvloed_door`
-- [[ontslag]] — Onmiddellijk ontslag zonder opzegtermijn (of partial-presteren) genereert een opzegvergoeding.
+- ⏳ ontslag — Onmiddellijk ontslag zonder opzegtermijn (of partial-presteren) genereert een opzegvergoeding.
 ### `vergelijkbaar_met`
 - [[outplacementkost]]
     - **Gelijkenissen**:

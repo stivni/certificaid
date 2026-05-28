@@ -29,6 +29,22 @@ REPO = Path(__file__).resolve().parents[2]
 RECORDS_DIR = REPO / "data" / "concepten" / "records"
 OUT_DIR = REPO / "content" / "concepten"
 
+# Globaal: alle slugs van bestaande v2.2-records (gevuld in main()).
+EXISTING_SLUGS: set[str] = set()
+
+
+def safe_link(target: str, label: str | None = None) -> str:
+    """Wikilink alleen indien target bestaat als v2.2-record; anders ⏳ tekst."""
+    target = (target or "").strip()
+    if not target:
+        return ""
+    slug = target.split("#")[0]
+    if slug in EXISTING_SLUGS:
+        return f"[[{target}|{label}]]" if label else f"[[{target}]]"
+    # niet-bestaand record → niet-aanklikbaar
+    display = label or slug
+    return f"⏳ {display}"
+
 CONFIDENCE_ICON = {
     "geciteerd": "📖",
     "afgeleid": "🔗",
@@ -252,7 +268,7 @@ def render_gebruikscontext(ctx: dict | None) -> str:
                 icon = confidence_icon(item.get("grondslag"))
                 line = f"- {icon} {t}".rstrip()
                 if item.get("relateert_naar"):
-                    line += f" → [[{item['relateert_naar']}]]"
+                    line += f" → {safe_link(item['relateert_naar'])}"
                 lines.append(line)
             else:
                 lines.append(f"- {item}")
@@ -388,7 +404,7 @@ def render_relaties(relaties: list) -> str:
         lines.append(f"### `{rtype}`")
         for r in items:
             target = r.get("target", "?")
-            line = f"- [[{target}]]"
+            line = f"- {safe_link(target)}"
             toel = r.get("toelichting")
             if isinstance(toel, dict):
                 toel = toel.get("tekst") or toel.get("text", "")
@@ -423,7 +439,7 @@ def render_scope_out(scope_out: list) -> str:
         prefix = RICHTING_PREFIX.get(richting, "·")
         line = f"- {prefix} {topic}"
         if ref:
-            line += f" → [[{ref}]]"
+            line += f" → {safe_link(ref)}"
         if richting and richting != "niet-verwijzen":
             line += f" _({richting})_"
         lines.append(line)
@@ -596,6 +612,16 @@ def main() -> int:
 
     out_dir = Path(args.out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)
+
+    # Vul EXISTING_SLUGS voor safe_link()
+    global EXISTING_SLUGS
+    for fp in RECORDS_DIR.glob("*.json"):
+        try:
+            r = json.loads(fp.read_text())
+        except Exception:
+            continue
+        if (r.get("metadata") or {}).get("schema_version") == "2.2":
+            EXISTING_SLUGS.add(r["id"])
 
     rendered, failed = 0, 0
     for f in files:

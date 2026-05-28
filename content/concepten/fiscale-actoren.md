@@ -119,7 +119,7 @@ _`mechanisme`_
 
 ## Verder lezen (scope-out)
 
-- → Accountant-rol als adviseur → [[beroepsbeoefening]] _(moet-verwijzen)_
+- → Accountant-rol als adviseur → ⏳ beroepsbeoefening _(moet-verwijzen)_
 - → Fiscale-procedure als procedure-stappen → [[fiscale-procedure]] _(moet-verwijzen)_
 - ↪ Vertegenwoordiging bij administratie → [[fiscale-controle]] _(mag-verwijzen)_
 

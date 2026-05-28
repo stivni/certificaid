@@ -217,12 +217,12 @@ _`regel`_
 - → Bedrijfsopbrengsten (klasse 70-74) → [[bedrijfsopbrengsten]] _(moet-verwijzen)_
 - → Personeelskosten — detail klasse 62 → [[personeelskosten]] _(moet-verwijzen)_
 - ↪ Resultaatverwerking (jaarafsluit) → [[resultaatverwerking]] _(mag-verwijzen)_
-- ↪ Financiële kosten (klasse 65) → [[financiele-kosten]] _(mag-verwijzen)_
+- ↪ Financiële kosten (klasse 65) → ⏳ financiele-kosten _(mag-verwijzen)_
 
 ## Relaties
 
 ### `valt_onder`
-- [[resultatenrekening]] — Bedrijfskosten = debetzijde bedrijfsresultaat-deel van de resultatenrekening.
+- ⏳ resultatenrekening — Bedrijfskosten = debetzijde bedrijfsresultaat-deel van de resultatenrekening.
 ### `vergelijkbaar_met`
 - [[bedrijfsopbrengsten]]
     - **Gelijkenissen**:
@@ -234,4 +234,4 @@ _`regel`_
 ### `bevat`
 - [[personeelskosten]] — Klasse 62 is sub-rubriek van bedrijfskosten.
 ### `vereist`
-- [[rekeningstelsel-mar]] — Klasse-6-rubricering veronderstelt kennis van het MAR.
+- ⏳ rekeningstelsel-mar — Klasse-6-rubricering veronderstelt kennis van het MAR.

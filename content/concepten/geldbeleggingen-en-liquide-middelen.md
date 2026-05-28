@@ -156,7 +156,7 @@ _`regel`_
 ## Relaties
 
 ### `valt_onder`
-- [[balans]] — Vlottende activa — meest liquide categorie.
+- ⏳ balans — Vlottende activa — meest liquide categorie.
 ### `vergelijkbaar_met`
 - [[deelneming-financieel-vast-actief]]
     - **Gelijkenissen**:

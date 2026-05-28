@@ -176,7 +176,7 @@ _`stap`_
 ## Verder lezen (scope-out)
 
 - → Dubbele-boekhouding-mechaniek → [[dubbele-boekhouding]] _(moet-verwijzen)_
-- → Groottecategorie-vennootschap (drempels) → [[groottecategorie-vennootschap]] _(moet-verwijzen)_
+- → Groottecategorie-vennootschap (drempels) → ⏳ groottecategorie-vennootschap _(moet-verwijzen)_
 - → Groottecategorie-vereniging → [[groottecategorie-vereniging]] _(moet-verwijzen)_
 - → Belgisch boekhoudrecht (algemeen kader) → [[belgisch-boekhoudrecht]] _(moet-verwijzen)_
 - ↪ Ondernemingsvormen (juridische-vormkeuze) _(mag-verwijzen)_

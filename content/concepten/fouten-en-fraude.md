@@ -220,7 +220,7 @@ _`stap`_
 
 ## Verder lezen (scope-out)
 
-- → Fraude-mechaniek (ISA 240, fraud risk factors) → [[fraude]] _(moet-verwijzen)_
+- → Fraude-mechaniek (ISA 240, fraud risk factors) → ⏳ fraude _(moet-verwijzen)_
 - → Interne controle als mitigatie-context → [[interne-controle]] _(moet-verwijzen)_
 - → Functiescheiding als preventieve mitigatie → [[functiescheiding]] _(moet-verwijzen)_
 - → Detectie via IC-evaluatie → [[evaluatie-interne-controle]] _(moet-verwijzen)_

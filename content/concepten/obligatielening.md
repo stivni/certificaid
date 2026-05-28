@@ -186,7 +186,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[lening]]
+- ⏳ lening
 ### `vergelijkbaar_met`
 - [[banklening-investeringskrediet]]
     - **Gelijkenissen**:

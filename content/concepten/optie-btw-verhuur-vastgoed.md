@@ -194,7 +194,7 @@ _`regel`_
 ### `triggert`
 - [[btw-herziening-bedrijfsmiddelen]] — Activeert 25-jaar herziening (afwijking van standaard 15).
 ### `vergelijkbaar_met`
-- [[onroerende-leasing]]
+- ⏳ onroerende-leasing
     - **Gelijkenissen**:
         - Beide regimes laten btw-toepassing toe op onroerende activiteit die anders vrijgesteld zou zijn
         - Beide leiden tot recht op aftrek bouw-btw

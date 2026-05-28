@@ -134,7 +134,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[balans]] — Eind van vaste-activa-blok — boven de splitsing vast/vlottend.
+- ⏳ balans — Eind van vaste-activa-blok — boven de splitsing vast/vlottend.
 ### `vergelijkbaar_met`
 - [[handelsvorderingen]]
     - **Gelijkenissen**:

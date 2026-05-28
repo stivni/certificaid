@@ -226,7 +226,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `beinvloed_door`
 - [[algemene-vergadering]]
 - [[bestuur-vennootschap]]

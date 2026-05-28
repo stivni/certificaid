@@ -211,7 +211,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `vereist`
 - [[aandeel]] — Volstortingsplicht koppelt zich altijd aan een onderliggend aandeel - geen aandeel, geen volstorting.
 ### `triggert`

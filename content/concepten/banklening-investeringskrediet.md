@@ -187,12 +187,12 @@ _`stap`_
 - → Obligatielening - alternatief financieringsinstrument met effecten-statuut → [[obligatielening]] _(moet-verwijzen)_
 - → Achtergestelde lening - variant met lagere rang → [[achtergestelde-lening]] _(moet-verwijzen)_
 - ↪ Leasing - alternatieve route voor activa-financiering → [[leasing]] _(mag-verwijzen)_
-- ↪ Financieringskostensurplus - art. 198/1 WIB92 → [[financieringskostensurplus]] _(mag-verwijzen)_
+- ↪ Financieringskostensurplus - art. 198/1 WIB92 → ⏳ financieringskostensurplus _(mag-verwijzen)_
 
 ## Relaties
 
 ### `valt_onder`
-- [[lening]]
+- ⏳ lening
 ### `vergelijkbaar_met`
 - [[obligatielening]]
     - **Gelijkenissen**:

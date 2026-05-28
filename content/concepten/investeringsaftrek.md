@@ -172,4 +172,4 @@ _`regel`_
 ### `triggert`
 - [[aangifte-vennootschapsbelasting]] — Aftrek via code 1437 + opgave 276U.
 ### `vereist`
-- [[afschrijvingen]] — Veronderstelt afschrijfbaar activum.
+- ⏳ afschrijvingen — Veronderstelt afschrijfbaar activum.

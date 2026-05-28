@@ -152,7 +152,7 @@ _`vuistregel`_
 
 - → Σ-keuzekader anti-misbruik → [[anti-misbruik]] _(moet-verwijzen)_
 - ↪ Internationaal fiscaal kader → [[internationaal-fiscaal]] _(mag-verwijzen)_
-- ↪ Verbonden partijen (cross-cutting) → [[verbonden-vennootschap]] _(mag-verwijzen)_
+- ↪ Verbonden partijen (cross-cutting) → ⏳ verbonden-vennootschap _(mag-verwijzen)_
 - ↪ ATAD-richtlijn → [[atad-richtlijn]] _(mag-verwijzen)_
 
 ## Relaties
@@ -160,4 +160,4 @@ _`vuistregel`_
 ### `valt_onder`
 - [[anti-misbruik]]
 ### `vereist`
-- [[verbonden-vennootschap]] — TP grijpt enkel op transacties tussen verbonden vennootschappen — de kwalificatie 'verbonden' is dus voorvraag.
+- ⏳ verbonden-vennootschap — TP grijpt enkel op transacties tussen verbonden vennootschappen — de kwalificatie 'verbonden' is dus voorvraag.

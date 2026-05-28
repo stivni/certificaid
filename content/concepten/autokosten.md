@@ -363,6 +363,6 @@ _`regel`_
 ### `beinvloed_door`
 - [[vaste-activa]] — Een AANGEKOCHTE wagen is een materieel vast actief op 241 'Rollend materieel' en wordt afgeschreven volgens algemene activa-regels (lineair, doorgaans 4-5 jaar — degressief uitgesloten voor personenwagens art. 64 WIB 92). De afschrijvingskost vormt een deel van de basis voor de CO2-aftrek-beperking en wordt geboekt op 6302.
 ### `valt_onder`
-- [[verworpen-uitgaven-venb]] — Het niet-aftrekbare deel van de autokost + 40 %/17 % van VAA komt in vak B (codes 1205 en 1206) van de verworpen-uitgaven-rubriek van de VenB-aangifte.
+- ⏳ verworpen-uitgaven-venb — Het niet-aftrekbare deel van de autokost + 40 %/17 % van VAA komt in vak B (codes 1205 en 1206) van de verworpen-uitgaven-rubriek van de VenB-aangifte.
 ### `vereist`
-- [[co2-uitstoot-bepaling]] — Voor zowel CO2-aftrek-formule, VAA-formule, BIV-berekening als valse-hybride-correctie is een correct CO2-cijfer per voertuig vereist (uit DIV-databank, homologatie of formule-bepaling bij ontbreken).
+- ⏳ co2-uitstoot-bepaling — Voor zowel CO2-aftrek-formule, VAA-formule, BIV-berekening als valse-hybride-correctie is een correct CO2-cijfer per voertuig vereist (uit DIV-databank, homologatie of formule-bepaling bij ontbreken).

@@ -311,7 +311,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `vereist`
 - [[kapitaalbescherming]]
 ### `beinvloed_door`

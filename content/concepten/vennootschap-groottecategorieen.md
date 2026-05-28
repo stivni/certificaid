@@ -250,7 +250,7 @@ _`stap`_
 
 - → Parent — ondernemingsvormen → [[ondernemingsvormen]] _(moet-verwijzen)_
 - → Jaarrekening-schema-keuze (volledig · verkort · micro) → [[jaarrekening]] _(moet-verwijzen)_
-- → KMO-tarief vennootschapsbelasting — aparte fiscale criteria → [[kmo-tarief-vennootschapsbelasting]] _(moet-verwijzen)_
+- → KMO-tarief vennootschapsbelasting — aparte fiscale criteria → ⏳ kmo-tarief-vennootschapsbelasting _(moet-verwijzen)_
 - → Wettelijke controle door commissaris (trigger via grootte) → [[controleopdracht]] _(moet-verwijzen)_
 
 ## Relaties

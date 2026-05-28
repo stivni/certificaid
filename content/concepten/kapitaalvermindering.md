@@ -341,14 +341,14 @@ Netto-effect op cash = nul; netto-effect op EV = nul (beide rubrieken contra-elk
 ## Verder lezen (scope-out)
 
 - → Tegenhanger: kapitaalverhoging → [[kapitaalverhoging]] _(moet-verwijzen)_
-- → Alarmbel-procedure bij verlies > drempel → [[alarmbel-procedure]] _(moet-verwijzen)_
+- → Alarmbel-procedure bij verlies > drempel → ⏳ alarmbel-procedure _(moet-verwijzen)_
 - → Kapitaalbescherming — netto-actief-test bij uitkeringen aandeelhouders → [[kapitaalbescherming]] _(moet-verwijzen)_
 - → Winstuitkering — pro-rata-herkwalificatie als dividend → [[winstuitkering]] _(moet-verwijzen)_
 
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `vereist`
 - [[kapitaalbescherming]]
 ### `beinvloed_door`

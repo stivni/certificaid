@@ -250,7 +250,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `vergelijkbaar_met`
 - [[faillissement]]
     - **Gelijkenissen**:

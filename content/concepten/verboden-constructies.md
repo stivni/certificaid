@@ -162,7 +162,7 @@ _`vuistregel`_
 
 - → AAMB (algemeen instrument) → [[algemene-anti-misbruik-bepaling]] _(moet-verwijzen)_
 - → Σ-keuzekader anti-misbruik → [[anti-misbruik]] _(moet-verwijzen)_
-- ↪ Dividend-uitkering (verkapte dividenden) → [[dividend-uitkering]] _(mag-verwijzen)_
+- ↪ Dividend-uitkering (verkapte dividenden) → ⏳ dividend-uitkering _(mag-verwijzen)_
 
 ## Relaties
 

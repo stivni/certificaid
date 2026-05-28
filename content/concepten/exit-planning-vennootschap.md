@@ -157,7 +157,7 @@ _Aurelia Holding BV (BE) verhuist haar zetel naar Luxemburg. Activa: deelneminge
 
 ## Verder lezen (scope-out)
 
-- → Algemene exit-belasting-mechaniek → [[exit-belasting]] _(moet-verwijzen)_
+- → Algemene exit-belasting-mechaniek → ⏳ exit-belasting _(moet-verwijzen)_
 - → ATAD-richtlijn (basis) → [[atad-richtlijn]] _(moet-verwijzen)_
 - → Internationale structurering (context) → [[internationale-structurering-vennootschap]] _(moet-verwijzen)_
 - ↪ Fiscale fusie/splitsing (alternatief instrument) → [[fiscale-fusie-splitsing]] _(mag-verwijzen)_
@@ -171,7 +171,7 @@ _Aurelia Holding BV (BE) verhuist haar zetel naar Luxemburg. Activa: deelneminge
 ### `beinvloed_door`
 - [[atad-richtlijn]] — ATAD art. 5 bracht de 5-jaars-spreidingsregel in EU-recht; geïmplementeerd in WIB92 art. 214/1.
 ### `triggert`
-- [[exit-belasting]] — Concrete fiscale heffing die uit de exit-planning volgt.
+- ⏳ exit-belasting — Concrete fiscale heffing die uit de exit-planning volgt.
 ### `vergelijkbaar_met`
 - [[fiscale-fusie-splitsing]]
     - **Gelijkenissen**:

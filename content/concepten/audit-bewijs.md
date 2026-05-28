@@ -226,8 +226,8 @@ _`stap`_
 - → Dossier-documentatie → [[revisiedossier]] _(moet-verwijzen)_
 - → IT-controles als bewijs in IT-omgeving (cross IC) → [[it-controles]] _(moet-verwijzen)_
 - → Cyclus-substantive-testing → [[cyclus-analyse]] _(moet-verwijzen)_
-- ↪ Verbonden-partijen-procedures → [[verbonden-partijen]] _(mag-verwijzen)_
-- → Fraude-procedures (ISA 240) → [[fraude]] _(moet-verwijzen)_
+- ↪ Verbonden-partijen-procedures → ⏳ verbonden-partijen _(mag-verwijzen)_
+- → Fraude-procedures (ISA 240) → ⏳ fraude _(moet-verwijzen)_
 
 ## Relaties
 

@@ -184,7 +184,7 @@ _`stap`_
 ### `valt_onder`
 - [[consolidatiemethoden]]
 ### `vereist`
-- [[controle-vennootschap]] — Vereist notabele invloed (associate) of gezamenlijke controle (JV onder IFRS 11) — geen exclusieve controle, anders integrale consolidatie.
+- ⏳ controle-vennootschap — Vereist notabele invloed (associate) of gezamenlijke controle (JV onder IFRS 11) — geen exclusieve controle, anders integrale consolidatie.
 ### `vergelijkbaar_met`
 - [[integrale-consolidatie]]
     - **Gelijkenissen**:

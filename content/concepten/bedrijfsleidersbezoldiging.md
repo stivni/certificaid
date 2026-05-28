@@ -185,7 +185,7 @@ _`stap`_
 - → VAA-componenten (woning · auto · lening · ...) → [[voordelen-alle-aard]] _(moet-verwijzen)_
 - → Groepsverzekering / IPT als pensioencomponent → [[groepsverzekering-ipt]] _(moet-verwijzen)_
 - → KMO-tarief 20% (verlaagd-tarief) → [[verlaagd-tarief-kleine-vennootschap]] _(moet-verwijzen)_
-- ↪ Dividend-uitkering als alternatieve route → [[dividend-uitkering]] _(mag-verwijzen)_
+- ↪ Dividend-uitkering als alternatieve route → ⏳ dividend-uitkering _(mag-verwijzen)_
 
 ## Relaties
 
@@ -199,7 +199,7 @@ _`stap`_
 ### `triggert`
 - [[bedrijfsvoorheffing]]
 ### `vergelijkbaar_met`
-- [[dividend-uitkering]]
+- ⏳ dividend-uitkering
     - **Gelijkenissen**:
         - beide manieren waarop aandeelhouder-zaakvoerder vergoed wordt uit eigen vennootschap
     - **Verschillen**:

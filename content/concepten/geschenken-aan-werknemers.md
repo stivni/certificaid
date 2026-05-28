@@ -199,7 +199,7 @@ _`stap`_
 
 ## Verder lezen (scope-out)
 
-- ↪ Verworpen uitgaven (filter — receptiekosten) → [[receptiekosten]] _(mag-verwijzen)_
+- ↪ Verworpen uitgaven (filter — receptiekosten) → ⏳ receptiekosten _(mag-verwijzen)_
 - ↪ Andere cheques (vergelijking) → [[ecocheques]] _(mag-verwijzen)_
 
 ## Relaties

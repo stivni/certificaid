@@ -163,7 +163,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[balans]] — Vlottende activa — sub-rubriek 'Vorderingen ≤ 1 jaar'.
+- ⏳ balans — Vlottende activa — sub-rubriek 'Vorderingen ≤ 1 jaar'.
 ### `beinvloed_door`
 - [[bedrijfsopbrengsten]] — Bij elke verkoopfactuur ontstaat een handelsvordering.
 ### `vergelijkbaar_met`

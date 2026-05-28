@@ -189,8 +189,8 @@ _`stap`_
 - → Cyclus-context (fase 2 in 4-fase-flow) → [[controleopdracht]] _(moet-verwijzen)_
 - → Bewijsverzameling (planning stuurt bewijswerk) → [[audit-bewijs]] _(moet-verwijzen)_
 - → Start: opdrachtbrief → [[opdrachtaanvaarding-en-opdrachtbrief]] _(moet-verwijzen)_
-- ↪ Verbonden-partijen-risico-aspect → [[verbonden-partijen]] _(mag-verwijzen)_
-- → Fraude-risico-inschatting → [[fraude]] _(moet-verwijzen)_
+- ↪ Verbonden-partijen-risico-aspect → ⏳ verbonden-partijen _(mag-verwijzen)_
+- → Fraude-risico-inschatting → ⏳ fraude _(moet-verwijzen)_
 - → Interne-controle-evaluatie als input controle-risico → [[interne-controle]] _(moet-verwijzen)_
 - → COSO-componenten als lens voor IC-begrip → [[coso-framework]] _(moet-verwijzen)_
 - ↪ IC-evaluatie-methodes (intern uitvoeren) → [[evaluatie-interne-controle]] _(mag-verwijzen)_
@@ -203,5 +203,5 @@ _`stap`_
 - [[audit-bewijs]]
 ### `beinvloed_door`
 - [[interne-controle]]
-- [[fraude]]
+- ⏳ fraude
 - [[coso-framework]]

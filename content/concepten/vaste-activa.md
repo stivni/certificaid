@@ -157,7 +157,7 @@ _`regel`_
 ## Relaties
 
 ### `valt_onder`
-- [[balans]] — Eerste hoofdrubriek actief — boven vlottende activa.
+- ⏳ balans — Eerste hoofdrubriek actief — boven vlottende activa.
 ### `bevat`
 - [[immateriele-vaste-activa]]
 - [[materiele-vaste-activa]]

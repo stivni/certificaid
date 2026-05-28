@@ -193,4 +193,4 @@ _`mechanisme`_
         - Klassieke bedrijfswagen-regime blijft volwaardig actief; CfC is sinds 23-01-2023 vernietigd
     - ⚠️ **Verwarringsrisico**: Beide regimes delen dezelfde belastbare-VAA-formule (art. 36 §2), wat suggereert dat 'CfC = bedrijfswagen in cash' — wat economisch klopt maar wetstechnisch niet: CfC was een afzonderlijke wet 30-03-2018, geen variant binnen WIB92.
 ### `beinvloed_door`
-- [[voordeel-alle-aard]] — De berekening van de belastbare basis van de CfC-vergoeding volgde rechtstreeks de VAA-formule (WIB92 art. 36 §2).
+- ⏳ voordeel-alle-aard — De berekening van de belastbare basis van de CfC-vergoeding volgde rechtstreeks de VAA-formule (WIB92 art. 36 §2).

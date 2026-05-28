@@ -267,7 +267,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `bevat`
 - [[fusie]]
 - [[splitsing]]

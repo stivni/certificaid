@@ -314,7 +314,7 @@ _`regel`_
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `bevat`
 - [[kapitaalverhoging-in-natura]]
 ### `vereist`

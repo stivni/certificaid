@@ -252,4 +252,4 @@ _`stap`_
 ### `beinvloed_door`
 - [[dubbelbelastingverdrag]] — Bij dubbele residentie lossen tie-breaker rules in het DBV (art. 4 OESO-MV) het conflict op — eerst permanente woning, dan centrum vitale belangen, dan gewone verblijfplaats, dan nationaliteit, dan MAP.
 ### `vereist`
-- [[wereldwijd-inkomen-beginsel]] — Het wereldwijd-inkomen-beginsel is de logische gevolgtrekking uit residentie: een staat belast haar inwoners op hun globale inkomen.
+- ⏳ wereldwijd-inkomen-beginsel — Het wereldwijd-inkomen-beginsel is de logische gevolgtrekking uit residentie: een staat belast haar inwoners op hun globale inkomen.

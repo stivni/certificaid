@@ -425,7 +425,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `vereist`
 - [[ondernemingsvormen]]
 - [[financieel-plan]]

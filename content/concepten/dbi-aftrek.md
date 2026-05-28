@@ -171,7 +171,7 @@ _`vuistregel`_
 
 ## Verder lezen (scope-out)
 
-- → Dividend-uitkering (winstuitkering) → [[dividend-uitkering]] _(moet-verwijzen)_
+- → Dividend-uitkering (winstuitkering) → ⏳ dividend-uitkering _(moet-verwijzen)_
 - ↪ Σ-keuzekader VenB-voordelen → [[fiscale-voordelen-vennootschap]] _(mag-verwijzen)_
 
 ## Relaties
@@ -179,6 +179,6 @@ _`vuistregel`_
 ### `valt_onder`
 - [[fiscale-voordelen-vennootschap]]
 ### `beinvloed_door`
-- [[dividend-uitkering]]
+- ⏳ dividend-uitkering
 ### `vergelijkbaar_met`
-- [[dividend-uitkering]] — DBI = ontvanger-perspectief; dividend-uitkering = betaler-perspectief. Twee kanten van dezelfde munt.
+- ⏳ dividend-uitkering — DBI = ontvanger-perspectief; dividend-uitkering = betaler-perspectief. Twee kanten van dezelfde munt.

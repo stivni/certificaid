@@ -276,7 +276,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[vennootschapsrecht]]
+- ⏳ vennootschapsrecht
 ### `vereist`
 - [[kapitaalbescherming]]
 - [[winstbestemming]]

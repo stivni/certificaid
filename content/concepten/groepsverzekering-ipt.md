@@ -196,7 +196,7 @@ _`stap`_
 ## Verder lezen (scope-out)
 
 - → Bedrijfsleider-bezoldigingsmix → [[bedrijfsleidersbezoldiging]] _(moet-verwijzen)_
-- ↪ Dividend-route als alternatieve uitkering → [[dividend-uitkering]] _(mag-verwijzen)_
+- ↪ Dividend-route als alternatieve uitkering → ⏳ dividend-uitkering _(mag-verwijzen)_
 - ↪ Werknemer-loon → [[loon-en-payroll]] _(mag-verwijzen)_
 
 ## Relaties

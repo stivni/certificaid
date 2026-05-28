@@ -218,7 +218,7 @@ _`vuistregel`_
 ### `triggert`
 - [[belastingberekening-pb]] — Toegerekend deel beïnvloedt de afzonderlijke vaststelling van het belastbaar inkomen per echtgenoot in de gemeenschappelijke aanslag.
 ### `vergelijkbaar_met`
-- [[meewerkinkomen]]
+- ⏳ meewerkinkomen
     - **Gelijkenissen**:
         - Beide werken met een 30 %-grens op het beroepsinkomen van de partner
         - Beide gelden enkel bij gemeenschappelijke aanslag (echtgenoten / wettelijk samenwonenden)

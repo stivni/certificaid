@@ -174,7 +174,7 @@ _`stap`_
 
 - → ATAD-richtlijn (grondslag) → [[atad-richtlijn]] _(moet-verwijzen)_
 - → Σ-keuzekader anti-misbruik → [[anti-misbruik]] _(moet-verwijzen)_
-- ↪ Schuldfinanciering (cross-cluster) → [[schuldfinanciering]] _(mag-verwijzen)_
+- ↪ Schuldfinanciering (cross-cluster) → ⏳ schuldfinanciering _(mag-verwijzen)_
 
 ## Relaties
 

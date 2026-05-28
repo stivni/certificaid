@@ -168,6 +168,6 @@ _`regel`_
 ### `triggert`
 - [[eindejaarsverrichtingen]] — Jaarlijkse waardering tegen aandeel in EV dochter.
 ### `vereist`
-- [[consolidatie]] — Meerderheidsdeelneming triggert consolidatieverplichting.
+- ⏳ consolidatie — Meerderheidsdeelneming triggert consolidatieverplichting.
 ### `alternatief_referentiestelsel`
 - [[ifrs]] — IFRS 9 (financial instruments) + IAS 28 (associates) — equity-method standaard.

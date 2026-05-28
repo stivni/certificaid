@@ -196,7 +196,7 @@ _`stap`_
 - → Cyclus-context (fase 4) → [[controleopdracht]] _(moet-verwijzen)_
 - → Bewijs als input → [[audit-bewijs]] _(moet-verwijzen)_
 - → Eindverslag als output → [[controleverklaring]] _(moet-verwijzen)_
-- → Going-concern-principe + diepe inhoud → [[continuiteit-going-concern]] _(moet-verwijzen)_
+- → Going-concern-principe + diepe inhoud → ⏳ continuiteit-going-concern _(moet-verwijzen)_
 - → Auditcomité-communicatie → [[auditcomite]] _(moet-verwijzen)_
 - → IC-deficiënties bron → [[interne-controle]] _(moet-verwijzen)_
 
@@ -206,7 +206,7 @@ _`stap`_
 - [[controleopdracht]]
 ### `beinvloed_door`
 - [[audit-bewijs]]
-- [[continuiteit-going-concern]]
+- ⏳ continuiteit-going-concern
 ### `triggert`
 - [[controleverklaring]]
 ### `gedocumenteerd_in`

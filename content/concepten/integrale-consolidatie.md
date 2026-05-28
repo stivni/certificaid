@@ -167,7 +167,7 @@ _`stap`_
 ### `valt_onder`
 - [[consolidatiemethoden]]
 ### `vereist`
-- [[controle-vennootschap]] — Vereist exclusieve controle (art. 1:14 §1 WVV) — onweerlegbaar bij meerderheid stemrechten of statutair benoemingsrecht; weerlegbaar bij de-facto-controle (art. 1:14 §3).
+- ⏳ controle-vennootschap — Vereist exclusieve controle (art. 1:14 §1 WVV) — onweerlegbaar bij meerderheid stemrechten of statutair benoemingsrecht; weerlegbaar bij de-facto-controle (art. 1:14 §3).
 ### `triggert`
 - [[minderheidsbelangen]] — Bij <100 % belang ontstaat een minderheidsbelang dat afzonderlijk in EV en resultaat gepresenteerd wordt.
 - [[consolidatieverschil]] — Verschil tussen aanschaffingsprijs deelneming en aandeel in EV op verkrijgingsdatum → goodwill (positief) of badwill (negatief).

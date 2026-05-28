@@ -221,7 +221,7 @@ _`vuistregel`_
 ## Verder lezen (scope-out)
 
 - → Herziening bedrijfsmiddelen (15j vastgoed · 5j BM) → [[btw-herziening-bedrijfsmiddelen]] _(moet-verwijzen)_
-- → BTW-bedrijfswagen 50%-regel + methodes → [[btw-bedrijfswagen]] _(moet-verwijzen)_
+- → BTW-bedrijfswagen 50%-regel + methodes → ⏳ btw-bedrijfswagen _(moet-verwijzen)_
 - → Vrijstellingen art 44 (geen aftrek) → [[btw-vrijstellingen]] _(moet-verwijzen)_
 
 ## Relaties

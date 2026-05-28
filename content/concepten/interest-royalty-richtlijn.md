@@ -249,5 +249,5 @@ _`stap`_
         - MDR heeft expliciete PPT sinds 2015 (art. 1 lid 2-4); IRR steunt op de algemene beneficial-owner-toets (art. 1 lid 4) — minder expliciet maar door HvJ even streng toegepast
     - ⚠️ **Verwarringsrisico**: Studenten verwarren drempels (10 % vs 25 %) en behandeling moederzijde. Examen-aandachtspunt: bij deelneming 10-24 % geldt MDR voor dividenden, maar IRR geldt NIET voor interest/royalty's.
 ### `vereist`
-- [[verbonden-vennootschap]] — Toepassing van de richtlijn vereist dat uitbetaler en ontvanger verbonden zijn in de zin van art. 1 lid 7 (rechtstreeks of via gemeenschappelijke moeder, drempel ≥ 25 %).
+- ⏳ verbonden-vennootschap — Toepassing van de richtlijn vereist dat uitbetaler en ontvanger verbonden zijn in de zin van art. 1 lid 7 (rechtstreeks of via gemeenschappelijke moeder, drempel ≥ 25 %).
 - [[fiscale-residentie]] — Beide vennootschappen moeten fiscale woonplaats hebben in een EU-lidstaat — zonder fiscale residentie in de EU geen richtlijntoepassing.

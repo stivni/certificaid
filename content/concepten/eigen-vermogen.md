@@ -457,7 +457,7 @@ _`stap`_
 - → Kapitaalverhoging — toename via inbreng → [[kapitaalverhoging]] _(moet-verwijzen)_
 - → Kapitaalvermindering — afname → [[kapitaalvermindering]] _(moet-verwijzen)_
 - → Winstuitkering — afname via dividend → [[winstuitkering]] _(moet-verwijzen)_
-- → Alarmbel bij netto-actief gedaald onder helft kapitaal of negatief → [[alarmbel-procedure]] _(moet-verwijzen)_
+- → Alarmbel bij netto-actief gedaald onder helft kapitaal of negatief → ⏳ alarmbel-procedure _(moet-verwijzen)_
 - → Winstbestemming — reserveringsstroom → [[winstbestemming]] _(moet-verwijzen)_
 
 ## Relaties
@@ -470,4 +470,4 @@ _`stap`_
 - [[winstuitkering]] — Dividenduitkering → afname EV via overgedragen winst of beschikbare reserves.
 - [[winstbestemming]] — Resultaatbestemming jaarvergadering → toewijzing winst naar reserves (rekening 13) of overgedragen winst (rekening 14).
 ### `triggert`
-- [[alarmbel-procedure]] — Daling EV onder drempelwaarden (BV: nettoactief negatief of liquiditeitstest faalt; NV: < 50% / 25% / minimumkapitaal) triggert wettelijke alarmbel-procedure.
+- ⏳ alarmbel-procedure — Daling EV onder drempelwaarden (BV: nettoactief negatief of liquiditeitstest faalt; NV: < 50% / 25% / minimumkapitaal) triggert wettelijke alarmbel-procedure.

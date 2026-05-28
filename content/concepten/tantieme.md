@@ -217,7 +217,7 @@ _`stap`_
 - → Winstuitkering-Sigma als parent → [[winstuitkering]] _(moet-verwijzen)_
 - → Winstbestemming — toekenningsmoment → [[winstbestemming]] _(moet-verwijzen)_
 - → Bedrijfsleidersbezoldiging — Sigma-context als bouwblok → [[bedrijfsleidersbezoldiging]] _(moet-verwijzen)_
-- ↪ KMO-tarief VenB-context (45.000 EUR bezoldigingsregel) → [[kmo-tarief-vennootschapsbelasting]] _(mag-verwijzen)_
+- ↪ KMO-tarief VenB-context (45.000 EUR bezoldigingsregel) → ⏳ kmo-tarief-vennootschapsbelasting _(mag-verwijzen)_
 - → Algemene vergadering — besluit → [[algemene-vergadering]] _(moet-verwijzen)_
 
 ## Relaties

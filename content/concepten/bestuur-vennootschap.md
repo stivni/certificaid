@@ -282,7 +282,7 @@ _`stap`_
 ### `valt_onder`
 - [[ondernemingsvormen]]
 ### `bevat`
-- [[dagelijks-bestuur]] — Dagelijks bestuur is een afgeleide bevoegdheid die het bestuursorgaan delegeert.
+- ⏳ dagelijks-bestuur — Dagelijks bestuur is een afgeleide bevoegdheid die het bestuursorgaan delegeert.
 ### `triggert`
 - [[belangenconflict-bestuur]] — Wanneer een bestuurder een persoonlijk belang heeft strijdig met dat van de vennootschap, wordt de procedure van art. 5:76 / 7:96 in werking gesteld.
 - [[bestuurdersaansprakelijkheid]] — Aanvaarding bestuursmandaat triggert de persoonlijke aansprakelijkheid voor fouten in de uitoefening van de opdracht (art. 2:55-58 WVV).

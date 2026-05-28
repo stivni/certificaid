@@ -145,7 +145,7 @@ _`vuistregel`_
 ## Verder lezen (scope-out)
 
 - ↪ Verkooprecht (separate transactie) → [[verkooprecht]] _(mag-verwijzen)_
-- ↪ Schuldfinanciering-cluster (cross) → [[schuldfinanciering]] _(mag-verwijzen)_
+- ↪ Schuldfinanciering-cluster (cross) → ⏳ schuldfinanciering _(mag-verwijzen)_
 
 ## Relaties
 

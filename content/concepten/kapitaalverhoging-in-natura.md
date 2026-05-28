@@ -278,7 +278,7 @@ _`regel`_
 ### `valt_onder`
 - [[kapitaalverhoging]]
 ### `gecontroleerd_door`
-- [[bedrijfsrevisor]]
+- ⏳ bedrijfsrevisor
 ### `vergelijkbaar_met`
 - [[quasi-inbreng]]
     - **Gelijkenissen**:

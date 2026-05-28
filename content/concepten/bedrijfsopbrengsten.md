@@ -182,7 +182,7 @@ _`stap`_
 ## Relaties
 
 ### `valt_onder`
-- [[resultatenrekening]] — Bedrijfsopbrengsten = creditzijde bedrijfsresultaat-deel.
+- ⏳ resultatenrekening — Bedrijfsopbrengsten = creditzijde bedrijfsresultaat-deel.
 ### `vergelijkbaar_met`
 - [[bedrijfskosten]]
     - **Gelijkenissen**:
@@ -190,6 +190,6 @@ _`stap`_
     - **Verschillen**:
         - Klasse 70-74 (credit) versus klasse 60-65 (debet)
 ### `vereist`
-- [[rekeningstelsel-mar]]
+- ⏳ rekeningstelsel-mar
 ### `alternatief_referentiestelsel`
 - [[opbrengstverantwoording]] — IFRS 15-aanpak vs Be-GAAP — verschillende erkennings-momenten bij langlopende contracten.
