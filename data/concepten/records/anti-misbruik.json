@@ -1,13 +1,12 @@
 {
   "id": "anti-misbruik",
   "naam": {
-    "primair": "Anti-misbruik",
-    "afkorting": "ABM"
+    "primair": "Anti-misbruik"
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -19,9 +18,22 @@
       "2.8.taak.3"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/anti-misbruik.json",
+      "primary_bronnen": [
+        "WIB92 art. 344 §1 (AAMB)",
+        "WIB92 art. 26 (abnormaal/goedgunstig voordeel)",
+        "WIB92 art. 49 (beroepsmatig karakter)",
+        "WIB92 art. 79, 207 (verliesverrekening)",
+        "WIB92 art. 198/1 e.v. (interest-aftrekbeperking ATAD)",
+        "WIB92 art. 185/2 (CFC)",
+        "Richtlijn 2016/1164 (ATAD I) + 2017/952 (ATAD II)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,6 +42,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Σ-overzicht anti-misbruik-toolbox: GAAR/SAAR/simulatie + EU-ATAD-laag. Cluster anti-misbruik-lokaal."
       }
     ],
     "scope": {
@@ -82,20 +101,268 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "tekst": "Anti-misbruik is het overkoepelend kader van instrumenten waarmee de overheid (Belgisch én EU) zich verzet tegen fiscale planning die de wettelijke doelstelling frustreert. Het clusterconcept brengt drie lagen samen: (1) de simulatieleer (gemeenrechtelijke leer van werkelijke wil van partijen, art. 1156 e.v. BW oud / 5.45 e.v. nieuw BW); (2) specifieke anti-misbruik-bepalingen (SAAR's) zoals art. 26 (abnormaal/goedgunstig voordeel), art. 49 (beroepsmatig karakter), art. 79/207 (verliesverrekeningsverbod), art. 220bis WIB92; (3) de algemene anti-misbruik-bepaling (GAAR), art. 344 §1 WIB92 en parallelle teksten in WBT&R, VCF, WDRT. Hierbovenop legt de EU via ATAD I + II (2016/1164 + 2017/952) een geharmoniseerd anti-misbruik-pakket op: interest-aftrekbeperking, CFC-regels, exit-tax, hybride mismatches, EU-GAAR.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 26" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 49" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 207" },
+            { "type": "richtlijn", "naam": "Richtlijn (EU) 2016/1164 (ATAD I)", "ref": "art. 4, 6, 7, 8" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de adviseur: anti-misbruik is geen één wet maar een meerlagige toolbox. Bij elke fiscaal-gedreven structurering moet je drie vragen stellen. (a) Is de rechtshandeling échte rechtshandeling of een fictie? — zo nee → simulatie. (b) Is er een specifiek wettelijk verbod of correctie? — zo ja → SAAR (bv. art. 26: abnormaal voordeel; art. 207: trafiek met verliezen). (c) Frustreert de constructie de doelstelling van een wettelijke bepaling? — zo ja → AAMB (art. 344 §1). Daarnaast: is er een grensoverschrijdend element? — dan komt ATAD in beeld (thin-cap, CFC, hybride mismatches). De keuze van instrument bepaalt bewijslast, tegenbewijs-route en rechtsgevolg.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese drielagig anti-misbruik-arsenaal" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Fiscale planning is in principe vrij — Cass. erkent al sinds 1961 (Brepols-doctrine) het 'recht van de minst belastbare weg'. Maar dat recht botst tegen zijn eigen grenzen wanneer creatieve structuren de bedoeling van de wetgever frustreren. De wetgever heeft historisch eerst specifieke verboden (SAAR's) ingevoerd voor concrete misbruik-patronen, daarna een algemene clausule (AAMB) als vangnet, en sinds 2016 een EU-laag (ATAD) voor grensoverschrijdende gevallen. De multilateralisering via BEPS (G20/OESO, 2013-2015) en de implementatie via Richtlijnen en het Multilateraal Instrument (MLI) zorgen voor coördinatie tussen lidstaten. Resultaat: één feitencomplex kan onder meerdere lagen vallen — de fiscus kiest het scherpste instrument, soms cumulatief.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio legis multi-laag-anti-misbruik" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "fiscaal-recht",
+        "interpretatie-fiscale-wet"
+      ],
+      "volgkennis": [
+        "algemene-anti-misbruik-bepaling",
+        "simulatie-leer",
+        "transfer-pricing",
+        "atad-richtlijn",
+        "verboden-constructies"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Gemeenrecht (simulatie BW) + WIB92 + WBT&R + WDRT + gewestcodices + ATAD I/II (Richtlijn 2016/1164 + 2017/952)"
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke fiscaal-gedreven structurering — overdracht onderneming, oprichting holding, financiering tussen verbonden partijen, vermogensplanning, internationale herstructurering. De adviseur moet de toolbox doorlopen vóór hij een advies finaliseert.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "drielagig-arsenaal",
+        "naam": {
+          "primair": "Drielagig anti-misbruik-arsenaal"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Laag 1 — Simulatieleer (gemeenrecht): de rechtshandeling is fictief; partijen wilden iets anders. Fiscus toont de werkelijke wil; rechtshandeling kan civielrechtelijk nietig zijn. Laag 2 — SAAR's (specifieke anti-misbruik-bepalingen): wet bepaalt concrete correctie voor specifiek patroon (art. 26 abnormaal voordeel, art. 49 beroepskosten-vereiste, art. 79/207 verliestrafiek, art. 220bis vrijstelling-misbruik, art. 198/1 ATAD-interest, art. 185/2 CFC). Werkt mechanisch zodra voorwaarden vervuld. Laag 3 — GAAR (AAMB art. 344 §1): vangnet voor planningen die niet onder SAAR vallen maar wel de wettelijke doelstelling frustreren. Vereist bewijs van doelstellingsstrijd + hoofddoel-fiscaal + geen tegenbewijs niet-fiscale motieven.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 26" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 207" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer drielagig arsenaal" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "eu-laag-atad",
+        "naam": {
+          "primair": "EU-laag: ATAD I + II"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Richtlijn 2016/1164 (ATAD I, 12-07-2016) + Richtlijn 2017/952 (ATAD II, 29-05-2017) leggen vijf instrumenten op aan lidstaten: (1) interest-aftrekbeperking (max 30 % EBITDA + drempel; BE: art. 198/1 WIB92); (2) exit-taxatie bij verplaatsing zetel of activa; (3) GAAR (EU-niveau, art. 6 ATAD); (4) CFC-regels (Controlled Foreign Company — toerekening passieve inkomsten lage-belasting-dochter; BE: art. 185/2 WIB92); (5) hybride mismatches (vermijden double non-taxation door verschillende kwalificatie; BE: art. 198 10°/2-3 WIB92). Vorming één EU-baseline waaronder lidstaten strenger mogen zijn, niet milder.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "richtlijn", "naam": "Richtlijn (EU) 2016/1164 (ATAD I)", "ref": "art. 4, 5, 6, 7, 8" },
+                  { "type": "richtlijn", "naam": "Richtlijn (EU) 2017/952 (ATAD II)", "ref": "art. 9 e.v." },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 198/1, 185/2" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "principe-brepols-vrije-keuze",
+        "naam": {
+          "primair": "Brepols-doctrine — recht op minst belaste weg"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Cass. 6 juni 1961 (Brepols) en bevestigd in latere arresten: een belastingplichtige mag legitiem kiezen tussen verschillende wegen om hetzelfde economische resultaat te bereiken, ook al kiest hij de fiscaal minst belaste. Dit recht is geen 'misbruik' op zich. Het wordt enkel doorbroken wanneer de gekozen weg simulatie, SAAR of GAAR triggert. Vrijheid van fiscale keuze is dus de regel — anti-misbruik de uitzondering.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "rechtspraak", "naam": "Cass. 6 juni 1961 (Brepols)", "context": "Klassieke uitspraak vrije fiscale keuze" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer Brepols-doctrine" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "mechanisme-keuzeboom",
+        "naam": {
+          "primair": "Keuze-boom: welk instrument bij welke planning?"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Stap 1 — is de rechtshandeling echt of fictief? → Fictief → simulatie. Stap 2 — is er een SAAR die het patroon raakt? → Ja → SAAR primeert (subsidiariteitsprincipe). Stap 3 — frustreert de constructie een wettelijke doelstelling? → Ja → AAMB. Stap 4 — is er een grensoverschrijdend element? → Toets ATAD-implementaties (art. 185/2, 198/1, 198 10°/2-3 WIB92) + eventueel modelverdrag-misbruik-bepalingen (PPT — Principal Purpose Test, BEPS-actie 6, MLI).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese praktijkkeuze toolbox" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-subsidiariteit",
+        "naam": {
+          "primair": "Subsidiariteit GAAR t.o.v. SAAR"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een specifieke anti-misbruik-bepaling (SAAR) toepasselijk is, primeert die op de AAMB. De fiscus moet eerst de SAAR uitwerken en motiveren; pas wanneer de SAAR niet sluit kan de AAMB als residuele grond worden ingeroepen. Dit beschermt de belastingplichtige tegen 'opklimming' van de fiscus naar de zwaardere AAMB-figuur wanneer een gerichte regel al de feiten dekt.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer subsidiariteit AAMB" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-bewijslastverdeling",
+        "naam": {
+          "primair": "Bewijslast-verdeling per instrument"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Simulatie — fiscus bewijst werkelijke wil door alle bewijsmiddelen (art. 340 WIB92). SAAR — fiscus bewijst objectieve voorwaarden (bv. bij art. 26: abnormaal/goedgunstig karakter); tegenbewijs in functie van norm. AAMB — fiscus bewijst (1) verrichting + (2) doelstellingsstrijd + (3) hoofddoel-fiscaal; belastingplichtige bewijst (4) niet-fiscale motieven. ATAD-instrumenten werken meestal mechanisch (drempels overschreden → correctie volgt) met begrensd tegenbewijs.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 340" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bewijslast-synthese per instrument" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Vergelijkingsmatrix anti-misbruik-instrumenten — vier dimensies (toepassingsdomein, bewijslast, tegenbewijs, rechtsgevolg).",
+        "inhoud": {
+          "kolommen": ["Instrument", "Toepassingsdomein", "Bewijslast fiscus", "Tegenbewijs BTP", "Rechtsgevolg"],
+          "rijen": [
+            ["Simulatie", "Alle materies — gemeenrecht", "Bewijs werkelijke wil van partijen", "Bewijs dat akte werkelijk gewild is", "Civielrechtelijke + fiscale gevolgen — werkelijke akte geldt"],
+            ["SAAR (bv. art. 26)", "Specifiek patroon (verbonden partijen, abnormaal voordeel, …)", "Objectieve voorwaarden van de norm", "Bewijs dat voorwaarden niet vervuld zijn", "Mechanische correctie van belastbare basis"],
+            ["AAMB (art. 344 §1 WIB92)", "Inkomstenbelastingen + parallelle codices", "Verrichting + doelstellingsstrijd + hoofddoel-fiscaal", "Niet-fiscale motieven (contemporain gedocumenteerd)", "Fiscale niet-tegenwerpbaarheid — civiel intact"],
+            ["EU-GAAR (ATAD art. 6)", "Inkomstenbelastingen, EU-bedrijfsfiscaliteit", "Kunstmatige constructie zonder zakelijke redenen", "Geldige zakelijke redenen tonen", "Niet-tegenwerpbaar voor belastingberekening EU-belasting"],
+            ["Thin-cap (art. 198/1)", "Interest tussen verbonden partijen", "Drempel-overschrijding 30% EBITDA + 3M €", "Beperkt — vrijstelling KMO + tijdelijk overgangsregime", "Niet-aftrek surplus + overdrachtsregime"],
+            ["CFC (art. 185/2)", "Lage-belasting buitenlandse dochter", "Drempel-overschrijding + passieve inkomsten", "Substantie-test (significante economische activiteit)", "Toerekening passieve inkomsten aan Belgische moeder"]
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Simulatie en AAMB verwarren",
+        "verkeerde_assumptie": "Stagiairs behandelen simulatie en AAMB als één instrument.",
+        "kernpunt": "Simulatie = de rechtshandeling is fictie (partijen wilden iets anders); civielrechtelijk gevolg mogelijk. AAMB = de rechtshandeling is écht, civielrechtelijk volkomen geldig, maar frustreert wettelijke doelstelling; alleen fiscaal niet-tegenwerpbaar. Fundamenteel verschillend bewijspatroon én gevolg.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard didactische valkuil" }
+          ]
+        }
+      },
+      {
+        "titel": "ATAD vergeten bij grensoverschrijdende planning",
+        "verkeerde_assumptie": "Een EU-binnen-EU-structuur is automatisch veilig omdat 'EU-vrij verkeer geldt'.",
+        "kernpunt": "ATAD I + II implementatie in WIB92 (art. 198/1 thin-cap, art. 185/2 CFC, art. 198 10°/2-3 hybride mismatches) raakt grensoverschrijdende structuren rechtstreeks — ongeacht EU- of derde-land. Bij elke holding-structuur met buitenlandse vennootschap: doorloop ATAD-instrumenten naast Belgische AAMB. Een 'EU-paspoort' heft anti-misbruik niet op.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "Richtlijn (EU) 2016/1164 (ATAD I)", "ref": "art. 1 (Scope)" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 198/1" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "planning-checklist",
+      "naam": {
+        "primair": "Anti-misbruik-checklist bij fiscale planning"
+      },
+      "intro": "De accountant doorloopt voor elke fiscaal-gedreven structurering een keuze-boom om de relevante instrumenten te identificeren.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "checklist-stap",
+              "naam": { "primair": "5-stappen anti-misbruik-checklist" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stap 1 — simulatie-toets: is de rechtshandeling écht of fictief? Stap 2 — SAAR-scan: lopen we tegen art. 26 (abnormaal voordeel), 49 (beroepsmatig), 79/207 (verliestrafiek), 220bis (vrijstellingen)? Stap 3 — AAMB-toets: frustreren we een wettelijke doelstelling die niet door SAAR gedekt is? Stap 4 — ATAD-toets bij grensoverschrijdend element: thin-cap, CFC, hybride mismatches, exit-tax? Stap 5 — verdrag-toets: PPT-clausule (MLI/BEPS-actie 6) bij gebruik DBV's? Bij hoog risico op één van de 5: ruling-aanvraag DVB of structuur herzien.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard 5-stappen checklist anti-misbruik" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",

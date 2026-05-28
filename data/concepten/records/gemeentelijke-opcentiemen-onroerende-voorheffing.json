@@ -1,68 +1,201 @@
 {
   "id": "gemeentelijke-opcentiemen-onroerende-voorheffing",
   "naam": {
-    "primair": "Gemeentelijke opcentiemen op onroerende voorheffing"
+    "primair": "Gemeentelijke opcentiemen op de onroerende voorheffing",
+    "synoniemen": ["opcentiemen OV", "gemeentelijke OV-opcentiemen"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.7.II.B"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.7.II.B"],
     "scope": {
       "in": [
         "Provinciale + gemeentelijke opcentiemen bovenop gewestelijk basistarief OV",
         "Verschillen tussen gemeentes (concurrentie/aantrekkelijkheid)",
-        "Berekening: basistarief × (1 + opcentiemen)"
+        "Berekening: basistarief OV × (1 + opcentiemen)"
       ],
       "out": [
-        {
-          "topic": "Onroerende voorheffing (basis)",
-          "richting": "moet-verwijzen",
-          "ref": "onroerende-voorheffing"
-        }
+        { "topic": "Onroerende voorheffing (basis)", "richting": "moet-verwijzen", "ref": "onroerende-voorheffing" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/gemeentelijke-opcentiemen-onroerende-voorheffing.json",
+      "primary_bronnen": [
+        "WIB92 art. 464",
+        "VCF art. 2.1.5 e.v. (Vl)",
+        "Decreet provinciewet"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:35:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Inhoud-velden gevuld op basis van OV-opcentiemen-doctrine + gewestelijke wetgeving." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "tekst": "Gemeentelijke opcentiemen op de onroerende voorheffing (OV) zijn een vermenigvuldigingsfactor die de gemeente toepast op het basistarief van de onroerende voorheffing, om bijkomende lokale belasting te genereren. Een 'opcentiem' is 1/100 van het basisrecht: een gemeente die 1.500 opcentiemen heft, verhoogt de basis-OV met 1.500/100 = 15-voudig. Het basistarief OV is gewestelijk (Vlaanderen: 3,97 %; Brussel: 1,25 %; Wallonië: 1,25 % gewest); daarbij komen provinciale opcentiemen (vroeger relevant; in Vlaanderen sinds 2018 niet meer omdat provincies geen OV-opcentiemen meer heffen) en gemeentelijke opcentiemen (typisch 700-2.500 in Vlaanderen).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 464", "context": "Gewestelijke + lokale opcentiemen-structuur" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer OV" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch effect: opcentiemen vermenigvuldigen de basis-OV met een factor 8-25. Voor een typisch huis met geïndexeerd kadastraal inkomen 2.000 EUR: basis-OV Vlaanderen = 2.000 × 3,97 % = 79,4 EUR. Met 1.500 gemeentelijke opcentiemen: 79,4 × (1 + 1500/100) = 79,4 × 16 = 1.270 EUR. Dat is de werkelijke OV die de eigenaar betaalt — bijna geheel bestemd voor de gemeente. De OV is daarmee een veruit belangrijkere inkomstenbron voor gemeenten dan de aanvullende gemeentebelasting op PB.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard cijfervoorbeeld" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio is fiscaal-historisch: de OV is historisch ontworpen als een 'kadastrale belasting' met laag basistarief, met aanwijzing dat het gros van de heffing uit lokale opcentiemen komt. Voor de gemeente: stabiele en relatief inelastische inkomstenbron (onroerend goed is moeilijk te verplaatsen — anders dan natuurlijke personen die kunnen verhuizen wegens lage AGB-PB). Het maakt de OV één van de belangrijkste budgettaire knoppen van een gemeente.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrine lokale fiscaliteit" }]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "kader": "lokale-en-regionale-belastingen",
+      "voorvereisten": ["onroerende-voorheffing", "kadastraal-inkomen"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 464 + VCF Titel 2.1 (Vl) + analoge gewestelijke wetgeving Br/W + gemeentelijke belastingreglementen",
+        "toelichting": "Vlaamse provincies heffen sinds 1-1-2018 geen provinciale opcentiemen meer op de OV (gecompenseerd door Vlaamse gewestelijke financiering). Brussel/Wallonië: provinciale opcentiemen variabel — actuele stand opzoeken."
+      },
+      "voor": [
+        {
+          "tekst": "Iedere eigenaar (of bezwaarde met zakelijk recht) van onroerend goed in België — opcentiemen worden automatisch toegevoegd aan het basisbedrag van de OV en op één gecombineerd aanslagbiljet geheven.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "formule-volledige-ov",
+        "naam": { "primair": "Volledige OV-formule" },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "OV-totaal = (geïndexeerd KI × gewestelijk basistarief) × [1 + (provinciale opcentiemen + gemeentelijke opcentiemen) / 100]. Vlaanderen: basistarief 3,97 % (verlaagd voor gezinswoning + woning met voldoende energieprestatie). Brussel/Wallonië: 1,25 % gewestelijk. Opcentiemen variëren per gemeente (Vl typisch 700-2.000). Indexering KI: geïndexeerd KI = nominaal KI × indexcoëfficiënt (Cijferzakboekje).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard OV-doctrine" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "OV = KI_geïndexeerd × tarief_basis × (1 + opcentiemen/100)"
+          }
+        ]
+      },
+      {
+        "id": "spreiding-opcentiemen-vl",
+        "naam": { "primair": "Spreiding gemeentelijke opcentiemen Vlaanderen" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "In Vlaanderen variëren gemeentelijke opcentiemen tussen ca. 700 (lage gemeentes — typisch rijke randgemeenten) en 2.500+ (hoge gemeentes — typisch industriële of probleemgemeenten). Gemiddelde rond 1.300-1.500. Voor een gezinswoning met geïndexeerd KI 1.800 EUR betekent een verschil van 800 opcentiemen ≈ 570 EUR/jaar verschil in OV. Significante factor in lokale concurrentie tussen gemeenten.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Empirisch Vlaanderen 2024" }]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-vl-gezinswoning",
+        "titel": "Berekening OV-totaal voor Vlaamse gezinswoning",
+        "context": "Gezinswoning in Vlaams Gewest, KI 1.500 EUR (nominaal). Indexcoëfficiënt 2024: 2,0915 (illustratief). Gemeentelijke opcentiemen: 1.400. Provincie: 0 (sinds 2018).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard cijfervoorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — geïndexeerd KI = 1.500 × 2,0915 = 3.137 EUR.",
+              "Stap 2 — basis-OV Vlaanderen = 3.137 × 3,97 % = 124,5 EUR.",
+              "Stap 3 — opcentiemen-factor = 1 + (0 + 1.400)/100 = 15.",
+              "Stap 4 — OV-totaal = 124,5 × 15 = 1.868 EUR.",
+              "Stap 5 — eventueel verminderd door gezinswoning-korting + kinderen-korting (Vlaams)."
+            ],
+            "resultaat": "De gemeentelijke opcentiemen vertegenwoordigen ≈ 93 % van het totaal (1.868 − 124,5 = 1.744 EUR). Indexcoëfficiënt + tarieven uit Cijferzakboekje opzoeken voor exacte berekening."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Opcentiemen verwarren met procent-tarief",
+        "verkeerde_assumptie": "1.500 opcentiemen = 1.500 % opslag = 15-voudig is correct, dus '1.500 opcentiemen op een basis van 100 EUR = 100.000 EUR'.",
+        "kernpunt": "1 opcentiem = 1/100 van het basisrecht. 1.500 opcentiemen = 1.500/100 = 15 × het basisrecht (= 15 keer, niet 1.500 keer). De totale heffing = basis × (1 + 1.500/100) = basis × 16. Op een basis van 100 EUR: 1.600 EUR — niet 100.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Veelvoorkomende rekenfout stagiairs" }]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "vastgoedeigenaar",
+      "naam": { "primair": "Cliënt-vastgoedeigenaar" },
+      "intro": "De accountant die de OV-kost voor cliënten met onroerend goed becijfert.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "ov-in-budget",
+              "naam": { "primair": "OV-totaal in cliëntbudget" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij aankoopadvies of jaarlijkse vermogensanalyse: bereken de OV-totaal inclusief opcentiemen voor elk pand. Aandachtspunt: bij cliënten met meerdere onroerende goederen in verschillende gemeenten kan de OV-druk fors verschillen — opcentiemen-vergelijking is een nuttige tabel in het cliëntdossier.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vastgoed-adviespraktijk" }]
+                  }
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "lokale-en-regionale-belastingen"
-    }
+    { "type": "valt_onder", "target": "onroerende-voorheffing" },
+    { "type": "vereist", "target": "kadastraal-inkomen", "toelichting": "Het geïndexeerd KI is de basis voor de OV-berekening; opcentiemen zijn de vermenigvuldigingsfactor erbovenop." }
   ]
 }
