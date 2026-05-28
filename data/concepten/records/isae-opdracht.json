@@ -11,84 +11,234 @@
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.6.I.A",
-      "1.6.I.C"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.6.I.A", "1.6.I.C"],
     "scope": {
       "in": [
         "Assurance ANDERS DAN jaarrekening-audit",
-        "Voorbeelden: EBITDA-certificatie · prospectus-attest · service-organisatie-rapport (SOC) · duurzaamheidsrapport-assurance",
-        "ISAE 3000-serie (algemeen 3000 + specifiek 3400-3402)",
-        "Contractuele basis · scope + criteria per opdracht",
+        "Voorbeelden: EBITDA-certificatie, prospectus-attest, service-organisatie-rapport (SOC), duurzaamheidsrapport-assurance",
+        "ISAE 3000-serie (algemeen 3000 + specifiek 3400 prospectief, 3402 service-org)",
+        "Contractuele basis, scope en criteria per opdracht",
         "Assurance-niveau: redelijke OF beperkte zekerheid (per opdracht)"
       ],
       "out": [
-        {
-          "topic": "Parent-Σ opdracht-types",
-          "richting": "moet-verwijzen",
-          "ref": "opdracht-types"
-        },
-        {
-          "topic": "Bijzondere mandaten als overlappend categorisch begrip (sommige zijn ISAE)",
-          "richting": "moet-verwijzen",
-          "ref": "bijzondere-mandaten"
-        },
-        {
-          "topic": "Cyclus-aanpak (gedeeld)",
-          "richting": "moet-verwijzen",
-          "ref": "controleopdracht"
-        }
+        {"topic": "Parent-Σ opdracht-types", "richting": "moet-verwijzen", "ref": "opdracht-types"},
+        {"topic": "Bijzondere mandaten als overlappend categorisch begrip", "richting": "moet-verwijzen", "ref": "bijzondere-mandaten"},
+        {"topic": "Cyclus-aanpak (gedeeld)", "richting": "moet-verwijzen", "ref": "controleopdracht"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7-1m",
+      "wave_id": "cluster-extract-beroep-2026-05-28",
+      "iteratie": "concept-v1",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/isae-opdracht.json",
+      "primary_bronnen": [
+        "ISAE 3000 (herzien) — Assurance Engagements Other than Audits or Reviews of Historical Financial Information",
+        "ISAE 3400 — Prospective Financial Information",
+        "ISAE 3402 — Assurance Reports on Controls at a Service Organization",
+        "ISAE 3410 — Assurance Engagements on Greenhouse Gas Statements",
+        "ITAA-norm effectennorm (assurance bij effecten-verrichtingen)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T08:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T08:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-controle-beroep-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T17:00:00Z", "model": "claude-opus-4-7-1m", "wave_id": "cluster-extract-beroep-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle (ISAE-standaarden + ITAA-effectennorm)."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Een ISAE-opdracht (International Standard on Assurance Engagements) is een assurance-opdracht over informatie ANDERS dan de historische jaarrekening — denk aan prognoses, niet-financiële duurzaamheidsrapportering, EBITDA-certificering bij overname, prospectus-cijfers voor een kapitaalmarkt-uitgifte, of het rapport over de interne beheersing van een dienstverlener (SOC-rapport). De ISAE-reeks van de IAASB (International Auditing and Assurance Standards Board) biedt het normenkader: ISAE 3000 (herzien) is het algemene raamwerk, aangevuld met thema-specifieke standaarden (ISAE 3400 prospectief, ISAE 3402 service-organisaties, ISAE 3410 broeikasgassen, ...).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "norm", "naam": "ISAE 3000 (herzien) — Assurance Engagements", "ref": "scope"},
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Synthese ISAE-categorisatie"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een ISAE-opdracht onderscheidt zich van een controle-opdracht door wat ze controleert (niet de historische jaarrekening) en hoe ze rapporteert (kan redelijke of beperkte zekerheid zijn — de opdrachtgever bepaalt het assurance-niveau bij start). Voor de stagiair: in praktijk leiden ISAE-opdrachten tot ervaring met diverse 'attesterende' verslagen die buiten het commissarismandaat vallen. De vijf-fasen-aanpak lijkt op een audit (aanvaarden + plannen + bewijswerk + afronden + verslag), maar de criteria zijn vaak specifiek per dossier (bv. EBITDA volgens een specifieke definitie in een SPA, geen IFRS/BEGAAP). Beperkte zekerheid = 'negatieve formulering' ('niets is ons opgevallen ...') vs redelijke zekerheid = 'positieve formulering' ('naar ons oordeel ...').",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "norm", "naam": "ISAE 3000 (herzien) — Assurance Engagements", "ref": "definities + vereisten"},
+            {"type": "norm", "naam": "ITAA-norm effectennorm", "ref": "intro"},
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Praktijk-onderscheid assurance-niveaus"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis van ISAE-opdrachten is dat moderne stakeholders (banken, investeerders, regulatoren, NGO's) toenemend behoefte hebben aan onafhankelijke zekerheid over informatie die NIET in de wettelijke jaarrekening zit: duurzaamheidsdata, KPI's, interne controles van een outsourced dienstverlener, prognoses bij een overname. Zonder een internationaal kader zou elk land of elke beroepsorganisatie eigen 'ad hoc'-procedures ontwikkelen, met als gevolg incoherente kwaliteit en vergelijkbaarheid. De ISAE-reeks waarborgt dat assurance van die niet-jaarrekening-informatie volgens dezelfde principes als een audit gebeurt (onafhankelijkheid, professioneel-kritische instelling, bewijs, documentatie).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Ratio legis-synthese ISAE-noodzaak"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["controleopdracht"],
+      "naast_relevant": ["bijzondere-mandaten", "overeengekomen-procedures-opdracht"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "ISAE-reeks IAASB (van toepassing in België via verwijzing in ITAA-/IBR-normen)",
+        "toelichting": "Specifieke ISAE wordt bindend zodra een ITAA-norm of contract ernaar verwijst. Voor duurzaamheidsassurance: vanaf 2024 ook via de CSRD-richtlijn (Corporate Sustainability Reporting Directive)."
+      },
+      "voor": [
+        {
+          "tekst": "Wanneer een derde-partij (bank, investeerder, regulator) onafhankelijke zekerheid vraagt over informatie buiten de wettelijke jaarrekening — bv. EBITDA-certificering bij een M&A-transactie, prospectus-cijfers, SOC 1/2-rapport voor een service-organisatie, duurzaamheidsrapportering onder CSRD.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Praktische voorbeelden ISAE-opdrachten"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Wanneer de opdracht louter feitelijke procedures vereist zonder enig oordeel = AUP (overeengekomen-procedures-opdracht) onder ISRS 4400, niet ISAE. Wanneer ze de wettelijke jaarrekening dekt = controleopdracht onder ISA, niet ISAE.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "norm", "naam": "ISAE 3000 (herzien) — Assurance Engagements", "ref": "scope"},
+              {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Afbakening ISAE / AUP / audit"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "isae-3000-algemeen-kader",
+        "naam": {"primair": "ISAE 3000 (herzien) — algemeen kader"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "ISAE 3000 (herzien) is de overkoepelende standaard voor alle assurance-engagements die NIET historische financiële informatie betreffen. Bevat de algemene beginselen: onafhankelijkheid, professioneel-kritische instelling, kwaliteitsmanagement op opdrachtniveau, criteria voor aanvaarding/voortzetting, redelijke vs beperkte zekerheid, bewijsverzameling, documentatie, en verslagvorm. Specifieke thema-ISAE's (3400, 3402, 3410) bouwen voort op dit kader.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "norm", "naam": "ISAE 3000 (herzien) — Assurance Engagements", "ref": "vereisten"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "redelijke-vs-beperkte-zekerheid",
+        "naam": {"primair": "Redelijke zekerheid versus beperkte zekerheid"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Twee assurance-niveaus voor één opdracht: (1) Redelijke zekerheid (reasonable assurance) — vergelijkbaar met audit: bewijsdiepte hoog, positieve oordeelsformulering ('naar ons oordeel geeft de informatie een getrouw beeld'); (2) Beperkte zekerheid (limited assurance) — verkort bewijswerk, negatieve formulering ('niets is ons opgevallen dat ons doet geloven dat de informatie niet correct is'). De opdrachtgever kiest het niveau bij start, gebaseerd op het stakeholder-belang en het beschikbare budget. Niveau bepaalt aard, omvang en timing van de werkzaamheden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "norm", "naam": "ISAE 3000 (herzien) — Assurance Engagements", "ref": "vereisten"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "criteria-keuze",
+        "naam": {"primair": "Criteria voor de te beoordelen informatie"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vóór aanvaarding moet de beroepsbeoefenaar zich vergewissen dat er 'passende criteria' (suitable criteria) bestaan om de onderwerp-informatie aan te toetsen: ze moeten relevant, volledig, betrouwbaar, neutraal en begrijpelijk zijn. Bij duurzaamheidsassurance: criteria via ESRS (European Sustainability Reporting Standards). Bij EBITDA-certificering: criteria via de definitie in het contract (bv. SPA). Bij SOC 2: criteria via Trust Services Principles. Geen passende criteria = opdracht weigeren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "norm", "naam": "ISAE 3000 (herzien) — Assurance Engagements", "ref": "vereisten"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "specifieke-isae",
+        "naam": {"primair": "Specifieke ISAE-standaarden"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Naast ISAE 3000 bestaan thema-specifieke standaarden: (1) ISAE 3400 — opdrachten over prospectieve financiële informatie (forecast, budget, projection); (2) ISAE 3402 — assurance op interne beheersing van een service-organisatie (Type 1 = ontwerp; Type 2 = ontwerp + werking over een periode); (3) ISAE 3410 — broeikasgas-emissieverklaringen; (4) ISAE 3420 — pro-forma financiële informatie bij prospectus; (5) ISAE 3000 zelf voor alle overige duurzaamheids- en niet-financiële assurance. Bij overlap geldt de specifiekere standaard.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "norm", "naam": "ISAE 3400 — Prospective Financial Information", "ref": "scope"},
+                {"type": "norm", "naam": "ISAE 3402 — Assurance Reports on Controls at a Service Organization", "ref": "scope"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-soc-2",
+        "titel": "SOC 2-rapport voor cloud-dienstverlener (ISAE 3402)",
+        "context": "Een Belgische SaaS-leverancier (Aurelia Cloud BV) wordt door grote enterprise-klanten gevraagd om een SOC 2-rapport over zijn interne beheersing inzake beveiliging, beschikbaarheid en vertrouwelijkheid.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "norm", "naam": "ISAE 3402 — Assurance Reports on Controls at a Service Organization", "ref": "scope"},
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Didactisch ISAE-toepassingsvoorbeeld"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — Cliëntopdrachtbrief: criteria = Trust Services Principles + AICPA Trust Services Criteria; type = Type 2 (ontwerp + werking over 12 maanden); assurance-niveau = redelijke zekerheid.",
+              "Stap 2 — Planning: scope-afbakening (welke services, welke locaties), materialiteit, risico-inschatting per principe.",
+              "Stap 3 — Bewijswerk: ontwerp-toetsing (zijn de controles adequaat ontworpen?) + werking-toetsing (functioneren ze effectief over de hele 12-maanden-periode?).",
+              "Stap 4 — Afronding: rapport in ISAE 3402-vorm met (a) beschrijving van het systeem door management, (b) controle-objectieven, (c) controles en controles-werking, (d) oordeel van de assurance-provider.",
+              "Stap 5 — Distributie: het rapport mag door Aurelia Cloud worden gedeeld met huidige en toekomstige enterprise-klanten; ook hun auditors mogen erop steunen voor hun eigen jaarrekeningcontrole (ISA 402)."
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "ISAE verwarren met AUP (ISRS 4400)",
+        "verkeerde_assumptie": "Een opdracht met een lijst van afgesproken procedures = automatisch een ISAE-opdracht.",
+        "kernpunt": "AUP onder ISRS 4400 = GEEN assurance, GEEN oordeel — alleen feitelijke bevindingen. ISAE = WEL assurance, WEL oordeel (redelijk of beperkt). Wie 'agreed procedures' uitvoert kan geen positieve of negatieve oordeelsformulering geven; doet hij dat toch, dan overtreedt hij ISRS 4400. Bij twijfel: vraag de cliënt of hij een oordeel wil of louter feitenrelaas.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "norm", "naam": "ISAE 3000 (herzien) — Assurance Engagements", "ref": "scope"},
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Afbakening ISAE / AUP"}
+          ]
+        }
+      },
+      {
+        "titel": "Beperkte zekerheid als 'half-audit' beschouwen",
+        "verkeerde_assumptie": "Beperkte zekerheid (limited assurance) = de helft van het werk en de helft van de aansprakelijkheid.",
+        "kernpunt": "Beperkte zekerheid is geen 'discount-audit'. Het is een ander type oordeel met negatieve formulering ('niets is ons opgevallen dat ...'). De diepgang van het bewijswerk is wel beperkter, maar de beroepsbeoefenaar blijft volledig verantwoordelijk voor zijn oordeel — en moet kunnen documenteren waarom de uitgevoerde werkzaamheden voldoende waren om de negatieve conclusie te onderbouwen. Aansprakelijkheid blijft volledig in geval van zware fout.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "norm", "naam": "ISAE 3000 (herzien) — Assurance Engagements", "ref": "vereisten"},
+            {"type": "ai_model", "naam": "claude-opus-4-7-1m", "datum": "2026-05-28", "context": "Aansprakelijkheids-mis-vertelling beperkte zekerheid"}
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "opdracht-types"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "bijzondere-mandaten"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "controleopdracht"
-    }
+    {"type": "valt_onder", "target": "opdracht-types"},
+    {"type": "vergelijkbaar_met", "target": "bijzondere-mandaten"},
+    {"type": "vergelijkbaar_met", "target": "controleopdracht"}
   ]
 }
