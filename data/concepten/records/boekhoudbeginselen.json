@@ -4,16 +4,15 @@
     "primair": "Boekhoudbeginselen",
     "synoniemen": [
       "boekhoudkundige beginselen",
-      "GAAP-beginselen B-GAAP"
+      "GAAP-beginselen B-GAAP",
+      "Belgische boekhoudprincipes"
     ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
     "ankers": [
       "1.1.I",
       "1.1.I.A",
@@ -22,9 +21,24 @@
       "1.2.V.A"
     ],
     "provenance": {
-      "model": "skeleton-generator",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/boekhoudbeginselen.json",
+      "primary_bronnen": [
+        "KB 29-04-2019 art. 3:6 t.e.m. art. 3:33",
+        "CBN-advies 174/1",
+        "CBN-advies 2010/12",
+        "CBN-advies 2012/17",
+        "CBN-advies 2018/18",
+        "CBN-advies 2019/04",
+        "CBN-advies 154/1",
+        "CBN-advies 157/1",
+        "Richtlijn 2013/34/EU art. 6"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -33,6 +47,13 @@
         "model": "skeleton-generator",
         "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T07:05:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (KB 29-04-2019 art. 3:6 e.v., CBN-adviezen 174/1, 2010/12, 2012/17, 2018/18, 2019/04, Richtlijn 2013/34/EU)."
       }
     ],
     "scope": {
@@ -47,49 +68,449 @@
         "Niet-compensatie (activa en passiva apart, kosten en opbrengsten apart)"
       ],
       "out": [
-        {
-          "topic": "Concrete waarderingsregels per balanspost",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "Continuïteit als financiële-diagnose-trigger",
-          "richting": "moet-verwijzen",
-          "ref": "continuiteit"
-        },
-        {
-          "topic": "IFRS-conceptueel-kader (parallel)",
-          "richting": "mag-verwijzen",
-          "ref": "ifrs"
-        }
+        {"topic": "Concrete waarderingsregels per balanspost", "richting": "moet-verwijzen", "ref": "jaarrekening"},
+        {"topic": "Continuïteit als financiële-diagnose-trigger (alarmbel-procedure)", "richting": "moet-verwijzen", "ref": "continuiteit"},
+        {"topic": "IFRS-conceptueel-kader (parallel)", "richting": "mag-verwijzen", "ref": "ifrs"},
+        {"topic": "Wettelijk kader B-GAAP (WER + KB + CBN)", "richting": "moet-verwijzen", "ref": "belgisch-boekhoudrecht"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "tekst": "De boekhoudbeginselen zijn de fundamentele waarderings- en presentatie-uitgangspunten waarop het Belgisch boekhoudrecht steunt. Ze sturen alle concrete keuzes bij het opstellen van de jaarrekening: hoe waarderen we activa en passiva, wanneer erkennen we kosten en opbrengsten, mogen we activa en passiva tegenover elkaar wegstrepen, en mogen we waarderingsmethodes wijzigen van jaar tot jaar? De acht klassieke beginselen in het Belgisch stelsel zijn: trouw beeld, voorzichtigheid, going concern (continuïteit), bestendigheid (consistentie), matching, realisatie, materialiteit en niet-compensatie.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "skeleton-generator",
-              "datum": "2026-05-27"
-            }
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:6 t.e.m. art. 3:33", "context": "Algemene principes — waarderingsregels en toelichting"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Beginselen van een regelmatige boekhouding — algemeen kaderadvies"},
+            {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 6 (algemene financiële verslaggevingsprincipes)"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch sturen de beginselen elke boekingsbeslissing: ze bepalen of een waardering opwaarts mag worden bijgesteld (voorzichtigheid: nee voor latente winsten), of een toekomstig risico moet worden geboekt (voorzichtigheid + matching: ja als gerelateerd aan boekjaar), of een opbrengst al mag worden erkend (realisatie: pas bij prestatie geleverd), en of een methodewijziging mag (bestendigheid: enkel met motivering + impact-toelichting in bijlage). De beginselen werken als een coherent systeem — ze versterken elkaar (voorzichtigheid + realisatie) of corrigeren elkaar (matching kan strenge realisatie nuanceren). De CBN heeft expliciet een hiërarchie aangegeven: voorzichtigheid (historische kostprijs + realisatie) heeft voorrang op overeenstemmings-/matching-beginsel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12", "context": "Hiërarchische rangschikking — voorrang van voorzichtigheid op matching"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2012/17", "context": "Erkenning van opbrengsten en kosten — gerealiseerde winsten + lasten betreffende het boekjaar"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese werking samen — standaardleer"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is gericht op getrouw beeld + bescherming van crediteurs + vergelijkbaarheid in de tijd: (1) een boekhouding mag de werkelijkheid niet vertekenen — opwaartse aanpassingen op latent winstpotentieel of selectief weglaten van risico's zouden derden kunnen misleiden over de financiële gezondheid; (2) crediteurs (banken, leveranciers, fiscus, werknemers) hebben recht op een conservatieve weergave van het vermogen, eerder dan op een optimistische beurswaardering; (3) bestendigheid + niet-compensatie zorgen voor vergelijkbaarheid tussen jaren en transparantie van de samenstelling van vermogen en resultaat. De beginselen vertalen die normatieve eisen in concrete waarderingsspelregels — ze zijn de 'grondrechten' van het Belgisch boekhoudrecht.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 6 + art. 4 (true and fair view)"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer ratio legis B-GAAP-beginselen"}
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "belgisch-boekhoudrecht"
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["belgisch-boekhoudrecht"],
+      "kader": "belgisch-boekhoudrecht",
+      "naast_relevant": ["dubbele-boekhouding"],
+      "volgkennis": ["jaarrekening", "eindejaarsverrichtingen", "continuiteit"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB 29-04-2019 (uitvoering WVV) Boek 3, Titel 1, Hoofdstuk II + Richtlijn 2013/34/EU art. 6",
+        "toelichting": "De acht beginselen zijn al meer dan 50 jaar materieel stabiel — voortdurend bevestigd in CBN-adviezen, met identieke inhoud onder Boekhoudwet 1975, oud KB W.Venn. 30-01-2001, en huidig KB 29-04-2019. Nummering en presentatie wijzigden, materiële inhoud niet."
+      },
+      "voor": [
+        {
+          "tekst": "Toepasselijk bij elke boeking, elke waardering en elke jaarafsluiting in B-GAAP — geen enkele rekenpost ontsnapt aan minstens één van de beginselen. Vooral kritisch bij: (a) eindejaarswaardering van voorraden, vorderingen en deelnemingen (voorzichtigheid + realisatie); (b) erkenning van opbrengsten over meerdere boekjaren (matching + realisatie); (c) wijziging van waarderingsmethode (bestendigheid + toelichting); (d) verwerking van een continuïteitsrisico (going concern).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
+              {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:6 e.v."}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Beursgenoteerde ondernemingen die hun geconsolideerde jaarrekening in IFRS opstellen — daar geldt het IFRS Conceptual Framework (relevance, faithful representation, comparability, verifiability, timeliness, understandability) met aparte invulling: IFRS staat veel vaker fair-value-meting toe, terwijl B-GAAP rigide bij historische kostprijs blijft.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IFRS-Conceptual Framework — separately vs B-GAAP-beginselen"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Coherent normenkader dat houvast geeft bij waarderings- en boekingsdilemma's: in plaats van een eindeloze lijst regels bieden 8 beginselen een principle-based richting. Bij twijfel kan een accountant zich altijd op deze principes terugplooien.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Risico op manipulatie via selectieve toepassing — bv. een onderneming kan een opbrengst voortijdig erkennen door het realisatiemoment 'creatief' te interpreteren, of een voorziening achterwege laten door te beweren dat het risico 'niet voldoende geconcretiseerd' is. De accountant moet de beginselen consequent toepassen en afwijkingen documenteren in de toelichting bij de jaarrekening.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2018/25", "context": "Risico's en verliezen waarvan de waardering aleatoir is — toelichting verplicht"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard creative-accounting-kritiek"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "trouw-beeld",
+        "naam": {"primair": "Trouw beeld (true and fair view)"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De jaarrekening moet een getrouw beeld geven van het vermogen, de financiële positie en het resultaat van de onderneming. Dit is het meta-principe dat boven alle andere staat: indien strikte toepassing van een specifieke regel uitzonderlijk geen getrouw beeld geeft, moet ervan worden afgeweken én moet de afwijking in de toelichting worden gemotiveerd (true and fair view override).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 4 (true and fair view)"},
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:1 (algemene presentatie jaarrekening)"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorzichtigheid",
+        "naam": {"primair": "Voorzichtigheidsbeginsel"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Asymmetrische waardering: latente verliezen en risico's worden ten laste van het boekjaar geboekt zodra ze waarschijnlijk of zeker zijn; latente winsten worden NIET geboekt — pas wanneer ze gerealiseerd zijn. Praktisch: bij voorraadwaardering geldt 'laagste van aanschaffingsprijs en marktwaarde'; bij vorderingen worden waardeverminderingen geboekt bij twijfelachtige debiteuren; voor toekomstige risico's worden voorzieningen aangelegd. Het beginsel volgt rechtstreeks uit historische kostprijs en realisatie (CBN 2010/12: voorrang van voorzichtigheid op overeenstemming).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:11", "context": "Voorzichtigheid + waarderingsregels"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12", "context": "Hiërarchische rangschikking — voorrang voorzichtigheid"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2012/17", "context": "Erkenning gerealiseerde winsten + lasten/baten — volgt uit voorzichtigheidsbeginsel"},
+                {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 6 lid 1 punt c"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "going-concern",
+        "naam": {"primair": "Going concern (continuïteit)"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij waardering wordt verondersteld dat de onderneming haar bedrijf zal voortzetten in de afzienbare toekomst (minstens 12 maanden na balansdatum). Op die aanname rusten alle gebruikelijke waarderingsregels: afschrijvingen over economische gebruiksduur, voorraadwaardering tegen kostprijs, vorderingen op nominale waarde. Wanneer de continuïteit ernstig in vraag staat (cf. CBN 2018/18) en stopzetting of vereffening waarschijnlijk wordt, moeten de waarderingsregels worden aangepast naar liquidatiewaardering — activa op vermoedelijke realisatiewaarde, alle verliezen onmiddellijk geboekt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18", "context": "Going concern — waarderingsregels bij stopzetting of vereffening"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2019/04", "context": "Going concern bij Brexit-impact"},
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:6 §2", "context": "Continuïteitsveronderstelling als basis waarderingsregels"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bestendigheid",
+        "naam": {"primair": "Bestendigheid (consistentie)"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "De waarderingsregels worden van boekjaar tot boekjaar identiek toegepast. Wijziging is mogelijk maar moet (a) uitzonderlijk zijn, (b) gemotiveerd door een betere weergave van het getrouw beeld of door gewijzigde wetgeving, en (c) toegelicht in de bijlage met een kwantitatieve impactraming. CBN 154/1 behandelt expliciet wijzigingen ingegeven door gewijzigde wetgeving.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:7", "context": "Bestendigheid + voorwaarden voor wijziging"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "154/1", "context": "Wijziging waarderingsregels als gevolg van gewijzigde wetgeving — informatieverstrekking"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "matching",
+        "naam": {"primair": "Matching-beginsel (overeenstemmingsbeginsel)"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Kosten en opbrengsten worden boekhoudkundig toegerekend aan het boekjaar waarop ze betrekking hebben — niet aan het kasjaar. Concreet: overlopende rekeningen (klasse 49) worden gebruikt om vooruit-betaalde kosten te activeren, nog te ontvangen opbrengsten te boeken, of nog te betalen kosten en vooruit-ontvangen opbrengsten te passiveren. Het matching-beginsel zit ondergeschikt aan voorzichtigheid (CBN 2010/12): bij conflict heeft voorzichtigheid voorrang.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:10", "context": "Toerekening kosten/opbrengsten aan boekjaar"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12", "context": "Voorrang voorzichtigheid op overeenstemmingsbeginsel"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2012/17"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "realisatie",
+        "naam": {"primair": "Realisatie-beginsel"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Een opbrengst is pas 'gerealiseerd' en mag pas geboekt worden als de onderliggende prestatie (levering van goederen of dienstverlening) is geleverd, en de rechtszekerheid + waarderingszekerheid voldoende is. Verkoopcontracten die nog niet zijn uitgevoerd, voorschotten ontvangen voor toekomstige leveringen, of order-orders zonder levering — al die situaties leveren géén gerealiseerde opbrengst. CBN 157/1 + 2012/15 geven het standaardvoorbeeld 'voorschot op bestelling van meubels'. Uitzondering: voor bestellingen in uitvoering (klasse 37) kan een onderneming kiezen voor de percentage-of-completion-methode (CBN 2012/15).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "157/1", "context": "Tijdstip waarop de winst is gerealiseerd — voorschot vs levering"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2012/15", "context": "Bestellingen in uitvoering — make-then-sell vs sell-then-make"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2012/17", "context": "Erkenning gerealiseerde winsten betreffende het boekjaar"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "materialiteit",
+        "naam": {"primair": "Materialiteit (wezenlijkheid)"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Een informatie is materieel als haar weglating of foutieve weergave de economische beslissingen van gebruikers van de jaarrekening zou kunnen beïnvloeden. Voor het bekomen van een getrouw beeld moet aan elke materiële informatie aandacht worden besteed; immateriële posten mogen worden samengevoegd of vereenvoudigd. Het beginsel laat een redelijke proportionaliteit toe in de boekhoudkundige inspanning: een rekening van 50 EUR vraagt niet dezelfde diepgang als een rekening van 500.000 EUR.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 6 lid 1 punt j (materialiteit)"},
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:6"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "niet-compensatie",
+        "naam": {"primair": "Niet-compensatieprincipe"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Activa en passiva worden afzonderlijk gewaardeerd en getoond; kosten en opbrengsten worden afzonderlijk geboekt. Een vordering op klant A mag NIET worden gecompenseerd met een schuld aan klant A (uitzonderingen: enkel als wettelijk of contractueel een nettings-recht bestaat én de onderneming dat ook zo zal afwikkelen). Resultaat: balans- en resultatenrekening tonen het bruto-volume van transacties — vergelijkbaarheid blijft mogelijk en informatie wordt niet verstopt achter saldering.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 6 lid 1 punt g (non-set-off)"},
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:8"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-voorzichtigheid-voorraad",
+        "titel": "Voorzichtigheid + realisatie — voorraad-eindejaarswaardering",
+        "context": "Een handelsonderneming heeft 100 stuks elektronica in voorraad. Aanschaffingsprijs = 200 EUR/stuk; recente marktprijs zakte naar 150 EUR/stuk (technische veroudering). Boekjaar sluit op 31/12.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:11 + art. 3:54 (voorraadwaardering)"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — aanschaffingsprijs voorraad: 100 × 200 = 20.000 EUR (geboekt op 3401 Voorraad handelsgoederen).",
+              "Stap 2 — marktwaarde op balansdatum: 100 × 150 = 15.000 EUR.",
+              "Stap 3 — voorzichtigheid + realisatie: latente winst (mark-up boven kostprijs) NIET boeken; latent verlies (waarde onder kostprijs) WEL boeken.",
+              "Stap 4 — boek waardevermindering: verschil = 20.000 − 15.000 = 5.000 EUR.",
+              "Stap 5 — boeking: 6310 Waardeverminderingen op voorraden — Toevoeging 5.000 D / 3409 Geboekte waardeverminderingen op voorraden 5.000 C."
+            ],
+            "resultaat": "Balans toont voorraad voor 15.000 EUR (netto). Resultaat van het boekjaar is met 5.000 EUR verminderd. Als de marktprijs volgend jaar herstelt naar 220 EUR/stuk: latente winst opnieuw NIET boeken — voorraad blijft gewaardeerd tegen 15.000 EUR tot effectieve verkoop."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-realisatie-voorschot",
+        "titel": "Realisatie-beginsel — voorschot op bestelling (CBN 157/1)",
+        "context": "Een meubelhandelaar ontvangt op 20/12 een voorschot van 3.000 EUR voor een meubelset (totale verkoopprijs 10.000 EUR). De meubels worden in Duitsland gefabriceerd; levering aan de klant gebeurt pas in maart van het volgend boekjaar.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "157/1", "context": "Tijdstip waarop de winst is gerealiseerd — voorschot vs levering"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2012/17"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Boeking bij ontvangst voorschot op 20/12:\n\n| Rekening | Omschrijving | Debet | Credit |\n|----------|--------------|-------|--------|\n| 5500 | Bank — ontvangst voorschot | 3.000 | |\n| 46 | Ontvangen vooruitbetalingen op bestellingen (klasse 4 passief) | | 3.000 |\n\nOp 31/12 (afsluiting boekjaar): het voorschot van 3.000 EUR blijft op de PASSIEFREKENING 46 — niet op de opbrengstrekening 70 — want de prestatie (levering) is nog niet geleverd. Het realisatiebeginsel verbiedt om de 3.000 EUR (of een deel ervan) al als opbrengst van het boekjaar te erkennen.\n\nPas in maart van het volgend boekjaar, bij effectieve levering, wordt geboekt:\n\n- 4000 Handelsvorderingen 10.000 D (volledige factuur)\n- 70 Verkopen handelsgoederen 10.000 C\n- 46 Ontvangen vooruitbetalingen 3.000 D / 4000 Handelsvorderingen 3.000 C (afboeken voorschot)\n- restant te ontvangen: 7.000 EUR op klantrekening."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-bestendigheid-wijziging",
+        "titel": "Bestendigheid — afschrijvingsmethode wijzigen (CBN 154/1)",
+        "context": "Een onderneming heeft een productiemachine van 100.000 EUR die ze tot nu afschreef volgens degressieve methode (saldo-methode, 20%). In jaar 3 wil de onderneming overschakelen naar lineaire afschrijving over 10 jaar omdat de degressieve methode de werkelijke economische gebruiksduur niet meer goed weerspiegelt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:7", "context": "Wijziging waarderingsregels"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "154/1"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Voorwaarden voor de wijziging (bestendigheid is uitgangspunt):\n\n1. **Motivering** — de wijziging moet voortvloeien uit een betere weergave van het getrouw beeld (hier: de economische gebruiksduur is gelijkmatiger dan degressief verondersteld). Louter fiscale optimalisatie volstaat NIET.\n2. **Toelichting in bijlage** — de wijziging wordt vermeld in de waarderingsregels van het boekjaar én in de toelichting bij de jaarrekening, met kwantitatieve impactraming.\n3. **Prospectief toepassen** — geen retroactieve aanpassing van vorige boekjaren; de nieuwe methode wordt enkel toegepast vanaf het lopende boekjaar.\n\nBerekening:\n- Na 2 jaar degressief: boekwaarde = 100.000 × 0,8 × 0,8 = 64.000 EUR (cumulatieve afschrijvingen = 36.000 EUR).\n- Vanaf jaar 3 lineair over 8 resterende jaren = 8.000 EUR/jaar.\n- Zonder wijziging zou jaar 3 degressief = 64.000 × 20% = 12.800 EUR geweest zijn.\n- Verschil 4.800 EUR in jaar 3 — meldingsplichtig in bijlage."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-going-concern-twijfel",
+        "titel": "Going concern in twijfel — overschakeling op liquidatiewaardering (CBN 2018/18)",
+        "context": "Een onderneming in vereffeningsproblemen heeft op balansdatum een installatie met netto-boekwaarde 80.000 EUR (kostprijs 200.000 − afschrijvingen 120.000). De vermoedelijke realisatiewaarde bij verkoop op afbraak is 20.000 EUR.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18", "context": "Waarderingsregels bij stopzetting of vereffening — going-concern-overstap"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — going-concern-veronderstelling herzien: bestuursorgaan moet vaststellen dat continuïteit niet meer waarschijnlijk is.",
+              "Stap 2 — overschakeling waarderingsregels (CBN 2018/18): activa op vermoedelijke realisatiewaarde.",
+              "Stap 3 — installatie afwaarderen van 80.000 EUR (netto-boekwaarde) naar 20.000 EUR (realisatiewaarde).",
+              "Stap 4 — uitzonderlijk verlies: 60.000 EUR.",
+              "Stap 5 — boeking: 6630 Uitzonderlijke afschrijvingen + waardeverminderingen op materiële vaste activa 60.000 D / 2208 Geboekte waardeverminderingen 60.000 C.",
+              "Stap 6 — toelichting in bijlage: motivatie + impact + (indien nog niet vereffend) consequenties voor toekomstige boekjaren."
+            ],
+            "resultaat": "De jaarrekening geeft een liquidatiebeeld i.p.v. een going-concern-beeld. Crediteurs krijgen een realistische schatting van wat ze kunnen recupereren bij effectieve vereffening. Materiële wijziging — bestuursorgaan + commissaris moeten dit expliciet onderschrijven."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Matching-beginsel boven voorzichtigheidsbeginsel plaatsen",
+        "verkeerde_assumptie": "Studenten denken vaak dat alle beginselen gelijkwaardig zijn en dat matching ('kosten en opbrengsten in juiste periode') automatisch toelaat om winsten naar voren te schuiven via toerekening.",
+        "kernpunt": "CBN-advies 2010/12 expliciteert: voorzichtigheid (= historische kostprijs + realisatie) heeft VOORRANG op het overeenstemmingsbeginsel. Bij conflict: latente winst NIET boeken, latent verlies WEL. Matching kan dus geen vroegtijdige winstboeking rechtvaardigen — wel een vroegtijdige kost- of voorzieningboeking.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12", "context": "Hiërarchische rangschikking — voorrang voorzichtigheid op overeenstemming"}
+          ]
+        }
+      },
+      {
+        "titel": "Going concern als 'automatische' veronderstelling",
+        "verkeerde_assumptie": "Going concern geldt altijd — je past het 'gewoon toe' tot het bestuursorgaan beslist tot vereffening.",
+        "kernpunt": "Going concern is een te bevestigen veronderstelling — niet automatisch. Bij elke jaarafsluit moet het bestuursorgaan (en bij audit ook de commissaris) actief beoordelen of de continuïteit nog gerechtvaardigd is. CBN 2018/18 geeft hier de procedure: bij materiële onzekerheid is een toelichting verplicht; bij waarschijnlijke stopzetting overschakelen op liquidatiewaardering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"}
+          ]
+        }
+      },
+      {
+        "titel": "Niet-compensatie 'voor het overzicht' negeren",
+        "verkeerde_assumptie": "Voor de leesbaarheid is het handig om een vordering op klant A en een schuld aan klant A te salderen op de balans.",
+        "kernpunt": "Niet-compensatieprincipe verbiedt dit zonder wettelijke of contractuele nettings-basis. Brutowaarden moeten op de balans staan: vordering 10.000 D op klant A in klasse 4000 + schuld 4.000 K aan klant A in klasse 4400. Saldering verbergt het werkelijke volume van credit-blootstelling en zou een misleidend beeld geven aan derden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:8"},
+            {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 6 lid 1 punt g"}
+          ]
+        }
+      },
+      {
+        "titel": "Bestendigheid als 'verbod op verbetering'",
+        "verkeerde_assumptie": "Bestendigheid betekent dat je nooit van waarderingsmethode mag veranderen.",
+        "kernpunt": "Bestendigheid is geen verbod — het stelt voorwaarden: motivering (betere weergave getrouw beeld of gewijzigde wetgeving) + toelichting + kwantitatieve impactraming + prospectieve toepassing. Een goed gemotiveerde methodewijziging is volledig conform B-GAAP.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "154/1"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "vereist",
-      "target": "jaarrekening"
+      "id": "kantoor-bij-jaarafsluit",
+      "naam": {"primair": "Kantoor bij jaarafsluit van cliënt"},
+      "intro": "Bij elke jaarafsluit toetst de accountant of de boekhoudbeginselen consequent zijn toegepast — vooral bij waarderingen die discretionair zijn (voorzieningen, waardeverminderingen, going concern).",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "checklist-eindejaar",
+              "naam": {"primair": "Beginselen-checklist bij eindejaarsverrichtingen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij eindejaar: (1) voorzichtigheid — alle vorderingen nagaan op dubieus karakter (waardeverminderingen klasse 409/29); voorraden tegen laagste van kostprijs/marktwaarde; voorzieningen voor gekende risico's; (2) realisatie — voorschotten ontvangen blijven op 46 tot levering; bestellingen in uitvoering volgens gekozen methode (CBN 2012/15); (3) matching — overlopende rekeningen klasse 49 voor periode-toerekening; (4) going concern — bestuursorgaan om bevestiging vragen; bij twijfel CBN 2018/18-procedure starten.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
+                      {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk eindejaarschecklist"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "auditor-going-concern-toets",
+              "naam": {"primair": "Going-concern-toets door de commissaris"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De commissaris moet in elke controleopdracht een afzonderlijk oordeel vormen over de going-concern-veronderstelling (cf. ISA 570). Procedure: (a) review bedrijfsplan + cash-flow-projecties 12 maanden; (b) check actuele financiële indicatoren (current ratio, schuldgraad, EBITDA-trend); (c) bij materiële onzekerheid → toelichting verplicht; bij ongepaste going-concern-aanname → afkeurend oordeel; (d) coördinatie met bestuursorgaan over alarmbel-procedure (WVV).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "norm", "naam": "ISA 570", "ref": "ISA 570 (Continuïteit)"},
+                      {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "belgisch-boekhoudrecht"},
+    {"type": "vereist", "target": "jaarrekening", "toelichting": "De beginselen vormen het waarderings-kader waarbinnen de jaarrekening tot stand komt."},
+    {"type": "beinvloed_door", "target": "continuiteit", "toelichting": "Going concern als boekhoudbeginsel hangt samen met de WVV-alarmbel-procedure: bij continuïteits-risico moet zowel de waardering (CBN 2018/18) als de bestuursrechtelijke procedure (alarmbel WVV 7:228) in werking treden."},
+    {"type": "vergelijkbaar_met", "target": "ifrs", "gelijkenissen": ["Beide stelsels kennen 'true and fair view' als overkoepelend principe", "Beide kennen materialiteit, consistentie en niet-compensatie"], "verschillen": ["B-GAAP plaatst voorzichtigheid op de eerste plaats; IFRS Conceptual Framework herziening 2018 schrapt voorzichtigheid als pijler (vervangen door 'neutrality with prudence')", "B-GAAP houdt vast aan historische kostprijs als regel; IFRS staat fair value veel breder toe (IAS 16 herwaardering, IFRS 9 financiële instrumenten, IAS 40 vastgoedbeleggingen)", "B-GAAP-realisatie-beginsel is strenger dan IFRS 15 (5-stappenmodel — opbrengst over tijd kan)"], "verwarring_risico": "Studenten met IFRS-achtergrond passen soms IFRS-erkenningsmodellen toe op B-GAAP-cijfers en boeken voortijdig opbrengsten of fair-value-aanpassingen. Strikt: B-GAAP-jaarrekening volgt B-GAAP-beginselen — IFRS is een alternatief stelsel, geen 'verbeterde' versie.", "render_hint": "als_waarschuwing"}
   ]
 }
