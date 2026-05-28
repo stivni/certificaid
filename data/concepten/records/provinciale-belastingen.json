@@ -6,7 +6,7 @@
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -14,9 +14,20 @@
       "2.7.II.B"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/provinciale-belastingen.json",
+      "primary_bronnen": [
+        "Grondwet art. 41",
+        "Grondwet art. 162",
+        "Grondwet art. 170 §4",
+        "WIB92 art. 464",
+        "Vlaams Provinciedecreet (afbouw provinciale fiscaliteit sinds 2018)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -25,6 +36,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:45:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld: opcentiemen OV + eigen provinciale belastingen + Vlaamse afbouw 2018. Cluster anti-misbruik-lokaal."
       }
     ],
     "scope": {
@@ -45,20 +63,179 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van lokale-en-regionale-belastingen.",
+        "tekst": "Provinciale belastingen zijn belastingen geheven door de tien Belgische provincies (vijf Vlaamse, vijf Waalse — Brussel heeft geen provincies meer sinds 1995) op basis van hun fiscale autonomie. De grondslag is identiek aan die van de gemeente (GW art. 41, 162, 170 §4): het reglement wordt gestemd door de provincieraad. Twee hoofdcategorieën: (a) provinciale opcentiemen op de gewestelijke onroerende voorheffing — verreweg de belangrijkste opbrengstpost; (b) eigen provinciale belastingen op specifieke activiteiten of situaties (bedrijfsbelasting, milieu, omgevingsvergunningen, waterwingebieden…). De provincie mag — net als de gemeente — geen opcentiemen heffen op PB, VenB, RPB of BNI (WIB92 art. 464).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 41" },
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 162" },
+            { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170 §4" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Concrete invulling verschilt sterk per gewest. In Vlaanderen werden sinds 1 januari 2018 provinciale persoonsgebonden bevoegdheden (cultuur, sport, welzijn, jeugd) overgedragen aan Vlaanderen of de gemeenten, en de provinciale fiscaliteit drastisch teruggeschroefd: provinciale opcentiemen op OV werden geplafonneerd en eigen provinciale belastingen zijn nu beperkt tot een handvol (algemene provinciebelasting per gezin/bedrijf, milieubelasting). De vroegere ontvangsten werden vervangen door dotaties uit het Vlaamse Gemeentefonds. In Wallonië bestaan de provincies nog volledig en heffen substantiële eigen belastingen (bv. de Waalse 'taxe provinciale sur les véhicules à moteur' werd federaal overgenomen, maar bedrijfsbelastingen, milieubelastingen en opcentiemen blijven).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese Vlaamse interne staatshervorming 2014-2018 + Waalse situatie" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Historisch dekten provinciebelastingen het tussenniveau tussen gemeente en gewest. Met de Vlaamse interne staatshervorming (2014-2018) werd dit niveau in Vlaanderen sterk uitgehold — de provincie houdt nog enkel grondgebonden bevoegdheden (ruimtelijke ordening, mobiliteit, milieu) en haar fiscaliteit krimpt mee. In Wallonië bleef het tussenniveau substantieel — provincies beheren scholen, ziekenhuizen, sociale projecten en hebben evenredige fiscaliteit nodig. Het beleidsverschil verklaart waarom dezelfde wettelijke grondslag (GW art. 170 §4) in beide gewesten heel verschillend uitwerkt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis interne staatshervorming Vlaanderen vs Wallonië" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "lokale-fiscale-autonomie"
+      ],
+      "kader": "lokale-en-regionale-belastingen"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "uitdovend",
+        "sinds": "2018-01-01",
+        "wettelijke_basis": "Vlaams Provinciedecreet + Decreet Lokaal Bestuur — afbouw persoonsgebonden bevoegdheden + provinciale fiscaliteit",
+        "toelichting": "In Vlaanderen is provinciale fiscaliteit sinds de interne staatshervorming sterk gekrompen — eigen belastingen beperkt tot enkele categorieën, opcentiemen op OV geplafonneerd. In Wallonië en het Brusselse Hoofdstedelijke Gewest (laatste behoudt geen provincie) is de regeling stabiel. Op middellange termijn (Vlaamse beleidsintentie): verdere afbouw."
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke vastgoedinvestering: tel het effectieve OV-tarief = gewestelijk basistarief + gemeentelijke opcentiemen + provinciale opcentiemen. De provinciale opcentiemen liggen typisch tussen 200 en 350 (op basis 100 = gewestelijk tarief).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard berekeningspraktijk OV" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "regel-opcentiemen-ov",
+        "naam": {
+          "primair": "Provinciale opcentiemen op onroerende voorheffing"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De provincieraad bepaalt jaarlijks de provinciale opcentiemen op de gewestelijke onroerende voorheffing. In Vlaanderen sinds 2018 wettelijk geplafonneerd (op basis van bevroren niveaus 2017 + indexering). In Wallonië nog vrij vastgesteld binnen de wettelijke grenzen. De inning gebeurt samen met de gewestelijke OV — de gewestelijke administratie int en stort door aan de provincie.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.1 e.v.", "context": "Vlaamse OV + opcentiemen-mechanisme" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Plafondregel Vlaanderen 2018" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-eigen-belastingen",
+        "naam": {
+          "primair": "Eigen provinciale belastingen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Eigen provinciale belastingen zijn afgebakend door GW art. 170 §4 (raadsbeslissing), art. 172 (gelijkheid) en WIB92 art. 464 (geen opcentiemen op PB/VenB/BNI). Typische voorbeelden: algemene provinciebelasting (forfait per gezin en per bedrijf), provinciale milieubelasting (vaak gekoppeld aan oppervlakte of activiteit), belasting op grondwaterwinning, op bouwen in waterwingebieden, op masten en pylonen. Tarieven verschillen sterk per provincie.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Grondwet", "ref": "art. 170 §4" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-overzicht eigen provinciale belastingen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "mechanisme-vlaamse-afbouw",
+        "naam": {
+          "primair": "Vlaamse afbouw provinciale fiscaliteit sinds 2018"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De Vlaamse interne staatshervorming droeg provinciale persoonsgebonden bevoegdheden over aan Vlaanderen of gemeenten, en plafonneerde de provinciale fiscaliteit. Concreet: provinciale opcentiemen op OV bevroren op niveau 2017 + indexering; eigen provinciale belastingen beperkt tot grondgebonden materies; ontvangstenverlies gecompenseerd via Vlaams Gemeentefonds. Effect: provinciale fiscale autonomie de jure intact (GW art. 170 §4), de facto sterk gereduceerd.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese Vlaamse staatshervorming 2014-2018" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Provinciale belastingen even belangrijk als gemeentelijke?",
+        "verkeerde_assumptie": "Stagiairs denken dat provinciale fiscaliteit een vergelijkbare omvang heeft als gemeentelijke.",
+        "kernpunt": "In Vlaanderen liggen provinciale ontvangsten een orde van grootte lager dan gemeentelijke — voornamelijk OV-opcentiemen + algemene provinciebelasting; aanvullende gemeentebelasting PB bestaat niet op provincieniveau (verboden door WIB92 art. 464). In Wallonië is het verhoudingsgewijs gewichtiger, maar nog steeds kleiner dan het gemeentelijke niveau.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vergelijking lokale fiscale ontvangsten" }
+          ]
+        }
+      },
+      {
+        "titel": "Provincie ≠ aanvullende gemeentebelasting op PB",
+        "verkeerde_assumptie": "Provincie kan opcentiemen heffen op PB net als de gemeente.",
+        "kernpunt": "WIB92 art. 464 verbiedt provinciale opcentiemen op PB/VenB/BNI. Enkel de gemeente heeft het wettelijk geregelde recht (art. 465) om opcentiemen op de PB te heffen. De provincie blijft beperkt tot opcentiemen op OV + eigen belastingen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 464" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 465" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "vastgoedadvies",
+      "naam": {
+        "primair": "Vastgoedadvies — provinciale OV-impact"
+      },
+      "intro": "Bij berekening van de jaarlijkse cash-out op vastgoed identificeert de accountant de drie OV-componenten (gewest + gemeente + provincie).",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "ov-decompositie",
+              "naam": { "primair": "OV-tarief decomposeren in drie lagen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Effectief OV-bedrag = kadastraal inkomen × indexcoëfficiënt × (gewestelijk basistarief 3,97% Vlaanderen / 1,25% Wallonië/Brussel) × (1 + gemeentelijke opcentiemen + provinciale opcentiemen). Voor accountantsadvies: vraag de cliënt het aanslagbiljet OV — daar staan de drie lagen apart vermeld. Bij gewest-overschrijdende portefeuilles: per goed apart berekenen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "VCF", "ref": "art. 2.1 e.v." },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardberekening OV" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",

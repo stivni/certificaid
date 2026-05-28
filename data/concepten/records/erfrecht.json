@@ -1,22 +1,31 @@
 {
   "id": "erfrecht",
   "naam": {
-    "primair": "Erfrecht"
+    "primair": "Erfrecht",
+    "synoniemen": ["nalatenschapsrecht"],
+    "vertaling": {"fr": "droit successoral"}
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.6.VI"
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "regeling"],
+    "ankers": ["2.6.VI"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/erfrecht.json",
+      "primary_bronnen": [
+        "Burgerlijk Wetboek Boek 4",
+        "BW art. 4.1 — devolutie",
+        "BW art. 4.18 — vruchtgebruik langstlevende",
+        "BW art. 4.23 — verzaking",
+        "BW art. 4.69 e.v. — reserve"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -25,6 +34,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Burgerrechtelijke grondslag erfrecht: devolutie + reserve + aanvaarding gevuld vanuit bundle (Boek 4 BW)."
       }
     ],
     "scope": {
@@ -35,45 +51,302 @@
         "Aanvaarding · verwerping · onder voorrecht van boedelbeschrijving"
       ],
       "out": [
-        {
-          "topic": "Erfbelasting fiscaal",
-          "richting": "moet-verwijzen",
-          "ref": "erfbelasting"
-        },
-        {
-          "topic": "Huwelijksvermogensrecht (interactie)",
-          "richting": "moet-verwijzen",
-          "ref": "huwelijksvermogensrecht"
-        },
-        {
-          "topic": "Testament als instrument",
-          "richting": "moet-verwijzen",
-          "ref": "testament-instrument"
-        }
+        {"topic": "Erfbelasting fiscaal", "richting": "moet-verwijzen", "ref": "erfbelasting"},
+        {"topic": "Huwelijksvermogensrecht (interactie)", "richting": "moet-verwijzen", "ref": "huwelijksvermogensrecht"},
+        {"topic": "Testament als instrument", "richting": "moet-verwijzen", "ref": "testament-instrument"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "Het erfrecht is het deel van het burgerlijk recht dat regelt hoe het vermogen van een overledene overgaat op zijn rechtsopvolgers. Het is gecodificeerd in Boek 4 van het Burgerlijk Wetboek (sinds de hervorming van 2017-2018, in voege op 01-09-2018). Het erfrecht antwoordt op drie kernvragen: (1) wie erft? (de erfgenamen volgens wettelijke devolutie of testamentaire beschikking); (2) hoeveel erft elk? (aandeelregels + reservatair erfdeel); (3) hoe gebeurt de overgang procedureel? (aanvaarding, verwerping, aanvaarding onder voorrecht van boedelbeschrijving, vereffening-verdeling). Het erfrecht is de burgerrechtelijke grondslag waarop de fiscale erfbelasting voortbouwt.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "Boek 4"},
+            {"type": "wettekst", "naam": "Wet 31 juli 2017 hervorming erfrecht", "ref": "B.S. 01-09-2017"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch zijn er twee 'mechanismen' van erfopvolging die naast elkaar bestaan: (a) wettelijke devolutie — als er geen testament is, bepaalt de wet wie erft volgens vooraf vastgelegde orden en graden van verwantschap (afstammelingen, ouders, broers/zussen, ascendenten, langstlevende echtgenoot); (b) testamentaire devolutie — de erflater wijst zelf erfgenamen aan via testament binnen de grenzen van het beschikbaar deel. Bovenop deze devolutie staan dwingende regels (reserve voor afstammelingen en langstlevende echtgenoot, gelijke behandeling van afstammelingen, verbod op pacten over toekomstige nalatenschap) en keuze-rechten voor de erfgenaam (zuivere aanvaarding, aanvaarding onder voorrecht van boedelbeschrijving, verwerping).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.1 e.v.", "context": "Devolutie"},
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.69 e.v.", "context": "Reserve"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer erfrecht"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het erfrecht heeft drie spanningsvelden te overbruggen: (1) autonomie van de erflater (testamentvrijheid) tegenover bescherming van naasten (reserve); (2) eenvoud en rechtszekerheid (wettelijke devolutie) tegenover flexibiliteit (testament, schenking, huwelijkscontract); (3) familiale continuïteit tegenover fiscale herverdeling. De hervorming van 2018 heeft de reserve van de afstammelingen verkleind (van 1/2 - 3/4 naar steeds 1/2 in totaal, ongeacht het aantal kinderen) om meer testamentvrijheid te geven, en de positie van de langstlevende echtgenoot versterkt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.71 e.v.", "context": "Reserve afstammelingen 1/2"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doelstellingen hervorming 2018"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "registratie-en-successierechten",
+      "naast_relevant": ["huwelijksvermogensrecht"],
+      "volgkennis": ["erfbelasting", "aangifte-nalatenschap", "successieplanning"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Burgerlijk Wetboek Boek 4 (hervormd door wet 31-07-2017, in voege 01-09-2018)",
+        "toelichting": "Boek 4 is in voege sinds 01-09-2018 en vervangt het oude erfrecht uit het Code Napoléon. Overgangsbepalingen blijven van toepassing voor nalatenschappen die vóór die datum openvielen."
+      },
+      "trigger_start": [
+        {
+          "tekst": "Het overlijden van een natuurlijke persoon. Op dat ogenblik 'valt de nalatenschap open' en gaat het patrimonium van rechtswege over op de erfgenamen (saisine).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.1"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "wettelijke-devolutie",
+        "naam": {"primair": "Wettelijke devolutie (intestaat erfrecht)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij gebrek aan testament gaat de nalatenschap over volgens vier opeenvolgende orden: (1) afstammelingen (kinderen, kleinkinderen via plaatsvervulling); (2) ouders + broers/zussen (samen of apart, volgens regels); (3) andere ascendenten (grootouders); (4) andere bloedverwanten tot vierde graad. Binnen elke orde gaat de naaste graad voor. Daarbovenop heeft de langstlevende echtgenoot een eigen erfrecht dat parallel loopt aan deze orden — typisch het vruchtgebruik op de hele nalatenschap als er kinderen zijn, de volle eigendom als er geen kinderen zijn (samen met of in plaats van de andere erfgenamen volgens regels). Wettelijk samenwonenden hebben een beperkt eigen erfrecht (gezinswoning + huisraad in vruchtgebruik).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.1 - 4.17", "context": "Orden + graden"},
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.18", "context": "Vruchtgebruik langstlevende echtgenoot"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "reservatair-erfdeel",
+        "naam": {"primair": "Reservatair erfdeel"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De reserve is het minimum-aandeel in de nalatenschap dat de erflater niet vrij kan wegschenken of weglegateren aan derden. Sinds 1-9-2018: (a) de afstammelingen hebben samen recht op de helft van de fictieve massa (= nalatenschap + alle teruggebrachte schenkingen) — ongeacht het aantal kinderen, te verdelen in gelijke delen; (b) de langstlevende echtgenoot heeft een reserve in vruchtgebruik op de helft van de nalatenschap én in volle eigendom op de gezinswoning + huisraad; (c) ouders hebben sinds 2018 geen reserve meer (afgeschaft). De rest van de nalatenschap is het 'beschikbaar deel' waarover de erflater vrij kan beschikken via testament of schenking.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.71", "context": "Reserve afstammelingen 1/2"},
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.73", "context": "Reserve langstlevende echtgenoot"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "testamentaire-devolutie",
+        "naam": {"primair": "Testamentaire devolutie"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Via een geldig opgesteld testament (notarieel, eigenhandig of internationaal volgens Verdrag van Washington) kan de erflater binnen het beschikbaar deel afwijken van de wettelijke devolutie. Drie types beschikkingen: (a) algemene legaten — geven recht op de hele nalatenschap of een breukdeel; (b) ten algemene titel — geven recht op een soort goederen (alle onroerende goederen); (c) bijzondere — geven recht op een welbepaald goed. Een testament kan op elk ogenblik herroepen worden. De erfrechtelijke globaalreserve van de reservataire erfgenamen kan via testament niet worden geraakt — overschrijding leidt tot inkorting na overlijden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.130 e.v.", "context": "Testament"},
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.150 e.v.", "context": "Legaten"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanvaarding-verwerping",
+        "naam": {"primair": "Aanvaarding · verwerping · onder voorrecht van boedelbeschrijving"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke erfgenaam heeft drie keuzemogelijkheden: (1) zuivere aanvaarding — neemt actief én passief van de nalatenschap over (ook schulden boven actief = persoonlijke aansprakelijkheid); (2) aanvaarding onder voorrecht van boedelbeschrijving — beperkt de aansprakelijkheid tot het actief (= geen persoonlijke aansprakelijkheid voor schulden boven actief, te verklaren bij de griffie + boedelbeschrijving binnen 3 maanden); (3) verwerping — geen erfgenaam meer, het deel valt aan de andere erfgenamen of in volgende orde. De keuze is, eens uitgedrukt, in principe onherroepelijk. Stilzwijgende handelingen die wijzen op aanvaarding (bv. verkoop van een goed uit de nalatenschap) gelden als zuivere aanvaarding.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.36 - 4.65", "context": "Drie keuzemogelijkheden"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vruchtgebruik-langstlevende",
+        "naam": {"primair": "Vruchtgebruik van de langstlevende echtgenoot"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer er afstammelingen zijn, krijgt de langstlevende echtgenoot in principe het vruchtgebruik op de hele nalatenschap; de afstammelingen krijgen de blote eigendom. Vanaf hervorming 2018: de langstlevende kan eisen dat het vruchtgebruik op de blote eigendom van de kinderen tegen kapitalisatie wordt omgezet in volle eigendom (uitkoopregeling) — kinderen kunnen omgekeerd ook een omzetting vragen op niet-gezinswoning-goederen. Voor de gezinswoning + huisraad heeft de langstlevende echtgenoot een dwingend recht op vruchtgebruik (kan niet eenzijdig worden uitgekocht).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.18", "context": "Vruchtgebruik langstlevende"},
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.27 - 4.32", "context": "Omzetting vruchtgebruik"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "inbreng-en-inkorting",
+        "naam": {"primair": "Inbreng en inkorting"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Inbreng: schenkingen die de erflater tijdens zijn leven aan erfgenamen heeft gedaan, worden bij de verdeling van de nalatenschap fictief 'opnieuw ingebracht' in de massa om gelijkheid tussen de erfgenamen te bewaren — tenzij de schenking met vrijstelling van inbreng werd gedaan (preciput). Inkorting: indien testamentaire beschikkingen of schenkingen het reservatair erfdeel van een of meer reservataire erfgenamen schenden, worden zij ingekort tot het beschikbaar deel niet meer overschreden is. Sinds 2018 gebeurt de inkorting in principe 'in waarde' (de begiftigde betaalt het excedent uit), niet meer 'in natura' — wat de continuïteit van schenkingen veiligstelt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.86 - 4.107", "context": "Inbreng + inkorting"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "erfovereenkomsten",
+        "naam": {"primair": "Erfovereenkomsten (sinds 2018)"},
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds 1-9-2018 erkent het Belgisch erfrecht onder strikte voorwaarden 'erfovereenkomsten' — voorheen verboden pacten over een toekomstige nalatenschap. Twee types: (a) globale erfovereenkomst — de erflater en al zijn erfgenamen (inclusief stiefkinderen) erkennen samen dat de eerder verrichte schenkingen 'subjectief gelijk' zijn — bevriest dus de discussie over inbreng/inkorting bij overlijden; (b) punctuele erfovereenkomsten — over één welbepaald aspect (vrijstelling van inbreng, omschrijving van een bestaande schenking). Strikte formele vereisten: notariële akte + bedenktermijnen + verplichte vermeldingen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.243 - 4.252", "context": "Erfovereenkomsten"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-twee-kinderen-langstlevende",
+        "titel": "Wettelijke devolutie — echtgenoot + 2 kinderen, geen testament",
+        "context": "Mark overlijdt. Hij laat een echtgenote Saskia en twee kinderen na. Nalatenschap: 600.000 EUR (na liquidatie huwelijksgemeenschap).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.18"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — Saskia krijgt vruchtgebruik op de volledige nalatenschap (art. 4.18 BW).",
+              "Stap 2 — Beide kinderen krijgen samen de blote eigendom van de volledige nalatenschap, in gelijke delen.",
+              "Stap 3 — Voor de gezinswoning: Saskia heeft dwingend vruchtgebruik. Voor overige goederen kunnen kinderen of Saskia omzetting in volle eigendom eisen.",
+              "Stap 4 — Indien Saskia het vruchtgebruik omzet op het effectenportefeuille-deel (waarde 200.000 EUR), wordt dat omgerekend volgens leeftijdstabel (bv. 50% bij leeftijd 65-69) — Saskia krijgt 100.000 EUR in volle eigendom, kinderen krijgen elk 50.000 EUR in volle eigendom."
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Hervorming 2018 vergeten — oude regels toepassen",
+        "verkeerde_assumptie": "Studenten leren nog de oude reserveregels (3/4 bij drie of meer kinderen) of vergeten dat de ouders sinds 2018 geen reserve meer hebben.",
+        "kernpunt": "Sinds 1-9-2018: globale reserve afstammelingen = 1/2, ongeacht aantal kinderen. Ouders hebben geen reserve meer. Langstlevende echtgenoot heeft reserve in vruchtgebruik op de helft + volle eigendom van gezinswoning + huisraad.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.71"},
+            {"type": "wettekst", "naam": "Wet 31 juli 2017", "ref": "B.S. 01-09-2017", "context": "Hervorming"}
+          ]
+        }
+      },
+      {
+        "titel": "Wettelijk samenwonende verwarren met echtgenoot",
+        "verkeerde_assumptie": "Een wettelijk samenwonende heeft 'bijna dezelfde' erfrechten als een echtgenoot.",
+        "kernpunt": "Wettelijk samenwonende heeft enkel een beperkt erfrecht: vruchtgebruik op de gezinswoning + huisraad (art. 4.19 BW). Géén vruchtgebruik op andere goederen, géén reserve. Erfbelasting daarentegen kent typisch gelijkstelling met echtgenoten (gewest-afhankelijk).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.19"}
+          ]
+        }
+      },
+      {
+        "titel": "Verwarring tussen erfrecht en erfbelasting",
+        "verkeerde_assumptie": "Wat het BW zegt over 'wie erft hoeveel' bepaalt automatisch ook 'wat de fiscale aanslag is'.",
+        "kernpunt": "Erfrecht (BW Boek 4) bepaalt de burgerrechtelijke aanspraak. Erfbelasting (VCF / W.Succ.) is een gewestelijke fiscale heffing die VOORTBOUWT op het erfrecht maar eigen regels heeft (fictiebepalingen, gewestelijke tarieven, vrijstellingen). Een goed kan civielrechtelijk niet tot de nalatenschap behoren maar er fiscaal wel deel van uitmaken (bv. levensverzekering — art. 8 W.Succ.).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 8"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "registratie-en-successierechten"
+      "id": "kennis-voor-fiscaal-advies",
+      "naam": {"primair": "Erfrechtelijke kennis voor fiscaal en planningsadvies"},
+      "intro": "De accountant is geen jurist, maar heeft voldoende erfrechtelijke kennis nodig om de fiscale aangifte correct op te stellen en om bij planningsadvies de civielrechtelijke gevolgen mee te bewaken.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "civiel-fiscaal-tandem",
+              "naam": {"primair": "Civielrechtelijk vs fiscaal aandeel onderscheiden"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Eerst bepalen wie civielrechtelijk wat erft (BW Boek 4 + huwelijkscontract + eventueel testament), pas daarna de fiscale erfbelasting berekenen op elk verkrijger-aandeel. Fictiebepalingen (W.Succ. art. 7-9) voegen aan het fiscaal belastbaar voorwerp toe wat civielrechtelijk niet in de nalatenschap zit. Bij elk dossier: civielrechtelijk schema opstellen — daarna fiscaal toepassen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.18"},
+                      {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 7"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "doorverwijzen-naar-notaris",
+              "naam": {"primair": "Doorverwijzen naar notaris voor complexe situaties"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor erfovereenkomsten, omzetting vruchtgebruik, betwisting van inkorting, of testamentopmaak: ALTIJD doorverwijzen naar een notaris. De accountant kan wel de fiscale gevolgen van scenario's becijferen en samen met de notaris meedenken over planningsdossiers.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 4.243", "context": "Notariële akte verplicht voor erfovereenkomst"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard professionele afbakening"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "registratie-en-successierechten"},
+    {"type": "beinvloed_door", "target": "huwelijksvermogensrecht", "toelichting": "Eerst wordt het huwelijksstelsel afgewikkeld, daarna de nalatenschap berekend op het persoonlijk vermogen van de overledene."},
+    {"type": "triggert", "target": "erfbelasting", "toelichting": "Civielrechtelijke devolutie bepaalt wie het fiscaal aandeel ontvangt."}
   ]
 }
