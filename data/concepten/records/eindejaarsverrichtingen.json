@@ -5,16 +5,15 @@
     "synoniemen": [
       "jaarafsluit-cyclus",
       "year-end closing",
-      "balansafsluiting"
+      "balansafsluiting",
+      "inventaris- en afsluitverrichtingen"
     ]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis"],
     "ankers": [
       "1.1.taak.1",
       "1.1.II.L",
@@ -22,9 +21,25 @@
       "1.2.III.E"
     ],
     "provenance": {
-      "model": "skeleton-generator",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/eindejaarsverrichtingen.json",
+      "primary_bronnen": [
+        "WER Boek III art. III.89 (inventarisplicht)",
+        "KB 29-04-2019 art. 3:23 (waarderingscorrecties)",
+        "CBN-advies 174/1",
+        "CBN-advies 148/4",
+        "CBN-advies 2010/12",
+        "CBN-advies 2018/18",
+        "CBN-advies 2018/25",
+        "CBN-advies 2021/17",
+        "CBN-advies 152/1",
+        "MAR klasse 49 (overlopende rekeningen) + klasse 79 (resultaatverwerking)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -33,6 +48,13 @@
         "model": "skeleton-generator",
         "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T07:20:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WER art. III.89, KB 29-04-2019 art. 3:23, CBN-adviezen 174/1, 148/4, 2010/12, 2018/18, 2018/25, 2021/17, 152/1)."
       }
     ],
     "scope": {
@@ -44,53 +66,481 @@
         "Jaarafsluit-boekingen + heropening-cyclus voor volgend boekjaar"
       ],
       "out": [
-        {
-          "topic": "Specifieke waarderingsregels per balanspost",
-          "richting": "mag-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "Resultaatverwerking + dividend (uitkering aan aandeelhouders)",
-          "richting": "moet-verwijzen",
-          "ref": "uitkering-aan-aandeelhouders"
-        },
-        {
-          "topic": "Audit-procedures bij jaarafsluit (commissaris)",
-          "richting": "moet-verwijzen",
-          "ref": "controle-opdracht"
-        }
+        {"topic": "Specifieke waarderingsregels per balanspost", "richting": "mag-verwijzen", "ref": "jaarrekening"},
+        {"topic": "Resultaatverwerking + dividend (uitkering aan aandeelhouders)", "richting": "moet-verwijzen", "ref": "uitkering-aan-aandeelhouders"},
+        {"topic": "Audit-procedures bij jaarafsluit (commissaris)", "richting": "moet-verwijzen", "ref": "controle-opdracht"},
+        {"topic": "Boekhoudbeginselen die de correcties sturen", "richting": "moet-verwijzen", "ref": "boekhoudbeginselen"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "tekst": "Eindejaarsverrichtingen zijn het geheel van boekhoudkundige correcties en afsluitstappen die op (of rond) de balansdatum worden uitgevoerd om de jaarrekening op te maken. Ze bestaan klassiek uit vijf grote stappen: (1) een volledige inventaris-oefening (WER art. III.89 — opnemingen, verificaties en waarderingen van alle activa en passiva); (2) waarderingscorrecties (afschrijvingen + waardeverminderingen + voorzieningen + herwaarderingen); (3) overlopende rekeningen (klasse 49 — toerekening kosten en opbrengsten aan het juiste boekjaar volgens het matching-principe); (4) resultaatverwerking (klasse 79 — winstbestemming, reservevorming, dividend-voorstel); (5) jaarafsluit-boekingen + heropening voor het volgend boekjaar.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "skeleton-generator",
-              "datum": "2026-05-27"
-            }
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89", "context": "Wettelijke jaarlijkse inventarisplicht"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "De inventaris — ten minste eens per jaar opnemingen, verificaties, onderzoekingen en waarderingen"},
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:23", "context": "Voorzieningen + waardeverminderingen"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Eindejaarsverrichtingen vormen de brug tussen de lopende boekhouding (factuurniveau) en de jaarrekening (synthese-document). Ze materialiseren in concrete boekingen drie boekhoudbeginselen die anders enkel theorie blijven: (a) voorzichtigheid — afwaarderen waar nodig (waardeverminderingen, voorzieningen); (b) matching — verschuiven van kosten/opbrengsten naar het juiste boekjaar via overlopende rekeningen; (c) going concern — bevestiging van de continuïteitsaanname of, indien niet, overschakeling op liquidatiewaardering (CBN 2018/18). De jaarafsluitcyclus is het moment waarop een 'mooie' boekhouding kan kantelen naar 'kritisch beoordeeld' — vaak het verschil tussen een marginale en een excellente accountant.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12", "context": "Voorzichtigheid + matching — wederzijdse hiërarchie"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "148/4", "context": "Overlopende rekeningen klasse 49 — toerekening interest aan boekjaar"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese rol eindejaarsverrichtingen — standaardleer"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Zonder eindejaarsverrichtingen zou de jaarrekening enkel een kassaldo-foto zijn — zonder afschrijvingen vertekent de winst, zonder voorzieningen verbergt de balans toekomstige verliezen, zonder overlopende rekeningen worden kosten op het verkeerde boekjaar geboekt. De wetgever heeft daarom in WER art. III.89 een jaarlijkse inventaris-VERPLICHTING gelegd: 'elke onderneming, omzichtig en te goeder trouw, ten minste eens per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen'. Het is daarbij geen administratieve formaliteit maar de eigenlijke materiële toets op de getrouwheid van de jaarrekening — vandaar dat de boekhoudbeginselen er hun concrete toepassing vinden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "Geciteerd inventaris-citaat"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio-legis synthese — functie eindejaarsverrichtingen voor getrouw beeld"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["dubbele-boekhouding", "boekhoudbeginselen"],
+      "kader": "boekhouding",
+      "naast_relevant": ["jaarrekening"],
+      "volgkennis": ["jaarrekening", "uitkering-aan-aandeelhouders", "controle-opdracht"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WER Boek III art. III.89 + KB 29-04-2019 art. 3:6 e.v. (waarderingsregels)",
+        "toelichting": "Verplichte jaarlijkse inventaris sinds Boekhoudwet 1975 art. 9 — materieel onveranderd. De concrete uitvoeringsregels (waarderingscorrecties, overlopende rekeningen, resultaatverwerking) staan in KB 29-04-2019 en talloze CBN-adviezen die per balanspost specifieke regels geven."
+      },
+      "voor": [
+        {
+          "tekst": "Toepasselijk voor ELKE onderneming met boekhoudplicht, voor elk boekjaar, op de afsluitdatum (typisch 31/12 of een ander door de statuten bepaalde dag). Niet alleen vennootschappen — ook vzw's en stichtingen die een dubbele boekhouding voeren (CBN 2019/12).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"}
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Naderen van de balansdatum (typisch 4-8 weken vooraf). Praktijk: opstart inventaris fysieke voorraad + intern overleg met cliënt over voorzienbare risico's, dubieuze klanten, voorgenomen dividend.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard timing-praktijk ITAA-kantoor"}
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Goedkeuring jaarrekening door bestuursorgaan + voorlegging aan de algemene vergadering binnen 6 maanden na balansdatum (WVV art. 3:54 — gewone AV). NBB-neerlegging binnen 30 dagen na goedkeuring + max 7 maanden na boekjaareinde.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 3:54 + art. 3:10", "context": "Termijnen jaarrekening + AV + neerlegging"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Goed uitgevoerde eindejaarsverrichtingen leveren: een betrouwbare jaarrekening (getrouw beeld), tijdige fiscale aangifte (zonder herzieningsrisico), bewijspositie tegenover banken en investeerders, en bescherming van bestuurders tegen aansprakelijkheidsrisico bij latere geschillen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij verwaarlozing of vertraging: laattijdige neerlegging (boete NBB + ambtshalve aanslag fiscus), niet-getrouwe jaarrekening (commissarisbezwaar), bestuurdersaansprakelijkheid bij latere insolventie (geen tijdige going-concern-toets). CBN 2018/18 onderstreept de cruciale rol van de jaarlijkse continuïteits-beoordeling.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "stap-1-inventaris",
+        "naam": {"primair": "Stap 1 — Wettelijke inventaris (WER art. III.89)"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De wet bepaalt dat 'elke onderneming, omzichtig en te goeder trouw, ten minste eens per jaar de nodige opnemingen, verificaties, onderzoekingen en waarderingen verricht om op een door haar gekozen datum een inventaris op te maken'. Concrete invulling: fysieke voorraadtelling (klasse 3); bankafstemming + kassa-telling (klasse 5); klanten-/leveranciersanalyse op dubieuse vorderingen + saldering met afschriften (klasse 4); review immateriële + materiële vaste activa op aanwezigheid en stand (klasse 2); bevestiging eigen vermogen + LT-schulden (klasse 1).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "174/1", "context": "De inventaris — citaat letterlijke wet"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-2-waarderingscorrecties",
+        "naam": {"primair": "Stap 2 — Waarderingscorrecties (afschrijvingen + waardeverminderingen + voorzieningen)"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie soorten correcties: (a) afschrijvingen — systematische spreiding aankoopprijs vaste activa over economische gebruiksduur (klasse 6302/6303 → klasse 219/22-28-corrigerend); (b) waardeverminderingen — bij waarschijnlijk verlies aan een specifiek actief (klasse 6310/6311/6340/63 → klasse 29/34/40-corrigerend); (c) voorzieningen — voor specifieke toekomstige verliezen of kosten die voortvloeien uit gebeurtenissen tot balansdatum (klasse 635/6360 → klasse 160-164 passief). CBN 2018/25 geeft concrete boekings-voorbeelden, KB 29-04-2019 art. 3:23 het wettelijk kader.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:23", "context": "Waardeverminderingen + voorzieningen"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2018/25", "context": "Voorzieningen voor grote herstellingswerken — concrete boeking 6360 → 162"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3-overlopende-rekeningen",
+        "naam": {"primair": "Stap 3 — Overlopende rekeningen (klasse 49)"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Klasse 49 wordt gebruikt om kosten en opbrengsten naar het juiste boekjaar te schuiven (matching-principe). Vier sub-rekeningen (CBN 148/4): 490 — Over te dragen kosten (kosten in jaar N betaald maar betreffend jaar N+1, ACTIEFKANT balans); 491 — Verkregen opbrengsten (opbrengsten betreffend jaar N maar nog niet gefactureerd, ACTIEFKANT); 492 — Toe te rekenen kosten (kosten betreffend jaar N maar nog niet gefactureerd, PASSIEFKANT); 493 — Over te dragen opbrengsten (opbrengsten in jaar N ontvangen maar betreffend jaar N+1, PASSIEFKANT). Klassiek voorbeeld: huur betaald op 1/10 voor 12 maanden — 9/12 deel verschuift naar 490 (over te dragen) op 31/12.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "148/4", "context": "Klasse 49 — vier sub-rekeningen + boeking interest op obligaties"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12", "context": "Matching + voorzichtigheid hiërarchie"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-4-resultaatverwerking",
+        "naam": {"primair": "Stap 4 — Resultaatverwerking (klasse 79)"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Na bepaling van het resultaat (klasse 6 vs klasse 7, gecorrigeerd) wordt het bestemd: (a) toevoegen aan wettelijke reserve (klasse 130) zolang die niet de wettelijke 10% van het kapitaal bereikt heeft — verplicht voor NV's en BV's voorheen, voor BV niet meer wettelijk verplicht onder WVV maar nog mogelijk volgens statuten; (b) toevoegen aan beschikbare reserves (klasse 133) — vrije keuze AV; (c) overdracht naar volgend jaar (klasse 14 — overgedragen winst/verlies); (d) winstuitkering aan aandeelhouders (dividend) — beslissing AV, geboekt via klasse 47/693. De resultaatverwerking wordt op de balansdatum voorgesteld door het bestuursorgaan, definitief beslist door de AV.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 — MAR klasse 79 (resultaatverwerking)"},
+                {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 5:142 (wettelijke reserve BV)"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard resultaatverwerking-cyclus"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-5-afsluit-heropening",
+        "naam": {"primair": "Stap 5 — Jaarafsluit + heropening volgend boekjaar"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Sluitcyclus via klasse 89 ('Resultaat van het boekjaar'): saldi klasse 6 en 7 worden overgeboekt naar 89 (resultaat positief = winst → klasse 89 D / 14 Overgedragen winst C; resultaat negatief = verlies → omgekeerd). Daarna worden balansposten 'gesloten' en heropend voor jaar N+1 via klasse 89 — moderne software doet dit automatisch. Memorierekeningen (klasse 0) blijven open zolang het onderliggend recht/verplichting bestaat (geen automatisch sluiten).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 — MAR klasse 89 (saldo te bestemmen)"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wisselkoers-correctie",
+        "naam": {"primair": "Specifiek — wisselkoers-correctie op deviezenverrichtingen"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vorderingen en schulden in vreemde valuta moeten op balansdatum worden gewaardeerd tegen de slotkoers (laatste markt-koers van het boekjaar). Verschil met historische boekkoers: positief verschil (latente winst) → voorzichtigheid: NIET boeken (CBN 152/1 — uitzondering bij bepaalde gevallen); negatief verschil (latent verlies) → BOEKEN als wisselkoersverlies (klasse 654 Wisselresultaten). CBN 152/1 geeft de volledige systematiek per balanspost.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies", "ref": "152/1", "context": "Boekingen van deviezenverrichtingen en verwerking van koersverschillen"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-afschrijving",
+        "titel": "Eindejaarsboeking — afschrijving productiemachine",
+        "context": "BV ABC kocht in jaar N (op 01/01/N) een productiemachine voor 50.000 EUR, economische gebruiksduur 5 jaar, lineaire afschrijving. Op 31/12/N: eerste afschrijving.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:21 (afschrijvingen)"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — afschrijvingsgrondslag = aanschaffingsprijs = 50.000 EUR.",
+              "Stap 2 — afschrijvingspercentage = 100% / 5 jaar = 20% per jaar.",
+              "Stap 3 — jaarlijkse afschrijvingslast = 50.000 × 20% = 10.000 EUR.",
+              "Stap 4 — boeking op 31/12/N: 6302 Afschrijvingen materiële vaste activa 10.000 D / 2219 Geboekte afschrijvingen op installaties, machines en uitrusting 10.000 C.",
+              "Stap 5 — balans-impact: netto-boekwaarde machine = 50.000 (klasse 23) − 10.000 (klasse 2219) = 40.000 EUR; RR-impact: kost 10.000 EUR vermindert het resultaat."
+            ],
+            "resultaat": "Na 5 jaar: cumulatieve afschrijving = 50.000 EUR, netto-boekwaarde = 0 (volledig afgeschreven). Bij vervroegde verkoop in jaar 3 (boekwaarde 30.000 EUR) voor 35.000 EUR: meerwaarde van 5.000 EUR → klasse 763 Meerwaarde verkoop vaste activa."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-waardevermindering-klant",
+        "titel": "Eindejaarsboeking — waardevermindering dubieuze klant",
+        "context": "BV ABC heeft een openstaande vordering op klant XYZ van 24.200 EUR (incl 21% BTW = 20.000 EUR + 4.200 EUR BTW). Klant XYZ is in WCO-procedure. Bestuursorgaan beslist tot waardevermindering van 50%.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:23"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/25"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking waardevermindering 50%",
+            "stappen": [
+              {"rekening": "6340", "omschrijving": "Waardeverminderingen op handelsvorderingen — Toevoeging", "debet": 10000, "credit": 0},
+              {"rekening": "4090", "omschrijving": "Geboekte waardeverminderingen op handelsvorderingen", "debet": 0, "credit": 10000}
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "**Belangrijke aandachtspunten:**\n\n- De waardevermindering wordt geboekt op de EXCLUSIEF BTW vordering (20.000 EUR), niet op de inclusief-bedrag. Reden: bij definitieve oninvorderbaarheid kan de BTW worden gerecupereerd bij FOD Financiën (BTW-aangifte correctie). Bij gewone waardevermindering blijft de BTW dus 'open'.\n\n- 50% × 20.000 = 10.000 EUR waardevermindering.\n\n- Balans-impact: bruto-vordering 4000 = 24.200 EUR; gecorrigeerd door 4090 = 10.000 EUR; netto-vordering op balans = 14.200 EUR.\n\n- Fiscaal: aftrekbaarheid alleen mits 'specifiek + waarschijnlijk' verlies + voldoende bewijs (aangifte VenB rubriek 'Waardeverminderingen op handelsvorderingen' staat 204.3). Vermoeden van bewijs bij WCO-procedure.\n\nBij definitieve oninvorderbaarheid (sluiting WCO met saldo verlies): omkering naar 6341 (verlies op realisatie van handelsvorderingen) + BTW-correctie via klasse 411."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-overlopende-rekening",
+        "titel": "Eindejaarsboeking — overlopende rekening klasse 49",
+        "context": "BV ABC heeft op 01/10/N een verzekeringspremie van 12.000 EUR betaald voor 12 maanden vooruit (periode 01/10/N - 30/09/N+1). Boekjaar sluit 31/12/N.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "148/4", "context": "Klasse 49 overlopende rekeningen — over te dragen kosten"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — initiële boeking op 01/10/N: 6131 Verzekeringspremies 12.000 D / 5500 Bank 12.000 C (volledige premie als kost geboekt).",
+              "Stap 2 — analyse op 31/12/N: van de 12 maanden zijn er 3 (oktober + november + december) van het boekjaar N en 9 maanden van boekjaar N+1.",
+              "Stap 3 — verhouding 9/12 = 9.000 EUR betreffende boekjaar N+1 (over te dragen).",
+              "Stap 4 — correctieboeking 31/12/N: 490 Over te dragen kosten 9.000 D / 6131 Verzekeringspremies 9.000 C.",
+              "Stap 5 — netto-kost N = 12.000 − 9.000 = 3.000 EUR (juiste matching met boekjaar).",
+              "Stap 6 — heropening boekjaar N+1: 6131 Verzekeringspremies 9.000 D / 490 Over te dragen kosten 9.000 C (kost verschuift mee naar jaar N+1)."
+            ],
+            "resultaat": "Boekjaar N draagt enkel de 3 maanden verzekering die op N betrekking hebben (3.000 EUR). Boekjaar N+1 krijgt automatisch de resterende 9.000 EUR toegerekend via de heropening van klasse 490. Matching-principe in actie."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-resultaatverwerking",
+        "titel": "Resultaatverwerking — winstbestemming na boekjaar",
+        "context": "BV ABC sluit boekjaar N af met een boekhoudkundige winst van 100.000 EUR (na belastingen). Kapitaal = 50.000 EUR. Wettelijke reserve is statutair vastgelegd op 10% van kapitaal — momenteel reeds 5.000 EUR (volledig). AV beslist tot dividend van 30.000 EUR + 50.000 EUR naar beschikbare reserve + saldo overgedragen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 5:142 (wettelijke reserve BV)"},
+            {"type": "kb", "naam": "KB 21-10-2018", "ref": "Bijlage 1 — klasse 79"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — winst beschikbaar voor verdeling: 100.000 EUR (klasse 14 Overgedragen winst N-1 = 0 verondersteld).",
+              "Stap 2 — Wettelijke reserve volledig (5.000 op kapitaal 50.000 = 10%), dus geen verplichte storting.",
+              "Stap 3 — AV-beslissing: 50.000 naar beschikbare reserve (klasse 133) + 30.000 dividend + saldo 20.000 overgedragen.",
+              "Stap 4 — boekingen na AV: 14 Overgedragen winst 100.000 D / 133 Beschikbare reserves 50.000 C + 471 Dividend te betalen 30.000 C + 14 Overgedragen winst (jaar N+1) 20.000 C.",
+              "Stap 5 — roerende voorheffing dividend (30%): 471 Dividend te betalen 9.000 D / 4530 Verschuldigde RV 9.000 C.",
+              "Stap 6 — netto-dividend uitgekeerd: 30.000 − 9.000 = 21.000 EUR aan aandeelhouders.",
+              "Stap 7 — betaling RV aan FOD Financiën binnen 15 dagen na uitkering."
+            ],
+            "resultaat": "Eigen vermogen evolueert: kapitaal 50.000 + wettelijke reserve 5.000 + beschikbare reserve 50.000 (nieuw) + overgedragen winst 20.000 = 125.000 EUR. Bruto-uitkering aan aandeelhouders 30.000 (waarvan 9.000 ingehouden RV en 21.000 effectief betaald)."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Inventaris als 'fysieke voorraadtelling' verengen",
+        "verkeerde_assumptie": "Inventaris = de keer per jaar dat we de voorraad in het magazijn tellen.",
+        "kernpunt": "WER art. III.89 + CBN 174/1: de inventaris omvat ALLE activa en passiva — dus ook vaste activa (aanwezigheid?), vorderingen (invorderbaar?), schulden (volledig?), liquide middelen (bankafstemming), eigen vermogen (correcte reserve-niveaus). Een 'inventaris' die zich beperkt tot de magazijn-telling is wettelijk onvolledig.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. III.89"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"}
+          ]
+        }
+      },
+      {
+        "titel": "Voorzieningen als 'pot voor regenachtige dagen'",
+        "verkeerde_assumptie": "Een voorziening is een algemene buffer die we vormen als er goede winst is en die we afbouwen als het minder gaat.",
+        "kernpunt": "KB 29-04-2019 art. 3:23 + CBN 2018/25: een voorziening wordt enkel gevormd voor SPECIFIEKE toekomstige verliezen of kosten die voortvloeien uit gebeurtenissen tot balansdatum, EN waarvan de waardering aleatoir maar plausibel is. 'Algemene voorzichtigheidsreserves' zonder concrete oorzaak zijn niet conform — fiscaal niet aftrekbaar én boekhoudkundig misleidend. Voor algemene risico's gebruik beschikbare reserves (klasse 133), niet voorzieningen (klasse 16).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:23"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/25"}
+          ]
+        }
+      },
+      {
+        "titel": "Overlopende rekeningen 'vergeten' voor niet-jaarlijkse kosten",
+        "verkeerde_assumptie": "Klasse 49 gebruik ik enkel voor verzekeringen en huur — andere kosten lopen sowieso door.",
+        "kernpunt": "Elke kost of opbrengst die boekhoudkundig over meerdere boekjaren beslaat moet via klasse 49 geschoven worden — niet alleen verzekering/huur, ook: leasing-vooruitbetalingen, abonnementen (software, telecom), interest op leningen (CBN 148/4 specifiek voor obligaties), nog te ontvangen omzet (491), nog te betalen audit-honoraria (492). Matching-principe is universeel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "148/4", "context": "Klasse 49 — boeking van prorata van gelopen interest op obligaties"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/12"}
+          ]
+        }
+      },
+      {
+        "titel": "Going-concern-toets overslaan bij stabiele cliënt",
+        "verkeerde_assumptie": "Mijn cliënt draait al 20 jaar — going-concern-toets is een formaliteit.",
+        "kernpunt": "CBN 2018/18: bij ELKE jaarafsluit moet het bestuursorgaan actief beoordelen of de continuïteit nog gerechtvaardigd is — onafhankelijk van het verleden. Plotse marktschokken (bv. COVID-19, energieprijzen 2022) maakten 'stabiele' ondernemingen kwetsbaar. Procedure: review actuele indicatoren (current ratio, schuldgraad, cash-flow-projectie 12 maanden) en documenteer expliciet in dossier.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/18"}
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "tijdslijn",
+        "intro": "Standaard timing eindejaarscyclus voor een 31/12-afsluitende vennootschap.",
+        "inhoud": {
+          "stappen": [
+            {"datum": "1-15 december N", "actie": "Opstart inventaris-voorbereiding: aankondiging fysieke voorraadtelling, klant- en leverancierssaldo-controles starten."},
+            {"datum": "20-31 december N", "actie": "Fysieke voorraadtelling op balansdatum. Bankafstemming. Going-concern-check met bestuursorgaan."},
+            {"datum": "Januari N+1", "actie": "Waarderingscorrecties boeken: afschrijvingen, waardeverminderingen, voorzieningen. Eerste set overlopende rekeningen (klasse 49) opmaken."},
+            {"datum": "Februari-maart N+1", "actie": "Definitieve eindejaarsboekingen + proefbalans. Resultaat berekenen (klasse 89). Voorstel resultaatverwerking opmaken."},
+            {"datum": "Maart-april N+1", "actie": "Bestuursorgaan keurt jaarrekening voorlopig goed + roept algemene vergadering bijeen."},
+            {"datum": "Mei-juni N+1", "actie": "Gewone AV (binnen 6 maanden — WVV art. 3:54): definitieve goedkeuring jaarrekening + beslissing dividend."},
+            {"datum": "Juli N+1", "actie": "NBB-neerlegging jaarrekening via XBRL (binnen 30 dagen na goedkeuring + max 7 maanden na balansdatum). Fiscale aangifte VenB (binnen 7 maanden + 1 dag)."},
+            {"datum": "Augustus N+1 ev.", "actie": "Heropening boekjaar N+1 (technisch reeds vanaf 01/01/N+1; afsluit-correcties worden geretroceerd doorgevoerd)."}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "vereist",
-      "target": "dubbele-boekhouding"
-    },
-    {
-      "type": "vereist",
-      "target": "boekhoudbeginselen"
-    },
-    {
-      "type": "triggert",
-      "target": "jaarrekening"
+      "id": "kantoor-jaarafsluit",
+      "naam": {"primair": "Kantoor bij jaarafsluit van cliënt"},
+      "intro": "De jaarafsluit is de drukste én meest waarde-toevoegende periode van de accountant: kritische beoordelingen, dossier-discipline, communicatie met cliënt over voorzichtigheidskeuzes en continuïteit.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "checklist-eindejaarsverrichtingen",
+              "naam": {"primair": "Checklist eindejaarsverrichtingen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per balansrubriek: (klasse 2) — afschrijvingen plan + waardeverminderingen op vaste activa; (klasse 3) — fysieke voorraadtelling + waardevermindering laagste waarde; (klasse 4 actief) — klantanalyse + waardeverminderingen dubieuze klanten; (klasse 4 passief) — leveranciers + nog te ontvangen facturen (klasse 444); (klasse 5) — bankafstemming + kassa-telling; (klasse 49) — overlopende rekeningen voor matching; (klasse 1) — wettelijke + statutaire reserves + voorzieningen klasse 16; (klasse 0) — review niet-balans rechten en verplichtingen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "cbn", "naam": "CBN-advies", "ref": "174/1"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard rubrieksgewijze checklist"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "auditor-jaarafsluit",
+              "naam": {"primair": "Auditor-positie bij jaarafsluit"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De commissaris (voor middelgrote + grote vennootschappen verplicht) voert tijdens en na de eindejaarsverrichtingen substantieve audit-procedures: (a) confirmatie banken + klanten + leveranciers; (b) verificatie fysieke voorraadtelling — eigen bijwoonbeoordeling van de inventaris; (c) review going-concern (ISA 570) — cash-flow-projecties + financiële ratio's; (d) review waarderingsregels-toepassing — afschrijvingen, waardeverminderingen, voorzieningen; (e) afstemming jaarrekening met onderliggende boekhouding + toelichting; (f) opstellen commissarisverslag conform ISA 700.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "norm", "naam": "ISA 570", "ref": "ISA 570 (continuïteit)"},
+                      {"type": "norm", "naam": "ISA 700", "ref": "ISA 700 (oordeel + rapport)"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "adviseur-resultaatverwerking",
+              "naam": {"primair": "Advies aan AV over resultaatverwerking"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor cliënten met winstpotentieel: het voorstel resultaatverwerking is niet automatisch 'alles als dividend uitkeren'. Overweeg: (a) liquiditeits-positie — is een 30% dividend duurzaam? (b) WVV-uitkeringstoets (BV — art. 5:142 + 5:143): netto-actief-test + liquiditeitstest VOOR uitkering; (c) fiscale optimalisatie: VVPR-bis aftrekbaar tarief 15% (BV vanaf 3 jaar zonder uitkering); (d) belang continuïteit — beschikbare reserve kan investeringsbuffer zijn. Een evenwichtig voorstel beschermt zowel aandeelhouders als de continuïteit van de vennootschap.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Wetboek van vennootschappen en verenigingen", "ref": "art. 5:142-143", "context": "Uitkeringstoets BV"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "vereist", "target": "dubbele-boekhouding", "toelichting": "Eindejaarsverrichtingen worden geboekt binnen het dubbele-boekhouding-stelsel — buiten dat stelsel ontbreekt het kader."},
+    {"type": "vereist", "target": "boekhoudbeginselen", "toelichting": "De inhoudelijke correcties (afschrijvingen, voorzichtigheid, matching, going concern) volgen rechtstreeks uit de beginselen."},
+    {"type": "triggert", "target": "jaarrekening", "toelichting": "Eindejaarsverrichtingen culmineren in de opmaak van de jaarrekening (balans + RR + toelichting)."},
+    {"type": "triggert", "target": "uitkering-aan-aandeelhouders", "toelichting": "De resultaatverwerking (stap 4) bevat het dividend-voorstel; de effectieve uitkering valt onder een aparte WVV-procedure (uitkering-aan-aandeelhouders)."},
+    {"type": "gecontroleerd_door", "target": "controle-opdracht", "toelichting": "Bij middelgrote + grote vennootschappen toetst de commissaris de eindejaarsverrichtingen en de daaruit voortvloeiende jaarrekening (ISA-normenkader)."}
   ]
 }
