@@ -2,36 +2,15 @@
   "id": "fiscale-boekhoud-correcties",
   "naam": {
     "primair": "Fiscale boekhoud-correcties",
-    "synoniemen": [
-      "correcties boekhouding-fiscaal",
-      "boekhoudkundig-fiscaal verband"
-    ]
+    "synoniemen": ["fiscaal-boekhoudkundige correcties", "boek-fiscale verschillen"],
+    "vertaling": {"en": "tax-accounting adjustments", "fr": "corrections fiscales comptables"}
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader",
-      "regeling"
-    ],
-    "ankers": [
-      "2.3.I"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt (rename van boekhoudkundig-fiscaal-attachment: -attachment-Engels-suffix-smell weg)"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "regeling"],
+    "ankers": ["2.3.I"],
     "scope": {
       "in": [
         "Primauteit boekhouding: fiscaal volgt boekhouding tenzij wettelijk anders bepaald",
@@ -42,64 +21,142 @@
         "Cross naar uitgestelde-belastingen (boekhoudkundige impact tijdelijke verschillen)"
       ],
       "out": [
-        {
-          "topic": "Concrete cascade-stappen 8 bewerkingen",
-          "richting": "moet-verwijzen",
-          "ref": "belastbare-grondslag-vennootschapsbelasting"
-        },
-        {
-          "topic": "Verworpen uitgaven als primaire correctie-categorie",
-          "richting": "moet-verwijzen",
-          "ref": "verworpen-uitgaven"
-        },
-        {
-          "topic": "Uitgestelde belastingen (boekhoudkundig)",
-          "richting": "moet-verwijzen",
-          "ref": "uitgestelde-belastingen"
-        },
-        {
-          "topic": "Boekhoudbeginselen als fundament",
-          "richting": "mag-verwijzen",
-          "ref": "boekhoudbeginselen"
-        }
+        {"topic": "Concrete cascade-stappen 8 bewerkingen", "richting": "moet-verwijzen", "ref": "belastbare-grondslag-vennootschapsbelasting"},
+        {"topic": "Verworpen uitgaven als primaire correctie-categorie", "richting": "moet-verwijzen", "ref": "verworpen-uitgaven"},
+        {"topic": "Uitgestelde belastingen (boekhoudkundig)", "richting": "moet-verwijzen", "ref": "uitgestelde-belastingen"},
+        {"topic": "Boekhoudbeginselen als fundament", "richting": "mag-verwijzen", "ref": "boekhoudbeginselen"}
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-fiscaliteit-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fiscale-boekhoud-correcties.json",
+      "primary_bronnen": ["WIB 92 art. 24, 49, 183, 198"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T15:50:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-fiscaliteit-2026-05-28", "wijziging": "Fiscale boekhoud-correcties uitgewerkt: primauteit boekhouding, permanente vs tijdelijke verschillen, correctie-cascade, concrete VU/VR/VU-ext-voorbeelden met bedragen en aangifte-vakken."}
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
-          ]
-        }
+        "tekst": "Fiscale boekhoud-correcties zijn de aanpassingen die de boekhoudkundige nettowinst van een vennootschap omzetten naar de belastbare grondslag voor vennootschapsbelasting (VenB). Het Belgisch systeem werkt op basis van primauteit boekhouding: WIB 92 art. 24 bepaalt dat het belastbaar resultaat van een onderneming gelijk is aan haar boekhoudkundig resultaat, tenzij de fiscale wet uitdrukkelijk anders bepaalt. Die uitzonderingen vormen de correctie-cascade: bepaalde kosten worden verworpen (verworpen uitgaven, VU), bepaalde inkomsten vrijgesteld (vrijgestelde reserves), bepaalde afschrijvingen of voorzieningen niet aanvaard, en tijdelijke verschillen genereren uitgestelde belastingen.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 24, 49, 183"}]}
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair is dit de kerntechniek van de aangifte VenB: de jaarrekening levert de startwaarde (boekhoudkundige nettowinst), maar pas na een reeks correcties bekom je de belastbare grondslag. Twee soorten verschillen: (a) permanente verschillen — definitieve niet-aftrekbaarheid (niet-aftrekbare beroepskost zoals geheime commissielonen, BTW-VAA voor wagens, autokosten boven aftrekbeperking); (b) tijdelijke verschillen — afwijking in tijd (boekhoudkundige afschrijving over 5 jaar versus fiscaal toegestane 4 jaar) die uiteindelijk uitvlakken maar leiden tot uitgestelde belastingen. Het onderscheid bepaalt of een correctie ook impact heeft op de boekhoudkundige rekening 'uitgestelde belastingen' (klasse 168) — alleen tijdelijke verschillen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Waarom een aparte cascade naast de boekhoudkundige winst? Omdat boekhoudregels (CBN, jaarrekening-recht) en fiscale regels (WIB) verschillende doelen dienen: boekhouding mikt op getrouw beeld voor stakeholders, fiscaliteit op gelijkmatige belastinginning + sturing van gedrag (investeringsaftrek stimuleren, overconsumptie afremmen via VU-autokosten). Daarom: boekhouding mag winst tonen die de fiscus niet wil belasten (vrijgesteld), of kosten erkennen die de fiscus niet wil aftrekken (VU). De accountant moet beide regimes gescheiden begrijpen en correct samenbrengen in de fiscale aangifte 275.1.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
       }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["jaarrekening", "boekhoudbeginselen", "vennootschapsbelasting"],
+      "kader": "vennootschapsbelasting",
+      "naast_relevant": ["verworpen-uitgaven", "uitgestelde-belastingen"],
+      "volgkennis": ["belastbare-grondslag-vennootschapsbelasting", "aangifte-vennootschapsbelasting"]
     },
     "gebruikscontext": {
-      "geldigheid": {
-        "status": "in-voege",
-        "wettelijke_basis": "WIB art 24 + jurisprudentie primauteit-boekhouding"
+      "voor": [
+        {"tekst": "Opstellen aangifte VenB (formulier 275.1) — vertrekkend van rekening 9904 (te bestemmen winst) naar de finale belastbare grondslag.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Berekening uitgestelde belastingen (rubriek 168 passief) — tijdelijke verschillen worden gemultipliceerd met VenB-voet voor boekhoudkundige rapportering.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Fiscale planning + scenarios — vooraf simuleren hoe boekhoudkundige keuzes (afschrijvings-methode, voorzieningen-opbouw) doorwerken op belastbare grondslag.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "primauteit-boekhouding",
+        "naam": {"primair": "Primauteit van de boekhouding (WIB 92 art. 24)"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {"tekst": "Fiscaal beginsel: belastbaar resultaat = boekhoudkundig resultaat, tenzij de fiscale wet uitdrukkelijk anders bepaalt. Concreet: alle bedragen in de aangifte VenB komen rechtstreeks uit de boekhouding (rubrieken volgens minimaal genormaliseerd rekeningenstelsel). Correctie alleen waar fiscale uitzondering geldt. Gevolg: boekhoudkundige keuzes (afschrijvings-methode, voorzieningen-opbouw) hebben directe fiscale impact — tenzij een fiscale anti-misbruik-regel ingrijpt.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 24"}]}}
+        }
+      },
+      {
+        "id": "permanente-verschillen",
+        "naam": {"primair": "Permanente verschillen"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {"tekst": "Definitieve niet-aftrekbaarheid: kosten of opbrengsten die boekhoudkundig wel maar fiscaal NIET (of omgekeerd) erkend worden, en die nooit zullen uitvlakken. Voorbeelden: (a) niet-aftrekbare beroepskosten — geheime commissielonen (309 % aanslag), restaurant > 69 %, geschenken aan klanten > 50 EUR; (b) autokosten boven aftrekbeperking (60-100 % afhankelijk van CO₂); (c) niet-aftrekbare belastingen — VenB zelf, fiscale boetes; (d) vrijgestelde meerwaarden op aandelen (DBI-regime). GEEN impact op uitgestelde belastingen — definitief.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 198 (niet-aftrekbare beroepskosten) + 199 (overdrijven van kosten)"}]}}
+        }
+      },
+      {
+        "id": "tijdelijke-verschillen",
+        "naam": {"primair": "Tijdelijke verschillen"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {"tekst": "Tijds-verschuiving tussen boekhoudkundige en fiscale erkenning — uitvlakt over de jaren maar genereert intussen uitgestelde belastingen. Voorbeelden: (a) afschrijvingen — boekhoudkundig over 10 jaar versus fiscaal over 5 jaar (versnelde afschrijving); (b) voorzieningen — boekhoudkundig opgebouwd als verwachte verplichting, fiscaal pas aftrekbaar bij werkelijke uitgave (tenzij specifieke fiscale erkenning); (c) waardeverminderingen handelsvorderingen — fiscaal aftrekbaar enkel bij geïndividualiseerde dossiers met aantoonbare betalingsmoeilijkheden. WEL impact op uitgestelde belastingen (klasse 168).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 48 (voorzieningen) + 49 (afschrijvingen)"}]}}
+        }
+      },
+      {
+        "id": "correctie-cascade",
+        "naam": {"primair": "Correctie-cascade van boekhouding naar belastbare grondslag"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {"tekst": "Schematische volgorde (sluit aan op de 8 bewerkingen in art. 74 KB/WIB): (1) Vertrekpunt: boekhoudkundige nettowinst (rubriek 9904) gecorrigeerd voor reserves; (2) Bijtelling van verworpen uitgaven (VU) — niet-aftrekbare kosten; (3) Aftrek vrijgestelde meerwaarden op aandelen + DBI-aftrek; (4) Aftrek aftrekken (DBI · NIA · innovatie-aftrek · investeringsaftrek · gespreide belasting meerwaarden); (5) Aftrek overgedragen verliezen vorige jaren; (6) Resultaat = belastbare grondslag waarop het tarief (25 % of verlaagd KMO-tarief 20 % op eerste 100.000 EUR) wordt toegepast. Concrete uitwerking in belastbare-grondslag-vennootschapsbelasting.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB/WIB 92", "ref": "art. 74-77 (volgorde bewerkingen)"}]}}
+        }
+      },
+      {
+        "id": "uitgestelde-belastingen-link",
+        "naam": {"primair": "Boekhoudkundige verwerking uitgestelde belastingen"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {"tekst": "Tijdelijke verschillen leiden tot uitgestelde belastingen die boekhoudkundig erkend worden (KB/W.Venn. art. 76, CBN-advies 121/3). Berekening: tijdelijk verschil × VenB-voet (25 % standaard). Boeking: actief = uitgestelde belastings-vordering (rubriek 41) bij verwachte toekomstige aftrekbaarheid; passief = uitgestelde belastings-schuld (rubriek 168) bij verwachte toekomstige bijtelling. Doel: getrouw beeld van werkelijke fiscale lasten in de tijd, niet enkel op kasbasis.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 121/3 — uitgestelde belastingen", "ref": "advies 121/3"}]}}
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-cascade-zelena",
+        "titel": "Correctie-cascade VenB — Zelena Bio NV (boekjaar 20X4)",
+        "context": "Zelena Bio NV: boekhoudkundige nettowinst 285 KEUR. Verschillende correcties toepassen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Cascade naar belastbare grondslag (EUR, AJ 2025)",
+            "rijen": [
+              ["Boekhoudkundig resultaat na belastingen (9904)", "+285.000"],
+              ["+ Geboekte vennootschapsbelasting (9900-9904)", "+95.000"],
+              ["= Resultaat vóór belastingen", "+380.000"],
+              ["VERWORPEN UITGAVEN (vak 023-053):", ""],
+              ["  + Autokosten niet-aftrekbaar (40 % × 20.000 BMW)", "+8.000"],
+              ["  + Restaurantkosten boven 69 % drempel", "+2.500"],
+              ["  + Geheime commissielonen (geen fiches)", "+5.000"],
+              ["  + Niet-aftrekbare boetes", "+800"],
+              ["  + VAA-bestuurder niet doorgerekend", "+3.200"],
+              ["= Totaal VU", "+19.500"],
+              ["AFTREKKEN:", ""],
+              ["  − DBI-aftrek (dividend dochter)", "−10.000"],
+              ["  − Innovatie-aftrek (octrooi-inkomsten)", "−15.000"],
+              ["  − Overgedragen verlies vorig jaar", "−40.000"],
+              ["= BELASTBARE GRONDSLAG", "+334.500"],
+              ["× VenB-tarief 25 %", "= 83.625 (af te ronden 83.625 EUR VenB)"]
+            ],
+            "interpretatie": "Boekhoudkundig resultaat 380 KEUR (vóór VenB) wordt verhoogd met 19,5 KEUR aan VU en verlaagd met 65 KEUR aan aftrekken, eindigt op 334,5 KEUR belastbare grondslag. Verschuldigde VenB = 83,6 KEUR. Boekhoudkundig geboekt 95 KEUR (rekening 67) → over-provisie van 11,4 KEUR — terug te boeken in komend jaar. Permanente verschillen (autokosten, restaurant, geheime commissielonen): geen uitgestelde belastingen. Indien tijdelijk verschil (versnelde afschrijving): wel uitgestelde belastingen-passief."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {"titel": "Permanente en tijdelijke verschillen verwarren", "verkeerde_assumptie": "Alle verworpen uitgaven leiden tot uitgestelde belastingen.", "kernpunt": "Alleen tijdelijke verschillen vlakken uit en geven uitgestelde belastingen. Permanente verschillen (autokosten, restaurant > 69 %, geheime commissielonen) zijn DEFINITIEF niet-aftrekbaar → geen uitgestelde belastingen-boeking. Verwarring leidt tot foute klasse-168-saldi en getrouw-beeld-kritiek.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "VAA dubbel boeken (afgetrokken én verworpen)", "verkeerde_assumptie": "Niet-doorgerekend voordeel alle aard moet zowel als loonkost én als VU geboekt worden.", "kernpunt": "VAA wordt OFWEL als loonkost geboekt (en de eigenaar betaalt PB) ofwel als rekening-courant-debet (en blijft niet-uitgekeerd). Bij niet-doorrekening: VU-bijtelling want voordeel niet 'op naam'. Niet beide tegelijk — dat zou dubbele belasting zijn.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Volgorde van bewerkingen omgooien", "verkeerde_assumptie": "DBI-aftrek mag op de eindwinst toegepast worden.", "kernpunt": "KB/WIB art. 74-77 schrijft een specifieke volgorde voor: VU bijtellen vóór de aftrekken (DBI, NIA, innovatie). Bovendien: bepaalde aftrekken kennen een 'aftrek-volgorde' onderling (DBI vóór NIA vóór investeringsaftrek). Verkeerde volgorde leidt tot foute belastbare grondslag — fiscus corrigeert via taxatie.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB/WIB 92", "ref": "art. 74-77"}]}},
+      {"titel": "Overgedragen verlies op verkeerde manier afzetten", "verkeerde_assumptie": "Overgedragen verlies aftrekken vóór de VU-bijtelling.", "kernpunt": "Overgedragen verlies wordt afgezet ná de VU-bijtelling en ná de aftrekken (DBI, NIA, ...) volgens de wettelijke cascade. Sinds aanslagjaar 2019 ook beperkt door minimum-belasting (mandement minimum-VenB): bij hoge winsten kan slechts deel overgedragen verlies worden afgezet.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB 92", "ref": "art. 207 (overgedragen verliezen)"}]}}
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "vennootschapsbelasting"
-    },
-    {
-      "type": "triggert",
-      "target": "belastbare-grondslag-vennootschapsbelasting"
-    },
-    {
-      "type": "vereist",
-      "target": "boekhoudbeginselen"
-    }
+    {"type": "valt_onder", "target": "vennootschapsbelasting"},
+    {"type": "triggert", "target": "belastbare-grondslag-vennootschapsbelasting"},
+    {"type": "vereist", "target": "boekhoudbeginselen"},
+    {"type": "bevat", "target": "verworpen-uitgaven", "toelichting": "VU zijn de primaire categorie permanente correcties."},
+    {"type": "triggert", "target": "uitgestelde-belastingen", "toelichting": "Tijdelijke verschillen leiden tot boekhoudkundige uitgestelde belastingen."}
   ]
 }
