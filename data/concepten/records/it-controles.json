@@ -1,20 +1,23 @@
 {
   "id": "it-controles",
   "naam": {
-    "primair": "IT-controles",
-    "afkorting": "ITGC",
+    "primair": "Informatica-controles",
     "synoniemen": [
-      "ITGC",
-      "IT general controls",
+      "IT-controles",
+      "Information Technology General Controls (ITGC)",
+      "general IT controls",
       "application controls",
       "geautomatiseerde controles",
       "cyber internal control"
-    ]
+    ],
+    "vertaling": {
+      "fr": "contrôles informatiques"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -29,35 +32,43 @@
     "scope": {
       "in": [
         "Digitale controle-architectuur in geautomatiseerde omgevingen",
-        "#itgc — toegangsbeheer (user mgmt · password · MFA) · change mgmt (dev→test→prod) · backup+recovery · operations monitoring",
-        "#application-controls — input (validaties · mandatory · dropdowns) · processing (totalen · herrekening · edit checks) · output (rapportering · distributie)",
-        "#fysieke-beveiliging (1.7.X.B): datacenters · toegangscontrole · milieubeheer",
-        "#it-functiescheiding (cross naar functiescheiding)",
-        "#audittrail-en-logmonitoring (1.7.VIII.E): wie deed wat wanneer · anomalie-detectie · SIEM",
-        "Specifieke risico's (1.7.X.A): cyberaanvallen · datalekken · systeemuitval · manipulatie geautomatiseerde verwerking"
+        "General IT controls (ITGC): toegangsbeheer, change management, backup en recovery, operations monitoring",
+        "Application controls: input (validaties, mandatory fields, dropdowns), processing (totalen, herrekening, edit checks), output (rapportering en distributie)",
+        "Fysieke beveiliging (1.7.X.B): datacenters, toegangscontrole, milieubeheer",
+        "Informatica-functiescheiding via Role-Based Access Control",
+        "Audit trail en log monitoring (1.7.VIII.E): wie deed wat wanneer, anomalie-detectie, SIEM",
+        "Specifieke risico's (1.7.X.A): cyberaanvallen, datalekken, systeemuitval, manipulatie geautomatiseerde verwerking"
       ],
       "out": [
         {
-          "topic": "IC-kader (parent)",
+          "topic": "Interne controle als parent-kader",
           "richting": "moet-verwijzen",
           "ref": "interne-controle"
         },
         {
-          "topic": "IT-RBAC-aspect (cross naar functiescheiding)",
+          "topic": "Informatica-functiescheiding via RBAC",
           "richting": "moet-verwijzen",
           "ref": "functiescheiding"
         },
         {
-          "topic": "IT-bewijs verzamelen (audit-kant)",
+          "topic": "IT-bewijs verzamelen door auditor",
           "richting": "moet-verwijzen",
           "ref": "audit-bewijs"
         }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-controle-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/it-controles.json",
+      "primary_bronnen": [
+        "ISA 315 (herzien-2019)",
+        "ISA 330"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -65,27 +76,409 @@
         "timestamp": "2026-05-28T08:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:15:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-controle-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit ISA 315/330 (general IT controls + application controls)."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Informatica-controles zijn de interne-controle-maatregelen die specifiek ingrijpen op de geautomatiseerde verwerking van transacties en data. Ze vallen uiteen in twee grote groepen: (1) General IT Controls (ITGC) - de overkoepelende controles op de informatica-omgeving zelf (toegang, change management, operations, backup); en (2) application controls - de controles binnen specifieke applicaties die op individuele transacties ingrijpen (input-validatie, herrekeningen, rapportering). Beide werken complementair: application controls vergen werkende ITGC om betrouwbaar te zijn.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 - interne beheersingsmaatregelen voor informatieverwerking en general IT controls" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "In de praktijk zijn informatica-controles vandaag het zwaartepunt van interne controle - bijna elke financiele transactie passeert door een of meer applicaties (ERP, salaris, betalingsplatform, e-commerce). De auditor die deze applicaties niet doorgrondt mist het overgrote deel van de relevante beheersing. Voor kmo's gaat het vaak om standaardpakketten (Odoo, WinBooks, Yuki, Exact, SAP Business One) waar de essentiele controles meegeleverd zijn; voor middelgrote ondernemingen om custom-ERP-implementaties met meer ruimte voor configuratie-risico. Cyberaanvallen en ransomware verheffen IT-controles vandaag van een puur 'IT-issue' tot een bestuursaangelegenheid.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 330", "ref": "par. A29-A31 toetsing general IT controls" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk Belgische audit 2025" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "ISA 330 erkent expliciet dat naarmate een onderneming meer geautomatiseerde interne beheersingsmaatregelen gebruikt, het belangrijker wordt om de general IT controls te implementeren die de voortdurende werking van die geautomatiseerde controles onderbouwen. Met andere woorden: een sterke application control op factuur-tolerantie heeft geen waarde als de change-management-procedure toelaat dat een ontwikkelaar zonder review de tolerantie-instelling kan wijzigen. ITGC zijn dus indirect maar essentieel voor de geloofwaardigheid van de financiele rapportering.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 330", "ref": "par. A29" },
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A172" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "interne-controle"
+      ],
+      "naast_relevant": [
+        "functiescheiding"
+      ],
+      "volgkennis": [
+        "evaluatie-interne-controle",
+        "audit-bewijs"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Universeel toepasbaar in elke geautomatiseerde omgeving. Kader: ISA 315 + ISA 330 + COBIT (ISACA, IT-governance-framework)."
+      },
+      "voor": [
+        {
+          "tekst": "Elke onderneming met een boekhoudpakket, ERP of e-commerce-platform. Schaalbaar: voor een kmo enkele key controls in het standaardpakket, voor een grote onderneming een volledig ITGC-framework met onafhankelijke IT-audit-functie.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A156" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Specifieke risico's in informatica-omgevingen (ISA 315 par. A165): ongeautoriseerde toegang tot data en programma's, ongeautoriseerde wijzigingen aan data of programma's, gebruik van ongeautoriseerde of niet-getoetste programma-versies, manipulatie van geautomatiseerde verwerking, verlies van data door systeemfalen of cyberaanval, gebrek aan audit trail.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A165 risico's vanuit gebruik van IT" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "general-it-controls",
+        "naam": { "primair": "General IT Controls (ITGC)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Overkoepelende controles op de informatica-omgeving als geheel, die niet aan een specifieke transactie maar aan de hele applicatie-laag verbonden zijn. ISA 315 par. A172 onderscheidt vier hoofdcategorieen: toegangsbeheer, change management, IT operations en backup en recovery.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A172 general IT controls" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "toegangsbeheer",
+              "naam": { "primair": "Toegangsbeheer (access management)" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "User-account-creatie en -beeindiging, paswoord-policy (lengte, complexiteit, rotatie), multi-factor-authenticatie voor bevoorrechte accounts en remote access, beheer van bevoorrechte gebruikers (admin, root, sa), periodieke user-access-review. Vooral cruciaal: tijdige offboarding bij ontslag of functiewissel - achtergebleven accounts zijn een veelvoorkomende intern-fraude-vector.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A172" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "change-management",
+              "naam": { "primair": "Change management (wijzigingsbeheer)" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Beheerste flow voor wijzigingen aan applicaties of infrastructuur: ontwikkeling in DEV-omgeving, test in TEST-omgeving (functioneel + user-acceptance), goedkeuring door change-board, deployment in PROD-omgeving door iemand anders dan de ontwikkelaar. Doel: voorkomen dat ongeautoriseerde of niet-getoetste code in productie raakt. Sleutelcontrole voor de betrouwbaarheid van application controls.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 330", "ref": "par. A29-A31" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "it-operations",
+              "naam": { "primair": "IT operations (batch jobs, scheduling, monitoring)" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Geplande batch-jobs (bv. nachtelijke afrekeningen, salarissen, BTW-berekeningen) moeten betrouwbaar uitvoeren. Beheersmaatregelen: scheduler-tool met monitoring, alerts bij gefaalde jobs, herstart-procedures, capaciteitsmonitoring van servers en netwerk. Zonder deze controles kunnen transacties stilletjes uitvallen of dubbel uitvoeren.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A172" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "backup-recovery",
+              "naam": { "primair": "Backup en recovery" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Regelmatige backups (dagelijks incrementeel, wekelijks volledig), off-site of cloud-backup tegen lokale ramp, periodiek geteste restore-procedures (een backup die niet teruggezet kan worden, beschermt niets). Recovery time objective (RTO) en recovery point objective (RPO) leggen de toleranties vast. Cruciaal in cyber-context: ransomware-aanvallen worden alleen overleefd door immutable backups.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A172" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "application-controls",
+        "naam": { "primair": "Application controls" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Controles ingebouwd in een specifieke applicatie die op individuele transacties ingrijpen, gegroepeerd langs de drie verwerkingsfasen: input (data komen binnen), processing (data worden verwerkt), output (resultaten worden gerapporteerd).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 - interne beheersingsmaatregelen voor informatieverwerking" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "input-controls",
+              "naam": { "primair": "Input controls" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Validaties op invoer: verplichte velden (mandatory), dropdown-keuzes (geen vrije tekst), range checks (datum binnen aanslagjaar, bedrag boven 0), format checks (geldig BTW-nummer, geldig IBAN, geldig rijksregisternummer), aansluiting met master data (klant-ID moet bestaan in klantenmaster), dubbele-invoer-preventie (zelfde factuurnummer per leverancier slechts een keer).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 - autorisatie en goedkeuringen + verificaties" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "processing-controls",
+              "naam": { "primair": "Processing controls" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Controles tijdens de verwerking: controle-totalen (batch-totaal komt overeen met som van detail-transacties), herrekening (systeem berekent BTW opnieuw en vergelijkt met ingevoerd bedrag), edit checks (negatief saldo wordt geblokkeerd of vereist supervisor-override), tolerantietests (factuur tov inkooporder binnen 5% tolerantie - daarboven blocked for review).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 - aansluitingen en verificaties" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "output-controls",
+              "naam": { "primair": "Output controls" },
+              "bouwsteen_type": "mechanisme",
+              "kern": {
+                "definitie": {
+                  "tekst": "Controles op de output: rapportering met aansluiting tussen detail en totaal, distributielijsten (wie krijgt welk rapport), watermarks en classificatie (vertrouwelijk, intern, publiek), retentie-policy voor archivering, doorgifte aan externe systemen (e-invoicing, BTW-aangifte, Intervat) met aansluiting tussen brondata en gerapporteerde data.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer COBIT + audit-handboeken" }
+                    ]
+                  }
+                }
+              }
             }
           ]
         }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "audit-trail",
+        "naam": { "primair": "Audit trail en log monitoring" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke significante actie in het systeem wordt geregistreerd in logs: wie deed wat wanneer met welk resultaat. Audit trail moet onveranderlijk zijn (geen mogelijkheid om logs te wijzigen of te wissen), tijdig gemonitord (real-time of dagelijks), en bewaard voor minstens de wettelijke termijn (boekhoudkundige bewaarplicht van zeven jaar in Belgie). SIEM-tools (Security Information and Event Management) aggregeren logs over alle systemen en triggeren alerts bij verdachte patronen (login na werkuren, massa-downloads, geweigerde autorisaties).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A165 - audit trail in IT-omgeving" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fysieke-beveiliging",
+        "naam": { "primair": "Fysieke beveiliging van datacenters en hardware" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Datacenters of serverruimtes met fysieke toegangscontrole (badge, biometrie), klimaatbeheersing (temperatuur, vochtigheid), brand- en waterdetectie, redundante voeding (UPS, generator). Voor kmo's vandaag vaak vervangen door cloud-hosting bij gespecialiseerde providers (Microsoft Azure, AWS, Google Cloud) - de fysieke beveiliging wordt dan een controle op de cloud-provider via SOC 2-rapporten of ISAE 3402.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 20 - fysieke of logische interne beheersingsmaatregelen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "cyber-risico",
+        "naam": { "primair": "Cyber-risico's en mitigatie" },
+        "bouwsteen_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "Specifieke risico's vandaag: phishing (medewerker klikt op gemanipuleerde mail en geeft credentials weg), ransomware (data versleuteld, losgeld geeist), CEO-fraud of business e-mail compromise (vervalste opdracht tot urgente betaling), datalekken (GDPR-risico). Mitigatie: awareness-training, e-mail-filtering, multi-factor-authenticatie, immutable backups, incident response plan, cyber-verzekering. Voor ondernemingen onder NIS2-richtlijn (essentiele en belangrijke entiteiten) komen verplichte risico-management-maatregelen bovenop.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. A165 risico's IT" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "NIS2 + GDPR-context Belgie 2024-2025" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Application controls vertrouwen zonder ITGC te toetsen",
+        "verkeerde_assumptie": "De systeem-controle in het ERP rekent automatisch de BTW na, dus de BTW-aangifte is betrouwbaar.",
+        "kernpunt": "Een application control is alleen zo betrouwbaar als de general IT controls die hem onderbouwen. Als een ontwikkelaar zonder change-management de BTW-tarief-tabel kan wijzigen, is de application control waardeloos. Daarom altijd eerst ITGC toetsen (vooral toegang + change management) voor je op application controls steunt - dat is ISA 330 par. 10(a).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 330", "ref": "par. 10(a)" }
+          ]
+        }
+      },
+      {
+        "titel": "Cloud betekent geen eigen IT-controle meer",
+        "verkeerde_assumptie": "Sinds we naar Microsoft 365 / Azure / AWS verhuisd zijn, doet de provider de IT-controles.",
+        "kernpunt": "Cloud is een shared responsibility model. De provider beheert de fysieke infrastructuur en sommige platform-controles. De cliente blijft zelf verantwoordelijk voor toegangsbeheer binnen zijn tenant, change management op zijn configuraties, data-classificatie en backup-policies. De auditor moet zowel de SOC 2/ISAE 3402-rapporten van de provider beoordelen als de cliente-specifieke controles toetsen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 402", "ref": "Definities - serviceorganisatie en gebruikersorganisatie" }
+          ]
+        }
+      },
+      {
+        "titel": "Wachtwoord-policy als alleenstaande controle",
+        "verkeerde_assumptie": "Sterke wachtwoorden volstaan voor toegangsbeheer.",
+        "kernpunt": "Sterke paswoorden zijn een minimumvereiste, geen volwaardige controle. Multi-factor-authenticatie is vandaag de standaard voor bevoorrechte accounts en remote toegang. Phishing-aanvallen passeren de meeste paswoord-only-controles. Combineer met periodieke user-access-reviews, monitoring van failed logins en alerts op verdachte locaties of tijden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "NIST + ISO 27001-aligned standaardpraktijk" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "auditor-it-controle",
+      "naam": {
+        "primair": "Externe auditor toetst IT-controles bij cliente"
+      },
+      "intro": "De auditor die het IT-aspect van interne controle moet beoordelen voor zijn risico-inschatting (ISA 315) en eventuele steun (ISA 330).",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "itgc-inschatting",
+              "naam": { "primair": "ITGC inschatten voor steunen op application controls" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor elke geautomatiseerde controle waarop de auditor wil steunen, eerst de relevante general IT controls in kaart brengen (toegang, change management, operations). Als deze ITGC niet effectief werken: terugvallen op gegevensgerichte werkzaamheden of alternatieve manueel-gestuurde controles toetsen (ISA 330 par. A31).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 330", "ref": "par. A29-A31" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "it-deskundige-inschakelen",
+              "naam": { "primair": "Beslissen over inschakelen IT-deskundige" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij complexe IT-omgevingen (custom-ERP, beursgenoteerde onderneming, financiele sector) is een IT-audit-deskundige nodig (ISA 620). Voor een eenvoudige kmo op een standaardpakket kan de opdrachtpartner de IT-controles zelf beoordelen mits voldoende basis-IT-kennis.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 620", "ref": "Gebruikmaken van werkzaamheden door deskundige" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kantoor-eigen-it",
+      "naam": {
+        "primair": "Eigen kantoor: IT-veiligheid"
+      },
+      "intro": "De ITAA-beroepsbeoefenaar die zijn eigen kantoor moet beveiligen - beroepsgeheim + GDPR + AWW.",
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "kantoor-essentials",
+              "naam": { "primair": "Essentiele IT-controles voor het ITAA-kantoor" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Minimumset voor elk kantoor: (1) MFA op alle accounts; (2) versleutelde laptops en mobiele toestellen; (3) toegangsbeheer per dossier (need-to-know); (4) automatische backups; (5) e-mail-filtering tegen phishing; (6) awareness-training over CEO-fraud en phishing; (7) incident-response-plan met communicatieplan naar cliente en GBA bij datalek; (8) periodieke review van actieve gebruikers (vooral bij ex-medewerkers en stagiairs).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm-intern-kwaliteitsmanagement", "ref": "ISQM 1 - kwaliteitsmanagement op kantoorniveau" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "GDPR + AWW + beroepsgeheim-context" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -93,7 +486,8 @@
     },
     {
       "type": "vereist",
-      "target": "functiescheiding"
+      "target": "functiescheiding",
+      "toelichting": "Informatica-functiescheiding via Role-Based Access Control is een van de kerntoepassingen van het functiescheiding-principe."
     }
   ]
 }
