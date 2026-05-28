@@ -2,25 +2,32 @@
   "id": "aangifteplicht",
   "naam": {
     "primair": "Aangifteplicht",
-    "synoniemen": [
-      "aangifteplicht-fiscaal"
-    ]
+    "synoniemen": ["fiscale aangifteplicht", "aangifteverplichting"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader",
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "2.5.I"
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "gebeurtenis"],
+    "ankers": ["2.5.I"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/aangifteplicht.json",
+      "primary_bronnen": [
+        "WIB92 art. 305",
+        "WIB92 art. 306",
+        "WIB92 art. 307",
+        "WIB92 art. 308",
+        "WIB92 art. 351",
+        "WIB92 art. 444",
+        "WBTW art. 53",
+        "WBTW art. 53octies"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,6 +36,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld: aangifteplicht art. 305 WIB92 + vormen (Tax-on-Web/Biztax/Intervat) + gevolgen niet-naleving."
       }
     ],
     "scope": {
@@ -37,8 +51,7 @@
         "Wat moet aangegeven worden (inkomsten · vermogen · handelingen)",
         "Wanneer indienen (termijnen per belasting · uitstel-regeling)",
         "Vorm (papier · MyMinFin · Tax-on-Web · Biztax · Intervat)",
-        "Gevolgen niet-naleving: aanslag van ambtswege · belastingverhoging · sancties",
-        "Rename uit: aangifteplicht-fiscaal (PO 2.5)"
+        "Gevolgen niet-naleving: aanslag van ambtswege · belastingverhoging · sancties"
       ],
       "out": [
         {
@@ -67,28 +80,223 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "De aangifteplicht is de wettelijke verplichting voor elke belastingplichtige om uit eigen beweging, binnen een wettelijke termijn en in een voorgeschreven vorm, de elementen aan te geven die nodig zijn om de belasting te kunnen vestigen. Voor de inkomstenbelasting steunt deze plicht op artikel 305 WIB92: 'belastingplichtigen aan de personenbelasting, de vennootschapsbelasting, de rechtspersonenbelasting en de belasting van niet-inwoners ... zijn ertoe gehouden ieder jaar aan de administratie ... een aangifte over te leggen'. Voor btw geldt art. 53 §1 WBTW (periodieke aangifte).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 305" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 53 §1" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De aangifteplicht is de hoeksteen van het Belgisch fiscaal stelsel: de fiscus heft niet uit eigen beweging, maar op basis van wat de belastingplichtige meedeelt. Voor de stagiair betekent dit: tijdig en volledig aangeven is de eerste fiscale plicht van elke cliënt. Niet-aangeven of laattijdig aangeven activeert escalerende mechanismes — aanslag van ambtswege (art. 351 WIB92, fiscus raamt zelf op basis van beschikbare info), belastingverhogingen (art. 444 WIB92, tot 200 %), administratieve geldboetes (art. 445 WIB92), en bij fraude ook strafrechtelijke vervolging (art. 449 WIB92).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 351" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 444" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 305" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het Belgisch belastingstelsel is een aangifte-stelsel: efficiënt omdat de overheid niet elke belastingplichtige individueel hoeft te controleren, maar steunt op de medewerkingsplicht van de burger. De wetgever maakt deze plicht effectief door duidelijke termijnen, voorgeschreven formulieren en stevige sancties bij niet-naleving.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "fiscale-procedure",
+      "volgkennis": ["aanslag-cyclus"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 305 (inkomstenbelasting); WBTW art. 53 (btw)",
+        "toelichting": "Indienings-termijnen + vormen evolueren jaarlijks (vooral Tax-on-Web-deadlines). Wet stabiel."
+      },
+      "voor": [
+        {
+          "tekst": "Elke belastingplichtige onderworpen aan inkomstenbelasting, btw, registratierechten, successierechten of een lokale belasting waarvoor het reglement een aangifte voorziet.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 305" },
+              { "type": "wettekst", "naam": "WBTW", "ref": "art. 53" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "PB: ontvangst van het aangifteformulier (of voorstel van vereenvoudigde aangifte) door de FOD Financiën, doorgaans in mei van het aanslagjaar. VenB: einde boekjaar. Btw: einde aangifteperiode (maand of kwartaal).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 308", "context": "Procedure aangifteformulier" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-aangeven of laattijdig aangeven: aanslag van ambtswege (fiscus raamt zelf op basis van beschikbare gegevens, art. 351 WIB92) + belastingverhoging tot 200 % (art. 444 WIB92 + KB/WIB92 art. 225-226) + administratieve geldboete (art. 445 WIB92). Bij opzet/fraude: verlengde aanslagtermijn (10 jaar art. 354 WIB92) + strafrechtelijke vervolging (art. 449 WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 351" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 444" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 445" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 449" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "wie-moet-aangeven",
+        "naam": { "primair": "Wie moet aangifte indienen" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Per belasting verschillend. Inkomstenbelasting (art. 305 WIB92): alle rijksinwoners onderworpen aan PB, alle vennootschappen onderworpen aan VenB, alle rechtspersonen onderworpen aan RPB, alle niet-inwoners met Belgische bron (BNI). Btw (art. 53 §1 WBTW): elke btw-belastingplichtige met periodieke aangifte (kwartaal of maand). Successierechten: de erfgenamen, legatarissen of begunstigden binnen 4 maanden na overlijden (Vlaams Gewest: art. 3.3.1.0.5 VCF). Registratierechten: in beginsel automatisch via de notariële akte, geen aparte aangifte. Lokale belastingen: volgens belastingreglement.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 305" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 53 §1" },
+                { "type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.3.1.0.5", "context": "Aangiftetermijn erfbelasting" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wat-aangeven",
+        "naam": { "primair": "Wat moet aangegeven worden" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Inkomstenbelasting: alle belastbare inkomsten (beroeps-, onroerend, roerend, divers) + aftrekken + gezinslast + voorheffingen + buitenlandse rekeningen + juridische constructies. De aangifte volgt het aangifteformulier (deel 1 en deel 2 PB; aangifte 275.1 VenB; aangifte 276.5 BNI). Btw: belastbare handelingen, btw geheven van klanten (rooster 54/61), aftrekbare btw (rooster 59), verschuldigde of terug te vorderen saldo. Successierechten: alle goederen van de nalatenschap, schulden, eventuele schenkingen tijdens de drie jaren vóór overlijden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 307" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 53 §1 — 2°" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "wanneer-aangeven",
+        "naam": { "primair": "Wanneer indienen (termijnen)" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "PB-papier: 30 juni aanslagjaar (richtlijn). PB-Tax-on-Web: medio juli aanslagjaar (richtlijn, jaarlijks aangekondigd). PB via cijferberoeper (mandataris): eind oktober aanslagjaar (richtlijn). VenB (Biztax): binnen de termijn vermeld op het formulier, doorgaans tussen 1 en 4 maanden na de algemene vergadering die de jaarrekening goedkeurde, maar nooit later dan 6 maanden na het einde van het belastbaar tijdperk. Btw (Intervat): 20e van de maand volgend op het aangiftetijdperk; jaarlijkse opgave van btw-belastingplichtige klanten (klantenlisting): 31 maart. Erfbelasting: 4 maanden na overlijden (overlijden in België; 5 maanden bij Europees overlijden, 6 maanden bij overzee). Exacte termijnen: jaarlijks raadplegen — Cijferzakboekje bij examen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 308", "context": "Termijn aangifte inkomstenbelasting" },
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 53 §1 — 2°", "context": "Btw-aangifte 20e van maand" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijktermijnen — verifieer jaarlijks" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vorm-aangifte",
+        "naam": { "primair": "Vorm van de aangifte" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "PB: voorbedrukt papieren formulier (uitdovend) of elektronisch via MyMinFin / Tax-on-Web (verplicht voor mandatarissen). VenB: verplicht elektronisch via Biztax. Btw: verplicht elektronisch via Intervat (uitzondering: ondernemingen die geen pc-toegang hebben). Successierechten Vlaams Gewest: papier of elektronisch via MyVlaanderen. Voor mandatarissen (cijferberoepers): verplicht elektronisch. Een papieren aangifte die elektronisch had gemoeten = geldige aangifte aanvaard, maar in toekomst beboetbaar volgens jurisprudentie en administratieve commentaar.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 307bis", "context": "Elektronische aangifte voor mandatarissen" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vereenvoudigde-aangifte-pb",
+        "naam": { "primair": "Voorstel van vereenvoudigde aangifte (PB)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "De FOD Financiën stuurt aan eenvoudige belastingplichtigen (loontrekkenden zonder bijkomende inkomsten, gepensioneerden, ...) een voorstel van vereenvoudigde aangifte. Reageert de belastingplichtige niet binnen de termijn (zelfde als gewone aangifte), dan geldt het voorstel als de definitieve aangifte. Reageert hij wel (wijzigingen of aanvullingen), dan vervangt zijn correctie het voorstel. Praktisch: voor stagiair-accountants beperken vereenvoudigde aangiften de werkdruk, maar verdient elk voorstel een snelle controle (vergeten aftrekken, fout kadastraal inkomen, ...).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 306", "context": "Voorstel van vereenvoudigde aangifte" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gevolgen-niet-naleving",
+        "naam": { "primair": "Gevolgen van niet-naleving" },
+        "bouwsteen_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "Cumulatieve mechanismes activeren bij niet-aangeven, laattijdige aangifte of onvolledige aangifte. (1) Aanslag van ambtswege (art. 351 WIB92): de fiscus raamt zelf en de bewijslast om die raming te weerleggen komt op de belastingplichtige. (2) Belastingverhoging (art. 444 WIB92 + KB/WIB92 art. 225-226): graad afhankelijk van overtreding — 10 % bij eerste overtreding zonder kwade trouw tot 200 % bij herhaalde fraude. (3) Administratieve geldboete (art. 445 WIB92): 50 tot 1.250 EUR per overtreding. (4) Verlengde aanslagtermijn bij niet-aangifte (5 jaar) of fraude (10 jaar) (art. 354 WIB92). (5) Strafrechtelijke vervolging bij opzet/valsheid (art. 449 e.v. WIB92).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 351" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 354" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 444" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 445" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 449" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Uitstel = automatisch geen sanctie",
+        "verkeerde_assumptie": "Studenten denken dat indien de FOD Financiën een algemeen uitstel verleent, alle laattijdige aangiften zonder gevolg blijven.",
+        "kernpunt": "Algemene uitstellen (vaak gepubliceerd door de minister) verschuiven de officiële deadline. Wie ook na de uitgestelde deadline indient, valt opnieuw onder de sanctieregeling. Een individueel uitstel moet vooraf aangevraagd en bevestigd worden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkjurisprudentie" }
+          ]
+        }
+      },
+      {
+        "titel": "Vereenvoudigde aangifte = niets doen",
+        "verkeerde_assumptie": "Het volstaat om het voorstel van vereenvoudigde aangifte te negeren — de fiscus regelt het wel.",
+        "kernpunt": "Bij ongewijzigd voorstel geldt dit inderdaad als aangifte. Maar bevat het voorstel fouten (vergeten kinderlast, fout KI, fout pensioenbedrag), dan is de belastingplichtige bij stilzwijgen verantwoordelijk voor de onjuiste aanslag. Steeds nakijken.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 306" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
-    },
-    {
-      "type": "triggert",
-      "target": "aanslag-cyclus"
-    }
+    { "type": "valt_onder", "target": "fiscale-procedure" },
+    { "type": "triggert", "target": "aanslag-cyclus" }
   ]
 }
