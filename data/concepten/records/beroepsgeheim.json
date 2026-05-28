@@ -5,12 +5,15 @@
     "synoniemen": [
       "professional confidentiality",
       "vertrouwelijkheidsplicht accountant"
-    ]
+    ],
+    "vertaling": {
+      "fr": "secret professionnel"
+    }
   },
   "concept_type": "principe",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader",
       "regeling"
@@ -21,10 +24,10 @@
     ],
     "scope": {
       "in": [
-        "Wettelijke verankering: art 458 Strafwetboek + ITAA-deontologische code",
+        "Wettelijke verankering: art. 458 Strafwetboek + art. 120 ITAA-wet 17-03-2019 + ITAA-deontologische code",
         "Reikwijdte: alles wat in opdrachtuitvoering wordt gekend",
         "Uitzonderingen: wettelijke verplichting · rechterlijke vordering · AML-melding aan CFI",
-        "Samenloop met AML: tipping-off-verbod",
+        "Samenloop met antiwitwaswet: tipping-off-verbod (art. 55 AML-wet 18-09-2017)",
         "Anti-collision-regel met antiwitwaspreventie",
         "Cross-toepassing belastingadvies-context"
       ],
@@ -52,9 +55,19 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/beroepsgeheim.json",
+      "primary_bronnen": [
+        "Strafwetboek art. 458",
+        "Wet 17 maart 2019 (ITAA-wet) art. 120",
+        "Wet 18 september 2017 (antiwitwaswet) art. 53 + 55",
+        "ITAA-deontologie-beroepsgeheim — Q&A-nota"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -63,38 +76,468 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (art. 458 Strafwetboek, art. 120 ITAA-wet, ITAA-Q&A-nota, AML-wet 18-09-2017 art. 53/55). Bundle-flow extract zonder extra MCP-calls."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Het beroepsgeheim van de gecertificeerd accountant en de belastingadviseur is een strafrechtelijk beschermde geheimhoudingsplicht: alle vertrouwelijke informatie waarvan zij uit hoofde van hun beroep kennis krijgen, mogen zij niet bekendmaken. De rechtsgrondslag is artikel 458 van het Strafwetboek, dat sinds de ITAA-wet (art. 120 van de Wet van 17 maart 2019 tot oprichting van het Instituut van de Belastingadviseurs en de Accountants) uitdrukkelijk van toepassing is verklaard op de beroepsbeoefenaars, stagiairs én op de personen voor wie zij instaan. Schending is strafbaar met gevangenisstraf van 1 tot 3 jaar en/of een geldboete van 100 tot 1000 EUR.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Strafwetboek", "ref": "art. 458" },
+            { "type": "wettekst", "naam": "Wet 17 maart 2019 (ITAA-wet)", "ref": "art. 120" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het beroepsgeheim is geen vrijblijvende discretieplicht — het is een wettelijke verplichting die de gewone vertrouwelijkheid overstijgt. Het beschermt de cliënt (die vrijuit informatie moet kunnen delen met zijn accountant) maar dient daarnaast het algemeen belang: zonder beroepsgeheim zou de accountant niet kunnen functioneren als vertrouwenspersoon van het economisch verkeer. Concreet: alles wat in het kabinet wordt gezegd, geschreven of becijferd in het kader van een opdracht, is in principe geheim — ook na het einde van de opdracht en zelfs na het overlijden van de cliënt. Het beroepsgeheim geldt alleen tegen 'derden' — niet tussen ITAA-collega's binnen hetzelfde kantoor of binnen hetzelfde dossier.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A — algemene inleiding + secties 2, 5, 7" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van ITAA-Q&A + algemene leer beroepsgeheim" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is dubbel: (1) bescherming van het vertrouwen tussen cliënt en accountant — zonder gegarandeerde geheimhouding zou de cliënt strategische, fiscale of financiële informatie achterhouden, wat de kwaliteit van de dienstverlening en de juistheid van wettelijke aangiftes ondermijnt; (2) bescherming van het beroep als instituut van publiek belang — het accountancy-beroep kan zijn maatschappelijke rol alleen vervullen als derden (banken, fiscus, schuldeisers) erop kunnen vertrouwen dat de accountant niet als informatiekanaal voor zijn cliënt fungeert. Daarom is het beroepsgeheim 'absoluut': het wijkt niet voor de wens van de cliënt of voor commerciële druk, alleen voor uitdrukkelijke wettelijke uitzonderingen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A — Wat is de reden van bestaan van het beroepsgeheim?" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "deontologie",
+        "gecertificeerd-accountant"
+      ],
+      "naast_relevant": [
+        "antiwitwaspreventie",
+        "onafhankelijkheid"
+      ],
+      "volgkennis": [
+        "beroepsaansprakelijkheid",
+        "tuchtprocedure-itaa"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-03-17",
+        "wettelijke_basis": "Strafwetboek art. 458 + Wet 17 maart 2019 (ITAA-wet) art. 120",
+        "toelichting": "Artikel 458 Strafwetboek is een algemene strafbepaling van toepassing op alle beroepen met wettelijk beroepsgeheim. Voor de gecertificeerd accountant gold dit reeds onder de IAB-wet 22-04-1999; de ITAA-wet heeft de toepasselijkheid in 2019 uitdrukkelijk hernomen."
+      },
+      "voor": [
+        {
+          "tekst": "Alle gecertificeerde accountants en belastingadviseurs ingeschreven in het ITAA-register, hun stagiairs, hun vaste medewerkers (werknemers + zelfstandige onderaannemers) én het ITAA zelf met zijn organen, commissies, toetsers en personeelsleden. Het geheim dekt elke beroepsmatige opdracht: jaarrekening, fiscale aangifte, advies, controleopdracht, bijzondere wettelijke opdrachten.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Wet 17 maart 2019 (ITAA-wet)", "ref": "art. 120 lid 1-2" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Documenten waarvan de cliënt zelf wettelijk verplicht is ze te bewaren (boekhoudkundige dagboeken en rekeningen, bewijsstukken van boekingen, ingediende belastingaangiftes) vallen op zich niet onder het beroepsgeheim — het zijn geen 'geheimen' in de zin van art. 458 SW. De accountant mag ze echter nooit zonder akkoord van de cliënt of geldige autoriteits-instructie aan derden mededelen — dat blijft een deontologische én contractuele fout.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §5 — Welke elementen vallen onder het beroepsgeheim?" }
+            ]
+          }
+        },
+        {
+          "tekst": "Feiten van professioneel wangedrag door de beroepsbeoefenaar zelf — bv. medewerking aan valse boekhouding of organisatie van fiscale fraude. Het beroepsgeheim strekt zich niet uit tot feiten die rechtstreeks indruisen tegen de gewettigde doeleinden van het beroep.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §8 — Wangedrag van de beroepsbeoefenaar" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Voor toepasselijkheid moet de informatie (i) een 'geheim' zijn (van nature uit niet publiek), (ii) toevertrouwd zijn — uitdrukkelijk of stilzwijgend — aan de accountant, (iii) in het kader van de beroepsuitoefening. De informatie hoeft niet van de cliënt zelf te komen: ook informatie van derden die over de cliënt gaat, valt eronder.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §5" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Wettelijke uitzonderingen op art. 458 SW: (a) getuigenis in rechte (rechtbank) of voor een parlementaire onderzoekscommissie — spreekrecht, geen plicht; (b) wettelijke meldingsplicht — voor de accountant met name de melding aan de Cel voor Financiële Informatieverwerking (CFI) op grond van de Wet van 18 september 2017 tot voorkoming van het witwassen van geld en de financiering van terrorisme (antiwitwaswet). De CFI-melding is een wettelijke uitzondering, geen schending van het beroepsgeheim.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Strafwetboek", "ref": "art. 458" },
+              { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 47-59" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Schending van het beroepsgeheim genereert een cascade: (1) strafrechtelijke veroordeling (art. 458 SW: 1-3 jaar gevangenis + 100-1000 EUR boete); (2) tuchtsanctie bij het ITAA tot schrapping; (3) burgerrechtelijke aansprakelijkheid voor schade aan cliënt of derden. Eén feit kan dus drie procedures triggeren.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Strafwetboek", "ref": "art. 458" },
+              { "type": "wettekst", "naam": "Wet 17 maart 2019 (ITAA-wet)", "ref": "Hoofdstuk 8 tucht" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Sanctie-cascade — standaardleer" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "absolute-karakter",
+        "naam": {
+          "primair": "Absoluut karakter — uitzonderingen alleen bij wet"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het beroepsgeheim is in principe absoluut: het wijkt niet voor (a) de wens van de cliënt om informatie te delen met derden zonder uitdrukkelijke toelating, (b) commerciële druk of cliënt-belang, (c) een rechtstreekse vraag van de fiscale administratie. De enige wettige doorbrekingen zijn (i) getuigenis in rechte of voor een parlementaire onderzoekscommissie, (ii) een wettelijke meldingsplicht (CFI), en (iii) instemming van de cliënt zelf — die kan verzaken aan de bescherming voor specifieke informatie.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Strafwetboek", "ref": "art. 458" },
+                { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A — algemeen + §7 (verzaken)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "reikwijdte-elementen",
+        "naam": {
+          "primair": "Reikwijdte — welke documenten dekt het geheim?"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Vallen onder het beroepsgeheim: interne nota's van de accountant, communicaties tussen accountant en cliënt met vertrouwelijke inhoud, de opdrachtbrief, timesheets (omdat ze de cliënt identificeren). Vallen niet onder het beroepsgeheim, maar blijven contractueel/deontologisch beschermd: dagboeken en rekeningen van de cliënt zelf, bewijsstukken van boekingen, ingediende belastingaangiftes, brieven aan/van derden waar de accountant optreedt als mandataris (bv. communicatie met de belastingadministratie).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §5" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitzondering-cfi-melding",
+        "naam": {
+          "primair": "Wettelijke uitzondering — CFI-melding (AML-wet 18-09-2017)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de accountant tijdens een opdracht een vermoeden van witwassen of terrorismefinanciering identificeert, moet hij dit melden aan de Cel voor Financiële Informatieverwerking (CFI). Deze melding is een wettelijke uitzondering op het beroepsgeheim (art. 47-59 AML-wet 18-09-2017). Bij melding te goeder trouw geniet de melder volledige immuniteit (burgerrechtelijk, strafrechtelijk en tuchtrechtelijk).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 47-59" },
+                { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 14 + 14.6.4 (immuniteit)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "advocaat-privilege",
+        "naam": {
+          "primair": "Juridische-advies-uitzondering (art. 53 AML-wet)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "De meldingsplicht aan de CFI geldt NIET wanneer de accountant juridisch advies verstrekt: 'bij het bepalen van de rechtspositie van zijn cliënt' of 'bij verdediging of vertegenwoordiging in/in verband met een rechtsgeding'. In dat geval blijft het beroepsgeheim onverkort gelden. Deze uitzondering vervalt echter zodra (i) de accountant zelf deelneemt aan de witwasactiviteiten, (ii) advies gegeven wordt voor witwasdoeleinden, of (iii) de accountant weet dat de cliënt advies voor zulke doeleinden zoekt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 53" },
+                { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 14.4" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tipping-off-verbod",
+        "naam": {
+          "primair": "Tipping-off-verbod (art. 55 AML-wet)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een melding aan de CFI is gedaan (of een opsporingsonderzoek loopt), mag de accountant — én alle medewerkers van het kantoor — dit feit niet ter kennis brengen aan de cliënt of aan derden. Dit is het 'tipping-off-verbod' (art. 55 AML-wet 18-09-2017). Zo wordt vermeden dat de cliënt bewijsmateriaal vernietigt of vlucht. Het verbod geldt ook intern: medewerkers die door omstandigheden van de melding op de hoogte zijn moeten dat onder zich houden, ook tegenover collega's.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 55 §1" },
+                { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 14.6.3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitzonderingen-tipping-off",
+        "naam": {
+          "primair": "Uitzonderingen op tipping-off (art. 56 §3 AML-wet)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Tipping-off-verbod geldt NIET bij: (a) een poging om de cliënt te ontraden deel te nemen aan een illegale activiteit (dit telt niet als kennisgeving in de zin van art. 55); (b) kennisgeving aan het ITAA; (c) kennisgeving aan parket, politie of onderzoeksrechter voor repressieve doeleinden; (d) mededeling aan andere beroepsbeoefenaars, advocaten of notarissen die in dezelfde entiteit werken of die in dezelfde verrichting van dezelfde cliënt tussenkomen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 56 §3" },
+                { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 14.6.3 — uitzonderingen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscale-administratie",
+        "naam": {
+          "primair": "Beroepsgeheim tegenover de fiscale administratie"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het beroepsgeheim van de accountant is in principe ook tegenstelbaar aan de fiscus. Een fiscale ambtenaar die een onderzoek doet bij de accountant kan geen informatie over een cliënt opvragen tenzij (a) het gaat om documenten die de cliënt zelf wettelijk moet bewaren (boekhouding, aangiftes — geen 'geheim') of (b) de fiscale ambtenaar de procedure van de fiscale visitatie volgt met respect voor de wettelijke vorm. In de praktijk: de accountant gaat geen documenten spontaan overhandigen; hij verwijst naar de cliënt.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §11 — gevolgen ten aanzien fiscale administratie" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-cfi-melding",
+        "titel": "CFI-melding bij verdachte kapitaalverhoging — wettelijke uitzondering activeren",
+        "context": "De gecertificeerd accountant van het kantoor Vermeulen & Partners begeleidt een kapitaalverhoging bij Zelena Bio NV. De cliënt brengt 750.000 EUR in cash in. De accountant identificeert dit als 'inbreng in contanten bij kapitaalverhoging' — een knipperlicht uit de ITAA-handleiding.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "art. 19 knipperlichten + punt 12.4" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — interne melding aan de Anti-Money Laundering Compliance Officer (AMLCO) van het kantoor via het formulier 'Interne melding atypische verrichting'.",
+              "Stap 2 — AMLCO doet aanvullend onderzoek (herkomst van de fondsen, plausibiliteit van het verhaal).",
+              "Stap 3 — Indien vermoeden van witwassen bevestigd: AMLCO maakt een melding aan de CFI via e-mail (info@ctif-cfi.be) — dit is een wettelijke uitzondering op het beroepsgeheim, geen schending.",
+              "Stap 4 — Tipping-off-verbod: noch de accountant noch de AMLCO mag aan Zelena Bio NV laten weten dat een CFI-melding is gemaakt of dat een onderzoek loopt.",
+              "Stap 5 — De accountant kan de cliënt wel proberen te ontraden om de verrichting door te zetten (art. 56 §3 AML-wet — dit is geen tipping-off)."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-fiscus-vraagt-dossier",
+        "titel": "Fiscale ambtenaar vraagt het accountantsdossier van de cliënt",
+        "context": "Een fiscale ambtenaar belt het kantoor Vermeulen & Partners en vraagt 'snel de mappen op te sturen' van cliënt Aurelia Holding NV — een fiscale controle bij Aurelia loopt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §11" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — vriendelijk weigeren: de accountant is gebonden door het beroepsgeheim. Geen mondelinge informatie verstrekken, geen documenten doorsturen.",
+              "Stap 2 — verwijzen naar de cliënt: de fiscus moet zijn vraag richten aan Aurelia Holding NV zelf, die als cliënt eigenaar is van de boekhouding en aangiftes.",
+              "Stap 3 — De accountant licht de cliënt in dat de fiscus heeft gecontacteerd (dit is GEEN tipping-off — er is geen CFI-melding gedaan).",
+              "Stap 4 — Wanneer de cliënt uitdrukkelijk akkoord gaat en eventueel een mandaat verleent: pas dan kan de accountant de documenten of toelichting bezorgen, en alleen voor wat de cliënt vrijwillig vrijgeeft."
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "CFI-melding beschouwen als schending van het beroepsgeheim",
+        "verkeerde_assumptie": "Studenten denken dat het beroepsgeheim de CFI-melding verhindert — 'ik mag toch niets vertellen?'",
+        "kernpunt": "De CFI-melding is een wettelijke uitzondering (art. 47-59 AML-wet 18-09-2017) op art. 458 Strafwetboek — geen schending. De Wet legt de meldingsplicht uitdrukkelijk op, en de melder geniet volledige immuniteit (art. 57 AML-wet). Niet melden bij vermoeden is daarentegen wel een overtreding (van de AML-wet).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 47-59" }
+          ]
+        }
+      },
+      {
+        "titel": "Tipping-off verwarren met 'mag ik nooit iets vertellen aan de cliënt over witwasvermoedens?'",
+        "verkeerde_assumptie": "Studenten denken dat zodra een witwasvermoeden bestaat, álle communicatie met de cliënt over het onderwerp verboden is.",
+        "kernpunt": "Tipping-off (art. 55 AML-wet) geldt enkel ná een CFI-melding (of bij lopend onderzoek). Vóór de melding mag de accountant de cliënt nog steeds proberen te ontraden van een illegale verrichting (art. 56 §3 AML-wet — dit is uitdrukkelijk geen tipping-off). Het verbod is precies geformuleerd: niet zeggen 'er is gemeld', niet zeggen 'er loopt onderzoek'.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 55 + 56 §3" }
+          ]
+        }
+      },
+      {
+        "titel": "Boekhouding cliënt = geheim",
+        "verkeerde_assumptie": "Studenten denken dat alle papieren in het kantoor — inclusief dagboeken en aangiftes van de cliënt — onder het beroepsgeheim vallen.",
+        "kernpunt": "Documenten die de cliënt zelf wettelijk moet bewaren (boekhoudkundige dagboeken, bewijsstukken, ingediende aangiftes) zijn op zich géén 'geheim' in de zin van art. 458 SW. Wel: de accountant mag ze niet eigenmachtig doorgeven aan derden — dat blijft een contractuele en deontologische fout. Het onderscheid is belangrijk wanneer de fiscus rechtstreeks bij de cliënt vraagt of via een fiscale visitatie.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §5" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "eigen-kantoor",
+      "naam": {
+        "primair": "Eigen kantoor — informatiebeheer en wettelijke meldingen"
+      },
+      "intro": "De gecertificeerd accountant in een ITAA-kantoor die het beroepsgeheim moet bewaken bij elke dagelijkse opdracht.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "documenten-classificeren",
+              "naam": {
+                "primair": "Dossier-classificatie en toegangscontrole"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Elk kantoor heeft een interne procedure die bepaalt (a) welke documenten 'vertrouwelijk' (geheim) zijn versus 'cliënt-eigendom' (boekhouding, aangiftes); (b) wie binnen het kantoor toegang heeft tot welke dossiers; (c) hoe externe verzoeken (fiscus, derden) worden behandeld — meestal via één verantwoordelijke (kantoor-partner of compliance-officer). Beschermd dataverkeer via IT-toegangscontrole, dossier-versleuteling, beperking schermtonen in open ruimtes.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §5" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard kantoorpraktijk" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "cfi-melding-procedure",
+              "naam": {
+                "primair": "CFI-melding-procedure en tipping-off-discipline"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer een knipperlicht (knipperlicht-lijst uit de ITAA-handleiding) afgaat: (1) interne melding aan AMLCO via standaardformulier; (2) AMLCO doet onderzoek; (3) bij bevestigd vermoeden — melding aan de Cel voor Financiële Informatieverwerking (CFI) per e-mail naar info@ctif-cfi.be; (4) striktste tipping-off-discipline: nooit de cliënt of derden informeren dat een melding is gemaakt. Verslagen 10 jaar bewaren.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-Handleiding interne procedures AWW 2019", "ref": "punt 12.4 + 14" },
+                      { "type": "wettekst", "naam": "Wet 18 september 2017 (antiwitwaswet)", "ref": "art. 55" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "fiscus-omgang",
+              "naam": {
+                "primair": "Omgang met fiscale ambtenaren — vriendelijk weigeren"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke vraag van de fiscus om cliëntdocumenten of cliëntinformatie: vriendelijk weigeren onder verwijzing naar het beroepsgeheim, en de fiscus naar de cliënt verwijzen. Niet liegen over de relatie ('ik ken die cliënt niet'); wel zwijgen over de inhoud. Cliënt onmiddellijk informeren — dit is geen tipping-off (geen CFI-melding) maar een normale informatie-verplichting tegenover de cliënt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-deontologie-beroepsgeheim", "ref": "Q&A §11" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Kantoorpraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
-      "target": "deontologie"
+      "target": "deontologie",
+      "toelichting": "Beroepsgeheim is de wettelijke verankering van het vertrouwelijkheids-beginsel uit de IESBA-code."
     },
     {
       "type": "niet_combineerbaar_met",
-      "target": "antiwitwaspreventie"
+      "target": "antiwitwaspreventie",
+      "toelichting": "Spanning: beroepsgeheim verbiedt openbaarmaking, AML-wet legt meldingsplicht op. De wetgever heeft de samenloop opgelost door de CFI-melding uitdrukkelijk als wettelijke uitzondering op art. 458 SW te benoemen + tipping-off-verbod als spiegelregel."
     },
     {
       "type": "triggert",
-      "target": "beroepsaansprakelijkheid"
+      "target": "beroepsaansprakelijkheid",
+      "toelichting": "Schending van het beroepsgeheim leidt tot strafrechtelijke veroordeling (art. 458 SW) én civielrechtelijke aansprakelijkheid voor schade aan cliënt of derden."
+    },
+    {
+      "type": "triggert",
+      "target": "tuchtprocedure-itaa",
+      "toelichting": "Schending van het beroepsgeheim is een tuchtfeit dat de ITAA-tuchtprocedure activeert."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "onafhankelijkheid",
+      "gelijkenissen": [
+        "Beide zijn pijlers van de geloofwaardigheid van het beroep",
+        "Beide kennen wettelijke uitzonderingen die strikt worden geïnterpreteerd"
+      ],
+      "verschillen": [
+        "Beroepsgeheim regelt informatie-stroom OUT (geheimhouding); onafhankelijkheid regelt informatie-stroom IN (geen ongepaste beïnvloeding)",
+        "Beroepsgeheim is strafrechtelijk beschermd; onafhankelijkheid is normatief/tuchtrechtelijk",
+        "Beroepsgeheim geldt voor alle opdrachten; onafhankelijkheid in strikte zin alleen voor assurance"
+      ],
+      "render_hint": "als_glossarium"
     }
   ]
 }
