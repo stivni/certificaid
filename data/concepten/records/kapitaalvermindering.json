@@ -154,7 +154,13 @@
           }
         },
         {
-          "tekst": "Bij **vrijstelling volstortingsplicht** — aandeelhouders worden vrijgesteld van het saldo niet-opgevraagd kapitaal (NV — art. 7:195). Het kapitaal daalt zonder cash-uitkering."
+          "tekst": "Bij **vrijstelling volstortingsplicht** — aandeelhouders worden vrijgesteld van het saldo niet-opgevraagd kapitaal (NV — art. 7:195). Het kapitaal daalt zonder cash-uitkering.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:195", "context": "Vrijstelling volstortingsplicht als modaliteit" }
+            ]
+          }
         }
       ],
       "voorwaarden": [
@@ -248,7 +254,14 @@
             }
           },
           "rationale": {
-            "tekst": "Anti-misbruik: voor 2018 konden vennootschappen 'kunstmatig' kapitaal verhogen via incorporatie van belaste reserves, om dat kapitaal later belastingvrij terug te betalen. De pro-rata-regel sluit deze route af."
+            "tekst": "Anti-misbruik: voor 2018 konden vennootschappen 'kunstmatig' kapitaal verhogen via incorporatie van belaste reserves, om dat kapitaal later belastingvrij terug te betalen. De pro-rata-regel sluit deze route af.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Programmawet 25-12-2017", "ref": "art. 85-88" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio anti-misbruik" }
+              ]
+            }
           }
         }
       },
