@@ -1,22 +1,30 @@
 {
   "id": "huwelijksvermogensrecht",
   "naam": {
-    "primair": "Huwelijksvermogensrecht"
+    "primair": "Huwelijksvermogensrecht",
+    "synoniemen": ["matrimonieel recht"],
+    "vertaling": {"fr": "régimes matrimoniaux"}
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.6.VI"
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "regeling"],
+    "ankers": ["2.6.VI"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/huwelijksvermogensrecht.json",
+      "primary_bronnen": [
+        "Burgerlijk Wetboek Boek 2 — Personen en familie",
+        "BW art. 2.3.1 — wettelijk stelsel",
+        "BW art. 2.3.45 e.v. — scheiding van goederen",
+        "BW art. 2.3.30 e.v. — gemeenschap"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -25,6 +33,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit Boek 2 BW — drie stelsels + interactie erfrecht."
       }
     ],
     "scope": {
@@ -35,45 +50,294 @@
         "Huwelijkscontract + wijzigingen tijdens huwelijk"
       ],
       "out": [
-        {
-          "topic": "Erfrecht (interactie)",
-          "richting": "moet-verwijzen",
-          "ref": "erfrecht"
-        },
-        {
-          "topic": "Erfbelasting fiscaal",
-          "richting": "mag-verwijzen",
-          "ref": "erfbelasting"
-        },
-        {
-          "topic": "Verdeelrecht bij scheiding",
-          "richting": "mag-verwijzen",
-          "ref": "verdeelrecht"
-        }
+        {"topic": "Erfrecht (interactie)", "richting": "moet-verwijzen", "ref": "erfrecht"},
+        {"topic": "Erfbelasting fiscaal", "richting": "mag-verwijzen", "ref": "erfbelasting"},
+        {"topic": "Verdeelrecht bij scheiding", "richting": "mag-verwijzen", "ref": "verdeelrecht"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "Het huwelijksvermogensrecht is het deel van het familierecht (Boek 2 BW) dat de vermogensrelatie tussen echtgenoten regelt: welke goederen tot wiens vermogen behoren, hoe schulden worden verdeeld, en hoe het patrimonium wordt vereffend bij ontbinding (overlijden, scheiding, faillissement). De wet kent drie hoofdstelsels die echtgenoten kunnen kiezen via huwelijkscontract: (1) het wettelijk stelsel (gemeenschap van aanwinsten — default als geen contract); (2) zuivere scheiding van goederen; (3) algemene gemeenschap of gemeenschap met aanwinsten + verrekening. De keuze van stelsel beïnvloedt direct het erfrecht en de erfbelasting: bij eerste overlijden moet eerst het huwelijksstelsel worden vereffend, daarna pas de nalatenschap bepaald.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "Boek 2 — Personen en familie"},
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.1"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch is het huwelijksstelsel een 'vermogenskaart' die bepaalt: (a) wat bij het persoonlijk vermogen van elke echtgenoot blijft (eigen patrimonium); (b) wat tot een gemeenschappelijk vermogen behoort; (c) hoe inkomsten uit arbeid en kapitaal worden behandeld. Bij wettelijke gemeenschap: alles wat tijdens het huwelijk wordt verworven door arbeid is gemeenschappelijk; eigen vermogen blijft beperkt tot wat vóór het huwelijk in eigendom was + schenkingen + erfenissen ontvangen tijdens het huwelijk. Bij zuivere scheiding van goederen: elke echtgenoot houdt zijn eigen patrimonium volledig gescheiden. Bij gemeenschap met verrekening: combineert scheiding tijdens het huwelijk met een gelijkstellingsmechanisme bij ontbinding. Praktische gevolgen: bij overlijden eerste echtgenoot kan de langstlevende civielrechtelijk eigenaar zijn van de helft van het gemeenschappelijk vermogen (uit huwelijksstelsel) + erfaanspraken (uit erfrecht); fiscaal: erfbelasting wordt enkel berekend op de overgegane helft.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.30 e.v.", "context": "Gemeenschap"},
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.45 e.v.", "context": "Scheiding van goederen"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer huwelijksvermogensrecht"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het huwelijksvermogensrecht balanceert twee tegengestelde belangen: (1) economische solidariteit tussen echtgenoten — wat samen wordt opgebouwd, hoort gemeenschappelijk te zijn; (2) individuele autonomie + bescherming van eigen patrimonium — vooral relevant voor ondernemers, herstelhuwelijken en internationale koppels. Door drie stelsels aan te bieden geeft de wet keuzevrijheid (autonomie) met een default (wettelijk stelsel) dat aansluit bij de meest courante situatie (twee verdienende echtgenoten zonder bijzondere vermogensconstructie). De hervorming van 2018 heeft de positie van de langstlevende echtgenoot versterkt door het automatisch vruchtgebruik op de gezinswoning te dwingend te maken.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "Boek 2 — Inleiding hoofdstuk 3"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doelstellingen wetgever"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "registratie-en-successierechten",
+      "naast_relevant": ["erfrecht", "erfbelasting"],
+      "volgkennis": ["successieplanning"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Burgerlijk Wetboek Boek 2 (hervormd door wet 22-07-2018, in voege 01-09-2018)",
+        "toelichting": "Boek 2 BW is in voege sinds 01-09-2018. Vóór die datum gold het oude regime van het Code Napoléon met wet 14-07-1976 (wettelijk stelsel). Bestaande huwelijkscontracten gesloten vóór 01-09-2018 blijven van toepassing — overgangsrecht beschermt verkregen rechten."
+      },
+      "trigger_start": [
+        {
+          "tekst": "Het sluiten van het huwelijk (of de wettelijke samenwoning — apart regime). Wettelijke samenwoning kent geen vermogensstelsel-keuze: standaard blijven goederen gescheiden, met enkele beschermingsregels voor de gezinswoning.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.1"}
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Het huwelijksstelsel eindigt en moet worden vereffend bij: (a) overlijden van een echtgenoot; (b) echtscheiding; (c) gerechtelijke scheiding van goederen; (d) wijziging van stelsel door een nieuw huwelijkscontract.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.62 e.v.", "context": "Ontbinding gemeenschap"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "wettelijk-stelsel",
+        "naam": {"primair": "Wettelijk stelsel — gemeenschap van aanwinsten"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Standaardstelsel bij ontbreken van huwelijkscontract. Drie vermogens: (1) eigen vermogen van de man (alle goederen vóór huwelijk + schenkingen + erfenissen tijdens het huwelijk); (2) eigen vermogen van de vrouw (idem); (3) gemeenschappelijk vermogen (alle inkomsten uit arbeid + vruchten en inkomsten van eigen vermogens + aanwinsten tijdens het huwelijk). Schulden zijn in principe gemeenschappelijk tenzij ze het eigen vermogen aangaan. Bij ontbinding: gemeenschap wordt half-half verdeeld; eigen vermogens blijven aan de echtgenoot (of zijn nalatenschap).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.30 - 2.3.44"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "scheiding-van-goederen",
+        "naam": {"primair": "Zuivere scheiding van goederen"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Stelsel waarbij elke echtgenoot eigenaar blijft van alle goederen die hij/zij vóór en tijdens het huwelijk verwerft. Géén gemeenschappelijk vermogen. Inkomsten uit arbeid blijven persoonlijk. Schulden zijn persoonlijk tenzij voor de gezinswoning of voor opvoeding kinderen (huishoudelijke schulden hoofdelijk). Mededeling van gegevens en gezinssolidariteit blijven gelden (Boek 2 BW). Geliefd bij ondernemers en herstelhuwelijken: bedrijfsrisico blijft buiten het patrimonium van de andere echtgenoot. Bij ontbinding: geen verdeling, elke echtgenoot houdt zijn eigen patrimonium.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.45 - 2.3.49"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gemeenschap-met-aanwinsten",
+        "naam": {"primair": "Gemeenschap met aanwinsten (algemene gemeenschap)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Stelsel waarbij echtgenoten verder gaan dan het wettelijk stelsel: niet enkel arbeidsinkomsten en aanwinsten, maar ook (eventueel) goederen die vóór het huwelijk eigen waren of die door erfenis/schenking werden ontvangen, worden tot het gemeenschappelijk vermogen ingebracht. Vereist altijd een huwelijkscontract bij notaris. Variant 'scheiding met verrekening van aanwinsten': echtgenoten blijven tijdens het huwelijk gescheiden, maar bij ontbinding wordt het aanwinsten-saldo verrekend zodat beide echtgenoten gelijk eindigen — populair als compromis tussen autonomie en solidariteit.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.55 e.v.", "context": "Conventionele gemeenschap"},
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.50 - 2.3.54", "context": "Scheiding met verrekening"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "huwelijkscontract",
+        "naam": {"primair": "Huwelijkscontract — vorm + wijziging"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een huwelijkscontract is een notariële akte waarin echtgenoten afwijken van het wettelijk stelsel of een variant kiezen. Vereist: notariële akte, vóór of tijdens het huwelijk. Wijziging van stelsel tijdens het huwelijk kan via een nieuwe notariële akte; sinds 2018 is de gerechtelijke homologatie afgeschaft voor 'eenvoudige' wijzigingen (overgang tussen stelsels zonder boedelbeschrijving). Voor wijzigingen die een vermogensverschuiving inhouden (bv. inbreng van een eigen goed in de gemeenschap) is wel nog een notariële procedure met evenwichtsverklaring nodig.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.13 - 2.3.20", "context": "Vorm huwelijkscontract + wijziging"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "huwelijksvoordelen",
+        "naam": {"primair": "Huwelijksvoordelen (langstlevende-clausules)"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bedingen in het huwelijkscontract die bij overlijden van een echtgenoot een vermogensverschuiving aan de langstlevende toekennen, los van het erfrecht: (a) 'langst leeft, al heeft'-beding — hele gemeenschap gaat naar langstlevende; (b) verblijvingsbeding op specifiek goed; (c) ongelijke verdelingsclausule. Civielrechtelijk geen schenking, dus niet onderworpen aan reservebescherming (vóór hervorming 2018) — maar wel beperkt door anti-misbruik. Fiscaal: Vlaanderen heeft sinds 2018 specifieke fictiebepaling (VCF art. 2.7.1.0.4) die huwelijksvoordelen op aanwinsten gelijkstelt met een legaat voor de erfbelasting in de mate dat ze de helft overschrijden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.41", "context": "Huwelijksvoordelen"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.1.0.4", "context": "Fictie fiscale gelijkstelling"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "interactie-erfrecht",
+        "naam": {"primair": "Interactie met erfrecht"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij overlijden eerste echtgenoot: stap 1 = ontbinding huwelijksstelsel (helft gemeenschap naar langstlevende uit huwelijksstelsel, niet uit erfrecht); stap 2 = nalatenschap berekenen op de andere helft + eigen vermogen overledene; stap 3 = devolutie volgens erfrecht (vruchtgebruik echtgenoot + blote eigendom kinderen). Het verschil tussen civiel- en fiscaalrechtelijke aanslag wordt vaak miskend: huwelijksstelsel-deel = geen erfbelasting (komt niet uit de nalatenschap); nalatenschapsdeel = wel erfbelasting. Bij zuivere scheiding van goederen: hele patrimonium van overledene = nalatenschap, geen tussenstap.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.62 e.v."},
+                {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "Boek 4 — erfrecht"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard praktijk"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-wettelijk-stelsel-overlijden",
+        "titel": "Wettelijk stelsel — overlijden eerste echtgenoot + 2 kinderen",
+        "context": "Aurélie en Pieter zijn gehuwd onder wettelijk stelsel. Patrimonium na 30 jaar huwelijk: gemeenschappelijk vermogen 800.000 EUR (gezinswoning + spaargeld opgebouwd uit arbeid). Pieter heeft eigen vermogen 50.000 EUR (erfenis van zijn ouders). Pieter overlijdt en laat Aurélie + 2 kinderen na.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.30"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — Ontbinding gemeenschap: 400.000 EUR (helft) gaat naar Aurélie als gevolg van het huwelijksstelsel; 400.000 EUR blijft in nalatenschap Pieter.",
+              "Stap 2 — Nalatenschap Pieter = 400.000 (helft gemeenschap) + 50.000 (eigen vermogen) = 450.000 EUR.",
+              "Stap 3 — Devolutie (Boek 4 BW): Aurélie krijgt vruchtgebruik op de hele nalatenschap (450.000 EUR); de 2 kinderen krijgen elk 225.000 EUR in blote eigendom.",
+              "Stap 4 — Erfbelasting (Vl): enkel op de 450.000 EUR nalatenschap, niet op de 400.000 EUR die Aurélie uit huwelijksstelsel krijgt. Gezinswoningvrijstelling reduceert verder. De huwelijksstelsel-verschuiving van 400.000 EUR is in principe vrij van erfbelasting (mits geen huwelijksvoordeel-overschrijding)."
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Huwelijksstelsel met nalatenschap verwarren",
+        "verkeerde_assumptie": "Bij overlijden gaat de hele helft van het gemeenschappelijk vermogen + de eigen goederen van de overledene mee in 'de nalatenschap'.",
+        "kernpunt": "Het huwelijksstelsel wordt EERST vereffend (helft gemeenschap = al van de langstlevende zonder erfopvolging), pas DAARNA wordt de nalatenschap berekend op de andere helft + eigen vermogen overledene. Wie deze stap overslaat, dubbelt of mistelt de erfbelasting.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.62"}
+          ]
+        }
+      },
+      {
+        "titel": "Wettelijke samenwoning gelijkstellen met huwelijk",
+        "verkeerde_assumptie": "Wettelijk samenwonenden hebben automatisch een huwelijksstelsel zoals gehuwden.",
+        "kernpunt": "Wettelijke samenwoning kent géén huwelijksstelsel. Standaard blijven goederen gescheiden; enkel de gezinswoning en huisraad krijgen bescherming. Voor solidariteit moeten samenwonenden expliciet contractueel regelen (samenlevingscontract) — of trouwen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.4.1 e.v.", "context": "Wettelijke samenwoning"}
+          ]
+        }
+      },
+      {
+        "titel": "Huwelijksvoordeel = belastingvrije schenking",
+        "verkeerde_assumptie": "Een 'langst leeft, al heeft'-beding is een belastingvrije manier om alle vermogen aan de langstlevende te bezorgen.",
+        "kernpunt": "Sinds Vl-decreet 2018 (VCF art. 2.7.1.0.4) wordt het deel van het huwelijksvoordeel op aanwinsten dat de helft overschrijdt, fiscaal gelijkgesteld met een legaat en dus belast met erfbelasting tegen het tarief tussen echtgenoten. Geen onbeperkte fiscale immuniteit meer in Vlaanderen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.1.0.4"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "registratie-en-successierechten"
+      "id": "ondernemer-huwelijk",
+      "naam": {"primair": "Ondernemer + huwelijksstelsel"},
+      "intro": "De accountant die een KMO-cliënt adviseert over de impact van zijn huwelijksstelsel op het bedrijf — risico-isolatie, opvolging, planning.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "stelselkeuze-ondernemer",
+              "naam": {"primair": "Stelselkeuze voor ondernemers"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor ondernemers met operationeel bedrijfsrisico: scheiding van goederen (eventueel met verrekening) wordt courant aanbevolen — het persoonlijk vermogen van de niet-ondernemende echtgenoot wordt zo geïsoleerd van eventueel faillissement of professionele aansprakelijkheid. Bij wettelijk stelsel: het bedrijf en zijn schulden zijn gemeenschappelijk, met cascade-risico voor het hele gezinspatrimonium. Doorverwijzen naar notaris voor opmaak/wijziging.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.45"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard ondernemersadvies"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "planning-civiel-fiscaal",
+              "naam": {"primair": "Civielrechtelijke planning vóór fiscale planning"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vóór elke successieplanning eerst het huwelijksstelsel doorlichten. Wijzig waar nodig met een notarieel huwelijkscontract (bv. een verblijvingsbeding op de gezinswoning, een inbreng van een eigen goed in gemeenschap voor matiging fiscale impact) — vooraleer pure fiscale optimalisaties (schenking, levensverzekering) uit te werken.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Burgerlijk Wetboek", "ref": "art. 2.3.13"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Werkpraktijk planningsadvies"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "registratie-en-successierechten"},
+    {"type": "beinvloed_door", "target": "erfrecht", "toelichting": "Vereffening huwelijksstelsel gaat vooraf aan erfrechtelijke devolutie."},
+    {"type": "triggert", "target": "erfbelasting", "toelichting": "Bepaalt wat tot de belastbare nalatenschap behoort."}
   ]
 }
