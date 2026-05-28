@@ -2,29 +2,32 @@
   "id": "vennootschapsgeschillen",
   "naam": {
     "primair": "Vennootschapsgeschillen",
-    "synoniemen": [
-      "corporate disputes",
-      "vennootschapsconflicten"
-    ]
+    "synoniemen": ["aandeelhoudersgeschillen", "litiges entre actionnaires"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader",
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "3.0.VIII",
-      "3.0.VIII.A",
-      "3.0.VIII.B",
-      "3.0.VIII.C",
-      "3.0.VIII.D"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["3.0.VIII", "3.0.VIII.A", "3.0.VIII.B", "3.0.VIII.C", "3.0.VIII.D"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/vennootschapsgeschillen.json",
+      "primary_bronnen": [
+        "WVV art. 2:40-2:43 (nietigheid AV-besluiten)",
+        "WVV art. 2:46 (nietigheid bestuursbesluiten)",
+        "WVV art. 2:60-2:69 (uittreding · uitsluiting · geschillenregeling)",
+        "WVV art. 5:154-5:155 (BV)",
+        "WVV art. 7:218-7:222 (NV)",
+        "BW art. 8.14 + 8.32 (bewijs)",
+        "Ger.W. art. 1724 e.v. (bemiddeling)",
+        "ITAA-norm opdrachtbrief § 9 (geschillenregeling)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,7 +35,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit vennootschapsgeschillen-cluster (skelet-doc regel ~1129)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks + WVV-bouwstenen (vooral art. 2:40-2:43 + 2:60-2:69)."
       }
     ],
     "scope": {
@@ -44,179 +54,371 @@
         "Nietigheid besluiten: gronden (procedurefouten · machtsmisbruik · strijd statuten/wet) + gevolgen (3.0.VIII.D)"
       ],
       "out": [
-        {
-          "topic": "AV-besluiten — nietigheid (VIII.D)",
-          "richting": "moet-verwijzen",
-          "ref": "algemene-vergadering"
-        },
-        {
-          "topic": "RvB-besluiten + bestuurder-conflicten",
-          "richting": "moet-verwijzen",
-          "ref": "bestuur-vennootschap"
-        },
-        {
-          "topic": "Aandeelhoudersovereenkomsten — geschillenbedingen",
-          "richting": "moet-verwijzen",
-          "ref": "aandeelhoudersovereenkomsten"
-        },
-        {
-          "topic": "Beroepsgeheim bij geschillen",
-          "richting": "mag-verwijzen",
-          "ref": "beroepsgeheim"
-        },
-        {
-          "topic": "Onafhankelijkheid + conflict-of-interest accountant",
-          "richting": "mag-verwijzen",
-          "ref": "onafhankelijkheid"
-        }
+        { "topic": "AV-besluiten — nietigheid (VIII.D)", "richting": "moet-verwijzen", "ref": "algemene-vergadering" },
+        { "topic": "RvB-besluiten + bestuurder-conflicten", "richting": "moet-verwijzen", "ref": "bestuur-vennootschap" },
+        { "topic": "Aandeelhoudersovereenkomsten — geschillenbedingen", "richting": "moet-verwijzen", "ref": "aandeelhoudersovereenkomsten" },
+        { "topic": "Beroepsgeheim bij geschillen", "richting": "mag-verwijzen", "ref": "beroepsgeheim" },
+        { "topic": "Onafhankelijkheid + conflict-of-interest accountant", "richting": "mag-verwijzen", "ref": "onafhankelijkheid" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Vennootschapsgeschillen zijn de conflicten die kunnen ontstaan binnen of rond een vennootschap — tussen aandeelhouders onderling, tussen aandeelhouders en bestuurders, of tussen vennootschap en derden — en die de werking of voortbestaan van de entiteit raken. Het Wetboek van vennootschappen en verenigingen (WVV) biedt verschillende mechanismen: nietigheidsvorderingen tegen besluiten (art. 2:40-2:46), de **wettelijke geschillenregeling** met gedwongen uittreding of uitsluiting van een aandeelhouder (art. 2:60-2:69 voor BV; art. 7:218-222 voor NV), en de aanstelling van een **voorlopig bewindvoerder** in noodgevallen. Daarnaast bieden de aandeelhoudersovereenkomst, mediation en arbitrage contractuele alternatieven die in de meeste gevallen sneller en discreter werken dan een rechtbankprocedure.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:40-2:46 (nietigheidsregimes)" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:60-2:69 (wettelijke geschillenregeling)" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de accountant zijn vennootschapsgeschillen vaak het meest 'menselijke' deel van zijn praktijk: families die ruzie maken over hun BV, mede-aandeelhouders die elkaar wantrouwen, een afgezette bestuurder die wraak neemt. De accountant raakt drie keer betrokken: (a) als **boekhouder** die financiële cijfers moet leveren waarop een schikking gebaseerd wordt; (b) als **adviseur** die preventief geschillenbedingen helpt schrijven in opdrachtbrieven en statuten (ITAA-norm opdrachtbrief § 9); (c) als **expert/getuige** in de rechtbank — waarbij beroepsgeheim en onafhankelijkheid scherp moeten worden bewaakt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm opdrachtbrief", "ref": "§ 9 — De geschillenregeling" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Drievoudige betrokkenheid accountant" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het wettelijk arsenaal balanceert tussen twee waarden: (1) **bescherming van minderheidsaandeelhouders** tegen meerderheidsmacht (nietigheid wegens machtsmisbruik, recht op uittreding wegens gegronde redenen), en (2) **bescherming van de vennootschap zelf** tegen blokkering door geschillen (mogelijkheid om een dwarse aandeelhouder uit te sluiten, voorlopig bewindvoerder bij deadlock). De praktische tendens van de laatste decennia: weg van zware nietigheidsvorderingen, naar contractuele preventie + minnelijke schikking + arbitrage. Een rechtszaak duurt jaren en verwoest doorgaans de waarde van de vennootschap.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:42 + 2:60 — balans rechten minderheid/meerderheid" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
     },
-    "bouwstenen": [
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2020-01-01",
+        "wettelijke_basis": "WVV titel 4 boek 2 (art. 2:40-2:69); WVV art. 5:154-5:155 (BV); art. 7:218-7:222 (NV); aanvullend BW boek 8 (bewijs) en Ger.W. art. 1724 e.v. (bemiddeling)"
+      }
+    },
+    "subconcepten": [
       {
-        "id": "types-geschillen",
-        "naam": {
-          "primair": "Types vennootschapsgeschillen"
-        },
-        "bouwsteen_type": "begrip",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — deadlocks aandeelhouders · bestuurder-conflicten · besluit-betwistingen.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "contractuele-preventie",
-        "naam": {
-          "primair": "Contractuele preventie van geschillen"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — geschillenbedingen · mediation-clausules · arbitrage in SHA + statuten.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "bewijswaarde-moderne-communicatie",
-        "naam": {
-          "primair": "Bewijswaarde moderne communicatie"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — e-mails · online vergaderingen · opnames; authenticiteit + integriteit + verkrijging.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "minnelijke-schikking",
-        "naam": {
-          "primair": "Minnelijke schikking"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — duidelijkheid aanspraken · fiscale gevolgen · vertrouwelijkheid · rechtsgeldigheid partijen.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "types-vennootschapsgeschillen",
+        "naam": { "primair": "Types vennootschapsgeschillen" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Drie hoofdcategorieën: (1) **Deadlocks tussen aandeelhouders** — bv. 50/50-structuur waar beide partijen elkaar blokkeren; oplossing via geschillenregeling (gedwongen overname aandelen) of voorlopig bewindvoerder. (2) **Bestuurder-conflicten** — bv. minderheidsbestuurder die structureel wordt overstemd; afzetting via AV met meerderheid + eventueel vordering tot ontslagvergoeding. (3) **Besluit-betwistingen** — vorderingen tot nietigheid van AV- of RvB-besluiten wegens procedurefouten, strijd met statuten/wet, of machtsmisbruik.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:60-2:69 (geschillenregeling)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:40-2:46 (nietigheidsregels)" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Categorisering uit praktijk + ITAA-norm" }
+                ]
+              }
             }
           }
         }
       },
       {
         "id": "nietigheid-besluiten",
-        "naam": {
-          "primair": "Nietigheid van besluiten"
-        },
+        "naam": { "primair": "Nietigheid van vennootschapsbesluiten" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een AV- of bestuursbesluit kan nietig worden verklaard om vijf grondgronden (art. 2:42 WVV): (1) **vormgebrek** dat het besluit heeft beïnvloed; (2) onregelmatigheid bij **stemming** of overschrijding van bevoegdheid; (3) **machtsafwending** (besluit objectief in strijd met belang vennootschap); (4) misbruik, **overschrijding of afwending van bevoegdheid**; (5) elke andere oorzaak van nietigheid in WVV of statuten. De vordering wordt ingesteld bij ondernemingsrechtbank door wie een persoonlijk belang heeft (aandeelhouders, bestuurders, derden) binnen **6 maanden** na bekendmaking of kennisname (art. 2:143).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:42 (gronden)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:40 e.v. (algemeen regime)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:46 (bestuursbesluiten)" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Niet elke onregelmatigheid leidt tot nietigheid. Het WVV onderscheidt absolute (vorm) van relatieve (inhoud) nietigheidsgronden, en stelt de rechter in staat om in bepaalde gevallen het besluit te 'redden' door regularisatie. Bovendien moet de eiser aantonen dat de onregelmatigheid het besluit heeft beïnvloed — een louter formele fout zonder gevolgen leidt niet automatisch tot nietigverklaring.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:42 § 1 (vormgebrek dat besluit heeft beïnvloed)" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "wettelijke-geschillenregeling",
+        "naam": { "primair": "Wettelijke geschillenregeling (uittreding/uitsluiting)" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Twee parallelle vorderingen bij ondernemingsrechtbank: (a) **uitsluiting** (art. 2:63 BV / 7:218 NV) — een meerderheidsaandeelhouder kan een minderheidsaandeelhouder die de werking ernstig schaadt **gedwongen verplichten zijn aandelen over te dragen**; (b) **uittreding** (art. 2:68 BV / 7:222 NV) — een minderheidsaandeelhouder kan, om 'gegronde redenen', **vragen dat de andere aandeelhouders zijn aandelen overnemen**. De rechter bepaalt de overnameprijs op basis van een expertise (vaak een gecertificeerd accountant of bedrijfsrevisor aangewezen). Dit is hét mechanisme om uit een patstelling te geraken zonder de hele vennootschap te ontbinden.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 2:60-2:69 (algemeen regime)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:154-5:155 (BV-specifiek)" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:218-7:222 (NV-specifiek)" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Praktijkrol accountant: vaak aangewezen als deskundige om de aandelenwaarde te bepalen. Methodes: gecorrigeerd substantieel actief, discounted cash flow (DCF), multiplemethode, gecombineerd. De waardering is **persoonlijk aan de partijen** — de korting voor minderheidsbelang of premie voor controle is niet automatisch toegestaan, de rechter beoordeelt billijkheid.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Waarderings-praktijk bij geschillenregeling" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "contractuele-preventie",
+        "naam": { "primair": "Contractuele preventie van geschillen" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Geschillen voorkomen is goedkoper dan ze beslechten. Drie hoofdmechanismen worden ingebouwd in **aandeelhoudersovereenkomsten** of statuten: (1) **buy-out/buy-sell-clausules** (Texas shoot-out, Russian roulette, fair-price-mechanisme); (2) **mediation-clausules** — partijen moeten eerst bemiddeling proberen vóór ze naar de rechter mogen; (3) **arbitrage-clausules** — een arbitragecommissie beslecht het geschil; het arbitraal vonnis is bindend en uitvoerbaar (CEPANI is de Belgische standaard). Voor de accountant zijn deze clausules vaak het verschil tussen 'snel praktisch opgelost' en 'jaren juridisch moeras'.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "Ger.W.", "ref": "art. 1724 e.v. (bemiddeling)" },
+                  { "type": "norm", "naam": "ITAA-norm opdrachtbrief", "ref": "§ 9" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-clausules" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijswaarde-moderne-communicatie",
+        "naam": { "primair": "Bewijswaarde moderne communicatie" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Bij een geschil over een besluit of overeenkomst worden e-mails, chatberichten, online vergaderverslagen en zelfs opnames vaak als bewijs gebruikt. Drie criteria voor toelaatbaarheid: (a) **authenticiteit** — afkomst aantoonbaar (header, log, getuige); (b) **integriteit** — niet gemanipuleerd (hash, timestamp, originele bron beschikbaar); (c) **rechtmatige verkrijging** — geen schending van privacy of telecomgeheim. Het Nieuw Burgerlijk Wetboek (BW art. 8.14 en 8.32) erkent het 'beginsel van vrije bewijsvoering' in handelsverband, mits aan deze criteria voldaan.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "BW", "ref": "art. 8.14 + 8.32" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Praktijkadvies aan cliënten: bewaar e-mails over belangrijke beslissingen in mailbox + back-up, niet alleen in cloud. Bij online AV: zorg voor opname met instemming + getekend verslag achteraf. Onrechtmatig opgenomen gesprekken (zonder medeweten andere partij) zijn meestal niet bruikbaar voor de eiser zelf — wel als bewijs van zijn eigen verklaring.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "minnelijke-schikking",
+        "naam": { "primair": "Minnelijke schikking" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Vier voorwaarden voor een **rechtsgeldige** minnelijke schikking: (1) **duidelijkheid van aanspraken** — wat geeft elke partij op, wat krijgt zij terug; (2) **fiscale gevolgen** — een schikkingsvergoeding kan belastbaar zijn (beroepsinkomen, occasionele winst, kapitaal); de accountant moet die analyse doen vóór de cliënt tekent; (3) **vertrouwelijkheid** — typisch een non-disclosure-clausule, met sanctie bij schending; (4) **bevoegdheid van de partijen om te schikken** — denk aan: bestuursorgaan moet AV-machtiging hebben voor schikkingen boven bepaalde drempel; minderjarige aandeelhouder kan niet zelf tekenen. Schikkingen kunnen authentiek worden gemaakt (notariële akte) of via vrederechter gehomologeerd voor uitvoerbare kracht.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "BW", "ref": "art. 5.225 e.v. (dading, oud art. 2044)" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vier-pijler synthese" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "termijn-6-maanden-nietigheid",
+        "naam": { "primair": "Termijn 6 maanden voor nietigheidsvordering" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De vordering tot nietigverklaring van een AV- of bestuursbesluit moet binnen 6 maanden na bekendmaking (of na kennisname) van het besluit worden ingesteld, op straffe van verval (art. 2:143 WVV). Na die termijn is het besluit definitief — een belangrijke ontnuchterende deadline voor aandeelhouders die overwegen actie te ondernemen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:143" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gegronde-redenen-uittreding",
+        "naam": { "primair": "'Gegronde redenen' bij uittredingsvordering" },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — gronden (procedurefouten · machtsmisbruik · strijd statuten/wet) + gevolgen (retroactief vs ex-nunc).",
+            "tekst": "Een aandeelhouder kan slechts uittreding vragen op 'gegronde redenen' — een rechterlijke beoordeling die o.a. omvat: structurele blokkering van de werking, machtsmisbruik door de meerderheid, fundamentele wijziging van de relatie tussen aandeelhouders, schending van vennootschapsbelang door bestuur. Loutere onenigheid of teleurstelling volstaat niet.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:68 (BV) / 7:222 (NV)" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese rechtspraak" }
               ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Deadlock in 50/50-BV — Aurelia & Zelena Holdings",
+        "context": "Twee oprichters van Holding BV bezitten elk 50% van de aandelen. Na een ruzie over de strategie weigeren ze elke AV bij te wonen — er kan geen jaarrekening worden goedgekeurd, geen winst uitgekeerd, geen kapitaalverhoging worden gestemd.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke deadlock-illustratie" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "beslisboom",
+            "code": "flowchart TD\n  A[Deadlock vastgesteld] --> B{Bestaat shareholders-agreement\\nmet buy-sell-clausule?}\n  B -->|Ja| C[Activate clausule\\nbv. Texas shoot-out]\n  B -->|Nee| D{Mediation-clausule?}\n  D -->|Ja| E[Verplichte CEPANI-bemiddeling]\n  D -->|Nee| F[Optie 1: vrijwillige bemiddeling]\n  F --> G{Slaagt bemiddeling?}\n  G -->|Ja| H[Schikking + uitkoop]\n  G -->|Nee| I[Vordering bij ondernemingsrechtbank:\\nuitsluiting/uittreding art. 2:60-69]\n  I --> J[Deskundige bepaalt prijs\\nRechter beslist]"
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Nietigverklaring = automatische terugdraaiing",
+        "verkeerde_assumptie": "Een nietigverklaard AV-besluit wordt automatisch teruggedraaid in al zijn gevolgen.",
+        "kernpunt": "Nietigverklaring werkt principieel ex tunc (terugwerkend), maar de WVV (art. 2:45) staat de rechter toe om voor het verleden gevolgen te handhaven indien terugdraaien onevenredig nadeel zou berokkenen aan derden te goeder trouw. Praktisch: een dividenduitkering die nietig wordt verklaard moet niet altijd door alle aandeelhouders worden terugbetaald.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:45" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Geschillenregeling = uittreding van wie wil",
+        "verkeerde_assumptie": "Elke onenige aandeelhouder kan via art. 2:68 zijn aandelen aan de anderen verkopen.",
+        "kernpunt": "Uittreding vereist 'gegronde redenen' — en de rechter is streng. Een aandeelhouder die gewoon zijn investering wil liquideren, krijgt geen recht op uittreding. Vaak voorzien aandeelhoudersovereenkomsten daarom een lage-drempel-exitclausule (na X jaar zonder reden, met formule voor prijsbepaling).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:68" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Schikkingsbedrag = belastingvrij",
+        "verkeerde_assumptie": "Wat partijen in een minnelijke schikking afspreken, hoeft niet fiscaal te worden aangegeven.",
+        "kernpunt": "Een schikkingsbedrag wordt fiscaal gekwalificeerd volgens zijn aard: vergoeding voor aandelen → meerwaarde (vaak vrijgesteld in PB); vergoeding voor gederfde lonen → beroepsinkomen; schadevergoeding voor immateriële schade → soms vrijgesteld, soms belastbaar. De accountant moet voor de schikking de fiscale impact analyseren — verkeerde kwalificatie kan tot navordering + boete leiden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 90, 9° (meerwaarden roerend); art. 31 (loon)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "algemene-vergadering"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "bestuur-vennootschap"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "aandeelhoudersovereenkomsten"
+      "id": "accountant-bij-geschil-tussen-aandeelhouders",
+      "naam": { "primair": "Accountant betrokken in geschil tussen aandeelhouders" },
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "neutraliteit-bewaken",
+              "naam": { "primair": "Neutrale positie bewaken bij partijdige aandeelhouders" },
+              "bouwsteen_type": "principe",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer aandeelhouders ruziën, ziet één partij vaak de accountant als 'haar' adviseur. Belangrijk: een vennootschapsaccountant werkt voor **de vennootschap**, niet voor één aandeelhouder. Bij geschil: informeer beide partijen, vermijd vertrouwelijk overleg met één kant, en bij escalatie: zet je opdracht stop bij de vennootschap en wijs partijen door naar afzonderlijke adviseurs (één voor elke partij + één voor venn).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm onafhankelijkheid", "ref": "Algemeen" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "deskundige-waardering-aandelen",
+              "naam": { "primair": "Optreden als gerechtsdeskundige voor aandelenwaardering" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij rechterlijke aanstelling als deskundige (uittredings-/uitsluitings-procedure): respecteer onafhankelijkheid + tegenspraak (audi alteram partem). Hoor alle partijen, deel werkpapieren, schrijf gedetailleerd verslag met: gebruikte methodes (gecorrigeerd substantieel, DCF, multiples), gehanteerde parameters, waarderings-uitkomst per methode, gewogen eindwaarde. Verslag binnen termijn vonnis (meestal 6 maanden).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "Ger.W.", "ref": "art. 962 e.v. (gerechtsdeskundigen)" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "preventief-geschillenbedingen",
+              "naam": { "primair": "Preventief geschillenbedingen voorstellen bij oprichting" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij oprichting van een vennootschap (vooral 50/50- of kleine-groep-BV's): stel actief voor om een aandeelhoudersovereenkomst op te stellen met (a) buy-sell-clausule (Texas shoot-out of fair-price); (b) mediation-eerst-clausule; (c) arbitrage-clausule (CEPANI). Verwijs voor de juridische redactie naar een advocaat, maar wijs de cliënt op het belang vóór er problemen zijn.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm opdrachtbrief", "ref": "§ 9" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "vennootschapsrecht" },
+    { "type": "beinvloed_door", "target": "algemene-vergadering" },
+    { "type": "beinvloed_door", "target": "bestuur-vennootschap" },
+    { "type": "beinvloed_door", "target": "aandeelhoudersovereenkomsten" }
   ]
 }
