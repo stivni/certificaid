@@ -2,26 +2,46 @@
   "id": "eigen-vermogen",
   "naam": {
     "primair": "Eigen vermogen",
+    "afkorting": "EV",
     "synoniemen": [
       "equity",
-      "EV",
-      "shareholders equity"
-    ]
+      "kapitalen en reserves",
+      "shareholders' equity"
+    ],
+    "vertaling": {
+      "fr": "capitaux propres"
+    }
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit"
     ],
     "ankers": [
-      "3.0.IV",
-      "1.1.II.J"
+      "3.0.IV.A"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/eigen-vermogen.json",
+      "primary_bronnen": [
+        "WVV art. 3:89",
+        "KB MAR (KB 29 april 2019)",
+        "WVV art. 5:1",
+        "WVV art. 5:5",
+        "WVV art. 5:143",
+        "WVV art. 5:153",
+        "WVV art. 7:212",
+        "WVV art. 7:228",
+        "WIB92 art. 184",
+        "WIB92 art. 537"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,7 +49,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~891)"
+        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (KB MAR; WVV art. 5:1-5:5, 5:143-153, 7:212-228; WIB92 art. 184). Geen extra MCP-calls."
       }
     ],
     "scope": {
@@ -57,7 +84,7 @@
           "ref": "winstuitkering"
         },
         {
-          "topic": "Alarmbel bij netto-actief < helft kapitaal",
+          "topic": "Alarmbel bij netto-actief gedaald onder helft kapitaal of negatief",
           "richting": "moet-verwijzen",
           "ref": "alarmbel-procedure"
         },
@@ -72,38 +99,105 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het eigen vermogen (EV) is het deel van het balans-totaal dat toekomt aan de eigenaars (aandeelhouders) van de vennootschap. Boekhoudkundig: het verschil tussen het totaal der activa en het totaal der schulden (passiva-zijde = vreemd vermogen + EV). Het EV wordt op de balans (passiva-zijde) gepresenteerd in zes rubrieken op rekeningen klasse 1 (10-15) volgens KB MAR + WVV art. 3:89: I. Kapitaal/Inbreng (10/11), II. Uitgiftepremies (11 in NV), III. Herwaarderingsmeerwaarden (12), IV. Reserves (13: wettelijke, onbeschikbare, beschikbare, belastingvrije), V. Overgedragen winst/verlies (14), VI. Kapitaalsubsidies (15). Sinds WVV (2019) heeft de BV geen kapitaal meer (vervangen door 'inbreng buiten kapitaal' op rekening 110-111).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:89", "context": "Balansschema KB 29 april 2019 — eigen vermogen-presentatie" },
+            { "type": "kb", "naam": "KB MAR (KB 29 april 2019)", "ref": "Klasse 1 rekeningen 10-15" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:1-5:5" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch: het eigen vermogen is de 'buffer' tussen de vennootschap en haar crediteurs. Een groot EV beschermt schuldeisers (meer dekking bij vereffening) en wordt door financiers gewaardeerd als solvabiliteits-indicator. De solvabiliteitsratio (EV / totaal passief) geeft de structurele financiële gezondheid weer — typisch streven: > 30-40% voor stabiel bedrijf, > 50% voor cyclisch of risicodragend bedrijf. Het EV beweegt door: (a) **inbrengen** — kapitaalverhogingen in geld of natura; (b) **resultaten** — winsten verhogen EV (via reserves of overgedragen resultaat), verliezen verlagen EV; (c) **uitkeringen** — dividenden en kapitaalverminderingen verlagen EV; (d) **herwaarderingen** — vaste activa kunnen worden geherwaardeerd met tegenboeking in herwaarderingsmeerwaarden (rekening 12, onbeschikbaar tot realisatie).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese economische functie EV" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De boekhoudkundige presentatie en de wettelijke regels rond eigen vermogen (onbeschikbare reserves, uitkeringsbeperkingen, alarmbel) dienen ÉÉN doel: schuldeisersbescherming. De aandeelhouders mogen niet eenzijdig 'de pot leegmaken' door dividenden of kapitaalverminderingen wanneer dit schuldeisers in gevaar brengt. Vandaar de gelaagde uitkerings-tests: in BV de dubbele test (netto-actief-test EN liquiditeitstest art. 5:142-143); in NV de netto-actief-test (art. 7:212). De alarmbel-procedure (5:153/7:228) verplicht het bestuur tot actief ingrijpen wanneer EV onder kritieke drempel daalt — geen wachten tot faillissement.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:143" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:153" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:212" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:228" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "jaarrekening",
+        "dubbele-boekhouding"
+      ],
+      "kader": "jaarrekening",
+      "naast_relevant": [
+        "aandeel"
+      ],
+      "volgkennis": [
+        "kapitaalverhoging",
+        "kapitaalvermindering",
+        "winstbestemming",
+        "solvabiliteits-ratios"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV (Wet 23 maart 2019) + KB MAR (KB 29 april 2019); WIB92 art. 184 voor fiscaal EV-concept.",
+        "toelichting": "WVV-hervorming heeft BV-kapitaal afgeschaft. NV behoudt kapitaalconcept. WIB92 art. 537 (notionele-interestaftrek) bevroren sinds AJ 2020, definitief afgeschaft AJ 2024."
+      },
+      "voor": [
+        {
+          "tekst": "Eigen-vermogen-rubriek aanwezig in elke entiteit met dubbele boekhouding: BV, NV, CV, CommV, VOF, VZW (vanaf middelgroot), stichting (vanaf middelgroot). Geen EV op balans bij vereenvoudigde boekhouding (kleine vereniging of natuurlijk persoon zonder dubbele boekhouding-verplichting).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:89" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Alarmbel-triggers bij eigen-vermogen-daling: **BV (art. 5:153)** — bestuursorgaan moet binnen 2 maanden buitengewone AV bijeenroepen wanneer (a) nettoactief negatief dreigt of geworden is, OF (b) niet voldaan aan liquiditeitstest voor de komende 12 maanden. **NV (art. 7:228)** — bijeenroeping verplicht wanneer (a) nettoactief gedaald onder helft van het kapitaal (alarmbel-1) of onder een vierde (alarmbel-2), OF (b) onder het wettelijk minimumkapitaal van 61.500 EUR. Niet-naleving = vermoeden van fout in geval van later faillissement (art. XX.225 WER) → bestuurdersaansprakelijkheid.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:153" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:228" },
+              { "type": "wettekst", "naam": "WER", "ref": "art. XX.225" }
+            ]
+          }
+        }
+      ]
+    },
     "subconcepten": [
       {
-        "id": "kapitaal",
+        "id": "kapitaal-inbreng",
         "naam": {
-          "primair": "Kapitaal"
+          "primair": "Kapitaal (NV) / Inbreng (BV-CV)"
         },
         "concept_type": "balanspost",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 10; geplaatst vs onbeschikbaar; gestort vs niet-opgevraagd; fiscaal vs boekhoudkundig.",
+              "tekst": "**NV — Kapitaal (rekening 10)**: nominale waarde van de uitgegeven aandelen, vast bedrag dat statutair is bepaald. Minimum 61.500 EUR (art. 7:2 WVV). Onderscheid:\n- *Geplaatst kapitaal*: het bedrag waarvoor aandelen zijn uitgegeven (bv. 1.000 aandelen × 100 EUR = 100.000 EUR).\n- *Onbeschikbaar kapitaal*: niet uitkeerbaar als dividend (onaantastbaar voor schuldeisersbescherming).\n- *Gestort vs niet-opgevraagd*: aandeelhouders moeten minstens 1/4 storten + volledige volstorting bij oprichting voor natura-inbreng (art. 7:11). Niet-opgevraagd kapitaal staat als afzonderlijke rekening 101 'Niet-opgevraagd kapitaal' (correctie debet op activa-zijde).\n\n**BV/CV — Inbreng (rekening 110/111)**: sinds WVV is er GEEN kapitaal meer in BV/CV. Inbrengen worden geboekt op rekening 110 'Beschikbare inbreng' (vrij uitkeerbaar mits dubbele test) en 111 'Onbeschikbare inbreng' (statutair beschermd). De statuten bepalen of inbrengen 'beschikbaar' of 'onbeschikbaar' zijn — flexibiliteit van WVV.\n\n**Fiscaal kapitaal (WIB92 art. 184)**: het fiscaal kapitaal is een AFZONDERLIJK concept. Voor de fiscus is 'kapitaal' = werkelijk volgestort kapitaal/inbreng dat fiscaal ook als kapitaal kwalificeert. Belang: dividenden ten laste van fiscaal kapitaal = belastingvrij (geen RV — kapitaalvermindering, art. 18 1°). Dividenden ten laste van reserves/uitgiftepremies (zonder fiscale kapitaal-kwalificatie) = wel RV (30% of 15%).",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:2" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:1-5:5" },
+                  { "type": "kb", "naam": "KB MAR", "ref": "Rekening 10 (NV) + 110/111 (BV-CV)" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 184" }
                 ]
               }
             }
@@ -113,21 +207,18 @@
       {
         "id": "uitgiftepremies",
         "naam": {
-          "primair": "Uitgiftepremies"
+          "primair": "Uitgiftepremies (rekening 11)"
         },
         "concept_type": "balanspost",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 11; meerwaarde boven nominale waarde bij emissie.",
+              "tekst": "Het verschil tussen de emissieprijs en de nominale (of fractie-)waarde van uitgegeven aandelen — alleen relevant in NV (in BV is alles 'inbreng' op 110/111). Bv. NV emitteert 1.000 nieuwe aandelen met nominale waarde 100 EUR aan emissieprijs 150 EUR: kapitaal stijgt 100.000 EUR (rekening 100); uitgiftepremie 50.000 EUR (rekening 11).\n\n**Status**: in principe onbeschikbaar zoals kapitaal — niet uitkeerbaar als dividend tenzij omzetting naar reserves of incorporatie in kapitaal door statutenwijziging. **Fiscaal**: kwalificeert als 'fiscaal kapitaal' onder voorwaarden van art. 184 WIB92 (volgestort, blokkering, ...), dus kan via kapitaalvermindering belastingvrij worden teruggegeven.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "kb", "naam": "KB MAR", "ref": "Rekening 11 Uitgiftepremies" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 184" }
                 ]
               }
             }
@@ -137,21 +228,18 @@
       {
         "id": "herwaarderingsmeerwaarden",
         "naam": {
-          "primair": "Herwaarderingsmeerwaarden"
+          "primair": "Herwaarderingsmeerwaarden (rekening 12)"
         },
         "concept_type": "balanspost",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 12; onbeschikbaar tot realisatie.",
+              "tekst": "Niet-gerealiseerde meerwaarden op vaste activa die door herwaardering worden geboekt (bv. herwaardering onroerend goed van 500.000 EUR naar 750.000 EUR → herwaarderingsmeerwaarde 250.000 EUR rekening 12). Onbeschikbaar tot realisatie: zolang het actief niet verkocht of afgeschreven is, mag deze meerwaarde NIET worden uitgekeerd. Bij realisatie (verkoop): overboeking naar beschikbare reserves of resultaat. Bij afschrijving: jaarlijkse overboeking pro rata van de afschrijving van de meerwaarde naar resultaat.\n\nFiscaal: in principe belastbaar in jaar van realisatie. Voor materieel/immaterieel vast actief: gespreide-belasting-regime mogelijk (art. 47 WIB92 — herinvesteringsverplichting binnen 3-5 jaar).",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "kb", "naam": "KB MAR", "ref": "Rekening 12 Herwaarderingsmeerwaarden" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 47" }
                 ]
               }
             }
@@ -161,21 +249,19 @@
       {
         "id": "reserves",
         "naam": {
-          "primair": "Reserves"
+          "primair": "Reserves (rekening 13)"
         },
         "concept_type": "balanspost",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 13; wettelijke reserve · onbeschikbare reserve · beschikbare reserve · belastingvrije reserve.",
+              "tekst": "Geaccumuleerde winsten die door AV-besluit zijn 'gereserveerd' (niet uitgekeerd) — versterken de financiële basis. Subcategorieën:\n\n**Wettelijke reserve (rekening 130)**: verplichte reservering van 5% van de jaarwinst tot de wettelijke reserve 10% van het kapitaal heeft bereikt (NV: art. 7:211; BV: niet verplicht onder WVV — afgeschaft met afschaffing kapitaal). Onbeschikbaar tot opname als kapitaal of bij speciale wettelijke uitzondering.\n\n**Onbeschikbare reserves (rekening 131)**: door statuten of AV-besluit onbeschikbaar verklaard. Niet uitkeerbaar zonder statutenwijziging. Vaak gebruikt voor 'reserve eigen aandelen' (verplicht bij inkoop eigen aandelen, art. 7:215/5:147).\n\n**Beschikbare reserves (rekening 133)**: vrije reserves; AV kan beslissen ze om te zetten in dividend of kapitaal.\n\n**Belastingvrije reserves (rekening 132)**: fiscaal vrijgestelde reserves (bv. investeringsreserve onder bepaalde voorwaarden, gespreide belasting meerwaarden). Geen RV bij uitkering. Maar 'belastingvrij' = voorwaardelijk: bij uitkering of overdracht aan eigen vermogen kunnen ze alsnog belastbaar worden.\n\n**Liquidatiereserve (afzonderlijk in 133/13 onderverdeling)**: vanaf AJ 2014/2015 mogelijk — vennootschap betaalt 10% afzonderlijke aanslag (art. 219quater WIB92) en de gereserveerde winst kan later worden uitgekeerd aan 5% RV (in plaats van 30%) na 5 jaar houden, of 0% bij liquidatie.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:211" },
+                  { "type": "kb", "naam": "KB MAR", "ref": "Rekening 130-133" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 219quater" }
                 ]
               }
             }
@@ -185,21 +271,18 @@
       {
         "id": "overgedragen-resultaat",
         "naam": {
-          "primair": "Overgedragen resultaat"
+          "primair": "Overgedragen winst / verlies (rekening 14)"
         },
         "concept_type": "balanspost",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 14; kan positief of negatief zijn.",
+              "tekst": "Rekening 14 'Overgedragen resultaat' = cumulatieve niet-bestemde winsten/verliezen van vorige boekjaren. Bij positief saldo: 'overgedragen winst' (uitkeerbaar onder uitkerings-tests). Bij negatief saldo: 'overgedragen verlies' (vermindert eigen vermogen direct — verliescompensatie via toekomstige winsten).\n\nAlternatief bij groot overgedragen verlies: kapitaalvermindering ter zuivering van het verlies (boekhoudkundig 'sanering') — het kapitaal wordt verminderd en het verlies geschrapt; geen werkelijke uitgave aandeelhouders. Wel formeel statutenwijziging vereist (NV) of inbreng-vermindering (BV art. 5:144).",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "kb", "naam": "KB MAR", "ref": "Rekening 14" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:144" }
                 ]
               }
             }
@@ -209,29 +292,350 @@
       {
         "id": "kapitaalsubsidies",
         "naam": {
-          "primair": "Kapitaalsubsidies"
+          "primair": "Kapitaalsubsidies (rekening 15)"
         },
         "concept_type": "balanspost",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — rekening 15; opname winstresultaat over tijd parallel aan afschrijving subsidie-object (OP-K.3: mogelijke split naar apart Regeling-record).",
+              "tekst": "Investeringssubsidies van overheid (Vlaanderen-VLAIO, regio-subsidies) ter financiering van vaste activa. Geboekt op rekening 15 'Kapitaalsubsidies'. Worden pro rata van de afschrijvingsperiode van het gesubsidieerde actief overgeboekt naar resultaat (rekening 753 'Kapitaal- en interestsubsidies'). Fiscaal: in principe belastbaar — maar bepaalde investeringssubsidies zijn vrijgesteld (art. 193 WIB92 onder voorwaarden — gewest-onderzoek-subsidies bv.).",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "kb", "naam": "KB MAR", "ref": "Rekening 15 + 753" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 193" }
                 ]
               }
             }
           }
         }
       }
+    ],
+    "bouwstenen": [
+      {
+        "id": "bewegingen-ev",
+        "naam": {
+          "primair": "Bewegingen in eigen vermogen"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wat doet EV toenemen of afnemen tijdens een boekjaar?\n\n**Toename (EV ↑)**:\n- Kapitaalverhoging in geld of natura — nieuwe aandeelhouders of bestaande die bijstorten. Boeking: 550/22 debet, 100/110 + 11 credit.\n- Winst van boekjaar (na bestemming) → reserves of overgedragen winst. Boeking: 69 'Resultaat te bestemmen' debet, 13/14 credit.\n- Herwaardering vast actief (toename economische waarde) → rekening 12.\n- Kapitaalsubsidie ontvangen — rekening 15.\n- Inkoop eigen aandelen (zelden, technisch-balans-neutraal — vermindert vrije reserves via creatie 'onbeschikbare reserve eigen aandelen').\n\n**Afname (EV ↓)**:\n- Verlies van boekjaar → overgedragen verlies (rekening 14).\n- Dividenduitkering (na AV-besluit) — rekening 694 debet, 471 credit voor brutobedrag.\n- Kapitaalvermindering (terugbetaling aandeelhouders, of zuivering verlies) — rekening 100/110 debet.\n- Tantième aan bestuurders ten laste van het resultaat (rekening 695).\n- Realisatie en uitkering belastingvrije reserves zonder vrijstelling.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "kb", "naam": "KB MAR", "ref": "Klasse 1 + klasse 69" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Overzicht EV-mutaties" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitkerings-tests",
+        "naam": {
+          "primair": "Uitkerings-tests (BV-dubbele vs NV-enkelvoudige)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**BV — dubbele test** (WVV art. 5:142-143):\n1. **Netto-actief-test** (art. 5:142): geen uitkering toegelaten indien het netto-actief negatief is of door de uitkering negatief zou worden. Netto-actief = totaal activa − totaal vreemd vermogen − schulden − niet-aftrekbare reserves.\n2. **Liquiditeits-test** (art. 5:143): het bestuursorgaan stelt vóór elke uitkering vast dat de vennootschap, op grond van de redelijkerwijze te verwachten ontwikkelingen, in staat zal blijven gedurende ten minste de twaalf volgende maanden haar opeisbare schulden te betalen. Verplichte rapportering in een notulen-stuk dat bij de jaarrekening wordt neergelegd.\n\n**NV — enkelvoudige netto-actief-test** (art. 7:212): geen uitkering indien netto-actief, na uitkering, daalt onder het bedrag van het volgestorte kapitaal + onbeschikbare reserves (wettelijke + statutaire + reserve eigen aandelen + ...).\n\n**Schending van test → bestuurdersaansprakelijkheid**: art. 5:144 BV / 7:214 NV — bestuurders hoofdelijk aansprakelijk voor uitkering die de tests niet doorstaat, ook al was AV-besluit aanwezig.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:143" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:144" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:212" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:214" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "fiscaal-vs-boekhoudkundig-ev",
+        "naam": {
+          "primair": "Fiscaal eigen vermogen vs boekhoudkundig eigen vermogen"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Twee parallelle EV-concepten:\n\n**Boekhoudkundig EV** = rekeningen 10-15 in jaarrekening. Onderworpen aan KB MAR + WVV. Doel: weergave aan stakeholders.\n\n**Fiscaal EV** (WIB92 art. 184 + 537) = subset van boekhoudkundig EV dat fiscaal als 'kapitaal' kwalificeert. Inclusief:\n- Volgestort kapitaal/inbreng (en uitgiftepremies indien aan voorwaarden voldaan).\n- Reserves die in eerdere boekjaren werden 'omgezet in kapitaal' bij statutenwijziging.\n- Liquidatiereserve (5% RV-regime — apart fiscaal regime).\n\nNIET fiscaal kapitaal:\n- Belastingvrije reserves (afzonderlijk fiscaal regime).\n- Gewone beschikbare reserves uit eerdere winsten (deze zijn al belast in vennootschapsbelasting; bij uitkering nog 30% RV in privé-handen).\n\n**Belang**: bij kapitaalvermindering (uitkering uit fiscaal kapitaal) → geen RV. Bij dividenduitkering uit reserves → wel RV (30% of 15%).\n\n**Notionele-interestaftrek (afgeschaft)**: art. 537 WIB92, ook genaamd 'aftrek voor risicokapitaal'. Berekend op 'aangepast eigen vermogen' (= boekhoudkundig EV gecorrigeerd voor o.a. eigen aandelen, niet-fiscaal-kapitaal-elementen). Bevroren AJ 2020, definitief afgeschaft AJ 2024.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 184" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 537", "context": "Notionele-interestaftrek (afgeschaft)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "solvabiliteits-context",
+        "naam": {
+          "primair": "Solvabiliteits-context (EV / totaal passief)"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Solvabiliteitsratio = Eigen Vermogen / Totaal Passief (× 100 = %). Geeft de structurele financiële sterkte weer.\n\n- < 20%: zwakke solvabiliteit, hoge afhankelijkheid van schuldfinanciering, kwetsbaar bij economische schokken.\n- 20-30%: gemiddeld, normaal voor groei-bedrijven met externe financiering.\n- 30-50%: gezond, comfortabele buffer.\n- > 50%: zeer sterk, mogelijk te conservatief gefinancierd (suboptimale ROE).\n\n**Schuldratio** = inverse: totaal vreemd vermogen / totaal passief.\n\n**Working capital-link**: positief EV is geen garantie op liquiditeit. Werkkapitaal-analyse (current ratio, quick ratio) loopt parallel.\n\n**Bancair gebruik**: banken hanteren solvabiliteit als kredietratio bij beoordeling van leningsaanvragen. Onder 15-20% solvabiliteit weigeren vele commerciële banken nieuwe kredieten zonder bijkomende waarborgen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bancaire praktijk solvabiliteit" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "Solvabiliteit = Eigen Vermogen / Totaal Passief × 100"
+          }
+        ]
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-balans-ev-bv",
+        "titel": "Eigen-vermogen-balans BV — voor en na dividend",
+        "context": "BV Gamma boekjaar 2025: balans-totaal 800.000 EUR. EV-componenten: inbreng 200.000 (rekening 110); wettelijke reserve afgeschaft (BV); beschikbare reserves 120.000 (rekening 133); overgedragen winst 80.000 (rekening 14); kapitaalsubsidie 30.000 (rekening 15). Totaal EV = 430.000 EUR. Schulden = 370.000 EUR. AV beslist dividend 50.000 EUR uit overgedragen winst.",
+        "weergaven": [
+          {
+            "type": "balans_snapshot",
+            "moment": "Vóór dividenduitkering",
+            "passiva": [
+              { "post": "110 Inbreng", "bedrag": 200000 },
+              { "post": "133 Beschikbare reserves", "bedrag": 120000 },
+              { "post": "14 Overgedragen winst", "bedrag": 80000 },
+              { "post": "15 Kapitaalsubsidies", "bedrag": 30000 },
+              { "post": "Totaal Eigen Vermogen", "bedrag": 430000 },
+              { "post": "Vreemd vermogen", "bedrag": 370000 },
+              { "post": "Totaal passief", "bedrag": 800000 }
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "**Stap 1 — uitkerings-tests (art. 5:142-143):**\n- *Netto-actief-test*: 430.000 - 50.000 = 380.000 EUR — nog steeds positief. ✅\n- *Liquiditeits-test*: bestuur stelt vast dat BV Gamma haar opeisbare schulden 12m kan blijven betalen na uitkering. Notulen-stuk opgesteld. ✅\n\n**Stap 2 — Boekingen:**\n1. Toekenning dividend (AV-besluit): 14 'Overgedragen winst' debet 50.000 / 471 'Te betalen dividenden' credit 50.000.\n2. Inhouding RV (30% — geen VVPRbis): 471 debet 50.000 / 453 'Ingehouden voorheffingen' credit 15.000 / 550 'Bank' credit 35.000."
+          },
+          {
+            "type": "balans_snapshot",
+            "moment": "Na dividenduitkering",
+            "passiva": [
+              { "post": "110 Inbreng", "bedrag": 200000 },
+              { "post": "133 Beschikbare reserves", "bedrag": 120000 },
+              { "post": "14 Overgedragen winst", "bedrag": 30000, "toelichting": "Was 80.000, daalt met 50.000 dividend" },
+              { "post": "15 Kapitaalsubsidies", "bedrag": 30000 },
+              { "post": "Totaal Eigen Vermogen", "bedrag": 380000 },
+              { "post": "Vreemd vermogen", "bedrag": 370000 },
+              { "post": "Doorstortbare RV", "bedrag": 15000 },
+              { "post": "Totaal passief", "bedrag": 765000 }
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "**Solvabiliteitsratio**:\n- Vóór: 430.000 / 800.000 = 53,75%.\n- Na: 380.000 / 765.000 = 49,67%.\n\nNog steeds zeer gezond (> 30%). Dividenduitkering heeft de solvabiliteit licht verminderd maar geen alarmbel-issue."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:143" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-alarmbel-nv",
+        "titel": "NV alarmbel — netto-actief gedaald onder helft kapitaal",
+        "context": "NV Delta heeft kapitaal 200.000 EUR (rekening 100). Door opeenvolgende verliezen in 2024 en 2025: overgedragen verlies -120.000 EUR (rekening 14). EV = 200.000 - 120.000 = 80.000 EUR.",
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "**Alarmbel-toets art. 7:228 WVV**:\n\n- Helft kapitaal = 200.000 / 2 = 100.000 EUR.\n- Netto-actief 80.000 < 100.000 → **Alarmbel-1 getriggerd**.\n- Een kwart kapitaal = 50.000 EUR.\n- Netto-actief 80.000 > 50.000 → Alarmbel-2 NIET getriggerd (nog niet).\n\n**Wettelijke verplichting bestuursorgaan**:\n1. Binnen **2 maanden** na vaststelling: bijeenroeping buitengewone AV.\n2. AV beraadslagen over: (a) ontbinding vennootschap, OF (b) saneringsmaatregelen.\n3. Verplicht bijzonder verslag bestuur — toelichting van de toestand + voorgestelde maatregelen.\n\n**Saneringsmaatregelen typisch**:\n- Kapitaalverhoging — nieuwe inbreng van aandeelhouders.\n- Kapitaalvermindering ter zuivering van het verlies (formaliteit zonder cash-effect).\n- Kostenbesparingsplan + business-pivot.\n- Conversie schulden naar kapitaal door geldschieters.\n\n**Niet-naleving** alarmbel-procedure = vermoeden van fout in faillissementsaansprakelijkheid (art. XX.225 WER) → bestuurders persoonlijk aansprakelijk voor netto-passief."
+          },
+          {
+            "type": "boeking",
+            "scenario": "Saneringsoperatie: kapitaalvermindering 100.000 EUR ter zuivering verlies + nieuwe inbreng 150.000 EUR",
+            "lijnen": [
+              { "rekening": "100", "naam": "Kapitaal — vermindering", "debet": 100000.00 },
+              { "rekening": "14", "naam": "Overgedragen verlies — zuivering", "credit": 100000.00, "toelichting": "Boekhoudkundige sanering" },
+              { "rekening": "550", "naam": "Bank — nieuwe inbreng", "debet": 150000.00 },
+              { "rekening": "100", "naam": "Kapitaal — verhoging", "credit": 150000.00 }
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "Resultaat: na sanering kapitaal = 200.000 - 100.000 + 150.000 = 250.000 EUR; overgedragen verlies = -120.000 + 100.000 = -20.000 EUR; EV = 250.000 - 20.000 = 230.000 EUR. Helft van kapitaal = 125.000 < EV 230.000 → alarmbel opgeheven. Volgt notariële akte kapitaalvermindering + kapitaalverhoging + statutenwijziging."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:228" },
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.225" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-solvabiliteit-ratio",
+        "titel": "Solvabiliteitsratio — interpretatie en bancair gebruik",
+        "context": "Drie KMO's met verschillende kapitaalstructuren — vergelijking solvabiliteitsratio en banking-impact.",
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Bedrijf", "EV", "Schulden", "Totaal passief", "Solvabiliteit", "Beoordeling"],
+            "rijen": [
+              ["BV A (start-up)", "50.000", "450.000", "500.000", "10%", "Zwak — bancair kredietverlening moeilijk zonder borg"],
+              ["BV B (gevestigd)", "300.000", "700.000", "1.000.000", "30%", "Gezond — normale bancaire voorwaarden"],
+              ["NV C (familie-holding)", "1.500.000", "500.000", "2.000.000", "75%", "Zeer sterk — mogelijk overkapitaliseerd (lage ROE)"]
+            ]
+          },
+          {
+            "type": "berekening",
+            "stappen": [
+              "BV A — Return on Equity (indien winst 25.000): 25.000 / 50.000 = 50% — gunstig ratio MAAR hoog risico door lage solvabiliteit.",
+              "BV B — ROE (indien winst 60.000): 60.000 / 300.000 = 20% — gezonde combinatie risico/return.",
+              "NV C — ROE (indien winst 75.000): 75.000 / 1.500.000 = 5% — laag — overweegt of kapitaal moet teruggegeven worden via kapitaalvermindering (fiscaal voordelig vs dividend bij voldoende fiscaal kapitaal)."
+            ],
+            "resultaat": "**Advies-strategie**:\n- BV A: actief eigen-vermogen-opbouw via winstreservering; eventueel additionele inbreng aandeelhouders.\n- BV B: status quo — gezonde balans.\n- NV C: overweeg kapitaalvermindering 500.000 EUR ten gunste van aandeelhouders (geen RV indien fiscaal kapitaal) — verhoogt ROE, behoudt voldoende solvabiliteit (resterend EV 1.000.000 / passief 1.500.000 = 67%)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bancaire en adviespraktijk solvabiliteit" }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "BV-kapitaal bestaat nog",
+        "verkeerde_assumptie": "Een BV heeft een kapitaal-bedrag dat statutair is vastgelegd, vergelijkbaar met de NV.",
+        "kernpunt": "Sinds WVV (2019) is BV-kapitaal AFGESCHAFT. Geen 'kapitaal' rekening in BV-balans. Alleen 'inbreng' op rekening 110/111. Geen wettelijke minimum-inbreng meer (kan 1 EUR zijn, maar dan financieel-plan-toets cruciaal). Geen alarmbel op basis van 'helft kapitaal' meer; in plaats daarvan dubbele test (netto-actief negatief OF liquiditeitstest faalt).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:1" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:153" }
+          ]
+        }
+      },
+      {
+        "titel": "Dividend altijd belastbaar met 30% RV",
+        "verkeerde_assumptie": "Elke uitkering uit eigen vermogen is dividend en wordt belast met 30% roerende voorheffing.",
+        "kernpunt": "Onderscheid is cruciaal: (a) **Dividend uit reserves of resultaat** = 30% RV (15% VVPRbis, 5% liquidatiereserve na 5j). (b) **Kapitaalvermindering uit fiscaal kapitaal** = GEEN RV (geen 'dividend' fiscaal, gewoon teruggave van inbreng). Tante voor de notaris bij kapitaalvermindering: art. 184 §3 WIB92 — proportionele heffing op wettelijk en statutair onbeschikbare reserves verplicht.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 18" }
+          ]
+        }
+      },
+      {
+        "titel": "Liquiditeitstest is een formaliteit",
+        "verkeerde_assumptie": "De liquiditeitstest van art. 5:143 BV is een formele notulen-formule zonder echte impact.",
+        "kernpunt": "De liquiditeitstest is een SUBSTANTIËLE risico-analyse. Het bestuur moet redelijkerwijs vaststellen dat de vennootschap de komende 12 maanden haar opeisbare schulden kan blijven betalen ONDER REDELIJKE TOEKOMST-VERWACHTINGEN. Onderbouwen met: cashflow-prognose, debiteuren-aging, kredietlijnen, sectorele context. Pure formele tekst zonder substantie = bestuurdersaansprakelijkheid bij latere insolventie + verplichting tot terugbetaling dividend (art. 5:144).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:143" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:144" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "client-vennootschap",
+      "naam": {
+        "primair": "Cliënt-vennootschap"
+      },
+      "intro": "De accountant volgt het EV nauwgezet — vooral voor solvabiliteits-analyse, alarmbel-monitoring, fiscale optimalisatie kapitaalvermindering vs dividend.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-resultaatbestemming",
+              "naam": {
+                "primair": "Boeking resultaatbestemming na AV"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Na AV-jaarvergadering: resultaat van het boekjaar (rekening 79 'Resultaat van het boekjaar') wordt bestemd volgens AV-besluit:\n\nStandaard volgorde bestemming:\n1. Wettelijke reserve (NV — 5% tot 10% kapitaal): 79 debet, 130 credit.\n2. Tantième bestuurders (indien voorzien): 79 debet, 695 'Tantièmes' debet, 471 credit (te betalen).\n3. Dividend AV-besluit: 79 debet, 694 debet, 471 credit (te betalen dividenden).\n4. Reservering in beschikbare reserves: 79 debet, 133 credit.\n5. Overgedragen winst — restant: 79 debet, 14 credit.\n\nAlle '69x'-rekeningen worden afgesloten via overboeking naar 79 dat dan naar de EV-rekeningen wordt verdeeld. De som van resultaatbestemmingen = volledige winst (geen restant op 79).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "kb", "naam": "KB MAR", "ref": "Klasse 6-7 + klasse 1" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard resultaatbestemming" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fiscaal-kapitaalvermindering",
+              "naam": {
+                "primair": "Fiscale optimalisatie via kapitaalvermindering"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor cliënt-vennootschap met aanzienlijk fiscaal kapitaal (volgestort, kwalificeert als kapitaal in zin art. 184 WIB92): overweeg kapitaalvermindering als alternatief voor dividend.\n\n**Voordeel**: terugbetaling fiscaal kapitaal = onbelast (geen RV) — aandeelhouders ontvangen netto het volle bedrag.\n\n**Voorwaarden**:\n- Voldoende fiscaal kapitaal (niet alle inbreng/kapitaal kwalificeert — bv. omzettingen reserves naar kapitaal beneden bepaalde voorwaarden niet).\n- Sinds Wet 25 december 2017: proportionele heffing — bij kapitaalvermindering moet pro rata ook op onbeschikbare reserves + uitgiftepremies + liquidatiereserves worden afgerekend (art. 184 §3 WIB92).\n- Formaliteiten: buitengewone AV met 75%-meerderheid + notariële akte + neerlegging KBO + statutenwijziging.\n\n**Voorbeeld**: kapitaal 500.000 (fiscaal: 400.000) + beschikbare reserves 200.000. Bij vermindering 100.000 EUR: pro rata 100 × 400/600 = 67k uit fiscaal kapitaal (geen RV) en 100 × 200/600 = 33k uit reserves (30% RV = 10k). Netto-effect: aandeelhouders ontvangen 90k netto in plaats van 70k bij volledig dividend (× 70%).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 184" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 18 2°" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "ev-monitoring",
+              "naam": {
+                "primair": "Lopende EV-monitoring + alarmbel-bewaking"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke kwartaal-rapportage of interne tussentijdse balans: nakijken evolutie EV:\n\n1. **Verloop EV** sinds jaarbegin: toenames (winst, inbreng) vs afnames (verlies, dividenden).\n2. **Solvabiliteitsratio** vergelijken met sector-mediaan + bancaire convenanten (vaak in kredietcontracten een minimumsolvabiliteit verplicht).\n3. **Alarmbel-toets**:\n   - BV: voorspelt liquiditeitstest 12m vooruit? Netto-actief blijft positief?\n   - NV: netto-actief > helft kapitaal? > kwart kapitaal? > minimumkapitaal 61.500?\n4. **Bij dreiging**: advies aan bestuur — preventieve maatregelen vs formele alarmbel.\n5. **Bij feitelijk gedaald onder drempel**: formeel adviseren aan bestuur om binnen 2 maanden buitengewone AV bijeen te roepen — schriftelijk advies voor bewijslast.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:153" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:228" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard monitoring-praktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -239,19 +643,28 @@
     },
     {
       "type": "beinvloed_door",
-      "target": "kapitaalverhoging"
+      "target": "kapitaalverhoging",
+      "toelichting": "Kapitaalverhoging in geld of natura → toename EV op rekeningen 10/110."
     },
     {
       "type": "beinvloed_door",
-      "target": "kapitaalvermindering"
+      "target": "kapitaalvermindering",
+      "toelichting": "Kapitaalvermindering → afname EV; fiscaal interessant alternatief voor dividend bij voldoende fiscaal kapitaal."
     },
     {
       "type": "beinvloed_door",
-      "target": "winstuitkering"
+      "target": "winstuitkering",
+      "toelichting": "Dividenduitkering → afname EV via overgedragen winst of beschikbare reserves."
     },
     {
       "type": "beinvloed_door",
-      "target": "winstbestemming"
+      "target": "winstbestemming",
+      "toelichting": "Resultaatbestemming jaarvergadering → toewijzing winst naar reserves (rekening 13) of overgedragen winst (rekening 14)."
+    },
+    {
+      "type": "triggert",
+      "target": "alarmbel-procedure",
+      "toelichting": "Daling EV onder drempelwaarden (BV: nettoactief negatief of liquiditeitstest faalt; NV: < 50% / 25% / minimumkapitaal) triggert wettelijke alarmbel-procedure."
     }
   ]
 }
