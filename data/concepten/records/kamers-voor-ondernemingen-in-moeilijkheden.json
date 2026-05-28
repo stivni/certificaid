@@ -1,30 +1,34 @@
 {
   "id": "kamers-voor-ondernemingen-in-moeilijkheden",
   "naam": {
-    "primair": "Kamers voor ondernemingen in moeilijkheden",
+    "primair": "Kamers voor ondernemingen in moeilijkheden (KOM)",
     "afkorting": "KOM",
-    "synoniemen": [
-      "chambres des entreprises en difficulté",
-      "KOM",
-      "CED"
-    ]
+    "synoniemen": ["chambres des entreprises en difficulté", "kamer ondernemingen in moeilijkheden"]
   },
-  "concept_type": "procedure",
+  "concept_type": "actor",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling",
-      "entiteit"
-    ],
-    "ankers": [
-      "3.0.IX",
-      "3.0.X",
-      "3.0.X.A"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["3.0.IX", "3.0.X"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/kamers-voor-ondernemingen-in-moeilijkheden.json",
+      "primary_bronnen": [
+        "WER art. XX.23",
+        "WER art. XX.24",
+        "WER art. XX.25",
+        "WER art. XX.26",
+        "WER art. XX.27",
+        "WER art. XX.28",
+        "WER art. XX.29/1",
+        "WIB92 art. 2 — 4°/2"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,7 +36,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1179)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:05:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WER art. XX.23 e.v.) + ITAA-norm meldingsplicht."
       }
     ],
     "scope": {
@@ -42,36 +53,41 @@
         "Confidentiële bemiddeling vóór formele procedure"
       ],
       "out": [
-        {
-          "topic": "Parent kader — WER boek XX",
-          "richting": "moet-verwijzen",
-          "ref": "insolventierecht-wer-boek-xx"
-        },
-        {
-          "topic": "Ondernemingsbemiddelaar — opvolg-instrument",
-          "richting": "moet-verwijzen",
-          "ref": "ondernemingsbemiddelaar"
-        },
-        {
-          "topic": "AML-meldingssystematiek — vergelijking voor accountant-meldingsplicht",
-          "richting": "mag-verwijzen",
-          "ref": "antiwitwaspreventie"
-        }
+        { "topic": "Parent kader — WER boek XX", "richting": "moet-verwijzen", "ref": "insolventierecht-wer-boek-xx" },
+        { "topic": "Ondernemingsbemiddelaar — opvolg-instrument", "richting": "moet-verwijzen", "ref": "ondernemingsbemiddelaar" },
+        { "topic": "AML-meldingssystematiek — vergelijking voor accountant-meldingsplicht", "richting": "mag-verwijzen", "ref": "antiwitwaspreventie" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De kamers voor ondernemingen in moeilijkheden (KOM) zijn gespecialiseerde afdelingen binnen elke ondernemingsrechtbank die ondernemingen volgen waarvan de continuïteit bedreigd is, **vóór** een formele insolventieprocedure begint. Ze verzamelen signalen via het centraal register van economische knipperlichten, roepen de schuldenaar op voor een vertrouwelijk gesprek, en proberen via informele begeleiding (eventueel via een ondernemingsbemiddelaar) een faillissement te voorkomen. De KOM is dus een preventief instrument, niet een gerechtelijke procedure in de strikte zin.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.23-XX.29/1", "context": "Titel III WER — Vroegtijdige waarschuwing, kamers voor ondernemingen in moeilijkheden en ondernemingsbemiddeling" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de accountant is de KOM-uitnodiging meestal het eerste teken dat de buitenwereld de moeilijkheden van zijn cliënt heeft opgemerkt. De zitting is vertrouwelijk (gesloten deuren), de schuldenaar verschijnt alleen of met zijn raadsman en/of accountant. De KOM beslist niet — ze adviseert en bemiddelt. Mogelijke uitkomsten: (a) dossier wordt gesloten zonder gevolg; (b) ondernemingsbemiddelaar aangewezen; (c) ambtshalve oproeping van schuldeisers voor schikking (art. XX.29/1); (d) in extremis: doorverwijzing naar gerechtelijke reorganisatie of faillissement.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.25 § 1-2" },
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.29/1", "context": "Mogelijkheid schikking met schuldeisers via KOM" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vertaling" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De KOM-aanpak rust op de overtuiging dat hoe vroeger een onderneming in moeilijkheden wordt aangesproken, hoe groter de kans dat ze hersteld kan worden. De vertrouwelijkheid is essentieel: een publieke vermelding zou de cliëntrelaties en kredietwaardigheid finaal kraken — net wat men wil voorkomen. De KOM combineert dus 'monitoring' (knipperlichten verzamelen) met 'zacht ingrijpen' (uitnodigen, bemiddelen) zonder de juridische pletwals van een formele procedure.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.25 § 3 (gesloten deuren)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beleidsrationale" }
           ]
         }
       }
@@ -79,18 +95,264 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WER boek XX"
-      }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "insolventierecht-wer-boek-xx"
+        "sinds": "2018-05-01",
+        "wettelijke_basis": "WER boek XX, titel III (W 11-08-2017, gewijzigd W 7-06-2023)"
+      },
+      "trigger_start": [
+        {
+          "tekst": "Opname van de onderneming in het centraal register van economische knipperlichten (art. XX.21) — bv. door dagvaardingen voor onbetaalde facturen, RSZ/btw-achterstand, beslagen — leidt automatisch tot mogelijk onderzoek door de KOM (art. XX.25).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WER", "ref": "art. XX.21 + XX.25" }
+            ]
+          }
+        }
+      ]
     },
+    "subconcepten": [
+      {
+        "id": "samenstelling-kom",
+        "naam": { "primair": "Samenstelling en werking van de KOM" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De KOM is een afdeling van de ondernemingsrechtbank, samengesteld uit één of meer rechters en consulaire rechters (lekenrechters uit het bedrijfsleven). Een 'verslaggever' wordt aangewezen per dossier en bereidt de zitting voor. Zittingen gebeuren met gesloten deuren, zonder formele procesregels — meer een gesprek dan een rechtbank. Tegen beslissingen van de KOM staat geen verzet of hoger beroep open (art. XX.2, 1°), wat de informele aard versterkt.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.23-25" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.2, 1°", "context": "Geen rechtsmiddelen tegen KOM-beslissingen" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "ambtshalve-onderzoek",
+        "naam": { "primair": "Ambtshalve onderzoek door de KOM" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Wanneer signalen aan de KOM worden gemeld (knipperlichten, melding door schuldeiser, doorverwijzing parket), kan de kamer **ambtshalve** een onderzoek instellen (art. XX.25 § 1). De schuldenaar wordt opgeroepen via een eenvoudige brief of e-mail; hij verschijnt voor de verslaggever, die de financiële toestand bespreekt en advies geeft over mogelijke acties. De KOM kan ook gegevens uitwisselen met openbare of particuliere begeleidingsinstellingen die door de overheid zijn erkend (art. XX.27).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.25 § 1" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.27", "context": "Uitwisseling met begeleidingsinstellingen" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "schikking-art-xx291",
+        "naam": { "primair": "Schikking met schuldeisers via KOM (art. XX.29/1)" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Sinds 2023 kan de schuldenaar zelf actief de KOM **vragen** om bepaalde schuldeisers op te roepen voor een vertrouwelijke schikkingsonderhandeling (art. XX.29/1). De KOM hoort hen afzonderlijk of gezamenlijk met gesloten deuren. Een geslaagde schikking wordt opgetekend in een proces-verbaal met uitvoerbare kracht. De inning van fiscale en sociale schulden kan in deze fase met instemming van de openbare instelling worden opgeschort.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.29/1 § 1-3" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Dit is een belangrijk wapen voor de accountant: bij dreigende RSZ-of-btw-incasso kan de schuldenaar via dit kanaal proberen tijd te kopen zonder publieke procedure. Bedoel niet als 'oplossing in zichzelf', wel als brug tussen knipperlicht en gerechtelijke reorganisatie.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-betekenis" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "meldingsplicht-accountant",
+        "naam": { "primair": "Meldingsplicht gecertificeerd accountant" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Wanneer een gecertificeerd accountant in de uitoefening van zijn opdracht **gewichtige en overeenstemmende feiten vaststelt** die de continuïteit van de onderneming in het gedrang kunnen brengen, moet hij het bestuursorgaan informeren en aandringen op corrigerende maatregelen. Worden binnen één maand geen passende maatregelen genomen om de continuïteit voor minimaal twaalf maanden te verzekeren, dan kan/moet hij de voorzitter van de ondernemingsrechtbank (KOM) schriftelijk inlichten. Deze meldingsplicht doorbreekt het beroepsgeheim — het is een wettelijke uitzondering, niet een vrije keuze.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:69 (alarmbel-procedure NV) — analoog voor accountant via ITAA-normen" },
+                  { "type": "norm", "naam": "ITAA-norm ontbinding-vereffening", "ref": "§ 2 — Verantwoordelijkheden gecertificeerd accountant" },
+                  { "type": "wettekst", "naam": "Wet 17 maart 2019 (oprichting ITAA)", "ref": "art. 3" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese meldingsplicht uit ITAA-normen + WER" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De accountant ziet als geen ander de financiële realiteit van de cliënt en zijn waarschuwing kan een tijdig ingrijpen mogelijk maken. Zwijgen kan leiden tot tuchtsancties én tot persoonlijke aansprakelijkheid bij later faillissement (art. XX.226 WER — bijstand-verleners aansprakelijkheid).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.226" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "gesloten-deuren",
+        "naam": { "primair": "Vertrouwelijkheid — gesloten deuren" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Alle zittingen van de KOM gebeuren met gesloten deuren. Het dossier is niet openbaar; alleen de schuldenaar en eventuele door hem uitgenodigde adviseurs hebben toegang. Vermeldingen blijven 5 jaar bewaard in het centraal register van economische knipperlichten maar zijn niet publiek consulteerbaar.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.21 § 3 (bewaartermijn 5 jaar)" },
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.29/1 (gesloten deuren bij schikkingen)" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verslag-voor-rechtbank",
+        "naam": { "primair": "KOM-verslag in latere procedure" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien de schuldenaar later toch een verzoekschrift gerechtelijke reorganisatie indient, kan de rechtbank het verslag van de KOM bij het dossier voegen (art. XX.41 § 4). De observaties van de KOM zijn dan onderdeel van de beoordeling — wat het belang van een goed verlopen KOM-gesprek vergroot.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WER", "ref": "art. XX.41 § 4" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "KOM-uitnodiging na RSZ-achterstand — Zelena Bio NV",
+        "context": "Zelena Bio NV heeft drie kwartalen RSZ niet betaald. Het register pikt dit op. Twee maanden later ontvangt de zaakvoerder een brief: 'verslaggever KOM verzoekt u te verschijnen op datum X'.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch scenario" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "tekst": "Stap 1: Zaakvoerder belt accountant. Samen voorbereiding: actuele cashflow-projectie, herstelplan-schets, lijst hoofdcrediteuren.\nStap 2: Zitting voor verslaggever (gesloten deuren). Bespreking financiële toestand + plan-intenties.\nStap 3: Verslaggever stelt voor: ondernemingsbemiddelaar voor minnelijk akkoord met RSZ + bank.\nStap 4: Zaakvoerder gaat akkoord. Bemiddelaar wordt aangewezen.\nStap 5: Na 6 weken: betalingsovereenkomst RSZ + uitstel banklening. Dossier KOM gesloten."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "KOM-uitnodiging = al failliet",
+        "verkeerde_assumptie": "Een KOM-uitnodiging betekent dat de onderneming praktisch failliet is.",
+        "kernpunt": "Integendeel: de KOM is **preventief**. Een uitnodiging is een kans om vroeg te corrigeren, niet een vooraankondiging van faillissement. Verschijnen, voorbereid zijn en proactief een plan voorstellen levert vaak een snelle sluiting van het dossier op.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.25" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Niet verschijnen op KOM zonder gevolg",
+        "verkeerde_assumptie": "Een KOM-oproeping is informeel; niet verschijnen heeft geen consequenties.",
+        "kernpunt": "Niet-verschijnen geldt als signaal van slechte trouw of verlatenheid. De KOM kan dan andere maatregelen aanbevelen — inclusief dagvaarding tot faillissement door het parket. Verschijnen is, juridisch en strategisch, altijd raadzaam.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkervaring" }
+          ]
+        }
+      },
+      {
+        "titel": "Meldingsplicht versus beroepsgeheim — geen tegenspraak",
+        "verkeerde_assumptie": "De wettelijke meldingsplicht van de accountant tegenover de KOM schendt zijn beroepsgeheim.",
+        "kernpunt": "De wet zelf creëert deze uitzondering — net zoals bij witwasmelding aan CFI. Het beroepsgeheim primeert niet over een uitdrukkelijke wettelijke verplichting. De accountant die zwijgt loopt grotere risico's (tucht, aansprakelijkheid) dan wie meldt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 17 maart 2019 (ITAA)", "ref": "art. 3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "triggert",
-      "target": "ondernemingsbemiddelaar"
+      "id": "client-naar-kom-opgeroepen",
+      "naam": { "primair": "Cliënt opgeroepen door de KOM" },
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "voorbereiding-kom-zitting",
+              "naam": { "primair": "KOM-zitting voorbereiden met cliënt" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Maak vooraf: (a) een korte chronologie van wat misging; (b) een actuele 13-week cashflow-projectie; (c) een lijst van hoofdcrediteuren met openstaand saldo; (d) een herstelplan in 3-5 punten met realistische tijdslijnen. Begeleid de zaakvoerder naar de zitting — de KOM waardeert het zien van een professional die actief meedenkt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Best-practice begeleiding KOM" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "meldingsplicht-overwegen",
+              "naam": { "primair": "Eigen meldingsplicht serieus nemen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer je gewichtige feiten vaststelt die de continuïteit bedreigen, breng het bestuursorgaan eerst schriftelijk op de hoogte met termijn van 1 maand om corrigerende maatregelen te nemen. Bij stilzitten: dien zelf schriftelijke melding in bij de voorzitter van de ondernemingsrechtbank (KOM). Documenteer alle stappen — het beschermt jou tegen latere aansprakelijkheids- of tuchtsanctie.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm ontbinding-vereffening", "ref": "§ 2" },
+                      { "type": "wettekst", "naam": "WER", "ref": "art. XX.226" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "insolventierecht-wer-boek-xx" },
+    { "type": "triggert", "target": "ondernemingsbemiddelaar" }
   ]
 }
