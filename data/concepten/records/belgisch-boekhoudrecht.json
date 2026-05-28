@@ -12,10 +12,8 @@
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
     "ankers": [
       "1.1.I",
       "1.1.I.A",
@@ -28,9 +26,25 @@
       "1.2.II"
     ],
     "provenance": {
-      "model": "skeleton-generator",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/belgisch-boekhoudrecht.json",
+      "primary_bronnen": [
+        "WER Boek III art. III.82-III.95",
+        "Boekhoudwet 17-07-1975",
+        "KB 29-04-2019 (uitvoering WVV)",
+        "Richtlijn 2013/34/EU",
+        "CBN-advies 2010/20",
+        "CBN-advies 2022/14",
+        "CBN-advies 2022/15",
+        "CBN-advies 2024/02",
+        "CBN-advies 2019/04",
+        "CBN-advies 2019/09"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -39,6 +53,13 @@
         "model": "skeleton-generator",
         "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T07:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-jaarrekening-fundament-2026-05-27",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WER + KB 29-04-2019 + Richtlijn 2013/34/EU + CBN-adviezen). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
@@ -50,49 +71,393 @@
         "EU-richtlijn 2013/34/EU als upstream-basis"
       ],
       "out": [
-        {
-          "topic": "IFRS internationaal referentiestelsel",
-          "richting": "moet-verwijzen",
-          "ref": "ifrs"
-        },
-        {
-          "topic": "Boekhoudbeginselen-detail",
-          "richting": "moet-verwijzen",
-          "ref": "boekhoudbeginselen"
-        },
-        {
-          "topic": "WVV-vennootschapsrechtelijke aspecten (rechtsvormen)",
-          "richting": "mag-verwijzen",
-          "ref": "ondernemingsvormen"
-        }
+        {"topic": "IFRS internationaal referentiestelsel", "richting": "moet-verwijzen", "ref": "ifrs"},
+        {"topic": "Boekhoudbeginselen-detail (voorzichtigheid · matching · ...)", "richting": "moet-verwijzen", "ref": "boekhoudbeginselen"},
+        {"topic": "WVV-vennootschapsrechtelijke aspecten (rechtsvormen)", "richting": "mag-verwijzen", "ref": "ondernemingsvormen"},
+        {"topic": "Concrete jaarrekening-schema's per balanspost", "richting": "moet-verwijzen", "ref": "jaarrekening"},
+        {"topic": "Boekhoudplicht (wie moet boekhouden? · groottecriteria)", "richting": "moet-verwijzen", "ref": "boekhoudplicht"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van jaarrekening-fundament.",
+        "tekst": "Het Belgisch boekhoudrecht (B-GAAP) is het Belgische normatieve referentiestelsel dat bepaalt welke ondernemingen een boekhouding moeten voeren, hoe ze die voeren, hoe ze hun verrichtingen waarderen en hoe ze hun resultaat en vermogen rapporteren in een jaarrekening. De kern bestaat uit een wettelijke laag (WER Boek III — voorheen Boekhoudwet van 17 juli 1975) en een uitvoerende laag (Koninklijk Besluit van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen, dat o.a. de waarderingsregels, het minimum algemeen rekeningenstelsel en de balans- en resultatenrekening-schema's bevat).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "skeleton-generator",
-              "datum": "2026-05-27"
-            }
+            {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "Boek III, Titel 3"},
+            {"type": "wettekst", "naam": "Boekhoudwet 17-07-1975", "ref": "art. 1", "context": "Verplichting tot boekhouding + jaarrekening voor in België gevestigde ondernemingen — bevestigd in CBN-advies 2010/20"},
+            {"type": "kb", "naam": "KB 29-04-2019 uitvoering WVV", "ref": "Boek 3 (Jaarrekening) titel 1"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "B-GAAP is een crediteurs-georiënteerd boekhoudstelsel: het werkt sterk volgens het voorzichtigheidsbeginsel (verliezen anticiperen, winsten pas erkennen wanneer gerealiseerd), met historische kostprijs als hoofdwaarderingsregel. Het verschilt daarin fundamenteel van IFRS (investeerders-georiënteerd, vaker fair-value). Praktisch betekent dit dat de Belgische jaarrekening primair dient om crediteurs en de fiscus betrouwbare, conservatieve cijfers te bezorgen — niet om een actuele beurswaarde van het vermogen te tonen. De jaarrekening die volgens B-GAAP wordt opgesteld is ook de basis voor de fiscale aangifte vennootschapsbelasting: boekhoudrecht en fiscaal recht zijn in België sterk gekoppeld ('het fiscaal balans volgt de boekhoudkundige balans, behoudens uitdrukkelijke wettelijke afwijking').",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:6 e.v. (waarderingsregels)"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2019/04", "context": "Toepassing waarderingsregels — historische kostprijs als regel"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van B-GAAP-karakter vs IFRS — standaardleer in Belgisch boekhoudkundig handboek"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het stelsel heeft drie ratio-legis-pijlers: (1) bescherming van derden (crediteurs, werknemers, fiscus) via verplichte publicatie van een gestandaardiseerde jaarrekening bij de NBB-Balanscentrale — vergelijkbare informatie tussen ondernemingen mogelijk maken; (2) fiscale grondslag — de jaarrekening levert de basisgegevens voor de vennootschapsbelasting (boekhoudkundig resultaat → fiscale correcties → belastbare grondslag); (3) Europese harmonisatie — sinds Richtlijn 78/660/EEG (vierde vennootschapsrichtlijn) en de huidige Richtlijn 2013/34/EU wordt het Belgisch stelsel gebouwd op een EU-kader van minimumvereisten voor de jaarrekening van bepaalde ondernemingsvormen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 1 + bijlage VII (concordantietabel)"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard ratio-legis-synthese — consensus in de Belgische boekhoudliteratuur"}
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "boekhouding"
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["boekhouding"],
+      "kader": "boekhouding",
+      "naast_relevant": ["boekhoudbeginselen", "boekhoudplicht"],
+      "volgkennis": ["jaarrekening", "dubbele-boekhouding", "eindejaarsverrichtingen"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "KB 29-04-2019 (uitvoering WVV) — sinds 01-05-2019 in werking; WER Boek III geconsolideerd 2018; Boekhoudwet 17-07-1975 in haar overgebleven bepalingen",
+        "toelichting": "Het Belgisch boekhoudrecht heeft de afgelopen 50 jaar een gestaag evolutie ondergaan: Boekhoudwet 17-07-1975 (oprichting CBN + grondslag) → KB 08-10-1976 (eerste schema's) → KB 30-01-2001 (W.Venn.-recodificatie) → integratie in WER Boek III (2014) → KB 29-04-2019 (afstemming op WVV). De materiële inhoud blijft sterk continu — verplichte boekhouding, jaarrekening, MAR, voorzichtigheidsbeginsel — maar de nummering en structuur wijzigden ingrijpend met het KB 29-04-2019."
+      },
+      "voor": [
+        {
+          "tekst": "Alle in België gevestigde ondernemingen (vennootschappen, verenigingen, stichtingen, eenmanszaken in handelaarsverband) zijn boekhoudplichtig en moeten hun boekhouding volgens B-GAAP voeren. Voor buitenlandse vennootschappen geldt B-GAAP enkel op hun in België gevestigde bijkantoren en centra van werkzaamheden — die worden boekhoudkundig (maar niet juridisch) als één onderneming beschouwd.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20", "context": "Belgische bijkantoren van buitenlandse ondernemingen onderworpen aan B-GAAP voor hun Belgische activiteit"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2022/14"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2022/15"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2024/02", "context": "Idem voor buitenlandse verenigingen en stichtingen"},
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2019/09", "context": "Rechtspersonen naar Belgisch recht — in principe boekhoudplichtig met uitzonderingen"}
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Beursgenoteerde ondernemingen die hun geconsolideerde jaarrekening verplicht in IFRS opstellen (IAS-Verordening 1606/2002) blijven voor de enkelvoudige Belgische jaarrekening wel onder B-GAAP vallen — maar voor de geconsolideerde rapportering geldt IFRS i.p.v. B-GAAP. Ook bepaalde publiekrechtelijke rechtspersonen die geen goederen of diensten op een markt aanbieden en zuivere landbouw-eenmanszaken (zonder vennootschapsvorm) vallen buiten de boekhoudplicht.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "cbn", "naam": "CBN-advies", "ref": "2019/09", "context": "Uitzonderingen op boekhoudplicht voor rechtspersonen naar Belgisch recht"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IFRS-verplichting voor geconsolideerde rekeningen beursgenoteerden — IAS-Verordening"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Hoge vergelijkbaarheid tussen Belgische ondernemingen (zelfde MAR-rekeningen 0-9, zelfde balans- en resultatenrekening-schema's per groottecategorie), directe koppeling met de fiscale aangifte, en gestandaardiseerde publicatie via de NBB-Balanscentrale (XBRL-rapportering) — wat externe analyse, krediet-scoring en benchmarking vergemakkelijkt.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:1 e.v. (MAR + schema's)"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Strikt voorzichtigheidsregime → de Belgische jaarrekening onderschat doorgaans de werkelijke economische waarde van het vermogen (historische kostprijs, verplichte afschrijvingen, voorzieningen voor mogelijke verliezen). Voor investeerdersbeslissingen en M&A is een aparte economische waardering vaak nodig — de B-GAAP-cijfers vormen daarvoor enkel een vertrekpunt.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:6 e.v. (waarderingsregels)"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard B-GAAP-vs-fair-value-kritiek in M&A-context"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "bronhierarchie",
+        "naam": {"primair": "Bronhiërarchie van het Belgisch boekhoudrecht"},
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Het Belgisch boekhoudrecht kent een klassieke piramide van bronnen, in volgorde van bindende kracht: (1) EU-Richtlijn 2013/34/EU als upstream-minimumkader (rechtstreeks bindend voor de Belgische wetgever, niet voor de onderneming); (2) Wet — WER Boek III + Boekhoudwet 17-07-1975; (3) Koninklijk Besluit — KB 29-04-2019 als uitvoering van het WVV (waarderingsregels + MAR + balansschema's); (4) Ministerieel Besluit — verdere technische uitvoering (bv. modellen NBB-formulieren); (5) Circulaire — administratieve interpretatie; (6) CBN-advies — niet-bindende interpretatieve adviezen van de Commissie voor Boekhoudkundige Normen, met groot gezag in de praktijk.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 1"},
+                {"type": "wettekst", "naam": "Boekhoudwet 17-07-1975", "ref": "art. 1"},
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "Boek 3 (Jaarrekening)"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard Belgische bronhiërarchie — wet > KB > MB > circulaire > CBN-advies"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Bronhiërarchie B-GAAP:\n\n```mermaid\nflowchart TD\n  EU[EU-Richtlijn 2013/34/EU<br/>upstream minimumkader] --> Wet[Wet WER Boek III<br/>+ Boekhoudwet 1975]\n  Wet --> KB[KB 29-04-2019<br/>uitvoering WVV — waarderingsregels + MAR]\n  KB --> MB[Ministerieel Besluit<br/>technische modellen NBB]\n  MB --> Circ[FOD-Circulaire<br/>administratieve interpretatie]\n  Circ --> CBN[CBN-advies<br/>doctrine — niet bindend, hoog gezag]\n```"
+          }
+        ]
+      },
+      {
+        "id": "wer-boek-iii",
+        "naam": {"primair": "WER Boek III — boekhoudplicht en jaarrekening"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het Wetboek van Economisch Recht (WER), Boek III, Titel 3 ('Boekhouding van ondernemingen') vormt sinds 2014 de wettelijke fundering van de boekhoudplicht in België. Het integreert de oude Boekhoudwet 17-07-1975 en bepaalt: (1) wie boekhoudplichtig is (alle ondernemingen in de zin van WER art. I.1, 1°); (2) de vereiste van een dubbele boekhouding voor niet-micro-ondernemingen; (3) de jaarlijkse inventaris- en jaarrekeningverplichting; (4) de bewaartermijn van 7 jaar voor boeken en stukken.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "Boek III, Titel 3 (art. III.82-III.95)"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20", "context": "Boekhoudwet 17-07-1975 wordt door CBN nog vaak als basis aangehaald omdat WER-integratie de inhoud niet wijzigde"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kb-29-april-2019",
+        "naam": {"primair": "KB 29-04-2019 — uitvoeringsbesluit"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het KB van 29 april 2019 tot uitvoering van het Wetboek van vennootschappen en verenigingen bundelt de uitvoerende regels voor de jaarrekening: (a) de waarderingsregels (Boek 3, Titel 1, Hoofdstuk II — historische kostprijs, afschrijvingen, herwaardering, voorzieningen, waardeverminderingen), (b) het Minimum Algemeen Rekeningenstelsel (MAR — klassen 0-9), (c) de balans- en resultatenrekening-schema's per groottecategorie (volledig schema, verkort schema, microschema). Het is het meest gebruikte werkinstrument voor de boekhouder in de praktijk — meer dan de wetstekst zelf.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "Boek 3, Titel 1 (Jaarrekening)"},
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:83", "context": "Balans opgesteld overeenkomstig schema in bijlage 4 — verkort schema"},
+                {"type": "kb", "naam": "KB 29-04-2019", "ref": "art. 3:84", "context": "Resultatenrekening opgesteld overeenkomstig microschema"},
+                {"type": "cbn", "naam": "CBN-advies", "ref": "2019/04", "context": "Waarderingsregels — legistiek raamwerk in Boek II, Titel I, Hoofdstuk II van het KB"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "richtlijn-2013-34-eu",
+        "naam": {"primair": "Richtlijn 2013/34/EU — Europees minimumkader"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Richtlijn 2013/34/EU van het Europees Parlement en de Raad (26 juni 2013) is het overkoepelende EU-kader voor de jaarlijkse financiële overzichten van bepaalde ondernemingsvormen. Ze vervangt de oude Vierde Richtlijn (78/660/EEG — vennootschapsrekeningen) en Zevende Richtlijn (83/349/EEG — geconsolideerde rekeningen). Ze bevat de groottecriteria (micro/klein/middelgroot/groot) waarop het Belgisch onderscheid tussen schema-types berust, alsook regels rond beperkingen op vrijstellingen voor 'organisaties van openbaar belang' (art. 40). De Belgische wet- en regelgever heeft die richtlijn omgezet via WER Boek III en KB 29-04-2019.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 1 (toepassingsgebied)"},
+                {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "art. 40 (beperking vrijstellingen organisaties openbaar belang)"},
+                {"type": "richtlijn", "naam": "Richtlijn 2013/34/EU", "ref": "bijlage VII (concordantietabel met oude richtlijnen 78/660/EEG en 83/349/EEG)"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "actoren-rol",
+        "naam": {"primair": "Spelers in het Belgisch boekhoud-ecosysteem"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Naast de wetgever spelen verschillende instellingen een rol in het functioneren en de evolutie van het Belgisch boekhoudrecht: NBB-Balanscentrale (verplichte publicatie van jaarrekeningen in XBRL-formaat), CBN (Commissie voor Boekhoudkundige Normen — adviezen op vraag of eigen initiatief), griffies van de ondernemingsrechtbank (neerlegging vennootschapsakten — niet jaarrekening), ITAA (Institute for Tax Advisors & Accountants — beroepsorde van gecertificeerd accountants en belastingadviseurs sinds fusie IAB+BIBF 2020), IBR (Instituut van de Bedrijfsrevisoren — toezicht op revisoren), FSMA (autoriteit voor financiële markten — toezicht op beursgenoteerden + adviesrecht op uitvoeringsbesluiten m.b.t. financiële markten), CRB (Centrale Raad voor het Bedrijfsleven — overlegorgaan met advies-rol). De NBB-Balanscentrale + CBN zijn de dagelijkse aanspreekpunten voor de accountant.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek van Economisch Recht", "ref": "art. VII.220", "context": "Uitvoeringsbesluiten m.b.t. betalings- en kredietdiensten worden genomen op advies van de FSMA"},
+                {"type": "norm", "naam": "ITAA-norm gedragslijnen relaties IBR", "ref": "gedragslijnen-relaties-iab-ibr-bibf"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese rol-verdeling NBB / CBN / griffies / ITAA / IBR / FSMA / CRB — standaardleer Belgisch boekhoudrecht"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-bronraadpleging",
+        "titel": "Praktijkvraag oplossen via bronhiërarchie: afschrijving van software",
+        "context": "Een stagiair vraagt zich af welke afschrijvingstermijn hij moet hanteren voor een gekocht softwarepakket van 10.000 EUR (immaterieel vast actief, 5 jaar economisch nut).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld bronraadpleging-volgorde"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — eerst de WET: WER Boek III bepaalt enkel de algemene plicht tot afschrijving (geen termijn).",
+              "Stap 2 — dan het KB 29-04-2019: art. 3:6 e.v. stelt dat afschrijving 'systematisch en volgens een vooraf opgesteld plan' gebeurt over de economische gebruiksduur. Geen specifieke termijn voor software.",
+              "Stap 3 — geen Ministerieel Besluit of circulaire ter zake.",
+              "Stap 4 — CBN-advies: CBN-advies 2012/13 'Afschrijving immateriële vaste activa' geeft als standaardpraktijk 3 à 5 jaar voor software, mits onderbouwd in de waarderingsregels.",
+              "Stap 5 — kies 5 jaar conform economische gebruiksduur; documenteer in de waarderingsregels van de onderneming.",
+              "Stap 6 — jaarlijkse afschrijving = 10.000 / 5 = 2.000 EUR; boeking: 6302 Afschrijvingen immateriële vaste activa 2.000 D / 2109 Geboekte afschrijvingen 2.000 C."
+            ],
+            "resultaat": "Boekhoudkundig: jaarlijkse afschrijving van 2.000 EUR over 5 jaar. Concrete boeking gebruikt MAR-rekeningen 6302 (klasse 6, afschrijvingen) → 2109 (klasse 2, geboekte afschrijvingen — corrigerend element op het actief)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-buitenlandse-vennootschap-bijkantoor",
+        "titel": "Toepassingsgebied: buitenlandse vennootschap met Belgisch bijkantoor",
+        "context": "Een Nederlandse BV opent een verkoopkantoor in Antwerpen (geen aparte rechtspersoon, juridisch onderdeel van de Nederlandse BV). Welk boekhoudrecht geldt?",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2022/14", "context": "Toepassingsgebied B-GAAP op bijkantoren buitenlandse vennootschappen"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2022/15"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Antwoord: B-GAAP is van toepassing op de in België gevestigde activiteit (het bijkantoor te Antwerpen). De Nederlandse hoofdvestiging zelf valt onder Nederlands jaarrekeningenrecht. Het bijkantoor moet:\n\n- een eigen boekhouding voeren in België (dubbele boekhouding indien niet-micro);\n- een eigen jaarrekening opstellen volgens B-GAAP (schema's KB 29-04-2019);\n- neerleggen bij de NBB-Balanscentrale.\n\nAls de Nederlandse BV meerdere Belgische bijkantoren heeft, worden die boekhoudkundig (niet juridisch) als één onderneming beschouwd — één geconsolideerde Belgische jaarrekening voor alle Belgische bijkantoren samen (CBN 2022/15)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-cbn-advies-niet-bindend",
+        "titel": "Praktijkdilemma: CBN-advies vs eigen interpretatie",
+        "context": "Een onderneming heeft een verrichting die niet uitdrukkelijk in WER/KB/MB geregeld is. CBN-advies 2018/25 geeft een specifieke boekingsmethode (voorziening voor grote herstellingswerken, klasse 6360 → 162). Mag de accountant daarvan afwijken?",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2018/25", "context": "Voorzieningen voor grote herstellingswerken — concrete boekingsmethode"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "CBN-adviezen zijn niet juridisch bindend maar in praktijk quasi-bindend door bewijslast bij afwijking"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Juridisch: CBN-adviezen zijn niet bindend. In de praktijk: ze gelden als de meest gezaghebbende interpretatie. Afwijken kan, maar verschuift de bewijslast naar de onderneming: 'waarom uw boeking een getrouw beeld geeft ondanks de afwijking van CBN-doctrine'. Bij een fiscale controle of audit zal een afwijking systematisch worden bevraagd. Vuistregel: volg CBN tenzij sterke onderbouwing voor het tegendeel + documenteer de afweging in de toelichting bij de jaarrekening.\n\nVoorbeeld-boeking CBN 2018/25 — jaarlijkse dotatie voorziening grote herstellingswerken (5.200 EUR):\n\n| | Rekening | Omschrijving | Debet | Credit |\n|---|----------|--------------|-------|--------|\n| | 6360 | Voorzieningen grote herstellingswerken: Toevoeging | 5.200 | |\n| aan | 162 | Voorzieningen voor grote herstellingswerken | | 5.200 |"
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Boekhoudwet 1975 'volledig opgeheven' denken",
+        "verkeerde_assumptie": "Sinds de integratie in WER Boek III is de Boekhoudwet 17-07-1975 volledig opgeheven en niet meer relevant.",
+        "kernpunt": "De Boekhoudwet 1975 werd grotendeels overgeheveld naar WER Boek III, maar CBN-adviezen en doctrine blijven naar de oude Boekhoudwet verwijzen omdat de inhoud ongewijzigd bleef. Een accountant moet beide referenties kunnen lezen — een WER-art.-nummer en het oude Boekhoudwet-artikel kunnen naast elkaar voorkomen in dezelfde casus.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2010/20", "context": "CBN verwijst expliciet naar 'wet van 17 juli 1975'"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "B-GAAP en IFRS door elkaar gebruiken voor enkelvoudige jaarrekening",
+        "verkeerde_assumptie": "Voor een Belgische beursgenoteerde onderneming geldt IFRS overal — inclusief de enkelvoudige jaarrekening.",
+        "kernpunt": "IFRS is verplicht voor de GECONSOLIDEERDE jaarrekening van beursgenoteerde ondernemingen (IAS-Verordening 1606/2002). De ENKELVOUDIGE jaarrekening (vennootschappelijk) blijft in België onder B-GAAP. Beide stelsels naast elkaar — de geconsolideerde jaarrekening is een aparte rapportering bovenop, niet ter vervanging van, de B-GAAP-jaarrekening.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IAS-Verordening 1606/2002 + Belgische omzetting — geconsolideerd verplicht IFRS, enkelvoudig blijft B-GAAP"}
+          ]
+        }
+      },
+      {
+        "titel": "CBN-advies als 'soft law' onderschatten",
+        "verkeerde_assumptie": "CBN-adviezen zijn niet bindend, dus mag ik ze gerust naast me neerleggen.",
+        "kernpunt": "Niet-bindend in juridische zin, maar quasi-bindend in praktijk: fiscus, NBB, commissaris en confraters baseren zich erop. Afwijken is mogelijk maar legt de bewijslast bij de afwijkende partij. Een advies negeren zonder gedocumenteerde reden is professioneel risicovol.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "alternatief_referentiestelsel",
-      "target": "ifrs"
+      "id": "kantoor-met-clienten",
+      "naam": {"primair": "Eigen kantoor met cliënten-portefeuille"},
+      "intro": "Het accountantskantoor moet voor elke cliënt B-GAAP correct toepassen — bij elke verrichting valt te beslissen: welke wet/KB/MB/circulaire/CBN-advies dekt dit, en welke boeking volgt eruit?",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "bronraadpleging-discipline",
+              "naam": {"primair": "Bronraadpleging-discipline bij elke ongebruikelijke verrichting"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Volgorde bij twijfel: (1) zoek in WER Boek III en KB 29-04-2019 of de verrichting expliciet geregeld is; (2) check CBN-adviezen via cbn-cnc.be (chronologisch + thematisch); (3) raadpleeg ITAA-publicaties en handboeken; (4) bij blijvende twijfel — formele vraag aan CBN of advies van confrater. Documenteer de bronraadpleging in het dossier: bij latere controle of audit moet de redenering reproduceerbaar zijn.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk ITAA-kantoor"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "stelselkeuze-uitleg",
+              "naam": {"primair": "Uitleg aan cliënt over B-GAAP-keuze vs IFRS"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij een groeiende KMO die overweegt te internationaliseren of een investeerder aan boord te halen: leg uit dat de Belgische enkelvoudige jaarrekening altijd B-GAAP blijft (wettelijke verplichting), maar dat een parallelle IFRS-rapportering nuttig kan zijn voor externe stakeholders (banken, private equity). Vermijd 'IFRS-light' improvisaties — als je IFRS-cijfers wilt presenteren, doe het volgens de standaard, anders verlies je geloofwaardigheid.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk groeiende KMO"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-conformiteits-toets",
+              "naam": {"primair": "Conformiteits-toets bij audit/controle-opdracht"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij een controle- of beoordelingsopdracht: ga systematisch na of de jaarrekening voldoet aan WER Boek III + KB 29-04-2019: (a) correct schema (volledig/verkort/micro op basis van groottecriteria); (b) MAR-conforme rekeningen; (c) waarderingsregels gedocumenteerd in toelichting; (d) tijdige neerlegging NBB. Afwijkingen rapporteren in management letter of auditverslag.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB 29-04-2019", "ref": "Boek 3 schema's"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "boekhouding"},
+    {"type": "alternatief_referentiestelsel", "target": "ifrs"},
+    {"type": "bevat", "target": "boekhoudbeginselen", "toelichting": "De materiële beginselen (voorzichtigheid, matching, continuïteit, ...) zijn de inhoudelijke kern van B-GAAP, maar krijgen een eigen record voor leespad-coherentie."},
+    {"type": "bevat", "target": "boekhoudplicht", "toelichting": "Wie moet boekhouden volgens B-GAAP — eigen record voor scope-vragen + groottecriteria."},
+    {"type": "bevat", "target": "jaarrekening", "toelichting": "Het belangrijkste eindproduct van B-GAAP — eigen record voor schema's, presentatie en analyse."}
   ]
 }
