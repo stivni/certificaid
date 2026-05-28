@@ -1,22 +1,33 @@
 {
   "id": "aanslag-cyclus",
   "naam": {
-    "primair": "Aanslagcyclus"
+    "primair": "Aanslagcyclus",
+    "synoniemen": ["aanslagprocedure", "fiscale cyclus per aanslagjaar"]
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "2.5.II"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis"],
+    "ankers": ["2.5.II"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/aanslag-cyclus.json",
+      "primary_bronnen": [
+        "WIB92 art. 305",
+        "WIB92 art. 339",
+        "WIB92 art. 346",
+        "WIB92 art. 351",
+        "WIB92 art. 353",
+        "WIB92 art. 354",
+        "WIB92 art. 358",
+        "WIB92 art. 376"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -25,6 +36,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud gevuld: aangifte → onderzoek → wijziging → vestiging → inkohiering → kennisgeving + mermaid-tijdslijn + 3 aanslagsoorten."
       }
     ],
     "scope": {
@@ -55,28 +73,252 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "De aanslagcyclus is de gestructureerde reeks stappen die de fiscus doorloopt om voor een gegeven aanslagjaar de belasting te vestigen, in te kohieren en aan de belastingplichtige ter kennis te brengen. De cyclus start bij de aangifte door de belastingplichtige (of het ontbreken ervan) en eindigt bij de uitvoerbare titel die de basis vormt voor invordering en eventueel bezwaar.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 305" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 351" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardprocedure-synthese" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair is de aanslagcyclus de 'kalender' van fiscaal recht: hij vertelt wat wanneer gebeurt, wat de fiscus moet doen, wat de belastingplichtige kan/moet doen, en welke termijnen lopen. Inkohiering is het sleutelmoment — daarvoor bestaat de schuld nog niet als opeisbare titel, daarna wel. De berichten van wijziging (art. 346) en aanslag van ambtswege (art. 351) zijn de twee centrale 'communicatie-momenten' waarop een cliënt dringend juridisch advies nodig heeft.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 346" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 351" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["aangifteplicht"],
+      "kader": "fiscale-procedure",
+      "volgkennis": ["aanslagtermijnen", "bezwaarprocedure", "invorderingsprocedure"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 Titel VII (vestiging en inning van de belastingen)"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "stap1-aangifte",
+        "naam": { "primair": "Stap 1 — Aangifte" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige dient binnen de wettelijke termijn de aangifte in (art. 305 WIB92 e.v.). Bij niet- of laattijdige aangifte: de fiscus kan ambtshalve aanslagen (art. 351).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 305" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap2-onderzoek",
+        "naam": { "primair": "Stap 2 — Onderzoek" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscus controleert de aangifte op interne coherentie en vergelijkt met externe informatie (loonopgaven 281-bestanden, bankgegevens via CAP, gegevensuitwisseling internationale verdragen). Op basis daarvan kan onderzoek volgen: vraag om inlichtingen (art. 316 WIB92), boekenonderzoek ter plaatse (art. 315 WIB92 voor btw, art. 322 voor PB/VenB), vraag aan derden (art. 322).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 315" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 316" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 322" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap3-wijziging",
+        "naam": { "primair": "Stap 3 — Bericht van wijziging (indien correctie)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Wenst de fiscus de aangifte te corrigeren, dan stuurt hij eerst een bericht van wijziging (art. 346 WIB92) waarin hij de voorgenomen aanpassingen motiveert. De belastingplichtige heeft 1 maand (verlengbaar bij gemotiveerd verzoek) om opmerkingen te formuleren. Slechts na dit overleg kan de fiscus de gewijzigde aanslag vestigen. Het bericht van wijziging is een waarborg-mechanisme: zonder bericht is een gewijzigde aanslag ongeldig (vormvereiste, vernietigbaar).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 346" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap4-vestiging",
+        "naam": { "primair": "Stap 4 — Vestiging van de aanslag" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De ambtenaar vestigt de aanslag — dit is de juridische beslissing die het belastingbedrag bepaalt. Voor PB en VenB binnen de aanslagtermijn van art. 353 WIB92 (3, 5 of 10 jaar). Vestiging gebeurt door opname van de aanslag in een 'kohier' (lijst van aanslagen).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 353" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 354" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap5-inkohiering",
+        "naam": { "primair": "Stap 5 — Inkohiering" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Inkohiering = opname van de aanslag in het kohier door de bevoegde ambtenaar, met datum. Dit is het juridisch sleutelmoment: vanaf de inkohiering bestaat een uitvoerbare titel — de fiscus kan invorderen. Tevens beginnen vanaf hier de termijnen voor betaling (2 maanden) en voor bezwaar (binnen 1 jaar volgens art. 371 WIB92). Het kohier moet uitvoerbaar verklaard zijn door de bevoegde ambtenaar voor het rechtskracht heeft.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 304" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 371", "context": "Bezwaartermijn vanaf datum verzending aanslagbiljet" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap6-kennisgeving",
+        "naam": { "primair": "Stap 6 — Kennisgeving (aanslagbiljet)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Het aanslagbiljet wordt naar de belastingplichtige verzonden (papier of MyMinFin-eBox). Het vermeldt het ingekohierd bedrag, de wettelijke vermelding 'binnen 2 maanden betalen', informatie over bezwaarrecht en termijnen. De datum van verzending (poststempel of elektronische ontvangstbevestiging) start de bezwaartermijn van 1 jaar (art. 371 WIB92).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 371" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanslagsoort-gewone",
+        "naam": { "primair": "Gewone aanslag" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De gewone aanslag vloeit voort uit een normale aangifte zonder geschil. De fiscus aanvaardt de aangifte en vestigt de aanslag binnen de gewone termijn (art. 353 WIB92, in beginsel uiterlijk 30 juni van het jaar na het aanslagjaar; verlengd tot 31 december indien laattijdige aangifte vóór verzending aanslag van ambtswege).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 353" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanslagsoort-ambtshalve",
+        "naam": { "primair": "Aanslag van ambtswege" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscus raamt zelf de belastbare grondslag wanneer de belastingplichtige niet of laattijdig aangeeft, niet antwoordt op vragen om inlichtingen, of de boekhouding niet voorlegt (art. 351 WIB92). Belangrijkste gevolg: omkering van de bewijslast — de belastingplichtige moet bewijzen dat de raming overdreven is. Voor de accountant: voorkom ambtshalve aanslagen door tijdig aangifte en correct antwoord op vragen om inlichtingen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 351" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aanslagsoort-supplementaire",
+        "naam": { "primair": "Supplementaire aanslag" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een supplementaire (aanvullende) aanslag wordt gevestigd wanneer na een eerste aanslag bijkomende belastbare inkomsten of een fout aan het licht komen. Mogelijk binnen de aanslagtermijn (3 jaar, of 5 jaar bij niet-aangifte, of 10 jaar bij fraude — art. 354 WIB92). Buiten deze termijn enkel in specifieke gevallen (art. 358 WIB92: rechtspraak HvJ EU, ontdoken aanslag, ...).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 354" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 358" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-tijdslijn",
+        "titel": "Aanslagcyclus — tijdslijn AJ 2026",
+        "context": "Aurelia Holding NV — boekjaar = kalenderjaar 2025. Aangifte VenB voor aanslagjaar 2026.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 353" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactische tijdslijn — exacte termijnen verifiëren in Cijferzakboekje" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tijdslijn",
+            "stappen": [
+              "31-12-2025 — einde boekjaar Aurelia",
+              "1-1-2026 — start aanslagjaar 2026, begin aanslagtermijn (3 jaar tot 31-12-2028)",
+              "Voorjaar 2026 — algemene vergadering keurt jaarrekening goed",
+              "Binnen 6 m na einde boekjaar — aangifte VenB via Biztax (uiterlijk 30-09-2026 in deze case)",
+              "Najaar 2026 — eventuele vraag om inlichtingen of bericht van wijziging (art. 346)",
+              "Vóór 30-06-2027 — vestiging gewone aanslag binnen 'gewone' deadline art. 353",
+              "Verzending aanslagbiljet — vanaf datum verzending: 2 m betalen + 1 j bezwaartermijn",
+              "Tot 31-12-2028 — fiscus kan binnen aanslagtermijn nog supplementaire aanslagen vestigen (5 j bij niet-aangifte; 10 j bij fraude)"
+            ]
+          },
+          {
+            "type": "proza",
+            "tekst": "```mermaid\nflowchart LR\n  A[Aangifte] --> B[Onderzoek]\n  B -->|akkoord| C[Vestiging]\n  B -->|wijziging nodig| D[Bericht van wijziging art. 346]\n  D --> E[1 maand reactietermijn]\n  E --> C\n  A -.->|geen of laat| F[Aanslag van ambtswege art. 351]\n  F --> C\n  C --> G[Inkohiering]\n  G --> H[Aanslagbiljet kennisgeving]\n  H --> I[2 m betalen / 1 j bezwaar]\n```"
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Aanslagbiljet = uitvoerbare titel",
+        "verkeerde_assumptie": "Studenten verwarren het aanslagbiljet met de uitvoerbare titel.",
+        "kernpunt": "De uitvoerbare titel ontstaat door inkohiering (opname in het kohier door de bevoegde ambtenaar). Het aanslagbiljet is enkel de kennisgeving aan de belastingplichtige. Een aanslagbiljet zonder voorafgaande geldige inkohiering is nietig.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 304" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Bericht van wijziging negeren",
+        "verkeerde_assumptie": "Een bericht van wijziging is enkel informatief — geen reactie nodig.",
+        "kernpunt": "Niet reageren binnen de 1 maand (art. 346) verzwakt de positie van de belastingplichtige aanzienlijk: de fiscus mag de voorgestelde correctie doorvoeren en de belastingplichtige moet later in bezwaar zelf bewijzen dat de correctie onjuist is. Altijd reageren — gemotiveerd, met cijfers en stukken.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 346" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
-    },
-    {
-      "type": "triggert",
-      "target": "invorderingsprocedure"
-    }
+    { "type": "valt_onder", "target": "fiscale-procedure" },
+    { "type": "triggert", "target": "invorderingsprocedure" }
   ]
 }
