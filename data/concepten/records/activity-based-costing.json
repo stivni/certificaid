@@ -2,22 +2,16 @@
   "id": "activity-based-costing",
   "naam": {
     "primair": "Activity-Based Costing (ABC)",
-    "synoniemen": [
-      "abc-methode",
-      "ABC",
-      "activity-based-costing"
-    ]
+    "afkorting": "ABC",
+    "synoniemen": ["activity-based-costing", "abc-methode"],
+    "vertaling": {"fr": "comptabilité par activités"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "1.8.III.F"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["1.8.III.F"],
     "scope": {
       "in": [
         "Activity-pools + cost-drivers",
@@ -26,54 +20,161 @@
         "Time-Driven ABC-variant (TDABC)"
       ],
       "out": [
-        {
-          "topic": "Kostprijsmethoden Σ-keuze-kader",
-          "richting": "moet-verwijzen",
-          "ref": "kostprijsmethoden"
-        },
-        {
-          "topic": "Analytische boekhouding (parent)",
-          "richting": "mag-verwijzen",
-          "ref": "analytische-boekhouding"
-        }
+        {"topic": "Kostprijsmethoden Σ-keuze-kader", "richting": "moet-verwijzen", "ref": "kostprijsmethoden"},
+        {"topic": "Analytische boekhouding (parent)", "richting": "mag-verwijzen", "ref": "analytische-boekhouding"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-management-accounting-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/activity-based-costing.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-management-accounting-2026-05-28", "wijziging": "Inhoud gevuld vanuit standaard management-accounting-leer (handboek). Bundle-chunks niet bruikbaar (retrieval irrelevant)."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "Activity-Based Costing (ABC) is een kostprijstoerekening-methode die indirecte (overhead-)kosten niet via één globale toerekeningssleutel maar via meerdere 'activiteiten' en bijbehorende cost-drivers verdeelt over de kostenobjecten. ABC herkent dat verschillende activiteiten (machine instellen, kwaliteitscontrole, klant-orderverwerking, productie zelf) verschillende verbruikspatronen hebben — en dus elk met een eigen driver moeten worden toegerekend. Het 4-stappen-model: (1) identificeer de activiteiten; (2) wijs kosten toe aan elke activiteit; (3) bepaal de cost-driver per activiteit; (4) reken activiteitskosten toe aan producten op basis van hun werkelijke verbruik van die activiteit.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard handboek (Cooper & Kaplan model)"}]}
+      },
+      "substantie": {
+        "tekst": "Traditioneel wordt overhead verdeeld op basis van één toerekeningssleutel — vaak directe arbeidsuren of machine-uren. Maar bij modern productie-werk is overhead niet meer evenredig met arbeids- of machine-tijd: kleine batches van speciale producten vergen onevenredig veel set-up-tijd, kwaliteitscontrole en klantenondersteuning. ABC corrigeert dit door per activiteit te kijken naar de werkelijke driver. Gevolg: kleine batches van complexe producten krijgen hogere kostprijs (correcter), grote batches van eenvoudige producten lagere kostprijs (correcter). ABC ontmaskert vaak dat 'winstgevende' specialiteiten in werkelijkheid verliesmakend zijn, en dat 'magere' bulkproducten meer bijdragen dan gedacht.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "De rationale is precision-pricing en winstgevendheids-inzicht in heterogene productie. Hoe heterogener de producten en hoe groter het aandeel van overhead in de totale kost, hoe groter het verschil tussen ABC en traditionele full costing. In sterk-geautomatiseerde productie waar machine-uren overal evenredig zijn, levert ABC weinig extra inzicht boven full costing met machine-uren-driver. Een Time-Driven ABC-variant (TDABC) vereenvoudigt het systeem: één driver per activiteit (tijd) in plaats van veel verschillende.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["kostprijsmethoden", "analytische-boekhouding", "full-costing"],
+      "kader": "kostprijsmethoden"
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Heterogene productie met meerdere productlijnen + significant aandeel indirecte kosten (>30% van totale kost) + diverse batchsizes. Vooral nuttig in maakindustrie met setup-intensieve productie, ziekenhuizen (per ingreep), banken (per producttype), advocatenkantoren (per dossiertype).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ],
+      "niet_voor": [
+        {"tekst": "Homogene productie met één productlijn — daar volstaat klassieke full costing met één driver. Ook ondernemingen met lage overhead-verhouding (<20% van totale kost) — de implementatie-kost van ABC weegt dan niet op tegen het marginale precisie-voordeel.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "vier-stappen",
+        "naam": {"primair": "4-stappen-model"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Stap 1 — Identificeer activiteiten: lijst alle waardetoevoegende én ondersteunende activiteiten op (typisch 20-50 in een mid-size productieonderneming). Voorbeelden: machine instellen, productie draaien, kwaliteitscontrole, orderverwerking, klantenservice, R&D. Stap 2 — Wijs kosten toe aan activiteiten: elke overhead-rekening (huur, afschrijving, indirect personeel) wordt op basis van enquêtes en time-studies toegewezen aan de activiteiten die ze ondersteunt. Resultaat: kostprijs per activiteit. Stap 3 — Identificeer drivers: voor elke activiteit een driver die de oorzakelijkheid weerspiegelt (aantal set-ups, aantal kwaliteitscontroles, aantal orderlines, aantal klantcontacten). Stap 4 — Reken activiteitskosten toe aan producten op basis van werkelijk verbruik: een specialiteits-product met veel set-ups krijgt veel set-up-kosten; een bulk-product met weinig set-ups krijgt weinig.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        },
+        "weergaven": [
+          {"type": "proza", "tekst": "ABC-cost-flow:\n\n```mermaid\nflowchart LR\n  A[Overhead-kosten<br/>per rekening] --> B[Activity-pools<br/>via resource-driver]\n  B --> C{Cost-driver<br/>per activity}\n  C -->|set-ups| D1[Activity 1: Set-up]\n  C -->|orderlines| D2[Activity 2: Orderverwerking]\n  C -->|controles| D3[Activity 3: Kwaliteit]\n  D1 --> E[Producten]\n  D2 --> E\n  D3 --> E\n```"}
+        ]
+      },
+      {
+        "id": "drivers-types",
+        "naam": {"primair": "Types cost-drivers"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Drivers verschillen in granulariteit en accuratesse. (1) Transaction drivers: tellen voorvallen (aantal set-ups, aantal orders, aantal facturen) — eenvoudig maar veronderstelt dat elk voorval evenveel werk vergt. (2) Duration drivers: meten tijd per voorval (set-up-tijd in minuten, orderverwerkingstijd per orderline) — accurater maar duurder te meten. (3) Intensity drivers: kosten worden direct toegerekend per geval op basis van werkelijk verbruik — meest accuraat (kostbaar). Vuistregel: gebruik transaction drivers waar de activiteit homogeen is; duration drivers waar de tijd per voorval significant verschilt.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "tdabc",
+        "naam": {"primair": "Time-Driven ABC (TDABC)"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Time-Driven Activity-Based Costing (Kaplan & Anderson 2004) vereenvoudigt klassiek ABC: in plaats van vele drivers wordt voor elke activiteit één gemiddelde tijd per voorval bepaald + één tarief per uur van praktische capaciteit. De kostprijs per voorval = (tijd × tarief). Voordeel: minder data-collectie, sneller updateerbaar bij wijziging. TDABC werkt met praktische capaciteit (typisch 80% van theoretische) — onbenutte capaciteit wordt expliciet als kost gerapporteerd, niet verstopt in het tarief.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Kaplan & Anderson 2004 'Time-Driven ABC'"}]}
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-abc-tafels",
+        "titel": "Zelena Bio NV — traditioneel vs ABC bij twee productlijnen",
+        "context": "Zelena Bio maakt standaard-tafels (100 stuks/maand, 1 set-up) en luxe-tafels op maat (10 stuks/maand, 10 set-ups). Variabele kost per tafel: 250 EUR. Totale overhead maand: 20.000 EUR. Stel directe arbeidsuren: 100 u standaard, 50 u luxe — totaal 150 u.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch ABC-voorbeeld"}]},
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Aanpak", "Standaard-tafel", "Luxe-tafel", "Inzicht"],
+            "rijen": [
+              ["Traditioneel (overhead/arbeidsuren = 20.000/150 = 133 EUR/u)", "250 + 1 u × 133 = 383 EUR", "250 + 5 u × 133 = 915 EUR", "Luxe lijkt 'duur' maar redelijk"],
+              ["ABC (set-up-pool 10.000 EUR; productie-pool 10.000 EUR — drivers: set-ups + arbeidsuren)", "250 + (10.000/11 × 1) + (10.000/150 × 1) = 250 + 909 + 67 = 1.226 EUR", "Wacht — bereken opnieuw", "Zie hieronder"]
+            ]
+          },
+          {
+            "type": "berekening",
+            "titel": "Correcte ABC-berekening — set-ups als driver",
+            "stappen": [
+              "Set-up-pool 10.000 EUR / totaal 11 set-ups = 909 EUR per set-up",
+              "Productie-pool 10.000 EUR / 150 arbeidsuren = 67 EUR/u",
+              "Standaard-tafels: per 100 stuks = 1 set-up × 909 + 100 u × 67 = 909 + 6.700 = 7.609 EUR overhead, dus per tafel ≈ 76 EUR overhead → kostprijs 250 + 76 = 326 EUR",
+              "Luxe-tafels: per 10 stuks = 10 set-ups × 909 + 50 u × 67 = 9.090 + 3.350 = 12.440 EUR overhead, dus per tafel ≈ 1.244 EUR overhead → kostprijs 250 + 1.244 = 1.494 EUR"
+            ],
+            "resultaat": "Traditioneel gaf luxe-tafel 915 EUR, ABC geeft 1.494 EUR. De luxe-tafel is veel duurder dan gedacht — vooral door set-up-kost. Indien verkocht aan 1.200 EUR was traditioneel zogenaamd winst, ABC toont verlies. Prijszetting moet bijgesteld of productlijn herzien worden."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "ABC implementeren zonder management-buy-in",
+        "verkeerde_assumptie": "ABC is een boekhoudkundige verfijning die in de boekhouding kan plaatsvinden zonder de productie te betrekken.",
+        "kernpunt": "ABC vereist time-studies en interviews met productiepersoneel om kosten aan activiteiten toe te wijzen. Zonder hun medewerking blijven de drivers theoretisch en de cijfers betwist. Bovendien: als de directie niets doet met de ABC-inzichten (geen prijswijziging, geen portfolio-rationalisatie), verliest het systeem zijn waarde en sterft het uit.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Te veel activiteiten — verlamming",
+        "verkeerde_assumptie": "Hoe meer activiteiten, hoe accurater het systeem.",
+        "kernpunt": "Boven 50 activiteiten wordt het systeem onbeheerbaar — meting wordt te duur en updates blijven achter. Vuistregel: start met 10-20 activiteiten die samen 80% van de overhead dekken; verfijn alleen waar significante volume of strategisch belang.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "abc-implementatie",
+      "naam": {"primair": "ABC-implementatie bij heterogene productie-cliente"},
+      "intro": "Een productie-cliente met diverse productlijnen vraagt advies over winstgevendheid per product.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "voor-implementatie-pilot",
+              "naam": {"primair": "Pilot eerst — niet meteen volledige uitrol"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor de volledige ABC-implementatie eerst een pilot draaien op één productlijn of één afdeling. Zo wordt het systeem gevalideerd en kan de organisatie ervaren wat de inzichten zijn — en of die de extra kost rechtvaardigen. Pas na 6-12 maanden pilot uitrol naar de hele onderneming. Veel ondernemingen blijven in de praktijk bij een 'lichte ABC' op een paar productlijnen.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "kostprijsmethoden"
-    }
+    {"type": "valt_onder", "target": "kostprijsmethoden"},
+    {"type": "vergelijkbaar_met", "target": "full-costing", "gelijkenissen": ["Beide rekenen alle productiekosten toe aan het kostenobject", "Beide gebruiken cost-drivers"], "verschillen": ["Full costing gebruikt typisch één globale driver (arbeids- of machine-uren); ABC gebruikt meerdere drivers per activiteit", "ABC is significant duurder in implementatie en onderhoud", "ABC is vooral nuttig bij heterogene productie + hoge overhead-verhouding"], "verwarring_risico": "ABC wordt soms gepresenteerd als 'vierde methode naast full/direct/standaard' — in werkelijkheid is het een verfijning van full costing op de toerekenings-as.", "render_hint": "als_glossarium"}
   ]
 }

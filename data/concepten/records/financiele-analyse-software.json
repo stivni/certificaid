@@ -1,25 +1,16 @@
 {
   "id": "financiele-analyse-software",
   "naam": {
-    "primair": "Financiële-analyse-software (IT-tools)",
-    "synoniemen": [
-      "financiële-analyse-tools",
-      "Companyweb"
-    ]
+    "primair": "Financiële-analyse-software",
+    "synoniemen": ["financial analysis tools", "JR-analyse-platformen"],
+    "vertaling": {"en": "financial analysis software", "fr": "logiciels d'analyse financière"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.9.VII",
-      "1.9.VII.A",
-      "1.9.VII.B",
-      "1.9.VII.C"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.9.VII", "1.9.VII.A", "1.9.VII.B", "1.9.VII.C"],
     "scope": {
       "in": [
         "Belfius Companyweb · Trends Top · NBB-API",
@@ -29,54 +20,103 @@
         "Output-interpretatie (geen blind-vertrouwen op tool)"
       ],
       "out": [
-        {
-          "topic": "Ratio-interpretatie (methodologie)",
-          "richting": "moet-verwijzen",
-          "ref": "ratio-interpretatie"
-        },
-        {
-          "topic": "Jaarrekeninganalyse Σ (overkoepelend)",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekeninganalyse"
-        }
+        {"topic": "Ratio-interpretatie (methodologie)", "richting": "moet-verwijzen", "ref": "ratio-interpretatie"},
+        {"topic": "Jaarrekeninganalyse Σ (overkoepelend)", "richting": "moet-verwijzen", "ref": "jaarrekeninganalyse"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/financiele-analyse-software.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T15:40:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "Software-record uitgewerkt: Belfius Companyweb, Trends Top, NBB-API, Excel-modelling, output-discipline."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
-          ]
+        "tekst": "Financiële-analyse-software bundelt het ecosysteem van tools dat de accountant gebruikt om jaarrekeningen te analyseren en te benchmarken. Drie hoofd-categorieën in de Belgische praktijk: (1) commerciële platformen — Belfius Companyweb, Trends Top, Graydon, Coface — leveren kant-en-klare ratio-bibliotheek, peer-vergelijking, kredietrating en sector-benchmarks; (2) NBB-bronnen — Balanscentrale (jaarrekeningen) + sector-aggregaten + API voor bulk-toegang; (3) spreadsheet-modelling — Excel of Google Sheets met eigen ratio-template, vrij maatwerk maar tijdsintensief. De keuze hangt af van volume (occasioneel vs portfolio), benodigde diepgang en budget.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Belgische accountancy-praktijk — ITAA-handboek"}]}
+      },
+      "substantie": {
+        "tekst": "Software vervangt het rekenwerk maar niet het denkwerk. Een Companyweb-rapport levert in 30 seconden 40 ratio's + sector-vergelijking — wat de accountant 2 uur Excel zou kosten. Het uitleg-gedeelte ('het bedrijf scoort onder sector-gemiddelde op liquiditeit') is echter algoritme-gegenereerd en mist nuance. De accountant moet de output kunnen lezen, toetsen op consistentie, en zelf de diagnose schrijven — niet de tekst van het rapport copy-pasten. Belangrijk: tools zijn niet uniform — Companyweb en Trends Top kunnen verschillende ratio-definities en sector-indelingen hebben, wat tot uiteenlopende oordelen leidt over hetzelfde bedrijf.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Waarom een eigen procedure naast de methodologie? Omdat efficiënt tool-gebruik een eigen vaardigheid is: weten welke tool waarvoor geschikt is, hoe data te importeren (Excel-export, CSV, XBRL via NBB-API), hoe ratio-definities tussen tools te reconciliëren, en vooral: hoe de output kritisch te lezen. Zonder deze tool-discipline verdwaalt de accountant tussen rapporten of vertrouwt hij blind algoritme-conclusies. Bovendien stelt het examenprogramma expliciet vragen over kennis van deze tools (PO 1.9 VII).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["jaarrekeninganalyse"],
+      "naast_relevant": ["ratio-interpretatie", "financiele-diagnose"],
+      "volgkennis": ["financiele-diagnose"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Snelle eerste-orde-screening bij nieuwe cliënt of due-diligence — Companyweb-rapport in 5 minuten.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Sector-benchmark bouwen voor diagnose-rapport — NBB-aggregaten + commerciële tools combineren.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+        {"tekst": "Portfolio-monitoring voor commissaris of bank — geautomatiseerde rating + alerts bij verslechtering.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "belfius-companyweb",
+        "naam": {"primair": "Belfius Companyweb"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {"tekst": "Belgisch platform met JR-database (~500.000 BE-vennootschappen) + 40 ingebouwde ratio's + 5-jaar-trends + sector-peer-vergelijking + kredietrating + alarmsignalen (RSZ/btw achterstanden). Abonnementen variëren van occasioneel-rapport tot enterprise. Sterk in: peer-vergelijking, kredietrating, alarmen. Beperkt in: maatwerk-analyses, IFRS-cijfers.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "trends-top",
+        "naam": {"primair": "Trends Top"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {"tekst": "Belgisch platform van Mediafin (Trends/Tendances magazine). Database JR + sector-rangschikkingen + Top-200-lijsten + commerciële intelligence. Sterk in: sector-rangschikkingen, commerciële context (sales lead generation), trend-analyses. Beperkt voor: pure financiële diagnose (Companyweb is daarin sterker).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "nbb-balanscentrale",
+        "naam": {"primair": "NBB-balanscentrale + API"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {"tekst": "Publieke NBB-database van alle neergelegde jaarrekeningen (sinds 1992). Gratis raadpleegbaar op nbb.be — één rapport per zoek-opdracht. Bulk-toegang via NBB-API (XBRL-formaat) voor portfolio-monitoring. Naast individuele JR ook sector-aggregaten op NACE-niveau. Onmisbaar als bron-van-waarheid voor sector-benchmark.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "spreadsheet-modelling",
+        "naam": {"primair": "Spreadsheet-modelling (Excel / Google Sheets)"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {"tekst": "Eigen template met formules voor alle ratio-categorieën + automatische peer-vergelijking + DCF / NPV / IRR / Altman-Z. Voordelen: volledig maatwerk, gratis (al hardware-kost), goede leerschool voor stagiair. Nadelen: tijdsintensief in opbouw, geen automatische data-feed (handmatige input of CSV-import nodig). Best practices: gebruik named ranges, scheiding input-blad / berekeningsblad / output-blad, version control, gevoeligheidstabellen voor scenario's.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+        }
+      },
+      {
+        "id": "output-discipline",
+        "naam": {"primair": "Output-discipline (geen blind vertrouwen)"},
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {"tekst": "Vijf checks bij elk software-rapport: (1) Welke ratio-definitie wordt gebruikt? Companyweb's 'current ratio' kan andere componenten hebben dan Excel's. (2) Welke sector-indeling? NACE-2-cijfer is generiek; sub-sector relevant voor benchmark. (3) Welke benchmark-bron? Mediaan over alle bedrijven of alleen vergelijkbare grootte? (4) Welke periode-vergelijking? Boekjaar of kalenderjaar? (5) Wat is missing/non-applicable in de tool? Sommige sectoren (vastgoed, vzw, holdings) krijgen waarschuwingen die genegeerd worden. Documenteer keuzes in diagnose-rapport.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
         }
       }
-    }
+    ],
+    "valkuilen": [
+      {"titel": "Algoritme-tekst overnemen als diagnose", "verkeerde_assumptie": "Het Companyweb-rapport bevat al de conclusies.", "kernpunt": "Tool-output is template-tekst die niet rekening houdt met bedrijfs-specifieke context, sector-uitzonderingen of kwalitatieve signalen. De accountant moet de output lezen, interpreteren en zelf de diagnose schrijven — niet copy-pasten. Tool = data-leverancier, niet oordeel-leverancier.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Verschillende tools mengen zonder reconciliatie", "verkeerde_assumptie": "Companyweb en Trends Top geven dezelfde cijfers voor zelfde bedrijf.", "kernpunt": "Ratio-definities en sector-indelingen verschillen tussen tools — een ROE in Companyweb (na uitzonderlijk resultaat) kan anders zijn dan in Trends Top (zonder uitzonderlijk). Bij gemengd gebruik: documenteer expliciet de bron + methode per tabel.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}},
+      {"titel": "Sector-mismatch onopgemerkt laten", "verkeerde_assumptie": "De tool kiest de juiste sector-benchmark automatisch.", "kernpunt": "NACE-codes zijn historisch en niet altijd up-to-date. Een tech-startup met NACE 'klein zakelijk advies' krijgt verkeerde benchmark. Controleer in de tool of de sector-keuze inhoudelijk klopt en pas indien nodig manueel aan.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "jaarrekeninganalyse"
-    }
+    {"type": "valt_onder", "target": "jaarrekeninganalyse"},
+    {"type": "vereist", "target": "jaarrekening"},
+    {"type": "beinvloed_door", "target": "ratio-interpretatie", "toelichting": "Methodologische kennis is nodig om tool-output kritisch te lezen."}
   ]
 }
