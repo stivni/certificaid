@@ -1,24 +1,29 @@
 {
   "id": "interpretatie-fiscale-wet",
   "naam": {
-    "primair": "Interpretatie van de fiscale wet"
+    "primair": "Interpretatie van de fiscale wet",
+    "synoniemen": ["interpretatiemethodes fiscaal recht", "uitlegging fiscale wet"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.1.V",
-      "2.1.VI",
-      "2.1.IX.B"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["2.1.V", "2.1.VI", "2.1.IX.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/interpretatie-fiscale-wet.json",
+      "primary_bronnen": [
+        "Gecoördineerde Grondwet art. 170",
+        "WIB92 art. 339",
+        "WIB92 art. 344",
+        "Cassatie — diverse arresten over in dubio contra fiscum"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -27,12 +32,20 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld: interpretatievolgorde (grammaticaal → teleologisch) + in dubio contra fiscum + bewijslastverdeling + verhouding AAMB/simulatie."
       }
     ],
     "scope": {
       "in": [
         "Interpretatie-methodes: letterlijk · restrictief · teleologisch · systematisch",
-        "Specifieke fiscale interpretatie-regels: in dubio contra fiscum (twijfel begunstigt belastingplichtige bij heffende wet)",
+        "Volgorde: grammaticaal eerst, dan teleologisch + systematisch",
+        "In dubio contra fiscum (twijfel begunstigt belastingplichtige bij heffende wet)",
         "Realiteitsbeginsel: fiscaal volgt economische realiteit, niet juridische vorm",
         "Bewijslast-verdeling: wie moet wat bewijzen (administratie vs belastingplichtige)",
         "Verhouding met AAMB en simulatie-leer"
@@ -59,37 +72,105 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "tekst": "Interpretatie van de fiscale wet is de techniek om vast te stellen wat een fiscale bepaling concreet betekent en hoe ze toegepast moet worden op een feitencomplex. Het fiscaal recht hanteert dezelfde interpretatiemethodes als andere takken (grammaticaal, teleologisch, systematisch, historisch), maar met twee bijzondere accenten: (1) strikte interpretatie als afgeleide van het legaliteitsbeginsel (art. 170 GW) — wat niet duidelijk in de wet staat, kan niet belast worden; (2) bij blijvende twijfel beslist de rechter in beginsel ten gunste van de belastingplichtige (in dubio contra fiscum) — dit adagium is omstreden en wordt door moderne Cassatie genuanceerd.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Gecoördineerde Grondwet", "ref": "art. 170" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer interpretatie fiscaal recht" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair: bij elke fiscale vraag moet eerst de wettekst zelf worden gelezen (grammaticaal). Pas als de tekst meerdere interpretaties toelaat, kom je bij de andere methodes terecht (wat wilde de wetgever bereiken — teleologisch; hoe past dit artikel in het geheel van de wet — systematisch). Het adagium 'in dubio contra fiscum' is geen automatische vrijbrief: het komt pas in beeld na alle andere interpretatietechnieken, wanneer er werkelijk twijfel overblijft.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["fiscaal-recht"],
+      "kader": "fiscaal-recht",
+      "naast_relevant": ["fiscale-beginselen", "simulatie-leer", "algemene-anti-misbruik-bepaling"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Doctrinaire en jurisprudentiële leer — stabiel maar evolutief (vooral rond AAMB en realiteitsbeginsel)."
+      }
+    },
     "bouwstenen": [
+      {
+        "id": "methode-grammaticaal",
+        "naam": { "primair": "Grammaticale interpretatie" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Vertrek: de tekst van de wet, in zijn gewone betekenis. Niet 'wat de wetgever bedoelde' maar 'wat de wet zegt'. Het legaliteitsbeginsel (art. 170 GW) versterkt deze methode in fiscaal recht: een belasting bestaat enkel binnen de letterlijke grenzen van de wettekst. Definities in de wet (bv. 'rijksinwoner' in art. 2 WIB92) hebben voorrang op gangbare taalkundige betekenis.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Gecoördineerde Grondwet", "ref": "art. 170" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "methode-teleologisch",
+        "naam": {
+          "primair": "Teleologische interpretatie",
+          "synoniemen": ["doelgebonden uitleg", "ratio legis"]
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Wat wilde de wetgever bereiken met deze bepaling? Welk maatschappelijk probleem moest ze oplossen? Te raadplegen: parlementaire voorbereiding (memorie van toelichting, kamerverslagen), de ratio legis zoals door Cassatie of het Grondwettelijk Hof beschreven. Wordt vooral ingeroepen als de tekst meerdere lezingen toelaat. Moderne Cassatie laat in fiscale zaken meer ruimte voor teleologische interpretatie dan vroeger — ook ten nadele van de belastingplichtige, hoewel het legaliteitsbeginsel een grens blijft.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Doctrinaire evolutie Cassatie" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "methode-systematisch",
+        "naam": { "primair": "Systematische interpretatie" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Hoe past dit artikel in het geheel van het wetboek? Verbinding met aanverwante artikelen, hoofdstukstructuur, definities elders in de wet. Een bepaling lezen 'in haar context' — niet geïsoleerd. Bv. art. 53 WIB92 (verworpen uitgaven) wordt gelezen in samenhang met art. 49 (aftrek beroepskosten) en art. 24 (definitie belastbaar resultaat).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
       {
         "id": "in-dubio-contra-fiscum",
         "naam": {
-          "primair": "In dubio contra fiscum"
+          "primair": "In dubio contra fiscum",
+          "synoniemen": ["strikte interpretatie fiscaal", "twijfel ten gunste belastingplichtige"]
         },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: twijfel in heffende wet begunstigt belastingplichtige",
+            "tekst": "Bij blijvende twijfel — na uitputting van alle interpretatiemethodes — over de juiste lezing van een belastingbepaling, beslist de rechter ten gunste van de belastingplichtige. Volgt uit het legaliteitsbeginsel: wat de wet niet duidelijk belast, kan niet belast worden. Toepassing in moderne rechtspraak is beperkter dan vroeger — Cassatie eist dat er werkelijke twijfel overblijft na een teleologische lezing; loutere onduidelijkheid volstaat niet. Geldt overigens enkel voor heffende bepalingen — bij vrijstellingsbepalingen geldt het omgekeerde (strikte interpretatie ten gunste van de fiscus: vrijstelling moet duidelijk in de wet staan).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "Gecoördineerde Grondwet", "ref": "art. 170", "context": "Legaliteit als grondslag" },
+                { "type": "rechtspraak", "naam": "Hof van Cassatie", "ref": "constant arresten", "context": "Standaardleer in dubio contra fiscum" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
               ]
             }
           }
@@ -97,36 +178,87 @@
       },
       {
         "id": "realiteitsbeginsel-interpretatie",
-        "naam": {
-          "primair": "Realiteitsbeginsel"
-        },
+        "naam": { "primair": "Realiteitsbeginsel (substance over form)" },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: fiscaal volgt economische realiteit",
+            "tekst": "Fiscaal recht volgt de economische werkelijkheid van een verrichting. Partijen mogen hun rechtshandelingen vrij kiezen — ook de minst belaste weg (Brepols-arrest, Cassatie 6 juni 1961) — maar de fiscus mag een gekozen kwalificatie negeren wanneer ze niet overeenstemt met wat werkelijk gebeurt. Dit is verwant met maar verschilt van: (a) simulatie-leer (de partijen veinzen een rechtshandeling die niet hun werkelijke wil weergeeft); (b) AAMB art. 344 §1 WIB92 (de gekozen kwalificatie strookt formeel met de feiten maar dient enkel om aan belasting te ontsnappen).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "rechtspraak", "naam": "Hof van Cassatie", "ref": "Brepols-arrest (6 juni 1961)" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bewijslast",
+        "naam": { "primair": "Bewijslastverdeling" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Hoofdregel: de fiscus draagt de bewijslast van het bestaan en de omvang van het belastbaar feit (klassieke 'wie eist, bewijst'). Belangrijke omkeringen: (1) bij aanslag van ambtswege (art. 351 WIB92) komt de bewijslast op de belastingplichtige om de raming van de fiscus te weerleggen; (2) bij vrijstellingen, aftrekken en gunstregimes moet de belastingplichtige de voorwaarden bewijzen; (3) bij vermoedens (bv. art. 341 WIB92 — tekentechniek) wordt de bewijslast omgekeerd op basis van uiterlijke tekenen van welstand. Bewijsmiddelen: alle middelen van het gemeen recht (art. 340 WIB92) — schriftelijke bewijzen, getuigen, vermoedens, akkoorden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 339", "context": "Aangifte als vermoeden" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 340", "context": "Bewijsmiddelen gemeen recht" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 341", "context": "Tekentechniek" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 351", "context": "Omkering bij ambtshalve aanslag" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verhouding-aamb-simulatie",
+        "naam": { "primair": "Verhouding interpretatie ↔ AAMB ↔ simulatie" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie naburige technieken om 'creatieve' fiscale constructies aan te pakken — vaak verward, maar logisch verschillend. (1) Interpretatie / realiteitsbeginsel: de fiscus betwist de kwalificatie van een rechtshandeling op basis van feiten en doel — gebruikt waar geen volledig nieuwe rechtshandeling moet worden geconstrueerd. (2) Simulatie-leer: de fiscus stelt vast dat de werkelijk gewilde rechtshandeling verschilt van de voorgewende — door bewijs van geveinsdheid (bv. tegenovergestelde mondelinge afspraken). (3) AAMB (art. 344 §1 WIB92): de rechtshandeling is reëel maar werd gekozen om louter fiscale redenen en strijdig met doel van de wet — de fiscus mag dan herkwalificeren tot de 'gangbare' kwalificatie. Belangrijkste verschil: simulatie vereist bewijs van geveinsdheid (vaak moeilijk), AAMB niet — vandaar de relatieve populariteit van AAMB sinds 2012.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese leer realiteit/simulatie/AAMB" }
               ]
             }
           }
         }
       }
+    ],
+    "valkuilen": [
+      {
+        "titel": "In dubio contra fiscum als hoofdregel hanteren",
+        "verkeerde_assumptie": "Bij elke onduidelijke fiscale bepaling automatisch ten gunste van de belastingplichtige beslissen.",
+        "kernpunt": "Het adagium komt pas in beeld na uitputting van grammaticale, teleologische en systematische interpretatie. Moderne Cassatie eist effectieve, blijvende twijfel — niet louter een argumenteerbare alternatieve lezing. Bovendien werkt het in de andere richting voor vrijstellingsbepalingen (die strikt en in beginsel ten nadele van de belastingplichtige worden gelezen).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Moderne Cassatie-leer" }
+          ]
+        }
+      },
+      {
+        "titel": "Simulatie en AAMB als synoniemen",
+        "verkeerde_assumptie": "Simulatie en AAMB zijn twee namen voor hetzelfde anti-misbruik-instrument.",
+        "kernpunt": "Simulatie vereist bewijs dat partijen iets anders wilden dan wat ze deden voorkomen (geveinsdheid). AAMB werkt zonder dat bewijs — de gekozen rechtshandeling is reëel maar wordt strijdig met de wetsdoelen geacht. Andere bewijslast, andere drempel, andere rechtsgevolgen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
     ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscaal-recht"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "fiscale-beginselen"
-    }
+    { "type": "valt_onder", "target": "fiscaal-recht" },
+    { "type": "beinvloed_door", "target": "fiscale-beginselen" }
   ]
 }
