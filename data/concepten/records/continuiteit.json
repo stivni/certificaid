@@ -2,94 +2,207 @@
   "id": "continuiteit",
   "naam": {
     "primair": "Continuïteit (going concern)",
-    "synoniemen": [
-      "going concern",
-      "continuiteit-going-concern",
-      "continuiteitsbeginsel"
-    ]
+    "synoniemen": ["going concern", "continuiteit-going-concern", "continuiteitsbeginsel", "continuïteitsveronderstelling"],
+    "vertaling": {"en": "going concern", "fr": "continuité d'exploitation"}
   },
   "concept_type": "principe",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.3.II.D",
-      "1.9.VI.A"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.3.II.D", "1.9.VI.A"],
     "scope": {
       "in": [
         "Going-concern-principe als waarderingsbasis jaarrekening",
         "Trigger-indicatoren: negatief EV · negatief werkkapitaal · aanhoudende verliezen · liquiditeits-spanning",
-        "CBN-advies 2010-14",
+        "CBN-advies 2018/18 (going concern — waarderingsregels bij (gedeeltelijke) stopzetting)",
         "Audit-perspectief NBE (Niet-Bestendige Element) — commissaris-aandachtspunt",
-        "Bestuurders-aansprakelijkheid bij continuïteits-risico"
+        "Bestuurders-aansprakelijkheid bij continuïteits-risico (WVV art. 2:52, WER art. XX.225-XX.227)"
       ],
       "out": [
-        {
-          "topic": "Boekhoudbeginselen (algemeen kader)",
-          "richting": "moet-verwijzen",
-          "ref": "boekhoudbeginselen"
-        },
-        {
-          "topic": "Financiële diagnose (geheel-oordeel)",
-          "richting": "moet-verwijzen",
-          "ref": "financiele-diagnose"
-        },
-        {
-          "topic": "Faillissementspredictie-modellen",
-          "richting": "mag-verwijzen",
-          "ref": "faillissementspredictie-modellen"
-        },
-        {
-          "topic": "Controleopdracht (commissaris-rol bij continuiteits-twijfel)",
-          "richting": "moet-verwijzen",
-          "ref": "controleopdracht"
-        }
+        {"topic": "Boekhoudbeginselen (algemeen kader)", "richting": "moet-verwijzen", "ref": "boekhoudbeginselen"},
+        {"topic": "Financiële diagnose (geheel-oordeel + alarmbel-procedure)", "richting": "moet-verwijzen", "ref": "financiele-diagnose"},
+        {"topic": "Faillissementspredictie-modellen (Altman Z-score, Conan-Holder, Ooghe-Joos-De Vos)", "richting": "mag-verwijzen", "ref": "faillissementspredictie-modellen"},
+        {"topic": "Controleopdracht (commissaris-rol bij continuiteits-twijfel, ISA 570)", "richting": "moet-verwijzen", "ref": "controleopdracht"},
+        {"topic": "Gerechtelijke reorganisatie (WER Boek XX — formele reorganisatie-procedures)", "richting": "mag-verwijzen", "ref": "gerechtelijke-reorganisatie"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-financiele-analyse-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/continuiteit.json",
+      "primary_bronnen": [
+        "CBN-advies 2018/18 — Going concern",
+        "ISA 570 (herzien) — Continuïteit",
+        "ITAA-norm KMO-controlenorm §2.2.7",
+        "WVV art. 2:52 (bestuurdersaansprakelijkheid)",
+        "WER art. XX.225, XX.226 (faillissement + aansprakelijkheid)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:15:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-financiele-analyse-2026-05-28", "wijziging": "Continuïteits-principe uitgewerkt: definitie + drie scenario's (continuïteit OK · continuïteit OK met onzekerheid · discontinuïteit), audit-perspectief ISA 570, bestuurdersaansprakelijkheid WVV+WER."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Continuïteit (going concern) is het fundamentele boekhoudkundige beginsel dat de jaarrekening wordt opgesteld onder de veronderstelling dat de onderneming haar bedrijf in de afzienbare toekomst zal voortzetten. Deze veronderstelling rechtvaardigt het gebruik van de gewone waarderingsregels: vaste activa worden afgeschreven over hun gebruiksduur, voorraden gewaardeerd aan aanschaffingswaarde, schulden vermeld aan nominale waarde. Verdwijnt de continuïteit (stopzetting beslist of feitelijk onafwendbaar), dan moeten de waarderingsregels worden aangepast naar 'discontinuïteit': oprichtingskosten volledig afgeschreven, activa teruggebracht tot vermoedelijke realisatiewaarde, voorziening voor stopzettingskosten gevormd.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Inleiding", "context": "Bij vaststelling en toepassing van waarderingsregels wordt ervan uitgegaan dat onderneming bedrijf voortzet — beginsel van onbeperkte levensduur"},
+            {"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "rn. 2-3", "context": "Aangepaste waarderingsregels bij discontinuïteit (oprichtingskosten + activa-aanpassing + voorziening)"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Continuïteit is geen wettelijke verklaring maar een waarderingshypothese met praktische consequenties. Bij continuïteit waardeert men 'naar voortzettingswaarde': de machines blijven op afschrijvingsbasis op de balans, ook al zouden ze bij liquidatie nauwelijks iets opbrengen. Bij discontinuïteit kantelt heel de waardering: dezelfde machines worden afgeboekt naar liquidatiewaarde (vaak 10-30 % van boekwaarde), oprichtingskosten en immateriële activa worden integraal afgeschreven, en alle stopzettingskosten (opzegvergoedingen, dossier-afsluiting, restwaarde-verliezen) komen als voorziening op de balans. Het verschil is enorm: hetzelfde bedrijf kan in continuïteit positief eigen vermogen tonen en in discontinuïteit met grote negatief eigen vermogen eindigen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "rn. 2-3"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactische uitleg waarderings-effect"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom dit beginsel? De jaarrekening wil een 'getrouw beeld' geven (WVV art. 3:6 e.v.) van een entiteit die per definitie geen einde-tijdpunt heeft. Zonder continuïteits-aanname zou elke balansdatum een quasi-liquidatie-oefening worden — economisch onzinnig voor een gezonde onderneming. Het continuïteitsbeginsel is daarom de default. Tegelijk is het géén onvoorwaardelijke aanname: het bestuursorgaan moet jaarlijks toetsen of ze nog gerechtvaardigd is (CBN 2018/18) — en wanneer er materiële twijfel rijst, moet die transparant worden vermeld in de toelichting, zodat stakeholders niet misleid worden door cijfers die op een wankele basis steunen. Dit raakt de kern van bestuurdersverantwoordelijkheid (WVV art. 2:52) en aansprakelijkheid bij faillissement (WER art. XX.225 — kennelijke grove fout bij voortgezet onverantwoord beleid).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 3:6 e.v.", "context": "Getrouw beeld jaarrekening"},
+            {"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Inleiding"},
+            {"type": "wettekst", "naam": "WVV", "ref": "art. 2:52", "context": "Bestuurdersaansprakelijkheid"},
+            {"type": "wettekst", "naam": "WER", "ref": "art. XX.225", "context": "Kennelijk grove fout bij faillissement"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["boekhoudbeginselen", "jaarrekening"],
+      "kader": "boekhoudbeginselen",
+      "naast_relevant": ["controleopdracht", "bestuurdersaansprakelijkheid"],
+      "volgkennis": ["financiele-diagnose", "faillissementspredictie-modellen", "gerechtelijke-reorganisatie"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Bij elke jaarlijkse opmaak van de jaarrekening — het bestuursorgaan moet expliciet beoordelen of de continuïteits-veronderstelling nog gerechtvaardigd is (CBN 2018/18).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Inleiding"}]}},
+        {"tekst": "In de audit-opdracht — de commissaris moet onder ISA 570 (en de ITAA-KMO-controlenorm §2.2.7) voldoende assurance-informatie verzamelen over de continuïteits-veronderstelling.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf 6 + 13"}, {"type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§59-60"}]}}
+      ],
+      "voorwaarden": [
+        {"tekst": "Beoordelingsperiode minstens 12 maanden vanaf balansdatum (ISA 570 §13). Voor signalen na balansdatum: zie subsequent events.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf 13"}]}}
+      ],
+      "risico": [
+        {"tekst": "Bij ten onrechte handhaven van going-concern (terwijl discontinuïteit feitelijk onafwendbaar is): jaarrekening wekt onterecht beeld van gezondheid → schade aan crediteuren, mogelijke bestuurdersaansprakelijkheid voor kennelijk grove fout (WER art. XX.225) bij faillissement, mogelijke RSZ/fiscus-hoofdelijke-aansprakelijkheid (WER art. XX.226, Wetboek Invordering art. 51 — voor BV/RSZ-schulden bij herhaalde tekortkomingen).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WER", "ref": "art. XX.225, XX.226"}, {"type": "wettekst", "naam": "Wetboek Invordering", "ref": "art. 51"}]}},
+        {"tekst": "Bij ten onrechte loslaten van going-concern (discontinuïteits-waardering terwijl onderneming nog gezond is): forse afboekingen verzwakken vermogenspositie kunstmatig, kunnen self-fulfilling prophecy worden (krediet wordt geweigerd, leveranciers haken af).", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "scenario-going-concern-ok",
+        "naam": {"primair": "Scenario 1 — Continuïteit gerechtvaardigd, geen onzekerheid"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "Bestuursorgaan stelt vast dat geen materiële onzekerheden bestaan die aanzienlijke twijfel kunnen doen rijzen over het vermogen om de continuïteit te waarborgen. Gevolgen: (a) jaarrekening opgesteld volgens gewone waarderingsregels; (b) geen bijzondere vermelding in toelichting vereist (wel onverkort jaarverslag volgens WVV art. 3:6); (c) commissaris-verslag: niet-aangepast oordeel, geen continuïteits-sectie.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Verslaggeving — scenario 1"}]}}
+          }
+        }
+      },
+      {
+        "id": "scenario-going-concern-onzekerheid",
+        "naam": {"primair": "Scenario 2 — Continuïteit gerechtvaardigd, maar materiële onzekerheid"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "Er bestaan materiële onzekerheden die aanzienlijke twijfel doen rijzen, maar het bestuursorgaan is overtuigd dat de onderneming deze kan opvangen. Gevolgen: (a) jaarrekening alsnog in continuïteit; (b) toelichting bevat omstandige verklaring over de onzekerheden + reeds genomen of geplande herstelmaatregelen; (c) eventueel: naast jaarrekening in continuïteit, een balans + resultatenrekening in discontinuïteit toevoegen in toelichting; (d) commissaris voegt sectie 'Van materieel belang zijnde onzekerheid met betrekking tot continuïteit' toe (ISA 570 §22).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Verslaggeving — scenario 2"}, {"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf 22"}]}}
+          },
+          "voorbeelden": [
+            {"id": "voorbeeld-scenario-2-zelena", "titel": "Zelena Bio NV — overheidssubsidie onzeker", "context": "Zelena Bio NV is afhankelijk van een meerjarige overheidssubsidie waarvan de verlenging na 31-12-20X4 onzeker is. Zonder subsidie zou Zelena binnen 18 maanden in liquiditeitsproblemen komen.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}, "weergaven": [{"type": "proza", "tekst": "Bestuursorgaan beslist: continuïteits-veronderstelling handhaven want (i) subsidie-portfolio diversifiëren is gepland, (ii) bank heeft conditionele lijn van 1 mio EUR toegezegd, (iii) cash burn rate kan met 30 % gereduceerd worden. In toelichting: omstandige verklaring + herstelmaatregelen. Commissaris voegt continuïteits-sectie toe in zijn verslag — niet als beperking op zijn oordeel, wel als attentie-element."}]}
+          ]
+        }
+      },
+      {
+        "id": "scenario-discontinuiteit",
+        "naam": {"primair": "Scenario 3 — Continuïteit niet langer gerechtvaardigd"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "Bevoegd orgaan heeft beslist tot stopzetting (geheel of gedeeltelijk), of stopzetting is feitelijk onafwendbaar. Gevolgen: (a) jaarrekening opgesteld met aangepaste waarderingsregels (discontinuïteit); (b) oprichtingskosten volledig afgeschreven; (c) vaste + vlottende activa via aanvullende afschrijvingen/waardeverminderingen teruggebracht tot vermoedelijke realisatiewaarde; (d) voorziening voor stopzettingskosten (opzegvergoedingen, ontmanteling, contract-uitloop) gevormd; (e) in toelichting expliciet vermeld dat waarderingsregels aangepast zijn.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Verslaggeving — scenario 3 + rn. 2-3"}]}}
+          },
+          "bouwstenen": [
+            {"id": "aanpassing-oprichtingskosten", "naam": {"primair": "Aanpassing 1 — Oprichtingskosten volledig afschrijven"}, "bouwsteen_type": "stap", "kern": {"definitie": {"tekst": "Restwaarde post 20 (oprichtingskosten) wordt volledig afgeschreven naar resultaat — deze post heeft geen liquidatiewaarde.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "rn. 2"}]}}}},
+            {"id": "aanpassing-activa-realisatie", "naam": {"primair": "Aanpassing 2 — Activa naar vermoedelijke realisatiewaarde"}, "bouwsteen_type": "stap", "kern": {"definitie": {"tekst": "Vaste en vlottende activa: aanvullende afschrijvingen of waardeverminderingen om boekwaarde tot vermoedelijke realisatiewaarde te brengen. Concreet: machines (boekwaarde 500.000 EUR, geschatte liquidatie-opbrengst 80.000 EUR) → bijkomende waardevermindering 420.000 EUR via 6603 (afschrijvingen/waardeverminderingen op vaste activa).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "rn. 2"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Boeking-illustratie"}]}}}},
+            {"id": "aanpassing-voorziening-stopzetting", "naam": {"primair": "Aanpassing 3 — Voorziening voor stopzettingskosten"}, "bouwsteen_type": "stap", "kern": {"definitie": {"tekst": "Voorziening vormen voor alle kosten verbonden aan de beëindiging: aan personeel uit te keren opzegvergoedingen, ontmantelingskosten, contract-afkoop, dossier-afsluiting. Boeking: 6360 (voorzieningen voor andere risico's en kosten) aan 162 (voorzieningen voor andere risico's en kosten).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "rn. 2"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard MAR-rekening"}]}}}}
+          ]
+        }
+      },
+      {
+        "id": "trigger-indicatoren",
+        "naam": {"primair": "Trigger-indicatoren — going-concern-twijfel"},
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {"tekst": "ISA 570 (herzien) §A3 lijst indicatieve signalen op die wijzen op going-concern-twijfel. Drie categorieën: financiële indicatoren, operationele indicatoren, andere indicatoren.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf A3"}]}}
+          },
+          "bouwstenen": [
+            {"id": "indicator-financieel", "naam": {"primair": "Financiële indicatoren"}, "bouwsteen_type": "mechanisme", "kern": {"definitie": {"tekst": "Negatief eigen vermogen of negatieve werkkapitaal-positie; kortlopende schulden > vlottende activa; aanhoudende exploitatieverliezen; negatieve operationele kasstromen (kasstroom-analyse); onmogelijkheid om dividenden uit te betalen; achterstallige betalingen aan crediteuren/fiscus/RSZ; weigering of opzegging van bankkrediet; bank-covenant-breaches; alarmbel-procedure WVV art. 5:153 (BV) / art. 7:228 (NV) actief (netto-actief < helft van inbreng).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf A3", "context": "Financiële indicatoren"}, {"type": "wettekst", "naam": "WVV", "ref": "art. 5:153 (BV) / art. 7:228 (NV)", "context": "Alarmbel-procedure"}]}}}},
+            {"id": "indicator-operationeel", "naam": {"primair": "Operationele indicatoren"}, "bouwsteen_type": "mechanisme", "kern": {"definitie": {"tekst": "Verlies van sleutelmanagement zonder opvolging; verlies van belangrijke markt(en), klant(en), licentie(s) of leverancier(s); arbeidsproblemen; tekort aan essentiële grondstoffen; opkomst van zeer succesvolle concurrent.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf A3", "context": "Operationele indicatoren"}]}}}},
+            {"id": "indicator-andere", "naam": {"primair": "Andere indicatoren"}, "bouwsteen_type": "mechanisme", "kern": {"definitie": {"tekst": "Niet-naleving van kapitaal- of andere wettelijke vereisten; aanhangige juridische procedures met mogelijk significante negatieve gevolgen; wijziging van wetgeving of overheidsbeleid met negatieve impact; niet-verzekerde of onderverzekerde catastrofes.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf A3", "context": "Andere indicatoren"}]}}}}
+          ],
+          "voorbeelden": [
+            {"id": "voorbeeld-alarmbel", "titel": "Alarmbel-procedure WVV art. 5:153 / 7:228", "context": "Wanneer het netto-actief van een BV/NV onder de helft van de inbreng of beneden 6.200.000 EUR daalt — of bij dreigende discontinuïteit — moet het bestuursorgaan binnen 2 maanden de algemene vergadering bijeenroepen voor een beslissing over voortzetting, herkapitalisatie of ontbinding.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WVV", "ref": "art. 5:153 (BV) / art. 7:228 (NV)"}]}, "weergaven": [{"type": "proza", "tekst": "De alarmbel-procedure is een formele 'tussenstop' tussen continuïteit-OK en faillissement: ze dwingt het bestuursorgaan tot transparante consultatie van de aandeelhouders zodra de vermogenspositie kritiek wordt — en zo nodig tot een formele insolventieprocedure (gerechtelijke reorganisatie of faillissement)."}]}
+          ]
+        }
+      }
+    ],
+    "bouwstenen": [
+      {"id": "balansdatum-perspectief", "naam": {"primair": "Beoordeling op balansdatum"}, "bouwsteen_type": "regel", "kern": {"definitie": {"tekst": "CBN-advies 2019/04 verduidelijkt: het bestuursorgaan moet de continuïteits-beoordeling plaatsen op de balansdatum. Gebeurtenissen tussen balansdatum en datum van opmaak die de continuïteit beïnvloeden zijn 'non-adjusting events' — geen aanpassing van waarderingsregels, wel verplichte vermelding in toelichting indien materieel.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2019/04", "ref": "Going Concern", "context": "Brexit-context — non-adjusting event"}]}}}},
+      {"id": "bestuurdersaansprakelijkheid-kernfout", "naam": {"primair": "Bestuurdersaansprakelijkheid bij kennelijke grove fout (WER XX.225)"}, "bouwsteen_type": "risico", "kern": {"definitie": {"tekst": "Bij faillissement met netto-passief en kennelijke grove fout van een bestuurder die heeft bijgedragen tot het faillissement: persoonlijke aansprakelijkheid voor het netto-passief (volledig of gedeeltelijk). 'Voortzetten van een reddeloos verloren onderneming' is een typische kennelijk grove fout. Praktisch: zodra continuïteits-twijfel materieel is en geen reëel herstelpad bestaat, moet het bestuur kiezen: herstelmaatregelen + alarmbel-procedure, of gerechtelijke reorganisatie, of faillissementsaangifte. Voortdoen 'omdat het misschien nog goedkomt' verhoogt het persoonlijke aansprakelijkheidsrisico.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WER", "ref": "art. XX.225", "context": "Aansprakelijkheidsvordering voor netto-passief — kennelijke grove fout"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer insolventierecht"}]}}}},
+      {"id": "wettelijke-hierarchie", "naam": {"primair": "Wettelijke hiërarchie continuïteits-toets"}, "bouwsteen_type": "principe", "kern": {"definitie": {"tekst": "Drie niveaus van wettelijke verankering: (1) boekhoudrecht (CBN 2018/18 + KB W.Venn. art. 28) — wat zijn de waarderingsregels en de toelichting-verplichting; (2) vennootschapsrecht (WVV art. 2:52 — algemene bestuurdersaansprakelijkheid; art. 5:153 / 7:228 — alarmbel-procedure); (3) insolventierecht (WER Boek XX — aansprakelijkheid bij faillissement, gerechtelijke reorganisatie). Continuïteit is dus tegelijk boekhoudkundig beginsel én juridische verantwoordelijkheid.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Inleiding"}, {"type": "wettekst", "naam": "WVV", "ref": "art. 2:52, 5:153, 7:228"}, {"type": "wettekst", "naam": "WER", "ref": "Boek XX"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
+    ],
+    "valkuilen": [
+      {"titel": "Discontinuïteit gelijkstellen met faillissement", "verkeerde_assumptie": "Studenten denken dat aangepaste waarderingsregels (discontinuïteit) pas gelden bij formeel faillissement.", "kernpunt": "Discontinuïteits-waardering is een boekhoudkundige beslissing, los van de juridische status. Zodra het bestuursorgaan beslist tot stopzetting (gedeeltelijk OK — bv. één afdeling) of het feitelijk niet meer mogelijk is verder te gaan, moet de boekhouding daarop afgestemd worden — ook zonder formeel faillissement of vereffening.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Inleiding + rn. 2"}]}},
+      {"titel": "Toelichting bij scenario 2 vergeten", "verkeerde_assumptie": "Bij continuïteit met onzekerheid: 'we mogen toch in continuïteit blijven waarderen, dus geen verdere actie nodig'.", "kernpunt": "Continuïteits-waardering is gerechtvaardigd, maar in de toelichting MOET een omstandige verklaring over de materiële onzekerheden + herstelmaatregelen opgenomen worden. Zonder die transparantie krijgt de jaarrekening geen 'getrouw beeld' en kan het commissaris-oordeel aangetast worden (zelfs aanpassing van het oordeel mogelijk).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2018/18", "ref": "Verslaggeving — scenario 2"}]}},
+      {"titel": "Going-concern-sectie verwarren met oordeelsaanpassing", "verkeerde_assumptie": "Een sectie 'Van materieel belang zijnde onzekerheid m.b.t. continuïteit' in het commissarisverslag = negatief oordeel.", "kernpunt": "Een continuïteits-sectie (ISA 570 §22) is een attentie-element, géén aangepast oordeel. Het oordeel blijft 'niet-aangepast' zolang de toelichting van de jaarrekening de onzekerheden adequaat beschrijft. Pas als de toelichting tekortschiet of het bestuursorgaan ten onrechte going-concern aanhoudt, volgt een aangepast oordeel (oordeel met beperking of afkeurend).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf 22-24"}]}}
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhoudbeginselen"
+      "id": "bestuursorgaan-adviseur",
+      "naam": {"primair": "Adviseur bestuursorgaan KMO"},
+      "intro": "De accountant die het bestuursorgaan van een KMO bijstaat bij de jaarlijkse continuïteits-beoordeling.",
+      "rollen": [
+        {"rol": "adviseur", "elementen": [
+          {"id": "jaarlijkse-toets-uitvoeren", "naam": {"primair": "Jaarlijkse continuïteits-toets bij jaarafsluiting"}, "bouwsteen_type": "stap", "kern": {"definitie": {"tekst": "Bij jaarafsluiting: doorloop met het bestuursorgaan een checklist van trigger-indicatoren (ISA 570 §A3). Documenteer expliciet of going-concern al dan niet gerechtvaardigd is en welke onzekerheden bestaan. Bij twijfel: vraag een 13-week-cashflow-prognose + meerjarige projecties + scenario-analyse. De accountant draagt mee verantwoordelijkheid bij grove tekortkomingen — een formeel advies-spoor in het dossier is onmisbaar.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf A3"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Best-practice ITAA-kantoor"}]}}}},
+          {"id": "alarmbel-trigger", "naam": {"primair": "Alarmbel-procedure activeren wanneer netto-actief kritiek"}, "bouwsteen_type": "stap", "kern": {"definitie": {"tekst": "Bij dreigende daling van het netto-actief onder de drempel van art. 5:153 (BV) / 7:228 (NV): bestuursorgaan binnen 2 maanden de algemene vergadering bijeenroepen. Adviseer ruim vóór het bereiken van de drempel — bv. zodra netto-actief onder 75 % van inbreng valt — een formeel herstelplan op te stellen. Tijdige actie reduceert het bestuurdersaansprakelijkheids-risico (WVV 2:52, WER XX.225) aanzienlijk.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "WVV", "ref": "art. 5:153, 7:228"}, {"type": "wettekst", "naam": "WVV", "ref": "art. 2:52"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}}}
+        ]}
+      ]
     },
     {
-      "type": "triggert",
-      "target": "financiele-diagnose"
+      "id": "commissaris",
+      "naam": {"primair": "Commissaris (audit-opdracht ISA 570)"},
+      "intro": "De accountant in de rol van bedrijfsrevisor die de wettelijke controle uitvoert.",
+      "rollen": [
+        {"rol": "auditor", "elementen": [
+          {"id": "isa570-werkzaamheden", "naam": {"primair": "Werkzaamheden ISA 570 — beoordeling continuïteits-veronderstelling"}, "bouwsteen_type": "stap", "kern": {"definitie": {"tekst": "Vier verplichte stappen: (1) risico-inschatting: identificeer indicatoren bij planning (negatief EV, dalende kasstromen, verloren grote klant ...); (2) evaluatie management-beoordeling: voldoende werkzaamheden om management's continuïteits-toets te ondersteunen over min. 12 maanden vanaf balansdatum; (3) aanvullende werkzaamheden bij twijfel (ISA 570 §16): cashflow-prognose toetsen, bevestigingen van financiers, post-balans-events checken; (4) rapportering (§22-24): continuïteits-sectie indien materiële onzekerheid, oordeel aanpassen indien toelichting tekortschiet of going-concern onterecht gehandhaafd is.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ISA 570 (herzien)", "ref": "paragraaf 9-24"}]}}}},
+          {"id": "kmo-controlenorm-aanpak", "naam": {"primair": "KMO-controlenorm — vereenvoudigde aanpak voor kleine vzw's en KMO's"}, "bouwsteen_type": "regel", "kern": {"definitie": {"tekst": "Voor kleine en micro-vennootschappen (binnen het toepassingsgebied van de ITAA-KMO-controlenorm) zijn de werkzaamheden proportioneel: (a) assurance-informatie verzamelen over geschiktheid van continuïteits-veronderstelling; (b) conclusie trekken over onzekerheid van materieel belang; (c) impact op verslag (§59-60).", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§59-60 (2.2.7 Continuïteit)"}]}}}}
+        ]}
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "boekhoudbeginselen", "toelichting": "Continuïteit is één van de fundamentele boekhoudbeginselen naast voorzichtigheid, oprechtheid, goede trouw."},
+    {"type": "triggert", "target": "financiele-diagnose", "toelichting": "Wanneer continuïteits-twijfel rijst, wordt een grondige financiële diagnose uitgevoerd (ratio-set + faillissementspredictie + scenario-analyse)."},
+    {"type": "vereist", "target": "jaarrekening", "toelichting": "De continuïteits-toets gebeurt bij elke jaarrekening-opmaak."},
+    {"type": "vergelijkbaar_met", "target": "boekhoudbeginselen", "gelijkenissen": ["Beide zijn fundamentele beginselen voor de opmaak van de jaarrekening"], "verschillen": ["Continuïteit is een specifieke veronderstelling die conditioneert; boekhoudbeginselen omvatten ook voorzichtigheid, oprechtheid, goede trouw, autonomie van het boekjaar"], "verwarring_risico": "Studenten zien continuïteit soms als 'gewoon nog een beginsel' — feitelijk is het een conditionele aanname die als ze wegvalt de hele waarderingsbasis omgooit."},
+    {"type": "beinvloed_door", "target": "faillissementspredictie-modellen", "toelichting": "Altman Z-score, Conan-Holder en Ooghe-Joos-De Vos leveren kwantitatieve indicatoren die kunnen wijzen op going-concern-twijfel."},
+    {"type": "gecontroleerd_door", "target": "commissaris", "toelichting": "ISA 570 — verplichte beoordeling door commissaris bij elke wettelijke controle."},
+    {"type": "gedocumenteerd_in", "target": "jaarrekening", "toelichting": "Toelichting bij jaarrekening — verplichte vermelding van materiële onzekerheden + herstelmaatregelen (scenario 2 + 3)."}
   ]
 }
