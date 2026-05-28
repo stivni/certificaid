@@ -2,77 +2,224 @@
   "id": "uniforme-waarderingsregels-consolidatie",
   "naam": {
     "primair": "Uniforme waarderingsregels bij consolidatie",
-    "synoniemen": [
-      "uniforme groepswaarderingsregels"
-    ]
+    "synoniemen": ["uniforme groepswaarderingsregels", "consistent accounting policies"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "1.4.I.D"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["1.4.I.D"],
     "scope": {
       "in": [
-        "Art 145 KB 30-01-2001",
+        "Art. 3:117 KB WVV",
         "Waarderingsverschillen tussen entiteiten in kring",
         "Herwaardering naar groeps-regels verplicht",
         "Pre-consolidatie-aanpassingen",
         "Vrijstellings-gevallen (onbeduidende verschillen)"
       ],
       "out": [
-        {
-          "topic": "Waarderingsregels jaarrekening (statutair)",
-          "richting": "moet-verwijzen",
-          "ref": "jaarrekening"
-        },
-        {
-          "topic": "Opmaak-procedure (input-stap)",
-          "richting": "moet-verwijzen",
-          "ref": "opmaak-geconsolideerde-jaarrekening"
-        }
+        {"topic": "Waarderingsregels jaarrekening (statutair)", "richting": "moet-verwijzen", "ref": "jaarrekening"},
+        {"topic": "Opmaak-procedure (input-stap)", "richting": "moet-verwijzen", "ref": "opmaak-geconsolideerde-jaarrekening"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-consolidatie-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/uniforme-waarderingsregels-consolidatie.json",
+      "primary_bronnen": ["KB WVV art. 3:117", "CBN-advies 2022/09", "ISA 600"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-consolidatie-2026-05-28", "wijziging": "Inhoud gevuld uit bundle: KB WVV art. 3:117 + CBN 2022/09 stap 1 + ISA 600 'uniforme grondslagen'. Noot: scope 'art 145 KB 2001' verwijst naar het oude KB van 30/1/2001 (vóór hercodificatie WVV) — actueel art. 3:117 KB 29/04/2019."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het beginsel van uniforme waarderingsregels (art. 3:117 KB WVV; vroeger art. 145 KB van 30 januari 2001) houdt in dat alle vennootschappen in de consolidatiekring hun activa, passiva, opbrengsten en kosten op een uniforme wijze moeten waarderen vóór ze worden samengevoegd in de geconsolideerde jaarrekening. Wanneer een dochteronderneming in haar statutaire jaarrekening andere waarderingsregels hanteert (bv. andere afschrijvingsmethode, andere voorraadwaardering, andere voorzieningenbeleid) dan de groepsregels, moeten pre-consolidatie-aanpassingen die verschillen wegwerken. Doel: vergelijkbaarheid en getrouw beeld van de groep.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Concreet werken: de moedervennootschap stelt een set van groepswaarderingsregels op (typisch onderdeel van het rapporteringspakket en de groeps-accounting-manual). Dochters voeren hun lokale boekhouding volgens hun statutaire/lokale GAAP (Belgian GAAP, USGAAP, lokale GAAP in BU's), maar leveren voor consolidatie-doeleinden cijfers die geherwaardeerd zijn naar groepsregels. Voorbeelden: een dochter met afschrijvingen op gebouwen over 25 jaar terwijl groep 33 jaar hanteert → pre-consolidatie-aanpassing van afschrijvingskosten + cumulatieve afschrijvingen. Een dochter met LIFO-voorraadwaardering in een land waar dat mag, terwijl groep FIFO/gemiddelde kost gebruikt → herwaardering voorraad + impact op COGS. Verschillen in voorzieningen (pensioenen, garanties) idem.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"},
+            {"type": "norm", "naam": "ISA 600", "ref": "Bijlage 2"},
+            {"type": "cbn", "naam": "CBN-advies", "ref": "2022/09"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk groepsconsolidatie"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Zonder uniforme regels heeft de geconsolideerde jaarrekening geen samenhang: een groep waarvan de Belgische dochter winst toont door agressieve voorraadwaardering en de Franse dochter verlies door conservatieve voorzieningen, geeft geen getrouw beeld van de groepsprestaties. Het beginsel van getrouw beeld (art. 3:1 KB WVV) en vergelijkbaarheid over entiteiten heen vereist één set waarderingsregels op groepsniveau. Het is een direct gevolg van het 'one-entity-view': de groep wordt behandeld als één economische eenheid, dus één boekhoudkundig referentiestelsel.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"},
+            {"type": "kb", "naam": "KB WVV", "ref": "art. 3:1"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Getrouw-beeld + one-entity-view"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["jaarrekening", "waarderingsregels"],
+      "kader": "geconsolideerde-jaarrekening",
+      "naast_relevant": ["opmaak-geconsolideerde-jaarrekening", "omrekening-buitenlandse-dochter"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB 29-04-2019 ter uitvoering WVV, art. 3:117",
+        "toelichting": "Hercodificatie van het oude art. 145 KB 30-01-2001 zonder inhoudelijke wijziging. Voor IFRS-groepen: IFRS 10 alinea B86 + IFRS 10 alinea 19 — 'Uniform accounting policies'."
+      },
+      "voor": [
+        {"tekst": "Toepasselijk op alle entiteiten in de consolidatiekring: dochterondernemingen (integraal), gezamenlijke dochters (evenredig), geassocieerde ondernemingen (VMM — alinea 35 IAS 28 voor IFRS).",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 28 alinea 35"}]}}
+      ],
+      "uitsluitingen": [
+        {"tekst": "Vrijstelling toegelaten wanneer een dochter andere waarderingsregels hanteert die door de bijzondere aard van haar activiteit zijn gerechtvaardigd (art. 3:117 §2 KB WVV) — bv. een bank-dochter met IFRS 9-financiële-instrumenten-waardering in een verder industriële groep. Vermelding in toelichting verplicht.",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117 §2"}]}}
+      ],
+      "voorwaarden": [
+        {"tekst": "Pre-consolidatie-aanpassingen moeten gedocumenteerd worden in een apart 'consolidatieboek' (niet in de statutaire boekhouding van de dochter). Elke aanpassing krijgt een journaal-entry met source-document, kwantitatieve impact, en motivatie. Permanente bewaring (minimum tot 5 jaar na boekjaar — Belgische boekhoudbewaarplicht).",
+         "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "norm", "naam": "ITAA-norm-algemene-controlenorm", "ref": "par. 4"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "typische-verschillen",
+        "naam": {"primair": "Typische verschillen die uniformisering vragen"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Top-vijf categorieën waar dochter-statutair en groeps-regels typisch afwijken: (1) Afschrijvingen — economisch leven en methode (lineair vs degressief); (2) Voorraadwaardering — LIFO/FIFO/gewogen gemiddelde; (3) Voorzieningen — pensioen-verplichtingen (DBO-methode of forfait); (4) Financiële instrumenten — kostprijs vs fair value (IFRS 9 vs lokaal); (5) Subsidies — opname-tijdstip (cash vs prestatie-gebaseerd) + classificatie (resultaat vs EV).",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-inventaris waarderingsverschillen"}]}
+          }
+        }
+      },
+      {
+        "id": "pre-consolidatie-aanpassing",
+        "naam": {"primair": "Pre-consolidatie-aanpassing — methodiek"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Stappen per identifiseerd verschil: (1) Kwantificeer impact op opening balans (cumulatief verschil sinds verkrijgingsdatum + tot huidig boekjaar); (2) Boek opening-correctie in consolidatieboek tegen 'aanpassingen openingsreserves' (EV); (3) Boek periode-correctie voor het lopende jaar tegen relevante P&L-rekeningen; (4) Bereken belastingeffect (uitgestelde belastingen op het verschil); (5) Documenteer in toelichting van geconsolideerde jaarrekening (transparency).",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard pre-consolidatie-werkwijze"}]}
+          }
+        }
+      },
+      {
+        "id": "vrijstelling-onbeduidend",
+        "naam": {"primair": "Vrijstelling bij onbeduidende verschillen"},
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer een verschil tussen lokale en groeps-waarderingsregels onbeduidend is (verwaarloosbare impact op groepsbalans en -resultaat), mag de aanpassing achterwege blijven om praktische redenen — toepassing van het materialiteitsbeginsel. Beoordeling per dochter én cumulatief over alle dochters. Auditor reviewt deze cost-benefit-afweging.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Materialiteitsbeginsel-toepassing"}]}
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-afschrijvingsverschil",
+        "titel": "Aanpassing afschrijvingen — dochter 25 jaar, groep 33 jaar",
+        "context": "Dochter D heeft een gebouw aanschaffingswaarde 3.300 EUR. Statutair afgeschreven over 25 jaar (132 EUR/jaar). Groep schrijft over 33 jaar af (100 EUR/jaar). Eindstand jaar 5: cumulatief verschil = 5 × (132 - 100) = 160 EUR teveel afgeschreven.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Pre-consolidatie-aanpassing afschrijvingen (jaar 5)",
+            "rijen": [
+              {"rekening": "22 — Gebouwen (terug-correctie cum. afschr.)", "debet": 160, "credit": null, "omschrijving": "Cumulatief verschil terugnemen tot openingsdatum + huidig jaar"},
+              {"rekening": "131 — Reserves (cumulatief tot vorig jaar)", "debet": null, "credit": 128, "omschrijving": "4 × 32 EUR over voorgaande jaren via EV"},
+              {"rekening": "6302 — Afschrijvingen (lopend jaar)", "debet": null, "credit": 32, "omschrijving": "1 × 32 EUR via RR"}
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Aanpassing alleen op P&L, niet op balans",
+        "verkeerde_assumptie": "Het corrigeren van het lopend jaar volstaat.",
+        "kernpunt": "Verschillen accumuleren over jaren. Bij eerste implementatie of bij verkrijging dochter: bereken cumulatief verschil sinds verkrijgingsdatum en boek het deel van vorige jaren als correctie van openingsreserves (EV). Anders zit een 'gat' in de openings-balansvergelijking.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Belastingimpact vergeten",
+        "verkeerde_assumptie": "Een pre-consolidatie-aanpassing is een 'consolidatie-only'-effect dus geen fiscale impact.",
+        "kernpunt": "De aanpassing creëert een tijdelijk verschil tussen boekhoudkundige en fiscale waarde (de fiscale waarde blijft die van de statutaire boekhouding). → uitgestelde belastingen boeken (active of passieve, IAS 12 / KB WVV art. 3:91).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:91"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 12"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Verschillen tussen IFRS-dochter en BE-GAAP-groep niet harmoniseren",
+        "verkeerde_assumptie": "Een dochter rapporteert IFRS, groep rapporteert BE-GAAP → IFRS is 'superieur' dus geen aanpassing nodig.",
+        "kernpunt": "De groeps-referentie is bepalend. Voor een BE-GAAP-consolidatie moet ook de IFRS-rapporterende dochter herwaardeerd worden naar BE-GAAP-regels — anders geen consistente groepscijfers. Omgekeerd voor IFRS-groep met BE-GAAP-dochter.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "groepsmoeder-uniformisering",
+      "naam": {"primair": "Groepsmoeder — consolidatieverantwoordelijke"},
+      "intro": "De accountant die verantwoordelijk is voor de uniformiseringsstap.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "stap-accounting-manual",
+              "naam": {"primair": "Opstellen + verspreiden groeps-accounting-manual"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De moedervennootschap stelt een groeps-accounting-manual op met (1) groeps-waarderingsregels per balansrubriek + RR-categorie; (2) groeps-rekeningenstelsel met mapping naar IFRS- of BE-GAAP-rubrieken; (3) materiale-drempels voor verplichte versus optionele aanpassingen; (4) confirmatie-vereisten dochters. Actualisatie minstens jaarlijks (impact van nieuwe IFRS, fiscale wijzigingen).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "norm", "naam": "ISA 600", "ref": "Bijlage 2"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-uniformiteit",
+              "naam": {"primair": "Audit uniformiteit waarderingsregels"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Audit-werkzaamheden: (1) bestaan + actualiteit groeps-accounting-manual; (2) per significante dochter: review pre-consolidatie-aanpassingen op materiele verschillen; (3) belastingimpact van aanpassingen (uitgestelde belastingen); (4) bij joint ventures + associates verwerkt via VMM: ook hier moeten lokale GAAP-cijfers naar groeps-regels herwaardeerd worden vóór VMM-toepassing (IAS 28 alinea 35); (5) toelichting in geconsolideerde jaarrekening (vrijstellingsgevallen!).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB WVV", "ref": "art. 3:117"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IAS 28 alinea 35"}, {"type": "norm", "naam": "ISA 600", "ref": "Bijlage 2"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "geconsolideerde-jaarrekening"},
+    {"type": "vereist", "target": "opmaak-geconsolideerde-jaarrekening", "toelichting": "Input-stap binnen het opmaak-proces — gebeurt vóór samenvoegen + eliminaties."},
+    {"type": "vergelijkbaar_met", "target": "omrekening-buitenlandse-dochter",
+      "gelijkenissen": ["Beide zijn pre-consolidatie-aanpassingen op de dochter-cijfers", "Beide gebeuren in het consolidatieboek (niet in de statutaire dochterboekhouding)"],
+      "verschillen": ["Uniforme waarderingsregels: kwalitatieve harmonisering (afschrijvingsmethode, voorraadwaardering, voorzieningen)", "Omrekening: kwantitatieve conversie tussen valuta", "Beide kunnen samen voorkomen bij dezelfde dochter (bv. UK-dochter met afwijkende afschrijvingen + GBP-omrekening)"],
+      "render_hint": "als_glossarium"
     }
   ]
 }
