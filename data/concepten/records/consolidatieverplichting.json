@@ -3,13 +3,18 @@
   "naam": {
     "primair": "Consolidatieverplichting",
     "synoniemen": [
-      "consolidatieverplichting-bgaap"
-    ]
+      "consolidatieverplichting-bgaap",
+      "consolidatieplicht"
+    ],
+    "vertaling": {
+      "fr": "obligation de consolidation",
+      "en": "consolidation requirement"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -26,63 +31,332 @@
         "Moedermaatschappij-definitie"
       ],
       "out": [
-        {
-          "topic": "Controle-test (basis voor wie-in-kring)",
-          "richting": "moet-verwijzen",
-          "ref": "controle-bij-consolidatie"
-        },
-        {
-          "topic": "Consolidatiekring (wie zit erin operationeel)",
-          "richting": "moet-verwijzen",
-          "ref": "consolidatiekring"
-        },
-        {
-          "topic": "Groottecategorie-vennootschap (drempels groot/klein)",
-          "richting": "mag-verwijzen",
-          "ref": "groottecategorie-vennootschap"
-        }
+        { "topic": "Controle-test (basis voor wie-in-kring)", "richting": "moet-verwijzen", "ref": "controle-bij-consolidatie" },
+        { "topic": "Consolidatiekring (wie zit erin operationeel)", "richting": "moet-verwijzen", "ref": "consolidatiekring" },
+        { "topic": "Groottecategorie-vennootschap (drempels groot/klein)", "richting": "mag-verwijzen", "ref": "groottecategorie-vennootschap" }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/consolidatieverplichting.json",
+      "primary_bronnen": [
+        "WVV art. 3:22",
+        "WVV art. 3:23",
+        "WVV art. 3:24",
+        "WVV art. 3:25",
+        "WVV art. 3:26",
+        "WVV art. 1:24",
+        "CBN-advies 2022/09",
+        "CBN-advies 2022/03",
+        "IFRS 10"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:10:00Z", "model": "claude-sonnet-4-5", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Pass 1 content gevuld — wanneer moet een geconsolideerde jaarrekening opgesteld worden." }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De consolidatieverplichting is de juridische plicht voor een moedervennootschap (of de consortium-leden samen) om een geconsolideerde jaarrekening en een geconsolideerd jaarverslag op te stellen wanneer zij — alleen of gezamenlijk — één of meer dochterondernemingen controleert. De plicht volgt uit art. 3:22 e.v. WVV en geldt enkel voor vennootschappen met rechtspersoonlijkheid. De groep wordt vrijgesteld wanneer ze als 'groep van beperkte omvang' kwalificeert op basis van de groottecriteria (art. 3:25 WVV in samenhang met art. 1:24 § 6 WVV).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25", "context": "Vrijstelling kleine groep" },
+            { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Consolidatieverplichting – Consoliderende vennootschap" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De vraag 'moet ik consolideren?' beantwoord je in twee stappen: (1) is er een groep met controle-relatie? (verticaal: moeder + dochters, of horizontaal: consortium met centrale leiding); (2) is die groep groot genoeg om consolidatieplichtig te zijn? Als één van beide vragen 'nee' is, vervalt de plicht. Voor IFRS-rapporteerders geldt een parallel pad via IFRS 10 (control-test) maar zonder algemene 'kleine groep'-vrijstelling — IFRS 10 § 4 bevat enkel een vrijstelling voor tussenholdings die zelf geconsolideerd worden door een hoger niveau dat IFRS-conforme cijfers publiceert.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22-3:25" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Synthese B-GAAP vs IFRS-pad" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever wil dat groepen die een wezenlijke economische voetafdruk hebben (omzet · personeelsbestand · balanstotaal boven drempels) transparante groepscijfers publiceren. Kleine familiale groepen krijgen vrijstelling om de administratieve last evenredig te houden. De plicht ligt bij de moedervennootschap (of, bij consortium, collectief bij de leden) omdat zij economisch het 'gezicht' van de groep zijn naar derden — schuldeisers, fiscus, leveranciers.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Ratio legis groep-rapportering" }
           ]
         }
       }
-    }
-  },
-  "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["controle-bij-consolidatie"],
+      "kader": "geconsolideerde-jaarrekening",
+      "volgkennis": ["consolidatiekring", "consolidatiemethoden"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV art. 3:22 e.v. (sinds 1 januari 2020). Drempelwaarden 'kleine groep' verhoogd door wijziging 2023 in uitvoering van Richtlijn (EU) 2023/2775.",
+        "toelichting": "Drempels groottecriteria (art. 1:24 § 6 WVV — geconsolideerde of geaggregeerde basis): 50 werknemers, balanstotaal en omzet (geïndexeerd; exacte bedragen in Cijferzakboekje)."
+      },
+      "voor": [
+        {
+          "tekst": "Belgische moedervennootschappen met rechtspersoonlijkheid die één of meer dochterondernemingen controleren. Ook consortium-leden gezamenlijk wanneer zij onder centrale leiding staan.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:24, tweede lid", "context": "Consortium" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Vzw's, ivzw's, stichtingen en maatschappen — zij kunnen nooit moedervennootschap zijn. Zelfs als zij feitelijk een groep controleren (bv. familiale stichting boven een verticale groep) berust de consolidatieplicht bij de onderliggende vennootschappen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22" },
+              { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Consolidatieverplichting – Consoliderende vennootschap" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Vrijstelling 'groep van beperkte omvang' (kleine groep, art. 3:25 WVV): wanneer de groep op geconsolideerde of geaggregeerde basis niet meer dan één van de drempelwaarden van art. 1:24 § 6 WVV overschrijdt. Vrijstelling vervalt voor groepen waarvan minstens één onderneming een organisatie van openbaar belang is.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24", "context": "Groottecriteria-berekening op geconsolideerde basis" }
+            ]
+          }
+        },
+        {
+          "tekst": "Sub-consolidatie-vrijstelling (art. 3:26 WVV): een Belgische tussen-moedervennootschap kan vrijgesteld worden van eigen consolidatieplicht wanneer zij zelf geconsolideerd wordt door een Europese moeder die geconsolideerde cijfers volgens gelijkwaardige normen publiceert.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:26" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De plicht ontstaat vanaf het boekjaar waarin de moedervennootschap voor het eerst voldoet aan de combinatie 'controle bestaat' + 'groep niet meer klein'. Dit kan gebeuren door (1) verwerving van een dochter, (2) interne groei waardoor groep-drempels overschreden worden, of (3) wegvallen van een vrijstellingsgrond (bv. nieuwe organisatie van openbaar belang).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
+              { "type": "cbn", "naam": "CBN-advies 2024/07", "ref": "Voorbeeld 5: beoordeling op geconsolideerde of geaggregeerde basis" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "tweesporen-test-bgaap",
+        "naam": { "primair": "B-GAAP-spoor: controle + groottedrempel" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Onder B-GAAP geldt de plicht zodra (1) er minstens één dochteronderneming wordt gecontroleerd EN (2) de groep groottedrempels overschrijdt. Drempelwaarden worden geconsolideerd of geaggregeerd berekend (art. 1:24 § 6 + § 7 WVV) zodat het ontwijken van consolidatie via opsplitsing in kleinere vennootschappen niet werkt.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 6 + § 7" },
+                  { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Consolidatie moedervennootschap" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "ifrs-spoor",
+        "naam": { "primair": "IFRS-spoor: IFRS 10 control + EU-IAS-verordening" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Voor entiteiten die onder de IAS-verordening (EG) 1606/2002 vallen (beursgenoteerde groepen + bepaalde banken/verzekeraars), geldt de IFRS-plicht: een moeder consolideert wanneer zij control heeft over een investee (IFRS 10 § 6). Control bestaat uit drie ingrediënten: power, exposure to variable returns, en de koppeling tussen power en returns. IFRS 10 § 4 bevat een 'investment entity'-uitzondering en een vrijstelling voor tussenholdings die op hoger niveau IFRS-geconsolideerd worden.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "IFRS 10 — Geconsolideerde jaarrekening", "ref": "§4-7" },
+                  { "type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 10", "context": "EU-endorsement IFRS" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-kleine-groep-vrijstelling",
+        "titel": "Familiale groep onder drempel — vrijstelling",
+        "context": "Aurelia Holding NV bezit 100 % van Zelena Bio NV en 80 % van Vermeer Verpakking BV. Geconsolideerd: balanstotaal 5 mio EUR, omzet 8 mio EUR, gemiddeld 35 werknemers. Geen organisatie van openbaar belang in de groep.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:25" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Toets aan groottecriteria (geconsolideerd, exacte drempels in Cijferzakboekje):\n- werknemers <= 50 OK\n- balanstotaal onder drempel OK\n- omzet onder drempel OK\n\nResultaat: groep van beperkte omvang (art. 1:24 § 6 WVV). Aurelia is vrijgesteld van consolidatieplicht (art. 3:25 WVV). Wel consolidatiekring blijven monitoren — vrijstelling kan vervallen bij groei."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-consortium-plicht",
+        "titel": "Horizontale groep — consortium-plicht",
+        "context": "Vennootschap X (15 werknemers, balans 3 mio) en vennootschap Y (40 werknemers, balans 12 mio) hebben dezelfde meerderheid van bestuurders. Geen moeder-dochter-relatie tussen X en Y. Geen overige dochters.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2022/09", "ref": "Voorbeeld 1" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "X + Y = consortium (gezamenlijke meerderheid van bestuurders = onweerlegbaar vermoeden centrale leiding, art. 1:19 WVV).\nGeconsolideerd: 55 werknemers, 15 mio balanstotaal — boven werknemers-drempel (>50).\nResultaat: plicht ontstaat gezamenlijk bij X en Y (art. 3:24 lid 2 WVV). Beide consoliderende vennootschap; opmaakplicht en publicatieplicht gemeenschappelijk."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Groottedrempel op enkelvoudige basis berekenen",
+        "verkeerde_assumptie": "De drempels werknemers/omzet/balans van art. 1:24 WVV gelden voor de moedervennootschap alleen.",
+        "kernpunt": "Voor de consolidatieplicht worden de drempels geconsolideerd of geaggregeerd berekend (art. 1:24 § 6 WVV). Een 'kleine' moedervennootschap kan toch consolidatieplichtig zijn omdat haar dochters bij optelling de drempels doen springen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24 § 6 + § 7" },
+            { "type": "cbn", "naam": "CBN-advies 2022/03", "ref": "Consolidatie moedervennootschap" }
+          ]
+        }
+      },
+      {
+        "titel": "Sub-consolidatievrijstelling automatisch veronderstellen",
+        "verkeerde_assumptie": "Een Belgische tussen-moeder onder een EU-groepsmoeder hoeft nooit zelf te consolideren.",
+        "kernpunt": "Art. 3:26 WVV vrijstelling kent strikte voorwaarden: (1) hogere moeder consolideert volgens gelijkwaardige normen; (2) cijfers worden in België neergelegd; (3) minderheidsaandeelhouders verzoeken niet om Belgische consolidatie. Onbeursgenoteerd niveau van hogere moeder of aandeelhouders met 10 % of meer kunnen de vrijstelling tegenhouden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 3:26" }
+          ]
+        }
+      },
+      {
+        "titel": "Plicht enkel bij meerderheid van aandelen",
+        "verkeerde_assumptie": "Wie geen meerderheid van aandelen heeft, hoeft niet te consolideren.",
+        "kernpunt": "Het criterium is controle (art. 1:14 WVV), niet aandelenmeerderheid. Controle in feite (stemrechten-meerderheid op laatste twee AVG's, aanstelling meerderheid van bestuurders, statutaire bevoegdheid) volstaat — ook met < 50 % aandelen. Een minderheidsaandeelhouder kan dus consolidatieplichtig zijn.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:15" }
+          ]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
     {
-      "type": "vereist",
-      "target": "controle-bij-consolidatie"
+      "id": "moeder-perspectief",
+      "naam": { "primair": "Moedervennootschap" },
+      "intro": "De accountant die de moeder bijstaat bij het bepalen of consolidatie verplicht is.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "jaarlijkse-toets-plicht",
+              "naam": { "primair": "Jaarlijkse toets consolidatieplicht" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor elke moedervennootschap op balansdatum: (1) inventariseer alle deelnemingen + bestuursmandaten + aandeelhoudersovereenkomsten; (2) bepaal welke leiden tot controle (art. 1:14 + 1:15 WVV); (3) bereken geconsolideerde of geaggregeerde groottedrempels (omzet, balanstotaal, werknemers); (4) check sub-consolidatie-vrijstelling (art. 3:26); (5) documenteer het resultaat — plicht of vrijgesteld + grond.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 3:22-3:26" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Boekhouderspraktijk jaarafsluiting groep" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "controle-volledigheid-plicht",
+              "naam": { "primair": "Audit volledigheid consolidatieplicht" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De commissaris verifieert onafhankelijk de drempel-berekening en zoekt naar 'verzwegen' dochters: deelnemingen die niet als zodanig gerapporteerd worden maar feitelijk gecontroleerd. Aandachtsgebieden: SPV's, optie-/voorkooprechten, management-contracten, joint ventures die de facto controle geven. Niet-naleving van de plicht = inbreuk op WVV met mogelijk weigering van commissarisoordeel.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 600 — Audits of Group Financial Statements", "ref": "§21-23" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-groeiende-groep",
+              "naam": { "primair": "Advies bij groei langs drempel" },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer een familiale groep dicht bij de drempelwaarden zit, vroegtijdig waarschuwen: in het jaar van drempel-overschrijding moet een consolidatie-infrastructuur (group reporting tools, uniforme waarderingsregels, intercompany-administratie) operationeel zijn. Voorbereiden vereist 6 à 12 maanden — niet wachten tot de plicht aanslaat.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Adviespraktijk groeiende familiale groepen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "geconsolideerde-jaarrekening" },
+    { "type": "vereist", "target": "controle-bij-consolidatie" },
+    { "type": "triggert", "target": "consolidatiekring" }
   ]
 }
