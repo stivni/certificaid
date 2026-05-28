@@ -8,12 +8,16 @@
       "audit-aanpak",
       "opdracht-uitvoering",
       "engagement lifecycle"
-    ]
+    ],
+    "vertaling": {
+      "fr": "mission d'audit",
+      "en": "audit engagement"
+    }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -31,8 +35,8 @@
         "Fase 2: plannen (cross audit-planning)",
         "Fase 3: bewijswerk (cross audit-bewijs)",
         "Fase 4: afronden + oordeel (cross audit-afronding + controleverklaring)",
-        "#prof-skepticism als basisattitude-sectie die alle fases doordringt",
-        "#delegatie-en-supervisie als teamorganisatie-sectie (engagement partner eindverantwoordelijk · review-piramide)"
+        "Professionele oordeelsvorming en professioneel-kritische instelling (professional skepticism) als basisattitude die alle fases doordringt",
+        "Delegatie en supervisie als teamorganisatie-sectie (opdrachtpartner eindverantwoordelijk · review-piramide)"
       ],
       "out": [
         {
@@ -76,16 +80,29 @@
           "ref": "commissaris"
         },
         {
-          "topic": "Kantoor-niveau-overlay (ISQM)",
+          "topic": "Kantoor-niveau-overlay (ISQM 1)",
           "richting": "moet-verwijzen",
           "ref": "kwaliteitsmanagement-opdracht"
         }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "cluster-extract-v1",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/controleopdracht.json",
+      "primary_bronnen": [
+        "ISA 300",
+        "ISA 220 (herzien)",
+        "ISA 210",
+        "ISA 510",
+        "ISA 700 (herzien)",
+        "ISA 560",
+        "ITAA-norm-kmo-controlenorm § 2.2.1, § 4.3.7"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -94,26 +111,465 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ISA 300/210/220/510/700/560 + ITAA-KMO-controlenorm). 4-fase-cyclus uitgewerkt als sub-concepten met cross-references naar audit-planning, audit-bewijs, audit-afronding, controleverklaring."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Een controleopdracht is een assurance-opdracht waarbij de gecertificeerd accountant of bedrijfsrevisor voldoende en geschikte controle-informatie verzamelt om met een redelijke mate van zekerheid (reasonable assurance) te oordelen of de financiële overzichten in alle van materieel belang zijnde opzichten een getrouw beeld geven volgens het van toepassing zijnde stelsel inzake financiële verslaggeving. De opdracht doorloopt een dwingende cyclus van vier fasen — aanvaarden, plannen, bewijswerk, afronden — die elkaar opvolgen maar ook iteratief blijven verlopen: nieuwe bevindingen in fase 3 kunnen de planning uit fase 2 doen herzien. De ruggengraat van een controleopdracht ligt in de International Standards on Auditing (ISA), met voor kleine en middelgrote entiteiten in België een specifieke uitwerking via de ITAA-KMO-controlenorm.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ISA 300", "ref": "par. 2" },
+            { "type": "norm", "naam": "ISA 200", "ref": "Algehele doelstellingen" },
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.1" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Wat de controleopdracht in de praktijk doet is geen ‘nakijken of de cijfers kloppen’ — het is een gestructureerde risico-georiënteerde overtuigingsoefening. De accountant gaat uit van de assertions (beweringen) die het bestuur impliciet doet door de jaarrekening voor te leggen: bestaan, volledigheid, waardering, rechten/verplichtingen, presentatie. Voor elke materiële post bepaalt hij waar het risico op een afwijking van materieel belang het grootst is en stemt zijn werk daarop af. De cyclus eindigt niet met ‘alles is OK’ maar met een geargumenteerd oordeel — vier mogelijke formuleringen (zonder voorbehoud · met voorbehoud · afkeurend · onthouding) — dat de stakeholders (aandeelhouders, banken, fiscus, AV) gebruiken om te beslissen of ze zich op de cijfers kunnen verlaten.\n\n```mermaid\nflowchart LR\n  A[Fase 1: Aanvaarden] --> B[Fase 2: Plannen]\n  B --> C[Fase 3: Bewijswerk]\n  C --> D[Fase 4: Afronden + Oordeel]\n  C -.iteratief.-> B\n  D --> E[Controleverklaring]\n```",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 300", "ref": "par. A3 (planning als iteratief proces)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese cyclus + assertion-georiënteerde aanpak" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom een dwingende 4-fase-cyclus? Twee redenen. (1) Bewijslast-architectuur: een oordeel ‘in alle materiële opzichten’ kan alleen rusten op een keten van gedocumenteerde stappen — wie controleert moet kunnen aantonen dát hij de juiste risico's zag, dáárop inspeelde, en zijn besluit op concreet bewijs steunt. Spring je een fase over, dan vervalt het oordeel als juridisch verdedigbaar product. (2) Onafhankelijkheid van resultaat: de accountant moet zijn oordeel kunnen geven onafhankelijk van wat het management hoopt. De fase-discipline (eerst onafhankelijkheid checken, dan plannen, dan bewijs, dan oordelen) is precies wat hem beschermt tegen ‘achteraf de cijfers goedmaken’. De ISA-architectuur en de ITAA-KMO-controlenorm zetten deze logica om in proceduregaranties.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 200", "ref": "Algehele doelstellingen" },
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 4.3.7" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio legis van de fase-discipline" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "opdracht-types",
+        "opdrachtaanvaarding-en-opdrachtbrief"
+      ],
+      "kader": "opdracht-types",
+      "naast_relevant": [
+        "kwaliteitsmanagement-opdracht",
+        "commissaris"
+      ],
+      "volgkennis": [
+        "audit-planning",
+        "audit-bewijs",
+        "audit-afronding",
+        "controleverklaring",
+        "revisiedossier"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "ISA-stelsel (IAASB) · ITAA-KMO-controlenorm · WVV (commissaris) · Wet 7 december 2016 (organisatie ITAA en bedrijfsrevisorenfunctie)",
+        "toelichting": "De 4-fase-cyclus is structureel: alle ISA's en de ITAA-KMO-controlenorm bouwen erop voort. ISA-herzieningen wijzigen detail (bv. ISA 315 (herzien 2019), ISA 220 (herzien), ISA 600 herzien voor groepen), maar niet de architectuur."
+      },
+      "voor": [
+        {
+          "tekst": "Een volwaardige controleopdracht (reasonable assurance) past bij: wettelijke commissaris-opdrachten in (middel-)grote vennootschappen (WVV art. 3:72 e.v.), vrijwillige audit bij banken/leningen, due diligence bij overname, audit van geconsolideerde jaarrekening, controle in gereglementeerde sectoren (verzekeringen, kredietinstellingen). Voor KMO's onder de groottecriteria is doorgaans samenstellings- of beoordelingsopdracht passender — de keuze ligt bij de cliënt, niet bij de wet.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 1.1.2 Ratione materiae" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Randvoorwaarden vóór aanvaarding (ISA 210 + ITAA-KMO-controlenorm § 2.2.1): (a) het bestuur erkent zijn verantwoordelijkheid voor de financiële overzichten; (b) het van toepassing zijnde verslaggevingsstelsel is aanvaardbaar (BE-GAAP, IFRS-EU, ...); (c) de accountant beschikt over de bekwaamheid, medewerking, middelen en tijd om de opdracht uit te voeren; (d) geen beperking van de reikwijdte die een oordeel onmogelijk zou maken; (e) onafhankelijkheid verzekerd (IESBA-code + ITAA-deontologie).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 210", "ref": "Vereisten — randvoorwaarden" },
+              { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.1 §32-§35" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "De cyclus start formeel met de ondertekende opdrachtbrief — het contractueel-deontologisch beginpunt. Bij commissaris-opdrachten gaat daaraan een benoeming door de algemene vergadering vooraf (WVV art. 3:58, mandaat 3 jaar hernieuwbaar).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 210", "ref": "Vereisten — opdrachtbrief" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 3:58" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De cyclus eindigt bij ondertekening en uitgifte van de controleverklaring. De handtekening mag pas dateren nadat: (a) voldoende en geschikte controle-informatie verkregen is, (b) bestuur formele schriftelijke bevestigingen (letter of representation, ISA 580) leverde, (c) jaarrekening door bestuur is goedgekeurd. Gebeurtenissen na de einddatum maar vóór de verklaring (ISA 560) blijven in scope.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 560", "ref": "Doelstellingen par. 4" },
+              { "type": "norm", "naam": "ISA 580", "ref": "Schriftelijke bevestigingen" },
+              { "type": "norm", "naam": "ISA 700 (herzien)", "ref": "par. 41 datering verklaring" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Hoofdrisico voor de accountant: een ten onrechte goedkeurend oordeel afgeven (Type II audit-risico). Sancties: tucht (ITAA), beroepsaansprakelijkheid (schadevergoeding aan misleide derden), strafrechtelijk in fraude-gevallen, reputatieschade. Mitigatie: rigoureuze fase-discipline, professioneel-kritische instelling, dossier-discipline (zie revisiedossier).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 200", "ref": "audit-risico definitie" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "fase-1-aanvaarden",
+        "naam": {
+          "primair": "Fase 1 — Aanvaarden"
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Pre-opdracht-activiteiten waarmee de accountant beslist of hij de opdracht aanvaardt of voortzet. Drie deelhandelingen: (a) cliënten-onderzoek inclusief antiwitwas-KYC en integriteits-check; (b) capaciteits-check — kan het kantoor deze opdracht aan in termen van bekwaamheid, middelen en tijd?; (c) onafhankelijkheids- en ethiek-check (IESBA + ITAA); en pas dan (d) opdrachtbrief opstellen en wederzijds laten ondertekenen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.1 §32-§38" },
+                  { "type": "norm", "naam": "ISA 210", "ref": "Vereisten — overeenkomen voorwaarden" },
+                  { "type": "norm", "naam": "ISA 220 (herzien)", "ref": "Cliëntaanvaarding en -continuering" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "Wie een verkeerde opdracht aanvaardt, sleept zich vier fasen lang door problemen. Beter vooraf weigeren dan achteraf onthouding moeten formuleren of de opdracht teruggeven. Deze fase is dus geen formaliteit maar een eerste risico-filter.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "fase-2-plannen",
+        "naam": {
+          "primair": "Fase 2 — Plannen"
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Vaststellen van (a) algehele controle-aanpak (overall audit strategy) — reikwijdte, timing, richting, beschikbare middelen — en (b) gedetailleerd controleprogramma (audit plan) op basis van inzicht in entiteit en omgeving (ISA 315), risico-inschatting (audit risk model), materialiteit (ISA 320) en geplande verdere controlewerkzaamheden (ISA 330). Planning is geen losse fase maar een doorlopend iteratief proces — gestart kort na afsluiting van vorige controle en bijgewerkt tot afronding.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 300", "ref": "par. 2, 7, 8, 9, A3" },
+                  { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "risico-inschatting" },
+                  { "type": "norm", "naam": "ISA 320", "ref": "materialiteit" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "fase-3-bewijswerk",
+        "naam": {
+          "primair": "Fase 3 — Bewijswerk"
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Uitvoeren van de in fase 2 geplande controlewerkzaamheden om voldoende en geschikte controle-informatie te verzamelen per audit-bewering (assertion). Twee categorieën: (a) systeemgerichte werkzaamheden (test of controls) — verifiëren of interne beheersingsmaatregelen effectief werken; (b) gegevensgerichte werkzaamheden (substantive procedures) — cijferanalyses en detailwerkzaamheden (inspectie, observatie, navraag, externe bevestiging, herberekening, opnieuw uitvoeren). De auditor blijft alert: onverwachte bevindingen kunnen risico-inschatting en programma (fase 2) doen herzien.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 330", "ref": "Inspelen op ingeschatte risico's" },
+                  { "type": "norm", "naam": "ISA 500", "ref": "Controle-informatie" },
+                  { "type": "norm", "naam": "ISA 505", "ref": "Externe bevestigingen" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "fase-4-afronden",
+        "naam": {
+          "primair": "Fase 4 — Afronden en oordelen"
+        },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Eindbalans van het bewijswerk: (a) overall analytical review (laatste plausibiliteits-check), (b) evaluatie van geaccumuleerde misstatements vs materialiteit (clearing memo, ISA 450), (c) toetsing gebeurtenissen na einddatum (ISA 560), (d) verkrijgen schriftelijke bevestiging management (ISA 580), (e) communicatie met de met governance belaste personen (ISA 260), (f) vormen van het oordeel (ISA 700) en (g) opstellen + uitgeven controleverklaring. Pas na deze sequentie mag de verklaring gedateerd en ondertekend worden.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 700 (herzien)", "ref": "Het vormen van een oordeel" },
+                  { "type": "norm", "naam": "ISA 560", "ref": "Gebeurtenissen na einddatum" },
+                  { "type": "norm", "naam": "ISA 580", "ref": "Schriftelijke bevestigingen" },
+                  { "type": "norm", "naam": "ISA 260 (herzien)", "ref": "Communicatie met governance" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "professioneel-kritische-instelling",
+        "naam": {
+          "primair": "Professioneel-kritische instelling (professional skepticism)"
+        },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Een houding die de hele opdracht doordringt: de accountant gaat niet uit van eerlijkheid noch oneerlijkheid van het management, maar van een alert vragend kritisch perspectief. Concreet: niet tevreden zijn met een eerste antwoord, doorvragen bij ongebruikelijke patronen, tegenstrijdig of ontbrekend bewijsmateriaal als rode vlag behandelen, geen genoegen nemen met enkel kopieën waar originelen verwacht worden, ongebruikelijke balansverhoudingen of laat-aangebrachte boekingen onderzoeken.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 200", "ref": "definitie professional skepticism" },
+                { "type": "norm", "naam": "ISA 240", "ref": "Bijlage 3 — fraude-indicatoren" }
+              ]
+            }
+          },
+          "rationale": {
+            "tekst": "Zonder kritische instelling vervalt de controle in een check-the-box-oefening die fraude en materiële afwijkingen mist. ISA 200 maakt het tot een verplichte basishouding, ISA 240 vertaalt het concreet naar fraude-alertheid.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "delegatie-en-supervisie",
+        "naam": {
+          "primair": "Delegatie en supervisie binnen het opdrachtteam"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een controleopdracht is teamwerk maar met persoonlijke eindverantwoordelijkheid. De opdrachtpartner (engagement partner, of bij wettelijke controle: de commissaris zelf) blijft persoonlijk verantwoordelijk voor het oordeel; junior teamleden voeren werk uit onder review. ISA 220 (herzien) eist dat de partner: (a) voldoende geschikte middelen toewijst, (b) actief betrokken is bij planning en kritische oordeelsmomenten, (c) toezicht houdt en review uitvoert, (d) eindverantwoordelijkheid neemt voor de archivering. Review-piramide: junior werk → senior review → manager review → partner review (engagement quality reviewer bij PIE-controles).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 220 (herzien)", "ref": "Kwaliteitsmanagement op opdrachtniveau" },
+                { "type": "norm", "naam": "ISA 300", "ref": "par. 5 betrokkenheid kernleden" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "iteratief-karakter",
+        "naam": {
+          "primair": "Iteratief karakter — fasen lopen niet strikt lineair"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Fasen zijn op papier sequentieel maar in praktijk iteratief: een onverwachte bevinding in fase 3 (bv. een grote ongedocumenteerde transactie) doet de risico-inschatting herzien (terug naar fase 2), wat nieuwe procedures genereert (opnieuw fase 3). Planning is daarom volgens ISA 300 A3 ‘geen afzonderlijke fase maar een voortdurend en iteratief proces dat vaak kort na (of in samenhang met) de afronding van de voorgaande controle begint en verder gaat tot de afronding van de lopende controleopdracht’.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 300", "ref": "par. A3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "doorlopend-vs-initieel",
+        "naam": {
+          "primair": "Doorlopende vs initiële controleopdracht"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een eerste-jaar-controle (initial engagement, ISA 510) gelden bijkomende eisen omdat de accountant geen ervaring met de entiteit heeft. Bijkomende aandachtspunten: (a) afspraken met vorige auditor (overdrachtsgesprek, inzage werkdocumenten tenzij wettelijk verboden); (b) verkrijgen voldoende controle-informatie over beginsaldi (anders mogelijke beperking oordeel); (c) zorgvuldige beoordeling van verslaggevingsprincipes die de voorgaande accountant toepaste. Bij doorlopende controle (recurring engagement) start de planning kort na afronding van de vorige cyclus.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 510", "ref": "Initiële controleopdrachten — beginsaldi" },
+                { "type": "norm", "naam": "ISA 300", "ref": "par. 12 + A24" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Controle = ‘alles checken’",
+        "verkeerde_assumptie": "De accountant moet elke transactie en elk bedrag in de boekhouding nakijken om er zeker van te zijn dat alles klopt.",
+        "kernpunt": "Een controle werkt met redelijke (niet: absolute) zekerheid en met materialiteit. Het is een risico-georiënteerde opdracht: tijd en middelen gaan naar de posten met het hoogste risico op een afwijking van materieel belang. Steekproeven (ISA 530) en cijferanalyse (ISA 520) zijn legitiem omdat 100%-controle noch nodig noch haalbaar is.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 200", "ref": "Algehele doelstellingen — redelijke zekerheid" },
+            { "type": "norm", "naam": "ISA 320", "ref": "Materialiteit" }
+          ]
+        }
+      },
+      {
+        "titel": "Planning één keer in januari afvinken",
+        "verkeerde_assumptie": "De controle-aanpak wordt aan het begin vastgelegd en vervolgens uitgevoerd zonder herziening.",
+        "kernpunt": "ISA 300 A3 stelt expliciet dat planning iteratief is. Bewijswerk in fase 3 kan nieuwe risico's blootleggen die de planning doen herzien. Wie blindelings het oorspronkelijke plan afwerkt mist de signalen waarvoor net dat werk diende.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 300", "ref": "par. A3" }
+          ]
+        }
+      },
+      {
+        "titel": "Onthouding als ‘veilige optie’",
+        "verkeerde_assumptie": "Bij twijfel formuleert de accountant gewoon een oordeelonthouding — dat is risicoloos.",
+        "kernpunt": "Onthouding is geen escape: het signaleert aan de markt dat de accountant geen oordeel kan geven (massief negatief signaal voor cliënt). ISA 705 eist dat onthouding alleen wordt gebruikt wanneer mogelijke effecten van niet-verkregen bewijs van materieel belang én diepgaand zijn. Een ‘gemakzucht-onthouding’ is een tuchtprobleem.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 705 (herzien)", "ref": "Aanpassingen van het oordeel" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "tijdslijn",
+        "intro": "Typische tijdsverdeling controleopdracht (boekjaar dat afsluit per 31 december).",
+        "inhoud": {
+          "mijlpalen": [
+            { "moment": "September-oktober jaar T", "actie": "Cliëntaanvaarding/-continuering · opdrachtbrief · planning startwerkzaamheden" },
+            { "moment": "November-december jaar T", "actie": "Inzicht entiteit & risico-inschatting (ISA 315) · interim-bewijswerk · voorraad-opname bijwonen rond 31/12" },
+            { "moment": "Januari-februari jaar T+1", "actie": "Hoofdfase bewijswerk: substantieve procedures, externe bevestigingen, schattingen testen" },
+            { "moment": "Maart-april jaar T+1", "actie": "Afronding: subsequent events, clearing memo, overall analytical review, LOR, communicatie met governance" },
+            { "moment": "April-mei jaar T+1", "actie": "Ondertekening controleverklaring (vóór AV, meestal binnen 6 maanden na afsluiting boekjaar — WVV)" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-uitvoerder",
+      "naam": {
+        "primair": "De accountant als uitvoerder van de controleopdracht"
+      },
+      "intro": "Wat doet de gecertificeerd accountant (of bedrijfsrevisor) concreet doorheen de cyclus?",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "fase-1-handelingen",
+              "naam": { "primair": "Concrete handelingen in fase 1 (aanvaarden)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) KYC-dossier opbouwen (identificatie cliënt, lasthebbers, uiteindelijke begunstigden — antiwitwas). (2) Integriteits-check management (open bronnen, eventueel referenties). (3) Bekwaamheids- en capaciteitscheck binnen kantoor (deskundigheid sector, beschikbare uren). (4) Onafhankelijkheids-evaluatie (IESBA-bedreigingen identificeren + safeguards). (5) Overdrachtsgesprek vorige accountant indien nieuwe opdracht. (6) Opdrachtbrief opstellen volgens ISA 210/ITAA-model, ondertekenen en bewaren in permanent dossier.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "§ 2.2.1 §32-§38" },
+                      { "type": "norm", "naam": "ISA 210", "ref": "Vereisten" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "fase-2-handelingen",
+              "naam": { "primair": "Concrete handelingen in fase 2 (plannen)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Inzicht verwerven in entiteit + omgeving (ISA 315 herzien 2019): sector, governance, IT, regelgeving, interne beheersing. (2) Discussiemeeting met opdrachtteam over fraude-risico (ISA 240). (3) Materialiteit bepalen: overall + performance + specifieke (ISA 320). (4) Risico's op afwijkingen van materieel belang inschatten per assertion. (5) Algehele controle-aanpak documenteren. (6) Controleprogramma opstellen (test of controls + substantive procedures) en middelen toewijzen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 300", "ref": "par. 7-9" },
+                      { "type": "norm", "naam": "ISA 315 (herzien 2019)", "ref": "" },
+                      { "type": "norm", "naam": "ISA 320", "ref": "" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "fase-3-handelingen",
+              "naam": { "primair": "Concrete handelingen in fase 3 (bewijswerk)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Test of controls waar steunen op IB-systeem efficiënt is. (2) Substantive analytical procedures op posten met logische verbanden (loonkost vs personeelsbestand). (3) Tests of details: inspectie facturen, observatie voorraadopname, externe bevestigingen (debiteuren, banken, advocaten), navraag management, herberekening. (4) Sampling waar volledig onderzoek niet praktisch is (ISA 530). (5) Schattingen testen (waardevermindering, voorzieningen) — ISA 540. (6) Werkdocumenten opbouwen met conclusie per programmapunt.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 330", "ref": "" },
+                      { "type": "norm", "naam": "ISA 500", "ref": "" },
+                      { "type": "norm", "naam": "ISA 505", "ref": "" },
+                      { "type": "norm", "naam": "ISA 530", "ref": "" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "fase-4-handelingen",
+              "naam": { "primair": "Concrete handelingen in fase 4 (afronden + oordeel)" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "(1) Overall analytical review op definitieve jaarrekening. (2) Clearing memo: alle ongecorrigeerde misstatements geaccumuleerd, vergeleken met materialiteit (ISA 450). (3) Subsequent events review tot datum verklaring (ISA 560). (4) LOR (letter of representation) verkrijgen, ondertekend door bestuur (ISA 580). (5) Communicatie met de met governance belaste personen — significante bevindingen, kernpunten, fraude-indicaties (ISA 260, 265). (6) Engagement quality review bij PIE/grote dossiers. (7) Vormen oordeel (ISA 700) → opstellen controleverklaring → dateren niet vóór bestuur jaarrekening goedkeurde.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 450", "ref": "" },
+                      { "type": "norm", "naam": "ISA 560", "ref": "" },
+                      { "type": "norm", "naam": "ISA 580", "ref": "" },
+                      { "type": "norm", "naam": "ISA 260 (herzien)", "ref": "" },
+                      { "type": "norm", "naam": "ISA 700 (herzien)", "ref": "" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "bevat",
