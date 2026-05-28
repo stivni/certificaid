@@ -1,22 +1,30 @@
 {
   "id": "schenkbelasting",
   "naam": {
-    "primair": "Schenkbelasting"
+    "primair": "Schenkbelasting",
+    "synoniemen": ["registratierecht op schenking"],
+    "vertaling": {"fr": "droits de donation"}
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.6.II"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.6.II"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/schenkbelasting.json",
+      "primary_bronnen": [
+        "VCF art. 2.8.4.1.1 (Vlaanderen — tarieven schenking onroerend)",
+        "VCF art. 2.8.4.4.1 (Vlaanderen — tarieven schenking roerend)",
+        "W.Reg. art. 131-140octies (Brussel/Wallonië — schenking)",
+        "W.Succ. art. 7 (3-jaarsvermoeden bij overlijden)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -25,6 +33,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud schenkbelasting gevuld vanuit VCF + W.Reg. — onroerend vs roerend tarieven + Vl gunstregimes."
       }
     ],
     "scope": {
@@ -35,45 +50,262 @@
         "Vlaamse gunstregimes: vlakke tarieven · familiale onderneming"
       ],
       "out": [
-        {
-          "topic": "Fictiebepaling 3j-vermoeden in erfbelasting",
-          "richting": "moet-verwijzen",
-          "ref": "erfbelasting"
-        },
-        {
-          "topic": "Successieplanning context",
-          "richting": "moet-verwijzen",
-          "ref": "successieplanning"
-        },
-        {
-          "topic": "Gunstregime familiale onderneming",
-          "richting": "moet-verwijzen",
-          "ref": "gunstregime-familiale-onderneming"
-        }
+        {"topic": "Fictiebepaling 3j-vermoeden in erfbelasting", "richting": "moet-verwijzen", "ref": "erfbelasting"},
+        {"topic": "Successieplanning context", "richting": "moet-verwijzen", "ref": "successieplanning"},
+        {"topic": "Gunstregime familiale onderneming", "richting": "moet-verwijzen", "ref": "gunstregime-familiale-onderneming"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "De schenkbelasting is een gewestelijke registratiebelasting die wordt geheven wanneer een notariële schenkingsakte ter registratie wordt aangeboden. Twee hoofdcategorieën: SCHENKING VAN ONROEREND GOED (verplicht notarieel; tarieven 3-27% Vl rechte lijn / 10-40% andere; vergelijkbare maar steilere progressie in Brussel/Wallonië) en SCHENKING VAN ROEREND GOED (kan notarieel of via handgift; geregistreerd: vlakke tarieven 3% Vl rechte lijn-partner / 7% anderen). De schenking moet via een notariële akte wanneer ze onroerend goed betreft of wanneer ze een 'akademische' schenking is (bv. schenking van aandelen met behoud vruchtgebruik). Handgiften van roerend goed (cash, geldstukken, juwelen) gebeuren zonder akte en zijn niet onderworpen aan schenkbelasting — maar vallen wel onder de 3-jaarsregel van art. 7 W.Succ. bij overlijden van de schenker.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.1.1"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.4.1"},
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 7"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het regime is dé planningstool om vermogen 'bij leven' over te dragen met fiscale efficiëntie. Praktijkvoorbeeld: ouder schenkt 200.000 EUR via bankoverschrijving (handgift) aan kind. Indien niet geregistreerd: 0% schenkbelasting (maar onderworpen aan art. 7 W.Succ. — als ouder binnen 3 jaar overlijdt, alsnog erfbelasting). Indien wel geregistreerd via notariële akte: 3% (Vl rechte lijn roerend, vlakke tarieven) = 6.000 EUR — maar geen risico op latere erfbelasting (art. 7-immuniteit). Trade-off: certainty (registratie) vs gokoptimalisatie (handgift). Voor onroerend goed: registratie verplicht; geen 'handgift'-optie. Vlaanderen heeft sinds 2015 zwaar gewerkt aan vereenvoudiging: vlakke tarieven 3%/7% voor roerend goed (was vroeger progressief).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.4.1"},
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 7"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard planningsdoctrine"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De schenkbelasting heeft drie samenhangende rationale: (1) fiscaal-distributief — gratis overdrachten 'om niet' zijn een gepast belastbaar moment, parallel aan erfenissen; (2) anti-misbruik — voorkomt dat erfbelasting wordt ontweken door pre-mortem overdrachten (vandaar 3-jaarsregel); (3) planningsfacilitatie — door lage(re) tarieven voor schenking dan voor erfbelasting (vooral roerend Vl 3% vs erfbelasting 3-27%) wordt overdracht 'bij leven' aangemoedigd, wat gespreid vermogensbeheer faciliteert en de Schatkist een vroege heffing geeft.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 7", "context": "Anti-misbruik 3 jaar"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beleidsrationale"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["registratieformaliteit-akten"],
+      "kader": "registratie-en-successierechten",
+      "naast_relevant": ["erfbelasting", "successieplanning", "gunstregime-familiale-onderneming"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "VCF Titel 2 hoofdstuk 8 (Vlaanderen); W.Reg. art. 131-140octies (Brussel/Wallonië, regionaal)",
+        "toelichting": "Vlaanderen hervormde de schenkbelasting in 2015 met vlakke tarieven voor roerend goed (3%/7%) en behoud van progressieve tarieven voor onroerend goed. Brussel hervormde in 2016 naar gelijkaardige vlakke tarieven roerend. Wallonië heeft nog progressieve tarieven met enkele bijzondere bepalingen voor 'duo-legaat'-achtige technieken die in Vlaanderen werden afgeschaft (2021)."
+      },
+      "trigger_start": [
+        {
+          "tekst": "De aanbieding ter registratie van een notariële schenkingsakte (of een onderhandse schenking die vrijwillig wordt geregistreerd).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.1.0.1"}
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "tarieven-onroerend-vl",
+        "naam": {"primair": "Tarieven schenking onroerend goed (Vl)"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vlaamse progressieve schalen per verkrijger op onroerend goed: rechte lijn + partner: 3% tot 150.000 EUR, 9% van 150.000 tot 250.000 EUR, 18% van 250.000 tot 450.000 EUR, 27% boven 450.000 EUR. Andere personen (broers/zussen, derden): 10% tot 150.000 EUR, 20% van 150.000 tot 250.000 EUR, 30% van 250.000 tot 450.000 EUR, 40% boven 450.000 EUR. Belast per verkrijger en per schenker, per drie jaar (verlaagde tarieven worden 'gereset' na 3 jaar). Bedragen niet uit het hoofd te kennen — Cijferzakboekje raadplegen voor actueel AJ.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.1.1"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Schijf (EUR)", "Rechte lijn + partner", "Anderen"],
+            "rijen": [
+              ["0 - 150.000", "3 %", "10 %"],
+              ["150.000 - 250.000", "9 %", "20 %"],
+              ["250.000 - 450.000", "18 %", "30 %"],
+              ["> 450.000", "27 %", "40 %"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tarieven-roerend-vl",
+        "naam": {"primair": "Tarieven schenking roerend goed (Vl) — vlakke tarieven"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vlaanderen kent vlakke tarieven voor schenking van roerend goed (cash, aandelen, kunst, schuldvordering, vruchtgebruik): 3% voor rechte lijn en partners; 7% voor andere personen. Geen progressie — eenzelfde tarief ongeacht bedrag. Geldt voor zowel notariële schenking als onderhandse schenking die vrijwillig wordt geregistreerd. Brussel: 3%/7% (vergelijkbaar). Wallonië: 3,3% / 5,5% / 7,7% (rechte lijn / echtgenoten / anderen).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.4.1"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "drie-jaars-vermoeden",
+        "naam": {"primair": "3-jaars-vermoeden art. 7 W.Succ."},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Schenkingen door de overledene in de drie jaar vóór overlijden die NIET aan schenkbelasting werden onderworpen (typisch: handgiften, bankgiften zonder registratie, buitenlandse schenkingen) worden bij overlijden bij de nalatenschap geteld voor de erfbelasting (fictiebepaling art. 7 W.Succ. / VCF 2.7.1.0.5). Geregistreerde schenkingen (met betaalde schenkbelasting) zijn vrijgesteld van deze fictie. Strategische keuze: schenking registreren = onmiddellijk 3% betalen + zekerheid; niet registreren = 0% nu maar gok dat schenker > 3 jaar leeft. Vlaanderen verlengt de termijn naar 5 jaar voor schenking familiale-onderneming-aandelen met 0%-gunstregime.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 7"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.1.0.5"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schenking-met-vruchtgebruik",
+        "naam": {"primair": "Schenking met voorbehoud van vruchtgebruik"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Klassieke planningstechniek: ouder schenkt aandelen of effecten aan kind maar behoudt het vruchtgebruik. Civielrechtelijk = onmiddellijke eigendomsoverdracht naar kind (blote eigendom); inkomsten + zeggenschap blijven bij ouder tot diens overlijden. Fiscaal voor schenkbelasting: berekend op de WAARDE VAN HET VRUCHTGEBRUIK OF DE BLOTE EIGENDOM (afhankelijk van wat geschonken wordt) volgens omrekeningstabel op leeftijd vruchtgebruiker. Bij overlijden ouder: vruchtgebruik dooft uit + volle eigendom valt automatisch toe aan kind = GEEN extra erfbelasting (mits geregistreerd; voor handgift met vruchtgebruik blijft 3-jaarsrisico).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.3.0.1", "context": "Waardering vruchtgebruik"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "renovatie-gunst-vl",
+        "naam": {"primair": "Renovatie-gunstregime + verlaagde tarieven (Vl)"},
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Vlaamse gunstregimes bij schenking onroerend goed: (a) verlaagd tarief bij renovatie-onroerend — als de begiftigde of de schenker binnen 5 jaar na schenking renovatiewerken laat uitvoeren voor minimaal 10.000 EUR (excl. BTW), wordt het tarief op die schijf verlaagd (VCF art. 2.8.4.3.1); (b) energie-renovatie: extra verminderingen voor energiebesparende werken; (c) gunstregime familiale onderneming: 0% schenkbelasting (apart record). Brussel + Wallonië hebben gelijkaardige doch andere stimuli.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.3.1"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-handgift-vs-registratie",
+        "titel": "Handgift 200.000 EUR vs notariële schenking — afweging",
+        "context": "Vader (62 jaar, gezond) wil 200.000 EUR overdragen aan zijn dochter. Optie A: bankgift zonder registratie. Optie B: notariële schenking + registratie 3% (Vl roerend).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.4.1"},
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 7"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Optie A — Handgift, geen registratie: 0 EUR nu. Risico: vader overlijdt binnen 3 jaar → 200.000 EUR in nalatenschap, belast in dochters rechte-lijn-tarief (Vl: 3% × 50.000 + 9% × 150.000 = 1.500 + 13.500 = 15.000 EUR erfbelasting).",
+              "Optie B — Notariële schenking + registratie: 3% × 200.000 = 6.000 EUR nu. Geen erfbelasting later, ongeacht datum overlijden.",
+              "Verschil: optie A bespaart 6.000 EUR maar risico-blootstelling 15.000 EUR (worst case binnen 3 jaar). Verwachtingswaarde-berekening: gegeven gezondheidsstatus (62 jaar, geen risicofactoren) is overlijden binnen 3 jaar onwaarschijnlijk."
+            ],
+            "resultaat": "Bij gezond senior < 70 jaar: handgift (optie A) doorgaans optimaal — bespaart 6.000 EUR. Bij senior > 75 of gezondheidsrisico: registratie (optie B) raadzaam voor zekerheid."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Handgift = geen risico",
+        "verkeerde_assumptie": "Een handgift zonder registratie is volledig 'belastingvrij'.",
+        "kernpunt": "De 3-jaarsregel van art. 7 W.Succ. (Vl: 2.7.1.0.5) is onverbiddelijk: bij overlijden van schenker binnen 3 jaar wordt de handgift bij de nalatenschap geteld en alsnog belast met erfbelasting. Risico's: bewijsproblemen, geen vaste datum. Vandaar registratie vóór reisrisico's of medische ingrepen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "art. 7"}
+          ]
+        }
+      },
+      {
+        "titel": "Per-schenking i.p.v. per drie-jaars-periode",
+        "verkeerde_assumptie": "Elke schenking begint met de lage tariefschijf.",
+        "kernpunt": "Vlaanderen rekent de schenkingen tussen dezelfde schenker en begiftigde binnen 3 jaar SAMEN voor de progressie. Wie eerst 100.000 EUR schenkt en zes maanden later nog eens 200.000, kan niet tweemaal de 3%-schijf gebruiken. Pas na 3 jaar wordt de teller 'gereset'.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.1.1", "context": "Samenvoeging schenkingen 3 jaar"}
+          ]
+        }
+      },
+      {
+        "titel": "Tariefverschil onroerend vs roerend miskennen",
+        "verkeerde_assumptie": "Schenken aan kind = 3% — toepasselijk op alles.",
+        "kernpunt": "Vlaanderen: ONROEREND goed = progressief 3-27% rechte lijn. ROEREND goed = vlak 3%. Een schenking van aandelen valt onder 'roerend' (3%); een schenking van het bedrijfsgebouw onder 'onroerend' (3-27%). Bij planning meestal beter eerst aandelen overdragen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.1.1"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.4.1"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "registratie-en-successierechten"
+      "id": "vermogensplanning",
+      "naam": {"primair": "Vermogensplanning + schenkingen"},
+      "intro": "De accountant die ouders/grootouders helpt vermogen efficiënt naar volgende generatie over te brengen.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "tariefkeuze-roerend-onroerend",
+              "naam": {"primair": "Schenking-volgorde: roerend vóór onroerend"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij gespreide planning: eerst roerend vermogen (aandelen, cash, effecten) schenken — vlak 3% Vl tarief. Onroerend goed later schenken of laten erven — daar zit de progressie. Voor familiale onderneming-aandelen: 0%-gunstregime (apart record) zelfs nog voordeliger.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.4.4.1"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard planningsdoctrine"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "registratie-en-successierechten"},
+    {"type": "vergelijkbaar_met", "target": "erfbelasting", "gelijkenissen": ["Beide gewestelijke belastingen op vermogensoverdracht 'om niet'", "Beide progressief volgens verwantschap"], "verschillen": ["Schenking = bij leven; erfbelasting = bij overlijden", "Roerend Vl schenking = vlak 3% i.t.t. erfbelasting progressief 3-27%", "Schenking is keuze; erfbelasting is automatisch bij overlijden"], "verwarring_risico": "Beide vallen onder 'registratie- en successierechten' en worden vaak gepland als communicerende vaten — keuze tussen schenken nu vs erven later.", "render_hint": "als_keuze"},
+    {"type": "triggert", "target": "erfbelasting", "toelichting": "Niet-geregistreerde schenking binnen 3 jaar vóór overlijden → fictiebepaling art. 7 W.Succ."}
   ]
 }
