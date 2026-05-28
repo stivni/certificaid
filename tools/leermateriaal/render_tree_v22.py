@@ -99,19 +99,86 @@ def render_node(node: dict, records: dict[str, dict], depth: int = 0) -> list[st
     return lines
 
 
-def render_cluster(cluster: dict, records: dict[str, dict], heading_depth: int = 3) -> list[str]:
-    raw = cluster.get("naam", "?")
-    # Maak human-readable: streepjes → spaties, sentence-case
-    naam = raw.replace("-", " ").strip()
-    naam = naam[:1].upper() + naam[1:] if naam else raw
-    anno = cluster.get("annotatie") or ""
-    title = f"{'#' * heading_depth} {naam}"
-    if anno:
-        title += f" _{anno}_"
-    lines = ["", title, ""]
-    for node in cluster.get("nodes") or []:
-        lines.extend(render_node(node, records, depth=0))
+CAT_GROUP_TITLES = [
+    ("K", "🏛️ Kaders & principes"),
+    ("E", "🏢 Entiteiten & balansposten"),
+    ("G", "📅 Gebeurtenissen & verrichtingen"),
+    ("R", "📋 Regelingen & regimes"),
+]
+
+
+CAT_LETTER = {"kader": "K", "entiteit": "E", "gebeurtenis": "G", "regeling": "R"}
+
+
+def effective_cats(node: dict, records: dict[str, dict]) -> list[str]:
+    """Categorieen-letters voor sortering. Tree-JSON-cats hebben voorrang; anders fallback naar record.metadata.categorieen."""
+    cats = node.get("categorieen") or []
+    if cats:
+        return cats
+    rec = records.get(node.get("id", ""))
+    if not rec:
+        return []
+    mcats = (rec.get("metadata") or {}).get("categorieen") or []
+    return [CAT_LETTER.get(c, c) for c in mcats]
+
+
+def bucket_by_category(nodes: list[dict], records: dict[str, dict]) -> dict[str, list[dict]]:
+    """Eerste-match-bucketing: K → E → G → R → (rest).
+
+    Een record met cats ['K','E'] valt in K. Een record met ['E','R'] valt in E.
+    """
+    buckets = {"K": [], "E": [], "G": [], "R": [], "_": []}
+    for n in nodes:
+        cats = effective_cats(n, records)
+        placed = False
+        for c in ("K", "E", "G", "R"):
+            if c in cats:
+                buckets[c].append(n)
+                placed = True
+                break
+        if not placed:
+            buckets["_"].append(n)
+    # alfa-sort binnen elke bucket op naam.primair (uit record) of id
+    def naam_key(n):
+        rec = records.get(n.get("id", ""))
+        if rec:
+            return ((rec.get("naam") or {}).get("primair") or n["id"]).lower()
+        return n.get("id", "").lower()
+    for k in buckets:
+        buckets[k].sort(key=naam_key)
+    return buckets
+
+
+def render_cat_buckets(nodes: list[dict], records: dict[str, dict], heading_depth: int = 3) -> list[str]:
+    """Render een platte node-lijst gegroepeerd K → E → G → R, alfabetisch binnen."""
+    buckets = bucket_by_category(nodes, records)
+    lines = []
+    for cat, title in CAT_GROUP_TITLES:
+        items = buckets[cat]
+        if not items:
+            continue
+        lines.append(f"{'#' * heading_depth} {title}")
+        lines.append("")
+        for node in items:
+            lines.extend(render_node(node, records, depth=0))
+        lines.append("")
+    if buckets["_"]:
+        lines.append(f"{'#' * heading_depth} Overig")
+        lines.append("")
+        for node in buckets["_"]:
+            lines.extend(render_node(node, records, depth=0))
+        lines.append("")
     return lines
+
+
+def collect_discipline_nodes(disc_or_sub: dict) -> list[dict]:
+    """Verzamel alle top-level nodes uit alle clusters onder een (sub-)discipline.
+    Behoudt de children-genest in elke node."""
+    out = []
+    for cluster in disc_or_sub.get("clusters") or []:
+        for node in cluster.get("nodes") or []:
+            out.append(node)
+    return out
 
 
 def render_discipline_header(disc: dict, records: dict[str, dict]) -> list[str]:
@@ -183,17 +250,19 @@ def main() -> int:
 
     for disc in tree.get("disciplines") or []:
         lines.extend(render_discipline_header(disc, records))
-        # Eerst clusters die direct onder discipline hangen
-        for cluster in disc.get("clusters") or []:
-            lines.extend(render_cluster(cluster, records, heading_depth=3))
-            for n in cluster.get("nodes") or []:
+        # Verzamel alle nodes uit alle clusters direct onder discipline (cluster-headings vervallen)
+        own_nodes = collect_discipline_nodes(disc)
+        if own_nodes:
+            lines.extend(render_cat_buckets(own_nodes, records, heading_depth=3))
+            for n in own_nodes:
                 count(n)
-        # Dan sub-disciplines
+        # Dan sub-disciplines (PB/VenB/BTW/... onder fiscaliteit) — zelfde aanpak één niveau dieper
         for sub in disc.get("subdisciplines") or []:
             lines.extend(render_subdiscipline_header(sub, records))
-            for cluster in sub.get("clusters") or []:
-                lines.extend(render_cluster(cluster, records, heading_depth=4))
-                for n in cluster.get("nodes") or []:
+            sub_nodes = collect_discipline_nodes(sub)
+            if sub_nodes:
+                lines.extend(render_cat_buckets(sub_nodes, records, heading_depth=4))
+                for n in sub_nodes:
                     count(n)
 
     # Orphan records die niet in tree zitten
