@@ -2,21 +2,15 @@
   "id": "marginale-analyse",
   "naam": {
     "primair": "Marginale analyse",
-    "synoniemen": [
-      "marginal analysis",
-      "relevant cost analysis"
-    ]
+    "synoniemen": ["marginal analysis", "relevant cost analysis", "incrementele kostenanalyse"],
+    "vertaling": {"fr": "analyse marginale"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.8.III.E"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.8.III.E"],
     "scope": {
       "in": [
         "Marginale kosten = additionele kosten bij 1 eenheid extra productie/dienst",
@@ -26,54 +20,207 @@
         "Accept-or-reject special order"
       ],
       "out": [
-        {
-          "topic": "Direct costing (variabele-kost-basis)",
-          "richting": "moet-verwijzen",
-          "ref": "direct-costing"
-        },
-        {
-          "topic": "Investeringsevaluatie (make-or-buy + NPV-context)",
-          "richting": "mag-verwijzen",
-          "ref": "investeringsevaluatie"
-        }
+        {"topic": "Direct costing (variabele-kost-basis)", "richting": "moet-verwijzen", "ref": "direct-costing"},
+        {"topic": "Investeringsevaluatie (make-or-buy + NPV-context)", "richting": "mag-verwijzen", "ref": "investeringsevaluatie"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-management-accounting-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/marginale-analyse.json",
+      "primary_bronnen": [],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-management-accounting-2026-05-28", "wijziging": "Inhoud gevuld vanuit standaard management-accounting-leer (relevant cost analysis)."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
-        "grondslag": {
-          "confidence": "verondersteld",
-          "bronnen": [
+        "tekst": "De marginale analyse (ook 'relevant cost analysis' of 'incrementele analyse') beoordeelt beslissingen op basis van enkel de kosten en opbrengsten die door de beslissing veranderen — niet op basis van de gemiddelde of de full-cost. Marginale kost = de extra kost van één extra eenheid. Marginale opbrengst = de extra opbrengst. Beslissingsregel: doe de beslissing als marginale opbrengst > marginale kost (over alle relevante eenheden). Toepassingen: accept-or-reject special order, make-or-buy, doorgaan of stoppen met productlijn, voorrang geven aan welk product bij capaciteitsbeperking.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard management-accounting-leer"}]}
+      },
+      "substantie": {
+        "tekst": "De stagiair moet leren onderscheid maken tussen drie soorten kosten: relevante kosten (veranderen door de beslissing — alleen die tellen), sunk costs (al gemaakt — irrelevant) en opportunity costs (gemiste alternatieve opbrengst — wél relevant, ook al staan ze niet in de boekhouding). Bij make-or-buy: alleen de vermijdbare vaste kosten + variabele kosten van 'make' tellen versus de inkoopprijs van 'buy' — een fabriekshuur die toch doorloopt is irrelevant. Bij special-order-aanvaarding: alleen de variabele kosten + opportunity cost van capaciteit tellen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      "rationale": {
+        "tekst": "Marginale analyse is decision-driven kostenboekhouding. Veel verkeerde beslissingen ontstaan omdat managers redeneren op basis van gemiddelde kosten of full-cost — daardoor accepteren ze geen orders die contributiemarge opleveren, of houden ze verlies-makende productlijnen aan op basis van 'doorlopende vaste kosten'. De marginale analyse dwingt het denken naar 'wat verandert hier door deze beslissing?', wat bijna altijd een ander resultaat geeft dan 'wat is het gemiddelde?'.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["analytische-boekhouding", "direct-costing"],
+      "kader": "analytische-boekhouding"
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Korte-termijn-beslissingen waarbij de capaciteit en de organisatie-structuur vaststaan: accept-or-reject special order, make-or-buy bij vrije capaciteit, productlijn-keep-or-drop, optimale product-mix bij bottleneck, prijsverlaging om volume aan te trekken.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ],
+      "niet_voor": [
+        {"tekst": "Strategische lange-termijn-beslissingen waar de vaste kostenbasis zelf de variabele is (nieuwe fabriek, nieuwe vestiging, fundamentele technologie-keuze). Daar moet je naar de volledige cashflow-impact kijken via NPV-analyse (investeringsevaluatie), niet alleen naar marginale kosten op korte termijn.", "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}}
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "relevant-cost-test",
+        "naam": {"primair": "Relevant cost test — drie criteria"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een kost is 'relevant' (= mee te tellen in marginale analyse) als ze cumulatief aan drie criteria voldoet: (1) ze is toekomstig (geen sunk cost); (2) ze verschilt tussen de alternatieven (een kost die in beide scenario's identiek is, valt weg in het verschil); (3) ze is een uitgaande cashflow of een opportunity cost (boekhoudkundige allocaties van overhead die geen werkelijke cashbeweging veroorzaken zijn meestal niet-relevant). Pas-toe-vraag: 'verandert deze kost door deze beslissing?'. Zo nee: weglaten.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "opportunity-cost",
+        "naam": {"primair": "Opportunity cost — gemiste alternatieve waarde"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Opportunity cost = de waarde van het beste niet-gekozen alternatief. Belangrijk omdat ze niet in de boekhouding staat maar wel relevant is voor de beslissing. Voorbeeld: een productiehal die ofwel voor product A ofwel voor product B kan gebruikt worden — als A gekozen wordt, is de opportunity cost = gederfde marge op B. Bij volledige capaciteit en aanvraag voor extra order: opportunity cost = gederfde marge op het normaal-prijs verkocht product dat moet wijken.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "make-or-buy",
+        "naam": {"primair": "Make-or-buy beslissing"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij make-or-buy: vergelijk de relevante kost van zelf maken (variabele productiekost + vermijdbare vaste kosten + opportunity cost van vrijgekomen capaciteit) versus de inkoopprijs bij externe leverancier. Niet-vermijdbare vaste kosten (huur fabriek die doorloopt, afschrijving al-aangekochte machine) zijn irrelevant — ze blijven in beide scenario's. Maak indien relevante kost-zelf < inkoopprijs; koop indien relevante kost-zelf > inkoopprijs. Vergeet niet kwalitatieve factoren: betrouwbaarheid leverancier, intellectueel eigendom, kerncompetentie.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "special-order",
+        "naam": {"primair": "Accept-or-reject special order"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij een eenmalige aanvraag onder de normale prijs: aanvaarden indien aangeboden prijs > variabele kost per eenheid + eventuele opportunity cost van capaciteitsbeslag. Bij vrije capaciteit: opportunity cost = 0; elke prijs > variabele kost levert positieve contributiemarge. Bij volle capaciteit: opportunity cost = gederfde CM van het normaal-prijs product; aangeboden prijs moet hoger zijn dan variabele kost + gederfde CM. Belangrijk: special orders mogen geen olievlek worden — als de cliente regelmatig op special-order-prijzen verkoopt, ondermijnt ze haar eigen prijszetting voor reguliere verkoop.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "keep-or-drop",
+        "naam": {"primair": "Productlijn keep-or-drop"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij beslissing om productlijn te stoppen: een productlijn met negatief volledig resultaat is niet noodzakelijk een drop-kandidaat. Drop alleen als de contributiemarge negatief is (verlies op variabele kost) OF als de vermijdbare vaste kosten + opportunity cost van vrijgekomen capaciteit groter zijn dan de CM van de productlijn. Niet-vermijdbare overhead-allocaties die de productlijn 'krijgt toegewezen' moeten weggehaald worden uit de analyse — ze lopen toch door.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      },
+      {
+        "id": "bottleneck-product-mix",
+        "naam": {"primair": "Bottleneck — optimale product-mix"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij capaciteitsbeperking (machine-uren, arbeidsuren, schaarse grondstof): rangschik producten naar contributiemarge per eenheid bottleneck (niet per eenheid product). Het product met de hoogste CM per bottleneck-eenheid eerst tot bottleneck-capaciteit op is. Voorbeeld: tafel met CM 250 EUR en 5 machine-uren versus stoel met CM 60 EUR en 1 machine-uur — stoel heeft CM/uur = 60 (hoger dan tafel = 50). Met beperkte machine-uren: stoelen eerst.",
+            "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-special-order",
+        "titel": "Zelena Bio NV — special order met vrije capaciteit",
+        "context": "Zelena Bio normale verkoopprijs tafel: 500 EUR. Variabele kost: 250 EUR. Vaste kosten/maand: 100.000 EUR. Een hotelketen vraagt 50 tafels voor 350 EUR/stuk. Zelena heeft vrije capaciteit (geen verdringing normale verkoop).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch special-order-voorbeeld"}]},
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Relevante kost = alleen variabele kost = 50 × 250 = 12.500 EUR (vaste kosten lopen toch door)",
+              "Opportunity cost = 0 (vrije capaciteit)",
+              "Marginale opbrengst = 50 × 350 = 17.500 EUR",
+              "Marginale winst = 17.500 − 12.500 = +5.000 EUR (= 100 EUR contributiemarge × 50)"
+            ],
+            "resultaat": "Aanvaarden — de order genereert 5.000 EUR extra winst zonder verdringing. Op basis van full cost (450 EUR/tafel) had het lijken op een verlies van 100 EUR/tafel — een misleidende redenering die de order onterecht zou weigeren."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-make-or-buy",
+        "titel": "Make-or-buy — Aurelia Holding NV en sub-component",
+        "context": "Aurelia maakt zelf een sub-component voor 80 EUR/stuk (50 variabel + 30 vast/stuk). Een leverancier biedt 70 EUR/stuk. Volume: 1.000 stuks/jaar. Bij outsourcing zou 20 EUR/stuk vaste kosten kunnen vermeden worden (deel van afschrijving + onderhoud op specifieke machine die verkocht kan worden); 10 EUR/stuk blijft hoe dan ook (algemene fabriekshuur).",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Relevante kost zelf maken = variabele 50 + vermijdbare vast 20 = 70 EUR/stuk × 1.000 = 70.000 EUR",
+              "Relevante kost inkopen = 70 EUR/stuk × 1.000 = 70.000 EUR",
+              "Identiek — break-even op basis van directe vergelijking",
+              "Kwalitatieve factoren bepalen: leveringszekerheid, kerncompetentie, IP, productieflexibiliteit",
+              "Niet-vermijdbare vaste kost (10 EUR/stuk × 1.000 = 10.000 EUR) blijft in beide scenario's en is irrelevant"
+            ],
+            "resultaat": "Op puur cijfer-basis indifferent. De keuze valt op kwalitatieve factoren: blijft de leverancier betrouwbaar? Wat met onverwachte vraagpieken? Wordt de capaciteit op een nuttige manier hergebruikt? Indien geen waardevolle alternatieve aanwending: zelf blijven maken."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vaste overhead-allocatie als relevant beschouwen",
+        "verkeerde_assumptie": "Een productlijn 'kost' wat de full-cost-allocatie zegt — inclusief vaste overhead.",
+        "kernpunt": "Niet-vermijdbare vaste overhead is irrelevant voor een keep-or-drop, make-or-buy of special-order-beslissing. Die kosten lopen toch door, ongeacht het besluit. Alleen vermijdbare kosten (die werkelijk wegvallen bij stop) tellen.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Sunk cost gebruiken als argument om door te gaan",
+        "verkeerde_assumptie": "'We hebben al zo veel geïnvesteerd, we moeten doorzetten om het terug te verdienen.'",
+        "kernpunt": "Sunk cost is irrelevant. De vraag is alleen: 'wat brengen de toekomstige opbrengsten op versus de toekomstige kosten?' Reeds gemaakte uitgaven niet meenemen — ze veranderen niet door de huidige beslissing.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Special-order-prijs als reguliere prijs",
+        "verkeerde_assumptie": "Wat goed werkt voor een eenmalige order kan ook structureel.",
+        "kernpunt": "Special-order-prijzen werken alleen bij vrije capaciteit + eenmalig + onzichtbaarheid naar reguliere markt. Structureel onder full cost verkopen leidt over de cyclus tot verlies en ondergraaft de markt voor reguliere verkoop. Vuistregel: max 10-20% van capaciteit als special-order.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "decision-support",
+      "naam": {"primair": "Decision support — beslissingsadvies"},
+      "intro": "De gecertificeerd accountant ondersteunt management-beslissingen door relevant-cost-analyses op te zetten.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "alternatieven-formuleren",
+              "naam": {"primair": "Alternatieven scherp formuleren"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Marginale analyse vergelijkt alternatieven — niet één optie tegen 'niets'. Eerst de alternatieven scherp formuleren: 'maken in eigen fabriek' versus 'inkopen bij X' versus 'inkopen bij Y'. Dan voor elk alternatief: welke kosten veranderen? Welke opportunity costs? Welke cashflow-impact? Pas dan vergelijken. Veel beslissingen lopen mis omdat het alternatief niet expliciet gedefinieerd is.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "analytische-boekhouding"
-    }
+    {"type": "valt_onder", "target": "analytische-boekhouding"},
+    {"type": "vereist", "target": "direct-costing", "toelichting": "Marginale analyse bouwt op de variabele-kosten-redenering uit direct costing."}
   ]
 }
