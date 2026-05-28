@@ -5,45 +5,60 @@
     "synoniemen": [
       "continuing professional development",
       "CPD",
-      "verplichte vorming accountant"
-    ]
+      "bijscholing"
+    ],
+    "vertaling": {
+      "fr": "formation permanente"
+    }
   },
-  "concept_type": "procedure",
+  "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
     "ankers": [
-      "4.0.I.B",
-      "4.0.taak.1"
+      "4.0.I.B"
     ],
     "scope": {
       "in": [
-        "ITAA-norm permanente vorming (verplicht voor inschrijving)",
-        "Puntenstelsel: 120u/3j of 40u/jaar",
-        "Types: erkende vorming · zelfstudie · lesgeven",
-        "Jaarlijkse aangifte aan ITAA",
-        "Sancties bij niet-naleving → tucht"
+        "Verplichting: 120 uur over 3 opeenvolgende kalenderjaren, minstens 20 u per jaar",
+        "Categorieën A (extern) en B (intern/bijdragend)",
+        "Erkende vormingsoperatoren + erkende vormingsactiviteiten",
+        "Vormen: seminaries · doceren · vorming op afstand · publicaties · commissiewerk · interne opleidingen",
+        "Controle door Cel Permanente Vorming",
+        "Sanctie bij overtreding via tuchtspoor (art. 11 norm)"
       ],
       "out": [
         {
-          "topic": "Statuut gecertificeerd-accountant (inschrijving vereist PV)",
+          "topic": "Vakbekwaamheid als onderliggend deontologisch beginsel",
           "richting": "moet-verwijzen",
-          "ref": "gecertificeerd-accountant"
+          "ref": "deontologie"
         },
         {
-          "topic": "Tuchtsancties bij niet-naleving",
+          "topic": "Sanctie via tuchtprocedure bij niet-naleving",
           "richting": "moet-verwijzen",
           "ref": "tuchtprocedure-itaa"
+        },
+        {
+          "topic": "Kwaliteitstoetsing controleert vorming-attesten",
+          "richting": "moet-verwijzen",
+          "ref": "kwaliteitstoetsing-itaa"
         }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/permanente-vorming.json",
+      "primary_bronnen": [
+        "ITAA-norm permanente vorming art. 3, 6, 7, 8, 9, 11, 13, 15"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -52,34 +67,405 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-controle-beroep-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (ITAA-norm permanente vorming art. 3, 6, 7, 11). Bundle-flow extract zonder extra MCP-calls."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Permanente vorming is de wettelijke verplichting voor elke gecertificeerd accountant en belastingadviseur ingeschreven bij het ITAA om zijn vakbekwaamheid op peil te houden via vormingsactiviteiten. De ITAA-norm permanente vorming (in werking sinds 1 januari 2021) vereist minstens 120 uur vorming over drie opeenvolgende kalenderjaren, waarvan minstens 20 uur per kalenderjaar. Een lid kan kiezen uit erkende vormingsactiviteiten (seminaries, opleidingscycli, vorming op afstand, doceren, publicaties, commissiewerk, interne kantooropleidingen) — mits voldaan is aan de erkenningscriteria.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 3 + 6 + 15" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De norm vertaalt het deontologische beginsel 'vakbekwaamheid en zorgvuldigheid' (IESBA Section 110.1 A1 (c)) in een concrete tellings-verplichting. Het is geen vrijblijvende verbintenis: de Cel Permanente Vorming organiseert controle en de niet-naleving wordt door art. 11 van de norm uitdrukkelijk gekwalificeerd als een inbreuk op het wettelijk, reglementair en normatief kader — dus vatbaar voor tuchtsancties tot en met intrekking van de hoedanigheid van beroepsbeoefenaar. Sommige activiteiten leveren 1u-voor-1u op (categorie A: seminarie, e-learning), andere meer (doceren: 2u per uitgevoerd uur) of minder evident (publicatie: 2u per 3000 tekens).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 7 + 11" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is dubbel: (1) bescherming van het publiek belang — de accountancy-praktijk evolueert continu (IFRS-wijzigingen, fiscale hervormingen, nieuwe technologieën, AML-regels), en alleen permanent bijgeschoolde beroepsbeoefenaars kunnen geloofwaardig adviseren en certifiëren; (2) ondersteuning van de individuele beroepsbeoefenaar — een vormingsverplichting geeft hem een structureel kader om tijd vrij te maken voor opleiding, ondanks de druk van de dagelijkse praktijk. De norm dient dus zowel publiek belang als persoonlijke ontwikkeling.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "preambule + art. 3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis vorming" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "deontologie",
+        "itaa-beroepsorganisatie"
+      ],
+      "naast_relevant": [
+        "kwaliteitstoetsing-itaa"
+      ],
+      "volgkennis": [
+        "tuchtprocedure-itaa"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2021-01-01",
+        "wettelijke_basis": "ITAA-norm permanente vorming (art. 15)",
+        "toelichting": "Deze norm vervangt en heft op de Norm permanente vorming IAB van 3 september 2012 + de richtlijn van de Raad van de erkende boekhouders (-fiscalisten) van 19 mei 2006."
+      },
+      "voor": [
+        {
+          "tekst": "Alle gecertificeerde accountants en belastingadviseurs ingeschreven in het openbaar register van het ITAA, inclusief stagiairs (voor stagiairs gelden in voorkomend geval aangepaste regels via de Stagecommissie).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 1 + 13" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) 120 uur over 3 opeenvolgende kalenderjaren; (2) minstens 20 uur per kalenderjaar (drempel); (3) bewijsstukken (aanwezigheidsattesten, publicatie-bewijzen) bewaren en jaarlijks rapporteren aan het ITAA (art. 8); (4) activiteiten moeten verband houden met relevante vakgebieden van het beroep — louter commerciële promotie van producten telt niet (art. 6 §1 laatste lid).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 3 + 6 + 8" }
+              ]
+            }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Vormingsactiviteiten 'duidelijk gericht op promotie van een commercieel product of dienst' tellen niet — tenzij het een opleiding betreft over technische of technologische tools die nuttig zijn voor het beroep én voldoen aan twee criteria: (a) minimaal 45 minuten, (b) duidelijke opleidingsdoelen ten aanzien van relevante vakgebieden.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 6 §1 laatste lid" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-naleving = inbreuk op het wettelijk, reglementair en normatief kader (art. 11). Mogelijke sancties: (a) terechtwijzing door de Raad ITAA (art. 85, 3° ITAA-wet) — gevolgd door verplichting tot remediëring binnen 3 maanden; (b) bij gebrek aan remediëring: intrekking van de hoedanigheid van beroepsbeoefenaar door de Raad; (c) verwijzing naar de tuchtcommissie voor zwaardere gevallen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 11" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "drempel-120-uur",
+        "naam": {
+          "primair": "120u/3 jaar + minimum 20u/jaar"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "De kwantitatieve drempel is dubbel: 120 uur over 3 opeenvolgende kalenderjaren (gemiddeld 40u/jaar) ÉN minstens 20u per individueel kalenderjaar — om te vermijden dat alle vorming in één jaar wordt geconcentreerd. Bij overmacht of (her)inschrijving in de loop van het jaar: pro rata temporis berekening van de vereiste uren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "categorie-a-en-b",
+        "naam": {
+          "primair": "Categorieën A en B — verschil in tellings-regime"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Categorie A (externe vorming) = seminaries en opleidingscycli van erkende vormingsoperatoren · doceren bij erkende instellingen · vorming op afstand mits afsluitende toets · publicaties. Categorie B (intern/bijdragend) = commissiewerk binnen het Instituut · vormingen georganiseerd door kantoren of netwerken voor eigen beroepsbeoefenaars. De norm specifieert geen verplichte minimum-mix tussen A en B, maar de praktijk is dat de kwaliteitstoetsing kijkt naar evenwicht.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 7 1°-2°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "doceren-bonus",
+        "naam": {
+          "primair": "Bonus voor doceren — 2u per uitgevoerd uur"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een lid dat doceert aan een erkende instelling van hoger onderwijs (universiteit, hogeschool, ICCI, ITAA zelf) krijgt 2 uur permanente vorming aangerekend per uur effectief gedoceerd. Beperking: doceren + publicaties samen tellen voor maximum 30 uur per kalenderjaar.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 7 3° + 7°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vorming-op-afstand-categorie-a",
+        "naam": {
+          "primair": "Vorming op afstand — categorie A-voorwaarden"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "E-learning telt als categorie A op cumulatieve voorwaarden: (a) minimaal 30 minuten; (b) ingebouwde controle dat de cursist alle onderdelen doorloopt vóór toegang tot de afsluitende toets; (c) een afsluitende toets aanwezig. Voldoet de e-learning niet aan alle drie? Dan kan ze worden meegeteld als categorie B (mits aanwezigheids- of effectieve-deelnamecontrole).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 7 4°-5°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "publicaties-tellings-regel",
+        "naam": {
+          "primair": "Publicaties — 2u per 3000 tekens"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor publicaties van wetenschappelijke of technische aard kan het lid 2 uur per 3000 tekens aanrekenen. Gecombineerd met doceren beperkt tot maximum 30 uur per kalenderjaar (art. 7 7°).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 7 6°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "controle-cel",
+        "naam": {
+          "primair": "Cel Permanente Vorming — toezichtsorgaan"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Binnen het ITAA wordt een Cel Permanente Vorming opgericht, paritair samengesteld (NL + FR taalrol, mix gecertificeerd accountant + (fiscaal) accountant). De Cel adviseert de Raad ITAA over erkenningsdossiers, organiseert de controle op de permanente vorming en behandelt aanvragen voor (her)erkenning van vormingsoperatoren. Tucht-zetelaars, niet-verkiesbaren als Raadslid en commissarissen van het ITAA zijn uitgesloten als kandidaat.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 13" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "sanctie-cascade",
+        "naam": {
+          "primair": "Sanctie-cascade bij niet-naleving (art. 11)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De sanctie-cascade is gradueel: (1) terechtwijzing door de Raad ITAA op grond van art. 85, 3° ITAA-wet — formeel maar zonder tuchtgevolgen; (2) bij niet-remediëring binnen 3 maanden na terechtwijzing: intrekking van de hoedanigheid van beroepsbeoefenaar door de Raad — de facto verwijdering uit het openbaar register; (3) voor zware of herhaalde gevallen: verwijzing naar de tuchtcommissie via art. 92 ITAA-wet.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 11" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-gemiddeld-jaar",
+        "titel": "Typisch vormingsjaar — 42 uur via gemengde mix",
+        "context": "Accountant Devos bouwt zijn permanente vorming op in één kalenderjaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkvoorbeeld vormingsmix" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Vormingsmix Devos — kalenderjaar 2026",
+            "kolommen": ["Activiteit", "Categorie", "Uren"],
+            "rijen": [
+              ["ITAA-najaarscongres BTW-actualia (1 dag)", "A", "7"],
+              ["Vier ITAA-webinars over fiscale hervorming (1u30 elk, met toets)", "A", "6"],
+              ["E-learning IFRS 16 leases (volledig met toets)", "A", "4"],
+              ["Driejaarlijkse seminarie-cyclus AML/CFI (3 dagen)", "A", "21"],
+              ["Doceren 1u accountancy-stage-cursus", "A", "2 (= 2 x 1)"],
+              ["Intern kantoor-seminarie 'nieuwe BTW-aangifte' (2u)", "B", "2"],
+              ["TOTAAL", "", "42"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-onvoldoende",
+        "titel": "Tekort van 15 uur over 3 jaar — sanctie-cascade",
+        "context": "Accountant De Wilde (fictief) heeft over de periode 2024-2026 slechts 105 vormingsuren gerealiseerd (vereist: 120). De Cel Permanente Vorming stelt dit vast bij de jaarrapportering 2026.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 11" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — Cel Permanente Vorming detecteert het tekort, brengt de Raad op de hoogte.",
+              "Stap 2 — Raad geeft een formele terechtwijzing op grond van art. 85, 3° ITAA-wet; De Wilde krijgt 3 maanden om de 15 ontbrekende uren in te halen.",
+              "Stap 3 — Indien remediëring binnen 3 maanden: dossier wordt afgesloten zonder verder gevolg.",
+              "Stap 4 — Indien geen remediëring: de Raad kan de hoedanigheid van beroepsbeoefenaar intrekken — De Wilde verdwijnt uit het openbaar register en mag het beroep niet meer uitoefenen tot eventuele herinschrijving."
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Slechts 20u in jaar 1 en jaar 2, dan 80u in jaar 3 — werkt dat?",
+        "verkeerde_assumptie": "Studenten denken dat het volstaat om gemiddeld 40u/jaar te halen, ongeacht de verdeling tussen jaren.",
+        "kernpunt": "De norm legt een dubbele drempel op: 120u over 3 jaar én minstens 20u per individueel jaar. 20+20+80=120 voldoet — maar 10+10+100 = niet-conform (jaar 1 en 2 onder 20u-drempel). Concentratie van vorming in één eindjaar is dus onmogelijk.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 3" }
+          ]
+        }
+      },
+      {
+        "titel": "Productpresentatie van een softwarebedrijf als vorming aanrekenen",
+        "verkeerde_assumptie": "Studenten denken dat elke 'opleiding' van een leverancier (bv. boekhoudsoftware) telt.",
+        "kernpunt": "Activiteiten 'duidelijk gericht op promotie van een commercieel product of dienst' tellen niet (art. 6 §1 laatste lid). Uitzondering: tools-opleidingen die (a) ≥ 45 minuten duren én (b) duidelijke opleidingsdoelen hebben m.b.t. relevante vakgebieden. Een 'demo' van een nieuwe softwareversie zonder leerdoelen telt dus niet, een gestructureerde training over de fiscale modules van een ERP wel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 6 §1 laatste lid" }
+          ]
+        }
+      },
+      {
+        "titel": "E-learning zonder toets telt automatisch als categorie A",
+        "verkeerde_assumptie": "Studenten denken dat alle gevolgde webinars en e-learnings dezelfde tellings-status hebben.",
+        "kernpunt": "Categorie A voor vorming op afstand vereist cumulatief: ≥ 30 min + controle dat alle onderdelen doorlopen zijn + afsluitende toets. Zonder afsluitende toets: hoogstens categorie B (mits aanwezigheids- of effectieve-deelnamecontrole). Een 'gewone' webinar zonder toets moet dus naar categorie B — wat impact heeft op kwaliteitstoetsing-evaluatie.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 7 4°-5°" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "eigen-kantoor",
+      "naam": {
+        "primair": "Eigen kantoor — vorming plannen en documenteren"
+      },
+      "intro": "De gecertificeerd accountant die zijn eigen vorming en die van zijn medewerkers moet plannen en documenteren.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "vormingplanning",
+              "naam": {
+                "primair": "Jaarlijkse vormingsplanning per beroepsbeoefenaar"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Begin elk kalenderjaar: (1) vormingsplan opstellen — mik op 40u, met buffer; (2) mix categorieën A en B kiezen — minstens 50% categorie A is een redelijke vuistregel; (3) inschrijven op erkende ITAA-vormingen of vormingen van erkende operatoren (IBR, ICCI, universiteit); (4) intern kantoor-seminarie organiseren — telt als categorie B; (5) aanwezigheidsattesten systematisch archiveren in personeelsdossier; (6) jaarrapportering aan ITAA tijdig indienen (typisch via online portaal).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 6 + 8" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Kantoorpraktijk vormingsbeheer" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "stagiair-coaching",
+              "naam": {
+                "primair": "Vormingsbegeleiding stagiairs"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Stagiairs hebben aangepaste vormingsregels via de Stagecommissie. Als stagebegeleider: (a) opvolgen dat de stagiair voldoende vorming volgt voor zijn examens én de algemene norm; (b) interne kantoor-vormingen openzetten voor stagiairs — telt voor hen ook mee als categorie B; (c) bij twijfel over erkenning van een specifieke vorming: dossier indienen bij de Cel Permanente Vorming volgens art. 6 §2.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm permanente vorming", "ref": "art. 13 + 6 §2" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Stagebegeleiding-praktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
-      "type": "vereist",
-      "target": "gecertificeerd-accountant"
+      "type": "valt_onder",
+      "target": "deontologie",
+      "toelichting": "Permanente vorming is de concrete uitwerking van het deontologische beginsel 'vakbekwaamheid en zorgvuldigheid'."
     },
     {
       "type": "triggert",
-      "target": "tuchtprocedure-itaa"
+      "target": "tuchtprocedure-itaa",
+      "toelichting": "Ernstige niet-naleving (na vruchteloze terechtwijzing) kan tot een tuchtprocedure leiden."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "kwaliteitstoetsing-itaa",
+      "toelichting": "Bewijs van permanente vorming wordt gecontroleerd tijdens de externe kwaliteitstoetsing."
+    },
+    {
+      "type": "uitgevoerd_door",
+      "target": "itaa-beroepsorganisatie",
+      "toelichting": "Controle en sanctionering wordt uitgevoerd door de Cel Permanente Vorming + Raad ITAA."
     }
   ]
 }
