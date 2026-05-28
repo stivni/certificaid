@@ -2,7 +2,24 @@
 
 Eén bron voor *wat er nog moet gebeuren*. Voltooide fases leven niet hier — git-history en ADRs zijn de plek voor "wat hebben we gedaan en waarom".
 
-**Laatste update**: 2026-05-26 (Fase 4 examenvraag-antwoord-pipeline: 4.1 cluster-detectie + dedup-rendering, 4.2 prompt v2.0, 4.3 visuele-vraag-detectie — alle drie gerealiseerd; POC PO 1.4 succesvol; merge origin/main na repo-verhuizing-voorbereiding)
+**Laatste update**: 2026-05-28 (Fase 2 massa-extractie schema 2.2: alle 359 concept-records van skeleton → concept (waves 1-5, 8-9 parallel agents per wave); render-laag v22 + index-pagina's per PO/type/categorie gegenereerd → site direct bruikbaar voor exam-studie; verify-pass (Pass 2) en verbeter-pass (Pass 3) nog te doen — zie §Fase 8 hieronder)
+
+---
+
+## 🚀 Status snapshot 2026-05-28
+
+| Laag | Status | Details |
+|---|---|---|
+| **Skeleton (Fase 1 schema 2.2)** | ✅ 359/359 | alle records met scope.in/out + sub-concept-hints |
+| **Concept-extract (Fase 2)** | ✅ 359/359 | content gevuld via bundle-flow (chunks pre-fetched); 5 waves × 8-9 agents parallel |
+| **Verify (Pass 2)** | ⏳ 0/359 | didactische kwaliteits-check per record |
+| **Verbeter (Pass 3)** | ⏳ 0/359 | verwerk verify-feedback |
+| **Render-laag (Fase 7)** | ✅ basis | tools/leermateriaal/render_concept_v22.py + render_index_v22.py — 359 fiches in content/concepten/ + 4 index-pagina's |
+| **Quartz-build** | ⚠️ niet getest | render-output zou bruikbaar moeten zijn; build lokaal valideren |
+
+**Wat een student nu kan doen**: openen `content/concepten/_index.md` → kies PO / type / categorie → klik door naar fiches. Elke fiche heeft definitie+substantie+rationale, bouwstenen (regel/stap/formule/...), voorbeelden met concrete €-bedragen+klasse-codes, valkuilen, accountant-perspectieven, relaties. Confidence-iconen (📖/🔗/🤖) markeren bron-zekerheid per claim.
+
+---
 
 ---
 
@@ -89,6 +106,41 @@ In ADR-029 §Operaties-model gedefinieerd maar nog niet uitgevoerd:
 - `leespad_aanvullen` — `inhoud.voorkennis_leespad` op basis van ankers + vereist-relaties
 
 Niet prioritair voor wave-2 (per ADR-029): `cijfer_validatie`, `examenvragen_aansluiting`, `consistentie_check`, `volledigheid_check`.
+
+---
+
+## Fase 8 — Schema 2.2 massa-extractie + render-laag v22 (in uitvoering 2026-05-28)
+
+**Doel**: alle 359 records van skeleton-status (Fase 1) naar concept-status (Fase 2), met didactische verrijking (voorbeelden, valkuilen, bouwstenen, perspectieven), via bundle-flow (ADR-027 pattern).
+
+**Pipeline**: skeleton → bundle-build (`tools/extractie/build_skeleton_bundle.py`) → cluster-extract (Sonnet-agents, 8-9 parallel per wave) → cluster-verify (Pass 2) → cluster-verbeter (Pass 3).
+
+**Status 2026-05-28 13:30 CEST**:
+
+- ✅ Schema 2.2 + ADR-035 + records-API
+- ✅ Skeletons 359/359 — alle clusters (boekhouding, jaarrekening-fundament/rest, financiele-analyse, consolidatie, IFRS, management-accounting, bedrijfsadvies, mobiliteit, werknemers-vergoedingen, loon-en-payroll, BTW, internationaal-fiscaal, PB, VenB, fiscale-procedure, fiscale-beginselen, reg-succ, lokaal-fiscaal, fiscale-voordelen, anti-misbruik, vennootschapsrecht-clusters)
+- ✅ Cluster-extract Pass 1 — 359/359 concept-status
+  - Wave 1: jaarrekening-fundament + vennootschapsvormen + werknemers-vergoedingen + financiele-analyse + bedrijfsadvies + management-accounting (~66 records)
+  - Wave 2: vennootschapsrecht-rest + controle-beroep
+  - Wave 3: BTW basis + internationaal-fiscaal start + cross-cutting (financiele-analyse)
+  - Wave 4: consolidatie + balansposten + jaarrekening-rest + loon + RSZ/VAA + management-accounting + financiele-analyse-rest (~94 records)
+  - Wave 5: BTW-rest + internationaal-treaties + VenB-internationaal + fiscale-beginselen + fiscale-procedure + reg-succ + lokaal + anti-misbruik + voordelen (~102 records)
+- ✅ Render-laag v22 — `tools/leermateriaal/render_concept_v22.py` + `render_index_v22.py`, 359 fiches naar `content/concepten/` + 4 index-pagina's
+- ⏳ Pass 2 Verify — 0/359 (didactische kwaliteits-check)
+- ⏳ Pass 3 Verbeter — 0/359 (verwerk verify-feedback)
+- ⏳ Quartz lokale build-test
+- ⏳ Mens-validatie + escalatie concept → gevalideerd
+
+**Prompts**: `prompts/cluster-skeleton.md`, `prompts/cluster-extract.md`, `prompts/cluster-verify.md`, `prompts/cluster-verbeter.md`.
+
+**Concrete TODO's**:
+- [ ] Pass 2 Verify per discipline (jaarrekening + PB + VenB + BTW + vennootschapsrecht + beroep+controle + fiscaliteit-klein + internationaal-fiscaal + cross-cutting)
+- [ ] Pass 3 Verbeter — verwerk critical+major issues
+- [ ] Quartz `npm run dev` lokaal testen — broken wikilinks/render-fouten zoeken
+- [ ] Render-laag verfijnen (eventueel collapsibles voor lange subconcepten, navigatie-sidebar per cluster)
+- [ ] PO-indexen verfijnen — multi-PO records nu maar in 1 PO; ook in secundaire PO's tonen
+- [ ] Sub-concept-fiches zelf renderen als aparte pagina's? (now inline in parent — kan opzettelijk; check user-preference)
+- [ ] Mens-validatie → escalatie naar `metadata.status: "gevalideerd"`
 
 ---
 
