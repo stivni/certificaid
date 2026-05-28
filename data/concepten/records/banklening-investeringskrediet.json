@@ -3,24 +3,41 @@
   "naam": {
     "primair": "Banklening (investeringskrediet)",
     "synoniemen": [
-      "bank loan",
-      "investment credit",
-      "ondernemingskrediet"
-    ]
+      "investeringskrediet",
+      "bankkrediet op middellange/lange termijn",
+      "term loan"
+    ],
+    "vertaling": {
+      "fr": "crédit d'investissement",
+      "en": "investment loan"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "entiteit"
+      "regeling"
     ],
     "ankers": [
-      "1.1.II.V"
+      "3.0.IV.D"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/banklening-investeringskrediet.json",
+      "primary_bronnen": [
+        "MAR-rubriek 17 (schulden op meer dan een jaar) en 42 (binnen het jaar vervallend deel)",
+        "CBN-advies 2012/16 (Wentelkredieten - classificatie schuld op > of < 1 jaar)",
+        "CBN-advies 2016/11 (Cross currency swap - boekingsschema banklening rekening 174)",
+        "CBN-advies 2018/17 (Schulden gewaarborgd door een zakelijke zekerheid - niet-uitvoeringsverbintenissen)",
+        "WIB92 art. 198/1 (Financieringskostensurplus - aftrekbeperking)",
+        "CBN-advies 2020/06 (Financieringskostensurplus)"
+      ],
+      "mcp_calls": 1,
+      "rerank_calls": 1
     },
     "changelog": [
       {
@@ -28,37 +45,51 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit schuldfinanciering-cluster (skelet-doc regel ~594)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle-chunks + 1 MCP-call (CBN 2012/16 wentelkrediet, 2016/11 banklening-boeking, 2018/17 zakelijke zekerheden)"
       }
     ],
     "scope": {
       "in": [
-        "Schuld-instrument: kredietovereenkomst met bank voor investerings-financiering",
-        "Aflossingsschema (bullet vs amortizing) + intrestvoet (vast vs variabel)",
-        "Waarborgen + convenanten",
-        "Boekhoudkundige verwerking (rekening 17 langlopend / 43 kortlopend deel)",
-        "Fiscale aftrekbaarheid van interest"
+        "Schuldinstrument: kredietovereenkomst met een bank ter financiering van een specifieke investering (gebouw, machine, voertuig, ...)",
+        "Aflossingsschema: bullet (volledige terugbetaling bij vervaldag) vs amortizing (gespreid in kapitaalaflossing); annuïteiten of vaste kapitaalaflossingen",
+        "Intrestvoet: vast voor de hele looptijd vs variabel (typisch geïndexeerd op IRS, Euribor of OLO)",
+        "Waarborgen: hypotheek, pand op handelszaak, persoonlijke borg van zaakvoerder/aandeelhouder",
+        "Convenanten (financial covenants): minimum-solvabiliteit, EBITDA-coverage-ratio, beperking van uitkeringen tijdens looptijd",
+        "Boekhoudkundige verwerking: rekening 17 (langlopend deel) + 42 (binnen het jaar vervallend deel), met overheveling bij elke afsluiting",
+        "Fiscale aftrekbaarheid van interest binnen art. 198/1 WIB92 (financieringskostensurplus)"
       ],
       "out": [
         {
-          "topic": "Eigen vermogen — afbakening vreemd vs eigen vermogen",
+          "topic": "Eigen vermogen - afbakening vreemd vs eigen vermogen",
           "richting": "moet-verwijzen",
           "ref": "eigen-vermogen"
         },
         {
-          "topic": "Obligatielening — alternatief financieringsinstrument",
+          "topic": "Obligatielening - alternatief financieringsinstrument met effecten-statuut",
           "richting": "moet-verwijzen",
           "ref": "obligatielening"
         },
         {
-          "topic": "Achtergestelde lening — variant met lagere rang",
+          "topic": "Achtergestelde lening - variant met lagere rang",
           "richting": "moet-verwijzen",
           "ref": "achtergestelde-lening"
         },
         {
-          "topic": "Leasing — alternatieve route voor activa-financiering",
+          "topic": "Leasing - alternatieve route voor activa-financiering",
           "richting": "mag-verwijzen",
           "ref": "leasing"
+        },
+        {
+          "topic": "Financieringskostensurplus - art. 198/1 WIB92",
+          "richting": "mag-verwijzen",
+          "ref": "financieringskostensurplus"
         }
       ]
     }
@@ -66,32 +97,455 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Een banklening is een schriftelijke kredietovereenkomst waarbij een kredietinstelling een bepaald bedrag ter beschikking stelt van een onderneming, mits terugbetaling volgens een afgesproken schema en betaling van rente op het uitstaande saldo. Een investeringskrediet is de specifieke variant waarbij de financiering bestemd is voor een bepaalde investering (gebouw, machine, voertuig, immateriële activa) en de looptijd doorgaans gelijk loopt met de economische levensduur van het actief. De vennootschap boekt het volledige opgenomen bedrag op rekening 17 (schulden op meer dan een jaar). Bij elke boekjaarafsluiting wordt het deel dat binnen het volgende boekjaar opeisbaar wordt, overgeheveld naar rekening 42.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "kb", "naam": "KB 29-04-2019 jaarrekening", "ref": "MAR-rubriek 17 + 42" },
+            { "type": "cbn", "naam": "CBN-advies 2016/11", "ref": "Boekhoudkundige verwerking - 'aan 174 Andere leningen op meer dan één jaar'" },
+            { "type": "cbn", "naam": "CBN-advies 2012/16", "ref": "Wentelkredieten - rangschikkingscriterium volgens werkelijke vervaltermijn" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de KMO is de banklening de standaardroute om grote investeringen te financieren wanneer de eigen middelen niet volstaan. De bank beoordeelt eerst de kredietwaardigheid (solvabiliteit, terugbetalingscapaciteit uit verwachte kasstromen, waarborgen) en bepaalt vervolgens drie kernparameters: bedrag, looptijd en rente. De rente wordt bepaald in functie van het krediet-risico (rating van de onderneming, kwaliteit van de waarborgen) en de marktrente. De terugbetaling kan in gelijke kapitaalaflossingen (dalend rente-component), in vaste annuïteiten (gelijk maandbedrag), of bullet (volledig op het einde). Tijdens de looptijd kunnen er financial covenants zijn die periodiek getoetst worden - bij overtreding kan de bank de lening opzeggen of bijkomende voorwaarden stellen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer financiering KMO - aflossingsschema, rente, waarborgen, covenants" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het investeringskrediet is een matching-instrument: een investering in een actief met een lange economische levensduur (bv. een gebouw met 30 jaar levensduur) hoort gefinancierd met vreemd vermogen op vergelijkbare termijn - niet met kortlopende financiering die voortdurend herfinanciering vraagt (looptijdmismatch-risico). De bank op haar beurt eist tegen deze 'illiquide' positie zekerheden en covenants, omdat ze het uitstaande kapitaal niet kort-snel kan terugvorderen. Voor de schuldeiser zit het risico in twee dimensies: kredietrisico (gaat de onderneming failliet?) en herinvesteringsrisico voor de bank (rentecyclus). Voor de onderneming biedt het krediet een hefboomeffect: rendement op eigen vermogen kan stijgen mits het rendement op de gefinancierde activa hoger is dan de rentekost (na belasting).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese matching-principe + hefboomeffect (corporate finance standaardleer)" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "vreemd-vermogen",
+        "lening"
+      ],
+      "naast_relevant": [
+        "obligatielening",
+        "achtergestelde-lening",
+        "leasing"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Algemeen contractenrecht + kredietregelgeving (Wet 21-12-2013 betreffende diverse bepalingen consumentenkrediet voor consumentenkredieten; voor B2B-investeringskredieten vooral contractvrijheid en Wet 14-07-2021 betreffende KMO-financiering)"
+      },
+      "voor": [
+        {
+          "tekst": "Financiering van duurzame investeringen waarvan de economische levensduur en de terugbetalingscapaciteit op de lange termijn gespreid kunnen worden: gebouwen, productiemiddelen, rollend materieel, omvangrijke immateriële activa, overnames.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Matching-principe corporate finance" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Niet voor seizoensgebonden werkkapitaal-tekort of tijdelijke kasspanning - daar past een kaskrediet, een wentelkrediet of straight loan (CBN 2012/16 - schulden binnen een jaar terugbetaalbaar horen onder rekening 43).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "cbn", "naam": "CBN-advies 2012/16", "ref": "Wentelkrediet - terugbetaling binnen het jaar -> rubricering onder schulden op ten hoogste een jaar" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Voorafgaand: positieve kredietbeoordeling van de bank (solvabiliteit, terugbetalingscapaciteit, business plan voor de investering). Schriftelijke kredietovereenkomst die bedrag, looptijd, aflossingsschema, rentevoet (vast of variabel + referte-index), eventuele waarborgen en convenanten vastlegt. Notariele akte vereist bij hypotheekverlening.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk bankkrediet" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Hefboomeffect (leverage): financiering met vreemd vermogen verhoogt het rendement op eigen vermogen wanneer het rendement op de gefinancierde activa hoger ligt dan de na-belasting-rentekost. Bewaart aandeelhoudersstructuur (geen verwatering). Rente is fiscaal aftrekbaar binnen de grenzen van art. 198/1 WIB92.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 198/1" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Hefboomeffect-leer" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Negatief hefboomeffect: wanneer het rendement op de gefinancierde activa onder de rentekost zakt, vergroot vreemd vermogen het verlies op het eigen vermogen. Bij rente op variabele basis komt daar renterisico bij - een stijgende referte-index kan de schuldenlast snel zwaarder maken.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer leverage-risico" }
+            ]
+          }
+        },
+        {
+          "tekst": "Covenant-breach: financiële convenanten (minimum-solvabiliteit, EBITDA-coverage, beperking dividenden) worden periodiek getoetst. Een overtreding geeft de bank meestal het recht om bijkomende waarborgen te eisen, de rente te verhogen of het krediet onmiddellijk opeisbaar te stellen. Tijdige rapportering aan de bank en proactieve communicatie zijn essentieel.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk bankcovenants" }
+            ]
+          }
+        },
+        {
+          "tekst": "Persoonlijke borg van de zaakvoerder of aandeelhouder: zeer courant bij KMO-kredieten. Bij niet-terugbetaling kan de bank op het persoonlijke vermogen van de borg verhalen. Bij echtgenoten/wettelijk samenwonenden kan dat ook het gezinsvermogen treffen - oprechte toestemming van de partner is vereist.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "cbn", "naam": "CBN-advies 2018/17", "ref": "Schulden gewaarborgd door een zakelijke zekerheid" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk persoonlijke borg" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "rubriek-17-42-overheveling",
+        "naam": {
+          "primair": "Boekhoudkundige rubricering 17 / 42 / 43"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij opname van de banklening: D 55 Bank | C 174 (of relevante subrekening van 17 'Andere leningen op meer dan een jaar') voor het volledige bedrag. Bij elke boekjaarafsluiting: overheveling van het binnen het volgende boekjaar opeisbare deel van rekening 17 naar rekening 42 ('Schulden op meer dan een jaar die binnen het jaar vervallen'). Bij volledige terugbetaling: schuld dooft uit. Belangrijk: het rangschikkingscriterium is de werkelijke vervaldatum, niet de benaming. Een 'lening op lange termijn' waarbij de bank het kapitaal binnen het jaar kan opvragen, hoort onder de korte-termijn-schulden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 2012/16", "ref": "Boekhoudkundige verwerking wentelkredieten - rangschikking volgens werkelijke vervaltermijn" },
+                { "type": "cbn", "naam": "CBN-advies 2016/11", "ref": "Boeking opname banklening op rekening 174" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "aflossingsschema-typen",
+        "naam": {
+          "primair": "Aflossingsschema-typen"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie standaardtypen: (1) Bullet - geen kapitaalaflossing tijdens looptijd, volledige hoofdsom op vervaldag terugbetaald; zwaarste eindbetaling, herfinancieringsrisico op vervaldag; (2) Lineair / vaste kapitaalaflossingen - elke periode hetzelfde kapitaalbedrag, rente op dalend uitstaand saldo; betalingen dalen over de tijd; (3) Annuïtair - vaste maand-/kwartaalbetalingen (kapitaal + rente) gedurende de hele looptijd; rentegedeelte daalt, kapitaalgedeelte stijgt over de tijd. Bij vaste rente is annuïteit voorspelbaar; bij variabele rente herrekenen bij elke rente-aanpassing. De accountant moet bij boeking telkens het rentegedeelte (rekening 65) afsplitsen van het kapitaalgedeelte (afboeking 17/42).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer aflossingsschemata corporate finance" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kolommen": ["Type", "Maandbedrag", "Renteverloop", "Risico"],
+            "rijen": [
+              ["Bullet", "alleen rente", "constant tot vervaldag", "herfinancierings-/eindrisico hoog"],
+              ["Lineair", "dalend", "daalt met saldo", "stabiel, hoge initial cash-out"],
+              ["Annuïtair", "constant", "daalt, kapitaal stijgt", "renteherzieningsrisico bij variabele rente"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "waarborgen-en-buitenbalansvermelding",
+        "naam": {
+          "primair": "Waarborgen - balansvermelding en niet-uitvoerings-verbintenissen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Waarborgen versterken de positie van de bank: hypotheek op gebouwen, pand op handelszaak, pand op specifieke activa (machines, voorraden), of persoonlijke borg. Zakelijke zekerheden worden vermeld in de Staat over de betrekkingen + in de toelichting bij de jaarrekening, onder rekening 00-09 (orderrekeningen). Een hypothecair mandaat (onherroepelijke belofte om hypotheek te vestigen, zonder werkelijke inschrijving) wordt geboekt onder 'onherroepelijk beloofd'. Een effectieve hypotheek onder 'gesteld'. De jaarrekening-lezer moet zo zicht krijgen op de mate waarin activa al verpand of belast zijn.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 2018/17", "ref": "Schulden gewaarborgd door een zakelijke zekerheid - boekingstabel orderrekeningen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "renteboeking-prorata",
+        "naam": {
+          "primair": "Renteboeking en prorata bij boekjaarafsluiting"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Rente wordt op tijdsproportionele basis erkend (matching). Bij boekjaarafsluiting moet de vervallen maar nog niet betaalde rente opgenomen worden via een overlopende rekening (492 'Toe te rekenen kosten'). Bij vooruitbetaalde rente (zeldzaam) gebruikt men 490 'Over te dragen kosten'. De jaarlijkse rentelast komt in resultaat onder rekening 650 'Rente, commissies en kosten verbonden aan schulden'. Bij een banklening met variabele rente moet bij elke rente-aanpassing de toekomstige rentelast herrekend worden voor budgettering.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "kb", "naam": "KB 29-04-2019 jaarrekening", "ref": "MAR rekening 650 + 49" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard matching-toepassing" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "renteaftrek-198-1",
+        "naam": {
+          "primair": "Fiscale renteaftrek (art. 198/1 WIB92)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De interest op een banklening is in beginsel een aftrekbare beroepskost. De algemene aftrekbeperking voor financieringskostensurplus (art. 198/1 WIB92, omzetting van ATAD-richtlijn) beperkt het netto-financieringskostensurplus (financieringskosten min financieringsopbrengsten) tot het hoogste van 3 miljoen EUR of 30% van het fiscaal EBITDA. Niet-aftrekbare interesten kunnen overgedragen worden naar latere boekjaren. Voor KMO's met beperkte financiering ligt het surplus typisch onder de 3 miljoen-drempel en is er geen praktische beperking.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 198/1" },
+                { "type": "cbn", "naam": "CBN-advies 2020/06", "ref": "Financieringskostensurplus" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-annuitaire-lening",
+        "titel": "Annuïtaire investeringslening met vaste rente",
+        "context": "BV Optima neemt op 1 januari een investeringskrediet op van 500.000 EUR aan vaste rente 4%, met annuïtaire aflossing over 10 jaar (jaarlijkse vaste betalingen). De annuïteit = 500.000 * 4% / (1 - 1,04^-10) = ca. 61.645 EUR per jaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Geconstrueerd cijfervoorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "1 januari - opname krediet",
+            "rijen": [
+              { "rekening": "55 - Bank", "debet": 500000, "credit": null },
+              { "rekening": "174 - Andere leningen op meer dan een jaar", "debet": null, "credit": 500000 }
+            ]
+          },
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 - jaar 1 rente: 500.000 * 4% = 20.000 EUR. Kapitaalaflossing: 61.645 - 20.000 = 41.645 EUR.",
+              "Stap 2 - boeking jaar 1: D 174 41.645 + D 650 (rentelasten) 20.000 | C 55 Bank 61.645.",
+              "Stap 3 - eind boekjaar 1: nieuw uitstaand saldo = 500.000 - 41.645 = 458.355 EUR. Daarvan is het deel dat binnen jaar 2 opeisbaar wordt (kapitaalaflossing jaar 2) over te hevelen van 174 naar 42 ('Schulden op meer dan een jaar binnen het jaar vervallend').",
+              "Stap 4 - kapitaalaflossing jaar 2: nieuwe rente = 458.355 * 4% = 18.334; kapitaal = 61.645 - 18.334 = 43.311 EUR. Overheveling: D 174 43.311 | C 42 43.311.",
+              "Stap 5 - na 10 jaar is het volledige krediet terugbetaald; totale betaalde rente = 10 * 61.645 - 500.000 = ca. 116.450 EUR."
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Geen overheveling 17 -> 42 bij afsluiting",
+        "verkeerde_assumptie": "Een 10-jaars lening blijft de hele looptijd onder rekening 17 staan tot ze afgelost is.",
+        "kernpunt": "Bij elke boekjaarafsluiting moet het deel van de hoofdsom dat binnen het volgende boekjaar vervalt, overgeheveld worden van rekening 17 naar rekening 42. Zonder deze overheveling toont de jaarrekening een vertekend liquiditeitsbeeld - de current ratio en de kortlopende schulden zien er kunstmatig beter uit. Dit is een veel voorkomende fout bij niet-geprofessionaliseerde boekhoudingen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2012/16", "ref": "Rangschikking schulden volgens stijgende eisbaarheid" }
+          ]
+        }
+      },
+      {
+        "titel": "Variabele rente vergeten te herrekenen voor budget",
+        "verkeerde_assumptie": "Bij een lening met variabele rente blijft de financiële last hetzelfde als bij opname.",
+        "kernpunt": "Variabele rentes worden periodiek herzien (vaak per kwartaal of jaar) op basis van een referte-index (Euribor, OLO). Een rentestijging van 2 procentpunten op een uitstaand saldo van 500.000 EUR = 10.000 EUR extra rentelast per jaar - dat kan een KMO uit balans brengen. Bij budgettering moet de gevoeligheid voor rentebewegingen expliciet getoetst worden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk financieel beheer" }
+          ]
+        }
+      },
+      {
+        "titel": "Persoonlijke borg lichtzinnig laten ondertekenen",
+        "verkeerde_assumptie": "De persoonlijke borg van de zaakvoerder is een formaliteit; bij een goedlopende vennootschap wordt die nooit aangesproken.",
+        "kernpunt": "Persoonlijke borg blijft normaal opeisbaar zolang het krediet niet volledig terugbetaald is - ook na overdracht van aandelen, ontslag als zaakvoerder, of echtscheiding. De zaakvoerder die zijn vennootschap verlaat moet expliciet onderhandelen over vrijgave van de borg, eventueel via vervanging door een nieuwe borg of door cash-zekerheid. Wettelijke samenwonende of gehuwde partner: oprechte toestemming verplicht, en de borg kan bij echtscheiding tot conflict leiden."
+,
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk KMO - borgvrijgave bij aandelenoverdracht" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Vaste vs variabele rente",
+        "opties": [
+          {
+            "keuze": "Vaste rente voor de volledige looptijd",
+            "voordeel": "Zekerheid over de toekomstige cash-outs - eenvoudige budgettering. Bescherming tegen renteklim.",
+            "nadeel": "Doorgaans iets hogere initial rente dan variabel. Geen voordeel bij rentedaling. Vervroegde terugbetaling vaak met wederbeleggingsvergoeding."
+          },
+          {
+            "keuze": "Variabele rente (Euribor + marge)",
+            "voordeel": "Lager initieel niveau. Profiteert van eventuele rentedaling. Vervroegde terugbetaling typisch zonder vergoeding (of beperkter).",
+            "nadeel": "Renterisico: stijgende index = stijgende kosten. Vraagt actief beheer of indekking via IRS (interest rate swap)."
+          }
+        ],
+        "vuistregel": "Voor lange looptijden (>10 jaar) en cyclisch stabiele activiteiten: vaste rente. Voor kortere looptijden of activiteiten met hoge cash-flow-variabiliteit: variabel, eventueel met IRS-indekking voor een deel van het bedrag.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 2011/18", "ref": "Renteswap - indekkingsmogelijkheid" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard treasury-advies" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "vennootschap-debiteur",
+      "naam": {
+        "primair": "Debiteur-vennootschap"
+      },
+      "intro": "De accountant die het bankkrediet bij de cliënt boekhoudkundig opvolgt, en die bij onderhandeling of advies meedenkt over de financieringsstructuur.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "afsluiting-overheveling",
+              "naam": {
+                "primair": "Boekjaarafsluiting - overheveling en renteprorata"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke afsluiting: (1) bereken het deel van de hoofdsom dat in het volgende boekjaar opeisbaar wordt op basis van het aflossingsschema; (2) boek D 17 | C 42 voor dat bedrag; (3) bij vervallen maar onbetaalde rente: D 650 | C 492 (toe te rekenen kosten); (4) bij vooruitbetaalde rente: D 490 (over te dragen kosten) | C 650; (5) controleer dat de jaarrekening de uitstaande hoofdsom correct splitst (17 langlopend vs 42 binnen het jaar) - dit is een kerncomponent van de liquiditeitsratio's.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 2012/16", "ref": "Rangschikking schulden volgens vervaltermijn" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardprocedure boekjaarafsluiting" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "onderhandeling-bank",
+              "naam": {
+                "primair": "Onderhandeling met de bank - dossier voorbereiden"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor de cliënt het kredietdossier opbouwen: (1) recente jaarrekeningen + tussentijdse cijfers; (2) investeringsmemorandum met business case voor de investering; (3) prognose-kasstromen die de terugbetalingscapaciteit aantonen; (4) inventaris van beschikbare waarborgen (gebouwen, handelszaak, ...); (5) andere lopende financieringen + bestaande convenanten. Bij meerdere offertes: vergelijk niet enkel de rente, maar ook de afsluitingskosten, dossierkosten, beheerskosten, vervroegde-terugbetalingsvergoedingen, gevraagde waarborgen en convenanten. Een lagere rente met zware waarborgen kan duurder uitvallen dan een iets hogere rente met soepelere voorwaarden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard-adviespraktijk KMO-financiering" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "covenant-monitoring",
+              "naam": {
+                "primair": "Convenant-monitoring tijdens looptijd"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke afsluiting expliciet de financial covenants berekenen: typisch minimum-solvabiliteit (eigen vermogen / balanstotaal), EBITDA-coverage-ratio (EBITDA / financiële lasten), debt-service-coverage. Bij dreigende overtreding: tijdig en proactief de bank contacteren. Banken zijn doorgaans bereid een waiver of aanpassing toe te staan bij open communicatie; daarentegen reageren ze hard op verborgen breuken die ze later zelf ontdekken.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk treasury KMO" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
-      "type": "vergelijkbaar_met",
-      "target": "obligatielening"
+      "type": "valt_onder",
+      "target": "lening"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "achtergestelde-lening"
+      "target": "obligatielening",
+      "gelijkenissen": [
+        "Beide zijn schuldinstrumenten op meer dan een jaar",
+        "Beide genereren aftrekbare rentelasten binnen art. 198/1 WIB92",
+        "Beide worden geboekt onder schulden op meer dan een jaar (rubriek VIII)"
+      ],
+      "verschillen": [
+        "Banklening: bilaterale overeenkomst met één kredietinstelling, sterk gestandaardiseerd via interne procedures van de bank",
+        "Obligatielening: effecten-instrument, uitgegeven aan veelheid van investeerders, vereist prospectusplicht (boven drempels) en effecten-procedure",
+        "Banklening kent meestal financial covenants; obligatielening werkt eerder met trust deed en covenants in de prospectus",
+        "Banklening is minder verhandelbaar; obligaties kunnen op markt circuleren"
+      ],
+      "verwarring_risico": "Beide eindigen in rubriek VIII van het passief, maar op verschillende subrekeningen: bankleningen op 173 of 174; obligaties op 170-171.",
+      "render_hint": "als_glossarium"
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "leasing"
+      "target": "achtergestelde-lening",
+      "gelijkenissen": [
+        "Beide zijn leningen op middellange/lange termijn",
+        "Beide kennen rente die fiscaal aftrekbaar is"
+      ],
+      "verschillen": [
+        "Banklening is doorgaans niet achtergesteld (eventueel pari passu of bevoorrecht via zekerheden); de bank wil net vooraan in de rij staan",
+        "Bankleningen worden door kredietinstellingen verstrekt; achtergestelde leningen vaak door aandeelhouders",
+        "Banklening wordt niet als quasi-eigen-vermogen gezien; achtergestelde lening wel in bancaire beoordeling"
+      ],
+      "verwarring_risico": "Beide staan onder schulden op > 1 jaar (rubriek VIII), maar op verschillende sub-rubrieken. Achtergestelde leningen onder VIII.A.1 (rekening 17/4); bankleningen onder VIII.A.2 of B (rekening 173-174).",
+      "render_hint": "als_glossarium"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "leasing",
+      "gelijkenissen": [
+        "Beide financieren de aankoop of het gebruik van een specifiek actief",
+        "Beide genereren een periodieke betalingsverbintenis"
+      ],
+      "verschillen": [
+        "Banklening: vennootschap wordt onmiddellijk eigenaar van het actief en boekt het op haar balans; krediet apart in passief",
+        "Leasing: vennootschap is huurder; eigendom blijft bij de leasinggever. Bij financiële leasing wordt het actief wel op de balans van de leasingnemer geboekt (CBN-advies leasing)",
+        "Banklening kent vaak ruimere waarborgkeuzes; leasing heeft het actief zelf als waarborg"
+      ],
+      "verwarring_risico": "De boekhoudkundige verwerking verschilt sterk (vooral bij operationele leasing). Vergelijk altijd de totale cost-of-financing - niet enkel rente of leasingbedrag.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
