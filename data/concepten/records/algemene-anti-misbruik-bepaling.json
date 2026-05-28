@@ -7,7 +7,7 @@
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -15,9 +15,21 @@
       "2.1.IX.B"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/algemene-anti-misbruik-bepaling.json",
+      "primary_bronnen": [
+        "WIB92 art. 344 §1",
+        "WIB92 art. 344/1 (juridische constructies)",
+        "WBT&R art. 18 §2 (registratie- en successierechten)",
+        "WDRT art. 202 (diverse rechten en taksen)",
+        "VCF art. 3.17.0.0.2 (Vlaamse gewestbelastingen)",
+        "Brusselse Codex Fiscale Procedure art. 52"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -26,6 +38,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:55:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (art. 344 §1 WIB92 + verwante codices). 4-voorwaardentest + tegenbewijs + remedie. Cluster anti-misbruik-lokaal."
       }
     ],
     "scope": {
@@ -63,20 +82,305 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van anti-misbruik.",
+        "tekst": "De Algemene Anti-Misbruik-Bepaling (AAMB) — voor de inkomstenbelastingen verankerd in artikel 344 §1 WIB92 — stelt de fiscus in staat een rechtshandeling of geheel van rechtshandelingen niet tegen te werpen wanneer er sprake is van 'fiscaal misbruik'. Volgens artikel 344 §1 tweede lid is er fiscaal misbruik wanneer de belastingplichtige (1°) zich in strijd met de doelstellingen van een wettelijke bepaling buiten het toepassingsgebied van die bepaling plaatst, OF (2°) aanspraak maakt op een belastingvoordeel waarvan de toekenning in strijd zou zijn met de doelstellingen van de bepaling die het voordeel verleent, en die rechtshandeling 'in wezen' het verkrijgen van dat voordeel tot doel heeft. Het is de antwoord-clausule van de wetgever op fiscale planning die formeel binnen de letter van de wet blijft maar de bedoeling van de wetgever frustreert.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1, eerste en tweede lid" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Concreet werkt de AAMB als een vier-stappentest: (1) bewijs dat de gestelde rechtshandeling(en) één 'verrichting' vormen of een gefragmenteerde structuur die naar één resultaat leidt; (2) bewijs door de fiscus dat een wettelijke 'doelstelling' (ratio legis) wordt gefrustreerd — ofwel door zich uit een belasting-grijpend artikel te plaatsen, ofwel door een gunstig artikel te misbruiken; (3) bewijs dat de fiscale doelstelling in wezen het hoofddoel is van de gestelde constructie; (4) belastingplichtige kan tegenbewijs leveren dat er andere, niet-fiscale motieven zijn die de constructie verantwoorden (economisch, organisatorisch, familiaal). Slaagt het tegenbewijs niet, dan herstelt de fiscus de belastbare grondslag 'alsof het misbruik niet heeft plaatsgevonden' — de constructie wordt fiscaal weggedacht, niet civielrechtelijk vernietigd.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1, tweede t.e.m. vierde lid" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De huidige formulering (in werking sinds aanslagjaar 2013, ingevoerd door programmawet 29 maart 2012) is een herziening van het oude artikel 344 §1 dat in de praktijk weinig succesvol was — Cassatie eiste zo'n strenge bewijslast dat de fiscus de bepaling nauwelijks effectief kon gebruiken. De nieuwe versie spiegelt zich aan EU-rechtspraak (zaak C-255/02 Halifax) en de Europese GAAR-modellen: niet de civielrechtelijke kwalificatie wordt aangevochten, maar de fiscale tegenwerpbaarheid. De AAMB is dus een ultimum remedium tegen 'creatieve' fiscale planning die geen simulatie is (de rechtshandeling is echt) maar wel de geest van de wet frustreert. Tegelijk garandeert het tegenbewijs dat reële economische motieven blijven gerespecteerd worden — de wetgever wil geen jacht op alle fiscaal-voordelige keuzes.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio legis 2012-herziening + EU-Halifax-doctrine" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "fiscaal-recht",
+        "interpretatie-fiscale-wet"
+      ],
+      "kader": "anti-misbruik",
+      "naast_relevant": [
+        "simulatie-leer"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2012-04-06",
+        "wettelijke_basis": "Programmawet 29 maart 2012 — herziening art. 344 §1 WIB92. Parallelle teksten in WBT&R art. 18 §2 (registratie en successie federaal), WDRT art. 202 (diverse rechten en taksen), VCF art. 3.17.0.0.2 (Vlaamse gewestbelastingen incl. erfbelasting), Brusselse Codex Fiscale Procedure art. 52, Waals decreet 06-05-1999 art. 12quinquies.",
+        "toelichting": "Stabiel sinds 2012-herziening. Hoofdwijziging tegenover oude versie: niet langer de civielrechtelijke kwalificatie wordt herzien, maar de fiscale tegenwerpbaarheid; bewijslast voor het tegenbewijs ligt nu duidelijk bij de belastingplichtige."
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke fiscale planning of structurering: de adviseur toetst of de gekozen weg risico loopt onder de AAMB. Concreet: kan de fiscus argumenteren dat de wettelijke doelstelling van het toegepaste artikel wordt gefrustreerd? Bestaan er overtuigende niet-fiscale motieven die als tegenbewijs kunnen dienen?",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk fiscale planning" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Wanneer er geen wettelijke 'doelstelling' wordt gefrustreerd (de letter en geest van de wet vallen samen) of wanneer een specifieke anti-misbruik-bepaling (SAAR — bv. art. 26, 49, 79, 207 WIB92) toepasselijk is en de fiscus die voorrang geeft. De AAMB is een vangnet — geen primair instrument.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Subsidiariteit GAAR t.o.v. SAAR's — standaardleer" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "Fiscale controle of bezwaarprocedure waarbij de fiscus vermoedt dat de gestelde verrichting 'fiscaal misbruik' uitmaakt. Initiatief bij fiscus; AAMB wordt opgeworpen in het verslag van rechtzetting of in de berichtgeving van aanslagwijziging.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1, eerste lid" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "regel-vier-voorwaardentest",
+        "naam": {
+          "primair": "Vier-voorwaardentest fiscaal misbruik"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Cumulatief: (1) er is een rechtshandeling of een geheel van rechtshandelingen die één 'verrichting' tot stand brengen; (2) de fiscus toont objectief aan dat de belastingplichtige zich ofwel in strijd met de doelstellingen van een bepaling buiten haar toepassingsgebied plaatst (1°), ofwel aanspraak maakt op een belastingvoordeel waarvan de toekenning in strijd zou zijn met de doelstellingen van de bepaling (2°); (3) de constructie heeft 'in wezen' het verkrijgen van het belastingvoordeel tot doel; (4) belastingplichtige levert geen overtuigend tegenbewijs van andere, niet-fiscale motieven.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1, tweede en derde lid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "mechanisme-tegenbewijs",
+        "naam": {
+          "primair": "Tegenbewijs door belastingplichtige (niet-fiscale motieven)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De belastingplichtige moet aantonen dat de keuze voor de gestelde rechtshandeling 'door andere motieven verantwoord is dan het ontwijken van inkomstenbelastingen'. Typische valide motieven: organisatorisch (groepsstructurering, opvolging), economisch (kostenbeheersing, risico-isolering), familiaal (vermogensplanning, schenkingsstrategie), juridisch (aansprakelijkheidsbeperking). Onvoldoende: motieven die kunstmatig na de feiten worden geconstrueerd, of die zwakker zijn dan het fiscale voordeel. De rechter wikt motieven concreet — niet alle niet-fiscale motieven volstaan.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1, derde lid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-herstel-belastbare-grondslag",
+        "naam": {
+          "primair": "Herstel-effect: belastingheffing 'alsof het misbruik niet heeft plaatsgevonden'"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Slaagt het tegenbewijs niet, dan herstelt de fiscus de belastbare grondslag en de belastingberekening 'zodanig dat de verrichting aan een belastingheffing overeenkomstig het doel van de wet wordt onderworpen, alsof het misbruik niet heeft plaatsgevonden'. De civielrechtelijke geldigheid van de rechtshandeling blijft onaangetast — alleen de fiscale gevolgen worden weg-gerekend. Concrete uitwerking: fictieve aanslag op de structuur die de wetgever had bedoeld (bv. dividend in plaats van rentenbetaling, salaris in plaats van bestuurdersvergoeding).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1, vierde lid" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-parallelle-codices",
+        "naam": {
+          "primair": "Parallelle AAMB in andere fiscale codices"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De AAMB is niet beperkt tot inkomstenbelastingen. Parallelle, inhoudelijk grotendeels identieke teksten gelden voor: registratie- en successierechten federaal (WBT&R art. 18 §2), Vlaamse gewestbelastingen incl. erfbelasting (VCF art. 3.17.0.0.2), Brusselse gewestbelastingen (Brusselse Codex Fiscale Procedure art. 52), Waalse gewestbelastingen (Decreet 06-05-1999 art. 12quinquies), en diverse rechten en taksen (WDRT art. 202). Tekstuele opbouw is overal vergelijkbaar (verrichting + doelstellings-strijd + tegenbewijs + herstel).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WDRT", "ref": "art. 202" },
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 3.17.0.0.2" },
+                { "type": "wettekst", "naam": "Brusselse Codex Fiscale Procedure", "ref": "art. 52" },
+                { "type": "wettekst", "naam": "Decreet 06-05-1999 (Wallonië)", "ref": "art. 12quinquies" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "regel-juridische-constructies",
+        "naam": {
+          "primair": "Juridische constructies (art. 344/1 WIB92)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 344/1 WIB92 breidt de AAMB uit naar 'juridische constructies' (typisch buitenlandse trusts en stichtingen in laagbelastende rechtsstelsels). Wanneer een juridische constructie een misbruik-verrichting in de zin van art. 344 §1 stelt, kan de tegenwerpbaarheid worden ontzegd. Het tegenbewijs mag geleverd worden door de oprichter of door de belastingplichtige die een dividend uit de constructie ontving. Werkt complementair met de kaaiman-tax (art. 5/1 WIB92).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 344/1" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-vruchtgebruik-constructie",
+        "titel": "Vruchtgebruik-constructie zonder economische substantie",
+        "context": "Een ondernemer koopt vastgoed via opdeling tussen zijn vennootschap (vruchtgebruik 90 % waarde) en zichzelf privé (blote eigendom 10 %). De vennootschap kan het vruchtgebruik fiscaal afschrijven over 20 jaar; bij einde vruchtgebruik wordt de ondernemer privé volle eigenaar zonder belasting. De waardering 90/10 wijkt sterk af van actuariële tabellen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek voorbeeld AAMB-toepassing — pre-2012 al onderwerp van rechtspraak" }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "analyse-aamb",
+            "naam": { "primair": "AAMB-analyse stap-voor-stap" },
+            "bouwsteen_type": "stap",
+            "kern": {
+              "definitie": {
+                "tekst": "Stap 1 — verrichting: opsplitsing eigendomsrecht in vruchtgebruik + blote eigendom (één 'verrichting'). Stap 2 — strijd met doelstelling: de wetgever heeft niet bedoeld dat vennootschappen residentieel privé-vastgoed van hun zaakvoerder kunnen afschrijven via overgewaardeerd vruchtgebruik (frustratie van art. 49 WIB92 'beroepsmatig karakter'). Stap 3 — hoofddoel: de 90/10-verdeling die actuarieel onverdedigbaar is, suggereert dat fiscale aftrek het hoofddoel is. Stap 4 — tegenbewijs? Economische motieven (vennootschap als investeerder) zwak indien gebruik privé. Conclusie: hoog AAMB-risico → herstel als zelfgebruikt onroerend goed van de zaakvoerder zonder afschrijving.",
+                "grondslag": {
+                  "confidence": "afgeleid",
+                  "bronnen": [
+                    { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardanalyse vruchtgebruik-constructies onder AAMB" }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Civiele nietigheid verwarren met fiscale niet-tegenwerpbaarheid",
+        "verkeerde_assumptie": "Bij toepassing van art. 344 §1 wordt de rechtshandeling civielrechtelijk vernietigd.",
+        "kernpunt": "Neen. De AAMB werkt uitsluitend fiscaal — de civielrechtelijke geldigheid van de rechtshandeling blijft volledig intact. De fiscus 'denkt de constructie weg' voor de berekening van de belasting, maar de notariële akte, het vruchtgebruik, de schenking blijven juridisch bestaan. Dit verschilt fundamenteel van simulatie (waar de werkelijke wil van partijen wordt blootgelegd, eventueel met civiele consequenties).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1, vierde lid", "context": "'Herstel belastbare grondslag … alsof het misbruik niet heeft plaatsgevonden'" }
+          ]
+        }
+      },
+      {
+        "titel": "AAMB als 'restbevoegdheid' op alles toepassen",
+        "verkeerde_assumptie": "Wanneer een fiscale planning gunstig uitvalt, kan de fiscus altijd AAMB inzetten.",
+        "kernpunt": "AAMB vereist concreet dat een wettelijke doelstelling (ratio legis) wordt gefrustreerd. Een gunstige keuze tussen twee fiscale wegen die de wetgever bewust open laat (bv. dividend versus loon binnen een KMO) = vrije fiscale keuze, geen misbruik. Cass. en GwH bewaken dit grensgeval: zonder duidelijk gefrustreerde doelstelling faalt de AAMB.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Rechtspraakleer doel-frustratie-eis" }
+          ]
+        }
+      },
+      {
+        "titel": "Tegenbewijs onderschatten",
+        "verkeerde_assumptie": "Stagiairs verzamelen na de feiten algemene 'familiale' of 'economische' motieven en denken dat het tegenbewijs daarmee gevoerd is.",
+        "kernpunt": "Het tegenbewijs moet concreet, contemporain en zwaarwichtig zijn — gedocumenteerd op het ogenblik van de verrichting (raadsverslagen, businessplannen, advies-correspondentie). Een na-de-feiten-rationalisatie wordt door fiscus en rechter vaak als onvoldoende beoordeeld.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1, derde lid" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Rechtspraakleer tegenbewijs-discipline" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "fiscale-planning",
+      "naam": {
+        "primair": "Fiscale planning + structurering"
+      },
+      "intro": "De accountant adviseert bij vermogens- of vennootschapsstructurering met fiscale impact.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "aamb-pretoets",
+              "naam": { "primair": "AAMB-pretoets bij elke planning" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vooraleer een structurering vast te leggen: simuleer een controle-vraag 'wat zou de fiscus als ratio legis-frustratie aanvoeren?' Documenteer de niet-fiscale motieven (organigram, businessplan, family governance) contemporain met de transactie. Bij hoog risico: ruling-aanvraag bij de Voorafgaande Beslissing in fiscale zaken (DVB). De ruling neutraliseert AAMB-risico voor de gespecifieerde verrichting.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 §1" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk fiscale planning" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "verdediging-controle",
+              "naam": { "primair": "Verdediging bij fiscale controle die AAMB inroept" },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij ontvangst van een bericht van wijziging waarin de fiscus art. 344 §1 inroept: (a) ga na welke wettelijke doelstelling concreet wordt opgevoerd; (b) verzamel contemporaine documentatie van niet-fiscale motieven; (c) toets of een SAAR (specifieke anti-misbruik-bepaling) op de feiten al toepasselijk was — zo ja, de fiscus moet die eerst uitwerken; (d) overweeg bezwaar bij Gewestelijke Directeur en, indien nodig, vordering bij fiscale rechtbank.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard verdedigingspraktijk AAMB-controle" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -84,7 +388,20 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "simulatie-leer"
+      "target": "simulatie-leer",
+      "gelijkenissen": [
+        "Beide laten de fiscus toe een door de belastingplichtige gestelde rechtshandeling fiscaal te negeren",
+        "Beide werken via 'niet-tegenwerpbaarheid' tegenover de administratie",
+        "Beide vereisen bewijs door de fiscus"
+      ],
+      "verschillen": [
+        "Simulatie-leer (gemeenrechtelijk): partijen wilden in werkelijkheid iets anders dan wat ze juridisch hebben uitgedrukt — de fiscus toont de 'werkelijke wil'. Civiele nietigheid kan volgen.",
+        "AAMB (art. 344 §1 WIB92): de rechtshandeling is écht gewild en civielrechtelijk geldig, maar frustreert de wettelijke doelstelling. Alleen fiscale gevolgen worden weg-gerekend.",
+        "Simulatie reikt verder dan fiscaal (ook civielrechtelijk); AAMB is louter fiscaal.",
+        "Simulatie is een ouder, smallere doctrine; AAMB is een breder vangnet sinds 2012."
+      ],
+      "verwarring_risico": "Stagiairs verwarren beide instrumenten — de fiscus kan kiezen welk hij inroept (subsidiair of cumulatief), maar de toets is fundamenteel verschillend.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
