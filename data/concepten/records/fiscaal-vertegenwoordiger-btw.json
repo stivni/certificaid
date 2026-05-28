@@ -1,12 +1,19 @@
 {
   "id": "fiscaal-vertegenwoordiger-btw",
   "naam": {
-    "primair": "Fiscaal vertegenwoordiger (BTW)"
+    "primair": "Fiscaal vertegenwoordiger (BTW)",
+    "synoniemen": [
+      "aansprakelijk vertegenwoordiger",
+      "BTW-vertegenwoordiger"
+    ],
+    "vertaling": {
+      "fr": "représentant responsable TVA"
+    }
   },
   "concept_type": "actor",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "regeling"
@@ -15,9 +22,21 @@
       "2.4.VI"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/fiscaal-vertegenwoordiger-btw.json",
+      "primary_bronnen": [
+        "WBTW art. 55",
+        "WBTW art. 51 §2 1°/5°/6°",
+        "WBTW art. 51bis",
+        "WBTW art. 53quater §5",
+        "KB nr. 31 van 2 april 2002 — art. 1, 2, 5",
+        "CBN-advies 161/1"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -26,6 +45,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WBTW art. 55 + 51bis + KB nr. 31 + CBN 161/1). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
@@ -37,12 +63,12 @@
       ],
       "out": [
         {
-          "topic": "Σ-keuzekader grensoverschrijdend",
+          "topic": "Σ-keuzekader grensoverschrijdend (welk regime kiezen — eigen identificatie, vertegenwoordiger, OSS-systeem)",
           "richting": "moet-verwijzen",
           "ref": "btw-grensoverschrijdend"
         },
         {
-          "topic": "BTW-belastingplichtige niet-resident",
+          "topic": "BTW-belastingplichtige niet-resident (algemene status van niet-Belgische belastingplichtige)",
           "richting": "moet-verwijzen",
           "ref": "btw-belastingplichtige"
         }
@@ -52,24 +78,375 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (fiscaal-vertegenwoordiger-btw).",
+        "tekst": "De fiscaal vertegenwoordiger (in de wet 'aansprakelijk vertegenwoordiger') is een in België gevestigde persoon die door of vanwege de Minister van Financiën wordt erkend om een niet in de Gemeenschap gevestigde belastingplichtige te vertegenwoordigen voor zijn Belgische BTW-verplichtingen. Hij wordt in de plaats gesteld van zijn lastgever voor alle BTW-rechten en -verplichtingen en is met de lastgever hoofdelijk aansprakelijk voor de betaling van de BTW, nalatigheidsinteresten en geldboeten.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §1" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §4" },
+            { "type": "kb", "naam": "KB nr. 31 (2 april 2002)", "ref": "art. 1" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de Belgische fiscus is een belastingplichtige uit een derde land (buiten de EU) moeilijk te controleren en moeilijk in te vorderen. De aansprakelijk vertegenwoordiger lost dat op: een in België gevestigde 'voorpost' die fysiek aanspreekbaar is, de aangiftes indient, de BTW betaalt aan de Schatkist en — als de niet-EU-belastingplichtige in gebreke blijft — met zijn eigen vermogen mee aansprakelijk is. Voor de praktijk: gespecialiseerde fiscale kantoren, douane-expediteurs en logistieke dienstverleners treden vaak op als vertegenwoordiger. Bestaat in twee vormen: individueel (één vertegenwoordiger per niet-EU-cliënt, art. 55 §1) en globaal (één vooraf erkende persoon kan onder twee globale BTW-nummers meerdere niet-EU-belastingplichtigen vertegenwoordigen voor specifieke handelingen, KB nr. 31 art. 2).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §1" },
+            { "type": "kb", "naam": "KB nr. 31 (2 april 2002)", "ref": "art. 2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese individueel/globaal regime uit art. 55 + KB nr. 31 art. 1-2" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is invorderingszekerheid voor de Schatkist. Een belastingplichtige uit een derde land kan niet onder de EU-instrumenten voor wederzijdse bijstand (Richtlijn 2010/24/EU, Verordening 904/2010) worden ingevorderd. Door een Belgische vertegenwoordiger te eisen die hoofdelijk aansprakelijk is, beschikt de fiscus over een binnenlandse debiteur tegen wie ze rechtstreeks kan ageren. EU-belastingplichtigen vallen wél onder die wederzijdse bijstand — voor hen is een vertegenwoordiger niet verplicht, alleen mogelijk (art. 55 §2).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §1", "context": "Uitzondering voor landen waarmee rechtsinstrument inzake wederzijdse bijstand bestaat" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — invorderingsbescherming" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "btw-belastingplichtige",
+        "btw-grensoverschrijdend"
+      ],
+      "kader": "btw-grensoverschrijdend"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WBTW art. 55 + KB nr. 31 van 2 april 2002",
+        "toelichting": "Stabiel regime sinds invoering WBTW; KB nr. 31 van 2002 vervangt vroegere KB-versies. Wijzigingen sindsdien blijven op uitvoeringsmodaliteiten."
+      },
+      "voor": [
+        {
+          "tekst": "Een niet in de Gemeenschap gevestigde belastingplichtige die in België belastbare handelingen verricht die niet onder de verleggingsregeling vallen (art. 51 §2 1°, 2°, 5° en 6°) en geen gebruik maakt van de bijzondere regelingen van art. 58ter of 58quinquies (OSS/IOSS). Voorbeelden: invoer met opvolgende lokale levering · plaatsing onder entrepot ≠ douane-entrepot · intracommunautaire verwerving met opvolgende levering.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §1" },
+              { "type": "kb", "naam": "KB nr. 31", "ref": "art. 1 §1" },
+              { "type": "kb", "naam": "KB nr. 31", "ref": "art. 2 §1" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Niet vereist wanneer de niet-EU-belastingplichtige in België uitsluitend handelingen verricht waarvoor de BTW via de verleggingsregeling door de medecontractant wordt voldaan (art. 51 §2 1°, 2°, 5° en 6° WBTW). In dat geval ontstaat er geen BTW-schuld in hoofde van de niet-residente belastingplichtige in België.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §1, eerste lid" }
+            ]
+          }
+        },
+        {
+          "tekst": "Niet vereist voor belastingplichtigen gevestigd in een ander EU-land of in een derde land waarmee een rechtsinstrument inzake wederzijdse bijstand bestaat dat vergelijkbaar is met Richtlijn 2010/24/EU en Verordening 904/2010 (bv. Noorwegen). Erkenning is dan optioneel (art. 55 §2).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §2" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Verzoek tot erkenning aan het Centraal BTW-kantoor voor buitenlandse belastingplichtigen, ingediend door de niet-EU-belastingplichtige (individueel regime) of door de aspirant-vertegenwoordiger zelf (globaal regime). Aanvraag-formulier vooraf indienen, identiteit vertegenwoordiger volledig opgeven; bij globaal regime krijgt de erkende persoon twee globale BTW-identificatienummers (één voor invoer-handelingen, één voor andere handelingen van KB nr. 31 art. 2 §1).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "kb", "naam": "KB nr. 31", "ref": "art. 1 §2" },
+              { "type": "kb", "naam": "KB nr. 31", "ref": "art. 2 §2" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Voor de niet-EU-belastingplichtige: praktische toegang tot de Belgische BTW-markt zonder eigen vaste inrichting. Voor de vertegenwoordiger zelf: het is een betaalde dienstverlening (honoraria) — vooral interessant voor douane-expediteurs en logistieke spelers die het volume kunnen bundelen via het globale regime.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1", "context": "Boekhoudkundige verwerking — verwijst naar honoraria voor de vertegenwoordiger" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk-synthese" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Hoofdelijke aansprakelijkheid is onbeperkt en strekt zich uit tot belasting + nalatigheidsinteresten + geldboeten van de lastgever. Voor de vertegenwoordiger praktisch significant: als de niet-EU-cliënt verdwijnt of failliet gaat, kan de fiscus zich op het eigen vermogen van de vertegenwoordiger verhalen. Daarom: waarborg verplicht (KB nr. 31 voorziet zekerheidstelling) + voorzichtige cliëntacceptatie + boekhoudkundige scheiding van eigen middelen en middelen-voor-rekening-van-derden (rek. 489 vs. eigen-vermogen).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §4, tweede lid", "context": "Hoofdelijk gehouden tot belasting, intresten en boetes" },
+              { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1", "context": "Verplichtingen op passiefzijde balans; waarborgen via klasse 0" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "individuele-erkenning",
+        "naam": {
+          "primair": "Individuele erkenning (art. 55 §1)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Eén-op-één regime: per niet-EU-belastingplichtige wordt één Belgische vertegenwoordiger erkend en krijgt de lastgever zijn eigen Belgisch BTW-identificatienummer (BE-nummer). Die vertegenwoordiger doet de BTW-aangifte voor deze ene cliënt en is hoofdelijk aansprakelijk voor diens BTW-schulden. Vervanging of schrapping van de vertegenwoordiger vergt aangifte bij het Centraal BTW-kantoor; de oude vertegenwoordiger blijft aansprakelijk voor de handelingen tot de datum van aanvaarding van de vervanging.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §1" },
+                { "type": "kb", "naam": "KB nr. 31", "ref": "art. 1 §2" },
+                { "type": "kb", "naam": "KB nr. 31", "ref": "art. 1 §3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "globale-erkenning",
+        "naam": {
+          "primair": "Globale erkenning (KB nr. 31 art. 2)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vooraf erkende persoon (typisch een gespecialiseerd kantoor of douane-expediteur) krijgt twee globale BTW-identificatienummers en mag onder die nummers meerdere niet-EU-belastingplichtigen vertegenwoordigen, voor zover die uitsluitend specifieke handelingen verrichten: invoer met opvolgende levering, intracommunautaire verwerving met opvolgende vrijgestelde levering, plaatsing onder/onttrekking aan entrepot ≠ douane-entrepot. De globale erkende persoon wordt in de plaats van zijn lastgever gesteld voor alle BTW-rechten en -verplichtingen onder het globale nummer.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "KB nr. 31", "ref": "art. 2 §1" },
+                { "type": "kb", "naam": "KB nr. 31", "ref": "art. 2 §2" },
+                { "type": "kb", "naam": "KB nr. 31", "ref": "art. 2 §3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hoofdelijke-aansprakelijkheid",
+        "naam": {
+          "primair": "Hoofdelijke aansprakelijkheid vertegenwoordiger ↔ lastgever"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De vertegenwoordiger is samen met zijn lastgever 'hoofdelijk gehouden tot voldoening van de belasting, nalatigheidsinteresten en geldboeten'. Dat betekent: de fiscus kan voor het volledige bedrag óf bij de niet-EU-belastingplichtige óf bij de Belgische vertegenwoordiger aankloppen, naar keuze. De vertegenwoordiger die betaalt, heeft een interne verhaal-vordering op zijn lastgever (rek. 416 'rekening-courant lastgever' volgens CBN 161/1) — maar het invorderingsrisico is volledig op hem afgewenteld als de lastgever onvermogend is.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §4, tweede lid" },
+                { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "boekhoudkundige-verwerking",
+        "naam": {
+          "primair": "Boekhoudkundige verwerking (CBN 161/1)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De vertegenwoordiger wordt beschouwd als lasthebber van de buitenlandse BTW-plichtige. De BTW-bewegingen worden gevoerd via tussenrekeningen die duidelijk maken dat de BTW niet door de vertegenwoordiger zelf is verschuldigd: rek. 416 'Diverse vorderingen — rekening-courant lastgever X' tegenover rek. 489 'Andere diverse schulden: voor rekening van derden te betalen BTW'. Geen weerslag op de resultatenrekening van de vertegenwoordiger, behalve voor eigen honoraria, salarissen, kantoorkosten en eventuele boetes die hij zelf zou dragen. Hoofdelijke aansprakelijkheid wordt vermeld in de toelichting; bij reëel risico op aanspraak in klasse 0 'Niet in de balans opgenomen rechten en verplichtingen' boeken.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Ontvangst factuur van buitenlandse lastgever — BTW verschuldigd door medecontractant",
+            "rijen": [
+              { "rekening": "416 — Diverse vorderingen — rekening-courant lastgever X", "debet": "BTW-bedrag", "credit": null },
+              { "rekening": "489 — Andere diverse schulden: voor rekening van derden te betalen BTW", "debet": null, "credit": "BTW-bedrag" }
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Storting BTW aan de Staat",
+            "rijen": [
+              { "rekening": "489 — Andere diverse schulden: voor rekening van derden te betalen BTW", "debet": "BTW-bedrag", "credit": null },
+              { "rekening": "55 — Bank", "debet": null, "credit": "BTW-bedrag" }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "vermelding-aan-handelspartners",
+        "naam": {
+          "primair": "Vermeldings-plicht aan klanten en leveranciers"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De niet in België gevestigde belastingplichtige die hier een aansprakelijk vertegenwoordiger heeft laten erkennen, moet voor elke Belgische handeling de naam of benaming en het adres van die vertegenwoordiger meedelen aan zijn klanten en leveranciers. Praktisch komt dat op de factuur (vermelding 'BTW-vertegenwoordiger in België: X NV — BTW-nr. BEy').",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WBTW", "ref": "art. 53quater §5" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vertegenwoordiger verplicht voor élke buitenlandse belastingplichtige",
+        "verkeerde_assumptie": "Stagiairs denken dat een buitenlandse belastingplichtige altijd een fiscaal vertegenwoordiger in België moet aanstellen.",
+        "kernpunt": "Alleen niet-EU-belastingplichtigen zijn verplicht, en zelfs zij niet wanneer al hun Belgische handelingen onder de verleggingsregeling vallen. EU-belastingplichtigen mogen kiezen — voor hen is een vertegenwoordiger optioneel (art. 55 §2). En sinds de OSS/IOSS-regelingen (art. 58ter/58quater/58quinquies) hoeft een belastingplichtige die alleen daarvoor handelingen verricht, evenmin een vertegenwoordiger te erkennen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §1" },
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §2" }
+          ]
+        }
+      },
+      {
+        "titel": "Aansprakelijkheid beperkt tot eigen vergoeding",
+        "verkeerde_assumptie": "De vertegenwoordiger denkt dat zijn aansprakelijkheid beperkt is tot de honoraria die hij voor zijn diensten ontvangt.",
+        "kernpunt": "De hoofdelijke aansprakelijkheid is onbeperkt en omvat belasting + interesten + boetes van de lastgever — geen plafond. Daarom: schermen via waarborg (KB nr. 31), zorgvuldige cliëntacceptatie, en — bij reëel risico — vermelding in klasse 0 + toelichting bij de jaarrekening.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §4" },
+            { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1" }
+          ]
+        }
+      },
+      {
+        "titel": "BTW-bewegingen mengen met eigen resultatenrekening",
+        "verkeerde_assumptie": "De BTW-stromen van de lastgever opnemen in de gewone omzet/aankoop-rekeningen van de vertegenwoordiger.",
+        "kernpunt": "De vertegenwoordiger handelt als lasthebber. BTW-bewegingen lopen via rek. 416 (vordering op lastgever) en rek. 489 (schuld aan Staat voor rekening van derden) — buiten de resultatenrekening van de vertegenwoordiger. Alleen eigen honoraria, kantoorkosten en eventuele zelf gedragen boetes raken het resultaat.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "vertegenwoordiger-kantoor",
+      "naam": {
+        "primair": "Accountantskantoor als fiscaal vertegenwoordiger"
+      },
+      "intro": "Wanneer het kantoor zelf optreedt als aansprakelijk vertegenwoordiger voor een niet-EU-cliënt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "aangifte-namens-lastgever",
+              "naam": {
+                "primair": "BTW-aangifte indienen namens de lastgever"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Maandelijkse of kwartaalaangifte (art. 53 §1 1° 2° WBTW) indienen onder het toegekende BE-nummer van de lastgever (individueel regime) of onder het globale BE-nummer (globaal regime). Bewaar de onderliggende facturen + opgemaakte stukken (KB nr. 31 voorziet documentenbewaring). Betaling van de BTW gebeurt via rek. 489.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 53 §1" },
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §4 eerste lid" },
+                      { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "scheiden-rek-489-vs-451",
+              "naam": {
+                "primair": "BTW voor rekening van derden (489) onderscheiden van eigen BTW (451)"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Elke euro BTW die het kantoor namens een lastgever int of betaalt, gaat via rek. 489 — nooit via rek. 451 'BTW-rekening-courant' van het kantoor zelf. Anders ontstaat boekhoudkundige verwarring tussen eigen BTW-positie en die van de vertegenwoordigde. Bij meerdere lastgevers: sub-rekeningen 489.X per lastgever om de mutaties traceerbaar te houden.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Boekhoudpraktijk-synthese vanuit CBN 161/1" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "risicoacceptatie-lastgever",
+              "naam": {
+                "primair": "Cliëntacceptatie: risico-analyse niet-EU-lastgever"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vooraleer een opdracht als fiscaal vertegenwoordiger aan te nemen: due-diligence op de niet-EU-cliënt (KYC + sector + verwacht volume), waarborg eisen die de potentiële BTW-blootstelling dekt, contractuele recht-van-verhaal en opzeg-clausules opnemen, en bij verhoogd risico vermelding in de toelichting van de jaarrekening (rechten en verplichtingen niet in balans, klasse 0).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WBTW", "ref": "art. 55 §4" },
+                      { "type": "cbn", "naam": "CBN-advies 161/1", "ref": "CBN-advies 161/1", "context": "Vermelding via klasse 0 + toelichting bij reëel risico" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "btw-grensoverschrijdend"
+    },
+    {
+      "type": "vereist",
+      "target": "btw-belastingplichtige",
+      "toelichting": "Veronderstelt het bestaan van een niet-EU-belastingplichtige die in België belastbare handelingen verricht."
+    },
+    {
+      "type": "is_uitzondering_op",
+      "target": "verleggingsregeling",
+      "toelichting": "Wanneer de verleggingsregeling toepasselijk is (art. 51 §2 1°/2°/5°/6° WBTW), is geen fiscaal vertegenwoordiger vereist. De vertegenwoordiger is dus het 'andere pad' voor handelingen waar verlegging niet werkt."
     }
   ]
 }
