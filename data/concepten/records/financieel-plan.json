@@ -3,26 +3,41 @@
   "naam": {
     "primair": "Financieel plan",
     "synoniemen": [
-      "business plan",
       "financial plan",
-      "ondernemingsplan"
-    ]
+      "plan financier"
+    ],
+    "vertaling": {
+      "fr": "plan financier"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "entiteit"
+      "entiteit",
+      "regeling"
     ],
     "ankers": [
-      "3.0.I.C",
-      "3.0.VII",
+      "3.0.I.D",
       "3.0.taak.1"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/financieel-plan.json",
+      "primary_bronnen": [
+        "WVV art. 5:4",
+        "WVV art. 5:15",
+        "WVV art. 6:5",
+        "WVV art. 7:3",
+        "WVV art. 7:17",
+        "CBN-advies 2019/12"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,16 +45,23 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~897)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (WVV art. 5:4, 5:15, 6:5, 7:3, 7:17 + CBN 2019/12)."
       }
     ],
     "scope": {
       "in": [
-        "Document met prognose van middelen + behoeften over min. 2 jaar (BV) of 3 jaar (CV)",
-        "Verplicht bij oprichting BV/NV/CV",
-        "In bewaring bij notaris",
-        "Wettelijke inhoud + criteria + scenarios",
-        "Bewijs-instrument bij oprichtersaansprakelijkheid (3-jaar-faillissementstoets)"
+        "Document met prognose van middelen + behoeften over min. 2 jaar (BV/NV) of 3 jaar (CV)",
+        "Verplicht bij oprichting BV/NV/CV — bewaring bij notaris",
+        "Wettelijke minimum-inhoud (art. 5:4 § 2 WVV)",
+        "Bewijs-instrument bij oprichtersaansprakelijkheid (3-jaar-faillissementstoets)",
+        "Vorm + scenarios"
       ],
       "out": [
         {
@@ -63,15 +85,34 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Het **financieel plan** is een **verplicht document** dat de oprichters van een **BV, NV of CV** vóór de notariële akte van oprichting moeten overhandigen aan de notaris (art. 5:4 BV / 6:5 CV / 7:3 NV WVV). Het verantwoordt het **aanvangsvermogen** (BV/CV) of **aanvangskapitaal** (NV) in het licht van de voorgenomen activiteit over een **periode van ten minste twee jaar** — voor de CV is dit drie jaar. Het plan blijft in **bewaring bij de notaris**, is **niet openbaar** maar wordt op vordering van de rechter overgemaakt bij een faillissement binnen drie jaar (art. 5:15 / 7:17 WVV).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4", "context": "Financieel plan BV — 2 jaar" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:3", "context": "Financieel plan NV — 2 jaar" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 6:5", "context": "Financieel plan CV — 3 jaar" },
+            { "type": "advies", "naam": "CBN-advies 2019/12", "ref": "Financieel plan - begroting", "datum": "2019-11-06" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het financieel plan is het **centrale anti-misbruik-instrument** van het WVV: omdat de BV en CV sinds 2019 geen wettelijk minimumkapitaal meer hebben, wordt de bescherming van schuldeisers verplaatst naar een **realistische prospectie** vóór de oprichting. Het bestuursorgaan moet aantonen dat de vennootschap een redelijk voldoende vermogen heeft om gedurende minstens twee jaar (BV/NV) of drie jaar (CV) haar verplichtingen na te komen. Bij faillissement binnen drie jaar wordt het financieel plan **vergeleken met de werkelijke evolutie**: kennelijke ontoereikendheid leidt tot **persoonlijke en hoofdelijke aansprakelijkheid** van de oprichters voor het ontbrekende deel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15", "context": "Oprichtersaansprakelijkheid BV bij ontoereikend aanvangsvermogen" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17", "context": "Oprichtersaansprakelijkheid NV bij ontoereikend kapitaal" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De **ratio** van het financieel plan is tweeledig: (1) **bescherming van schuldeisers en de oprichters zelf** tegen onbezonnen oprichtingen — de verplichting dwingt tot realistische prognose vóór engagement; (2) **vervanging van het minimumkapitaal als 'minimum-dekking'** — sinds de BV-kapitaalafschaffing (WVV 2019) is het plan het enige formele garantie-instrument. De wet legt minimum-inhoud op (art. 5:4 § 2 WVV) maar geen rigide vorm — zo blijft het plan praktisch hanteerbaar voor elke ondernemingsschaal.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:3, 5:4" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio post-WVV" }
           ]
         }
       }
@@ -79,22 +120,327 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV"
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV (Wet 23-03-2019)",
+        "toelichting": "WVV verstrengde de inhoudelijke vereisten (art. 5:4 § 2 — 7 verplichte elementen, was 5 onder W.Venn. art. 215). Voor CV werd de termijn van 2 → 3 jaar verlengd."
+      },
+      "voor": [
+        {
+          "tekst": "Verplicht bij **oprichting van BV, NV of CV** — vóór de notariële akte aan de notaris bezorgen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4, 6:5, 7:3" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Niet vereist bij oprichting van **VOF, CommV, maatschap, VZW, stichting** (geen kapitaalbescherming-context — onbeperkte aansprakelijkheid of ander statuut). VZW moet wel een **jaarlijkse begroting** opmaken (art. 9:23 WVV) maar dit is geen financieel plan in WVV-zin.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "advies", "naam": "CBN-advies 2019/12", "ref": "Financieel plan - begroting", "datum": "2019-11-06", "context": "Geen equivalente verplichting voor vzw" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Minimum-inhoud (art. 5:4 § 2 WVV)** — 7 elementen verplicht: (1) nauwkeurige beschrijving voorgenomen activiteit; (2) overzicht financieringsbronnen (eigen middelen + krediet) met zekerheden; (3) **prognose-balans** (openingsbalans) na 12 en 24 maanden; (4) **prognose-resultatenrekening** na 12 en 24 maanden; (5) begroting verwachte inkomsten en uitgaven over ten minste 2 jaar; (6) beschrijving van hypothese-aannames over verwachte omzet en rentabiliteit; (7) in voorkomend geval: naam van externe deskundige die heeft geholpen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4, § 2", "context": "Zeven minimum-elementen financieel plan" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Bewaring bij notaris** — de notaris bewaart het plan **5 jaar** vanaf de oprichting; alleen op vordering van rechter-commissaris of procureur des Konings overgemaakt aan de rechtbank.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15", "context": "Notaris maakt plan over aan rechtbank" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "Verplichting eindigt 3 jaar na oprichting (max-termijn waarbinnen oprichtersaansprakelijkheid kan worden ingeroepen — art. 5:15 / 7:17 WVV). Na 3 jaar geen aansprakelijkheid meer op basis van financieel plan.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15", "context": "3-jaar-faillissementstoets" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Oprichtersaansprakelijkheid** — bij faillissement binnen drie jaar wegens **kennelijk ontoereikend aanvangsvermogen** zijn oprichters hoofdelijk aansprakelijk voor de schulden van de vennootschap, **naar een verhouding die de rechter vaststelt** (art. 5:15, 2° / 7:17, 2° WVV). De toets is **objectief retrospectief** maar rekening houdend met wat een redelijke oprichter ex ante kon voorzien.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15, 2°", "context": "Oprichtersaansprakelijkheid BV" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17, 2°", "context": "Oprichtersaansprakelijkheid NV" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Ontbreken van financieel plan** = oprichting **niet nietig** (in tegenstelling tot oude W.Venn.), maar oprichters worden automatisch geacht aansprakelijk te zijn — de bewijslast keert om.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4, 5:15" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "WVV-hervorming: ontbreken plan = bewijslast-omkering ipv nietigheid" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "minimum-inhoud-7-elementen",
+        "naam": {
+          "primair": "Minimum-inhoud — 7 elementen (art. 5:4 § 2 WVV)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Verplichte 7 elementen** (art. 5:4 § 2 WVV — equivalent in 6:5 + 7:3):\n\n1. **Beschrijving voorgenomen activiteit** — duidelijke aard van het project (sector, doelmarkt, product/dienst, business model).\n2. **Overzicht financieringsbronnen** — eigen inbreng (geld/natura), bankkredieten, leveranciers-krediet, eventueel subsidies — met vermelding van eventuele zekerheden (hypotheek, pand, persoonlijke borg).\n3. **Prognose-openingsbalans** na 12 en 24 maanden — geprojecteerde activa-passiva.\n4. **Prognose-resultatenrekening** na 12 en 24 maanden — verwachte omzet, kosten, resultaat.\n5. **Begroting verwachte inkomsten en uitgaven** over ten minste 2 jaar — cashflow-prognose.\n6. **Hypothese-aannames** — uitleg van de aannames inzake omzetgroei, marktpenetratie, rentabiliteit (= 'verantwoordingsplicht').\n7. **Naam externe deskundige** (boekhouder, accountant, fiscalist, business consultant) die heeft bijgestaan — facultatief vermelden maar in praktijk vaak verplicht 'in voorkomend geval'.\n\nGeen wettelijk model of standaardformulier — wel inhoudelijke minimumvereisten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4, § 2", "context": "7 verplichte elementen" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "termijnen-per-vorm",
+        "naam": {
+          "primair": "Termijn financieel plan per rechtsvorm"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "**Termijnen prognose-periode**:\n\n| Vorm | Minimumperiode | Wettelijke basis |\n|---|---|---|\n| BV | 2 jaar | art. 5:4 § 1 WVV |\n| NV | 2 jaar | art. 7:3 WVV |\n| CV | 3 jaar | art. 6:5 WVV |\n| VOF/CommV | n.v.t. (geen plan vereist) | — |\n| Maatschap | n.v.t. | — |\n| VZW | jaarlijkse begroting (geen plan) | art. 9:23 WVV |\n\n**CV-uitzondering**: vereiste 3 jaar wordt verklaard door coöperatief karakter — meer tijd nodig om coöperatief project te bestendigen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4, 6:5, 7:3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "oprichtersaansprakelijkheid-toets",
+        "naam": {
+          "primair": "3-jaar-faillissementstoets — werking"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "**Procedure oprichtersaansprakelijkheid op basis van financieel plan**:\n\n```mermaid\nflowchart TD\n  A[Faillissement uitgesproken binnen 3 jaar na oprichting] --> B[Curator + rechter-commissaris onderzoeken oorzaken]\n  B --> C[Verzoek aan notaris: financieel plan overmaken]\n  C --> D[Rechtbank vergelijkt plan met realiteit]\n  D --> E{Aanvangsvermogen 'kennelijk ontoereikend'?}\n  E -->|Nee| F[Geen oprichtersaansprakelijkheid]\n  E -->|Ja: hypothese onrealistisch, kosten onderschat, ...| G[Rechter beslist hoofdelijke aansprakelijkheid]\n  G --> H[Bepaling verhouding aansprakelijk bedrag - art. 5:15/7:17]\n  H --> I[Oprichters betalen schulden van vennootschap pro rata]\n```\n\n**Toetsings-criteria** voor 'kennelijk ontoereikend':\n- Was het aanvangsvermogen realistisch in verhouding tot verwachte cashbehoefte?\n- Waren de inkomstenprognoses realistisch (niet overdreven optimistisch)?\n- Waren de kosten en investeringen volledig opgenomen?\n- Waren financieringsbronnen reëel beschikbaar?",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15", "context": "Procedure aansprakelijkheid + notaris-verzoek" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:17" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-fp-startup",
+        "titel": "BV TechStart — voorbeeld financieel plan (verkort)",
+        "context": "Oprichting BV TechStart (software development): Anna + Bart, inbreng totaal €50.000. Verwachte activiteit: webdevelopment voor KMO's. Plan geldt voor 24 maanden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Demonstratie 7-elementen-structuur" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Prognose-resultatenrekening (samenvatting)",
+            "kolommen": ["Element", "Jaar 1 (€)", "Jaar 2 (€)"],
+            "rijen": [
+              ["Omzet diensten (klasse 70)", "120.000", "200.000"],
+              ["Diensten + diverse goederen (klasse 61)", "-30.000", "-45.000"],
+              ["Bezoldigingen (klasse 62) — 1 zelfstandige + 1 werknemer Y2", "-50.000", "-80.000"],
+              ["Afschrijvingen (klasse 63)", "-5.000", "-6.000"],
+              ["Bedrijfsresultaat", "35.000", "69.000"],
+              ["VenB (25% kmo of 20% bij voldoende bezoldiging)", "-7.000", "-13.800"],
+              ["Netto-resultaat", "28.000", "55.200"]
+            ]
+          },
+          {
+            "type": "tabel",
+            "titel": "Prognose-balans na 24 maanden",
+            "kolommen": ["Rubriek", "Activa (€)", "Passiva (€)"],
+            "rijen": [
+              ["Materiële vaste activa (klasse 23) — laptops, server", "12.000", ""],
+              ["Handelsvorderingen (klasse 40)", "25.000", ""],
+              ["Liquide middelen (klasse 5)", "133.200", ""],
+              ["Onbeschikbare inbreng (klasse 11)", "", "50.000"],
+              ["Overgedragen winst (klasse 14) = 28.000 + 55.200", "", "83.200"],
+              ["Leverancierschulden (klasse 44)", "", "10.000"],
+              ["Bankschulden korte termijn (klasse 43)", "", "27.000"],
+              ["TOTAAL", "170.200", "170.200"]
+            ]
+          },
+          {
+            "type": "proza",
+            "titel": "Aannames + financieringsbronnen + activiteitsbeschrijving",
+            "tekst": "**Activiteit**: ontwikkeling van webapplicaties voor KMO's, focus op administratieve automatisering. Doelmarkt: Vlaamse KMO's 5-50 werknemers.\n\n**Financieringsbronnen**: inbreng €50.000 (volledig in geld). Geen externe financiering bij start; in jaar 2 voorzien: bankkrediet €20.000 voor investering in serveruitbreiding (mogelijk vanaf eind Y1 wanneer rentabiliteit blijkt).\n\n**Aannames**:\n- Y1: 6 maanden netwerk-opbouw → 15 klanten × €600/mnd gemiddeld; jaar 2: doorgroei naar 25 klanten × €700/mnd\n- Geen significante R&D-investering in jaar 1 (open-source frameworks)\n- Anna: zelfstandige bezoldiging €30k Y1, €40k Y2; Bart deeltijds Y1 (€20k) → voltijds Y2\n- Werknemer aangenomen halfweg Y2 (€40k bruto loonkost)\n\n**Externe deskundige**: opmaak begeleid door accountantskantoor X."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-fp-tekortkomingen",
+        "titel": "Case: financieel plan dat niet voldoet — oprichtersaansprakelijkheid",
+        "context": "BV OptimistCo werd opgericht in januari 2024 met inbreng €10.000. Plan voorzag €500.000 omzet jaar 1 zonder externe financiering, geen rekening met aanloopperiode, geen prognose-balans. Failliet maart 2025 met schulden €120.000.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "titel": "Tekortkomingen plan + rechtbank-oordeel",
+            "kolommen": ["Tekortkoming", "Standaard", "Conclusie rechter"],
+            "rijen": [
+              ["Inbreng €10.000 vs verwachte cashflow-behoefte €60.000 in Y1", "Realistisch", "Kennelijk ontoereikend"],
+              ["Omzet-prognose €500.000 zonder klantenlijst of pijplijn-bewijs", "Realistisch + onderbouwd", "Overdreven optimistisch"],
+              ["Geen prognose-balans", "Verplicht (art. 5:4 § 2, 3°)", "Plan onvolledig"],
+              ["Geen externe deskundige geconsulteerd", "Aanbevolen, niet verplicht", "Aggraverende factor"]
+            ],
+            "conclusie": "Rechter veroordeelt oprichters hoofdelijk tot 70% van de openstaande schulden = €84.000, te verdelen pro rata aandelenparticipatie. Notaris had het plan overgemaakt op verzoek rechter-commissaris (art. 5:15 WVV)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-fp-vzw-vs-bv",
+        "titel": "Vergelijking VZW-begroting vs BV-financieel-plan",
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "titel": "Financieel plan (BV/NV/CV) vs jaarlijkse begroting (VZW)",
+            "kolommen": ["Aspect", "Financieel plan (WVV art. 5:4)", "Begroting VZW (WVV art. 9:23)"],
+            "rijen": [
+              ["Wanneer opstellen?", "Eenmalig vóór oprichting", "Jaarlijks vóór AV (binnen 6 mnd na balansdatum)"],
+              ["Periode", "Min. 2 jaar (BV/NV), 3 jaar (CV)", "1 jaar"],
+              ["Wettelijke vorm", "7 minimumelementen", "Vrije vorm; vaak in JR-formaat"],
+              ["Bewaring", "Bij notaris 5 jaar", "Bij vereniging/AV-stukken"],
+              ["Sanctie ontbreken", "Oprichtersaansprakelijkheid (3 jaar)", "AV kan weigeren te decharge"],
+              ["Externe controle?", "Geen verplichte tussenkomst", "Verkort overzicht naar AV"]
+            ],
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4, 9:23" },
+                { "type": "advies", "naam": "CBN-advies 2019/12", "datum": "2019-11-06" }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Financieel plan = formaliteit zonder reëel belang",
+        "verkeerde_assumptie": "Het financieel plan is een notarismandaat-formaliteit die door de notaris wordt opgesteld; oprichters hoeven het niet zelf op te volgen.",
+        "kernpunt": "Het plan is **het bewijsmiddel** bij oprichtersaansprakelijkheid (art. 5:15/7:17 WVV). Bij faillissement binnen 3 jaar wordt het door de rechtbank gebruikt om te oordelen over de hoofdelijke aansprakelijkheid. Een slordig of onrealistisch plan is rechtstreeks belastend bewijs tegen de oprichters.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15" }
+          ]
+        }
+      },
+      {
+        "titel": "Plan moet de werkelijkheid voorspellen",
+        "verkeerde_assumptie": "Als de werkelijke evolutie afwijkt van het plan, zijn de oprichters automatisch aansprakelijk.",
+        "kernpunt": "De wet vereist een **ex ante redelijke prognose**, niet een correcte voorspelling. Aansprakelijkheid ontstaat alleen wanneer het aanvangsvermogen 'kennelijk ontoereikend' was — d.w.z. dat een redelijke oprichter dit op het moment van oprichting had moeten zien. Realistische plannen met onverwachte tegenvallers (covid, energiecrisis) ontsnappen aan aansprakelijkheid.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:15, 2°", "context": "Kennelijk ontoereikend criterium" }
+          ]
+        }
+      },
+      {
+        "titel": "Ontbreken plan = nietig",
+        "verkeerde_assumptie": "Indien het financieel plan ontbreekt of onvolledig is, is de oprichting nietig.",
+        "kernpunt": "WVV 2019 schrapte de nietigheid-sanctie. Het ontbreken van het plan leidt tot **bewijslast-omkering** bij oprichtersaansprakelijkheid: de oprichters worden geacht aansprakelijk te zijn, tenzij zij kunnen aantonen dat het aanvangsvermogen wel toereikend was.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4, 5:15" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "WVV-hervorming nietigheid → bewijslastomkering" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-oprichter-fp",
+      "naam": { "primair": "Vanuit de oprichter — financieel plan opstellen" },
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "opmaak-financieel-plan",
+              "naam": { "primair": "Opmaak financieel plan — stappenplan" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Stappenplan accountant**:\n\n1. **Activiteitsbeschrijving** — sector + markt + business model afkloppen met oprichter; check business plan / pitch deck.\n2. **Investeringsbehoefte** schatten (CapEx) — investeringen materieel/IT, opstart-marketing, eerste maand-werkkapitaal.\n3. **Werkkapitaal-behoefte** — DSO (klanten), DIO (voorraad), DPO (leveranciers) → cyclus berekenen.\n4. **Omzetprognose** — bottom-up (klanten × prijs × volume) ipv top-down (% markt) — beter onderbouwd.\n5. **Kostenstructuur** — vaste + variabele kosten apart; rekening houden met aanloopperiode (lagere omzet eerste 3-6 mnd).\n6. **Cashflow-prognose** — maandelijks Y1, kwartaalbasis Y2; identificeer kritieke cash-momenten.\n7. **Financieringsmix** — inbreng + krediet + leveranciers — controleer of inbreng minimum cashbehoefte dekt.\n8. **Stress-test** — alternatief scenario met -20% omzet → blijft vennootschap solvabel?\n9. **Documentatie** — alle aannames in een proza-sectie verantwoorden + bron-vermelding (markt-rapporten, vergelijkbare cases).\n10. **Externe-deskundige-vermelding** — als accountant mag/moet je je naam vermelden (transparantie + reputatiekapitaal).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4, § 2" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-stappenplan opmaak FP" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
+    { "type": "valt_onder", "target": "oprichting-vennootschap" },
+    { "type": "vereist", "target": "ondernemingsvormen" },
     {
-      "type": "valt_onder",
-      "target": "oprichting-vennootschap"
-    },
-    {
-      "type": "vereist",
-      "target": "oprichtersaansprakelijkheid"
-    },
-    {
-      "type": "vereist",
-      "target": "ondernemingsvormen"
+      "type": "vergelijkbaar_met",
+      "target": "oprichtersaansprakelijkheid",
+      "gelijkenissen": [
+        "Beide zijn onderdeel van het WVV-bescherming-systeem post-2019",
+        "Beide focussen op de 3-jaar-periode na oprichting"
+      ],
+      "verschillen": [
+        "Financieel plan = ex ante document; oprichtersaansprakelijkheid = ex post sanctie",
+        "Financieel plan is een verplichting (instrument); oprichtersaansprakelijkheid is een gevolgregime"
+      ],
+      "verwarring_risico": "Studenten zien financieel plan vaak los van aansprakelijkheid, terwijl ze samen één bescherming-mechanisme vormen.",
+      "render_hint": "als_keuze"
     }
   ]
 }
