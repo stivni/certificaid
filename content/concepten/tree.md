@@ -250,10 +250,6 @@ Bekijk ook: [[_index-po|per programmaonderdeel]] · [[_index-type|per type]] · 
 - 📜 [[werknemersbezoldiging|Werknemersbezoldiging]] `[R]` _shared werknemers-vergoedingen_
 - 📜 [[winst-baten-zelfstandige|Winst en baten zelfstandige]] `[R]` _forfait vs werkelijk · sociale bijdragen_
 
-#### Overig
-
-- ⏳ ~~voorafbetalingen-pb~~
-
 ### 🏛️ [[vennootschapsbelasting|Vennootschapsbelasting]] `[K]`
 
 #### 🏛️ Kaders & principes
@@ -322,10 +318,6 @@ Bekijk ook: [[_index-po|per programmaonderdeel]] · [[_index-type|per type]] · 
 - ⏳ ~~overdracht-algemeenheid-btw~~ `[R]` _art 11 W.BTW · TOGC-regeling · neutraliteit_
 - 📜 [[verleggingsregeling|Verleggingsregeling (reverse charge)]] `[R]` _reverse charge · binnenlands (cocontractant) + IC_
 - 📜 [[vrijstellingsregeling-kleine-onderneming|Vrijstellingsregeling kleine onderneming (BTW)]] `[R]` _KO-regime art 56bis · <25.000€ jaaromzet_
-
-#### Overig
-
-- ⏳ ~~btw-bedrijfswagen~~ _(shared mobiliteit) · margeregeling-tweedehands · btw-bonnen-vouchers_
 
 ### 🏛️ [[registratie-en-successierechten|Registratie- en successierechten]] `[K]`
 
@@ -454,6 +446,7 @@ Bekijk ook: [[_index-po|per programmaonderdeel]] · [[_index-type|per type]] · 
 - 📋 [[ontbinding-en-vereffening|Ontbinding en vereffening]] `[G/R]` _vrijwillig (WVV) vs gerechtelijk (WER) · vereffenaar · #boekenstaat-bij-ontbinding (bijzonder mandaat) · #vereffenaarsaansprakelijkheid_
 - ⚙️ [[oprichting-vennootschap|Oprichting van een vennootschap]] `[G/R]` _▸ oprichtingskosten (boekhouding-aspect)_
 - ⚙️ [[splitsing|Splitsing]] `[G/R]` _3 modaliteiten incl. partiële splitsing_
+- 📜 [[tantieme|Tantième]] `[G/R]` _(ook thema: werknemers-vergoedingen)_
 - ⚙️ [[winstbestemming|Winstbestemming]] `[G/R]`
 
 ### 📋 Regelingen & regimes
@@ -483,6 +476,7 @@ Bekijk ook: [[_index-po|per programmaonderdeel]] · [[_index-type|per type]] · 
 
 ### 🏢 Entiteiten & balansposten
 
+- 👤 [[commissaris|Commissaris]] `[E]` _(cross: bestuur · audit · jaarrekening)_
 - 👤 [[gecertificeerd-accountant|Gecertificeerd accountant]] `[E]` _beroep · toelatingsvereisten · monopolieopdrachten · stagiair → gecertificeerd_
 - 👤 [[itaa-beroepsorganisatie|Instituut van de Belastingadviseurs en de Accountants (ITAA)]] `[E]` _structuur · raden · publiek toezicht · openbaar register_
 - 🔧 [[opdrachtaanvaarding-en-opdrachtbrief|Opdrachtaanvaarding en opdrachtbrief]] `[E/R]` _(verhuisd uit controle-opdracht, OP-EC.A) — ITAA-norm-opdrachtbrief_
@@ -529,10 +523,3 @@ Bekijk ook: [[_index-po|per programmaonderdeel]] · [[_index-type|per type]] · 
 - 📋 [[full-costing|Full costing (volledige kostencalculatie)]] _absorptie-methode · alle fixed + variabele kosten toegerekend · jaarrekening-conforme stockwaardering_
 - 📋 [[standaardkostenmethode|Standaardkostenmethode]] _voorafbepaalde standaarden + variantieanalyse · efficiency-meting · cross variantieanalyse_
 
-
----
-
-## Orphan-records _(niet in skelet)_
-
-- 👤 [[commissaris|Commissaris]]
-- 📜 [[tantieme|Tantième]]
