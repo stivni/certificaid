@@ -2,20 +2,14 @@
   "id": "toelichting-belangen-in-andere-entiteiten",
   "naam": {
     "primair": "Toelichting belangen in andere entiteiten (IFRS 12)",
-    "synoniemen": [
-      "IFRS 12 disclosures"
-    ]
+    "synoniemen": ["IFRS 12 disclosures", "disclosure of interests in other entities"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "1.4.II.A"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["1.4.II.A"],
     "scope": {
       "in": [
         "IFRS 12 disclosure-vereisten",
@@ -26,54 +20,204 @@
         "Risk-disclosures"
       ],
       "out": [
-        {
-          "topic": "Geconsolideerde jaarrekening (parent-context)",
-          "richting": "moet-verwijzen",
-          "ref": "geconsolideerde-jaarrekening"
-        },
-        {
-          "topic": "Gezamenlijke regelingen (IFRS 11)",
-          "richting": "moet-verwijzen",
-          "ref": "gezamenlijke-regelingen"
-        }
+        {"topic": "Geconsolideerde jaarrekening (parent-context)", "richting": "moet-verwijzen", "ref": "geconsolideerde-jaarrekening"},
+        {"topic": "Gezamenlijke regelingen (IFRS 11)", "richting": "moet-verwijzen", "ref": "gezamenlijke-regelingen"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-consolidatie-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/toelichting-belangen-in-andere-entiteiten.json",
+      "primary_bronnen": ["IFRS 12"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-consolidatie-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle: IFRS 12 alle hoofdsecties."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "IFRS 12 — Disclosure of Interests in Other Entities — is de IFRS-standaard die de toelichtingsvereisten bundelt voor álle vormen van belangen die een rapporterende entiteit aanhoudt in andere entiteiten. Het doel: gebruikers van de jaarrekening voldoende informatie geven om (a) de aard van die belangen en de daarbij behorende risico's te evalueren; (b) het effect van die belangen op de financiële positie, financiële prestaties en kasstromen van de groep te beoordelen. IFRS 12 dekt vier categorieën: dochterondernemingen (incl. NCI), gezamenlijke regelingen, geassocieerde deelnemingen, en niet-geconsolideerde structured entities (special-purpose vehicles waarop de groep invloed heeft zonder consolidatie).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 1, 7"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "IFRS 12 vult de leemte tussen IFRS 10 (consolidatie), IFRS 11 (joint arrangements) en IAS 28 (associates): die standaarden bepalen hoe je verwerkt, IFRS 12 bepaalt wat je vertelt. Bijzonder: de standaard vereist toelichting van de significant judgements die de groep heeft gemaakt bij het bepalen van het type belang — bv. waarom een 45 %-belang wel/geen controle is, of waarom een vehicle wel/geen joint operation is. Voor unconsolidated structured entities (bv. securitisation-vehicles, off-balance-sheet financing) eist IFRS 12 disclosure van het maximale verlies-blootstellings-niveau, ook al staan deze niet in de balans. Dit is een belangrijke transparantie-uitbreiding sinds de financiële crisis 2008.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 7, 24-31"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio: vóór IFRS 12 zaten disclosure-vereisten verspreid over IAS 27, IAS 31, IAS 28 en SIC-12 — gebruikers misten een totaalbeeld van de blootstelling van een groep aan andere entiteiten. De financiële crisis toonde aan dat groepen significante risico's konden lopen via off-balance-sheet vehicles zonder dat gebruikers dit zagen. IFRS 12 bundelt en breidt uit — vooral structured-entity-disclosures zijn een directe les uit Lehman/Northern Rock.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 Basis for Conclusions"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer IFRS 12-ontstaan post-crisis"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["geconsolideerde-jaarrekening", "integrale-consolidatie", "vermogensmutatiemethode"],
+      "kader": "geconsolideerde-jaarrekening",
+      "naast_relevant": ["gezamenlijke-regelingen", "minderheidsbelangen"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "IFRS 12 (Verordening (EU) 2023/1803), ingangsdatum jaarrekeningen vanaf 1 januari 2013",
+        "toelichting": "Verplicht voor alle entiteiten die IFRS toepassen en belangen aanhouden in andere entiteiten. Onder BE-GAAP geen rechtstreeks equivalent — wel art. 3:103 e.v. KB WVV met disclosure-vereisten over consolidatiekring en geassocieerde ondernemingen."
+      },
+      "voor": [
+        {"tekst": "Toepasselijk op IFRS-rapporterende entiteiten met belangen in dochters, joint ventures, joint operations, associates of structured entities. Geldt zowel voor de moeder die consolideert als voor entiteiten die belangen aanhouden zonder controle.",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 5"}]}}
+      ],
+      "niet_voor": [
+        {"tekst": "Niet van toepassing op personeelsregelingen (IAS 19), eigen aandelen, en bepaalde financiële instrumenten die onder IFRS 9 vallen. De standaard sluit ook 'separate financial statements' uit — daar geldt IAS 27 voor toelichtingen.",
+         "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 5-6"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "disclosure-dochterondernemingen",
+        "naam": {"primair": "Toelichting belangen in dochterondernemingen"},
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Per dochter — vooral per dochter met materiële NCI — vereist IFRS 12 alinea 10-19: (1) samenstelling van de groep met materiële dochters (naam, plaats van oprichting, % belang); (2) belangrijke beperkingen op het gebruik van groepsactiva of betaling van dividenden (bv. regelgevende beperkingen, ringfencing); (3) gevolgen van wijzigingen in eigendom zonder verlies van controle (op groeps-EV); (4) gevolgen van verlies van controle (winst/verlies + uitsplitsing). Voor dochters met materiële NCI: gedetailleerde financiële samenvatting + dividenden betaald aan NCI.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 10-19"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "disclosure-joint-en-associates",
+        "naam": {"primair": "Toelichting joint arrangements + associates"},
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Per materiële joint venture / joint operation / associate (alinea 20-23): naam, plaats, % belang, gehanteerde methode (VMM/JO-direct), en gesamenvatte financiële informatie (current assets, non-current assets, current/non-current liabilities, omzet, winst). Voor associates en JV's gemeten via VMM: aanvullende afstemming van openings- naar slotsaldo van het belang. Risk-disclosure: contractuele toezeggingen en contingencies verbonden aan het belang.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 20-23"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "disclosure-structured-entities",
+        "naam": {"primair": "Toelichting unconsolidated structured entities"},
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Structured entity = entiteit waar stemrechten of soortgelijke rechten niet de dominante factor zijn voor het bepalen van controle (bv. SPV gestructureerd door contracten + governance, niet via aandelen). Wanneer de groep een belang heeft zonder consolidatie (geen controle in de IFRS 10-zin), eist IFRS 12 alinea 24-31: aard + omvang van het belang; financiële ondersteuning verleend zonder contractuele verplichting (sponsor-disclosures); maximaal verlies-blootstellings-bedrag; activa + passiva verbonden aan dergelijke entiteiten.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 24-31, Bijlage A"}]}
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "significant-judgements",
+        "naam": {"primair": "Significant judgements en assumpties"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Alinea 7-9 IFRS 12: de entiteit moet de significante oordelen en veronderstellingen openbaar maken die ze heeft gemaakt bij het bepalen van: (a) of zij controle heeft over een andere entiteit (bv. waarom een 49 %-belang wel controle inhoudt door de-facto-power); (b) of zij gezamenlijke controle of significante invloed heeft; (c) het type joint arrangement (JO vs JV) wanneer de regeling via een afzonderlijk vehicle wordt gestructureerd. Voor elk: motivering + onderliggende feiten. Dit is een toelichtings-vereiste 'achter' de classificatie — niet alleen wat, maar waarom.",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 7-9"}]}
+          }
+        }
+      },
+      {
+        "id": "risk-disclosures",
+        "naam": {"primair": "Risk-disclosures (transparantie over blootstelling)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "IFRS 12 vraagt expliciete kwantitatieve én kwalitatieve toelichting van risico's voortvloeiend uit belangen: (1) beperkingen op groepsactiva en dividend-uitkering (regulatoir, contractueel); (2) financiële ondersteuning zonder contractuele verplichting; (3) maximale verlies-blootstelling bij structured entities; (4) contingencies en garanties verbonden aan associates/JV's. Doel: gebruikers kunnen inschatten welke risico's de groep loopt buiten de directe balans-presentatie.",
+            "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 13, 23, 29"}]}
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Disclosure alleen voor 'grote' belangen",
+        "verkeerde_assumptie": "Een 1 %-belang in een associate hoeft niet toegelicht.",
+        "kernpunt": "IFRS 12 verlangt disclosure per materieel belang — materialiteit wordt beoordeeld op groepsniveau en niet uitsluitend op %. Een 1 %-belang in een entiteit waarvan de waarde 10 % van het groepsvermogen bedraagt, is wel materieel. Verder zijn structured-entity-disclosures verplicht óók wanneer de bookwaarde nul is — het gaat om blootstelling.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea B2-B6"}]}
+      },
+      {
+        "titel": "Significant judgements vergeten te documenteren",
+        "verkeerde_assumptie": "De keuze 'JV of JO' staat in de werkdocumenten — geen formele jaarrekening-toelichting nodig.",
+        "kernpunt": "Alinea 7 IFRS 12 vereist expliciet dat de motivatie van significante oordelen in de toelichting bij de geconsolideerde jaarrekening komt — niet alleen in interne documenten. Auditor controleert dit.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12 alinea 7"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "groeps-toelichting-redacteur",
+      "naam": {"primair": "Toelichtings-redacteur (groep)"},
+      "intro": "De accountant die de IFRS-toelichtingen samenstelt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "ifrs-12-checklist",
+              "naam": {"primair": "IFRS 12-checklist per categorie"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per soort belang: (1) Identificatie (welke entiteiten en in welke categorie); (2) Materialiteit-assessment (per dochter, JV, associate, SE); (3) Disclosure-tabel invullen met IFRS 12 minimum-vereisten; (4) Significant-judgements-paragraaf opstellen voor borderline-classificaties; (5) Cross-references naar IFRS 8 (operating segments) en IAS 24 (related parties).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk IFRS-disclosure"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-ifrs-12-completeness",
+              "naam": {"primair": "Audit IFRS 12 — completeness check"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Verifieer (1) consolidatiekring-lijst aansluit met IFRS 12 §10-disclosure; (2) alle materiële NCI's zijn opgesomd met financiële samenvatting; (3) significant judgements expliciet gedocumenteerd en consistent met IFRS 10/11-toepassing; (4) unconsolidated structured entities geïdentificeerd én toegelicht (vaak een blinde vlek — vraag naar securitisatie-vehicles, off-balance-financiering, JV-vehicles met VMM-toepassing).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "norm", "naam": "ISA 600", "ref": "Bijlage 2"}, {"type": "wettekst", "naam": "Verordening (EU) 2023/1803", "ref": "IFRS 12"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "geconsolideerde-jaarrekening"},
+    {"type": "vereist", "target": "consolidatiekring", "toelichting": "Vereist een volledige + actuele consolidatiekring-lijst."},
+    {"type": "vergelijkbaar_met", "target": "gezamenlijke-regelingen",
+      "gelijkenissen": ["Beide leven in dezelfde post-crisis IFRS-cluster (IFRS 10/11/12)", "Beide vragen significant-judgements-disclosure"],
+      "verschillen": ["IFRS 11 = wat (joint arrangement-classificatie + verwerking)", "IFRS 12 = wat te vertellen erover in de toelichting"],
+      "render_hint": "als_glossarium"
     }
   ]
 }
