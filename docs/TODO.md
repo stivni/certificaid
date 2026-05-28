@@ -107,6 +107,23 @@ In ADR-029 §Operaties-model gedefinieerd maar nog niet uitgevoerd:
 
 Niet prioritair voor wave-2 (per ADR-029): `cijfer_validatie`, `examenvragen_aansluiting`, `consistentie_check`, `volledigheid_check`.
 
+### 1.4 — Drie-lagen leermateriaal: minicursussen + themafiches (ADR-036)
+
+**Doel**: na concept-fiches als basis-laag, een tweede en derde laag bouwen voor kandidaat-gericht studiemateriaal — themafiches (kapstok per cluster) + minicursussen (verhaal + routekaart per PO).
+
+**Canonieke spec**: [ADR-036](adr/ADR-036-drie-lagen-leermateriaal.md) · schrijfregels [`minicursus`](minicursus-schrijfregels.md) + [`themafiche`](themafiche-schrijfregels.md).
+
+**POC voltooid (2026-05-28)**:
+- Themafiche-mockup `content/experiment/synthese-consolidatie-v1.md` (cluster consolidatie, PO 1.4)
+- Minicursus-mockup `content/leerpaden/1.4.md` (PO 1.4)
+- Print-CSS + full-width-tabellen + `.no-print`-class in `quartz-custom/styles/custom.scss`
+
+**Open werkpakket**:
+- **Themafiches** voor alle uitgewerkte clusters uit granulariteit-skelet (~15-60 stuks, starten met de zwaarste/meest bevraagde — voorstel: consolidatie · jaarrekening · controle-opdracht · interne-controle · kapitaalstructuur · ondernemingsvormen · personenbelasting · vennootschapsbelasting · btw · mobiliteit · waarderingsregels · financiële-analyse · ifrs-rapportering · reorganisatie · winstuitkering). Mockup verhuizen van `experiment/` naar `content/themafiches/`.
+- **Minicursussen** voor alle 19 PO's. Mockup `leerpaden/1.4` als referentie.
+- **Generatie-prompts** voor Sonnet-agent (analoog aan operatie-prompts in `prompts/operaties/`) — pas zinvol na ≥3 voorbeelden van elk type (patroon bevroren).
+- **Render-tooling-overweging**: blijven minicursus + themafiche handgeschreven (markdown) of komt er render-flow uit JSON-bron? Beslissen wanneer 50+ documenten bestaan.
+
 ---
 
 ## Fase 8 — Schema 2.2 massa-extractie + render-laag v22 (in uitvoering 2026-05-28)

@@ -382,6 +382,8 @@ Verwijderd (vervangen door §18):
 
 ### 14. Fase D — Competentie-destillatie (schema 1.3, 2026-05-15)
 
+> ⚠️ **Superseded door [ADR-036](ADR-036-drie-lagen-leermateriaal.md) (2026-05-28).** Competenties bestaan niet meer als aparte laag — operationele vaardigheden ("hoe doe je X") leven in `accountant_perspectieven.rollen[].elementen[]` binnen elk schema 2.1/2.2 concept-record. `tools/leermateriaal/propose_competenties.py` + `prompts/competentie-destillatie-v1.md` + `prompts/competentie-destillatie-v2.md` zijn verwijderd. Onderstaande beschrijving blijft staan als historische referentie.
+
 Voorafgaande fasen (A → C, plus monotone enrichment-loop) produceren concept-records met grounded inhoud. Voor leermateriaal-generatie (ADR-010) is een tussenlaag nodig die **"hoe doe je X"** beantwoordt — pedagogische competenties die het examenprogramma toetst maar die versplinterd zit over meerdere concept-records.
 
 **Input** (strikt — anti-circulariteit):
@@ -404,6 +406,8 @@ Voorafgaande fasen (A → C, plus monotone enrichment-loop) produceren concept-r
 
 ### 15. Fase E — Leerpad-opstelling (schema 1.3, 2026-05-15)
 
+> ⚠️ **Superseded door [ADR-036](ADR-036-drie-lagen-leermateriaal.md) (2026-05-28).** Vervangen door drie-lagen leermateriaal-aanpak: **minicursus** (PO-niveau, verhaal + routekaart) + **themafiche** (cluster-niveau, kapstok voor herhaling) + **concept-fiche** (per record, bestaand). Het oude YAML-schema met `oriëntatie`/`competentie`/`thematisch`-hoofdstuk-types is vervangen door doorlopende markdown-documenten met kandidaat-gerichte toon. `tools/leermateriaal/propose_leerpad.py` + `prompts/leerpad-propose-v1.md` zijn verwijderd; `data/concepten/leerpaden/*.yaml` is gearchiveerd in `_archive/`. Onderstaande beschrijving blijft staan als historische referentie.
+
 Leerpad ordent competenties + concepten + oriëntatie-blokken in een didactische volgorde per PO. Vervangt het ad-hoc "anchor-volgorde wordt minicursus-volgorde"-patroon dat empirisch te versnipperd bleek (PO 1.4 stress-test).
 
 **Input**: alle competenties van een PO + concept-records voor `thematisch`-hoofdstukken + `programma.intro_tekst`.
@@ -416,6 +420,8 @@ Leerpad ordent competenties + concepten + oriëntatie-blokken in een didactische
 Schema in ADR-007 §"Leerpad-schema". Opus-subagent (via `tools/leermateriaal/propose_leerpad.py`) stelt voor; mens curates.
 
 ### 16. Gaps.json schema-uitbreiding (2026-05-15)
+
+> ⚠️ **Deels superseded door [ADR-036](ADR-036-drie-lagen-leermateriaal.md) (2026-05-28).** De `competentie-gap`-discriminator is vervallen — geen aparte competentie-laag meer (operationele vaardigheden in `accountant_perspectieven`). De `concept-gap`-discriminator blijft van kracht.
 
 `data/extractie/gaps.json` wordt het centrale gaps-overzicht voor de drie lagen, met `aspect_type`-discriminator:
 

@@ -41,6 +41,8 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | [ADR-032](ADR-032-examen-vragen-render-per-programmaonderdeel.md) | Voorbeeldexamenvragen renderen per programmaonderdeel (`po-1.1.md` t/m `po-4.0.md`) i.p.v. per bronbestand. Multi-PO vragen verschijnen in alle relevante pagina's. Per-examen pagina's vervallen. | Accepted |
 | [ADR-033](ADR-033-scope-metadata-extractie-guidance.md) | `metadata.scope.in[]` + `metadata.scope.out[]` toegevoegd aan schema 2.1 v1.5 als optionele extractie-guidance (vrije strings, geen integriteit-check). Voorkomt scope-creep + content-duplicatie tussen verwante records tijdens extractie-operaties. Materialiseert per-record-afbakening uit granulariteit-skelet-cluster-sparring. | Draft |
 | [ADR-034](ADR-034-bron-leeshulp-injectie.md) | Bron-leeshulp via injectie in publicatie-laag: `resources/bronnen/` (heilig) + `resources/leeshulp/` (didactische callouts) → `content/bronnen/` (gegenereerd). Houdt bron/commentaar gescheiden; leeshulp leeft náást Fase 7 concept-render (verschillende leesmodi). POC op `ITAA-norm-algemene-controlenorm`. | Draft |
+| [ADR-035](ADR-035-schema-22-geldigheid-en-element-scope.md) | Schema 2.2: geldigheid in inhoud + element-scope + versioning-consolidatie. Vervangt schema-uitbreidingen uit ADR-029 + ADR-033. | Accepted |
+| [ADR-036](ADR-036-drie-lagen-leermateriaal.md) | Drie-lagen leermateriaal: **concept-fiche** (per record) · **themafiche** (per cluster, "kapstok voor herhaling") · **minicursus** (per PO, "verhaal en routekaart"). Supersedeert Fase D (competenties-destillatie) + Fase E (leerpad-opstelling) uit ADR-008. | Draft |
 
 ## Roadmap
 
@@ -74,6 +76,8 @@ De ADRs zijn ontworpen om in nummervolgorde leesbaar te zijn: cross-cutting conc
 | Examen-vragen renderen (per programmaonderdeel) | ADR-032 — `tools/examen/render_merged_v4.py` → `content/voorbeeldexamens/po-<code>.md` (17 pagina's + index) |
 | Interpretatie-schema bewerken of valideren | [`data/programma/examen_vragen/interpretatie-1.2.schema.json`](../../data/programma/examen_vragen/interpretatie-1.2.schema.json) (bron-van-waarheid, ADR-024 §3) + [`prompts/vraag-interpretatie-v1.md`](../../prompts/vraag-interpretatie-v1.md) + [`tests/test_interpretatie_schema.py`](../../tests/test_interpretatie_schema.py) |
 | Leermateriaal-snapshot publiceren | ADR-010 (snapshots), ADR-002 (kenniselement-dekkingscheck) |
+| **Minicursus** schrijven voor een PO (PO-niveau verhaal + routekaart) | ADR-036 + [`docs/minicursus-schrijfregels.md`](../minicursus-schrijfregels.md) + mockup [`content/leerpaden/1.4.md`](../../content/leerpaden/1.4.md) |
+| **Themafiche** schrijven voor een cluster (kapstok-document voor herhaling) | ADR-036 + [`docs/themafiche-schrijfregels.md`](../themafiche-schrijfregels.md) + mockup [`content/experiment/synthese-consolidatie-v1.md`](../../content/experiment/synthese-consolidatie-v1.md) |
 | Tutor-antwoord debuggen | ADR-010 (tutor live), ADR-006 (RAG), ADR-007 (graph-walks) |
 | Iets reprocessen na bron-wijziging | ADR-003 (workflow), ADR-004 (provenance / stale-cascade) |
 | Tarief- of drempel-record schrijven / trusten | ADR-026 — `tools/lib/tarieven_api.py` (`save_record`, `mark_trusted`, `audit_parity`) |

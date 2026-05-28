@@ -75,17 +75,3 @@ def concept_aspect_link(
     return f"[[{pad}]]"
 
 
-def competentie_link(competentie_id: str, label: str | None = None) -> str:
-    """Genereer een wikilink naar een competentie-fiche.
-
-    Args:
-        competentie_id: het competentie-id, bv. 'bepalen-consolidatieverplichting'
-        label: optioneel weergavelabel
-
-    Returns:
-        '[[competenties/bepalen-consolidatieverplichting|Bepalen consolidatieverplichting]]'
-    """
-    pad = f"competenties/{competentie_id}"
-    if label:
-        return f"[[{pad}|{label}]]"
-    return f"[[{pad}]]"

@@ -7,7 +7,7 @@ const config: QuartzConfig = {
     pageTitle: "Certificaid",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: null,
     locale: "nl-BE",
     baseUrl: "stivni.github.io/certificaid",

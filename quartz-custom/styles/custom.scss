@@ -410,3 +410,207 @@ article table {
   }
 }
 
+// ============================================================================
+// Tabellen — volle breedte + geen overdreven padding/margin
+// Quartz' default: width: auto + margin 1rem + padding 1.5rem (te veel lucht)
+// ============================================================================
+.table-container > table {
+  width: 100% !important;
+  margin: 1rem 0 !important;
+  padding: 0 !important;
+}
+
+// ============================================================================
+// Print-stylesheet — Cmd+P → Save as PDF
+// Doel: synthese-pagina's printbaar maken (cluster-overzichten, fiches).
+// Verbergt navigatie/zoek/graph, content full-width, page-break-controle.
+// Strategie: grid behouden maar collapsen tot 1 kolom — niet display:block
+// forceren, want article hangt aan `grid-area: grid-center` voor plaatsing.
+// ============================================================================
+@media print {
+  // Verberg alle UI-elementen behalve de eigenlijke content
+  .sidebar,
+  .page-header,
+  .page-footer,
+  footer,
+  .footer,
+  .search,
+  .darkmode,
+  .toc,
+  .table-of-contents,
+  .toc-content,
+  .explorer,
+  .backlinks,
+  .graph,
+  .reader-mode,
+  .breadcrumb-container,
+  .breadcrumbs,
+  .tags {
+    display: none !important;
+  }
+
+  // Web-only secties weg in print (markeer met <div class="no-print">…</div>)
+  .no-print {
+    display: none !important;
+  }
+
+  html, body {
+    background: white !important;
+    color: black !important;
+    font-size: 9.5pt;
+    line-height: 1.3;
+  }
+
+  // Algemene compactie — minder whitespace
+  p, ul, ol, blockquote {
+    margin-top: 0.3rem !important;
+    margin-bottom: 0.3rem !important;
+  }
+  li {
+    margin-top: 0.05rem !important;
+    margin-bottom: 0.05rem !important;
+  }
+  ul, ol {
+    padding-left: 1.2rem !important;
+  }
+  hr {
+    margin: 0.5rem 0 !important;
+    border: 0;
+    border-top: 1px solid #ccc;
+  }
+  blockquote {
+    padding: 0.3rem 0.6rem !important;
+    border-left: 2px solid #999;
+  }
+  h1 { font-size: 16pt !important; margin: 0.4rem 0 0.3rem !important; }
+  h2 { font-size: 12pt !important; margin: 0.8rem 0 0.3rem !important; padding-bottom: 0.1rem !important; }
+  h3 { font-size: 10.5pt !important; margin: 0.5rem 0 0.2rem !important; }
+  h4 { font-size: 10pt !important; margin: 0.4rem 0 0.15rem !important; }
+
+  // Collapse grid naar 1 kolom — article behoudt grid-area: grid-center
+  .page {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: white !important;
+  }
+
+  .page > #quartz-body {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto !important;
+    grid-template-areas: "grid-center" !important;
+    column-gap: 0 !important;
+    row-gap: 0 !important;
+    padding: 0 !important;
+  }
+
+  .center {
+    max-width: none !important;
+    min-width: 0 !important;
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  .center > article {
+    grid-area: grid-center !important;
+    max-width: none !important;
+    width: 100% !important;
+  }
+
+  // Paginaformaat + marges (krapper voor meer content per pagina)
+  @page {
+    size: A4;
+    margin: 1.2cm 1.1cm;
+  }
+
+  // Headings: vermijd weeskoppen onderaan een pagina
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+  h2 {
+    page-break-before: auto;
+    break-before: auto;
+    border-bottom: 1px solid #999;
+    padding-bottom: 0.2rem;
+    margin-top: 1.2rem;
+  }
+
+  // Tabellen: niet middenin afkappen, headers herhalen, compact
+  table {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 8.5pt;
+    margin: 0.3rem 0 !important;
+  }
+  thead { display: table-header-group; }
+  tfoot { display: table-footer-group; }
+  th, td {
+    border: 1px solid #aaa;
+    padding: 2px 4px;
+    vertical-align: top;
+  }
+  th {
+    background: #eee !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  // Callouts compacter
+  .callout {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    border: 1px solid #888 !important;
+    background: #f7f7f7 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    padding: 0.3rem 0.5rem !important;
+    margin: 0.3rem 0 !important;
+  }
+
+  // Mermaid-diagrammen kleiner + gecentreerd in print
+  .mermaid,
+  .mermaid-content {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    text-align: center;
+    margin: 0.3rem auto !important;
+  }
+  .mermaid svg {
+    max-width: 65% !important;
+    max-height: 9cm !important;
+    height: auto !important;
+    width: auto !important;
+  }
+  .mermaid .nodeLabel,
+  .mermaid .edgeLabel {
+    font-size: 8pt !important;
+  }
+
+  // Andere visuals + code
+  figure, img, pre {
+    page-break-inside: avoid;
+    break-inside: avoid;
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  // KaTeX-formules niet weglekken
+  .katex-display {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  // Links: toon URL achter externe links niet (te druk). Wikilinks blijven gewoon doorlopende tekst.
+  a {
+    color: black !important;
+    text-decoration: none !important;
+  }
+
+  // Tags / frontmatter chip-rij: weg in print (oogt rommelig)
+  .tags {
+    display: none !important;
+  }
+}

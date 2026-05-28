@@ -40,7 +40,7 @@ Regel 9 ("geen leftovers") geldt voor docs evenzeer als voor code: superseded AD
 | **Render-laag schema 2.1 v1.5** | [`docs/render-laag.md`](docs/render-laag.md) — werkpakket-spec; werk-tracking in TODO.md §Fase 7 |
 | **Skeleton-voorstel (pre-extractie stap 0)** | [`prompts/skeleton-voorstel-v1.md`](prompts/skeleton-voorstel-v1.md) — Opus-subagent met MCP-tools |
 | Concept-record schrijven of bewerken (records-API) | [`tools/lib/records_api.py`](tools/lib/records_api.py) — `save_record` / `rename_record` / `delete_record` / `audit_parity`. Atomair disk + RAG + content. Pre-commit hook. ADR-019. |
-| Concept-/competentie-schrijfregels (taxonomie, taal, edges) | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) *(wordt herzien voor schema 2.1)* |
+| Concept-record-schrijfregels (taxonomie, taal, edges) | [`docs/concept-schrijfregels.md`](docs/concept-schrijfregels.md) *(wordt herzien voor schema 2.2)* |
 | Daemon-status / restart | `curl localhost:8765/health` · `launchctl kickstart -k gui/$(id -u)/com.certificaid.embedding-daemon` |
 | **MCP-server `certificaid-rag`** (on-demand retrieval) | [`tools/extractie/mcp_server/`](tools/extractie/mcp_server/) — `zoek_bronnen` · `zoek_concepten` · `zoek_vragen` · `lees_record` · `lees_anchor_bundle` · `check_record_bestaat` + candidates-DB tools. Config: [`.mcp.json`](.mcp.json) |
 | **MCP-server `certificaid-tarieven`** (tarief-records) | [`tools/tarieven/mcp_server/`](tools/tarieven/mcp_server/) — `lijst_tabellen` · `zoek_tabellen` · `lees_tabel` · `query_tabel`. ADR-026. |
@@ -50,6 +50,8 @@ Regel 9 ("geen leftovers") geldt voor docs evenzeer als voor code: superseded AD
 | Provenance van een artefact bekijken / stale-flaggen | `tools/etl/add_provenance.py`, `tools/etl/mark_stale.py` |
 | **Examenvragen indexeren / zoeken** | `python3 -m tools.rag.rag_index --add-vragen` · MCP-tool `zoek_vragen` (args: `query`, `top_k=5`, optioneel `programmaonderdeel_id`) |
 | **Render leermateriaal** (fiches + minicursus) | `tools/leermateriaal/` — ADR-007, ADR-010 *(schema 2.0; render-laag voor schema 2.1 v1.5 in [`docs/render-laag.md`](docs/render-laag.md))* |
+| **Minicursus schrijven** (PO-niveau: verhaal + routekaart per programmaonderdeel) | [ADR-036](docs/adr/ADR-036-drie-lagen-leermateriaal.md) + [`docs/minicursus-schrijfregels.md`](docs/minicursus-schrijfregels.md) + mockup `content/leerpaden/1.4.md` |
+| **Themafiche schrijven** (cluster-niveau: kapstok-document voor snelle herhaling, printbaar) | [ADR-036](docs/adr/ADR-036-drie-lagen-leermateriaal.md) + [`docs/themafiche-schrijfregels.md`](docs/themafiche-schrijfregels.md) + mockup `content/experiment/synthese-consolidatie-v1.md` |
 | **Tarief-record schrijven of trusten** | [`tools/lib/tarieven_api.py`](tools/lib/tarieven_api.py) — `save_record` · `mark_trusted` · `audit_parity`. ADR-026. |
 | **Tarief-extractie pipeline** (vision-extract) | Chunker: `python3 -m tools.tarieven.chunk_pdf <bron-id>`. Prompts: `prompts/tarief-extractie-v1.md` + `prompts/tarief-verify-v1.md`. ADR-026 §3. |
 | **Aangifte-walkthrough bron schrijven** (PB-vakken, VenB) | Vision-handcrafted-extract met **twee bron-PDFs** (voorbereiding + toelichting). Prompt: `prompts/aangifte-handcrafted-v1.md`. ADR-028. Stijl-canonical: `resources/bronnen/wetteksten/aangifte-PB-2025-bezoldigingen.md`. |
@@ -101,8 +103,10 @@ certificaid/
 │   │   └── archive/             # Superseded ADRs + bevroren werkdocs
 │   ├── schema-v15-besluit.md    # Canonieke spec schema 2.1 v1.5
 │   ├── render-laag.md           # Werkpakket-spec render-laag (Fase 7)
-│   ├── concept-schrijfregels.md       # Inhoudelijke conventies concept- en competentie-records
+│   ├── concept-schrijfregels.md       # Inhoudelijke conventies concept-records
 │   ├── studiemateriaal-schrijfregels.md
+│   ├── minicursus-schrijfregels.md    # ADR-036 — schrijfregels voor PO-niveau minicursus
+│   ├── themafiche-schrijfregels.md    # ADR-036 — schrijfregels voor cluster-niveau themafiche
 ├── prompts/                     # Uitvoeringsinstructies voor agents (één canonieke versie per type)
 │   ├── operaties/               # Schema 2.1 v1.5 operatie-prompts (extractie v6)
 │   ├── concept-extractie-v4.md  # Legacy schema 1.6
@@ -110,12 +114,12 @@ certificaid/
 │   ├── aangifte-handcrafted-v1.md
 │   └── tarief-{extractie,verify}-v1.md
 ├── content/
-│   ├── concepten/               # Concept-fiches (rendered)
-│   ├── competenties/            # Competentie-fiches (rendered)
-│   ├── studiemateriaal/         # Minicursussen per programmaonderdeel
-│   ├── experiment/              # Schema-mockups (referentie)
-│   ├── voorbeeldexamens/        # Voorbeeldexamen-fiches
-│   └── bronnen/                 # Primaire bronnen als site-content
+│   ├── concepten/               # Concept-fiches (rendered uit schema 2.2-records)
+│   ├── leerpaden/               # Minicursussen per PO (ADR-036, handgeschreven)
+│   ├── themafiches/             # Themafiches per cluster (ADR-036, handgeschreven; POC nog in experiment/)
+│   ├── experiment/              # Schema-mockups + POC-themafiches (referentie)
+│   ├── voorbeeldexamens/        # Voorbeeldexamen-fiches (per PO, ADR-032)
+│   └── bronnen/                 # Primaire bronnen als site-content (eventueel met leeshulp, ADR-034)
 ├── resources/
 │   ├── bronnen/                 # Doorzoekbare bronbestanden (wetteksten/, normen/, adviezen/)
 │   └── source_config.yaml       # Enige bron-van-waarheid voor alle bronnen
@@ -134,11 +138,10 @@ certificaid/
 │   ├── bronnen-index.json       # Bronnen-index (top-level, auto-gegenereerd)
 │   ├── programma/               # Examenprogramma-input (programma.json + anchors.json + examen_vragen/)
 │   ├── concepten/
-│   │   ├── records/             # Schema 2.1 v1.5 records (396 stuks)
+│   │   ├── records/             # Schema 2.2 records (359 stuks — zie ADR-035)
 │   │   ├── schema-2.1.schema.json
-│   │   ├── competenties/        # Competentie-YAML's
-│   │   ├── leerpaden/           # Leerpad-YAML's per programmaonderdeel
-│   │   └── _archive/            # Pre-2.1 records (gitignored)
+│   │   ├── schema-2.2.schema.json
+│   │   └── _archive/            # Pre-2.1 records (gitignored) + gearchiveerde leerpad-YAML's (ADR-036)
 │   ├── tarieven/                # Tarief-records (Cijferzakboekje, ADR-026)
 │   ├── etl/qa/                  # QA-rapporten (gitignored)
 │   ├── rag/                     # ChromaDB-instance (gitignored, herbouwbaar)
