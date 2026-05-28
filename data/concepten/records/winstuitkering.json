@@ -3,25 +3,34 @@
   "naam": {
     "primair": "Winstuitkering",
     "synoniemen": [
-      "uitkering aan aandeelhouders",
-      "dividend distribution",
-      "profit distribution"
+      "dividenduitkering",
+      "winstverdeling aan aandeelhouders",
+      "uitkering aan vennoten"
     ]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.IV.B"
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "regeling"],
+    "ankers": ["3.0.IV.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/winstuitkering.json",
+      "primary_bronnen": [
+        "WVV art. 5:141 + 5:142 (BV — netto-actief + uitkeringstest)",
+        "WVV art. 7:212 + 7:213 (NV — netto-actief-test + uitkeerbare winsten)",
+        "WIB92 art. 18 (dividend definitie)",
+        "WIB92 art. 269 (RV-tarieven)",
+        "WIB92 art. 184quater (liquidatiereserve)",
+        "CBN-advies 2021/02 (winstverdeling NV)",
+        "CBN-advies 2021/14 (alarmbelprocedure + netto-actief)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,68 +38,66 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit winstuitkering-cluster (skelet-doc regel ~1257, NIEUW Σ-hoofdrecord, absorbeert winstverdeling-deel kapitaalbescherming-en-winstverdeling)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:45:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle (CBN 2021/02 + 2021/14, MvT-WVV, aangifte-VenB-uitgekeerde-dividenden)."
       }
     ],
     "scope": {
       "in": [
         "Overkoepelend keuzekader: hoe geeft de vennootschap winst aan aandeelhouders?",
-        "Vergelijkingsmatrix uitkeringsvormen: regulier dividend · interim dividend · tantième · inkoop eigen aandelen · liquidatie-uitkering · liquidatiereserve · VVPRbis",
-        "Keuze-criteria: RV-tarief · timing · winstbestemmings-volgorde · netto-actief-test",
-        "Wettelijke beperkingen: netto-actief-test (BV/NV) + uitkeringstest (BV — dubbele test sinds WVV)",
+        "Vergelijkingsmatrix uitkeringsvormen: regulier dividend, interim dividend, tantieme, inkoop eigen aandelen, liquidatie-uitkering, liquidatiereserve, VVPRbis",
+        "Keuze-criteria: RV-tarief, timing, winstbestemmings-volgorde, netto-actief-test",
+        "Wettelijke beperkingen: netto-actief-test (BV/NV) en uitkeringstest (BV — dubbele test sinds WVV)",
         "AV-procedure — winstbestemmings-besluit"
       ],
       "out": [
-        {
-          "topic": "Winstbestemming — wettelijke reserves + dividend-toewijzing",
-          "richting": "moet-verwijzen",
-          "ref": "winstbestemming"
-        },
-        {
-          "topic": "Tantième als afzonderlijk record",
-          "richting": "moet-verwijzen",
-          "ref": "tantieme"
-        },
-        {
-          "topic": "Kapitaalbescherming — netto-actief-test + uitkeringstest",
-          "richting": "moet-verwijzen",
-          "ref": "kapitaalbescherming"
-        },
-        {
-          "topic": "Inkoop eigen aandelen — alternatief uitkeringsvorm",
-          "richting": "moet-verwijzen",
-          "ref": "inkoop-eigen-aandelen"
-        },
-        {
-          "topic": "Kapitaalvermindering — pro-rata-toerekening winstverdeling-aspect",
-          "richting": "moet-verwijzen",
-          "ref": "kapitaalvermindering"
-        },
-        {
-          "topic": "Liquidatiereserve VenB-mechanisme (10% afzonderlijke heffing)",
-          "richting": "mag-verwijzen",
-          "ref": "liquidatiereserve"
-        },
-        {
-          "topic": "VVPRbis — verlaagd RV-tarief kleine venn nieuw kapitaal",
-          "richting": "mag-verwijzen",
-          "ref": "vvprbis"
-        }
+        { "topic": "Winstbestemming — wettelijke reserves + dividend-toewijzing", "richting": "moet-verwijzen", "ref": "winstbestemming" },
+        { "topic": "Tantieme als afzonderlijk record", "richting": "moet-verwijzen", "ref": "tantieme" },
+        { "topic": "Kapitaalbescherming — netto-actief-test en uitkeringstest", "richting": "moet-verwijzen", "ref": "kapitaalbescherming" },
+        { "topic": "Inkoop eigen aandelen — alternatief uitkeringsvorm", "richting": "moet-verwijzen", "ref": "inkoop-eigen-aandelen" },
+        { "topic": "Kapitaalvermindering — pro-rata-toerekening winstverdeling-aspect", "richting": "moet-verwijzen", "ref": "kapitaalvermindering" },
+        { "topic": "Liquidatiereserve VenB-mechanisme (10% afzonderlijke heffing)", "richting": "mag-verwijzen", "ref": "liquidatiereserve" },
+        { "topic": "VVPRbis — verlaagd RV-tarief kleine venn met nieuw kapitaal", "richting": "mag-verwijzen", "ref": "vvprbis" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Winstuitkering is de overkoepelende verrichting waarbij een vennootschap waarde aan haar aandeelhouders teruggeeft. Het WVV definieert 'uitkering' breed: regulier dividend, interim dividend, tantieme, inkoop eigen aandelen, kapitaalvermindering met terugbetaling, liquidatieboni — alles wat netto-actief uit de vennootschap doet vloeien naar aandeelhouders kwalificeert. Voor BV's geldt sinds het WVV (2019) een dubbele uitkeringstest: netto-actief-test (sluit het kapitaal en niet-uitkeerbare reserves af) PLUS liquiditeitstest (vennootschap moet in staat blijven om opeisbare schulden te voldoen). Voor NV's geldt enkel de netto-actief-test (art. 7:212 WVV). Fiscaal wordt het meeste uitgekeerde belast als dividend (art. 18 WIB92) met roerende voorheffing 30% (of verlaagd: VVPRbis 15%, liquidatiereserve 10%).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:141 + 5:142 (BV)" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:212 + 7:213 (NV)" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 18 + 269" },
+            { "type": "advies", "naam": "CBN-advies 2021/02", "ref": "winstverdeling NV" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Een vennootschap die winst maakt staat voor een keuze: winst houden (overdragen naar volgend boekjaar of reserveren) of uitkeren aan aandeelhouders. Bij uitkering kiest men de vorm: regulier dividend (eenvoud, RV 30%), interim dividend (tussentijdse uitkering, vereist tussentijdse balans), tantieme (alleen aan bestuurder, telt mee voor KMO-bezoldigingsregel), inkoop eigen aandelen (alleen via specifieke procedure WVV), of liquidatiereserve (10% direct + 5% wachtperiode-RV bij latere uitkering). Elke vorm heeft een eigen fiscale druk, eigen procedure en eigen administratieve last. De keuze is geen detail — het verschil tussen RV 30% (regulier) en 10% (liquidatiereserve na 5 jaar) op 100.000 EUR uitkering is 20.000 EUR.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 269 + 184quater" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van uitkeringsvormen en hun fiscale impact" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom is uitkering zo strikt gereguleerd? Omwille van schuldeisersbescherming. Een vennootschap heeft beperkte aansprakelijkheid — schuldeisers kunnen zich alleen verhalen op het vermogen van de vennootschap, niet op het privevermogen van aandeelhouders. Als aandeelhouders vrijuit kunnen uitkeren zou de vennootschap leegt geplunderd worden voordat schuldeisers betaald zijn. Vandaar de netto-actief-test (vermogen mag niet onder kapitaal + onbeschikbare reserves zakken) en, sinds het WVV voor BV's, ook de liquiditeitstest (vennootschap moet in staat blijven schulden te betalen). Schending leidt tot bestuurdersaansprakelijkheid en terugvordering van aandeelhouders.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2021/14", "ref": "alarmbelprocedure + netto-actief" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142 (BV liquiditeitstest)" }
           ]
         }
       }
@@ -98,98 +105,394 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV boek 5 BV + boek 7 NV"
-      }
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV art. 5:141/142 (BV) + art. 7:212/213 (NV); WIB92 art. 18 + 269 + 184quater"
+      },
+      "voorwaarden": [
+        {
+          "tekst": "Voor NV: netto-actief-test — netto-actief na uitkering blijft minstens gelijk aan gestort kapitaal (of opgevraagd kapitaal indien hoger) plus niet-uitkeerbare reserves (wettelijke reserve, statutair onbeschikbare reserve, herwaarderingsmeerwaarde, kapitaalsubsidies, ...).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:212" },
+              { "type": "advies", "naam": "CBN-advies 2021/02", "ref": "netto-actief-test NV" }
+            ]
+          }
+        },
+        {
+          "tekst": "Voor BV: dubbele test — netto-actief-test (analoog NV maar zonder 'kapitaal'-concept: vergelijken met onbeschikbare inbreng) PLUS liquiditeitstest (vennootschap blijft in staat opeisbare schulden ten minste 12 maanden te voldoen).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:141 + 5:142" }
+            ]
+          }
+        },
+        {
+          "tekst": "AV-besluit op basis van goedgekeurde jaarrekening (regulier dividend) of tussentijdse balans (interim dividend bij NV, niet toegelaten bij BV behalve via bestuursorgaan binnen statutaire grenzen).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:213 (interim dividend NV)" }
+            ]
+          }
+        },
+        {
+          "tekst": "Inhouding bedrijfsvoorheffing/roerende voorheffing bij uitbetaling: standaard 30% (art. 269 WIB92), verlaagd 15% (VVPRbis voor kleine vennootschappen 3+ jaar oud), 5% bij verdere wachtperiode op liquidatiereserve, of vrijstelling onder DBI-voorwaarden voor moeder-vennootschap-aandeelhouders.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 269" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Schending van de netto-actief-test of liquiditeitstest: bestuurders zijn hoofdelijk aansprakelijk voor schade aan vennootschap en derden; aandeelhouders moeten onrechtmatige uitkering terugbetalen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:144 + 7:215 (aansprakelijkheid + terugbetaling)" }
+            ]
+          }
+        },
+        {
+          "tekst": "Niet-tijdige inhouding RV: aansprakelijkheid voor onbetaalde belasting + boetes.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Fiscale praktijk" }
+            ]
+          }
+        }
+      ]
     },
-    "bouwstenen": [
+    "subconcepten": [
       {
         "id": "regulier-dividend",
-        "naam": {
-          "primair": "Regulier dividend"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — AV-besluit · RV 30% · timing na jaarafsluiting.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "naam": { "primair": "Regulier (jaarlijks) dividend" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het klassieke jaardividend uitgekeerd door de AV bij goedkeuring van de jaarrekening, als onderdeel van het winstbestemmings-besluit. Standaard RV 30% (art. 269 WIB92). Toepasselijk op alle vennootschappen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 18 + 269" }
+                ]
+              }
             }
           }
         }
       },
       {
-        "id": "tussentijdse-interim-dividenden",
-        "naam": {
-          "primair": "Tussentijdse / interim dividenden"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — op tussentijdse staat · dubbele test BV/NV.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "interim-dividend",
+        "naam": { "primair": "Interim (tussentijds) dividend" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Tussentijdse uitkering tijdens het boekjaar, op basis van het tussentijdse resultaat plus overgedragen winst minus overgedragen verlies. Bij NV: enkel toegelaten als statutair voorzien en op basis van tussentijdse balans (art. 7:213 WVV). Bij BV: niet voorzien in WVV — bestuursorgaan kan op basis van statuten binnen voorwaarden uitkeren, mits netto-actief- en liquiditeitstest. Zelfde RV-tarief als regulier dividend.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:213" }
+                ]
+              }
             }
           }
         }
       },
       {
-        "id": "wettelijke-beperkingen-uitkering",
-        "naam": {
-          "primair": "Wettelijke beperkingen op uitkering"
-        },
+        "id": "vvprbis",
+        "naam": { "primair": "VVPRbis — verlaagd dividend voor kleine vennootschap" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Verlaagd RV-tarief (15%) voor dividenden uit kleine vennootschappen onder de voorwaarden van art. 269 par. 2 WIB92: kapitaalinbreng vanaf 1 juli 2013 in nieuwe vennootschap of bestaande BV/NV; aandelen op naam zonder preferente rechten; verlaagd tarief van 20% in jaar Y2 (tweede uitkering), 15% vanaf jaar Y3. Vereist dat bestaande aandelen ten minste even goed gehouden zijn en dat de vennootschap als 'klein' (criteria art. 1:24 WVV) kwalificeert.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 269 par. 2 (VVPRbis)" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "liquidatiereserve",
+        "naam": { "primair": "Liquidatiereserve" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een kleine vennootschap kan elk jaar (een deel van) haar boekhoudkundige nettowinst aanleggen als 'liquidatiereserve' (art. 184quater WIB92). Bij aanleg: 10% afzonderlijke aanslag in VenB (afzonderlijk van de gewone VenB). Bij latere uitkering: 5% RV indien minimum 5 jaar gewacht; 20% RV indien sneller; 0% bij liquidatie. Cumulatieve fiscale druk bij goede timing: 10% + 5% = 15% — substantieel onder de 30% RV op regulier dividend.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 184quater + 21, 11°" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "inkoop-eigen-aandelen-uitkering",
+        "naam": { "primair": "Inkoop eigen aandelen als uitkeringsvorm" },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De vennootschap koopt haar eigen aandelen terug van de aandeelhouders. Het positief verschil tussen verkrijgingsprijs en aandeel in gerevaloriseerd gestort kapitaal wordt fiscaal behandeld als dividend (art. 186 WIB92, aangifte code 1302). Strikte procedure WVV (besluit AV met gekwalificeerde meerderheid, maximum 20% kapitaal, financiering uit uitkeerbare winsten).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 186" },
+                  { "type": "aangifte", "naam": "aangifte-VenB-2025-uitgekeerde-dividenden", "ref": "code 1302" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "vergelijking-uitkeringsvormen",
+        "naam": { "primair": "Vergelijking uitkeringsvormen" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Overzicht fiscale druk per uitkeringsvorm (kleine vennootschap, aandeelhouder natuurlijke persoon).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 269 + 184quater" }
+                ]
+              },
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "titel": "RV-druk per uitkeringsvorm",
+                  "kolommen": ["Uitkeringsvorm", "RV-tarief", "Voorwaarden", "Procedure"],
+                  "rijen": [
+                    ["Regulier dividend", "30%", "Geen specifieke (alleen netto-actief-test)", "AV-besluit bij jaarrekening"],
+                    ["VVPRbis (jaar 3+)", "15%", "Kleine venn, aandelen-op-naam, kapitaalinbreng vanaf 1-7-2013", "AV-besluit + RV-aangifte VVPRbis"],
+                    ["VVPRbis (jaar 2)", "20%", "Idem, in jaar 2 na inbreng", "Idem"],
+                    ["Liquidatiereserve (5 jaar)", "5% bij uitkering + 10% bij aanleg = 15%", "Kleine venn; aanleg uit boekhoudkundige nettowinst; uitkering na 5 jaar", "Jaarlijkse aanleg-aangifte + RV-aangifte bij uitkering"],
+                    ["Liquidatiereserve (binnen 5 jaar)", "20% + 10% bij aanleg = 30%", "Versnelde uitkering", "Idem"],
+                    ["Liquidatiereserve bij liquidatie", "0% + 10% bij aanleg = 10%", "Bij effectieve liquidatie", "Bij liquidatie"],
+                    ["Tantieme aan bestuurder", "PB progressief + sociale bijdragen", "Bestuurder, in redelijk verband", "AV-besluit bij winstbestemming"],
+                    ["Kapitaalvermindering (terugbetaling)", "0% (pro rata uit gestort kapitaal) + 30% (pro rata uit belaste reserves)", "Pro-rata-regel art. 18 WIB92", "AV-besluit + 2-maanden-wachtperiode (schuldeisers)"]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "netto-actief-test",
+        "naam": { "primair": "Netto-actief-test" },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — netto-actief-test (BV/NV) + uitkeringstest (BV — dubbele test sinds WVV).",
+            "tekst": "Het netto-actief van de vennootschap (totaal activa minus voorzieningen, schulden en niet-afgeschreven oprichtingskosten / O&O) mag na uitkering niet zakken onder het bedrag van het gestorte kapitaal (of opgevraagd kapitaal indien hoger), vermeerderd met alle reserves die volgens wet of statuten niet mogen worden uitgekeerd. Voor BV: vergelijkbaar concept maar met 'onbeschikbare inbreng' in plaats van 'gestort kapitaal'. Toets gebeurt op basis van de laatste goedgekeurde jaarrekening, mits geen materieel waardeverlies sindsdien.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "advies", "naam": "CBN-advies 2021/02", "ref": "netto-actief-test NV" },
+                { "type": "advies", "naam": "CBN-advies 2021/14", "ref": "netto-actief-begrip WVV" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:212" }
               ]
             }
           }
+        }
+      },
+      {
+        "id": "liquiditeitstest",
+        "naam": { "primair": "Liquiditeitstest (BV)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Specifiek voor de BV (art. 5:142 WVV): het bestuursorgaan toetst of de BV, na uitkering, gedurende ten minste 12 maanden in staat zal blijven om haar opeisbare schulden te voldoen. De toets is een vooruitkijkende analyse — op basis van een prognose, niet alleen van de balans. Het bestuursverslag dat de toets documenteert is verplicht; het ontbreken ervan maakt bestuurders aansprakelijk.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142" },
+                { "type": "advies", "naam": "CBN-advies 2021/14", "ref": "liquiditeitstest" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitkeerbare-winsten",
+        "naam": { "primair": "Uitkeerbare winsten — concept en berekening" },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Uitkeerbare winsten = (winst van het boekjaar + overgedragen winst van vorige boekjaren - overgedragen verlies - dotaties aan wettelijke reserve en niet-uitkeerbare reserves). Deze winst kan worden bestemd voor dividend, tantieme, kapitaalverhoging via uitkering of overdracht naar volgend boekjaar.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "advies", "naam": "CBN-advies 2021/02", "ref": "uitkeerbare winsten" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Liquiditeitstest vergeten bij BV",
+        "verkeerde_assumptie": "De netto-actief-test volstaat voor BV (zoals voor NV).",
+        "kernpunt": "Voor BV gelden sinds het WVV TWEE tests: netto-actief-test EN liquiditeitstest. Het ontbreken van het bestuursverslag over de liquiditeitstest maakt de uitkering onrechtmatig — terugbetaling van aandeelhouders en bestuurdersaansprakelijkheid kunnen volgen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:142" }
+          ]
+        }
+      },
+      {
+        "titel": "Liquidatiereserve verwarren met liquidatie-bonus",
+        "verkeerde_assumptie": "Liquidatiereserve is hetzelfde als wat bij ontbinding van de vennootschap wordt uitgekeerd.",
+        "kernpunt": "Liquidatiereserve is een fiscaal mechanisme van proactieve reservering tijdens de levensduur van de vennootschap (art. 184quater WIB92), waarbij 10% afzonderlijke aanslag wordt betaald bij aanleg. Liquidatie-bonus is het overschot bij ontbinding na vereffening. Twee verschillende concepten — maar liquidatiereserve geeft het privilege dat bij effectieve liquidatie de RV op de reserve 0% is.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184quater + 209" }
+          ]
+        }
+      },
+      {
+        "titel": "Reguliere dividend mengen met VVPRbis-kapitaal",
+        "verkeerde_assumptie": "Vennootschap kan zelf kiezen of een dividend onder VVPRbis valt.",
+        "kernpunt": "VVPRbis is geen keuze maar een gevolg van de kapitaalstructuur: alleen aandelen uit nieuwe inbrengen vanaf 1 juli 2013 (op naam, zonder preferente rechten) komen in aanmerking. Bestaande kapitaal blijft onder 30% RV. Vennootschappen met gemengde kapitaalstructuur moeten per dividend afzonderlijk berekenen welk deel onder 30% versus 15% valt.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 269 par. 2" }
+          ]
+        }
+      },
+      {
+        "titel": "Tantieme als variant van dividend behandelen",
+        "verkeerde_assumptie": "Tantieme is gewoon een dividend voor de bestuurder.",
+        "kernpunt": "Tantieme is bedrijfsleidersbezoldiging (art. 32 WIB92), niet roerend inkomen. Het is aftrekbaar bij de vennootschap, telt mee voor de KMO-bezoldigingsregel, en wordt belast tegen progressieve PB-tarieven plus sociale bijdragen — fundamenteel anders dan een dividend.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 32" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Keuze van uitkeringsvorm bij kleine vennootschap",
+        "opties": [
+          {
+            "keuze": "Regulier dividend (30% RV)",
+            "voordeel": "Eenvoud, direct beschikbaar, geen voorwaarden.",
+            "nadeel": "Hoogste fiscale druk."
+          },
+          {
+            "keuze": "VVPRbis (15% RV bij voldoende oud kapitaal)",
+            "voordeel": "Tarief gehalveerd t.o.v. regulier.",
+            "nadeel": "Alleen voor aandelen uit nieuwe inbreng vanaf 1-7-2013; aandelen-op-naam vereist."
+          },
+          {
+            "keuze": "Liquidatiereserve + uitkering na 5 jaar",
+            "voordeel": "Cumulatief 15% (10% bij aanleg + 5% bij uitkering); 10% bij effectieve liquidatie.",
+            "nadeel": "Vereist 5-jaars-planning; alleen voor kleine venn; cash voor de 10% direct verschuldigd."
+          },
+          {
+            "keuze": "Tantieme (combinatie met bezoldiging KMO)",
+            "voordeel": "Aftrekbaar bij venn; telt voor bezoldigingsregel KMO-tarief 20%.",
+            "nadeel": "Sociale bijdragen + PB progressief; geen winst-aandeel voor andere aandeelhouders."
+          }
+        ],
+        "vuistregel": "Bij langetermijn-planning: liquidatiereserve heeft typisch de laagste fiscale druk. Bij urgente cashbehoefte: regulier dividend of VVPRbis. Bij bestuurder die ook aandeelhouder is: combinatie van tantieme + liquidatiereserve optimaliseert.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184quater + 269 + 32" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregels fiscale optimalisatie KMO" }
+          ]
         }
       }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "adviseur-uitkering",
+      "naam": { "primair": "Accountant als adviseur bij winstuitkering" },
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "uitkeringsstrategie",
+              "naam": { "primair": "Uitkeringsstrategie ontwerpen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Stap 1: bepaal cash-behoefte aandeelhouders versus cash-positie en investerings-behoefte vennootschap. Stap 2: identificeer toepasselijke regimes (VVPRbis-kapitaal? Klein? Liquidatiereserve-historiek?). Stap 3: bereken fiscale druk per uitkeringsvorm. Stap 4: maak een meerjarenplan: jaarlijkse aanleg liquidatiereserve + uitkeringscyclus. Stap 5: documenteer netto-actief-test (NV en BV) + liquiditeitstest (BV) — bewaar bestuursverslag.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-stappenplan" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekingen-uitkering",
+              "naam": { "primair": "Boekingen bij winstuitkering" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Bij AV-besluit: rekening 692 'Toevoeging aan reserves' of 694 'Uit te keren tantieme/dividend' tegen 477 'RV te betalen' (30% inhouding) + 471 'Schuld aan aandeelhouders'. Bij betaling: 477 + 471 tegen bank. RV-aangifte binnen 15 dagen na inhouding (Article 95 WIB-uitvoering). Bij VVPRbis: aparte aangifte voor 15% deel.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies 2021/02", "ref": "boekingen uitkering" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard boekingsstroom" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "vereist",
-      "target": "kapitaalbescherming"
-    },
-    {
-      "type": "vereist",
-      "target": "winstbestemming"
-    },
+    { "type": "valt_onder", "target": "vennootschapsrecht" },
+    { "type": "vereist", "target": "kapitaalbescherming" },
+    { "type": "vereist", "target": "winstbestemming" },
     {
       "type": "vergelijkbaar_met",
-      "target": "inkoop-eigen-aandelen"
+      "target": "inkoop-eigen-aandelen",
+      "toelichting": "Inkoop eigen aandelen is een specifieke vorm van winstuitkering met eigen procedure en fiscale behandeling als dividend (art. 186 WIB92).",
+      "gelijkenissen": ["Beide laten waarde uit vennootschap naar aandeelhouders vloeien", "Beide vallen onder kapitaalbescherming"],
+      "verschillen": ["Regulier dividend gaat naar alle aandeelhouders pro rata; inkoop selectief", "Inkoop reduceert aantal uitstaande aandelen"]
     },
-    {
-      "type": "beinvloed_door",
-      "target": "algemene-vergadering"
-    }
+    { "type": "beinvloed_door", "target": "algemene-vergadering" }
   ]
 }
