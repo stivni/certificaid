@@ -6,12 +6,16 @@
       "controle-vennootschapsrecht",
       "controle-test-deelneming",
       "kwalificatie-controle-deelneming"
-    ]
+    ],
+    "vertaling": {
+      "fr": "contrôle (consolidation)",
+      "en": "control test (consolidation)"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -30,171 +34,340 @@
         "IAS 28 voor invloed-van-betekenis"
       ],
       "out": [
-        {
-          "topic": "Consolidatieverplichting",
-          "richting": "moet-verwijzen",
-          "ref": "consolidatieverplichting"
-        },
-        {
-          "topic": "Consolidatiemethoden Σ",
-          "richting": "moet-verwijzen",
-          "ref": "consolidatiemethoden"
-        },
-        {
-          "topic": "Gezamenlijke regelingen (IFRS 11)",
-          "richting": "moet-verwijzen",
-          "ref": "gezamenlijke-regelingen"
-        }
+        { "topic": "Consolidatieverplichting", "richting": "moet-verwijzen", "ref": "consolidatieverplichting" },
+        { "topic": "Consolidatiemethoden Σ", "richting": "moet-verwijzen", "ref": "consolidatiemethoden" },
+        { "topic": "Gezamenlijke regelingen (IFRS 11)", "richting": "moet-verwijzen", "ref": "gezamenlijke-regelingen" }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/controle-bij-consolidatie.json",
+      "primary_bronnen": [
+        "WVV art. 1:14",
+        "WVV art. 1:15",
+        "WVV art. 1:16",
+        "WVV art. 1:17",
+        "WVV art. 1:18",
+        "WVV art. 1:19",
+        "WVV art. 1:21",
+        "IFRS 10",
+        "IAS 28"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T13:20:00Z", "model": "claude-sonnet-4-5", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Pass 1 content gevuld — controle-criteria B-GAAP (art. 1:14-1:21 WVV) + IFRS 10 + IAS 28." }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Controle is de macht om — rechtstreeks of onrechtstreeks — een beslissende invloed uit te oefenen op de aanstelling van de meerderheid van de bestuurders van een vennootschap of op de oriëntatie van haar beleid (art. 1:14 WVV). Voor consolidatiedoeleinden bepaalt het type controle of een entiteit in de kring valt en welke consolidatiemethode wordt toegepast. Er bestaan drie controle-niveaus: exclusieve controle (één partij domineert) → integrale consolidatie; gezamenlijke controle (twee of meer partijen samen beslissen) → evenredig of vermogensmutatie; invloed van betekenis (significante maar geen controle, vaak ≥20 % stemrechten) → vermogensmutatie.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:21", "context": "Geassocieerde onderneming — invloed van betekenis" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Controle is het scharnierbegrip in groepsboekhouding — wie controle uitoefent, moet consolideren. De WVV-test focust op stemrechten en bestuursinvloed, niet op aandelenpercentage als zodanig. Onder IFRS 10 wordt control uitgewerkt rond drie elementen: power (vermogen om relevante activiteiten te sturen), exposure to variable returns (zijn de uitkomsten verbonden aan de prestatie van de investee?), en de link tussen power en returns (kan de investor zijn macht gebruiken om zijn returns te beïnvloeden?). De twee referentiestelsels leiden in 95 % van de gevallen tot dezelfde uitkomst, maar IFRS 10 vangt structuren met potentiële stemrechten en de-facto-controle iets ruimer dan WVV.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14-1:18" },
+            { "type": "norm", "naam": "IFRS 10", "ref": "§5-9" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Synthese B-GAAP/IFRS-test" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het controle-begrip ent zich op de economische realiteit: wie de beslissingen neemt, draagt het economisch belang en moet daarover rapporteren. Een formele aandelenpercentage-test zou de werkelijkheid verarmen — een minderheidsaandeelhouder met de meerderheid van bestuursmandaten via een aandeelhoudersovereenkomst beheert de groep evengoed als een 100 %-eigenaar. Daarom kent zowel WVV als IFRS de 'controle in feite' (de-facto-control) — een principle-based ruimer kader dan een mechanische stemrechten-tel.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14" },
+            { "type": "norm", "naam": "IFRS 10", "ref": "§B41-B46", "context": "De-facto-control" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
           ]
         }
       }
     },
-    "bouwstenen": [
+    "voorkennis_leespad": {
+      "voorvereisten": [],
+      "kader": "geconsolideerde-jaarrekening",
+      "volgkennis": ["consolidatiekring", "consolidatieverplichting", "consolidatiemethoden"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WVV art. 1:14 e.v. (controle-begrip) + IFRS 10 + IAS 28 (via Verordening EU 2023/1803)"
+      },
+      "voor": [
+        {
+          "tekst": "Elke vennootschap die deelnemingen aanhoudt — om vast te stellen of consolidatie nodig is en, zo ja, welke methode geldt.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
       {
-        "id": "stemrechten-meerderheid",
-        "naam": {
-          "primair": "Stemrechten-meerderheid"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "exclusieve-controle-rechte",
+        "naam": { "primair": "Exclusieve controle in rechte" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Controle in rechte (art. 1:15 WVV) bestaat in vijf onweerlegbare gevallen: (1) wanneer de moeder de meerderheid van de stemrechten houdt verbonden aan de aandelen van de dochter; (2) wanneer zij het recht heeft de meerderheid van de bestuurders of zaakvoerders te benoemen of te ontslaan; (3) wanneer zij krachtens statuten of overeenkomst controle uitoefent; (4) bij een vennootschap waarvan de andere aandeelhouders gezamenlijk akkoord gaan dat zij controle heeft; (5) wanneer zij aandelen of stemrechten houdt waardoor zij feitelijk over een meerderheid beschikt.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:15" }
+                ]
+              }
             }
           }
         }
       },
       {
-        "id": "benoeming-bestuursorgaan",
-        "naam": {
-          "primair": "Benoeming bestuursorgaan-test"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "exclusieve-controle-feite",
+        "naam": { "primair": "Exclusieve controle in feite (de-facto-controle)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Controle in feite (art. 1:16 WVV) wordt vermoed wanneer een aandeelhouder op de laatste twee algemene vergaderingen meer dan de helft van de aanwezig vertegenwoordigde stemrechten heeft uitgeoefend — ook zonder formele meerderheid. Het vermoeden is weerlegbaar. IFRS 10 §B41-B46 hanteert een gelijkaardige test: bij een gedispergeerde aandeelhoudersstructuur kan een investor met substantiële maar minderheids-stemrechten toch control hebben.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:16" },
+                  { "type": "norm", "naam": "IFRS 10", "ref": "§B41-B46" }
+                ]
+              }
             }
           }
         }
       },
       {
-        "id": "potentiele-stemrechten",
-        "naam": {
-          "primair": "Potentiële stemrechten"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
-            }
-          }
-        }
-      },
-      {
-        "id": "de-facto-controle",
-        "naam": {
-          "primair": "De-facto-controle"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "gezamenlijke-controle",
+        "naam": { "primair": "Gezamenlijke controle (gemeenschappelijke dochter)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Twee of meer aandeelhouders die niet verbonden zijn oefenen gezamenlijke controle uit (art. 1:20 WVV) wanneer alle relevante beslissingen unaniem of met overeengekomen meerderheid moeten worden genomen. Dit zorgt voor een 'gemeenschappelijke dochter' (joint venture). Onder IFRS 11 wordt onderscheid gemaakt tussen joint operation (rechten op activa, verplichtingen op passiva — opname per onderdeel) en joint venture (rechten op netto-activa — vermogensmutatie verplicht).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:20" },
+                  { "type": "norm", "naam": "IFRS 11 — Joint Arrangements", "ref": "§14-25" }
+                ]
+              }
             }
           }
         }
       },
       {
         "id": "invloed-van-betekenis",
-        "naam": {
-          "primair": "Invloed van betekenis (< 50%)"
-        },
-        "bouwsteen_type": "drempel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "naam": { "primair": "Invloed van betekenis (geassocieerde onderneming)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Invloed van betekenis = mogelijkheid om wezenlijk invloed uit te oefenen op het financiële en operationele beleid zonder controle. Art. 1:21 WVV vermoedt invloed van betekenis bij het houden van ten minste 20 % van de stemrechten. IAS 28 §5 hanteert dezelfde 20 %-drempel — beneden 20 %: vermoed geen invloed van betekenis tenzij tegenbewijs (bv. recht op een bestuurszetel, materiële intercompany-transacties).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:21" },
+                  { "type": "norm", "naam": "IAS 28 — Investments in Associates", "ref": "§5-9" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "potentiele-stemrechten",
+        "naam": { "primair": "Potentiële stemrechten (IFRS 10)" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "IFRS 10 §B47 vraagt om bij de control-test ook 'potentiële stemrechten' mee te tellen — opties, warrants, converteerbare obligaties die de investor het recht geven om bijkomende stemrechten te verwerven. Enkel 'substantiële' rechten (uitoefenbaar wanneer de beslissingen genomen worden, niet 'out-of-the-money', geen vetorechten van derden) tellen mee. WVV bevat geen expliciete potentiële-stemrechten-regel maar de art. 1:14-test laat ruimte voor materiële beïnvloedings-rechten via aandeelhoudersovereenkomsten.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "IFRS 10", "ref": "§B47-B50" }
+                ]
+              }
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-controle-rechte",
+        "titel": "Exclusieve controle in rechte",
+        "context": "Aurelia Holding NV bezit 70 % van de aandelen + bijhorende stemrechten in Zelena Bio NV.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:15, 1°" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Toets: 70 % > 50 % stemrechten → exclusieve controle in rechte (art. 1:15, 1° WVV).\nGevolg: Zelena valt in de consolidatiekring van Aurelia → integrale consolidatie."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-controle-feite",
+        "titel": "Exclusieve controle in feite — gedispergeerde aandeelhouders",
+        "context": "Beursgenoteerde vennootschap Beta NV heeft een free float van 65 %. Aurelia bezit 35 %. Op de laatste twee jaarvergaderingen werd respectievelijk 55 % en 50 % van de aandelen aanwezig vertegenwoordigd. Aurelia oefende telkens al haar stemrechten uit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:16" },
+            { "type": "norm", "naam": "IFRS 10", "ref": "§B43-B46" },
+            { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Toets:\n- Jaar 1: aanwezig 55 % van totaal stemrechten = 55 % van 100 %. Aurelia bracht 35 % uit van het totaal = 35/55 = 63,6 % van uitgebracht.\n- Jaar 2: 35/50 = 70 % van uitgebracht.\n\nIn beide vergaderingen meer dan de helft van uitgebracht → vermoeden de-facto-controle (art. 1:16 WVV). IFRS 10 §B43 zou tot dezelfde conclusie komen.\nGevolg: Aurelia moet Beta integraal consolideren (tenzij weerlegging)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-invloed-van-betekenis",
+        "titel": "Invloed van betekenis bij 25 %",
+        "context": "Aurelia bezit 25 % van GreenLab Research BV; recht op één van de vier bestuurszetels; jaarlijkse intercompany-licentiedeal.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:21" },
+            { "type": "norm", "naam": "IAS 28", "ref": "§5-9" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Toets:\n- 25 % stemrechten > 20 % → vermoeden invloed van betekenis (art. 1:21 WVV).\n- Bestuurszetel + materiële intercompany-transactie bevestigen invloed onder IAS 28 §6.\n- Geen meerderheid (< 50 %) en geen gezamenlijke controle: geen exclusieve of gezamenlijke controle.\nGevolg: GreenLab is geassocieerde onderneming → vermogensmutatie verplicht."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Controle gelijkstellen met aandelenpercentage",
+        "verkeerde_assumptie": "> 50 % aandelen = controle; < 50 % aandelen = geen controle.",
+        "kernpunt": "Het criterium is stemrechten + bestuursinvloed, niet aandelenpercentage. Aandelen zonder stemrecht (preferente aandelen, certificaten) tellen niet mee; aandeelhoudersovereenkomsten kunnen de feitelijke macht omdraaien. Voorbeeld: een 30 %-aandeelhouder met vetorecht op alle strategische beslissingen heeft geen controle, ondanks substantieel aandeel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14" },
+            { "type": "norm", "naam": "IFRS 10", "ref": "§B14-B18" }
+          ]
+        }
+      },
+      {
+        "titel": "20 %-drempel als magische grens",
+        "verkeerde_assumptie": "Vanaf 20 % automatisch invloed van betekenis; onder 20 % nooit.",
+        "kernpunt": "20 % is een wettelijk vermoeden (art. 1:21 WVV + IAS 28 §5) — weerlegbaar in beide richtingen. Met 18 % kan invloed van betekenis bestaan (bv. recht op bestuurszetel + technologische afhankelijkheid). Met 25 % kan invloed afwezig zijn (bv. wanneer een andere aandeelhouder onbetwistbaar de controle uitoefent). Toets aan inhoudelijke criteria, niet enkel aan de drempel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:21" },
+            { "type": "norm", "naam": "IAS 28", "ref": "§6-9" }
+          ]
+        }
+      },
+      {
+        "titel": "Potentiële stemrechten negeren onder IFRS",
+        "verkeerde_assumptie": "Bij IFRS 10-control-test enkel actuele stemrechten meetellen.",
+        "kernpunt": "IFRS 10 §B47 verplicht om substantiële potentiële stemrechten (opties, warrants, conversierechten) mee te nemen. Een 45 %-aandeelhouder met onmiddellijk uitoefenbare opties op nog eens 10 % heeft mogelijk control vóór hij de opties uitoefent. Onder B-GAAP geen expliciete regel — kan tot verschillen tussen B-GAAP en IFRS leiden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "IFRS 10", "ref": "§B47-B50" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "geconsolideerde-jaarrekening"
+      "id": "groep-accountant",
+      "naam": { "primair": "Groep-accountant" },
+      "intro": "Accountant die voor elke deelneming van de moeder het controle-niveau moet bepalen.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "controle-mapping",
+              "naam": { "primair": "Controle-mapping per deelneming" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per deelneming op balansdatum: (1) verzamel aandelenstructuur + statuten + aandeelhoudersovereenkomsten + bestuurssamenstelling; (2) test elk WVV-criterium (art. 1:15 t/m 1:21) systematisch; (3) bij IFRS-rapportering: parallel IFRS 10-test (power · returns · link); (4) documenteer conclusie in 'controle-memo' per deelneming — basis voor consolidatiekring en methode-keuze; (5) herevalueer bij wijziging aandeelhoudersovereenkomst of bestuurssamenstelling.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 1:14-1:21" },
+                      { "type": "norm", "naam": "IFRS 10", "ref": "§5-18" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-controle-conclusies",
+              "naam": { "primair": "Audit van controle-conclusies" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "De commissaris herevalueert controle-conclusies onafhankelijk. Aandachtspunten: aandeelhoudersovereenkomsten lezen (vaak buiten formele aandelenstructuur), participaties net beneden/boven 50 %, joint ventures met dominante partner, structuren met SPV's. Bij twijfel: gesprek met juridisch adviseur. Foute kwalificatie = verkeerde methode = materiële afwijking in geconsolideerde jaarrekening.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 600", "ref": "§23, §A20", "context": "Group structure understanding" },
+                      { "type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "geconsolideerde-jaarrekening" },
+    { "type": "triggert", "target": "consolidatieverplichting" },
+    { "type": "triggert", "target": "consolidatiemethoden", "toelichting": "Het controle-niveau bepaalt welke methode (integraal / evenredig / vermogensmutatie) wordt toegepast." }
   ]
 }
