@@ -2,26 +2,54 @@
   "id": "voorafbetalingen",
   "naam": {
     "primair": "Voorafbetalingen",
+    "afkorting": "VA",
     "synoniemen": [
-      "VA",
-      "versements anticipés"
-    ]
+      "versements anticipés",
+      "VA1-VA2-VA3-VA4",
+      "vooruitbetaling belasting"
+    ],
+    "vertaling": {
+      "fr": "versements anticipés"
+    }
   },
-  "concept_type": "procedure",
+  "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
-      "regeling"
+      "regeling",
+      "gebeurtenis"
     ],
     "ankers": [
-      "2.2.XV",
-      "2.3.II.J"
+      "2.2.IV",
+      "2.3.III",
+      "2.3.IV",
+      "2.2.taak.2",
+      "2.3.taak.2"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/voorafbetalingen.json",
+      "primary_bronnen": [
+        "WIB92 art. 157",
+        "WIB92 art. 158",
+        "WIB92 art. 159",
+        "WIB92 art. 160",
+        "WIB92 art. 161",
+        "WIB92 art. 162",
+        "WIB92 art. 163",
+        "WIB92 art. 164",
+        "WIB92 art. 175",
+        "WIB92 art. 176",
+        "WIB92 art. 177",
+        "WIB92 art. 218",
+        "CBN-2018-14"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -29,17 +57,25 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt (NIEUW generiek + 2 perspectieven PB/VenB — OP-PB.B resolutie: rename voorafbetalingen-vennootschapsbelasting + absorbeert voorafbetalingen-pb)"
+        "wijziging": "Skeleton-record aangemaakt (transversaal PB + VenB)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:15:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 157-177 + 218 + CBN-2018-14). 4-kwartalen-structuur + vermeerdering + bonificatie + PB/VenB-perspectieven."
       }
     ],
     "scope": {
       "in": [
-        "Generieke 4-kwartalen-structuur: VA1 (10 april) · VA2 (10 juli) · VA3 (10 oktober) · VA4 (20 december)",
-        "Vermeerderings-regel bij niet of onvoldoende voorafbetaling: percentage vermeerdering toegepast op verschuldigde belasting",
-        "Kwartaal-percentages voor vermeerderings-bonificatie (decreschdo: 9% · 7,5% · 6% · 4,5% — illustratief, indexeerbaar)",
-        "PB-perspectief: zelfstandigen-verplicht vanaf 3e jaar activiteit · 3%-bonificatie · forfaitaire plafonds",
-        "VenB-perspectief: verplicht voor alle vennootschappen · bezoldigingsregel (20% van bezoldiging bedrijfsleider als VA toepassen) · geen 3%-bonificatie",
-        "Wettelijke logica (4 kwartalen + vermeerdering) identiek tussen PB/VenB; percentages + uitzonderingen verschillen via perspectief"
+        "Generieke 4-kwartalen-structuur: VA1 (10 april), VA2 (10 juli), VA3 (10 oktober), VA4 (20 december)",
+        "Vermeerderingsregel bij niet of onvoldoende voorafbetaling: globale vermeerdering op verschuldigde belasting (PB art. 157-158, VenB art. 218)",
+        "Kwartaal-bonificatie-percentages (degressief over de 4 kwartalen — illustratief 9 %/7,5 %/6 %/4,5 %; geïndexeerd)",
+        "PB-perspectief: zelfstandigen + bedrijfsleiders verplicht vanaf 3de jaar activiteit; 3 %-bonificatie wanneer vermeerdering wegvalt; forfaitaire plafonds",
+        "VenB-perspectief: verplicht voor alle vennootschappen (uitzondering: kleine vennootschap eerste 3 boekjaren); bezoldigingsregel; geen bonificatie",
+        "Wettelijke logica (4 kwartalen + vermeerdering) identiek tussen PB/VenB; percentages + uitzonderingen verschillen",
+        "Boekhoudkundige verwerking VA in vennootschap (CBN-2018-14): klasse 416/418 of klasse 67"
       ],
       "out": [
         {
@@ -53,6 +89,16 @@
           "ref": "belastingberekening-pb"
         },
         {
+          "topic": "Vennootschapsbelasting (kader)",
+          "richting": "moet-verwijzen",
+          "ref": "vennootschapsbelasting"
+        },
+        {
+          "topic": "Personenbelasting (kader)",
+          "richting": "moet-verwijzen",
+          "ref": "personenbelasting"
+        },
+        {
           "topic": "Concrete kwartaal-percentages (Cijferzakboekje)",
           "richting": "mag-verwijzen"
         }
@@ -62,65 +108,187 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 — generiek voorafbetalingen-record met PB- en VenB-perspectieven (OP-PB.B resolutie)",
+        "tekst": "Voorafbetalingen (VA) zijn vrijwillige vooruitbetalingen die belastingplichtigen — zelfstandigen, bedrijfsleiders, vennootschappen — in 4 kwartalen verrichten ter compensatie van de jaarlijkse belasting waarvoor geen of onvoldoende voorheffing aan bron geheven wordt. Door op tijd en voldoende vooraf te betalen vermijdt men een wettelijke 'belastingvermeerdering' (PB art. 157-158, VenB art. 218 WIB92) die wordt toegepast op de verschuldigde belasting. Vroeg betalen (VA1, april) levert een hogere bonificatie op dan laat betalen (VA4, december) — een degressieve schaal die incentiveert om kwartaal voor kwartaal te storten.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 157", "context": "Belastingvermeerdering bij geen/onvoldoende VA — PB" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 175", "context": "Voorafbetalingen — PB + VenB" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 218", "context": "VenB-pendant van art. 157-158" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Mechanisme: voor PB-zelfstandigen en bedrijfsleiders, en voor VenB-vennootschappen, is er geen bedrijfsvoorheffing aan bron op winst/baten (PB) of vennootschapswinst (VenB). De fiscus zou dus de volledige belasting pas via aanslagbiljet 12-18 maanden na het boekjaar innen — wat de Staatskas onaanvaardbare cashflow-vertraging zou geven. Voorafbetalingen vermijden dit door de belastingplichtige aan te zetten elke kwartaal geld over te maken aan FOD Financiën. Wettelijk-technisch: de fiscus berekent achteraf (bij aanslag) een 'globale vermeerdering' op de verschuldigde belasting (PB: art. 158 = referentievoet × x %; VenB: art. 218 = referentievoet × y %). Daartegenover worden 'bonificaties' geplaatst per kwartaal-VA volgens degressieve percentages (illustratief AJ 2026: VA1 = 9 %, VA2 = 7,5 %, VA3 = 6 %, VA4 = 4,5 % — exact via Cijferzakboekje). Som van bonificaties wordt afgetrokken van de vermeerdering. Saldo positief → effectieve vermeerdering verschuldigd. Saldo nul of negatief → geen vermeerdering, en voor PB-zelfstandigen + bedrijfsleiders een 3 %-bonificatie als 'beloning'.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 157", "context": "PB-vermeerdering" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 158", "context": "Berekeningsmodaliteit vermeerdering" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 161", "context": "Bonificatie 3 % zelfstandige" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 175", "context": "Kwartaal-VA-data + percentages" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 218", "context": "VenB-vermeerdering identiek mechanisme" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis is dubbel: (1) cashflow-stabilisatie voor de Staatskas — Belgische federale uitgaven (lonen ambtenaren, sociale uitkeringen) lopen continu door; zonder VA zou de Staat tijdelijk lenen om de tussentijdse periode te overbruggen tussen boekjaar-einde en aanslag-vestiging. (2) Spreiding van fiscale last bij belastingplichtigen — wie elk kwartaal een stuk betaalt, voelt het minder dan wie in één keer de hele aanslag moet ophoesten. De keuze om VA optioneel te maken (niet verplicht, men kan ook gewoon de vermeerdering accepteren) reflecteert respect voor cashflow-vrijheid: kleine vennootschappen of zelfstandigen in moeilijke jaren kunnen kiezen om de vermeerdering te dragen ipv VA te verrichten. Voor kleine vennootschap eerste 3 boekjaren: vrijstelling vermeerdering (art. 218 §2) — om startups niet te penaliseren wanneer ze nog geen winst-zekerheid hebben.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 218 §2", "context": "Vrijstelling kleine vennootschap eerste 3 jaar" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese — cashflow-mechanisme" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "personenbelasting",
+        "vennootschapsbelasting"
+      ],
+      "naast_relevant": [
+        "bedrijfsvoorheffing",
+        "belastingberekening-pb",
+        "aangifte-vennootschapsbelasting"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 157-168 + 218"
-      }
+        "wettelijke_basis": "WIB92 art. 157-177 (PB) + art. 218 (VenB) + KB/WIB92 art. 64-69",
+        "toelichting": "Stabiel kader. Belangrijkste wijziging recent: koppeling vermeerderings- + bonificatie-percentages aan ECB-referentievoet via jaarlijks KB (vroeger vast percentage). In hoge-rente-omgeving (2024-2026): vermeerdering kan hoger uitvallen — meer incentive om VA te verrichten."
+      },
+      "voor": [
+        {
+          "tekst": "PB-perspectief: zelfstandigen (winst/baten), bedrijfsleiders (bezoldigingen niet onderhevig aan bedrijfsvoorheffing of waar BV onvoldoende is), beoefenaars van vrij beroep. Voor werknemers met loon: VA niet relevant want bedrijfsvoorheffing aan bron volstaat doorgaans. VenB-perspectief: alle binnenlandse vennootschappen die VenB verschuldigd zijn — incl. KMO's vanaf het 4de boekjaar (eerste 3 zijn vrijgesteld).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 175", "context": "Voorafbetalingen PB" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 218 §2", "context": "Vrijstelling kleine vennootschap eerste 3 jaar" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Werknemers met enkel loon (volledige bedrijfsvoorheffing aan bron): geen VA-relevantie. Vennootschappen in eerste 3 boekjaren ('startup vrijstelling'): geen vermeerdering, dus VA niet financieel-noodzakelijk (al kan men vrijwillig storten om belasting gespreid te betalen).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 218 §2" }
+            ]
+          }
+        }
+      ],
+      "trigger_start": [
+        {
+          "tekst": "PB-zelfstandigen: vanaf het 3de jaar van zelfstandige activiteit (eerste 2 jaren vrijgesteld van vermeerdering). VenB-vennootschappen: vanaf het 4de boekjaar (eerste 3 boekjaren als kleine vennootschap vrijgesteld).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 164", "context": "PB-vrijstelling startende zelfstandige" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 218 §2" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Tijdig en voldoende VA vermijden vermeerdering — een netto-besparing die in hoge-rente-jaren tot 7-9 % van de aanslag kan oplopen. Voor PB-zelfstandigen: 3 %-bonificatie wanneer VA gedaan en vermeerdering vermeden. Bovendien: gespreide belastingbetaling = betere cashflow-planning dan één grote betaling bij aanslag.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 161", "context": "3 %-bonificatie zelfstandige" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 157", "context": "Vermeerdering te vermijden" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Te weinig VA: vermeerdering verschuldigd bij aanslag — moeilijk later te corrigeren. Te veel VA: geen 'risico' fiscaal-rechterlijk (overschot wordt teruggestort) maar wel cashflow-implicatie (geld is uitgehoofd). Verkeerde toewijzing aan AJ: VA's moeten correct gemerkt zijn met AJ-aanduiding bij betaling — fout AJ = wordt niet aangerekend op gewenst jaar.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 157" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkrisico verkeerde AJ-toewijzing" }
+            ]
+          }
+        }
+      ]
     },
     "bouwstenen": [
       {
         "id": "4-kwartalen-vermeerdering",
         "naam": {
-          "primair": "4-kwartalen-vermeerderingsregel"
+          "primair": "4-kwartalen-structuur + vermeerdering"
         },
         "bouwsteen_type": "mechanisme",
         "kern": {
-          "substantie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — vermeerdering toegepast op verschuldigde belasting indien geen of onvoldoende VA; bonificatie per kwartaal-VA neemt af",
+          "definitie": {
+            "tekst": "Vier wettelijke betaaldata per AJ (art. 175 WIB92): VA1 = 10 april, VA2 = 10 juli, VA3 = 10 oktober, VA4 = 20 december (kalenderjaar van het inkomstenjaar voor PB, lopend boekjaar voor VenB met gebroken boekjaar). De vermeerdering (art. 157 PB / art. 218 VenB) wordt berekend als: vermeerderingsbasis = belasting verschuldigd × wettelijke vermeerderingspercentage; daartegen worden bonificaties geplaatst per VA (degressief over de kwartalen). Indien som bonificaties ≥ vermeerderingsbasis → geen vermeerdering. Indien som bonificaties < vermeerderingsbasis → het verschil is verschuldigde vermeerdering (toegevoegd aan aanslag).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 175", "context": "4 kwartalen + data" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 157-158", "context": "Vermeerdering PB" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 218", "context": "Vermeerdering VenB" }
               ]
             }
           }
         }
       },
       {
+        "id": "kwartaal-bonificatie-percentages",
+        "naam": {
+          "primair": "Kwartaal-bonificatie-percentages (degressief)"
+        },
+        "bouwsteen_type": "formule",
+        "kern": {
+          "definitie": {
+            "tekst": "Bonificatie per VA = bedrag VA × wettelijk percentage van het kwartaal. Percentages zijn degressief — VA1 brengt het hoogste percentage op, VA4 het laagste. De percentages zijn evenredig met de positie binnen het jaar (VA1 'verdient' 4 kwartalen rente-voordeel voor de Staat, VA2 maar 3, etc.). Illustratieve percentages AJ 2026 (verifieer in Cijferzakboekje): VA1 ≈ 9 %, VA2 ≈ 7,5 %, VA3 ≈ 6 %, VA4 ≈ 4,5 %. Wettelijk: gekoppeld aan referentievoet ECB + opslag (art. 160 + 175 WIB92; jaarlijks KB).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 175", "context": "Bonificatie-percentages" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 160", "context": "Referentievoet" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Kwartaal", "Datum", "Bonificatie % (illustratief AJ 2026)"],
+            "rijen": [
+              ["VA1", "10 april", "9 %"],
+              ["VA2", "10 juli", "7,5 %"],
+              ["VA3", "10 oktober", "6 %"],
+              ["VA4", "20 december", "4,5 %"]
+            ]
+          },
+          {
+            "type": "formule_expressie",
+            "uitdrukking": "Totale bonificatie = (VA1 × 9 %) + (VA2 × 7,5 %) + (VA3 × 6 %) + (VA4 × 4,5 %)"
+          }
+        ]
+      },
+      {
         "id": "zelfstandigen-3e-jaar-verplicht",
         "naam": {
-          "primair": "Zelfstandigen-verplicht-3e-jaar (PB)"
+          "primair": "PB-zelfstandige: 3de jaar verplicht + 3 %-bonificatie"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — zelfstandigen verplicht VA te doen vanaf 3e jaar activiteit (PB-specifiek)",
+            "tekst": "PB-zelfstandigen + bedrijfsleiders + vrije beroepen worden VA-verplicht vanaf het 3de jaar van activiteit (art. 164 WIB92 — eerste 2 jaar vrijgesteld van vermeerdering om opstartfase niet te penaliseren). Specifiek voor PB-zelfstandige: wanneer VA voldoende zijn om vermeerdering te neutraliseren, krijgt men bovendien een BONIFICATIE van 3 % over het surplus aan VA (art. 161 WIB92) — als beloning voor het nemen van de cashflow-last. Deze 3 %-bonificatie is een PB-specifiek voordeel; VenB kent deze niet.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 164", "context": "Eerste 2 jaar vrijgesteld" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 161", "context": "3 %-bonificatie PB-zelfstandige" }
               ]
             }
           }
@@ -129,39 +297,349 @@
       {
         "id": "bezoldigingsregel-venb",
         "naam": {
-          "primair": "Bezoldigingsregel VA (VenB)"
+          "primair": "VenB: bezoldigingsregel + geen bonificatie"
         },
         "bouwsteen_type": "regel",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — VenB-vermeerdering kan vermeden via VA = % van bezoldiging bedrijfsleider",
+            "tekst": "Voor vennootschappen die het verlaagd KMO-tarief (20 %) willen genieten: minimumbezoldiging bedrijfsleider geldt als voorwaarde (basisbedrag 45.000 EUR niet-geïndexeerd, art. 215 §3 — of gelijk aan belastbaar resultaat indien lager dan 45K). De vennootschap moet voor deze bezoldiging bedrijfsvoorheffing aan bron afhouden EN voorafbetalingen verrichten in de mate dat de BV onvoldoende is. VenB kent géén 3 %-bonificatie zoals PB — enkel het vermijden van de vermeerdering is het voordeel. Bezoldiging zaakvoerder telt mee in zijn eigen PB-aangifte (vak XVII).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 215 §3", "context": "Minimumbezoldiging KMO-tarief" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 32", "context": "Definitie bedrijfsleidersbezoldiging" }
               ]
             }
           }
         }
+      },
+      {
+        "id": "boekhoudkundige-verwerking-va",
+        "naam": {
+          "primair": "Boekhoudkundige verwerking VA in vennootschap"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "Volgens CBN-advies 2018/14: VA gedurende het boekjaar worden geboekt op klasse 416 'Te ontvangen opbrengsten en over te dragen kosten' (specifiek subrekening 4160 'Voorafbetalingen op belastingen') of klasse 418 'Diverse vorderingen'. Bij jaareinde: geherclassificeerd naar klasse 678 'Belastingen' tegenover klasse 451 'BTW en andere belastingen te betalen', met het belastingbedrag in resultatenrekening + de VA als verminderingen van de schuld. Effect: in jaarrekening volledig zichtbaar (winstbelasting bruto + VA verrekend → schuld of vordering aan FOD).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "cbn", "naam": "CBN-advies 2018/14", "ref": "Voorafbetalingen", "context": "Boekhoudkundige behandeling" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "context": "Bij betaling VA1 van 5.000 EUR op 10 april",
+            "debet": [
+              { "rekening": "416 Voorafbetalingen op belastingen", "bedrag": 5000 }
+            ],
+            "credit": [
+              { "rekening": "550 Bankrekening", "bedrag": 5000 }
+            ]
+          },
+          {
+            "type": "boeking",
+            "context": "Bij jaareinde — herclassificatie + winstbelasting (stel VenB 25.000 EUR; cumul VA 22.000 EUR)",
+            "debet": [
+              { "rekening": "678 Onroerende voorheffing + andere belastingen", "bedrag": 25000 }
+            ],
+            "credit": [
+              { "rekening": "416 Voorafbetalingen op belastingen", "bedrag": 22000 },
+              { "rekening": "451 Belastingschuld", "bedrag": 3000 }
+            ]
+          }
+        ]
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-vennootschap-volle-va",
+        "titel": "VenB-vennootschap volledig VA — vermeerdering vermeden",
+        "context": "BV ConsultBE, niet-startup (4de boekjaar). Verwachte VenB 24.000 EUR voor AJ 2026 (boekjaar = kalenderjaar 2025). Accountant adviseert spreiding 6.000 EUR per kwartaal. Veronderstel illustratieve percentages: vermeerderingsvoet 9 %, kwartaal-bonificaties 9/7,5/6/4,5 %.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 218" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 175" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Illustratief — exacte percentages via Cijferzakboekje" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Vermeerderingsbasis = belasting 24.000 × 9 % = 2.160 EUR (= maximum vermeerdering bij 0 VA)",
+              "VA-betalingen: VA1 = 6.000 (10 april), VA2 = 6.000 (10 juli), VA3 = 6.000 (10 oktober), VA4 = 6.000 (20 december)",
+              "Bonificaties: VA1 × 9 % = 540; VA2 × 7,5 % = 450; VA3 × 6 % = 360; VA4 × 4,5 % = 270",
+              "Som bonificaties = 540 + 450 + 360 + 270 = 1.620 EUR",
+              "Resultaat: bonificaties (1.620) < vermeerderingsbasis (2.160) → vermeerdering verschuldigd = 2.160 − 1.620 = 540 EUR",
+              "Optimalisatie-tip: méér betalen vroeg in het jaar — bv. VA1 = 12.000 + VA2 = 6.000 + VA3 = 6.000 + VA4 = 0 zou méér bonificatie geven (12.000 × 9 % + 6.000 × 7,5 % + 6.000 × 6 % = 1.080 + 450 + 360 = 1.890) → resterende vermeerdering 270 EUR"
+            ],
+            "resultaat": "Met evenredige spreiding bonificaties = 1.620 → 540 EUR vermeerdering blijft (75 % vermeden, maar niet 100 %). Met front-loading naar VA1: vermeerdering daalt tot 270 EUR. Bij volledige front-loading (24.000 VA1) zou 24.000 × 9 % = 2.160 EUR bonificatie = volledig dekken vermeerdering. Cliënt moet vergelijken: cashflow-opportuniteit vs vermeerdering vermijden."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-zelfstandige-3-pct-bonificatie",
+        "titel": "PB-zelfstandige met 3 %-bonificatie",
+        "context": "Mevr. Vermeulen, fysiotherapeut zelfstandige sinds 2020 (= 6de jaar in 2025). Verwachte PB op haar baten: 15.000 EUR voor AJ 2026. Vermeerderingsvoet 9 %. Verricht VA: VA1 = 4.000, VA2 = 4.000, VA3 = 4.000, VA4 = 4.000 (totaal 16.000 EUR).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 157" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 161", "context": "3 %-bonificatie" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Vermeerderingsbasis = belasting 15.000 × 9 % = 1.350 EUR",
+              "Bonificaties: 4.000 × 9 % + 4.000 × 7,5 % + 4.000 × 6 % + 4.000 × 4,5 % = 360 + 300 + 240 + 180 = 1.080 EUR",
+              "Resultaat vermeerdering: 1.080 < 1.350 → 270 EUR vermeerdering",
+              "Maar: totaal VA = 16.000 > belasting 15.000 → surplus VA = 1.000 EUR",
+              "PB-specifiek voordeel: 3 %-bonificatie op surplus = 1.000 × 3 % = 30 EUR teruggave",
+              "Eindrekening: Mevr. Vermeulen betaalt 15.000 belasting + 270 vermeerdering − 16.000 VA verrekend + 30 bonificatie = saldo terug te krijgen ≈ 760 EUR"
+            ],
+            "resultaat": "PB-zelfstandige krijgt de 3 %-bonificatie (art. 161) als beloning voor het surplus aan VA — een fiscaal incentive om iets meer te betalen dan strikt noodzakelijk. Bij VenB-vennootschappen bestaat deze 3 %-bonificatie NIET — daar levert overschot enkel terugbetaling (zonder bonificatie)."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-jaarcyclus",
+        "titel": "Jaarcyclus VA — schema",
+        "context": "Visuele timing voor stagiair.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 175" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Jaarcyclus VA (inkomstenjaar = kalenderjaar):\n\n```mermaid\ntimeline\n  title Voorafbetalingen-jaarcyclus AJ 2026 IJ 2025\n  Januari 2025 : Boekjaar start\n  10 April 2025 : VA1 hoogste bonificatie 9 percent\n  10 Juli 2025 : VA2 bonificatie 7.5 percent\n  10 Oktober 2025 : VA3 bonificatie 6 percent\n  20 December 2025 : VA4 laagste bonificatie 4.5 percent\n  31 December 2025 : Boekjaar einde voor PB ook IJ\n  Mei-Juli 2026 : Aangifte PB indienen\n  September 2026 : Aangifte VenB indienen voor boekjaar=kalenderjaar\n  Najaar 2026 : Aanslag wordt gevestigd VA worden verrekend\n```\n\nKernpunt: VA worden gedaan IN het inkomstenjaar zelf (vóór aangifte). Bij voorbereiding aangifte: VA-overzicht moet beschikbaar zijn voor correcte verrekening op aanslagbiljet."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "VA en bedrijfsvoorheffing verwarren",
+        "verkeerde_assumptie": "Voorafbetalingen zijn hetzelfde als bedrijfsvoorheffing — beide zijn 'vooruitbetalingen' aan FOD.",
+        "kernpunt": "Bedrijfsvoorheffing (BV) is een wettelijke INHOUDING aan bron door werkgever op loon (geen keuze, automatisch). Voorafbetalingen (VA) zijn VRIJWILLIGE betalingen door de belastingplichtige zelf om vermeerdering te vermijden. Werknemer met enkel loon: BV volstaat, géén VA nodig. Zelfstandige: geen BV op winst → VA nodig.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 270 e.v.", "context": "Bedrijfsvoorheffing" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 175", "context": "VA" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Bonificatie ≠ teruggave belastinggeld",
+        "verkeerde_assumptie": "Bonificatie is een 'korting' op de belasting die direct teruggestort wordt.",
+        "kernpunt": "Bonificatie is een rekentechnische tegenwaarde die de wettelijke vermeerdering compenseert. Bij voldoende VA: bonificaties dekken vermeerdering → geen extra te betalen (maar ook geen teruggave puur uit bonificatie). PB-zelfstandige bonus 3 % is een uitzondering: dat is wel een effectieve teruggave als surplus aan VA werd verricht.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 157" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 161" }
+          ]
+        }
+      },
+      {
+        "titel": "3 %-bonificatie verwachten in VenB",
+        "verkeerde_assumptie": "Ook vennootschappen kunnen 3 %-bonificatie krijgen op surplus VA.",
+        "kernpunt": "De 3 %-bonificatie (art. 161 WIB92) geldt ENKEL voor PB — niet voor VenB. Vennootschappen kunnen alleen vermeerdering vermijden via VA; surplus wordt teruggestort maar zonder bonus. Stagiair die deze regels door elkaar haalt verliest punten op VenB-vs-PB-vragen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 161", "context": "Bonificatie enkel PB" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 218", "context": "VenB-vermeerdering — geen bonificatie-paragraaf" }
+          ]
+        }
+      },
+      {
+        "titel": "Startup-vrijstelling generaliseren",
+        "verkeerde_assumptie": "Alle vennootschappen krijgen vrijstelling van vermeerdering in eerste 3 boekjaren.",
+        "kernpunt": "Art. 218 §2 beperkt de vrijstelling tot 'kleine vennootschap' in de zin van art. 1:24 WVV. Een grote vennootschap (omzet > 11,25 M of balanstotaal > 6 M of personeel > 50) krijgt geen vrijstelling, ook niet in haar eerste boekjaren. Net zo voor PB-zelfstandigen: vrijstelling vermeerdering eerste 2 jaar is gekoppeld aan 'eerste vestiging als zelfstandige' (art. 164) — niet aan 'eerste jaar in een nieuwe activiteit' voor een bestaande zelfstandige.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 218 §2", "context": "Kleine-vennootschap-voorwaarde" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 164", "context": "Eerste vestiging zelfstandige" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Spreidings-strategie VA",
+        "opties": [
+          {
+            "keuze": "Evenredige spreiding (25 % per kwartaal)",
+            "voordeel": "Stabiele cashflow, eenvoudig te plannen, mentale comfort",
+            "nadeel": "Niet optimaal vanuit bonificatie-oogpunt (lagere bonificaties in latere kwartalen)"
+          },
+          {
+            "keuze": "Front-loading (groter aandeel VA1)",
+            "voordeel": "Hoogste totale bonificatie → vermeerdering volledig vermeden + (PB) maximum 3 %-bonificatie",
+            "nadeel": "Vroege cashflow-druk, vereist liquiditeit in april"
+          },
+          {
+            "keuze": "Geen VA + accepteer vermeerdering",
+            "voordeel": "Cashflow vrijwaring tot aanslag (12-18 maanden later)",
+            "nadeel": "Vermeerdering kan oplopen tot 7-9 % van belasting in hoge-rente-jaren — duur"
+          }
+        ],
+        "vuistregel": "Bij hoge rente (≥ 5 %): front-loading meestal kosteneffectief. Bij lage rente (< 2 %): evenredige spreiding voldoende. Bij cashflow-onzekerheid: minimaal VA1 om basis-bonificatie te verzekeren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 175" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Advies-praktijk VA-planning" }
+          ]
+        }
       }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "kantoor-va-planning",
+      "naam": {
+        "primair": "Eigen kantoor — VA-planning + monitoring"
+      },
+      "intro": "De accountant die voor cliënten (zelfstandigen + vennootschappen) jaarlijks de VA-planning maakt en de kwartaalbetalingen opvolgt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "geprojecteerd-resultaat-q1",
+              "naam": {
+                "primair": "Geprojecteerd resultaat berekenen (Q1)"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Begin februari-maart van het inkomstenjaar: per cliënt een geprojecteerd jaarresultaat berekenen op basis van (a) vorig-jaar-resultaat × verwachte groei, (b) effectief Q4 vorig jaar als indicator, (c) bekende afwijkende factoren (grote investering, nieuwe klant, contract verloren). Op basis daarvan: simuleer de verwachte VenB of PB. Hieruit afgeleid: totaal VA-doel. Communiceer met cliënt vóór VA1-deadline (10 april).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk VA-planning" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "spreidings-advies",
+              "naam": {
+                "primair": "Spreidings-advies per cliënt-archetype"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per cliënt-profiel een spreidings-strategie adviseren: (a) cliënt met stabiele cashflow + hoge winst → front-load VA1 (maximum bonificatie); (b) cliënt met seizoenale cashflow (bv. landbouw, toerisme) → laat VA's volgen op grote inkomsten-momenten (eventueel grotere VA3-VA4); (c) cliënt met cashflow-spanning → minimaal VA1 + accepteer beperkte vermeerdering om liquiditeit te vrijwaren. Documenteer advies in cliëntdossier; bewaak kwartaaldeadlines via interne planning (Outlook-herinneringen of dossier-tracker).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Advies-praktijk maatwerk VA" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "kwartaal-monitoring",
+              "naam": {
+                "primair": "Kwartaal-monitoring + bijsturing"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per kwartaal: voor elke VA-pliciate cliënt een herinnering 1 week vóór deadline (10-en-20-dagen-regel zodat overschrijving op tijd toekomt — banken hebben transferdelay). Na betaling: bevestig met cliënt, registreer in dossier. Bij grote afwijking van geprojecteerd resultaat (verloren contract, verrassend grote winst): bijsturing van resterende VA's adviseren — proactief, niet reactief op aanslagbiljet.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard-monitoring-flow" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-conform-cbn",
+              "naam": {
+                "primair": "Boekhoudkundige verwerking VA conform CBN 2018/14"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor vennootschap-cliënten: VA boeken op 416 'Voorafbetalingen op belastingen' (of 418) bij betaling. Bij jaarafsluiting: herclassificatie naar winstbelasting-rubriek + tegenrekening 451 belastingschuld of 416 belastingvordering naargelang netto-saldo. Conform CBN-advies 2018/14. Dit zorgt voor correcte presentatie in jaarrekening: brutowinstbelasting in resultatenrekening, restschuld of vordering correct op balans.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "cbn", "naam": "CBN-advies 2018/14", "ref": "Voorafbetalingen — boekhoudkundige behandeling" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
-      "target": "personenbelasting"
+      "target": "personenbelasting",
+      "toelichting": "VA-mechanisme onder PB (art. 157-177 WIB92)."
     },
     {
       "type": "valt_onder",
-      "target": "vennootschapsbelasting"
+      "target": "vennootschapsbelasting",
+      "toelichting": "VA-mechanisme onder VenB (art. 218 WIB92 — analoog mechanisme)."
     },
     {
       "type": "vereist",
-      "target": "belastingberekening-pb"
+      "target": "belastingberekening-pb",
+      "toelichting": "VA worden in stap 7 (PB) en bewerking 8/voorheffingen (VenB) verrekend met de verschuldigde belasting."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "bedrijfsvoorheffing",
+      "gelijkenissen": [
+        "Beide zijn 'vooruitbetalingen' aan FOD Financiën",
+        "Beide worden verrekend met de uiteindelijke aanslag",
+        "Beide hebben doel om jaarlijkse belasting-schuld gespreid te innen"
+      ],
+      "verschillen": [
+        "BV = INHOUDING AAN BRON door werkgever (verplicht, automatisch); VA = VRIJWILLIGE storting door belastingplichtige zelf",
+        "BV geldt op lonen + pensioenen + werkloosheid; VA geldt op winst/baten + bedrijfsleidersbezoldigingen zonder BV + vennootschapswinst",
+        "BV-bedragen volgen schalen vastgelegd in KB; VA-bedragen zijn vrij gekozen door belastingplichtige (mits binnen begrenzingen)",
+        "BV kent geen bonificatie-systeem; VA kent kwartaal-bonificaties + (PB) 3 %-bonificatie"
+      ],
+      "verwarring_risico": "Stagiair die BV en VA verwart bij advies: 'doe een VA bovenop het loon' kan onnodig zijn als BV al voldoende is — of omgekeerd, een zelfstandige denkt dat BV op zijn bezoldiging volstaat zonder VA op zijn winst.",
+      "render_hint": "als_glossarium"
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "verlaagd-tarief-kleine-vennootschap",
+      "toelichting": "Minimumbezoldigingsvoorwaarde voor KMO-tarief (art. 215 §3) verbindt VenB-VA met bezoldigingsbeleid bedrijfsleider."
     }
   ]
 }
