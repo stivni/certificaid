@@ -2,21 +2,15 @@
   "id": "full-costing",
   "naam": {
     "primair": "Full costing (volledige kostencalculatie)",
-    "synoniemen": [
-      "absorptie-methode",
-      "full absorption costing"
-    ]
+    "synoniemen": ["absorptie-methode", "full absorption costing", "volledige kostencalculatie"],
+    "vertaling": {"fr": "méthode du coût complet"}
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "1.8.III.A"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["1.8.III.A"],
     "scope": {
       "in": [
         "Absorptie-methode — alle kosten (fixed + variabele) toegerekend aan kostprijs",
@@ -25,54 +19,201 @@
         "Onderbenutting van capaciteit (idle capacity → expense in periode)"
       ],
       "out": [
-        {
-          "topic": "Kostprijsmethoden Σ-keuze-kader",
-          "richting": "moet-verwijzen",
-          "ref": "kostprijsmethoden"
-        },
-        {
-          "topic": "Analytische boekhouding (parent)",
-          "richting": "mag-verwijzen",
-          "ref": "analytische-boekhouding"
-        }
+        {"topic": "Kostprijsmethoden Σ-keuze-kader", "richting": "moet-verwijzen", "ref": "kostprijsmethoden"},
+        {"topic": "Analytische boekhouding (parent)", "richting": "mag-verwijzen", "ref": "analytische-boekhouding"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-management-accounting-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/full-costing.json",
+      "primary_bronnen": ["IAS 2 — Voorraden (Verordening EU 2023/1803)"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T13:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-management-accounting-2026-05-28", "wijziging": "Inhoud gevuld vanuit standaard management-accounting-leer + IAS 2-voorraadprincipe (geciteerd via bundle-chunk)."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Full costing (volledige kostencalculatie of absorptie-methode) is de kostprijsmethode waarbij alle productiekosten — zowel variabele als vaste — worden toegerekend aan het product. Variabele kosten (grondstof, productie-arbeid, energie) gaan rechtstreeks naar het product; vaste productiekosten (huur fabriek, afschrijving productie-uitrusting, salaris werkleider) worden via een toerekeningssleutel (cost-driver: machine-uren, arbeidsuren, productie-eenheden) verdeeld over de productie van de periode. Resultaat: één integrale kostprijs per eenheid die de volledige kost van produceren weerspiegelt.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.10-15 — voorraden gewaardeerd inclusief vaste productie-overhead", "context": "Wettelijk principe waardering voorraden"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair: full costing is 'wat de jaarrekening doet'. Wanneer een product op voorraad ligt op 31 december, draagt het zijn aandeel in de vaste productiekosten met zich mee in de balans — die kosten worden pas resultaat-effectief bij verkoop. Dit is wettelijk vereist onder zowel B-GAAP (KB W.Venn.) als IAS 2 (IFRS). Daardoor is full costing niet alleen een management-keuze, maar voor stockwaardering ook een verplichting. Het management gebruikt full costing daarbij voor langetermijn-prijszetting: een verkoopprijs onder de full cost dekt de vaste kosten niet en is onhoudbaar over een volle conjunctuurcyclus.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wetgever vraagt full costing voor stockwaardering omdat een product op voorraad 'gemaakt' is met behulp van vaste productiemiddelen — het zou een verkeerd beeld geven om de afschrijving op de productiehal volledig in resultaat te boeken in het jaar van productie en niet in het jaar van verkoop. Het matching-principe (kosten matchen met de opbrengsten die ze genereren) vereist dat productiekosten — vast én variabel — in de stockwaardering blijven tot verkoop.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.10 + matching-principle"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["kostprijsmethoden", "analytische-boekhouding"],
+      "kader": "kostprijsmethoden",
+      "naast_relevant": ["direct-costing"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Stockwaardering in de jaarrekening (verplicht onder B-GAAP en IAS 2) · langetermijn-prijszetting · winstmarge-analyse per product · interne benchmarking tussen vestigingen of perioden.",
+          "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Korte-termijn beslissingen waarbij vaste kosten onvermijdelijk zijn (extra order accepteren, make-or-buy in bestaande capaciteit). In die context misleidt full costing — gebruik direct costing.",
+          "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "stappen-toerekening",
+        "naam": {"primair": "Toerekeningsstappen — directe → indirecte kosten"},
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Stap 1 — directe variabele kosten rechtstreeks aan het kostenobject toerekenen (grondstof, productie-arbeid). Stap 2 — directe vaste kosten (machine specifiek voor één product) eveneens rechtstreeks toerekenen. Stap 3 — indirecte productiekosten (huur fabriek, kaderloon werkleider, afschrijving CNC die meerdere producten bedient) bundelen in cost-pools per afdeling of activity. Stap 4 — elke cost-pool via een cost-driver (machine-uren, directe arbeidsuren, productie-eenheden) verdelen over de kostenobjecten. Stap 5 — niet-productiekosten (verkoop, administratie, financieel) NIET in de productkost meenemen — die zijn periodekosten (KB W.Venn. + IAS 2 sluiten deze uit van voorraadwaardering).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.10-19", "context": "Voorraadkost = aankoopkost + omzettingskost; verkoopkost is periode-kost"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "idle-capacity",
+        "naam": {"primair": "Onderbenutting van capaciteit — idle capacity expense"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer de werkelijke productie onder de normale capaciteit ligt (gepland productieniveau bij normale bezetting), mag de vaste productiekost niet volledig over de werkelijk geproduceerde eenheden worden uitgesmeerd — dat zou de eenheidskost kunstmatig opblazen. IAS 2.13 vereist dat de niet-toegerekende vaste overhead direct als periodekost (idle capacity expense) wordt geboekt. Concreet: vaste overhead 100.000 EUR voor normale productie van 1.000 eenheden = 100 EUR/eenheid normkost. Bij werkelijke productie van 700 eenheden: alleen 70.000 EUR in stockwaardering, 30.000 EUR direct als periodekost (verlies door onderbenutting).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.13", "context": "'Niet-toegerekend vaste overhead wordt opgenomen als kost in de periode waarin ze worden gemaakt'"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "productie-vs-periode-kosten",
+        "naam": {"primair": "Productie- versus periodekosten"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Productiekosten (in stockwaardering): grondstoffen, productie-arbeid, fabriekshuur, afschrijving productiemiddelen, kwaliteitscontrole, productie-toezicht, productie-energie. Periodekosten (direct in resultaat): verkoopcommissies, administratiekantoor, marketing, financiële kosten, R&D (tenzij gekapitaliseerd onder IAS 38). Bij onduidelijke kosten (huurkost gebouw met productie + administratie): toerekening pro rata vloeroppervlak of FTE.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.16 — uitgesloten kosten"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-full-costing-zelena",
+        "titel": "Zelena Bio NV — full costing met idle capacity",
+        "context": "Zelena Bio plant 1.000 tafels per maand (normale capaciteit). Variabele productiekost: 250 EUR/tafel. Vaste productiekost: 100.000 EUR/maand (huur, afschrijving, kaderloon). In maart werkelijk 700 tafels geproduceerd.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.13"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+        "weergaven": [
+          {
+            "type": "berekening",
+            "titel": "Stockwaardering full costing met idle capacity",
+            "stappen": [
+              "Normale vaste overhead per tafel = 100.000 / 1.000 = 100 EUR (normkost)",
+              "Full cost per tafel (normaal) = 250 (variabel) + 100 (vast) = 350 EUR",
+              "Werkelijke productie maart = 700 tafels",
+              "Vaste overhead in stockwaardering = 700 × 100 = 70.000 EUR",
+              "Niet-toegerekende vaste overhead (idle capacity) = 100.000 − 70.000 = 30.000 EUR → direct als periodekost",
+              "Stockwaardering totaal: 700 × 350 = 245.000 EUR (175.000 variabel + 70.000 toegerekende vaste overhead)"
+            ],
+            "resultaat": "30.000 EUR verschijnt als 'verlies door onderbenutting' in resultatenrekening, los van de verkoopwinst op de tafels."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking idle capacity expense",
+            "rijen": [
+              {"rekening": "640 — Andere bedrijfskosten (idle capacity)", "debet": 30000, "credit": null},
+              {"rekening": "32 — Voorraad afgewerkte producten", "debet": 245000, "credit": null},
+              {"rekening": "Diverse productiekosten (klasse 60-62)", "debet": null, "credit": 275000, "omschrijving": "Totaal werkelijk gemaakte kosten"}
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vaste overhead 'gewoon' delen door werkelijke productie",
+        "verkeerde_assumptie": "Vaste kost van de maand / aantal geproduceerd = kostprijs.",
+        "kernpunt": "Bij onderbenutting (werkelijke productie < normale capaciteit) mag de vaste overhead alleen pro-rata-normaal in de stockwaardering. Het surplus (idle capacity) is een periode-verlies. IAS 2.13 schrijft dit expliciet voor. Anders verberg je structurele onderbenutting in opgepompte stockwaarden.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.13"}]}
+      },
+      {
+        "titel": "Verkoopkosten in productkost meenemen",
+        "verkeerde_assumptie": "Alle kosten van de onderneming verdelen over de producten — ook administratie en verkoop.",
+        "kernpunt": "Alleen productiekosten gaan in de stockwaardering. Verkoop, administratie en financiële kosten zijn periodekosten — direct in resultaat van de periode waarin ze gemaakt worden. Dit volgt direct uit IAS 2.16 én KB W.Venn.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.16"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "kostprijsmethoden"
+      "id": "audit-stockwaardering",
+      "naam": {"primair": "Audit van stockwaardering"},
+      "intro": "De auditor controleert dat de stock correct full-costing-gewaardeerd is.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "controle-idle-capacity",
+              "naam": {"primair": "Controle op idle capacity expense"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij sterke productie-daling (>15% onder normale capaciteit): nagaan of de cliente vaste overhead pro-rata-werkelijk in stockwaardering heeft gestoken (verkeerd) of pro-rata-normaal (correct, IAS 2.13). Bij verkeerde toerekening: stockwaardering opwaarts vertekend, resultaat opwaarts vertekend. Materialiteit-risico hoog bij sterk-conjunctuurgevoelige industrieën.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "richtlijn", "naam": "Verordening (EU) 2023/1803 — geconsolideerde IFRS", "ref": "IAS 2.13"}, {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "kostprijsmethoden"},
+    {"type": "vergelijkbaar_met", "target": "direct-costing", "gelijkenissen": ["Beide rekenen variabele productiekosten toe aan het product", "Beide vereisen een onderscheid tussen productiekosten en niet-productiekosten"], "verschillen": ["Full costing rekent vaste productiekosten ook toe aan productkost; direct costing behandelt vaste productiekosten als periodekost", "Full costing is verplicht voor jaarrekening-stockwaardering; direct costing is interne management-keuze", "Bij voorraadwijziging geeft full costing en direct costing verschillende resultaten in dezelfde periode"], "verwarring_risico": "Studenten denken dat de keuze 'full vs direct' een vrije keuze is — voor de jaarrekening is dat niet zo. Voor stockwaardering is full costing wettelijk verplicht.", "render_hint": "als_keuze"}
   ]
 }
