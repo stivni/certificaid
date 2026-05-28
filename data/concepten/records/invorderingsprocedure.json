@@ -2,24 +2,28 @@
   "id": "invorderingsprocedure",
   "naam": {
     "primair": "Invorderingsprocedure",
-    "synoniemen": [
-      "invorderingsprocedure-fiscaal"
-    ]
+    "synoniemen": ["fiscale invordering", "gedwongen invordering"],
+    "vertaling": { "fr": "procédure de recouvrement" }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis"
-    ],
-    "ankers": [
-      "2.5.VII"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis"],
+    "ankers": ["2.5.VII"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/invorderingsprocedure.json",
+      "primary_bronnen": [
+        "Wetboek minnelijke en gedwongen invordering (Wb.Inv.) art. 15 e.v.",
+        "WIB92 art. 409-410 (schorsing invordering bij bezwaar)",
+        "WIB92 art. 442bis (hoofdelijkheid bestuurders)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -28,6 +32,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:20:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle (Wetboek Invordering + WIB92 art. 409-410)."
       }
     ],
     "scope": {
@@ -39,40 +50,217 @@
         "Rename uit: invorderingsprocedure-fiscaal (PO 2.5)"
       ],
       "out": [
-        {
-          "topic": "Aanslag-cyclus als grondslag (inkohiering)",
-          "richting": "moet-verwijzen",
-          "ref": "aanslag-cyclus"
-        },
-        {
-          "topic": "Sancties bij niet-betaling",
-          "richting": "mag-verwijzen",
-          "ref": "fiscale-sancties"
-        }
+        { "topic": "Aanslag-cyclus als grondslag (inkohiering)", "richting": "moet-verwijzen", "ref": "aanslag-cyclus" },
+        { "topic": "Sancties bij niet-betaling", "richting": "mag-verwijzen", "ref": "fiscale-sancties" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "De invorderingsprocedure is het geheel van wettelijke stappen waarmee de ontvanger van de fiscus de inning van een onbetaalde belastingschuld afdwingt. Sinds 2019 gegroepeerd in het Wetboek van de minnelijke en gedwongen invordering van fiscale en niet-fiscale schuldvorderingen (Wb.Inv.). De cascade: (1) minnelijke invordering (betalingsherinnering); (2) dwangbevel uitgevaardigd door de bevoegde ambtenaar; (3) bewarend en uitvoerend beslag; (4) gerechtelijke uitwinning (openbare verkoop, ...).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "art. 15 + Titel 3" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De accountant moet het verschil kennen tussen vestigings-procedure (taxatie/bezwaar — de belastingschuld vastleggen) en invordering-procedure (de schuld innen). Een lopend bezwaar schorst NIET automatisch de invordering: het onbetwist gedeelte blijft onmiddellijk eisbaar; voor het betwiste deel kan de ontvanger bewarend beslag leggen (art. 410 WIB92). Praktijk: bij grote betwiste aanslagen adviseert men cliënten te betalen onder voorbehoud, zodat er geen beslag-actie tegen hen loopt tijdens de procedure.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 409-410" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel betalen onder voorbehoud" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio is dubbel: enerzijds zorgen dat de overheid haar inkomsten effectief int (zonder kasstroom geen functionerende staat), anderzijds waarborgen bieden aan de belastingplichtige (bezwaar moet zinvol blijven). De compromis-formule: 'onbetwist verschuldigd gedeelte' blijft eisbaar; voor het betwiste deel mag bewarend beslag, niet uitvoerend. De voorrechten van de schatkist (algemeen voorrecht op roerend, hypothecair voorrecht op onroerend) waarborgen dat de fiscus voorrang heeft bij samenloop van schuldeisers.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Ratio legis-synthese invordering vs bezwaar-waarborg" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["aanslag-cyclus"],
+      "kader": "fiscale-procedure",
+      "naast_relevant": ["bezwaarprocedure", "fiscale-sancties"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Wetboek minnelijke en gedwongen invordering (in werking 1 januari 2020) + WIB92 art. 409-410",
+        "toelichting": "Het Wb.Inv. vervangt de oude regels uit het WIB92 en de wet van 1994. Centralisatie van invorderingsregels voor PB, VenB, BTW, douane, accijnzen + niet-fiscale schulden."
+      },
+      "trigger_start": [
+        {
+          "tekst": "Niet-betaling van de aanslag binnen de wettelijke termijn (2 maanden vanaf verzending aanslagbiljet) start de invorderingsprocedure.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 413" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "stap-1-herinnering",
+        "naam": { "primair": "Stap 1 — Minnelijke invordering" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Betalingsherinnering(en) door de ontvanger. Vaak ook telefonisch contact. Mogelijkheid om een afbetalingsplan af te spreken (typisch tot 24 maanden voor PB; soms langer met bijkomende waarborgen). Geen kosten — informele fase.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "Titel 2 — minnelijke invordering" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk afbetalingsplan" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-2-dwangbevel",
+        "naam": { "primair": "Stap 2 — Dwangbevel" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien minnelijke fase mislukt: de ontvanger vaardigt een dwangbevel uit (geviseerd en uitvoerbaar verklaard). Het dwangbevel wordt betekend door een gerechtsdeurwaardersexploot of bij aangetekende brief. Het is een uitvoerbare titel — dezelfde kracht als een vonnis voor de inning.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "art. 13 + Titel 3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-3-beslag",
+        "naam": { "primair": "Stap 3 — Beslag" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Op grond van het dwangbevel kan de ontvanger beslag leggen: bewarend (om het vermogen 'vast te houden') of uitvoerend (om het te verkopen). Soorten: roerend beslag (kantoor- of huisinhoud), beslag onder derden (loon, bankrekening), beslag op onroerend goed met hypothecaire inschrijving. Beslag op loon respecteert de beslagvrije voet.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "Titel 3 — gedwongen invordering" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "stap-4-uitwinning",
+        "naam": { "primair": "Stap 4 — Uitwinning" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Slotfase: openbare verkoop van in beslag genomen goederen, inning van loonbeslag, opzeg van bankgaranties. De opbrengst wordt aangewend op de schuld in volgorde: kosten · nalatigheidsinteresten · boetes · belasting (art. 57 Brusselse Codex; analoog federaal).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Brusselse Codex Fiscale Procedure", "ref": "art. 57" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voorrechten-thesaurie",
+        "naam": { "primair": "Voorrechten van de schatkist" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De fiscus heeft een algemeen voorrecht op alle roerende goederen van de belastingplichtige en een hypothecair voorrecht op onroerende goederen voor de inkomstenbelasting (art. 422-425 WIB92). Dit geeft de fiscus voorrang bij samenloop met andere schuldeisers (bv. bij faillissement) — beperkt door wettelijke rangorde (loon van werknemers, sociale zekerheid, fiscus, ...).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 422-425" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hoofdelijkheid-bestuurders",
+        "naam": { "primair": "Hoofdelijkheid bestuurders (art. 442bis)" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Bestuurders en feitelijke leidinggevenden van een vennootschap kunnen hoofdelijk aansprakelijk gesteld worden voor onbetaalde bedrijfsvoorheffing en BTW wanneer de niet-betaling toe te schrijven is aan een fout van de bestuurder (kennelijk grove fout). Dit doorbreekt het schermend karakter van de rechtspersoon. Voorzichtig: groot risico bij vennootschappen in moeilijkheden.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 442bis" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "schorsing-bij-bezwaar",
+        "naam": { "primair": "Schorsing van invordering bij bezwaar" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bezwaar schorst de invordering NIET automatisch. Onbetwist verschuldigd gedeelte blijft onmiddellijk opeisbaar (art. 409 WIB92). Voor het betwiste deel: bewarend beslag is toegelaten, uitvoerend beslag in beginsel niet (art. 410 WIB92). De ontvanger kan een uitzondering bekomen via gerechtelijke procedure.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 409-410" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bezwaar = geen vrijbrief om niet te betalen",
+        "verkeerde_assumptie": "Tijdens een lopend bezwaar mag de cliënt rustig wachten met betalen.",
+        "kernpunt": "Onbetwist deel blijft eisbaar. Betwist deel kan bewarend beslag opleveren — wat zelfs zonder verkoop al schadelijk is voor de bedrijfsvoering (geblokkeerde rekeningen, hypotheek-inschrijvingen op kavels). Advies: bij grote bedragen betalen onder voorbehoud.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 409-410" }
+          ]
+        }
+      },
+      {
+        "titel": "Hoofdelijkheid bestuurder = niet zomaar te ontwijken via rechtspersoon",
+        "verkeerde_assumptie": "Als de vennootschap failliet gaat, is de bestuurder veilig voor de fiscale schulden.",
+        "kernpunt": "Art. 442bis (PB/BV) doorbreekt het rechtspersoonschild bij bedrijfsvoorheffing en BTW wanneer de niet-betaling te wijten is aan een fout. Bestuurder wordt persoonlijk en hoofdelijk aangesproken. Vooral relevant in zware financiële stress.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 442bis" }
+          ]
+        }
+      },
+      {
+        "titel": "Verjaring kan worden gestuit",
+        "verkeerde_assumptie": "Na 5 jaar zonder actie is de fiscale schuld verjaard, ook al heeft de fiscus reeds dwangbevel uitgevaardigd.",
+        "kernpunt": "Verjaring is 5 jaar (art. 23 Wb.Inv.) MAAR wordt gestuit door elke vervolgingshandeling (dwangbevel, beslag, kennisgeving). Na elke stuiting begint de termijn opnieuw. In de praktijk verjaart een actief opgevolgd dossier nooit.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wetboek minnelijke en gedwongen invordering", "ref": "art. 23-24" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
-    }
+    { "type": "valt_onder", "target": "fiscale-procedure" }
   ]
 }
