@@ -3,14 +3,18 @@
   "naam": {
     "primair": "BTW — Dienstverlening",
     "synoniemen": [
-      "dienstprestatie",
-      "supply of services"
-    ]
+      "btw-dienst",
+      "dienstverrichting btw",
+      "prestation de services"
+    ],
+    "vertaling": {
+      "fr": "prestation de services"
+    }
   },
-  "concept_type": "kader",
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis",
       "regeling"
@@ -19,9 +23,19 @@
       "2.4.I"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/btw-dienstverlening.json",
+      "primary_bronnen": [
+        "W.BTW art. 18",
+        "W.BTW art. 19 (gelijkstellingen)",
+        "W.BTW art. 22 (tijdstip)",
+        "Richtlijn 2006/112/EG art. 24-29"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,6 +44,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:30:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "BTW-dienstverlening gevuld vanuit W.BTW art. 18-19-22 + Richtlijn 2006/112 art. 24-29."
       }
     ],
     "scope": {
@@ -61,19 +82,370 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-dienstverlening).",
+        "tekst": "Een dienstverrichting in de zin van het W.BTW is elke handeling die geen levering van goederen is (art. 18, §1 W.BTW — restdefinitie). Concreet: arbeidsprestaties, intellectuele prestaties, overdracht of vestiging van rechten, verhuur, vervoer, bewaring, advies, telecommunicatie, elektronische diensten, werken in onroerende staat, cateringdiensten. De definitie is bewust ruim en negatief geformuleerd om alle economisch waardevolle handelingen te dekken die niet leiden tot overdracht van een lichamelijk goed.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 18, §1"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 24"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Diensten verschillen op drie cruciale punten van leveringen: (1) plaats van handeling — art. 21 hanteert het 'bestemmingslandbeginsel' (B2B: plaats van afnemer; B2C: plaats van dienstverrichter, met talrijke uitzonderingen voor onroerende, vervoer-, restaurant-, evenement- en elektronische diensten); (2) opeisbaarheid — art. 22 W.BTW: btw wordt opeisbaar zodra de dienst is voltooid of zodra de prijs vooraf wordt geïncasseerd, niet bij ter-beschikkingstelling van een goed; (3) bij grensoverschrijdende B2B-diensten geldt de verleggingsregeling (medecontractant betaalt btw in zijn eigen land) — een fundamenteel verschil met intracommunautaire goederenleveringen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 18 + art. 21 + art. 22 + art. 51, §2, 1°"
+            },
+            {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Door dienst negatief te definiëren als restcategorie zorgt het W.BTW dat geen enkele economische handeling onbelast blijft door definitie-mazen: elk wat geen levering is en geen vrijstelling geniet, is per definitie een belastbare dienst. Dit principe van 'algemene heffing op verbruik' staat centraal in Richtlijn 2006/112/EG. De gelijkstellingen in art. 19 sluiten — naar analogie met art. 12 voor leveringen — privégebruik en gratis diensten in om btw-neutraliteit te waarborgen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 1 + art. 24-26"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 19"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
               "datum": "2026-05-28"
             }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "btw",
+        "btw-belastingplichtige"
+      ],
+      "kader": "btw",
+      "naast_relevant": [
+        "btw-levering-goederen"
+      ],
+      "volgkennis": [
+        "plaats-van-handeling-btw",
+        "opeisbaarheid-btw"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Alle prestaties van belastingplichtigen die geen overdracht van een lichamelijk goed inhouden: advies, audit, accountancy, juridische dienstverlening, IT-ontwikkeling, hosting, SaaS, design, marketing, verhuur (al dan niet vrijgesteld), transport, bewaring, onderaanneming, bouwwerken (werk in onroerende staat), restaurant, hotelovernachting, cultuur- en sportprestaties.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 18, §1 + §2"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Loonprestaties van een werknemer voor zijn werkgever (geen zelfstandigheid — geen belastingplichtige in de zin van art. 4 W.BTW) en handelingen die het W.BTW expliciet vrijstelt (art. 44: medisch, onderwijs, sociaal, financieel, verzekering, art. 41-42: internationaal vervoer).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 4 + art. 41-44"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij grensoverschrijdende B2B-diensten ligt de plaats van handeling bij de afnemer (art. 21, §2) — Belgische dienstverrichter factureert dan zonder btw met vermelding 'btw verlegd' (art. 51, §2, 1°). Wanneer de accountant deze regel mist en wel btw aanrekent, moet hij die btw afdragen aan de Belgische Schatkist (art. 51, §1, 3°) terwijl de afnemer ze niet kan recupereren — dubbele belasting.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 21, §2 + art. 51"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "gewone-dienst-art-18",
+        "naam": {
+          "primair": "Gewone dienstverrichting — art. 18 W.BTW"
+        },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Art. 18, §1 W.BTW: dienst = elke handeling die geen levering van een goed is. Art. 18, §1, tweede lid noemt een niet-limitatieve lijst voorbeelden: materieel of intellectueel werk (incl. werk in onroerende staat als aannemingscontract), overdracht of vestiging van een onlichamelijk goed (rechten, octrooien, licenties), verbintenis om iets niet te doen of een handeling te dulden, voltooiing van een dienst ingevolge vordering van overheid, ter beschikking stellen van personeel.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 18, §1"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "gelijkstellingen-art-19",
+        "naam": {
+          "primair": "Gelijkstellingen met dienst — art. 19 W.BTW"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Art. 19 W.BTW stelt bepaalde situaties met dienstverrichting onder bezwarende titel gelijk om btw-neutraliteit te bewaren bij privégebruik van bedrijfsgoederen en bij gratis diensten — spiegelbeeld van art. 12 voor leveringen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 19"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "art-19-tabel",
+              "naam": {
+                "primair": "Gelijkstellingen art. 19 W.BTW"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Twee categorieën gelijkstellingen.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 19"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": [
+                    "Gelijkstelling",
+                    "Voorbeeld",
+                    "Maatstaf van heffing"
+                  ],
+                  "rijen": [
+                    [
+                      "Privégebruik bedrijfsgoed (art. 19, §1)",
+                      "Zaakvoerder gebruikt bedrijfswagen 30 % privé",
+                      "Pro-rata bedrag van de gemaakte kosten (afschrijving + werking)"
+                    ],
+                    [
+                      "Gratis dienst voor andere doeleinden dan economische activiteit (art. 19, §2)",
+                      "Aannemer doet gratis renovatie voor familielid",
+                      "Gemaakte kosten voor het verrichten van de dienst"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "specifieke-dienstcategorieen",
+        "naam": {
+          "primair": "Specifieke dienstcategorieën met eigen plaats-van-handeling-regel"
+        },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Voor bepaalde diensten geldt een specifieke plaats-van-handeling-regel die afwijkt van de B2B/B2C-hoofdregels. Deze regel volgt vaak het 'plaats van werkelijk gebruik'-beginsel.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 21bis + art. 22"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "specifieke-diensten-tabel",
+              "naam": {
+                "primair": "Specifieke dienstcategorieën — plaats van handeling"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Zes specifieke categorieën met eigen plaatsbepaling.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 21bis"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": [
+                    "Dienst-categorie",
+                    "Plaats van handeling",
+                    "Wettelijke basis"
+                  ],
+                  "rijen": [
+                    [
+                      "Onroerende dienst (verhuur, makelaarij, expertise gebouw)",
+                      "Plaats waar het onroerend goed gelegen is",
+                      "Art. 21bis, §2, 1° W.BTW"
+                    ],
+                    [
+                      "Personenvervoer",
+                      "Plaats waar het vervoer fysiek plaatsvindt (pro rata afstand)",
+                      "Art. 21bis, §2, 8° W.BTW"
+                    ],
+                    [
+                      "Goederenvervoer B2C (binnen EU)",
+                      "Plaats van vertrek",
+                      "Art. 21bis, §2, 9°"
+                    ],
+                    [
+                      "Restaurant / catering",
+                      "Plaats waar de dienst materieel wordt verricht",
+                      "Art. 21bis, §2, 11°"
+                    ],
+                    [
+                      "Cultureel / sportief / wetenschappelijk evenement (toegang B2B)",
+                      "Plaats waar het evenement plaatsvindt",
+                      "Art. 21, §3, 3°"
+                    ],
+                    [
+                      "Telecom / radio / TV / elektronische dienst B2C",
+                      "Plaats waar de afnemer gevestigd is (OSS-systeem)",
+                      "Art. 21bis, §2, 9°bis"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Werk in onroerende staat = dienst, niet levering",
+        "verkeerde_assumptie": "Bij een aannemer die materialen levert en plaatst, is het 'leveringsdeel' een levering en het 'plaatsingsdeel' een dienst.",
+        "kernpunt": "Werk in onroerende staat (bouw, renovatie, installatie van keuken/badkamer, schilderwerk) is volledig dienstverrichting in de zin van art. 18, §1, 1° W.BTW — ook al worden materialen in het werk geïntegreerd. Geen splitsing. Belang: verleggingsregeling 'medecontractant' (KB nr. 1 art. 20) is van toepassing bij B2B-werk in onroerende staat tussen Belgische btw-plichtigen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 18, §1, 1°"
+            },
+            {
+              "type": "kb",
+              "naam": "K.B. nr. 1 van 29-12-1992",
+              "ref": "art. 20"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "SaaS en software-downloads zijn diensten",
+        "verkeerde_assumptie": "Wanneer een klant software 'koopt' (download of licentie), is dat een levering van goederen.",
+        "kernpunt": "Software die elektronisch wordt geleverd (download, SaaS, licentie zonder fysieke drager) is een elektronische dienst (art. 18, §1, 2° W.BTW). Plaats van handeling B2C = afnemer-land (OSS-aangifte). Alleen software op fysieke drager (DVD, USB) = levering van goed. Het onderscheid is cruciaal voor de internationale facturatie.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 18 + art. 21bis"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Uitvoeringsverordening (EU) 282/2011",
+              "ref": "art. 7",
+              "context": "Definitie elektronische dienst"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Gratis dienst kan toch btw-belast zijn",
+        "verkeerde_assumptie": "Een dienst zonder factuur of zonder geldelijke vergoeding kan geen btw-handeling zijn.",
+        "kernpunt": "Art. 19, §2 W.BTW stelt een gratis dienst gelijk met een dienst onder bezwarende titel wanneer ze wordt verricht voor andere doeleinden dan de economische activiteit (privé, gratis voor familie). De maatstaf van heffing is dan de gemaakte kosten — niet de marktwaarde.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 19, §2 + art. 33"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
@@ -82,7 +454,20 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "btw-levering-goederen"
+      "target": "btw-levering-goederen",
+      "toelichting": "Dienst (art. 18) is de restcategorie tegenover levering (art. 10). De afbakening bepaalt plaats van handeling, opeisbaarheid en bij grensoverschrijdende handel het regime (verleggingsregeling vs intracommunautaire levering).",
+      "gelijkenissen": [
+        "Beide vereisen een belastingplichtige als uitvoerder",
+        "Beide moeten onder bezwarende titel gebeuren (behoudens gelijkstellingen)",
+        "Beide vallen onder de algemene btw-tarieven"
+      ],
+      "verschillen": [
+        "Dienst = restdefinitie ('alles wat geen levering is'); levering = overdracht macht over lichamelijk goed",
+        "Dienst B2B grensoverschrijdend = verleggingsregeling (afnemer betaalt btw); levering ICL = 0 % bij overdracht",
+        "Tijdstip dienst = voltooiing (art. 22); tijdstip levering = ter-beschikkingstelling (art. 16)",
+        "Bij gemengde prestaties (levering + dienst): hoofdprestatie-regel HvJ-EU Levob"
+      ],
+      "render_hint": "als_keuze"
     }
   ]
 }
