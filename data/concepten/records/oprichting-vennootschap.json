@@ -6,12 +6,15 @@
       "vennootschapsoprichting",
       "incorporation",
       "start-up vennootschap"
-    ]
+    ],
+    "vertaling": {
+      "fr": "constitution d'une société"
+    }
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis",
       "regeling"
@@ -21,8 +24,32 @@
       "3.0.taak.1"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/oprichting-vennootschap.json",
+      "primary_bronnen": [
+        "WVV art. 1:1",
+        "WVV art. 1:5",
+        "WVV art. 1:8",
+        "WVV art. 2:4",
+        "WVV art. 2:7",
+        "WVV art. 2:19",
+        "WVV art. 5:3",
+        "WVV art. 5:4",
+        "WVV art. 5:7",
+        "WVV art. 7:2",
+        "WVV art. 7:7",
+        "WVV art. 7:12",
+        "KB WVV art. 3:36",
+        "KB WVV art. 3:37",
+        "CBN-advies 126/2",
+        "CBN-advies 2010/15",
+        "CBN-advies 2019/07"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -31,15 +58,22 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit kapitaalstructuur-cluster (skelet-doc regel ~822)"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WVV boeken 1+2+5+7, KB WVV art. 3:36-37, CBN 126/2 + 2010/15 + 2019/07). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
       "in": [
         "Tot-stand-komen van een vennootschap als rechtspersoon — keuze vorm + statuten + notariële akte",
-        "Initiële inbreng (in geld of in natura) — modaliteiten · revisorverslag bij natura · min-storting per vorm · volstortingseisen (sub-sectie #initiele-inbreng)",
+        "Initiële inbreng (in geld of in natura) — modaliteiten · revisorverslag bij natura · volstortingseisen (sub-concept #initiele-inbreng)",
         "RPR-inschrijving + bestuursorgaan-aanstelling + btw-identificatie",
-        "Financieel-plan-verplichting bij BV/NV/CV",
-        "Oprichtingskosten — activering vs direct ten laste · CBN-advies · afschrijving (sub-sectie #oprichtingskosten)"
+        "Financieel-plan-verplichting bij BV/NV/CV (cross-ref naar eigen record)",
+        "Oprichtingskosten — activering vs direct ten laste · KB WVV art. 3:36 · afschrijving (sub-concept #oprichtingskosten)"
       ],
       "out": [
         {
@@ -73,70 +107,721 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Oprichting van een vennootschap** is de rechtshandeling waarbij één of meer personen (vennoten) een vennootschap tot stand brengen door een inbreng te doen, met als doel een welbepaalde activiteit uit te oefenen en aan de vennoten een vermogensvoordeel uit te keren. De oprichting krijgt rechtspersoonlijkheid op het ogenblik van de neerlegging van het uittreksel uit de oprichtingsakte bij de griffie van de bevoegde ondernemingsrechtbank (art. 2:6 WVV).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:1", "context": "Vennootschap wordt opgericht bij rechtshandeling door één of meer personen die inbreng doen" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:6", "context": "Verkrijging rechtspersoonlijkheid bij neerlegging uittreksel" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch ontstaat door de oprichting een nieuw rechtssubject met een eigen vermogen, dat juridisch afgescheiden is van het privé-vermogen van de oprichters (bij kapitaalvennootschappen). De oprichters ruilen hun inbreng (geld of natura) tegen aandelen die hun deelname in de winst en in het beslissingsrecht vertegenwoordigen. Vanaf de oprichting kan de vennootschap zelfstandig contracten aangaan, eigendom verwerven en in rechte optreden. De vennootschap krijgt een ondernemingsnummer (KBO), een rechtsvorm-vermelding (BV/NV/CV/...) en een fiscaal regime (vennootschapsbelasting i.p.v. personenbelasting voor de oprichters).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:1" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 1:5", "context": "Rechtspersoonlijkheid kapitaalvennootschappen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van vermogensafscheiding + fiscale impact uit WVV-bepalingen" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het WVV (in werking 1 mei 2019) heeft het oude W.Venn. vervangen en de oprichting van kapitaalvennootschappen ingrijpend hervormd: voor de BV werd het kapitaal-vereiste afgeschaft (kapitaalloos, focus op 'toereikend aanvangsvermogen') terwijl de NV haar minimumkapitaal van €61.500 behoudt (art. 7:2 WVV). De ratio is een vereenvoudigd, flexibeler ondernemingsklimaat met meer aansprakelijkheid bij ontoereikend startvermogen via het financieel plan (art. 5:4 + 7:3 WVV) en de oprichtersaansprakelijkheid (art. 5:16/7:18 WVV — failliet binnen 3 jaar). De notariële akte en het revisorverslag bij inbreng in natura blijven derden-bescherming garanderen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:2", "context": "Minimumkapitaal NV €61.500" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:3", "context": "BV: toereikend aanvangsvermogen (geen kapitaal-vereiste)" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4", "context": "Financieel plan BV" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese WVV-hervorming 2019: BV-kapitaalloos + financieel-plan als bescherming" }
           ]
         }
       }
     },
-    "subconcepten": [
-      {
-        "id": "oprichtingskosten",
-        "naam": {
-          "primair": "Oprichtingskosten"
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "Wet 23-03-2019 (WVV)",
+        "toelichting": "WVV is in werking sinds 1 mei 2019. Bestaande vennootschappen onder het oude W.Venn. moesten zich tegen 1 januari 2024 aanpassen (overgangstermijn). De BV-kapitaalafschaffing geldt voor BV's opgericht vanaf 1 mei 2019 én voor BVBA's die werden omgezet."
+      },
+      "voor": [
+        {
+          "tekst": "Bij **start van een ondernemingsactiviteit** door een natuurlijk persoon of door meerdere personen samen, wanneer beperking van aansprakelijkheid (BV/NV/CV) of fiscale optimalisatie (apart belastingsubject) gewenst is.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-context voor oprichting" }
+            ]
+          }
         },
-        "concept_type": "balanspost",
-        "inhoud": {
-          "kern": {
-            "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — notariskosten · RPR · publicatiekosten · activering (rekening 20) vs direct ten laste · CBN-advies 2011/9 · afschrijving max 5 jaar.",
-              "grondslag": {
-                "confidence": "verondersteld",
-                "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
-                ]
-              }
-            }
+        {
+          "tekst": "Bij **fusie door oprichting** (art. 12:36 WVV) of **splitsing door oprichting** (art. 12:74 WVV) waarbij een nieuwe vennootschap ontstaat als gevolg van een herstructurering. De oprichtingsformaliteiten van de gekozen vorm gelden, op straffe van nietigheid bij authentieke akte.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 12:36" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 12:74" }
+            ]
           }
         }
-      },
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "**Authentieke akte** verplicht bij BV/CV/NV/SE/SCE (art. 2:4 § 1 lid 2 WVV) — op straffe van **nietigheid**. VOF en CommV kunnen onderhands worden opgericht (art. 2:4 § 1 lid 1).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:4, § 1", "context": "Authentieke akte BV/NV/CV; onderhands VOF/CommV" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Inbreng** door elke vennoot — in geld, in natura of in nijverheid (art. 1:8 WVV). Inbreng in nijverheid is uitgesloten bij NV (art. 7:2 WVV: alleen kapitaalinbreng) en bij BV onder voorwaarden toegelaten.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 1:8", "context": "Drie soorten inbreng: geld, natura, nijverheid" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Financieel plan** verplicht bij BV/NV/CV — overhandigd aan de notaris vóór de oprichting, met verantwoording van het aanvangsvermogen over ten minste twee jaar (art. 5:4, 6:5, 7:3 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "advies", "naam": "CBN-advies 2019/12", "ref": "Financieel plan - begroting", "datum": "2019-11-06" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" }
+            ]
+          }
+        }
+      ],
+      "trigger_einde": [
+        {
+          "tekst": "De oprichting is voltrokken bij **neerlegging van het uittreksel** uit de oprichtingsakte bij de griffie van de bevoegde ondernemingsrechtbank (art. 2:6 WVV) — vanaf dat ogenblik bestaat de rechtspersoon. De **inschrijving in de KBO** (Kruispuntbank van Ondernemingen) en de **bekendmaking** in de Bijlagen bij het Belgisch Staatsblad volgen automatisch via de notaris.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:6", "context": "Rechtspersoonlijkheid vanaf neerlegging uittreksel" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:7", "context": "Inhoud uittreksel + neerlegging" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "**Nietigheid van de oprichting** wanneer geen authentieke akte voor BV/NV/CV (art. 2:4 WVV) of wanneer minimum-stortingseisen niet zijn voldaan. Bij vennootschap-in-oprichting (vóór neerlegging) ontstaat **persoonlijke en hoofdelijke aansprakelijkheid** van de oprichters voor verbintenissen aangegaan in naam van de vennootschap (art. 2:2 WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:2", "context": "Vennootschap in oprichting — persoonlijke aansprakelijkheid" },
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 2:4", "context": "Nietigheid zonder authentieke akte" }
+            ]
+          }
+        },
+        {
+          "tekst": "**Oprichtersaansprakelijkheid** bij faillissement binnen drie jaar na de oprichting wanneer het aanvangsvermogen kennelijk ontoereikend was voor de voorgenomen activiteit (art. 5:16 BV / 7:18 NV WVV) — financieel plan dient hier als bewijsmiddel.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 5:16", "context": "Oprichtersaansprakelijkheid BV bij faillissement binnen 3 jaar" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
       {
         "id": "initiele-inbreng",
         "naam": {
-          "primair": "Initiële inbreng bij oprichting"
+          "primair": "Initiële inbreng bij oprichting",
+          "synoniemen": [
+            "kapitaalinbreng",
+            "aanvangsinbreng"
+          ]
         },
         "concept_type": "verrichting",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — modaliteiten (geld/natura) · revisorverslag bij natura · min-storting bij authentieke akte (BV/NV) · volstortings-eisen · cross-relatie naar kapitaalverhoging-in-natura.",
+              "tekst": "De **initiële inbreng** is wat elke oprichter ter beschikking stelt van de vennootschap bij haar oprichting, met het oogmerk vennoot te worden en deel te nemen in de winst (art. 1:8 § 1 WVV). De inbreng kan **in geld** zijn (geldsom), **in natura** (lichamelijk of onlichamelijk goed) of **in nijverheid** (arbeid/diensten — verbintenis). De inbreng gebeurt **in eigendom** (overdracht aan vennootschap) of **in genot** (tijdelijke terbeschikkingstelling) (art. 1:8 § 2-3 WVV).",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "geciteerd",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 1:8", "context": "Soorten inbreng" }
                 ]
               }
+            },
+            "substantie": {
+              "tekst": "De inbreng vormt het **eigen vermogen** (klasse 10-15) van de vennootschap bij oprichting. Bij **NV**: minimumkapitaal **€61.500**, volledig geplaatst en volstort vóór oprichting (art. 7:2 + 7:13 WVV). Bij **BV/CV**: **geen wettelijk minimumkapitaal** sinds WVV 2019 — wel een 'toereikend aanvangsvermogen' verantwoord in het financieel plan (art. 5:3 + 5:4 WVV). Bij inbreng in natura: verplichte **revisorverslag** + bestuurdersverslag (art. 5:7 BV / 7:7 NV WVV), op straffe van nietigheid bij ontbreken.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:2", "context": "NV minimumkapitaal €61.500" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:13", "context": "NV: volledig geplaatst kapitaal vereist" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:3", "context": "BV: toereikend aanvangsvermogen, geen minimumkapitaal" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 5:7", "context": "BV: revisorverslag inbreng in natura" },
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:7", "context": "NV: revisorverslag inbreng in natura" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "minimum-inbreng-historiek-bv-nv",
+              "naam": {
+                "primair": "BV vs NV — minimuminbreng en historiek"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Historisch overzicht minimum-inbreng-vereisten**:\n\n- **NV (Naamloze Vennootschap)** — minimumkapitaal **€61.500** sinds invoering W.Venn. 1999 (vroeger 1.250.000 BEF); ongewijzigd onder WVV 2019. Volledig geplaatst én volstort vóór oprichting (art. 7:13 WVV).\n- **BV (Besloten Vennootschap, sinds WVV 2019)** — **geen minimumkapitaal**. De oude **BVBA** had €18.550 minimumkapitaal (waarvan €6.200 te volstorten); deze BVBA's zijn van rechtswege omgezet naar BV op 1 januari 2020 — art. 39 Wet 23-03-2019 — met het bestaande kapitaal als 'onbeschikbare inbreng' in eigen vermogen.\n- **S-BVBA (Starter)** — bestond tussen 2010 en 2019 met €1 minimumkapitaal en plicht reserve-opbouw; geschrapt door WVV (vervangen door reguliere BV-kapitaalloos).\n- **CV (Coöperatieve Vennootschap)** — geen minimumkapitaal sinds WVV 2019 (was €18.550 voor CVBA onder W.Venn.).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:2", "context": "NV minimumkapitaal €61.500" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:3", "context": "BV geen minimumkapitaal" },
+                      { "type": "wettekst", "naam": "Wet 23-03-2019 invoering WVV", "ref": "art. 39", "context": "Overgangsregeling BVBA → BV" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese historiek WVV-hervorming + BVBA-overgang" }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "vergelijkingstabel",
+                  "titel": "Minimum-inbreng-vereisten per rechtsvorm (huidig + historiek)",
+                  "kolommen": ["Rechtsvorm", "Min. kapitaal (huidig)", "Min. te volstorten", "Historiek", "Wettelijke basis"],
+                  "rijen": [
+                    ["NV", "€61.500", "€61.500 (100%)", "Sinds W.Venn. 1999; behouden in WVV 2019", "art. 7:2 + 7:13 WVV"],
+                    ["BV", "Geen (toereikend vermogen)", "Geen wettelijk minimum", "Voor 1-5-2019: BVBA €18.550 (€6.200 volstort)", "art. 5:3 + 5:4 WVV"],
+                    ["CV", "Geen", "Geen wettelijk minimum", "Voor 1-5-2019: CVBA €18.550", "art. 6:3 + 6:5 WVV"],
+                    ["VOF/CommV", "Geen", "Geen", "Ongewijzigd; onbeperkt aansprakelijke vennoten", "art. 4:1 e.v. WVV"]
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "revisorverslag-natura",
+              "naam": {
+                "primair": "Revisorverslag bij inbreng in natura"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij **inbreng in natura** (lichamelijk of onlichamelijk goed) moeten de oprichters een **bijzonder verslag** opstellen waarin zij (1) uiteenzetten waarom de inbreng van belang is voor de vennootschap, (2) elke inbreng beschrijven, (3) een gemotiveerde waardering geven, (4) aangeven welke vergoeding (aandelen) als tegenprestatie wordt verstrekt. Dit oprichtersverslag wordt in ontwerp aan een door de oprichters aangewezen **bedrijfsrevisor** meegedeeld, die zijn eigen verslag opstelt waarin hij de waardering + waarderingsmethoden onderzoekt en verklaart of waardering en vergoeding 'redelijk' zijn. Beide verslagen worden neergelegd en bekendgemaakt (art. 2:7 + 2:13 WVV). Ontbreken hiervan = **nietigheid** van de oprichtingsakte.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:7", "context": "BV revisorverslag inbreng in natura" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:7", "context": "NV revisorverslag inbreng in natura" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "volstortings-eisen",
+              "naam": {
+                "primair": "Volstortingseisen bij oprichting"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "**NV**: bij oprichting moeten alle aandelen die in geld worden uitgegeven **minstens een vierde** worden volstort (art. 7:13 WVV); aandelen tegen inbreng in natura **volledig** binnen vijf jaar na oprichting (art. 7:14 WVV). **BV**: er is geen wettelijk minimumkapitaal, maar **elk aandeel moet volledig en onvoorwaardelijk geplaatst** zijn (art. 5:8 WVV) — de statuten bepalen of en wanneer aandelen volstort moeten worden. Niet-volstorte inbrengen geven aanleiding tot een **vordering van de vennootschap** op de aandeelhouder (boekhoudkundig: rekening 101 'Niet-opgevraagd kapitaal' tegenover 100 'Geplaatst kapitaal').",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 7:13", "context": "NV: 1/4 volstort bij oprichting" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:8", "context": "BV: volledig geplaatst, volstorting statutair" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "oprichtingskosten",
+        "naam": {
+          "primair": "Oprichtingskosten",
+          "synoniemen": [
+            "kosten van oprichting en kapitaalverhoging",
+            "incorporation costs"
+          ]
+        },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Oprichtingskosten** zijn de kosten verbonden met de oprichting, verdere ontwikkeling of herstructurering van de vennootschap — in het bijzonder de **kosten van oprichting of kapitaalverhoging**, de **kosten bij uitgifte van leningen** en **herstructureringskosten**. Concreet: notariskosten, RPR-registratierechten, publicatiekosten Belgisch Staatsblad, ereloon revisor bij natura-inbreng, advieskosten. Ze worden geboekt onder **rubriek 20 'Oprichtingskosten'** van de balans (immateriële activa) — **voor zover ze niet rechtstreeks ten laste van de resultatenrekening van het lopende boekjaar zijn gebracht** (art. 3:36 KB WVV).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "kb", "naam": "KB 29-04-2019 WVV", "ref": "art. 3:36", "context": "Oprichtingskosten: activering of direct ten laste" },
+                  { "type": "advies", "naam": "CBN-advies 2010/15", "ref": "Oprichtingskosten", "datum": "2010-10-06" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Het is een **boekhoudkundige keuze** van de vennootschap: ofwel **activeren** (rubriek 20) en afschrijven, ofwel **direct ten laste** nemen (klasse 61 'Diensten en diverse goederen' of klasse 64 'Andere bedrijfskosten'). De keuze heeft impact op het resultaat van het oprichtingsboekjaar — activering spreidt de kost; direct ten laste verlaagt het resultaat van jaar 1 maar verhoogt dat van de volgende jaren.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "advies", "naam": "CBN-advies 2019/07", "ref": "Kosten bij uitgifte van leningen", "datum": "2019-07-03", "context": "Vennootschap kan ook beslissen om kosten niet te activeren" },
+                  { "type": "advies", "naam": "CBN-advies 126/2", "ref": "Inbrengprijs", "datum": "1980-01-01", "context": "Belastingen + kosten in verband met inbreng → boeken onder Oprichtingskosten" }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "afschrijving-oprichtingskosten",
+              "naam": {
+                "primair": "Afschrijvings-regel oprichtingskosten"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Afschrijving**: passende afschrijvingen worden geboekt **per jaarlijkse tranches van ten minste 20 %** van de werkelijk uitgegeven bedragen (art. 3:37 KB WVV) — dus maximaal over **5 jaar** lineair, met **jaar 1 = volledige tranche** (geen pro-rata). De afschrijving van **kosten bij uitgifte van leningen** mag gespreid worden over de **looptijd van de lening** (afwijkende regel — economisch matching-principe).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "kb", "naam": "KB 29-04-2019 WVV", "ref": "art. 3:37", "context": "Afschrijving min. 20%/jaar — kosten bij uitgifte leningen over looptijd" },
+                      { "type": "advies", "naam": "CBN-advies 2010/15", "ref": "Oprichtingskosten", "datum": "2010-10-06" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "boekingen-oprichtingskosten",
+              "naam": {
+                "primair": "Boekingsschema oprichtingskosten"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Twee boekhoudkundige scenario's** voor oprichtingskosten:\n\n**Scenario A — Activeren** (rubriek 20):\n```\nD 200 Kosten van oprichting en kapitaalverhoging\n  C 550 Bank (of 489 Andere diverse schulden)\n```\nVervolgens jaarlijks (min. 20 %):\n```\nD 6300 Afschrijvingen op oprichtingskosten\n  C 2009 Geboekte afschrijvingen op oprichtingskosten\n```\n\n**Scenario B — Direct ten laste**:\n```\nD 6132 Erelonen (notaris/revisor/advies) (of 64 Andere bedrijfskosten)\n  C 550 Bank\n```\nGeen activering, geen jaarlijkse afschrijving — volledige impact op resultaat oprichtingsjaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "kb", "naam": "KB 29-04-2019 WVV", "ref": "art. 3:36", "context": "Boekhoudkundige verwerking oprichtingskosten" },
+                      { "type": "advies", "naam": "CBN-advies 2010/15", "ref": "Oprichtingskosten", "datum": "2010-10-06" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Concretisering boekingen klasse 20 / 63 / 61" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "stappenflow-oprichting-bv",
+        "naam": {
+          "primair": "Procedure oprichting BV — stappenflow"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Standaard-flow voor de oprichting van een BV (NV-flow is identiek, behalve minimumkapitaal-storting):\n\n```mermaid\nflowchart TD\n  A[Keuze rechtsvorm + statuten-ontwerp] --> B[Financieel plan opstellen]\n  B --> C{Inbreng?}\n  C -->|Geld| D[Geblokkeerde rekening bank — bewijs storting]\n  C -->|Natura| E[Oprichtersverslag + revisorverslag]\n  D --> F[Notariële akte verlijden]\n  E --> F\n  F --> G[Notaris bezorgt financieel plan + verslagen]\n  G --> H[Neerlegging uittreksel bij griffie ondernemingsrechtbank]\n  H --> I[Inschrijving KBO + ondernemingsnummer]\n  I --> J[BTW-identificatie KB 10 art. 7]\n  J --> K[Bekendmaking Bijlagen Belgisch Staatsblad]\n  K --> L[Vennootschap operationeel]\n```\n\nKritieke termijnen: notariële akte = punt van rechtspersoonlijkheid-verkrijging (bij neerlegging uittreksel — art. 2:6 WVV); BTW-identificatie vóór start activiteit (KB 10 art. 7).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:4-2:7" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4", "context": "Financieel plan voor BV" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 5:7", "context": "Revisorverslag natura" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese praktijk-flow oprichting BV" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "rpr-inschrijving-vermeldingen",
+        "naam": {
+          "primair": "RPR-inschrijving en verplichte vermeldingen"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Na neerlegging van de oprichtingsakte wordt de vennootschap **ingeschreven in het Rechtspersonenregister (RPR)** van het rechtsgebied van haar zetel (deel van de KBO). Alle akten, facturen, websites en stukken uitgaande van de rechtspersoon moeten verplicht vermelden (art. 2:19 WVV): **(1)** naam, **(2)** rechtsvorm (voluit of afgekort), **(3)** zetel, **(4)** ondernemingsnummer, **(5)** 'RPR' gevolgd door de bevoegde rechtbank, **(6)** in voorkomend geval e-mailadres en website, **(7)** in voorkomend geval 'in vereffening'.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:19", "context": "Verplichte vermeldingen op alle stukken" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-identificatie",
+        "naam": {
+          "primair": "BTW-identificatie bij aanvang activiteit"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke nieuwe vennootschap die belastbare handelingen verricht moet zich **vóór de eerste activiteit** identificeren bij de FOD Financiën (BTW-administratie) via een **aangifte van aanvang van activiteit** (formulier 604A — KB nr. 10 art. 7) en krijgt een **BTW-identificatienummer** (BE + ondernemingsnummer). Wijzigingen worden gemeld via 604B; stopzetting via 604C. De aangifte kan via een erkend ondernemingsloket bij de KBO (KB 10 art. 7bis), waardoor de gegevens niet dubbel hoeven worden meegedeeld.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "kb", "naam": "KB nr. 10", "ref": "art. 7", "context": "Aangifte aanvang activiteit BTW" },
+                { "type": "kb", "naam": "KB nr. 10", "ref": "art. 7bis", "context": "Aangifte via ondernemingsloket" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bestuursorgaan-aanstelling",
+        "naam": {
+          "primair": "Aanstelling van het bestuursorgaan"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "De **oprichtingsakte stelt het eerste bestuursorgaan aan**: bij **BV** een of meer **bestuurders** (statutair of niet); bij **NV** keuze tussen monistisch (raad van bestuur) of duaal bestuur (raad van toezicht + directieraad — art. 7:104 e.v. WVV). De **benoeming** wordt opgenomen in het uittreksel (art. 2:7 § 2, 9° WVV) en moet binnen 30 dagen na de oprichting worden neergelegd. Latere wijzigingen van bestuursorgaan eveneens te publiceren (art. 2:7 § 1, 5°).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 2:7", "context": "Vermeldingen oprichtingsakte incl. bestuur" },
+                { "type": "wettekst", "naam": "WVV", "ref": "art. 7:104", "context": "NV: keuze monistisch/duaal" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kosten-vs-inbrengprijs",
+        "naam": {
+          "primair": "Kosten van inbreng niet in inbrengprijs"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Belastingen en kosten **in verband met de inbreng** (registratierechten, notarisereloon, expertise) behoren **niet** tot de inbrengprijs van de ingebrachte goederen (oude art. 23 KB 1976; bevestigd in art. 3:36 KB WVV). Ze worden geboekt in de post **oprichtingskosten** als 'Kosten van oprichting en kapitaalverhoging' (klasse 200), niet bijgevoegd bij de boekwaarde van de inbreng zelf. Reden: ze kunnen vaak niet in verband worden gebracht met welbepaalde goederen, en zouden de inbrengwaarde kunstmatig verhogen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "advies", "naam": "CBN-advies 126/2", "ref": "Inbrengprijs", "datum": "1980-01-01", "context": "Belastingen + kosten in verband met inbreng niet in inbrengprijs" },
+                { "type": "kb", "naam": "KB 29-04-2019 WVV", "ref": "art. 3:36" }
+              ]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-bv-oprichting-geld",
+        "titel": "BV Nova — oprichting met inbreng in geld, oprichtingskosten geactiveerd",
+        "context": "Op 15 maart 2026 richten Anna en Bart samen BV Nova op (advieskantoor) met inbreng in geld €25.000 elk (totaal €50.000). Notariskosten + RPR + publicatie = €1.800. Ze kiezen voor activering van de oprichtingskosten (afschrijving 20%/jaar lineair).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:3" },
+            { "type": "kb", "naam": "KB 29-04-2019 WVV", "ref": "art. 3:36" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking 1 — Storting inbreng oprichters (vóór akte, op geblokkeerde rekening)",
+            "boekingen": [
+              { "datum": "2026-03-10", "debet": [{"rekening": "550", "label": "Bank — geblokkeerde rekening", "bedrag": 50000}], "credit": [{"rekening": "489", "label": "Andere diverse schulden — te crediteren oprichters", "bedrag": 50000}] }
+            ],
+            "toelichting": "Vóór neerlegging uittreksel: vennootschap bestaat nog niet → tussenrekening 489."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking 2 — Bij neerlegging uittreksel (oprichting effectief)",
+            "boekingen": [
+              { "datum": "2026-03-15", "debet": [{"rekening": "489", "label": "Andere diverse schulden", "bedrag": 50000}], "credit": [{"rekening": "11", "label": "Onbeschikbare inbreng (BV) — klasse 11", "bedrag": 50000}] }
+            ],
+            "toelichting": "BV → rubriek 11 'Onbeschikbare inbreng' i.p.v. 'kapitaal' (kapitaalloos sinds WVV). Bij NV: rubriek 100 'Geplaatst kapitaal'."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking 3 — Notariskosten + RPR + publicatie (activering)",
+            "boekingen": [
+              { "datum": "2026-03-15", "debet": [{"rekening": "200", "label": "Kosten van oprichting en kapitaalverhoging", "bedrag": 1800}], "credit": [{"rekening": "550", "label": "Bank", "bedrag": 1800}] }
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking 4 — Jaarlijkse afschrijving 31-12-2026 (20%, jaar 1)",
+            "boekingen": [
+              { "datum": "2026-12-31", "debet": [{"rekening": "6300", "label": "Afschrijvingen op oprichtingskosten", "bedrag": 360}], "credit": [{"rekening": "2009", "label": "Geboekte afschrijvingen op oprichtingskosten", "bedrag": 360}] }
+            ],
+            "toelichting": "20% × €1.800 = €360. Geen pro-rata bij oprichtingskosten — volledige tranche jaar 1. Nettoboekwaarde na jaar 1 = €1.440."
+          },
+          {
+            "type": "balans_snapshot",
+            "titel": "Beginbalans BV Nova op 15-03-2026 (na akte + boeking kosten)",
+            "activa": {
+              "oprichtingskosten_klasse_20": 1800,
+              "liquide_middelen_klasse_5": 48200,
+              "totaal_activa": 50000
+            },
+            "passiva": {
+              "onbeschikbare_inbreng_klasse_11": 50000,
+              "totaal_passiva": 50000
+            },
+            "toelichting": "Eigen vermogen €50.000 (volledig onbeschikbare inbreng, BV-statuut). Activa zijn volledig liquide na aftrek oprichtingskosten."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-nv-oprichting-natura",
+        "titel": "NV Atelier — oprichting met inbreng in natura (machine) + geld",
+        "context": "Op 1 juni 2026 wordt NV Atelier opgericht door Carl (inbreng: industriële machine, gewaardeerd op €45.000 — revisorverslag bevestigt redelijkheid) en Diana (inbreng in geld: €30.000, waarvan €7.500 onmiddellijk volstort = 25%). Notariskosten + revisorereloon + RPR + publicatie = €3.500 — keuze: direct ten laste.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:2", "context": "NV minimumkapitaal €61.500" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:7", "context": "Revisorverslag bij natura" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:13", "context": "1/4 volstorting bij oprichting" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Boeking 1 — Inbreng in natura (machine) bij oprichting",
+            "boekingen": [
+              { "datum": "2026-06-01", "debet": [{"rekening": "23", "label": "Installaties, machines en uitrusting", "bedrag": 45000}], "credit": [{"rekening": "100", "label": "Geplaatst kapitaal — aandelen Carl", "bedrag": 45000}] }
+            ],
+            "toelichting": "Waardering = revisor-bevestigde inbrengwaarde. Aandelen direct volledig volstort (inbreng in natura)."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking 2 — Inbreng in geld Diana (geplaatst €30.000, volstort 1/4)",
+            "boekingen": [
+              { "datum": "2026-06-01", "debet": [{"rekening": "550", "label": "Bank", "bedrag": 7500}, {"rekening": "101", "label": "Niet-opgevraagd kapitaal — aandeelhouder Diana", "bedrag": 22500}], "credit": [{"rekening": "100", "label": "Geplaatst kapitaal — aandelen Diana", "bedrag": 30000}] }
+            ],
+            "toelichting": "Art. 7:13 WVV: NV-aandelen in geld minstens 1/4 volstort bij oprichting. Het niet-opgevraagde deel (€22.500) als vordering op aandeelhouder geboekt in rekening 101 (mindering op kapitaal in balansvoorstelling)."
+          },
+          {
+            "type": "boeking",
+            "titel": "Boeking 3 — Oprichtingskosten (direct ten laste)",
+            "boekingen": [
+              { "datum": "2026-06-01", "debet": [{"rekening": "6132", "label": "Erelonen (notaris, revisor, advies)", "bedrag": 3500}], "credit": [{"rekening": "550", "label": "Bank", "bedrag": 3500}] }
+            ],
+            "toelichting": "Keuze direct ten laste (art. 3:36 KB WVV laat dit toe) → volledige impact op resultaat 2026."
+          },
+          {
+            "type": "balans_snapshot",
+            "titel": "Beginbalans NV Atelier op 01-06-2026",
+            "activa": {
+              "installaties_machines_klasse_23": 45000,
+              "liquide_middelen_klasse_5": 4000,
+              "totaal_activa": 49000
+            },
+            "passiva": {
+              "geplaatst_kapitaal_klasse_100": 75000,
+              "niet_opgevraagd_kapitaal_klasse_101_negatief": -22500,
+              "overgedragen_verlies_klasse_141": -3500,
+              "totaal_passiva": 49000
+            },
+            "toelichting": "Eigen vermogen netto = €75.000 − €22.500 − €3.500 = €49.000. Geplaatst kapitaal €75.000 voldoet aan €61.500-minimum (ook al is niet alles volstort). Verlies €3.500 = oprichtingskosten direct ten laste."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-vergelijking-activeren-vs-ten-laste",
+        "titel": "Vergelijking — Oprichtingskosten activeren vs direct ten laste (impact 5 jaar)",
+        "context": "Stel: oprichtingskosten = €5.000. Resultaat vóór deze kosten = €20.000/jaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Numerieke uitwerking activeer/ten-laste-keuze" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "titel": "Resultaat over 5 jaar — scenario A (activeren 20%/jaar) vs scenario B (direct ten laste)",
+            "kolommen": ["Jaar", "Scenario A — activeren (afschr. €1.000)", "Scenario B — direct ten laste"],
+            "rijen": [
+              ["1", "€19.000 (resultaat na €1.000 afschr.)", "€15.000 (resultaat na €5.000 kost)"],
+              ["2", "€19.000", "€20.000"],
+              ["3", "€19.000", "€20.000"],
+              ["4", "€19.000", "€20.000"],
+              ["5", "€19.000", "€20.000"],
+              ["Totaal 5j", "€95.000", "€95.000"]
+            ],
+            "conclusie": "Totale impact op resultaat is identiek (€5.000 spreiding over 5 jaar vs ineens). Verschil zit in: (a) timing impact uitkeerbaar resultaat — scenario A laat jaar 1 dividend toe; scenario B niet; (b) belastbaarheid — beide aftrekbaar in VenB, scenario B trekt alles ineens af (kasvoordeel); (c) balanspresentatie — scenario A toont actief, scenario B toont alleen kost."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "BV heeft 'geen kapitaal' — verwarring",
+        "verkeerde_assumptie": "Bij een BV is er geen eigen vermogen meer omdat het kapitaal werd afgeschaft.",
+        "kernpunt": "Sinds WVV 2019 heeft de BV geen wettelijk minimumkapitaal-vereiste, maar wel een 'onbeschikbare inbreng' (rubriek 11) die functioneel het kapitaal vervangt. Het eigen vermogen blijft volledig aanwezig — alleen het wettelijk minimum is geschrapt. De oprichters moeten via het financieel plan verantwoorden dat het aanvangsvermogen 'toereikend' is.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:3" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4" }
+          ]
+        }
+      },
+      {
+        "titel": "Oprichtingskosten ineens afschrijven = altijd OK",
+        "verkeerde_assumptie": "Geactiveerde oprichtingskosten mogen vrij afgeschreven worden — 20%/jaar is een minimum dus 100% in jaar 1 is toegestaan.",
+        "kernpunt": "Art. 3:37 KB WVV legt een **minimum** van 20% per jaar op (= max. 5 jaar). Versnelde afschrijving (bv. 100% in jaar 1) is boekhoudkundig toegelaten (geen plafond) maar moet wel in de waarderingsregels staan en consistent worden toegepast. Fiscaal wordt versnelde afschrijving niet altijd aanvaard — oprichtingskosten zijn fiscaal te spreiden volgens de boekhoudregels, dus 20%/jaar lineair is de praktijk-norm.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB 29-04-2019 WVV", "ref": "art. 3:37" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk fiscaal vs boekhoudkundig" }
+          ]
+        }
+      },
+      {
+        "titel": "Notariële akte = oprichtingsmoment",
+        "verkeerde_assumptie": "De vennootschap bestaat juridisch vanaf het ondertekenen van de notariële akte.",
+        "kernpunt": "Volgens art. 2:6 WVV ontstaat de rechtspersoonlijkheid pas bij neerlegging van het uittreksel uit de oprichtingsakte bij de griffie van de bevoegde ondernemingsrechtbank. Tussen ondertekening en neerlegging (doorgaans dezelfde dag of 1-2 dagen) is er een 'vennootschap-in-oprichting' — de notaris regelt de neerlegging meestal automatisch.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 2:6" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Oprichtingskosten — activeren of direct ten laste?",
+        "opties": [
+          {
+            "keuze": "Activeren (rubriek 20) + afschrijven 20%/jaar",
+            "voordeel": "Resultaat jaar 1 wordt niet zwaar gedrukt; uitkeerbaarheid van dividend in jaar 1 mogelijk; vergelijkbaarheid tussen boekjaren beter.",
+            "nadeel": "Activum op balans dat geen echte realiseerbare waarde heeft (immaterieel); fiscaal trager aftrekbaar (5 jaar)."
+          },
+          {
+            "keuze": "Direct ten laste (klasse 61/64)",
+            "voordeel": "Volledige fiscale aftrek in jaar 1 (kasvoordeel); geen actief op balans dat 'opgeklopt' lijkt; eenvoudiger administratie.",
+            "nadeel": "Resultaat jaar 1 zwaar negatief; mogelijk impact op kredietwaardigheid en dividend-uitkering."
+          }
+        ],
+        "vuistregel": "Voor kleine vennootschappen met beperkte oprichtingskosten (<€2.000) en zonder onmiddellijk dividend-uitkering-plan: direct ten laste is eenvoudiger. Voor grotere oprichtingskosten of bij bank-financiering waarbij jaar 1-resultaat telt: activeren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "kb", "naam": "KB 29-04-2019 WVV", "ref": "art. 3:36" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregel keuze activering vs ten-laste" }
+          ]
+        }
+      },
+      {
+        "titel": "Inbreng — geld of natura?",
+        "opties": [
+          {
+            "keuze": "Inbreng in geld",
+            "voordeel": "Geen revisorverslag nodig (kostenbesparing €1.500-€3.000); snelle oprichting; liquide middelen direct beschikbaar voor activiteit.",
+            "nadeel": "Vereist beschikbare cash; geen optimalisatie van bestaande activa van de oprichter (auto, machine, eenmanszaak-overdracht)."
+          },
+          {
+            "keuze": "Inbreng in natura",
+            "voordeel": "Bestaande activa van oprichter (eenmanszaak, machines, vastgoed) kunnen ingebracht worden tegen marktwaarde; mogelijk fiscaal neutraal bij inbreng bedrijfstak (art. 46 WIB92); vermijdt cash-storting.",
+            "nadeel": "Verplicht revisorverslag (art. 5:7 / 7:7 WVV) → bijkomende kostenpost; risico op quasi-inbreng-regime bij latere verkoop tussen oprichter en vennootschap binnen 2 jaar (art. 7:8 WVV)."
+          }
+        ],
+        "vuistregel": "Inbreng in natura is interessant bij overdracht van een eenmanszaak naar een vennootschap (bedrijfstak-inbreng = fiscaal neutraal mits voorwaarden). Bij pure start-up zonder bestaande activa: inbreng in geld.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:7" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:8", "context": "Quasi-inbreng" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
     ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "perspectief-oprichter",
+      "naam": {
+        "primair": "Vanuit de oprichter/cliënt"
+      },
+      "intro": "De accountant begeleidt de oprichter bij keuze rechtsvorm, opmaak financieel plan en boekhoudkundige inrichting.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-rechtsvorm",
+              "naam": { "primair": "Advies rechtsvorm-keuze" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Adviescheck-list rechtsvorm**: (1) aantal oprichters (1 = mogelijk BV/eenmanszaak; >1 = ook NV/CV/VOF); (2) aansprakelijkheids-wens (beperkt = BV/NV/CV; onbeperkt = VOF/CommV/eenmanszaak); (3) startvermogen + cashflow-prognose (toereikend voor BV-financieel-plan? €61.500 voor NV?); (4) overdraagbaarheid aandelen (BV = besloten karakter; NV = vrij overdraagbaar); (5) fiscale optimalisatie (VenB-tarief 20%/25% vs PB-progressief tot 50%); (6) opvolging + corporate-governance.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "boek 4-7" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-checklist rechtsvorm-keuze" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "advies-financieel-plan",
+              "naam": { "primair": "Begeleiding opmaak financieel plan" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij BV/NV/CV: de accountant **stelt het financieel plan op** of begeleidt de oprichter erbij — het plan verantwoordt het aanvangsvermogen over ten minste twee jaar (art. 5:4 WVV). Minimumelementen: nauwkeurige beschrijving activiteit, prognose-balans, prognose-resultatenrekening, begroting investeringen, financieringsbronnen, mogelijke andere financiële verbintenissen. Het plan wordt vóór de notariële akte overhandigd aan de notaris (bewaring 5 jaar) en is niet openbaar — wel cruciaal bewijsmiddel bij latere oprichtersaansprakelijkheid (faillissement binnen 3 jaar).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 5:4", "context": "Inhoud financieel plan BV" },
+                      { "type": "advies", "naam": "CBN-advies 2019/12", "ref": "Financieel plan - begroting", "datum": "2019-11-06" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekhouder-inrichting",
+              "naam": { "primair": "Boekhoudkundige inrichting bij oprichting" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "**Eerste boekhoudkundige stappen** na oprichting: (1) rekeningstelsel aanmaken (MAR — Minimum Algemeen Rekeningstelsel, KB 12-09-1983, geactualiseerd door KB WVV); (2) waarderingsregels vastleggen in inventarisboek (art. III.89 WER); (3) openingsbalans boeken (inbreng → klasse 1 EV; oprichtingskosten klasse 20 of klasse 61/64); (4) BTW-identificatie + socialezekerheidsaansluiting bestuurder (zelfstandigenkas binnen 90 dagen); (5) boekjaar-keuze vastleggen (kalenderjaar of gebroken boekjaar — eerste boekjaar mag maximum 18 maanden lopen, art. III.90 WER); (6) groottecategorie-evaluatie (art. 1:24-25 WVV) → schema-keuze.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WER", "ref": "art. III.89", "context": "Inventarisboek + boekjaar-regels" },
+                      { "type": "wettekst", "naam": "WVV", "ref": "art. 1:24" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-checklist boekhoudkundige inrichting bij oprichting" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -160,7 +845,19 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "kapitaalverhoging"
+      "target": "kapitaalverhoging",
+      "gelijkenissen": [
+        "Beide gaan over inbreng tegen aandelen (geld of natura)",
+        "Bij natura: revisorverslag (art. 5:7/7:7 vs art. 5:112/7:183 WVV) — dezelfde inhoud",
+        "Notariële akte vereist voor BV/NV/CV"
+      ],
+      "verschillen": [
+        "Oprichting = vennootschap ontstaat; kapitaalverhoging = bestaande vennootschap breidt EV uit",
+        "Oprichting heeft financieel-plan-verplichting (5:4 WVV); kapitaalverhoging niet",
+        "Voorkeurrecht bestaande aandeelhouders (5:130/7:188 WVV) geldt bij kapitaalverhoging, niet bij oprichting"
+      ],
+      "verwarring_risico": "Studenten verwarren beide vaak omdat boekhoudkundig (klasse 100/110/115 voor kapitaal en uitgiftepremie) en juridisch (revisorverslag) veel parallelle elementen voorkomen.",
+      "render_hint": "als_keuze"
     }
   ]
 }
