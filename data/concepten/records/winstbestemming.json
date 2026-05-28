@@ -3,24 +3,33 @@
   "naam": {
     "primair": "Winstbestemming",
     "synoniemen": [
-      "profit appropriation",
-      "winstverdeling"
+      "resultaatverwerking",
+      "winstverdeling-besluit",
+      "winstbestemmings-besluit"
     ]
   },
   "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.IV.B"
-    ],
+    "status": "concept",
+    "categorieen": ["gebeurtenis", "regeling"],
+    "ankers": ["3.0.IV.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/winstbestemming.json",
+      "primary_bronnen": [
+        "WVV art. 7:197 (verplichte wettelijke reserve NV)",
+        "WVV art. 5:166 (BV — geen wettelijke reserve verplicht)",
+        "WVV art. 7:196 (uitkeerbare winsten)",
+        "KB WVV art. 3:82 e.v. (resultatenrekening / resultaatverwerking)",
+        "CBN-advies 2016/15 (boeking tantieme bij resultaatverwerking)",
+        "CBN-advies 2015/02 + 2015/06 (liquidatiereserve)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -28,55 +37,64 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit winstuitkering-cluster (skelet-doc regel ~1272, NIEUW — opent OP-K.4)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T16:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle (WVV art. 7:197, CBN-2016/15 boekingen, KB WVV)."
       }
     ],
     "scope": {
       "in": [
         "AV-besluit jaarrekening + winstbestemming (na goedkeuring jaarrekening)",
-        "Wettelijke reserve — 5% tot 10% van kapitaal/eigen-vermogen bereikt (verplichte aanleg)",
-        "Vrije reserves — statutair vrij + AV-besluit",
+        "Wettelijke reserve — 5% van nettowinst tot 10% van kapitaal/eigen vermogen bereikt is (verplichte aanleg NV)",
+        "Vrije reserves — statutair en/of vrijwillig vastgelegd door AV-besluit",
         "Overgedragen resultaat — naar volgend boekjaar",
-        "Tantième-toekenning — winstgebonden bestuurdersvergoeding",
+        "Tantieme-toekenning — winstgebonden bestuurdersvergoeding",
         "Dividend-toewijzing — saldo naar dividend (regulier of interim)",
-        "Wettelijke volgorde: wettelijke reserve eerst · dan andere · dan dividend/overdracht"
+        "Wettelijke volgorde: wettelijke reserve eerst, dan andere reserves, dan tantieme en dividend, dan overdracht"
       ],
       "out": [
-        {
-          "topic": "Winstuitkering-Σ als parent-keuzekader",
-          "richting": "moet-verwijzen",
-          "ref": "winstuitkering"
-        },
-        {
-          "topic": "Tantième als afzonderlijk record",
-          "richting": "moet-verwijzen",
-          "ref": "tantieme"
-        },
-        {
-          "topic": "Eigen vermogen — reserves als component",
-          "richting": "moet-verwijzen",
-          "ref": "eigen-vermogen"
-        },
-        {
-          "topic": "Algemene vergadering — besluit",
-          "richting": "moet-verwijzen",
-          "ref": "algemene-vergadering"
-        }
+        { "topic": "Winstuitkering-Sigma als parent-keuzekader", "richting": "moet-verwijzen", "ref": "winstuitkering" },
+        { "topic": "Tantieme als afzonderlijk record", "richting": "moet-verwijzen", "ref": "tantieme" },
+        { "topic": "Eigen vermogen — reserves als component", "richting": "moet-verwijzen", "ref": "eigen-vermogen" },
+        { "topic": "Algemene vergadering — besluit", "richting": "moet-verwijzen", "ref": "algemene-vergadering" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Winstbestemming (ook 'resultaatverwerking') is het besluit van de algemene vergadering, genomen samen met de goedkeuring van de jaarrekening, over wat er met de boekhoudkundige nettowinst van het boekjaar gebeurt. Het besluit verdeelt de nettowinst (vermeerderd met het overgedragen resultaat uit voorgaande boekjaren) over vier bestemmingen: (1) wettelijke reserve, (2) andere reserves (statutair onbeschikbaar of vrijwillig), (3) tantieme aan bestuurders en dividend aan aandeelhouders, en (4) overdracht naar volgend boekjaar. De volgorde en grenzen worden bepaald door het WVV (kapitaalbescherming) en eventueel door de statuten van de vennootschap.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:196 (uitkeerbare winsten)" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:197 (verplichte wettelijke reserve NV)" },
+            { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "boekingen resultaatverwerking" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Boekhoudkundig gebeurt de winstbestemming in een aparte rekening-reeks (klasse 69 — resultaatverwerking) die LOSSTAAT van het bedrijfsresultaat. Vergelijk: rekening 618 'Bezoldigingen, premies' (klasse 6) is een gewone bedrijfskost die het bedrijfsresultaat verlaagt; rekening 695 'Bestuurders of zaakvoerders' (klasse 69) verlaagt het bedrijfsresultaat NIET maar bestemt een deel van de winst. Hetzelfde geldt voor dotaties aan reserves (rekening 691-694): geen kost van het boekjaar, maar bestemming. Deze scheiding is geen rubricering-detail — ze respecteert het fundamenteel onderscheid tussen 'kosten' (verbruik tijdens het boekjaar) en 'winstbestemming' (verdeling achteraf).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "klasse 69 versus klasse 6" },
+            { "type": "kb", "naam": "KB WVV", "ref": "art. 3:82 e.v. (resultatenrekening structuur)" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De winstbestemming is het scharniermoment van het boekjaar — hier wordt beslist of de winst in de vennootschap blijft (reservering, overdracht) of eruit gaat (tantieme, dividend). Het is ook hier dat de wettelijke beschermingsmechanismen worden geactiveerd: verplichte wettelijke reserve voor NV (een vorm van 'gedwongen sparen' tot 10% kapitaal), check op uitkeerbare winsten, naleving van statutair onbeschikbare reserves. Voor de stagiair: dit is hét moment waar boekhoud, vennootschapsrecht en fiscaal recht samenkomen in een AV-besluit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:197" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese functie winstbestemming" }
           ]
         }
       }
@@ -84,68 +102,325 @@
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WVV"
-      }
-    },
-    "bouwstenen": [
-      {
-        "id": "wettelijke-reserve",
-        "naam": {
-          "primair": "Wettelijke reserve"
+        "sinds": "2019-05-01",
+        "wettelijke_basis": "WVV art. 7:196-197 (NV) + art. 5:142-143 (BV); KB WVV art. 3:82 e.v."
+      },
+      "voorwaarden": [
+        {
+          "tekst": "Voorafgaande goedkeuring van de jaarrekening door de algemene vergadering — winstbestemming is een aansluitend besluit op die goedkeuring.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "kb", "naam": "KB WVV", "ref": "art. 3:175 (winstverdeling in jaarrekening)" }
+            ]
+          }
         },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — 5% van nettowinst tot reserve 10% van kapitaal bereikt (verplichte aanleg).",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        {
+          "tekst": "Voor NV: verplichte aanleg wettelijke reserve van 5% van de nettowinst tot 10% van het kapitaal is bereikt (art. 7:197 WVV). Voor BV: geen verplichte wettelijke reserve (kapitaalloos in BV vanaf WVV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:197" },
+              { "type": "advies", "naam": "CBN-advies 2019/14", "ref": "omvorming wettelijke reserve BV" }
+            ]
+          }
+        },
+        {
+          "tekst": "Tantieme- en dividend-toekenningen moeten passen binnen de uitkeerbare winsten (netto-actief-test in NV; netto-actief- en liquiditeitstest in BV).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WVV", "ref": "art. 7:212 + 5:141-142" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "volgorde-winstbestemming",
+        "naam": { "primair": "Wettelijke volgorde van winstbestemming" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De winstbestemming volgt een verplichte volgorde: (1) eerst aanvullen van overgedragen verlies (negatief openingssaldo); (2) wettelijke reserve (5% tot 10% kapitaal — NV); (3) statutair voorgeschreven dotaties (onbeschikbare statutaire reserves); (4) tantieme en dividend (in volgorde bepaald door statuten); (5) restant naar overgedragen resultaat. De volgorde mag niet worden omgekeerd: een dividend kan pas worden uitgekeerd nadat de wettelijke en statutaire dotaties zijn voldaan.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:197" },
+                  { "type": "kb", "naam": "KB WVV", "ref": "art. 3:175 (winstverdeling tabel)" }
+                ]
+              }
             }
           }
         }
       },
       {
-        "id": "wettelijke-volgorde-winstbestemming",
-        "naam": {
-          "primair": "Wettelijke volgorde van bestemmingen"
-        },
-        "bouwsteen_type": "stap",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — wettelijke reserve eerst · dan andere reserves · dan dividend/overdracht.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "wettelijke-reserve",
+        "naam": { "primair": "Wettelijke reserve (NV)" },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een onbeschikbare reserve die de NV jaarlijks moet aanleggen door minstens 5% van de nettowinst van het boekjaar over te boeken naar deze reserve, tot deze reserve 10% van het kapitaal bereikt heeft (art. 7:197 WVV). Eens 10% bereikt: aanleg niet meer verplicht. Deze reserve is onbeschikbaar voor uitkering — ze beschermt schuldeisers tegen volledige uitkering van het kapitaal. Voor BV bestaat deze verplichting niet (BV is kapitaalloos sinds WVV; de wettelijke reserve uit een BVBA werd omgevormd naar onbeschikbare inbreng of vrije reserve — CBN 2019/14).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:197" },
+                  { "type": "advies", "naam": "CBN-advies 2019/14", "ref": "omvorming wettelijke reserve BVBA-naar-BV" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "vrije-reserves",
+        "naam": { "primair": "Vrije en statutaire reserves" },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Statutaire reserves: door de statuten verplichte dotaties (statutair onbeschikbaar). Vrije reserves: vrijwillige reservering door AV-besluit — kunnen later weer worden vrijgegeven voor uitkering of geactiveerd voor specifieke doelen (zoals liquidatiereserve, art. 184quater WIB92).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Algemene rubricering reserves" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "overgedragen-resultaat",
+        "naam": { "primair": "Overgedragen resultaat" },
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het saldo van de winst (of het verlies) dat niet werd bestemd voor reserves of uitkering, en dat dus wordt 'overgedragen' naar het volgend boekjaar. Op de balans rubriek 14 (overgedragen winst) of 14- (overgedragen verlies). Verschijnt bij opening van het volgend boekjaar als beginsaldo van het te bestemmen resultaat.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "advies", "naam": "CBN-advies 2015/02", "ref": "boeking overgedragen winst" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "te-bestemmen-winst-saldo",
+        "naam": { "primair": "Te bestemmen winstsaldo — berekening" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Te bestemmen winstsaldo = nettowinst van het boekjaar + overgedragen winst voorgaand boekjaar - overgedragen verlies voorgaand boekjaar. Op dit bedrag worden de bestemmings-besluiten genomen.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "kb", "naam": "KB WVV", "ref": "art. 3:175 (winstverdeling-schema)" }
+                ]
+              }
             }
           }
         }
       }
+    ],
+    "bouwstenen": [
+      {
+        "id": "boekingen-resultaatverwerking",
+        "naam": { "primair": "Boekingen bij resultaatverwerking" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "substantie": {
+            "tekst": "Klasse 69-rekeningen worden gebruikt voor de winstbestemming. Vergelijk klasse 6 (= bedrijfskost) versus klasse 69 (= winstbestemming).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "boekingen resultaatverwerking" }
+              ]
+            },
+            "weergaven": [
+              {
+                "type": "tabel",
+                "titel": "Klasse 69-rekeningen voor winstbestemming",
+                "kolommen": ["Rekening", "Omschrijving", "Tegenpost"],
+                "rijen": [
+                  ["691", "Toevoeging aan wettelijke reserve", "131 Wettelijke reserve"],
+                  ["692", "Toevoeging aan andere reserves", "133/14 Andere reserves"],
+                  ["693", "Overgedragen winst (debet) — saldo naar volgend boekjaar", "140 Overgedragen winst"],
+                  ["694", "Vergoeding van het kapitaal (dividend)", "471 Schuld aan aandeelhouders inzake dividenden"],
+                  ["695", "Bestuurders of zaakvoerders (tantieme)", "472 Tantiemes over het boekjaar"]
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "volledige-winstbestemming-voorbeeld",
+        "titel": "Winstbestemming BV Optima — nettowinst 100.000 EUR",
+        "context": "BV Optima (NV-vorm, kapitaal 100.000 EUR, wettelijke reserve momenteel 6.000 EUR) sluit het boekjaar af met een nettowinst van 100.000 EUR. Overgedragen winst voorgaand: 20.000 EUR. AV beslist: maximumaanleg wettelijke reserve, tantieme zaakvoerder 15.000 EUR, dividend 60.000 EUR, rest overdragen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch volledig voorbeeld" }
+          ]
+        },
+        "elementen": [
+          {
+            "id": "berekening-bestemming",
+            "naam": { "primair": "Berekening en boekingen" },
+            "bouwsteen_type": "formule",
+            "kern": {
+              "definitie": {
+                "tekst": "Te bestemmen saldo: 100.000 + 20.000 = 120.000 EUR. Wettelijke reserve: 5% × 100.000 = 5.000 EUR (eindstand 11.000 EUR — onder 10% van kapitaal 100.000, dus aanleg verplicht). Tantieme: 15.000 EUR (rekening 695 versus 472). Dividend: 60.000 EUR bruto (rekening 694 versus 471) — RV 30% = 18.000 EUR ingehouden (471 versus 477), nettobetaling 42.000 EUR. Rest overgedragen: 120.000 - 5.000 - 15.000 - 60.000 = 40.000 EUR (rekening 693 versus 140).",
+                "grondslag": {
+                  "confidence": "afgeleid",
+                  "bronnen": [
+                    { "type": "wettekst", "naam": "WVV", "ref": "art. 7:197" },
+                    { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "boekingen tantieme + dividend" },
+                    { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Berekenings-uitwerking" }
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Volgorde van bestemming negeren",
+        "verkeerde_assumptie": "AV kan vrij kiezen of ze eerst dividend, dan wettelijke reserve uitkeert.",
+        "kernpunt": "De volgorde is wettelijk: eerst wettelijke reserve (tot 10% kapitaal bereikt), dan statutaire dotaties, dan tantieme en dividend. Een dividend uitkeren zonder eerst de wettelijke reserve te dotteren is nietig en aanleiding tot bestuurdersaansprakelijkheid (en terugvordering bij aandeelhouders).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:197" }
+          ]
+        }
+      },
+      {
+        "titel": "Tantieme als bedrijfskost boeken (klasse 6 i.p.v. klasse 69)",
+        "verkeerde_assumptie": "Tantieme is een bezoldiging, dus rekening 618.",
+        "kernpunt": "Tantieme is geen bedrijfskost van het boekjaar maar een winstbestemming. Boeking op rekening 695 (klasse 69) tegen 472 'Tantieme over het boekjaar' (CBN 2016/15). Boeking op 618 zou het bedrijfsresultaat verlagen en de winstbestemmings-volgorde verstoren.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "klasse 69 versus klasse 6" }
+          ]
+        }
+      },
+      {
+        "titel": "BV-wettelijke-reserve eisen onder WVV",
+        "verkeerde_assumptie": "BV moet ook een wettelijke reserve aanleggen, zoals een NV.",
+        "kernpunt": "Onder WVV (sinds 2019) is de BV kapitaalloos en kent geen verplichte wettelijke reserve. Bestaande BVBA's met een wettelijke reserve omgevormd naar BV moeten die reserve omvormen — typisch naar onbeschikbare inbreng of vrije reserve (CBN 2019/14). Aanleg is niet meer verplicht.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2019/14", "ref": "omvorming wettelijke reserve BVBA-BV" }
+          ]
+        }
+      },
+      {
+        "titel": "Liquidatiereserve aanleg vergeten in winstbestemming",
+        "verkeerde_assumptie": "Liquidatiereserve is een fiscaal mechanisme — alleen relevant bij de aangifte.",
+        "kernpunt": "De liquidatiereserve (art. 184quater WIB92) wordt boekhoudkundig aangelegd in de winstbestemming, vóór dividend en overdracht. Het bedrag wordt geboekt op rekening 132 'Belastingvrije reserves' tegen 692. Vergeet dit niet — de 10% afzonderlijke aanslag VenB wordt verschuldigd over het bedrag dat in de jaarrekening als liquidatiereserve is opgenomen (CBN 2015/06).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "advies", "naam": "CBN-advies 2015/06", "ref": "boekhoudkundige verwerking liquidatiereserve" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Hoeveel van de winst uitkeren versus reserveren?",
+        "opties": [
+          {
+            "keuze": "Alles uitkeren (na verplichte reserve)",
+            "voordeel": "Maximale return voor aandeelhouder; geen 'cash trap' in vennootschap.",
+            "nadeel": "RV 30% nu betaald; vennootschap heeft minder buffer voor moeilijke jaren; geen mogelijkheid liquidatiereserve."
+          },
+          {
+            "keuze": "Liquidatiereserve aanleggen + rest overdragen",
+            "voordeel": "Lagere uiteindelijke fiscale druk (10%+5% = 15%); buffer in vennootschap.",
+            "nadeel": "Cash voor 10% aanslag direct verschuldigd; 5 jaar wachten op gunstige RV; cash blijft 5 jaar in vennootschap."
+          },
+          {
+            "keuze": "Gedeeltelijk uitkeren + gedeeltelijk reserveren",
+            "voordeel": "Balans tussen onmiddellijke return en toekomstige optimalisatie.",
+            "nadeel": "Vergt jaarlijkse herevaluatie."
+          }
+        ],
+        "vuistregel": "Kleine vennootschap met lange-termijnvisie: maximale liquidatiereserve elk jaar + selectieve uitkeringen na 5 jaar. Vennootschap met behoefte aan investeringen: overdragen i.p.v. uitkeren. Beursgenoteerde of dividend-gevoelige aandeelhouders: stabiele payout-ratio (bv. 40-60% van winst).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184quater + 269" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vuistregels KMO-planning" }
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "winstuitkering"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "algemene-vergadering"
-    },
-    {
-      "type": "triggert",
-      "target": "eigen-vermogen"
+      "id": "boekhouder-winstbestemming",
+      "naam": { "primair": "Accountant als boekhouder bij winstbestemming" },
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "voorbereiden-bestemmingsvoorstel",
+              "naam": { "primair": "Voorbereiden van het winstbestemmings-voorstel" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Stap 1: bereken te bestemmen saldo (nettowinst boekjaar + overgedragen winst - overgedragen verlies). Stap 2: bepaal verplichte wettelijke reserve (5% van nettowinst tot 10% kapitaal bij NV). Stap 3: identificeer statutaire dotaties (statuten nakijken). Stap 4: optimaliseer fiscaal: liquidatiereserve, tantieme voor KMO-tarief. Stap 5: stel het winstbestemmings-schema op zoals voorgeschreven door KB WVV. Stap 6: presenteer aan AV met bestuurdersverslag over uitkeerbare winsten (netto-actief-test + liquiditeitstest BV).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "kb", "naam": "KB WVV", "ref": "art. 3:175" },
+                      { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "boekingen resultaatverwerking" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "boekingen-uitvoeren",
+              "naam": { "primair": "Boekingen na AV-besluit" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Na AV: boeking via klasse 69-rekeningen. Wettelijke reserve: 691 versus 131. Liquidatiereserve: 692 versus 132. Tantieme: 695 versus 472. Dividend: 694 versus 471 (met RV-inhouding: 471 versus 477). Saldo: 693 versus 140 (winst) of 141 (verlies). RV-aangifte (291.1 of vergelijkbaar) binnen 15 dagen na inhouding.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "advies", "naam": "CBN-advies 2016/15", "ref": "rekeningplan klasse 69" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "winstuitkering" },
+    { "type": "beinvloed_door", "target": "algemene-vergadering" },
+    { "type": "triggert", "target": "eigen-vermogen" }
   ]
 }
