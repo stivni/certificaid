@@ -1,37 +1,24 @@
 {
   "id": "verdeelrecht",
   "naam": {
-    "primair": "Verdeelrecht"
+    "primair": "Verdeelrecht",
+    "synoniemen": ["miserietaks", "recht op verdelingen"],
+    "vertaling": {
+      "fr": "droit de partage"
+    }
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.6.I.C"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.6.I.C"],
     "scope": {
       "in": [
         "Recht bij scheiding / onverdeeldheidsstop",
-        "Tarief ~2.5% (gewestelijk variërend) op netto-aandeel",
-        "Toepassing bij echtscheiding · verdeling nalatenschap · familiale verdeling"
+        "Tarief 2,5 % Vlaanderen (sinds 2022) · 1 % Wallonië · 1,1 % Brussel",
+        "Toepassing bij echtscheiding · verdeling nalatenschap · familiale verdeling",
+        "Transfert echtelijke woning bij echtscheiding"
       ],
       "out": [
         {
@@ -45,29 +32,324 @@
           "ref": "huwelijksvermogensrecht"
         }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/verdeelrecht.json",
+      "primary_bronnen": [
+        "VCF art. 2.10.1.0.1",
+        "VCF art. 2.10.1.0.3",
+        "VCF art. 2.10.4.0.1",
+        "VCF art. 2.10.6.0.1",
+        "VCF art. 2.10.6.0.4",
+        "VCF art. 2.10.7.0.1",
+        "BW Boek 4 art. 4.229",
+        "BW Boek 4 art. 4.230",
+        "BW Boek 4 art. 4.66"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-28T10:00:00Z",
+        "model": "cluster-skeleton-agent",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:10:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (VCF art. 2.10 + BW Boek 4)."
+      }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "Het verdeelrecht (in de volksmond ook 'miserietaks') is een evenredig registratierecht dat verschuldigd is bij de gehele of gedeeltelijke verdeling van onroerende goederen die in onverdeeldheid worden gehouden, of bij de afstand onder bezwarende titel van een onverdeeld aandeel in een onroerend goed tussen mede-eigenaars. Het tarief in het Vlaams Gewest bedraagt 2,5 % (sinds 1 januari 2022; daarvoor 1 %) op de waarde van het verdeelde of overgedragen onroerend goed (VCF art. 2.10.4.0.1). In Wallonië bedraagt het 1 %, in Brussel 1,1 %.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.1.0.1", "context": "Belastbaar voorwerp verdeelrecht" },
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.4.0.1", "context": "Tarief 2,5 %" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het verdeelrecht is de fiscale prijs van het 'uitkopen' van mede-eigenaars in een onroerend goed. Typische situaties: echtgenoten die bij echtscheiding de gezinswoning aan één partner toewijzen; erfgenamen die bij verdeling een familiehuis aan één onder hen toebedelen; onverdeelde mede-eigenaars (concubinaat, vennoten) die uit elkaar gaan. De fiscus heft op de volle waarde van het verdeelde goed (niet enkel op het 'overgaande' aandeel) — vandaar de bijnaam 'miserietaks': bij een echtscheiding op een woning van 400.000 EUR levert dat 10.000 EUR registratierechten op, ongeacht wie wat aan wie betaalt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.1.0.1" },
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.6.0.1", "context": "Belastbare grondslag = waarde van de goederen" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-toepassing" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio is dubbel: (1) registratierechten op overdracht van onroerend goed worden klassiek geheven op alle eigendomsverschuivingen, en de verdeling tussen mede-eigenaars is fiscaal-technisch een (gedeeltelijke) eigendomsoverdracht; (2) het lagere tarief vergeleken met het verkooprecht (12 % in Vlaanderen) erkent dat een verdeling tussen mede-eigenaars geen 'echte' verkoop op de markt is. De Vlaamse verhoging van 1 % naar 2,5 % in 2022 had budgettaire en zelden-genoegen redenen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer registratie-rechten + budgettaire wijziging 2022" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "registratie-en-successierechten",
+      "naast_relevant": [
+        "verkooprecht",
+        "huwelijksvermogensrecht",
+        "erfbelasting"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "sinds": "2022-01-01",
+        "wettelijke_basis": "VCF art. 2.10 (Vl) — Wetboek Registratie Brussel/Wallonië (BHG/W)",
+        "toelichting": "Tarief Vlaams Gewest verhoogd van 1 % naar 2,5 % per 1 januari 2022. Brussel: 1,1 %; Wallonië: 1 %. Specifiek lagere drempel voor echtscheiding (tot ca. 50.000 EUR) bestaat onder voorwaarden."
+      },
+      "voor": [
+        {
+          "tekst": "Iedere verdeling van onroerende goederen in onverdeeldheid, of afstand van een onverdeeld aandeel tussen mede-eigenaars: (a) verdeling van de huwgemeenschap of het onverdeeld vermogen bij echtscheiding (transfert echtelijke woning), (b) verdeling van een nalatenschap, (c) ontbinding van een feitelijke samenwoning of concubinaat met onverdeeld eigendom, (d) verdeling tussen vennoten bij ontbinding van een burgerlijke maatschap met onroerende goederen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.1.0.1" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Verkoop van een onroerend goed aan een derde (= verkooprecht 12 % Vlaanderen). Schenking van een onroerend goed (= schenkbelasting). Erfopvolging op zich (= erfbelasting); pas bij feitelijke verdeling tussen erfgenamen wordt het verdeelrecht verschuldigd op het deel dat een mede-erfgenaam uitkoopt boven zijn aandeel.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Afgrenzing tegenover andere registratierechten" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij grote vermogens (familiehuis 500.000 EUR+) loopt het verdeelrecht snel op tot 12.500-25.000 EUR. Praktisch advies bij echtscheiding: vooraf becijferen + nagaan of een specifieke gunstregeling van toepassing is (Vlaamse abattementen voor echtgenoten/wettelijk samenwonenden bij scheiding — eerste schijf vrijgesteld). Vooral bij hereniging zonder verdeling: vermijden dat verkocht aan derde wordt indien een verdeling tegen 2,5 % volstaat.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Advies-praktijk" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "tarief-gewestelijk",
+        "naam": { "primair": "Tarief per gewest" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Vlaanderen: 2,5 % (sinds 1-1-2022; daarvoor 1 %) — VCF art. 2.10.4.0.1. Wallonië: 1 %. Brussel: 1,1 %. Het tarief wordt toegepast op de belastbare grondslag (waarde verdeeld goed).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.4.0.1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "belastbare-grondslag",
+        "naam": { "primair": "Belastbare grondslag" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Het verdeelrecht wordt geheven op de waarde van de verdeelde onroerende goederen of op de waarde van het overgedragen onverdeeld aandeel (VCF art. 2.10.6.0.1). Geen aftrek voor het eigen aandeel: de heffing slaat op de TOTALE waarde van het goed wanneer het in zijn geheel wordt toebedeeld aan één mede-eigenaar — niet op het 'verschil' tussen het eigen aandeel en het verkregen aandeel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.6.0.1" },
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.6.0.4" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "abattement-echtscheiding",
+        "naam": { "primair": "Abattement bij verdeling tussen echtgenoten/samenwonenden" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "In het Vlaams Gewest bestaat een specifieke vermindering voor de verdeling van onroerende goederen tussen echtgenoten bij echtscheiding of tussen wettelijk samenwonenden bij beëindiging — een eerste schijf van het belastbaar bedrag is vrijgesteld (orde van grootte 50.000 EUR — exacte bedrag opzoeken in Cijferzakboekje of VCF art. 2.10). Mits cumulatieve voorwaarden (effectieve scheiding, onroerend goed verworven tijdens samenleving).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.6.0.4", "context": "Verminderingen verdeelrecht" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vlaamse echtscheidings-abattement" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verdelingsbeginsel",
+        "naam": { "primair": "Verdelingsbeginsel — geen onverdeeldheid van permanente duur" },
+        "bouwsteen_type": "principe",
+        "kern": {
+          "definitie": {
+            "tekst": "Niemand kan gedwongen worden in onverdeeldheid te blijven; iedere mede-eigenaar heeft recht om de verdeling te vragen (BW Boek 4 art. 4.66). Wel kan de verdeling tijdelijk uitgesteld worden (max 5 jaar, hernieuwbaar) bij overeenkomst (BW art. 4.107). De verdeling is dus een 'recht' dat het verdeelrecht (registratie) als fiscale gevolg heeft.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.66" },
+                { "type": "wettekst", "naam": "BW Boek 4", "ref": "art. 4.107" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-echtscheiding",
+        "titel": "Echtscheiding — toewijzing gezinswoning aan één partner",
+        "context": "Echtgenoten A en B bezitten samen (50/50) de gezinswoning, geschatte waarde 400.000 EUR. Bij echtscheiding wordt de woning toegewezen aan A; A betaalt B 200.000 EUR voor zijn aandeel.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.4.0.1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — belastbare grondslag = volle waarde verdeeld goed = 400.000 EUR (NIET 200.000!).",
+              "Stap 2 — tarief Vlaanderen = 2,5 %.",
+              "Stap 3 — bruto verdeelrecht = 400.000 × 2,5 % = 10.000 EUR.",
+              "Stap 4 — abattement echtscheiding (Vl, indicatief 50.000 EUR vrij): 50.000 × 2,5 % = 1.250 EUR aftrek.",
+              "Stap 5 — netto verschuldigd verdeelrecht ≈ 8.750 EUR."
+            ],
+            "resultaat": "Belangrijk: heffing op 400.000 EUR, niet op 200.000 EUR. Exacte abattement-bedragen in Cijferzakboekje / VCF nakijken."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-nalatenschap",
+        "titel": "Verdeling familiehuis tussen drie erfgenamen",
+        "context": "Drie kinderen erven een huis van 600.000 EUR (elk 1/3 onverdeeld). Bij verdeling neemt kind A het huis volledig en betaalt B en C elk 200.000 EUR uit.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.4.0.1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — belastbare grondslag = volle waarde verdeeld goed = 600.000 EUR.",
+              "Stap 2 — tarief Vlaanderen = 2,5 %.",
+              "Stap 3 — verdeelrecht = 600.000 × 2,5 % = 15.000 EUR.",
+              "Stap 4 — afzonderlijke erfbelasting op de oorspronkelijke erfopvolging is reeds betaald (komt niet in mindering); het verdeelrecht is een bijkomende fiscale kost bij verdeling."
+            ],
+            "resultaat": "Het verdeelrecht komt bovenop de erfbelasting — geen 'dubbele heffing' want het slaat op een andere rechtshandeling (verdeling vs verkrijging)."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Heffing berekenen op het 'overgaande aandeel' in plaats van op de volle waarde",
+        "verkeerde_assumptie": "Bij een verdeling 50/50 wordt het verdeelrecht enkel geheven op de helft die overgaat van de ene mede-eigenaar naar de andere.",
+        "kernpunt": "Art. 2.10.6.0.1 VCF: belastbare grondslag = waarde van de verdeelde goederen of van het toebedeelde aandeel — wanneer het goed volledig aan één partij wordt toebedeeld, slaat de heffing op de volledige waarde van het goed, niet op het uitgekochte aandeel.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.6.0.1" }
+          ]
+        }
+      },
+      {
+        "titel": "Tarief Vlaanderen pre-2022 (1 %) doorrekenen op een verdeling van 2024+",
+        "verkeerde_assumptie": "Het verdeelrecht in Vlaanderen is 1 %.",
+        "kernpunt": "Sinds 1 januari 2022 is het Vlaamse verdeelrecht 2,5 % (decreet-wijziging budgettair). Voor verdelingen geregistreerd vanaf die datum geldt 2,5 %. Het oude tarief geldt enkel voor verdelingen vóór 1-1-2022. Cijferzakboekje raadplegen voor actuele cijfers.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.4.0.1" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "particuliere-client",
+      "naam": { "primair": "Particuliere cliënt (echtscheiding / nalatenschap)" },
+      "intro": "De accountant die de fiscale kost van een verdeling becijfert voor de cliënt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "becijferen-verdeelrecht",
+              "naam": { "primair": "Becijferen verdeelrecht in scheidingsdossier" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke echtscheidingsbegeleiding of nalatenschapsverdeling met onroerend goed: bepaal de actuele schattingswaarde, pas het gewestelijk tarief toe (Vl 2,5 % / Br 1,1 % / W 1 %), trek eventuele abattementen af (Vlaanderen: scheidings-abattement) en confronteer de cliënt met het bedrag VOOR de notariële akte. Vergelijk met alternatieven (verkoop aan derde + opnieuw aankopen — verkooprecht 12 % is meestal niet voordeliger).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "VCF", "ref": "art. 2.10.4.0.1" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "registratie-en-successierechten"
+    },
+    {
+      "type": "vereist",
+      "target": "huwelijksvermogensrecht",
+      "toelichting": "De huwelijksvermogensrechtelijke kwalificatie (gemeenschapsgoed vs eigen goed) bepaalt of een goed in onverdeeldheid valt en dus verdeeld moet worden."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "verkooprecht",
+      "gelijkenissen": [
+        "Beide zijn evenredige registratierechten op onroerend goed",
+        "Beide worden in dezelfde notariële akte vereffend"
+      ],
+      "verschillen": [
+        "Verdeelrecht: tussen mede-eigenaars (familie/scheiding), tarief 1-2,5 %",
+        "Verkooprecht: aan derde, tarief Vl 12 % (3 % gezinswoning eenmalig)"
+      ],
+      "verwarring_risico": "Bij twijfel of een verrichting verdeling of verkoop is: de notaris bepaalt dit; voor de fiscale kost een factor 5 verschil."
     }
   ]
 }

@@ -2,26 +2,26 @@
   "id": "belasting-definitie-en-functies",
   "naam": {
     "primair": "Belasting-definitie en functies",
-    "synoniemen": [
-      "belasting",
-      "wat is een belasting"
-    ]
+    "synoniemen": ["wat is een belasting", "functies van belasting"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.1.I",
-      "2.1.II"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["2.1.I", "2.1.II"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/belasting-definitie-en-functies.json",
+      "primary_bronnen": [
+        "Gecoördineerde Grondwet art. 170",
+        "Cassatie 12-10-1954 (definitie belasting)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,12 +30,20 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld: belasting-definitie, 4 functies, bestanddelen + onderscheid met retributie/sociale-bijdrage."
       }
     ],
     "scope": {
       "in": [
         "Wat IS een belasting (juridisch + economisch onderscheid t.o.v. retributie/heffing)",
-        "3 functies: financieel (overheidsfinanciering) · regulerend (sturing gedrag) · herverdelend (sociale rechtvaardigheid)",
+        "Functies: budgettair · sturend · herverdelend · signaal",
+        "Bestanddelen (subject · object · grondslag · tarief)",
         "Onderscheid belasting / retributie / sociale bijdrage / forfaitair bedrag"
       ],
       "out": [
@@ -60,28 +68,190 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van algemene-fiscale-beginselen.",
+        "tekst": "Een belasting is een verplichte, eenzijdige geldelijke bijdrage die de overheid op grond van haar gezag heft bij personen of zaken die zich op haar grondgebied bevinden of een aanknopingspunt met haar grondgebied vertonen, om haar uitgaven van algemeen belang te bekostigen — zonder rechtstreekse individueel-bepaalde tegenprestatie. Drie kenmerken bepalen het belasting-karakter: (1) eenzijdig (geen contract); (2) bestemd voor algemene overheidsuitgaven; (3) geen rechtstreekse individuele tegenprestatie.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "rechtspraak", "naam": "Cassatie", "ref": "12 oktober 1954", "context": "Klassieke definitie belasting" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaarddefinitie in handboeken fiscaal recht" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het onderscheid 'belasting versus retributie versus sociale bijdrage' is praktisch belangrijk: alleen belastingen vallen onder art. 170 GW (legaliteit + wet door bevoegd parlement). Een retributie is de prijs voor een dienst (bv. paspoort, parkeermeter) — daar bestaat een individuele tegenprestatie. Een sociale bijdrage financiert een specifiek sociaal stelsel (pensioenen, ziekteverzekering) — geen algemene overheidsuitgaven. Het verkeerd classificeren van een heffing leidt vaak tot vernietiging door de rechter wegens ontbrekende wettelijke basis.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Gecoördineerde Grondwet", "ref": "art. 170" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk onderscheid heffingstypes" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "fiscaal-recht",
+      "volgkennis": ["indeling-belastingen", "toepassingsgebied-belasting"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Conceptueel kader — stabiel."
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "functie-budgettair",
+        "naam": { "primair": "Budgettaire (financiële) functie" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Belastingen financieren de algemene overheidsuitgaven (onderwijs, justitie, defensie, infrastructuur, sociale zekerheid). Dit is de oudste en kwantitatief belangrijkste functie. Voor de stagiair: deze functie verklaart waarom de fiscus zo veel belang hecht aan tijdige aangifte en correcte inkohiering — de Staat heeft de inkomsten nodig om haar begroting te halen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer publieke financiën" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "functie-sturend",
+        "naam": { "primair": "Sturende (regulerende) functie" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De overheid gebruikt belastingen om gedrag te sturen: hogere accijnzen op tabak en alcohol om consumptie te ontmoedigen, fiscale voordelen voor energiezuinige investeringen, mobiliteitsbelasting in functie van CO₂-uitstoot. Sturen kan via heffing (ontmoediging) of via vrijstelling/krediet (aanmoediging). Voor de accountant: veel fiscale gunstregimes zijn instrumenten van sturende fiscaliteit (investeringsaftrek, tax shelter audiovisueel, R&D-aftrek).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "functie-herverdelend",
+        "naam": { "primair": "Herverdelende functie" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Belastingen corrigeren ongelijkheden door hogere inkomens proportioneel meer te belasten en gerichte tegemoetkomingen te bieden aan zwakkere groepen. Concreet: progressieve PB-schijven (hogere marginale tarieven bij hoger inkomen), belastingvrije som, belastingvermindering voor kinderen ten laste, fiscale voordelen pensioensparen. Het ontwerp van de wet zegt veel over de politieke keuzes rond verdeling.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 130", "context": "Progressieve PB-schijven" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "functie-signaal",
+        "naam": { "primair": "Signaal-/instrumentale functie" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Belastingen kunnen een signaal-functie hebben: ze maken zichtbaar wat de samenleving belangrijk vindt en sturen verwachtingen. Voorbeelden: CO₂-belasting (signaal klimaat-prioriteit), suikertaks (signaal volksgezondheid), bankentaks (signaal financiële stabiliteit). Vaak overlapt deze functie met de sturende functie, maar het signaal-aspect kan op zichzelf bestaan, zelfs als de inkomsten gering zijn.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Hedendaagse functietypologie publieke financiën" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bestanddelen",
+        "naam": { "primair": "Bestanddelen van een belasting" },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Elke belasting heeft vier essentiële bestanddelen die de wet moet vastleggen (legaliteitsbeginsel, art. 170 GW): (1) belastingsubject = wie betaalt (natuurlijke persoon, vennootschap, ...); (2) belastingobject (belastbaar feit) = welke gebeurtenis of toestand triggert de heffing (inkomen verwerven, goed verkrijgen, transactie verrichten); (3) grondslag = waarop wordt het tarief toegepast (belastbaar inkomen, belastbaar bedrag, marktwaarde); (4) tarief = welk percentage of bedrag. Daarnaast: vrijstellingen, verminderingen, aanslagprocedure.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Gecoördineerde Grondwet", "ref": "art. 170" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer bestanddelen belasting" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderscheid-retributie",
+        "naam": { "primair": "Belasting versus retributie" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Een retributie is een vergoeding voor een specifieke dienst of voor het gebruik van een bepaalde voorziening — er bestaat een individuele tegenprestatie en de bijdrage is in beginsel kostendekkend. Voorbeelden: paspoortvergoeding, parkeerautomaat, vergoeding huisvuilophaling. Een belasting daarentegen vergoedt geen individuele dienst en is niet kostendekkend bedoeld. Het juridisch belang: een retributie kan door een lager bestuursorgaan vastgelegd worden via reglement, terwijl een belasting de strikte wetsvereiste van art. 170 GW vergt.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Gecoördineerde Grondwet", "ref": "art. 170" },
+                { "type": "rechtspraak", "naam": "Cassatie", "ref": "diverse arresten over onderscheid retributie/belasting", "context": "Standaardrechtspraak" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onderscheid-sociale-bijdrage",
+        "naam": { "primair": "Belasting versus sociale bijdrage" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Sociale-zekerheidsbijdragen (RSZ-werknemer, RSZ-werkgever, sociale bijdragen zelfstandigen) financieren een specifiek sociaal stelsel (pensioen, ziekteverzekering, werkloosheid, kinderbijslag) — niet de algemene staatskas. Ze vallen niet onder het fiscaal recht stricto sensu maar onder het sociaal recht. Praktisch belang voor de accountant: bij de loonberekening worden RSZ-bijdragen apart behandeld van bedrijfsvoorheffing; bij zelfstandigen-aangifte worden ze als beroepskost afgetrokken (art. 52, 7° WIB92).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 52 — 7°", "context": "Aftrekbaarheid sociale bijdragen zelfstandigen" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-suikertaks",
+        "titel": "Sturende functie — accijns op gesuikerde dranken",
+        "context": "De Belgische accijns op suikerhoudende frisdranken (verhoogd in 2016).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch voorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Een accijns op suikerhoudende dranken levert relatief beperkte inkomsten op — de hoofd-bedoeling is gedragssturing (volksgezondheid, ontmoediging suikerconsumptie). Tegelijk vervult ze een signaal-functie: 'de overheid vindt dit een probleem'. En budgettair levert ze toch ook geld op. Eén heffing kan dus meerdere functies tegelijk vervullen — typisch voor moderne fiscaliteit."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Elke overheidsgeldstroom als belasting bestempelen",
+        "verkeerde_assumptie": "Studenten gooien belasting, retributie, sociale bijdrage en boete op één hoop.",
+        "kernpunt": "Vier verschillende juridische categorieën: belasting (art. 170 GW, wet vereist), retributie (vergoeding dienst, lagere norm volstaat), sociale bijdrage (financiert sociaal stelsel), administratieve boete (bestraffend karakter, andere procedure). Bij twijfel: kijk naar (a) wie de tegenprestatie krijgt — individueel of collectief; (b) wat het geld financiert — algemene uitgaven of specifiek stelsel.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscaal-recht"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "indeling-belastingen"
-    }
+    { "type": "valt_onder", "target": "fiscaal-recht" },
+    { "type": "vergelijkbaar_met", "target": "indeling-belastingen", "gelijkenissen": ["Beide kaderrecords helpen belastingen te ordenen"], "verschillen": ["Dit record: wat IS een belasting + waarom bestaat ze. Indeling-belastingen: hoe groeperen we de Belgische belastingen?"] }
   ]
 }
