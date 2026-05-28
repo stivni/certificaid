@@ -6,13 +6,18 @@
     "synoniemen": [
       "permanent establishment",
       "PE",
-      "permanente vestiging"
-    ]
+      "permanente vestiging",
+      "Belgische inrichting"
+    ],
+    "vertaling": {
+      "en": "permanent establishment",
+      "fr": "établissement stable"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit",
       "regeling"
@@ -21,9 +26,20 @@
       "2.8.V"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/vaste-inrichting.json",
+      "primary_bronnen": [
+        "OESO-modelverdrag art. 5",
+        "OESO-modelverdrag art. 7",
+        "WIB92 art. 229",
+        "Uitvoeringsverordening (EU) 282/2011 art. 11",
+        "Wet 19-12-2023 (Pijler 2) art. 3, 13°"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,6 +48,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (OESO-MV art. 5, WIB92 art. 229, BTW-VO 282/2011 art. 11). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
@@ -70,24 +93,568 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (vaste-inrichting).",
+        "tekst": "Een vaste inrichting (VI) is een vaste plaats van bedrijfsuitoefening van waaruit een onderneming geheel of gedeeltelijk haar activiteit uitoefent in een ander land dan dat van haar zetel. Het is hét toerekeningspunt in het internationaal fiscaal recht: een buitenlandse onderneming wordt door een staat slechts belast op haar ondernemingswinst wanneer ze in die staat een VI heeft (art. 7 OESO-modelverdrag). De definitie staat in art. 5 van het OESO-modelverdrag en wordt in België overgenomen voor de belasting van niet-inwoners (\"Belgische inrichting\", art. 229 WIB92). Naast het algemene begrip kent het verdrag drie functionele varianten: de klassieke VI (fysieke bedrijfsvestiging), de bouwwerf-VI (project > 12 maanden) en de agent-VI (afhankelijke vertegenwoordiger).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §1" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 229 §1" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De VI bepaalt of een buitenland-activiteit voldoende substantie heeft om door dat buitenland fiscaal gevangen te worden. Geen VI = geen buitenlands heffingsrecht op ondernemingswinst — alle winst blijft in de woonstaat. Wel VI = de buitenlandse staat mag de aan die VI toerekenbare winst belasten; de woonstaat moet die winst dan vrijstellen of de buitenlandse belasting verrekenen (afhankelijk van het verdrag). De VI-test is daarom dé scharnier tussen 'export vanuit thuisland' (geen buitenlandse belasting) en 'actieve aanwezigheid in het buitenland' (wel buitenlandse belasting). De drempel is bewust hoog: incidentele activiteiten of louter ondersteunende functies (opslag, aankoop, informatieverzameling) creëren geen VI.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 + art. 7" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese van VI-functie in DBV-systematiek" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis van de VI-drempel is een evenwicht tussen twee principes: (1) bronstaatheffing — een land mag belasten wat op zijn grondgebied wordt voortgebracht, want het stelt infrastructuur en rechtsbescherming ter beschikking; (2) administratieve drempel — een land moet niet elke buitenlandse onderneming jagen voor een marginale activiteit. De VI legt de grens: voldoende duurzame aanwezigheid (12 maanden voor bouw) en effectieve commerciële beslissingsbevoegdheid (agent die contracten sluit) wettigen heffing. Sinds BEPS Action 7 (2015-2017) is die drempel verlaagd voor commissionair-structuren en gefragmenteerde activiteiten, omdat multinationals VI-status systematisch trachtten te vermijden via formele dochterstructuren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §4.1 (anti-fragmentatie)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BEPS Action 7 doelstelling — standaardleer internationaal fiscaal" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "internationaal-fiscaal",
+        "dubbelbelastingverdrag",
+        "oeso-modelverdrag"
+      ],
+      "kader": "internationaal-fiscaal",
+      "naast_relevant": [
+        "fiscale-residentie",
+        "belasting-niet-inwoners"
+      ],
+      "volgkennis": [
+        "winst-naar-herkomst",
+        "buitenlandse-winst-en-verlies",
+        "beps-actieplan"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "OESO-modelverdrag art. 5 (2017-versie met BEPS-7-aanpassingen); WIB92 art. 229; MLI art. 12-15 voor verdragen die de Multilateral Instrument ratificeerden",
+        "toelichting": "Het VI-begrip is verdragsbepaald — het concrete DBV met de andere staat bepaalt de exacte drempels. Belgische DBV's met BEPS-MLI-implementatie hebben verlaagde drempels voor agent-VI en anti-fragmentatie."
+      },
+      "voor": [
+        {
+          "tekst": "Een Belgische vennootschap die in het buitenland een filiaal, kantoor, fabriek of werkplaats opent waaruit zij effectief haar bedrijf uitoefent — toetsen of dit een VI is in dat land.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §2" }
+            ]
+          }
+        },
+        {
+          "tekst": "Een buitenlandse onderneming die in België een vaste bedrijfsinrichting heeft: belasting van niet-inwoners op de aan die Belgische inrichting toerekenbare winst (art. 228 §2 + 229 WIB92).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 229" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Loutere export vanuit België zonder enige fysieke of personele aanwezigheid in de bestemmingsstaat — geen VI, dus geen buitenlandse heffing op de exportwinst.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §1" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        },
+        {
+          "tekst": "Een dochtervennootschap is op zich géén VI van haar moeder — controle alleen volstaat niet (art. 5 §7 OESO-MV). Maar als de dochter handelt als afhankelijke agent met contractsluitingsbevoegdheid, kan ze tóch een agent-VI vormen voor de moeder.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §7 + §5" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Klassieke VI vereist cumulatief: (1) een plaats van bedrijfsuitoefening (fysieke locatie); (2) een vaste karakter (zekere duurzaamheid en geografische bestendigheid); (3) waarvan de werkzaamheden van de onderneming geheel of gedeeltelijk worden uitgeoefend (effectieve commerciële activiteit).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §1" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Niet-erkenning van een VI waar die wel bestaat → buitenlandse belastingadministratie kan navorderen + boetes + reputatie. Omgekeerd: erkenning van een VI waar die er niet is → onnodige aangifte- en administratieve last in beide landen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkrisico internationaal fiscaal advies" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "klassieke-vi",
+        "naam": {
+          "primair": "Klassieke vaste inrichting (art. 5 §2)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De klassieke VI is een fysieke, vaste plaats van bedrijfsuitoefening. Art. 5 §2 OESO-MV somt voorbeelden op: (a) plaats van leiding, (b) filiaal, (c) kantoor, (d) fabriek, (e) werkplaats, (f) mijn / olie- of gasbron / steengroeve / andere natuurlijke-rijkdommen-winning. WIB92 art. 229 §1, 1°-9° voegt voor België toe: agentuur en opslagplaats. De lijst is illustratief — elke vaste plaats die voldoet aan de algemene definitie van §1 is een VI, zelfs als ze niet in de lijst staat.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §2" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 229 §1, 1°-9°" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "bouwwerf-vi",
+        "naam": {
+          "primair": "Bouwwerf-VI (12-maanden-drempel)"
+        },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een bouw- of constructie- of installatieproject vormt slechts een VI als het langer dan 12 maanden duurt (art. 5 §3 OESO-MV). De Belgische interne wet (WIB92 art. 229 §1, 8°) hanteert echter een veel lagere drempel: een ononderbroken periode van meer dan 30 dagen. Bij conflict primeert het DBV met de andere staat: voor verdragslanden geldt de 12-maanden-drempel, voor niet-verdragslanden de 30-dagen-drempel van het WIB92. Bij gelijktijdige sub-werven van dezelfde onderneming worden de periodes samengevoegd om opsplitsing tegen te gaan.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §3" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 229 §1, 8°" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "vergelijkingstabel",
+            "kopjes": ["Aspect", "Verdrag (OESO-MV)", "Intern recht (WIB92)"],
+            "rijen": [
+              ["Drempel", "> 12 maanden", "> 30 dagen ononderbroken"],
+              ["Toepasselijk wanneer", "DBV met andere staat", "Geen DBV"],
+              ["Combinatie sub-werven", "Periodes worden samengeteld", "Idem (anti-opsplitsing)"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agent-vi",
+        "naam": {
+          "primair": "Agent-VI (afhankelijke vertegenwoordiger)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer iemand in een verdragsstaat handelt namens een buitenlandse onderneming en daarbij gewoonlijk contracten afsluit — óf gewoonlijk de hoofdrol speelt bij het tot stand komen van contracten die routinematig zonder wezenlijke wijziging door de onderneming worden bekrachtigd — vormt die persoon een agent-VI voor de onderneming. De BEPS-7-aanpassing (2017) verlaagde de drempel: vroeger moest de agent letterlijk contracten in naam van de onderneming sluiten; nu volstaat een feitelijke hoofdrol. Het contract moet wel betrekking hebben op (a) eigendomsoverdracht, (b) gebruiksrecht op eigendom, of (c) dienstverrichting door de onderneming.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §5" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "onafhankelijke-agent-uitzondering",
+        "naam": {
+          "primair": "Onafhankelijke agent (uitzondering)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Een echt onafhankelijke agent (makelaar, commissionair, andere zelfstandige bemiddelaar) die in het gewone kader van zijn eigen bedrijf handelt, vormt géén agent-VI (art. 5 §6 OESO-MV). Maar BEPS-7 voegde een belangrijke beperking toe: wie quasi-exclusief voor één of meerdere nauw-verbonden ondernemingen werkt, wordt niet als onafhankelijk beschouwd. Nauw verbonden = > 50 % belang of gemeenschappelijke controle.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §6 + §8" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "geen-vi-uitzonderingen",
+        "naam": {
+          "primair": "Geen-VI uitzonderingen (voorbereidend of hulpkarakter)"
+        },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 5 §4 OESO-MV sluit uit als VI: (a) gebruik van inrichtingen louter voor opslag, vertoning of levering; (b) een voorraad uitsluitend voor opslag, vertoning of levering; (c) een voorraad uitsluitend voor bewerking door een andere onderneming; (d) een vaste plaats louter voor aankoop van goederen of voor inwinnen van inlichtingen; (e) een vaste plaats louter voor enige andere activiteit; (f) elke combinatie van (a)-(e). Voorwaarde sinds BEPS-7: alle activiteiten moeten een voorbereidend of hulpkarakter hebben — wat vroeger automatisch werd verondersteld, moet nu effectief worden getoetst.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §4" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "anti-fragmentatie-regel",
+        "naam": {
+          "primair": "Anti-fragmentatie-regel (BEPS Action 7)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Art. 5 §4.1 (sinds BEPS-7, 2017) verhindert dat ondernemingen één commerciële activiteit kunstmatig in stukken splitsen om elk stuk onder de voorbereidend-of-hulpkarakter-uitzondering te brengen. Als dezelfde of een nauw-verbonden onderneming op dezelfde plek of een andere plek in dezelfde staat bedrijfsactiviteiten verricht die samen complementaire functies van één samenhangend bedrijfsproces vormen, en dat geheel niet voorbereidend of hulp is, dan wordt de §4-uitzondering niet toegestaan. Voorbeeld: een buitenlandse e-commerce groep met (1) een opslagloods + (2) een aparte showroom + (3) een aankoopkantoor — vroeger drie keer hulp, nu één gefragmenteerd geheel = VI.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §4.1" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-vaste-inrichting",
+        "naam": {
+          "primair": "VI-begrip in btw (afwijkend)"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Het btw-begrip vaste inrichting is een ander concept dan de fiscale VI van art. 5 OESO-MV. In de btw (art. 11 Uitvoeringsverordening EU 282/2011) is een VI elke andere inrichting dan de zetel die wordt gekenmerkt door (1) voldoende duurzaamheid en (2) een geschikte structuur in personeel en technische middelen om diensten af te nemen óf te verrichten. Een btw-identificatienummer alleen volstaat niet om een VI vast te stellen. Praktisch belang: bepaalt waar diensten plaatsvinden voor btw-doeleinden (B2B-locatie- en verleggingsregel art. 44-45 BTW-richtlijn). Niet verwarren met de inkomstenbelasting-VI.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "Uitvoeringsverordening (EU) 282/2011", "ref": "art. 11" },
+                { "type": "wettekst", "naam": "Uitvoeringsverordening (EU) 282/2011", "ref": "art. 53" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "digitale-economie-vi",
+        "naam": {
+          "primair": "Digitale economie en VI-uitbreiding"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De traditionele VI-test gaat uit van fysieke aanwezigheid — wat tekortschiet bij volledig gedigitaliseerde businessmodellen (online platforms, streaming, cloud-diensten) die wel in een land verkopen maar daar geen fysieke aanwezigheid hebben. BEPS-1 (digitale economie) en OECD Pillar One (2021-) introduceren een Amount-A-mechanisme dat heffingsrechten herverdeelt naar marktstaten zonder fysieke VI te vereisen. Voor Belgische accountants betekent dit: voor cliënten in digitale sectoren niet enkel de klassieke VI-test toepassen, maar ook nakijken welke marktstaten unilateraal Digital Services Taxes hebben ingevoerd en wat de status is van Pillar One-implementatie in elke betrokken staat.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BEPS Action 1 + OECD Pillar One — standaardleer internationaal fiscaal recht" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-belgische-bouwwerf-duitsland",
+        "titel": "Belgische bouwonderneming met werf in Duitsland",
+        "context": "Aurelia Bouw NV uit Antwerpen voert van januari N tot mei N+1 (17 maanden) een grote installatie uit op één locatie in Duitsland. Er is geen kantoor in Duitsland — wel een tijdelijke werfdirectie ter plaatse.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "DBV België-Duitsland", "ref": "art. 5 §3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 — toets klassieke VI: vaste plek? Werfdirectie is een vaste plaats van bedrijfsuitoefening — ja.",
+              "Stap 2 — duurzaamheid: 17 maanden > 12 maanden DBV-drempel — ja, bouwwerf-VI in Duitsland.",
+              "Stap 3 — gevolg: Duitsland mag de aan de werf-VI toerekenbare winst belasten (art. 7 DBV).",
+              "Stap 4 — België vrijstelling met progressievoorbehoud (art. 23 DBV) — Duitse winst telt mee voor het tarief op het Belgische deel.",
+              "Stap 5 — administratie: registratie als VI in Duitsland, lokale aangifte, transfer-pricing tussen hoofdkantoor en VI."
+            ],
+            "resultaat": "VI-status erkennen voorkomt navordering door Duitse fiscus + correcte vrijstelling in België."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-commissionair-bedreiging",
+        "titel": "Commissionair-structuur na BEPS-7",
+        "context": "Een Franse moedervennootschap verkocht historisch via een Belgische commissionair (BV Comm-Be) die contracten sluitte in eigen naam maar voor rekening van Frankrijk. Pre-BEPS: geen agent-VI in België (commissionair sloot in eigen naam, niet in naam van Frankrijk).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §5 (post-BEPS-7)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "BEPS-7 commissionair-arrangement" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Onder de pre-2017 OESO-versie ontsnapten commissionair-structuren aan agent-VI: de formele tekst eiste contracten 'in naam van' de buitenlandse onderneming. Post-BEPS-7 (MLI art. 12): wie 'gewoonlijk de hoofdrol speelt bij de totstandkoming van contracten die routinematig zonder wezenlijke wijziging worden bekrachtigd' is voldoende. BV Comm-Be wordt dus een agent-VI van Frankrijk in België — gevolg: Belgische heffing op de aan de VI toerekenbare winst.\n\n```mermaid\nflowchart LR\n  A[Klant BE] --> B[BV Comm-Be commissionair]\n  B -.contract eigen naam.-> A\n  B -->|hoofdrol-totstandkoming| C[Franse moeder]\n  C -.eindbeslissing zonder wezenlijke wijziging.-> B\n  D[Post-BEPS-7: agent-VI in BE] -.gevolg.-> B\n```"
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-geen-vi-opslag",
+        "titel": "Pure logistieke opslag — geen VI (tenzij fragmentatie)",
+        "context": "Een Nederlands e-commerce bedrijf huurt in Luik een warehouse waarin enkel goederen worden opgeslagen die rechtstreeks worden verzonden naar Belgische consumenten. Geen personeel met beslissingsbevoegdheid, geen aankoopkantoor, geen showroom.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "DBV België-Nederland", "ref": "art. 5 §4 + §4.1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Test 1 — klassieke VI: opslagplaats valt onder art. 5 §4(a) — geen VI mits voorbereidend/hulpkarakter.",
+              "Test 2 — anti-fragmentatie: heeft Nederlands bedrijf elders in BE complementaire activiteiten (showroom, klantendienst, aankoop)? Hier: nee.",
+              "Conclusie: geen VI in België — winst volledig belastbaar in Nederland."
+            ],
+            "resultaat": "Geen Belgische heffing. Maar: als er ook een showroom in Brussel en een klantendienst in Gent zouden zijn — dan §4.1-toetsing — samen één samenhangend bedrijfsproces = wel VI."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "VI-begrip btw en VI-begrip inkomstenbelasting verwarren",
+        "verkeerde_assumptie": "Studenten denken dat 'vaste inrichting' één eenvormig begrip is — als iets een btw-VI is, is het ook een fiscale VI en omgekeerd.",
+        "kernpunt": "Twee verschillende rechtsbronnen, twee verschillende drempels. Btw-VI (art. 11 VO 282/2011): personeel + technische middelen om diensten af te nemen/leveren — drempel relatief laag. Fiscale VI (art. 5 OESO-MV): vaste plaats van bedrijfsuitoefening + 12-maanden voor bouw — drempel hoger en functioneel anders. Een btw-VI is niet automatisch een fiscale VI; een fiscale VI is meestal wel een btw-VI maar niet noodzakelijk.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5" },
+            { "type": "wettekst", "naam": "Uitvoeringsverordening (EU) 282/2011", "ref": "art. 11" }
+          ]
+        }
+      },
+      {
+        "titel": "Dochtervennootschap automatisch beschouwen als VI van de moeder",
+        "verkeerde_assumptie": "Als een Belgische BV een Nederlandse dochter heeft, is die dochter een VI van de BV in Nederland.",
+        "kernpunt": "Art. 5 §7 OESO-MV is duidelijk: controle over een dochter alleen volstaat niet om de dochter als VI van de moeder te kwalificeren. De dochter is een aparte rechtspersoon met eigen fiscale residentie. Maar opgelet: als de dochter feitelijk handelt als afhankelijke agent voor de moeder (contracten sluit in naam van of bij hoofdrol-totstandkoming voor de moeder), kan ze tóch een agent-VI vormen — niet vanwege haar status als dochter maar vanwege haar activiteit.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §5 + §7" }
+          ]
+        }
+      },
+      {
+        "titel": "WIB92-30-dagen-drempel voor bouwwerken automatisch toepassen",
+        "verkeerde_assumptie": "Voor elke buitenlandse bouwonderneming in België na 30 dagen 'VI' aannemen.",
+        "kernpunt": "WIB92 art. 229 §1, 8° hanteert 30 dagen, maar wordt opzij gezet door het DBV met de andere staat (12 maanden in OESO-MV). De 30-dagen-drempel geldt enkel voor ondernemingen uit niet-verdragslanden. Bij Belgische bouwers in Duitsland of Frankrijk: 12-maanden-toets. Bij bouwers uit landen zonder Belgisch DBV: 30-dagen-toets.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 229 §1, 8°" },
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §3" }
+          ]
+        }
+      },
+      {
+        "titel": "Voorbereidend/hulpkarakter automatisch aanvinken bij opslag, aankoop, info-verzameling",
+        "verkeerde_assumptie": "Studenten lijsten de art. 5 §4-uitzonderingen mechanisch af: opslag = geen VI; aankoop = geen VI.",
+        "kernpunt": "Sinds BEPS-7 (art. 5 §4) is voorbereidend/hulpkarakter een effectieve toets, niet een automaat. Als opslag-activiteit een essentieel onderdeel is van het kernbedrijf (bv. distributie-onderneming waarvan opslag DE bedrijfsactiviteit is), is ze niet hulp — wel VI. Plus: anti-fragmentatie-regel §4.1 telt complementaire activiteiten samen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5 §4 + §4.1" }
+          ]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "beslisboom",
+        "intro": "Beslisboom: heeft mijn buitenlandse cliënt een VI in België (of mijn Belgische cliënt een VI in het buitenland)?",
+        "inhoud": {
+          "mermaid": "flowchart TD\n  Start[Activiteit in andere staat?] --> Fysiek{Vaste fysieke plaats?}\n  Fysiek -->|Nee| Agent{Persoon sluit gewoonlijk contracten of speelt hoofdrol?}\n  Fysiek -->|Ja| Klassiek{Voorbereidend of hulpkarakter?}\n  Klassiek -->|Ja, ook na §4.1-toets| GeenVI[Geen VI]\n  Klassiek -->|Nee| KlassiekeVI[Klassieke VI]\n  Klassiek -->|Bouw/installatie| Bouw{Duur > drempel?}\n  Bouw -->|Ja| BouwVI[Bouwwerf-VI]\n  Bouw -->|Nee| GeenVI\n  Agent -->|Ja| Onafh{Onafhankelijk in eigen bedrijf?}\n  Onafh -->|Ja en niet-quasi-exclusief| GeenVI\n  Onafh -->|Nee| AgentVI[Agent-VI]\n  Agent -->|Nee| GeenVI"
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "be-bedrijf-met-buitenland-activiteit",
+      "naam": {
+        "primair": "Belgische cliënt met buitenlandse activiteit"
+      },
+      "intro": "Belgische vennootschap die in het buitenland activiteit opzet of uitbreidt — accountant moet VI-risico in beeld brengen en gevolgen voor de Belgische aangifte voorbereiden.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "vi-check-bij-uitbreiding",
+              "naam": {
+                "primair": "VI-check bij elke buitenlandse uitbreiding"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke nieuwe buitenlandse activiteit (kantoor, verkoper, werf, projectteam): VI-test uitvoeren in de andere staat — niet alleen art. 5 OESO-MV, ook het concrete DBV met die staat consulteren. Documenteer: type aanwezigheid, duur, contractsluitingsbevoegdheid van lokaal personeel, omvang van activiteit. Bij twijfel: ruling vragen bij de buitenlandse fiscus of Belgische DVB voor advance pricing.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 5" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard internationaal-fiscale praktijk" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "vrijstelling-koppeling",
+              "naam": {
+                "primair": "Belgische aangifte: vrijstelling met progressievoorbehoud"
+              },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer in het buitenland een VI is gevestigd en het DBV een vrijstellingsmethode hanteert (klassieke Belgische verdragen): de aan de VI toerekenbare winst wordt in België vrijgesteld, maar telt mee voor de bepaling van het belastingtarief (vrijstelling met progressievoorbehoud). In de Belgische aangifte: VI-resultaat opnemen, daarna in de vrijstellings-code uitsluiten. Documenten ter ondersteuning: lokale aangifte + bewijs van belasting in andere staat.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "modelverdrag", "naam": "OESO-modelverdrag", "ref": "art. 23A" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 155" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "structurerings-advies",
+              "naam": {
+                "primair": "Structureringsadvies pre-VI"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor cliënten die op het punt staan in een nieuw land actief te worden: weeg drie scenario's tegen elkaar af — (1) zuivere export zonder fysieke aanwezigheid (geen VI, alle winst in BE); (2) VI als filiaal (lokale belasting + vrijstelling/verrekening in BE); (3) dochtervennootschap (eigen belastbaarheid + DBI-aftrek bij dividenduitkering). Elk scenario heeft eigen voor- en nadelen qua belasting, aansprakelijkheid en compliance. Cijferzakboekje + lokale tarieven raadplegen voor concrete vergelijking.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Internationaal structureringsadvies — standaardpraktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "buitenlands-bedrijf-in-be",
+      "naam": {
+        "primair": "Buitenlandse cliënt met activiteit in België"
+      },
+      "intro": "Buitenlandse onderneming met aanwezigheid in België — accountant moet VI-status, BNI-aangifteplicht en winstoerekening regelen.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "bni-registratie",
+              "naam": {
+                "primair": "BNI-registratie bij Belgische VI"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Wanneer art. 229 WIB92 + DBV samen leiden tot een VI in België: registratie als belastingplichtige van de belasting van niet-inwoners (BNI), aangifte 276.2 indienen. Alleen de aan de Belgische inrichting toerekenbare winst is belastbaar (art. 228 §2, 3° WIB92). Geen wereldwinst-belasting — wel volle aangifteplicht voor de Belgische tak.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 228 §2, 3°" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 229" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
       "target": "internationaal-fiscaal"
+    },
+    {
+      "type": "vereist",
+      "target": "dubbelbelastingverdrag",
+      "toelichting": "Het concrete DBV bepaalt het toepasselijke VI-begrip; het OESO-modelverdrag is geen recht maar template."
+    },
+    {
+      "type": "triggert",
+      "target": "winst-naar-herkomst",
+      "toelichting": "Eens een VI vaststaat, moet winst worden toegerekend aan de VI volgens art. 7 OESO-MV — separate-entity-fictie."
+    },
+    {
+      "type": "triggert",
+      "target": "buitenlandse-winst-en-verlies",
+      "toelichting": "VI-resultaat moet in de Belgische aangifte worden opgenomen + vrijgesteld/verrekend volgens DBV-methode."
+    },
+    {
+      "type": "triggert",
+      "target": "belasting-niet-inwoners",
+      "toelichting": "Een Belgische inrichting (art. 229 WIB92) is de Belgische pendant van het VI-begrip en triggert BNI-aangifteplicht."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "beps-actieplan",
+      "toelichting": "BEPS Action 7 (commissionairs, anti-fragmentatie, voorbereidend/hulpkarakter) verlaagde de VI-drempel sinds 2017; geïmplementeerd via MLI."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "mli-instrument",
+      "toelichting": "Het Multilateraal Instrument past in één pen DBV's aan met de BEPS-7-VI-bepalingen."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-residentie",
+      "gelijkenissen": [
+        "Beide bepalen of een staat heffingsrecht heeft op een onderneming",
+        "Beide gebaseerd op het DBV-systeem"
+      ],
+      "verschillen": [
+        "Fiscale residentie: wereldwinst-belastbaarheid (subjectief)",
+        "Vaste inrichting: enkel toerekenbare winst (objectief, beperkt tot VI-deel)",
+        "Residentie geldt voor de hele onderneming; VI is een operationele onderafdeling"
+      ],
+      "verwarring_risico": "Studenten verwarren residentie (wie ben ik?) met VI (wat doe ik waar?). Eén onderneming kan op één plek resident zijn en op vijf andere plekken een VI hebben.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
