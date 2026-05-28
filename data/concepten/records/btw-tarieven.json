@@ -2,25 +2,30 @@
   "id": "btw-tarieven",
   "naam": {
     "primair": "BTW-tarieven",
-    "synoniemen": [
-      "BTW-tarief",
-      "VAT rates"
-    ]
+    "synoniemen": ["BTW-percentages", "tariefstructuur BTW"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.I"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.4.I"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (claude-sonnet-4-5)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/btw-tarieven.json",
+      "primary_bronnen": [
+        "KB nr. 20 art. 1",
+        "KB nr. 20 Tabel A",
+        "KB nr. 20 Tabel B",
+        "KB nr. 20 Tabel C",
+        "Richtlijn 2006/112/EG art. 1 + art. 99",
+        "WBTW art. 37"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -28,7 +33,13 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:30:00Z",
+        "model": "claude-sonnet-4-5",
+        "wijziging": "Pass 1 content — vier tarieven (0/6/12/21) + Tabellen + onderscheid vrijstelling/nultarief"
       }
     ],
     "scope": {
@@ -40,40 +51,335 @@
         "Vrijgesteld vs nultarief (recht op aftrek-onderscheid)"
       ],
       "out": [
-        {
-          "topic": "Vrijstellingen art 44 (zonder aftrek-recht)",
-          "richting": "moet-verwijzen",
-          "ref": "btw-vrijstellingen"
-        },
-        {
-          "topic": "Tariefkeuze BTW-vastgoed nieuwbouw",
-          "richting": "mag-verwijzen",
-          "ref": "btw-vastgoed"
-        }
+        {"topic": "Vrijstellingen art 44 (zonder aftrek-recht)", "richting": "moet-verwijzen", "ref": "btw-vrijstellingen"},
+        {"topic": "Tariefkeuze BTW-vastgoed nieuwbouw", "richting": "mag-verwijzen", "ref": "btw-vastgoed"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-tarieven).",
+        "tekst": "Het Belgische BTW-stelsel kent vier tarieven, vastgelegd in KB nr. 20: het normale tarief van 21 % (default voor alles wat niet uitdrukkelijk anders is geregeld), en drie verlaagde tarieven: 6 % (Tabel A — eerste levensbehoeften), 12 % (Tabel B — beperkte selectie) en 0 % (Tabel C — kranten en dagbladen sinds 1 april 2019). Het tarief volgt het goed of de dienst, niet de partijen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "kb", "naam": "KB nr. 20", "ref": "art. 1"},
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 37"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De tariefverlaging dient een sociaal-fiscaal doel: eerste levensbehoeften (voeding, water, geneesmiddelen, boeken) en cultureel/sociaal belangrijke goederen (sociale huisvesting, openbaar vervoer) worden minder belast om de impact op lage inkomens te verzachten. Het normale tarief van 21 % financiert de hoofdmoot van BTW-ontvangsten. Voor de belastingplichtige bepaalt het tarief: (1) de op te leggen BTW aan de afnemer; (2) het rooster waarin de handeling op de aangifte komt (rooster 01 = 6 %, rooster 02 = 12 %, rooster 03 = 21 %); (3) het bedrag van zijn factuur.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB nr. 20", "ref": "art. 1"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Ratio sociaal-fiscale tariefverlaging — standaardleer"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het EU-stelsel (Richtlijn 2006/112) beperkt de speelruimte van de lidstaten: verlaagde tarieven moeten ten minste 5 % bedragen (art. 99), het normale tarief ten minste 15 % (art. 96). De Bijlage III van de richtlijn lijst de categorieën op waarop een verlaagd tarief mag toegepast worden. België heeft binnen die marge gekozen voor 21 / 12 / 6 / 0. De nul-tarief-Tabel C is gestoeld op overgangsbepalingen art. 110 Richtlijn die bestaande nul-tarieven toelaten.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 96 + art. 99 + art. 110"},
+            {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "Bijlage III"}
           ]
         }
       }
-    }
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "KB nr. 20 (basis 20-07-1970, herhaaldelijk aangepast)",
+        "toelichting": "Tarieven evolueren regelmatig. Recente tijdelijke maatregelen (bv. 6 % afbraak-en-heropbouw, 6 % energieleveringen) zijn telkens met KB ingevoegd in KB nr. 20 of via tijdelijke artikelen (art. 1bis, 1ter, 1quater, 1sexies). Voor het examen: actuele tabellen raadplegen via Cijferzakboekje."
+      }
+    },
+    "subconcepten": [
+      {
+        "id": "tarief-21-standaard",
+        "naam": {"primair": "Standaardtarief 21 %"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "21 % is het normale (default) tarief voor alle leveringen van goederen en diensten in België, tenzij ze expliciet in Tabel A (6 %), Tabel B (12 %) of Tabel C (0 %) van KB nr. 20 voorkomen. Heuristiek voor de stagiair: in twijfel = 21 %.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [{"type": "kb", "naam": "KB nr. 20", "ref": "art. 1, eerste lid"}]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "tarief-6-tabel-a",
+        "naam": {"primair": "Verlaagd tarief 6 % — Tabel A"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "6 % geldt voor goederen en diensten opgesomd in Tabel A van KB nr. 20. Belangrijke rubrieken voor de stagiair: voeding voor menselijke consumptie (rubriek I-II), water (XI), boeken en periodieken (XIX), geneesmiddelen (XVII), personenvervoer (XXV), hotelaccommodatie en kamperingactiviteiten (XXX), werk in onroerende staat aan privéwoningen ouder dan 10 jaar (XXXI), afbraak-en-heropbouw van woningen (XXXVII), kleine hersteldiensten — fietsen, schoeisel, kleding (XXXIX).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel A"},
+                  {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel A rubriek XXXIX"}
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "renovatie-6-procent",
+              "naam": {"primair": "Renovatie woningen ouder dan 10 jaar (Tabel A XXXI)"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Werk in onroerende staat aan een privéwoning krijgt 6 % BTW indien cumulatief: (1) de woning is bij aanvang van de werken minstens 10 jaar in gebruik (vroeger 5 jaar); (2) de werken hebben betrekking op de eigenlijke woning (niet tuinaanleg, zwembad, sauna); (3) de woning wordt hoofdzakelijk als privéwoning gebruikt; (4) de werken worden uitgevoerd door een geregistreerd aannemer aan de eindgebruiker. Het 6 %-tarief geldt op de volledige factuur (materialen + arbeid). Bij twijfel: verklaring van de klant.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel A rubriek XXXI"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "afbraak-heropbouw-6",
+              "naam": {"primair": "Afbraak-en-heropbouw 6 %"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Sinds 2021 (eerst tijdelijk, sinds 2024 structureel in beperkte vorm) geldt 6 % BTW voor afbraak van een gebouw + heropbouw van een woning, wanneer de bouwheer een natuurlijk persoon is die de woning enige + eigen + hoofdverblijfplaats maakt voor minstens 5 jaar, met oppervlakte- en prijslimieten. Buiten dit regime: 21 % op nieuwbouw.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel A — afbraak en heropbouw"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "id": "tarief-12-tabel-b",
+        "naam": {"primair": "Verlaagd tarief 12 % — Tabel B"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "12 % geldt voor een beperkte, eerder historische selectie: restaurant- en cateringdiensten exclusief dranken (rubriek I), fytofarmaceutische producten (III), margarine (VI), banden voor landbouwmachines (VII), sociale huisvesting privé-initiatief (rubriek XI: verhuur aan publieke instellingen) en de sociale huisvestingsmaatschappijen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel B rubriek I"},
+                  {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel B rubriek VI"},
+                  {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel B rubriek XI"}
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "tarief-0-tabel-c",
+        "naam": {"primair": "Nultarief 0 % — Tabel C"},
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Sinds 1 april 2019 geldt het nultarief van 0 % voor de goederen en diensten in Tabel C (KB nr. 20 art. 1, c). De belangrijkste categorie zijn dagbladen en weekbladen (geprint of digitaal) die ten minste 48 keer per jaar verschijnen. Cruciaal: nultarief is NIET hetzelfde als een vrijstelling — bij 0 % behoudt de leverancier zijn recht op aftrek van voorbelasting.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "kb", "naam": "KB nr. 20", "ref": "art. 1, c)"},
+                  {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel C"}
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "vrijstelling-vs-nultarief",
+        "naam": {"primair": "Vrijstelling vs nultarief — sleutel-onderscheid"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Beide gevallen tonen 'geen BTW op de factuur', maar het verschil zit in het recht op aftrek bij de leverancier: (1) bij een vrijstelling zonder aftrek (art. 44 WBTW — bv. medische diensten, onderwijs, financiële diensten) mag de leverancier zijn voorbelasting NIET aftrekken — de BTW op zijn aankopen wordt een kostprijs; (2) bij een vrijstelling met aftrek (= 0 %-tarief of vrijstelling export/IC-levering) BEHOUDT hij het recht op aftrek — economisch geen BTW-kost. Voor consumentenprijs: 0 % is goedkoper dan een echte vrijstelling, want de leverancier hoeft de niet-aftrekbare BTW niet door te rekenen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 44"},
+                {"type": "kb", "naam": "KB nr. 20", "ref": "art. 1, c)"},
+                {"type": "richtlijn", "naam": "Richtlijn 2006/112/EG", "ref": "art. 110 + art. 168"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tariefkeuze-bij-twijfel",
+        "naam": {"primair": "Vuistregel bij twijfel"},
+        "bouwsteen_type": "vuistregel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij onzekerheid over toepasselijk tarief: pas 21 % toe en raadpleeg de specifieke rubriek in KB nr. 20. Te laag tarief = boete + nabetaling met interest; te hoog tarief = onverschuldigd betaald maar correcties mogelijk. Bij complexe constructies (bv. werk in onroerende staat dat deels privé/deels beroeps is): voorafgaande beslissing van de fiscus (ruling) vragen via art. 84 WBTW.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WBTW", "ref": "art. 84"},
+                {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijkadvies"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-tarieven-handelaar",
+        "titel": "Kruidenier — drie tarieven naast elkaar",
+        "context": "Een kruidenier verkoopt: 200 EUR voeding (6 %), 50 EUR alcoholische dranken (21 %), 30 EUR fietsherstelling (6 %), 80 EUR koffiekoek voor consumptie ter plaatse (12 % als restaurant-/cateringdienst zonder drank).",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Voeding 6 %: 200 EUR × 6 % = 12 EUR — rooster 01",
+              "Alcohol 21 %: 50 EUR × 21 % = 10,50 EUR — rooster 03",
+              "Fietsherstelling 6 % (Tabel A XXXIX): 30 EUR × 6 % = 1,80 EUR — rooster 01",
+              "Catering 12 % (Tabel B I): 80 EUR × 12 % = 9,60 EUR — rooster 02"
+            ],
+            "resultaat": "Totaal BTW verschuldigd: 33,90 EUR. Totaal incl. BTW: 393,90 EUR. Op de BTW-aangifte: rooster 01 (230 EUR), rooster 02 (80 EUR), rooster 03 (50 EUR)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel A + Tabel B"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-renovatie",
+        "titel": "Renovatie privéwoning — 6 %",
+        "context": "Aurelia laat haar woning (gebouwd in 2010) renoveren in 2026. Aannemer factureert 50.000 EUR (materialen + arbeid).",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — woning-leeftijd: 16 jaar bij aanvang werken in 2026 ✓ (> 10 jaar)",
+              "Stap 2 — privéwoning ✓",
+              "Stap 3 — werken aan eigenlijke woning ✓ (niet tuin/zwembad)",
+              "Stap 4 — geregistreerd aannemer levert rechtstreeks aan eindgebruiker ✓",
+              "Stap 5 — 6 %-tarief: 50.000 × 6 % = 3.000 EUR BTW",
+              "Vergelijking bij 21 %: 50.000 × 21 % = 10.500 EUR — verschil 7.500 EUR voor de klant"
+            ],
+            "resultaat": "Factuur: 50.000 EUR + 3.000 EUR BTW = 53.000 EUR. Aannemer bewaart verklaring 'gebruikt als privéwoning > 10 jaar' bij de boekhouding."
+          }
+        ],
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "kb", "naam": "KB nr. 20", "ref": "Tabel A rubriek XXXI"}]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "0 % verwarren met vrijstelling",
+        "verkeerde_assumptie": "0 %-tarief en art. 44-vrijstelling zijn beide 'geen BTW' — dus equivalent.",
+        "kernpunt": "Zeer verschillend voor de leverancier: 0 % behoudt aftrekrecht op aankopen; art. 44-vrijstelling verliest aftrekrecht. De krantenuitgever met 0 % kan zijn drukkosten-BTW recupereren; de arts (art. 44) kan zijn medisch-materiaal-BTW NIET recupereren — dat wordt een kostprijs.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 44 + art. 45"},
+            {"type": "kb", "naam": "KB nr. 20", "ref": "art. 1, c)"}
+          ]
+        }
+      },
+      {
+        "titel": "Drank in restaurant ≠ 12 %",
+        "verkeerde_assumptie": "Een restaurant rekent 12 % BTW op de hele rekening.",
+        "kernpunt": "Tabel B I expliciet: 'Restaurant- en cateringdiensten, met uitsluiting van het verschaffen van dranken.' Het 12 %-tarief geldt voor het eten; dranken (alcoholisch én niet-alcoholisch) blijven aan 21 %. De rekening moet eten + drank scheiden.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "kb", "naam": "KB nr. 20", "ref": "Tabel B rubriek I"}]
+        }
+      },
+      {
+        "titel": "Renovatie-tarief 6 % toepassen op tuinwerken of zwembad",
+        "verkeerde_assumptie": "Alle werken aan de woning krijgen 6 %.",
+        "kernpunt": "KB nr. 20 sluit uitdrukkelijk uit: tuinaanleg, afsluitingen, zwembaden, sauna's, tennisterreinen. Ook verwarmingsketels in appartementsgebouwen + liftinstallaties (deel van de prijs). Daar geldt 21 %. Op één factuur kunnen 6 % en 21 % naast elkaar staan.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "kb", "naam": "KB nr. 20", "ref": "Tabel A rubriek XXXI § 4"}]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "btw"
+      "id": "kantoor-tarief-keuze",
+      "naam": {"primair": "Kantoor adviseert cliënt over tarief"},
+      "intro": "De accountant die tariefkeuzes verifieert in de facturatie van zijn cliënt of bij voorbereiding advies geeft over het correcte tarief.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "tarief-controle-facturatie",
+              "naam": {"primair": "Controle juistheid tarief op factuur"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij periodieke BTW-aangifte de samenstelling rooster 01/02/03 vergelijken met de bedrijfsactiviteit: een cliënt met enkel 21 %-activiteit en plots een groot bedrag in rooster 01 = signaal voor verkeerde tariefkeuze. Steekproef op uitgaande facturen per tariefcode. Bij twijfel rubriek KB nr. 20 opzoeken of ruling vragen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB nr. 20", "ref": "art. 1"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Standaard-controleprocedure kantoor"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-renovatie",
+              "naam": {"primair": "Advies bij renovatie-project — 6 % bewaken"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij een particuliere cliënt die renovatie plant: nagaan dat de woning > 10 jaar oud is bij aanvang van werken (anders 21 %). Verklaring van de klant aan de aannemer afgeven. Voor nieuwbouw: standaard 21 % tenzij afbraak-en-heropbouw-regime van toepassing is (5-jaar-eigen-bewoning-engagement vereist).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "kb", "naam": "KB nr. 20", "ref": "Tabel A rubriek XXXI"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijkadvies"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "btw"},
+    {"type": "vergelijkbaar_met", "target": "btw-vrijstellingen", "gelijkenissen": ["Beide tonen 'geen of weinig BTW' op de factuur"], "verschillen": ["Nultarief (Tabel C) = recht op aftrek behouden; art. 44-vrijstelling = geen recht op aftrek"], "verwarring_risico": "Stagiairs zien beide als 'geen BTW' maar economisch zijn ze fundamenteel anders.", "render_hint": "als_waarschuwing"}
   ]
 }
