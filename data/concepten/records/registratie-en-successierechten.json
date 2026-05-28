@@ -1,32 +1,30 @@
 {
   "id": "registratie-en-successierechten",
   "naam": {
-    "primair": "Registratie- en successierechten"
+    "primair": "Registratie- en successierechten",
+    "synoniemen": ["registratie- en successiebelasting", "RSR"],
+    "vertaling": {"fr": "droits d'enregistrement et de succession"}
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.6.I",
-      "2.6.II",
-      "2.6.III",
-      "2.6.IV",
-      "2.6.V",
-      "2.6.VI",
-      "2.6.taak.1",
-      "2.6.taak.2",
-      "2.6.taak.3",
-      "2.6.taak.4",
-      "2.6.taak.5"
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "regeling"],
+    "ankers": ["2.6.I", "2.6.II", "2.6.III", "2.6.IV", "2.6.V", "2.6.VI", "2.6.taak.1", "2.6.taak.2", "2.6.taak.3", "2.6.taak.4", "2.6.taak.5"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/registratie-en-successierechten.json",
+      "primary_bronnen": [
+        "W.Reg. (Wetboek der Registratie-, Hypotheek- en Griffierechten — federaal en regionaal)",
+        "W.Succ. (Wetboek der Successierechten — federaal en regionaal)",
+        "VCF Titel 2 hoofdstuk 7 + 8 + 11 (Vlaanderen — geconsolideerd)",
+        "Bijzondere Financieringswet 16-01-1989 — bevoegdheidsregels"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -35,6 +33,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
+        "wijziging": "Σ-hoofdrecord: wettelijke basis + gewestbevoegdheid + evolutie codices gevuld vanuit federale + regionale bronnen."
       }
     ],
     "scope": {
@@ -45,63 +50,213 @@
         "Vertegenwoordiging-aspect overzicht (perspectief op individuele records; absorbeert oude vertegenwoordiging-belastingadministratie)"
       ],
       "out": [
-        {
-          "topic": "Verkooprecht detail",
-          "richting": "moet-verwijzen",
-          "ref": "verkooprecht"
-        },
-        {
-          "topic": "Erfbelasting detail",
-          "richting": "moet-verwijzen",
-          "ref": "erfbelasting"
-        },
-        {
-          "topic": "Successieplanning detail",
-          "richting": "moet-verwijzen",
-          "ref": "successieplanning"
-        },
-        {
-          "topic": "Familiale-onderneming-gunstregime",
-          "richting": "moet-verwijzen",
-          "ref": "gunstregime-familiale-onderneming"
-        },
-        {
-          "topic": "Inbreng-onroerend in vennootschap (kapitaalstructuur-cross)",
-          "richting": "mag-verwijzen",
-          "ref": "inbreng-onroerend-in-vennootschap"
-        }
+        {"topic": "Verkooprecht detail", "richting": "moet-verwijzen", "ref": "verkooprecht"},
+        {"topic": "Erfbelasting detail", "richting": "moet-verwijzen", "ref": "erfbelasting"},
+        {"topic": "Successieplanning detail", "richting": "moet-verwijzen", "ref": "successieplanning"},
+        {"topic": "Familiale-onderneming-gunstregime", "richting": "moet-verwijzen", "ref": "gunstregime-familiale-onderneming"},
+        {"topic": "Inbreng-onroerend in vennootschap (kapitaalstructuur-cross)", "richting": "mag-verwijzen", "ref": "inbreng-onroerend-in-vennootschap"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van registratie-en-successierechten.",
+        "tekst": "De registratie- en successierechten vormen samen een fiscale discipline die alle belastingen omvat op (1) bepaalde overdrachten van vermogen via akten (verkoop, schenking, huur, hypotheek) en (2) overdrachten van vermogen ten gevolge van overlijden. Twee hoofdtakken: REGISTRATIERECHTEN (gestructureerd in het Wetboek der Registratie-, Hypotheek- en Griffierechten — W.Reg.) en SUCCESSIERECHTEN/ERFBELASTING (Wetboek der Successierechten — W.Succ.). Sinds de 6e Staatshervorming (2014) zijn beide takken volledig gewestelijk: Vlaanderen heeft ze geconsolideerd in de Vlaamse Codex Fiscaliteit (VCF); Brussel en Wallonië werken nog met de regionaal aangepaste federale wetboeken. De inning gebeurt door VLABEL (Vlaanderen) of de federale Algemene Administratie van de Patrimoniumdocumentatie (Brussel/Wallonië).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "art. 3", "context": "Toewijzing gewesten"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "Titel 2 hoofdstuk 7-8-11"},
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "Boek I"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch zien stagiairs vier categorieën van rechten: (a) verkooprecht — bij overdracht onroerend goed onder bezwarende titel (Vl 3% woonbonus / 12% andere; Br-Wal 12%); (b) schenkbelasting — bij schenking (zowel onroerend als roerend, gewestelijk gedifferentieerd); (c) erfbelasting/successierecht — bij overlijden (Vl progressief 3-27% rechte lijn / 25-55% anderen; Br-Wal eigen schaal tot 80%); (d) bijzondere rechten — hypotheekrecht (0,30% federaal / 1% Vl), verdeelrecht bij scheiding (1% Vl / 2,5% Br-Wal), griffierecht. De accountant treedt op als gemandateerd vertegenwoordiger bij administratie (aangifte indienen, beslissingen aanvechten, gunst-attesten aanvragen). Gewestelijke aanknopingspunten bepalen welk gewest belast: bij registratie van onroerend goed = ligging van het goed; bij successie = laatste fiscale woonplaats van de overledene (5-jaars-regel).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.7.1.0.1", "context": "Erfbelasting"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.8.1.0.1", "context": "Schenkbelasting"},
+            {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.9.1.0.1", "context": "Verkooprecht"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard overzicht"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De cluster behandelt vermogensverkeers-belastingen die historisch gegroeid zijn uit het kadaster + de notariële akten — toezicht op overdracht is zo oud als het Belgisch eigendomsrecht (Napoleontische codices 1808-1810). Twee onderliggende beginselen: (1) bewijsfunctie + publiciteit — registratie maakt akten tegenwerpbaar aan derden en garandeert rechtszekerheid in het vastgoedverkeer; (2) belasting bij overdracht — vermogensoverdrachten zijn een gepast (niet-recurrent) moment om bij te dragen aan de openbare financiën. De gewestelijke bevoegdheid laat regionaal beleid toe (gezinswoning-vrijstelling Vl, KMO-gunstregime, hertaxatie). Voor de stagiair: de cluster is dé brug tussen civielrechtelijke transacties (notariële akten, huwelijkscontracten, erfopvolging) en de fiscale realisatie ervan.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "art. 3"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Historisch-doelmatige duiding"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "kader": "fiscaal-recht",
+      "naast_relevant": ["erfrecht", "huwelijksvermogensrecht"],
+      "volgkennis": ["verkooprecht", "erfbelasting", "schenkbelasting", "hypotheekrecht", "verdeelrecht"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "Bijzondere Financieringswet 16-01-1989 + W.Reg. + W.Succ. + VCF",
+        "toelichting": "De gewestelijke bevoegdheid voor registratie- en successierechten is van permanente aard sinds de 6e Staatshervorming (2014). Vlaanderen consolideerde alles in de VCF (in werking 2015); Brussel en Wallonië houden tot vandaag de federale wetboeken met regionale aanpassingen, georganiseerd door de Algemene Administratie van de Patrimoniumdocumentatie. Geen structurele wijziging op korte termijn voorzien."
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "twee-hoofdtakken",
+        "naam": {"primair": "Twee hoofdtakken — registratie + successie"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "REGISTRATIERECHTEN (W.Reg.): heffing bij registratie van bepaalde akten of bewerkingen — verkooprecht bij vastgoedoverdracht, schenkbelasting, verdeelrecht, hypotheekrecht. Trigger = aanbieding van een akte ter registratie + ondertekening. SUCCESSIERECHTEN/ERFBELASTING (W.Succ. / VCF Titel 2 hoofdstuk 7): heffing bij overlijden van een Rijksinwoner — op de overgang van vermogen door successie. Trigger = overlijden + indiening van aangifte van nalatenschap. Beide takken volgen complementaire economische logica (bij-leven-overdracht vs bij-overlijden-overdracht) en worden vaak samen gepland (successieplanning).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "Boek I", "context": "Registratierechten"},
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "Boek I", "context": "Successierechten"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gewestelijke-bevoegdheid",
+        "naam": {"primair": "Gewestelijke bevoegdheid + lokalisatie"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Sinds de Bijzondere Financieringswet 16-01-1989 (uitgebreid 2014) zijn de drie hoofdrechten (verkooprecht, schenkbelasting, erfbelasting) volledig gewestelijke belastingen. Lokalisatie: REGISTRATIE = ligging van het onroerend goed; SUCCESSIE = laatste fiscale woonplaats van de overledene, met 5-jaars-regel bij verhuis tussen gewesten (gewest waar de overledene het langst gewoond heeft in 5 jaar vóór overlijden). Het hypotheekrecht blijft federaal in Brussel/Wallonië maar werd gewestelijk in Vlaanderen via VCF (tarief 1% vs 0,30% federaal).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "art. 3 + art. 5"},
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 2.11.4.0.1", "context": "Vl hypotheekrecht"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Belasting", "Vlaanderen", "Brussel", "Wallonië"],
+            "rijen": [
+              ["Verkooprecht", "VCF (3% / 12%)", "W.Reg. (12%)", "W.Reg. (12,5%)"],
+              ["Schenkbelasting", "VCF (3-27% / 3-7% roerend)", "W.Reg. (3-40%)", "W.Reg. (3-30%)"],
+              ["Erfbelasting", "VCF (3-27% rechte lijn)", "W.Succ. (3-30%)", "W.Succ. (3-30%)"],
+              ["Hypotheekrecht", "VCF (1%)", "W.Reg. (0,30%)", "W.Reg. (0,30%)"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "evolutie-codices",
+        "naam": {"primair": "Evolutie + codificatie"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De W.Reg. dateert van 30-11-1939 (consolidatie van eerdere Napoleontische wetten); de W.Succ. dateert van 31-03-1936 (idem). Beide werden bewaard als wetboek na de Staatshervorming. Vlaanderen heeft sinds 2014-2015 alles geconsolideerd in de VLAAMSE CODEX FISCALITEIT (decreet 13-12-2013) — Titel 2 hoofdstuk 7 (erfbelasting), 8 (schenkbelasting), 9 (verkooprecht), 10 (verdeelrecht), 11 (hypotheekrecht). De VCF is taal- en structuurgemoderniseerd; Brussel en Wallonië houden vast aan de oude codices met regelmatige decretale aanpassingen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Decreet 13 december 2013 houdende de Vlaamse Codex Fiscaliteit", "ref": "VCF", "context": "Consolidatie"},
+                {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "B.S. 31-03-1936"},
+                {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "B.S. 30-11-1939"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vertegenwoordiging",
+        "naam": {"primair": "Vertegenwoordiging belastingadministratie"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "De accountant of belastingadviseur treedt vaak op als gemandateerd vertegenwoordiger voor cliënten ten aanzien van VLABEL of de federale registratieontvanger. Concrete handelingen: (a) aangifte van nalatenschap indienen (mits volmacht of duidelijk mandaat); (b) verlengingsaanvraag termijn; (c) bezwaar tegen aanslag; (d) attestaanvraag familiale onderneming. De vertegenwoordigingsbevoegdheid steunt op de algemene mandaatregels (BW) — er is geen specifiek beroepsvoorbehoud zoals voor advocaten of notarissen. Wel: aansprakelijkheid van de adviseur bij verkeerde aangiftes (tuchtrecht + civiel).",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "wettekst", "naam": "Vlaamse Codex Fiscaliteit", "ref": "art. 3.4.1.0.1 e.v.", "context": "Bezwaarprocedure"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beroepspraktijk"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Twee takken als één regime behandelen",
+        "verkeerde_assumptie": "Registratie- en successierechten zijn 'dezelfde fiscale materie'.",
+        "kernpunt": "Twee verschillende takken met eigen wetboeken, eigen tarieven, eigen aanknopingspunten en eigen administratieve procedures. Wel: ze worden vaak gezamenlijk gepland (successieplanning gebruikt instrumenten uit beide — schenking + erfenis tegelijk) en de gewestelijke bevoegdheid valt samen. Voor een examen: scherp onderscheiden welk wetboek (W.Reg. vs W.Succ. of VCF Titel 2 hoofdstuk 7 vs 8) toepasselijk is.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Wetboek der Registratie-, Hypotheek- en Griffierechten", "ref": "Boek I"},
+            {"type": "wettekst", "naam": "Wetboek der Successierechten", "ref": "Boek I"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "Federale vs gewestelijke verwarring",
+        "verkeerde_assumptie": "Alle bepalingen in het W.Reg. zijn 'federaal' van toepassing.",
+        "kernpunt": "De wetboeken bestaan in vier versies: een federale (voor de delen die federaal blijven — bv. hypotheekrecht in Brussel/Wallonië, registratie-formaliteit) + drie regionale (Vlaanderen, Brussel, Wallonië) elk met eigen tarieven. Bij elk dossier eerst lokaliseren — dan correcte regionale versie raadplegen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "art. 3"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "fiscaal-recht"
-    },
-    {
-      "type": "bevat",
-      "target": "erfbelasting"
-    },
-    {
-      "type": "bevat",
-      "target": "successieplanning"
+      "id": "fiscaal-adviseur",
+      "naam": {"primair": "Fiscaal adviseur in registratie- en successieplanning"},
+      "intro": "De accountant die overzichtelijk omgaat met deze gehele cluster — voor planning, voor concrete aangiftes en voor advies aan ondernemers en gezinnen.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "gewest-checklist",
+              "naam": {"primair": "Gewest-checklist bij elk dossier"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Eerste handeling bij elk dossier: (a) lokaliseer het belastbaar feit (ligging onroerend goed voor registratie; fiscale woonplaats overledene voor erfbelasting); (b) raadpleeg het correcte wetboek (VCF voor Vlaanderen; W.Reg./W.Succ. regionaal voor Brussel/Wallonië); (c) check Cijferzakboekje voor actuele tarieven + grenzen. Geen tarieven uit het hoofd toepassen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "Bijzondere Financieringswet", "ref": "art. 5"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "fiscaal-recht"},
+    {"type": "bevat", "target": "erfbelasting"},
+    {"type": "bevat", "target": "schenkbelasting"},
+    {"type": "bevat", "target": "verkooprecht"},
+    {"type": "bevat", "target": "hypotheekrecht"},
+    {"type": "bevat", "target": "verdeelrecht"},
+    {"type": "bevat", "target": "registratieformaliteit-akten"},
+    {"type": "bevat", "target": "aangifte-nalatenschap"},
+    {"type": "bevat", "target": "successieplanning"},
+    {"type": "bevat", "target": "gunstregime-familiale-onderneming"}
   ]
 }
