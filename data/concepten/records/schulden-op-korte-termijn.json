@@ -3,14 +3,15 @@
   "naam": {
     "primair": "Schulden op korte termijn",
     "synoniemen": [
-      "kortlopende schulden",
-      "KT-schulden"
+      "vlottende schulden",
+      "korte-termijn-schulden",
+      "klasse 42-49"
     ]
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "entiteit"
     ],
@@ -44,9 +45,14 @@
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "claude-opus-4-7",
+      "wave_id": "extract-jaarrekening-rest-2026-05-28",
+      "iteratie": "concept-v1",
+      "bundle_used": "data/extractie/bundles/schulden-op-korte-termijn.json",
+      "primary_bronnen": [
+        "MAR klasse 42-49 (KB 21-10-2018)",
+        "KB 29-04-2019 WVV (presentatie passief)"
+      ]
     },
     "changelog": [
       {
@@ -54,26 +60,144 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T12:00:00Z",
+        "model": "claude-opus-4-7",
+        "wave_id": "extract-jaarrekening-rest-2026-05-28",
+        "wijziging": "Fase 2 content-extractie — MAR-klassen 42-49 + overheveling LT-aflossing + waardering"
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "**Schulden op korte termijn** (kt-schulden) zijn passief-posten met een **restlooptijd van maximaal één jaar** vanaf balansdatum. Ze omvatten **MAR-klassen 42 tot en met 48** en bevatten alle financiële, commerciële, sociale, fiscale en overige verplichtingen die binnen 12 maanden moeten worden afgewikkeld. Een belangrijk type is **rekening 42 — Schulden op meer dan een jaar die binnen het jaar vervallen**: hier wordt het deel van een langetermijn-lening overgeboekt dat binnen de komende 12 maanden moet worden afgelost. Schulden op korte termijn vormen samen met de overlopende rekeningen passief (klasse 89) de **vlottende passiva** — een belangrijke component voor de liquiditeitsanalyse.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "type": "kb",
+              "naam": "KB 21-10-2018 — Bijlage 1 MAR",
+              "ref": "Klasse 4 (42-48)",
+              "context": "Sub-rubricering schulden op ten hoogste één jaar"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "**MAR-klassen 42-48 — Schulden op ten hoogste één jaar**:\n- **42** Schulden op meer dan een jaar die binnen het jaar vervallen (overheveling vanuit 17)\n- **43** Financiële schulden (kredietinstellingen kortlopend, kasgeld-krediet, overige leningen ≤ 1 jaar)\n- **44** Handelsschulden (440 Leveranciers, 441 Te ontvangen facturen)\n- **45** Schulden m.b.t. belastingen, bezoldigingen, sociale lasten\n  - 450-454 BTW, bedrijfsvoorheffing, vennootschapsbelasting, onroerende voorheffing\n  - 455 Bezoldigingen\n  - 456 Sociale lasten — RSZ-werkgever + werknemer\n  - 459 Andere sociale schulden\n- **46** Ontvangen vooruitbetalingen op bestellingen (klant-voorschotten)\n- **47** Schulden uit aanwending van bestemde fondsen\n- **48** Diverse schulden\n\n**Boeking aankoop op rekening van leverancier**:\n```\n604 Aankopen goederen           D 10.000\n   440 Leveranciers              C 10.000 (incl. btw via 411 vorderingen op btw)\n```\n\n**Bij betaling**:\n```\n440 Leveranciers                D 10.000\n   55 Bank                       C 10.000\n```",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — MAR",
+              "ref": "Klasse 4",
+              "context": "Sub-rubricering schulden ≤ 1 jaar"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het onderscheid tussen **korte-** en **langetermijn-schulden** dient de **liquiditeitsanalyse**: een lezer van de balans moet onmiddellijk kunnen vaststellen welke verplichtingen op korte termijn moeten worden gehonoreerd. Belangrijke ratio's zoals **current ratio** (vlottende activa / korte-termijn-schulden), **quick ratio** ((vlottende activa - voorraden) / kt-schulden) en **werkkapitaal** (vlottende activa - kt-schulden) bouwen rechtstreeks op deze classificatie. Vandaar de **expliciete overheveling** via klasse 42: een lening die initieel 5 jaar liep maar nog 8 maanden te gaan heeft op balansdatum, moet als kt-schuld worden gepresenteerd — niet meer als lt-schuld.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "Bijlagen balansschema's",
+              "context": "Onderscheid kt vs lt voor liquiditeitsanalyse"
             }
           ]
         }
       }
-    }
+    },
+    "bouwstenen": [
+      {
+        "id": "overheveling-lt-naar-kt",
+        "naam": {
+          "primair": "Overheveling LT-aflossing naar klasse 42"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Scenario**: Banklening van 200.000 EUR met 10-jarige terugbetaling, jaarlijkse aflossing 20.000 EUR. Beginbalans: 200.000 EUR op klasse 17.\n\n**Bij jaarafsluit** (eindejaar 1) — de 20.000 EUR die in jaar 2 vervalt moet naar klasse 42:\n```\n173 Schulden op meer dan een jaar (afname)    D 20.000\n   42 Schulden op meer dan een jaar die binnen het jaar vervallen  C 20.000\n```\n\n**Aflossing tijdens jaar 2**:\n```\n42                                D 20.000\n   55 Bank                         C 20.000\n```\n\nBij **elke** jaarafsluit wordt deze overheveling **opnieuw** uitgevoerd voor de volgende 20.000 EUR aflossing van klasse 17 naar klasse 42.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 29-04-2019 WVV",
+                  "ref": "Balansschema's bijlage",
+                  "context": "Verplichte overheveling LT > KT bij vervallen binnen 12 maanden"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "sociale-schulden-rsz-bv",
+        "naam": {
+          "primair": "Sociale schulden — RSZ + bedrijfsvoorheffing"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "**Maandloon brut 5.000 EUR** voor een werknemer (vereenvoudigd):\n- RSZ-werknemer (13,07 %) = 653,50 EUR\n- Belastbaar = 4.346,50 EUR\n- Bedrijfsvoorheffing (geschat 25 %) = ca. 1.086 EUR\n- Nettoloon = 3.260,50 EUR\n- RSZ-werkgever (ca. 25 %) = 1.250 EUR\n\n**Boeking maandloon**:\n```\n620 Bezoldigingen                    D 5.000   (bruto)\n621 RSZ-werkgever (sociale lasten)   D 1.250\n   455 Bezoldigingen te betalen      C 3.260,50\n   453 Bedrijfsvoorheffing           C 1.086\n   456 Sociale lasten — RSZ          C 1.903,50 (werknemer + werkgever)\n```\n\nDe **455, 453, 456** zijn dus passief-posten op kt-schulden die binnen 1-3 maanden moeten worden afgewikkeld bij RSZ en fiscus.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {
+                  "type": "kb",
+                  "naam": "KB 21-10-2018 — MAR",
+                  "ref": "Klasse 45",
+                  "context": "Sociale en fiscale schulden"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Klasse 17 niet splitsen op balansdatum",
+        "verkeerde_assumptie": "Een 10-jarige lening blijft volledig op klasse 17 tot ze afbetaald is.",
+        "kernpunt": "Bij elke jaarafsluit moet het **deel van de lening dat binnen de 12 maanden vervalt** overgeheveld worden naar klasse 42. Anders is de balans-classificatie LT/KT verkeerd, en zijn de liquiditeitsratio's geflatteerd (current ratio te hoog).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 29-04-2019 WVV",
+              "ref": "Balansschema's",
+              "context": "Splits LT/KT verplicht op balansdatum"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Vooruitbetalingen klanten als omzet boeken",
+        "verkeerde_assumptie": "Een klant betaalt vooraf 30 % van een bestelling — dat is omzet voor de vennootschap.",
+        "kernpunt": "Vooruitbetalingen van klanten zijn een **schuld** (rekening **46 Ontvangen vooruitbetalingen op bestellingen**) — geen omzet. De omzet wordt pas erkend wanneer de prestatieverplichting (levering of dienst) is vervuld. Dit is een veel voorkomende **revenue-recognition-fout**, vooral bij bouw, IT-projecten en abonnementen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "kb",
+              "naam": "KB 21-10-2018 — MAR",
+              "ref": "Klasse 46",
+              "context": "Ontvangen vooruitbetalingen = schuld"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
