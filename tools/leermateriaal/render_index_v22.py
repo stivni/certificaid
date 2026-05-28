@@ -237,7 +237,7 @@ def main() -> int:
     po_titles = load_po_titles()
     print(f"PO-titels: {len(po_titles)}")
 
-    (OUT_DIR / "_index.md").write_text(render_landing(records), encoding="utf-8")
+    (OUT_DIR / "index.md").write_text(render_landing(records), encoding="utf-8")
     (OUT_DIR / "_index-po.md").write_text(render_po_index(records, po_titles), encoding="utf-8")
     (OUT_DIR / "_index-type.md").write_text(render_type_index(records), encoding="utf-8")
     (OUT_DIR / "_index-categorie.md").write_text(render_categorie_index(records), encoding="utf-8")
