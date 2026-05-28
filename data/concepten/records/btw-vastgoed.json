@@ -1,32 +1,15 @@
 {
   "id": "btw-vastgoed",
   "naam": {
-    "primair": "BTW-vastgoed"
+    "primair": "BTW en vastgoed",
+    "synoniemen": ["btw onroerend goed", "btw onroerende handelingen"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.V"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.4.V"],
     "scope": {
       "in": [
         "BTW-overzicht vastgoed-handelingen: nieuwbouw · oude gebouwen · grond · verhuur",
@@ -36,50 +19,538 @@
         "Gewone btw-plichtige vs gelegenheidsbelastingplichtige bij nieuwbouw-verkoop"
       ],
       "out": [
-        {
-          "topic": "Optie BTW-verhuur vastgoed (B2B)",
-          "richting": "moet-verwijzen",
-          "ref": "optie-btw-verhuur-vastgoed"
-        },
-        {
-          "topic": "Eigen werkzaamheid (art 19)",
-          "richting": "moet-verwijzen",
-          "ref": "eigen-werkzaamheid-btw"
-        },
-        {
-          "topic": "Herziening vastgoed-BM (15j)",
-          "richting": "moet-verwijzen",
-          "ref": "btw-herziening-bedrijfsmiddelen"
-        },
-        {
-          "topic": "Registratierechten oude gebouwen",
-          "richting": "mag-verwijzen",
-          "ref": "registratierechten"
-        }
+        { "topic": "Optie BTW-verhuur vastgoed (B2B)", "richting": "moet-verwijzen", "ref": "optie-btw-verhuur-vastgoed" },
+        { "topic": "Eigen werkzaamheid (art 19)", "richting": "moet-verwijzen", "ref": "eigen-werkzaamheid-btw" },
+        { "topic": "Herziening vastgoed-BM (15j)", "richting": "moet-verwijzen", "ref": "btw-herziening-bedrijfsmiddelen" },
+        { "topic": "Registratierechten oude gebouwen", "richting": "mag-verwijzen", "ref": "registratierechten" }
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-btw-internationaal-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/btw-vastgoed.json",
+      "primary_bronnen": [
+        "W.BTW art. 1 §9-10",
+        "W.BTW art. 8",
+        "W.BTW art. 11",
+        "W.BTW art. 12 §2",
+        "W.BTW art. 19",
+        "W.BTW art. 44 §3",
+        "W.BTW art. 50",
+        "M.B. nr. 13 van 4 maart 1993 art. 1"
+      ],
+      "mcp_calls": 1,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      { "operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec" },
+      { "operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks + 1 MCP-call (W.BTW art. 44 §3)." }
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-vastgoed).",
+        "tekst": "BTW-vastgoed is het kader dat regelt wanneer onroerende handelingen (levering, verhuur, vestiging zakelijke rechten) onder de btw vallen en wanneer ze daarvan zijn vrijgesteld. De hoofdregel: leveringen van onroerende goederen en verhuur van uit hun aard onroerende goederen zijn in principe vrijgesteld van btw (art. 44 §3 W.BTW) — met als belangrijkste uitzondering de levering van een 'nieuw' gebouw (binnen het tweede kalenderjaar na eerste ingebruikneming) en het bijhorend terrein. Onder dit kader vallen ook bijzondere figuren: de gelegenheidsbelastingplichtige (art. 8), de eigen werkzaamheid (art. 19), de optie B2B-verhuur (art. 44 §3 2° d), de overdracht van algemeenheid (art. 11) en de hypotheekverplichting van btw-plichtige eigenaars (M.B. nr. 13).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 1°-2°", "context": "Vrijstelling levering + verpachting/verhuur onroerend, met uitzonderingen" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 1 §9-10", "context": "Definities 'gebouw' en 'nieuw gebouw'" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 8" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 19" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch zit hier de scharnier-vraag van elke vastgoed-transactie: btw of registratierechten? Het antwoord bepaalt of de koper 12 % (Vlaanderen, gezinswoning) tot 12,5 % (Wallonië/Brussel) registratierechten betaalt, of 21 % btw — en of de verkoper die btw kan aftrekken op zijn bouwkosten. Voor de bouwheer/projectontwikkelaar is verkoop met btw fiscaal neutraal (btw doorgerekend, voorbelasting volledig aftrekbaar). Voor de particuliere koper is btw doorgaans 8,5 procentpunt duurder dan registratierechten. Voor B2B-spelers (kantoren, logistiek) is btw juist gunstiger want aftrekbaar. Daarom kent de wet zowel een verplicht btw-regime (beroepsoprichter, art. 12 §2) als een optionele toepassing per verrichting (gelegenheidsbelastingplichtige, art. 8 §1-3; optie B2B-verhuur, art. 44 §3 2° d).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 8" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §2" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 2° d" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Economisch effect van keuze btw vs registratierechten — standaardleer fiscaal handboek" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ratio legis volgt de logica van de BTW-richtlijn 2006/112/EG: btw is een belasting op verbruik via toegevoegde-waarde-creatie. Een 'gebruikt' gebouw heeft zijn btw-leven gehad bij de eerste levering; verdere transacties voegen geen waarde toe en horen niet in het btw-stelsel — vandaar de vrijstelling met overgang naar registratierechten. Een 'nieuw' gebouw (in het tweede jaar na eerste ingebruikneming) zit nog in zijn productiefase; het toelaten van btw-aftrek op de bouwfase vereist dat de eerste verkoop ook btw genereert (anders breekt de aftrekketen). Voor verhuur geldt dezelfde rationale: passief vermogensbeheer (vrijgesteld) versus actieve dienst (btw — hotel, parking, opslag, optie B2B).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "richtlijn", "naam": "BTW-richtlijn 2006/112/EG", "ref": "art. 135 + art. 137", "context": "Vrijstellingen onroerend + optie-mogelijkheid" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio legis btw-vastgoed" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["btw", "registratierechten"],
+      "kader": "btw",
+      "naast_relevant": ["btw-eenheid", "btw-aftrek"],
+      "volgkennis": ["optie-btw-verhuur-vastgoed", "eigen-werkzaamheid-btw", "btw-herziening-bedrijfsmiddelen"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "W.BTW art. 1 §9-10, 8, 11, 12, 19, 44 §3",
+        "toelichting": "Belangrijke wijziging: sinds 1 januari 2011 omvat 'gebouw' ook het bijhorend terrein dat samen wordt verkocht (W. 14-04-2011); sinds 1 januari 2019 is B2B-optie verhuur mogelijk (W. 14-10-2018, KB 12-05-2019)."
+      },
+      "voor": [
+        {
+          "tekst": "Elke transactie met een onroerend goed door een btw-plichtige: oprichting, verkoop, verhuur, inbreng, overdracht van algemeenheid, terbeschikkingstelling. De accountant moet het btw-statuut altijd eerst classificeren voor hij aan boeking of aangifte denkt.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Voor btw-toepassing op een levering van een gebouw moet cumulatief: (1) het gaat om een 'gebouw' in de zin van art. 1 §9 W.BTW (elk bouwwerk dat vast met de grond verbonden is); (2) het gebouw is 'nieuw' — vervreemd uiterlijk op 31 december van het tweede jaar volgend op het jaar van eerste ingebruikneming of inbezitneming; (3) de verkoper handelt als btw-belastingplichtige (beroepsoprichter ex art. 12 §2 → verplicht; toevallige verkoper → optie via art. 8); (4) keuze gemeld vóór het verlijden van de akte (M.B. nr. 13, art. 1).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 1 §9" },
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 8" },
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §2" },
+              { "type": "wettekst", "naam": "M.B. nr. 13 van 4 maart 1993", "ref": "art. 1" }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Verkoop van een 'oud' gebouw (na 31 december van het tweede jaar na eerste ingebruikneming) valt verplicht onder registratierechten — geen btw mogelijk, ook niet via optie. De aftrekketen op de eerdere btw-aankoop wordt afgesloten via de herzieningsregeling (15 jaar voor onroerend bedrijfsmiddel).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 1°" },
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2", "context": "Herzieningstermijn 15 jaar onroerende bedrijfsmiddelen" }
+            ]
+          }
+        },
+        {
+          "tekst": "Vrijgestelde verhuur (art. 44 §3 2°) is niet aftrekbaar — de verhuurder kan de btw op bouwkosten niet recupereren tenzij hij geldig opteert voor B2B-btw-verhuur of valt onder een uitzondering (parking, opslag >50 %, hotel-logies <3 maanden).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 2°" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Voor B2B-vastgoed (kantoren, logistiek, retail aan btw-plichtige huurder): btw-toepassing maakt de bouw-btw volledig aftrekbaar (recuperatie 21 % op bouwkost). Zonder btw moet die kost in de huur worden doorgerekend over de looptijd — concurrentieel zwaar.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 2° d" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Economische ratio optie B2B-verhuur" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Verkeerd classificeren als 'nieuw' of 'oud' leidt tot dubbele heffing (btw + registratierechten) of geen heffing — beide moeten achteraf gecorrigeerd worden, met intresten en boetes. De notaris is medeplichtig: M.B. nr. 13 verplicht de belastingplichtige zijn hoedanigheid voor de akte te melden.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "M.B. nr. 13 van 4 maart 1993", "ref": "art. 1" }
+            ]
+          }
+        },
+        {
+          "tekst": "Herziening van de oorspronkelijk afgetrokken btw bij wijziging van bestemming binnen 15 jaar (onroerende bedrijfsmiddelen) — verkoop met vrijstelling, leegstand, verhuur zonder optie. Kan tot 14/15 van oorspronkelijke btw terugvorderen door de fiscus.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "W.BTW", "ref": "art. 48 §2" },
+              { "type": "kb", "naam": "K.B. nr. 3 van 10 december 1969", "ref": "art. 9-11" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "nieuw-vs-oud-gebouw",
+        "naam": { "primair": "Onderscheid 'nieuw' vs 'oud' gebouw" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een gebouw is 'nieuw' voor btw-doeleinden zolang de vervreemding plaatsvindt uiterlijk op 31 december van het tweede kalenderjaar dat volgt op het jaar van de eerste ingebruikneming of de eerste inbezitneming (art. 1 §9 2° W.BTW). Daarna is het 'oud': de levering is vrijgesteld van btw (art. 44 §3 1°) en valt onder registratierechten. Sinds 1 januari 2011 omvat de notie 'gebouw' ook het bijhorend terrein dat met datzelfde gebouw wordt vervreemd — zodat de splitsing 'gebouw onder btw / grond onder registratierechten' verdween.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 1 §9" },
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 1°" }
+                ]
+              }
+            },
+            "rationale": {
+              "tekst": "De grens is praktisch: na twee jaar gebruik is de 'productie' van het gebouw economisch voltooid; verdere transacties zijn loutere vermogensbewegingen die niet thuishoren in een verbruiksbelasting. Het bijhorend-terrein-principe (sinds 2011) sluit aan op het arrest van het HvJ EU (zaak Don Bosco, C-461/08) dat één economische transactie niet btw-technisch mag worden opgesplitst.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "rechtspraak", "naam": "HvJ EU Don Bosco", "context": "C-461/08" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "gelegenheidsbelastingplichtige",
+        "naam": { "primair": "Gelegenheidsbelastingplichtige (toevallige verkoper, art. 8)" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Een 'toevallige' verkoper van een nieuw gebouw — iemand die geen beroep maakt van bouw en verkoop (geen 'beroepsoprichter' in de zin van art. 12 §2) — kan ervoor opteren de verkoop onder btw te plaatsen. Dat moet vóór de levering uitdrukkelijk worden gemeld aan de btw-administratie via formulier nr. 104.1 (art. 8 §1 W.BTW + KB nr. 14). De optie geldt enkel voor dat specifieke gebouw. Voordeel: hij kan de op de bouwkosten betaalde btw recupereren via aftrek. Nadeel: hij is voor die operatie een 'gelegenheidsbelastingplichtige' met alle bijhorende verplichtingen (factuur, aangifte, archief).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 8" },
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §2" },
+                  { "type": "kb", "naam": "K.B. nr. 14 van 3 juni 1970", "ref": "art. 1-2" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Praktijkvoorbeeld: een arts laat een privé-gebouwde woning na 1 jaar leegstand verkopen. Hij is geen beroepsoprichter, maar wil de op de bouwkosten betaalde btw recupereren. Via formulier 104.1 opteert hij voor btw — koper betaalt 21 % btw, registratierechten enkel op de grondwaarde als die niet samen wordt vervreemd. Sinds 2011: ook de grond wordt onder btw verkocht als ze samen gaat met het gebouw.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 8" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkvoorbeeld toevallige verkoper" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "btw-eenheid-vastgoed",
+        "naam": { "primair": "BTW-eenheid en vastgoed" },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Binnen een btw-eenheid (art. 4 §2 W.BTW) worden de leden als één belastingplichtige beschouwd. Interne handelingen — een verhuur van een gebouw van lid A aan lid B, een onderlinge bouwdienst — vallen buiten het btw-toepassingsgebied (geen factuur, geen btw). Praktisch wordt zo voor concerns de niet-aftrekbare btw op interne huur vermeden. Let op: bij vorming of opheffing van de btw-eenheid kunnen herzieningen ontstaan op onroerende bedrijfsmiddelen (15 jaar) wanneer het bestemmingsregime wijzigt.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 4 §2" },
+                  { "type": "wettekst", "naam": "W.BTW", "ref": "art. 50 §1 6°", "context": "Sub-btw-identificatienummer per lid" },
+                  { "type": "cbn", "naam": "CBN-advies 2010/13", "ref": "Boekhoudkundige verwerking btw-schulden en -vorderingen leden btw-eenheid" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "tweejarentest",
+        "naam": { "primair": "Tweejarentest voor 'nieuw gebouw'" },
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Een gebouw is 'nieuw' tot en met 31 december van het tweede jaar volgend op het jaar van eerste ingebruikneming (of eerste inbezitneming). Voorbeeld: eerste ingebruikneming op 15 maart 2024 → 'nieuw' tot 31 december 2026 → 'oud' vanaf 1 januari 2027.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 1 §9 2°" },
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 1°" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tijdslijn",
+            "tekst": "Tijdslijn nieuw vs oud — voorbeeld eerste gebruik 15 maart 2024:\n\n```mermaid\ntimeline\n  title Nieuw vs oud gebouw\n  2024 : Eerste ingebruikneming (15 maart) : NIEUW (btw mogelijk)\n  2025 : NIEUW (btw mogelijk)\n  2026 : NIEUW tot 31 december\n  2027 : Vanaf 1 januari = OUD (registratierechten)\n```"
+          }
+        ]
+      },
+      {
+        "id": "604-aangifte-aanvang",
+        "naam": { "primair": "604A — aanvangsaangifte btw" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Wie btw-belastingplichtige wordt (ook gelegenheidsbelastingplichtige voor één gebouw) dient vóór de aanvang van zijn activiteit een aanvangsaangifte 604A in bij het bevoegd btw-kantoor (art. 53 §1 1° W.BTW). De fiscus kent dan een btw-identificatienummer toe (art. 50 W.BTW). Voor de toevallige verkoper gebeurt dat via het keuzeformulier 104.1.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 53 §1" },
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 50" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "uitzondering-verhuur-actief",
+        "naam": { "primair": "Actieve-verhuur-uitzonderingen op vrijstelling" },
+        "bouwsteen_type": "uitzondering",
+        "kern": {
+          "definitie": {
+            "tekst": "Vrijstelling art. 44 §3 2° geldt niet voor: (a) stalling van rijtuigen; (b) opslagruimten >50 % opslag, max 10 % verkoopruimte; (c) gemeubeld logies <3 maanden (hotel) met nauw samenhangende diensten; (d) optie B2B (apart record); (e) actieve diensten zoals camping, congrescentrum, fitness — waar de verhuur ondergeschikt is aan actieve dienstverlening.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 2° a-d" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "overdracht-algemeenheid",
+        "naam": { "primair": "Overdracht algemeenheid (art. 11) met vastgoed" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de overdracht van een algemeenheid van goederen of van een bedrijfstak (art. 11 W.BTW) wordt geen btw aangerekend — de overnemer treedt in de plaats van de overdrager voor btw-doeleinden (continuïteit, geen breuk in aftrekketen). Wanneer in zo'n overdracht een 'nieuw' gebouw zit dat anders btw-onderhevig zou zijn, blijft art. 11 voorrang houden: geen btw op die levering, maar geen herziening van de eerder afgetrokken btw (overnemer neemt herzieningstermijn over).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "W.BTW", "ref": "art. 11" },
+                { "type": "kb", "naam": "K.B. nr. 3 van 10 december 1969", "ref": "art. 11 §1", "context": "Geen herziening bij art. 11-overdracht" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-nieuwbouw-projectontwikkelaar",
+        "titel": "Nieuwbouw door projectontwikkelaar — beroepsoprichter (art. 12 §2)",
+        "context": "Bouwbedrijf BV Habitat (beroepsoprichter art. 12 §2) bouwt een appartementsgebouw met 8 units. Bouwkost (excl. btw): 2.000.000 EUR; btw daarop 420.000 EUR (21 %) — volledig in aftrek tijdens de bouwfase. Verkoop van unit 1 op 15 april 2025 aan particuliere koper Anna; prijs 350.000 EUR (excl. btw).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §2" },
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 1 §9" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard projectontwikkelings-casus" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Eerste ingebruikneming gebouw: 1 maart 2025 → 'nieuw' tot 31 december 2027.",
+              "Stap 2 — Verkoop unit 1 binnen die termijn: verplicht btw (Habitat is beroepsoprichter, geen optie nodig).",
+              "Stap 3 — Anna betaalt 350.000 + 73.500 (21 % btw) = 423.500 EUR. Geen registratierechten op het gebouw + bijhorend terrein (sinds 2011).",
+              "Stap 4 — Habitat factureert 73.500 EUR btw, dient die aan in maand-aangifte (vak 03 omzet 21 % + vak 54 verschuldigde btw)."
+            ],
+            "resultaat": "Btw-neutraal voor Habitat (aftrek bouw-btw + heffing op verkoop); voor Anna is btw-regime 21 % i.p.v. registratierechten 12 % — kostenverschil ~31.500 EUR. Voor de bouwheer is dit verplicht."
+          },
+          {
+            "type": "boeking",
+            "context": "Boekingen verkoop unit 1 bij Habitat",
+            "regels": [
+              { "rekening": "400 Handelsdebiteur Anna", "debet": 423500, "credit": null },
+              { "rekening": "70 Omzet verkoop gebouw", "debet": null, "credit": 350000 },
+              { "rekening": "451 BTW verschuldigd op omzet", "debet": null, "credit": 73500 }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-toevallige-verkoper",
+        "titel": "Toevallige verkoper — particulier laat nieuwbouw bouwen, opteert voor btw (art. 8)",
+        "context": "Dr. Pieters (arts, particulier) laat een woning bouwen door aannemer ABC. Bouwkost (excl. btw): 400.000 EUR; btw 84.000 EUR. Hij gebruikt de woning niet en verkoopt ze binnen 18 maanden na voltooiing aan kopers Tom & Lisa. Hij wil de bouw-btw recupereren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 8" },
+            { "type": "kb", "naam": "K.B. nr. 14 van 3 juni 1970", "ref": "art. 1" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "1. Dr. Pieters dient formulier 104.1 in vóór de akte: optie btw-toepassing voor dat ene gebouw.",
+              "2. De fiscus kent een btw-nummer toe (gelegenheidsbelastingplichtige) — sub-aangifte voor die transactie.",
+              "3. Akte verkoop: prijs 500.000 EUR + 105.000 EUR btw aan Tom & Lisa.",
+              "4. Gelegenheidsaangifte: aftrek bouw-btw 84.000 EUR; verschuldigd op verkoop 105.000 EUR; saldo te betalen 21.000 EUR aan de Schatkist (= btw op de meerwaarde).",
+              "5. Geen registratierechten op het gebouw + bijhorend terrein bij keuze art. 8."
+            ],
+            "resultaat": "Netto: Dr. Pieters recupereerde 84.000 EUR bouw-btw maar moest 21.000 EUR op zijn verkoopmarge betalen. Zonder optie: 84.000 EUR bouw-btw definitief verloren, koper betaalt registratierechten ~60.000 EUR."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "'Twee jaar' verkeerd tellen vanaf voltooiing in plaats van eerste ingebruikneming",
+        "verkeerde_assumptie": "Studenten gaan ervan uit dat de tweejarige nieuwbouwperiode start bij de voltooiing of het verlijden van de akte van oprichting.",
+        "kernpunt": "Art. 1 §9 2° W.BTW zegt expliciet: vanaf de eerste ingebruikneming of de eerste inbezitneming, niet vanaf de voltooiing. Een gebouw dat in 2023 voltooid is maar pas in 2024 voor het eerst is bewoond/gebruikt is 'nieuw' tot eind 2026, niet eind 2025.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 1 §9 2°" }
+          ]
+        }
+      },
+      {
+        "titel": "Vergeten dat sinds 2011 de grond mee onder btw valt",
+        "verkeerde_assumptie": "Studenten splitsen automatisch 'gebouw onder btw / grond onder registratierechten'.",
+        "kernpunt": "Sinds 1 januari 2011 omvat 'gebouw' (art. 1 §9 W.BTW) ook het bijhorend terrein dat samen wordt vervreemd door dezelfde persoon. Splitsen mag enkel als de grond apart of door iemand anders wordt verkocht. Bij beroepsoprichter + nieuw gebouw + gelijktijdige overdracht door dezelfde persoon: alles 21 % btw, geen registratierechten.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 1 §9", "context": "Wijziging W. 14-04-2011" }
+          ]
+        }
+      },
+      {
+        "titel": "Verhuur via btw 'kunnen vragen' zonder formele optie",
+        "verkeerde_assumptie": "Een btw-plichtige verhuurder denkt dat hij 'gewoon' btw kan factureren op een huur omdat huurder en verhuurder beiden btw-plichtig zijn.",
+        "kernpunt": "Verhuur is principieel vrijgesteld (art. 44 §3 2° W.BTW). Voor B2B-vastgoed kan een optie worden uitgeoefend (art. 44 §3 2° d), maar dat vergt een gezamenlijke optie-verklaring vóór ingebruikneming + nieuwbouw na 1 oktober 2018. Zonder geldige optie = vrijgestelde verhuur, geen btw-aftrek op bouw.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 44 §3 2° d" }
+          ]
+        }
+      }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Beroepsoprichter art. 12 §2: standaard- of optieregime",
+        "opties": [
+          { "keuze": "Standaardregime — drie verkopen-per-vijf-jaar test", "voordeel": "Geen formaliteit, automatische beroepsoprichter-kwalificatie", "nadeel": "Risico achteraf gekwalificeerd te worden (correcties + boetes)" },
+          { "keuze": "Optie-regime — verklaring 121 indienen", "voordeel": "Rechtszekerheid + onmiddellijk volledige btw-aftrek op bouwfase", "nadeel": "Onomkeerbaar voor minstens vijf jaar" }
+        ],
+        "vuistregel": "Bij twee of meer geplande verkopen binnen vijf jaar: opteren via formulier 121. Verschaft duidelijkheid voor projectontwikkelaars die ad hoc bouwen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk projectontwikkeling" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "btw"
+      "id": "projectontwikkelaar",
+      "naam": { "primair": "Projectontwikkelaar (beroepsoprichter)" },
+      "intro": "De accountant van een bouwheer of projectontwikkelaar die op regelmatige basis nieuwe gebouwen verkoopt.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "kwalificatie-beroepsoprichter",
+              "naam": { "primair": "Kwalificatie beroepsoprichter screenen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke vastgoedklant: nagaan of de cliënt voldoet aan art. 12 §2 W.BTW (drie verkopen van nieuwe gebouwen binnen vijf jaar) of via formulier 121 heeft geopteerd. Hiervan hangt af of verkopen verplicht onder btw vallen of niet. Onjuiste kwalificatie → naheffing 21 % btw + boete 10-200 % (art. 70 W.BTW).",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 12 §2" },
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 70" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "voorraad-onroerend",
+              "naam": { "primair": "Boeking projecten in opbouw — rekening 35/37" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Gebouwen-in-aanbouw door beroepsoprichter zijn 'voorraad' (rek. 35 of 37) — niet vaste activa — want bestemd voor verkoop. Bouwkosten en aanverwante diensten (architect, studie, bouw) accumuleren op die rekening; btw daarop is aftrekbaar bij ontvangst factuur (recht op aftrek ontstaat onmiddellijk, art. 45 W.BTW). Bij verkoop: 35/37 → 70 + 451 btw verschuldigd.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 45" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard boekhoudpraktijk beroepsoprichter" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "klassiek-mkb",
+      "naam": { "primair": "Klassiek MKB met eigen vastgoed" },
+      "intro": "De accountant van een gemiddeld bedrijf dat geen vastgoed-business doet maar wel eigen bedrijfsruimte gebruikt, koopt of verkoopt.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "advies-nieuw-vs-oud",
+              "naam": { "primair": "Advies aankoop gebouw — nieuw of oud?" },
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij aankoop van een gebouw door btw-plichtig mkb: eerst nagaan of het 'nieuw' is. Indien ja → btw 21 % maar volledig aftrekbaar (voor zover gebruikt voor belastbare activiteit) — netto-cashflow-impact tijdelijk, maar geen finale kost. Indien oud → registratierechten ~12 % definitief niet-recupereerbaar. Voor een mkb met volledige aftrek is een nieuw gebouw fiscaal goedkoper dan een oud (bij gelijke prijs).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 1 §9" },
+                      { "type": "wettekst", "naam": "W.BTW", "ref": "art. 45" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard mkb-advies aankoop bedrijfsgebouw" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "btw" },
+    { "type": "bevat", "target": "optie-btw-verhuur-vastgoed" },
+    { "type": "bevat", "target": "eigen-werkzaamheid-btw" },
+    { "type": "triggert", "target": "btw-herziening-bedrijfsmiddelen", "toelichting": "Bij wijziging bestemming onroerend bedrijfsmiddel binnen 15 jaar wordt eerder afgetrokken btw herzien." },
+    { "type": "vergelijkbaar_met", "target": "registratierechten",
+      "gelijkenissen": [
+        "Beide treffen vastgoedtransacties",
+        "Beide worden geheven naar aanleiding van een akte"
+      ],
+      "verschillen": [
+        "Btw 21 % is aftrekbaar voor btw-plichtige; registratierechten zijn definitief verloren",
+        "Btw geldt enkel voor 'nieuw' gebouw + bijhorend terrein; registratierechten gelden voor 'oud' gebouw en losse grond",
+        "Btw-stelsel verplicht beroepsoprichters; registratierechten zijn de default voor particulieren"
+      ],
+      "verwarring_risico": "Studenten geven bij dezelfde transactie soms beide regimes toe — ze sluiten elkaar uit (art. 159 8° Reg.W.).",
+      "render_hint": "als_keuze"
     }
   ]
 }
