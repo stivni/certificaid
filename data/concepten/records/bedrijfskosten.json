@@ -2,81 +2,345 @@
   "id": "bedrijfskosten",
   "naam": {
     "primair": "Bedrijfskosten",
-    "synoniemen": [
-      "operationele kosten"
-    ]
+    "synoniemen": ["operationele kosten", "operating expenses"],
+    "vertaling": {"en": "operating expenses", "fr": "charges d'exploitation"}
   },
   "concept_type": "balanspost",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "1.1.II.M"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["1.1.II.M"],
     "scope": {
       "in": [
-        "MAR-klasse 60-65",
-        "60 handelsgoederen + 61 diensten/diverse goederen + 62 personeelskosten + 630/631 afschrijvingen + 634 waardeverminderingen + 635-638 andere",
-        "Onderscheid productie- vs distributie- vs administratie-kosten",
-        "Cross naar resultatenrekening-presentatie"
+        "MAR-klasse 60-65: alle kosten verbonden aan de gewone bedrijfsuitoefening",
+        "60 handelsgoederen/grondstoffen/hulpstoffen + 61 diensten en diverse goederen + 62 personeelskosten + 630/631 afschrijvingen + 634 waardeverminderingen + 635/637 voorzieningen + 640-649 andere bedrijfskosten",
+        "Onderscheid productie- vs distributie- vs administratie-kosten (functionele indeling — IAS 1)",
+        "Cross naar resultatenrekening-presentatie (naturen-vs-functionele indeling)"
       ],
       "out": [
-        {
-          "topic": "Bedrijfsopbrengsten (klasse 7)",
-          "richting": "moet-verwijzen",
-          "ref": "bedrijfsopbrengsten"
-        },
-        {
-          "topic": "Personeelskosten (klasse 62 specifiek)",
-          "richting": "moet-verwijzen",
-          "ref": "personeelskosten"
-        },
-        {
-          "topic": "Resultatenverwerking (jaarafsluit)",
-          "richting": "mag-verwijzen",
-          "ref": "resultaatverwerking"
-        }
+        {"topic": "Bedrijfsopbrengsten (klasse 70-74)", "richting": "moet-verwijzen", "ref": "bedrijfsopbrengsten"},
+        {"topic": "Personeelskosten — detail klasse 62", "richting": "moet-verwijzen", "ref": "personeelskosten"},
+        {"topic": "Resultaatverwerking (jaarafsluit)", "richting": "mag-verwijzen", "ref": "resultaatverwerking"},
+        {"topic": "Financiële kosten (klasse 65)", "richting": "mag-verwijzen", "ref": "financiele-kosten"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-balansposten-activa-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/bedrijfskosten.json",
+      "primary_bronnen": ["MAR-KB 21.10.2018 Bijlage 1 — klasse 6", "CBN-advies 2011/24 (herstructureringskosten)", "CBN-advies 2016/26 (diensten en diverse goederen)", "Verordening (EU) 2023/1803 — IAS 1 §103"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-cross-cutting-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-cross-cutting-2026-05-28", "wijziging": "Skeleton-record aangemaakt uit cluster-spec"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:00:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "cluster-extract-balansposten-activa-2026-05-28", "wijziging": "Bedrijfskosten uitgewerkt: MAR-klasse 60-65 met sub-rubrieken, naturen- vs functionele indeling, boekingsvoorbeeld + valkuilen. Bronnen: MAR-KB + CBN 2011/24 + 2016/26 + IAS 1."}
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Bedrijfskosten zijn alle kosten die voortvloeien uit de gewone bedrijfsuitoefening van de onderneming — dat wil zeggen kosten verbonden aan haar operationele activiteit (productie, handel, dienstverlening). In het Belgische Minimum Algemeen Rekeningenstelsel (MAR-KB 21.10.2018) zitten ze in klasse 60-65: 60 (handelsgoederen, grond- en hulpstoffen), 61 (diensten en diverse goederen), 62 (personeelskosten), 630/631 (afschrijvingen en waardeverminderingen op oprichtingskosten en vaste activa), 634 (waardeverminderingen op voorraden, bestellingen en vorderingen), 635-637 (voorzieningen), 640-649 (andere bedrijfskosten zoals bedrijfsbelastingen, minderwaarden). Bedrijfskosten vormen samen met bedrijfsopbrengsten (klasse 70-74) het bedrijfsresultaat — de kern van de operationele winstgevendheid.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "kb", "naam": "Minimum Algemeen Rekeningstelsel voor boekhoudplichtige ondernemingen", "ref": "KB 21.10.2018 Bijlage 1 — Klasse 6"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Bedrijfskosten meten 'wat het kost om te ondernemen' — los van financiering (klasse 65) en uitzonderlijke verrichtingen (klasse 66). De stagiair moet drie dingen scherp houden: (1) het onderscheid kosten- vs uitgaven — een kost is een verbruik in het boekjaar (matching-principe), een uitgave is een betaling; cash flow ≠ winst. (2) De MAR is geen vrije lijst maar een verplichte minimumstructuur (KB 2018) — elke onderneming moet rubriek 60-65 herkenbaar gebruiken. (3) Resultatenrekening kent twee voorstellingen: per natuur (60+61+62+630+634+...) of per functie (kostprijs verkopen + distributiekosten + administratiekosten — IAS 1 §103). België: naturenindeling dominant, IFRS-rapporteurs kunnen ook functioneel.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "kb", "naam": "KB 29.04.2019 (uitvoering WVV)", "ref": "art. 3:84 (vorm jaarrekening)"},
+            {"type": "wettekst", "naam": "Verordening (EU) 2023/1803 — IAS 1", "ref": "§103"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Het MAR-onderscheid bedrijfs- vs financieel vs uitzonderlijk dient analyse en vergelijkbaarheid. Het bedrijfsresultaat (REBITDA-achtige logica) toont of de kernactiviteit rendabel is, los van financieringskeuzes (te veel schuld? → klasse 65) of eenmalige gebeurtenissen (herstructurering, desinvestering — klasse 66 vóór 2020, sinds reform 2020 deels heringedeeld). Voor de stagiair: leer de klasse-codes uit het hoofd — examen bevat steeds rubricerings-vragen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["dubbele-boekhouding", "rekeningstelsel-mar"],
+      "kader": "resultatenrekening",
+      "naast_relevant": ["bedrijfsopbrengsten", "personeelskosten", "financiele-kosten"],
+      "volgkennis": ["resultaatverwerking", "jaarrekeninganalyse"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {"tekst": "Boeken van facturen, lonen, afschrijvingen tijdens het boekjaar — elke aankoop, dienst, salaris belandt op een klasse 60-65 rekening.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 klasse 6"}]}},
+        {"tekst": "Opstellen van de resultatenrekening per einde boekjaar — bedrijfskosten worden gesaldeerd tegen bedrijfsopbrengsten (klasse 70-74) om bedrijfsresultaat te bekomen.", "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019 (uitvoering WVV)", "ref": "art. 3:84"}]}}
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "klasse-60-handelsgoederen",
+        "naam": {"primair": "60 — Handelsgoederen, grond- en hulpstoffen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Klasse 60 dekt aankopen van goederen die de onderneming verbruikt of doorverkoopt: 600 grondstoffen · 601 hulpstoffen · 602 diensten/werk/studies · 603 algemene onderaannemingen · 604 handelsgoederen · 605 onroerende goederen bestemd voor verkoop · 608 ontvangen kortingen (creditrekening) · 609 voorraadwijzigingen. Boekingsmoment: bij ontvangst factuur. Voorraadwijziging (609) corrigeert kosten naar verbruik (matching).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 60"}]}
+            }
+          },
+          "voorbeelden": [
+            {
+              "id": "voorbeeld-aankoop-handelsgoederen",
+              "titel": "Aankoop handelsgoederen 1.000 EUR + 21% btw",
+              "context": "Zelena Bio NV koopt voor 1.000 EUR handelsgoederen (factuur leverancier ARGENTA Bio NV).",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "Boeking factuur leverancier",
+                  "rijen": [
+                    {"rekening": "604 — Aankopen handelsgoederen", "debet": 1000, "credit": null},
+                    {"rekening": "411 — Terug te vorderen btw", "debet": 210, "credit": null},
+                    {"rekening": "440 — Leveranciers", "debet": null, "credit": 1210}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "klasse-61-diensten-diverse-goederen",
+        "naam": {"primair": "61 — Diensten en diverse goederen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Klasse 61 omvat kosten van diensten geleverd door derden + diverse goederen niet bestemd voor wederverkoop. Typisch: huur, energie, onderhoud, verzekeringen, erelonen advocaten/accountants, marketing, telecom, kantoorbenodigdheden. Boeking netto btw (voor aftrekbare btw); voor 100% beroepskosten wagen blijft 50% btw niet aftrekbaar — naar 6405.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2016/26", "ref": "Diensten en diverse goederen — boekhoudkundige verwerking"}]}
+            }
+          },
+          "voorbeelden": [
+            {
+              "id": "voorbeeld-ereloon-accountant",
+              "titel": "Ereloon accountant 2.500 EUR + 21% btw",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "Boeking ereloon",
+                  "rijen": [
+                    {"rekening": "613 — Ereloon en kosten van derden", "debet": 2500, "credit": null},
+                    {"rekening": "411 — Terug te vorderen btw", "debet": 525, "credit": null},
+                    {"rekening": "440 — Leveranciers", "debet": null, "credit": 3025}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "klasse-62-personeelskosten",
+        "naam": {"primair": "62 — Personeelskosten"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Klasse 62 omvat totale loonkost: 620 bezoldigingen + 621 werkgeversbijdragen RSZ + 622 werkgeverspremies extra-wettelijke verzekeringen + 623 andere personeelskosten + 624 pensioenen + 625 voorzieningen sociale verplichtingen. Detail in apart record personeelskosten — hier alleen positie binnen MAR.",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 62"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-630-631-afschrijvingen",
+        "naam": {"primair": "630/631 — Afschrijvingen en waardeverminderingen op vaste activa"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "630 afschrijvingen op oprichtingskosten + immateriële + materiële vaste activa (kosten van de spreiding-in-tijd van de aanschaffingswaarde). 631 waardeverminderingen op vaste activa (bijzondere waardeverlies — niet de jaarlijkse afschrijving). Tegenpost in actief: 20-28 met negatief teken (rubriek ...9 afschrijvingen).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 630/631"}]}
+            }
+          },
+          "voorbeelden": [
+            {
+              "id": "voorbeeld-afschrijving-machine",
+              "titel": "Jaarlijkse afschrijving machine 10.000 EUR / 10 jaar = 1.000 EUR",
+              "context": "Zelena Bio bezit een productiemachine (aanschaffingswaarde 10.000 EUR, lineair over 10 jaar).",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]},
+              "weergaven": [
+                {
+                  "type": "boeking",
+                  "titel": "Boeking jaarafschrijving",
+                  "rijen": [
+                    {"rekening": "6302 — Afschrijvingen op materiële vaste activa", "debet": 1000, "credit": null},
+                    {"rekening": "2309 — Geboekte afschrijvingen op installaties/machines (-)", "debet": null, "credit": 1000}
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "klasse-634-waardeverminderingen-voorraden-vorderingen",
+        "naam": {"primair": "634 — Waardeverminderingen op voorraden, bestellingen en handelsvorderingen"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Waardevermindering ≠ afschrijving: afschrijving is systematisch (over levensduur), waardevermindering is bijzonder (concreet waardeverlies vastgesteld). Op voorraad: onverkoopbaar, technisch verouderd. Op handelsvorderingen: dubieuze debiteur (faillissement, lange betalingsachterstand). Boekingsregel CBN: documenteer per debiteur de risico-inschatting.",
+              "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 634"}]}
+            }
+          }
+        }
+      },
+      {
+        "id": "klasse-640-649-andere-bedrijfskosten",
+        "naam": {"primair": "640-649 — Andere bedrijfskosten"},
+        "concept_type": "balanspost",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Bedrijfsbelastingen + minderwaarden op courante realisatie + diverse. Sub-rubrieken: 640 bedrijfsbelastingen (verkeersbelasting, onroerende voorheffing, registratierechten, niet-aftrekbare btw, gemeente- en provinciebelastingen, milieuheffingen) · 641 minderwaarden op realisatie courante vaste activa · 642 minderwaarden op realisatie handelsvorderingen · 643/648 andere · 649 als bedrijfskosten op te nemen herstructureringskosten (zie CBN 2011/24).",
+              "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "Bijlage 1 — klasse 640-649"}, {"type": "cbn", "naam": "CBN-advies 2011/24", "ref": "Herstructureringskosten"}]}
+            }
+          }
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Naturenindeling (Belgische MAR standaard) vs functionele indeling (IAS 1 §103, optioneel).",
+        "inhoud": {
+          "kolommen": ["MAR-rubriek (naturen)", "IAS 1 functionele rubriek (typisch)"],
+          "rijen": [
+            ["60 + 609 voorraadwijziging", "Kostprijs verkopen (deels)"],
+            ["61 (huur, energie productiehal)", "Kostprijs verkopen of distributiekosten"],
+            ["61 (marketing, commerciële agenten)", "Distributiekosten"],
+            ["62 productie-personeel", "Kostprijs verkopen"],
+            ["62 administratie-personeel", "Beheerskosten"],
+            ["630 afschrijving machine productie", "Kostprijs verkopen"],
+            ["630 afschrijving kantoor", "Beheerskosten"],
+            ["640 bedrijfsbelastingen", "Andere lasten"]
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Klasse 6 ≠ uitgave",
+        "verkeerde_assumptie": "Een kost in klasse 6 betekent dat er deze maand cash is betaald.",
+        "kernpunt": "Kost ≠ uitgave. Bij ontvangst factuur boek je 60-65 (kost) tegenover 440 (leveranciers, schuld) — pas bij betaling beweegt 55 bank. Bij afschrijving: enkel boekhoudkundige spreiding, geen cash-beweging. Voor liquiditeitsanalyse: kijk naar bewegingen klasse 55 + werkkapitaal, niet naar klasse 6.",
+        "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+      },
+      {
+        "titel": "Niet-aftrekbare btw vergeten",
+        "verkeerde_assumptie": "Btw is altijd terug te vorderen (klasse 411) — kost is netto.",
+        "kernpunt": "Niet-aftrekbare btw (bv. 50% wagenkosten, gemengd privé/zakelijk, vrijgestelde activiteit) wordt onderdeel van de kost en geboekt op 6405 (niet-aftrekbare btw) of opgenomen in de hoofdkostrekening. Aandacht bij wagens, restaurantkosten, relatiegeschenken.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "kb", "naam": "MAR-KB", "ref": "rubriek 6405"}]}
+      },
+      {
+        "titel": "Herstructureringskosten = uitzonderlijk?",
+        "verkeerde_assumptie": "Herstructureringskosten horen automatisch onder klasse 66 (uitzonderlijke kosten) of 76 (uitzonderlijke opbrengsten).",
+        "kernpunt": "CBN 2011/24: herstructureringskosten kunnen als bedrijfskosten (649) OF als uitzonderlijk worden geboekt, afhankelijk van aard en omvang. Sinds reform 2020 (KB 29.04.2019) is klasse 66/76 deels heringedeeld — veel posten verschoven naar bedrijfs- of financieel resultaat. Documenteer keuze in toelichting.",
+        "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2011/24", "ref": "Herstructureringskosten — verwerking in de jaarrekening"}]}
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhouding"
+      "id": "perspectief-onderneming-zelf",
+      "naam": {"primair": "Onderneming zelf — operationele boekhouding"},
+      "intro": "Het accountantskantoor voert de boekhouding van de cliënt-onderneming.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boekh-juiste-rubriek",
+              "naam": {"primair": "Juiste klasse-6-rubriek kiezen"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per inkomende factuur: (1) is dit een handelsgoed/grondstof voor doorverkoop/productie → klasse 60 (sub 600-605). (2) Is dit een dienst van een derde of een diverse-goed (energie, huur, papier) → klasse 61 (sub 610-619). (3) Is dit personeelsgerelateerd → klasse 62. (4) Is dit een bedrijfsbelasting → 640. (5) Is dit een minderwaarde of herstructureringskost → 641-649. Documenteer beleidsregel voor gemende posten (bv. erelonen accountant = 613, leasing wagens = 612, brandstofkosten = 6112).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]}
+                }
+              }
+            },
+            {
+              "id": "boekh-afschrijvingen-eindejaar",
+              "naam": {"primair": "Afschrijvingen + waardeverminderingen op jaarafsluit boeken"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Per einde boekjaar: afschrijvingsbatch boeken (630.xxxx debet, 2xxx9 credit) volgens afschrijvingstabel. Waardeverminderingen op voorraad (633) en op dubieuze handelsvorderingen (634) na inventaris-toets. Documenteer per dossier de afschrijvingsgrondslag (lineair / degressief / aanschaffingswaarde / restwaarde) — vereist door art. 3:42 KB WVV.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "kb", "naam": "KB 29.04.2019", "ref": "art. 3:42"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-existentie-volledigheid",
+              "naam": {"primair": "Existentie en volledigheid bedrijfskosten"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Existentie: steekproef facturen (klasse 60-61), check werkelijk geleverd. Volledigheid: cut-off test eind boekjaar — facturen die in januari binnenkomen voor diensten geleverd in december → te boeken via 492 (overlopende rekening passief). Analytisch: vergelijk huidige bedrijfskosten met vorig boekjaar + budget; abnormale schommelingen onderzoeken (kostprijs-marge ratio).",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard audit-aanpak resultatenrekening (ISA 315 + 330)"}]}
+                }
+              }
+            },
+            {
+              "id": "audit-classificatie",
+              "naam": {"primair": "Classificatie bedrijfskosten vs financieel/uitzonderlijk"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Toets dat klasse-65 kosten effectief financieringskosten zijn (rente, koersverschil, financiële schulden — geen bedrijfsmatige kosten verstopt om bedrijfsresultaat te flatteren). Herstructureringskosten: keuze 649 of (post-reform 2020) bedrijfsmatig — vraag rationale + CBN 2011/24-conformiteit. Boekhoudkundige fraude-indicator: plotse stijging klasse 66 net vóór desinvestering = verschuiving operationele kosten.",
+                  "grondslag": {"confidence": "afgeleid", "bronnen": [{"type": "cbn", "naam": "CBN-advies 2011/24", "ref": "Herstructureringskosten"}]}
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "fisc-aftrekbaarheid",
+              "naam": {"primair": "Aftrekbaarheid bedrijfskosten — art. 49 WIB92"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Algemene regel: bedrijfskosten zijn aftrekbaar mits gemaakt om belastbare inkomsten te verwerven of te behouden (art. 49 WIB92) + werkelijkheidsvoorwaarde + bewijsstukken. Beperkingen WIB92 art. 53-66bis: 50% aftrek restaurantkosten (al sinds AJ 2005), beperkte aftrek wagenkosten volgens CO2-formule, 0% relatiegeschenken > 50 EUR, etc. Aangifte: VenB-vak ZZ 'verworpen uitgaven' voor het niet-aftrekbare deel. Documenteer scheiding boekhoudkundige kost (volledig in klasse 6) vs fiscaal aftrekbaar deel.",
+                  "grondslag": {"confidence": "geciteerd", "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 49 + 53-66bis"}]}
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "resultatenrekening", "toelichting": "Bedrijfskosten = debetzijde bedrijfsresultaat-deel van de resultatenrekening."},
+    {"type": "vergelijkbaar_met", "target": "bedrijfsopbrengsten", "gelijkenissen": ["Beide vormen het bedrijfsresultaat", "Beide MAR-klassen 6 vs 7"], "verschillen": ["Bedrijfskosten = klasse 60-65 (debet)", "Bedrijfsopbrengsten = klasse 70-74 (credit)"]},
+    {"type": "bevat", "target": "personeelskosten", "toelichting": "Klasse 62 is sub-rubriek van bedrijfskosten."},
+    {"type": "vereist", "target": "rekeningstelsel-mar", "toelichting": "Klasse-6-rubricering veronderstelt kennis van het MAR."}
   ]
 }
