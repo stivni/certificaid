@@ -1,20 +1,23 @@
 {
   "id": "evaluatie-interne-controle",
   "naam": {
-    "primair": "Evaluatie interne controle",
+    "primair": "Evaluatie van interne controle",
     "synoniemen": [
       "internal control evaluation",
       "control assessment",
       "control self-assessment",
       "operating effectiveness testing",
       "design effectiveness review",
-      "IC-doeltreffendheidstoets"
-    ]
+      "doeltreffendheidstoets interne controle"
+    ],
+    "vertaling": {
+      "fr": "évaluation du contrôle interne"
+    }
   },
   "concept_type": "procedure",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "kader"
     ],
@@ -25,21 +28,21 @@
     ],
     "scope": {
       "in": [
-        "Periodieke beoordeling van IC-opzet + IC-bestaan + IC-werking",
-        "#walkthrough — één transactie door cyclus volgen om procedures te verifiëren",
-        "#test-of-controls — sleutel-controle effectief over periode (sample)",
-        "#self-assessment — process owners beoordelen eigen controles",
-        "2 dimensies (ISA 315 + ITAA-KMO): #design-effectiveness + #operating-effectiveness",
-        "Output: input voor bestuur (remediërings-acties) + voor externe auditor (controle-risico-inschatting)"
+        "Periodieke beoordeling van opzet, bestaan en werking van interne controle",
+        "Walk-through: een transactie door de cyclus volgen om procedures te verifieren",
+        "Test of controls: sleutelcontrole effectief over periode (steekproef)",
+        "Self-assessment: process owners beoordelen hun eigen controles",
+        "Twee dimensies (ISA 315 + ITAA-KMO-controlenorm): design effectiveness en operating effectiveness",
+        "Output: input voor bestuur (remedierings-acties) en voor externe auditor (controle-risico-inschatting)"
       ],
       "out": [
         {
-          "topic": "IC als object",
+          "topic": "Interne controle als object van evaluatie",
           "richting": "moet-verwijzen",
           "ref": "interne-controle"
         },
         {
-          "topic": "Externe auditor doet zelfde activiteit (cross-cluster)",
+          "topic": "Externe auditor doet zelfde activiteit (cross)",
           "richting": "moet-verwijzen",
           "ref": "audit-planning"
         },
@@ -49,21 +52,31 @@
           "ref": "interne-audit"
         },
         {
-          "topic": "Auditcomité-rapportering",
+          "topic": "Auditcomite-rapportering",
           "richting": "moet-verwijzen",
           "ref": "auditcomite"
         },
         {
-          "topic": "COSO-monitoring-component (shared)",
+          "topic": "COSO-monitoring-component",
           "richting": "mag-verwijzen",
           "ref": "coso-framework"
         }
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-controle-beroep-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-controle-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/evaluatie-interne-controle.json",
+      "primary_bronnen": [
+        "ISA 315 (herzien-2019)",
+        "ISA 330",
+        "ISA 265",
+        "ITAA-norm-kmo-controlenorm"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -71,27 +84,356 @@
         "timestamp": "2026-05-28T08:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-controle-beroep-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec (controle + beroepsbeoefening, Fase 1)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:25:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-controle-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit ISA 315/330/265 en ITAA-KMO-controlenorm."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2 (cluster-extract).",
+        "tekst": "Evaluatie van interne controle is de gestructureerde activiteit waarbij de werking van een interne-controle-systeem wordt getoetst aan twee criteria: (1) design effectiveness - is de controle theoretisch geschikt om het beoogde risico af te dekken; (2) operating effectiveness - werkt de controle ook in de praktijk zoals ontworpen. Wordt uitgevoerd door verschillende actoren met verschillende doelen: door management zelf (continue monitoring, COSO-vijfde-component), door interne audit (onafhankelijke derde lijn), of door de externe auditor (in de planningsfase als basis voor zijn risico-inschatting en zijn beslissing om te steunen op interne controle).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "norm", "naam": "ISA 330", "ref": "par. 8 - toetsing design effectiveness en operating effectiveness" },
+            { "type": "norm", "naam": "ITAA-norm-kmo-controlenorm", "ref": "par. 97-98 - toetsingen van interne beheersingsmaatregelen" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch bestaat een evaluatie van interne controle uit drie soorten werkzaamheden, in oplopende mate van zekerheid: (1) inquiry - vraag aan de uitvoerder hoe hij de controle uitvoert; geeft enkel design-zekerheid; (2) walk-through - volg een transactie van begin tot einde om te zien dat de controle echt loopt; combineert design en eerste indicator van operating; (3) test of controls - selecteer een steekproef van transacties over de hele periode en toets de uitvoering; geeft operating effectiveness over de tijd. Voor sleutelcontroles waarop wordt gesteund: minstens een test of controls verplicht (ISA 330 par. 8). Voor controles waarop niet wordt gesteund: walk-through volstaat als bevestiging van design.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 330", "ref": "par. 9 - aard en omvang toetsing" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardmethodologie ISA + IIA" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Een interne controle die niet wordt geevalueerd verliest na verloop van tijd zijn werking - personen worden anders ingezet, IT-systemen wijzigen, procedures verwateren. ISA 315 zet evaluatie expliciet in als vijfde COSO-component (monitoring activities). Voor het management: vroegtijdige detectie van degradatie en input voor remediering. Voor de externe auditor: een gefundeerde basis om al dan niet te steunen op interne controle, met directe impact op de scope en kost van de externe audit.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 24 - monitoring-activities-component" }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "interne-controle",
+        "ontwerp-interne-controle"
+      ],
+      "naast_relevant": [
+        "interne-audit",
+        "audit-planning"
+      ],
+      "volgkennis": [
+        "audit-bewijs",
+        "fouten-en-fraude"
+      ]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Verplichte stap in elke externe controle (ISA 315/330) en in elke interne audit. Voor management: vrijwillig maar onderdeel van zorgvuldigheidsplicht."
+      },
+      "voor": [
+        {
+          "tekst": "Bij elke externe controleopdracht (planningsfase ISA 315). Bij elke interne audit volgens jaarplan. Periodiek door management als COSO-monitoring-component. Bij wijzigingen in processen, IT, organisatie of regelgeving als impact-assessment.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "norm", "naam": "ISA 315 (herzien-2019)", "ref": "par. 21-26" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "design-effectiveness",
+        "naam": { "primair": "Design effectiveness" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Design effectiveness toetst of een controle, indien correct uitgevoerd, het beoogde risico zou afdekken. Typisch via inquiry en observatie. Een controle kan design-ineffectief zijn als (1) de procedure niet adressheert wat het zegt te doen (bv. 'goedkeuring' zonder echte beoordeling van inhoud); (2) de uitvoerder geen toegang heeft tot de informatie nodig om de controle uit te voeren; (3) de controle te laat in de flow zit om effect te hebben.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 330", "ref": "par. 8 - design effectiveness" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "operating-effectiveness",
+        "naam": { "primair": "Operating effectiveness" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Operating effectiveness toetst of een als design-effectief beoordeelde controle ook in de praktijk wordt uitgevoerd over de hele relevante periode. Vereist een test of controls op een steekproef van transacties. Bij geautomatiseerde controles volstaat vaak een kleinere steekproef (mits gekoppeld aan ITGC-toets); bij manuele controles is een ruimere steekproef nodig die de hele periode bestrijkt. Bij significante risico's: toetsing in de lopende controleperiode verplicht (ISA 330 par. 15).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "norm", "naam": "ISA 330", "ref": "par. 8-15" }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "inquiry",
+        "naam": { "primair": "Inquiry (verzoek om inlichtingen)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Vraag aan de procesverantwoordelijke hoe hij een controle uitvoert: welke stappen, welke documenten gebruikt hij, wanneer voert hij hem uit, wat doet hij bij een uitzondering. Inquiry alleen geeft beperkte zekerheid - de uitvoerder kan beschrijven wat hij zou moeten doen zonder het effectief te doen. Combineer altijd met observatie of test of controls voor sleutelcontroles.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 500", "ref": "par. A14 - inquiries als type van bewijs" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "walkthrough",
+        "naam": { "primair": "Walk-through" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Volg een complete transactie van begin tot einde door de cyclus. Bij elke processtap: bevraag de uitvoerder, inspecteer de gebruikte documenten en systeemschermen, observeer de uitvoering. Doel: bevestigen dat de gedocumenteerde procedure correspondeert met de werkelijke uitvoering. Eindigt met een korte bevestiging dat de geidentificeerde controles bestaan en lijken te werken. Een walk-through alleen volstaat niet voor operating effectiveness over de hele periode.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 330", "ref": "par. 8" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "test-of-controls",
+        "naam": { "primair": "Test of controls (toetsing interne beheersingsmaatregel)" },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Selecteer een steekproef van transacties die de hele controleperiode bestrijkt (of voor handmatige controles minstens een representatief deel). Toets per transactie of de sleutelcontrole effectief is uitgevoerd zoals voorgeschreven. Aanvaardbaar afwijkingspercentage hangt af van de gewenste mate van zekerheid - in audit-context vaak nul-tolerantie voor kritieke controles (bv. autorisatie boven 100.000 EUR). Eventuele afwijkingen analyseren: oorzaak, mogelijke gevolgen, aanpassing van risico-inschatting.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 330", "ref": "par. 16-17 evalueren effectieve werking" },
+                { "type": "norm", "naam": "ISA 530", "ref": "Gebruik van steekproeven bij een controle" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "self-assessment",
+        "naam": { "primair": "Control self-assessment door process owners" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Process owners (managers van een afdeling of cyclus) beoordelen periodiek zelf hun eigen controles via vragenlijsten, scorecards of workshops. Voordeel: hoge betrokkenheid, snelle detectie van issues. Nadeel: gebrek aan onafhankelijkheid, optimisme-bias. Typisch combinatie: self-assessment kwartaalbasis + onafhankelijke interne audit jaarlijks-basis + externe audit jaarlijks-basis voor financiele rapportering.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "IIA-COSO-monitoring-praktijk" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "tekortkomingen-categoriseren",
+        "naam": { "primair": "Tekortkomingen categoriseren (ISA 265)" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Gevonden tekortkomingen worden gecategoriseerd op basis van significantie: (1) significante tekortkoming - moet schriftelijk aan met governance belaste personen worden gerapporteerd (auditcomite of bestuursorgaan); (2) andere tekortkoming - rapporteren aan management. ISA 265 par. A6-A7 geeft criteria: waarschijnlijkheid van afwijkingen van materieel belang in financiele overzichten, vatbaarheid voor verlies of fraude, complexiteit van schattingen, omvang van de blootgestelde transactiestromen.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 265", "ref": "par. 6-9 + A6-A7" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "frequentie-en-rotatie",
+        "naam": { "primair": "Frequentie en rotatie van toetsing" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor controles waarop de externe auditor steunt zonder significant risico: minstens een keer per drie controleperiodes toetsen, met een deel van de controles elke periode (ISA 330 par. 14). Voor significante risico's: elk jaar toetsen verplicht (par. 15). Bij wijzigingen in de controle sinds de vorige toetsing: opnieuw toetsen in de lopende periode (par. 14(a)).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "norm", "naam": "ISA 330", "ref": "par. 14-15" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-evaluatie-aankoopautorisatie",
+        "titel": "Evaluatie van aankoopautorisatie-controle bij Zelena Bio NV",
+        "context": "Externe auditor wil steunen op de tweehandtekeningsregel boven 5.000 EUR in de aankoopcyclus bij Zelena Bio NV.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardvoorbeeld test of controls" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "stappen": [
+              "Stap 1 - Inquiry: vraag aan de aankoopverantwoordelijke en de zaakvoerder hoe de tweehandtekeningsregel werkt en aan welk bewijs het wordt gedocumenteerd",
+              "Stap 2 - Design assessment: bevestig dat de procedure voorziet in formele goedkeuring door twee gemachtigden boven 5.000 EUR en dat deze in het ERP wordt afgedwongen (system-blokkering zonder beide handtekeningen)",
+              "Stap 3 - Walk-through: volg een specifieke aankoop boven 5.000 EUR door de cyclus en bevestig dat beide handtekeningen aanwezig zijn",
+              "Stap 4 - Test of controls: trek een steekproef van 25 inkoopfacturen boven 5.000 EUR verspreid over het boekjaar; toets per factuur de aanwezigheid en authenticiteit van beide handtekeningen",
+              "Stap 5 - Evaluatie: nul afwijkingen → operating effectiveness bevestigd, auditor kan steunen en zijn gegevensgerichte werkzaamheden inperken; afwijkingen → oorzaakanalyse + uitbreiding gegevensgerichte controles"
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Design effectiveness verwarren met operating effectiveness",
+        "verkeerde_assumptie": "Een goed gedocumenteerde procedure betekent dat de controle ook effectief werkt.",
+        "kernpunt": "Design effectiveness en operating effectiveness zijn twee aparte tests. Een procedure kan perfect ontworpen zijn maar in de praktijk niet uitgevoerd (medewerkers volgen de procedure niet, slaan stappen over, geven elkaar paswoorden). Beide moeten apart getoetst worden vooraleer wordt gesteund op de controle.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 330", "ref": "par. 8" }
+          ]
+        }
+      },
+      {
+        "titel": "Steekproef van een transactie laten doorgaan voor een toetsing",
+        "verkeerde_assumptie": "Met een walk-through op een transactie heb ik de controle voldoende getoetst.",
+        "kernpunt": "Een walk-through geeft enkel een momentopname; operating effectiveness over de hele periode vergt een steekproef die de hele periode bestrijkt. Voor sleutelcontroles is dat een verplichting (ISA 330 par. 8 + 14).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 330", "ref": "par. 8" }
+          ]
+        }
+      },
+      {
+        "titel": "Geen onderzoek doen naar afwijkingen",
+        "verkeerde_assumptie": "Een paar afwijkingen in een steekproef zijn normaal en mogen genegeerd worden.",
+        "kernpunt": "ISA 330 par. 17 vereist dat de auditor bij gedetecteerde deviaties specifiek onderzoek doet naar oorzaken en gevolgen, en bepaalt of (a) de toetsingen een passende basis blijven voor steunen, (b) aanvullende toetsingen nodig zijn, of (c) terugvallen op gegevensgerichte controles. Een afwijking kan symptomatisch zijn voor een veel grotere onderliggende controle-zwakte.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "norm", "naam": "ISA 330", "ref": "par. 17" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "auditor-evaluatie",
+      "naam": {
+        "primair": "Externe auditor evalueert interne controle cliente"
+      },
+      "intro": "De externe auditor in de planning- en uitvoeringsfase die de werking van interne controle moet toetsen.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "selectie-key-controls",
+              "naam": { "primair": "Sleutelcontroles selecteren voor toetsing" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Niet alle controles toetsen: focus op de sleutelcontroles per significant risico. Selecteer per bewering en per significant rekeningsaldo de controles die voldoende zekerheid kunnen geven indien effectief werkend. Documenteer de selectie in het audit-dossier met motivering.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 330", "ref": "par. 6-7" }
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "rapportering-management-letter",
+              "naam": { "primair": "Rapportering via management letter" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Significante tekortkomingen worden in een management letter aan het auditcomite (of bestuursorgaan) gerapporteerd. Per tekortkoming: beschrijving, mogelijke gevolgen voor de financiele overzichten, aanbeveling voor remediering, management response (wat gaat het management eraan doen en wanneer). Andere tekortkomingen apart aan operationeel management.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ISA 265", "ref": "par. 9-11" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "interne-auditor-evaluatie",
+      "naam": {
+        "primair": "Interne auditor evalueert eigen IC-systeem"
+      },
+      "intro": "De interne auditor in een geplande audit-opdracht van een specifiek cyclus of process.",
+      "rollen": [
+        {
+          "rol": "auditor",
+          "elementen": [
+            {
+              "id": "audit-rapport-met-aanbevelingen",
+              "naam": { "primair": "Audit-rapport met bevindingen en aanbevelingen" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Resultaat is een audit-rapport met per bevinding: feitenvaststelling (wat is gevonden), risico (welk financieel/operationeel/compliance-risico), aanbeveling (wat zou anders moeten), management response (commitment van proceseigenaar), deadline. Status: open, in progress, closed. Follow-up bij volgende cyclus.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard interne-audit-rapportering IIA" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -102,12 +444,9 @@
       "target": "interne-audit"
     },
     {
-      "type": "vergelijkbaar_met",
-      "target": "audit-planning"
-    },
-    {
       "type": "gedocumenteerd_in",
-      "target": "auditcomite"
+      "target": "auditcomite",
+      "toelichting": "Rapportering van significante tekortkomingen gebeurt schriftelijk aan auditcomite (ISA 265)."
     }
   ]
 }
