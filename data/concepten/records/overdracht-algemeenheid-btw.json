@@ -1,0 +1,444 @@
+{
+  "id": "overdracht-algemeenheid-btw",
+  "naam": {
+    "primair": "Overdracht algemeenheid btw",
+    "synoniemen": [
+      "TOGC",
+      "transfer of going concern",
+      "art 11 W.BTW",
+      "overdracht handelszaak BTW"
+    ],
+    "vertaling": {
+      "fr": "transfert d'une universalité de biens TVA",
+      "en": "transfer of a going concern (TOGC)"
+    }
+  },
+  "concept_type": "regime",
+  "metadata": {
+    "schema_version": "2.2",
+    "status": "concept",
+    "categorieen": [
+      "regeling"
+    ],
+    "ankers": [
+      "2.4.taak.2",
+      "2.4.VII"
+    ],
+    "scope": {
+      "in": [
+        "BTW-regime overdracht algemeenheid van goederen of bedrijfsafdeling (art. 11 W.BTW)",
+        "TOGC-regeling (Transfer of Going Concern): geen levering voor BTW",
+        "Neutraliteit — overnemer treedt in rechten en plichten van overdrager (continuïteits-fictie)",
+        "Voorwaarden: belastingplichtige overdrager + belastingplichtige overnemer + voortzetting activiteit",
+        "Gevolgen: geen BTW-aanrekening + behoud van herzieningstermijnen bedrijfsmiddelen + geen aftrek-correctie"
+      ],
+      "out": [
+        {
+          "topic": "Inbreng van bedrijfstak of algemeenheid (vennootschapsrechtelijk + VenB-neutraliteit)",
+          "richting": "mag-verwijzen",
+          "ref": "inbreng-bedrijfstak-of-algemeenheid"
+        },
+        {
+          "topic": "Algemene BTW-aftrek + herzieningen bedrijfsmiddelen",
+          "richting": "moet-verwijzen",
+          "ref": "btw-aftrek"
+        },
+        {
+          "topic": "BTW-herzieningen op bedrijfsmiddelen (continuïteit bij overdracht)",
+          "richting": "moet-verwijzen",
+          "ref": "btw-herziening-bedrijfsmiddelen"
+        }
+      ]
+    },
+    "provenance": {
+      "model": "claude-sonnet-4-5",
+      "wave_id": "migration-v21-to-v22-2026-05-28",
+      "extract_prompt": "tools.extractie.skeleton_from_candidate",
+      "iteratie": "v21-to-v22-migration"
+    },
+    "changelog": [
+      {
+        "operatie": "skeleton",
+        "timestamp": "2026-05-22T16:54:52Z",
+        "model": "skeleton-from-candidate",
+        "wijziging": "Skelet aangemaakt uit candidates-DB"
+      },
+      {
+        "operatie": "migrate-v14-v15",
+        "timestamp": "2026-05-22T22:17:56Z",
+        "model": "migration-script",
+        "wijziging": "Schema 2.1 v1.4 → v1.5 (mutaties: 5)"
+      },
+      {
+        "operatie": "v21-naar-v22-migratie",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "claude-sonnet-4-5",
+        "wave_id": "migration-v21-to-v22-2026-05-28",
+        "wijziging": "Schema 2.1 → 2.2 migratie: elementen→subconcepten+bouwstenen splitsing, categorieen+scope+geldigheid toegevoegd, relatie-targets gemapt naar canonical v22-records. Record was vergeten in Wave-1 skeleton-generation maar bestond als volwaardig v21-record."
+      }
+    ]
+  },
+  "inhoud": {
+    "kern": {
+      "definitie": {
+        "tekst": "De **overdracht van een algemeenheid van goederen of een bedrijfstak** valt onder een bijzonder BTW-regime (art. 11 W.BTW) dat de overdracht als **non-event voor BTW** behandelt: er wordt **geen BTW aangerekend**, en de overnemer treedt in alle rechten en plichten van de overdrager. Het regime is de Belgische omzetting van het EU-concept **TOGC** (Transfer of Going Concern, art. 19 BTW-richtlijn 2006/112/EG).",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Concreet werkt het regime zo: bij de overdracht van een **algemeenheid** (alle activa en passiva van een onderneming) of een **bedrijfstak** (een autonoom werkend deel) aan een **andere BTW-belastingplichtige** die de activiteit voortzet, wordt fiscaal gedaan **alsof er geen levering plaatsvond**. Concrete gevolgen: (a) géén BTW op de overdrachtprijs; (b) géén aftrek-correctie bij de overdrager; (c) de **herzieningstermijnen** voor bedrijfsmiddelen (5 of 15 jaar) lopen ongewijzigd verder bij de overnemer; (d) historische BTW-positie (vrijstelling-recht, gemengde belastingplicht-prorata) gaat mee over.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28"
+            }
+          ]
+        },
+        "rationale": "Zonder dit regime zou een overdracht enorme cashflow-impact hebben (BTW op alle activa moet voorgefinancierd worden) en zou de overnemer pas later via aftrek kunnen recupereren. Het non-event-regime maakt overdrachten neutraal en handelbaar."
+      },
+      "rationale": {
+        "tekst": "De ratio is **economische neutraliteit van bedrijfsovernames**: een going-concern-overdracht is economisch een continuïteit, niet een nieuwe transactie naar eindverbruik. BTW heffen zou een louter administratieve last creëren zonder budgettair effect (BTW betaald → BTW afgetrokken bij overnemer). Het continuïteits-principe behoudt tegelijk de historische BTW-status (aftrek-rechten, herzieningen) zodat ontwijking via 'wassen-en-overdragen' onmogelijk is.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [
+            {
+              "type": "ai_model",
+              "naam": "claude-sonnet-4-5",
+              "datum": "2026-05-28"
+            }
+          ]
+        }
+      }
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Asset-deal-overname van een **volledige onderneming** of een **autonome bedrijfstak** (productie-afdeling, distributietak, vestiging) tussen twee BTW-belastingplichtigen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Inbreng van een bedrijfstak in een andere vennootschap (vennootschapsrechtelijke verrichting met BTW-impact).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Fusies en splitsingen voor zover de overgedragen activa een autonome economische activiteit vormen.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Loutere verkoop van **losse activa** (één machine, één voorraadlot) zonder dat een autonome activiteit overgaat — die volgen het gewone BTW-regime.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Overdracht aan een **niet-BTW-belastingplichtige** of aan iemand die de activiteit niet voortzet — dan grijpt het gewone regime met BTW.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) overdracht van een **algemeenheid of bedrijfstak** (niet losse activa); (2) overdrager is BTW-belastingplichtige; (3) overnemer is BTW-belastingplichtige (of wordt het door de overname); (4) overnemer **zet de activiteit voort**.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Geen cashflow-impact: BTW hoeft niet voorgefinancierd te worden door de overnemer.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Herzieningstermijnen bedrijfsmiddelen lopen ongewijzigd verder — geen versnelde aftrek-correctie.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Foute kwalificatie: de partijen menen dat art. 11 van toepassing is maar de administratie kwalificeert de overdracht als gewone verkoop — gevolg: BTW-navordering bij overdrager + boete, terwijl overnemer pas later kan aftrekken.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        },
+        {
+          "tekst": "Mismatch overdrager/overnemer (één partij is geen volwaardige BTW-belastingplichtige) → regime niet van toepassing, BTW verschuldigd op de hele overdrachtprijs.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "claude-sonnet-4-5",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ],
+      "geldigheid": {
+        "status": "in-voege"
+      }
+    },
+    "bouwstenen": [
+      {
+        "id": "kwalificatie-algemeenheid-bedrijfstak",
+        "naam": {
+          "primair": "Kwalificatie als algemeenheid of bedrijfstak"
+        },
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Een **algemeenheid** is het geheel van actieva en passieva van een onderneming dat een **autonome economische activiteit** vormt (klanten, voorraad, personeel, bedrijfsmiddelen — alles wat nodig is om de activiteit voort te zetten). Een **bedrijfstak** is een onderdeel daarvan dat zelfstandig kan functioneren (bv. een vestiging, een productielijn). De toets is feitelijk-economisch, niet boekhoudkundig: het overgedragen geheel moet 'going concern' zijn op het ogenblik van overdracht.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-5",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "voortzettings-vereiste",
+        "naam": {
+          "primair": "Voortzettings-vereiste door overnemer"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De overnemer moet de **activiteit voortzetten** — niet noodzakelijk identiek, maar wel als economische activiteit met BTW-belastingplicht. Onmiddellijke verkoop of liquidatie door de overnemer kwalificeert niet als voortzetting; in dat geval grijpt het regime niet en wordt BTW verschuldigd op de gewone manier.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-5",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "continuiteit-herzieningen",
+        "naam": {
+          "primair": "Continuïteit van herzieningstermijnen bedrijfsmiddelen"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "substantie": {
+            "tekst": "De overnemer treedt in de **fiscale schoenen** van de overdrager wat betreft de herzieningstermijnen op bedrijfsmiddelen (5 jaar voor roerende, 15 jaar voor onroerende investeringen). Dat betekent: de **historische aftrek-coëfficiënt** en de **resterende herzieningstermijn** lopen ongewijzigd door bij de overnemer. Een overnemer met **gewijzigde gebruiksintentie** (bv. minder belastbaar gebruik) zal vanaf zijn intrede de herzieningen voortzetten op basis van zijn eigen verhoudingen.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-5",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "geen-aftrek-correctie-overdrager",
+        "naam": {
+          "primair": "Geen aftrek-correctie bij overdrager"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De overdrager hoeft **geen aftrek-herziening** te doen op de overgedragen activa — ook al verlaat de eigendom zijn vermogen. De continuïteits-fictie behandelt de overdracht als interne overgang waarbij de aftrek-positie meegaat. Dit is een belangrijk verschil met een gewone verkoop, waar de overdrager BTW aanrekent (en aftrekrecht behoudt) maar geen herziening doet.",
+            "grondslag": {
+              "confidence": "verondersteld",
+              "bronnen": [
+                {
+                  "type": "ai_model",
+                  "naam": "claude-sonnet-4-5",
+                  "datum": "2026-05-28"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  },
+  "relaties": [
+    {
+      "type": "valt_onder",
+      "target": "btw-aftrek",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-5",
+            "datum": "2026-05-28"
+          }
+        ]
+      },
+      "toelichting": "Het non-event-regime is een uitzondering op de gewone BTW-aftrekmechaniek bij overdrachten."
+    },
+    {
+      "type": "valt_onder",
+      "target": "btw",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-5",
+            "datum": "2026-05-28"
+          }
+        ]
+      }
+    },
+    {
+      "type": "vereist",
+      "target": "btw-belastingplichtige",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-5",
+            "datum": "2026-05-28"
+          }
+        ]
+      },
+      "toelichting": "Zowel overdrager als overnemer moeten BTW-belastingplichtigen zijn — anders grijpt het regime niet."
+    },
+    {
+      "type": "beinvloed_door",
+      "target": "btw-herziening-bedrijfsmiddelen",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-5",
+            "datum": "2026-05-28"
+          }
+        ]
+      },
+      "toelichting": "De herzieningstermijnen voor bedrijfsmiddelen lopen ongewijzigd verder bij de overnemer (continuïteits-fictie)."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-bedrijfstak-of-algemeenheid",
+      "grondslag": {
+        "confidence": "verondersteld",
+        "bronnen": [
+          {
+            "type": "ai_model",
+            "naam": "claude-sonnet-4-5",
+            "datum": "2026-05-28"
+          }
+        ]
+      },
+      "toelichting": "Inbreng van een bedrijfstak in een andere vennootschap raakt zowel het BTW-regime (art. 11 W.BTW, dit record) als het VenB-regime (fiscale neutraliteit reorganisatie). Twee parallelle continuïteits-regimes.",
+      "gelijkenissen": [
+        "Beide werken via continuïteits-fictie",
+        "Beide vereisen voortzetting van de overgedragen activiteit"
+      ],
+      "verschillen": [
+        "Dit record = BTW-perspectief (art. 11 W.BTW); inbreng-bedrijfstak = vennootschapsrechtelijk + VenB-perspectief",
+        "BTW-regime focust op aftrek/herzieningen; VenB-regime focust op latente meerwaarden"
+      ]
+    }
+  ]
+}
