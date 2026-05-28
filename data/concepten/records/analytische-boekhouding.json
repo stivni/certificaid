@@ -7,15 +7,16 @@
       "kostenboekhouding",
       "management accounting",
       "cost accounting"
-    ]
+    ],
+    "vertaling": {
+      "fr": "comptabilité analytique"
+    }
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
     "ankers": [
       "1.8.I",
       "1.8.I.A",
@@ -42,32 +43,23 @@
         "Specifieke problemen registratiesystemen"
       ],
       "out": [
-        {
-          "topic": "Kostprijsmethoden Σ-keuze",
-          "richting": "moet-verwijzen",
-          "ref": "kostprijsmethoden"
-        },
-        {
-          "topic": "Budgetbeheer Σ",
-          "richting": "moet-verwijzen",
-          "ref": "budgetbeheer"
-        },
-        {
-          "topic": "Algemene boekhouding (klasse 60-65)",
-          "richting": "moet-verwijzen",
-          "ref": "boekhouding"
-        },
-        {
-          "topic": "Bedrijfskosten (MAR-context)",
-          "richting": "mag-verwijzen",
-          "ref": "bedrijfskosten"
-        }
+        {"topic": "Kostprijsmethoden Σ-keuze", "richting": "moet-verwijzen", "ref": "kostprijsmethoden"},
+        {"topic": "Budgetbeheer Σ", "richting": "moet-verwijzen", "ref": "budgetbeheer"},
+        {"topic": "Algemene boekhouding (klasse 60-65)", "richting": "moet-verwijzen", "ref": "boekhouding"},
+        {"topic": "Bedrijfskosten (MAR-context)", "richting": "mag-verwijzen", "ref": "bedrijfskosten"}
       ]
     },
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-cross-cutting-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "cluster-extract-management-accounting-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/analytische-boekhouding.json",
+      "primary_bronnen": [
+        "CBN-advies 132/7 — Boeking en waardering van voorraden"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -76,106 +68,372 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-cross-cutting-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T13:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "cluster-extract-management-accounting-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks + standaard management-accounting-leer. Primair geciteerd: CBN-advies 132/7 (klassen 8 + 9, spiegelrekeningen, permanente inventaris). Overige inhoud afgeleid uit accountancy-handboek-knowledge."
       }
     ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De analytische boekhouding is een intern boekhoudkundig systeem dat de kosten en opbrengsten van een onderneming opdeelt, toerekent en analyseert per kostenobject (product, dienst, afdeling, project, klant) — los van de wettelijk verplichte algemene boekhouding. Doel is interne sturing: kostprijscalculatie, prijszetting, winstgevendheidsanalyse, budgetopvolging en beslissingsondersteuning. In het Belgisch genormaliseerd rekeningenstelsel wordt ze typisch gevoerd in de klassen 8 (analytische resultaten) en 9 (analytische rekeningen), via 'spiegelrekeningen' die verbonden zijn met de algemene boekhouding.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Boeking en waardering van voorraden", "context": "Beschrijft expliciet de mogelijkheid om de boekhouding aan te vullen met een analytische boekhouding in klassen 8 en 9 via 'spiegelrekeningen'"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese standaard management-accounting-leer"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Waar de algemene boekhouding kosten registreert volgens hun aard (loon, huur, afschrijving), herleidt de analytische boekhouding diezelfde kosten naar hun bestemming (welk product, welke afdeling, welke klant). Voor de gecertificeerd accountant betekent dit: de jaarrekening vertelt het verhaal naar buiten (fiscus, schuldeisers, aandeelhouders); de analytische boekhouding vertelt het verhaal naar binnen (directie, afdelingshoofden). Dezelfde euro loon belandt in beide systemen — maar in het ene als 'kost 620 Bezoldigingen', in het andere als 'kost van afdeling productiehal A toegerekend aan product X via cost-driver machine-uren'.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "klassen 8 en 9"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactische synthese aard ↔ bestemming"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De wet schrijft de algemene boekhouding voor voor publicatie-doeleinden en stelt geen vorm op voor de analytische boekhouding — die is vrij in opzet (CBN 132/7). De reden is dat de externe stakeholder vergelijkbaarheid nodig heeft (gestandaardiseerde MAR), terwijl de interne stuurder relevantie nodig heeft (cijfers die zijn beslissing dragen). Daarom zijn beide systemen complementair: één voor wettelijke verslaggeving, één voor beheer. Bij een kmo die alleen aan de jaarrekening-plicht voldoet, ontbreekt vaak de analytische luik — de gecertificeerd accountant kan dan adviseren een licht analytisch model op te zetten.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Methode-vrijheid"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk"}
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": ["boekhouding", "bedrijfskosten"],
+      "volgkennis": ["kostprijsmethoden", "budgetbeheer", "break-even-analyse", "marginale-analyse"]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Productie-, dienstverlenings- en projectondernemingen die hun kostprijs per eenheid willen kennen voor prijszetting, marge-analyse, winstgevendheidsmeting per klant/product of efficiency-opvolging.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Wettelijk verplicht is alleen de algemene boekhouding (dubbele boekhouding voor middelgrote/grote vennootschappen; vereenvoudigde voor zeer kleine entiteiten). Een analytische boekhouding is dus géén wettelijke verplichting — wel een management-instrument waarvan het opzetten wordt overgelaten aan de onderneming.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Methode is keuze van de onderneming"},
+              {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Inzicht in kostprijs per eenheid · onderbouwde prijszetting · benchmarking tussen afdelingen of vestigingen · efficiency-opvolging via variantieanalyse · betere investerings- en make-or-buy-beslissingen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Te complex systeem voor de schaal van de onderneming — meer kost voor de boekhouding dan stuurwaarde voor de directie. Vuistregel: de toerekeningsregels moeten simpel genoeg blijven dat een afdelingshoofd ze kan uitleggen aan zijn team.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk"}]
+          }
+        }
+      ]
+    },
     "bouwstenen": [
       {
-        "id": "kostentypologie-vast-variabel",
-        "naam": {
-          "primair": "Vast vs variabel"
-        },
+        "id": "kostentypologie",
+        "naam": {"primair": "Kostentypologie — assen voor analyse"},
         "bouwsteen_type": "begrip",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "Een analytische boekhouding ordent kosten langs meerdere assen tegelijk. (1) Gedrag: vast (huur, afschrijving, salaris kaderlid — onafhankelijk van volume binnen relevant range) versus variabel (grondstoffen, uitzendkrachten, energie productie — meebewegend met volume). (2) Toerekenbaarheid: direct (eenduidig aan één kostenobject toerekenbaar — grondstoffen in een product) versus indirect (gedeeld over meerdere objecten — fabriekshuur, logistiek). (3) Beheersbaarheid: controleerbaar door één manager (overuren in een afdeling) versus oncontroleerbaar (corporate-allocaties, energieprijs). (4) Beslissings-relevantie: sunk costs (al gemaakt, niet meer te beïnvloeden — niet relevant voor toekomstige beslissing), opportunity costs (gederfd alternatief inkomen), differentieel of relevant (verschilt tussen alternatieven).",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
+              "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard management-accounting-typologie"}]
+            }
+          }
+        }
+      },
+      {
+        "id": "kostencomponenten",
+        "naam": {"primair": "Kostencomponenten in de kostprijs"},
+        "bouwsteen_type": "begrip",
+        "kern": {
+          "definitie": {
+            "tekst": "Drie hoofdcomponenten: materialen (grondstoffen, hulpstoffen, verpakking — direct en variabel voor de meeste producten), arbeid (productie-arbeid is meestal variabel; toezicht en kader zijn vast), overige kosten (afschrijvingen op productiemiddelen, energie, onderhoud, huur). De aanduiding van een cost-driver (de variabele die het kostenverloop verklaart — machine-uren, directe arbeidsuren, aantal opstellingen, gelopen meters) is essentieel om indirecte kosten correct toe te wijzen aan kostenobjecten.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Component", "Voorbeeld", "Gedrag", "Toerekening"],
+            "rijen": [
+              ["Grondstof", "Hout in tafel", "Variabel", "Direct"],
+              ["Productie-loon", "Loon meubelmaker", "Variabel of vast (cao)", "Direct"],
+              ["Toezicht", "Loon werkleider", "Vast", "Indirect"],
+              ["Energie machine", "Stroom CNC-machine", "Variabel", "Direct (via meter) of indirect"],
+              ["Fabriekshuur", "Huur productiehal", "Vast", "Indirect"],
+              ["Afschrijving", "Afschrijving CNC", "Vast", "Direct (één product) of indirect (gedeeld)"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "rekeningenstelsel",
+        "naam": {"primair": "Klassen 8 en 9 — spiegelrekeningen"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Het Belgisch genormaliseerd rekeningenstelsel reserveert klassen 8 en 9 voor de analytische boekhouding. Klasse 9 bevat analytische kosten (90-93) en analytische opbrengsten (94-95); klasse 8 bevat analytische resultaten en bijzondere kosten. De koppeling met de algemene boekhouding gebeurt via spiegelrekeningen (klasse 99 of via reflet-rekeningen): elke kost in de algemene boekhouding (klasse 6) krijgt een tegenboeking in de analytische boekhouding, waarna de kost in de analytische sfeer wordt heromgeleid naar het kostenobject. Dit garandeert dat de algemene en de analytische boekhouding elk hun eigen resultaat tonen, vertrekkend van dezelfde brontransacties.",
+            "grondslag": {
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Boeking en waardering van voorraden", "context": "'door de toevoeging van een analytische boekhouding (klassen 8 en 9) die via verbindingsrekeningen - zogenaamde spiegelrekeningen - op de structuur van de algemene boekhouding is gebaseerd'"}
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "proza",
+            "tekst": "Cost-flow van algemene naar analytische boekhouding:\n\n```mermaid\nflowchart LR\n  A[\"Brontransactie<br/>(factuur, loonstaat)\"] --> B[\"Algemene boekhouding<br/>Klasse 6 (kost naar AARD)\"]\n  B --> C[\"Spiegelrekening<br/>(klasse 99)\"]\n  C --> D[\"Analytische boekhouding<br/>Klasse 9 (kost naar BESTEMMING)\"]\n  D --> E[\"Kostenobject<br/>(product · afdeling · klant)\"]\n```"
+          }
+        ]
+      },
+      {
+        "id": "registratiesystemen",
+        "naam": {"primair": "Drie registratiesystemen — autonoom · geïntegreerd · interface"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Autonoom systeem: de analytische boekhouding draait volledig los van de algemene boekhouding, in een aparte ERP-module of zelfs een spreadsheet. Reconciliatie achteraf via aansluitingstabellen. Goed voor pilootprojecten of kleine entiteiten. Geïntegreerd systeem: één enkele boekhouding waar elke transactie tegelijk algemeen én analytisch wordt geboekt (via verplichte analytische codering bij elke kost-input). Coherent maar zwaarder. Interface-systeem (tussenvorm, in praktijk dominant): de algemene boekhouding levert periodisch de gegevens aan een aparte analytische module, automatisch via interface. CBN 132/7 beschrijft drie equivalenten: onderverdeling van rekeningen · onderverdeling + exploitatietabel · volwaardige analytische boekhouding met spiegelrekeningen.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Drie methodes om de boekhouding analytisch uit te breiden"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese praktijksystemen"}
               ]
             }
           }
         }
       },
       {
-        "id": "kostentypologie-direct-indirect",
-        "naam": {
-          "primair": "Direct vs indirect"
-        },
-        "bouwsteen_type": "begrip",
+        "id": "specifieke-problemen",
+        "naam": {"primair": "Specifieke registratie-problemen"},
+        "bouwsteen_type": "risico",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "Drie terugkerende uitdagingen: (1) Voorraadwaardering: kosten van klasse 6 worden in de algemene boekhouding direct als kost geboekt, terwijl in de analytische sfeer de productiekosten in voorraad (klasse 32-33) moeten zitten tot verkoop. Permanente inventaris in de analytische boekhouding moet periodiek terug-overgenomen worden in de algemene boekhouding (CBN 132/7). (2) Periode-toewijzing: vaste kosten lopen door ook wanneer er niet wordt geproduceerd — analytische toewijzing moet beslissen of stilstand-kosten als idle capacity expense worden geboekt (full costing) of in de productkost terechtkomen. (3) Toerekening van indirecte kosten: keuze van een verkeerde cost-driver verstoort de kostprijs en kan tot prijsbeslissingen leiden die structureel verlies-makende producten verbergen.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Permanente inventaris analytische boekhouding"},
+                {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
               ]
             }
           }
         }
       },
       {
-        "id": "kostentypologie-sunk-opportunity",
-        "naam": {
-          "primair": "Sunk · opportunity · differentieel"
-        },
-        "bouwsteen_type": "begrip",
+        "id": "interface-algemene-analytische",
+        "naam": {"primair": "Interface boekhouding ↔ management-accounting"},
+        "bouwsteen_type": "mechanisme",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2",
+            "tekst": "De algemene boekhouding levert de brongegevens (alle financiële transacties met externe partijen + interne afschrijvingen) en blijft de wettelijke referentie. De analytische boekhouding bouwt herwerkte gegevens: zij voegt eraan toe (interne dienstverlening tussen afdelingen, opportunity costs, normkosten) of laat eruit weg (corporate-allocaties die het afdelingshoofd niet beïnvloedt). Aansluitingstabel verklaart het verschil tussen 'resultaat algemene boekhouding' en 'resultaat analytische boekhouding': verschillen ontstaan door anders-gewaardeerde voorraden, periode-allocaties of niet-doorgerekende corporate kosten.",
             "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+              "confidence": "afgeleid",
+              "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]
             }
           }
         }
       }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-meubelmaker",
+        "titel": "Meubelmaker Zelena Bio NV — algemeen ↔ analytisch zelfde euro",
+        "context": "Zelena Bio NV maakt eikenhouten tafels. In maart koopt ze 10.000 EUR eikenhout (factuur) en betaalt 15.000 EUR lonen aan de productieploeg. Ze wil weten wat de kostprijs is per tafel (verwachte productie maart: 50 tafels).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Boeking en waardering van voorraden"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch cijfervoorbeeld"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "boeking",
+            "titel": "Algemene boekhouding — kost naar aard (klasse 6)",
+            "rijen": [
+              {"rekening": "600 — Aankoop grondstoffen", "debet": 10000, "credit": null},
+              {"rekening": "440 — Leveranciers", "debet": null, "credit": 10000},
+              {"rekening": "620 — Bezoldigingen", "debet": 15000, "credit": null},
+              {"rekening": "455 — Bezoldigingen te betalen", "debet": null, "credit": 15000}
+            ]
+          },
+          {
+            "type": "boeking",
+            "titel": "Spiegelboeking + analytische boekhouding (klasse 9)",
+            "rijen": [
+              {"rekening": "90 — Reflet kosten", "debet": 25000, "credit": null, "omschrijving": "Tegenboeking spiegel"},
+              {"rekening": "99 — Spiegelrekening algemene boekhouding", "debet": null, "credit": 25000},
+              {"rekening": "92 — Kosten productieafdeling tafels", "debet": 25000, "credit": null, "omschrijving": "Toerekening naar afdeling"},
+              {"rekening": "90 — Reflet kosten", "debet": null, "credit": 25000}
+            ]
+          },
+          {
+            "type": "berekening",
+            "titel": "Kostprijs per tafel",
+            "stappen": [
+              "Totale productiekost maart = 10.000 (grondstof) + 15.000 (loon) = 25.000 EUR",
+              "Geproduceerd = 50 tafels",
+              "Kostprijs per tafel = 25.000 / 50 = 500 EUR (direct + variabel — exclusief vaste overhead zoals fabriekshuur en afschrijving)"
+            ],
+            "resultaat": "500 EUR per tafel — geeft het minimumprijsniveau aan onder dewelke Zelena geen contributiemarge maakt."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Analytische boekhouding gelijkstellen met algemene boekhouding",
+        "verkeerde_assumptie": "Studenten denken dat dezelfde regels (CBN-adviezen, KB W.Venn., IFRS) gelden voor de analytische boekhouding.",
+        "kernpunt": "De analytische boekhouding is een interne vrije keuze van de onderneming — geen wettelijke vormvoorschriften. De externe rapportering blijft via de algemene boekhouding gaan; vorm en methodologie van de analytische luik mag de onderneming zelf bepalen (CBN 132/7 noemt drie geldige varianten).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Boeking en waardering van voorraden"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "titel": "Vaste kosten 'gewoon' meerekenen in kostprijs",
+        "verkeerde_assumptie": "Vaste kosten worden bij elke kostprijscalculatie volledig omgeslagen op het verwachte volume.",
+        "kernpunt": "Vaste kosten gedragen zich niet als variabele kosten — bij volume-daling wordt de kost per eenheid hoger zonder dat de onderneming productiever wordt. Daarom is de keuze van full costing versus direct costing (zie kostprijsmethoden) niet neutraal: ze bepaalt of vaste kosten in de kostprijs zitten of als periode-kost worden behandeld. De beslissing-relevante kost voor 'één extra eenheid produceren' is altijd alleen de variabele kost.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}]
+        }
+      },
+      {
+        "titel": "Sunk costs meenemen in beslissing",
+        "verkeerde_assumptie": "'We hebben al 100.000 EUR geïnvesteerd in dit project; we moeten doorgaan om het terug te verdienen.'",
+        "kernpunt": "Sunk costs zijn niet meer te beïnvloeden en daarom niet beslissings-relevant. De juiste vraag is: 'wat brengen de toekomstige geldstromen op vergeleken met de toekomstige kosten — los van wat al uitgegeven is?' Reeds gemaakte kosten goedmaken is geen geldig argument om door te gaan met een verlies-makend project.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassiek decision-making principe"}]
+        }
+      }
+    ],
+    "syntheses": [
+      {
+        "type": "matrix",
+        "intro": "Algemene boekhouding versus analytische boekhouding — vergelijking op zes assen.",
+        "inhoud": {
+          "assen": ["Algemene boekhouding", "Analytische boekhouding"],
+          "rijen": [
+            {"as": "Doel", "links": "Externe verslaggeving (jaarrekening, fiscus, schuldeisers)", "rechts": "Interne sturing (directie, afdelingen)"},
+            {"as": "Wettelijk", "links": "Verplicht (Wetboek economisch recht, KB W.Venn.)", "rechts": "Vrij keuze van de onderneming"},
+            {"as": "Vorm", "links": "Genormaliseerd (MAR, klassen 1-7)", "rechts": "Vrije keuze (klassen 8-9 indien gebruikt, anders eigen module)"},
+            {"as": "Tijdshorizon", "links": "Periodiek (jaarrekening, kwartaal)", "rechts": "Continu / op-aanvraag (dashboard, ad-hoc-analyse)"},
+            {"as": "Kostordening", "links": "Naar aard (grondstof, loon, huur)", "rechts": "Naar bestemming (product, afdeling, klant)"},
+            {"as": "Vergelijkbaarheid", "links": "Hoog (met andere ondernemingen)", "rechts": "Laag (intern; weinig externe benchmarks)"}
+          ]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "boekhouding"
-    },
-    {
-      "type": "bevat",
-      "target": "kostprijsmethoden"
-    },
-    {
-      "type": "bevat",
-      "target": "budgetbeheer"
+      "id": "kmo-cliente",
+      "naam": {"primair": "Kmo-cliente — adviseur opzet analytisch"},
+      "intro": "Een kmo-cliente vraagt hulp om beter zicht te krijgen op de winstgevendheid per product of dienst.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "schaal-eerst-toetsen",
+              "naam": {"primair": "Schaal en kosten-baten toetsen voor opzet"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vóór een analytische module wordt opgezet: schat de extra administratielast (extra codering bij elke factuur en loonpost) tegen de verwachte stuurwaarde. Voor een kmo met homogene producten kan een simpel spreadsheet-model volstaan; voor een ondernemingsgroep met heterogene divisies is een volwaardige analytische boekhouding in klasse 9 aangewezen. Vuistregel: start klein, bouw uit waar de directie effectief stuurt.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Adviespraktijk"}]
+                  }
+                }
+              }
+            },
+            {
+              "id": "cost-driver-keuze",
+              "naam": {"primair": "Cost-driver-keuze valideren"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elke kostencategorie de cost-driver expliciet bevragen: 'wat doet deze kost mee-bewegen?'. Machine-uren voor energie machineproductie; vierkante meter voor huur; aantal opstellingen voor setup-kosten. Een verkeerde cost-driver (bv. directe arbeidsuren als allocatie van overhead in een sterk-geautomatiseerde productie) verstoort de kostprijs systematisch — leidt tot pricing-fouten en verkeerde portfolio-beslissingen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "ABC-rationale"}]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "voorraadwaardering-reconciliatie",
+              "naam": {"primair": "Voorraadwaardering reconciliëren tussen algemene en analytische boekhouding"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij periodeafsluiting nagaan of de voorraad in de algemene boekhouding (klasse 32-33) overeenstemt met de permanente inventaris in de analytische boekhouding. Bij verschil: aansluitingstabel opstellen die toont waar het verschil zit (waarderingsverschillen, niet-doorgeboekte voorraadmutaties, periode-allocaties). CBN 132/7 vereist dat het verband tussen algemene boekhouding, administratieve voorraad-follow-up en inventaris steeds verifieerbaar is.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "cbn", "naam": "CBN-advies 132/7", "ref": "Voorraden", "context": "'er moet steeds een verband bestaan tussen de algemene boekhouding, de administratieve follow-up van de voorraden en de inventaris, wil een boekhouding verifieerbaar zijn'"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "boekhouding"},
+    {"type": "bevat", "target": "kostprijsmethoden"},
+    {"type": "bevat", "target": "budgetbeheer"},
+    {"type": "bevat", "target": "break-even-analyse", "toelichting": "Toepassing van kostentypologie (vast/variabel) op winstgevendheidsdrempel."},
+    {"type": "bevat", "target": "marginale-analyse", "toelichting": "Beslissings-relevant subset: alleen variabele en differentiële kosten."}
   ]
 }
