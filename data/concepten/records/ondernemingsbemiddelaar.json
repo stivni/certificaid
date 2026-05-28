@@ -2,25 +2,28 @@
   "id": "ondernemingsbemiddelaar",
   "naam": {
     "primair": "Ondernemingsbemiddelaar",
-    "synoniemen": [
-      "mediateur d'entreprise",
-      "company mediator"
-    ]
+    "synoniemen": ["médiateur d'entreprise", "minnelijk schuldbemiddelaar voor ondernemingen"]
   },
   "concept_type": "actor",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "entiteit"
-    ],
-    "ankers": [
-      "3.0.IX",
-      "3.0.X"
-    ],
+    "status": "concept",
+    "categorieen": ["entiteit"],
+    "ankers": ["3.0.X", "3.0.X.A"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/ondernemingsbemiddelaar.json",
+      "primary_bronnen": [
+        "WER art. XX.36 (oud, opgeheven 2023)",
+        "WER art. XX.39",
+        "WER art. XX.64",
+        "WER art. XX.83/22"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -28,7 +31,14 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit insolventie-cluster (skelet-doc regel ~1183)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T08:10:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld. Bundle-chunks zwak voor dit specifieke onderwerp — accountant-domeinkennis gebruikt voor synthese (afgeleid/verondersteld waar bron ontbreekt). Aanvulling via WER art. XX.36 historiek en art. XX.83/22 (herstructureringsdeskundige als opvolger)."
       }
     ],
     "scope": {
@@ -38,55 +48,303 @@
         "Onderscheid met curator en gerechtelijke bewindvoerder"
       ],
       "out": [
-        {
-          "topic": "Parent kader — WER boek XX",
-          "richting": "moet-verwijzen",
-          "ref": "insolventierecht-wer-boek-xx"
-        },
-        {
-          "topic": "KOM als toeleidings-instantie",
-          "richting": "moet-verwijzen",
-          "ref": "kamers-voor-ondernemingen-in-moeilijkheden"
-        },
-        {
-          "topic": "Gerechtelijke reorganisatie als formeel vervolg",
-          "richting": "moet-verwijzen",
-          "ref": "gerechtelijke-reorganisatie"
-        }
+        { "topic": "Parent kader — WER boek XX", "richting": "moet-verwijzen", "ref": "insolventierecht-wer-boek-xx" },
+        { "topic": "KOM als toeleidings-instantie", "richting": "moet-verwijzen", "ref": "kamers-voor-ondernemingen-in-moeilijkheden" },
+        { "topic": "Gerechtelijke reorganisatie als formeel vervolg", "richting": "moet-verwijzen", "ref": "gerechtelijke-reorganisatie" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De ondernemingsbemiddelaar is een door de voorzitter van de ondernemingsrechtbank aangewezen neutrale derde (vaak een advocaat, gecertificeerd accountant of bedrijfsrevisor met ervaring in herstructureringen) die een onderneming in moeilijkheden begeleidt bij het tot stand brengen van een **minnelijk akkoord** met haar schuldeisers. De bemiddelaar werkt buitengerechtelijk en vertrouwelijk — er is geen openbare procedure, geen opschorting van uitvoeringsmaatregelen, en zijn aanstelling wordt niet gepubliceerd. Hij heeft geen beslissingsbevoegdheid; hij faciliteert en stelt voor.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.36 (oud, opgeheven 2023)", "context": "Oorspronkelijke wettelijke basis ondernemingsbemiddelaar in titel 'Minnelijk akkoord buiten gerechtelijke reorganisatie'" },
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.39 + XX.83/22", "context": "Huidige bemiddelings-figuren binnen GR (gedelegeerd rechter, herstructureringsdeskundige)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese: ondernemingsbemiddelaar als preventief informeel kanaal" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch: de bemiddelaar zit met de schuldenaar én de hoofdschuldeisers rond de tafel en zoekt naar een betalingsregeling die voor iedereen aanvaardbaar is — vaak een gespreide afbetaling, gedeeltelijke kwijtschelding, of bijkomende zekerheden. Voordeel boven gerechtelijke reorganisatie: geen publieke procedure, geen gerechtskosten op publieke schaal, geen opname in Regsol. Nadeel: geen wettelijke opschorting; één onwillige schuldeiser kan de operatie laten falen door uitvoering te eisen. Vandaar dat de bemiddelaar vaak een 'plan B' (gerechtelijke reorganisatie) in petto houdt.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk-vertaling" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De ondernemingsbemiddelaar is het 'ultra-zachte' instrument in de WER-trap. Hij richt zich op ondernemingen die structureel solvabel zijn maar tijdelijk illiquide, en op situaties waar een gerechtelijke procedure (met haar publieke stigma) de cliëntrelaties zou verwoesten. De 2023-hervorming heeft de ondernemingsbemiddelaar als zelfstandige figuur grotendeels weggewerkt en vervangen door de 'herstructureringsdeskundige' binnen een (eventueel besloten) gerechtelijke reorganisatie — maar het concept van vertrouwelijke bemiddeling blijft het organiserend principe.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "W 2023-06-07/07, art. 44 (opheffing art. XX.36)" },
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.83/22 (herstructureringsdeskundige)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Evolutie 2017-2023" }
           ]
         }
       }
     },
     "gebruikscontext": {
       "geldigheid": {
-        "status": "in-voege",
-        "wettelijke_basis": "WER boek XX"
+        "status": "uitdovend",
+        "sinds": "2023-09-01",
+        "wettelijke_basis": "Vroegere WER art. XX.36 opgeheven door W 7-06-2023, art. 44. De rol leeft conceptueel verder via de 'herstructureringsdeskundige' (art. XX.83/22) in een besloten gerechtelijke reorganisatie.",
+        "opvolger": "gerechtelijke-reorganisatie",
+        "toelichting": "Voor de exam-stof blijft de figuur belangrijk omdat veel handboeken en praktijkliteratuur het pre-2023 model nog beschrijven. De moderne equivalent is de herstructureringsdeskundige binnen een besloten gerechtelijke reorganisatie — vergelijkbare functie (neutrale bemiddelaar, vertrouwelijk) maar met rechterlijke aanstelling én bescherming."
+      },
+      "voor": [
+        {
+          "tekst": "Ondernemingen in vroege moeilijkheden waar publieke bekendmaking schade zou berokkenen (B2B-dienstverleners, advocatenkantoren, accountantskantoren). Hier helpt bemiddeling om informeel tot betalingsregelingen te komen.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Ondernemingen met een groot aantal kleine schuldeisers of waar een hoofdschuldeiser absoluut weigert mee te werken — daar werkt bemiddeling niet en is gerechtelijke reorganisatie aangewezen (de wettelijke opschorting + cross-class cram-down dwingt mee).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "aanstelling-en-mandaat",
+        "naam": { "primair": "Aanstelling en mandaat" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De schuldenaar of de KOM verzoekt de voorzitter van de ondernemingsrechtbank om aanstelling van een ondernemingsbemiddelaar. De voorzitter benoemt iemand op de lijst van erkende bemiddelaars (vroegere wet) of een geschikte professional uit de praktijk. De aanstelling is geen openbaar vonnis; alleen schuldenaar en aangewezen schuldeisers worden in kennis gesteld. Het mandaat is meestal beperkt in tijd (3-6 maanden) en kan worden verlengd.",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.36 (oud)", "context": "Pre-2023 regime" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Pre-2023 praktijk; geen primaire bron in bundle" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "vertrouwelijkheid",
+        "naam": { "primair": "Vertrouwelijkheid van de bemiddeling" },
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Alle uitwisselingen tijdens de bemiddeling zijn vertrouwelijk. Documenten, voorstellen en concessies kunnen niet als bewijs worden gebruikt in een latere gerechtelijke procedure — een fundamentele garantie zonder welke partijen geen vrije onderhandelingen zouden voeren. Dit beginsel verschilt fundamenteel van bv. een KOM-onderzoek, waar het verslag wél bij een latere reorganisatie kan worden gevoegd.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "Ger.W.", "ref": "art. 1728 (algemeen beginsel bemiddeling)" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bemiddelings-beginsel toegepast op insolventie" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "minnelijk-akkoord-resultaat",
+        "naam": { "primair": "Minnelijk akkoord als beoogd resultaat" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "De bemiddelaar werkt toe naar een schriftelijk minnelijk akkoord tussen de schuldenaar en (een aantal) schuldeisers. Het akkoord kan vrijblijvend blijven, of — sterker — kan worden voorgelegd aan de ondernemingsrechtbank voor **homologatie** binnen een gerechtelijke reorganisatie (art. XX.64 of art. XX.83/30 voor besloten variant). Pas na homologatie krijgt het akkoord uitvoerbare kracht en immuniteit tegen latere acties (zoals actio pauliana).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.64", "context": "Minnelijk akkoord binnen openbare GR" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.83/30", "context": "Minnelijk akkoord binnen besloten GR" }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "onderscheid-met-curator-bewindvoerder",
+        "naam": { "primair": "Onderscheid met curator en gerechtelijke bewindvoerder" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "**Curator** (faillissement, art. XX.123): neemt het beheer over van de gefailleerde, vereffent activa. **Gerechtelijke bewindvoerder/gerechtsmandataris** (GR of voorlopige maatregelen): vervangt het bestuur of staat het bij, met machtigingsbevoegdheid. **Ondernemingsbemiddelaar**: niet-bindend, faciliteert, neemt geen beheer over en heeft geen machtigingsbevoegdheid. De ondernemingsbemiddelaar is dus de zachte variant — zonder zwaard, alleen met spreek-en-luister-kracht.",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.123 e.v. (curator)" },
+                  { "type": "wettekst", "naam": "WER", "ref": "art. XX.31 (voorlopige bewindvoerder)" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Functioneel onderscheid" }
+                ]
+              }
+            }
+          }
+        }
       }
-    }
+    ],
+    "bouwstenen": [
+      {
+        "id": "geen-opschorting",
+        "naam": { "primair": "Geen wettelijke opschorting tijdens bemiddeling" },
+        "bouwsteen_type": "beperking",
+        "kern": {
+          "definitie": {
+            "tekst": "Anders dan bij gerechtelijke reorganisatie is er **geen wettelijke opschorting** van uitvoeringsmaatregelen. Schuldeisers kunnen tijdens de bemiddeling gewoon dagvaarden, beslag leggen of het faillissement vorderen. Het 'sociaal contract' tussen partijen om dat niet te doen tijdens de gesprekken is informeel — niet rechtens afdwingbaar.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Per a contrario uit afwezigheid opschortings-artikel" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "kosten-ten-laste-schuldenaar",
+        "naam": { "primair": "Erelonen ten laste van de schuldenaar" },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "De erelonen en kosten van de ondernemingsbemiddelaar zijn voor rekening van de schuldenaar (die ze meestal vooraf moet provisioneren). De rechtbank kan bij geschil de honorering achteraf vaststellen. Dit is een aandachtspunt: een onderneming die de bemiddelaar niet kan betalen, is meestal sowieso al voorbij het stadium waar bemiddeling kans van slagen heeft.",
+            "grondslag": {
+              "confidence": "afgeleid",
+              "bronnen": [
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Algemeen beginsel kosten gerechtsmandataris" }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Bemiddeling redt accountantskantoor — Aurelia Tax & Audit",
+        "context": "Aurelia Tax & Audit BV (15 medewerkers) verloor twee grote klanten en kan haar bedrijfsleidersrekening + huur niet meer betalen. Een publieke gerechtelijke reorganisatie zou het vertrouwen van bestaande klanten ondermijnen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Didactisch praktijkscenario" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "stappenlijst",
+            "tekst": "Week 1: Aurelia vraagt ondernemingsbemiddelaar aan via KOM\nWeek 2: Voorzitter ondernemingsrechtbank stelt mediator aan (advocaat-curator)\nWeek 3-6: Vertrouwelijke gesprekken met (a) bank — uitstel kapitaalsaflossing 12 maanden; (b) verhuurder — spreiding huurachterstand over 6 maanden\nWeek 7: Minnelijk akkoord ondertekend door alle hoofdcrediteuren\nWeek 8: Optioneel: homologatie binnen besloten GR voor uitvoerbare kracht\nResultaat: cliënten merken niets. Aurelia blijft draaien."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Bemiddelaar = curator",
+        "verkeerde_assumptie": "De ondernemingsbemiddelaar neemt het beheer van de cliënt over.",
+        "kernpunt": "Onjuist. De ondernemingsbemiddelaar adviseert en bemiddelt; het bestuur blijft volledig in controle. Bestuur dat na aanstelling van een bemiddelaar lui wordt of beslissingen overlaat, blijft volledig aansprakelijk.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Vertrouwelijkheid = wettelijke opschorting",
+        "verkeerde_assumptie": "Tijdens een bemiddeling kunnen schuldeisers geen uitvoeringsmaatregelen treffen.",
+        "kernpunt": "Vertrouwelijkheid geldt voor de inhoud van de gesprekken (mag niet als bewijs gebruikt worden). Maar er is geen wettelijke opschorting van betalingsverplichtingen of uitvoeringsmaatregelen. Een onwillige schuldeiser kan tijdens de bemiddeling gewoon dagvaarden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Minnelijk akkoord is automatisch beschermd",
+        "verkeerde_assumptie": "Een minnelijk akkoord dat via bemiddeling is bereikt, is automatisch immuun voor latere actio pauliana.",
+        "kernpunt": "Immuniteit ontstaat pas na **homologatie** binnen een gerechtelijke reorganisatie (art. XX.83/30 § 2). Een puur buitengerechtelijk minnelijk akkoord kan bij een latere faillissementsprocedure worden aangevallen — vooral als één schuldeiser onevenredig werd bevoordeeld.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WER", "ref": "art. XX.83/30 § 2" }
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "insolventierecht-wer-boek-xx"
+      "id": "accountant-als-bemiddelaar",
+      "naam": { "primair": "Gecertificeerd accountant als ondernemingsbemiddelaar" },
+      "rollen": [
+        {
+          "rol": "begeleider",
+          "elementen": [
+            {
+              "id": "neutrale-positie-bewaken",
+              "naam": { "primair": "Neutrale positie bewaken — geen advisering van één partij" },
+              "bouwsteen_type": "principe",
+              "kern": {
+                "definitie": {
+                  "tekst": "Als bemiddelaar werkt de accountant voor alle partijen tegelijk. Dat betekent: geen advisering ten gunste van de schuldenaar of een schuldeiser, geen partij kiezen, geen vertrouwelijke informatie van de ene partij doorgeven aan de andere. Iedere schijn van partijdigheid kan tot wraking leiden en het hele proces ondermijnen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "norm", "naam": "ITAA-norm onafhankelijkheid", "ref": "Algemeen" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bemiddelaars-beginsel" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     },
     {
-      "type": "uitgevoerd_door",
-      "target": "kamers-voor-ondernemingen-in-moeilijkheden"
+      "id": "accountant-van-schuldenaar-met-bemiddelaar",
+      "naam": { "primair": "Accountant van schuldenaar — voorbereiden op bemiddeling" },
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "dossier-voorbereiden-bemiddelaar",
+              "naam": { "primair": "Compleet financieel dossier voorbereiden voor bemiddelaar" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Maak: (a) actuele balans + resultatenrekening tussentijds; (b) 13-week + 12-maand cashflow-projectie; (c) gedetailleerde schuldeiserslijst met openstaande bedragen + zekerheden; (d) lijst van onderhandelbare punten per schuldeiser (uitstel, kwijtschelding, bijkomende zekerheid). Een goed gedocumenteerd vertrekpunt versnelt de bemiddeling en versterkt de geloofwaardigheid van de schuldenaar.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "insolventierecht-wer-boek-xx" },
+    { "type": "uitgevoerd_door", "target": "kamers-voor-ondernemingen-in-moeilijkheden" }
   ]
 }
