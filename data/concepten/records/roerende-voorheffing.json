@@ -6,12 +6,15 @@
     "synoniemen": [
       "précompte mobilier",
       "PrM"
-    ]
+    ],
+    "vertaling": {
+      "fr": "précompte mobilier"
+    }
   },
   "concept_type": "instrument",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "regeling"
     ],
@@ -22,9 +25,22 @@
       "2.2.XIV"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-pb-venb-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/roerende-voorheffing.json",
+      "primary_bronnen": [
+        "WIB92 art. 261",
+        "WIB92 art. 262",
+        "WIB92 art. 263",
+        "WIB92 art. 269",
+        "WIB92 art. 313",
+        "WIB92 art. 22 §1",
+        "KB/WIB92"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -32,31 +48,38 @@
         "timestamp": "2026-05-28T10:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-pb-venb-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt (shared met werknemers-vergoedingen + fiscale-voordelen-vennootschap)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-pb-venb-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld vanuit bundle-chunks (WIB92 art. 261-269, 313). Bundle-flow extract zonder extra MCP-calls."
       }
     ],
     "scope": {
       "in": [
-        "Bronheffing op roerend inkomen (dividenden · interesten · royalty's)",
-        "Bevrijdend karakter voor particulieren (PB) — uitzondering: keuze voor aangifte bij gunstiger tarief",
-        "Verrekenbaar karakter voor vennootschappen (VenB-aanrekening)",
-        "Tarieven: 30% standaard · 15% VVPRbis · 10% liquidatiereserve · 20%/25% specifieke gevallen",
-        "Vrijstellingen: DBI-cascade · moeder-dochter-richtlijn · staatsbon · spaarboekje (drempel)",
-        "Aangifte 273S (uitkerend bedrijf) + storting binnen 15 dagen"
+        "Bronheffing op roerend inkomen (dividenden, interesten, royalty's, lijfrenten)",
+        "Bevrijdend karakter voor particulieren (PB) — uitzondering: keuze voor globalisatie bij gunstiger tarief",
+        "Verrekenbaar karakter voor vennootschappen (VenB-aanrekening + eventuele DBI-vrijstelling)",
+        "Tariefstructuur (art. 269): 30 % standaard, 15 % VVPRbis, 15 % auteursrechten en spaarboekje > drempel, 5 % liquidatiereserve, 0 % na DBI/moeder-dochter",
+        "Vrijstellingen: DBI-cascade, moeder-dochter-richtlijn, staatsbon, spaardeposito tot drempel",
+        "Inhoudingsplicht schuldenaar: aangifte 273S + storting binnen 15 dagen"
       ],
       "out": [
         {
-          "topic": "Roerend inkomen-categorie PB (4e categorie)",
+          "topic": "Roerend inkomen-categorie PB (basis-grondslag)",
           "richting": "moet-verwijzen",
           "ref": "roerend-inkomen-pb"
         },
         {
-          "topic": "VVPRbis-regime (gunst-RV-tarief 15%)",
+          "topic": "VVPRbis-regime (gunst-RV-tarief 15 %)",
           "richting": "moet-verwijzen",
           "ref": "vvprbis"
         },
         {
-          "topic": "Liquidatiereserve-regime (RV 10% bij uitkering)",
+          "topic": "Liquidatiereserve-regime (RV 5 % na 5 jaar)",
           "richting": "moet-verwijzen",
           "ref": "liquidatiereserve"
         },
@@ -71,26 +94,426 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "De roerende voorheffing (RV) is een door de Belgische schuldenaar van roerend inkomen aan de bron ingehouden federale belasting (art. 261 WIB92), die wordt afgedragen aan de Schatkist binnen 15 dagen na inhouding via aangifteformulier 273S. Voor de meeste particuliere ontvangers werkt de RV als BEVRIJDENDE eindbelasting (art. 313 WIB92): geen aangifteplicht in PB, RV = definitieve belasting op het roerend inkomen. Voor vennootschappen daarentegen is de RV VERREKENBAAR met de VenB (art. 281-284 WIB92). De heffing is dus tegelijk: (1) een belasting op zich voor particulieren; (2) een voorschot/voorheffing voor vennootschappen; en (3) een controle- en informatieinstrument voor de fiscus (banken en uitkerende vennootschappen rapporteren ingehouden bedragen).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 261" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 262" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 313" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Praktisch werkt de RV in drie stappen. (1) De Belgische schuldenaar van roerend inkomen (vennootschap die dividend uitkeert, bank die rente betaalt, ...) berekent het bruto-bedrag van het inkomen. (2) Hij houdt de toepasselijke RV-percentage in en stort die binnen 15 dagen na 'toekenning of betaalbaarstelling' van het inkomen aan de Schatkist via aangifte 273S. (3) Hij keert het netto-bedrag uit aan de ontvanger en bezorgt deze (indien gevraagd) een attest van inhouding. De RV-percentage hangt af van het soort inkomen en aanvullende kwalificaties: 30 % is het basistarief (art. 269 §1, 1°) maar talrijke regimes verlagen het (15 % spaardeposito-overschrijding, 15 % VVPRbis, 15 % auteursrechten, 5 % liquidatiereserve na 5 jaar) of stellen vrij (DBI-dividenden binnen groep, moeder-dochter-richtlijn ≥10 % deelneming). Voor de stagiair: ALTIJD eerst nagaan wie de schuldenaar is en welke kwalificatie het inkomen heeft, want het tarief is bijna nooit 'gewoon 30 %'.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 261" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 269" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard RV-praktijk inhouding + 273S-aangifte" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio is drievoudig. (1) Administratieve efficiëntie: in plaats van miljoenen kleine PB-aangiften door beleggers/spaarders, centraliseert de wet de inhouding bij een beperkt aantal schuldenaars (banken, beursgenoteerde vennootschappen, ...). (2) Cash flow voor de Schatkist: 15-dagen-betaling = veel sneller dan jaarlijkse PB-aanslag. (3) Anti-evasie: door bevrijdend karakter te koppelen aan Belgische bron-RV, krijgt de fiscus automatisch zicht op alle binnenlandse roerende inkomensstromen. Het VERREKENBARE karakter voor vennootschappen (i.p.v. bevrijdend) is technisch nodig omdat een vennootschap meestal niet 30 % effectieve belastingdruk heeft op een dividend (DBI-aftrek 100 %); zonder verrekenbaarheid zou er dubbele belasting zijn.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 261" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 313" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 281-284", "context": "Verrekenbaarheid voor VenB" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese ratio-legis RV" }
           ]
         }
       }
     },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "roerend-inkomen-pb",
+        "personenbelasting"
+      ],
+      "kader": "personenbelasting",
+      "naast_relevant": [
+        "vennootschapsbelasting",
+        "vvprbis",
+        "liquidatiereserve",
+        "dbi-aftrek"
+      ]
+    },
     "gebruikscontext": {
       "geldigheid": {
         "status": "in-voege",
-        "wettelijke_basis": "WIB art 261-269"
+        "wettelijke_basis": "WIB92 art. 261-269 (inhoudingsplicht + tarief) + art. 281-284 (verrekenbaarheid VenB) + art. 313 (bevrijdend karakter PB) + KB/WIB92 (uitvoering)",
+        "toelichting": "Structureel stabiel. Basis-tarief verhoogd van 25 % naar 27 % (2016) naar 30 % (2017-heden). Talrijke specifieke regimes (VVPRbis, liquidatiereserve, auteursrechten) blijven evolueren via programmawetten."
+      },
+      "voor": [
+        {
+          "tekst": "Elke Belgische schuldenaar van roerend inkomen aan een natuurlijk persoon, vennootschap of niet-inwoner: vennootschappen die dividenden uitkeren, banken die interesten betalen, debiteuren van obligaties of kasbons, betalers van royalty's. Inhouding is verplicht (art. 261) en gebeurt op het OGENBLIK van betaalbaarstelling of toekenning.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 261" }
+            ]
+          }
+        }
+      ],
+      "niet_voor": [
+        {
+          "tekst": "Vrijstellingen (limitatieve lijst, art. 264-266 WIB92 + KB-bepalingen): (1) DBI-cascade — RV is 0 % op dividenden uitgekeerd binnen groep vennootschappen die voldoen aan deelnemingsvereisten (≥10 % participatie of inschaffingswaarde ≥€2,5 mio + 1 jaar minimum bezit); (2) moeder-dochter-richtlijn 2011/96/EU — vrijstelling op grensoverschrijdende dividenden binnen EER; (3) staatsbons aan particulieren onder specifieke voorwaarden; (4) eerste schijf spaardeposito; (5) interest- en royalty-richtlijn 2003/49/EG voor verbonden EU-ondernemingen. Voor de cliëntpraktijk: altijd nagaan of een vrijstelling van toepassing is — kost een onnodige 30 % cash flow indien niet geclaimd.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 264" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 266", "context": "Vrijstelling moeder-dochter-richtlijn" },
+              { "type": "richtlijn", "naam": "EU-Richtlijn 2003/49/EG", "ref": "art. 1-2", "context": "Interest- en royalty-richtlijn" }
+            ]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Voor inhoudingsplicht (art. 261): (1) er is een Belgische schuldenaar; (2) het inkomen kwalificeert als 'roerend inkomen' in de zin van art. 17-22 WIB92; (3) er is een 'betaalbaarstelling of toekenning' (niet noodzakelijk effectieve betaling — voor obligaties: vervaldag van de coupon). De inhouding moet binnen 15 dagen worden overgemaakt aan de Schatkist via aangifte 273S. Te laat betalen → nalatigheidsinterest + boetes.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 261" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard 273S-praktijk" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Voor de fiscus: cash flow + automatische controle. Voor de belastingplichtige-particulier: vereenvoudiging — geen aangifteplicht, geen rekenwerk. Voor de schuldenaar: rechtszekerheid (mits correcte 273S-aangifte) — geen latere navordering op de inhouding zelf indien procedure correct gevolgd.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 313" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktisch voordeel-overzicht" }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Verzuim inhouding door schuldenaar: solidaire aansprakelijkheid (art. 261) — schuldenaar wordt zelf hoofdelijk aansprakelijk voor RV + nalatigheidsinterest + 50 %-boete. Voor KMO-bedrijfsleider die dividend uitkeert: aangifte 273S TIJDIG indienen, anders dubbele betaling (RV + boete). Tariefverwarring tussen VVPRbis (15 %) en standaard (30 %): bij uitkering aan eigen oprichters van een KMO altijd nagaan of de drie boekjaren-voorwaarde vervuld is — anders 30 % i.p.v. 15 % betaald.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 261" },
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+              { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard KMO-RV-praktijk" }
+            ]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "tarief-overzicht",
+        "naam": {
+          "primair": "Tariefoverzicht RV per inkomenscategorie (art. 269)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Standaardtarief 30 % (art. 269 §1, 1°). Verlaagde tarieven: 15 % voor VVPRbis-dividenden (art. 269 §2) na 3 boekjaren oprichtersaandeel; 15 % voor auteursrechten (art. 269 §1, 5°) binnen plafonds; 15 % voor overschrijding spaardeposito-drempel (art. 269 §1, 3°); 5 % voor liquidatiereserve-uitkering na 5 jaar (art. 269 §1, 2°ter); 0 % voor DBI-cascade en moeder-dochter-vrijstellingen (art. 264-266); 20 % voor specifieke gevallen (bv. liquidatiereserve uitkering < 5 jaar).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 269" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 264" }
+              ]
+            }
+          }
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": ["Tarief", "Toepassing", "Wetsbasis"],
+            "rijen": [
+              ["30 %", "Standaard — gewone dividenden, gewone interesten", "art. 269 §1, 1°"],
+              ["15 %", "VVPRbis-dividenden (na 3 boekjaren)", "art. 269 §2"],
+              ["15 %", "Auteursrechten (binnen plafonds)", "art. 269 §1, 5°"],
+              ["15 %", "Spaardeposito boven vrijstellingsdrempel ~EUR 980", "art. 269 §1, 3°"],
+              ["5 %", "Liquidatiereserve-uitkering na 5 jaar", "art. 269 §1, 2°ter"],
+              ["20 %", "Liquidatiereserve-uitkering vóór 5 jaar", "art. 269 §1, 2°"],
+              ["0 %", "DBI-cascade + moeder-dochter EU", "art. 264 + 266"]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "stap-aangifte-273s",
+        "naam": {
+          "primair": "Aangifte 273S binnen 15 dagen"
+        },
+        "bouwsteen_type": "stap",
+        "kern": {
+          "definitie": {
+            "tekst": "Inhoudingsplichtige (uitkerende vennootschap of bank): (1) bereken bruto-bedrag van het roerend inkomen; (2) pas toepasselijk RV-tarief toe; (3) verzend de RV binnen 15 dagen na betaalbaarstelling/toekenning naar de bevoegde belastingontvanger; (4) dien aangifte 273S in (per soort inkomen en per uitkeringsdatum) — verplichte gegevens: identificatie schuldenaar, soort inkomen, bruto-bedrag, RV-bedrag, gebruikt tarief, kwalificatie ontvanger. Bewaar attesten 10 jaar voor controle.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+                { "type": "wettekst", "naam": "KB/WIB92", "ref": "art. 85-93", "context": "Aangifteformaliteiten 273S" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "mechanisme-bevrijdend-vs-verrekenbaar",
+        "naam": {
+          "primair": "Bevrijdend (PB) versus verrekenbaar (VenB)"
+        },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor PB-belastingplichtigen (natuurlijke personen, niet-inwoners-particulieren): RV is BEVRIJDEND — werkt als eindbelasting, geen aangifteplicht, geen latere correctie tenzij globalisatie (art. 313). Voor VenB-belastingplichtigen (vennootschappen, andere rechtspersonen): RV is VERREKENBAAR — wordt aangerekend op de VenB en eventueel terugbetaald als VenB < ingehouden RV. Voor DBI-genietende vennootschap met 100 % DBI-aftrek: RV is volledig terugbetaalbaar omdat de VenB-grondslag €0 is (na DBI-aftrek). Voor stagiair: dit verklaart waarom een KMO die dividenden ontvangt van haar dochters geen netto-30 %-verlies lijdt — RV wordt teruggevorderd via aangifte VenB.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 313" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 281-284", "context": "Verrekenbaarheid VenB" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "vrijstelling-dbi-cascade",
+        "naam": {
+          "primair": "DBI-vrijstelling RV (art. 264)"
+        },
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Dividenden uitgekeerd tussen Belgische of EER-vennootschappen die voldoen aan deelnemingsvereisten zijn vrijgesteld van RV (art. 264 WIB92 + KB/WIB92 art. 106). Vereisten: (1) ontvangende vennootschap houdt ≥10 % van het kapitaal van de uitkerende vennootschap, OF heeft deelneming met inschaffingswaarde ≥€2,5 mio; (2) deelneming wordt minimaal 1 jaar ononderbroken aangehouden (op moment van uitkering of binnen 12 maanden na); (3) ontvangende vennootschap is geen Tax Shelter of specifiek uitgesloten vennootschapsvorm. Bij twijfel: 30 % RV inhouden + later terugvorderen via VenB-aangifte — voorzichtigheidsregel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 264" },
+                { "type": "wettekst", "naam": "KB/WIB92", "ref": "art. 106" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "risico-laattijdige-betaling",
+        "naam": {
+          "primair": "Risico laattijdige betaling RV"
+        },
+        "bouwsteen_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij overschrijding 15-dagen-termijn (art. 412): (1) nalatigheidsinterest 4 % per jaar (vanaf 16e dag); (2) administratieve boete 50-200 % afhankelijk van vrijwilligheid/recidive; (3) bij gebrekkige 273S-aangifte: extra boete tot €1.250 per fout. Voor KMO's met onregelmatige dividenduitkering (bv. exceptionele uitkering bij liquidatie): planning is cruciaal. Bedrijfsleider die zelf het cash flow doet, moet RV-betalingsdatum in eigen agenda noteren.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 444", "context": "Administratieve boete" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard boete-praktijk" }
+              ]
+            }
+          }
+        }
       }
-    }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-dividend-uitkering-bv",
+        "titel": "BV keert dividend uit aan oprichter (geen VVPRbis)",
+        "context": "BV Janssen Consult keert in mei 2024 een dividend van €50.000 uit aan haar oprichter-aandeelhouder (natuurlijk persoon). De aandelen voldoen NIET aan VVPRbis-vereisten. Standaardtarief 30 % van toepassing.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 261" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 269 §1, 1°" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Uitgewerkt cijfervoorbeeld" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — bruto-dividend = €50.000.",
+              "Stap 2 — RV 30 % = €50.000 × 30 % = €15.000.",
+              "Stap 3 — netto-uitkering aan oprichter = €50.000 − €15.000 = €35.000.",
+              "Stap 4 — BV dient binnen 15 dagen na betaalbaarstelling aangifte 273S in en stort €15.000 RV aan Schatkist.",
+              "Stap 5 — boekhouding BV: dividenduitkering komt uit beschikbare winstreserves; RV wordt geboekt als 'te betalen voorheffing' (rek. 4536) en daarna betaald via 'kredietinstelling' (5500).",
+              "Stap 6 — oprichter ontvangt €35.000 netto. Voor PB: bevrijdend karakter (art. 313) — GEEN aangifte vereist. Effectieve druk 30 %."
+            ],
+            "resultaat": "Standaard dividend KMO-bedrijfsleider: 30 % effectieve druk. Indien VVPRbis-vereisten wel vervuld: 15 % → €7.500 RV i.p.v. €15.000 = €7.500 besparing."
+          },
+          {
+            "type": "boeking",
+            "tekst": "Bij toekenning dividend:\n6920 Onttrekking aan beschikbare reserves    50.000 D\n   aan 471 Dividenden voor uitkering         50.000 C\nBij splitsing voor RV-betaling:\n471 Dividenden voor uitkering              15.000 D\n   aan 4536 Te betalen voorheffing          15.000 C\n471 Dividenden voor uitkering              35.000 D\n   aan 5500 Kredietinstelling               35.000 C  (netto-betaling aan oprichter)\n4536 Te betalen voorheffing                 15.000 D\n   aan 5500 Kredietinstelling               15.000 C  (storting RV)"
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-liquidatiereserve-uitkering",
+        "titel": "Liquidatiereserve uitkering na 5 jaar — 5 % RV",
+        "context": "BV De Smedt heeft in boekjaar 2018 €100.000 winst geboekt naar de liquidatiereserve (10 % anticipatieve heffing = €10.000 reeds betaald bij aanleg). In 2024 (>5 jaar later) wenst de oprichter de reserve uit te keren als dividend.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 184quater" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 269 §1, 2°ter" },
+            { "type": "advies", "naam": "CBN-advies 2015/02", "ref": "Boekhoudkundige verwerking liquidatiereserve" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — opgenomen liquidatiereserve uit te keren = €100.000.",
+              "Stap 2 — voorwaarde 5-jaar-wachttijd: aanleg 2018, uitkering 2024 — 6 jaar verstreken → VOORWAARDE VERVULD.",
+              "Stap 3 — RV-tarief: 5 % (art. 269 §1, 2°ter) — NIET 30 %, want gunst-regime liquidatiereserve.",
+              "Stap 4 — RV op uitkering = €100.000 × 5 % = €5.000.",
+              "Stap 5 — netto-uitkering oprichter = €100.000 − €5.000 = €95.000.",
+              "Stap 6 — totaal effectieve druk over de levenscyclus: 10 % anticipatieve heffing (€10.000) + 5 % RV (€5.000) = €15.000 op €100.000 brutowinst = 15 % totale druk.",
+              "Stap 7 — vergelijk: 'normale' dividenduitkering zou geweest zijn = VenB-tarief 25 % op winst + 30 % RV op uitkering = effectief ~47,5 % totale druk."
+            ],
+            "resultaat": "Liquidatiereserve-strategie reduceert totale belastingdruk dividenden van 47,5 % naar 15 % — daarom dé belangrijkste KMO-optimalisatie-strategie."
+          }
+        ]
+      },
+      {
+        "id": "voorbeeld-dbi-cascade-vrijstelling",
+        "titel": "DBI-cascade — dividend tussen Belgische moeder en dochter (vrijgesteld)",
+        "context": "Moedervennootschap NV Holding (100 % deelneming in dochter BV Actief sinds 5 jaar) ontvangt een dividend van €200.000 uit Actief. Beide voldoen aan deelnemingsvereisten (>10 %, >1 jaar bezit, beide actieve vennootschappen).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 264" },
+            { "type": "wettekst", "naam": "KB/WIB92", "ref": "art. 106" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 202-205", "context": "DBI-aftrek 100 %" }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Actief keert €200.000 dividend uit naar Holding.",
+              "Stap 2 — Holding bezit 100 % van Actief sinds 5 jaar (deelnemingsvereisten voldaan): VRIJSTELLING art. 264 — geen RV-inhouding aan de bron.",
+              "Stap 3 — Actief draagt €0 RV af (in plaats van €60.000 indien standaardtarief).",
+              "Stap 4 — Holding ontvangt €200.000 netto.",
+              "Stap 5 — voor VenB van Holding: DBI-aftrek 100 % (art. 202-205) → belastbare grondslag voor dit dividend = €0 in Holding.",
+              "Stap 6 — gecombineerd effect: VenB op €200.000 = €0 + RV = €0 = effectieve dubbele-belasting-vrijstelling.",
+              "Stap 7 — vergelijk zonder DBI-cascade + vrijstelling: 30 % RV (€60.000) + 25 % VenB (€50.000) = €110.000 belasting op €200.000."
+            ],
+            "resultaat": "DBI-cascade vermijdt economische dubbele belasting op intragroup-dividenden — fundamenteel principe Belgisch concern-fiscaal recht."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "RV-storting vergeten binnen 15 dagen",
+        "verkeerde_assumptie": "Bedrijfsleider denkt 'we storten RV later, samen met de VenB-voorschotten'.",
+        "kernpunt": "RV moet binnen 15 dagen na betaalbaarstelling of toekenning worden gestort (art. 412). Verzuim leidt tot nalatigheidsinterest + 50 % boete. Voor een dividend van €50.000 betekent dit ~€7.500-€15.000 extra kosten. Plan de RV-betaling in dezelfde week als het dividendbesluit.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 444", "context": "Boete-bepalingen" }
+          ]
+        }
+      },
+      {
+        "titel": "VVPRbis automatisch toepassen zonder check",
+        "verkeerde_assumptie": "Stagiair past 15 % VVPRbis toe omdat 'het een KMO is'.",
+        "kernpunt": "VVPRbis-tarief vereist cumulatief: (a) KMO-status art. 1:24 WVV; (b) oprichtersaandelen (niet via overdracht verkregen); (c) volgestorte inbreng; (d) minimum drie boekjaren tussen inbreng en uitkering; (e) onafgebroken vol eigendom. Bij twijfel: 30 % toepassen + later correctie via teruggave 273S — minder risico op boete.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 269 §2" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard VVPRbis-praktijk" }
+          ]
+        }
+      },
+      {
+        "titel": "DBI-vrijstelling RV claimen zonder deelnemingsvereisten",
+        "verkeerde_assumptie": "Bij groepsdividend automatisch RV-vrijstelling claimen omdat 'we zijn een holding'.",
+        "kernpunt": "DBI-vrijstelling RV (art. 264) vereist ≥10 % deelneming OF inschaffingswaarde ≥€2,5 mio EN minimum 1 jaar bezit. Bij niet-voldoen: 30 % RV ingehouden, terugvordering via VenB-aangifte (DBI-aftrek). Maar dan eerst 30 % cash flow-impact. Verifieer ALTIJD de drie voorwaarden vóór RV-vrijstelling op 273S te claimen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 264" },
+            { "type": "wettekst", "naam": "KB/WIB92", "ref": "art. 106" }
+          ]
+        }
+      }
+    ]
   },
+  "accountant_perspectieven": [
+    {
+      "id": "kmo-vennootschap-uitkerend",
+      "naam": {
+        "primair": "KMO-vennootschap als RV-schuldenaar"
+      },
+      "intro": "De accountant die voor een KMO-vennootschap de dividenduitkering + RV-aangifte 273S verzorgt.",
+      "rollen": [
+        {
+          "rol": "boekhouder",
+          "elementen": [
+            {
+              "id": "boeking-rv-273s",
+              "naam": {
+                "primair": "Boeking RV bij dividenduitkering + 273S-aangifte"
+              },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij toekenning dividend door AV: (1) bepaal toepasselijk RV-tarief (controleer VVPRbis/liquidatiereserve/standaard); (2) boek dividendbeslissing: 6920 D / 471 C; (3) splits in netto + RV bij betaling: 471 D / 4536 (te betalen voorheffing) C en 471 D / 5500 (bank-uit) C; (4) verzend 273S aangifte binnen 15 dagen + storting RV. Werkbestand documenteren met datum AV, dividendbedrag, toegepast tarief, motivatie tarief, datum storting RV.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 261" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 412" },
+                      { "type": "advies", "naam": "CBN-advies 2018/14", "ref": "Boekhoudkundige verwerking belastingen" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "tariefkeuze-uitkering",
+              "naam": {
+                "primair": "Tariefkeuze bij uitkering: VVPRbis, liquidatiereserve of standaard?"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Bij elk dividendvoorstel KMO: bekijk de drie opties voor de jaar-winst. (a) Standaarduitkering 30 %: snel, eenvoudig, geen wachttijden. (b) VVPRbis 15 %: enkel indien KMO-statuut + oprichtersaandelen + 3 boekjaren-wachttijd vervuld. (c) Liquidatiereserve 10 % nu + 5 % later (na 5 jaar) = 15 % totaal: vereist boeking van speciale reserve in jaarrekening, 5-jaar-bevries. Voor KMO-bedrijfsleider met lange-termijn-horizon: liquidatiereserve doorgaans gunstigst (totaal 15 % i.p.v. 30 %). Bereken elk jaar opnieuw.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 269" },
+                      { "type": "wettekst", "naam": "WIB92", "ref": "art. 184quater" },
+                      { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "KMO-fiscale-praktijk" }
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "relaties": [
     {
       "type": "valt_onder",
@@ -98,7 +521,24 @@
     },
     {
       "type": "beinvloed_door",
-      "target": "roerend-inkomen-pb"
+      "target": "roerend-inkomen-pb",
+      "toelichting": "RV is de heffing op het roerend inkomen — de twee concepten zijn onlosmakelijk verbonden."
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "bedrijfsvoorheffing",
+      "gelijkenissen": [
+        "Beide zijn voorheffingen ingehouden aan de bron door de schuldenaar van het inkomen",
+        "Beide worden binnen korte termijn (15 dagen) gestort via specifiek aangifteformulier",
+        "Beide kunnen verrekenbaar zijn met de eindbelasting"
+      ],
+      "verschillen": [
+        "RV: op roerend inkomen (dividenden, interesten, ...) — BV: op beroepsinkomsten (loon, presentievergoedingen, pensioenen)",
+        "RV-tarief: 30 % standaard met talrijke verlagingen — BV-tarief: progressief via barema's",
+        "RV: meestal bevrijdend voor PB-particulier — BV: NOOIT bevrijdend, altijd verrekenbaar met PB"
+      ],
+      "verwarring_risico": "Stagiair kan 'voorheffing' generiek als één concept benaderen — onjuist. RV en BV volgen totaal verschillende regels en grondslagen.",
+      "render_hint": "als_glossarium"
     }
   ]
 }
