@@ -3,35 +3,32 @@
   "naam": {
     "primair": "Overdracht van een onderneming",
     "synoniemen": [
-      "bedrijfsoverdracht",
       "M&A-transactie",
-      "exit-transactie",
-      "share deal vs asset deal"
+      "overname",
+      "verkoop van een onderneming"
     ]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader",
-      "gebeurtenis",
-      "regeling"
-    ],
-    "ankers": [
-      "3.0.V",
-      "3.0.V.A",
-      "3.0.V.B",
-      "3.0.V.C",
-      "3.0.V.D",
-      "3.0.V.E",
-      "3.0.V.F",
-      "3.0.V.G",
-      "3.0.taak.2"
-    ],
+    "status": "concept",
+    "categorieen": ["kader", "gebeurtenis", "regeling"],
+    "ankers": ["3.0.taak.2", "3.0.taak.3", "2.3.III.B"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-vennootschapsrecht-2026-05-28"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/overdracht-onderneming.json",
+      "primary_bronnen": [
+        "WIB92 art. 192 (DBI-vrijstelling meerwaarde aandelen)",
+        "Wbtw art. 11 + KB nr. 1 art. 11 (overdracht algemeenheid)",
+        "WVV art. 7:41 + 5:42 (overdracht aandelen)",
+        "WIB92 art. 2 — 6°/1",
+        "CAO 32bis (overdracht onderneming + werknemers)"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -39,91 +36,183 @@
         "timestamp": "2026-05-28T00:00:00Z",
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit overdracht-onderneming-cluster (skelet-doc regel ~570)"
+        "wijziging": "Skeleton-record aangemaakt"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T15:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-vennootschapsrecht-2026-05-28",
+        "wijziging": "Inhoud gevuld vanuit bundle + algemene M&A-praktijk (share-deal vs asset-deal vergelijking). Bundle-noise (IFRS, ISA) niet gebruikt."
       }
     ],
     "scope": {
       "in": [
         "Overkoepelend keuzekader: hoe wordt een onderneming overgedragen?",
-        "Vergelijkingsmatrix: fiscale impact (meerwaarde verkoper vs goodwill-afschrijving koper) · btw-impact (overdracht algemeenheid art 11/18 Wbtw vs btw op activa) · registratierechten · overdracht van passiva · garanties · due diligence · personeels-overdracht (CAO 32bis)",
-        "Share-deal-aandelenovername (sub-sectie)",
-        "Asset-deal-handelsfonds-overname (sub-sectie)",
-        "Gedeelde aspecten: waardering · due-diligence · garanties + vrijwaring (R&W, escrow, MAC)"
+        "Vergelijkingsmatrix share-deal versus asset-deal: fiscale impact (meerwaarde verkoper versus goodwill-afschrijving koper), btw-impact (overdracht algemeenheid art. 11 Wbtw versus btw op activa), registratierechten, overdracht van passiva, garanties, due diligence, personeels-overdracht (CAO 32bis)",
+        "Share-deal aandelenovername (sub-concept)",
+        "Asset-deal handelsfonds-overname (sub-concept)",
+        "Gedeelde aspecten: waardering, due diligence, garanties + vrijwaring (R&W, escrow, MAC)"
       ],
       "out": [
-        {
-          "topic": "Overnameovereenkomst-SPA als contractueel instrument",
-          "richting": "moet-verwijzen",
-          "ref": "overnameovereenkomst-spa"
-        },
-        {
-          "topic": "Aandeel — object share-deal",
-          "richting": "moet-verwijzen",
-          "ref": "aandeel"
-        },
-        {
-          "topic": "Inbreng-bedrijfstak-of-algemeenheid — alternatieve structurering",
-          "richting": "moet-verwijzen",
-          "ref": "inbreng-bedrijfstak-of-algemeenheid"
-        },
-        {
-          "topic": "Aandeelhoudersovereenkomsten — pre-overdracht-context",
-          "richting": "moet-verwijzen",
-          "ref": "aandeelhoudersovereenkomsten"
-        },
-        {
-          "topic": "Reorganisatie-Σ — alternatieve herstructurerings-route",
-          "richting": "moet-verwijzen",
-          "ref": "reorganisatie"
-        },
-        {
-          "topic": "Meerwaarde aandelen VenB — verkoperskant",
-          "richting": "mag-verwijzen",
-          "ref": "meerwaarde-aandelen-venb"
-        },
-        {
-          "topic": "BTW-perspectief: overdracht algemeenheid",
-          "richting": "mag-verwijzen",
-          "ref": "overdracht-algemeenheid-btw"
-        }
+        { "topic": "Overnameovereenkomst-SPA als contractueel instrument", "richting": "moet-verwijzen", "ref": "overnameovereenkomst-spa" },
+        { "topic": "Aandeel — object van share-deal", "richting": "moet-verwijzen", "ref": "aandeel" },
+        { "topic": "Inbreng-bedrijfstak-of-algemeenheid — alternatieve structurering", "richting": "moet-verwijzen", "ref": "inbreng-bedrijfstak-of-algemeenheid" },
+        { "topic": "Aandeelhoudersovereenkomsten — pre-overdracht-context", "richting": "moet-verwijzen", "ref": "aandeelhoudersovereenkomsten" },
+        { "topic": "Reorganisatie-Sigma — alternatieve herstructurerings-route", "richting": "moet-verwijzen", "ref": "reorganisatie" },
+        { "topic": "Meerwaarde-aandelen VenB — verkoperskant", "richting": "mag-verwijzen", "ref": "meerwaarde-aandelen-venb" },
+        { "topic": "BTW-perspectief: overdracht algemeenheid", "richting": "mag-verwijzen", "ref": "overdracht-algemeenheid-btw" }
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven in Fase 2",
+        "tekst": "Overdracht van een onderneming is de transactie waarbij de controle of het eigenaarschap van een actieve onderneming overgaat van de overdrager (verkoper) naar de overnemer (koper). De twee basisstructuren zijn share-deal (verkoop van de aandelen van de vennootschap die de onderneming uitbaat — de juridische huid blijft, alleen de eigenaar wisselt) en asset-deal (verkoop van het handelsfonds zelf — de activa, contracten, klantenbestand en eventueel personeel gaan over naar een andere vennootschap, terwijl de oorspronkelijke vennootschap voortbestaat zonder die activiteit). Geregeld via koop-verkoop-overeenkomst (Share Purchase Agreement of Asset Purchase Agreement); valt buiten WVV boek 12 want het is een gewone contractuele transactie tussen zelfstandige partijen.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "afgeleid",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 7:41 (overdracht aandelen NV)" },
+            { "type": "wettekst", "naam": "WVV", "ref": "art. 5:42 (overdracht aandelen BV)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese M&A-praktijk" }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Economisch leveren share-deal en asset-deal vaak hetzelfde resultaat: de koper krijgt de operationele activiteit, de verkoper krijgt cash. Maar fiscaal, juridisch en boekhoudkundig lopen ze grondig uiteen. Bij share-deal blijft alles in de vennootschap: contracten lopen door, vergunningen blijven geldig, schulden volgen mee. Bij asset-deal moet alles individueel worden overgedragen — sommige contracten vergen instemming van tegenpartij; vergunningen moeten soms opnieuw worden aangevraagd; schulden blijven bij de verkoper (tenzij expliciet overgenomen). De keuze tussen beide structuren bepaalt de fiscale druk, het risicoprofiel en de complexiteit van de transactie — vandaar dat dit een sleutel-vergelijking is in elke M&A-context.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese M&A-praktijk" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Waarom bestaan twee aparte structuren? Omdat verkoper en koper tegengestelde fiscale belangen hebben. De verkoper verkiest doorgaans share-deal: meerwaarde op aandelen is in VenB grotendeels vrijgesteld (art. 192 WIB92) of tegen verlaagd tarief; in PB onder voorwaarden vrijgesteld. De koper verkiest doorgaans asset-deal: een hogere boekwaarde van activa en goodwill leidt tot grotere afschrijvingen en dus lagere belastbare winst. Dit fiscale asymmetrie is het kernpunt van elke prijsonderhandeling — wie de fiscale 'win' wegneemt, moet daar prijs voor betalen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "WIB92", "ref": "art. 192 (vrijstelling meerwaarde aandelen VenB)" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Klassieke share-deal/asset-deal-analyse" }
           ]
         }
       }
     },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 192; Wbtw art. 11 + KB nr. 1 art. 11; WVV (overdracht aandelen); CAO 32bis (overdracht onderneming + werknemers); Burgerlijk Wetboek (koop)"
+      },
+      "voor": [
+        {
+          "tekst": "Een ondernemer wil zijn activiteit verkopen aan een externe overnemer (familie zonder opvolger, financiële investeerder, strategische koper).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Typische M&A-context" }]
+          }
+        },
+        {
+          "tekst": "Een groep wil een niet-strategische activiteit afstoten via verkoop van een dochtervennootschap (carve-out via share-deal) of via verkoop van losse activa (carve-out via asset-deal).",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Typische carve-out-context" }]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Schriftelijke overeenkomst (SPA/APA) met alle elementen: prijs, beschrijving voorwerp, garanties, vrijwaringen, opschortende voorwaarden, closing-procedure.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+          }
+        },
+        {
+          "tekst": "Bij asset-deal die kwalificeert als overdracht van een algemeenheid of bedrijfsafdeling (art. 11 Wbtw): vaststelling in een geschrift dat aan elke partij wordt overhandigd, met datum, identificatie, beschrijving voorwerp en prijs (KB nr. 1 art. 11).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              { "type": "wettekst", "naam": "Wbtw", "ref": "art. 11" },
+              { "type": "kb", "naam": "KB nr. 1", "ref": "art. 11" }
+            ]
+          }
+        },
+        {
+          "tekst": "Bij overdracht onderneming met personeel: respecteer CAO 32bis — werknemers gaan over met behoud van anciënniteit en arbeidsvoorwaarden.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              { "type": "norm", "naam": "CAO 32bis (overdracht onderneming)", "ref": "art. 7 (rechten werknemers)" }
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Snelheid en flexibiliteit: een gewone koop-verkoop hoeft geen WVV-boek 12-procedure te doorlopen — geen voorstel, geen revisorverslag op de transactie zelf, geen wettelijke wachttermijn.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Vergelijking met reorganisatie" }]
+          }
+        },
+        {
+          "tekst": "Contractuele vrijheid om risico's, garanties en vrijwaringen op maat te onderhandelen — zelfde overdracht kan zeer verschillend worden geprijsd afhankelijk van de garantie-pakket.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Bij share-deal: koper neemt alle historische schulden mee — bekend (in balans) en onbekend (latente fiscale claims, milieuverplichtingen, geschillen). Vandaar de cruciale rol van due diligence + R&W-garanties.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Bekende risico-categorie" }]
+          }
+        },
+        {
+          "tekst": "Bij asset-deal: contracten die niet 'overdraagbaar' zijn (intuitu personae, change-of-control-clausules) vergen instemming van tegenpartijen — risico op weigering of heronderhandeling.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+          }
+        },
+        {
+          "tekst": "Fiscale herkwalificatie: een asset-deal kan door de fiscus worden gezien als verkapte vereffening; een share-deal kan worden gezien als verkapte dividend-uitkering — anti-misbruik blijft mogelijk.",
+          "grondslag": {
+            "confidence": "verondersteld",
+            "bronnen": [
+              { "type": "wettekst", "naam": "WIB92", "ref": "art. 344 (algemene anti-misbruik)" }
+            ]
+          }
+        }
+      ]
+    },
     "subconcepten": [
       {
-        "id": "share-deal-aandelenovername",
-        "naam": {
-          "primair": "Share-deal (aandelenovername)"
-        },
+        "id": "share-deal",
+        "naam": { "primair": "Share-deal — aandelenovername" },
         "concept_type": "verrichting",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — verwerving aandelen; koper verkrijgt vennootschap met al haar activa/passiva/contracten; verkoper realiseert meerwaarde aandelen.",
+              "tekst": "De koper neemt de aandelen van de vennootschap die de onderneming uitbaat. De vennootschap blijft juridisch ongewijzigd — alleen haar aandeelhouders veranderen. Alle activa, passiva, contracten en arbeidsovereenkomsten blijven in de vennootschap; geen individuele overdracht nodig.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "afgeleid",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "wettekst", "naam": "WVV", "ref": "art. 7:41 + 5:42 (overdracht aandelen)" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Fiscaal voor verkoper-vennootschap: meerwaarde op aandelen onder DBI-voorwaarden vrijgesteld (art. 192 WIB92). Fiscaal voor verkoper-natuurlijke persoon: meestal vrijgesteld als 'normaal beheer privévermogen' (art. 90, 9°/1 WIB92), tenzij speculatie. Voor koper: aankoopprijs zit in de boekwaarde van de deelneming — niet afschrijfbaar. Btw: geen btw op aandelen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 192" },
+                  { "type": "wettekst", "naam": "WIB92", "ref": "art. 90, 9°" }
                 ]
               }
             }
@@ -131,47 +220,65 @@
         }
       },
       {
-        "id": "asset-deal-handelsfonds-overname",
-        "naam": {
-          "primair": "Asset-deal (handelsfonds-overname)"
-        },
+        "id": "asset-deal",
+        "naam": { "primair": "Asset-deal — handelsfonds-overname", "synoniemen": ["overdracht handelsfonds"] },
         "concept_type": "verrichting",
         "inhoud": {
           "kern": {
             "definitie": {
-              "tekst": "⏳ Te beschrijven in Fase 2 — verwerving handelsfonds; koper kiest activa cherry-pick; verkoper realiseert meerwaarde op activa, vennootschap blijft bestaan.",
+              "tekst": "De koper neemt het handelsfonds (activa, klantenbestand, voorraden, goodwill) over zonder de juridische schil. Schulden blijven bij de verkoper, tenzij specifiek overgenomen. Contracten gaan niet automatisch over — vereist instemming van tegenpartij of overdracht in de overeenkomst.",
               "grondslag": {
-                "confidence": "verondersteld",
+                "confidence": "afgeleid",
                 "bronnen": [
-                  {
-                    "type": "ai_model",
-                    "naam": "cluster-skeleton-agent",
-                    "datum": "2026-05-28"
-                  }
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }
+                ]
+              }
+            },
+            "substantie": {
+              "tekst": "Fiscaal voor verkoper: meerwaarde op de overgedragen activa belast als beroepsinkomen (in PB) of in VenB tegen 25% — meestal hoger dan share-deal. Voor koper: aankoopprijs verdeeld over de overgenomen activa op basis van marktwaarde — goodwill is afschrijfbaar (typisch 10 jaar of conform economische gebruiksduur). Btw: in principe btw op de prijs, maar art. 11 Wbtw stelt vrij van btw bij overdracht van een 'algemeenheid van goederen' of 'bedrijfsafdeling', mits het kopende vennootschap btw-plichtig is en de overdracht ervan zo wordt voortgezet.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  { "type": "wettekst", "naam": "Wbtw", "ref": "art. 11" },
+                  { "type": "kb", "naam": "KB nr. 1", "ref": "art. 11" },
+                  { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Synthese fiscale gevolgen" }
                 ]
               }
             }
           }
         }
-      }
-    ],
-    "bouwstenen": [
+      },
       {
-        "id": "waardering-onderneming",
-        "naam": {
-          "primair": "Waardering van de onderneming"
-        },
-        "bouwsteen_type": "mechanisme",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — DCF · EBITDA-multiple · NAV · vergelijkbare transacties.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
+        "id": "vergelijking-share-asset",
+        "naam": { "primair": "Vergelijking share-deal versus asset-deal" },
+        "concept_type": "kader",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "De keuze tussen share-deal en asset-deal is meestal het resultaat van een fiscale onderhandeling tussen koper (asset-voorkeur) en verkoper (share-voorkeur).",
+              "grondslag": {
+                "confidence": "afgeleid",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijk" }]
+              },
+              "weergaven": [
                 {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
+                  "type": "vergelijkingstabel",
+                  "titel": "Share-deal versus asset-deal — vergelijkingsmatrix",
+                  "kolommen": ["Aspect", "Share-deal", "Asset-deal"],
+                  "rijen": [
+                    ["Voorwerp", "Aandelen van de vennootschap", "Activa, contracten, goodwill"],
+                    ["Wat blijft bij verkoper?", "Niets (volledige verkoop) of restant-aandeel", "De juridische schil + niet-overgedragen passiva"],
+                    ["Schulden", "Mee over naar koper (in de venn.)", "Blijven bij verkoper (tenzij expliciet overgenomen)"],
+                    ["Contracten", "Lopen door (mits geen change-of-control-clausule)", "Vergen instemming tegenpartij voor overdracht"],
+                    ["Vergunningen", "Behouden (mits persoonsgebonden)", "Mogelijk opnieuw aan te vragen"],
+                    ["Personeel", "Geen specifieke overdracht — blijft in de vennootschap", "CAO 32bis: gaat over met behoud anciënniteit en voorwaarden"],
+                    ["Verkoper-fiscaal", "Meerwaarde aandelen typisch vrijgesteld (VenB art. 192, PB art. 90 9°)", "Meerwaarde op activa volledig belast (VenB 25%, of verlaagd tarief PB)"],
+                    ["Koper-fiscaal", "Aandelen niet afschrijfbaar", "Activa + goodwill afschrijfbaar"],
+                    ["Btw", "Geen btw", "In principe btw, maar art. 11 Wbtw stelt overdracht algemeenheid vrij"],
+                    ["Due diligence", "Diepgaand — alle historische risico's reizen mee", "Beperkter — alleen overgedragen activa relevant"],
+                    ["Garanties (R&W)", "Uitvoerig pakket vereist", "Beperkter — koper kan zelf nakijken wat hij koopt"],
+                    ["Snelheid", "Eenvoudig (notariele/onderhandse akte voor aandelen)", "Trager (per actief vaak aparte stappen)"]
+                  ]
                 }
               ]
             }
@@ -180,70 +287,180 @@
       },
       {
         "id": "due-diligence",
-        "naam": {
-          "primair": "Due diligence"
-        },
-        "bouwsteen_type": "stap",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — financieel/fiscaal/juridisch/operationeel onderzoek.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "naam": { "primair": "Due diligence — boekenonderzoek voorafgaand aan transactie" },
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Onderzoek door de koper (of zijn adviseurs) van de financiele, fiscale, juridische en operationele situatie van de doelvennootschap, voorafgaand aan ondertekening van de overeenkomst. Het doel: identificeren van risico's, valoriseren van de doel, en formuleren van garanties en vrijwaringen in de SPA. Typische dimensies: financieel (boekhoudkundige juistheid, EBITDA-normalisatie), fiscaal (latente claims, niet-aangegeven verschuldigde belastingen), juridisch (lopende geschillen, contractuele change-of-control-clausules), commercieel (klantenconcentratie, marktrisico), operationeel (key persons, IT-systemen).",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+              }
             }
           }
         }
       },
       {
-        "id": "garanties-en-vrijwaring",
-        "naam": {
-          "primair": "Garanties en vrijwaring (R&W)"
-        },
-        "bouwsteen_type": "regel",
-        "kern": {
-          "definitie": {
-            "tekst": "⏳ Te beschrijven in Fase 2 — representations & warranties, escrow, MAC-clausule.",
-            "grondslag": {
-              "confidence": "verondersteld",
-              "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
-              ]
+        "id": "garanties-vrijwaring",
+        "naam": { "primair": "Garanties en vrijwaring (R&W + indemnification)" },
+        "concept_type": "instrument",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Contractuele bepalingen in de SPA waarmee de verkoper zich engageert dat bepaalde uitspraken over de doelvennootschap juist zijn (Representations & Warranties — R&W) en dat hij voor bepaalde risico's of onbekende schulden zal opdraaien (vrijwaring / indemnification). Bij schending: schadevergoeding aan koper, vaak met cap (maximum), basket (drempel), survival (tijdsbeperking) en mechanisme (escrow op de prijs, of W&I-verzekering).",
+              "grondslag": {
+                "confidence": "verondersteld",
+                "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+              }
             }
           }
         }
       }
+    ],
+    "speelruimtes": [
+      {
+        "titel": "Share-deal versus asset-deal — onderhandelingsruimte",
+        "opties": [
+          {
+            "keuze": "Share-deal",
+            "voordeel": "Voordelig voor verkoper (vrijstelling meerwaarde aandelen); snel; alle contracten lopen door zonder instemming tegenpartij.",
+            "nadeel": "Nadeel voor koper: betaalde goodwill verstopt in deelneming (niet afschrijfbaar); koper neemt alle historische risico's over."
+          },
+          {
+            "keuze": "Asset-deal",
+            "voordeel": "Voordelig voor koper (goodwill afschrijfbaar = belastingbesparing); koper kiest welke activa en passiva hij neemt, beperkter risico.",
+            "nadeel": "Nadeel voor verkoper: meerwaarde op activa volledig belast; complexere overdracht (contracten, vergunningen, personeel mogelijks per item)."
+          }
+        ],
+        "vuistregel": "Bij grote latente meerwaarden bij verkoper-vennootschap: share-deal heeft duidelijke fiscale voordeel — koper kan compenseren door lagere prijs te bieden. Bij overdracht van een 'tak' uit een groep zonder dat de hele vennootschap overgaat: asset-deal of inbreng-bedrijfstak. Bij twijfel: laat fiscaal adviseur de gecombineerde fiscale impact voor beide partijen modelleren.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk-advies" }]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Latente belastingen niet meerekenen in share-deal-prijs",
+        "verkeerde_assumptie": "De netto-actiefwaarde uit de balans = de waarde van de aandelen.",
+        "kernpunt": "Bij share-deal nemen koper alle latente belastingen mee (bv. op latente meerwaarden, herwaarderingsmeerwaarden, vrijgestelde reserves bij latere uitkering). Een correcte aandelenwaardering houdt rekening met deze 'latente belastingschuld' — vaak via discounted future tax-modellering of door een afslag op de aankoopprijs.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-due-diligence-praktijk" }]
+        }
+      },
+      {
+        "titel": "Btw-vrijstelling art. 11 Wbtw toepassen waar niet aan de voorwaarden voldaan",
+        "verkeerde_assumptie": "Elke asset-deal valt onder art. 11 Wbtw en is vrij van btw.",
+        "kernpunt": "Art. 11 Wbtw vereist (a) overdracht van een 'algemeenheid van goederen' of een 'bedrijfsafdeling' — dus een functioneel geheel dat zelfstandig kan worden uitgebaat, (b) de overnemer is btw-plichtig en (c) zet de activiteit voort. Een verkoop van losse activa zonder dat ze samen een bedrijfsafdeling vormen valt NIET onder art. 11 en is btw-plichtig. De fiscale impact (21% btw op alle activa) kan aanzienlijk zijn.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wbtw", "ref": "art. 11" },
+            { "type": "kb", "naam": "KB nr. 1", "ref": "art. 11" }
+          ]
+        }
+      },
+      {
+        "titel": "Personeels-overdracht vergeten bij asset-deal",
+        "verkeerde_assumptie": "Bij asset-deal kan de koper kiezen welk personeel mee overgaat.",
+        "kernpunt": "CAO 32bis dwingt af dat alle werknemers van de overgedragen onderneming/afdeling mee overgaan met behoud van anciënniteit en arbeidsvoorwaarden. De koper kan dus niet selectief 'cherry-picken'. Ontslag in de context van overdracht is bovendien strikt beperkt — overtredingen leiden tot zware schadevergoedingen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "norm", "naam": "CAO 32bis (overdracht onderneming)", "ref": "art. 7 + art. 9" }
+          ]
+        }
+      },
+      {
+        "titel": "Change-of-control-clausules over het hoofd zien bij share-deal",
+        "verkeerde_assumptie": "Bij share-deal gaan alle contracten automatisch en zonder problemen door.",
+        "kernpunt": "Veel contracten (bankleningen, klantcontracten, vergunningen, intuitu personae-contracten) bevatten 'change-of-control'-clausules: bij wijziging van controle kan de tegenpartij het contract opzeggen of nieuwe voorwaarden bedingen. Due diligence moet deze clausules in kaart brengen — sommige vergen pre-closing-instemming.",
+        "grondslag": {
+          "confidence": "verondersteld",
+          "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+        }
+      }
     ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "vennootschapsrecht"
-    },
-    {
-      "type": "vereist",
-      "target": "overnameovereenkomst-spa"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "reorganisatie"
-    },
-    {
-      "type": "vergelijkbaar_met",
-      "target": "inbreng-bedrijfstak-of-algemeenheid"
-    },
-    {
-      "type": "beinvloed_door",
-      "target": "aandeelhoudersovereenkomsten"
+      "id": "adviseur-overdracht",
+      "naam": { "primair": "Accountant als adviseur bij overdracht" },
+      "intro": "Bij M&A-transacties wordt de gecertificeerd accountant typisch ingeschakeld voor financiele due diligence, waardering en fiscale structurering.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "financial-due-diligence",
+              "naam": { "primair": "Financial due diligence" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Stap 1: review van de jaarrekeningen van de laatste 3-5 jaar. Stap 2: EBITDA-normalisatie (correctie voor niet-recurrente posten, eigenaar-gebonden lasten). Stap 3: analyse working-capital-cyclus en debt-positie. Stap 4: identificatie quality-of-earnings issues (timing van revenue, kostenverschuivingen). Stap 5: opmaken DD-rapport voor de koper met geidentificeerde risico's en aanbevolen garanties.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-praktijk" }]
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "rol": "fiscaal",
+          "elementen": [
+            {
+              "id": "structurering-keuze",
+              "naam": { "primair": "Fiscale structurerings-advies" },
+              "bouwsteen_type": "stap",
+              "kern": {
+                "substantie": {
+                  "tekst": "Modelleer de gecombineerde fiscale impact voor verkoper en koper onder beide scenario's (share-deal en asset-deal). Bepaal de 'fiscale wig' — het bedrag dat fiscaal niet betaald wordt onder share-deal versus asset-deal. Adviseer over de optimale verdeling van die wig in de prijsonderhandeling. Overweeg alternatieven: inbreng-bedrijfstak gevolgd door verkoop van aandelen, gefaseerde overdracht, ruling-aanvraag bij DVB.",
+                  "grondslag": {
+                    "confidence": "verondersteld",
+                    "bronnen": [{ "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "M&A-fiscaal advies" }]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    { "type": "valt_onder", "target": "vennootschapsrecht" },
+    { "type": "vereist", "target": "overnameovereenkomst-spa" },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "reorganisatie",
+      "toelichting": "Beide brengen activiteiten over, maar reorganisatie wijzigt de juridische structuur (WVV boek 12) terwijl overdracht een gewone contractuele transactie is.",
+      "gelijkenissen": [
+        "Beide brengen activiteiten of waarde over van A naar B",
+        "Beide vergen due diligence en correcte waardering"
+      ],
+      "verschillen": [
+        "Reorganisatie: structuur-wijziging (fusie/splitsing/inbreng) met universele rechtsopvolging via WVV boek 12; overdracht: contractuele transactie (SPA/APA)",
+        "Reorganisatie: fiscale neutraliteit mogelijk (art. 211 WIB92); overdracht: typisch realisatie van meerwaarden"
+      ],
+      "render_hint": "als_keuze"
+    },
+    {
+      "type": "vergelijkbaar_met",
+      "target": "inbreng-bedrijfstak-of-algemeenheid",
+      "toelichting": "Alternatief voor asset-deal: in plaats van een handelsfonds te verkopen kan het worden ingebracht in een nieuwe vennootschap waarvan dan de aandelen worden verkocht (= structurering).",
+      "gelijkenissen": [
+        "Beide laten een operationele eenheid (bedrijfstak / handelsfonds) overgaan",
+        "Beide vergen identificatie van activa, passiva en contracten"
+      ],
+      "verschillen": [
+        "Inbreng: fiscale neutraliteit (art. 46 WIB92) + universele rechtsopvolging; overdracht: typisch realisatie + individuele overdracht",
+        "Inbreng: aandelen blijven bij inbrenger; overdracht: cash naar verkoper"
+      ]
+    },
+    { "type": "beinvloed_door", "target": "aandeelhoudersovereenkomsten" }
   ]
 }
