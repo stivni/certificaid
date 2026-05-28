@@ -1,75 +1,313 @@
 {
   "id": "investeringsaftrek",
   "naam": {
-    "primair": "Investeringsaftrek"
+    "primair": "Investeringsaftrek",
+    "synoniemen": ["aftrek voor investeringen", "art. 68-77 WIB92"]
   },
   "concept_type": "regime",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.3.II.E"
-    ],
-    "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
-    },
-    "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.3.II.E"],
     "scope": {
       "in": [
-        "Aftrek bovenop afschrijving voor kwalificerende investeringen",
-        "Verhoogde percentages per categorie (digitaal · energiebesparend · R&D · milieuvriendelijk)",
-        "Eenmalig vs gespreid (over afschrijvingsperiode)",
-        "KMO-tarief vs grote vennootschap",
-        "Cumulatie-regels + niet-naleving sancties"
+        "Aftrek bovenop afschrijving voor kwalificerende investeringen (art. 68-77 WIB92)",
+        "Verhoogde percentages per categorie (digitaal · energiebesparend · R&D · milieuvriendelijk · beveiliging)",
+        "Eenmalig (% van aanschaffingswaarde) vs gespreid (% van afschrijvingsannuïteit)",
+        "KMO-tarief (basis-aftrek 8 %) vs grote vennootschap (geen basis-aftrek)",
+        "Cumulatie-regels + niet-naleving sancties + overdracht ongebruikt deel"
       ],
       "out": [
-        {
-          "topic": "Σ-keuzekader VenB-voordelen",
-          "richting": "mag-verwijzen",
-          "ref": "fiscale-voordelen-vennootschap"
-        },
-        {
-          "topic": "Innovatie-aftrek (verwant)",
-          "richting": "mag-verwijzen",
-          "ref": "innovatie-aftrek"
-        }
+        {"topic": "Σ-keuzekader VenB-voordelen", "richting": "mag-verwijzen", "ref": "fiscale-voordelen-vennootschap"},
+        {"topic": "Innovatie-aftrek (verwant — IP)", "richting": "mag-verwijzen", "ref": "innovatie-aftrek"}
       ]
-    }
+    },
+    "provenance": {
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fiscale-voordelen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/investeringsaftrek.json",
+      "primary_bronnen": ["WIB92 art. 68", "WIB92 art. 69", "WIB92 art. 70", "WIB92 art. 75", "WIB92 art. 77"],
+      "mcp_calls": 0,
+      "rerank_calls": 0
+    },
+    "changelog": [
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-fiscaliteit-klein-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T14:20:00Z", "model": "cluster-extract-agent (opus-4.7-1M)", "wave_id": "fiscale-voordelen-2026-05-28", "wijziging": "Inhoud gevuld vanuit bundle — art. 68-77 WIB92, basis- en verhoogde aftrekken, overdracht."}
+    ]
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-voordelen-vennootschap.",
+        "tekst": "De investeringsaftrek (art. 68-77 WIB92) is een extra fiscale aftrek bovenop de gewone afschrijving van een nieuw bedrijfsactivum. Een percentage van de aanschaffingswaarde wordt afgetrokken van de belastbare winst, eenmalig (in het jaar van investering) of gespreid (over de afschrijvingsperiode). Het percentage hangt af van de categorie investering: basis (8 % voor KMO's) of verhoogd voor specifieke doelen (energiebesparing, milieuvriendelijke investeringen, beveiliging, octrooien, digitalisering, R&D, ...).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 68"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 69"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "Het effect is een dubbel fiscaal voordeel: het activum wordt zowel afgeschreven (verlaagt belastbare winst gedurende afschrijvingsperiode) ALS profiteert van investeringsaftrek (extra verlaging in jaar van investering, of pro rata gespreid). Bv. een KMO koopt een productiemachine van 100.000 EUR: basis-aftrek 8 % = 8.000 EUR extra aftrek, bovenop afschrijving 10.000 EUR (over 10 jaar). Voor digitale investeringen (vanaf 2018): KMO-percentage tot 13,5 %; voor R&D: 13,5 % eenmalig of 20,5 % gespreid; voor energiebesparing: 13,5 %. Cijferzakboekje raadplegen voor actuele percentages — die wisselen per aanslagjaar door indexering.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 69"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaard adviespraktijk + Cijferzakboekje-context"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio legis: stimuleren van bedrijfsinvesteringen, vooral in beleidsprioritaire categorieën (groen, digitaal, R&D, KMO-investeringen). De aftrek werkt als een 'verborgen subsidie' via lager belastbaar inkomen i.p.v. directe steun. Voor de begroting goedkoper dan rechtstreekse subsidies; voor de onderneming flexibel inzetbaar zonder aparte aanvraag (mits attest waar vereist). De koppeling aan KMO-statuut versterkt het effect voor kleinere onderneminkingen.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [{"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Beleidsratio-synthese"}]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": ["afschrijvingen", "vennootschap-groottecategorieen"],
+      "kader": "fiscale-voordelen-vennootschap"
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "wettelijke_basis": "WIB92 art. 68-77 + KB/WIB92",
+        "toelichting": "Stabiel basisregime sinds invoering WIB92, maar percentages en categorieën worden regelmatig aangepast (bv. digitale investeringen toegevoegd 2018; verhoging voor energie/groen 2022)."
+      },
+      "voor": [
+        {
+          "tekst": "Vennootschap of zelfstandige met beroepsinkomen die NIEUWE afschrijfbare materiële of immateriële vaste activa verkrijgt of vervaardigt in België voor de beroepswerkzaamheid. KMO-status (art. 1:24 WVV) geeft toegang tot basis-aftrek 8 %; grote vennootschappen hebben enkel de verhoogde categorieën (R&D, octrooi, energie, ...).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 68"},
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 75"}
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Niet-aftrekbaar: tweedehands activa (behalve specifieke uitzonderingen), niet voor beroepsdoeleinden gebruikte activa, personenwagens (met uitzondering elektrische sinds 2023), activa die hoofdzakelijk in het buitenland gebruikt worden, activa waarvan het gebruiksrecht is afgestaan aan een derde die zelf niet voor de aftrek in aanmerking komt.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 75"}]
+          }
+        }
+      ],
+      "voorwaarden": [
+        {
+          "tekst": "Cumulatief: (1) nieuw afschrijfbaar activum; (2) verkregen of vervaardigd in het lopende belastbare tijdperk; (3) uitsluitend gebruikt voor beroepswerkzaamheid in België; (4) bij verhoogde aftrek: relevant attest (BELSPO voor R&D, gewestelijke attestering voor energie/milieu, ...); (5) opgave 276U bij de aangifte VenB.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 75"},
+              {"type": "wettekst", "naam": "WIB92", "ref": "art. 77"}
+            ]
+          }
+        }
+      ],
+      "voordeel": [
+        {
+          "tekst": "Onmiddellijke verlaging belastbare basis (eenmalig) of gespreid over afschrijvingsperiode. Combineerbaar met innovatie-aftrek (anders gegrond) en gespreide belasting meerwaarden. Niet-gebruikt deel overdraagbaar (basis-aftrek: onbeperkt; verhoogde aftrekken: variabel — Cijferzakboekje raadplegen).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 72"}]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Indien de voorwaarden niet volledig vervuld blijven gedurende een minimum-gebruiksperiode (bv. doorverkoop van activum binnen 3 jaar): terugneming van de aftrek + nalatigheidsinteresten. Bij verhoogde aftrek zonder geldig attest: aftrek wordt volledig verworpen.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 77"}]
+          }
+        }
+      ]
+    },
+    "bouwstenen": [
+      {
+        "id": "basis-aftrek-kmo",
+        "naam": {"primair": "Basis-investeringsaftrek (KMO)"},
+        "bouwsteen_type": "drempel",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor KMO's (art. 1:24 WVV): basis-aftrek 8 % van de aanschaffingswaarde, eenmalig in het jaar van investering. Geldt voor alle nieuwe afschrijfbare activa zonder bijzondere categorie. Geen attest vereist. NIET beschikbaar voor grote vennootschappen. Percentage indexeerbaar; in het Cijferzakboekje het actuele percentage opzoeken.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 69 §1 1°"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 201"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verhoogde-aftrek-categorieen",
+        "naam": {"primair": "Verhoogde aftrekken — categorieën"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Verhoogde percentages voor specifieke investeringen (orde van grootte, geïndexeerd — Cijferzakboekje voor exact bedrag): (a) octrooien: 13,5 % eenmalig of 20,5 % gespreid; (b) energiebesparing: 13,5 %; (c) milieuvriendelijke R&D-investeringen: 13,5 % eenmalig of 20,5 % gespreid; (d) zeevaart, scheepsbouw: tot 30 %; (e) digitalisering (vanaf 2018): 13,5 % voor KMO; (f) beveiligingsinvesteringen: 20,5 % voor KMO. Beschikbaar voor zowel KMO als grote vennootschap (op enkele uitzonderingen na zoals digitale aftrek = KMO-only).",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 69 §1"},
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 70"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "gespreide-vs-eenmalige",
+        "naam": {"primair": "Eenmalig vs gespreid"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Eenmalige aftrek: het volledige percentage × aanschaffingswaarde wordt in het jaar van investering afgetrokken. Gespreide aftrek (alleen voor R&D-investeringen en octrooien): het percentage × jaarlijkse afschrijving wordt elk jaar gedurende afschrijvingsperiode afgetrokken — geeft een hoger totaal-percentage (20,5 % i.p.v. 13,5 %), maar gespreid over afschrijvingsperiode. Keuze hangt af van fiscale planning: eenmalig bij voldoende huidige winst; gespreid bij verwachte hogere toekomstige winsten.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 70"}]
+            }
+          }
+        }
+      },
+      {
+        "id": "overdracht-ongebruikt",
+        "naam": {"primair": "Overdracht ongebruikte aftrek"},
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Indien onvoldoende winst: ongebruikt deel kan worden overgedragen. Basis-aftrek KMO: onbeperkt overdraagbaar. Verhoogde aftrekken: overdraagbaar voor variabele duur (vroeger 1 jaar, nu meestal onbeperkt voor R&D/octrooi; voor andere verhoogde aftrekken specifieke regels). Investeringsaftrek wordt enkel toegepast op het Belgisch resultaat in de aangifte VenB (code 1437), niet op het buitenlandse deel.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "wettekst", "naam": "WIB92", "ref": "art. 72"},
+                {"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "code 1437"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-kmo-machine",
+        "titel": "Zelena Bio NV (KMO) — basis-aftrek op nieuwe machine",
+        "context": "Zelena Bio NV koopt in jaar N een nieuwe productiemachine voor 150.000 EUR. Afschrijving lineair over 10 jaar = 15.000 EUR/jaar. Zelena is een KMO (art. 1:24 WVV).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 69"},
+            {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — basis-investeringsaftrek 8 % × 150.000 = 12.000 EUR (eenmalig).",
+              "Stap 2 — jaar N: belastbare winst wordt verlaagd met 15.000 (afschrijving) + 12.000 (investeringsaftrek) = 27.000 EUR.",
+              "Stap 3 — jaren N+1 tot N+9: enkel afschrijving 15.000/jaar verlaagt belastbare basis.",
+              "Stap 4 — bij VenB-tarief 25 %: extra fiscaal voordeel jaar N = 12.000 × 25 % = 3.000 EUR. Bij KMO-tarief 20 % op eerste schijf: 12.000 × 20 % = 2.400 EUR.",
+              "Stap 5 — opgave 276U bij aangifte VenB, code 1437 in uiteenzetting winst."
+            ],
+            "resultaat": "Extra fiscaal voordeel van 3.000 EUR onmiddellijk, bovenop de gewone fiscale aftrek van afschrijvingen."
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Tweedehands activa fiscaal aftrek opvoeren",
+        "verkeerde_assumptie": "Investeringsaftrek geldt voor alle bedrijfsinvesteringen.",
+        "kernpunt": "Enkel NIEUWE afschrijfbare activa komen in aanmerking (art. 75 WIB92). Tweedehands wagens, gebruikte machines: geen investeringsaftrek. Uitzondering: tweedehands binnenvaartschepen onder bepaalde voorwaarden. Bij twijfel: factuur + leveranciersverklaring nakijken (nieuw vs gebruikt).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "wettekst", "naam": "WIB92", "ref": "art. 75"}]
+        }
+      },
+      {
+        "titel": "Verhoogde aftrek opnemen zonder attest",
+        "verkeerde_assumptie": "Een energiebesparende of R&D-investering geeft automatisch recht op verhoogde aftrek.",
+        "kernpunt": "Verhoogde aftrek vereist een formeel attest: BELSPO-attest (R&D), gewestelijk attest (energie/milieu) of certificatie (digitalisering). Aanvraag moet binnen specifieke termijnen gebeuren — soms vóór de investering. Zonder attest: enkel basis-aftrek (KMO) of nul (grote vennootschap).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 77"},
+            {"type": "wettekst", "naam": "WIB92", "ref": "art. 70"}
+          ]
+        }
+      },
+      {
+        "titel": "Investeringsaftrek op buitenlandse winst toepassen",
+        "verkeerde_assumptie": "De aftrek kan op de totale winst toegepast worden.",
+        "kernpunt": "In de aangifte VenB wordt de investeringsaftrek enkel op het Belgisch resultaat toegepast (code 1437) — niet op het bij verdrag vrijgestelde buitenlandse deel, en niet op de niet-bij-verdrag-vrijgestelde buitenlandse winst. Voor multinationale activiteit: aftrek beperkt tot Belgische component.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [{"type": "aangifte", "naam": "aangifte-VenB-2025-uiteenzetting-winst", "ref": "code 1437 — kolom Belgisch resterend resultaat"}]
+        }
+      }
+    ]
+  },
+  "accountant_perspectieven": [
+    {
+      "id": "kmo-investeerder",
+      "naam": {"primair": "KMO-vennootschap die investeert"},
+      "intro": "Accountant van een KMO die jaarlijks investeringen plant en de fiscale impact wenst te optimaliseren.",
+      "rollen": [
+        {
+          "rol": "fiscaal",
+          "elementen": [
             {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
+              "id": "categorie-mapping",
+              "naam": {"primair": "Investerings-categorisatie + percentage"},
+              "bouwsteen_type": "stap",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor elke nieuwe investering in het boekjaar: (1) check nieuwheid (factuur, leverancier-attest); (2) bepaal categorie: basis (8 %) of verhoogd (energie 13,5 %, R&D 13,5 %/20,5 %, digitaal 13,5 % KMO, beveiliging 20,5 % KMO, ...); (3) indien verhoogd: attest aanvragen binnen termijn (typisch 3 maanden na sluiting boekjaar); (4) opgave 276U bij aangifte. Cijferzakboekje raadplegen voor actueel percentage per AJ.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 69-77"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardpraktijk investeringsaftrek"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "keuze-eenmalig-gespreid",
+              "naam": {"primair": "Keuze eenmalig vs gespreid"},
+              "bouwsteen_type": "regel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor R&D-investeringen en octrooien is keuze mogelijk: eenmalig 13,5 % nu of gespreid 20,5 % over afschrijvingsperiode. Vuistregel: bij voldoende huidige winst en geen verwachte sterke groei → eenmalig (sneller voordeel). Bij verwachte winstgroei en zekerheid over voortbestaan → gespreid (hoger totaal-percentage). Combineer met meerjaren-fiscale-planning.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "wettekst", "naam": "WIB92", "ref": "art. 70"},
+                      {"type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28"}
+                    ]
+                  }
+                }
+              }
             }
           ]
         }
-      }
+      ]
     }
-  },
+  ],
   "relaties": [
-    {
-      "type": "valt_onder",
-      "target": "fiscale-voordelen-vennootschap"
-    }
+    {"type": "valt_onder", "target": "fiscale-voordelen-vennootschap"},
+    {"type": "triggert", "target": "aangifte-vennootschapsbelasting", "toelichting": "Aftrek via code 1437 + opgave 276U."},
+    {"type": "vereist", "target": "afschrijvingen", "toelichting": "Veronderstelt afschrijfbaar activum."}
   ]
 }

@@ -2,33 +2,31 @@
   "id": "douanewaarde",
   "naam": {
     "primair": "Douanewaarde",
-    "synoniemen": [
-      "customs value"
-    ]
+    "synoniemen": ["customs value", "transactiewaarde"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "regeling"
-    ],
-    "ankers": [
-      "2.4.IX"
-    ],
+    "status": "concept",
+    "categorieen": ["regeling"],
+    "ankers": ["2.4.IX"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (claude-sonnet-4-5)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/douanewaarde.json",
+      "primary_bronnen": [
+        "UCC (Verordening (EU) 952/2013) art. 69-76",
+        "WBTW art. 34",
+        "Verordening (EU) 2015/2447 — Uitvoeringsverordening UCC"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
-      {
-        "operatie": "skeleton",
-        "timestamp": "2026-05-28T10:00:00Z",
-        "model": "cluster-skeleton-agent",
-        "wave_id": "skeleton-btw-internationaal-2026-05-28",
-        "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
-      }
+      {"operatie": "skeleton", "timestamp": "2026-05-28T10:00:00Z", "model": "cluster-skeleton-agent", "wave_id": "skeleton-btw-internationaal-2026-05-28", "wijziging": "Skeleton-record aangemaakt"},
+      {"operatie": "cluster-extract", "timestamp": "2026-05-28T16:45:00Z", "model": "claude-sonnet-4-5", "wijziging": "Pass 1 content — 6 hiërarchische methodes + aanpassingen + relatie tot invoer-BTW. Bundle-chunks waren tangentieel (veel transfer-pricing-vergelijkbaarheid uit IFRS); inhoud gestoeld op UCC art. 69-76 standaardleer."}
     ],
     "scope": {
       "in": [
@@ -39,31 +37,38 @@
         "Maatstaf voor invoerrechten + invoer-BTW"
       ],
       "out": [
-        {
-          "topic": "Douaneprocedures BTW-invoer",
-          "richting": "moet-verwijzen",
-          "ref": "douaneprocedures-btw-invoer"
-        },
-        {
-          "topic": "Maatstaf van heffing BTW",
-          "richting": "mag-verwijzen",
-          "ref": "maatstaf-van-heffing-btw"
-        }
+        {"topic": "Douaneprocedures bij invoer (DAU + ET 14.000)", "richting": "moet-verwijzen", "ref": "douaneprocedures-btw-invoer"}
       ]
     }
   },
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (douanewaarde).",
+        "tekst": "De douanewaarde is de wettelijk vastgestelde waarde van goederen bij invoer in de EU, die als grondslag dient voor de berekening van invoerrechten en — verhoogd met die rechten en bijkomende kosten — voor de invoer-BTW. Het Unierechtelijke kader is het Douanewetboek van de Unie (UCC — Verordening (EU) 952/2013, art. 69-76) met uitvoeringsregels in Verordening (EU) 2015/2447. Hoofdmethode: transactiewaarde = de werkelijk betaalde of te betalen prijs voor de goederen bij verkoop naar de EU.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 69-70"},
+            {"type": "wettekst", "naam": "WBTW", "ref": "art. 34"}
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De douanewaarde bepaalt rechtstreeks twee belastingsommen: (1) invoerrecht = douanewaarde × tariefpercentage (HS-code-specifiek); (2) invoer-BTW = (douanewaarde + invoerrecht + bijkomende kosten) × BTW-tarief. Een verkeerd te lage douanewaarde = onderbetaling rechten + BTW → boete + nabetaling met interest. Een verkeerd te hoge waarde = cashflow-verlies. Daarom is correcte waardebepaling essentieel — vooral bij verbonden partijen (cross-border-transfer-pricing-discussies).",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 70 + art. 71"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijksamenvatting fiscale gevolgen verkeerde waardebepaling"}
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De EU-douanewaarde stoelt op WTO-overeenkomst inzake artikel VII GATT (1994) — een wereldwijde standaard die manipulatie van invoerwaarden om rechten te ontwijken voorkomt. De hiërarchie van 6 methodes (transactiewaarde → 5 subsidiaire methodes in vaste volgorde) zorgt voor objectiviteit en voorspelbaarheid. Er is geen vrije keuze tussen methodes — pas een subsidiaire methode toe als de hogere objectief niet kan.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 74 (hiërarchie methodes)"}
           ]
         }
       }
@@ -72,14 +77,234 @@
       "geldigheid": {
         "status": "in-voege",
         "sinds": "2016-05-01",
-        "wettelijke_basis": "Verordening (EU) 952/2013 (UCC)"
+        "wettelijke_basis": "UCC (Verordening (EU) 952/2013) + Uitvoeringsverordening (EU) 2015/2447",
+        "toelichting": "UCC vervangt de oude communautair douanewetboek (Vo. 2913/92) sinds 1 mei 2016. Stabiel sindsdien."
       }
-    }
+    },
+    "subconcepten": [
+      {
+        "id": "hierarchie-methodes",
+        "naam": {"primair": "Hiërarchie 6 waarderingsmethodes"},
+        "concept_type": "procedure",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "UCC art. 74 schrijft een strikte volgorde voor: (1) transactiewaarde van de ingevoerde goederen (art. 70); (2) transactiewaarde van identieke goederen; (3) transactiewaarde van soortgelijke goederen; (4) deductieve waarde (verkoopprijs van identieke/soortgelijke goederen in EU, minus aftrekken); (5) computed value / berekende waarde (productiekost + winstmarge); (6) fall-back-methode (redelijke schatting consistent met WTO-principes). Methode (4) en (5) zijn verwisselbaar op verzoek van de aangever. Een lagere methode mag alleen worden gebruikt als de hogere niet toepasbaar is.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 70-74"}
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "transactiewaarde",
+              "naam": {"primair": "Transactiewaarde (hoofdmethode)"},
+              "bouwsteen_type": "begrip",
+              "kern": {
+                "definitie": {
+                  "tekst": "De transactiewaarde is de werkelijk betaalde of te betalen prijs voor de goederen bij verkoop naar het douanegebied van de Unie, mits gecorrigeerd voor art. 71 (toe te voegen elementen) en art. 72 (uit te sluiten elementen). Voorwaarden: er is een verkoop voor uitvoer naar de EU; geen beperkingen op het gebruik van de goederen door koper; de verkoopprijs is niet afhankelijk van voorwaarde of tegenprestatie zonder bepaalbare waarde; geen niet-aangepaste relatie tussen koper en verkoper. Bij niet-vervulling: doorgaan naar volgende methode.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 70"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ],
+    "bouwstenen": [
+      {
+        "id": "art-71-toevoegingen",
+        "naam": {"primair": "Aanpassingen — toe te voegen elementen (art. 71 UCC)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "Bij de transactiewaarde MOETEN worden toegevoegd, voor zover niet al inbegrepen: (a) commissies en courtage (behalve aankoopcommissie); (b) kosten van verpakking en verpakkingsmateriaal; (c) waarde van 'assists' = materialen, gereedschap, ontwerpen die door koper gratis of tegen verminderde prijs aan verkoper geleverd zijn voor gebruik in productie; (d) royalty's en licentievergoedingen i.v.m. de goederen die de koper moet betalen als voorwaarde voor de verkoop; (e) deel van opbrengst van wederverkoop dat aan verkoper toekomt; (f) kosten van vervoer + verzekering tot de plaats van binnenkomst in EU.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 71"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "art-72-uitsluitingen",
+        "naam": {"primair": "Uit te sluiten elementen (art. 72 UCC)"},
+        "bouwsteen_type": "regel",
+        "kern": {
+          "definitie": {
+            "tekst": "NIET in de douanewaarde mogen worden opgenomen, mits afzonderlijk aantoonbaar: (a) kosten van vervoer NA invoer in de EU (= post-import-vervoer); (b) kosten van bouw, montage of onderhoud na invoer; (c) interesten op uitgestelde betalingen; (d) rechten voor reproductie van de ingevoerde goederen in de EU; (e) aankoopcommissies; (f) invoerrechten zelf en andere binnen-EU-belastingen verschuldigd bij invoer. Onderscheid 'voor' vs 'na' invoer is essentieel — een transparante factuurspecificatie helpt.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 72"}
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "verbonden-partijen",
+        "naam": {"primair": "Verbonden partijen — bijzondere aandacht"},
+        "bouwsteen_type": "risico",
+        "kern": {
+          "definitie": {
+            "tekst": "Wanneer koper en verkoper VERBONDEN zijn (intra-groep-handel — bv. moeder-dochter), kan de transactiewaarde slechts behouden blijven als de relatie de prijs niet heeft beïnvloed. Bewijslast: de aangever moet aantonen dat de prijs vergelijkbaar is met arms-length-transactiewaarde (intercompany-verkoop tussen onafhankelijken; vergelijking met douanewaarde van identieke/soortgelijke goederen uitgevoerd door derde partijen). Bij twijfel: de douane kan overstappen naar subsidiaire methodes. Strong overlap met transfer-pricing-documentatie.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 70 lid 3-4"}
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "id": "voorbeeld-transactiewaarde-eenvoudig",
+        "titel": "Eenvoudige import — transactiewaarde",
+        "context": "Aurelia Holding importeert machines uit Japan. Factuurprijs FOB Yokohama: 100.000 USD ≈ 92.000 EUR. Vervoer per schip Yokohama → Antwerpen: 5.000 EUR. Verzekering: 800 EUR. Commissie aan inkoop-agent in Japan: 2.000 EUR.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Toets transactiewaarde toepasselijk: verkoop voor uitvoer naar EU ✓, geen gebruikbeperking ✓, geen verbonden partijen ✓ → methode 1",
+              "Stap 2 — Vertrek: factuurprijs = 92.000 EUR (FOB-prijs)",
+              "Stap 3 — Art. 71 toevoegen: vervoer tot binnenkomstplaats EU (5.000) + verzekering (800) = 5.800 EUR. Commissie aan inkoop-agent NIET toevoegen (= aankoopcommissie, art. 71 uitzondering)",
+              "Stap 4 — Art. 72 uitsluiten: niet van toepassing hier (alle aangevoerde kosten zijn vóór invoer)",
+              "Stap 5 — Douanewaarde = 92.000 + 5.800 = 97.800 EUR"
+            ],
+            "resultaat": "Douanewaarde 97.800 EUR — basis voor invoerrecht (bv. 4 % machines = 3.912 EUR) en invoer-BTW maatstaf (97.800 + 3.912 + eventueel vervoer-binnen-EU = ca. 102.000 × 21 % = 21.420 EUR BTW)."
+          }
+        ],
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 70 + art. 71"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28"}
+          ]
+        }
+      },
+      {
+        "id": "voorbeeld-royalty",
+        "titel": "Import met royalty — toevoeging",
+        "context": "Aurelia importeert luxe handtassen uit Italië die ze in België verkoopt onder een merk. Aurelia betaalt jaarlijks 8 % royalty aan de merk-houder (Italiaans hoofdkwartier) op basis van haar EU-omzet. Factuurprijs handtassen 50.000 EUR.",
+        "weergaven": [
+          {
+            "type": "berekening",
+            "stappen": [
+              "Stap 1 — Royalty-toets: betaling i.v.m. de goederen (handtassen) ✓; voorwaarde voor verkoop (Aurelia mag merk alleen voeren mits royalty-betaling) ✓ → toevoeging vereist art. 71, d)",
+              "Stap 2 — Royalty te alloceren op deze zending: 8 % × 50.000 = 4.000 EUR",
+              "Stap 3 — Douanewaarde = 50.000 + 4.000 + vervoer/verzekering tot EU = 54.000+",
+              "Resultaat — Hogere douanewaarde → hogere invoerrechten + hogere BTW-maatstaf"
+            ]
+          }
+        ],
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 71 d)"}
+          ]
+        }
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vervoer-na-invoer mee in douanewaarde rekenen",
+        "verkeerde_assumptie": "Alle vervoerkosten op de leveringsfactuur tellen in de douanewaarde.",
+        "kernpunt": "Enkel vervoerkosten TOT de plaats van binnenkomst in de EU (typisch: havendrempel Antwerpen, luchthaven Brussel) horen erin. Het vervoer van Antwerpen → magazijn-eindgebruiker is post-import (art. 72 a) — uit te sluiten mits afzonderlijk gefactureerd. Belang van een transparante vervoer-specificatie op de factuur.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 71 + art. 72"}
+          ]
+        }
+      },
+      {
+        "titel": "Aankoopcommissie meetellen",
+        "verkeerde_assumptie": "Commissies aan tussenpartijen tellen altijd in de douanewaarde.",
+        "kernpunt": "Onderscheid: VERKOOPcommissie (toegevoegd, art. 71 a) — commissie aan tussenpartij die voor de verkoper handelt; AANKOOPcommissie (NIET toegevoegd) — commissie aan tussenpartij die voor de KOPER handelt (bv. een inkoop-bureau in China). Bewijslast: koper-importeur moet aantonen dat tussenpartij zijn agent was, niet die van verkoper.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 71 a + art. 72 e"}
+          ]
+        }
+      },
+      {
+        "titel": "Verbonden-partijen-prijs onverbiddelijk aanvaarden",
+        "verkeerde_assumptie": "Intra-groep-prijs is de transactiewaarde, klaar.",
+        "kernpunt": "Bij verbonden partijen kan de douane de transactiewaarde betwisten als ze niet-marktconform lijkt. Aangever moet bewijzen: prijs is vergelijkbaar met arms-length-transactie, of valt binnen aanvaardbare marges. Transfer-pricing-documentatie volgens OESO-richtlijnen is sterke bouwsteen voor douanewaarde-verdediging. Inconsistenties tussen transfer-pricing-aangifte en douanewaarde zijn risicozone.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 70 lid 3-4"},
+            {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Praktijkadvies douane-/transfer-pricing-alignering"}
+          ]
+        }
+      }
+    ]
   },
-  "relaties": [
+  "accountant_perspectieven": [
     {
-      "type": "valt_onder",
-      "target": "fiscaal-recht"
+      "id": "kantoor-import-douanewaarde",
+      "naam": {"primair": "Kantoor adviseert importeur over douanewaarde"},
+      "intro": "De accountant of douane-adviseur bij waardebepaling van invoer.",
+      "rollen": [
+        {
+          "rol": "adviseur",
+          "elementen": [
+            {
+              "id": "factuur-structurering",
+              "naam": {"primair": "Factuur structureren voor optimale douanewaarde"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Vraag bij de buitenlandse leverancier facturen die DUIDELIJK splitsen: (1) FOB-prijs of EXW-prijs; (2) vervoer tot binnenkomst EU; (3) vervoer NA binnenkomst EU (afzonderlijk); (4) verzekering pre/post; (5) bijkomende diensten (montage, onderhoud na invoer — uitsluiten). Een goed gestructureerde factuur kan honderden tot duizenden EUR aan invoerrechten + BTW besparen — vooral op grote zendingen.",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 71 + art. 72"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Adviespraktijk factuur-structurering"}
+                    ]
+                  }
+                }
+              }
+            },
+            {
+              "id": "transfer-pricing-alignering",
+              "naam": {"primair": "Alignering douanewaarde ↔ transfer-pricing"},
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "definitie": {
+                  "tekst": "Voor multinationals met intra-groep-invoer: zorg dat transfer-pricing-documentatie (OESO-CbCR + lokale TP-file) consistent is met de douanewaarde aangegeven op DAU's. Inconsistente waardes = audit-risico bij zowel fiscus (transfer-pricing) als douane. Bij wijziging van transfer-pricing-methodologie: ook douanewaardes herzien via Advance Customs Valuation Ruling (ACV-ruling).",
+                  "grondslag": {
+                    "confidence": "afgeleid",
+                    "bronnen": [
+                      {"type": "richtlijn", "naam": "UCC — Verordening (EU) 952/2013", "ref": "art. 70 lid 3-4"},
+                      {"type": "ai_model", "naam": "claude-sonnet-4-5", "datum": "2026-05-28", "context": "Multinational compliance-praktijk"}
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
     }
+  ],
+  "relaties": [
+    {"type": "valt_onder", "target": "fiscaal-recht"},
+    {"type": "vereist", "target": "douaneprocedures-btw-invoer", "toelichting": "Douanewaarde is de maatstaf-basis bij invoer (rechten + BTW)."}
   ]
 }
