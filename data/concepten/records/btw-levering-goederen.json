@@ -3,14 +3,18 @@
   "naam": {
     "primair": "BTW — Levering van goederen",
     "synoniemen": [
-      "levering van goederen",
-      "supply of goods"
-    ]
+      "btw-levering",
+      "levering van een goed",
+      "livraison de biens"
+    ],
+    "vertaling": {
+      "fr": "livraison de biens"
+    }
   },
-  "concept_type": "kader",
+  "concept_type": "verrichting",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
+    "status": "concept",
     "categorieen": [
       "gebeurtenis",
       "regeling"
@@ -19,9 +23,19 @@
       "2.4.I"
     ],
     "provenance": {
-      "model": "cluster-skeleton-agent",
+      "model": "cluster-extract-agent (opus-4.7-1M)",
       "wave_id": "skeleton-btw-internationaal-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/btw-levering-goederen.json",
+      "primary_bronnen": [
+        "W.BTW art. 10",
+        "W.BTW art. 12 (gelijkstellingen)",
+        "W.BTW art. 16 (tijdstip)",
+        "Richtlijn 2006/112/EG art. 14-19"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -30,6 +44,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-btw-internationaal-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "skeleton-btw-internationaal-2026-05-28",
+        "wijziging": "BTW-levering goederen gevuld vanuit W.BTW art. 10-12-16. Bundle-flow extract."
       }
     ],
     "scope": {
@@ -66,19 +87,413 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie (btw-levering-goederen).",
+        "tekst": "Een levering van een goed in de zin van het W.BTW is de overdracht of overgang van de macht om als een eigenaar over een lichamelijk goed te beschikken (art. 10, §1 W.BTW). Het materiële begrip 'overdracht van de beschikkingsmacht' is ruimer dan de civielrechtelijke eigendomsoverdracht: het volstaat dat de afnemer feitelijk kan beslissen over het goed als ware hij eigenaar — ook als de juridische eigendom nog niet is overgegaan (bv. eigendomsvoorbehoud, financiële lease met aankoopoptie).",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
             {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 10, §1"
+            },
+            {
+              "type": "richtlijn",
+              "naam": "Richtlijn 2006/112/EG",
+              "ref": "art. 14"
+            }
+          ]
+        }
+      },
+      "substantie": {
+        "tekst": "De kwalificatie 'levering van goederen' (vs dienstverrichting) is cruciaal omdat ze de plaats-van-handeling-regels bepaalt (art. 14-15 vs art. 21), de opeisbaarheid (art. 16 vs art. 22) en bij internationale handel de scheidingslijn tussen intracommunautaire levering (art. 39bis), uitvoer (art. 39) en gewone binnenlandse levering. Het W.BTW gebruikt het feitelijke beschikkingscriterium om misbruik via splitsing of via afwijkende juridische structuren te neutraliseren: wie de feitelijke macht over het goed verkrijgt, wordt geacht het ontvangen te hebben, ongeacht de civiele kwalificatie van de overeenkomst.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 10 + art. 14-16"
+            },
+            {
               "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28",
+              "context": "Synthese cross-veld impact kwalificatie"
+            }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "Ratio: het W.BTW kiest voor een economisch-functioneel begrip levering — niet voor een formele civielrechtelijke definitie — om twee redenen: (1) harmonisatie met het EU-recht (HvJ-EU Safe Rekencentrum, C-320/88: overdracht van de macht 'as if owner'); (2) anti-misbruik — partijen mogen door de keuze van contractvorm (huurkoop, lease met aankoopoptie, eigendomsvoorbehoud) het btw-tijdstip niet wegschuiven. De gelijkstellingen in art. 12 zorgen voor neutraliteit bij eigen verbruik, onttrekkingen en gratis afgiften — anders zou wie zijn eigen voorraad gebruikt of weggeeft, btw-vrij ontsnappen aan het stelsel.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "rechtspraak",
+              "naam": "HvJ-EU Safe Rekencentrum (C-320/88)",
+              "ref": "08-02-1990"
+            },
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 12"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
               "datum": "2026-05-28"
             }
           ]
         }
       }
-    }
+    },
+    "voorkennis_leespad": {
+      "voorvereisten": [
+        "btw",
+        "btw-belastingplichtige"
+      ],
+      "kader": "btw",
+      "naast_relevant": [
+        "btw-dienstverlening"
+      ],
+      "volgkennis": [
+        "plaats-van-handeling-btw",
+        "opeisbaarheid-btw",
+        "maatstaf-van-heffing-btw"
+      ]
+    },
+    "gebruikscontext": {
+      "voor": [
+        {
+          "tekst": "Alle situaties waarin een belastingplichtige onder bezwarende titel een lichamelijk goed overdraagt aan een afnemer: verkoop (cash of op rekening), ruil, levering tegen vergoeding in natura, koop-en-verkoop in commissie, huurkoop, financiële lease met aankoopoptie (art. 10, §2, b), levering door of namens overheid op grond van wet of besluit (art. 10, §2, a).",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 10, §1 + §2 + §3"
+              }
+            ]
+          }
+        }
+      ],
+      "uitsluitingen": [
+        {
+          "tekst": "Niet-lichamelijke goederen (vorderingen, rechten, software-licenties, elektriciteit-overdracht zonder vervoer) — kwalificeren als dienstverlening (art. 18) tenzij specifiek anders bepaald (elektriciteit, gas, warmte, koeling worden door art. 9 als 'lichamelijk goed' beschouwd voor btw-doeleinden). Operationele leasing zonder aankoopoptie blijft dienstverlening.",
+          "grondslag": {
+            "confidence": "geciteerd",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 9 + art. 18"
+              }
+            ]
+          }
+        }
+      ],
+      "indicaties": [
+        {
+          "tekst": "Signalen die op levering wijzen: fysieke overdracht van het goed, factuur met productcode + aantal, transportdocument, eigendomsoverdracht volgens INCOTERMS, overhandiging sleutels (bij voertuig/gebouw).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ],
+      "contra_indicaties": [
+        {
+          "tekst": "Signalen die op dienst wijzen: factuur per uur, periodieke abonnementsbetaling, opdracht 'tot doen' eerder dan 'tot geven', focus op resultaat-arbeid (advies, ontwerp, bewaring, vervoer). Bij combinatie (gemengde prestatie): bekijk de hoofdprestatie (HvJ-EU CPP, Levob).",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "rechtspraak",
+                "naam": "HvJ-EU Levob (C-41/04)",
+                "ref": "27-10-2005"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ],
+      "risico": [
+        {
+          "tekst": "Foutieve kwalificatie als dienstverlening waar het in wezen een levering betreft (of omgekeerd) leidt tot foute plaats-van-handeling-toepassing (intracommunautaire vs binnenlandse btw), fout opeisbaarheidstijdstip en mogelijk tot dubbele heffing of niet-heffing. Bij verleggingsregeling (medecontractant betaalt btw): foute kwalificatie maakt verlegging onterecht — afnemer moet alsnog gewone btw betalen + boete + interesten.",
+          "grondslag": {
+            "confidence": "afgeleid",
+            "bronnen": [
+              {
+                "type": "wettekst",
+                "naam": "W.BTW",
+                "ref": "art. 51 + art. 70"
+              },
+              {
+                "type": "ai_model",
+                "naam": "cluster-extract-agent (opus-4.7-1M)",
+                "datum": "2026-05-28"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "subconcepten": [
+      {
+        "id": "gewone-levering",
+        "naam": {
+          "primair": "Gewone levering — art. 10 W.BTW"
+        },
+        "concept_type": "verrichting",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Art. 10, §1 W.BTW: de overdracht of overgang van de macht om als eigenaar over een lichamelijk goed te beschikken. Art. 10, §2 stelt drie bijzondere situaties uitdrukkelijk gelijk: (a) overdracht ingevolge vordering van of namens de overheid (onteigening tegen vergoeding); (b) huur met automatische eigendomsovergang of koop-op-afbetaling (financiële lease); (c) overdracht ingevolge koop of verkoop in commissie. Art. 10, §3: ook verbruiklening (afgifte + teruggaaf) wordt als levering aangemerkt.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 10"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "id": "gelijkstellingen-art-12",
+        "naam": {
+          "primair": "Gelijkstellingen met levering — art. 12 W.BTW"
+        },
+        "concept_type": "regime",
+        "inhoud": {
+          "kern": {
+            "substantie": {
+              "tekst": "Art. 12 W.BTW stelt vier situaties met een levering onder bezwarende titel gelijk om btw-neutraliteit te verzekeren bij eigen verbruik, onttrekkingen of gratis afgiften. Bij elk van deze 'fictieve leveringen' is de belastingplichtige zelf zowel leverancier als afnemer, of geeft hij iets weg waarvoor hij de input-btw al had afgetrokken. Zonder gelijkstelling zou hij btw-vrij ontsnappen.",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 12"
+                  }
+                ]
+              }
+            }
+          },
+          "bouwstenen": [
+            {
+              "id": "art-12-tabel",
+              "naam": {
+                "primair": "Vier gelijkstellingen art. 12 W.BTW"
+              },
+              "bouwsteen_type": "vuistregel",
+              "kern": {
+                "substantie": {
+                  "tekst": "Vier scenario's waarin geen civiele overdracht plaatsvindt maar btw toch verschuldigd is.",
+                  "grondslag": {
+                    "confidence": "geciteerd",
+                    "bronnen": [
+                      {
+                        "type": "wettekst",
+                        "naam": "W.BTW",
+                        "ref": "art. 12"
+                      }
+                    ]
+                  }
+                }
+              },
+              "weergaven": [
+                {
+                  "type": "tabel",
+                  "kolommen": [
+                    "Gelijkstelling",
+                    "Voorbeeld",
+                    "Reden"
+                  ],
+                  "rijen": [
+                    [
+                      "1° Eigen gebruik (art. 12, §1, 1°)",
+                      "Bakker neemt brood mee naar huis voor gezinsverbruik",
+                      "Voorkomt aftrek-misbruik: aankoop-btw werd recupereerd"
+                    ],
+                    [
+                      "2° Onttrekking voor andere doeleinden (art. 12, §1, 2°)",
+                      "Vennootschap geeft computer aan zaakvoerder voor privé-gebruik",
+                      "Privé-doeleinden vallen buiten economische activiteit"
+                    ],
+                    [
+                      "3° Gratis afgifte (art. 12, §1, 3°)",
+                      "Onderneming schenkt voorraad aan goed doel (boven 50 EUR/stuk)",
+                      "Geen verkoop = geen output-btw zonder gelijkstelling; uitzondering voor monsters + reclamegeschenken ≤ 50 EUR"
+                    ],
+                    [
+                      "4° Bestemmingsverandering (art. 12, §1, 4°)",
+                      "Aannemer bouwt gebouw voor eigen gebruik in plaats van voor verkoop",
+                      "Belast eigen werkzaamheid die anders ontsnapt aan btw"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "tijdstip-levering",
+        "naam": {
+          "primair": "Tijdstip van de levering — art. 16 W.BTW"
+        },
+        "concept_type": "principe",
+        "inhoud": {
+          "kern": {
+            "definitie": {
+              "tekst": "Het tijdstip van de levering is in beginsel het moment waarop het goed ter beschikking van de afnemer wordt gesteld (art. 16, §1 W.BTW). Bijzondere regels: bij verzending of vervoer = vertrek van de verzending; bij installatie of montage = na afronding; bij goederen met aankoopoptie = afgifte; bij koop-op-afbetaling = afgifte; bij doorlopende leveringen (water, gas, elektriciteit) = einde van de afrekenperiode (max 1 jaar).",
+              "grondslag": {
+                "confidence": "geciteerd",
+                "bronnen": [
+                  {
+                    "type": "wettekst",
+                    "naam": "W.BTW",
+                    "ref": "art. 16"
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "voorbeelden": [
+      {
+        "titel": "Levering versus dienst — vijf concrete casussen",
+        "context": "Toets telkens: is er overdracht van de macht 'als eigenaar' over een lichamelijk goed?",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 10 + art. 18"
+            },
+            {
+              "type": "ai_model",
+              "naam": "cluster-extract-agent (opus-4.7-1M)",
+              "datum": "2026-05-28"
+            }
+          ]
+        },
+        "weergaven": [
+          {
+            "type": "tabel",
+            "kolommen": [
+              "Casus",
+              "Kwalificatie",
+              "Reden"
+            ],
+            "rijen": [
+              [
+                "Aankoop laptop bij Coolblue voor 1 000 EUR",
+                "Levering",
+                "Lichamelijk goed + macht 'als eigenaar' overgaat bij afgifte"
+              ],
+              [
+                "Maandelijkse SaaS-licentie cloudboekhoudpakket",
+                "Dienst",
+                "Geen lichamelijk goed — gebruiksrecht op software"
+              ],
+              [
+                "Operationele lease auto 5 jaar zonder aankoopoptie",
+                "Dienst",
+                "Geen automatische eigendomsovergang — gebruiksrecht"
+              ],
+              [
+                "Financiële lease laptop met aankoopoptie 1 EUR aan einde",
+                "Levering (vanaf afgifte)",
+                "Art. 10, §2, b — bedingt dat eigendom uiterlijk bij laatste termijn overgaat"
+              ],
+              [
+                "Aannemer levert en plaatst keuken in nieuwbouw",
+                "Werk in onroerende staat (= dienst, art. 18, §1, 1°)",
+                "Inkluderende werken op onroerend goed zijn dienst, niet levering"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Civiele eigendom ≠ btw-levering",
+        "verkeerde_assumptie": "Btw is verschuldigd pas wanneer de civiele eigendom overgaat (na betaling laatste termijn).",
+        "kernpunt": "Btw kijkt naar de feitelijke beschikkingsmacht 'als eigenaar', niet naar de civiele eigendom. Bij eigendomsvoorbehoud of financiële lease met aankoopoptie is de levering — en dus de btw — verschuldigd bij de afgifte van het goed, niet bij de eigendomsovergang. Anders kunnen partijen via contractuele truc de btw uitstellen.",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 10, §2, b + art. 16"
+            },
+            {
+              "type": "rechtspraak",
+              "naam": "HvJ-EU Safe Rekencentrum (C-320/88)",
+              "ref": "08-02-1990"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Levering + dienst in één factuur",
+        "verkeerde_assumptie": "Bij een gemengde prestatie (bv. levering keuken + plaatsing) splits je de factuur in twee btw-regimes.",
+        "kernpunt": "Bij gemengde prestaties bekijk je de hoofdprestatie (HvJ-EU Levob, Card Protection Plan). Als de plaatsing van een keuken het hoofdvoorwerp is en de levering van materialen accessoir, kwalificeert het geheel als werk in onroerende staat (dienst, art. 18 — relevant voor verleggingsregeling onroerende werken). Als de levering hoofdvoorwerp is en de plaatsing slechts klein hulpwerk, geldt het regime levering. Splitsen wordt enkel toegestaan als de prestaties objectief deelbaar én onafhankelijk zijn.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            {
+              "type": "rechtspraak",
+              "naam": "HvJ-EU Levob (C-41/04)",
+              "ref": "27-10-2005"
+            },
+            {
+              "type": "rechtspraak",
+              "naam": "HvJ-EU CPP (C-349/96)",
+              "ref": "25-02-1999"
+            }
+          ]
+        }
+      },
+      {
+        "titel": "Gratis afgifte = levering",
+        "verkeerde_assumptie": "Wat je gratis weggeeft, is geen 'levering onder bezwarende titel' — dus geen btw verschuldigd.",
+        "kernpunt": "Art. 12, §1, 3° W.BTW stelt gratis afgifte gelijk met een levering onder bezwarende titel — voor zover op de aankoop btw werd afgetrokken. Uitzondering: monsters en reclamegeschenken van maximum 50 EUR per stuk per begunstigde per jaar. Een schenk van voorraad aan een goed doel boven die drempel is dus btw-belast (maatstaf = aankoopprijs of kostprijs).",
+        "grondslag": {
+          "confidence": "geciteerd",
+          "bronnen": [
+            {
+              "type": "wettekst",
+              "naam": "W.BTW",
+              "ref": "art. 12, §1, 3°"
+            }
+          ]
+        }
+      }
+    ]
   },
   "relaties": [
     {
@@ -87,7 +502,21 @@
     },
     {
       "type": "vergelijkbaar_met",
-      "target": "btw-dienstverlening"
+      "target": "btw-dienstverlening",
+      "toelichting": "Levering (art. 10) en dienstverrichting (art. 18) zijn de twee fundamentele soorten belastbare handelingen onder het W.BTW. De afbakening bepaalt plaats-van-handeling, opeisbaarheidstijdstip en bij grensoverschrijdende handel de regime-keuze.",
+      "gelijkenissen": [
+        "Beide vereisen een belastingplichtige als uitvoerder",
+        "Beide moeten onder bezwarende titel gebeuren (behoudens gelijkstellingen)",
+        "Beide vallen onder de algemene btw-tarieven (0/6/12/21 %)"
+      ],
+      "verschillen": [
+        "Levering = overdracht macht op lichamelijk goed; dienst = elke andere handeling",
+        "Plaats van levering = vertrek goed (art. 14-15); plaats van dienst = afnemer-B2B of dienstverrichter-B2C (art. 21)",
+        "Tijdstip levering = ter beschikkingstelling; tijdstip dienst = voltooiing prestatie (art. 22)",
+        "Intracommunautair: levering = 0 % bij ICL (art. 39bis); dienst B2B = verlegging naar afnemer"
+      ],
+      "verwarring_risico": "Bij gemengde prestaties (levering + plaatsing) is de afbakening het meest betwist — hoofdprestatie-regel (HvJ-EU Levob/CPP) is leidend.",
+      "render_hint": "als_keuze"
     }
   ]
 }
