@@ -2,24 +2,26 @@
   "id": "beginselen-behoorlijk-bestuur",
   "naam": {
     "primair": "Beginselen van behoorlijk bestuur",
-    "synoniemen": [
-      "beginselen-behoorlijk-bestuur-fiscaal"
-    ]
+    "synoniemen": ["algemene beginselen van behoorlijk bestuur", "behoorlijk bestuur"]
   },
   "concept_type": "kader",
   "metadata": {
     "schema_version": "2.2",
-    "status": "skeleton",
-    "categorieen": [
-      "kader"
-    ],
-    "ankers": [
-      "2.5.III"
-    ],
+    "status": "concept",
+    "categorieen": ["kader"],
+    "ankers": ["2.5.III"],
     "provenance": {
-      "model": "cluster-skeleton-agent",
-      "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
-      "iteratie": "skeleton-v1"
+      "model": "cluster-extract-agent (opus-4.7-1M)",
+      "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+      "iteratie": "extract-v2-bundle",
+      "extract_prompt": "prompts/cluster-extract.md",
+      "bundle_used": "data/extractie/bundles/beginselen-behoorlijk-bestuur.json",
+      "primary_bronnen": [
+        "Wet 29 juli 1991 betreffende de uitdrukkelijke motivering van bestuurshandelingen",
+        "Wet 11 april 1994 betreffende de openbaarheid van bestuur"
+      ],
+      "mcp_calls": 0,
+      "rerank_calls": 0
     },
     "changelog": [
       {
@@ -28,6 +30,13 @@
         "model": "cluster-skeleton-agent",
         "wave_id": "skeleton-fiscaliteit-klein-2026-05-28",
         "wijziging": "Skeleton-record aangemaakt uit cluster-spec"
+      },
+      {
+        "operatie": "cluster-extract",
+        "timestamp": "2026-05-28T14:00:00Z",
+        "model": "cluster-extract-agent (opus-4.7-1M)",
+        "wave_id": "fase2-fiscale-beginselen-2026-05-28",
+        "wijziging": "Inhoud-velden gevuld: 5 beginselen (rechtszekerheid · zorgvuldigheid · redelijkheid · vertrouwen · motivering) + materiële motiveringsplicht."
       }
     ],
     "scope": {
@@ -35,8 +44,7 @@
         "Toepassing van bestuursrechtelijke beginselen op fiscale administratie",
         "5 kern-beginselen: rechtszekerheid · zorgvuldigheid · redelijkheid · vertrouwen · motivering",
         "Materiële motiveringsplicht (Wet 29-07-1991)",
-        "Praktische gevolgen: gemotiveerde beslissingen · hoorrecht · proportionaliteit van sancties",
-        "Rename uit: beginselen-behoorlijk-bestuur-fiscaal (PO 2.5)"
+        "Praktische gevolgen: gemotiveerde beslissingen · hoorrecht · proportionaliteit van sancties"
       ],
       "out": [
         {
@@ -55,37 +63,56 @@
   "inhoud": {
     "kern": {
       "definitie": {
-        "tekst": "⏳ Te beschrijven door agent in cluster-extractie van fiscale-procedure.",
+        "tekst": "De algemene beginselen van behoorlijk bestuur zijn ongeschreven rechtsregels (deels gecodificeerd in de Wet 29-07-1991 over motivering en de Wet 11-04-1994 over openbaarheid) die de fiscale administratie verplichten om haar bevoegdheid zorgvuldig, gemotiveerd en consistent uit te oefenen. Vijf beginselen worden klassiek onderscheiden: rechtszekerheid, zorgvuldigheid, redelijkheid (proportionaliteit), vertrouwen en motiveringsplicht. Ze zijn procedureel van aard — ze regelen 'hoe' de fiscus moet handelen, niet 'wat' ze mag belasten.",
         "grondslag": {
-          "confidence": "verondersteld",
+          "confidence": "geciteerd",
           "bronnen": [
-            {
-              "type": "ai_model",
-              "naam": "cluster-skeleton-agent",
-              "datum": "2026-05-28"
-            }
+            { "type": "wettekst", "naam": "Wet 29 juli 1991", "ref": "art. 2-3", "context": "Uitdrukkelijke motivering bestuurshandelingen" },
+            { "type": "wettekst", "naam": "Wet 11 april 1994", "ref": "openbaarheid van bestuur" }
           ]
         }
+      },
+      "substantie": {
+        "tekst": "Voor de stagiair: de beginselen van behoorlijk bestuur zijn een tweede pijler — naast de fiscale beginselen — om de fiscus te dwingen tot correct optreden. Concreet bruikbaar bij: een onvoldoende gemotiveerde aanslagwijziging (schending motiveringsplicht), een sanctie die niet in verhouding staat tot de overtreding (redelijkheid), een afwijkend standpunt van de fiscus na jarenlang aanvaard gedrag (vertrouwen). Bij bezwaar of beroep: deze beginselen aanvoeren naast de inhoudelijke argumenten.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkjurisprudentie fiscaal recht" }
+          ]
+        }
+      },
+      "rationale": {
+        "tekst": "De fiscale administratie is een bestuursorgaan dat eenzijdig handelt — zonder behoorlijk-bestuur-disciplinering zou ze onverkort haar bevoegdheid kunnen uitoefenen. De beginselen zijn de rechterlijke en wettelijke 'remmen' die rechtszekerheid en redelijkheid waarborgen in de relatie burger-overheid.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
+    },
+    "voorkennis_leespad": {
+      "kader": "fiscale-procedure",
+      "naast_relevant": ["fiscale-beginselen"]
+    },
+    "gebruikscontext": {
+      "geldigheid": {
+        "status": "in-voege",
+        "toelichting": "Ongeschreven rechtsbeginselen + gecodificeerde uitwerking (Wet 29-07-1991, Wet 11-04-1994). Stabiel."
       }
     },
     "bouwstenen": [
       {
         "id": "rechtszekerheid",
-        "naam": {
-          "primair": "Rechtszekerheid"
-        },
+        "naam": { "primair": "Rechtszekerheidsbeginsel" },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: voorzienbaarheid van rechtsregels",
+            "tekst": "De fiscus moet handelen op een wijze die rechtszekerheid biedt aan de belastingplichtige. Concreet: standpunten die jarenlang zijn aanvaard kunnen niet plots — zonder gemotiveerde reden — worden teruggetrokken; nieuwe interpretaties van een bepaling kunnen niet retroactief worden toegepast op afgesloten dossiers. Rechtszekerheid is verwant met het vertrouwensbeginsel maar focust meer op consistentie in de tijd en voorzienbaarheid van overheidsoptreden.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer behoorlijk bestuur — Cassatie- en RvS-jurisprudentie" }
               ]
             }
           }
@@ -93,21 +120,15 @@
       },
       {
         "id": "zorgvuldigheid",
-        "naam": {
-          "primair": "Zorgvuldigheid"
-        },
+        "naam": { "primair": "Zorgvuldigheidsbeginsel" },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: gedegen feitenonderzoek",
+            "tekst": "De fiscus moet zorgvuldig handelen: feiten correct vaststellen, relevante elementen onderzoeken, niet beslissen op basis van onvolledige of foutieve gegevens, de belastingplichtige horen vóór een nadelige beslissing wordt genomen. Zorgvuldigheid impliceert ook: vragen om inlichtingen voldoende precies formuleren, antwoorden van de belastingplichtige effectief lezen, niet 'plakken' aan een eerste hypothese.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Standaardleer behoorlijk bestuur" }
               ]
             }
           }
@@ -116,20 +137,17 @@
       {
         "id": "redelijkheid",
         "naam": {
-          "primair": "Redelijkheid"
+          "primair": "Redelijkheidsbeginsel",
+          "synoniemen": ["proportionaliteit", "evenredigheid"]
         },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: geen onevenredige beslissingen",
+            "tekst": "Het optreden van de fiscus moet in redelijke verhouding staan tot het nagestreefde doel. Een belastingverhoging van 50 % voor een eenmalige rekenfout van een nieuwe belastingplichtige zonder kwade trouw zou schending van het redelijkheidsbeginsel kunnen opleveren. Hetzelfde geldt voor een controle die maandenlang met onevenredig zware vragen om inlichtingen blijft duren. De rechter toetst marginaal — alleen kennelijk onredelijke beslissingen worden gecorrigeerd, niet elke beslissing waarmee de belastingplichtige het oneens is.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Marginale toetsing redelijkheid — Cassatie-leer" }
               ]
             }
           }
@@ -137,21 +155,16 @@
       },
       {
         "id": "vertrouwen",
-        "naam": {
-          "primair": "Vertrouwensbeginsel"
-        },
+        "naam": { "primair": "Vertrouwensbeginsel" },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: bescherming opgewekt vertrouwen",
+            "tekst": "Wanneer de fiscus expliciet of impliciet een standpunt heeft ingenomen waarop de belastingplichtige redelijkerwijze mocht vertrouwen, kan ze daar niet zomaar van afwijken zonder de belastingplichtige nadeel te berokkenen. Concreet: een schriftelijk akkoord over een waardering blijft de fiscus binden zolang de feiten ongewijzigd zijn; een ruling (voorafgaande beslissing) bindt de fiscus voor de gevraagde transactie. Voorwaarden voor inroeping: (1) duidelijke, persoonlijke informatie of toezegging van de fiscus; (2) feiten correct meegedeeld; (3) redelijk vertrouwen mogelijk; (4) belastingplichtige heeft erop gehandeld. Een algemene circulaire kan in beperkte mate vertrouwen wekken.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "afgeleid",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Cassatie-leer vertrouwensbeginsel; Wet 24-12-2002 over rulings als specifieke toepassing" },
+                { "type": "wettekst", "naam": "Wet 24 december 2002", "ref": "art. 20-23 — voorafgaande beslissingen (rulings)" }
               ]
             }
           }
@@ -159,32 +172,91 @@
       },
       {
         "id": "motivering",
-        "naam": {
-          "primair": "Motiveringsplicht"
-        },
+        "naam": { "primair": "Motiveringsplicht" },
         "bouwsteen_type": "principe",
         "kern": {
           "definitie": {
-            "tekst": "⏳ Te beschrijven: Wet 29-07-1991",
+            "tekst": "Volgens art. 2-3 van de Wet 29-07-1991 moeten bestuurshandelingen — dus ook fiscale beslissingen die de individuele situatie raken (aanslagwijziging, weigering bezwaar, opleggen sanctie) — de juridische en feitelijke redenen die de beslissing dragen, uitdrukkelijk vermelden in de akte. 'Materiële' motivering = de redenen moeten écht draagkrachtig zijn; 'formele' motivering = ze moeten in de akte staan. Een onvoldoende gemotiveerde fiscale beslissing kan op die enkele grond worden vernietigd door de rechter.",
             "grondslag": {
-              "confidence": "verondersteld",
+              "confidence": "geciteerd",
               "bronnen": [
-                {
-                  "type": "ai_model",
-                  "naam": "cluster-skeleton-agent",
-                  "datum": "2026-05-28"
-                }
+                { "type": "wettekst", "naam": "Wet 29 juli 1991", "ref": "art. 2" },
+                { "type": "wettekst", "naam": "Wet 29 juli 1991", "ref": "art. 3" }
+              ]
+            }
+          }
+        }
+      },
+      {
+        "id": "hoorrecht",
+        "naam": { "primair": "Hoorrecht (audi alteram partem)" },
+        "bouwsteen_type": "mechanisme",
+        "kern": {
+          "definitie": {
+            "tekst": "Voor een nadelige beslissing moet de fiscus de belastingplichtige de gelegenheid bieden zijn standpunt kenbaar te maken — concrete uitwerking van zorgvuldigheidsbeginsel. In fiscaal recht is dit deels gecodificeerd: art. 346 WIB92 vereist een bericht van wijziging vóór de fiscus de aangifte mag corrigeren; de belastingplichtige heeft 1 maand om opmerkingen te formuleren. Ontbrekend hoorrecht leidt tot vernietiging.",
+            "grondslag": {
+              "confidence": "geciteerd",
+              "bronnen": [
+                { "type": "wettekst", "naam": "WIB92", "ref": "art. 346", "context": "Bericht van wijziging — bestaande hoorrecht-uitwerking" },
+                { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
               ]
             }
           }
         }
       }
+    ],
+    "valkuilen": [
+      {
+        "titel": "Vertrouwensbeginsel uit lucht halen",
+        "verkeerde_assumptie": "Een vroegere controle waar geen opmerking werd gemaakt, schept automatisch vertrouwen.",
+        "kernpunt": "Het vertrouwensbeginsel vereist meer dan louter stilzwijgen of niet-handelen. Nodig: (a) een actief, expliciet of impliciet maar duidelijk standpunt van de fiscus; (b) gerechtvaardigd vertrouwen — een gewone medeplichtige interpretatie van de belastingplichtige volstaat niet. Rulings en schriftelijke akkoorden geven sterke bescherming; mondelinge toezeggingen zonder document veel zwakker.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28", "context": "Praktijkjurisprudentie vertrouwensbeginsel" }
+          ]
+        }
+      },
+      {
+        "titel": "Motivering = enkel verwijzing naar wetsartikel",
+        "verkeerde_assumptie": "Een aanslagwijziging die 'art. X WIB92' citeert is voldoende gemotiveerd.",
+        "kernpunt": "Materiële motivering vereist een uitwerking van waarom dat artikel in dit concrete geval van toepassing is — met feiten, cijfers en redenering. Een loutere wetsverwijzing zonder feitelijke onderbouwing schendt art. 2-3 Wet 29-07-1991 en kan tot vernietiging leiden.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "wettekst", "naam": "Wet 29 juli 1991", "ref": "art. 3" },
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      },
+      {
+        "titel": "Behoorlijk bestuur verwarren met fiscale beginselen",
+        "verkeerde_assumptie": "Studenten gooien behoorlijk-bestuur-beginselen en fiscale beginselen op één hoop.",
+        "kernpunt": "Fiscale beginselen (legaliteit, annaliteit, gelijkheid, ...) zijn substantieel — ze bepalen wát mag belast worden. Beginselen behoorlijk bestuur (rechtszekerheid, zorgvuldigheid, redelijkheid, vertrouwen, motivering) zijn procedureel — ze bepalen hoé de administratie haar bevoegdheid mag uitoefenen. Bij een betwisting: vaak beide groepen tegelijk inroepen — ze versterken elkaar.",
+        "grondslag": {
+          "confidence": "afgeleid",
+          "bronnen": [
+            { "type": "ai_model", "naam": "cluster-extract-agent (opus-4.7-1M)", "datum": "2026-05-28" }
+          ]
+        }
+      }
     ]
   },
   "relaties": [
+    { "type": "valt_onder", "target": "fiscale-procedure" },
     {
-      "type": "valt_onder",
-      "target": "fiscale-procedure"
+      "type": "vergelijkbaar_met",
+      "target": "fiscale-beginselen",
+      "gelijkenissen": [
+        "Beide zijn 'beginselen' die de fiscus disciplineren",
+        "Beide worden gebruikt om aanslagen aan te vechten voor de rechter"
+      ],
+      "verschillen": [
+        "Behoorlijk bestuur = procedureel (hoe handelt de fiscus?); fiscale beginselen = substantieel (wat mag belast worden?)",
+        "Behoorlijk bestuur = grotendeels ongeschreven + Wet 29-07-1991; fiscale beginselen = constitutioneel verankerd (Grondwet art. 10-11, 170-172)"
+      ],
+      "verwarring_risico": "Beide groepen bevatten een rechtszekerheidscomponent — de behoorlijk-bestuur-versie focust op consistentie van administratief optreden, de fiscale-beginsel-versie volgt uit het legaliteitsbeginsel.",
+      "render_hint": "als_waarschuwing"
     }
   ]
 }
